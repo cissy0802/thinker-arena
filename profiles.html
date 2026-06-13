@@ -12,7 +12,11 @@
       background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0a0e1a 100%);
       color: #d8dbe2; min-height: 100vh; line-height: 1.75; -webkit-font-smoothing: antialiased;
     }
-    .wrap { max-width: 820px; margin: 0 auto; padding: 52px 22px 90px; }
+    .wrap { max-width: 820px; margin: 0 auto; padding: 52px 22px 90px; position: relative; }
+    .lang-toggle { position: absolute; top: 16px; right: 18px; background: rgba(255,255,255,0.06);
+      color: #cdd2dd; border: 1px solid rgba(123,97,255,0.4); border-radius: 8px; padding: 5px 13px;
+      font-size: 12px; font-weight: 700; letter-spacing: .5px; cursor: pointer; font-family: inherit; transition: all .15s; }
+    .lang-toggle:hover { color: #fff; background: rgba(123,97,255,0.35); border-color: #7b61ff; }
     .crumb { font-size: 0.78rem; color: #7b61ff; font-family: "SF Mono", Menlo, monospace; letter-spacing: 1px; margin-bottom: 14px; text-align: center; }
     .crumb a { color: #7b61ff; text-decoration: none; }
     .crumb a:hover { color: #00d4ff; }
@@ -71,9 +75,10 @@
 </head>
 <body>
   <div class="wrap">
-    <div class="crumb"><a href="https://cissy0802.github.io/">← Learning Hub</a> &nbsp;/&nbsp; <a href="index.html">Thinking Hub</a> &nbsp;/&nbsp; 人物图鉴</div>
-    <h1>人物图鉴</h1>
-    <div class="sub">圆桌上每一位思想家，深入认识一下</div>
+    <button id="lang-toggle" class="lang-toggle">EN</button>
+    <div class="crumb"><a href="https://cissy0802.github.io/">← Learning Hub</a> &nbsp;/&nbsp; <a href="index.html">Thinking Hub</a> &nbsp;/&nbsp; <span id="crumb-tail">人物图鉴</span></div>
+    <h1 id="h1">人物图鉴</h1>
+    <div class="sub" id="sub">圆桌上每一位思想家，深入认识一下</div>
     <div id="content"></div>
     <footer>BigCat · Thinking Hub · <a href="https://github.com/cissy0802">GitHub</a></footer>
   </div>

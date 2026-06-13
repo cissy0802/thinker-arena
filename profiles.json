@@ -3,123 +3,223 @@
   "profiles": {
     "aristotle": {
       "bio": "前384–前322，古希腊斯塔吉拉人。柏拉图学园最杰出的学生，亚历山大大帝的老师，后在雅典创办吕克昂学园（逍遥学派）。著述横跨逻辑、物理、生物、伦理、政治、诗学，是百科全书式的奠基者。",
+      "bio_en": "384–322 BC, born in Stagira, ancient Greece. The most brilliant student of Plato's Academy, tutor to Alexander the Great, and later founder of the Lyceum (the Peripatetic school) in Athens. His writings span logic, physics, biology, ethics, politics, and poetics, making him an encyclopedic founder of Western thought.",
       "ideas": "主张幸福(eudaimonia)是合乎德性的实现活动；伦理上提出「中道」——德性在过与不及之间；以「四因说」与潜能/现实解释变化；逻辑学创立三段论；政治上称人是「政治的动物」。重经验观察，反对老师柏拉图脱离感官世界的理念论。",
+      "ideas_en": "He held that happiness (eudaimonia) is an activity of the soul in accordance with virtue; in ethics he proposed the doctrine of the mean—virtue lies between excess and deficiency. He explained change through his theory of the four causes and the distinction between potentiality and actuality, founded the syllogism in logic, and in politics called man a \"political animal.\" An empiricist at heart, he rejected his teacher Plato's theory of Forms detached from the sensory world.",
       "assessments": [
         { "by": "但丁", "text": "在《神曲》中称他为「知者的导师」(il maestro di color che sanno)。" },
         { "by": "中世纪经院哲学", "text": "阿奎那等人径直称他为「那位哲学家」(the Philosopher)，无需具名。" }
       ],
+      "assessments_en": [
+        { "by": "Dante", "text": "In the Divine Comedy he called him \"the master of those who know\" (il maestro di color che sanno)." },
+        { "by": "Medieval Scholasticism", "text": "Aquinas and others referred to him simply as \"the Philosopher,\" no name required." }
+      ],
       "quotes": ["求知是所有人的本性。（《形而上学》开篇）", "幸福是灵魂合于德性的实现活动。（《尼各马可伦理学》）"],
+      "quotes_en": ["All men by nature desire to know. (opening of the Metaphysics)", "Happiness is an activity of the soul in accordance with virtue. (Nicomachean Ethics)"],
       "works": ["《尼各马可伦理学》", "《政治学》", "《形而上学》", "《工具论》", "《诗学》"],
+      "works_en": ["Nicomachean Ethics", "Politics", "Metaphysics", "Organon", "Poetics"],
       "lineage": "受教于柏拉图；经阿奎那进入经院哲学，深刻塑造了西方逻辑与科学传统，并启发现代德性伦理学（如努斯鲍姆）。",
-      "trivia": "他讲学时爱边走边讲，学派因此得名「逍遥学派」；晚年遭「渎神」指控，逃离雅典时说：不让雅典第二次对哲学犯罪（指苏格拉底之死）。"
+      "lineage_en": "Taught by Plato; transmitted through Aquinas into Scholasticism, he profoundly shaped the Western traditions of logic and science, and inspired modern virtue ethics (such as the work of Martha Nussbaum).",
+      "trivia": "他讲学时爱边走边讲，学派因此得名「逍遥学派」；晚年遭「渎神」指控，逃离雅典时说：不让雅典第二次对哲学犯罪（指苏格拉底之死）。",
+      "trivia_en": "He liked to lecture while walking about, which gave his school the name \"Peripatetic\" (from the Greek for \"walking around\"). Late in life, facing a charge of impiety, he fled Athens, reportedly saying he would not let the city sin against philosophy a second time—a reference to the death of Socrates."
     },
     "epicurus": {
       "bio": "前341–前270，生于萨摩斯岛，后在雅典创办对女性与奴隶开放的「花园」学派。一生简朴自足，主张以快乐——身体无痛加心灵宁静——为人生目的。",
+      "bio_en": "341–270 BC, born on the island of Samos, he later founded the \"Garden\" school in Athens, which was open to women and slaves alike. He lived simply and self-sufficiently, holding that the goal of life is pleasure—understood as the absence of bodily pain together with tranquility of mind.",
       "ideas": "审慎的快乐主义，强调节制而非纵欲；把欲望分为必要的、自然而非必要的、虚妄的三类；持原子论唯物主义，认为灵魂随身体消散，故「死亡与我们无关」；去除对神与死亡的恐惧是宁静(ataraxia)的关键。",
+      "ideas_en": "A prudent hedonism that stressed moderation over indulgence. He sorted desires into three kinds—necessary, natural but unnecessary, and vain—and held an atomist materialism in which the soul dissolves along with the body, so that \"death is nothing to us.\" Freeing oneself from the fear of gods and of death is the key to tranquility (ataraxia).",
       "assessments": [
         { "by": "马克思", "text": "博士论文即研究德谟克利特与伊壁鸠鲁的自然哲学，推崇其唯物论与自由倾向。" },
         { "by": "尼采", "text": "称伊壁鸠鲁是「古代最伟大的人物之一」，赞赏他在病痛中仍保持的明朗。" }
       ],
+      "assessments_en": [
+        { "by": "Marx", "text": "His doctoral dissertation examined the natural philosophy of Democritus and Epicurus, praising the latter's materialism and its bent toward freedom." },
+        { "by": "Nietzsche", "text": "He called Epicurus one of the greatest figures of antiquity, admiring the serenity he kept even amid physical suffering." }
+      ],
       "quotes": ["死亡与我们无关：我们存在时，死亡尚未来临；死亡来临时，我们已不存在。（《致美诺寇的信》）", "面包和水，就能带来极致的快乐——只要你正饿着、渴着。（大意）"],
+      "quotes_en": ["Death is nothing to us: when we exist, death is not yet present; and when death is present, we no longer exist. (Letter to Menoeceus)", "Bread and water give the keenest pleasure—when one is hungry and thirsty. (paraphrased)"],
       "works": ["《致美诺寇的信》", "《主要原理》（格言集）"],
+      "works_en": ["Letter to Menoeceus", "Principal Doctrines (a collection of maxims)"],
       "lineage": "承德谟克利特的原子论；经罗马的卢克莱修《物性论》传世；影响近代世俗伦理与功利主义。",
-      "trivia": "今天「Epicurean」常被误用为「享乐纵欲」，恰与他主张的简朴节制相反；临终病痛中，他写信说与朋友相处的快乐压过了肉体之苦。"
+      "lineage_en": "He inherited the atomism of Democritus; his thought was preserved through the Roman poet Lucretius's On the Nature of Things, and it influenced modern secular ethics and utilitarianism.",
+      "trivia": "今天「Epicurean」常被误用为「享乐纵欲」，恰与他主张的简朴节制相反；临终病痛中，他写信说与朋友相处的快乐压过了肉体之苦。",
+      "trivia_en": "Today the word \"Epicurean\" is often misused to mean indulgent pleasure-seeking—the very opposite of the simplicity and moderation he preached. On his deathbed, wracked with pain, he wrote that the joy of remembering his friends outweighed all his bodily suffering."
     },
     "buddha": {
       "bio": "约前563–前483，本名乔达摩·悉达多，古印度释迦族王子。29 岁见生老病死而出家，历经苦行后于菩提树下悟道，成为「佛陀」（觉者），说法四十余年。",
+      "bio_en": "c. 563–483 BC, born Siddhartha Gautama, a prince of the Shakya clan in ancient India. At twenty-nine, confronted by the sights of old age, sickness, and death, he renounced his royal life; after years of austerity he attained enlightenment beneath the Bodhi tree and became the \"Buddha\" (the Awakened One), teaching for more than forty years.",
       "ideas": "四圣谛（苦集灭道）、缘起、无常、无我、中道；认为众生受贪嗔痴之苦，循八正道可达涅槃；不立造物主，重亲证而非信仰。",
+      "ideas_en": "The Four Noble Truths (suffering, its origin, its cessation, and the path), dependent origination, impermanence, non-self, and the Middle Way. He taught that beings suffer from greed, hatred, and delusion, and that following the Noble Eightfold Path leads to nirvana. He posited no creator god and valued direct realization over faith.",
       "assessments": [
         { "by": "叔本华", "text": "推崇佛教为最高的宗教，其「否定生命意志」的思想与佛教的离苦颇多共鸣。" },
         { "by": "赫尔曼·黑塞", "text": "小说《悉达多》以佛陀时代的求道为题，表达对证悟之路的敬意。" }
       ],
+      "assessments_en": [
+        { "by": "Schopenhauer", "text": "He esteemed Buddhism as the highest of religions, finding deep resonance between its release from suffering and his own idea of the \"denial of the will to live.\"" },
+        { "by": "Hermann Hesse", "text": "His novel Siddhartha, set in the Buddha's era, traces a seeker's path and pays homage to the journey toward awakening." }
+      ],
       "quotes": ["诸行无常，是生灭法。（《大般涅槃经》偈）", "怨不止怨，唯爱能止——此乃永恒之法。（《法句经》大意）"],
+      "quotes_en": ["All conditioned things are impermanent; arising and passing away is their nature. (verse from the Mahaparinirvana Sutra)", "Hatred is never ended by hatred, but by love alone—this is the eternal law. (Dhammapada, paraphrased)"],
       "works": ["佛陀本人未著书；教法经后世结集为巴利三藏（经、律、论）与《阿含经》。"],
+      "works_en": ["The Buddha wrote nothing himself; his teachings were compiled by later generations into the Pali Canon (the Sutta, Vinaya, and Abhidhamma) and the Agama sutras."],
       "lineage": "源出古印度沙门思潮，反婆罗门权威；后分大乘小乘，衍生中观（龙树）、唯识（世亲）、禅宗（慧能）等，深刻塑造东亚文明。",
-      "trivia": "「佛」不是神，而是「觉醒者」；佛陀拒答形而上空谈（如世界有无边际），以「中毒之箭」作喻——中箭者该先拔箭疗伤，而非追问箭从何来。"
+      "lineage_en": "He emerged from the shramana movements of ancient India, challenging Brahmanical authority. Buddhism later split into the Mahayana and Theravada traditions and gave rise to schools such as Madhyamaka (Nagarjuna), Yogachara (Vasubandhu), and Chan/Zen (Huineng), profoundly shaping East Asian civilization.",
+      "trivia": "「佛」不是神，而是「觉醒者」；佛陀拒答形而上空谈（如世界有无边际），以「中毒之箭」作喻——中箭者该先拔箭疗伤，而非追问箭从何来。",
+      "trivia_en": "\"Buddha\" denotes not a god but an \"awakened one.\" He refused to engage in idle metaphysical speculation (such as whether the world is finite or infinite), using the parable of the poisoned arrow: a man struck by an arrow should first pull it out and tend the wound, not demand to know where it came from."
     },
     "schopenhauer": {
       "bio": "1788–1860，德国哲学家，出身但泽富商家庭。代表作《作为意志和表象的世界》早年遭冷遇，晚年方暴得大名。性情孤傲悲观，曾与黑格尔同时在柏林开课，却门可罗雀。",
+      "bio_en": "1788–1860, a German philosopher born into a wealthy merchant family in Danzig. His masterwork, The World as Will and Representation, was ignored for years, and fame came only late in his life. Proud, solitary, and pessimistic by temperament, he once scheduled his Berlin lectures to clash with Hegel's—only to find his own hall nearly empty.",
       "ideas": "世界的本质是盲目、永不满足的「意志」，现象界只是其「表象」；人生在欲求之苦与满足后的无聊间摆荡；解脱之道在艺术的静观、对他人的同情（伦理基础）、以及禁欲（否定意志）。",
+      "ideas_en": "The essence of the world is a blind, never-satisfied \"Will,\" of which the world of appearances is merely the \"Representation.\" Human life swings between the suffering of desire and the boredom that follows its satisfaction. Liberation lies in the aesthetic contemplation of art, in compassion for others (the basis of his ethics), and in asceticism (the denial of the will).",
       "assessments": [
         { "by": "尼采", "text": "青年尼采奉其为精神导师，写下《作为教育者的叔本华》；后虽决裂，仍承认深受其塑造。" },
         { "by": "托尔斯泰", "text": "一度沉迷其哲学，称叔本华是「人类中最有天才的人」。" }
       ],
+      "assessments_en": [
+        { "by": "Nietzsche", "text": "The young Nietzsche revered him as a spiritual mentor and wrote Schopenhauer as Educator; though he later broke away, he still acknowledged how deeply Schopenhauer had shaped him." },
+        { "by": "Tolstoy", "text": "He was for a time absorbed in Schopenhauer's philosophy, calling him \"the most brilliant of all men.\"" }
+      ],
       "quotes": ["人能做他想做的，但不能要他所要的。（论意志不自由）", "人生如钟摆，在痛苦与无聊之间摆动。"],
+      "quotes_en": ["A man can do what he wills, but he cannot will what he wills. (on the unfreedom of the will)", "Life swings like a pendulum between pain and boredom."],
       "works": ["《作为意志和表象的世界》", "《论充足理由律的四重根》", "《附录与补遗》（含人生智慧箴言）"],
+      "works_en": ["The World as Will and Representation", "On the Fourfold Root of the Principle of Sufficient Reason", "Parerga and Paralipomena (including his aphorisms on the wisdom of life)"],
       "lineage": "承康德（现象/物自体）与柏拉图（理念），并融入印度《奥义书》与佛教；影响尼采、瓦格纳、弗洛伊德、托尔斯泰、维特根斯坦及现代心理学。",
-      "trivia": "他视《奥义书》为「我生时的慰藉，也将是我死时的慰藉」；作息精确，每天定时遛狗，并给狗取名「宇宙精神」以讥讽黑格尔。"
+      "lineage_en": "He drew on Kant (the phenomenon and the thing-in-itself) and Plato (the Forms), weaving in the Indian Upanishads and Buddhism. His influence reached Nietzsche, Wagner, Freud, Tolstoy, Wittgenstein, and modern psychology.",
+      "trivia": "他视《奥义书》为「我生时的慰藉，也将是我死时的慰藉」；作息精确，每天定时遛狗，并给狗取名「宇宙精神」以讥讽黑格尔。",
+      "trivia_en": "He called the Upanishads \"the consolation of my life and will be the consolation of my death.\" Punctual in his routines, he walked his dog at the same hour each day and named it \"World-Soul\" as a jab at Hegel."
     },
     "seligman": {
       "bio": "1942–，美国心理学家，宾夕法尼亚大学教授，1998 年任美国心理学会(APA)主席，被誉为「积极心理学之父」。早年以「习得性无助」实验闻名，后转向研究如何让人蓬勃(flourishing)。",
+      "bio_en": "Born 1942, an American psychologist and professor at the University of Pennsylvania who served as president of the American Psychological Association (APA) in 1998 and is hailed as the \"father of positive psychology.\" Known early on for his experiments on learned helplessness, he later turned to studying how people can flourish.",
       "ideas": "从「习得性无助」转向「习得性乐观」；提出幸福的 PERMA 模型（积极情绪、投入、关系、意义、成就）；主张心理学不应只修复疾病，更应培育人的优势与美德。",
+      "ideas_en": "Moving from learned helplessness to \"learned optimism,\" he proposed the PERMA model of well-being (positive emotion, engagement, relationships, meaning, and accomplishment). He argued that psychology should not merely repair illness but also cultivate human strengths and virtues.",
       "assessments": [
         { "by": "戈登·奥尔波特一脉的人本传统", "text": "积极心理学被誉为补上了主流心理学长期忽视的「正向」一翼。" },
         { "by": "同行批评", "text": "也有学者指出其部分研究在「可复制性危机」中受到质疑，提醒勿把幸福学过度简化或商业化。" }
       ],
+      "assessments_en": [
+        { "by": "The humanistic tradition descended from Gordon Allport", "text": "Positive psychology is credited with restoring the \"positive\" wing that mainstream psychology had long neglected." },
+        { "by": "Peer critics", "text": "Some scholars note that parts of his research came into question during the \"replication crisis,\" cautioning against oversimplifying or commercializing the science of happiness." }
+      ],
       "quotes": ["「习得性无助」可以被「习得性乐观」取代。", "心理学的一半使命，是让正常人的生活更充实、更有意义。（大意）"],
+      "quotes_en": ["Learned helplessness can be replaced by learned optimism.", "Half the mission of psychology is to make the lives of ordinary people fuller and more meaningful. (paraphrased)"],
       "works": ["《习得性乐观》", "《真实的幸福》", "《持续的幸福》(Flourish)"],
+      "works_en": ["Learned Optimism", "Authentic Happiness", "Flourish"],
       "lineage": "承认知行为传统；与契克森米哈伊共同发起积极心理学运动；影响积极教育、正向组织与幸福政策。",
-      "trivia": "他常讲一个转折：某天在花园里训斥五岁女儿，女儿回他「爸爸，你能不能别再这么爱抱怨」——这句话促使他转向研究积极情绪。"
+      "lineage_en": "Building on the cognitive-behavioral tradition, he launched the positive psychology movement together with Mihaly Csikszentmihalyi, influencing positive education, positive organizational scholarship, and well-being policy.",
+      "trivia": "他常讲一个转折：某天在花园里训斥五岁女儿，女儿回他「爸爸，你能不能别再这么爱抱怨」——这句话促使他转向研究积极情绪。",
+      "trivia_en": "He often recounts a turning point: while scolding his five-year-old daughter in the garden one day, she shot back, \"Daddy, can't you stop being such a grouch?\"—a remark that prompted him to begin studying positive emotion."
     },
     "kahneman": {
       "bio": "1934–2024，以色列裔美国心理学家。2002 年因将心理学引入经济学（前景理论）获诺贝尔经济学奖——而他自陈「从没上过一门经济学课」。与阿莫斯·特沃斯基长期合作。",
+      "bio_en": "1934–2024, an Israeli-American psychologist who won the 2002 Nobel Prize in Economics for bringing psychology into economics (through prospect theory)—despite, by his own admission, never having taken a single economics course. He worked for many years in close partnership with Amos Tversky.",
       "ideas": "双系统理论（快思考的系统1 / 慢思考的系统2）、前景理论（损失厌恶）、各种认知偏误（锚定、可得性、框架效应）；晚年区分「体验自我」与「记忆自我」，指出二者常冲突。",
+      "ideas_en": "Dual-process theory (the fast-thinking System 1 and the slow-thinking System 2), prospect theory (loss aversion), and a range of cognitive biases (anchoring, availability, framing effects). In later years he distinguished the \"experiencing self\" from the \"remembering self,\" noting how often the two are in conflict.",
       "assessments": [
         { "by": "诺贝尔奖委员会", "text": "表彰其「把心理学研究的洞见整合进经济科学，尤其是不确定性下的判断与决策」。" },
         { "by": "理查德·塞勒", "text": "行为经济学的开创者公开视卡尼曼与特沃斯基为整个领域的奠基人。" }
       ],
+      "assessments_en": [
+        { "by": "The Nobel Prize Committee", "text": "It honored him \"for having integrated insights from psychological research into economic science, especially concerning human judgment and decision-making under uncertainty.\"" },
+        { "by": "Richard Thaler", "text": "The founder of behavioral economics has openly regarded Kahneman and Tversky as the founders of the entire field." }
+      ],
       "quotes": ["当你正想着某件事时，没有什么事像你以为的那么重要。（聚焦错觉）", "我研究了一辈子偏误，却几乎改不掉自己的任何一个。（大意）"],
+      "quotes_en": ["Nothing in life is as important as you think it is while you are thinking about it. (the focusing illusion)", "I have studied biases my whole life, yet I have managed to overcome almost none of my own. (paraphrased)"],
       "works": ["《思考，快与慢》", "《噪声》（合著）", "前景理论论文(1979)"],
+      "works_en": ["Thinking, Fast and Slow", "Noise (co-authored)", "the prospect theory paper (1979)"],
       "lineage": "与特沃斯基的合作是核心；影响塞勒与桑斯坦的「助推」、以及整个行为经济学与决策科学。",
-      "trivia": "获诺奖时他坚持荣誉应与已故的特沃斯基共享（诺奖不追授逝者）；他对自己「研究判断、却仍逃不过判断错误」一事颇为坦然自嘲。"
+      "lineage_en": "His collaboration with Tversky lies at the heart of his work; it shaped Thaler and Sunstein's concept of the \"nudge\" and the whole of behavioral economics and decision science.",
+      "trivia": "获诺奖时他坚持荣誉应与已故的特沃斯基共享（诺奖不追授逝者）；他对自己「研究判断、却仍逃不过判断错误」一事颇为坦然自嘲。",
+      "trivia_en": "On receiving the Nobel Prize, he insisted that the honor belonged equally to the late Tversky (the prize is not awarded posthumously). He was candidly self-deprecating about the irony of studying judgment yet still falling prey to its errors."
     },
     "frankl": {
       "bio": "1905–1997，奥地利神经病学与精神病学家，犹太人。二战中被关入奥斯维辛等集中营，父母、妻子、兄弟皆死于纳粹。幸存后写成《活出生命的意义》，创立「意义疗法」(logotherapy)。",
+      "bio_en": "1905–1997, an Austrian neurologist and psychiatrist of Jewish descent. During the Second World War he was imprisoned in Auschwitz and other concentration camps, where his parents, wife, and brother all perished at the hands of the Nazis. After surviving, he wrote Man's Search for Meaning and founded logotherapy.",
       "ideas": "人最根本的动力是「追寻意义」（而非弗洛伊德的快乐或阿德勒的权力）；即使在最极端的苦难中，人仍保有「选择态度的最后自由」；意义可在创造、体验（爱）、以及面对苦难的态度中找到。",
+      "ideas_en": "Humanity's most fundamental drive is the search for meaning—not Freud's pleasure or Adler's power. Even in the most extreme suffering, a person retains the \"last freedom\" to choose one's own attitude. Meaning can be found in creating, in experiencing (love), and in the stance one takes toward unavoidable suffering.",
       "assessments": [
         { "by": "戈登·奥尔波特", "text": "为其英文版作序，称意义疗法是当代心理治疗中极重要的一支。" },
         { "by": "美国国会图书馆读者调查", "text": "《活出生命的意义》曾被票选为「最有影响力的书」之一，全球销量逾千万册。" }
       ],
+      "assessments_en": [
+        { "by": "Gordon Allport", "text": "He wrote the preface to the English edition, calling logotherapy one of the most significant currents in contemporary psychotherapy." },
+        { "by": "A Library of Congress reader survey", "text": "Man's Search for Meaning was voted one of the \"most influential books,\" with worldwide sales exceeding ten million copies." }
+      ],
       "quotes": ["当我们无法改变处境，挑战就在于改变我们自己。", "人所拥有的一切都可被剥夺，唯独最后的自由——在既定境遇中选择自己态度的自由——不能。"],
+      "quotes_en": ["When we are no longer able to change a situation, we are challenged to change ourselves.", "Everything can be taken from a man but one thing: the last of the human freedoms—to choose one's attitude in any given set of circumstances."],
       "works": ["《活出生命的意义》(Man's Search for Meaning)", "《医生与灵魂》", "《无意义生活之痛苦》"],
+      "works_en": ["Man's Search for Meaning", "The Doctor and the Soul", "The Unheard Cry for Meaning"],
       "lineage": "曾师法弗洛伊德与阿德勒，后自立「维也纳第三心理治疗学派」；影响人本主义、存在主义心理学与积极心理学。",
-      "trivia": "战前他已拿到赴美签证，却为陪伴年迈父母留在维也纳，终被捕；集中营里手稿被没收，他凭记忆在碎纸片上一点点重写。"
+      "lineage_en": "Having studied under the traditions of Freud and Adler, he went on to found the \"Third Viennese School of Psychotherapy.\" His work influenced humanistic and existential psychology as well as positive psychology.",
+      "trivia": "战前他已拿到赴美签证，却为陪伴年迈父母留在维也纳，终被捕；集中营里手稿被没收，他凭记忆在碎纸片上一点点重写。",
+      "trivia_en": "He had obtained a visa to the United States before the war, but chose to stay in Vienna to be with his aging parents and was ultimately arrested. When his manuscript was confiscated in the camps, he reconstructed it from memory, scrap of paper by scrap of paper."
     },
     "naval": {
       "bio": "1974–，印度裔美国创业者、天使投资人，AngelList 联合创始人，早期投资 Uber、Twitter 等。以推特格言与播客谈「财富与幸福」走红，被称为「硅谷哲人」。",
+      "bio_en": "Born 1974, an Indian-American entrepreneur and angel investor, co-founder of AngelList, and an early backer of Uber, Twitter, and others. He rose to prominence through his aphorisms on Twitter and his podcasts on wealth and happiness, earning the nickname \"the philosopher of Silicon Valley.\"",
       "ideas": "靠「特定知识 + 杠杆（资本/代码/媒体）+ 产权」创造财富，而非出卖时间；幸福是一种可习得的内在技能、是「无所匮乏」的默认状态；欲望是「你与自己签的不快乐契约」。",
+      "ideas_en": "Wealth is created through \"specific knowledge + leverage (capital, code, or media) + equity,\" not by selling one's time. Happiness is a learnable inner skill, a default state of feeling that nothing is lacking. Desire, he says, is \"a contract you make with yourself to be unhappy until you get what you want.\"",
       "assessments": [
         { "by": "埃里克·乔根森", "text": "将其推文与访谈整理成《纳瓦尔宝典》(The Almanack of Naval Ravikant)，畅销全球。" },
         { "by": "科技圈", "text": "被誉为「一条推特讲清一个人生道理」的代表；也有人批评其格言式智慧失之简化。" }
       ],
+      "assessments_en": [
+        { "by": "Eric Jorgenson", "text": "He compiled Naval's tweets and interviews into The Almanack of Naval Ravikant, which became a global bestseller." },
+        { "by": "The tech world", "text": "He is celebrated as a master of distilling a life lesson into a single tweet; critics, however, fault his aphoristic wisdom for being too simplistic." }
+      ],
       "quotes": ["想致富，就去为社会提供它想要、却还不知道如何获得的东西。", "幸福，是当你停止追逐别的东西后，所剩下的那个状态。（大意）"],
+      "quotes_en": ["To get rich, give society what it wants but does not yet know how to get.", "Happiness is the state that remains once you stop chasing everything else. (paraphrased)"],
       "works": ["《纳瓦尔宝典》（他人整理）", "长文《How to Get Rich》", "播客《Naval》"],
+      "works_en": ["The Almanack of Naval Ravikant (compiled by others)", "the essay \"How to Get Rich\"", "the podcast Naval"],
       "lineage": "融合斯多葛、佛教、克里希那穆提与现代创业实践；影响一代创业者与「个人成长」圈层。",
-      "trivia": "他常说读了很多书，但能留下的智慧最终都浓缩成几条简单原则；自称对头衔与名利越来越无感。"
+      "lineage_en": "He blends Stoicism, Buddhism, Krishnamurti, and modern startup practice, influencing a generation of entrepreneurs and the broader \"personal growth\" community.",
+      "trivia": "他常说读了很多书，但能留下的智慧最终都浓缩成几条简单原则；自称对头衔与名利越来越无感。",
+      "trivia_en": "He often says that for all the books he has read, the wisdom that lasts ultimately boils down to a handful of simple principles, and that he has grown increasingly indifferent to titles, fame, and fortune."
     },
     "marx": {
       "bio": "1818–1883，德国哲学家、经济学家、革命家，出身特里尔律师家庭。因激进政论流亡巴黎、布鲁塞尔，终定居伦敦，在大英博物馆苦读写就《资本论》，生活长期困顿，靠恩格斯接济。",
+      "bio_en": "1818–1883, a German philosopher, economist, and revolutionary born into a lawyer's family in Trier. His radical political writings drove him into exile in Paris and Brussels before he finally settled in London, where he toiled in the reading room of the British Museum to write Capital. He lived in chronic poverty, sustained by the support of Friedrich Engels.",
       "ideas": "历史唯物主义（物质生产关系决定上层建筑）、阶级斗争、劳动异化、剩余价值，以及资本积累的内在矛盾；主张资本主义终将被更高的社会形态扬弃。",
+      "ideas_en": "Historical materialism (the relations of material production determine the superstructure), class struggle, the alienation of labor, surplus value, and the internal contradictions of capital accumulation. He held that capitalism would ultimately be superseded by a higher form of society.",
       "assessments": [
         { "by": "以赛亚·伯林", "text": "称马克思的影响「或许超过十九世纪任何其他思想家」。" },
         { "by": "卡尔·波普尔", "text": "在《开放社会及其敌人》中严厉批评其历史决定论，视之为「历史主义」的危险范例。" }
       ],
+      "assessments_en": [
+        { "by": "Isaiah Berlin", "text": "He held that Marx's influence was \"perhaps greater than that of any other thinker of the nineteenth century.\"" },
+        { "by": "Karl Popper", "text": "In The Open Society and Its Enemies he sharply criticized Marx's historical determinism, treating it as a dangerous example of \"historicism.\"" }
+      ],
       "quotes": ["哲学家们只是用不同方式解释世界，而问题在于改变世界。（《关于费尔巴哈的提纲》）", "无产者失去的只是锁链，他们获得的将是整个世界。（《共产党宣言》）"],
+      "quotes_en": ["The philosophers have only interpreted the world, in various ways; the point, however, is to change it. (Theses on Feuerbach)", "The proletarians have nothing to lose but their chains. They have a world to win. (The Communist Manifesto)"],
       "works": ["《资本论》", "《共产党宣言》（与恩格斯）", "《1844年经济学哲学手稿》", "《关于费尔巴哈的提纲》"],
+      "works_en": ["Capital", "The Communist Manifesto (with Engels)", "Economic and Philosophic Manuscripts of 1844", "Theses on Feuerbach"],
       "lineage": "批判地继承黑格尔辩证法、费尔巴哈唯物论、英国古典经济学（斯密、李嘉图）与法国社会主义；影响 20 世纪几乎整个左翼思想与世界格局。",
-      "trivia": "他曾说「我只知道我自己不是马克思主义者」，以讽刺某些教条追随者；墓在伦敦海格特公墓，刻着「全世界无产者，联合起来」。"
+      "lineage_en": "He critically inherited Hegel's dialectics, Feuerbach's materialism, British classical economics (Smith and Ricardo), and French socialism. His influence extended over nearly the whole of twentieth-century left-wing thought and the shape of the modern world.",
+      "trivia": "他曾说「我只知道我自己不是马克思主义者」，以讽刺某些教条追随者；墓在伦敦海格特公墓，刻着「全世界无产者，联合起来」。",
+      "trivia_en": "He once remarked, \"All I know is that I am not a Marxist,\" mocking certain dogmatic followers. His grave in London's Highgate Cemetery bears the inscription \"Workers of all lands, unite.\""
     },
     "sapolsky": {
       "bio": "1957–，美国神经内分泌学家，斯坦福大学教授，曾在肯尼亚研究野生狒狒群长达数十年。以幽默而博学的科普著作与公开课闻名。",
+      "bio_en": "Born 1957, an American neuroendocrinologist and professor at Stanford University who spent decades studying troops of wild baboons in Kenya. He is known for his witty and erudite popular-science books and public lectures.",
       "ideas": "从激素（尤其皮质醇）、杏仁核、基因×环境拆解人类行为；论证慢性应激如何损害身心；近著《决定》(Determined)系统主张自由意志并不存在——一切行为都是无数前因（基因、激素、童年、文化、进化）的产物。",
+      "ideas_en": "He dissects human behavior through hormones (especially cortisol), the amygdala, and the interplay of genes and environment, showing how chronic stress damages both body and mind. His recent book Determined systematically argues that free will does not exist—every behavior is the product of countless prior causes: genes, hormones, childhood, culture, and evolution.",
       "assessments": [
         { "by": "主流书评", "text": "其《行为》(Behave)被誉为整合生物学、神经科学与社会科学来解释人类行为的集大成之作。" },
         { "by": "自由意志论者", "text": "其彻底的决定论引发激烈争论，批评者担心否定自由意志会动摇道德责任的根基。" }
       ],
+      "assessments_en": [
+        { "by": "Mainstream reviews", "text": "His book Behave is hailed as a magisterial synthesis of biology, neuroscience, and social science in explaining human behavior." },
+        { "by": "Defenders of free will", "text": "His thoroughgoing determinism has sparked fierce debate, with critics worried that denying free will would undermine the very foundation of moral responsibility." }
+      ],
       "quotes": ["想理解一个行为，就得同时问：一秒前、一分钟前、几年前、乃至几百万年前发生了什么。（大意）", "我们就是自己的生物机制，加上它与环境互动的全部历史。（大意）"],
+      "quotes_en": ["To understand a behavior, you have to ask all at once what happened a second before, a minute before, years before, and even millions of years before. (paraphrased)", "We are nothing more than our biology, plus the entire history of how it has interacted with the environment. (paraphrased)"],
       "works": ["《行为》(Behave)", "《斑马为什么不会得胃溃疡》（论应激）", "《决定》(Determined)"],
+      "works_en": ["Behave", "Why Zebras Don't Get Ulcers (on stress)", "Determined"],
       "lineage": "承行为神经科学与进化生物学；就自由意志与丹尼特等人针锋相对；推动了公众对「生物学与责任」的讨论。",
-      "trivia": "他在肯尼亚给研究的狒狒起《圣经》人物的名字；自陈是无神论者，且坦言「虽然我不信自由意志，日常里还是忍不住对人有评判」。"
+      "lineage_en": "He builds on behavioral neuroscience and evolutionary biology, clashes head-on with thinkers like Daniel Dennett over free will, and has pushed forward the public conversation about biology and responsibility.",
+      "trivia": "他在肯尼亚给研究的狒狒起《圣经》人物的名字；自陈是无神论者，且坦言「虽然我不信自由意志，日常里还是忍不住对人有评判」。",
+      "trivia_en": "In Kenya he gave the baboons he studied the names of biblical figures. A self-professed atheist, he candidly admits that \"even though I don't believe in free will, in daily life I still can't help passing judgment on people.\""
     }
   }
 }

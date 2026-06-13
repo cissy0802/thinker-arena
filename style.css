@@ -17,6 +17,7 @@ html, body {
   color: var(--txt);
   font-family: "PingFang SC", "Microsoft YaHei", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
+  overflow-x: clip;
 }
 .app { display: flex; min-height: 100vh; }
 
@@ -45,6 +46,13 @@ html, body {
 .chan-header .sep { width: 1px; height: 18px; background: var(--line); margin: 0 4px; }
 .chan-header .sub { color: var(--txt-muted); font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .chan-header .members { margin-left: auto; color: var(--txt-muted); font-size: 13px; display: flex; align-items: center; gap: 4px; }
+.lang-toggle {
+  margin-left: auto; background: var(--bg-pill); color: var(--txt); border: 1px solid var(--line);
+  border-radius: 8px; padding: 4px 11px; font-size: 12px; font-weight: 600; cursor: pointer;
+  font-family: inherit; transition: all .15s; letter-spacing: .3px;
+}
+.lang-toggle:hover { color: #fff; border-color: var(--blurple); background: var(--blurple); }
+.chan-header .lang-toggle + .members { margin-left: 12px; }
 
 .scroll { background: var(--bg); flex: 1; }
 .thread { max-width: 920px; margin: 0 auto; padding: 8px 8px 40px; }
@@ -131,6 +139,7 @@ html, body {
   position: absolute; z-index: 40; background: #0F1013; border: 1px solid var(--line);
   border-radius: 8px; padding: 10px 12px; visibility: hidden; opacity: 0;
   transition: opacity .12s; pointer-events: none; width: 250px;
+  max-width: calc(100vw - 16px);
 }
 .htext .tip { top: 106%; left: 0; right: auto; }
 .htext:hover .tip, .htext.open .tip { visibility: visible; opacity: 1; }

@@ -25,10 +25,11 @@
   }
   function tk(id) { return THINKERS[id] || { name: id, name_en: id, char: "?", color: "#888", fg: "#fff", school: "" }; }
   function nameOf(c) { return pick(c, "name"); }
+  function glyph(card) { return (LANG === "en" && card.char_en) ? card.char_en : card.char; }
   function avatar(card, size) {
     var fs = Math.round(size * 0.42);
     return '<div class="av" style="width:' + size + 'px;height:' + size + 'px;font-size:' + fs +
-      'px;background:' + card.color + ';color:' + card.fg + '">' + esc(card.char) + "</div>";
+      'px;background:' + card.color + ';color:' + card.fg + '">' + esc(glyph(card)) + "</div>";
   }
   function reactorRows(ids) {
     return ids.map(function (id) {
@@ -110,10 +111,12 @@
 
   function postAvatar(card) {
     var reason = (window.__REASONS || {})[card.id];
+    var alt = (LANG === "zh" && card.name_en && card.name_en !== card.name) ? card.name_en : "";
     return '<div class="av-wrap" role="button" tabindex="0">' + avatar(card, 42) +
       '<span class="tip av-tip">' +
       '<span class="at-name" style="color:' + card.color + '">' + esc(nameOf(card)) + "</span>" +
       '<span class="at-handle">' + esc(card.handle || "") + "</span>" +
+      (alt ? '<div class="at-name-en">' + esc(alt) + "</div>" : "") +
       '<div class="at-school">' + esc([pick(card, "school"), card.era].filter(Boolean).join(" · ")) + "</div>" +
       (reason ? '<div class="at-reason"><b>' + T("stance") + '</b><br>' + esc(reason) + "</div>" : "") +
       "</span></div>";

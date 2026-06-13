@@ -49,7 +49,8 @@
       var html = debates.map(function (d, i) {
         var seats = (d.participants || []).map(function (id) {
           var c = TK[id] || { char: "?", color: "#888", fg: "#fff" };
-          return '<span class="av" style="background:' + c.color + ';color:' + c.fg + '">' + esc(c.char) + "</span>";
+          var g = (LANG === "en" && c.char_en) ? c.char_en : c.char;
+          return '<span class="av" style="background:' + c.color + ';color:' + c.fg + '">' + esc(g) + "</span>";
         }).join("");
         var n = (d.participants || []).length;
         return '<a class="topic-card" href="debate.html?d=' + esc(d.id) + '">' +

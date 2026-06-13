@@ -24,10 +24,11 @@
   function getJSON(u) {
     return fetch(u).then(function (r) { if (!r.ok) throw new Error(u + " HTTP " + r.status); return r.json(); });
   }
+  function glyph(card) { return (LANG === "en" && card.char_en) ? card.char_en : card.char; }
   function av(card, size) {
     var fs = Math.round(size * 0.42);
     return '<div class="av" style="width:' + size + 'px;height:' + size + 'px;font-size:' + fs +
-      'px;background:' + card.color + ';color:' + card.fg + '">' + esc(card.char) + "</div>";
+      'px;background:' + card.color + ';color:' + card.fg + '">' + esc(glyph(card)) + "</div>";
   }
   function sec(label, icon, inner) {
     return '<div class="sec"><div class="lbl"><i class="ti ' + icon + '"></i>' + esc(label) + "</div>" + inner + "</div>";
@@ -45,9 +46,11 @@
     var metaArr = [pick(c, "school"), c.era, pick(c, "region")].filter(Boolean);
     var sch = pick(c, "school"), reg = pick(c, "region");
     if (reg && sch && sch.indexOf(reg) !== -1) metaArr = [sch, c.era].filter(Boolean);
+    var alt = (LANG === "zh" && c.name_en && c.name_en !== c.name) ? c.name_en : "";
     var head = '<div class="head">' + av(c, 52) +
       '<div><div class="nm" style="color:' + c.color + '">' + esc(nameOf(c)) +
       ' <span class="handle">' + esc(c.handle || "") + "</span></div>" +
+      (alt ? '<div class="nm-en">' + esc(alt) + "</div>" : "") +
       '<div class="meta">' + metaArr.map(esc).join(" · ") + "</div></div></div>";
     var body = "";
     if (p) {

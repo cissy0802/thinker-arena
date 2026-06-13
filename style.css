@@ -61,6 +61,7 @@ html, body {
   display: inline-flex; align-items: center; gap: 7px; background: var(--bg-card);
   border: 1px solid var(--line); border-radius: 20px; padding: 3px 10px 3px 3px; position: relative;
   text-decoration: none; cursor: pointer; transition: border-color .15s, transform .15s;
+  color: var(--txt);
 }
 .lineup a.seat:hover { border-color: var(--blurple); transform: translateY(-1px); }
 .lineup .seat-all {

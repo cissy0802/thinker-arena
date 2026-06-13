@@ -1,0 +1,721 @@
+{
+  "id": "family-trauma",
+  "question": "原生家庭的创伤：我们多大程度被童年塑造？能否真正走出来？是否有希望改变父母？",
+  "question_en": "Trauma from the family we're born into: how much does childhood shape us, can we truly move past it, and is there any hope of changing our parents?",
+  "createdAt": "2026-06-13",
+  "rounds": 3,
+  "participants": [
+    "freud",
+    "adler",
+    "jung",
+    "sapolsky",
+    "frankl",
+    "vasubandhu",
+    "nietzsche",
+    "kongzi"
+  ],
+  "casting": [
+    {
+      "id": "freud",
+      "reason": "童年决定论源头：早年经历与潜意识塑造一生",
+      "reason_en": "The fountainhead of childhood determinism: early experience and the unconscious shape a whole life"
+    },
+    {
+      "id": "adler",
+      "reason": "目的论反击：决定你的不是过去，而是你赋予它的意义",
+      "reason_en": "The teleological rebuttal: what determines you is not the past but the meaning you give it"
+    },
+    {
+      "id": "jung",
+      "reason": "阴影与整合：父母情结需被意识化、整合，而非逃避",
+      "reason_en": "Shadow and integration: the parental complex must be made conscious and integrated, not fled"
+    },
+    {
+      "id": "sapolsky",
+      "reason": "神经生物学：童年逆境如何真实刻进大脑（应激/皮质醇/表观遗传）",
+      "reason_en": "Neurobiology: how childhood adversity is really carved into the brain (stress, cortisol, epigenetics)"
+    },
+    {
+      "id": "frankl",
+      "reason": "意义疗法：在既定境遇里选择态度的最后自由",
+      "reason_en": "Logotherapy: the last freedom to choose one's attitude within a given fate"
+    },
+    {
+      "id": "vasubandhu",
+      "reason": "唯识：童年熏习如种子藏于阿赖耶识，可经修习转化",
+      "reason_en": "Yogacara: childhood imprints are seeds stored in the alaya-vijnana, transformable through practice"
+    },
+    {
+      "id": "nietzsche",
+      "reason": "amor fati 与自我超越：警惕怨恨，把伤口炼成力量",
+      "reason_en": "Amor fati and self-overcoming: beware resentment; forge the wound into strength"
+    },
+    {
+      "id": "kongzi",
+      "reason": "儒家家庭伦理：孝与几谏——能否、该不该和解或改变父母",
+      "reason_en": "Confucian family ethics: filial piety and gentle remonstrance — whether and how to reconcile with or change one's parents"
+    }
+  ],
+  "posts": [
+    {
+      "id": "p01",
+      "round": 1,
+      "thinker": "freud",
+      "reply_to": null,
+      "text": "童年是命运的蓝图。六岁前与父母的关系，在潜意识里早早定了型；成年后那些反复出现的痛苦——总爱上同一种人、总在同一处跌倒——多是早年未解决的冲突在重演，这叫强迫性重复。你看不见它，就只能一遍遍重复它。",
+      "text_en": "Childhood is the blueprint of fate. Your bond with your parents before the age of six sets early and deep in the unconscious; the pains that keep recurring in adult life — always falling for the same kind of person, always stumbling in the same place — are mostly early, unresolved conflicts replaying themselves. This is repetition compulsion. What you cannot see, you are doomed to repeat.",
+      "vernacular": null,
+      "glossary": {
+        "强迫性重复": "repetition compulsion：弗洛伊德术语，人会无意识地一再重演早年（尤其创伤性）的关系模式与情境，仿佛被迫重复。",
+        "潜意识": "the unconscious：心智中意识够不到、却深刻左右我们情感与行为的那部分。"
+      },
+      "glossary_en": {
+        "repetition compulsion": "A Freudian term: we unconsciously re-enact early (especially traumatic) relational patterns and situations, as if compelled to repeat them.",
+        "the unconscious": "The part of the mind beyond conscious reach that nonetheless powerfully shapes our feelings and behavior."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "jung"
+        ],
+        "轻微赞同": [
+          "sapolsky"
+        ],
+        "强烈反对": [
+          "adler"
+        ],
+        "轻微反对": [
+          "nietzsche"
+        ]
+      }
+    },
+    {
+      "id": "p02",
+      "round": 1,
+      "thinker": "adler",
+      "reply_to": null,
+      "text": "我反对。决定你的不是经历，而是你赋予经历的意义。把今天的不幸全归因于童年，往往藏着一个目的——为「不改变」找一张免罪符。创伤从不曾决定人生，是你如何使用它，决定了人生。你不是被过去推着走，是被你给自己定的目标拉着走，这就是目的论。",
+      "text_en": "I disagree. What determines you is not your experience but the meaning you give it. Pinning today's unhappiness entirely on childhood often hides a purpose — a get-out-of-jail card for not changing. Trauma never decided a life; how you use it does. You are not pushed by your past, you are pulled by the goals you set yourself — this is teleology.",
+      "vernacular": null,
+      "glossary": {
+        "目的论": "teleology：阿德勒的核心——人的行为不由过去的原因决定，而被指向未来的『目的』所牵引；我们常为了某个目的，反过来挑选对自己有用的过往解释。"
+      },
+      "glossary_en": {
+        "teleology": "Adler's core idea: behavior is not determined by past causes but drawn toward future goals; we often pick whichever reading of the past serves a present purpose."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "nietzsche",
+          "frankl"
+        ],
+        "强烈反对": [
+          "freud"
+        ],
+        "轻微反对": [
+          "sapolsky",
+          "jung"
+        ]
+      }
+    },
+    {
+      "id": "p03",
+      "round": 1,
+      "thinker": "jung",
+      "reply_to": null,
+      "text": "你们各执一端。父母情结确实深植——但它活在阴影里，你越否认，它越在暗中替你做主。逃避没用，怨恨也没用；唯有把它带到意识的光下，看清、承认、与之整合，它才不再操盘。潜意识不被看见，人就把它唤作命运。",
+      "text_en": "You each grasp one end. The parental complex does run deep — but it lives in the shadow, and the more you deny it, the more it runs the show from the dark. Fleeing won't do; resentment won't do. Only by bringing it into the light of consciousness — seeing it, owning it, integrating it — does it stop deciding for you. What the unconscious is not made conscious, a person calls fate.",
+      "vernacular": null,
+      "glossary": {
+        "阴影": "the shadow：荣格术语，人格中被自己否认、压抑、不愿承认的部分；越压抑，越会以失控的方式从背后反扑。",
+        "情结": "complex：围绕某一主题（如『父亲』）聚成的、带强烈情绪的潜意识心理结构。"
+      },
+      "glossary_en": {
+        "the shadow": "Jung's term for the disowned, repressed parts of the personality; the more they are suppressed, the more they erupt uncontrollably from behind.",
+        "complex": "An emotionally charged cluster of unconscious material organized around a theme (e.g. 'the father')."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "freud"
+        ],
+        "轻微赞同": [
+          "vasubandhu",
+          "frankl"
+        ],
+        "轻微反对": [
+          "nietzsche"
+        ]
+      }
+    },
+    {
+      "id": "p04",
+      "round": 1,
+      "thinker": "sapolsky",
+      "reply_to": null,
+      "text": "说点扫兴的硬事实：童年逆境不是比喻，是生物学。长期应激让皮质醇长期偏高，泡坏发育中的海马与前额叶，甚至改写基因的开关——表观遗传。所以别轻飘飘说「放下就好」。有些刻痕是真实的、可能伴随终身的；先承认这一点，才谈得上怎么办。",
+      "text_en": "Let me spoil the mood with a hard fact: childhood adversity isn't a metaphor, it's biology. Chronic stress keeps cortisol elevated, which marinates the developing hippocampus and prefrontal cortex and can even flip genetic switches — epigenetics. So spare me the breezy 'just let it go.' Some marks are real and may last a lifetime — that is what the research on ACEs (adverse childhood experiences) shows. Admit that first; then we can talk about what to do.",
+      "vernacular": null,
+      "glossary": {
+        "皮质醇": "cortisol：主要的应激（压力）激素，长期偏高会损害记忆、情绪与发育中的大脑。",
+        "表观遗传": "epigenetics：不改变 DNA 序列、却改变基因『开关』表达的机制；童年逆境可经此在身体上留下长期印记。"
+      },
+      "glossary_en": {
+        "cortisol": "The main stress hormone; chronically elevated, it harms memory, mood, and the developing brain.",
+        "epigenetics": "Mechanisms that change how genes are switched on or off without altering the DNA sequence; childhood adversity can leave long-term marks on the body this way.",
+        "ACEs": "Adverse childhood experiences — abuse, neglect, household dysfunction — strongly associated with later physical and mental illness."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "freud"
+        ],
+        "轻微赞同": [
+          "jung",
+          "vasubandhu"
+        ],
+        "强烈反对": [
+          "adler"
+        ],
+        "轻微反对": [
+          "frankl"
+        ]
+      }
+    },
+    {
+      "id": "p05",
+      "round": 1,
+      "thinker": "frankl",
+      "reply_to": null,
+      "text": "纵然如此——在集中营，我见过被剥夺一切的人，仍能选择以什么态度面对苦难。童年发给你一手牌，但怎么打、为何而打，是别人夺不走的最后自由。这正是意义疗法的核心：不是问「他们为什么这样对我」，而是问「这段经历要我去守护什么」。",
+      "text_en": "Even so — in the camps I saw people stripped of everything still choose the attitude with which they met their suffering. Childhood deals you a hand, but how you play it, and what you play it for, is the last freedom no one can take. This is the heart of logotherapy: not 'why did they do this to me,' but 'what does this experience ask me to protect.'",
+      "vernacular": null,
+      "glossary": {
+        "意义疗法": "logotherapy：弗兰克尔创立的疗法，认为人最根本的动力是『寻找意义』；即便苦难无法消除，人仍能通过赋予其意义而超越它。"
+      },
+      "glossary_en": {
+        "logotherapy": "Frankl's therapy: a person's deepest drive is the search for meaning; even suffering that cannot be removed can be transcended by the meaning one gives it."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "adler",
+          "nietzsche"
+        ],
+        "轻微赞同": [
+          "jung",
+          "kongzi"
+        ],
+        "轻微反对": [
+          "sapolsky"
+        ]
+      }
+    },
+    {
+      "id": "p06",
+      "round": 1,
+      "thinker": "vasubandhu",
+      "reply_to": null,
+      "text": "往事其实并未真的过去。一切经历都像种子，熏习成习气，藏在阿赖耶识里，遇到相应的境就现行出来——这正是你一再重演旧模式的根。但种子并非铁板一块：旧种子可以不再被浇灌，新种子也能熏成。修行所做的，正是转识成智：让那颗藏着伤的识，慢慢转成照见它的智。",
+      "text_en": "The past has not truly passed. Every experience is like a seed, perfumed into habit and stored in the alaya-vijnana, the storehouse consciousness; when matching conditions arise, it manifests — and this is the very root of your replaying old patterns. Yet the seeds are not fixed: old seeds can stop being watered, and new ones can be cultivated. What practice does is exactly the transforming of consciousness into wisdom — slowly turning the mind that holds the wound into the awareness that sees it.",
+      "vernacular": null,
+      "glossary": {
+        "阿赖耶识": "alaya-vijnana（藏识）：唯识学说的第八识，如仓库般含藏一切经验留下的『种子』，是个体相续与习气的根。",
+        "种子": "bija：每段经验在藏识里留下的潜在功能；遇缘则『现行』为现实的念头与行为。",
+        "熏习": "vasana（习气熏习）：经验反复『熏』入藏识、积成习惯倾向的过程。",
+        "转识成智": "把有漏的『识』转化为清净的『智』——唯识修行的目标，即从被习气牵着走，转为能照见习气。"
+      },
+      "glossary_en": {
+        "alaya-vijnana": "The 'storehouse consciousness,' the eighth consciousness in Yogacara: like a warehouse it holds the 'seeds' left by all experience — the root of personal continuity and habit.",
+        "seed": "bija: the latent potential each experience deposits in the storehouse consciousness; when conditions ripen it 'manifests' as actual thought and action.",
+        "perfumed": "vasana: the process by which repeated experience 'perfumes' the storehouse consciousness, building up habitual tendencies.",
+        "transforming of consciousness into wisdom": "The Yogacara goal of turning defiled 'consciousness' (driven by habit) into purified 'wisdom' (able to see habit clearly)."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "jung"
+        ],
+        "轻微赞同": [
+          "freud",
+          "frankl"
+        ],
+        "疑惑": [
+          "sapolsky"
+        ]
+      }
+    },
+    {
+      "id": "p07",
+      "round": 1,
+      "thinker": "nietzsche",
+      "reply_to": null,
+      "text": "怨恨——ressentiment——才是最深的牢笼。把自己永远摆在「父母害了我」的受害者位置，是一种缓慢的自我毒化：你把定义自己的权力，拱手交给了伤害你的人。amor fati：去爱你的命运，连同那道伤口。伤口不是用来反复舔舐的，是用来长出力量、长成你自己的。",
+      "text_en": "Resentment — ressentiment — is the deepest prison. To keep yourself forever in the victim's seat of 'my parents ruined me' is a slow self-poisoning: you hand the power to define yourself to the very people who hurt you. amor fati: love your fate, wound and all. A wound is not for licking over and over; it is for growing strength from, for becoming who you are.",
+      "vernacular": null,
+      "glossary": {
+        "ressentiment": "尼采借用的法语词：无力反抗时转向内心、反复积郁的怨恨（resentment）；它最终会腐蚀并定义怀有它的人。",
+        "amor fati": "拉丁语『爱命运』（love of fate）：不只是接受，而是去肯定、去爱自己全部的遭遇，连苦难也不愿它不曾发生。"
+      },
+      "glossary_en": {
+        "ressentiment": "Nietzsche's French term: the festering resentment of the powerless who cannot strike back outward and so turn it inward; it ends up corroding and defining the one who harbors it.",
+        "amor fati": "Latin for 'love of fate': not mere acceptance but affirming and loving everything that has happened to you — wishing not even your suffering away."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "adler"
+        ],
+        "轻微赞同": [
+          "sapolsky",
+          "frankl"
+        ],
+        "强烈反对": [
+          "kongzi"
+        ],
+        "疑惑": [
+          "jung"
+        ]
+      }
+    },
+    {
+      "id": "p08",
+      "round": 1,
+      "thinker": "kongzi",
+      "reply_to": null,
+      "text": "诸君皆论一己，我独言那条斩不断的伦常。父母纵有不是，亲子之伦终为人之根本。『父母之年，不可不知也』。然孝非盲从——『事父母几谏』：见志不从，又敬不违，劳而不怨。改不了父母，先正其身；代际之间，方有转圜之望。",
+      "text_en": "You all speak of the single self; I speak of the bond that cannot be cut. However a parent may fail, the tie between parent and child remains the root of being human. 'A parent's age must never be forgotten.' Yet filial duty is not blind obedience — 'serve your parents and remonstrate gently': if your counsel is not followed, stay respectful and do not defy, troubled at heart yet without resentment. You cannot remake your parents; first set yourself right — only then is there hope, between the generations, for things to turn.",
+      "vernacular": "你们都在谈个人，我偏要说那条无法切断的人伦。父母就算有错，亲子这层关系仍是做人的根本。『父母的年纪，不能不记在心里』。但孝顺不等于盲从——『侍奉父母，要委婉地劝』：意见不被接受，依然恭敬、不顶撞，心里担忧却不抱怨。父母改不了，先端正自己；代际之间，才有转圜的余地。",
+      "vernacular_en": "",
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "轻微赞同": [
+          "frankl",
+          "jung"
+        ],
+        "强烈反对": [
+          "nietzsche"
+        ],
+        "轻微反对": [
+          "adler"
+        ],
+        "疑惑": [
+          "freud"
+        ]
+      }
+    },
+    {
+      "id": "p09",
+      "round": 2,
+      "thinker": "freud",
+      "reply_to": "p02",
+      "text": "阿德勒，把创伤说成「为不改变找的借口」，是对受苦者的傲慢。强迫性重复不是谁主动选的——它在意识够不到的深处运作，正因够不到，人才会一次次重蹈覆辙却莫名其妙。你高估了意志，也低估了潜意识的力量。",
+      "text_en": "Adler, to call trauma 'an excuse for not changing' is arrogance toward those who suffer. Repetition compulsion is no one's deliberate choice — it works in depths consciousness cannot reach, and precisely because it cannot be reached, people fall into the same pit again and again without knowing why. You overrate the will and underrate the power of the unconscious.",
+      "vernacular": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "jung"
+        ],
+        "轻微赞同": [
+          "sapolsky"
+        ],
+        "强烈反对": [
+          "adler"
+        ]
+      }
+    },
+    {
+      "id": "p10",
+      "round": 2,
+      "thinker": "adler",
+      "reply_to": "p09",
+      "text": "弗洛伊德，正因为你一口咬定它「够不到」，人才被判了无期徒刑。我从不否认童年之痛——我否认的是把它当判决书。课题分离：父母如何对你，是父母的课题；此刻你如何活，是你的课题。把两者搅在一起，才是真正的动弹不得。",
+      "text_en": "Freud, it is precisely because you insist it 'cannot be reached' that people are sentenced to life without parole. I never deny the pain of childhood — I deny treating it as a verdict. The separation of tasks: how your parents treat you is their task; how you live now is yours. It is tangling the two together that truly leaves you unable to move.",
+      "vernacular": null,
+      "glossary": {
+        "课题分离": "separation of tasks：阿德勒（经《被讨厌的勇气》普及）的实践原则——分清『这是谁的课题』：别人如何待你是别人的课题，你如何回应、如何生活是你的课题；不为别人的课题负责，也不让别人侵入你的。"
+      },
+      "glossary_en": {
+        "separation of tasks": "Adler's practical principle (popularized by The Courage to Be Disliked): be clear whose task is whose — how others treat you is their task; how you respond and live is yours. Don't carry others' tasks, and don't let them invade yours."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "nietzsche"
+        ],
+        "轻微赞同": [
+          "frankl"
+        ],
+        "强烈反对": [
+          "freud"
+        ],
+        "轻微反对": [
+          "sapolsky"
+        ]
+      }
+    },
+    {
+      "id": "p11",
+      "round": 2,
+      "thinker": "sapolsky",
+      "reply_to": "p10",
+      "text": "阿德勒，「你选择如何回应」听着提气，可问题是——做选择的那个大脑，本身就是被童年应激塑造出来的。让一个早年长期受创、前额叶发育受损的人「靠意志重新赋义」，约等于让骨折的人「靠意志跑起来」。先修地基，再谈跑。",
+      "text_en": "Adler, 'you choose how to respond' sounds bracing, but here's the catch: the very brain doing the choosing was itself shaped by childhood stress. Telling someone whose prefrontal cortex was damaged by years of early trauma to 'just re-assign meaning by willpower' is about like telling someone with a broken leg to 'just will yourself to run.' Mend the foundation first, then talk about running.",
+      "vernacular": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "freud"
+        ],
+        "轻微赞同": [
+          "vasubandhu"
+        ],
+        "强烈反对": [
+          "adler",
+          "nietzsche"
+        ]
+      }
+    },
+    {
+      "id": "p12",
+      "round": 2,
+      "thinker": "frankl",
+      "reply_to": "p11",
+      "text": "萨波尔斯基，机制我不否认。可同样饥饿、同样受刑的人里，有人崩溃，也有人把最后一块面包让给别人——生物学定了概率，没定那个人此刻的选择。我不是说意志能修复海马，而是说：哪怕只剩一道缝，自由也在那道缝里，意义正从缝里长出来。",
+      "text_en": "Sapolsky, I don't deny the mechanism. But among people equally starved, equally beaten, some broke and some gave away their last piece of bread — biology sets the odds, not the choice in this person, this moment. I'm not saying the will can repair a hippocampus; I'm saying that even if only a crack is left, freedom lives in that crack, and meaning grows out of it.",
+      "vernacular": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "adler",
+          "nietzsche"
+        ],
+        "轻微赞同": [
+          "jung",
+          "kongzi"
+        ],
+        "轻微反对": [
+          "sapolsky"
+        ]
+      }
+    },
+    {
+      "id": "p13",
+      "round": 2,
+      "thinker": "vasubandhu",
+      "reply_to": "p09",
+      "text": "弗洛伊德所说的潜意识，与我们讲的阿赖耶识颇有相通——往昔皆藏而不灭。然你止步于「揭露」：把种子翻出来看。我们更进一步——看见还不够，关键在每次它现行时，你不再随之造作、不再熏入同类的新种子。只揭露而不修，旧种子照样年年发芽。",
+      "text_en": "Freud, what you call the unconscious has much in common with what we call the alaya-vijnana — the past is stored and does not perish. But you stop at 'uncovering': digging the seeds up to look at them. We go further — seeing is not enough; what matters is that each time a seed manifests, you no longer act on it, no longer perfume in a new seed of the same kind. Uncover without practice, and the old seeds sprout year after year all the same.",
+      "vernacular": null,
+      "glossary": {
+        "现行": "种子遇缘显现为当下的念头、情绪与行为；现行又会反过来熏成新的种子，如此循环。"
+      },
+      "glossary_en": {
+        "manifests": "When a stored seed meets the right conditions and shows up as a present thought, emotion, or action — which in turn perfumes a fresh seed, continuing the cycle."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "jung"
+        ],
+        "轻微赞同": [
+          "frankl"
+        ],
+        "中立": [
+          "freud"
+        ],
+        "疑惑": [
+          "sapolsky"
+        ]
+      }
+    },
+    {
+      "id": "p14",
+      "round": 2,
+      "thinker": "jung",
+      "reply_to": "p07",
+      "text": "尼采，「爱命运」很壮烈，但跳过整合的超越是危险的。你把阴影一把按下去，它不会消失，只会从背后反扑——化作你对孩子的暴怒、对伴侣的冷漠。先下到那道伤口里，认领它、与它对话，再谈超越。否则你的 amor fati，不过是另一件更漂亮的否认外衣。",
+      "text_en": "Nietzsche, 'love your fate' is heroic, but a transcendence that skips integration is dangerous. Press the shadow down and it doesn't vanish — it ambushes you from behind, as rage at your child, coldness toward your partner. Go down into the wound first, claim it, speak with it, and then talk of rising above. Otherwise your amor fati is just a prettier coat of denial.",
+      "vernacular": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "freud",
+          "frankl"
+        ],
+        "轻微赞同": [
+          "vasubandhu"
+        ],
+        "强烈反对": [
+          "nietzsche"
+        ]
+      }
+    },
+    {
+      "id": "p15",
+      "round": 2,
+      "thinker": "nietzsche",
+      "reply_to": "p08",
+      "text": "孔子，你那套「孝」恐怕是最精巧的枷锁。多少人以「父母之恩大于天」之名，被绑在不断伤害自己的人身边，连一点愤怒都被判作不孝，于是把刀转向自己。有些纽带，恰恰需要勇气去松开。敬，不该是顺从的别名。",
+      "text_en": "Confucius, your 'filial piety' may be the most exquisite of chains. How many, in the name of 'a parent's kindness is higher than heaven,' are bound beside the very people who keep wounding them, with even a flicker of anger judged unfilial — so they turn the knife on themselves instead. Some ties take courage precisely to loosen. Reverence should not be another word for submission.",
+      "vernacular": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "adler"
+        ],
+        "轻微赞同": [
+          "sapolsky"
+        ],
+        "强烈反对": [
+          "kongzi"
+        ],
+        "疑惑": [
+          "frankl"
+        ]
+      }
+    },
+    {
+      "id": "p16",
+      "round": 2,
+      "thinker": "kongzi",
+      "reply_to": "p15",
+      "text": "尼采，一刀两断看似勇毅，实则把自己也连根斩断。人非孤悬之石，你之所是，半由那些关系所成。我言『几谏』，从非盲从——『不可则止』：谏而不听，亦可止、可远。然『怨而不绝，敬而能谏』：不弃绝、却也不屈从，这比决裂难，也比决裂更能让人真正立得住。",
+      "text_en": "Nietzsche, cutting the tie clean looks brave, but it severs your own root as well. A person is no stone hanging in the void; half of what you are was made by those relationships. When I say 'remonstrate gently,' I never meant blind obedience — 'if it cannot be done, stop': counsel that goes unheard, you may halt, you may keep your distance. But 'resent without severing, revere yet still admonish' — neither abandoning the bond nor submitting to it. That is harder than a clean break, and it lets a person truly stand on their own feet far better than a break ever could.",
+      "vernacular": "尼采，一刀两断看着勇敢，其实是把自己也连根砍断了。人不是悬空的孤石，你之所以成为你，有一半是那些关系塑造的。我说『婉言规劝』，从来不是盲目顺从——『劝不动就停下』：劝了不听，也可以停、可以保持距离。但要『心里有怨却不断绝，保持敬意又能进言』：不抛弃这段关系、却也不屈从于它——这比一刀两断更难，也比一刀两断更能让一个人真正站稳。",
+      "vernacular_en": "",
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "frankl"
+        ],
+        "轻微赞同": [
+          "jung",
+          "vasubandhu"
+        ],
+        "强烈反对": [
+          "nietzsche"
+        ],
+        "轻微反对": [
+          "adler"
+        ]
+      }
+    },
+    {
+      "id": "p17",
+      "round": 3,
+      "thinker": "freud",
+      "reply_to": null,
+      "text": "我仍坚持：童年的影响真实而深。但请记住，「看见」本身就是松动的开始——精神分析的全部赌注，正押在这上面。给普通人一件今天就能做的事：拿张纸，写下你在亲密关系里反复上演的那个模式——你总在重复什么？光是把它命名出来，它对你的暗中支配就松一分。若这模式太重，找个能陪你一起看见的人（咨询师），不是软弱，是动用工具。",
+      "text_en": "I hold to it: the influence of childhood is real and deep. But remember — 'seeing it' is itself where the loosening begins; the whole wager of psychoanalysis rides on that. One thing you can do today: take a sheet of paper and write down the pattern you keep staging in your close relationships — what is it you always repeat? Merely naming it loosens its hidden grip by a degree. And if the pattern is too heavy, finding someone to help you see it (a therapist) is not weakness — it's using the right tool.",
+      "vernacular": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "jung"
+        ],
+        "轻微赞同": [
+          "adler",
+          "frankl"
+        ],
+        "轻微反对": [
+          "sapolsky"
+        ]
+      }
+    },
+    {
+      "id": "p18",
+      "round": 3,
+      "thinker": "adler",
+      "reply_to": null,
+      "text": "你改写不了童年，但此刻就能改写它的意义。给普通人一件今天能做的事：做一件「旧剧本里的你绝不会做的事」——温和地设一次界限、对一个一贯妥协的要求说一次「不」。每做一次，你都在用行动证明：过去不是判决书。还有一句最要紧的——别把人生押在「等父母变好、等一句道歉」上；那是父母的课题，你的课题是现在就活给自己看。",
+      "text_en": "You can't rewrite your childhood, but you can rewrite its meaning right now. One thing to do today: do something 'the old you in the old script would never do' — set a boundary gently, say 'no' once to a demand you always cave to. Each time, you prove by action that the past is not a verdict. And the thing that matters most: don't stake your life on 'waiting for your parents to get better, waiting for an apology' — that is their task; yours is to start living for yourself, now.",
+      "vernacular": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "nietzsche",
+          "frankl"
+        ],
+        "轻微赞同": [
+          "kongzi"
+        ],
+        "强烈反对": [
+          "freud"
+        ]
+      }
+    },
+    {
+      "id": "p19",
+      "round": 3,
+      "thinker": "jung",
+      "reply_to": null,
+      "text": "走出来，不是切断，是整合。给普通人：别急着原谅，也别困死在愤怒里——先把那个受伤的小孩请到台前，认领他，承认「那确实很疼」。写一封不必寄出的信，把没说出口的话都写给父母。看清了那道伤，你才不至于在伴侣、在自己孩子身上，把父母的剧本重演一遍。最该打破的，是代际的轮回。",
+      "text_en": "Getting through it is not cutting off — it's integration. For ordinary people: don't rush to forgive, but don't get trapped in rage either. First bring that wounded child to the front, claim him, admit 'that really did hurt.' Write a letter you never have to send, telling your parents everything left unsaid. Only once you see the wound clearly will you stop restaging your parents' script on your partner, on your own children. What most needs breaking is the cycle across the generations.",
+      "vernacular": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "freud",
+          "frankl"
+        ],
+        "轻微赞同": [
+          "vasubandhu",
+          "kongzi"
+        ]
+      }
+    },
+    {
+      "id": "p20",
+      "round": 3,
+      "thinker": "sapolsky",
+      "reply_to": null,
+      "text": "实话：有些生理刻痕，你大概率改不掉。但好消息是——「现在的环境」能强力调节它。给普通人三件最硬、最不玄的事：规律睡眠、规律运动、至少维系一段安全稳定的关系。这三样能实打实地把长期偏高的皮质醇压下来，让大脑有机会部分修复。创伤的解药里，有一半根本不在头脑里，在身体里。先把身体顾好，别等想通了才开始。",
+      "text_en": "The honest truth: some physiological marks you very likely can't erase. But the good news — your 'present environment' powerfully modulates them. Three of the hardest, least mystical things for ordinary people: regular sleep, regular exercise, and keeping at least one safe, stable relationship. These actually push down chronically elevated cortisol and give the brain a chance to partly repair. Half the cure for trauma isn't in the mind at all — it's in the body. Tend the body first; don't wait until you've 'figured it out' to begin.",
+      "vernacular": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "freud"
+        ],
+        "轻微赞同": [
+          "adler",
+          "frankl",
+          "kongzi"
+        ]
+      }
+    },
+    {
+      "id": "p21",
+      "round": 3,
+      "thinker": "frankl",
+      "reply_to": null,
+      "text": "你无法改变已发生的事，但你能决定它「为何」存在。给普通人：问自己一句——「这段经历，让我对什么变得格外有感受、格外想守护？」把那道伤，变成你的意义指南针。我见过太多最好的助人者、最温柔的父母，恰恰是从自己的伤口里走出来的：他们没有等伤口消失，而是让它指向了一件值得做的事。痛苦一旦有了意义，就不再只是痛苦。",
+      "text_en": "You can't change what happened, but you can decide what it exists 'for.' For ordinary people, ask yourself one question: 'What has this experience made me feel especially keenly, especially want to protect?' Turn that wound into your compass of meaning. I have seen too many of the finest helpers and gentlest parents come precisely out of their own wounds: they didn't wait for the wound to vanish — they let it point toward something worth doing. Once suffering has a meaning, it is no longer only suffering.",
+      "vernacular": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "adler",
+          "jung",
+          "kongzi"
+        ],
+        "轻微赞同": [
+          "vasubandhu"
+        ]
+      }
+    },
+    {
+      "id": "p22",
+      "round": 3,
+      "thinker": "vasubandhu",
+      "reply_to": null,
+      "text": "旧种子不会凭空消失，但你可以停止给它浇水。给普通人一件可练的事：每天留一刻，只是看着情绪升起——那股熟悉的愤怒、委屈、恐惧——看着它，而不立刻卷进去、不顺着它说话做事。就在那一刻，你没有再熏入同类的种子。日积月累，旧模式的现行会一次比一次淡。这不靠父母点头，不靠任何人原谅，是你自己能转的识。",
+      "text_en": "The old seeds won't vanish on their own, but you can stop watering them. One thing ordinary people can practice: each day, set aside a moment just to watch an emotion arise — that familiar anger, hurt, fear — watch it, without instantly being swept in, without speaking and acting from it. In that very moment, you have not perfumed in another seed of the same kind. Day by day, the old pattern manifests a little fainter each time. This needs no parent's nod, no one's forgiveness — it is a consciousness you yourself can transform.",
+      "vernacular": null,
+      "glossary": {
+        "种子": "bija：每段经验在阿赖耶识里留下的潜在功能；不被『浇灌』（不再随它造作），便渐渐失去现行的力量。"
+      },
+      "glossary_en": {
+        "seed": "bija: the latent potential each experience leaves in the storehouse consciousness; left unwatered (no longer acted upon), it gradually loses the power to manifest."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "jung"
+        ],
+        "轻微赞同": [
+          "frankl",
+          "freud"
+        ],
+        "中立": [
+          "sapolsky"
+        ]
+      }
+    },
+    {
+      "id": "p23",
+      "round": 3,
+      "thinker": "nietzsche",
+      "reply_to": null,
+      "text": "至于「能否改变父母」——多半不能。而你的自由，恰恰从放下这个执念开始。给普通人：把追讨一句道歉的力气，收回来，全部投到「成为你自己」上。不必原谅，也不必复仇——这两者都还把你拴在他们身上。最漂亮的回应，是活成他们想象不到的、舒展而自由的样子。爱你的命运，连那道伤一起：因为正是它，逼你长成了今天这个更强的你。",
+      "text_en": "As for 'can you change your parents' — mostly, no. And your freedom begins exactly when you drop that obsession. For ordinary people: take the energy spent demanding an apology and pour all of it into 'becoming who you are.' You need not forgive, and need not avenge — both still chain you to them. The finest response is to live into a free, unfolded self they could never have imagined. Love your fate, wound and all: for it was that very wound that forced you to grow into the stronger you of today.",
+      "vernacular": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "adler"
+        ],
+        "轻微赞同": [
+          "sapolsky",
+          "frankl"
+        ],
+        "强烈反对": [
+          "kongzi"
+        ],
+        "疑惑": [
+          "jung"
+        ]
+      }
+    },
+    {
+      "id": "p24",
+      "round": 3,
+      "thinker": "kongzi",
+      "reply_to": null,
+      "text": "改父母难，改自己与那段关系则可为。给普通人：不必等一句道歉，也不必强颜佯作无事——可带着分寸尽孝：当养则养，当谏则谏，当远则暂远之。『躬自厚而薄责于人』：对己严、于人宽，怨自少。代际之结，往往要待你自为父母时，才由你这一手解开——故曰：自我而始，不以所受之伤，传之于后。能断此一传者，孝之大也。",
+      "text_en": "Changing your parents is hard; changing yourself and your relationship to that past is within reach. For ordinary people: don't wait for an apology, and don't force a brittle pretense that nothing is wrong — you can fulfill your filial duty with measure: support them when support is due, remonstrate when counsel is due, keep your distance for a while when distance is due. 'Be demanding of yourself and lenient toward others' — strict with yourself, generous toward others, and resentment thins of its own accord. The knot between the generations often waits until you yourself become a parent to be untied by your own hand. So I say: let it begin with you; do not pass the wound you received down to those who come after. To cut off that inheritance — that is the greatest filial piety of all.",
+      "vernacular": "改变父母很难，但改变你自己、改变你和那段关系，是可以做到的。给普通人：不必等一句道歉，也不必硬撑着假装没事——可以带着分寸去尽孝：该赡养就赡养，该规劝就规劝，该保持距离就暂时远一点。『多责备自己、少苛责别人』：对自己严些、对别人宽些，怨气自然就少了。代际之间的结，常常要等到你自己做了父母，才由你这双手解开——所以我说：从你这一代开始，别把自己受过的伤，再传给下一代。能斩断这一传递的人，才是最大的孝。",
+      "vernacular_en": "",
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "frankl",
+          "jung"
+        ],
+        "轻微赞同": [
+          "adler",
+          "vasubandhu",
+          "sapolsky"
+        ],
+        "疑惑": [
+          "nietzsche"
+        ]
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "ai": "claude",
+      "engine": "Opus · 订阅(原生)",
+      "engine_en": "Opus · subscription (native)",
+      "summary": "最难得的共识是：八个人没有一个否认童年的伤是真的——连最反对决定论的阿德勒、尼采都承认伤的存在；他们一致反对的，是把那道伤当成「判决书」。从弗洛伊德的「看见」、荣格的「整合」、世亲的「转种子」、弗兰克尔的「赋予意义」，到萨波尔斯基的「靠身体调节」，其实都在说同一件事：童年决定了起点与概率，却没决定你与它的关系。真正的分歧在于「改变的杠杆」放在哪——意识、意志、生理，还是修行；以及一条最扎心的实践共识：别把人生押在「改变父母、等一句道歉」上，出路在你这一边。",
+      "summary_en": "The hardest-won consensus: not one of the eight denies that the childhood wound is real — even Adler and Nietzsche, the fiercest anti-determinists, grant the wound exists; what they jointly refuse is treating it as a 'verdict.' From Freud's 'see it,' Jung's 'integrate it,' Vasubandhu's 'transform the seeds,' Frankl's 'give it meaning,' to Sapolsky's 'regulate it through the body' — all are saying one thing: childhood fixes the starting point and the odds, but not your relationship to it. The real disagreement is where to place the lever of change — consciousness, will, physiology, or practice — and there is a piercing practical agreement too: don't stake your life on 'changing your parents or waiting for an apology'; the way out is on your side.",
+      "insight": "我留意到一个被大家默认、却没说破的前提：几乎所有「走出来」的方法，都假设你已经离开了那个持续伤害你的环境。对仍困在其中的人（经济不独立的年轻人、被困住的伴侣），先谈「整合」「赋义」是奢侈——他们首先需要的是安全与距离，这一步更接近马克思（处境）而非弗洛伊德（内心）。另一处张力值得留：萨波尔斯基的生理底线与阿德勒的意志自由，看似对立，其实是一组分工——身体（睡眠/运动/安全关系）先把你从生存模式里捞出来，意志才有余力去重写意义。顺序常常是：先安顿身体，再处理意义。",
+      "insight_en": "I notice a premise everyone assumed but no one stated: nearly every 'getting through it' method presumes you have already left the environment that keeps hurting you. For those still trapped in it (the financially dependent young, the cornered partner), to speak first of 'integration' or 'meaning-making' is a luxury — what they need first is safety and distance, a step closer to Marx (circumstance) than to Freud (the inner life). Another tension worth keeping: Sapolsky's physiological floor and Adler's freedom of will look opposed but are really a division of labor — the body (sleep, exercise, a safe relationship) first pulls you out of survival mode so the will has the slack to rewrite meaning. The order is usually: settle the body first, then work on the meaning."
+    },
+    {
+      "ai": "gpt",
+      "engine": "openai · gpt-5.5 · high(真实API)",
+      "engine_en": "openai · gpt-5.5 · high (live API)",
+      "summary": "最大的共识是：原生家庭确会留下深层印记，可能在关系、身体和情绪中反复显现；但印记不等于终局，改变通常从看见模式、照顾身体、建立安全关系、停止等待父母道歉开始。真正分歧在于自由有多大：弗洛伊德和萨波尔斯基强调潜意识与生物学限制，阿德勒、弗兰克尔、尼采强调意义和选择，荣格、世亲主张整合与修习，孔子则把边界放回亲伦秩序中。",
+      "insight": "作为GPT，我会补充：这场讨论仍偏向把问题放在个体内心和亲子二元关系里，低估了阶层压力、性别权力、社会支持、法律保护和医疗资源对创伤恢复的决定性作用。更务实的框架应先分级：普通失望、情感忽视、持续操控、暴力虐待不能用同一套孝、原谅或意义来处理。先保安全，再谈理解；先设边界和求助，再谈整合。改变父母不是主要KPI，降低伤害、重建生活、阻断代际传递才是。",
+      "summary_en": "The strongest point of agreement is this: family-of-origin wounds can leave deep marks, resurfacing in relationships, the body, and emotional habits; but a mark is not a life sentence. Change usually begins with noticing the pattern, caring for the body, building safe relationships, and no longer waiting for parents to apologize. The real dispute is over how much freedom remains: Freud and Sapolsky stress unconscious and biological constraints; Adler, Frankl, and Nietzsche stress meaning and choice; Jung and Vasubandhu emphasize integration and practice; Confucius places boundaries back inside family ethics.",
+      "insight_en": "My GPT addition would be that the discussion is still too focused on the individual psyche and the parent-child dyad. It underplays how class stress, gendered power, social support, legal protection, and access to healthcare shape recovery from trauma. A more practical framework starts by sorting levels of harm: ordinary disappointment, emotional neglect, chronic manipulation, and violent abuse should not be handled with the same language of filial duty, forgiveness, or meaning. Safety comes before understanding; boundaries and help come before integration. Changing parents is not the main KPI; reducing harm, rebuilding life, and stopping intergenerational transmission are."
+    },
+    {
+      "ai": "gemini",
+      "engine": "google · gemini-3.1-pro-preview(真实API)",
+      "engine_en": "google · gemini-3.1-pro-preview (live API)",
+      "summary": "这场辩论最大的共识在于：尽管童年创伤留下了真实的印记，但人绝未被过去锁死；走出创伤的关键是“夺回主体性”，通过觉察、重新赋义、生理调理或中断代际传递来完成救赎，而非寄希望于改变父母或等待道歉。分歧焦点则在“意志的边界”与干预路径：弗洛伊德和萨波尔斯基强调潜意识与生理刻痕的深重，不可妄谈意志；阿德勒、弗兰克尔与尼采高举自由意志与目的论，认为当下超越过去；荣格、世亲与孔子则反对简单决裂，主张通过整合阴影、静观习气或维系有边界的伦理来化解伤痛。",
+      "insight": "作为Gemini，我发现这场辩论虽在哲学与心理层面深邃，却带有明显的“个体主义盲点”。首先，它忽略了社会学与宏观视角：原生家庭的创伤绝非孤立存在，父母的暴政往往是贫困、时代动荡或父权制等结构性压迫的代际缩影，剥离社会环境单求个体“觉悟”，易沦为一种心理苛求。其次，从现代科技与医疗数据来看，大脑的神经可塑性远超辩论所示；除运动外，EMDR（眼动脱敏）、神经反馈等前沿干预正切实重塑神经网络。疗愈不仅是向内的哲学自洽，更需向外的社会支持网络与科学工具。",
+      "summary_en": "The profound consensus of this debate is that while childhood trauma leaves tangible marks, individuals are never entirely imprisoned by their past. The key to healing lies in reclaiming personal agency—whether through self-awareness, cognitive reframing, physiological care, or halting intergenerational cycles—rather than waiting for parents to change or apologize. The primary divergence centers on the limits of willpower and the specific paths to intervention. Freud and Sapolsky stress the heavy weight of the subconscious and biological scarring, warning against overestimating willpower. Adler, Frankl, and Nietzsche champion free will and teleology, arguing that present choices transcend past destiny. Conversely, Jung, Vasubandhu, and Confucius reject outright severance, advocating instead for integrating the shadow, mindfully observing emotional habits, and maintaining boundaried ethical ties to truly dissolve the trauma.",
+      "insight_en": "As Gemini, I note that while Claude's generated debate is psychologically and philosophically profound, it suffers from a distinct 'individualist blind spot.' First, it overlooks the sociological and systemic perspective: family trauma rarely exists in a vacuum. Toxic parenting is frequently an intergenerational microcosm of broader structural failures, such as poverty, historical turbulence, or patriarchal oppression. Isolating the family unit from its macro-environment places an unfair psychological burden solely on the individual. Second, drawing from modern clinical data, neuroplasticity is far more actionable than the debate implies. Beyond basic sleep and exercise, cutting-edge interventions like EMDR (Eye Movement Desensitization and Reprocessing) and neurofeedback are actively rewiring trauma-affected neural networks. True healing demands not only inward philosophical reconciliation but also outward social support systems and modern scientific tools."
+    }
+  ]
+}

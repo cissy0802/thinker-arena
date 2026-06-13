@@ -50,6 +50,20 @@
     .todo { font-size: 0.85rem; color: #7a8199; font-style: italic; margin-top: 10px; }
     .toplink { display: block; text-align: center; margin-top: 16px; font-size: 0.8rem; color: #7b61ff; text-decoration: none; }
     .toplink:hover { color: #00d4ff; }
+    .cat-menu { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; margin-top: 8px; }
+    .cat-card { display: block; text-decoration: none; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 14px; padding: 15px 18px; transition: all .15s; }
+    .cat-card:hover { background: rgba(255,255,255,0.08); transform: translateY(-2px); border-color: rgba(123,97,255,0.45); }
+    .cat-card .cname { font-size: 1.02rem; font-weight: 700; color: #fff; }
+    .cat-card .ccount { font-size: 0.76rem; color: #9aa3bd; margin-left: 6px; font-weight: 400; }
+    .cat-card .cavs { display: flex; margin-top: 10px; }
+    .cat-card .cavs .av { width: 26px; height: 26px; font-size: 12px; margin-right: -7px; border: 2px solid #161b2e; }
+    .cat-nav { display: flex; flex-wrap: wrap; gap: 7px; justify-content: center; margin: 6px 0 10px; }
+    .cat-nav a { font-size: 12px; text-decoration: none; color: #9aa3bd; border: 1px solid rgba(255,255,255,0.1); border-radius: 14px; padding: 3px 11px; transition: all .15s; }
+    .cat-nav a.cur { color: #fff; background: rgba(123,97,255,0.25); border-color: rgba(123,97,255,0.5); }
+    .cat-nav a:hover { color: #fff; }
+    .back-link { display: inline-flex; align-items: center; gap: 5px; font-size: 0.82rem; color: #7b61ff; text-decoration: none; }
+    .back-link:hover { color: #00d4ff; }
+    .cat-title { font-size: 1.4rem; font-weight: 700; color: #fff; margin: 10px 0 4px; }
     footer { text-align: center; margin-top: 44px; font-size: 0.78rem; color: #5a6378; }
     footer a { color: #7b61ff; text-decoration: none; }
     @media (max-width: 600px) { h1 { font-size: 1.6rem; } .wrap { padding: 34px 14px 70px; } .card { padding: 18px 16px; } }
@@ -60,8 +74,7 @@
     <div class="crumb"><a href="https://cissy0802.github.io/">← Learning Hub</a> &nbsp;/&nbsp; <a href="index.html">Thinking Hub</a> &nbsp;/&nbsp; 人物图鉴</div>
     <h1>人物图鉴</h1>
     <div class="sub">圆桌上每一位思想家，深入认识一下</div>
-    <div class="index" id="index"></div>
-    <div id="profiles"></div>
+    <div id="content"></div>
     <footer>BigCat · Thinking Hub · <a href="https://github.com/cissy0802">GitHub</a></footer>
   </div>
   <script src="profiles.js"></script>

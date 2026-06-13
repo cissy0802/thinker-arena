@@ -84,6 +84,7 @@ node summarize-external.mjs debates/<slug>.json
       "reply_to": "p07",                 // 指向"具体某一帖的 id"（可点击跳转）
       "text": "…",
       "vernacular": "整段白话（仅古文帖，非古文为 null）",
+      "glossary": { "PERMA": "术语释义，前端给该词加虚线下划 + hover 显示" },
       "reactions": { "强烈赞同": ["frankl"], "轻微赞同": ["seligman"] }
     }
   ],

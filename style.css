@@ -60,7 +60,15 @@ html, body {
 .lineup .seat {
   display: inline-flex; align-items: center; gap: 7px; background: var(--bg-card);
   border: 1px solid var(--line); border-radius: 20px; padding: 3px 10px 3px 3px; position: relative;
+  text-decoration: none; cursor: pointer; transition: border-color .15s, transform .15s;
 }
+.lineup a.seat:hover { border-color: var(--blurple); transform: translateY(-1px); }
+.lineup .seat-all {
+  display: inline-flex; align-items: center; gap: 6px; text-decoration: none;
+  color: var(--txt-muted); font-size: 13px; border: 1px dashed var(--line);
+  border-radius: 20px; padding: 4px 12px; cursor: pointer; transition: all .15s;
+}
+.lineup .seat-all:hover { color: #fff; border-color: var(--blurple); }
 .lineup .seat .av { width: 24px; height: 24px; }
 .lineup .seat .nm { font-size: 13px; color: var(--txt); }
 .lineup .seat .tip { bottom: 130%; left: 0; width: 200px; }

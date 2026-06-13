@@ -73,7 +73,8 @@ async function callOpenAI() {
   if (!r.ok) throw new Error("OpenAI HTTP " + r.status + " " + (await r.text()).slice(0, 200));
   const data = await r.json();
   const obj = extractJSON(data.choices[0].message.content);
-  return { ...obj, engine: `openai · ${model}${effort ? " · " + effort : ""}(真实API)` };
+  const tail = `openai · ${model}${effort ? " · " + effort : ""}`;
+  return { ...obj, engine: `${tail}(真实API)`, engine_en: `${tail} (live API)` };
 }
 
 async function callGemini() {
@@ -94,14 +95,14 @@ async function callGemini() {
   if (!r.ok) throw new Error("Gemini HTTP " + r.status + " " + (await r.text()).slice(0, 200));
   const data = await r.json();
   const obj = extractJSON(data.candidates[0].content.parts[0].text);
-  return { ...obj, engine: `google · ${model}(真实API)` };
+  return { ...obj, engine: `google · ${model}(真实API)`, engine_en: `google · ${model} (live API)` };
 }
 
 function replaceSummary(ai, payload) {
   const i = debate.summaries.findIndex((s) => s.ai === ai);
   const prev = i === -1 ? {} : debate.summaries[i];
   const entry = {
-    ai, engine: payload.engine,
+    ai, engine: payload.engine, engine_en: payload.engine_en || prev.engine_en || payload.engine,
     summary: payload.summary, insight: payload.insight,
     // 双语：模型应返回 _en；若没返回，保留原有降级版的 _en，避免英文页空缺
     summary_en: payload.summary_en || prev.summary_en || payload.summary,

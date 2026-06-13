@@ -43,9 +43,9 @@
 
   function profileCard(c) {
     var p = PROF[c.id];
-    var metaArr = [pick(c, "school"), c.era, pick(c, "region")].filter(Boolean);
+    var metaArr = [pick(c, "school"), pick(c, "era"), pick(c, "region")].filter(Boolean);
     var sch = pick(c, "school"), reg = pick(c, "region");
-    if (reg && sch && sch.indexOf(reg) !== -1) metaArr = [sch, c.era].filter(Boolean);
+    if (reg && sch && sch.indexOf(reg) !== -1) metaArr = [sch, pick(c, "era")].filter(Boolean);
     var alt = (LANG === "zh" && c.name_en && c.name_en !== c.name) ? c.name_en : "";
     var head = '<div class="head">' + av(c, 52) +
       '<div><div class="nm" style="color:' + c.color + '">' + esc(nameOf(c)) +

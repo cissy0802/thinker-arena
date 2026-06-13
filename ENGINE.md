@@ -11,7 +11,7 @@
 ## 1. 选角（6–10 位）
 - 读 `thinkers.json`（74 人名册，每人含 `system` 人设、`cat` 类别）。
 - 规则：**多样性优先**（跨传统/古今/学科，凑出对立阵营）；**倾向**带一个佛学视角（如唯识学）+ 一个现代科学（脑科学）视角，**但不强行关联**。
-- **优先从名册 `id` 选**；唯一例外：为带进真实脑科学研究，可临时引入名册外的相关科学家——若如此，**先往 `thinkers.json` 补一张该人的卡**（id/name/handle/school/era/region/**name_en/school_en/region_en/cat_en/char/char_en**/color/fg/classical/system/tenets/cat），否则前端头像会是灰问号/汉字章。
+- **优先从名册 `id` 选**；唯一例外：为带进真实脑科学研究，可临时引入名册外的相关科学家——若如此，**先往 `thinkers.json` 补一张该人的卡**（id/name/handle/school/era/region/**name_en/school_en/region_en/cat_en/char/char_en**/color/fg/classical/system/tenets/cat；**古代人物的 `era` 还要配 `era_en`**，如「前384–前322」→「384–322 BC」、「约4–5世纪」→「c. 4th–5th century CE」），否则前端头像会是灰问号/汉字章、英文页露出中文年代。
 - **人物图鉴必补（非可选）**：选定阵容后，**每位选中的思想家若在 `profiles.json` 里还没有条目，必须为他补一条**（键＝该人 id），含 `bio/ideas/assessments[{by,text}]/quotes/works/lineage/trivia` **且每个字段都配 `_en`**（`bio_en`/`ideas_en`/`assessments_en`/`quotes_en`/`works_en`/`lineage_en`/`trivia_en`，英文要地道）。评价与名言只用**真实公认史料，严禁编造**；拿不准的名言改写成「大意 / paraphrased」。否则辩论页点选角条头像跳进图鉴是空的「待补充」。
 
 ## 2. 撰写辩论（你亲自写，零外部 API）
@@ -26,10 +26,10 @@
   - `reactions`：其他在场者各从 6 级表态里投至多一种 `{强烈赞同/轻微赞同/中立/轻微反对/强烈反对/疑惑}`→reactor id 列表，只留非空档。reactor 必须是本场参与者。
 
 ## 3. 三方 AI 收尾（每场必有）
-- `summaries` 三条：`{ "ai":"claude|gpt|gemini", "engine", "summary", "insight", "summary_en", "insight_en" }`（**双语 `_en` 必填**，英文地道）。
+- `summaries` 三条：`{ "ai":"claude|gpt|gemini", "engine", "engine_en", "summary", "insight", "summary_en", "insight_en" }`（**双语 `_en` 全必填**，英文地道；`engine_en` 是 engine 的英文版，如 `Opus · subscription (native)`、降级版 `fallback: Opus role-play (no key)`）。
 - **每条 `summary` 先共识、后分歧**：开头点出最大共识（最值得带走的），再讲分歧焦点。
-- `claude`：你亲自写，`engine:"Opus · 订阅(原生)"`。`insight` 是审慎权衡的独到观察。
-- `gpt`/`gemini`：先写降级占位（`engine:"降级:Opus 扮演(未配 KEY)"`）。**然后运行 `node summarize-external.mjs debates/<slug>.json`**——若仓库有 `.env`（含 `OPENAI_API_KEY`/`GEMINI_API_KEY`）就会升级为真实 gpt-5.5(high)/gemini-3.1-pro-preview；拿不到 key 就保持降级，**辩论照样完整**。它俩的 `insight` 须明确指出「这场（Claude 模拟的）辩论被漏掉/低估/可质疑之处」。
+- `claude`：你亲自写，`engine:"Opus · 订阅(原生)"`／`engine_en:"Opus · subscription (native)"`。`insight` 是审慎权衡的独到观察。
+- `gpt`/`gemini`：先写降级占位（`engine:"降级:Opus 扮演(未配 KEY)"`／`engine_en:"fallback: Opus role-play (no key)"`，连同 `summary_en`/`insight_en`）。**然后运行 `node summarize-external.mjs debates/<slug>.json`**——若仓库有 `.env`（含 `OPENAI_API_KEY`/`GEMINI_API_KEY`）就会升级为真实 gpt-5.5(high)/gemini-3.1-pro-preview；拿不到 key 就保持降级，**辩论照样完整**。它俩的 `insight` 须明确指出「这场（Claude 模拟的）辩论被漏掉/低估/可质疑之处」。
 
 ## 4. 写文件 + 登记 + 校验
 - 写 `debates/<slug>.json`（顶层含 `question`+`question_en`；`casting[]` 每人含 `reason`+`reason_en`）。

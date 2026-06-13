@@ -7,11 +7,13 @@
     zh: { topic: "本场议题", net: "净支持", aiPanel: "三方 AI 收尾", summary: "综述", insight: "洞察",
       stance: "本场立场", viewProfile: "点击看完整介绍 →", allProfiles: "全部人物图鉴", plainBadge: "悬停看白话",
       plainLabel: "白话", opening: "各陈己见", rebuttal: "交锋反驳", closing: "总结陈词", roundWord: "第 %N 轮",
-      members: "位" },
+      members: "位", chanTitle: "圆桌辩论", docTitle: "思想家圆桌辩论",
+      railServers: "服务器", backToTopics: "返回议题列表", allTopics: "全部议题" },
     en: { topic: "Topic", net: "Net", aiPanel: "AI panel", summary: "Summary", insight: "Insight",
       stance: "Stance in this debate", viewProfile: "View full profile →", allProfiles: "All thinkers", plainBadge: "plain reading",
       plainLabel: "Plain", opening: "Opening statements", rebuttal: "Rebuttal", closing: "Closing statements", roundWord: "Round %N",
-      members: "" }
+      members: "", chanTitle: "round-table", docTitle: "Thinkers' Round Table",
+      railServers: "Servers", backToTopics: "Back to topics", allTopics: "All topics" }
   };
   function T(k) { return UI[LANG][k]; }
   function pick(o, f) { return (LANG === "en" && o && o[f + "_en"] != null) ? o[f + "_en"] : (o ? o[f] : undefined); }
@@ -117,7 +119,7 @@
       '<span class="at-name" style="color:' + card.color + '">' + esc(nameOf(card)) + "</span>" +
       '<span class="at-handle">' + esc(card.handle || "") + "</span>" +
       (alt ? '<div class="at-name-en">' + esc(alt) + "</div>" : "") +
-      '<div class="at-school">' + esc([pick(card, "school"), card.era].filter(Boolean).join(" · ")) + "</div>" +
+      '<div class="at-school">' + esc([pick(card, "school"), pick(card, "era")].filter(Boolean).join(" · ")) + "</div>" +
       (reason ? '<div class="at-reason"><b>' + T("stance") + '</b><br>' + esc(reason) + "</div>" : "") +
       "</span></div>";
   }
@@ -156,7 +158,7 @@
       var c = tk(s.ai);
       return '<div class="sum-card"><div class="who">' + avatar(c, 36) +
         '<div><div class="nm" style="color:' + c.color + '">' + esc(nameOf(c)) + "</div>" +
-        '<div class="eng">' + esc(s.engine || "") + "</div></div></div>" +
+        '<div class="eng">' + esc(pick(s, "engine") || "") + "</div></div></div>" +
         '<div class="sec-lbl"><i class="ti ti-list" style="font-size:14px"></i>' + T("summary") + "</div>" +
         '<div class="sec-txt">' + esc(pick(s, "summary")) + "</div>" +
         '<div class="sec-lbl" style="margin-top:12px"><i class="ti ti-bulb" style="font-size:14px"></i>' + T("insight") + "</div>" +
@@ -193,6 +195,12 @@
   }
 
   function setHeader(debate) {
+    document.title = T("docTitle");
+    var ct = document.getElementById("chan-title");
+    if (ct) ct.textContent = T("chanTitle");
+    var rail = document.querySelector(".rail"); if (rail) rail.setAttribute("aria-label", T("railServers"));
+    var srv = document.querySelector(".rail .server"); if (srv) srv.title = T("backToTopics");
+    var back = document.querySelector(".chan-header .back"); if (back) back.title = T("allTopics");
     document.getElementById("chan-sub").textContent = pick(debate, "question");
     document.getElementById("member-count").textContent =
       (debate.participants ? debate.participants.length : "") + (T("members") ? " " + T("members") : "");

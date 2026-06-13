@@ -53,6 +53,12 @@
       (alt ? '<div class="nm-en">' + esc(alt) + "</div>" : "") +
       '<div class="meta">' + metaArr.map(esc).join(" · ") + "</div></div></div>";
     var body = "";
+    // 关键词(tenets)对每位都显示——有完整介绍的也显示
+    var tnt = pick(c, "tenets") || c.tenets || [];
+    if (tnt.length) {
+      var tags = tnt.map(function (t) { return '<span class="tag">' + esc(t) + "</span>"; }).join("");
+      body += sec(T("keywords"), "ti-tags", '<div class="tags">' + tags + "</div>");
+    }
     if (p) {
       if (pick(p, "bio")) body += sec(T("bio"), "ti-user", "<p>" + esc(pick(p, "bio")) + "</p>");
       if (pick(p, "ideas")) body += sec(T("ideas"), "ti-bulb", "<p>" + esc(pick(p, "ideas")) + "</p>");
@@ -69,8 +75,6 @@
       if (pick(p, "lineage")) body += sec(T("lineage"), "ti-git-branch", "<p>" + esc(pick(p, "lineage")) + "</p>");
       if (pick(p, "trivia")) body += sec(T("trivia"), "ti-sparkles", "<p>" + esc(pick(p, "trivia")) + "</p>");
     } else {
-      var tags = (pick(c, "tenets") || c.tenets || []).map(function (t) { return '<span class="tag">' + esc(t) + "</span>"; }).join("");
-      body += sec(T("keywords"), "ti-tags", '<div class="tags">' + tags + "</div>");
       body += '<div class="todo">' + T("todo") + "</div>";
     }
     return '<div class="card" id="' + esc(c.id) + '">' + head + body +

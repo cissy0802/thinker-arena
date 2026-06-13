@@ -38,9 +38,11 @@ const basePrompt = (who, lens) => `下面是一场关于「${debate.question}」
 
 ${transcript}
 
-请输出两段中文，严格以 JSON 返回：
-{"summary": "综述：务必『先共识、后分歧』——开头先明确点出这场最大的共识/共同点(往往是最值得带走的)，再讲分歧的真正焦点。不要一上来就强调歧义(150~240字)",
- "insight": "你的独到见解：作为 ${who}(${lens})，明确指出这场辩论及其框架被忽略、低估或可质疑之处，给出与 Claude 不同的视角(150~220字)"}
+请严格以 JSON 返回中英双语四段：
+{"summary": "综述(中文)：务必『先共识、后分歧』——开头先明确点出这场最大的共识/共同点(往往是最值得带走的)，再讲分歧的真正焦点。不要一上来就强调歧义(150~240字)",
+ "insight": "独到见解(中文)：作为 ${who}(${lens})，明确指出这场辩论及其框架被忽略、低估或可质疑之处，给出与 Claude 不同的视角(150~220字)",
+ "summary_en": "The same summary in natural, idiomatic English (not a stiff literal translation; write as a native English speaker would).",
+ "insight_en": "The same insight in natural, idiomatic English."}
 只返回 JSON，不要任何额外文字。`;
 
 function extractJSON(text) {
@@ -97,10 +99,17 @@ async function callGemini() {
 
 function replaceSummary(ai, payload) {
   const i = debate.summaries.findIndex((s) => s.ai === ai);
-  const entry = { ai, engine: payload.engine, summary: payload.summary, insight: payload.insight };
+  const prev = i === -1 ? {} : debate.summaries[i];
+  const entry = {
+    ai, engine: payload.engine,
+    summary: payload.summary, insight: payload.insight,
+    // 双语：模型应返回 _en；若没返回，保留原有降级版的 _en，避免英文页空缺
+    summary_en: payload.summary_en || prev.summary_en || payload.summary,
+    insight_en: payload.insight_en || prev.insight_en || payload.insight,
+  };
   if (i === -1) debate.summaries.push(entry);
   else debate.summaries[i] = entry;
-  console.log(`✓ ${ai} 已升级为真实 API（${payload.engine}）`);
+  console.log(`✓ ${ai} 已升级为真实 API（${payload.engine}）${payload.summary_en ? " · 含英文" : " · 英文回退"}`);
 }
 
 const [gpt, gemini] = await Promise.all([

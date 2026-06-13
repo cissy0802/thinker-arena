@@ -78,9 +78,20 @@
     return '<div class="text">' + esc(post.text) + "</div>";
   }
 
+  function postAvatar(card) {
+    var reason = (window.__REASONS || {})[card.id];
+    return '<div class="av-wrap" role="button" tabindex="0">' + avatar(card, 42) +
+      '<span class="tip av-tip">' +
+      '<span class="at-name" style="color:' + card.color + '">' + esc(card.name) + "</span>" +
+      '<span class="at-handle">' + esc(card.handle || "") + "</span>" +
+      '<div class="at-school">' + esc(card.school || "") + " · " + esc(card.era || "") + "</div>" +
+      (reason ? '<div class="at-reason"><b>本场立场</b><br>' + esc(reason) + "</div>" : "") +
+      "</span></div>";
+  }
+
   function renderPost(post) {
     var c = tk(post.thinker);
-    return '<div class="post" id="' + esc(post.id) + '">' + avatar(c, 42) +
+    return '<div class="post" id="' + esc(post.id) + '">' + postAvatar(c) +
       '<div class="body">' +
       renderReply(post) +
       '<div class="meta"><span class="name" style="color:' + c.color + '">' + esc(c.name) + "</span>" +
@@ -123,6 +134,8 @@
   function renderDebate(debate) {
     window.__POSTS = {};
     debate.posts.forEach(function (p) { window.__POSTS[p.id] = p; });
+    window.__REASONS = {};
+    (debate.casting || []).forEach(function (c) { window.__REASONS[c.id] = c.reason; });
 
     var html = "";
     html += '<div class="topic"><div class="label"><i class="ti ti-pin" style="font-size:14px"></i>本场议题</div>' +
@@ -172,14 +185,14 @@
     // 触屏降级:轻点 reaction / 古文块展开提示,点别处收起(桌面仍可纯 hover)
     function toggle(el) {
       var was = el.classList.contains("open");
-      document.querySelectorAll(".rwrap.open,.htext.open").forEach(function (o) { o.classList.remove("open"); });
+      document.querySelectorAll(".rwrap.open,.htext.open,.av-wrap.open").forEach(function (o) { o.classList.remove("open"); });
       if (!was) el.classList.add("open");
     }
-    document.querySelectorAll(".rwrap,.htext").forEach(function (el) {
+    document.querySelectorAll(".rwrap,.htext,.av-wrap").forEach(function (el) {
       el.addEventListener("click", function (e) { e.stopPropagation(); toggle(el); });
     });
     document.addEventListener("click", function () {
-      document.querySelectorAll(".rwrap.open,.htext.open").forEach(function (o) { o.classList.remove("open"); });
+      document.querySelectorAll(".rwrap.open,.htext.open,.av-wrap.open").forEach(function (o) { o.classList.remove("open"); });
     });
   }
 

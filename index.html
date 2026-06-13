@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>思想家圆桌辩论 · BigCat's Thinking Hub</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.31.0/dist/tabler-icons.min.css" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", -apple-system, "Noto Serif SC", sans-serif;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0a0e1a 100%);
+      color: #e4e6eb; min-height: 100vh; line-height: 1.7; -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 56px 24px 80px; }
+    header { text-align: center; margin-bottom: 36px; }
+    .crumb { font-size: 0.78rem; color: #7b61ff; font-family: "SF Mono", Menlo, monospace; letter-spacing: 1px; margin-bottom: 14px; }
+    .crumb a { color: #7b61ff; text-decoration: none; }
+    .crumb a:hover { color: #00d4ff; }
+    header h1 {
+      font-size: 2.2rem; font-weight: 800; letter-spacing: 1px; margin-bottom: 10px;
+      background: linear-gradient(135deg, #a29bfe 0%, #7b61ff 50%, #ff6ec4 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+    }
+    header .tagline { font-size: 1rem; color: #a0a8c0; font-weight: 300; }
+    .list { display: flex; flex-direction: column; gap: 14px; }
+    .topic-card {
+      display: block; text-decoration: none; color: inherit; position: relative; overflow: hidden;
+      background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 14px; padding: 20px 24px; transition: all .2s ease;
+    }
+    .topic-card::before { content: ""; position: absolute; top: 0; left: 0; bottom: 0; width: 4px; background: linear-gradient(180deg, #a29bfe, #7b61ff); opacity: .85; }
+    .topic-card:hover { transform: translateX(3px); background: rgba(255,255,255,0.07); border-color: rgba(255,255,255,0.16); box-shadow: 0 4px 18px rgba(0,0,0,.3); }
+    .topic-card .idx { font-size: 0.74rem; color: #7b61ff; font-family: "SF Mono", Menlo, monospace; letter-spacing: 1px; }
+    .topic-card .q { font-size: 1.25rem; font-weight: 700; color: #fff; margin: 4px 0 12px; line-height: 1.4; }
+    .topic-card .seats { display: flex; align-items: center; gap: -6px; margin-bottom: 10px; }
+    .topic-card .av { width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 13px; margin-right: -7px; border: 2px solid #14182a; }
+    .topic-card .more { margin-left: 14px; font-size: 0.82rem; color: #a8b0c0; }
+    .topic-card .meta { display: flex; align-items: center; gap: 14px; font-size: 0.78rem; color: #6a7080; font-family: "SF Mono", Menlo, monospace; }
+    .topic-card .go { color: #a29bfe; font-weight: 600; }
+    .empty { color: #6a7080; text-align: center; padding: 40px; }
+    footer { text-align: center; margin-top: 48px; font-size: 0.78rem; color: #5a6378; }
+    footer a { color: #7b61ff; text-decoration: none; }
+    @media (max-width: 600px) { header h1 { font-size: 1.6rem; } .wrap { padding: 36px 16px 60px; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="crumb"><a href="https://cissy0802.github.io/">← BigCat's Learning Hub</a> &nbsp;/&nbsp; Thinking Hub</div>
+      <h1>思想家圆桌辩论</h1>
+      <div class="tagline">古今中外的思想家，就一个问题数轮辩论 · 三家 AI 收尾</div>
+    </header>
+    <div class="list" id="list"><div class="empty">加载中…</div></div>
+    <footer>BigCat · Thinking Hub · <a href="https://github.com/cissy0802">GitHub</a></footer>
+  </div>
+  <script src="topics.js"></script>
+</body>
+</html>

@@ -131,6 +131,7 @@
     .then(function (res) {
       res[0].thinkers.forEach(function (t) {
         THINKERS[t.id] = t;
+        if (t.cat === "当代 AI 当事人") return;   // Claude/Gemini/GPT 是收尾评委，不进人物图鉴
         var cat = t.cat || "其他";
         if (!GROUPS[cat]) { GROUPS[cat] = []; ORDER.push(cat); }
         if (t.cat_en && !CAT_EN[cat]) CAT_EN[cat] = t.cat_en;

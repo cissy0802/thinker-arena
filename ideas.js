@@ -5,7 +5,7 @@
   var UI = {
     zh: { title: "议题投票 · 思想家圆桌辩论", crumb: "议题投票", h1: "议题投票",
       sub: "想看哪场辩论？给议题点赞，净票最高的下一场就开。",
-      howto: "用 GitHub 账号 👍 = 投 +1 票，👎 = −1 票（其他表情只是表态、不计票）；想补角度就在评论里说。每跑一场，云端自动挑当时净票最高的来开，并把好评论收进灵感库。",
+      howto: "用 GitHub 账号 👍 = 投 +1 票，👎 = −1 票（其他表情只是表态、不计票）；点开卡片就能看到该题当前票数与讨论。每跑一场，云端自动挑当时净票最高的来开，并把好评论收进灵感库。",
       candLabel: "候选议题 · 净票决定下一场", doneLabel: "已经辩过的", votes: "净票",
       voteBtn: "投票 / 讨论", loading: "加载投票与评论中…", topTip: "暂列第一",
       enter: "看辩论 →",
@@ -15,7 +15,7 @@
       failPre: "无法加载（", failPost: "）。本地预览请用 " },
     en: { title: "Vote on Topics · Thinkers' Round Table", crumb: "Vote", h1: "Vote on the Next Debate",
       sub: "Which debate do you want to see? Upvote a topic — the highest net score goes next.",
-      howto: "With your GitHub account, 👍 = +1 vote, 👎 = −1 (other reactions are just sentiment — no vote); add an angle in the comments. After each debate, the cloud auto-picks the highest net-voted topic and folds the best comments into the backlog.",
+      howto: "With your GitHub account, 👍 = +1 vote, 👎 = −1 (other reactions are just sentiment — no vote); open a card to see its current count and discussion. After each debate, the cloud auto-picks the highest net-voted topic and folds the best comments into the backlog.",
       candLabel: "Candidates · net votes decide the next debate", doneLabel: "Already debated", votes: "net",
       voteBtn: "Vote / discuss", loading: "Loading votes & comments…", topTip: "leading",
       enter: "see debate →",
@@ -33,7 +33,7 @@
   }
   function getJSON(u) { return fetch(u).then(function (r) { if (!r.ok) throw new Error(u + " HTTP " + r.status); return r.json(); }); }
 
-  var GISCUS = null, TERMS = {};   // map term -> {countEl, pillCnt}
+  var GISCUS = null;
 
   function loadGiscus(term, container) {
     var s = document.createElement("script");
@@ -55,25 +55,14 @@
     container.appendChild(s);
   }
 
-  // giscus 发回元数据时，更新对应议题的实时票数(👍)
+  // giscus 就绪(发回元数据)时撤掉「加载中」提示；票数直接看 giscus 自己的反应栏
   window.addEventListener("message", function (e) {
     if (e.origin !== "https://giscus.app") return;
     if (!e.data || typeof e.data !== "object" || !e.data.giscus) return;
-    var d = e.data.giscus.discussion;
-    if (!d) return;
-    // 找到当前展开的那个 term(giscus 不回传 term，用唯一展开态匹配)
     var openTerm = document.body.getAttribute("data-open-term");
     if (!openTerm) return;
-    // giscus 已就绪：撤掉「加载中」提示
     var oc = document.querySelector('.topic-card[data-term="' + openTerm + '"] .giscus-loading');
     if (oc) oc.style.display = "none";
-    // 净票 = 👍 − 👎；其他反应不计
-    var ref = TERMS[openTerm];
-    if (ref && ref.pillCnt && d.reactions) {
-      var u = d.reactions.THUMBS_UP ? d.reactions.THUMBS_UP.count : 0;
-      var dn = d.reactions.THUMBS_DOWN ? d.reactions.THUMBS_DOWN.count : 0;
-      ref.pillCnt.textContent = u - dn;
-    }
   });
 
   function candCard(c, idx, maxVotes) {
@@ -89,7 +78,7 @@
       (note ? '<div class="tc-note">' + esc(note) + "</div>" : "") +
       '<div class="tc-actions">' +
       '<button class="vote-pill" data-term="' + esc(term) + '"><i class="ti ti-thumb-up"></i> ' +
-      T("voteBtn") + ' · <span class="cnt">' + (c.votes || 0) + "</span> " + T("votes") + "</button>" +
+      T("voteBtn") + "</button>" +
       (isTop ? '<span class="badge-top">★ ' + T("topTip") + "</span>" : "") +
       "</div>" +
       '<div class="giscus-wrap"><div class="giscus-loading">' + T("loading") + "</div></div>" +
@@ -139,7 +128,6 @@
         document.body.setAttribute("data-open-term", open ? term : "");
         if (open && !wrap.getAttribute("data-loaded")) {
           wrap.setAttribute("data-loaded", "1");
-          TERMS[term] = { pillCnt: btn.querySelector(".cnt") };
           loadGiscus(term, wrap);
         }
       });

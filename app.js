@@ -4,12 +4,12 @@
 
   var LANG = localStorage.getItem("ta_lang") === "en" ? "en" : "zh";
   var UI = {
-    zh: { topic: "本场议题", net: "净支持", aiPanel: "三方 AI 收尾", summary: "综述", insight: "洞察",
+    zh: { topic: "本场议题", net: "净支持", aiPanel: "三方 AI 收尾", summary: "综述", insight: "洞察", advice: "给普通人的建议",
       stance: "本场立场", viewProfile: "点击看完整介绍 →", allProfiles: "全部人物图鉴", plainBadge: "悬停看白话",
       plainLabel: "白话", opening: "各陈己见", rebuttal: "交锋反驳", closing: "总结陈词", roundWord: "第 %N 轮",
       members: "位", chanTitle: "圆桌辩论", docTitle: "思想家圆桌辩论",
       railServers: "服务器", backToTopics: "返回议题列表", allTopics: "全部议题" },
-    en: { topic: "Topic", net: "Net", aiPanel: "AI panel", summary: "Summary", insight: "Insight",
+    en: { topic: "Topic", net: "Net", aiPanel: "AI panel", summary: "Summary", insight: "Insight", advice: "What to actually do",
       stance: "Stance in this debate", viewProfile: "View full profile →", allProfiles: "All thinkers", plainBadge: "plain reading",
       plainLabel: "Plain", opening: "Opening statements", rebuttal: "Rebuttal", closing: "Closing statements", roundWord: "Round %N",
       members: "", chanTitle: "round-table", docTitle: "Thinkers' Round Table",
@@ -162,7 +162,10 @@
         '<div class="sec-lbl"><i class="ti ti-list" style="font-size:14px"></i>' + T("summary") + "</div>" +
         '<div class="sec-txt">' + esc(pick(s, "summary")) + "</div>" +
         '<div class="sec-lbl" style="margin-top:12px"><i class="ti ti-bulb" style="font-size:14px"></i>' + T("insight") + "</div>" +
-        '<div class="sec-txt">' + esc(pick(s, "insight")) + "</div></div>";
+        '<div class="sec-txt">' + esc(pick(s, "insight")) + "</div>" +
+        (pick(s, "advice") ? '<div class="sec-lbl" style="margin-top:12px"><i class="ti ti-checklist" style="font-size:14px"></i>' + T("advice") + "</div>" +
+          '<div class="sec-txt">' + esc(pick(s, "advice")) + "</div>" : "") +
+        "</div>";
     }).join("");
     return '<div class="summaries"><div class="sum-head"><span class="ln"></span>' +
       '<span class="lbl"><i class="ti ti-robot" style="font-size:16px"></i>' + T("aiPanel") + "</span>" +

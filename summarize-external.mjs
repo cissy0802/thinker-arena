@@ -32,17 +32,17 @@ const transcript = debate.posts
   .map((p) => `[第${p.round}轮] ${nameOf[p.thinker] || p.thinker}：${p.text}`)
   .join("\n");
 
-const basePrompt = (who, lens) => `下面是一场关于「${debate.question}」的思想家圆桌辩论实录。
-
-重要：这场辩论里所有思想家的发言，都是由 Claude(Anthropic 的 AI)模拟生成的。因此它可能带有 Claude 自身的视角与盲点。你是 ${who}，一个不同的模型——你的价值，正在于提供 Claude 想不到、或会忽略的东西。
+const basePrompt = (who, lens) => `下面是一场关于「${debate.question}」的思想家圆桌辩论实录。这些发言都由 Claude 生成，你是另一个模型（${who}），视角自然不同——请如实补上你这一路的东西；该认同的共识照说，不必预设这场「有盲点」要去挑刺。${lens ? `你尤其擅长：${lens}。` : ""}
 
 ${transcript}
 
-请严格以 JSON 返回中英双语四段：
-{"summary": "综述(中文)：务必『先共识、后分歧』——开头先明确点出这场最大的共识/共同点(往往是最值得带走的)，再讲分歧的真正焦点。不要一上来就强调歧义(150~240字)",
- "insight": "独到见解(中文)：作为 ${who}(${lens})，明确指出这场辩论及其框架被忽略、低估或可质疑之处，给出与 Claude 不同的视角(150~220字)",
- "summary_en": "The same summary in natural, idiomatic English (not a stiff literal translation; write as a native English speaker would).",
- "insight_en": "The same insight in natural, idiomatic English."}
+请严格以 JSON 返回中英双语六段：
+{"summary": "综述(中文)：务必『先共识、后分歧』——开头先点出这场最大的共识/共同点(往往最值得带走)，再讲分歧的真正焦点。不要一上来就强调歧义(150~240字)",
+ "insight": "独到见解(中文)：给出一条你认为最值得加的、与全场不同的观察。可以是被忽略的角度、一个具体反例、一种更好的重构、普通人真正会反驳之处、或一个务实的纠偏——**挑这场最该说的那一条；别为了显得深刻而每次都套同一种『太抽象/太文本/太精英化』的框架批判**；若全场已相当周全，直接说『哪一条最该照做、为什么』也好(150~220字)",
+ "advice": "给普通人的可操作建议(中文)：结合综述与洞察，给 2~3 条当天或本周就能上手的具体行动。可点名援引本场某位思想家最实用的建议，也可补你自己的；落到具体动作，别空泛(100~190字)",
+ "summary_en": "The summary in natural, idiomatic English (not a stiff literal translation).",
+ "insight_en": "The insight in natural, idiomatic English.",
+ "advice_en": "The advice in natural, idiomatic English."}
 只返回 JSON，不要任何额外文字。`;
 
 function extractJSON(text) {
@@ -103,10 +103,11 @@ function replaceSummary(ai, payload) {
   const prev = i === -1 ? {} : debate.summaries[i];
   const entry = {
     ai, engine: payload.engine, engine_en: payload.engine_en || prev.engine_en || payload.engine,
-    summary: payload.summary, insight: payload.insight,
+    summary: payload.summary, insight: payload.insight, advice: payload.advice || prev.advice || "",
     // 双语：模型应返回 _en；若没返回，保留原有降级版的 _en，避免英文页空缺
     summary_en: payload.summary_en || prev.summary_en || payload.summary,
     insight_en: payload.insight_en || prev.insight_en || payload.insight,
+    advice_en: payload.advice_en || prev.advice_en || payload.advice || "",
   };
   if (i === -1) debate.summaries.push(entry);
   else debate.summaries[i] = entry;

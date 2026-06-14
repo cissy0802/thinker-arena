@@ -2,11 +2,15 @@
 
 这是云端 routine 的执行说明（本地交互版见各人电脑上的 `/think` 命令）。你是引擎本身（Opus），**自主完成、不等任何人确认**。当前工作目录已挂载本仓库（`github.com/cissy0802/thinker-arena`）。
 
-## 0. 选题
-- **优先级 1**：若 `IDEAS.md` 顶部有一行 `## 下一场：<议题>`，用它作为本场议题，并在完成后**删掉该行**。
-- **优先级 2**：否则从 `IDEAS.md`「议题清单」里挑一个**未勾选 `- [ ]`** 的候选议题。
-- **优先级 3**：若清单全勾完，自拟一个有思想张力的新题。
-- 给议题起一个英文短横线 `slug`（如 `attention-and-meaning`）。
+## 0. 选题（按投票）
+- **优先级 1（人工置顶）**：若 `IDEAS.md` 顶部有一行 `## 下一场：<议题>`，用它，并在完成后**删掉该行**。
+- **优先级 2（默认：选票王）**：读 `ideas.json` 的 `candidates`，用 `gh api graphql` 查每个议题对应 giscus 讨论（标题＝`topic:`+id）的 👍 票数，**选票数最高的那条**：
+  ```
+  gh api graphql -f query='{repository(owner:"cissy0802",name:"cissy0802.github.io"){discussions(first:100,categoryId:"DIC_kwDOShlsYc4C9f-A"){nodes{title url reactions(content:THUMBS_UP){totalCount} comments{totalCount}}}}}'
+  ```
+  把每个 `candidates[].id` 对到标题 `topic:<id>` 的 👍 数＝票数；选票数最高者为本场议题（平票或全 0 票，取清单里最靠前的）。`slug` 直接用该候选的 `id`。
+  - **降级**：若云端环境没有 `gh` / 拿不到 token、查不到票数，就直接取 `ideas.json` `candidates` 里**最靠前**的那条（顺序即人工优先级），辩论照常完整——别因为读不到票就卡住。
+- **优先级 3**：`candidates` 空了，自拟一个有思想张力的新题（`slug` 用英文短横线）。
 
 ## 1. 选角（6–10 位）
 - 读 `thinkers.json`（74 人名册，每人含 `system` 人设、`cat` 类别）。
@@ -37,7 +41,8 @@
 - 在 `debates/index.json` 的 `debates` 数组**追加一条** `{id, question, question_en, date(今天 UTC), participants}`。
 - **补人物图鉴**：把第 1 步为新人写的 `profiles.json` 条目落盘（每位选角都要在 `profiles.json` 里有条目，含全套 `_en`）。
 - 若议题来自 `IDEAS.md`「议题清单」，把那行勾成 `- [x]` 标日期；若来自顶部「下一场」行，删掉该行。
-- 把三家 `insight` 里值得记的新钩子追加到 `IDEAS.md`「各场留下的钩子」（按本议题加小节）；适合成题的提炼成新候选项 `- [ ]`。
+- **维护 `ideas.json`（投票数据）**：① 把本场议题从 `candidates` 移到 `debated`（带 `q`/`q_en`/`date`）；② 用第 0 步查到的票数回写其余 `candidates[].votes`（页面据此显示票数）；③ **读各候选讨论的评论**（上面 graphql 已带 `comments.totalCount`，有评论的再 `gh api` 拉具体内容），把里面**好的新角度/新议题**提炼成新 `candidates` 条目（`id`+`q`+`q_en`，votes:0），并同步加到 `IDEAS.md` 候选清单——这就是「好评论收录进灵感库」。
+- 把三家 `insight` 里值得记的新钩子追加到 `IDEAS.md`「各场留下的钩子」（按本议题加小节）；适合成题的提炼成新候选项 `- [ ]`（同时加进 `ideas.json` 的 `candidates`）。
 - 用 `python3 -c` 校验：两个 JSON 合法；`thinker`/`reaction key`/`reply_to`/`ai`/`participants` 引用都在册；每轮人人到齐；`glossary` 术语在各自 `text` 里、`glossary_en` 术语在各自 `text_en` 里；**每帖有 `text_en`、每条 summary 有 `summary_en`/`insight_en`、`question_en` 在场**；**每位 `participants` 都在 `profiles.json` 里有条目**。
 
 ## 5. 发布

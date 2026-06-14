@@ -4,11 +4,11 @@
   var LANG = localStorage.getItem("ta_lang") === "en" ? "en" : "zh";
   var UI = {
     zh: { h1: "思想家圆桌辩论", tagline: "古今中外的思想家，就一个问题数轮辩论 · 三家 AI 收尾",
-      profiles: "人物图鉴 →", session: "第 %N 场", panel: "位思想家 + 三方 AI 收尾", enter: "进入辩论 →",
+      profiles: "人物图鉴 →", ideas: "议题投票 →", session: "第 %N 场", panel: "位思想家 + 三方 AI 收尾", enter: "进入辩论 →",
       empty: "还没有辩论。", loading: "加载中…", failPre: "无法加载议题列表（", failPost: "）。本地预览请用 ",
       title: "思想家圆桌辩论 · BigCat's Thinking Hub" },
     en: { h1: "Thinkers' Round Table", tagline: "Great minds across eras and traditions debate one question over rounds · closed by an AI panel",
-      profiles: "All thinkers →", session: "Debate %N", panel: " thinkers + AI panel", enter: "Enter debate →",
+      profiles: "All thinkers →", ideas: "Vote on topics →", session: "Debate %N", panel: " thinkers + AI panel", enter: "Enter debate →",
       empty: "No debates yet.", loading: "Loading…", failPre: "Couldn't load the topic list (", failPost: "). For local preview run ",
       title: "Thinkers' Round Table · BigCat's Thinking Hub" }
   };
@@ -28,6 +28,7 @@
   var h1 = document.getElementById("h1"); if (h1) h1.textContent = T("h1");
   var tg = document.getElementById("tagline"); if (tg) tg.textContent = T("tagline");
   var pl = document.querySelector("#profiles-link span"); if (pl) pl.textContent = T("profiles");
+  var il = document.querySelector("#ideas-link span"); if (il) il.textContent = T("ideas");
   var lt = document.getElementById("lang-toggle");
   if (lt) {
     lt.textContent = LANG === "zh" ? "EN" : "中";

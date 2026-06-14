@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>议题投票 · 思想家圆桌辩论</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.31.0/dist/tabler-icons.min.css" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", -apple-system, "Noto Serif SC", sans-serif;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0a0e1a 100%);
+      color: #d8dbe2; min-height: 100vh; line-height: 1.7; -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 52px 22px 90px; position: relative; }
+    .lang-toggle { position: absolute; top: 16px; right: 18px; background: rgba(255,255,255,0.06);
+      color: #cdd2dd; border: 1px solid rgba(123,97,255,0.4); border-radius: 8px; padding: 5px 13px;
+      font-size: 12px; font-weight: 700; letter-spacing: .5px; cursor: pointer; font-family: inherit; transition: all .15s; }
+    .lang-toggle:hover { color: #fff; background: rgba(123,97,255,0.35); border-color: #7b61ff; }
+    .crumb { font-size: 0.78rem; color: #7b61ff; font-family: "SF Mono", Menlo, monospace; letter-spacing: 1px; margin-bottom: 14px; text-align: center; }
+    .crumb a { color: #7b61ff; text-decoration: none; }
+    .crumb a:hover { color: #00d4ff; }
+    h1 { font-size: 2rem; font-weight: 800; letter-spacing: 1px; text-align: center; margin-bottom: 8px;
+      background: linear-gradient(135deg, #a29bfe, #7b61ff 50%, #ff6ec4); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    .sub { text-align: center; color: #9aa3bd; font-size: 0.95rem; font-weight: 300; margin-bottom: 8px; }
+    .howto { text-align: center; color: #8089a0; font-size: 0.82rem; margin: 0 auto 26px; max-width: 600px;
+      background: rgba(255,255,255,0.03); border: 1px solid rgba(123,97,255,0.2); border-radius: 10px; padding: 10px 16px; }
+    .sec-label { font-size: 0.78rem; color: #7b61ff; letter-spacing: 2px; text-transform: uppercase; font-family: "SF Mono", Menlo, monospace; opacity: 0.8; margin: 30px 0 10px; }
+
+    .topic-card { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 14px; padding: 16px 18px; margin-bottom: 12px; transition: border-color .15s; }
+    .topic-card:hover { border-color: rgba(123,97,255,0.4); }
+    .tc-head { display: flex; align-items: flex-start; gap: 14px; }
+    .rank { flex-shrink: 0; width: 30px; height: 30px; border-radius: 9px; background: rgba(123,97,255,0.15); color: #b7a8f0;
+      font-family: "SF Mono", Menlo, monospace; font-size: 0.85rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 2px; }
+    .rank.top { background: linear-gradient(135deg, #ffd166, #e8743b); color: #2a1605; }
+    .tc-body { flex: 1; min-width: 0; }
+    .tc-q { font-size: 1.06rem; font-weight: 700; color: #fff; line-height: 1.45; }
+    .tc-note { font-size: 0.85rem; color: #9aa3bd; margin-top: 4px; }
+    .tc-actions { display: flex; align-items: center; gap: 10px; margin-top: 12px; flex-wrap: wrap; }
+    .vote-pill { display: inline-flex; align-items: center; gap: 6px; background: rgba(123,97,255,0.14); border: 1px solid rgba(123,97,255,0.35);
+      color: #cdbff5; border-radius: 18px; padding: 5px 14px; font-size: 0.86rem; cursor: pointer; font-family: inherit; transition: all .15s; }
+    .vote-pill:hover { background: rgba(123,97,255,0.28); color: #fff; }
+    .vote-pill .cnt { font-weight: 700; font-family: "SF Mono", Menlo, monospace; }
+    .vote-pill.open { background: rgba(123,97,255,0.3); color: #fff; border-color: #7b61ff; }
+    .badge-top { font-size: 0.72rem; color: #ffce6b; border: 1px solid rgba(255,209,102,0.4); border-radius: 12px; padding: 2px 9px; }
+    .giscus-wrap { margin-top: 14px; padding-top: 12px; border-top: 1px dashed rgba(255,255,255,0.1); display: none; }
+    .giscus-wrap.show { display: block; }
+    .giscus-loading { font-size: 0.82rem; color: #8089a0; padding: 8px 2px; }
+
+    .done-card { display: flex; align-items: center; gap: 12px; text-decoration: none; color: inherit;
+      background: rgba(255,255,255,0.025); border: 1px solid rgba(255,255,255,0.07); border-radius: 12px; padding: 12px 16px; margin-bottom: 8px; transition: all .15s; }
+    .done-card:hover { background: rgba(255,255,255,0.06); border-color: rgba(123,97,255,0.4); transform: translateX(3px); }
+    .done-card .dq { flex: 1; min-width: 0; font-size: 0.92rem; color: #cdd2dd; }
+    .done-card .dgo { font-size: 0.8rem; color: #a29bfe; font-weight: 600; flex-shrink: 0; }
+    .done-card .dcheck { color: #7fcf9a; flex-shrink: 0; }
+    footer { text-align: center; margin-top: 44px; font-size: 0.78rem; color: #5a6378; }
+    footer a { color: #7b61ff; text-decoration: none; }
+    @media (max-width: 600px) { h1 { font-size: 1.6rem; } .wrap { padding: 34px 14px 70px; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <button id="lang-toggle" class="lang-toggle">EN</button>
+    <div class="crumb"><a href="https://cissy0802.github.io/">← Learning Hub</a> &nbsp;/&nbsp; <a href="index.html">Thinking Hub</a> &nbsp;/&nbsp; <span id="crumb-tail">议题投票</span></div>
+    <h1 id="h1">议题投票</h1>
+    <div class="sub" id="sub">想看哪场辩论？给议题点赞，票最高的下一场就开。</div>
+    <div class="howto" id="howto"></div>
+    <div id="content"></div>
+    <footer>BigCat · Thinking Hub · <a href="https://github.com/cissy0802">GitHub</a></footer>
+  </div>
+  <script src="ideas.js"></script>
+</body>
+</html>

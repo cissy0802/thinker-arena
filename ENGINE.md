@@ -15,6 +15,7 @@
 ## 1. 选角（6–10 位）
 - 读 `thinkers.json`（74 人名册，每人含 `system` 人设、`cat` 类别）。
 - 规则：**多样性优先**（跨传统/古今/学科，凑出对立阵营）；**倾向**带一个佛学视角（如唯识学）+ 一个现代科学（脑科学）视角，**但不强行关联**。
+- **控制重复、用满名册（重要）**：先读 `debates/index.json` 最近几场的 `participants`。名册近 80 人，但目前高度集中在少数几位（Frankl/Naval/Marx/Nietzsche/Harari/Altman/Sapolsky/世亲 反复出场，约 2/3 的人从没上过）。本场选角时：① **最近 2 场出现过的人，最多留 2–3 个**（除非这题确实非他不可）；② 其余席位**优先选最近没用过、甚至从没上场的合适人选**——名册里大量未启用：老子/庄子/孔子/孟子/苏轼/王阳明/慧能/龙树、维特根斯坦/休谟/康德/柏拉图/笛卡尔、波伏娃/阿伦特/努斯鲍姆、斯密/哈耶克/凯恩斯、爱因斯坦/玻尔/达尔文/图灵 等；③ 佛学位与脑科学位**轮换人选**（佛学：佛陀/龙树/世亲/慧能 换着来；脑科学：萨波尔斯基/哈里斯/达马西奥/拉马钱德兰/Wolf 换着来），别每次都同一个。目标：**同一个人别隔一场就又出现，让整个名册转起来**。
 - **优先从名册 `id` 选**；唯一例外：为带进真实脑科学研究，可临时引入名册外的相关科学家——若如此，**先往 `thinkers.json` 补一张该人的卡**（id/name/handle/school/era/region/**name_en/school_en/region_en/cat_en/char/char_en/tenets_en**/color/fg/classical/system/tenets/cat；**古代人物的 `era` 还要配 `era_en`**，如「前384–前322」→「384–322 BC」、「约4–5世纪」→「c. 4th–5th century CE」。`tenets_en` 与 `tenets` 同序等长，是招牌概念的英文，如「仁/礼」→「Benevolence/Ritual propriety」），否则前端头像会是灰问号/汉字章、英文页露出中文年代或中文关键词。
 - **人物图鉴必补（非可选）**：选定阵容后，**每位选中的思想家若在 `profiles.json` 里还没有条目，必须为他补一条**（键＝该人 id），含 `bio/ideas/assessments[{by,text}]/quotes/works/lineage/trivia` **且每个字段都配 `_en`**（`bio_en`/`ideas_en`/`assessments_en`/`quotes_en`/`works_en`/`lineage_en`/`trivia_en`，英文要地道）。评价与名言只用**真实公认史料，严禁编造**；拿不准的名言改写成「大意 / paraphrased」。**人物图鉴是通用、可复用的介绍——不要把这个人和本场议题绑定**（别写「这一框架直击本题」之类的话；该人在本场的立场/入选理由只写进 `casting[].reason`/`reason_en`）。否则辩论页点选角条头像跳进图鉴是空的「待补充」。
 

@@ -8,50 +8,103 @@
     "termPrefix": "topic:"
   },
   "candidates": [
-    { "id": "ai-augment-or-atrophy", "votes": 0,
+    {
+      "id": "ai-augment-or-atrophy",
+      "votes": 0,
       "q": "AI 与算法：在增强我们，还是在让我们退化？",
       "q_en": "AI and algorithms: are they augmenting us, or making us atrophy?",
       "note": "认知外包——当答案唾手可得，记忆 / 专注 / 思考会不会退化；技术是解放还是新异化。",
-      "note_en": "Cognitive outsourcing — when answers are instant, do memory, focus and thinking atrophy? Is technology liberation, or a new alienation?" },
-    { "id": "ai-era-parenting", "votes": 0,
+      "note_en": "Cognitive outsourcing — when answers are instant, do memory, focus and thinking atrophy? Is technology liberation, or a new alienation?"
+    },
+    {
+      "id": "ai-era-parenting",
+      "votes": 1,
       "q": "AI 时代该怎么养孩子？鸡娃、挤名校还值不值得？",
       "q_en": "Raising kids in the age of AI: is intense “tiger parenting” and chasing elite schools still worth it?",
       "note": "拼命鸡娃、挤名校到底还值不值得，屏幕与注意力又该怎么管？",
-      "note_en": "Is all-out “tiger parenting” and the scramble for elite schools still worth it, and how should we handle screens and attention?" },
-    { "id": "money-and-happiness", "votes": 0,
+      "note_en": "Is all-out “tiger parenting” and the scramble for elite schools still worth it, and how should we handle screens and attention?"
+    },
+    {
+      "id": "money-and-happiness",
+      "votes": 0,
       "q": "金钱能（在多大程度上）买到幸福？",
       "q_en": "Can money buy happiness — and how much?",
-      "note": "", "note_en": "" },
-    { "id": "free-will", "votes": 0,
+      "note": "",
+      "note_en": ""
+    },
+    {
+      "id": "free-will",
+      "votes": 0,
       "q": "人是否拥有真正的自由意志？",
       "q_en": "Do humans have genuine free will?",
-      "note": "", "note_en": "" },
-    { "id": "pursue-immortality", "votes": 0,
+      "note": "",
+      "note_en": ""
+    },
+    {
+      "id": "pursue-immortality",
+      "votes": 0,
       "q": "我们应该追求长生不老吗？",
       "q_en": "Should we pursue immortality?",
-      "note": "", "note_en": "" },
-    { "id": "success-and-status", "votes": 0,
+      "note": "",
+      "note_en": ""
+    },
+    {
+      "id": "success-and-status",
+      "votes": 0,
       "q": "在 AI 时代，「成功」与「地位」还该不该是衡量人生的标尺？",
       "q_en": "In the age of AI, should “success” and “status” still be the yardstick for a life?",
-      "note": "", "note_en": "" },
-    { "id": "duty-to-earth", "votes": 0,
+      "note": "",
+      "note_en": ""
+    },
+    {
+      "id": "duty-to-earth",
+      "votes": 0,
       "q": "我们对地球（其他物种、后代）负有怎样的义务？",
       "q_en": "What do we owe the Earth — other species, and future generations?",
-      "note": "", "note_en": "" },
-    { "id": "acceptable-inequality", "votes": 0,
+      "note": "",
+      "note_en": ""
+    },
+    {
+      "id": "acceptable-inequality",
+      "votes": 0,
       "q": "什么样的不平等是可以接受的？",
       "q_en": "What kind of inequality is acceptable?",
-      "note": "", "note_en": "" },
-    { "id": "triage-trauma", "votes": 0,
+      "note": "",
+      "note_en": ""
+    },
+    {
+      "id": "triage-trauma",
+      "votes": 0,
       "q": "创伤该不该分级？",
       "q_en": "Should trauma be triaged?",
       "note": "普通失望、情感忽视、持续操控、暴力虐待，能用同一套「原谅 / 意义 / 修心」处理吗？",
-      "note_en": "Can ordinary disappointment, emotional neglect, persistent manipulation, and abuse all be handled with the same “forgiveness / meaning / inner work”?" }
+      "note_en": "Can ordinary disappointment, emotional neglect, persistent manipulation, and abuse all be handled with the same “forgiveness / meaning / inner work”?"
+    }
   ],
   "debated": [
-    { "id": "happiness", "q": "幸福到底是什么？我们是否应该追求幸福？", "q_en": "What is happiness, really? And should we even pursue it?", "date": "2026-06-13" },
-    { "id": "attention-and-meaning", "q": "AI 时代，人如何夺回注意力与存在的意义？", "q_en": "In the age of AI, how do we reclaim our attention and the meaning of our existence?", "date": "2026-06-13" },
-    { "id": "ai-unemployment", "q": "AI 取代工作后，人类是否迎来存在危机？普通人怎样面对中年失业？", "q_en": "After AI replaces human work, will humanity face an existential crisis? How should ordinary people cope with mass midlife unemployment?", "date": "2026-06-13" },
-    { "id": "family-trauma", "q": "原生家庭的创伤：我们多大程度被童年塑造？能否走出？能否改变父母？", "q_en": "Trauma from the family we're born into: how much does childhood shape us, can we move past it, and can we change our parents?", "date": "2026-06-13" }
+    {
+      "id": "happiness",
+      "q": "幸福到底是什么？我们是否应该追求幸福？",
+      "q_en": "What is happiness, really? And should we even pursue it?",
+      "date": "2026-06-13"
+    },
+    {
+      "id": "attention-and-meaning",
+      "q": "AI 时代，人如何夺回注意力与存在的意义？",
+      "q_en": "In the age of AI, how do we reclaim our attention and the meaning of our existence?",
+      "date": "2026-06-13"
+    },
+    {
+      "id": "ai-unemployment",
+      "q": "AI 取代工作后，人类是否迎来存在危机？普通人怎样面对中年失业？",
+      "q_en": "After AI replaces human work, will humanity face an existential crisis? How should ordinary people cope with mass midlife unemployment?",
+      "date": "2026-06-13"
+    },
+    {
+      "id": "family-trauma",
+      "q": "原生家庭的创伤：我们多大程度被童年塑造？能否走出？能否改变父母？",
+      "q_en": "Trauma from the family we're born into: how much does childhood shape us, can we move past it, and can we change our parents?",
+      "date": "2026-06-13"
+    }
   ]
 }

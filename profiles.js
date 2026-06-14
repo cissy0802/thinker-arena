@@ -36,6 +36,11 @@
   function list(arr, cls) {
     return "<ul>" + arr.map(function (x) { return '<li class="' + (cls || "") + '">' + esc(x) + "</li>"; }).join("") + "</ul>";
   }
+  // 把含换行的长文本拆成多段 <p>，便于阅读（单行文本仍是一个 <p>）
+  function paras(t) {
+    return String(t == null ? "" : t).split(/\n+/).filter(function (s) { return s.trim(); })
+      .map(function (s) { return "<p>" + esc(s) + "</p>"; }).join("");
+  }
   function nameOf(c) { return pick(c, "name"); }
   function catLabel(cat) { return CAT_EN[cat] && LANG === "en" ? CAT_EN[cat] : cat; }
 
@@ -60,8 +65,8 @@
       body += sec(T("keywords"), "ti-tags", '<div class="tags">' + tags + "</div>");
     }
     if (p) {
-      if (pick(p, "bio")) body += sec(T("bio"), "ti-user", "<p>" + esc(pick(p, "bio")) + "</p>");
-      if (pick(p, "ideas")) body += sec(T("ideas"), "ti-bulb", "<p>" + esc(pick(p, "ideas")) + "</p>");
+      if (pick(p, "bio")) body += sec(T("bio"), "ti-user", paras(pick(p, "bio")));
+      if (pick(p, "ideas")) body += sec(T("ideas"), "ti-bulb", paras(pick(p, "ideas")));
       var assess = pick(p, "assessments");
       if (assess && assess.length) {
         body += sec(T("assess"), "ti-quote", assess.map(function (a) {
@@ -72,8 +77,8 @@
       if (quotes && quotes.length) body += sec(T("quotes"), "ti-message-2", list(quotes, "quote"));
       var works = pick(p, "works");
       if (works && works.length) body += sec(T("works"), "ti-book", list(works));
-      if (pick(p, "lineage")) body += sec(T("lineage"), "ti-git-branch", "<p>" + esc(pick(p, "lineage")) + "</p>");
-      if (pick(p, "trivia")) body += sec(T("trivia"), "ti-sparkles", "<p>" + esc(pick(p, "trivia")) + "</p>");
+      if (pick(p, "lineage")) body += sec(T("lineage"), "ti-git-branch", paras(pick(p, "lineage")));
+      if (pick(p, "trivia")) body += sec(T("trivia"), "ti-sparkles", paras(pick(p, "trivia")));
     } else {
       body += '<div class="todo">' + T("todo") + "</div>";
     }

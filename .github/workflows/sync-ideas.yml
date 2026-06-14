@@ -1,0 +1,38 @@
+name: Sync ideas.json from IDEAS.md
+
+# 人手编辑 IDEAS.md(markdown 友好)后，自动把「议题清单」候选同步进 ideas.json(网页数据源)。
+# 靠 IDEAS.md 候选行尾的隐形 <!--id--> 标记锚定，改写问题也不丢 id/票/英文/副标题。
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'IDEAS.md'
+      - 'sync_ideas.py'
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Sync ideas.json from IDEAS.md
+        run: python3 sync_ideas.py
+
+      - name: Commit if ideas.json changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet ideas.json; then
+            echo "ideas.json unchanged."
+            exit 0
+          fi
+          git add ideas.json
+          git commit -m "Auto-sync ideas.json from IDEAS.md"
+          git push

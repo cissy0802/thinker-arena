@@ -44,7 +44,7 @@
 - 在 `debates/index.json` 的 `debates` 数组**追加一条** `{id, question, question_en, date(今天 UTC), participants}`。
 - **补人物图鉴**：把第 1 步为新人写的 `profiles.json` 条目落盘（每位选角都要在 `profiles.json` 里有条目，含全套 `_en`）。
 - 若议题来自 `IDEAS.md`「议题清单」，把那行勾成 `- [x]` 标日期；若来自顶部「下一场」行，删掉该行。
-- **维护 `ideas.json`（投票数据）**：① 把本场议题从 `candidates` 移到 `debated`（带 `q`/`q_en`/`date`）；② 用第 0 步查到的**净票（👍−👎）**回写其余 `candidates[].votes`；③ **读观众提案**——标题为 `open-questions` 的讨论（观众在「提个新议题」里提的）+ 各候选讨论里的评论，把**好的新议题/新角度**提炼成新 `candidates`（`id`+`q`+`q_en`，votes:0），并同步加到 `IDEAS.md` 候选清单——这就是「好评论/提案收录进灵感库」。
+- **维护 `ideas.json`（投票数据）**（注：候选以 `IDEAS.md` 为人手编辑源、每行尾带隐形 `<!--id-->`；`sync_ideas.py`（GitHub Action 在 IDEAS.md 改动时自动跑）会把 IDEAS.md 候选刷进 `ideas.json`，按 id 保住票/英文/副标题。你两边都改、保持一致即可；**新候选务必在 IDEAS.md 行尾加 `<!--id-->`，并在 `ideas.json` 补 `q_en`/`note`/`note_en`**）：① 把本场议题从 `candidates` 移到 `debated`（带 `q`/`q_en`/`date`）；② 用第 0 步查到的**净票（👍−👎）**回写其余 `candidates[].votes`；③ **读观众提案**——标题为 `open-questions` 的讨论（观众在「提个新议题」里提的）+ 各候选讨论里的评论，把**好的新议题/新角度**提炼成新 `candidates`（`id`+`q`+`q_en`，votes:0），并同步加到 `IDEAS.md` 候选清单——这就是「好评论/提案收录进灵感库」。
 - 把三家 `insight` 里值得记的新钩子追加到 `IDEAS.md`「各场留下的钩子」（按本议题加小节）。**提炼成新候选要克制**：只有当某钩子的角度**与已辩议题和现有候选都十分不同**时，才立成新候选 `- [ ]`（并加进 `ideas.json` 的 `candidates`）；若只是对某场的补充/延伸，**只留在钩子区、别塞进候选**——候选池求异、换血，别堆同质题（已辩多为 AI/现代生活类，新候选优先往非 AI、跨学科的母题引，好把冷板凳思想家带出来）。**并每次顺手 ruthlessly prune 候选池**：合并/删掉与已辩或现有候选重复、纯补充的题，保持精炼；直接改 `IDEAS.md`/`ideas.json` 即可，**别记录「已砍」历史**。
 - 用 `python3 -c` 校验：两个 JSON 合法；`thinker`/`reaction key`/`reply_to`/`ai`/`participants` 引用都在册；每轮人人到齐；`glossary` 术语在各自 `text` 里、`glossary_en` 术语在各自 `text_en` 里；**每帖有 `text_en`、每条 summary 有 `summary_en`/`insight_en`、`question_en` 在场**；**每位 `participants` 都在 `profiles.json` 里有条目**。
 

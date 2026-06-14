@@ -28,6 +28,7 @@
 ## 3. 三方 AI 收尾（每场必有）
 - `summaries` 三条：`{ "ai":"claude|gpt|gemini", "engine", "engine_en", "summary", "insight", "summary_en", "insight_en" }`（**双语 `_en` 全必填**，英文地道；`engine_en` 是 engine 的英文版，如 `Opus · subscription (native)`、降级版 `fallback: Opus role-play (no key)`）。
 - **每条 `summary` 先共识、后分歧**：开头点出最大共识（最值得带走的），再讲分歧焦点。
+- **别泄漏生成过程**：summary / insight 里不要出现「这一版 / 上一版 / 之前的版本 / 重写本场 / this version / had been missing」等元信息——读者只看到最终这一场，写得像它本来就是这样。
 - `claude`：你亲自写，`engine:"Opus · 订阅(原生)"`／`engine_en:"Opus · subscription (native)"`。`insight` 是审慎权衡的独到观察。
 - `gpt`/`gemini`：先写降级占位（`engine:"降级:Opus 扮演(未配 KEY)"`／`engine_en:"fallback: Opus role-play (no key)"`，连同 `summary_en`/`insight_en`）。**然后运行 `node summarize-external.mjs debates/<slug>.json`**——若仓库有 `.env`（含 `OPENAI_API_KEY`/`GEMINI_API_KEY`）就会升级为真实 gpt-5.5(high)/gemini-3.1-pro-preview；拿不到 key 就保持降级，**辩论照样完整**。它俩的 `insight` 须明确指出「这场（Claude 模拟的）辩论被漏掉/低估/可质疑之处」。
 

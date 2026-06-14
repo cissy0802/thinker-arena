@@ -30,12 +30,12 @@
   - `reactions`：其他在场者各从 6 级表态里投至多一种 `{强烈赞同/轻微赞同/中立/轻微反对/强烈反对/疑惑}`→reactor id 列表，只留非空档。reactor 必须是本场参与者。
 
 ## 3. 三方 AI 收尾（每场必有）
-- `summaries` 三条：`{ "ai":"claude|gpt|gemini", "engine", "engine_en", "summary", "insight", "advice", "summary_en", "insight_en", "advice_en" }`（**双语 `_en` 全必填**，英文地道；`engine_en` 是 engine 的英文版，如 `Opus · subscription (native)`、降级版 `fallback: Opus role-play (no key)`）。三段：`summary`(综述) + `insight`(独到见解) + `advice`(给普通人的可操作建议)。
+- `summaries` 三条：`{ "ai":"claude|gpt|gemini", "engine", "engine_en", "summary", "insight", "advice", "summary_en", "insight_en", "advice_en" }`（**双语 `_en` 全必填**，英文地道；`engine_en` 是 engine 的英文版，如 `Opus 4.8 · subscription (native)`、降级版 `fallback: Opus role-play (no key)`）。三段：`summary`(综述) + `insight`(独到见解) + `advice`(给普通人的可操作建议)。
 - **每条 `summary` 先共识、后分歧**：开头点出最大共识（最值得带走的），再讲分歧焦点。
 - **`insight` 别套同一种批判**：给一条这场最该说的、与全场不同的观察（被忽略的角度／一个反例／更好的重构／普通人会反驳处／务实纠偏皆可）；**别每次都做『太抽象/太文本/太精英化』的框架批判**——那是 prompt 容易诱发的套路，挑真正最该说的。
 - **`advice`**：结合综述与洞察，给 2~3 条当天/本周就能上手的具体行动；可点名援引本场某位思想家最实用的建议，也可补自己的。
 - **别泄漏生成过程**：summary / insight / advice 里不要出现「这一版 / 之前的版本 / this version / had been missing」等元信息。
-- `claude`：你亲自写，`engine:"Opus · 订阅(原生)"`／`engine_en:"Opus · subscription (native)"`；`summary`/`insight`/`advice` 三段都要写（含 `_en`）。
+- `claude`：你亲自写，`engine:"Opus 4.8 · 订阅(原生)"`／`engine_en:"Opus 4.8 · subscription (native)"`；`summary`/`insight`/`advice` 三段都要写（含 `_en`）。
 - `gpt`/`gemini`：先写降级占位（`engine:"降级:Opus 扮演(未配 KEY)"`／`engine_en:"fallback: Opus role-play (no key)"`，连同 `summary_en`/`insight_en`/`advice`/`advice_en`）。**然后运行 `node summarize-external.mjs debates/<slug>.json`**——若仓库有 `.env`（含 `OPENAI_API_KEY`/`GEMINI_API_KEY`）就会升级为真实 gpt-5.5(high)/gemini-3.1-pro-preview（连 advice 一并产出）；拿不到 key 就保持降级，**辩论照样完整**。它俩 `insight` 给与 Claude 不同的独到观察即可（脚本 prompt 已去掉「专挑 Claude 盲点」的诱导，避免每次都套同一种框架批判）。
 
 ## 4. 写文件 + 登记 + 校验

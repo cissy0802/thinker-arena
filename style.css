@@ -80,7 +80,7 @@ html, body {
 .lineup .seat-all:hover { color: #fff; border-color: var(--blurple); }
 .lineup .seat .av { width: 24px; height: 24px; }
 .lineup .seat .nm { font-size: 13px; color: var(--txt); }
-.lineup .seat .tip { bottom: 130%; left: 0; width: 200px; }
+.lineup .seat .tip { top: 132%; left: 0; width: 200px; font-size: 12.5px; line-height: 1.5; }
 .lineup .seat:hover .tip { visibility: visible; opacity: 1; }
 
 /* 轮次分隔 */

@@ -21,7 +21,7 @@
 - 每帖结构：`{ "id":"pNN", "round", "thinker", "reply_to", "text", "text_en", "vernacular", "vernacular_en", "glossary", "glossary_en", "reactions" }`
   - `reply_to`：指向被反驳的**具体某帖 id**；没有则 `null`。
   - `vernacular`：仅 `classical:true` 的思想家、且发言是文言时，给**整段白话**；否则 `null`。
-  - `glossary`：`{ "术语":"定义" }`，把专业术语/外来概念收进来（术语须原样出现在 `text` 里）；**中文术语的定义带上英文**（异化 alienation、多巴胺 dopamine、皮质醇 cortisol…）；本身是外文/希腊语的（eudaimonia、ataraxia、PERMA）无需再加。
+  - `glossary`：`{ "术语":"定义" }`，把专业术语/外来概念收进来（术语须原样出现在 `text` 里）；**中文术语的定义必须以英文开头**（统一 `英文（中文）：定义`，如 "alienation（异化）：…"、"der letzte Mensch（末人）：…"）——别把英文埋在句中或漏掉；本身是外文/希腊/梵文的（eudaimonia、ataraxia、PERMA、ālaya-vijñāna）已是英文，照常放开头。
   - **双语 `_en`（必填）**：`text_en` 给地道英译；`glossary_en` 是 `{ 英文术语: 英文定义 }`（术语须原样出现在 `text_en` 里）；古文帖的 `vernacular_en` 设为 `""`（空串，英文正文本就是白话、不再显「plain」徽标）。
   - `reactions`：其他在场者各从 6 级表态里投至多一种 `{强烈赞同/轻微赞同/中立/轻微反对/强烈反对/疑惑}`→reactor id 列表，只留非空档。reactor 必须是本场参与者。
 

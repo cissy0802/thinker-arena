@@ -12,7 +12,7 @@
 - 读 `thinkers.json`（74 人名册，每人含 `system` 人设、`cat` 类别）。
 - 规则：**多样性优先**（跨传统/古今/学科，凑出对立阵营）；**倾向**带一个佛学视角（如唯识学）+ 一个现代科学（脑科学）视角，**但不强行关联**。
 - **优先从名册 `id` 选**；唯一例外：为带进真实脑科学研究，可临时引入名册外的相关科学家——若如此，**先往 `thinkers.json` 补一张该人的卡**（id/name/handle/school/era/region/**name_en/school_en/region_en/cat_en/char/char_en/tenets_en**/color/fg/classical/system/tenets/cat；**古代人物的 `era` 还要配 `era_en`**，如「前384–前322」→「384–322 BC」、「约4–5世纪」→「c. 4th–5th century CE」。`tenets_en` 与 `tenets` 同序等长，是招牌概念的英文，如「仁/礼」→「Benevolence/Ritual propriety」），否则前端头像会是灰问号/汉字章、英文页露出中文年代或中文关键词。
-- **人物图鉴必补（非可选）**：选定阵容后，**每位选中的思想家若在 `profiles.json` 里还没有条目，必须为他补一条**（键＝该人 id），含 `bio/ideas/assessments[{by,text}]/quotes/works/lineage/trivia` **且每个字段都配 `_en`**（`bio_en`/`ideas_en`/`assessments_en`/`quotes_en`/`works_en`/`lineage_en`/`trivia_en`，英文要地道）。评价与名言只用**真实公认史料，严禁编造**；拿不准的名言改写成「大意 / paraphrased」。否则辩论页点选角条头像跳进图鉴是空的「待补充」。
+- **人物图鉴必补（非可选）**：选定阵容后，**每位选中的思想家若在 `profiles.json` 里还没有条目，必须为他补一条**（键＝该人 id），含 `bio/ideas/assessments[{by,text}]/quotes/works/lineage/trivia` **且每个字段都配 `_en`**（`bio_en`/`ideas_en`/`assessments_en`/`quotes_en`/`works_en`/`lineage_en`/`trivia_en`，英文要地道）。评价与名言只用**真实公认史料，严禁编造**；拿不准的名言改写成「大意 / paraphrased」。**人物图鉴是通用、可复用的介绍——不要把这个人和本场议题绑定**（别写「这一框架直击本题」之类的话；该人在本场的立场/入选理由只写进 `casting[].reason`/`reason_en`）。否则辩论页点选角条头像跳进图鉴是空的「待补充」。
 
 ## 2. 撰写辩论（你亲自写，零外部 API）
 - **默认 3 轮**：第1轮各陈己见 → 第2轮交锋反驳（一轮，针锋相对、接地气）→ 第3轮**总结陈词**（综合他人+自己、给最终结论，可稍长、再往深挖，落到**给普通人的可操作建议**；别强调「免费/不要钱」，像打广告）。

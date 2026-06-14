@@ -4,11 +4,11 @@
 
 ## 0. 选题（按投票）
 - **优先级 1（人工置顶）**：若 `IDEAS.md` 顶部有一行 `## 下一场：<议题>`，用它，并在完成后**删掉该行**。
-- **优先级 2（默认：选票王）**：读 `ideas.json` 的 `candidates`，用 `gh api graphql` 查每个议题对应 giscus 讨论（标题＝`topic:`+id）的 👍 票数，**选票数最高的那条**：
+- **优先级 2（默认：选净票王）**：读 `ideas.json` 的 `candidates`，用 `gh api graphql` 查每个议题对应 giscus 讨论（标题＝`topic:`+id）的 👍/👎 数，**选净票最高的那条**：
   ```
-  gh api graphql -f query='{repository(owner:"cissy0802",name:"cissy0802.github.io"){discussions(first:100,categoryId:"DIC_kwDOShlsYc4C9f-A"){nodes{title url reactions(content:THUMBS_UP){totalCount} comments{totalCount}}}}}'
+  gh api graphql -f query='{repository(owner:"cissy0802",name:"cissy0802.github.io"){discussions(first:100,categoryId:"DIC_kwDOShlsYc4C9f-A"){nodes{title url up:reactions(content:THUMBS_UP){totalCount} down:reactions(content:THUMBS_DOWN){totalCount} comments{totalCount}}}}}'
   ```
-  把每个 `candidates[].id` 对到标题 `topic:<id>` 的 👍 数＝票数；选票数最高者为本场议题（平票或全 0 票，取清单里最靠前的）。`slug` 直接用该候选的 `id`。
+  把每个 `candidates[].id` 对到标题 `topic:<id>` 的**净票＝👍−👎**（其他表情不计）；选净票最高者为本场议题（平票或全 0，取清单里最靠前的）。`slug` 直接用该候选的 `id`。
   - **降级**：若云端环境没有 `gh` / 拿不到 token、查不到票数，就直接取 `ideas.json` `candidates` 里**最靠前**的那条（顺序即人工优先级），辩论照常完整——别因为读不到票就卡住。
 - **优先级 3**：`candidates` 空了，自拟一个有思想张力的新题（`slug` 用英文短横线）。
 
@@ -43,7 +43,7 @@
 - 在 `debates/index.json` 的 `debates` 数组**追加一条** `{id, question, question_en, date(今天 UTC), participants}`。
 - **补人物图鉴**：把第 1 步为新人写的 `profiles.json` 条目落盘（每位选角都要在 `profiles.json` 里有条目，含全套 `_en`）。
 - 若议题来自 `IDEAS.md`「议题清单」，把那行勾成 `- [x]` 标日期；若来自顶部「下一场」行，删掉该行。
-- **维护 `ideas.json`（投票数据）**：① 把本场议题从 `candidates` 移到 `debated`（带 `q`/`q_en`/`date`）；② 用第 0 步查到的票数回写其余 `candidates[].votes`（页面据此显示票数）；③ **读各候选讨论的评论**（上面 graphql 已带 `comments.totalCount`，有评论的再 `gh api` 拉具体内容），把里面**好的新角度/新议题**提炼成新 `candidates` 条目（`id`+`q`+`q_en`，votes:0），并同步加到 `IDEAS.md` 候选清单——这就是「好评论收录进灵感库」。
+- **维护 `ideas.json`（投票数据）**：① 把本场议题从 `candidates` 移到 `debated`（带 `q`/`q_en`/`date`）；② 用第 0 步查到的**净票（👍−👎）**回写其余 `candidates[].votes`；③ **读观众提案**——标题为 `open-questions` 的讨论（观众在「提个新议题」里提的）+ 各候选讨论里的评论，把**好的新议题/新角度**提炼成新 `candidates`（`id`+`q`+`q_en`，votes:0），并同步加到 `IDEAS.md` 候选清单——这就是「好评论/提案收录进灵感库」。
 - 把三家 `insight` 里值得记的新钩子追加到 `IDEAS.md`「各场留下的钩子」（按本议题加小节）；适合成题的提炼成新候选项 `- [ ]`（同时加进 `ideas.json` 的 `candidates`）。
 - 用 `python3 -c` 校验：两个 JSON 合法；`thinker`/`reaction key`/`reply_to`/`ai`/`participants` 引用都在册；每轮人人到齐；`glossary` 术语在各自 `text` 里、`glossary_en` 术语在各自 `text_en` 里；**每帖有 `text_en`、每条 summary 有 `summary_en`/`insight_en`、`question_en` 在场**；**每位 `participants` 都在 `profiles.json` 里有条目**。
 

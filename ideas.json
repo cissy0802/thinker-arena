@@ -1,5 +1,5 @@
 {
-  "_comment": "议题投票数据。candidates=未辩候选(供投票)，debated=已辩(链到辩论)。每个候选的 giscus 讨论 term = 'topic:'+id，👍 反应数=票数。votes 字段由云端 routine 每次跑时用 `gh api graphql` 读 GitHub Discussions 的 👍 计数回写(页面据此显示；点开卡片则加载实时 giscus)。新候选议题加进 candidates 即可。",
+  "_comment": "议题投票数据。candidates=未辩候选(供投票)，debated=已辩(链到辩论)。每个候选的 giscus 讨论 term = 'topic:'+id；净票 = 👍 − 👎(其他表情不计)。votes 字段由 routine 每次跑时用 `gh api graphql` 读 GitHub Discussions 的 👍/👎 回写净票(页面据此显示；点开卡片则加载实时 giscus)。另有一个 term='open-questions' 的讨论(页面『提个新议题』)收观众自提议题——routine 把里面好的提案提炼成新 candidates。新候选议题加进 candidates 即可。",
   "giscus": {
     "repo": "cissy0802/cissy0802.github.io",
     "repoId": "R_kgDOShlsYQ",

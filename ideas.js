@@ -4,17 +4,25 @@
   var LANG = localStorage.getItem("ta_lang") === "en" ? "en" : "zh";
   var UI = {
     zh: { title: "议题投票 · 思想家圆桌辩论", crumb: "议题投票", h1: "议题投票",
-      sub: "想看哪场辩论？给议题点赞，票最高的下一场就开。",
-      howto: "👍 用 GitHub 账号给你想看的议题点赞 = 投一票；想补充角度、提新议题就在下面留言。每跑一场，云端会自动挑当时票数最高的来开，并把好评论收进灵感库。",
-      candLabel: "候选议题 · 投票决定下一场", doneLabel: "已经辩过的", votes: "票",
+      sub: "想看哪场辩论？给议题点赞，净票最高的下一场就开。",
+      howto: "用 GitHub 账号 👍 = 投 +1 票，👎 = −1 票（其他表情只是表态、不计票）；想补角度就在评论里说。每跑一场，云端自动挑当时净票最高的来开，并把好评论收进灵感库。",
+      candLabel: "候选议题 · 净票决定下一场", doneLabel: "已经辩过的", votes: "净票",
       voteBtn: "投票 / 讨论", loading: "加载投票与评论中…", topTip: "暂列第一",
-      enter: "看辩论 →", failPre: "无法加载（", failPost: "）。本地预览请用 " },
+      enter: "看辩论 →",
+      openQLabel: "提个新议题", openQTitle: "没有你想看的？在这儿提一个",
+      openQNote: "把你想看的辩题写进评论——被采纳就会进入上面的候选名单，一起接受投票。",
+      openQBtn: "提议新议题 / 讨论",
+      failPre: "无法加载（", failPost: "）。本地预览请用 " },
     en: { title: "Vote on Topics · Thinkers' Round Table", crumb: "Vote", h1: "Vote on the Next Debate",
-      sub: "Which debate do you want to see? Upvote a topic — the top one goes next.",
-      howto: "👍 Upvote a topic with your GitHub account = one vote; add an angle or propose a new topic in the comments below. After each debate, the cloud auto-picks the highest-voted topic and folds the best comments into the backlog.",
-      candLabel: "Candidates · votes decide the next debate", doneLabel: "Already debated", votes: "votes",
+      sub: "Which debate do you want to see? Upvote a topic — the highest net score goes next.",
+      howto: "With your GitHub account, 👍 = +1 vote, 👎 = −1 (other reactions are just sentiment — no vote); add an angle in the comments. After each debate, the cloud auto-picks the highest net-voted topic and folds the best comments into the backlog.",
+      candLabel: "Candidates · net votes decide the next debate", doneLabel: "Already debated", votes: "net",
       voteBtn: "Vote / discuss", loading: "Loading votes & comments…", topTip: "leading",
-      enter: "see debate →", failPre: "Couldn't load (", failPost: "). For local preview run " }
+      enter: "see debate →",
+      openQLabel: "Propose a new topic", openQTitle: "Don't see the one you want? Suggest it here",
+      openQNote: "Write the debate question you'd like in the comments — good ones get promoted into the candidate list above for voting.",
+      openQBtn: "Suggest a topic / discuss",
+      failPre: "Couldn't load (", failPost: "). For local preview run " }
   };
   function T(k) { return UI[LANG][k]; }
   function pick(o, f) { return (LANG === "en" && o && o[f + "_en"] != null) ? o[f + "_en"] : (o ? o[f] : undefined); }
@@ -55,15 +63,17 @@
     if (!d) return;
     // 找到当前展开的那个 term(giscus 不回传 term，用唯一展开态匹配)
     var openTerm = document.body.getAttribute("data-open-term");
-    if (!openTerm || !TERMS[openTerm]) return;
+    if (!openTerm) return;
     // giscus 已就绪：撤掉「加载中」提示
     var oc = document.querySelector('.topic-card[data-term="' + openTerm + '"] .giscus-loading');
     if (oc) oc.style.display = "none";
-    var up = 0;
-    if (d.reactions && d.reactions.THUMBS_UP) up = d.reactions.THUMBS_UP.count;
-    else if (typeof d.reactionCount === "number") up = d.reactionCount;
+    // 净票 = 👍 − 👎；其他反应不计
     var ref = TERMS[openTerm];
-    if (ref && ref.pillCnt) ref.pillCnt.textContent = up;
+    if (ref && ref.pillCnt && d.reactions) {
+      var u = d.reactions.THUMBS_UP ? d.reactions.THUMBS_UP.count : 0;
+      var dn = d.reactions.THUMBS_DOWN ? d.reactions.THUMBS_DOWN.count : 0;
+      ref.pillCnt.textContent = u - dn;
+    }
   });
 
   function candCard(c, idx, maxVotes) {
@@ -93,6 +103,18 @@
     var maxVotes = cands.reduce(function (m, c) { return Math.max(m, c.votes || 0); }, 0);
     var html = '<div class="sec-label">' + T("candLabel") + "</div>";
     html += cands.map(function (c, i) { return candCard(c, i, maxVotes); }).join("");
+
+    // 开放征题：观众提自己的议题（独立 giscus 讨论，term=open-questions）
+    html += '<div class="sec-label">' + T("openQLabel") + "</div>";
+    html += '<div class="topic-card open-q" data-term="open-questions">' +
+      '<div class="tc-head">' +
+      '<div class="rank" style="background:rgba(255,255,255,0.06);color:#9aa3bd"><i class="ti ti-bulb"></i></div>' +
+      '<div class="tc-body">' +
+      '<div class="tc-q">' + T("openQTitle") + "</div>" +
+      '<div class="tc-note">' + T("openQNote") + "</div>" +
+      '<div class="tc-actions"><button class="vote-pill" data-term="open-questions"><i class="ti ti-message-plus"></i> ' + T("openQBtn") + "</button></div>" +
+      '<div class="giscus-wrap"><div class="giscus-loading">' + T("loading") + "</div></div>" +
+      "</div></div></div>";
 
     var done = data.debated || [];
     if (done.length) {

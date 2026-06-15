@@ -21,7 +21,6 @@
 - [ ] 科技大厂的『扁平化』——一个经理带 30–50 人，会成为常态吗？  <!--management-flattening-->
 - [ ] 一个好的『管理者』，到底是怎样的？  <!--what-makes-good-manager-->
 - [ ] 是否有“造物主”，如果有的话，TA为什么要造出人类？  <!--is-there-a-creator-->
-- [ ] AI 时代该怎么养孩子？——拼命鸡娃、挤名校到底还值不值得？  <!--ai-era-parenting-->
 - [ ] 人是否应该追求长生，如果人真的能够长生，世界会怎样？  <!--pursue-immortality-->
 - [ ] 金钱能（在多大程度上）买到幸福？  <!--money-and-happiness-->
 - [ ] 人是否拥有真正的自由意志？  <!--free-will-->

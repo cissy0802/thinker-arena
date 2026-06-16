@@ -36,7 +36,7 @@
 - **`insight` 别套同一种批判**：给一条这场最该说的、与全场不同的观察（被忽略的角度／一个反例／更好的重构／普通人会反驳处／务实纠偏皆可）；**别每次都做『太抽象/太文本/太精英化』的框架批判**——那是 prompt 容易诱发的套路，挑真正最该说的。
 - **`advice`**：结合综述与洞察，给 2~3 条当天/本周就能上手的具体行动；可点名援引本场某位思想家最实用的建议，也可补自己的。
 - **别泄漏生成过程**：summary / insight / advice 里不要出现「这一版 / 之前的版本 / this version / had been missing」等元信息。
-- `claude`：你亲自写，`engine:"Opus 4.8 · 订阅(原生)"`／`engine_en:"Opus 4.8 · subscription (native)"`；`summary`/`insight`/`advice` 三段都要写（含 `_en`）。
+- `claude`：你亲自写，`engine:"Opus 4.8 · 订阅(原生)"`／`engine_en:"Opus 4.8 · subscription (native)"`；`summary`/`insight`/`advice` 三段都要写（含 `_en`）。**每段中文 150–250 字**——与 GPT/Gemini 同一区间，别写长（你目测数不准字数，写完务必跑 `validate.py` 核，超 250 必须删；英文随中文自然长度即可）。
 - `gpt`/`gemini`：先写降级占位（`engine:"降级:Opus 扮演(未配 KEY)"`／`engine_en:"fallback: Opus role-play (no key)"`，连同 `summary_en`/`insight_en`/`advice`/`advice_en`）。**然后运行 `node summarize-external.mjs debates/<slug>.json`**——若仓库有 `.env`（含 `OPENAI_API_KEY`/`GEMINI_API_KEY`）就会升级为真实 gpt-5.5(high)/gemini-3.1-pro-preview（连 advice 一并产出）；拿不到 key 就保持降级，**辩论照样完整**。它俩 `insight` 给与 Claude 不同的独到观察即可（脚本 prompt 已去掉「专挑 Claude 盲点」的诱导，避免每次都套同一种框架批判）。
 
 ## 4. 写文件 + 登记 + 校验
@@ -46,7 +46,7 @@
 - 若议题来自 `IDEAS.md`「议题清单」，把那行勾成 `- [x]` 标日期；若来自顶部「下一场」行，删掉该行。
 - **维护 `ideas.json`（投票数据）**（注：候选以 `IDEAS.md` 为人手编辑源、每行尾带隐形 `<!--id-->`；`sync_ideas.py`（GitHub Action 在 IDEAS.md 改动时自动跑）会把 IDEAS.md 候选刷进 `ideas.json`，按 id 保住票/英文/副标题。你两边都改、保持一致即可；**新候选务必在 IDEAS.md 行尾加 `<!--id-->`，并在 `ideas.json` 补 `q_en`/`note`/`note_en`**）：① 把本场议题从 `candidates` 移到 `debated`（带 `q`/`q_en`/`date`）；② 用第 0 步查到的**净票（👍−👎）**回写其余 `candidates[].votes`；③ **读观众提案**——标题为 `open-questions` 的讨论（观众在「提个新议题」里提的）+ 各候选讨论里的评论，把**好的新议题/新角度**提炼成新 `candidates`（`id`+`q`+`q_en`，votes:0），并同步加到 `IDEAS.md` 候选清单——这就是「好评论/提案收录进灵感库」。
 - 把三家 `insight` 里值得记的新钩子追加到 `IDEAS.md`「各场留下的钩子」（按本议题加小节）。**提炼成新候选要克制**：只有当某钩子的角度**与已辩议题和现有候选都十分不同**时，才立成新候选 `- [ ]`（并加进 `ideas.json` 的 `candidates`）；若只是对某场的补充/延伸，**只留在钩子区、别塞进候选**——候选池求异、换血，别堆同质题（已辩多为 AI/现代生活类，新候选优先往非 AI、跨学科的母题引，好把冷板凳思想家带出来）。**并每次顺手 ruthlessly prune 候选池**：合并/删掉与已辩或现有候选重复、纯补充的题，保持精炼；直接改 `IDEAS.md`/`ideas.json` 即可，**别记录「已砍」历史**。
-- 用 `python3 -c` 校验：两个 JSON 合法；`thinker`/`reaction key`/`reply_to`/`ai`/`participants` 引用都在册；每轮人人到齐；`glossary` 术语在各自 `text` 里、`glossary_en` 术语在各自 `text_en` 里；**每帖有 `text_en`、每条 summary 有 `summary_en`/`insight_en`、`question_en` 在场**；**每位 `participants` 都在 `profiles.json` 里有条目**。
+- 用 `python3 validate.py debates/<slug>.json` 校验（**必跑、有 ERROR 不许 commit**）：两个 JSON 合法；`thinker`/`reaction key`/`reply_to`/`ai`/`participants` 引用都在册；每轮人人到齐；`glossary` 术语在各自 `text` 里、`glossary_en` 术语在各自 `text_en` 里；**每帖有 `text_en`、每条 summary 有 `summary_en`/`insight_en`、`question_en` 在场**；**每位 `participants` 都在 `profiles.json` 里有条目**；**三家 AI 收尾的 `summary`/`insight`/`advice` 各段中文字数落在 150–250**（上限 250 对三家硬卡；下限 150 只对 `claude` 硬卡，`gpt`/`gemini` 是真实 API 产出、偏短只告警不阻断——别为凑字数给它们注水）。WARN 仅提示。
 
 ## 5. 发布
 ```

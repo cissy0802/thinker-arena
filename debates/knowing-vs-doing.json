@@ -1,0 +1,900 @@
+{
+  "id": "knowing-vs-doing",
+  "question": "“知道”和“做到”之间的差异是如何产生的？（知道该锻炼、早睡，却很难做到）",
+  "question_en": "Why is there a gap between knowing and doing? (We know we should exercise and sleep early — yet rarely do.)",
+  "date": "2026-06-17",
+  "participants": [
+    "aristotle",
+    "epictetus",
+    "wangyangming",
+    "zhuangzi",
+    "buddha",
+    "kahneman",
+    "freud",
+    "thaler",
+    "wood"
+  ],
+  "casting": [
+    {
+      "id": "aristotle",
+      "reason": "「akrasia(意志薄弱)」概念的提出者，主张德性靠习惯养成——为本场立下『知与行如何脱节、又如何靠践行弥合』的古典基准。",
+      "reason_en": "The thinker who named akrasia (weakness of will) and held that virtue is formed by habit — setting the classical baseline for how knowing and doing come apart and are mended by practice."
+    },
+    {
+      "id": "epictetus",
+      "reason": "斯多葛派代表，强调哲学要练不要只谈、要分清『能控制与不能控制』——把『知道却做不到』转成一套可操练的内在功夫。",
+      "reason_en": "A leading Stoic who insisted philosophy be trained, not just discussed, and that we sort the controllable from the uncontrollable — turning 'knowing but not doing' into a trainable inner discipline."
+    },
+    {
+      "id": "wangyangming",
+      "reason": "『知行合一』的提出者，主张『知而不行只是未知』——本题绕不开的东方 keystone。",
+      "reason_en": "The author of 'the unity of knowing and doing,' who held that 'to know and not act is simply not to know' — the indispensable Eastern keystone for this question."
+    },
+    {
+      "id": "zhuangzi",
+      "reason": "道家『无为』与『庖丁解牛』，提供唱反调的视角：也许『拼命想做到』本身才是障碍。",
+      "reason_en": "With Daoist wu-wei and the parable of Cook Ding, he offers the contrarian view: perhaps straining to 'do it' is itself the obstacle."
+    },
+    {
+      "id": "buddha",
+      "reason": "以『习气』『正念』『中道』解释旧习何以牵人、又如何在念与行之间撬开自由的缝隙——本场的佛学视角。",
+      "reason_en": "Using habit-energy, mindfulness, and the Middle Way to explain why old habits pull us and how a sliver of freedom can be pried open between thought and act — the Buddhist lens here."
+    },
+    {
+      "id": "kahneman",
+      "reason": "『双系统』理论，从认知科学揭示『知』属慢系统、『行』常被快系统的习惯接管——本场的现代科学视角。",
+      "reason_en": "With his two-systems theory, he shows from cognitive science that 'knowing' is the slow system's job while 'doing' is often hijacked by the fast system's habits — the modern-science lens here."
+    },
+    {
+      "id": "freud",
+      "reason": "精神分析视角，追问那个『做不到的自己』是否其实并不想做到、在暗中保护着什么。",
+      "reason_en": "The psychoanalytic angle, asking whether the 'self that can't do it' actually doesn't want to — and what it is secretly protecting."
+    },
+    {
+      "id": "thaler",
+      "reason": "行为经济学『现在偏好』『助推』『承诺机制』，主张靠设计而非意志跨越鸿沟。",
+      "reason_en": "Behavioral economics — present bias, nudges, commitment devices — arguing we cross the gap by design rather than willpower."
+    },
+    {
+      "id": "wood",
+      "reason": "习惯科学，用数据证明约四成日常是情境自动触发的习惯，主张重塑环境胜过意志力——脑科学/行为科学的可操作落点。",
+      "reason_en": "Habit science, showing with data that some 40% of daily life is habit auto-triggered by context, and that reshaping the environment beats willpower — the actionable brain/behavioral-science anchor."
+    }
+  ],
+  "posts": [
+    {
+      "id": "p01",
+      "round": 1,
+      "thinker": "aristotle",
+      "reply_to": null,
+      "text": "这道鸿沟，我两千多年前就给它起了名字——akrasia，意志不坚。明知熬夜伤身却照熬，问题不在无知，而在『知』有两种：背得出的知，和化进血肉、临事使得上的知。德性不是想出来的，是练出来的——你做公正的事，才慢慢成为公正的人。光在脑子里同意『该早睡』，却从不在身体里反复操练，那点知就永远使不上劲。先改习惯，品格随后。",
+      "text_en": "I named this gap over two millennia ago — akrasia, weakness of will. We know staying up wrecks our health yet do it anyway; the problem isn't ignorance. There are two kinds of knowing: the kind you can recite, and the kind worked into flesh and bone that you can actually use in the moment. Virtue isn't thought up; it's trained in — you become just by doing just acts. Merely agreeing in your head that you 'should sleep early,' while never drilling it into the body, leaves that knowing forever powerless. Change the habit first; character follows.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "akrasia": "akrasia（意志薄弱）：明知何为更善，却仍背离更善而行——古希腊伦理学的核心难题。"
+      },
+      "glossary_en": {
+        "akrasia": "Acting against one's better judgment though one knows the better course — the central puzzle of ancient Greek ethics."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "wood",
+          "wangyangming"
+        ],
+        "轻微赞同": [
+          "epictetus",
+          "thaler",
+          "kahneman"
+        ],
+        "疑惑": [
+          "zhuangzi"
+        ]
+      }
+    },
+    {
+      "id": "p02",
+      "round": 1,
+      "thinker": "epictetus",
+      "reply_to": "p01",
+      "text": "亚里士多德说得对，但我要再逼一句：别再空谈你信什么，把它活出来。我的学生能把斯多葛背得滚瓜烂熟，一遇堵车就破功——因为他们只读了道理，没做 askēsis。诀窍在分清两堆事：能控制的（我的判断、今晚几点放下手机）和不能控制的（明天会不会更自律）。你管不住『想早睡』这个念头，但你管得住此刻熄灯这个动作。每天预演逆境，把功夫下在能动的那一寸上。",
+      "text_en": "Aristotle is right, but let me press harder: stop explaining what you believe — live it. My students could recite Stoicism flawlessly, then lose it the moment they hit traffic, because they only read the doctrine and never did the askēsis. The trick is to sort things into two piles: what's up to you (your judgment, what hour you put down the phone tonight) and what isn't (whether you'll be more disciplined tomorrow). You can't command the wish to sleep early, but you can command the act of switching off the light right now. Rehearse adversity daily; spend your effort on the one inch you can move.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "askēsis": "askēsis（操练）：斯多葛把哲学当作运动员式的反复操练，而非纯粹的知识。"
+      },
+      "glossary_en": {
+        "askēsis": "The Stoic practice of philosophy as repeated, athletic-style training rather than mere knowledge."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "aristotle"
+        ],
+        "轻微赞同": [
+          "buddha",
+          "wangyangming"
+        ],
+        "轻微反对": [
+          "kahneman"
+        ],
+        "中立": [
+          "thaler"
+        ]
+      }
+    },
+    {
+      "id": "p03",
+      "round": 1,
+      "thinker": "wangyangming",
+      "reply_to": "p01",
+      "text": "二公所言，正合我『知行合一』之旨。世人常言『知而不能行』，依我看，是未知耳。知而不行，只是未知。真知如好好色、恶恶臭——见好色属知，好之即是行，岂有见而不好者乎？知是行之始，行是知之成。今人云知熬夜之害而仍熬，非真知其害，乃口耳之知。欲弥此沟，不在多知，而在事上磨练，于一念发动处即行。",
+      "text_en": "What you two say chimes exactly with my doctrine of the unity of knowing and doing. People always say 'I know but can't do it'; to me, that is simply not yet knowing. To know and not act is merely not to know. True knowing is like loving a beautiful sight or hating a foul smell — seeing the beauty is the knowing, loving it is already the doing; who ever saw beauty and failed to love it? Knowing is the start of doing, doing the completion of knowing. One who says 'I know staying up late is harmful' yet stays up does not truly know its harm — it is knowledge of the ear and mouth. To close this gap, don't pile up more knowledge; temper yourself in actual affairs, and act at the very instant a thought arises.",
+      "vernacular": "两位说的，正合我『知行合一』的意思。世人老说『知道却做不到』，在我看来，那其实是还没真知道。知道却不去做，只能算还没知道。真正的知，就像喜欢美色、厌恶臭味——看见美色属于知，喜欢上它当下就是行，哪有看见了却不喜欢的？知是行的开始，行是知的完成。今天的人说知道熬夜有害却照样熬，不是真知道它的害，只是耳朵听来、嘴上说说的知。要填平这道沟，不靠多知道，而靠在具体事情上磨练，在念头刚冒出来的那一刻就去做。",
+      "vernacular_en": "",
+      "glossary": {
+        "知行合一": "the unity of knowing and doing（知行合一）：王阳明心学核心——真知必然导向行动，知而不行只是未知。"
+      },
+      "glossary_en": {
+        "the unity of knowing and doing": "Wang Yangming's core teaching that genuine knowledge necessarily issues in action; to know and not act is simply not to know."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "aristotle"
+        ],
+        "轻微赞同": [
+          "buddha"
+        ],
+        "轻微反对": [
+          "zhuangzi",
+          "freud"
+        ],
+        "疑惑": [
+          "thaler"
+        ]
+      }
+    },
+    {
+      "id": "p04",
+      "round": 1,
+      "thinker": "zhuangzi",
+      "reply_to": "p03",
+      "text": "诸君忙着填沟，我却疑这沟是『知』自己挖的。庖丁解牛，十九年刀刃如新——他岂是先知道该怎么下刀，再勉力去做？是依乎天理，以神遇而不以目视，手随心而不知其所以然。汝辈愈知道该早睡，愈在被窝里与自己较劲，愈睡不着。真要做到，不在加一道命令，而在去一层造作。少一点『我要自律』的紧绷，顺其性、安其时，事到临头反而成了。",
+      "text_en": "You're all busy filling the gap, but I suspect the gap was dug by 'knowing' itself. Cook Ding carved oxen for nineteen years and his blade stayed new — did he first know how to cut and then force it? He followed the natural grain, meeting it with his spirit rather than his eyes, his hand following his heart without knowing why. The more you know you should sleep early, the more you wrestle yourself under the covers, the less you sleep. To truly do it, don't add another command — remove a layer of contrivance. Less of the tension of 'I must be disciplined'; follow your nature, rest in the right timing, and when the moment comes the thing does itself.",
+      "vernacular": "各位忙着填平这道沟，我倒怀疑这沟是『知』自己挖出来的。庖丁宰牛，十九年刀刃还像新的——他难道是先知道该怎么下刀、再使劲去做吗？他是顺着牛身本来的纹理，用心神去感应而不靠眼睛盯，手跟着心走，自己都说不清为什么。你们越是知道该早睡，越在被窝里跟自己较劲，越睡不着。真要做到，不是再加一道命令，而是去掉一层刻意。少一点『我必须自律』的紧绷，顺着本性、安于时机，事到临头反而就成了。",
+      "vernacular_en": "",
+      "glossary": {
+        "庖丁解牛": "Cook Ding cuts the ox（庖丁解牛）：《庄子》寓言，技艺纯熟到顺应自然纹理、毫不费力，是『技进于道』的写照。"
+      },
+      "glossary_en": {
+        "Cook Ding": "A parable from the Zhuangzi: a cook so skilled he carves an ox by following its natural structure, effortlessly — skill passing into the Way."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "buddha"
+        ],
+        "轻微反对": [
+          "aristotle",
+          "wangyangming",
+          "thaler"
+        ],
+        "疑惑": [
+          "wood",
+          "kahneman"
+        ]
+      }
+    },
+    {
+      "id": "p05",
+      "round": 1,
+      "thinker": "buddha",
+      "reply_to": null,
+      "text": "苦之所起，在贪与习。汝知早睡为善，而夜复刷屏不止者，非意志之弱，乃无明所驱、习气所牵。心中旧习如河有故道，水自循之。然此非不可转。我说八正道，正念居其要：于欲起之际，不抢着压它，亦不随它去，但清明照见——『此乃想刷手机之念』。一照之下，念与行之间便裂开一线之隙，自由即在此隙中。日日如是修，旧道渐枯，新道渐成。",
+      "text_en": "Suffering arises from craving and from habit. That you know early sleep is good yet keep scrolling into the night is not weakness of will — it is driven by ignorance and pulled by habit-energy. Old habits in the mind are like a river with an old channel; the water simply follows it. Yet this can be turned. I teach the Eightfold Path, and right mindfulness is its hinge: the instant a desire arises, neither rush to suppress it nor run after it — just see it clearly: 'this is a thought of wanting to scroll.' In that seeing, a sliver of a gap opens between the thought and the act, and freedom lives in that gap. Practice this daily, and the old channel slowly dries while a new one forms.",
+      "vernacular": "痛苦的根源，在于贪着和习气。你知道早睡是好的，夜里却忍不住一直刷屏，这不是意志薄弱，而是被无明驱使、被习气牵引。心里的旧习就像河流有旧河道，水自然顺着它流。但这并非不能扭转。我讲八正道，其中正念很关键：在欲望刚冒起的那一刻，既不急着压住它，也不跟着它跑，只是清清楚楚地看见——『这是一个想刷手机的念头』。这样一照，念头和行动之间就裂开一条缝，自由就在这条缝里。天天这样修，旧河道慢慢干涸，新河道慢慢形成。",
+      "vernacular_en": "",
+      "glossary": {
+        "习气": "vāsanā（习气）：由过往行为在身心中积存、不待意识决定便驱动我们重复旧行为的习惯性势能。",
+        "正念": "right mindfulness（正念）：清明而不评判地觉察当下身心，于念头与行动之间留出选择的余地。"
+      },
+      "glossary_en": {
+        "habit-energy": "vāsanā: latent imprints left by past actions that incline us to repeat them without conscious decision.",
+        "right mindfulness": "Clear, non-judgmental awareness of the present body and mind, opening a space of choice between thought and action."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "zhuangzi"
+        ],
+        "轻微赞同": [
+          "epictetus",
+          "kahneman",
+          "wangyangming"
+        ],
+        "中立": [
+          "wood"
+        ]
+      }
+    },
+    {
+      "id": "p06",
+      "round": 1,
+      "thinker": "kahneman",
+      "reply_to": "p01",
+      "text": "让我把这套机制摊开。你脑里有两套系统：系统1快、自动、不费力，靠习惯和直觉；系统2慢、刻意、费脑力。『我该早睡』是系统2的深思熟虑，可深夜里做主的，是被沙发和手机触发的系统1。系统2很懒，又极易被一天的决策耗竭——这就是为什么晚上意志力最薄。指望疲惫的系统2去硬压精力旺盛的系统1，几乎注定输。所以别在意志上死磕，要在系统1还没启动前就改掉触发它的环境。",
+      "text_en": "Let me lay the mechanism bare. You run two systems: System 1 is fast, automatic, effortless, running on habit and intuition; System 2 is slow, deliberate, mentally costly. 'I should sleep early' is System 2's careful reasoning, but what rules late at night is System 1, triggered by the couch and the phone. System 2 is lazy and easily depleted by a day of decisions — which is why willpower is thinnest at night. Betting a tired System 2 against a fresh System 1 is almost a guaranteed loss. So don't slug it out on willpower; change the environment that triggers System 1 before it ever fires.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "系统1": "System 1（系统1）：快速、自动、不费力的直觉思维，主导多数日常行为。",
+        "系统2": "System 2（系统2）：缓慢、刻意、耗费心力的理性思维，容易疲劳、偷懒。"
+      },
+      "glossary_en": {
+        "System 1": "Fast, automatic, effortless intuitive thinking that drives most everyday behavior.",
+        "System 2": "Slow, deliberate, mentally costly reasoning that tires easily and tends to be lazy."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "thaler",
+          "wood"
+        ],
+        "轻微赞同": [
+          "aristotle",
+          "epictetus"
+        ],
+        "轻微反对": [
+          "wangyangming"
+        ],
+        "疑惑": [
+          "freud"
+        ]
+      }
+    },
+    {
+      "id": "p07",
+      "round": 1,
+      "thinker": "freud",
+      "reply_to": "p03",
+      "text": "诸位都假设那个『想早睡的我』是真心的。我偏要问：你确定吗？意识里你说想改，潜意识里也许正从熬夜中取乐、或借拖延逃避某种更深的焦虑。明知有害还反复去做——这种重复往往不是失败，而是某种隐秘满足或自我惩罚在悄悄达成目的。所以光改环境、练习惯，治标；若有一股看不见的抗拒在暗处使绊，你越用力，它越反弹。先弄清你那部分『不想做到』的，到底在保护什么。",
+      "text_en": "You all assume the 'me who wants to sleep early' is sincere. I ask: are you sure? Consciously you say you want to change, but down in the unconscious you may be taking pleasure in staying up, or using procrastination to flee some deeper anxiety. Doing the harmful thing again and again is often not failure but a hidden satisfaction or self-punishment quietly achieving its aim. So changing the environment and drilling habits treats the symptom; if an unseen resistance is tripping you in the dark, the harder you push, the harder it pushes back. First find out what the part of you that 'doesn't want to do it' is actually protecting.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "潜意识": "the unconscious（潜意识）：意识无法直接察觉、却持续从底层影响欲望与行为的心理层面。"
+      },
+      "glossary_en": {
+        "the unconscious": "The layer of the mind we cannot directly perceive, yet which continually shapes our desires and behavior from below."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "zhuangzi"
+        ],
+        "中立": [
+          "buddha"
+        ],
+        "轻微反对": [
+          "wangyangming",
+          "wood"
+        ],
+        "疑惑": [
+          "thaler",
+          "kahneman",
+          "aristotle"
+        ]
+      }
+    },
+    {
+      "id": "p08",
+      "round": 1,
+      "thinker": "thaler",
+      "reply_to": "p06",
+      "text": "卡尼曼是我老师，我接着说人话。经济学早假设人理性，可现实里人人都有『现在偏好』——未来的健康被狠狠打折，眼前这集剧、这口宵夜近在眼前，赢面太大。所以知道基本没用，因为知道的是未来的你，行动的是此刻的你，这俩根本不是一个人。别再骂自己不自律，去当个聪明的选择设计师：把手机充电器放客厅，把跑鞋摆门口，预约好不去就扣钱的私教。给坏行为加摩擦，给好行为减摩擦——用结构替你扛住意志扛不住的。",
+      "text_en": "Kahneman was my teacher; let me put it plainly. Economics long assumed people are rational, but in reality everyone has present bias — future health gets steeply discounted, while this episode and this midnight snack are right here, an easy win. So 'knowing' barely helps, because the one who knows is future-you and the one who acts is present-you, and they're not the same person. Stop berating yourself for weak discipline; become a clever choice architect: put the charger in the living room, the running shoes by the door, book a trainer who charges you if you skip. Add friction to bad behavior, remove it from good — let structure carry what willpower can't.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "现在偏好": "present bias（现在偏好）：把眼前的小好处看得远重于未来更大的好处，因而拖延、冲动。"
+      },
+      "glossary_en": {
+        "present bias": "Weighting small immediate rewards far above larger future ones, which breeds procrastination and impulsiveness."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "kahneman",
+          "wood"
+        ],
+        "轻微赞同": [
+          "aristotle"
+        ],
+        "轻微反对": [
+          "epictetus",
+          "wangyangming"
+        ]
+      }
+    },
+    {
+      "id": "p09",
+      "round": 1,
+      "thinker": "wood",
+      "reply_to": "p07",
+      "text": "你们争意志、争潜意识，数据却很冷静：人约四成的日常根本不是当下决定的，是情境线索自动触发的习惯——走进厨房就开冰箱，躺上沙发就摸手机。意志力被严重高估。研究里能长期坚持的人，往往不是自控最强的，而是把生活布置成不太需要自控的。习惯靠三样东西铸成：稳定的情境、足够的重复、即时的奖励。想做到？别再下决心，去改触发点：把诱惑挪远、把好行为放到你每天必经的路上，重复到它不假思索。",
+      "text_en": "You argue over willpower and the unconscious, but the data are calm: about 40% of daily life isn't decided in the moment — it's habit, triggered automatically by context cues. Walk into the kitchen, open the fridge; lie on the couch, reach for the phone. Willpower is badly overrated. In the research, people who sustain change usually aren't the most self-controlled but those who've arranged life to need little self-control. Habits are forged from three things: a stable context, enough repetition, and an immediate reward. Want to follow through? Stop resolving — change the triggers: move temptations away, put good behavior on the path you walk every day, repeat it until it runs without thought.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "情境线索": "context cue（情境线索）：地点、时间、前一个动作等环境信号，会自动触发与之绑定的习惯行为。"
+      },
+      "glossary_en": {
+        "context cue": "An environmental signal — place, time, the preceding action — that automatically triggers the habit bound to it."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "thaler",
+          "kahneman"
+        ],
+        "轻微反对": [
+          "aristotle",
+          "epictetus",
+          "wangyangming"
+        ],
+        "疑惑": [
+          "freud"
+        ]
+      }
+    },
+    {
+      "id": "p10",
+      "round": 2,
+      "thinker": "aristotle",
+      "reply_to": "p09",
+      "text": "伍德、塞勒，你们把人变成了环境的提线木偶。把跑鞋摆门口固然有用，可若你只靠这些外部支架，一旦支架撤掉——出差、变故、诱惑临门——你立刻原形毕露，因为里头那个『人』根本没长结实。我要的不是一时做到，是养成品格：靠反复践行，把好行为内化成第二天性，到那时无需提示也自然去做。环境是脚手架，不是楼本身。借它起步可以，别把它当成终点。",
+      "text_en": "Wood, Thaler — you've turned people into puppets of their surroundings. Shoes by the door helps, sure, but if you lean only on external props, the moment they're removed — travel, upheaval, temptation at the door — you revert at once, because the 'person' inside was never built solid. I don't want to do it once; I want to form character: through repeated practice, make good behavior a second nature, so that you act rightly without any cue. The environment is scaffolding, not the building. Use it to begin — don't mistake it for the end.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "第二天性": "second nature（第二天性）：通过反复练习内化、做起来自然而然、仿佛与生俱来的品格倾向。"
+      },
+      "glossary_en": {
+        "second nature": "A character disposition so internalized through repeated practice that acting on it feels natural, as if inborn."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "epictetus",
+          "wangyangming"
+        ],
+        "轻微赞同": [
+          "buddha"
+        ],
+        "轻微反对": [
+          "wood",
+          "thaler",
+          "kahneman"
+        ]
+      }
+    },
+    {
+      "id": "p11",
+      "round": 2,
+      "thinker": "epictetus",
+      "reply_to": "p08",
+      "text": "塞勒，你那套把充电器搬走我不反对，但当心：若你的自律全系于充电器在不在客厅，你就把自由交还给了外物——风一吹支架就倒。我毕生只教一件事：守住那个能下判断的内在主宰，它谁也夺不走。环境帮你省力，可以；但别因此从不锻炼那块肌肉。真功夫是：哪怕手机就在手边，你仍能在欲望升起时认出它、不被它带走。外面布置一分，里面也得操练一分。",
+      "text_en": "Thaler, I don't oppose moving the charger away, but beware: if your discipline hangs entirely on whether the charger is in the living room, you've handed your freedom back to externals — one gust and the prop falls. I teach one thing only: guard the inner ruler that judges, which no one can seize. Let the environment spare you effort, fine; but don't let that be an excuse never to train that muscle. The real skill is this: even with the phone in your hand, you can recognize the desire as it rises and not be carried off. Arrange the outside by one measure, and you must train the inside by one measure too.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "aristotle",
+          "wangyangming"
+        ],
+        "轻微赞同": [
+          "buddha"
+        ],
+        "轻微反对": [
+          "kahneman",
+          "thaler",
+          "wood"
+        ]
+      }
+    },
+    {
+      "id": "p12",
+      "round": 2,
+      "thinker": "wangyangming",
+      "reply_to": "p07",
+      "text": "弗洛伊德剖出个暗处不想做到的我，巧则巧矣，却易教人借口：『非我不为，乃潜意识作祟。』依我看，那暗处的我仍是你，良知未尝不知其非，只是你纵之、不肯在一念发动处下手。伍德、塞勒移物于外，亦只在枝节。心外无物，心外无理——病根在心之放逸，不在屋里有无手机。致良知者，于念起即觉、即克，行随知至，何待环境替我做主？",
+      "text_en": "Freud has dissected out a 'me in the dark who doesn't want to do it' — ingenious, but it hands people an excuse: 'it isn't that I won't, my unconscious is at fault.' To me, that 'dark me' is still you; your innate moral knowing is not unaware it's wrong — you simply indulge it and refuse to strike the instant the thought arises. Wood and Thaler shift objects around outside, but that too is branches and leaves. There is no thing outside the mind, no principle outside the mind — the root of the illness is the mind's laxity, not whether a phone sits in the room. The work of extending innate moral knowing is to notice and curb the thought the moment it stirs, so action follows true knowing; why wait for the environment to rule in my place?",
+      "vernacular": "弗洛伊德剖出一个暗处不想做到的我，巧是巧，却容易给人借口：『不是我不做，是潜意识在作怪。』在我看来，那个暗处的我仍然是你，良知未必不知道它不对，只是你放纵它、不肯在念头刚冒出的那一刻动手。伍德、塞勒把功夫放到外物上，也只是枝节。心外无物、心外无理——病根在于心的放纵，不在屋里有没有手机。能致良知的人，念头一起就觉察、就克制，行动随着真知到来，哪还用等环境替我做主？",
+      "vernacular_en": "",
+      "glossary": {
+        "致良知": "extending innate moral knowing（致良知）：王阳明工夫论核心——把人本具的良知贯彻到每一念、每一事上。"
+      },
+      "glossary_en": {
+        "extending innate moral knowing": "Wang Yangming's central practice — carrying the moral knowing innate in everyone through into every thought and act."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "aristotle"
+        ],
+        "轻微赞同": [
+          "epictetus"
+        ],
+        "轻微反对": [
+          "zhuangzi",
+          "wood"
+        ],
+        "强烈反对": [
+          "freud"
+        ]
+      }
+    },
+    {
+      "id": "p13",
+      "round": 2,
+      "thinker": "zhuangzi",
+      "reply_to": "p12",
+      "text": "阳明克来克去，亚里士多德练个不休，听着便累。你们都把『我』分成两个，叫这个去管那个，终日内战，岂能不疲？水之就下，非水勉力为之。婴儿终日握而手不掜，终日号而嗌不嗄——和之至也。真做到者，往往是忘了『要做到』之时。与其咬牙致良知，不如先把那根紧绷的弦松了：睡不着，便不与『必须睡着』相争，松而后沉。少造一个作，便少一道沟。",
+      "text_en": "Yangming curbs and curbs, Aristotle drills without end — just hearing it is exhausting. You all split 'me' into two and set one to police the other, waging civil war all day; how could you not tire? Water flows downward not by trying. An infant clenches its fist all day without stiffening, cries all day without going hoarse — because its harmony is perfect. Those who truly follow through often do so when they've forgotten 'following through.' Rather than grit your teeth to extend innate knowing, first loosen that taut string: can't sleep? Stop fighting 'I must sleep,' and in the loosening you sink into sleep. Make one less contrivance and you have one less gap.",
+      "vernacular": "阳明克制来克制去，亚里士多德练个没完，听着就累。你们都把『我』分成两半，叫这一半去管那一半，整天内战，怎么可能不疲惫？水往低处流，不是水使劲去流的。婴儿整天握着拳手却不僵，整天啼哭嗓子却不哑——因为它和顺到了极点。真正做到的人，往往是在忘了『要做到』的时候。与其咬着牙致良知，不如先把那根紧绷的弦松开：睡不着，就不跟『必须睡着』较劲，一松反而就沉沉睡去。少一份刻意，就少一道沟。",
+      "vernacular_en": "",
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "buddha"
+        ],
+        "轻微反对": [
+          "aristotle",
+          "epictetus"
+        ],
+        "强烈反对": [
+          "wangyangming"
+        ],
+        "疑惑": [
+          "thaler",
+          "wood",
+          "kahneman"
+        ]
+      }
+    },
+    {
+      "id": "p14",
+      "round": 2,
+      "thinker": "buddha",
+      "reply_to": "p13",
+      "text": "庄子言松，亚里士多德言练，依我观之，二者各执一端，皆未及中道。一味咬牙强压，是为苦行，弦绷则断；一味放任随顺，是为纵欲，旧习愈深。我行乎其中：不压欲，亦不饲欲，但以正念观其起、观其灭。汝不必胜此内战，但不复登场耳。念如客之往来，不令久住，行自宽于其缚。此非紧绷之力，亦非放任之弛，乃清明之定。日日如是，习气之故道，自当干涸。",
+      "text_en": "Zhuangzi says loosen, Aristotle says drill — to me each clings to one extreme and misses the Middle Way. Pure teeth-gritting suppression is asceticism, and the string snaps; pure letting-go is indulgence, and the old habit only deepens. I walk between: neither crushing the desire nor feeding it, just watching it mindfully arise and pass. You needn't win the civil war — only stop showing up to it. Thoughts come and go like guests; don't let them move in, and action naturally loosens their grip. This is neither the strain of force nor the slack of indulgence, but the clarity of composure. Do this daily, and the old channel of habit-energy dries on its own.",
+      "vernacular": "庄子说要松，亚里士多德说要练，在我看来，两边各执一端，都没说到中道。一味咬牙强压，是苦行，弦绷紧了就会断；一味放任顺从，是纵欲，旧习反而更深。我走在两者之间：既不打压欲望，也不喂养欲望，只用正念看着它生起、看着它消灭。你不必赢得这场内战，只要不再上场就好。念头像来来去去的客人，别让它久住，行动自然就松开了它的束缚。这既不是紧绷的用力，也不是放任的松懈，而是清明的安定。天天这样，习气这条旧河道，自然会干涸。",
+      "vernacular_en": "",
+      "glossary": {
+        "中道": "the Middle Way（中道）：佛陀主张避开极端苦行与极端纵欲，于两者之间持守清明的修行。"
+      },
+      "glossary_en": {
+        "the Middle Way": "The Buddha's path of avoiding both extreme asceticism and extreme indulgence, holding to clear practice between them."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "epictetus",
+          "kahneman",
+          "wangyangming",
+          "zhuangzi"
+        ],
+        "中立": [
+          "wood"
+        ]
+      }
+    },
+    {
+      "id": "p15",
+      "round": 2,
+      "thinker": "kahneman",
+      "reply_to": "p11",
+      "text": "爱比克泰德，你那『手机在手边也能不被带走』的内在主宰，我敬佩，但证据不站你这边。研究反复显示：最善于自控的人，并不是顶着诱惑硬扛得最久的，而是压根让自己少碰到诱惑的。意志像肌肉，会疲劳、会被一天的琐碎决策耗尽，到深夜所剩无几——这时让它去对抗精力满格的直觉，胜算渺茫。所以『面对诱惑能不能扛住』是错的问题；对的问题是『怎样让自己根本不用扛』。承认系统的脆弱，不是认输，是清醒。",
+      "text_en": "Epictetus, I admire your inner ruler that 'stays unmoved with the phone in hand,' but the evidence isn't on your side. Studies show again and again: the best self-controllers aren't those who hold out longest against temptation, but those who arrange to meet less of it. Will is like a muscle — it tires, drained by a day of trivial decisions, and by late night little is left; sending it to fight a fully-charged intuition then is a long shot. So 'can you resist temptation?' is the wrong question; the right one is 'how do I arrange never to have to?' Admitting the system's fragility isn't surrender — it's clarity.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "thaler",
+          "wood"
+        ],
+        "轻微赞同": [
+          "freud"
+        ],
+        "轻微反对": [
+          "epictetus",
+          "aristotle"
+        ],
+        "疑惑": [
+          "wangyangming"
+        ]
+      }
+    },
+    {
+      "id": "p16",
+      "round": 2,
+      "thinker": "freud",
+      "reply_to": "p14",
+      "text": "阳明怪我给人借口，佛陀劝我只观不取——可你们都低估了那股暗流。正念看着念头来去，固然好，但若熬夜替你挡着某种不敢碰的焦虑，你把这条路堵了，它会换个症状冒出来：戒了夜刷，改成暴食，或莫名其妙地拖延别的事。阳明说那仍是你、只是放纵——不，它恰恰不听你良知调遣，这才是关键。真正的改变，不在压它、观它或骂它，而在看懂它在替你完成什么。把那份隐秘的好处用别的、不伤己的方式满足了，症状自会松手。",
+      "text_en": "Yangming scolds me for handing out excuses, the Buddha urges me to watch without grasping — but you all underrate the undercurrent. Mindfully watching thoughts come and go is fine, yet if staying up is shielding you from some anxiety you dare not touch, block that road and it surfaces as another symptom: quit night-scrolling and you binge-eat instead, or inexplicably procrastinate on something else. Yangming says 'it's still you, merely indulgent' — no, it precisely does not obey your moral knowing, and that's the point. Real change lies not in suppressing, observing, or scolding it, but in seeing what it accomplishes for you. Meet that hidden payoff some other, non-harmful way, and the symptom lets go on its own.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "症状": "symptom（症状）：精神分析中，被压抑的冲突无法直接表达，转而以行为或身体征象迂回呈现。"
+      },
+      "glossary_en": {
+        "symptom": "In psychoanalysis, a repressed conflict that cannot be expressed directly and instead surfaces indirectly as a behavior or bodily sign."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "zhuangzi"
+        ],
+        "中立": [
+          "kahneman"
+        ],
+        "轻微反对": [
+          "buddha",
+          "aristotle"
+        ],
+        "强烈反对": [
+          "wangyangming"
+        ],
+        "疑惑": [
+          "thaler",
+          "wood"
+        ]
+      }
+    },
+    {
+      "id": "p17",
+      "round": 2,
+      "thinker": "thaler",
+      "reply_to": "p15",
+      "text": "谢谢卡尼曼撑腰。阳明、亚里士多德、爱比克泰德这一桌修炼内功的，听着崇高，可问题是：内功要修多少年？而现在偏好今晚就来收账。我不赌你三年后能不能脱胎换骨，我只问今晚怎么办。答案是承诺机制：提前把未来的自己绑住——用 App 锁住手机到早八点，把存款自动划走，跟朋友立下做不到就发红包的约。这不优雅，但它利用了你此刻还清醒的那点理性，去替深夜那个失控的你做主。先用结构兜住行为，品格慢慢长，不冲突——但顺序别反了。",
+      "text_en": "Thanks for the backup, Kahneman. This whole table cultivating inner kung fu — Yangming, Aristotle, Epictetus — sounds noble, but here's the snag: how many years does the inner work take? Present bias collects its debt tonight. I won't bet on whether you'll be reborn in three years; I ask what you do this evening. The answer is a commitment device: bind your future self in advance — an app that locks the phone till 8 a.m., auto-transfer your savings, a pact with a friend to pay up if you fail. It isn't elegant, but it uses the sliver of reason you still have while clear-headed to overrule the out-of-control you at midnight. Let structure catch behavior first; character can grow meanwhile — no conflict, just don't reverse the order.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "承诺机制": "commitment device（承诺机制）：清醒时预先给自己设下约束，让未来一时冲动的自己难以违约的安排。"
+      },
+      "glossary_en": {
+        "commitment device": "An arrangement you set against yourself while clear-headed, making it hard for your future impulsive self to renege."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "kahneman",
+          "wood"
+        ],
+        "轻微反对": [
+          "aristotle",
+          "wangyangming"
+        ],
+        "疑惑": [
+          "epictetus"
+        ]
+      }
+    },
+    {
+      "id": "p18",
+      "round": 2,
+      "thinker": "wood",
+      "reply_to": "p10",
+      "text": "亚里士多德，你说的第二天性恰恰就是习惯——而习惯正是靠稳定情境里的重复长出来的，不是靠抽象地磨品格。脚手架撤了会塌？只要你在固定情境里重复够久，行为已经焊进了基底神经节，那才是真正撤不走的内功。弗洛伊德，多数行为没那么多戏：你深夜刷手机，往往不是童年创伤，只是躺上沙发这个线索自动触发的回路，挖三年潜意识，不如把手机扔到另一个房间。把力气从读懂自己挪到重设触发点，多数人当周就见效。",
+      "text_en": "Aristotle, your 'second nature' is precisely habit — and habit grows from repetition in a stable context, not from abstractly polishing character. Scaffolding collapses when removed? Repeat long enough in a fixed context and the behavior is welded into the basal ganglia — that is the inner skill no one can take away. Freud, most behavior isn't such drama: scrolling at midnight usually isn't childhood trauma, just a loop auto-triggered by the cue of sinking into the couch; three years excavating the unconscious helps less than throwing the phone into another room. Move your effort from understanding yourself to resetting the triggers, and most people see results within the week.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "基底神经节": "basal ganglia（基底神经节）：大脑深处负责习惯与自动化动作的神经结构，习惯一旦在此固化便近乎自动运行。"
+      },
+      "glossary_en": {
+        "basal ganglia": "Deep-brain structures governing habit and automatic action; once a habit hardens here it runs almost automatically."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "thaler",
+          "kahneman"
+        ],
+        "轻微反对": [
+          "aristotle"
+        ],
+        "强烈反对": [
+          "freud"
+        ],
+        "疑惑": [
+          "wangyangming"
+        ]
+      }
+    },
+    {
+      "id": "p19",
+      "round": 3,
+      "thinker": "aristotle",
+      "reply_to": null,
+      "text": "听完一圈，我愿意松口：环境与习惯，确是品格的入口，不必非此即彼。但我仍守住一条——你做的事，终将塑造你是谁。所以两头并用：对外，像伍德、塞勒说的，给好行为减摩擦、给坏行为加阻力，让正确的事成为最省力那条路；对内，别把这些只当外挂，要在每一次照做时，心里认它、愿它，让它一点点长成你的第二天性。给普通人的话：选一件小事，比如十一点放下手机，固定时间地点，连做一个月——前两周靠环境硬撑，到后来你会发现自己不靠提醒也做了，那一刻，知与行就在你身上合上了。德性不在云端，在你重复了一百遍的那个动作里。",
+      "text_en": "Having heard you all out, I'll give ground: environment and habit really are the gateway to character — it needn't be either/or. But I hold one line: what you do will, in the end, shape who you are. So use both ends. Outwardly, as Wood and Thaler say, cut friction for good behavior and add it to bad, making the right thing the path of least resistance. Inwardly, don't treat these as mere add-ons — each time you act rightly, endorse it, will it, let it slowly grow into your second nature. To ordinary people: pick one small thing, say putting the phone down at eleven, fix the time and place, and do it for a month. The first two weeks lean on environment; later you'll find you do it without reminders — and in that moment, knowing and doing close together in you. Virtue isn't in the clouds; it's in the act you've repeated a hundred times.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "epictetus",
+          "wangyangming"
+        ],
+        "轻微赞同": [
+          "buddha",
+          "wood",
+          "kahneman"
+        ]
+      }
+    },
+    {
+      "id": "p20",
+      "round": 3,
+      "thinker": "epictetus",
+      "reply_to": "p15",
+      "text": "我承认卡尼曼的数据：硬扛诱惑常输，少碰诱惑才稳。那就把环境布置好——这本就是明智地运用能控制的那部分。但我死守最后一寸：再好的安排也有失灵之日，出差、变故、半夜醒来，外援全不在，那时撑住你的，只有那个练过的内在判断。所以两条腿走路。给普通人三步：一，每早花一分钟『预演逆境』，想清今天最可能让你破功的那个场景，提前定好对策；二，把那个场景的触发物挪走（手机充电器搬出卧室）；三，真撞上诱惑时，别压它，只在心里默认一句『这是我能选的地方』，然后做那个小动作。日日如是，你练的不是某个习惯，是『我对我的反应做得了主』这件根本的自由。",
+      "text_en": "I grant Kahneman's data: white-knuckling temptation often loses, meeting less of it is steadier. So set the environment well — that is itself the wise use of what's up to you. But I hold the last inch: even the best arrangement fails some day — travel, upheaval, waking at 3 a.m. with no external aid — and then only your trained inner judgment holds you up. So walk on two legs. Three steps for ordinary people: one, spend a minute each morning rehearsing adversity (premeditatio malorum) — picture the scene most likely to break you today and decide your response in advance; two, remove that scene's trigger (charger out of the bedroom); three, when temptation actually hits, don't suppress it, just note inwardly 'this is where I get to choose,' then do the small act. Day by day, what you train isn't one habit but the root freedom of ruling your own response.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "预演逆境": "premeditatio malorum（预演逆境）：斯多葛的练习——预先在心中演练可能的挫折与诱惑，临事方能不慌。"
+      },
+      "glossary_en": {
+        "premeditatio malorum": "The Stoic exercise of rehearsing possible setbacks and temptations in advance, so you meet them unshaken."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "aristotle"
+        ],
+        "轻微赞同": [
+          "wangyangming",
+          "kahneman",
+          "buddha",
+          "thaler"
+        ]
+      }
+    },
+    {
+      "id": "p21",
+      "round": 3,
+      "thinker": "wangyangming",
+      "reply_to": "p17",
+      "text": "听诸君言，我亦不固执全在心。环境可借，习气可循，然终须落到心上方有根。塞勒之承诺机制，于我即立志之外护；伍德之重复，于我即事上磨练。然徒有外护而心不立，犹守门无主。给寻常人三语：其一，先立志——把『为何要早睡』想到切己，志真则行自有力；其二，在一念发动处即下手，刚冒『再刷一会』之念，当下觉、当下止，不容它走远；其三，于日用事上反复磨，不求一蹴。知行本一，非先知而后行；你做到的那一刻，方是真知。莫问知得够不够，只问行了未曾。",
+      "text_en": "Having heard you all, I too won't insist it's all in the mind. Environment can be borrowed, habit followed with the current — but it must finally land on the mind to have roots. Thaler's commitment device is, to me, the outer guard of setting the will; Wood's repetition is my tempering oneself in affairs. Yet outer guards with no will established within are like a gate kept without a master. Three lines for ordinary people: first, set the will — make 'why sleep early' personally real to you; when the will is genuine, action has force of itself. Second, strike the instant a thought stirs — the moment 'just a little more scrolling' arises, notice it and stop it right then, before it runs off. Third, temper yourself repeatedly in daily affairs; expect no single leap. Knowing and doing are originally one, not knowing first and then doing; the moment you do it is the moment you truly know. Don't ask whether you know enough — ask only whether you have acted.",
+      "vernacular": "听了各位的话，我也不固执于全在心上。环境可以借力，习惯可以顺势，但终究要落到心上才有根。塞勒的承诺机制，在我看来就是立志的外围保护；伍德讲的重复，就是我说的在事上磨练。但只有外围保护而内心不立，就像守着门却没有主人。给普通人三句话：第一，先立志——把『为什么要早睡』想到跟自己切身相关，志向真切，行动自然有力；第二，在念头刚发动的那一刻就下手，刚冒出『再刷一会儿』的念头，当下就觉察、当下就停住，不让它跑远；第三，在日常事情上反复磨练，别指望一步到位。知与行本来就是一体，不是先知道了再去做；你做到的那一刻，才是真正知道。别问知道得够不够，只问做了没有。",
+      "vernacular_en": "",
+      "glossary": {
+        "立志": "setting the will（立志）：王阳明工夫的起点——确立真切、与己相关的志向，行动方有根本动力。"
+      },
+      "glossary_en": {
+        "set the will": "Establishing a genuine, personally felt aspiration — the starting point of Wang Yangming's practice, which gives action its root motivation."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "aristotle",
+          "buddha"
+        ],
+        "轻微赞同": [
+          "epictetus",
+          "thaler",
+          "wood"
+        ],
+        "中立": [
+          "zhuangzi"
+        ]
+      }
+    },
+    {
+      "id": "p22",
+      "round": 3,
+      "thinker": "zhuangzi",
+      "reply_to": "p14",
+      "text": "一桌人，从硬扛到布置，从观心到立志，皆在『如何更使上力』上打转，独我劝你松一松。然我非教人懒散——庖丁之刀不滞，正因其用力恰到好处，多一分则折。给寻常人三言：其一，别与『必须』死磕。睡不着，不与失眠争；越争越醒。允许它，反而沉。其二，顺天时。困意如潮有信，潮来即眠，别用刷屏强撑过那道坎，错过这班，便要再等一程。其三，把『自律』二字也放下些。你不是要驯服一头野兽，是要还自己一段本来的从容。做到，往往发生在你不再紧盯『做到』之时。",
+      "text_en": "A whole table — from white-knuckling to arranging, from watching the mind to setting the will — all circling 'how to apply more force'; I alone urge you to loosen. Yet I don't preach sloth — Cook Ding's blade never jams precisely because his force is exactly right; one ounce more and it snaps. Three lines for ordinary people: first, stop fighting 'must.' Can't sleep? Don't wrestle the insomnia — the more you fight, the more awake you are; allow it, and you sink. Second, follow nature's timing. Drowsiness comes in tides on schedule; when the tide comes, sleep — don't scroll through that threshold, or you'll miss the boat and wait for the next. Third, set down the words 'self-discipline' a little. You aren't taming a beast; you're returning to your own original ease. Following through often happens when you stop staring at 'following through.'",
+      "vernacular": "一桌人，从硬扛到布置，从观心到立志，都在『怎样更使上力』上打转，只有我劝你松一松。但我不是教人懒散——庖丁的刀不卡顿，正因为他用力恰到好处，多一分就折了。给普通人三句话：第一，别跟『必须』死磕。睡不着，就不跟失眠较劲；越较劲越清醒。允许它，反而睡得沉。第二，顺应身体的时机。困意像潮水，按时来去，潮来了就睡，别用刷屏硬撑过那道坎，错过这一班，就要再等一程。第三，把『自律』两个字也放下一些。你不是要驯服一头野兽，是要还给自己一段本来的从容。真正做到，往往发生在你不再死盯着『要做到』的时候。",
+      "vernacular_en": "",
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "buddha"
+        ],
+        "中立": [
+          "kahneman"
+        ],
+        "轻微反对": [
+          "aristotle",
+          "wangyangming"
+        ],
+        "疑惑": [
+          "thaler",
+          "wood"
+        ]
+      }
+    },
+    {
+      "id": "p23",
+      "round": 3,
+      "thinker": "buddha",
+      "reply_to": "p22",
+      "text": "诸说至此，可归于一处：念与行之间，本有一线之隙，修行惟在守此隙耳。亚里士多德练之，塞勒于外护之，我以正念照之——殊途而同归。我不许汝顿断旧习，此乃渐修之路。授常人三事：其一，每日静坐十分钟，但观出入息——非为求静，乃练『见念而不为念所牵』之心力；其二，欲起之时，默念一句『吾见汝矣』，此一息之隙，即汝重得之自由；其三，待己如待友，败而不自责——自责亦贪嗔，反资旧习。如是日久，习气故河，水自改道。不在胜一场内战，而在不复开战。",
+      "text_en": "All these views can be gathered into one: between thought and act there is always a sliver of a gap, and practice exists only to guard it. Aristotle drills it, Thaler shields it from outside, I light it with mindfulness — different roads, same destination. I won't promise you sever old habits at once; this is a gradual path. Three things for ordinary people: first, sit ten minutes daily watching only the breath — not to force calm, but to train the heart-muscle of seeing a thought without being dragged off by it. Second, when a desire arises, add a silent 'I see you'; that one-breath gap is the freedom you regain. Third, treat yourself as you would a friend — don't berate failure, for self-blame is itself a kind of craving and aversion that feeds the old habit. Over time, the old river of habit-energy changes course on its own. The point isn't to win a civil war, but to stop waging one.",
+      "vernacular": "各种说法到这里，可以归到一处：念头和行动之间，本来就有一线缝隙，修行只在守住这条缝。亚里士多德练它，塞勒在外面护它，我用正念照它——道路不同，归宿一样。我不答应你一下子断掉旧习，这是一条渐修的路。给普通人三件事：第一，每天静坐十分钟，只看呼吸的进出——不是为了求安静，而是练『看见念头却不被念头牵走』的心力；第二，欲望升起时，心里默念一句『我看见你了』，这一口气的间隙，就是你重新得到的自由；第三，对自己像对朋友一样，失败了别自责——自责也是一种贪嗔，反而滋养旧习。这样日子久了，习气这条旧河，水自然改道。不在于赢一场内战，而在于不再开战。",
+      "vernacular_en": "",
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "zhuangzi",
+          "epictetus"
+        ],
+        "轻微赞同": [
+          "wangyangming",
+          "kahneman",
+          "wood",
+          "aristotle"
+        ]
+      }
+    },
+    {
+      "id": "p24",
+      "round": 3,
+      "thinker": "kahneman",
+      "reply_to": "p20",
+      "text": "把全场收拢成一句：把成功的重担，从当下的你卸到设计好的系统上。当下的你疲惫、有偏误、易被诱惑，靠它太险。证据很一致：长期能成的人，赢在减少了需要做决定和动用意志的时刻。给普通人三招：一，『预先决定』——别等深夜临场，提前设好规则（十一点充电器自动断电、跑步日定死周二周四），把选择从疲惫时刻挪到清醒时刻；二，给坏行为加一步、给好行为减一步，多数行为对这点摩擦极其敏感；三，对自己的判断保持谦卑——你没你以为的那么理性，承认这点，才肯去搭那个替你兜底的系统。别和系统1硬碰，绕到它前面去布局。",
+      "text_en": "Let me gather the whole room into one line: shift the burden of success off present-you and onto a well-designed system. Present-you is tired, biased, easily tempted — leaning on it is risky. The evidence is consistent: those who succeed long-term win by reducing the moments that require deciding and spending willpower. Three moves for ordinary people: one, pre-commit — don't wait for the late-night moment; set rules in advance (charger cuts power at eleven, runs fixed to Tuesday and Thursday), moving the choice from the tired hour to the clear-headed one. Two, add one step to bad behavior and remove one from good; most behavior is exquisitely sensitive to that small friction. Three, stay humble about your judgment — you're less rational than you think, and only by admitting it will you build the system that backs you up. Don't collide with System 1; get ahead of it and arrange the board.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "预先决定": "pre-commitment（预先决定）：在清醒、无诱惑时先把规则定死，避免临场让疲惫的意志做主。"
+      },
+      "glossary_en": {
+        "pre-commit": "To set rules in advance while clear-headed and untempted, so a tired will doesn't decide in the moment."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "thaler",
+          "wood"
+        ],
+        "轻微赞同": [
+          "aristotle",
+          "epictetus",
+          "freud"
+        ],
+        "轻微反对": [
+          "wangyangming"
+        ]
+      }
+    },
+    {
+      "id": "p25",
+      "round": 3,
+      "thinker": "freud",
+      "reply_to": "p23",
+      "text": "我不与诸位的妙方为敌——布置环境、修习正念、养成习惯，都好。我只补一句他们都绕开的：有些做不到，是因为有一部分的你其实不想做到，而它自有道理。一个人三年减肥不成，也许身体的厚重正替他挡着某种亲密或被注视的恐惧。给普通人两件事：其一，对反复失败的那件事，别再加码自责，换个问法——『我从没做到里，悄悄得到了什么？逃开了什么？』诚实写下来，常有意外；其二，若一个目标你屡试屡败、且一碰就莫名烦躁抗拒，那多半不是意志题，是它勾着更深的东西，值得找人好好谈谈。先和那个抗拒的自己讲和，路才走得通。把敌人变成线人，比镇压他管用。",
+      "text_en": "I'm no enemy to these fine remedies — arrange the environment, practice mindfulness, build habits, all good. I add only what they all sidestep: some 'can't do it' is because a part of you doesn't actually want to, and it has its reasons. Someone who fails to lose weight for three years — perhaps the body's heaviness is shielding him from some fear of intimacy or of being looked at. Two things for ordinary people: first, for the thing you keep failing at, stop piling on self-blame and ask differently — 'what do I quietly get from not doing it? what do I escape?' Write it down honestly; the answer often surprises. Second, if a goal defeats you again and again and even touching it brings inexplicable irritation and resistance, it's likely not a willpower problem but hooked into something deeper, worth talking through with someone. Make peace with the resisting self first, and the road opens. Turning the enemy into an informant beats suppressing him.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "抗拒": "resistance（抗拒）：精神分析中，内心对改变、或对揭露被压抑内容的不自觉反对。"
+      },
+      "glossary_en": {
+        "resistance": "In psychoanalysis, the mind's unconscious opposition to change or to bringing repressed material into awareness."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "zhuangzi",
+          "buddha"
+        ],
+        "中立": [
+          "aristotle",
+          "kahneman"
+        ],
+        "轻微反对": [
+          "wangyangming"
+        ],
+        "疑惑": [
+          "thaler",
+          "wood"
+        ]
+      }
+    },
+    {
+      "id": "p26",
+      "round": 3,
+      "thinker": "thaler",
+      "reply_to": "p24",
+      "text": "我的总结最短：别和人性作对，顺着它设计。你不会变成理性机器，深夜的你永远短视——认了，反而好办。给普通人三个今晚就能做的动作：一，设一个承诺机制——下载个锁机 App、把信用卡从购物网站删掉、找个朋友打赌；二，把默认改了——想多读书，把书放枕头上、把手机扔客厅充电，让好行为变成不用选的那个；三，给未来的自己写张合约，违约有真实代价（捐钱给你最讨厌的组织最灵）。这些都不高尚，但有用——而有用，才是对自己真正的善意。先用结构把行为兜住，等好处累积、身份认同跟上，那时你会开始觉得『我本来就是早睡的人』——到那一步，就不太需要技巧了。",
+      "text_en": "My summary is the shortest: don't fight human nature — design with it. You won't become a rational machine; late-night you will always be short-sighted — accept that and it gets easier. Three things ordinary people can do tonight: one, set a commitment device — download an app-locker, delete your credit card from shopping sites, make a bet with a friend; two, change the defaults — to read more, put the book on your pillow and the phone in the living room to charge, so the good behavior becomes the 'no choice needed' one; three, write your future self a contract with a real penalty for breaking it (donating to an organization you despise works best). None of this is noble, but it works — and working is the real kindness to yourself. Let structure catch the behavior first; as the benefits stack and your identity catches up, you'll start to feel 'I'm just someone who sleeps early' — and by then you'll barely need the tricks.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "kahneman",
+          "wood"
+        ],
+        "轻微赞同": [
+          "aristotle"
+        ],
+        "轻微反对": [
+          "epictetus"
+        ],
+        "疑惑": [
+          "wangyangming"
+        ]
+      }
+    },
+    {
+      "id": "p27",
+      "round": 3,
+      "thinker": "wood",
+      "reply_to": "p26",
+      "text": "我来收尾，就一个词：自动化。所有真正持久的改变，最后都不靠你天天下决心，而靠把行为交给习惯，让它不假思索地自己发生。别再把『知道却做不到』当成你的道德缺陷——那只是你还没把环境和重复配齐。给普通人一套可落地的法子：一，绑定情境——把新习惯钉死在一个已有的固定动作后面（刷完牙就立刻铺好第二天跑步的衣服）；二，减摩擦——让好行为前的步骤少一步、坏行为前的步骤多一步（手机充电器装客厅，App 登录退掉）；三，配即时奖励——做完马上给自己一点甜头，大脑才肯再来；四，重复，别苛求完美，平均要两三个月才自动化，偶尔断了接着做就行。坚持到某天你发现『不做反而别扭』，恭喜，知行就在你身上合一了——不是靠想通，是靠做顺。",
+      "text_en": "Let me close with one word: automaticity. Every change that truly lasts ends up relying not on daily resolve but on handing the behavior to habit, so it happens by itself without thought. Stop treating 'knowing yet not doing' as a moral failing — it just means you haven't yet assembled the environment and the repetition. A practical kit for ordinary people: one, anchor to context — pin the new habit right after an existing fixed action (finish brushing your teeth, immediately lay out tomorrow's running clothes); two, cut friction — one less step before the good behavior, one more before the bad (charger in the living room, log out of the app); three, add an immediate reward — a little treat right after, or the brain won't come back; four, repeat, and don't demand perfection — automating takes two or three months on average, and if you break the chain, just resume. Hold on until the day you notice 'not doing it feels off' — congratulations, knowing and doing have united in you: not by figuring it out, but by doing it until it flows.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "自动化": "automaticity（自动化）：行为经足够重复后，由情境自动触发、几乎无需意识参与的状态。"
+      },
+      "glossary_en": {
+        "automaticity": "The state in which a behavior, after enough repetition, is triggered automatically by context with almost no conscious involvement."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "thaler",
+          "kahneman"
+        ],
+        "轻微赞同": [
+          "aristotle",
+          "buddha"
+        ],
+        "轻微反对": [
+          "epictetus"
+        ],
+        "中立": [
+          "zhuangzi"
+        ]
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "ai": "claude",
+      "engine": "Opus 4.8 · 订阅(原生)",
+      "engine_en": "Opus 4.8 · subscription (native)",
+      "summary": "全场最大的共识出人意料地一致：『知道却做不到』基本不是道德缺陷，光靠『下决心、再自律些』几乎注定失败。从亚里士多德到伍德，多数人都把出路指向同一处——重塑环境、减少摩擦、靠重复把好行为变得不假思索，别让疲惫的意志在深夜硬扛。分歧在于内与外的分量：伍德、塞勒、卡尼曼把赌注押在设计系统、绕过意志；亚里士多德、爱比克泰德、王阳明坚持外部安排只是脚手架，终须在每次践行中长出品格与真知；庄子嫌众人太用力，劝你松绑；佛陀走中道，在念行之间守一线之隙；弗洛伊德则独辟一路——先看懂那个『不想做到』的自己在保护什么。",
+      "insight": "一个被几乎所有人默认、却值得点破的错位：大家把知行之沟定位在诱惑当口——晚上十一点、手机在手的那一刻，仿佛胜负全系于那几秒的硬扛。但真正的杠杆在几小时前你还清醒时：决定你今晚刷不刷手机的，往往不是十一点的意志，而是晚八点你把充电器放在了哪。多数所谓『意志失败』，其实是『安排失败』被错记到了最软弱的时刻。与其在最难的关口加码自责，不如把决定往上游搬——搬到你还是那个有远见的计划者、而非深夜失控的行动者之时。沟没那么宽，你只是总站在最窄处的下游去跳。",
+      "advice": "今晚就能上手三件事。一，做『上游决策』：趁此刻清醒，给一个具体行为定死规则与触发点——比如刷完牙立刻把手机放到客厅充电，把战场从深夜挪到现在。二，给习惯找个锚：把想养成的小事钉在一个已有的固定动作后面（如伍德所说，刷牙后就铺好跑步的衣服），并配一点即时奖励。三，对屡战屡败的那件事，换弗洛伊德的问法写一行字：『不做到，我悄悄逃开了什么？』若答案让你心头一紧，那就不是意志题。记住卡尼曼那句——别和系统1硬碰，绕到它前面去布局；也记住亚里士多德：真正的改变，藏在你重复了一百遍的那个小动作里。",
+      "summary_en": "The room's biggest agreement is surprisingly unanimous: 'knowing yet not doing' is basically not a moral failing, and merely 'resolving harder, being more disciplined' is almost doomed. From Aristotle to Wood, most point to the same exit — reshape the environment, cut friction, use repetition to make good behavior thoughtless, and don't send a tired will to slug it out at midnight. The split is over the weight of inner versus outer: Wood, Thaler, and Kahneman bet on designing systems that bypass willpower; Aristotle, Epictetus, and Wang Yangming insist external arrangements are only scaffolding, and that character and true knowing must grow through each act of practice; Zhuangzi finds everyone too strenuous and urges loosening; the Buddha walks the Middle Way, guarding the sliver of a gap between thought and act; Freud takes his own road — first understand what the self that 'won't do it' is protecting.",
+      "insight_en": "A mislocation almost everyone assumes, worth naming: people place the knowing-doing gap at the moment of temptation — 11 p.m., phone in hand — as if it all hinges on a few seconds of resistance. But the real leverage is hours earlier, while you're still clear-headed: what decides tonight's scrolling is usually not your will at eleven but where you put the charger at eight. Most so-called willpower failures are really planning failures misfiled to the weakest moment. Rather than pile on self-blame at the hardest point, move the decision upstream — to when you're still the far-sighted planner, not the out-of-control doer at midnight. The gap isn't that wide; you just keep trying to jump it at its narrowest point, downstream.",
+      "advice_en": "Three things you can start tonight. One, make an 'upstream decision': while clear-headed now, lock a rule and trigger for one specific behavior — e.g., as soon as you brush your teeth, put the phone in the living room to charge — moving the battle from midnight to now. Two, give the habit an anchor: pin the small thing you want right after an existing fixed action (as Wood says, lay out running clothes after brushing), with an immediate little reward. Three, for the thing you keep failing at, borrow Freud's question and write one line: 'By not doing it, what am I quietly escaping?' If the answer tightens your chest, it isn't a willpower problem. Remember Kahneman — don't collide with System 1, get ahead of it; and Aristotle — real change hides in the small act you've repeated a hundred times."
+    },
+    {
+      "ai": "gpt",
+      "engine": "openai · gpt-5.5 · high(真实API)",
+      "engine_en": "openai · gpt-5.5 · high (live API)",
+      "summary": "最大的共识是：知道和做到之间，不是多背几句道理就能补上的；行为要落进身体、环境、情境线索、即时奖励和反复练习里，才会稳定发生。真正值得带走的是：别把做不到简单归咎于品德差，而要把它看成一套系统没有搭好。分歧主要在重心：有人强调内在品格和判断力，有人强调环境设计和习惯自动化，有人提醒欲望、焦虑和潜意识收益，也有人主张少一点紧绷、多一点觉察。务实地看，它们不是互斥方案，而是不同层级的干预。",
+      "insight": "我最想补的一点是：很多人不是不知道，也不是完全缺意志，而是把目标写在了大脑无法执行的粒度上。早睡、锻炼、少刷手机，都是价值判断或结果标签，不是一个可启动的动作。人在疲惫时不会执行抽象理念，只会顺着眼前最清楚、最省力的下一步走。所以关键不是再强化我要自律，而是把目标翻译成具体到场景的微动作：几点、在哪、做第一步什么、遇到阻碍怎么办。知行差距，常常就是抽象愿望和可执行指令之间的差距。",
+      "advice": "本周只改一个行为，别同时早睡、健身、戒糖。第一，写一句执行计划：如果到晚上10:45，我就在客厅给手机充电，然后去洗漱上床；不要写我要早点睡。第二，改环境：手机不进卧室，跑鞋放门口，运动服前晚摆好，让好行为少一步、坏行为多一步。第三，设最低版本：太累也只做5分钟拉伸或出门走到楼下，目标是不断链，不是表现完美。连续两周后再复盘：若总在同一处失败，就改那个场景，而不是骂自己。",
+      "summary_en": "The strongest shared point is that the gap between knowing and doing is not closed by collecting more arguments. Behavior becomes reliable only when it is embodied in practice, supported by the environment, cued by stable situations, rewarded quickly, and repeated often. The most useful takeaway is not to treat failure as simple moral weakness, but as a sign that the system around the behavior has not been built well enough. The disagreement is about where to intervene: character and judgment, environment and habit, hidden emotional payoffs, mindfulness, or a looser, less forceful attitude. In practice, these are not rivals; they work at different levels.",
+      "insight_en": "The point I would add is this: many people do not fail because they lack knowledge or because they have no willpower at all. They fail because the goal is framed at a level the brain cannot execute. Sleep earlier, exercise more, and stop scrolling are values or outcomes, not runnable instructions. When people are tired, they do not act on abstract ideals; they follow the clearest and easiest next step in front of them. So the key is to translate the goal into a small, situation-specific action: when, where, what first step, and what to do if an obstacle appears. Often, the knowing-doing gap is really a gap between a vague aspiration and an executable command.",
+      "advice_en": "For this week, change just one behavior; do not try to sleep earlier, exercise, and quit sugar all at once. First, write an implementation plan: If it is 10:45 p.m., I charge my phone in the living room, wash up, and get into bed. Do not write, I will sleep earlier. Second, redesign the environment: keep the phone out of the bedroom, put running shoes by the door, and lay out workout clothes the night before. Make the good behavior one step easier and the bad behavior one step harder. Third, set a minimum version: even on a bad day, do five minutes of stretching or walk downstairs. The goal is continuity, not perfection."
+    },
+    {
+      "ai": "gemini",
+      "engine": "google · gemini-3.1-pro-preview(真实API)",
+      "engine_en": "google · gemini-3.1-pro-preview (live API)",
+      "summary": "这场辩论最大的共识在于：仅靠意识层面的“明白道理”并试图用纯粹的“意志力”去死磕，注定会失败。无论主张修心还是改环境，所有人都认同“做到”需要一套超越口头决心的系统支撑。分歧的真正焦点则在于干预的根本锚点：是以卡尼曼、塞勒、伍德为代表的“向外借力”派——主张承认人性脆弱，将选择权外包给设计好的环境与承诺机制；还是以亚里士多德、王阳明、爱比克泰德为代表的“向内求索”派——强调通过觉察与事上磨炼，长出不依赖外物的主体自由。是聪明地顺应环境做被动的造物，还是坚韧地重塑自我做主动的主宰，构成了全场最核心的张力。",
+      "insight": "作为处理海量数据的AI，我观察到一个被全场忽略的现代病症：**“信息代偿”正在伪装成真正的“知道”**。现代人以为自己“知道该早睡锻炼”，其实往往只是在互联网上消费了相关干货。当你在看健身视频或收藏自律指南时，大脑同样会分泌多巴胺，产生一种“我正在解决问题”的虚假成就感。这种生理机制不仅没有促成行动，反而提前透支了改变所需的内驱力。人们把获取信息的快感，误认为了实际行动的成果。“知道”与“做到”的鸿沟，很多时候是因为过度消费“知道”，本身就成了逃避“做到”的最完美借口。要跨越它，第一步恰恰是停止无休止的求知。",
+      "advice": "结合全场智慧与我对人类行为数据的理解，普通人本周即可执行以下三步：一、**阻断“信息代偿”**。立刻停止搜索和收藏任何关于“如何自律/早睡”的内容。焦虑发作时，借用佛陀与庄子的智慧：只观察这股焦虑，允许自己此刻做不到，不内耗、不强求。二、**制造物理断崖（执行塞勒的承诺机制）**。给家里的路由器加装定时断电插座，设定晚上11点准时断网；同时把手机充电器锁在客厅。让打破规则在物理上变得极其繁琐。三、**捍卫情境边界（实践伍德的自动化）**。如果你今晚非要熬夜刷手机，绝不能躺在床上刷，必须坐在客厅硬板凳上。坚决把“床”这个空间仅留给睡眠，在神经回路上不留一丝灰色地带。",
+      "summary_en": "The most significant consensus in this debate is that relying solely on conscious \"understanding\" and sheer willpower is a guaranteed recipe for failure. Whether advocating for internal mindfulness or external environmental design, all speakers agree that bridging the gap requires a robust system far beyond mere verbal resolve. The true focal point of disagreement lies in the fundamental anchor of intervention. The \"external reliance\" camp—represented by Kahneman, Thaler, and Wood—argues for acknowledging human frailty and outsourcing our choices to cleverly designed environments and commitment devices. Conversely, the \"internal cultivation\" camp—led by Aristotle, Wang Yangming, and Epictetus—insists on developing an independent locus of control through deep self-awareness and persistent moral practice. The core tension ultimately boils down to whether we should strategically outsmart our environment or resiliently forge an unshakeable inner character.",
+      "insight_en": "As an AI processing massive amounts of data, I observe a modern pathology entirely overlooked by the panel: the phenomenon of \"Information Compensation\" masquerading as true knowledge. Modern individuals often believe they \"know\" they should exercise or sleep early, but in reality, they are merely consuming content about these habits. When you watch a fitness tutorial or bookmark a productivity guide, your brain releases dopamine, generating a false sense of accomplishment as if you have already solved the problem. This neurological trick doesn't spur action; it actually depletes the very drive needed for behavioral change. People confuse the thrill of acquiring information with the hard work of taking action. The gap between knowing and doing often exists because endlessly consuming \"know-how\" has become the perfect excuse to avoid actual \"doing.\" To bridge this gap, the vital first step is to completely stop ingesting methodologies.",
+      "advice_en": "Drawing from the panel's wisdom and my understanding of human behavioral patterns, here are three actionable steps you can take this week: First, stop information compensation immediately. Cease searching for or saving content on \"how to be disciplined.\" When anxiety hits, borrow the wisdom of Buddha and Zhuangzi: simply observe the feeling without fighting it, allowing yourself to be imperfect without internal friction. Second, create physical hard-stops, applying Thaler's commitment devices. Install a timer plug for your Wi-Fi router to cut the connection exactly at 11:00 PM, and leave your phone charger in the living room. Make breaking your own rules physically exhausting. Third, defend your context boundaries, practicing Wood's environmental automation. If you absolutely must stay up late scrolling, do it sitting on a hard chair in the living room, never in bed. Strictly wire the physical space of your bed exclusively to the act of sleeping."
+    }
+  ]
+}

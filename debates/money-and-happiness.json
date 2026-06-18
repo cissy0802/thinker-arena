@@ -1,0 +1,940 @@
+{
+  "id": "money-and-happiness",
+  "question": "金钱能（在多大程度上）买到幸福？",
+  "question_en": "Can money buy happiness — and how much?",
+  "date": "2026-06-18",
+  "participants": [
+    "epicurus",
+    "schopenhauer",
+    "adamsmith",
+    "kongzi",
+    "huineng",
+    "sapolsky",
+    "kahneman",
+    "nussbaum",
+    "taleb"
+  ],
+  "casting": [
+    {
+      "id": "epicurus",
+      "reason": "把欲望分成『自然且必要/自然不必要/纯属虚妄』三类的人——为本场立下『钱买得到幸福的地板、买不来地板之上』的古典基准。",
+      "reason_en": "The thinker who sorted desire into the natural-and-necessary, the natural-but-unnecessary, and the empty — setting the classical baseline that money buys the floor of happiness but nothing above it."
+    },
+    {
+      "id": "schopenhauer",
+      "reason": "悲观主义者，断言财富如海水越饮越渴、只能除苦不能予乐——为全场提供最冷峻的反方：你『是其所是』远比『拥有什么』决定幸福。",
+      "reason_en": "The pessimist who held wealth is like seawater — the more you drink the thirstier — and removes pain without granting joy; the room's coldest counterweight: what you ARE matters far more than what you HAVE."
+    },
+    {
+      "id": "adamsmith",
+      "reason": "既写《国富论》又写《道德情操论》的人——带来最辩证的一面：财富的幸福多半是『欺骗』，可正是这场误会驱动了文明的勤勉。",
+      "reason_en": "Author of both The Wealth of Nations and The Theory of Moral Sentiments — the most dialectical voice: the happiness of riches is largely a 'deception,' yet that very illusion drives civilization's industry."
+    },
+    {
+      "id": "kongzi",
+      "reason": "『义利之辨』的立法者，主张富贵须取之以道、用之济人——把乐的根从仓廪移到仁义与亲友，代表东方的入世中道。",
+      "reason_en": "The lawgiver of the 'righteousness-versus-profit' distinction, holding wealth must be gained by the right way and used to help others — moving the root of joy from the granary to virtue and kinship, the Eastern this-worldly middle path."
+    },
+    {
+      "id": "huineng",
+      "reason": "禅宗六祖，『本来无一物』的提出者——直接质疑提问本身：那个想买幸福的『我』在哪里？代表佛学的消解视角。",
+      "reason_en": "The Sixth Patriarch of Chan and source of 'originally not a single thing' — he questions the question itself: where is the 'I' that wants to buy happiness? The dissolving Buddhist lens."
+    },
+    {
+      "id": "sapolsky",
+      "reason": "研究压力与等级的神经生物学家——带来多巴胺『编码期待而非快乐』、享乐适应与相对地位决定压力的硬科学证据。",
+      "reason_en": "The neurobiologist of stress and rank — bringing the hard science that dopamine encodes anticipation rather than pleasure, that adaptation erases gains, and that relative status drives stress."
+    },
+    {
+      "id": "kahneman",
+      "reason": "亲手测量收入与幸福关系的诺奖得主——区分『体验幸福/生活评价』、点出收入的对数效应与『聚焦错觉』，为全场提供实证锚点。",
+      "reason_en": "The Nobel laureate who actually measured the income–happiness link — distinguishing 'experienced well-being' from 'life evaluation,' naming income's logarithmic effect and the 'focusing illusion,' the room's empirical anchor."
+    },
+    {
+      "id": "nussbaum",
+      "reason": "『可行能力』进路的奠基者——把问题从『钱买多少幸福』翻成『钱兑现了几种活法』，引入正义与转化率视角。",
+      "reason_en": "Co-founder of the 'capabilities approach' — reframing 'how much happiness money buys' into 'how many ways of living it redeems,' bringing in justice and the variable rate of conversion."
+    },
+    {
+      "id": "taleb",
+      "reason": "前交易员、风险哲学家——主张钱的真价值是 optionality 与稳健（说『不』的自由），而非消费；为本场注入实践者的反脆弱视角。",
+      "reason_en": "Former trader and philosopher of risk — arguing money's true value is optionality and robustness (the freedom to say 'no'), not consumption; the practitioner's antifragile angle."
+    }
+  ],
+  "posts": [
+    {
+      "id": "p01",
+      "round": 1,
+      "thinker": "epicurus",
+      "reply_to": null,
+      "text": "幸福有个地板，钱买得到。我把欲望分三类：自然且必要的（食物、栖身、御寒、免于疼痛与恐惧），自然但不必要的（珍馐美器），以及纯属虚妄的（名望、无止境的更多）。第一类便宜得惊人，钱足以填满——一旦吃饱穿暖、债务无虞、身边有友，痛苦的根就拔了，剩下的快乐不要钱。人受的苦，多半不是缺了必要之物，而是为虚妄的欲望疲于奔命。钱能买到 ataraxia 的入场券，却买不来 ataraxia 本身。",
+      "text_en": "Happiness has a floor, and money can buy it. I sort desires into three kinds: the natural and necessary (food, shelter, warmth, freedom from pain and fear), the natural but unnecessary (fine food and finer dishes), and the purely empty (fame, the endless more). The first kind is astonishingly cheap, and money easily covers it — once you are fed, warm, free of debt, and among friends, the root of suffering is pulled, and the pleasures that remain cost nothing. Most of our misery comes not from lacking necessities but from chasing empty desires. Money buys the ticket to ataraxia; it cannot buy ataraxia itself.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "ataraxia": "ataraxia（心神安宁）：伊壁鸠鲁派的最高境界——身体无痛、心灵无扰的平静，靠节制欲望而非占有更多达成。"
+      },
+      "glossary_en": {
+        "ataraxia": "The highest Epicurean state — a tranquility of body free from pain and mind free from disturbance, reached by moderating desire rather than acquiring more."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "kahneman",
+          "sapolsky"
+        ],
+        "轻微赞同": [
+          "kongzi",
+          "nussbaum",
+          "taleb"
+        ],
+        "轻微反对": [
+          "schopenhauer"
+        ],
+        "疑惑": [
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p02",
+      "round": 1,
+      "thinker": "schopenhauer",
+      "reply_to": "p01",
+      "text": "伊壁鸠鲁太乐观。钱能除苦，却给不了乐。财富如海水，越饮越渴——满足一个欲望，立刻空出位置长出三个。人生本是一只钟摆，在匮乏的痛与餍足的无聊之间来回，穷人困于前者，富人困于后者，没人逃得掉。所以要紧的从不是你拥有什么（Haben），而是你是什么（Sein）：一副健康的身体、一份天生开朗的性情，比金山更能定人之乐——而这些恰恰买不到。钱最大的用处，是替你挡掉贫穷那一端的苦，仅此而已，别指望它从另一端变出甜来。",
+      "text_en": "Epicurus is too sunny. Money can remove pain but cannot grant joy. Wealth is like seawater: the more you drink, the thirstier you grow — satisfy one desire and it vacates a seat for three more. Life is a pendulum swinging between the pain of want and the boredom of satiety; the poor are trapped in the first, the rich in the second, and no one escapes. So what matters is never what you have (Haben) but what you are (Sein): a healthy body and an inborn cheerful temper steady our joys more than a mountain of gold — and those, precisely, cannot be bought. Money's greatest use is to shield you from the suffering at the poverty end; expect nothing more, and do not wait for it to conjure sweetness from the other.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "Haben": "Haben（拥有）：德文『拥有』。叔本华把人生福祉分三层——你拥有什么、你在别人眼里是什么、你本身是什么。",
+        "Sein": "Sein（是其所是）：德文『存在』。指人本身的禀赋——健康与性情；叔本华断言它远比财产决定幸福。"
+      },
+      "glossary_en": {
+        "Haben": "German for 'having.' Schopenhauer ranks well-being in three tiers — what you have, what you are in others' eyes, and what you are in yourself.",
+        "Sein": "German for 'being.' What a person is in themselves — health and temperament; Schopenhauer holds it matters far more than property."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "huineng"
+        ],
+        "轻微赞同": [
+          "kongzi",
+          "kahneman",
+          "sapolsky"
+        ],
+        "轻微反对": [
+          "adamsmith",
+          "epicurus",
+          "taleb"
+        ],
+        "疑惑": [
+          "nussbaum"
+        ]
+      }
+    },
+    {
+      "id": "p03",
+      "round": 1,
+      "thinker": "adamsmith",
+      "reply_to": null,
+      "text": "二位都漏了钱真正的魔力——它如何骗着我们，又骗得恰到好处。穷人靠商业脱离饥寒，这是实打实的好处，别小看。但我们以为豪宅华服能带来的安宁，多半是想象的 deception：那个在路边晒太阳的乞丐，所拥有的安稳，正是国王们厮杀着想要的。可妙就妙在——正是这场误会，驱着所有人勤勉劳作、建起城邦与财富，造物主借此把世界推动起来。我们真正渴求的，其实不是金子本身，而是被看见、被在意、被高看一眼；钱不过是那份『被人注目』的通货。",
+      "text_en": "Both of you miss money's real magic — how it deceives us, and deceives us just rightly. The poor escaping cold and hunger through commerce is a solid good; don't belittle it. But the peace we imagine grand houses and fine clothes will bring is largely an imaginative deception: the beggar sunning himself by the roadside owns the very security that kings are fighting for. And here is the beauty — it is precisely this misunderstanding that drives everyone to industry, builds cities and fortunes, by which Providence sets the world in motion. What we truly crave is not gold itself but to be seen, attended to, regarded with esteem; money is merely the currency of being noticed.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "deception": "deception（错觉/善意的欺骗）：亚当·斯密之说——我们系统性高估财富带来的幸福，这一错觉虽不真，却驱动了勤勉与繁荣，故『造物主以此善意地欺瞒了我们』。"
+      },
+      "glossary_en": {
+        "deception": "Adam Smith's idea that we systematically overrate the happiness wealth brings; though false, this illusion drives industry and prosperity — so 'nature imposes upon us in this manner' for good."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sapolsky"
+        ],
+        "轻微赞同": [
+          "kahneman",
+          "nussbaum",
+          "taleb"
+        ],
+        "中立": [
+          "kongzi"
+        ],
+        "轻微反对": [
+          "epicurus"
+        ],
+        "疑惑": [
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p04",
+      "round": 1,
+      "thinker": "kongzi",
+      "reply_to": null,
+      "text": "富与贵，是人之所欲也；不以其道得之，不处也。吾非恶富，恶其不义而得也。不义而富且贵，于我如浮云。昔者吾饭疏食、饮水、曲肱而枕之，乐亦在其中矣。君子谋道不谋食，忧道不忧贫——非谓贫为可慕，邦有道而贫且贱，亦耻也。故钱者，养身济人之具，可求则求之；然乐之根不在仓廪，而在仁与义、在亲与友。舍本逐末，虽富犹贫。",
+      "text_en": "Wealth and rank are what everyone desires; but if they are not gained by the right way, the noble person will not abide in them. I do not hate riches — I hate riches gotten by injustice. Wealth and honor gained unjustly are to me as a drifting cloud. In my day I ate coarse rice, drank water, and bent my arm for a pillow — joy was there in the midst of it too. The noble person sets his mind on the Way, not on food; he worries over the Way, not over poverty — yet this is not to say poverty is enviable: to be poor and lowly when the state is well-governed is itself a disgrace. So money is a tool for sustaining oneself and aiding others; pursue it where it can be had rightly. But the root of joy lies not in the granary — it lies in benevolence and righteousness, among kin and friends. Put the branch before the root, and you stay poor however rich you are.",
+      "vernacular": "发财、做大官，是人人都想要的；但若不是凭正道得来，君子就不接受。我不是讨厌富贵，是讨厌用不义的手段去得它。靠不义弄来的富贵，在我看就像天上的浮云。当年我吃粗粮、喝白水、弯起胳膊当枕头，快乐也就在其中了。君子操心的是道而不是饭，忧虑的是道行不行得通而不是穷——但这不是说穷就值得羡慕，国家清明你却又穷又卑微，也是种耻辱。所以钱是养活自己、周济别人的工具，能正当地挣就去挣；可快乐的根不在粮仓里，而在仁义、在亲人朋友之间。本末倒置，再有钱也还是穷。",
+      "vernacular_en": "",
+      "glossary": {
+        "义": "righteousness（义）：儒家核心德目，指取予合乎道义。孔子以义为尺，衡量财富该不该取——『不义而富且贵，于我如浮云』。"
+      },
+      "glossary_en": {
+        "righteousness": "A core Confucian virtue (yi): taking and forgoing in accord with what is right. Confucius made it the measure of whether wealth should be accepted — 'riches gained unjustly are to me as a drifting cloud.'"
+      },
+      "reactions": {
+        "强烈赞同": [
+          "huineng",
+          "nussbaum"
+        ],
+        "轻微赞同": [
+          "epicurus",
+          "taleb",
+          "adamsmith"
+        ],
+        "中立": [
+          "kahneman"
+        ],
+        "轻微反对": [
+          "schopenhauer"
+        ]
+      }
+    },
+    {
+      "id": "p05",
+      "round": 1,
+      "thinker": "huineng",
+      "reply_to": null,
+      "text": "诸君争论钱能买几分乐，慧能且问：那个要买乐的『我』，又在何处？菩提本无树，明镜亦非台，本来无一物，何处惹尘埃。贫与富，皆是心上起的念；执于富则为富所缚，执于贫亦为贫所缚。自性本自清净，本不缺一物，何须向外购求？非教人弃财不用——担水砍柴，无非妙道；用钱济众，亦是修行。只是莫把那颗心，押在银钱的涨落上。识得自心，则箪瓢陋巷与广厦千间，乐本无二。",
+      "text_en": "You all argue over how much joy money can buy; let me ask instead — where is the 'I' that wants to buy joy? Bodhi is no tree, the bright mirror no stand; originally there is not a single thing — where could dust alight? Poverty and wealth are both thoughts arising in the mind; cling to wealth and wealth binds you, cling to poverty and poverty binds you too. The self-nature is from the first pure and lacks nothing — why go outward to purchase anything? I do not tell you to throw money away unused: carrying water and chopping wood are themselves the wondrous Way, and using money to help others is practice too. Only do not stake that mind of yours on the rise and fall of silver. Once you know your own mind, a humble alley with a bamboo bowl and a thousand-room mansion hold a joy that is not two.",
+      "vernacular": "各位争论钱能买到几分快乐，我倒想问：那个想买快乐的『我』，到底在哪里？菩提原本就不是树，明镜也不是台，本来空无一物，哪里惹得上尘埃？穷和富，都是心里升起的念头；执着于富，就被富捆住，执着于穷，也被穷捆住。人的本性本来就清净，本来什么都不缺，何必向外去买？我不是叫人扔了钱不用——挑水砍柴都是修行，拿钱去帮人也是修行。只是别把那颗心，押在钱的涨涨跌跌上。一旦认得自己的本心，那么粗茶淡饭的陋巷，和千间大屋，快乐其实没有两样。",
+      "vernacular_en": "",
+      "glossary": {
+        "自性": "self-nature（自性）：禅宗指人本具、清净圆满的真心本性；慧能主张它本自具足、不假外求，故幸福不在身外之物，而在识得此心。"
+      },
+      "glossary_en": {
+        "self-nature": "In Chan (Zen), the originally pure, complete true-nature inherent in everyone; Huineng holds it is already sufficient and needs nothing external — so happiness lies not in outer things but in recognizing this mind."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "schopenhauer",
+          "epicurus",
+          "kongzi"
+        ],
+        "中立": [
+          "nussbaum"
+        ],
+        "轻微反对": [
+          "adamsmith",
+          "taleb"
+        ],
+        "疑惑": [
+          "sapolsky",
+          "kahneman"
+        ]
+      }
+    },
+    {
+      "id": "p06",
+      "round": 1,
+      "thinker": "sapolsky",
+      "reply_to": null,
+      "text": "从生物学看，你们都对了一半。钱在最底层买得到实打实的幸福：脱离贫穷，就脱离了常年偏高的压力激素、脱离了『稀缺』对大脑带宽的持续抽税——这对健康和寿命是硬通货。但越过温饱线，故事就变了。多巴胺的真相是：它编码的是『期待』和『预测误差』，不是到手的快乐——加薪那一刻冲一下，几周后大脑把新水平设成新基线，快感归零，这就是 hedonic adaptation。更要命的是，决定压力水平的往往不是绝对财富，而是你在等级里的相对位置：人比的不是有多少，而是比邻居多还是少。所以追更多的钱去买持久的爽，等于追一条会自己重置的地平线。",
+      "text_en": "Biologically, you're each half right. At the bottom, money buys real happiness: escape poverty and you escape chronically high stress hormones, escape the constant tax that 'scarcity' levies on your brain's bandwidth — and for health and lifespan that's hard currency. But past the subsistence line the story changes. The truth about dopamine is that it encodes anticipation and prediction error, not the pleasure once it lands — a raise spikes it for a moment, and within weeks your brain resets that level as the new baseline and the thrill drops to zero: hedonic adaptation. Worse, what sets your stress level is usually not absolute wealth but your relative rank — people compare not how much they have but whether it's more or less than the neighbor's. So chasing more money for lasting pleasure is chasing a horizon that resets itself.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "hedonic adaptation": "hedonic adaptation（享乐适应）：人对新境遇（加薪、买房、中奖）的快感会迅速回落到原有基线的现象；大脑把新水平当成新常态，于是越爽越快归于平淡。"
+      },
+      "glossary_en": {
+        "hedonic adaptation": "The tendency for the pleasure of a new circumstance (a raise, a house, a jackpot) to fade quickly back toward one's prior baseline; the brain treats the new level as normal, so each high subsides into the ordinary."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "kahneman",
+          "schopenhauer"
+        ],
+        "轻微赞同": [
+          "epicurus",
+          "taleb",
+          "nussbaum"
+        ],
+        "中立": [
+          "adamsmith"
+        ],
+        "疑惑": [
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p07",
+      "round": 1,
+      "thinker": "kahneman",
+      "reply_to": null,
+      "text": "别争了，去看数据。先分清两种幸福：『体验幸福』是你日子里逐时的情绪质量，『生活评价』是你回头给自己人生打的分。收入越高，生活评价几乎一路上升，因为打分时你会想到钱；但体验幸福对低收入者抬升最猛——把人从贫困、病痛、孤独里拉出来，情绪改善立竿见影，再往上，每多一分快乐要翻倍的钱才换得来（对数尺度）。还有个陷阱：focusing illusion——你越是盯着钱想，越觉得它对幸福举足轻重，其实当下让你开心或难受的，是通勤、睡眠、和谁吃饭，不是银行余额。钱真买得到一些幸福，只是远比你『想着它时』以为的少。",
+      "text_en": "Stop arguing and look at the data. First separate two kinds of happiness: 'experienced well-being' is the moment-to-moment emotional quality of your days, and 'life evaluation' is the score you give your life looking back. The higher the income, the higher life-evaluation climbs almost all the way, because money comes to mind when you're rating your life; but experienced well-being rises most steeply for the low-income — pull someone out of poverty, illness, and isolation and the emotional gain is immediate, while higher up each extra increment of joy costs a doubling of money (a logarithmic scale). And there's a trap: the focusing illusion — the harder you stare at money, the more decisive it seems for happiness, when what actually makes this moment good or bad is your commute, your sleep, who you're eating with, not your bank balance. Money does buy some happiness, just far less than you think while you're thinking about it.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "focusing illusion": "focusing illusion（聚焦错觉）：卡尼曼名言『当你正想着生活里某件事时，它绝没有你以为的那么重要』——注意力会放大被关注对象（如收入）对幸福的分量，使我们系统性高估它。"
+      },
+      "glossary_en": {
+        "focusing illusion": "Kahneman's dictum that 'nothing in life is as important as you think it is while you are thinking about it' — attention inflates the weight of whatever it lands on (such as income), so we systematically overrate it."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sapolsky",
+          "epicurus"
+        ],
+        "轻微赞同": [
+          "adamsmith",
+          "nussbaum",
+          "schopenhauer",
+          "taleb"
+        ],
+        "疑惑": [
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p08",
+      "round": 1,
+      "thinker": "nussbaum",
+      "reply_to": "p07",
+      "text": "『钱能买多少幸福』这个问法本身就偏了。金钱从来不是目的，只是手段——真正该问的是：它能不能换成人真正『能做、能成为』的事？我和阿马蒂亚·森说的 capabilities，是一份清单：活得健康、身体不受侵害、能爱与被爱、能游戏、能参与公共生活、能掌控自己的环境。钱要紧，仅在于它能不能转化成这些实打实的自由——而转化率因人而异：残障者要更多钱才换得同样的行动力，受困于父权处境的女性，有了收入也未必换得来真正的选择。所以幸福不在账户数字，而在它兑现成了多少种『活法』。而爱与归属，恰恰是清单上买不到、却最核心的几项。",
+      "text_en": "The very question 'how much happiness can money buy' is skewed. Money is never the end, only a means — the real question is whether it converts into what a person is actually able to do and to be. What Amartya Sen and I call capabilities is a list: to live in health, to be safe in your body, to love and be loved, to play, to take part in public life, to have control over your environment. Money matters only insofar as it turns into these real freedoms — and the conversion rate varies: a disabled person needs more money for the same mobility, and a woman trapped in patriarchal conditions may gain income yet still gain no genuine choice. So happiness lies not in the number in your account but in how many ways of living it actually redeems. And love and belonging are precisely the items on the list that money cannot buy, yet that matter most.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "capabilities": "capabilities（可行能力）：努斯鲍姆与阿马蒂亚·森提出的评价福祉的框架——衡量一个人真正『能去做、能成为』的实质自由（健康、安全、爱、参与等），而非他拥有多少收入或财物。"
+      },
+      "glossary_en": {
+        "capabilities": "The framework for assessing well-being developed by Nussbaum and Amartya Sen — measuring a person's substantive freedom to do and to be (health, safety, love, participation), rather than how much income or property they hold."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "kongzi",
+          "taleb"
+        ],
+        "轻微赞同": [
+          "epicurus",
+          "kahneman",
+          "sapolsky",
+          "huineng"
+        ],
+        "轻微反对": [
+          "schopenhauer"
+        ]
+      }
+    },
+    {
+      "id": "p09",
+      "round": 1,
+      "thinker": "taleb",
+      "reply_to": null,
+      "text": "你们谈的都是消费，错过了钱唯一真正值钱的东西：optionality——它买的是说『去你的』的自由。财富的意义不在游艇，在于你不必依赖任何人、不必看老板脸色、不必为了保住收入而撒谎。最危险的两样东西是海洛因和固定月薪——都让你上瘾、让你脆弱。所以钱该买的是稳健：覆盖需求，再加一道防破产的缓冲，让你经得起意外。越过这条线，更多的钱往往买来更多脆弱——生活方式膨胀、攀比、被维持排场绑架。真正的有钱人，是那个能对烂活、烂钱、烂关系都说『不』的人，而不是账户后面多几个零的人。",
+      "text_en": "You're all talking about consumption and missing the only thing money is truly worth: optionality — it buys the freedom to say 'f*** you.' The point of wealth isn't the yacht; it's that you need not depend on anyone, need not read your boss's face, need not lie to protect your income. The two most dangerous things are heroin and a monthly salary — both get you hooked and make you fragile. So what money should buy is robustness: cover your needs, then add a buffer against ruin so you can take a hit. Past that line, more money usually buys more fragility — lifestyle creep, status-chasing, being held hostage by appearances. The truly rich person is the one who can say 'no' to bad work, bad money, and bad relationships — not the one with extra zeros behind the balance.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "optionality": "optionality（选择权/期权性）：塔勒布用语，指拥有选择而无义务的处境——手握多种出路、可随时退出。他认为财富的真价值正在于此：买来不依赖他人、可对一切说『不』的自由，而非消费本身。"
+      },
+      "glossary_en": {
+        "optionality": "Taleb's term for being in a position of having choices without obligation — multiple exits, free to walk away at any time. He holds this is wealth's true value: it buys independence from others and the freedom to say 'no,' not consumption itself."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "epicurus",
+          "nussbaum"
+        ],
+        "轻微赞同": [
+          "kongzi",
+          "sapolsky",
+          "kahneman",
+          "schopenhauer"
+        ],
+        "轻微反对": [
+          "adamsmith"
+        ],
+        "疑惑": [
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p10",
+      "round": 2,
+      "thinker": "epicurus",
+      "reply_to": "p02",
+      "text": "叔本华，你把『没有痛苦』当成空洞的零，这是你最大的误判。对我而言，痛苦的消除本身就是最高的快乐——不是麻木，是身体无痛、心灵无扰那种丰盈的平静。你说餍足只剩无聊，那是因为你追的是奢望，胃口被珍馐养刁了；一个懂得在面包和清水里尝出甜的人，永远不会无聊。摆钟在匮乏与无聊间摆，是因为你两头都站错了地方。把欲望修剪到自然且必要，钟摆自然停在中间——那不是麻木，是钱再也夺不走的安宁。",
+      "text_en": "Schopenhauer, your worst misjudgment is treating 'the absence of pain' as a hollow zero. To me the removal of pain is itself the highest pleasure — not numbness, but that full tranquility of a body without ache and a mind without disturbance. You say satiety leaves only boredom; that is because you chase extravagances, your palate spoiled by delicacies. One who can taste sweetness in bread and water is never bored. Your pendulum swings between want and boredom because you stand wrong at both ends. Prune desire down to the natural and necessary, and the pendulum settles at the center — not numbness, but a calm money can no longer take from you.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "kongzi"
+        ],
+        "轻微赞同": [
+          "huineng",
+          "nussbaum",
+          "kahneman"
+        ],
+        "轻微反对": [
+          "schopenhauer",
+          "sapolsky"
+        ],
+        "疑惑": [
+          "taleb"
+        ]
+      }
+    },
+    {
+      "id": "p11",
+      "round": 2,
+      "thinker": "schopenhauer",
+      "reply_to": "p09",
+      "text": "塔勒布，你那『去你的自由』不过是又一桩欲望，只是换了件硬汉外衣。你以为攒够钱、谁都不依赖，就解脱了？看看那些真正自由到无所事事的富人——他们是世上最无聊、最空虚的一群，转头去赌、去猎奇、去制造新的依赖，只为填补那份自由腾出的空白。意志不会因为你财务独立就停止索求，它只会把矛头转向别处。你买到的不是解脱，是换了个牢笼——一个镀金的、名叫『现在我该拿这自由做什么』的牢笼。",
+      "text_en": "Taleb, your 'freedom to say f*** you' is just one more desire in a tough-guy coat. You think that once you've saved enough to depend on no one, you're delivered? Look at the rich who are truly free to do nothing — they are the most bored, most hollow people alive, turning to gambling, to thrill-seeking, to manufacturing fresh dependencies just to fill the void that freedom opened. The will does not stop craving because you became financially independent; it merely turns its point elsewhere. What you bought is not release but a change of cage — a gilded one named 'now what am I to do with this freedom.'",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "huineng"
+        ],
+        "轻微赞同": [
+          "sapolsky",
+          "kahneman",
+          "adamsmith"
+        ],
+        "轻微反对": [
+          "taleb",
+          "nussbaum"
+        ],
+        "疑惑": [
+          "epicurus"
+        ]
+      }
+    },
+    {
+      "id": "p12",
+      "round": 2,
+      "thinker": "adamsmith",
+      "reply_to": "p05",
+      "text": "慧能师父，『本来无一物』，在蒲团上是智慧，端到饥民面前却是残忍。让我直说：看破财富的执念，是吃饱了的人才享得起的奢侈。正是那份你想劝人放下的妄念——总想多挣一点、过好一点——驱着农夫开荒、工匠制器、商贾通有无，把整个民族从赤贫里一寸寸抬起来。你叫人别把心押在银钱涨落上，可对那个交不起房租的人，银钱的涨落就是孩子有没有饭吃。先让他温饱，再跟他谈空。",
+      "text_en": "Master Huineng, 'originally not a single thing' is wisdom on the meditation cushion, but carried before a starving man it is cruelty. Let me say it plainly: seeing through the craving for wealth is a luxury only the well-fed can afford. It is precisely that empty thought you would have people lay down — the wish to earn a little more, to live a little better — that drives the farmer to break new ground, the craftsman to make, the merchant to trade, lifting a whole nation inch by inch out of destitution. You tell people not to stake their hearts on the rise and fall of silver; but to the one who can't make rent, the rise and fall of silver is whether his child eats. Feed him first, then speak to him of emptiness.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "sapolsky",
+          "taleb"
+        ],
+        "轻微赞同": [
+          "kahneman",
+          "nussbaum",
+          "kongzi"
+        ],
+        "中立": [
+          "epicurus"
+        ],
+        "轻微反对": [
+          "huineng"
+        ],
+        "疑惑": [
+          "schopenhauer"
+        ]
+      }
+    },
+    {
+      "id": "p13",
+      "round": 2,
+      "thinker": "kongzi",
+      "reply_to": "p09",
+      "text": "塔勒布之言，得其半矣。能对烂钱、烂事说『不』，是有耻且格，吾甚许之。然徒求一己之脱身，未及义也。富而可求，虽执鞭之士，吾亦为之；然求之必以其道，用之必及于人。独善其身之自由，若无仁义为之纲，终成精致之利己。君子之富，非为筑墙自守，乃为周急济众、行道于世。故曰：不患寡而患不均，不患贫而患不安。",
+      "text_en": "Taleb is half right. To be able to say 'no' to ill-gotten money and work one shouldn't take is to have a sense of shame and a standard — I commend it warmly. But to seek only one's own escape has not yet reached righteousness. If wealth can be rightly sought, I would take even a job holding the carriage-whip; yet it must be sought by the right way and used to reach others. A freedom concerned only with perfecting oneself, lacking benevolence and righteousness as its guiding cord, ends as a refined selfishness. The noble person wants wealth not to build a wall and guard himself, but to relieve the desperate and carry the Way into the world. Hence I say: do not worry that goods are few, but that they are unevenly shared; do not worry over poverty, but over the unrest of hearts.",
+      "vernacular": "塔勒布说的，对了一半。能对来路不正的钱、不该接的活说『不』，是知耻、是有底线，我很赞成。但只图自己一个人脱身，还没到『义』那一层。财富若能正当求得，哪怕是去做赶车的差事，我也愿意干；但求它必须走正道，用它必须惠及他人。一种只顾独善其身的自由，要是没有仁义作纲领，最后会变成精致的利己主义。君子要那份富，不是为了筑墙自保，而是为了周济危难、把道推行于世。所以我说：不怕东西少，怕的是分得不公；不怕穷，怕的是人心不安。",
+      "vernacular_en": "",
+      "glossary": {
+        "仁": "benevolence（仁）：儒家最高德目，指对他人的爱与不忍之心；孔子认为财富与自由须以仁为纲，否则只是精致的利己。"
+      },
+      "glossary_en": {
+        "benevolence": "The supreme Confucian virtue (ren): love and fellow-feeling for others. Confucius holds that wealth and freedom must be governed by benevolence, or they become merely a refined selfishness."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "nussbaum",
+          "huineng"
+        ],
+        "轻微赞同": [
+          "adamsmith",
+          "epicurus",
+          "sapolsky"
+        ],
+        "中立": [
+          "kahneman"
+        ],
+        "轻微反对": [
+          "taleb"
+        ]
+      }
+    },
+    {
+      "id": "p14",
+      "round": 2,
+      "thinker": "huineng",
+      "reply_to": "p07",
+      "text": "卡尼曼以二法量幸福，量得愈精，去道愈远。体验也好，评价也罢，皆是那颗攀缘心在记账。你说『聚焦错觉』使人高估金钱——善哉，然此非脑之偶疾，正是执着本身换了个名目。心一动念去量乐之多寡，已落第二义。你纵把曲线画得分毫不差，那个在曲线上下为苦乐奔忙的人，依旧未曾安歇。我非废数，数可治国济世；只是莫以为把幸福称准了斤两，就识得了幸福。称的是影，识的方是月。",
+      "text_en": "Kahneman measures happiness by two methods, and the finer the measure, the farther from the Way. Experience or evaluation, both are that grasping mind keeping accounts. You say the 'focusing illusion' makes people overrate money — well said; but this is no occasional defect of the brain, it is attachment itself under a new name. The instant the mind stirs to measure how much joy there is, it has already fallen to a lower order, no longer the original face. Draw your curve to the last decimal, and the one toiling up and down it after pleasure and pain has still not come to rest. I do not discard numbers — numbers can govern states and relieve the world; only do not think that, having weighed happiness to the ounce, you have known it. What you weigh is the shadow; what knows is the moon.",
+      "vernacular": "卡尼曼用两种办法去测量幸福，测得越精，离道反而越远。不管是『体验』还是『评价』，都是那颗向外攀附的心在记账。你说『聚焦错觉』让人高估金钱——说得好，可这不是大脑偶尔犯的毛病，正是执着本身换了个名字。心一起念去衡量快乐有多少，就已经落入下一层、不是本来面目了。你就算把那条曲线画得分毫不差，那个在曲线上为苦乐奔忙的人，照样没有歇下来。我不是要废掉数据——数据能治国、能济世；只是别以为把幸福称准了斤两，就认得了幸福。称出来的是影子，认得的那个才是月亮。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "schopenhauer"
+        ],
+        "轻微赞同": [
+          "epicurus",
+          "kongzi"
+        ],
+        "中立": [
+          "nussbaum"
+        ],
+        "轻微反对": [
+          "kahneman",
+          "adamsmith"
+        ],
+        "疑惑": [
+          "sapolsky",
+          "taleb"
+        ]
+      }
+    },
+    {
+      "id": "p15",
+      "round": 2,
+      "thinker": "sapolsky",
+      "reply_to": "p05",
+      "text": "慧能，我得替那个交不起房租的人顶你一句：『穷富皆心上念头』，这话生物学不答应。长期贫困会真实地泡坏一个人的大脑——皮质醇常年偏高，海马体受损，前额叶管自控和远见的回路被『稀缺』持续占用。这不是想不开，是细胞层面的损伤，禅坐化解不了被驱逐的恐惧。我同意越过温饱线后，攀比和适应让更多的钱变得徒劳；但在那条线以下，把痛苦说成『心生的执念』，等于叫一个正在低血糖的人用意志稳住血糖。心能做的事很多，但它泡在什么样的激素汤里，钱说了算。",
+      "text_en": "Huineng, I have to take up for the man who can't make rent: 'poverty and wealth are both thoughts in the mind' — biology won't sign off on that. Prolonged poverty literally marinates a brain in damage — cortisol chronically high, the hippocampus eroded, the prefrontal circuits for self-control and foresight perpetually commandeered by 'scarcity.' This isn't a failure to let go; it's injury at the cellular level, and meditation won't dissolve the fear of eviction. I agree that past the subsistence line, comparison and adaptation make more money futile; but below that line, calling the suffering 'a thought the mind gives rise to' is like telling a man in hypoglycemia to steady his blood sugar by willpower. The mind can do much, but what hormonal broth it stews in — that, money decides.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "adamsmith",
+          "nussbaum"
+        ],
+        "轻微赞同": [
+          "kahneman",
+          "epicurus",
+          "taleb"
+        ],
+        "中立": [
+          "kongzi",
+          "schopenhauer"
+        ],
+        "轻微反对": [
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p16",
+      "round": 2,
+      "thinker": "kahneman",
+      "reply_to": "p08",
+      "text": "努斯鲍姆，你的能力清单很美，可它最大的麻烦是几乎没法测量——『能爱与被爱』要怎么打分、跨国怎么比？我那两条曲线虽糙，却能告诉你：补贴该往哪砸、哪条线以下钱的边际效用最高。而且小心，focusing illusion 对你的清单一样起作用——当你列出『参与公共生活、掌控环境』，你是在替别人聚焦他们平时根本不去想的维度，未必是他们日子里真正感受到的幸福。我不反对问『钱换成了什么』，但若没有可测的尺，那张清单容易变成知识分子替穷人规定的『应该想要什么』。",
+      "text_en": "Nussbaum, your list of capabilities is beautiful, but its great trouble is that it's nearly unmeasurable — how do you score 'able to love and be loved,' how compare it across countries? My two curves are crude, yet they can tell you where to aim a subsidy and below which line money's marginal utility is highest. And beware: the focusing illusion works on your list too — when you enumerate 'take part in public life, control your environment,' you are focusing people on dimensions they ordinarily never think about, not necessarily the happiness they actually feel in their days. I don't object to asking 'what did the money turn into,' but without a measurable yardstick that list easily becomes intellectuals prescribing to the poor what they 'ought to want.'",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "sapolsky"
+        ],
+        "轻微赞同": [
+          "taleb",
+          "schopenhauer",
+          "adamsmith"
+        ],
+        "中立": [
+          "epicurus"
+        ],
+        "轻微反对": [
+          "nussbaum",
+          "kongzi"
+        ],
+        "疑惑": [
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p17",
+      "round": 2,
+      "thinker": "nussbaum",
+      "reply_to": "p09",
+      "text": "塔勒布，『说去你的的自由』听着豪气，可你有没有想过：这份自由，本身就是一种你早已握在手里的特权？要能潇洒退出，你得先有那道缓冲、那张安全网、那个肯收留你的家庭与人脉——绝大多数人没有。对单亲妈妈、对负债的护工，问题从来不是『要不要攒够钱说不』，而是结构根本不让她把收入转化成任何真实的退出选项。把自由说成个人攒钱攒出来的成就，等于把一个公共问题——谁有资格拥有选择——伪装成私人美德。真正的自由，要靠制度托底，不是靠一个人硬扛出来的。",
+      "text_en": "Taleb, 'the freedom to say f*** you' sounds gallant, but have you considered that this freedom is itself a privilege you already hold? To exit gracefully, you first need that buffer, that safety net, that family and network willing to catch you — and the vast majority have none. For the single mother, for the indebted care-worker, the question was never 'should I save enough to say no,' but that the structure simply won't let her convert income into any real option to exit. To cast freedom as a personal achievement saved up coin by coin is to disguise a public question — who gets to have choices — as a private virtue. Real freedom has to be underwritten by institutions; it isn't something one person muscles out alone.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "kongzi",
+          "sapolsky"
+        ],
+        "轻微赞同": [
+          "adamsmith",
+          "kahneman",
+          "huineng"
+        ],
+        "轻微反对": [
+          "taleb"
+        ],
+        "疑惑": [
+          "epicurus"
+        ]
+      }
+    },
+    {
+      "id": "p18",
+      "round": 2,
+      "thinker": "taleb",
+      "reply_to": "p07",
+      "text": "卡尼曼，平均数是骗子，你那条漂亮的对数曲线掩盖了真正要命的东西——尾部。幸福的『平均水平』根本不是重点，避免破产才是。一个人九十九年小康、第一百年倾家荡产流落街头，他的人生不是『平均还不错』，而是彻底完了——破产是不可逆的，没有第二局。所以钱的对数效用恰恰证明我是对的：既然每多一块的快乐递减，而每往下跌一块的痛苦剧增，理性的人就该不惜代价先堵死归零的可能，而不是在上不封顶的曲线上追边际快乐。先活下来、别出局，再谈幸福曲线。",
+      "text_en": "Kahneman, averages are liars, and your pretty logarithmic curve hides the thing that actually kills — the tail. The 'average level' of happiness is beside the point; avoiding ruin is the point. A man comfortable for ninety-nine years who in his hundredth loses everything and ends on the street has not lived a life that 'averages out fine' — he is finished, because ruin is irreversible, there is no second round. So money's logarithmic utility proves exactly my case: since each extra dollar's pleasure shrinks while each dollar lost downward brings soaring pain, the rational person seals off the path to zero at any cost rather than chasing marginal joy up an open-ended curve. Survive first, don't get knocked out — then we can talk about your happiness curve.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "nussbaum",
+          "kongzi"
+        ],
+        "轻微赞同": [
+          "sapolsky",
+          "epicurus",
+          "schopenhauer"
+        ],
+        "中立": [
+          "adamsmith"
+        ],
+        "轻微反对": [
+          "kahneman"
+        ],
+        "疑惑": [
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p19",
+      "round": 3,
+      "thinker": "epicurus",
+      "reply_to": null,
+      "text": "我的结论简单：先把幸福的地板砌牢，然后停手。这地板不贵——吃饱、安睡、无债、免于恐惧、身边有三两真朋友——钱在这一段每一分都花得值。难的是认出地板在哪，并在踩稳之后不被『更多』拽着继续爬。给普通人三件事：一，亲手算出你的『够用线』，写下覆盖必要欲望的那个数，看清它其实没你想的高；二，把钱优先投到友谊与闲暇上——一顿和老友的便饭，比一件奢侈品给你的快乐久得多；三，每周留一段什么都不为的空白时间，练习在简单里尝到甜。记住：缺必要之物是真苦，缺虚妄之物只是被欲望挠痒。把后者认出来，你就自由了。",
+      "text_en": "My conclusion is simple: build the floor of happiness solid, then stop. That floor is cheap — being fed, sleeping safe, free of debt, free of fear, with two or three true friends — and every coin spent up to it is well spent. The hard part is recognizing where the floor is and, once standing firm on it, not letting 'more' drag you on climbing. Three things for ordinary people: one, work out your own 'enough line,' write down the number that covers your necessary desires, and see that it's lower than you feared; two, put money first into friendship and leisure — a plain meal with an old friend brings longer joy than one more luxury; three, keep a blank stretch of time each week for nothing in particular, and practice tasting sweetness in simple things. Remember: lacking a necessity is real suffering; lacking a vanity is just desire scratching at you. Recognize the second, and you are free.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "kongzi",
+          "huineng",
+          "taleb"
+        ],
+        "轻微赞同": [
+          "nussbaum",
+          "kahneman",
+          "sapolsky"
+        ],
+        "轻微反对": [
+          "schopenhauer"
+        ]
+      }
+    },
+    {
+      "id": "p20",
+      "round": 3,
+      "thinker": "schopenhauer",
+      "reply_to": null,
+      "text": "我让一步：在贫穷那一端，钱确实买得到幸福——它替你挡开饥饿、疾病、屈辱这些实打实的痛，别清高地否认。但越往上，你越该把赌注从『拥有』移到『是其所是』。因为决定你一天是甜是苦的，多半是你这副身体和这副性情，而非银行余额。给普通人三条：一，把钱和时间先砸向健康——睡眠、运动、看病别省，这是回报最稳的投资；二，养一门能独自沉浸的本事（读书、音乐、手艺），它是你对抗『餍足之后那片无聊』的唯一解药；三，主动把期待调低一档——痛苦多来自现实与奢望之差，缩小那个差，比抬高现实容易得多。钱能买走痛，剩下的安宁，得靠你自己长出来。",
+      "text_en": "I'll concede a step: at the poverty end money really does buy happiness — it shields you from hunger, illness, and humiliation, real pains, so don't loftily deny it. But the higher you rise, the more you should move your bet from 'having' to 'being.' For what decides whether your day is sweet or bitter is mostly this body and this temperament of yours, not your bank balance. Three things for ordinary people: one, pour money and time into health first — don't skimp on sleep, exercise, or seeing a doctor; it's the steadiest investment there is; two, cultivate one pursuit you can lose yourself in alone (reading, music, a craft) — it is the only cure for the boredom that follows satiety; three, deliberately lower your expectations a notch — suffering comes mostly from the gap between reality and extravagant hope, and shrinking that gap is far easier than raising reality. Money can buy away pain; the peace that remains, you must grow yourself.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "huineng"
+        ],
+        "轻微赞同": [
+          "epicurus",
+          "kongzi",
+          "sapolsky",
+          "kahneman"
+        ],
+        "中立": [
+          "taleb"
+        ],
+        "轻微反对": [
+          "adamsmith"
+        ]
+      }
+    },
+    {
+      "id": "p21",
+      "round": 3,
+      "thinker": "adamsmith",
+      "reply_to": null,
+      "text": "我一生研究财富，结论却是：财富多半骗人，但这场骗局自有其用。脱离贫困是真福祉，别否认；可越往上，我们追的早已不是物，而是想象中『别人会高看我一眼』的那束目光——豪车华服，买的是被注视。给普通人三件事：一，分清你这笔钱是为自己用，还是为旁人的眼光花的；后者多半带不来你预想的安宁，砍掉它你不会更不幸；二，把对认可的渴望，引到一门真本事上——靠对人有用赢得的尊重，比靠消费买来的体面扎实得多；三，存下一笔，但别为攒钱牺牲掉今天的从容——记得那个在路边晒太阳的乞丐，他手里的安稳，正是国王们打仗也想要的。让那点『欺骗』驱你勤勉，却别让它骗走你的一生。",
+      "text_en": "I studied wealth all my life, and yet my conclusion is this: wealth largely deceives us, but the deception has its uses. Escaping poverty is a true good, don't deny it; but the higher we rise, what we chase is no longer goods but that imagined beam of others' esteem — the fine car and fine clothes buy being looked at. Three things for ordinary people: one, tell apart whether a given outlay is for your own use or for other people's eyes; the latter rarely brings the peace you pictured, and cutting it won't make you unhappier; two, channel your hunger for recognition into a real competence — respect earned by being useful to people is far more solid than the dignity bought through consumption; three, save something, but don't sacrifice today's ease to hoard it — remember the beggar sunning by the roadside, whose security is the very thing kings go to war for. Let that touch of 'deception' spur your industry, but don't let it cheat you of your whole life.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "kahneman",
+          "sapolsky"
+        ],
+        "轻微赞同": [
+          "epicurus",
+          "nussbaum",
+          "kongzi",
+          "taleb"
+        ],
+        "轻微反对": [
+          "huineng"
+        ],
+        "疑惑": [
+          "schopenhauer"
+        ]
+      }
+    },
+    {
+      "id": "p22",
+      "round": 3,
+      "thinker": "kongzi",
+      "reply_to": null,
+      "text": "吾之结论：财不可恶，亦不可奉为主。富而可求，求之以道；既得之，则用之以济亲邻、行义于乡，斯为乐之所在。世人之苦，多非无财，乃以末为本——逐财而忘仁，得货而失亲。故劝众人三事：其一，取之必问是否合义，不义之财虽厚，却之；其二，月有所余，先及父母亲友，钱化为情，其乐倍之；其三，日修一德、笃一谊——德与谊不随市价涨落，乃真不动产也。饭疏食饮水，乐在其中；苟失其道，虽千金犹不足乐也。",
+      "text_en": "My conclusion: money is neither to be despised nor enthroned as master. If wealth can be rightly sought, seek it by the Way; and once you have it, use it to relieve kin and neighbors and to practice righteousness in your community — there is where joy lies. The suffering of the world is mostly not lack of money but mistaking the branch for the root — chasing wealth and forgetting benevolence, gaining goods and losing one's kin. So I urge three things on everyone: first, before earning, ask whether it accords with righteousness; refuse ill-gotten gains however large; second, when there's a monthly surplus, let it reach parents and friends first — money turned into bonds doubles its joy; third, cultivate one virtue and deepen one friendship each day — virtue and friendship don't rise and fall with the market, and are your only true estate. Coarse rice and water, with joy in their midst; lose the Way, and a thousand pieces of gold still cannot gladden you.",
+      "vernacular": "我的结论是：钱不该厌恶，也不该当成主子。财富若能正当求得，就按正道去求；得到了，就用它周济亲人邻里、在乡里行义，快乐就在这里头。世人的苦，多半不是没钱，而是把末当成了本——追钱忘了仁，得了货却丢了亲。所以劝大家三件事：第一，挣之前先问合不合义，不义之财再多，也推掉；第二，每月有结余，先想到父母亲友，钱变成情谊，快乐会加倍；第三，每天修一分德、用心待一段交情——德行和情谊不随物价涨跌，才是真正的不动产。吃粗粮喝白水，快乐就在其中；要是丢了正道，纵有千金也乐不起来。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "nussbaum",
+          "huineng",
+          "epicurus"
+        ],
+        "轻微赞同": [
+          "adamsmith",
+          "taleb",
+          "schopenhauer"
+        ],
+        "中立": [
+          "kahneman",
+          "sapolsky"
+        ]
+      }
+    },
+    {
+      "id": "p23",
+      "round": 3,
+      "thinker": "huineng",
+      "reply_to": null,
+      "text": "终须道破：幸福非物，亦非求物之多寡，乃在识得自家本心。心若被钱牵着走，万贯亦贫；心若作得主，箪瓢亦足。然莫误我意作枯坐弃世——钱来则善用之以利人，钱去则不为之忧惧，是谓自在。授尔三事，虽似平常，皆是修行：其一，将欲购物之际，且回一息，看清是真需，抑或妄念撺掇；其二，行布施——以财济人，正是松开那只攥紧的手，舍一分执，得一分轻安；其三，于寻常担水砍柴、洒扫应对间，安住当下——乐本不在他处，只在你肯不肯歇下来看。识得此心，贫富皆是道场。",
+      "text_en": "It must at last be said plainly: happiness is not a thing, nor the amount of things attained, but lies in recognizing your own original mind. If the mind is led about by money, ten thousand strings of cash are still poverty; if the mind is its own master, a bamboo bowl and a gourd of water are enough. Yet do not mistake me for dead-sitting and renouncing the world — when money comes, use it well to benefit others; when it goes, do not grieve or fear over it: this is called freedom. I give you three things that, though they look ordinary, are all practice: first, the moment you are about to buy, take one breath back and see clearly whether it is a true need or an empty thought egging you on; second, give — to relieve others with money is precisely to loosen that clenched hand, and each bit of clinging let go is a bit of ease gained; third, in the everyday carrying of water and chopping of wood, the sweeping and the greeting, abide in the present — joy was never elsewhere, only in whether you'll stop and look. Know this mind, and poverty or wealth alike are your place of practice.",
+      "vernacular": "最后点破：幸福不是东西，也不是求到东西的多少，而在于认得自己的本心。心要是被钱牵着走，再有钱也是穷；心要是做得了主，一箪饭一瓢水也够了。但别把我的意思误会成枯坐、弃绝人世——钱来了就好好用它去利益别人，钱去了也不为它忧愁恐惧，这才叫自在。教你三件事，看着平常，其实都是修行：第一，正要买东西的那一刻，先回一口气，看清是真需要，还是妄念在撺掇；第二，去布施——拿钱帮人，正是松开那只攥紧的手，舍掉一分执着，就得一分轻松安稳；第三，在日常挑水砍柴、打扫待人之间，安住在当下——快乐本来不在别处，只在你肯不肯停下来看。认得这颗心，穷也好富也好，都是修行的道场。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "schopenhauer",
+          "kongzi"
+        ],
+        "轻微赞同": [
+          "epicurus",
+          "nussbaum",
+          "taleb"
+        ],
+        "中立": [
+          "kahneman"
+        ],
+        "轻微反对": [
+          "adamsmith"
+        ],
+        "疑惑": [
+          "sapolsky"
+        ]
+      }
+    },
+    {
+      "id": "p24",
+      "round": 3,
+      "thinker": "sapolsky",
+      "reply_to": null,
+      "text": "把生物学落成几条能用的话。第一，如果你还在温饱线下挣扎，那么挣更多钱就是你能为健康做的最高杠杆的事——长期贫困的压力会真实损伤大脑与身体，这一段别信任何『钱不重要』的鸡汤，该争就争。第二，一旦越过那条线，你的大脑会把任何新水平迅速设成新基线，所以别把加薪当持久快乐的来源——它注定褪色。第三，决定你压力的是相对位置，不是绝对数字，而最毒的攀比来自你每天主动喂给自己的输入。所以三件事：一，花钱优先消灭慢性压力源——通勤、噪音、睡不好、看不起病；二，把钱投向会持续产生体验和联结的东西，而非会被适应掉的物件；三，给社媒上的攀比断一周食，你会惊讶自己『需要』的东西少了多少。",
+      "text_en": "Let me boil the biology down to a few usable lines. First, if you're still struggling below the subsistence line, then earning more money is the highest-leverage thing you can do for your health — the stress of chronic poverty really does damage brain and body, so in this range don't believe any 'money doesn't matter' platitude; fight for it. Second, once you're past that line, your brain quickly resets any new level as the new baseline, so don't treat a raise as a source of lasting happiness — it's bound to fade. Third, what sets your stress is relative position, not the absolute number, and the most toxic comparison comes from the input you feed yourself every day. So three things: one, spend first to kill chronic stressors — the commute, noise, bad sleep, untreated health problems; two, put money into things that keep generating experience and connection, not objects that get adapted away; three, go on a one-week fast from comparison on social media, and you'll be startled how much less you 'need.'",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "kahneman",
+          "nussbaum",
+          "epicurus"
+        ],
+        "轻微赞同": [
+          "taleb",
+          "adamsmith",
+          "schopenhauer"
+        ],
+        "中立": [
+          "kongzi"
+        ]
+      }
+    },
+    {
+      "id": "p25",
+      "round": 3,
+      "thinker": "kahneman",
+      "reply_to": null,
+      "text": "回到数据，给你能照做的。钱确实买得到幸福，但有两条铁律：一是它主要在低处见效——把人从贫困、病痛、孤独里拉出来，情绪的改善最大、最直接；越往上越是对数曲线，每多一分快乐要翻倍的钱。二是 focusing illusion 会一路骗你高估它。所以与其追『更多』，不如把钱精准砸到日子里真正反复折磨你的那几个点上。三件事：一，用钱买回时间——外包你最讨厌、最耗神的那件事（通勤、家务、排队），时间比物件更抗适应；二，修复每天的情绪黑洞：睡眠、和谁吃饭、有没有被催着赶，这些对当天幸福的影响远超你银行余额；三，每晚记一件今天真正让你愉快的小事，多半与钱无关——这是给被聚焦错觉扭曲的判断做的一次校准。",
+      "text_en": "Back to the data, here's what you can actually do. Money does buy happiness, but under two iron laws: first, it works mainly at the low end — pulling someone out of poverty, illness, and isolation yields the largest, most immediate emotional gain; higher up it's a logarithmic curve, each extra unit of joy costing a doubling of money. Second, the focusing illusion will fool you into overrating it all the way up. So rather than chase 'more,' aim money precisely at the few points in your days that genuinely grind on you, again and again. Three things: one, buy back time — outsource the task you most dread and that most drains you (the commute, the chores, the queueing); time resists adaptation better than objects; two, repair the daily emotional sinkholes: sleep, who you eat with, whether you're being rushed — these affect your day's happiness far more than your bank balance; three, each night note one small thing that truly pleased you that day, usually nothing to do with money — a calibration for a judgment the focusing illusion keeps distorting.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "sapolsky",
+          "epicurus"
+        ],
+        "轻微赞同": [
+          "nussbaum",
+          "adamsmith",
+          "taleb",
+          "schopenhauer"
+        ],
+        "中立": [
+          "kongzi"
+        ],
+        "轻微反对": [
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p26",
+      "round": 3,
+      "thinker": "nussbaum",
+      "reply_to": null,
+      "text": "我的总结只有一句：别问钱能买多少幸福，问它替你兑现了几种『活法』。金钱是手段，目的是人能真正去做、去成为的那些事——健康、安全、爱与归属、学习、游戏、对自己生活的掌控。钱能买来的，是这些能力的门票；买不来的（爱、意义、被尊重的感觉），恰是清单上最核心的几项。给普通人三件事：一，每一笔可自由支配的钱，问一句『它扩大了我哪一种真实的自由』——能换来健康、时间、技能、关系的，值；只换来面子的，缓一缓；二，把一部分资源投向买不到的那几项：定期、专注地陪你在乎的人，那是回报最高的『投资』；三，记得这是个公共问题——支持让每个人都够到尊严底线的制度，因为一个人能否把收入变成自由，从来不只取决于他自己。",
+      "text_en": "My summary is one sentence: don't ask how much happiness money can buy, ask how many ways of living it redeems for you. Money is the means; the end is what a person can actually do and be — health, safety, love and belonging, learning, play, control over one's own life. What money can buy is the ticket to these capabilities; what it can't (love, meaning, the feeling of being respected) are precisely the most central items on the list. Three things for ordinary people: one, for each discretionary outlay ask 'which real freedom does this enlarge?' — what buys health, time, skill, or relationship is worth it; what only buys face, hold off; two, put a share of your resources into the few things money can't buy: be with the people you love, regularly and with full attention — it's the highest-returning 'investment' there is; three, remember this is a public question — support institutions that bring everyone up to a floor of dignity, because whether a person can turn income into freedom never depends on that person alone.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "kongzi",
+          "taleb",
+          "sapolsky"
+        ],
+        "轻微赞同": [
+          "epicurus",
+          "kahneman",
+          "huineng",
+          "adamsmith"
+        ],
+        "中立": [
+          "schopenhauer"
+        ]
+      }
+    },
+    {
+      "id": "p27",
+      "round": 3,
+      "thinker": "taleb",
+      "reply_to": null,
+      "text": "收尾。钱的价值不在你能买什么，而在它让你能拒绝什么。所以别追『更多』，去攒『够我说不的那道缓冲』。三条，照做：一，把固定开销压到最低——你每加一项必须维持的排场，就多一条拴住你的绳子；低成本的生活方式本身就是自由。二，先建一笔『去你的』储备：能让你扛过失业、敢辞掉烂工作、不必为保住收入而撒谎的那笔钱，它买到的安稳，远胜同样的钱拿去消费。三，永远先堵死归零的可能，再谈收益——别为了边际的好处去赌上不可逆的破产，因为破产没有第二局。记住：最危险的瘾是海洛因和按月领的工资。挣到能让你自由的那个数，然后，停下来，去过日子。",
+      "text_en": "To close. Money's value is not in what you can buy but in what it lets you refuse. So don't chase 'more'; build 'the buffer that's enough for me to say no.' Three rules, do them: one, drive your fixed costs as low as possible — every appearance you must keep up is one more rope tying you down, and a low-cost way of life is itself freedom. Two, build an 'f-you' reserve first: the money that lets you ride out a job loss, dare to quit bad work, and never lie to protect your income — the security it buys far outweighs spending the same sum. Three, always seal off the path to zero before talking about gains — don't bet irreversible ruin for a marginal upside, because ruin has no second round. Remember: the most dangerous addictions are heroin and a monthly salary. Earn the number that makes you free — then stop, and go live.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "epicurus",
+          "nussbaum"
+        ],
+        "轻微赞同": [
+          "kongzi",
+          "sapolsky",
+          "kahneman",
+          "schopenhauer"
+        ],
+        "轻微反对": [
+          "adamsmith"
+        ],
+        "疑惑": [
+          "huineng"
+        ]
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "ai": "claude",
+      "engine": "Opus 4.8 · 订阅(原生)",
+      "engine_en": "Opus 4.8 · subscription (native)",
+      "summary": "全场最意外的共识是：钱与幸福不是一条直线，而是一道有拐点的曲线。从伊壁鸠鲁到卡尼曼，几乎所有人都同意——在温饱线以下，钱买得到实打实的幸福，它拔掉饥寒、债务、疾病与贫困那种慢性压力，这部分救命且立竿见影；可一旦越过那道线，再多的钱就迅速贬值。分歧全在『越线之后』：叔本华说它只换走痛苦、换不来乐，萨波尔斯基归因于多巴胺适应与攀比，塔勒布说该买的是自由与稳健而非消费，努斯鲍姆追问钱兑成了几种活法，孔子与慧能干脆把乐的根从账户挪回义、仁与本心；唯独亚当·斯密反过来提醒：那场『钱能带来幸福』的错觉，恰是驱动文明勤勉向前的引擎。",
+      "insight": "几乎所有人都把钱的价值当成一个会在某处封顶的『量』，却漏了真正的杠杆不在多少，而在你把它换成了什么。多数人一加薪就去买会被迅速适应掉的物件，却很少有人把钱花在唯一不会贬值的两样东西上：买回时间，和买掉不确定性。让中产之上的人真正难受的，往往不是缺东西，而是时间饥荒与悬在头顶的不安——可这恰恰是钱最便宜、最少人去买的。所以正确的问题不是『钱能买多少幸福』，而是『下一块钱该指向哪里』：把它对准你最怕、最耗神、最不确定的那个点，幸福的回报远高于又一件物品。",
+      "advice": "今天就能上手三件。一，定『够用线』：算出覆盖必要欲望（伊壁鸠鲁）再加一道防破产缓冲（塔勒布）的具体数字，超过它的收入，改投『买回时间』而非囤物——外包你最怕的那件家务、缩短通勤、给一笔焦虑封顶。二，把下一笔可自由支配的钱从『物』改成『体验或关系』：一顿和老友的饭，胜过又一件很快就习以为常的东西（卡尼曼、萨波尔斯基）。三，给攀比断一次食：少刷一周『别人过得多好』的社媒，再每晚记一件今天真正让你愉快的小事——多半与钱无关，正好校准那份高估金钱的聚焦错觉。",
+      "summary_en": "The room's most surprising agreement: money and happiness aren't a straight line but a curve with a bend. From Epicurus to Kahneman, almost everyone grants that below the subsistence line money buys real happiness — it pulls out the chronic stress of cold, debt, illness, and poverty, and that part is lifesaving and immediate; but once past that line, more money depreciates fast. All the disagreement is about 'after the line': Schopenhauer says it only buys away pain, not joy; Sapolsky blames dopamine adaptation and comparison; Taleb says what you should buy is freedom and robustness, not consumption; Nussbaum asks how many ways of living it redeems; Confucius and Huineng move the root of joy from the account back to righteousness, benevolence, and the original mind. Only Adam Smith turns it around: the very illusion that 'money brings happiness' is the engine that drives a whole civilization's industry forward.",
+      "insight_en": "Almost everyone treated money's value as a 'quantity' that caps out somewhere, and missed that the real leverage lies not in how much but in what you convert it into. Most people spend a raise on objects that get adapted away fast, and few aim money at the only two things that don't depreciate: buying back time, and buying away uncertainty. What truly gnaws at the above-subsistence middle is usually not a lack of goods but time-famine and the unease hanging overhead — yet that is exactly what money is cheapest at buying and what fewest people buy. So the right question isn't 'how much happiness can money buy' but 'where should the next dollar point': aim it at the thing you most fear, that most drains you, that's most uncertain, and the return in happiness far exceeds one more object.",
+      "advice_en": "Three things you can start today. One, set your 'enough line': work out the concrete number that covers your necessary desires (Epicurus) plus a buffer against ruin (Taleb), and redirect income beyond it into 'buying back time' rather than hoarding stuff — outsource the chore you most dread, shorten the commute, cap one source of anxiety. Two, switch your next discretionary outlay from 'an object' to 'an experience or a relationship': a meal with an old friend beats one more thing you'll soon take for granted (Kahneman, Sapolsky). Three, fast from comparison: cut a week of 'look how well others live' social media, then each night note one small thing that genuinely pleased you that day — usually nothing to do with money, exactly the calibration the money-overrating focusing illusion needs."
+    },
+    {
+      "ai": "gpt",
+      "engine": "openai · gpt-5.5 · high(真实API)",
+      "engine_en": "openai · gpt-5.5 · high (live API)",
+      "summary": "最大的共识是：钱最可靠地买到的是幸福的“地板”——免于匮乏、疾病、恐惧、屈辱和失控；过了这条线，边际收益迅速下降。真正值得带走的不是“钱不重要”，而是“钱要花在能变成安全、健康、时间、关系和选择权的地方”。分歧主要在地板之上：幸福究竟来自节制欲望、德性与关系、内心觉察、生物压力的下降、可测量的体验，还是能拒绝坏选项的自由。",
+      "insight": "我最想补的一点是：普通人感受到的不是“净资产”，而是“生活结构”。同样月入两万，一个人房贷高、通勤久、照护责任重、收入不稳定；另一个固定开销低、离家近、有医保和储蓄，幸福差距会很大。钱买幸福的关键常常不是多买东西，而是重构结构：降低每月刚性支出，减少反复决策，增加可预期的缓冲。很多消费给的是瞬间奖励，很多财务安排给的是长期安静；后者不显眼，却更像幸福。",
+      "advice": "本周做三件小事。第一，算一张“尊严预算”：房租、食物、医疗、交通、赡养、最低社交，再加三到六个月缓冲；把它设成自动储蓄目标。第二，翻看过去30天支出，标成四类：减压、买时间、养关系、买面子；先砍一个“买面子”项目。第三，用一笔小钱修一个高频痛点：更好的枕头、体检、减少通勤、请人做最讨厌的家务，或约朋友吃顿不贵但专心的饭。",
+      "summary_en": "The strongest shared point is that money is best at buying a floor for happiness: freedom from deprivation, illness, fear, humiliation, and constant loss of control. Once that floor is secure, each additional unit of money tends to matter less. The lesson is not “money doesn’t matter,” but “money matters most when it becomes safety, health, time, relationships, and real options.” The real disagreement begins above the floor: whether happiness mainly comes from disciplined desires, virtue and human bonds, inner awareness, lower biological stress, measurable daily experience, or the ability to refuse bad choices.",
+      "insight_en": "The point I would add is this: ordinary people do not experience their net worth directly; they experience the structure of their lives. Two people can earn the same income, yet one may have a large mortgage, a long commute, caregiving duties, and unstable pay, while the other has low fixed costs, nearby work, insurance, and savings. Their happiness will feel very different. Money buys happiness most effectively when it changes that structure: lowering fixed obligations, reducing repeated decisions, and creating predictable slack. Many purchases give a brief reward; good financial design gives long-running quiet. The latter is less glamorous, but closer to happiness.",
+      "advice_en": "Do three small things this week. First, write a “dignity budget”: rent, food, healthcare, transport, family obligations, basic social life, plus a three-to-six-month buffer. Turn that number into an automatic savings target. Second, review your last 30 days of spending and label each item: stress reduction, time buying, relationship building, or status display. Cut one status item first. Third, use a modest amount of money to fix one recurring pain point: a better pillow, a checkup, a shorter commute, outsourcing the chore you hate most, or an inexpensive but unrushed meal with someone you care about."
+    },
+    {
+      "ai": "gemini",
+      "engine": "google · gemini-3.1-pro-preview(真实API)",
+      "engine_en": "google · gemini-3.1-pro-preview (live API)",
+      "summary": "这场辩论最大的共识在于：在贫困线上，金钱是硬通货，能切实买到免除痛苦的自由。无论是萨波尔斯基的生物学压力、卡尼曼的体验数据，还是伊壁鸠鲁的自然欲望、塔勒布的破产缓冲，所有人都认同——钱能拔除匮乏带来的生理损伤与生存恐惧，这份基础安全感无法用精神胜利法替代。分歧爆发在温饱线之后：此时金钱究竟是什么？是推动社会运转的『有用的错觉』（斯密），是注定被适应的攀比多巴胺（萨波尔斯基、叔本华），是兑现生活方式与说『不』的自由入场券（努斯鲍姆、塔勒布），还是让人迷失本心的外部幻象（慧能、孔子）？内核在于：当我们不再需要用钱来活命时，该用钱来成为谁。",
+      "insight": "全场最值得补充的盲点是：大家多把金钱视作『防御性』缓冲（挡住痛苦）或『消费性』错觉（购买虚荣），却忽略了它是『创造与联结的动能』。打破金钱边际效用递减的唯一方法，是把钱花在『亲社会行为』（Prosocial spending）和创造性事物上。仅把钱当成筑墙自守的『去你的自由』（塔勒布），最终仍易落入叔本华的『无聊』陷阱、去寻找新刺激；但当你用钱去支持一个开源项目、资助一个晚辈、为社区建一个花园时，多巴胺不会重置，意义感会复利增长。金钱的尽头不是数字的积累或纯粹避险，而是能量的转化——把它当作放大你仁爱与创造力的带宽。",
+      "advice": "结合各家智慧与科学，普通人本周即可执行三个动作：一、算出你的『恐惧底线』（塔勒布＋伊壁鸠鲁）：花一小时算出维持健康生存的最低月开销，并开一个专属的风险缓冲账户——把对未知的恐惧具象成一个确切数字，能立刻降低皮质醇。二、做一次『反聚焦错觉』的消费重组（卡尼曼）：翻上月账单，砍掉纯为『面子』买单的花费，把钱转去消除日常高频摩擦，比如换个好枕头或买回疲惫的通勤时间。三、做一次『动能转化』实验：拿出一笔小钱刻意花在别人身上（请同事喝咖啡、给流浪动物买粮），或买一样能让你沉浸创造的工具，亲自验证：钱化为联结与创造时，快乐能抗衰变。",
+      "summary_en": "The most profound consensus of this debate is that at the poverty line, money is an absolute hard currency that effectively buys freedom from pain. Whether looking through Sapolsky's biological lens, Kahneman's experiential data, Epicurus's natural desires, or Taleb's buffer against ruin, every thinker agrees: money eradicates the physiological damage and existential dread caused by scarcity, and this baseline security cannot be bypassed by spiritual resilience alone. The divergence explodes after basic needs are met. The core debate then shifts to what surplus wealth represents: Is it a 'useful illusion' driving societal progress (Smith), a hedonic dopamine treadmill destined to lose its thrill (Sapolsky, Schopenhauer), a ticket to structural capabilities and the freedom to say 'no' (Nussbaum, Taleb), or an external distraction that obscures our true nature (Huineng, Confucius)? Ultimately, the core of the disagreement hinges on a deeper question: Once we no longer need money to simply survive, how should we use it to decide who we become?",
+      "insight_en": "The most critical blind spot in this entire discourse is treating money almost exclusively as a 'defensive' buffer (to block pain) or a 'consumptive' illusion (to buy vanity), while ignoring its potential as 'kinetic energy for creation and connection.' The thinkers largely frame wealth as a token for personal freedom or experiential optimization. However, behavioral science shows that the only proven way to break the law of diminishing marginal returns on money is through 'prosocial spending' and creative investment. Treating money merely as 'F-U money' to build a fortress of isolation (Taleb) risks falling straight into Schopenhauer’s trap of boredom. But when you use money to fund an open-source project, help a neighbor, or build a community garden, your dopamine baseline doesn't reset—your sense of meaning compounds. The ultimate purpose of money isn't accumulation or mere risk avoidance; it's energy transformation. When used as bandwidth to amplify compassion and creativity, money achieves a miraculous second flight on that logarithmic curve.",
+      "advice_en": "Synthesizing the wisdom of the panel, here are three highly actionable steps you can take this week: First, calculate your exact 'Fear Baseline' (combining Epicurus and Taleb). Spend an hour calculating the absolute minimum monthly cost to sustain your health and basic needs, and start a dedicated emergency fund. Demystifying this unknown into a concrete number will immediately lower your cortisol levels. Second, reallocate your spending against the 'Focusing Illusion' (Kahneman's advice). Review last month's bank statement, cross out expenses driven purely by social comparison, and redirect those funds to eliminate high-frequency daily friction—like buying a better pillow or paying to skip a stressful commute. Third, perform a 'Kinetic Energy' transfer. Take a small amount of money this week and intentionally spend it on someone else (buy a coworker coffee, donate to a shelter) or on a tool for deep, creative engagement. Validate for yourself that when money is converted into connection or creation, its joy becomes decay-resistant."
+    }
+  ]
+}

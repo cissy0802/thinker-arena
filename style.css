@@ -176,7 +176,11 @@ html, body {
 .sum-head .ln { flex: 1; height: 1px; background: var(--line); }
 .sum-head .lbl { color: #F2F3F5; font-size: 14px; font-weight: 500; display: flex; align-items: center; gap: 7px; }
 .sum-grid { display: grid; grid-template-columns: 1fr; gap: 12px; }
-@media (min-width: 760px) { .sum-grid { grid-template-columns: repeat(3, 1fr); } }
+/* 横排时三张卡用 subgrid 共享行轨：who + 综述/洞察/建议(各 标签+正文) = 7 行，跨列对齐 */
+@media (min-width: 760px) {
+  .sum-grid { grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(7, auto); }
+  .sum-card { display: grid; grid-row: span 7; grid-template-rows: subgrid; row-gap: 0; align-content: start; }
+}
 .sum-card { background: var(--bg-card); border: 1px solid var(--line); border-radius: 12px; padding: 14px; }
 .sum-card .who { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
 .sum-card .who .nm { font-size: 15px; font-weight: 500; }

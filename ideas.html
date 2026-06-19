@@ -26,6 +26,10 @@
     .howto { text-align: center; color: #8089a0; font-size: 0.82rem; margin: 0 auto 26px; max-width: 600px;
       background: rgba(255,255,255,0.03); border: 1px solid rgba(123,97,255,0.2); border-radius: 10px; padding: 10px 16px; }
     .sec-label { font-size: 0.78rem; color: #7b61ff; letter-spacing: 2px; text-transform: uppercase; font-family: "SF Mono", Menlo, monospace; opacity: 0.8; margin: 30px 0 10px; }
+    .cat-head { display: flex; align-items: center; gap: 9px; margin: 22px 0 11px; padding-left: 2px; }
+    .cat-head .cat-name { font-size: 0.98rem; font-weight: 700; color: #cdbff5; }
+    .cat-head .cat-count { font-size: 0.7rem; font-weight: 700; color: #9aa3bd; background: rgba(123,97,255,0.14); border-radius: 10px; padding: 1px 8px; font-family: "SF Mono", Menlo, monospace; }
+    .cat-head::after { content: ""; flex: 1; height: 1px; background: linear-gradient(90deg, rgba(123,97,255,0.25), transparent); }
 
     .topic-card { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 14px; padding: 16px 18px; margin-bottom: 12px; transition: border-color .15s; }
     .topic-card:hover { border-color: rgba(123,97,255,0.4); }

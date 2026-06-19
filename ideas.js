@@ -25,6 +25,16 @@
       failPre: "Couldn't load (", failPost: "). For local preview run " }
   };
   function T(k) { return UI[LANG][k]; }
+  // 主题分组（语言无关 key 存在 ideas.json 的 cat 字段；标签在这里双语）
+  var CATS = [
+    { key: "work",   zh: "职场 · 组织 · 领导",   en: "Work, org & leadership" },
+    { key: "self",   zh: "处世 · 自我 · 成长",   en: "Self, growth & living" },
+    { key: "life",   zh: "人生 · 生死 · 家庭",   en: "Life, family & mortality" },
+    { key: "ethics", zh: "伦理 · 政治 · 社会",   en: "Ethics, politics & society" },
+    { key: "meta",   zh: "形而上 · 认识 · 文明", en: "Mind, reality & civilization" },
+    { key: "other",  zh: "其他",                en: "More" }
+  ];
+  function catLabel(c) { return LANG === "en" ? c.en : c.zh; }
   function pick(o, f) { return (LANG === "en" && o && o[f + "_en"] != null) ? o[f + "_en"] : (o ? o[f] : undefined); }
   function esc(s) {
     return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
@@ -65,14 +75,13 @@
     if (oc) oc.style.display = "none";
   });
 
-  function candCard(c, idx, maxVotes) {
+  function candCard(c, posInCat, isTop) {
     var term = GISCUS.termPrefix + c.id;
-    var isTop = idx === 0 && (c.votes || 0) === maxVotes && maxVotes > 0;
     var note = pick(c, "note");
     var html =
       '<div class="topic-card" data-term="' + esc(term) + '">' +
       '<div class="tc-head">' +
-      '<div class="rank' + (isTop ? " top" : "") + '">' + (idx + 1) + "</div>" +
+      '<div class="rank' + (isTop ? " top" : "") + '">' + (isTop ? "★" : posInCat) + "</div>" +
       '<div class="tc-body">' +
       '<div class="tc-q">' + esc(pick(c, "q")) + "</div>" +
       (note ? '<div class="tc-note">' + esc(note) + "</div>" : "") +
@@ -88,10 +97,19 @@
 
   function render(data) {
     GISCUS = data.giscus;
+    // 全局按净票排序，定出当前票王(★) —— 决定下一场的仍是全局净票最高者
     var cands = (data.candidates || []).slice().sort(function (a, b) { return (b.votes || 0) - (a.votes || 0); });
     var maxVotes = cands.reduce(function (m, c) { return Math.max(m, c.votes || 0); }, 0);
+    var topId = maxVotes > 0 ? cands[0].id : null;
     var html = '<div class="sec-label">' + T("candLabel") + "</div>";
-    html += cands.map(function (c, i) { return candCard(c, i, maxVotes); }).join("");
+    // 按主题分组展示(组内仍按净票降序，因 cands 已全局排好序、过滤保持相对序)
+    CATS.forEach(function (cat) {
+      var members = cands.filter(function (c) { return (c.cat || "other") === cat.key; });
+      if (!members.length) return;
+      html += '<div class="cat-head"><span class="cat-name">' + esc(catLabel(cat)) +
+        '</span><span class="cat-count">' + members.length + "</span></div>";
+      html += members.map(function (c, i) { return candCard(c, i + 1, c.id === topId); }).join("");
+    });
 
     // 开放征题：观众提自己的议题（独立 giscus 讨论，term=open-questions）
     html += '<div class="sec-label">' + T("openQLabel") + "</div>";

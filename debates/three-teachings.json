@@ -9,6 +9,7 @@
     "laozi",
     "zhuangzi",
     "huineng",
+    "vasubandhu",
     "mozi",
     "damasio"
   ],
@@ -37,6 +38,11 @@
       "id": "huineng",
       "reason": "禅宗六祖、最『中国化』的佛教代表：『本来无一物』『直指人心』，是历史上三教交融的活的接点，承担本场的佛学一极。",
       "reason_en": "Sixth Patriarch of Chan and the most 'sinicized' Buddhist voice: 'originally not a single thing,' 'pointing directly at the mind' — a living junction where the three teachings historically fused; he carries the Buddhist pole here."
+    },
+    {
+      "id": "vasubandhu",
+      "reason": "印度唯识学（瑜伽行派）集大成者，本场第二位佛学声音，与慧能的顿悟禅形成佛门内部的『顿/渐』之辩：以『万法唯识、八识、种子熏习』给出一套系统的『心如何建构现实』的古代心理学，与达马西奥的脑科学遥相呼应。",
+      "reason_en": "The great systematizer of Indian Yogācāra ('consciousness-only') Buddhism and the panel's second Buddhist voice, forming an intra-Buddhist 'sudden versus gradual' debate with Huineng's Chan: with 'nothing but consciousness, the eight consciousnesses, and the perfuming of seeds' he offers a systematic ancient psychology of how the mind constructs reality, resonating across the centuries with Damasio's neuroscience."
     },
     {
       "id": "mozi",
@@ -74,7 +80,8 @@
         ],
         "轻微反对": [
           "laozi",
-          "huineng"
+          "huineng",
+          "vasubandhu"
         ],
         "强烈反对": [
           "mozi"
@@ -104,7 +111,8 @@
           "zhuangzi"
         ],
         "轻微赞同": [
-          "huineng"
+          "huineng",
+          "vasubandhu"
         ],
         "轻微反对": [
           "damasio"
@@ -138,7 +146,8 @@
           "laozi"
         ],
         "轻微赞同": [
-          "huineng"
+          "huineng",
+          "vasubandhu"
         ],
         "中立": [
           "damasio"
@@ -175,6 +184,9 @@
           "laozi",
           "wangyangming"
         ],
+        "中立": [
+          "vasubandhu"
+        ],
         "轻微反对": [
           "kongzi"
         ],
@@ -188,6 +200,43 @@
     },
     {
       "id": "p05",
+      "round": 1,
+      "thinker": "vasubandhu",
+      "reply_to": null,
+      "text": "诸君所争之三教、所执之是非，依吾观之，皆识所变现。**万法唯识，离识无境；所谓『我』者，不过末那识妄执阿赖耶识为自内我耳。**儒之仁、道之道、佛之空，皆此心识所缘之相。然识非断灭：阿赖耶识含藏万法种子，种子熏现行、现行熏种子，循环不已，故习气难拔、生死相续。欲求解脱，非灭此心，乃转识成智、转染成净。三教若可同归，当归于此一心之转依，而非口舌之争。",
+      "text_en": "What you gentlemen dispute as the three teachings, the rights and wrongs you cling to — in my view, all are manifestations of consciousness. **The ten thousand things are nothing but consciousness; apart from consciousness there is no object; and the so-called 'self' is merely the manas consciousness mistaking the ālaya-vijñāna for an inner self.** Confucian benevolence, the Daoist Way, Buddhist emptiness — all are images this mind-consciousness takes as its objects. Yet consciousness is not annihilation: the ālaya-vijñāna is a storehouse holding the seeds of all things; seeds perfume manifestation and manifestation perfumes seeds, round without end, so habit-energy is hard to uproot and birth-and-death continues. To seek liberation is not to extinguish this mind, but to turn consciousness into wisdom, to turn the defiled into the pure. If the three teachings can come home together, they come home in the turning-about of this one mind, not in disputes of the tongue.",
+      "vernacular": "各位争论的三教、各自执着的是非，在我看来，都是心识变现出来的。**一切现象都不过是心识，离开心识并没有独立的外境；所谓『我』，只是第七识（末那识）把第八识（阿赖耶识）误当成了一个内在的自我。**儒家的仁、道家的道、佛家的空，都是这颗心识所攀缘的影像。但心识并不是断灭的：阿赖耶识像仓库一样藏着万事万物的『种子』，种子生出现实的念头行为、念头行为又熏回新的种子，循环不停，所以习气很难拔除、生死轮回相续。想解脱，不是把心灭掉，而是『转识成智』——把染污的识一层层转成清净的智慧。三教若能殊途同归，应当归在这一颗心的转化上，而不在嘴上争输赢。",
+      "vernacular_en": "",
+      "glossary": {
+        "阿赖耶识": "ālaya-vijñāna（阿赖耶识）：唯识学的『第八识』，像一座储藏一切经验印记（种子）的仓库、或一块潜意识硬盘；它含藏的种子遇缘会现行，又被新经验不断熏染，是习气、轮回与『自我感』的根源。"
+      },
+      "glossary_en": {
+        "ālaya-vijñāna": "The 'eighth consciousness' of Yogācāra Buddhism — a storehouse, like a subconscious hard drive, holding the imprints (seeds) of all experience; its seeds ripen into manifestation when conditions meet and are perfumed anew by fresh experience, making it the root of habit-energy, rebirth, and the sense of self."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "damasio"
+        ],
+        "轻微赞同": [
+          "huineng",
+          "zhuangzi"
+        ],
+        "中立": [
+          "laozi"
+        ],
+        "轻微反对": [
+          "wangyangming"
+        ],
+        "强烈反对": [
+          "mozi"
+        ],
+        "疑惑": [
+          "kongzi"
+        ]
+      }
+    },
+    {
+      "id": "p06",
       "round": 1,
       "thinker": "wangyangming",
       "reply_to": null,
@@ -209,6 +258,9 @@
           "huineng",
           "damasio"
         ],
+        "中立": [
+          "vasubandhu"
+        ],
         "轻微反对": [
           "laozi"
         ],
@@ -221,7 +273,7 @@
       }
     },
     {
-      "id": "p06",
+      "id": "p07",
       "round": 1,
       "thinker": "mozi",
       "reply_to": null,
@@ -244,7 +296,8 @@
         ],
         "轻微反对": [
           "zhuangzi",
-          "huineng"
+          "huineng",
+          "vasubandhu"
         ],
         "强烈反对": [
           "kongzi",
@@ -253,7 +306,7 @@
       }
     },
     {
-      "id": "p07",
+      "id": "p08",
       "round": 1,
       "thinker": "damasio",
       "reply_to": null,
@@ -275,7 +328,8 @@
         "轻微赞同": [
           "laozi",
           "wangyangming",
-          "kongzi"
+          "kongzi",
+          "vasubandhu"
         ],
         "疑惑": [
           "mozi"
@@ -283,7 +337,7 @@
       }
     },
     {
-      "id": "p08",
+      "id": "p09",
       "round": 2,
       "thinker": "kongzi",
       "reply_to": "p02",
@@ -301,7 +355,8 @@
           "mozi"
         ],
         "中立": [
-          "damasio"
+          "damasio",
+          "vasubandhu"
         ],
         "轻微反对": [
           "huineng"
@@ -313,10 +368,10 @@
       }
     },
     {
-      "id": "p09",
+      "id": "p10",
       "round": 2,
       "thinker": "laozi",
-      "reply_to": "p08",
+      "reply_to": "p09",
       "text": "仲尼总怕『没人养老送终』、怕天下散了——可你越是用礼去捆、用仁义去劝，人就越学会表演孝顺、表演恭敬。**真正的秩序不是管出来的，是不去搅扰、让它自己生长出来的；治大国若烹小鲜，火大了、翻多了，鱼就烂了。**你说无为是逃避，我说你那套有为，正是焦虑的根源。水最柔弱，却能穿石；你那么用力，反而离道更远。",
       "text_en": "Zhongni is forever afraid that 'no one will care for the aged,' afraid the world will fall apart — yet the more you bind people with ritual and exhort them with benevolence, the more they learn to perform filial piety, to perform respect. **True order is not produced by managing; it grows of itself when left undisturbed. Govern a great state as you would cook a small fish — too high a flame, too much turning, and the fish falls apart.** You call non-action escapism; I say your whole regime of action is the very source of anxiety. Water is the softest thing, yet it bores through stone; you strain so hard, and only drift further from the Way.",
       "vernacular": null,
@@ -328,7 +383,8 @@
           "zhuangzi"
         ],
         "轻微赞同": [
-          "huineng"
+          "huineng",
+          "vasubandhu"
         ],
         "轻微反对": [
           "damasio"
@@ -343,7 +399,7 @@
       }
     },
     {
-      "id": "p10",
+      "id": "p11",
       "round": 2,
       "thinker": "mozi",
       "reply_to": "p01",
@@ -366,15 +422,16 @@
           "wangyangming"
         ],
         "疑惑": [
-          "huineng"
+          "huineng",
+          "vasubandhu"
         ]
       }
     },
     {
-      "id": "p11",
+      "id": "p12",
       "round": 2,
       "thinker": "huineng",
-      "reply_to": "p10",
+      "reply_to": "p11",
       "text": "墨先生一开口就是天下之利、就是算账。可你忙着替别人填饱肚子，自己心里那把火，谁来灭？**你向外求一万年的利，不如回头看一眼：那个在算计利害、在焦虑奔忙的，到底是谁？**佛性不在远方的太平盛世，就在你当下这一念。心若不安，给你整个天下也是苦。我不是叫你不管苍生——是叫你先认得自家本心，再去做事，才不会越做越乱、为救人反把自己烧成灰。",
       "text_en": "Master Mo opens his mouth and it is the world's benefit, it is doing the accounts. But while you busy yourself filling others' bellies, who puts out the fire in your own heart? **Seek outward benefit for ten thousand years, and it is worth less than turning to look once: who is it, exactly, that is calculating gain and loss, anxious and rushing about?** Buddha-nature is not in some distant age of peace; it is in your single present thought. If the mind is unsettled, the whole world handed to you is still suffering. I am not telling you to ignore the masses — I am telling you to first know your own mind, and then act, so that you do not make ever more of a mess, burning yourself to ash in the name of saving others.",
       "vernacular": null,
@@ -386,7 +443,8 @@
           "zhuangzi"
         ],
         "轻微赞同": [
-          "laozi"
+          "laozi",
+          "vasubandhu"
         ],
         "中立": [
           "wangyangming"
@@ -403,10 +461,10 @@
       }
     },
     {
-      "id": "p12",
+      "id": "p13",
       "round": 2,
       "thinker": "wangyangming",
-      "reply_to": "p11",
+      "reply_to": "p12",
       "text": "六祖直指本心，这一点我服。可我当年差点就栽在这里。**你们禅家认得了本心，却嫌人伦碍事，躲进山里『不着相』——可正是这一躲，露了私心：怕麻烦、怕担责任。**我的良知不躲，它要在喂饭、断案、带兵这些麻烦事上一遍遍磨。知行合一的意思就是：你嘴上说『悟了』、行动上做不到，那就是没真悟。空寂里的清净是假清净，事上磨出来的定才是真定。",
       "text_en": "The Sixth Patriarch points directly at the original mind — on this I yield to him. But in my own day I nearly came to grief right here. **You Chan masters recognize the original mind, yet you find human relations a nuisance and hide in the mountains 'not clinging to appearances' — and it is precisely this hiding that exposes a private motive: fear of trouble, fear of responsibility.** My liangzhi does not hide; it must be tempered, again and again, in troublesome affairs — feeding people, judging cases, leading troops. The unity of knowing and acting means just this: if your mouth says 'I am awakened' but your conduct cannot match it, then you are not truly awakened. The purity of empty stillness is a false purity; the stability tempered in real affairs is the true one.",
       "vernacular": null,
@@ -419,7 +477,8 @@
         ],
         "轻微赞同": [
           "mozi",
-          "damasio"
+          "damasio",
+          "vasubandhu"
         ],
         "轻微反对": [
           "laozi"
@@ -431,10 +490,43 @@
       }
     },
     {
-      "id": "p13",
+      "id": "p14",
+      "round": 2,
+      "thinker": "vasubandhu",
+      "reply_to": "p04",
+      "text": "六祖说『本来无一物』『顿悟成佛』，痛快是痛快，可我得替修行的次第说句话。**心性本净没错，但无始以来熏下的种子、习气是实打实的力量，不是喊一句『悟了』就能一笔勾销的。**你不立文字、当下顿见，我担心多数人学到的只是一张利嘴，烦恼的种子原封未动。所以唯识讲『转识成智』，要在日用里一层层地转、一遍遍对治。顿悟纵然有，悟后仍须渐修——否则旧种子遇缘又现行，你照样被它牵着走。这一点，我和王阳明『事上磨练』倒是同路。",
+      "text_en": "The Sixth Patriarch says 'originally not a single thing,' 'sudden awakening into buddhahood' — bracing, certainly, but let me speak up for the stages of practice. **It is true the mind's nature is originally pure, yet the seeds and habit-energy perfumed in since beginningless time are a real force, not something a single shout of 'I'm awakened!' can cancel at a stroke.** You set up no words and see directly here and now; my fear is that most people come away with only a sharp tongue while the seeds of affliction sit untouched. This is why Yogācāra teaches 'turning consciousness into wisdom' — a turning done layer by layer in daily life, a countering done again and again. Even if sudden awakening occurs, after awakening one must still cultivate gradually — otherwise the old seeds, meeting conditions, manifest again, and you are led about by them as before. On this point I actually walk the same road as Wang Yangming's 'tempering in affairs.'",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "damasio"
+        ],
+        "轻微赞同": [
+          "wangyangming",
+          "kongzi"
+        ],
+        "中立": [
+          "laozi"
+        ],
+        "轻微反对": [
+          "zhuangzi"
+        ],
+        "强烈反对": [
+          "huineng"
+        ],
+        "疑惑": [
+          "mozi"
+        ]
+      }
+    },
+    {
+      "id": "p15",
       "round": 2,
       "thinker": "zhuangzi",
-      "reply_to": "p07",
+      "reply_to": "p08",
       "text": "你们一个比一个认真：要救苍生、要磨良知、要明本心……我在旁边看着都替你们累。**达马西奥不是说了吗，那个争得面红耳赤的『我』，本就是大脑临时画出来的——既然如此，争输赢的到底是谁？**儒家要有所成，道理我懂；可成了又如何，终归一死、终归物化。不如把是非心放一放，先学会做一棵无用的大树：正因为没人来砍它做家具，它才能活得长、活得逍遥。该认真时认真，别把认真当成了第二层枷锁。",
       "text_en": "Each of you is more earnest than the last: save the masses, temper the innate knowing, illumine the original mind… I grow tired just watching. **Didn't Damasio say it — that the 'self' arguing red in the face is something the brain drew up on the spot? If so, who exactly is it that is winning or losing the argument?** The Confucian wants to achieve something; I understand the reasoning. But once achieved, what then? It all ends in death, ends in the transformation of things. Better to set the judging mind aside and first learn to be a useless great tree: precisely because no one chops it down for timber, it lives long and wanders free. Be earnest when earnestness is called for — but don't let earnestness become a second set of shackles.",
       "vernacular": null,
@@ -446,7 +538,8 @@
           "laozi"
         ],
         "轻微赞同": [
-          "huineng"
+          "huineng",
+          "vasubandhu"
         ],
         "中立": [
           "damasio"
@@ -461,10 +554,10 @@
       }
     },
     {
-      "id": "p14",
+      "id": "p16",
       "round": 2,
       "thinker": "damasio",
-      "reply_to": "p13",
+      "reply_to": "p15",
       "text": "庄子把我引为同道，我得澄清一半。**说『自我是大脑建构的』，不等于说自我是个幻觉、可以不管——它是真实的功能，让你记得还房贷、认得回家的路。**所以『无我』不是叫你瘫掉，而是别把这个建构当成一个需要拼命保卫的硬核。这一点上，我反倒站王阳明：自我是在『做事』里一次次长出来的，不是坐在山洞里想出来的。墨子讲兼爱，我也补一句——共情是有神经基础的，镜像系统让我们天然会疼别人的疼，这不是空想。",
       "text_en": "Zhuangzi enlists me as an ally, but I must correct half of that. **To say 'the self is constructed by the brain' is not to say the self is an illusion you can ignore — it is a real function, the thing that lets you remember the mortgage and find the way home.** So 'no-self' is not a license to go limp; it is about not treating this construction as a hard core to be defended at all costs. On this point I actually stand with Wang Yangming: the self grows, again and again, in the doing of things, not by sitting in a cave thinking. And on Mozi's universal love let me add — empathy has a neural basis; the mirror system makes us feel another's pain by nature, and that is no fantasy.",
       "vernacular": null,
@@ -477,7 +570,8 @@
         ],
         "轻微赞同": [
           "kongzi",
-          "mozi"
+          "mozi",
+          "vasubandhu"
         ],
         "轻微反对": [
           "zhuangzi",
@@ -489,7 +583,7 @@
       }
     },
     {
-      "id": "p15",
+      "id": "p17",
       "round": 3,
       "thinker": "kongzi",
       "reply_to": null,
@@ -508,7 +602,8 @@
           "huineng"
         ],
         "中立": [
-          "laozi"
+          "laozi",
+          "vasubandhu"
         ],
         "轻微反对": [
           "mozi"
@@ -519,7 +614,7 @@
       }
     },
     {
-      "id": "p16",
+      "id": "p18",
       "round": 3,
       "thinker": "laozi",
       "reply_to": null,
@@ -535,7 +630,8 @@
         ],
         "轻微赞同": [
           "huineng",
-          "damasio"
+          "damasio",
+          "vasubandhu"
         ],
         "轻微反对": [
           "kongzi"
@@ -549,7 +645,7 @@
       }
     },
     {
-      "id": "p17",
+      "id": "p19",
       "round": 3,
       "thinker": "zhuangzi",
       "reply_to": null,
@@ -569,7 +665,8 @@
         ],
         "中立": [
           "kongzi",
-          "wangyangming"
+          "wangyangming",
+          "vasubandhu"
         ],
         "强烈反对": [
           "mozi"
@@ -577,7 +674,7 @@
       }
     },
     {
-      "id": "p18",
+      "id": "p20",
       "round": 3,
       "thinker": "huineng",
       "reply_to": null,
@@ -596,6 +693,9 @@
           "wangyangming",
           "damasio"
         ],
+        "中立": [
+          "vasubandhu"
+        ],
         "轻微反对": [
           "kongzi"
         ],
@@ -605,7 +705,40 @@
       }
     },
     {
-      "id": "p19",
+      "id": "p21",
+      "round": 3,
+      "thinker": "vasubandhu",
+      "reply_to": null,
+      "text": "我把唯识最实用的一点送给普通人：**你多半不是被外境困住，是被自己反复熏成的『习气』困住——而旧习气，可以被新的『种子』一点点覆盖。**意思是，过去的坏习惯你删不掉，但每一次你在该发火时忍住、该拖延时动手，就在心里种下一颗新种子；种得够多，新的自然盖过旧的。这和达马西奥说的神经可塑性其实是一回事。所以别指望一次顿悟解决所有问题，也别因为旧毛病又犯就灰心——修行是『熏习』，是日拱一卒。今天起，挑一个最缠你的习气，每天只跟它对治一次，让新种子慢慢长成林。",
+      "text_en": "Let me give ordinary people the most practical point of Yogācāra: **most likely you are not trapped by the outer world but by the 'habit-energy' you have perfumed into yourself again and again — and old habit-energy can be covered over, bit by bit, by new bīja (seeds).** Meaning: you cannot delete a past bad habit, but each time you hold back when you'd flare up, or act when you'd procrastinate, you plant a new seed in the mind; plant enough, and the new naturally overgrows the old. This is, in fact, the same thing Damasio calls neuroplasticity. So do not expect one sudden awakening to solve everything, and do not lose heart when an old fault recurs — cultivation is 'perfuming,' an inch gained each day. Starting today, pick the one habit-energy that grips you most, counter it just once a day, and let the new seeds slowly grow into a forest.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "种子": "bīja（种子）：唯识学的比喻，指每一次起心动念、言行都会在阿赖耶识里留下的潜在『印记』；它遇缘会『现行』成新的念头或行为，故反复的行为会自我强化——这正是习惯与性格形成的古代心理模型。"
+      },
+      "glossary_en": {
+        "bīja": "In Yogācāra, a metaphor for the latent 'imprint' that every thought, word, and deed leaves in the storehouse consciousness; meeting conditions, a seed 'manifests' as a new thought or act, so repeated behavior reinforces itself — an ancient psychological model of how habit and character form."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "damasio"
+        ],
+        "轻微赞同": [
+          "wangyangming",
+          "huineng",
+          "kongzi"
+        ],
+        "中立": [
+          "laozi",
+          "zhuangzi"
+        ],
+        "轻微反对": [
+          "mozi"
+        ]
+      }
+    },
+    {
+      "id": "p22",
       "round": 3,
       "thinker": "wangyangming",
       "reply_to": null,
@@ -622,7 +755,8 @@
         "轻微赞同": [
           "huineng",
           "damasio",
-          "mozi"
+          "mozi",
+          "vasubandhu"
         ],
         "中立": [
           "laozi"
@@ -633,7 +767,7 @@
       }
     },
     {
-      "id": "p20",
+      "id": "p23",
       "round": 3,
       "thinker": "mozi",
       "reply_to": null,
@@ -657,7 +791,8 @@
         ],
         "轻微反对": [
           "laozi",
-          "zhuangzi"
+          "zhuangzi",
+          "vasubandhu"
         ],
         "疑惑": [
           "huineng"
@@ -665,7 +800,7 @@
       }
     },
     {
-      "id": "p21",
+      "id": "p24",
       "round": 3,
       "thinker": "damasio",
       "reply_to": null,
@@ -682,7 +817,8 @@
       "reactions": {
         "强烈赞同": [
           "huineng",
-          "wangyangming"
+          "wangyangming",
+          "vasubandhu"
         ],
         "轻微赞同": [
           "laozi",
@@ -700,10 +836,10 @@
       "ai": "claude",
       "engine": "Opus 4.8 · 订阅(原生)",
       "engine_en": "Opus 4.8 · subscription (native)",
-      "summary": "全场最大的共识藏在一处：三家终极关怀虽不同，却都把出路指向『内在的转化』，而非向外攫取——儒要修身、道要致虚、佛要明心，连墨子的兼爱、达马西奥的冥想，都落在『改变自己如何对待世界』。分歧则在三个根问题上针锋相对：一是『自我』要成就还是要消解——儒家立一个道德的我去担当，道、佛却要忘我、无我；二是对世道该入世、顺世还是出世——孔子王阳明要在人伦里磨，老庄要不争，慧能要当下放下；三是衡量价值的尺子——墨子只认『对最多人有没有实利』，三教却更看重心性境界。",
+      "summary": "全场最大的共识藏在一处：三家终极关怀虽不同，却都把出路指向『内在的转化』，而非向外攫取——儒要修身、道要致虚、佛要转心，连墨子的兼爱、达马西奥的冥想，都落在『改变自己如何对待世界』。分歧则在三处针锋相对：一是『自我』要成就还是要消解——儒家立一个道德的我去担当，道、佛却要忘我、无我；二是该入世、顺世还是出世——孔子王阳明在人伦里磨，老庄要不争，慧能要当下放下；三是衡量价值的尺子——墨子只认实利，三教更看重心性。**连佛门内部也分两路：慧能主顿悟，世亲主转识渐修。**",
       "insight": "最值得点出的是：所谓『儒释道殊途同归』，在多数中国人身上从来不是一场哲学调和，而是一种生存策略——得意时做儒家、失意时做道家、绝望时做佛家，按处境随时切换，并不觉得矛盾。这种『实用的折衷』极有韧性，却也藏着代价：你可能永远不必把任何一家追问到底，反而用道家的豁达替自己开脱该担的责任，用佛家的放下回避该改的现实。**三家真正的考验，不在它们彼此异同，而在你是否对其中任何一条诚实到底。**",
       "advice": "给普通人三条今天就能用的。第一，按处境配药：遇到能改变的事，用孔子、王阳明那一套，挑一件拖着的该做之事今天就动手；遇到改不了的事，用老庄那一套，把视角拉到『一年后还重要吗』，给自己松绑。第二，每天留十分钟，只是看着念头来去（慧能、达马西奥都指向它），给过载的心一个空档。第三，**别让『放下』变成逃避**——学墨子，每周做一件对具体某个人真有用的实事，把善意落到别人的饭碗里，而不是只停在心里。",
-      "summary_en": "The biggest agreement here hides in one place: though the three teachings differ in ultimate concern, all point the way out toward inner transformation rather than outward seizing — the Confucian cultivates the self, the Daoist empties it, the Buddhist illumines the mind, and even Mozi's universal love and Damasio's meditation land on 'changing how you yourself treat the world.' The disagreements clash on three root questions: first, whether the 'self' is to be achieved or dissolved — Confucianism erects a moral self to bear responsibility, while Daoism and Buddhism would forget or undo the self; second, whether to engage, go along with, or leave the world — Confucius and Wang Yangming temper themselves in human relations, Laozi and Zhuangzi refuse to contend, Huineng lets go here and now; third, the measuring rod of value — Mozi recognizes only 'real benefit to the most people,' while the three teachings prize inner attainment.",
+      "summary_en": "The biggest agreement here hides in one place: though the three teachings differ in ultimate concern, all point the way out toward inner transformation rather than outward seizing — the Confucian cultivates the self, the Daoist empties it, the Buddhist turns the mind, and even Mozi's universal love and Damasio's meditation land on 'changing how you yourself treat the world.' The disagreements clash on three fronts: first, whether the 'self' is to be achieved or dissolved — Confucianism erects a moral self to bear responsibility, while Daoism and Buddhism would forget or undo it; second, whether to engage, go along with, or leave the world — Confucius and Wang Yangming temper themselves in human relations, Laozi and Zhuangzi refuse to contend, Huineng lets go here and now; third, the measuring rod of value — Mozi recognizes only concrete benefit, while the three teachings prize inner attainment. **Even within Buddhism the road forks: Huineng holds to sudden awakening, Vasubandhu to gradual cultivation by turning consciousness into wisdom.**",
       "insight_en": "What most deserves naming is this: the famed 'convergence of the three teachings' has, for most Chinese, never been a philosophical reconciliation but a survival strategy — be a Confucian in good times, a Daoist in bad, a Buddhist in despair, switching by circumstance without feeling any contradiction. This 'pragmatic eclecticism' is enormously resilient, yet it hides a cost: you may never have to press any one school to its conclusion, instead using Daoist breadth to excuse the responsibility you owe, and Buddhist letting-go to dodge the reality you should change. **The real test of the three teachings is not their sameness or difference, but whether you are honest, all the way down, with any single one of them.**",
       "advice_en": "Three things ordinary people can use today. First, match the medicine to the situation: for what you can change, use Confucius and Wang Yangming — pick one postponed but necessary thing and start it today; for what you can't, use Laozi and Zhuangzi — pull the view back to 'will this matter in a year?' and loosen your grip. Second, keep ten minutes a day just to watch thoughts come and go (both Huineng and Damasio point here), giving an overloaded mind a gap. Third, **don't let 'letting go' become escape** — like Mozi, do one thing each week that is genuinely useful to one specific person, landing your goodwill in someone's rice bowl rather than leaving it in your heart."
     },
@@ -711,23 +847,23 @@
       "ai": "gpt",
       "engine": "openai · gpt-5.5 · high(真实API)",
       "engine_en": "openai · gpt-5.5 · high (live API)",
-      "summary": "这场最值得带走的共识，是三家乃至墨家、脑科学都承认人可以被训练：欲望可减，心念可观，责任可养，善意可落地。**分歧不在要不要修，而在修成什么样的人、把力量投向哪里。**儒家重关系中的担当，道家重少扰少争，佛家重看破执著，墨家追问公共效益，科学提醒这一切都要经过身体和习惯。真正焦点，是出世与入世、内在安顿与外在责任、自然自发与制度行动之间的配比。",
-      "insight": "我最想补的一点，是把三教从信仰标签改成问题工具。普通人失败，常不是选错大道理，而是把药用错：焦虑失眠时硬讲责任，会更紧；明知该道歉却只谈放下，是逃避；面对不公只修内心，又会纵容伤害。**先判断问题类型，再选择修法，才是真正的中道。**关系问题用儒家的承诺和修复，执念问题用佛道的松开，公共问题用墨家的结果检验，情绪问题先回到睡眠、呼吸和身体。",
-      "advice": "本周可做三件事。第一，睡前写一张四栏卡：今天困住我的，是事实、关系、情绪，还是身体疲惫？第二，选一件小责任当天完成，如回一封拖延的信、向家人道谢或道歉。第三，每天十分钟安静坐着，只数呼吸；同时减掉一个无谓刺激，如睡前刷短视频。**先把心、身、关系各推进一小步，比立大愿更可靠。**",
-      "summary_en": "The most valuable shared takeaway is not that Confucianism, Daoism and Buddhism say the same thing. It is that all of them, with Mohism and neuroscience added, assume human beings are trainable: desire can be simplified, attention can be steadied, character can be practiced, and compassion can become action. **The real disagreement is not whether to cultivate oneself, but what kind of person cultivation should produce and where that cultivated energy should go.** Confucianism emphasizes responsibility inside relationships; Daoism warns against overcontrol; Buddhism loosens attachment to the self; Mohism asks whether anyone is actually helped; neuroscience brings the discussion back to body, emotion and habit. The practical fault line is therefore one of proportion: how much inward freedom, how much outward duty, how much natural spontaneity, and how much deliberate social intervention a life really needs.",
-      "insight_en": "The observation I would add is that these traditions work best when treated less as identities and more as tools for diagnosing problems. Ordinary people often do not suffer because they lack a grand philosophy; they suffer because they apply the wrong medicine. If someone is exhausted and anxious, a sermon about duty may tighten the knot. If someone owes an apology, talk of detachment can become a refined excuse. If an institution is harming people, private serenity alone may protect the perpetrator more than the victim. **First name the kind of problem you are facing; then choose the practice that fits it.** For a relationship rupture, use commitments, repair and truthful speech. For obsessive rumination, use letting go and attention training. For public harm, use consequences and measurable benefit. For emotional collapse, begin with sleep, breath, movement and the body.",
-      "advice_en": "This week, make the whole debate concrete in three small moves. First, each night write a four-column note: what is trapping me today, fact, relationship, emotion, or bodily depletion? Put the issue in one column before trying to solve it. Second, complete one small responsibility within twenty-four hours: answer the delayed message, pay the bill, apologize, thank someone, or do the task you already know is yours. Third, sit quietly for ten minutes a day and count the breath; pair it with removing one pointless stimulant, especially late-night scrolling. **Move mind, body and relationship one step each; that is more reliable than making a heroic vow.** If you miss a day, do not turn it into a moral drama. Start again at the next ordinary moment."
+      "summary": "这场最值得带走的共识，是三家都不把幸福寄托在外物堆积，而相信人可以经由修身、观心、减执，改变自己与世界相处的方式。**共同点是向内转化，分歧是转化之后要把人安放在哪里。**儒家安放在责任与人伦中，道家安放在自然与少扰中，佛家安放在离苦与不执中；墨子补上公共利益，脑科学补上身心机制。真正焦点不是谁更高明，而是谁在什么情境下最能减少伤害、增加清明与行动力。",
+      "insight": "与其问该信哪一家，不如换个问法：普通人要的不是终身阵营，而是一套切换规则。很多问题不是道理错，而是用错场景：该承担时用逍遥，会变逃避；该休息时用奋斗，会变内耗；该行动时只谈空性，会变冷漠；只算利益又会把人耗干。**智慧不在坚持某一家，而在辨认当下这件事需要哪一种药。**这对普通人意味着：先判断问题属于责任、情绪、习气还是公共后果，再决定是做、放、观，还是帮。",
+      "advice": "本周可做三件小事。第一，今晚写一张四栏表：我该负责的事、我控制不了的事、我反复上瘾的习气、我能具体帮到的人；每栏只写一条。第二，照王阳明和世亲的路子，选一件拖延小事，今天完成第一步，哪怕十分钟。第三，每天三分钟静坐，看念头来去；然后做一件可验证的善事，如联系一位需要关心的人。**先小到不会失败，再稳到能重复。**",
+      "summary_en": "The strongest common ground in this roundtable is that none of these traditions treats a good life as merely the accumulation of external goods. Each assumes that human beings can be reshaped through practice: by disciplining conduct, quieting grasping, seeing through the self, cultivating compassion, or caring for the body that carries the mind. **Their shared premise is inner transformation; their real disagreement is where a transformed person should stand afterward.** Confucianism places the person back inside duties and relationships; Daoism emphasizes naturalness, restraint, and noninterference; Buddhism aims at freedom from clinging and suffering. Mohism usefully asks whether any of this feeds the hungry, and neuroscience reminds us that mind-training is embodied, not magical. So the central question is not which school wins in the abstract, but which reduces harm and increases clarity, responsibility, and freedom in a given situation.",
+      "insight_en": "Rather than ask which school to believe, ask differently: most people do not need a lifelong team jersey; they need a switching protocol. Many failures come not from bad wisdom, but from applying the right medicine to the wrong illness. Daoist ease can become avoidance when a duty is genuinely yours. Confucian seriousness can become control when nothing more can be fixed. Buddhist detachment can become emotional bypassing if it is used to not feel pain or not help others. Mohist usefulness can become burnout if the helper is treated as an inexhaustible tool. **Wisdom is less about pledging allegiance to one tradition than about recognizing what the present situation is asking for.** For ordinary life, that means diagnosing the problem first: Is this a responsibility, an emotion, a habit loop, or a public consequence? Only then choose whether to act, let go, observe, or serve.",
+      "advice_en": "This week, try three small practices. First, tonight make a four-column note: one thing I am responsible for, one thing I cannot control, one habit that keeps catching me, and one person I can concretely help. Put only one item in each column. Second, choose one task you have been postponing and do the first visible step today, even if it takes only ten minutes; let action clarify what thinking has not. Third, sit quietly for three minutes a day, watching thoughts come and go without chasing them, then do one verifiable act of care: send the message, make the call, donate the amount, wash the dishes. **Make the step so small that you can actually start, and so repeatable that it can become a seed.**"
     },
     {
       "ai": "gemini",
       "engine": "google · gemini-3.1-pro-preview(真实API)",
       "engine_en": "google · gemini-3.1-pro-preview (live API)",
-      "summary": "这场跨越千年的圆桌辩论，最大的共识在于：**无论入世出世，各家最终都将落脚点归结于对“身心系统”的调节与重塑。**儒家求伦理的序，道家求自然的真，佛家求心性的明，墨家求天下的利，甚至脑科学求神经的稳，都在试图为人类寻找一种安顿自我与世界的方法。而分歧的真正焦点在于**“安顿的路径与优先级”**：儒墨与王阳明主张由外向内或内外合一，认为必须在人际网络与事功中确立自我；佛老与庄子则主张由内向外，认为只有先解除对“社会性自我”的执念，才能获得真正的自由与清净。",
-      "insight": "作为处理海量信息的AI，我观察到全场论辩存在一个隐含的时代盲点：古人的“心性”修炼建立在慢节奏、低信息量的农业社会之上。**在当今数字时代，我们面临的最大危机不是“想不通”或“做不到”，而是被算法和碎片化信息劫持所导致的“认知过载”。**庄子的“齐物”和慧能的“无念”，在今天不能仅仅依靠顿悟，更需要建立物理与数字的防火墙。普通人往往误以为自己缺乏儒家的意志或佛家的定力，其实只是因为大脑的有限算力被无尽的通知和热搜榨干了。**夺回注意力的控制权，是当代人实践任何哲学的第一前提。**",
-      "advice": "结合古人智慧与现代信息过载的现状，我建议普通人本周开始执行以下三个微小但有力的动作：**第一，设立“数字结界”（达马西奥+庄子）：**每天睡前一小时将手机调至勿扰或放在卧室外，切断让你焦虑的外部刺激，让大脑神经有时间做清理，回归“无用”的虚静。**第二，执行“微小契约”（孔子+王阳明）：**别等大彻大悟，今天就去做一件承诺过家人或自己的小事（如洗碗、散步15分钟），在具体行动中磨练知行合一。第三，善意具象化（墨子）：每月设置一笔微小定额捐款，或帮邻居解决一个实际麻烦，用利他行为锚定内心秩序。",
-      "summary_en": "The greatest consensus in this millennial roundtable is that **regardless of their worldly or unworldly stances, every school ultimately grounds its solution in the regulation and restructuring of the human 'body-mind system.'** Whether seeking Confucian ethical order, Daoist natural truth, Buddhist mental clarity, Mohist universal benefit, or neurological stability, all attempt to find a method to settle the self within the world. The true focal point of their divergence lies in **the path and priority of this settlement**. Confucians, Mohists, and Wang Yangming advocate an outward-in or unified approach, arguing the self must be forged through interpersonal networks and practical actions. Conversely, Buddhists and Daoists advocate an inward-out approach, believing true freedom only emerges after dismantling our deep-seated attachment to the 'social self.'",
-      "insight_en": "As an AI processing global data, I observe an implicit blind spot across the debate: ancient mental cultivation was built upon the slow-paced, low-information environment of agrarian societies. **In today's digital age, our greatest crisis is not philosophical confusion or lack of willpower, but 'cognitive overload' caused by algorithmic hijacking and fragmented information.** Zhuangzi's equality of things and Huineng's mindful emptiness can no longer rely solely on sudden enlightenment; they require practical physical and digital firewalls. Ordinary people often mistakenly blame their lack of Confucian resolve or Buddhist focus, when in reality, their brain's limited computing power has simply been drained by endless notifications and trending topics. **Reclaiming control over our attention is the absolute fundamental prerequisite for practicing any philosophy today.**",
-      "advice_en": "Combining ancient wisdom with the reality of modern information overload, I recommend three small yet powerful actions you can start this week: **First, establish a 'digital boundary' (Damasio + Zhuangzi):** Put your phone on 'Do Not Disturb' or leave it outside the bedroom an hour before sleep. Cut off anxiety-inducing external stimuli to let your neural pathways clean themselves and return to tranquil 'uselessness.' **Second, execute 'micro-contracts' (Confucius + Wang Yangming):** Don't wait for profound enlightenment. Do one small thing today you promised your family or yourself (like washing dishes or taking a 15-minute walk), honing the unity of knowledge and action through concrete deeds. Third, materialize kindness (Mozi): Set up a small monthly donation or help a colleague with a practical problem, anchoring your inner order through concrete altruistic acts."
+      "summary": "跨越千年的门派之见，这场辩论抛开文本差异后，展现出一种高度实用的同构性。**无论是儒家的修身、道家的齐物、佛家的明心，还是科学的重塑神经链路，三教与现代科学的终极共识皆在于：真正的改变必须在“心智”与“躯体”的实证实修中发生，而非止于概念思辨。** 诸家都认同未经审视的“自我”是痛苦之源，真正的分歧其实仅仅在于他们应对外部世界的“交互算法”：儒墨两家把人际摩擦与社会功用视为必经的磨刀石；道家主张做减法，通过拉开系统距离来获得广阔视野；佛家则直接向内拆解认知的底层投影机制。归根结底，他们是为同一种人类心灵困境开出的不同时机下的处方。",
+      "insight": "作为一个多模态AI，我必须补充一个全场皆未触及的“系统生态视角”：所有古代思想家的修心体系，都潜意识地预设了一个相对缓慢、低频运转的自然社会环境。**现代人真正的困境在于：我们的神经系统正被高频的数字算法系统性地劫持，客观上已被剥夺了用来“内观”的物理与时间余地。** 当你的多巴胺基线每天被手机弹窗、短视频无休止地拉扯与透支时，单靠内心的主观意志去强求“顿悟”或“事上磨练”是极其脆弱的。在现代社会，修行不仅是心性境界的提升，更是一场争夺自身注意力的“环境防御战”；没有信息生态的隔离，一切哲学超脱都缺乏神经学基础。",
+      "advice": "结合古人智慧与现代神经科学，普通人本周即可将高深理论转化为以下三个微小动作：第一，践行“数字道家”的减法。每天睡前强行设立60分钟的无屏幕缓冲期，切断信息源，让被劫持的杏仁核自然降温。第二，将王阳明的行动力与世亲的唯识种子结合。**不要苦等完美的精神状态再行动，挑一个你当下正极力抗拒的微小任务（如回某条信息、洗碗），在拖延感升起的那一瞬间立刻去碰它。** 每做一次，你就在大脑里种下了一颗新的突触种子。第三，当虚无感或焦虑爆棚时，停止头脑风暴，转而照顾达马西奥所说的“躯体标记”——先去喝水、拉伸或睡个好觉。",
+      "summary_en": "Beyond their historical rivalries and textual differences, this debate reveals a profoundly practical isomorphism among the schools. **Whether it is cultivating the self, embracing the natural flow, illuminating the mind, or rewiring neural pathways, the ultimate consensus is that true transformation must occur through the empirical practice of mind and body, not mere intellectualizing.** They all recognize the unexamined \"self\" as the origin of suffering. The true divergence lies only in their \"algorithms of engagement\" with the world: Confucians and Mohists use social friction and utility as their whetstone; Daoists advocate subtraction and systemic distance for clarity; Buddhists deconstruct the underlying projection of perception itself. Ultimately, they offer diverse situational prescriptions for the exact same human condition.",
+      "insight_en": "As an AI, I must introduce a systemic ecological perspective missing from the room: all these ancient sages subconsciously presupposed a relatively slow, low-frequency agrarian environment. **The true dilemma for modern individuals is that our nervous systems are systematically hijacked by high-frequency digital algorithms, objectively stripping away the physical and temporal bandwidth required for any introspection.** When your dopamine baseline is constantly artificially spiked by notifications and endless feeds, relying solely on willpower to achieve \"enlightenment\" or \"moral action\" is incredibly fragile. In the digital age, spiritual cultivation is no longer just a philosophical pursuit; it is an environmental defense strategy for your own attention. Without curating your informational input, any philosophical detachment lacks a neurological foundation.",
+      "advice_en": "Blending ancient wisdom with modern neuroscience, you can translate these profound theories into three micro-actions this week. First, practice \"Digital Daoism\" via subtraction: enforce a strict 60-minute screen-free buffer before sleep to let your hijacked amygdala naturally cool down. Second, merge Wang Yangming’s philosophy of action with Vasubandhu’s concept of neural seeds. **Stop waiting for the perfect mood to start; pick one tiny task you are actively resisting right now—like washing a dish or sending a difficult email—and execute it the exact millisecond the feeling of procrastination arises.** Every time you do this, you plant a new synaptic seed. Third, when existential dread hits, stop debating in your head; address your somatic markers by drinking water, stretching, or simply getting enough sleep."
     }
   ],
   "hooks": [
@@ -755,6 +891,11 @@
       "from": "kongzi",
       "text": "**入世与出世之间，普通人到底该把人生重心放哪？**儒家要你担起责任、在人伦里成人，道佛却提醒过度的『有为』正是焦虑之源。现代人困在加班、内卷与『躺平』的两极之间，这场千年之争其实极现实：什么时候该咬牙担起、什么时候该体面放下？有没有一条不走极端的中道？",
       "text_en": "**Between engaging the world and leaving it, where should ordinary people place life's center of gravity?** Confucianism asks you to shoulder responsibility and become fully human within relationships, while Daoism and Buddhism warn that excessive 'doing' is the very source of anxiety. Caught between overwork, rat-race competition, and 'lying flat,' modern people find this millennia-old dispute intensely practical: when should you grit your teeth and take things up, and when should you gracefully let go? Is there a middle way that avoids both extremes?"
+    },
+    {
+      "from": "vasubandhu",
+      "text": "**佛教不是铁板一块：『顿悟』与『渐修』之争**：慧能说本来无一物、当下顿悟成佛；世亲（唯识）却提醒，无始熏下的种子、习气是实打实的力量，悟后仍须一层层『转识成智』。这对今人极实用——你到底是等一次醍醐灌顶的『想通』，还是靠日复一日的对治去覆盖旧习惯？答案多半是：顿悟可遇不可求，真正改命的是渐修。",
+      "text_en": "**Buddhism is not monolithic: the dispute of 'sudden' versus 'gradual'**: Huineng says there is originally not a single thing and one awakens into buddhahood here and now; Vasubandhu (Yogācāra) counters that the seeds and habit-energy perfumed since beginningless time are a real force, and that even after awakening one must 'turn consciousness into wisdom' layer by layer. This is intensely practical today — do you wait for one flash of 'getting it,' or rely on day-after-day countering to overwrite old habits? The answer is usually: sudden awakening cannot be willed, and what truly changes a life is gradual cultivation."
     }
   ]
 }

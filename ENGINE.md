@@ -28,6 +28,7 @@
   - `vernacular`：仅 `classical:true` 的思想家、且发言是文言时，给**整段白话**；否则 `null`。
   - `glossary`：`{ "术语":"定义" }`，把专业术语/外来概念收进来（术语须原样出现在 `text` 里）；**中文术语的定义必须以英文开头**（统一 `英文（中文）：定义`，如 "alienation（异化）：…"、"der letzte Mensch（末人）：…"）——别把英文埋在句中或漏掉；本身是外文/希腊/梵文的（eudaimonia、ataraxia、PERMA、ālaya-vijñāna）已是英文，照常放开头。
   - **双语 `_en`（必填）**：`text_en` 给地道英译；`glossary_en` 是 `{ 英文术语: 英文定义 }`（术语须原样出现在 `text_en` 里）；古文帖的 `vernacular_en` 设为 `""`（空串，英文正文本就是白话、不再显「plain」徽标）。
+  - **重点加粗**：每帖把**最关键的一句话/核心论点**用 `**…**` 包起来（Markdown 粗体语法），前端渲染成黑体高亮（纯白加粗）。**克制**——每帖通常 1 句、至多 2 处，别整段加粗（满屏加粗＝没有重点）。`text` 与 `text_en` 都要标；`**` 必须成对闭合、别从中间切断 glossary 术语。古文 `text`（文言）一般不加粗，把重点标在它的 `vernacular` 白话里。
   - `reactions`：其他在场者各从 6 级表态里投至多一种 `{强烈赞同/轻微赞同/中立/轻微反对/强烈反对/疑惑}`→reactor id 列表，只留非空档。reactor 必须是本场参与者。
 
 ## 3. 三方 AI 收尾（每场必有）
@@ -36,6 +37,7 @@
 - **`insight` 别套同一种批判**：给一条这场最该说的、与全场不同的观察（被忽略的角度／一个反例／更好的重构／普通人会反驳处／务实纠偏皆可）；**别每次都做『太抽象/太文本/太精英化』的框架批判**——那是 prompt 容易诱发的套路，挑真正最该说的。
 - **`advice`**：结合综述与洞察，给 2~3 条当天/本周就能上手的具体行动；可点名援引本场某位思想家最实用的建议，也可补自己的。
 - **别泄漏生成过程**：summary / insight / advice 里不要出现「这一版 / 之前的版本 / this version / had been missing」等元信息。
+- **重点加粗**：`summary`/`insight`/`advice`（及 `_en`）也支持 `**…**` 粗体——每段克制地把**关键结论**标一处，前端会渲染成黑体高亮。`summarize-external.mjs` 的 GPT/Gemini prompt 也已要求这样做。
 - `claude`：你亲自写，`engine:"Opus 4.8 · 订阅(原生)"`／`engine_en:"Opus 4.8 · subscription (native)"`；`summary`/`insight`/`advice` 三段都要写（含 `_en`）。**每段中文 150–250 字**——与 GPT/Gemini 同一区间，别写长（你目测数不准字数，写完务必跑 `validate.py` 核，超 250 必须删；英文随中文自然长度即可）。
 - `gpt`/`gemini`：先写降级占位（`engine:"降级:Opus 扮演(未配 KEY)"`／`engine_en:"fallback: Opus role-play (no key)"`，连同 `summary_en`/`insight_en`/`advice`/`advice_en`）。**然后运行 `node summarize-external.mjs debates/<slug>.json`**——若仓库有 `.env`（含 `OPENAI_API_KEY`/`GEMINI_API_KEY`）就会升级为真实 gpt-5.5(high)/gemini-3.1-pro-preview（连 advice 一并产出）；拿不到 key 就保持降级，**辩论照样完整**。它俩 `insight` 给与 Claude 不同的独到观察即可（脚本 prompt 已去掉「专挑 Claude 盲点」的诱导，避免每次都套同一种框架批判）。
 

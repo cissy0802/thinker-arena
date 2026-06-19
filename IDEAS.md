@@ -53,6 +53,10 @@
 - [ ] 家中老人病重、靠插管维持近乎植物人的状态，作为子女，该不该撤管放手？  <!--withdraw-life-support-->
 - [ ] 企业用人，该「以德为先」还是「以才为先」？  <!--virtue-vs-talent-->
 - [ ] 下属能力或动力不足，领导该花时间 coaching，还是果断 manage out？  <!--coach-or-manage-out-->
+- [ ] 「你眼中的别人不是别人，你眼中的自己不是自己，你眼中的别人才是自己」——这话有道理吗？  <!--seeing-others-is-self-->
+- [ ] 我们应该永远诚实，还是可以说出善意的谎言？  <!--white-lies-->
+- [ ] 普通人投资，该买大盘指数，还是买自己拿着放心的个股？  <!--index-or-stock-picking-->
+- [ ] 「爱」与「被爱」，哪一种更幸福？  <!--loving-vs-being-loved-->
 
 ---
 

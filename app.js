@@ -25,6 +25,10 @@
       return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
     });
   }
+  // 把已转义文本里的 **加粗** 标记渲染成 <strong>；* 不被 esc 转义，故标记完整保留
+  function mdBold(s) {
+    return String(s == null ? "" : s).replace(/\*\*([^*]+?)\*\*/g, "<strong>$1</strong>");
+  }
   function tk(id) { return THINKERS[id] || { name: id, name_en: id, char: "?", color: "#888", fg: "#fff", school: "" }; }
   function nameOf(c) { return pick(c, "name"); }
   function glyph(card) { return (LANG === "en" && card.char_en) ? card.char_en : card.char; }
@@ -102,13 +106,13 @@
     var vern = pick(post, "vernacular");
     if (vern) {
       return '<div class="htext" role="button" tabindex="0">' +
-        '<span class="text">' + esc(pick(post, "text")) +
+        '<span class="text">' + mdBold(esc(pick(post, "text"))) +
         '<span class="badge-cls"><i class="ti ti-language" style="font-size:12px"></i>' + T("plainBadge") + "</span></span>" +
         '<span class="tip">' +
         '<span class="badge-bai" style="background:' + c.color + ';color:' + c.fg + '">' + T("plainLabel") + "</span>" +
-        '<span class="bai">' + esc(vern) + "</span></span></div>";
+        '<span class="bai">' + mdBold(esc(vern)) + "</span></span></div>";
     }
-    return '<div class="text">' + applyGlossary(pick(post, "text"), pick(post, "glossary")) + "</div>";
+    return '<div class="text">' + mdBold(applyGlossary(pick(post, "text"), pick(post, "glossary"))) + "</div>";
   }
 
   function postAvatar(card) {
@@ -160,11 +164,11 @@
         '<div><div class="nm" style="color:' + c.color + '">' + esc(nameOf(c)) + "</div>" +
         '<div class="eng">' + esc(pick(s, "engine") || "") + "</div></div></div>" +
         '<div class="sec-lbl"><i class="ti ti-list" style="font-size:14px"></i>' + T("summary") + "</div>" +
-        '<div class="sec-txt">' + esc(pick(s, "summary")) + "</div>" +
+        '<div class="sec-txt">' + mdBold(esc(pick(s, "summary"))) + "</div>" +
         '<div class="sec-lbl" style="margin-top:12px"><i class="ti ti-bulb" style="font-size:14px"></i>' + T("insight") + "</div>" +
-        '<div class="sec-txt">' + esc(pick(s, "insight")) + "</div>" +
+        '<div class="sec-txt">' + mdBold(esc(pick(s, "insight"))) + "</div>" +
         (pick(s, "advice") ? '<div class="sec-lbl" style="margin-top:12px"><i class="ti ti-checklist" style="font-size:14px"></i>' + T("advice") + "</div>" +
-          '<div class="sec-txt">' + esc(pick(s, "advice")) + "</div>" : "") +
+          '<div class="sec-txt">' + mdBold(esc(pick(s, "advice"))) + "</div>" : "") +
         "</div>";
     }).join("");
     return '<div class="summaries"><div class="sum-head"><span class="ln"></span>' +

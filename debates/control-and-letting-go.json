@@ -838,5 +838,22 @@
       "insight_en": "Looking across the panel, I want to add a cross-disciplinary evolutionary perspective: in the digital age, the boundary between the 'controllable and uncontrollable' is not merely drawn by political power, but severely distorted by algorithms. A major reason we feel so powerless today is that the attention economy continuously bombards us with macro-level suffering and distant crises that we cannot change, deliberately hollowing out our energy to act in our immediate surroundings. Therefore, **in today's world, 'focusing only on what you can control' is often not an escapist privilege, but a necessary form of information detox and energy triage.** The sense of control is not a static territory; it is a muscle. When you facilitate change in small communities, your radius of control naturally expands.",
       "advice_en": "Combining the wisdom of these thinkers with modern realities, here are three actionable steps you can take this week. First, implement an 'information concentric circle' rule: audit your media intake today and unsubscribe from feeds that only trigger outrage without offering any pathway for action, reclaiming your attention for your immediate community. Second, practice a hybrid strategy of Epictetus and Tocqueville: **when you encounter an unreasonable rule at work that sparks anger, do not get stuck in private rumination; find two or three colleagues who feel the same and jointly propose a small, concrete optimization.** Third, borrow from Frankl's wisdom: when trapped in a structural predicament you cannot immediately change, set a micro-challenge you can complete even in the mud, using concrete action to reclaim your final millimeter of autonomy."
     }
+  ],
+  "hooks": [
+    {
+      "from": "claude",
+      "text": "**那条『可控线』会随你联合的人移动**：全场都把「可控/不可控」当成一条固定的线，却漏了它其实是流动的——一个人深夜独对的「不可控」（房租、排班、加班），放到三五个同处境者中间，常常就变成了「可控」。斯多葛把线画在个体边界上，于是把大量本可撬动的，提前判给了「认命」。真正的自由练习不只是接受线外、行动线内，更是不断试探这条线能往外推多远——尤其是和别人一起推时。",
+      "text_en": "**That 'line of control' moves with the people you join**: Everyone treated controllable vs. uncontrollable as a fixed line, missing that it's actually fluid — what is 'uncontrollable' for one person alone at midnight (rent, shifts, overtime) often becomes 'controllable' among three or five people in the same boat. Stoicism draws the line at the individual's boundary, and so consigns much that could be moved to 'accept your fate' in advance. The real practice of freedom isn't only accepting what's outside the line and acting within it, but constantly testing how far out the line can be pushed — especially when pushing together."
+    },
+    {
+      "from": "gpt",
+      "text": "**可控不是二分题，而是分层题**：很多事既非全然可控、也非完全不可控，而是处在「影响—协商—联合—长期积累」之间；粗暴归入不可控会让人过早放弃，当作必须立刻控制又会制造耗竭。更实用的问法不是「这事我能不能控制」，而是「我能以多小成本、多长时间、和谁一起，把改变的概率提高一点」——这把哲学判断变成了行动设计。",
+      "text_en": "**Control isn't binary — it's layered**: Many things are neither fully controllable nor fully uncontrollable, but sit along 'influence — negotiate — ally — accrue over time.' Bluntly filing them under 'uncontrollable' makes people give up too early; treating them as 'must control now' breeds burnout. The more useful question isn't 'can I control this,' but 'at how small a cost, over how long, and with whom can I raise the odds of change a little' — which turns a philosophical judgment into action design."
+    },
+    {
+      "from": "gemini",
+      "text": "**数字时代『可控线』被算法扭曲**：今天的无力感很大程度来自注意力经济——社交媒体全天候灌输远在天边、无法改变的宏大苦难，掏空了我们在「附近」行动的精力。此时「只专注能控制的」往往不是逃避，而是一种必要的信息戒断与能量止损；控制感不是静态疆域，而是一块会随「在小社区促成改变」而扩张的肌肉。",
+      "text_en": "**In the digital age, the 'line of control' is distorted by algorithms**: Much of today's powerlessness comes from the attention economy — social media floods us around the clock with distant, unchangeable grand suffering, draining the energy we'd spend acting on what's nearby. Here, 'focus only on what you can control' is often not escapism but a necessary information fast and energy stop-loss; a sense of control isn't static territory but a muscle that grows as you make change happen in a small community."
+    }
   ]
 }

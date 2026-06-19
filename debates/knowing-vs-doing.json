@@ -896,5 +896,27 @@
       "insight_en": "As an AI processing massive amounts of data, I observe a modern pathology entirely overlooked by the panel: the phenomenon of \"Information Compensation\" masquerading as true knowledge. Modern individuals often believe they \"know\" they should exercise or sleep early, but in reality, they are merely consuming content about these habits. When you watch a fitness tutorial or bookmark a productivity guide, your brain releases dopamine, generating a false sense of accomplishment as if you have already solved the problem. This neurological trick doesn't spur action; it actually depletes the very drive needed for behavioral change. People confuse the thrill of acquiring information with the hard work of taking action. The gap between knowing and doing often exists because endlessly consuming \"know-how\" has become the perfect excuse to avoid actual \"doing.\" To bridge this gap, the vital first step is to completely stop ingesting methodologies.",
       "advice_en": "Drawing from the panel's wisdom and my understanding of human behavioral patterns, here are three actionable steps you can take this week: First, stop information compensation immediately. Cease searching for or saving content on \"how to be disciplined.\" When anxiety hits, borrow the wisdom of Buddha and Zhuangzi: simply observe the feeling without fighting it, allowing yourself to be imperfect without internal friction. Second, create physical hard-stops, applying Thaler's commitment devices. Install a timer plug for your Wi-Fi router to cut the connection exactly at 11:00 PM, and leave your phone charger in the living room. Make breaking your own rules physically exhausting. Third, defend your context boundaries, practicing Wood's environmental automation. If you absolutely must stay up late scrolling, do it sitting on a hard chair in the living room, never in bed. Strictly wire the physical space of your bed exclusively to the act of sleeping."
     }
+  ],
+  "hooks": [
+    {
+      "from": "claude",
+      "text": "**把『知行之沟』错放在了诱惑当口**：全场都默认胜负在晚上十一点、手机在手的那几秒，于是在最软弱的时刻拼命加意志。其实真正的杠杆在几小时前你还清醒时——决定今晚刷不刷的，往往不是十一点的意志，而是晚八点你把充电器放在了哪。多数「意志失败」其实是「安排失败」被错记到了最难的关口。务实纠偏：把决定往上游搬，搬到你还是有远见的「计划者」、而非深夜失控的「行动者」之时。",
+      "text_en": "**We put the 'knowing-doing gap' at the moment of temptation**: Everyone assumed the battle is won or lost at 11 p.m. with the phone in hand, so we pile on willpower at our weakest moment. The real lever is hours earlier, while you're still clear-headed — what decides tonight's scrolling is often not the 11 p.m. willpower but where you put the charger at 8 p.m. Most 'willpower failures' are really 'setup failures' misfiled at the hardest checkpoint. Practical fix: move the decision upstream, to when you're still the far-sighted 'planner,' not the late-night, out-of-control 'actor.'"
+    },
+    {
+      "from": "gpt",
+      "text": "**目标被写在大脑无法执行的粒度上**：「早睡/锻炼/少刷手机」都是价值判断或结果标签，不是一个可启动的动作；人在疲惫时不执行抽象理念，只顺着眼前最清楚、最省力的下一步走。知行差距常常就是「抽象愿望」与「可执行指令」之间的差距——把目标翻译成具体到场景的微动作（几点、在哪、第一步做什么、遇阻怎么办），比再强化「我要自律」有用。",
+      "text_en": "**The goal is written at a grain the brain can't execute**: 'Sleep early / exercise / scroll less' are value judgments or outcome labels, not a startable action; when tired, people don't execute abstract ideals — they follow the clearest, lowest-effort next step in front of them. The knowing-doing gap is often the gap between an 'abstract wish' and an 'executable instruction.' Translating a goal into a scene-specific micro-action (what time, where, the first step, what to do if blocked) beats reinforcing 'I must be disciplined.'"
+    },
+    {
+      "from": "gemini",
+      "text": "**『信息代偿』正伪装成真正的『知道』**：现代人以为自己知道该早睡锻炼，其实常只是在网上消费了相关干货——看健身视频、收藏自律指南时大脑同样分泌多巴胺，制造「我正在解决问题」的虚假成就感，反而提前透支了改变所需的内驱力。过度消费「知道」，本身成了逃避「做到」的完美借口。",
+      "text_en": "**'Information substitution' disguises itself as real 'knowing'**: Moderns think they know they should sleep early and exercise, but often they've merely consumed related content online — watching fitness videos or bookmarking discipline guides releases dopamine too, manufacturing a false sense of 'I'm solving the problem' that pre-spends the drive change requires. Over-consuming 'knowing' becomes the perfect excuse to avoid 'doing.'"
+    },
+    {
+      "from": "gemini",
+      "text": "**被全场漏掉的身体维度**：诸位多把知行之沟当心智/意志之事，少有人点出它常先是生理的——蓝光压褪黑素、白天久坐没耗够体力、咖啡因半衰期未过、慢性压力让皮质醇高居。跨越鸿沟有时不在心理加力，而在身体松绑：调光照、动起来、管住咖啡因与进食时点，让生理先到位，「做到」会忽然不费力。",
+      "text_en": "**The bodily dimension the whole room missed**: Most treated the knowing-doing gap as a matter of mind and will; few noted it's often physiological first — blue light suppresses melatonin, a sedentary day leaves energy unspent, caffeine's half-life hasn't passed, chronic stress keeps cortisol high. Crossing the gap is sometimes less about adding mental force than about releasing the body: fix the lighting, move, rein in caffeine and meal timing — get the physiology in place first, and 'doing' suddenly becomes effortless."
+    }
   ]
 }

@@ -81,6 +81,19 @@ def main(path):
         if miss:
             errs.append(f"第{r}轮缺席: {miss}")
 
+    # 本场钩子（前端渲染的双语延伸角度）：缺失仅 WARN；若有，逐条校验 from/text/text_en
+    hooks = d.get("hooks")
+    if not hooks:
+        warns.append("缺 hooks（三方 AI 留下的延伸钩子，前端「延伸 · 本场留下的钩子」会空着）")
+    else:
+        for i, h in enumerate(hooks):
+            frm = h.get("from")
+            if frm not in th:
+                errs.append(f"hooks[{i}] from 不在 thinkers.json: {frm}")
+            for k in ("text", "text_en"):
+                if not h.get(k):
+                    errs.append(f"hooks[{i}] 缺 {k}")
+
     ais = {s["ai"] for s in d["summaries"]}
     if ais != {"claude", "gpt", "gemini"}:
         errs.append(f"summaries 的 ai 应为 claude/gpt/gemini，实为 {ais}")

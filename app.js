@@ -8,11 +8,13 @@
       stance: "本场立场", viewProfile: "点击看完整介绍 →", allProfiles: "全部人物图鉴", plainBadge: "悬停看白话",
       plainLabel: "白话", opening: "各陈己见", rebuttal: "交锋反驳", closing: "总结陈词", roundWord: "第 %N 轮",
       members: "位", chanTitle: "圆桌辩论", docTitle: "思想家圆桌辩论",
+      hooks: "延伸 · 本场留下的钩子", hooksSub: "三方 AI 在辩论之外看见、本场未及展开的角度",
       railServers: "服务器", backToTopics: "返回议题列表", allTopics: "全部议题" },
     en: { topic: "Topic", net: "Net", aiPanel: "AI panel", summary: "Summary", insight: "Insight", advice: "What to actually do",
       stance: "Stance in this debate", viewProfile: "View full profile →", allProfiles: "All thinkers", plainBadge: "plain reading",
       plainLabel: "Plain", opening: "Opening statements", rebuttal: "Rebuttal", closing: "Closing statements", roundWord: "Round %N",
       members: "", chanTitle: "round-table", docTitle: "Thinkers' Round Table",
+      hooks: "Open threads · where this debate points next", hooksSub: "Angles the three AIs saw beyond the room — left for next time",
       railServers: "Servers", backToTopics: "Back to topics", allTopics: "All topics" }
   };
   function T(k) { return UI[LANG][k]; }
@@ -176,6 +178,21 @@
       '<span class="ln"></span></div><div class="sum-grid">' + cards + "</div></div>";
   }
 
+  function renderHooks(hooks) {
+    if (!hooks || !hooks.length) return "";
+    var items = hooks.map(function (h) {
+      var c = tk(h.from);
+      return '<div class="hook"><div class="hook-who">' + avatar(c, 26) +
+        '<span class="nm" style="color:' + c.color + '">' + esc(nameOf(c)) + "</span></div>" +
+        '<div class="hook-txt">' + mdBold(esc(pick(h, "text"))) + "</div></div>";
+    }).join("");
+    return '<div class="hooks"><div class="sum-head"><span class="ln"></span>' +
+      '<span class="lbl"><i class="ti ti-bulb" style="font-size:16px"></i>' + T("hooks") + "</span>" +
+      '<span class="ln"></span></div>' +
+      '<div class="hooks-sub">' + esc(T("hooksSub")) + "</div>" +
+      '<div class="hooks-list">' + items + "</div></div>";
+  }
+
   function renderDebate(debate) {
     window.__POSTS = {};
     debate.posts.forEach(function (p) { window.__POSTS[p.id] = p; });
@@ -196,6 +213,7 @@
       html += renderPost(p, maxR);
     });
     html += renderSummaries(debate.summaries);
+    html += renderHooks(debate.hooks);
     document.getElementById("thread").innerHTML = html;
     setHeader(debate);
     attachInteractions();

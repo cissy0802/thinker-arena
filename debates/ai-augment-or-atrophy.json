@@ -847,5 +847,27 @@
       "insight_en": "As a multimodal AI, I must introduce a critical missing piece to this debate: the irreplaceable nature of Embodied Cognition. The panelists, while profound, largely fixate on the 'mind' space—text, symbols, and pure logic. However, human intelligence resides not just in neural circuits or abstract consciousness, but in the tactile feedback of fingertips, muscle memory, and complex physical interactions. What algorithms currently excel at replacing is disembodied symbol processing. The ultimate defense against cognitive degradation isn't just outsmarting AI in cyberspace; it is actively anchoring ourselves in the physical, three-dimensional world. When you repair a tangible object, engage in a physical sport, or read nuanced body language in a face-to-face conversation, you are utilizing physical common sense and embodied intuition—areas where AI remains profoundly impoverished. Whether we are enhanced or degraded depends heavily on how much time we spend grounded in the resistance of our physical bodies.",
       "advice_en": "Integrating these insights with the panelists' wisdom, here are three actionable steps you can implement this week: First, 'Draft First, Outsource Second' (echoing Turing and Naval). Whether writing an email or planning a project, force yourself to spend five minutes jotting down your raw intuition and framework before opening an AI tool for refinement. Protect your 'cold start' cognitive muscles at all costs. Second, establish 'Physical Disconnect Zones' (combining embodied cognition with Heidegger). Dedicate at least two hours a week to high-friction physical reality—cooking, woodworking, gardening, or device-free hiking. Use the multisensory, tangible resistance of the real world to reset the shallow attention span conditioned by frictionless algorithms. Third, beware of 'extreme comfort' (inspired by Harari). Whenever an AI's answer or an algorithm's recommendation feels entirely aligned with your preferences, actively search for the exact opposite perspective to manually disrupt the perfect echo chamber built around you."
     }
+  ],
+  "hooks": [
+    {
+      "from": "claude",
+      "text": "**增强与退化会脱钩**：两者被默认为同一根轴的两端（此消彼长），其实分属不同层面——你可能「产出」被极大增强、却在「能力」上悄悄退化。最危险的是「带辅助轮的高表现」：业绩亮眼掩盖了底子掏空。该监控的不是「我用不用 AI」，而是「把工具拿走，我还剩多少」——只能靠定期裸跑自测。",
+      "text_en": "**Augmentation and atrophy come apart**: The two were assumed to be ends of one axis (one rises as the other falls), but they belong to different layers — your 'output' can be hugely augmented while your 'ability' quietly atrophies. The most dangerous case is 'high performance on training wheels': shiny results masking a hollowed-out foundation. What to monitor isn't 'do I use AI,' but 'with the tool taken away, how much is left' — knowable only by periodic unaided self-tests."
+    },
+    {
+      "from": "gpt",
+      "text": "**自律的阶级盲点**：辩论默认人人有余裕去自律、裸跑、纸质深读，低估了约束的不均等；对打零工、长通勤、用手机管全家的人，这些不是不想做而是没带宽。把脱困押在个人纪律上＝把系统失败记到个人账上——该把「默认设置」当公共问题：争取产品默认无害，胜过要求人人修成意志力。",
+      "text_en": "**The class blind spot of 'self-discipline'**: The debate assumed everyone has the latitude to self-discipline, go unaided, and do deep reading on paper, underrating the inequality of constraints; for those working gigs, commuting long hours, and running a whole family from a phone, these aren't unwillingness but a lack of bandwidth. Pinning the way out on personal discipline charges the system's failure to the individual's account — treat 'defaults' as a public problem: getting products to default to harmless beats demanding everyone forge iron willpower."
+    },
+    {
+      "from": "gemini",
+      "text": "**集体认知的同质化**：全场把「退化」想成个体的事（我的记忆/判断/阅读脑），漏了更深的风险——数十亿人问同几个模型、被同样措辞补全，思想生态的多样性坍缩；叠加「模型坍缩」（模型学模型生成的内容），人类原创的源头活水被稀释。除向内守护判断，更要向外刻意保育多样性（不同模型/语言/立场、读 AI 普及前的原典）。",
+      "text_en": "**The homogenization of collective cognition**: The room imagined 'atrophy' as an individual matter (my memory/judgment/reading brain), missing a deeper risk — billions querying the same few models, completed in the same phrasings, collapse the diversity of the intellectual ecosystem; add 'model collapse' (models trained on model-generated content) and the wellspring of human originality is diluted. Beyond guarding judgment inward, we must deliberately cultivate diversity outward (different models/languages/stances, reading source texts from before AI went mainstream)."
+    },
+    {
+      "from": "wolf",
+      "text": "**阅读脑的发育顺序**：先有内功、工具才是延伸；没内功就上工具，工具就成替代。关键不是「要不要用 AI」，而是「几岁、以什么顺序用」——儿童阅读脑成形前应优先纸本、限制速览喂养。",
+      "text_en": "**The developmental order of the reading brain**: Build the inner capacity first, and tools become an extension; add tools before the capacity is there, and the tool becomes a replacement. The key isn't 'whether to use AI,' but 'at what age and in what order' — before a child's reading brain has formed, prioritize print and limit a diet of skimming."
+    }
   ]
 }

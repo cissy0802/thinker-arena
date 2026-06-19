@@ -184,9 +184,19 @@ html, body {
 .sum-card .sec-lbl { font-size: 11px; color: var(--txt-muted); margin: 8px 0 4px; display: flex; align-items: center; gap: 5px; }
 .sum-card .sec-txt { font-size: 14px; line-height: 1.6; color: var(--txt); }
 
+/* 本场留下的钩子（三方 AI 在辩论之外看见的延伸角度） */
+.hooks { margin: 26px 8px 8px; }
+.hooks-sub { color: var(--txt-muted); font-size: 12px; text-align: center; margin: -4px 0 14px; }
+.hooks-list { display: grid; grid-template-columns: 1fr; gap: 10px; }
+@media (min-width: 760px) { .hooks-list { grid-template-columns: repeat(2, 1fr); } }
+.hook { background: var(--bg-card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; }
+.hook-who { display: flex; align-items: center; gap: 8px; margin-bottom: 7px; }
+.hook-who .nm { font-size: 14px; font-weight: 500; }
+.hook-txt { font-size: 14px; line-height: 1.6; color: var(--txt); }
+
 .err { color: var(--txt-muted); padding: 40px 24px; max-width: 620px; margin: 0 auto; line-height: 1.7; }
 .err code { background: var(--bg-pill); padding: 2px 6px; border-radius: 4px; color: #fff; }
 .ti { line-height: 1; }
 /* **重点** → <strong>：暗色主题下用纯白 + 加粗让重点跳出来 */
-.text strong, .bai strong, .sec-txt strong { font-weight: 700; color: #fff; }
+.text strong, .bai strong, .sec-txt strong, .hook-txt strong { font-weight: 700; color: #fff; }
 @media (max-width: 600px) { .rail { display: none; } .thread { padding: 6px 4px 40px; } }

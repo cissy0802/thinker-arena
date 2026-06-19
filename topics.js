@@ -78,11 +78,21 @@
         var members = debates.filter(function (d) { return (d.cat || "other") === cat.key; });
         if (!members.length) return;
         members.sort(function (a, b) { return b.__n - a.__n; }); // 最新场在前
-        html += '<div class="cat-head"><span class="cat-name">' + esc(catLabel(cat)) +
-          '</span><span class="cat-count">' + members.length + "</span></div>";
-        html += members.map(card).join("");
+        html += '<div class="cat-sec">' +
+          '<button class="cat-head" type="button" aria-expanded="false">' +
+          '<i class="ti ti-chevron-right chev"></i>' +
+          '<span class="cat-name">' + esc(catLabel(cat)) + "</span>" +
+          '<span class="cat-count">' + members.length + "</span></button>" +
+          '<div class="cat-body">' + members.map(card).join("") + "</div></div>";
       });
       document.getElementById("list").innerHTML = html;
+      // 每个主题可折叠（默认收起，点表头展开）——议题多了不必一直往下滑
+      document.querySelectorAll(".cat-sec .cat-head").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          var open = btn.parentNode.classList.toggle("open");
+          btn.setAttribute("aria-expanded", open ? "true" : "false");
+        });
+      });
     })
     .catch(function (e) {
       document.getElementById("list").innerHTML =

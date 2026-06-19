@@ -18,6 +18,11 @@ import json, re, sys
 
 LO, HI = 150, 250
 RT = {"强烈赞同", "轻微赞同", "中立", "轻微反对", "强烈反对", "疑惑"}
+# 人物图鉴绝不该出现的「绑定本场议题」元语言（图鉴要通用、对本场盲）
+PROFILE_BIND_HARD = ["本题", "本场", "本议题", "这一议题", "这场辩论", "这道辩题", "该议题",
+                     "针对本题", "回应本题", "这一框架直击",
+                     "this debate", "the question at hand", "the topic at hand", "this very question"]
+PROFILE_BIND_SOFT = ["正好回应", "恰好回应", "正呼应", "恰呼应", "正契合", "恰契合", "正回应本场"]
 
 def cn(s):
     return len(re.findall(r"[一-鿿]", s or ""))
@@ -46,6 +51,14 @@ def main(path):
             for k in ("bio", "ideas", "assessments", "quotes", "works", "lineage", "trivia"):
                 if k not in prof[p] or (k + "_en") not in prof[p]:
                     errs.append(f"profile {p} 缺 {k}/{k}_en")
+            # 图鉴必须「对本场议题盲」：绝不能出现绑定本场的元语言（通用可复用）
+            blob = json.dumps(prof[p], ensure_ascii=False)
+            for w in PROFILE_BIND_HARD:
+                if w in blob:
+                    errs.append(f"profile {p} 含绑定本场的元语言『{w}』——图鉴要通用可复用，删掉")
+            for w in PROFILE_BIND_SOFT:
+                if w in blob:
+                    warns.append(f"profile {p} 疑似贴题语『{w}』——确认不是在硬蹭本场议题")
 
     rounds = {}
     for p in d["posts"]:

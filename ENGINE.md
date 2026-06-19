@@ -48,7 +48,7 @@
 ## 4. 写文件 + 登记 + 校验
 - 写 `debates/<slug>.json`（顶层含 `question`+`question_en`；`casting[]` 每人含 `reason`+`reason_en`）。
 - 在 `debates/index.json` 的 `debates` 数组**追加一条** `{id, question, question_en, date(今天 UTC), participants}`。
-- **补人物图鉴**：把第 1 步为新人写的 `profiles.json` 条目落盘（每位选角都要在 `profiles.json` 里有条目，含全套 `_en`）。
+- **补人物图鉴**：把第 1 步为新人写的 `profiles.json` 条目落盘（每位选角都要在 `profiles.json` 里有条目，含全套 `_en`）。**落盘后跑 `python3 profile_audit.py debates/<slug>.json`**：它按『贴题命中数』给本场每位图鉴排序，照出最沾本场议题词的几位。对命中高的逐一复核——那词若是此人**一生最核心**的思想/名言（如黄仁勋的扁平组织、亚里士多德的 eudaimonia）就留；若只是为呼应本场才挑的料，**换成换个议题也成立的代表作**。（`validate.py` 另会**硬卡**图鉴里『本题/本场/这场辩论/this debate』这类绑定本场的元语言。）
 - 若议题来自 `IDEAS.md`「议题清单」，把那行勾成 `- [x]` 标日期；若来自顶部「下一场」行，删掉该行。
 - **维护 `ideas.json`（投票数据）**（注：候选以 `IDEAS.md` 为人手编辑源、每行尾带隐形 `<!--id-->`；`sync_ideas.py`（GitHub Action 在 IDEAS.md 改动时自动跑）会把 IDEAS.md 候选刷进 `ideas.json`，按 id 保住票/英文/副标题。你两边都改、保持一致即可；**新候选务必在 IDEAS.md 行尾加 `<!--id-->`，并在 `ideas.json` 补 `q_en`/`note`/`note_en` 和 `cat`**（`cat`＝投票页主题分组的语言无关键，取 `work`(职场·组织·领导)/`self`(处世·自我·成长)/`life`(人生·生死·家庭)/`ethics`(伦理·政治·社会)/`meta`(形而上·认识·文明) 里最贴的一个，拿不准用 `other`；标签文案在 `ideas.js` 的 `CATS`，不必另存中英文））：① 把本场议题从 `candidates` 移到 `debated`（带 `q`/`q_en`/`date`）；② 用第 0 步查到的**净票（👍−👎）**回写其余 `candidates[].votes`；③ **读观众提案**——标题为 `open-questions` 的讨论（观众在「提个新议题」里提的）+ 各候选讨论里的评论，把**好的新议题/新角度**提炼成新 `candidates`（`id`+`q`+`q_en`，votes:0），并同步加到 `IDEAS.md` 候选清单——这就是「好评论/提案收录进灵感库」。
 - **把本场钩子写进辩论 JSON（前端会渲染）**：在 `debates/<slug>.json` 顶层加一个 `hooks` 数组，每条 `{ "from":"<id>", "text":"**标题**：正文", "text_en":"**Title**: body" }`——`from` 是提出者 id（`claude`/`gpt`/`gemini`，或某位在场思想家如 `wolf`，须在 `thinkers.json` 有卡）；`text`/`text_en` 双语必填、用 `**…**` 把小标题加粗；**写给读者看，去掉「暂存钩子/不另立候选/已据此另立候选」这类后台维护备注**（那些只留在 IDEAS.md）。前端在三方 AI 收尾下方按「延伸 · 本场留下的钩子」展示。

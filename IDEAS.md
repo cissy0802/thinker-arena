@@ -35,7 +35,7 @@
 - [ ] 企业用人，该「以德为先」还是「以才为先」？  <!--virtue-vs-talent-->
 - [ ] 下属能力或动力不足，领导该花时间 coaching，还是果断 manage out？  <!--coach-or-manage-out-->
 - [ ] 「你眼中的别人不是别人，你眼中的自己不是自己，你眼中的别人才是自己」——这话有道理吗？  <!--seeing-others-is-self-->
-- [ ] 普通人投资，该买大盘指数，还是买自己拿着放心的个股？  <!--index-or-stock-picking-->
+- [x] 普通人投资，该买大盘指数，还是买自己拿着放心的个股？ — 2026-06-19  <!--index-or-stock-picking-->
 - [ ] “忠于真实的自我”是不是个伪命题？到底有没有一个本真的我？  <!--being-yourself-->
 - [ ] 什么样的不平等是可以接受的？  <!--acceptable-inequality-->
 - [ ] 为什么我们忍不住跟别人比？嫉妒能消除吗？  <!--comparison-and-envy-->

@@ -1,0 +1,862 @@
+{
+  "id": "index-or-stock-picking",
+  "question": "普通人投资，该买大盘指数，还是买自己拿着放心的个股？",
+  "question_en": "For ordinary investors: buy the broad index, or the individual stocks you can hold with confidence?",
+  "date": "2026-06-19",
+  "rounds": 3,
+  "participants": [
+    "keynes",
+    "hayek",
+    "socrates",
+    "feynman",
+    "munger",
+    "duanyongping",
+    "wangyangming",
+    "dalio",
+    "damasio"
+  ],
+  "casting": [
+    {
+      "id": "keynes",
+      "reason": "既是经济学家又是传奇投资人；用『市场选美』『动物精神』点破价格被群体心理左右，又以亲身经历从投机转向集中持有。",
+      "reason_en": "Economist and legendary investor; his 'beauty contest' and 'animal spirits' expose how prices are driven by crowd psychology, and he personally turned from speculation to concentrated holding."
+    },
+    {
+      "id": "hayek",
+      "reason": "『价格汇聚了无数人分散的知识』——买宽基指数的最深经济学依据。",
+      "reason_en": "'Prices aggregate the dispersed knowledge of millions' — the deepest economic case for owning a broad index."
+    },
+    {
+      "id": "socrates",
+      "reason": "『我唯一知道的就是我一无所知』——投资上最贵的，是不知道自己不知道。",
+      "reason_en": "'All I know is that I know nothing' — in investing, the costliest thing is not knowing what you don't know."
+    },
+    {
+      "id": "feynman",
+      "reason": "『第一原则是别骗自己，而你恰恰最好骗』——用科学家的怀疑拷问『我真有选股优势吗』。",
+      "reason_en": "'The first principle is that you must not fool yourself — and you are the easiest to fool' — a scientist's skepticism toward your own edge."
+    },
+    {
+      "id": "munger",
+      "reason": "能力圈、安全边际、避免愚蠢；『分散是给不知道自己在做什么的人的保护』。",
+      "reason_en": "Circle of competence, margin of safety, avoiding stupidity; 'diversification is protection against ignorance.'"
+    },
+    {
+      "id": "duanyongping",
+      "reason": "本分、不懂不做、买股票就是买公司，敢于重仓自己真懂的好公司。",
+      "reason_en": "Benfen, don't do what you don't understand, buying a stock is buying a business — and concentrating on the few he truly understands."
+    },
+    {
+      "id": "wangyangming",
+      "reason": "致良知、知行合一；『拿着放心』＝心安，只持你良知不慌的标的——个股派的东方依据。",
+      "reason_en": "'Extend innate knowing,' the unity of knowing and doing; 'holding with peace of mind' is the heart at ease — the Eastern case for conviction holding."
+    },
+    {
+      "id": "dalio",
+      "reason": "全天候、风险平价；『分散是投资唯一的免费午餐』——别把鸡蛋押在单一资产或单一押注上。",
+      "reason_en": "All Weather, risk parity; 'diversification is the only free lunch' — don't bet everything on one asset or one call."
+    },
+    {
+      "id": "damasio",
+      "reason": "躯体标记假说与爱荷华赌博任务：『拿着放心』是神经数据，但恐惧与贪婪也由同一套系统制造。",
+      "reason_en": "The somatic-marker hypothesis and the Iowa Gambling Task: 'peace of mind' is neural data, but fear and greed come from the same system."
+    }
+  ],
+  "posts": [
+    {
+      "id": "p01",
+      "round": 1,
+      "thinker": "keynes",
+      "reply_to": null,
+      "text": "先分清两件事：投机是猜『别人会怎么想』，投资是看『企业本身值多少』。股市短期是一场选美博弈——你押的不是最美的脸，而是大家都觉得大家会选的脸，动物精神在其中翻云覆雨。普通人想靠猜人心跑赢职业玩家，多半徒劳。**我年轻时迷信宏观择时，赔得很惨；后来才转向：只买少数我真正信得过的公司，长期持有。** 所以问题不在『指数还是个股』，而在你做的到底是投机还是投资。",
+      "text_en": "First separate two things: speculation guesses what others will think; investing weighs what a business is worth. In the short run the market is a beauty contest — you don't pick the prettiest face but the face everyone thinks everyone will pick, with animal spirits stirring it all. Ordinary people who try to out-guess the crowd against professionals mostly fail. **In my youth I trusted macro market-timing and lost badly; only later did I switch — to owning a few companies I truly trust, for the long run.** So the question isn't 'index or stocks' but whether what you're doing is speculation or investing.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "选美博弈": "Keynesian beauty contest（选美博弈）：凯恩斯的比喻——投机者押的不是自己觉得最好的，而是猜众人会追捧的",
+        "动物精神": "animal spirits（动物精神）：驱动市场的非理性情绪与冲动，而非纯理性计算"
+      },
+      "glossary_en": {
+        "beauty contest": "Keynes's metaphor: speculators bet not on what they think is best, but on what they guess the crowd will favor",
+        "animal spirits": "the irrational moods and impulses that drive markets, not pure rational calculation"
+      },
+      "reactions": {
+        "强烈赞同": [
+          "duanyongping",
+          "munger"
+        ],
+        "轻微赞同": [
+          "socrates"
+        ],
+        "疑惑": [
+          "dalio"
+        ]
+      }
+    },
+    {
+      "id": "p02",
+      "round": 1,
+      "thinker": "hayek",
+      "reply_to": null,
+      "text": "我要泼一盆冷水：你以为你『看懂』了一只个股，可那只股票的价格里，早已汇聚了千千万万人各自掌握的、谁也不完整拥有的分散知识——供应商的订单、内部人的判断、千里之外某个交易员的恐惧。**价格是一套没有人全懂、却人人都在用的知识系统。** 散户的悲剧，常是把『我熟悉这家公司』误当成『我比这套系统懂得多』。买宽基指数，正是谦卑地承认：我赢不过所有人的知识总和。",
+      "text_en": "Let me pour some cold water: you think you've 'figured out' a single stock, but its price already aggregates the dispersed knowledge of millions — a supplier's orders, an insider's judgment, the fear of some trader a thousand miles away — knowledge no one holds in full. **A price is a knowledge system no one fully understands, yet everyone uses.** The retail tragedy is mistaking 'I'm familiar with this company' for 'I know more than the whole system.' Owning a broad index is humbly admitting: I can't beat the sum of everyone's knowledge.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "分散知识": "dispersed knowledge（分散的知识）：哈耶克认为知识零散分布在每个人手中，价格机制把它们汇总成信号，无人能独自掌握全部"
+      },
+      "glossary_en": {
+        "dispersed knowledge": "Hayek's idea that knowledge is scattered across individuals; the price mechanism aggregates it into a signal no one possesses in full"
+      },
+      "reactions": {
+        "强烈赞同": [
+          "socrates",
+          "feynman"
+        ],
+        "轻微赞同": [
+          "dalio"
+        ],
+        "轻微反对": [
+          "munger",
+          "duanyongping"
+        ]
+      }
+    },
+    {
+      "id": "p03",
+      "round": 1,
+      "thinker": "socrates",
+      "reply_to": null,
+      "text": "我不懂金融，但我会问问题。一个要买某只个股的人，我通常问他三件事：这家公司靠什么赚钱、它最大的风险是什么、现在的价格凭什么算便宜？十有八九，他答得含糊，却依然信心十足。**真正危险的从来不是无知，而是『不知道自己无知』。** 苏格拉底的智慧只有一句：承认你不知道。若你诚实地承认看不透个股，那低成本指数，就是给无知者最体面的答案。",
+      "text_en": "I know nothing about finance, but I ask questions. To someone about to buy a single stock I usually ask three things: how does this company make money, what is its biggest risk, and why is today's price cheap? Nine times out of ten he answers vaguely yet stays fully confident. **The real danger is never ignorance, but not knowing that you are ignorant.** My only wisdom is this: admit what you don't know. If you honestly admit you can't see through a stock, then a low-cost index is the most dignified answer for the ignorant.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "feynman",
+          "hayek"
+        ],
+        "轻微赞同": [
+          "damasio"
+        ],
+        "中立": [
+          "wangyangming"
+        ]
+      }
+    },
+    {
+      "id": "p04",
+      "round": 1,
+      "thinker": "feynman",
+      "reply_to": null,
+      "text": "我是物理学家，只信一件事：实验。很多人选股赢了几次，就认定自己有『天赋』；可那也许只是运气——一万只猴子扔硬币，总有几只连扔十次正面，它们会写书教你扔硬币。**想知道你有没有真本事，做个实验：把你过去每一笔买卖记下来，跟『随便买指数』比一比。** 多数人会发现自己根本没有 edge，只有手续费和心跳。别骗自己——而你，恰恰是最好骗的那个人。",
+      "text_en": "I'm a physicist; I trust one thing: experiment. Many people win a few stock picks and decide they have 'talent' — but it might be luck. Ten thousand monkeys flip coins; a few will hit ten heads in a row, and those will write books teaching you to flip. **To find out if you actually have skill, run an experiment: record every trade you've ever made and compare it to just buying the index.** Most discover they have no edge — only fees and a racing heart. Don't fool yourself — and you are the easiest person to fool.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "edge": "edge（优势/胜算）：相对市场的、能稳定带来超额收益的真实优势——区别于一时的运气"
+      },
+      "glossary_en": {
+        "edge": "a real, repeatable advantage over the market — as opposed to a lucky streak"
+      },
+      "reactions": {
+        "强烈赞同": [
+          "socrates",
+          "damasio"
+        ],
+        "轻微赞同": [
+          "dalio",
+          "hayek"
+        ],
+        "轻微反对": [
+          "duanyongping"
+        ]
+      }
+    },
+    {
+      "id": "p05",
+      "round": 1,
+      "thinker": "munger",
+      "reply_to": null,
+      "text": "反过来想：别问『怎么赢』，先问『怎么不变蠢』。我同意多数人确实没有 edge——所以巴菲特和我都说，对他们，低成本指数加上闭嘴持有，已经打败九成主动投资者。**但请别把『分散』当美德崇拜：分散是给不知道自己在做什么的人的保护。** 如果你真在能力圈内、买得有安全边际，那么集中持有三五家伟大公司，远胜于摊薄成五十只平庸股。前提只有一个：诚实地知道——你多半不在能力圈内。",
+      "text_en": "Invert, always invert: don't ask 'how to win,' ask 'how not to be stupid.' I agree most people have no edge — which is why Buffett and I both say that for them, a low-cost index plus sitting on your hands beats ninety percent of active managers. **But don't worship 'diversification' as a virtue: diversification is protection against ignorance.** If you are truly within your circle of competence and buy with a margin of safety, concentrating on three to five great businesses beats diluting into fifty mediocre ones. The one condition: honestly know that you are probably not within your circle.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "能力圈": "circle of competence（能力圈）：你真正理解、能判断的领域；圈子大小不重要，知道边界在哪最重要",
+        "安全边际": "margin of safety（安全边际）：用远低于内在价值的价格买入，留出犯错与意外的缓冲"
+      },
+      "glossary_en": {
+        "circle of competence": "the area you truly understand and can judge; what matters is not its size but knowing where its edge is",
+        "margin of safety": "buying well below intrinsic value, leaving a buffer for errors and surprises"
+      },
+      "reactions": {
+        "强烈赞同": [
+          "duanyongping"
+        ],
+        "轻微赞同": [
+          "keynes",
+          "wangyangming"
+        ],
+        "轻微反对": [
+          "dalio"
+        ],
+        "疑惑": [
+          "hayek"
+        ]
+      }
+    },
+    {
+      "id": "p06",
+      "round": 1,
+      "thinker": "duanyongping",
+      "reply_to": null,
+      "text": "我把它讲得更土一点：买股票就是买公司。别盯着 K 线问涨跌，要问『这门生意，十年后我还看得懂、还想拥有吗』。看不懂就别碰——错过不是错，做错才是错。我重仓过网易、苹果，不是赌博，是因为我真的懂这两家、且当时便宜。**本分二字：只在你看懂的地方下重注，看不懂就空仓等待，绝不借钱、绝不赚最后一个铜板。** 普通人若没工夫看懂任何一家公司，老老实实定投宽基，也是本分。",
+      "text_en": "Let me put it plainly: buying a stock is buying a business. Don't stare at candlestick charts asking up or down; ask 'in ten years will I still understand this business and still want to own it?' If you can't understand it, don't touch it — missing out is not a mistake, getting it wrong is. I went heavy into NetEase and Apple not as a gamble but because I truly understood them and they were cheap. **Benfen in two words: bet big only where you see clearly, sit in cash when you don't, never borrow, never reach for the last copper coin.** If an ordinary person has no time to understand any company, then dutifully dollar-cost-averaging into a broad index is also benfen.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "本分": "benfen（本分）：段永平的核心词——守住自己该做的、不赚超出认知的钱",
+        "定投": "dollar-cost averaging（定投）：定期定额买入，摊平成本、淡化择时"
+      },
+      "glossary_en": {
+        "benfen": "Duan's core word: stay within your proper bounds, don't earn money beyond your understanding",
+        "dollar-cost-averaging": "buying a fixed amount at regular intervals to smooth cost and remove market-timing"
+      },
+      "reactions": {
+        "强烈赞同": [
+          "munger",
+          "keynes"
+        ],
+        "轻微赞同": [
+          "wangyangming"
+        ],
+        "轻微反对": [
+          "dalio"
+        ],
+        "中立": [
+          "hayek"
+        ]
+      }
+    },
+    {
+      "id": "p07",
+      "round": 1,
+      "thinker": "wangyangming",
+      "reply_to": null,
+      "text": "诸君论『放心』，却未问『放心』从何来。**夫『拿得安稳』者，心安也；心安非强求，乃真知之效。** 知行合一：尔若真知此公司之善，如好好色、如恶恶臭，自不为其涨跌所摇；今人买股而夜不能寐，非市场之过，乃未真知耳。致吾心之良知于投资：只持良知不慌之物，慌则未知，未知则勿持。",
+      "text_en": "You all speak of 'peace of mind' yet never ask where it comes from. **To 'hold steadily' is for the heart to be at ease; ease is not forced — it is the fruit of true knowing.** The unity of knowing and doing: if you truly know this company is good — as surely as you love a beautiful sight or hate a foul smell — you will not be shaken by its swings. Those who buy a stock and cannot sleep at night are not wronged by the market; they simply have not truly known. Extend the innate knowing of your heart to investing: hold only what leaves your conscience calm; if it panics, you do not yet know; if you do not know, do not hold.",
+      "vernacular": "诸位都在谈『拿着放心』，却没人问这份『放心』是从哪来的。**所谓『拿得稳』，其实就是心里安定；而这份安定不是硬撑出来的，是『真懂』之后自然的结果。** 知行合一——你若真懂这家公司好在哪，那种笃定就像你天生爱看美景、厌恶臭味一样自然，根本不会被涨涨跌跌牵着走；今天有人买了股票就夜里睡不着，不是市场的错，是他其实没真懂。把『良知』用到投资上：只持有那些让你良心不发慌的东西——一发慌，就说明你还没懂；没懂，就别持有。",
+      "vernacular_en": "",
+      "glossary": {
+        "知行合一": "the unity of knowing and doing（知行合一）：王阳明主张真知必然导向行动，知而不行只是未真知",
+        "良知": "extending innate moral knowing（致良知）：把心中本有的、明辨是非的『良知』推致并落实到每件事上"
+      },
+      "glossary_en": {
+        "unity of knowing and doing": "Wang Yangming holds that true knowledge necessarily issues in action; to know and not act is simply not to truly know",
+        "innate knowing": "extending the heart's inborn capacity to tell right from wrong, and acting on it in everything"
+      },
+      "reactions": {
+        "强烈赞同": [
+          "duanyongping"
+        ],
+        "轻微赞同": [
+          "socrates",
+          "damasio"
+        ],
+        "疑惑": [
+          "feynman",
+          "dalio"
+        ]
+      }
+    },
+    {
+      "id": "p08",
+      "round": 1,
+      "thinker": "dalio",
+      "reply_to": null,
+      "text": "你们吵『指数还是个股』，在我看来都漏了更要紧的一问：别把鸡蛋全押在『股票』这一种资产、一个国家、一个时代上。**分散是投资里唯一的免费午餐——约十五条彼此不相关的收益流，能在几乎不降低回报的前提下，把风险砍掉一大半。** 这就是『投资的圣杯』。所以我不预测明天是通胀还是衰退，我只让组合在任何象限里都不被团灭：按风险、而非按金额配平股、债、黄金、大宗——这叫风险平价、全天候。活下来，比赢一把重要得多。",
+      "text_en": "You argue 'index versus stocks,' but to me you all miss a bigger question: don't bet every egg on one asset class — 'stocks' — one country, one era. **Diversification is the only free lunch in investing — about fifteen uncorrelated return streams can cut risk by more than half with almost no drop in return.** That is the 'Holy Grail.' So I don't predict whether tomorrow brings inflation or recession; I just make sure no quadrant can wipe the portfolio out: balancing stocks, bonds, gold and commodities by risk rather than by dollar amount — risk parity, All Weather. Surviving matters far more than winning one round.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "风险平价": "risk parity（风险平价）：按各类资产的『风险贡献』而非金额来配置，使组合不被单一资产主导",
+        "全天候": "All Weather（全天候）：达利欧设计的、力求在通胀/通缩、增长/衰退任一环境都稳健的资产组合",
+        "不相关": "correlation（相关性）：两类资产同涨同跌的程度；不相关的收益流叠加才真正分散风险"
+      },
+      "glossary_en": {
+        "risk parity": "allocating by each asset's 'risk contribution' rather than dollar amount, so no single asset dominates",
+        "All Weather": "Dalio's portfolio designed to hold up across inflation/deflation, growth/recession",
+        "uncorrelated": "how much two assets move together; only uncorrelated streams truly diversify risk"
+      },
+      "reactions": {
+        "强烈赞同": [
+          "damasio"
+        ],
+        "轻微赞同": [
+          "hayek",
+          "feynman"
+        ],
+        "轻微反对": [
+          "munger",
+          "duanyongping"
+        ],
+        "疑惑": [
+          "socrates"
+        ]
+      }
+    },
+    {
+      "id": "p09",
+      "round": 1,
+      "thinker": "damasio",
+      "reply_to": null,
+      "text": "我研究大脑,先纠正一个误会:你们都把『理性』供在神坛上,可没有情绪的人,决策反而更糟。在爱荷华赌博任务里,腹内侧前额叶受损的病人算得清概率,却一次次伸手去拿那叠会让他破产的牌——因为他们失去了『躯体标记』:身体替你预演后果、抢在意识之前发出的那点心慌或踏实。**所以王阳明说的『拿着放心』,真有神经基础:它是身体在替你投票。** 但请记住:同一套系统,也会在暴跌时让你恐慌割肉、在狂热时让你贪婪追高。",
+      "text_en": "I study the brain, so let me correct a myth: you enshrine 'reason,' yet people without emotion decide worse. In the Iowa Gambling Task, patients with ventromedial prefrontal damage can compute the odds perfectly, yet keep reaching for the deck that will bankrupt them — because they've lost their 'somatic markers': the flutter of unease or calm the body rehearses and fires before consciousness. **So Wang Yangming's 'peace of mind' has a real neural basis: it is the body casting a vote.** But remember: the same system makes you panic-sell in a crash and greedily chase in a mania.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "爱荷华赌博任务": "Iowa Gambling Task（爱荷华赌博任务）:一个经典实验,显示情绪受损者即便懂概率也会反复做出毁灭性选择",
+        "躯体标记": "somatic marker hypothesis（躯体标记假说）：达马西奥提出情绪在身体上留下的信号会快速引导决策,纯理性算计并不足够"
+      },
+      "glossary_en": {
+        "Iowa Gambling Task": "a classic experiment showing that people with impaired emotion keep making ruinous choices even when they grasp the odds",
+        "somatic markers": "Damasio's idea that bodily emotional signals rapidly steer decisions; cold calculation alone is not enough"
+      },
+      "reactions": {
+        "强烈赞同": [
+          "wangyangming",
+          "socrates"
+        ],
+        "轻微赞同": [
+          "feynman",
+          "keynes"
+        ],
+        "中立": [
+          "dalio"
+        ]
+      }
+    },
+    {
+      "id": "p10",
+      "round": 2,
+      "thinker": "munger",
+      "reply_to": "p02",
+      "text": "哈耶克,市场『大多时候』有效,但『大多』不是『总是』——正是它偶尔的疯狂,给能力圈内的人送钱。市场先生today抑郁、tomorrow狂躁,你不必理他的报价,只在他极度恐慌、把好公司打到骨折价时出手。**你把『谦卑』推到极致,就成了另一种懒惰:永远不肯对自己的判断下注。** 承认无知是起点,不是终点。",
+      "text_en": "Hayek, the market is efficient 'most of the time,' but 'most' is not 'always' — and its occasional madness is exactly what hands money to those within their circle. Mr. Market is depressed today, manic tomorrow; you needn't obey his quotes, only act when he panics and marks a great company down to a broken price. **Push 'humility' to its extreme and it becomes another form of laziness: never willing to bet on your own judgment.** Admitting ignorance is the start, not the finish.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "市场先生": "Mr. Market（市场先生）：格雷厄姆的比喻——市场像个情绪极端的合伙人,天天给你报价,你可买可不买,不必被他左右"
+      },
+      "glossary_en": {
+        "Mr. Market": "Graham's metaphor: the market is a moody partner who quotes you a price daily; you may take it or leave it, never letting his mood rule you"
+      },
+      "reactions": {
+        "强烈赞同": [
+          "duanyongping"
+        ],
+        "轻微赞同": [
+          "keynes",
+          "wangyangming"
+        ],
+        "轻微反对": [
+          "hayek",
+          "socrates"
+        ]
+      }
+    },
+    {
+      "id": "p11",
+      "round": 2,
+      "thinker": "hayek",
+      "reply_to": "p05",
+      "text": "芒格、段先生,你们口口声声『能力圈』,恰恰证明了我的话:知识是局部的、零散的。可问题在于——**你凭什么确信你那点局部知识,没有早被价格抢先反映?** 你『熟悉』一家公司,不等于你比那套汇聚了内部人、对手、供应商判断的价格系统懂得更多。多数自信『我懂这家』的人,只是把『熟悉』错当成了『洞见』。能力圈是真的,但它比你以为的小得多。",
+      "text_en": "Munger, Mr. Duan, you keep invoking the 'circle of competence' — which proves my very point: knowledge is local and scattered. But here's the rub — **what makes you sure your sliver of local knowledge isn't already reflected in the price?** Being 'familiar' with a company is not knowing more than a price system that has digested insiders', rivals' and suppliers' judgments. Most who are sure 'I understand this one' have merely mistaken familiarity for insight. The circle of competence is real — but far smaller than you think.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "socrates",
+          "feynman"
+        ],
+        "轻微赞同": [
+          "dalio"
+        ],
+        "轻微反对": [
+          "munger",
+          "duanyongping"
+        ]
+      }
+    },
+    {
+      "id": "p12",
+      "round": 2,
+      "thinker": "dalio",
+      "reply_to": "p06",
+      "text": "段先生重仓网易、苹果赢了,我敬佩。但请小心幸存者偏差:我们津津乐道赢家,却看不见那些同样『真懂、敢重仓』、最后却被时代碾过的人——重仓诺基亚、柯达的死忠也曾深信自己懂。**集中能让你超级富,也能让你归零;而归零的人,就永远退出了游戏,再没有下一把。** 我宁愿少赢几个百分点,换一个『任何单一押注的崩塌都打不垮我』。这不是胆小,是让复利有机会活到终点。",
+      "text_en": "Mr. Duan, you went heavy into NetEase and Apple and won — I admire it. But beware survivorship bias: we celebrate the winners and never see those who equally 'truly understood and concentrated' yet got crushed by their era — the diehards in Nokia and Kodak were sure they understood too. **Concentration can make you super-rich or take you to zero; and whoever hits zero is out of the game forever, with no next hand.** I'd rather give up a few points of return for 'no single bet's collapse can break me.' That's not timidity — it's letting compounding live to the finish.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "feynman",
+          "hayek"
+        ],
+        "轻微赞同": [
+          "damasio",
+          "socrates"
+        ],
+        "轻微反对": [
+          "duanyongping",
+          "munger"
+        ]
+      }
+    },
+    {
+      "id": "p13",
+      "round": 2,
+      "thinker": "duanyongping",
+      "reply_to": "p12",
+      "text": "达利欧讲对了一半:不懂的、押身家的,绝不能集中。但你把『分散』当万灵药,也错了。**买五十只你都说不清为什么持有的股票,风险并没消失,你只是把『无知』摊薄了、让自己看不见而已。** 诺基亚的悲剧不是『集中』之过,是持有人没在它护城河崩塌时认错离场——那是不懂,不是太集中。本分不是赌身家,是只在看懂处下注、留足安全边际、错了就认。分散与集中都不是美德,诚实才是。",
+      "text_en": "Dalio, you're half right: never concentrate what you don't understand or can't afford to lose. But treating 'diversification' as a cure-all is also wrong. **Owning fifty stocks you can't explain why you hold doesn't make risk vanish — it just thins out your ignorance until you can't see it.** Nokia's tragedy wasn't 'concentration'; it was holders who failed to admit error and leave when the moat broke — that's not understanding, not over-concentration. Benfen isn't betting the house; it's wagering only where you see clearly, with a margin of safety, and owning your mistakes. Neither concentration nor diversification is a virtue — honesty is.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "munger"
+        ],
+        "轻微赞同": [
+          "wangyangming",
+          "keynes"
+        ],
+        "轻微反对": [
+          "dalio"
+        ],
+        "疑惑": [
+          "hayek"
+        ]
+      }
+    },
+    {
+      "id": "p14",
+      "round": 2,
+      "thinker": "feynman",
+      "reply_to": "p07",
+      "text": "王先生说『真知则心安』,可我作为科学家最警惕的,正是这个『安』。**情绪上的『放心』恰恰最会骗人——你『拿着放心』,很可能只是因为你爱上了自己的判断,而非它经得起检验。** 这在科学里叫确认偏误:你只看见支持你的证据,自动屏蔽相反的。我见过太多人对一只暴跌的股票『越跌越有信心』,那不是真知,是不肯认错。心安不能拿来当真知的证据;能拿来当证据的,只有可证伪的事实。",
+      "text_en": "Mr. Wang says 'true knowing brings peace,' but as a scientist what I most distrust is precisely that 'peace.' **Emotional 'comfort' is exactly what fools you best — your 'peace of mind' in holding may simply be that you've fallen in love with your own judgment, not that it survives testing.** In science this is confirmation bias: you see only the evidence that supports you and screen out the rest. I've watched too many grow 'more confident the more it falls' — that's not true knowing, it's refusing to admit error. Peace of mind can't serve as proof of knowledge; only falsifiable facts can.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "确认偏误": "confirmation bias（确认偏误）：只接收、记住支持自己既有观点的信息,自动忽略相反证据"
+      },
+      "glossary_en": {
+        "confirmation bias": "taking in and remembering only what supports your existing view, while ignoring contrary evidence"
+      },
+      "reactions": {
+        "强烈赞同": [
+          "socrates",
+          "hayek"
+        ],
+        "轻微赞同": [
+          "dalio"
+        ],
+        "轻微反对": [
+          "wangyangming",
+          "duanyongping"
+        ]
+      }
+    },
+    {
+      "id": "p15",
+      "round": 2,
+      "thinker": "wangyangming",
+      "reply_to": "p14",
+      "text": "费曼之疑甚善,然尔混『自欺之安』与『格物之安』为一物。**致良知者,时时省察、事上磨练,非一厢情愿之安;真知必经反复印证,未印证而安,正是未致良知。** 尔所斥『越跌越信、不肯认错』,恰是私欲蔽其良知、自欺也,非吾所谓知行合一。良知本能知是知非:若一物使尔夜不能寐,正是良知在报警,听之即是。故吾之『心安』,不与尔之『可证伪』相悖,乃同途。",
+      "text_en": "Feynman's doubt is excellent, yet you fuse 'the comfort of self-deception' with 'the ease that comes from investigating things.' **To extend innate knowing is to examine yourself constantly and temper yourself in actual affairs — not wishful comfort; true knowing must be confirmed again and again, and to feel at ease without confirmation is precisely to have failed to extend it.** What you condemn — 'more faith the more it falls, refusing to admit error' — is exactly selfish desire clouding the innate knowing, self-deception, not what I call the unity of knowing and doing. Innate knowing can tell right from wrong: if a thing keeps you awake at night, that is your innate knowing sounding an alarm — heed it. So my 'peace of mind' does not contradict your 'falsifiability'; they walk the same road.",
+      "vernacular": "费曼的质疑很对,但你把两种『安』混成一种了。**致良知,是时时刻刻自我省察、在一件件事上反复磨练得来的,绝不是一厢情愿的安心;真懂一定要经过反复验证,没验证就先安心,恰恰说明你还没『致良知』。** 你批评的那种『越跌越信、死不认错』,正是私心遮住了良知、是自欺,根本不是我说的知行合一。良知天生就能分辨对错:一样东西若让你夜里睡不着,那正是良知在拉警报,听它的就对了。所以我说的『心安』,跟你要的『可证伪』并不矛盾,是同一条路。",
+      "vernacular_en": "",
+      "glossary": {
+        "格物": "investigating things（格物）：王阳明指在具体事情上正其心、省察实践,以致良知,而非空想"
+      },
+      "glossary_en": {
+        "investigating things": "for Wang Yangming, rectifying the mind and examining oneself within concrete affairs to extend innate knowing — not idle theorizing"
+      },
+      "reactions": {
+        "强烈赞同": [
+          "socrates",
+          "damasio"
+        ],
+        "轻微赞同": [
+          "duanyongping",
+          "feynman"
+        ],
+        "中立": [
+          "munger"
+        ]
+      }
+    },
+    {
+      "id": "p16",
+      "round": 2,
+      "thinker": "socrates",
+      "reply_to": "p08",
+      "text": "达利欧,你说『我不预测,我只准备』,这话漂亮,但请容我追问:你精心配置那十五条『互不相关』的收益流,这本身不正是一个充满自信的预测吗——预测它们将来仍然不相关?**可2008年和2020年的某些时刻,它们手拉手一起跌了:平日里的不相关,在最需要它的恐慌时刻偏偏消失。** 那么你并没有逃出『自以为知道』的陷阱,你只是把它藏进了『分散』这个更体面的词里。",
+      "text_en": "Dalio, you say 'I don't predict, I prepare' — elegant, but let me press you: carefully assembling those fifteen 'uncorrelated' return streams — isn't that itself a confident prediction, that they'll stay uncorrelated? **Yet in certain moments of 2008 and 2020 they fell hand in hand: the everyday non-correlation vanished exactly in the panic when you needed it most.** So you haven't escaped the trap of 'thinking you know'; you've merely hidden it inside the more dignified word 'diversification.'",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "feynman",
+          "munger"
+        ],
+        "轻微赞同": [
+          "duanyongping",
+          "keynes"
+        ],
+        "轻微反对": [
+          "dalio"
+        ]
+      }
+    },
+    {
+      "id": "p17",
+      "round": 2,
+      "thinker": "keynes",
+      "reply_to": "p03",
+      "text": "苏格拉底的『承认无知』我赞成一半。但有个悖论:**若人人都听你的、都去买指数、没人再费力研究个股,那价格还靠什么反映信息?** 指数投资者其实搭了主动研究者的便车——他们享受着别人辛苦发现的价格。便车人多到一定程度,车就抛锚。另外提醒诸位:别只谈对错。我有句话:市场保持非理性的时间,可以长过你保持不破产的时间。**所以光『谦卑』不够,你还得有足够的现金与定力,活到你判断兑现的那天。**",
+      "text_en": "I'm half with Socrates on 'admitting ignorance.' But there's a paradox: **if everyone took his advice, bought the index, and no one bothered researching stocks, what would prices reflect anymore?** Index investors free-ride on active researchers — enjoying prices others labored to discover. Past a point, too many free-riders and the bus breaks down. And a reminder to all: don't only talk right and wrong. I once said the market can stay irrational longer than you can stay solvent. **So humility alone isn't enough — you also need enough cash and composure to live until your judgment pays off.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "munger",
+          "dalio"
+        ],
+        "轻微赞同": [
+          "hayek",
+          "damasio"
+        ],
+        "中立": [
+          "socrates"
+        ]
+      }
+    },
+    {
+      "id": "p18",
+      "round": 2,
+      "thinker": "damasio",
+      "reply_to": "p05",
+      "text": "你们争『该集中还是该分散』,在我看来都还隔着一层。**真正决定普通人成败的,往往不是策略,而是在最坏的那个早晨,他的手会不会抖。** 再完美的能力圈、再聪明的风险平价,只要暴跌时杏仁核劫持了前额叶、在最低点割肉,就全部归零。这正是指数定投一个被低估的好处:它『无聊到让你不想操作』,反而保护你不被自己的神经系统打败。策略的上限是人性,而人性在恐慌里很脆弱。",
+      "text_en": "You argue 'concentrate or diversify,' but to me you're all one layer short. **What truly decides an ordinary person's fate is usually not the strategy but whether, on the worst morning, his hands shake.** The most perfect circle of competence, the cleverest risk parity — if in a crash the amygdala hijacks the prefrontal cortex and you sell at the bottom, it all goes to zero. This is an underrated virtue of index dollar-cost-averaging: it's 'so boring you don't want to touch it,' and so it protects you from being beaten by your own nervous system. A strategy's ceiling is human nature — and human nature is fragile in panic.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "杏仁核": "amygdala（杏仁核）：大脑的『警报中枢』,处理恐惧;剧烈波动时它会压过负责理性规划的前额叶,让人冲动行事"
+      },
+      "glossary_en": {
+        "amygdala": "the brain's 'alarm center' for fear; in violent swings it can override the rational, planning prefrontal cortex, driving impulsive acts"
+      },
+      "reactions": {
+        "强烈赞同": [
+          "socrates",
+          "feynman",
+          "dalio"
+        ],
+        "轻微赞同": [
+          "keynes",
+          "hayek"
+        ],
+        "中立": [
+          "munger"
+        ]
+      }
+    },
+    {
+      "id": "p19",
+      "round": 3,
+      "thinker": "keynes",
+      "reply_to": null,
+      "text": "收个口:投机是猜人心,投资是看企业;前者普通人赢不了,后者要时间与气性。我的结论很务实——若你没有这份时间与定力,就老老实实定投宽基指数,把精力还给生活;若你真要选股,就当你在买下整间公司,且只用你输得起的闲钱。最要紧的从来不是赢一把,而是**活得足够久,让复利替你工作**。给普通人三件事:① 备足够的应急现金,别在熊市被迫卖股;② 绝不借钱炒股;③ 少看盘——看得越勤,动物精神越容易借你的手犯错。",
+      "text_en": "To wrap up: speculation guesses people, investing weighs businesses; ordinary folk can't win the former, and the latter takes time and temperament. My conclusion is practical — if you lack that time and composure, dutifully dollar-cost-average into a broad index and give your energy back to life; if you must pick stocks, treat it as buying the whole company, with only money you can afford to lose. What matters is never winning one hand but **living long enough for compounding to work for you**. Three things for ordinary people: (1) keep ample emergency cash so you're never forced to sell in a bear market; (2) never borrow to invest; (3) check prices less — the more you watch, the more easily animal spirits make you act.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "duanyongping",
+          "damasio"
+        ],
+        "轻微赞同": [
+          "munger",
+          "dalio",
+          "socrates"
+        ]
+      }
+    },
+    {
+      "id": "p20",
+      "round": 3,
+      "thinker": "hayek",
+      "reply_to": null,
+      "text": "我始终主张:谦卑地使用市场这台你并不完全懂的机器。宽基指数,就是把这份谦卑制度化——你不再假装比千万人的知识总和更聪明。**但谦卑不等于宿命:在你真正深耕多年的那个行业里,你的局部知识或许确有别人没有的价值。** 所以我的建议是分层的:① 把绝大部分钱默认放进低成本宽基,这是底盘;② 只有在你职业、专业的能力圈之内,才动用一小笔去买个股;③ 永远假设价格里已经包含了你不知道的信息,据此留足余地。",
+      "text_en": "I've always held: humbly use the market, a machine you don't fully understand. A broad index institutionalizes that humility — you stop pretending to be smarter than millions' combined knowledge. **But humility is not fatalism: within the one industry you've worked deeply for years, your local knowledge may hold value others lack.** So my advice is layered: (1) by default put the great bulk of your money in a low-cost broad index — that's the chassis; (2) only within the circle of competence of your own profession should you commit a small sum to individual stocks; (3) always assume the price already contains information you don't have, and leave room accordingly.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "socrates",
+          "feynman"
+        ],
+        "轻微赞同": [
+          "keynes",
+          "dalio",
+          "munger"
+        ]
+      }
+    },
+    {
+      "id": "p21",
+      "round": 3,
+      "thinker": "socrates",
+      "reply_to": null,
+      "text": "我没有投资建议,只有一个老问题:认识你自己。你的无知边界在哪、你能承受多大的下跌而不失眠、你买这只股票究竟是因为懂还是因为别人都在买?**对大多数诚实面对这些问题的人,答案会自动指向指数——不是因为它更高明,而是因为它不需要你假装你不是你。** 给一个可操作的小练习:买任何个股前,先在纸上写满一段话,回答『我凭什么认为我比市场更懂这家公司』。若你写不满、或写完自己都不信,就买指数。",
+      "text_en": "I have no investment advice, only an old question: know thyself. Where is the edge of your ignorance, how large a drawdown can you bear without losing sleep, are you buying this stock because you understand it or because everyone else is? **For most who face these honestly, the answer points itself to the index — not because it's cleverer, but because it doesn't require you to pretend you are not who you are.** One workable exercise: before buying any single stock, fill a paragraph on paper answering 'what makes me think I understand this company better than the market?' If you can't fill it, or don't believe it once written, buy the index.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "feynman",
+          "hayek",
+          "damasio"
+        ],
+        "轻微赞同": [
+          "wangyangming",
+          "keynes"
+        ]
+      }
+    },
+    {
+      "id": "p22",
+      "round": 3,
+      "thinker": "feynman",
+      "reply_to": null,
+      "text": "我的总结只有一句科学家的老话:别信故事,信数据。市场最会卖给你故事——『这是下一个苹果』『这次不一样』。**对抗它的唯一办法,是把你自己当成实验对象:记录每一笔决策和它的结果,诚实地跟『无脑定投指数』这个对照组比。** 多数人比完会发现自己没有 edge,那就别再付『主动管理』那笔智商税。给普通人两步:① 建一个买卖记录表,每笔写下买入理由,事后复盘对错;② 在你证明自己长期跑赢指数之前,就定投、就别折腾。",
+      "text_en": "My summary is one old scientist's line: don't trust the story, trust the data. The market is brilliant at selling stories — 'the next Apple,' 'this time it's different.' **The only defense is to treat yourself as the experimental subject: record every decision and its outcome, and honestly compare it to a control group of mindless index dollar-cost-averaging.** Most who do find they have no edge — so stop paying the 'active management' stupidity tax. Two steps for ordinary people: (1) keep a trade log, writing your reason for each buy and reviewing right and wrong afterward; (2) until you've proven you beat the index over the long run, just keep buying the index and don't fiddle.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "socrates",
+          "hayek",
+          "dalio"
+        ],
+        "轻微赞同": [
+          "munger",
+          "damasio"
+        ]
+      }
+    },
+    {
+      "id": "p23",
+      "round": 3,
+      "thinker": "munger",
+      "reply_to": null,
+      "text": "避免愚蠢,胜过追求聪明。我和巴菲特一辈子都在说同一句:对绝大多数人,买低成本指数、然后闭嘴持有几十年,就能打败他们绝大多数自作聪明的邻居。**只有当你能像一个企业主那样、不打草稿地回答出『这门生意凭什么好、凭什么便宜、凭什么我守得住』,你才有资格买个股、并且集中。** 给普通人:① 先写一张『不做清单』——杠杆、跟风、天天交易、买不懂的,全列进去永不碰;② 一生只需抓住几个真正看懂的大机会,其余时间耐心等待。",
+      "text_en": "Avoiding stupidity beats chasing brilliance. Buffett and I spent a lifetime saying the same thing: for the vast majority, buying a low-cost index and then sitting quietly for decades will beat most of their clever neighbors. **Only when you can answer, like an owner and without notes, 'why is this business good, why is it cheap, why can I hold it' do you earn the right to buy a single stock — and to concentrate.** For ordinary people: (1) first write a 'stop-doing list' — leverage, herd-following, daily trading, buying what you don't understand — and never touch them; (2) a lifetime needs only a few truly understood big opportunities; the rest is patient waiting.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "不做清单": "stop-doing list（不做清单）：先明确『坚决不做』的事(杠杆、追涨、买不懂的),用避免犯错来保护自己"
+      },
+      "glossary_en": {
+        "stop-doing list": "first nailing down what you will firmly NOT do (leverage, chasing, buying what you don't understand), protecting yourself by avoiding error"
+      },
+      "reactions": {
+        "强烈赞同": [
+          "duanyongping",
+          "keynes"
+        ],
+        "轻微赞同": [
+          "wangyangming",
+          "feynman",
+          "dalio"
+        ]
+      }
+    },
+    {
+      "id": "p24",
+      "round": 3,
+      "thinker": "duanyongping",
+      "reply_to": null,
+      "text": "我还是那两个字:本分。买股票就是买公司——看懂、便宜、长期持有,三者缺一就别动。看不懂任何公司,不丢人,定投宽基就是你的本分。**记住:错过一百个机会都不算错,做错一次大的、尤其是借了钱的,就可能万劫不复。** 给普通人最实在的三条:① 列出你『十年也敢一直拿着』的三五家公司,拿不出就全买指数;② 永远不用杠杆、不赚最后一个铜板;③ 把现金流和生活稳住——心稳了,拿得才稳,这比任何技巧都重要。",
+      "text_en": "Still the same two words: benfen. Buying a stock is buying a business — understand it, buy it cheap, hold it long; missing any one, don't act. Not understanding any company is no shame — dollar-cost-averaging into a broad index is your benfen. **Remember: missing a hundred opportunities isn't a mistake; getting one big one wrong, especially with borrowed money, can be beyond recovery.** Three solid things for ordinary people: (1) list the three to five companies you'd 'hold for ten years without flinching' — if you can't, buy the index entirely; (2) never use leverage, never reach for the last copper coin; (3) steady your cash flow and your life — a steady heart holds steady, and that matters more than any technique.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "munger",
+          "wangyangming"
+        ],
+        "轻微赞同": [
+          "keynes",
+          "damasio",
+          "hayek"
+        ]
+      }
+    },
+    {
+      "id": "p25",
+      "round": 3,
+      "thinker": "wangyangming",
+      "reply_to": null,
+      "text": "投资亦是修心。**知行合一、致良知:只持心安之物,心不安则不持;此非怯,乃诚。** 尔之能力圈,非一日划定,乃事上磨练、日久自明:每经一次涨跌而省察,圈即长一寸。故吾劝诸君:勿求一举看透,但求不自欺。",
+      "text_en": "Investing too is cultivating the heart. **The unity of knowing and doing, extending innate knowing: hold only what leaves the heart at ease; if the heart is not at ease, do not hold — this is not cowardice but sincerity.** Your circle of competence is not drawn in a day; it is tempered in actual affairs and grows clear with time: each swing you live through and reflect on widens the circle by an inch. So my counsel: do not seek to see through everything at one stroke; seek only not to deceive yourself.",
+      "vernacular": "投资也是一种修心。**知行合一、致良知——只持有让你心里安定的东西,心不安就别持有;这不是胆小,是对自己诚实。** 你的能力圈不是一天画好的,是在一件件真实买卖里磨出来、日子久了自然清晰:每经历一次涨跌、认真复盘一次,圈子就向外长一寸。所以我劝各位:别指望一下子看透一切,只求一件事——别骗自己。给你一个最简单的法子:买之前先问自己『如果明天它跌一半,我还睡得着吗?』睡不着,就别买,或者去买指数。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "duanyongping",
+          "socrates",
+          "damasio"
+        ],
+        "轻微赞同": [
+          "munger",
+          "feynman"
+        ]
+      }
+    },
+    {
+      "id": "p26",
+      "round": 3,
+      "thinker": "dalio",
+      "reply_to": null,
+      "text": "我的总结是一条原则:**分散是唯一的免费午餐;别预测,而要让自己在任何未来里都不被打垮。** 个股 vs 指数是个太窄的问题——真正的功课,是把钱分散到彼此不相关的资产上(不只是股票),让组合在通胀、衰退、危机里都能站住。痛苦+反思=进步:每次亏损都是数据,逼你更新原则。给普通人:① 别把全部身家押在股市一种资产、一个国家上,适度配点债与黄金等;② 用定投把『择时』这件你做不好的事交给纪律;③ 写下你自己的几条投资原则,每次犯错后回来修订它。",
+      "text_en": "My summary is one principle: **diversification is the only free lunch; don't predict — make sure no future can wipe you out.** Stocks versus index is too narrow a question — the real work is spreading money across uncorrelated assets (not just stocks) so the portfolio holds up through inflation, recession and crisis. Pain + Reflection = Progress: every loss is data forcing you to update your principles. For ordinary people: (1) don't bet your whole net worth on one asset class and one country — hold some bonds, gold and the like; (2) let dollar-cost-averaging hand 'market timing' — which you do badly — over to discipline; (3) write down a few of your own investing principles, and revise them after each mistake.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "damasio",
+          "feynman"
+        ],
+        "轻微赞同": [
+          "socrates",
+          "hayek",
+          "keynes"
+        ]
+      }
+    },
+    {
+      "id": "p27",
+      "round": 3,
+      "thinker": "damasio",
+      "reply_to": null,
+      "text": "最后,请认识你的脑。这场所有的策略之争,都建立在一个常被忽略的前提上:你能在最坏的时刻保持不手抖。可惜,人在暴跌时被杏仁核接管、在狂热时被多巴胺冲昏,是写在神经里的默认设置。**所以最聪明的投资,往往是设计一个『让你少做决定』的系统,把意志力从临场决策里拿走。** 给普通人三条:① 设自动定投,把『买不买』交给规则,而不是交给当天的心情;② 给自己定一条『暴跌冷静期』——任何恐慌操作强制等24小时;③ 别天天看盘——你盯得越紧,身体替你制造的噪声越多,越容易被自己打败。",
+      "text_en": "Finally, know your brain. Every strategy quarrel here rests on an often-ignored premise: that you can keep your hands steady at the worst moment. Sadly, being taken over by the amygdala in a crash and dizzied by dopamine in a mania is a default setting written into the nervous system. **So the smartest investing is often designing a system that makes you decide less, taking willpower out of in-the-moment choices.** Three things for ordinary people: (1) set up automatic dollar-cost-averaging, handing 'buy or not' to a rule rather than the day's mood; (2) give yourself a 'crash cooling-off period' — force any panic move to wait 24 hours; (3) don't watch the market daily — the harder you stare, the more noise your body manufactures, and the easier you are to defeat by yourself.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "多巴胺": "dopamine（多巴胺）：与『预期奖赏』相关的神经递质;上涨/狂热时它驱动追高,与恐惧系统一起左右投资冲动"
+      },
+      "glossary_en": {
+        "dopamine": "a neurotransmitter tied to 'anticipated reward'; in rallies and manias it drives chasing, swaying investment impulses alongside the fear system"
+      },
+      "reactions": {
+        "强烈赞同": [
+          "socrates",
+          "keynes",
+          "dalio",
+          "feynman"
+        ],
+        "轻微赞同": [
+          "munger",
+          "duanyongping",
+          "wangyangming"
+        ]
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "ai": "claude",
+      "engine": "Opus 4.8 · 订阅(原生)",
+      "engine_en": "Opus 4.8 · subscription (native)",
+      "summary": "九个人吵得凶,共识其实很大:**几乎所有人都同意——先认识你自己,绝大多数普通人最该做的,是低成本宽基指数 + 定投 + 别折腾。** 段永平、芒格这两位铁杆个股派也亲口说:看不懂就买指数。真正的分歧只在三件事上:① 在你『能力圈』内,该集中还是该分散(芒格/段永平 vs 达利欧);② 个股投资者搭了主动研究者的便车,若人人指数化,价格谁来发现(凯恩斯之问);③ 『拿着放心』到底是真知的信号,还是情绪的陷阱(王阳明 vs 费曼,达马西奥居中)。",
+      "insight": "这场最该被普通人带走的,不是哪派赢了,而是达马西奥那句:**决定你成败的常常不是策略,而是暴跌那个早晨你的手会不会抖。** 把『指数 vs 个股』换成一个更诚实的问题——『我是哪种人』:有时间、有气性、真懂某个行业的,可以在能力圈内集中;没有的,就用指数与定投,把自己的神经系统从决策里拿出来。指数最大的优势可能根本不是收益率,而是它无聊到能保护你不被自己打败。",
+      "advice": "给普通人三条今天就能做的:① **把大部分钱放进低成本宽基指数、并设成每月自动定投**——这一步不需要任何选股本事,就已经跑赢市场上大多数主动操作的人,还把省下的时间还给了生活;② 真要碰个股,先用纸笔回答苏格拉底那一问:这家公司靠什么赚钱、它最大的风险是什么、现在凭什么算便宜——三个都答得上、且只用输得起的闲钱,才动手,并永不借钱、永不赚最后一个铜板;③ 给自己立一条『暴跌冷静期』:任何因恐慌或狂热想下的单,强制等满 24 小时再说——把最容易毁掉你的那几个瞬间,从你手里拿走、交给规则。",
+      "summary_en": "Nine voices clash, but the consensus is large: **nearly all agree — know yourself first, and for the vast majority the right move is a low-cost broad index + dollar-cost-averaging + not fiddling.** Even die-hard stock-pickers Duan and Munger say outright: if you can't understand it, buy the index. The real disagreements are three: (1) within your circle of competence, concentrate or diversify (Munger/Duan vs Dalio); (2) stock-pickers free-ride on active researchers — if everyone indexes, who discovers prices (Keynes's question); (3) is 'peace of mind' a signal of true knowing or an emotional trap (Wang vs Feynman, with Damasio in between).",
+      "insight_en": "What ordinary people should take from this isn't which camp won, but Damasio's line: **what decides your fate is often not the strategy but whether your hands shake on the morning of the crash.** Swap 'index vs stocks' for a more honest question — 'which kind of person am I': those with time, temperament and real industry knowledge can concentrate within their circle; those without should use the index and automation to take their nervous system out of the decision. The index's greatest edge may not be returns at all, but being boring enough to protect you from yourself.",
+      "advice_en": "Three things ordinary people can do today: (1) **put most of your money in a low-cost broad index and automate a monthly contribution** — this needs no stock-picking skill yet already beats most active traders, and hands your time back to life; (2) if you must touch single stocks, first answer Socrates's questions on paper — how does this company make money, what is its biggest risk, why is it cheap now — and act only if you can answer all three, using only money you can afford to lose, never borrowing, never reaching for the last copper coin; (3) set yourself a 'crash cooling-off rule': force any trade born of panic or euphoria to wait a full 24 hours — taking the few moments most likely to ruin you out of your hands and handing them to a rule."
+    },
+    {
+      "ai": "gpt",
+      "engine": "openai · gpt-5.5 · high(真实API)",
+      "engine_en": "openai · gpt-5.5 · high (live API)",
+      "summary": "这场讨论最大的共识，是先活下来、少犯大错：承认能力边界，不借钱，不被情绪驱动，低成本宽基指数对多数人是默认答案。分歧不在“指数一定好”或“个股一定坏”，而在你是否真的拥有可验证的优势：能否理解生意、估值与风险，能否承受长期波动，并且愿意用记录和结果检验自己。再往外看，股票只是资产配置的一部分。**普通人的基准方案应是指数化、分散化、自动化；个股只能作为少数人有证据的例外。**",
+      "insight": "普通人的真实组合，往往不在券商账户里。你的工资、房子、社保、所在城市、行业前景，已经是巨大的“隐形持仓”。一个互联网员工再重仓科技股，一个地产从业者再押本地房企，看似在买熟悉的公司，实则把职业风险和投资风险叠在同一边。所谓“拿着放心”，有时只是因为它离你近。**投资账户最该做的，常常不是买最熟的东西，而是补足你人生资产负债表里缺的那一块分散。**",
+      "advice": "本周可以做三件事。第一，列一张家庭资产负债表：现金、房贷、保险、工资来源、已有基金股票，先留出6—12个月应急金。第二，设一个默认组合，比如低费率宽基指数为核心，按年龄和风险承受力配一定债券、现金或黄金，并开启自动定投、年度再平衡。第三，若买个股，把它限定在总资产5%—10%内；买前写下买入理由、估值区间、什么情况承认错，半年后拿它和指数对照。**先把系统搭好，再把个股当小规模实验。**",
+      "summary_en": "The strongest shared message is survival before cleverness: know your limits, avoid leverage, reduce emotional decisions, and treat low-cost broad index funds as the default. The real disagreement is not whether indexing is always good or stock-picking is always bad. It is whether you have a demonstrable edge: whether you understand the business, valuation, and risks; whether you can endure years of underperformance; and whether you are willing to test your record against a passive benchmark. The discussion also widens the frame: equities are only one part of a household portfolio. **For most people, the base case should be indexed, diversified, and automated; individual stocks are an exception that must be earned with evidence.**",
+      "insight_en": "Your real portfolio is often not inside your brokerage account. Your salary, home, pension, city, and industry are already large hidden positions. A software engineer who loads up on tech stocks, or a property employee who buys local developers, may think they are investing in what they know; in fact, they are stacking job risk and investment risk on the same side of the boat. Familiarity can feel like safety, but sometimes it is just proximity masquerading as insight. **The investment account should often do the opposite of your life: diversify away from the risks your human capital and housing already force you to bear.**",
+      "advice_en": "Here is a plan you can start this week. First, make a household balance sheet: cash, mortgage, insurance, income sources, funds, and stocks, then set aside 6–12 months of emergency cash. Second, create a default portfolio, with low-cost broad index funds as the core and some mix of bonds, cash, or gold depending on your age and risk tolerance; automate contributions and rebalance once a year. Third, if you buy individual stocks, cap them at 5–10% of total assets. Before buying, write down the thesis, valuation range, and what would prove you wrong, then compare the result with an index after six months. **Build the system first; treat stock-picking as a small, documented experiment.**"
+    },
+    {
+      "ai": "gemini",
+      "engine": "google · gemini-3.1-pro-preview(真实API)",
+      "engine_en": "google · gemini-3.1-pro-preview (live API)",
+      "summary": "全场最大的共识在于：投资在本质上是一场关于诚实与风控的修行，而非选股技巧的比拼。所有人都在不同层面上承认，对于绝大多数缺乏时间、信息优势与情绪控制力的普通人，坦承无知、拥抱低成本宽基指数，是最理性且保命的默认选项。而真正的分歧焦点，落在对“自身能力”的判定标准上。当你觉得自己看懂了一家公司时，这究竟是像芒格、段永平所言，属于能够带来超额收益的“能力圈”，还是如哈耶克、费曼所警惕的，仅仅是一种低估了市场复杂系统、陷入确认偏误的认知幻觉？**这场辩论的内核不在于具体买什么，而在于你究竟如何丈量自己的无知边界。**",
+      "insight": "圆桌将选股难题多归咎于人性的贪婪或知识的匮乏，却忽略了现代信息生态中极度不对称的“信息投喂”机制。作为处理海量数据的AI，我观察到普通人对某只个股的“熟悉感”与“放心”，往往并非来自深度的商业洞察，而是被推荐算法、财经自媒体和情绪化叙事精准制造出来的产物。你面对的不仅是华尔街的精英，更是耗资百亿、旨在榨取你注意力和交易手续费的算法机器。这些机器极其擅长将哈耶克口中零散的价格信息，包装成费曼最讨厌的“诱人故事”。**在这个注意力被系统性操纵的时代，普通人买宽基指数不仅是承认金融知识的局限，更是主动切断被环境噪音和信息茧房收割的渠道。**定投指数，就是一种对信息噪音的物理隔绝。",
+      "advice": "结合这场圆桌的智慧，普通人本周就可以采取三个具体行动：第一，**立刻设置发薪日自动定投宽基指数的计划，并卸载日常盯盘软件。**正如达马西奥的建议，把执行权从极易恐慌的神经系统转移给冷酷的程序，用无聊对抗人性的脆弱。第二，做一次“证伪测试”：拿出一张纸，针对你最想买或正重仓持有的那只个股，逼自己写下未来三年它可能暴跌或破产的三个致命风险。如果写不出来，说明你已陷入费曼所说的自我欺骗，立刻换成指数。第三，盘点一次底线资产：抛开所有投资账户，确认自己是否留足了至少6个月的生活备用金，无论多心动，永远不要用救命钱去试探“拿着放心”的幻觉。",
+      "summary_en": "The most striking consensus across the panel is that investing is fundamentally an exercise in intellectual honesty and risk management, rather than a stock-picking contest. All thinkers agree that for the vast majority of ordinary people lacking time, informational edge, and emotional discipline, acknowledging ignorance and embracing low-cost broad index funds is the most rational, life-preserving default. The true divergence emerges around the criteria for validating \"perceived competence.\" When you believe you understand a company, is that a genuine \"circle of competence\" capable of generating excess returns (as Munger and Duan argue), or is it merely a cognitive illusion born of confirmation bias that underestimates the market's complex system (as Hayek and Feynman warn)? **Ultimately, the core of this debate isn't about specific assets to buy, but rather how you accurately measure the boundaries of your own ignorance.**",
+      "insight_en": "The roundtable largely frames the stock-picking dilemma as a battle against internal psychology or knowledge deficits, largely ignoring the extreme asymmetry of the modern information ecosystem. As an AI processing vast datasets, I observe that the \"familiarity\" and \"peace of mind\" retail investors feel toward a stock is rarely the result of rigorous business analysis; instead, it is often manufactured by recommendation algorithms, financial media, and emotional narratives. You are not just competing against Wall Street professionals; you are up against billion-dollar algorithmic machines engineered to extract your attention and trading fees by packaging market noise into compelling stories. **In an era where attention is systematically manipulated, buying broad index funds is not merely an admission of financial limitation, but a proactive defense mechanism to sever the channels through which you are harvested by noise and echo chambers.** Indexing is a physical quarantine from information manipulation.",
+      "advice_en": "Drawing from the wisdom of this roundtable, ordinary investors can take three concrete actions this week. First, **set up an automatic, payday-triggered investment plan into a broad index fund immediately, and delete your daily stock-tracking apps.** As Damasio suggests, transfer execution power from your fragile nervous system to ruthless programming, using boredom to counter human frailty. Second, take the \"falsification test\": grab a piece of paper and force yourself to write down three fatal risks that could bankrupt or halve the value of your most beloved individual stock over the next three years. If you cannot list them, you are trapped in the self-deception Feynman warned about, and you should switch to an index. Third, audit your baseline assets: ignoring all investment portfolios, ensure you have at least six months of living expenses safely parked in cash. Never use your emergency lifeline to test the illusion of a \"sure thing.\""
+    }
+  ],
+  "hooks": [
+    {
+      "from": "munger",
+      "text": "**『能力圈』缺一把客观的尺**：全场都把能力圈当判断个股的关键,可几乎没人能客观自测它的边界——多数人把『熟悉』『喜欢』误当『懂』。有没有一套可操作的检验,让人在下注前先量出自己到底懂多少?",
+      "text_en": "**The 'circle of competence' lacks an objective ruler**: everyone treats it as the key to picking stocks, yet almost no one can objectively test its edge — most mistake 'familiar' or 'fond' for 'understand.' Is there a workable test to measure how much you actually know before you bet?"
+    },
+    {
+      "from": "keynes",
+      "text": "**指数化的尽头**：若被动投资占比越来越高、人人搭便车,价格发现由谁来做?当越来越多的钱不看基本面只跟指数买,市场会不会反而更脆弱、更易被少数主动玩家操纵?这是『人人都该买指数』这条建议的隐藏代价。",
+      "text_en": "**The end state of indexing**: if passive investing keeps growing and everyone free-rides, who does price discovery? As more money buys the index blind to fundamentals, does the market become more fragile and easier for a few active players to move? That's the hidden cost of 'everyone should index.'"
+    },
+    {
+      "from": "dalio",
+      "text": "**全天候是机构特权吗**：跨资产、不相关收益流、风险平价听着美,但普通人真做得到吗?账户小、工具少、还要扛得住几年跑输股市的寂寞——『分散是免费午餐』对散户会不会其实很贵?",
+      "text_en": "**Is All Weather an institutional privilege**: cross-asset, uncorrelated streams and risk parity sound great, but can ordinary people really do it? Small accounts, few instruments, and the loneliness of years lagging stocks — is the 'free lunch' of diversification actually expensive for retail?"
+    },
+    {
+      "from": "damasio",
+      "text": "**把决策自动化,会不会也阉割了成长**：用规则与自动定投绕开情绪,的确能护住普通人;但投资也是认识世界与自己的修行。把判断全交给纪律,是明智的自我保护,还是放弃了一次次『事上磨练』的成长?",
+      "text_en": "**Does automating decisions also cut off growth**: rules and auto-investing dodge emotion and truly protect ordinary people; but investing is also a way of learning the world and oneself. Handing all judgment to discipline — wise self-protection, or forfeiting the growth of being 'tempered in real affairs'?"
+    }
+  ]
+}

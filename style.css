@@ -191,8 +191,8 @@ html, body {
 /* 本场留下的钩子（三方 AI 在辩论之外看见的延伸角度） */
 .hooks { margin: 26px 8px 8px; }
 .hooks-sub { color: var(--txt-muted); font-size: 12px; text-align: center; margin: -4px 0 14px; }
+/* 每条钩子横铺单列、整宽展开——避免 2 列时奇数个末尾落单对不齐 */
 .hooks-list { display: grid; grid-template-columns: 1fr; gap: 10px; }
-@media (min-width: 760px) { .hooks-list { grid-template-columns: repeat(2, 1fr); } }
 .hook { background: var(--bg-card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; }
 .hook-who { display: flex; align-items: center; gap: 8px; margin-bottom: 7px; }
 .hook-who .nm { font-size: 14px; font-weight: 500; }

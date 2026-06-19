@@ -101,14 +101,27 @@
     var cands = (data.candidates || []).slice().sort(function (a, b) { return (b.votes || 0) - (a.votes || 0); });
     var maxVotes = cands.reduce(function (m, c) { return Math.max(m, c.votes || 0); }, 0);
     var topId = maxVotes > 0 ? cands[0].id : null;
+    var done = (data.debated || []).slice();
+    function doneCard(d) {
+      return '<a class="done-card" href="debate.html?d=' + esc(d.id) + '">' +
+        '<i class="ti ti-circle-check dcheck"></i>' +
+        '<span class="dq">' + esc(pick(d, "q")) + "</span>" +
+        '<span class="dgo">' + T("enter") + "</span></a>";
+    }
     var html = '<div class="sec-label">' + T("candLabel") + "</div>";
-    // 按主题分组展示(组内仍按净票降序，因 cands 已全局排好序、过滤保持相对序)
+    // 按主题分组：组内先列『候选』(净票降序)，再列该类已辩过的
     CATS.forEach(function (cat) {
       var members = cands.filter(function (c) { return (c.cat || "other") === cat.key; });
-      if (!members.length) return;
+      var dmem = done.filter(function (d) { return (d.cat || "other") === cat.key; });
+      if (!members.length && !dmem.length) return;
       html += '<div class="cat-head"><span class="cat-name">' + esc(catLabel(cat)) +
-        '</span><span class="cat-count">' + members.length + "</span></div>";
+        '</span><span class="cat-count">' + (members.length + dmem.length) + "</span></div>";
       html += members.map(function (c, i) { return candCard(c, i + 1, c.id === topId); }).join("");
+      if (dmem.length) {
+        dmem.sort(function (a, b) { return String(b.date || "").localeCompare(String(a.date || "")); });
+        html += '<div class="done-sub"><i class="ti ti-circle-check"></i> ' + T("doneLabel") + "</div>";
+        html += dmem.map(doneCard).join("");
+      }
     });
 
     // 开放征题：观众提自己的议题（独立 giscus 讨论，term=open-questions）
@@ -123,16 +136,6 @@
       '<div class="giscus-wrap"><div class="giscus-loading">' + T("loading") + "</div></div>" +
       "</div></div></div>";
 
-    var done = data.debated || [];
-    if (done.length) {
-      html += '<div class="sec-label">' + T("doneLabel") + "</div>";
-      html += done.map(function (d) {
-        return '<a class="done-card" href="debate.html?d=' + esc(d.id) + '">' +
-          '<i class="ti ti-circle-check dcheck"></i>' +
-          '<span class="dq">' + esc(pick(d, "q")) + "</span>" +
-          '<span class="dgo">' + T("enter") + "</span></a>";
-      }).join("");
-    }
     document.getElementById("content").innerHTML = html;
 
     // 投票/讨论按钮：点开即懒加载该议题的 giscus

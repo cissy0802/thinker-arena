@@ -13,6 +13,16 @@
       title: "Thinkers' Round Table · BigCat's Thinking Hub" }
   };
   function T(k) { return UI[LANG][k]; }
+  // 主题分组（与 ideas 投票页一致；cat 存在 debates/index.json 每场的 cat 字段）
+  var CATS = [
+    { key: "work",   zh: "职场 · 组织 · 领导",   en: "Work, org & leadership" },
+    { key: "self",   zh: "处世 · 自我 · 成长",   en: "Self, growth & living" },
+    { key: "life",   zh: "人生 · 生死 · 家庭",   en: "Life, family & mortality" },
+    { key: "ethics", zh: "伦理 · 政治 · 社会",   en: "Ethics, politics & society" },
+    { key: "meta",   zh: "形而上 · 认识 · 文明", en: "Mind, reality & civilization" },
+    { key: "other",  zh: "其他",                en: "More" }
+  ];
+  function catLabel(c) { return LANG === "en" ? c.en : c.zh; }
   function pick(o, f) { return (LANG === "en" && o && o[f + "_en"] != null) ? o[f + "_en"] : (o ? o[f] : undefined); }
   function esc(s) {
     return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
@@ -47,7 +57,9 @@
         return;
       }
 
-      var html = debates.map(function (d, i) {
+      // 每场记真实场次号（按 index.json 原序），再按主题分组、组内最新在前
+      debates.forEach(function (d, i) { d.__n = i + 1; });
+      function card(d) {
         var seats = (d.participants || []).map(function (id) {
           var c = TK[id] || { char: "?", color: "#888", fg: "#fff" };
           var g = (LANG === "en" && c.char_en) ? c.char_en : c.char;
@@ -55,13 +67,21 @@
         }).join("");
         var n = (d.participants || []).length;
         return '<a class="topic-card" href="debate.html?d=' + esc(d.id) + '">' +
-          '<div class="idx">' + esc(T("session").replace("%N", i + 1)) + "</div>" +
+          '<div class="idx">' + esc(T("session").replace("%N", d.__n)) + "</div>" +
           '<div class="q">' + esc(pick(d, "question")) + "</div>" +
           '<div class="seats">' + seats + '<span class="more">' + n + esc(T("panel")) + "</span></div>" +
           '<div class="meta"><span><i class="ti ti-calendar" style="font-size:13px;vertical-align:-2px"></i> ' +
           esc(d.date || "") + '</span><span class="go">' + T("enter") + "</span></div></a>";
-      }).join("");
-
+      }
+      var html = "";
+      CATS.forEach(function (cat) {
+        var members = debates.filter(function (d) { return (d.cat || "other") === cat.key; });
+        if (!members.length) return;
+        members.sort(function (a, b) { return b.__n - a.__n; }); // 最新场在前
+        html += '<div class="cat-head"><span class="cat-name">' + esc(catLabel(cat)) +
+          '</span><span class="cat-count">' + members.length + "</span></div>";
+        html += members.map(card).join("");
+      });
       document.getElementById("list").innerHTML = html;
     })
     .catch(function (e) {

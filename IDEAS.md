@@ -52,6 +52,7 @@
 - [ ] 大型组织里的『组织政治』，是毒瘤还是必需？普通人又该如何看待、甚至善用它？  <!--office-politics-->
 - [ ] 家中老人病重、靠插管维持近乎植物人的状态，作为子女，该不该撤管放手？  <!--withdraw-life-support-->
 - [ ] 企业用人，该「以德为先」还是「以才为先」？  <!--virtue-vs-talent-->
+- [ ] 下属能力或动力不足，领导该花时间 coaching，还是果断 manage out？  <!--coach-or-manage-out-->
 
 ---
 

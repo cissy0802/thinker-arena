@@ -113,6 +113,41 @@ def main(path):
                 (errs if s["ai"] == "claude" else warns).append(
                     msg + ("" if s["ai"] == "claude" else "（真实 API，仅提示）"))
 
+    # ---- 反连号 / 反锚定（只 WARN，不阻断）：与最近几场比，揪出结构性雷同 ----
+    # 软约定（人数、钩子数、选角）最易过拟合成定值；交给机器照出来，胜过 ENGINE 里反复劝。
+    try:
+        alld = json.load(open("debates/index.json"))["debates"]
+        cur = d.get("id")
+        ids = [e["id"] for e in alld]
+        pos = ids.index(cur) if cur in ids else len(alld)
+        prev = alld[max(0, pos - 3):pos]            # 本场之前最多 3 场
+    except Exception:
+        prev = []
+    if prev:
+        # 1) 人数连号
+        pc = len(parts)
+        pcs = [len(e.get("participants", [])) for e in prev]
+        if len(pcs) >= 2 and all(x == pc for x in pcs[-2:]):
+            warns.append(f"反锚定：人数={pc} 与最近 2 场相同（{pcs[-2:]}）——6–10 间换个数，别跟着最近抄")
+        # 2) 与上一场参与者重叠过高
+        last = set(prev[-1].get("participants", []))
+        if last and parts:
+            ov = len(set(parts) & last) / len(set(parts))
+            if ov > 0.5:
+                shared = "、".join(sorted(set(parts) & last))
+                warns.append(f"反锚定：与上一场参与者重叠 {ov:.0%}（>50%：{shared}）——换血，多用欠曝光/没上过的人")
+        # 3) 钩子数连号（疑似锚成『每家一条＝3』）
+        def hkn(eid):
+            p = f"debates/{eid}.json"
+            try:
+                return len(json.load(open(p)).get("hooks") or [])
+            except Exception:
+                return None
+        hc = len(d.get("hooks") or [])
+        hcs = [x for x in (hkn(e["id"]) for e in prev) if x is not None]
+        if hc and len(hcs) >= 2 and all(x == hc for x in hcs[-2:]):
+            warns.append(f"反锚定：钩子数={hc} 与最近 2 场相同（{hcs[-2:]}）——条数随议题浮动(约3–7)，别凑成每家一条")
+
     for w in warns:
         print("WARN:", w)
     for e in errs:

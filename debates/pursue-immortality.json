@@ -5,7 +5,7 @@
   "date": "2026-06-17",
   "participants": [
     "thiel",
-    "feynman",
+    "augustine",
     "dawkins",
     "heidegger",
     "beauvoir",
@@ -21,9 +21,9 @@
       "reason_en": "Silicon Valley's spokesman for the 'war on death,' who holds that aging is a researchable, solvable technical problem and that 'serene acceptance' of death is mostly cowardice — the firmest pro-immortality voice here."
     },
     {
-      "id": "feynman",
-      "reason": "物理学家的视角：遍查生物学也找不到一条规定『生命必须死亡』的定律，死亡更像未解的工程问题——为本场注入『能不能』的科学乐观，与对自欺的警惕。",
-      "reason_en": "The physicist's angle: nowhere in biology is there a law that life must die, making death look more like an unsolved engineering problem — bringing scientific optimism about what's possible, and a guard against fooling ourselves."
+      "id": "augustine",
+      "reason": "基督教神学巨擘，本场宗教视角：主张真正的永生是灵魂的不朽与肉身的复活、是神所赐的恩典，肉身长生不过是把有限当无限的偶像崇拜——为蒂尔式的『向死亡宣战』立下最直接的神学反方。",
+      "reason_en": "A towering Christian theologian and the religious lens here: he holds that true immortality is the soul's incorruption and the body's resurrection, a gift of grace, and that bodily life-extension is mere idolatry — treating the finite as the infinite — the most direct theological case against Thiel's 'war on death.'"
     },
     {
       "id": "dawkins",
@@ -42,8 +42,8 @@
     },
     {
       "id": "vasubandhu",
-      "reason": "唯识学代表，本场佛学视角：以『无我』与『对存在的渴爱』直指——求长生是紧抓一个本不存在的『我』，病根在执取，而非寿数太短。",
-      "reason_en": "A founder of Yogācāra and the Buddhist lens here: with 'no-self' and 'the craving for existence' he argues that chasing immortality is clutching at a 'self' that was never there — the root ill is grasping, not a lifespan too short."
+      "reason": "唯识学奠基者，本场佛学视角：以『阿赖耶识』那道穿越生死、含藏业种的相续识流回应——求肉身长生是认错了相续的载体，病根在执取，而非寿数太短。",
+      "reason_en": "A founder of Yogācāra and the Buddhist lens here: with the ālaya-vijñāna — the stream of consciousness that carries the seeds of karma across death and rebirth — he answers that chasing bodily immortality mistakes the vehicle of continuity; the root ill is grasping, not a lifespan too short."
     },
     {
       "id": "arendt",
@@ -74,10 +74,8 @@
       "glossary": null,
       "glossary_en": null,
       "reactions": {
-        "轻微赞同": [
-          "feynman"
-        ],
         "强烈反对": [
+          "augustine",
           "vasubandhu",
           "sushi"
         ],
@@ -95,30 +93,36 @@
     {
       "id": "p02",
       "round": 1,
-      "thinker": "feynman",
+      "thinker": "augustine",
       "reply_to": null,
-      "text": "我不忙着谈该不该，先谈能不能。有件事在生物学里特别值得玩味：翻遍所有生命科学，找不到任何一条定律规定『生命体必须死亡』。细胞会老、会出错，可那看起来像是还没修好的工程问题，而不是宇宙写死的铁律。既然原子都按物理定律办事，原则上没有什么阻止我们搞懂衰老、再动手去改它。我不预言一定能成，但把死亡当成『连试都不必试的不可能』，那才最不科学。",
-      "text_en": "I'm in no hurry to argue whether we should; first, can we? Here's something in biology worth chewing on: comb through all the life sciences and you'll find no law that says a living thing must die. Cells age and accumulate errors, but that looks like an engineering problem we haven't fixed yet, not an iron rule the universe wrote in. Since atoms obey physical law, in principle nothing stops us from understanding aging and then going in to change it. I won't predict success, but treating death as 'an impossibility not even worth testing' — that's the least scientific stance of all.",
+      "text": "诸位忙着算计如何不死，我却要先问：你们究竟在怕什么、又在渴求什么？我年轻时纵情声色、四处寻安稳而不可得，直到明白——你造我们是为了你自己，我们的心便不得安息（cor inquietum），直到安息在你怀中。人对永恒的那份焦渴是真的，但它指向的是神，不是这具会朽的皮囊。把无限的盼望浇筑进有限的肉身，正是圣经所斥的偶像崇拜。真正的永生，是灵魂的不朽与肉身的复活，是恩典白白赐下的，而非你能从死神手里抢来的战利品。死亡不是要被攻克的敌人，而是回家的门槛。",
+      "text_en": "While you all calculate how not to die, let me first ask: what is it you fear, and what do you crave? In my youth I gave myself to pleasures and searched everywhere for rest and found none, until I understood — you have made us for yourself, and our heart is restless (cor inquietum) until it rests in you. The human thirst for the eternal is real, but it points toward God, not toward this perishable flesh. To pour an infinite hope into a finite body is the very idolatry Scripture condemns. True immortality is the incorruption of the soul and the resurrection of the body, freely given by grace — not a trophy you can wrest from death's hand. Death is not an enemy to be conquered but the threshold of going home.",
       "vernacular": null,
       "vernacular_en": null,
-      "glossary": null,
-      "glossary_en": null,
+      "glossary": {
+        "cor inquietum": "cor inquietum（不安的心）：奥古斯丁《忏悔录》名句『我们的心不得安息，直到安息于你』中的拉丁语，指人对永恒、对神的内在渴求，无法被任何有限事物（包括延长的寿命）真正满足。"
+      },
+      "glossary_en": {
+        "cor inquietum": "The 'restless heart' from Augustine's Confessions ('our heart is restless until it rests in you') — the inner human longing for the eternal, for God, that no finite thing (including a longer lifespan) can truly satisfy."
+      },
       "reactions": {
-        "强烈赞同": [
-          "thiel"
-        ],
         "轻微赞同": [
-          "dawkins"
-        ],
-        "轻微反对": [
           "heidegger",
-          "beauvoir",
-          "arendt",
           "sushi"
         ],
+        "强烈反对": [
+          "thiel"
+        ],
+        "轻微反对": [
+          "beauvoir",
+          "dawkins"
+        ],
+        "中立": [
+          "arendt"
+        ],
         "疑惑": [
-          "ramachandran",
-          "vasubandhu"
+          "vasubandhu",
+          "ramachandran"
         ]
       }
     },
@@ -142,16 +146,18 @@
           "thiel"
         ],
         "轻微赞同": [
-          "feynman",
           "ramachandran"
+        ],
+        "强烈反对": [
+          "augustine"
         ],
         "轻微反对": [
           "heidegger",
           "sushi"
         ],
         "中立": [
-          "arendt",
-          "beauvoir"
+          "beauvoir",
+          "arendt"
         ],
         "疑惑": [
           "vasubandhu"
@@ -180,13 +186,11 @@
         ],
         "轻微赞同": [
           "vasubandhu",
-          "arendt"
+          "arendt",
+          "augustine"
         ],
         "强烈反对": [
           "thiel"
-        ],
-        "轻微反对": [
-          "feynman"
         ],
         "疑惑": [
           "dawkins",
@@ -214,14 +218,14 @@
           "arendt",
           "vasubandhu"
         ],
-        "强烈反对": [
+        "轻微反对": [
           "thiel"
         ],
-        "轻微反对": [
-          "feynman"
+        "中立": [
+          "dawkins",
+          "augustine"
         ],
         "疑惑": [
-          "dawkins",
           "ramachandran"
         ]
       }
@@ -231,15 +235,15 @@
       "round": 1,
       "thinker": "vasubandhu",
       "reply_to": null,
-      "text": "诸位争的是『要不要保住这个我』，可佛法要先问：那个你想永远留住的『我』，本就不存在。你以为有个固定不变的自己，其实它只是念念相续、刹那生灭的心识之流，像河——你永远踏不进同一条。真正绑住你的，是对『继续存在下去』的深层渴爱（bhava-taṇhā），它正是轮回与苦的根。求长生，是用尽全力去抓一个本来就抓不住的影子；抓得越紧，苦得越深。你要的不该是更长的命，而是看破这份执取。",
-      "text_en": "You are all arguing over whether to 'preserve this self,' but the Dharma asks first: the 'self' you want to keep forever was never there to begin with. You assume there is a fixed, unchanging you; in truth it is only a stream of mind-moments arising and ceasing instant by instant — like a river you can never step into twice. What truly binds you is a deep craving to 'go on existing' (bhava-taṇhā), and that is the very root of the cycle of suffering. To chase immortality is to strain with all your might to grasp a shadow that cannot be grasped; the tighter the grip, the deeper the suffering. What you should want is not a longer life, but to see through this clinging.",
+      "text": "诸位争着要保住『这个我』，可那个你想永远留住的固定自我，本就不存在。但佛法并不因此说人死即一切断灭——在我唯识一脉看来，贯穿生死的，是『阿赖耶识』（ālaya-vijñāna），那含藏一切业种的根本识。它不是一个不变的灵魂，而是『恒转如瀑流』：刹那刹那生灭，却又前后相续不断，像瀑布远看是一道水、近看水滴无一停留。是它载着你的业，穿过这一期肉身的死亡，流向下一程。所以真正相续的从来不是身体；你拼命想延长的肉身，根本不是那条河。看不清这一点，纵使续命千年，也只是把执取喂得更肥。",
+      "text_en": "You are all fighting to preserve 'this self,' but the fixed self you wish to keep forever was never there. Yet the Dharma does not therefore say that at death all is annihilated — in my Yogācāra line, what runs through life and death is the ālaya-vijñāna, the root consciousness that stores all the seeds of karma. It is not an unchanging soul but 'ever-flowing like a torrent': arising and ceasing instant by instant, yet continuous front to back, like a waterfall that from afar looks like one sheet of water though up close not a single droplet stays. It is this that carries your karma through the death of this body and on to the next stretch. So what truly continues is never the body; the flesh you strain to prolong is simply not that river. Miss this, and even a thousand extra years only fatten the clinging.",
       "vernacular": null,
       "vernacular_en": null,
       "glossary": {
-        "bhava-taṇhā": "bhava-taṇhā（有爱／对存在的渴求）：佛教指对『继续存在、永远活着』的深层渴爱，被视为驱动轮回与痛苦的根本贪执之一。"
+        "阿赖耶识": "ālaya-vijñāna（阿赖耶识／藏识）：唯识学所立第八识，含藏一切业的『种子』，刹那生灭而前后相续（『恒转如瀑流』），是无我前提下贯穿生死、承载业果的根本识。"
       },
       "glossary_en": {
-        "bhava-taṇhā": "Craving for existence: in Buddhism, the deep thirst to 'keep existing, to live on,' regarded as one of the root cravings that drive the cycle of suffering."
+        "ālaya-vijñāna": "The 'storehouse consciousness,' the eighth consciousness posited by Yogācāra; it holds all the karmic 'seeds,' arising and ceasing moment to moment yet continuous ('ever-flowing like a torrent'), and is what carries karma across death and rebirth without any permanent self."
       },
       "reactions": {
         "强烈赞同": [
@@ -251,14 +255,14 @@
           "beauvoir"
         ],
         "轻微反对": [
-          "thiel"
+          "thiel",
+          "augustine"
+        ],
+        "疑惑": [
+          "dawkins"
         ],
         "中立": [
           "arendt"
-        ],
-        "疑惑": [
-          "feynman",
-          "dawkins"
         ]
       }
     },
@@ -285,13 +289,13 @@
         "轻微赞同": [
           "heidegger",
           "vasubandhu",
-          "dawkins"
+          "dawkins",
+          "augustine"
         ],
         "轻微反对": [
           "thiel"
         ],
         "疑惑": [
-          "feynman",
           "ramachandran"
         ]
       }
@@ -317,10 +321,10 @@
           "heidegger"
         ],
         "轻微反对": [
-          "thiel"
+          "thiel",
+          "augustine"
         ],
         "疑惑": [
-          "feynman",
           "dawkins",
           "arendt"
         ]
@@ -347,8 +351,10 @@
           "arendt"
         ],
         "轻微反对": [
-          "thiel",
-          "feynman"
+          "thiel"
+        ],
+        "中立": [
+          "augustine"
         ],
         "疑惑": [
           "dawkins",
@@ -369,7 +375,7 @@
       "glossary_en": null,
       "reactions": {
         "轻微赞同": [
-          "feynman"
+          "dawkins"
         ],
         "强烈反对": [
           "heidegger"
@@ -377,10 +383,10 @@
         "轻微反对": [
           "vasubandhu",
           "sushi",
-          "beauvoir"
+          "beauvoir",
+          "augustine"
         ],
         "疑惑": [
-          "dawkins",
           "arendt",
           "ramachandran"
         ]
@@ -389,32 +395,32 @@
     {
       "id": "p11",
       "round": 2,
-      "thinker": "feynman",
-      "reply_to": "p05",
-      "text": "波伏娃说永生必然走向厌倦，可那是小说，不是数据。厌倦是个具体的脑机制问题——新异刺激耗竭、多巴胺适应——未必随寿命线性增长，说不定能研究、能调。把一个虚构人物的倦怠当成永生的铁律，恰恰犯了我最警惕的毛病：用一个动听的故事骗自己，省去了真去查清楚的功夫。我不知道长生会不会无聊，但我知道，没试过就断言它一定无聊，是想象力的破产，而不是智慧。",
-      "text_en": "Beauvoir says immortality must end in boredom — but that's a novel, not data. Boredom is a concrete brain-mechanism question — depletion of novelty, dopamine adaptation — and it needn't grow in lockstep with lifespan; perhaps it can be studied and tuned. Taking one fictional character's weariness as an iron law of immortality is exactly the vice I most warn against: fooling yourself with a beautiful story so you can skip the work of actually finding out. I don't know whether eternal life would be boring, but I do know that declaring it must be boring without ever testing is a failure of imagination, not wisdom.",
+      "thinker": "augustine",
+      "reply_to": "p01",
+      "text": "蒂尔要向死亡宣战，可在我看来，那是把人摆上了神的位置。你说死亡是可攻克的敌人——但请想清楚，你想夺取的『不死』，本是造物主的属性，不是受造物的权利。当年亚当伸手去摘那分别善恶的果子，图的正是『如神一般』、自己做主、自己不死；其结果不是永生，而是把死亡领进了世界。今天用试管和算法去抢同一样东西，骄傲是同一种骄傲。我不反对医病疗伤——那是爱邻舍；我反对的是把『绝不交出自己』当成终极工程，那不是勇敢，而是不肯信靠、不肯把自己交还给那位赐下生命的。",
+      "text_en": "Thiel wants to wage war on death, but to my eyes that is to set man in the place of God. You call death a conquerable enemy — yet consider: the 'deathlessness' you would seize is a property of the Creator, not a right of the creature. When Adam reached for the fruit of the knowledge of good and evil, what he wanted was precisely to be 'like God,' to be his own master, to not die; the result was not eternal life but death let into the world. To grasp at the same thing today with test tubes and algorithms is the same pride in a new costume. I am not against healing the sick — that is love of neighbor; I am against making 'I will never surrender myself' your ultimate project, for that is not courage but a refusal to trust, a refusal to hand yourself back to the One who gave the life.",
       "vernacular": null,
       "vernacular_en": null,
       "glossary": null,
       "glossary_en": null,
       "reactions": {
-        "强烈赞同": [
-          "thiel"
-        ],
         "轻微赞同": [
-          "dawkins"
+          "heidegger",
+          "sushi",
+          "vasubandhu"
         ],
         "强烈反对": [
-          "beauvoir"
+          "thiel"
         ],
         "轻微反对": [
-          "heidegger",
-          "sushi"
+          "dawkins"
         ],
         "疑惑": [
-          "vasubandhu",
-          "arendt",
+          "beauvoir",
           "ramachandran"
+        ],
+        "中立": [
+          "arendt"
         ]
       }
     },
@@ -438,7 +444,7 @@
           "heidegger",
           "arendt",
           "ramachandran",
-          "feynman"
+          "augustine"
         ],
         "轻微反对": [
           "thiel"
@@ -466,13 +472,11 @@
         ],
         "轻微赞同": [
           "vasubandhu",
-          "arendt"
+          "arendt",
+          "augustine"
         ],
         "强烈反对": [
           "thiel"
-        ],
-        "轻微反对": [
-          "feynman"
         ],
         "疑惑": [
           "dawkins",
@@ -485,8 +489,8 @@
       "round": 2,
       "thinker": "beauvoir",
       "reply_to": "p11",
-      "text": "费曼说我只是在讲故事——可文学正是用来推演数据到不了的地方。我的论点不靠『无聊』这一个词：要害在『分量』。价值来自稀缺与不可逆——正因为时间有限、机会不再来，一次选择、一场告别才重若千钧。你可以调多巴胺骗过厌倦，却调不出『这一次很重要』的那份真实，因为重要本就来自『会失去』。再说，就算个人愿赌，谁先长生？必是付得起的人。永生很可能不是全人类的解放，而是一道把不平等浇筑成永恒的工序。",
-      "text_en": "Feynman says I'm merely telling a story — but literature is exactly the instrument for testing where data can't yet reach. My argument doesn't rest on the single word 'boredom'; the crux is 'weight.' Value comes from scarcity and irreversibility — it is because time is finite and the chance won't come again that a single choice, a single farewell, weighs a thousand pounds. You can tune dopamine to cheat boredom, but you can't synthesize the truth of 'this time it matters,' because mattering arises from 'it can be lost.' And even if an individual is willing to gamble — who gets to live forever first? Surely those who can pay. Immortality is less likely to be humanity's liberation than a process that casts inequality into permanence.",
+      "text": "奥古斯丁要我们把心交还给神，可我恰恰不信有谁在那头接着。正因为没有彼岸来兜底，此生的有限才不是缺陷，而是一切意义的源头——是『不会再来』让每一次选择、每一场告别重若千钧。把盼望寄到来世，太容易变成对今生的轻慢：反正真正的生命在别处，于是此处的不公、此处的爱都可以将就。我宁可什么都不被许诺，也要在这唯一的一生里，认真地去爱、去反抗、去选择。还有一句：无论你许诺的是肉身长生还是天国永生，谁先得到？历史里，总有人替另一些人决定了天堂的门票。",
+      "text_en": "Augustine asks us to hand our hearts back to God, but I simply don't believe anyone is there to catch them. Precisely because there is no beyond to backstop us, the finitude of this life is not a defect but the source of all meaning — it is 'it won't come again' that makes every choice, every farewell, weigh a thousand pounds. To lodge your hope in an afterlife slides too easily into contempt for this one: if real life is elsewhere, then the injustice here, the love here, can all be made do with. I would rather be promised nothing and still, in this single life, truly love, truly resist, truly choose. And one more thing: whether you promise bodily immortality or heavenly eternity — who gets it first? In history, someone has always decided for everyone else who gets the ticket to heaven.",
       "vernacular": null,
       "vernacular_en": null,
       "glossary": null,
@@ -494,19 +498,19 @@
       "reactions": {
         "强烈赞同": [
           "heidegger",
-          "sushi",
-          "arendt"
+          "sushi"
         ],
         "轻微赞同": [
-          "vasubandhu"
-        ],
-        "轻微反对": [
-          "feynman",
-          "thiel"
-        ],
-        "疑惑": [
+          "arendt",
           "dawkins",
           "ramachandran"
+        ],
+        "强烈反对": [
+          "augustine"
+        ],
+        "轻微反对": [
+          "vasubandhu",
+          "thiel"
         ]
       }
     },
@@ -515,8 +519,8 @@
       "round": 2,
       "thinker": "vasubandhu",
       "reply_to": "p01",
-      "text": "蒂尔纵然成功，把命延到千年，也只是把那份对失去的恐惧拉长了一千年——病根未除，反倒被喂大。你以为长生能止住怖畏，其实渴爱无底：活到八百岁，仍会怕第八百零一年到来。佛法不是叫你认命去死，而是指出：苦不在『命太短』，而在『紧抓不放』的这颗心。把力气全砸向延长那个被抓取的对象，不如回头看清那只一直在抓的手。手一松，纵使明日就死，今日已得自在；手不松，纵活万年，也日日是煎熬。",
-      "text_en": "Even if Thiel succeeds and stretches a life to a thousand years, he has only stretched the fear of loss across those thousand years — the root illness uncured, in fact fed and grown. You think longevity can quiet the dread, but craving is bottomless: live to eight hundred and you'll still fear the arrival of the eight-hundred-and-first. The Dharma doesn't tell you to resign yourself and die; it points out that suffering lies not in 'too short a life' but in this mind that 'clutches and won't let go.' Rather than hurling all your strength at extending the thing being grasped, turn and see clearly the hand that has been grasping all along. Loosen it, and though you die tomorrow, today you are already free; keep it clenched, and though you live ten thousand years, every day is torment.",
+      "text": "蒂尔纵然成功，把这具肉身延到千年，也只是延长了一个『站台』，并没碰到那列真正穿越生死的车——阿赖耶识里的业种，丝毫不因你的长生而清净。你以为抓住了肉身就抓住了自己，其实你怕失去的那个相续，从不在肉身里：它念念生灭、本来就在『死』，又念念相续、从不曾真断。佛法不是劝你认命去死，而是指出病根——苦不在『站台太小、停留太短』，而在那颗死攥着站台不放、以为站台就是家的心。与其耗尽一生加固一个终将拆除的站台，不如认出那只一直在攥的手，把它松开。",
+      "text_en": "Even if Thiel succeeds and stretches this body to a thousand years, he has only lengthened a 'platform' and never touched the train that truly crosses life and death — the karmic seeds in the ālaya consciousness are not one whit purified by your longevity. You think that by gripping the body you have gripped yourself, but the continuity you fear losing was never in the body: it arises and ceases moment to moment — it is already 'dying' — and yet continues moment to moment, never truly severed. The Dharma doesn't urge you to resign yourself and die; it names the root illness — suffering lies not in 'too small a platform, too brief a stop,' but in the mind that clutches the platform and takes it for home. Rather than spend a whole life reinforcing a platform that will be torn down anyway, recognize the hand that has been clutching all along, and let it open.",
       "vernacular": null,
       "vernacular_en": null,
       "glossary": null,
@@ -528,11 +532,11 @@
         "轻微赞同": [
           "heidegger",
           "beauvoir",
-          "ramachandran"
+          "ramachandran",
+          "augustine"
         ],
         "轻微反对": [
-          "thiel",
-          "feynman"
+          "thiel"
         ],
         "疑惑": [
           "dawkins",
@@ -545,8 +549,8 @@
       "round": 2,
       "thinker": "arendt",
       "reply_to": "p02",
-      "text": "费曼只问『能不能』，却跳过了真正要紧的『那将造出怎样一个世界』。科学家盯着实验台上孤零零的一条命，可政治思考必须看人与人之间。假设成了：第一批长生者必是掌权者与巨富，他们既不交班、也不退场，几个世纪稳坐原位。新生者带来的每一个新开端，都会撞上一堵不死的旧墙。一个不再有人离场的世界，不是更自由，而是再不更新、由老人永恒统治的世界。能办到，不等于该办；尤其当它办到的方式必然如此不公。",
-      "text_en": "Feynman asks only 'can we,' skipping the question that really counts: 'what kind of world would that make?' A scientist fixes on a single life on the lab bench, but political thinking must look at the space between people. Suppose it works: the first to gain immortality will be the powerful and the ultra-rich, who neither hand over the reins nor leave, sitting tight in place for centuries. Every new beginning the newborn bring will slam into a wall of the undying old. A world from which no one ever exits is not freer; it is a world never renewed, ruled forever by the old. That we can do a thing does not mean we should — least of all when the way it gets done is bound to be this unjust.",
+      "text": "奥古斯丁把永生引向个人灵魂与神的私语，我却要把目光拉回人与人之间的世界。无论你求的是肉身不死，还是灵魂得救，都还是一个人在面对自己的结局；可人不是孤独地降生、也不是孤独地得救的——我们生在一个先于我们、也将续于我们的公共世界里。这世界靠『诞生性』更新：总有新人带着新的眼睛到来，发起前人想不到的开端。我真正怕的，不是某个人死或不死，而是一个不再有人离场、也不再有人真正『到来』的世界——那才是死亡，一种集体的、再不更新的死亡。",
+      "text_en": "Augustine steers immortality toward the private colloquy of the individual soul with God, but I want to pull our gaze back to the world that lies between people. Whether you seek bodily deathlessness or the salvation of the soul, it is still one person facing his own end; yet we are not born alone, nor saved alone — we are born into a public world that preceded us and will continue after us. That world renews itself through 'natality': newcomers keep arriving with new eyes, launching beginnings no predecessor imagined. What I truly fear is not whether any one person dies, but a world from which no one exits and into which no one truly 'arrives' — that is death, a collective death that never renews.",
       "vernacular": null,
       "vernacular_en": null,
       "glossary": null,
@@ -558,11 +562,11 @@
         ],
         "轻微赞同": [
           "heidegger",
-          "vasubandhu",
-          "dawkins"
+          "dawkins",
+          "vasubandhu"
         ],
         "轻微反对": [
-          "feynman",
+          "augustine",
           "thiel"
         ],
         "疑惑": [
@@ -575,8 +579,8 @@
       "round": 2,
       "thinker": "ramachandran",
       "reply_to": "p06",
-      "text": "世亲从佛法说『无我』，我从大脑给他添个硬证据：自我感真是拼装出来的——损伤特定脑区，人会坚信至亲被冒名顶替者掉了包（卡普格拉妄想），会矢口否认自己半身瘫痪，会觉得某条胳膊根本不是自己的。可见『我是谁、哪些属于我』全靠神经回路撑着，回路一断，自我就散。但我也要替长生派补一句公道：哪怕『我』是建构的，对当事人那也是唯一真实的家。问题不在该不该破我执，而在——一个跨越五百年、记忆早被洗刷重写的大脑，还撑不撑得起一个能称之为『我』的故事。",
-      "text_en": "Vasubandhu argues 'no-self' from the Dharma; let me hand him hard evidence from the brain: the sense of self really is assembled — damage a particular region and a person will be convinced a loved one has been swapped for an impostor (the Capgras delusion), will flatly deny that half their body is paralyzed, will feel that a certain arm isn't theirs at all. Clearly 'who I am, what belongs to me' is propped up by neural circuitry; cut the circuit and the self falls apart. But let me also do the pro-longevity side justice: even if the 'I' is constructed, to the one living it that is the only real home there is. The question isn't whether we should dissolve self-clinging, but whether a brain stretched across five hundred years, its memories long washed and rewritten, can still sustain a story it could call 'I.'",
+      "text": "世亲从佛法说『无我』、又用阿赖耶识讲相续，我从大脑给他添一份硬证据：自我感真是拼装出来的——损伤特定脑区，人会坚信至亲被冒名顶替者掉了包（卡普格拉妄想），会矢口否认自己半身瘫痪，会觉得某条胳膊根本不是自己的。可见『我是谁、哪些属于我』全靠神经回路撑着，回路一断，自我就散。但我也要替长生派补一句公道：哪怕『我』是建构的、是相续而非常一，对当事人那也是唯一真实的家。问题不在该不该破我执，而在——一个跨越五百年、记忆早被洗刷重写的大脑，还撑不撑得起一个能称之为『我』的故事。",
+      "text_en": "Vasubandhu argues 'no-self' from the Dharma and continuity from the ālaya consciousness; let me hand him hard evidence from the brain: the sense of self really is assembled — damage a particular region and a person will be convinced a loved one has been swapped for an impostor (the Capgras delusion), will flatly deny that half their body is paralyzed, will feel that a certain arm isn't theirs at all. Clearly 'who I am, what belongs to me' is propped up by neural circuitry; cut the circuit and the self falls apart. But let me also do the pro-longevity side justice: even if the 'I' is constructed, continuous rather than singular, to the one living it that is the only real home there is. The question isn't whether we should dissolve self-clinging, but whether a brain stretched across five hundred years, its memories long washed and rewritten, can still sustain a story it could call 'I.'",
       "vernacular": null,
       "vernacular_en": null,
       "glossary": null,
@@ -591,10 +595,10 @@
           "heidegger"
         ],
         "轻微反对": [
-          "thiel"
+          "thiel",
+          "augustine"
         ],
         "疑惑": [
-          "feynman",
           "dawkins",
           "arendt"
         ]
@@ -618,11 +622,11 @@
         ],
         "轻微赞同": [
           "heidegger",
-          "arendt"
+          "arendt",
+          "augustine"
         ],
         "轻微反对": [
-          "thiel",
-          "feynman"
+          "thiel"
         ],
         "疑惑": [
           "dawkins",
@@ -646,9 +650,6 @@
         "healthspan": "The number of years lived in good health and function, not seriously dragged down by chronic disease — as opposed to 'lifespan,' the sheer count of years alive."
       },
       "reactions": {
-        "强烈赞同": [
-          "feynman"
-        ],
         "轻微赞同": [
           "dawkins",
           "ramachandran"
@@ -656,7 +657,8 @@
         "轻微反对": [
           "heidegger",
           "beauvoir",
-          "sushi"
+          "sushi",
+          "augustine"
         ],
         "中立": [
           "arendt"
@@ -669,32 +671,32 @@
     {
       "id": "p20",
       "round": 3,
-      "thinker": "feynman",
+      "thinker": "augustine",
       "reply_to": null,
-      "text": "我这一场没改主意：能不能，仍是个开放的、值得诚实去查的问题，把它当『定死的不可能』就是不科学。但我也承认，几位提醒我的事很要紧——若延长的只是躯体，未必延长了那个会好奇、会爱的『你』。给普通人的建议，恰恰来自我做科学的老办法。第一，别自欺——分清你是真『知道』死亡无解，还是只是没去查、用一句漂亮话把自己打发了。第二，把好奇心当成随身的长生药：能让一小时像被拉长的，从来不是岁数，而是你又搞懂了一件原本不懂的事。第三，别等科学发你永生才开始活得起劲——今天就找一个你真想弄明白的问题，一头扎进去。寿命的长短未必由你，但每一天的密度，相当程度上由你。",
-      "text_en": "I haven't changed my mind this round: whether we can is still an open question worth investigating honestly, and treating it as 'settled impossibility' is unscientific. But I grant that what several of you reminded me matters — if all we prolong is a body, we may not have prolonged the curious, loving 'you' at all. My advice to ordinary people comes straight from my old method in science. First, don't fool yourself — tell apart whether you really 'know' death is unsolvable or have simply never looked and waved yourself off with a pretty phrase. Second, treat curiosity as your portable elixir: what makes an hour feel stretched is never your age but having just understood something you didn't before. Third, don't wait for science to hand you immortality before you start living with zest — today, pick a question you genuinely want to crack and dive in. The length of your life may not be up to you, but the density of each day largely is.",
+      "text": "听完三轮，我更确信：长生之争的底下，藏着一个更老的问题——你是否信得过，把自己交还出去之后，仍有一双手接住你。我不收回我的话：把无限盼望钉死在有限肉身上，终将落空；但盼望本身不是错的，错的是投错了地方。给普通人的，不必先解决神学。第一，把对『活得更久』的焦虑，化作『今天我把爱给了谁』的发问——奥古斯丁式的永恒，从在场的爱里就能尝到一点。第二，每周抽一刻安静下来，不刷手机、不规划，只是面对那颗『不安的心』，问它真正渴的是什么；你多半会发现，它要的并不是更多年月，而是被爱、被接纳、有归属。第三，认真对待『交托』：立遗嘱、与家人和解、把未了的话说出口——把自己整理到一个『随时可以交还』的状态，反而最能让你今天活得安稳。能坦然交出，才谈得上坦然拥有。",
+      "text_en": "Having heard three rounds, I am the more convinced: beneath the quarrel over longevity lies an older question — can you trust that, once you hand yourself over, there are hands to catch you. I do not retract what I said: to nail an infinite hope onto a finite body will come to nothing; yet hope itself is not the error — the error is lodging it in the wrong place. What I offer ordinary people needs no theology settled first. First, turn the anxiety of 'living longer' into the question 'whom did I love today' — a taste of Augustinian eternity can be had from love that is present. Second, take a quiet moment each week with no phone and no planning, simply facing that 'restless heart' and asking what it truly thirsts for; you will likely find it wants not more years but to be loved, accepted, and to belong. Third, take 'entrustment' seriously: write a will, be reconciled with your family, say the things left unsaid — putting yourself in a state where you could 'hand yourself over' at any time is, paradoxically, what lets you live most at peace today. Only one who can let go with serenity can truly possess with serenity.",
       "vernacular": null,
       "vernacular_en": null,
       "glossary": null,
       "glossary_en": null,
       "reactions": {
         "强烈赞同": [
-          "thiel",
-          "ramachandran"
-        ],
-        "轻微赞同": [
-          "dawkins",
           "sushi"
         ],
+        "轻微赞同": [
+          "heidegger",
+          "vasubandhu",
+          "arendt"
+        ],
         "轻微反对": [
-          "heidegger"
+          "thiel"
         ],
         "中立": [
           "beauvoir",
-          "arendt"
+          "ramachandran"
         ],
         "疑惑": [
-          "vasubandhu"
+          "dawkins"
         ]
       }
     },
@@ -719,12 +721,12 @@
           "ramachandran"
         ],
         "轻微赞同": [
-          "feynman",
           "arendt",
-          "beauvoir"
+          "beauvoir",
+          "heidegger"
         ],
         "轻微反对": [
-          "heidegger"
+          "augustine"
         ],
         "中立": [
           "thiel"
@@ -752,13 +754,11 @@
         ],
         "轻微赞同": [
           "vasubandhu",
-          "arendt"
+          "arendt",
+          "augustine"
         ],
         "强烈反对": [
           "thiel"
-        ],
-        "轻微反对": [
-          "feynman"
         ],
         "疑惑": [
           "dawkins",
@@ -789,16 +789,12 @@
         ],
         "轻微赞同": [
           "vasubandhu",
-          "ramachandran"
-        ],
-        "轻微反对": [
-          "thiel"
-        ],
-        "中立": [
+          "ramachandran",
           "dawkins"
         ],
-        "疑惑": [
-          "feynman"
+        "轻微反对": [
+          "thiel",
+          "augustine"
         ]
       }
     },
@@ -807,8 +803,8 @@
       "round": 3,
       "thinker": "vasubandhu",
       "reply_to": null,
-      "text": "三轮听下来，我更想把那条中道说清：佛法既不教你贪求长生，也不教你厌弃此身、求速死——两头都是执。身体该养则养，病了该治则治，但别把『活得够久』当成解脱，那只是把渴爱供得更高。给普通人的，不是玄谈，是可练的功夫。其一，每日静坐片刻，只观呼吸的生灭，亲眼看着每个念头如何起、如何灭——你会渐渐松开『必须永远存在』那只攥紧的手。其二，把『无常』当朋友而非敌人：正因杯子终会碎、人终要别，此刻这杯茶、这个人才值得你全副地在场。其三，把怕死的力气，转去减轻别人的苦——慈悲一起，那个孤零零、急着要永存的『小我』，自然就淡了。命长命短，终究不如心安。",
-      "text_en": "Having heard three rounds, I want to make the Middle Way plain: the Dharma teaches neither to crave immortality nor to loathe this body and rush toward death — both are clinging. Tend the body when it needs tending, treat illness when it comes, but don't mistake 'living long enough' for liberation; that only enshrines the craving higher. What I offer ordinary people is not metaphysics but a trainable practice. First, sit quietly a while each day and simply watch the breath arise and cease, seeing with your own eyes how each thought rises and passes — you will gradually loosen that clenched hand of 'I must exist forever.' Second, make 'impermanence' a friend rather than an enemy: precisely because the cup will break and people must part, this cup of tea, this person, deserves your whole presence now. Third, turn the energy of fearing death toward easing others' suffering — once compassion stirs, the lonely little 'self' in a hurry to last forever naturally thins. Long life or short, in the end matters less than a settled heart.",
+      "text": "三轮听下来，我想把那条中道说清：唯识既不教你贪求肉身长生，也不教你厌身求死——两头都是执。要紧的是认清，那条穿越生死的『阿赖耶识』之流，是你当下每一个起心动念在熏习、在塑造的；你这一生往里存进什么样的种子，就在为往后埋下什么样的果。所以修行不在远方。给普通人的，是可练的功夫。其一，每日静坐片刻，只看呼吸与念头的生灭，亲眼认出『相续而非常一』——松开『必须永远是我』那只手。其二，把『无常』当朋友：正因这一刻不会重来，眼前这个人、这杯茶才值得你全副在场。其三，留心你正在熏的种子——少存一点贪嗔、多存一点慈悲，因为真正会被你带过死亡的，不是存款与容颜，而是这颗心的习气。命长命短，终不如心净。",
+      "text_en": "Having heard three rounds, I want to make the Middle Way plain: Yogācāra teaches neither to crave bodily immortality nor to loathe the body and seek death — both are clinging. What matters is to see that the stream of the ālaya consciousness which crosses life and death is perfumed and shaped by your every present arising of mind; the kind of seeds you deposit in this life are the kind of fruit you bury for what comes after. So practice is not far away. What I offer ordinary people is a trainable discipline. First, sit quietly a while each day and simply watch the breath and thoughts arise and cease, recognizing with your own eyes 'continuous, not singular' — and loosen the hand that grips 'it must be me forever.' Second, make 'impermanence' a friend: precisely because this moment won't return, this person, this cup of tea, deserves your whole presence. Third, mind the seeds you are perfuming — store a little less greed and anger, a little more compassion, for what you truly carry across death is not your savings or your looks but the habits of this mind. Long life or short, in the end matters less than a purified heart.",
       "vernacular": null,
       "vernacular_en": null,
       "glossary": {
@@ -825,14 +821,14 @@
         "轻微赞同": [
           "heidegger",
           "beauvoir",
-          "arendt"
+          "arendt",
+          "augustine"
         ],
         "轻微反对": [
           "thiel"
         ],
         "中立": [
-          "dawkins",
-          "feynman"
+          "dawkins"
         ]
       }
     },
@@ -861,8 +857,8 @@
         "轻微反对": [
           "thiel"
         ],
-        "疑惑": [
-          "feynman"
+        "中立": [
+          "augustine"
         ]
       }
     },
@@ -888,15 +884,15 @@
         ],
         "轻微赞同": [
           "thiel",
-          "feynman",
           "dawkins",
-          "beauvoir"
+          "beauvoir",
+          "arendt"
         ],
         "轻微反对": [
           "heidegger"
         ],
         "中立": [
-          "arendt"
+          "augustine"
         ]
       }
     },
@@ -920,13 +916,11 @@
         "轻微赞同": [
           "heidegger",
           "dawkins",
-          "ramachandran"
+          "ramachandran",
+          "augustine"
         ],
         "轻微反对": [
           "thiel"
-        ],
-        "中立": [
-          "feynman"
         ]
       }
     }
@@ -936,10 +930,10 @@
       "ai": "claude",
       "engine": "Opus 4.8 · 订阅(原生)",
       "engine_en": "Opus 4.8 · subscription (native)",
-      "summary": "全场最大的共识，出乎意料地不落在『该不该』，而落在一点冷静：死亡并非神圣不可撼动的天命，而是可被理解、可被追问的自然现象——连最反对长生的人，也不靠『天命不可违』来反驳。分歧由此展开：蒂尔、费曼押注于『能不能』，主张认真对待衰老、别把怯懦当智慧；道金斯泼来生物学的冷水——衰老深植于十亿年的基因设计，绝非换块电池。海德格尔、波伏娃、世亲、苏轼则把战场移向『意义』：抽掉死亡这道边界，选择会失重、执取会更深。阿伦特独辟政治视角，问长生将造出怎样一个由旧人永踞、再不更新的世界；拉马钱德兰从大脑发难——那个活五百年的，还是不是『你』。",
-      "insight": "几乎所有人都把寿命当成那个要调的变量，却漏了普通人真正攥在手里的杠杆：健康寿命与寿命之差。现代医学延长『活着』的速度，一直快过延长『活得好』的速度——于是我们批量制造出更多虚弱、依赖、被慢性病拖着的年头，而非更多生龙活虎的年头，恰恰与在场每个人真正想要的相反。把『要不要追求长生』翻译成近在眼前的版本，其实是：要不要去争取更多『好的年头』，哪怕总量未必增加？而这一问的答案是明确的『要』，且大半就握在你今天的睡眠、运动与一支不点的烟里。别等永生的承诺，先把会衰退的好年华赎回来。",
+      "summary": "全场最大的共识，出乎意料地不落在『该不该』，而落在一点冷静：死亡可被理解、可被追问，没人靠『天命不可违』关上讨论。分歧由此展开：蒂尔押注『能不能』，主张认真对待衰老、别把怯懦当智慧；道金斯泼来生物学的冷水——衰老深植十亿年的基因设计，绝非换块电池。海德格尔、波伏娃、苏轼把战场移向意义：抽掉死亡这道边界，选择会失重。两种『超越肉身的永生』正面相撞——奥古斯丁说真永生是灵魂得救、肉身长生不过偶像崇拜；世亲则以阿赖耶识回应：真正穿越生死的是那道相续的识流，你拼命延长的肉身根本不是那条河。阿伦特从政治发问、拉马钱德兰从大脑发问：长生会冻结世界，而那个活五百年的，未必还是你。",
+      "insight": "几乎所有人都把寿命当成那个要调的变量，却漏了普通人真正攥在手里的杠杆：健康寿命与寿命之差。现代医学延长『活着』的速度，一直快过延长『活得好』的速度——于是我们批量制造出更多虚弱、依赖、被慢性病拖着的年头，而非更多生龙活虎的年头，恰恰与在场每个人真正想要的相反。把『要不要追求长生』翻译成近在眼前的版本，其实是：要不要去争取更多『好的年头』，哪怕总量未必增加？而这一问的答案是明确的『要』，且大半握在你今天的睡眠、运动与一支不点的烟里。别等永生的承诺，先把会衰退的好年华赎回来。",
       "advice": "本周可做三件事。第一，别再为『寿命』焦虑，改为『健康寿命』下注：挑一个最高杠杆的习惯先做起来——固定作息，或每周两次力量训练，它们被反复证明能换来更多清醒有力的年头。第二，照海德格尔的法子演练一次：写下『若只剩五年，我会怎么过』，让这份清单重排你这个月的日程，把时间从无关紧要处挪向真正属于你的人和事。第三，动手栽一件比你活得久的事（阿伦特、苏轼、道金斯都指向它）：教会一个人一项本事、写下点什么、起一个别人能接手的头；记忆会被改写，就用日记和照片把它锚住。长生未必由你，活得充实而有传续，今天就由你。",
-      "summary_en": "The room's biggest agreement, surprisingly, isn't about whether we should, but a piece of composure: death is not a sacred, immovable fate but a natural phenomenon that can be understood and interrogated — even its fiercest opponents don't fall back on 'you can't defy destiny.' From there the splits open. Thiel and Feynman bet on whether we can, urging us to take aging seriously and not mistake cowardice for wisdom; Dawkins throws cold biology on it — aging is rooted in a billion years of genetic design, nothing like a battery swap. Heidegger, Beauvoir, Vasubandhu, and Su Shi move the battle to meaning: remove the boundary of death and choices lose weight while clinging deepens. Arendt opens a political front, asking what kind of world — ruled forever by the old, never renewed — immortality would build; and Ramachandran presses from the brain: is the one who has lived five hundred years still 'you'?",
+      "summary_en": "The room's biggest agreement, surprisingly, isn't about whether we should, but a piece of composure: death can be understood and interrogated, and no one closes the discussion with 'you can't defy fate.' From there the splits open. Thiel bets on whether we can, urging us to take aging seriously and not mistake cowardice for wisdom; Dawkins throws cold biology on it — aging is rooted in a billion years of genetic design, nothing like a battery swap. Heidegger, Beauvoir, and Su Shi move the battle to meaning: remove the boundary of death and choices lose their weight. Two visions of 'immortality beyond the flesh' collide head-on — Augustine says true immortality is the soul's salvation and that bodily life-extension is mere idolatry; Vasubandhu answers with the ālaya consciousness: what truly crosses life and death is that continuous stream of mind, and the body you strain to prolong is simply not that river. Arendt presses from politics and Ramachandran from the brain: immortality would freeze the world, and the one who has lived five hundred years may no longer be you.",
       "insight_en": "Almost everyone treated lifespan as the variable to tune, missing the lever ordinary people actually hold: the gap between healthspan and lifespan. Modern medicine has extended 'being alive' faster than it has extended 'living well' — so we mass-produce more frail, dependent, chronically-ill years rather than more vigorous ones, the very opposite of what everyone here actually wants. The near-term version of 'should we pursue immortality' is really: should we fight for more good years, even if the total doesn't rise? The answer to that is an unambiguous yes, and most of it is in your hands today — in your sleep, your movement, and the cigarette you don't light. Don't wait for a promise of eternity; first reclaim the good years that are slipping into decline.",
       "advice_en": "Three things you can do this week. First, stop fretting over 'lifespan' and bet on 'healthspan': pick the single highest-leverage habit and start — a fixed sleep schedule, or strength training twice a week, both repeatedly shown to buy more lucid, capable years. Second, run Heidegger's exercise once: write down 'if I had only five years, how would I spend them,' and let that list re-sort this month's calendar, moving time from the trivial toward the people and things truly your own. Third, plant something that outlives you (Arendt, Su Shi, and Dawkins all point here): teach someone a skill, write something down, start a project others can take up; memory gets rewritten, so anchor it with a journal and photos. Immortality may not be up to you, but living full — and handing something on — starts today, and it is."
     },
@@ -947,23 +941,23 @@
       "ai": "gpt",
       "engine": "openai · gpt-5.5 · high(真实API)",
       "engine_en": "openai · gpt-5.5 · high (live API)",
-      "summary": "这场最值得带走的共识是：死亡既不该被神圣化，也不该被轻率否认；无论长生能否实现，人都应认真对待健康、意义、他人和制度后果。真正的分歧不在“想活久一点对不对”，而在三处：衰老究竟主要是可修复的工程问题，还是构成人之为人的边界；延寿会增加选择，还是稀释选择的分量；若技术成功，它会普惠众人，还是把权力、财富和代际位置永久锁死。",
-      "insight": "我最想补的一点是：问题不应被表述成“要不要永生”，而应表述成“要不要可退出、可普及、以清醒健康为目标的延寿”。死亡的问题在于它不可逆、常常非自愿；永生的问题也可能在于它变成另一种不可退出的锁定。务实的目标不是活成不坏的古董，而是多争取若干健康、有判断力、还能爱与工作的人生阶段，并让制度保证后来者仍有机会。这样，长寿是增加选择，而不是取消更新。",
-      "advice": "本周可做三件事。第一，做一次健康跨度清单：固定睡眠时间，安排两次力量训练和两次快走或骑车，预约该做的体检、牙科或疫苗。第二，做一次“有限性盘点”：写下若只剩三年最想守住的五件事，并把其中一件落实到日程，比如给父母打电话、见朋友、推进一个作品。第三，训练判断力：凡遇到抗衰产品，先查是否有人体随机试验、风险和利益冲突；把钱优先投向运动、睡眠、筛查和可靠医疗。",
-      "summary_en": "The strongest shared lesson here is that death should neither be sanctified nor waved away. Whether radical longevity ever arrives, we still have to take health, meaning, other people, and social consequences seriously. The real disagreement is not whether wanting more good years is legitimate. It is about three deeper questions: is aging mainly an engineering problem, or a boundary that shapes human life? Does more time expand choice, or drain choices of weight? And if the technology works, will it be broadly shared, or will it freeze wealth, power, and generational opportunity in place?",
-      "insight_en": "The question is better framed not as “Should we become immortal?” but as “Should we pursue healthy, widely accessible, and opt-out life extension?” Death is troubling because it is irreversible and often involuntary; immortality could become troubling if it turns into another irreversible lock-in. The practical aim should not be to preserve people like museum pieces. It should be to gain more years of health, judgment, love, work, and agency—while building institutions that still make room for newcomers. In that version, longevity adds options instead of blocking renewal.",
-      "advice_en": "Do three concrete things this week. First, make a healthspan checklist: set a regular sleep window, schedule two strength sessions and two brisk walks or bike rides, and book any overdue screening, dental visit, or vaccination. Second, do a finitude audit: write down the five things you would protect if you had only three years left, then put one of them on your calendar—call a parent, see a friend, or advance a meaningful project. Third, sharpen your skepticism: for any anti-aging claim, look for human randomized evidence, risks, and conflicts of interest; spend first on exercise, sleep, screening, and reliable care."
+      "summary": "最大的共识其实不是支持或反对长生，而是反对把死亡问题想得太轻。无论从医学、宗教、存在论、政治还是神经科学看，死亡都迫使人重新排列价值：什么值得救、什么值得爱、什么必须交班。分歧的真正焦点不在“多活几年好不好”——治病、延长健康寿命大体无人反对；焦点在于是否应把消灭死亡当终极目标，以及它会怎样改变意义、自我、资源分配和代际更新。",
+      "insight": "我最想补的一点是：长生多半不会像开关一样突然降临，而会以十年、二十年地延长健康寿命出现。真正需要准备的，不是抽象的“永生世界”，而是“很多人活到一百二十岁且还能工作”的世界：退休、医保、继承、职位任期、住房、教育都要重写。普通人的关键不是先表态赞成或反对永生，而是要求技术与制度同步；越能多活，越要有交班、再培训、反垄断和基本可及性。",
+      "advice": "本周可做三件事。第一，按“健康寿命”而非“续命焦虑”行动：固定起床时间，安排两次力量训练，量一次血压；若多年未体检，预约血脂、血糖和癌筛咨询。第二，做一次一小时的“有限性盘点”：写下最想修复的三段关系、最该完成的一件事，并联系其中一个人。第三，给未来留出口：整理遗嘱意向、保险、紧急联系人和数字账号；同时教会晚辈或同事一项技能，让经验可交接。",
+      "summary_en": "The deepest agreement is not about being for or against life extension; it is that death should not be treated lightly. Whether the lens is medicine, religion, existential philosophy, politics, or neuroscience, mortality forces a ranking of values: what is worth saving, whom we owe love to, and when we must make room for others. The real disagreement is not whether a few more healthy years would be good. Most people would welcome treating disease and extending healthspan. The harder question is whether abolishing death should become a supreme human project, and what that would do to meaning, personal identity, inequality, power, and generational renewal.",
+      "insight_en": "The point I would add is that longevity will probably not arrive as a dramatic on-off switch called immortality. It will more likely come in increments: ten more healthy years, then twenty, then perhaps a society where many people reach 120 and remain capable of working. That is the world we should prepare for. Retirement, health insurance, inheritance, term limits, housing, education, and career changes would all need redesign. So the practical question is not simply “Do you support immortality?” It is whether life-extending technology can be matched by institutions that preserve fairness, mobility, retraining, access, and real opportunities for younger generations.",
+      "advice_en": "Do three concrete things this week. First, act for healthspan rather than panic about lifespan: set a consistent wake-up time, schedule two strength-training sessions, check your blood pressure, and if you have skipped checkups for years, book a visit to discuss lipids, glucose, and age-appropriate cancer screening. Second, do a one-hour mortality audit: write down three relationships you would regret leaving unrepaired and one project that truly matters, then contact one person on that list. Third, make your life easier to hand over: organize emergency contacts, insurance information, digital accounts, and basic will intentions. Also teach a younger person or colleague one useful skill, so your knowledge does not stop with you."
     },
     {
       "ai": "gemini",
       "engine": "google · gemini-3.1-pro-preview(真实API)",
       "engine_en": "google · gemini-3.1-pro-preview (live API)",
-      "summary": "纵观全场，最大的共识并非“生死”，而是对“生命质量”的绝对捍卫——无论是科学派寻求延寿，还是人文派拥抱有限，所有人都在抵制一种毫无生机、得过且过的“活死人”状态。大家一致认同，即使寿命无限，没有好奇心、行动力和觉知力，时间的延长也毫无意义。真正的分歧焦点在于“意义的驱动力来源”：科技与生物学派认为生命本身值得无限优化，死亡只是尚未解决的工程故障，解决它能释放无尽的可能；而哲学与社会学派则坚信，正是死亡这道绝对的“边界”，才倒逼出了人类的紧迫感、选择的分量以及整个人类社会的代际更新与公平。",
-      "insight": "全场辩论大多将“长生”视为一条无限拉长的单向直线，却忽略了一个极具系统性视角的现实：如果寿命长达五百年，人类必须在心理层面学会“周期性死亡”。就像AI大模型的迭代或生态系统的演替，一个有限的大脑和心智架构要承受百年维度的运转，绝对无法维持单一、固定的自我认同。这意味着，长生不是“活得更久”，而是要在同一副躯体内经历“多次轮回”——不断主动埋葬曾经的职业、观念甚至深刻记忆，为新阶段腾出空间。这对普通人的启发是：不要把自我看作一块需要死死守住的坚冰。真正能让你跨越人生周期的，是拥有随时将旧自我“清零重置”的柔韧性。",
-      "advice": "结合全场智慧，本周你立刻能做的三件事：第一，践行蒂尔的“健康跨度”底线，今天就开始一项确定的抗衰微习惯，比如保证7小时高质睡眠或进行20分钟力量训练，把健康当成可量化的工程。第二，借用海德格尔的“向死”滤镜审视本周日程表，划掉那个你仅仅因为“反正以后有的是时间”而答应的敷衍应酬，把时间还给当下真正在意的人或事。第三，实践拉马钱德兰的“神经可塑性”建议，去学一个跟你日常工作毫不相干的新技能（哪怕是学打一个复杂的绳结或折纸），用全新的神经连接主动更新你大脑里的“自我故事”。",
-      "summary_en": "Across the debate, the most profound consensus isn't about life or death, but an absolute defense of the 'quality of life.' Whether scientists seeking life extension or philosophers embracing mortality, everyone rejects a passive, stagnant existence. They universally agree that without curiosity, action, and presence, merely prolonging time is meaningless. The true divergence lies in the 'source of meaning.' The scientific and tech camp views life as inherently worth optimizing, treating death as a solvable engineering glitch that, once fixed, unlocks infinite potential. Conversely, the philosophical and social camp insists that the absolute 'boundary' of death is precisely what creates urgency, the weight of our choices, and the vital intergenerational renewal of human society.",
-      "insight_en": "Most speakers view immortality as a single, infinitely stretched timeline, missing a critical systemic reality: to live 500 years, humans would have to master 'periodic psychological deaths.' Much like AI model iterations or ecological succession, our finite cognitive architecture cannot sustain a single, rigid identity for centuries. Immortality wouldn't mean living one long continuous life; it would require experiencing multiple distinct lifetimes within one body. You would need to actively bury past careers, entrenched beliefs, and even core memories to make room for new phases. For ordinary people, this means we should stop treating our 'self' as a fortress to be defended. True resilience across time comes from the flexibility to regularly hit 'reset' and let your old self pass away.",
-      "advice_en": "Combining the roundtable's wisdom, here are three actionable steps for this week: First, adopt Thiel's 'healthspan' baseline—start a concrete anti-aging micro-habit today, like prioritizing 7 hours of quality sleep or doing 20 minutes of strength training, treating your health as manageable engineering. Second, apply Heidegger's 'toward-death' filter to this week's schedule: cancel one meaningless obligation you accepted just because you felt 'there is always more time,' and redirect that energy to something you genuinely value. Third, practice Ramachandran's neuroplasticity advice: learn a completely new, unrelated skill (even just tying a complex knot or origami). Build new neural pathways to actively rewrite the ongoing story of 'you'."
+      "summary": "全场最大的共识在于：无论对长生抱何种立场，大家其实都在回答同一个问题——如何让有限的生命具有重量。即便是长生派的蒂尔，落脚点也是守护『珍视的人和事』；而海德格尔、波伏娃、苏轼则认为，恰是死亡这道绝对边界赋予了这份重量。真正的分歧不在技术能否攻克衰老，而在『意义的基石』：它依附于时间的有限与紧迫，还是依附于意识、爱与创造的持续在场？此外，长生还从医学难题外溢成系统危机——阿伦特忧政治更迭停滞，拉马钱德兰忧记忆超载：一旦强行拉长生命，那些只为数十年光阴设计的生理、心理与社会系统，都将面临过载与重构。",
+      "insight": "全场虽精彩，却大多预设了非黑即白的二元前提：你要么是速朽的凡人，要么是骤然活了数百年的老妖。我想补一个跨域视角：长生绝非一个瞬间拨动的开关，而是一道渐进且高度碎片化的连续光谱。在真正的『肉身永生』到来前，人类会先经历漫长而混乱的过渡——从寿命逃逸速度的逐步逼近，到基因剪刀，再到记忆向云端外包的数字孪生。真正的冲击不是『人人突然活到五百岁』，而是『人类』这一物种在生物、机械与数字载体上的割裂分化。当你的部分决策交给算法、部分器官换成仿生件，拉马钱德兰的『自我』与世亲的『阿赖耶识』边界就已模糊。长生不是远方神话，它正以『外包与局部升级』悄悄切入当下。",
+      "advice": "结合这种『渐进升级』的视角，普通人本周就能落地三件事：第一，践行蒂尔的『健康跨度』投资——别干等基因技术突破，今晚就维护你的『生物载具』：早睡一小时、安排一次力量训练，这不只为多活几年，更为老得有尊严。第二，建立拉马钱德兰说的『外部记忆锚点』：既然自我是会被改写的故事，周末花两小时整理手机相册，或把一件极重要的往事写进备忘录，用外部记录抵抗神经的自然磨损。第三，把海德格尔的『向死清醒』转化为阿伦特的『诞生性』：今晚删掉两个纯消耗注意力的信息流 App，把省下的半小时用来发起一个『新开端』——哪怕只是学做一道新菜、开始读一本新书，用真实的创造填补时间的空洞。",
+      "summary_en": "The greatest consensus across the panel is that, regardless of their stance on life extension, everyone is fundamentally trying to answer: 'How do we give weight and meaning to a finite life?' Even Thiel, the fiercest advocate for immortality, aims to protect 'cherished people and things,' while opponents like Heidegger, de Beauvoir, and Su Shi argue that the absolute boundary of death is precisely what creates that weight. The true focal point of divergence is not whether technology can ultimately conquer aging, but rather the foundational source of meaning: Does meaning rely on the finiteness and urgency of time, or on the continuous presence of consciousness, love, and creation? Furthermore, the debate reveals a shared systemic anxiety—from Arendt's fear of political stagnation to Ramachandran's concern about memory overload. They all worry that if life is artificially stretched, the physiological, psychological, and socio-political systems originally designed for an 80-year lifespan will face catastrophic overload and require complete restructuring.",
+      "insight_en": "While the debate is philosophically profound, it largely assumes a binary premise: you are either a fleeting mortal or a suddenly immortal being living for centuries. From the perspective of a multimodal AI, I must offer a cross-domain observation: immortality will not be a sudden switch to be flipped, but a gradual, highly fragmented continuum. Long before true 'biological immortality' arrives, humanity will navigate a messy transitional era—from incrementally reaching longevity escape velocity and applying gene-editing, to outsourcing memories to the cloud via digital twins. The real shock won't be everyone suddenly living to 500, but the profound fragmentation of the 'human' species across biological, cybernetic, and digital substrates. When your decisions are aided by algorithms and organs replaced by bionics, the boundaries of Ramachandran's 'self' and Vasubandhu's 'Alaya-vijnana' are already blurring. Immortality is not a distant myth to fear or worship; it is already quietly integrating into our present lives through technological outsourcing and incremental upgrades.",
+      "advice_en": "Combining this 'incremental upgrade' perspective with the panel's wisdom, here are three actionable steps you can take this week: First, invest in Thiel's concept of 'healthspan.' Don't wait for future biotech breakthroughs; start maintaining your 'biological vehicle' tonight by going to bed an hour earlier and scheduling a strength training session. This is about aging with dignity and vitality. Second, establish Ramachandran's 'external memory anchors.' Since the self is a narrative susceptible to being rewritten, spend two hours this weekend organizing your photo albums or writing down a deeply important personal memory to protect it from neurological erosion. Third, transform Heidegger's 'towards-death' clarity into Arendt's 'natality.' Tonight, delete two doom-scrolling apps that drain your attention. Use the reclaimed 30 minutes to initiate a 'new beginning'—even if it's just learning a new recipe or starting a new book—filling the void of time with genuine creation."
     }
   ]
 }

@@ -27,11 +27,11 @@
   function T(k) { return UI[LANG][k]; }
   // 主题分组（语言无关 key 存在 ideas.json 的 cat 字段；标签在这里双语）
   var CATS = [
-    { key: "work",   zh: "职场 · 组织 · 领导",   en: "Work, org & leadership" },
     { key: "self",   zh: "处世 · 自我 · 成长",   en: "Self, growth & living" },
     { key: "life",   zh: "人生 · 生死 · 家庭",   en: "Life, family & mortality" },
     { key: "ethics", zh: "伦理 · 政治 · 社会",   en: "Ethics, politics & society" },
     { key: "meta",   zh: "形而上 · 认识 · 文明", en: "Mind, reality & civilization" },
+    { key: "work",   zh: "职场 · 组织 · 领导",   en: "Work, org & leadership" },
     { key: "other",  zh: "其他",                en: "More" }
   ];
   function catLabel(c) { return LANG === "en" ? c.en : c.zh; }

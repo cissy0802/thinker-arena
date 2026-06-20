@@ -135,7 +135,20 @@ def main(path):
         pos = ids.index(cur) if cur in ids else len(alld)
         prev = alld[max(0, pos - 3):pos]            # 本场之前最多 3 场
     except Exception:
-        prev = []
+        alld, cur, prev = [], d.get("id"), []
+    # 0) 主题分类 cat：缺了前端会掉进『其他』——index.json 与 ideas.json(debated) 都得有合法 cat
+    VALID_CATS = {"work", "self", "life", "ethics", "meta", "other"}
+    entry = next((e for e in alld if e.get("id") == cur), None)
+    if entry is None:
+        warns.append(f"{cur} 尚未登记进 debates/index.json")
+    elif entry.get("cat") not in VALID_CATS:
+        errs.append(f"debates/index.json 本场缺 cat 或非法（{entry.get('cat')!r}）——索引页会掉进『其他』；取 {'/'.join(sorted(VALID_CATS))} 之一")
+    try:
+        de = next((e for e in json.load(open("ideas.json")).get("debated", []) if e.get("id") == cur), None)
+        if de is not None and de.get("cat") not in VALID_CATS:
+            errs.append(f"ideas.json debated 本场缺 cat 或非法（{de.get('cat')!r}）——投票页『已辩』会掉进『其他』")
+    except Exception:
+        pass
     if prev:
         # 1) 人数连号
         pc = len(parts)

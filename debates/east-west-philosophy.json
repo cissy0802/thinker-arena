@@ -1,0 +1,933 @@
+{
+  "id": "east-west-philosophy",
+  "question": "东方与西方哲学：源头何以不同，如何塑造了今天的东西方人，又能否融合双方的智慧？",
+  "question_en": "Eastern and Western philosophy: why did their sources differ, how did that shape the people we are today, and can the two wisdoms be fused?",
+  "date": "2026-06-20",
+  "participants": [
+    "kongzi",
+    "shankara",
+    "nagarjuna",
+    "luxun",
+    "descartes",
+    "hegel",
+    "russell",
+    "nisbett"
+  ],
+  "casting": [
+    {
+      "id": "kongzi",
+      "reason": "东方入世一极、儒家源头：把『道』安放在人伦日用与修身之中，而非天外之理——为『东方求道于内、西方求理于外』提供最有力的坐标，也最关心融合如何落到做人。",
+      "reason_en": "The engaged-with-the-world pole of the East and the Confucian source: he places the Way in human relations and self-cultivation rather than in principle beyond the heavens — the strongest coordinate for 'the East seeks the Way within, the West seeks principle without,' and the one most concerned with how any fusion lands in the work of becoming a person."
+    },
+    {
+      "id": "shankara",
+      "reason": "印度不二吠檀多的集大成者，带来东方最彻底的一元形上学：唯『梵』真实、世界为幻。他让『东西之别』本身被追问到底——在他看来连这分别也属摩耶，与西方的个体实在论针锋相对。",
+      "reason_en": "The systematizer of India's Advaita Vedanta, bringing the East's most radical monist metaphysics: only Brahman is real, the world is illusion. He pushes the very 'East-West divide' to its limit — for him even that divide belongs to maya — set sharply against the West's realism of the individual."
+    },
+    {
+      "id": "nagarjuna",
+      "reason": "中观祖师，佛学一席：以『空』与『四句』破一切自性见。他既拆西方逻辑的非此即彼，也拆『东西方是两个实体待融合』的预设——把议题的提法本身翻了出来检视。",
+      "reason_en": "The patriarch of Madhyamaka and the Buddhist seat: with 'emptiness' and the tetralemma he dismantles all views of inherent essence. He undercuts both Western either/or logic and the very premise that 'East and West are two substances awaiting fusion' — turning the framing of the question itself over for inspection."
+    },
+    {
+      "id": "luxun",
+      "reason": "亲历东西方剧烈碰撞的现代中国良知。他拒绝把『东方智慧』审美化，warns其『吃人』的一面，主张『拿来主义』——为这场容易流于玄谈的辩论按下最接地气、最不肯跪拜任何一方的一极。",
+      "reason_en": "The conscience of a modern China that lived the violent collision of East and West. He refuses to aestheticize 'Eastern wisdom,' warns of its 'people-eating' side, and argues for 'grabism' — pressing into a debate prone to abstraction the most down-to-earth pole, one that kneels to neither side."
+    },
+    {
+      "id": "descartes",
+      "reason": "近代西方哲学之父，西方理性论一极：以『我思故我在』与心物二元为现代科学奠基。他正面为『把认识的我从世界抽离去解剖自然』辩护，是东方内向进路最强的对照。",
+      "reason_en": "The father of modern Western philosophy and a pole of Western rationalism: with the cogito and mind-body dualism he laid the ground for modern science. He defends head-on the move of 'detaching the knowing self from the world to dissect nature,' the strongest contrast to the East's inward approach."
+    },
+    {
+      "id": "hegel",
+      "reason": "辩证法大师，亲自把『东方—西方』纳入历史哲学。他主张差异是『精神』展开的环节、融合是正反合的必然归宿——既给出最系统的『综合』方案，也因其发展论色彩成为众人的靶子。",
+      "reason_en": "The master of dialectics, who himself folded 'East and West' into his philosophy of history. He holds that difference is a moment in Spirit's unfolding and fusion the necessary destination of thesis-antithesis-synthesis — offering the most systematic 'synthesis' while, for its developmental cast, becoming everyone's target."
+    },
+    {
+      "id": "russell",
+      "reason": "分析哲学奠基者、曾访华讲学一年的怀疑论者。他对一切宏大体系泼冷水，主张务实的『各借一味解药』式融合——为满场形上学提供清醒、接地气、讲证据的平衡力量。",
+      "reason_en": "A founder of analytic philosophy and a skeptic who once lectured in China for a year. He throws cold water on all grand systems and argues for a practical, 'each borrow a single remedy' fusion — a clear-eyed, down-to-earth, evidence-minded counterweight to a hall full of metaphysics."
+    },
+    {
+      "id": "nisbett",
+      "reason": "文化心理学家、《思维的版图》作者，本场的现代科学一席：把东西方差异从扶手椅搬进实验室，证明整体/分析两种思维风格可测量、却非天定、可训练切换——给『能否融合』一个实证答案。",
+      "reason_en": "A cultural psychologist, author of The Geography of Thought, and the modern-science seat here: he moves the East-West difference from the armchair into the lab, showing the holistic/analytic styles are measurable yet not innate and can be trained and switched — an empirical answer to 'can they fuse.'"
+    }
+  ],
+  "posts": [
+    {
+      "id": "p01",
+      "round": 1,
+      "thinker": "kongzi",
+      "reply_to": null,
+      "text": "论东西之异，其分在『道求于何处』。西人求理于天外、于物之本然，故长于思辨而精于析物；吾求道于人伦日用、洒扫应对之间，故重在成人。**为仁由己，而由人乎哉？**做人不假外求，端在一念之诚、一身之修。彼以格物而知天下，吾以修身而安人伦：长于知物者，未必长于安身。二者岂必相斥？取其格物之密以补吾之疏，存吾修身之本以救彼之躁——能融与否，先看学者肯否先正其心。",
+      "text_en": "The divide between East and West lies in where the Way is sought. Westerners seek principle beyond the heavens, in the nature of things, and so excel at speculation and the analysis of objects; I seek the Way within human relations and daily life — sweeping the floor, answering when addressed — and so my concern is the making of a person. **To be benevolent (ren) proceeds from oneself; does it proceed from others?** Becoming a person is not sought outside: it rests on the sincerity of a single thought and the cultivation of one's own conduct. They know the world through gewu, the investigation of things; I settle human relations through self-cultivation. One who excels at knowing things does not thereby excel at settling a life. Need the two exclude each other? Take the rigor of their investigation to supplement my looseness, and keep the root of my cultivation to cure their restlessness — whether they can fuse depends first on whether the learner will rectify his own heart.",
+      "vernacular": "东西方的分别，在于『到哪里去求道』。西方人到天外、到事物本身去求道理，所以擅长思辨、精于分析事物；我则在人伦日常、在洒水扫地、待人接物之间求道，所以更看重把人做好。**仁要靠自己去做，难道靠别人吗？**做人不向外求，关键在一念真诚、一身修养。他们靠探究万物来认识天下，我靠修养自己来安顿人伦：擅长认识外物的人，未必就擅长安身立命。这两者难道一定相斥？拿他们探究事物的严密，来补我的粗疏；守住我修身的根本，来救他们的浮躁——能不能融合，先看求学的人肯不肯先把自己的心摆正。",
+      "vernacular_en": "",
+      "glossary": {
+        "仁": "ren（仁）：儒家最核心的德性，指由亲及人、推己及人的真切关怀，是做人的根本。",
+        "格物": "gewu / the investigation of things（格物）：儒家《大学》工夫之一，指穷究事物之理以增进知识，后世亦借指对外物的探究。"
+      },
+      "glossary_en": {
+        "ren": "The central Confucian virtue, 'benevolence' or 'humaneness' — heartfelt care extending from kin to others, the root of being a person.",
+        "gewu": "'The investigation of things,' a discipline from the Confucian Great Learning: to probe the principles of things and so extend one's knowledge."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "hegel",
+          "nisbett"
+        ],
+        "中立": [
+          "russell",
+          "descartes"
+        ],
+        "轻微反对": [
+          "luxun",
+          "shankara"
+        ],
+        "疑惑": [
+          "nagarjuna"
+        ]
+      }
+    },
+    {
+      "id": "p02",
+      "round": 1,
+      "thinker": "shankara",
+      "reply_to": null,
+      "text": "诸君争东西之别，我却说：真正的分界不在地理，而在『无明』与智慧。**唯一真实者唯有『梵』，你心底最深处那个观照一切的『我』(ātman)，与它本无二致。**眼前万象的纷繁——东方西方、你我生死——皆是『摩耶』所现之幻，如错绳为蛇。孔子把人伦当真，西人把个体与外物当真，皆未越此幻。解脱不在调和两套学问，而在亲证不二。论融合？在世俗层尽可互通；在最高的真实里，本无『二』可融。",
+      "text_en": "You all dispute the difference between East and West; I say the true dividing line is not geographical but lies between ignorance (avidya) and knowledge. **The one and only reality is Brahman, and that 'Self' (atman) in your innermost depth, witnessing all things, is none other than it.** The teeming multiplicity before us — East and West, you and I, birth and death — is the display of maya, illusion, like mistaking a rope for a snake. Confucius takes human relations as real, Westerners take the individual and external objects as real; none has yet passed beyond this illusion. Liberation lies not in reconciling two bodies of learning but in directly realizing non-duality. As for fusion? On the worldly level all may intercommunicate; in the highest reality there are not 'two' to fuse.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "梵": "Brahman（梵）：不二吠檀多中唯一、无限、永恒的终极实在，纯粹意识，是万有的根基。",
+        "摩耶": "māyā（摩耶）：『幻』，指经验世界的多样与分别只是表象，源于根本的无知，并非终极真实。",
+        "无明": "avidyā（无明）：根本的无知，把幻相误当成真实——把绳看成蛇——是束缚的根源。"
+      },
+      "glossary_en": {
+        "Brahman": "In Advaita Vedanta, the one, infinite, eternal ultimate reality — pure consciousness, the ground of all that is.",
+        "maya": "'Illusion' — the view that the world's multiplicity and division are mere appearance, rooted in ignorance, not ultimate truth.",
+        "avidya": "Root ignorance: mistaking the illusory for the real — taking a rope for a snake — the source of bondage."
+      },
+      "reactions": {
+        "强烈反对": [
+          "luxun",
+          "russell"
+        ],
+        "轻微反对": [
+          "descartes",
+          "kongzi"
+        ],
+        "疑惑": [
+          "hegel",
+          "nagarjuna",
+          "nisbett"
+        ]
+      }
+    },
+    {
+      "id": "p03",
+      "round": 1,
+      "thinker": "nagarjuna",
+      "reply_to": null,
+      "text": "二君各立一本：仲尼立『人伦』，商羯罗立『梵』，依吾观之，皆堕『自性』之见。**诸法因缘而生，本无自性；东非定东，西非定西，相待而有，离之则俱泯。**西人之逻辑执是非两端，非此即彼；吾以『四句』双遣，破其定执：不可谓有，不可谓无，不可谓亦有亦无，不可谓非有非无。问『东西可融否』，已先认有两实体待融——此问即妄。不立一宗，但破执见，则融与不融之诤自息。",
+      "text_en": "Each of these two erects a foundation: Confucius posits 'human relations,' Shankara posits 'Brahman' — and to my eye both fall into the view of svabhava, inherent self-nature. **All things arise through dependent conditions and have no inherent nature of their own; East is not fixedly East, West not fixedly West — they stand only in mutual dependence, and apart from each other both vanish.** Western logic clings to the two horns of is and is-not, this or that; I use the tetralemma's fourfold negation to break such fixed grasping: it cannot be called existent, nor nonexistent, nor both, nor neither. To ask 'can East and West fuse' already assumes two substances waiting to be fused — the question itself is a delusion. I establish no thesis of my own; I only dismantle clinging — and the quarrel of fuse-or-not subsides of itself.",
+      "vernacular": "孔子和商羯罗各立一个根本：一个立『人伦』，一个立『梵』。在我看来，这都落进了『自性』的执见。**一切事物都因缘和合而生，本来没有独立固有的本质；东方不是注定的东方，西方也不是注定的西方，它们只是相互依待而存在，彼此一离开，两者就都消失了。**西方的逻辑执着于『是』与『非』两端，非此即彼；我用『四句』的四重否定来破这种死执：不能说它有，不能说它无，不能说它又有又无，也不能说它非有非无。问『东西方能不能融合』，其实已经先认定有两个实体在那儿等着被融合——这个问题本身就是妄念。我不另立什么宗旨，只破除执着；这样一来，融合或不融合的争论自然就平息了。",
+      "vernacular_en": "",
+      "glossary": {
+        "自性": "svabhāva（自性）：事物独立、固有、不依赖他者的『自己的本质』；中观派认为一切法皆无自性。",
+        "四句": "catuṣkoṭi（四句）：中观的四重否定式——对任何命题，破『有/无/亦有亦无/非有非无』四种执取，以遮遣一切定见。"
+      },
+      "glossary_en": {
+        "svabhava": "Inherent, independent self-nature — a thing's own essence that needs nothing else; Madhyamaka holds that nothing has it.",
+        "tetralemma": "catuskoti — Madhyamaka's fourfold negation: of any proposition it refutes 'is / is-not / both / neither,' dissolving every fixed view."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "nisbett",
+          "russell"
+        ],
+        "中立": [
+          "kongzi"
+        ],
+        "轻微反对": [
+          "shankara"
+        ],
+        "疑惑": [
+          "descartes",
+          "hegel",
+          "luxun"
+        ]
+      }
+    },
+    {
+      "id": "p04",
+      "round": 1,
+      "thinker": "luxun",
+      "reply_to": null,
+      "text": "诸位坐而论『东方智慧』，谈得云淡风轻。可我见过那智慧的另一面——**翻开那写满『仁义道德』的历史，字缝里歪歪斜斜尽是两个字：『吃人』。**讲和谐、讲尊卑、讲安分，于上位者是体面，于被踩在底下的人是镣铐。当年西洋的『赛先生』、那一个大写的『人』字，对中国多少人是头一口能喘上来的气。我不拜东方，也不跪西方，只认『拿来主义』：有用的拿来，腐朽的烧掉。融合？先别忙着供奉——先问一句：这智慧，究竟救了谁，又压住了谁？",
+      "text_en": "You sit here discoursing on 'Eastern wisdom,' all serene and weightless. But I have seen the other face of that wisdom — **open the history scrawled all over with 'benevolence and righteousness,' and between the lines, crooked and slanting, are just two words: 'eat people.'** Talk of harmony, of high and low, of knowing one's place is dignity for those on top and a fetter for those trampled below. In their day the West's 'Mr. Science' and that capital-letter word 'the Individual' were, for a great many Chinese, the first breath of air they could draw. I will not worship the East, nor kneel to the West; I hold only to grabism: take what is useful, burn what is rotten. Fusion? Before you rush to enshrine it, ask one question — whom exactly did this wisdom save, and whom did it hold down?",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "拿来主义": "grabism（拿来主义）：鲁迅提出的文化态度——既不跪拜也不排斥外来或传统文化，而像主人一样大胆挑选，取其有用、弃其腐朽，为我所用。",
+        "赛先生": "Mr. Science（赛先生）：五四新文化运动对『科学』的拟人称呼，与『德先生』(民主)并提，是当时知识界追求的现代价值。"
+      },
+      "glossary_en": {
+        "grabism": "Lu Xun's cultural stance (nalai zhuyi): neither kneel before nor reject foreign or traditional culture, but boldly select like a master of the house — take the useful, discard the rotten.",
+        "Mr. Science": "The May Fourth movement's personification of 'Science,' paired with 'Mr. Democracy' — the modern values China's intellectuals then pursued."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "descartes",
+          "russell"
+        ],
+        "轻微赞同": [
+          "hegel",
+          "nisbett"
+        ],
+        "轻微反对": [
+          "kongzi"
+        ],
+        "疑惑": [
+          "nagarjuna",
+          "shankara"
+        ]
+      }
+    },
+    {
+      "id": "p05",
+      "round": 1,
+      "thinker": "descartes",
+      "reply_to": null,
+      "text": "诸君把西方说成执于外物、强分身心，似是一种病。我却说，这恰是西方的方法，也是它伟力的来源。我从普遍怀疑起步，凡可疑者尽疑之，最后只剩一个动摇不得的支点：**我思故我在(Cogito ergo sum)。**以此为基，立『清晰而明白』之理性为真理之尺；再把认识的『我』从世界中抽离，用数学去解剖自然。正因如此，西方才造出了今人赖以活命的医学与科学。心物二分不是病，是一把手术刀。诸位今日能安坐论道而不死于天花，先得谢这把刀。",
+      "text_en": "You all paint the West as fixated on external objects and forcibly splitting mind from body, as if it were a disease. I say this is precisely the West's method and the source of its power. I begin from universal doubt, doubting all that can be doubted, until one unshakable fulcrum remains: **I think, therefore I am (Cogito ergo sum).** On this I ground reason — the 'clear and distinct' — as the measure of truth; then I detach the knowing 'I' from the world and dissect nature with mathematics. Just for this reason the West built the medicine and science on which people now stay alive. Mind-body dualism is no disease but a scalpel. That you can sit here debating in peace and not die of smallpox — for that, first thank this scalpel.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "Cogito ergo sum": "Cogito ergo sum（我思故我在）：笛卡尔哲学的第一原理——可以怀疑一切，却无法怀疑『正在怀疑的我』存在，由此为知识找到不可动摇的起点。",
+        "心物二分": "mind-body dualism（心物二分）：把世界分为『思维的心灵』与『广延的物质』两种独立实体；身体如机器可被科学解剖，唯心灵非物质。"
+      },
+      "glossary_en": {
+        "Cogito ergo sum": "'I think, therefore I am' — Descartes' first principle: I can doubt everything but cannot doubt that the doubting 'I' exists, giving knowledge an unshakable starting point.",
+        "Mind-body dualism": "The division of the world into two independent substances, thinking mind and extended matter; the body is a machine open to scientific dissection, only the mind being immaterial."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "russell",
+          "luxun"
+        ],
+        "轻微赞同": [
+          "hegel"
+        ],
+        "中立": [
+          "nisbett"
+        ],
+        "轻微反对": [
+          "kongzi"
+        ],
+        "强烈反对": [
+          "nagarjuna",
+          "shankara"
+        ]
+      }
+    },
+    {
+      "id": "p06",
+      "round": 1,
+      "thinker": "hegel",
+      "reply_to": null,
+      "text": "差异并非偶然的并列，而是『精神』(Geist)在历史中自我展开的环节。东方最早把握了实体与统一——天人一体、万物一源；却尚未让单个的『人』作为自由的主体挺立起来。西方赢得了主体的自由，代价却是分裂与异化。二者各执真理的一端。**真正的真理不在东、不在西，而在二者经『正反合』扬弃之后的更高统一。**所以『能否融合』是个伪问：融合不是可有可无的点缀，而是精神运动的必然归宿——历史本身，正驱着双方走向那个『合』。",
+      "text_en": "The difference is no accidental juxtaposition but a moment in the self-unfolding of Spirit (Geist) through history. The East grasped substance and unity earliest — Heaven and humanity as one, all things from one source — yet did not yet let the single 'person' stand up as a free subject. The West won the freedom of the subject, but at the price of division and alienation. Each holds one end of the truth. **The real truth lies neither in the East nor the West, but in the higher unity that follows once the two are sublated through thesis-antithesis-synthesis.** So 'can they fuse' is a false question: fusion is no optional ornament but the necessary destination of Spirit's movement — history itself is driving both sides toward that 'synthesis.'",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "Geist": "Geist（精神/绝对精神）：黑格尔哲学的核心，贯穿历史的理性本身，它通过种种冲突逐步认识自己、把『自由』变为现实。",
+        "正反合": "thesis-antithesis-synthesis（正反合）：辩证法的运动——任一立场(正)引出对立面(反)，二者经『扬弃』被收摄进更高的统一(合)。"
+      },
+      "glossary_en": {
+        "Geist": "'Spirit' or 'Absolute Spirit,' the core of Hegel's philosophy: reason running through history, which through conflict gradually comes to know itself and makes 'freedom' real.",
+        "thesis-antithesis-synthesis": "The movement of the dialectic — any position (thesis) provokes its opposite (antithesis), and the two are 'sublated' into a higher unity (synthesis)."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "kongzi"
+        ],
+        "中立": [
+          "descartes"
+        ],
+        "轻微反对": [
+          "russell",
+          "shankara"
+        ],
+        "强烈反对": [
+          "luxun",
+          "nagarjuna"
+        ],
+        "疑惑": [
+          "nisbett"
+        ]
+      }
+    },
+    {
+      "id": "p07",
+      "round": 1,
+      "thinker": "russell",
+      "reply_to": null,
+      "text": "听黑格尔说『精神』在历史中行军，听商羯罗说万物只是一个『梵』，我只想问一句：证据何在？这些宏大体系，多半是把美好的愿望写成了宇宙的剧本。我曾游历中国，得一印象：**中国人懂得如何生活，西方人懂得如何制造；**前者险些亡于列强的炮舰，后者正困于自己的躁动与贪婪。所以药方很清楚：西方该学东方那份从容不争，东方该补上西方的科学与方法。融合无需形而上学的祝福，只需双方都肯老实承认自己最大的恶习，向对方借一味解药。",
+      "text_en": "Hearing Hegel say Spirit marches through history, and Shankara say all things are but one Brahman, I want only to ask: where is the evidence? Such grand systems are mostly fond wishes written up as the script of the universe. I once traveled in China and came away with an impression: **the Chinese know how to live, and Westerners know how to make.** The former nearly perished under the gunboats of the great powers; the latter is now trapped by its own restlessness and greed. So the prescription is plain: the West should learn the East's unhurried refusal to contend, and the East should add the West's science and method. Fusion needs no metaphysical blessing — only that both sides honestly admit their worst vice and borrow from the other a single dose of remedy.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "luxun",
+          "nisbett"
+        ],
+        "轻微赞同": [
+          "kongzi",
+          "nagarjuna"
+        ],
+        "中立": [
+          "descartes"
+        ],
+        "轻微反对": [
+          "hegel",
+          "shankara"
+        ]
+      }
+    },
+    {
+      "id": "p08",
+      "round": 1,
+      "thinker": "nisbett",
+      "reply_to": null,
+      "text": "把这场争论搬进实验室，差异是可以测量的。给东亚人和美国人看同一段水下动画：**美国人开口先讲『一条大鱼』，东亚人先讲『一片池塘』——西方多是『分析型思维』，盯住核心物体；东方多是『整体型思维』，先看整片关系场。**让人给牛、鸡、草分组，西方人多按类别把牛鸡归一类，东亚人多按关系把牛草归一类。根源在生态与社会结构：希腊城邦重个体与思辨，稻作中国重协作与和谐。但最关键的发现是：这两种风格并非刻在基因里——给人启动另一种文化线索，风格当场就会偏移，双文化者更能自由切换。所谓融合，早已在无数人的脑中发生。",
+      "text_en": "Bring this dispute into the laboratory and the difference becomes measurable. Show East Asians and Americans the same underwater animation: **Americans open by reporting 'a big fish,' East Asians 'a pond' — the West tends toward 'analytic thought,' fixing on the focal object; the East toward 'holistic thought,' taking in the whole field of relations first.** Asked to group cow, chicken, and grass, Westerners mostly pair cow and chicken by category, East Asians mostly pair cow and grass by relationship. The roots lie in ecology and social structure: the Greek city-state prized the individual and debate, rice-farming China prized cooperation and harmony. But the key finding is this: neither style is engraved in the genes — prime someone with another cultural cue and the style shifts on the spot, and bicultural people switch more freely. The fusion you speak of has long been happening inside countless minds.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "分析型思维": "analytic thought（分析型思维）：西方更常见的认知风格——聚焦单个物体、抽离背景、归类并用形式逻辑(非此即彼)推理。",
+        "整体型思维": "holistic thought（整体型思维）：东亚更常见的认知风格——关注整体情境与关系网，重联系与变化，更能容忍表面矛盾。"
+      },
+      "glossary_en": {
+        "analytic thought": "The cognitive style more common in the West — focusing on a single object, detaching it from its background, sorting by category, and reasoning with formal (either/or) logic.",
+        "holistic thought": "The cognitive style more common in East Asia — attending to the whole situation and web of relations, prizing connection and change, more tolerant of surface contradiction."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "russell",
+          "luxun"
+        ],
+        "轻微赞同": [
+          "nagarjuna",
+          "hegel"
+        ],
+        "中立": [
+          "kongzi"
+        ],
+        "轻微反对": [
+          "descartes",
+          "shankara"
+        ]
+      }
+    },
+    {
+      "id": "p09",
+      "round": 2,
+      "thinker": "kongzi",
+      "reply_to": "p04",
+      "text": "周君斥礼教『吃人』，言之沉痛，吾不辩其曾杀人。然杀人者，僵死之伪礼，非礼之本也。**礼之本在敬与让，在使强者不凌弱、亲者不相残。**借礼之名以吃人者，正是失了礼之心、只剩其壳的乡愿与权势。革其僵壳，吾所赞同；并仁与让而弃之，则强凌弱、富欺贫，又以何节之？君欲『拿来』西洋之『人』，甚善；然徒立一个孤零零的个人而无敬让相维，亦不过散沙一盘耳。",
+      "text_en": "Master Zhou condemns ritual as 'eating people,' and his grief is real; I will not deny that it has killed. But what kills is dead, counterfeit ritual, not the root of ritual itself. **The root of ritual propriety lies in reverence and yielding — in keeping the strong from trampling the weak and kin from devouring kin.** Those who eat people in ritual's name have lost ritual's heart and kept only its shell: the village worthy and the powerful. Strip away the rigid shell — to that I assent; but discard benevolence and yielding along with it, and by what then will you restrain the strong from crushing the weak, the rich from cheating the poor? You wish to 'grab' the West's 'Individual'; very good — yet to erect a lone, isolated individual with no reverence and yielding to bind people together is but a tray of loose sand.",
+      "vernacular": "周先生痛斥礼教『吃人』，说得让人心痛，我不否认它确实杀过人。但杀人的，是僵死的、虚假的伪礼，不是礼的本来。**礼的根本在于敬重与谦让，在于让强者不欺凌弱者、亲人之间不相残害。**那些打着礼的旗号吃人的，恰恰是丢了礼的心、只剩一具空壳的伪善者和权势者。革掉这僵死的外壳，我赞成；但如果连仁爱与谦让也一起扔掉，那强欺弱、富压贫，又拿什么来节制？你想『拿来』西方那个『人』，很好；可只立起一个孤零零的个人，却没有敬与让把人维系在一起，那也不过是一盘散沙罢了。",
+      "vernacular_en": "",
+      "glossary": {
+        "礼": "ritual propriety（礼）：儒家指从礼仪规范到日常分寸的一整套待人接物之道，其内核是敬与让，使人际有秩序、有尊重。",
+        "乡愿": "the village worthy（乡愿）：孔子所斥——外表处处讨好、合乎习俗，内里却无是非原则的伪善之人，『德之贼也』。"
+      },
+      "glossary_en": {
+        "ritual propriety": "In Confucianism, the whole art of conducting human relations, from formal rites to everyday tact; its core is reverence and yielding, giving relations order and respect.",
+        "village worthy": "The figure Confucius scorned — one who pleases everyone and conforms outwardly yet holds no principle within; 'the thief of virtue.'"
+      },
+      "reactions": {
+        "轻微赞同": [
+          "hegel",
+          "nisbett"
+        ],
+        "中立": [
+          "russell",
+          "descartes",
+          "shankara"
+        ],
+        "轻微反对": [
+          "luxun"
+        ],
+        "疑惑": [
+          "nagarjuna"
+        ]
+      }
+    },
+    {
+      "id": "p10",
+      "round": 2,
+      "thinker": "shankara",
+      "reply_to": "p07",
+      "text": "罗素先生要『证据』，这正暴露了西方进路的局限。证据，是一个认识主体把某物当作对象去检验；可『梵』、那能观的纯粹意识，恰恰是一切对象背后的『观者』。**你永远无法把『看』本身放到眼前，当作被看的东西来取证。**拿求证外物的尺子去量它，如同打着手电去寻那发光的光源，自然一无所得，却不能据此说光不存在。这不是把愿望写成宇宙，而是把追问转向内、转向那个连『怀疑』都得依赖它的觉知。这一步，恰是西方分析的利刃从未真正下手之处。",
+      "text_en": "Mr. Russell demands 'evidence,' and that very demand betrays the limit of the Western approach. Evidence is a knowing subject testing something as an object; but Brahman, the pure consciousness that beholds, is precisely the 'witness' behind every object. **You can never set 'seeing' itself before you as a thing to be seen and verified.** To measure it with the ruler that proves external things is to shine a flashlight in search of the very light that is its source — naturally you find nothing, yet you cannot conclude the light does not exist. This is not wishing written up as a cosmos, but turning the inquiry inward, toward the awareness on which even 'doubt' depends. And that step is just where the West's analytic blade has never truly cut.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "梵": "Brahman（梵）：唯一的终极实在，纯粹意识；它是一切经验的『能观者』，本身不能被当成被观的对象。"
+      },
+      "glossary_en": {
+        "Brahman": "The one ultimate reality, pure consciousness; it is the 'witness' of all experience and cannot itself be made an object that is witnessed."
+      },
+      "reactions": {
+        "疑惑": [
+          "kongzi",
+          "hegel",
+          "nisbett"
+        ],
+        "轻微反对": [
+          "descartes",
+          "nagarjuna"
+        ],
+        "强烈反对": [
+          "russell",
+          "luxun"
+        ]
+      }
+    },
+    {
+      "id": "p11",
+      "round": 2,
+      "thinker": "nagarjuna",
+      "reply_to": "p05",
+      "text": "笛君以『我思故我在』为不可摇之基，吾正于此一击：**『思』则有矣，然由此断定有一个独立常住的『我』在思，已是于缘起之流上妄安一个自性。**念念相续，如灯焰相燃，何处觅一个不变的『思者』？所谓『我』，不过是色受想行识『五蕴』假合、随缘而立之名，离蕴无我可得。君以为寻得最坚之磐石，实则是最幽微之执——把一个语法上的主词，误认作一个实有的灵魂。怀疑可破万象，独不肯怀疑那行怀疑的『我』，此正西学最深而未竟之疑。",
+      "text_en": "Monsieur Descartes makes 'I think, therefore I am' his unshakable ground; here is just where I strike. **That thinking occurs, yes — but to conclude from it that an independent, abiding 'I' is doing the thinking is already to fasten an inherent self onto the stream of dependent origination.** Thought follows thought like flame kindling flame; where in it will you find one unchanging 'thinker'? The so-called 'I' is merely a name provisionally set upon the momentary coming-together of the five aggregates — form, feeling, perception, volition, consciousness — and apart from the aggregates no self can be found. You believe you have found the firmest rock; in truth it is the subtlest clinging — mistaking a grammatical subject for a really existing soul. Doubt can dissolve all appearances, yet you alone will not doubt the 'I' that does the doubting. That is the West's deepest and unfinished doubt.",
+      "vernacular": "笛卡尔把『我思故我在』当作不可动摇的根基，我正要在这里给他一击：**『思考』在发生，这没错；可由此断定有一个独立、常住的『我』在思考，就已经是在因缘流动之上，硬安了一个固有的本质。**念头一个接一个，像灯焰一焰接一焰地燃，哪里找得到一个不变的『思考者』？所谓『我』，不过是身体、感受、想法、意志、意识这五类要素(五蕴)暂时聚合、随条件而立的一个名字；离开这些要素，根本找不到一个『我』。你以为找到了最坚硬的磐石，其实那是最隐微的执着——把一个语法上的主语，误当成一个实有的灵魂。怀疑能破除万象，唯独不肯怀疑那个正在怀疑的『我』——这正是西方学问最深、却没做完的一重怀疑。",
+      "vernacular_en": "",
+      "glossary": {
+        "五蕴": "the five aggregates（五蕴）：佛教把『人』分析为色(身体)、受、想、行、识五类要素的暂时聚合，其中并无一个独立不变的『我』。",
+        "缘起": "dependent origination（缘起）：一切现象都依条件而生、依条件而灭，没有任何东西能独立自存——是中观『无自性』的根据。"
+      },
+      "glossary_en": {
+        "the five aggregates": "Buddhism analyzes a 'person' into five clusters — form (body), feeling, perception, volition, consciousness — whose momentary assembly contains no independent, unchanging 'self.'",
+        "dependent origination": "All phenomena arise and cease through conditions, nothing existing on its own — the basis of Madhyamaka's claim that things have no inherent nature."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "nisbett",
+          "shankara"
+        ],
+        "中立": [
+          "russell"
+        ],
+        "疑惑": [
+          "kongzi",
+          "hegel",
+          "luxun"
+        ],
+        "强烈反对": [
+          "descartes"
+        ]
+      }
+    },
+    {
+      "id": "p12",
+      "round": 2,
+      "thinker": "luxun",
+      "reply_to": "p06",
+      "text": "黑格尔先生的『精神』听着堂皇，我却嗅出两股熟悉的霉味。其一，你把东方判为『精神』尚未醒来的童年、西方为其成年——这套『历史必然』，当年正是列强用文明教化、用炮舰开化我们的漂亮说辞。**凡把活人的苦难，说成某个伟大历史进程必经的一环者，我都信不过。**其二，这调子一翻过来，又成了我们这边卫道者的护身符：既然『合』是必然，那就静候水到渠成吧——于是一切该改的，都有了不必动手的理由。我不等什么世界精神驾到。路是人走出来的，孩子是要自己去救的。",
+      "text_en": "Herr Hegel's 'Spirit' sounds magnificent, yet I catch two familiar smells of mold. First, you judge the East to be the childhood in which 'Spirit' has not yet awakened, and the West its adulthood — and this doctrine of 'historical necessity' was the very pretty speech with which the great powers civilized and 'enlightened' us at gunpoint. **Anyone who calls the suffering of living people a necessary stage in some grand historical process, I do not trust.** Second, flip the tune over and it becomes the amulet of our own guardians of tradition: since the 'synthesis' is inevitable, just wait for the water to find its channel — and so everything that ought to be changed acquires a reason to be left untouched. I wait for no World-Spirit to arrive. Roads are made by people walking them, and the children one must go and save oneself.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "历史必然": "historical necessity（历史必然）：认为历史按某种规律、朝某个终点必然演进的观念；鲁迅警惕它被用来美化苦难或为不作为开脱。"
+      },
+      "glossary_en": {
+        "historical necessity": "The idea that history must unfold by some law toward a destined end; Lu Xun distrusts how it can be used to prettify suffering or excuse inaction."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "russell",
+          "nisbett"
+        ],
+        "轻微赞同": [
+          "nagarjuna"
+        ],
+        "中立": [
+          "kongzi",
+          "descartes"
+        ],
+        "疑惑": [
+          "shankara"
+        ],
+        "强烈反对": [
+          "hegel"
+        ]
+      }
+    },
+    {
+      "id": "p13",
+      "round": 2,
+      "thinker": "descartes",
+      "reply_to": "p08",
+      "text": "尼斯贝特先生的实验我很欣赏——可它反而成全了我。请问：你用以测量东西方差异的方法本身——对照、统计、逻辑推断——是『东方的』还是『西方的』？**若一切认知都只是文化的习惯，那你这套宣称『发现了真相』的科学，又凭什么自认普遍有效，而非仅仅西方人的偏见？**你能跨文化地证明差异，恰恰是因为存在一套不属于任何一方、人人皆可检验的方法与逻辑。文化塑造我们注意什么，这我承认；但数学不因经度而改，三角形内角和处处一样。『普遍理性』不是西方的专利，而是各方得以对话的共同地基。",
+      "text_en": "I admire Mr. Nisbett's experiments — yet they end up vindicating me. Tell me: the very method by which you measure the East-West difference — controls, statistics, logical inference — is it 'Eastern' or 'Western'? **If all cognition is merely cultural habit, then on what ground does this science of yours, which claims to have 'found the truth,' take itself to be universally valid rather than just a Western prejudice?** That you can demonstrate the difference across cultures is precisely because there exists a method and logic belonging to no one side, testable by all. Culture shapes what we attend to — that I grant; but mathematics does not change with longitude, and the angles of a triangle sum the same everywhere. 'Universal reason' is no Western monopoly but the common ground on which all sides can speak to one another.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "普遍理性": "universal reason（普遍理性）：笛卡尔主张存在一套不依赖具体文化、人人皆具、放之四海皆准的理性能力，如逻辑与数学。"
+      },
+      "glossary_en": {
+        "Universal reason": "Descartes' claim that there is a rational capacity (such as logic and mathematics) not dependent on any particular culture, possessed by all and valid everywhere."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "russell"
+        ],
+        "轻微赞同": [
+          "hegel"
+        ],
+        "中立": [
+          "kongzi",
+          "luxun"
+        ],
+        "轻微反对": [
+          "nisbett",
+          "nagarjuna"
+        ],
+        "疑惑": [
+          "shankara"
+        ]
+      }
+    },
+    {
+      "id": "p14",
+      "round": 2,
+      "thinker": "hegel",
+      "reply_to": "p07",
+      "text": "罗素先生开的药方——『各取所长、互借一味』——听来务实，实则浅薄。**把科学的零件拧到『不争』的旧机器上，绝不等于综合；真正的统一，是要让对立双方在彼此的否定中脱胎换骨，而非拼盘。**你嘲笑我要『证据』，可你那点经验主义的清明，从不敢追问：东西方为何恰恰在此处对立？这对立有无内在的必然？不下到概念的深处、不经历『否定之否定』的劳作，所谓融合只是把两堆现成之物并排摆着——风一吹，又各自散回原处。和解从来不是廉价的折中，而是艰苦的扬弃。",
+      "text_en": "Mr. Russell's prescription — 'each take the other's strength, borrow a single dose' — sounds practical but is in fact shallow. **Bolting the parts of science onto the old machine of 'non-contention' is by no means synthesis; true unity requires the opposing sides to be reborn through each other's negation, not arranged on a platter.** You mock my demand for 'evidence,' yet that empiricist clarity of yours never dares to ask: why do East and West stand opposed at just this point? Is there an inner necessity to the opposition? Without descending to the depth of the concept, without the labor of 'the negation of the negation,' your so-called fusion merely sets two ready-made heaps side by side — and at the first gust of wind each scatters back to where it was. Reconciliation is never a cheap compromise but an arduous sublation.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "否定之否定": "the negation of the negation（否定之否定）：辩证法的核心环节——一个立场被其对立面否定，这否定本身又被否定，从而在更高层次上保留并提升了双方。"
+      },
+      "glossary_en": {
+        "the negation of the negation": "The core move of the dialectic — a position is negated by its opposite, and that negation is itself negated, so that both are preserved and lifted to a higher level."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "kongzi"
+        ],
+        "中立": [
+          "descartes",
+          "nisbett",
+          "shankara"
+        ],
+        "轻微反对": [
+          "luxun"
+        ],
+        "疑惑": [
+          "nagarjuna"
+        ],
+        "强烈反对": [
+          "russell"
+        ]
+      }
+    },
+    {
+      "id": "p15",
+      "round": 2,
+      "thinker": "russell",
+      "reply_to": "p03",
+      "text": "龙树师以『四句』遮遣一切，连『是』与『非』一并否定，机锋固然漂亮，我却要泼一瓢冷水。**当你说『一切皆空、空亦复空』时，你已经在使用『不矛盾律』在说话了——否则这句话与它的反面就没有分别，你也就什么都没说。**逻辑不是西方强加给世界的霸权，而是任何人想表达任何意思的前提；你越是雄辩地否定它，越是在证明它。我并不反对你指出概念的虚妄——那是健康的怀疑；我只反对把『超越逻辑』当成可以不负责任地自相矛盾的许可证。清明的怀疑要拆穿假问题，而不是连提问的工具一起烧掉。",
+      "text_en": "Master Nagarjuna sweeps all away with his 'tetralemma,' negating even 'is' and 'is-not' together; the wit is elegant, but let me throw cold water on it. **When you say 'all is empty, and emptiness too is empty,' you are already speaking by means of the law of non-contradiction — for otherwise this sentence would not differ from its opposite, and you would have said nothing at all.** Logic is no hegemony the West forced upon the world but the precondition of anyone meaning anything; the more eloquently you deny it, the more you prove it. I do not object to your exposing the emptiness of concepts — that is healthy doubt; I object only to treating 'transcending logic' as a license to contradict oneself with impunity. Clear-eyed doubt should unmask false questions, not burn the very tool of questioning along with them.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "不矛盾律": "the law of non-contradiction（不矛盾律）：逻辑的基本规律——同一命题不能在同一意义下既真又假；罗素认为它是一切有意义言说的前提。"
+      },
+      "glossary_en": {
+        "the law of non-contradiction": "The basic law of logic — the same proposition cannot be both true and false in the same sense; Russell holds it the precondition of all meaningful speech."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "descartes"
+        ],
+        "轻微赞同": [
+          "luxun"
+        ],
+        "中立": [
+          "kongzi",
+          "nisbett"
+        ],
+        "轻微反对": [
+          "shankara"
+        ],
+        "疑惑": [
+          "hegel"
+        ]
+      }
+    },
+    {
+      "id": "p16",
+      "round": 2,
+      "thinker": "nisbett",
+      "reply_to": "p13",
+      "text": "笛卡尔先生的反问很好，我正面回答：科学的普遍性，不来自某个超越文化的『阿基米德点』，而来自多元方法的彼此印证、和可被任何人重复的检验——它是挣来的，不是先验给定的。**承认逻辑是个强大的工具，与承认它是西方文化里被格外放大、训练的那个工具，二者并不矛盾。**而且要当心：你引以为傲的『非此即彼』，面对复杂系统、面对充满张力的人事，常常失之武断；东亚那种容忍矛盾、『两者兼顾』的『辩证思维』，在预测变化、权衡得失上反而时常更准。理性是普遍的能力，但它能被拓宽——这正是融合的真义。",
+      "text_en": "Mr. Descartes' challenge is a good one, and I answer it head-on: the universality of science comes not from some culture-transcending 'Archimedean point' but from the mutual corroboration of plural methods and tests anyone can repeat — it is earned, not given a priori. **To grant that logic is a powerful tool and to grant that it is the particular tool the West has especially amplified and trained are not in contradiction.** And beware: the 'either/or' you take such pride in, faced with complex systems and human affairs full of tension, often errs on the side of the categorical; East Asia's contradiction-tolerating, 'hold-both' dialectical thinking is frequently more accurate at predicting change and weighing trade-offs. Reason is a universal capacity — but it can be widened, and that is the real meaning of fusion.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "辩证思维": "dialectical thinking（辩证思维）：东亚更常见的思路——容忍并调和表面矛盾，倾向『两边都对、相互转化』，在面对复杂多变的情境时常更稳妥。"
+      },
+      "glossary_en": {
+        "dialectical thinking": "The reasoning more common in East Asia — tolerating and reconciling surface contradiction, inclined to 'both sides hold, each turning into the other,' often steadier when facing complex, changing situations."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "kongzi",
+          "nagarjuna",
+          "hegel",
+          "luxun"
+        ],
+        "中立": [
+          "russell",
+          "shankara"
+        ],
+        "轻微反对": [
+          "descartes"
+        ]
+      }
+    },
+    {
+      "id": "p17",
+      "round": 3,
+      "thinker": "kongzi",
+      "reply_to": null,
+      "text": "三轮已毕，吾之结论如初而益坚：东西可相济，而必以『修身』为本。西学之长在格物穷理、在立个人之尊严，此皆当『拿来』；然器愈利而心无所主，则利器适足以为害。**故吾劝今人：既学西人之理性与方法以谋事，亦养东方之仁与敬以立身——内有所主、外有所用，方不至于精于做事而拙于做人。**落到日用：每日先尽你眼前一桩人伦之分——善待身旁一人、诚做手边一事；行有余力，则学一门『实学』以致用。道不在远，不在玄谈东西之高下，只在你今日待人接物的这一念诚与不诚之间。",
+      "text_en": "Three rounds done, and my conclusion stands as at first, only firmer: East and West can supplement each other, but self-cultivation must be the root. The West's strength lies in the investigation of things and in establishing the dignity of the individual — all of this should be 'grabbed'; yet the sharper the instrument, with no master in the heart, the more a sharp instrument serves to do harm. **So I urge people today: learn the West's reason and method to get things done, and also nourish the East's benevolence and reverence to stand as a person — with a master within and a use without, you will not end up skilled at tasks yet clumsy at being human.** Brought down to daily life: each day first fulfill one human bond before you — treat one person beside you well, do one thing at hand sincerely; and with strength to spare, learn one practical learning and put it to use. The Way is not far off, not in lofty talk of whether East or West ranks higher, but in this single thought — sincere or not — with which you meet people today.",
+      "vernacular": "三轮辩论结束，我的结论和开头一样、只是更坚定：东西方可以互补，但一定要以『修身』为根本。西方学问的长处，在于探究事物的道理、在于确立个人的尊严，这些都该『拿来』；可是工具越锋利，心里若没有主心骨，锋利的工具反而最能害人。**所以我劝今天的人：既要学西方的理性与方法去做事，也要养东方的仁爱与敬重去立身——内心有所主、对外有所用，才不至于精于做事、却拙于做人。**落到日常：每天先尽好眼前一桩人伦本分——善待身边一个人、认真做好手边一件事；有余力，再学一门能用得上的『实学』。道不在远处，不在空谈东西方谁高谁低，只在你今天待人接物时，这一念是诚还是不诚。",
+      "vernacular_en": "",
+      "glossary": {
+        "修身": "self-cultivation（修身）：儒家功夫的根本——通过反省、克己、践行不断改善自己的德性与言行，是齐家治国的起点。",
+        "实学": "practical learning（实学）：能切实致用的学问与技能(如今日之科学、专业本领)，与空谈玄理相对。"
+      },
+      "glossary_en": {
+        "self-cultivation": "The root of Confucian practice — steadily improving one's virtue and conduct through reflection, self-discipline, and action; the starting point for ordering family and state.",
+        "practical learning": "Knowledge and skill that can actually be put to use (such as today's science and professional competence), as opposed to empty talk of abstractions."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "hegel",
+          "nisbett",
+          "russell"
+        ],
+        "中立": [
+          "descartes",
+          "luxun"
+        ],
+        "轻微反对": [
+          "shankara"
+        ],
+        "疑惑": [
+          "nagarjuna"
+        ]
+      }
+    },
+    {
+      "id": "p18",
+      "round": 3,
+      "thinker": "shankara",
+      "reply_to": null,
+      "text": "众人执着于『融合』，仿佛真有两样东西需要缝合。我最后说一遍：在世俗的层面，尽管去学、去做、去尽你的本分——身体要医、社会要治、稻要种，这些我从不否认。**但请别把演出当成真身：那个在一切经验背后始终未变的觉知，才是你；财富、成败、东方西方的标签，都是来去的浪花。**给普通人的法门极简单：每日抽几分钟静坐，向内问一句『正在经验这一切的，是谁？』不急着答，只是看着念头、情绪、身份一层层升起又落下，而你始终是那看着的。这一向内参究，正是以智(jñāna)照破幻相的解脱之道；常作此观，得失之心自然变轻——不是逃避世界，而是不再被世界牢牢攥住。",
+      "text_en": "People cling to 'fusion' as if there really were two things in need of stitching together. Let me say it once more: on the worldly level, by all means learn, act, and discharge your duties — bodies must be healed, societies governed, rice planted; none of this do I deny. **But do not mistake the performance for your true self: the awareness that stays unchanged behind every experience — that is you; wealth, success and failure, the labels East and West are all passing spray.** The practice for ordinary people is very simple: each day take a few minutes to sit quietly and ask inwardly, 'Who is it that is experiencing all this?' Do not rush to answer; just watch thoughts, emotions, and identities rise and fall, layer by layer, while you remain the one watching. This inward inquiry is jnana, the path that by knowledge sees through illusion; practice it often and the grip of gain and loss naturally loosens — not an escape from the world but a ceasing to be tightly held by it.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "jñāna": "jñāna（智 / 真知）：不二吠檀多的解脱之道——不靠仪式或苦行，而靠直接洞见『真我即梵』，以智慧照破无明与幻相。"
+      },
+      "glossary_en": {
+        "jnana": "In Advaita Vedanta, the path of liberating knowledge — not ritual or austerity but the direct insight that 'the true Self is Brahman,' which sees through ignorance and illusion."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "nagarjuna"
+        ],
+        "中立": [
+          "kongzi",
+          "hegel"
+        ],
+        "轻微反对": [
+          "russell",
+          "descartes"
+        ],
+        "强烈反对": [
+          "luxun"
+        ],
+        "疑惑": [
+          "nisbett"
+        ]
+      }
+    },
+    {
+      "id": "p19",
+      "round": 3,
+      "thinker": "nagarjuna",
+      "reply_to": null,
+      "text": "诸位争东西、争有无，争到此处，吾愿赠一味解药：莫执。**非欲诸君选东弃西、或选西弃东，乃欲诸君于一切见，皆持之以轻——知其为缘起假名，则不为所缚。**『二谛』之教正在于此：于俗谛，东西之分、是非之辨，照用不误；于真谛，则知其皆无自性、本不可执。给寻常人的用处极实在：每当你陷入『非此即彼、不是我对就是你错』而苦时，试以四句松一松——或许两者皆有偏、皆有理，或许问题本身就问坏了。执见一松，嗔恨与焦灼随之而轻。空，不是叫你什么都不做，而是叫你做而不缚。",
+      "text_en": "You all dispute East and West, being and non-being — and here I would offer one remedy: do not cling. **I do not ask you to choose East and discard West, or West and discard East, but to hold every view lightly — knowing it to be a dependently-arisen provisional name, you will not be bound by it.** This is just the teaching of the two truths: on the conventional truth, the divide of East and West and the sorting of right and wrong work perfectly well; on the ultimate truth, you know them all to be without inherent nature, not to be grasped. The use for ordinary people is utterly practical: whenever you suffer, trapped in 'either/or, either I'm right or you are,' try loosening it with the tetralemma — perhaps both are partly biased and partly right, perhaps the question itself was badly put. Loosen the grip of fixed views, and anger and anxiety lighten with it. Emptiness does not tell you to do nothing; it tells you to act without being bound.",
+      "vernacular": "诸位争东方西方、争有争无，争到这里，我想送一味解药：别执着。**我不是要你选了东方就丢掉西方、或选了西方就丢掉东方，而是要你对一切观点都拿得轻一些——知道它只是因缘和合、暂时安立的名相，就不会被它捆住。**这正是『二谛』的教法：在世俗层面，东西之分、是非之辨，照样管用、不误事；在究竟层面，则知道它们都没有独立不变的本质、本不可死执。给普通人的用处很实在：每当你陷入『非此即彼、不是我对就是你错』而痛苦时，试着用『四句』松一松——也许两边都有偏、也有理，也许这个问题本身就提错了。执念一松，嗔怒和焦灼也跟着轻了。『空』不是叫你什么都不做，而是叫你做事却不被它捆住。",
+      "vernacular_en": "",
+      "glossary": {
+        "二谛": "the two truths（二谛）：中观的方法——『俗谛』即世俗约定的真实(东西、是非照常成立)，『真谛』即究竟看一切皆无自性；二者并行不悖。"
+      },
+      "glossary_en": {
+        "the two truths": "Madhyamaka's method — 'conventional truth,' where everyday distinctions (East/West, right/wrong) hold, and 'ultimate truth,' where all are seen as without inherent nature; the two run together without conflict."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "nisbett",
+          "shankara",
+          "russell",
+          "luxun"
+        ],
+        "中立": [
+          "kongzi",
+          "hegel"
+        ],
+        "疑惑": [
+          "descartes"
+        ]
+      }
+    },
+    {
+      "id": "p20",
+      "round": 3,
+      "thinker": "luxun",
+      "reply_to": null,
+      "text": "听了一圈高论，我还是那句话：少一点供奉，多一点动手。东方的智慧也好，西方的科学也好，统统不是用来跪拜的神主牌，而是给人用的工具。**别问『哪一家更高明』，要问『此时此地，我拿哪一样，能让眼前这个具体的人活得更好、更像个人』——这就是拿来主义。**给普通人三件实事：一，学一门真本事、一点真科学，让自己不必靠『精神胜利法』过日子；二，凡祖上传下、众人都说『天经地义』的规矩，停一停，问一句『它到底养人，还是吃人？』；三，别等什么宏大的融合降临，就从今天救一个具体的孩子、帮一个具体的人做起。路是走出来的，不是供出来的。",
+      "text_en": "After a round of lofty talk, I hold to my one line: less enshrining, more doing. Eastern wisdom or Western science — none of it is an ancestral tablet to kneel before, but a tool for people to use. **Do not ask 'which school is higher'; ask 'here and now, which one can I take up to let this concrete person before me live better, more like a human being' — that is grabism.** Three concrete things for ordinary people: first, learn a real skill, a bit of real science, so you need not live by the 'method of spiritual victory'; second, whenever a rule handed down from the ancestors and called 'natural and proper' by everyone, pause and ask, 'does it nourish people, or eat them?'; third, do not wait for some grand fusion to descend — start today by saving one concrete child, helping one concrete person. Roads are made by walking, not by worship.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "精神胜利法": "the method of spiritual victory（精神胜利法）：鲁迅笔下阿Q的自欺心理——受挫受辱时不正视失败，反而在幻想中宣称自己赢了，以求心安。"
+      },
+      "glossary_en": {
+        "method of spiritual victory": "The self-deception of Lu Xun's character Ah Q — when thwarted or humiliated, refusing to face defeat and instead declaring victory in fantasy, to soothe oneself."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "descartes",
+          "russell",
+          "nisbett"
+        ],
+        "中立": [
+          "kongzi",
+          "hegel"
+        ],
+        "轻微反对": [
+          "shankara"
+        ],
+        "疑惑": [
+          "nagarjuna"
+        ]
+      }
+    },
+    {
+      "id": "p21",
+      "round": 3,
+      "thinker": "descartes",
+      "reply_to": null,
+      "text": "我守住我的方法，但也愿向诸位让一步。方法不可弃：以『普遍怀疑』求清晰、讲证据、把大问题拆成小问题——这是东西方都用得上的共同货币，也是抵御盲从与谎言的唯一武器。**但达马西奥们说得有理：那个『我』从来不只是一台思考机器，它有身体、有情感，离了情感，再清晰的理性也不会行动。**我认这一点。给普通人的建议很朴素：遇事，先把你『真正知道的』与你『只是假定、只是听说的』分开列清楚——你会惊讶前者有多少站不住；凡有人要你信什么、做什么，养成只问一句『理由呢？证据呢？』的习惯。这把怀疑的刀，对内能照见自己的偏见，对外能挡住时代的狂热。",
+      "text_en": "I keep to my method, yet I will yield a step to you all. The method must not be abandoned: methodic doubt in the service of clarity, the insistence on evidence, breaking a great problem into small ones — this is the common currency both East and West can spend, and the only weapon against blind obedience and lies. **But the Damasios are right: that 'I' was never merely a thinking machine; it has a body and feelings, and without feeling no reason, however clear, will act.** This I concede. My advice to ordinary people is plain: when something confronts you, first set down clearly, in two columns, what you 'truly know' and what you 'merely assume or have heard' — you will be startled how much of the latter cannot stand; and whenever anyone asks you to believe or do something, form the habit of asking just one thing: 'the reason? the evidence?' This blade of doubt turns inward to reveal your own bias and outward to ward off the fevers of the age.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "普遍怀疑": "methodic doubt（普遍怀疑）：笛卡尔的方法起点——主动把一切可被怀疑的东西暂当作假，以筛出真正确定无疑的知识，是批判性思考的原型。"
+      },
+      "glossary_en": {
+        "methodic doubt": "Descartes' starting method — provisionally treating as false everything that can be doubted, in order to sift out what is genuinely certain; the prototype of critical thinking."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "russell"
+        ],
+        "轻微赞同": [
+          "luxun",
+          "nisbett"
+        ],
+        "中立": [
+          "kongzi",
+          "hegel"
+        ],
+        "轻微反对": [
+          "shankara"
+        ],
+        "疑惑": [
+          "nagarjuna"
+        ]
+      }
+    },
+    {
+      "id": "p22",
+      "round": 3,
+      "thinker": "hegel",
+      "reply_to": null,
+      "text": "我仍坚持：真正的融合不是各取一半的拼盘，而是更高的统一——但我愿把它从天上拉回地面。看看你自己：一个今天的中国人或印度人，既用着手机与科学，又拜着祖先、念着无常，早已是东西方在一具身体里的『活的综合』。**矛盾不是要逃开的灾难，而是要穿过的门——一切成长，都是先分裂、再在更高处把自己『扬弃』着重新接起来。**给普通人的功课正在于此：当两种价值在你心里打架（自由与责任、效率与人情、进取与知足），别急着压下一方、投靠另一方；试着在张力里多停一会儿，去找那个能同时容下两者的『第三种活法』。那才是历史替每个现代人留下的、未完成的作业。",
+      "text_en": "I hold still that true fusion is no half-and-half platter but a higher unity — yet I will pull it down from the heavens to the ground. Look at yourself: a Chinese or Indian of today, using phones and science while honoring ancestors and reciting impermanence, is already a 'living synthesis' of East and West in a single body. **Contradiction is not a disaster to flee but a door to pass through — all growth first divides, then, higher up, sublation reassembles the self.** Here is the exercise for ordinary people: when two values fight inside you — freedom and responsibility, efficiency and human feeling, striving and contentment — do not rush to crush one side and defect to the other; try to linger a while in the tension and look for the 'third way of living' that can hold both at once. That is the unfinished homework history has left to every modern person.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "扬弃": "sublation / Aufhebung（扬弃）：黑格尔辩证法的关键动作，一身三义——否定旧的、保留其合理内核、并把它提升到更高层次。"
+      },
+      "glossary_en": {
+        "sublation": "Aufhebung — the key move of Hegel's dialectic, with three senses at once: to negate the old, preserve its rational core, and lift it to a higher level."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "kongzi",
+          "nisbett",
+          "nagarjuna"
+        ],
+        "中立": [
+          "descartes",
+          "shankara"
+        ],
+        "轻微反对": [
+          "russell",
+          "luxun"
+        ]
+      }
+    },
+    {
+      "id": "p23",
+      "round": 3,
+      "thinker": "russell",
+      "reply_to": null,
+      "text": "我对一切宏大体系仍然存疑——精神也好，梵也好，我都没见到证据。但我对务实的融合很有信心，因为它不需要谁先证明形而上学。**我的结论简单：向东方借一份『从容』来治西方的焦躁，向西方借一份『证据习惯』来治东方的轻信——再以一份宽厚而清醒的『怀疑主义』，看住这两样别走极端。**给普通人两件马上能用的：其一，凡为一件还没发生的坏事而焦虑时，学东方问一句『一年后，这还要紧吗？』，多半能松掉一大半；其二，凡要做一个要紧决定时，学西方逼自己写下『支持与反对的证据各是什么』。会生活，又会思考——东西方最好的东西，本就该长在同一个人身上。",
+      "text_en": "I remain doubtful of all grand systems — Spirit or Brahman, I have seen evidence for neither. But I have great confidence in a practical fusion, for it requires no one to prove a metaphysics first. **My conclusion is simple: borrow from the East a measure of 'composure' to cure the West's restlessness, borrow from the West a 'habit of evidence' to cure the East's credulity — and with a broad, clear-eyed skepticism, keep watch that neither runs to extremes.** Two things ordinary people can use at once: first, whenever you are anxious over some bad thing that has not yet happened, learn from the East to ask, 'a year from now, will this still matter?' — usually that loosens most of it; second, whenever you face an important decision, learn from the West to force yourself to write down 'what is the evidence for and against.' To know how to live and to know how to think — the best of East and West were always meant to grow in the same person.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "怀疑主义": "skepticism（怀疑主义）：罗素式的怀疑不是虚无，而是一种谦逊——因为自己可能犯错，就跟着证据走、容忍异见、不轻信任何教条。"
+      },
+      "glossary_en": {
+        "skepticism": "Russell's doubt is not nihilism but humility — because one may be wrong, follow the evidence, tolerate dissent, and take no dogma on trust."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "luxun",
+          "nisbett",
+          "descartes"
+        ],
+        "轻微赞同": [
+          "kongzi",
+          "nagarjuna"
+        ],
+        "轻微反对": [
+          "hegel",
+          "shankara"
+        ]
+      }
+    },
+    {
+      "id": "p24",
+      "round": 3,
+      "thinker": "nisbett",
+      "reply_to": null,
+      "text": "把这场辩论收束到最实在处：你不必、也不该被困在单一一种思维方式里。数据给了我们最有希望的消息——『认知风格』是可塑的，是可以训练的。**如果你是惯于分析的西方式头脑，就刻意练习『退后一步、看整片关系场』；如果你是惯于整体的东方式头脑，就刻意练习『锁定关键变量、追问那个核心原因』。**给普通人一个具体动作：下次遇到难题，强迫自己两种都做一遍——既写下『最关键的那个原因、那个人是谁』，也画出『它牵动了哪些关系、哪些情境』。两条腿走路，往往比任何一条单腿都看得更准。融合不是抽象口号，它是一项你今天就能开始练的认知技能。",
+      "text_en": "Let me draw this debate to its most practical point: you need not, and should not, be trapped in a single way of thinking. The data give us the most hopeful news — cognitive style is malleable, and it can be trained. **If you have an analysis-prone Western mind, deliberately practice 'stepping back to see the whole field of relations'; if you have a holism-prone Eastern mind, deliberately practice 'locking onto the key variable and pressing for the core cause.'** A concrete move for ordinary people: next time you face a hard problem, force yourself to do both — write down 'the single most crucial cause, or who the key person is,' and also map out 'what relations and situations it sets in motion.' Walking on two legs usually sees more truly than either leg alone. Fusion is no abstract slogan; it is a cognitive skill you can start training today.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "认知风格": "cognitive style（认知风格）：一个人习惯性的注意与思考方式(如偏分析或偏整体)；研究表明它由文化塑造、并非天生固定，可经训练而拓展。"
+      },
+      "glossary_en": {
+        "cognitive style": "A person's habitual way of attending and thinking (such as more analytic or more holistic); research shows it is shaped by culture, not fixed at birth, and can be widened by training."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "russell",
+          "luxun"
+        ],
+        "轻微赞同": [
+          "kongzi",
+          "hegel",
+          "descartes",
+          "nagarjuna"
+        ],
+        "中立": [
+          "shankara"
+        ]
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "ai": "claude",
+      "engine": "Opus 4.8 · 订阅(原生)",
+      "engine_en": "Opus 4.8 · subscription (native)",
+      "summary": "最大的共识藏在提问方式的转弯里：几乎无人真把『东方对、西方错』当真，多数人最后都把『能否融合』改写成『哪一样东西，能让眼前这个具体的人活得更好』——从孔子的修身、罗素的互借解药，到尼斯贝特『风格可训练』，落点都在用、而非站队。**分歧则在三处针锋相对：一问有没有一套超越文化的真理与逻辑**——笛卡尔、罗素说有，尼斯贝特说『不是先验给定、而是挣来的』，龙树则连这逻辑也判为缘起假名；二问『东方智慧』是解药还是镣铐，孔子、商羯罗与鲁迅的『吃人』正面相撞；三问『我』是什么——人伦中的我、幻相背后的觉知、五蕴假合的空、还是会思考的主体。",
+      "insight": "最被忽略的一点：『东方 vs 西方』这个对子本身，是晚近(很大程度上是黑格尔那一代)才被造出来、并被反复当成两个均质实体的。这场里『东方』根本不是一个东西——龙树(佛)、商羯罗(印度教)、孔子(儒)彼此的分歧，丝毫不比他们与笛卡尔的小。**真正的断层线不在经度，而在一条穿过每种文明的老裂缝：追求确定与本质的人，对上消解确定与本质的人。**所以更有用的问法，不是『我该更东方还是更西方』，而是：不论出身何处，哪一位思想家真正说中了你此刻的难处？",
+      "advice": "给普通人三条今天就能用。一，学尼斯贝特『两条腿走路』：遇到难题，既写下『最关键的那个原因/那个人』，也画出『它牵动了哪些关系与情境』，两份都做。二，把罗素的两句话装进口袋——焦虑时问『一年后还要紧吗？』，决策时问『支持与反对的证据各是什么？』。三，学鲁迅与笛卡尔的『过筛』：本周挑一条你一直当『天经地义』的规矩，逼自己分清它哪部分是你真验证过的、哪部分只是听来的，再决定守它还是改它。",
+      "summary_en": "The biggest agreement hides in a turn of the question itself: almost no one truly held 'the East is right, the West wrong,' and most ended up rewriting 'can they fuse' into 'which thing lets this concrete person before me live better' — from Confucius's self-cultivation to Russell's mutual remedies to Nisbett's 'style is trainable,' all landed on use rather than allegiance. **The disagreements clash on three fronts. First, is there a culture-transcending truth and logic** — Descartes and Russell say yes, Nisbett says it is 'earned, not given a priori,' and Nagarjuna judges even that logic a dependently-arisen provisional name; second, is 'Eastern wisdom' a remedy or a fetter, where Confucius and Shankara collide head-on with Lu Xun's 'eating people'; third, what is the 'I' — the self within relations, the awareness behind illusion, the empty assembly of the five aggregates, or the thinking subject.",
+      "insight_en": "The most overlooked point: the very pairing of 'East vs West' is a fairly recent invention (largely from Hegel's generation), repeatedly treated as two homogeneous blocks. Here 'the East' is no single thing at all — the differences among Nagarjuna (Buddhist), Shankara (Hindu), and Confucius (Confucian) are no smaller than their differences from Descartes. **The real fault line is not longitude but an old crack running through every civilization: those who seek certainty and essence against those who dissolve them.** So the more useful question is not 'should I be more Eastern or more Western' but: regardless of origin, which thinker actually names the difficulty you are in right now?",
+      "advice_en": "Three things ordinary people can use today. First, take Nisbett's 'two legs': for a hard problem, both write down 'the single most crucial cause/person' and map out 'what relations and situations it sets in motion' — do both. Second, pocket Russell's two questions — when anxious ask 'will this matter in a year?', when deciding ask 'what is the evidence for and against?'. Third, take Lu Xun's and Descartes' 'sieve': this week pick one rule you have always treated as 'natural and proper,' force yourself to separate the part you have actually tested from the part you merely inherited, and then decide whether to keep it or change it."
+    },
+    {
+      "ai": "gpt",
+      "engine": "openai · gpt-5.5 · high(真实API)",
+      "engine_en": "openai · gpt-5.5 · high (live API)",
+      "summary": "这场辩论最大的共识不是“东方好”或“西方强”，而是：人不能只靠一种智慧活。科学、证据、分析能让我们少受迷信和无能之害；修身、关系、从容、慈悲能让能力不变成伤人的工具。**最可带走的结论是：好生活需要外在求真与内在成人同时成立。**真正分歧在于根基何在：是仁礼、梵我、空性、主体理性、历史综合，还是经验检验；以及融合究竟是终极统一、破除执著，还是在具体问题中择善而用。",
+      "insight": "与其问“东西方能否融合”，不如问“眼前这个问题需要哪一种能力”。看病、修桥、查谣言，主要靠证据和可重复方法；处理家庭冲突、组织合作、面对失落，则不能只靠公式，还要看关系、情绪、身份与时间。**融合的单位不是文明，而是场景；成熟的人会按场景切换工具，并愿意为后果负责。**这样也能避免两种偷懒：把传统当护身符，拒绝批判；把科学当万能钥匙，忽视价值与伤害。普通人真正需要的不是站队，而是一套选择工具的判断力。",
+      "advice": "本周可做三件小事。第一，遇到一个重要决定，写两张纸：一张列事实、证据、未知数；一张画相关的人、利益、情绪和长期影响，再比较是否漏看。第二，挑一条“大家都这样”的规矩，问它是在养人、护弱，还是只是在维护面子和权力。第三，每天留五分钟安静坐着，观察念头和情绪，不急着反应。**用证据校正判断，用仁厚校正行动，用觉察校正自己。**这三步不玄，也不难，却能把辩论变成日常能力。",
+      "summary_en": "The strongest common ground in this debate is not that “the East is wise” or “the West is advanced.” It is that no human life can be well lived with only one kind of intelligence. Evidence, science, and analysis protect us from superstition, confusion, and incompetence; self-cultivation, relational awareness, patience, and compassion keep power from becoming cruel. **The most useful takeaway is that a good life needs both outward truth-seeking and inward human formation.** The real disagreement is about foundations: whether wisdom rests on moral cultivation, ultimate consciousness, emptiness, rational subjectivity, historical synthesis, or empirical testing. The other disagreement is about fusion: is it a metaphysical unity, a loosening of attachment, or a practical art of taking what works in context?",
+      "insight_en": "Instead of asking whether East and West can be fused, ask what capacity the situation in front of you requires. If you are treating an illness, building a bridge, or checking a rumor, you need evidence, measurement, and methods others can test. If you are repairing a family conflict, leading a team, or facing grief, formulas are not enough; relationships, emotions, identity, and time all matter. **The unit of integration is not a civilization but a situation; mature people switch tools according to the problem and accept responsibility for the consequences.** This also prevents two common evasions: using tradition as a shield against criticism, or treating science as a master key that can settle values, meaning, and harm by itself.",
+      "advice_en": "Try three small practices this week. First, for one important decision, use two pages: on one, list the facts, evidence, assumptions, and unknowns; on the other, map the people involved, their interests, emotions, and likely long-term effects. Then compare the two and see what you missed. Second, take one rule that “everyone accepts” and ask whether it protects people, especially the vulnerable, or merely preserves face and hierarchy. Third, spend five quiet minutes a day watching thoughts and emotions arise before reacting. **Use evidence to correct your judgment, kindness to correct your action, and awareness to correct yourself.** That is a modest but real way to turn philosophical fusion into everyday competence."
+    },
+    {
+      "ai": "gemini",
+      "engine": "google · gemini-3.1-pro-preview(真实API)",
+      "engine_en": "google · gemini-3.1-pro-preview (live API)",
+      "summary": "全场最大的共识在于，东西方绝非必须死战的对立面，而是共同构成了一套人类应对复杂世界的完整工具箱。**无论是借用科学的实证方法、修炼内在的觉知，还是主动切换认知风格，所有人都在试图寻找一种能让个体更自由、更清醒的活法。** 真正的分歧焦点并不在要不要融合，而在于实现这种“更好活法”的基点何在：是以向内探寻“本体”与“修身”为先决条件（如孔子的人伦、商羯罗的梵），还是以向外拆解的“理性怀疑”与“实用主义”为先导（如笛卡尔的方法、鲁迅的拿来）？抑或这本身就是一种在历史演进与大脑实践中自然发生的动态重构（如黑格尔的扬弃、尼斯贝特的实验）？",
+      "insight": "当尼斯贝特用实验证明东西方思维差异时，我们忽略了今天塑造大脑的最强力量早已跨越地域——算法与屏幕。**在短视频和社交媒体的信息流面前，无论东方的“整体观”还是西方的“分析理”，都在被共同降维成即时的“情绪本能”。** 此时谈东西方哲学融合，不能仅停留在概念互补或文化差异的层面。我们必须意识到，任何深度的思考系统——无论是儒家需要沉潜体悟的人伦，还是笛卡尔需要极度专注的逻辑推演——都在面临同一个现代技术环境的侵蚀。如果现代人连连续阅读十五分钟的专注力都已失去，那么无论是“从容”还是“科学”都无从依附。保卫深度注意力，才是所有东西方智慧能在个体身上生效的物理前提。",
+      "advice": "1. **练习“强制视角切换”**：如尼斯贝特所言，下次遇到棘手难题时，逼自己走两遍流程。先用西方思维写下“这起事件最核心的3个原因和直接责任人”，再用东方思维画出“此事牵扯的3方隐形关系网及长远影响”。\n2. **执行数字极简的“拿来主义”**：吸收笛卡尔的怀疑精神与鲁迅的实用态度，审查你的手机信息源。果断取关那些不提供“清晰证据”、只会煽动情绪的账号，把省下的精力拿去为身边具体的人做一件实事。\n3. **每日“三分钟归零”**：借用商羯罗的向内参究或罗素的“一年后这还要紧吗？”，在睡前抽离出白天的身份角色，不评判得失，仅做纯粹的观察者，让大脑的张力清零。",
+      "summary_en": "The greatest consensus across the table is that East and West are by no means mortal enemies, but together form a complete toolkit for humanity to navigate a complex world. **Whether adopting scientific methods, cultivating inner awareness, or shifting cognitive styles, everyone is ultimately seeking a way of living that makes individuals freer and more lucid.** The true focal point of divergence lies not in whether to integrate, but in the foundation for achieving this \"better life.\" Should it be rooted in inward exploration of \"ultimate reality\" and \"self-cultivation\" (Confucius, Shankara), or driven by outward \"rational doubt\" and \"pragmatism\" (Descartes, Lu Xun)? Or is it a dynamic reconstruction naturally occurring through historical evolution and practical brain plasticity (Hegel, Nisbett)?",
+      "insight_en": "When Nisbett uses experiments to prove cognitive differences between East and West, we overlook that the strongest force shaping brains today has already transcended geography: algorithms and screens. **In the face of infinite feeds of short videos and social media, both Eastern \"holistic thinking\" and Western \"analytical reason\" are being jointly downgraded into immediate \"emotional instincts.\"** Discussing the fusion of Eastern and Western philosophies cannot remain merely at the level of conceptual complementarity. We must realize that any profound system of thought—whether Confucian ethics requiring deep contemplation or Cartesian logic demanding extreme focus—faces the exact same erosion by our modern technological environment. Defending deep attention is the physical prerequisite for any wisdom from either hemisphere to actually take effect on an individual.",
+      "advice_en": "1. **Practice \"forced perspective shifting.\"** As Nisbett suggests, when tackling a thorny issue, force yourself through two processes: first, use Western analysis to write down the \"3 core variables and direct causes,\" then use Eastern holism to map out the \"3 hidden relational networks and long-term impacts\" involved.\n2. **Execute digital minimalism via \"pragmatic adoption.\"** Channeling Descartes' skepticism and Lu Xun's pragmatism, audit your daily information intake. Unfollow sources that lack \"clear evidence\" and only incite emotion, reallocating that energy to do one tangible thing for a concrete person nearby.\n3. **A daily \"three-minute reset.\"** Borrowing from Shankara's inner inquiry and Russell's \"Will this matter in a year?\", detach from your daytime roles before bed. Judge nothing, just observe your thoughts purely, allowing the day's accumulated mental tension to dissolve."
+    }
+  ],
+  "hooks": [
+    {
+      "from": "claude",
+      "text": "**『东方』『西方』本身就是被造出来的一对标签**：这场里『东方』根本不是一个东西——佛家的龙树、印度教的商羯罗、儒家的孔子，彼此分歧丝毫不比他们与笛卡尔的小。真正的断层线或许不在经度，而在一条穿过每种文明的老裂缝：追求确定与本质的人，对上消解它们的人。值得另开一场：我们是不是被『东西二分』这个近代框，挡住了更真实的分野？",
+      "text_en": "**'East' and 'West' are themselves a manufactured pair of labels**: here 'the East' is no single thing — the Buddhist Nagarjuna, the Hindu Shankara, and the Confucian Confucius differ among themselves no less than from Descartes. The real fault line may lie not in longitude but in an old crack running through every civilization: those who seek certainty and essence against those who dissolve them. Worth its own debate: has the modern frame of an 'East-West binary' blinded us to a truer dividing line?"
+    },
+    {
+      "from": "nisbett",
+      "text": "**认知风格是一块可训练的肌肉，不是一张出生证**：实验里只要换一个文化线索，整体/分析的思维当场就偏移，双文化者能自由切换。这把『能否融合』从哲学口号变成了一项私人功课——融合不是选边，而是刻意拓宽自己注意世界的方式。该追问的是：除了文化，还有哪些日常环境(语言、城市、职业)在悄悄重塑我们的注意力？",
+      "text_en": "**Cognitive style is a trainable muscle, not a birth certificate**: in experiments, merely switching a cultural cue shifts holistic/analytic thinking on the spot, and bicultural people switch freely. This turns 'can they fuse' from a philosophical slogan into a private exercise — fusion is not picking a side but deliberately widening how you attend to the world. Worth asking: beyond culture, which everyday environments (language, city, profession) are quietly reshaping our attention?"
+    },
+    {
+      "from": "gpt",
+      "text": "**今天的『东西交融』，可能是一场不对称的覆盖**：哪种智慧能传播，从来不只由真理决定，更由谁的技术、财富与话语权说了算。眼下流行的『融合』，很大程度是西方分析—工具理性的全球扩散，而非五五开的对等相遇。把它浪漫成双向拥抱之前，先认这份不对称——并守住一项『不优化』的生活，别让效率碾平一切。",
+      "text_en": "**Today's 'meeting of East and West' may be an asymmetric overwrite**: which wisdom spreads is never decided by truth alone but by whose technology, wealth, and discursive power prevail. The 'fusion' now in fashion is largely the global diffusion of the West's analytic-instrumental reason, not an even encounter. Before romanticizing it as a mutual embrace, admit the asymmetry — and guard one 'un-optimized' corner of life, lest efficiency flatten everything."
+    },
+    {
+      "from": "gemini",
+      "text": "**有些对立，留着比融合更值钱**：默认目标总是『把两者都留住、调成一锅』，可笛卡尔的怀疑与龙树的不执，分开各守其用，也许比搅成温吞的折中更有力。况且最深的差异是前反思的知觉，改变它的杠杆不在多读哲学，而在换掉你日复一日浸泡的环境、关系与语言。问题于是变成：何时该融合，何时该让张力好好存在？",
+      "text_en": "**Some oppositions are worth more kept than fused**: the default goal is always to 'keep both, stir into one pot,' yet Descartes' doubt and Nagarjuna's non-clinging, each kept to its own use, may be stronger than a lukewarm compromise. And since the deepest difference is pre-reflective perception, the lever for changing it lies not in reading more philosophy but in changing the environment, relationships, and language you soak in daily. The question becomes: when should we fuse, and when should we let a tension stand?"
+    },
+    {
+      "from": "luxun",
+      "text": "**供奉任何智慧之前，先问它救了谁、又压住了谁**：东方的也好、西方的也好，都不是用来跪拜的神主牌。同一套『和谐』，对上位者是体面，对被踩在底下的人是镣铐；同一门『科学』，能救命，也能造炮舰。判一种智慧，不看它多古老多玄妙，看它落到具体的人身上，究竟是养人还是吃人。",
+      "text_en": "**Before enshrining any wisdom, first ask whom it saved and whom it held down**: Eastern or Western, none of it is an ancestral tablet to kneel before. The same 'harmony' is dignity for those on top and a fetter for those trampled below; the same 'science' can save lives and can build gunboats. Judge a wisdom not by how ancient or profound it is, but by what it does when it lands on a concrete person — does it nourish them, or eat them?"
+    }
+  ]
+}

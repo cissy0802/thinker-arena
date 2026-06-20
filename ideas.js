@@ -54,7 +54,7 @@
     s.setAttribute("data-category-id", GISCUS.categoryId);
     s.setAttribute("data-mapping", "specific");
     s.setAttribute("data-term", term);
-    s.setAttribute("data-strict", "0");
+    s.setAttribute("data-strict", "1");   // 严格按 term 精确匹配讨论——避免 enough-money-… 误匹配到已存在的 money-and-happiness 讨论
     s.setAttribute("data-reactions-enabled", "1");
     s.setAttribute("data-emit-metadata", "1");   // 让 giscus 把讨论元数据(含反应数)发回来
     s.setAttribute("data-input-position", "bottom");

@@ -9,15 +9,6 @@
   },
   "candidates": [
     {
-      "id": "withdraw-life-support",
-      "votes": 0,
-      "q": "家中老人病重、靠插管维持近乎植物人的状态，作为子女，该不该撤管放手？",
-      "q_en": "An elderly parent kept alive by tubes in a near-vegetative state — should the children withdraw life support and let go?",
-      "note": "这是许多家庭真实经历过的最艰难抉择，没有标准答案。一边是『生命神圣、为人子者岂能放手』的孝与尊严；一边是『让其有尊严地解脱、不再受苦』的慈悲与生命质量之辨。儒家的孝、庄子的顺化生死、佛教的无常与慈悲、康德的生命尊严、伊壁鸠鲁『死亡与我们无关』各执一端——在『谁来决定、何为善终、放手是不是不孝』之间，子女如何自处。",
-      "note_en": "One of the hardest choices many families have actually faced, with no clean answer. On one side, the sanctity of life and filial duty — how could a child let go? On the other, mercy and quality of life — letting someone be released with dignity, free of suffering. Confucian filial piety, Zhuangzi's acceptance of life and death, Buddhist impermanence and compassion, Kant's dignity of life, and Epicurus's 'death is nothing to us' each take a side — amid who decides, what a good death is, and whether letting go is a betrayal.",
-      "cat": "life"
-    },
-    {
       "id": "virtue-vs-talent",
       "votes": 0,
       "q": "企业用人，该「以德为先」还是「以才为先」？",
@@ -232,6 +223,15 @@
       "note": "麦当劳、英语、同一套绩效与审美开到每个角落；方言、手艺、地方性的活法在消退。多样性本身有内在价值吗，还是只是怀旧？当『最优解』全球趋同，人类会不会也丢掉应对未知的韧性(就像单一作物易遭灭顶)？",
       "note_en": "McDonald's, English, one metric of performance and taste reaching every corner, while dialects, crafts, and local ways of living fade. Does diversity have intrinsic value, or is it just nostalgia? As the 'optimal solution' converges worldwide, do humans also lose the resilience to face the unknown (as a monoculture crop is vulnerable to wipeout)?",
       "cat": "meta"
+    },
+    {
+      "id": "assisted-dying",
+      "votes": 0,
+      "q": "当病痛已无可挽回、本人清醒地请求结束，社会该不该允许安乐死与协助死亡？",
+      "q_en": "When suffering is beyond cure and a lucid patient asks to end it, should society permit euthanasia and assisted dying?",
+      "note": "这与『撤管放手』关键不同：那里是停止徒劳的治疗、让自然走完；这里是应本人明确请求、主动结束生命。『让其死去』和『杀死他』之间，真有一道清白的道德界线，还是我们需要它存在？自主权、生命神圣、对弱势者被胁迫的担忧、医生『不伤害』的誓言在此正面相撞。",
+      "note_en": "Crucially different from 'withdrawing life support': there one stops futile treatment and lets nature finish; here one actively ends a life at the patient's explicit request. Is there really a clean moral line between 'letting him die' and 'killing him,' or do we need one to exist? Autonomy, the sanctity of life, fear of coercing the vulnerable, and the physician's oath to 'do no harm' collide head-on.",
+      "cat": "ethics"
     }
   ],
   "debated": [
@@ -381,6 +381,13 @@
       "q_en": "Office politics in large organizations: a cancer, or a necessity — and how should ordinary people navigate, even use, it?",
       "date": "2026-06-20",
       "cat": "work"
+    },
+    {
+      "id": "withdraw-life-support",
+      "q": "家中老人病重、靠插管维持近乎植物人的状态，作为子女，该不该撤管放手？",
+      "q_en": "An elderly parent kept alive by tubes in a near-vegetative state — should the children withdraw life support and let go?",
+      "date": "2026-06-21",
+      "cat": "life"
     }
   ]
 }

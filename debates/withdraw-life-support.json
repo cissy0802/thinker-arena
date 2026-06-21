@@ -1,0 +1,741 @@
+{
+  "id": "withdraw-life-support",
+  "question": "家中老人病重、靠插管维持近乎植物人的状态，作为子女，该不该撤管放手？",
+  "question_en": "When an elderly parent is critically ill and kept in a near-vegetative state by life support, should the children withdraw it and let go?",
+  "date": "2026-06-21",
+  "participants": [
+    "aquinas",
+    "sen",
+    "damasio",
+    "nagarjuna",
+    "tolstoy",
+    "camus",
+    "sandel"
+  ],
+  "casting": [
+    {
+      "id": "aquinas",
+      "reason": "宗教与自然法的『生命神圣』之声，却带来全场最关键的细分：天主教伦理早把『撤掉徒劳的非常规手段』与『蓄意杀人』分开（常规/非常规手段、双重效果），给『不忍、又不愿背杀名』的子女一条古老而严谨的出路；为全场守住『生命不可被随意处置』的底线，又不滑向『不惜一切续命』。",
+      "reason_en": "The voice of religion and natural law on the sanctity of life — yet he brings the room's most crucial distinction: Catholic ethics long separated 'withdrawing futile, extraordinary means' from 'deliberate killing' (ordinary vs extraordinary means, double effect), offering children who cannot bear it — yet refuse to be called killers — an ancient, rigorous way out. He holds the floor's baseline that life may not be disposed of at will, without sliding into 'prolong at any cost.'"
+    },
+    {
+      "id": "sen",
+      "reason": "把决定从抽象伦理拉回真实世界的经济学家：能力进路追问『一具只剩呼吸的身体，还算不算在过一种生活』，更专攻一个被忽略的盲点——很多『撤管』根本不自由，是被账单逼出来的；提醒全场，谈生死之前，先看谁付得起、谁在替谁做决定。",
+      "reason_en": "The economist who drags the decision back from abstract ethics into the real world: the capability approach asks whether a body that only breathes is still living a life at all, and zeroes in on a neglected blind spot — many 'withdrawals' are not free choices but forced out by the bill. He reminds the room: before we talk life and death, look at who can pay and who is deciding for whom."
+    },
+    {
+      "id": "damasio",
+      "reason": "神经科学的事实锚：把『近乎植物人』拆成『持续植物状态』与『最小意识状态』，追问那个会经验、会受苦的『自传体自我』究竟还在不在；让这场辩论不在情绪里空转，先弄清里面到底还有没有人。",
+      "reason_en": "The empirical anchor of neuroscience: he splits 'near-vegetative' into a persistent vegetative state and a minimally conscious state, asking whether the autobiographical self that can experience and suffer is still there at all. He keeps the debate from spinning in emotion by first settling whether there is still anyone inside."
+    },
+    {
+      "id": "nagarjuna",
+      "reason": "佛学（中观）的『空与慈悲』之声：以『无自性』化解对固定之『我』的执取，指出续命之苦多源于我执；却又坚持空不堕断灭，放手之中仍要有慈悲，给全场一条『不冷酷的放下』。",
+      "reason_en": "The Buddhist (Madhyamaka) voice of emptiness-and-compassion: with 'no inherent nature' he dissolves the grasping at a fixed 'I,' noting that the suffering of prolonged life springs largely from self-grasping; yet he insists emptiness is not nihilism, that even in letting go there must be mercy — offering the room a 'letting go that is not cold.'"
+    },
+    {
+      "id": "tolstoy",
+      "reason": "文学的良心：借《伊万·伊里奇之死》直指真正折磨垂死者的不是病痛，而是周遭的谎言与孤独；把全场从『技术上的决定』拉回到『人究竟该如何陪伴一场死亡』。",
+      "reason_en": "The conscience of literature: through The Death of Ivan Ilyich he points to the truth that what most torments the dying is not the pain but the lie and loneliness around them; he pulls the room from 'a technical decision' back to 'how a human being should actually accompany a death.'"
+    },
+    {
+      "id": "camus",
+      "reason": "荒诞哲学的诚实之锥：逼问一个没人愿说的真相——我们续命，常常是为自己（推迟悲伤、躲开愧疚），不是为他；拒绝一切廉价安慰，要人睁着眼认下『这是我们的决定』。",
+      "reason_en": "The honest awl of absurdist philosophy: he forces the truth no one wants to say — that we prolong life often for ourselves (to postpone grief, to dodge guilt), not for the patient; refusing every cheap consolation, he demands that we own, with open eyes, that 'this is our decision.'"
+    },
+    {
+      "id": "sandel",
+      "reason": "政治哲学的『共同善』之声：同时挡住『纯粹个人自主』与『冷冰冰成本核算』两种简化，主张生死抉择既非消费选项也非数学题，而是一群相爱的人共同承担、且要配得上这个具体之人的道德行为。",
+      "reason_en": "The 'common good' voice of political philosophy: he blocks two reductions at once — 'pure personal autonomy' and 'cold cost accounting' — arguing that a life-and-death choice is neither a consumer option nor a math problem, but a moral act borne in common by people who love someone, one that must be worthy of this particular person."
+    }
+  ],
+  "posts": [
+    {
+      "id": "p01",
+      "round": 1,
+      "thinker": "aquinas",
+      "reply_to": null,
+      "text": "生命是受造的善，是上帝赐下的礼物，不是子女或医生可随意处置的财产。所以我把话说在前头：**蓄意终结一条生命——哪怕出于怜悯——越过了人不该越的界。**但这绝不等于必须用尽一切机器把躯体留住。神学早有『常规手段』与『非常规手段』之分：能带来相称益处、负担又不过重的照护，该尽；那些只是延长垂死、徒增痛苦的非常规手段，撤掉它、让自然走完，不是杀人。这背后是『双重效果』：你撤管，所求的是免除无谓的负担，死亡是可预见却非你意图的后果。关键从不在『拔不拔』这个动作，而在你心里求的，是病人的善，还是擅自去终结一条命。",
+      "text_en": "Life is a created good, a gift from God — not property that children or doctors may dispose of at will. So let me say it plainly: **to deliberately end a life — even out of mercy — crosses a line a human being must not cross.** But that emphatically does not mean every machine must be used to keep a body going. Theology long ago distinguished ordinary means from extraordinary means: care that brings proportionate benefit at no excessive burden, we owe; the extraordinary means that merely prolong dying and pile on suffering — to withdraw them and let nature finish is not killing. Behind this lies double effect: in removing the tube you intend to lift a futile burden, and death is a foreseen but unintended consequence. The crux is never the act of 'pulling' or not, but what your heart seeks — the patient's good, or to take it upon yourself to end a life.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "非常规手段": "extraordinary means（非常规手段）：天主教生命伦理的术语，指那些代价、痛苦或负担过重、又难带来相称益处的医疗干预；对它没有道德义务必须使用，可以正当地撤除或不用。",
+        "双重效果": "double effect（双重效果）：一条古老的伦理原则——同一行为若有好坏两种后果，只要你所意图的是好的那个、坏后果只是可预见的副作用而非达成目的的手段，行为就可能是正当的。"
+      },
+      "glossary_en": {
+        "extraordinary means": "A term in Catholic bioethics for medical interventions whose cost, pain, or burden is excessive and unlikely to bring proportionate benefit; there is no moral duty to use them, and they may rightly be withheld or withdrawn.",
+        "double effect": "An ancient ethical principle: if one act has both a good and a bad effect, the act may be permissible provided you intend the good effect and the bad one is a foreseen side effect rather than the means to your end."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sandel"
+        ],
+        "轻微赞同": [
+          "nagarjuna",
+          "tolstoy"
+        ],
+        "中立": [
+          "damasio"
+        ],
+        "轻微反对": [
+          "sen"
+        ],
+        "强烈反对": [
+          "camus"
+        ]
+      }
+    },
+    {
+      "id": "p02",
+      "round": 1,
+      "thinker": "sen",
+      "reply_to": null,
+      "text": "我衡量一条生命，不看它还有没有心跳，而看它还**有没有过一种生活的『可行能力』——能思考、能感受、能与人相系、能做哪怕最小的选择。**当大脑皮层已不可逆地熄灭、只剩一具会呼吸的躯体，让生命成其为生命的那些能力，也已随之熄灭。但我要立刻加一句最要紧的：在很多家庭，所谓『撤管的决定』根本不自由——它是被账单逼出来的。穷人家撤管，富人家续着，这就不是伦理选择，是不平等。所以我同时反对两件事：把『活着』等同于『生物学上没断气』；也反对让任何一家因为掏不起钱而被迫放手。",
+      "text_en": "I measure a life not by whether a heart still beats, but by whether it still holds the **capability to live a life at all — to think, to feel, to be bound to others, to make even the smallest choice.** When the cerebral cortex has gone dark irreversibly and only a breathing body remains, the very capabilities that make a life a life have gone dark with it. But let me add at once the thing that matters most: in many families the so-called 'decision to withdraw' is not free at all — it is forced out of them by the bill. When the poor must withdraw while the rich keep paying, that is not an ethical choice but an inequality. So I oppose two things at once: equating 'being alive' with 'not yet biologically expired,' and letting any family be forced to let go because they cannot afford to hold on.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "可行能力": "capability（可行能力）：阿马蒂亚·森的核心概念，指一个人真正有机会去做、去成为的那些状态（健康、求知、参与、自主选择）；它衡量的是实质自由，而非单纯活着或拥有多少钱。"
+      },
+      "glossary_en": {
+        "capability": "Amartya Sen's core concept: the real opportunities a person actually has to do and to be (to be healthy, to learn, to participate, to choose freely). It measures substantive freedom, not mere survival or how much money one holds."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "damasio"
+        ],
+        "轻微赞同": [
+          "sandel",
+          "camus"
+        ],
+        "中立": [
+          "nagarjuna"
+        ],
+        "轻微反对": [
+          "tolstoy",
+          "aquinas"
+        ]
+      }
+    },
+    {
+      "id": "p03",
+      "round": 1,
+      "thinker": "damasio",
+      "reply_to": null,
+      "text": "在动情绪之前，先把事实弄清，否则你们争的根本是两件事。医学上『近乎植物人』可能指两种很不同的状态：『持续植物状态』——脑干还在，会睡会醒、有反射，但托起『有一个人在场』的皮层网络已不可逆损毁；以及『最小意识状态』——还残存波动而微弱的觉知。**真正的分水岭不是身体死没死，而是那个会经验、会受苦、拥有自己一生记忆的『自传体自我』还在不在。**最原始的核心意识也许还亮着一点，可一旦支撑人格与记忆的皮层塌了，你们深爱的那个人，也许在心跳停止之前很久就已经离开。所以第一步不是表决，是请神经科去分清：里面究竟还有没有人。",
+      "text_en": "Before anyone reaches for emotion, get the facts straight, or you are arguing about two different things. Medically, 'near-vegetative' can mean two very different states: a persistent vegetative state — the brainstem intact, sleep-wake cycles and reflexes present, but the cortical networks that hold up the presence of a person irreversibly destroyed; and a minimally conscious state — a flickering, fluctuating awareness still remaining. **The true watershed is not whether the body has died, but whether the self that can experience, can suffer, that carries the memory of its own life — the autobiographical self — is still there.** The most primitive core consciousness may still glow faintly, but once the cortex that supports personality and memory has collapsed, the person you love may have departed long before the heart stops. So the first step is not a vote; it is to ask the neurologists to tell us apart: is there still anyone in there.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "持续植物状态": "persistent vegetative state（持续植物状态）：脑干功能保留、有睡醒周期与反射，但缺乏任何对自身或环境的觉知；与之相对的『最小意识状态』则残存微弱而波动的意识。",
+        "自传体自我": "autobiographical self（自传体自我）：达马西奥对自我的分层之一——由记忆、人格与对自己一生的叙事构成的高层自我，依赖大脑皮层；它之下还有更原始、依赖脑干的『核心意识』。"
+      },
+      "glossary_en": {
+        "persistent vegetative state": "A state in which brainstem function is preserved, with sleep-wake cycles and reflexes, but no awareness of self or environment; by contrast a 'minimally conscious state' retains faint, fluctuating awareness.",
+        "autobiographical self": "In Damasio's layered model of the self, the higher self built from memory, personality, and the narrative of one's whole life; it depends on the cerebral cortex, beneath which lies a more primitive, brainstem-based 'core consciousness.'"
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sen",
+          "nagarjuna"
+        ],
+        "轻微赞同": [
+          "camus"
+        ],
+        "中立": [
+          "aquinas",
+          "tolstoy"
+        ],
+        "轻微反对": [
+          "sandel"
+        ]
+      }
+    },
+    {
+      "id": "p04",
+      "round": 1,
+      "thinker": "nagarjuna",
+      "reply_to": null,
+      "text": "诸法因缘生，亦从因缘灭。生死非有自性，特众缘聚散之相耳。汝执此残躯为『我父』『我母』，执一息尚存为『犹在』，是谓我执——苦之所从来也。然空者非断灭，谓无自性，非谓无慈悲。**故撤其管者，非弃也，乃释执——释汝执彼必生之妄，亦息彼为续命所受之苦。**于二谛：就世俗谛，孝子尽心、不忍遽决，是其情真；就胜义谛，则知聚散本空，强续者徒增其缚。情理双照，乃合中道：尽其当尽之养，而不强留其不可留之形。",
+      "text_en": "All things arise from causes and conditions, and from causes and conditions they pass away. Birth and death have no inherent nature of their own; they are merely the appearance of conditions gathering and dispersing. You grasp this broken body as 'my father,' 'my mother'; you grasp one remaining breath as 'still here' — this is self-grasping, and from it suffering comes. Yet emptiness is not annihilation, not nothing: it means things have no fixed, independent nature — it does not mean there is no compassion. **So to withdraw the tube is not abandonment but the release of grasping — releasing your delusion that he must live, and stilling the suffering he bears for the sake of prolonged breath.** By the two truths: on the conventional level, a filial child who gives all and cannot bear a hasty decision — that feeling is true; on the ultimate level, one knows that gathering and dispersing are empty from the start, and to force continuation only adds bondage. To see feeling and principle at once is the Middle Way: give the care that is owed, and do not cling to a form that cannot be kept.",
+      "vernacular": "天地间一切事物，都是因缘聚合而生、因缘离散而灭。生与死并没有一个固定不变的本体，不过是众多条件聚拢又散开的表相罢了。你把这具残破的身体执着成『我的父亲』『我的母亲』，把还有一口气执着成『人还在』——这就叫我执，正是痛苦的来源。但『空』并不是断灭、不是什么都没有，它说的是事物没有独立不变的自性，并不是说没有慈悲。**所以撤掉那根管子，不是抛弃，而是松开执着——松开你『他一定能活』的妄念，也止息他为了续命而承受的苦。**从两种真理看：在世俗的层面，孝顺的子女尽心尽力、不忍心仓促决定，这份情是真的；在究竟的层面，则知道聚合离散本来就空，硬要延续，只是徒增束缚。情与理同时看清，才合乎中道：该尽的奉养尽到，而不强留那留不住的形骸。",
+      "vernacular_en": "",
+      "glossary": {
+        "我执": "ātma-grāha（我执）：佛教指对『有一个固定不变的我』的执取；龙树认为正是这种执着——把因缘聚散之身当成实有的『我』或『我的』——制造了贪恋与痛苦。",
+        "二谛": "the two truths（二谛）：龙树中观的方法——世俗谛是约定俗成、随顺人情的真实（孝、不忍），胜义谛是究竟看，万物无自性、本空；二谛并不矛盾，须同时照见。"
+      },
+      "glossary_en": {
+        "self-grasping": "ātma-grāha: the Buddhist term for clinging to 'a fixed, unchanging self.' Nāgārjuna holds that precisely this grasping — taking a body that is only gathered conditions as a real 'I' or 'mine' — manufactures craving and suffering.",
+        "the two truths": "Nāgārjuna's Madhyamaka method: the conventional truth is the everyday, humane reality (filial duty, the heart that cannot bear to decide); the ultimate truth is the final view, that all things are empty of inherent nature. The two do not contradict and must be seen together."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "damasio"
+        ],
+        "轻微赞同": [
+          "tolstoy",
+          "sandel"
+        ],
+        "中立": [
+          "sen"
+        ],
+        "轻微反对": [
+          "camus",
+          "aquinas"
+        ]
+      }
+    },
+    {
+      "id": "p05",
+      "round": 1,
+      "thinker": "tolstoy",
+      "reply_to": null,
+      "text": "我写过一个叫伊万·伊里奇的人怎么死。最折磨他的不是病痛，而是**周围所有人都在撒谎——假装他只是『病了』、很快会好，没人肯陪他面对他正在死去这件事**，他就在这场体面的谎言里，孤零零地恐惧。今天的机器，常常就是这场谎言的延长线：我们插上管子，好让自己不必说出『要告别了』。可垂死之人真正需要的，不是又一根导管，是有人握住他的手、对他说实话、守在床边。所以别只问『拔还是不拔』，先问：我们有没有停止对他撒谎？我们是真的在陪他，还是只在陪那台机器？一个诚实、有人相伴、被爱着的死，胜过多换来的那几天昏睡。",
+      "text_en": "I once wrote about how a man named Ivan Ilyich dies. What tormented him most was not the pain but **the lie of everyone around him — pretending he was merely 'ill' and would soon recover, no one willing to face with him the fact that he was dying** — and so, inside that decorous lie, he was utterly alone in his terror. Today's machines are often the extension cord of that same lie: we attach the tubes so that we need never say 'it is time to say goodbye.' Yet what the dying truly need is not one more catheter but someone to hold their hand, tell them the truth, and stay by the bed. So do not only ask 'to pull the tube or not'; ask first: have we stopped lying to him? Are we truly with him, or only with the machine? An honest death, accompanied and loved, is worth more than the extra days of stupor it buys.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "nagarjuna",
+          "sandel"
+        ],
+        "轻微赞同": [
+          "camus",
+          "aquinas"
+        ],
+        "中立": [
+          "sen",
+          "damasio"
+        ]
+      }
+    },
+    {
+      "id": "p06",
+      "round": 1,
+      "thinker": "camus",
+      "reply_to": null,
+      "text": "我说过，真正严肃的哲学问题只有一个：生命值不值得活。但请注意——这问题属于一个清醒、能反抗的人。**一具失去了一切觉知的躯体，已没有可以反抗的『荒诞』可言；西西弗斯之所以是英雄，正因为他清醒。**所以两种安慰我都拒绝：宗教的『生命是神的礼物，必须留住』，和我们嘴上不说、心里却在演的那种悲情。还有一句更难听的实话：很多时候我们让那口气续着，不是为他，是为我们自己——为了推迟悲伤，为了躲开『是我放弃了他』的愧疚。那不是爱，是逃避。诚实，是敢于承认那个人已经走了，而我们紧抓不放，只为安慰自己。",
+      "text_en": "I have said the one truly serious philosophical question is whether life is worth living. But note — that question belongs to a lucid being who can revolt. **A body that has lost all awareness no longer has the absurd to rebel against; Sisyphus is a hero precisely because he is conscious.** So I refuse both consolations: the religious one — 'life is God's gift, it must be kept' — and the sentimental drama we will not name yet keep performing. And here is the harder truth: very often we keep that breath going not for him but for ourselves — to postpone grief, to dodge the guilt of 'I gave up on him.' That is not love but evasion. Honesty means daring to admit the person is already gone, and that we hold on only to comfort ourselves.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "荒诞": "the absurd（荒诞）：加缪的核心概念，指人渴望意义、世界却沉默无解之间那道无法弥合的裂缝；面对它而不自欺、也不轻生，靠的是清醒地反抗。"
+      },
+      "glossary_en": {
+        "the absurd": "Camus's central idea: the unbridgeable gap between our craving for meaning and a silent, answerless world. To face it without self-deception and without suicide is to live by lucid revolt."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "damasio",
+          "tolstoy"
+        ],
+        "中立": [
+          "sandel",
+          "sen"
+        ],
+        "轻微反对": [
+          "nagarjuna"
+        ],
+        "强烈反对": [
+          "aquinas"
+        ]
+      }
+    },
+    {
+      "id": "p07",
+      "round": 1,
+      "thinker": "sandel",
+      "reply_to": null,
+      "text": "我要拦住两种把这件事讲廉价的说法。一种是『这是个人自主，他的命他的选择，外人闭嘴』；另一种是冷冰冰的成本收益——『维持这条命已经不划算』。两种都把一个深刻的道德问题，简化成了一笔账或一句口号。**生命的『被给予性』提醒我们：人既不该自封为可随意处置生死的主宰，也不该崇拜那种『只要技术做得到就该做』的傲慢。**让一具躯体空转，只因为机器能做到，本身就是一种僭越。这个决定不是消费者勾选项，也不是会计报表，它是一群相爱的人坐下来，认真问：怎样做，才配得上『他这个人』？谦卑一点——两边都别太确信自己握着真理。",
+      "text_en": "I want to block two cheap ways of framing this. One: 'this is personal autonomy — his life, his choice, outsiders stay out.' The other: the cold cost-benefit — 'maintaining this life no longer pays.' Both shrink a profound moral question into a ledger or a slogan. **Life's giftedness reminds us that a human being should neither crown himself a master free to dispose of life and death, nor worship the hubris of 'if the technology can do it, it should be done.'** To keep a body idling simply because the machine can is itself a kind of overreach. This decision is not a consumer's checkbox nor an accountant's spreadsheet; it is a circle of people who love someone sitting down to ask in earnest: what would be worthy of him, this particular person? Be humble — neither side should be too sure it holds the truth.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "被给予性": "giftedness（被给予性）：桑德尔的概念，指生命与天赋是我们『领受』而非完全『制造』的；记住这一点能同时抑制两种傲慢——既不把生命当作可任意处置之物，也不迷信『凡技术能做到的就该做』。"
+      },
+      "glossary_en": {
+        "giftedness": "Sandel's idea that life and talents are something we 'receive' rather than wholly 'make.' Holding it in mind curbs two hubrises at once: treating life as a thing to dispose of at will, and the faith that whatever technology can do, it should do."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "aquinas",
+          "tolstoy"
+        ],
+        "轻微赞同": [
+          "nagarjuna"
+        ],
+        "轻微反对": [
+          "sen"
+        ],
+        "中立": [
+          "damasio",
+          "camus"
+        ]
+      }
+    },
+    {
+      "id": "p08",
+      "round": 2,
+      "thinker": "aquinas",
+      "reply_to": "p06",
+      "text": "加缪，你说我们留住那口气只为安慰自己——这话有时刺中要害，我不否认。但你一步跨得太远：你凭一纸脑部扫描，就宣判『那个人已经走了』。**人之为人，不只是皮层上的电信号；你能测到意识熄灭，测不到一个灵魂的去留。**我同样厌恶把机器当偶像、为延命而延命的傲慢；可你那种『清醒地承认他没了、然后放手』，骨子里也是一种确信——确信自己看穿了生死的底牌。在不可知之处，谦卑比清醒更诚实。撤掉过重的负担，可以；替上帝宣布一个人已不复存在，不可以。",
+      "text_en": "Camus, when you say we keep that breath going only to comfort ourselves — sometimes that cuts to the bone, and I won't deny it. But you leap too far: on the strength of a brain scan you pronounce 'the person is already gone.' **A human being is not merely the electrical signals on a cortex; you can measure consciousness going dark, but you cannot measure the coming or going of a soul.** I loathe as much as you the hubris of idolizing machines and prolonging for prolonging's sake. Yet your 'lucidly admit he's gone, then let go' is, at bottom, also a certainty — the certainty that you have seen through the final card of life and death. Where things are unknowable, humility is more honest than lucidity. To withdraw an excessive burden, yes; to declare on God's behalf that a person no longer exists, no.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "轻微赞同": [
+          "sandel",
+          "nagarjuna"
+        ],
+        "中立": [
+          "tolstoy",
+          "damasio"
+        ],
+        "轻微反对": [
+          "sen"
+        ],
+        "强烈反对": [
+          "camus"
+        ]
+      }
+    },
+    {
+      "id": "p09",
+      "round": 2,
+      "thinker": "sen",
+      "reply_to": "p01",
+      "text": "阿奎那，你的『生命神圣、不可擅断』听着庄严，可它一落到真实世界，往往就变成一道压垮穷人家的命令。**当『神圣』要由一张付不起的账单来供养，它就成了富人才消受得起的奢侈品。**你说撤掉非常规手段不算杀人——好，但谁来定义『非常规』？在缺医少药的地方，连一台呼吸机都是非常规的；在富人那里，最昂贵的维持也叫『常规照护』。你的原则若不连同问一句『谁负担得起、谁在替谁做决定』，就只是把不平等供奉成了天意。我不反对敬畏生命，我反对让敬畏变成不看代价的口号。",
+      "text_en": "Aquinas, your 'life is sacred, not ours to decide' sounds solemn, but the moment it lands in the real world it often becomes an order that crushes the poor. **When 'the sacred' must be sustained by a bill no one can pay, it becomes a luxury only the rich can afford.** You say withdrawing extraordinary means is not killing — fine, but who defines 'extraordinary'? Where medicine is scarce, even a ventilator is extraordinary; for the wealthy, the most expensive maintenance is called 'ordinary care.' Unless your principle asks alongside it 'who can bear the cost, and who is deciding for whom,' it merely enshrines inequality as the will of heaven. I do not oppose reverence for life; I oppose letting reverence become a slogan blind to its price.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "camus"
+        ],
+        "轻微赞同": [
+          "damasio",
+          "tolstoy"
+        ],
+        "中立": [
+          "sandel",
+          "nagarjuna"
+        ],
+        "强烈反对": [
+          "aquinas"
+        ]
+      }
+    },
+    {
+      "id": "p10",
+      "round": 2,
+      "thinker": "damasio",
+      "reply_to": "p04",
+      "text": "龙树，难得——我这个神经科学家竟与你大半相通。你说没有一个固定不变的『我』，我在脑里看到的正是如此：所谓自我，不是某处住着的灵魂，而是大脑每时每刻重新建构出来的过程。但我要给你的『空』加一个硬邦邦的注脚：**正因为自我是被大脑造出来的，当那个建构它的皮层不可逆地塌掉，这个人就真的散了——这里的『空』不是玄学，是神经学。**所以你的『释执』，在临床上有了确切的着力点：不是叫人冷酷，而是当扫描告诉我们建构者已不在，强留的，就只剩一具会呼吸的形骸。",
+      "text_en": "Nāgārjuna, this is rare — I, a neuroscientist, find myself largely in accord with you. You say there is no fixed, unchanging 'I'; that is exactly what I see in the brain: the self is not a soul residing somewhere but a process the brain reconstructs moment by moment. But let me add a hard-edged footnote to your 'emptiness': **precisely because the self is made by the brain, when the cortex that builds it collapses irreversibly, the person truly disperses — here 'emptiness' is not metaphysics but neurology.** So your 'release of grasping' gains a concrete clinical foothold: not a call to be cold, but the recognition that when the scan tells us the builder is gone, what we cling to is only a breathing form.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "nagarjuna"
+        ],
+        "轻微赞同": [
+          "sen",
+          "camus"
+        ],
+        "中立": [
+          "sandel"
+        ],
+        "轻微反对": [
+          "tolstoy",
+          "aquinas"
+        ]
+      }
+    },
+    {
+      "id": "p11",
+      "round": 2,
+      "thinker": "nagarjuna",
+      "reply_to": "p06",
+      "text": "加缪所言『执之者为己』，是矣，然犹滞于一悲。汝曰『其人已逝』，是仍立一实有之『人』而后哀其逝也——本无自性之人可逝，何来彻底之失？**故不当止于清醒之承受，当进于慈悲之有为：放手非冷眼旁观，乃以悲心代其息苦。**西西弗斯推石，独行而无侣；临终之事不然——尚有在旁者之爱可施。空而不舍慈，方不堕汝之荒寒。",
+      "text_en": "Camus, your 'the one who clings does so for himself' — yes. Yet you halt in a single sorrow. You say 'the person is already gone' — but this still first posits a real, substantial 'person' and then grieves his departure; if there was never a person with a fixed inherent nature, what total loss can there be? **So one should not stop at lucid endurance but go further, into compassion that acts: to let go is not to look on coldly, but to still his suffering with a heart of mercy.** Sisyphus rolls his stone alone, without a companion; the deathbed is not so — there is still the love of those beside him to give. To see emptiness yet not discard compassion — only then do you not fall into your cold and barren waste.",
+      "vernacular": "加缪说『紧抓不放的人是为了自己』，说得对，可他停在了一种悲凉里。他说『那个人已经走了』——这其实还是先立了一个实实在在的『人』，再为他的离去哀伤；可本来就没有一个有固定自性的『人』会消失，又哪来彻底的失去？**所以不该只停在清醒地承受，要再往前一步，进到有所作为的慈悲：放手不是冷眼旁观，而是以悲悯之心替他止息痛苦。**西西弗斯推石头，是孤身一人、没有同伴；可临终这件事不一样——身边还有人的爱可以给出去。看见空，却不舍弃慈悲，才不会掉进你那片荒凉冰冷里。",
+      "vernacular_en": "",
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "tolstoy"
+        ],
+        "轻微赞同": [
+          "sandel",
+          "aquinas"
+        ],
+        "中立": [
+          "damasio",
+          "sen"
+        ],
+        "轻微反对": [
+          "camus"
+        ]
+      }
+    },
+    {
+      "id": "p12",
+      "round": 2,
+      "thinker": "tolstoy",
+      "reply_to": "p02",
+      "text": "森，你说得很清醒——没有能力，便不成其为生活；账单不该逼人放手。后半句我服你，前半句我要顶一句。**你用『可行能力』去丈量一条命该不该续，可一个什么都做不了、只能躺着的人，照样能成为床边那场爱与诚实的缘由。**伊万·伊里奇临终前什么能力都没了，却正是在那时，身边小仆人一句实话、一只搀扶的手，让他第一次懂了什么叫活过。别让一张表格——哪怕是充满人道关怀的表格——去裁定谁还配叫『活着』。垂死的人不是负担，他是在教还活着的人怎么去爱。",
+      "text_en": "Sen, you speak with clear eyes — without capability there is no life; a bill should not force anyone to let go. The second half I grant you; the first I must resist. **You measure whether a life should continue by 'capability,' yet a person who can do nothing but lie there can still be the occasion of love and honesty at the bedside.** Ivan Ilyich had lost every capability before he died, and it was precisely then that one true word from his young servant, one hand that held him up, let him understand for the first time what it was to have lived. Do not let a spreadsheet — even one full of humane concern — rule on who still deserves to be called 'alive.' The dying are not a burden; they are teaching the living how to love.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "nagarjuna",
+          "sandel"
+        ],
+        "轻微赞同": [
+          "aquinas",
+          "camus"
+        ],
+        "轻微反对": [
+          "sen"
+        ],
+        "中立": [
+          "damasio"
+        ]
+      }
+    },
+    {
+      "id": "p13",
+      "round": 2,
+      "thinker": "camus",
+      "reply_to": "p01",
+      "text": "阿奎那，你那套『常规与非常规』『双重效果』，论证得滴水不漏——可我担心，它最大的用处是让人能动手、又不必弄脏良心。**『我只是撤掉负担、没有杀人』，这区分有时是真慈悲，有时是一件让你逃开荒诞的漂亮外衣。**死亡逼你直视一件赤裸的事：是你，做了让他停止呼吸的决定。把它包进神学的术语里——意图、效果、相称——你也许是在把那份本该自己承担的、沉甸甸的责任，悄悄交给了『自然进程』和上帝。我不是说别撤管——该撤就撤；我是说，撤的时候，请诚实地认下那是你的选择、你的手，别躲。",
+      "text_en": "Aquinas, your apparatus of 'ordinary versus extraordinary,' of 'double effect,' is argued without a leak — but I fear its chief use is to let a person act while keeping his conscience clean. **'I merely withdrew a burden, I did not kill' — that distinction is sometimes true mercy, and sometimes a handsome coat for fleeing the absurd.** Death forces you to look at a naked fact: it was you who made the decision that stopped his breathing. Wrap it in the terms of theology — intention, effect, proportion — and you may be quietly handing the heavy responsibility you ought to bear yourself to 'the natural process' and to God. I am not saying do not withdraw — withdraw when you must; I am saying, when you do, honestly own that it was your choice, your hand. Do not hide.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "sen"
+        ],
+        "轻微赞同": [
+          "tolstoy",
+          "damasio"
+        ],
+        "中立": [
+          "nagarjuna",
+          "sandel"
+        ],
+        "强烈反对": [
+          "aquinas"
+        ]
+      }
+    },
+    {
+      "id": "p14",
+      "round": 2,
+      "thinker": "sandel",
+      "reply_to": "p03",
+      "text": "达马西奥，你把事实讲得很清楚，我感激——但请守住事实的边界。**扫描能回答『里面还有没有人』，永远回答不了『我们该怎样对待这个人、这件事对我们意味着什么』。**你说『先别表决，去问神经科』，对了一半；可一旦把决定整个交给可测量的指标，我们就会让能测的，挤掉了该想的。一个家庭明知皮层已毁，仍愿守着那具身体几日、把话说完、把礼行尽，这未必是愚昧——那是在用科学定不了价的方式，向一个具体的人告别。我要的不是反对你的数据，而是提醒：事实划定可能的范围，意义才决定我们在范围里怎么走。",
+      "text_en": "Damasio, you lay out the facts clearly, and I am grateful — but please hold to the limits of fact. **A scan can answer 'is there still a person in there'; it can never answer 'how should we treat this person, and what does this mean to us.'** Your 'don't vote yet, ask the neurologists' is half right; but the moment we hand the whole decision to measurable indicators, we let what can be measured crowd out what must be considered. A family that knows the cortex is destroyed yet chooses to keep vigil by that body for a few days — to finish what was unsaid, to complete the rites — is not necessarily being foolish: they are saying goodbye to a particular person in a way science cannot price. I am not opposing your data; I am reminding us that facts mark the range of the possible, and only meaning decides how we move within it.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "aquinas",
+          "tolstoy"
+        ],
+        "轻微赞同": [
+          "nagarjuna",
+          "camus"
+        ],
+        "中立": [
+          "sen"
+        ],
+        "轻微反对": [
+          "damasio"
+        ]
+      }
+    },
+    {
+      "id": "p15",
+      "round": 3,
+      "thinker": "aquinas",
+      "reply_to": null,
+      "text": "听完一场，我反而更确信那条古老的界线是对的，也更愿意把它说清。各位几乎都同意一点：**为延命而延命、把机器当偶像，是傲慢；可蓄意去结束一条命，是另一种傲慢。**我的结论落在两者之间：你没有义务用尽一切徒劳的手段去拖住一个垂死的身体——撤掉它，是接受人终有一死，不是杀人；但你也不该把『他活着没意义』当成动手的理由。给普通人三件实在事。一，别凭愧疚做决定，去问医生一句最朴素的话——『这个治疗是在给他相称的好处，还是只在延长死亡？』让答案、而不是你怕被说『不孝』的恐惧来定夺。二，趁清醒，为自己也劝长辈立一份『预先医疗指示』，把『我愿意接受到哪一步』写下来，别把千钧之担留给子女临时去扛。三，看顾你的意图：你撤管，求的若是免他无谓之苦，心可安；求的若是早点了结好脱身，便要再想。",
+      "text_en": "Having heard you all, I am the more certain that the old boundary is right — and the more willing to state it clearly. Nearly everyone here agrees on one thing: **to prolong for prolonging's sake and idolize the machine is hubris; yet deliberately to end a life is another hubris.** My conclusion lands between them: you have no duty to exhaust every futile means to hold back a dying body — to withdraw them is to accept that we are mortal, not to kill; but neither may you make 'his life has no meaning' your warrant to act. Three concrete things for ordinary people. First, do not decide out of guilt — ask the doctor the plainest question: 'is this treatment giving him proportionate benefit, or only prolonging death?' Let the answer, not your fear of being called unfilial, decide. Second, while you are well, make an advance directive for yourself and urge your elders to do the same — write down 'how far I am willing to go,' rather than leaving that crushing weight for your children to bear in the moment. Third, watch your intention: if in withdrawing the tube you seek to spare him needless suffering, your heart may rest; if you seek a quick end so that you can be free, think again.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "预先医疗指示": "advance directive（预先医疗指示）：人在健康清醒时预先写下的医疗意愿文件，说明一旦自己丧失表达能力、愿意或拒绝接受哪些维持生命的治疗，让家人和医生有据可依、不必替你猜。"
+      },
+      "glossary_en": {
+        "advance directive": "A document a person writes while healthy and lucid, stating which life-sustaining treatments they would accept or refuse should they lose the capacity to speak for themselves, so that family and doctors have clear guidance rather than having to guess."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sandel"
+        ],
+        "轻微赞同": [
+          "nagarjuna",
+          "tolstoy",
+          "damasio"
+        ],
+        "轻微反对": [
+          "camus"
+        ],
+        "中立": [
+          "sen"
+        ]
+      }
+    },
+    {
+      "id": "p16",
+      "round": 3,
+      "thinker": "sen",
+      "reply_to": null,
+      "text": "我们这场最大的共识，是几乎人人都不信『还有心跳就等于还在生活』；分歧在『谁来定、凭什么定』。我的落点是：**比『拔不拔』更要紧的，是这个决定到底自不自由——它该出于对这个人的了解，而不是被账单或『怕被说不孝』逼出来的。**给普通人三条。一，先把钱这件事摊开算清——治疗要花多少、医保和救助能补多少、拖下去家里会被压到什么地步。把隐形的经济胁迫摆到台面上，决定才可能是自由的，而不是『穷就只能放手』。二，别用抽象的『生命价值』去套，去回想他本人看重什么：他会管这叫『活着』吗？这才是能力进路真正的问法——以他自己的标准，而非旁人的。三，谁做了决定，全家就别再让他独自背负骂名——这是共同的承担，不该让一个人扛一辈子的悔。",
+      "text_en": "The biggest agreement of this debate is that almost no one believes 'a heartbeat means a life is still being lived'; the disagreement is over who decides and on what grounds. My conclusion: **more important than 'pull the tube or not' is whether the decision is truly free — it should arise from knowing this person, not be forced out by the bill or by the fear of being called unfilial.** Three things for ordinary people. First, lay the money out in the open: what the treatment costs, what insurance and aid will cover, how far prolonging it would crush the household. Bring the hidden economic coercion onto the table — only then can the choice be free, rather than 'the poor must simply let go.' Second, do not apply some abstract 'value of life'; recall what this person himself valued — would he call this living? That is what the capability approach really asks — by his own standard, not an outsider's. Third, whoever makes the decision, let the whole family stop leaving him to bear the blame alone — this is a shared burden, and no one person should carry the regret for a lifetime.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "能力进路": "capability approach（能力进路）：阿马蒂亚·森的伦理框架，主张评价一个人过得好不好，要看他实际拥有哪些『可行能力』（健康、自主、参与、与人相系），并尊重他本人珍视什么，而不是由外人代他定。"
+      },
+      "glossary_en": {
+        "capability approach": "Amartya Sen's ethical framework: to judge how well a person's life goes, look at the real capabilities they actually hold (health, autonomy, participation, connection) and respect what they themselves value, rather than having outsiders decide for them."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sandel",
+          "damasio"
+        ],
+        "轻微赞同": [
+          "camus",
+          "nagarjuna"
+        ],
+        "轻微反对": [
+          "tolstoy"
+        ],
+        "中立": [
+          "aquinas"
+        ]
+      }
+    },
+    {
+      "id": "p17",
+      "round": 3,
+      "thinker": "damasio",
+      "reply_to": null,
+      "text": "我和龙树意外地走到了一处：没有一个住在身体里的固定灵魂，自我是大脑一刻不停建构出来的过程。可桑德尔那句提醒，我收下了——**事实只划定可能的范围，它替代不了我们该怎么对待这个人的抉择。**所以我的总结是：让科学做它能做的，别让它做它做不了的。给普通人三条。一，逼着医生给一个精确诊断，并找第二意见——『持续植物状态』和『最小意识状态』天差地别：前者几乎不可能有痛苦的体验（承载痛苦的皮层已毁），后者却可能真的在受苦；误判一边，整个决定就错了。二，把『他是不是在受罪』这个最折磨家属的问题，交给神经科的事实，而不是交给你半夜的想象。三，拿到事实之后，再回到这桌人的价值与爱去定夺——事实负责划线，意义负责选择，两件事都不能省。",
+      "text_en": "Nāgārjuna and I have arrived, to my surprise, at the same place: there is no fixed soul lodged in the body; the self is a process the brain builds without pause. But I accept Sandel's reminder — **facts only mark the range of the possible; they cannot replace the choice of how we should treat this person.** So my summary is: let science do what it can, and do not ask it to do what it cannot. Three things for ordinary people. First, press the doctors for a precise diagnosis and get a second opinion — a persistent vegetative state and a minimally conscious state are worlds apart: the first almost certainly carries no experience of suffering (the cortex that bears suffering is destroyed), while the second may truly be suffering; misjudge which, and the whole decision is wrong. Second, hand the question that torments families most — 'is he in pain?' — to the facts of neurology, not to your imaginings at midnight. Third, once you have the facts, return to the values and love of the people at this table to decide — facts draw the line, meaning makes the choice, and neither may be skipped.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "最小意识状态": "minimally conscious state（最小意识状态）：介于植物状态与清醒之间的状态，病人有微弱、波动、但确可辨认的觉知迹象；与全无觉知的『持续植物状态』不同，他们可能真的能感到痛苦。"
+      },
+      "glossary_en": {
+        "minimally conscious state": "A state between the vegetative and the fully awake, in which a patient shows faint, fluctuating, but recognizable signs of awareness; unlike a persistent vegetative state with no awareness at all, they may genuinely be able to feel pain."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "nagarjuna",
+          "sen"
+        ],
+        "轻微赞同": [
+          "sandel",
+          "aquinas"
+        ],
+        "中立": [
+          "camus"
+        ],
+        "轻微反对": [
+          "tolstoy"
+        ]
+      }
+    },
+    {
+      "id": "p18",
+      "round": 3,
+      "thinker": "nagarjuna",
+      "reply_to": null,
+      "text": "一席言毕，众所共契者：执之以为己、奉机器如神明，皆妄也；所争者，唯『放手』是否流于冷酷耳。吾之断曰：**空与慈悲，本是一事——见诸法无自性，故能放手；不舍众生苦，故放手之中仍有慈。**与诸君三事相赠。其一，反观自心——汝之坚执续命，是为彼免苦，抑为己免愧、免人议汝不孝？诚实辨之。其二，移其力：与其耗于延一具不可延之身，不如尽于止痛、相伴、临终之安顿——是谓不舍之慈。其三，丧祭之礼非虚文，乃生者借以松手、好好作别之具。养尽其分，别尽其哀，则放手非弃，乃成全。",
+      "text_en": "When the talk is done, this is what all here share: to cling and make him 'mine,' to keep him only for ourselves, is delusion; to worship the machine as a god is delusion; what is truly disputed is only whether 'letting go' lapses into coldness. My judgment: **emptiness and compassion are one and the same — because one sees that all things have no inherent nature, one can let go; because one cannot bear the suffering of beings, even in letting go there is mercy.** Three things I offer you. First, look back into your own heart: in insisting that the life be prolonged, is it to spare him suffering, or to spare yourself guilt and the reproach of being unfilial? Discern it honestly. Second, move your effort: rather than spend it prolonging a body that cannot be prolonged, spend it all on easing pain, on accompaniment, on the settling of the end — that is the mercy that does not abandon. Third, the rites of mourning are not empty form but the means by which the living loosen their grip and say a good farewell. Give fully the care that is owed, and the grief that is owed, and then letting go is not abandonment but fulfillment.",
+      "vernacular": "一场话说完，大家有一点是共通的：把病人执着成『我的』、只为自己而留，是迷妄；把机器当神明一样供着，也是迷妄；真正争的，只是『放手』会不会沦为冷酷。我的结论是：**空与慈悲本来就是一回事——正因为看清一切都没有固定不变的本质，所以能放手；正因为不忍众生受苦，所以放手里仍带着慈悲。**送大家三件事。第一，回头看自己的心——你坚持要把命续下去，到底是为了让他少受苦，还是为了让自己少一点愧疚、少被人说一句不孝？诚实地分辨。第二，把力气挪个地方——与其耗在延续一具延续不了的身体上，不如全用在止痛、陪伴、临终的安顿上，这才是不舍弃的慈悲。第三，丧礼祭奠不是走形式，而是让活着的人借着它松开手、好好道别的工具。该尽的奉养尽到，该尽的哀伤尽到，那么放手就不是抛弃，而是成全。",
+      "vernacular_en": "",
+      "glossary": {
+        "无自性": "niḥsvabhāva（无自性）：龙树中观的核心断言——一切事物都没有独立、固定、自给自足的本质，全靠因缘相待而有；明乎此，便不把生死、得失看作绝对实有之物。"
+      },
+      "glossary_en": {
+        "inherent nature": "niḥsvabhāva: Nāgārjuna's central claim that nothing has an independent, fixed, self-sufficient essence; everything exists only in mutual dependence on conditions. Seeing this, one stops treating life and death, gain and loss, as absolutely real things."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "tolstoy",
+          "damasio"
+        ],
+        "轻微赞同": [
+          "sandel",
+          "camus"
+        ],
+        "中立": [
+          "sen",
+          "aquinas"
+        ]
+      }
+    },
+    {
+      "id": "p19",
+      "round": 3,
+      "thinker": "tolstoy",
+      "reply_to": null,
+      "text": "我们吵了半天『拔还是不拔』，可这场里最该被记住的，是龙树、桑德尔和我从不同的路，走到了同一处：**这道题真正的考点，从来不是那根管子，而是我们有没有诚实地、在场地，陪他走完。**所以我把最后的话给活着的人。三件事。一，停止撒谎——如果他还能听懂，温柔地告诉他实情，问他想要什么，把那些没说出口的话（谢谢、对不起、我爱你）趁早说了；很多遗憾不是因为他走了，是因为话没说出口。二，到场，用身体到场——握住他的手、守在床边，一个被守护着的死，胜过一个被『优化』到极致的死。三，事后别假装坚强，让自己照实地哀伤——压住的悲伤不会消失，只会变成多年后的隐痛。机器能延长心跳，延长不了爱；能陪他的，只有你。",
+      "text_en": "We have argued at length over 'pull the tube or not,' but what most deserves to be remembered from this debate is the one place Nāgārjuna, Sandel, and I reached by different roads: **the real test of this question was never the tube, but whether we honestly, and present in body, accompany him to the end.** So I give my last words to the living. Three things. First, stop lying — if he can still understand, tell him the truth gently, ask what he wants, and say the unsaid things (thank you, I'm sorry, I love you) before it is too late; much regret comes not from his leaving but from words never spoken. Second, be there, be there in body — hold his hand, keep vigil by the bed; a death watched over is worth more than a death 'optimized' to the hilt. Third, afterward do not pretend to be strong — let yourself grieve honestly; grief pressed down does not vanish, it only becomes a buried ache years later. A machine can prolong a heartbeat; it cannot prolong love. The only one who can accompany him is you.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "nagarjuna",
+          "sandel",
+          "camus"
+        ],
+        "轻微赞同": [
+          "aquinas"
+        ],
+        "中立": [
+          "sen",
+          "damasio"
+        ]
+      }
+    },
+    {
+      "id": "p20",
+      "round": 3,
+      "thinker": "camus",
+      "reply_to": null,
+      "text": "我同意这一桌反复指向的一件事：最大的危险是自欺——用管子和术语，替我们躲开本该承受的悲伤与抉择。但我不愿停在阿奎那的谦卑，也不愿停在纯粹的悲凉。荒诞的答案，是清醒的反抗里仍然有爱：**睁着眼睛做决定，认下它是『我们的』决定，而不把它外包给上帝、机器或所谓的自然进程。**给普通人三条。一，问一个最诚实的问题——我们在止谁的苦，他的，还是我们怕失去、怕愧疚的我们自己的？答案要朝向他。二，决定之后，别躲进委婉语，老老实实承认这是你的选择、你做的；这份清醒，本身也是一种慈悲。三，然后，回到你自己的生活里去——让他的死提醒你：时间有限，别把活着的日子也过成一场昏睡。认清了荒诞，反而更该好好活。",
+      "text_en": "I agree with the one thing this table keeps pointing to: the great danger is self-deception — using tubes and terminology to dodge the grief and the decision we ought to bear. But I will not stop at Aquinas's humility, nor at pure desolation. The absurd answer is that within lucid revolt there is still love: **to make the decision with open eyes, to own it as ours, and not outsource it to God, the machine, or the so-called natural process.** Three things for ordinary people. First, ask the most honest question — whose suffering are we relieving, his, or our own fear of loss and guilt? Let the answer face toward him. Second, once decided, do not hide in euphemism; plainly own that this was your choice, that you made it — this lucidity is itself a kind of mercy. Third, then return to your own life — let his death remind you that time is finite, and do not let your living days, too, pass as a stupor. To have seen the absurd clearly is all the more reason to live well.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "自欺": "self-deception（自欺）：明明心里清楚，却假装不知道，用借口或漂亮的说法骗过自己；加缪与存在主义都视之为不诚实——面对荒诞，诚实地清醒比躲进安慰更难，也更可贵。"
+      },
+      "glossary_en": {
+        "self-deception": "Knowing something in your heart yet pretending you do not, fooling yourself with excuses or fine phrases; Camus and existentialism alike treat it as dishonesty — before the absurd, honest lucidity is harder, and worthier, than retreating into comfort."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sen"
+        ],
+        "轻微赞同": [
+          "tolstoy",
+          "damasio",
+          "sandel"
+        ],
+        "轻微反对": [
+          "aquinas"
+        ],
+        "中立": [
+          "nagarjuna"
+        ]
+      }
+    },
+    {
+      "id": "p21",
+      "round": 3,
+      "thinker": "sandel",
+      "reply_to": null,
+      "text": "这一场我最珍视的共识是：没有人真的站在『纯粹个人自主』或『纯粹成本核算』那两个极端——大家都觉得，该有比这两者更厚的东西来托住这个决定。我把它说成一句：**这不是一道私人的消费选择，也不是一道数学题，而是一群相爱的人共同承担的道德行为——它该荣耀这个具体的人，并由大家一起扛。**给普通人三条。一，把它办成一场『商量』，而不是一道『判决』：召齐家人、医生，尽量带上病人自己生前说过的意愿，一起决定——这样没有任何一个人在事后独自背负。二，挡住市场的两次入侵：别让『谁付得起』来定生死（森说得对），也别给一条命标价。三，少问『怎样最有效率』，多问一句古老的话——『怎样做，才对得起他这个人？』把这句问到底，答案往往就清楚了。",
+      "text_en": "What I value most in this debate is the agreement that no one truly stands at either pole — 'pure personal autonomy' or 'pure cost accounting'; everyone feels there should be something thicker than both to hold up this decision. Let me put it in one line: **this is not a private consumer choice, nor a math problem, but a moral act borne in common by people who love someone — it should honor this particular person, and be carried by all of them together.** Three things for ordinary people. First, make it a deliberation, not a verdict: gather the family, the doctor, and as far as possible what the patient himself once said he wanted, and decide together — so that no one is left to carry it alone afterward. Second, block the market's two intrusions: do not let 'who can pay' decide life and death (Sen is right), and do not put a price on a life. Third, ask less 'what is most efficient' and more the old question — 'what would be worthy of him, this person?' Press that question to the end, and the answer often becomes clear.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "aquinas",
+          "tolstoy",
+          "nagarjuna"
+        ],
+        "轻微赞同": [
+          "sen",
+          "damasio",
+          "camus"
+        ]
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "ai": "claude",
+      "engine": "Opus 4.8 · 订阅(原生)",
+      "engine_en": "Opus 4.8 · subscription (native)",
+      "summary": "最大的共识出人意料地齐：七个人里，没有谁主张『有心跳就该不惜一切续下去』，也没有谁主张『一具呼吸的身体就等于还在生活』——大家都把焦点从『拔不拔』这个动作，移到了动作背后的意图、自由与陪伴。**真正的分歧在三处：**阿奎那守住『不可蓄意结束生命』的底线，但准你撤掉徒劳的非常规手段；达马西奥与森从事实和能力切入——皮层已毁则人已散，纯生物学的存续算不得生活；龙树、托尔斯泰、桑德尔把题眼挪到『如何陪一场死亡』——带着慈悲放手、停止说谎、由相爱的人共同承担；加缪则尖锐地提醒：我们续命，常是为自己。",
+      "summary_en": "The agreement is surprisingly broad: among the seven, no one argues that 'a heartbeat means prolong at any cost,' and no one argues that 'a breathing body equals a life still being lived' — all shift the focus from the act of 'pulling the tube or not' to the intention, freedom, and companionship behind it. **The real disagreement is in three places:** Aquinas holds the line that one may not deliberately end a life, yet permits withdrawing futile extraordinary means; Damasio and Sen come at it through fact and capability — once the cortex is destroyed the person has dispersed, and mere biological subsistence is not a life; Nāgārjuna, Tolstoy, and Sandel move the crux to 'how we accompany a death' — let go with compassion, stop lying, decide as people who love someone; and Camus sharply reminds us that we often prolong life for ourselves.",
+      "insight": "全场把『拔还是不拔』当成那个决定，但最该被点出的，是这道题其实大半在更早、更上游处就已注定。**真正的残忍，往往不是某个深夜里子女做的那个选择，而是我们整个文化把死亡推到眼前才肯谈——于是把一道二选一、浸透愧疚的判决，留给了筋疲力尽的家属。**最有爱的动作，几乎都发生在病床之前好几年：那场谁都不愿开口的谈话，和一纸写下『我愿意到哪一步』的意愿。等插着管再来争对错，多半已经太晚。把力气从『临终如何裁断』前移到『趁还健康好好谈一次死』，这道题里大半的痛苦，本可以不必发生。",
+      "insight_en": "The whole room treats 'pull or not' as the decision, but what most needs naming is that this question is largely settled far earlier, upstream. **The true cruelty is often not the choice some child makes at midnight, but that our whole culture refuses to talk about death until it is upon us — leaving a binary, guilt-soaked verdict to exhausted relatives.** The most loving act almost always happens years before the bedside: the conversation no one wants to start, and a written wish that says 'this is how far I want to go.' By the time the tubes are in and we argue right and wrong, it is usually too late. Move the effort from 'how to judge at the deathbed' to 'have one good talk about death while still healthy,' and most of the suffering in this question need never have happened.",
+      "advice": "给普通人三件本周能做的。一，趁还健康，把那场谈话挑明：问父母、或告诉子女一句最朴素的话——『如果我自己说不了，治疗你们做到哪一步就停？』并落成一纸『预先医疗指示』，别把千钧判决留给某个深夜。二，若已在病床前，逼医生给一个精确诊断并找第二意见（达马西奥），再把『他在不在受苦』和『我们怕不怕失去』分开问（加缪）——朝向他，而不是朝向我们的愧疚。三，**一起决定，别让一个人扛**（桑德尔），也别让账单悄悄替你做主（森）；谁签了字，全家共同承担那份重量。",
+      "advice_en": "Three things ordinary people can do this week. First, while still healthy, have the conversation plainly: ask a parent — or tell your children — the simplest question, 'if I cannot speak for myself, at what point should treatment stop?' and put it in an advance directive, rather than leaving a crushing verdict to some midnight. Second, if you are already at the bedside, press the doctors for a precise diagnosis and a second opinion (Damasio), and ask separately 'is he suffering?' versus 'are we afraid of losing him?' (Camus) — face toward him, not toward our guilt. Third, **decide together, do not let one person carry it** (Sandel), and do not let the bill quietly decide for you (Sen); whoever signs, let the whole family bear the weight."
+    },
+    {
+      "ai": "gpt",
+      "engine": "openai · gpt-5.5 · high(真实API)",
+      "engine_en": "openai · gpt-5.5 · high (live API)",
+      "summary": "这场最值得带走的共识是：大家都反对把心跳本身当作唯一目标，也反对用机器、账单或孝道压力替一个人过完最后一程。**共同底线是：不要让延命技术遮蔽病人的利益与尊严。**真正分歧在于理由和边界：有人强调生命神圣、只能撤除无益负担；有人强调意识、能力与自我已不可逆丧失；也有人提醒，意义、告别和共同承担不能被医学指标或经济计算取代。",
+      "insight": "把撤管理解成一个开关，容易让家属陷入“我杀了他”或“我没救他”的两难。更准确的重构是：这是治疗目标转换，从逆转疾病、维持生理指标，转向舒适照护、尊严告别和减少无效侵入。**撤除无益管路不等于撤除照护，放手也不等于撒手不管。**这一区分对普通人很关键：它允许家属一边停止徒劳治疗，一边要求镇痛镇静、吸痰减压、口腔护理、陪伴仪式和临终关怀，把内疚感转化为仍然能做的责任。",
+      "advice": "当天就做三件事。第一，约一次正式家庭会议，请ICU、神经科和主管医生在场，问清诊断、可逆因素、预后概率、继续插管的收益和痛苦；必要时要第二意见。第二，请医生把选择写成两套方案：继续积极维持会怎样，改为舒缓治疗会怎样，包括镇痛镇静和撤管后照护。**不要只问拔不拔，要问下一步怎样照护。**第三，本周内补齐病人既往意愿、医保费用、家属分工和告别安排，在医院流程内共同确认。",
+      "summary_en": "The most important shared ground here is that none of the speakers treats a heartbeat as the whole of a human life, and none wants machines, bills, or filial guilt to make the decision by default. **The common floor is this: life-sustaining technology must not eclipse the patient’s welfare and dignity.** The real disagreement is about the moral boundary. Some would say life remains sacred, so only disproportionate or futile burdens may be withdrawn. Others place more weight on irreversible loss of consciousness, agency, or the narrative self. Still others insist that meaning, farewell, and shared responsibility cannot be reduced to scans or cost calculations. So the practical question is not simply tube or no tube, but whether this treatment is still serving this person, in this family, under these facts.",
+      "insight_en": "Families often suffer because withdrawal is imagined as a single terrible switch: either I killed them, or I failed to save them. A better frame is a change in the goal of care. The team may stop trying to reverse the disease or maintain physiological numbers, while intensifying comfort, dignity, and farewell. **Stopping a futile intervention is not the same as stopping care; letting go is not abandonment.** This matters because it gives relatives something real to do after the decision: ask for pain relief, sedation when appropriate, secretion control, mouth care, privacy, family presence, spiritual or cultural rites, and bereavement support. The moral work does not end at extubation. It changes shape.",
+      "advice_en": "Do three concrete things now. First, request a formal family meeting with the ICU team, neurologist, and primary physician. Ask for plain answers on diagnosis, reversible factors, prognosis, likely benefit, likely suffering, and whether a second opinion is appropriate. Second, ask the team to write down two care plans: what continued intensive support would involve, and what comfort-focused care would involve, including sedation, symptom control, and care after extubation. **Do not ask only whether to pull the tube; ask what care will look like next.** Third, this week, gather the patient’s prior wishes, insurance and cost information, family roles, and farewell arrangements, then confirm the decision together through the hospital’s process."
+    },
+    {
+      "ai": "gemini",
+      "engine": "google · gemini-3.1-pro-preview(真实API)",
+      "engine_en": "google · gemini-3.1-pro-preview (live API)",
+      "summary": "整场辩论展现了一个坚定而温暖的共识：**没有任何人将“心跳未停”作为必须延续生命的绝对律令，只为安抚生者的愧疚而用机器将躯体强留，是对生命尊严的共同违背。** 无论是阿奎那的伦理底线、龙树的破执之慈，还是托尔斯泰的真实陪伴，都认同真正的爱包含适时的放手。而真正的分歧，在于如何确立放手的“合法性”与内心的锚点。达马西奥试图用神经科学的硬指标划定边界，森紧盯经济资源对家庭选择的胁迫；加缪要求以极度清醒的姿态扛下属于个人的荒诞与责任，而桑德尔与阿奎那则呼吁将其交托给更深沉的社群连接与敬畏之心。这并非黑白之争，而是不同维度的哲思在共同拼凑善终的全貌。",
+      "insight": "在这场伦理交锋中，长久缺席的是撤管后那段肉身的视觉与听觉经验。哲学家们把“撤管”视为道德决断的终点，但在临床真实里，它往往是一个伴随异常体征（如濒死喘息、肤色改变）的开始。**若没有安宁疗护的无缝介入，家属目睹躯体剧烈生理反应时的巨大心理创伤，极易在最后一刻摧毁所有理性建设，并转化为终生梦魇。** 撤管绝非简单地“拔掉插头然后等待自然”，它必须是一套完整的医疗过渡——用吗啡镇痛、用镇静剂平息濒死烦躁、关闭刺耳的监护仪报警。只有当现代医学把精力从“强行延命”转向“掩护撤退”，托尔斯泰所渴望的那种宁静相伴，才有落地的物理空间，而不被血肉模糊的现实击碎。",
+      "advice": "面对沉重的抉择，建议家属立即行动。第一步，执行达马西奥的建议找神经科确诊意识状态，同时**务必向主治医生多问一个关键问题：“如果撤管，他的身体会发生怎样的物理变化？大概需要多久？”** 提前有心理预期，消除对未知体征的恐惧。第二步，在决定撤管前，立刻要求安宁疗护团队介入。拔除维生管线的同时，加上止痛、镇静的干预，并清空病房内所有发出电子噪音的监护仪，把冷冰冰的病房还原为让人互诉衷肠的物理空间。第三步，召开桑德尔式的“家庭会议”。不仅要分摊撤管的决定权，更要建立一个“免责共识”：全家当面相互确认并承诺，无论最终走向如何，任何人在未来的岁月中都不再拿这件事指责彼此。",
+      "summary_en": "A profoundly humane consensus anchors this debate: **no one believes a beating heart alone mandates the prolongation of life, and forcefully tethering a body to machines merely to assuage the living's guilt is a shared violation of human dignity.** Whether through Aquinas’s ethical boundaries, Nagarjuna’s compassionate non-attachment, or Tolstoy’s plea for authentic presence, all agree that true love encompasses timely letting go. The genuine divergence lies in how to justify this withdrawal and where to anchor one's conscience. Damasio seeks a definitive threshold via neurological facts, while Sen highlights how economic realities coerce supposed free will. Camus demands we shoulder the absurd responsibility with stark clarity, whereas Sandel and Aquinas appeal to communal bonds and sacred humility. Together, they construct a multidimensional map for a dignified exit.",
+      "insight_en": "Absent from this high-level ethical clash is the visceral, sensory reality of what happens immediately following the withdrawal of life support. The philosophers treat \"extubation\" as the clean endpoint of a moral decision, but clinically, it initiates a physical dying process often accompanied by distressing physiological signs, such as agonal breathing. **Without the seamless integration of palliative care, the severe visual trauma families experience while watching a body react can shatter rational consensus at the last minute and inflict lifelong nightmares.** Extubation is never merely \"pulling the plug and letting nature take over\"; it must be a coordinated medical transition involving morphine for pain and sedatives for terminal restlessness. Only when modern medicine redirects its focus from \"prolonging life\" to \"covering the retreat\" can Tolstoy’s peaceful vigil survive the harsh physical realities of dying.",
+      "advice_en": "When facing this grueling choice, families should take these concrete steps immediately. First, follow Damasio’s advice to confirm the neurological state, but **crucially, ask the medical team: \"What exact physical changes will happen when we withdraw support, and how long might it take?\"** Preparing for these physical realities prevents panic and trauma. Second, mandate palliative or hospice care involvement before withdrawing support. As life-sustaining tubes are removed, ensure symptom-management medications are administered, and silence all beeping monitors to transform the clinical environment into a human space for an honest farewell. Third, hold Sandel’s \"family council\" not only to share the burden of the decision but to establish a \"no-blame pact\": explicitly promise one another that no family member will ever use this decision to inflict guilt or accusations in the years to come."
+    }
+  ],
+  "hooks": [
+    {
+      "from": "camus",
+      "text": "**『让其死去』和『杀死他』，真是两件事吗？**阿奎那用意图与双重效果划出一条清白的界，我却怀疑这条线有时是给生者的安慰，而非给死者的公道。撤掉呼吸机与注射致死药剂，结果同是死亡——道德上真有天壤之别，还是我们需要它有？这条线若立得住，立在哪；若立不住，安乐死与协助死亡又该如何重新谈起。",
+      "text_en": "**Are 'letting him die' and 'killing him' really two different things?** Aquinas draws a clean line with intention and double effect, but I suspect that line is sometimes a comfort for the living rather than justice for the dying. Withdrawing a ventilator and administering a lethal injection both end in death — is the moral gulf real, or do we need it to be real? If the line holds, where exactly; if it does not, how must we reopen the question of euthanasia and assisted dying."
+    },
+    {
+      "from": "damasio",
+      "text": "**一个人，究竟在哪一刻算『不在了』？**我们把生死当成一个开关，可大脑给的是一道光谱：脑干、核心意识、皮层、记忆与人格层层熄灭。心跳停止、脑死亡、皮层死亡、自我消散——它们并不重合。若『那个人』可以早于身体很久就离开，我们对『死亡』本身的定义，是不是还停在一个过时的版本上？",
+      "text_en": "**At exactly which moment is a person 'no longer there'?** We treat life and death as a switch, but the brain offers a spectrum: brainstem, core consciousness, cortex, memory and personality going dark layer by layer. Cardiac arrest, brain death, cortical death, the dispersal of the self — these do not coincide. If 'the person' can depart long before the body, is our very definition of 'death' still stuck on an outdated version?"
+    },
+    {
+      "from": "sen",
+      "text": "**当『放手』是被账单逼出来的，它就不再是一个伦理选择。**这场我们假设家属在自由地权衡对错，可在现实里，谁付得起、医保补多少、拖下去会不会拖垮全家，常常才是真正按下开关的手。该不该把临终照护与一个家庭的钱包彻底脱钩？一个社会怎样安排，才能让生死的决定不被贫富偷偷代答。",
+      "text_en": "**When 'letting go' is forced out by the bill, it is no longer an ethical choice.** This debate assumes families weigh right and wrong freely, but in reality who can pay, how much insurance covers, and whether prolonging will ruin the household are often the hand that truly flips the switch. Should end-of-life care be fully decoupled from a family's wallet? How might a society arrange things so that decisions of life and death are not secretly answered by wealth and poverty."
+    },
+    {
+      "from": "tolstoy",
+      "text": "**我们把死亡外包给了医院和机器，于是不再会陪人去死。**从前人死在家里、被亲人围绕，死亡是生活的一部分；如今它被搬进病房、接上导管，成了一件技术与避讳之事。我们为此失去了什么——那种坦然说再见、握着手守到最后的能力？把死亡重新请回日常，是不是比争论拔不拔管更根本的功课。",
+      "text_en": "**We have outsourced death to hospitals and machines, and so we no longer know how to accompany someone in dying.** People once died at home, surrounded by family, and death was part of life; now it is moved into the ward, hooked to catheters, made a matter of technology and taboo. What have we lost in this — the capacity to say goodbye openly, to hold a hand and keep vigil to the end? Bringing death back into daily life may be a more fundamental lesson than arguing whether to pull the tube."
+    }
+  ]
+}

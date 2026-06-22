@@ -51,6 +51,21 @@ def main(path):
             for k in ("bio", "ideas", "assessments", "quotes", "works", "lineage", "trivia"):
                 if k not in prof[p] or (k + "_en") not in prof[p]:
                     errs.append(f"profile {p} 缺 {k}/{k}_en")
+            # 字段类型必须对（前端会按类型渲染；字符串塞进数组字段会让整页图鉴报错白屏）
+            for k in ("quotes", "quotes_en", "works", "works_en"):
+                if k in prof[p] and not isinstance(prof[p][k], list):
+                    errs.append(f"profile {p}.{k} 必须是字符串数组，实为 {type(prof[p][k]).__name__}")
+            for k in ("assessments", "assessments_en"):
+                v = prof[p].get(k)
+                if k in prof[p] and not isinstance(v, list):
+                    errs.append(f"profile {p}.{k} 必须是数组，实为 {type(v).__name__}")
+                elif isinstance(v, list):
+                    for it in v:
+                        if not (isinstance(it, dict) and "by" in it and "text" in it):
+                            errs.append(f"profile {p}.{k} 每项须为 {{by,text}}，实为 {type(it).__name__}")
+            for k in ("bio", "ideas", "lineage", "trivia"):
+                if isinstance(prof[p].get(k), list):
+                    errs.append(f"profile {p}.{k} 应是字符串，别写成数组")
             # 图鉴必须「对本场议题盲」：绝不能出现绑定本场的元语言（通用可复用）
             blob = json.dumps(prof[p], ensure_ascii=False)
             for w in PROFILE_BIND_HARD:

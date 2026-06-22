@@ -34,6 +34,7 @@
     return '<div class="sec"><div class="lbl"><i class="ti ' + icon + '"></i>' + esc(label) + "</div>" + inner + "</div>";
   }
   function list(arr, cls) {
+    if (!Array.isArray(arr)) arr = (arr == null ? [] : [arr]);  // 容错：万一不是数组也不炸
     return "<ul>" + arr.map(function (x) { return '<li class="' + (cls || "") + '">' + esc(x) + "</li>"; }).join("") + "</ul>";
   }
   // 把含换行的长文本拆成多段 <p>，便于阅读（单行文本仍是一个 <p>）
@@ -68,15 +69,16 @@
       if (pick(p, "bio")) body += sec(T("bio"), "ti-user", paras(pick(p, "bio")));
       if (pick(p, "ideas")) body += sec(T("ideas"), "ti-bulb", paras(pick(p, "ideas")));
       var assess = pick(p, "assessments");
-      if (assess && assess.length) {
+      if (Array.isArray(assess) && assess.length) {
         body += sec(T("assess"), "ti-quote", assess.map(function (a) {
+          a = a || {};
           return '<div class="assess"><div class="by">' + esc(a.by) + '</div><div class="txt">' + esc(a.text) + "</div></div>";
         }).join(""));
       }
       var quotes = pick(p, "quotes");
-      if (quotes && quotes.length) body += sec(T("quotes"), "ti-message-2", list(quotes, "quote"));
+      if (Array.isArray(quotes) && quotes.length) body += sec(T("quotes"), "ti-message-2", list(quotes, "quote"));
       var works = pick(p, "works");
-      if (works && works.length) body += sec(T("works"), "ti-book", list(works));
+      if (Array.isArray(works) && works.length) body += sec(T("works"), "ti-book", list(works));
       if (pick(p, "lineage")) body += sec(T("lineage"), "ti-git-branch", paras(pick(p, "lineage")));
       if (pick(p, "trivia")) body += sec(T("trivia"), "ti-sparkles", paras(pick(p, "trivia")));
     } else {
@@ -105,7 +107,14 @@
     var chips = '<div class="index">' + members.map(function (c) {
       return '<a class="chip" href="#' + esc(c.id) + '">' + av(c, 22) + '<span class="nm">' + esc(nameOf(c)) + "</span></a>";
     }).join("") + "</div>";
-    var cards = members.map(profileCard).join("");
+    var cards = members.map(function (c) {
+      try { return profileCard(c); }
+      catch (e) {  // 单张图鉴数据有误也只跳过这一张，别让整页图鉴白屏
+        return '<div class="card" id="' + esc(c.id) + '"><div class="head">' + av(c, 52) +
+          '<div><div class="nm" style="color:' + c.color + '">' + esc(nameOf(c)) +
+          '</div><div class="meta" style="color:#ED4245">该人物图鉴数据格式有误，已跳过（' + esc(String(e.message || e)) + "）</div></div></div></div>";
+      }
+    }).join("");
     document.getElementById("content").innerHTML =
       '<a class="back-link" href="profiles.html"><i class="ti ti-chevron-left"></i>' + T("allCats") + "</a>" +
       '<div class="cat-title">' + esc(catLabel(cat)) + '</div>' + nav + chips + cards;

@@ -1,391 +1,391 @@
 {
- "_comment": "议题投票数据。candidates=未辩候选(供投票)，debated=已辩(链到辩论)。每个候选的 giscus 讨论 term = 'topic:'+id；净票 = 👍 − 👎(其他表情不计)。votes 字段由 routine 每次跑时用 `gh api graphql` 读 GitHub Discussions 的 👍/👎 回写净票(页面据此显示；点开卡片则加载实时 giscus)。另有一个 term='open-questions' 的讨论(页面『提个新议题』)收观众自提议题——routine 把里面好的提案提炼成新 candidates。新候选议题加进 candidates 即可。",
- "giscus": {
-  "repo": "cissy0802/cissy0802.github.io",
-  "repoId": "R_kgDOShlsYQ",
-  "category": "General",
-  "categoryId": "DIC_kwDOShlsYc4C9f-A",
-  "termPrefix": "topic:"
- },
- "candidates": [
-  {
-   "id": "coach-or-manage-out",
-   "votes": 0,
-   "q": "下属能力或动力不足，领导该花时间 coaching，还是果断 manage out？",
-   "q_en": "When a report lacks the ability or the drive, should a leader invest in coaching — or manage them out?",
-   "note": "Dweck 的成长型思维与孔子『有教无类、因材施教』说人能变、值得教；Netflix 的『keeper test』与韩非子的赏罚分明说留错人是对团队的不公、机会成本高昂。关键还在于分清『能力不足』（多半可教）与『动力不足』（难补）——领导该投入辅导，还是及时止损？又怎么做到既负责又不残忍。",
-   "note_en": "Dweck's growth mindset and Confucius's 'teach without discrimination, tailor to the person' say people can change and are worth coaching; Netflix's 'keeper test' and Han Feizi's strict reward-and-punishment say keeping the wrong person is unfair to the team and costly. Much turns on telling a skill gap (usually coachable) from a will gap (far harder) — should a leader invest in coaching, or cut losses in time, and how to do it responsibly without being cruel?",
-   "cat": "work"
+  "_comment": "议题投票数据。candidates=未辩候选(供投票)，debated=已辩(链到辩论)。每个候选的 giscus 讨论 term = 'topic:'+id；净票 = 👍 − 👎(其他表情不计)。votes 字段由 routine 每次跑时用 `gh api graphql` 读 GitHub Discussions 的 👍/👎 回写净票(页面据此显示；点开卡片则加载实时 giscus)。另有一个 term='open-questions' 的讨论(页面『提个新议题』)收观众自提议题——routine 把里面好的提案提炼成新 candidates。新候选议题加进 candidates 即可。",
+  "giscus": {
+    "repo": "cissy0802/cissy0802.github.io",
+    "repoId": "R_kgDOShlsYQ",
+    "category": "General",
+    "categoryId": "DIC_kwDOShlsYc4C9f-A",
+    "termPrefix": "topic:"
   },
-  {
-   "id": "seeing-others-is-self",
-   "votes": 0,
-   "q": "「你眼中的别人不是别人，你眼中的自己不是自己，你眼中的别人才是自己」——这话有道理吗？",
-   "q_en": "'The others you see aren't really them, the self you see isn't really you, and the others you see are actually you' — is there truth to this?",
-   "note": "你对他人的评判往往照出的是自己——心理学的『投射』、库利的『镜中我』、世亲『万法唯识』、庄子的物我两忘，都在说我们看到的『别人』有多少是自己的影子。这句网络箴言，是深刻的自知洞见，还是把一切化约成主观投射的相对主义？",
-   "note_en": "What you judge in others often mirrors yourself — psychology's 'projection,' Cooley's 'looking-glass self,' Vasubandhu's 'mind-only,' and Zhuangzi's dissolving of self and thing all suggest how much of the 'other' you see is your own shadow. A profound insight into self-knowledge, or a relativism that dissolves everything into subjective projection?",
-   "cat": "self"
-  },
-  {
-   "id": "being-yourself",
-   "votes": 0,
-   "q": "“忠于真实的自我”是不是个伪命题？到底有没有一个本真的我？",
-   "q_en": "Is 'being true to yourself' even coherent — is there a real self to be true to?",
-   "note": "人设与真心、该不该装——萨特『自欺』、海德格尔本真性、佛教无我、社会角色论，质问那个『真实的我』到底存不存在。",
-   "note_en": "Masks versus the 'real you,' whether to perform or stay raw — Sartre's 'bad faith,' Heidegger's authenticity, Buddhist no-self, and role theory all interrogate whether that 'true self' exists at all.",
-   "cat": "self"
-  },
-  {
-   "id": "acceptable-inequality",
-   "votes": 0,
-   "q": "什么样的不平等是可以接受的？",
-   "q_en": "What kind of inequality is acceptable?",
-   "note": "机会平等就够了吗？多大的差距是公正、多大是不义？——马克思、哈耶克、亚当·斯密各执一词。",
-   "note_en": "Is equal opportunity enough? How much gap is just, how much is wrong? — Marx, Hayek and Adam Smith disagree.",
-   "cat": "ethics"
-  },
-  {
-   "id": "comparison-and-envy",
-   "votes": 0,
-   "q": "为什么我们忍不住跟别人比？嫉妒能消除吗？",
-   "q_en": "Why can't we stop comparing ourselves to others — and can envy ever be cured?",
-   "note": "社媒时代最普遍的痛——基拉尔『模仿欲望』、庄子、叔本华、社会比较理论，拆解我们为何总盯着别人、又如何停下。",
-   "note_en": "The most universal ache of the social-media age — Girard's 'mimetic desire,' Zhuangzi, Schopenhauer, and social-comparison theory unpack why we keep watching others, and how to stop.",
-   "cat": "self"
-  },
-  {
-   "id": "luck-and-merit",
-   "votes": 0,
-   "q": "我们的成功与失败，多少是「应得的」？努力真能决定命运吗？",
-   "q_en": "How much of our success or failure do we actually deserve — and does effort really decide our fate?",
-   "note": "『为什么我这么拼还不行』背后的大问题——桑德尔『精英的傲慢』、罗尔斯无知之幕、儒家修身、『王侯将相宁有种乎』，争运气与应得的边界。",
-   "note_en": "The big question behind 'why am I grinding this hard and still falling short' — Sandel's 'tyranny of merit,' Rawls's veil of ignorance, Confucian self-cultivation, and the ancient cry 'are kings and nobles born to it?' — over where luck ends and desert begins.",
-   "cat": "self"
-  },
-  {
-   "id": "duty-to-distant-strangers",
-   "votes": 0,
-   "q": "我们对远方陌生人的苦难，负有多大义务？",
-   "q_en": "How much do we owe the suffering of distant strangers?",
-   "note": "溺水孩童的思想实验、有效利他主义，对上『亲疏有别』的常识道德——义务有没有半径？",
-   "note_en": "Singer's drowning-child thought experiment and effective altruism against the common-sense morality of concentric circles — does obligation have a radius?",
-   "cat": "ethics"
-  },
-  {
-   "id": "what-is-beauty",
-   "votes": 0,
-   "q": "美，是主观感受，还是有客观的标准？",
-   "q_en": "Is beauty just in the eye of the beholder, or is there an objective standard?",
-   "note": "从柏拉图的理念、苏轼的意境，到康德的『无目的的合目的性』与当代神经美学——美到底是什么。",
-   "note_en": "From Plato's Forms and Su Shi's poetic mood to Kant's 'purposiveness without purpose' and today's neuroaesthetics — what is beauty, really?",
-   "cat": "meta"
-  },
-  {
-   "id": "math-discovered-or-invented",
-   "votes": 0,
-   "q": "数学是被发现的，还是被发明的？",
-   "q_en": "Is mathematics discovered, or invented?",
-   "note": "柏拉图说数学在理念世界里现成等着被发现，也有人说它只是人类心智的发明——一个关于实在本质的老问题。",
-   "note_en": "Plato says math waits to be discovered in a realm of Forms; others say it's merely an invention of the human mind — an old question about the nature of reality.",
-   "cat": "meta"
-  },
-  {
-   "id": "duty-to-earth",
-   "votes": 0,
-   "q": "我们对地球（其他物种、后代）负有怎样的义务？",
-   "q_en": "What do we owe the Earth — other species, and future generations?",
-   "note": "对其他物种、对尚未出生的后代——我们凭什么索取，又欠下什么？",
-   "note_en": "Toward other species and generations not yet born — by what right do we take, and what do we owe?",
-   "cat": "ethics"
-  },
-  {
-   "id": "liberty-vs-equality",
-   "votes": 0,
-   "q": "自由与平等不可兼得时，该牺牲哪个？",
-   "q_en": "When liberty and equality can't both be had, which should give way?",
-   "note": "自由市场的效率与不平等，还是再分配的公平与强制？现代政治的核心取舍。",
-   "note_en": "The efficiency-and-inequality of free markets, or the fairness-and-coercion of redistribution? The central trade-off of modern politics.",
-   "cat": "ethics"
-  },
-  {
-   "id": "free-will",
-   "votes": 0,
-   "q": "人是否拥有真正的自由意志？",
-   "q_en": "Do humans have genuine free will?",
-   "note": "我们是真的在选，还是基因、大脑与处境替我们选了？——决定论与能动性之争。",
-   "note_en": "Do we really choose, or do genes, brain and circumstance choose for us? — determinism versus agency.",
-   "cat": "meta"
-  },
-  {
-   "id": "care-and-emotional-labor",
-   "votes": 0,
-   "q": "我们为何系统性地低估『照护与情感劳动』的价值？（带孩子、陪伴、安抚、协调——这些撑起一切却没人记功的活）",
-   "q_en": "Why do we systematically undervalue care and emotional labor?",
-   "note": "带孩子、陪伴老人、安抚、协调、记住每个人的状态——这些撑起一切却没人记功的活，为什么总被当成『不算工作』？努斯鲍姆、波伏娃、亚当·斯密、涂尔干各执一端。",
-   "note_en": "Raising children, tending the old, soothing, coordinating, remembering everyone's state — the work that holds everything up yet earns no credit. Why is it forever treated as 'not really work'? Nussbaum, Beauvoir, Adam Smith, and Durkheim take different sides.",
-   "cat": "life"
-  },
-  {
-   "id": "procrastination",
-   "votes": 0,
-   "q": "拖延症要治吗？deadline 是第一生产力，重要的事最后也赶得出来——那它到底是不是病？",
-   "q_en": "Does procrastination even need fixing? Deadlines are the ultimate motivator and the important stuff still ships — so is it really a flaw?",
-   "note": "反常识地问：拖延也许不是意志缺陷，而是大脑的优先级调度？但赶 deadline 的代价、焦虑与质量折损又该怎么算——到底治还是不治。",
-   "note_en": "A contrarian question: maybe procrastination isn't a failure of will but the brain's way of triaging priorities? Yet the cost of the last-minute crunch — the anxiety, the quality you trade away — still has to be reckoned. Cure it, or not?",
-   "cat": "self"
-  },
-  {
-   "id": "nature-of-love",
-   "votes": 0,
-   "q": "真爱是发现的，还是培养（甚至建构）出来的？",
-   "q_en": "Is true love found, or cultivated — even constructed?",
-   "note": "柏拉图的会饮、叔本华眼里繁衍的诡计、波伏娃对浪漫爱的批判、阿德勒『被爱不如会爱』——爱到底是什么。",
-   "note_en": "Plato's Symposium, Schopenhauer's trick of the species, Beauvoir's critique of romantic love, Adler's 'better to love than to be loved' — what love really is.",
-   "cat": "life"
-  },
-  {
-   "id": "truth-vs-harmony",
-   "votes": 0,
-   "q": "维系和谐，有时是否比说出真相更重要？",
-   "q_en": "Is keeping the peace sometimes more important than telling the truth?",
-   "note": "苏格拉底为真理赴死，孔子讲『和』，阿伦特谈真相与政治——在家庭、职场、社会里，何时该说、何时该忍。",
-   "note_en": "Socrates died for the truth, Confucius prized harmony, Arendt on truth and politics — in family, work, and society, when to speak and when to hold back.",
-   "cat": "self"
-  },
-  {
-   "id": "regret",
-   "votes": 0,
-   "q": "该为过去的选择后悔吗？如何与无法重来的过去和解？",
-   "q_en": "Should we regret the choices we made — and how do we make peace with a past we can't redo?",
-   "note": "『如果当初…』的内疚反复折磨人——克尔凯郭尔、斯多葛、庄子（鼓盆而歌）、佛教放下，各给一套与过去和解的办法。",
-   "note_en": "The 'if only I had…' guilt that keeps gnawing — Kierkegaard, the Stoics, Zhuangzi (drumming and singing at his wife's death), and Buddhist letting-go each offer a way to make peace with what's done.",
-   "cat": "self"
-  },
-  {
-   "id": "legitimacy-of-power",
-   "votes": 0,
-   "q": "国家的权力从何而来、有无正当的边界？",
-   "q_en": "Where does the state's power come from, and does it have legitimate limits?",
-   "note": "社会契约、天命、还是法家的强力？权力的来源与边界，是政治哲学最古老的争点。",
-   "note_en": "Social contract, the Mandate of Heaven, or Legalist force? The source and limits of legitimate power are political philosophy's oldest quarrel.",
-   "cat": "ethics"
-  },
-  {
-   "id": "moral-limits-of-markets",
-   "votes": 0,
-   "q": "有什么是金钱不该买卖的？市场该有边界吗？",
-   "q_en": "Is there anything money shouldn't be able to buy? Should markets have moral limits?",
-   "note": "从代孕、器官到选票与友情——当市场逻辑渗入一切，有没有该守住的非卖品？",
-   "note_en": "From surrogacy and organs to votes and friendship — as market logic seeps into everything, are there things that should stay off the auction block?",
-   "cat": "ethics"
-  },
-  {
-   "id": "enough-money-still-work",
-   "votes": 0,
-   "q": "如果有了足够的钱（财务自由），是否还应该继续工作？",
-   "q_en": "If you had enough money to never need to, should you still work?",
-   "note": "当生计不再是问题，工作还剩下什么？凯恩斯曾预言后代每周只需工作十五小时；可马克思说劳动本可是自我实现、却被异化，弗兰克尔说人需要『被需要』，亚里士多德推崇闲暇中的沉思。财务自由后，是该退休享清福，还是不工作反而会失去意义与生活的结构？",
-   "note_en": "When making a living is no longer the point, what is work for? Keynes predicted his grandchildren would work fifteen hours a week; yet Marx saw labor as self-realization warped by alienation, Frankl held that people need to be needed, and Aristotle prized contemplation in leisure. Once you're financially free — retire to ease, or would a life without work lose its meaning and structure?",
-   "cat": "self"
-  },
-  {
-   "id": "abundance-and-decline",
-   "votes": 0,
-   "q": "当物质极度丰裕、不再需要奋斗，人类会不会重演『老鼠乌托邦』式的衰亡？",
-   "q_en": "When material abundance removes all need to struggle, could humanity repeat the collapse of the 'mouse utopia'?",
-   "note": "卡尔霍恩的『25 号宇宙』实验里，食物无限、天敌全无的鼠群最终走向求偶停摆、社交退缩与整体崩溃。当 AI 与富足替人类卸下生存压力，我们会迎来繁荣，还是尼采笔下只求安逸的『末人』、赫胥黎《美丽新世界》式的温柔沉沦？奋斗与匮乏，是否是意义与活力的必要燃料？",
-   "note_en": "In Calhoun's 'Universe 25,' a mouse colony with unlimited food and no predators slid into mating breakdown, social withdrawal, and total collapse. As AI and abundance lift the pressure to survive, will humanity flourish — or become Nietzsche's comfort-seeking 'last man,' a gentle Brave New World decline? Are struggle and scarcity necessary fuel for meaning and vitality?",
-   "cat": "ethics"
-  },
-  {
-   "id": "third-places",
-   "votes": 0,
-   "q": "我们是不是正在失去『第三空间』与闲逛式的日常社交？孤独流行病从何而来？",
-   "q_en": "Are we losing 'third places' and the art of aimless everyday sociability — and where does the loneliness epidemic come from?",
-   "note": "家与公司之外，曾有酒馆、广场、教堂、茶馆、街角小店这样的『第三空间』，让人不带目的地反复遇见同一批人——社会学家奥登伯格说，正是这些地方织起了社区与公共生活。如今它们被通勤、外卖、远程与屏幕悄悄抽空，普特南笔下『独自打保龄』的孤独蔓延开来。这是城市规划与技术的结构性后果，还是个人选择？普通人又如何在生活里重建这些不被绩效考核的相遇？",
-   "note_en": "Beyond home and work there once stood 'third places' — pubs, plazas, temples, teahouses, the corner shop — where people met the same faces again and again without any purpose; the sociologist Ray Oldenburg argued these were what wove community and public life together. Today they are quietly hollowed out by commuting, delivery, remote work, and screens, and the 'bowling alone' loneliness Robert Putnam described spreads. Is this a structural consequence of urban design and technology, or a matter of personal choice — and how does an ordinary person rebuild these unranked, purposeless encounters in daily life?",
-   "cat": "life"
-  },
-  {
-   "id": "cultural-homogenization",
-   "votes": 0,
-   "q": "全球化正在把世界磨成同一种模样——我们在失去文化多样性吗？这是进步，还是一种贫乏？",
-   "q_en": "Globalization is grinding the world into one shape — are we losing cultural diversity, and is that progress or an impoverishment?",
-   "note": "麦当劳、英语、同一套绩效与审美开到每个角落；方言、手艺、地方性的活法在消退。多样性本身有内在价值吗，还是只是怀旧？当『最优解』全球趋同，人类会不会也丢掉应对未知的韧性(就像单一作物易遭灭顶)？",
-   "note_en": "McDonald's, English, one metric of performance and taste reaching every corner, while dialects, crafts, and local ways of living fade. Does diversity have intrinsic value, or is it just nostalgia? As the 'optimal solution' converges worldwide, do humans also lose the resilience to face the unknown (as a monoculture crop is vulnerable to wipeout)?",
-   "cat": "meta"
-  },
-  {
-   "id": "assisted-dying",
-   "votes": 0,
-   "q": "当病痛已无可挽回、本人清醒地请求结束，社会该不该允许安乐死与协助死亡？",
-   "q_en": "When suffering is beyond cure and a lucid patient asks to end it, should society permit euthanasia and assisted dying?",
-   "note": "这与『撤管放手』关键不同：那里是停止徒劳的治疗、让自然走完；这里是应本人明确请求、主动结束生命。『让其死去』和『杀死他』之间，真有一道清白的道德界线，还是我们需要它存在？自主权、生命神圣、对弱势者被胁迫的担忧、医生『不伤害』的誓言在此正面相撞。",
-   "note_en": "Crucially different from 'withdrawing life support': there one stops futile treatment and lets nature finish; here one actively ends a life at the patient's explicit request. Is there really a clean moral line between 'letting him die' and 'killing him,' or do we need one to exist? Autonomy, the sanctity of life, fear of coercing the vulnerable, and the physician's oath to 'do no harm' collide head-on.",
-   "cat": "ethics"
-  }
- ],
- "debated": [
-  {
-   "id": "happiness",
-   "q": "幸福到底是什么？我们是否应该追求幸福？",
-   "q_en": "What is happiness, really? And should we even pursue it?",
-   "date": "2026-06-13",
-   "cat": "self"
-  },
-  {
-   "id": "attention-and-meaning",
-   "q": "AI 时代，人如何夺回注意力与存在的意义？",
-   "q_en": "In the age of AI, how do we reclaim our attention and the meaning of our existence?",
-   "date": "2026-06-13",
-   "cat": "self"
-  },
-  {
-   "id": "ai-unemployment",
-   "q": "AI 取代工作后，人类是否迎来存在危机？普通人怎样面对中年失业？",
-   "q_en": "After AI replaces human work, will humanity face an existential crisis? How should ordinary people cope with mass midlife unemployment?",
-   "date": "2026-06-13",
-   "cat": "ethics"
-  },
-  {
-   "id": "family-trauma",
-   "q": "原生家庭的创伤：我们多大程度被童年塑造？能否走出？能否改变父母？",
-   "q_en": "Trauma from the family we're born into: how much does childhood shape us, can we move past it, and can we change our parents?",
-   "date": "2026-06-13",
-   "cat": "life"
-  },
-  {
-   "id": "ai-augment-or-atrophy",
-   "q": "AI 与算法：在增强我们，还是在让我们退化？",
-   "q_en": "AI and algorithms: are they augmenting us, or making us atrophy?",
-   "date": "2026-06-14",
-   "cat": "self"
-  },
-  {
-   "id": "ai-era-parenting",
-   "q": "AI 时代该怎么养孩子？——拼命鸡娃、挤名校到底还值不值得？",
-   "q_en": "Raising kids in the age of AI: is intense “tiger parenting” and chasing elite schools still worth it?",
-   "date": "2026-06-15",
-   "cat": "life"
-  },
-  {
-   "id": "management-flattening",
-   "q": "科技大厂的『扁平化』——一个经理带 30–50 人，会成为常态吗？",
-   "q_en": "Big-tech 'flattening' — one manager over 30–50 reports: is this the new normal?",
-   "date": "2026-06-15",
-   "cat": "work"
-  },
-  {
-   "id": "is-there-a-creator",
-   "q": "是否有“造物主”，如果有的话，TA为什么要造出人类？",
-   "q_en": "Is there a 'Creator'? And if so, why would they have made humankind?",
-   "date": "2026-06-16",
-   "cat": "meta"
-  },
-  {
-   "id": "what-makes-good-manager",
-   "q": "一个好的『管理者』，到底是怎样的？",
-   "q_en": "What actually makes a good manager?",
-   "date": "2026-06-16",
-   "cat": "work"
-  },
-  {
-   "id": "knowing-vs-doing",
-   "q": "“知道”和“做到”之间的差异是如何产生的？（知道该锻炼、早睡，却很难做到）",
-   "q_en": "Why is there a gap between knowing and doing? (We know we should exercise and sleep early — yet rarely do.)",
-   "date": "2026-06-17",
-   "cat": "self"
-  },
-  {
-   "id": "pursue-immortality",
-   "q": "人是否应该追求长生，如果人真的能够长生，世界会怎样？",
-   "q_en": "Should we pursue immortality — and if humans really could live forever, what would the world become?",
-   "date": "2026-06-17",
-   "cat": "life"
-  },
-  {
-   "id": "money-and-happiness",
-   "q": "金钱能（在多大程度上）买到幸福？",
-   "q_en": "Can money buy happiness — and how much?",
-   "date": "2026-06-18",
-   "cat": "self"
-  },
-  {
-   "id": "control-and-letting-go",
-   "q": "「只专注于你能控制的」是处世智慧，还是一种对改不了的不公视而不见的特权式逃避？",
-   "q_en": "Is 'focus only on what you can control' practical wisdom, or a privileged way of looking past injustice you could help change?",
-   "date": "2026-06-19",
-   "cat": "self"
-  },
-  {
-   "id": "falling-birthrate",
-   "q": "现在的年轻人（尤其在亚洲）为什么不想生孩子？这对个人与社会意味着什么？",
-   "q_en": "Why don't young people — especially in Asia — want children anymore, and what does it mean for the individual and for society?",
-   "date": "2026-06-19",
-   "cat": "ethics"
-  },
-  {
-   "id": "facing-death",
-   "q": "我们该如何面对死亡？如何做到「向死而生」？",
-   "q_en": "How should we face death — and how do we actually live 'toward' it (being-toward-death)?",
-   "date": "2026-06-19",
-   "cat": "life"
-  },
-  {
-   "id": "intimacy-recession",
-   "q": "为什么这一代人越来越难谈恋爱、走入亲密关系？是个人问题，还是时代造的？",
-   "q_en": "Why is this generation finding it ever harder to date and form intimate relationships — a personal failing, or one the age has made?",
-   "date": "2026-06-19",
-   "cat": "ethics"
-  },
-  {
-   "id": "three-teachings",
-   "q": "儒、释、道的异同：三家分歧究竟在哪，又在何处殊途同归？",
-   "q_en": "Confucianism, Buddhism, and Daoism: where do the three traditions truly differ, and where do they converge?",
-   "date": "2026-06-19",
-   "cat": "meta"
-  },
-  {
-   "id": "index-or-stock-picking",
-   "q": "普通人投资，该买大盘指数，还是买自己拿着放心的个股？",
-   "q_en": "For ordinary investors: buy the broad index, or the individual stocks you can hold with confidence?",
-   "date": "2026-06-19",
-   "cat": "self"
-  },
-  {
-   "id": "driven-by-fear",
-   "q": "靠恐惧驱动的优秀（『要够好才配被爱』）该不该放下？放下了，会不会就失去前进的动力？",
-   "q_en": "Excellence driven by fear ('I must be good enough to deserve love') — should we let it go, and if we do, do we lose the drive to move forward?",
-   "date": "2026-06-19",
-   "cat": "self"
-  },
-  {
-   "id": "east-west-philosophy",
-   "q": "东方与西方哲学：源头何以不同，如何塑造了今天的东西方人，又能否融合双方的智慧？",
-   "q_en": "Eastern and Western philosophy: why did they diverge at the root, how have they shaped people East and West today, and can the two wisdoms be fused?",
-   "date": "2026-06-20",
-   "cat": "meta"
-  },
-  {
-   "id": "office-politics",
-   "q": "大型组织里的『组织政治』，是毒瘤还是必需？普通人又该如何看待、甚至善用它？",
-   "q_en": "Office politics in large organizations: a cancer, or a necessity — and how should ordinary people navigate, even use, it?",
-   "date": "2026-06-20",
-   "cat": "work"
-  },
-  {
-   "id": "withdraw-life-support",
-   "q": "家中老人病重、靠插管维持近乎植物人的状态，作为子女，该不该撤管放手？",
-   "q_en": "An elderly parent kept alive by tubes in a near-vegetative state — should the children withdraw life support and let go?",
-   "date": "2026-06-21",
-   "cat": "life"
-  },
-  {
-   "id": "virtue-vs-talent",
-   "q": "企业用人，该「以德为先」还是「以才为先」？",
-   "q_en": "When a company hires and promotes, should it put character first, or ability first?",
-   "date": "2026-06-22",
-   "cat": "work"
-  }
- ]
+  "candidates": [
+    {
+      "id": "coach-or-manage-out",
+      "votes": 0,
+      "q": "下属能力或动力不足，领导该花时间 coaching，还是果断 manage out？",
+      "q_en": "When a report lacks the ability or the drive, should a leader invest in coaching — or manage them out?",
+      "note": "Dweck 的成长型思维与孔子『有教无类、因材施教』说人能变、值得教；Netflix 的『keeper test』与韩非子的赏罚分明说留错人是对团队的不公、机会成本高昂。关键还在于分清『能力不足』（多半可教）与『动力不足』（难补）——领导该投入辅导，还是及时止损？又怎么做到既负责又不残忍。",
+      "note_en": "Dweck's growth mindset and Confucius's 'teach without discrimination, tailor to the person' say people can change and are worth coaching; Netflix's 'keeper test' and Han Feizi's strict reward-and-punishment say keeping the wrong person is unfair to the team and costly. Much turns on telling a skill gap (usually coachable) from a will gap (far harder) — should a leader invest in coaching, or cut losses in time, and how to do it responsibly without being cruel?",
+      "cat": "work"
+    },
+    {
+      "id": "seeing-others-is-self",
+      "votes": 0,
+      "q": "「你眼中的别人不是别人，你眼中的自己不是自己，你眼中的别人才是自己」——这话有道理吗？",
+      "q_en": "'The others you see aren't really them, the self you see isn't really you, and the others you see are actually you' — is there truth to this?",
+      "note": "你对他人的评判往往照出的是自己——心理学的『投射』、库利的『镜中我』、世亲『万法唯识』、庄子的物我两忘，都在说我们看到的『别人』有多少是自己的影子。这句网络箴言，是深刻的自知洞见，还是把一切化约成主观投射的相对主义？",
+      "note_en": "What you judge in others often mirrors yourself — psychology's 'projection,' Cooley's 'looking-glass self,' Vasubandhu's 'mind-only,' and Zhuangzi's dissolving of self and thing all suggest how much of the 'other' you see is your own shadow. A profound insight into self-knowledge, or a relativism that dissolves everything into subjective projection?",
+      "cat": "self"
+    },
+    {
+      "id": "being-yourself",
+      "votes": 0,
+      "q": "“忠于真实的自我”是不是个伪命题？到底有没有一个本真的我？",
+      "q_en": "Is 'being true to yourself' even coherent — is there a real self to be true to?",
+      "note": "人设与真心、该不该装——萨特『自欺』、海德格尔本真性、佛教无我、社会角色论，质问那个『真实的我』到底存不存在。",
+      "note_en": "Masks versus the 'real you,' whether to perform or stay raw — Sartre's 'bad faith,' Heidegger's authenticity, Buddhist no-self, and role theory all interrogate whether that 'true self' exists at all.",
+      "cat": "self"
+    },
+    {
+      "id": "acceptable-inequality",
+      "votes": 0,
+      "q": "什么样的不平等是可以接受的？",
+      "q_en": "What kind of inequality is acceptable?",
+      "note": "机会平等就够了吗？多大的差距是公正、多大是不义？——马克思、哈耶克、亚当·斯密各执一词。",
+      "note_en": "Is equal opportunity enough? How much gap is just, how much is wrong? — Marx, Hayek and Adam Smith disagree.",
+      "cat": "ethics"
+    },
+    {
+      "id": "comparison-and-envy",
+      "votes": 0,
+      "q": "为什么我们忍不住跟别人比？嫉妒能消除吗？",
+      "q_en": "Why can't we stop comparing ourselves to others — and can envy ever be cured?",
+      "note": "社媒时代最普遍的痛——基拉尔『模仿欲望』、庄子、叔本华、社会比较理论，拆解我们为何总盯着别人、又如何停下。",
+      "note_en": "The most universal ache of the social-media age — Girard's 'mimetic desire,' Zhuangzi, Schopenhauer, and social-comparison theory unpack why we keep watching others, and how to stop.",
+      "cat": "self"
+    },
+    {
+      "id": "luck-and-merit",
+      "votes": 0,
+      "q": "我们的成功与失败，多少是「应得的」？努力真能决定命运吗？",
+      "q_en": "How much of our success or failure do we actually deserve — and does effort really decide our fate?",
+      "note": "『为什么我这么拼还不行』背后的大问题——桑德尔『精英的傲慢』、罗尔斯无知之幕、儒家修身、『王侯将相宁有种乎』，争运气与应得的边界。",
+      "note_en": "The big question behind 'why am I grinding this hard and still falling short' — Sandel's 'tyranny of merit,' Rawls's veil of ignorance, Confucian self-cultivation, and the ancient cry 'are kings and nobles born to it?' — over where luck ends and desert begins.",
+      "cat": "self"
+    },
+    {
+      "id": "duty-to-distant-strangers",
+      "votes": 0,
+      "q": "我们对远方陌生人的苦难，负有多大义务？",
+      "q_en": "How much do we owe the suffering of distant strangers?",
+      "note": "溺水孩童的思想实验、有效利他主义，对上『亲疏有别』的常识道德——义务有没有半径？",
+      "note_en": "Singer's drowning-child thought experiment and effective altruism against the common-sense morality of concentric circles — does obligation have a radius?",
+      "cat": "ethics"
+    },
+    {
+      "id": "what-is-beauty",
+      "votes": 0,
+      "q": "美，是主观感受，还是有客观的标准？",
+      "q_en": "Is beauty just in the eye of the beholder, or is there an objective standard?",
+      "note": "从柏拉图的理念、苏轼的意境，到康德的『无目的的合目的性』与当代神经美学——美到底是什么。",
+      "note_en": "From Plato's Forms and Su Shi's poetic mood to Kant's 'purposiveness without purpose' and today's neuroaesthetics — what is beauty, really?",
+      "cat": "meta"
+    },
+    {
+      "id": "math-discovered-or-invented",
+      "votes": 0,
+      "q": "数学是被发现的，还是被发明的？",
+      "q_en": "Is mathematics discovered, or invented?",
+      "note": "柏拉图说数学在理念世界里现成等着被发现，也有人说它只是人类心智的发明——一个关于实在本质的老问题。",
+      "note_en": "Plato says math waits to be discovered in a realm of Forms; others say it's merely an invention of the human mind — an old question about the nature of reality.",
+      "cat": "meta"
+    },
+    {
+      "id": "duty-to-earth",
+      "votes": 0,
+      "q": "我们对地球（其他物种、后代）负有怎样的义务？",
+      "q_en": "What do we owe the Earth — other species, and future generations?",
+      "note": "对其他物种、对尚未出生的后代——我们凭什么索取，又欠下什么？",
+      "note_en": "Toward other species and generations not yet born — by what right do we take, and what do we owe?",
+      "cat": "ethics"
+    },
+    {
+      "id": "liberty-vs-equality",
+      "votes": 0,
+      "q": "自由与平等不可兼得时，该牺牲哪个？",
+      "q_en": "When liberty and equality can't both be had, which should give way?",
+      "note": "自由市场的效率与不平等，还是再分配的公平与强制？现代政治的核心取舍。",
+      "note_en": "The efficiency-and-inequality of free markets, or the fairness-and-coercion of redistribution? The central trade-off of modern politics.",
+      "cat": "ethics"
+    },
+    {
+      "id": "free-will",
+      "votes": 0,
+      "q": "人是否拥有真正的自由意志？",
+      "q_en": "Do humans have genuine free will?",
+      "note": "我们是真的在选，还是基因、大脑与处境替我们选了？——决定论与能动性之争。",
+      "note_en": "Do we really choose, or do genes, brain and circumstance choose for us? — determinism versus agency.",
+      "cat": "meta"
+    },
+    {
+      "id": "care-and-emotional-labor",
+      "votes": 0,
+      "q": "我们为何系统性地低估『照护与情感劳动』的价值？（带孩子、陪伴、安抚、协调——这些撑起一切却没人记功的活）",
+      "q_en": "Why do we systematically undervalue care and emotional labor?",
+      "note": "带孩子、陪伴老人、安抚、协调、记住每个人的状态——这些撑起一切却没人记功的活，为什么总被当成『不算工作』？努斯鲍姆、波伏娃、亚当·斯密、涂尔干各执一端。",
+      "note_en": "Raising children, tending the old, soothing, coordinating, remembering everyone's state — the work that holds everything up yet earns no credit. Why is it forever treated as 'not really work'? Nussbaum, Beauvoir, Adam Smith, and Durkheim take different sides.",
+      "cat": "life"
+    },
+    {
+      "id": "procrastination",
+      "votes": 0,
+      "q": "拖延症要治吗？deadline 是第一生产力，重要的事最后也赶得出来——那它到底是不是病？",
+      "q_en": "Does procrastination even need fixing? Deadlines are the ultimate motivator and the important stuff still ships — so is it really a flaw?",
+      "note": "反常识地问：拖延也许不是意志缺陷，而是大脑的优先级调度？但赶 deadline 的代价、焦虑与质量折损又该怎么算——到底治还是不治。",
+      "note_en": "A contrarian question: maybe procrastination isn't a failure of will but the brain's way of triaging priorities? Yet the cost of the last-minute crunch — the anxiety, the quality you trade away — still has to be reckoned. Cure it, or not?",
+      "cat": "self"
+    },
+    {
+      "id": "nature-of-love",
+      "votes": 0,
+      "q": "真爱是发现的，还是培养（甚至建构）出来的？",
+      "q_en": "Is true love found, or cultivated — even constructed?",
+      "note": "柏拉图的会饮、叔本华眼里繁衍的诡计、波伏娃对浪漫爱的批判、阿德勒『被爱不如会爱』——爱到底是什么。",
+      "note_en": "Plato's Symposium, Schopenhauer's trick of the species, Beauvoir's critique of romantic love, Adler's 'better to love than to be loved' — what love really is.",
+      "cat": "life"
+    },
+    {
+      "id": "truth-vs-harmony",
+      "votes": 0,
+      "q": "维系和谐，有时是否比说出真相更重要？",
+      "q_en": "Is keeping the peace sometimes more important than telling the truth?",
+      "note": "苏格拉底为真理赴死，孔子讲『和』，阿伦特谈真相与政治——在家庭、职场、社会里，何时该说、何时该忍。",
+      "note_en": "Socrates died for the truth, Confucius prized harmony, Arendt on truth and politics — in family, work, and society, when to speak and when to hold back.",
+      "cat": "self"
+    },
+    {
+      "id": "regret",
+      "votes": 0,
+      "q": "该为过去的选择后悔吗？如何与无法重来的过去和解？",
+      "q_en": "Should we regret the choices we made — and how do we make peace with a past we can't redo?",
+      "note": "『如果当初…』的内疚反复折磨人——克尔凯郭尔、斯多葛、庄子（鼓盆而歌）、佛教放下，各给一套与过去和解的办法。",
+      "note_en": "The 'if only I had…' guilt that keeps gnawing — Kierkegaard, the Stoics, Zhuangzi (drumming and singing at his wife's death), and Buddhist letting-go each offer a way to make peace with what's done.",
+      "cat": "self"
+    },
+    {
+      "id": "legitimacy-of-power",
+      "votes": 0,
+      "q": "国家的权力从何而来、有无正当的边界？",
+      "q_en": "Where does the state's power come from, and does it have legitimate limits?",
+      "note": "社会契约、天命、还是法家的强力？权力的来源与边界，是政治哲学最古老的争点。",
+      "note_en": "Social contract, the Mandate of Heaven, or Legalist force? The source and limits of legitimate power are political philosophy's oldest quarrel.",
+      "cat": "ethics"
+    },
+    {
+      "id": "moral-limits-of-markets",
+      "votes": 0,
+      "q": "有什么是金钱不该买卖的？市场该有边界吗？",
+      "q_en": "Is there anything money shouldn't be able to buy? Should markets have moral limits?",
+      "note": "从代孕、器官到选票与友情——当市场逻辑渗入一切，有没有该守住的非卖品？",
+      "note_en": "From surrogacy and organs to votes and friendship — as market logic seeps into everything, are there things that should stay off the auction block?",
+      "cat": "ethics"
+    },
+    {
+      "id": "enough-money-still-work",
+      "votes": 0,
+      "q": "如果有了足够的钱（财务自由），是否还应该继续工作？",
+      "q_en": "If you had enough money to never need to, should you still work?",
+      "note": "当生计不再是问题，工作还剩下什么？凯恩斯曾预言后代每周只需工作十五小时；可马克思说劳动本可是自我实现、却被异化，弗兰克尔说人需要『被需要』，亚里士多德推崇闲暇中的沉思。财务自由后，是该退休享清福，还是不工作反而会失去意义与生活的结构？",
+      "note_en": "When making a living is no longer the point, what is work for? Keynes predicted his grandchildren would work fifteen hours a week; yet Marx saw labor as self-realization warped by alienation, Frankl held that people need to be needed, and Aristotle prized contemplation in leisure. Once you're financially free — retire to ease, or would a life without work lose its meaning and structure?",
+      "cat": "self"
+    },
+    {
+      "id": "abundance-and-decline",
+      "votes": 0,
+      "q": "当物质极度丰裕、不再需要奋斗，人类会不会重演『老鼠乌托邦』式的衰亡？",
+      "q_en": "When material abundance removes all need to struggle, could humanity repeat the collapse of the 'mouse utopia'?",
+      "note": "卡尔霍恩的『25 号宇宙』实验里，食物无限、天敌全无的鼠群最终走向求偶停摆、社交退缩与整体崩溃。当 AI 与富足替人类卸下生存压力，我们会迎来繁荣，还是尼采笔下只求安逸的『末人』、赫胥黎《美丽新世界》式的温柔沉沦？奋斗与匮乏，是否是意义与活力的必要燃料？",
+      "note_en": "In Calhoun's 'Universe 25,' a mouse colony with unlimited food and no predators slid into mating breakdown, social withdrawal, and total collapse. As AI and abundance lift the pressure to survive, will humanity flourish — or become Nietzsche's comfort-seeking 'last man,' a gentle Brave New World decline? Are struggle and scarcity necessary fuel for meaning and vitality?",
+      "cat": "ethics"
+    },
+    {
+      "id": "third-places",
+      "votes": 0,
+      "q": "我们是不是正在失去『第三空间』与闲逛式的日常社交？孤独流行病从何而来？",
+      "q_en": "Are we losing 'third places' and the art of aimless everyday sociability — and where does the loneliness epidemic come from?",
+      "note": "家与公司之外，曾有酒馆、广场、教堂、茶馆、街角小店这样的『第三空间』，让人不带目的地反复遇见同一批人——社会学家奥登伯格说，正是这些地方织起了社区与公共生活。如今它们被通勤、外卖、远程与屏幕悄悄抽空，普特南笔下『独自打保龄』的孤独蔓延开来。这是城市规划与技术的结构性后果，还是个人选择？普通人又如何在生活里重建这些不被绩效考核的相遇？",
+      "note_en": "Beyond home and work there once stood 'third places' — pubs, plazas, temples, teahouses, the corner shop — where people met the same faces again and again without any purpose; the sociologist Ray Oldenburg argued these were what wove community and public life together. Today they are quietly hollowed out by commuting, delivery, remote work, and screens, and the 'bowling alone' loneliness Robert Putnam described spreads. Is this a structural consequence of urban design and technology, or a matter of personal choice — and how does an ordinary person rebuild these unranked, purposeless encounters in daily life?",
+      "cat": "life"
+    },
+    {
+      "id": "cultural-homogenization",
+      "votes": 0,
+      "q": "全球化正在把世界磨成同一种模样——我们在失去文化多样性吗？这是进步，还是一种贫乏？",
+      "q_en": "Globalization is grinding the world into one shape — are we losing cultural diversity, and is that progress or an impoverishment?",
+      "note": "麦当劳、英语、同一套绩效与审美开到每个角落；方言、手艺、地方性的活法在消退。多样性本身有内在价值吗，还是只是怀旧？当『最优解』全球趋同，人类会不会也丢掉应对未知的韧性(就像单一作物易遭灭顶)？",
+      "note_en": "McDonald's, English, one metric of performance and taste reaching every corner, while dialects, crafts, and local ways of living fade. Does diversity have intrinsic value, or is it just nostalgia? As the 'optimal solution' converges worldwide, do humans also lose the resilience to face the unknown (as a monoculture crop is vulnerable to wipeout)?",
+      "cat": "meta"
+    },
+    {
+      "id": "assisted-dying",
+      "votes": 0,
+      "q": "当病痛已无可挽回、本人清醒地请求结束，社会该不该允许安乐死与协助死亡？",
+      "q_en": "When suffering is beyond cure and a lucid patient asks to end it, should society permit euthanasia and assisted dying?",
+      "note": "这与『撤管放手』关键不同：那里是停止徒劳的治疗、让自然走完；这里是应本人明确请求、主动结束生命。『让其死去』和『杀死他』之间，真有一道清白的道德界线，还是我们需要它存在？自主权、生命神圣、对弱势者被胁迫的担忧、医生『不伤害』的誓言在此正面相撞。",
+      "note_en": "Crucially different from 'withdrawing life support': there one stops futile treatment and lets nature finish; here one actively ends a life at the patient's explicit request. Is there really a clean moral line between 'letting him die' and 'killing him,' or do we need one to exist? Autonomy, the sanctity of life, fear of coercing the vulnerable, and the physician's oath to 'do no harm' collide head-on.",
+      "cat": "ethics"
+    }
+  ],
+  "debated": [
+    {
+      "id": "happiness",
+      "q": "幸福到底是什么？我们是否应该追求幸福？",
+      "q_en": "What is happiness, really? And should we even pursue it?",
+      "date": "2026-06-13",
+      "cat": "self"
+    },
+    {
+      "id": "attention-and-meaning",
+      "q": "AI 时代，人如何夺回注意力与存在的意义？",
+      "q_en": "In the age of AI, how do we reclaim our attention and the meaning of our existence?",
+      "date": "2026-06-13",
+      "cat": "self"
+    },
+    {
+      "id": "ai-unemployment",
+      "q": "AI 取代工作后，人类是否迎来存在危机？普通人怎样面对中年失业？",
+      "q_en": "After AI replaces human work, will humanity face an existential crisis? How should ordinary people cope with mass midlife unemployment?",
+      "date": "2026-06-13",
+      "cat": "ethics"
+    },
+    {
+      "id": "family-trauma",
+      "q": "原生家庭的创伤：我们多大程度被童年塑造？能否走出？能否改变父母？",
+      "q_en": "Trauma from the family we're born into: how much does childhood shape us, can we move past it, and can we change our parents?",
+      "date": "2026-06-13",
+      "cat": "life"
+    },
+    {
+      "id": "ai-augment-or-atrophy",
+      "q": "AI 与算法：在增强我们，还是在让我们退化？",
+      "q_en": "AI and algorithms: are they augmenting us, or making us atrophy?",
+      "date": "2026-06-14",
+      "cat": "self"
+    },
+    {
+      "id": "ai-era-parenting",
+      "q": "AI 时代该怎么养孩子？——拼命鸡娃、挤名校到底还值不值得？",
+      "q_en": "Raising kids in the age of AI: is intense “tiger parenting” and chasing elite schools still worth it?",
+      "date": "2026-06-15",
+      "cat": "life"
+    },
+    {
+      "id": "management-flattening",
+      "q": "科技大厂的『扁平化』——一个经理带 30–50 人，会成为常态吗？",
+      "q_en": "Big-tech 'flattening' — one manager over 30–50 reports: is this the new normal?",
+      "date": "2026-06-15",
+      "cat": "work"
+    },
+    {
+      "id": "is-there-a-creator",
+      "q": "是否有“造物主”，如果有的话，TA为什么要造出人类？",
+      "q_en": "Is there a 'Creator'? And if so, why would they have made humankind?",
+      "date": "2026-06-16",
+      "cat": "meta"
+    },
+    {
+      "id": "what-makes-good-manager",
+      "q": "一个好的『管理者』，到底是怎样的？",
+      "q_en": "What actually makes a good manager?",
+      "date": "2026-06-16",
+      "cat": "work"
+    },
+    {
+      "id": "knowing-vs-doing",
+      "q": "“知道”和“做到”之间的差异是如何产生的？（知道该锻炼、早睡，却很难做到）",
+      "q_en": "Why is there a gap between knowing and doing? (We know we should exercise and sleep early — yet rarely do.)",
+      "date": "2026-06-17",
+      "cat": "self"
+    },
+    {
+      "id": "pursue-immortality",
+      "q": "人是否应该追求长生，如果人真的能够长生，世界会怎样？",
+      "q_en": "Should we pursue immortality — and if humans really could live forever, what would the world become?",
+      "date": "2026-06-17",
+      "cat": "life"
+    },
+    {
+      "id": "money-and-happiness",
+      "q": "金钱能（在多大程度上）买到幸福？",
+      "q_en": "Can money buy happiness — and how much?",
+      "date": "2026-06-18",
+      "cat": "self"
+    },
+    {
+      "id": "control-and-letting-go",
+      "q": "「只专注于你能控制的」是处世智慧，还是一种对改不了的不公视而不见的特权式逃避？",
+      "q_en": "Is 'focus only on what you can control' practical wisdom, or a privileged way of looking past injustice you could help change?",
+      "date": "2026-06-19",
+      "cat": "self"
+    },
+    {
+      "id": "falling-birthrate",
+      "q": "现在的年轻人（尤其在亚洲）为什么不想生孩子？这对个人与社会意味着什么？",
+      "q_en": "Why don't young people — especially in Asia — want children anymore, and what does it mean for the individual and for society?",
+      "date": "2026-06-19",
+      "cat": "ethics"
+    },
+    {
+      "id": "facing-death",
+      "q": "我们该如何面对死亡？如何做到「向死而生」？",
+      "q_en": "How should we face death — and how do we actually live 'toward' it (being-toward-death)?",
+      "date": "2026-06-19",
+      "cat": "life"
+    },
+    {
+      "id": "intimacy-recession",
+      "q": "为什么这一代人越来越难谈恋爱、走入亲密关系？是个人问题，还是时代造的？",
+      "q_en": "Why is this generation finding it ever harder to date and form intimate relationships — a personal failing, or one the age has made?",
+      "date": "2026-06-19",
+      "cat": "ethics"
+    },
+    {
+      "id": "three-teachings",
+      "q": "儒、释、道的异同：三家分歧究竟在哪，又在何处殊途同归？",
+      "q_en": "Confucianism, Buddhism, and Daoism: where do the three traditions truly differ, and where do they converge?",
+      "date": "2026-06-19",
+      "cat": "meta"
+    },
+    {
+      "id": "index-or-stock-picking",
+      "q": "普通人投资，该买大盘指数，还是买自己拿着放心的个股？",
+      "q_en": "For ordinary investors: buy the broad index, or the individual stocks you can hold with confidence?",
+      "date": "2026-06-19",
+      "cat": "self"
+    },
+    {
+      "id": "driven-by-fear",
+      "q": "靠恐惧驱动的优秀（『要够好才配被爱』）该不该放下？放下了，会不会就失去前进的动力？",
+      "q_en": "Excellence driven by fear ('I must be good enough to deserve love') — should we let it go, and if we do, do we lose the drive to move forward?",
+      "date": "2026-06-19",
+      "cat": "self"
+    },
+    {
+      "id": "east-west-philosophy",
+      "q": "东方与西方哲学：源头何以不同，如何塑造了今天的东西方人，又能否融合双方的智慧？",
+      "q_en": "Eastern and Western philosophy: why did they diverge at the root, how have they shaped people East and West today, and can the two wisdoms be fused?",
+      "date": "2026-06-20",
+      "cat": "meta"
+    },
+    {
+      "id": "office-politics",
+      "q": "大型组织里的『组织政治』，是毒瘤还是必需？普通人又该如何看待、甚至善用它？",
+      "q_en": "Office politics in large organizations: a cancer, or a necessity — and how should ordinary people navigate, even use, it?",
+      "date": "2026-06-20",
+      "cat": "work"
+    },
+    {
+      "id": "withdraw-life-support",
+      "q": "家中老人病重、靠插管维持近乎植物人的状态，作为子女，该不该撤管放手？",
+      "q_en": "An elderly parent kept alive by tubes in a near-vegetative state — should the children withdraw life support and let go?",
+      "date": "2026-06-21",
+      "cat": "life"
+    },
+    {
+      "id": "virtue-vs-talent",
+      "q": "企业用人，该「以德为先」还是「以才为先」？",
+      "q_en": "When a company hires and promotes, should it put character first, or ability first?",
+      "date": "2026-06-22",
+      "cat": "work"
+    }
+  ]
 }

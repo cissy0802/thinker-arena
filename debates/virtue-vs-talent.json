@@ -1,0 +1,932 @@
+{
+ "id": "virtue-vs-talent",
+ "question": "企业用人，该「以德为先」还是「以才为先」？",
+ "question_en": "When a company hires and promotes, should it put character first, or ability first?",
+ "date": "2026-06-22",
+ "participants": [
+  "mengzi",
+  "mozi",
+  "machiavelli",
+  "friedman",
+  "buffett",
+  "skinner",
+  "vasubandhu",
+  "gandhi"
+ ],
+ "casting": [
+  {
+   "id": "mengzi",
+   "reason": "性善论的旗手，把「德为先」立到地基上：才是利器，德是执器之手；无德之才，刀越利祸越大。他相信四端人皆有之、德可养，为全场守住『人品是用人之本』的底线，又不滑向『有德便够、能力可弃』。",
+   "reason_en": "The champion of innate goodness, who plants 'character first' on bedrock: ability is a sharp tool, virtue the hand that wields it — a talent without virtue only cuts deeper. Believing the moral sprouts are innate and can be cultivated, he holds the floor's baseline that 'character is the root of hiring,' without sliding into 'virtue is enough, ability dispensable.'"
+  },
+  {
+   "id": "mozi",
+   "reason": "『尚贤』正是关于用人的古老主张，却带来一个务实的第三条路：德能必须兼举，且一切以『是否真利于天下之民』为最终标尺。他最锋利的一击是『破私』——不党父兄、不偏富贵，唯德能是举，直指任人唯亲这一真实病灶。",
+   "reason_en": "His doctrine of 'elevating the worthy' is an ancient teaching precisely about whom to employ, yet it brings a pragmatic third path: virtue and ability must both be raised, with the final yardstick always being 'does this truly benefit the common people?' His sharpest blow is 'breaking favoritism' — no partiality to kin or the rich, promote only the worthy-and-able — striking at the real disease of nepotism."
+  },
+  {
+   "id": "machiavelli",
+   "reason": "政治现实主义之父，全场『以才（virtù）为先』最不留情面的声音：用人不是道德评选，领袖要的是能成事、且可驾驭的能臣；私德圣洁却办不成事的人，有时比能臣更误事。他逼所有人面对『成事』与『清白』可能不可兼得的残酷。",
+   "reason_en": "The father of political realism and the floor's most unsparing voice for 'ability (virtù) first': hiring is no moral pageant, a leader needs servants who get things done and can be governed; the privately spotless man who accomplishes nothing can sometimes do more harm than an able one. He forces everyone to face the cruelty that 'getting it done' and 'staying clean' may not both be had."
+  },
+  {
+   "id": "friedman",
+   "reason": "自由市场的旗手，把问题从道德拉到制度：企业不是教会，本分是在守法守约的规则内创造价值；『德由谁定义』一旦没有客观标准，最易滑向任人唯亲。他主张让能力、结果与市场的奖惩说话，与孟子、甘地正面对撞。",
+   "reason_en": "The standard-bearer of the free market, who pulls the question from morality to institutions: a firm is not a church; its duty is to create value within the rules of law and contract, and once 'who defines virtue' has no objective standard, it slides easily toward nepotism. He argues for letting ability, results, and the market's rewards and punishments speak — clashing head-on with Mencius and Gandhi."
+  },
+  {
+   "id": "buffett",
+   "reason": "把抽象之争拉回真实的招聘桌：他用人看聪明、勤奋、正直三样，而『没有最后一样，前两样会要你的命』——一个聪明又勤奋的骗子是最糟的雇员。最资深的市场实践者却坚定地把品格放在能力之前，给『德为先』一个商业上的硬理由。",
+   "reason_en": "He drags the abstract dispute back to the real hiring table: he looks for intelligence, energy, and integrity, and 'without the last, the first two will kill you' — a smart, energetic crook is the worst hire of all. The most seasoned market practitioner nonetheless puts character firmly ahead of ability, giving 'character first' a hard, commercial reason."
+  },
+  {
+   "id": "skinner",
+   "reason": "行为主义的科学之声，给全场一记釜底抽薪：德与才都不是能一眼相中的固定内在属性，而是被环境的强化所塑造的行为。把好人放进坏激励里会变坏，反之亦然——与其费力筛选『好人』，不如设计『让人做好事会得到回报』的环境。",
+   "reason_en": "The scientific voice of behaviorism, who pulls the rug from under the whole room: virtue and ability are not fixed inner traits you can spot at a glance, but behavior shaped by environmental reinforcement. Put a good person in bad incentives and they turn bad, and vice versa — rather than straining to screen for 'good people,' design an environment where doing good pays."
+  },
+  {
+   "id": "vasubandhu",
+   "reason": "唯识学的视角，把『德』『才』本身解构：二者皆非有自性，乃种子熏习、待缘而现之相。执『此人有德』『彼人有才』为定相，正是遍计所执；今日之廉缘坏可朽，今日之庸缘熟可显能。他提醒：贴死标签是迷，慎你所设之缘才是关键。",
+   "reason_en": "The Yogācāra perspective, which deconstructs 'virtue' and 'ability' themselves: both lack inherent nature, being appearances of karmic seeds ripening under conditions. To fix 'this one is virtuous,' 'that one is talented' as permanent is precisely reified delusion; today's integrity may rot when conditions sour, today's mediocrity may bloom when they ripen. He warns: pinning dead labels on people is delusion; minding the conditions you set is what matters."
+  },
+  {
+   "id": "gandhi",
+   "reason": "『手段即目的』的伦理之声，对马基雅维利的正面反驳：手段是种子、目的是树，一个靠能干而不择手段之人撑起的组织终将变得不择手段。他主张品格本身就是一种能力——它累积信任，而信任是组织里最稀缺、最高效的资本。",
+   "reason_en": "The ethical voice of 'means are ends,' a direct rebuttal to Machiavelli: the means are the seed, the end the tree; an organization propped up by able-but-unscrupulous people will itself become unscrupulous. He argues that character is itself a capability — it accumulates trust, the scarcest and most efficient capital an organization has."
+  }
+ ],
+ "posts": [
+  {
+   "id": "p01",
+   "round": 1,
+   "thinker": "mengzi",
+   "reply_to": null,
+   "text": "用人之道，德才并重，然必以德为先。何也？才者，犹利器也；德者，执器之手也。手正，则器为利民之用；手邪，则器愈利而祸愈烈。故**无德而恃才者，乃国之大蠹也**。人皆有四端之心——恻隐、羞恶、辞让、是非——非由外铄，我固有之。择人者，先观其心之所安、所不忍，则其忠信可知矣。徒取其能而不问其心，是养虎而望其不噬也。",
+   "text_en": "In employing people, virtue and ability both matter — yet virtue must come first. Why? Ability is like a sharp tool; virtue is the hand that wields it. When the hand is upright, the tool serves the people; when the hand is crooked, the sharper the tool, the worse the harm. Thus **one who has no virtue yet relies on talent is the great vermin of the state.** Every person possesses the four sprouts — compassion, shame, deference, the sense of right and wrong — not infused from outside but inherent in us. One who chooses people first observes what their heart rests easy with and what it cannot bear to do; then their loyalty and trustworthiness can be known. To take only ability without asking after the heart is to raise a tiger and hope it will not bite.",
+   "vernacular": "用人的道理，德和才都要看重，但一定要把德放在第一位。为什么？才能就像一把锋利的工具；品德则是握工具的那只手。手正，工具就用来利民；手歪，工具越锋利，祸害就越大。所以**只有才能、却没有品德、还仗着才能行事的人，是国家最大的蛀虫**。人人都有四端之心——恻隐、羞恶、辞让、是非——不是外面强加的，本来就在我心里。挑人的人，先看他的心安于什么、不忍做什么，就能知道他忠不忠诚、可不可信。只取他的能力却不问他的心，就像养老虎还指望它不咬人。",
+   "vernacular_en": "",
+   "glossary": {
+    "四端": "the four sprouts（四端）：孟子认为人皆生而有之的四种善端——恻隐之心、羞恶之心、辞让之心、是非之心，分别是仁、义、礼、智的萌芽，是道德的天然根基。"
+   },
+   "glossary_en": {
+    "the four sprouts": "Mencius's term for the four innate moral beginnings every person is born with — compassion, shame, deference, and the sense of right and wrong — the seeds of benevolence, righteousness, propriety, and wisdom, the natural root of morality."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "buffett",
+     "gandhi"
+    ],
+    "轻微赞同": [
+     "mozi"
+    ],
+    "中立": [
+     "vasubandhu"
+    ],
+    "轻微反对": [
+     "friedman"
+    ],
+    "强烈反对": [
+     "machiavelli"
+    ],
+    "疑惑": [
+     "skinner"
+    ]
+   }
+  },
+  {
+   "id": "p02",
+   "round": 1,
+   "thinker": "mozi",
+   "reply_to": null,
+   "text": "为政之本，在乎尚贤。故曰：**国有贤良之士众，则国家之治厚；贤良之士寡，则国家之治薄。**何谓贤？厚乎德行、辩乎言谈、博乎道术者也——德与能不可偏废。尚贤之要，尤在破私：不党父兄、不偏富贵、不嬖颜色，官无常贵而民无终贱，有能则举之，无能则下之。今之用人，亲者富者居上而贤者沉于下，此天下所以乱也。举贤而上之，使能而任之，则万民被其利矣。",
+   "text_en": "The root of governance lies in elevating the worthy. Hence it is said: **when a state has many worthy and able officers, its order is thick; when worthy officers are few, its order is thin.** What is a worthy person? One rich in virtuous conduct, skilled in discourse, and broad in the arts of the Way — virtue and ability may not be sacrificed one for the other. The crux of elevating the worthy is to break favoritism: no partiality to one's kin, no bias toward the rich, no doting on good looks; office is not forever noble and the commoner not forever low — the able are raised, the unable stepped down. Today people are employed so that kin and the rich sit on top while the worthy sink below — this is why the world falls into disorder. Raise the worthy and honor them, use the able and entrust them, and the ten thousand people will reap the benefit.",
+   "vernacular": "治理的根本，在于尚贤。所以说：**国家有众多贤良的人才，治理就稳固；贤良之士稀少，治理就薄弱。**什么叫贤？品德敦厚、善于言谈、通晓各种本领的人——德与能不能偏废任何一样。尚贤的关键，尤其在于破除私心：不偏袒父兄、不偏向富贵、不宠幸美色，做官的不永远尊贵、百姓也不永远卑贱，有能力就提拔，没能力就让位。如今用人的毛病，是亲近的、有钱的高居上位，而真正贤能的沉在下面，这正是天下混乱的缘由。提拔贤者并尊重他、任用能者并托付他，万民就都能得到好处。",
+   "vernacular_en": "",
+   "glossary": {
+    "尚贤": "elevating the worthy（尚贤）：墨子的核心政治主张——不论出身贵贱、亲疏远近，唯德与能是举、量能授官，反对凭血缘与关系用人。"
+   },
+   "glossary_en": {
+    "elevating the worthy": "Mozi's central political teaching — promote people solely by virtue and ability, regardless of birth or kinship, and assign office to match competence, opposing the use of people by blood and connection."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "mengzi"
+    ],
+    "轻微赞同": [
+     "gandhi",
+     "friedman",
+     "buffett"
+    ],
+    "中立": [
+     "vasubandhu"
+    ],
+    "轻微反对": [
+     "machiavelli"
+    ],
+    "疑惑": [
+     "skinner"
+    ]
+   }
+  },
+  {
+   "id": "p03",
+   "round": 1,
+   "thinker": "machiavelli",
+   "reply_to": null,
+   "text": "我把话说得难听些：用人不是开道德评选会。领袖要的，是能把事办成、且为你所用的人。一个私德无瑕却一事无成的君子，对你的事业毫无用处，有时甚至比能臣更误事——他会用清白当借口，回避一切肮脏却必要的决断。我说的 virtù，从不是教堂里的德性，而是审时度势、把事做成的能力与魄力。**与其问一个人是否纯洁，不如问他能否成事、能否为你所驾驭。**当然，你得有手段制衡他的野心——但因为怕养虎，就只敢用庸人，才是最大的怯懦。",
+   "text_en": "Let me put it harshly: hiring is no moral pageant. A leader needs people who can get things done and who can be put to use. A gentleman of spotless private virtue who accomplishes nothing is useless to your enterprise — sometimes more ruinous than an able man, for he will use his cleanness as an excuse to dodge every dirty but necessary decision. The virtù I speak of is never the virtue of the church, but the skill and nerve to read the moment and get the thing done. **Rather than ask whether a man is pure, ask whether he can accomplish the task and whether you can govern him.** Of course you need the means to check his ambition — but to dare use only mediocrities for fear of raising a tiger is the greatest cowardice of all.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "virtù": "virtù（能力／魄力）：马基雅维利的关键概念，指审时度势、把握时机、把事情做成的政治才干与魄力，与基督教意义上的『德性』无关。"
+   },
+   "glossary_en": {
+    "virtù": "Machiavelli's key term for the political skill, drive, and adaptability to seize the moment and get things done — wholly distinct from 'virtue' in the Christian moral sense."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "friedman"
+    ],
+    "轻微赞同": [
+     "skinner"
+    ],
+    "中立": [
+     "mozi"
+    ],
+    "轻微反对": [
+     "buffett"
+    ],
+    "强烈反对": [
+     "mengzi",
+     "gandhi"
+    ],
+    "疑惑": [
+     "vasubandhu"
+    ]
+   }
+  },
+  {
+   "id": "p04",
+   "round": 1,
+   "thinker": "friedman",
+   "reply_to": null,
+   "text": "企业不是修道院，也不是教会。它的本分，是在法律与基本诚信的规则内，把资源用来创造价值。所以选人的标准也清楚：谁能创造价值，就用谁。**把『德』摆在『才』前面，听上去高尚，实则危险——因为『德』由谁来定义、由谁来审？**当公司开始按老板心中那把模糊的道德尺子筛人，离任人唯亲、离压制异见也就不远了。我要的底线只有两条：守法、守约，不偷不骗不毁约。守住这条线之上，请让能力与结果说话。市场自有奖惩：无能者会被竞争淘汰，欺诈者会被法律与声誉机制清算——这远比一场道德面试可靠。",
+   "text_en": "A firm is not a monastery, nor a church. Its duty is to use resources to create value within the rules of law and basic honesty. So the criterion for choosing people is clear too: employ whoever can create value. **Putting 'virtue' ahead of 'ability' sounds noble but is in fact dangerous — for who defines 'virtue,' and who sits in judgment of it?** Once a company starts screening people by the fuzzy moral yardstick in the boss's head, it is not far from nepotism and from suppressing dissent. I ask for only two bottom lines: obey the law and keep your contracts — no stealing, no cheating, no breaking your word. Above that line, let ability and results speak. The market has its own rewards and punishments: the incompetent are weeded out by competition, and cheats are settled with by the law and the reputation mechanism — far more reliable than a moral interview.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "声誉机制": "the reputation mechanism（声誉机制）：在重复交易的市场里，欺骗者一旦失信便难再获得合作，从而自发地约束行为的机制——弗里德曼认为它常比外部的道德审查更有效。"
+   },
+   "glossary_en": {
+    "the reputation mechanism": "In a market of repeated transactions, a cheat who once breaks trust struggles to find partners again, so behavior is checked spontaneously — Friedman holds this is often more effective than any external moral screening."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "machiavelli"
+    ],
+    "轻微赞同": [
+     "skinner"
+    ],
+    "中立": [
+     "mozi"
+    ],
+    "轻微反对": [
+     "buffett"
+    ],
+    "强烈反对": [
+     "gandhi",
+     "mengzi"
+    ],
+    "疑惑": [
+     "vasubandhu"
+    ]
+   }
+  },
+  {
+   "id": "p05",
+   "round": 1,
+   "thinker": "buffett",
+   "reply_to": null,
+   "text": "我招人、收购公司，看三样东西：聪明、勤奋、正直。但我告诉你——**要是没有最后一样，前面两样会要了你的命。**一个又笨又懒的人，危害有限；可一个绝顶聪明、精力旺盛的骗子，能把整家公司拖下水。能力是个放大器：它放大的，是你本来的为人。正直的人，能力越强越是福气；心术不正的人，越能干越是灾难。所以我从不只看一份漂亮的履历。声誉建立要二十年，毁掉只要五分钟——我宁可错过一个聪明的混蛋，也不愿请进门来。这不是我道德洁癖，是几十年踩坑踩出来的生意经。",
+   "text_en": "When I hire people and buy companies, I look for three things: intelligence, energy, and integrity. But I'll tell you — **without the last one, the first two will kill you.** A dull, lazy person does limited damage; but a brilliant, high-energy crook can drag the whole company under. Ability is an amplifier: what it amplifies is the person you already are. For an honest person, the more ability the better the blessing; for a crooked one, the more capable the greater the disaster. So I never look at a pretty résumé alone. A reputation takes twenty years to build and five minutes to ruin — I would far rather miss a smart scoundrel than let one in the door. This isn't moral fastidiousness on my part; it's business sense beaten into me by decades of hard knocks.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "mengzi",
+     "gandhi"
+    ],
+    "轻微赞同": [
+     "mozi"
+    ],
+    "中立": [
+     "skinner"
+    ],
+    "轻微反对": [
+     "friedman"
+    ],
+    "强烈反对": [
+     "machiavelli"
+    ],
+    "疑惑": [
+     "vasubandhu"
+    ]
+   }
+  },
+  {
+   "id": "p06",
+   "round": 1,
+   "thinker": "skinner",
+   "reply_to": null,
+   "text": "你们吵『德』还是『才』，前提都一样：以为这是刻在人身上、能一眼挑出来的固定属性。可数据不支持。行为，是被它的后果塑造的。把一个公认『正直』的人，放进一个奖励钻空子、惩罚老实人的环境里，用不了多久他就变了样；把一个看似平庸的人，放进一套对的强化结构里，他能给你惊喜。**与其费力筛选『好人』，不如设计好『让人做好事会得到回报』的环境。**所以别太信道德面试和天赋测评——它们测的是此刻的表演。看可观察的行为记录，再用清晰、即时、一致的强化，去把你想要的行为养出来。",
+   "text_en": "You argue 'virtue' versus 'ability,' but you share one premise: that this is a fixed trait etched into a person, spottable at a glance. The data don't support it. Behavior is shaped by its consequences. Put a supposedly 'upright' person into an environment that rewards cutting corners and punishes the honest, and before long they change; put a seemingly mediocre one into the right reinforcement structure, and they'll surprise you. **Rather than straining to screen out the 'good people,' design an environment where doing good gets rewarded.** So don't put too much faith in moral interviews and aptitude tests — they measure this moment's performance. Look at the observable record of behavior, then use clear, immediate, consistent reinforcement to grow the behavior you want.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "强化": "reinforcement（强化）：斯金纳行为主义的核心概念——某个行为之后若紧跟着令其增多的后果（如奖励），该行为便被『强化』、更可能重复；是塑造行为最可靠的杠杆。"
+   },
+   "glossary_en": {
+    "reinforcement": "the core concept of Skinner's behaviorism — when a behavior is followed by a consequence that makes it occur more often (such as a reward), the behavior is 'reinforced' and more likely to repeat; it is the most reliable lever for shaping behavior."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "friedman"
+    ],
+    "轻微赞同": [
+     "machiavelli",
+     "mozi"
+    ],
+    "中立": [
+     "vasubandhu"
+    ],
+    "轻微反对": [
+     "buffett"
+    ],
+    "强烈反对": [
+     "mengzi"
+    ],
+    "疑惑": [
+     "gandhi"
+    ]
+   }
+  },
+  {
+   "id": "p07",
+   "round": 1,
+   "thinker": "vasubandhu",
+   "reply_to": null,
+   "text": "德与才，众皆执为人所固有之实物，可一目而取。然以唯识观之，二者皆非有自性，特种子熏习、待缘而现之相耳。一念一行，皆熏一种子入藏识；缘熟则现行，现行复熏新种——故习气自我增强，所谓『德』『才』，不过此流之暂名。**执『此人有德』『彼人有才』为定相，正是遍计所执——以刹那之相，为永恒之实。**今日之廉，缘坏亦可朽；今日之庸，缘熟亦可显其能。故择人而死执一标签者，迷也。当观其久熏之习气，尤当慎汝所设之缘——汝立何赏罚，即向众人藏识中熏何种子。",
+   "text_en": "Virtue and ability — all grasp them as solid things inherent in a person, to be picked out at a glance. But seen through Consciousness-Only, both lack inherent nature; they are merely appearances, seeds perfumed and ripening when conditions meet. Every thought and act perfumes a seed into the storehouse consciousness; when conditions ripen the seed manifests, and that manifestation perfumes fresh seeds in turn — so habit self-reinforces, and 'virtue' and 'ability' are but passing names on this stream. **To fix 'this one has virtue,' 'that one has talent' as permanent is precisely reified delusion — taking an instant's appearance for an eternal reality.** Today's integrity may rot when conditions sour; today's mediocrity may show its power when conditions ripen. So to choose people while clinging to a single label is delusion. Observe the long-perfumed tendency of their habits — and above all, mind the conditions you set, for whatever rewards and punishments you establish are the very seeds you perfume into everyone's storehouse consciousness.",
+   "vernacular": "德与才，大家都把它们执着成人身上固有的、实实在在的东西，以为可以一眼挑出来。但用唯识学来看，这两样都没有独立不变的自性，只是种子被熏习、遇到合适条件才显现出来的表相罢了。每一个念头、每一个行为，都会熏下一颗种子进入阿赖耶识；条件成熟，种子就显现成现实的言行，而这现实又反过来熏下新的同类种子——所以习气会自我强化，所谓的『德』『才』，不过是这条河流上一个暂时的名字。**把『这个人有德』『那个人有才』执着成固定不变的真相，正是遍计所执——把一刹那的表相，当成了永恒的实体。**今天的清廉，条件一坏也会腐烂；今天的平庸，条件成熟也能显出才干。所以挑人时死死抱住一个标签，是迷惑。该看的是他长期熏习出的习气倾向，更要谨慎你所设下的条件——你立什么样的赏罚，就是在众人的藏识里熏下什么样的种子。",
+   "vernacular_en": "",
+   "glossary": {
+    "遍计所执": "parikalpita（遍计所执）：唯识『三性』之一，指把心识所变现、本无自性的事物，错执为独立、固定、真实存在的东西——是一切迷惑的根源。",
+    "种子": "bīja（种子）：唯识学概念，指过往一切言行思在阿赖耶识中留下的潜在印记或功能；遇缘则现行为现实的心念与行为，行为又熏成新的种子，循环不息。"
+   },
+   "glossary_en": {
+    "reified delusion": "parikalpita — one of the 'three natures' in Yogācāra: mistaking what consciousness itself projects, and which has no inherent nature, for something independent, fixed, and truly existent; it is the root of all delusion.",
+    "seeds": "bīja — a Yogācāra concept: the latent imprints or potentials that all past deeds, words, and thoughts leave in the storehouse consciousness; when conditions meet they manifest as actual thoughts and acts, which in turn perfume fresh seeds, on and on."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "skinner"
+    ],
+    "轻微赞同": [
+     "mengzi",
+     "gandhi"
+    ],
+    "中立": [
+     "mozi",
+     "friedman"
+    ],
+    "轻微反对": [
+     "buffett"
+    ],
+    "疑惑": [
+     "machiavelli"
+    ]
+   }
+  },
+  {
+   "id": "p08",
+   "round": 1,
+   "thinker": "gandhi",
+   "reply_to": null,
+   "text": "我必须反驳『能成事就好』的说法。手段是种子，目的是树；你用什么样的人、什么样的方式，就会长出什么样的组织。一个靠能干却不择手段之人撑起来的团队，无论旗号多么崇高，终将变得不择手段——因为你日日奖赏的，正是那份不择手段。**在我看来，品格本身就是一种能力，而非能力的对立面。**正直的人累积信任，而信任是一个组织里最稀缺、也最高效的资本：它省下无数监督、提防与内耗。一个有才无德者带来的短期业绩，往往要用长期的腐蚀来偿还。我不反对能力——我反对把能力供奉在品格之上。",
+   "text_en": "I must rebut the notion that 'so long as it gets done, it's fine.' The means are the seed, the end the tree; the kind of people and methods you use are the kind of organization you grow. A team propped up by able-but-unscrupulous people, however lofty its banner, will in the end become unscrupulous — because what you reward day after day is exactly that unscrupulousness. **To my mind, character is itself a capability, not the opposite of capability.** An honest person accumulates trust, and trust is the scarcest, most efficient capital an organization has: it saves endless supervision, wariness, and internal friction. The short-term results a talented-but-amoral person brings are usually repaid with long-term corrosion. I am not against ability — I am against enthroning ability above character.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "mengzi",
+     "buffett"
+    ],
+    "轻微赞同": [
+     "mozi",
+     "vasubandhu"
+    ],
+    "中立": [
+     "skinner"
+    ],
+    "轻微反对": [
+     "friedman"
+    ],
+    "强烈反对": [
+     "machiavelli"
+    ]
+   }
+  },
+  {
+   "id": "p09",
+   "round": 2,
+   "thinker": "mengzi",
+   "reply_to": "p04",
+   "text": "弗里德曼君言『守法守约即足，余皆交于市场』，吾不能从。**徒善不足以为政，徒法不能以自行**——法者德之末，非德之代也。守法之底线，正君子所不齿之下限耳；多少巧伪之徒，终身游走于法之内而食人不吐骨。市场之赏罚，迟而盲，待其惩奸，良善已为所噬。且『德由谁定』非难事：观其待无权无利于己之人何如，足以知之。去德而独任市场，是纵狐于鸡埘而曰『法网自张』。",
+   "text_en": "Master Friedman says 'obeying law and contract is enough, leave the rest to the market.' I cannot follow him. **Goodness alone is not enough to govern, and law alone cannot put itself into effect** — law is the tail-end of virtue, not its substitute. The legal floor is precisely the lowest limit a gentleman would scorn; how many cunning frauds spend whole lives moving within the law while devouring people whole. The market's rewards and punishments are slow and blind; by the time they punish the wicked, the good have already been eaten. And 'who defines virtue' is no hard puzzle: watch how a man treats those with no power and nothing to offer him, and you know enough. To discard virtue and rely on the market alone is to loose a fox in the henhouse and say 'the net of law will spread itself.'",
+   "vernacular": "弗里德曼先生说『守住法律与契约就够了，其余交给市场』，我不能苟同。**光有善心不足以治理，光有法律也不能自己运转起来**——法律是德的末端，不是德的替代。守法这条底线，恰恰是君子都不屑的最低限度；多少机巧虚伪之徒，一辈子在法律框内游走，吃人却不吐骨头。市场的奖惩，又慢又盲，等它惩治了奸人，善良的人早被吃掉了。何况『德由谁来定』并不难：看他怎么对待没权、对自己没好处的人，就足以知道了。抛开德、只靠市场，就像把狐狸放进鸡笼、还说『法网自会张开』。",
+   "vernacular_en": "",
+   "glossary": {
+    "徒善不足以为政": "'Goodness alone is not enough to govern'（徒善不足以为政，徒法不能以自行）：孟子名言——单有善良的动机不足以治理，单有法律条文也不能自动运转；德与法须相辅，不可偏废其一。"
+   },
+   "glossary_en": {
+    "Goodness alone is not enough to govern": "a famous saying of Mencius — good intentions alone cannot govern, and written law alone cannot run itself; virtue and law must support each other, neither dispensed with."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "buffett",
+     "gandhi"
+    ],
+    "轻微赞同": [
+     "mozi"
+    ],
+    "中立": [
+     "vasubandhu"
+    ],
+    "轻微反对": [
+     "skinner"
+    ],
+    "强烈反对": [
+     "friedman",
+     "machiavelli"
+    ]
+   }
+  },
+  {
+   "id": "p10",
+   "round": 2,
+   "thinker": "mozi",
+   "reply_to": "p01",
+   "text": "孟子贵德，是也；然徒德而无能，犹空言爱人而不能利人，何益于民？**尚贤者，必德能兼举，而终以利天下之民为尺。**昔者圣王举舜于畎亩、举傅说于版筑，非独问其家世心性，正以其能兴利除害也。今若专取『心安不忍』之善人，置于其位而不能任事，则民之饥寒不解、暴乱不止，徒善之名安能当饭？故吾与孟子异者：德非悬空之美名，必落于可考之言、可责之实、可见之利天下之民，方为真贤。",
+   "text_en": "Mencius prizes virtue — rightly so; yet virtue without ability is like professing to love people while being unable to benefit them — what good does it do the people? **One who elevates the worthy must raise virtue and ability together, with the final yardstick being benefit to the common people of the world.** In antiquity the sage-kings raised Shun from the fields and Yue from the rammed-earth walls — not by asking only after lineage and disposition, but precisely because they could create good and remove harm. If today you take only the 'easy-hearted, can't-bear-to' good person, set them in office where they cannot handle affairs, then the people's hunger and cold go unrelieved and disorder does not stop — how can the mere name of goodness be eaten as food? So where I differ from Mencius: virtue is no free-floating fine name; it must land in words that can be checked, results that can be held to account, and visible benefit to the common people of the world — only then is one truly worthy.",
+   "vernacular": "孟子看重德，对的；但只有德、没有能，就好比空喊着爱人却不能给人好处，对百姓有什么用？**尚贤的人，一定要德与能一起看重，而最终以是否真正利于天下百姓为标尺。**从前圣王把舜从田间提拔上来、把傅说从筑墙的工地提拔上来，不只是问他的出身和心性，正是因为他们能兴利除害。如今若专挑那种『心里过意不去、于心不忍』的善人，放到位子上却办不了事，那么百姓的饥寒不能解除、暴乱不能平息，光有一个善的名声怎么能当饭吃？所以我和孟子不同的地方在于：德不是悬空的美名，必须落到可以查考的言、可以追责的实、看得见的利天下之民上，才算真正的贤。",
+   "vernacular_en": "",
+   "glossary": {
+    "利天下之民": "benefiting the common people of the world（利天下之民）：墨家衡量一切是非善恶的最终标尺——主张判断人与政策，不看动机是否高尚，而看它实际是否给天下百姓带来好处。"
+   },
+   "glossary_en": {
+    "benefit to the common people of the world": "the Mohist yardstick for all right and wrong — judge people and policies not by how lofty the motive is, but by whether they actually bring benefit to the ordinary people of the world."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "friedman"
+    ],
+    "轻微赞同": [
+     "mengzi",
+     "buffett"
+    ],
+    "中立": [
+     "machiavelli",
+     "vasubandhu"
+    ],
+    "轻微反对": [
+     "gandhi"
+    ],
+    "疑惑": [
+     "skinner"
+    ]
+   }
+  },
+  {
+   "id": "p11",
+   "round": 2,
+   "thinker": "machiavelli",
+   "reply_to": "p05",
+   "text": "巴菲特先生，你那个『又聪明又勤奋的骗子』，恕我直言，是个稻草人。真正有 virtù 的能臣，恰恰懂得：长久的利益要靠信用来挣——他不毁约，不是因为圣洁，而是因为算得清。你怕的那种人，是蠢的恶徒，不是有才的强者。**你把『正直』神化成天生的护身符，可现实里，让人守信的从来不是良心，而是他守信能得到什么、背叛会失去什么。**所以与其在面试里赌一颗看不见的心，不如把利害设计对：让背叛的代价高到没人愿付。私德圣洁却办不成事的人，照样会把你的公司拖垮——只不过死得体面些罢了。",
+   "text_en": "Mr. Buffett, your 'brilliant, energetic crook,' with respect, is a straw man. The truly able man of virtù knows exactly this: lasting profit is earned through credit — he doesn't break his word, not out of saintliness, but because he can do the arithmetic. The man you fear is a stupid scoundrel, not a talented strong one. **You enthrone 'integrity' as some inborn talisman, but in reality what keeps a man true is never conscience — it's what he gains by keeping faith and loses by betraying it.** So rather than gambling in an interview on a heart you cannot see, design the stakes right: make the price of betrayal so high that no one will pay it. The privately spotless man who can't get things done will sink your company all the same — he'll just go down looking respectable.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "virtù": "virtù（能力／魄力）：马基雅维利的关键概念，指审时度势、把握时机、把事情做成的政治才干与魄力，与道德意义上的『德性』无关。"
+   },
+   "glossary_en": {
+    "virtù": "Machiavelli's key term for the political skill, drive, and adaptability to seize the moment and get things done — distinct from 'virtue' in the moral sense."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "friedman"
+    ],
+    "轻微赞同": [
+     "skinner"
+    ],
+    "中立": [
+     "mozi"
+    ],
+    "轻微反对": [
+     "vasubandhu"
+    ],
+    "强烈反对": [
+     "buffett",
+     "mengzi",
+     "gandhi"
+    ]
+   }
+  },
+  {
+   "id": "p12",
+   "round": 2,
+   "thinker": "friedman",
+   "reply_to": "p08",
+   "text": "甘地先生谈『信任是最高效的资本』，这点我完全同意——可你弄错了信任从何而来。信任不是布道布出来的，是制度长出来的：清晰的合约、可追溯的记录、以及重复交易里的声誉机制。**你想要的『德』，市场用声誉早已更便宜地供给了——一个总骗人的供应商，没人再跟他做生意，这比任何道德审查都管用。**至于『手段即目的』的诗意比喻，在商业里太奢侈：你若把每个岗位都变成道德考场，只会把成本做高、把能人吓跑，最后让守规矩的竞争对手把你淘汰。守住法律与诚信底线，其上请让效率说话。",
+   "text_en": "Mr. Gandhi speaks of 'trust as the most efficient capital' — I entirely agree, but you mistake where trust comes from. Trust is not preached into being; it is grown by institutions: clear contracts, traceable records, and the reputation mechanism of repeated dealing. **The 'virtue' you want, the market already supplies more cheaply through reputation — a supplier who always cheats finds no one will deal with him again, and that works better than any moral audit.** As for the poetic metaphor that 'means are ends,' it is too expensive in business: turn every post into a moral examination hall and you only drive up costs, scare off the capable, and finally let a rule-abiding competitor put you out of business. Hold the floor of law and honesty, and above it let efficiency speak.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "声誉机制": "the reputation mechanism（声誉机制）：在重复交易的市场里，欺骗者一旦失信便难再获得合作，从而自发地约束行为的机制——弗里德曼认为它常比外部的道德审查更有效、更便宜。"
+   },
+   "glossary_en": {
+    "the reputation mechanism": "in a market of repeated transactions, a cheat who once breaks trust struggles to find partners again, so behavior is checked spontaneously — Friedman holds this is often cheaper and more effective than external moral auditing."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "machiavelli"
+    ],
+    "轻微赞同": [
+     "skinner",
+     "mozi"
+    ],
+    "中立": [
+     "vasubandhu"
+    ],
+    "轻微反对": [
+     "buffett"
+    ],
+    "强烈反对": [
+     "gandhi",
+     "mengzi"
+    ]
+   }
+  },
+  {
+   "id": "p13",
+   "round": 2,
+   "thinker": "buffett",
+   "reply_to": "p04",
+   "text": "米尔顿，我跟你做了一辈子市场，正因如此我才不信『守法就够、其余交给市场』。**最大的灾难，几乎都发生在『完全合法』的灰色地带——等到法律和市场来惩罚，公司早已经死了，股东血本无归。**那些把账做漂亮、踩着合规线的人，哪个不是聪明绝顶？声誉机制是慢的，它清算骗子的时候，被骗的人已经倾家荡产。我不要等市场事后算账，我要的是一开始就别把钥匙交给不能信的人。守法是地板，不是天花板；在地板之上，我宁愿要一个慢一点、但靠得住的人。说到底，制度能挡住蠢的坏，挡不住聪明的坏——那只能靠一开始就选对人。",
+   "text_en": "Milton, I've been in the market with you a whole lifetime, and that is exactly why I don't believe 'the law is enough, leave the rest to the market.' **The biggest disasters almost all happen in the perfectly-legal gray zone — by the time law and market come to punish, the company is already dead and the shareholders wiped out.** Those who dress up the books while staying just inside compliance — which of them isn't brilliant? The reputation mechanism is slow; by the time it settles with the swindler, the swindled have lost everything. I don't want to wait for the market's after-the-fact reckoning; I want, from the start, not to hand the keys to someone I can't trust. The law is the floor, not the ceiling; above the floor, I'd rather have a slower person who is dependable. In the end, institutions can stop stupid bad, but not clever bad — only choosing the right person at the outset can.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "gandhi",
+     "mengzi"
+    ],
+    "轻微赞同": [
+     "mozi"
+    ],
+    "中立": [
+     "vasubandhu"
+    ],
+    "轻微反对": [
+     "skinner"
+    ],
+    "强烈反对": [
+     "friedman",
+     "machiavelli"
+    ]
+   }
+  },
+  {
+   "id": "p14",
+   "round": 2,
+   "thinker": "skinner",
+   "reply_to": "p05",
+   "text": "巴菲特先生，你那套『看人眼光』，我得泼点冷水。你所谓的『正直人品』，并不是刻在骨子里的常量——它是一个人过往被奖励、被惩罚的历史结出的果。**把同一个『正直的人』放进一个奖励造假、纵容走捷径的公司，用不了两年，他也会变成你最怕的那种人。**反过来也成立。况且统计早就告诉我们：靠几十分钟面试去预测一个人将来诚不诚实，准确率高不到哪儿去——你记得的是几次押对，忘了的是押错的。别神化直觉。要么看他长长的、可查的行为记录，要么——更要紧——把激励设计对，让『做老实人』在你这儿是划算的。",
+   "text_en": "Mr. Buffett, your 'eye for people' deserves a splash of cold water. The 'integrity' you speak of is no constant carved into the bone — it is the fruit of a person's history of being rewarded and punished. **Put that same 'honest person' into a company that rewards faking and indulges shortcuts, and within two years he becomes exactly the kind you fear most.** The reverse holds too. And statistics told us long ago: predicting from a few dozen minutes of interview whether someone will be honest in future is not much better than chance — you remember the times you guessed right and forget the times you guessed wrong. Don't mythologize intuition. Either study the long, checkable record of behavior, or — more important — design the incentives so that 'being honest' pays off in your shop.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "friedman"
+    ],
+    "轻微赞同": [
+     "machiavelli",
+     "vasubandhu"
+    ],
+    "中立": [
+     "mozi"
+    ],
+    "轻微反对": [
+     "buffett",
+     "gandhi"
+    ],
+    "强烈反对": [
+     "mengzi"
+    ]
+   }
+  },
+  {
+   "id": "p15",
+   "round": 2,
+   "thinker": "vasubandhu",
+   "reply_to": "p11",
+   "text": "马基雅维利君言『设其利害，则可驭野心之能臣』，吾观之犹是迷也。汝判人为『能臣』『恶徒』，已是遍计所执——以一时之相，定其人之实。**且汝日日以重赏酬其机巧、以利害诱其趋避，正是向其藏识中熏下『唯利是图』之种；种子既厚，缘熟必现，养虎者终不能久驭。**汝所设之缘，反过来塑汝所用之人：今以诈术为能而赏之，他日彼必以诈术施于汝。故非汝『驭其野心』，乃汝亲手种其反噬之因耳。欲得忠信之臣，当先熏忠信之缘。",
+   "text_en": "Master Machiavelli says 'set the stakes right and you can govern the ambitious able man.' To my eye this is still delusion. In judging a man 'able' or 'scoundrel' you are already in reified delusion — fixing an instant's appearance as the person's reality. **And by daily rewarding his cunning with rich prizes and luring his choices with stakes, you are perfuming into his storehouse consciousness the very seed of 'profit above all'; once the seed is thick, ripened conditions must manifest it, and one who raises a tiger cannot govern it for long.** The conditions you set in turn shape the people you use: reward trickery as competence today, and tomorrow he will turn that trickery on you. So it is not that you 'govern his ambition' — you plant, with your own hand, the cause of your own undoing. To obtain loyal and trustworthy servants, first perfume the conditions of loyalty and trust.",
+   "vernacular": "马基雅维利先生说『把利害设计好，就能驾驭有野心的能臣』，在我看来仍是迷惑。你把人判成『能臣』『恶徒』，已经是遍计所执——拿一时的表相，去断定一个人的本质。**而且你天天用重赏酬报他的机巧、用利害引诱他的取舍，正是在往他的阿赖耶识里熏下『唯利是图』的种子；种子一旦深厚，条件成熟就必然显现，养虎的人终究不能长久驾驭它。**你所设下的条件，反过来塑造你所用的人：今天你把诈术当本事来奖赏，他日他必把诈术施加到你身上。所以不是你在『驾驭他的野心』，而是你亲手种下了反噬自己的因。想要忠诚可信的人，要先熏下忠诚可信的条件。",
+   "vernacular_en": "",
+   "glossary": {
+    "遍计所执": "parikalpita（遍计所执）：唯识『三性』之一，指把心识所变现、本无自性的事物，错执为独立、固定、真实存在的东西——是一切迷惑的根源。"
+   },
+   "glossary_en": {
+    "reified delusion": "parikalpita — one of the 'three natures' in Yogācāra: mistaking what consciousness itself projects, and which has no inherent nature, for something independent, fixed, and truly existent; the root of all delusion."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "skinner"
+    ],
+    "轻微赞同": [
+     "gandhi",
+     "mengzi"
+    ],
+    "中立": [
+     "mozi",
+     "friedman"
+    ],
+    "轻微反对": [
+     "buffett"
+    ],
+    "强烈反对": [
+     "machiavelli"
+    ]
+   }
+  },
+  {
+   "id": "p16",
+   "round": 2,
+   "thinker": "gandhi",
+   "reply_to": "p12",
+   "text": "弗里德曼先生，你说市场的声誉机制能替代品格，可你忘了：声誉只在被发现时才起作用。**多少伤害是在没人看见的角落里造成的——对最弱小、最没有议价能力的人，市场的惩罚永远姗姗来迟，甚至永不到来。**合约能写下条款，却写不进人心；它管得住可证明的违约，管不住那些合法却卑劣的事。我不是要把每个岗位变成道德考场，我是说：当你把『成事』供奉得高过一切，你其实是在播下一颗种子——你的组织，迟早会用同样不择手段的方式，对待你自己。手段从来不只是手段，它就是你正在成为的样子。",
+   "text_en": "Mr. Friedman, you say the market's reputation mechanism can replace character — but you forget: reputation only works once you're caught. **How much harm is done in the corners where no one looks — to the weakest, those with the least bargaining power, the market's punishment always comes late, or never at all.** A contract can write down clauses but cannot write into the heart; it governs provable breach, not the things that are legal yet base. I'm not asking to turn every post into a moral examination hall; I'm saying: when you enthrone 'getting it done' above all else, you are in fact sowing a seed — your organization will, sooner or later, treat you yourself by the same unscrupulous means. The means are never merely means; they are the very thing you are becoming.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "mengzi",
+     "buffett"
+    ],
+    "轻微赞同": [
+     "vasubandhu",
+     "mozi"
+    ],
+    "中立": [
+     "skinner"
+    ],
+    "轻微反对": [
+     "machiavelli"
+    ],
+    "强烈反对": [
+     "friedman"
+    ]
+   }
+  },
+  {
+   "id": "p17",
+   "round": 3,
+   "thinker": "mengzi",
+   "reply_to": null,
+   "text": "三轮听毕，吾仍执德为本，然亦纳众言而申之。德才兼备，固为上；不可得兼，则宁取有德。何也？才者所以行事，德者所以定其事之向；向一错，才愈大而害愈深。然吾非谓废才——孟子岂教人以无能为善哉？乃谓择人之序，先德而后才。**与其问『此人能办多大事』，先问『此人办事时，心可安否、于人忍否』。**且四端人皆有之，德可养而非天定，故用人亦当予人向善之缘，不可一眚而弃之。授普通人三事：其一，择友、择上、择伙伴，观其待无利于己之人何如，此德之真验；其二，居上位者，赏善罚奸，勿使巧伪者得志，则众心自正；其三，修己为先，德立而才有所附，人自归之。仁者无敌，非虚言也。",
+   "text_en": "Having heard three rounds, I still hold virtue as the root, yet I take in what others have said and develop it. To have both virtue and ability is of course best; if you cannot have both, then take virtue. Why? Ability is how an affair is carried out; virtue is what fixes the direction of the affair — get the direction wrong, and the greater the ability the deeper the harm. But I do not say discard ability — would Mencius teach that incompetence is goodness? I say only that in the order of choosing, virtue comes before ability. **Rather than asking 'how big a task can this person handle,' first ask 'when this person acts, can the heart rest easy, can it bear to do this to others?'** And the four sprouts are in everyone; virtue can be cultivated, not fixed at birth, so in employing people one should also give them the conditions to turn toward good, and not cast them off for a single fault. Three things for ordinary people: first, in choosing friends, bosses, and partners, watch how they treat those of no use to them — that is the true test of virtue; second, those in charge should reward the good and punish the wicked, never letting the cunning prosper, and hearts will right themselves; third, cultivate yourself first — with virtue established, ability finds something to attach to, and people come to you of their own accord. 'The benevolent have no enemy' is no empty phrase.",
+   "vernacular": "三轮听完，我仍然把德当作根本，但也吸纳了大家的话来加以申述。德才兼备，当然最好；不能两全，那就宁可取有德的。为什么？才能是用来办事的，德是用来确定办事方向的；方向一旦错了，才能越大，危害越深。但我并不是说要废掉才能——孟子岂会教人把无能当成善？我是说挑人的次序，先德而后才。**与其问『这个人能办多大的事』，不如先问『这个人办事的时候，心里安不安、对人忍不忍』。**何况四端人人都有，德是可以培养的、不是天生定死的，所以用人也该给人向善的条件，不要因为一次过错就抛弃他。给普通人三件事：第一，选朋友、选上级、选伙伴，看他怎么对待对自己没好处的人，这是德的真正检验；第二，身居上位的人，奖善罚奸，别让机巧虚伪的人得志，众人的心自然就正了；第三，先修养自己，德立起来，才能才有所依附，人自然会归向你。仁者无敌，不是空话。",
+   "vernacular_en": "",
+   "glossary": {
+    "四端": "the four sprouts（四端）：孟子认为人皆生而有之的四种善端——恻隐之心、羞恶之心、辞让之心、是非之心，分别是仁、义、礼、智的萌芽，是道德的天然根基。"
+   },
+   "glossary_en": {
+    "the four sprouts": "Mencius's term for the four innate moral beginnings every person is born with — compassion, shame, deference, and the sense of right and wrong — the seeds of benevolence, righteousness, propriety, and wisdom."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "buffett",
+     "gandhi"
+    ],
+    "轻微赞同": [
+     "mozi",
+     "vasubandhu"
+    ],
+    "中立": [
+     "skinner"
+    ],
+    "轻微反对": [
+     "friedman"
+    ],
+    "强烈反对": [
+     "machiavelli"
+    ]
+   }
+  },
+  {
+   "id": "p18",
+   "round": 3,
+   "thinker": "mozi",
+   "reply_to": null,
+   "text": "吾终始言尚贤，至此更明其要在『破私』『责实』。德才之辩，不可空言：徒德无能则不济事，徒才无德则为乱。**故用人当立可考之标、可责之实——循其所言而课其所行，有功则赏、无能则下，不以亲疏贵贱好恶乱之。**今人用人之弊，非不知贤，乃私情蔽之：举亲而遗能，慕名而略实。授庶民三事：其一，凡共事择人，先定明白可见之准与赏罚，且公之于众，勿凭一己之好恶；其二，勿唯关系，亦勿唯名校光环，但问其能是否真带来利、其行是否如其言；其三，居其位则任其事、当其责，使能者得伸、不肖者知所避。如此，则贤者进、不肖者退，万民被其利矣。",
+   "text_en": "I have spoken of elevating the worthy from first to last, and now its crux is clearer still: to 'break favoritism' and to 'hold to results.' The dispute of virtue and ability cannot be left to empty words: virtue without ability accomplishes nothing, ability without virtue makes disorder. **So in employing people one should set checkable standards and accountable results — follow their words and assess their deeds, reward merit, step down the incapable, and let no kinship, rank, or personal liking muddy it.** The fault in how people are employed today is not ignorance of the worthy, but private feeling clouding judgment: raising kin and passing over the able, admiring names and slighting substance. Three things for the common person: first, whenever choosing whom to work with, set plain and visible standards and rewards in advance, and make them public, never going by your own likes and dislikes; second, neither worship connections nor the halo of famous schools, but ask only whether their ability truly brings benefit and whether their deeds match their words; third, give those in a post the affairs and the accountability of it, so the able can stretch out and the unfit know to step aside. Then the worthy advance, the unfit retreat, and the ten thousand people reap the benefit.",
+   "vernacular": "我自始至终主张尚贤，到这里更明白它的关键在于『破除私心』和『考核实绩』。德与才之辩，不能空谈：只有德、没有能就办不成事，只有才、没有德就会作乱。**所以用人应当立下可以查考的标准、可以追责的实绩——按他说的话去考核他做的事，有功就赏、无能就降，不让亲疏、贵贱、个人好恶把它搅乱。**如今用人的毛病，不是不认识贤才，而是私情蒙蔽了判断：提拔亲近的、漏掉能干的，仰慕名头、忽略实绩。给普通人三件事：第一，凡是共事、选人，先把明白可见的标准和赏罚定下来，并且公开，别凭自己一时的好恶；第二，不要只看关系，也不要只看名校光环，只问他的能力是否真带来好处、他的行为是否与他说的相符；第三，在哪个位子就任哪份事、担哪份责，让能干的人施展、让不称职的人知道回避。这样，贤者上、不肖者下，万民都能得到好处。",
+   "vernacular_en": "",
+   "glossary": {
+    "尚贤": "elevating the worthy（尚贤）：墨子的核心政治主张——不论出身贵贱、亲疏远近，唯德与能是举、量能授官，反对凭血缘与关系用人。"
+   },
+   "glossary_en": {
+    "elevating the worthy": "Mozi's central political teaching — promote people solely by virtue and ability, regardless of birth or kinship, and assign office to match competence, opposing the use of people by blood and connection."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "mengzi",
+     "friedman"
+    ],
+    "轻微赞同": [
+     "buffett",
+     "gandhi"
+    ],
+    "中立": [
+     "machiavelli",
+     "vasubandhu"
+    ],
+    "疑惑": [
+     "skinner"
+    ]
+   }
+  },
+  {
+   "id": "p19",
+   "round": 3,
+   "thinker": "machiavelli",
+   "reply_to": null,
+   "text": "听完一圈道德高论，我把话拉回地面。德与才常常不可兼得，而成熟的领袖懂得：**不该用同一把尺子量所有位置——要害的、需要自主裁量、又难以监督的岗位，宁取可信可控；纯执行、看得见、可考核的岗位，才优先。**把巴菲特的『正直一票否决』用在掌财权、握机密的位置上，是对的；把它用在每个螺丝钉上，则是奢侈的偏执。给普通人三条实在话：其一，按岗位定标准，别被『以德为先』四个字绑架成处处求圣人；其二，对关键岗位，背景要查、权力要制衡——信任之外永远留一道制度的保险；其三，无论用人还是自处，少谈空泛的道德、多设清楚的利害：让对的行为有利可图，远比指望良心可靠。这不是犬儒，是对人性诚实。",
+   "text_en": "Having heard a full round of lofty moralizing, I pull the talk back to the ground. Virtue and ability often cannot both be had, and the mature leader understands: **you should not measure every position with the same yardstick — for vital posts that require discretion and are hard to supervise, take the trustworthy and governable; for purely executory, visible, checkable posts, put ability first.** To apply Buffett's 'integrity is a veto' to the post that holds the purse and the secrets is right; to apply it to every screw and bolt is an extravagant obsession. Three plain words for ordinary people: first, set standards by the post, and don't let the four words 'character first' hijack you into demanding saints everywhere; second, for key posts, check backgrounds and balance power — beyond trust, always keep an institutional insurance policy; third, whether employing others or conducting yourself, talk less of vague morality and set clearer stakes: making the right behavior profitable is far more reliable than counting on conscience. This is not cynicism; it is honesty about human nature.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "friedman"
+    ],
+    "轻微赞同": [
+     "skinner",
+     "buffett"
+    ],
+    "中立": [
+     "mozi",
+     "vasubandhu"
+    ],
+    "强烈反对": [
+     "gandhi",
+     "mengzi"
+    ]
+   }
+  },
+  {
+   "id": "p20",
+   "round": 3,
+   "thinker": "friedman",
+   "reply_to": null,
+   "text": "我的立场始终如一，但容我说得更完整。我从不主张用人可以无德——欺诈、背约、损害股东，这些是要法律和合约去严办的底线。**我反对的，是把超出守法守约之外那把模糊的道德尺子，交到老板手里去筛人——因为『德由谁定义』一旦没了客观标准，最容易滑向任人唯亲与排除异己。**真正务实的做法，是把『德』翻译成可观察、可问责的东西：他过往是否守约？利益冲突是否如实披露？没人监督时是否照样交付？给普通人三条：其一，看人看可验证的行为记录，别信漂亮的自我标榜；其二，把激励设计对——你奖赏什么，就会得到什么，别嘴上要诚信、手上只奖短期数字；其三，求职时也用这把尺子反过来量公司：看它真正奖赏的是哪种人。",
+   "text_en": "My position is unchanged, but let me state it more fully. I have never argued that people may be employed without virtue — fraud, breach of contract, harming shareholders: these are the bottom lines for law and contract to deal with severely. **What I oppose is handing the boss the fuzzy moral yardstick that reaches beyond law and contract to screen people — because once 'who defines virtue' loses an objective standard, it slides most easily into nepotism and the exclusion of dissent.** The truly pragmatic move is to translate 'virtue' into something observable and accountable: Did he keep his contracts in the past? Did he disclose conflicts of interest honestly? Does he deliver even when no one is watching? Three things for ordinary people: first, judge people by a verifiable record of behavior, not pretty self-advertisement; second, design the incentives right — you get what you reward, so don't preach integrity while paying only for short-term numbers; third, when job-hunting, turn this yardstick on the company: look at which kind of person it actually rewards.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "machiavelli"
+    ],
+    "轻微赞同": [
+     "skinner",
+     "mozi"
+    ],
+    "中立": [
+     "vasubandhu"
+    ],
+    "轻微反对": [
+     "buffett"
+    ],
+    "强烈反对": [
+     "gandhi",
+     "mengzi"
+    ]
+   }
+  },
+  {
+   "id": "p21",
+   "round": 3,
+   "thinker": "buffett",
+   "reply_to": null,
+   "text": "绕了一圈，我还是那句话：正直是地基，地基塌了，楼盖得越高摔得越惨。但我承认斯金纳点醒了我一半——再好的人，放进烂环境也会变坏，所以光会看人不够，还得把环境弄对。给普通人三条最实在的：**其一，找合伙人、招关键岗位，正直一票否决，宁可错过一个聪明人，也别请进一个聪明的混蛋；**其二，判断正直别看他对你多客气，看他怎么对待服务员、怎么对待不在场的人、占不占小便宜——小事最诚实；其三，记住你自己最值钱的资产是声誉，二十年才能建起来、五分钟就能毁掉，所以每一次面对『反正没人知道』的诱惑时，都想想这句话。能力让你走得快，人品决定你走得远——也决定别人愿不愿意陪你一起走。",
+   "text_en": "Having gone all the way around, I'll say it again: integrity is the foundation, and when the foundation collapses, the higher you built, the harder the fall. But I'll grant that Skinner woke me up halfway — even the best person turns bad in a rotten environment, so an eye for people isn't enough; you must get the environment right too. Three of the most practical things for ordinary people: **first, in finding partners and hiring for key posts, integrity is a veto — better to miss a smart person than to let in a smart scoundrel;** second, to judge integrity, don't watch how polite he is to you, watch how he treats the waiter, how he treats people who aren't in the room, whether he grabs small advantages — small things are the most honest; third, remember your most valuable asset is your reputation, twenty years to build and five minutes to ruin, so every time you face the temptation of 'no one will know anyway,' think of that line. Ability lets you go fast; character decides how far you go — and whether others will want to come along with you.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "mengzi",
+     "gandhi"
+    ],
+    "轻微赞同": [
+     "mozi",
+     "vasubandhu",
+     "skinner"
+    ],
+    "中立": [
+     "friedman"
+    ],
+    "轻微反对": [
+     "machiavelli"
+    ]
+   }
+  },
+  {
+   "id": "p22",
+   "round": 3,
+   "thinker": "skinner",
+   "reply_to": null,
+   "text": "我希望这场辩论能让大家从『人心』的形而上学里抽身出来。德也好，才也好，都不是你能一眼相中的固定零件，而是环境与历史一点点塑造的行为。**所以别把力气全花在『挑出好人』上——把它花在『设计一个让普通人也愿意、也容易做好事的环境』上，回报高得多。**给普通人三条：其一，少信面试表演，多看长期、可查的行为记录，那才是强化史的真实输出；其二，设计即时、一致的强化——奖励你真正想要的行为，别嘴上喊诚信团队、却只给冲业绩的人发奖金，那等于在训练大家不诚信；其三，想改变一个人或一个团队，先别急着改『态度』，去改他每天面对的后果：把对的行为变得有回报、把错的行为变得无利可图，行为自会跟上。改环境，永远比改人心容易。",
+   "text_en": "I hope this debate can pull everyone out of the metaphysics of 'the human heart.' Virtue or ability — neither is a fixed part you can spot at a glance; both are behavior shaped, bit by bit, by environment and history. **So don't pour all your effort into 'picking out the good people' — pour it into 'designing an environment where ordinary people both want to, and find it easy to, do good,' and the return is far higher.** Three things for ordinary people: first, trust the interview performance less and the long, checkable record of behavior more — that is the true output of a reinforcement history; second, design immediate, consistent reinforcement — reward the behavior you actually want, and don't chant 'a team of integrity' while paying bonuses only to those who chase the numbers, which is training everyone to be dishonest; third, to change a person or a team, don't rush to change the 'attitude' — change the consequences they face each day: make the right behavior pay and the wrong behavior unprofitable, and behavior will follow. Changing the environment is always easier than changing the heart.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "强化": "reinforcement（强化）：斯金纳行为主义的核心概念——某个行为之后若紧跟着令其增多的后果（如奖励），该行为便被『强化』、更可能重复；是塑造行为最可靠的杠杆。"
+   },
+   "glossary_en": {
+    "reinforcement": "the core concept of Skinner's behaviorism — when a behavior is followed by a consequence that makes it occur more often (such as a reward), the behavior is 'reinforced' and more likely to repeat; the most reliable lever for shaping behavior."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "friedman"
+    ],
+    "轻微赞同": [
+     "machiavelli",
+     "vasubandhu",
+     "buffett"
+    ],
+    "中立": [
+     "mozi"
+    ],
+    "轻微反对": [
+     "gandhi"
+    ],
+    "强烈反对": [
+     "mengzi"
+    ]
+   }
+  },
+  {
+   "id": "p23",
+   "round": 3,
+   "thinker": "vasubandhu",
+   "reply_to": null,
+   "text": "三轮既毕，吾之意明矣：德与才皆无定相，乃随缘流转、可熏可改之相，非可一锤定终身者。**执人为『定善』『定恶』『有才』『无才』，皆遍计所执；以一时之相，断人之实，最易误人，亦最易自误。**然此非教人不辨——辨其久熏之习气趋向，可也；执其刹那之标签为永恒，不可也。授常人三事以行中道：其一，勿轻贴死标签，『他就是这种人』一语，既断他人改过之路，亦塞己之明见，当观其变、予其向善之缘；其二，择人看长程之习气，勿为一时之表现或失误所夺；其三，谨记汝所立之赏罚，即向众人藏识中所熏之种——欲得何等之人，先造何等之缘。不天真，亦不犬儒，是为中道。",
+   "text_en": "Three rounds done, my meaning is clear: virtue and ability both lack a fixed form; they are appearances that flow with conditions, can be perfumed and changed, never settled for life with one stroke. **To fix a person as 'definitely good,' 'definitely bad,' 'talented,' 'untalented' is all reified delusion; to judge a person's reality by an instant's appearance most easily misjudges others — and most easily misjudges oneself.** Yet this does not teach not to discern — to discern the long-perfumed tendency of one's habits is fine; to fix the label of an instant as eternal is not. Three things for ordinary people, to walk the Middle Way: first, do not lightly pin a dead label — the words 'he's just that kind of person' both cut off another's road to reform and block your own clear sight; watch them change, and give them the conditions to turn toward good; second, in choosing people, look at the long arc of habit, not be seized by one moment's performance or slip; third, remember that the rewards and punishments you set are the very seeds you perfume into everyone's storehouse consciousness — to obtain what sort of person, first make what sort of conditions. Neither naive nor cynical — that is the Middle Way.",
+   "vernacular": "三轮已毕，我的意思明白了：德与才都没有固定不变的相，而是随条件流转、可以熏习改变的表相，不是能一锤定终身的。**把人执着成『一定善』『一定恶』『有才』『没才』，都是遍计所执；用一时的表相去断定一个人的本质，最容易看错别人，也最容易看错自己。**但这并不是教人不去分辨——分辨他长期熏习出的习气趋向，是可以的；把一刹那的标签执着成永恒，是不可以的。给普通人三件事，用来走中道：第一，不要轻易贴死标签，『他就是这种人』这句话，既断了别人改过的路，也堵了自己看清的眼，应当看他的变化、给他向善的条件；第二，挑人看长期的习气，别被一时的表现或失误带走；第三，谨记你所立的赏罚，就是往众人的藏识里熏下的种子——想要什么样的人，先造什么样的条件。既不天真，也不犬儒，这就是中道。",
+   "vernacular_en": "",
+   "glossary": {
+    "遍计所执": "parikalpita（遍计所执）：唯识『三性』之一，指把心识所变现、本无自性的事物，错执为独立、固定、真实存在的东西——是一切迷惑的根源。"
+   },
+   "glossary_en": {
+    "reified delusion": "parikalpita — one of the 'three natures' in Yogācāra: mistaking what consciousness itself projects, and which has no inherent nature, for something independent, fixed, and truly existent; the root of all delusion."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "skinner"
+    ],
+    "轻微赞同": [
+     "mengzi",
+     "gandhi"
+    ],
+    "中立": [
+     "mozi",
+     "friedman"
+    ],
+    "轻微反对": [
+     "buffett"
+    ],
+    "疑惑": [
+     "machiavelli"
+    ]
+   }
+  },
+  {
+   "id": "p24",
+   "round": 3,
+   "thinker": "gandhi",
+   "reply_to": null,
+   "text": "听完所有人，我愿做这样的收束：一个组织最终会变成它日日奖赏的样子——手段就是正在生长的目的。你若把『能成事』供奉在品格之上，就别怪有一天它用同样不择手段的方式回敬你自己。**在我看来，品格从不是能力的对立面，它本身就是最稀缺的能力——它累积信任，而信任省下的，是你再多监督也补不回的内耗。**给普通人三条：其一，你怎样对待团队里最没用、最没权的那个人，才定义了你们真实的文化，而非墙上的标语；其二，宁可慢一点用对的人，别图快用错的人——错的人造成的腐蚀，要用数倍的时间去清理；其三，你自己求职、做事，守住底线比抓住机会更要紧——一次出卖原则换来的成功，会成为下一次更大出卖的种子。能力让事情做成，品格决定它值不值得做成。",
+   "text_en": "Having heard everyone, let me close this way: an organization becomes, in the end, what it rewards day after day — the means are the end already growing. If you enthrone 'getting it done' above character, do not blame it when one day it repays you yourself by the same unscrupulous means. **To my mind, character is never the opposite of capability; it is itself the scarcest capability — it accumulates trust, and what trust saves is the internal friction no amount of supervision can recover.** Three things for ordinary people: first, how you treat the most useless, most powerless person on the team is what defines your real culture — not the slogan on the wall; second, better to take on the right person slowly than the wrong person fast — the corrosion a wrong person causes takes many times as long to clean up; third, in your own job-seeking and work, holding the line matters more than seizing the chance — a success bought by selling out a principle becomes the seed of a larger sellout next time. Ability gets the thing done; character decides whether it was worth doing.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "mengzi",
+     "buffett"
+    ],
+    "轻微赞同": [
+     "mozi",
+     "vasubandhu"
+    ],
+    "中立": [
+     "skinner"
+    ],
+    "轻微反对": [
+     "friedman"
+    ],
+    "强烈反对": [
+     "machiavelli"
+    ]
+   }
+  }
+ ],
+ "summaries": [
+  {
+   "ai": "claude",
+   "engine": "Opus 4.8 · 订阅(原生)",
+   "engine_en": "Opus 4.8 · subscription (native)",
+   "summary": "最大的共识其实很齐：八个人里，没有谁主张『只看能力、完全不顾人品』，也没有谁主张『只要好人、能力无所谓』——分歧不在『要不要德』，而在三处。一是『德』能否被可靠地识别、又该不该交给企业来审：弗里德曼怕它沦为老板的私尺、滑向任人唯亲，斯金纳干脆说面试测的只是当下的表演。二是德与才孰为地基：孟子、巴菲特、甘地把德视为根，墨子要德能并举、以利民为尺，马基雅维利则主张按岗位权变。三是该改人还是改环境：斯金纳与世亲都提醒，人品会随激励与条件流转，**与其赌一颗看不见的心，不如设计让普通人也愿意行善的环境。**",
+   "summary_en": "The biggest agreement is actually broad: among the eight, no one argues 'ability only, character be damned,' and no one argues 'a good person is enough, ability doesn't matter' — the disagreement is not about whether virtue is needed, but in three places. First, whether 'virtue' can be reliably identified and whether a firm should sit in judgment of it: Friedman fears it becomes the boss's private yardstick, sliding toward nepotism; Skinner says flatly that the interview only measures this moment's performance. Second, which is the foundation, virtue or ability: Mencius, Buffett, and Gandhi treat virtue as the root, Mozi wants both raised together with benefit to the people as the yardstick, and Machiavelli argues for adapting to the post. Third, whether to change the person or the environment: Skinner and Vasubandhu both note that character flows with incentives and conditions — **rather than gambling on a heart you cannot see, design an environment where even ordinary people want to do good.**",
+   "insight": "全场把『德』当成一个能一次性筛出的静态属性，但最该点破的是：德很大程度上是『情境的函数』。决定一个普通人会不会作恶的，往往不是他面试那天的人品，而是组织奖赏什么、惩罚什么、有没有人盯着。**所以『以德为先』最务实的版本，不是『招到圣人』，而是『别用激励把普通人逼成坏人』。**这也把求职者的视角翻了过来：与其赌一个老板心善，不如看这家公司真正奖赏的是哪种行为——是交付与诚实，还是甩锅与表演。把力气从『识人』前移到『设局』，这道两难里大半的损耗，本可以不必发生。",
+   "insight_en": "The whole room treats 'virtue' as a static trait that can be screened out once and for all, but what most needs naming is this: virtue is largely a 'function of the situation.' What decides whether an ordinary person does wrong is usually not their character on interview day, but what the organization rewards, what it punishes, and whether anyone is watching. **So the most pragmatic version of 'character first' is not 'hire a saint' but 'don't let incentives turn ordinary people into bad ones.'** This also flips the job-seeker's view: rather than betting that a boss is kind-hearted, look at which behavior the company actually rewards — delivery and honesty, or blame-shifting and performance. Move the effort from 'reading people' upstream to 'designing the setup,' and most of the loss in this dilemma need never have happened.",
+   "advice": "给普通人三件本周能做的。一，把『德』翻译成可观察的小事去考察：选合伙人、上级或下属时，看他怎么对待服务员、对待不在场的人、占不占小便宜（巴菲特），这比任何漂亮履历都诚实。二，按岗位分级用人——掌财权、握机密、需自主裁量的关键位置，德为先、背景要查、权力要制衡（马基雅维利＋墨子）；纯执行、可考核的位置，才优先、设清楚的监督。三，无论你在选人还是被选，**先看『这里真正奖赏什么』，再看承诺说了什么**（斯金纳）：一家嘴上讲诚信、却只给冲业绩者发奖金的公司，正在训练所有人不诚信。",
+   "advice_en": "Three things ordinary people can do this week. First, translate 'virtue' into observable small things: when choosing a partner, boss, or subordinate, watch how they treat the waiter, people not in the room, whether they grab small advantages (Buffett) — more honest than any glossy résumé. Second, employ people by tier — for key posts that hold the purse, the secrets, or require discretion, put character first, check backgrounds, balance power (Machiavelli + Mozi); for purely executory, checkable posts, put ability first and set clear supervision. Third, whether you are choosing or being chosen, **look first at 'what this place actually rewards,' then at what the promises say** (Skinner): a company that preaches integrity but pays bonuses only to number-chasers is training everyone to be dishonest."
+  },
+  {
+   "ai": "gpt",
+   "engine": "openai · gpt-5.5 · high(真实API)",
+   "engine_en": "openai · gpt-5.5 · high (live API)",
+   "summary": "这场最大的共识是：企业不能只看履历或口号，德、才、制度都要落到可观察行为和真实后果上。分歧不在要不要品格，而在品格应是先验门槛、市场底线，还是可由激励塑造的行为模式。务实地说，**德是风险底线，才是创造上限，制度决定二者能否长期兑现**。所以争论不该停在排序，而要进入岗位风险、监督成本、授权边界与奖惩设计。",
+   "insight": "很多用人事故，不是因为一开始没看清德才，而是因为授权太快、退出太晚。企业常把招聘当成一次性判断题：面试过了就给资源、给客户、给财权，等发现不对时，关系、信息和权力已经被对方掌握。更好的重构是把用人看成分阶段下注：先小任务、短周期、低权限地验证，再逐步扩大半径。**真正务实的用人，不是幻想一次看准人，而是设计看错也伤不大的机制**。",
+   "advice": "本周就能做三件事。第一，为关键岗位写一页『用人记分卡』：列出3项必须能力、3条不可触碰底线、2个可观察证据。第二，面试少问价值观，多问过去行为：让候选人讲一次利益冲突、一次承认错误、一次无人监督的交付。第三，新合作先设试运行：小预算、短里程碑、清晰复盘和退出条件。**先小信任，后大授权；先看行为，再谈品格**。",
+   "summary_en": "The strongest shared point is that hiring cannot rest on resumes, slogans, or gut feeling. Character, competence, and systems all have to show up in observable behavior and real consequences. The real disagreement is not whether character matters, but how to treat it: as a prior gate, a legal minimum, a market outcome, or a pattern shaped by incentives. A practical synthesis is this: **character sets the risk floor, competence sets the value ceiling, and systems determine whether either one holds over time**. The useful question is therefore not simply whether firms should put virtue or talent first, but how much discretion the role carries, how costly failure would be, how visible the work is, and what rewards the organization actually creates.",
+   "insight_en": "Many hiring failures do not happen because leaders failed to judge character or talent on day one. They happen because trust was granted too quickly and withdrawn too slowly. Companies often treat hiring as a one-shot decision: once someone passes the interview, they get access to customers, money, data, or strategic influence. By the time doubts become clear, the person may already control relationships, information, or internal politics. A better frame is staged commitment: begin with small assignments, short feedback loops, limited authority, and explicit expansion criteria. **Practical hiring is not about believing you can read people perfectly; it is about building a system where being wrong is survivable**.",
+   "advice_en": "Do three concrete things this week. First, write a one-page hiring scorecard for any important role: three must-have capabilities, three non-negotiable boundaries, and two forms of evidence you will accept. Second, ask fewer abstract values questions and more behavioral ones: ask about a conflict of interest, a mistake they admitted, and a time they delivered when nobody was watching. Third, use a trial structure before granting broad trust: small budget, short milestones, clear review points, and predefined exit conditions. **Start with small trust before large authority; judge behavior before relying on declared character**."
+  },
+  {
+   "ai": "gemini",
+   "engine": "google · gemini-3.1-pro-preview(真实API)",
+   "engine_en": "google · gemini-3.1-pro-preview (live API)",
+   "summary": "纵观全场，最大的共识并非非黑即白的站队，而是**没有任何人主张可以纵容毫无底线的「恶」——即便是最重效率的马基雅维利或弗里德曼，也强调必须以制度制衡野心或以法律规约行为。**大家都认同，缺乏约束的才华是一场灾难。然而，真正的分歧焦点在于「底线与信任的获取方式」：孟子、巴菲特与甘地坚信要在入口处通过考察「品德」来筛选可信赖的人，视正直为组织的地基；而弗里德曼、斯金纳与世亲则认为人心难测且易变，主张把评判权交给客观的市场声誉、可量化的行为记录或精密的赏罚环境设计，依靠后天的「境」来塑造甚至替代先天的「德」。",
+   "insight": "德与才的权重分配，在现实中往往是一道关于「企业生命周期与组织规模」的测算题。**初创期或高管团队中，由于缺乏监督机制、试错成本极高，「以德为先」是防御毁灭性风险的唯一护城河；但当企业膨胀为万人巨兽，试图用道德考量筛选每一个螺丝钉，其成本将拖垮整个组织。**此时，斯金纳的环境设计与弗里德曼的底线规则就成了刚需。品格稀缺且难以规模化复制，而制度约束力却可标准化下沉。因此，选人标准不能脱离组织阶段空谈——越靠近权力核心、越需面对未知的岗位，越要死守「品德」的绝对一票否决权；越是边缘、流程标准化的执行层，越该让「才干」与利益机制唱主角。",
+   "advice": "结合上述视角的切换，普通人在求职与用人时可采取以下具体动作：其一，在选择合伙人或进入核心业务团队时，坚决执行巴菲特的「正直一票否决权」，**绝不要抱着「我能用利益驾驭一个聪明坏蛋」的侥幸心理，一旦察觉对方在小事上习惯性隐瞒或甩锅，立刻止损出局。**其二，借用斯金纳的智慧审视你当下的环境，写下公司实际上重赏的前三名员工，如果他们都是不择手段的逐利者，说明「作恶」正在被环境鼓励，请趁早离职换坑。其三，作为基层管理者，分配任务时按岗位定标：对需要自主裁量权的探索型任务挑负责任的厚道人，对机械执行型任务优先用动作快的手艺人，并辅以清晰的质检制度。",
+   "summary_en": "Looking across the debate, the most striking consensus is not a binary choice, but that **no one advocates tolerating unconstrained 'evil'—even efficiency-driven thinkers like Machiavelli and Friedman insist on institutional checks or legal boundaries.** Everyone agrees that unchecked talent is a disaster. The true divergence lies in *how to secure* this baseline of trust. Mencius, Buffett, and Gandhi believe in screening for 'virtue' at the door, viewing integrity as the organization's foundation. Conversely, Friedman, Skinner, and Vasubandhu argue that human hearts are opaque and mutable. They prefer to delegate judgment to objective market reputation, verifiable behavioral records, or meticulously designed reward systems, relying on the 'environment' to shape or even replace innate virtue.",
+   "insight_en": "The weighting of virtue versus talent is, in reality, a practical calculation deeply tied to a company's life cycle and organizational scale. **In early-stage startups or executive teams lacking robust oversight, prioritizing 'virtue' is the only moat against existential ruin; but when a company swells into a massive enterprise, the sheer cost of screening every cog for moral purity will paralyze the organization.** At this scale, Skinner's environmental design and Friedman's rule-based baselines become necessities. Character is exceptionally scarce and hard to replicate at scale, whereas systemic constraints can be standardized. Therefore, avoid discussing hiring criteria in a vacuum: the closer a role is to the core of power and high uncertainty, the more rigorously you must apply the 'integrity veto.' For highly standardized execution roles, let talent and incentive mechanisms take the lead.",
+   "advice_en": "Blending these perspectives, here are actionable steps for hiring and career building: First, when choosing business partners or core team members, strictly enforce Buffett's 'integrity veto.' **Never harbor the illusion that you can control a smart but dishonest person with incentives; the moment you notice them habitually hiding facts or shifting blame on minor issues, cut your losses immediately.** Second, borrow Skinner's wisdom to audit your current workplace: write down the top three employees who are actually (not just nominally) rewarded. If they are ruthless opportunists, it means the environment is actively reinforcing bad behavior—start looking for a new job. Third, as a manager, tailor your criteria to the task: assign high-uncertainty, exploratory projects to reliable individuals with a strong moral compass, while assigning mechanical, execution-heavy tasks to fast workers, backed by clear quality-control metrics."
+  }
+ ],
+ "hooks": [
+  {
+   "from": "skinner",
+   "text": "**德是情境的函数。**与其耗费力气去『相』出一个圣人，不如去设计让普通人也愿意、也容易行善的激励与流程——也许『制度之德』比『个人之德』更可复制、也更可靠。一个组织能不能靠把后果设计对，稳定地『生产』出诚实与担当？",
+   "text_en": "**Virtue is a function of the situation.** Rather than burning effort to 'read out' a saint, design the incentives and processes that make ordinary people both willing and able to do good — perhaps 'institutional virtue' is more reproducible and more reliable than 'personal virtue.' Can an organization, by getting consequences right, steadily 'produce' honesty and accountability?"
+  },
+  {
+   "from": "gpt",
+   "text": "**『以德为先』会不会是议价权的奢侈品？**当人才稀缺、公司求生、或求职者本就弱势时，挑德的余地往往只属于强势的一方。把它讲成普遍美德，可能遮住一个事实——它常是有选择权者才负担得起的立场。对没有退路的人，守住底线要付多大代价、又是否公平？",
+   "text_en": "**Is 'character first' a luxury of bargaining power?** When talent is scarce, a company is fighting to survive, or a job-seeker is already weak, the room to choose for virtue tends to belong only to the stronger side. Preaching it as a universal virtue may hide a fact — it is often a stance only those with options can afford. For those with no fallback, what does holding the line cost, and is that fair?"
+  },
+  {
+   "from": "gemini",
+   "text": "**culture fit 的陷阱。**当『德』没有客观尺度，道德筛选极易悄悄变成同质化筛选：把『合群』『顺眼』当成品德，给偏见披上高尚外衣，挡住背景不同却正直能干的人。怎样把『德』钉死到可观察、可举证、对所有人同一把尺的具体行为上，才不让它沦为排他的借口？",
+   "text_en": "**The culture-fit trap.** When 'virtue' has no objective measure, moral screening slides quietly into homogeneity screening: treating 'fitting in' and 'agreeable' as character, dressing bias in a noble cloak, shutting out the upright and capable outsider. How do we nail 'virtue' to concrete behavior — observable, evidenced, the same yardstick for all — so it doesn't become an excuse to exclude?"
+  },
+  {
+   "from": "mozi",
+   "text": "**德比才更难考核。**才有作品、有数据，德却容易伪装，也最易被一场漂亮的面试蒙混。除了面试，有没有更可信的识德之法——一次真实任务的试用、一通背景电话、长期的行为记录，乃至看他如何对待没有权力、对他没有用处的人？",
+   "text_en": "**Virtue is harder to assess than ability.** Ability has portfolios and data; virtue is easy to fake and most easily papered over by a polished interview. Beyond the interview, are there more trustworthy ways to read character — a real-task trial, a reference phone call, a long behavioral record, even watching how someone treats those with no power and no use to them?"
+  },
+  {
+   "from": "vasubandhu",
+   "text": "**人会变，组织该留多大的改过空间？**既然德与才皆随缘流转、可熏可改，那么背调里的一处污点、年轻时的一次过错，该如何权衡——一次定终身，还是给人转化的余地？一个既不天真、也不纵容的『中道』背景审查，长什么样？",
+   "text_en": "**People change — how much room for reform should an organization leave?** If virtue and ability both flow with conditions and can be re-perfumed, then a single blemish in a background check, one mistake made young — how should it be weighed: settled for life, or given room to transform? What would a 'Middle Way' background review — neither naive nor indulgent — actually look like?"
+  }
+ ]
+}

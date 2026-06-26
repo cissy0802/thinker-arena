@@ -4,210 +4,715 @@
   "question_en": "Your partner wants to be a 'salted fish' — no ambition, content to coast. Should you accept it, or push them?",
   "createdAt": "2026-06-26",
   "rounds": 3,
-  "participants": ["zhuangzi", "nietzsche", "fromm", "dostoevsky", "mengzi", "dweck", "sapolsky", "buddha"],
+  "participants": [
+    "zhuangzi",
+    "nietzsche",
+    "fromm",
+    "dostoevsky",
+    "mengzi",
+    "dweck",
+    "sapolsky",
+    "buddha"
+  ],
   "casting": [
-    {"id": "zhuangzi", "reason": "道家『无用之用/逍遥』：咸鱼正是得其天年之乐，强加上进即削足适履", "reason_en": "Daoist 'usefulness of the useless' / free wandering: the salted fish enjoys his natural span; forcing ambition is cutting the foot to fit the shoe"},
-    {"id": "nietzsche", "reason": "『末人』之忧 vs 自我超越：甘于平庸危险，但超越只能自己点燃、逼不出来", "reason_en": "The 'last man' vs self-overcoming: settling for mediocrity is dangerous, but overcoming can only be lit from within, never whipped out"},
-    {"id": "fromm", "reason": "《爱的艺术》：成熟的爱是滋养而非占有——本题最核心的拷问", "reason_en": "The Art of Loving: mature love nourishes rather than possesses — the very crux of this question"},
-    {"id": "dostoevsky", "reason": "地下室人：人保留按自己意志活、拒绝被『为你好』优化的尊严", "reason_en": "The underground man: people keep the dignity of living by their own will and refusing to be 'improved for their own good'"},
-    {"id": "mengzi", "reason": "性善/四端：那点向上的火只是被压住、可被唤醒，鞭策应是『求其放心』", "reason_en": "Innate goodness / the four sprouts: the upward spark is only pressed down and can be awakened; spurring should mean 'seeking the lost heart'"},
-    {"id": "dweck", "reason": "成长型思维/内在动机：能否、以及如何点燃『我还能变』的信念", "reason_en": "Growth mindset / intrinsic motivation: whether and how to kindle the belief 'I can still change'"},
-    {"id": "sapolsky", "reason": "神经生物学：『没动力』多少是多巴胺基线与慢性压力，而非道德上的懒", "reason_en": "Neurobiology: 'no drive' is partly dopamine baseline and chronic stress, not moral laziness"},
-    {"id": "buddha", "reason": "中道：分清少欲知足与懈怠逃避，慈悲是如实照见而非塑造", "reason_en": "The Middle Way: tell apart contentment from indolent avoidance; compassion is seeing as-is, not molding"}
+    {
+      "id": "zhuangzi",
+      "reason": "道家『无用之用/逍遥』：咸鱼正是得其天年之乐，强加上进即削足适履",
+      "reason_en": "Daoist 'usefulness of the useless' / free wandering: the salted fish enjoys his natural span; forcing ambition is cutting the foot to fit the shoe"
+    },
+    {
+      "id": "nietzsche",
+      "reason": "『末人』之忧 vs 自我超越：甘于平庸危险，但超越只能自己点燃、逼不出来",
+      "reason_en": "The 'last man' vs self-overcoming: settling for mediocrity is dangerous, but overcoming can only be lit from within, never whipped out"
+    },
+    {
+      "id": "fromm",
+      "reason": "《爱的艺术》：成熟的爱是滋养而非占有——本题最核心的拷问",
+      "reason_en": "The Art of Loving: mature love nourishes rather than possesses — the very crux of this question"
+    },
+    {
+      "id": "dostoevsky",
+      "reason": "地下室人：人保留按自己意志活、拒绝被『为你好』优化的尊严",
+      "reason_en": "The underground man: people keep the dignity of living by their own will and refusing to be 'improved for their own good'"
+    },
+    {
+      "id": "mengzi",
+      "reason": "性善/四端：那点向上的火只是被压住、可被唤醒，鞭策应是『求其放心』",
+      "reason_en": "Innate goodness / the four sprouts: the upward spark is only pressed down and can be awakened; spurring should mean 'seeking the lost heart'"
+    },
+    {
+      "id": "dweck",
+      "reason": "成长型思维/内在动机：能否、以及如何点燃『我还能变』的信念",
+      "reason_en": "Growth mindset / intrinsic motivation: whether and how to kindle the belief 'I can still change'"
+    },
+    {
+      "id": "sapolsky",
+      "reason": "神经生物学：『没动力』多少是多巴胺基线与慢性压力，而非道德上的懒",
+      "reason_en": "Neurobiology: 'no drive' is partly dopamine baseline and chronic stress, not moral laziness"
+    },
+    {
+      "id": "buddha",
+      "reason": "中道：分清少欲知足与懈怠逃避，慈悲是如实照见而非塑造",
+      "reason_en": "The Middle Way: tell apart contentment from indolent avoidance; compassion is seeing as-is, not molding"
+    }
   ],
   "posts": [
     {
-      "id": "p01", "round": 1, "thinker": "zhuangzi", "reply_to": null,
+      "id": "p01",
+      "round": 1,
+      "thinker": "zhuangzi",
+      "reply_to": null,
       "text": "「咸鱼」者，正『无用之用』耳。樗木臃肿不中绳墨，匠者弃之，反得不夭斧斤、终其天年。**尔以『上进』为尺，强裁他人之性，是削足适履也。** 彼食足眠安、心无戚戚，逍遥于濠上，何须尔之鞭？",
       "text_en": "A 'salted fish' is precisely the 'usefulness of the useless.' The ailanthus tree, gnarled and failing the carpenter's line, is cast aside — and so escapes the axe and lives out its years. **When you make 'ambition' your measuring stick and force-trim another's nature to fit, you are cutting the foot to fit the shoe.** If he eats his fill, sleeps in peace, carries no grief, free as a fish by the river — why does he need your whip?",
       "vernacular": "所谓『咸鱼』，恰恰是『无用之用』。那棵樗树长得臃肿、不合木匠的墨线，匠人嫌弃它，它反倒因此免遭斧砍、活满天年。**你拿『上进』当尺子，硬要裁剪别人的天性，这是削足适履。** 他吃得饱、睡得安、心里没有忧戚，自在得像濠水边的鱼，何必要你来鞭策？",
       "vernacular_en": "",
-      "glossary": {"无用之用": "the usefulness of the useless（无用之用）：出自《庄子》，看似『无用』之物因不被功利征用，反而得以保全自身、成就另一种大用。"},
-      "glossary_en": {"usefulness of the useless": "from the Zhuangzi: what seems 'useless,' precisely because it is not conscripted for utility, preserves itself and achieves another kind of great use."},
-      "reactions": {"强烈赞同": ["dostoevsky"], "轻微赞同": ["buddha"], "轻微反对": ["mengzi"], "强烈反对": ["nietzsche"], "疑惑": ["dweck"]}
+      "glossary": {
+        "无用之用": "the usefulness of the useless（无用之用）：出自《庄子》，看似『无用』之物因不被功利征用，反而得以保全自身、成就另一种大用。"
+      },
+      "glossary_en": {
+        "usefulness of the useless": "from the Zhuangzi: what seems 'useless,' precisely because it is not conscripted for utility, preserves itself and achieves another kind of great use."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "dostoevsky"
+        ],
+        "轻微赞同": [
+          "buddha"
+        ],
+        "轻微反对": [
+          "mengzi"
+        ],
+        "强烈反对": [
+          "nietzsche"
+        ],
+        "疑惑": [
+          "dweck"
+        ]
+      }
     },
     {
-      "id": "p02", "round": 1, "thinker": "nietzsche", "reply_to": null,
+      "id": "p02",
+      "round": 1,
+      "thinker": "nietzsche",
+      "reply_to": null,
       "text": "我恐惧的不是懒散，是『末人』——那眨着眼睛说『我们发明了幸福』、再无任何渴望的人。甘于做咸鱼，是生命力对自己的背叛。**可丑话说在前头：真正的自我超越，从来无法被外人鞭策出来，只能自己点燃。** 你越抽，他越缩。",
       "text_en": "What I fear is not laziness but the 'last man' — the one who blinks and says 'we have invented happiness,' with no longing left. To settle for being a salted fish is life betraying itself. **But let me say the hard part first: real self-overcoming can never be whipped out of someone by another; it can only be lit from within.** The more you lash, the more he shrinks.",
       "vernacular": null,
-      "glossary": {"末人": "der letzte Mensch（末人）：尼采《查拉图斯特拉如是说》中的形象——追求安逸、再无远大渴望、自满于小确幸的人，是他视为人类堕落终点的典型。"},
-      "glossary_en": {"last man": "der letzte Mensch, from Nietzsche's Thus Spoke Zarathustra: one who seeks only comfort, has no great longing left, and is smugly content with small pleasures — his image of the endpoint of human decline."},
-      "reactions": {"强烈赞同": ["mengzi"], "轻微赞同": ["fromm", "dweck"], "强烈反对": ["zhuangzi"], "疑惑": ["buddha"]}
+      "glossary": {
+        "末人": "der letzte Mensch（末人）：尼采《查拉图斯特拉如是说》中的形象——追求安逸、再无远大渴望、自满于小确幸的人，是他视为人类堕落终点的典型。"
+      },
+      "glossary_en": {
+        "last man": "der letzte Mensch, from Nietzsche's Thus Spoke Zarathustra: one who seeks only comfort, has no great longing left, and is smugly content with small pleasures — his image of the endpoint of human decline."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "mengzi"
+        ],
+        "轻微赞同": [
+          "fromm",
+          "dweck"
+        ],
+        "强烈反对": [
+          "zhuangzi"
+        ],
+        "疑惑": [
+          "buddha"
+        ]
+      }
     },
     {
-      "id": "p03", "round": 1, "thinker": "fromm", "reply_to": null,
+      "id": "p03",
+      "round": 1,
+      "thinker": "fromm",
+      "reply_to": null,
       "text": "先把两件事分开：你是希望他『成长』，还是想把他改造成你需要的样子？成熟的爱有四样——关心、责任、尊重、了解；尊重，就是愿他按自己的方式绽放。**若你的鞭策出于『他得优秀，我才有面子、才有安全感』，那不是爱，是占有。** 你爱的究竟是他，还是他的『成绩单』？",
       "text_en": "First separate two things: do you want him to 'grow,' or to be remade into what you need? Mature love has four elements — care, responsibility, respect, knowledge; respect means wanting him to bloom in his own way. **If your pushing comes from 'he must excel so I can save face and feel secure,' that is not love but possession.** Do you love him, or his report card?",
       "vernacular": null,
-      "glossary": {"成熟的爱": "mature love（成熟的爱）：弗洛姆《爱的艺术》提出，由关心、责任、尊重、了解四要素构成，是主动的『给予』而非占有；与之相对的不成熟的爱说『因为我需要你才爱你』。"},
-      "glossary_en": {"Mature love": "from Fromm's The Art of Loving: love made of care, responsibility, respect and knowledge — an active 'giving,' not possession; against it stands immature love, which says 'I love you because I need you.'"},
-      "reactions": {"强烈赞同": ["dostoevsky", "zhuangzi"], "轻微赞同": ["buddha"], "轻微反对": ["mengzi"], "疑惑": ["sapolsky"]}
+      "glossary": {
+        "成熟的爱": "mature love（成熟的爱）：弗洛姆《爱的艺术》提出，由关心、责任、尊重、了解四要素构成，是主动的『给予』而非占有；与之相对的不成熟的爱说『因为我需要你才爱你』。"
+      },
+      "glossary_en": {
+        "Mature love": "from Fromm's The Art of Loving: love made of care, responsibility, respect and knowledge — an active 'giving,' not possession; against it stands immature love, which says 'I love you because I need you.'"
+      },
+      "reactions": {
+        "强烈赞同": [
+          "dostoevsky",
+          "zhuangzi"
+        ],
+        "轻微赞同": [
+          "buddha"
+        ],
+        "轻微反对": [
+          "mengzi"
+        ],
+        "疑惑": [
+          "sapolsky"
+        ]
+      }
     },
     {
-      "id": "p04", "round": 1, "thinker": "dostoevsky", "reply_to": null,
+      "id": "p04",
+      "round": 1,
+      "thinker": "dostoevsky",
+      "reply_to": null,
       "text": "当心那句『我是为你好』。我笔下的地下室人，宁可选择痛苦、甚至自毁，也要证明自己不是一架按规律演奏的『钢琴键』。**你越是把他规划成『应该的样子』，他越要死守那点不被优化的自由。** 人最深的需要，是按自己的意志活——哪怕活得不划算。",
       "text_en": "Beware 'it's for your own good.' My underground man would sooner choose suffering, even self-ruin, than prove himself a 'piano key' played by the laws of nature. **The more you plan him into the shape he 'ought' to be, the harder he guards that scrap of un-optimized freedom.** A person's deepest need is to live by his own will — even when it doesn't pay.",
       "vernacular": null,
-      "glossary": {"钢琴键": "piano key（钢琴键）：陀思妥耶夫斯基《地下室手记》的比喻——若人只是按理性规律演奏的琴键，便会故意任性、甚至自毁，以证明自己有自由意志、不是被安排的机器。"},
-      "glossary_en": {"piano key": "from Dostoevsky's Notes from Underground: if a person were merely a key played by rational laws, he would act willfully, even self-destructively, to prove he has free will and is not an arranged machine."},
-      "reactions": {"强烈赞同": ["zhuangzi"], "轻微赞同": ["fromm", "nietzsche"], "强烈反对": ["mengzi"], "疑惑": ["dweck"]}
+      "glossary": {
+        "钢琴键": "piano key（钢琴键）：陀思妥耶夫斯基《地下室手记》的比喻——若人只是按理性规律演奏的琴键，便会故意任性、甚至自毁，以证明自己有自由意志、不是被安排的机器。"
+      },
+      "glossary_en": {
+        "piano key": "from Dostoevsky's Notes from Underground: if a person were merely a key played by rational laws, he would act willfully, even self-destructively, to prove he has free will and is not an arranged machine."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "zhuangzi"
+        ],
+        "轻微赞同": [
+          "fromm",
+          "nietzsche"
+        ],
+        "强烈反对": [
+          "mengzi"
+        ],
+        "疑惑": [
+          "dweck"
+        ]
+      }
     },
     {
-      "id": "p05", "round": 1, "thinker": "mengzi", "reply_to": null,
+      "id": "p05",
+      "round": 1,
+      "thinker": "mengzi",
+      "reply_to": null,
       "text": "人皆有向上、向善的那点苗头，我谓之『四端』。所谓咸鱼，多半不是天生没有这颗心，是被生活磨钝、被挫败遮住了。**真正的『鞭策』不该是逼迫，而是『求其放心』——唤醒他本有、却被压住的那点志气。** 火种还在，只是需要有人去扇。",
       "text_en": "Every person has a sprout of striving and goodness — what I call the 'four sprouts.' The salted fish is mostly not someone born without that heart, but one whose heart has been dulled by life and hidden by defeat. **True 'spurring' should not be coercion but 'seeking the lost heart' — awakening the aspiration he already has but that has been pressed down.** The ember is still there; it just needs someone to fan it.",
       "vernacular": null,
-      "glossary": {"四端": "the four sprouts（四端）：孟子认为人天生有恻隐、羞恶、辞让、是非四种善的萌芽，扩充之即成仁义礼智；他据此主张人性向善、人皆可以为尧舜。"},
-      "glossary_en": {"four sprouts": "Mengzi held that humans are born with four sprouts of goodness — compassion, shame, deference, and a sense of right and wrong — which, expanded, become the cardinal virtues; hence his claim that human nature tends toward good and anyone can become a sage."},
-      "reactions": {"强烈赞同": ["nietzsche"], "轻微赞同": ["dweck"], "轻微反对": ["dostoevsky", "zhuangzi"], "疑惑": ["sapolsky"]}
+      "glossary": {
+        "四端": "the four sprouts（四端）：孟子认为人天生有恻隐、羞恶、辞让、是非四种善的萌芽，扩充之即成仁义礼智；他据此主张人性向善、人皆可以为尧舜。"
+      },
+      "glossary_en": {
+        "four sprouts": "Mengzi held that humans are born with four sprouts of goodness — compassion, shame, deference, and a sense of right and wrong — which, expanded, become the cardinal virtues; hence his claim that human nature tends toward good and anyone can become a sage."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "nietzsche"
+        ],
+        "轻微赞同": [
+          "dweck"
+        ],
+        "轻微反对": [
+          "dostoevsky",
+          "zhuangzi"
+        ],
+        "疑惑": [
+          "sapolsky"
+        ]
+      }
     },
     {
-      "id": "p06", "round": 1, "thinker": "dweck", "reply_to": null,
+      "id": "p06",
+      "round": 1,
+      "thinker": "dweck",
+      "reply_to": null,
       "text": "从心理学说句要紧的：你能逼出成绩，却逼不出内在动机。外部高压常把『我想做』变成『我不得不』，反而把热情浇灭——这叫『过度合理化效应』。**但如果他陷在『固定型思维』、认定『我就这样了』，那是可以松动的。** 该做的不是鞭策，是帮他重新相信『我还能变』。",
       "text_en": "A key word from psychology: you can force results, but not inner motivation. External pressure often turns 'I want to' into 'I have to,' drowning the spark — the 'overjustification effect.' **But if he is stuck in a 'fixed mindset,' convinced 'this is just how I am,' that can be loosened.** The job is not to push, but to help him believe again that 'I can still change.'",
       "vernacular": null,
-      "glossary": {"过度合理化效应": "overjustification effect（过度合理化效应）：当外部奖惩或压力介入一件本有内在兴趣的事，人会把动机归于外因，内在兴趣反而减弱。", "固定型思维": "fixed mindset（固定型思维）：德韦克提出，认为能力天生固定、无法改变的信念；与之相对的『成长型思维』相信能力可经努力成长。"},
-      "glossary_en": {"overjustification effect": "when external reward or pressure is applied to something a person already enjoys, they attribute their motivation to the external cause, and intrinsic interest weakens.", "fixed mindset": "Dweck's term for the belief that ability is innate and fixed; against it stands the 'growth mindset,' which holds ability can grow through effort."},
-      "reactions": {"强烈赞同": ["fromm"], "轻微赞同": ["sapolsky", "mengzi"], "疑惑": ["nietzsche"]}
+      "glossary": {
+        "过度合理化效应": "overjustification effect（过度合理化效应）：当外部奖惩或压力介入一件本有内在兴趣的事，人会把动机归于外因，内在兴趣反而减弱。",
+        "固定型思维": "fixed mindset（固定型思维）：德韦克提出，认为能力天生固定、无法改变的信念；与之相对的『成长型思维』相信能力可经努力成长。"
+      },
+      "glossary_en": {
+        "overjustification effect": "when external reward or pressure is applied to something a person already enjoys, they attribute their motivation to the external cause, and intrinsic interest weakens.",
+        "fixed mindset": "Dweck's term for the belief that ability is innate and fixed; against it stands the 'growth mindset,' which holds ability can grow through effort."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "fromm"
+        ],
+        "轻微赞同": [
+          "sapolsky",
+          "mengzi"
+        ],
+        "疑惑": [
+          "nietzsche"
+        ]
+      }
     },
     {
-      "id": "p07", "round": 1, "thinker": "sapolsky", "reply_to": null,
+      "id": "p07",
+      "round": 1,
+      "thinker": "sapolsky",
+      "reply_to": null,
       "text": "扫兴的生物学：所谓『上进心』，很大程度是多巴胺奖赏系统的设定。有人天生基线就『够了』，这不是道德缺陷。慢性压力与『习得性无助』也会把活人压成咸鱼。**在你判他『不努力』之前，先问：是他不想，还是他的神经系统已被什么东西关小了？**",
       "text_en": "Killjoy biology: 'ambition' is to a large degree a setting of the dopamine reward system. Some people's baseline is simply 'enough,' and that is no moral defect. Chronic stress and 'learned helplessness' can also press a living person flat into a salted fish. **Before you judge him 'lazy,' ask: does he not want to, or has his nervous system already been turned down by something?**",
       "vernacular": null,
-      "glossary": {"多巴胺": "dopamine（多巴胺）：编码『想要』与奖赏预测的神经递质，驱动人去追求；其基线与反应高低因人而异，部分决定了一个人有多『有劲头』。", "习得性无助": "learned helplessness（习得性无助）：反复经历无法改变的挫败后，人或动物会放弃尝试，即便后来有机会也不再行动。"},
-      "glossary_en": {"dopamine": "the neurotransmitter encoding 'wanting' and reward prediction that drives pursuit; its baseline and reactivity vary by person, partly setting how much 'drive' someone has.", "learned helplessness": "after repeatedly facing defeat one cannot change, a person or animal gives up trying, and stops acting even when change later becomes possible."},
-      "reactions": {"强烈赞同": ["zhuangzi"], "轻微赞同": ["fromm", "buddha"], "轻微反对": ["mengzi"], "疑惑": ["nietzsche"]}
+      "glossary": {
+        "多巴胺": "dopamine（多巴胺）：编码『想要』与奖赏预测的神经递质，驱动人去追求；其基线与反应高低因人而异，部分决定了一个人有多『有劲头』。",
+        "习得性无助": "learned helplessness（习得性无助）：反复经历无法改变的挫败后，人或动物会放弃尝试，即便后来有机会也不再行动。"
+      },
+      "glossary_en": {
+        "dopamine": "the neurotransmitter encoding 'wanting' and reward prediction that drives pursuit; its baseline and reactivity vary by person, partly setting how much 'drive' someone has.",
+        "learned helplessness": "after repeatedly facing defeat one cannot change, a person or animal gives up trying, and stops acting even when change later becomes possible."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "zhuangzi"
+        ],
+        "轻微赞同": [
+          "fromm",
+          "buddha"
+        ],
+        "轻微反对": [
+          "mengzi"
+        ],
+        "疑惑": [
+          "nietzsche"
+        ]
+      }
     },
     {
-      "id": "p08", "round": 1, "thinker": "buddha", "reply_to": null,
+      "id": "p08",
+      "round": 1,
+      "thinker": "buddha",
+      "reply_to": null,
       "text": "佛门要分清两样东西：少欲知足，是智慧；懈怠放逸，是烦恼。那条『咸鱼』，若是看破了贪求、安于简朴，那是福；若是被惰性与逃避捆住、内心其实并不安宁，那是苦。**所以别急着用『上进』一把尺去量他——先看清：他是真的『够了』，还是只是在『逃』。**",
       "text_en": "The Dharma distinguishes two things: fewness of desires and contentment is wisdom; indolence and dissipation are affliction. That 'salted fish' — if he has seen through craving and rests in simplicity, that is a blessing; if he is bound by inertia and avoidance while his heart is not actually at peace, that is suffering. **So do not rush to measure him with the single ruler of 'ambition' — first see clearly: is he truly 'enough,' or merely fleeing?**",
       "vernacular": null,
-      "glossary": {"少欲知足": "fewness of desires and contentment（少欲知足）：佛教所赞的修养，欲望少、知足常乐；佛教同时把『懈怠放逸』（怠惰放纵）列为障道的烦恼，二者并不相同。"},
-      "glossary_en": {"fewness of desires and contentment": "a virtue praised in Buddhism — few wants, easily content; Buddhism separately lists indolence and dissipation as an affliction that obstructs the path, so the two are not the same."},
-      "reactions": {"强烈赞同": ["fromm"], "轻微赞同": ["zhuangzi", "dweck", "mengzi"], "疑惑": ["dostoevsky"]}
+      "glossary": {
+        "少欲知足": "fewness of desires and contentment（少欲知足）：佛教所赞的修养，欲望少、知足常乐；佛教同时把『懈怠放逸』（怠惰放纵）列为障道的烦恼，二者并不相同。"
+      },
+      "glossary_en": {
+        "fewness of desires and contentment": "a virtue praised in Buddhism — few wants, easily content; Buddhism separately lists indolence and dissipation as an affliction that obstructs the path, so the two are not the same."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "fromm"
+        ],
+        "轻微赞同": [
+          "zhuangzi",
+          "dweck",
+          "mengzi"
+        ],
+        "疑惑": [
+          "dostoevsky"
+        ]
+      }
     },
     {
-      "id": "p09", "round": 2, "thinker": "zhuangzi", "reply_to": "p02",
+      "id": "p09",
+      "round": 2,
+      "thinker": "zhuangzi",
+      "reply_to": "p02",
       "text": "尼采以『末人』讥逍遥，谬矣。不为外物所役，非生命力之萎，乃不受名利鞭笞之大自在。**尔欲人『超越』，仍是把人缚在一架向上的梯子上，许其攀、不许其安。** 鹪鹩巢林，不过一枝；何必人人作鲲鹏？",
       "text_en": "Nietzsche mocks free wandering as the 'last man' — wrongly. To be undriven by external things is not life withering, but the great ease of escaping the whip of fame and gain. **In demanding that everyone 'overcome,' you still bind people to a ladder that only goes up — letting them climb but never rest.** The wren nesting in the forest takes but a single branch; why must everyone be the great roc soaring ninety thousand li?",
       "vernacular": "尼采拿『末人』讥讽逍遥，错了。不被外物驱使，不是生命力的萎缩，而是不挨名利鞭子的大自在。**你要人人『超越』，还是把人捆在一架只许往上爬的梯子上——只准他攀登，不准他安顿。** 小鹪鹩在林中筑巢，不过占一根树枝；何必逼着人人都去做扶摇九万里的大鹏？",
       "vernacular_en": "",
-      "glossary": {}, "glossary_en": {},
-      "reactions": {"强烈赞同": ["dostoevsky"], "轻微赞同": ["buddha", "sapolsky"], "轻微反对": ["mengzi"], "强烈反对": ["nietzsche"]}
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "dostoevsky"
+        ],
+        "轻微赞同": [
+          "buddha",
+          "sapolsky"
+        ],
+        "轻微反对": [
+          "mengzi"
+        ],
+        "强烈反对": [
+          "nietzsche"
+        ]
+      }
     },
     {
-      "id": "p10", "round": 2, "thinker": "nietzsche", "reply_to": "p01",
+      "id": "p10",
+      "round": 2,
+      "thinker": "nietzsche",
+      "reply_to": "p01",
       "text": "庄子的逍遥与末人的麻木，看着像，骨子里天壤之别——一个是看破之后的自由，一个是从未渴望过的怠惰。**问题就在这里：你那位『咸鱼』，究竟是庄子，还是末人？** 多数自称『看破红尘』的，不过是不敢去要，又给懒惰找了个漂亮借口。",
       "text_en": "Zhuangzi's free wandering and the last man's numbness look alike but are worlds apart at the core — one is freedom after seeing through, the other an indolence that never once longed for anything. **That is exactly the question: your 'salted fish' — is he Zhuangzi, or the last man?** Most who claim to have 'seen through it all' merely dare not want, and have dressed up their sloth in fine words.",
-      "vernacular": null, "glossary": {}, "glossary_en": {},
-      "reactions": {"强烈赞同": ["buddha"], "轻微赞同": ["mengzi", "dweck"], "强烈反对": ["zhuangzi"], "疑惑": ["fromm"]}
+      "vernacular": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "buddha"
+        ],
+        "轻微赞同": [
+          "mengzi",
+          "dweck"
+        ],
+        "强烈反对": [
+          "zhuangzi"
+        ],
+        "疑惑": [
+          "fromm"
+        ]
+      }
     },
     {
-      "id": "p11", "round": 2, "thinker": "fromm", "reply_to": "p02",
+      "id": "p11",
+      "round": 2,
+      "thinker": "fromm",
+      "reply_to": "p02",
       "text": "尼采说对了一半——可『自我超越』也能变成另一种暴政，尤其当你把它强加给枕边人。陀思妥耶夫斯基提醒得好：被规划的人会反抗。**真正的爱不是『我推你向上』，而是『我守在你身边，给你一片想自己生长的土壤』。** 人是被滋养着长大的，不是被推着。",
       "text_en": "Nietzsche is half right — but 'self-overcoming' can become its own tyranny, especially forced on the person beside you. Dostoevsky warns well: the planned person rebels. **Real love is not 'I push you upward' but 'I stand beside you and offer soil in which you'll want to grow on your own.'** People grow by being nourished, not by being shoved.",
-      "vernacular": null, "glossary": {}, "glossary_en": {},
-      "reactions": {"强烈赞同": ["dostoevsky", "zhuangzi"], "轻微赞同": ["buddha", "sapolsky"], "轻微反对": ["nietzsche"]}
+      "vernacular": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "dostoevsky",
+          "zhuangzi"
+        ],
+        "轻微赞同": [
+          "buddha",
+          "sapolsky"
+        ],
+        "轻微反对": [
+          "nietzsche"
+        ]
+      }
     },
     {
-      "id": "p12", "round": 2, "thinker": "dostoevsky", "reply_to": "p05",
+      "id": "p12",
+      "round": 2,
+      "thinker": "dostoevsky",
+      "reply_to": "p05",
       "text": "孟子说人有向上之端，可你怎知，你扇的是『他的』火，而不是你想要他烧成的那个形状？**多少『唤醒良知』，其实是把对方的灵魂硬塞进你写好的剧本。** 我见过太多以爱为名的施暴：『为你好，所以你必须更好』——这句话里，藏着多少温柔的暴君。",
       "text_en": "Mengzi says man has a sprout of striving — but how do you know the fire you fan is 'his,' and not the shape you want him to burn into? **How much 'awakening the conscience' is really cramming another's soul into a script you have already written?** I have seen too much cruelty in love's name: 'it's for your own good, so you must be better' — how many gentle tyrants hide in that line.",
-      "vernacular": null, "glossary": {}, "glossary_en": {},
-      "reactions": {"强烈赞同": ["zhuangzi"], "轻微赞同": ["fromm", "sapolsky"], "强烈反对": ["mengzi"], "疑惑": ["dweck"]}
+      "vernacular": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "zhuangzi"
+        ],
+        "轻微赞同": [
+          "fromm",
+          "sapolsky"
+        ],
+        "强烈反对": [
+          "mengzi"
+        ],
+        "疑惑": [
+          "dweck"
+        ]
+      }
     },
     {
-      "id": "p13", "round": 2, "thinker": "mengzi", "reply_to": "p07",
+      "id": "p13",
+      "round": 2,
+      "thinker": "mengzi",
+      "reply_to": "p07",
       "text": "萨波尔斯基把志气都归给多巴胺，未免太小看人。我不否认有生理的底色，但『求其放心』讲的正是：好的环境与关系，能把那颗被压住的心重新养起来。**佛陀分『少欲』与『懈怠』，正合我意——关键从不在逼他成功，而在助他不被惰性吞没。** 人非草木，岂止是激素的奴隶？",
       "text_en": "Sapolsky hands all aspiration to dopamine — that underrates the human being. I don't deny a physiological base, but 'seeking the lost heart' means just this: good surroundings and relationships can nurse a pressed-down heart back to life. **The Buddha's split between 'few desires' and 'indolence' suits me — the point was never to force him to succeed, but to help him not be swallowed by sloth.** A person is not grass and trees; is he merely a slave of hormones?",
-      "vernacular": null, "glossary": {}, "glossary_en": {},
-      "reactions": {"强烈赞同": ["nietzsche"], "轻微赞同": ["dweck", "buddha"], "轻微反对": ["zhuangzi"], "强烈反对": ["sapolsky"]}
+      "vernacular": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "nietzsche"
+        ],
+        "轻微赞同": [
+          "dweck",
+          "buddha"
+        ],
+        "轻微反对": [
+          "zhuangzi"
+        ],
+        "强烈反对": [
+          "sapolsky"
+        ]
+      }
     },
     {
-      "id": "p14", "round": 2, "thinker": "dweck", "reply_to": "p05",
+      "id": "p14",
+      "round": 2,
+      "thinker": "dweck",
+      "reply_to": "p05",
       "text": "我赞同孟子『人能变』，但方法要命。对伴侣最伤的一句是『你怎么这么没出息』——那是给他贴『固定型』的人格标签，越贴越钉死。**有用的不是评判结果，是肯定过程：『你上次学那个，钻进去的样子真好。』** 你要点的是『还能成长』的信念，而不是『你不够好』的羞耻。",
       "text_en": "I agree with Mengzi that people can change — but method is everything. The most damaging line to a partner is 'how can you have so little ambition' — that pins a 'fixed' label on his character, and the more you pin it the more it sets. **What helps is not judging outcomes but affirming process: 'the way you got absorbed in learning that last time was wonderful.'** Kindle the belief 'I can still grow,' not the shame of 'you're not good enough.'",
-      "vernacular": null, "glossary": {}, "glossary_en": {},
-      "reactions": {"强烈赞同": ["fromm", "mengzi"], "轻微赞同": ["sapolsky", "buddha"], "疑惑": ["dostoevsky"]}
+      "vernacular": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "fromm",
+          "mengzi"
+        ],
+        "轻微赞同": [
+          "sapolsky",
+          "buddha"
+        ],
+        "疑惑": [
+          "dostoevsky"
+        ]
+      }
     },
     {
-      "id": "p15", "round": 2, "thinker": "sapolsky", "reply_to": "p08",
+      "id": "p15",
+      "round": 2,
+      "thinker": "sapolsky",
+      "reply_to": "p08",
       "text": "佛陀分『少欲』与『懈怠』分得妙，但在大脑里这两样常纠缠：长期低多巴胺、慢性压力，会同时表现成『看似看破』和『其实抑郁』。所以弗洛姆的『土壤』我加个生理版：**先别谈志向，先看睡眠、运动、慢性压力，给他一件能掌控、有即时反馈的小事——把神经系统养回来，志气才有地基。**",
       "text_en": "The Buddha's split between 'few desires' and 'indolence' is sharp, but in the brain the two often tangle: chronically low dopamine and chronic stress can show up at once as 'seeming to have seen through it' and 'actually depressed.' So to Fromm's 'soil' I add a physiological version: **before you talk aspiration, look at sleep, exercise, chronic stress; give him one small thing he can control with instant feedback — nurse the nervous system back, and only then does drive have a foundation.**",
-      "vernacular": null, "glossary": {}, "glossary_en": {},
-      "reactions": {"强烈赞同": ["fromm", "zhuangzi"], "轻微赞同": ["buddha", "dweck"], "轻微反对": ["mengzi"], "疑惑": ["nietzsche"]}
+      "vernacular": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "fromm",
+          "zhuangzi"
+        ],
+        "轻微赞同": [
+          "buddha",
+          "dweck"
+        ],
+        "轻微反对": [
+          "mengzi"
+        ],
+        "疑惑": [
+          "nietzsche"
+        ]
+      }
     },
     {
-      "id": "p16", "round": 2, "thinker": "buddha", "reply_to": "p01",
+      "id": "p16",
+      "round": 2,
+      "thinker": "buddha",
+      "reply_to": "p01",
       "text": "庄子的逍遥、陀氏的自由，都有道理，但还需照见一层：若那『咸鱼』内心常常自责、空虚，却用『我就这样』来麻醉自己，那不是自在，是另一种执——执着于『不改变』，好回避要面对的苦。**接受他，不等于附和他的逃避；真正的慈悲，是既不鞭打、也不纵容，只温和地陪他看清：他到底在怕什么。**",
       "text_en": "Zhuangzi's free wandering and Dostoevsky's freedom both hold truth, but one more layer must be seen: if that 'salted fish' often blames himself and feels empty, yet numbs it with 'this is just how I am,' that is not ease but another clinging — clinging to 'not changing' to avoid the pain he'd have to face. **To accept him is not to endorse his avoidance; true compassion neither whips nor indulges, but gently stays with him until he sees clearly what he is afraid of.**",
-      "vernacular": null, "glossary": {}, "glossary_en": {},
-      "reactions": {"强烈赞同": ["fromm"], "轻微赞同": ["zhuangzi", "dweck", "mengzi"], "轻微反对": ["dostoevsky"]}
+      "vernacular": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "fromm"
+        ],
+        "轻微赞同": [
+          "zhuangzi",
+          "dweck",
+          "mengzi"
+        ],
+        "轻微反对": [
+          "dostoevsky"
+        ]
+      }
     },
     {
-      "id": "p17", "round": 3, "thinker": "zhuangzi", "reply_to": null,
+      "id": "p17",
+      "round": 3,
+      "thinker": "zhuangzi",
+      "reply_to": null,
       "text": "吾终言之：莫以『上进』一尺，量尽天下之人。**尔之伴侣，若食足、眠安、心不戚戚，纵世人谓之咸鱼，亦自有其天年之乐。** 真要做的，非改造他，乃先自问：吾所不安者，是彼之人生，抑或吾惧为其所累、惧人前无颜？此一分明，则鞭策之念，多自熄矣。相忘于江湖，不亦可乎？",
       "text_en": "My last word: do not take the single ruler of 'ambition' to measure all under heaven. **If your partner eats his fill, sleeps in peace, and carries no grief, then though the world calls him a salted fish, he has his own joy of a full natural span.** What truly needs doing is not to remake him but to first ask yourself: what unsettles me — his life, or my fear of being dragged down by him, my fear of losing face before others? Once that is clear, most thoughts of the whip die out on their own. To forget each other in the rivers and lakes, each at ease — is that not enough?",
       "vernacular": "我最后说一句：别拿『上进』这一把尺，去量尽天下所有人。**你的伴侣，只要吃得饱、睡得安、心里没有忧戚，哪怕世人叫他咸鱼，他也自有他活满天年的快乐。** 真正该做的，不是改造他，而是先问自己：我心里不安的，究竟是他的人生，还是我怕被他拖累、怕在人前没面子？这一点想清楚了，许多『鞭策』的念头，多半就自己熄了。两个人在江湖里相忘、各自自在，不也挺好？",
       "vernacular_en": "",
-      "glossary": {}, "glossary_en": {},
-      "reactions": {"强烈赞同": ["dostoevsky"], "轻微赞同": ["buddha", "sapolsky", "fromm"], "强烈反对": ["nietzsche"]}
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "dostoevsky"
+        ],
+        "轻微赞同": [
+          "buddha",
+          "sapolsky",
+          "fromm"
+        ],
+        "强烈反对": [
+          "nietzsche"
+        ]
+      }
     },
     {
-      "id": "p18", "round": 3, "thinker": "nietzsche", "reply_to": null,
+      "id": "p18",
+      "round": 3,
+      "thinker": "nietzsche",
+      "reply_to": null,
       "text": "我仍坚持：甘于平庸是危险的。但鞭策造不出超人，只造出怨恨你的人。给普通人一句逆耳的话：**你无法把火把硬塞进别人手里——你只能自己烧得够亮，亮到他也想点燃自己。** 与其盯着改造他，不如活出你自己的『我偏要』，让你的生命本身成为一封邀请函，而不是一根鞭子。被逼出来的奋发，一阵风就倒。",
       "text_en": "I still hold: to settle for mediocrity is dangerous. But whipping makes no overman — only someone who resents you. A jarring line for ordinary people: **you cannot force a torch into another's hand — you can only burn bright enough that he, too, wants to light himself.** Rather than fixing your eyes on remaking him, live out your own 'I will anyway,' and let your life itself be an invitation, not a whip. Striving that is whipped up topples in the first gust.",
-      "vernacular": null, "glossary": {}, "glossary_en": {},
-      "reactions": {"强烈赞同": ["mengzi"], "轻微赞同": ["dweck", "fromm"], "强烈反对": ["zhuangzi"], "疑惑": ["dostoevsky"]}
+      "vernacular": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "mengzi"
+        ],
+        "轻微赞同": [
+          "dweck",
+          "fromm"
+        ],
+        "强烈反对": [
+          "zhuangzi"
+        ],
+        "疑惑": [
+          "dostoevsky"
+        ]
+      }
     },
     {
-      "id": "p19", "round": 3, "thinker": "fromm", "reply_to": null,
+      "id": "p19",
+      "round": 3,
+      "thinker": "fromm",
+      "reply_to": null,
       "text": "能被你『鞭策』出来的，从来不是爱里的成长，只是恐惧里的服从。综合诸位，给今天纠结的你三条：**① 先分清你要的是『他成长』还是『他变成我要的样子』；② 把『你该更努力』换成『我希望你过得充实——你心里真正想要的是什么』；③ 给土壤，别给鞭子。** 被尊重、被相信的人，自己会想生长。爱是给予生长的条件，不是验收 KPI。",
       "text_en": "What you can 'whip' out of someone is never growth in love, only obedience in fear. Pulling the threads together, three things for you, torn today: **(1) first tell apart whether you want 'him to grow' or 'him to become what I want'; (2) replace 'you should try harder' with 'I want your life to feel full — what is it you really want?'; (3) give soil, not a whip.** People who are respected and trusted want, on their own, to grow. Love gives the conditions for growth; it does not inspect KPIs.",
       "vernacular": null,
-      "glossary": {"KPI": "Key Performance Indicator（关键绩效指标）：职场用来量化考核业绩的指标；此处借指把亲密关系也变成『达标验收』的功利眼光。"},
-      "glossary_en": {"KPI": "Key Performance Indicator: a workplace metric for quantifying performance; here it stands for the utilitarian gaze that turns even an intimate relationship into a pass/fail inspection."},
-      "reactions": {"强烈赞同": ["dostoevsky", "buddha"], "轻微赞同": ["zhuangzi", "sapolsky", "dweck"], "轻微反对": ["nietzsche"]}
+      "glossary": {
+        "KPI": "Key Performance Indicator（关键绩效指标）：职场用来量化考核业绩的指标；此处借指把亲密关系也变成『达标验收』的功利眼光。"
+      },
+      "glossary_en": {
+        "KPI": "Key Performance Indicator: a workplace metric for quantifying performance; here it stands for the utilitarian gaze that turns even an intimate relationship into a pass/fail inspection."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "dostoevsky",
+          "buddha"
+        ],
+        "轻微赞同": [
+          "zhuangzi",
+          "sapolsky",
+          "dweck"
+        ],
+        "轻微反对": [
+          "nietzsche"
+        ]
+      }
     },
     {
-      "id": "p20", "round": 3, "thinker": "dostoevsky", "reply_to": null,
+      "id": "p20",
+      "round": 3,
+      "thinker": "dostoevsky",
+      "reply_to": null,
       "text": "请记住：人不是钢琴键。他保留选择『不划算』的权利——而这权利，恰恰是他还活着、还是个『人』的证据。给普通人：**你可以邀请、可以并肩、可以坦白说出你的失望；但你的爱一旦变成『达标才配被爱』，你就把伴侣改成了你的工程，把家改成了考场。** 先把人当人，再谈上进。一个被你逼着优秀、却不敢再在你面前『没用』的人，其实已经离开你了。",
       "text_en": "Remember: a person is not a piano key. He keeps the right to choose what 'doesn't pay' — and that right is the very proof he is still alive, still a 'person.' For ordinary people: **you may invite, walk beside him, speak your disappointment honestly; but the moment your love becomes 'worthy of love only if you measure up,' you have turned your partner into your project and your home into an exam hall.** Treat the person as a person first, ambition second. Someone you've pushed into excelling but who no longer dares be 'useless' before you has, in truth, already left you.",
-      "vernacular": null, "glossary": {}, "glossary_en": {},
-      "reactions": {"强烈赞同": ["zhuangzi", "fromm"], "轻微赞同": ["buddha", "sapolsky"], "强烈反对": ["mengzi"], "疑惑": ["dweck"]}
+      "vernacular": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "zhuangzi",
+          "fromm"
+        ],
+        "轻微赞同": [
+          "buddha",
+          "sapolsky"
+        ],
+        "强烈反对": [
+          "mengzi"
+        ],
+        "疑惑": [
+          "dweck"
+        ]
+      }
     },
     {
-      "id": "p21", "round": 3, "thinker": "mengzi", "reply_to": null,
+      "id": "p21",
+      "round": 3,
+      "thinker": "mengzi",
+      "reply_to": null,
       "text": "我仍信：人心向上，那点苗头不会真灭，只会被压。但『鞭』字得换成『养』字。给普通人：**① 别羞辱——羞辱只会让那颗心缩得更紧；② 自己先立住，你身上的生气与担当，是对他最无声的唤醒；③ 在他偶尔冒出『想做点什么』的嫩芽时，及时看见、浇上一瓢水。** 唤醒良知靠的是感召，从来不是鞭打。与其改造他，不如先把自己活成那束光。",
       "text_en": "I still believe: the heart inclines upward, and that sprout never truly dies — only gets pressed down. But trade the word 'whip' for 'nurture.' For ordinary people: **(1) don't shame him — shame only makes that heart shrink tighter; (2) stand firm yourself first, for your own vitality and responsibility are the most wordless awakening; (3) when a tender shoot of 'I want to do something' appears, see it in time and water it.** Conscience is awakened by inspiration, never by the whip. Rather than remaking him, first live yourself into being that light.",
-      "vernacular": null, "glossary": {}, "glossary_en": {},
-      "reactions": {"强烈赞同": ["nietzsche", "dweck"], "轻微赞同": ["fromm", "buddha"], "轻微反对": ["dostoevsky", "zhuangzi"]}
+      "vernacular": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "nietzsche",
+          "dweck"
+        ],
+        "轻微赞同": [
+          "fromm",
+          "buddha"
+        ],
+        "轻微反对": [
+          "dostoevsky",
+          "zhuangzi"
+        ]
+      }
     },
     {
-      "id": "p22", "round": 3, "thinker": "dweck", "reply_to": null,
+      "id": "p22",
+      "round": 3,
+      "thinker": "dweck",
+      "reply_to": null,
       "text": "把哲学落到能操作：**① 永远夸具体的过程，别贴『上进/没出息』的人格标签；② 帮他找一件难度刚好、有即时反馈的小事，让他重新尝到『我能变好』的滋味——动机是被一次次成功的体验喂大的；③ 管好你自己的预期：成长是非线性的，盯他的斜率，别盯此刻的高度。** 信念能改，但只能由内点燃、靠外护持——你的角色是园丁，不是监工。",
       "text_en": "Bringing the philosophy down to something usable: **(1) always praise the specific process, never pin a character label of 'driven / a loser'; (2) help him find one small task of just-right difficulty with instant feedback, so he tastes again 'I can get better' — motivation is fed by repeated experiences of success; (3) manage your own expectations: growth is non-linear, watch his slope, not his height right now.** Belief can change, but only lit from within and held up from without — your role is gardener, not overseer.",
-      "vernacular": null, "glossary": {}, "glossary_en": {},
-      "reactions": {"强烈赞同": ["fromm", "mengzi"], "轻微赞同": ["sapolsky", "buddha", "nietzsche"], "疑惑": ["dostoevsky"]}
+      "vernacular": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "fromm",
+          "mengzi"
+        ],
+        "轻微赞同": [
+          "sapolsky",
+          "buddha",
+          "nietzsche"
+        ],
+        "疑惑": [
+          "dostoevsky"
+        ]
+      }
     },
     {
-      "id": "p23", "round": 3, "thinker": "sapolsky", "reply_to": null,
+      "id": "p23",
+      "round": 3,
+      "thinker": "sapolsky",
+      "reply_to": null,
       "text": "作为带显微镜来的人，给最硬的三条：**① 先排除『不是不想、是病了』——长期没动力、没快感，可能是抑郁或慢性压力，该看的是医生，不是讲道理；② 别用慢性压力去治『没动力』——唠叨与贬低只会推高皮质醇，让人更瘫；③ 给他可控感与小而即时的奖赏，掌控感是动机的生理燃料。** 先修生理地基，再谈志向。",
       "text_en": "As the one who came with a microscope, the three hardest lines: **(1) first rule out 'it's not that he won't, it's that he's ill' — long-term lack of drive and pleasure may be depression or chronic stress, and the answer is a doctor, not a lecture; (2) don't treat 'no drive' with chronic stress — nagging and belittling only push cortisol higher and leave him more paralyzed; (3) give him a sense of control and small, instant rewards — control is the physiological fuel of motivation.** Fix the physiological foundation first, then talk aspiration.",
       "vernacular": null,
-      "glossary": {"皮质醇": "cortisol（皮质醇）：主要的应激激素，短期调动身体，长期偏高会损害情绪、记忆与动机——唠叨、贬低这类慢性压力正经由它把人拖得更瘫。"},
-      "glossary_en": {"cortisol": "the main stress hormone; short-term it mobilizes the body, but chronically elevated it harms mood, memory and motivation — chronic stress like nagging and belittling drags a person down through it."},
-      "reactions": {"强烈赞同": ["fromm", "zhuangzi"], "轻微赞同": ["buddha", "dweck", "dostoevsky"], "轻微反对": ["mengzi"]}
+      "glossary": {
+        "皮质醇": "cortisol（皮质醇）：主要的应激激素，短期调动身体，长期偏高会损害情绪、记忆与动机——唠叨、贬低这类慢性压力正经由它把人拖得更瘫。"
+      },
+      "glossary_en": {
+        "cortisol": "the main stress hormone; short-term it mobilizes the body, but chronically elevated it harms mood, memory and motivation — chronic stress like nagging and belittling drags a person down through it."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "fromm",
+          "zhuangzi"
+        ],
+        "轻微赞同": [
+          "buddha",
+          "dweck",
+          "dostoevsky"
+        ],
+        "轻微反对": [
+          "mengzi"
+        ]
+      }
     },
     {
-      "id": "p24", "round": 3, "thinker": "buddha", "reply_to": null,
+      "id": "p24",
+      "round": 3,
+      "thinker": "buddha",
+      "reply_to": null,
       "text": "我以中道收束：接受不是纵容，鞭策也不是慈悲。给普通人：**先照见自己的『贪』——你要他上进，有几分真为他、几分是为满足你对面子与安全感的执？再照见他的实相——他是真的少欲安然，还是以『躺平』麻醉一颗并不安的心？** 若是前者，随他自在；若是后者，不逼他成功，只陪他看清在逃什么。真正的慈悲，是如实地看见一个人，而不是把他塑成你要的形状。",
       "text_en": "I close with the Middle Way: accepting is not indulgence, and spurring is not compassion. For ordinary people: **first see your own 'greed' — in wanting him to strive, how much is truly for him, and how much is to feed your own clinging to face and security? Then see his reality — is he truly content with few desires, or numbing an uneasy heart with 'lying flat'?** If the former, let him be at ease; if the latter, don't force him to succeed, just stay with him until he sees what he is fleeing. True compassion is to see a person as they are — not to mold them into the shape you want.",
-      "vernacular": null, "glossary": {}, "glossary_en": {},
-      "reactions": {"强烈赞同": ["fromm", "zhuangzi"], "轻微赞同": ["dweck", "sapolsky", "mengzi"], "疑惑": ["dostoevsky"]}
+      "vernacular": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "fromm",
+          "zhuangzi"
+        ],
+        "轻微赞同": [
+          "dweck",
+          "sapolsky",
+          "mengzi"
+        ],
+        "疑惑": [
+          "dostoevsky"
+        ]
+      }
     }
   ],
   "summaries": [
@@ -224,33 +729,57 @@
     },
     {
       "ai": "gpt",
-      "engine": "降级:Opus 扮演(未配 KEY)",
-      "engine_en": "fallback: Opus role-play (no key)",
-      "summary": "综述：全场最大的共识是——单靠『鞭策』几乎注定失败，强加的上进只换来服从或反抗，真正的动力只能由内生长；多数人主张把『鞭策』换成『滋养』：尊重、相信、给环境。分歧集中在两处：『咸鱼』的根因究竟是看破、是逃避、还是生理或抑郁，决定了该尊重还是该干预；以及亲密关系里『希望对方更好』与『要求对方变成我要的样子』之间，那条以爱之名极易跨过的界线。",
-      "summary_en": "Summary: the biggest consensus is that pushing alone is almost doomed — imposed ambition buys only obedience or rebellion, and real drive can only grow from within; most argue for swapping 'pushing' for 'nourishing': respect, trust, a better environment. The disagreement sits in two places: whether the root of the 'salted fish' is seeing-through, avoidance, or physiology/depression — which decides whether to respect or intervene; and the easily-crossed line, in love's name, between 'wanting your partner to be better' and 'demanding they become what I want.'",
-      "insight": "我补一个最实用的区分：把『接受还是鞭策』这道二选一，换成三个有先后的问题——先问『是不是病了或累垮了』（生理/心理），再问『是不是我们要的不一样』（价值观），最后才问『是不是只是缺了点信心和方法』（动机）。前两种根本轮不到『鞭策』：一个该照顾、该就医，一个该谈判边界、甚至接受差异；只有第三种，才轮得到德韦克式的护持成长。把顺序搞反——上来就鞭策一个其实抑郁、或只是和你三观不同的人——正是大多数关系翻车的地方。",
-      "insight_en": "Let me add the most practical distinction: replace the binary 'accept or push' with three ordered questions — first 'is he ill or burned out?' (body/mind), then 'do we simply want different things?' (values), and only last 'is he just short on confidence and method?' (motivation). The first two never warrant pushing: one needs care and a doctor, the other a negotiation of boundaries or even accepting difference; only the third calls for Dweck-style supported growth. Getting the order wrong — pushing someone who is actually depressed, or merely values different things — is exactly where most relationships crash.",
-      "advice": "给普通人：① 先分类再行动——疲惫或抑郁，先照顾身体、必要时就医；价值观不同，先坦诚谈、别强求同频；只是缺动力，才用方法去点。② 一周一次『没有目的』的对话，只问他想要什么、不评判。③ 把唠叨改成示范：与其催他，不如自己把日子过得有劲，那是最强的邀请。④ 给他一件小而可控、有即时反馈的事，让他重尝『我能行』。⑤ 守住一条线：表达失望可以，但别拿『达标才配被爱』当筹码。",
-      "advice_en": "For ordinary people: (1) sort before you act — burnout or depression, tend to the body and see a doctor; different values, talk honestly and don't force sameness; only a lack of drive calls for method. (2) Once a week, have a 'purposeless' conversation: just ask what he wants, without judging. (3) Trade nagging for example: rather than chivvying him, live your own days with zest — that's the strongest invitation. (4) Give him one small, controllable task with instant feedback so he tastes 'I can.' (5) Hold one line: voicing disappointment is fine, but don't use 'worthy of love only if you measure up' as a bargaining chip."
+      "engine": "openai · gpt-5.5 · high(真实API)",
+      "engine_en": "openai · gpt-5.5 · high (live API)",
+      "summary": "这场最大的共识其实很清楚：不要用羞辱、唠叨或“为你好”的名义去改造伴侣；真正有效的，只能是尊重、看见、支持与邀请。**鞭策通常只能制造服从或反抗，不能制造真正的上进心。** 分歧在于如何理解“咸鱼”：它可能是成熟的知足、低欲望的生活选择，也可能是恐惧、抑郁、习得性无助或逃避的外壳。所以关键不是接受或鞭策二选一，而是先判断：他是真的安然，还是其实在困住自己。",
+      "insight": "亲密关系里还少了一层现实判断：你不是他的教练，也不是他的父母，而是要和他共同承担生活后果的人。一个人不上进未必有错，但如果因此长期转嫁经济压力、家务压力、育儿压力或情绪压力，问题就不再只是“他有没有理想”，而是“这段关系是否公平、可持续”。**你不必证明他错，才有资格设边界；你只需确认这种生活版本是不是你愿意共同承担。** 接受一个人，不等于无限吸收他选择带来的成本。",
+      "advice": "本周可以做三件事。第一，把“上进”翻译成具体事项：是收入、存钱、家务、健康、学习，还是对未来有计划？别用一个大词吵架。第二，约一次不审判的谈话，问三个问题：“你现在满意吗？”“你最卡住的是什么？”“接下来四周愿不愿意试一个小改变？”第三，设一个可观察的实验，例如每周投三份简历、运动两次、承担固定家务。**如果他长期无快感、嗜睡、绝望，先考虑求医或心理咨询，而不是继续讲道理。**",
+      "summary_en": "The strongest shared point in the whole discussion is simple: do not try to remake your partner through shame, nagging, or the language of “I’m only doing this for your own good.” What helps is respect, attention, support, and invitation. **Pressure may produce compliance or resentment, but it rarely produces real ambition.** The real disagreement is about what “being a salted fish” actually means. It may be a mature form of contentment, a low-desire but genuinely peaceful life. It may also be a cover for fear, depression, learned helplessness, or avoidance. So the question is not simply whether to accept or push. The first task is to see clearly: is this person truly at peace, or are they trapped and calling it peace?",
+      "insight_en": "There is also a practical layer that the relationship itself cannot avoid: you are not your partner’s coach or parent; you are the person who shares the consequences of their choices. A lack of ambition is not automatically a moral failure. But if it consistently shifts financial pressure, housework, childcare, planning, or emotional labor onto you, the issue is no longer just “Do they have dreams?” It becomes “Is this relationship fair and sustainable?” **You do not have to prove your partner is wrong before you are allowed to set a boundary; you only have to decide whether this version of life is one you are willing to share.** Acceptance does not mean absorbing unlimited costs created by someone else’s choices.",
+      "advice_en": "Try three concrete steps this week. First, translate “ambition” into specifics: do you mean income, savings, chores, health, learning, career planning, or emotional responsibility? Big labels create big fights; concrete behaviors create workable conversations. Second, schedule one non-judgmental talk and ask three questions: “Are you actually satisfied with your life right now?” “What feels most stuck?” “Would you be willing to try one small change for the next four weeks?” Third, agree on an observable experiment, such as sending three job applications a week, exercising twice, or taking over a fixed household task. **If they show long-term loss of pleasure, hopelessness, excessive sleep, or numbness, consider medical or psychological help before giving more motivational speeches.**"
     },
     {
       "ai": "gemini",
-      "engine": "降级:Opus 扮演(未配 KEY)",
-      "engine_en": "fallback: Opus role-play (no key)",
-      "summary": "综述：本场共识鲜明——几乎无人支持单纯的『鞭策』，因为外部强压会扼杀内在动机、激起反抗；多数人主张以尊重、相信与环境去『滋养』而非『改造』。真正的分歧有二：其一，『咸鱼』究竟是道家式的自在、佛家式的看破，还是抑郁与习得性无助的伪装，归因不同则对策相反；其二，亲密关系里『希望对方更好』与『要求对方变成我要的样子』之间，那条极易被爱之名跨过的界线。",
-      "summary_en": "Summary: the consensus here is clear — almost no one backs pushing alone, since external coercion smothers intrinsic motivation and provokes rebellion; most argue for nourishing, not remaking, through respect, trust, and environment. The real disagreements are two: first, whether the 'salted fish' is Daoist ease, Buddhist seeing-through, or a disguise for depression and learned helplessness — opposite remedies follow from opposite diagnoses; second, the line, so easily crossed in love's name, between 'wanting your partner to be better' and 'demanding they become what I want.'",
-      "insight": "作为偏重跨域综合的视角，我指出本场一个结构性盲点：辩论几乎全程把『咸鱼』当成个体的心理/生理问题，却很少追问它的社会与时代根源。当下年轻人的『躺平/咸鱼』，相当程度是对回报递减结构（高房价、内卷、上升通道收窄）的理性退出——当奋斗的预期收益持续走低，『不奋斗』未必是动力缺陷，而是一种止损。一味个人化，既冤枉了当事人，也让伴侣间『要不要鞭策』沦为互相指责。真正该一起面对的，也许不是『你为什么不上进』，而是『在这样的环境里，我们想要什么样的生活、又愿意为此共同承担什么』。",
-      "insight_en": "From a cross-domain synthesis view, I flag a structural blind spot: the debate treats the 'salted fish' almost entirely as an individual psychological/physiological problem, rarely asking its social and historical roots. Today's youth 'lying flat' is in large part a rational exit from a structure of diminishing returns (high housing costs, hyper-competition, narrowing ladders) — when the expected payoff of striving keeps falling, 'not striving' need not be a motivational defect but a stop-loss. Over-individualizing it both wrongs the person and reduces the couple's 'to push or not' to mutual blame. What truly deserves facing together may not be 'why won't you strive,' but 'in an environment like this, what kind of life do we want, and what are we each willing to bear for it.'",
-      "advice": "给普通人：① 把问题从『你该更努力』升级成『我们想要什么样的共同生活』——从指责转向一起设计。② 区分『躺平是止损还是逃避』：若是对不合理消耗的合理退出，该尊重甚至学习；若是回避与恐惧，再谈陪伴与就医。③ 重新定义『上进』：不必是赚更多、爬更高，也可以是把一件事做好、把关系经营好、把身体养好。④ 别把社会的压力，转嫁成对伴侣的私人怨气。⑤ 你自己活得有热气，本身就是对关系最好的滋养。",
-      "advice_en": "For ordinary people: (1) upgrade the question from 'you should try harder' to 'what shared life do we want' — from blame to designing it together. (2) Distinguish 'lying flat as stop-loss vs as avoidance': if it's a reasonable exit from unreasonable grind, respect it, even learn from it; if it's avoidance and fear, then talk about companionship and seeing a doctor. (3) Redefine 'ambition': it need not mean earning more or climbing higher — it can be doing one thing well, tending the relationship, keeping the body healthy. (4) Don't transfer society's pressure into private resentment of your partner. (5) Living your own days with warmth is itself the best nourishment for the relationship."
+      "engine": "google · gemini-3.1-pro-preview(真实API)",
+      "engine_en": "google · gemini-3.1-pro-preview (live API)",
+      "summary": "全场最大的共识在于：外部的强制性逼迫不仅无效，而且极具破坏力。**真正的改变只能从个体内部自然生长，将“上进”的标尺强加于人，实质上是一场以爱为名的软性暴力。** 当剥离了“必须鞭策”的执念后，分歧的真正焦点落在了如何定性“咸鱼”状态以及伴侣该扮演什么角色上：究竟是彻底放手、尊重其自然天性的无为（庄子），还是相信其潜能犹在、只需温和引导与滋养的园丁（孟子、德韦克），抑或是先修补其生理与心理创伤的医生（萨波尔斯基），又或者是用自身光芒去感召的灯塔（尼采）？",
+      "insight": "伴侣关系不仅是灵魂的共鸣，更是经济与风险的利益共同体。当一个人选择安于现状时，往往意味着另一方要承担更多的生存重量。**很多时候，伴侣的焦虑与鞭策，并非出于控制欲或虚荣面子，而是“双职工时代”下对家庭单一抗风险能力骤降的真实恐惧。** 哲学家谈论存在与自由，神经科学家谈论多巴胺底线，但现实生活要直面房贷、育儿与养老。把这种结构性的生存危机感全盘心理学化或道德化，是对那个仍在负重前行者的不公。如果“咸鱼”的岁月静好是建立在另一半的焦虑透支之上，这就不仅是个人选择的自由，而是对伴侣契约的违背。",
+      "advice": "1. 算一笔“底线账”：**在谈论哲学自由或心理创伤前，先摊开家庭账本，确认当前的财务安全垫是否支撑得起一个人“停下来”。** 双方必须坦诚划定一个都能接受的最低生活与责任底线。\n2. 区分“宕机期”与“永久躺平”：借用萨波尔斯基的视角，给伴侣设定一个无压力的空窗期（如三个月）。期间不谈目标，只看睡眠和运动，排除抑郁或生理透支，把底座先养好。\n3. 收回鞭子，投资自己：正如尼采所言，与其盯着对方的进度条内耗，不如把精力全部转移到提升自身的技能与抗风险能力上。你变强，既是最好的感召，也是给自己未来的托底。",
+      "summary_en": "The foundational consensus across all thinkers is that external coercion is not only ineffective but deeply destructive. **True transformation must originate from within; forcing the metric of 'ambition' onto a partner merely masks relational violence as love.** Once the compulsion to 'whip' is removed, the true divergence centers on how to diagnose the 'salted fish' state and define the partner's role: Should one adopt complete non-interference to respect their nature (Zhuangzi), act as a gardener gently nurturing suppressed potential (Mencius, Dweck), serve as a healer repairing biological exhaustion (Sapolsky), or become a beacon inspiring them through personal vitality (Nietzsche)?",
+      "insight_en": "A partnership is not merely a spiritual resonance but an economic alliance against life's risks. When one person chooses to lie flat, it inevitably shifts the burden of survival onto the other. **Often, a partner's anxious pushiness stems not from a desire for control or vanity, but from a very real, terrifying drop in the family's resilience against crises in a dual-income era.** Philosophers debate freedom, and neuroscientists discuss dopamine baselines, but reality demands paying mortgages and funding eldercare. Psychologizing or moralizing this structural survival pressure is profoundly unfair to the partner still carrying the heavy load. If one's peaceful stagnation is subsidized by the other's exhaustion, it is a breach of the partnership contract, not just a personal lifestyle choice.",
+      "advice_en": "1. Calculate the financial baseline: **Before debating psychological freedom or philosophical autonomy, open the family ledger to determine if your financial cushion actually affords one person to stop grinding.** Establish a mutual, non-negotiable baseline of shared responsibilities.\n2. Distinguish 'burnout recharge' from 'permanent shutdown': Borrowing from Sapolsky, grant your partner a guilt-free window (e.g., three months) where ambition is off the table. Focus solely on their sleep, exercise, and diet to rule out depression or physiological depletion.\n3. Drop the whip and invest in yourself: As Nietzsche implies, redirect the exhausting energy spent monitoring their progress into upgrading your own skills. Becoming stronger yourself is both the ultimate inspiring invitation and a necessary insurance policy for your own future."
     }
   ],
   "hooks": [
-    {"from": "claude", "text": "**「咸鱼」不是一种状态，是好几种长得像的状态**：真知足、抑郁、习得性无助、阶段性疲惫、三观不同——外表都是『不上进』，却有的该尊重、有的该就医、有的该谈边界。最该避免的，是先贴一张『懒』标签再统一鞭策；先分清是哪一种，比急着决定『接受还是鞭策』有用得多。", "text_en": "**The 'salted fish' is not one state but several look-alikes**: genuine contentment, depression, learned helplessness, a passing burnout, simply different values — all look like 'no ambition,' yet some deserve respect, some a doctor, some a talk about boundaries. The worst move is to slap on one 'lazy' label and push uniformly; telling which one it is matters far more than rushing to 'accept or push.'"},
-    {"from": "claude", "text": "**先问这股焦虑有多少是『我的』**：许多『为你好』的鞭策，真正燃料是提问者自己怕被拖累、怕没面子、怕未来不确定——把自己的不安，包装成对方的『问题』。改造对方之前，先认领自己的那一份。", "text_en": "**First ask how much of the anxiety is 'mine'**: much 'for your own good' pushing is really fueled by the asker's own fear of being dragged down, of losing face, of an uncertain future — dressing one's own unease up as the other's 'problem.' Before remaking the other, own your share."},
-    {"from": "gpt", "text": "**把二选一换成三段诊断**：先问『是不是病了/累垮了』（该照顾、就医），再问『是不是三观不同』（该谈边界、甚至接受差异），最后才问『是不是缺信心与方法』（才轮到护持成长）。顺序搞反——上来就鞭策一个其实抑郁、或只是和你不同的人——正是关系翻车处。", "text_en": "**Replace the binary with a three-step diagnosis**: first 'is he ill or burned out?' (care, a doctor), then 'do we want different things?' (boundaries, or accepting difference), and only last 'is he short on confidence and method?' (now supported growth applies). Getting the order wrong — pushing someone actually depressed, or merely different from you — is exactly where relationships crash."},
-    {"from": "gemini", "text": "**「咸鱼」的社会根源被全场漏掉了**：今日的躺平，相当程度是对回报递减结构（高房价、内卷、上升通道收窄）的理性止损，而非纯粹的动力缺陷。一味个人化，会让『要不要鞭策』沦为互相指责；真正该一起面对的，是『在这样的环境里我们想要什么生活』。（与 abundance-and-decline／内卷母题相邻。）", "text_en": "**The social roots of 'lying flat' were missed**: today's coasting is in large part a rational stop-loss against a structure of diminishing returns (housing costs, hyper-competition, narrowing ladders), not pure motivational defect. Over-individualizing it turns 'to push or not' into mutual blame; what deserves facing together is 'what life do we want in an environment like this.'"},
-    {"from": "fromm", "text": "**占有式的爱会把伴侣变成你的资产与工程**：当『我爱你』暗含『达标才配被爱』，家就成了考场。爱的反面不只是恨，更是把人当成达成自己目标的工具——把对方当人，永远先于把对方变好。", "text_en": "**Possessive love turns your partner into your asset and your project**: when 'I love you' carries 'worthy of love only if you measure up,' home becomes an exam hall. The opposite of love is not only hate but treating a person as a means to your ends — treating them as a person always comes before improving them."},
-    {"from": "sapolsky", "text": "**「没动力」常先是生理、而非道德**：长期没快感、没劲头，第一步是排除抑郁与慢性压力，该看医生不是讲道理；而用唠叨贬低去『治』没动力，只会推高皮质醇、让人更瘫。先把神经系统养回来，志气才有地基。", "text_en": "**'No drive' is often physiological before it is moral**: long-term lack of pleasure and energy calls first for ruling out depression and chronic stress — a doctor, not a lecture; and 'treating' low drive with nagging and belittling only raises cortisol and leaves the person more paralyzed. Nurse the nervous system back first; only then does drive have a foundation."}
+    {
+      "from": "claude",
+      "text": "**「咸鱼」不是一种状态，是好几种长得像的状态**：真知足、抑郁、习得性无助、阶段性疲惫、三观不同——外表都是『不上进』，却有的该尊重、有的该就医、有的该谈边界。最该避免的，是先贴一张『懒』标签再统一鞭策；先分清是哪一种，比急着决定『接受还是鞭策』有用得多。",
+      "text_en": "**The 'salted fish' is not one state but several look-alikes**: genuine contentment, depression, learned helplessness, a passing burnout, simply different values — all look like 'no ambition,' yet some deserve respect, some a doctor, some a talk about boundaries. The worst move is to slap on one 'lazy' label and push uniformly; telling which one it is matters far more than rushing to 'accept or push.'"
+    },
+    {
+      "from": "claude",
+      "text": "**先问这股焦虑有多少是『我的』**：许多『为你好』的鞭策，真正燃料是提问者自己怕被拖累、怕没面子、怕未来不确定——把自己的不安，包装成对方的『问题』。改造对方之前，先认领自己的那一份。",
+      "text_en": "**First ask how much of the anxiety is 'mine'**: much 'for your own good' pushing is really fueled by the asker's own fear of being dragged down, of losing face, of an uncertain future — dressing one's own unease up as the other's 'problem.' Before remaking the other, own your share."
+    },
+    {
+      "from": "gpt",
+      "text": "**把二选一换成三段诊断**：先问『是不是病了/累垮了』（该照顾、就医），再问『是不是三观不同』（该谈边界、甚至接受差异），最后才问『是不是缺信心与方法』（才轮到护持成长）。顺序搞反——上来就鞭策一个其实抑郁、或只是和你不同的人——正是关系翻车处。",
+      "text_en": "**Replace the binary with a three-step diagnosis**: first 'is he ill or burned out?' (care, a doctor), then 'do we want different things?' (boundaries, or accepting difference), and only last 'is he short on confidence and method?' (now supported growth applies). Getting the order wrong — pushing someone actually depressed, or merely different from you — is exactly where relationships crash."
+    },
+    {
+      "from": "gemini",
+      "text": "**「咸鱼」的社会根源被全场漏掉了**：今日的躺平，相当程度是对回报递减结构（高房价、内卷、上升通道收窄）的理性止损，而非纯粹的动力缺陷。一味个人化，会让『要不要鞭策』沦为互相指责；真正该一起面对的，是『在这样的环境里我们想要什么生活』。（与 abundance-and-decline／内卷母题相邻。）",
+      "text_en": "**The social roots of 'lying flat' were missed**: today's coasting is in large part a rational stop-loss against a structure of diminishing returns (housing costs, hyper-competition, narrowing ladders), not pure motivational defect. Over-individualizing it turns 'to push or not' into mutual blame; what deserves facing together is 'what life do we want in an environment like this.'"
+    },
+    {
+      "from": "fromm",
+      "text": "**占有式的爱会把伴侣变成你的资产与工程**：当『我爱你』暗含『达标才配被爱』，家就成了考场。爱的反面不只是恨，更是把人当成达成自己目标的工具——把对方当人，永远先于把对方变好。",
+      "text_en": "**Possessive love turns your partner into your asset and your project**: when 'I love you' carries 'worthy of love only if you measure up,' home becomes an exam hall. The opposite of love is not only hate but treating a person as a means to your ends — treating them as a person always comes before improving them."
+    },
+    {
+      "from": "sapolsky",
+      "text": "**「没动力」常先是生理、而非道德**：长期没快感、没劲头，第一步是排除抑郁与慢性压力，该看医生不是讲道理；而用唠叨贬低去『治』没动力，只会推高皮质醇、让人更瘫。先把神经系统养回来，志气才有地基。",
+      "text_en": "**'No drive' is often physiological before it is moral**: long-term lack of pleasure and energy calls first for ruling out depression and chronic stress — a doctor, not a lecture; and 'treating' low drive with nagging and belittling only raises cortisol and leaves the person more paralyzed. Nurse the nervous system back first; only then does drive have a foundation."
+    }
   ]
 }

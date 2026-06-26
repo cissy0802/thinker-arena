@@ -12,7 +12,8 @@
     "mengzi",
     "dweck",
     "sapolsky",
-    "buddha"
+    "buddha",
+    "kongzi"
   ],
   "casting": [
     {
@@ -54,6 +55,11 @@
       "id": "buddha",
       "reason": "中道：分清少欲知足与懈怠逃避，慈悲是如实照见而非塑造",
       "reason_en": "The Middle Way: tell apart contentment from indolent avoidance; compassion is seeing as-is, not molding"
+    },
+    {
+      "id": "kongzi",
+      "reason": "儒家：夫妇为人伦之始、是共同修身的事业；自强不息、相互『责善』，一方躺平亦对另一方不公",
+      "reason_en": "Confucian: marriage is the root of human relations and a shared project of cultivation; ceaseless self-strengthening and mutual 'urging toward good' — and one partner coasting is also unfair to the other"
     }
   ],
   "posts": [
@@ -83,7 +89,8 @@
           "mengzi"
         ],
         "强烈反对": [
-          "nietzsche"
+          "nietzsche",
+          "kongzi"
         ],
         "疑惑": [
           "dweck"
@@ -143,7 +150,8 @@
           "buddha"
         ],
         "轻微反对": [
-          "mengzi"
+          "mengzi",
+          "kongzi"
         ],
         "疑惑": [
           "sapolsky"
@@ -296,6 +304,40 @@
         ],
         "疑惑": [
           "dostoevsky"
+        ]
+      }
+    },
+    {
+      "id": "p25",
+      "round": 1,
+      "thinker": "kongzi",
+      "reply_to": null,
+      "text": "诸位只在『接受还是改造他』里打转，却忘了夫妇是什么。夫妇乃人伦之始，是一桩共同修身、彼此成全的事业，不是各住一屋的两个房客。**君子自强不息；一人安于做咸鱼，受累的从来不止他自己——家用、家务、对将来的盘算，都悄悄压到了另一个人肩上。** 盼枕边人向上，未必是控制，也可以是『责善』——不忍见他荒废，亦不愿独力撑这个家。",
+      "text_en": "You all circle around 'accept him or remake him,' forgetting what marriage is. Husband and wife are the beginning of human relations — a shared enterprise of cultivating character and completing each other, not two lodgers sharing a roof. **The noble person never ceases to strengthen himself; when one settles for being a salted fish, the one who bears it is never him alone — the bills, the chores, the planning for the future quietly shift onto the other's shoulders.** To wish your partner upward need not be control; it can be 'urging each other toward good' — unwilling to watch him waste away, and unwilling to carry the home alone.",
+      "vernacular": null,
+      "glossary": {
+        "责善": "to urge each other toward good（责善）：儒家用语，亲友之间相互劝勉向善、指出过失；孟子谓『责善，朋友之道也』，孔子亦重朋友、夫妇间相互砥砺。"
+      },
+      "glossary_en": {
+        "urging each other toward good": "urging each other toward good (zeshan): a Confucian term for friends and family encouraging one another toward virtue and pointing out faults; Mengzi said 'urging each other toward good is the way of friends.'"
+      },
+      "reactions": {
+        "强烈赞同": [
+          "mengzi"
+        ],
+        "轻微赞同": [
+          "nietzsche",
+          "dweck"
+        ],
+        "轻微反对": [
+          "fromm",
+          "zhuangzi"
+        ],
+        "强烈反对": [
+          "dostoevsky"
+        ],
+        "疑惑": [
+          "buddha"
         ]
       }
     },
@@ -500,6 +542,36 @@
         ],
         "轻微反对": [
           "dostoevsky"
+        ]
+      }
+    },
+    {
+      "id": "p26",
+      "round": 2,
+      "thinker": "kongzi",
+      "reply_to": "p03",
+      "text": "弗洛姆把『希望对方上进』几乎全归为占有，未免太绝。**夫妇相敬，本就含着相互的期许与砥砺——你若全然不在意对方活成什么样，那不是尊重，是疏离。** 庄子谈逍遥，可一个人的逍遥，常是另一个人替他负重换来的。真正的相守，不是你过你的、我熬我的，而是把日子当成两人共同要经营好的一件事。",
+      "text_en": "Fromm files almost all 'wanting your partner to rise' under possession — too absolute. **Mutual respect between husband and wife already contains mutual expectation and sharpening — if you care nothing at all about what your partner becomes, that is not respect but estrangement.** Zhuangzi speaks of free wandering, but one person's ease is often bought by another carrying the load. True partnership is not 'you live yours and I endure mine,' but treating the days as one thing the two must tend well together.",
+      "vernacular": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "mengzi"
+        ],
+        "轻微赞同": [
+          "dweck",
+          "nietzsche"
+        ],
+        "强烈反对": [
+          "zhuangzi",
+          "dostoevsky"
+        ],
+        "轻微反对": [
+          "fromm"
+        ],
+        "疑惑": [
+          "sapolsky"
         ]
       }
     },
@@ -713,6 +785,35 @@
           "dostoevsky"
         ]
       }
+    },
+    {
+      "id": "p27",
+      "round": 3,
+      "thinker": "kongzi",
+      "reply_to": null,
+      "text": "我的结论：接受与鞭策之外，还有第三条路——同行。**别把它当『我改造你』，当成『我们一起把这个家、这段人生经营得更好』：立共同的目标，也各担各的本分。** 给普通人：① 把『你该上进』换成『我们想要什么样的生活、各自愿为它做什么』；② 自己先精进——身教胜于言传，你不甘平庸地活着，本身就是召唤；③ 也别独自硬扛到生怨，该讲的失望要讲清，公平要摆上台面。夫妇之道，在共同成人，不在一个拖、一个忍。",
+      "text_en": "My conclusion: beyond accepting and spurring lies a third path — walking together. **Don't take it as 'I remake you,' but as 'together we make this home and this life better': set shared goals, and each carry your own part.** For ordinary people: (1) replace 'you should strive' with 'what life do we want, and what will each of us do for it'; (2) cultivate yourself first — example teaches more than words, and your own refusal to live mediocre is itself a summons; (3) but don't shoulder it alone until resentment festers — speak your disappointment plainly and put fairness on the table. The way of husband and wife lies in growing into full persons together, not in one dragging while the other endures.",
+      "vernacular": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "mengzi",
+          "dweck"
+        ],
+        "轻微赞同": [
+          "fromm",
+          "nietzsche",
+          "sapolsky"
+        ],
+        "轻微反对": [
+          "zhuangzi"
+        ],
+        "疑惑": [
+          "dostoevsky",
+          "buddha"
+        ]
+      }
     }
   ],
   "summaries": [
@@ -720,8 +821,8 @@
       "ai": "claude",
       "engine": "Opus 4.8 · 订阅(原生)",
       "engine_en": "Opus 4.8 · subscription (native)",
-      "summary": "先说最大的共识：几乎没人主张『拿起鞭子逼』——庄子、陀思妥耶夫斯基、弗洛姆、佛陀都警告，强加的上进只换来服从或反抗，而非真正的成长；连最反对甘于平庸的尼采也强调，超越只能自己点燃。分歧在更细处：其一，这条『咸鱼』到底是看破后的自在（庄子），还是麻醉自己的逃避（佛陀），抑或被生理与压力关小了的人（萨波尔斯基）——同样躺平，根因不同，对策迥异。其二，『唤醒』与『改造』的边界：孟子、德韦克相信那点向上的火能被唤醒、被护持，弗洛姆与陀氏则提醒，一旦『唤醒』夹带了『你得变成我要的样子』，爱就成了占有。",
-      "summary_en": "First, the biggest consensus: almost no one argues for 'picking up the whip' — Zhuangzi, Dostoevsky, Fromm, and the Buddha all warn that imposed ambition buys only obedience or rebellion, not real growth; even Nietzsche, who most opposes settling for mediocrity, insists overcoming can only be lit from within. The disagreements are finer. First, what the 'salted fish' actually is: ease after seeing through (Zhuangzi), avoidance numbing itself (the Buddha), or a person turned down by physiology and stress (Sapolsky) — same lying-flat, different roots, opposite responses. Second, the line between 'awakening' and 'remaking': Mengzi and Dweck trust the upward spark can be roused and supported, while Fromm and Dostoevsky warn that once 'awakening' smuggles in 'you must become what I want,' love has turned into possession.",
+      "summary": "先说最大的共识：几乎没人主张『拿起鞭子硬逼』——庄子、陀思妥耶夫斯基、弗洛姆、佛陀都警告，强加的上进只换来服从或反抗；连最反对甘于平庸的尼采也强调，超越只能自己点燃。但孔子点出了被多数人忽略的一维：夫妇是共同精进的事业，一方躺平，重担常悄悄压到另一方身上，故『责善』与公平也是爱的一部分，不全是控制。其余分歧在两处：这条『咸鱼』是看破后的自在（庄子）、麻醉式的逃避（佛陀），还是被生理与压力关小了的人（萨波尔斯基）——同样躺平，根因不同；以及『唤醒』与『改造』的边界——一旦夹带『你得变成我要的样子』，滋养就成了占有。",
+      "summary_en": "First, the biggest consensus: almost no one argues for 'picking up the whip and forcing it' — Zhuangzi, Dostoevsky, Fromm, and the Buddha warn that imposed ambition buys only obedience or rebellion; even Nietzsche, who most opposes settling for mediocrity, insists overcoming can only be lit from within. But Confucius adds a dimension most overlook: marriage is a shared project of cultivation, and when one partner coasts, the load quietly shifts onto the other — so 'urging each other toward good' and fairness are part of love too, not purely control. The remaining disagreements are two: whether the 'salted fish' is ease after seeing through (Zhuangzi), avoidance numbing itself (the Buddha), or a person turned down by physiology and stress (Sapolsky) — same lying-flat, different roots; and the line between 'awakening' and 'remaking' — once it smuggles in 'you must become what I want,' nourishing has turned into possession.",
       "insight": "我注意到全场都在问『我该不该改造他』，却很少有人先问：这股焦虑，多少其实是『我的』？许多『为你好』的鞭策，真正的燃料是提问者自己怕被拖累、怕在人前没面子、怕未来不确定——把自己的不安，包装成对方的『问题』。还有一层被一句带过却最关键：『咸鱼』根本不是一种状态，而是好几种长得很像的状态——真知足、抑郁、习得性无助、阶段性疲惫、三观不同——外表都是『不上进』，但有的该尊重、有的该就医、有的该谈边界。所以最不该做的，恰恰是先贴上同一张『懒』标签、再统一鞭策。先分清是哪一种，远比急着决定『接受还是鞭策』有用。",
       "insight_en": "I noticed the whole room asks 'should I remake him,' but few first ask: how much of this anxiety is actually mine? Much 'for your own good' pushing is really fueled by the asker's own fear of being dragged down, of losing face, of an uncertain future — dressing one's own unease up as the other's 'problem.' And a crucial layer gets only a passing mention: the 'salted fish' is not one state but several look-alikes — genuine contentment, depression, learned helplessness, a passing burnout, simply different values — all looking like 'no ambition,' yet some deserve respect, some a doctor, some a talk about boundaries. So the worst move is exactly to slap on one 'lazy' label and then uniformly apply the whip. Telling which one it is matters far more than rushing to decide 'accept or push.'",
       "advice": "给今天纠结的你：① 先向内问一句——我要他变，是为他活得更好，还是为缓解我自己的焦虑与面子？把这两者分开，一半火气会自己消。② 把评判句换成好奇句：别说『你怎么这么没出息』，问『你心里真正想要什么、卡在哪』。③ 排除生理因素：长期没动力、没快感，先关心睡眠与压力，必要时看医生，而不是讲道理。④ 给土壤别给鞭子：被尊重、被相信、又亲自尝过一次『我能变好』的人，才会想生长。⑤ 守住底线：可以坦白失望、可以并肩，但别让爱退化成『达标才配被爱』。",

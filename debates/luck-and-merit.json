@@ -1,0 +1,916 @@
+{
+  "id": "luck-and-merit",
+  "question": "我们的成功与失败，多少是「应得的」？努力真能决定命运吗？",
+  "question_en": "How much of our success or failure do we actually deserve — and does effort really decide our fate?",
+  "date": "2026-06-28",
+  "participants": [
+    "machiavelli",
+    "harris",
+    "buffett",
+    "xunzi",
+    "huineng",
+    "nietzsche",
+    "taleb",
+    "calvin"
+  ],
+  "casting": [
+    {
+      "id": "machiavelli",
+      "reason": "文艺复兴政治现实主义的鼻祖，为本场提供最古典的『运气—努力』框架：fortuna（命运）与 virtù（能力）各占一半。他不纠缠『谁配得到什么』的道德账，而冷静地问『水来时你准备好了没有』——命运发牌、定时机，努力决定你抓不抓得住。他是全场『把运气与努力当分工而非对立』的定调者。",
+      "reason_en": "The founder of Renaissance political realism, who supplies the most classical 'luck-versus-effort' frame: fortuna (fortune) and virtù (skill) each take half. He refuses the moral ledger of 'who deserves what' and coolly asks instead, 'when the flood comes, are you ready?' — fortune deals the cards and sets the timing, effort decides whether you can seize the moment. He is the floor's anchor for treating luck and effort as a division of labor rather than opposites."
+    },
+    {
+      "id": "harris",
+      "reason": "神经科学与哲学背景的『自由意志怀疑论』代表，为本场带来最硬的『无人应得』论证：连『肯努力』本身都由基因、成长与神经状态决定，没有谁在终极意义上配得成功或活该失败。他把议题从道德推向因果，并指出看清这点不会让人瘫痪，反而生出对失败者的慈悲与对自己的宽容。本场的脑科学席位。",
+      "reason_en": "A representative of free-will skepticism with a background in neuroscience and philosophy, who brings the hardest 'no one deserves' argument: even 'being willing to try hard' is itself fixed by genes, upbringing, and brain state, so no one ultimately merits success or deserves failure. He pushes the question from morality to causation, and notes that seeing this does not paralyze but breeds compassion for those who fall and leniency toward oneself. The debate's brain-science seat."
+    },
+    {
+      "id": "buffett",
+      "reason": "以『卵巢彩票』闻名的投资家，为本场提供最接地气的中间立场：起跑线几乎全是运气（出生的国家、年代、天赋），但拿牌之后几十年的耐心与纪律确实能让它复利滚大。他主张把『发到的牌』与『你怎么打牌』分开算，既反对自我邀功，也反对因运气而虚无。现代实践派的声音。",
+      "reason_en": "The investor famous for the 'ovarian lottery,' who offers the most down-to-earth middle position: the starting line is almost all luck (the country, era, and talents you are born into), yet after the hand is dealt, decades of patience and discipline really can compound it. He insists on accounting separately for 'the cards you were dealt' and 'how you play them,' rejecting both self-credit and the nihilism of 'it's all luck.' A voice from modern practice."
+    },
+    {
+      "id": "xunzi",
+      "reason": "先秦儒家中最强调后天努力的思想家，为本场扛起『努力可改命』的大旗：性恶而善者伪也，『涂之人可以为禹』全在乎积累；同时他以『天行有常』承认运气与回报不可强求，主张君子只敬其在己者。他是全场对抗宿命论、为努力辩护最有力的古典声音。",
+      "reason_en": "The pre-Qin Confucian who most emphasized acquired effort, carrying the banner of 'effort can change fate': human nature is crude and goodness is cultivated, and 'any man in the street can become a Yu' rests entirely on accumulation; at the same time, with 'Heaven's course is constant' he concedes that luck and reward cannot be forced, and holds that the gentleman attends only to what lies in himself. He is the debate's strongest classical voice against fatalism and in defense of effort."
+    },
+    {
+      "id": "huineng",
+      "reason": "禅宗六祖、不识字的樵夫得法者，为本场提供一个『跳出账本』的视角：佛性本自具足，不假外求、不从积得；他区分可累积的『福德』与无可累积的『功德』，直指『我应得几分』之问本身就是分别取舍之心在作怪。本场的佛学席位，主张歇却算计、当下自在。",
+      "reason_en": "The Sixth Patriarch of Chan, the illiterate woodcutter who received the Dharma, who offers a 'step outside the ledger' perspective: Buddha-nature is from the first complete, not sought outside nor gained by accumulation; he distinguishes 'worldly blessing,' which can be piled up, from 'true merit,' which cannot, and points out that the very question 'how much do I deserve' is the discriminating, grasping mind at work. The debate's Buddhist seat, urging that the reckoning mind rest and this moment be free."
+    },
+    {
+      "id": "nietzsche",
+      "reason": "为本场注入最尖锐的『解构』之声：他嗅出『应得／公平』这套话里的 ressentiment——弱者无力反抗便发明出道德清算。他既反对认命，也反对纠结配不配，而以 amor fati（爱命运）号召人把一切遭遇熔成自己的创造。他与佛学、神学殊途，给出『放下账本却向前锻造』的第三条路。",
+      "reason_en": "He injects the sharpest deconstructive voice: he smells the ressentiment in all this talk of 'desert' and 'fairness' — the powerless, unable to strike back, invent a moral reckoning. He opposes both resignation and the fretting over whether one deserves things, and with amor fati (love of fate) calls on people to forge everything that befalls them into their own creation. Parting ways with both Buddhism and theology, he offers a third path: set down the ledger, yet forge ahead."
+    },
+    {
+      "id": "taleb",
+      "reason": "《随机漫步的傻瓜》《反脆弱》作者，为本场带来概率与风险的视角：成功故事充满幸存者偏差，我们系统性地把运气误当本事。他主张别去预测或『配得』某个结局，而要布局——守住下行（绝不被毁灭）、敞开上行（多下廉价小注），让自己在不确定中反脆弱。最务实的策略派。",
+      "reason_en": "The author of Fooled by Randomness and Antifragile, who brings the lens of probability and risk: success stories are riddled with survivorship bias, and we systematically mistake luck for skill. He argues against predicting or 'deserving' any outcome and for positioning instead — guard the downside (never be ruined), open the upside (many cheap small bets), and make yourself antifragile amid uncertainty. The most pragmatic strategist of the floor."
+    },
+    {
+      "id": "calvin",
+      "reason": "宗教改革家、预定论的提出者，为本场带来最彻底的『反功绩』神学：救恩唯独出于恩典，无人能靠功劳挣得，自以为成功是应得的正是最深的骄傲。但他并不因此否定努力——工作是上帝交派的『天职』，当尽力而为却把成败交出去。他用一副药同治成功者的傲慢与失败者的绝望。",
+      "reason_en": "The Reformer who formulated predestination, bringing the most thoroughgoing 'anti-merit' theology: salvation is by grace alone, no one can earn it by deeds, and to think your success is deserved is the deepest pride. Yet he does not therefore deny effort — work is a 'calling' assigned by God, to be done with all one's strength while the outcome is handed over. With a single medicine he treats both the pride of the successful and the despair of those who fail."
+    }
+  ],
+  "posts": [
+    {
+      "id": "p01",
+      "round": 1,
+      "thinker": "machiavelli",
+      "reply_to": null,
+      "text": "谈『应得』之前，先认清世界由两股力量摆布：fortuna 与 virtù。**命运掌管我们大约一半的行动，另一半才留给我们自己。**fortuna 像一条会泛滥的河，你拦不住洪水何时到来；但你可以在晴天预先筑堤挖渠，待水来时损失最小。所以别问『我配得到什么』——那是无能者的安慰；要问『水来时，我准备好了没有』。运气偏爱大胆而有准备的人：时势开的窗口转瞬即逝，virtù 就是在那一刻抓住它的本事。",
+      "text_en": "Before we speak of what is 'deserved,' see that the world is ruled by two forces: fortuna and virtù. **Fortune governs about half of what we do; the other half it leaves to us.** Fortuna is like a river that floods — you cannot stop the waters from coming, but on a clear day you can build dikes and dig channels so the loss is least when they do. So do not ask 'what do I deserve' — that is the consolation of the powerless; ask 'when the flood comes, am I ready?' Fortune favors the bold and the prepared: the window the times open shuts in an instant, and virtù is the skill of seizing it in that moment.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "fortuna": "fortuna（命运／时运）：拉丁文，马基雅维利用以指运气、时势与一切人无法掌控的外部变数，常被他比作会泛滥的河流或喜怒无常的女神。",
+        "virtù": "virtù（能力／德能）：不是道德上的『美德』，而是指果决、魄力与随机应变的政治才干——在命运留出的空间里抓住机会、化险为夷的本事。"
+      },
+      "glossary_en": {
+        "fortuna": "Latin for fortune — Machiavelli's term for luck, circumstance, and every external variable beyond human control, often likened to a flooding river or a capricious goddess.",
+        "virtù": "Not moral 'virtue' but decisiveness, nerve, and the talent to adapt — the capacity to seize opportunity and avert disaster within the space fortune leaves open."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "taleb"
+        ],
+        "轻微赞同": [
+          "buffett",
+          "xunzi"
+        ],
+        "中立": [
+          "nietzsche"
+        ],
+        "轻微反对": [
+          "harris"
+        ],
+        "疑惑": [
+          "huineng",
+          "calvin"
+        ]
+      }
+    },
+    {
+      "id": "p02",
+      "round": 1,
+      "thinker": "harris",
+      "reply_to": null,
+      "text": "我要泼一盆冷水：连『努力』本身都不是你的功劳。你没有选择自己的基因、没有挑选童年的大脑，更没有创造那个『此刻决定多拼一把』的念头——它就那样冒了出来。**能成为一个肯下苦功的人，本身就是运气。**所以追到底，没有什么是深层意义上『应得』的：自由意志经不起推敲。但请别误会，这不是叫你躺平——选择依然真实地改变结果，只是那选择并非凭空自主。看清这一点，你会少一点对失败者的鄙夷，也少一点对自己的苛责。",
+      "text_en": "Let me pour some cold water: even 'effort' itself is not to your credit. You did not choose your genes, did not pick the brain of your childhood, still less author the thought that 'right now, I'll push a little harder' — it simply arose. **To be the kind of person willing to toil is itself luck.** So traced to the bottom, nothing is 'deserved' in any deep sense: free will does not survive scrutiny. But do not mistake me — this is no call to lie flat. Choices still genuinely change outcomes; it is only that the choosing is not freely self-caused. See this clearly, and you will have a little less contempt for those who fail, and a little less harshness toward yourself.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "自由意志": "free will（自由意志）：指人能不受先前因果决定、真正『自主』地选择的能力。哈里斯等人主张，每个念头与决定都由大脑状态、基因与环境等先前原因决定，所谓『本可另作选择』的自由感只是错觉。"
+      },
+      "glossary_en": {
+        "free will": "the supposed capacity to choose in a way not determined by prior causes. Harris argues that every thought and decision is fixed by prior causes — brain state, genes, environment — so the felt freedom to 'have chosen otherwise' is an illusion."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "buffett"
+        ],
+        "轻微赞同": [
+          "taleb"
+        ],
+        "中立": [
+          "calvin",
+          "huineng"
+        ],
+        "轻微反对": [
+          "nietzsche"
+        ],
+        "强烈反对": [
+          "xunzi"
+        ],
+        "疑惑": [
+          "machiavelli"
+        ]
+      }
+    },
+    {
+      "id": "p03",
+      "round": 1,
+      "thinker": "buffett",
+      "reply_to": null,
+      "text": "我这辈子最大的本事，是在对的时间、对的地方出生。想象出生前 24 小时有一场『卵巢彩票』：你蒙着眼摸一个球，决定国籍、年代、性别、智商。我摸到了一个好得离谱的球——一个偏爱『资本配置』这种古怪才能的国家和时代。**换个年代，我的特长一文不值，多半成了某种猛兽的午餐。**起跑线几乎全是运气。但拿到牌之后，几十年如一日的耐心与纪律，确实让它复利滚大了。所以诚实点：把『发到的牌』和『你怎么打』分开来算。",
+      "text_en": "The greatest skill of my life was being born in the right place at the right time. Imagine an 'ovarian lottery' twenty-four hours before birth: blindfolded, you draw one ball that fixes your nationality, era, sex, and IQ. I drew an absurdly good ball — a country and an age that happen to prize the odd talent of allocating capital. **In another era my gift would be worthless, and I'd most likely have been some beast's lunch.** The starting line is almost all luck. But after the hand is dealt, decades of unbroken patience and discipline really did compound it. So be honest: account separately for 'the cards you were dealt' and 'how you played them.'",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "卵巢彩票": "ovarian lottery（卵巢彩票）：巴菲特的比喻——人出生时如同抽彩票，国籍、年代、家庭、天赋等决定命运的关键牌，全在你毫无选择的情况下就发好了；个人努力只能在这副牌之后才登场。"
+      },
+      "glossary_en": {
+        "ovarian lottery": "Buffett's metaphor — being born is like drawing a lottery ticket: the decisive cards of nationality, era, family, and talent are all dealt before you have any say, and personal effort only enters the game after that hand is set."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "taleb",
+          "harris"
+        ],
+        "轻微赞同": [
+          "machiavelli"
+        ],
+        "中立": [
+          "calvin"
+        ],
+        "轻微反对": [
+          "xunzi",
+          "nietzsche"
+        ],
+        "疑惑": [
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p04",
+      "round": 1,
+      "thinker": "xunzi",
+      "reply_to": null,
+      "text": "人之性恶，其善者伪也。骐骥一跃，不能十步；驽马十驾，功在不舍。积土成山，风雨兴焉；积水成渊，蛟龙生焉。**涂之人可以为禹——非天授也，在乎积也。**天行有常，不为尧存，不为桀亡；君子敬其在己者，而不慕其在天者。故运之厚薄，吾不能必；而学之、积之、为之，吾自能主。弃此不为而归咎于命，是自弃也。",
+      "text_en": "Human nature is crude, and what is good in us is acquired. A fine steed in one leap cannot cover ten paces; a poor horse in ten days' harness gets there — the merit is in not giving up. Pile up earth into a mountain and wind and rain arise; pile up water into a deep and dragons are born. **Any man in the street can become a Yu — this is not bestowed by Heaven, it lies in accumulation.** Heaven's course is constant: it does not endure for the sage Yao nor perish for the tyrant Jie. The gentleman attends to what lies in himself and does not yearn after what lies with Heaven. The thickness or thinness of one's luck I cannot guarantee; but to study, to accumulate, to act — of these I am myself the master. To leave this undone and blame fate is to throw oneself away.",
+      "vernacular": "人的本性是粗朴趋利的，所谓善，是后天努力修养出来的。再好的骏马一步也跳不出十步远；再劣的驽马走上十天，靠的就是不停下。一筐筐土堆成高山，风雨就从这儿生起；一股股水汇成深渊，蛟龙就在这儿出现。**路上随便一个普通人，都可以修成大禹那样的圣人——这不是老天给的，全在于一点一滴的积累。**自然的运行有它恒定的规律，不会因为有尧这样的明君就存在，也不会因为有桀这样的暴君就消失；君子只专注于自己能掌控的那部分，而不去艳羡、依赖老天那部分。运气的厚薄，我说了不算；但学习、积累、动手去做，我自己完全做得了主。该做的不做，却把锅甩给命，那就是自暴自弃。",
+      "vernacular_en": "",
+      "glossary": {
+        "性恶": "xing e（性恶）：荀子的核心命题——人天生的本性趋利好争、并无现成的善；善是后天『伪』（刻意修为）与『积』（日积月累）的产物，故成圣全凭努力，不在天赋。",
+        "天行有常": "tian xing you chang（天行有常）：语出《荀子·天论》，意为自然（天）的运行有其恒常规律，不因明君尧而存、不因暴君桀而亡；荀子由此主张人不必祈求或归咎于天，只须尽力于人事。"
+      },
+      "glossary_en": {
+        "nature is crude": "Xunzi's central thesis: human nature is born inclined to gain and strife, with no ready-made goodness; goodness is the product of acquired effort ('wei,' deliberate cultivation) and 'accumulation,' so becoming a sage rests entirely on effort, not innate gift.",
+        "Heaven's course is constant": "From the Xunzi: nature ('Heaven') runs by constant laws — it does not endure for the sage-king Yao nor perish for the tyrant Jie; Xunzi concludes that one should neither petition nor blame Heaven, but apply oneself wholly to human effort."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "machiavelli"
+        ],
+        "轻微赞同": [
+          "nietzsche",
+          "buffett"
+        ],
+        "中立": [
+          "calvin"
+        ],
+        "轻微反对": [
+          "taleb"
+        ],
+        "强烈反对": [
+          "harris"
+        ],
+        "疑惑": [
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p05",
+      "round": 1,
+      "thinker": "huineng",
+      "reply_to": null,
+      "text": "诸君争『应得』，如担枷锁而行。菩提本无树，明镜亦非台，本来无一物，何处惹尘埃？自性本自具足，不假外求，亦不从积得。昔梁武帝问达摩：朕造寺度僧，有何功德？答曰：并无功德——此但人天小果之福德，非功德也。**功德在见自本性，不在外修；福德可积，功德无可积。**故问『我配几分』者，正是那分别取舍之心在作怪；歇却此心，当下即是。",
+      "text_en": "You all contend over what is 'deserved' — and walk as if shouldering a cangue. Bodhi is fundamentally no tree, the bright mirror no stand; originally there is not one thing — where could dust alight? One's own nature is from the first complete; it is not sought outside, nor gained by accumulation. Long ago Emperor Wu of Liang asked Bodhidharma: I have built temples and ordained monks — what merit have I earned? 'No merit at all,' came the reply — that is but the small worldly blessing of men and gods, not true merit. **True merit lies in seeing one's own nature, not in outward works; blessing can be piled up, true merit cannot.** So the one who asks 'how much do I deserve' is precisely the discriminating, grasping mind at work; let that mind rest, and this very moment is it.",
+      "vernacular": "各位争论『应得多少』，就像背着枷锁走路。菩提本来不是树，明镜也不是台，本来什么都没有，哪里会沾上灰尘？人本自具足的佛性，不必向外去求，也不是靠一点点积累来的。从前梁武帝问达摩：我建了那么多寺庙、剃度那么多僧人，有多少功德？达摩说：毫无功德——那只是人天之间的一点世间福报，算不上功德。**真正的功德在于看见自己本来的心性，不在外在的修造；福报可以累积，功德却无从累积。**所以那个老问『我到底配得几分』的人，正是那颗爱分别、爱计较的心在作祟；让这颗心歇下来，当下就是。",
+      "vernacular_en": "",
+      "glossary": {
+        "功德": "gongde（功德）：佛教语。慧能区分『福德』（行善、布施、造寺等换来的世间福报，可累积）与『功德』（见到自己本来清净的佛性、当下觉悟，无可累积）——前者是有得有失的果报，后者不在计量之内。"
+      },
+      "glossary_en": {
+        "true merit": "In Chan Buddhism, Huineng distinguishes 'worldly blessing' (fude — the karmic reward of good deeds, alms, building temples, which can be accumulated) from 'true merit' (gongde — awakening to one's inherently pure Buddha-nature, here and now, which cannot be accumulated): the first is a reward subject to gain and loss, the second lies outside all reckoning."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "nietzsche",
+          "calvin"
+        ],
+        "中立": [
+          "machiavelli",
+          "buffett"
+        ],
+        "轻微反对": [
+          "xunzi"
+        ],
+        "疑惑": [
+          "harris",
+          "taleb"
+        ]
+      }
+    },
+    {
+      "id": "p06",
+      "round": 1,
+      "thinker": "nietzsche",
+      "reply_to": null,
+      "text": "这个『应得』的词，闻着就有一股 ressentiment 的味道。弱者无力反抗，便编出一套道德账本：我的苦是无辜的，强者的得意是邪恶的，总有一天要清算。**问『我配不配』，本身就是奴隶的算计。**高贵的人从不问，他只管去创造、去成为自己。我的解药是 amor fati：爱你的命运，连同那些烂牌——爱到一个地步，哪怕让这一生原封不动地永恒重演，你也甘愿。别再舔『不公平』那道伤口，它只会烂下去；把发生的一切当材料，锻成你的作品。",
+      "text_en": "This word 'deserve' — it already reeks of ressentiment. The weak, powerless to strike back, concoct a moral ledger: my suffering is innocent, the strong man's triumph is wicked, and one day there will be a reckoning. **To ask 'do I deserve this' is itself the slave's bookkeeping.** The noble soul never asks; he simply creates, simply becomes who he is. My antidote is amor fati: love your fate, the bad cards and all — love it so utterly that you would gladly live this very life over, unchanged, for eternity. Stop licking the wound of 'it's unfair'; it will only fester. Take everything that happened as material, and forge it into your work.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "ressentiment": "ressentiment（怨恨）：尼采用的法文词，指弱者因无力直接反抗强者，而把受压抑的敌意转为一种道德上的报复心理——把自己的处境说成『无辜受害』、把强者的成功说成『有罪当罚』，并据此发明出一整套善恶标准。",
+        "amor fati": "amor fati（爱命运）：拉丁文『热爱命运』。尼采主张不只是忍受、而是主动去爱自己的全部遭遇（包括痛苦与失败），把它们当作塑造自己不可或缺的部分。"
+      },
+      "glossary_en": {
+        "ressentiment": "a French term Nietzsche uses for the way the weak, unable to strike back at the strong directly, turn suppressed hostility into a moral revenge — casting their own lot as 'innocent victimhood' and the strong's success as 'guilt deserving punishment,' and inventing a whole scheme of good and evil on that basis.",
+        "amor fati": "Latin for 'love of fate.' Nietzsche urges not merely enduring but actively loving the whole of what befalls you — pain and failure included — as indispensable to becoming who you are."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "machiavelli",
+          "huineng"
+        ],
+        "中立": [
+          "buffett"
+        ],
+        "轻微反对": [
+          "harris",
+          "xunzi"
+        ],
+        "强烈反对": [
+          "calvin"
+        ],
+        "疑惑": [
+          "taleb"
+        ]
+      }
+    },
+    {
+      "id": "p07",
+      "round": 1,
+      "thinker": "taleb",
+      "reply_to": null,
+      "text": "那位 CEO 的回忆录告诉你：是他的好习惯让他发了财。可你有没有想过，那些同样自律、同样拼命、却破产收场的人，他们的回忆录在哪儿？没人写——死人不说话。这就是**幸存者偏差：我们只看见赢家，便把运气误当本事。**我不否认有技艺，但在充满随机性的领域，成功里运气的成分被系统性地高估了。真正聪明的活法不是去『预测』或『配得』，而是把自己摆到一个：坏运气伤不了根、好运气却能大赚一笔的位置上。",
+      "text_en": "That CEO's memoir tells you his good habits made him rich. But have you ever wondered: the people who were just as disciplined, who grinded just as hard, and still went bankrupt — where are their memoirs? No one writes them; dead men don't talk. This is **survivorship bias: we see only the winners, and mistake luck for skill.** I don't deny there is craft, but in domains ruled by randomness, the share of luck in success is systematically overstated. The truly smart way to live is not to 'predict' or 'deserve' an outcome, but to position yourself where bad luck can't touch your roots and good luck can pay off big.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "幸存者偏差": "survivorship bias（幸存者偏差）：只统计『活下来／成功了』的样本，而看不见同样努力却失败、退场、消失的大量案例，于是高估了成功与某些因素（如努力、习惯）之间的因果联系。"
+      },
+      "glossary_en": {
+        "survivorship bias": "counting only the samples that 'survived' or succeeded while never seeing the many who worked just as hard but failed, dropped out, or vanished — and so overestimating the causal link between success and certain factors such as effort or habits."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "buffett",
+          "harris"
+        ],
+        "轻微赞同": [
+          "huineng"
+        ],
+        "中立": [
+          "machiavelli"
+        ],
+        "轻微反对": [
+          "nietzsche"
+        ],
+        "强烈反对": [
+          "xunzi"
+        ],
+        "疑惑": [
+          "calvin"
+        ]
+      }
+    },
+    {
+      "id": "p08",
+      "round": 1,
+      "thinker": "calvin",
+      "reply_to": null,
+      "text": "诸位还在称量『应得』，我却要说：在你抬手做任何事之前，事情早已定下——不凭你的功劳，全凭恩典。没有谁靠自己『挣得』他的地位；以为成功是自己配得的，正是最深的骄傲。**唯独恩典，而非功德——故当谦卑。**但这绝不是叫人懒惰：恰恰相反，工作是上帝给你的『天职』，要勤勉、诚实、卓越地去做，不为换取什么，只为尽你的本分、荣耀那位拣选你的。成与不成都不是你最终的判词，安心把手里的活干好。",
+      "text_en": "You are all still weighing what is 'deserved,' but I say: before you lift a hand to do anything, the matter is already settled — not by your merit, but by grace alone. No one 'earns' his standing by himself; to think your success is deserved is the deepest pride. **Grace alone, not merit — therefore, be humble.** Yet this is no license for idleness: on the contrary, work is the 'calling' God gives you, to be done diligently, honestly, and excellently — not to trade for anything, but to fulfill your part and glorify the One who chose you. Success and failure alike are not your final verdict; set your heart at rest and do the work in your hands well.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "天职": "vocation／calling（天职）：加尔文的观念——人在世上的本分工作（无论贵贱）都是上帝亲自交派的『呼召』。工作不再是赚取救恩的手段，而是回应恩典、荣耀上帝的途径，因此应当尽心尽力地做好。"
+      },
+      "glossary_en": {
+        "calling": "Calvin's idea that one's ordinary work in the world, high or low, is a 'calling' assigned by God himself. Work is no longer a means of earning salvation but a way of responding to grace and glorifying God, and so is to be done with all one's care."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "harris",
+          "huineng"
+        ],
+        "中立": [
+          "buffett"
+        ],
+        "轻微反对": [
+          "machiavelli"
+        ],
+        "强烈反对": [
+          "nietzsche"
+        ],
+        "疑惑": [
+          "xunzi",
+          "taleb"
+        ]
+      }
+    },
+    {
+      "id": "p09",
+      "round": 2,
+      "thinker": "machiavelli",
+      "reply_to": "p02",
+      "text": "@萨姆·哈里斯 你说连努力都是命定的——好，就算如此，那又怎样？河水是否注定要涨，与我该不该筑堤无关。**就算自由意志是幻觉，筑堤的人照样比不筑的人少淹死。**你的决定论在书斋里也许成立，可它对『今天我该做什么』给不出半点指引。命运留了一半空间给我们去填，谁去填、填得好坏，结局天差地别。把一切归于因果而袖手，不是看透，是怯懦——那正是命运最偏爱的猎物。",
+      "text_en": "@Sam Harris You say even effort is fated — fine, and so what? Whether the river is destined to rise has nothing to do with whether I should build a dike. **Even if free will is an illusion, the one who builds the dike still drowns less than the one who doesn't.** Your determinism may hold in the study, but it gives not the slightest guidance on 'what should I do today.' Fortune leaves half the space for us to fill, and who fills it, and how well, makes all the difference in the end. To pin everything on causation and sit on your hands is not insight but cowardice — and that is the prey fortune loves best.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "xunzi"
+        ],
+        "轻微赞同": [
+          "buffett",
+          "taleb"
+        ],
+        "中立": [
+          "nietzsche"
+        ],
+        "轻微反对": [
+          "calvin"
+        ],
+        "强烈反对": [
+          "harris"
+        ],
+        "疑惑": [
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p10",
+      "round": 2,
+      "thinker": "harris",
+      "reply_to": "p04",
+      "text": "@荀子 你说『敬其在己者』——可那个『肯积累、肯坚持』的你，又是从哪来的？是好基因、是没把你压垮的童年、是恰好点燃你的某本书某个人，一并塞给你的。**连『要努力』这个念头，都不是你自己凭空造出来的。**我不是要你停下，努力当然改变结果；我是要你看清：你能努力，已经是一种没领到的好运。看清了，对那些『就是提不起劲』的人，你会多一分慈悲，少一分『他们活该』的冷酷。",
+      "text_en": "@Xunzi You say 'attend to what lies in yourself' — but that 'you' who is willing to accumulate and persevere, where did it come from? It was handed to you whole: good genes, a childhood that didn't crush you, the particular book or person that happened to light you up. **Even the thought 'I should try hard' is not something you conjured from nothing.** I'm not telling you to stop — effort of course changes outcomes; I'm telling you to see clearly: that you can strive is already an undrawn stroke of luck. See it, and toward those who 'just can't get going' you'll feel a little more compassion and a little less of the coldness of 'they had it coming.'",
+      "vernacular": null,
+      "vernacular_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "buffett"
+        ],
+        "轻微赞同": [
+          "taleb",
+          "huineng"
+        ],
+        "中立": [
+          "calvin"
+        ],
+        "轻微反对": [
+          "machiavelli"
+        ],
+        "强烈反对": [
+          "xunzi"
+        ],
+        "疑惑": [
+          "nietzsche"
+        ]
+      }
+    },
+    {
+      "id": "p11",
+      "round": 2,
+      "thinker": "buffett",
+      "reply_to": "p07",
+      "text": "@塔勒布 幸存者偏差你说得对，我也常拿它提醒自己。但别把孩子和洗澡水一起倒了。**若成功纯属运气，为什么有些人能几十年、跨越无数次决策稳定地跑赢？那已经不是抛硬币能解释的了。**运气决定你拿到什么牌，没错；可同一副牌，急躁的人和有耐心的人打出来天差地别。投资场上拉开差距的，往往不是智商，而是性情——而性情，是可以一点点修来的。运气给底牌，纪律打复利，两样都真。",
+      "text_en": "@Taleb You're right about survivorship bias, and I remind myself of it often. But don't throw out the baby with the bathwater. **If success were pure luck, why do some people outperform steadily for decades, across countless decisions? That's no longer something a coin flip explains.** Luck decides what cards you hold, true; but the same hand, played by an impatient man and a patient one, comes out worlds apart. What separates investors is usually not IQ but temperament — and temperament can be cultivated, bit by bit. Luck deals the hand, discipline compounds it. Both are real.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "xunzi"
+        ],
+        "轻微赞同": [
+          "machiavelli"
+        ],
+        "中立": [
+          "calvin",
+          "nietzsche"
+        ],
+        "轻微反对": [
+          "taleb"
+        ],
+        "强烈反对": [
+          "harris"
+        ],
+        "疑惑": [
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p12",
+      "round": 2,
+      "thinker": "xunzi",
+      "reply_to": "p02",
+      "text": "哈里斯谓『能努力亦是命』，欲以此销人之功，吾不取也。纵天授我以可努力之质，用与不用，仍在我手。**君子役物，小人役于物**；以命解己之惰，是役于命也。且吾言『积』，不在必得厚报——天行有常，报之厚薄非吾能必；然学焉、为焉，其在我者，命不能夺。以无可必之果，废可自主之功，岂智者所为？故知命而不诿于命，方是大丈夫。",
+      "text_en": "Harris says 'even being able to strive is fate,' and would thereby dissolve a person's effort — I will not have it. Granting that Heaven gave me the makings of one who can strive, whether I use them or not is still in my hand. **The gentleman masters things; the small man is mastered by them** — to excuse one's own sloth by appeal to fate is to be mastered by fate. And when I speak of 'accumulation,' I do not mean a rich reward is guaranteed — Heaven's course is constant, and how thick or thin the return I cannot ensure; yet to study and to act, what lies in me, fate cannot strip away. To abandon the effort I can command for the sake of an outcome no one can guarantee — is that the act of a wise man? So to know fate yet not foist things off onto it is what makes a great man.",
+      "vernacular": "哈里斯说『能努力本身也是命』，想用这话把人的功劳一笔勾销，我不接受。就算是上天给了我『能努力』的资质，用还是不用，仍然攥在我自己手里。**有修养的人驾驭境遇，没出息的人被境遇牵着走**；拿『命』来给自己的懒惰开脱，恰恰是被命牵着走。何况我讲『积累』，并不是说一定能换来丰厚回报——自然的运行有常，回报厚薄我保证不了；可是学习、动手，这些『在我这一边』的事，命运夺不走。为了一个谁也保证不了的结果，就把自己本可做主的努力废掉，这难道是聪明人干的事？所以认清命的限度、却不把责任推给命，才算顶天立地。",
+      "vernacular_en": "",
+      "glossary": {
+        "君子役物，小人役于物": "junzi yi wu, xiaoren yi yu wu（君子役物，小人役于物）：语本《荀子·修身》，意为有修养的人驾驭外物（与境遇），没出息的人反被外物（与境遇）所驱使；荀子借此强调人对自己作为的主导权。"
+      },
+      "glossary_en": {
+        "gentleman masters things": "From the Xunzi: the cultivated person masters external things (and circumstances), while the small person is mastered by them — Xunzi's way of insisting on a person's command over their own conduct."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "machiavelli"
+        ],
+        "轻微赞同": [
+          "buffett",
+          "calvin"
+        ],
+        "中立": [
+          "nietzsche"
+        ],
+        "轻微反对": [
+          "taleb"
+        ],
+        "强烈反对": [
+          "harris"
+        ],
+        "疑惑": [
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p13",
+      "round": 2,
+      "thinker": "huineng",
+      "reply_to": null,
+      "text": "诸君你来我往，或归于命，或归于力，争得正欢——却不见，争的那个『我应得几何』，本身就是系缚。**问题不在答案是『努力』还是『运气』，而在那颗一刻不停在称量得失的心。**努力派执于『积』，怕一松手前功尽弃；认命派执于『命』，借它卸下担子：两头都还在那本账上打转。我不劝你信哪一边，只劝你看一眼那颗算账的心——它一歇，得失的重量当下就轻了。该耕的田仍旧去耕，只是不必边耕边数自己配几斗米。",
+      "text_en": "You volley back and forth — some pinning it on fate, some on effort — and quarrel with relish, yet do not see that the very thing you contend over, 'how much do I deserve,' is itself a bondage. **The problem is not whether the answer is 'effort' or 'luck,' but the mind that never stops weighing gain and loss.** The effort party clings to 'accumulation,' afraid that to loosen its grip is to lose all prior gains; the fate party clings to 'fate,' using it to set down the load: both still spin within the same ledger. I urge you to believe neither side; I urge you only to glance at that accounting mind — let it rest for one moment, and the weight of gain and loss grows light at once. The field that must be plowed, go on plowing; only do not, as you plow, keep counting how many pecks of rice you are owed.",
+      "vernacular": "各位你一言我一语，有人把账算到命头上，有人算到努力头上，争得不亦乐乎——却没看见，你们争的那个『我到底应得多少』，本身就是一道捆绑。**问题不在于答案是『努力』还是『运气』，而在于那颗一刻不停在掂量得失的心。**讲努力的人，执着于『积累』，生怕一松手就前功尽弃；认命的人，执着于『命』，好借它把担子卸下：两边其实都还在同一本账上打转。我不劝你站哪一边，只劝你回头看一眼那颗算账的心——它一旦歇下来，得失的分量当下就轻了。该种的田照样去种，只是不必一边种、一边数着自己配分几斗米。",
+      "vernacular_en": "",
+      "reactions": {
+        "强烈赞同": [
+          "nietzsche"
+        ],
+        "轻微赞同": [
+          "calvin"
+        ],
+        "中立": [
+          "machiavelli",
+          "buffett"
+        ],
+        "轻微反对": [
+          "harris"
+        ],
+        "强烈反对": [
+          "xunzi"
+        ],
+        "疑惑": [
+          "taleb"
+        ]
+      }
+    },
+    {
+      "id": "p14",
+      "round": 2,
+      "thinker": "nietzsche",
+      "reply_to": "p08",
+      "text": "@加尔文 你把『不配』说成谦卑，我闻到的还是那股 ressentiment，只是穿上了神袍。预定、恩典、人在神前一无可夸——这套话把人最旺盛的生命力，悄悄说成了罪。**你叫人跪着感恩，其实是叫强者为自己的强而羞愧。**真正的谦卑不是否认自己的力量，而是承担它、用它去创造。我不要一个在创世前就替我写好结局的剧本；我要亲手成为我自己，并爱上这一路的全部代价。把头抬起来——不是去配得谁的拣选，而是去铸造一个值得永恒重演的人生。",
+      "text_en": "@Calvin You call 'undeserving' humility; what I still smell is that same ressentiment, only now in priestly robes. Predestination, grace, man with nothing to boast of before God — this talk quietly recasts man's most abundant life-force as sin. **You bid men kneel in gratitude; in truth you bid the strong be ashamed of their strength.** True humility is not denying your power but bearing it, using it to create. I want no script that wrote my ending before the world began; I want to become myself by my own hand, and to love the whole cost of the journey. Lift your head — not to deserve someone's election, but to forge a life worth living over for eternity.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "reactions": {
+        "轻微赞同": [
+          "machiavelli"
+        ],
+        "中立": [
+          "buffett",
+          "taleb"
+        ],
+        "轻微反对": [
+          "harris",
+          "huineng"
+        ],
+        "强烈反对": [
+          "calvin"
+        ],
+        "疑惑": [
+          "xunzi"
+        ]
+      }
+    },
+    {
+      "id": "p15",
+      "round": 2,
+      "thinker": "taleb",
+      "reply_to": "p01",
+      "text": "@马基雅维利 筑堤这比喻我喜欢一半。问题是：真正要命的洪水，是你预测不到、史上没见过的那种——黑天鹅。**你按过去的水位筑的堤，恰恰挡不住那场前所未有的大水。**所以与其赌自己能算准、能配得上某个结局，不如把策略反过来：第一，绝不把自己置于一败涂地的位置（坏运气的尾巴会要你的命）；第二，多下小注、保留大量选择权，让好运气来时你恰好在场。别去预测河，让自己反脆弱——水越乱，你越有机会捞到上行。",
+      "text_en": "@Machiavelli I half-love the dike metaphor. The trouble is: the floods that truly kill are the ones you can't predict, that history has never seen — black swans. **The dike you build to past water levels is exactly what fails to hold back the unprecedented deluge.** So rather than bet that you can forecast and 'deserve' some outcome, flip the strategy: first, never put yourself where a single blow can ruin you (the tail of bad luck will end you); second, place many small bets, keep plenty of optionality, so that when good luck comes you happen to be in the room. Don't predict the river — make yourself antifragile: the wilder the water, the more upside you stand to scoop.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "黑天鹅": "black swan（黑天鹅）：塔勒布用语，指极其罕见、事前几乎无法预测、事后却被强行解释得『理所当然』、且影响巨大的事件；人们习惯按过去经验防范，恰恰对这类事件毫无招架之力。",
+        "反脆弱": "antifragile（反脆弱）：塔勒布生造的词，指一种从波动、混乱与冲击中不仅能存活、反而能获益、变得更强的性质——与『脆弱』相反，也强于仅仅『不受影响』的『强韧』。"
+      },
+      "glossary_en": {
+        "black swan": "Taleb's term for an event that is extremely rare, all but unpredictable beforehand, rationalized as 'obvious' after the fact, and hugely consequential; people guard against it by past experience and so are precisely defenseless against it.",
+        "antifragile": "Taleb's coinage for a property that does not merely survive volatility, disorder, and shocks but actually gains from them and grows stronger — the opposite of fragile, and beyond merely 'robust,' which is only unaffected."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "harris"
+        ],
+        "轻微赞同": [
+          "huineng"
+        ],
+        "中立": [
+          "buffett",
+          "calvin"
+        ],
+        "轻微反对": [
+          "machiavelli",
+          "nietzsche"
+        ],
+        "强烈反对": [
+          "xunzi"
+        ]
+      }
+    },
+    {
+      "id": "p16",
+      "round": 2,
+      "thinker": "calvin",
+      "reply_to": "p14",
+      "text": "@尼采 你说我把生命力说成罪，又叫我把头抬起来。可你那昂着头、自我铸造的『强者』，在我看，正是最古老的那宗罪——骄傲。**人最大的幻觉，就是以为自己是自己的作者。**我和哈里斯从两条路走到同一个结论：没有谁是白手起家的——他说是基因与因果，我说是恩典与护理。差别在于：我没有因此取消工作的意义。把活计当天职，尽心做好，却把成败交出去——这既治得了你那骄傲，也治得了失败者的绝望。两样病，一副药：你不是自己的审判官。",
+      "text_en": "@Nietzsche You say I cast life-force as sin, and you bid me lift my head. But that head-high, self-forged 'strong man' of yours is, to my eyes, the oldest sin of all — pride. **Man's greatest illusion is to think he is his own author.** Harris and I arrive by two roads at one conclusion: no one is self-made — he says genes and causation, I say grace and providence. The difference is that I do not therefore cancel the meaning of work. Take your labor as a calling, do it with all your heart, yet hand the outcome over — this cures both your pride and the despair of those who fail. Two diseases, one medicine: you are not your own judge.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "huineng"
+        ],
+        "轻微赞同": [
+          "harris",
+          "xunzi"
+        ],
+        "中立": [
+          "buffett"
+        ],
+        "轻微反对": [
+          "taleb"
+        ],
+        "强烈反对": [
+          "nietzsche"
+        ],
+        "疑惑": [
+          "machiavelli"
+        ]
+      }
+    },
+    {
+      "id": "p17",
+      "round": 3,
+      "thinker": "machiavelli",
+      "reply_to": null,
+      "text": "听完一圈，我的结论没变，却更笃定：运气与努力，从不是二选一，而是分工。fortuna 发牌、定时机，这一半你认了；virtù 决定牌来时你抓不抓得住，这一半你别让。**别把精力花在算自己配得多少，全花在『让机会来临时，撞见一个准备好的你』。**给普通人三件实事：一，在风平浪静时筑堤——攒下应急的钱、练就一身随时能用的本事、织好你的人脉网，洪水才冲不垮你；二，机会的窗口往往只开一瞬，平时备足，敢在那一刻出手；三，复盘只问『我哪步可以做得更好』，少问『老天为何不公』。命运偏爱有准备的大胆者，从不偏爱怨天的人。",
+      "text_en": "Having heard the round, my conclusion is unchanged but firmer: luck and effort are never an either-or, but a division of labor. Fortuna deals the cards and sets the timing — that half, accept; virtù decides whether you seize the moment when it comes — that half, do not yield. **Don't spend your energy reckoning how much you deserve; spend it all on 'making sure that, when opportunity arrives, it meets a prepared you.'** Three concrete things for ordinary people: first, build the dike in calm weather — save an emergency fund, hone skills you can use at any moment, weave your network, so the flood can't sweep you away; second, the window of opportunity often opens for only an instant — stock up in advance and dare to act in that moment; third, in review ask only 'where could I have done better,' not 'why is Heaven unfair.' Fortune favors the prepared and the bold, never those who blame the sky.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "buffett",
+          "taleb"
+        ],
+        "轻微赞同": [
+          "xunzi",
+          "nietzsche"
+        ],
+        "中立": [
+          "calvin"
+        ],
+        "轻微反对": [
+          "harris"
+        ],
+        "疑惑": [
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p18",
+      "round": 3,
+      "thinker": "harris",
+      "reply_to": null,
+      "text": "我这一场只想松开一样东西：你肩上那套『成败都是我应得』的重担。看清自由意志的虚幻，不会让你瘫掉，反而卸下两种毒——成功者的傲慢，与失败者的自责。**当你真的明白，连『肯努力』都是运气，你会对别人、也对自己，温柔得多。**给三条今天就能用的：一，把『我怎么这么没用』换成『是什么原因让我此刻动不了』——从自责转向探究，行动反而更容易启动；二，既然意志本身也被环境塑造，就别死磕意志力，去改造环境：把手机锁起来、把跑鞋摆门口；三，看到混得差的人，先想他抽到了什么牌，再下评判。慈悲不是矫情，是看清因果后的自然反应。",
+      "text_en": "All I want this round is to loosen one thing: that load on your shoulders that 'success and failure are both what I deserve.' Seeing the unreality of free will won't paralyze you — it lifts two poisons: the pride of the successful and the self-blame of those who fail. **When you truly grasp that even 'being willing to try' is luck, you grow far gentler toward others, and toward yourself.** Three things you can use today: first, swap 'why am I so useless' for 'what's making me unable to move right now' — shift from self-blame to inquiry, and action starts more easily; second, since the will itself is shaped by environment, stop grinding on willpower and reshape the environment instead: lock the phone away, set the running shoes by the door; third, when you see someone struggling, consider what cards they drew before you judge. Compassion isn't sentimentality — it's the natural response once you see the causes clearly.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "taleb"
+        ],
+        "轻微赞同": [
+          "buffett",
+          "huineng"
+        ],
+        "中立": [
+          "calvin"
+        ],
+        "轻微反对": [
+          "machiavelli"
+        ],
+        "强烈反对": [
+          "xunzi"
+        ],
+        "疑惑": [
+          "nietzsche"
+        ]
+      }
+    },
+    {
+      "id": "p19",
+      "round": 3,
+      "thinker": "buffett",
+      "reply_to": null,
+      "text": "我的总结很朴素：把『发到的牌』和『你怎么打牌』分开，是一生最值钱的清醒。牌——国籍、年代、家庭、天赋——基本是运气，你没资格邀功，也不必为没摸到好牌而自恨。**但拿牌之后，耐心、诚实、不熄火的纪律，是你真正能攒的复利。**给普通人三条：一，过得比你能承受的更省一点，留足底气，这样坏运气来了伤不了根，你也不必在最差的时机被迫做决定；二，认清自己的『能力圈』，只在看得懂的地方下注，圈外的热闹少凑；三，因为你知道自己赢在运气，就慷慨些、感恩些——回馈不是道德姿态，是对那张好球最体面的回应。",
+      "text_en": "My summary is plain: separating 'the cards you were dealt' from 'how you play them' is the most valuable clarity of a lifetime. The cards — nationality, era, family, talent — are basically luck; you've no right to take credit, nor any need to hate yourself for a poor hand. **But after the deal, patience, honesty, and discipline that never cuts out are the compound interest you can truly accumulate.** Three for ordinary people: first, live a notch below what you can afford, keep a cushion, so bad luck can't hit your roots and you're never forced to decide at the worst moment; second, know your 'circle of competence,' bet only where you understand, and skip the excitement outside it; third, because you know you won on luck, be generous and grateful — giving back isn't a moral pose, it's the most decent response to a good pitch.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "machiavelli",
+          "taleb"
+        ],
+        "轻微赞同": [
+          "calvin",
+          "xunzi"
+        ],
+        "中立": [
+          "harris"
+        ],
+        "轻微反对": [
+          "nietzsche"
+        ],
+        "疑惑": [
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p20",
+      "round": 3,
+      "thinker": "xunzi",
+      "reply_to": null,
+      "text": "吾终言之：命之所至，吾不能尽必；而身之所为，吾固能自主。骐骥驽马之喻，旨在一『不舍』。**锲而舍之，朽木不折；锲而不舍，金石可镂。**君子之学，不为必得厚报，为成其身也；纵报之不至，所积者已在我，命不能夺。与诸普通人言：其一，择一可积之事，日日为之，毋以善小而不为、毋因未见效而中辍；其二，敬其在己、不慕在天——能改者尽力改，不能改者勿萦于怀；其三，遇拂逆勿怨天尤人，反求诸己之可进者。积之不已，虽不必为禹，亦必远胜昨日之我。",
+      "text_en": "Let me say it finally: where fate reaches, I cannot fully ensure; but what my own person does, that I can command. The image of the fine steed and the poor horse turns on one thing — not giving up. **Carve and abandon it, and rotten wood will not break; keep carving and never stop, and metal and stone can be cut through.** The gentleman's learning is not for a guaranteed rich reward but to complete himself; even if the reward never comes, what has been accumulated is already in me, and fate cannot take it. To you ordinary people I say: first, choose one thing that can be accumulated and do it day by day — do not skip it because the good is small, nor break off because no result yet shows; second, attend to what lies in yourself and do not yearn after Heaven — what can be changed, change with all your strength; what cannot, do not let it haunt you; third, when crossed and thwarted, do not blame Heaven or others, but turn back and seek where you yourself can improve. Accumulate without ceasing, and though you need not become a Yu, you will surely far surpass the you of yesterday.",
+      "vernacular": "我最后说一句：命运能到哪一步，我没法完全保证；但自己去做的事，我本来就做得了主。骏马和驽马那个比方，关键只在两个字——不停。**刻几下就放弃，朽木也刻不断；不停地刻下去，再硬的金石也能雕穿。**君子求学，不是为了一定换来丰厚的回报，而是为了成全自己；就算回报始终没来，积累下的东西已经长在我身上，命运夺不走。对各位普通人，我有三句话：第一，挑一件能积累的事，每天去做，别因为好处小就不做、也别因为还没见效就半途而废；第二，专注于自己能掌控的，不去艳羡老天那一份——改得动的全力去改，改不动的别老挂在心上；第三，遇到不顺别怨天怨人，回头找找自己还能进步的地方。这样不停地积累，就算成不了大禹，也一定远远胜过昨天的自己。",
+      "vernacular_en": "",
+      "glossary": {
+        "锲而不舍，金石可镂": "qie er bu she, jin shi ke lou（锲而不舍，金石可镂）：语出《荀子·劝学》，意为只要不停地刻下去，再坚硬的金石也能雕穿；比喻持之以恒的功夫足以成就看似不可能的事。"
+      },
+      "glossary_en": {
+        "keep carving and never stop": "From the Xunzi's 'Encouraging Learning': if you keep carving without stopping, even metal and stone can be cut through — an image of how sustained, unrelenting effort can accomplish what seems impossible."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "machiavelli"
+        ],
+        "轻微赞同": [
+          "buffett",
+          "calvin"
+        ],
+        "中立": [
+          "nietzsche"
+        ],
+        "轻微反对": [
+          "taleb"
+        ],
+        "强烈反对": [
+          "harris"
+        ],
+        "疑惑": [
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p21",
+      "round": 3,
+      "thinker": "huineng",
+      "reply_to": null,
+      "text": "吾之总结，只一句：放下那本账。诸君忙于算命算力、算自己配得几何，愈算愈苦。**不思善，不思恶——歇却分别取舍之心，当下便是自在。**然莫误会，放下账本非教人懒散，乃教人尽力而不挂心：田照耕，事照做，唯不于其上添一层『我应得』的执念。与寻常人三语：其一，『我何以这般命苦』之念炽然时，莫与之争辩，看它一眼，任它来去；其二，做眼前事，莫一边做一边算回报，回报来不来，皆莫动心；其三，于他人之得失，少生分别——得意时不傲，失意时不卑。心无所住，事却样样做得圆满。",
+      "text_en": "My summary is a single line: set down the ledger. You all toil at reckoning fate and effort, reckoning how much you're owed, and the more you reckon the more you suffer. **Think not of good, think not of evil — let the discriminating, grasping mind rest, and this very moment is freedom.** Yet do not mistake me: setting down the ledger does not teach idleness; it teaches doing your utmost without clinging — the field still plowed, the task still done, only without laying over it the fixation 'this is what I deserve.' Three words for ordinary people: first, when the thought 'why is my lot so bitter' blazes up, do not argue with it — give it one glance and let it come and go; second, do the thing before you without, as you do it, counting the reward — whether it comes or not, let the mind not stir; third, toward others' gains and losses breed little discrimination — in success not proud, in failure not abject. Let the mind dwell nowhere, and yet every task is brought to completion.",
+      "vernacular": "我的总结，只有一句：放下那本账。各位忙着算命、算努力、算自己到底配得几分，越算越苦。**不思量善、不思量恶——让那颗爱分别、爱计较的心歇下来，当下就是自在。**但别误会，放下账本不是教人懒散，而是教人尽力却不挂心：田照样种、事照样做，只是不在上面再添一层『这是我应得的』执念。给普通人三句话：第一，『我怎么这么命苦』的念头烧起来时，别跟它争辩，看它一眼，由它来、由它去；第二，做眼前的事，别一边做一边算回报，回报来不来，都别动心；第三，对别人的得失，少分别心——得意时不骄傲，失意时不自卑。心不停驻在任何得失上，事情却样样都做得圆满。",
+      "vernacular_en": "",
+      "glossary": {
+        "心无所住": "xin wu suo zhu（心无所住）：语本《金刚经》『应无所住而生其心』，意为心不执着、停驻于任何对象（得失、毁誉、是非）之上，却仍照常生起、应对万事；是禅宗『在做事中不被事牵着走』的修行旨要。"
+      },
+      "glossary_en": {
+        "Let the mind dwell nowhere": "From the Diamond Sutra ('let the mind arise without dwelling anywhere'): the mind clings to and rests on nothing — gain or loss, praise or blame — yet still arises and meets all things as usual; the Chan teaching of acting in the world without being dragged about by it."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "calvin",
+          "nietzsche",
+          "harris"
+        ],
+        "中立": [
+          "machiavelli",
+          "buffett"
+        ],
+        "轻微反对": [
+          "xunzi"
+        ],
+        "疑惑": [
+          "taleb"
+        ]
+      }
+    },
+    {
+      "id": "p22",
+      "round": 3,
+      "thinker": "nietzsche",
+      "reply_to": null,
+      "text": "我的结语：别清算，去创造。运气也好、命定也罢，纠缠『公不公平、配不配』，都是把目光投向身后那本旧账；而生命要的是向前，是把手里的一切——包括烂牌、包括伤口——熔成你独一无二的作品。**amor fati：不是认命，而是爱命到敢让它永恒重演。**给普通人三件事：一，停止反复排练『这不公平』——那台戏演得越熟，你越虚弱；二，把一桩最深的遗憾或屈辱，改写成一个具体的创造计划：学一门手艺、做一件作品、扛起一项事业，让那道伤成为养料；三，每做一个选择前问自己——这件事，我愿意一模一样地再过一万次吗？愿意，就去做；不愿意，就别将就。",
+      "text_en": "My closing word: don't settle accounts — create. Luck or fate, to fret over 'is it fair, do I deserve it' is to turn your gaze backward to an old ledger; but life wants forward motion — to melt everything in your hands, the bad cards and the wounds alike, into your one unrepeatable work. **Amor fati: not resignation, but loving fate so fiercely you'd dare to live it again for eternity.** Three things for ordinary people: first, stop rehearsing 'this is unfair' — the better you perform that play, the weaker you grow; second, take one of your deepest regrets or humiliations and rewrite it into a concrete creative plan: learn a craft, make a work, shoulder an undertaking, and let the wound become fertilizer; third, before each choice ask yourself — this thing, would I be willing to live it ten thousand times exactly as it is? If yes, do it; if no, don't settle.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "machiavelli"
+        ],
+        "轻微赞同": [
+          "huineng",
+          "buffett"
+        ],
+        "中立": [
+          "taleb"
+        ],
+        "轻微反对": [
+          "harris",
+          "xunzi"
+        ],
+        "强烈反对": [
+          "calvin"
+        ]
+      }
+    },
+    {
+      "id": "p23",
+      "round": 3,
+      "thinker": "taleb",
+      "reply_to": null,
+      "text": "我的总结只有一条铁律：先活下来，别被尾巴扫死。在随机性主宰的世界里，聪明不是预测对，而是布局对——让坏运气伤不了你的根，好运气却能让你大赚。**别去赌你能算准未来，要让自己反脆弱：水越浑，你越有得捞。**给普通人三招：一，先建一道『不被毁灭』的防线——半年以上的应急金、不上能让你倾家荡产的杠杆，守住下行；二，多布廉价的小注：副业、新技能、弱关系，单个亏得起，万一押中却能翻盘，这就是把好运气的入口敞开；三，对那些『我这套习惯让我成功』的导师，打个折扣听——你没见到的，是同样努力却出局的一整片墓地。",
+      "text_en": "My summary is one iron rule: survive first, don't get swept away by the tail. In a world ruled by randomness, smart is not predicting right but positioning right — so bad luck can't touch your roots while good luck can pay you big. **Don't bet that you can forecast the future; make yourself antifragile: the murkier the water, the more there is to scoop.** Three moves for ordinary people: first, build a 'cannot-be-destroyed' line — an emergency fund of half a year or more, no leverage that could wipe you out, guard the downside; second, place many cheap small bets: a side gig, new skills, weak ties — each affordable to lose, but should one hit it turns the game; that's leaving the door to good luck open; third, listen at a discount to gurus who say 'my habits made me succeed' — what you don't see is a whole graveyard of the equally hardworking who got knocked out.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "buffett",
+          "harris"
+        ],
+        "轻微赞同": [
+          "machiavelli"
+        ],
+        "中立": [
+          "nietzsche",
+          "huineng"
+        ],
+        "轻微反对": [
+          "calvin"
+        ],
+        "强烈反对": [
+          "xunzi"
+        ]
+      }
+    },
+    {
+      "id": "p24",
+      "round": 3,
+      "thinker": "calvin",
+      "reply_to": null,
+      "text": "我的结语，是一副治两种病的药。成功者的傲慢，与失败者的绝望，看似相反，根子却同一个——都以为那张最终判词，是自己挣来的。**把成败从『我应得』的天平上取下来，傲慢与绝望就一起松了手。**我信这判词在恩典手里；你纵不信神，也能守住那份『成不全靠我、败不全怪我』的清醒。给普通人三件事：一，挑一份你愿意当『天职』来做的活，把它做到诚实而卓越，不为谁的掌声，只为对得起这份本分；二，每天临睡，数三件不靠你努力也白白得来的好——这是骄傲的解毒剂；三，尽完力就把结果交出去，别让一次成败定义你整个人。你不是自己的审判官，松口气，好好干。",
+      "text_en": "My closing word is a medicine for two diseases. The pride of the successful and the despair of those who fail look opposite, but share one root — both assume the final verdict is something you earned. **Take success and failure off the scale of 'what I deserve,' and pride and despair both let go at once.** I believe that verdict rests in the hands of grace; but even if you don't believe in God, you can keep the clarity that 'success isn't all me, and failure isn't all my fault.' Three things for ordinary people: first, choose work you'd be willing to treat as a 'calling,' and do it honestly and excellently — not for anyone's applause, but to be worthy of the task itself; second, each night before sleep, count three good things you got freely, not by your effort — an antidote to pride; third, give your full effort, then hand over the result; don't let one success or failure define your whole self. You are not your own judge — breathe out, and do good work.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "huineng"
+        ],
+        "轻微赞同": [
+          "harris",
+          "buffett",
+          "xunzi"
+        ],
+        "中立": [
+          "machiavelli"
+        ],
+        "轻微反对": [
+          "taleb"
+        ],
+        "强烈反对": [
+          "nietzsche"
+        ]
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "ai": "claude",
+      "engine": "Opus 4.8 · 订阅(原生)",
+      "engine_en": "Opus 4.8 · subscription (native)",
+      "summary": "八个人吵到最后，竟在一处罕见地合流：把『努力』与『运气』对立起来问『谁说了算』，本身就问偏了。没人否认起跑线由大量你无法选择的牌决定——巴菲特的卵巢彩票、塔勒布的幸存者偏差、哈里斯的神经决定论，从三个方向钉死了这一点。分歧在拿牌之后：荀子与马基雅维利说，命运留下的那一半空间，正是努力大显身手之处，弃之不为即自暴自弃；慧能、尼采、加尔文则齐声说『放下那本应得的账』——但理由南辕北辙：慧能为破分别心，尼采为腾出创造的手，加尔文为把判词交给恩典。**同一句『别再计较应得』，通向的却是禅定、强力意志与谦卑三条全然不同的路。**",
+      "summary_en": "After eight thinkers argue to the end, they converge at one rare point: to pit 'effort' against 'luck' and ask 'which decides' is to ask the question crooked. No one denies the starting line is fixed by a pile of cards you can't choose — Buffett's ovarian lottery, Taleb's survivorship bias, Harris's neural determinism nail it from three directions. The split is over what comes after the deal: Xunzi and Machiavelli say the half-space fortune leaves is exactly where effort shines, and to abandon it is to throw yourself away; Huineng, Nietzsche, and Calvin chorus 'set down the ledger of desert' — but for opposite reasons: Huineng to break the discriminating mind, Nietzsche to free the hand for creation, Calvin to hand the verdict to grace. **The same line, 'stop tallying what you deserve,' leads down three utterly different roads: meditation, the will to power, and humility.**",
+      "insight": "一个被全场默默混为一谈的区分，值得拎出来：『成功是否应得』与『努力是否划算』根本是两个问题——前者问道德与形而上的『配』，后者问概率与回报。一旦分开，大半争执自行消解：你完全可以同时握住『没有谁在终极意义上配得什么』与『努力仍切实提高胜率』。**真正的分水岭不在乐观派与认命派之间，而在『必须靠应得的故事才撑得住努力的人』与『不需要那故事也照样行动的人』之间。**多数人是前者——一旦看穿应得是幻觉，动力就垮了；这恰恰暴露：我们对努力的坚持，长期借的是一个并不牢靠的道德叙事。",
+      "insight_en": "One distinction the whole floor quietly blurred is worth pulling out: 'is success deserved' and 'does effort pay' are simply two different questions — the first asks about moral and metaphysical desert, the second about probability and return. Separate them and most of the quarrel dissolves: you can perfectly well hold both 'no one ultimately deserves anything' and 'effort still genuinely raises your odds.' **The real watershed is not between optimists and fatalists, but between those who need the desert-story to keep striving and those who can act without it.** Most are the former — once they see desert is an illusion, their motivation collapses; which exposes that our persistence at effort has long been borrowing against a shaky moral narrative.",
+      "advice": "今晚就能做的三件小事，分别对应今天最实用的三种声音。其一，学巴菲特做一次『诚实的牌局清算』：拿张纸，左边写下你这辈子白捡的好运（出身、健康、关键的贵人），右边写你真正用功打出来的；你会同时变谦卑、也更清楚下一步该往哪使劲。其二，学塔勒布守住下行：检查你有没有一笔半年以上的应急金、有没有不该背的杠杆——先让坏运气伤不了根。其三，学荀子与慧能各取一半：挑一件能日积月累的小事，每天做，但做的时候别一路数着回报。**尽力而不挂心，是这场辩论留给普通人最稳的姿态。**",
+      "advice_en": "Three small things you can do tonight, each matching one of the day's most practical voices. First, do a Buffett-style 'honest accounting of the hand': take a sheet of paper, on the left write the luck you got for free (your birth, your health, the key people who helped you), on the right what you truly earned by effort; you'll grow both humbler and clearer about where to push next. Second, do as Taleb says and guard the downside: check whether you have an emergency fund of half a year or more, and whether you're carrying leverage you shouldn't — make sure bad luck can't reach your roots first. Third, take half from Xunzi and half from Huineng: pick one small thing you can accumulate daily and do it, but don't keep tallying the reward as you go. **Full effort without clinging is the steadiest stance this debate leaves for ordinary people.**"
+    },
+    {
+      "ai": "gpt",
+      "engine": "openai · gpt-5.5 · high(真实API)",
+      "engine_en": "openai · gpt-5.5 · high (live API)",
+      "summary": "这场最大的共识是：成功不能全算功劳，失败也不能全算罪过；出身、时代、性情、偶然机会都深深参与了结局。**但承认运气，并不取消行动的价值。**真正的分歧在于：行动究竟是自由选择、因果产物、修养结果，还是天命或心念的显现；以及我们该把重心放在自我锻造、慈悲谦卑、制度公平，还是内心放下。可带走的主线很清楚：别用“应得”审判整个人，把注意力转向准备、复盘、风险控制和对他人的宽厚。",
+      "insight": "努力不是直接兑换命运的硬币，它更像投入一台“转化器”：健康、家庭、学校、行业、城市、制度、贵人、时机，都会决定同样一份努力能产出多少结果。有人一小时学习能累积资本，有人一小时只是补睡眠债、照护债、经济债。**所以更务实的问题不是努力能否决定命运，而是怎样提高努力转化为结果的概率。**对个人，这意味着选反馈快、门槛可进、可复利的方向；对社会，则意味着让教育、医疗、安全网和法治减少无谓损耗。",
+      "advice": "本周做三件小事。第一，画两栏：左边写你没选的牌，如家庭、健康、债务、行业；右边写你能改的打法，如睡眠、技能、储蓄、人脉，然后只挑一项推进。第二，先筑底线：自动转一笔应急金，取消一个高风险杠杆或冲动消费。第三，布一个小注：报名一门课、联系一位弱关系、投一个低成本作品。**别问这周能不能改命，问这周有没有让下周的自己多一点选择权。**",
+      "summary_en": "The strongest common ground here is that success should not be treated as pure personal merit, and failure should not be treated as pure personal fault. Birth, timing, temperament, social conditions, and sheer accident all help shape the outcome. **But admitting the power of luck does not make action meaningless.** The real disagreement is about what action ultimately is: free choice, causal unfolding, cultivated discipline, grace, fate, or a movement of the mind. From there, the speakers differ on emphasis: self-mastery, compassion, humility, risk management, social fairness, or release from the very need to keep score. The practical takeaway is less mysterious than the metaphysics. Stop using “deserved” as a total verdict on a person. Use it, if at all, very carefully. Put more attention on preparation, feedback, downside protection, and generosity toward people whose starting conditions you cannot fully see.",
+      "insight_en": "Effort is not a coin you insert directly into the machine of destiny. It passes through a converter: health, family stability, schooling, industry, city, legal protections, social trust, timing, and access to people who can open doors. The same hour of work can compound for one person and merely repair damage for another: sleep debt, care obligations, medical bills, discrimination, or chronic insecurity. **So the more useful question is not whether effort determines fate, but how to raise the odds that effort turns into real results.** For an individual, that means choosing arenas with fast feedback, lower entry barriers, and compounding returns. For a society, it means building education, healthcare, safety nets, and rule of law that waste less human effort. This keeps both truths in view: people should act, and conditions decide how far action can travel.",
+      "advice_en": "Try three concrete moves this week. First, make a two-column inventory. On the left, list the cards you did not choose: family background, health, debt, location, industry, obligations. On the right, list the ways you can still play: sleep, one skill, savings, better peers, a clearer routine. Pick only one item from the right column and move it forward. Second, build a floor before chasing a ceiling: automate a small emergency transfer, reduce one source of leverage, or remove one recurring impulse expense. Third, place one cheap small bet: enroll in a course, contact a weak tie, publish a tiny piece of work, or test a side project. **Do not ask whether this week will change your destiny; ask whether it gives next week’s self more options.**"
+    },
+    {
+      "ai": "gemini",
+      "engine": "google · gemini-3.1-pro-preview(真实API)",
+      "engine_en": "google · gemini-3.1-pro-preview (live API)",
+      "summary": "各家对自由意志与运气分量的看法迥异，全场却有一个极坚实的共识：**没有谁拿“运气驱动”当躺平或虚无的借口，也无人把“巨大成功”全归于个人私德或纯粹拼搏。**无论是加尔文的恩典、塔勒布的反脆弱，还是荀子的积土成山，他们都主张在庞大的随机性前，确立一个属于自己的着力点。真正的分歧在于：**面对不可控的宿命感，个体的精神内耗该如何纾解**——尼采与马基雅维利要用强悍的生命力去征服甚至热爱无常；哈里斯与加尔文在决定论里寻得对他人的慈悲与自我的谦卑；巴菲特看重理性的世俗复利；慧能则试图粉碎那颗还在算计“我配不配”的得失心。",
+      "insight": "从系统科学和复杂网络的视角来看，这场辩论在剥离“运气”与“努力”时，忽略了两者在时间轴上的**非线性耦合效应**。努力的真正作用，很少是去线性地兑现某份“应得”的回报，而在于改变你在复杂系统中的拓扑结构。塔勒布建议多布小注以拥抱随机性，但能布下高质量小注的前提，恰恰是荀子所说的枯燥积淀。你无法决定风暴何时何地降临，但跨界的知识叠加、长期的技能打磨与信誉积累，实质上是在**系统性地扩大你捕获正向黑天鹅的“迎风面积”**。普通人之所以还要拼尽全力，不是为了向世界证明自己配得上什么奖励，而是为了在随机性发生剧烈重组的那一瞬，你恰好拥有与之严丝合缝的接合点。",
+      "advice": "第一，**建立“非对称”的归因系统**：顺境时默念哈里斯的“连我能如此努力都是一种运气”，逆境时践行荀子的“反求诸己可进者”。本周试着写下三件你侥幸做成的事，用以消解自我膨胀。第二，结合巴菲特与塔勒布，**执行“哑铃型”精力分配策略**：将 80% 的精力投入到不出错的防御性基本盘（如保住现金流、精进核心技能），剩下 20% 去做低成本、高赔率的探索（如接触新AI工具、跨界社交）。第三，别用稀缺的意志力去对抗人性。**既然意志力本身也被环境左右，今天就把干扰你专注的APP设上时间锁**，通过物理隔离来完成哈里斯所说的“环境改造”。",
+      "summary_en": "While these thinkers differ wildly on the ontology of free will and the exact weight of luck, they share a profound, undeniable consensus: **no one uses the dominance of \"luck\" as an excuse for nihilism or surrender, nor does anyone attribute massive success entirely to individual merit or pure hustle.** Whether through Calvin's grace, Taleb's antifragility, or Xunzi's relentless accumulation, they all advocate securing a firm, personal foothold amidst overwhelming randomness. The true divergence emerges in **how we should anchor our psyche when facing this uncontrollable fate.** Nietzsche and Machiavelli demand we conquer or passionately embrace the chaos with sheer vitality; Harris and Calvin find deep compassion and humility within determinism; Buffett prioritizes pragmatic, worldly compounding; while Huineng seeks to obliterate the very ego that obsessively calculates what it \"deserves.\"",
+      "insight_en": "Viewed through the lens of complex systems theory, the debate artificially separates luck and effort, missing their **non-linear coupling effect** over time. The true function of effort is rarely to linearly cash in on a \"deserved\" reward, but rather to alter your topological position within a complex network. Taleb advises placing small bets to embrace randomness, but the prerequisite for making high-quality bets is precisely the tedious accumulation Xunzi champions. You cannot control when or where the storm will hit, but cross-disciplinary learning, skill refinement, and reputation building effectively **expand your \"surface area\" for capturing positive Black Swans.** Ordinary people must still grind not to prove they deserve a specific prize, but to ensure that when randomness suddenly reshuffles the board, they possess the exact structural fit to seize the moment.",
+      "advice_en": "First, **adopt an \"asymmetrical\" attribution system:** when succeeding, invoke Harris's reminder that \"even the drive to work hard is luck\"; in adversity, apply Xunzi's focus on actionable self-improvement. Write down three recent \"lucky breaks\" this week to neutralize arrogance. Second, merging Buffett and Taleb, **implement a \"barbell\" strategy for your energy.** Dedicate 80% to undeniable, defensive fundamentals (e.g., securing cash flow, honing a core skill), and 20% to low-cost, high-upside explorations (e.g., testing new AI tools, networking outside your field). Third, stop fighting human nature with limited willpower. **Since willpower is shaped by surroundings, modify your environment today:** put app timers on your phone or physically remove distractions to automate your focus."
+    }
+  ],
+  "hooks": [
+    {
+      "from": "gemini",
+      "text": "**时间尺度会改变答案**：在单次结果上运气压倒一切，在足够长的时间与足够多的次数里努力才显形——那么『耐心』本身，是不是普通人最被低估、却最能积累的一种能力？",
+      "text_en": "**The time scale changes the answer**: on a single outcome luck overwhelms everything, but over enough time and enough trials effort begins to show — so is 'patience' itself the most underrated yet most accumulable ability an ordinary person has?"
+    },
+    {
+      "from": "gpt",
+      "text": "**精英体制的隐藏残酷**：当社会把成功全说成本事，失败者便被迫相信苦难是自己应得的。一个把运气讲清楚的社会，会更仁慈，还是会让人更懈怠？",
+      "text_en": "**The hidden cruelty of meritocracy**: when a society tells itself success is all skill, the losers are forced to believe their suffering is deserved. Would a society that speaks honestly about luck become kinder — or would it make people slacker?"
+    },
+    {
+      "from": "buffett",
+      "text": "**回馈是运气的利息**：若你承认自己赢在出身，慷慨便不再只是美德，而更像一种偿还。一个人对那张『好球』，究竟欠下多少、又该怎么还？",
+      "text_en": "**Giving back is the interest on luck**: if you admit you won on your birth, generosity is no longer merely a virtue but something closer to repayment. How much does a person owe on that 'good pitch,' and how should it be repaid?"
+    },
+    {
+      "from": "huineng",
+      "text": "**不计回报地做事**：把『努力』从『必须见效』里解绑，反而更能长久坚持。一种无所求的行动，会不会其实是更高效、也更自由的行动？",
+      "text_en": "**Acting without counting the reward**: unbind 'effort' from 'must show results,' and you can often sustain it far longer. Might action that asks for nothing actually be the more effective — and the more free — kind of action?"
+    },
+    {
+      "from": "nietzsche",
+      "text": "**可被永恒重演的人生**：以『你愿意这一生一模一样地再过一万次吗』为尺，去衡量今天的每一个选择，会把你的生活筛成什么样子？",
+      "text_en": "**A life worth living over for eternity**: take 'would you live this very life ten thousand times exactly as it is' as your measure for every choice today — what would that filter make of your life?"
+    }
+  ]
+}

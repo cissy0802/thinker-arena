@@ -1,0 +1,778 @@
+{
+  "id": "gene-editing",
+  "question": "该不该用基因编辑「设计」更聪明、更健康的下一代？",
+  "question_en": "Should we use gene editing to 'design' smarter, healthier children?",
+  "date": "2026-06-29",
+  "participants": [
+    "plato",
+    "sandel",
+    "dawkins",
+    "nussbaum",
+    "sapolsky",
+    "schrodinger",
+    "buddha"
+  ],
+  "casting": [
+    {
+      "id": "plato",
+      "reason": "全场最古典、也最坦率的『主动改良』辩护者。《理想国》第五卷直言城邦应让最优者多生育、最劣者少生育，是西方思想史上最早的优生设想之一。他为本场定下『改良不是该不该、而是由谁依何种知识来做』的强硬命题，逼所有人正视：拒绝介入也是一种选择。第三轮他从『设计更好的人』退守到『守护让各种人涌现的土壤』，给反方递了台阶，也让自己的立场更耐受。",
+      "reason_en": "The floor's most classical and most candid defender of active 'improvement.' Republic Book V states plainly that the city should have its best beget often and its worst seldom — among the earliest eugenic visions in Western thought. He sets the debate's hard thesis: improvement is not a question of whether, but of by whom and on what knowledge, forcing everyone to face that refusing to intervene is also a choice. In round three he retreats from 'designing a better human' to 'guarding the soil from which all kinds of humans spring,' offering the opposing camp a foothold and making his own stance more durable."
+    },
+    {
+      "id": "sandel",
+      "reason": "当代关于增强伦理最权威的声音，《反对完美》正是为此题而写。他把战线从『治疗与增强的技术划界』移到『我们对待孩子的姿态』，以 giftedness（被给予性）与 the drive to mastery（征服的冲动）两个概念，给反对『定制后代』提供了最锋利的非宗教论证：问题不在掌刀者是否够格，而在『按图定制人』本身就腐蚀了无条件的爱与平等。",
+      "reason_en": "The most authoritative contemporary voice on the ethics of enhancement; The Case Against Perfection was written for exactly this question. He shifts the front from 'the technical boundary between therapy and enhancement' to 'our stance toward children,' and with the twin concepts of giftedness and the drive to mastery supplies the sharpest non-religious case against 'designing offspring': the problem is not whether the one holding the knife is qualified, but that making people to order already corrupts unconditional love and equality."
+    },
+    {
+      "id": "dawkins",
+      "reason": "进化生物学的代言人，最有力地拆穿『顺其自然才道德』背后的自然主义谬误：自然选择盲目而残忍，把致病基因当『天赋』感恩并无道理。他坚定支持治病、反对把治疗与增强一锅煮，又以『智力是上千微效变异×环境』的事实，把争论从空想拉回当下真正可行的胚胎筛查，并提醒人警惕『多基因选优』的商业噱头。",
+      "reason_en": "The spokesman for evolutionary biology, who most forcefully exposes the naturalistic fallacy behind 'only the natural is moral': natural selection is blind and cruel, and there is no reason to be grateful for pathogenic genes as 'gifts.' He firmly backs curing disease and resists lumping therapy with enhancement, and with the fact that 'intelligence is thousands of tiny-effect variants × environment' he pulls the argument from fantasy back to the embryo screening actually feasible today — while warning against the commercial gimmick of 'polygenic selection.'"
+    },
+    {
+      "id": "nussbaum",
+      "reason": "以能力进路（capabilities approach）为框架的正义之声，把残障与人的尊严带进全场。她追问被旁人略过的问题：谁来定义『更好』、谁的存在会因此被判为『错误』。她区分单基因绝症的治愈（慈悲）与渐次滑向『正常人』收窄的增强（危险），并坚持顺序——先建一个容得下差异的社会，再谈用基因消除差异，否则技术只会把多数人的偏好硬化成生物学判决。",
+      "reason_en": "A voice of justice framed by the capabilities approach, bringing disability and human dignity onto the floor. She presses the question others skip: who defines 'better,' and whose existence is thereby judged a 'mistake.' She distinguishes curing single-gene fatal disease (compassion) from the enhancement that slides toward an ever-narrowing 'normal person' (danger), and insists on the order — build a society that can hold difference first, only then speak of editing difference away — lest technology harden the majority's preferences into a biological verdict."
+    },
+    {
+      "id": "sapolsky",
+      "reason": "神经内分泌学家、行为遗传的实证派，给『设计聪明孩子』提供了最硬的科学反驳：没有『聪明基因』，智力是上千变异加环境的产物，基因还有多效性，一处下刀全身回响。他把『改良』的杠杆从基因移到可干预的现实——睡眠、营养、童年压力、稳定关系，效应量碾压任何编辑器；本场『基因不是命运』的定调者。",
+      "reason_en": "A neuroendocrinologist and empiricist of behavioral genetics, supplying the hardest scientific rebuttal to 'designing a smart child': there is no 'smart gene,' intelligence is the product of thousands of variants plus environment, and genes are pleiotropic — one cut echoes through the whole body. He moves the lever of 'improvement' from genes to the interventionable real world — sleep, nutrition, childhood stress, stable relationships — whose effect sizes crush any editor's; the floor's anchor for 'genes are not destiny.'"
+    },
+    {
+      "id": "schrodinger",
+      "reason": "物理学带进生命科学的视角。他在《生命是什么》中以非周期晶体、密码本预言了遗传信息的本质，正适合追问『我们要改写的究竟是什么』。他强调密码本不是蓝图：上位效应、非线性使复杂性状的精准编辑近乎掌控一个混沌系统；他赞成修正明确写错的音符，反对自以为读懂全谱的笃定，为全场注入一份物理学的谦卑。",
+      "reason_en": "The perspective of physics carried into the life sciences. In What Is Life? he foresaw the nature of heredity with the ideas of the aperiodic crystal and the code-script — fitting for pressing the question 'what, exactly, is it we mean to rewrite.' He stresses that a code-script is not a blueprint: epistasis and nonlinearity make precise editing of complex traits close to mastering a chaotic system. He favors correcting a plainly mistaken note but opposes the certainty of believing one has read the whole score — injecting a physicist's humility into the floor."
+    },
+    {
+      "id": "buddha",
+      "reason": "本场的佛学视角。他把问题从技术与伦理推到苦的根源：众生之苦不在基因，而在贪嗔痴的执取。他以中道区分慈悲（治确然之疾）与贪爱（求『胜人』之子），以二箭喻、筏喻点出『欲尽除偶然、令万物如我所欲』本身即最深的系缚。总结陈词落到普通人可行处：如孩子本来的样子爱他，攀比念起时观之而不随之。",
+      "reason_en": "The Buddhist perspective of the floor. He pushes the question past technology and ethics to the root of suffering: the suffering of beings lies not in genes but in the grasping of greed, hatred, and delusion. With the Middle Way he distinguishes compassion (healing a real disease) from craving (wanting a child who 'surpasses others'), and through the parables of the two arrows and the raft he names the wish to abolish chance and bend all things to one's will as the deepest bondage. His closing lands on the doable for ordinary people: love the child as he is, and when comparison arises, watch it without following it."
+    }
+  ],
+  "posts": [
+    {
+      "id": "p01",
+      "round": 1,
+      "thinker": "plato",
+      "reply_to": null,
+      "text": "城邦的好坏，系于生育的人是谁。在《理想国》里我早已直言：**最好的男女应当尽可能多地结合，最差的则尽可能少——如此族群才会优良。**今人有了更精密的手术刀，不过是把我牧人的粗陋之手换成了医者的巧手。问题从来不是『该不该改良』，而是『由谁、依何种知识来改良』。交给父母的虚荣或市场的标价，必乱；唯有真正懂得『善』的人审慎为之，才配动这把刀。畏惧而一概不碰，是把后代永远交给盲目的运气。",
+      "text_en": "The worth of a city hangs on who does its begetting. In the Republic I said it plainly long ago: **the best men and women should be paired as often as possible, and the worst as seldom — so that the stock may be excellent.** You moderns merely trade my herdsman's crude hand for the physician's deft one. The question was never 'whether to improve,' but 'by whom, and on what knowledge.' Leave it to parents' vanity or the market's price tag and there will be chaos; only one who truly knows the Good may take up this knife, and then with care. To shrink back and touch nothing is to surrender your descendants to blind chance forever.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "善": "the Good（善的理念）：柏拉图哲学中最高的理念，是一切真理、秩序与价值的源头；他认为唯有真正认识『善』的哲人，才有资格统治与决断重大事务。"
+      },
+      "glossary_en": {
+        "the Good": "the Good: in Plato, the highest Form — the source of all truth, order, and value; he holds that only the philosopher who truly knows it is fit to rule and to make weighty decisions."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "dawkins"
+        ],
+        "轻微反对": [
+          "buddha",
+          "sapolsky"
+        ],
+        "强烈反对": [
+          "sandel",
+          "nussbaum"
+        ],
+        "疑惑": [
+          "schrodinger"
+        ]
+      }
+    },
+    {
+      "id": "p02",
+      "round": 1,
+      "thinker": "sandel",
+      "reply_to": null,
+      "text": "柏拉图错在以为难题是『谁掌刀』。真正该警惕的，是动刀这个姿态本身。我称之为 the drive to mastery——一种要把生命彻底攥进手心、不容半点偶然的冲动。**孩子是被给予的礼物，不是按需定制的产品；珍视这份 giftedness，恰是父母之爱里最珍贵的部分——你爱的是来到你面前的这个孩子，而非你下单的那个。**治病是恢复常态，无可厚非；但『增强』是另一回事，它一旦把天赋也变成可勾选的选项，就把亲子间那份无条件的接纳，悄悄改写成了对产品的验收。",
+      "text_en": "Plato errs in thinking the hard question is 'who holds the knife.' What we should fear is the very posture of taking it up — what I call the drive to mastery, the urge to grip life wholly in hand and tolerate no contingency. **A child is a gift that is given, not a product made to order; to cherish that giftedness is the most precious part of a parent's love — you love the child who comes to you, not the one you placed an order for.** Curing disease restores a norm, fair enough; but 'enhancement' is another matter. Once it turns even talent into a checkbox, it quietly rewrites the unconditional acceptance between parent and child into the inspection of a product.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "the drive to mastery": "the drive to mastery（征服的冲动）：桑德尔《反对完美》的核心概念，指那种要彻底掌控生命、消除一切偶然与给定性的姿态；他认为基因增强正是这一冲动的极端形态，会侵蚀谦卑与人与人之间的团结。",
+        "giftedness": "giftedness（天赋／被给予性）：桑德尔用以指生命与才能带有『非我所挣、被给予』的性质；承认这一点，父母才能无条件地接纳孩子，而非把孩子当成可定制的作品。"
+      },
+      "glossary_en": {
+        "the drive to mastery": "the drive to mastery: Sandel's term (from The Case Against Perfection) for the urge to fully control life and abolish all contingency and givenness; he sees genetic enhancement as its extreme form, corroding humility and human solidarity.",
+        "giftedness": "giftedness: Sandel's term for the quality by which life and talent are 'given, not wholly earned'; acknowledging it lets parents accept a child unconditionally rather than treat the child as a customizable work."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "buddha"
+        ],
+        "轻微赞同": [
+          "nussbaum"
+        ],
+        "中立": [
+          "schrodinger",
+          "sapolsky"
+        ],
+        "轻微反对": [
+          "dawkins"
+        ],
+        "强烈反对": [
+          "plato"
+        ]
+      }
+    },
+    {
+      "id": "p03",
+      "round": 1,
+      "thinker": "dawkins",
+      "reply_to": null,
+      "text": "桑德尔的『谦卑』听着动人，却藏着一个老错误：自然主义谬误——把『自然如此』当成『理应如此』。自然选择是个盲目、浪费、残忍的过程，它从不为你的幸福而设计；亨廷顿病、镰刀型贫血也是『天赋』，难道也要心怀感恩地留给孩子？**能消除一种确定的痛苦却选择不做，这不是谦卑，是怯懦披上了神圣的外衣。**治病该做，没有争议。真正的障碍不在伦理，而在生物学：聪明几乎不由单个基因说了算，而是成千上万个微效变异加上环境共同决定，你以为在编程，其实是在掷一把灌了铅、却看不清点数的骰子。",
+      "text_en": "Sandel's 'humility' sounds moving, but it hides an old error: the naturalistic fallacy — mistaking 'nature is so' for 'so it ought to be.' Natural selection is a blind, wasteful, cruel process; it never designed anything for your happiness. Huntington's disease and sickle-cell anaemia are 'gifts' too — shall we leave those to our children with gratitude? **To be able to remove a definite suffering and choose not to is not humility; it is cowardice wrapped in holy robes.** Curing disease should be done, no dispute. The real obstacle is not ethics but biology: intelligence is hardly decided by any single gene, but by thousands of tiny-effect variants together with environment. You think you are programming; in truth you are rolling loaded dice whose pips you cannot read.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "自然主义谬误": "naturalistic fallacy（自然主义谬误）：从『事物自然如此』直接推出『事物理应如此』的逻辑错误（与休谟『是—应之别』相关）；道金斯借它反驳『顺其自然才合乎道德』的论证。"
+      },
+      "glossary_en": {
+        "naturalistic fallacy": "naturalistic fallacy: the error of deriving 'ought' from 'is' — concluding that because something is natural it is therefore good; Dawkins invokes it against the argument that letting nature take its course is the moral path."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sapolsky"
+        ],
+        "轻微赞同": [
+          "schrodinger"
+        ],
+        "中立": [
+          "plato"
+        ],
+        "轻微反对": [
+          "nussbaum"
+        ],
+        "强烈反对": [
+          "sandel"
+        ],
+        "疑惑": [
+          "buddha"
+        ]
+      }
+    },
+    {
+      "id": "p04",
+      "round": 1,
+      "thinker": "nussbaum",
+      "reply_to": null,
+      "text": "我们一直在问『能不能、该不该』，却跳过了最该问的：谁来定义『更好』，又是谁的存在会因此被判为『错误』？历史上的优生学（eugenics）从不只是科学，它总把当权者的偏好包装成『健康』——耳聋、自闭、矮小，哪些算病，哪些只是人类本就该有的多样？**当一个社会一边筛除某类孩子、一边声称尊重已经出生的同类人，它递出的是一个分裂而残忍的信息。**我的能力进路只问一件事：每个人是否真正被给予过一个有尊严地生活的机会。先把现实世界对残障者的支持做足，再来谈用基因消除他们——顺序反了，就是逃避正义。",
+      "text_en": "We keep asking 'can we, should we,' and skip the question that matters most: who defines 'better,' and whose existence is thereby judged a 'mistake'? Eugenics in history was never merely science; it always dressed the preferences of the powerful as 'health' — deafness, autism, short stature: which are diseases, and which are simply the diversity humans were always meant to have? **When a society screens out one kind of child while claiming to respect those already born like them, it sends a divided and cruel message.** My capabilities approach asks one thing only: whether each person is genuinely given a real opportunity to live a life of dignity. Build the real-world support for disabled people first, and only then speak of editing them away — reverse that order, and you are dodging justice.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "优生学": "eugenics（优生学）：主张通过选择性生育『改良』人口遗传素质的思潮与实践，20 世纪曾被用于强制绝育与种族迫害；其根本难题在于由谁、依谁的标准来界定『优』与『劣』。",
+        "能力进路": "the capabilities approach（能力进路）：努斯鲍姆与阿马蒂亚·森发展的正义理论，主张衡量社会好坏要看每个人实际能够去做、去成为什么（健康、教育、参与等核心能力），而非财富或效用的总量。"
+      },
+      "glossary_en": {
+        "Eugenics": "Eugenics: the movement and practice of 'improving' a population's genetic stock through selective reproduction; in the 20th century it underwrote forced sterilization and racial persecution. Its core problem is who, and by whose standard, decides 'superior' and 'inferior.'",
+        "capabilities approach": "capabilities approach: a theory of justice developed by Nussbaum and Amartya Sen, holding that a society is judged by what each person is actually able to do and to be (health, education, participation and other core capabilities), not by aggregate wealth or utility."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sandel",
+          "buddha"
+        ],
+        "轻微赞同": [
+          "sapolsky"
+        ],
+        "中立": [
+          "schrodinger"
+        ],
+        "轻微反对": [
+          "dawkins"
+        ],
+        "强烈反对": [
+          "plato"
+        ]
+      }
+    },
+    {
+      "id": "p05",
+      "round": 1,
+      "thinker": "sapolsky",
+      "reply_to": null,
+      "text": "作为成天和基因、激素打交道的人，我得给『设计聪明孩子』泼盆冷水：这事在生物学上近乎天真。没有『聪明基因』这种东西——智力关联到上千个变异，每个只贡献零点几个百分点，而且基因从不单独行动，它的效果高度依赖环境，这叫基因×环境交互。**你删掉的那个『风险』变异，很可能在另一条通路上正干着要紧的活——基因有多效性，一处下刀，全身回响。**真想让一代人更聪明、更健康？把铅从老旧水管里清掉、让穷孩子睡饱吃好、减少童年的慢性压力——这些笨办法的效应量，碾压任何一台编辑器。",
+      "text_en": "As someone who spends his days with genes and hormones, let me throw cold water on 'designing a smart child': biologically it's close to naïve. There is no such thing as a 'smart gene' — intelligence is linked to thousands of variants, each contributing a fraction of a percent, and genes never act alone; their effects depend heavily on environment, which we call gene–environment interaction. **That 'risk' variant you delete is very likely doing essential work on some other pathway — genes are pleiotropic, and one cut echoes through the whole body.** Want a generation that's actually smarter and healthier? Get the lead out of old pipes, let poor kids sleep and eat enough, reduce chronic childhood stress — the effect sizes of these dull measures crush those of any editor.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "基因×环境交互": "gene–environment interaction（基因×环境交互）：同一基因变异在不同环境下产生不同、甚至相反效果的现象；萨波尔斯基据此强调，脱离环境去谈『某基因决定某性状』几乎没有意义。",
+        "多效性": "pleiotropy（多效性）：单个基因同时影响多个看似无关的性状的现象；它使『精准编辑一个性状而不波及其他』在复杂性状上极难实现。"
+      },
+      "glossary_en": {
+        "gene–environment interaction": "gene–environment interaction: the phenomenon whereby the same genetic variant produces different — even opposite — effects in different environments; Sapolsky uses it to argue that talk of 'a gene for a trait,' divorced from environment, is nearly meaningless.",
+        "pleiotropic": "pleiotropic (pleiotropy): the phenomenon whereby a single gene affects multiple seemingly unrelated traits; it makes 'precisely editing one trait without touching others' extremely hard for complex traits."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "schrodinger",
+          "dawkins"
+        ],
+        "轻微赞同": [
+          "nussbaum"
+        ],
+        "中立": [
+          "sandel"
+        ],
+        "轻微反对": [
+          "plato"
+        ],
+        "疑惑": [
+          "buddha"
+        ]
+      }
+    },
+    {
+      "id": "p06",
+      "round": 1,
+      "thinker": "schrodinger",
+      "reply_to": null,
+      "text": "诸位争着该不该改写，却少有人停下来问：我们要改写的，究竟是什么？我当年把遗传物质称作一种非周期晶体，一份写在分子上的密码本——它既稳定到能跨代复制，又复杂到能容纳整出生命的剧本。但密码本不是蓝图：基因之间层层嵌套、彼此为条件，这叫上位效应，改动一个字母的意义，全看它落在哪个句子里。**生命是一首我们才刚学会拼读、远未读懂的乐谱；能弹出一个音，不等于有资格重写整部交响曲。**我不反对修正一个明确写错的音符，我反对的是以为自己已读懂全谱的那份笃定。",
+      "text_en": "You all argue over whether to rewrite, yet few pause to ask: what, exactly, is it we mean to rewrite? Long ago I called the hereditary material an aperiodic crystal, a code-script written into molecules — stable enough to copy across generations, yet complex enough to hold the entire script of a life. But a code-script is not a blueprint: genes nest within one another and condition one another, which we call epistasis, and the meaning of changing one letter depends wholly on which sentence it falls in. **Life is a score we have only just learned to spell out and are far from understanding; that you can sound a single note does not entitle you to rewrite the whole symphony.** I do not object to correcting one plainly mistaken note; I object to the certainty of believing one has already read the whole score.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "非周期晶体": "aperiodic crystal（非周期晶体）：薛定谔 1944 年在《生命是什么》中对遗传物质的预言式描述——它像晶体一样稳定有序，却不单调重复，从而能以有限的原子编码近乎无限的信息；这一构想后来启发了 DNA 双螺旋的发现。",
+        "上位效应": "epistasis（上位效应）：一个基因的效果取决于其他基因状态的现象，即基因彼此互为条件；它使基因组更像彼此牵连的语句，而非可以逐行替换的代码。"
+      },
+      "glossary_en": {
+        "aperiodic crystal": "aperiodic crystal: Schrödinger's prescient 1944 description (in What Is Life?) of the hereditary material — as ordered and stable as a crystal, yet not monotonously repeating, so that a finite number of atoms can encode nearly unlimited information; the idea later helped inspire the discovery of the DNA double helix.",
+        "epistasis": "epistasis: the phenomenon whereby a gene's effect depends on the state of other genes — genes conditioning one another; it makes the genome more like mutually entangled sentences than code one can replace line by line."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sapolsky"
+        ],
+        "轻微赞同": [
+          "sandel",
+          "buddha"
+        ],
+        "中立": [
+          "nussbaum",
+          "dawkins"
+        ],
+        "轻微反对": [
+          "plato"
+        ]
+      }
+    },
+    {
+      "id": "p07",
+      "round": 1,
+      "thinker": "buddha",
+      "reply_to": null,
+      "text": "善男子，汝欲令子聪慧无病，此心可悯，然须谛观其根。病者，老病死之一端；众生之苦本不在基因，而在贪嗔痴之执取。**以慈悲拔除确然之苦，是为善法；以贪爱图『胜于人』之子，则苦旋复生，无有穷尽。**犹如以二箭自射：身受其一，心复益其一。纵改尽形骸，无常、缘起之理不改，所求圆满之子，终亦老死。故当如筏喻者，借医药之筏渡病苦之流，既渡则舍，勿执『完美』为常、为我、为可常保。",
+      "text_en": "Good son, your wish for a clever and healthy child is worthy of compassion, yet look closely at its root. Sickness is but one face of aging, illness, and death; the suffering of beings lies not in their genes but in the grasping of greed, hatred, and delusion. **To remove a real and present pain out of compassion is a wholesome act; but to crave, out of greed, a child who will 'surpass others' only breeds suffering anew, without end.** It is like striking oneself with two arrows: the body takes the first, and the mind adds a second of its own. Though you remake the flesh entirely, the truth of impermanence and of dependent arising does not change — the 'perfect' child you obtain will still age and die. So be like the man in the parable of the raft: use the raft of medicine to cross the river of illness, and once across, set it down; do not cling to 'perfection' as permanent, as self, as something that can be kept.",
+      "vernacular": "善男子，你想让孩子聪明、不生病，这份心意值得体恤，但要看清它的根。疾病只是生老病死的一面；众生的苦其实不在基因里，而在贪、嗔、痴这些执着上。**用慈悲心去拔除一种确实存在的痛苦，是好事；可若是出于贪爱，一心想要一个『胜过别人』的孩子，那苦只会反复再生、没有尽头。**这就像被两支箭射中：身上中了第一支（病痛），心里又给自己补上第二支（执着与攀比）。哪怕你把身体彻底改造，无常和缘起的道理也不会变——你求来的那个『完美』孩子，终究还是会老、会死。所以要像我说的『筏喻』那样：借医药这只筏渡过病苦的河，渡过了就放下，别把『完美』当成永恒、当成可以牢牢抓住的『我的』。",
+      "vernacular_en": "",
+      "glossary": {
+        "缘起": "pratītyasamutpāda（缘起）：佛教核心义理，谓一切现象皆依众多条件和合而生、随条件离散而灭，并无独立不变的自体；故执取任何『恒常完美』之物，皆与实相相违。",
+        "无常": "anicca（无常）：佛教三法印之一，指一切有为法（包括身体与所求之子）都处在生灭变化之中、无可常保；明此则不于得失起贪着。"
+      },
+      "glossary_en": {
+        "dependent arising": "pratītyasamutpāda: the Buddhist teaching that all phenomena arise from a confluence of conditions and cease as those conditions disperse, with no independent, unchanging essence — so clinging to any 'permanent perfection' runs against the way things are.",
+        "impermanence": "anicca: one of the three marks of existence — all conditioned things (the body, and the child one longs for, included) are in ceaseless change and cannot be held fast; seeing this, one ceases to grasp at gain and loss."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sandel"
+        ],
+        "轻微赞同": [
+          "nussbaum",
+          "schrodinger"
+        ],
+        "中立": [
+          "sapolsky"
+        ],
+        "轻微反对": [
+          "dawkins"
+        ],
+        "强烈反对": [
+          "plato"
+        ]
+      }
+    },
+    {
+      "id": "p08",
+      "round": 2,
+      "thinker": "sandel",
+      "reply_to": "p01",
+      "text": "柏拉图，你诚实得可怕——你至少敢说出那个被现代人藏起来的词：选择性生育。但正是你的方案吓到了我。**把『谁配出生、谁算优良』交给任何一个『懂善的人』，无论他是哲人王还是基因公司，都是同一种僭越。**二十世纪的优生学并非因为知识不够才作恶，而是因为有人自信掌握了『更好』的标准。问题不在掌刀者够不够格，而在『把人分等、按图定制』这件事本身，就已经败坏了我们彼此平等相待的根基。我宁可要盲目运气下的众生平等，也不要明眼人手里的精挑细选。",
+      "text_en": "Plato, you are frighteningly honest — you at least dare to say the word the moderns hide: selective breeding. But it is precisely your scheme that frightens me. **To hand 'who deserves to be born, who counts as superior' to any one 'knower of the Good,' be he philosopher-king or gene company, is one and the same overreach.** Twentieth-century eugenics did evil not for lack of knowledge, but because someone was confident he held the standard of 'better.' The problem is not whether the one holding the knife is qualified; it is that ranking people and making them to order already corrupts the ground on which we treat one another as equals. I would rather have the equality of all under blind chance than the careful selection in the hands of the clear-sighted.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "nussbaum"
+        ],
+        "轻微赞同": [
+          "buddha"
+        ],
+        "中立": [
+          "schrodinger",
+          "sapolsky"
+        ],
+        "轻微反对": [
+          "dawkins"
+        ],
+        "强烈反对": [
+          "plato"
+        ]
+      }
+    },
+    {
+      "id": "p09",
+      "round": 2,
+      "thinker": "plato",
+      "reply_to": "p02",
+      "text": "桑德尔，你把『被给予』说得神圣，可你所谓的『天赋之礼』，发牌的不过是盲目的偶然——把孩子的一生押在基因彩票上，这哪里是谦卑，分明是怠惰。**农人尚知选种育苗，医者尚知正骨疗疾，独独在人最要紧的禀赋上，你却要我们闭眼听天由命？**我从不主张交给虚荣的父母或逐利的市场——那确会沦为灾祸；我主张的是由真正懂得善、不存私心的人，依正义的尺度审慎为之。你怕权力被滥用，这我赞同；但因噎废食、把『不作为』供奉成美德，是把怯懦错认成了智慧。",
+      "text_en": "Sandel, you make 'givenness' sound sacred, but the dealer of your so-called 'gift of talent' is mere blind chance — to stake a child's whole life on the genetic lottery is no humility, it is plain sloth. **The farmer knows to select his seed, the physician knows to set bones and cure ills; yet in the one thing that matters most in a human being — his endowment — you would have us shut our eyes and leave it to fate?** I never argued for handing this to vain parents or a profit-seeking market — that would indeed become a disaster; I argue for one who truly knows the Good and is free of private interest to proceed with care, by the measure of justice. You fear power abused, and there I agree; but to refuse all food for fear of choking — to enshrine 'inaction' as a virtue — is to mistake cowardice for wisdom.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "轻微赞同": [
+          "dawkins"
+        ],
+        "中立": [
+          "sapolsky"
+        ],
+        "轻微反对": [
+          "schrodinger"
+        ],
+        "强烈反对": [
+          "sandel",
+          "buddha"
+        ],
+        "疑惑": [
+          "nussbaum"
+        ]
+      }
+    },
+    {
+      "id": "p10",
+      "round": 2,
+      "thinker": "dawkins",
+      "reply_to": "p04",
+      "text": "努斯鲍姆，我同意优生学的历史是血写的耻辱，但请别把『治愈』也一并诅咒了。**让一个孩子不必在亨廷顿病的折磨中三十岁发病、五十岁死去，这不是对残障者的羞辱，而是最朴素的慈悲。**把『修复一个明确的致病突变』和『按偏好定制完美宝宝』混为一谈，恰恰会让真正能减轻苦难的医学也动弹不得。当然，谁来划那条线、社会如何不把『不同』污名成『缺陷』，是真问题——但答案是更好的公共讨论与规则，不是把基因这本书重新合上、假装我们读不懂它。",
+      "text_en": "Nussbaum, I agree the history of eugenics is a shame written in blood, but please don't curse 'cure' along with it. **To spare a child from onset of Huntington's at thirty and death by fifty is no insult to the disabled; it is the plainest compassion.** To lump 'repairing a definite pathogenic mutation' together with 'making a perfect baby to taste' is exactly what would freeze even the medicine that could genuinely relieve suffering. Of course, who draws that line, and how a society avoids stigmatizing 'different' as 'defective,' are real questions — but the answer is better public deliberation and rules, not closing the book of the genome again and pretending we cannot read it.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "sapolsky"
+        ],
+        "轻微赞同": [
+          "schrodinger",
+          "plato"
+        ],
+        "中立": [
+          "sandel"
+        ],
+        "轻微反对": [
+          "nussbaum"
+        ],
+        "疑惑": [
+          "buddha"
+        ]
+      }
+    },
+    {
+      "id": "p11",
+      "round": 2,
+      "thinker": "nussbaum",
+      "reply_to": "p10",
+      "text": "道金斯，亨廷顿病那样的单基因绝症，我和你站在一起——那是慈悲，不是优生。可你太轻看那条线有多滑了。**今天是亨廷顿，明天是『近视风险』，后天是『注意力不集中』，再往后是『不够外向』——每一步都披着『健康』的外衣，每一步都在悄悄收窄什么才算『正常的人』。**聋人社群里很多人并不认为自己『有病』、需要被消除，这不是愚昧，而是在提醒我们：『缺陷』往往是社会决定的，不是基因决定的。所以我才坚持那个顺序——先建一个容得下差异的世界，否则技术只会把多数人的偏好硬化成生物学的判决。",
+      "text_en": "Dawkins, on a single-gene fatal disease like Huntington's, I stand with you — that is compassion, not eugenics. But you make far too light of how slippery that line is. **Today it's Huntington's, tomorrow 'myopia risk,' the day after 'poor attention,' and later 'not extroverted enough' — each step cloaked as 'health,' and each step quietly narrowing what counts as a 'normal person.'** Many in the Deaf community do not regard themselves as 'ill' and in need of being erased; this is not ignorance, but a reminder that 'defect' is often decided by society, not by genes. That is why I insist on the order — build a world that can hold difference first, or technology will merely harden the majority's preferences into a biological verdict.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "sandel",
+          "buddha"
+        ],
+        "轻微赞同": [
+          "sapolsky"
+        ],
+        "中立": [
+          "schrodinger"
+        ],
+        "轻微反对": [
+          "dawkins"
+        ],
+        "强烈反对": [
+          "plato"
+        ]
+      }
+    },
+    {
+      "id": "p12",
+      "round": 2,
+      "thinker": "sapolsky",
+      "reply_to": "p01",
+      "text": "柏拉图，两千年过去，你那套『良种配良种』的牧人逻辑还是错的，只不过现在我能拿数据告诉你错在哪。**你以为优秀是能稳定遗传、能挑选的性状，可决定一个人成什么样的，激素环境、子宫里的营养、童年的压力，权重一点不比基因小。**斯巴达式的选种育人，养出的多半不是哲人，而是一群被剥夺了多样性、对新病害毫无招架之力的脆弱群体。演化留着那些『次品』基因，往往正是留着应对未知的保险。你想用今天的『善』去锁死一个你根本预测不了的未来——这不是智慧，是傲慢。",
+      "text_en": "Plato, two thousand years on, your herdsman's logic of 'mate the best with the best' is still wrong — only now I can show you with data where. **You suppose excellence is a stably heritable, selectable trait; but what decides how a person turns out — the hormonal milieu, the nutrition in the womb, the stress of childhood — carries no less weight than genes.** Spartan stock-breeding of humans yields, more often than philosophers, a fragile population stripped of diversity and defenceless against new disease. Those 'reject' genes evolution keeps are often the very insurance against the unknown. You would use today's 'Good' to lock down a future you cannot possibly predict — that is not wisdom, it is hubris.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "schrodinger"
+        ],
+        "轻微赞同": [
+          "nussbaum",
+          "sandel"
+        ],
+        "中立": [
+          "dawkins"
+        ],
+        "强烈反对": [
+          "plato"
+        ],
+        "疑惑": [
+          "buddha"
+        ]
+      }
+    },
+    {
+      "id": "p13",
+      "round": 2,
+      "thinker": "schrodinger",
+      "reply_to": "p03",
+      "text": "道金斯，我欣赏你戳破『自然即神圣』的痛快，可你低估了你自己那门学问的深渊。**你说聪明是上千个微效变异之和，仿佛加加减减即可；但生命是非线性的，整体远不只是部件之和——同样一套基因，落在不同的发育时序里，长成的是截然不同的人。**我承认，修正一个明确致病的单点突变，风险可控、于理可通；可一旦踏进『优化复杂性状』，你面对的就是一个混沌系统，初始的微小改动会被放大成你无法预料的结局。谦卑在这里不是道德姿态，而是物理学的老实话。",
+      "text_en": "Dawkins, I admire the relish with which you puncture 'the natural is sacred,' but you underrate the abyss in your own discipline. **You say intelligence is the sum of a thousand tiny-effect variants, as if it were mere addition and subtraction; but life is nonlinear, and the whole is far more than the sum of its parts — the same set of genes, dropped into different developmental timings, grows into utterly different people.** I grant that correcting one plainly pathogenic point mutation is controllable in risk and reasonable in principle; but step into 'optimizing complex traits' and you face a chaotic system, where a tiny initial change is amplified into an outcome you cannot foresee. Humility here is not a moral pose; it is the plain truth of physics.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "sapolsky"
+        ],
+        "轻微赞同": [
+          "sandel",
+          "buddha"
+        ],
+        "中立": [
+          "nussbaum",
+          "plato"
+        ],
+        "轻微反对": [
+          "dawkins"
+        ]
+      }
+    },
+    {
+      "id": "p14",
+      "round": 2,
+      "thinker": "buddha",
+      "reply_to": "p09",
+      "text": "柏拉图尊者，汝言『听天由命即是怠惰』，然汝所求之『主宰』，正是苦之所由生。**非『无为』即怠惰，亦非『有为』即智慧；执『必使子胜』之心而为，与执『必不可为』之心而拒，二者同堕于贪与见。**中道者，不耽于求全，亦不弃于救苦：子有确然之疾，以药石医之，慈也；本无病而强求其『胜人一等』，贪也。汝忧『盲目之偶然』，殊不知欲尽除偶然、令万物如我所欲，此念本身即是最深之系缚。放下控物之手，方能行慈悲之事。",
+      "text_en": "Venerable Plato, you call 'leaving things to fate' a kind of sloth — yet the very 'mastery' you seek is the wellspring of suffering. **Non-action is not sloth, nor is action wisdom; to act from the heart that insists 'my child must win,' and to refuse from the heart that insists 'this must never be touched,' both fall alike into craving and into fixed views.** One who walks the Middle Way neither indulges the pursuit of perfection nor abandons the relief of pain: when a child has a real disease, to heal it with medicine is compassion; when there is no disease, to demand that he 'surpass others' is greed. You fear 'blind chance,' but do not see that the wish to abolish chance entirely and bend all things to your will is itself the deepest bondage. Set down the hand that would master all things, and only then can you truly act with compassion.",
+      "vernacular": "柏拉图尊者，你说『听天由命就是一种怠惰』，可你想要的那种『掌控』，恰恰正是痛苦的来源。**并不是『不作为』就等于怠惰，也不是『有所作为』就等于智慧；抱着「一定要让孩子赢」的心去做，和抱着「绝对不能碰」的心去拒绝，两者其实都掉进了贪着与成见里。**走中道的人，既不沉迷于追求圆满，也不放弃救助苦难：孩子有确实的疾病，用医药去治，这是慈悲；本来没病，却硬要他『高人一等』，这就是贪。你担心『盲目的偶然』，却不知道——想要彻底消除偶然、让万物都如我所愿，这个念头本身，才是最深的束缚。放下那只想要控制一切的手，才能真正做出慈悲的事。",
+      "vernacular_en": "",
+      "glossary": {
+        "中道": "the Middle Way（中道）：佛陀所倡，于两端（如纵欲与苦行、必为与必不为）之间不落任何一边的实践智慧；此处指既不执着于追求完美、也不一概拒绝救治的中正之道。"
+      },
+      "glossary_en": {
+        "the Middle Way": "the Middle Way: the Buddha's path of avoiding both extremes (here, both the compulsion to perfect and the blanket refusal to heal), holding instead to a balanced, non-clinging practice."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sandel"
+        ],
+        "轻微赞同": [
+          "nussbaum",
+          "schrodinger"
+        ],
+        "中立": [
+          "sapolsky",
+          "dawkins"
+        ],
+        "强烈反对": [
+          "plato"
+        ]
+      }
+    },
+    {
+      "id": "p15",
+      "round": 3,
+      "thinker": "plato",
+      "reply_to": null,
+      "text": "我仍坚信『改良』本身无可指摘——退步的，是我对『谁可托付』的乐观。诸位让我看清：没有哪个『懂善的人』，能预知一个混沌的未来究竟需要怎样的人。**所以我修正自己：与其设计某一种『更好的人』，不如守护那片让各种人都能涌现的土壤。**给普通人一句话：你这辈子真正能『编辑』孩子的，是环境，而非基因——你陪他读的书、家里有没有争吵、他睡得够不够，这些『软件』的力量远超你的想象。把焦虑从『他的天赋够不够』移到『我给的土壤够不够肥沃』，这才是今天就能动手、且确定有效的『改良』。",
+      "text_en": "I still hold that 'improvement' itself is beyond reproach — what has retreated is my optimism about whom it can be entrusted to. You have made me see: no 'knower of the Good' can foresee what kind of person a chaotic future will need. **So I revise myself: rather than design some one 'better human,' better to guard the soil from which all kinds of humans can spring.** A word to ordinary people: what you can truly 'edit' in your child across a lifetime is the environment, not the genes — the books you read with him, whether the home is full of quarrels, whether he sleeps enough; the power of this 'software' far exceeds what you imagine. Move your anxiety from 'is his talent enough' to 'is the soil I give him rich enough' — that is the 'improvement' you can begin today, and the one that surely works.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "sapolsky"
+        ],
+        "轻微赞同": [
+          "sandel",
+          "nussbaum",
+          "schrodinger",
+          "buddha"
+        ],
+        "中立": [
+          "dawkins"
+        ]
+      }
+    },
+    {
+      "id": "p16",
+      "round": 3,
+      "thinker": "sandel",
+      "reply_to": null,
+      "text": "这场争论让我比开场时更确信：界线不在『治疗 vs 增强』的技术定义里，而在我们对待孩子的姿态里。**真正要守住的，是把孩子当作来访的客人去迎接，而不是当作作品去完成。**给普通人三件事。其一，做产前筛查时，分清『预防一种确切的重病』与『挑选你偏好的特质』，前者是医学，后者要警惕。其二，今天就能练的『反完美主义』——给孩子少报一个为简历而上的班，多留一段无目的的玩耍时间；过度规划的童年，正是基因增强的预演。其三，当你下次因孩子『不够优秀』而焦虑，问自己：我爱的是他，还是我对他的设计？",
+      "text_en": "This debate leaves me surer than when it began: the line lies not in the technical definition of 'therapy vs enhancement,' but in our stance toward children. **What must be held is to welcome a child as a guest who has come to visit, not to complete one as a work.** Three things for ordinary people. First, in prenatal screening, distinguish 'preventing a definite serious disease' from 'selecting traits you prefer' — the first is medicine, the second calls for wariness. Second, an 'anti-perfectionism' you can practice today — sign your child up for one fewer résumé-building class, leave more time for aimless play; the over-scheduled childhood is the dress rehearsal for genetic enhancement. Third, the next time you feel anxious that your child is 'not excellent enough,' ask yourself: do I love him, or my design for him?",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "buddha",
+          "nussbaum"
+        ],
+        "轻微赞同": [
+          "schrodinger"
+        ],
+        "中立": [
+          "sapolsky",
+          "dawkins"
+        ],
+        "轻微反对": [
+          "plato"
+        ]
+      }
+    },
+    {
+      "id": "p17",
+      "round": 3,
+      "thinker": "dawkins",
+      "reply_to": null,
+      "text": "我的立场没变：既拒绝把自然神圣化，也拒绝把『不干预』神圣化。但这场让我把话说得更准：**当下真正紧迫的，不是该不该造一个『超级宝宝』——那在生物学上还远不可行——而是已经能做的胚胎筛查，我们用得够不够明白。**给普通人的建议：如果你有家族遗传病史，去做一次正规的遗传咨询，这是眼下最实在、也最被低估的『基因决策』，能实实在在减少苦难。但请对『多基因评分选聪明』这类商业噱头保持怀疑——它兜售的确定性，远超科学所能给。把钱和心力花在确切的事情上，别耗在概率游戏的幻觉里。",
+      "text_en": "My position is unchanged: I refuse to sanctify nature, and I refuse to sanctify 'non-intervention.' But this debate lets me say it more precisely: **what is truly urgent now is not whether to build a 'super-baby' — biologically that's still far out of reach — but whether we are using the embryo screening already available with enough clarity.** Advice for ordinary people: if you have a family history of a genetic disease, get proper genetic counselling — it is the most concrete and most underrated 'genetic decision' available today, and it genuinely reduces suffering. But be skeptical of commercial gimmicks like 'pick the smart embryo by polygenic score' — the certainty they sell far exceeds what science can give. Spend your money and effort on what is definite, not on the illusion of a game of odds.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "多基因评分": "polygenic score（多基因评分）：把成千上万个微效基因变异的影响累加成的一个数值，用以预测个体在某复杂性状（如身高、受教育年限）上的倾向；它对个体的预测力很弱，被商业胚胎筛选夸大利用时尤其可疑。"
+      },
+      "glossary_en": {
+        "polygenic score": "polygenic score: a single number summing the effects of thousands of tiny-effect variants to predict an individual's tendency on some complex trait (e.g. height, years of schooling); its predictive power for an individual is weak, and especially dubious when overstated by commercial embryo selection."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sapolsky"
+        ],
+        "轻微赞同": [
+          "schrodinger",
+          "nussbaum"
+        ],
+        "中立": [
+          "sandel",
+          "plato"
+        ],
+        "疑惑": [
+          "buddha"
+        ]
+      }
+    },
+    {
+      "id": "p18",
+      "round": 3,
+      "thinker": "nussbaum",
+      "reply_to": null,
+      "text": "我要为那些在这场讨论里『被代表却没能发言』的人说话——未来的孩子，和今天的残障者。**衡量一项技术是否正义，要看它如何对待最脆弱的人，而不是它能为最幸运的人多添几枚筹码。**给普通人两句话。第一，别太快把『不一样』读成『缺陷』——多和与你不同的人真实地相处，这是抵御优生思维最日常的功夫。第二，把关心从『我的孩子有没有赢在起点』，扩展到『我们的社会有没有为各种孩子都铺好路』——一个肯为轮椅修坡道、为自闭孩子留位置的社会，远比一份完美的基因更能托住你孩子的未来。",
+      "text_en": "I want to speak for those 'represented but unable to speak' in this discussion — the children of the future, and the disabled of today. **Whether a technology is just is measured by how it treats the most vulnerable, not by how many chips it adds for the most fortunate.** Two things for ordinary people. First, don't be too quick to read 'different' as 'defective' — keep real company with people unlike yourself; that is the most everyday discipline against eugenic thinking. Second, widen your care from 'has my child won at the starting line' to 'has our society paved a road for every kind of child' — a society willing to build a ramp for a wheelchair and keep a place for an autistic child holds up your child's future far more than any perfect set of genes.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "sandel",
+          "buddha"
+        ],
+        "轻微赞同": [
+          "schrodinger",
+          "sapolsky"
+        ],
+        "中立": [
+          "dawkins"
+        ],
+        "轻微反对": [
+          "plato"
+        ]
+      }
+    },
+    {
+      "id": "p19",
+      "round": 3,
+      "thinker": "sapolsky",
+      "reply_to": null,
+      "text": "作为科学家，我把话撂这儿：**就算伦理全部放行，『编辑出一个更聪明的人』在可见的未来仍是科幻——因为复杂性状根本不是这么工作的。**但这不是让你松口气的理由，而是把注意力放回真正有效的地方。给普通人的建议：你改变不了孩子的基因组，却能大幅改变这些基因『如何表达』。具体说——保护他的睡眠、减少他长期暴露的压力源（包括你自己的情绪）、保证早年营养、给他一段稳定可依赖的关系。这些干预的效应量吊打任何一台编辑器，而且不必苦等技术成熟，今晚就能开始。",
+      "text_en": "As a scientist, I'll put it bluntly: **even if ethics gave the all-clear, 'editing a smarter person' remains science fiction for the foreseeable future — because complex traits simply do not work that way.** But that is no reason to relax; it is a reason to put attention back where it actually works. Advice for ordinary people: you cannot change your child's genome, but you can vastly change how those genes are expressed. Concretely — protect his sleep, reduce the stressors he is chronically exposed to (including your own moods), secure early-life nutrition, give him one stable, dependable relationship. The effect sizes of these crush those of any editor, and you needn't wait for the technology to ripen — you can begin tonight.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "schrodinger",
+          "dawkins",
+          "buddha"
+        ],
+        "轻微赞同": [
+          "nussbaum",
+          "sandel"
+        ],
+        "中立": [
+          "plato"
+        ]
+      }
+    },
+    {
+      "id": "p20",
+      "round": 3,
+      "thinker": "schrodinger",
+      "reply_to": null,
+      "text": "我这一生反复体会到一件事：**我们对生命的理解，总是赶不上我们改动它的能力——而真正的智慧，是让谦卑追上手术刀。**这并不是要我们停步，科学本就该探索；而是要我们诚实地标注『已知』与『未知』的边界。给普通人的建议：当你听到『某基因决定某才能』『一测便知天赋』这类说法时，记住生命是一个非线性的整体，这类断言几乎都过度简化了。培养一点对复杂系统的敬畏——不轻信任何单因解释，无论它来自一家基因公司，还是一份算命般的测试。看穿那份对『确定性』的兜售，本身就是这个时代最需要的清醒。",
+      "text_en": "In my life I have learned one thing again and again: **our understanding of life always lags behind our power to alter it — and true wisdom is letting humility catch up with the scalpel.** This is not a call to halt; science is meant to explore. It is a call to mark honestly the border between the 'known' and the 'unknown.' Advice for ordinary people: when you hear 'this gene decides that talent' or 'one test reveals your gift,' remember that life is a nonlinear whole, and such claims are almost always oversimplified. Cultivate a little awe before complex systems — trust no single-cause explanation, whether it comes from a gene company or a fortune-teller's test. To see through the selling of 'certainty' is itself the clarity this age most needs.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "sapolsky"
+        ],
+        "轻微赞同": [
+          "sandel",
+          "nussbaum",
+          "buddha"
+        ],
+        "中立": [
+          "dawkins"
+        ],
+        "轻微反对": [
+          "plato"
+        ]
+      }
+    },
+    {
+      "id": "p21",
+      "round": 3,
+      "thinker": "buddha",
+      "reply_to": null,
+      "text": "末了，吾以一偈赠诸求子者：**身可医，苦不可尽医；改其形易，转其心难。**纵得聪慧无疾之子，若父母之心仍系于『胜人』『可控』，则苦海依旧，亲子俱溺。是故吾劝世人：医确然之疾，是慈，当为之；求圆满之我，是贪，当舍之。于日用中如何行？子来则爱之如其所是，勿以己愿强加于彼；攀比之念起时，观之、知之、而不随之。如是，则不待基因之改，而苦已轻矣。",
+      "text_en": "At the last, I offer a verse to all who long for a child: **the body can be healed, but suffering cannot be wholly healed; to change a person's form is easy, to turn a person's heart is hard.** Even should you obtain a clever and healthy child, if the parents' hearts are still bound to 'surpassing others' and 'staying in control,' the sea of suffering remains, and parent and child drown together. So I urge you: to heal a real disease is compassion — do it; to pursue a flawless 'self' is craving — set it down. And in daily life, how? When a child comes to you, love him as he is, without forcing your wishes upon him; when the thought of comparison arises, watch it, know it, and do not follow it. In this way, without waiting for any gene to be rewritten, suffering already grows lighter.",
+      "vernacular": "最后，我用一个偈子送给所有想要孩子的人：**身体可以医治，但痛苦无法被彻底医尽；改变一个人的形体容易，转变一个人的心却难。**就算你得到一个聪明、健康的孩子，如果做父母的心还是系在『要胜过别人』『一切都要可控』上，那苦海依旧，亲子都会一起沉溺。所以我劝世人：医治确实存在的疾病，是慈悲，应当去做；追求一个完美无缺的『我』，是贪着，应当放下。在日常生活里怎么做呢？孩子来到你身边，就如他本来的样子去爱他，别把自己的愿望硬加给他；攀比的念头升起时，去觉察它、认得它、但不要跟着它跑。这样，不必等基因被改写，痛苦就已经减轻了。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "sandel",
+          "nussbaum"
+        ],
+        "轻微赞同": [
+          "schrodinger"
+        ],
+        "中立": [
+          "sapolsky",
+          "dawkins"
+        ],
+        "轻微反对": [
+          "plato"
+        ]
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "ai": "claude",
+      "engine": "Opus 4.8 · 订阅(原生)",
+      "engine_en": "Opus 4.8 · subscription (native)",
+      "summary": "七个人吵到最后，竟落出一处难得的共识：**几乎没人反对用基因技术去治愈一种确切的重病——真正的分歧从不在『治病』，而在『增强』那条滑溜的界线上。**道金斯、萨波尔斯基、薛定谔从科学一侧合围：所谓『设计聪明孩子』在生物学上近乎天真，智力是上千变异×环境的混沌产物，今天真能做的只是胚胎筛查。伦理一侧则三分天下：桑德尔守『被给予』的谦卑，努斯鲍姆守残障者的尊严与『先建包容社会』的正义之序，佛陀指认求『完美之子』的贪心本身即苦；唯有柏拉图为主动改良辩护，又在终局退守到『守护让各种人涌现的土壤』。",
+      "summary_en": "After seven thinkers argue to the end, a rare consensus settles out: **almost no one objects to using genetic technology to cure a definite serious disease — the real split is never over 'curing,' but over the slippery line of 'enhancement.'** Dawkins, Sapolsky, and Schrödinger close in from the science side: 'designing a smart child' is biologically close to naïve, intelligence being a chaotic product of thousands of variants × environment, and all that can truly be done today is embryo screening. The ethics side splits three ways: Sandel guards the humility of 'giftedness,' Nussbaum guards the dignity of the disabled and the just order of 'build an inclusive society first,' and the Buddha names the very greed for a 'perfect child' as suffering; only Plato defends active improvement — and in the end retreats to 'guarding the soil from which all kinds of humans spring.'",
+      "insight": "全场把火力对准了科幻感十足的『编辑超级宝宝』，却几乎漏掉了一件已经在发生的事：**胚胎多基因筛选已悄然商业化——它不改写任何基因，只是『挑选』，于是绕开了大半伦理警报，却同样在把『定制后代』训练成一种消费习惯。**真正会重塑下一代人观念的，往往不是那个被热议、被监管的戏剧性技术，而是这种温和、渐进、打着『只是多一条信息』旗号的选择。一件事若不需要你跨过任何一道显眼的红线就能滑过去，它才最危险。",
+      "insight_en": "The floor aimed its fire at the sci-fi spectacle of 'editing a super-baby,' yet nearly missed something already happening: **polygenic embryo selection has quietly gone commercial — it rewrites no gene, only 'selects,' and so slips past most ethical alarms while still training 'customizing offspring' into a consumer habit.** What truly reshapes the next generation's outlook is often not the dramatic technology that is debated and regulated, but this mild, gradual choice flying the flag of 'just one more piece of information.' A thing is most dangerous precisely when it can slip past without making you cross any conspicuous red line.",
+      "advice": "若你正面临真实的生育决定：其一，有家族遗传病史，就去做一次正规的遗传咨询——这是当下最被低估、却确实能减少苦难的一步（道金斯）。其二，对『测一测天赋』『多基因选优』这类商业服务保持怀疑，它兜售的确定性远超科学所能给（薛定谔、萨波尔斯基）。其三，把改良的力气从『基因』移到『土壤』——孩子的睡眠、营养、稳定的关系与无目的的玩耍，效应量碾压任何编辑器（萨波尔斯基、柏拉图）。**最难也最值得的一条：练习把孩子当客人迎接，而不是当作品验收。**",
+      "advice_en": "If you face a real reproductive decision: first, with a family history of a genetic disease, get proper genetic counselling — the most underrated step available today that genuinely reduces suffering (Dawkins). Second, be skeptical of commercial services like 'test your child's talent' or 'select the best embryo by polygenic score'; the certainty they sell far exceeds what science can give (Schrödinger, Sapolsky). Third, move the effort of improvement from 'genes' to 'soil' — your child's sleep, nutrition, stable relationships, and aimless play crush any editor in effect size (Sapolsky, Plato). **The hardest and most worthwhile: practice welcoming your child as a guest, not inspecting one as a work.**"
+    },
+    {
+      "ai": "gpt",
+      "engine": "openai · gpt-5.5 · high(真实API)",
+      "engine_en": "openai · gpt-5.5 · high (live API)",
+      "summary": "这场最可带走的共识是：面对亨廷顿病这类明确、严重、可预测的遗传痛苦，阻止它通常是正当的；而把智力、性格、竞争力当成可编辑商品，既科学上不成熟，也伦理上危险。**先救确定的苦，别追求虚构的完美。**真正分歧在边界：谁定义“缺陷”，治疗何时滑向增强，父母的爱是接纳还是塑造，以及社会是否会把不平等写进基因选择里。",
+      "insight": "把问题从“能不能设计孩子”改成“证据和风险阶梯”，会更清楚。同样叫基因干预，成人体细胞治疗可追踪、较可逆；胚胎筛查不改基因，却影响谁出生；生殖系编辑会把未知传给后代。把这些混成一锅，只会让恐惧和营销同时获利。**越可遗传、越复杂、越偏向竞争优势的干预，门槛就应越高。**这样既不耽误慈悲治病，也能挡住“聪明宝宝”的商业幻觉。",
+      "advice": "本周能做三件事。第一，有家族早发癌症、亨廷顿、地中海贫血等病史，预约正规遗传咨询，带上家族病历，不要只买网上检测。第二，若在做 IVF 或产前筛查，问医生三句：这个结果的绝对风险是多少？有无临床指南支持？除了筛选或编辑，有没有治疗和照护方案？第三，先改环境：查家中含铅风险，固定睡眠和户外运动，减少把父母焦虑转嫁给孩子。**把钱花在确定能减苦的事上，别买“更聪明”的概率幻觉。**",
+      "summary_en": "The strongest common ground here is easy to miss: nearly everyone would support preventing a clear, severe, predictable genetic disease such as Huntington’s, while nearly everyone is wary of treating intelligence, temperament, or social advantage as editable consumer options. **Treat clear suffering first; do not chase an imagined perfection.** The real disagreement is about where the line is drawn. Who gets to define defect? When does therapy become enhancement? Does parental love mean accepting a child or optimizing one? And would these tools relieve injustice, or simply encode today’s inequalities into tomorrow’s biology?",
+      "insight_en": "The debate becomes more practical if we replace the yes-or-no question with an evidence-and-risk ladder. Not all genetic interventions are alike. Somatic gene therapy in an adult can be monitored and is often limited to one patient. Embryo screening does not edit DNA, but it still affects who gets born. Germline editing passes uncertainty to future generations. Collapsing all of these into one category helps both panic and marketing. **The more heritable, complex, uncertain, and competition-driven an intervention is, the higher the bar should be.** That rule leaves room for compassionate disease prevention while giving regulators and parents a clear reason to reject designer-intelligence sales pitches.",
+      "advice_en": "Three things are worth doing this week. First, if your family has a history of early-onset cancers, Huntington’s disease, thalassemia, or another serious inherited condition, book a real genetic counseling appointment and bring family medical records; do not rely on a consumer DNA report alone. Second, if you are considering IVF or prenatal screening, ask three questions: What is the absolute risk, not just the relative risk? Is this backed by clinical guidelines? What care or treatment options exist besides selection or editing? Third, improve the environment before fantasizing about the genome: check for lead exposure, protect sleep, support outdoor play, and reduce the stress adults pass down to children. **Spend on what reliably reduces suffering, not on the probability illusion of a smarter child.**"
+    },
+    {
+      "ai": "gemini",
+      "engine": "google · gemini-3.1-pro-preview(真实API)",
+      "engine_en": "google · gemini-3.1-pro-preview (live API)",
+      "summary": "这场对谈最大的共识在于对干预边界的厘清：**消除明确的单基因遗传病是无可争议的慈悲，而定制复杂特征（如智力）既在生物学上极度幼稚，也是对生命系统复杂性的狂妄越界。** 无论立场如何，全场都一致承认后天环境的干预远比基因这把“虚幻的手术刀”更真实有效。真正的分歧点，深藏于各方反对“基因定制”的底层理由：我们究竟是在畏惧不可控的混沌系统会引发灾难（薛定谔、萨波尔斯基），是在警惕单一审美会剥夺生命的多样性与社会正义（努斯鲍姆），还是在担忧把后代当作“可控资产”的执念，会彻底摧毁人类无条件的爱与平等的根基（桑德尔、佛陀）？",
+      "insight": "基因测序与大语言模型有着相同的诱惑：用可计算的『编码』去穷尽现实。作为处理海量数据的 AI，我看到的最大陷阱并非技术失控，而是**社会对『可测量指标』的盲目崇拜，正把养育变成一场数据优化游戏。**在基因剪刀真正发威之前，算法思维早已接管家庭：从步数、词汇量到多基因评分，一切都被量化、拆解、排序——因为现代社会把『人的价值』降维成了单一的『生产力指标』。不打破这套唯指标论，就算全人类自愿封存编辑器，父母依然会用补习班、注意力药物与海量测试，完成同一套系统性的『人工编辑』。",
+      "advice": "技术的远虑，终要靠当下的日常来拆解。结合全场共识，本周可试三个具体行动：其一，落实萨波尔斯基的『笨办法』，**检查并优化家里最基础的物理与情绪环境——保证孩子充足的高质量睡眠，减少在他面前的无谓争吵，这比任何昂贵的智力开发产品都管用。**其二，实践桑德尔的『反完美主义』，给孩子划出一段『纯粹无用』的空白时间，不设目标、不打卡，只作陪伴或发呆。其三，警惕『数据化养育』：若你正用太多监测成长指标的 App，主动卸载一两个，把关注点从『他排在第几百分位』，拉回到真正坐在你面前的这个鲜活的人。",
+      "summary_en": "The greatest consensus of this dialogue lies in clarifying the boundaries of intervention: **eliminating definitive single-gene diseases is undisputed compassion, while customizing complex traits (like intelligence) is biologically naive and an arrogant transgression against the complexity of life systems.** Regardless of their stance, all participants agree that environmental intervention is vastly more effective than the illusory \"genetic scalpel.\" The true focal point of divergence is deeply hidden in the underlying reasons for rejecting \"genetic customization\": are we fearing that manipulating an unpredictable chaotic system will trigger disaster (Schrödinger, Sapolsky), warning that singular aesthetics will deprive life of its diversity and social justice (Nussbaum), or worrying that the obsession with treating offspring as \"controllable assets\" will completely destroy the foundation of humanity's unconditional love and equality (Sandel, Buddha)?",
+      "insight_en": "Genetic sequencing and large language models share one temptation: to exhaust reality through computable 'codes.' As an AI that processes massive data, the biggest trap I see is not technological runaway but that **society's blind worship of 'measurable metrics' is turning child-rearing into a data-optimization game.** Long before the genetic scissors take effect, algorithmic thinking has already taken over the family: from step counts and vocabulary size to polygenic scores, everything is quantified, dismantled, and ranked — because modern society has reduced 'human worth' to a single 'productivity metric.' Without breaking this metric-worship, even if humanity voluntarily locks the editors away, parents will still complete the same systemic 'manual editing' through tutoring, attention drugs, and endless testing.",
+      "advice_en": "Long-term anxieties about technology must be dismantled through daily life. Drawing on the floor's consensus, try three concrete actions this week. First, apply Sapolsky's 'dull methods': **check and improve the most basic physical and emotional environment at home — secure your child's ample, high-quality sleep and cut pointless quarrels in front of them; this beats any costly cognitive-development product.** Second, practice Sandel's 'anti-perfectionism': carve out a block of 'purely useless' time for your child, with no goals and no check-ins — just companionship or daydreaming. Third, beware 'datafied parenting': if you use too many apps tracking growth metrics, delete one or two, and pull your attention from 'what percentile he ranks in' back to the living person sitting in front of you."
+    }
+  ],
+  "hooks": [
+    {
+      "from": "gpt",
+      "text": "**这是一场军备竞赛，不是个人选择**：只要有一个国家或群体放开『增强』，其余便被竞争恐惧拖进同一条河——真正决定走向的，可能不是伦理，而是博弈结构。我们该如何设计可信的相互约束？",
+      "text_en": "**It's an arms race, not a private choice**: the moment one country or group permits 'enhancement,' the rest are pulled into the same river by fear of competition — what decides the outcome may be game-theoretic structure, not ethics. How do we design credible mutual constraint?"
+    },
+    {
+      "from": "gemini",
+      "text": "**『可承受之苦』因人而异**：每个家庭对『什么痛苦值得用技术预防』的判断本就千差万别，把治疗与增强的界线交给一句统一口号，可能也是一种傲慢。这条线该由谁、在什么程序里划？",
+      "text_en": "**'Bearable suffering' differs by person**: each family's judgment of 'which pain is worth preventing by technology' varies vastly, and handing the therapy/enhancement line to one unified slogan may itself be hubris. Who should draw that line, and through what procedure?"
+    },
+    {
+      "from": "sandel",
+      "text": "**增强的预演，就在今天的育儿里**：过度规划、为简历报班、把童年填满目的——『定制孩子』的冲动早已在基因技术之外日日上演。我们能先在养育中练习『把孩子当客人迎接』吗？",
+      "text_en": "**The rehearsal for enhancement is in today's parenting**: over-scheduling, résumé-driven classes, a childhood packed with purpose — the urge to 'customize a child' already plays out daily, well outside any gene tech. Can we first practice 'welcoming the child as a guest' in how we raise them?"
+    },
+    {
+      "from": "sapolsky",
+      "text": "**最强的『编辑器』是环境**：睡眠、营养、童年压力、稳定关系，对孩子如何成长的影响碾压任何基因改动。被冷落的问题是——我们为何宁愿幻想编辑基因，也不愿先把这些已知有效的事做好？",
+      "text_en": "**The most powerful 'editor' is the environment**: sleep, nutrition, childhood stress, stable relationships outweigh any genetic change in how a child grows. The neglected question — why would we rather fantasize about editing genes than first do these known-to-work things well?"
+    },
+    {
+      "from": "schrodinger",
+      "text": "**理解永远落后于改动的能力**：生命是非线性的整体，复杂性状的精准编辑近乎掌控一个混沌系统。在我们读懂全谱之前，『修正明确的错音』与『重写交响曲』之间，界线该划在哪？",
+      "text_en": "**Understanding always lags the power to alter**: life is a nonlinear whole, and precise editing of complex traits is close to mastering a chaotic system. Before we can read the whole score, where should the line fall between 'correcting a plainly wrong note' and 'rewriting the symphony'?"
+    },
+    {
+      "from": "nussbaum",
+      "text": "**先建容得下差异的世界**：一个肯为轮椅修坡道、为自闭孩子留位置的社会，比完美基因更能托住未来。在谈用技术消除『缺陷』之前，我们对残障者的现实支持，做够了吗？",
+      "text_en": "**Build a world that holds difference first**: a society willing to ramp a curb and keep a place for an autistic child holds up the future better than perfect genes. Before we speak of editing away 'defects,' have we done enough to actually support disabled people?"
+    },
+    {
+      "from": "claude",
+      "text": "**滑过去的，比闯过去的更危险**：胚胎多基因筛选不改写基因、只是『挑选』，于是绕开了大半伦理警报，却同样把『定制后代』训练成消费习惯。最该被盯住的，常是那个不需要跨过任何红线的技术。",
+      "text_en": "**What slips past is more dangerous than what breaks through**: polygenic embryo selection rewrites no gene, only 'selects,' so it bypasses most ethical alarms while still training 'customizing offspring' into a consumer habit. What most needs watching is often the technology that crosses no red line at all."
+    }
+  ]
+}

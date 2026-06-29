@@ -9,6 +9,15 @@
   },
   "candidates": [
     {
+      "id": "gene-editing",
+      "votes": 0,
+      "q": "该不该用基因编辑「设计」更聪明、更健康的下一代？",
+      "q_en": "Should we use gene editing to 'design' smarter, healthier children?",
+      "note": "治病少有人反对，但『增强』呢？桑德尔在《反对完美》里说，把孩子当成可定制的产品，会侵蚀我们对生命『天赋』的感恩与谦卑；超人类主义者反问：既然能让后代少受苦、更有能力，凭什么不做？这是科技轨迹上最尖锐的伦理岔口。",
+      "note_en": "Few object to curing disease — but enhancement? In 'The Case against Perfection,' Sandel argues that treating children as customizable products erodes our gratitude and humility before life as a gift; transhumanists retort: if we can spare our descendants suffering and grant them more capacity, why not? The sharpest ethical fork on technology's very trajectory.",
+      "cat": "ethics"
+    },
+    {
       "id": "comparison-and-envy",
       "votes": 0,
       "q": "为什么我们忍不住跟别人比？嫉妒能消除吗？",
@@ -178,6 +187,51 @@
       "note": "这与『撤管放手』关键不同：那里是停止徒劳的治疗、让自然走完；这里是应本人明确请求、主动结束生命。『让其死去』和『杀死他』之间，真有一道清白的道德界线，还是我们需要它存在？自主权、生命神圣、对弱势者被胁迫的担忧、医生『不伤害』的誓言在此正面相撞。",
       "note_en": "Crucially different from 'withdrawing life support': there one stops futile treatment and lets nature finish; here one actively ends a life at the patient's explicit request. Is there really a clean moral line between 'letting him die' and 'killing him,' or do we need one to exist? Autonomy, the sanctity of life, fear of coercing the vulnerable, and the physician's oath to 'do no harm' collide head-on.",
       "cat": "ethics"
+    },
+    {
+      "id": "eat-meat",
+      "votes": 0,
+      "q": "该不该吃肉？动物有没有值得我们尊重的道德地位？",
+      "q_en": "Should we eat meat? Do animals have a moral standing we're bound to respect?",
+      "note": "辛格说，能感受痛苦就该被纳入道德考量，『物种歧视』和种族歧视一样站不住脚；可儒家讲『亲亲而仁民、仁民而爱物』的差等之爱，庄子又说万物齐一。一个你每天在做、却很少严肃质疑的选择。",
+      "note_en": "Singer argues that whatever can suffer deserves moral consideration, and 'speciesism' is as indefensible as racism; yet Confucianism teaches a graded love radiating outward, and Zhuangzi sees all things as one. A choice we make daily but rarely question.",
+      "cat": "ethics"
+    },
+    {
+      "id": "democracy-best",
+      "votes": 0,
+      "q": "民主一定是最好的制度吗？",
+      "q_en": "Is democracy necessarily the best system of government?",
+      "note": "柏拉图把民主比作让乘客投票指挥航船、终将触礁，主张哲人王；托克维尔警惕『多数人的暴政』；法家信赏必罚的强力，熊彼特把民主降格为『精英竞争选票』。一个几乎不容置疑的『神圣价值』，值得被认真盘问一次。",
+      "note_en": "Plato likened democracy to passengers voting to steer a ship onto the rocks, and argued for philosopher-kings; Tocqueville warned of the 'tyranny of the majority'; Legalism trusts strict reward and punishment, and Schumpeter reduced democracy to 'elites competing for votes.' A near-unquestionable 'sacred value' worth interrogating.",
+      "cat": "ethics"
+    },
+    {
+      "id": "play-and-uselessness",
+      "votes": 0,
+      "q": "一定要事事「有意义」吗？「无用」和「玩」本身有没有价值？",
+      "q_en": "Must everything be 'meaningful'? Do uselessness and play have worth in themselves?",
+      "note": "庄子说『无用之用，方为大用』；罗素在《悠闲颂》里抨击把人变成工具的勤奋崇拜；可韦伯笔下的新教伦理早把『不事生产＝罪』刻进现代人骨子里。我们为何一闲下来就愧疚？玩、发呆、做无用之事，是浪费，还是人之为人的必需？",
+      "note_en": "Zhuangzi said 'the use of the useless is the greatest use'; in 'In Praise of Idleness,' Russell attacked the cult of busyness that turns people into tools; yet Weber's Protestant ethic long ago carved 'unproductiveness = sin' into modern bones. Why do we feel guilty the moment we rest? Is play, idling, doing the useless a waste — or what makes us human?",
+      "cat": "self"
+    },
+    {
+      "id": "is-progress-real",
+      "votes": 0,
+      "q": "进步是真的吗？历史是在前进，还是循环、甚至退步？",
+      "q_en": "Is progress real? Is history moving forward, in cycles — or even backward?",
+      "note": "启蒙以来我们默认『明天会更好』，平克用数据论证暴力与贫困确在下降；可尼采说时间是永恒轮回，卢梭说文明每一步都在腐蚀本性，东方与古典常把历史看成治乱循环。技术在加速，但那是『进步』，还是只是『加速』？",
+      "note_en": "Since the Enlightenment we assume 'tomorrow will be better,' and Pinker marshals data that violence and poverty really are falling; yet Nietzsche calls time an eternal recurrence, Rousseau says every step of civilization corrupts our nature, and classical and Eastern thought often see history as cycles of order and chaos. Technology accelerates — but is that 'progress,' or merely 'speed'?",
+      "cat": "meta"
+    },
+    {
+      "id": "value-of-suffering",
+      "votes": 0,
+      "q": "痛苦有没有价值？一个彻底没有苦难的世界，值得要吗？",
+      "q_en": "Does suffering have value? Would a world with no suffering at all be worth wanting?",
+      "note": "工程师的本能是优化掉一切不适；可陀思妥耶夫斯基笔下的『地下室人』宁可砸了完美的『水晶宫』，也要保住受苦的自由；尼采说『杀不死我的使我更强』；佛陀却以灭苦为全部修行的目的。赫胥黎《美丽新世界》警告：没有眼泪的幸福，或许不值一过。",
+      "note_en": "An engineer's instinct is to optimize away all discomfort; yet Dostoevsky's 'underground man' would smash the perfect 'crystal palace' rather than surrender the freedom to suffer; Nietzsche says 'what does not kill me makes me stronger'; the Buddha makes the ending of suffering the whole point of practice. Huxley's 'Brave New World' warns: a happiness without tears may not be worth living.",
+      "cat": "life"
     }
   ],
   "debated": [

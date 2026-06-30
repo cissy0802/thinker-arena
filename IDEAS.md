@@ -88,6 +88,7 @@
 - [ ] 该不该让算法来管人——派活、打分、监控，甚至解雇？  <!--algorithmic-management-->
 - [ ] 当 AI 比谁都懂，领导者还剩什么不可替代的？  <!--leadership-after-ai-->
 - [ ] 当下属都用 AI 干活，领导该考核产出，还是过程与成长？  <!--output-or-growth-->
+- [ ] 生产力一次次飞跃，人是更清闲还是更忙、更幸福还是更不幸？（农业、工业、AI 三次革命）  <!--productivity-and-leisure-->
 
 ---
 

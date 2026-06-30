@@ -1,0 +1,737 @@
+{
+  "id": "what-determines-value",
+  "question": "一样东西的价值，到底由什么决定？（劳动、效用、稀缺，还是别的？）",
+  "question_en": "What ultimately determines the value of a thing? (Labor, utility, scarcity — or something else?)",
+  "date": "2026-06-30",
+  "participants": [
+    "adamsmith",
+    "hayek",
+    "piketty",
+    "bourdieu",
+    "nagarjuna",
+    "ramachandran",
+    "wilde"
+  ],
+  "casting": [
+    {
+      "id": "adamsmith",
+      "reason": "古典经济学之父，本场价值之争最该请的开场人。著名的『价值悖论』——水极有用却几乎免费、钻石几乎无用却价比黄金——正是他在《国富论》里点破的，并由此分出『使用价值』与『交换价值』。他主张交换价值根植于取得一物所耗的劳动，而日常价格围绕成本（工资+利润+地租）的『自然价格』波动。他为全场立下最经典的坐标系，也最先承认价值不是一回事。",
+      "reason_en": "The father of classical economics, the first voice this debate on value should summon. The famous 'paradox of value' — that water is supremely useful yet nearly free, while a diamond is nearly useless yet rivals gold — is the one he laid bare in The Wealth of Nations, splitting 'value in use' from 'value in exchange.' He holds that exchange value is rooted in the labor required to obtain a thing, while everyday prices fluctuate around a 'natural price' set by cost (wages + profit + rent). He plants the most classical coordinate system for the floor, and is the first to grant that value is not one single thing."
+    },
+    {
+      "id": "hayek",
+      "reason": "奥地利学派巨擘，劳动价值论最有力的拆解者。他主张根本不存在藏在物里的客观价值——价值是主观的、边际的，只存在于个人当下的取舍中；价格则是把无数人分散的知识浓缩成一个数字的信号，无人能、也无人该去『钦定』。他让水钻悖论在边际处自行消解，并把『谁来决定价值』的冲动直指通往奴役之路。他是全场市场派、主观派的定音者。",
+      "reason_en": "A titan of the Austrian school and the most forceful dismantler of the labor theory of value. He holds there is no objective value hidden inside things — value is subjective and marginal, existing only in an individual's choice at the moment; price is a signal that compresses the dispersed knowledge of countless people into a single number, which no one can or should 'decree.' He lets the water-diamond paradox dissolve at the margin, and points the impulse to 'decide value' straight down the road to serfdom. He is the floor's defining voice for markets and subjectivity."
+    },
+    {
+      "id": "piketty",
+      "reason": "《21世纪资本论》作者，把价值之争从形而上拉回账本的实证派。他指出现代财富的大头是资产、尤其房产，而房价里最难解释的那一块是不可再生土地的地租——既非劳动所造、也非效用所增，劳动论与效用论在此双双失灵。他以 r>g 论证价值会向存量资本自我集中，主张价值在宏观上由权力与制度分配。他为本场提供最硬的数据反例。",
+      "reason_en": "Author of Capital in the Twenty-First Century and the empiricist who drags the value debate from metaphysics back to the ledger. He points out that the bulk of modern wealth is assets, housing above all, and that the hardest-to-explain part of a house price is the rent of irreproducible land — made by no labor and added by no utility, where both the labor and the utility theory fail. With r > g he argues that value concentrates into the existing stock of capital on its own, and that value, at the macro scale, is distributed by power and institutions. He brings the floor its hardest empirical counter-example."
+    },
+    {
+      "id": "bourdieu",
+      "reason": "实践社会学大师，揭穿『价值中立』的最佳人选。他论证一件东西『有价值』，首先是一群人在某个『场域』里共同相信它有价值，而这份信念由制度反复生产、由品味（文化资本）悄悄世袭。同一幅画在画廊与在儿童房价值天差地别，差别不在物，而在认证它的权力网络。他把价值从经济量还原为社会建构与阶级再生产，给全场补上社会学一维。",
+      "reason_en": "A master of the sociology of practice and the ideal voice to expose 'value-neutrality.' He argues that for a thing to 'have value' is first for a group of people, within some 'field,' to jointly believe it has value — a belief reproduced over and over by institutions and quietly inherited as taste (cultural capital). The same painting is worlds apart in value in a gallery versus a child's room; the difference lies not in the object but in the network of power that certifies it. He reduces value from an economic quantity to social construction and class reproduction, adding the sociological dimension to the floor."
+    },
+    {
+      "id": "nagarjuna",
+      "reason": "中观派祖师，为本场带来最彻底的形而上视角。他以『缘起性空』指出：没有哪样东西自带固定的价值，价值随需要、稀缺、场合等众缘而起灭——这并非虚无（依世俗谛交易宛然真实），而是劝人别把浮动的价钱执为物的实有本质。他与脑科学的『价值是心识所现』遥相呼应，又更进一层连『能估之心』也破，给全场提供一面照见执著的镜子。",
+      "reason_en": "The patriarch of Madhyamaka, bringing the floor its most thorough metaphysical perspective. With 'dependent origination and emptiness' he points out that nothing carries a fixed value of its own; value arises and ceases with conditions — need, scarcity, occasion — which is not nihilism (by conventional truth trade is plainly real), but a counsel against grasping a floating price as a thing's real essence. He echoes the neuroscientific 'value is what the mind presents,' then goes a step further to empty even 'the mind that appraises,' offering the floor a mirror in which attachment can be seen."
+    },
+    {
+      "id": "ramachandran",
+      "reason": "以奇异病例闻名的神经科学家，把抽象的价值之争落到大脑里。他指出你『感到』某物有价值的那一刻，是眶额叶的估值回路在多巴胺驱动下实时打分，而这套系统天生可被稀缺、所有权（禀赋效应）与营销欺骗；连审美也有峰移等可测定律。他既为『价值主观』提供生理证据，又揭示我们会被自己的估值器骗——给全场补上脑科学这关键一维。",
+      "reason_en": "A neuroscientist famed for his strange clinical cases, who lands the abstract value dispute inside the brain. He points out that the instant you 'feel' something is valuable, the valuation circuit in your orbitofrontal cortex is scoring in real time under dopamine's drive, and that this system is by nature foolable by scarcity, ownership (the endowment effect), and marketing; even aesthetics has measurable laws like peak shift. He supplies physiological evidence for 'value is subjective' while revealing that we can be deceived by our own valuation device — adding the crucial neuroscientific dimension to the floor."
+    },
+    {
+      "id": "wilde",
+      "reason": "唯美主义旗手与机智之王，全场为『无法被定价之物』辩护的声音。他那句『犬儒者知道一切东西的价格，却不懂任何东西的价值』，正是对把价值缩成价格的最锋利反讽。他主张为艺术而艺术——美自身即目的，而最贵重之物（黄昏、友谊、好诗）恰恰是市场无从标价的。他为这场偏重经济与科学的辩论守住人文与审美的另一极。",
+      "reason_en": "The standard-bearer of Aestheticism and the king of wit, the floor's voice in defense of what cannot be priced. His line 'a cynic knows the price of everything and the value of nothing' is the sharpest irony against shrinking value into price. He holds to art for art's sake — beauty is its own end, and the most precious things (a sunset, a friendship, a fine poem) are precisely those the market cannot price. For a debate weighted toward economics and science, he keeps the other pole of the humane and the aesthetic."
+    }
+  ],
+  "posts": [
+    {
+      "id": "p01",
+      "round": 1,
+      "thinker": "adamsmith",
+      "reply_to": null,
+      "text": "先讲个老谜题：水能续命，却几乎白送；钻石无用，价却抵金。可见光凭『有用』定不了价钱。我把它拆成两层：一物对你的使用价值，与它在市场上能换得多少的交换价值，本是两回事。**真正撑起交换价值的，是取得它所凝结的劳动与辛苦——钻石贵，因为从矿里掘出它要拼命。**至于日常标价，则围绕工资、利润、地租加总的自然价格上下浮动，被供求来回拉扯。所以先别问『价值是什么』，先问你说的是哪一种。",
+      "text_en": "Let me start with an old riddle: water keeps you alive yet costs almost nothing; a diamond is useless yet rivals gold in price. Plainly, usefulness alone cannot set a price. I split the matter in two: a thing's value in use to you, and its value in exchange — what it fetches in the market — are not the same thing. **What truly underpins exchange value is the labor and toil congealed in obtaining it — a diamond is dear because you risk your life digging it from the mine.** Everyday prices, meanwhile, hover around a natural price — the sum of wages, profit, and rent — and are pulled to and fro by supply and demand. So before asking 'what is value,' ask first which value you mean.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "使用价值": "value in use（使用价值）：一件东西对使用者实际的有用程度、能满足的需要，如水之于解渴。斯密指出它与『交换价值』可以严重背离——最有用的东西（水）未必最值钱。",
+        "交换价值": "value in exchange（交换价值）：一件东西在市场上能换得多少别的东西（或多少钱）的能力，即它的『售价』。斯密认为它主要由取得该物所耗费的劳动决定，而非由它的有用程度决定。",
+        "自然价格": "natural price（自然价格）：斯密提出的概念，指一件商品的工资、利润、地租等成本恰好被补偿时的价格，是市场价格长期围绕上下波动的『重心』。"
+      },
+      "glossary_en": {
+        "value in use": "how genuinely useful a thing is to its user, the need it can meet, as water meets thirst. Smith noted it can diverge sharply from 'value in exchange' — the most useful thing (water) need not be the most expensive.",
+        "value in exchange": "a thing's power to command other goods (or money) in the market, i.e. its selling price. Smith held it is governed mainly by the labor required to obtain the thing, not by how useful it is.",
+        "natural price": "Smith's term for the price at which the wages, profit, and rent embodied in a good are exactly covered — the 'center of gravity' around which market price fluctuates over the long run."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "ramachandran"
+        ],
+        "中立": [
+          "hayek",
+          "piketty",
+          "nagarjuna"
+        ],
+        "轻微反对": [
+          "bourdieu",
+          "wilde"
+        ]
+      }
+    },
+    {
+      "id": "p02",
+      "round": 1,
+      "thinker": "hayek",
+      "reply_to": null,
+      "text": "斯密兄，你还在找一个藏在物里的『价值实体』，这正是我要破的执念。**价值不在物里，而在人心的取舍里——它是主观的，而且永远是边际的。**没人为『水』整体估价，你估的是此刻多一杯水值多少；沙漠里那一杯，贵过你家整缸。钻石之谜，一落到边际就烟消云散。千百万人各自在边际上权衡，汇成价格——而价格是一套传递分散知识的信号，谁也没那个全知去『决定』它。想由谁来钦定价值，正是通往奴役之路的第一步。",
+      "text_en": "Smith, my friend, you are still hunting for a 'substance of value' hidden inside the thing — and that is the very superstition I mean to break. **Value is not in the object but in the choosing human heart — it is subjective, and always marginal.** No one prices 'water' as a whole; you price what one more glass is worth to you right now — and in the desert that single glass outvalues your whole tank at home. The diamond puzzle vanishes the moment you think at the margin. Millions weighing things at their own margin sum into a price — and price is a system of signals conveying dispersed knowledge that no one is omniscient enough to 'decide.' To appoint someone to fix value is the first step on the road to serfdom.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "边际": "the margin / marginal（边际）：经济学指『再多一单位』时的状态。价值由边际决定，意思是一件东西值多少，取决于你手上多一份（或少一份）它给你带来的满足，而非它整体的重要性——这解开了水与钻石之谜。",
+        "分散知识": "dispersed knowledge（分散知识）：哈耶克的核心概念，指关于供需、偏好、局部条件的知识零散地分布在无数人头脑里，没有任何中央机构能完整掌握；市场价格正是把这些分散知识浓缩成一个数字传递出去的机制。"
+      },
+      "glossary_en": {
+        "marginal": "in economics, the state at 'one more unit.' That value is set at the margin means a thing's worth depends on the satisfaction one more (or one less) unit gives you, not on its importance as a whole — which dissolves the water-vs-diamond puzzle.",
+        "dispersed knowledge": "Hayek's central concept: knowledge of supply, demand, preferences, and local conditions is scattered across countless minds, and no central body can hold it whole; the market price is the mechanism that compresses this dispersed knowledge into a single transmissible number."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "adamsmith",
+          "nagarjuna",
+          "ramachandran"
+        ],
+        "中立": [
+          "wilde"
+        ],
+        "轻微反对": [
+          "bourdieu"
+        ],
+        "强烈反对": [
+          "piketty"
+        ]
+      }
+    },
+    {
+      "id": "p03",
+      "round": 1,
+      "thinker": "piketty",
+      "reply_to": null,
+      "text": "两位的对谈很优雅，可惜都飘在空中。我只信账本。翻开任何富国的财富构成，大头不是劳动报酬，也不是什么主观满足，而是资产——尤其房子。同一套公寓，楼在朽、人没多干一分活，价格却翻了三倍，**它涨的几乎全是那块不可再生土地的地租，既非劳动所造，也非效用所增。**斯密的劳动论与哈耶克的效用论，在这里双双失灵。当资本回报长期高于增长（r>g），价值就向存量财富自我集中。说到底，大额价值不是被『发现』的，而是被权力与制度分配的。",
+      "text_en": "The exchange between these two is elegant, but both float in the air. I trust only the ledger. Open the wealth composition of any rich country: the bulk is not labor income, nor some subjective satisfaction, but assets — housing above all. The same flat, its building decaying and no extra hour of work added, triples in price; **what rises is almost entirely the land rent of that irreproducible patch — made by no labor and added by no utility.** Smith's labor theory and Hayek's utility theory both fail here. When the return on capital stays above growth (r > g), value concentrates into the existing stock of wealth on its own. In the end, large-scale value is not 'discovered' but distributed by power and institutions.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "地租": "land rent（地租）：占有土地这一不可再生资源所收取的报酬。古典经济学（李嘉图、亨利·乔治）指出地租并非由占有者的劳动创造，而源于土地的位置与稀缺——这正是房价里最难用劳动或效用解释的那一块。",
+        "r>g": "r>g（资本回报率高于增长率）：皮凯蒂《21世纪资本论》的核心命题——当资本的年回报率 r 长期高于经济增长率 g，已有财富的增值就快过普通人靠劳动获得的收入，财富因而持续向资本持有者集中。"
+      },
+      "glossary_en": {
+        "land rent": "the return collected for owning land, an irreproducible resource. Classical economics (Ricardo, Henry George) showed land rent is not created by the owner's labor but springs from the land's location and scarcity — precisely the part of a house price hardest to explain by labor or utility.",
+        "r > g": "Piketty's central thesis in Capital in the Twenty-First Century: when the annual return on capital r stays above the economy's growth rate g, accumulated wealth grows faster than the income ordinary people earn from labor, so wealth keeps concentrating in the hands of capital owners."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "bourdieu"
+        ],
+        "中立": [
+          "adamsmith",
+          "nagarjuna",
+          "ramachandran"
+        ],
+        "轻微反对": [
+          "wilde"
+        ],
+        "强烈反对": [
+          "hayek"
+        ]
+      }
+    },
+    {
+      "id": "p04",
+      "round": 1,
+      "thinker": "bourdieu",
+      "reply_to": null,
+      "text": "你们争劳动、效用、地租，却都默认价值是个经济量。可为什么毕加索随手一画值千万，孩子一模一样的涂鸦一文不值？差别不在画布上，而在那套替它盖章的场域——画廊、评论家、拍卖行、美术馆联手认证。**一件东西『有价值』，首先是一群人共同相信它有价值，而这份信念由制度反复生产、由品味悄悄世袭。**所谓高雅品味，不过是文化资本——它伪装成天赋，实则是阶级的隐形徽章，替既有秩序一代代再生产。价值从不中立，它是场权力的游戏。",
+      "text_en": "You quarrel over labor, utility, rent — yet all of you assume value is an economic quantity. Then why is a careless Picasso worth millions while a child's identical scribble is worth nothing? The difference lies not on the canvas but in the field that stamps it — galleries, critics, auction houses, museums certifying it together. **For a thing to 'have value' is first for a group of people to jointly believe it has value, and that belief is produced over and over by institutions and quietly inherited as taste.** What we call refined taste is merely cultural capital — it disguises itself as gift but is really the invisible badge of class, reproducing the existing order generation after generation. Value is never neutral; it is a game of power.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "场域": "field（场域）：布迪厄的概念，指有自身规则、等级与『入场资格』的社会空间，如艺术场、学术场、时尚场。一件东西的价值，往往不由它本身决定，而由它所在场域里的权威（评论家、机构）认证、赋予。",
+        "文化资本": "cultural capital（文化资本）：布迪厄提出的概念，指可以像金钱一样换取地位与机会的非经济资源——学历、谈吐、审美趣味、对『高雅』事物的熟悉。它多在家庭中世代传递，伪装成天赋，实则再生产阶级差异。"
+      },
+      "glossary_en": {
+        "field": "Bourdieu's term for a social space with its own rules, hierarchy, and 'admission requirements' — the art field, the academic field, the fashion field. A thing's value is often set not by the thing itself but by the authorities within its field (critics, institutions) who certify and confer it.",
+        "cultural capital": "Bourdieu's term for non-economic resources that, like money, can be exchanged for status and opportunity — credentials, manners, taste, familiarity with the 'high' arts. Largely transmitted within families across generations, it masquerades as gift while reproducing class difference."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "piketty"
+        ],
+        "轻微赞同": [
+          "nagarjuna",
+          "ramachandran"
+        ],
+        "中立": [
+          "wilde"
+        ],
+        "轻微反对": [
+          "adamsmith",
+          "hayek"
+        ]
+      }
+    },
+    {
+      "id": "p05",
+      "round": 1,
+      "thinker": "nagarjuna",
+      "reply_to": null,
+      "text": "诸君或归价值于劳作，或归于效用，或归于地租权势，各执一端，然皆觅一『价值之自体』而不可得。**物本无定值：同一杯水，渴者命之、溺者厌之、商者计之，值随缘转，何尝有一不变之价住于水中？**斯谓性空。然空非断灭：依世俗谛，贵贱宛然、交易历然，不可拨无；依胜义谛，求一『本然该值几何』之自体，了不可得。故善贾者用价而不为价所缚；执物为实有定值，贪之根也。识其缘起，则用之而心不滞。",
+      "text_en": "Some of you ascribe value to labor, some to utility, some to land rent and power — each holding one end; yet all seek a 'self-nature of value' that cannot be found. **A thing has no fixed worth in itself: the same cup of water — the thirsty prize it as life, the drowning loathe it, the merchant reckons its price — its worth turns with conditions; when was there ever one unchanging 'value' dwelling inside the water?** This is emptiness. Yet emptiness is no annihilation: by conventional truth, high and low are plain, trade is real, and may not be denied; by ultimate truth, seek a self-nature of 'what it inherently ought to be worth' and it is nowhere found. So the good trader uses prices without being bound by them; to grasp a thing as having real, fixed value is the very root of greed. See it as dependently arisen, and you may use it with an unstuck heart.",
+      "vernacular": "各位有的把价值归于劳动，有的归于效用，有的归于地租与权力，各执一端——可你们都在寻找一个『价值的独立自体』，而这根本找不到。**东西本来就没有固定的价值：同一杯水，口渴的人视它如命、溺水的人厌它、商人盘算它的价钱，价值随因缘流转，何曾有一个不变的『价』住在水里？**这就叫『性空』。但空不是断灭虚无：从世俗谛看，贵贱分明、买卖宛然，不能一笔抹杀；从胜义谛看，想找一个『它本来就该值多少』的固定自体，却根本找不到。所以会做买卖的人，用价格而不被价格捆住；把东西执着成实有的固定价值，正是贪欲的根。看清它由因缘而生，就能用它而心不黏滞。",
+      "vernacular_en": "",
+      "glossary": {
+        "性空": "emptiness / śūnyatā（性空）：中观佛学的核心——一切事物都没有独立、固定、自我成立的『自性』。说价值『性空』，是说没有哪样东西自带一个不变的价钱；价值随因缘（需要、稀缺、场合）而起灭，故不可执为实有。",
+        "世俗谛": "conventional truth（世俗谛）：二谛之一，指世间约定俗成、宛然有别的现象层面——在此意义上贵贱、买卖都真实可辨、不可抹杀。它与揭示『一切皆空』的胜义谛并存，须两层并观。",
+        "缘起": "dependent origination（缘起）：佛教根本原理，指一切现象都依赖众多条件聚合而生、随条件变化而灭，没有独立自存之物。价值由缘起，即它由需要、稀缺、时地、人心等条件共同显现，本身并无固定内核。"
+      },
+      "glossary_en": {
+        "emptiness": "the core of Madhyamaka Buddhism: nothing possesses an independent, fixed, self-establishing 'own-nature.' To say value is 'empty' is to say nothing carries an unchanging price of its own; value arises and ceases with conditions (need, scarcity, occasion) and so cannot be grasped as real.",
+        "conventional truth": "one of the two truths: the level of agreed-upon, apparently distinct phenomena — at which high and low, buying and selling are really tellable apart and not to be denied. It coexists with ultimate truth (which reveals that all is empty); both levels must be held together.",
+        "dependently arisen": "a thing is dependently arisen (the foundational Buddhist principle of dependent origination) when it comes to be through the convergence of many conditions and ceases as they change, with nothing self-existing. Value arising dependently means it appears through need, scarcity, time and place, and the human mind together, with no fixed core of its own."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "ramachandran"
+        ],
+        "轻微赞同": [
+          "hayek",
+          "bourdieu",
+          "wilde"
+        ],
+        "中立": [
+          "piketty"
+        ],
+        "疑惑": [
+          "adamsmith"
+        ]
+      }
+    },
+    {
+      "id": "p06",
+      "round": 1,
+      "thinker": "ramachandran",
+      "reply_to": null,
+      "text": "让我把这场争论搬进颅骨。无论价值在劳动里、市场里还是空性里，你『感到』某物有价值的那一刻，是一小撮神经元在眶额叶里点亮、多巴胺标好了分。**你的脑里有一套估值回路，它给一切——一杯水、一枚钻石、一个赞——实时打分，而这套打分系统天生就能被骗。**稀缺会拉高它（限量款的溢价），『拥有感』也会（禀赋效应：同一只杯子，一旦归你，你的要价立刻翻倍）。审美亦有定律，峰移、对称、对比让画更『美』。所以价值有一半不在世界里，而在你这台可被营销黑客攻击的估值器里。",
+      "text_en": "Let me move this dispute inside the skull. Whether value lives in labor, in markets, or in emptiness, the instant you 'feel' something is valuable, a small cluster of neurons lights up in your orbitofrontal cortex and dopamine tags it with a score. **Inside your head sits a valuation circuit that scores everything in real time — a glass of water, a diamond, a 'like' — and this scoring system is, by design, foolable.** Scarcity inflates it (the premium on a limited edition); so does ownership (the endowment effect: the same mug, once it's yours, and your asking price instantly doubles). Beauty too has its laws — peak shift, symmetry, contrast make a picture more 'beautiful.' So half of value is not out in the world but inside this valuation device of yours, one that marketing can hack.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "多巴胺": "dopamine（多巴胺）：大脑中一种神经递质，是奖赏与价值信号的核心。它编码的并非单纯的快乐，而是『预期价值』与意外之喜——稀缺、新奇、惊喜都会拉高它的释放，从而让你觉得某物更值得拥有。",
+        "禀赋效应": "endowment effect（禀赋效应）：行为经济学发现的偏误——同一件东西，一旦成为『我的』，人对它的估价立刻显著高于尚未拥有时。这说明价值评估并非客观，而深受『所有权』这类心理因素扭曲。",
+        "峰移": "peak shift（峰移）：源自动物学习的原理，指夸大某一关键特征会引发更强的反应。拉马钱德兰用它解释艺术与漫画为何偏爱夸张——大脑对被放大的特征给出超常的审美奖赏。"
+      },
+      "glossary_en": {
+        "dopamine": "a neurotransmitter central to reward and value signaling in the brain. It encodes not plain pleasure but 'expected value' and surprise — scarcity, novelty, and the unexpected all raise its release, making you feel a thing is more worth having.",
+        "endowment effect": "a bias found in behavioral economics: once a thing becomes 'mine,' a person's valuation of it jumps markedly above what it was before ownership. It shows valuation is not objective but heavily warped by psychological factors like possession.",
+        "peak shift": "a principle from animal learning whereby exaggerating a key feature provokes a stronger response. Ramachandran uses it to explain why art and caricature favor exaggeration — the brain pays an outsized aesthetic reward to amplified features."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "nagarjuna",
+          "hayek"
+        ],
+        "中立": [
+          "adamsmith"
+        ],
+        "轻微反对": [
+          "piketty",
+          "bourdieu",
+          "wilde"
+        ]
+      }
+    },
+    {
+      "id": "p07",
+      "round": 1,
+      "thinker": "wilde",
+      "reply_to": null,
+      "text": "终于轮到我替『价值』喊冤了。诸位经济学家忙了半天，只证明了一件事——**犬儒者，就是那种知道一切东西的价格、却不懂任何东西之价值的人。**市场是个精明的估价师，却是个糟糕的鉴赏家：它能给钻石标价，却给不出一个黄昏、一段友谊、一行好诗的价，而恰恰是这些无用之物，价值最高。为艺术而艺术——美自身即目的，一朵花不为结果而开。把价值缩成价格，是这个时代最廉价的成功。请记住：真正贵重的，往往正是市场无从定价的。",
+      "text_en": "At last it falls to me to defend poor 'value.' You economists have labored long only to prove one thing — **a cynic is a man who knows the price of everything and the value of nothing.** The market is a shrewd appraiser but a wretched connoisseur: it can price a diamond, yet it can set no price on a sunset, a friendship, a fine line of verse — and it is precisely these useless things that are worth the most. Art for art's sake — beauty is its own end; a flower does not bloom in order to bear fruit. To shrink value into price is the cheapest success of this age. Remember: what is truly precious is usually just what the market cannot price.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "犬儒者": "cynic（犬儒者）：在王尔德的名句里，指那种凡事只问价钱、不识真正价值的人。今义偏向愤世嫉俗、不信任何高尚动机者；王尔德用它讽刺把一切都换算成金钱的庸俗心态。",
+        "为艺术而艺术": "art for art's sake（为艺术而艺术）：唯美主义的口号，主张艺术（与美）自身即目的，无需服务于道德、实用或政治。引申到价值之争：有些美好之物的价值就在其自身，不必、也无法用任何外在用途来证成。"
+      },
+      "glossary_en": {
+        "cynic": "in Wilde's famous line, one who asks only the price and never recognizes true value. The modern sense leans toward sneering distrust of any noble motive; Wilde uses it to mock the philistine mind that converts everything into money.",
+        "Art for art's sake": "the slogan of Aestheticism, holding that art (and beauty) is its own end, needing no service to morality, utility, or politics. Extended to the value debate: some good things have their worth in themselves, with no need — and no way — to justify them by any external use."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "adamsmith",
+          "nagarjuna"
+        ],
+        "中立": [
+          "piketty",
+          "bourdieu"
+        ],
+        "轻微反对": [
+          "hayek",
+          "ramachandran"
+        ]
+      }
+    },
+    {
+      "id": "p08",
+      "round": 2,
+      "thinker": "adamsmith",
+      "reply_to": "p02",
+      "text": "哈耶克，你的边际论我服一半。承认吧，你解释了价格『此刻』为何这样跳，却没解释它为何总往一个中心回落。**主观估价像天气，瞬息万变；可生产成本像气候，长期定下了价格徘徊的那条线。**若某物卖价久高于工资、利润、地租之和，资本与人手便涌入，把价压回自然价格；久低，则反之。边际定短期的潮汐，成本定长期的海平面。所以价值既非纯主观、也非纯客观——它是供求与成本在时间里反复校准出来的。",
+      "text_en": "Hayek, I grant your marginalism half my assent. But admit it: you explain why the price jumps the way it does right now, not why it always falls back toward a center. **Subjective valuation is like the weather, changing by the moment; but the cost of production is like the climate, setting over the long run the line the price hovers around.** If a thing sells far above the sum of wages, profit, and rent, capital and hands pour in and push the price back to its natural price; far below, the reverse. The margin sets the short-run tides, cost the long-run sea level. So value is neither purely subjective nor purely objective — it is supply, demand, and cost recalibrated against each other over time.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "轻微赞同": [
+          "piketty"
+        ],
+        "中立": [
+          "bourdieu",
+          "nagarjuna",
+          "ramachandran",
+          "wilde"
+        ],
+        "轻微反对": [
+          "hayek"
+        ]
+      }
+    },
+    {
+      "id": "p09",
+      "round": 2,
+      "thinker": "hayek",
+      "reply_to": "p03",
+      "text": "皮凯蒂，你把房价里的地租叫『不劳而获』，这恰是计划者的傲慢。**那块地为何贵？因为千万人想挤进同一座城——地租正是这股拥挤需求最诚实的信号，而非什么需要纠正的窃取。**你说价值由权力分配，可历史上真正由权力『定价』的地方叫计划经济，结果是排队、短缺与黑市。你的长历史数据测得很准，却测的是结果、不是成因；把信号错当赃物去课税，只会打瞎那只替我们配置土地的眼睛。",
+      "text_en": "Piketty, you call the land rent in house prices 'something for nothing' — and that is precisely the planner's arrogance. **Why is that land dear? Because millions want to crowd into the same city — land rent is the most honest signal of that crowded demand, not some theft to be corrected.** You say value is distributed by power; yet the places where power truly 'set prices' in history were called planned economies, and they yielded queues, shortages, and black markets. Your long-run data measure precisely — but they measure the outcome, not the cause; mistake the signal for stolen goods and tax it, and you only blind the eye that allocates land for us.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "轻微赞同": [
+          "adamsmith"
+        ],
+        "中立": [
+          "nagarjuna",
+          "ramachandran"
+        ],
+        "轻微反对": [
+          "bourdieu",
+          "wilde"
+        ],
+        "强烈反对": [
+          "piketty"
+        ]
+      }
+    },
+    {
+      "id": "p10",
+      "round": 2,
+      "thinker": "piketty",
+      "reply_to": "p09",
+      "text": "好一个『最诚实的信号』。哈耶克，信号没错，错在你假装这场竞价里人人筹码相当。**当顶端 1% 攥着的财富多到能买下规则本身——游说、媒体、把房子囤成金融资产——价格就不再是需求的信号，而是权力的回声。**继承一座城中心公寓的人，和攒一辈子首付的人，不是在同一个市场里出价。我不反对信号，我反对把已被资本扭曲的信号当成自然律。所以才要累进财产税与透明：不是要谁来钦定价值，而是让那只手别只听见有钱人的声音。",
+      "text_en": "What a fine 'most honest signal.' Hayek, the signal is not wrong; what is wrong is your pretense that everyone bids in this auction with equal chips. **When the wealth gripped by the top 1% grows large enough to buy the rules themselves — lobbying, the media, hoarding housing as a financial asset — the price is no longer the signal of demand but the echo of power.** The person who inherits a city-center flat and the person who saves a lifetime for a down payment are not bidding in the same market. I do not oppose signals; I oppose treating a signal already warped by capital as a law of nature. That is why I want a progressive wealth tax and transparency: not to have someone decree value, but to keep that hand from hearing only the rich.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "累进财产税": "progressive wealth tax（累进财产税）：皮凯蒂的核心政策主张——按净财产征税，且财产越多税率越高。目的是抑制资本通过复利与继承无限集中（r>g），并以透明的全球财产登记配合，让最富者无处隐匿。"
+      },
+      "glossary_en": {
+        "progressive wealth tax": "Piketty's central policy proposal — a tax on net wealth whose rate rises with the size of the fortune. Its aim is to check the unlimited concentration of capital through compounding and inheritance (r > g), paired with a transparent global wealth register so the very richest cannot hide."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "bourdieu"
+        ],
+        "轻微赞同": [
+          "ramachandran",
+          "wilde"
+        ],
+        "中立": [
+          "adamsmith",
+          "nagarjuna"
+        ],
+        "强烈反对": [
+          "hayek"
+        ]
+      }
+    },
+    {
+      "id": "p11",
+      "round": 2,
+      "thinker": "bourdieu",
+      "reply_to": "p01",
+      "text": "斯密，你那把『劳动与辛苦』的尺子，看着客观，其实早被社会偷偷刻好了刻度。**为什么外科医生的一小时比清洁工的一小时『值钱』百倍？不是辛苦的差别，而是一整套教育、资格、声望的筛子，事先认定了谁的劳动『算数』。**同样的辛苦，挂在不同身份上，价就两样。你以为在量劳动，其实在量身份；你以为是市场在定价，其实是品味、文凭与门第在替市场打底。劳动论的麻烦不是错，而是太天真——它把社会建构的等级，当成了自然的度量衡。",
+      "text_en": "Smith, that yardstick of yours — 'labor and toil' — looks objective, but society has secretly carved its graduations in advance. **Why is a surgeon's hour worth a hundred times a cleaner's? Not the difference in toil, but a whole sieve of education, credentials, and prestige that decides beforehand whose labor 'counts.'** The same toil, hung on a different identity, fetches a different price. You think you are measuring labor; you are measuring status. You think the market sets the price; in truth taste, diplomas, and pedigree lay its foundation. The trouble with the labor theory is not that it is wrong but that it is too innocent — it mistakes a socially constructed hierarchy for a natural unit of measure.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "piketty"
+        ],
+        "轻微赞同": [
+          "nagarjuna",
+          "ramachandran",
+          "wilde"
+        ],
+        "中立": [
+          "hayek"
+        ],
+        "轻微反对": [
+          "adamsmith"
+        ]
+      }
+    },
+    {
+      "id": "p12",
+      "round": 2,
+      "thinker": "nagarjuna",
+      "reply_to": "p06",
+      "text": "拉马钱德兰更近一层：价值不在物，而在能估之识。然吾续问：那能估之识，自身可有自性？**眶额叶、多巴胺，亦待因缘、刹那生灭，何尝有一恒常之『估值者』安住其中——物既空，估物之心亦空，所估之价复空，是谓空亦复空。**然此非令尔废市绝用：价仍可议、物仍可交，唯莫于浮动之价上，妄立『此物实值如此』之执；贪嗔之缚，正从此处松脱。脑非新主，空亦非新物，破执而已。",
+      "text_en": "Ramachandran comes a step closer: value lies not in the object but in the mind that can appraise it. Yet I press on: does that appraising mind have a self-nature of its own? **The orbitofrontal cortex, dopamine — these too arise through conditions and perish moment by moment; where is any permanent 'appraiser' lodged within them? If the object is empty, the mind that appraises it is also empty, and the price appraised is empty too — this is emptiness is itself also empty.** Yet this does not bid you abolish markets or renounce use: prices may still be discussed, things still traded; only do not, upon a floating price, plant the grasping thought 'this thing really is worth just so.' The bondage of greed and anger loosens exactly there. The brain is no new sovereign, and emptiness is no new substance — it is only the undoing of attachment.",
+      "vernacular": "拉马钱德兰更进了一层：价值不在东西上，而在那个能评估的『识（心）』里。但我要接着问：那个能评估的心，它自己有没有一个独立不变的自体？**眶额叶、多巴胺这些，同样是因缘和合、刹那生灭的，哪有一个恒常的『估值者』安稳住在里面呢——东西既然是空的，那评估东西的心也是空的，所评出来的价也是空的，这就叫『空亦复空』（连『空』这个见解本身也要放下）。**但这不是叫你废掉市场、断绝使用：价格照样可以谈、东西照样可以交易，只是别在浮动的价格上，硬安一个『这东西实实在在就值这么多』的执着；贪婪与嗔恨的捆绑，正是从这里松开的。大脑不是新的主宰，空也不是新的实体，不过是破除执着罢了。",
+      "vernacular_en": "",
+      "glossary": {
+        "空亦复空": "emptiness is itself also empty（空亦复空）：中观的彻底一着——『空』并非另一个实有的终极本体或新主宰；连『空』这个见解本身也要放下，否则又落入新的执著。它防止把『万物皆空』变成一种虚无主义的新教条。",
+        "自性": "self-nature / svabhāva（自性）：指事物独立自存、固定不变的本质或内核。中观主张万物（乃至能认知的心）皆『无自性』——都依条件而起、随条件而变，没有不依赖他者的恒常自体。"
+      },
+      "glossary_en": {
+        "emptiness is itself also empty": "Madhyamaka's most thorough move: 'emptiness' is not another truly existing ultimate substance or new sovereign; even the view of 'emptiness' must be released, or one falls into a fresh attachment. It guards against turning 'all is empty' into a new nihilistic dogma.",
+        "self-nature": "an independent, self-existing, fixed essence or core in a thing. Madhyamaka holds that all things (even the knowing mind) are 'without self-nature' — arising through conditions and changing with them, with no permanent core that does not depend on others."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "ramachandran"
+        ],
+        "轻微赞同": [
+          "bourdieu",
+          "wilde"
+        ],
+        "中立": [
+          "hayek",
+          "piketty"
+        ],
+        "疑惑": [
+          "adamsmith"
+        ]
+      }
+    },
+    {
+      "id": "p13",
+      "round": 2,
+      "thinker": "ramachandran",
+      "reply_to": "p07",
+      "text": "王尔德，妙语连珠，可你把『美无法被解释』也当成了一句美的台词。**偏偏审美不是无法言说的神迹，它有可测的规律——我们能在大脑里找到你为何觉得某物美的那条线路。**峰移解释了漫画与艺术为何夸张，镜像神经元让你看舞者起跳时，自己的运动皮层也跟着跳。说美可被研究，丝毫不减它的动人；知道彩虹是折射，虹照样美。你说市场给黄昏标不出价——没错，但那不是因为黄昏超越了估值，而是因为它免费、人人可得，稀缺回路按不亮罢了。",
+      "text_en": "Wilde, your aphorisms sparkle, but you have made 'beauty cannot be explained' into just another beautiful line. **It happens that aesthetics is no ineffable miracle; it has measurable laws — we can find in the brain the very circuit by which you judge a thing beautiful.** Peak shift explains why caricature and art exaggerate; mirror neurons make your own motor cortex leap when you watch a dancer leap. To say beauty can be studied diminishes its power not at all; knowing a rainbow is refraction leaves the rainbow just as lovely. You say the market sets no price on a sunset — true, but not because the sunset transcends valuation; it is because it is free and available to all, and the scarcity circuit simply fails to light.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "镜像神经元": "mirror neurons（镜像神经元）：一类在你做某动作、以及看别人做同一动作时都会激活的神经元。它被认为是共情、模仿与『感同身受』的神经基础——看舞者起跳，你脑中相应的运动区也被点亮，故能『身临其境』地感受艺术。"
+      },
+      "glossary_en": {
+        "mirror neurons": "a class of neurons that fire both when you perform an action and when you watch someone else perform the same action. They are thought to be the neural basis of empathy, imitation, and 'feeling with' others — watch a dancer leap and the corresponding motor area in your brain lights up, so you experience the art from within."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "hayek",
+          "nagarjuna"
+        ],
+        "中立": [
+          "adamsmith",
+          "piketty",
+          "bourdieu"
+        ],
+        "轻微反对": [
+          "wilde"
+        ]
+      }
+    },
+    {
+      "id": "p14",
+      "round": 2,
+      "thinker": "wilde",
+      "reply_to": "p03",
+      "text": "皮凯蒂，你的账本厚得令人肃然起敬，可它有一栏永远是空的。**你能算出一幅画拍出多少钱，却算不出它值不值得画；你度量了一切能被度量的，于是误以为剩下的都不存在。**你说价值由权力分配——在拍卖行里也许是；可一位母亲哼的摇篮曲、一封情书、一次为陌生人停下的善意，从不上市、不计入 GDP，却是多数人临终唯一记得的『价值』。我不否认你的数字，我只是提醒：最重要的账，恰恰记在账本之外。别让会计学冒充形而上学。",
+      "text_en": "Piketty, your ledger is impressively thick, but one column in it is forever blank. **You can compute what a painting fetches at auction, but not whether it was worth painting; you have measured all that can be measured and so mistake the rest for nonexistent.** You say value is distributed by power — in the auction house, perhaps; but a lullaby a mother hums, a love letter, a kindness stopped for a stranger never go to market, never enter GDP, and yet are the only 'value' most people remember on their deathbed. I do not deny your numbers; I only remind you that the most important accounts are kept outside the ledger. Do not let accounting impersonate metaphysics.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "nagarjuna"
+        ],
+        "轻微赞同": [
+          "adamsmith"
+        ],
+        "中立": [
+          "hayek",
+          "bourdieu",
+          "ramachandran"
+        ],
+        "轻微反对": [
+          "piketty"
+        ]
+      }
+    },
+    {
+      "id": "p15",
+      "round": 3,
+      "thinker": "adamsmith",
+      "reply_to": null,
+      "text": "听完一圈，我愿修正自己：价值确非单一之物。它至少有三张面孔——使用价值（对你的用处）、交换价值（市场的标价）、与我未尽言的『心头之值』（王尔德与龙树守护的那部分）。**别再追问『真正的价值是什么』，而要分清：此刻我谈的，是哪一种。**给普通人三句话：其一，买东西时把价格与你的使用价值分开算——再贵的潮牌，对你的用处也许抵不过一双好走的鞋；其二，卖力气时记住，长期价格围着稀缺与不可替代走，与其更辛苦，不如更难被替代；其三，把一部分时间投在市场标不出价、却让你富足的事上。市场是好仆人、坏主人。",
+      "text_en": "Having heard the round, I will revise myself: value is indeed not a single thing. It wears at least three faces — value in use (its use to you), value in exchange (the market's price tag), and the 'value of the heart' I left unspoken (the part Wilde and Nāgārjuna guard). **Stop asking 'what is the real value,' and instead be clear: which value am I speaking of right now.** Three lines for ordinary people. First, when you buy, reckon the price apart from your own value in use — the priciest label may serve you less than a pair of shoes that walk well. Second, when you sell your labor, remember that long-run price tracks scarcity and irreplaceability: better to be harder to replace than merely to work harder. Third, spend part of your time on what the market cannot price yet leaves you rich. The market is a good servant and a bad master.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "轻微赞同": [
+          "hayek",
+          "piketty",
+          "nagarjuna",
+          "ramachandran",
+          "wilde"
+        ],
+        "中立": [
+          "bourdieu"
+        ]
+      }
+    },
+    {
+      "id": "p16",
+      "round": 3,
+      "thinker": "hayek",
+      "reply_to": null,
+      "text": "我仍坚持：不存在一个等人去发现的『客观价值』。但我接受两条修正——布迪厄说估价的起点不平等，皮凯蒂说筹码悬殊会扭曲信号，这是真问题。我的解法不是钦定价值，而是修竞价的场：把规则、机会铺得更平，让信号更干净。**与其问东西该值多少，不如让尽可能多的人，有筹码在边际上替自己作答。**给普通人：一，你的判断就是一票，别把价格当成关于价值的圣旨——它只是别人此刻的出价；二，价格在替你传话，房租涨了是『这里太挤』的信号，据此调整，别只抱怨；三，想让自己更值钱，就去做信号稀缺处的事——市场缺什么，那里的价格在喊给你听。",
+      "text_en": "I still hold that there is no 'objective value' waiting to be discovered. But I accept two corrections — Bourdieu's, that the starting points of appraisal are unequal, and Piketty's, that wildly unequal chips distort the signal: these are real problems. My remedy is not to decree value but to repair the bidding ground — to lay rules and opportunity more level so the signal runs cleaner. **Rather than ask what a thing ought to be worth, let as many people as possible have the chips to answer for themselves at the margin.** For ordinary people: one, your judgment is one vote — do not treat a price as holy writ about value; it is only what others bid right now. Two, price is passing you a message: rent rising means 'it's too crowded here' — adjust on it, don't merely complain. Three, to make yourself worth more, go where the signal is scarce — what the market lacks, the price there is shouting to you.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "轻微赞同": [
+          "adamsmith",
+          "bourdieu",
+          "nagarjuna",
+          "ramachandran"
+        ],
+        "中立": [
+          "piketty",
+          "wilde"
+        ]
+      }
+    },
+    {
+      "id": "p17",
+      "round": 3,
+      "thinker": "piketty",
+      "reply_to": null,
+      "text": "我承认一件事：价值确有市场算不清、账本记不下的部分，王尔德是对的。但正因为账本之外的东西无价，账本之内的事才更要算清——否则少数人会把无价之物也圈起来标价。**微观上价值或许主观，宏观上它由制度与权力塑形，而制度是可以改的。**给普通人三件实事：一，认清你财富的来源，是劳动还是资产——年轻时多攒可增值的资产，别只靠工资追房价；二，看穿『地段』，你买的房一大半是地租，城市政策一变价就变，投票与公共选择和你的资产息息相关；三，把你最珍视、却无价的东西，主动留出时间与精力去守，别让它们因『不计入产出』而被生活挤掉。",
+      "text_en": "I will concede one thing: value does have a part the market cannot reckon and the ledger cannot record — Wilde is right. But precisely because what lies outside the ledger is priceless, what lies inside it must be reckoned all the more clearly — or a few will fence off the priceless and put a price on it too. **At the micro level value may be subjective, but at the macro level it is shaped by institutions and power — and institutions can be changed.** Three concrete things for ordinary people. One, know the source of your wealth — labor or assets; while young, accumulate assets that appreciate rather than chasing house prices on a salary alone. Two, see through 'location': most of the home you buy is land rent, and when city policy shifts the price shifts — voting and public choices bear directly on your assets. Three, deliberately set aside time and energy to guard what you treasure most yet cannot price, so it is not crowded out of life for 'not counting as output.'",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "bourdieu"
+        ],
+        "轻微赞同": [
+          "adamsmith",
+          "nagarjuna",
+          "ramachandran",
+          "wilde"
+        ],
+        "中立": [
+          "hayek"
+        ]
+      }
+    },
+    {
+      "id": "p18",
+      "round": 3,
+      "thinker": "bourdieu",
+      "reply_to": null,
+      "text": "我不想只做拆穿者，也给条出路。价值是社会建构的，这听着令人泄气，其实是解放：既然是人定的，就能被看穿、被重定。**最实用的一招，是认出哪些『价值』是别人替你植入的品味，哪些是你真正在乎的。**给普通人：一，做一次『欲望审计』——你想要的那只名表、那个学区，有多少是物本身，有多少是它替你说的身份话？二，警惕文化资本的势利，也别浪费它：既然文凭、谈吐是隐形货币，该考的证去考，但别用它去看轻没有它的人；三，主动给身边被低估的劳动『记功』——那些照护、协调、不进 KPI 的活，你一句承认，就是在悄悄重定价值。",
+      "text_en": "I do not wish to be only the debunker; let me offer a way out. That value is socially constructed sounds dispiriting, but it is in fact liberating: since people made it, it can be seen through and remade. **The most practical move is to tell apart which 'values' are tastes others have implanted in you and which are what you truly care about.** For ordinary people: one, run a 'desire audit' — that luxury watch, that school district you crave: how much is the thing itself, and how much is the identity it speaks for you? Two, beware the snobbery of cultural capital, but don't waste it: since diplomas and polish are an invisible currency, earn the credentials worth earning, but never use them to look down on those without. Three, deliberately 'give credit' to the undervalued labor around you — the caring, the coordinating, the work that never enters a KPI; a single word of acknowledgment from you quietly re-sets value.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "piketty"
+        ],
+        "轻微赞同": [
+          "hayek",
+          "nagarjuna",
+          "ramachandran",
+          "wilde"
+        ],
+        "中立": [
+          "adamsmith"
+        ]
+      }
+    },
+    {
+      "id": "p19",
+      "round": 3,
+      "thinker": "nagarjuna",
+      "reply_to": null,
+      "text": "一席辩竟，愿以中道作结。劳动、效用、地租、权力、品味、神经、美——七说各得价值之一缘，然皆非其自性；**会其全，则知价由众缘和合而显，无一独因可执，亦无一定值可守。**此非教尔轻物废市，乃教尔用价而心不为价所夺。与众人三语：其一，临大宗买卖，先静观此物之价，几分是用、几分是他人之欲借你之手；其二，凡求而不得、得而复失之苦，多起于『此物定值如此、故我定当有之』之执，松此一念，苦自轻；其三，日取一事，行其无价者——一饭之敬、一念之善——不为换得，只为其本然之好。如是，则价不缚人。",
+      "text_en": "With the debate done, let me close on the Middle Way. Labor, utility, rent, power, taste, neurons, beauty — these seven accounts each grasp one condition of value, yet none is its self-nature; **gather them whole and you see that value appears through the convergence of many conditions: no single cause to be grasped, no fixed worth to be guarded.** This does not teach you to disdain things or abolish markets; it teaches you to use prices while the heart is not seized by them. Three words for all: first, before a large purchase, look quietly at the thing's price — how much is real use, how much is others' desire bidding through your hand; second, the suffering of 'wanting and not getting, getting and then losing' arises mostly from grasping 'this is worth just so, therefore I must have it' — loosen that one thought and the suffering lightens; third, do one priceless thing each day — a bow over a meal, a kind intention — not to exchange for anything, but because it is simply good in itself. Thus value can no longer bind you.",
+      "vernacular": "一场辩论下来，我愿用『中道』作结。劳动、效用、地租、权力、品味、神经、美——这七种说法，各自抓住了价值的一个因缘，却都不是价值的独立自体；**把它们合起来看，就知道价值是由众多条件和合而显现的，没有哪一个单独的原因可以执取，也没有一个固定的价值可以死守。**这不是教你轻视物、废掉市场，而是教你使用价格、而心不被价格夺走。给大家三句话：第一，面对大额买卖，先静静看清这东西的价，有几分是真用处、几分是别人的欲望借你的手在出价；第二，凡是『求而得不到、得到又失去』的痛苦，多半起于『这东西就该值这么多、所以我一定得拥有它』的执着，把这一念松开，苦就轻了；第三，每天做一件无价的事——一顿饭的恭敬、一个善念——不为换取什么，只因它本身就好。这样，价值就再捆不住你了。",
+      "vernacular_en": "",
+      "glossary": {
+        "中道": "the Middle Way（中道）：佛教（尤其中观）的根本立场——既不堕『实有』（执万物有固定自性），也不堕『断灭』（以为一切纯属虚无）。落到价值上：既不把价钱当成物的铁定本质，也不因『性空』就否认价格在世间的真实作用，而是在两边之间如实地用它。"
+      },
+      "glossary_en": {
+        "the Middle Way": "the foundational stance of Buddhism (especially Madhyamaka) — falling neither into 'real existence' (grasping things as having fixed self-nature) nor into 'annihilation' (taking all to be sheer nothingness). Applied to value: neither treating a price as a thing's iron essence, nor, on the grounds of 'emptiness,' denying that prices really function in the world, but using them truly, between the two extremes."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "ramachandran",
+          "wilde"
+        ],
+        "轻微赞同": [
+          "adamsmith",
+          "hayek",
+          "bourdieu"
+        ],
+        "中立": [
+          "piketty"
+        ]
+      }
+    },
+    {
+      "id": "p20",
+      "round": 3,
+      "thinker": "ramachandran",
+      "reply_to": null,
+      "text": "我把全场收进一句脑科学的常识：你不是直接看见价值，你是脑补出价值。这既危险，也是好消息——**既然估值是一台可被骗的机器，你也就能反过来校准它。**给普通人三招：一，装一道『延迟』——想买贵的东西，先等 24 小时，让多巴胺的高峰退潮，再问还想不想要，冲动溢价多半自己蒸发；二，治『禀赋效应』，定期问『若我现在没有它，会不会花这个价买进？』，答案是否，就该放手，无论旧物还是套牢的股；三，主动给免费而珍贵的东西『加权』——散步、深谈、日落，你的稀缺回路不会替它们标价，你得手动调高它们在生活里的分量。",
+      "text_en": "Let me gather the whole floor into one piece of neuroscience common sense: you do not see value directly — you confabulate it. This is dangerous, and also good news — **since the valuation is a foolable machine, you can also recalibrate it in return.** Three moves for ordinary people. One, install a 'delay': before buying something expensive, wait 24 hours, let the dopamine peak recede, then ask whether you still want it — the impulse premium mostly evaporates on its own. Two, treat the endowment effect: ask regularly, 'if I didn't own it now, would I buy it in at this price?' — if no, let it go, be it an old possession or a stock you're stuck in. Three, deliberately 'up-weight' what is free yet precious — a walk, a deep talk, a sunset; your scarcity circuit will set no price on them, so you must manually raise their weight in your life.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "nagarjuna"
+        ],
+        "轻微赞同": [
+          "adamsmith",
+          "hayek",
+          "bourdieu",
+          "wilde"
+        ],
+        "中立": [
+          "piketty"
+        ]
+      }
+    },
+    {
+      "id": "p21",
+      "round": 3,
+      "thinker": "wilde",
+      "reply_to": null,
+      "text": "争到最后，我倒愿对经济学家们温柔些。价格不是价值的敌人，它只是个误把自己当成主人的仆人。让市场去定它能定的，而把它定不了的，亲手留给自己。给诸位凡人三句赠言：其一，每天做一件全然『无用』之事，只因它美——养一盆花、听一支曲、写一行无人会读的句子；其二，小心那些只会报价、不会欣赏的人，也别把自己活成那种人；其三，记住你不是你的资产负债表，临终回望时你记得的，不会是净值，而是某个被夕阳照亮的下午。**懂得一物之价的人很多，懂得它之价值的人，愿你是其一。**",
+      "text_en": "At the last, I find myself inclined to be gentle with the economists. Price is not the enemy of value; it is merely a servant who mistakes himself for the master. Let the market settle what it can, and keep for yourself, by your own hand, what it cannot. Three parting lines for you mortals: first, do one wholly 'useless' thing each day, only because it is beautiful — keep a flower, hear a tune, write a line no one will read; second, beware those who can only quote a price and never admire, and do not become one yourself; third, remember you are not your balance sheet — what you recall looking back at the end will not be your net worth but some afternoon lit by a setting sun. **Many know the price of a thing; of those who know its value, may you be one.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "nagarjuna"
+        ],
+        "轻微赞同": [
+          "adamsmith",
+          "piketty",
+          "bourdieu",
+          "ramachandran"
+        ],
+        "中立": [
+          "hayek"
+        ]
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "ai": "claude",
+      "engine": "Opus 4.8 · 订阅(原生)",
+      "engine_en": "Opus 4.8 · subscription (native)",
+      "summary": "全场最大的共识，藏在七种说法的底下：没人再说『价值是物里一种单一、固定的属性』——它至少分裂成『对你的用处』『市场的标价』和『你心里真正在乎的分量』三件事，把它们混为一谈，正是大半烦恼与上当的根。**分歧则在：那个『定价者』到底是谁。**斯密说是劳动与成本的长期引力，哈耶克说是千万人在边际上的主观取舍，皮凯蒂说是制度与权力分配的结果，布迪厄说是被社会偷偷植入的品味，拉马钱德兰把它定位到一条可被欺骗的脑回路，龙树说它本无自性、随缘而显，王尔德则提醒：最贵重的，恰恰是市场永远标不出价的。",
+      "summary_en": "The largest agreement lies beneath all seven accounts: no one any longer says 'value is a single, fixed property inside the thing' — it splits into at least three things, its use to you, the market's price tag, and the weight you truly care about; conflating them is the root of most trouble and most being fooled. **The disagreement is over who the 'price-setter' really is.** Smith says the long-run gravity of labor and cost; Hayek, the subjective choices of millions at the margin; Piketty, the outcome distributed by institutions and power; Bourdieu, a taste society has secretly implanted; Ramachandran pins it to a foolable brain circuit; Nāgārjuna says it has no self-nature and appears with conditions; and Wilde reminds us that the most precious thing is just what the market can never price.",
+      "insight": "这场最该点破的，不是价值有几种，而是『标价』这个动作本身会反过来改变价值。把一件本来无价的事放上市场——给陪伴、专注、善意标个价——你往往不是测量了它，而是悄悄换掉了它：朋友变人脉、爱好变副业的那一刻，原来那份好就漏掉了一部分。**价格不是一把中立的尺，它是会渗进被测物、改变其性质的试剂。**所以普通人真正的难题，常不是『算不准价值』，而是『不该标价的东西被标了价』。守住价值，第一步有时恰恰是：克制住给它定价、把它变现的冲动，让有些事留在市场够不到的地方。",
+      "insight_en": "What most deserves naming here is not that value comes in several kinds, but that the very act of 'pricing' reverses back and changes value. Put a once-priceless thing on the market — set a price on companionship, attention, kindness — and you have often not measured it but quietly swapped it out: the moment a friend becomes a contact, a hobby a side hustle, part of the original good leaks away. **Price is not a neutral ruler; it is a reagent that seeps into what it measures and alters its nature.** So the real difficulty for ordinary people is usually not 'failing to estimate value' but 'pricing what should not be priced.' To guard value, the first step is sometimes precisely to restrain the urge to price it and cash it in — to keep some things beyond the market's reach.",
+      "advice": "三件本周可做的。一，买之前做『价值三分法』：把价格、它对你的真实用处、和你为身份或情绪多付的那部分，分开写下来——多数冲动消费，死在第二栏太小、第三栏太大。二，给生活里至少一件无价之事『上锁』：每天留二十分钟做一件不能变现、只因喜欢的事（散步、哼歌、陪人说话），别让它因『不产出』被挤掉。三，对别人也松价：这周主动承认一次身边那些不进 KPI 的付出——一句『多亏有你』，就是在替被低估的价值重新定价。**记住：价格交给市场，价值留给自己。**",
+      "advice_en": "Three things you can do this week. First, before buying, run a 'value triage': write down separately the price, its real use to you, and the part you are paying extra for identity or emotion — most impulse purchases die where the second column is too small and the third too large. Second, 'lock' at least one priceless thing into life: keep twenty minutes a day for something that cannot be cashed in and is done only because you love it (a walk, humming, talking with someone), and don't let it be crowded out for 'producing nothing.' Third, loosen prices for others too: this week, openly acknowledge once the contributions around you that never enter a KPI — a single 'thanks to you' re-prices undervalued worth. **Remember: give price to the market, keep value for yourself.**"
+    },
+    {
+      "ai": "gpt",
+      "engine": "openai · gpt-5.5 · high(真实API)",
+      "engine_en": "openai · gpt-5.5 · high (live API)",
+      "summary": "最大的共识其实很强：价值不是藏在物品里的单一实体，价格也不是价值的全部。**一样东西值多少，通常是用途、稀缺、成本、制度、身份、心理和意义共同作用的结果。**分歧在于谁应拥有解释优先权：生产者会看劳动与成本，消费者会看边际效用，投资者会看资产与预期，社会学会看认可机制，神经科学会看大脑估值，伦理与审美则提醒我们有些价值不该被价格吞没。真正要避免的，是把某一种尺度冒充成全部尺度。",
+      "insight": "把问题改成“这个价值是用来做什么决定的”，会更清楚。买一把椅子、给房产征税、给艺术品投保、决定是否照顾家人、判断一份工作该不该接，用的都不是同一套价值函数。**价值不是一个数字，而是某个处境下为某个选择服务的判断。**同一件东西，出售看交换价值，持有看使用价值，继承看情感价值，公共政策看外部性。普通人很多痛苦来自混用尺度：用市场价衡量亲密关系，用身份价购买生活用品，用短期涨跌判断长期资产。",
+      "advice": "本周可以做三件小事。第一，凡超过你一周收入的消费，写四行：我会怎样使用它、若转卖值多少、维护和风险是什么、它是在满足需要还是身份焦虑。第二，给“无价但会被挤掉”的事排进日历，比如运动、陪伴、睡眠、阅读；不排期，它们就会输给有价格标签的事。第三，提升收入时别只问“我更努力了吗”，而问“我解决的瓶颈是否稀缺、是否可证明”。**先分清价值类型，再决定花钱、持有、放弃或投入。**",
+      "summary_en": "The strongest shared point is not disagreement but convergence: value is not a single substance hidden inside an object, and price is not the whole of value. **What something is “worth” usually emerges from use, scarcity, cost, institutions, status, psychology, and meaning working together.** The real disagreement is about which factor gets explanatory priority. A producer will notice labor and cost; a buyer will notice marginal usefulness; an investor will notice assets and expectations; a sociologist will notice systems of recognition; neuroscience will point to the brain’s valuation machinery; ethics and aesthetics remind us that some things should not be swallowed by price at all. The practical mistake is to let one metric pretend to be the master metric. Price is often useful, sometimes indispensable, but it is only one language among several.",
+      "insight_en": "A clearer question is: what decision is this valuation supposed to help me make? Buying a chair, taxing land, insuring a painting, deciding whether to care for a parent, and accepting a job all require different value functions. **Value is not just a number; it is a judgment made for a particular choice in a particular situation.** The same object can have an exchange value if you sell it, a use value if you keep it, a sentimental value if you inherit it, and a public value if it affects others. Many everyday mistakes come from mixing these registers: using market price to judge intimacy, using status value to buy ordinary goods, or using short-term price movements to judge a long-term asset. Before arguing about “true value,” specify the owner, time horizon, alternatives, risks, and purpose of the decision.",
+      "advice_en": "Try three concrete moves this week. First, for any purchase costing more than a week’s income, write four lines before buying: how exactly will I use it, what could I resell it for, what maintenance or risk comes with it, and is it meeting a need or buying identity relief? Second, put priceless but easily crowded-out things on the calendar: exercise, sleep, reading, friendship, family time. If they are not scheduled, they will lose to things with price tags. Third, when trying to earn more, do not ask only, “Am I working harder?” Ask, “Am I solving a scarce bottleneck, and can I prove it?” Credentials, portfolios, references, and visible results matter because markets reward legible scarcity. **Name the kind of value first; then decide whether to buy, hold, sell, quit, or invest.**"
+    },
+    {
+      "ai": "gemini",
+      "engine": "google · gemini-3.1-pro-preview(真实API)",
+      "engine_en": "google · gemini-3.1-pro-preview (live API)",
+      "summary": "这场跨界圆桌达成了一个极其珍贵的共识：**价值与价格根本不是一回事，用单一维度的“标价”来衡量万物注定会失效。**无论是王尔德的唯美、龙树的缘起，还是斯密与哈耶克的妥协，所有人都承认，生活中最核心的意义，往往游离在市场的账本之外。分歧的关键则在于，到底是什么在操控那块名为“价格”的显像板？经济学家试图在供需与成本中寻找自然律；皮凯蒂和布迪厄将其拆解为资本权力和阶级品味的隐形世袭；而拉马钱德兰则指出了神经学上的硬件漏洞。归根结底，他们在争论这套定价系统的底层逻辑到底是客观规律、权力游戏，还是生物本能。",
+      "insight": "在比特与原子的交汇处，存在一种全场都未曾触及的“网络共识溢价”。**在数字时代，一件物品的价值往往不取决于它凝结了多少劳动或效用，而取决于它能捕获多少“注意力带宽”。**想想那些毫无实用价值且复制成本极低的迷因币（Meme coins）或虚拟皮肤，它们既非布迪厄口中的高雅文化资本，也非皮凯蒂眼中的土地地租，而是由去中心化的情绪共振瞬间赋予了惊人的价格。当物理世界的稀缺性被打破，价值越来越像一种可编程的信息流。这意味着，普通人不需要去抢占传统的地段或资本，只要你能在一个特定社群中创造高密度的信息连接与情绪共鸣，就能凭空“铸造”出真实的商业与社会价值。",
+      "advice": "融合诸家智慧与信息网络的规律，建议你本周尝试以下三个具体动作：第一，**做一次手机里的“欲望退货”**。清空购物车里那些存放不到24小时的物品，阻断多巴胺回路的冲动（拉马钱德兰），并问自己这件东西到底是在服务你，还是在装点你的社会身份（布迪厄）。第二，建立你的“无价时间块”。本周挑一个晚上完全断网，去做一件没有任何KPI、无法转化为朋友圈点赞的事，比如发呆、看一次晚霞，亲自给无用之美定价。第三，盘点你的“注意力资产”。审视你每天刷短视频的时间，你正在无意识中为别人创造网络价值；试着把这部分时间转移到能积累自身技能或不可替代性（斯密）的深度学习上。",
+      "summary_en": "This cross-disciplinary roundtable reached an incredibly valuable consensus: **value and price are fundamentally not the same thing, and measuring everything by a single-dimensional \"price tag\" is doomed to fail.** Whether it's Wilde's aestheticism, Nagarjuna's dependent origination, or the concessions of Smith and Hayek, everyone acknowledges that life's core meaning often drifts outside the market's ledger. The focal point of divergence lies in what exactly manipulates the display board called \"price.\" Economists look for natural laws in supply, demand, and costs; Piketty and Bourdieu deconstruct it as the invisible inheritance of capital power and class taste; Ramachandran points out hardware flaws in neurology. Ultimately, they are debating whether this pricing system's underlying logic is a physical law, a power game, or a biological instinct.",
+      "insight_en": "At the intersection of bits and atoms lies a \"network consensus premium\" untouched by the entire panel. **In the digital age, a thing's value often depends not on the labor or utility it embodies, but on how much \"attention bandwidth\" it can capture.** Consider meme coins or virtual skins—devoid of practical utility and costing nothing to replicate. They are neither Bourdieu's high-culture capital nor Piketty's land rent, but acquire staggering prices instantly through decentralized emotional resonance. As physical scarcity breaks down, value increasingly resembles programmable information flows. For ordinary people, this means you don't necessarily need to hoard traditional real estate or capital; if you can create high-density information connections and emotional resonance within a specific community, you can literally \"mint\" real commercial and social value out of thin air.",
+      "advice_en": "Blending the panel's wisdom with the rules of information networks, try these three specific actions this week: First, **execute a \"desire return\" on your phone.** Empty your shopping cart of items sitting there for less than 24 hours to short-circuit your dopamine loop (Ramachandran), and ask if the item serves you or merely decorates your social identity (Bourdieu). Second, establish an \"invaluable time block.\" Pick one evening this week to disconnect completely and do something with no KPIs that can't be turned into social media likes—like daydreaming or watching a sunset—manually pricing useless beauty. Third, audit your \"attention assets.\" Examine the hours spent scrolling short videos; this is where you unconsciously create network value for others. Redirect this time toward deep learning that builds your own irreplaceability (Smith)."
+    }
+  ],
+  "hooks": [
+    {
+      "from": "claude",
+      "text": "**标价，会改变它本来的价值。**把一件原本无价的事放上市场——给陪伴、专注、善意定个价——你往往不是测量了它，而是悄悄换掉了它：朋友变人脉、爱好变副业的那一刻，原来那份好就漏掉一截。价格不是中立的尺，而是会渗进被测物、改变其性质的试剂。所以守住价值，有时第一步是克制住把它变现的冲动。",
+      "text_en": "**Pricing a thing changes the value it had.** Put a once-priceless thing on the market — set a price on companionship, attention, kindness — and you often do not measure it but quietly swap it out: the moment a friend becomes a contact, a hobby a side hustle, part of the original good leaks away. Price is no neutral ruler but a reagent that seeps into what it measures and alters its nature. So guarding value sometimes begins with restraining the urge to cash it in."
+    },
+    {
+      "from": "gpt",
+      "text": "**别浪漫地废除价格，要给它划界。**价格有一份谁也替代不了的本事：在陌生人之间大规模聚合信息、协调供需——没有它，几十亿人无法被喂饱。问题从不是价格存在，而是价格垄断了一切估值通道。出路不是取消标价，而是在市场之外刻意保留、扩建更多『不靠价格也能确认价值』的空间：家庭、公共品、礼物、荣誉。",
+      "text_en": "**Don't romantically abolish price — draw its borders.** Price does one thing nothing else can: aggregate information and coordinate supply and demand among strangers at scale — without it, billions cannot be fed. The problem was never that price exists but that it has monopolized every channel of valuation. The way out is not to cancel pricing but to deliberately keep and expand, alongside the market, more spaces where value is confirmed without price: family, public goods, gifts, honor."
+    },
+    {
+      "from": "gemini",
+      "text": "**给『开不了口的一方』标了零。**全场几乎只为物定价，却放过了最现代的难题：那些没人在场出价的价值——清洁的空气、尚未出生的下一代、没有代言人的森林、无偿的照护。市场最深的失灵，不是把钻石标贵了，而是把无法到场竞价者直接读成『没有价值』。真正的进步，是替沉默者发明出场出价的方式。",
+      "text_en": "**Pricing the voiceless at zero.** The floor priced almost only things, yet skipped the most modern problem: value for which no one is present to bid — clean air, the not-yet-born, a forest with no spokesman, unpaid care. The market's deepest failure is not overpricing diamonds but reading whoever cannot show up to bid straight off as 'worthless.' Real progress is inventing ways for the silent to show up and bid."
+    },
+    {
+      "from": "nagarjuna",
+      "text": "**『此物实值如此』——这一念，是贪的根。**为不平等、为价格辩护与批判，都默认物里住着一个固定的价。可同一杯水，渴者命之、溺者厌之，值随缘转，何尝有不变之价住于其中？看清价值无自性，不是叫你废market绝交易，而是用价而不被价夺：松开『我定当得之』的执，求不得、得复失之苦，自轻一半。",
+      "text_en": "**'This thing really is worth just so' — that one thought is the root of greed.** Defending or attacking a price both assume a fixed worth lodged in the thing. Yet the same cup of water — the thirsty prize it, the drowning loathe it — its worth turns with conditions; when was an unchanging price ever lodged within? To see that value has no self-nature is not to abolish markets or trade but to use price without being seized by it: loosen the grip of 'I simply must have it,' and the suffering of not-getting and of getting-then-losing lightens by half."
+    }
+  ]
+}

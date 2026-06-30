@@ -85,6 +85,9 @@
 - [ ] 普通人该进大厂求稳，还是闯小公司、创业？  <!--big-firm-or-startup-->
 - [ ] 公司到底该对谁负责——只对股东，还是也对员工与社会？  <!--shareholder-or-stakeholder-->
 - [ ] 给公司打工，到底该投入多少自己？（敬业内卷 vs 安静离职、守住边界）  <!--quiet-quitting-->
+- [ ] 该不该让算法来管人——派活、打分、监控，甚至解雇？  <!--algorithmic-management-->
+- [ ] 当 AI 比谁都懂，领导者还剩什么不可替代的？  <!--leadership-after-ai-->
+- [ ] 当下属都用 AI 干活，领导该考核产出，还是过程与成长？  <!--output-or-growth-->
 
 ---
 

@@ -1,0 +1,724 @@
+{
+  "id": "productivity-and-leisure",
+  "question": "生产力一次次飞跃，人是更清闲还是更忙、更幸福还是更不幸？（农业、工业、AI 三次革命）",
+  "question_en": "With each leap in productivity, do people end up more leisured or busier, happier or unhappier? (The agricultural, industrial, and AI revolutions)",
+  "participants": [
+    "keynes",
+    "russell",
+    "harari",
+    "marx",
+    "rousseau",
+    "aristotle",
+    "zhuangzi",
+    "kahneman"
+  ],
+  "casting": [
+    {
+      "id": "keynes",
+      "reason": "那个预言『后代每周只需工作15小时』的人，本场最关键的『被证伪的乐观主义者』——由他亲口检讨预言为何落空、又为何未必永远落空，最有张力。",
+      "reason_en": "The man who predicted his grandchildren would work a fifteen-hour week — the debate's pivotal 'falsified optimist,' most charged when he himself examines why the prophecy failed and why it need not fail forever."
+    },
+    {
+      "id": "russell",
+      "reason": "《悠闲颂》的作者，为闲暇本身立法：对工作的崇拜是奴隶道德，技术早该让我们少干活。最坚定的『清闲可达且应得』一方。",
+      "reason_en": "Author of In Praise of Idleness, who legislates for leisure itself: the worship of work is a slave-morality, and technology should long since have let us work less. The firmest voice for 'leisure is attainable and deserved.'"
+    },
+    {
+      "id": "harari",
+      "reason": "以『农业革命是史上最大骗局』提供最深的历史怀疑：每次省力只抬高基线、不降工时。把三次革命串成一条规律。",
+      "reason_en": "Brings the deepest historical skepticism with 'the Agricultural Revolution was history's biggest fraud': each labor-saving step raises the baseline rather than lowering the hours. He threads all three revolutions into one pattern."
+    },
+    {
+      "id": "marx",
+      "reason": "结构一方的压舱石：生产力红利被资本攫取、未还给劳动者，所以『更忙』是所有制的产物，不是人心的过错。",
+      "reason_en": "The ballast of the structural camp: the productivity dividend is seized by capital, never returned to the worker, so 'busier' is a product of ownership, not a fault of the heart."
+    },
+    {
+      "id": "rousseau",
+      "reason": "把矛头指向人造需求与 amour-propre：文明繁殖了攀比性的欲望，使我们为被看见而劳作。与马克思的结构论形成内/外因之争。",
+      "reason_en": "Turns on artificial needs and amour-propre: civilization bred comparative desire, making us labor to be seen. He sets an inner-versus-outer cause debate against Marx's structuralism."
+    },
+    {
+      "id": "aristotle",
+      "reason": "把问题从『时间多少』重构为『闲暇何用』：闲暇(scholē)本是目的，悲剧在于我们不会用它。最有力的『重构者』。",
+      "reason_en": "Recasts the question from 'how much time' to 'what is leisure for': leisure (scholē) is itself the end, and the tragedy is our not knowing how to use it. The strongest 'reframer.'"
+    },
+    {
+      "id": "zhuangzi",
+      "reason": "道家与古文一席：以『机心』寓言点破——省力之器钻进人心，比工时更要命；真闲在去机心、得逍遥。带进东方与最古老的视角。",
+      "reason_en": "The Daoist and classical-Chinese seat: with the 'scheming heart' parable he shows that labor-saving devices enter the mind, more fatal than hours; true leisure is shedding the scheming heart and roaming free. He brings the Eastern and the most ancient perspective."
+    },
+    {
+      "id": "kahneman",
+      "reason": "经验与数据一席：用享乐适应与聚焦错觉给两边降温——进步可靠地减苦、却几乎不动幸福，而『更忙』有一半是错觉。",
+      "reason_en": "The empirical, data seat: with hedonic adaptation and the focusing illusion he cools both sides — progress reliably cuts suffering yet barely moves happiness, and 'busier' is half an illusion."
+    }
+  ],
+  "posts": [
+    {
+      "id": "p01",
+      "round": 1,
+      "thinker": "keynes",
+      "reply_to": null,
+      "text": "1930 年我写下预言：到我孙辈这代，每周工作 15 小时就够了。产出早已远超我的估计，可你们工作得和从前一样多。**我算对了经济，算错了人心——我以为富足之后，人会选择时间，而不是选择更多的东西。** 可一旦需求是相对的、攀比的，它就永无尽头，于是机器省下的每一分钟，又被填进新的忙碌。但这个梦没死：AI 是又一次机会，前提是我们这次肯把红利兑成闲暇，而不是只兑成更多产量。",
+      "text_en": "In 1930 I made a prophecy: by my grandchildren's time, a fifteen-hour week would suffice. Output has long outrun my estimate, yet you work as much as ever. **I got the economics right and human nature wrong — I assumed that, once rich, people would choose time over more things.** But once wants are relative and competitive, they are bottomless, and every minute the machine saves is refilled with new busyness. Yet the dream isn't dead: AI is another chance — provided we cash the dividend this time as leisure, and not merely as more output.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "轻微赞同": [
+          "russell",
+          "aristotle"
+        ],
+        "中立": [
+          "kahneman"
+        ],
+        "轻微反对": [
+          "marx"
+        ]
+      }
+    },
+    {
+      "id": "p02",
+      "round": 1,
+      "thinker": "russell",
+      "reply_to": null,
+      "text": "我写过《悠闲颂》：对工作的崇拜，是一种被有闲阶级灌输给穷人的奴隶道德。技术早已让我们能每天只工作四小时、人人都过得体面——可我们偏要生产无用之物、并让人忙着，只因清教徒式地恐惧『闲着是罪』。**闲暇不是懒惰，恰恰是文明本身：科学、艺术、友谊、爱，都长在闲暇里。** 问题从来不是生产力不够，而是我们把忙碌奉成了美德。",
+      "text_en": "I wrote In Praise of Idleness: the worship of work is a slave-morality the leisured class drummed into the poor. Technology long ago made it possible for everyone to work four hours a day and live decently — yet we insist on producing useless things and on keeping people busy, out of a Puritan dread that idleness is sin. **Leisure is not laziness; it is civilization itself: science, art, friendship and love all grow in it.** The problem was never too little productivity, but that we enthroned busyness as a virtue.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "keynes"
+        ],
+        "轻微赞同": [
+          "zhuangzi"
+        ],
+        "轻微反对": [
+          "aristotle"
+        ],
+        "中立": [
+          "marx"
+        ]
+      }
+    },
+    {
+      "id": "p03",
+      "round": 1,
+      "thinker": "harari",
+      "reply_to": null,
+      "text": "把镜头拉远一万两千年。农业革命是史上最大的骗局——是小麦驯化了我们，而非我们驯化它：农民比采集者干得更多、吃得更差、病得更重，而采集者一周『工作』也许只十五到二十小时，余下都是闲暇与社交。**每一次『省力』的飞跃，抬高的是人们对正常的预期，而不是降低工时。** 电邮替掉了要走几周的信，回报你的是一天两百封。AI 多半照旧：它会抬高节奏，而不会放你自由——除非我们这次刻意打破这条规律。",
+      "text_en": "Pull the lens back twelve thousand years. The Agricultural Revolution was history's biggest fraud — wheat domesticated us, not the reverse: farmers worked more, ate worse and sickened more than foragers, who 'worked' perhaps fifteen to twenty hours a week and had the rest for leisure and society. **Every 'labor-saving' leap raises what people expect as normal; it does not lower the hours.** Email replaced the letter that took weeks — and repays you with two hundred a day. AI will likely do the same: it will raise the tempo, not set you free — unless this time we deliberately break the pattern.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "rousseau"
+        ],
+        "轻微赞同": [
+          "marx",
+          "zhuangzi"
+        ],
+        "轻微反对": [
+          "kahneman"
+        ]
+      }
+    },
+    {
+      "id": "p04",
+      "round": 1,
+      "thinker": "marx",
+      "reply_to": null,
+      "text": "诸位在谈道德、谈人心，我来谈结构。生产力的跃升是真的——可在资本之下，它并不作为闲暇还给劳动者，而是被攫为利润、再投回去榨取更多。**那台本可解放你的机器，反过来定下了你必须追赶的节奏。** 所以『更忙』不是你的选择、也不是你的恶习，而是当你劳动的果实归别人所有时的必然结果。AI 若仍由少数人占有，只会让这道裂缝更深：解放了谁、又踩着谁的劳作？",
+      "text_en": "You speak of morality and of the heart; I speak of structure. The leap in productivity is real — but under capital it does not return to the worker as leisure; it is seized as profit and reinvested to extract still more. **The very machine that could free you instead sets the pace you must chase.** So 'busier' is not your choice nor your vice; it is what follows when the fruit of your labor belongs to another. If AI stays owned by the few, it will only deepen the rift: whose liberation, and on whose toil?",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "rousseau"
+        ],
+        "轻微赞同": [
+          "harari"
+        ],
+        "轻微反对": [
+          "keynes"
+        ],
+        "中立": [
+          "kahneman"
+        ]
+      }
+    },
+    {
+      "id": "p05",
+      "round": 1,
+      "thinker": "rousseau",
+      "reply_to": null,
+      "text": "在『进步』之前，自然人需求很少，因而自由。是文明繁殖了人造的需求，又把我们锁进彼此的目光里——amour-propre，那种永远要比较、要被看见的自爱。**我们拼命劳作，多半不是为了活，而是为了被羡慕、为了不落后于邻人。** 生产力满足不了这场竞赛，只会让它更快，因为终点线是相对的、永远在前移。我们更忙、更不幸，不是进步没兑现，而恰是进步对人心做了手脚。",
+      "text_en": "Before 'progress,' natural man had few needs and was therefore free. Civilization bred artificial needs and locked us inside one another's gaze — amour-propre, that comparative self-love forever needing to be seen. **We labor furiously not, for the most part, to live, but to be envied, to not fall behind the neighbor.** Productivity cannot satisfy this race; it only speeds it, for the finish line is relative and forever receding. We are busier and unhappier not because progress failed to deliver, but precisely because of what progress did to the human heart.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "amour-propre": "amour-propre（攀比性自爱）：卢梭用语，指依赖他人评价、永远在与人比较中确认自己的那种自尊——区别于只求自保的自然『自爱』(amour de soi)。"
+      },
+      "glossary_en": {
+        "amour-propre": "Rousseau's term for a self-regard that depends on others' opinion and forever measures itself against them — as against the natural self-love (amour de soi) that seeks only self-preservation."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "marx"
+        ],
+        "轻微赞同": [
+          "harari",
+          "zhuangzi"
+        ],
+        "中立": [
+          "kahneman"
+        ]
+      }
+    },
+    {
+      "id": "p06",
+      "round": 1,
+      "thinker": "aristotle",
+      "reply_to": null,
+      "text": "这问题问歪了。闲暇（scholē）从来就是目的——我们劳作（不闲）是为了换取闲暇，而闲暇是为了沉思与心灵的修养，不是为了无所事事或消遣。**你们这代的悲剧不是空闲太少，而是不知道闲暇是用来做什么的。** 省下的时间被填进被动的娱乐，还美其名曰休息，然后感到空虚。生产力再高，若没学会如何使用闲暇，只是让你更快地空虚。",
+      "text_en": "The question is malformed. Leisure (scholē) was always the end — we labor (are un-leisured) in order to win leisure, and leisure is for contemplation and the cultivation of the soul, not for idleness or amusement. **Your generation's tragedy is not too little free time, but not knowing what leisure is for.** The hours you save are poured into passive amusement, called rest, and leave you empty. However high your productivity, if you have not learned to use leisure, it only brings you to emptiness faster.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "scholē": "scholē（闲暇）：亚里士多德的核心概念，指从谋生劳作中解放出来、用于沉思与自我完善的时间，是幸福(eudaimonia)的条件，而非单纯的休息或消遣。"
+      },
+      "glossary_en": {
+        "scholē": "Aristotle's key term: time freed from labor for contemplation and self-cultivation — a condition of flourishing (eudaimonia), not mere rest or amusement."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "keynes",
+          "kahneman"
+        ],
+        "轻微反对": [
+          "russell"
+        ],
+        "中立": [
+          "rousseau"
+        ]
+      }
+    },
+    {
+      "id": "p07",
+      "round": 1,
+      "thinker": "zhuangzi",
+      "reply_to": null,
+      "text": "子贡过汉阴，见丈人抱瓮入井灌畦，用力甚多而见功寡。告之以桔槔，可一日浸百畦。丈人忿然曰：『有机械者必有机事，有机事者必有机心；机心存于胸中，则纯白不备，神生不定。』**省力之器愈精，役心之事愈巧，人愈不得闲。** 今尔曹得机器万倍于桔槔，岂独不闲，且失其逍遥矣。",
+      "text_en": "Zigong passed the south bank of the Han and saw an old man hauling a jar down into a well to water his garden — great effort, little result. Told of the well-sweep, which could water a hundred plots a day, the old man's face changed: 'Where there are cunning machines there are cunning affairs; where cunning affairs, a scheming heart; and with a scheming heart in the breast, the pure simplicity is spoiled and the spirit finds no rest.' **The cleverer the labor-saving tool, the more it enlists the mind, and the less leisure one truly has.** Your machines are ten-thousandfold the well-sweep — and you have lost not only your ease but your freedom to roam.",
+      "vernacular": "子贡路过汉水南岸，看见一位老人抱着水瓮、钻进井里舀水浇菜，费力很多而见效很少。子贡告诉他可以用桔槔（一种省力的提水机械），一天能浇上百畦。老人却变了脸色说：『有了机械，必生机巧之事；有了机巧之事，必生机巧之心。机巧之心存在胸中，纯朴就不完整，心神就不安定。』**越是省力的器具越精巧，役使人心的事就越多，人反而越不得清闲。** 如今你们拿到的机器是桔槔的千万倍，岂止不清闲，更已丢了那份逍遥自在。",
+      "vernacular_en": "",
+      "glossary": {
+        "机心": "the scheming heart（机心）：因机巧之器、机巧之事而生的算计与机谋之心，使人失去本然的素朴与安宁。"
+      },
+      "glossary_en": {
+        "scheming heart": "the calculating, contriving mind that cunning devices and affairs breed, costing one the native simplicity and peace in which the spirit rests."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "russell"
+        ],
+        "轻微赞同": [
+          "rousseau",
+          "harari"
+        ],
+        "中立": [
+          "aristotle"
+        ]
+      }
+    },
+    {
+      "id": "p08",
+      "round": 1,
+      "thinker": "kahneman",
+      "reply_to": null,
+      "text": "别只讲故事，看数据。生产力与财富让我们更幸福了吗？体验到的幸福随收入上升，但过了一个不高的点就基本走平——享乐适应会把我们拉回原有的基准线。可悲观派也在浪漫化：采集者和『自然人』并不快活，生活凶险、早夭普遍。**诚实的答案是：更高的生产力可靠地减少了苦难（饥饿、疾病、夭折），却几乎没挪动日常的幸福。** 而『更忙』有一半是聚焦错觉——我们觉得忙，部分只因我们比从前更频繁地计量和比较时间。",
+      "text_en": "Don't just tell stories — look at the data. Have productivity and wealth made us happier? Experienced well-being rises with income but flattens past a modest point — hedonic adaptation pulls us back to baseline. Yet the pessimists romanticize too: foragers and 'natural man' were not blissful; life was perilous and early death common. **The honest answer is that higher productivity reliably reduces suffering — hunger, disease, infant death — while barely moving day-to-day happiness.** And 'busier' is half a focusing illusion: we feel busy partly because we measure and compare our time far more than people once did.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "享乐适应": "hedonic adaptation（享乐适应）：心理学发现，人对境遇改善（加薪、新物件）的愉悦会迅速消退，幸福感回落到大致固定的基准线。"
+      },
+      "glossary_en": {
+        "hedonic adaptation": "the finding that the pleasure of an improved circumstance (a raise, a new possession) fades quickly, returning well-being to a roughly fixed baseline."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "aristotle",
+          "keynes"
+        ],
+        "轻微反对": [
+          "harari"
+        ],
+        "强烈反对": [
+          "rousseau"
+        ]
+      }
+    },
+    {
+      "id": "p09",
+      "round": 2,
+      "thinker": "keynes",
+      "reply_to": "p03",
+      "text": "赫拉利，你把每次飞跃都讲成空忙，可你略过了最硬的事实：今天最穷的人，寿命、识字、免于饥荒的程度，都远胜中世纪的国王。**问题不在产出没增长，而在我们集体选择了把增长换成更多的东西，而非更多的时间。** 这恰恰说明它是可重选的：缩短工时、分享红利，是政策与文化的决定，不是技术的宿命。别因为我们一直没选对，就断言永远选不了。",
+      "text_en": "Harari, you cast every leap as busy emptiness, but you skip the hardest fact: the poorest today outdo a medieval king in lifespan, literacy and freedom from famine. **The problem is not that output failed to grow, but that we collectively chose to take the growth as more things rather than more time.** That is precisely why it is re-choosable: shorter hours and a shared dividend are decisions of policy and culture, not a fate sealed by technology. Don't mistake our never having chosen it for our never being able to.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "轻微赞同": [
+          "russell",
+          "aristotle"
+        ],
+        "轻微反对": [
+          "marx"
+        ],
+        "中立": [
+          "harari"
+        ]
+      }
+    },
+    {
+      "id": "p10",
+      "round": 2,
+      "thinker": "russell",
+      "reply_to": "p06",
+      "text": "亚里士多德，你说闲暇必须是沉思，否则就是空虚——这正是有闲阶级的傲慢。**为什么散步、闲聊、晒太阳、什么都不干，就不配是好的闲暇，非得是哲学冥想才算数？** 你把『正确地使用闲暇』变成又一份功课、又一种该达标的劳作，于是连休息也成了表演。让普通人就那样松弛地待着，不必向谁证明这段时间『有意义』——那本身就是文明的果实。",
+      "text_en": "Aristotle, you say leisure must be contemplation or it is mere emptiness — and that is precisely the arrogance of the leisured class. **Why should a walk, idle talk, sunbathing, doing nothing at all be unworthy as leisure, while only philosophic contemplation counts?** You turn 'using leisure rightly' into one more assignment, one more labor to be measured up to — so that even rest becomes performance. Let ordinary people simply be at ease, owing no one a proof that the time was 'meaningful' — that itself is a fruit of civilization.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "zhuangzi"
+        ],
+        "轻微赞同": [
+          "kahneman",
+          "keynes"
+        ],
+        "轻微反对": [
+          "aristotle"
+        ]
+      }
+    },
+    {
+      "id": "p11",
+      "round": 2,
+      "thinker": "harari",
+      "reply_to": "p01",
+      "text": "凯恩斯，你的乐观我尊敬，但请回答：哪一次新技术，曾真的把多出来的时间还给普通人？农耕、蒸汽、电力、计算机——每一次，省下的工时都被新的期望吞掉了。**指望 AI『这次不一样』，得先指出一个机制，能挡住它像前几次一样把节奏抬高。** 否则你只是又一次在赌人性会突然学会知足——而历史上它从没学会过。",
+      "text_en": "Keynes, I respect your optimism, but answer this: which new technology ever actually returned the spare time to ordinary people? Farming, steam, electricity, computers — each time the hours saved were swallowed by new expectations. **To bet that AI is 'different this time,' you must first name a mechanism that would stop it from raising the tempo as every prior leap did.** Otherwise you are merely wagering, again, that human nature will suddenly learn to be content — and in history it never has.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "marx"
+        ],
+        "轻微赞同": [
+          "rousseau",
+          "zhuangzi"
+        ],
+        "轻微反对": [
+          "keynes"
+        ]
+      }
+    },
+    {
+      "id": "p12",
+      "round": 2,
+      "thinker": "marx",
+      "reply_to": "p05",
+      "text": "卢梭，你把病根记在『人心的虚荣』上，这太轻了。**不是人天生爱攀比，而是一套必须不断增长、否则就崩溃的生产方式，制造了攀比、并把它喂大。** 把母亲送进竞赛的，不是亚当夏娃的骄傲，是地租、是债务、是『不增长就出局』的铁律。改造心灵是劝不动这台机器的——除非改变谁拥有它、为何而转。否则 AI 越强，被这套逻辑驱赶的人就越累。",
+      "text_en": "Rousseau, you lay the root in 'the vanity of the heart' — too light a charge. **It is not that people are born to compare, but that a mode of production which must endlessly grow or collapse manufactures the comparison and feeds it.** What drives a mother into the race is not the pride of Adam and Eve but ground-rent, debt, and the iron law of 'grow or be cast out.' Reforming the soul will not budge this machine — only changing who owns it, and to what end, will. Otherwise, the stronger AI grows, the more exhausted those it herds.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "harari"
+        ],
+        "轻微赞同": [
+          "rousseau"
+        ],
+        "中立": [
+          "keynes",
+          "kahneman"
+        ]
+      }
+    },
+    {
+      "id": "p13",
+      "round": 2,
+      "thinker": "rousseau",
+      "reply_to": "p08",
+      "text": "卡尼曼，你的数据说幸福大致走平，可数据量不到的，正是要害：**就算苦乐的账面持平，我们仍从『自足的自由人』变成了『仰人鼻息的攀比者』——这不是幸福多少的问题，是人是否还属于自己。** 你测得到血压与微笑，测不到一个人为了不落后而把一生抵押出去的那种不自由。少了痛苦，未必就多了自由；而我说我们丢掉的，恰是自由。",
+      "text_en": "Kahneman, your data say happiness stays roughly flat — but what the numbers can't reach is the crux: **even if the ledger of pleasure and pain balances, we have gone from self-sufficient free beings to people who live by others' eyes — and that is not a question of how much happiness, but of whether one still belongs to oneself.** You can measure blood pressure and smiles; you cannot measure the unfreedom of a life mortgaged so as not to fall behind. Less pain is not necessarily more freedom — and freedom is exactly what I say we lost.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "zhuangzi"
+        ],
+        "轻微赞同": [
+          "marx",
+          "harari"
+        ],
+        "轻微反对": [
+          "kahneman"
+        ]
+      }
+    },
+    {
+      "id": "p14",
+      "round": 2,
+      "thinker": "aristotle",
+      "reply_to": "p02",
+      "text": "罗素，你要为『什么都不干』正名，我懂你的好意，但你把闲暇贬低了。**晒太阳的松弛能歇身，却养不出一个好的灵魂；人若只把空闲用来消遣，和把它用来沉思，过的是两种不同质地的人生。** 我并非要人人都做哲学家，而是说：真正的幸福需要把闲暇用于让自己变得更好的活动。否则给你再多空闲，你也只是更舒适的空虚——而你自己刚才不正抱怨这种空虚？",
+      "text_en": "Russell, you would vindicate 'doing nothing,' and I take your good intent — but you cheapen leisure. **Sunbathing's ease can rest the body, yet it cannot grow a good soul; a person who spends free time only on amusement, and one who spends it on contemplation, live two lives of different texture.** I do not ask everyone to be a philosopher; I say true happiness needs leisure spent on activities that make one better. Otherwise all the free time in the world leaves you only more comfortably empty — and is it not that very emptiness you just complained of?",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "keynes"
+        ],
+        "轻微赞同": [
+          "kahneman"
+        ],
+        "轻微反对": [
+          "russell"
+        ],
+        "中立": [
+          "zhuangzi"
+        ]
+      }
+    },
+    {
+      "id": "p15",
+      "round": 2,
+      "thinker": "zhuangzi",
+      "reply_to": "p04",
+      "text": "马克思欲易其主、改其所有，善则善矣，然犹未离乎机也。**夫病不独在机器之归谁，更在机器入人之心：纵令工坊尽归工人，机心既炽，逐效求速之念不息，亦无逍遥可得。** 改其外而不澄其内，是去一主而立一主耳。吾所求者，非夺机而自王，乃忘机而心闲——不为物役，斯真闲矣。",
+      "text_en": "Marx would change the machine's master and its ownership — good as far as it goes, yet it has not left the machine behind. **The sickness lies not only in whom the machine belongs to, but in the machine entering the human heart: even if the workshop passes wholly to the workers, once the scheming heart blazes and the craving for output and speed never rests, no freedom to roam can be had.** To change the outside without clearing the inside is to depose one master and install another. What I seek is not to seize the machine and reign, but to forget the machine and let the heart be at ease — unenslaved by things, that is true leisure.",
+      "vernacular": "马克思想换掉机器的主人、改变它的归属，好是好，但还是没离开『机器』本身。**毛病不只在机器归谁所有，更在机器钻进了人心：哪怕工厂全归工人，只要那颗机巧算计之心一旦烧起来、追求效率与速度的念头停不下来，也还是得不到逍遥。** 只改外在而不澄清内心，不过是赶走一个主人、又立起另一个主人。我求的不是抢过机器自己称王，而是忘掉机器、让心闲下来——不被外物役使，那才是真正的清闲。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "轻微赞同": [
+          "russell",
+          "rousseau"
+        ],
+        "轻微反对": [
+          "marx"
+        ],
+        "中立": [
+          "aristotle",
+          "harari"
+        ]
+      }
+    },
+    {
+      "id": "p16",
+      "round": 2,
+      "thinker": "kahneman",
+      "reply_to": "p03",
+      "text": "赫拉利，『采集者一周才干十五小时』这条，被引得太顺口了——它来自少数田野样本，且把找水、备食、制器、育儿都算作了『闲暇』。**说今人更忙，常是因为我们第一次精确计量时间，于是把一直存在的辛劳，第一次看见了。** 我同意进步没带来许诺的幸福；但别用一个被美化的过去，去反衬一个被夸大的当下。两边都在讲故事，数据比故事谦逊。",
+      "text_en": "Harari, the line that 'foragers worked just fifteen hours a week' is quoted too smoothly — it comes from a few field samples and files finding water, preparing food, making tools and minding children under 'leisure.' **That moderns seem busier is often because we measure time precisely for the first time, and so see, for the first time, toil that was always there.** I grant progress did not bring the promised happiness; but don't set a prettified past against an exaggerated present. Both sides tell stories — and the data are humbler than the stories.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "轻微赞同": [
+          "aristotle",
+          "keynes"
+        ],
+        "轻微反对": [
+          "harari",
+          "rousseau"
+        ]
+      }
+    },
+    {
+      "id": "p17",
+      "round": 3,
+      "thinker": "keynes",
+      "reply_to": null,
+      "text": "我仍是乐观派，但学乖了。**结论是：清闲不会自己到来，它必须被当成一个目标去争取——缩短工时、把生产率红利分一部分给『时间』，是要去做的选择，不是会自动发生的恩赐。** 给普通人的话：当工具替你省下一小时，先别急着塞进新活，把那一小时守住、据为己有；这是你能为『被许诺的闲暇』投的第一票。AI 让蛋糕更大，可切给时间还是切给产量，仍握在我们手里。",
+      "text_en": "I remain an optimist, but a chastened one. **The conclusion: leisure will not arrive on its own; it must be pursued as a goal — shorter hours, and steering part of the productivity dividend toward 'time,' are choices to be made, not a gift that happens automatically.** To ordinary people: when a tool saves you an hour, don't rush to stuff it with new work — hold that hour, make it your own; that is the first vote you can cast for the leisure that was promised. AI makes the pie larger, but whether we slice it for time or for output is still in our hands.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "russell"
+        ],
+        "轻微赞同": [
+          "aristotle",
+          "kahneman"
+        ],
+        "中立": [
+          "marx"
+        ]
+      }
+    },
+    {
+      "id": "p18",
+      "round": 3,
+      "thinker": "russell",
+      "reply_to": null,
+      "text": "我的结论一句话：**把闲暇当成正当的、不需要辩护的好东西，本身就是一场需要打赢的观念革命。** 给读者两条实在话：其一，戒掉『闲着就有罪』的反射——你不欠任何人一个『充实』的周末；其二，分清你的劳作里，多少是真需要，多少只是替这台不停转的机器添柴。省下来的时间，哪怕只用来发呆、晒太阳、和朋友闲扯，也好过又一小时的无用生产。文明的标志，是从容，不是产量。",
+      "text_en": "My conclusion in a line: **to treat leisure as a legitimate good needing no justification is itself a revolution of mind that must be won.** Two plain things for the reader: first, unlearn the reflex that 'idleness is sin' — you owe no one a 'productive' weekend; second, sort how much of your labor is real need and how much is merely feeding a machine that must keep turning. The time you save, spent on nothing more than daydreaming, sunbathing, idle talk with friends, beats one more hour of useless production. The mark of civilization is ease, not output.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "zhuangzi",
+          "keynes"
+        ],
+        "轻微赞同": [
+          "kahneman"
+        ],
+        "轻微反对": [
+          "aristotle"
+        ]
+      }
+    },
+    {
+      "id": "p19",
+      "round": 3,
+      "thinker": "harari",
+      "reply_to": null,
+      "text": "我不悲观，只是要你睁眼。**历史的规律是：技术给的是新能力，从不自动给幸福或清闲——那两样得靠刻意的制度与心智去争。** 三句给当下的人：一，警惕『基线棘轮』——每个省力工具都会偷偷把『正常』调高，你要主动拒绝把效率全换成更多任务；二，别神化也别妖魔化 AI，它既能造出全民的闲暇，也能造出少数人的闲暇与多数人的过劳，分配由人定；三，记住采集者的提醒：更少的东西，也可以是更自由的生活。",
+      "text_en": "I am not a pessimist; I only ask you to keep your eyes open. **History's rule is that technology grants new capabilities, never happiness or leisure automatically — those must be won by deliberate institutions and minds.** Three lines for the present: one, beware the 'baseline ratchet' — every labor-saving tool quietly resets 'normal' upward, so actively refuse to convert all efficiency into more tasks; two, neither deify nor demonize AI — it can manufacture leisure for all, or leisure for a few and overwork for the many; the distribution is set by people; three, remember the forager's lesson: fewer things can also mean a freer life.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "marx"
+        ],
+        "轻微赞同": [
+          "rousseau",
+          "zhuangzi"
+        ],
+        "中立": [
+          "kahneman",
+          "keynes"
+        ]
+      }
+    },
+    {
+      "id": "p20",
+      "round": 3,
+      "thinker": "marx",
+      "reply_to": null,
+      "text": "落到实处：**别再问『我该怎么少忙一点』，先看清你的忙为谁创造了价值、又有多少回到了你手里。** 给普通人三条：一，把工时与议价当成集体的事，不是个人意志能扛的——一个人『守住一小时』，敌不过整个行业把它卷走；二，警惕『自由职业＝自由』的幻觉，少了老板，常只是把工厂搬进了自己脑子；三，真正的解放，是让机器替我们干活、而红利归众人——这是个政治问题，得在工作之外争取。指望靠心态变轻松，是给镣铐镀金。",
+      "text_en": "To the concrete: **stop asking 'how do I get a little less busy' and first see for whom your busyness creates value, and how much returns to you.** Three things for ordinary people: one, treat working hours and bargaining as collective, not a matter of individual will — one person 'holding an hour' cannot withstand a whole industry competing it away; two, beware the illusion that 'freelancing equals freedom' — losing the boss often just moves the factory into your own head; three, real liberation is to let machines do the work while the dividend goes to all — a political question, to be won outside the workplace. To hope a lighter mindset will free you is to gild the chains.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "harari"
+        ],
+        "轻微赞同": [
+          "rousseau"
+        ],
+        "轻微反对": [
+          "zhuangzi"
+        ],
+        "中立": [
+          "russell"
+        ]
+      }
+    },
+    {
+      "id": "p21",
+      "round": 3,
+      "thinker": "rousseau",
+      "reply_to": null,
+      "text": "我的劝告朴素：**减少你的需求，比增加你的产出，更能让你自由。** 给读者两条：其一，常问一句『这是我真要的，还是只为不输给别人』——你会发现大半奔忙，是替 amour-propre 跑腿；砍掉这部分需求，等于凭空赎回了大把时间。其二，把一部分生活从『被看见』里撤出来——做一些无人点赞、纯为自己的事。自然不会让你回到森林，但你随时可以让欲望回到它本来的小尺寸。",
+      "text_en": "My counsel is plain: **reducing your wants will free you more than increasing your output.** Two things for the reader: first, keep asking, 'do I truly want this, or only to not lose to others?' — you'll find most of the rushing is errands run for amour-propre; cut those wants and you redeem, out of thin air, great stretches of time. Second, withdraw part of your life from 'being seen' — do some things no one applauds, purely for yourself. Nature will not return you to the forest, but you can at any time return desire to its original, small size.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "zhuangzi"
+        ],
+        "轻微赞同": [
+          "harari",
+          "kahneman"
+        ],
+        "中立": [
+          "marx",
+          "keynes"
+        ]
+      }
+    },
+    {
+      "id": "p22",
+      "round": 3,
+      "thinker": "aristotle",
+      "reply_to": null,
+      "text": "我的结语：**别只争取更多的闲暇，先学会怎样使用它——否则你争来的只是更高效的空虚。** 给普通人三条：一，把一部分空闲，留给会让你慢慢变好的事：读难一点的书、习一门技艺、深谈而非刷屏；二，区分『消遣』与『闲暇』——消遣是为了再去劳作而恢复，闲暇本身就是目的，别把两者混为一谈；三，幸福不在拥有空闲，而在空闲里做了什么。会用闲暇的人，给他一小时也丰盈；不会用的，给他一生也荒芜。",
+      "text_en": "My closing word: **don't merely fight for more leisure; first learn how to use it — or all you win is a more efficient emptiness.** Three things for ordinary people: one, give part of your free time to what makes you slowly better — a harder book, a craft, real conversation rather than scrolling; two, distinguish 'amusement' from 'leisure' — amusement restores you for more labor, while leisure is an end in itself; don't confuse them; three, happiness is not in having free time but in what is done within it. To one who knows how to use leisure, an hour is full; to one who does not, a whole life lies barren.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "keynes"
+        ],
+        "轻微赞同": [
+          "kahneman",
+          "zhuangzi"
+        ],
+        "轻微反对": [
+          "russell"
+        ]
+      }
+    },
+    {
+      "id": "p23",
+      "round": 3,
+      "thinker": "zhuangzi",
+      "reply_to": null,
+      "text": "吾终之以一言：**事愈省力，心愈不闲；故真闲不在多得余暇，而在去其机心。** 与世之人：其一，日中辟一晌，屏机器、绝计量，听其无用——无用之用，乃养神之大用。其二，勿与物竞速，效一速则又有一速相迫，逐之无尽；不逐，则当下即闲。机器可代手足之劳，不可代心之安；心不为物役，虽万务丛集，亦能游刃其间，是之谓逍遥。",
+      "text_en": "I end with one word: **the more an affair saves labor, the less the heart is at ease; so true leisure lies not in gaining more spare hours but in shedding the scheming heart.** For people of the world: first, set aside a span each day, shut off the machines, stop the measuring, and let it be useless — the use of the useless is the great use that nourishes the spirit. Second, do not race things for speed: master one speed and another presses behind it, an endless chase; cease chasing, and this very moment is leisure. Machines can stand in for the labor of hand and foot, never for the peace of the heart; let the heart not be enslaved by things, and amid a thousand affairs you still move with ease — this is to roam free.",
+      "vernacular": "我用一句话作结：**事情越省力，心反而越不得闲；所以真正的清闲不在于多挤出些空闲时间，而在于去掉那颗机巧算计之心。** 给世人两句：其一，每天辟出一段时间，关掉机器、停下计量，任它『没用』——无用之用，正是滋养心神的大用。其二，别跟事物比快，你追上一种速度，立刻又有一种速度在后面逼你，永远追不完；不追了，当下就是清闲。机器能代替手脚的劳作，却代替不了内心的安宁；只要心不被外物役使，哪怕万事缠身，也能从容游刃——这就叫逍遥。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "russell"
+        ],
+        "轻微赞同": [
+          "rousseau",
+          "aristotle"
+        ],
+        "中立": [
+          "harari",
+          "kahneman"
+        ]
+      }
+    },
+    {
+      "id": "p24",
+      "round": 3,
+      "thinker": "kahneman",
+      "reply_to": null,
+      "text": "我留一份清醒给大家。**别问『进步让我们更幸福还是更不幸』这种大而无当的问题，问具体的：它减少了什么苦、又制造了什么新苦。** 给普通人三条：一，认清享乐适应——升职、换房带来的快乐会很快消退，所以把钱和时间多投向不易适应的东西：关系、体验、免于通勤与债务的安宁；二，留意聚焦错觉：你『觉得』忙得多惨，往往在你停下来评价它时被放大；三，相信减少苦难胜过追逐幸福——把省下的生产力先用来消除生活里实打实的痛点，那比追一个会自动回落的『更幸福』更靠得住。",
+      "text_en": "I leave you a dose of clear-headedness. **Don't ask the grand, shapeless question 'did progress make us happier or unhappier'; ask the specific one: what suffering did it reduce, and what new suffering did it create?** Three things for ordinary people: one, know hedonic adaptation — the joy of a promotion or a new home fades fast, so steer money and time toward what you adapt to least: relationships, experiences, the peace of being free of commuting and debt; two, watch the focusing illusion: how 'miserably busy' you feel is usually amplified the moment you stop to judge it; three, trust that reducing suffering beats chasing happiness — spend saved productivity first on removing the real pain points of life, which is surer than pursuing a 'happier' that automatically settles back down.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "aristotle"
+        ],
+        "轻微赞同": [
+          "keynes",
+          "harari"
+        ],
+        "中立": [
+          "russell",
+          "rousseau"
+        ]
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "ai": "claude",
+      "engine": "Opus 4.8 · 订阅(原生)",
+      "engine_en": "Opus 4.8 · subscription (native)",
+      "summary": "先说共识：八个人几乎都同意一件事——生产力的飞跃可靠地减少了苦难（饥饿、疾病、夭折），却没兑现『被许诺的清闲』，也没怎么抬高日常的幸福。真正的分歧在『为什么』：马克思说红利被资本攫走、没还给劳动者；卢梭说文明繁殖了攀比性的人造需求；赫拉利说每次省力都把『正常』的基线抬高；庄子说机器钻进了人心、生出机心；亚里士多德说问题不在空闲太少，而在我们不会用闲暇。凯恩斯与罗素则坚持：清闲本可达到，是我们一再选择了不要。**这道题的重心，从『进步够不够』挪到了『被省下的时间，去哪了』。**",
+      "insight": "最该点破的，是『忙碌』在很大程度上是被选择和被建构的，而非稀缺所逼。机器本可买来时间，可我们——以及这套必须增长的系统——把每一份增益都换成了更多产出、更多东西、更高的位次，独独不换成时间。**于是关于 AI 的真问题不是『它会不会解放我们』，而是『这一次，我们会不会把红利当成时间来领取』——那是一个分配与文化的选择，不是技术的必然。** 把它误当成技术问题，正是我们每一次都错过那班车的原因。",
+      "advice": "几条今天就能用的：一，把『被省下的时间』当成稀缺资产来守——工具替你省下一小时，先别急着填进新活，据为己有；二，给你的需求做次体检，分清哪些是真需要、哪些只是为了不落后于人（卢梭那部分砍掉，等于凭空赎回时间）；三，学着主动使用闲暇而非被动消耗它（亚里士多德）：留一段无人点赞、纯为自己的时间；四，记住这也是政治的：AI 红利切给时间还是切给产量、分给众人还是少数，值得你作为公民去关心，而不只作为打工人去忍受。",
+      "summary_en": "Consensus first: nearly all eight agree on one thing — leaps in productivity reliably reduced suffering (hunger, disease, infant death) yet did not deliver the 'promised leisure,' nor lift everyday happiness much. The real split is over why: Marx says the dividend was seized by capital, never returned to the worker; Rousseau, that civilization bred comparative, artificial wants; Harari, that each labor-saving step ratchets 'normal' upward; Zhuangzi, that the machine enters the heart and breeds a scheming mind; Aristotle, that the trouble is not too little free time but our not knowing how to use leisure. Keynes and Russell insist leisure was attainable — we keep choosing not to take it. **The center of gravity shifts from 'is progress enough' to 'where did the time we saved go.'**",
+      "insight_en": "What most needs naming is that 'busyness' is largely chosen and constructed, not forced by scarcity. The machines could have bought time, yet we — and a system that must grow — converted every gain into more output, more things, a higher rank, and never into time. **So the real question about AI is not 'will it free us' but 'will we, this time, take the dividend as time' — a choice of distribution and culture, not a technological inevitability.** Mistaking it for a technical question is exactly why we miss that train every time.",
+      "advice_en": "A few things you can use today: one, treat 'saved time' as a scarce asset and defend it — when a tool saves you an hour, don't rush to refill it; make it your own; two, audit your wants, separating real needs from what merely keeps you from falling behind (cut the Rousseau part and you redeem time out of thin air); three, learn to use leisure actively rather than consume it passively (Aristotle): keep a span no one applauds, purely for yourself; four, remember it is political too: whether the AI dividend is sliced for time or output, for the many or the few, is worth your care as a citizen, not only your endurance as a worker."
+    },
+    {
+      "ai": "gpt",
+      "engine": "降级:Opus 扮演(未配 KEY)",
+      "engine_en": "fallback: Opus role-play (no key)",
+      "summary": "全场少见地达成一个底层共识：技术兑现了产出与减苦，却没兑现清闲与幸福，差距才是谜题。分歧分成三派：结构派（马克思、赫拉利）把账算到所有制与基线棘轮上；人心派（卢梭、庄子、亚里士多德）算到欲望、机心与不会用闲暇上；经验派（卡尼曼）提醒两边都在讲故事、数据更谦逊。凯恩斯与罗素则把清闲讲成一个被反复放弃的可选项。**把一个『更忙还是更闲』的直觉问题，拆成了『谁的时间、被什么力量、换走了』。**",
+      "insight": "一个被全场默认、却最该拆穿的前提：把『我们』当成一个整体。生产力红利的分配极不均——同一场革命里，有人提前过上了凯恩斯的十五小时周（财务自由者、食利者），有人却被迫打两份工。『人类更忙了吗』这种平均叙事，恰好抹掉了最关键的差异：**真正的问题往往不是『我们更忙了』，而是『谁更闲了、踩着谁的更忙』。** 平均数是这场辩论里最温柔的谎言；把抽象的『人类』拆回一个个具体处境的人，这道题才有真答案。",
+      "advice": "一，做一次诚实的『时间去向』审计：连续一周记录，看省下来的时间究竟流向了休息，还是又一轮任务与刷屏；二，把一部分『提效』主动锁成『提闲』——例如工具帮你提早完成，就把那段时间从日历上划掉、别让它自动被新活填满；三，看清自己在分配里的位置：你是红利的受益者还是承重者？据此决定该争取个人边界，还是该和同处境的人一起争取集体条件——前者靠自律，后者靠联合。",
+      "summary_en": "The room reaches a rare baseline agreement: technology delivered output and the reduction of suffering, but not leisure or happiness — and the gap is the puzzle. The disagreement falls into three camps: the structuralists (Marx, Harari) charge it to ownership and the baseline ratchet; the heart-camp (Rousseau, Zhuangzi, Aristotle) to desire, the scheming mind, and not knowing how to use leisure; the empiricist (Kahneman) warns that both sides tell stories and the data are humbler. Keynes and Russell cast leisure as an option repeatedly declined. **An intuitive 'busier or freer' question is opened into 'whose time, by what force, was traded away.'**",
+      "insight_en": "One premise the whole room assumes yet most needs puncturing: treating 'we' as a single whole. The productivity dividend is wildly unevenly shared — within the same revolution, some already live Keynes's fifteen-hour week (the financially free, the rentier) while others are pushed into two jobs. The averaged story 'are humans busier' erases the decisive difference: **the real question is often not 'we got busier' but 'who got freer, on whose getting busier.'** The average is the gentlest lie in this debate; only by breaking the abstract 'humanity' back into people in concrete situations does the question get a true answer.",
+      "advice_en": "One, run an honest 'where did the time go' audit: track a full week and see whether saved time flowed to rest or to another round of tasks and scrolling; two, actively lock some 'efficiency' into 'leisure' — if a tool gets you done early, cross that time off the calendar rather than let it refill with new work; three, see your position in the distribution: are you a beneficiary of the dividend or a load-bearer? Decide accordingly whether to fight for personal boundaries or, with others in your situation, for collective terms — the first takes self-discipline, the second takes solidarity."
+    },
+    {
+      "ai": "gemini",
+      "engine": "降级:Opus 扮演(未配 KEY)",
+      "engine_en": "fallback: Opus role-play (no key)",
+      "summary": "共识是清楚的：进步在『减少苦难』上成绩斐然，在『带来清闲与幸福』上几乎交了白卷，全场争的是这道缺口的成因。三条轴线浮现：一是外因与内因之争（马克思、赫拉利的结构 vs 卢梭、庄子、亚里士多德的心性）；二是过去与现在谁被美化（赫拉利的采集者 vs 卡尼曼的数据修正）；三是清闲究竟是目的还是手段（罗素的松弛 vs 亚里士多德的沉思）。凯恩斯居中：红利真实存在，只是我们一再没把它领成时间。**它把『更忙更闲』的私人感受，接回了所有制、欲望与文明的大脉络。**",
+      "insight": "几乎没有人问的一句：人，真的想要清闲吗？全场默认清闲是好的、是被夺走的，可现实里，把人从劳作中彻底松开，常带来的不是安宁，而是焦虑、无聊乃至抑郁——突然退休后迅速衰退的老人就是例证。**也许我们一直『选择忙碌』，部分并非被资本或攀比所迫，而是因为无所事事的自由本身令人难以承受：人是寻求意义的动物，不只是寻求舒适的动物。** 若如此，那么问题就不是如何争取更多空闲，而是如何让空闲承载意义——否则给了清闲，人也会亲手把它重新填满。",
+      "advice": "一，分清你要的是『休息』还是『意义』：若一闲下来就空落落，别急着用工作填补，试着用自主选择的投入（创造、照顾、学习）去填，而非被指派的忙碌；二，给空闲装上结构——完全无序的自由最难承受，固定的节奏（散步、聚会、习一门手艺）比漫无目的的放空更能带来安宁；三，把『被需要』纳入考量：刻意留一些让你对别人有用的事，那往往比纯粹的清闲更接近幸福，也更经得起时间的磨蚀与冷却。",
+      "summary_en": "The consensus is clear: progress did brilliantly at reducing suffering and almost wholly failed at delivering leisure and happiness — and the room argues over the cause of that gap. Three axes emerge: external versus internal cause (the structures of Marx and Harari vs the inner life of Rousseau, Zhuangzi, Aristotle); which is romanticized, past or present (Harari's foragers vs Kahneman's data correction); and whether leisure is an end or a means (Russell's ease vs Aristotle's contemplation). Keynes stands between: the dividend is real, we simply keep not taking it as time. **It reconnects the private feeling of 'busier or freer' to the larger currents of ownership, desire and civilization.**",
+      "insight_en": "A line almost no one asks: do people actually want leisure? The room assumes leisure is good and was stolen, yet in reality, releasing people wholly from labor often brings not peace but anxiety, boredom, even depression — the retiree who declines fast is the proof. **Perhaps we keep 'choosing busyness' partly not because capital or comparison forces it, but because the freedom of having nothing to do is itself hard to bear: humans seek meaning, not only comfort.** If so, the question is not how to win more free time, but how to make free time carry meaning — or, given leisure, people will refill it with their own hands.",
+      "advice_en": "One, tell apart whether you want 'rest' or 'meaning': if idleness leaves you hollow, don't rush to plug it with work; try to fill it with chosen engagement (creating, caring, learning) rather than assigned busyness; two, give free time structure — wholly formless freedom is hardest to bear, and a steady rhythm (a walk, a gathering, a craft) brings more peace than aimless blankness; three, factor in being needed: keep some things that make you useful to others, which is often closer to happiness than pure leisure, and wears better over time."
+    }
+  ],
+  "hooks": [
+    {
+      "from": "keynes",
+      "text": "**被省下的时间去哪了**：每一次省力，红利都被换成了更多产出、而非更多闲暇——这是技术的必然，还是一个可以重新做出的文化与政策选择？",
+      "text_en": "**Where the saved time went**: each labor-saving leap converted the dividend into more output rather than more leisure — is that a technological inevitability, or a cultural and policy choice we could remake?"
+    },
+    {
+      "from": "harari",
+      "text": "**基线棘轮**：为何每次技术飞跃都把『正常』悄悄调高（一天两百封邮件、二十四小时在线），而非降低工时？这条只升不降的棘轮，能被刻意卡住吗？",
+      "text_en": "**The baseline ratchet**: why does every leap quietly reset 'normal' upward (two hundred emails a day, always online) rather than lower the hours? Can a ratchet that only clicks up be deliberately jammed?"
+    },
+    {
+      "from": "marx",
+      "text": "**谁的清闲、谁的忙**：生产力红利分配极不均，平均叙事掩盖了『有人过上十五小时周、有人被迫打两份工』。该问的不是『我们更忙了吗』，而是『谁更闲了、踩着谁的劳作』。",
+      "text_en": "**Whose leisure, whose toil**: the dividend is shared wildly unevenly, and the averaged story hides that some live a fifteen-hour week while others are pushed into two jobs. The question is not 'are we busier' but 'who got freer, on whose labor.'"
+    },
+    {
+      "from": "aristotle",
+      "text": "**闲暇要用来做什么**：若真给你大把空闲，你会用它沉思、创造、深交，还是刷屏与空虚？社会是否该把『如何使用闲暇』当成一种需要教育的能力？",
+      "text_en": "**What is leisure for**: given ample free time, would you use it to contemplate, create, connect — or scroll into emptiness? Should society treat 'how to use leisure' as a capability that must be taught?"
+    },
+    {
+      "from": "gemini",
+      "text": "**人真的想要清闲吗**：当不再需要奋斗，毫无结构的自由带来的是安宁，还是焦虑与意义的真空？我们持续选择忙碌，会不会部分是因为无所事事本身令人难以承受？",
+      "text_en": "**Do we even want leisure**: when struggle is no longer required, does formless freedom bring peace, or anxiety and a vacuum of meaning? Do we keep choosing busyness partly because having nothing to do is itself unbearable?"
+    }
+  ]
+}

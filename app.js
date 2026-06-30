@@ -2,7 +2,15 @@
 (function () {
   "use strict";
 
-  var LANG = localStorage.getItem("ta_lang") === "en" ? "en" : "zh";
+  var LANG = /\.en\.html$/i.test(location.pathname) ? "en" : "zh";
+  function PG(n) { return n + (LANG === "en" ? ".en.html" : ".html"); }
+  function OTHER_LANG_URL() {
+    var p = location.pathname, np;
+    if (/\.en\.html$/i.test(p)) np = p.replace(/\.en\.html$/i, ".html");
+    else if (/\.html$/i.test(p)) np = p.replace(/\.html$/i, ".en.html");
+    else np = p.replace(/\/?$/, "/") + "index.en.html";
+    return np + location.search + location.hash;
+  }
   var UI = {
     zh: { topic: "本场议题", net: "净支持", aiPanel: "三方 AI 收尾", summary: "综述", insight: "洞察", advice: "给普通人的建议",
       stance: "本场立场", viewProfile: "点击看完整介绍 →", allProfiles: "全部人物图鉴", plainBadge: "悬停看白话",
@@ -150,11 +158,11 @@
       var c = tk(s.id);
       var reason = pick(s, "reason");
       var tip = (reason ? esc(reason) + "<br>" : "") + '<span style="color:#a29bfe">' + T("viewProfile") + "</span>";
-      return '<a class="seat" href="profiles.html#' + esc(s.id) + '">' + avatar(c, 24) +
+      return '<a class="seat" href="' + PG("profiles") + '#' + esc(s.id) + '">' + avatar(c, 24) +
         '<span class="nm" style="color:' + c.color + '">' + esc(nameOf(c)) + "</span>" +
         '<span class="tip seat-tip">' + tip + "</span></a>";
     }).join("");
-    return '<div class="lineup">' + seats + '<a class="seat-all" href="profiles.html">' +
+    return '<div class="lineup">' + seats + '<a class="seat-all" href="' + PG("profiles") + '">' +
       '<i class="ti ti-users"></i> ' + T("allProfiles") + "</a></div>";
   }
 
@@ -235,7 +243,7 @@
       b.id = "lang-toggle"; b.className = "lang-toggle";
       b.textContent = LANG === "zh" ? "EN" : "中";
       b.title = "中 / English";
-      b.onclick = function () { localStorage.setItem("ta_lang", LANG === "zh" ? "en" : "zh"); location.reload(); };
+      b.onclick = function () { location.href = OTHER_LANG_URL(); };
       var members = hdr.querySelector(".members");
       hdr.insertBefore(b, members);
     }

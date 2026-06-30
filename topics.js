@@ -1,7 +1,15 @@
 /* 议题索引页渲染器（中/EN 双语） */
 (function () {
   "use strict";
-  var LANG = localStorage.getItem("ta_lang") === "en" ? "en" : "zh";
+  var LANG = /\.en\.html$/i.test(location.pathname) ? "en" : "zh";
+  function PG(n) { return n + (LANG === "en" ? ".en.html" : ".html"); }
+  function OTHER_LANG_URL() {
+    var p = location.pathname, np;
+    if (/\.en\.html$/i.test(p)) np = p.replace(/\.en\.html$/i, ".html");
+    else if (/\.html$/i.test(p)) np = p.replace(/\.html$/i, ".en.html");
+    else np = p.replace(/\/?$/, "/") + "index.en.html";
+    return np + location.search + location.hash;
+  }
   var UI = {
     zh: { h1: "思想家圆桌辩论", tagline: "古今中外的思想家，就一个问题数轮辩论 · 三家 AI 收尾",
       profiles: "人物图鉴 →", ideas: "议题投票 →", session: "第 %N 场", panel: "位思想家 + 三方 AI 收尾", enter: "进入辩论 →",
@@ -43,7 +51,7 @@
   if (lt) {
     lt.textContent = LANG === "zh" ? "EN" : "中";
     lt.title = "中 / English";
-    lt.onclick = function () { localStorage.setItem("ta_lang", LANG === "zh" ? "en" : "zh"); location.reload(); };
+    lt.onclick = function () { location.href = OTHER_LANG_URL(); };
   }
 
   Promise.all([getJSON("thinkers.json"), getJSON("debates/index.json")])
@@ -66,7 +74,7 @@
           return '<span class="av" style="background:' + c.color + ';color:' + c.fg + '">' + esc(g) + "</span>";
         }).join("");
         var n = (d.participants || []).length;
-        return '<a class="topic-card" href="debate.html?d=' + esc(d.id) + '">' +
+        return '<a class="topic-card" href="' + PG("debate") + '?d=' + esc(d.id) + '">' +
           '<div class="idx">' + esc(T("session").replace("%N", d.__n)) + "</div>" +
           '<div class="q">' + esc(pick(d, "question")) + "</div>" +
           '<div class="seats">' + seats + '<span class="more">' + n + esc(T("panel")) + "</span></div>" +

@@ -1,7 +1,15 @@
 /* 议题投票页 · 中/EN 双语 · giscus(GitHub Discussions) 投票+评论 */
 (function () {
   "use strict";
-  var LANG = localStorage.getItem("ta_lang") === "en" ? "en" : "zh";
+  var LANG = /\.en\.html$/i.test(location.pathname) ? "en" : "zh";
+  function PG(n) { return n + (LANG === "en" ? ".en.html" : ".html"); }
+  function OTHER_LANG_URL() {
+    var p = location.pathname, np;
+    if (/\.en\.html$/i.test(p)) np = p.replace(/\.en\.html$/i, ".html");
+    else if (/\.html$/i.test(p)) np = p.replace(/\.html$/i, ".en.html");
+    else np = p.replace(/\/?$/, "/") + "index.en.html";
+    return np + location.search + location.hash;
+  }
   var UI = {
     zh: { title: "议题投票 · 思想家圆桌辩论", crumb: "议题投票", h1: "议题投票",
       sub: "想看哪场辩论？给议题点赞，净票最高的下一场就开。",
@@ -103,7 +111,7 @@
     var topId = maxVotes > 0 ? cands[0].id : null;
     var done = (data.debated || []).slice();
     function doneCard(d) {
-      return '<a class="done-card" href="debate.html?d=' + esc(d.id) + '">' +
+      return '<a class="done-card" href="' + PG("debate") + '?d=' + esc(d.id) + '">' +
         '<i class="ti ti-circle-check dcheck"></i>' +
         '<span class="dq">' + esc(pick(d, "q")) + "</span>" +
         '<span class="dgo">' + T("enter") + "</span></a>";
@@ -163,7 +171,7 @@
   if (lt) {
     lt.textContent = LANG === "zh" ? "EN" : "中";
     lt.title = "中 / English";
-    lt.onclick = function () { localStorage.setItem("ta_lang", LANG === "zh" ? "en" : "zh"); location.reload(); };
+    lt.onclick = function () { location.href = OTHER_LANG_URL(); };
   }
 
   getJSON("ideas.json").then(render).catch(function (e) {

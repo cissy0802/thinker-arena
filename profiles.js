@@ -1,7 +1,15 @@
 /* 人物图鉴渲染器 · 按类别分页（中/EN 双语） */
 (function () {
   "use strict";
-  var LANG = localStorage.getItem("ta_lang") === "en" ? "en" : "zh";
+  var LANG = /\.en\.html$/i.test(location.pathname) ? "en" : "zh";
+  function PG(n) { return n + (LANG === "en" ? ".en.html" : ".html"); }
+  function OTHER_LANG_URL() {
+    var p = location.pathname, np;
+    if (/\.en\.html$/i.test(p)) np = p.replace(/\.en\.html$/i, ".html");
+    else if (/\.html$/i.test(p)) np = p.replace(/\.html$/i, ".en.html");
+    else np = p.replace(/\/?$/, "/") + "index.en.html";
+    return np + location.search + location.hash;
+  }
   var UI = {
     zh: { title: "人物图鉴 · 思想家圆桌辩论", crumb: "人物图鉴", h1: "人物图鉴",
       sub: "圆桌上每一位思想家，深入认识一下", bio: "生平", ideas: "主要思想", assess: "他人评价",
@@ -92,7 +100,7 @@
     var html = '<div class="cat-menu">' + ORDER.map(function (cat) {
       var members = GROUPS[cat];
       var avs = members.slice(0, 7).map(function (c) { return av(c, 26); }).join("");
-      return '<a class="cat-card" href="profiles.html?cat=' + encodeURIComponent(cat) + '">' +
+      return '<a class="cat-card" href="' + PG("profiles") + '?cat=' + encodeURIComponent(cat) + '">' +
         '<div class="cname">' + esc(catLabel(cat)) + '<span class="ccount">' + T("count").replace("%N", members.length) + "</span></div>" +
         '<div class="cavs">' + avs + "</div></a>";
     }).join("") + "</div>";
@@ -102,7 +110,7 @@
   function renderCategory(cat, scrollId) {
     var members = GROUPS[cat] || [];
     var nav = '<div class="cat-nav">' + ORDER.map(function (c) {
-      return '<a class="' + (c === cat ? "cur" : "") + '" href="profiles.html?cat=' + encodeURIComponent(c) + '">' + esc(catLabel(c)) + "</a>";
+      return '<a class="' + (c === cat ? "cur" : "") + '" href="' + PG("profiles") + '?cat=' + encodeURIComponent(c) + '">' + esc(catLabel(c)) + "</a>";
     }).join("") + "</div>";
     var chips = '<div class="index">' + members.map(function (c) {
       return '<a class="chip" href="#' + esc(c.id) + '">' + av(c, 22) + '<span class="nm">' + esc(nameOf(c)) + "</span></a>";
@@ -116,7 +124,7 @@
       }
     }).join("");
     document.getElementById("content").innerHTML =
-      '<a class="back-link" href="profiles.html"><i class="ti ti-chevron-left"></i>' + T("allCats") + "</a>" +
+      '<a class="back-link" href="' + PG("profiles") + '"><i class="ti ti-chevron-left"></i>' + T("allCats") + "</a>" +
       '<div class="cat-title">' + esc(catLabel(cat)) + '</div>' + nav + chips + cards;
     if (scrollId) {
       var t = document.getElementById(scrollId);
@@ -133,7 +141,7 @@
   if (lt) {
     lt.textContent = LANG === "zh" ? "EN" : "中";
     lt.title = "中 / English";
-    lt.onclick = function () { localStorage.setItem("ta_lang", LANG === "zh" ? "en" : "zh"); location.reload(); };
+    lt.onclick = function () { location.href = OTHER_LANG_URL(); };
   }
 
   Promise.all([getJSON("thinkers.json"), getJSON("profiles.json")])

@@ -44,7 +44,7 @@ html, body {
   text-decoration: none; font-size: 13px; font-weight: 600; white-space: nowrap;
   background: var(--bg-pill); border: 1px solid var(--line); border-radius: 8px; padding: 4px 10px 4px 7px;
 }
-.chan-header .back i { font-size: 18px; }
+.chan-header .back i { font-size: 14px; }
 .chan-header .back:hover { color: #fff; border-color: var(--blurple); background: var(--blurple); }
 .chan-header .hash { color: var(--txt-muted); font-size: 22px; }
 .chan-header .title { color: #F2F3F5; font-size: 16px; font-weight: 500; }

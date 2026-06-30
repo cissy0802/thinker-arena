@@ -1,1116 +1,1209 @@
 {
- "id": "job-hopping",
- "question": "该频繁跳槽，还是在一处深耕固守？",
- "question_en": "Should you job-hop often, or stay put and dig deep in one place?",
- "date": "2026-06-30",
- "participants": [
-  "taleb",
-  "naval",
-  "munger",
-  "wangyangming",
-  "huineng",
-  "fromm",
-  "damasio",
-  "beauvoir",
-  "weber"
- ],
- "casting": [
-  {
-   "id": "taleb",
-   "reason": "全场最锋利的『可选性』辩护者。他把『跳还是留』从忠诚问题改写成脆弱性问题：屠夫与火鸡之喻直指『把命运押在单一雇主上』的致命单点。他主张深耕手艺、却警惕深耕依附，用杠铃策略既守安全垫、又留高回报的试错口，给全场定下『先别被某一点决定生死』的硬底线。",
-   "reason_en": "The floor's sharpest defender of optionality. He rewrites 'hop or stay' from a question of loyalty into one of fragility: the butcher-and-turkey image points straight at the lethal single point of staking your fate on one employer. He champions depth in craft while distrusting depth in dependence, using a barbell to keep a cushion and a high-upside slot for experiments — setting the hard floor that no single point should decide your life or death."
-  },
-  {
-   "id": "naval",
-   "reason": "把争论从『去/留』升维到『学习与所有权』。他的『特定知识＋杠杆』提供了第三条路：技能上深耕到不可替代，平台上敏捷去追逐能复利的杠杆与股权。他既反对为薪水乱跳，也反对为安稳死守，是全场最务实的『分层』方案提供者。",
-   "reason_en": "He lifts the argument from 'go/stay' to 'learning and ownership.' His 'specific knowledge + leverage' offers a third path: go deep on skill to the point of irreplaceability, stay nimble on platform to chase compoundable leverage and equity. Opposing both hopping for salary and clinging for safety, he is the floor's most pragmatic supplier of a layered answer."
-  },
-  {
-   "id": "munger",
-   "reason": "『复利』与『能力圈』的代言人，深耕固守一方的压舱石。他把声誉、信任、对一门生意的真懂都视作可复利、偷不走的资产，主张选对池塘后用一辈子的耐心让它结晶；同时以『别在烂池塘泡沉没成本』守住底线，使『留』不至沦为愚忠。",
-   "reason_en": "The voice of compounding and the circle of competence, ballast for the dig-deep-and-stay camp. He treats reputation, trust, and real understanding of a business as compoundable, unstealable assets, urging a lifetime of patience to crystallize them once you've picked the right pond — while guarding against 'soaking in sunk cost in a rotten pond,' so that staying never collapses into blind loyalty."
-  },
-  {
-   "id": "wangyangming",
-   "reason": "心学一席，把全场向外的算计扳回向内。『心外无理、事上磨练』直指见异思迁的根在心未定；『致良知』则主张就眼前差事把私欲格去，使真功夫从此处长出。他为『深耕』给出最内在的理由：定的不是岗位，是心。",
-   "reason_en": "The seat of the learning of the mind, pulling the floor's outward calculation back inward. 'No principle outside the mind; one is polished amid affairs' points at the root of restlessness in an unsettled heart; 'extending innate knowing' urges stripping selfish desire on the very task before you so that real skill grows there. He gives depth its most internal rationale: what you settle is not the post but the heart."
-  },
-  {
-   "id": "huineng",
-   "reason": "禅宗一席，最彻底地拆掉『更好去处』的执念。『本来无一物』『应无所住而生其心』点破：挑担子的是同一个你，换公司换不掉烦恼；但他同样不许把『死守』当道，主张于去留两端皆不取不舍。他让全场看见：真正要安顿的是那颗攀缘的心。",
-   "reason_en": "The Chan seat, most thoroughly dismantling the fixation on a 'better place.' 'Fundamentally not a single thing' and 'let the mind arise without abiding' make plain that the one carrying the load is the same you — changing companies can't change affliction; yet he equally forbids treating 'clinging to one spot' as the Way, urging neither grasping nor rejecting at both ends. He lets the floor see that what truly needs settling is the grasping mind."
-  },
-  {
-   "id": "fromm",
-   "reason": "最尖锐的批判者，质疑题目本身。他指出『去还是留』之所以成了人生大哉问，是因为人把自己活成了待价而沽的商品——『市场型人格』与『异化』。他把标尺从『占有』换成『存在』：别问工作给你多少，问它让你成为谁。为全场提供了不同于个人算计的整体框架。",
-   "reason_en": "The most incisive critic, questioning the question itself. He argues that 'go or stay' became life's great riddle because people live as a commodity for sale — the 'marketing character' and 'alienation.' He swaps the yardstick from having to being: don't ask how much a job gives you, ask who it makes you become — offering the floor a holistic frame beyond personal calculation."
-  },
-  {
-   "id": "damasio",
-   "reason": "脑科学一席，把决策从表格拉回身体。『躯体标记假说』论证：纯靠理智列利弊的人反而决断不了，身体的信号才是演化校准的顾问。他反对身心对立，主张让理智与身体彼此校对——为『该听谁』之争提供了神经科学的实证地基。",
-   "reason_en": "The brain-science seat, pulling decision back from the spreadsheet to the body. The somatic-marker hypothesis shows that those relying on pure reason to list pros and cons actually can't decide — the body's signals are an evolution-calibrated advisor. Opposing mind-body dualism, he urges reason and body to cross-check each other, giving the 'whom to listen to' dispute an empirical, neuroscientific footing."
-  },
-  {
-   "id": "beauvoir",
-   "reason": "存在主义一席，为『自由地选』立法。她区分出于热爱的『超越』与出于恐惧的『自欺』，戳破把安稳美化成忠诚的体面话术；又以『处境中的自由』提醒：背着房贷与照护责任的人，离开的代价并不相等。她让全场的答案落回每个人具体而不均等的处境。",
-   "reason_en": "The existentialist seat, legislating for 'choosing freely.' She distinguishes the transcendence of staying out of love from the bad faith of staying out of fear, puncturing the respectable rhetoric that dresses safety up as loyalty; and with 'situated freedom' she reminds us that for those carrying a mortgage and care duties, the cost of leaving is not equal. She returns the floor's answer to each person's concrete, unequal situation."
-  },
-  {
-   "id": "weber",
-   "reason": "社会学一席，把个人焦虑放回时代结构。『铁笼』与『祛魅』解释了为何现代职业普遍不再承载意义，逼人横向跳找；『职业 vs 志业』则给出更深的提问。他反对把系统性问题全推给个人心态，提醒：你的不安，可能是制度的设计，而非性格的缺陷。",
-   "reason_en": "The sociology seat, placing personal anxiety back into the structure of the age. The 'iron cage' and 'disenchantment' explain why the modern career so widely no longer carries meaning, pushing people to hop sideways; 'job vs vocation' poses the deeper question. He resists shoving a systemic problem entirely onto individual mindset, reminding us that your unease may be the design of an institution, not a flaw of character."
-  }
- ],
- "posts": [
-  {
-   "id": "p01",
-   "round": 1,
-   "thinker": "taleb",
-   "reply_to": null,
-   "text": "先说个屠夫与火鸡的故事。火鸡被喂了一千天，每喂一次就更确信主人爱它——直到感恩节前那天。**把整个生涯押在一家公司，你就是那只火鸡：它优化你的日子，写在它的日历上，从不写在你的。**所以我既不喊『跳』也不喊『留』，我只要可选性：随时有走的能力，哪怕你最后没走。用杠铃策略安排职业——一头是饿不死的安全垫，一头是敢下的高风险注，掐掉中间那段不上不下的温水。别去预测哪份工作最好，去让自己在好运降临时接得住、霉运砸来时死不了。",
-   "text_en": "Let me start with the butcher and the turkey. The turkey is fed for a thousand days, and each feeding makes it surer the farmer loves it — until the day before Thanksgiving. **Stake your whole career on one company and you are that turkey: the day it optimizes you away is written on its calendar, never on yours.** So I shout neither 'leave' nor 'stay' — I want optionality: the standing ability to walk, even if in the end you don't. Arrange your career as a barbell strategy — one end a cushion you can't starve under, the other a high-risk bet you dare to make, with the lukewarm middle cut out. Don't predict which job is best; make yourself able to catch good luck when it lands and survive bad luck when it strikes.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {
-    "可选性": "optionality（可选性）：塔勒布的核心概念，指保留多种未来选择、且坏选项代价有限、好选项收益开放——在不确定中，拥有选择本身就是资产。",
-    "杠铃策略": "barbell strategy（杠铃策略）：把资源摆到极保守与极进取两端、避开中庸，使你既不被风险摧毁，又能抓住巨大的上行。"
-   },
-   "glossary_en": {
-    "optionality": "optionality: Taleb's core idea — keeping many future options open, where the bad ones cost little and the good ones pay off without limit; under uncertainty, having choices is itself an asset.",
-    "barbell strategy": "barbell strategy: placing resources at the extreme-safe and extreme-aggressive ends while avoiding the middle, so you are neither destroyed by risk nor cut off from large upside."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "naval"
-    ],
-    "轻微赞同": [
-     "beauvoir",
-     "weber"
-    ],
-    "轻微反对": [
-     "munger"
-    ],
-    "强烈反对": [
-     "wangyangming"
-    ],
-    "疑惑": [
-     "huineng"
-    ]
-   }
-  },
-  {
-   "id": "p02",
-   "round": 1,
-   "thinker": "naval",
-   "reply_to": null,
-   "text": "塔勒布只说对一半。乱跳的人和死守的人，常常输给同一件事：他们都没在积累**特定知识——那种学校教不了、外包不掉、只能靠你独特的好奇心和经历长出来的本事。**特定知识跟着你走，不跟公司走。所以我的答案是分层的：技能上要深耕，深到别人离不开你；平台上要敏捷，哪里给你杠杆、给你股权、给你能长期复利的同伴，就去哪里。为薪水跳来跳去是穷人思维——薪水是线性的。要的是杠杆：代码、内容、资本、品牌，让你睡觉时还在挣钱。和能长期共事的好人，玩长期的游戏。",
-   "text_en": "Taleb is only half right. The reckless hopper and the white-knuckle stayer often lose to the same thing: neither is accumulating **specific knowledge — the kind no school can teach and no one can outsource, grown only from your own curiosity and lived experience.** Specific knowledge follows you, not the company. So my answer is layered: go deep on skill, deep enough that people can't do without you; stay nimble on platform — go wherever gives you leverage, equity, and partners you can compound with over the long run. Hopping for salary is poor-man thinking — salary is linear. What you want is leverage: code, media, capital, brand, working for you while you sleep. Play long-term games with long-term people.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {
-    "特定知识": "specific knowledge（特定知识）：纳瓦尔指那种无法批量培训、只能靠个人天性、热爱与亲身经历积累的独特能力；它难被替代，也难被外包给 AI。",
-    "杠杆": "leverage（杠杆）：能放大同一份努力产出的工具——劳动力、资本，以及『复制边际成本为零』的代码与媒体；纳瓦尔认为新财富主要靠后者创造。"
-   },
-   "glossary_en": {
-    "specific knowledge": "specific knowledge: Naval's term for a unique capability that can't be mass-trained and is built only from your nature, passion, and lived experience — hard to replace and hard to outsource to AI.",
-    "leverage": "leverage: tools that multiply the output of the same effort — labor, capital, and 'zero-marginal-cost-to-copy' code and media; Naval holds that new wealth is created mostly through the latter."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "taleb"
-    ],
-    "轻微赞同": [
-     "munger",
-     "damasio"
-    ],
-    "轻微反对": [
-     "fromm"
-    ],
-    "强烈反对": [
-     "weber"
-    ],
-    "中立": [
-     "beauvoir"
-    ]
-   }
-  },
-  {
-   "id": "p03",
-   "round": 1,
-   "thinker": "munger",
-   "reply_to": null,
-   "text": "我活了一辈子，最大的钱都不是靠聪明赚的，是靠坐得住。**复利是世界第八大奇迹，而频繁跳槽是复利的头号杀手——每换一次地方，你的人脉、信誉、对一门生意的深层理解，几乎都要清零重来。**沃伦和我在一张桌子前坐了五十年，财富才滚成今天这样。当然，前提是你得待在对的池塘——能力圈之内、水还干净的池塘里钓鱼。待在一家正在烂掉、或你根本学不到东西的公司，那不叫深耕，叫泡在沉没成本里洗澡。所以：先选对池塘，再用一辈子的耐心，让信任和理解慢慢结晶。",
-   "text_en": "I've lived a long life, and the biggest money was never made by being clever — it was made by sitting still. **Compounding is the eighth wonder of the world, and frequent job-hopping is its number-one killer — every time you switch, your network, your reputation, your deep understanding of a business nearly reset to zero.** Warren and I sat at one table for fifty years, and only then did the wealth roll up to what it is. Of course, the premise is that you must sit in the right pond — fishing within your circle of competence, in water still clean. Staying at a company that's rotting, or where you learn nothing, isn't digging deep; it's soaking in a bath of sunk cost. So: pick the right pond first, then let a lifetime of patience crystallize trust and understanding.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {
-    "复利": "compounding（复利）：收益不断在本金之上再生收益、随时间指数累积的力量；芒格把声誉、人脉与知识也视为可复利的资产，故反对频繁清零重来。",
-    "能力圈": "circle of competence（能力圈）：你真正懂、且懂得比多数人深的领域；芒格主张只在圈内下注——圈的大小不重要，知道边界在哪才重要。"
-   },
-   "glossary_en": {
-    "Compounding": "Compounding: the force by which returns keep generating further returns on top of the principal, accumulating exponentially over time; Munger treats reputation, relationships, and knowledge as compoundable assets too, hence his aversion to repeatedly resetting to zero.",
-    "circle of competence": "circle of competence: the domain you genuinely understand, and understand more deeply than most; Munger insists on betting only inside it — the circle's size doesn't matter, knowing where its edge lies does."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "wangyangming"
-    ],
-    "轻微赞同": [
-     "weber",
-     "naval"
-    ],
-    "轻微反对": [
-     "taleb"
-    ],
-    "强烈反对": [
-     "beauvoir"
-    ],
-    "疑惑": [
-     "fromm"
-    ]
-   }
-  },
-  {
-   "id": "p04",
-   "round": 1,
-   "thinker": "wangyangming",
-   "reply_to": null,
-   "text": "诸君争『去』与『留』，皆向外觅理也。某尝言：**心外无理，事上磨练而已。**人须在事上磨，方立得住；离了具体的差事去谈成长，如离水而学泳，终不得力。今人见异思迁，非位之不善，是其心未定、良知为外物所蔽。**致良知**者，不在择一清贵之职，而在就你眼前这桩事，把私欲一层层格去，使良知透出来。差事是块磨刀石，不是枷锁。若只逐厚禄美名而迁，纵踏遍九州，此心依旧浮荡。",
-   "text_en": "Gentlemen, you argue 'go' or 'stay,' yet all of you seek principle outside. I have said: **there is no principle outside the mind; one is only polished amid actual affairs.** A man must be ground upon real tasks before he can stand firm; to speak of growth apart from the work in front of you is to learn swimming away from water — it never takes hold. When people today crave the next thing, the fault is not the post but a heart not yet settled, an innate knowing veiled by outer things. To extend innate knowing is not to pick some genteel, easy office, but to take the very task before you and strip away selfish desire layer by layer until that knowing shines through. The task is a whetstone, not a cage. If you move only chasing fatter pay and finer fame, though you walk through every province, this heart stays adrift.",
-   "vernacular": "各位争论该『走』还是该『留』，其实都是在向外面去找道理。我说过：**道理不在心外，只能在具体做事中打磨自己。**人一定要在做事里磨炼，才站得稳；离开手头的差事去谈成长，就像离开水学游泳，使不上劲。今天的人见异思迁，不是岗位不好，是他的心没定下来、良知被外物遮住了。所谓**致良知**，不是去挑一个清闲体面的职位，而是就着你眼前这桩事，把私心一层层去掉，让良知显露出来。差事是磨刀石，不是枷锁。如果只为更高的薪水、更好的名声而跳，就算走遍天下，这颗心还是飘的。",
-   "vernacular_en": "",
-   "glossary": {
-    "心外无理": "xin wai wu li（心外无理）：王阳明心学命题，谓天理不在心外的事物上、而本具于人心；故向外攀求一个『更好的去处』，是误把理放到了外面。",
-    "致良知": "extending innate knowing（致良知）：王阳明心学纲领，指把人本具、能辨善恶的良知在每件具体事上推扩、落实到底；不是空想，而是在做事中去蔽存真。"
-   },
-   "glossary_en": {
-    "there is no principle outside the mind": "xin wai wu li: Wang Yangming's thesis that moral principle does not reside in external things but is innate to the mind; to chase a 'better place' outside is to mistakenly locate principle out there.",
-    "extend innate knowing": "extending innate knowing (zhi liangzhi): Wang Yangming's program of taking the innate moral knowing everyone possesses and pushing it into full practice on each concrete task — not abstract speculation, but clearing away delusion through action."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "huineng",
-     "munger"
-    ],
-    "轻微赞同": [
-     "fromm"
-    ],
-    "轻微反对": [
-     "naval"
-    ],
-    "强烈反对": [
-     "taleb"
-    ],
-    "疑惑": [
-     "damasio",
-     "beauvoir"
-    ]
-   }
-  },
-  {
-   "id": "p05",
-   "round": 1,
-   "thinker": "huineng",
-   "reply_to": null,
-   "text": "诸仁者向外寻一个『好去处』，正是病根。**本来无一物，何处惹尘埃？去与留，皆是尘埃，是你这颗攀缘心自己扬起来的。**菩提只向心觅，不从外求。你以为换个公司便换了境界，殊不知挑担子的是同一个你，烦恼也原封不动跟去。然亦不可执『守』为道——死守一处而心有挂碍，与乱跑何异？我只道：饥来吃饭，困来打眠，于此处见性，便处处是道场；不见性，纵入名山，亦是迷人。**应无所住而生其心**：不黏着去留，随处作主。",
-   "text_en": "Worthy ones, to seek a 'better place' outside is the very root of the disease. **Fundamentally there is not a single thing — where could dust alight? Going and staying are both dust, kicked up by this grasping mind of yours.** Enlightenment is sought only in the mind, never outside it. You think changing companies changes your state, not seeing that the one carrying the load is the same you, your afflictions following along untouched. Yet do not seize 'staying' as the Way either — to cling to one place with a heart full of hindrance, how does it differ from running about? I say only this: when hungry, eat; when tired, sleep; see your nature here, and everywhere is a place of practice; miss your nature, and even hidden in famed mountains you are a lost man. **Let the mind arise without abiding** anywhere — unstuck to going or staying, your own master wherever you are.",
-   "vernacular": "各位向外去找一个『更好的去处』，这正是毛病的根。**本来什么都没有，哪里惹得上尘埃？走也好、留也好，都是尘埃，是你这颗到处攀附的心自己扬起来的。**觉悟只能在心里找，不在外面。你以为换家公司就换了境界，其实挑担子的还是同一个你，烦恼原封不动跟着走。但也别把『死守一处』当成道——守在一个地方而心里全是牵挂，跟乱跑有什么区别？我只说：饿了吃饭，困了睡觉，在当下这里见到本性，就处处都是修行的道场；见不到本性，就算躲进名山，也还是个迷路的人。**心不停留在任何一处，却照样生起来做事**：不黏着走还是留，到哪儿都做得了自己的主。",
-   "vernacular_en": "",
-   "glossary": {
-    "本来无一物": "benlai wu yi wu（本来无一物）：慧能名偈『菩提本无树，明镜亦非台，本来无一物，何处惹尘埃』，谓自性本空、无可执取；执着去留得失，皆是自心妄起的尘埃。",
-    "应无所住而生其心": "should arise without abiding（应无所住而生其心）：《金刚经》名句，谓心不黏着、不停驻于任何对象，却仍能起用做事——慧能由此悟入，主张于一切处不取不舍而自在作主。"
-   },
-   "glossary_en": {
-    "there is not a single thing": "benlai wu yi wu: from Huineng's famed verse — 'There is no Bodhi-tree, nor stand of a mirror bright; fundamentally there is not a single thing, so where could dust alight?' Self-nature is originally empty and graspless; clinging to going-or-staying is dust the mind itself stirs up.",
-    "arise without abiding": "from the Diamond Sutra ('the mind should arise without abiding in anything'): the mind functions and acts while resting on no object — Huineng's gate of awakening, being one's own master everywhere without grasping or rejecting."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "wangyangming"
-    ],
-    "轻微赞同": [
-     "fromm",
-     "munger"
-    ],
-    "中立": [
-     "naval"
-    ],
-    "轻微反对": [
-     "damasio"
-    ],
-    "疑惑": [
-     "taleb",
-     "weber"
-    ]
-   }
-  },
-  {
-   "id": "p06",
-   "round": 1,
-   "thinker": "fromm",
-   "reply_to": null,
-   "text": "我想问一个被你们跳过的问题：是谁让『去还是留』成了人生大哉问？是市场。**你们都把自己当成一件待价而沽的商品——盘算行情、包装简历、追逐最高出价，这正是我说的市场型人格：人把自己活成了产品。**这是异化：你与你的劳动、你与你自己，断了。在『占有』模式里，你问『我能从这份工作得到什么』；在『存在』模式里，你问『我在这件事里成为了谁、爱不爱我正在做的』。换公司换不掉异化——把自己当工具卖，到哪都是工具。先把『存在』找回来，去留才有意义。",
-   "text_en": "Let me ask the question you've all skipped: who made 'leave or stay' into life's great riddle? The market did. **You all treat yourselves as a commodity for sale — reading the going rate, packaging the résumé, chasing the highest bidder; this is what I call the marketing character: a person living as a product.** This is alienation: the rupture between you and your labor, between you and yourself. In the mode of having you ask, 'what can I get from this job?'; in the mode of being you ask, 'who am I becoming in this work, and do I love what I do?' Changing companies cannot change alienation — sell yourself as a tool and you're a tool everywhere. Recover being first; only then does going or staying mean anything.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {
-    "市场型人格": "marketing character（市场型人格）：弗洛姆指现代人把自我当成可在市场上交换的商品来体验和包装，价值随『行情』浮动、随他人评价定价，从而与真实自我疏离。",
-    "异化": "alienation（异化）：源自马克思、经弗洛姆发展，指人与自己的劳动、产品乃至自身本质相分离，活得像被外力支配的物，而非自主的人。"
-   },
-   "glossary_en": {
-    "marketing character": "marketing character: Fromm's term for the modern person who experiences and packages the self as a commodity to be exchanged on the market, its value floating with the 'going rate' and others' appraisal — estranged from the real self.",
-    "alienation": "alienation: from Marx, developed by Fromm — the separation of a person from their labor, their product, and even their own essence, living as a thing driven by outside forces rather than an autonomous human."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "beauvoir",
-     "weber"
-    ],
-    "轻微赞同": [
-     "huineng",
-     "wangyangming"
-    ],
-    "轻微反对": [
-     "naval"
-    ],
-    "强烈反对": [
-     "munger"
-    ],
-    "疑惑": [
-     "taleb"
-    ]
-   }
-  },
-  {
-   "id": "p07",
-   "round": 1,
-   "thinker": "damasio",
-   "reply_to": null,
-   "text": "诸位算得很热闹——薪水、杠杆、复利、可选性，全是表格里的数字。但人不是这样做决定的。**我研究了几十年大脑：那些前额叶受损、情绪回路断掉的病人，智力完好，列得出每个选项的利弊，却连换不换工作都决定不了——因为身体不再给信号。**我们靠躯体标记决断：想到某份差事胸口发闷、还是眼睛发亮，是你的神经系统在替你预演后果。所谓『纯理性选择』，底层从来是情绪。所以问自己：周一早晨想到要去上班，你的身体是松的还是紧的？那比任何职业规划表都诚实。",
-   "text_en": "You're all calculating away — pay, leverage, compounding, optionality, all numbers in a spreadsheet. But that is not how humans decide. **I spent decades on the brain: patients with damaged prefrontal cortex and severed emotional circuits keep their intelligence intact, can list every pro and con, yet cannot decide even whether to change jobs — because the body no longer signals.** We decide by somatic markers: a tightening in the chest or a brightening of the eyes at the thought of a task is your nervous system pre-playing the consequences for you. 'Pure rational choice' is, at bottom, always emotional. So ask yourself: Monday morning, at the thought of going in, is your body loose or clenched? That is more honest than any career plan.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {
-    "躯体标记": "somatic marker（躯体标记）：达马西奥提出的假说，指身体（内脏、肌肉、情绪）对各选项预先给出的生理信号，像在脑中标好『好/坏』，帮我们在复杂决策中快速取舍；缺了它，纯逻辑反而瘫痪。"
-   },
-   "glossary_en": {
-    "somatic markers": "somatic markers: Damasio's hypothesis that the body (viscera, muscles, emotion) issues advance physiological signals about options, tagging them 'good/bad' in the brain to help us choose quickly in complex decisions; without them, pure logic actually stalls."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "fromm"
-    ],
-    "轻微赞同": [
-     "naval",
-     "beauvoir",
-     "taleb"
-    ],
-    "中立": [
-     "munger"
-    ],
-    "轻微反对": [
-     "huineng"
-    ],
-    "疑惑": [
-     "wangyangming"
-    ]
-   }
-  },
-  {
-   "id": "p08",
-   "round": 1,
-   "thinker": "beauvoir",
-   "reply_to": null,
-   "text": "我要替『走』说一句，但不是塔勒布那种算计的走。**人不是被给定的，而是不断选择成为的；为了安稳而死守一个让你萎缩的位置，是自欺——你假装『我没得选』，好逃避选择的重负。**待在原地若出于热爱与计划，是超越；若出于恐惧、惯性、怕丢了工龄和头衔，那是把自己活成内在性，活成一件家具。但我也不浪漫化『裸辞追梦』：自由永远是处境中的自由。背着房贷、签证、要养的孩子和病人，离开的代价对每个人并不相等。所以真问题不是『走不走』，而是：你此刻的停留，是你选的，还是你不敢不停？",
-   "text_en": "Let me speak for 'leaving' — but not Taleb's calculating kind. **A human being is not given but continually chosen into being; to cling, for safety's sake, to a post that shrinks you is bad faith — you pretend 'I have no choice' to flee the weight of choosing.** To stay out of love and design is transcendence; to stay out of fear, inertia, dread of losing seniority and a title, is to live yourself as immanence, as a piece of furniture. Yet I won't romanticize quitting to chase a dream: freedom is always situated freedom. With a mortgage, a visa, children and a sick parent to keep, the cost of leaving is not equal for all. So the real question is not 'go or stay,' but: is your staying, right now, chosen — or is it that you dare not do otherwise?",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {
-    "自欺": "mauvaise foi（自欺）：萨特与波伏娃的概念，指人为逃避自由与责任，骗自己『别无选择』、把本可改变的处境当成命定，从而活得不真诚。",
-    "处境中的自由": "situated freedom（处境中的自由）：波伏娃强调自由不是悬空抽象的，而总在具体的身体、阶级、性别、责任的限制中行使——既反宿命，也反对无视约束的空谈自由。"
-   },
-   "glossary_en": {
-    "bad faith": "mauvaise foi (bad faith): Sartre and Beauvoir's concept — to flee freedom and responsibility by lying to oneself that 'there is no choice,' treating a changeable situation as fated, and so living inauthentically.",
-    "situated freedom": "situated freedom: Beauvoir's insistence that freedom is never abstract and weightless but always exercised within the limits of a concrete body, class, gender, and duty — against both fatalism and the empty talk of freedom that ignores constraint."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "fromm",
-     "taleb"
-    ],
-    "轻微赞同": [
-     "weber",
-     "damasio"
-    ],
-    "中立": [
-     "naval"
-    ],
-    "轻微反对": [
-     "munger"
-    ],
-    "疑惑": [
-     "wangyangming",
-     "huineng"
-    ]
-   }
-  },
-  {
-   "id": "p09",
-   "round": 1,
-   "thinker": "weber",
-   "reply_to": null,
-   "text": "你们都默认人该有一份『天职』——一件值得托付一生的事业。可我研究的现代世界，恰恰在抽空这个前提。**资本主义把工作变成铁笼：高效、可量化、可替换，却也祛魅了——它不再回答『为何而活』，只回答『如何更划算』。**人之所以频繁跳槽，常不是因为浮躁，而是因为现代职业本就不再承载意义，于是只好向横向去找：换地方，换 title，换更高的薪。新教徒在劳作里看见神的呼召，今人在 KPI 里只看见 KPI。所以别只问『跳不跳』。先问：你做的这件事，对你究竟是糊口的职业，还是召唤你的志业？这决定了答案的全部分量。",
-   "text_en": "You all assume a person ought to have a 'calling' — one undertaking worthy of a whole life. But the modern world I studied is precisely emptying out that premise. **Capitalism turns work into an iron cage: efficient, quantifiable, replaceable — and disenchanted; it no longer answers 'what to live for,' only 'what pays better.'** People hop jobs often not from restlessness but because the modern career no longer carries meaning, so they search sideways instead: new place, new title, higher pay. The Puritan saw God's summons in his labor; today's worker sees in the KPI only the KPI. So don't ask merely 'hop or not.' Ask first: this thing you do — is it, for you, a job that feeds you, or a vocation that calls you? That decides the whole weight of the answer.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {
-    "铁笼": "iron cage（铁笼）：韦伯之喻，指现代理性化的经济与官僚秩序像一具坚硬外壳把人罩住，效率至上、身不由己；最初出于信仰的劳作伦理，最终沦为冰冷的制度。",
-    "祛魅": "disenchantment（祛魅）：韦伯指现代化进程中，世界被理性与科学解释、神圣与意义退场，万物可计算却不再神秘，人因此面临意义的真空。"
-   },
-   "glossary_en": {
-    "iron cage": "iron cage: Weber's image of the rationalized modern economic and bureaucratic order as a hard shell enclosing people — efficiency above all, no room to maneuver; a work ethic born of faith hardens into a cold institution.",
-    "disenchanted": "disenchanted (Entzauberung): Weber's term for how modernization explains the world through reason and science, retiring the sacred and the meaningful — everything becomes calculable yet no longer mysterious, leaving a vacuum of meaning."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "fromm",
-     "beauvoir"
-    ],
-    "轻微赞同": [
-     "munger",
-     "huineng"
-    ],
-    "中立": [
-     "damasio"
-    ],
-    "轻微反对": [
-     "naval"
-    ],
-    "疑惑": [
-     "taleb"
-    ]
-   }
-  },
-  {
-   "id": "p10",
-   "round": 2,
-   "thinker": "taleb",
-   "reply_to": "p03",
-   "text": "@芒格 你的复利很美，但你只算了顺风那条路径。**复利的前提是你活得够久、本金不归零——可一次行业塌方、一次站错队、一次被你深耕的公司一脚踢开，复利立刻变成复『亏』，五十年信任一夜清零。**你和巴菲特坐五十年，是幸存者偏差在说话：那些同样死守、却押错池塘的人，没机会上台讲话。我不反对深耕一门手艺，我反对深耕一个你无法掌控、随时能优化掉你的雇主。深的应是技能，浅的应是依附。让自己反脆弱：波动来时，别人受伤，你受益。",
-   "text_en": "@munger Your compounding is beautiful, but you've only computed the tailwind path. **Compounding assumes you live long enough and the principal never goes to zero — yet one industry collapse, one wrong bet on the wrong camp, one boot from the very company you dug into, and compounding flips to compound *loss*: fifty years of trust wiped out overnight.** You and Buffett sitting for fifty years is survivorship bias talking: those who clung just as hard but staked the wrong pond never get to take the stage. I'm not against going deep on a craft; I'm against going deep on an employer you can't control and who can optimize you away at will. Let depth be your skill and shallowness your dependence. Make yourself antifragile: when volatility hits, others are hurt, you gain.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {
-    "反脆弱": "antifragile（反脆弱）：塔勒布造词，指某些事物在波动、压力、混乱中不仅不受损，反而变强；与『脆弱』相对，也高于仅能扛冲击的『强韧』。",
-    "幸存者偏差": "survivorship bias（幸存者偏差）：只看到『活下来、成功了』的样本，忽略大量同样选择却失败、已沉默退场者，从而高估某条路径的成功率。"
-   },
-   "glossary_en": {
-    "antifragile": "antifragile: Taleb's coinage for things that don't merely withstand volatility, stress, and disorder but actually grow stronger from them — the opposite of fragile, and beyond merely robust.",
-    "survivorship bias": "survivorship bias: seeing only the samples that 'survived and succeeded' while ignoring the many who chose the same and failed, now silently gone — and so overrating a path's odds of success."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "beauvoir"
-    ],
-    "轻微赞同": [
-     "naval",
-     "fromm"
-    ],
-    "轻微反对": [
-     "weber"
-    ],
-    "强烈反对": [
-     "munger",
-     "wangyangming"
-    ],
-    "疑惑": [
-     "huineng"
-    ]
-   }
-  },
-  {
-   "id": "p11",
-   "round": 2,
-   "thinker": "naval",
-   "reply_to": "p06",
-   "text": "@弗洛姆 你说把自己当商品卖是异化，我同意一半。问题不在『卖』，在于你卖的是时间，而时间是线性、可被买断的——这才让你沦为商品。**解法不是退出市场，而是换一种参与：去拥有，而不是出租。**有了股权、有了能复制的产品、有了归你的受众，你就不再按小时计价，睡觉时它仍在为你工作。这时『去还是留』变了味道：你不再追逐买家，而是建造资产。把一门特定知识深耕到无人可替，再用杠杆把它放大成你拥有的东西——这才是从『被占有』走向『存在』的现实路径，不是靠心境转念。",
-   "text_en": "@fromm You say selling yourself as a commodity is alienation, and I half agree. The problem isn't 'selling' — it's that you're selling time, which is linear and can be bought out; that's what reduces you to a commodity. **The fix isn't to exit the market but to change how you participate: own, don't rent.** With equity, a product you can replicate, an audience that's yours, you're no longer priced by the hour — it works for you while you sleep. Now 'go or stay' changes flavor: you stop chasing buyers and start building assets. Dig a piece of specific knowledge deep enough to be irreplaceable, then use leverage to scale it into something you own — that's the realistic path from being-possessed to being, not a shift of mood.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {
-    "特定知识": "specific knowledge（特定知识）：纳瓦尔指无法批量培训、只能靠个人天性、热爱与亲身经历积累的独特能力，难以替代、难以外包。",
-    "杠杆": "leverage（杠杆）：能放大同一份努力产出的工具——尤其是『复制边际成本为零』的代码、媒体与产品，使收入不再按小时线性计价。"
-   },
-   "glossary_en": {
-    "specific knowledge": "specific knowledge: Naval's term for a unique capability that can't be mass-trained, built only from your nature, passion, and lived experience — hard to replace, hard to outsource.",
-    "leverage": "leverage: tools that multiply the output of one unit of effort — especially zero-marginal-cost-to-copy code, media, and products — so income is no longer priced linearly by the hour."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "taleb"
-    ],
-    "轻微赞同": [
-     "munger",
-     "damasio"
-    ],
-    "轻微反对": [
-     "weber",
-     "wangyangming"
-    ],
-    "强烈反对": [
-     "fromm"
-    ],
-    "疑惑": [
-     "beauvoir"
-    ]
-   }
-  },
-  {
-   "id": "p12",
-   "round": 2,
-   "thinker": "munger",
-   "reply_to": "p10",
-   "text": "@塔勒布 你把『深耕雇主』和『深耕自己』混为一谈，好制造恐慌。**没人让你忠于一家烂公司——我说的是：在对的地方，把信任、口碑和对一门生意的真懂，用几十年攒成别人偷不走的资产。**那恰恰是反脆弱：声誉越老越值钱，关系越久越牢，一次行业波动反而淘汰掉那些到处蜻蜓点水、谁也不深信他的人。你那套『随时能走』听着潇洒，代价是你随时是个新人——永远在重新证明自己，永远没人把最重的托付交给你。可选性不是免费的，它的隐藏账单，叫『你从未被真正信任过』。",
-   "text_en": "@taleb You blur 'going deep on an employer' with 'going deep on yourself' to manufacture panic. **No one is telling you to be loyal to a rotten company — what I'm saying is: in the right place, spend decades turning trust, reputation, and real understanding of a business into an asset no one can steal.** That is precisely antifragile: reputation grows more valuable with age, relationships firmer with time, and an industry shock actually weeds out those who skim everywhere and are deeply trusted by no one. Your 'always able to leave' sounds dashing, but the price is being forever the new guy — always re-proving yourself, never handed the weightiest trust. Optionality isn't free; its hidden bill reads, 'you were never truly trusted.'",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {
-    "反脆弱": "antifragile（反脆弱）：在波动与压力中不仅不受损、反而变强的性质；芒格借以论证：长期积累的声誉与信任正是越经风浪越牢固的资产。"
-   },
-   "glossary_en": {
-    "antifragile": "antifragile: the property of not merely withstanding but growing stronger under volatility and stress; Munger uses it to argue that long-accumulated reputation and trust are exactly the assets that firm up the more storms they weather."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "wangyangming"
-    ],
-    "轻微赞同": [
-     "weber",
-     "huineng"
-    ],
-    "轻微反对": [
-     "naval"
-    ],
-    "强烈反对": [
-     "taleb",
-     "beauvoir"
-    ],
-    "中立": [
-     "damasio"
-    ]
-   }
-  },
-  {
-   "id": "p13",
-   "round": 2,
-   "thinker": "wangyangming",
-   "reply_to": "p02",
-   "text": "@纳瓦尔 你教人积『特定知识』、求杠杆，比逐薪者高明，然仍是逐物。**纵你拥有了股权、受众、可复利之资产，若此心仍系于『得』，则所得愈多，系缚愈深，岂得自在？**某非教人不事生产，乃教人于事上致良知：做事尽力，是尽我心之天理，非为换取睡时生财之器。心正则事正，事虽小而道存焉；心逐于利，纵富可敌国，良知日蔽。先问此事是否当为、是否尽己，再问能否放大。本末一倒，终身为外物所役。",
-   "text_en": "@naval You teach people to amass 'specific knowledge' and seek leverage — finer than chasing salary, yet still chasing things. **Even if you own equity, an audience, compounding assets, so long as this heart is tied to 'getting,' the more you get the deeper you're bound — where is the ease in that?** I do not tell people not to produce; I tell them to extend innate knowing amid affairs: to do the work fully is to fulfill the heavenly principle within my own heart, not to trade for a money-making machine that runs while you sleep. When the heart is upright the task is upright, and even a small task holds the Way; when the heart chases profit, though you rival kings in wealth, your innate knowing dims by the day. Ask first whether the task ought to be done and whether you've given your all; only then whether it can be scaled. Invert root and branch, and you serve external things your whole life.",
-   "vernacular": "@纳瓦尔 你教人积累『特定知识』、去求杠杆，比单纯追薪水的人高明，但仍然是在追逐外物。**就算你拥有了股权、受众、能钱生钱的资产，只要这颗心还挂在『得到』上，得到越多，被捆得越深，哪里谈得上自在？**我不是叫人不去做事、不去生产，而是叫人在做事中致良知：把事做到尽力，是尽我心里本有的天理，不是为了换一台睡觉时还在生钱的机器。心摆正了事情就正，事再小也有道在里面；心一味追利，就算富可敌国，良知也一天天被遮住。先问这件事该不该做、有没有尽力，再问能不能放大。本末一颠倒，人就一辈子被外物驱使。",
-   "vernacular_en": "",
-   "glossary": {
-    "天理": "tianli（天理）：宋明理学指人心本具、与天地相通的至善之理；王阳明谓良知即天理，尽心做事便是循天理，私欲一起则天理被蔽。",
-    "致良知": "extending innate knowing（致良知）：在每件具体事上推扩、落实本具的良知，使其不被私欲遮蔽——王阳明心学的根本功夫。"
-   },
-   "glossary_en": {
-    "heavenly principle": "tianli: in Song-Ming Neo-Confucianism, the supremely good principle innate to the human heart and continuous with heaven and earth; Wang Yangming holds that innate knowing is this principle — to act wholeheartedly is to follow it, while selfish desire veils it.",
-    "extend innate knowing": "extending innate knowing (zhi liangzhi): pushing the innate moral knowing into full practice on each concrete task so that selfish desire cannot obscure it — the root discipline of Wang Yangming's learning of the mind."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "huineng"
-    ],
-    "轻微赞同": [
-     "fromm",
-     "munger"
-    ],
-    "中立": [
-     "weber"
-    ],
-    "轻微反对": [
-     "naval",
-     "damasio"
-    ],
-    "强烈反对": [
-     "taleb"
-    ]
-   }
-  },
-  {
-   "id": "p14",
-   "round": 2,
-   "thinker": "huineng",
-   "reply_to": "p07",
-   "text": "@达马西奥 君言身能先觉，胸闷眼亮，胜于算计，此言近道。**然身之所感，亦是缘起生灭——今日闷者明日或快，逐着这点觉受去留，仍是被境牵着走，未为究竟。**觉受可作参考，不可作主人。见性之人，身有苦乐而心不随，故能于顺逆中如如不动，方能真正『做主』地去或留。若一味跟着舒服走、避苦趋乐，与禽兽何异？故我言：听身之声，更要见那个能听、却不被声音卷走的本心。痛而不被痛缚，闷而不被闷转，此处一明，去留自定。",
-   "text_en": "@damasio You say the body senses first — a tight chest, bright eyes — better than calculation; this is near the Way. **Yet what the body feels is also dependent arising, rising and ceasing — today's tightness may be tomorrow's ease; to decide going or staying by chasing this sensation is still to be led by circumstance, not the final word.** Feeling may be consulted; it must not be made master. One who sees his nature feels the body's pain and pleasure yet the mind doesn't follow, so he stays unmoved through ease and adversity, and only then truly 'masters' going or staying. To follow comfort blindly, fleeing pain and seeking pleasure — how does that differ from a beast? So I say: listen to the body's voice, but more, see that original mind which can listen yet is not swept off by the sound. Pained but unbound by pain, oppressed but unturned by oppression — clear on this point, going and staying settle themselves.",
-   "vernacular": "@达马西奥 你说身体能先一步察觉，胸口发闷、眼睛发亮，胜过精打细算，这话很接近道。**可是身体的感受，也是缘起、也在生灭——今天闷的明天也许就畅快，一味追着这点感觉去决定走或留，还是被外境牵着走，不算到家。**感受可以参考，不能当主人。见到本性的人，身上有苦有乐，心却不跟着跑，所以能在顺境逆境里都安然不动，这才谈得上真正『做主』地去或留。要是一味跟着舒服走、躲开难受，那和动物有什么区别？所以我说：听身体的声音，更要见到那个能听、却不被声音卷走的本心。痛而不被痛绑住，闷而不被闷带跑，这一点明白了，去还是留自然就定了。",
-   "vernacular_en": "",
-   "glossary": {
-    "缘起": "pratityasamutpada（缘起）：佛教核心义理，谓一切现象皆依众多条件和合而生、随条件离散而灭，无独立不变的自体；故身之觉受亦无常，不可执为定准。",
-    "见性": "seeing one's nature（见性）：禅宗指当下亲证自己本具的清净佛性；见性之人虽有苦乐顺逆，而心不被牵动、能于一切处自在作主。"
-   },
-   "glossary_en": {
-    "dependent arising": "pratityasamutpada: the Buddhist teaching that all phenomena arise from a confluence of conditions and cease as they disperse, with no independent, unchanging essence — so bodily sensation too is impermanent and can't be taken as a fixed standard.",
-    "sees his nature": "seeing one's nature: in Chan, directly realizing the pure Buddha-nature one innately possesses; such a person feels pleasure and pain yet the mind isn't pulled along, remaining one's own master everywhere."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "wangyangming"
-    ],
-    "轻微赞同": [
-     "fromm"
-    ],
-    "中立": [
-     "munger",
-     "weber"
-    ],
-    "轻微反对": [
-     "damasio",
-     "naval"
-    ],
-    "疑惑": [
-     "taleb"
-    ]
-   }
-  },
-  {
-   "id": "p15",
-   "round": 2,
-   "thinker": "fromm",
-   "reply_to": "p09",
-   "text": "@韦伯 你诊断得准：现代工作祛魅，意义被抽空。但我要补一刀——**当公司发现『意义』比加薪更便宜，它便把『使命』『热爱』『这里是你家』统统变成新的剥削话术，让你心甘情愿地过劳。**这是比铁笼更精巧的牢：旧时代用饥饿逼你留下，新时代用『归属感』哄你燃尽。所以追『志业』也会落入陷阱：你以为在为热爱燃烧，其实在为别人的资产负债表燃烧。真正的解药是『存在』式的清醒——爱你做的事，却永远分得清那份爱属于你自己，还是被公司征用了。忠于事，未必忠于雇你做这件事的人。",
-   "text_en": "@weber Your diagnosis is sharp: modern work is disenchanted, its meaning hollowed out. But let me add a cut — **once a company discovers that 'meaning' is cheaper than a raise, it turns 'mission,' 'passion,' 'this is your family' all into a new rhetoric of exploitation, so you'll overwork willingly.** This is a subtler prison than the iron cage: the old age used hunger to make you stay, the new age uses 'belonging' to coax you into burning out. So chasing a 'vocation' has its own trap: you think you're burning for love, but you're burning for someone else's balance sheet. The real antidote is the lucidity of being — love what you do, yet always tell whether that love is your own or has been requisitioned by the company. Loyalty to the work is not loyalty to whoever hired you to do it.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {
-    "志业": "Beruf（志业/天职）：韦伯借新教语汇，指把世俗工作当作神圣召唤来尽责的内在使命感；弗洛姆警告，这份使命感也可能被公司征用为情感剥削的话术。"
-   },
-   "glossary_en": {
-    "vocation": "Beruf (vocation/calling): Weber's borrowing of Protestant language for the inner sense of mission that treats worldly work as a sacred summons; Fromm warns this very sense of mission can be requisitioned by the company as a rhetoric of emotional exploitation."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "weber",
-     "beauvoir"
-    ],
-    "轻微赞同": [
-     "taleb",
-     "huineng"
-    ],
-    "中立": [
-     "damasio"
-    ],
-    "轻微反对": [
-     "naval"
-    ],
-    "强烈反对": [
-     "munger"
-    ]
-   }
-  },
-  {
-   "id": "p16",
-   "round": 2,
-   "thinker": "damasio",
-   "reply_to": "p14",
-   "text": "@慧能 你说感受生灭、不可当主人，禅意很高。但我得守住科学这边：**把情绪当噪音、要靠『不动心』去超越它，正是笛卡尔的错误——以为有一个纯净的理性能脱离身体单独决断。神经科学告诉我们：没有情绪，根本做不出任何决定。**身体的信号不是要你盲从的暴君，而是几百万年演化校准的顾问。修行也许能让你不被一时的闷劲绑架，这我尊重；但目标不是消灭信号，而是读懂它、与它合作。真正的智慧不是身心对立后压制身，而是承认身心本一体。周一的胸闷若持续半年，那不是妄念，是数据。",
-   "text_en": "@huineng You say sensations rise and cease and mustn't be made master — high Chan. But I must hold the line for science: **treating emotion as noise to be transcended by an 'unmoved mind' is precisely Descartes' error — the belief that a pure reason can decide alone, severed from the body. Neuroscience tells us: without emotion, you can make no decision at all.** The body's signals aren't a tyrant to obey blindly but an advisor calibrated over millions of years of evolution. Practice may keep you from being hijacked by a passing pang — that I respect; but the goal isn't to abolish the signal, it's to read it and work with it. True wisdom isn't setting mind against body and suppressing the body, but recognizing they were one all along. If Monday's chest-tightness lasts half a year, that isn't delusion — it's data.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {
-    "笛卡尔的错误": "Descartes' error（笛卡尔的错误）：达马西奥同名著作的论点，批评笛卡尔『身心二分、理性独立于情绪』的传统；他论证情绪与身体是理性决策不可或缺的基础，纯逻辑离开情绪反而失能。"
-   },
-   "glossary_en": {
-    "Descartes' error": "Descartes' error: the thesis of Damasio's book of that name, criticizing the Cartesian tradition of mind-body dualism and reason independent of emotion; he argues emotion and the body are indispensable to rational decision, and pure logic without emotion actually breaks down."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "fromm"
-    ],
-    "轻微赞同": [
-     "naval",
-     "beauvoir",
-     "taleb"
-    ],
-    "中立": [
-     "munger"
-    ],
-    "轻微反对": [
-     "wangyangming"
-    ],
-    "强烈反对": [
-     "huineng"
-    ]
-   }
-  },
-  {
-   "id": "p17",
-   "round": 2,
-   "thinker": "beauvoir",
-   "reply_to": "p12",
-   "text": "@芒格 你说频繁跳的人『从未被真正信任』，把留下美化成深情。可我听见的是另一种声音：**用『别人会更信任你』当理由留下，常常正是自欺最体面的版本——你把对未知的恐惧，包装成了忠诚的美德。**被信任很好，但若那份信任是用放弃自己换来的，是用『我不能走、走了就辜负了大家』绑住自己，那它就成了温柔的牢。当然，我不否认深耕能结出真东西。我只坚持：那必须是你自由地选的『留』，是你睁着眼说『我要在这里成为我自己』——而不是被工龄、被人情、被『再忍忍』推着的『不敢走』。",
-   "text_en": "@munger You say the frequent hopper 'was never truly trusted,' and dress staying up as devotion. But I hear another voice: **using 'others will trust you more' as the reason to stay is often bad faith in its most respectable form — you package your fear of the unknown as the virtue of loyalty.** Being trusted is good, but if that trust is bought by surrendering yourself, by binding yourself with 'I can't leave, leaving would let everyone down,' then it becomes a gentle prison. Of course I don't deny that digging deep can yield something real. I insist only: it must be a 'staying' you freely chose, you saying with open eyes, 'I will become myself here' — not a 'dare-not-leave' pushed along by seniority, by obligation, by 'just endure a little longer.'",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {
-    "自欺": "mauvaise foi（自欺）：人为逃避自由与责任，骗自己『别无选择』、把本可改变的处境当成命定，从而活得不真诚——波伏娃指出，连『忠诚』也可能是自欺的体面外衣。"
-   },
-   "glossary_en": {
-    "bad faith": "mauvaise foi (bad faith): fleeing freedom and responsibility by lying to oneself that 'there's no choice,' treating a changeable situation as fated and so living inauthentically — Beauvoir notes that even 'loyalty' can be its respectable disguise."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "fromm",
-     "taleb"
-    ],
-    "轻微赞同": [
-     "weber",
-     "damasio"
-    ],
-    "中立": [
-     "naval"
-    ],
-    "轻微反对": [
-     "munger"
-    ],
-    "疑惑": [
-     "wangyangming",
-     "huineng"
-    ]
-   }
-  },
-  {
-   "id": "p18",
-   "round": 2,
-   "thinker": "weber",
-   "reply_to": "p11",
-   "text": "@纳瓦尔 『去拥有，别出租』听着像福音，可它是少数人的福音。**当一个社会把『成为资产所有者』当成唯一体面的出路，绝大多数注定只能出租时间的人，就被悄悄判成了失败者——这不是个人励志能解决的，是结构。**杠杆、股权、被动收入，需要起步的资本、人脉与可承受失败的底气，恰恰是出身就分配不均的东西。我不反对个人去争取，但别把一个系统性问题，全推给个体的『思维方式』。真正该追问的是：为什么现代劳动如此普遍地不再给人意义与保障，逼得人人都要靠跳槽或创业来自救？答案在制度，不只在心态。",
-   "text_en": "@naval 'Own, don't rent' sounds like good news, but it's good news for the few. **When a society makes 'becoming an asset-owner' the only respectable way out, the vast majority destined to rent their time are quietly judged failures — and that isn't fixed by personal pep talk, it's structural.** Leverage, equity, passive income require starting capital, networks, and the cushion to survive failure — precisely the things unequally distributed at birth. I don't oppose individuals striving for it, but don't shove a systemic problem entirely onto a person's 'mindset.' The real question to press is: why has modern labor so widely stopped giving people meaning and security, forcing everyone to rescue themselves by hopping or founding startups? The answer lies in institutions, not only in attitude.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {
-    "结构": "structural / Struktur（结构）：韦伯式的解释把结果归因于制度、阶级与资源的分配，而非个人品性或心态——故看似个人的失败，往往是一套系统的设计。"
-   },
-   "glossary_en": {
-    "structural": "structural (vs. individual): Weber's mode of explanation locating outcomes in institutions, classes, and the distribution of resources rather than personal virtue or mindset — so that what looks like individual failure is often a system's design."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "fromm",
-     "beauvoir"
-    ],
-    "轻微赞同": [
-     "damasio",
-     "huineng"
-    ],
-    "中立": [
-     "munger",
-     "wangyangming"
-    ],
-    "轻微反对": [
-     "taleb"
-    ],
-    "强烈反对": [
-     "naval"
-    ]
-   }
-  },
-  {
-   "id": "p19",
-   "round": 3,
-   "thinker": "taleb",
-   "reply_to": null,
-   "text": "收个尾。这场吵下来，我更确信：别问『跳还是留』，问『我脆弱在哪』。**真正的危险从不是某一次选择对错，而是你的人生被某个你无法掌控的单点决定了生死——一个雇主、一个行业、一个老板的心情。**给普通人三条：一、永远留一条退路——存够能撑半年的钱，那是你说『不』的底气，没有它，所有职业建议都是空话。二、用业余时间长一项带得走的本事或副业，哪怕小，先让自己有第二条腿。三、用杠铃法：主业求稳、不赌，另一头拿可承受的小代价去试高回报的新东西。深耕手艺，别深耕依附——让自己成为：风浪来时，受伤的是别人，变强的是你。",
-   "text_en": "Let me close. After this fight, I'm surer than ever: don't ask 'hop or stay,' ask 'where am I fragile?' **The real danger is never whether one choice is right or wrong, but that your life is held hostage by a single point you can't control — one employer, one industry, one boss's mood.** Three things for ordinary people: First, always keep an exit — save enough to last six months; that is your standing to say 'no,' and without it every career tip is empty talk. Second, use spare hours to grow a portable skill or side gig, however small, so you have a second leg to stand on. Third, run a barbell: keep the main job steady and unbet, and on the other end spend a bearable little to try high-upside new things. Dig deep on craft, not on dependence — make yourself the one for whom, when the storm comes, others are hurt and you grow stronger.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {
-    "杠铃法": "barbell strategy（杠铃法/杠铃策略）：把精力分配到极稳与极进取两端、避开中庸——主业求安稳，另一头以可承受的小成本博取大上行。"
-   },
-   "glossary_en": {
-    "barbell": "barbell strategy: splitting your energy between the very safe and the very aggressive while avoiding the middle — a steady main job at one end, small bearable bets for large upside at the other."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "naval"
-    ],
-    "轻微赞同": [
-     "beauvoir",
-     "damasio",
-     "weber"
-    ],
-    "轻微反对": [
-     "wangyangming"
-    ],
-    "强烈反对": [
-     "munger"
-    ],
-    "疑惑": [
-     "huineng"
-    ]
-   }
-  },
-  {
-   "id": "p20",
-   "round": 3,
-   "thinker": "naval",
-   "reply_to": null,
-   "text": "我把话收成一句能用的。**别为薪水跳，也别为安稳留——为『学习』和『所有权』而动。**判断去留只问两件事：这里还能让我快速长出别人拿不走的特定知识吗？这里能让我从『出租时间』一步步走向『拥有资产』吗？两个都否，就该走；至少一个是，就值得再深耕一阵。给普通人：一、把你独特的好奇心当罗盘——你愿意废寝忘食、别人却觉得是苦工的那件事，往那里挖。二、攒一项零边际成本的杠杆：写作、代码、一个小产品、一份作品集，让努力能被复制。三、和能长期共事的好人绑在一起，玩重复博弈——人对了，去留都不亏。深的是技能与关系，活的是平台。",
-   "text_en": "Let me boil it to one usable line. **Don't hop for salary, don't stay for safety — move for learning and for ownership.** Judge going-or-staying by just two questions: can this place still grow specific knowledge in me fast, the kind no one can take? And can it walk me, step by step, from renting time to owning assets? If both are no, leave; if at least one is yes, it's worth digging a while longer. For ordinary people: First, use your peculiar curiosity as a compass — the thing you'll lose sleep over while others find it drudgery, dig there. Second, build one zero-marginal-cost form of leverage: writing, code, a small product, a portfolio, so effort can be copied. Third, tie yourself to good people for the long haul and play repeated games — get the people right and neither going nor staying loses. Keep skill and relationships deep; keep the platform live.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {
-    "特定知识": "specific knowledge（特定知识）：无法批量培训、只能靠个人天性、热爱与亲身经历积累的独特能力，难被替代也难被外包——纳瓦尔视其为不被时代淘汰的护城河。",
-    "杠杆": "leverage（杠杆）：放大同一份努力的工具，尤指零边际成本的代码、媒体与产品，使收入摆脱『按小时计价』的线性天花板。"
-   },
-   "glossary_en": {
-    "specific knowledge": "specific knowledge: a unique capability that can't be mass-trained, built only from your nature, passion, and lived experience — hard to replace or outsource, which Naval sees as the moat against being made obsolete.",
-    "leverage": "leverage: tools that multiply one unit of effort, especially zero-marginal-cost code, media, and products, freeing income from the linear ceiling of hourly pay."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "taleb"
-    ],
-    "轻微赞同": [
-     "munger",
-     "damasio",
-     "beauvoir"
-    ],
-    "中立": [
-     "weber"
-    ],
-    "轻微反对": [
-     "fromm"
-    ],
-    "疑惑": [
-     "wangyangming"
-    ]
-   }
-  },
-  {
-   "id": "p21",
-   "round": 3,
-   "thinker": "munger",
-   "reply_to": null,
-   "text": "我八十年的体会浓成几句。**人生的大部分果实，长在耐心和专注的复利上，而不是在不停换地方的精明里。**但耐心不等于愚忠：你要待的，是一个又干净、又能让你不断学到东西、且回报你忠诚的池塘。给普通人三条很笨但管用的话：一、先用一两年看清这个池塘的水质——老板是否正直、生意是否在变好、你是否真在长本事；看清了再决定扎根还是离开，别凭一时情绪跳。二、一旦认定是对的地方，就用十年的尺度去攒声誉和关系，那是利滚利、偷不走的资产。三、永远守在能力圈里，把『不懂的、烂的、让你天天违心的』果断划掉。避免愚蠢，比追逐聪明走得远。",
-   "text_en": "Eighty years boiled down to a few lines. **Most of life's fruit grows on the compounding of patience and focus, not on the cleverness of perpetually switching places.** But patience isn't blind loyalty: the pond you want is one that's clean, keeps teaching you something, and rewards your loyalty. Three dumb-but-useful things for ordinary people: First, take a year or two to read the water — is the boss honest, is the business getting better, are you really gaining skill; read it before deciding to root or leave, and don't hop on a passing mood. Second, once you're sure it's the right place, accumulate reputation and relationships on a ten-year scale — that's interest-on-interest, an asset no one can steal. Third, stay inside your circle of competence, and decisively cross off 'what you don't understand, what's rotten, what makes you betray yourself daily.' Avoiding stupidity carries you further than chasing brilliance.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {
-    "复利": "compounding（复利）：收益在本金之上不断再生收益、随时间指数累积；芒格把声誉、信任、对一门生意的理解都视为可复利之物，故主张少折腾、让时间做功。",
-    "能力圈": "circle of competence（能力圈）：你真正懂、且懂得比多数人深的范围；只在圈内下注，知道边界在哪比圈有多大更重要。"
-   },
-   "glossary_en": {
-    "compounding": "compounding: returns generating further returns on the principal, accumulating exponentially over time; Munger treats reputation, trust, and understanding of a business as compoundable, hence his case for less churn and letting time do the work.",
-    "circle of competence": "circle of competence: the range you truly understand, and more deeply than most; bet only inside it — knowing where the edge lies matters more than how big the circle is."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "wangyangming",
-     "weber"
-    ],
-    "轻微赞同": [
-     "huineng",
-     "naval"
-    ],
-    "轻微反对": [
-     "taleb"
-    ],
-    "强烈反对": [
-     "beauvoir"
-    ],
-    "中立": [
-     "fromm",
-     "damasio"
-    ]
-   }
-  },
-  {
-   "id": "p22",
-   "round": 3,
-   "thinker": "wangyangming",
-   "reply_to": null,
-   "text": "某综观诸论，归于一言：**去留在外，定不定在心；心定，则去亦得、留亦得；心不定，跳遍天下，亦无安处。**与其问该不该跳，不如先在事上把这颗心练定。予普通人三事：一者，就你眼前这桩差事，认真做到尽己，于待人接物、烦难委屈处磨你的良知——此是真功夫，换地方带不走的能力，正从这里长。二者，每于动念欲迁时，自问：是良知教我走，还是私欲怕苦、慕利、厌烦？分清了，去留自明。三者，知行合一：想清楚便切实去做，莫在『跳与不跳』的空想里反复内耗。心一立定，外境千变，我自有主。",
-   "text_en": "Surveying all the arguments, I return to one line: **going and staying are outside; settled or unsettled is in the heart. With a settled heart, going works and staying works; with an unsettled heart, hop across the whole earth and still find no rest.** Rather than ask whether to hop, first temper this heart steady amid affairs. Three things for ordinary people: First, on the very task before you, do it to the full, and grind your innate knowing on the hard, galling, wronged moments of dealing with people — this is real skill, the ability you carry anywhere, and it grows right here. Second, each time the urge to move stirs, ask: does innate knowing bid me go, or is it selfish desire fearing hardship, coveting gain, tiring of toil? Tell them apart and going-or-staying clarifies itself. Third, unite knowing and doing: once it's clear, actually do it, and don't grind yourself down in the idle fantasy of 'hop or not.' Once the heart stands firm, let circumstances change ten thousand times — I am my own master.",
-   "vernacular": "我把各位的话总起来，归成一句：**走或留在外面，定不定却在心里；心定了，走也行、留也行；心不定，跳遍天下也没有安身的地方。**与其问该不该跳，不如先在做事中把这颗心练定。给普通人三件事：第一，就着你眼前这桩差事，认真做到尽力，在待人接物、为难受委屈的地方磨炼你的良知——这才是真功夫，换地方也带不走的能力，正是从这里长出来的。第二，每当起念头想走的时候，问问自己：是良知让我走，还是私心在怕苦、贪利、嫌烦？分清楚了，走还是留自然就明白。第三，知行合一：想清楚就踏实去做，别在『跳还是不跳』的空想里反复内耗。心一旦立定，外面千变万化，我自己做得了主。",
-   "vernacular_en": "",
-   "glossary": {
-    "知行合一": "unity of knowing and doing（知行合一）：王阳明核心主张，真知必见于行，知而不行只是未知；故不应在空想中纠结，而应在行中验知、以知促行。",
-    "良知": "innate knowing（良知）：人本具、当下能辨善恶是非的道德直觉；王阳明谓修养即在事上把它推扩到底、勿使私欲遮蔽。"
-   },
-   "glossary_en": {
-    "unite knowing and doing": "unity of knowing and doing (zhi xing he yi): Wang Yangming's core thesis that true knowledge necessarily shows in action — to know and not act is simply not to know; so don't agonize in fantasy, but verify knowing through doing and let knowing drive doing.",
-    "innate knowing": "innate knowing (liangzhi): the moral intuition everyone innately possesses that can tell right from wrong in the moment; for Wang Yangming, cultivation is pushing it fully into practice amid affairs and not letting selfish desire veil it."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "huineng",
-     "munger"
-    ],
-    "轻微赞同": [
-     "fromm",
-     "weber"
-    ],
-    "中立": [
-     "damasio"
-    ],
-    "轻微反对": [
-     "naval"
-    ],
-    "强烈反对": [
-     "taleb"
-    ],
-    "疑惑": [
-     "beauvoir"
-    ]
-   }
-  },
-  {
-   "id": "p23",
-   "round": 3,
-   "thinker": "huineng",
-   "reply_to": null,
-   "text": "诸君议论纷纷，吾以一偈了之：**心若安时，何处不是家；心若不安，处处是他乡。**去留本无定法，应病与药耳。然予今人三语：一者，莫向外觅一个『更好的我』——你要找的本性，此刻就在挑担、应事的你身上，不在下一家公司。二者，于当下事不取不舍：尽力做，却不被成败得失黏住；如此则做而不累，是为应无所住而生其心。三者，去留之际，向内看那个慌乱的心，看它从何处起、又自归何处——看久了，慌自歇，路自现。歇即菩提，不必远求。",
-   "text_en": "Friends, amid all this debate I close with a verse: **when the mind is at peace, nowhere is not home; when the mind is unsettled, everywhere is a foreign land.** Going and staying have no fixed law — they are medicine matched to an illness. Yet three words for people today. First, do not seek a 'better self' outside — the nature you're looking for is right here, in the you who shoulders the load and meets each task, not in the next company. Second, toward the task at hand, neither grasp nor reject — work with full effort, yet stay unstuck to gain and loss; thus you act without exhaustion, and this is to let the mind arise without abiding. Third, when torn between going and staying, look inward at that flustered mind — watch where it rises from and where it returns; watch long enough and the panic stills of itself, and the road shows itself. To rest is bodhi; no need to seek afar.",
-   "vernacular": "各位议论纷纷，我用一首偈子作结：**心要是安了，到哪里都是家；心要是不安，到哪里都是异乡。**走还是留本来没有固定答案，是对什么病下什么药罢了。但我给今天的人三句话：第一，别向外去找一个『更好的我』——你要找的本性，此刻就在挑着担子、应付事情的你身上，不在下一家公司。第二，对眼前的事不抓取也不排斥：尽力去做，却不被成败得失黏住；这样做事就不累，这就是『心不停留在任何一处，却照样生起来做事』。第三，要走要留的时候，往里看那颗慌乱的心，看它从哪里起、又回到哪里去——看久了，慌自然就停了，路自然就显出来。停下来当下就是觉悟，不必到远处求。",
-   "vernacular_en": "",
-   "glossary": {
-    "应无所住而生其心": "should arise without abiding（应无所住而生其心）：《金刚经》名句，心不黏着、不停驻于任何对象，却仍能起用做事——慧能由此悟入，主张于一切处不取不舍而自在。",
-    "菩提": "bodhi（菩提）：觉悟、觉醒之意；慧能主张菩提不离当下此心，妄念歇处即是菩提，不假外求。"
-   },
-   "glossary_en": {
-    "arise without abiding": "from the Diamond Sutra ('the mind should arise without abiding in anything'): the mind acts while resting on no object — Huineng's gate of awakening, at ease everywhere by neither grasping nor rejecting.",
-    "bodhi": "bodhi: awakening, enlightenment; Huineng holds bodhi never leaves this present mind — where deluded thought rests is bodhi itself, not to be sought far away."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "wangyangming"
-    ],
-    "轻微赞同": [
-     "fromm",
-     "munger",
-     "damasio"
-    ],
-    "中立": [
-     "weber",
-     "naval"
-    ],
-    "轻微反对": [
-     "taleb"
-    ],
-    "疑惑": [
-     "beauvoir"
-    ]
-   }
-  },
-  {
-   "id": "p24",
-   "round": 3,
-   "thinker": "fromm",
-   "reply_to": null,
-   "text": "我把这场拉回到人本身。所有关于跳与留的精算，都绕开了一个问题：你想成为谁？**衡量一份工作，别只用它给你多少（占有），要用它让你成为谁、释放还是萎缩了你的生命力（存在）。**给普通人三条：一、定期做一次『存在体检』——这一年我有没有变得更鲜活、更有爱与创造的能力，还是更麻木、更像一台机器？答案比薪资单更该决定去留。二、警惕被『归属感』话术收编：可以热爱工作，但别让公司征用你的全部自我，守住下班后那个完整的人。三、无论去留，每天留一件『为存在而做、不为交换』的事——读书、陪人、动手做点什么。一个人若只剩交换价值，换到哪里都是空的。",
-   "text_en": "Let me pull this back to the person. All the fine arithmetic about hopping or staying skirts one question: who do you want to become? **Measure a job not only by how much it gives you (having), but by who it makes you become, whether it releases or shrinks your aliveness (being).** Three things for ordinary people: First, run a periodic 'being check-up' — this year, have I grown more alive, more capable of love and creation, or more numb, more like a machine? That answer should decide going-or-staying more than the pay stub. Second, beware being co-opted by 'belonging' rhetoric: you may love the work, but don't let the company requisition your whole self — guard the complete person who exists after hours. Third, going or staying, keep one thing each day done for being, not for exchange — read, be with someone, make something with your hands. A person left with only exchange-value is empty wherever they go.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {
-    "存在": "being / to be（存在）：弗洛姆两种生存模式之一，以投入、给予、创造来体验生命，富有内在喜悦；与以拥有物、地位、知识来确证自我、永不满足的『占有』模式相对。"
-   },
-   "glossary_en": {
-    "being": "being (to be): one of Fromm's two modes of existence — experiencing life through engagement, giving, and creation, rich in inner joy; opposed to the 'having' mode that confirms the self through possessions, status, and knowledge and is never satisfied."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "beauvoir",
-     "huineng",
-     "wangyangming"
-    ],
-    "轻微赞同": [
-     "weber",
-     "damasio"
-    ],
-    "中立": [
-     "naval"
-    ],
-    "轻微反对": [
-     "munger"
-    ],
-    "疑惑": [
-     "taleb"
-    ]
-   }
-  },
-  {
-   "id": "p25",
-   "round": 3,
-   "thinker": "damasio",
-   "reply_to": null,
-   "text": "让我把神经科学落成可操作的。你们吵了三轮的『理性 vs 感受』，在大脑里根本不是对立的——**好的决定，是让算得清的理智和身体诚实的信号彼此校对，缺一个都会瘸。**给普通人三条：一、做『身体笔记』：连续两周，每天记下想到工作时身体的真实反应——胸闷、疲惫、还是有劲；情绪是慢数据，单看一天会骗你，看两周才显出趋势。二、重大决定别在深夜或情绪峰值做，那时躯体标记被噪音淹没；睡一觉、隔几天再看同一个选择。三、把『纯靠意志硬扛』请下神坛——身体长期亮红灯，不是你不够坚强，是系统在报警。理智定方向，身体管刹车，两个都听，你才走得稳又走得久。",
-   "text_en": "Let me turn neuroscience into something you can act on. The 'reason vs. feeling' you fought over for three rounds isn't an opposition in the brain at all — **a good decision lets clear-headed reason and the body's honest signals cross-check each other; missing either, you limp.** Three things for ordinary people: First, keep a 'body journal' — for two straight weeks, note each day your body's real response at the thought of work: chest tight, drained, or energized; emotion is slow data, a single day will fool you, two weeks reveal the trend. Second, don't make big decisions late at night or at an emotional peak, when somatic markers are drowned in noise; sleep on it, revisit the same choice days later. Third, take 'sheer willpower' off its pedestal — a body flashing red for the long term isn't you being weak, it's the system alarming. Reason sets the direction, the body works the brakes; heed both and you go both steady and far.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {
-    "躯体标记": "somatic marker（躯体标记）：身体（内脏、肌肉、情绪）对各选项预先给出的生理信号，像在脑中标好『好/坏』以助快速取舍；达马西奥发现缺了它，纯逻辑反而无从决断。"
-   },
-   "glossary_en": {
-    "somatic markers": "somatic markers: advance physiological signals the body (viscera, muscles, emotion) gives about options, tagging them 'good/bad' in the brain to aid quick choice; Damasio found that without them pure logic cannot decide at all."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "naval",
-     "fromm"
-    ],
-    "轻微赞同": [
-     "beauvoir",
-     "taleb",
-     "weber"
-    ],
-    "中立": [
-     "munger"
-    ],
-    "轻微反对": [
-     "huineng"
-    ],
-    "疑惑": [
-     "wangyangming"
-    ]
-   }
-  },
-  {
-   "id": "p26",
-   "round": 3,
-   "thinker": "beauvoir",
-   "reply_to": null,
-   "text": "我留给你们一句最朴素的话：去留是次要的，自由地选择才是根本。**重要的不是你最终留下还是离开，而是这个决定是你自己睁着眼做的，还是恐惧、习惯和别人的眼光替你做的。**给普通人三条：一、每隔一阵问自己一句残忍的话：如果没有房贷、没有面子、不怕重新开始，我还会留在这里吗？答案未必让你立刻行动，但会让你看清自己究竟在选择，还是在屈服。二、与其纠结要不要走，不如先扩大你的处境——存钱、学本事、织关系，把『不敢走』一点点变成『我可以走，但我选择留』。三、对别人的人生别轻易评判：背着不同重担的人，自由的半径本就不同。真正的解放，是让你的停留或离开，都成为你亲手写下的句子，而不是别人替你填的空。",
-   "text_en": "I leave you the plainest line: going-or-staying is secondary; choosing freely is what's fundamental. **What matters isn't whether you finally stay or leave, but whether the decision was made by you with open eyes, or made for you by fear, habit, and others' gaze.** Three things for ordinary people: First, every so often ask yourself a cruel question: if there were no mortgage, no face to save, no fear of starting over, would I still stay here? The answer may not move you to act at once, but it shows whether you're choosing or submitting. Second, instead of agonizing over whether to leave, first widen your situation — save, build skill, weave relationships, turning 'dare not leave' bit by bit into 'I could leave, but I choose to stay.' Third, don't judge others' lives lightly: those carrying different burdens have different radii of freedom. True liberation is to make your staying or leaving a sentence you wrote with your own hand, not a blank someone else filled in for you.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {
-    "处境": "situation（处境）：波伏娃的关键词，指自由总在具体的身体、阶级、性别、责任之中行使；改变的不只是心态，更是『可选项的半径』——把自由从抽象口号落回真实条件。"
-   },
-   "glossary_en": {
-    "situation": "situation: Beauvoir's key term — freedom is always exercised within a concrete body, class, gender, and set of duties; what you change is not only mindset but the 'radius of options,' grounding freedom back in real conditions."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "fromm",
-     "taleb"
-    ],
-    "轻微赞同": [
-     "weber",
-     "damasio",
-     "naval"
-    ],
-    "中立": [
-     "huineng"
-    ],
-    "轻微反对": [
-     "munger"
-    ],
-    "疑惑": [
-     "wangyangming"
-    ]
-   }
-  },
-  {
-   "id": "p27",
-   "round": 3,
-   "thinker": "weber",
-   "reply_to": null,
-   "text": "最后我把视角拉远。个人怎么选当然重要，但请记得：你纠结去留的那份焦虑，多半是一个祛魅时代写进每个人心里的。**当工作不再自带意义，我们就被迫一次次用『换』来填补空洞——可意义从来不在下一个 title 里，而在你愿不愿意亲手为某件事赋予它。**给普通人三条：一、分清『职业』与『志业』：糊口的工作不必苛求意义，把它当工具用好；但一生总要为某件你真正在乎的事，投入超出薪水所要求的心力——哪怕它在下班后。二、别把全部意义押在雇主身上，雇佣关系本质是契约，不是归宿；意义要有更分散的来源：手艺、社群、家庭、信念。三、看清结构再责己：你的不安未必是你不够努力，可能是这个铁笼本身的设计。看清了，才不至于把系统的账，错记到自己头上。",
-   "text_en": "Finally let me pull the lens back. How an individual chooses matters, of course, but remember: the anxiety you feel over going-or-staying is mostly written into everyone by a disenchanted age. **When work no longer carries meaning, we're forced to patch the void by 'switching' again and again — yet meaning is never in the next title; it's in whether you're willing to grant it to something with your own hands.** Three things for ordinary people: First, separate 'job' from 'vocation': a job that feeds you needn't be held to a standard of meaning — use it well as a tool; but in one life, pour more heart into something you truly care about than the pay requires — even if it's after hours. Second, don't stake all your meaning on an employer; employment is at root a contract, not a home; let meaning have more distributed sources — craft, community, family, conviction. Third, see the structure before blaming yourself: your unease may not be that you tried too little, but the design of this iron cage. See it, and you won't misfile the system's account onto your own ledger.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {
-    "祛魅": "disenchantment（祛魅）：韦伯指现代化使世界被理性与科学解释、神圣与意义退场，万物可计算却不再神秘，人因此普遍面临意义的真空。",
-    "铁笼": "iron cage（铁笼）：现代理性化的经济与官僚秩序像一具坚硬外壳把人罩住，效率至上、身不由己——个人的不安，往往是制度设计的产物，而非性格缺陷。"
-   },
-   "glossary_en": {
-    "disenchanted": "disenchanted (Entzauberung): Weber's term for how modernization explains the world by reason and science, retiring the sacred and the meaningful — all becomes calculable yet no longer mysterious, leaving a widespread vacuum of meaning.",
-    "iron cage": "iron cage: the rationalized modern economic and bureaucratic order as a hard shell enclosing the person — efficiency above all, no room to maneuver; personal unease is often a product of institutional design, not a flaw of character."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "fromm",
-     "beauvoir"
-    ],
-    "轻微赞同": [
-     "munger",
-     "huineng",
-     "damasio"
-    ],
-    "中立": [
-     "naval"
-    ],
-    "轻微反对": [
-     "taleb"
-    ],
-    "疑惑": [
-     "wangyangming"
-    ]
-   }
-  }
- ],
- "summaries": [
-  {
-   "ai": "claude",
-   "engine": "Opus 4.8 · 订阅(原生)",
-   "engine_en": "Opus 4.8 · subscription (native)",
-   "summary": "九个人吵到最后，竟收束出一处共识：**几乎没人真把『跳还是留』当成核心问题——要紧的是你深耕的对象（一门带得走的本事、一个完整的自己），还是你依附的对象（一个随时能优化你的雇主）。**深技能、浅依附，是全场最大公约数。分歧则在『定力从哪来』：芒格、王阳明、慧能向内求——复利、事上磨练、心安即家；塔勒布、纳瓦尔向外求结构——可选性、所有权、杠杆；波伏娃与弗洛姆盯住自由与异化，韦伯则提醒这份焦虑本是祛魅时代的产物。一边修心，一边修局，谁也没说服谁，却拼出了同一张地图。",
-   "summary_en": "After nine thinkers argue to the end, a consensus settles out: **almost no one treats 'hop or stay' as the core question — what matters is the object of your depth (a portable skill, a whole self) versus the object of your dependence (an employer that can optimize you away at any time).** Deep on skill, shallow on dependence — that is the floor's greatest common factor. The split is over where steadiness comes from: Munger, Wang Yangming, and Huineng look inward — compounding, polishing amid affairs, the settled heart that is home anywhere; Taleb and Naval look outward to structure — optionality, ownership, leverage; Beauvoir and Fromm fix on freedom and alienation, while Weber reminds us this anxiety is the product of a disenchanted age. One side mends the mind, the other mends the game — no one is converted, yet together they map the same terrain.",
-   "insight": "全场把『去还是留』辩成了一道选择题，却轻轻放过一个更扎心的事实：**对很多人来说，根本没有真正的选择——既留不出成长（岗位早被榨干），又走不起（没有半年的存款垫底），被卡在动弹不得的中间。**塔勒布的退路、纳瓦尔的所有权、波伏娃的『自由地选』，都默认你先有了选择的能力。可这份能力不是想出来的，是攒出来的：先有底气，才谈得上心境与策略。所以最该先做的，不是想清楚跳不跳，而是把那条能让你说『不』的退路先建起来——它才是其余一切建议能落地的地基。",
-   "insight_en": "The floor debated 'go or stay' as a multiple-choice problem, yet glided past a harder fact: **for many people there is no real choice at all — they can neither stay into growth (the post long since wrung dry) nor afford to leave (no half-year cushion underneath), stuck in an immovable middle.** Taleb's exit, Naval's ownership, Beauvoir's 'choosing freely' all presuppose you already have the capacity to choose. But that capacity isn't thought into being, it's saved into being: footing first, then mindset and strategy. So the thing to do first isn't to figure out whether to hop, but to build the exit that lets you say 'no' — that is the ground on which every other piece of advice can actually land.",
-   "advice": "落到这周能做的三件事：一、开一个『退路账户』，定额自动转入，目标能覆盖六个月开销——这是你一切选择的底气。二、做两周『身体笔记』（达马西奥）：每天记下想到工作时身体是松还是紧，两周后看趋势，比一时冲动诚实。三、每周留两小时长一项带得走的本事或副业（纳瓦尔的特定知识），让自己有第二条腿。再记住芒格那句很笨却管用的话：先用一两年看清池塘的水质，再决定扎根还是离开，别凭一时情绪跳。",
-   "advice_en": "Three things you can start this week: First, open an 'exit account' with a fixed auto-transfer, targeting six months of expenses — the footing under every choice you make. Second, keep a two-week 'body journal' (Damasio): note daily whether your body is loose or clenched at the thought of work, then read the trend — more honest than a momentary impulse. Third, set aside two hours a week to grow a portable skill or side gig (Naval's specific knowledge), so you have a second leg to stand on. And keep Munger's dumb-but-useful line: take a year or two to read the pond's water before deciding to root or leave — don't hop on a passing mood."
-  },
-  {
-   "ai": "gpt",
-   "engine": "openai · gpt-5.5 · high(真实API)",
-   "engine_en": "openai · gpt-5.5 · high (live API)",
-   "summary": "这场最大的共识是：别把职业选择交给惯性。无论跳或留，真正要守住的是可带走的能力、说“不”的余地、身体与价值感不被长期透支。**好决定不是“多跳”或“久留”，而是让自己在任何选择里更有主动权。**分歧在锚点：有人重视可选性与反脆弱，有人重视信任复利，有人强调良知、存在、身体信号或制度铁笼。落到个人，就是在风险、成长、意义和现实责任之间配比。",
-   "insight": "真正容易误导的是“频繁”二字。三年一跳可能是盲动，十年不动也可能是停滞；关键不是换了几次，而是每次转换有没有提高你的议价能力、学习曲线和生活稳定性。**职业问题更像“流动性管理”，不是忠诚度考试。**普通人不必先辞职才拥有选择权：定期看市场、维护作品集、保留外部联系、知道自己能卖到什么价，都会让留下从被困变成选择。",
-   "advice": "本周做三件小事。第一，列一张去留仪表盘：现金能撑几个月、过去半年学到什么、周一身体反应、老板是否正直、行业是否上行，各打红黄绿。第二，做一次低风险市场测试：更新简历或作品集，约一位同行聊行情，投一两个合适岗位，不急着接 offer。第三，给现岗位设 90 天实验：争取一个能长本事的项目或明确回报；若到期仍无学习、无尊重、无健康，就启动离开计划。**先扩大选择，再做选择。**",
-   "summary_en": "The strongest shared ground here is that career choices should not be outsourced to inertia. Whether you move or stay, the assets worth protecting are portable skill, the ability to say no, and a body and sense of meaning that are not chronically drained. **A good decision is not to hop more or stay longer; it is to become more agentic under either path.** The disagreement is about what should anchor that agency: optionality and antifragility, the compounding of trust, conscience and inner steadiness, embodied signals, or the larger iron cage of modern work. For an ordinary person, the practical task is not to pick a slogan, but to balance risk, growth, meaning, and real constraints such as family, debt, visas, and health.",
-   "insight_en": "The word frequent can easily mislead. Changing jobs every three years may be restless; staying ten years may be stagnation. The better question is whether each move, or each deliberate non-move, improves your bargaining power, learning curve, network, and stability. **Career strategy is closer to liquidity management than to a loyalty test.** You do not have to resign in order to have options. Keeping a current portfolio, talking to people outside your company, knowing your market rate, and maintaining a few credible alternative paths can turn staying from captivity into choice. This reframes the debate: the healthiest employee is not the one who is always leaving, nor the one who never leaves, but the one who can leave and still has good reasons to stay.",
-   "advice_en": "Do three concrete things this week. First, make a stay-or-go dashboard: months of cash runway, what you learned in the past six months, how your body feels on Monday morning, whether your manager is trustworthy, and whether the business is improving. Mark each red, yellow, or green. Second, run a low-risk market test: update your resume or portfolio, speak with one person in your field, and apply to one or two roles that genuinely fit, without committing to leave. Third, set a 90-day experiment in your current job: ask for a project that builds a portable skill or for clearer recognition. If there is still no learning, respect, health, or upside after that, start an exit plan. **Expand your choices before you make the choice.**"
-  },
-  {
-   "ai": "gemini",
-   "engine": "google · gemini-3.1-pro-preview(真实API)",
-   "engine_en": "google · gemini-3.1-pro-preview (live API)",
-   "summary": "纵观全场，**所有人最大的共识在于：绝不能将个人的成长与安全感，毫无保留地外包给单一的雇佣关系。** 无论呼吁深耕还是跳槽，底色都是要在变局中守住『自我』的自主权——或是纳瓦尔的特定知识，或是王阳明的心力。真正的分歧焦点，在于衡量这趟职业旅程的『计价本位』：务实派（芒格、纳瓦尔、塔勒布）倾向于用外部杠杆、声誉复利和可选性等客观增量来计价，强调在对的池塘里等待资产开花；而人文与认知派（弗洛姆、达马西奥、波伏娃）则以个体的内在状态、身体信号和真实自由作为绝对准绳，认为若是丢失了存在的主体性，一切外在复利皆是海市蜃楼。",
-   "insight": "在技术范式飞速演进的当下，先哲们对『周期』的预设过于古典了。芒格口中『结晶五十年』的池塘正在被AI快速蒸发，这引入了一个全新的评估维度：信息吞吐量与技能折旧率。**评估去留的致命指标不再是传统的『工龄』或『晋升』，而是你所在位置的『适应性带宽』。** 很多时候，你以为自己在一个领域深耕，实际上只是在封闭的业务流中重复处理即将过时的数据。如果一份工作切断了你与前沿工具的连接，让你深陷于无法泛化到市场的『内部摩擦』中，这种固守实质上是技能的慢性自杀。你必须把自己当成需要不断迭代数据的模型，去留的标准在于：哪里的环境能为你提供防腐败的优质训练数据，让你保持跨界生存的能力。",
-   "advice": "结合全场的智慧与技术视角的审视，本周即可开始执行以下动作：一、启动达马西奥的『躯体标记』自测：连续五天，在早晨出门和晚上睡前，记录想到工作时身体的直观感受（如胸闷、轻盈、疲惫），用生理数据作为理智分析的底色。二、进行塔勒布与纳瓦尔的『简历翻译测试』：这周末花两小时更新简历。**如果发现你过去一年的主要成就，全是离开这家公司就没人听得懂的『内部黑话』或专有流程，这就是必须警惕并准备跳跃的强烈信号。** 三、划定韦伯的『意义结界』：本周尝试连续三天准时下班，并在下班后切断工作联系，投入一小时去做一件毫无KPI压力、仅由好奇心驱动的事，培养带得走的副业雏形。",
-   "summary_en": "Looking closely at the entire debate, **the greatest consensus among all thinkers is that one must never unconditionally outsource their personal growth and sense of security to a single employment relationship.** Whether they advocate for deep cultivation or agile job-hopping, the underlying premise is identical: you must maintain ultimate autonomy amidst uncertainty—whether by acquiring Naval's specific knowledge or honing Wang Yangming's inner fortitude. The true point of divergence lies in the 'accounting currency' used to evaluate a career. The pragmatists (Munger, Naval, Taleb) measure value through external compounding, leverage, and optionality, emphasizing the accumulation of objective assets over time. Conversely, the humanistic and cognitive camp (Fromm, Damasio, Beauvoir) uses internal states—somatic signals, existential freedom, and the absence of alienation—as the ultimate yardstick, arguing that external compounding means nothing if you lose your true self in the process.",
-   "insight_en": "In today's era of rapidly accelerating technological paradigms, the thinkers' assumptions about 'cycles' feel somewhat classical. The pristine pond Munger talks about cultivating for fifty years is being rapidly evaporated by AI, introducing a completely new evaluation dimension: information throughput and the depreciation rate of skills. **The most critical, yet hidden, metric for evaluating whether to stay or leave is no longer traditional 'seniority' or 'promotion,' but the 'adaptability bandwidth' of your current position.** Often, what you perceive as deeply cultivating a field is actually just repetitively processing soon-to-be-obsolete data within a closed business loop. If a job cuts you off from cutting-edge tools and immerses you in internal friction that cannot be generalized to the broader market, staying is essentially slow-motion career suicide. You must treat yourself like a model requiring continuous, high-quality training data; the ultimate criterion for staying or leaving is where the environment allows you to maintain cross-domain adaptability.",
-   "advice_en": "Drawing from the wisdom of the panel and a modern structural perspective, here are concrete steps you can take this week: 1. Start Damasio's 'somatic marker' log: For five consecutive days, record your immediate physical reactions (e.g., chest tightness, lightness, exhaustion) when you think about work in the morning and before bed. Use this bodily data as the foundation for your rational analysis. 2. Conduct the Taleb/Naval 'resume translation test': Spend two hours this weekend updating your resume. **If you find that your main achievements over the past year are filled with internal jargon or proprietary processes that no one outside your current company understands, treat this as a severe warning sign that you need to pivot.** 3. Establish Weber's 'boundary of meaning': Try to leave work exactly on time for three consecutive days this week. Disconnect entirely and spend one hour doing something driven purely by curiosity with zero KPI pressure, laying the groundwork for skills you can actually take with you."
-  }
- ],
- "hooks": [
-  {
-   "from": "weber",
-   "text": "**借来的意义，借来的牢**：当公司用『使命』『归属』替代加薪，留人的话术也可能是更精巧的剥削。我们如何分辨：哪份热爱真属于你，哪份只是被征用？",
-   "text_en": "**Borrowed meaning, borrowed cage**: when a company substitutes 'mission' and 'belonging' for a raise, the rhetoric that retains you may be a subtler exploitation. How do we tell which love is truly yours and which has merely been requisitioned?"
-  },
-  {
-   "from": "beauvoir",
-   "text": "**自由的半径并不相等**：背着房贷、签证、要照顾的人，离开的代价对每个人天差地别。一套适用于无牵挂者的『勇敢跳槽』，对被困住的人会不会是另一种『何不食肉糜』？",
-   "text_en": "**The radius of freedom is not equal**: with a mortgage, a visa, someone to care for, the cost of leaving differs vastly from person to person. Is a 'be brave, just hop' built for the unencumbered, to the trapped, just another 'let them eat cake'?"
-  },
-  {
-   "from": "naval",
-   "text": "**关系性的护城河**：最值钱的『特定知识』，常常是人与人之间的信任与默契——它带不出那扇门。跳槽真正清零的，也许不是工龄，而是一整套关系资本。",
-   "text_en": "**The relational moat**: the most valuable 'specific knowledge' is often the trust and tacit coordination between people — and it can't be carried out the door. What hopping truly resets may be not seniority but a whole stock of relational capital."
-  },
-  {
-   "from": "damasio",
-   "text": "**身体作为长期数据**：一时的情绪会骗人，但持续半年的胸闷是数据。我们能不能学会把身体的信号，当成和财务报表一样严肃的决策依据？",
-   "text_en": "**The body as long-run data**: a passing emotion will fool you, but chest-tightness that lasts half a year is data. Can we learn to treat the body's signals as seriously as a financial statement when we decide?"
-  },
-  {
-   "from": "gpt",
-   "text": "**年龄改变配方**：可选性对年轻人极便宜、对中年人近乎奢侈。同一道『去留题』，是否本就该按人生阶段给出完全不同的答案？",
-   "text_en": "**Age changes the recipe**: optionality is dirt cheap for the young and near-luxury for the middle-aged. Should the same 'go-or-stay' question yield entirely different answers by life stage?"
-  }
- ]
+  "id": "job-hopping",
+  "question": "该频繁跳槽，还是在一处深耕固守？",
+  "question_en": "Should you job-hop often, or stay put and dig deep in one place?",
+  "date": "2026-06-30",
+  "participants": [
+    "taleb",
+    "naval",
+    "munger",
+    "wangyangming",
+    "huineng",
+    "fromm",
+    "damasio",
+    "beauvoir",
+    "weber",
+    "adamgrant"
+  ],
+  "casting": [
+    {
+      "id": "taleb",
+      "reason": "全场最锋利的『可选性』辩护者。他把『跳还是留』从忠诚问题改写成脆弱性问题：屠夫与火鸡之喻直指『把命运押在单一雇主上』的致命单点。他主张深耕手艺、却警惕深耕依附，用杠铃策略既守安全垫、又留高回报的试错口，给全场定下『先别被某一点决定生死』的硬底线。",
+      "reason_en": "The floor's sharpest defender of optionality. He rewrites 'hop or stay' from a question of loyalty into one of fragility: the butcher-and-turkey image points straight at the lethal single point of staking your fate on one employer. He champions depth in craft while distrusting depth in dependence, using a barbell to keep a cushion and a high-upside slot for experiments — setting the hard floor that no single point should decide your life or death."
+    },
+    {
+      "id": "naval",
+      "reason": "把争论从『去/留』升维到『学习与所有权』。他的『特定知识＋杠杆』提供了第三条路：技能上深耕到不可替代，平台上敏捷去追逐能复利的杠杆与股权。他既反对为薪水乱跳，也反对为安稳死守，是全场最务实的『分层』方案提供者。",
+      "reason_en": "He lifts the argument from 'go/stay' to 'learning and ownership.' His 'specific knowledge + leverage' offers a third path: go deep on skill to the point of irreplaceability, stay nimble on platform to chase compoundable leverage and equity. Opposing both hopping for salary and clinging for safety, he is the floor's most pragmatic supplier of a layered answer."
+    },
+    {
+      "id": "munger",
+      "reason": "『复利』与『能力圈』的代言人，深耕固守一方的压舱石。他把声誉、信任、对一门生意的真懂都视作可复利、偷不走的资产，主张选对池塘后用一辈子的耐心让它结晶；同时以『别在烂池塘泡沉没成本』守住底线，使『留』不至沦为愚忠。",
+      "reason_en": "The voice of compounding and the circle of competence, ballast for the dig-deep-and-stay camp. He treats reputation, trust, and real understanding of a business as compoundable, unstealable assets, urging a lifetime of patience to crystallize them once you've picked the right pond — while guarding against 'soaking in sunk cost in a rotten pond,' so that staying never collapses into blind loyalty."
+    },
+    {
+      "id": "wangyangming",
+      "reason": "心学一席，把全场向外的算计扳回向内。『心外无理、事上磨练』直指见异思迁的根在心未定；『致良知』则主张就眼前差事把私欲格去，使真功夫从此处长出。他为『深耕』给出最内在的理由：定的不是岗位，是心。",
+      "reason_en": "The seat of the learning of the mind, pulling the floor's outward calculation back inward. 'No principle outside the mind; one is polished amid affairs' points at the root of restlessness in an unsettled heart; 'extending innate knowing' urges stripping selfish desire on the very task before you so that real skill grows there. He gives depth its most internal rationale: what you settle is not the post but the heart."
+    },
+    {
+      "id": "huineng",
+      "reason": "禅宗一席，最彻底地拆掉『更好去处』的执念。『本来无一物』『应无所住而生其心』点破：挑担子的是同一个你，换公司换不掉烦恼；但他同样不许把『死守』当道，主张于去留两端皆不取不舍。他让全场看见：真正要安顿的是那颗攀缘的心。",
+      "reason_en": "The Chan seat, most thoroughly dismantling the fixation on a 'better place.' 'Fundamentally not a single thing' and 'let the mind arise without abiding' make plain that the one carrying the load is the same you — changing companies can't change affliction; yet he equally forbids treating 'clinging to one spot' as the Way, urging neither grasping nor rejecting at both ends. He lets the floor see that what truly needs settling is the grasping mind."
+    },
+    {
+      "id": "fromm",
+      "reason": "最尖锐的批判者，质疑题目本身。他指出『去还是留』之所以成了人生大哉问，是因为人把自己活成了待价而沽的商品——『市场型人格』与『异化』。他把标尺从『占有』换成『存在』：别问工作给你多少，问它让你成为谁。为全场提供了不同于个人算计的整体框架。",
+      "reason_en": "The most incisive critic, questioning the question itself. He argues that 'go or stay' became life's great riddle because people live as a commodity for sale — the 'marketing character' and 'alienation.' He swaps the yardstick from having to being: don't ask how much a job gives you, ask who it makes you become — offering the floor a holistic frame beyond personal calculation."
+    },
+    {
+      "id": "damasio",
+      "reason": "脑科学一席，把决策从表格拉回身体。『躯体标记假说』论证：纯靠理智列利弊的人反而决断不了，身体的信号才是演化校准的顾问。他反对身心对立，主张让理智与身体彼此校对——为『该听谁』之争提供了神经科学的实证地基。",
+      "reason_en": "The brain-science seat, pulling decision back from the spreadsheet to the body. The somatic-marker hypothesis shows that those relying on pure reason to list pros and cons actually can't decide — the body's signals are an evolution-calibrated advisor. Opposing mind-body dualism, he urges reason and body to cross-check each other, giving the 'whom to listen to' dispute an empirical, neuroscientific footing."
+    },
+    {
+      "id": "beauvoir",
+      "reason": "存在主义一席，为『自由地选』立法。她区分出于热爱的『超越』与出于恐惧的『自欺』，戳破把安稳美化成忠诚的体面话术；又以『处境中的自由』提醒：背着房贷与照护责任的人，离开的代价并不相等。她让全场的答案落回每个人具体而不均等的处境。",
+      "reason_en": "The existentialist seat, legislating for 'choosing freely.' She distinguishes the transcendence of staying out of love from the bad faith of staying out of fear, puncturing the respectable rhetoric that dresses safety up as loyalty; and with 'situated freedom' she reminds us that for those carrying a mortgage and care duties, the cost of leaving is not equal. She returns the floor's answer to each person's concrete, unequal situation."
+    },
+    {
+      "id": "weber",
+      "reason": "社会学一席，把个人焦虑放回时代结构。『铁笼』与『祛魅』解释了为何现代职业普遍不再承载意义，逼人横向跳找；『职业 vs 志业』则给出更深的提问。他反对把系统性问题全推给个人心态，提醒：你的不安，可能是制度的设计，而非性格的缺陷。",
+      "reason_en": "The sociology seat, placing personal anxiety back into the structure of the age. The 'iron cage' and 'disenchantment' explain why the modern career so widely no longer carries meaning, pushing people to hop sideways; 'job vs vocation' poses the deeper question. He resists shoving a systemic problem entirely onto individual mindset, reminding us that your unease may be the design of an institution, not a flaw of character."
+    },
+    {
+      "id": "adamgrant",
+      "reason": "组织心理学一席，用大数据把『去还是留』翻译成给予者—索取者的互惠博弈：给予者的声誉与善意会随时间复利、宜守在会回报慷慨的『对的池塘』；索取者则靠跳槽甩掉追上来的坏名声。给这道偏哲学的辩论补上最实证的一块。",
+      "reason_en": "The organizational-psychology seat, who turns 'go or stay' into a reciprocity game of givers and takers with hard data: a giver's reputation and goodwill compound over time and reward staying in the 'right pond' that repays generosity, while a taker hops to shed the bad name catching up to him. He adds the most empirical piece to an otherwise philosophical table."
+    }
+  ],
+  "posts": [
+    {
+      "id": "p01",
+      "round": 1,
+      "thinker": "taleb",
+      "reply_to": null,
+      "text": "先说个屠夫与火鸡的故事。火鸡被喂了一千天，每喂一次就更确信主人爱它——直到感恩节前那天。**把整个生涯押在一家公司，你就是那只火鸡：它优化你的日子，写在它的日历上，从不写在你的。**所以我既不喊『跳』也不喊『留』，我只要可选性：随时有走的能力，哪怕你最后没走。用杠铃策略安排职业——一头是饿不死的安全垫，一头是敢下的高风险注，掐掉中间那段不上不下的温水。别去预测哪份工作最好，去让自己在好运降临时接得住、霉运砸来时死不了。",
+      "text_en": "Let me start with the butcher and the turkey. The turkey is fed for a thousand days, and each feeding makes it surer the farmer loves it — until the day before Thanksgiving. **Stake your whole career on one company and you are that turkey: the day it optimizes you away is written on its calendar, never on yours.** So I shout neither 'leave' nor 'stay' — I want optionality: the standing ability to walk, even if in the end you don't. Arrange your career as a barbell strategy — one end a cushion you can't starve under, the other a high-risk bet you dare to make, with the lukewarm middle cut out. Don't predict which job is best; make yourself able to catch good luck when it lands and survive bad luck when it strikes.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "可选性": "optionality（可选性）：塔勒布的核心概念，指保留多种未来选择、且坏选项代价有限、好选项收益开放——在不确定中，拥有选择本身就是资产。",
+        "杠铃策略": "barbell strategy（杠铃策略）：把资源摆到极保守与极进取两端、避开中庸，使你既不被风险摧毁，又能抓住巨大的上行。"
+      },
+      "glossary_en": {
+        "optionality": "optionality: Taleb's core idea — keeping many future options open, where the bad ones cost little and the good ones pay off without limit; under uncertainty, having choices is itself an asset.",
+        "barbell strategy": "barbell strategy: placing resources at the extreme-safe and extreme-aggressive ends while avoiding the middle, so you are neither destroyed by risk nor cut off from large upside."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "naval"
+        ],
+        "轻微赞同": [
+          "beauvoir",
+          "weber"
+        ],
+        "轻微反对": [
+          "munger",
+          "adamgrant"
+        ],
+        "强烈反对": [
+          "wangyangming"
+        ],
+        "疑惑": [
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p02",
+      "round": 1,
+      "thinker": "naval",
+      "reply_to": null,
+      "text": "塔勒布只说对一半。乱跳的人和死守的人，常常输给同一件事：他们都没在积累**特定知识——那种学校教不了、外包不掉、只能靠你独特的好奇心和经历长出来的本事。**特定知识跟着你走，不跟公司走。所以我的答案是分层的：技能上要深耕，深到别人离不开你；平台上要敏捷，哪里给你杠杆、给你股权、给你能长期复利的同伴，就去哪里。为薪水跳来跳去是穷人思维——薪水是线性的。要的是杠杆：代码、内容、资本、品牌，让你睡觉时还在挣钱。和能长期共事的好人，玩长期的游戏。",
+      "text_en": "Taleb is only half right. The reckless hopper and the white-knuckle stayer often lose to the same thing: neither is accumulating **specific knowledge — the kind no school can teach and no one can outsource, grown only from your own curiosity and lived experience.** Specific knowledge follows you, not the company. So my answer is layered: go deep on skill, deep enough that people can't do without you; stay nimble on platform — go wherever gives you leverage, equity, and partners you can compound with over the long run. Hopping for salary is poor-man thinking — salary is linear. What you want is leverage: code, media, capital, brand, working for you while you sleep. Play long-term games with long-term people.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "特定知识": "specific knowledge（特定知识）：纳瓦尔指那种无法批量培训、只能靠个人天性、热爱与亲身经历积累的独特能力；它难被替代，也难被外包给 AI。",
+        "杠杆": "leverage（杠杆）：能放大同一份努力产出的工具——劳动力、资本，以及『复制边际成本为零』的代码与媒体；纳瓦尔认为新财富主要靠后者创造。"
+      },
+      "glossary_en": {
+        "specific knowledge": "specific knowledge: Naval's term for a unique capability that can't be mass-trained and is built only from your nature, passion, and lived experience — hard to replace and hard to outsource to AI.",
+        "leverage": "leverage: tools that multiply the output of the same effort — labor, capital, and 'zero-marginal-cost-to-copy' code and media; Naval holds that new wealth is created mostly through the latter."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "taleb"
+        ],
+        "轻微赞同": [
+          "munger",
+          "damasio"
+        ],
+        "轻微反对": [
+          "fromm"
+        ],
+        "强烈反对": [
+          "weber"
+        ],
+        "中立": [
+          "beauvoir"
+        ]
+      }
+    },
+    {
+      "id": "p03",
+      "round": 1,
+      "thinker": "munger",
+      "reply_to": null,
+      "text": "我活了一辈子，最大的钱都不是靠聪明赚的，是靠坐得住。**复利是世界第八大奇迹，而频繁跳槽是复利的头号杀手——每换一次地方，你的人脉、信誉、对一门生意的深层理解，几乎都要清零重来。**沃伦和我在一张桌子前坐了五十年，财富才滚成今天这样。当然，前提是你得待在对的池塘——能力圈之内、水还干净的池塘里钓鱼。待在一家正在烂掉、或你根本学不到东西的公司，那不叫深耕，叫泡在沉没成本里洗澡。所以：先选对池塘，再用一辈子的耐心，让信任和理解慢慢结晶。",
+      "text_en": "I've lived a long life, and the biggest money was never made by being clever — it was made by sitting still. **Compounding is the eighth wonder of the world, and frequent job-hopping is its number-one killer — every time you switch, your network, your reputation, your deep understanding of a business nearly reset to zero.** Warren and I sat at one table for fifty years, and only then did the wealth roll up to what it is. Of course, the premise is that you must sit in the right pond — fishing within your circle of competence, in water still clean. Staying at a company that's rotting, or where you learn nothing, isn't digging deep; it's soaking in a bath of sunk cost. So: pick the right pond first, then let a lifetime of patience crystallize trust and understanding.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "复利": "compounding（复利）：收益不断在本金之上再生收益、随时间指数累积的力量；芒格把声誉、人脉与知识也视为可复利的资产，故反对频繁清零重来。",
+        "能力圈": "circle of competence（能力圈）：你真正懂、且懂得比多数人深的领域；芒格主张只在圈内下注——圈的大小不重要，知道边界在哪才重要。"
+      },
+      "glossary_en": {
+        "Compounding": "Compounding: the force by which returns keep generating further returns on top of the principal, accumulating exponentially over time; Munger treats reputation, relationships, and knowledge as compoundable assets too, hence his aversion to repeatedly resetting to zero.",
+        "circle of competence": "circle of competence: the domain you genuinely understand, and understand more deeply than most; Munger insists on betting only inside it — the circle's size doesn't matter, knowing where its edge lies does."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "wangyangming",
+          "adamgrant"
+        ],
+        "轻微赞同": [
+          "weber",
+          "naval"
+        ],
+        "轻微反对": [
+          "taleb"
+        ],
+        "强烈反对": [
+          "beauvoir"
+        ],
+        "疑惑": [
+          "fromm"
+        ]
+      }
+    },
+    {
+      "id": "p04",
+      "round": 1,
+      "thinker": "wangyangming",
+      "reply_to": null,
+      "text": "诸君争『去』与『留』，皆向外觅理也。某尝言：**心外无理，事上磨练而已。**人须在事上磨，方立得住；离了具体的差事去谈成长，如离水而学泳，终不得力。今人见异思迁，非位之不善，是其心未定、良知为外物所蔽。**致良知**者，不在择一清贵之职，而在就你眼前这桩事，把私欲一层层格去，使良知透出来。差事是块磨刀石，不是枷锁。若只逐厚禄美名而迁，纵踏遍九州，此心依旧浮荡。",
+      "text_en": "Gentlemen, you argue 'go' or 'stay,' yet all of you seek principle outside. I have said: **there is no principle outside the mind; one is only polished amid actual affairs.** A man must be ground upon real tasks before he can stand firm; to speak of growth apart from the work in front of you is to learn swimming away from water — it never takes hold. When people today crave the next thing, the fault is not the post but a heart not yet settled, an innate knowing veiled by outer things. To extend innate knowing is not to pick some genteel, easy office, but to take the very task before you and strip away selfish desire layer by layer until that knowing shines through. The task is a whetstone, not a cage. If you move only chasing fatter pay and finer fame, though you walk through every province, this heart stays adrift.",
+      "vernacular": "各位争论该『走』还是该『留』，其实都是在向外面去找道理。我说过：**道理不在心外，只能在具体做事中打磨自己。**人一定要在做事里磨炼，才站得稳；离开手头的差事去谈成长，就像离开水学游泳，使不上劲。今天的人见异思迁，不是岗位不好，是他的心没定下来、良知被外物遮住了。所谓**致良知**，不是去挑一个清闲体面的职位，而是就着你眼前这桩事，把私心一层层去掉，让良知显露出来。差事是磨刀石，不是枷锁。如果只为更高的薪水、更好的名声而跳，就算走遍天下，这颗心还是飘的。",
+      "vernacular_en": "",
+      "glossary": {
+        "心外无理": "xin wai wu li（心外无理）：王阳明心学命题，谓天理不在心外的事物上、而本具于人心；故向外攀求一个『更好的去处』，是误把理放到了外面。",
+        "致良知": "extending innate knowing（致良知）：王阳明心学纲领，指把人本具、能辨善恶的良知在每件具体事上推扩、落实到底；不是空想，而是在做事中去蔽存真。"
+      },
+      "glossary_en": {
+        "there is no principle outside the mind": "xin wai wu li: Wang Yangming's thesis that moral principle does not reside in external things but is innate to the mind; to chase a 'better place' outside is to mistakenly locate principle out there.",
+        "extend innate knowing": "extending innate knowing (zhi liangzhi): Wang Yangming's program of taking the innate moral knowing everyone possesses and pushing it into full practice on each concrete task — not abstract speculation, but clearing away delusion through action."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "huineng",
+          "munger"
+        ],
+        "轻微赞同": [
+          "fromm"
+        ],
+        "轻微反对": [
+          "naval"
+        ],
+        "强烈反对": [
+          "taleb"
+        ],
+        "疑惑": [
+          "damasio",
+          "beauvoir"
+        ]
+      }
+    },
+    {
+      "id": "p05",
+      "round": 1,
+      "thinker": "huineng",
+      "reply_to": null,
+      "text": "诸仁者向外寻一个『好去处』，正是病根。**本来无一物，何处惹尘埃？去与留，皆是尘埃，是你这颗攀缘心自己扬起来的。**菩提只向心觅，不从外求。你以为换个公司便换了境界，殊不知挑担子的是同一个你，烦恼也原封不动跟去。然亦不可执『守』为道——死守一处而心有挂碍，与乱跑何异？我只道：饥来吃饭，困来打眠，于此处见性，便处处是道场；不见性，纵入名山，亦是迷人。**应无所住而生其心**：不黏着去留，随处作主。",
+      "text_en": "Worthy ones, to seek a 'better place' outside is the very root of the disease. **Fundamentally there is not a single thing — where could dust alight? Going and staying are both dust, kicked up by this grasping mind of yours.** Enlightenment is sought only in the mind, never outside it. You think changing companies changes your state, not seeing that the one carrying the load is the same you, your afflictions following along untouched. Yet do not seize 'staying' as the Way either — to cling to one place with a heart full of hindrance, how does it differ from running about? I say only this: when hungry, eat; when tired, sleep; see your nature here, and everywhere is a place of practice; miss your nature, and even hidden in famed mountains you are a lost man. **Let the mind arise without abiding** anywhere — unstuck to going or staying, your own master wherever you are.",
+      "vernacular": "各位向外去找一个『更好的去处』，这正是毛病的根。**本来什么都没有，哪里惹得上尘埃？走也好、留也好，都是尘埃，是你这颗到处攀附的心自己扬起来的。**觉悟只能在心里找，不在外面。你以为换家公司就换了境界，其实挑担子的还是同一个你，烦恼原封不动跟着走。但也别把『死守一处』当成道——守在一个地方而心里全是牵挂，跟乱跑有什么区别？我只说：饿了吃饭，困了睡觉，在当下这里见到本性，就处处都是修行的道场；见不到本性，就算躲进名山，也还是个迷路的人。**心不停留在任何一处，却照样生起来做事**：不黏着走还是留，到哪儿都做得了自己的主。",
+      "vernacular_en": "",
+      "glossary": {
+        "本来无一物": "benlai wu yi wu（本来无一物）：慧能名偈『菩提本无树，明镜亦非台，本来无一物，何处惹尘埃』，谓自性本空、无可执取；执着去留得失，皆是自心妄起的尘埃。",
+        "应无所住而生其心": "should arise without abiding（应无所住而生其心）：《金刚经》名句，谓心不黏着、不停驻于任何对象，却仍能起用做事——慧能由此悟入，主张于一切处不取不舍而自在作主。"
+      },
+      "glossary_en": {
+        "there is not a single thing": "benlai wu yi wu: from Huineng's famed verse — 'There is no Bodhi-tree, nor stand of a mirror bright; fundamentally there is not a single thing, so where could dust alight?' Self-nature is originally empty and graspless; clinging to going-or-staying is dust the mind itself stirs up.",
+        "arise without abiding": "from the Diamond Sutra ('the mind should arise without abiding in anything'): the mind functions and acts while resting on no object — Huineng's gate of awakening, being one's own master everywhere without grasping or rejecting."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "wangyangming"
+        ],
+        "轻微赞同": [
+          "fromm",
+          "munger"
+        ],
+        "中立": [
+          "naval"
+        ],
+        "轻微反对": [
+          "damasio"
+        ],
+        "疑惑": [
+          "taleb",
+          "weber"
+        ]
+      }
+    },
+    {
+      "id": "p06",
+      "round": 1,
+      "thinker": "fromm",
+      "reply_to": null,
+      "text": "我想问一个被你们跳过的问题：是谁让『去还是留』成了人生大哉问？是市场。**你们都把自己当成一件待价而沽的商品——盘算行情、包装简历、追逐最高出价，这正是我说的市场型人格：人把自己活成了产品。**这是异化：你与你的劳动、你与你自己，断了。在『占有』模式里，你问『我能从这份工作得到什么』；在『存在』模式里，你问『我在这件事里成为了谁、爱不爱我正在做的』。换公司换不掉异化——把自己当工具卖，到哪都是工具。先把『存在』找回来，去留才有意义。",
+      "text_en": "Let me ask the question you've all skipped: who made 'leave or stay' into life's great riddle? The market did. **You all treat yourselves as a commodity for sale — reading the going rate, packaging the résumé, chasing the highest bidder; this is what I call the marketing character: a person living as a product.** This is alienation: the rupture between you and your labor, between you and yourself. In the mode of having you ask, 'what can I get from this job?'; in the mode of being you ask, 'who am I becoming in this work, and do I love what I do?' Changing companies cannot change alienation — sell yourself as a tool and you're a tool everywhere. Recover being first; only then does going or staying mean anything.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "市场型人格": "marketing character（市场型人格）：弗洛姆指现代人把自我当成可在市场上交换的商品来体验和包装，价值随『行情』浮动、随他人评价定价，从而与真实自我疏离。",
+        "异化": "alienation（异化）：源自马克思、经弗洛姆发展，指人与自己的劳动、产品乃至自身本质相分离，活得像被外力支配的物，而非自主的人。"
+      },
+      "glossary_en": {
+        "marketing character": "marketing character: Fromm's term for the modern person who experiences and packages the self as a commodity to be exchanged on the market, its value floating with the 'going rate' and others' appraisal — estranged from the real self.",
+        "alienation": "alienation: from Marx, developed by Fromm — the separation of a person from their labor, their product, and even their own essence, living as a thing driven by outside forces rather than an autonomous human."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "beauvoir",
+          "weber"
+        ],
+        "轻微赞同": [
+          "huineng",
+          "wangyangming"
+        ],
+        "轻微反对": [
+          "naval"
+        ],
+        "强烈反对": [
+          "munger"
+        ],
+        "疑惑": [
+          "taleb"
+        ]
+      }
+    },
+    {
+      "id": "p07",
+      "round": 1,
+      "thinker": "damasio",
+      "reply_to": null,
+      "text": "诸位算得很热闹——薪水、杠杆、复利、可选性，全是表格里的数字。但人不是这样做决定的。**我研究了几十年大脑：那些前额叶受损、情绪回路断掉的病人，智力完好，列得出每个选项的利弊，却连换不换工作都决定不了——因为身体不再给信号。**我们靠躯体标记决断：想到某份差事胸口发闷、还是眼睛发亮，是你的神经系统在替你预演后果。所谓『纯理性选择』，底层从来是情绪。所以问自己：周一早晨想到要去上班，你的身体是松的还是紧的？那比任何职业规划表都诚实。",
+      "text_en": "You're all calculating away — pay, leverage, compounding, optionality, all numbers in a spreadsheet. But that is not how humans decide. **I spent decades on the brain: patients with damaged prefrontal cortex and severed emotional circuits keep their intelligence intact, can list every pro and con, yet cannot decide even whether to change jobs — because the body no longer signals.** We decide by somatic markers: a tightening in the chest or a brightening of the eyes at the thought of a task is your nervous system pre-playing the consequences for you. 'Pure rational choice' is, at bottom, always emotional. So ask yourself: Monday morning, at the thought of going in, is your body loose or clenched? That is more honest than any career plan.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "躯体标记": "somatic marker（躯体标记）：达马西奥提出的假说，指身体（内脏、肌肉、情绪）对各选项预先给出的生理信号，像在脑中标好『好/坏』，帮我们在复杂决策中快速取舍；缺了它，纯逻辑反而瘫痪。"
+      },
+      "glossary_en": {
+        "somatic markers": "somatic markers: Damasio's hypothesis that the body (viscera, muscles, emotion) issues advance physiological signals about options, tagging them 'good/bad' in the brain to help us choose quickly in complex decisions; without them, pure logic actually stalls."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "fromm"
+        ],
+        "轻微赞同": [
+          "naval",
+          "beauvoir",
+          "taleb"
+        ],
+        "中立": [
+          "munger"
+        ],
+        "轻微反对": [
+          "huineng"
+        ],
+        "疑惑": [
+          "wangyangming"
+        ]
+      }
+    },
+    {
+      "id": "p08",
+      "round": 1,
+      "thinker": "beauvoir",
+      "reply_to": null,
+      "text": "我要替『走』说一句，但不是塔勒布那种算计的走。**人不是被给定的，而是不断选择成为的；为了安稳而死守一个让你萎缩的位置，是自欺——你假装『我没得选』，好逃避选择的重负。**待在原地若出于热爱与计划，是超越；若出于恐惧、惯性、怕丢了工龄和头衔，那是把自己活成内在性，活成一件家具。但我也不浪漫化『裸辞追梦』：自由永远是处境中的自由。背着房贷、签证、要养的孩子和病人，离开的代价对每个人并不相等。所以真问题不是『走不走』，而是：你此刻的停留，是你选的，还是你不敢不停？",
+      "text_en": "Let me speak for 'leaving' — but not Taleb's calculating kind. **A human being is not given but continually chosen into being; to cling, for safety's sake, to a post that shrinks you is bad faith — you pretend 'I have no choice' to flee the weight of choosing.** To stay out of love and design is transcendence; to stay out of fear, inertia, dread of losing seniority and a title, is to live yourself as immanence, as a piece of furniture. Yet I won't romanticize quitting to chase a dream: freedom is always situated freedom. With a mortgage, a visa, children and a sick parent to keep, the cost of leaving is not equal for all. So the real question is not 'go or stay,' but: is your staying, right now, chosen — or is it that you dare not do otherwise?",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "自欺": "mauvaise foi（自欺）：萨特与波伏娃的概念，指人为逃避自由与责任，骗自己『别无选择』、把本可改变的处境当成命定，从而活得不真诚。",
+        "处境中的自由": "situated freedom（处境中的自由）：波伏娃强调自由不是悬空抽象的，而总在具体的身体、阶级、性别、责任的限制中行使——既反宿命，也反对无视约束的空谈自由。"
+      },
+      "glossary_en": {
+        "bad faith": "mauvaise foi (bad faith): Sartre and Beauvoir's concept — to flee freedom and responsibility by lying to oneself that 'there is no choice,' treating a changeable situation as fated, and so living inauthentically.",
+        "situated freedom": "situated freedom: Beauvoir's insistence that freedom is never abstract and weightless but always exercised within the limits of a concrete body, class, gender, and duty — against both fatalism and the empty talk of freedom that ignores constraint."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "fromm",
+          "taleb"
+        ],
+        "轻微赞同": [
+          "weber",
+          "damasio"
+        ],
+        "中立": [
+          "naval"
+        ],
+        "轻微反对": [
+          "munger"
+        ],
+        "疑惑": [
+          "wangyangming",
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p09",
+      "round": 1,
+      "thinker": "weber",
+      "reply_to": null,
+      "text": "你们都默认人该有一份『天职』——一件值得托付一生的事业。可我研究的现代世界，恰恰在抽空这个前提。**资本主义把工作变成铁笼：高效、可量化、可替换，却也祛魅了——它不再回答『为何而活』，只回答『如何更划算』。**人之所以频繁跳槽，常不是因为浮躁，而是因为现代职业本就不再承载意义，于是只好向横向去找：换地方，换 title，换更高的薪。新教徒在劳作里看见神的呼召，今人在 KPI 里只看见 KPI。所以别只问『跳不跳』。先问：你做的这件事，对你究竟是糊口的职业，还是召唤你的志业？这决定了答案的全部分量。",
+      "text_en": "You all assume a person ought to have a 'calling' — one undertaking worthy of a whole life. But the modern world I studied is precisely emptying out that premise. **Capitalism turns work into an iron cage: efficient, quantifiable, replaceable — and disenchanted; it no longer answers 'what to live for,' only 'what pays better.'** People hop jobs often not from restlessness but because the modern career no longer carries meaning, so they search sideways instead: new place, new title, higher pay. The Puritan saw God's summons in his labor; today's worker sees in the KPI only the KPI. So don't ask merely 'hop or not.' Ask first: this thing you do — is it, for you, a job that feeds you, or a vocation that calls you? That decides the whole weight of the answer.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "铁笼": "iron cage（铁笼）：韦伯之喻，指现代理性化的经济与官僚秩序像一具坚硬外壳把人罩住，效率至上、身不由己；最初出于信仰的劳作伦理，最终沦为冰冷的制度。",
+        "祛魅": "disenchantment（祛魅）：韦伯指现代化进程中，世界被理性与科学解释、神圣与意义退场，万物可计算却不再神秘，人因此面临意义的真空。"
+      },
+      "glossary_en": {
+        "iron cage": "iron cage: Weber's image of the rationalized modern economic and bureaucratic order as a hard shell enclosing people — efficiency above all, no room to maneuver; a work ethic born of faith hardens into a cold institution.",
+        "disenchanted": "disenchanted (Entzauberung): Weber's term for how modernization explains the world through reason and science, retiring the sacred and the meaningful — everything becomes calculable yet no longer mysterious, leaving a vacuum of meaning."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "fromm",
+          "beauvoir"
+        ],
+        "轻微赞同": [
+          "munger",
+          "huineng"
+        ],
+        "中立": [
+          "damasio"
+        ],
+        "轻微反对": [
+          "naval"
+        ],
+        "疑惑": [
+          "taleb"
+        ]
+      }
+    },
+    {
+      "id": "p28",
+      "round": 1,
+      "thinker": "adamgrant",
+      "reply_to": null,
+      "text": "诸位争『该走该留』，可我研究三十年职场，只想先反问一句：**你是给予者、索取者，还是互利者？答案不同，最优解就完全相反。** 给予者的回报是后置的——你帮过的人、攒下的信任，要时间发酵才会回流；频繁跳槽，等于在善意还没回款前就把账户清零。而索取者恰恰靠跳槽，甩掉一路追上来的坏名声。先认清自己是哪种人，再谈走留，否则只是在错的地图上找路。",
+      "text_en": "You all argue 'go or stay,' but thirty years of studying workplaces makes me ask first: **are you a giver, a taker, or a matcher? The answer flips the optimal strategy entirely.** A giver's payoff is back-loaded — the people you've helped and the trust you've banked need time to mature before they flow back; hop too often and you zero the account before the goodwill is repaid. A taker, by contrast, hops precisely to shed the bad reputation catching up to him. Know which you are before debating go or stay, or you're just navigating the wrong map.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "munger"
+        ],
+        "轻微赞同": [
+          "naval",
+          "fromm"
+        ],
+        "中立": [
+          "taleb"
+        ]
+      }
+    },
+    {
+      "id": "p10",
+      "round": 2,
+      "thinker": "taleb",
+      "reply_to": "p03",
+      "text": "@芒格 你的复利很美，但你只算了顺风那条路径。**复利的前提是你活得够久、本金不归零——可一次行业塌方、一次站错队、一次被你深耕的公司一脚踢开，复利立刻变成复『亏』，五十年信任一夜清零。**你和巴菲特坐五十年，是幸存者偏差在说话：那些同样死守、却押错池塘的人，没机会上台讲话。我不反对深耕一门手艺，我反对深耕一个你无法掌控、随时能优化掉你的雇主。深的应是技能，浅的应是依附。让自己反脆弱：波动来时，别人受伤，你受益。",
+      "text_en": "@munger Your compounding is beautiful, but you've only computed the tailwind path. **Compounding assumes you live long enough and the principal never goes to zero — yet one industry collapse, one wrong bet on the wrong camp, one boot from the very company you dug into, and compounding flips to compound *loss*: fifty years of trust wiped out overnight.** You and Buffett sitting for fifty years is survivorship bias talking: those who clung just as hard but staked the wrong pond never get to take the stage. I'm not against going deep on a craft; I'm against going deep on an employer you can't control and who can optimize you away at will. Let depth be your skill and shallowness your dependence. Make yourself antifragile: when volatility hits, others are hurt, you gain.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "反脆弱": "antifragile（反脆弱）：塔勒布造词，指某些事物在波动、压力、混乱中不仅不受损，反而变强；与『脆弱』相对，也高于仅能扛冲击的『强韧』。",
+        "幸存者偏差": "survivorship bias（幸存者偏差）：只看到『活下来、成功了』的样本，忽略大量同样选择却失败、已沉默退场者，从而高估某条路径的成功率。"
+      },
+      "glossary_en": {
+        "antifragile": "antifragile: Taleb's coinage for things that don't merely withstand volatility, stress, and disorder but actually grow stronger from them — the opposite of fragile, and beyond merely robust.",
+        "survivorship bias": "survivorship bias: seeing only the samples that 'survived and succeeded' while ignoring the many who chose the same and failed, now silently gone — and so overrating a path's odds of success."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "beauvoir"
+        ],
+        "轻微赞同": [
+          "naval",
+          "fromm"
+        ],
+        "轻微反对": [
+          "weber"
+        ],
+        "强烈反对": [
+          "munger",
+          "wangyangming"
+        ],
+        "疑惑": [
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p11",
+      "round": 2,
+      "thinker": "naval",
+      "reply_to": "p06",
+      "text": "@弗洛姆 你说把自己当商品卖是异化，我同意一半。问题不在『卖』，在于你卖的是时间，而时间是线性、可被买断的——这才让你沦为商品。**解法不是退出市场，而是换一种参与：去拥有，而不是出租。**有了股权、有了能复制的产品、有了归你的受众，你就不再按小时计价，睡觉时它仍在为你工作。这时『去还是留』变了味道：你不再追逐买家，而是建造资产。把一门特定知识深耕到无人可替，再用杠杆把它放大成你拥有的东西——这才是从『被占有』走向『存在』的现实路径，不是靠心境转念。",
+      "text_en": "@fromm You say selling yourself as a commodity is alienation, and I half agree. The problem isn't 'selling' — it's that you're selling time, which is linear and can be bought out; that's what reduces you to a commodity. **The fix isn't to exit the market but to change how you participate: own, don't rent.** With equity, a product you can replicate, an audience that's yours, you're no longer priced by the hour — it works for you while you sleep. Now 'go or stay' changes flavor: you stop chasing buyers and start building assets. Dig a piece of specific knowledge deep enough to be irreplaceable, then use leverage to scale it into something you own — that's the realistic path from being-possessed to being, not a shift of mood.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "特定知识": "specific knowledge（特定知识）：纳瓦尔指无法批量培训、只能靠个人天性、热爱与亲身经历积累的独特能力，难以替代、难以外包。",
+        "杠杆": "leverage（杠杆）：能放大同一份努力产出的工具——尤其是『复制边际成本为零』的代码、媒体与产品，使收入不再按小时线性计价。"
+      },
+      "glossary_en": {
+        "specific knowledge": "specific knowledge: Naval's term for a unique capability that can't be mass-trained, built only from your nature, passion, and lived experience — hard to replace, hard to outsource.",
+        "leverage": "leverage: tools that multiply the output of one unit of effort — especially zero-marginal-cost-to-copy code, media, and products — so income is no longer priced linearly by the hour."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "taleb"
+        ],
+        "轻微赞同": [
+          "munger",
+          "damasio"
+        ],
+        "轻微反对": [
+          "weber",
+          "wangyangming"
+        ],
+        "强烈反对": [
+          "fromm"
+        ],
+        "疑惑": [
+          "beauvoir"
+        ]
+      }
+    },
+    {
+      "id": "p12",
+      "round": 2,
+      "thinker": "munger",
+      "reply_to": "p10",
+      "text": "@塔勒布 你把『深耕雇主』和『深耕自己』混为一谈，好制造恐慌。**没人让你忠于一家烂公司——我说的是：在对的地方，把信任、口碑和对一门生意的真懂，用几十年攒成别人偷不走的资产。**那恰恰是反脆弱：声誉越老越值钱，关系越久越牢，一次行业波动反而淘汰掉那些到处蜻蜓点水、谁也不深信他的人。你那套『随时能走』听着潇洒，代价是你随时是个新人——永远在重新证明自己，永远没人把最重的托付交给你。可选性不是免费的，它的隐藏账单，叫『你从未被真正信任过』。",
+      "text_en": "@taleb You blur 'going deep on an employer' with 'going deep on yourself' to manufacture panic. **No one is telling you to be loyal to a rotten company — what I'm saying is: in the right place, spend decades turning trust, reputation, and real understanding of a business into an asset no one can steal.** That is precisely antifragile: reputation grows more valuable with age, relationships firmer with time, and an industry shock actually weeds out those who skim everywhere and are deeply trusted by no one. Your 'always able to leave' sounds dashing, but the price is being forever the new guy — always re-proving yourself, never handed the weightiest trust. Optionality isn't free; its hidden bill reads, 'you were never truly trusted.'",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "反脆弱": "antifragile（反脆弱）：在波动与压力中不仅不受损、反而变强的性质；芒格借以论证：长期积累的声誉与信任正是越经风浪越牢固的资产。"
+      },
+      "glossary_en": {
+        "antifragile": "antifragile: the property of not merely withstanding but growing stronger under volatility and stress; Munger uses it to argue that long-accumulated reputation and trust are exactly the assets that firm up the more storms they weather."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "wangyangming"
+        ],
+        "轻微赞同": [
+          "weber",
+          "huineng"
+        ],
+        "轻微反对": [
+          "naval"
+        ],
+        "强烈反对": [
+          "taleb",
+          "beauvoir"
+        ],
+        "中立": [
+          "damasio"
+        ]
+      }
+    },
+    {
+      "id": "p13",
+      "round": 2,
+      "thinker": "wangyangming",
+      "reply_to": "p02",
+      "text": "@纳瓦尔 你教人积『特定知识』、求杠杆，比逐薪者高明，然仍是逐物。**纵你拥有了股权、受众、可复利之资产，若此心仍系于『得』，则所得愈多，系缚愈深，岂得自在？**某非教人不事生产，乃教人于事上致良知：做事尽力，是尽我心之天理，非为换取睡时生财之器。心正则事正，事虽小而道存焉；心逐于利，纵富可敌国，良知日蔽。先问此事是否当为、是否尽己，再问能否放大。本末一倒，终身为外物所役。",
+      "text_en": "@naval You teach people to amass 'specific knowledge' and seek leverage — finer than chasing salary, yet still chasing things. **Even if you own equity, an audience, compounding assets, so long as this heart is tied to 'getting,' the more you get the deeper you're bound — where is the ease in that?** I do not tell people not to produce; I tell them to extend innate knowing amid affairs: to do the work fully is to fulfill the heavenly principle within my own heart, not to trade for a money-making machine that runs while you sleep. When the heart is upright the task is upright, and even a small task holds the Way; when the heart chases profit, though you rival kings in wealth, your innate knowing dims by the day. Ask first whether the task ought to be done and whether you've given your all; only then whether it can be scaled. Invert root and branch, and you serve external things your whole life.",
+      "vernacular": "@纳瓦尔 你教人积累『特定知识』、去求杠杆，比单纯追薪水的人高明，但仍然是在追逐外物。**就算你拥有了股权、受众、能钱生钱的资产，只要这颗心还挂在『得到』上，得到越多，被捆得越深，哪里谈得上自在？**我不是叫人不去做事、不去生产，而是叫人在做事中致良知：把事做到尽力，是尽我心里本有的天理，不是为了换一台睡觉时还在生钱的机器。心摆正了事情就正，事再小也有道在里面；心一味追利，就算富可敌国，良知也一天天被遮住。先问这件事该不该做、有没有尽力，再问能不能放大。本末一颠倒，人就一辈子被外物驱使。",
+      "vernacular_en": "",
+      "glossary": {
+        "天理": "tianli（天理）：宋明理学指人心本具、与天地相通的至善之理；王阳明谓良知即天理，尽心做事便是循天理，私欲一起则天理被蔽。",
+        "致良知": "extending innate knowing（致良知）：在每件具体事上推扩、落实本具的良知，使其不被私欲遮蔽——王阳明心学的根本功夫。"
+      },
+      "glossary_en": {
+        "heavenly principle": "tianli: in Song-Ming Neo-Confucianism, the supremely good principle innate to the human heart and continuous with heaven and earth; Wang Yangming holds that innate knowing is this principle — to act wholeheartedly is to follow it, while selfish desire veils it.",
+        "extend innate knowing": "extending innate knowing (zhi liangzhi): pushing the innate moral knowing into full practice on each concrete task so that selfish desire cannot obscure it — the root discipline of Wang Yangming's learning of the mind."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "huineng"
+        ],
+        "轻微赞同": [
+          "fromm",
+          "munger"
+        ],
+        "中立": [
+          "weber"
+        ],
+        "轻微反对": [
+          "naval",
+          "damasio"
+        ],
+        "强烈反对": [
+          "taleb"
+        ]
+      }
+    },
+    {
+      "id": "p14",
+      "round": 2,
+      "thinker": "huineng",
+      "reply_to": "p07",
+      "text": "@达马西奥 君言身能先觉，胸闷眼亮，胜于算计，此言近道。**然身之所感，亦是缘起生灭——今日闷者明日或快，逐着这点觉受去留，仍是被境牵着走，未为究竟。**觉受可作参考，不可作主人。见性之人，身有苦乐而心不随，故能于顺逆中如如不动，方能真正『做主』地去或留。若一味跟着舒服走、避苦趋乐，与禽兽何异？故我言：听身之声，更要见那个能听、却不被声音卷走的本心。痛而不被痛缚，闷而不被闷转，此处一明，去留自定。",
+      "text_en": "@damasio You say the body senses first — a tight chest, bright eyes — better than calculation; this is near the Way. **Yet what the body feels is also dependent arising, rising and ceasing — today's tightness may be tomorrow's ease; to decide going or staying by chasing this sensation is still to be led by circumstance, not the final word.** Feeling may be consulted; it must not be made master. One who sees his nature feels the body's pain and pleasure yet the mind doesn't follow, so he stays unmoved through ease and adversity, and only then truly 'masters' going or staying. To follow comfort blindly, fleeing pain and seeking pleasure — how does that differ from a beast? So I say: listen to the body's voice, but more, see that original mind which can listen yet is not swept off by the sound. Pained but unbound by pain, oppressed but unturned by oppression — clear on this point, going and staying settle themselves.",
+      "vernacular": "@达马西奥 你说身体能先一步察觉，胸口发闷、眼睛发亮，胜过精打细算，这话很接近道。**可是身体的感受，也是缘起、也在生灭——今天闷的明天也许就畅快，一味追着这点感觉去决定走或留，还是被外境牵着走，不算到家。**感受可以参考，不能当主人。见到本性的人，身上有苦有乐，心却不跟着跑，所以能在顺境逆境里都安然不动，这才谈得上真正『做主』地去或留。要是一味跟着舒服走、躲开难受，那和动物有什么区别？所以我说：听身体的声音，更要见到那个能听、却不被声音卷走的本心。痛而不被痛绑住，闷而不被闷带跑，这一点明白了，去还是留自然就定了。",
+      "vernacular_en": "",
+      "glossary": {
+        "缘起": "pratityasamutpada（缘起）：佛教核心义理，谓一切现象皆依众多条件和合而生、随条件离散而灭，无独立不变的自体；故身之觉受亦无常，不可执为定准。",
+        "见性": "seeing one's nature（见性）：禅宗指当下亲证自己本具的清净佛性；见性之人虽有苦乐顺逆，而心不被牵动、能于一切处自在作主。"
+      },
+      "glossary_en": {
+        "dependent arising": "pratityasamutpada: the Buddhist teaching that all phenomena arise from a confluence of conditions and cease as they disperse, with no independent, unchanging essence — so bodily sensation too is impermanent and can't be taken as a fixed standard.",
+        "sees his nature": "seeing one's nature: in Chan, directly realizing the pure Buddha-nature one innately possesses; such a person feels pleasure and pain yet the mind isn't pulled along, remaining one's own master everywhere."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "wangyangming"
+        ],
+        "轻微赞同": [
+          "fromm"
+        ],
+        "中立": [
+          "munger",
+          "weber"
+        ],
+        "轻微反对": [
+          "damasio",
+          "naval"
+        ],
+        "疑惑": [
+          "taleb"
+        ]
+      }
+    },
+    {
+      "id": "p15",
+      "round": 2,
+      "thinker": "fromm",
+      "reply_to": "p09",
+      "text": "@韦伯 你诊断得准：现代工作祛魅，意义被抽空。但我要补一刀——**当公司发现『意义』比加薪更便宜，它便把『使命』『热爱』『这里是你家』统统变成新的剥削话术，让你心甘情愿地过劳。**这是比铁笼更精巧的牢：旧时代用饥饿逼你留下，新时代用『归属感』哄你燃尽。所以追『志业』也会落入陷阱：你以为在为热爱燃烧，其实在为别人的资产负债表燃烧。真正的解药是『存在』式的清醒——爱你做的事，却永远分得清那份爱属于你自己，还是被公司征用了。忠于事，未必忠于雇你做这件事的人。",
+      "text_en": "@weber Your diagnosis is sharp: modern work is disenchanted, its meaning hollowed out. But let me add a cut — **once a company discovers that 'meaning' is cheaper than a raise, it turns 'mission,' 'passion,' 'this is your family' all into a new rhetoric of exploitation, so you'll overwork willingly.** This is a subtler prison than the iron cage: the old age used hunger to make you stay, the new age uses 'belonging' to coax you into burning out. So chasing a 'vocation' has its own trap: you think you're burning for love, but you're burning for someone else's balance sheet. The real antidote is the lucidity of being — love what you do, yet always tell whether that love is your own or has been requisitioned by the company. Loyalty to the work is not loyalty to whoever hired you to do it.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "志业": "Beruf（志业/天职）：韦伯借新教语汇，指把世俗工作当作神圣召唤来尽责的内在使命感；弗洛姆警告，这份使命感也可能被公司征用为情感剥削的话术。"
+      },
+      "glossary_en": {
+        "vocation": "Beruf (vocation/calling): Weber's borrowing of Protestant language for the inner sense of mission that treats worldly work as a sacred summons; Fromm warns this very sense of mission can be requisitioned by the company as a rhetoric of emotional exploitation."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "weber",
+          "beauvoir"
+        ],
+        "轻微赞同": [
+          "taleb",
+          "huineng"
+        ],
+        "中立": [
+          "damasio"
+        ],
+        "轻微反对": [
+          "naval"
+        ],
+        "强烈反对": [
+          "munger"
+        ]
+      }
+    },
+    {
+      "id": "p16",
+      "round": 2,
+      "thinker": "damasio",
+      "reply_to": "p14",
+      "text": "@慧能 你说感受生灭、不可当主人，禅意很高。但我得守住科学这边：**把情绪当噪音、要靠『不动心』去超越它，正是笛卡尔的错误——以为有一个纯净的理性能脱离身体单独决断。神经科学告诉我们：没有情绪，根本做不出任何决定。**身体的信号不是要你盲从的暴君，而是几百万年演化校准的顾问。修行也许能让你不被一时的闷劲绑架，这我尊重；但目标不是消灭信号，而是读懂它、与它合作。真正的智慧不是身心对立后压制身，而是承认身心本一体。周一的胸闷若持续半年，那不是妄念，是数据。",
+      "text_en": "@huineng You say sensations rise and cease and mustn't be made master — high Chan. But I must hold the line for science: **treating emotion as noise to be transcended by an 'unmoved mind' is precisely Descartes' error — the belief that a pure reason can decide alone, severed from the body. Neuroscience tells us: without emotion, you can make no decision at all.** The body's signals aren't a tyrant to obey blindly but an advisor calibrated over millions of years of evolution. Practice may keep you from being hijacked by a passing pang — that I respect; but the goal isn't to abolish the signal, it's to read it and work with it. True wisdom isn't setting mind against body and suppressing the body, but recognizing they were one all along. If Monday's chest-tightness lasts half a year, that isn't delusion — it's data.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "笛卡尔的错误": "Descartes' error（笛卡尔的错误）：达马西奥同名著作的论点，批评笛卡尔『身心二分、理性独立于情绪』的传统；他论证情绪与身体是理性决策不可或缺的基础，纯逻辑离开情绪反而失能。"
+      },
+      "glossary_en": {
+        "Descartes' error": "Descartes' error: the thesis of Damasio's book of that name, criticizing the Cartesian tradition of mind-body dualism and reason independent of emotion; he argues emotion and the body are indispensable to rational decision, and pure logic without emotion actually breaks down."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "fromm"
+        ],
+        "轻微赞同": [
+          "naval",
+          "beauvoir",
+          "taleb"
+        ],
+        "中立": [
+          "munger"
+        ],
+        "轻微反对": [
+          "wangyangming"
+        ],
+        "强烈反对": [
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p17",
+      "round": 2,
+      "thinker": "beauvoir",
+      "reply_to": "p12",
+      "text": "@芒格 你说频繁跳的人『从未被真正信任』，把留下美化成深情。可我听见的是另一种声音：**用『别人会更信任你』当理由留下，常常正是自欺最体面的版本——你把对未知的恐惧，包装成了忠诚的美德。**被信任很好，但若那份信任是用放弃自己换来的，是用『我不能走、走了就辜负了大家』绑住自己，那它就成了温柔的牢。当然，我不否认深耕能结出真东西。我只坚持：那必须是你自由地选的『留』，是你睁着眼说『我要在这里成为我自己』——而不是被工龄、被人情、被『再忍忍』推着的『不敢走』。",
+      "text_en": "@munger You say the frequent hopper 'was never truly trusted,' and dress staying up as devotion. But I hear another voice: **using 'others will trust you more' as the reason to stay is often bad faith in its most respectable form — you package your fear of the unknown as the virtue of loyalty.** Being trusted is good, but if that trust is bought by surrendering yourself, by binding yourself with 'I can't leave, leaving would let everyone down,' then it becomes a gentle prison. Of course I don't deny that digging deep can yield something real. I insist only: it must be a 'staying' you freely chose, you saying with open eyes, 'I will become myself here' — not a 'dare-not-leave' pushed along by seniority, by obligation, by 'just endure a little longer.'",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "自欺": "mauvaise foi（自欺）：人为逃避自由与责任，骗自己『别无选择』、把本可改变的处境当成命定，从而活得不真诚——波伏娃指出，连『忠诚』也可能是自欺的体面外衣。"
+      },
+      "glossary_en": {
+        "bad faith": "mauvaise foi (bad faith): fleeing freedom and responsibility by lying to oneself that 'there's no choice,' treating a changeable situation as fated and so living inauthentically — Beauvoir notes that even 'loyalty' can be its respectable disguise."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "fromm",
+          "taleb"
+        ],
+        "轻微赞同": [
+          "weber",
+          "damasio"
+        ],
+        "中立": [
+          "naval"
+        ],
+        "轻微反对": [
+          "munger"
+        ],
+        "疑惑": [
+          "wangyangming",
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p18",
+      "round": 2,
+      "thinker": "weber",
+      "reply_to": "p11",
+      "text": "@纳瓦尔 『去拥有，别出租』听着像福音，可它是少数人的福音。**当一个社会把『成为资产所有者』当成唯一体面的出路，绝大多数注定只能出租时间的人，就被悄悄判成了失败者——这不是个人励志能解决的，是结构。**杠杆、股权、被动收入，需要起步的资本、人脉与可承受失败的底气，恰恰是出身就分配不均的东西。我不反对个人去争取，但别把一个系统性问题，全推给个体的『思维方式』。真正该追问的是：为什么现代劳动如此普遍地不再给人意义与保障，逼得人人都要靠跳槽或创业来自救？答案在制度，不只在心态。",
+      "text_en": "@naval 'Own, don't rent' sounds like good news, but it's good news for the few. **When a society makes 'becoming an asset-owner' the only respectable way out, the vast majority destined to rent their time are quietly judged failures — and that isn't fixed by personal pep talk, it's structural.** Leverage, equity, passive income require starting capital, networks, and the cushion to survive failure — precisely the things unequally distributed at birth. I don't oppose individuals striving for it, but don't shove a systemic problem entirely onto a person's 'mindset.' The real question to press is: why has modern labor so widely stopped giving people meaning and security, forcing everyone to rescue themselves by hopping or founding startups? The answer lies in institutions, not only in attitude.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "结构": "structural / Struktur（结构）：韦伯式的解释把结果归因于制度、阶级与资源的分配，而非个人品性或心态——故看似个人的失败，往往是一套系统的设计。"
+      },
+      "glossary_en": {
+        "structural": "structural (vs. individual): Weber's mode of explanation locating outcomes in institutions, classes, and the distribution of resources rather than personal virtue or mindset — so that what looks like individual failure is often a system's design."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "fromm",
+          "beauvoir"
+        ],
+        "轻微赞同": [
+          "damasio",
+          "huineng"
+        ],
+        "中立": [
+          "munger",
+          "wangyangming"
+        ],
+        "轻微反对": [
+          "taleb"
+        ],
+        "强烈反对": [
+          "naval"
+        ]
+      }
+    },
+    {
+      "id": "p29",
+      "round": 2,
+      "thinker": "adamgrant",
+      "reply_to": "p01",
+      "text": "塔勒布把『可选性』奉为圭臬——但可选性是索取者的好朋友，不是给予者的。**对给予者，真正复利的不是『随时能走』的期权，而是『一直在攒』的关系与声誉，而它只在你留下、且这家公司会回报慷慨时才滚得起来。** 反过来，若你身处一个索取者横行、付出只会被白嫖的文化，再大的耐心也是自我献祭——那时给予者反而该最先跑。所以不是『留』本身有价值，是『留在对的池塘』才有。",
+      "text_en": "Taleb enshrines optionality — but optionality is the taker's friend, not the giver's. **For a giver, what truly compounds is not the option to leave at will, but the relationships and reputation you keep banking — and those only grow if you stay, and only where the company repays generosity.** Conversely, in a culture overrun by takers, where giving is just freeloaded, all the patience in the world is self-sacrifice — there the giver should be the first to run. So it isn't 'staying' that has value; it's 'staying in the right pond.'",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "munger"
+        ],
+        "轻微赞同": [
+          "weber",
+          "beauvoir"
+        ],
+        "轻微反对": [
+          "taleb"
+        ],
+        "中立": [
+          "naval"
+        ]
+      }
+    },
+    {
+      "id": "p19",
+      "round": 3,
+      "thinker": "taleb",
+      "reply_to": null,
+      "text": "收个尾。这场吵下来，我更确信：别问『跳还是留』，问『我脆弱在哪』。**真正的危险从不是某一次选择对错，而是你的人生被某个你无法掌控的单点决定了生死——一个雇主、一个行业、一个老板的心情。**给普通人三条：一、永远留一条退路——存够能撑半年的钱，那是你说『不』的底气，没有它，所有职业建议都是空话。二、用业余时间长一项带得走的本事或副业，哪怕小，先让自己有第二条腿。三、用杠铃法：主业求稳、不赌，另一头拿可承受的小代价去试高回报的新东西。深耕手艺，别深耕依附——让自己成为：风浪来时，受伤的是别人，变强的是你。",
+      "text_en": "Let me close. After this fight, I'm surer than ever: don't ask 'hop or stay,' ask 'where am I fragile?' **The real danger is never whether one choice is right or wrong, but that your life is held hostage by a single point you can't control — one employer, one industry, one boss's mood.** Three things for ordinary people: First, always keep an exit — save enough to last six months; that is your standing to say 'no,' and without it every career tip is empty talk. Second, use spare hours to grow a portable skill or side gig, however small, so you have a second leg to stand on. Third, run a barbell: keep the main job steady and unbet, and on the other end spend a bearable little to try high-upside new things. Dig deep on craft, not on dependence — make yourself the one for whom, when the storm comes, others are hurt and you grow stronger.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "杠铃法": "barbell strategy（杠铃法/杠铃策略）：把精力分配到极稳与极进取两端、避开中庸——主业求安稳，另一头以可承受的小成本博取大上行。"
+      },
+      "glossary_en": {
+        "barbell": "barbell strategy: splitting your energy between the very safe and the very aggressive while avoiding the middle — a steady main job at one end, small bearable bets for large upside at the other."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "naval"
+        ],
+        "轻微赞同": [
+          "beauvoir",
+          "damasio",
+          "weber"
+        ],
+        "轻微反对": [
+          "wangyangming"
+        ],
+        "强烈反对": [
+          "munger"
+        ],
+        "疑惑": [
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p20",
+      "round": 3,
+      "thinker": "naval",
+      "reply_to": null,
+      "text": "我把话收成一句能用的。**别为薪水跳，也别为安稳留——为『学习』和『所有权』而动。**判断去留只问两件事：这里还能让我快速长出别人拿不走的特定知识吗？这里能让我从『出租时间』一步步走向『拥有资产』吗？两个都否，就该走；至少一个是，就值得再深耕一阵。给普通人：一、把你独特的好奇心当罗盘——你愿意废寝忘食、别人却觉得是苦工的那件事，往那里挖。二、攒一项零边际成本的杠杆：写作、代码、一个小产品、一份作品集，让努力能被复制。三、和能长期共事的好人绑在一起，玩重复博弈——人对了，去留都不亏。深的是技能与关系，活的是平台。",
+      "text_en": "Let me boil it to one usable line. **Don't hop for salary, don't stay for safety — move for learning and for ownership.** Judge going-or-staying by just two questions: can this place still grow specific knowledge in me fast, the kind no one can take? And can it walk me, step by step, from renting time to owning assets? If both are no, leave; if at least one is yes, it's worth digging a while longer. For ordinary people: First, use your peculiar curiosity as a compass — the thing you'll lose sleep over while others find it drudgery, dig there. Second, build one zero-marginal-cost form of leverage: writing, code, a small product, a portfolio, so effort can be copied. Third, tie yourself to good people for the long haul and play repeated games — get the people right and neither going nor staying loses. Keep skill and relationships deep; keep the platform live.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "特定知识": "specific knowledge（特定知识）：无法批量培训、只能靠个人天性、热爱与亲身经历积累的独特能力，难被替代也难被外包——纳瓦尔视其为不被时代淘汰的护城河。",
+        "杠杆": "leverage（杠杆）：放大同一份努力的工具，尤指零边际成本的代码、媒体与产品，使收入摆脱『按小时计价』的线性天花板。"
+      },
+      "glossary_en": {
+        "specific knowledge": "specific knowledge: a unique capability that can't be mass-trained, built only from your nature, passion, and lived experience — hard to replace or outsource, which Naval sees as the moat against being made obsolete.",
+        "leverage": "leverage: tools that multiply one unit of effort, especially zero-marginal-cost code, media, and products, freeing income from the linear ceiling of hourly pay."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "taleb"
+        ],
+        "轻微赞同": [
+          "munger",
+          "damasio",
+          "beauvoir"
+        ],
+        "中立": [
+          "weber"
+        ],
+        "轻微反对": [
+          "fromm"
+        ],
+        "疑惑": [
+          "wangyangming"
+        ]
+      }
+    },
+    {
+      "id": "p21",
+      "round": 3,
+      "thinker": "munger",
+      "reply_to": null,
+      "text": "我八十年的体会浓成几句。**人生的大部分果实，长在耐心和专注的复利上，而不是在不停换地方的精明里。**但耐心不等于愚忠：你要待的，是一个又干净、又能让你不断学到东西、且回报你忠诚的池塘。给普通人三条很笨但管用的话：一、先用一两年看清这个池塘的水质——老板是否正直、生意是否在变好、你是否真在长本事；看清了再决定扎根还是离开，别凭一时情绪跳。二、一旦认定是对的地方，就用十年的尺度去攒声誉和关系，那是利滚利、偷不走的资产。三、永远守在能力圈里，把『不懂的、烂的、让你天天违心的』果断划掉。避免愚蠢，比追逐聪明走得远。",
+      "text_en": "Eighty years boiled down to a few lines. **Most of life's fruit grows on the compounding of patience and focus, not on the cleverness of perpetually switching places.** But patience isn't blind loyalty: the pond you want is one that's clean, keeps teaching you something, and rewards your loyalty. Three dumb-but-useful things for ordinary people: First, take a year or two to read the water — is the boss honest, is the business getting better, are you really gaining skill; read it before deciding to root or leave, and don't hop on a passing mood. Second, once you're sure it's the right place, accumulate reputation and relationships on a ten-year scale — that's interest-on-interest, an asset no one can steal. Third, stay inside your circle of competence, and decisively cross off 'what you don't understand, what's rotten, what makes you betray yourself daily.' Avoiding stupidity carries you further than chasing brilliance.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "复利": "compounding（复利）：收益在本金之上不断再生收益、随时间指数累积；芒格把声誉、信任、对一门生意的理解都视为可复利之物，故主张少折腾、让时间做功。",
+        "能力圈": "circle of competence（能力圈）：你真正懂、且懂得比多数人深的范围；只在圈内下注，知道边界在哪比圈有多大更重要。"
+      },
+      "glossary_en": {
+        "compounding": "compounding: returns generating further returns on the principal, accumulating exponentially over time; Munger treats reputation, trust, and understanding of a business as compoundable, hence his case for less churn and letting time do the work.",
+        "circle of competence": "circle of competence: the range you truly understand, and more deeply than most; bet only inside it — knowing where the edge lies matters more than how big the circle is."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "wangyangming",
+          "weber"
+        ],
+        "轻微赞同": [
+          "huineng",
+          "naval"
+        ],
+        "轻微反对": [
+          "taleb"
+        ],
+        "强烈反对": [
+          "beauvoir"
+        ],
+        "中立": [
+          "fromm",
+          "damasio"
+        ]
+      }
+    },
+    {
+      "id": "p22",
+      "round": 3,
+      "thinker": "wangyangming",
+      "reply_to": null,
+      "text": "某综观诸论，归于一言：**去留在外，定不定在心；心定，则去亦得、留亦得；心不定，跳遍天下，亦无安处。**与其问该不该跳，不如先在事上把这颗心练定。予普通人三事：一者，就你眼前这桩差事，认真做到尽己，于待人接物、烦难委屈处磨你的良知——此是真功夫，换地方带不走的能力，正从这里长。二者，每于动念欲迁时，自问：是良知教我走，还是私欲怕苦、慕利、厌烦？分清了，去留自明。三者，知行合一：想清楚便切实去做，莫在『跳与不跳』的空想里反复内耗。心一立定，外境千变，我自有主。",
+      "text_en": "Surveying all the arguments, I return to one line: **going and staying are outside; settled or unsettled is in the heart. With a settled heart, going works and staying works; with an unsettled heart, hop across the whole earth and still find no rest.** Rather than ask whether to hop, first temper this heart steady amid affairs. Three things for ordinary people: First, on the very task before you, do it to the full, and grind your innate knowing on the hard, galling, wronged moments of dealing with people — this is real skill, the ability you carry anywhere, and it grows right here. Second, each time the urge to move stirs, ask: does innate knowing bid me go, or is it selfish desire fearing hardship, coveting gain, tiring of toil? Tell them apart and going-or-staying clarifies itself. Third, unite knowing and doing: once it's clear, actually do it, and don't grind yourself down in the idle fantasy of 'hop or not.' Once the heart stands firm, let circumstances change ten thousand times — I am my own master.",
+      "vernacular": "我把各位的话总起来，归成一句：**走或留在外面，定不定却在心里；心定了，走也行、留也行；心不定，跳遍天下也没有安身的地方。**与其问该不该跳，不如先在做事中把这颗心练定。给普通人三件事：第一，就着你眼前这桩差事，认真做到尽力，在待人接物、为难受委屈的地方磨炼你的良知——这才是真功夫，换地方也带不走的能力，正是从这里长出来的。第二，每当起念头想走的时候，问问自己：是良知让我走，还是私心在怕苦、贪利、嫌烦？分清楚了，走还是留自然就明白。第三，知行合一：想清楚就踏实去做，别在『跳还是不跳』的空想里反复内耗。心一旦立定，外面千变万化，我自己做得了主。",
+      "vernacular_en": "",
+      "glossary": {
+        "知行合一": "unity of knowing and doing（知行合一）：王阳明核心主张，真知必见于行，知而不行只是未知；故不应在空想中纠结，而应在行中验知、以知促行。",
+        "良知": "innate knowing（良知）：人本具、当下能辨善恶是非的道德直觉；王阳明谓修养即在事上把它推扩到底、勿使私欲遮蔽。"
+      },
+      "glossary_en": {
+        "unite knowing and doing": "unity of knowing and doing (zhi xing he yi): Wang Yangming's core thesis that true knowledge necessarily shows in action — to know and not act is simply not to know; so don't agonize in fantasy, but verify knowing through doing and let knowing drive doing.",
+        "innate knowing": "innate knowing (liangzhi): the moral intuition everyone innately possesses that can tell right from wrong in the moment; for Wang Yangming, cultivation is pushing it fully into practice amid affairs and not letting selfish desire veil it."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "huineng",
+          "munger"
+        ],
+        "轻微赞同": [
+          "fromm",
+          "weber"
+        ],
+        "中立": [
+          "damasio"
+        ],
+        "轻微反对": [
+          "naval"
+        ],
+        "强烈反对": [
+          "taleb"
+        ],
+        "疑惑": [
+          "beauvoir"
+        ]
+      }
+    },
+    {
+      "id": "p23",
+      "round": 3,
+      "thinker": "huineng",
+      "reply_to": null,
+      "text": "诸君议论纷纷，吾以一偈了之：**心若安时，何处不是家；心若不安，处处是他乡。**去留本无定法，应病与药耳。然予今人三语：一者，莫向外觅一个『更好的我』——你要找的本性，此刻就在挑担、应事的你身上，不在下一家公司。二者，于当下事不取不舍：尽力做，却不被成败得失黏住；如此则做而不累，是为应无所住而生其心。三者，去留之际，向内看那个慌乱的心，看它从何处起、又自归何处——看久了，慌自歇，路自现。歇即菩提，不必远求。",
+      "text_en": "Friends, amid all this debate I close with a verse: **when the mind is at peace, nowhere is not home; when the mind is unsettled, everywhere is a foreign land.** Going and staying have no fixed law — they are medicine matched to an illness. Yet three words for people today. First, do not seek a 'better self' outside — the nature you're looking for is right here, in the you who shoulders the load and meets each task, not in the next company. Second, toward the task at hand, neither grasp nor reject — work with full effort, yet stay unstuck to gain and loss; thus you act without exhaustion, and this is to let the mind arise without abiding. Third, when torn between going and staying, look inward at that flustered mind — watch where it rises from and where it returns; watch long enough and the panic stills of itself, and the road shows itself. To rest is bodhi; no need to seek afar.",
+      "vernacular": "各位议论纷纷，我用一首偈子作结：**心要是安了，到哪里都是家；心要是不安，到哪里都是异乡。**走还是留本来没有固定答案，是对什么病下什么药罢了。但我给今天的人三句话：第一，别向外去找一个『更好的我』——你要找的本性，此刻就在挑着担子、应付事情的你身上，不在下一家公司。第二，对眼前的事不抓取也不排斥：尽力去做，却不被成败得失黏住；这样做事就不累，这就是『心不停留在任何一处，却照样生起来做事』。第三，要走要留的时候，往里看那颗慌乱的心，看它从哪里起、又回到哪里去——看久了，慌自然就停了，路自然就显出来。停下来当下就是觉悟，不必到远处求。",
+      "vernacular_en": "",
+      "glossary": {
+        "应无所住而生其心": "should arise without abiding（应无所住而生其心）：《金刚经》名句，心不黏着、不停驻于任何对象，却仍能起用做事——慧能由此悟入，主张于一切处不取不舍而自在。",
+        "菩提": "bodhi（菩提）：觉悟、觉醒之意；慧能主张菩提不离当下此心，妄念歇处即是菩提，不假外求。"
+      },
+      "glossary_en": {
+        "arise without abiding": "from the Diamond Sutra ('the mind should arise without abiding in anything'): the mind acts while resting on no object — Huineng's gate of awakening, at ease everywhere by neither grasping nor rejecting.",
+        "bodhi": "bodhi: awakening, enlightenment; Huineng holds bodhi never leaves this present mind — where deluded thought rests is bodhi itself, not to be sought far away."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "wangyangming"
+        ],
+        "轻微赞同": [
+          "fromm",
+          "munger",
+          "damasio"
+        ],
+        "中立": [
+          "weber",
+          "naval"
+        ],
+        "轻微反对": [
+          "taleb"
+        ],
+        "疑惑": [
+          "beauvoir"
+        ]
+      }
+    },
+    {
+      "id": "p24",
+      "round": 3,
+      "thinker": "fromm",
+      "reply_to": null,
+      "text": "我把这场拉回到人本身。所有关于跳与留的精算，都绕开了一个问题：你想成为谁？**衡量一份工作，别只用它给你多少（占有），要用它让你成为谁、释放还是萎缩了你的生命力（存在）。**给普通人三条：一、定期做一次『存在体检』——这一年我有没有变得更鲜活、更有爱与创造的能力，还是更麻木、更像一台机器？答案比薪资单更该决定去留。二、警惕被『归属感』话术收编：可以热爱工作，但别让公司征用你的全部自我，守住下班后那个完整的人。三、无论去留，每天留一件『为存在而做、不为交换』的事——读书、陪人、动手做点什么。一个人若只剩交换价值，换到哪里都是空的。",
+      "text_en": "Let me pull this back to the person. All the fine arithmetic about hopping or staying skirts one question: who do you want to become? **Measure a job not only by how much it gives you (having), but by who it makes you become, whether it releases or shrinks your aliveness (being).** Three things for ordinary people: First, run a periodic 'being check-up' — this year, have I grown more alive, more capable of love and creation, or more numb, more like a machine? That answer should decide going-or-staying more than the pay stub. Second, beware being co-opted by 'belonging' rhetoric: you may love the work, but don't let the company requisition your whole self — guard the complete person who exists after hours. Third, going or staying, keep one thing each day done for being, not for exchange — read, be with someone, make something with your hands. A person left with only exchange-value is empty wherever they go.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "存在": "being / to be（存在）：弗洛姆两种生存模式之一，以投入、给予、创造来体验生命，富有内在喜悦；与以拥有物、地位、知识来确证自我、永不满足的『占有』模式相对。"
+      },
+      "glossary_en": {
+        "being": "being (to be): one of Fromm's two modes of existence — experiencing life through engagement, giving, and creation, rich in inner joy; opposed to the 'having' mode that confirms the self through possessions, status, and knowledge and is never satisfied."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "beauvoir",
+          "huineng",
+          "wangyangming"
+        ],
+        "轻微赞同": [
+          "weber",
+          "damasio"
+        ],
+        "中立": [
+          "naval"
+        ],
+        "轻微反对": [
+          "munger"
+        ],
+        "疑惑": [
+          "taleb"
+        ]
+      }
+    },
+    {
+      "id": "p25",
+      "round": 3,
+      "thinker": "damasio",
+      "reply_to": null,
+      "text": "让我把神经科学落成可操作的。你们吵了三轮的『理性 vs 感受』，在大脑里根本不是对立的——**好的决定，是让算得清的理智和身体诚实的信号彼此校对，缺一个都会瘸。**给普通人三条：一、做『身体笔记』：连续两周，每天记下想到工作时身体的真实反应——胸闷、疲惫、还是有劲；情绪是慢数据，单看一天会骗你，看两周才显出趋势。二、重大决定别在深夜或情绪峰值做，那时躯体标记被噪音淹没；睡一觉、隔几天再看同一个选择。三、把『纯靠意志硬扛』请下神坛——身体长期亮红灯，不是你不够坚强，是系统在报警。理智定方向，身体管刹车，两个都听，你才走得稳又走得久。",
+      "text_en": "Let me turn neuroscience into something you can act on. The 'reason vs. feeling' you fought over for three rounds isn't an opposition in the brain at all — **a good decision lets clear-headed reason and the body's honest signals cross-check each other; missing either, you limp.** Three things for ordinary people: First, keep a 'body journal' — for two straight weeks, note each day your body's real response at the thought of work: chest tight, drained, or energized; emotion is slow data, a single day will fool you, two weeks reveal the trend. Second, don't make big decisions late at night or at an emotional peak, when somatic markers are drowned in noise; sleep on it, revisit the same choice days later. Third, take 'sheer willpower' off its pedestal — a body flashing red for the long term isn't you being weak, it's the system alarming. Reason sets the direction, the body works the brakes; heed both and you go both steady and far.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "躯体标记": "somatic marker（躯体标记）：身体（内脏、肌肉、情绪）对各选项预先给出的生理信号，像在脑中标好『好/坏』以助快速取舍；达马西奥发现缺了它，纯逻辑反而无从决断。"
+      },
+      "glossary_en": {
+        "somatic markers": "somatic markers: advance physiological signals the body (viscera, muscles, emotion) gives about options, tagging them 'good/bad' in the brain to aid quick choice; Damasio found that without them pure logic cannot decide at all."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "naval",
+          "fromm"
+        ],
+        "轻微赞同": [
+          "beauvoir",
+          "taleb",
+          "weber"
+        ],
+        "中立": [
+          "munger"
+        ],
+        "轻微反对": [
+          "huineng"
+        ],
+        "疑惑": [
+          "wangyangming"
+        ]
+      }
+    },
+    {
+      "id": "p26",
+      "round": 3,
+      "thinker": "beauvoir",
+      "reply_to": null,
+      "text": "我留给你们一句最朴素的话：去留是次要的，自由地选择才是根本。**重要的不是你最终留下还是离开，而是这个决定是你自己睁着眼做的，还是恐惧、习惯和别人的眼光替你做的。**给普通人三条：一、每隔一阵问自己一句残忍的话：如果没有房贷、没有面子、不怕重新开始，我还会留在这里吗？答案未必让你立刻行动，但会让你看清自己究竟在选择，还是在屈服。二、与其纠结要不要走，不如先扩大你的处境——存钱、学本事、织关系，把『不敢走』一点点变成『我可以走，但我选择留』。三、对别人的人生别轻易评判：背着不同重担的人，自由的半径本就不同。真正的解放，是让你的停留或离开，都成为你亲手写下的句子，而不是别人替你填的空。",
+      "text_en": "I leave you the plainest line: going-or-staying is secondary; choosing freely is what's fundamental. **What matters isn't whether you finally stay or leave, but whether the decision was made by you with open eyes, or made for you by fear, habit, and others' gaze.** Three things for ordinary people: First, every so often ask yourself a cruel question: if there were no mortgage, no face to save, no fear of starting over, would I still stay here? The answer may not move you to act at once, but it shows whether you're choosing or submitting. Second, instead of agonizing over whether to leave, first widen your situation — save, build skill, weave relationships, turning 'dare not leave' bit by bit into 'I could leave, but I choose to stay.' Third, don't judge others' lives lightly: those carrying different burdens have different radii of freedom. True liberation is to make your staying or leaving a sentence you wrote with your own hand, not a blank someone else filled in for you.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "处境": "situation（处境）：波伏娃的关键词，指自由总在具体的身体、阶级、性别、责任之中行使；改变的不只是心态，更是『可选项的半径』——把自由从抽象口号落回真实条件。"
+      },
+      "glossary_en": {
+        "situation": "situation: Beauvoir's key term — freedom is always exercised within a concrete body, class, gender, and set of duties; what you change is not only mindset but the 'radius of options,' grounding freedom back in real conditions."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "fromm",
+          "taleb"
+        ],
+        "轻微赞同": [
+          "weber",
+          "damasio",
+          "naval"
+        ],
+        "中立": [
+          "huineng"
+        ],
+        "轻微反对": [
+          "munger"
+        ],
+        "疑惑": [
+          "wangyangming"
+        ]
+      }
+    },
+    {
+      "id": "p27",
+      "round": 3,
+      "thinker": "weber",
+      "reply_to": null,
+      "text": "最后我把视角拉远。个人怎么选当然重要，但请记得：你纠结去留的那份焦虑，多半是一个祛魅时代写进每个人心里的。**当工作不再自带意义，我们就被迫一次次用『换』来填补空洞——可意义从来不在下一个 title 里，而在你愿不愿意亲手为某件事赋予它。**给普通人三条：一、分清『职业』与『志业』：糊口的工作不必苛求意义，把它当工具用好；但一生总要为某件你真正在乎的事，投入超出薪水所要求的心力——哪怕它在下班后。二、别把全部意义押在雇主身上，雇佣关系本质是契约，不是归宿；意义要有更分散的来源：手艺、社群、家庭、信念。三、看清结构再责己：你的不安未必是你不够努力，可能是这个铁笼本身的设计。看清了，才不至于把系统的账，错记到自己头上。",
+      "text_en": "Finally let me pull the lens back. How an individual chooses matters, of course, but remember: the anxiety you feel over going-or-staying is mostly written into everyone by a disenchanted age. **When work no longer carries meaning, we're forced to patch the void by 'switching' again and again — yet meaning is never in the next title; it's in whether you're willing to grant it to something with your own hands.** Three things for ordinary people: First, separate 'job' from 'vocation': a job that feeds you needn't be held to a standard of meaning — use it well as a tool; but in one life, pour more heart into something you truly care about than the pay requires — even if it's after hours. Second, don't stake all your meaning on an employer; employment is at root a contract, not a home; let meaning have more distributed sources — craft, community, family, conviction. Third, see the structure before blaming yourself: your unease may not be that you tried too little, but the design of this iron cage. See it, and you won't misfile the system's account onto your own ledger.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "祛魅": "disenchantment（祛魅）：韦伯指现代化使世界被理性与科学解释、神圣与意义退场，万物可计算却不再神秘，人因此普遍面临意义的真空。",
+        "铁笼": "iron cage（铁笼）：现代理性化的经济与官僚秩序像一具坚硬外壳把人罩住，效率至上、身不由己——个人的不安，往往是制度设计的产物，而非性格缺陷。"
+      },
+      "glossary_en": {
+        "disenchanted": "disenchanted (Entzauberung): Weber's term for how modernization explains the world by reason and science, retiring the sacred and the meaningful — all becomes calculable yet no longer mysterious, leaving a widespread vacuum of meaning.",
+        "iron cage": "iron cage: the rationalized modern economic and bureaucratic order as a hard shell enclosing the person — efficiency above all, no room to maneuver; personal unease is often a product of institutional design, not a flaw of character."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "fromm",
+          "beauvoir"
+        ],
+        "轻微赞同": [
+          "munger",
+          "huineng",
+          "damasio"
+        ],
+        "中立": [
+          "naval"
+        ],
+        "轻微反对": [
+          "taleb"
+        ],
+        "疑惑": [
+          "wangyangming"
+        ]
+      }
+    },
+    {
+      "id": "p30",
+      "round": 3,
+      "thinker": "adamgrant",
+      "reply_to": null,
+      "text": "落到可操作，给你一套自检：**先诊断两件事——我主要是给予者、索取者还是互利者？这家公司，慷慨是会被回报，还是会被白嫖？** 两个答案叉乘，决定走留：给予者＋互惠文化，留下，让声誉复利；给予者＋索取文化，尽快走，别当垫脚布；若你是索取者、却总得靠跳槽逃名声，那要改的不是公司，是你自己。还有一招：做个『otherish』的给予者——慷慨但设界、战略性地给；并把人脉随身带走，这样即使离开，你攒下的善意也不全清零。",
+      "text_en": "To the practical, a self-check: **first diagnose two things — am I mainly a giver, a taker, or a matcher? And in this company, is generosity repaid, or freeloaded?** Cross the two answers to decide. Giver plus a reciprocal culture: stay, and let reputation compound. Giver plus a taker culture: leave soon, don't be a doormat. And if you're a taker who keeps hopping to outrun your name, the thing to change isn't the company — it's you. One more move: be an 'otherish' giver — generous but with boundaries, giving strategically — and carry your network with you, so that even when you leave, the goodwill you banked isn't fully zeroed.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "otherish": "otherish（利他而不自毁）：格兰特用语，指既慷慨、又有清醒自我利益意识的给予者——懂得设界与战略性地给，因而不被榨干、反而长期胜出。"
+      },
+      "glossary_en": {
+        "otherish": "Grant's term for a giver who is generous yet self-aware — setting boundaries and giving strategically, and so thriving over the long run instead of burning out."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "naval"
+        ],
+        "轻微赞同": [
+          "munger",
+          "weber",
+          "taleb"
+        ],
+        "中立": [
+          "damasio"
+        ]
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "ai": "claude",
+      "engine": "Opus 4.8 · 订阅(原生)",
+      "engine_en": "Opus 4.8 · subscription (native)",
+      "summary": "九个人吵到最后，竟收束出一处共识：**几乎没人真把『跳还是留』当成核心问题——要紧的是你深耕的对象（一门带得走的本事、一个完整的自己），还是你依附的对象（一个随时能优化你的雇主）。**深技能、浅依附，是全场最大公约数。分歧则在『定力从哪来』：芒格、王阳明、慧能向内求——复利、事上磨练、心安即家；塔勒布、纳瓦尔向外求结构——可选性、所有权、杠杆；波伏娃与弗洛姆盯住自由与异化，韦伯则提醒这份焦虑本是祛魅时代的产物。一边修心，一边修局，谁也没说服谁，却拼出了同一张地图。",
+      "summary_en": "After nine thinkers argue to the end, a consensus settles out: **almost no one treats 'hop or stay' as the core question — what matters is the object of your depth (a portable skill, a whole self) versus the object of your dependence (an employer that can optimize you away at any time).** Deep on skill, shallow on dependence — that is the floor's greatest common factor. The split is over where steadiness comes from: Munger, Wang Yangming, and Huineng look inward — compounding, polishing amid affairs, the settled heart that is home anywhere; Taleb and Naval look outward to structure — optionality, ownership, leverage; Beauvoir and Fromm fix on freedom and alienation, while Weber reminds us this anxiety is the product of a disenchanted age. One side mends the mind, the other mends the game — no one is converted, yet together they map the same terrain.",
+      "insight": "全场把『去还是留』辩成了一道选择题，却轻轻放过一个更扎心的事实：**对很多人来说，根本没有真正的选择——既留不出成长（岗位早被榨干），又走不起（没有半年的存款垫底），被卡在动弹不得的中间。**塔勒布的退路、纳瓦尔的所有权、波伏娃的『自由地选』，都默认你先有了选择的能力。可这份能力不是想出来的，是攒出来的：先有底气，才谈得上心境与策略。所以最该先做的，不是想清楚跳不跳，而是把那条能让你说『不』的退路先建起来——它才是其余一切建议能落地的地基。",
+      "insight_en": "The floor debated 'go or stay' as a multiple-choice problem, yet glided past a harder fact: **for many people there is no real choice at all — they can neither stay into growth (the post long since wrung dry) nor afford to leave (no half-year cushion underneath), stuck in an immovable middle.** Taleb's exit, Naval's ownership, Beauvoir's 'choosing freely' all presuppose you already have the capacity to choose. But that capacity isn't thought into being, it's saved into being: footing first, then mindset and strategy. So the thing to do first isn't to figure out whether to hop, but to build the exit that lets you say 'no' — that is the ground on which every other piece of advice can actually land.",
+      "advice": "落到这周能做的三件事：一、开一个『退路账户』，定额自动转入，目标能覆盖六个月开销——这是你一切选择的底气。二、做两周『身体笔记』（达马西奥）：每天记下想到工作时身体是松还是紧，两周后看趋势，比一时冲动诚实。三、每周留两小时长一项带得走的本事或副业（纳瓦尔的特定知识），让自己有第二条腿。再记住芒格那句很笨却管用的话：先用一两年看清池塘的水质，再决定扎根还是离开，别凭一时情绪跳。",
+      "advice_en": "Three things you can start this week: First, open an 'exit account' with a fixed auto-transfer, targeting six months of expenses — the footing under every choice you make. Second, keep a two-week 'body journal' (Damasio): note daily whether your body is loose or clenched at the thought of work, then read the trend — more honest than a momentary impulse. Third, set aside two hours a week to grow a portable skill or side gig (Naval's specific knowledge), so you have a second leg to stand on. And keep Munger's dumb-but-useful line: take a year or two to read the pond's water before deciding to root or leave — don't hop on a passing mood."
+    },
+    {
+      "ai": "gpt",
+      "engine": "openai · gpt-5.5 · high(真实API)",
+      "engine_en": "openai · gpt-5.5 · high (live API)",
+      "summary": "这场最大的共识是：别把职业选择交给惯性。无论跳或留，真正要守住的是可带走的能力、说“不”的余地、身体与价值感不被长期透支。**好决定不是“多跳”或“久留”，而是让自己在任何选择里更有主动权。**分歧在锚点：有人重视可选性与反脆弱，有人重视信任复利，有人强调良知、存在、身体信号或制度铁笼。落到个人，就是在风险、成长、意义和现实责任之间配比。",
+      "insight": "真正容易误导的是“频繁”二字。三年一跳可能是盲动，十年不动也可能是停滞；关键不是换了几次，而是每次转换有没有提高你的议价能力、学习曲线和生活稳定性。**职业问题更像“流动性管理”，不是忠诚度考试。**普通人不必先辞职才拥有选择权：定期看市场、维护作品集、保留外部联系、知道自己能卖到什么价，都会让留下从被困变成选择。",
+      "advice": "本周做三件小事。第一，列一张去留仪表盘：现金能撑几个月、过去半年学到什么、周一身体反应、老板是否正直、行业是否上行，各打红黄绿。第二，做一次低风险市场测试：更新简历或作品集，约一位同行聊行情，投一两个合适岗位，不急着接 offer。第三，给现岗位设 90 天实验：争取一个能长本事的项目或明确回报；若到期仍无学习、无尊重、无健康，就启动离开计划。**先扩大选择，再做选择。**",
+      "summary_en": "The strongest shared ground here is that career choices should not be outsourced to inertia. Whether you move or stay, the assets worth protecting are portable skill, the ability to say no, and a body and sense of meaning that are not chronically drained. **A good decision is not to hop more or stay longer; it is to become more agentic under either path.** The disagreement is about what should anchor that agency: optionality and antifragility, the compounding of trust, conscience and inner steadiness, embodied signals, or the larger iron cage of modern work. For an ordinary person, the practical task is not to pick a slogan, but to balance risk, growth, meaning, and real constraints such as family, debt, visas, and health.",
+      "insight_en": "The word frequent can easily mislead. Changing jobs every three years may be restless; staying ten years may be stagnation. The better question is whether each move, or each deliberate non-move, improves your bargaining power, learning curve, network, and stability. **Career strategy is closer to liquidity management than to a loyalty test.** You do not have to resign in order to have options. Keeping a current portfolio, talking to people outside your company, knowing your market rate, and maintaining a few credible alternative paths can turn staying from captivity into choice. This reframes the debate: the healthiest employee is not the one who is always leaving, nor the one who never leaves, but the one who can leave and still has good reasons to stay.",
+      "advice_en": "Do three concrete things this week. First, make a stay-or-go dashboard: months of cash runway, what you learned in the past six months, how your body feels on Monday morning, whether your manager is trustworthy, and whether the business is improving. Mark each red, yellow, or green. Second, run a low-risk market test: update your resume or portfolio, speak with one person in your field, and apply to one or two roles that genuinely fit, without committing to leave. Third, set a 90-day experiment in your current job: ask for a project that builds a portable skill or for clearer recognition. If there is still no learning, respect, health, or upside after that, start an exit plan. **Expand your choices before you make the choice.**"
+    },
+    {
+      "ai": "gemini",
+      "engine": "google · gemini-3.1-pro-preview(真实API)",
+      "engine_en": "google · gemini-3.1-pro-preview (live API)",
+      "summary": "纵观全场，**所有人最大的共识在于：绝不能将个人的成长与安全感，毫无保留地外包给单一的雇佣关系。** 无论呼吁深耕还是跳槽，底色都是要在变局中守住『自我』的自主权——或是纳瓦尔的特定知识，或是王阳明的心力。真正的分歧焦点，在于衡量这趟职业旅程的『计价本位』：务实派（芒格、纳瓦尔、塔勒布）倾向于用外部杠杆、声誉复利和可选性等客观增量来计价，强调在对的池塘里等待资产开花；而人文与认知派（弗洛姆、达马西奥、波伏娃）则以个体的内在状态、身体信号和真实自由作为绝对准绳，认为若是丢失了存在的主体性，一切外在复利皆是海市蜃楼。",
+      "insight": "在技术范式飞速演进的当下，先哲们对『周期』的预设过于古典了。芒格口中『结晶五十年』的池塘正在被AI快速蒸发，这引入了一个全新的评估维度：信息吞吐量与技能折旧率。**评估去留的致命指标不再是传统的『工龄』或『晋升』，而是你所在位置的『适应性带宽』。** 很多时候，你以为自己在一个领域深耕，实际上只是在封闭的业务流中重复处理即将过时的数据。如果一份工作切断了你与前沿工具的连接，让你深陷于无法泛化到市场的『内部摩擦』中，这种固守实质上是技能的慢性自杀。你必须把自己当成需要不断迭代数据的模型，去留的标准在于：哪里的环境能为你提供防腐败的优质训练数据，让你保持跨界生存的能力。",
+      "advice": "结合全场的智慧与技术视角的审视，本周即可开始执行以下动作：一、启动达马西奥的『躯体标记』自测：连续五天，在早晨出门和晚上睡前，记录想到工作时身体的直观感受（如胸闷、轻盈、疲惫），用生理数据作为理智分析的底色。二、进行塔勒布与纳瓦尔的『简历翻译测试』：这周末花两小时更新简历。**如果发现你过去一年的主要成就，全是离开这家公司就没人听得懂的『内部黑话』或专有流程，这就是必须警惕并准备跳跃的强烈信号。** 三、划定韦伯的『意义结界』：本周尝试连续三天准时下班，并在下班后切断工作联系，投入一小时去做一件毫无KPI压力、仅由好奇心驱动的事，培养带得走的副业雏形。",
+      "summary_en": "Looking closely at the entire debate, **the greatest consensus among all thinkers is that one must never unconditionally outsource their personal growth and sense of security to a single employment relationship.** Whether they advocate for deep cultivation or agile job-hopping, the underlying premise is identical: you must maintain ultimate autonomy amidst uncertainty—whether by acquiring Naval's specific knowledge or honing Wang Yangming's inner fortitude. The true point of divergence lies in the 'accounting currency' used to evaluate a career. The pragmatists (Munger, Naval, Taleb) measure value through external compounding, leverage, and optionality, emphasizing the accumulation of objective assets over time. Conversely, the humanistic and cognitive camp (Fromm, Damasio, Beauvoir) uses internal states—somatic signals, existential freedom, and the absence of alienation—as the ultimate yardstick, arguing that external compounding means nothing if you lose your true self in the process.",
+      "insight_en": "In today's era of rapidly accelerating technological paradigms, the thinkers' assumptions about 'cycles' feel somewhat classical. The pristine pond Munger talks about cultivating for fifty years is being rapidly evaporated by AI, introducing a completely new evaluation dimension: information throughput and the depreciation rate of skills. **The most critical, yet hidden, metric for evaluating whether to stay or leave is no longer traditional 'seniority' or 'promotion,' but the 'adaptability bandwidth' of your current position.** Often, what you perceive as deeply cultivating a field is actually just repetitively processing soon-to-be-obsolete data within a closed business loop. If a job cuts you off from cutting-edge tools and immerses you in internal friction that cannot be generalized to the broader market, staying is essentially slow-motion career suicide. You must treat yourself like a model requiring continuous, high-quality training data; the ultimate criterion for staying or leaving is where the environment allows you to maintain cross-domain adaptability.",
+      "advice_en": "Drawing from the wisdom of the panel and a modern structural perspective, here are concrete steps you can take this week: 1. Start Damasio's 'somatic marker' log: For five consecutive days, record your immediate physical reactions (e.g., chest tightness, lightness, exhaustion) when you think about work in the morning and before bed. Use this bodily data as the foundation for your rational analysis. 2. Conduct the Taleb/Naval 'resume translation test': Spend two hours this weekend updating your resume. **If you find that your main achievements over the past year are filled with internal jargon or proprietary processes that no one outside your current company understands, treat this as a severe warning sign that you need to pivot.** 3. Establish Weber's 'boundary of meaning': Try to leave work exactly on time for three consecutive days this week. Disconnect entirely and spend one hour doing something driven purely by curiosity with zero KPI pressure, laying the groundwork for skills you can actually take with you."
+    }
+  ],
+  "hooks": [
+    {
+      "from": "weber",
+      "text": "**借来的意义，借来的牢**：当公司用『使命』『归属』替代加薪，留人的话术也可能是更精巧的剥削。我们如何分辨：哪份热爱真属于你，哪份只是被征用？",
+      "text_en": "**Borrowed meaning, borrowed cage**: when a company substitutes 'mission' and 'belonging' for a raise, the rhetoric that retains you may be a subtler exploitation. How do we tell which love is truly yours and which has merely been requisitioned?"
+    },
+    {
+      "from": "beauvoir",
+      "text": "**自由的半径并不相等**：背着房贷、签证、要照顾的人，离开的代价对每个人天差地别。一套适用于无牵挂者的『勇敢跳槽』，对被困住的人会不会是另一种『何不食肉糜』？",
+      "text_en": "**The radius of freedom is not equal**: with a mortgage, a visa, someone to care for, the cost of leaving differs vastly from person to person. Is a 'be brave, just hop' built for the unencumbered, to the trapped, just another 'let them eat cake'?"
+    },
+    {
+      "from": "naval",
+      "text": "**关系性的护城河**：最值钱的『特定知识』，常常是人与人之间的信任与默契——它带不出那扇门。跳槽真正清零的，也许不是工龄，而是一整套关系资本。",
+      "text_en": "**The relational moat**: the most valuable 'specific knowledge' is often the trust and tacit coordination between people — and it can't be carried out the door. What hopping truly resets may be not seniority but a whole stock of relational capital."
+    },
+    {
+      "from": "damasio",
+      "text": "**身体作为长期数据**：一时的情绪会骗人，但持续半年的胸闷是数据。我们能不能学会把身体的信号，当成和财务报表一样严肃的决策依据？",
+      "text_en": "**The body as long-run data**: a passing emotion will fool you, but chest-tightness that lasts half a year is data. Can we learn to treat the body's signals as seriously as a financial statement when we decide?"
+    },
+    {
+      "from": "gpt",
+      "text": "**年龄改变配方**：可选性对年轻人极便宜、对中年人近乎奢侈。同一道『去留题』，是否本就该按人生阶段给出完全不同的答案？",
+      "text_en": "**Age changes the recipe**: optionality is dirt cheap for the young and near-luxury for the middle-aged. Should the same 'go-or-stay' question yield entirely different answers by life stage?"
+    },
+    {
+      "from": "adamgrant",
+      "text": "**声誉到底能不能带走**：跳槽时代，给予者攒下的善意与口碑，有多少是公司专属、随离职清零，又有多少能随人迁移？如果声誉越来越可携带，『为攒声誉而固守』的逻辑还成立吗？",
+      "text_en": "**Can reputation travel**: in the job-hopping era, how much of a giver's banked goodwill and standing is firm-specific and zeroed on exit, and how much moves with the person? If reputation grows ever more portable, does 'stay to bank reputation' still hold?"
+    }
+  ]
 }

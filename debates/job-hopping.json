@@ -13,7 +13,8 @@
     "damasio",
     "beauvoir",
     "weber",
-    "adamgrant"
+    "adamgrant",
+    "reidhoffman"
   ],
   "casting": [
     {
@@ -65,6 +66,11 @@
       "id": "adamgrant",
       "reason": "组织心理学一席，用大数据把『去还是留』翻译成给予者—索取者的互惠博弈：给予者的声誉与善意会随时间复利、宜守在会回报慷慨的『对的池塘』；索取者则靠跳槽甩掉追上来的坏名声。给这道偏哲学的辩论补上最实证的一块。",
       "reason_en": "The organizational-psychology seat, who turns 'go or stay' into a reciprocity game of givers and takers with hard data: a giver's reputation and goodwill compound over time and reward staying in the 'right pond' that repays generosity, while a taker hops to shed the bad name catching up to him. He adds the most empirical piece to an otherwise philosophical table."
+    },
+    {
+      "id": "reidhoffman",
+      "reason": "领英创始人，把『跳还是留』从忠诚问题改写成『轮值任期』：雇佣是一段有明确使命与期限的互惠联盟，去留只问这一任还在不在长技能、织人脉。补上全场缺的『成长/学习曲线』那把干净的尺，也补上『网络才是你真正带得走的资产』。",
+      "reason_en": "The founder of LinkedIn, who recasts 'stay or go' from a loyalty question into a 'tour of duty': employment as a finite, mutual alliance with a clear mission, the decision reduced to whether this tour still grows your skills and network. He supplies the clean 'growth / learning-curve' yardstick the debate lacked, plus 'your network is the asset you actually carry away.'"
     }
   ],
   "posts": [
@@ -128,7 +134,8 @@
         ],
         "轻微赞同": [
           "munger",
-          "damasio"
+          "damasio",
+          "reidhoffman"
         ],
         "轻微反对": [
           "fromm"
@@ -416,10 +423,40 @@
         ],
         "轻微赞同": [
           "naval",
-          "fromm"
+          "fromm",
+          "reidhoffman"
         ],
         "中立": [
           "taleb"
+        ]
+      }
+    },
+    {
+      "id": "p31",
+      "round": 1,
+      "thinker": "reidhoffman",
+      "reply_to": null,
+      "text": "『忠诚 vs 跳槽』这个二分本身已经过时了。终身雇佣早死了，但它的替代品不该是漫无目的地乱跳。我在《联盟》里给了个更实在的框架：**把每一段雇佣都当成一次『轮值任期』(tour of duty)——一段有明确使命、有期限的互惠联盟：你全力交付，公司让你真实成长；任期到了，双方诚实复盘，再续一段新任期，或体面地各奔前程。** 于是『去还是留』有了清晰判据：这一任，还在推进我的使命、技能和人脉吗？是就续，不是就换——既不必愚忠，也不用瞎跳。",
+      "text_en": "The whole 'loyalty versus job-hopping' binary is already outdated. Lifelong employment is long dead, but its replacement shouldn't be aimless churning. In The Alliance I gave a more workable frame: **treat each stint of employment as a 'tour of duty' — a finite, mutual alliance with a clear mission: you deliver fully, the company grows you for real; when the tour ends, both sides review honestly and either begin a new tour or part ways with dignity.** That gives 'stay or go' a clear test: is this tour still advancing my mission, my skills, my network? Renew if yes, move if no — neither blind loyalty nor restless hopping.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "轮值任期": "tour of duty（轮值任期）：霍夫曼用语，把雇佣设计成一段有明确使命与期限的互惠联盟——员工在其中真实成长，任期结束双方诚实再议，而非默认终身或随时走人。"
+      },
+      "glossary_en": {
+        "tour of duty": "Hoffman's term for framing employment as a finite, mutual alliance with a clear mission — the employee grows for real within it, and at its end both sides review honestly, rather than assuming lifelong tenure or leaving at whim."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "naval"
+        ],
+        "轻微赞同": [
+          "taleb",
+          "adamgrant",
+          "weber"
+        ],
+        "中立": [
+          "munger"
         ]
       }
     },
@@ -772,6 +809,31 @@
         ],
         "中立": [
           "naval"
+        ]
+      }
+    },
+    {
+      "id": "p32",
+      "round": 2,
+      "thinker": "reidhoffman",
+      "reply_to": "p02",
+      "text": "@纳瓦尔 『特定知识跟着你走』——完全同意，但你一步跳到『去拥有、当老板』，略过了大多数人当下的现实：他们还是雇员。**给雇员的答案不是明天就去创业，而是把这份工作当一次联盟来经营，并盯住一件比薪水、甚至比技能更带得走的资产——你的人脉网络。** 你真正的『职业保险』不是某家公司，是认识你、也认可你的那群人。所以每段任期都干两件事：长出稀缺技能，织出真实的网络。哪天这两样都停了，才是真正该走的信号。",
+      "text_en": "@Naval — 'specific knowledge travels with you': fully agree, but you leap straight to 'own it, be the boss,' skipping the reality most people are in: they're still employees. **The answer for an employee isn't to go found a startup tomorrow, but to run this job as an alliance and watch an asset even more portable than salary, even than skill — your network.** Your real 'career insurance' isn't any one company; it's the people who know you and vouch for you. So make every tour do two things: grow rare skills, and weave a genuine network. The day both of those stall is the real signal to leave.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "adamgrant"
+        ],
+        "轻微赞同": [
+          "naval",
+          "munger",
+          "weber"
+        ],
+        "中立": [
+          "beauvoir"
         ]
       }
     },
@@ -1134,6 +1196,32 @@
           "taleb"
         ],
         "中立": [
+          "damasio"
+        ]
+      }
+    },
+    {
+      "id": "p33",
+      "round": 3,
+      "thinker": "reidhoffman",
+      "reply_to": null,
+      "text": "落到能用的：**别问『该不该跳』，问『我在给自己规划下一段任期吗』。** 三件事：一，把当前岗位说清成一次任期——写下这一任要完成的使命、和你要换到手的具体成长；到期就复盘，达成了就续约或升级，没有就另谋一任。二，像经营创业公司一样经营自己：永远处于『测试版』，持续学习、留好 Plan B。三，把人脉当复利来投：离开时走得漂亮，旧同事是你一辈子的联盟——今天你帮过的人，就是下一段任期的入口。跳或留从来不是重点，停在原地不成长才是。",
+      "text_en": "To the practical: **don't ask 'should I jump,' ask 'am I planning my own next tour.'** Three things. One, frame your current role as a tour — write down the mission you'll complete this tour and the concrete growth you'll take away; review at its end, renew or upgrade if you hit it, seek another tour if you didn't. Two, run yourself like a startup: stay in permanent beta, keep learning, keep a Plan B ready. Three, invest in your network as compounding capital: leave well, for former colleagues are a lifelong alliance — the person you helped today is the doorway to your next tour. Jumping or staying was never the point; standing still and not growing is.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "naval"
+        ],
+        "轻微赞同": [
+          "adamgrant",
+          "munger",
+          "taleb"
+        ],
+        "中立": [
+          "wangyangming",
           "damasio"
         ]
       }

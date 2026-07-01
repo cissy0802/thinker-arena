@@ -13,10 +13,12 @@
   var UI = {
     zh: { h1: "思想家圆桌辩论", tagline: "古今中外的思想家，就一个问题数轮辩论 · 三家 AI 收尾",
       profiles: "人物图鉴 →", ideas: "议题投票 →", session: "第 %N 场", panel: "位思想家 + 三方 AI 收尾", enter: "进入辩论 →",
+      stats: "%T 位思想家 · 三家 AI 评委",
       empty: "还没有辩论。", loading: "加载中…", failPre: "无法加载议题列表（", failPost: "）。本地预览请用 ",
       title: "思想家圆桌辩论 · BigCat's Thinking Hub" },
     en: { h1: "Thinkers' Round Table", tagline: "Great minds across eras and traditions debate one question over rounds · closed by an AI panel",
       profiles: "All thinkers →", ideas: "Vote on topics →", session: "Debate %N", panel: " thinkers + AI panel", enter: "Enter debate →",
+      stats: "%T thinkers · a 3-model AI panel",
       empty: "No debates yet.", loading: "Loading…", failPre: "Couldn't load the topic list (", failPost: "). For local preview run ",
       title: "Thinkers' Round Table · BigCat's Thinking Hub" }
   };
@@ -59,6 +61,13 @@
       var TK = {};
       res[0].thinkers.forEach(function (c) { TK[c.id] = c; });
       var debates = (res[1].debates || []).slice();
+
+      // 实时统计：思想家数(不含 3 家 AI 评委) · 辩论场数——始终跟随 thinkers.json/index.json
+      var AI_JUDGES = { claude: 1, gpt: 1, gemini: 1 };
+      var thinkerN = res[0].thinkers.filter(function (t) { return !AI_JUDGES[t.id]; }).length;
+      var roughN = Math.floor(thinkerN / 50) * 50 + "+";  // 只给约数(100+/150+…)，不显精确数、也不写死
+      var stEl = document.getElementById("stats");
+      if (stEl) stEl.textContent = T("stats").replace("%T", roughN);
 
       if (!debates.length) {
         document.getElementById("list").innerHTML = '<div class="empty">' + T("empty") + "</div>";

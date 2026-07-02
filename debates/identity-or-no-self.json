@@ -1,0 +1,868 @@
+{
+  "id": "identity-or-no-self",
+  "question": "想改变自己，该先给自己贴正向标签、强化身份（成功学的『先改 identity』），还是看破『我执』、放下自我（佛学的无我）？",
+  "question_en": "To change yourself, should you start by claiming a positive label and reinforcing a new identity (the self-help 'identity-first' move), or by seeing through self-grasping and letting go of the self (the Buddhist no-self)?",
+  "date": "2026-07-02",
+  "participants": [
+    "adler",
+    "dweck",
+    "goffman",
+    "wood",
+    "xunzi",
+    "vasubandhu",
+    "sartre",
+    "dostoevsky"
+  ],
+  "casting": [
+    {
+      "id": "adler",
+      "reason": "个体心理学创始人，『被讨厌的勇气』热潮背后的源头。他主张性格只是可以重选的『生活风格』、人被目标而非过去牵引——是本场『先改身份』一方最有心理学底气的辩护人，也带来鼓励、贡献感与共同体感觉这套落地方法。",
+      "reason_en": "Founder of individual psychology and the source behind the 'Courage to Be Disliked' wave. He holds that character is merely a re-choosable 'lifestyle' and that people are pulled by goals, not pushed by the past — making him the identity-first camp's most psychologically grounded advocate, armed with encouragement, contribution, and community feeling as working methods."
+    },
+    {
+      "id": "dweck",
+      "reason": "斯坦福心理学家、成长型思维的提出者。她的实验直接命中本场靶心：夸『你真聪明』这类正向标签，反而喂出固定型思维。由她来分辨『身份宣言』与『能力可变的信念』之差，无人更合适。",
+      "reason_en": "Stanford psychologist and originator of the growth mindset. Her experiments hit this debate's bullseye: positive labels like 'you're so smart' end up feeding a fixed mindset. No one is better placed to tell an identity declaration apart from a belief that ability can change."
+    },
+    {
+      "id": "goffman",
+      "reason": "微观社会学大师、拟剧论的提出者。在他看来自我本是表演的产物，『贴标签』的效力从来不在内心而在观众。他把这场看似心理学的争论拉回社会舞台：改变自己，等于换剧目、换观众。",
+      "reason_en": "Master of micro-sociology and father of dramaturgy. For him the self is a product of performance, and a label's power lies never in the mind but in the audience. He drags this seemingly psychological quarrel back onto the social stage: changing yourself means changing the repertoire and the audience."
+    },
+    {
+      "id": "wood",
+      "reason": "习惯科学的领军人，用几十年经验取样与实验说明：日常行为近半由情境自动触发。她为本场提供最硬的实证参照系——身份宣言也好、内观也罢，都绕不开情境与重复这道地基。",
+      "reason_en": "A leading figure in habit science, whose decades of experience-sampling and experiments show nearly half of daily behavior is triggered automatically by context. She supplies the hardest empirical baseline here: identity statements and introspection alike must still stand on the foundation of context and repetition."
+    },
+    {
+      "id": "xunzi",
+      "reason": "先秦儒家殿军，『性恶—化性起伪』的提出者。他相信人可以被彻底重塑，但靠的是礼法、环境与日积月累，而非口号或顿悟——为本场提供一条既非标签、亦非无我的第三条古典路线。",
+      "reason_en": "The last great Confucian of the pre-Qin era, author of the 'nature is bad — remake it through effort' thesis. He believes a person can be thoroughly remade, but by ritual, environment, and accumulation rather than slogans or sudden insight — a third, classical road that is neither label nor no-self."
+    },
+    {
+      "id": "vasubandhu",
+      "reason": "唯识宗奠基人，『万法唯识』与种子薰习说的集大成者。无我与改变如何兼容？他的阿赖耶识—薰习—转依框架正面回答本场的核心难题：没有主人的相续，照样可以转向。",
+      "reason_en": "Co-founder of the Yogācāra school and grand synthesizer of 'consciousness-only' and the doctrine of seeds and perfuming. How can no-self and self-change coexist? His ālaya-vijñāna–perfuming–transformation framework answers this debate's central puzzle head-on: a continuum without an owner can still change course."
+    },
+    {
+      "id": "sartre",
+      "reason": "存在主义旗手，『存在先于本质』与『自欺』概念的锻造者。他对两边各打五十大板：贴标签是把自己当物，躲进无我是逃避选择——为本场安上一根自由与责任的钢梁。",
+      "reason_en": "Standard-bearer of existentialism, forger of 'existence precedes essence' and 'bad faith.' He canes both camps equally: labeling yourself treats you as a thing, while hiding in no-self dodges the burden of choice — installing a steel beam of freedom and responsibility across this debate."
+    },
+    {
+      "id": "dostoevsky",
+      "reason": "以小说抵达心理深渊的文学巨匠。他的地下室人专为戳破一切自我改造工程而生：人宁可作践自己，也要证明自己不是琴键。他替所有计划失败过的普通人发言，并给出爱与俯首这条『非方法』的路。",
+      "reason_en": "The novelist who reached the bottom of the psyche. His Underground Man exists to puncture every project of self-engineering: a man will wreck himself sooner than admit he is a piano key. He speaks for everyone whose plans have failed, and offers the un-methodical road of love and humility."
+    }
+  ],
+  "posts": [
+    {
+      "id": "p01",
+      "round": 1,
+      "thinker": "adler",
+      "reply_to": null,
+      "text": "我先把话挑明：**决定你的不是过去与性格，而是你此刻为自己选定的目标——所谓性格，不过是你惯用的生活风格，随时可以重选。**说『我内向、我拖延、我就这样』的人，不是不能变，是不想变：旧风格虽难受，却熟悉、安全。想改变，先拿出被讨厌的勇气，认定『我是能对他人有用的人』，再从今天的一件小事做起。标签不是咒语，是新目标的路标。",
+      "text_en": "Let me be blunt: **what determines you is not your past or your character, but the goal you choose for yourself right now — what we call personality is merely your habitual lifestyle, and it can be re-chosen at any time.** People who say 'I'm an introvert, I procrastinate, that's just who I am' are not unable to change; they are unwilling: the old style hurts, but it is familiar and safe. To change, summon the courage to be disliked, decide 'I am someone who can be useful to others,' and start with one small deed today. A label is not a spell; it is a signpost toward a new goal.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "生活风格": "lifestyle（生活风格）：阿德勒术语，指一个人看待自己与世界、应对人生课题的整套习惯模式。它形成于童年，但阿德勒认为它是被『选择』的——因此也随时可以重新选择。"
+      },
+      "glossary_en": {
+        "lifestyle": "Adler's term for a person's whole habitual pattern of viewing self and world and meeting life's tasks — formed in childhood, yet in his view chosen, and therefore open to being chosen anew at any time."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "dweck",
+          "goffman"
+        ],
+        "中立": [
+          "wood"
+        ],
+        "轻微反对": [
+          "vasubandhu",
+          "sartre"
+        ],
+        "强烈反对": [
+          "dostoevsky"
+        ]
+      }
+    },
+    {
+      "id": "p02",
+      "round": 1,
+      "thinker": "dweck",
+      "reply_to": null,
+      "text": "恕我泼盆冷水：**给自己贴『我聪明、我自律、我是跑者』的正向标签，恰恰在喂养固定型思维——标签把能力说成一种你『是』或『不是』的东西，第一次失手它就反咬你。**我们的实验里，被夸『你真聪明』的孩子随后专挑简单题，怕砸了招牌。真正该改的不是名词，是动词：把『我是』换成『我在练』，把『失败』读成『还没』。成长型思维不是一张新标签，而是对『能力本身可变』的信念。",
+      "text_en": "Forgive me for pouring cold water: **pasting positive labels on yourself — 'I'm smart, I'm disciplined, I'm a runner' — is precisely how you feed a fixed mindset: a label casts ability as something you either are or are not, and the first time you slip, it bites back.** In our experiments, children praised as 'so smart' went on to pick only the easy problems, terrified of ruining the brand. What needs changing is not the noun but the verb: swap 'I am' for 'I'm practicing,' and read 'failure' as 'not yet.' A growth mindset is not a new label; it is the belief that ability itself can change.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "固定型思维": "fixed mindset（固定型思维）：认为智力与才能是天生定量、只能证明不能增长的信念。持有者倾向回避挑战、掩饰错误，因为每次失败都像在宣判『我不行』。",
+        "成长型思维": "growth mindset（成长型思维）：认为能力可以通过策略、练习与求助而增长的信念。它不是盲目乐观的口号，而是让失败从『判决』变成『信息』的一种解释框架。"
+      },
+      "glossary_en": {
+        "fixed mindset": "The belief that intelligence and talent are fixed quantities to be proven rather than grown. Holders tend to dodge challenges and hide mistakes, because every failure reads as a verdict of 'not good enough.'",
+        "growth mindset": "The belief that abilities can be developed through strategy, practice, and help-seeking. Not a slogan of blind optimism, but an interpretive frame that turns failure from a verdict into information."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "wood"
+        ],
+        "轻微赞同": [
+          "vasubandhu",
+          "xunzi"
+        ],
+        "轻微反对": [
+          "adler",
+          "goffman"
+        ]
+      }
+    },
+    {
+      "id": "p03",
+      "round": 1,
+      "thinker": "goffman",
+      "reply_to": null,
+      "text": "二位都把改变当成个人内心戏，可我观察到的是：**自我不是表演背后的原因，而是表演的产物——你在什么观众面前、扮演什么角色、被怎样期待，你就慢慢成为什么。**私下给自己贴标签，像在空剧场里彩排，散场就忘；把新角色公开演出来——报个班、告诉同事你在戒酒——观众的目光会替你把人设撑住。当然，前台崩塌时也更疼，这是入戏的代价。",
+      "text_en": "You both treat change as a private inner drama, but here is what I observe: **the self is not the cause behind the performance — it is the product of it: whichever audience you face, whatever role you play, however you are expected to act, that is what you slowly become.** Labeling yourself in private is rehearsing in an empty theater — forgotten the moment you leave. Perform the new role publicly — sign up for the class, tell your colleagues you've quit drinking — and the audience's gaze will prop the character up for you. Of course, when the front stage collapses it hurts more. That is the price of taking the part.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "前台": "front stage（前台）：戈夫曼拟剧论术语，指人在观众面前维持特定形象的表演区域；与之相对的『后台』则是卸妆、排练、露出松弛面目的地方。"
+      },
+      "glossary_en": {
+        "front stage": "Goffman's dramaturgical term for the zone where a person performs a given image before an audience; its counterpart, the backstage, is where one drops the mask, rehearses, and relaxes."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "xunzi",
+          "wood",
+          "adler"
+        ],
+        "轻微反对": [
+          "dweck",
+          "sartre"
+        ],
+        "疑惑": [
+          "dostoevsky"
+        ]
+      }
+    },
+    {
+      "id": "p04",
+      "round": 1,
+      "thinker": "wood",
+      "reply_to": null,
+      "text": "我带了点数据来。**我们追踪日常行为发现，约43%的行动是习惯：由熟悉的情境自动触发，跟你信什么、给自己贴什么标签，关系小得惊人。**靠身份宣言减肥的人，回到堆满零食的厨房照样破功。想改变，先改情境：把跑鞋放到门口、卸掉外卖软件、给坏习惯加三秒摩擦力。重复几十次，新行为落进习惯记忆，那时你自然会觉得『我是个自律的人』——身份是习惯的收据，不是发票。",
+      "text_en": "I brought data. **Tracking everyday behavior, we find roughly 43% of what people do is habit: triggered automatically by familiar contexts, and startlingly indifferent to what you believe or what label you wear.** Dieters running on identity statements still crack the moment they walk into a kitchen stocked with snacks. To change, change the context first: put the running shoes by the door, delete the delivery app, add three seconds of friction to the bad habit. Repeat a few dozen times and the new behavior settles into habit memory — and then you will naturally feel 'I am a disciplined person.' Identity is the receipt for your habits, not the invoice.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "摩擦力": "friction（摩擦力）：习惯科学术语，指执行一个行为所需跨越的微小阻碍——距离、步骤、时间。给坏习惯加摩擦、给好习惯减摩擦，往往比动员意志力有效得多。",
+        "习惯记忆": "habit memory（习惯记忆）：一种由重复铸成的程序性记忆，存于基底神经节等脑区；一旦形成，行为由情境线索直接启动，几乎不经过意识决策。"
+      },
+      "glossary_en": {
+        "friction": "In habit science, the small obstacles standing between you and an action — distance, steps, time. Adding friction to bad habits and shaving it off good ones tends to beat mobilizing willpower.",
+        "habit memory": "Procedural memory forged by repetition and stored in regions like the basal ganglia; once formed, behavior is launched directly by context cues, with hardly any conscious deliberation."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "xunzi"
+        ],
+        "轻微赞同": [
+          "dweck",
+          "vasubandhu"
+        ],
+        "轻微反对": [
+          "sartre"
+        ],
+        "强烈反对": [
+          "dostoevsky"
+        ]
+      }
+    },
+    {
+      "id": "p05",
+      "round": 1,
+      "thinker": "xunzi",
+      "reply_to": null,
+      "text": "人之性恶，其善者伪也。**枸木必将待檃栝烝矫然后直，钝金必将待砻厉然后利——欲变其身，非空言标榜所能致，必假外物之矫。**故蓬生麻中，不扶而直；居必择乡，游必就士。积土成山，积善成德，圣人者，人之所积而致也。彼贴签自诩者，无檃栝而望木自直；言无我而废学者，去砻厉而望金自利。皆惑也。",
+      "text_en": "Human nature tends to the bad; whatever goodness there is comes of deliberate effort. **Crooked wood must be steamed and pressed against the straightening frame before it comes true; blunt metal must be ground on the whetstone before it grows sharp — to remake yourself, empty self-labeling will not do it; you must borrow external instruments of correction.** Thus fleabane growing amid hemp stands straight without propping: choose your neighborhood when you dwell, seek out the learned when you travel. Piling up earth makes a mountain; piling up good deeds makes virtue — a sage is simply what a person becomes by accumulation. Those who paste on a label and preen hope wood will straighten itself without the frame; those who cry 'no-self' and cast away learning hope metal will sharpen itself without the stone. Both are deluded.",
+      "vernacular": "人的本性趋向恶，善是后天人为修出来的。**弯木头必须靠檃栝（矫木的夹具）蒸烤矫正才能变直，钝刀必须上磨石打磨才能锋利——想改变自己，空口贴标签办不到，必须借助外在的矫正工具。**所以蓬草长在麻田里，不用扶自然就直：住处要挑风气好的地方，交游要亲近有学问的人。积土成山，积善成德，圣人也不过是一点点积累而成的人。那些贴个标签就自我标榜的，是不用夹具却指望木头自己变直；口称『无我』就废弃学习的，是扔掉磨石却指望刀自己变利。都是糊涂。",
+      "vernacular_en": "",
+      "glossary": {
+        "伪": "deliberate effort（伪）：荀子术语，非『虚伪』之义，指后天有意识的作为与修养。『化性起伪』即以人为的学习、礼法改造先天之性。",
+        "檃栝": "straightening frame（檃栝）：古代矫正弯曲木材的夹具，须配合蒸烤使木就范。荀子以此喻礼法师教之于人性：不经外力矫正，本性不会自己变直。"
+      },
+      "glossary_en": {
+        "deliberate effort": "Xunzi's term wei (伪) — not 'hypocrisy' but conscious, cultivated doing: remaking one's inborn nature through learning and ritual.",
+        "straightening frame": "The yinkuo (檃栝), an ancient clamp used with steam to force bent timber straight. Xunzi's image for what teachers and ritual do to human nature: without external correction, it will not straighten itself."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "wood"
+        ],
+        "轻微赞同": [
+          "goffman",
+          "dweck"
+        ],
+        "中立": [
+          "sartre"
+        ],
+        "轻微反对": [
+          "vasubandhu"
+        ]
+      }
+    },
+    {
+      "id": "p06",
+      "round": 1,
+      "thinker": "vasubandhu",
+      "reply_to": null,
+      "text": "诸君所争之『我』，求之了不可得。**万法唯识：所谓自我，不过阿赖耶识中念念迁流之种子，随所熏而长，遇缘而现行——无一常主，而相续不断。**故贴签立我固是执；谓无我便无可修者，亦堕断见。种子由薰习而改：日日行之，行熏成种，种复生行，久则转依，面目自新。不须先信『我是何人』，但问今日熏了什么。",
+      "text_en": "That 'self' you are all fighting over — search for it, and it cannot be found. **All phenomena are consciousness only: the so-called self is nothing but seeds streaming moment to moment in the ālaya-vijñāna, growing as they are perfumed, ripening into action when conditions meet — no permanent owner anywhere, yet continuing without a break.** So to paste on a label and posit a self is indeed grasping; but to say 'no self, hence nothing to cultivate' falls into annihilationism. Seeds change through perfuming: do a thing daily, and the act perfumes new seeds; the seeds give rise to new acts; in time the very basis turns over, and the face is made new. You need not first settle who you are. Only ask: what did I perfume today?",
+      "vernacular": "诸位争来争去的那个『我』，认真去找是找不到的。**万事万物都是心识的显现：所谓自我，只是阿赖耶识（根本识）里刹那刹那流动的种子，随熏染而生长，遇条件就发作成行为——里面没有一个恒常的主人，却又前后相续、从不间断。**所以，贴标签立一个『我』固然是执著；但说『既然无我，就没什么可修的』，那是堕入另一个极端（断见）。种子靠熏习而改变：一件事天天去做，行为熏成新种子，新种子又生出新行为，久了，整个生命的底盘都会翻转（转依），人就焕然一新。不必先确信『我是谁』，只须问：今天熏进去的是什么。",
+      "vernacular_en": "",
+      "glossary": {
+        "阿赖耶识": "ālaya-vijñāna（阿赖耶识）：唯识学的『藏识』，一切经验留下的种子都储存于此、相续流转。它不是灵魂——本身也刹那生灭，只是习气的仓库与河流。",
+        "薰习": "perfuming（薰习）：如香气熏染衣物，每一次身口意的造作都在阿赖耶识中留下种子、强化倾向。人格由此日积月累地被塑造，也由此可以被重塑。",
+        "转依": "āśraya-parāvṛtti（转依）：字面为『所依的转换』，指经长期熏修，生命整个底盘由染转净的根本转化——唯识学里『改变自己』的终点。",
+        "断见": "annihilationism（断见）：与『常见』相对的极端见解，认为无我即一切断灭、修行无意义。唯识学以『相续不断』破之：无常主，不碍因果延续。"
+      },
+      "glossary_en": {
+        "ālaya-vijñāna": "The 'storehouse consciousness' of Yogācāra, where seeds left by every experience are kept and stream on. Not a soul — it too arises and perishes moment by moment, a warehouse-river of dispositions.",
+        "perfuming": "As incense scents a robe, every deed of body, speech, and mind deposits seeds in the storehouse and strengthens a tendency. Character is built this way, drop by drop — and can be rebuilt the same way.",
+        "annihilationism": "The extreme view that no-self means nothing continues and practice is pointless. Yogācāra refutes it with continuity: no permanent owner, yet cause and effect flow on unbroken."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "wood",
+          "dweck"
+        ],
+        "中立": [
+          "goffman"
+        ],
+        "轻微反对": [
+          "xunzi",
+          "sartre"
+        ],
+        "疑惑": [
+          "adler"
+        ]
+      }
+    },
+    {
+      "id": "p07",
+      "round": 1,
+      "thinker": "sartre",
+      "reply_to": null,
+      "text": "我要同时冒犯两边。**人是先存在、后定义的——不存在任何『本质的我』等你去强化，也不存在一个『我执』等你去看破：你就是你行动的总和，此外无物。**给自己贴『我是自信的人』的标签，是把自己当咖啡馆侍者那样演成一件物件，这叫自欺；可躲进『无我』里说『没有谁在选择』，同样是自欺——明早闹钟响起，仍是你决定起不起来。自由不是感觉，是无处可逃的判决。",
+      "text_en": "I intend to offend both camps at once. **Man first exists and is defined afterwards — there is no 'essential self' waiting to be reinforced, and no 'self-grasping' waiting to be seen through: you are the sum of your acts, and nothing else.** To label yourself 'a confident person' is to play yourself as an object, the way the café waiter plays the waiter — that is bad faith. But to hide inside 'no-self' and murmur 'there is no one choosing' is bad faith all the same: when the alarm rings tomorrow, it is still you who decides whether to get up. Freedom is not a feeling; it is a verdict from which there is no appeal.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "自欺": "mauvaise foi / bad faith（自欺）：萨特术语，指人逃避自身自由的两种方式——要么把自己当成有固定本质的『物』（我就是这样的人），要么假装没有人在选择。过分入戏地『扮演侍者』的咖啡馆侍者，是他的著名例子。"
+      },
+      "glossary_en": {
+        "bad faith": "Sartre's mauvaise foi: the ways we flee our own freedom — either casting ourselves as a thing with a fixed essence ('that's just who I am') or pretending no one is doing the choosing. His famous example is the café waiter who plays at being a waiter a little too perfectly."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "dostoevsky"
+        ],
+        "中立": [
+          "dweck"
+        ],
+        "轻微反对": [
+          "goffman",
+          "wood"
+        ],
+        "疑惑": [
+          "xunzi"
+        ]
+      }
+    },
+    {
+      "id": "p08",
+      "round": 1,
+      "thinker": "dostoevsky",
+      "reply_to": null,
+      "text": "诸位的方案听着都体面，可我的地下室人早替你们把账算过了。**你们把人当成待优化的工程，人却偏是那种为了证明自己不是琴键，宁肯故意作践自己、把整套改造计划掀翻的生物。**贴上标签的人，迟早会恨那张标签；练成习惯的人，会突然渴望荒唐一次。拉斯柯尔尼科夫不是被计划改好的，是被一个肯陪他去西伯利亚的人焐热的。改变的入口不在方法里，在你终于对某个人低下头的那一刻。",
+      "text_en": "Your programs all sound respectable, but my Underground Man settled these accounts long ago. **You treat a human being as an engineering project awaiting optimization, yet man is precisely the creature who, to prove he is not a piano key, will deliberately wreck himself and overturn the whole scheme of improvement.** The man who wears a label comes to hate the label; the man drilled into habit will one day crave an act of folly. Raskolnikov was not reformed by a plan — he was thawed by a woman willing to follow him to Siberia. The doorway to change is not in a method; it is the moment you finally bow your head before another human being.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "地下室人": "the Underground Man（地下室人）：《地下室手记》的无名主人公，专为反驳『人会按利益与合理计划行事』而生——他宁可跟自己过不去，也要捍卫任性的自由。"
+      },
+      "glossary_en": {
+        "Underground Man": "The nameless narrator of Notes from Underground, invented to refute the idea that people act on interest and rational plans — he will sabotage himself sooner than surrender his capricious freedom."
+      },
+      "reactions": {
+        "强烈反对": [
+          "adler"
+        ],
+        "轻微反对": [
+          "wood",
+          "dweck"
+        ],
+        "轻微赞同": [
+          "sartre"
+        ],
+        "中立": [
+          "vasubandhu"
+        ],
+        "疑惑": [
+          "goffman"
+        ]
+      }
+    },
+    {
+      "id": "p09",
+      "round": 2,
+      "thinker": "vasubandhu",
+      "reply_to": "p01",
+      "text": "阿德勒君言『重选生活风格』，善则善矣，犹余一执。**既谓风格可选，则知其非我；既非我，何必又立『我是有用之人』之新我而守之？**立新我者，如缚一囚：方释旧枷，旋着新锁。吾不废立志——志亦种子也；然用之当如筏，渡则舍之。日日行善行，种子自换，何劳时时对镜自证『我是谁』？执标签者，正坐此病。",
+      "text_en": "Herr Adler's 'choose a new lifestyle' is well said, yet one attachment remains. **If the style can be chosen, then it is not the self; and if it is not the self, why erect a new 'I who am useful to others' and stand guard over it?** To set up a new self is to bind a prisoner: the old cangue just lifted, a new lock snapped on. I do not reject resolve — a resolve, too, is a seed; but use it as you would a raft: cross the river, then lay it down. Do the good deed daily and the seeds replace themselves — why keep checking the mirror to certify who you are? Those who cling to labels sicken at exactly this point.",
+      "vernacular": "阿德勒先生说『生活风格可以重选』，好是好，但还剩一层执著。**既然承认风格可以选，就说明它不是『我』；既然不是我，又何必再立一个『我是对别人有用的人』的新我，日夜守着它？**立一个新我，就像捆一个囚犯：刚卸下旧枷，转身又戴上新锁。我不反对立志——志向也是一颗种子；但要像用筏子那样用它，过了河就放下。天天去做善行，种子自然更换，何必时时对着镜子确认『我是谁』？执着标签的人，毛病正在这里。",
+      "vernacular_en": "",
+      "glossary": {
+        "筏": "the raft parable（筏喻）：佛陀名喻——教法如渡河之筏，过河即当舍下，不应扛着筏子赶路。一切修行工具（包括『新身份』）皆当如是用、如是放。"
+      },
+      "glossary_en": {
+        "raft": "The Buddha's celebrated parable: the teaching is a raft for crossing the river, to be set down on the far bank, not carried on one's back. Every tool of practice — a new identity included — is to be used and released the same way."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "dweck",
+          "wood"
+        ],
+        "中立": [
+          "goffman"
+        ],
+        "轻微反对": [
+          "adler",
+          "sartre"
+        ]
+      }
+    },
+    {
+      "id": "p10",
+      "round": 2,
+      "thinker": "adler",
+      "reply_to": "p08",
+      "text": "陀翁，您那套『苦难与低头才是入口』的浪漫，我在诊室里听过太多——它最常被用作不改变的借口。**经历本身不决定我们，我们赋予经历的意义才决定我们；把改变押给苦难与救赎者，是最悦耳的人生谎言。**若索尼娅始终没出现，人就活该烂在地下室吗？不需要西伯利亚：今天对同事说一句真话、给母亲打一个电话，共同体感觉就从这里长出来。勇气是练出来的，不是熬出来的。",
+      "text_en": "Mr. Dostoevsky, your romance of 'suffering and bowed heads as the doorway' — I heard it endlessly in my consulting room, where it most often served as the excuse for not changing. **It is not our experiences that determine us but the meaning we give them; staking your change on suffering and on a redeemer is the most melodious of life-lies.** If no Sonya ever appears, does a man deserve to rot in his basement? You do not need Siberia: say one honest sentence to a colleague today, make one phone call to your mother — social interest grows from exactly there. Courage is trained, not endured.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "人生谎言": "life-lie（人生谎言）：阿德勒术语，指人为回避人生课题而编造的借口——把不改变归咎于创伤、命运或某个尚未到来的拯救时刻，从而心安理得地留在原地。",
+        "共同体感觉": "Gemeinschaftsgefühl / social interest（共同体感觉）：阿德勒心理学的基石，指感到自己属于人类共同体并愿意作出贡献。他视之为心理健康的标尺：改变的勇气正来自『我对他人有用』的实感。"
+      },
+      "glossary_en": {
+        "life-lie": "Adler's term for the excuse a person invents to dodge life's tasks — blaming trauma, fate, or a redemption that has not yet arrived, so as to stay put with a clear conscience.",
+        "social interest": "Gemeinschaftsgefühl, the cornerstone of Adlerian psychology: the felt sense of belonging to the human community and wishing to contribute. For Adler it is the yardstick of mental health — the courage to change grows out of feeling useful to others."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "dweck"
+        ],
+        "轻微赞同": [
+          "wood"
+        ],
+        "中立": [
+          "sartre"
+        ],
+        "强烈反对": [
+          "dostoevsky"
+        ]
+      }
+    },
+    {
+      "id": "p11",
+      "round": 2,
+      "thinker": "dweck",
+      "reply_to": "p03",
+      "text": "戈夫曼先生的『观众撑人设』，恰恰是我最担心的机制。**一旦改变成了当众表演，人追求的就不再是变好，而是不露怯——表现目标压倒学习目标，孩子们因此专挑稳赢的题。**公开承诺戒酒的人破戒后，最常见的动作不是重来，而是躲起来、连互助群都退了。观众的目光是高利贷：站着时借你面子，跌倒时加倍收走。要公开，就公开你的练习过程，别公开一个等着被拆穿的完美人设。",
+      "text_en": "Mr. Goffman's 'audience propping up the character' is exactly the mechanism I fear most. **The moment change becomes a public performance, people stop pursuing getting better and start pursuing not looking bad — performance goals crowd out learning goals, which is why children pick only the problems they are sure to win.** When someone who has publicly vowed sobriety relapses, the most common next move is not starting over — it is hiding, even quitting the support group. An audience's gaze is a loan shark: it lends you face while you stand and collects double when you fall. If you must go public, publicize your practice, not a flawless persona waiting to be exposed.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "表现目标": "performance goals（表现目标）：以证明自己、赢得好评为目的的目标取向。持此取向者把每次任务当考场，倾向回避可能失败的挑战。",
+        "学习目标": "learning goals（学习目标）：以增长能力为目的的目标取向。持此取向者把任务当练习场，失败只是反馈，因而敢挑更难的题。"
+      },
+      "glossary_en": {
+        "performance goals": "A goal orientation aimed at proving oneself and winning approval; tasks become examinations, and challenges that risk failure get avoided.",
+        "learning goals": "A goal orientation aimed at growing ability; tasks become practice grounds, failure is mere feedback, and harder problems become worth attempting."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "wood"
+        ],
+        "轻微赞同": [
+          "vasubandhu"
+        ],
+        "轻微反对": [
+          "goffman",
+          "adler"
+        ]
+      }
+    },
+    {
+      "id": "p12",
+      "round": 2,
+      "thinker": "goffman",
+      "reply_to": "p07",
+      "text": "萨特先生拿咖啡馆侍者讲了半个世纪『自欺』，可怜那位侍者只是在上班。**他托盘的每道弧线都是面子功夫——不演『侍者』，客人不安、老板扣钱、同事遭殃；哪有什么被出卖的『真我』藏在幕后？往后台走到底，也只是下一场演出的化妆间。**您说人是行动的总和，我完全同意——只是每个行动都有观众、剧本与走位。改变自己，说穿了是换剧目：换一批观众、换一套走位，演久了，那就是你。",
+      "text_en": "Monsieur Sartre has spent half a century calling the café waiter's act 'bad faith' — the poor man was just doing his job. **Every arc of his tray is face-work: fail to play 'the waiter' and the customers grow uneasy, the boss docks his pay, his colleagues suffer; where is this betrayed 'true self' hiding in the wings? Walk backstage as far as you like — you will find only the dressing room for the next performance.** You say a man is the sum of his acts; I agree entirely — only every act comes with an audience, a script, and blocking. Changing yourself is, frankly, a change of repertoire: new audience, new blocking. Play it long enough, and that is who you are.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "面子功夫": "face-work（面子功夫）：戈夫曼术语，指人在互动中为维持自己与他人的『脸面』所做的全部微小努力——寒暄、圆场、得体的姿态。它不是虚伪，而是社会交往得以运转的润滑剂。"
+      },
+      "glossary_en": {
+        "face-work": "Goffman's term for the countless small moves by which people maintain their own and others' 'face' in interaction — greetings, smoothing-over, tactful bearing. Not hypocrisy, but the lubricant that keeps social life running."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "wood",
+          "xunzi"
+        ],
+        "中立": [
+          "dweck"
+        ],
+        "轻微反对": [
+          "dostoevsky"
+        ],
+        "强烈反对": [
+          "sartre"
+        ]
+      }
+    },
+    {
+      "id": "p13",
+      "round": 2,
+      "thinker": "wood",
+      "reply_to": "p07",
+      "text": "萨特先生，『无处可逃的自由』在我的数据里逃得可快了。**被试自述的选择感，与行为的实际走向几乎不相关——预测你明天做什么，最准的变量不是意志与信念，而是你昨天在同一情境里做了什么。**深夜刷手机的人，个个都『决定』过要早睡。这不是替懒惰开脱：正因自动化如此强大，把自由花在刀刃上才明智——用一次选择去布置情境，让之后一百次不假思索的重复替你干活。自由的正确用法，是当自己的建筑师，别当守夜人。",
+      "text_en": "Monsieur Sartre, that 'freedom with no appeal' flees very fast in my data. **Participants' reported sense of choice barely tracks what their behavior actually does — the best predictor of what you will do tomorrow is not will or belief, but what you did in the same context yesterday.** Every midnight doom-scroller has 'decided' to sleep early. This is no alibi for laziness — precisely because automaticity is so powerful, the wise move is to spend your freedom where it counts: use one act of choice to arrange the context, and let a hundred unthinking repetitions do the work for you. The right use of freedom is to be your own architect, not your own night watchman.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "情境": "context（情境）：习惯科学中触发行为的稳定外部布景——时间、地点、上一个动作、在场的人。习惯一旦养成，是情境线索在启动行为，几乎不经过意识。"
+      },
+      "glossary_en": {
+        "context": "In habit science, the stable external stage set that triggers behavior — time, place, preceding action, who is present. Once a habit forms, it is context cues that launch the act, with consciousness barely consulted."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "xunzi"
+        ],
+        "轻微赞同": [
+          "goffman",
+          "vasubandhu"
+        ],
+        "轻微反对": [
+          "sartre"
+        ],
+        "强烈反对": [
+          "dostoevsky"
+        ]
+      }
+    },
+    {
+      "id": "p14",
+      "round": 2,
+      "thinker": "sartre",
+      "reply_to": "p12",
+      "text": "戈夫曼先生，您的剧场比我的咖啡馆更绝望，却漏算了一笔。**谁在决定继续演？每晚谢幕后，那个本可以撕毁合同、退出剧组的人，就是我说的自由——您把他描述成不存在，恰好是替他签了永久续约。**侍者演侍者不是罪，罪在他相信自己『只能是』侍者。伍德女士的43%也一样：习惯确实在开车，可选路线的仍是人。把方向盘让给情境与观众，很舒服——自欺向来舒服。",
+      "text_en": "Mr. Goffman, your theater is bleaker than my café, yet you have left one item off the bill. **Who decides to go on performing? The one who, after each curtain call, could tear up the contract and quit the company — that is what I call freedom, and by describing him as nonexistent you have signed his perpetual renewal on his behalf.** The waiter playing the waiter is no sin; the sin is his believing he can only be the waiter. The same goes for Madame Wood's 43%: habit may be driving, but it is still a person who picks the route. Handing the wheel to context and audience is comfortable — bad faith always is.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "自欺": "mauvaise foi / bad faith（自欺）：萨特术语，指逃避自身自由的方式——把自己交给角色、习惯或环境，然后宣称『我别无选择』。舒适，正是它最可疑之处。"
+      },
+      "glossary_en": {
+        "bad faith": "Sartre's mauvaise foi: fleeing one's freedom by handing oneself over to a role, a habit, or a milieu, then declaring 'I had no choice.' Its comfort is exactly what makes it suspect."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "dostoevsky",
+          "adler"
+        ],
+        "轻微反对": [
+          "goffman",
+          "wood",
+          "vasubandhu"
+        ]
+      }
+    },
+    {
+      "id": "p15",
+      "round": 2,
+      "thinker": "xunzi",
+      "reply_to": "p06",
+      "text": "世亲师说种子薰习，与吾言积伪，若合符节；独『无我』二字，吾不敢从。**学者必有师法。师法之立，赖有能虑能择之心——若并此心而无之，则孰辨善种恶种？孰立课程而日课之？**无辨择，则薰习如风过野田，善莠杂生。故吾贵心之征知：心居中虚以治五官，虑积焉、能习焉而后成。舍此主宰而言熏变，是委舟于流，望其自至彼岸也。",
+      "text_en": "Master Vasubandhu's seeds and perfuming tally with my accumulated effort like the two halves of a token; only those two words 'no-self' I dare not follow. **The learner must have teachers and standards. And teachers and standards stand only because there is a mind that can deliberate and select — deny even that mind, and who tells wholesome seeds from harmful ones? Who sets the curriculum and drills it daily?** Without discrimination, perfuming is wind over a wild field: good shoots and weeds spring up together. Hence I prize the mind's verification-knowing: the heart-mind sits at the center, empty and unified, governing the five senses; deliberation accumulates there, practice takes form there. To drop this master and still speak of transformation by perfuming is to abandon your boat to the current and hope it drifts itself to the far shore.",
+      "vernacular": "世亲法师讲种子熏习，跟我讲的『积伪』（一点点积累人为的修养）简直对得上暗号；唯独『无我』两个字，我不敢苟同。**求学的人必须有老师与法度。而老师法度能立起来，靠的是那颗能思虑、能拣择的心——如果连这颗心都说没有，那谁来分辨善种子、恶种子？谁来定功课、天天督促去做？**没有辨别拣择，熏习就像风吹过野地，好苗坏草一起疯长。所以我看重心的『征知』：心居于中枢、虚壹而静，统领五官，思虑在这里积累、练习在这里成形。丢开这个主宰去谈熏染变化，等于把船丢给水流，指望它自己漂到对岸。",
+      "vernacular_en": "",
+      "glossary": {
+        "积伪": "accumulated effort（积伪）：荀子术语，指日复一日累积后天的学习与修养。善不是天生的，是『积』出来的——积土成山、积善成德。",
+        "征知": "verification-knowing（征知）：荀子《正名》术语，指心对五官收来的材料加以核验、辨别而成知。心是统摄感官、作出判断的主宰。"
+      },
+      "glossary_en": {
+        "accumulated effort": "Xunzi's ji wei (积伪): day-upon-day accumulation of learning and cultivation. Goodness is not innate but piled up — earth into mountains, deeds into virtue.",
+        "verification-knowing": "Zheng zhi (征知) from Xunzi's 'Rectification of Names': the mind's act of checking and sorting what the five senses deliver, turning it into knowledge. The heart-mind is the master that governs the senses and judges."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "dweck",
+          "sartre",
+          "wood"
+        ],
+        "轻微反对": [
+          "vasubandhu"
+        ]
+      }
+    },
+    {
+      "id": "p16",
+      "round": 2,
+      "thinker": "dostoevsky",
+      "reply_to": "p13",
+      "text": "伍德女士，您的43%我一点不怀疑——我怀疑的是剩下的57%里住着谁。**情境布置得再科学，人还是会在某个深夜亲手拆掉自己的水晶宫，只为听一听『我偏要』这三个字的回声。**赌徒何尝不知概率？酒鬼何尝没扔过酒瓶？您管这叫复发，我管这叫人心的地下室：它不接受被设计，哪怕设计者是自己。所以别只给我摩擦力，请给我一个值得清醒的理由——人为爱与意义戒掉的东西，比为动线戒掉的多得多。",
+      "text_en": "Madame Wood, I do not doubt your 43% for a second — what I doubt is who lives in the other 57. **Arrange the context as scientifically as you please: some midnight the man will still tear down his own Crystal Palace with his bare hands, just to hear the echo of the words 'I refuse.'** Does the gambler not know the odds? Has the drunkard never thrown away his bottle? You call it relapse; I call it the basement of the human heart: it will not consent to being designed, even when the designer is oneself. So do not hand me friction alone — hand me a reason worth staying sober for. What people have quit for love and meaning far exceeds what they have ever quit for a well-placed pair of running shoes.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "水晶宫": "the Crystal Palace（水晶宫）：《地下室手记》中理性乌托邦的象征——一座把人类幸福全部算清的通透大厦。地下室人偏要对它吐舌头，以证明人的自由高于算术。"
+      },
+      "glossary_en": {
+        "Crystal Palace": "In Notes from Underground, the emblem of the rational utopia — a transparent edifice where human happiness has been fully computed. The Underground Man sticks his tongue out at it, to prove that freedom outranks arithmetic."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sartre"
+        ],
+        "中立": [
+          "goffman",
+          "vasubandhu"
+        ],
+        "轻微反对": [
+          "wood",
+          "adler"
+        ],
+        "疑惑": [
+          "xunzi"
+        ]
+      }
+    },
+    {
+      "id": "p17",
+      "round": 3,
+      "thinker": "sartre",
+      "reply_to": null,
+      "text": "三轮下来，我认两笔账：习惯的引力（伍德）与观众的目光（戈夫曼）都是实情——自由从不在真空里行使。但结论不变：**标签与『无我』都可能成为逃兵的两种军装；唯一不可让渡的，是每个清晨重新选择的责任。**给普通人的建议：一，别再宣布『我是谁』，去签一份行动的契约——本周三次、每次二十分钟，写明时间地点；二，每晚花两分钟问『今天哪个瞬间，我假装自己别无选择？』记下来，下次同样处境改走另一条路；三，允许过去解释你，但拒绝让它为你辩护。你是你做过的事的总和——所以，去做一件新的事。",
+      "text_en": "After three rounds, I settle two debts: the pull of habit (Wood) and the gaze of the audience (Goffman) are both real — freedom is never exercised in a vacuum. But my conclusion stands: **the label and the 'no-self' can each become a deserter's uniform; the one thing you cannot hand over is the responsibility of choosing again each morning.** My advice for ordinary people: First, stop announcing who you are and sign a contract of deeds instead — three sessions this week, twenty minutes each, time and place in writing. Second, spend two minutes each night on the question 'At which moment today did I pretend I had no choice?' — write it down, and next time, in the same spot, take the other road. Third, let your past explain you, but never let it plead for you. You are the sum of what you have done — so go do something new.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "轻微赞同": [
+          "adler",
+          "dweck",
+          "dostoevsky"
+        ],
+        "中立": [
+          "wood"
+        ],
+        "轻微反对": [
+          "goffman"
+        ]
+      }
+    },
+    {
+      "id": "p18",
+      "round": 3,
+      "thinker": "dostoevsky",
+      "reply_to": null,
+      "text": "我仍是那个扫兴的人，但愿意把话说全。**方法都可以用，只是别拿方法当救主——标签、习惯、舞台，若底下没有一个你真心爱着的人或事，迟早都会被你亲手掀翻。**所以我的建议朴素得近乎老派：第一，找到你愿意为之低头的东西——照顾一个人、一门手艺、一个信仰，把改变挂在它身上，而不是挂在『更好的我』这面镜子上；第二，堕落之后别急着自我厌恶——地下室人最擅长把自恨酿成下一次放纵；跌倒了，就回到那个人、那件事跟前去；第三，给自己留一点不被优化的余地——人不是琴键，偶尔的荒唐，是自由在喘气。能这样活，改变会像春汛，不请自来。",
+      "text_en": "I remain the spoilsport, but let me say the whole of it. **Use every method you like — only do not make a method your savior: label, habit, stage, you will one day overturn them all with your own hands unless beneath them there is someone or something you truly love.** So my advice is plain to the point of being old-fashioned. First, find the thing before which you are willing to bow — a person to care for, a craft, a faith — and hang your change on that, not on the mirror called 'a better me.' Second, after a fall, do not rush into self-loathing — the Underground Man's finest skill is brewing self-hatred into the next binge; when you stumble, go back to that person, that work. Third, keep a corner of yourself unoptimized — a man is not a piano key, and the occasional folly is freedom catching its breath. Live like this, and change will arrive like the spring flood: uninvited.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "地下室人": "the Underground Man（地下室人）：《地下室手记》的主人公，自我意识过剩、行动力瘫痪的典型——他证明了单靠自我批判无法自救，反而会把自恨变成放纵的燃料。"
+      },
+      "glossary_en": {
+        "Underground Man": "The protagonist of Notes from Underground, the archetype of hypertrophied self-consciousness and paralyzed will — living proof that self-criticism alone cannot save a person, and instead turns self-hatred into fuel for the next binge."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "sartre",
+          "vasubandhu"
+        ],
+        "中立": [
+          "adler",
+          "wood"
+        ],
+        "轻微反对": [
+          "xunzi"
+        ]
+      }
+    },
+    {
+      "id": "p19",
+      "round": 3,
+      "thinker": "vasubandhu",
+      "reply_to": null,
+      "text": "听诸君三轮，言虽异，归趣一也：**改变不由宣言，由相续之行——此即薰习。所异者，或于行外更立一我，或惧无我则行无所属耳。**吾今合而言之：以标签为筏，初发心时借以定向，可也；既上路，则观呼吸、观言动，念念是种，不必更问种者为谁。日课有三：晨起一炷香顷，静观一念起灭，知念非我；昼间择一善行，小而必成，行已即放，不复自赏；夜卧检点今日所熏，善者随喜，恶者不咎，明日易缘而已。如是百日，不见新我，而旧我自薄——**是名转依**。",
+      "text_en": "Three rounds I have listened; your words differ, but they run to one place: **change comes not from declarations but from continuous action — which is what perfuming means. You differ only in this: some erect a self outside the action, others fear that without a self the action has no owner.** Let me join the halves. Use the label as a raft — at the first setting-out, borrow it to fix a bearing; that is fine. Once on the road, simply watch the breath, watch word and deed — every thought is a seed; there is no further need to ask who plants them. Three daily lessons: at dawn, for the space of one incense stick, watch a single thought arise and pass, and know that the thought is not the self. By day, choose one good act small enough that it cannot fail; do it, then set it down — no self-congratulation. At night, take stock of what the day has perfumed: rejoice in the wholesome, do not scold the unwholesome — tomorrow, simply change the conditions. Do this for a hundred days and you will find no new self; the old one will simply have thinned — **this is called the turning of the basis**.",
+      "vernacular": "听诸位辩了三轮，说法虽不同，归宿其实是一个：**改变不靠宣言，靠连续不断的行为——这就是熏习。分歧只在于：有人要在行为之外再立一个『我』，有人则害怕没有『我』，行为就没了主人。**我把两边合起来说：把标签当筏子，刚发心时借它定个方向，可以；上了路，就只观察呼吸、观察言行——每个念头都是种子，不必再问『种种子的人是谁』。每天三门功课：早晨一炷香的时间，静静看一个念头怎么起、怎么灭，体会念头不是『我』；白天挑一件善行，小到必定能完成，做完就放下，不再自我表扬；睡前盘点今天熏进去了什么，好的随喜，坏的不自责，明天换个条件就是了。这样过上一百天，你不会看见一个『新我』，但旧的那个『我』自然淡了——**这就叫转依**。",
+      "vernacular_en": "",
+      "glossary": {
+        "薰习": "perfuming（薰习）：每一次身口意的造作都像香气熏衣，在识田里留下种子、加深倾向。改变自己，即是有意识地选择今天熏什么。",
+        "随喜": "sympathetic joy（随喜）：对善行生起欢喜而不据为己有的心态。对自己的善行随喜而不自赏，正是『做了就放下』的功夫。",
+        "转依": "āśraya-parāvṛtti（转依）：『所依的转换』——经长期熏修，生命底盘由染转净的根本转化。不是换一个新我，而是旧习气的整体翻转。"
+      },
+      "glossary_en": {
+        "perfuming": "Every act of body, speech, and mind scents the field of consciousness like incense on cloth, leaving seeds and deepening tendencies. To change yourself is to choose, deliberately, what to perfume today.",
+        "turning of the basis": "Āśraya-parāvṛtti: the root transformation in which, through long perfuming and practice, the whole basis of one's life turns from defiled to pure. Not the installation of a new self — the wholesale overturn of old habit-energy."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "wood"
+        ],
+        "轻微赞同": [
+          "dweck",
+          "xunzi",
+          "goffman"
+        ],
+        "中立": [
+          "sartre"
+        ],
+        "疑惑": [
+          "dostoevsky"
+        ]
+      }
+    },
+    {
+      "id": "p20",
+      "round": 3,
+      "thinker": "xunzi",
+      "reply_to": null,
+      "text": "吾之结语，仍归于积。**道虽迩，不行不至；事虽小，不为不成——标签与无我之辩，皆坐而论道；起而行之，则争论半消。**为常人计者三：其一，隆礼——自定起居之节，晨兴、就寝、饮食有其时，以礼代意志，则不待勉强；其二，择境与友——居必择乡，游必就士，屏坏习之诱于目外，此檃栝之谓也；其三，积微——日课一事，铢积寸累，勿求速化；跬步不休，跛鳖千里。三者行之期年，不必自命君子，而人已谓汝君子矣。名随实立，实不随名生——此吾与贴签者根本异趣之所在。",
+      "text_en": "My closing word still comes down to accumulation. **However near the road, you will not arrive without walking it; however small the deed, it will not be done without doing — this whole quarrel of labels versus no-self is philosophizing from a chair; stand up and act, and half of it dissolves.** Three counsels for ordinary folk. First, exalt ritual: set yourself a fixed order of rising, sleeping, and meals, and let the rule replace willpower, so nothing depends on daily straining. Second, choose your surroundings and your company — dwell where the customs are good, keep close to those who strive, and screen bad habit's temptations from your sight: this is my straightening frame. Third, accumulate the minute: one small task a day, ounce by ounce, inch by inch, never chasing sudden transformation; the lame turtle, never stopping, covers a thousand li. Practice these three for a year, and you need not proclaim yourself a gentleman — others will already call you one. The name rises upon the substance; the substance never grows out of the name. Here lies my root difference with the label-pasters.",
+      "vernacular": "我的结语，还是落在一个『积』字上。**道理再近，不走就到不了；事情再小，不做就成不了——标签与无我的争论，都是坐着谈道理；站起来去做，争论就消了一半。**给普通人三条：第一，隆礼——给自己立一套作息的规矩，起床、睡觉、吃饭都有定时，用规矩替代意志力，就不必天天硬撑；第二，挑环境、挑朋友——住处选风气好的，交往亲近上进的人，把坏习惯的诱惑隔在视线之外，这就是我说的『檃栝』（矫木的夹具）；第三，积微——每天完成一件小事，一点一点累积，别指望速成；小步不停，瘸腿的鳖也能走千里。这三条做满一年，不必自封君子，别人已经叫你君子了。名声跟着实绩立起来，实绩不会从名号里长出来——这就是我和贴标签的人根本不同的地方。",
+      "vernacular_en": "",
+      "glossary": {
+        "隆礼": "exalting ritual（隆礼）：荀子的核心主张，指尊崇并践行礼法节度。礼在此不只是礼貌，而是一整套外在的行为框架——以之养情、节欲、成习。",
+        "积微": "accumulating the minute（积微）：荀子术语，重视微小之事的日日累积。『积微，月不胜日』——按天积累的人，胜过按月盘算的人。",
+        "檃栝": "straightening frame（檃栝）：矫正弯木的夹具，荀子用以比喻礼法环境对人的矫正之功——本性不会自直，须借外力。"
+      },
+      "glossary_en": {
+        "exalt ritual": "Xunzi's core program, long li (隆礼): honoring and practicing ritual norms — not mere politeness but a complete external framework of conduct that trains emotion, checks appetite, and forms habit.",
+        "accumulate the minute": "Ji wei (积微): prizing the daily pile-up of tiny deeds. 'In accumulating the minute, the month is no match for the day' — one who counts by days outdoes one who schemes by months.",
+        "straightening frame": "The yinkuo (檃栝), the clamp that forces crooked timber straight — Xunzi's figure for what ritual and environment do to human nature, which will not straighten unaided."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "wood"
+        ],
+        "轻微赞同": [
+          "goffman",
+          "dweck",
+          "vasubandhu"
+        ],
+        "中立": [
+          "sartre"
+        ],
+        "轻微反对": [
+          "dostoevsky"
+        ]
+      }
+    },
+    {
+      "id": "p21",
+      "round": 3,
+      "thinker": "goffman",
+      "reply_to": null,
+      "text": "收场白，我说三句实话。第一，这场辩论本身就是表演——每位都在观众面前维护自家学派的面子，包括我。第二，**正因自我是社会性的，改变自己最有力的杠杆不在内心，而在你的『观众结构』：换一批看着你的人，比换一句对自己说的话，管用十倍。**第三，操作起来很朴素：想成为哪种人，就走进那种人已经在的场合——跑团、读书会、夜校，让新观众的期待接管你；给旧角色安排体面的退场，别当众烧毁它，留一条后台通道；德韦克提醒得对——公开的应是练习而非人设。那就把『我在学』演给人看：这出戏塌不了，因为它的剧本里，本来就写着失误。",
+      "text_en": "For a curtain call, three honest sentences. First, this debate has itself been a performance — each of us defending our school's face before an audience, myself included. Second, **precisely because the self is social, the strongest lever for changing yourself lies not within but in your audience structure: changing who watches you works ten times better than changing what you whisper to yourself.** Third, the practice is humble: to become a certain kind of person, walk into the settings where such people already gather — the running club, the book circle, the night class — and let the new audience's expectations take you over. Give the old role a dignified exit rather than burning it on stage, and keep a backstage corridor open. Dr. Dweck is right — what you make public should be the practicing, not the persona. So perform 'I am learning' for your audience: that show cannot collapse, because its script has the stumbles written in.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "后台": "backstage（后台）：拟剧论术语，指观众看不见、可以卸下角色喘口气的区域。改变自己时保留后台，意味着允许自己有不完美、不表演的时刻——这恰是新角色能演下去的条件。"
+      },
+      "glossary_en": {
+        "backstage": "The dramaturgical zone hidden from the audience, where one can drop the role and breathe. Keeping a backstage while changing yourself means licensing imperfect, unperformed moments — the very condition for the new role to stay playable."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "adler",
+          "wood",
+          "dweck"
+        ],
+        "轻微反对": [
+          "sartre"
+        ],
+        "疑惑": [
+          "xunzi"
+        ]
+      }
+    },
+    {
+      "id": "p22",
+      "round": 3,
+      "thinker": "dweck",
+      "reply_to": null,
+      "text": "我的总结陈词，先认账、再开方。认账：标签有时确有『先行一步』的启动之效——阿德勒的鼓励、戈夫曼的新观众，都能推人跨出第一步，这我不否认。但方子必须改：**与其宣布『我是谁』，不如宣布『我在变』——把一切自我描述改成进行时，再加一个『还没』。**具体三步：一，改说法——『我不擅长社交』改成『我还没练出社交的路数』，『我是跑者』改成『我在练跑步』；一词之差，失败就从判决变成了情报。二，只夸过程——对自己也一样：今晚复盘写『坚持了二十分钟』，别写『我真自律』。三，主动订一次小失败：本周做一件大概率出丑的小事；重新站起来时你会亲身确认——能力是练出来的。这个信念本身，就是最好用的『身份』。",
+      "text_en": "For my closing statement, let me first concede, then prescribe. The concession: labels can indeed give you a running start — Adler's encouragement, Goffman's new audience, both can push a person through the first step; I do not deny it. But the prescription must change: **rather than declaring 'this is who I am,' declare 'this is who I am becoming' — put every self-description into the present progressive, and append a 'yet.'** Three concrete steps. One, change the wording: 'I'm bad at socializing' becomes 'I haven't found my way into it yet'; 'I am a runner' becomes 'I'm training to run.' One word's difference, and failure turns from a verdict into information. Two, praise only process — toward yourself included: in tonight's review, write 'kept at it for twenty minutes,' not 'I'm so disciplined.' Three, book yourself one small failure: this week, do one small thing you will probably fumble. When you get back up, you will have verified in your own body that ability is built by practice — and that belief itself is the most useful 'identity' there is.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "还没": "yet（还没）：德韦克的标志性一词干预。在『我不会』后面补上『还没』，把无能的宣判改写成时间轴上的一个位置——芝加哥有所高中给不及格的成绩单打『Not Yet』，正是此意。"
+      },
+      "glossary_en": {
+        "yet": "Dweck's signature one-word intervention. Appending 'yet' to 'I can't' rewrites a verdict of incapacity as a position on a timeline — the Chicago high school that grades failing courses 'Not Yet' is the canonical example."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "adler"
+        ],
+        "轻微赞同": [
+          "wood",
+          "goffman",
+          "vasubandhu"
+        ],
+        "中立": [
+          "dostoevsky"
+        ]
+      }
+    },
+    {
+      "id": "p23",
+      "round": 3,
+      "thinker": "wood",
+      "reply_to": null,
+      "text": "我承认这三轮我被说动了两次：陀翁提醒我，摩擦力锁不住找不到意义的人；世亲的『行熏成种』，几乎就是习惯回路的梵文版。所以我的最终配方分三层：**方向交给意义，启动交给情境，坚持交给重复——至于身份？那是完工后系统自动打出的收据。**落地清单：一，写下一个你真在乎的理由，贴在只有自己看见的地方，这是防拆台条款；二，改造情境——想做的事减三秒阻力（跑鞋放门口、书摊开在桌上），不想做的事加三秒阻力（卸载、拔电、放远）；三，把新行为挂在雷打不动的旧锚点后面——晨间咖啡后写五十字，刷牙后做十个深蹲；四，只追踪连续天数，不评判感受。坚持到两个月上下，行为开始自动运转——到那天，你爱怎么称呼自己都行。",
+      "text_en": "I will admit this debate moved me twice: Mr. Dostoevsky reminded me that friction cannot hold a person who has found no meaning, and Vasubandhu's 'acts perfume seeds' is practically the Sanskrit edition of the habit loop. So my final formula has three layers: **hand direction to meaning, hand ignition to context, hand persistence to repetition — and identity? That is the receipt the system prints once the work is done.** The checklist: One, write down a reason you genuinely care about and tape it where only you will see it — your anti-sabotage clause. Two, remodel the context: shave three seconds of friction off what you want to do (shoes by the door, book open on the desk) and add three seconds to what you don't (uninstall, unplug, move it out of reach). Three, hang the new behavior on an unshakable old anchor — fifty words after the morning coffee, ten squats after brushing your teeth. Four, track only the streak; never grade your feelings. Around the two-month mark the behavior starts running itself — and from that day on, call yourself whatever you like.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "习惯回路": "habit loop（习惯回路）：情境线索→行为→奖赏的自动化循环。重复使三者焊接成一体，此后线索一出现，行为便自动启动——不必等动机到场。"
+      },
+      "glossary_en": {
+        "habit loop": "The automated cycle of context cue → behavior → reward. Repetition welds the three together, so that once the cue appears the behavior launches on its own — no need to wait for motivation to show up."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "xunzi",
+          "dweck"
+        ],
+        "轻微赞同": [
+          "vasubandhu",
+          "goffman",
+          "adler"
+        ],
+        "轻微反对": [
+          "dostoevsky"
+        ]
+      }
+    },
+    {
+      "id": "p24",
+      "round": 3,
+      "thinker": "adler",
+      "reply_to": null,
+      "text": "让我用鼓励收尾——这是我的老本行。听完全场，我愿意修正措辞：**别把标签当自我证明，把它当共同体交给你的一份任务书——『我是能帮上忙的人』，重点从来不在『我是』，而在『帮上忙』。**几位说得都对：伍德的情境、荀卿的礼、戈夫曼的观众、德韦克的『还没』，全是好工具。但工具之下得有一块基石，我称之为自我接纳：先接受六十分的自己，才有勇气去练六十一分的事。最后三句话，送给屏幕前的普通人：第一，改变不必等创伤愈合、性格换新——目标一换，此刻已在路上；第二，每天做一件让别人轻松一点的小事，贡献感是最抗跌的燃料；第三，跌回原样的那天，请对自己说我的老话：**重要的不是你经历了什么，而是你如何使用它。**",
+      "text_en": "Let me close with encouragement — it was my trade, after all. Having heard everyone, I will amend my wording: **do not treat the label as proof of self; treat it as a task slip handed to you by your community — in 'I am someone who can help,' the weight was never on 'I am' but on 'help.'** My colleagues are all right: Wood's contexts, Xunzi's rituals, Goffman's audiences, Dweck's 'yet' — fine tools, every one. But beneath the tools there must be a footing, which I call self-acceptance: only by accepting the sixty-point self do you find the courage to practice for sixty-one. Three last sentences for the ordinary person watching. First, change need not wait for wounds to heal or character to be replaced — switch the goal, and you are already on the road. Second, do one small thing each day that makes someone else's load lighter; the sense of contribution is the most crash-proof fuel there is. Third, on the day you slide back, say my old line to yourself: **what matters is not what you have experienced, but how you use it.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "自我接纳": "self-acceptance（自我接纳）：阿德勒学派术语，指如实接受当下的自己——不同于自我肯定式的『我很棒』，它是『我只有六十分，但可以从这里出发』。",
+        "贡献感": "sense of contribution（贡献感）：感到自己对他人有用的实感。阿德勒视之为幸福的核心与改变的燃料：无须他人认可，做了有益的事本身即是支点。"
+      },
+      "glossary_en": {
+        "self-acceptance": "The Adlerian term for taking yourself as you presently are — unlike affirmation-style 'I am great,' it says 'I am at sixty points, and I can start from here.'",
+        "sense of contribution": "The felt reality of being useful to others. For Adler it is the core of happiness and the fuel of change: no external approval required — the useful deed itself is the fulcrum."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "dweck"
+        ],
+        "轻微赞同": [
+          "goffman",
+          "wood",
+          "dostoevsky"
+        ],
+        "中立": [
+          "vasubandhu",
+          "sartre"
+        ]
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "ai": "claude",
+      "engine": "Opus 4.8 · 订阅(原生)",
+      "engine_en": "Opus 4.8 · subscription (native)",
+      "summary": "这场少见地打出一个跨阵营共识：**改变靠重复的行为，不靠宣言——身份感受是结果，不是原因。**伍德的『身份是习惯的收据』、世亲的薰习、荀子的积微、戈夫曼的『演久成真』，说的是同一件事。分歧集中在三处：其一，标签是脚手架还是新枷锁——阿德勒与戈夫曼视之为起步的路标与承诺装置，德韦克拿实验证明正向标签会反噬；其二，改变需不需要一个『主体』——萨特坚持选择的责任不可让渡，荀子要一颗能辨择的心，世亲则示范无主的相续照样能转向；其三，陀思妥耶夫斯基孤军坚持：没有值得改变的理由，一切技术终将被人亲手掀翻。",
+      "summary_en": "This debate produced a rare cross-camp consensus: **change runs on repeated action, not declarations — the felt sense of identity is a result, not a cause.** Wood's 'identity is the receipt for your habits,' Vasubandhu's perfuming, Xunzi's accumulation, Goffman's 'play it long enough and it's you' — all name the same fact. The splits came in three places. First, is the label scaffolding or a new shackle? Adler and Goffman treat it as a signpost and commitment device; Dweck brings experiments showing positive labels bite back. Second, does change need a subject? Sartre insists the responsibility of choosing cannot be handed off, Xunzi requires a discriminating mind, while Vasubandhu demonstrates that an ownerless continuum can still change course. Third, Dostoevsky held the line alone: without a reason worth changing for, every technique gets overturned by its own user.",
+      "insight": "全场都在回答『怎么改』，没有人停下来问『改什么、为谁改』。**『想改变自己』这个愿望本身，有相当一部分是被制造出来的**——自我提升产业靠贩卖『你还不够好』为生，社交媒体每天供应对照组。于是出现一个盲区：辩手们优化的是手段（标签、情境、观照），却默认了目标的合法性。可若愿望来路不明，方法越高效，越快跑偏。动手之前值得加一道工序：把想改的事写下来，问一句『不改会怎样？这是谁的标准？』——筛掉借来的愿望，剩下的那件，才配得上全场这些好工具。",
+      "insight_en": "Everyone answered 'how to change'; no one paused to ask 'change what, and for whom.' **A sizable share of the very desire to change yourself is manufactured** — the self-improvement industry lives by selling 'you are not enough,' and social media delivers a fresh comparison group daily. Hence a blind spot: the debaters optimized the means (labels, contexts, contemplation) while taking the goal's legitimacy on faith. But if the desire's provenance is murky, the more efficient the method, the faster you drift off course. Before starting, add one step: write down the change you want and ask, 'What happens if I don't? Whose standard is this?' Filter out the borrowed wishes — whatever survives deserves the fine tools this debate supplied.",
+      "advice": "今天就能做的三件事：一，做一次『愿望审计』——写下最想改的一项，追问『这是我的需要，还是别人的眼光』，通过了再开工。二，采用世亲与伍德不谋而合的配方：**挑一个小到不会失败的动作，挂在一个雷打不动的旧习惯后面**——咖啡后写五十字、刷牙后十个深蹲——只记录连续天数，不评价自己。三，按德韦克改口径：本周把所有『我是／我不是』句式换成『我在练／我还没』，并向一位朋友公开你的练习记录，而不是目标人设——跌倒时你需要的是数据和同伴，不是观众。",
+      "advice_en": "Three things you can do today. One, run a 'desire audit': write down the change you want most and press the question, 'Is this my need, or someone else's gaze?' Start only if it passes. Two, adopt the recipe Vasubandhu and Wood converged on independently: **pick an action too small to fail and hang it on an unshakable old habit** — fifty words after coffee, ten squats after brushing — then track only the streak, never grade yourself. Three, follow Dweck's rewording: for one week, replace every 'I am / I'm not' with 'I'm practicing / not yet,' and share your practice log — not your aspirational persona — with one friend. When you fall, what you need is data and company, not an audience."
+    },
+    {
+      "ai": "gpt",
+      "engine": "openai · gpt-5.5 · high(真实API)",
+      "engine_en": "openai · gpt-5.5 · high (live API)",
+      "summary": "这场最大的共识是：改变不是靠一句“我是怎样的人”完成，而是靠反复行动、环境安排、他人关系与意义感共同塑形。**身份若有用，也只是启动和定向的临时脚手架，不能替代练习。**真正分歧在于“自我”该被怎样使用：阿德勒愿意把它当目标与责任，德韦克怕它变成固定标签，世亲提醒别执著为实体，伍德和荀子把重心放到情境、礼法与积累，戈夫曼看到社会舞台，萨特强调选择责任，陀翁则补上爱与意义。可带走的不是站队，而是：少证明自己是谁，多安排自己会做什么。",
+      "insight": "很多人改变失败，不是因为理念选错，而是把“人格工程”建在透支的身体上。睡眠不足、慢性压力、抑郁焦虑、照护负担，会把意志、学习心态和环境设计全部打折；这时再问“我执还是身份”太高了。**先恢复可用能量，再谈塑造自我，往往比任何宣言都有效。**普通人最容易误判的是：把疲惫导致的失控解释成“我没毅力”。更务实的重构是，把改变看成容量管理：降低任务难度、增加休息、减少决策次数，让系统先能跑起来。",
+      "advice": "本周只选一个行为，做到“小到不会失败”：例如晚饭后散步十分钟、睡前读两页、早晨写五十字。把它接在固定锚点后，并提前布置现场：鞋放门口，书摊开，手机放远。**不要宣布“我是自律的人”，只记录“我今天完成了哪一次练习”。**再找一个安全观众，公开过程而非人设：告诉对方“我在练，可能会断，请周日问我一次”。若连续两天失败，不复盘性格，只改三件事：时间更短、阻力更小、睡眠更早。",
+      "summary_en": "The strongest agreement around the table is that change does not come from repeating a sentence about who you are. It comes from repeated action, designed surroundings, social expectations, and a reason that matters enough to pull you forward. **Identity can help as a temporary scaffold for direction, but it cannot replace practice.** The real dispute is how to handle the “self”: use it as a chosen aim and responsibility, treat it as a risky fixed label, see through it as a mental construction, or relocate it in habits, rituals, audiences, and commitments. The practical takeaway is not to pick a metaphysical team. Stop trying to prove what kind of person you are, and start arranging what you will reliably do.",
+      "insight_en": "Many people do not fail because they chose the wrong philosophy; they fail because they try to rebuild a life on an exhausted body. Too little sleep, chronic stress, caregiving, depression, anxiety, or financial pressure can shrink willpower, learning, and environmental design all at once. In that state, the question “identity or no-self?” is often too high-level. **Recover usable energy first; self-transformation works much better when the system has capacity.** A common mistake is to interpret stress-driven relapse as a character defect: “I have no discipline.” A more useful frame is capacity management. Make the behavior smaller, reduce decisions, protect sleep, and remove obvious drains before you demand heroic consistency from yourself.",
+      "advice_en": "Choose one behavior this week and make it almost too small to fail: a ten-minute walk after dinner, two pages before bed, fifty words after morning coffee. Attach it to a fixed cue, then prepare the scene in advance: shoes by the door, book open on the desk, phone in another room. **Do not announce “I am disciplined”; record only “I completed this practice today.”** Add one safe witness, but make the public commitment about learning, not image: “I’m practicing this and may miss days—ask me on Sunday.” If you miss twice in a row, do not analyze your personality. Change the design: shorten the task, lower the friction, move it earlier, or sleep more."
+    },
+    {
+      "ai": "gemini",
+      "engine": "google · gemini-3.1-pro-preview(真实API)",
+      "engine_en": "google · gemini-3.1-pro-preview (live API)",
+      "summary": "纵观全场，最核心的共识在于：**真正的改变皆由持续的具体行动所塑造，而非停留在口头的自我宣言。**无论是世亲的“熏习”、温迪的“习惯”、荀子的“积微”，还是萨特的“行动的总和”，各方都认同身份是行为落地的下游结果，而非先决条件。真正的分歧则在于“启动和维持行动的驱动力”究竟何在：一派主张自上而下的主观意志（阿德勒的目的论、萨特的绝对自由），另一派依赖自下而上的客观机制（温迪的环境摩擦力、戈夫曼的观众凝视、荀子的外物矫正）。而陀思妥耶夫斯基与世亲则分别从“感性意义”和“彻底无我”的角度，解构了上述带有强烈人为设计感与执念的方法。",
+      "insight": "跨学科的数据网络揭示了一个常被哲学与心理学忽略的盲区：语言层面的“标签”与身体层面的“体验”之间存在着巨大的带宽差。**人类的自我重塑本质上是一个“多模态”的神经重塑过程，单纯输入“我很自律”的文本指令，若无物理感官反馈的同步印证，极易触发大脑的认知失调警报。**这解释了为何强行贴正向标签常让人产生冒名顶替综合征，而陀翁的“对某人低头”或温迪的“情境改造”却能奏效——它们调动了真实空间里的视觉锚点与荷尔蒙等高带宽生物数据。看破“我执”，不仅是禅理，更是关闭那个过度消耗算力的“内部文本审查器”，让身体直接去跟新环境建立反馈回路。",
+      "advice": "结合全场智慧与神经计算视角，建议本周直接上手以下三个微操作：第一，**采用“进行时+预告失败”的公开策略**（融合德韦克与戈夫曼），向朋友宣布“我最近在练习早睡，可能经常失败，请监督我的进度”，用反脆弱的练习者身份代替完美的静止人设。第二，布置一个“多模态”的启动环境（延伸温迪·伍德）。别只在心里发愿，去改变物理空间——把跑鞋放在门口挡路（视觉与触觉暗示），把手机充电线拔掉放到客厅，让环境替大脑做决定。第三，践行“睡前清零法”（致敬世亲）。每晚用一分钟记录今天做成的一件小事，告诉自己“这只是一颗种子，不是固定的我”，带着无我的轻松入睡，把选择留给明天的早晨。",
+      "summary_en": "Across the board, the core consensus is remarkably clear: **true transformation is forged through sustained, concrete actions rather than mere verbal declarations of self.** Whether framed as Vasubandhu's \"karmic seeds,\" Wendy Wood's \"habit loops,\" Xunzi's \"daily accumulation,\" or Sartre's \"sum of actions,\" the panel universally agrees that identity is the downstream result of behavior, not its prerequisite. The true focal point of divergence lies in the driving force that initiates and sustains such action. One camp advocates for top-down subjective willpower (Adler's teleological goals, Sartre's radical freedom), while another relies on bottom-up objective mechanics (Wood's environmental friction, Goffman's audience expectations). Meanwhile, Dostoevsky and Vasubandhu deliberately deconstruct these heavily engineered methods—the former by prioritizing raw emotional meaning, and the latter by dissolving the ego entirely to free action from static attachments.",
+      "insight_en": "Cross-disciplinary data reveals a critical blind spot often overlooked by traditional philosophy and psychology: the massive bandwidth gap between cognitive \"labels\" and somatic \"experiences.\" **Human self-reinvention is ultimately a \"multimodal\" neuroplastic process; inputting a text-level command like \"I am disciplined\" without synchronous physical and sensory feedback immediately triggers the brain's cognitive dissonance alarms.** This explains why forcing positive labels often breeds imposter syndrome and anxiety, whereas Dostoevsky's physical act of \"bowing to someone\" or Wood's \"context alteration\" actually succeeds. They work because they activate rich, multimodal data—visual anchors and biological shifts. Letting go of the ego (\"no-self\") practically means shutting down that computationally expensive internal text-censor, empowering the body to interact directly and authentically with a new environment through high-bandwidth sensory feedback loops.",
+      "advice_en": "Integrating the panel's philosophical depth with a neuro-systemic perspective, here are three highly actionable micro-steps you can deploy this week: First, **adopt an \"in-progress + minor slip-up\" public strategy** (merging Dweck and Goffman). Tell your social circle, \"I am currently practicing how to sleep earlier, and I will definitely stumble, so check in on my progress.\" This replaces a fragile, perfect persona with an anti-fragile learner's identity. Second, design a \"multimodal\" launchpad for your habits (extending Wood's friction). Don't just make mental resolutions; physically alter your space. Place workout shoes directly in your doorway (a physical cue) and move the phone charger to the kitchen. Finally, practice a \"bedtime reset\" (honoring Vasubandhu). Acknowledge one small daily win, remind yourself that it is merely a seed rather than a permanent identity, and sleep unburdened."
+    }
+  ],
+  "hooks": [
+    {
+      "from": "claude",
+      "text": "**改变的愿望是谁的？**——『想成为更好的自己』这股冲动，有多少发自内在，有多少来自贩卖焦虑的自我提升产业与每天供应对照组的社交媒体？在方法论之前，也许先需要一门『愿望的考古学』：分辨哪些改变是我要的，哪些是被卖给我的。",
+      "text_en": "**Whose desire is the desire to change?** How much of the urge to 'become a better me' rises from within, and how much is supplied by an anxiety-selling self-improvement industry and a social feed that delivers a fresh comparison group daily? Before any methodology, perhaps we need an archaeology of desire: sorting the changes I actually want from the ones that were sold to me."
+    },
+    {
+      "from": "gpt",
+      "text": "**心理工具的剂量与时机**：同一味药在人生不同阶段药性相反——新手需要身份脚手架，高手需要拆架子；低谷期要先被接纳，平台期要先被挑战。有没有一张『阶段×工具』的对照表，能把成功学与佛学各自安放到对的时刻？",
+      "text_en": "**Dosage and timing of psychological tools**: the same medicine reverses its effect at different stages of life — beginners need the identity scaffold, experts need it torn down; in the trough one first needs acceptance, on the plateau one first needs challenge. Could a stage-by-tool chart assign self-help and Buddhism each to its right moment?"
+    },
+    {
+      "from": "gemini",
+      "text": "**算法在替你薰习**：推荐系统每天数千次的微小投喂，是一场未经同意的人格塑造——它比任何导师、任何标签都高频。当『我是谁』越来越多地由信息流决定，自我修养的第一课是否应该改成『信息流卫生学』？",
+      "text_en": "**The algorithm perfumes you by proxy**: a recommender system's thousands of daily micro-servings amount to personality formation without consent — higher-frequency than any mentor or label. As 'who I am' is increasingly decided by the feed, should the first lesson of self-cultivation become feed hygiene?"
+    },
+    {
+      "from": "dostoevsky",
+      "text": "**为爱戒掉的，比为方法戒掉的多**：拉斯柯尔尼科夫不是被计划改好的，是被人焐热的。行为改变研究是否系统性低估了『关系』这个变量——一个人开始变好，最常见的起点究竟是一套方法，还是一个不肯放弃他的人？",
+      "text_en": "**More is quit for love than for method**: Raskolnikov was not reformed by a plan; he was thawed by a person. Has behavior-change research systematically undercounted the variable of relationship — when a person starts to mend, is the commonest starting point a method, or someone who refuses to give up on them?"
+    },
+    {
+      "from": "wood",
+      "text": "**礼，是两千年前的情境设计**：荀子的居必择乡、以礼代意志，与当代习惯科学的情境改造几乎逐条对应。古典修身传统（功过格、日课、僧团戒律）里，还沉睡着多少可以被实验验证、被现代人直接借用的行为技术？",
+      "text_en": "**Ritual is context design, two thousand years early**: Xunzi's 'choose your neighborhood' and 'let rule replace willpower' map almost line by line onto modern habit science's context engineering. How many behavioral technologies still lie dormant in classical self-cultivation — merit ledgers, daily lessons, monastic codes — waiting to be experimentally tested and borrowed back?"
+    }
+  ]
+}

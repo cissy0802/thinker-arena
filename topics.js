@@ -56,6 +56,72 @@
     lt.onclick = function () { location.href = OTHER_LANG_URL(); };
   }
 
+  // ---- 订阅框（list = thinker-arena，语言随页面）----
+  (function mountSubscribe() {
+    if (document.getElementById("ta-subscribe")) return;
+    var API = "https://bigcat-engage.cissychen.workers.dev";
+    var en = LANG === "en";
+    var t = en
+      ? { head: "📬 Subscribe to the Round Table",
+          sub: "Get an email when a new debate goes up. No spam, unsubscribe anytime.",
+          ph: "you@example.com", btn: "Subscribe",
+          ok: "✓ Subscribed. Thanks!", dup: "✓ You're already subscribed.",
+          pending: "✓ Almost there — check your inbox to confirm.",
+          bad: "Please enter a valid email.", net: "Something went wrong — try again." }
+      : { head: "📬 订阅思想圆桌",
+          sub: "有新一场辩论时给你发邮件。不发垃圾，随时退订。",
+          ph: "you@example.com", btn: "订阅",
+          ok: "✓ 已订阅，谢谢！", dup: "✓ 你已经订阅过啦。",
+          pending: "✓ 就差一步——去邮箱点确认链接。",
+          bad: "请输入有效的邮箱地址。", net: "出错了，请再试一次。" };
+    var css = document.createElement("style");
+    css.textContent =
+      "#ta-subscribe{max-width:860px;margin:36px auto 0;padding:22px 20px;border-top:1px solid rgba(255,255,255,0.1)}" +
+      "#ta-subscribe h3{font-size:1.02rem;font-weight:600;margin-bottom:5px;color:#e4e6eb}" +
+      "#ta-subscribe .s-sub{font-size:0.83rem;color:#8b93a7;margin-bottom:14px}" +
+      "#ta-subscribe form{display:flex;gap:10px;flex-wrap:wrap}" +
+      "#ta-subscribe input{flex:1;min-width:180px;padding:10px 13px;border-radius:9px;border:1px solid rgba(255,255,255,0.16);background:rgba(0,0,0,0.25);color:#e4e6eb;font-size:0.9rem;font-family:inherit}" +
+      "#ta-subscribe input:focus{outline:none;border-color:#7b61ff}" +
+      "#ta-subscribe button{padding:10px 20px;border:none;border-radius:9px;background:linear-gradient(135deg,#7b61ff,#00d4ff);color:#fff;font-weight:700;font-size:0.9rem;cursor:pointer;font-family:inherit}" +
+      "#ta-subscribe button:disabled{opacity:0.5;cursor:default}" +
+      "#ta-subscribe .s-msg{font-size:0.82rem;margin-top:9px;min-height:16px;color:#4fd08a}" +
+      "#ta-subscribe .s-msg.err{color:#ff6ec4}";
+    document.head.appendChild(css);
+    var box = document.createElement("section");
+    box.id = "ta-subscribe";
+    box.innerHTML = "<h3>" + t.head + "</h3><div class='s-sub'>" + t.sub + "</div>";
+    var form = document.createElement("form");
+    var input = document.createElement("input");
+    input.type = "email"; input.placeholder = t.ph; input.required = true;
+    var btn = document.createElement("button");
+    btn.type = "submit"; btn.textContent = t.btn;
+    var msg = document.createElement("div"); msg.className = "s-msg";
+    form.appendChild(input); form.appendChild(btn);
+    box.appendChild(form); box.appendChild(msg);
+    var footer = document.querySelector("footer");
+    if (footer && footer.parentNode) footer.parentNode.insertBefore(box, footer);
+    else document.body.appendChild(box);
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var email = input.value.trim();
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+        msg.className = "s-msg err"; msg.textContent = t.bad; return;
+      }
+      btn.disabled = true; msg.className = "s-msg"; msg.textContent = "…";
+      fetch(API + "/subscribe", {
+        method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email: email, list: "thinker-arena", lang: LANG })
+      })
+        .then(function (r) { return r.json(); })
+        .then(function (d) {
+          if (d.ok) { msg.className = "s-msg"; msg.textContent = d.already ? t.dup : d.pending ? t.pending : t.ok; input.value = ""; }
+          else { msg.className = "s-msg err"; msg.textContent = t.bad; }
+        })
+        .catch(function () { msg.className = "s-msg err"; msg.textContent = t.net; })
+        .finally(function () { btn.disabled = false; });
+    });
+  })();
+
   Promise.all([getJSON("thinkers.json"), getJSON("debates/index.json")])
     .then(function (res) {
       var TK = {};

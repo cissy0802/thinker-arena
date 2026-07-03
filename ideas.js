@@ -6,7 +6,7 @@
   var API = "https://bigcat-engage.cissychen.workers.dev"; // 同源已在 Worker CORS 放行
   var VOTE_PREFIX = "topic:";        // 每议题一个 poll：topic:<id>
   var OPEN_TERM = "thinker-open-questions"; // 观众提新议题的评论区
-  var TURNSTILE_SITEKEY = ""; // 填 Cloudflare Turnstile site key 即开启验证码
+  var TURNSTILE_SITEKEY = "0x4AAAAAADu325m36GEOOMP-"; // Cloudflare Turnstile site key
   // ==========================================================================
 
   var tsLoaded = false;

@@ -203,7 +203,7 @@
 
   // ---- login-free comments for this debate (shared Cloudflare Worker) ----
   var CAPI = "https://bigcat-engage.cissychen.workers.dev";
-  var TURNSTILE_SITEKEY = ""; // paste a Cloudflare Turnstile site key to require a captcha
+  var TURNSTILE_SITEKEY = "0x4AAAAAADu325m36GEOOMP-"; // Cloudflare Turnstile site key
   var tsLoaded = false;
   function ensureTurnstile() {
     if (!TURNSTILE_SITEKEY || tsLoaded) return;

@@ -1,0 +1,45 @@
+name: Refresh votes into ideas.json
+
+# 从自建投票后端(Cloudflare Worker + D1)拉每个候选的净票，回写 ideas.json 的
+# candidates[].votes，供云端选题 routine 按「票王」选下一场。
+#
+# 为什么用 GitHub Action：云端 routine 的 container 走 agent 出口代理，够不到
+# bigcat-engage.cissychen.workers.dev(403)，refresh_votes.py 在那里永远拉不到票。
+# 而 GitHub 托管 runner 不在那堵墙后面，能直接访问公开后端——所以把「刷票」放这里，
+# 让 ideas.json 始终带着最新票数，routine 只管读文件即可。
+
+on:
+  schedule:
+    - cron: '17 */12 * * *'   # 每 12 小时(UTC 00:17 / 12:17)
+  workflow_dispatch:           # 也可在 Actions 页手动触发
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-votes
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Pull net votes from backend into ideas.json
+        run: python3 refresh_votes.py
+
+      - name: Commit if ideas.json changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet ideas.json; then
+            echo "votes unchanged."
+            exit 0
+          fi
+          git add ideas.json
+          git commit -m "Auto-refresh votes from backend"
+          git push

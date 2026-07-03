@@ -203,6 +203,28 @@
 
   // ---- login-free comments for this debate (shared Cloudflare Worker) ----
   var CAPI = "https://bigcat-engage.cissychen.workers.dev";
+  var TURNSTILE_SITEKEY = ""; // paste a Cloudflare Turnstile site key to require a captcha
+  var tsLoaded = false;
+  function ensureTurnstile() {
+    if (!TURNSTILE_SITEKEY || tsLoaded) return;
+    tsLoaded = true;
+    var s = document.createElement("script");
+    s.src = "https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit";
+    s.async = true; s.defer = true;
+    document.head.appendChild(s);
+  }
+  function mountTurnstile(form, onToken) {
+    if (!TURNSTILE_SITEKEY) return;
+    ensureTurnstile();
+    var slot = document.createElement("div");
+    slot.style.marginTop = "10px";
+    form.insertBefore(slot, form.querySelector(".dc-row"));
+    (function render() {
+      if (window.turnstile && window.turnstile.render) {
+        window.turnstile.render(slot, { sitekey: TURNSTILE_SITEKEY, theme: "dark", callback: onToken });
+      } else { setTimeout(render, 200); }
+    })();
+  }
   function buildDebateComments(pageKey) {
     var ct = LANG === "en"
       ? { head: "💬 Comments", sub: "No account needed — leave a name (optional) and your comment.",
@@ -231,6 +253,8 @@
     list.className = "dc-list";
     list.innerHTML = '<div class="dc-empty">' + ct.loading + "</div>";
     box.appendChild(form); box.appendChild(list);
+    var tsToken = "";
+    mountTurnstile(form, function (tok) { tsToken = tok; });
 
     function fmt(ts) {
       try {
@@ -265,7 +289,7 @@
       send.disabled = true; msg.className = "dc-msg"; msg.textContent = "…";
       fetch(CAPI + "/comment", {
         method: "POST", headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ page: pageKey, name: name.value.trim(), body: text, website: hp.value })
+        body: JSON.stringify({ page: pageKey, name: name.value.trim(), body: text, website: hp.value, token: tsToken })
       })
         .then(function (r) { return r.json().then(function (d) { return { s: r.status, d: d }; }); })
         .then(function (res) {

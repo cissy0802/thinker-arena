@@ -6,7 +6,30 @@
   var API = "https://bigcat-engage.cissychen.workers.dev"; // 同源已在 Worker CORS 放行
   var VOTE_PREFIX = "topic:";        // 每议题一个 poll：topic:<id>
   var OPEN_TERM = "thinker-open-questions"; // 观众提新议题的评论区
+  var TURNSTILE_SITEKEY = ""; // 填 Cloudflare Turnstile site key 即开启验证码
   // ==========================================================================
+
+  var tsLoaded = false;
+  function ensureTurnstile() {
+    if (!TURNSTILE_SITEKEY || tsLoaded) return;
+    tsLoaded = true;
+    var s = document.createElement("script");
+    s.src = "https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit";
+    s.async = true; s.defer = true;
+    document.head.appendChild(s);
+  }
+  function mountTurnstile(form, rowSel, onToken) {
+    if (!TURNSTILE_SITEKEY) return;
+    ensureTurnstile();
+    var slot = document.createElement("div");
+    slot.style.marginTop = "10px";
+    form.insertBefore(slot, form.querySelector(rowSel));
+    (function render() {
+      if (window.turnstile && window.turnstile.render) {
+        window.turnstile.render(slot, { sitekey: TURNSTILE_SITEKEY, theme: "dark", callback: onToken });
+      } else { setTimeout(render, 200); }
+    })();
+  }
 
   var LANG = /\.en\.html$/i.test(location.pathname) ? "en" : "zh";
   function PG(n) { return n + (LANG === "en" ? ".en.html" : ".html"); }
@@ -93,6 +116,8 @@
       '<span class="th-msg"></span></div>';
     wrap.appendChild(list);
     wrap.appendChild(form);
+    var tsToken = "";
+    mountTurnstile(form, ".th-row", function (tok) { tsToken = tok; });
 
     function renderList(comments) {
       list.innerHTML = "";
@@ -133,7 +158,7 @@
       send.disabled = true; msg.className = "th-msg"; msg.textContent = "…";
       fetch(API + "/comment", {
         method: "POST", headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ page: term, name: name.value.trim(), body: text, website: hp.value })
+        body: JSON.stringify({ page: term, name: name.value.trim(), body: text, website: hp.value, token: tsToken })
       })
         .then(function (r) { return r.json().then(function (d) { return { s: r.status, d: d }; }); })
         .then(function (res) {

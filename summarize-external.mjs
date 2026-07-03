@@ -89,7 +89,8 @@ async function callGemini() {
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
       contents: [{ parts: [{ text: basePrompt("Gemini，Google 的多模态 AI", "广博综合、补全事实与跨域视角") }] }],
-      generationConfig: { responseMimeType: "application/json" },
+      // thinking 会占输出配额，默认上限易把 JSON 截断——显式调大
+      generationConfig: { responseMimeType: "application/json", maxOutputTokens: 65536 },
     }),
   });
   if (!r.ok) throw new Error("Gemini HTTP " + r.status + " " + (await r.text()).slice(0, 200));

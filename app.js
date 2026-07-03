@@ -201,6 +201,87 @@
       '<div class="hooks-list">' + items + "</div></div>";
   }
 
+  // ---- login-free comments for this debate (shared Cloudflare Worker) ----
+  var CAPI = "https://bigcat-engage.cissychen.workers.dev";
+  function buildDebateComments(pageKey) {
+    var ct = LANG === "en"
+      ? { head: "💬 Comments", sub: "No account needed — leave a name (optional) and your comment.",
+          namePh: "Name (optional)", bodyPh: "What did you think of this debate?", send: "Post",
+          empty: "Be the first to comment.", ok: "Posted. Thanks!", rate: "Too fast — wait a moment.",
+          err: "Couldn't post — check and retry.", net: "Network error — try again.", loading: "Loading comments…" }
+      : { head: "💬 评论 · Comments", sub: "无需登录 —— 填个名字（可选）就能留言。",
+          namePh: "名字（可选）", bodyPh: "这场辩论你怎么看？", send: "发表",
+          empty: "还没有评论，来做第一个。", ok: "已发表，谢谢！", rate: "发得太快啦，稍等一下。",
+          err: "发表失败，检查一下再试。", net: "网络出错，请重试。", loading: "加载评论中…" };
+
+    var box = document.createElement("section");
+    box.className = "dcomments";
+    var h = document.createElement("h3"); h.className = "dc-head"; h.textContent = ct.head;
+    var sub = document.createElement("div"); sub.className = "dc-sub"; sub.textContent = ct.sub;
+    box.appendChild(h); box.appendChild(sub);
+
+    var form = document.createElement("form");
+    form.className = "dc-form"; form.style.position = "relative";
+    form.innerHTML =
+      '<input class="dc-name" type="text" maxlength="40" placeholder="' + esc(ct.namePh) + '">' +
+      '<textarea class="dc-body" maxlength="2000" placeholder="' + esc(ct.bodyPh) + '" required></textarea>' +
+      '<input class="dc-hp" type="text" tabindex="-1" autocomplete="off" aria-hidden="true" name="website">' +
+      '<div class="dc-row"><button type="submit" class="dc-send">' + esc(ct.send) + '</button><span class="dc-msg"></span></div>';
+    var list = document.createElement("div");
+    list.className = "dc-list";
+    list.innerHTML = '<div class="dc-empty">' + ct.loading + "</div>";
+    box.appendChild(form); box.appendChild(list);
+
+    function fmt(ts) {
+      try {
+        return new Date(ts).toLocaleDateString(LANG === "en" ? "en-US" : "zh-CN",
+          { year: "numeric", month: "short", day: "numeric" });
+      } catch (e) { return ""; }
+    }
+    function item(c) {
+      var it = document.createElement("div"); it.className = "dc-item";
+      var meta = document.createElement("div"); meta.className = "dc-meta";
+      var b = document.createElement("b"); b.textContent = c.name;      // safe
+      meta.appendChild(b); meta.appendChild(document.createTextNode(" · " + fmt(c.ts)));
+      var body = document.createElement("div"); body.className = "dc-text";
+      body.textContent = c.body;                                        // safe
+      it.appendChild(meta); it.appendChild(body); return it;
+    }
+    function renderList(cs) {
+      list.innerHTML = "";
+      if (!cs || !cs.length) { list.innerHTML = '<div class="dc-empty">' + ct.empty + "</div>"; return; }
+      cs.forEach(function (c) { list.appendChild(item(c)); });
+    }
+    fetch(CAPI + "/comments?page=" + encodeURIComponent(pageKey))
+      .then(function (r) { return r.json(); })
+      .then(function (d) { renderList(d.ok ? d.comments : []); })
+      .catch(function () { list.innerHTML = ""; });
+
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var ta = form.querySelector(".dc-body"), name = form.querySelector(".dc-name");
+      var hp = form.querySelector(".dc-hp"), msg = form.querySelector(".dc-msg"), send = form.querySelector(".dc-send");
+      var text = ta.value.trim(); if (!text) return;
+      send.disabled = true; msg.className = "dc-msg"; msg.textContent = "…";
+      fetch(CAPI + "/comment", {
+        method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ page: pageKey, name: name.value.trim(), body: text, website: hp.value })
+      })
+        .then(function (r) { return r.json().then(function (d) { return { s: r.status, d: d }; }); })
+        .then(function (res) {
+          if (res.d.ok) {
+            msg.className = "dc-msg ok"; msg.textContent = ct.ok;
+            if (res.d.comment) { var em = list.querySelector(".dc-empty"); if (em) em.remove(); list.appendChild(item(res.d.comment)); }
+            ta.value = "";
+          } else if (res.s === 429) { msg.className = "dc-msg err"; msg.textContent = ct.rate; }
+          else { msg.className = "dc-msg err"; msg.textContent = ct.err; }
+        })
+        .catch(function () { msg.className = "dc-msg err"; msg.textContent = ct.net; })
+        .finally(function () { send.disabled = false; });
+    });
+    return box;
+  }
+
   function renderDebate(debate) {
     window.__POSTS = {};
     debate.posts.forEach(function (p) { window.__POSTS[p.id] = p; });
@@ -225,6 +306,9 @@
     document.getElementById("thread").innerHTML = html;
     setHeader(debate);
     attachInteractions();
+    // login-free comment section, keyed per debate id
+    var debId = (debate && debate.id) || new URLSearchParams(location.search).get("d") || "happiness";
+    document.getElementById("thread").appendChild(buildDebateComments("debate:" + debId));
   }
 
   function setHeader(debate) {

@@ -209,3 +209,25 @@ html, body {
 /* **重点** → <strong>：暗色主题下用纯白 + 加粗让重点跳出来 */
 .text strong, .bai strong, .sec-txt strong, .hook-txt strong { font-weight: 700; color: #fff; }
 @media (max-width: 600px) { .rail { display: none; } .thread { padding: 6px 4px 40px; } }
+
+/* ---- login-free debate comments (bigcat-engage backend) ---- */
+.dcomments { max-width: 760px; margin: 40px auto 60px; padding: 26px 20px 0; border-top: 1px solid rgba(255,255,255,0.1); }
+.dcomments .dc-head { font-size: 1.05rem; font-weight: 600; letter-spacing: 1px; margin-bottom: 5px; color: #e4e6eb; }
+.dcomments .dc-sub { font-size: 0.83rem; color: #8a93a6; margin-bottom: 16px; }
+.dc-form { position: relative; }
+.dc-form .dc-name { width: 100%; max-width: 260px; padding: 9px 12px; margin-bottom: 8px; border-radius: 9px; font-size: 0.88rem; font-family: inherit; color: #e4e6eb; background: rgba(0,0,0,0.28); border: 1px solid rgba(255,255,255,0.14); }
+.dc-form .dc-body { display: block; width: 100%; min-height: 80px; padding: 10px 13px; border-radius: 9px; font-size: 0.9rem; font-family: inherit; color: #e4e6eb; background: rgba(0,0,0,0.28); border: 1px solid rgba(255,255,255,0.14); resize: vertical; }
+.dc-form .dc-name:focus, .dc-form .dc-body:focus { outline: none; border-color: #7b61ff; }
+.dc-form .dc-hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.dc-row { display: flex; align-items: center; gap: 12px; margin-top: 9px; }
+.dc-send { padding: 9px 22px; border: none; border-radius: 9px; background: linear-gradient(135deg,#7b61ff,#00d4ff); color: #fff; font-weight: 700; font-size: 0.88rem; cursor: pointer; font-family: inherit; transition: opacity .15s; }
+.dc-send:hover { opacity: 0.88; }
+.dc-send:disabled { opacity: 0.5; cursor: default; }
+.dc-msg { font-size: 0.82rem; min-height: 16px; color: #4fd08a; }
+.dc-msg.err { color: #ff6ec4; }
+.dc-list { margin-top: 22px; display: flex; flex-direction: column; gap: 14px; }
+.dc-empty { font-size: 0.85rem; color: #8a93a6; padding: 6px 2px; }
+.dc-item { background: rgba(255,255,255,0.035); border: 1px solid rgba(255,255,255,0.08); border-radius: 11px; padding: 12px 15px; }
+.dc-meta { font-size: 0.77rem; color: #8a93a6; margin-bottom: 5px; }
+.dc-meta b { color: #cdd2dd; font-weight: 700; }
+.dc-text { font-size: 0.92rem; color: #d8dbe2; line-height: 1.6; white-space: pre-wrap; word-break: break-word; }

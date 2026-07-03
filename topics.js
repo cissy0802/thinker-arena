@@ -122,6 +122,125 @@
     });
   })();
 
+  // ---- 评论区（page=thinker-arena-index，中英共用一串）----
+  (function mountComments() {
+    if (document.getElementById("ta-comments")) return;
+    var API = "https://bigcat-engage.cissychen.workers.dev";
+    var TS_KEY = "0x4AAAAAADu325m36GEOOMP-"; // Cloudflare Turnstile site key
+    var PAGE = "thinker-arena-index";
+    var en = LANG === "en";
+    var t = en
+      ? { head: "💬 Comments", sub: "No account needed — leave a name (optional) and your comment.",
+          namePh: "Name (optional)", bodyPh: "What would you like to see debated?", send: "Post",
+          empty: "Be the first to comment.", ok: "Posted. Thanks!", rate: "Too fast — wait a moment.",
+          err: "Couldn't post — check and retry.", net: "Network error — try again.", loading: "Loading comments…" }
+      : { head: "💬 留言 · Comments", sub: "无需登录 —— 填个名字（可选）就能留言。",
+          namePh: "名字（可选）", bodyPh: "想看谁来辩、辩什么？", send: "发表",
+          empty: "还没有留言，来做第一个。", ok: "已发表，谢谢！", rate: "发得太快啦，稍等一下。",
+          err: "发表失败，检查一下再试。", net: "网络出错，请重试。", loading: "加载留言中…" };
+
+    var css = document.createElement("style");
+    css.textContent =
+      "#ta-comments{max-width:860px;margin:34px auto 60px;padding:24px 20px 0;border-top:1px solid rgba(255,255,255,0.1)}" +
+      "#ta-comments h3{font-size:1.02rem;font-weight:600;color:#e4e6eb;margin-bottom:5px}" +
+      "#ta-comments .c-sub{font-size:0.83rem;color:#8b93a7;margin-bottom:15px}" +
+      "#ta-comments .c-name{width:100%;max-width:260px;padding:9px 12px;margin-bottom:8px;border-radius:9px;font-size:0.88rem;font-family:inherit;color:#e4e6eb;background:rgba(0,0,0,0.28);border:1px solid rgba(255,255,255,0.16)}" +
+      "#ta-comments textarea{display:block;width:100%;min-height:78px;padding:10px 13px;border-radius:9px;font-size:0.9rem;font-family:inherit;color:#e4e6eb;background:rgba(0,0,0,0.28);border:1px solid rgba(255,255,255,0.16);resize:vertical}" +
+      "#ta-comments .c-name:focus,#ta-comments textarea:focus{outline:none;border-color:#7b61ff}" +
+      "#ta-comments .c-hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}" +
+      "#ta-comments .c-row{display:flex;align-items:center;gap:12px;margin-top:9px}" +
+      "#ta-comments .c-send{padding:9px 22px;border:none;border-radius:9px;background:linear-gradient(135deg,#7b61ff,#00d4ff);color:#fff;font-weight:700;font-size:0.88rem;cursor:pointer;font-family:inherit}" +
+      "#ta-comments .c-send:disabled{opacity:0.5;cursor:default}" +
+      "#ta-comments .c-msg{font-size:0.82rem;min-height:16px;color:#4fd08a}" +
+      "#ta-comments .c-msg.err{color:#ff6ec4}" +
+      "#ta-comments .c-list{margin-top:22px;display:flex;flex-direction:column;gap:14px}" +
+      "#ta-comments .c-empty{font-size:0.85rem;color:#8b93a7;padding:6px 2px}" +
+      "#ta-comments .c-item{background:rgba(255,255,255,0.035);border:1px solid rgba(255,255,255,0.08);border-radius:11px;padding:12px 15px}" +
+      "#ta-comments .c-meta{font-size:0.77rem;color:#8b93a7;margin-bottom:5px}" +
+      "#ta-comments .c-meta b{color:#cdd2dd;font-weight:700}" +
+      "#ta-comments .c-text{font-size:0.92rem;color:#d8dbe2;line-height:1.6;white-space:pre-wrap;word-break:break-word}";
+    document.head.appendChild(css);
+
+    var box = document.createElement("section");
+    box.id = "ta-comments";
+    box.innerHTML = "<h3>" + t.head + "</h3><div class='c-sub'>" + t.sub + "</div>";
+    var form = document.createElement("form");
+    form.style.position = "relative";
+    form.innerHTML =
+      '<input class="c-name" type="text" maxlength="40" placeholder="' + esc(t.namePh) + '">' +
+      '<textarea class="c-body" maxlength="2000" placeholder="' + esc(t.bodyPh) + '" required></textarea>' +
+      '<input class="c-hp" type="text" tabindex="-1" autocomplete="off" aria-hidden="true" name="website">' +
+      '<div class="c-row"><button type="submit" class="c-send">' + esc(t.send) + '</button><span class="c-msg"></span></div>';
+    var list = document.createElement("div");
+    list.className = "c-list";
+    list.innerHTML = '<div class="c-empty">' + t.loading + "</div>";
+    box.appendChild(form); box.appendChild(list);
+    var footer = document.querySelector("footer");
+    if (footer && footer.parentNode) footer.parentNode.insertBefore(box, footer);
+    else document.body.appendChild(box);
+
+    // Turnstile (required — worker enforces it)
+    var tsToken = "";
+    if (TS_KEY) {
+      var slot = document.createElement("div");
+      slot.style.marginTop = "10px";
+      form.insertBefore(slot, form.querySelector(".c-row"));
+      var s = document.createElement("script");
+      s.src = "https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit";
+      s.async = true; s.defer = true; document.head.appendChild(s);
+      (function render() {
+        if (window.turnstile && window.turnstile.render) {
+          window.turnstile.render(slot, { sitekey: TS_KEY, theme: "dark", callback: function (tok) { tsToken = tok; } });
+        } else { setTimeout(render, 200); }
+      })();
+    }
+
+    function fmt(ts) {
+      try { return new Date(ts).toLocaleDateString(en ? "en-US" : "zh-CN", { year: "numeric", month: "short", day: "numeric" }); }
+      catch (e) { return ""; }
+    }
+    function item(c) {
+      var it = document.createElement("div"); it.className = "c-item";
+      var meta = document.createElement("div"); meta.className = "c-meta";
+      var b = document.createElement("b"); b.textContent = c.name;
+      meta.appendChild(b); meta.appendChild(document.createTextNode(" · " + fmt(c.ts)));
+      var body = document.createElement("div"); body.className = "c-text"; body.textContent = c.body;
+      it.appendChild(meta); it.appendChild(body); return it;
+    }
+    function renderList(cs) {
+      list.innerHTML = "";
+      if (!cs || !cs.length) { list.innerHTML = '<div class="c-empty">' + t.empty + "</div>"; return; }
+      cs.forEach(function (c) { list.appendChild(item(c)); });
+    }
+    fetch(API + "/comments?page=" + encodeURIComponent(PAGE))
+      .then(function (r) { return r.json(); })
+      .then(function (d) { renderList(d.ok ? d.comments : []); })
+      .catch(function () { list.innerHTML = ""; });
+
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var ta = form.querySelector(".c-body"), name = form.querySelector(".c-name");
+      var hp = form.querySelector(".c-hp"), msg = form.querySelector(".c-msg"), send = form.querySelector(".c-send");
+      var text = ta.value.trim(); if (!text) return;
+      send.disabled = true; msg.className = "c-msg"; msg.textContent = "…";
+      fetch(API + "/comment", {
+        method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ page: PAGE, name: name.value.trim(), body: text, website: hp.value, token: tsToken })
+      })
+        .then(function (r) { return r.json().then(function (d) { return { s: r.status, d: d }; }); })
+        .then(function (res) {
+          if (res.d.ok) {
+            msg.className = "c-msg"; msg.textContent = t.ok;
+            if (res.d.comment) { var em = list.querySelector(".c-empty"); if (em) em.remove(); list.appendChild(item(res.d.comment)); }
+            ta.value = "";
+          } else if (res.s === 429) { msg.className = "c-msg err"; msg.textContent = t.rate; }
+          else { msg.className = "c-msg err"; msg.textContent = t.err; }
+        })
+        .catch(function () { msg.className = "c-msg err"; msg.textContent = t.net; })
+        .finally(function () { send.disabled = false; });
+    });
+  })();
+
   Promise.all([getJSON("thinkers.json"), getJSON("debates/index.json")])
     .then(function (res) {
       var TK = {};

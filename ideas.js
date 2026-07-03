@@ -1,6 +1,13 @@
-/* 议题投票页 · 中/EN 双语 · giscus(GitHub Discussions) 投票+评论 */
+/* 议题投票页 · 中/EN 双语 · 免登录投票+评论（Cloudflare Worker 后端，取代 giscus/GitHub） */
 (function () {
   "use strict";
+
+  // ======= CONFIG ===========================================================
+  var API = "https://bigcat-engage.cissychen.workers.dev"; // 同源已在 Worker CORS 放行
+  var VOTE_PREFIX = "topic:";        // 每议题一个 poll：topic:<id>
+  var OPEN_TERM = "thinker-open-questions"; // 观众提新议题的评论区
+  // ==========================================================================
+
   var LANG = /\.en\.html$/i.test(location.pathname) ? "en" : "zh";
   function PG(n) { return n + (LANG === "en" ? ".en.html" : ".html"); }
   function OTHER_LANG_URL() {
@@ -13,27 +20,31 @@
   var UI = {
     zh: { title: "议题投票 · 思想家圆桌辩论", crumb: "议题投票", h1: "议题投票",
       sub: "想看哪场辩论？给议题点赞，净票最高的下一场就开。",
-      howto: "用 GitHub 账号 👍 = 投 +1 票，👎 = −1 票（其他表情只是表态、不计票）；点开卡片就能看到该题当前票数与讨论。每跑一场，云端自动挑当时净票最高的来开，并把好评论收进灵感库。",
+      howto: "👍 = +1 票，👎 = −1 票（净票 = 赞 − 踩，无需登录）；点「讨论」看该题当前评论、也能直接留言。每跑一场，云端自动挑净票最高的来开，并把好评论收进灵感库。",
       candLabel: "候选议题 · 净票决定下一场", doneLabel: "已经辩过的", votes: "净票",
-      voteBtn: "投票 / 讨论", loading: "加载投票与评论中…", topTip: "暂列第一",
+      discuss: "讨论", loading: "加载中…", topTip: "暂列第一",
       enter: "看辩论 →",
       openQLabel: "提个新议题", openQTitle: "没有你想看的？在这儿提一个",
-      openQNote: "把你想看的辩题写进评论——被采纳就会进入上面的候选名单，一起接受投票。",
-      openQBtn: "提议新议题 / 讨论",
+      openQNote: "把你想看的辩题写下来——被采纳就会进入上面的候选名单，一起接受投票。",
+      namePh: "名字（可选）", bodyPh: "写下你的想法…", topicBodyPh: "提个新议题 / 说说你的看法…",
+      send: "发表", empty: "还没有评论，来做第一个。", posted: "已发表，谢谢！",
+      rate: "发得太快啦，稍等一下。", cerr: "发表失败，检查一下再试。", net: "网络出错，请重试。",
       failPre: "无法加载（", failPost: "）。本地预览请用 " },
     en: { title: "Vote on Topics · Thinkers' Round Table", crumb: "Vote", h1: "Vote on the Next Debate",
       sub: "Which debate do you want to see? Upvote a topic — the highest net score goes next.",
-      howto: "With your GitHub account, 👍 = +1 vote, 👎 = −1 (other reactions are just sentiment — no vote); open a card to see its current count and discussion. After each debate, the cloud auto-picks the highest net-voted topic and folds the best comments into the backlog.",
+      howto: "👍 = +1, 👎 = −1 (net = ups − downs, no login needed); hit “Discuss” to read or add comments. After each debate the cloud auto-picks the highest net-voted topic and folds the best comments into the backlog.",
       candLabel: "Candidates · net votes decide the next debate", doneLabel: "Already debated", votes: "net",
-      voteBtn: "Vote / discuss", loading: "Loading votes & comments…", topTip: "leading",
+      discuss: "Discuss", loading: "Loading…", topTip: "leading",
       enter: "see debate →",
       openQLabel: "Propose a new topic", openQTitle: "Don't see the one you want? Suggest it here",
-      openQNote: "Write the debate question you'd like in the comments — good ones get promoted into the candidate list above for voting.",
-      openQBtn: "Suggest a topic / discuss",
+      openQNote: "Write the debate question you'd like — good ones get promoted into the candidate list above for voting.",
+      namePh: "Name (optional)", bodyPh: "Share your thoughts…", topicBodyPh: "Suggest a topic / share your view…",
+      send: "Post", empty: "No comments yet — be the first.", posted: "Posted. Thanks!",
+      rate: "You're posting too fast — wait a moment.", cerr: "Couldn't post — check and retry.", net: "Network error — try again.",
       failPre: "Couldn't load (", failPost: "). For local preview run " }
   };
   function T(k) { return UI[LANG][k]; }
-  // 主题分组（语言无关 key 存在 ideas.json 的 cat 字段；标签在这里双语）
+
   var CATS = [
     { key: "self",   zh: "处世 · 自我 · 成长",   en: "Self, growth & living" },
     { key: "life",   zh: "人生 · 生死 · 家庭",   en: "Life, family & mortality" },
@@ -51,61 +62,140 @@
   }
   function getJSON(u) { return fetch(u).then(function (r) { if (!r.ok) throw new Error(u + " HTTP " + r.status); return r.json(); }); }
 
-  var GISCUS = null;
+  // ---- voter identity + this browser's own vote per topic ----
+  var voter = localStorage.getItem("bigcat_voter");
+  if (!voter) { voter = "v_" + Math.random().toString(36).slice(2) + Date.now().toString(36); localStorage.setItem("bigcat_voter", voter); }
+  function myVotes() { try { return JSON.parse(localStorage.getItem("bigcat_topicvotes") || "{}"); } catch (e) { return {}; } }
+  function setMyVote(term, dir) { var m = myVotes(); m[term] = dir; localStorage.setItem("bigcat_topicvotes", JSON.stringify(m)); }
 
-  function loadGiscus(term, container) {
-    var s = document.createElement("script");
-    s.src = "https://giscus.app/client.js";
-    s.setAttribute("data-repo", GISCUS.repo);
-    s.setAttribute("data-repo-id", GISCUS.repoId);
-    s.setAttribute("data-category", GISCUS.category);
-    s.setAttribute("data-category-id", GISCUS.categoryId);
-    s.setAttribute("data-mapping", "specific");
-    s.setAttribute("data-term", term);
-    s.setAttribute("data-strict", "1");   // 严格按 term 精确匹配讨论——避免 enough-money-… 误匹配到已存在的 money-and-happiness 讨论
-    s.setAttribute("data-reactions-enabled", "1");
-    s.setAttribute("data-emit-metadata", "1");   // 让 giscus 把讨论元数据(含反应数)发回来
-    s.setAttribute("data-input-position", "bottom");
-    s.setAttribute("data-theme", "noborder_dark");
-    s.setAttribute("data-lang", LANG === "en" ? "en" : "zh-CN");
-    s.crossOrigin = "anonymous";
-    s.async = true;
-    container.appendChild(s);
+  function fmtDate(ts) {
+    try {
+      return new Date(ts).toLocaleDateString(LANG === "en" ? "en-US" : "zh-CN",
+        { year: "numeric", month: "short", day: "numeric" });
+    } catch (e) { return ""; }
   }
 
-  // giscus 就绪(发回元数据)时撤掉「加载中」提示；票数直接看 giscus 自己的反应栏
-  window.addEventListener("message", function (e) {
-    if (e.origin !== "https://giscus.app") return;
-    if (!e.data || typeof e.data !== "object" || !e.data.giscus) return;
-    var openTerm = document.body.getAttribute("data-open-term");
-    if (!openTerm) return;
-    var oc = document.querySelector('.topic-card[data-term="' + openTerm + '"] .giscus-loading');
-    if (oc) oc.style.display = "none";
-  });
+  // ---- comment thread (list + form), lazy-built ----
+  function buildThread(term, bodyPlaceholder) {
+    var wrap = document.createElement("div");
+    wrap.className = "thread";
+    var list = document.createElement("div");
+    list.className = "th-list";
+    list.innerHTML = '<div class="th-empty">' + T("loading") + "</div>";
+    var form = document.createElement("form");
+    form.className = "th-form";
+    form.style.position = "relative";
+    form.innerHTML =
+      '<input class="th-name" type="text" maxlength="40" placeholder="' + esc(T("namePh")) + '">' +
+      '<textarea class="th-body" maxlength="2000" placeholder="' + esc(bodyPlaceholder) + '" required></textarea>' +
+      '<input class="th-hp" type="text" tabindex="-1" autocomplete="off" aria-hidden="true" name="website">' +
+      '<div class="th-row"><button type="submit" class="th-send">' + esc(T("send")) + '</button>' +
+      '<span class="th-msg"></span></div>';
+    wrap.appendChild(list);
+    wrap.appendChild(form);
+
+    function renderList(comments) {
+      list.innerHTML = "";
+      if (!comments || !comments.length) {
+        list.innerHTML = '<div class="th-empty">' + T("empty") + "</div>";
+        return;
+      }
+      comments.forEach(function (c) { list.appendChild(renderItem(c)); });
+    }
+    function renderItem(c) {
+      var it = document.createElement("div");
+      it.className = "th-item";
+      var meta = document.createElement("div");
+      meta.className = "th-meta";
+      var b = document.createElement("b");
+      b.textContent = c.name;                       // textContent = XSS-safe
+      meta.appendChild(b);
+      meta.appendChild(document.createTextNode(" · " + fmtDate(c.ts)));
+      var body = document.createElement("div");
+      body.className = "th-text";
+      body.textContent = c.body;                    // textContent = XSS-safe
+      it.appendChild(meta); it.appendChild(body);
+      return it;
+    }
+
+    fetch(API + "/comments?page=" + encodeURIComponent(term))
+      .then(function (r) { return r.json(); })
+      .then(function (d) { renderList(d.ok ? d.comments : []); })
+      .catch(function () { list.innerHTML = ""; });
+
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var ta = form.querySelector(".th-body"), name = form.querySelector(".th-name");
+      var hp = form.querySelector(".th-hp"), msg = form.querySelector(".th-msg");
+      var send = form.querySelector(".th-send");
+      var text = ta.value.trim();
+      if (!text) return;
+      send.disabled = true; msg.className = "th-msg"; msg.textContent = "…";
+      fetch(API + "/comment", {
+        method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ page: term, name: name.value.trim(), body: text, website: hp.value })
+      })
+        .then(function (r) { return r.json().then(function (d) { return { s: r.status, d: d }; }); })
+        .then(function (res) {
+          if (res.d.ok) {
+            msg.className = "th-msg ok"; msg.textContent = T("posted");
+            if (res.d.comment) {
+              var empty = list.querySelector(".th-empty"); if (empty) empty.remove();
+              list.appendChild(renderItem(res.d.comment));
+            }
+            ta.value = "";
+          } else if (res.s === 429) { msg.className = "th-msg err"; msg.textContent = T("rate"); }
+          else { msg.className = "th-msg err"; msg.textContent = T("cerr"); }
+        })
+        .catch(function () { msg.className = "th-msg err"; msg.textContent = T("net"); })
+        .finally(function () { send.disabled = false; });
+    });
+
+    return wrap;
+  }
+
+  // ---- vote casting ----
+  function castVote(term, dir, ctl) {
+    fetch(API + "/vote", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ poll: term, choice: dir, voter: voter })
+    })
+      .then(function (r) { return r.json(); })
+      .then(function (d) {
+        if (!d.ok) return;
+        setMyVote(term, dir);
+        var up = (d.tally && d.tally.up) || 0, down = (d.tally && d.tally.down) || 0;
+        ctl.querySelector(".net").textContent = up - down;
+        ctl.querySelector(".vbtn.up").classList.toggle("on", dir === "up");
+        ctl.querySelector(".vbtn.down").classList.toggle("on", dir === "down");
+      })
+      .catch(function () {});
+  }
 
   function candCard(c, posInCat, isTop) {
-    var term = GISCUS.termPrefix + c.id;
+    var term = VOTE_PREFIX + c.id;
     var note = pick(c, "note");
-    var html =
-      '<div class="topic-card" data-term="' + esc(term) + '">' +
+    var mine = myVotes()[term];
+    return '<div class="topic-card" data-term="' + esc(term) + '">' +
       '<div class="tc-head">' +
       '<div class="rank' + (isTop ? " top" : "") + '">' + (isTop ? "★" : posInCat) + "</div>" +
       '<div class="tc-body">' +
       '<div class="tc-q">' + esc(pick(c, "q")) + "</div>" +
       (note ? '<div class="tc-note">' + esc(note) + "</div>" : "") +
       '<div class="tc-actions">' +
-      '<button class="vote-pill" data-term="' + esc(term) + '"><i class="ti ti-thumb-up"></i> ' +
-      T("voteBtn") + "</button>" +
+      '<div class="vote-ctl" data-term="' + esc(term) + '">' +
+      '<button class="vbtn up' + (mine === "up" ? " on" : "") + '" data-dir="up" title="+1"><i class="ti ti-thumb-up"></i></button>' +
+      '<span class="net">' + (c.votes || 0) + "</span>" +
+      '<button class="vbtn down' + (mine === "down" ? " on" : "") + '" data-dir="down" title="-1"><i class="ti ti-thumb-down"></i></button>' +
+      "</div>" +
+      '<button class="discuss-pill" data-term="' + esc(term) + '"><i class="ti ti-message"></i> ' + T("discuss") + "</button>" +
       (isTop ? '<span class="badge-top">★ ' + T("topTip") + "</span>" : "") +
       "</div>" +
-      '<div class="giscus-wrap"><div class="giscus-loading">' + T("loading") + "</div></div>" +
+      '<div class="thread-wrap"></div>' +
       "</div></div></div>";
-    return html;
   }
 
   function render(data) {
-    GISCUS = data.giscus;
-    // 全局按净票排序，定出当前票王(★) —— 决定下一场的仍是全局净票最高者
     var cands = (data.candidates || []).slice().sort(function (a, b) { return (b.votes || 0) - (a.votes || 0); });
     var maxVotes = cands.reduce(function (m, c) { return Math.max(m, c.votes || 0); }, 0);
     var topId = maxVotes > 0 ? cands[0].id : null;
@@ -117,7 +207,6 @@
         '<span class="dgo">' + T("enter") + "</span></a>";
     }
     var html = '<div class="sec-label">' + T("candLabel") + "</div>";
-    // 按主题分组：组内先列『候选』(净票降序)，再列该类已辩过的
     CATS.forEach(function (cat) {
       var members = cands.filter(function (c) { return (c.cat || "other") === cat.key; });
       var dmem = done.filter(function (d) { return (d.cat || "other") === cat.key; });
@@ -132,32 +221,40 @@
       }
     });
 
-    // 开放征题：观众提自己的议题（独立 giscus 讨论，term=open-questions）
+    // 开放征题
     html += '<div class="sec-label">' + T("openQLabel") + "</div>";
-    html += '<div class="topic-card open-q" data-term="open-questions">' +
+    html += '<div class="topic-card open-q" data-term="' + esc(OPEN_TERM) + '">' +
       '<div class="tc-head">' +
       '<div class="rank" style="background:rgba(255,255,255,0.06);color:#9aa3bd"><i class="ti ti-bulb"></i></div>' +
       '<div class="tc-body">' +
       '<div class="tc-q">' + T("openQTitle") + "</div>" +
       '<div class="tc-note">' + T("openQNote") + "</div>" +
-      '<div class="tc-actions"><button class="vote-pill" data-term="open-questions"><i class="ti ti-message-plus"></i> ' + T("openQBtn") + "</button></div>" +
-      '<div class="giscus-wrap"><div class="giscus-loading">' + T("loading") + "</div></div>" +
+      '<div class="tc-actions"><button class="discuss-pill open" data-term="' + esc(OPEN_TERM) + '"><i class="ti ti-message-plus"></i> ' + T("openQLabel") + "</button></div>" +
+      '<div class="thread-wrap"></div>' +
       "</div></div></div>";
 
     document.getElementById("content").innerHTML = html;
 
-    // 投票/讨论按钮：点开即懒加载该议题的 giscus
-    document.querySelectorAll(".vote-pill").forEach(function (btn) {
+    // 投票按钮
+    document.querySelectorAll(".vote-ctl").forEach(function (ctl) {
+      var term = ctl.getAttribute("data-term");
+      ctl.querySelectorAll(".vbtn").forEach(function (btn) {
+        btn.addEventListener("click", function () { castVote(term, btn.getAttribute("data-dir"), ctl); });
+      });
+    });
+
+    // 讨论/征题：点开懒加载评论区
+    document.querySelectorAll(".discuss-pill").forEach(function (btn) {
       btn.addEventListener("click", function () {
         var card = btn.closest(".topic-card");
         var term = btn.getAttribute("data-term");
-        var wrap = card.querySelector(".giscus-wrap");
-        var open = wrap.classList.toggle("show");
-        btn.classList.toggle("open", open);
-        document.body.setAttribute("data-open-term", open ? term : "");
-        if (open && !wrap.getAttribute("data-loaded")) {
-          wrap.setAttribute("data-loaded", "1");
-          loadGiscus(term, wrap);
+        var host = card.querySelector(".thread-wrap");
+        var open = host.classList.toggle("show");
+        btn.classList.toggle("active", open);
+        if (open && !host.getAttribute("data-loaded")) {
+          host.setAttribute("data-loaded", "1");
+          var isOpenQ = btn.classList.contains("open");
+          host.appendChild(buildThread(term, isOpenQ ? T("topicBodyPh") : T("bodyPh")));
         }
       });
     });
@@ -174,7 +271,21 @@
     lt.onclick = function () { location.href = OTHER_LANG_URL(); };
   }
 
-  getJSON("ideas.json").then(render).catch(function (e) {
+  // 先拉候选，再用后端实时净票覆盖 votes（拿不到就用 ideas.json 里的值）
+  getJSON("ideas.json").then(function (data) {
+    return fetch(API + "/votes-net?prefix=" + encodeURIComponent(VOTE_PREFIX))
+      .then(function (r) { return r.json(); })
+      .then(function (v) {
+        if (v && v.ok && v.votes) {
+          (data.candidates || []).forEach(function (c) {
+            var row = v.votes[VOTE_PREFIX + c.id];
+            if (row) c.votes = row.net;
+          });
+        }
+        return data;
+      })
+      .catch(function () { return data; });
+  }).then(render).catch(function (e) {
     document.getElementById("content").innerHTML =
       '<p style="text-align:center;color:#9aa3bd;padding:40px">' + T("failPre") + esc(e.message) +
       T("failPost") + "<code>python3 -m http.server</code></p>";

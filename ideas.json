@@ -1,12 +1,5 @@
 {
-  "_comment": "议题投票数据。candidates=未辩候选(供投票)，debated=已辩(链到辩论)。每个候选的 giscus 讨论 term = 'topic:'+id；净票 = 👍 − 👎(其他表情不计)。votes 字段由 routine 每次跑时用 `python3 refresh_votes.py`(走 REST，云端代理不放行 GraphQL) 读 GitHub Discussions 的 👍/👎 回写净票(页面据此显示；点开卡片则加载实时 giscus)。另有一个 term='open-questions' 的讨论(页面『提个新议题』)收观众自提议题——routine 把里面好的提案提炼成新 candidates。新候选议题加进 candidates 即可。",
-  "giscus": {
-    "repo": "cissy0802/cissy0802.github.io",
-    "repoId": "R_kgDOShlsYQ",
-    "category": "General",
-    "categoryId": "DIC_kwDOShlsYc4C9f-A",
-    "termPrefix": "topic:"
-  },
+  "_comment": "议题投票数据。candidates=未辩候选(供投票)，debated=已辩(链到辩论)。投票免 GitHub 登录，存于自建后端(Cloudflare Worker + D1，见 ~/Desktop/cissy0802.github.io/engage-backend/)：每候选一个 poll，key='topic:'+id，choice up/down，净票=👍−👎。votes 字段由 routine 每次跑 `python3 refresh_votes.py`(读后端 /votes-net) 回写；页面 ideas.js 也会实时拉取覆盖显示。观众自提议题在评论 page='thinker-open-questions'，各候选下讨论 page='topic:'+id——routine 读这些把好提案提炼成新 candidates。新候选加进 candidates 即可。",
   "candidates": [
     {
       "id": "comparison-and-envy",
@@ -127,7 +120,7 @@
     },
     {
       "id": "enough-money-still-work",
-      "votes": 1,
+      "votes": 0,
       "q": "如果有了足够的钱（财务自由），是否还应该继续工作？",
       "q_en": "If you had enough money to never need to, should you still work?",
       "note": "当生计不再是问题，工作还剩下什么？凯恩斯曾预言后代每周只需工作十五小时；可马克思说劳动本可是自我实现、却被异化，弗兰克尔说人需要『被需要』，亚里士多德推崇闲暇中的沉思。财务自由后，是该退休享清福，还是不工作反而会失去意义与生活的结构？",
@@ -136,7 +129,7 @@
     },
     {
       "id": "abundance-and-decline",
-      "votes": 1,
+      "votes": 0,
       "q": "当物质极度丰裕、不再需要奋斗，人类会不会重演『老鼠乌托邦』式的衰亡？",
       "q_en": "When material abundance removes all need to struggle, could humanity repeat the collapse of the 'mouse utopia'?",
       "note": "卡尔霍恩的『25 号宇宙』实验里，食物无限、天敌全无的鼠群最终走向求偶停摆、社交退缩与整体崩溃。当 AI 与富足替人类卸下生存压力，我们会迎来繁荣，还是尼采笔下只求安逸的『末人』、赫胥黎《美丽新世界》式的温柔沉沦？奋斗与匮乏，是否是意义与活力的必要燃料？",

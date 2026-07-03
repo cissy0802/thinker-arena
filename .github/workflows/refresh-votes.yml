@@ -1,12 +1,13 @@
-name: Refresh votes into ideas.json
+name: Refresh votes + audience inbox
 
-# 从自建投票后端(Cloudflare Worker + D1)拉每个候选的净票，回写 ideas.json 的
-# candidates[].votes，供云端选题 routine 按「票王」选下一场。
+# 从自建投票后端(Cloudflare Worker + D1)拉两样东西：
+#   1) 每个候选的净票 → 回写 ideas.json 的 candidates[].votes（供 routine 按「票王」选题）
+#   2) 观众评论/提案 → 快照到 audience_inbox.json（供 routine 收观众提案，见 ENGINE §4③）
 #
 # 为什么用 GitHub Action：云端 routine 的 container 走 agent 出口代理，够不到
-# bigcat-engage.cissychen.workers.dev(403)，refresh_votes.py 在那里永远拉不到票。
-# 而 GitHub 托管 runner 不在那堵墙后面，能直接访问公开后端——所以把「刷票」放这里，
-# 让 ideas.json 始终带着最新票数，routine 只管读文件即可。
+# bigcat-engage.cissychen.workers.dev(403)，refresh_votes.py / refresh_inbox.py 在那里
+# 永远拉不到数据。而 GitHub 托管 runner 不在那堵墙后面，能直连公开后端——所以把「拉后端」
+# 放这里，让 ideas.json / audience_inbox.json 始终带着最新数据，routine 只管读文件即可。
 
 on:
   schedule:
@@ -17,7 +18,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: refresh-votes
+  group: refresh-engage
   cancel-in-progress: false
 
 jobs:
@@ -29,17 +30,20 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Pull net votes from backend into ideas.json
+      - name: Pull net votes into ideas.json
         run: python3 refresh_votes.py
 
-      - name: Commit if ideas.json changed
+      - name: Pull audience comments into audience_inbox.json
+        run: python3 refresh_inbox.py
+
+      - name: Commit if anything changed
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet ideas.json; then
-            echo "votes unchanged."
+          git add ideas.json audience_inbox.json
+          if git diff --cached --quiet; then
+            echo "votes & inbox unchanged."
             exit 0
           fi
-          git add ideas.json
-          git commit -m "Auto-refresh votes from backend"
+          git commit -m "Auto-refresh votes + audience inbox from backend"
           git push

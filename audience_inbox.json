@@ -1,0 +1,6 @@
+{
+  "_note": "GitHub Action(refresh-votes.yml)每12h从投票后端拉的评论快照。云端 routine 够不到后端(403)，收观众提案时改读这份文件(见 ENGINE §4③)；本地能连后端时以后端为准。别手改此文件——它会被自动覆盖。",
+  "source": "https://bigcat-engage.cissychen.workers.dev",
+  "open_questions": [],
+  "per_topic": {}
+}

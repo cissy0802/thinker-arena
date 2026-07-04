@@ -4,9 +4,9 @@
 
 ## 0. 选题（按投票）
 - **优先级 1（人工置顶队列）**：若 `IDEAS.md` 顶部有 `## 下一场` 区块，其下每行一条 `- <议题>`（**可多条，从上往下开**），取**最上面那一条**为本场；完成后**只删掉用掉的那一条**，其余保留给后续场次。（兼容旧的单行写法 `## 下一场：<议题>`，等同只有一条的队列。）
-- **优先级 2（默认：选净票王）**：**先跑 `python3 refresh_votes.py`**——它从自建后端（Cloudflare Worker + D1，投票免 GitHub 登录）拉每个议题的**净票（👍−👎）回写进 `ideas.json` 的 `candidates[].votes`**：一个公开 GET `https://bigcat-engage.cissychen.workers.dev/votes-net?prefix=topic:`（每议题一个 poll，key＝`topic:`+id，choice `up`/`down`）。然后读 `ideas.json`，**选 `votes` 最高的那条**为本场议题（平票或全 0，取清单里最靠前的）。`slug` 直接用该候选的 `id`。
+- **优先级 2（默认：选净票王）**：**先跑 `python3 refresh_votes.py`**——它从自建后端（Cloudflare Worker + D1，投票免 GitHub 登录）拉每个议题的**净票（👍−👎）回写进 `ideas.json` 的 `candidates[].votes`**：一个公开 GET `https://bigcat-engage.cissychen.workers.dev/votes-net?prefix=topic:`（每议题一个 poll，key＝`topic:`+id，choice `up`/`down`）。然后**跑 `python3 pick_topic.py`** 定本场议题——它读 `ideas.json`，选净票最高的那条；**遇平票（含全 0 平票）不再永远取最靠前那条**（历史 bug：总落在候选清单最前面的『处世·自我』类），而是**每个 category 取组内最靠前的一条当"该类票王"，再从这些类冠军里随机抽一个**，保证跨类轮换。脚本 stdout 首行 `PICK\t<id>\t<cat>\t<votes>\t<reason>` 即本场议题，`slug` 直接用该 `id`；若打印 `__SELFPICK__`（候选池为空）则转优先级3。stderr 打印完整平票集与抽取过程，便于核对。
   - **不再需要 GitHub / GH_TOKEN / GraphQL**：投票已从 giscus 迁到自建后端，`refresh_votes.py` 只发一个无鉴权的 REST GET（记得带普通 User-Agent，否则 Cloudflare 会 403 掉默认的 `Python-urllib`——脚本已内置）。后端与前端 `ideas.js` 共用同一套 `topic:`+id 约定。
-  - **降级**：`refresh_votes.py` 取票失败时**会保留现有 `votes`、绝不清零**；此时就直接取 `ideas.json` `candidates` 里**最靠前**的那条（顺序即人工优先级），辩论照常完整——别因为读不到票就卡住。
+  - **降级**：`refresh_votes.py` 取票失败时**会保留现有 `votes`、绝不清零**；照常跑 `pick_topic.py`（它读的是保留下来的票），辩论照常完整——别因为读不到票就卡住。
 - **优先级 3**：`candidates` 空了，自拟一个有思想张力的新题（`slug` 用英文短横线）。
 
 ## 1. 选角（6–10 位）

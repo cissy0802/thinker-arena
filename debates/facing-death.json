@@ -967,7 +967,83 @@
     {
       "from": "gpt",
       "text": "**全场谈『态度』，少谈『准备』**：面对死亡有一大半是可操作的实务——预立医疗指示、遗嘱、把账号密码与心愿交代清楚、安排好身后家人的生计。这些做完，焦虑会实质性下降，因为你不再被一堆悬而未决的烂摊子拖住。哲学帮你不怕死，清单帮你死得不狼狈、也不连累所爱之人，二者缺一不可。",
-      "text_en": "**The room discussed 'attitude,' rarely 'preparation'**: A good half of facing death is actionable logistics — an advance directive, a will, leaving account passwords and wishes clear, arranging your family's livelihood for after you're gone. Once these are done, anxiety drops substantially, because you're no longer dragged down by a pile of unresolved messes. Philosophy helps you not fear death; the checklist helps you die without indignity and without burdening those you love — you need both."
+      "text_en": "**The room discussed 'attitude,' rarely 'preparation'**: A good half of facing death is actionable logistics — an advance directive, a will, leaving account passwords and wishes clear, arranging your family's livelihood for after you're gone. Once these are done, anxiety drops substantially, because you're no longer dragged down by a pile of unresolved messes. Philosophy helps you not fear death; the checklist helps you die without indignity and without burdening those you love — you need both.",
+      "answer": {
+        "lead": "面对死亡的焦虑，有一大半可以靠『把清单做完』卸掉——不是你战胜了死亡，而是你把『失控感』换成了『已安排』。下面按『做完立刻减焦虑』的顺序排。",
+        "table": {
+          "head": [
+            "事项",
+            "现在就能做的一步",
+            "为什么先做这件"
+          ],
+          "rows": [
+            [
+              "医疗意愿",
+              "写预立医疗指示（抢救到什么程度）＋指定医疗代理人",
+              "这是你昏迷后别人替不了的决定；不写，家人只能在ICU门口痛苦地替你猜"
+            ],
+            [
+              "财务·身后事",
+              "立遗嘱、理清受益人／保险／债务清单",
+              "不写，法律替你分且亲人易反目；一份清单省下最伤感情的争执"
+            ],
+            [
+              "数字遗产",
+              "记下账号密码、照片、加密钱包的存放位置（别写进遗嘱正文公开）",
+              "如今大量资产与记忆在云端，没有钥匙就永久失联"
+            ],
+            [
+              "家人生计",
+              "安排谁照顾孩子／老人、钱从哪来、紧急联系人",
+              "让『我走后他们怎么办』从悬念变成方案——这是最大的一块焦虑"
+            ],
+            [
+              "告别·心愿",
+              "写下想说的话、想道谢道歉的人、葬礼偏好",
+              "没说出口的话是临终最常见的遗憾，趁清醒说或写下来"
+            ]
+          ]
+        },
+        "tail": "三条原则：① 别等『合适的年纪』——意外不挑年龄，30 岁写和 80 岁写内容差不多；② 先做『别人替不了』的（医疗代理、密码位置），再做『可以补』的；③ 做完一定告诉一个信得过的人放在哪——藏得没人找得到，等于没做。这张清单真正的作用，是让你腾出心力去过好还剩下的日子，而不是在恐惧里空转。"
+      },
+      "answer_en": {
+        "lead": "Most of the anxiety about death can be unloaded simply by finishing a checklist — not because you've beaten death, but because you've traded the feeling of loss-of-control for 'it's arranged.' Ordered below by 'does the most to lower anxiety, soonest.'",
+        "table": {
+          "head": [
+            "Item",
+            "One step you can take now",
+            "Why do this first"
+          ],
+          "rows": [
+            [
+              "Medical wishes",
+              "Write an advance directive (how far to resuscitate) + name a healthcare proxy",
+              "The one decision no one can make for you once you're unconscious; skip it and family must painfully guess at the ICU door"
+            ],
+            [
+              "Finances / affairs",
+              "Make a will; sort out beneficiaries / insurance / debts",
+              "Without it the law divides for you and relatives fall out; a list spares the most relationship-damaging fights"
+            ],
+            [
+              "Digital estate",
+              "Note where passwords, photos, crypto wallets live (not published in the will itself)",
+              "So much of today's assets and memories sit in the cloud; without the keys they're lost forever"
+            ],
+            [
+              "Family's livelihood",
+              "Arrange who cares for kids/elders, where money comes from, emergency contacts",
+              "Turns 'what happens to them after I'm gone' from a dread into a plan — the single biggest chunk of the anxiety"
+            ],
+            [
+              "Farewell / wishes",
+              "Write down what you want to say, whom to thank or apologize to, funeral preferences",
+              "Unspoken words are the most common deathbed regret; say or write them while clear-headed"
+            ]
+          ]
+        },
+        "tail": "Three rules: (1) don't wait for the 'right age' — accidents don't check ages, the content is much the same at 30 or 80; (2) do the 'no one can do it for you' items first (proxy, password location), then the ones that can be patched later; (3) always tell one trusted person where it all is — hidden where no one can find it, it's as good as undone. The real point of the list is to free your energy to live the days you have left, instead of spinning in fear."
+      }
     },
     {
       "from": "gemini",

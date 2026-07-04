@@ -202,6 +202,20 @@ html, body {
 .hook-who { display: flex; align-items: center; gap: 8px; margin-bottom: 7px; }
 .hook-who .nm { font-size: 14px; font-weight: 500; }
 .hook-txt { font-size: 14px; line-height: 1.6; color: var(--txt); }
+.hook.has-answer .hook-main { cursor: pointer; }
+.hook-toggle { display: inline-flex; align-items: center; gap: 5px; margin-top: 9px; font-size: 12px; color: #a29bfe; font-weight: 600; user-select: none; }
+.hook-toggle .ti { transition: transform .2s ease; }
+.hook.open .hook-toggle .ti { transform: rotate(180deg); }
+.hook-answer { display: none; margin-top: 12px; padding-top: 12px; border-top: 1px dashed var(--line); }
+.hook.open .hook-answer { display: block; }
+.ha-lead { font-size: 13.5px; line-height: 1.62; color: var(--txt); margin: 0 0 11px; }
+.ha-tail { font-size: 12.5px; line-height: 1.65; color: var(--txt-muted); margin: 11px 0 0; }
+.ha-tablewrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.ha-table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+.ha-table th, .ha-table td { text-align: left; vertical-align: top; padding: 7px 9px; border: 1px solid var(--line); line-height: 1.5; }
+.ha-table th { color: #fff; font-weight: 700; background: rgba(255,255,255,0.04); white-space: nowrap; }
+.ha-table td:first-child { white-space: nowrap; font-weight: 600; color: #fff; }
+.ha-table strong { color: #fff; font-weight: 700; }
 
 .err { color: var(--txt-muted); padding: 40px 24px; max-width: 620px; margin: 0 auto; line-height: 1.7; }
 .err code { background: var(--bg-pill); padding: 2px 6px; border-radius: 4px; color: #fff; }

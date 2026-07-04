@@ -16,13 +16,13 @@
       stance: "本场立场", viewProfile: "点击看完整介绍 →", allProfiles: "全部人物图鉴", plainBadge: "悬停看白话",
       plainLabel: "白话", opening: "各陈己见", rebuttal: "交锋反驳", closing: "总结陈词", roundWord: "第 %N 轮",
       members: "位", chanTitle: "圆桌辩论", docTitle: "思想家圆桌辩论",
-      hooks: "延伸 · 本场留下的钩子", hooksSub: "三方 AI 在辩论之外看见、本场未及展开的角度",
+      hooks: "延伸 · 本场留下的钩子", hooksSub: "三方 AI 在辩论之外看见、本场未及展开的角度", seeAnswer: "点开看答案",
       railServers: "服务器", backToTopics: "返回议题列表", allTopics: "全部议题" },
     en: { topic: "Topic", net: "Net", aiPanel: "AI panel", summary: "Summary", insight: "Insight", advice: "What to actually do",
       stance: "Stance in this debate", viewProfile: "View full profile →", allProfiles: "All thinkers", plainBadge: "plain reading",
       plainLabel: "Plain", opening: "Opening statements", rebuttal: "Rebuttal", closing: "Closing statements", roundWord: "Round %N",
       members: "", chanTitle: "round-table", docTitle: "Thinkers' Round Table",
-      hooks: "Open threads · where this debate points next", hooksSub: "Angles the three AIs saw beyond the room — left for next time",
+      hooks: "Open threads · where this debate points next", hooksSub: "Angles the three AIs saw beyond the room — left for next time", seeAnswer: "see the answer",
       railServers: "Servers", backToTopics: "Back to topics", allTopics: "All topics" }
   };
   function T(k) { return UI[LANG][k]; }
@@ -186,13 +186,36 @@
       '<span class="ln"></span></div><div class="sum-grid">' + cards + "</div></div>";
   }
 
+  function renderHookAnswer(a) {
+    var h = "";
+    if (a.lead) h += '<p class="ha-lead">' + mdBold(esc(a.lead)) + "</p>";
+    if (a.table && a.table.rows) {
+      var t = a.table;
+      h += '<div class="ha-tablewrap"><table class="ha-table"><thead><tr>';
+      (t.head || []).forEach(function (col) { h += "<th>" + mdBold(esc(col)) + "</th>"; });
+      h += "</tr></thead><tbody>";
+      t.rows.forEach(function (row) {
+        h += "<tr>";
+        row.forEach(function (cell) { h += "<td>" + mdBold(esc(cell)) + "</td>"; });
+        h += "</tr>";
+      });
+      h += "</tbody></table></div>";
+    }
+    if (a.tail) h += '<p class="ha-tail">' + mdBold(esc(a.tail)) + "</p>";
+    return h;
+  }
   function renderHooks(hooks) {
     if (!hooks || !hooks.length) return "";
     var items = hooks.map(function (h) {
       var c = tk(h.from);
-      return '<div class="hook"><div class="hook-who">' + avatar(c, 26) +
+      var inner = '<div class="hook-who">' + avatar(c, 26) +
         '<span class="nm" style="color:' + c.color + '">' + esc(nameOf(c)) + "</span></div>" +
-        '<div class="hook-txt">' + mdBold(esc(pick(h, "text"))) + "</div></div>";
+        '<div class="hook-txt">' + mdBold(esc(pick(h, "text"))) + "</div>";
+      var ans = pick(h, "answer");
+      if (!ans) return '<div class="hook">' + inner + "</div>";
+      return '<div class="hook has-answer"><div class="hook-main" role="button" tabindex="0" aria-expanded="false">' +
+        inner + '<div class="hook-toggle"><i class="ti ti-chevron-down"></i><span>' + esc(T("seeAnswer")) + "</span></div></div>" +
+        '<div class="hook-answer">' + renderHookAnswer(ans) + "</div></div>";
     }).join("");
     return '<div class="hooks"><div class="sum-head"><span class="ln"></span>' +
       '<span class="lbl"><i class="ti ti-bulb" style="font-size:16px"></i>' + T("hooks") + "</span>" +
@@ -378,6 +401,12 @@
     document.querySelectorAll(".reply").forEach(function (el) {
       el.addEventListener("click", function () { jump(el); });
       el.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); jump(el); } });
+    });
+    // 钩子答案：点开/收起
+    document.querySelectorAll(".hook.has-answer .hook-main").forEach(function (el) {
+      function tog() { var open = el.parentNode.classList.toggle("open"); el.setAttribute("aria-expanded", open ? "true" : "false"); }
+      el.addEventListener("click", tog);
+      el.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); tog(); } });
     });
     function toggle(el) {
       var was = el.classList.contains("open");

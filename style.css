@@ -197,8 +197,8 @@ html, body {
 .hooks { margin: 26px 8px 8px; }
 .hooks-sub { color: var(--txt-muted); font-size: 12px; text-align: center; margin: -4px 0 14px; }
 /* 每条钩子横铺单列、整宽展开——避免 2 列时奇数个末尾落单对不齐 */
-.hooks-list { display: grid; grid-template-columns: 1fr; gap: 10px; }
-.hook { background: var(--bg-card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; }
+.hooks-list { display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px; }
+.hook { background: var(--bg-card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; min-width: 0; }
 .hook-who { display: flex; align-items: center; gap: 8px; margin-bottom: 7px; }
 .hook-who .nm { font-size: 14px; font-weight: 500; }
 .hook-txt { font-size: 14px; line-height: 1.6; color: var(--txt); }
@@ -206,12 +206,12 @@ html, body {
 .hook-toggle { display: inline-flex; align-items: center; gap: 5px; margin-top: 9px; font-size: 12px; color: #a29bfe; font-weight: 600; user-select: none; }
 .hook-toggle .ti { transition: transform .2s ease; }
 .hook.open .hook-toggle .ti { transform: rotate(180deg); }
-.hook-answer { display: none; margin-top: 12px; padding-top: 12px; border-top: 1px dashed var(--line); }
+.hook-answer { display: none; margin-top: 12px; padding-top: 12px; border-top: 1px dashed var(--line); min-width: 0; }
 .hook.open .hook-answer { display: block; }
 .ha-lead { font-size: 13.5px; line-height: 1.62; color: var(--txt); margin: 0 0 11px; }
 .ha-tail { font-size: 12.5px; line-height: 1.65; color: var(--txt-muted); margin: 11px 0 0; }
-.ha-tablewrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
-.ha-table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+.ha-tablewrap { overflow-x: auto; -webkit-overflow-scrolling: touch; max-width: 100%; overscroll-behavior-x: contain; }
+.ha-table { width: 100%; min-width: 420px; border-collapse: collapse; font-size: 12.5px; }
 .ha-table th, .ha-table td { text-align: left; vertical-align: top; padding: 7px 9px; border: 1px solid var(--line); line-height: 1.5; }
 .ha-table th { color: #fff; font-weight: 700; background: rgba(255,255,255,0.04); white-space: nowrap; }
 .ha-table td:first-child { white-space: nowrap; font-weight: 600; color: #fff; }

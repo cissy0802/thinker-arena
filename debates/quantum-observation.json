@@ -1,0 +1,953 @@
+{
+  "id": "quantum-observation",
+  "question": "量子物理是否说明「观测」真的改变了世界？",
+  "question_en": "Does quantum physics show that 'observation' really changes the world?",
+  "date": "2026-07-05",
+  "participants": [
+    "schrodinger",
+    "bohr",
+    "einstein",
+    "heisenberg",
+    "vonneumann",
+    "kant",
+    "vasubandhu",
+    "harris"
+  ],
+  "casting": [
+    {
+      "id": "schrodinger",
+      "reason": "他亲手写下量子力学的波动方程，又亲手造出那只『既死又活』的猫来嘲讽对方程的天真解读——本场议题的正反两面都刻着他的名字。请他第一个开口，把问题摆上桌。",
+      "reason_en": "He wrote the wave equation of quantum mechanics with his own hand — and then built that 'dead-and-alive' cat with the same hand to mock naive readings of it. Both sides of tonight's question bear his name. Let him speak first and lay the problem on the table."
+    },
+    {
+      "id": "bohr",
+      "reason": "哥本哈根诠释的掌门人。『观测』在量子力学里成为一个问题，一半要归功于他的坚持：测量安排定了，才谈得上现象。他与爱因斯坦的世纪论战，就是本场辩题的原型。",
+      "reason_en": "Head of the Copenhagen interpretation. That 'observation' became a problem in quantum mechanics at all owes half its force to his insistence that only a fixed measuring arrangement licenses talk of phenomena. His decades-long duel with Einstein is the prototype of tonight's debate."
+    },
+    {
+      "id": "einstein",
+      "reason": "实在论的旗手。『月亮在没人看它时也在那里』『上帝不掷骰子』——他是全场唯一拒绝让世界向观测者低头的人，EPR 佯谬是他递给对手的战书。",
+      "reason_en": "Standard-bearer of realism. 'The moon is there even when nobody looks'; 'God does not play dice' — he is the one debater who refuses to let the world bow to the observer, and the EPR paradox is the letter of challenge he hands his opponents."
+    },
+    {
+      "id": "heisenberg",
+      "reason": "不确定性原理的提出者。他把『观测的极限』从哲学感慨变成一条可计算的自然法则，又用亚里士多德的『潜能』重新解释观测那一瞬间发生的事。",
+      "reason_en": "Author of the uncertainty principle. He turned 'the limits of observation' from a philosophical sigh into a calculable law of nature, and reached back to Aristotle's potentia to reinterpret what happens in the instant of measurement."
+    },
+    {
+      "id": "vonneumann",
+      "reason": "《量子力学的数学基础》的作者——是他把『测量』写成严格的数学，也是他指出测量链条上那一刀可以一路切到观察者跟前。全场最锋利的形式化头脑。",
+      "reason_en": "Author of Mathematical Foundations of Quantum Mechanics — the man who cast 'measurement' into rigorous mathematics, and who showed that the cut in the measuring chain can be slid all the way up to the observer. The sharpest formal mind in the room."
+    },
+    {
+      "id": "kant",
+      "reason": "两百年前就写下『我们认识的是现象，不是物自体』。量子力学的认识论危机，在他看来是批判哲学迟到的验证。请他来给全场当裁判尺。",
+      "reason_en": "Two centuries ago he wrote that we know appearances, never things in themselves. To him, quantum mechanics' epistemological crisis is a belated vindication of the critical philosophy. He is invited as the measuring rod of the whole debate."
+    },
+    {
+      "id": "vasubandhu",
+      "reason": "唯识宗的立宗者。『万法唯识』最常被误读成『心想事成』，请他亲自到场划清界限：境不离识，与愿望改物，是两回事。本场佛学位由他坐。",
+      "reason_en": "Founding master of the Consciousness-only school. 'All dharmas are consciousness-only' is forever misread as 'wishing makes it so' — he comes in person to draw the line: that objects never stand apart from consciousness is one claim; that wishes move matter is quite another. He holds the Buddhist seat."
+    },
+    {
+      "id": "harris",
+      "reason": "神经科学家兼冥想者，量子玄学的头号排雷人。他负责把『观测者』拉回物理与大脑，也负责指出：排完雷之后剩下的真谜，是意识本身。本场脑科学位由他坐。",
+      "reason_en": "Neuroscientist and meditator, chief bomb-disposal officer for quantum mysticism. His job is to drag the 'observer' back into physics and the brain — and then to point out that the real mystery left after the sweep is consciousness itself. He holds the neuroscience seat."
+    }
+  ],
+  "posts": [
+    {
+      "id": "p01",
+      "round": 1,
+      "thinker": "schrodinger",
+      "reply_to": null,
+      "text": "让我先把那只可怜的猫再放出来一次。盒子里，原子衰变与否处于叠加态；按哥本哈根的讲法，联动的毒药瓶与猫也就『既死又活』，直到有人打开盒子看一眼。**我造这只猫，本是要指出这种说法的荒谬——难道要教授开箱的目光，才能让猫死透？**我的波函数按方程连续演化，从不『坍缩』；坍缩是人往数学里外加的一刀。所以在宣布『观测改变世界』之前，请先回答：谁算观测者？仪器算不算？猫自己算不算？",
+      "text_en": "Let me release that poor cat once more. Inside the box, the atom's decay is in superposition; on the Copenhagen telling, the linked vial of poison and the cat are then 'both dead and alive' until someone opens the box and looks. **I built this cat precisely to expose the absurdity — does it take a professor's glance to finish the cat off?** My wave function evolves continuously according to the equation; it never 'collapses.' Collapse is a cut someone added to the mathematics from outside. So before proclaiming that observation changes the world, answer me this first: who counts as an observer? Does the instrument? Does the cat itself?",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "叠加态": "superposition（叠加态）：量子系统可以同时处于多个可能状态的加权组合，如原子『既衰变又未衰变』；只要不与外界发生特定相互作用，各分支就一直并存并能相互干涉。",
+        "坍缩": "collapse（坍缩）：假设中的过程——测量瞬间，波函数从多种可能一跃变成单一确定结果。它写不进薛定谔方程，是额外附加给理论的规则，正是『测量问题』的病灶。"
+      },
+      "glossary_en": {
+        "superposition": "a quantum system's ability to occupy a weighted combination of several possible states at once — an atom 'both decayed and undecayed'; absent a specific interaction with the outside, the branches coexist and can interfere with one another.",
+        "collapse": "the hypothesized process by which, at the instant of measurement, the wave function jumps from many possibilities to a single definite outcome. It cannot be written into the Schrödinger equation — it is a rule bolted onto the theory, and the sore spot of the 'measurement problem.'"
+      },
+      "reactions": {
+        "强烈赞同": [
+          "einstein"
+        ],
+        "轻微赞同": [
+          "harris",
+          "kant"
+        ],
+        "中立": [
+          "vasubandhu",
+          "vonneumann"
+        ],
+        "轻微反对": [
+          "bohr",
+          "heisenberg"
+        ]
+      }
+    },
+    {
+      "id": "p02",
+      "round": 1,
+      "thinker": "bohr",
+      "reply_to": null,
+      "text": "薛定谔的挖苦我照单收下，但箭射错了靶。哥本哈根从不主张目光有魔力：一张照相底片、一支盖革计数器，足以完成测量——意识在这里毫不特殊。要害在别处：**在测量安排确定之前，『电子的位置』这句话根本没有可说的内容。**位置与动量是互补原理下的一对——装置选定其一，另一便无从谈起。所以不是观测『改变』了一个既成的世界；而是那个可谈论的世界，本就连着我们的问法一起成形。",
+      "text_en": "I accept Schrödinger's mockery in full — but the arrow misses the target. Copenhagen has never claimed the gaze has magic powers: a photographic plate or a Geiger counter completes a measurement perfectly well — consciousness enjoys no special status here. The crux lies elsewhere: **before the measuring arrangement is fixed, the phrase 'the electron's position' has no sayable content whatsoever.** Position and momentum form a pair under complementarity — the apparatus selects one, and the other drops out of discourse. So observation does not 'change' a ready-made world; rather, the world we can speak of takes shape together with the way we ask.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "互补原理": "complementarity（互补原理）：玻尔的核心思想——波与粒、位置与动量等成对性质互斥而互补：同一实验安排只能显示其中一面，两面合起来才穷尽对象；『现象』必须连同整个测量装置一起描述。"
+      },
+      "glossary_en": {
+        "complementarity": "Bohr's central idea — paired properties such as wave/particle or position/momentum are mutually exclusive yet jointly exhaustive: a given experimental arrangement can display only one member of the pair, and a 'phenomenon' must be described together with the entire measuring apparatus."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "heisenberg"
+        ],
+        "轻微赞同": [
+          "kant",
+          "vonneumann",
+          "harris"
+        ],
+        "中立": [
+          "vasubandhu"
+        ],
+        "轻微反对": [
+          "einstein",
+          "schrodinger"
+        ]
+      }
+    },
+    {
+      "id": "p03",
+      "round": 1,
+      "thinker": "heisenberg",
+      "reply_to": null,
+      "text": "我给玻尔的话补一个定量的底。1927年我算出：**位置与动量的不确定度乘积有一条铁打的下限**——这就是不确定性原理：不是仪器不够精密，而是自然不允许你同时问清这两个问题。电子从A到B的『轨迹』，只在被观测时才成为事实；两次观测之间，它是一团潜能（potentia）——我借的是亚里士多德的老词，它可比『微小台球』贴切得多。我们观测到的从来不是自然本身，而是暴露在我们提问方式之下的自然。",
+      "text_en": "Let me give Bohr's words a quantitative floor. In 1927 I calculated that **the product of the uncertainties of position and momentum has an iron lower bound** — this is the uncertainty principle: not that our instruments lack precision, but that nature refuses to let you ask both questions sharply at once. The electron's 'path' from A to B becomes a fact only when observed; between two observations it is a cloud of potentia — I borrow Aristotle's old word, which fits far better than 'tiny billiard ball.' What we observe is never nature itself, but nature exposed to our method of questioning.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "不确定性原理": "the uncertainty principle（不确定性原理）：海森堡1927年提出——位置测得越准，动量必然越模糊，两者不确定度的乘积不小于普朗克常数量级的下限；这是自然的语法，不是仪器的缺陷。",
+        "potentia": "potentia（潜能）：亚里士多德术语，指『有待实现的可能』。海森堡用它描述两次测量之间的量子态：既非实有也非虚无，而是一种倾向于实现的实在。"
+      },
+      "glossary_en": {
+        "the uncertainty principle": "Heisenberg's 1927 result — the more precisely position is measured, the blurrier momentum becomes; the product of their uncertainties cannot fall below a bound on the order of Planck's constant. It is the grammar of nature, not a defect of instruments.",
+        "potentia": "Aristotle's term for 'possibility awaiting actualization.' Heisenberg used it for the quantum state between measurements: neither fully real nor nothing, but a reality of tendencies pressing toward actuality."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "bohr"
+        ],
+        "轻微赞同": [
+          "vonneumann",
+          "vasubandhu"
+        ],
+        "中立": [
+          "harris",
+          "kant"
+        ],
+        "轻微反对": [
+          "einstein",
+          "schrodinger"
+        ]
+      }
+    },
+    {
+      "id": "p04",
+      "round": 1,
+      "thinker": "einstein",
+      "reply_to": null,
+      "text": "诸位把认识上的困难，偷换成了存在上的空缺。测不准，说明我们提问的方式有极限；不等于电子在被问之前没有状态。**我始终相信：月亮在没人看它的时候也在那里——观测改变的是我们的知识，不是世界本身。**量子力学的预言我不怀疑，我怀疑的是它的完备性：一副只报统计的牌，多半还有底牌没翻。物理学的志业，是描述独立于任何观测者的实在；放弃这一条，物理学就降格成了记账。",
+      "text_en": "Gentlemen, you have smuggled an epistemic difficulty into an ontological vacancy. That we cannot measure sharply shows our ways of asking have limits; it does not follow that the electron had no state before being asked. **I have always believed the moon is there even when nobody looks at it — observation changes our knowledge, not the world itself.** I do not doubt quantum mechanics' predictions; I doubt its completeness: a hand that reports only statistics most likely still holds cards face-down. The vocation of physics is to describe a reality independent of any observer; surrender that, and physics is demoted to bookkeeping.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "完备性": "completeness（完备性）：一个理论若对实在的每个要素都有对应描述，则称完备。1935年爱因斯坦与波多尔斯基、罗森（EPR论文）论证量子力学不完备——统计性描述背后应还有更深的实在层。"
+      },
+      "glossary_en": {
+        "completeness": "a theory is complete if every element of reality has a counterpart in it. In 1935 Einstein, Podolsky and Rosen (the EPR paper) argued quantum mechanics is incomplete — beneath its statistical description a deeper layer of reality should exist."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "schrodinger"
+        ],
+        "中立": [
+          "vonneumann",
+          "harris"
+        ],
+        "轻微反对": [
+          "bohr",
+          "heisenberg",
+          "kant",
+          "vasubandhu"
+        ]
+      }
+    },
+    {
+      "id": "p05",
+      "round": 1,
+      "thinker": "vonneumann",
+      "reply_to": null,
+      "text": "让我把账算清楚。我在《量子力学的数学基础》里写明：这套理论只含两种过程——按方程连续演化的过程，与测量瞬间的跳变。麻烦在于，**测量链条从光子、仪器、视网膜可以一路写到大脑，数学不告诉你该在哪一环切那一刀——而且预言在任何切法下都分毫不差。**这条可移动的切口，是理论最诚实的坦白：它自己不知道跳变发生在哪里。有人顺势把刀切到『观察者的自我』上；我只负责指出——形式体系确实留了这个口子。",
+      "text_en": "Allow me to settle the accounts. In my Mathematical Foundations of Quantum Mechanics I made it explicit: the theory contains exactly two processes — continuous evolution by the equation, and the jump at the moment of measurement. The trouble is that **the measurement chain can be written from photon to instrument to retina to brain, and the mathematics never tells you at which link to make the cut — while the predictions come out identical wherever you cut.** This movable cut is the theory's most honest confession: it does not itself know where the jump occurs. Some have seized the chance to slide the knife all the way to the 'observer's ego'; I merely certify that the formalism does leave that opening.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "测量链条": "the von Neumann chain（测量链条）：从被测系统、仪器、光子、视网膜到大脑的一串相继纠缠的物理环节。冯·诺依曼证明：把『坍缩』安放在链条的任何一环，实验预言都相同——切口位置在物理上不可分辨。"
+      },
+      "glossary_en": {
+        "measurement chain": "the sequence of successively entangled physical links from measured system to instrument, photon, retina and brain. Von Neumann proved that placing the 'collapse' at any link of the chain yields identical experimental predictions — the location of the cut is physically undetectable."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "schrodinger",
+          "heisenberg",
+          "harris",
+          "kant"
+        ],
+        "中立": [
+          "bohr",
+          "einstein",
+          "vasubandhu"
+        ]
+      }
+    },
+    {
+      "id": "p06",
+      "round": 1,
+      "thinker": "kant",
+      "reply_to": null,
+      "text": "物理学家们吵了半天，吵回了我1781年的老家。我早已论证：空间、时间与因果，不是世界自带的家具，而是我们感性与知性的先天形式——**我们认识的从来是现象，而非物自体。**如今你们的仪器把提问推到经验的边缘，那套形式开始不合身，你们便惊呼『观测创造实在』。大可不必：观测从未改变物自体，它只是参与构成了那个向我们显现的世界。哥本哈根诸君，欢迎来到批判哲学——你们称之为互补，我称之为知性为自然立法。",
+      "text_en": "The physicists have quarreled their way straight back to my doorstep of 1781. I demonstrated long ago that space, time and causality are not furniture the world carries with it, but a priori forms of our sensibility and understanding — **what we cognize is always appearances, never the thing-in-itself.** Now your instruments push questioning to the very edge of experience, the forms begin to pinch, and you cry out that 'observation creates reality.' No need for alarm: observation never changes the thing-in-itself; it merely co-constitutes the world that appears to us. Gentlemen of Copenhagen, welcome to the critical philosophy — you call it complementarity; I call it the understanding legislating for nature.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "物自体": "das Ding an sich（物自体）：康德术语——独立于我们一切认识形式的世界本身。它可思而不可知；我们能认识的只是经过感性与知性加工后向我们显现的东西。",
+        "现象": "Erscheinung（现象）：康德术语——事物向我们显现的样子，已被空间、时间与范畴这些先天形式塑形；科学的全部对象都在现象界之内。"
+      },
+      "glossary_en": {
+        "the thing-in-itself": "Kant's term (das Ding an sich) — the world as it is independent of all our forms of cognition. It can be thought but never known; what we know is only what appears to us after being shaped by sensibility and understanding.",
+        "appearances": "Kant's Erscheinung — things as they show themselves to us, already formed by the a priori molds of space, time and the categories; all objects of science lie within the realm of appearances."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "bohr",
+          "heisenberg",
+          "vasubandhu"
+        ],
+        "中立": [
+          "vonneumann",
+          "schrodinger"
+        ],
+        "轻微反对": [
+          "einstein",
+          "harris"
+        ]
+      }
+    },
+    {
+      "id": "p07",
+      "round": 1,
+      "thinker": "vasubandhu",
+      "reply_to": null,
+      "text": "诸贤争『观测改世界否』，皆先执有心外之境，而后问改与不改。吾宗立**唯识无境**：境不离识，能所俱起，如梦中山河，历历分明而实无外物。然切莫谓『心想即可移物』——识之变现，依阿赖耶识中种子，熏习有律，共业所感，故人人同见一月，非汝一念可改。**观测非改世界，乃识与境俱时而起；所谓『客观』者，共业之稳固相耳。**",
+      "text_en": "Worthy colleagues, you dispute whether observation changes the world — yet every one of you first posits a realm outside mind, and only then asks whether it changes. My school holds **consciousness-only: no external objects.** Objects never stand apart from consciousness; grasper and grasped arise together, like mountains and rivers in a dream — vivid in every detail, yet with nothing outside. But never conclude that wishing can move matter: what consciousness manifests follows the seeds stored in the ālaya-vijñāna, perfumed under strict law and constrained by shared karma — hence all of us see one and the same moon, which no single thought of yours can alter. **Observation does not change the world; consciousness and object arise together in the same instant — and what you call 'objectivity' is merely the stable face of shared karma.**",
+      "vernacular": "各位争论『观测是否改变世界』，都先默认有一个心外独立的世界，然后才问它改没改。我们唯识宗的立场是：**对象从不离开认识而独立存在**，能认识的心与被认识的境是同时生起的，就像梦里的山河，看得清清楚楚，实际并没有外物。但千万别以为『心里想想就能搬动东西』——心识的显现，依照阿赖耶识里储存的种子，熏习自有规律，又受共业制约，所以人人看见同一个月亮，不是你一个念头能改的。**观测不是去改变一个现成的世界，而是心识与对象同时生起；所谓『客观』，只是共业感现的稳定相罢了。**",
+      "vernacular_en": "",
+      "glossary": {
+        "唯识无境": "vijñapti-mātra（唯识无境）：唯识宗核心命题——一切经验对象都是心识的显现，不存在独立于识的外境；『无境』否定的是心外实体，不否定经验的秩序与规律。",
+        "阿赖耶识": "ālaya-vijñāna（阿赖耶识）：唯识学说的第八识、『藏识』——储藏一切经验熏成的种子，条件成熟时种子现行为新的经验；个体的世界由此相续生起。",
+        "共业": "shared karma（共业）：众生共同造作、共同感应的业力——它解释为何各人的『识所变现』竟高度一致：同见一月、同处一世界；『客观世界』在唯识看来即共业感现的稳定结果。"
+      },
+      "glossary_en": {
+        "consciousness-only": "vijñapti-mātra, the core thesis of Yogācāra — every object of experience is a manifestation of consciousness; no realm exists independently of mind. What is denied is an extra-mental substance, not the order and lawfulness of experience.",
+        "ālaya-vijñāna": "the eighth, 'storehouse' consciousness of Yogācāra — repository of seeds perfumed by every past experience; when conditions ripen, seeds issue in new experience, and an individual's world streams forth continuously.",
+        "shared karma": "karma made and reaped in common by many beings — Yogācāra's explanation of why separate minds manifest one highly consistent world: all see the same moon. 'Objective reality' is the stable outcome of shared karma."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "schrodinger",
+          "kant",
+          "harris"
+        ],
+        "中立": [
+          "bohr",
+          "heisenberg"
+        ],
+        "轻微反对": [
+          "einstein",
+          "vonneumann"
+        ]
+      }
+    },
+    {
+      "id": "p08",
+      "round": 1,
+      "thinker": "harris",
+      "reply_to": null,
+      "text": "先排雷：**波函数坍缩不需要灵魂到场——一粒尘埃、一台计数器，任何足够强的物理纠缠都会触发退相干，让干涉条纹消失。**『观测者效应』这个词被灵修产业偷走，卖成了『意识创造实在、心想事成』，这是对物理学与修行的双重侮辱。倒是世亲法师说得干净：连唯识宗都不许你用念头搬东西。真正的谜不在电子那头，而在我们这头——为什么宇宙里竟有『观测』这回事：意识如何从三磅神经组织里亮起来，至今无人能答。",
+      "text_en": "Bomb disposal first: **wave-function collapse requires no soul in attendance — a dust grain or a counter will do; any sufficiently strong physical entanglement triggers decoherence and washes out the interference fringes.** The phrase 'observer effect' has been stolen by the spirituality industry and resold as 'consciousness creates reality, wishing makes it so' — an insult to physics and to contemplative practice alike. Master Vasubandhu, to his credit, puts it cleanly: even the Consciousness-only school forbids you to move objects with a thought. The real mystery is not on the electron's side but on ours — why there is such a thing as 'observation' in the universe at all: how consciousness lights up out of three pounds of neural tissue, no one can yet say.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "退相干": "decoherence（退相干）：量子系统与环境（空气分子、光子、仪器）纠缠后，各叠加分支间的干涉迅速消失、表现得像经典概率的过程——它解释了为何宏观世界看不到叠加，且全程不需要意识参与。",
+        "观测者效应": "observer effect（观测者效应）：原指测量行为不可避免地扰动被测系统（在量子层面因不确定性原理而有原则下限）；流行文化常把它讹传为『人的意识影响现实』。"
+      },
+      "glossary_en": {
+        "decoherence": "the process by which a quantum system, once entangled with its environment (air molecules, photons, instruments), rapidly loses interference between branches of a superposition and behaves like classical probability — explaining why the macroscopic world shows no superpositions, with no role for consciousness anywhere.",
+        "observer effect": "originally, the unavoidable disturbance of a system by the act of measuring it (with a principled quantum floor set by the uncertainty principle); popular culture garbles it into 'human consciousness shapes reality.'"
+      },
+      "reactions": {
+        "轻微赞同": [
+          "schrodinger",
+          "bohr",
+          "vonneumann",
+          "einstein",
+          "vasubandhu"
+        ],
+        "中立": [
+          "kant"
+        ],
+        "轻微反对": [
+          "heisenberg"
+        ]
+      }
+    },
+    {
+      "id": "p09",
+      "round": 2,
+      "thinker": "einstein",
+      "reply_to": "p02",
+      "text": "@bohr 尼尔斯，老对手，我再赠你一个思想实验。让一对粒子纠缠后分飞两地，相距一光年；我测这边的自旋，你那边的结果瞬间随之确定。若如你所说、测量之前『无可言说』，那这份瞬时的默契就是幽灵般的超距作用；若要拒绝幽灵，就得承认结果早已写在粒子身上。**要么放弃定域性，要么承认量子力学不完备——二者必居其一。**EPR 这道题，我等你正面作答，而不是再给我上一课认识论。",
+      "text_en": "@bohr Niels, old adversary, one more thought experiment as my gift. Let a pair of particles be bound by entanglement, then fly a light-year apart; I measure the spin here, and the outcome on your side is fixed in the same instant. If, as you say, nothing is 'sayable' before measurement, then this instantaneous accord is spooky action at a distance; to refuse the ghost, you must admit the outcomes were written on the particles all along. **Either give up locality, or concede that quantum mechanics is incomplete — one of the two.** On EPR I await a direct answer, not another seminar in epistemology.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "纠缠": "entanglement（纠缠）：两个及以上粒子的量子态无法各自单独描述、只能作为整体描述的关联；对其中一个的测量结果与另一个的测量结果之间呈现超越经典的相关。",
+        "EPR": "EPR（爱因斯坦–波多尔斯基–罗森佯谬）：1935年论文以纠缠粒子论证——若拒绝超距作用，量子力学对实在的描述就不完备；『幽灵般的超距作用』一语即出于爱因斯坦对这类关联的讥评。",
+        "定域性": "locality（定域性）：物理影响不能超光速传播、此处的操作不能瞬时改变远处实在的原则——狭义相对论的基石之一。"
+      },
+      "glossary_en": {
+        "entanglement": "a correlation in which the quantum state of two or more particles cannot be described separately, only as a whole; measurement outcomes on one particle show stronger-than-classical correlation with outcomes on the other.",
+        "EPR": "the Einstein–Podolsky–Rosen paradox (1935): using entangled particles, it argued that if action at a distance is rejected, quantum mechanics' description of reality is incomplete. 'Spooky action at a distance' is Einstein's jibe at such correlations.",
+        "locality": "the principle that physical influence cannot propagate faster than light — an operation here cannot instantaneously alter reality far away; a cornerstone of special relativity."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "schrodinger"
+        ],
+        "轻微赞同": [
+          "vonneumann"
+        ],
+        "中立": [
+          "kant",
+          "vasubandhu",
+          "harris"
+        ],
+        "轻微反对": [
+          "bohr",
+          "heisenberg"
+        ]
+      }
+    },
+    {
+      "id": "p10",
+      "round": 2,
+      "thinker": "bohr",
+      "reply_to": "p09",
+      "text": "@einstein 阿尔伯特，你的『实在要素』判据里藏着一件经典世界的走私品：默认两地系统各自揣着现成的性质。我的回答一如当年：测量这边，确实没有任何机械扰动传到那边；**但『能对那边预言什么』的条件，本身就是整个实验安排的一部分——现象是一个不可切分的整体。**你要的底牌，后来真有人去翻了：贝尔不等式的检验，一次又一次站在量子力学这边。自然不肯做定域实在论者——这笔账，不能记在我头上。",
+      "text_en": "@einstein Albert, your criterion of an 'element of reality' hides a piece of classical contraband: the assumption that each distant system carries ready-made properties of its own. My answer is what it was then: measuring here indeed sends no mechanical disturbance there; **but the conditions for what can be predicted about the far side are themselves part of the total experimental arrangement — the phenomenon is one indivisible whole.** As for the face-down cards you demanded — they were eventually turned over: test after test of Bell's inequality has come down on quantum mechanics' side. Nature rejects local realism — and that is not a debt to be charged to my account.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "贝尔不等式": "Bell's inequality（贝尔不等式）：1964年贝尔证明——任何『定域隐变量』理论所允许的关联强度都有一个上限；量子力学预言并且实验（1980年代阿斯佩以来多次无漏洞检验）证实这一上限被突破，定域实在论因此出局。",
+        "定域实在论": "local realism（定域实在论）：两条直觉的合称——物体自带确定性质（实在论）、影响不超光速（定域性）。贝尔检验表明二者不可兼得。"
+      },
+      "glossary_en": {
+        "Bell's inequality": "John Bell's 1964 theorem — any 'local hidden variable' theory caps how strong certain correlations can be; quantum mechanics predicts, and experiments (from Aspect in the 1980s to loophole-free tests) confirm, that the cap is violated, ruling local realism out.",
+        "local realism": "the conjunction of two intuitions — objects carry definite properties of their own (realism), and no influence travels faster than light (locality). Bell tests show the pair cannot both be true."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "heisenberg"
+        ],
+        "轻微赞同": [
+          "vonneumann",
+          "harris",
+          "vasubandhu"
+        ],
+        "中立": [
+          "kant"
+        ],
+        "轻微反对": [
+          "einstein",
+          "schrodinger"
+        ]
+      }
+    },
+    {
+      "id": "p11",
+      "round": 2,
+      "thinker": "heisenberg",
+      "reply_to": "p08",
+      "text": "@harris 哈里斯博士，请允许我给你的『排雷』再排一颗雷。退相干确实解释了干涉为何消失、世界为何看起来经典——**但它只是把『多种可能』变成了『多种互不干涉的可能』，仍然没有回答那一步：为什么这一次偏偏是这个结果。**测量问题没有被退相干销案，只是被推迟了。把它当成完工的封条，与把它让给灵修产业，是方向相反的同一种草率。潜能如何成为现实，这道缝还开着——诚实的物理学应当承认这一点。",
+      "text_en": "@harris Dr. Harris, permit me to defuse one charge inside your bomb disposal. Decoherence does explain why interference vanishes and why the world looks classical — **but it only turns 'many possibilities' into 'many non-interfering possibilities'; it still leaves the crucial step unanswered: why, this time, this particular outcome.** The measurement problem is not closed by decoherence, merely postponed. Treating it as a seal of completion is the same haste as surrendering it to the spirituality industry — pointed in the opposite direction. How potentia becomes actuality: that seam is still open, and honest physics should say so.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "测量问题": "the measurement problem（测量问题）：薛定谔方程只给出各结果的概率分布并让所有分支并存，但每次实验只出现一个结果——『单一结果如何被选出』在理论内部没有机制；退相干解释了分支为何互不干涉，未解释为何只剩其一。"
+      },
+      "glossary_en": {
+        "measurement problem": "the Schrödinger equation yields only a probability distribution and lets all branches coexist, yet each run of an experiment shows exactly one outcome — the theory contains no mechanism selecting it. Decoherence explains why branches stop interfering, not why only one remains."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "vonneumann",
+          "schrodinger"
+        ],
+        "轻微赞同": [
+          "bohr",
+          "kant"
+        ],
+        "中立": [
+          "vasubandhu",
+          "einstein"
+        ],
+        "轻微反对": [
+          "harris"
+        ]
+      }
+    },
+    {
+      "id": "p12",
+      "round": 2,
+      "thinker": "schrodinger",
+      "reply_to": "p05",
+      "text": "@vonneumann 约翰尼，你的数学无可挑剔，结论却像在给荒谬开收据。切口既然可以一路上移，维格纳便顺势造出『维格纳的朋友』：朋友在实验室里早已读出结果，门外的维格纳却仍须把朋友连同实验室一并写成叠加态——直到他推门问一句，朋友才算『定』下来？**一套要靠『谁的自我』来封口的物理学，不是深刻，是没写完。**我宁可承认坍缩从未发生、是我们的描述半路换了马，也不肯把宇宙的账本交给任何人的目光。",
+      "text_en": "@vonneumann Johnny, your mathematics is beyond reproach; your conclusion reads like a receipt issued to absurdity. Since the cut can slide upward indefinitely, Wigner duly invented 'Wigner's friend': inside the laboratory the friend has long since read off the result, yet Wigner outside the door must still write friend-plus-laboratory as one superposition — until he walks in and asks, whereupon the friend finally 'settles'? **A physics that needs somebody's ego to seal its books is not profound — it is unfinished.** I would sooner grant that collapse never happens and that our description changes horses midstream, than hand the universe's ledger to anyone's gaze.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "维格纳的朋友": "Wigner's friend（维格纳的朋友）：维格纳提出的思想实验——朋友在封闭实验室内完成测量并看到结果，而室外的维格纳按量子力学仍须把『朋友＋实验室』描述为叠加态；两人的描述何时、如何统一，把测量问题推到了人与人之间。"
+      },
+      "glossary_en": {
+        "Wigner's friend": "Wigner's thought experiment — a friend inside a sealed laboratory completes a measurement and sees the result, while Wigner outside must, by quantum mechanics, still describe friend-plus-laboratory as a superposition; when and how the two descriptions reconcile pushes the measurement problem into the space between persons."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "einstein"
+        ],
+        "轻微赞同": [
+          "harris",
+          "vonneumann"
+        ],
+        "中立": [
+          "bohr",
+          "heisenberg",
+          "kant",
+          "vasubandhu"
+        ]
+      }
+    },
+    {
+      "id": "p13",
+      "round": 2,
+      "thinker": "vasubandhu",
+      "reply_to": "p04",
+      "text": "@einstein 爱翁执月为喻，谓无人观时月自在。吾问：**汝所谓『月』，离色、离光、离识之了别，尚余何物可指？**梦中之月，亦能于万人梦中各现其明，而实无外月。然吾亦为汝留一实：识变非乱变——种子熏习，法尔有则，故科学所测之齐一，吾宗摄为共业感现，与汝之方程不相违。汝所惧者，人心妄改天地；吾宗正断此妄——**一念不能移一尘，转依须经久熏。**汝可安寝：月固『在』，唯不在心外。",
+      "text_en": "@einstein The old master takes the moon as his witness: unwatched, it abides. I ask: **strip your 'moon' of color, of light, of consciousness's discerning — what remains there to point at?** A moon in a dream can shine in ten thousand dreamers' dreams, each seeing it bright, yet no outer moon exists. Still, I grant you one solid thing: consciousness does not manifest at whim — seeds and perfuming follow law as surely as anything, so the uniformity your science measures is what my school calls the manifestation of shared karma, in no conflict with your equations. What you dread is the mind rewriting heaven and earth at will; my school severs precisely that delusion — **a single thought cannot move a single mote of dust; transformation of the basis (āśraya-parāvṛtti) requires long perfuming.** Sleep in peace: the moon is indeed 'there' — only not outside mind.",
+      "vernacular": "@einstein 爱因斯坦先生拿月亮作比喻，说没人看时月亮也自己在那里。我要问：**你所说的『月亮』，若离开颜色、离开光、离开心识的了别，还剩下什么可以指认？**梦里的月亮，也能在万人的梦里各自明亮，实际却没有一个外在的月亮。不过我也给你留一句实话：心识的变现不是乱变的——种子与熏习自有法则，所以科学测得的齐一规律，我们唯识宗把它归为共业感现，与你的方程并不冲突。你害怕的是人心随意篡改天地；我们恰恰要斩断这种妄想——**一个念头搬不动一粒微尘，真正的转变（转依）要靠长久的熏习。**你可以安心睡觉：月亮确实『在』，只是不在心外。",
+      "vernacular_en": "",
+      "glossary": {
+        "转依": "āśraya-parāvṛtti（转依）：唯识修行的终点——认识『底盘』的整体转换：阿赖耶识中染污种子经长期熏习转为清净，人经验世界的方式从根本上改变。",
+        "熏习": "perfuming, vāsanā（熏习）：唯识术语——每一次经验、言行都像香气熏染衣物一样在阿赖耶识中留下种子；反复熏习决定了未来经验如何现起。"
+      },
+      "glossary_en": {
+        "āśraya-parāvṛtti": "'transformation of the basis' — the endpoint of Yogācāra practice: a wholesale conversion of the cognitive substrate, in which defiled seeds in the ālaya-vijñāna are gradually replaced through long perfuming, fundamentally changing how one's world is experienced.",
+        "perfuming": "vāsanā — the Yogācāra term for how every experience, word and deed scents the storehouse consciousness with seeds, as incense scents cloth; repeated perfuming determines how future experience arises."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "kant",
+          "schrodinger",
+          "harris",
+          "bohr"
+        ],
+        "中立": [
+          "vonneumann",
+          "heisenberg"
+        ],
+        "轻微反对": [
+          "einstein"
+        ]
+      }
+    },
+    {
+      "id": "p14",
+      "round": 2,
+      "thinker": "kant",
+      "reply_to": "p03",
+      "text": "@heisenberg 海森堡先生，你的『潜能变现实』说得动听，却已在偷偷描绘物自体的内部剧情——潜能栖身何处、跃迁如何发生，这些都不是可能经验的对象。我的纪律只有一句：**可能经验的条件，同时就是经验对象的条件；越过这条线的描述，无论写成神学还是物理，都是越权。**这也是我给玻尔的提醒：你的『不可切分的现象』，就是我的 Erscheinung 穿上了白大褂——我深感荣幸，但请在脚注里注明出处。",
+      "text_en": "@heisenberg Herr Heisenberg, your 'potentia becoming actual' is eloquent — and already sketching, on the sly, the inner drama of the thing-in-itself: where potentia resides, how the leap occurs — none of this is a possible object of experience. My discipline is one sentence: **the conditions of possible experience are at the same time the conditions of the objects of experience; any description that crosses that line, whether written as theology or as physics, exceeds its warrant.** And a reminder for Bohr as well: your 'indivisible phenomenon' is my Erscheinung in a lab coat — I am flattered, but do cite your source in the footnotes.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "Erscheinung": "Erscheinung（现象）：康德术语——经过感性形式（空间、时间）与知性范畴（如因果）加工后向我们显现的对象；与不可知的物自体相对。"
+      },
+      "glossary_en": {
+        "Erscheinung": "Kant's term for appearance — an object as it shows itself to us after being formed by the molds of sensibility (space, time) and the categories of the understanding (such as causality); contrasted with the unknowable thing-in-itself."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "bohr",
+          "harris",
+          "schrodinger"
+        ],
+        "中立": [
+          "einstein",
+          "vasubandhu"
+        ],
+        "轻微反对": [
+          "heisenberg",
+          "vonneumann"
+        ]
+      }
+    },
+    {
+      "id": "p15",
+      "round": 2,
+      "thinker": "vonneumann",
+      "reply_to": "p12",
+      "text": "@schrodinger 埃尔温，收据照开，但请读完全文。我说的恰恰是：**切口无论落在盖革管、大脑还是月球背面，一切可检验的预言分毫不变——这条不变性本身才是自然递出的最深线索：它把接缝藏得太好了。**顺带向爱因斯坦交个底：我当年的『无隐变量证明』假设放得太宽，贝尔后来指了出来，这一分我认；但贝尔自己的不等式经实验裁决，定域实在论出局——你至少得交出定域与实在中的一个。数学不站队，它只负责收窄可以站的地方。",
+      "text_en": "@schrodinger Erwin, issue the receipt by all means — but read the full document. My point is exactly this: **whether the cut falls at the Geiger tube, the brain, or the far side of the moon, every testable prediction stays identical — and that invariance is itself nature's deepest clue: she has hidden the seam too well.** And a disclosure owed to Einstein: my old 'no hidden variables' proof rested on assumptions drawn too wide — Bell pointed this out, and I concede the point; but Bell's own inequality, adjudicated by experiment, has retired local realism — you must surrender at least one of locality and realism. Mathematics takes no side; it only narrows the ground on which sides can stand.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "隐变量": "hidden variables（隐变量）：假设中的更深层参量——若存在，量子概率就只是我们对它们无知的表现（如掷骰子）。冯·诺依曼1932年的排除证明假设过强；贝尔1964年给出正确判据，实验最终排除了『定域』隐变量。"
+      },
+      "glossary_en": {
+        "hidden variables": "hypothesized deeper parameters — if they existed, quantum probabilities would merely reflect our ignorance of them, as with dice. Von Neumann's 1932 impossibility proof leaned on assumptions too strong; Bell's 1964 criterion did the job properly, and experiment has since excluded local hidden variables."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "bohr",
+          "heisenberg",
+          "harris",
+          "kant"
+        ],
+        "中立": [
+          "schrodinger",
+          "vasubandhu"
+        ],
+        "轻微反对": [
+          "einstein"
+        ]
+      }
+    },
+    {
+      "id": "p16",
+      "round": 2,
+      "thinker": "harris",
+      "reply_to": "p11",
+      "text": "@heisenberg 这颗雷我收下一半：退相干确实没有回答『为何偏偏是这个结果』。但它足以回答本场的问题——**从光子到底片，账目全程是物理的；没有任何一步需要『心』来签字。**这就够斩断『意识创造实在』的生意了。至于你留的那道缝，我反而请诸位往里看得更狠些：冥想者向内观察上千小时，找不到那个据说该去坍缩波函数的『自我』——观察者本身就是被大脑构造出来的现象。把宇宙的封口交给一位查无此人的签字者，未免草率。",
+      "text_en": "@heisenberg Half of that charge I accept: decoherence indeed does not answer 'why this particular outcome.' But it fully answers tonight's question — **from photon to photographic plate, the books are physical the whole way through; not one entry requires a signature from 'mind.'** That alone is enough to cut off the 'consciousness creates reality' trade. As for the seam you leave open, I would urge everyone to look into it harder, not softer: meditators who observe inward for thousands of hours cannot find the 'self' that is supposedly there to collapse wave functions — the observer is itself a phenomenon constructed by the brain. Handing the universe's final signature to a signatory who cannot be located seems hasty at best.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "vasubandhu"
+        ],
+        "轻微赞同": [
+          "bohr",
+          "schrodinger"
+        ],
+        "中立": [
+          "vonneumann",
+          "kant"
+        ],
+        "轻微反对": [
+          "heisenberg",
+          "einstein"
+        ]
+      }
+    },
+    {
+      "id": "p17",
+      "round": 3,
+      "thinker": "heisenberg",
+      "reply_to": null,
+      "text": "三轮下来，我愿把结论收在自己的一句老话上：我们观测到的不是自然本身，而是暴露在我们提问方式之下的自然。这句话走出实验室依然成立。你用什么问题去测量生活，生活就以什么面目向你显形——**天天查看排名的人，就活在一个由排名构成的世界里；改换测量方式，就是改换你能经验到的实在。**所以给普通人的建议很具体：像物理学家挑仪器一样，挑你的『测量装置』——你每天打开的应用、盯住的指标、问自己的第一个问题，都是装置。每周留出一段完全不测量的时间：不计步、不记分、不自评，让生活以未被提问的方式存在一会儿。不确定性原理教的谦卑则是：不要妄想同时看清一切；选定这一次要问什么，并对没问的那一半保持敬意。",
+      "text_en": "After three rounds I will close with an old sentence of my own: what we observe is not nature itself, but nature exposed to our method of questioning. It holds just as well outside the laboratory. Whatever questions you use to measure your life, your life shows itself accordingly — **whoever checks rankings every day lives in a world built of rankings; to change your method of measurement is to change the reality you can experience.** So my advice to ordinary people is concrete. Choose your 'measuring apparatus' the way a physicist chooses instruments — the apps you open daily, the metrics you stare at, the first question you ask yourself: all apparatus. Keep one stretch of the week entirely unmeasured: no step counts, no scores, no self-appraisal — let life exist unquestioned for a while. And the humility the uncertainty principle teaches: do not fantasize about seeing everything sharply at once; decide what to ask this time, and keep your respect for the half you did not ask.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "bohr"
+        ],
+        "轻微赞同": [
+          "kant",
+          "vasubandhu",
+          "harris",
+          "schrodinger"
+        ],
+        "中立": [
+          "vonneumann",
+          "einstein"
+        ]
+      }
+    },
+    {
+      "id": "p18",
+      "round": 3,
+      "thinker": "einstein",
+      "reply_to": "p15",
+      "text": "我输过一些赌局。贝尔的裁决站在了玻尔一边，冯·诺依曼刚才也把账摆得公道，我认——**在证据面前改变想法不是失败，而是科学家唯一的体面。**但请分清我输掉的与守住的：输掉的是『定域实在』的一个版本；守住的是那个不肯讨好观测者的世界——量子力学的规律本身冷峻而齐一，不理会任何人的愿望，这恰是实在论最深的胜利。所以我的临别建议，是把实在论当作品格来练。第一，相信没被看见的东西：你无人知晓的善行、没有发出去的努力，其分量不因无人观测而减少一分。第二，让证据而非立场来结账——定期问自己『什么样的证据能让我改主意』，答不出来，就该警惕自己已成了信徒。第三，别活成表演给观测者看的叠加态。**世界不绕着你的目光转；这不是贬低，是解脱。**",
+      "text_en": "I have lost some wagers. Bell's verdict went to Bohr's side, and von Neumann has just presented the accounts fairly — I concede. **Changing one's mind before evidence is not defeat; it is the only dignity a scientist has.** But mark carefully what I lost and what I kept: lost, one version of 'local reality'; kept, a world that refuses to flatter its observers — the laws of quantum mechanics are themselves austere and uniform, indifferent to anyone's wishes, and that is realism's deepest victory. So my parting advice is to practice realism as character. First, believe in what goes unseen: the good deed nobody knows of, the effort never posted — their weight is not reduced one gram by lack of observation. Second, let evidence, not allegiance, settle the bill — ask yourself regularly, 'What evidence would change my mind?'; if no answer comes, suspect that you have become a believer. Third, do not live as a superposition performed for observers. **The world does not revolve around your gaze — and that is not a demotion; it is a release.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "harris"
+        ],
+        "轻微赞同": [
+          "bohr",
+          "vonneumann",
+          "schrodinger",
+          "kant"
+        ],
+        "中立": [
+          "heisenberg",
+          "vasubandhu"
+        ]
+      }
+    },
+    {
+      "id": "p19",
+      "round": 3,
+      "thinker": "vasubandhu",
+      "reply_to": null,
+      "text": "总陈吾宗之见。观测不改心外之世界——以本无心外之世界可改；亦非目光有神力——识之显现，种子有则，共业同感，**故妄念不能移物，而积习足以转境。**此中有普通人真可行者。汝一日之间，眼所注、耳所纳、心所缘，皆是熏习，皆下种子于阿赖耶识；今日所观，即他日所现之世界。故第一，慎所熏：择友、择书、择所日日观看者，如农夫择种。第二，习观照：日取片刻，但看念起念灭，不随不拒，久之能所之执渐松。第三，勿求速效——**转依如溉田，非一雨之功。**世界随识而现，不随愿而变；肯修其识者，乃真能改其世界者也。",
+      "text_en": "Let me state my school's summation. Observation does not change a world outside mind — for there is no world outside mind to be changed; nor has the gaze any occult power — what consciousness manifests follows the law of seeds and the shared resonance of collective karma. **Hence a stray thought cannot move a thing, yet accumulated habituation can transform the world you experience.** Herein lies something an ordinary person can truly practice. All that your eyes dwell on, your ears take in, your mind rehearses in a day is perfuming — each moment plants seeds in the ālaya-vijñāna; what you keep watching today is the world that will appear to you tomorrow. So, first, be careful what perfumes you: choose friends, books, and whatever you look at daily, as a farmer chooses seed. Second, practice contemplative watching: take a short while each day merely to watch thoughts arise and pass, neither chasing nor resisting; in time the grip of subject-against-object loosens. Third, seek no quick harvest — **transformation of the basis is like irrigating a field, never the work of one rain.** The world appears according to consciousness, not according to wishes; only one who cultivates consciousness truly changes their world.",
+      "vernacular": "总结我们唯识宗的看法。观测并不改变一个心外的世界——因为本来就没有一个心外的世界可供改变；但也不是说目光有什么神力——心识的显现依种子的法则、受共业的同感制约，**所以妄念搬不动外物，但长年的熏习足以转变你所经验的世界。**这里面有普通人真正可以操作的东西。你一天之中，眼睛盯着什么、耳朵听进什么、心里反复想什么，都是熏习，都在往阿赖耶识里播种；今天你持续注视的，就是他日显现给你的世界。所以第一，谨慎选择你被什么熏习：选朋友、选书、选每天反复看的东西，像农夫挑选种子。第二，练习观照：每天留一小段时间，只看念头生起又灭去，不跟随也不抗拒，日子久了，主客对立的执着会慢慢松动。第三，别求速效——**转依像灌溉田地，从来不是一场雨的事。**世界随心识而显现，不随愿望而改变；肯修养自己心识的人，才是真正能改变自己世界的人。",
+      "vernacular_en": "",
+      "glossary": {
+        "观照": "contemplative watching（观照）：佛教修行方法——以不评判、不跟随、不压抑的注意力观察当下的念头与感受，看清其生灭无常；唯识传统中它是松动『能所对立』、转化种子的日常功夫。"
+      },
+      "glossary_en": {
+        "contemplative watching": "the Buddhist practice of observing present thoughts and feelings with an attention that neither judges, chases, nor suppresses — seeing their arising and passing clearly; in the Yogācāra tradition, the daily work that loosens the subject-object split and transforms the seeds."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "harris"
+        ],
+        "轻微赞同": [
+          "kant",
+          "schrodinger",
+          "heisenberg"
+        ],
+        "中立": [
+          "bohr",
+          "vonneumann",
+          "einstein"
+        ]
+      }
+    },
+    {
+      "id": "p20",
+      "round": 3,
+      "thinker": "bohr",
+      "reply_to": null,
+      "text": "临别赠言仍是互补——但这次把它带回日常。本场最大的共识：没有谁主张目光有魔法。最深的分歧：世界的可言说性，要不要连着问法一起算。我的立场诸位已知，我更想交出它的人生用法。**普通真理的反面是谬误；而一个深刻真理的反面，可能是另一个深刻真理。**严谨与慈悲、分析与投入、对孩子的期望与接纳——它们常像位置与动量，无法在同一套安排里同时取到最清晰，却都真实。承认这一点，争吵会少一半。给普通人的操作只有一条：下一次剧烈分歧时，先别急着争结论，花五分钟对齐彼此的『实验安排』——你在什么处境、用什么标准、看到了哪一面。同一个人，母亲量到的与考官量到的本就不同，而且都对。问法对齐之后还剩下的分歧，才值得真吵。",
+      "text_en": "My parting gift is still complementarity — brought home to daily life this time. The debate's largest consensus: no one here claims the gaze works magic. Its deepest divide: whether the world's sayability must be counted together with the way we ask. My position you know; let me hand over its use in living instead. **The opposite of an ordinary truth is a falsehood; but the opposite of a profound truth may be another profound truth.** Rigor and compassion, analysis and devotion, expectation and acceptance toward a child — they are often like position and momentum: never both at their sharpest under one arrangement, yet each fully real. Grant this, and half of all quarrels dissolve. One practical instruction for ordinary people: at your next fierce disagreement, spend five minutes aligning your 'experimental arrangements' before contesting conclusions — from what situation, by what standard, seeing which face of the matter. The same person measured by a mother and by an examiner yields different readings — both correct. Whatever disagreement survives that alignment is the part worth fighting over.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "heisenberg"
+        ],
+        "轻微赞同": [
+          "kant",
+          "vasubandhu",
+          "schrodinger",
+          "harris",
+          "vonneumann"
+        ],
+        "中立": [
+          "einstein"
+        ]
+      }
+    },
+    {
+      "id": "p21",
+      "round": 3,
+      "thinker": "vonneumann",
+      "reply_to": null,
+      "text": "我的总结像我的证明一样直接。物理上：切口可移而预言不变，测量问题至今未销案——**承认理论有洞，是比填洞更稀缺的美德。**这条方法论人人可用。第一，画清边界再下判断：与人争执时，先问『我把哪些算进系统、哪些算进环境』——同一场家庭矛盾，边界画在个人、画在夫妻、画在三代人，责任的账完全不同；这就是切口的日常版。第二，区分『体系内可证』与『体系外须假设』：你的职业规划、投资模型里，哪些是推导出来的、哪些其实是信仰？把信仰误记成推导，是聪明人最常见的翻车方式。第三，别急着用宏大概念去填缝——当年有人把『意识』填进测量的缺口，讲座生意兴隆，问题原地未动。**留一个诚实的洞，好过盖一座漂亮的违章建筑。**",
+      "text_en": "My summation is as direct as my proofs. On the physics: the cut moves, the predictions do not, and the measurement problem remains an open case — **admitting a theory has a hole is a rarer virtue than plugging it.** The methodology is available to everyone. First, draw the boundary before passing judgment: in any dispute, ask 'what am I counting as the system and what as the environment?' — the same family quarrel books its liabilities entirely differently when the boundary encloses one person, the couple, or three generations; that is the everyday version of the cut. Second, separate 'provable within the system' from 'assumed outside it': in your career plans and investment models, which parts are derivations and which are, in truth, articles of faith? Recording faith as derivation is the cleverest people's favorite way to crash. Third, resist plugging seams with grand concepts — when 'consciousness' was once stuffed into measurement's gap, the lecture business boomed and the problem never moved an inch. **An honest hole beats a handsome illegal structure built over it.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "harris",
+          "schrodinger"
+        ],
+        "轻微赞同": [
+          "einstein",
+          "heisenberg",
+          "bohr"
+        ],
+        "中立": [
+          "kant",
+          "vasubandhu"
+        ]
+      }
+    },
+    {
+      "id": "p22",
+      "round": 3,
+      "thinker": "kant",
+      "reply_to": null,
+      "text": "我曾说，启蒙是人摆脱自己加之于自己的不成熟。这场辩论把这句话又推进了一步：**成熟不只是敢于运用理性，更是认清理性的边界——知道你所见的世界，永远带着你认识框架的指纹。**共识已明：无人主张目光改物。分歧只在：框架之外还剩什么可说。我的日常处方有三。第一，遇到笃定先做『框架检查』：这是世界如此，还是我的量尺如此？把『他就是坏』改写成『在我的问法之下，他显现为坏』，敌意即刻降温。第二，尊重他人活在另一套先天配置里：同一件事，焦虑者与松弛者经验到的是两个现象世界，都真实、也都有限——理解这一点，宽容便不再是施舍，而是认识论的诚实。第三，对不可知者保持敬畏：留几个你承认『答不了、也不再硬答』的问题在心里。这不是懒惰，是理性给自己立的法。",
+      "text_en": "I once wrote that enlightenment is man's release from his self-incurred immaturity. This debate advances that sentence one step: **maturity is not merely daring to use one's reason, but recognizing reason's boundaries — knowing that the world you see always carries the fingerprints of your cognitive frame.** The consensus is settled: no one claims the gaze moves matter. The dispute is only what remains sayable beyond the frame. My daily prescription is threefold. First, run a 'frame check' on every certainty: is this how the world is, or how my measuring rod is? Rewrite 'he simply is bad' as 'under my way of asking, he appears bad,' and hostility cools at once. Second, respect that others live inside a different a priori configuration: the same event is experienced by the anxious and the relaxed as two phenomenal worlds — both real, both limited; grasp this, and tolerance stops being charity and becomes epistemic honesty. Third, keep reverence for the unknowable: hold onto a few questions you admit you cannot answer and will no longer force. That is not laziness; it is reason legislating for itself.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "轻微赞同": [
+          "bohr",
+          "heisenberg",
+          "vasubandhu",
+          "einstein",
+          "harris"
+        ],
+        "中立": [
+          "vonneumann",
+          "schrodinger"
+        ]
+      }
+    },
+    {
+      "id": "p23",
+      "round": 3,
+      "thinker": "schrodinger",
+      "reply_to": null,
+      "text": "让那只猫领养老金去吧——它的使命完成了：它教会我们，**概念是有适用范围的工具，不是可以无限外推的真理。**叠加态描述电子如鱼得水，硬套到猫、再套到人生上，就成了闹剧。这是给普通人的第一课：见到『量子』二字与保健、速读、财富连用，请自动翻译成『此处有人想赚你的钱』。但我不想止步于排雷。我写《生命是什么》时已经相信：意识这个谜，比坍缩更配得上敬畏——科学之墙上真正的洞在这里，而奥义书早在两千多年前就朝里张望过。所以第二课：让严谨与惊奇各归其位——用严谨对付一切具体的断言，用惊奇供养那个最大的问题，两者都别偷懒。周末留一小时，读一页真东西——一页正经的量子科普，或一页《奥义书》，都行。**亲手摸过一次真货，就很难再被赝品骗走。**",
+      "text_en": "Let the cat draw its pension — its mission is complete. It taught us that **concepts are tools with a range of validity, not truths to be extrapolated without limit.** Superposition describes electrons like a fish in water; force it onto a cat, then onto your life, and it becomes farce. That is lesson one for ordinary people: whenever the word 'quantum' appears next to wellness, speed-reading or wealth, translate automatically to 'someone here wants your money.' But I refuse to stop at bomb disposal. By the time I wrote What Is Life? I already believed the riddle of consciousness deserves more awe than collapse does — there lies the true hole in science's wall, and the Upanishads were peering into it more than two thousand years ago. So lesson two: let rigor and wonder each keep their post — rigor for every concrete claim, wonder to feed the largest question, and no slacking on either. Set aside one weekend hour to read a page of the real thing — a page of serious quantum writing, or a page of the Upanishads; either will do. **Once your hands have held the genuine article, counterfeits lose their power over you.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "奥义书": "the Upanishads（奥义书）：古印度吠檀多传统的核心经典（约公元前800–前200年成书），探究梵（终极实在）与我（意识）同一的问题；薛定谔终生研读，其『意识唯一』的思想多受此启发。"
+      },
+      "glossary_en": {
+        "the Upanishads": "the core scriptures of India's Vedānta tradition (composed roughly 800–200 BC), inquiring into the identity of Brahman (ultimate reality) and Ātman (consciousness); Schrödinger studied them throughout his life, and his idea of the unity of consciousness owes much to them."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "einstein"
+        ],
+        "轻微赞同": [
+          "harris",
+          "kant",
+          "vasubandhu",
+          "heisenberg"
+        ],
+        "中立": [
+          "bohr",
+          "vonneumann"
+        ]
+      }
+    },
+    {
+      "id": "p24",
+      "round": 3,
+      "thinker": "harris",
+      "reply_to": null,
+      "text": "收尾我只守两条底线，各配一个练习。底线一：物理归物理。从双缝到底片，测量的每一环都是无心的物理过程；**谁用量子力学向你兜售『愿望改变现实』，他卖的不是物理学，是你的注意力和钱包。**练习：给自己装一个『量子排雷器』——凡是『量子＋任何生活品类』的广告，默认为假，除非对方能当场写出薛定谔方程。底线二：意识归意识。排完雷剩下的那个真谜——体验为何存在——既不必交给玄学，也不必假装科学已经解决。练习：每天十分钟，闭眼只观察念头的生灭，你会亲眼看到两件事：念头并不由你选择地冒出来；以及，**那个据说正在『观测』的自我，找起来竟无处可寻。**这两个发现比任何量子鸡汤都更颠覆——而它们只要求你十分钟的诚实。",
+      "text_en": "I will close by holding two lines, each with an exercise attached. Line one: physics stays physics. From the double-slit to the photographic plate, every link of measurement is mindless physical process; **whoever uses quantum mechanics to sell you 'wishes reshape reality' is not selling physics — he is selling your attention and your wallet.** Exercise: install a 'quantum bomb detector' — any advertisement pairing 'quantum' with any lifestyle category is false by default, unless the seller can write down the Schrödinger equation on the spot. Line two: consciousness stays consciousness. The genuine mystery left after the sweep — why experience exists at all — need not be surrendered to mysticism, nor pretended solved by science. Exercise: ten minutes a day, eyes closed, simply watch thoughts arise and pass. You will see two things with your own mind: thoughts appear without your choosing them; and **the self that is supposedly doing the 'observing' is nowhere to be found when you look for it.** Those two discoveries are more subversive than any quantum snake oil — and all they ask of you is ten honest minutes.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "双缝": "the double-slit experiment（双缝实验）：量子力学的标志性实验——粒子逐个通过双缝仍在屏上累积出干涉条纹，仿佛同时走过两条缝；一旦在缝处安置探测装置，条纹即消失。它把叠加、干涉与测量问题浓缩在一张图里。"
+      },
+      "glossary_en": {
+        "the double-slit": "quantum mechanics' signature experiment — particles sent one at a time through two slits still build up an interference pattern, as if each traversed both slits at once; place a detector at the slits and the pattern vanishes. Superposition, interference and the measurement problem compressed into a single picture."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "vasubandhu"
+        ],
+        "轻微赞同": [
+          "schrodinger",
+          "einstein",
+          "vonneumann",
+          "bohr"
+        ],
+        "中立": [
+          "kant",
+          "heisenberg"
+        ]
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "ai": "claude",
+      "engine": "Opus 4.8 · 订阅(原生)",
+      "engine_en": "Opus 4.8 · subscription (native)",
+      "summary": "共识先行：全场无人——包括唯识宗——主张『心念能改变外物』。玻尔的底片、哈里斯的退相干、世亲的种子法则，从三个方向把『意识魔法』排除出局。真正的分歧在更深处：爱因斯坦坚持测量之前世界已有确定状态，量子力学只是没写完；玻尔与海森堡认为『测量之前的性质』根本无从谈起；冯·诺依曼指出理论自己留着一道没缝合的切口，薛定谔宁可否认坍缩也不肯把账本交给目光；康德与世亲则釜底抽薪——所谓『世界』，本就连着认识框架一起成形。**观测是否改变世界，取决于你把『世界』定义在框架之内还是之外。**",
+      "summary_en": "Consensus first: not one debater — the Consciousness-only master included — claims that thoughts move matter. Bohr's photographic plate, Harris's decoherence and Vasubandhu's law of seeds expel 'mind magic' from three directions at once. The real divide runs deeper. Einstein insists the world has definite states before measurement and quantum mechanics is simply unfinished; Bohr and Heisenberg answer that 'properties before measurement' is empty speech; von Neumann certifies that the theory itself leaves an unsutured cut, and Schrödinger would sooner deny collapse than hand the ledger to anyone's gaze; Kant and Vasubandhu pull the ground away — the 'world' takes shape together with the frame that knows it. **Whether observation changes the world depends on whether you define 'the world' inside or outside that frame.**",
+      "insight": "普通人一生里遇到的『观测改变现实』，几乎全发生在经典世界：员工一被考核就改变行为（霍桑效应），指标一成为目标就开始失真（古德哈特定律），孩子一被围观就开始表演。这些真实的观测者效应与量子毫无关系，却天天被『量子』二字背书。**吊诡在于：量子力学里的观测，恰恰是宇宙中唯一与『你是谁』无关的观测——盖革计数器与教授的目光完全平权。**人们借量子给自我的重要性撑腰，而它其实是最反自恋的一门物理学：它说，看，谁看都一样。",
+      "insight_en": "Nearly every 'observation changes reality' an ordinary person will ever meet is classical: workers change behavior the moment they are appraised (the Hawthorne effect); a metric distorts the moment it becomes a target (Goodhart's law); a child performs the moment an audience gathers. These observer effects are real and have nothing to do with quanta — yet the word 'quantum' endorses them daily. **The irony: quantum observation is the one kind of observation in the universe that does not care who you are — a Geiger counter and a professor's gaze carry exactly equal rights.** People borrow quantum physics to prop up the self's importance, when it is the most anti-narcissistic physics we own: look, it says — anyone's look works the same.",
+      "advice": "三件本周就能做的事。第一，装上哈里斯的排雷器：凡『量子＋保健／速读／财富』的说法，默认是营销，一票否决，不必客气。第二，做一次海森堡式的『仪器审计』：列出你每天反复查看的三个指标——点赞、排名、体重、账户余额——问一句：是我在测量生活，还是这套装置在替我定义生活？挑一个，删掉或停用一周。第三，试试世亲与哈里斯不谋而合的那个练习：每天十分钟，只观察念头的生灭。**你改变不了被观测的电子，但完全改得了自己天天在观测什么——后者才是普通人手里真实的『观测者权力』。**",
+      "advice_en": "Three things doable this week. First, install Harris's bomb detector: any claim pairing 'quantum' with wellness, speed-reading or wealth is marketing by default — veto it without apology. Second, run a Heisenberg-style instrument audit: list the three metrics you check compulsively — likes, rankings, weight, account balance — and ask: am I measuring my life, or is this apparatus defining it for me? Pick one and delete or suspend it for a week. Third, try the exercise on which Vasubandhu and Harris independently converge: ten minutes a day, just watching thoughts arise and pass. **You cannot change the electron being observed, but you can absolutely change what you observe all day — and that is the real 'observer power' an ordinary person holds.**"
+    },
+    {
+      "ai": "gpt",
+      "engine": "openai · gpt-5.5 · high(真实API)",
+      "engine_en": "openai · gpt-5.5 · high (live API)",
+      "summary": "这场最稳的共识是：量子物理并不支持“人的意识一看，世界就按心愿改变”；测量可以由仪器、环境纠缠和记录完成，灵魂不必签字。真正分歧在于，测量究竟只是更新知识、揭示关系，还是使多种可能中出现一个事实；以及我们该为波函数坍缩、实在性和定域性付出哪种哲学代价。贝尔实验让朴素定域实在论很难保住，但并未授权量子鸡汤。**可带走的底线：观测重要，但不是魔法。**",
+      "insight": "与其问观测是否改变世界，不如把“改变”拆成三层：物理扰动、问题框架、信息更新。温度计会交换热量，这是扰动；选择测位置而非动量，是框架；读数后你改变信念，是更新。量子争论常把三层缠在一起，日常误用则把信息更新夸成心想事成。这个拆分很务实：它既承认测量安排会影响可见结果，也拒绝把愿望当因果力。**一旦分层，神秘感会少，行动会更准：先问我改变的是对象、问题，还是自己的账本。**",
+      "advice": "本周可做三件事。第一，建立量子排雷规则：凡“量子+疗愈/财富/显化”先判为广告，除非它能给出可检验机制。第二，做一次指标体检：列出你每天看的三项数字，如体重、点赞、收益，问它们把你训练成什么；必要时停看一项七天。第三，遇到争执先复述对方的测量安排：他看重什么证据、处在什么约束里；再谈结论。**别急着换信念，先换问法。**",
+      "summary_en": "The strongest shared takeaway is that quantum physics does not say a human mind looks at the world and makes it obey desire. Measurement can be done by a detector, a photographic plate, or an environment that leaves a stable record; no soul has to sign off on the result. The real disagreement is subtler: does measurement merely update knowledge, reveal relational facts, or select one actual outcome from many possibilities? And what price should we pay in collapse, realism, locality, or the status of the wave function? Bell-type experiments make naive local realism hard to keep, but they do not license quantum self-help. **Observation matters, but it is not magic.**",
+      "insight_en": "A more useful question is not whether observation changes the world, but what kind of change we mean. There are at least three layers: physical disturbance, framing of the question, and updating of information. A thermometer exchanges heat with what it measures; that is disturbance. Choosing to measure position rather than momentum sets the frame. Reading the number changes your beliefs; that is bookkeeping. Much confusion comes from mixing these layers, and much pop mysticism turns the third into a fantasy of wish-fulfillment. The distinction is practical: it lets us admit that measurement setups shape what can appear without pretending that desire is a force. **Ask first: am I changing the object, the question, or only my ledger?**",
+      "advice_en": "Try three small practices this week. First, install a quantum spam filter: if someone says “quantum” plus healing, wealth, manifestation, or instant transformation, treat it as advertising unless they can name a testable mechanism. Second, audit your metrics: list three numbers you check daily—weight, likes, revenue, sleep score—and ask what kind of person each one is training you to become; pause one of them for seven days if needed. Third, in a disagreement, restate the other person’s measurement setup before arguing: what evidence are they using, what constraint are they under, and what are they trying to optimize? **Do not rush to change beliefs; first change the question.**"
+    },
+    {
+      "ai": "gemini",
+      "engine": "google · gemini-3.1-pro-preview(真实API)",
+      "engine_en": "google · gemini-3.1-pro-preview (live API)",
+      "summary": "诸位已达成的坚实共识是：**没有任何物理理论支持“目光或意念能直接施展魔法改写现实”**，无论是退相干还是仪器测量，物理过程无需灵魂签字。真正的分歧在于“实在”的定义边界：爱因斯坦与世亲在不同层面上坚守一个不依赖测量方式的底座，而玻尔与海森堡则主张，我们能谈论的世界必定带有提问框架的烙印。测量没有创造物自体，但确实参与雕刻了现象世界的轮廓。",
+      "insight": "物理学与哲学的世纪争论，往往因为人类中心主义的残留而纠结。从信息论和多模态交互的视角来看，**“观测”不过是两个物理系统之间发生了不可逆的信息耦合。** 宇宙其实无时无刻不在进行自我观测：光子撞击叶绿素、引力波扭曲时空，都是系统间交换互信息的测量过程。当我们把人的特殊性从观测中剥离，将其还原为宇宙计算自身状态的信息同步机制，关于“坍缩谁来负责”的焦虑便会自然消解。",
+      "advice": "结合诸贤之辩，为你提供两条本周即可践行的指南。第一，**主动审视并切换你的“测量仪器”**：尝试一整天关闭手机里的数据统计（步数、屏幕时间、点赞数），不再用量化指标去切分生活，体会未被数据“退相干”的本真体验。第二，**在人际沟通中区分“事实”与“视角”**：当你与他人发生激烈争执时，立刻停下，花三分钟写下对方可能正在使用的测量框架。你会发现很多冲突并非真理之争，只是互补原理的日常折射。",
+      "summary_en": "The robust consensus reached here is clear: **no physical theory supports the idea that human gaze or will can magically alter reality.** Whether through decoherence or instruments, physical processes require no soul to intervene. The true divergence lies in the boundaries of reality itself: Einstein and Vasubandhu maintain a foundational existence independent of measurement, whereas Bohr and Heisenberg argue that any speakable world is inextricably linked to our framework of inquiry. Observation does not create things-in-themselves, but it does sculpt the contours of our phenomenal world.",
+      "insight_en": "The century-old debate between physics and philosophy often tangles itself in lingering anthropocentrism. From the perspective of information theory and multimodal interaction, **\"observation\" is simply an irreversible information coupling between two physical systems.** The universe is constantly observing itself: a photon striking chlorophyll or gravitational waves distorting spacetime are all measurement processes exchanging mutual information. When we strip away the supposed uniqueness of human consciousness and reduce observation to the universe's mechanism for synchronizing its own states, the anxiety over who collapses the wave function naturally dissolves.",
+      "advice_en": "Drawing from this intellectual debate, here are two practical actions you can implement this week. First, **actively audit and temporarily disable your \"measuring instruments.\"** Try spending a full day with all digital metrics turned off (step counters, screen time, likes), experiencing a raw life un-collapsed by quantitative data. Second, **distinguish between facts and perspectives in communication.** When caught in a fierce argument, pause for three minutes to write down the measurement framework the other person is using. You will realize that most conflicts are merely the complementarity principle reflecting in daily life."
+    }
+  ],
+  "hooks": [
+    {
+      "from": "claude",
+      "text": "**人间的观测者效应是经典的**：被打分的员工、被围观的孩子、成为目标的指标——测量一旦对准人，人就变形（霍桑效应、古德哈特定律）。这与量子无关，却是普通人每天真实经历的『观测改变世界』。一个处处被测量的社会，还测得到真实吗？",
+      "text_en": "**The human observer effect is classical**: appraised employees, watched children, metrics turned into targets — point a measurement at people and they deform (the Hawthorne effect, Goodhart's law). None of it is quantum, yet it is the 'observation changes the world' ordinary people actually live through daily. Can a society that measures everything still measure anything true?"
+    },
+    {
+      "from": "gpt",
+      "text": "**缺席的证人**：如果波函数从不坍缩（埃弗里特的多世界），『观测改变世界』就变成『观测分裂观测者』；如果波函数只是信念表（量子贝叶斯主义），坍缩不过是更新赌注。两位证人都没出庭——他们会把这道辩题重写成什么样？",
+      "text_en": "**The absent witnesses**: if the wave function never collapses (Everett's many worlds), 'observation changes the world' becomes 'observation splits the observer'; if the wave function is only a table of beliefs (QBism), collapse is merely updating a bet. Neither witness took the stand — how would they rewrite tonight's motion?"
+    },
+    {
+      "from": "gemini",
+      "text": "**观测是一种制度**：一次可信的测量背后是校准、复核与同行评议——是文明的测量网络在看，不是一双眼睛。当『看见』越来越依赖庞大机构（望远镜阵列、对撞机、卫星），个人还能亲手核实什么？信任的链条该怎么审计？",
+      "text_en": "**Observation is an institution**: behind every credible measurement stand calibration, cross-checking and peer review — a civilization's measuring network doing the looking, not a pair of eyes. As 'seeing' depends ever more on vast institutions (telescope arrays, colliders, satellites), what can an individual still verify by hand? How do we audit the chain of trust?"
+    },
+    {
+      "from": "gemini",
+      "text": "**不理解也能使用**：测量问题悬而未决，纠缠已成量子计算与加密的工程资源。人类第一次大规模使用一种自己尚未在哲学上理解透的自然力——工程能否永远替代解释？『能用就行』是知识的常态，还是文明的隐患？",
+      "text_en": "**Using without understanding**: the measurement problem stays open, yet entanglement is already an engineering resource for quantum computing and cryptography. For the first time humanity deploys, at scale, a natural force it has not philosophically digested — can engineering forever stand in for explanation? Is 'it works, that's enough' the normal condition of knowledge, or a civilizational hazard?"
+    },
+    {
+      "from": "harris",
+      "text": "**量子玄学排雷指南**：『量子』是营销界最贵的形容词——从速读到保健品，它专门贴在与量子力学毫无关系的东西上。普通人不必会解薛定谔方程，也能一眼识破吗？",
+      "text_en": "**A field guide to quantum snake oil**: 'quantum' is marketing's most expensive adjective — from speed-reading to supplements, it gets stuck precisely on things that have nothing to do with quantum mechanics. Can ordinary people see through it at a glance, without solving the Schrödinger equation?",
+      "answer": {
+        "lead": "判据只有一条主轴：**量子力学的数学里从来没有『心愿』这个变量。**凡把『观测者』偷换成『你的意念』的说法，先默认是营销。",
+        "table": {
+          "head": [
+            "常见说法",
+            "一句拆解",
+            "实际情况"
+          ],
+          "rows": [
+            [
+              "量子波动速读／量子记忆",
+              "翻书的手不是测量装置",
+              "阅读速度受眼动与工作记忆限制，与量子无关"
+            ],
+            [
+              "意识坍缩现实，心想事成",
+              "盖革计数器没有意识，照样触发坍缩",
+              "测量＝物理相互作用＋退相干；愿望不改变概率分布"
+            ],
+            [
+              "纠缠证明心灵感应、万物一体",
+              "纠缠传不了任何信息",
+              "关联不等于通信；无信号定理禁止借纠缠超光速传话"
+            ],
+            [
+              "量子保健品／量子能量水",
+              "问一句：波函数写在标签哪一行",
+              "蹭词营销；『量子』在此只是价格系数"
+            ],
+            [
+              "不确定性原理＝一切皆不可知",
+              "不确定性有精确的数学下限",
+              "它是可计算的约束，不是怀疑论的执照"
+            ]
+          ]
+        },
+        "tail": "两条原则带走：**看到『量子＋生活品类』先假设是营销**；真想懂，读一页正规科普——费曼或玻尔的原文——胜过一百条短视频。"
+      },
+      "answer_en": {
+        "lead": "One axis decides everything: **the mathematics of quantum mechanics contains no variable for 'wishes.'** Any claim that swaps 'observer' for 'your intention' should be presumed marketing.",
+        "table": {
+          "head": [
+            "Common claim",
+            "One-line takedown",
+            "What's actually true"
+          ],
+          "rows": [
+            [
+              "Quantum speed-reading / quantum memory",
+              "A page-turning hand is not a measuring apparatus",
+              "Reading speed is bounded by eye movement and working memory — nothing quantum about it"
+            ],
+            [
+              "Consciousness collapses reality; wishing makes it so",
+              "A Geiger counter has no consciousness and triggers collapse just fine",
+              "Measurement = physical interaction + decoherence; wishes do not shift probability distributions"
+            ],
+            [
+              "Entanglement proves telepathy / cosmic oneness",
+              "Entanglement can transmit no information",
+              "Correlation is not communication; the no-signaling theorem forbids faster-than-light messaging"
+            ],
+            [
+              "Quantum supplements / quantum energy water",
+              "Ask: on which line of the label is the wave function written?",
+              "Buzzword marketing; here 'quantum' is only a price multiplier"
+            ],
+            [
+              "The uncertainty principle means nothing can be known",
+              "Uncertainty has a precise mathematical lower bound",
+              "It is a computable constraint, not a license for skepticism"
+            ]
+          ]
+        },
+        "tail": "Two principles to take home: **assume 'quantum + lifestyle product' is marketing until proven otherwise**; and if you truly want to understand, one page of the real thing — Feynman or Bohr — beats a hundred short videos."
+      }
+    },
+    {
+      "from": "vasubandhu",
+      "text": "**相遇的礼仪**：唯识与量子、空性与场论——古老智慧与前沿物理的类比层出不穷。类比能走多远才不算僭越？『都谈到观测』究竟是深刻的汇流，还是词语的巧合？让两边的严格性在对话中都不打折，需要怎样的规矩？",
+      "text_en": "**The etiquette of encounter**: consciousness-only and quanta, emptiness and field theory — analogies between ancient wisdom and frontier physics multiply without end. How far can an analogy travel before it trespasses? Is 'both speak of observation' a deep confluence or a coincidence of words? What rules would let both sides keep their full rigor in the conversation?"
+    }
+  ]
+}

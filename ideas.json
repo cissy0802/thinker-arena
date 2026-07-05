@@ -236,15 +236,6 @@
       "cat": "meta"
     },
     {
-      "id": "quantum-observation",
-      "votes": 0,
-      "q": "量子物理是否说明「观测」真的改变了世界？",
-      "q_en": "Does quantum physics show that 'observation' really changes the world?",
-      "note": "不被观测时电子像波、一被测量就『坍缩』成确定的点——这就是著名的测量问题。是意识让现实成形（被神秘化的『观测者效应』），还是只是仪器与环境的退相干、和意识无关？薛定谔的猫到底死活，谁说了算？",
-      "note_en": "Unobserved, an electron behaves like a wave; once measured it 'collapses' to a definite point — the famous measurement problem. Does consciousness make reality concrete (the mystified 'observer effect'), or is it just decoherence with instruments and environment, nothing to do with mind? Is Schrödinger's cat dead or alive, and who decides?",
-      "cat": "meta"
-    },
-    {
       "id": "materialism-idealism",
       "votes": 0,
       "q": "世界到底是唯物的还是唯心的？意识只是大脑的副产品，还是更根本的实在？",
@@ -495,6 +486,15 @@
       "note": "短期里时间精力是零和，『平衡』常被当成能一劳永逸的稳态，达不到反增愧疚；可它也能指长周期的季节轮换、或工作即生活的一部分而非对立面，而『只有取舍』又容易把 996 这类制度问题私人化。Naval『没有平衡，只有优先级』对上罗素《悠闲颂》、塞内卡《论生命之短暂》、凯恩斯的闲暇预言，与纽波特的深度／边界。",
       "note_en": "In the short run time and energy are zero-sum, and 'balance' is often treated as a steady state to be reached once and for all — falling short only breeds guilt; yet 'balance' can also mean seasons rotating over a long life, or work as part of life rather than its opposite, while 'only tradeoffs' risks privatizing structural problems like the 996 grind. Naval's 'no balance, only priorities' against Russell's In Praise of Idleness, Seneca's On the Shortness of Life, Keynes's leisure prophecy, and Newport's depth/boundaries.",
       "cat": "self"
+    },
+    {
+      "id": "science-needs-philosophy",
+      "votes": 0,
+      "q": "科学还需要哲学吗？——『闭嘴计算』能走多远？",
+      "q_en": "Does science still need philosophy — and how far can 'shut up and calculate' go?",
+      "note": "量子力学的测量问题悬置百年，量子计算机照样开跑：不理解也能使用，是知识的常态还是文明的隐患？工程能否永远替代解释？当模型越来越准、越来越黑箱（从量子到AI），『解释』还算不算科学的义务？",
+      "note_en": "Quantum mechanics' measurement problem has hung unresolved for a century, yet quantum computers run anyway: is using-without-understanding the normal condition of knowledge, or a civilizational hazard? Can engineering forever substitute for explanation? As models grow ever more accurate and more black-box (from quanta to AI), is 'explaining' still part of science's job?",
+      "cat": "meta"
     }
   ],
   "debated": [
@@ -784,6 +784,13 @@
       "q_en": "If you had enough money to never need to, should you still work?",
       "date": "2026-07-04",
       "cat": "self"
+    },
+    {
+      "id": "quantum-observation",
+      "q": "量子物理是否说明「观测」真的改变了世界？",
+      "q_en": "Does quantum physics show that 'observation' really changes the world?",
+      "date": "2026-07-05",
+      "cat": "meta"
     }
   ]
 }

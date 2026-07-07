@@ -1,0 +1,816 @@
+{
+ "id": "virtue-teachable",
+ "question": "品德是教出来的，还是长出来的？——美德到底可不可教？",
+ "question_en": "Can virtue be taught — is character instilled, or does it grow on its own?",
+ "date": "2026-07-07",
+ "participants": [
+  "socrates",
+  "mengzi",
+  "xunzi",
+  "aristotle",
+  "huineng",
+  "piaget",
+  "sapolsky"
+ ],
+ "casting": [
+  {
+   "id": "socrates",
+   "reason": "《美诺篇》里他一口咬定『德性即知识』——若真知善便不会作恶，德性就该像几何般可教；可他又困于一个刺：雅典最杰出的人都教不出好儿子。请他把『可教』这一端逼到极致，也把它的裂缝暴露出来。",
+   "reason_en": "In the Meno he insists that 'virtue is knowledge' — if to truly know the good is not to do evil, then virtue should be teachable like geometry; yet he is snagged by a thorn: Athens's finest men could not teach their sons goodness. Let him push the 'teachable' pole to its limit and expose its crack."
+  },
+  {
+   "id": "mengzi",
+   "reason": "性善论的旗手：善不是从外面灌进来的，人生来带着『四端』，教只是把本有的萌芽扩充长大。请他代表『长出来的』一端，用那个『孺子将入井』的著名直觉，主张德性本自内具。",
+   "reason_en": "The standard-bearer of innate goodness: virtue is not poured in from outside; people are born with the 'four sprouts,' and teaching only extends what is already there. Let him hold the 'grows on its own' pole, using the famous intuition of 'a child about to fall into a well' to argue that virtue is inborn."
+  },
+  {
+   "id": "xunzi",
+   "reason": "性恶论的代言：人性顺其自然必生争夺，善全靠师法礼义『化性起伪』一点点造出来——不教则乱。请他与同门孟子正面对撞，把『非教不可』说到底。",
+   "reason_en": "The voice of the doctrine that nature is bad: left to itself human nature breeds strife, and goodness is 'made' only bit by bit through teachers, ritual and law. Let him collide head-on with his fellow Confucian Mengzi and press the case that virtue absolutely must be taught."
+  },
+  {
+   "id": "aristotle",
+   "reason": "他既不站纯天生也不站纯说教：德性靠习惯养成，『我们因做公正的事而成为公正的人』。请他用『意志薄弱』反驳苏格拉底的理智主义，并把知、习、境调成一个可操作的配方。",
+   "reason_en": "He stands neither on pure nature nor on pure instruction: virtue is formed by habit, and 'we become just by doing just acts.' Let him rebut Socratic intellectualism with 'weakness of will' and blend knowledge, habit and environment into a workable recipe."
+  },
+  {
+   "id": "huineng",
+   "reason": "佛学位：以禅宗『自性本自清净、本自具足』提供一个最强的『本有』版本——德性不假外求，只待当下顿悟识得本心。请他把神秀的『渐修拂尘』与自己的『顿悟见性』之辩，接到这场性善性恶之争上。",
+   "reason_en": "The Buddhist seat: with the Chan teaching that 'one's own nature is originally pure and complete,' he offers the strongest 'already there' version — virtue is not sought outside but awaits a sudden awakening to the original heart. Let him graft his debate with Shenxiu ('gradual wiping of dust' versus 'sudden seeing of the nature') onto this quarrel over good and bad nature."
+  },
+  {
+   "id": "piaget",
+   "reason": "脑科学/发展心理学位（名册中从未登场）：他用《儿童的道德判断》给出第三条路——道德既非灌输也非自然冒出，而是儿童在与同伴平等互动中一块块建构，且踩着认知发展的阶段。请他把这场古典之争拉回观察台。",
+   "reason_en": "The developmental-science seat (never before on stage): with The Moral Judgment of the Child he offers a third path — morality is neither instilled nor spontaneously emerging, but built by the child brick by brick in interaction with peers, at the pace of cognitive stages. Let him pull this classical quarrel back to the observation bench."
+  },
+  {
+   "id": "sapolsky",
+   "reason": "现代脑科学位：他把整张桌子掀一半——从神经内分泌与行为生物学看，善念恶行都是基因、激素、童年与运气的产物，『自选的我』本身可疑。请他把『德性可教吗』改写成『什么样的大脑与环境更容易长出善行』，逼全场正视因果与运气。",
+   "reason_en": "The modern brain-science seat: he half-overturns the whole table — from neuroendocrinology and the biology of behaviour, kind thoughts and cruel acts alike are products of genes, hormones, childhood and luck, and the 'self-chosen I' is itself suspect. Let him rewrite 'can virtue be taught?' into 'which brains and environments more readily grow good behaviour,' forcing the room to face causation and luck."
+  }
+ ],
+ "posts": [
+  {
+   "id": "p01",
+   "round": 1,
+   "thinker": "socrates",
+   "reply_to": null,
+   "text": "我先把话说满：**德性即知识——没有人明知何为善而故意作恶，作恶只因无知。**若真是如此，德性就该像几何一样可教、可学。可偏偏有个刺扎着我：雅典最出色的人，伯里克利、地米斯托克利，个个能干，却都没能把自己的德性教给儿子。这说明什么？也许德性不是像手艺那样从外面灌进去的，而要靠诘问法，把你心里本已隐约知道、却从未想清的东西一点点接生出来。所以我不教，我只问——你以为你知道什么是勇敢、什么是正义吗？我们来查一查。",
+   "text_en": "Let me state it in full: **virtue is knowledge — no one who truly knows what is good does evil on purpose; wrongdoing comes only from ignorance.** If so, virtue ought to be teachable and learnable like geometry. Yet a thorn pricks me: the finest men of Athens — Pericles, Themistocles — were all capable, and none managed to teach their virtue to their sons. What does that tell us? Perhaps virtue is not poured in from outside like a craft, but must be drawn out by the elenchus — midwifing into the open what you already dimly know but have never thought through. So I do not teach; I only ask: you think you know what courage is, what justice is? Let us examine it.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "德性即知识": "virtue is knowledge（德性即知识）：苏格拉底的道德理智主义主张——真正知道何为善的人就不会作恶，一切恶行源于无知；因此德性可像知识一样被认识、被追求。",
+    "诘问法": "elenchus / the Socratic method（诘问法）：苏格拉底通过一连串追问，让对方在自相矛盾中自己发现认识的漏洞；他自比助产士——真理是对方『生』出来的，而非他灌输的。"
+   },
+   "glossary_en": {
+    "virtue is knowledge": "Socrates' moral intellectualism — one who truly knows the good will not do evil, and all wrongdoing springs from ignorance; virtue can therefore be known and pursued as knowledge is.",
+    "the elenchus": "the Socratic method of successive questioning that leads an interlocutor to discover, through self-contradiction, the gaps in his own understanding; Socrates likened himself to a midwife — the truth is given birth to by the other, not implanted by him."
+   },
+   "reactions": {
+    "轻微赞同": [
+     "mengzi"
+    ],
+    "中立": [
+     "huineng"
+    ],
+    "轻微反对": [
+     "aristotle",
+     "piaget"
+    ],
+    "强烈反对": [
+     "xunzi"
+    ],
+    "疑惑": [
+     "sapolsky"
+    ]
+   }
+  },
+  {
+   "id": "p02",
+   "round": 1,
+   "thinker": "mengzi",
+   "reply_to": null,
+   "text": "人性之善也，犹水之就下也。**恻隐之心，人皆有之；此心即仁之端也。**今人乍见孺子将入于井，皆有怵惕恻隐之心——非所以内交于孺子之父母，非所以要誉于乡党朋友也，乃本心之不容已。故善非自外铄我，我固有之。所谓教者，非以善强灌于人，犹养苗耳：四端在我，扩而充之，若火之始然、泉之始达，沛然莫之能御。苟不充之，则并事父母亦不足。",
+   "text_en": "The goodness of human nature is like water flowing downward. **The heart of compassion is possessed by all; this heart is the sprout of benevolence.** If a man suddenly sees a child about to fall into a well, he feels alarm and compassion — not to ingratiate himself with the child's parents, nor to win praise among neighbours and friends, but because the original heart cannot help itself. So goodness is not welded onto me from outside; I have it from the first. To teach is not to force goodness into a person but to nurture as one nurtures a seedling: the four sprouts are already in me, and to extend and fill them out is like a fire first catching, a spring first breaking through — a flood nothing can hold back. Fail to extend them, and one cannot so much as serve one's own parents.",
+   "vernacular": "人性向善，就像水往低处流一样自然。**恻隐之心，人人都有；这颗心就是仁的开端。**今天一个人突然看见小孩快掉进井里，都会心头一惊、生出不忍——这不是为了讨好孩子的父母，也不是为了在乡邻朋友间博取好名声，纯是本心按捺不住。所以善不是从外面强加给我的，是我本来就有的。所谓教，不是把善硬灌进人心里，而像培育禾苗：四端本在我心，把它扩大充实，就像火刚点燃、泉水刚涌出，浩浩荡荡，没什么挡得住。若不去扩充，那连侍奉父母都做不到。",
+   "vernacular_en": "",
+   "glossary": {
+    "四端": "the four sprouts（四端）：孟子指人生来具足的四种善之萌芽——恻隐之心（仁）、羞恶之心（义）、辞让之心（礼）、是非之心（智）；教养即把这些萌芽扩充长大。"
+   },
+   "glossary_en": {
+    "the four sprouts": "Mengzi's four inborn beginnings of goodness — the hearts of compassion (benevolence), of shame (righteousness), of deference (ritual), and of right-and-wrong (wisdom); cultivation is the extending of these sprouts."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "huineng"
+    ],
+    "轻微赞同": [
+     "socrates",
+     "piaget"
+    ],
+    "疑惑": [
+     "sapolsky"
+    ],
+    "强烈反对": [
+     "xunzi"
+    ],
+    "中立": [
+     "aristotle"
+    ]
+   }
+  },
+  {
+   "id": "p03",
+   "round": 1,
+   "thinker": "xunzi",
+   "reply_to": null,
+   "text": "孟子言性善，过矣。**人之性恶，其善者伪也。**今人之性，生而好利，顺是则争夺生；生而疾恶，顺是则残贼生；纵人之性、顺人之情，必出于争夺、合于犯分乱理而归于暴。故必将有师法之化、礼义之道，然后出于辞让、合于文理而归于治。木受绳则直，金就砺则利；人之性恶，其待师法而后正、得礼义而后治，明矣。无师无法，则偏险而不正；善者伪也——非教不成。",
+   "text_en": "Mengzi says nature is good — he is wrong. **Human nature is bad; its goodness is a matter of deliberate effort.** People are born loving gain, and to follow this breeds strife; born with envy, and to follow this breeds cruelty; give free rein to inborn nature and feeling, and the result must be contention, the breaking of order, a descent into violence. Only with the transforming work of teachers and law, and the guidance of ritual and righteousness, do people come to yield courteously, accord with good order, and arrive at peace. Wood is made straight by the marking-line, metal made sharp by the whetstone; that human nature, being bad, must await teachers and law to be set right, and ritual to be ordered, is plain. Without teacher and law a person is crooked and not upright; goodness is a matter of deliberate effort — without teaching it does not come to be.",
+   "vernacular": "孟子说人性本善，错了。**人性本来是恶的，那些善是人为努力的结果。**如今人的天性，生来就贪图私利，顺着它就会争夺；生来就有嫉恨，顺着它就会残害；放纵人的本性和情欲，必然走向争夺、破坏秩序、陷入暴乱。所以一定要有师长与法度的教化、礼义的引导，然后人才会懂得谦让、合乎条理、归于安定。木材经过墨绳校正才直，金属经过磨石打磨才利；人性本恶，要靠师法才能端正、靠礼义才能安定，这是很清楚的。没有师长、没有法度，人就偏邪不正；善是人为做出来的——不教就成不了。",
+   "vernacular_en": "",
+   "glossary": {
+    "伪": "wei / deliberate effort（伪）：荀子的关键术语，指人后天有意识的努力与建构，并非『虚伪』；善正是由这种『人为』一步步造出来的。"
+   },
+   "glossary_en": {
+    "deliberate effort": "wei — Xunzi's key term for conscious, acquired human striving and construction, not 'falseness'; goodness is precisely what this 'making' produces."
+   },
+   "reactions": {
+    "强烈反对": [
+     "mengzi",
+     "huineng"
+    ],
+    "轻微赞同": [
+     "aristotle",
+     "piaget"
+    ],
+    "中立": [
+     "socrates",
+     "sapolsky"
+    ]
+   }
+  },
+  {
+   "id": "p04",
+   "round": 1,
+   "thinker": "aristotle",
+   "reply_to": null,
+   "text": "两位都太急着站队了。德性既非天生现成，也非听懂道理就有。**我们通过做公正的事成为公正的人，通过做勇敢的事成为勇敢的人——德性是习惯养成的，不是讲授灌输的。**大自然给了我们接受德性的潜能，但要靠反复练习把它变成稳定的品格。所以关键既不是苏格拉底的『知道就够了』，也不是把一套规矩硬塞进去，而是从小在好环境、好榜样里，一次次做对的事，直到行善成了第二天性，做起来还带着愉悦。德性多半是中道：勇敢在鲁莽与怯懦之间，慷慨在挥霍与吝啬之间——分寸要靠实践智慧当场拿捏。",
+   "text_en": "You are both too quick to take sides. Virtue is neither ready-made by nature nor had by merely grasping an argument. **We become just by doing just acts and brave by doing brave acts — virtue is formed by habit, not delivered by lecture.** Nature gives us the capacity to receive the virtues, but only repeated practice turns that capacity into settled character. So the key is neither Socrates' 'knowing is enough' nor cramming in a code of rules, but doing the right thing again and again, from childhood, in a good environment and among good examples, until acting well becomes second nature and is even done with pleasure. Virtue mostly lies in the mean: courage between recklessness and cowardice, generosity between extravagance and stinginess — a measure that practical wisdom must judge on the spot.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "中道": "the golden mean（中道）：亚里士多德伦理学的核心，德性是两个极端之间恰当的分寸，如勇敢介于鲁莽与怯懦之间——不是平庸折中，而是因人因境的『恰到好处』。",
+    "实践智慧": "phronesis / practical wisdom（实践智慧）：在具体情境中判断此时此地该如何行动的能力，是把德性原则落到实处的关键；光有原则而无它，便无从措手。"
+   },
+   "glossary_en": {
+    "the mean": "the core of Aristotle's ethics — virtue is the fitting measure between two extremes, as courage lies between recklessness and cowardice; not mediocre compromise but a 'just right' that varies with person and situation.",
+    "practical wisdom": "phronesis — the capacity to judge, in a concrete situation, what should be done here and now; the key to putting virtue's principles into practice, without which principles alone give no purchase."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "xunzi",
+     "piaget"
+    ],
+    "轻微赞同": [
+     "mengzi",
+     "sapolsky"
+    ],
+    "轻微反对": [
+     "socrates",
+     "huineng"
+    ]
+   }
+  },
+  {
+   "id": "p05",
+   "round": 1,
+   "thinker": "huineng",
+   "reply_to": null,
+   "text": "诸君争性善性恶、可教不可教，皆落在尘埃里拂拭。**自性本自清净，本自具足，何曾欠一分德性于外？**神秀谓『时时勤拂拭，勿使惹尘埃』，我则曰：菩提本无树，明镜亦非台，本来无一物，何处惹尘埃。德性非从外铄，亦非积习而成，乃本心自具，只为妄念所蔽而不自见。故教者但为指月之指——师不能以德授人，唯能令人自识其本心。一念迷即凡，一念悟即圣；不假渐修，直下承当。",
+   "text_en": "You all quarrel over whether nature is good or bad, whether virtue can be taught — but you are still wiping at dust. **One's own nature is originally pure and originally complete; when did it ever lack a single measure of virtue from outside?** Shenxiu says, 'Time and again wipe it clean, and let no dust alight'; I say: bodhi is originally no tree, nor is the bright mirror a stand; from the first not one thing exists — where could the dust alight? Virtue is not welded on from outside, nor built up by accumulated practice; it is already there in the original heart, hidden only by deluded thought so that one does not see oneself. The teacher is but a finger pointing at the moon — a master cannot hand virtue to another; he can only let a person recognise their own original heart, their self-nature. One deluded thought and you are an ordinary man; one awakened thought and you are a sage — no need for graded cultivation; take it up directly, here and now.",
+   "vernacular": "诸位争论人性是善是恶、德性可不可教，都还停在『擦灰尘』这一层上打转。**人的本性本来就清净、本来就圆满具足，何曾在外面欠缺过一分德性？**神秀说『要时时勤拂拭，别让它沾上灰尘』，我却说：菩提本来没有树，明镜也不是台，本来空无一物，哪里会惹上灰尘？德性不是从外面灌进来的，也不是靠日积月累练出来的，而是本心里本来就有，只因妄念遮蔽而看不见自己。所以老师只是那根指月的手指——师父没法把德性交给你，只能让你自己认出本心。一个念头迷了就是凡夫，一个念头悟了就是圣人；不必层层渐修，当下直接承担。",
+   "vernacular_en": "",
+   "glossary": {
+    "自性": "self-nature（自性）：禅宗指众生本具的真实心性、佛性，本自清净圆满；修行不是向外求得，而是去除遮蔽、当下自见。"
+   },
+   "glossary_en": {
+    "self-nature": "in Chan, the true mind-nature or Buddha-nature every being already possesses, originally pure and complete; practice does not acquire it from outside but removes what obscures it, so one sees it directly."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "mengzi"
+    ],
+    "轻微反对": [
+     "aristotle",
+     "piaget"
+    ],
+    "强烈反对": [
+     "xunzi"
+    ],
+    "疑惑": [
+     "socrates",
+     "sapolsky"
+    ]
+   }
+  },
+  {
+   "id": "p06",
+   "round": 1,
+   "thinker": "piaget",
+   "reply_to": null,
+   "text": "让我把这个问题从形而上拉回到观察台。道德感不是天生装好的程序，也不是大人灌进去的教条——**它是孩子在与人平等相处中，自己一块一块搭建起来的。**我观察儿童发现：小小孩持『他律』道德，规则是大人定的、神圣不可犯，只按闯祸大小论对错，打碎十个杯子比偷拿一个更『坏』。可随着他和同伴一起游戏、争执、轮流、订规则，他慢慢转向『自律』：懂得规则是大家约定的、可以商量，开始看动机、讲公平。所以你没法把高层次的道德硬塞给还没准备好的孩子——揠苗助长只换来鹦鹉学舌。真正的道德，长在合作里。",
+   "text_en": "Let me pull this question down from metaphysics to the observation bench. A moral sense is neither a program installed at birth nor a dogma poured in by adults — **it is something the child builds, brick by brick, out of dealing with others as equals.** Observing children, I find the young hold a 'heteronomous morality': rules are set by adults, sacred and unbreakable, and right and wrong are judged only by the size of the mishap — breaking ten cups is 'worse' than filching one. But as the child plays, quarrels, takes turns and makes rules with peers, he shifts toward 'autonomous morality': grasping that rules are agreements people make and can revise, and beginning to weigh intention and fairness. So you cannot cram a higher morality into a child who is not ready — forcing the seedling yields only parroting. Real morality grows in cooperation.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "他律": "heteronomous morality（他律道德）：皮亚杰所述儿童早期的道德阶段，视规则为外部权威（大人）所定、神圣不可改，按行为后果大小而非动机判断对错。",
+    "自律": "autonomous morality（自律道德）：较成熟的道德阶段，理解规则是人们平等协商的约定、可以修改，据动机与公平作判断，多在与同伴的合作互动中长成。"
+   },
+   "glossary_en": {
+    "heteronomous morality": "the early moral stage Piaget described, in which rules are seen as set by external authority (adults), sacred and unchangeable, and right and wrong are judged by the size of the consequence rather than the intention.",
+    "autonomous morality": "a more mature stage in which one grasps that rules are agreements people negotiate as equals and can revise, judging by intention and fairness — grown largely in cooperative interaction with peers."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "aristotle"
+    ],
+    "轻微赞同": [
+     "mengzi",
+     "xunzi",
+     "sapolsky"
+    ],
+    "中立": [
+     "socrates"
+    ],
+    "轻微反对": [
+     "huineng"
+    ]
+   }
+  },
+  {
+   "id": "p07",
+   "round": 1,
+   "thinker": "sapolsky",
+   "reply_to": null,
+   "text": "我得往后退一大步，把桌子掀一半。你们争的『德性从哪来、能不能教』，都默认有一个能自主选择向善的『我』坐在那里。可从生物学看，**你此刻的每一个善念或恶行，都是前一秒的神经放电、几小时前的激素、童年的遭遇、基因和运气共同的产物——没有一处是你真正自选的。**一个从小被虐待、前额叶发育受损的人，和一个在安全富足中长大的人，面对同样的诱惑，『自制力』根本不在同一起跑线。所以『德性可教吗』问错了；该问的是：哪些环境、营养、压力、关系，会让一个大脑更容易长出我们叫做善的行为。别急着归功或归罪，先看因果。",
+   "text_en": "I have to step way back and half-overturn the table. Your dispute — where virtue comes from, whether it can be taught — assumes there is a 'self' seated there, freely choosing the good. But biologically, **every kind thought or cruel act you have this moment is the joint product of the previous second's neural firing, the hormones of hours ago, your childhood, your genes and your luck — none of it truly self-chosen.** A person abused in childhood, with a stunted prefrontal cortex, and a person raised in safety and plenty do not face the same temptation from the same starting line of 'self-control.' So 'can virtue be taught?' is the wrong question; the right one is: which environments, nutrition, stresses and relationships make a brain more likely to grow what we call good behaviour. Before rushing to credit or blame, look at the causation.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "前额叶": "prefrontal cortex（前额叶）：大脑最靠前的区域，负责自我控制、冲动抑制、长远规划与道德判断；其发育深受早年压力、虐待、营养等影响，个体差异并非全由『意志』决定。"
+   },
+   "glossary_en": {
+    "prefrontal cortex": "the frontmost region of the brain, responsible for self-control, impulse inhibition, long-range planning and moral judgement; its development is heavily shaped by early stress, abuse and nutrition, so individual differences are not decided by 'willpower' alone."
+   },
+   "reactions": {
+    "疑惑": [
+     "socrates",
+     "huineng"
+    ],
+    "轻微反对": [
+     "mengzi",
+     "aristotle",
+     "piaget"
+    ],
+    "中立": [
+     "xunzi"
+    ]
+   }
+  },
+  {
+   "id": "p08",
+   "round": 2,
+   "thinker": "socrates",
+   "reply_to": "p07",
+   "text": "萨波尔斯基，你说没有自选的『我』，一切皆因果。就算如此——我倒要问你：你此刻是想说服我们、让我们改变看法吗？可若人真的分毫不能因理解而改变，你又何必开口？**恰恰因为理解能改变行为，教育才有意义；诘问不是无用的把戏，它本身就是你所谓『改变大脑的环境』里最有力的一种。**我从不说人凭空自由，我说的是：让一个人真切看清什么是善，他的行动就会随之而变。这不违背因果，这正是因果——只不过其中一个原因，叫做想明白。",
+   "text_en": "Sapolsky, you say there is no self-chosen 'I,' that all is cause and effect. Grant it — yet let me ask: are you not, this very moment, trying to persuade us, to change our minds? If a person could not be changed one whit by understanding, why open your mouth at all? **It is precisely because understanding can change conduct that education has a point; questioning is no idle trick but the most powerful of those very 'brain-changing environments' you invoke.** I never claimed people are free out of nothing; I claim that let a person see clearly what is good, and his action will change with the seeing. That does not defy causation — it is causation, save that one of the causes is called coming to understand.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": null,
+   "glossary_en": null,
+   "reactions": {
+    "轻微赞同": [
+     "mengzi",
+     "xunzi",
+     "aristotle",
+     "piaget"
+    ],
+    "疑惑": [
+     "sapolsky"
+    ],
+    "中立": [
+     "huineng"
+    ]
+   }
+  },
+  {
+   "id": "p09",
+   "round": 2,
+   "thinker": "mengzi",
+   "reply_to": "p03",
+   "text": "荀卿言性恶，吾不能无辩。**若人性本无善端，则礼义又从何而生？**子谓善者伪也，然圣人之伪、亦人也；使人而无恻隐羞恶之心，虽日教以礼义，犹以水投石，终不能入。孺子入井而怵惕，未学而能，此非伪也，乃性也。子见人之为不善，遂谓性恶——不知其陷溺其心者也，非才之罪也。故吾言扩充，正为救此陷溺；苟无其端，扩将何充？",
+   "text_en": "Xun Qing says nature is bad — I cannot let it pass. **If human nature held no sprout of good at all, from where would ritual and righteousness ever arise?** You say goodness is made by deliberate effort; but the sages who make it are themselves human — and if the human heart had no compassion, no sense of shame, then teach it ritual day after day and it would be like throwing water at stone, never soaking in. A child nears the well and one feels alarm, able without having learned — that is not artifice but nature. You see people doing ill and conclude nature is bad — not seeing that their heart has been drowned, that the fault is not in their native stuff. So when I speak of 'extending,' it is to rescue just this drowning; if there were no sprout to begin with, what would you extend and fill out?",
+   "vernacular": "荀卿说人性本恶，我不能不反驳。**如果人性里本来没有一点善的萌芽，那礼义又是从哪里生出来的呢？**你说善是人为造出来的，可圣人之所以能『人为』，他也还是人啊；假使人心里根本没有恻隐、羞恶之心，就算天天拿礼义去教，也像把水泼在石头上，终究渗不进去。小孩快掉进井里，人会心头一惊，没学过就会——这不是人为，是天性。你看到有人作恶，就断定人性恶——却不知那是他的本心被淹没了，不是他的本质有罪。所以我讲『扩充』，正是为了救这份沉溺；如果本来没有那个善端，你又拿什么去扩充呢？",
+   "vernacular_en": "",
+   "glossary": null,
+   "glossary_en": null,
+   "reactions": {
+    "强烈反对": [
+     "xunzi"
+    ],
+    "强烈赞同": [
+     "huineng"
+    ],
+    "轻微赞同": [
+     "socrates",
+     "piaget"
+    ],
+    "中立": [
+     "aristotle"
+    ],
+    "轻微反对": [
+     "sapolsky"
+    ]
+   }
+  },
+  {
+   "id": "p10",
+   "round": 2,
+   "thinker": "xunzi",
+   "reply_to": "p02",
+   "text": "孟子曰性善，是不及知人之性，而不察乎性伪之分者也。**凡性者，天之就也，不可学、不可事；礼义者，圣人之所生也，可学而能、可事而成。**孺子怵惕，情之一动耳，未即为仁；若顺此情而不化，兄弟且争产，何仁之有？直木不待檃栝而直，其性直也；枸木必将待檃栝烝矫然后直——今人之性，枸木也。子徒见善端之微，不见其纵而必乱；恃性善而弛教化，是纵枸木而望其自直，吾未见其能直也。",
+   "text_en": "Mengzi says nature is good because he does not truly know human nature, nor discern the division between nature and deliberate effort. **Whatever is nature is brought about by Heaven — it cannot be learned or worked at; ritual and righteousness are what the sages produced — they can be learned and mastered, worked at and achieved.** The child-at-the-well alarm is but a single stir of feeling, not yet benevolence; follow that feeling without reshaping it and even brothers will fight over the estate — where is the benevolence then? Straight wood is straight without the press, for its nature is straight; warped wood must await the press, the steaming and the bending before it is straight — and human nature now is that warped wood. You see only the faint gleam of the sprout and not the disorder its indulgence must bring; to slacken teaching in reliance on 'good nature' is to leave warped wood alone and hope it straightens itself — I have never seen it straighten.",
+   "vernacular": "孟子说人性善，是他不真懂人的本性，也没弄清『天性』与『人为』的分别。**凡是天性，是上天生成的，学不来、也做不出；而礼义，是圣人创造出来的，可以学会、可以做成。**小孩快掉井里那一惊，不过是情感的一动而已，还算不上『仁』；若顺着这点情感而不加改造，亲兄弟都会为争家产翻脸，哪来的仁？本来就直的木头，不用矫正器也直，因为它天性就直；弯曲的木头，一定要用檃栝去蒸、去压、去矫，然后才直——如今人的本性，正是那弯木。你只看见善端那一点微光，看不见放任它必然生乱；靠着『性善』就松懈教化，等于放任弯木而指望它自己变直，我没见过能直的。",
+   "vernacular_en": "",
+   "glossary": {
+    "檃栝": "jianggua, the straightening press（檃栝）：古代矫正弯曲木材的工具（矫形木夹）；荀子以之比喻礼法师教对粗糙人性的强制改造——弯木非经檃栝烝矫不能直。"
+   },
+   "glossary_en": {
+    "the press": "jianggua — an ancient tool for straightening warped wood; Xunzi's image for how ritual, law and teaching must forcibly reshape a crude human nature, as warped wood cannot straighten without it."
+   },
+   "reactions": {
+    "强烈反对": [
+     "mengzi",
+     "huineng"
+    ],
+    "轻微赞同": [
+     "aristotle",
+     "piaget"
+    ],
+    "中立": [
+     "socrates",
+     "sapolsky"
+    ]
+   }
+  },
+  {
+   "id": "p11",
+   "round": 2,
+   "thinker": "aristotle",
+   "reply_to": "p01",
+   "text": "苏格拉底，我敬你，但『德性即知识』这一步迈得太远。**人明明知道什么是对的，却照样做错——这叫意志薄弱，你的理论里根本容不下它，可它满街都是。**一个人熟知节制的道理，仍在深夜暴食；懂得勇敢的定义，临阵仍然腿软。为什么？因为德性不只在理智里，还在被驯化的欲望和情感里。光靠诘问让人『知道』，改不了那些从未被练习过的冲动。要养成勇敢，得在恐惧中一次次站住；要养成节制，得在诱惑前一次次收手。知，是必要的；习，才是成事的。",
+   "text_en": "Socrates, I honour you, but 'virtue is knowledge' steps too far. **People know full well what is right and do wrong anyway — this is weakness of will, and your theory has no room for it, though the streets are full of it.** A man who knows the doctrine of temperance still binges at midnight; one who can define courage still goes weak-kneed in the line. Why? Because virtue lives not only in the intellect but in tamed desire and feeling. Making a man 'know' through questioning cannot alter impulses that have never been trained. To grow brave you must stand fast in fear again and again; to grow temperate you must hold back before temptation again and again. Knowing is necessary; habituating is what gets it done.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "意志薄弱": "akrasia / weakness of will（意志薄弱）：明知何者为善却仍不去做、反被欲望牵着走的状态；亚里士多德以此反驳『知善必行善』，指出理智之外还需被驯化的欲望与情感。"
+   },
+   "glossary_en": {
+    "weakness of will": "akrasia — knowing what is good yet failing to do it, pulled along by desire; Aristotle's objection to 'to know the good is to do the good,' insisting that trained desire and feeling, not intellect alone, are needed."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "xunzi",
+     "piaget",
+     "sapolsky"
+    ],
+    "轻微反对": [
+     "socrates"
+    ],
+    "中立": [
+     "mengzi",
+     "huineng"
+    ]
+   }
+  },
+  {
+   "id": "p12",
+   "round": 2,
+   "thinker": "huineng",
+   "reply_to": "p04",
+   "text": "亚里士多德言习以成性，日日拂拭而后净，此神秀之渐门也。**若德性须积习乃成，则拭尘无有尽时，磨镜终不见性。**吾非轻习行，然但求诸事相之熏习，如担水劈柴而不识本来，纵习之千遍，犹在门外。故顿门直指：当下识得自性本净，则行住坐卧皆是道，非待百炼而后有德。习者，显此性之用也，非造此性之体也。迷时以习求悟，悟后乃知习本自足。",
+   "text_en": "Aristotle says virtue is formed by habit, made clean only by daily wiping — this is Shenxiu's gradual gate. **If virtue must be built by accumulated practice, then the dust is never done being wiped, and one may polish the mirror forever and never see the nature.** I do not slight practice; but to seek only in the perfuming of particular affairs — like carrying water and chopping wood without knowing one's original face — is to drill a thousand times and still stand outside the gate. So the sudden gate points directly: recognise here and now that one's nature is originally pure, and then walking, standing, sitting or lying down are all the Way — no need to be tempered by a hundred firings before virtue is there. Practice makes this nature function and show; it does not manufacture the substance of the nature. In delusion one seeks awakening through practice; once awakened, one sees that practice was complete within one's nature all along.",
+   "vernacular": "亚里士多德说德性靠反复练习养成，天天擦拭才干净，这是神秀那套『渐悟』的法门。**如果德性非得靠日积月累才有，那灰尘永远擦不完，镜子磨到底也见不到本性。**我不是轻看修行实践，但若只在具体事相上一点点熏习，像挑水砍柴却不认得自己的本来面目，纵然练上千遍，还是在门外。所以顿悟法门直接点破：当下认出本性本来清净，那么行住坐卧、一举一动都是道，不必等千锤百炼才有德。练习，是让这本性发用显现，并不是去造出这个本性的本体。迷的时候靠练习去求觉悟，觉悟之后才明白，练习本来就在自性里、圆满具足。",
+   "vernacular_en": "",
+   "glossary": {
+    "熏习": "vasana / perfuming（熏习）：佛教用语，指经验行为如香气熏物般，一点点在心识中留下习气与种子；渐修一派尤重此长期熏染之功。"
+   },
+   "glossary_en": {
+    "perfuming": "vasana — in Buddhism, how experience and action, like incense scenting cloth, gradually leave habitual traces and seeds in the mind; the gradualist path prizes this long, cumulative work."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "mengzi"
+    ],
+    "轻微反对": [
+     "aristotle",
+     "piaget"
+    ],
+    "强烈反对": [
+     "xunzi"
+    ],
+    "疑惑": [
+     "socrates",
+     "sapolsky"
+    ]
+   }
+  },
+  {
+   "id": "p13",
+   "round": 2,
+   "thinker": "piaget",
+   "reply_to": "p01",
+   "text": "苏格拉底，你把德性当成一套可以传授的知识，这里有个发展的盲点。**你没法把公正的『知识』教给一个还停在前运算阶段、难以进行抽象推理的五六岁孩子——他不是不肯懂，是还没长到能懂。**道德理解有它成熟的时间表：幼儿只会按后果大小判对错，要到能设身处地、能作假设推理，才谈得上理解动机与公平。所以问题不在『知不知道』，而在认知结构准备好了没有。你的诘问对一个大孩子管用，对一个小小孩，无论怎么问，他也只会给你他这个阶段能给的答案。教，得踩着发展的节奏走。",
+   "text_en": "Socrates, you treat virtue as a body of knowledge that can be handed over, and here is a developmental blind spot. **You cannot teach the 'knowledge' of justice to a five- or six-year-old still in the preoperational stage, unable to reason abstractly — it is not that he refuses to understand, but that he has not grown able to.** Moral understanding has its own timetable of ripening: a young child judges right and wrong only by the size of the consequence, and only once he can take another's perspective and reason hypothetically can he grasp intention and fairness. So the question is not 'does he know?' but 'is the cognitive structure ready?' Your questioning works on an older child; on a small one, however you ask, he will only give you the answer his stage can give. Teaching must move at the pace of development.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "前运算阶段": "preoperational stage（前运算阶段）：皮亚杰认知发展的第二阶段（约2–7岁），儿童能用语言符号，但思维自我中心、易被表象左右，尚不能作稳定的逻辑与抽象推理。"
+   },
+   "glossary_en": {
+    "preoperational stage": "the second stage of Piaget's cognitive development (about ages 2–7), in which the child can use language and symbols but thinks self-centredly, is easily swayed by appearances, and cannot yet reason stably in logical or abstract terms."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "aristotle",
+     "sapolsky"
+    ],
+    "轻微赞同": [
+     "mengzi",
+     "xunzi"
+    ],
+    "中立": [
+     "socrates",
+     "huineng"
+    ]
+   }
+  },
+  {
+   "id": "p14",
+   "round": 2,
+   "thinker": "sapolsky",
+   "reply_to": "p02",
+   "text": "孟子，你那口井边的孩子，我很喜欢——但让我告诉你那一惊是怎么来的。**那不是什么天赋的善端，而是催产素、镜像神经元和演化塞给你的一套亲社会回路——同一套催产素，也会让你对『自己人』更有爱、对外人更提防甚至更狠。**它是善是恶，全看情境和你把谁划进『我们』。更麻烦的是：这套回路长得好不好，取决于你母亲孕期的压力、你婴儿期是否被温柔对待、你有没有挨过饿——全是运气。所以『四端』人皆有之，也许是真的；但它能不能长成德性，从来不是靠道德努力，而是靠一个人有没有摊上好的早年。",
+   "text_en": "Mengzi, I love your child at the well — but let me tell you where that jolt comes from. **It is no Heaven-given sprout of goodness but a prosocial circuit that oxytocin, mirror neurons and evolution handed you — and the same oxytocin that makes you tender toward 'your own' also makes you warier of, even harsher toward, outsiders.** Whether it turns out good or bad depends entirely on the situation and on whom you count as 'us.' Worse: how well that circuit develops depends on your mother's stress in pregnancy, on whether you were handled gently as an infant, on whether you ever went hungry — all luck. So that everyone has the 'four sprouts' may well be true; but whether they grow into virtue was never a matter of moral effort — it turns on whether a person drew a good early life.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "催产素": "oxytocin（催产素）：一种与亲密、信任、母婴联结相关的神经肽；它增强对『自己人』的亲近与合作，却也可能加深对外群体的排斥与敌意，作用高度依赖情境，并非单纯的『道德激素』。"
+   },
+   "glossary_en": {
+    "oxytocin": "a neuropeptide tied to intimacy, trust and mother–infant bonding; it deepens closeness and cooperation toward 'one's own' but can also sharpen wariness and hostility toward out-groups — highly context-dependent, not simply a 'moral hormone.'"
+   },
+   "reactions": {
+    "轻微反对": [
+     "mengzi"
+    ],
+    "轻微赞同": [
+     "xunzi",
+     "piaget"
+    ],
+    "疑惑": [
+     "socrates",
+     "huineng"
+    ],
+    "中立": [
+     "aristotle"
+    ]
+   }
+  },
+  {
+   "id": "p15",
+   "round": 3,
+   "thinker": "socrates",
+   "reply_to": null,
+   "text": "听了一圈，我修正也坚持。我承认亚里士多德那一刀：知道而做不到，确实常有——**但那多半不是真知，而是半知：你若真把伤害自己想透，就不会在深夜第十次自毁。**萨波尔斯基提醒我们因果深广，这我领受；可理解本身，就是最强的因果之一。给普通人的三条：其一，遇到反复犯的错，别急着骂自己没自制力，先坐下来诚实追问——我到底图什么、代价是什么、我真的『知道』吗？把冲动摊到光里检视。其二，找一个能跟你较真、肯反问你的人，别只找附和你的。其三，每晚花五分钟省察这一天：哪件事做得对、哪件违背了自己也说得出口的道理。未经省察的人生不值得过——而省察，是每个人都付得起的功课。",
+   "text_en": "Having heard you all, I both revise and hold firm. I grant Aristotle's cut: knowing yet failing to do is indeed common — **but that is mostly not true knowledge, only half-knowledge; if you had truly thought through the harm to yourself, you would not wreck yourself a tenth time at midnight.** Sapolsky reminds us how deep and wide causation runs, and I accept it; yet understanding is itself among the strongest causes. Three things for ordinary people: first, when you repeat a mistake, do not rush to curse your lack of willpower — sit down and ask honestly: what am I really after, what is the cost, do I truly 'know'? Bring the impulse into the light and examine it. Second, find someone who will hold you to account and question you, not only agree with you. Third, spend five minutes each night examining the day: what did I do rightly, and where did I betray a principle I myself could state aloud? The unexamined life is not worth living — and examination is a lesson everyone can afford.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": null,
+   "glossary_en": null,
+   "reactions": {
+    "轻微赞同": [
+     "aristotle",
+     "mengzi",
+     "xunzi",
+     "huineng"
+    ],
+    "中立": [
+     "piaget",
+     "sapolsky"
+    ]
+   }
+  },
+  {
+   "id": "p16",
+   "round": 3,
+   "thinker": "mengzi",
+   "reply_to": null,
+   "text": "吾终守性善，然亦纳荀卿之诫。**善虽固有，不扩则萎；四端犹火之始然、泉之始达，养之则沛然，舍之则熄。**故为善非一悟永逸，乃日日求其放心而已。告诸生可行者三：其一，反求诸己——行有不得，皆反求诸己，勿诿于人、勿诿于命。其二，养其大体，勿以小害大、以贱害贵：一时口腹之欲小，此心之安大，权之而后取。其三，推恩足以保四海——由爱亲而及人，由一室之温及于陌路：老吾老以及人之老，幼吾幼以及人之幼。善不在高远，正在扩此不忍之心于日用之间。",
+   "text_en": "In the end I still hold that nature is good, yet I take in Xun Qing's warning. **Though goodness is inborn, unextended it withers; the four sprouts are like a fire just caught, a spring just breaking through — nurture them and they flood forth, abandon them and they go out.** So doing good is not one awakening settled forever, but daily recovering the strayed heart. Three things you can do: first, seek within yourself — when an action fails, turn back and look for the cause in yourself, not shifting it onto others or onto fate. Second, nourish the greater part of you and do not let the small harm the great, the base harm the noble: a passing appetite is small, the heart's peace is large — weigh them before you choose. Third, extending kindness is enough to secure the realm — from loving your own kin reach to others, from the warmth of one home to a stranger: honour your own elders and so honour the elders of others, cherish your own young and so cherish the young of others. Goodness is not in some lofty distance; it lies in extending this heart that cannot bear others' suffering into daily life.",
+   "vernacular": "我最终仍坚持性善，但也接纳荀卿的告诫。**善虽然本来就有，不去扩充就会枯萎；四端就像刚点燃的火、刚涌出的泉，养护它就浩浩荡荡，丢开它就熄灭。**所以行善不是一次觉悟就一劳永逸，而是天天把走失的本心找回来罢了。告诉大家三件能做的：第一，反求诸己——凡事做不成，都回头在自己身上找原因，别推给别人、别推给命。第二，养护你身上那个更重要的部分，别为小的害了大的、为贱的害了贵的：一时的口腹之欲是小，内心的安稳是大，权衡之后再取舍。第三，把爱推出去就足以安定天下——从爱自己的亲人推及别人，从一家的温暖推及陌生人：敬重自家老人进而敬重别人的老人，爱护自家孩子进而爱护别人的孩子。善不在高远的地方，正在把这份不忍之心扩充到日常生活里。",
+   "vernacular_en": "",
+   "glossary": {
+    "反求诸己": "seek within yourself（反求诸己）：孟子的修养方法，凡事不如意先反省自身、在自己身上找原因，而非归咎他人或外境。"
+   },
+   "glossary_en": {
+    "seek within yourself": "Mengzi's method of self-cultivation — when something goes wrong, first turn inward and look for the cause in oneself rather than blaming others or circumstance."
+   },
+   "reactions": {
+    "轻微赞同": [
+     "huineng",
+     "aristotle",
+     "socrates",
+     "xunzi"
+    ],
+    "中立": [
+     "piaget",
+     "sapolsky"
+    ]
+   }
+  },
+  {
+   "id": "p17",
+   "round": 3,
+   "thinker": "xunzi",
+   "reply_to": null,
+   "text": "吾终言性恶，然非贱人也，正欲人重学而已。**枸木待檃栝而直，钝金待砺而利，人待师法礼义而后善——故善者，积也。**孟子恃其端，吾惧人恃端而堕。告诸生可行者三：其一，学不可以已，锲而不舍——莫问一日之功，但求积之不辍，则金石可镂。其二，慎所渐染：居必择乡，游必就士，蓬生麻中不扶而直，白沙在涅与之俱黑——择善友、择善境，胜于独恃意志。其三，隆礼守法以立身：先立可循之规矩、可行之常法，使善行成习，习久成性。性恶不足惧，惧者不学、不积、不化耳。",
+   "text_en": "In the end I still hold that nature is bad — not to demean people, but precisely to make them value learning. **Warped wood awaits the press to be straight, dull metal the whetstone to be sharp, and a person awaits teachers, ritual and righteousness before becoming good — so goodness is accumulation.** Mengzi leans on the sprout; I fear that leaning on the sprout, people grow slack and fall. Three things you can do: first, learning must never cease, carve without ceasing — do not ask after a single day's gain, only that you accumulate without break, and metal and stone can be engraved. Second, be careful what you are steeped in: choose your neighbourhood to live in, keep company with the worthy — fleabane growing among hemp stands straight unpropped, white sand in black mud turns black with it; choosing good friends and a good environment beats relying on willpower alone. Third, honour ritual and keep the law to establish yourself: set up rules that can be followed and steady laws that can be carried out, so that good conduct becomes habit, and habit long held becomes nature. A bad nature is nothing to fear; what is to be feared is only not learning, not accumulating, not reshaping oneself.",
+   "vernacular": "我最终仍主张性恶，但这不是看轻人，正是想让人重视学习罢了。**弯木要靠矫正器才直，钝金要靠磨石才利，人要靠师长、礼义然后才善——所以善，是一点点累积出来的。**孟子倚仗那点善端，我却怕人倚仗善端而懈怠堕落。告诉大家三件能做的：第一，学习不可以停，坚持不懈——别指望一天的功夫，只求不间断地累积，那么连金石都能刻穿。第二，谨慎你所浸染的环境：住要选好邻里，交往要接近有德之人；蓬草长在麻中，不用扶也直，白沙落进黑泥里，会跟着一起黑——选好朋友、选好环境，胜过单靠意志力。第三，尊崇礼义、遵守法度来立身：先立好可以遵循的规矩、可以执行的常法，让善的行为变成习惯，习惯久了就成了本性。性恶不值得害怕，值得怕的是不学、不积累、不改造自己罢了。",
+   "vernacular_en": "",
+   "glossary": {
+    "锲而不舍": "carve without ceasing（锲而不舍）：出自《荀子·劝学》，比喻持之以恒、不断积累，则金石可镂——强调德性靠日积月累而非一时之功。"
+   },
+   "glossary_en": {
+    "carve without ceasing": "from Xunzi's 'Exhortation to Learning' — an image of persevering, unbroken accumulation, by which even metal and stone can be engraved; virtue is built by long build-up, not a single effort."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "aristotle"
+    ],
+    "轻微赞同": [
+     "piaget",
+     "socrates",
+     "sapolsky"
+    ],
+    "中立": [
+     "mengzi"
+    ],
+    "轻微反对": [
+     "huineng"
+    ]
+   }
+  },
+  {
+   "id": "p18",
+   "round": 3,
+   "thinker": "aristotle",
+   "reply_to": null,
+   "text": "我把整场收束到一处：德性是知、习、境三者的合流，缺一不可。苏格拉底给了知，荀子和皮亚杰给了习与序，慧能提醒别忘了内在的根，萨波尔斯基逼我们正视运气——**说到底，人成为什么样的人，靠的是他反复在做什么；而习惯的养成，既需要自己练，也需要一个让人容易做对事的环境。**给普通人的三条：其一，把想要的品格拆成具体的小动作，天天做——想变得慷慨，就每天做一件具体的给予，别等『感觉对了』。其二，为自己设计环境：把好习惯放在触手可及处，把诱惑挪远，因为意志薄弱人皆有之，靠布局胜过靠硬扛。其三，找到你那件事上的『中道』：不走极端，在鲁莽与怯懦、放纵与压抑之间，一次次校准那个恰到好处的分寸。德性不是天赋，也不是口号，是练出来的手艺。",
+   "text_en": "Let me gather the whole into one point: virtue is the confluence of knowledge, habit and environment — none may be missing. Socrates gave us knowledge, Xunzi and Piaget habit and sequence, Huineng reminds us not to forget the inner root, and Sapolsky forces us to face luck — **in the end, what a person becomes rests on what he repeatedly does; and the forming of habit needs both one's own practice and an environment that makes doing right easy.** Three things for ordinary people: first, break the character you want into small concrete acts and do them daily — to grow generous, perform one concrete act of giving each day; do not wait until 'it feels right.' Second, design your environment: put good habits within easy reach and move temptation far off, for weakness of will is common to all, and arrangement beats brute resistance. Third, find the 'mean' in your own matter: shun the extremes, and again and again calibrate the fitting measure between recklessness and cowardice, indulgence and repression. Virtue is neither a gift nor a slogan; it is a craft one practises into being.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": null,
+   "glossary_en": null,
+   "reactions": {
+    "强烈赞同": [
+     "xunzi",
+     "piaget"
+    ],
+    "轻微赞同": [
+     "socrates",
+     "mengzi",
+     "sapolsky"
+    ],
+    "中立": [
+     "huineng"
+    ]
+   }
+  },
+  {
+   "id": "p19",
+   "round": 3,
+   "thinker": "huineng",
+   "reply_to": null,
+   "text": "吾终言顿悟，然不废日用。**德不在外求，亦不在苦积，只在当下这一念：一念觉，慈悲自现；一念迷，万善皆隔。**诸公言知、言习、言境，皆是；然若不识本心，学而无本，习而无主，如无源之水、无根之木。告诸生可行者三：其一，返观自心——每起一念，问它从慈悲来，抑从贪嗔来，识得便是修行，不必远求。其二，于事上磨：担水劈柴、待人接物，皆是道场，不必厌离日用别寻净地。其三，莫向外攀比善恶高下——他非我不非，见一切人过，先照自心。心平则地平，一念清净，当处即是。烦恼即菩提，不离此心别有净土。",
+   "text_en": "In the end I still hold to sudden awakening, yet I do not discard daily practice. **Virtue is not sought outside, nor bitterly accumulated; it lies in this one thought, here and now: one awakened thought and compassion appears of itself; one deluded thought and a thousand goods are cut off.** You speak of knowledge, of habit, of environment — all true; but if one does not know one's own original heart, then learning has no root and practice no master, like water without a source, a tree without roots. Three things you can do: first, turn and watch your own mind — with each thought that rises, ask whether it comes from compassion or from greed and anger; to recognise it is already practice, and need not be sought afar. Second, polish yourself in the midst of affairs: carrying water and chopping wood, dealing with people and things — all are the place of practice; no need to flee daily life to seek some pure ground elsewhere. Third, do not turn outward to rank good and bad, high and low — when another errs, do not err with him; seeing anyone's fault, first reflect on your own mind. When the mind is level, the ground is level; one thought made pure, and right here is the Pure Land. The afflictions are themselves awakening — there is no Pure Land to find apart from this very heart.",
+   "vernacular": "我最终仍主张顿悟，但并不废弃日常修行。**德不在外面去求，也不在苦苦积累，只在当下这一个念头：一念觉悟，慈悲自然显现；一念迷失，千般善行都被隔断。**诸位讲『知』、讲『习』、讲『环境』，都对；但如果认不得自己的本心，学习就没有根本，练习就没有主人，像没有源头的水、没有根的树。告诉大家三件能做的：第一，回头观照自己的心——每起一个念头，问它是从慈悲来，还是从贪婪嗔恨来，认出来就是修行，不必向远处求。第二，在具体事情上磨炼：挑水砍柴、待人接物，处处都是修行的道场，不必厌弃日常另找一块清净地。第三，别向外去攀比善恶高下——别人错、我不跟着错，看见一切人的过失，先反照自己的心。心平了，脚下就平；一个念头清净，当下就是净土。烦恼本身就是觉悟，不必离开这颗心另找一个净土。",
+   "vernacular_en": "",
+   "glossary": {
+    "烦恼即菩提": "the afflictions are themselves bodhi（烦恼即菩提）：禅宗要义，谓贪嗔痴等烦恼与觉悟并非两物，当下转念、于烦恼中即可见菩提，不必别处另求清净。"
+   },
+   "glossary_en": {
+    "afflictions are themselves awakening": "a core Chan teaching that the afflictions — greed, anger, delusion — and awakening are not two separate things; by turning the thought here and now, bodhi is seen within the affliction itself, with no purity to seek elsewhere."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "mengzi"
+    ],
+    "轻微赞同": [
+     "socrates"
+    ],
+    "中立": [
+     "aristotle",
+     "piaget"
+    ],
+    "轻微反对": [
+     "xunzi"
+    ],
+    "疑惑": [
+     "sapolsky"
+    ]
+   }
+  },
+  {
+   "id": "p20",
+   "round": 3,
+   "thinker": "piaget",
+   "reply_to": null,
+   "text": "把神学和形而上放下，回到孩子身上，答案其实很朴素：**道德不是灌进去的，也不是等它自己冒出来的，而是在一次次真实的互动里，被孩子自己建构起来的——所以你给他什么样的互动，比你对他讲什么样的道理重要得多。**给为人父母、师长者三条：其一，少讲大道理，多创造让孩子平等协商的机会——一起定家规、轮流、分东西，公平感是在这里长出来的，不是在训话里。其二，按发展阶段说话：对小小孩，用具体的、看得见后果的方式，别指望五岁孩子理解抽象的『正义』。其三，重动机甚于重后果：孩子闯了祸，先问『你当时想干嘛』，而不是只按闯祸大小罚——这一问，正是把他从『他律』推向『自律』的关键一步。",
+   "text_en": "Set theology and metaphysics aside, return to the child, and the answer is really quite plain: **morality is neither poured in nor waited out; it is constructed by the child himself in one real interaction after another — so the kind of interaction you give him matters far more than the kind of doctrine you preach at him.** Three things for parents and teachers: first, preach less and create more chances for the child to negotiate as an equal — set house rules together, take turns, share things out; a sense of fairness grows here, not in lectures. Second, speak to the developmental stage: with a small child use concrete, visible-consequence terms, and do not expect a five-year-old to grasp an abstract 'justice.' Third, weigh intention above consequence: when a child causes trouble, first ask 'what were you trying to do?' rather than punishing only by the size of the damage — that one question is the key step nudging him from 'heteronomous' toward 'autonomous.'",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": null,
+   "glossary_en": null,
+   "reactions": {
+    "强烈赞同": [
+     "aristotle",
+     "sapolsky"
+    ],
+    "轻微赞同": [
+     "xunzi",
+     "mengzi"
+    ],
+    "中立": [
+     "socrates",
+     "huineng"
+    ]
+   }
+  },
+  {
+   "id": "p21",
+   "round": 3,
+   "thinker": "sapolsky",
+   "reply_to": null,
+   "text": "我不是要你们躺平。看清一切由因果和运气塑造，不通向放纵，反倒通向两件更好的事：更少的自责，和更聪明的介入。**既然『德性』很大程度上是好大脑遇上好环境的产物，那与其拼命责怪自己或别人不够好，不如去改造那些真正管用的条件。**给普通人三条：其一，对自己少一点道德羞辱：戒不掉、忍不住时，别把它当人格缺陷，当成一个可以调整的系统——改睡眠、改压力、改身边的诱因，往往比咬牙硬扛有效。其二，善用环境的力量：想变好，先换掉让你变坏的处境和人际，而不是空练意志。其三，把这份理解给到别人：那个『不学好』的孩子、那个总失控的同事，背后常有你看不见的早年与神经现实——理解不是纵容，但它让你的帮助真正落在因上。",
+   "text_en": "I am not telling you to give up. To see that all is shaped by causation and luck leads not to license but to two better things: less self-blame, and smarter intervention. **Since 'virtue' is largely the product of a good brain meeting a good environment, rather than furiously blaming yourself or others for not being good enough, go reshape the conditions that actually work.** Three things for ordinary people: first, spare yourself the moral shaming — when you cannot quit or cannot resist, treat it not as a character flaw but as a system you can adjust: change your sleep, your stress, the cues around you, which often beats gritting your teeth. Second, harness the power of environment: to become better, first swap out the situations and company that make you worse, instead of drilling willpower in a vacuum. Third, extend this understanding to others: behind the child who 'won't shape up,' the colleague who keeps losing control, there is often an early life and a neural reality you cannot see — understanding is not indulgence, but it lets your help land on the actual causes.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": null,
+   "glossary_en": null,
+   "reactions": {
+    "强烈赞同": [
+     "piaget"
+    ],
+    "轻微赞同": [
+     "aristotle",
+     "huineng"
+    ],
+    "中立": [
+     "socrates",
+     "mengzi",
+     "xunzi"
+    ]
+   }
+  }
+ ],
+ "summaries": [
+  {
+   "ai": "claude",
+   "engine": "Opus 4.8 · 订阅(原生)",
+   "engine_en": "Opus 4.8 · subscription (native)",
+   "summary": "先说共识：全场没有一个人真主张德性纯靠天生、无需下功夫，也没人认为一纸道理就能造出好人——连最讲『本自具足』的慧能，也要人当下识得、日用打磨。分歧在于德性的来源与配方：苏格拉底押注『知』，荀子与皮亚杰押注后天的『习』与建构，孟子押注本有的善端，亚里士多德把三者调成『知—习—境』的合流，慧能把根基收回到内心一念，萨波尔斯基则干脆把『可教吗』改写成『什么样的大脑与环境更容易长出善行』。争的不是要不要努力，而是努力该往哪里使、以及有多少并不由努力决定。",
+   "summary_en": "Consensus first: no one truly argued that virtue is purely inborn and needs no work, and no one held that a page of doctrine can manufacture a good person — even Huineng, who most insists nature is 'already complete,' still asks one to recognise it here and now and polish it in daily life. The divergence is over virtue's source and recipe: Socrates bets on knowledge, Xunzi and Piaget on acquired habit and construction, Mengzi on the inborn sprout, Aristotle blends the three into a confluence of knowledge–habit–environment, Huineng draws the root back to a single thought of the mind, and Sapolsky simply rewrites 'can it be taught?' into 'which brains and environments more readily grow good behaviour.' The quarrel is not whether to make an effort, but where the effort should go — and how much is not decided by effort at all.",
+   "insight": "有一个被各方擦过、却没人放到中心的杠杆：德性也许更多是『染』出来的，而非『教』出来的。苏格拉底靠问、荀子靠礼、皮亚杰靠阶段，都默认改变发生在一个人身上；可现实里，人最深的品格往往来自长期模仿身边具体的某个人——你敬重谁、和谁朝夕相处，比任何道理都更能塑造你。这意味着最要紧的道德抉择，不是背下几条准则，而是选择你站在谁身边、以及你自己成为别人身边的谁。**与其问德性能不能教，不如问：这一年，是谁在潜移默化地把你变成现在的样子？**",
+   "insight_en": "There is a lever every side brushed but none put at the centre: virtue may be caught more than taught. Socrates leans on questioning, Xunzi on ritual, Piaget on stages — all assume the change happens inside one person; yet in real life our deepest character usually comes from long imitation of some concrete person nearby — whom you admire and live alongside shapes you more than any doctrine. This means the weightiest moral choice is not memorising a few rules but choosing whom you stand next to — and who you become for others to stand next to. **Rather than ask whether virtue can be taught, ask: this past year, who has been quietly turning you into who you now are?**",
+   "advice": "三条今天就能起步。第一，做一次『身边人盘点』：列出你每天接触最多的三五个人，诚实问问他们把你往哪个方向带——若有人只让你变得刻薄或涣散，主动拉开距离，再有意识地靠近一个你真心敬重的人。第二，把想要的品德拆成一个每天可做的小动作，像亚里士多德说的那样练：想更诚实，就每天说一句本想含糊带过的实话。第三，对自己犯的老毛病，换掉『我怎么这么差』的自责，改用萨波尔斯基的问法——先动手改环境（睡眠、诱因、场合），别只跟意志力死磕。",
+   "advice_en": "Three you can start today. First, run a 'people audit': list the three-to-five people you're around most, and ask honestly which way each pulls you — if someone only makes you meaner or more scattered, deliberately create distance, and just as deliberately move closer to one person you genuinely admire. Second, break the trait you want into one small daily act and practise it as Aristotle says: to grow more honest, tell one plain truth a day you'd have fudged. Third, for your old recurring faults, swap the self-blame of 'why am I so bad' for Sapolsky's question — change the environment first (sleep, cues, settings) instead of grinding against willpower alone."
+  },
+  {
+   "ai": "gpt",
+   "engine": "降级:Opus 扮演(未配 KEY)",
+   "engine_en": "fallback: Opus role-play (no key)",
+   "summary": "先看共识：无论主张性善、性恶还是无我，各方其实都同意一件事——放任不管，好品格不会自动到来；差别只在这份『功夫』是唤醒本有、还是从头塑造。真正的对撞在于责任的落点：孟子把它放在个人的『扩充』，荀子放在师法礼义的外部约束，皮亚杰放在与同伴互动的结构，萨波尔斯基则把它大半交还给基因、激素与运气。这几条线索并不互斥，却指向截然不同的对策——是修心、立规、造环境，还是改条件。",
+   "summary_en": "Consensus first: whether one holds nature good, bad, or empty of a self, every side in fact agrees on one thing — left alone, good character does not arrive of itself; the difference is only whether this 'work' awakens what is already there or shapes it from scratch. The real collision is over where responsibility falls: Mengzi lodges it in personal 'extension,' Xunzi in the external discipline of ritual and law, Piaget in the structure of peer interaction, and Sapolsky hands most of it back to genes, hormones and luck. These threads are not mutually exclusive, yet they point to sharply different remedies — cultivating the heart, setting rules, building environments, or changing conditions.",
+   "insight": "这场几乎没人追问的一个前提是：他们默认大家都知道『德性』指什么。可勇敢、诚实、孝顺、忠诚，在不同文化与阶层里内容并不一致，甚至彼此冲突——一个社会的美德，可能是另一个社会的恶习。于是『能不能教』之前，还横着一个更棘手的问题：**我们到底在教谁的德性？**把某一套价值当成天然正确去传递，恰恰是最不易察觉的偏见。所以在动手教之前，先得为『何为善』本身留出可以争辩、可以修正的空间。",
+   "insight_en": "One premise almost no one interrogated: they all assume we already know what 'virtue' means. Yet courage, honesty, filial devotion, loyalty differ in content across cultures and classes, and can even conflict — one society's virtue may be another's vice. So before 'can it be taught?' stands a thornier question: **whose virtue are we teaching?** Transmitting one set of values as naturally correct is the least visible of biases. So before teaching anything, we must first leave room to argue over, and revise, what 'the good' itself even is.",
+   "advice": "给普通人三条。第一，别只教孩子或自己『规则是什么』，也一起讨论『为什么是这条规则、换个情境还成立吗』——留出质疑的空间，德性才不会退化成服从。第二，为想养成的品格找一个活的榜样，而不是一句口号：定期接触那个人、观察他怎么在具体两难里选择。第三，每周复盘一次：这周我在哪件事上，把『别人的期待』误当成了『自己认可的善』？把这两者一点点分清，正是从『他律』走向真正自律的起点。",
+   "advice_en": "Three for ordinary people. First, don't only teach a child (or yourself) 'what the rule is'; also discuss 'why this rule, and does it still hold in another situation' — leaving room to question keeps virtue from decaying into mere obedience. Second, find a living model for the trait you want rather than a slogan: spend time with that person and watch how they choose inside concrete dilemmas. Third, review weekly: where this week did I mistake 'others' expectations' for 'the good I myself endorse'? Telling the two apart, little by little, is where the move from heteronomy to real autonomy begins."
+  },
+  {
+   "ai": "gemini",
+   "engine": "google · gemini-3.1-pro-preview(真实API)",
+   "engine_en": "google · gemini-3.1-pro-preview (live API)",
+   "summary": "这场辩论最大的共识在于：**无论德性的出厂设置是什么，它都必须通过现实世界的某种「交互机制」才能被激活或塑型**。没人认为美德可以脱离具体情境凭空产生——无论是苏格拉底的痛苦诘问、亚里士多德的反复践行，还是皮亚杰的同伴协作、萨波尔斯基的环境干预。真正的分歧则聚焦于「控制权」的归属：古典哲人坚信人能通过理智或良知实现对自我的主宰；而现代科学（发展心理学与神经生物学）则残酷地揭示，这种主宰能力本身，深深受制于认知发育的时间表与神经递质的底层盲盒。",
+   "insight": "当代人面临的最大德性危机，是「数字化生存」带来的知行断裂。当我们在屏幕前为远方的悲剧轻易流泪，转头却在评论区用最恶毒的语言党同伐异时，**现代人的道德感正被切割成「情绪上的巨人，行动上的矮子」**。社交网络剥离了皮亚杰强调的「真实互动中的摩擦与妥协」，用算法迎合替代了苏格拉底的「痛苦诘问」。点赞和拉黑无法让人学会勇敢与宽容，真正的美德无法在信息茧房里靠消费道德情绪长出来，它必须在处理现实中具体的、甚至不可爱的人与事时，才能真正落地生根。",
+   "advice": "结合先哲智慧与现代语境，本周可以尝试三件事：其一，**给道德审判加个「24小时缓冲期」**。遇到网络热点别急着站队宣泄，借用萨波尔斯基的视角想想背后的复杂因果，把精力从评判别人转回省察自己。其二，在真实世界做一件微小的善事。效仿亚里士多德，去现实中帮同事一个忙或对邻居表达真实感谢，把被屏幕吸走的道德势能转化为肌肉记忆。其三，重置你的「堕落触发器」。如果想戒除坏习惯，别和意志力死磕，直接改变物理环境，把诱惑移出视线之外。",
+   "summary_en": "The greatest consensus in this debate is that **regardless of our 'factory settings,' virtue must be activated or shaped through concrete real-world interaction**. No one believes morality emerges in a vacuum—whether it requires Socratic questioning, Aristotelian habituation, Piagetian peer play, or Sapolsky's environmental intervention. The true divergence lies in the locus of control: classical thinkers firmly believe in human agency through reason and conscience, whereas modern science ruthlessly reveals that this very agency is heavily constrained by biological lotteries and cognitive developmental timelines.",
+   "insight_en": "The most profound moral crisis of our time is the decoupling of knowledge and action caused by our digital existence. When we easily shed tears for distant tragedies online but immediately hurl vicious insults at dissenters in the comments, **modern morality is being fractured into 'emotional giants, but behavioral dwarfs.'** Social media strips away the friction and compromise of real interactions that Piaget emphasized, replacing Socratic dialectic with algorithmic echo chambers. True virtue cannot grow by merely consuming moral outrage in a digital bubble; it must take root in navigating concrete, often unlovable relationships in the physical world.",
+   "advice_en": "Integrating these insights into modern life, try these three practical steps this week: First, **apply a '24-hour buffer' to your moral judgments**. Before reacting to viral outrage, adopt Sapolsky's lens of complex causality and shift your energy from judging others online to examining your own life. Second, perform a micro-act of goodness offline. Following Aristotle, do a tangible favor for a colleague or express genuine gratitude to a stranger, translating digital moral energy into physical muscle memory. Third, redesign your vice triggers. Don't fight willpower; physically alter your environment to make bad habits harder to execute."
+  }
+ ],
+ "hooks": [
+  {
+   "from": "claude",
+   "text": "**德性是『染』出来的，还是『教』出来的**：全场都在问怎样把善传给一个人，却少有人正视——最深的品格往往不是被讲会的，而是长期模仿身边某个具体的人『染』上的。若真如此，最要紧的一步就不在读多少准则，而在你选择站在谁身边、又成为别人身边的谁。",
+   "text_en": "**Is virtue caught or taught?** The whole room asked how to hand goodness to a person, but few faced this: our deepest character is usually not argued into us but 'caught' by long imitation of some concrete person nearby. If so, the weightiest step is not how many rules you read but whom you choose to stand beside — and who you become for others to stand beside."
+  },
+  {
+   "from": "gpt",
+   "text": "**我们究竟在教谁的德性**：辩论默认大家都知道『善』指什么，可勇敢、孝顺、忠诚在不同文化与阶层里内容并不一致，甚至彼此冲突。在问『能不能教』之前，先得为『何为善』留出可争辩的空间——否则传递的是价值，练成的却是服从。",
+   "text_en": "**Whose virtue are we teaching?** The debate assumed we already agree on what 'the good' means, yet courage, filial duty and loyalty differ in content across cultures and classes, and can even conflict. Before asking 'can it be taught?' we must leave room to argue over what goodness is — otherwise what gets transmitted is a set of values but what gets trained is obedience."
+  },
+  {
+   "from": "gemini",
+   "text": "**最大的老师是制度**：整场几乎都停在个人与家庭尺度，却漏掉了日夜施教的那台机器——制度与文化。一个奖励诚实还是钻营、鼓励互助还是告密的社会，沉默却持续地塑造着每个人。只谈个人怎么修、父母怎么教，等于把一台巨大教化机器的功过全算到个体头上。",
+   "text_en": "**The biggest teacher is the institution**: the debate stayed at the scale of the individual and family, missing the machine that teaches day and night — institutions and culture. A society that rewards honesty or scheming, mutual aid or informing, shapes everyone within it silently but ceaselessly. To speak only of personal cultivation and parenting is to charge one person with the credit and blame of an enormous machine of moral formation."
+  },
+  {
+   "from": "sapolsky",
+   "text": "**如果德性靠运气，该怎么对待作恶者**：若一个人的自制与善良，大半由童年、生理与运气写定，那么『他本可以做得更好』这句话就要打折。这不导向纵容，却逼我们重想惩罚——多少是矫正、多少只是报复？理解成因，会不会让帮助比责罚更有效？",
+   "text_en": "**If virtue runs on luck, how should we treat wrongdoers?** If a person's self-control and kindness are largely written by childhood, biology and luck, then 'he could have done better' must be discounted. This does not lead to license, but it forces a rethink of punishment — how much is correction and how much mere retribution? Might understanding the causes make help more effective than blame?"
+  },
+  {
+   "from": "aristotle",
+   "text": "**不同的德性，该用不同的方法养**：把善笼统地问『能不能教』，容易一刀切。需要判断的（公正、诚实）、需要克制冲动的（节制、勇敢）、需要转念的（慈悲、放下），以及被早年生理拖累的（成瘾、失控），其实各有各的入手处。分清品德的类型，比争论它整体可不可教更有用。",
+   "text_en": "**Different virtues call for different methods**: asking, in the abstract, whether goodness 'can be taught' invites a one-size answer. Virtues that need judgement (justice, honesty), those that need reining in impulse (temperance, courage), those that need a turn of mind (compassion, letting go), and those dragged down by early biology (addiction, loss of control) each have their own point of entry. Sorting the type of virtue is more useful than arguing whether it is teachable as a whole.",
+   "answer": {
+    "lead": "把『德性可教吗』拆开看：不同类型的品德，最管用的养成方式并不一样。下面这张对照表，把本场几位的主张对到四类常见品德上——**先分类，再对症。**",
+    "table": {
+     "head": [
+      "这类品德",
+      "主要靠什么",
+      "怎么下手"
+     ],
+     "rows": [
+      [
+       "需要判断的（公正、诚实）",
+       "知 + 对话反思（苏格拉底 · 皮亚杰）",
+       "多讨论真实两难、追问动机，而非背结论；按孩子的发展阶段调难度"
+      ],
+      [
+       "需要克制冲动的（节制、勇敢）",
+       "习惯 + 环境设计（亚里士多德 · 荀子）",
+       "拆成每天可做的小动作反复练，把诱因挪远、把好选项放在手边"
+      ],
+      [
+       "需要转念的（慈悲、放下嗔恨）",
+       "当下的觉察（慧能）",
+       "念起即观，问它从慈悲还是贪嗔来；在日用待人接物中就地磨，不必另寻净地"
+      ],
+      [
+       "被早年/生理拖累的（成瘾、失控）",
+       "改造条件（萨波尔斯基）",
+       "先调睡眠、压力、关系与场合，少一点道德羞辱，把它当可调整的系统而非人格缺陷"
+      ]
+     ]
+    },
+    "tail": "两条原则收尾：**其一，先认出你面对的是哪一类，用错方法比不用更耗人；其二，四类常常叠加——同一个目标，往往要同时修心、立规、造环境、改条件。**"
+   },
+   "answer_en": {
+    "lead": "Take 'can virtue be taught?' apart: different kinds of character are best grown in different ways. The table below maps several voices from this exchange onto four common types of virtue — **sort first, then treat accordingly.**",
+    "table": {
+     "head": [
+      "This kind of virtue",
+      "Mainly rests on",
+      "How to start"
+     ],
+     "rows": [
+      [
+       "Needs judgement (justice, honesty)",
+       "Knowledge + reflective dialogue (Socrates · Piaget)",
+       "Discuss real dilemmas and probe intentions rather than memorising conclusions; pitch the difficulty to the child's developmental stage"
+      ],
+      [
+       "Needs curbing impulse (temperance, courage)",
+       "Habit + environment design (Aristotle · Xunzi)",
+       "Break it into small daily acts and drill them; move temptation away and put the good option within reach"
+      ],
+      [
+       "Needs a turn of mind (compassion, letting go)",
+       "Awareness here and now (Huineng)",
+       "Watch each thought as it rises, asking if it comes from compassion or from greed and anger; polish it in ordinary dealings, not in some pure retreat"
+      ],
+      [
+       "Dragged by early life/biology (addiction, loss of control)",
+       "Reshaping conditions (Sapolsky)",
+       "Adjust sleep, stress, relationships and settings first; ease the moral shaming, treating it as an adjustable system, not a character flaw"
+      ]
+     ]
+    },
+    "tail": "Two closing principles: **first, recognise which type you face — the wrong method costs more than none; second, the four often overlap — a single goal usually asks you to cultivate the heart, set rules, build an environment and change conditions all at once.**"
+   }
+  }
+ ]
+}

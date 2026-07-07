@@ -6972,6 +6972,58 @@
       "lineage_en": "The sharpest heir to Hilbert's axiomatic program. At Princeton he knew Turing personally — their names are inscribed, respectively, on the architecture and the theoretical model of the modern computer. Game theory grew into a full discipline through Nash, Schelling and others; even the early use of the phrase 'technological singularity' comes from his friend Ulam's memoir of their conversations.",
       "trivia": "六岁能心算八位数除法，据说能整页背诵电话簿以娱宾客；对自己唯一承认的不足是钢琴弹不好。车技出名地糟糕，普林斯顿一处路口因他屡屡出事被戏称『冯·诺依曼拐角』。他家的派对是普林斯顿最热闹的，他常在震耳的留声机音乐里同时演算。临终于病榻上仍为国防部做咨询，警卫守在门外——怕他昏迷中说出机密。",
       "trivia_en": "At six he could divide eight-digit numbers in his head, and reportedly recited pages of the phone book to amuse guests; the only deficiency he admitted to was his piano playing. His driving was notoriously bad — a Princeton intersection where he kept crashing was nicknamed 'von Neumann corner.' His parties were the liveliest in Princeton, and he often calculated through the blare of the gramophone. On his deathbed he was still consulting for the Defense Department, with a military guard at the door — lest he betray secrets in his sleep."
+    },
+    "shannon": {
+      "bio": "克劳德·艾尔伍德·香农(1916–2001)，美国数学家、电气工程师，被公认为『信息论之父』。他生于密歇根，1936 年在密歇根大学取得电气工程与数学双学位，后入麻省理工。1948 年在贝尔实验室发表《通信的数学理论》，凭一篇论文近乎独力开创了一整门学科。他一生兼具第一流的理论深度与孩子气的玩心，常把最严肃的问题当成游戏来玩。",
+      "bio_en": "Claude Elwood Shannon (1916–2001) was an American mathematician and electrical engineer, universally regarded as the 'father of information theory.' Born in Michigan, he earned dual degrees in electrical engineering and mathematics at the University of Michigan (1936) before moving to MIT. In 1948, at Bell Labs, he published 'A Mathematical Theory of Communication,' founding an entire discipline almost single-handedly with a single paper. Throughout his life he paired first-rate theoretical depth with a childlike playfulness, forever treating the most serious problems as games.",
+      "ideas": "香农最深远的贡献，是教会世界如何『度量信息』。在他之前，信息是个模糊的日常词；他把它精确化：一条消息带来的信息量，等于它消除了多少不确定性。抛一枚公平硬币，结果带来的信息恰好是『1 比特』——比特(bit)这个基本单位，正是伴随他的理论被命名和推广的，如今是整个数字世界的计量单位。\n\n他引入了『信息熵』：一个消息源越不可预测，它的熵越高、携带的信息越多；反过来，越是套路化、越容易被猜到的东西，信息量越低。这个公式与物理学统计力学里的『熵』形式相同——据香农回忆，是冯·诺依曼建议他借用『熵』这个名字的。\n\n他还证明了两条改写了工程的定理。其一是『信道容量』：任何一条通信线路(电话线、光纤、无线电)每单位时间能可靠传输的信息量，都有一个由带宽与噪声决定的硬上限，越不过去。其二更反直觉——『有噪信道编码定理』：只要传输速率不超过这个容量，人就总能设计出一种编码，把出错率压到任意接近零。这意味着噪声不是宿命，可以靠巧妙的编码几乎完全战胜；今天的手机、硬盘、深空探测器能在杂讯里精确通信，根子都在这条定理。\n\n而这一切的前提，是他做了一个大胆的切割：把信息从『意义』里剥离出来。一条消息对人而言是感人的情书还是一串股票代码，在工程上无关紧要；要紧的只是它从多少种可能里选出了哪一个。正是这种把语义悬置、只留下结构的抽象，让信息第一次能被数学处理，也让『信息』成了横跨通信、计算机、密码学、乃至生物学与神经科学的通用货币。",
+      "ideas_en": "Shannon's deepest contribution was teaching the world how to *measure* information. Before him, 'information' was a vague everyday word; he made it precise: the amount of information in a message equals how much uncertainty it removes. The toss of a fair coin carries exactly one 'bit' of information — and the bit, now the basic unit of the entire digital world, was named and popularized alongside his theory.\n\nHe introduced 'information entropy': the more unpredictable a source, the higher its entropy and the more information it carries; the more formulaic and guessable something is, the less it tells you. His formula has the same form as entropy in statistical mechanics — by Shannon's own account, it was von Neumann who suggested he borrow the name 'entropy.'\n\nHe also proved two theorems that rewrote engineering. The first is 'channel capacity': any communication line (a phone wire, an optical fiber, a radio link) has a hard ceiling, set by bandwidth and noise, on how much information it can reliably carry per unit time. The second is more counterintuitive — the 'noisy-channel coding theorem': as long as you transmit below that capacity, you can always design a code that pushes the error rate arbitrarily close to zero. Noise, in other words, is not destiny; clever coding can nearly defeat it. That your phone, hard drive, and deep-space probes can communicate flawlessly through static all traces back to this result.\n\nAll of it rested on one bold cut: he stripped information away from *meaning*. Whether a message is a tender love letter or a string of stock tickers is irrelevant to the engineering; all that matters is which of the many possibilities it selects. By suspending the semantics and keeping only the structure, he made information mathematically tractable for the first time — and turned 'information' into a common currency running across communication, computing, cryptography, and even biology and neuroscience.",
+      "assessments": [
+        {
+          "by": "罗伯特·加拉格尔",
+          "text": "（大意）香农几乎凭一己之力创立了信息论——不是改良某个已有领域，而是从无到有立起一门完整的学科，且一出手就近乎完备，后人几十年都在填他勾出的框架。"
+        },
+        {
+          "by": "科学史界",
+          "text": "他 1937 年的硕士论文《继电器与开关电路的符号分析》把布尔代数与电路开关一一对应，奠定了一切数字电路与计算机逻辑设计的基础，常被誉为 20 世纪最重要的硕士论文之一。"
+        }
+      ],
+      "assessments_en": [
+        {
+          "by": "Robert Gallager",
+          "text": "(paraphrased) Shannon founded information theory almost single-handedly — not by improving an existing field but by raising a complete discipline from nothing, and arriving nearly fully formed; researchers spent decades filling in the framework he had sketched."
+        },
+        {
+          "by": "Historians of science",
+          "text": "His 1937 master's thesis, 'A Symbolic Analysis of Relay and Switching Circuits,' mapped Boolean algebra onto electrical switches one-to-one, laying the foundation for all digital circuitry and computer logic design — often called one of the most important master's theses of the twentieth century."
+        }
+      ],
+      "quotes": [
+        "通信的根本问题，是在一点精确或近似地重现在另一点选定的消息。",
+        "（大意）我一向只凭兴趣做事，很少考虑它有没有金钱价值、对世界有没有用——我在完全无用的东西上花了大量时间。",
+        "（大意）我只是好奇，事物到底是怎么拼装到一起的。"
+      ],
+      "quotes_en": [
+        "The fundamental problem of communication is that of reproducing at one point either exactly or approximately a message selected at another point.",
+        "(paraphrased) I have always pursued my interests without much regard to their financial value or value to the world — I've spent lots of time on totally useless things.",
+        "(paraphrased) I just wondered how things were put together."
+      ],
+      "works": [
+        "《通信的数学理论》(A Mathematical Theory of Communication, 1948)",
+        "《继电器与开关电路的符号分析》(硕士论文, 1937)",
+        "《保密系统的通信理论》(1949)",
+        "《为下棋编程》(1950)"
+      ],
+      "works_en": [
+        "'A Mathematical Theory of Communication' (1948)",
+        "'A Symbolic Analysis of Relay and Switching Circuits' (master's thesis, 1937)",
+        "'Communication Theory of Secrecy Systems' (1949)",
+        "'Programming a Computer for Playing Chess' (1950)"
+      ],
+      "lineage": "上承 布尔的逻辑代数、奈奎斯特与哈特利对信息传输的早期量化，并与维纳的控制论同代呼应；下启 整个数字通信、数据压缩、纠错编码与现代密码学，其『信息』概念更被分子生物学、神经科学广泛借用。",
+      "lineage_en": "He built on Boole's algebra of logic and the early attempts of Nyquist and Hartley to quantify transmission, and ran parallel to Wiener's cybernetics; downstream he launched all of digital communication, data compression, error-correcting codes and modern cryptography, while his notion of 'information' was widely borrowed by molecular biology and neuroscience.",
+      "trivia": "香农玩心极重：他会在贝尔实验室的走廊上一边骑独轮车一边抛接杂耍球；造过一只能自己走出迷宫的机械鼠『忒修斯』，是最早的机器学习演示之一；还做过一个『终极机器』——按下开关，盒子里伸出一只手把开关关掉，别无他用。他和数学家索普合作造过预测轮盘赌的可穿戴计算机，可能是世界上第一台。晚年他罹患阿尔茨海默症。",
+      "trivia_en": "Shannon was irrepressibly playful: he would ride a unicycle down the halls of Bell Labs while juggling; he built 'Theseus,' a mechanical mouse that could find its own way out of a maze, one of the earliest demonstrations of machine learning; and he made an 'Ultimate Machine' whose only function was that, when you flipped its switch on, a hand emerged from the box to switch it off. With the mathematician Ed Thorp he built a wearable computer to predict roulette — possibly the world's first. In his later years he suffered from Alzheimer's disease."
     }
   }
 }

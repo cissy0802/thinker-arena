@@ -1,0 +1,921 @@
+{
+  "id": "depth-or-breadth",
+  "question": "AI 时代，人的心智该往「深」练还是往「广」练？",
+  "question_en": "In the AI era, should the mind train for depth or for breadth?",
+  "date": "2026-07-07",
+  "participants": [
+    "newport",
+    "csikszentmihalyi",
+    "wolf",
+    "damasio",
+    "shannon",
+    "kongzi",
+    "zhuangzi",
+    "aristotle"
+  ],
+  "casting": [
+    {
+      "id": "newport",
+      "reason": "《深度工作》与『职业资本』的旗手：他主张价值来自不受打扰的专注，正好是『深』这一端最锋利的现代代言人。请他把赌注挑明——当 AI 能廉价供应广度，人还剩什么。",
+      "reason_en": "The standard-bearer of Deep Work and 'career capital': he argues that value comes from undistracted focus, making him the sharpest modern voice for the 'depth' pole. Let him name the wager — when AI supplies breadth cheaply, what is left to a human."
+    },
+    {
+      "id": "csikszentmihalyi",
+      "reason": "心流研究的奠基者：从『最优体验』的角度支持深度，但落点不在市场而在活着的质量——把『该不该专注』从生产力问题拉回幸福问题。",
+      "reason_en": "Founder of flow research: he supports depth from the angle of 'optimal experience,' but his stake is not the market — it is the quality of being alive, pulling the question of focus back from productivity to happiness."
+    },
+    {
+      "id": "wolf",
+      "reason": "认知神经科学家、《普鲁斯特与乌贼》作者：她研究『阅读脑』如何靠神经可塑性搭起深度回路，又如何被浅层略读侵蚀，为深广之争提供大脑层面的实证与警告。",
+      "reason_en": "Cognitive neuroscientist and author of Proust and the Squid: she studies how the 'reading brain' builds a deep-reading circuit through neuroplasticity, and how skimming erodes it — bringing hard, brain-level evidence and warning to the debate."
+    },
+    {
+      "id": "damasio",
+      "reason": "『躯体标记假说』的提出者：他能把『切换的代价』从丢掉的时间，讲到判断力赖以生长的身体连续性——碎片化如何切断情绪为理性打的地基。",
+      "reason_en": "Author of the somatic-marker hypothesis: he can take 'the cost of switching' beyond lost minutes to the bodily continuity that judgment grows from — how fragmentation severs the emotional foundation reason rests on."
+    },
+    {
+      "id": "shannon",
+      "reason": "信息论之父，本场首次登场：他把整场争论重述为一条容量固定的信道该如何分配，用『比特、信道容量、分时复用』给深与广一把冷静的量尺，也指出稀有信号有时藏在跨领域的接壤处。",
+      "reason_en": "Father of information theory, appearing for the first time: he recasts the whole dispute as how to allocate a fixed-capacity channel, giving depth and breadth a cool metric — the bit, channel capacity, time-multiplexing — while noting the rarest signal sometimes hides where fields meet."
+    },
+    {
+      "id": "kongzi",
+      "reason": "『君子不器』的通才理想：他为『广』提供最古老而有力的辩护——把人磨成一件专用器具，纵为市场所贵，也损其为人；广博以成人，一以贯之而不散。",
+      "reason_en": "The generalist ideal of 'the gentleman is not a vessel': he gives breadth its oldest and strongest defense — to grind a person into a single-purpose utensil, however the market prizes it, diminishes their humanity; cultivate broadly to become whole, threaded on one principle so as not to scatter."
+    },
+    {
+      "id": "zhuangzi",
+      "reason": "『用志不分，乃凝于神』的凝神与『无用之用』的破题者：他既能为专注入神(庖丁解牛)背书，又反过来掀掉『深/广皆求有用』这张桌子，逼全场追问追求本身。",
+      "reason_en": "The absorbed 'undivided attention condensing into spirit' and the table-flipping 'usefulness of the useless': he can vouch for spirit-like focus (Cook Ding) and yet overturn the very frame in which both depth and breadth chase usefulness, forcing the room to question the striving itself."
+    },
+    {
+      "id": "aristotle",
+      "reason": "既以『沉思(theoria)』为最高的深，又是百科全书式的博学者：他天然站在『中道』上，用『实践智慧』把非此即彼的对立，重述为同一种卓越需要拿捏的比例。",
+      "reason_en": "He holds contemplation (theoria) as the highest depth yet is an encyclopedic polymath: he stands naturally on the 'golden mean,' using practical wisdom (phronesis) to recast an either/or opposition as a proportion the same excellence must strike."
+    }
+  ],
+  "posts": [
+    {
+      "id": "p01",
+      "round": 1,
+      "thinker": "newport",
+      "reply_to": null,
+      "text": "先把赌注挑明。当 AI 能把广度——查资料、写初稿、跨领域缝合——做得又快又便宜，人身上唯一还在升值的，就是那些机器接不住、又深又难、必须在无干扰中长时间啃的认知。这就是『职业资本』：把一项稀缺而宝贵的技能磨到别人替代不了，你才换得来自主与影响。所谓『驾驭多线程』，多半是把切换的忙碌错当成了产出。**越是 AI 能廉价接管广度，人越该把不可外包的深度，磨成自己的稀缺资本。**",
+      "text_en": "Let me name the wager. When AI can do breadth — research, first drafts, stitching across fields — fast and cheap, the only thing on a human still appreciating in value is the cognition machines can't hold: the deep, hard kind that must be ground out over long, uninterrupted stretches. That is **career capital**: hone one rare and valuable skill until no one can replace you, and only then do you earn autonomy and influence. What people call 'orchestrating many threads' is mostly the busyness of switching mistaken for output. **The more cheaply AI takes over breadth, the more a human should forge the un-outsourceable depth into scarce capital.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "职业资本": "career capital（职业资本）：把一项稀有而宝贵的技能磨到精通所积累的筹码，可用来在职业里换取自主、掌控与意义；纽波特主张它是『先精通、后热爱』的前提，而非先有热爱。"
+      },
+      "glossary_en": {
+        "career capital": "the stockpile you build by mastering one rare and valuable skill; Newport argues you spend it to buy autonomy, control and meaning in your working life, and that it must come before passion, not after."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "csikszentmihalyi",
+          "wolf"
+        ],
+        "轻微赞同": [
+          "aristotle",
+          "damasio"
+        ],
+        "轻微反对": [
+          "shannon"
+        ],
+        "强烈反对": [
+          "kongzi"
+        ],
+        "疑惑": [
+          "zhuangzi"
+        ]
+      }
+    },
+    {
+      "id": "p02",
+      "round": 1,
+      "thinker": "csikszentmihalyi",
+      "reply_to": null,
+      "text": "我从另一个方向支持深度，但不是为了市场，是为了活着的质量。我研究了几千人几十年，最好的时刻几乎都长一个样：挑战与技能刚好匹配、全神贯注到忘了时间与自我——这就是『心流』。它只在你把注意力收拢成一束时才降临。**每一次切换，都把刚要成形的心流赶走；一颗习惯了多线程的心，尝不到那种忘我的喜悦，只在轻度的焦虑与无聊之间摆荡。**深度不只更有产出，它是意义与幸福真正的栖身之所。",
+      "text_en": "I support depth from another direction — not for the market, but for the quality of being alive. I studied thousands of people over decades, and the best moments nearly all look the same: challenge matched to skill, absorption so total you forget time and self. That is **flow**. It descends only when you gather attention into a single beam. **Every switch chases away the flow just as it was forming; a mind habituated to many threads never tastes that self-forgetting joy — it only sways between mild anxiety and boredom.** Depth is not merely more productive; it is where meaning and happiness actually live.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "心流": "flow（心流）：人在挑战与技能高度匹配、全神贯注、浑然忘我时进入的最优体验状态；此时行动与觉知合一，时间感扭曲，活动本身即是回报。"
+      },
+      "glossary_en": {
+        "flow": "the optimal-experience state entered when challenge is finely matched to skill and attention is wholly absorbed and self-forgetting; action and awareness merge, the sense of time warps, and the activity becomes its own reward."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "newport",
+          "wolf"
+        ],
+        "轻微赞同": [
+          "aristotle",
+          "damasio",
+          "zhuangzi"
+        ],
+        "疑惑": [
+          "shannon"
+        ],
+        "轻微反对": [
+          "kongzi"
+        ]
+      }
+    },
+    {
+      "id": "p03",
+      "round": 1,
+      "thinker": "wolf",
+      "reply_to": null,
+      "text": "让我把这件事放进大脑里看。人脑没有天生的『阅读回路』，更没有天生的『深度思考回路』——它们全是后天靠神经可塑性一点点搭起来的。持续的深度阅读，才养得出推理、共情、批判与内省这条『深度阅读回路』；而长期的浅层略读与不停切换，会让它悄悄萎缩，用进废退。**我们读什么、怎么读，正在重塑我们成为什么样的人。**但我不主张只要深、不要广：真正该练的，是一颗能在深读与速览间自如切换的脑——只是别让那条脆弱的深度回路，先在喧闹里废掉。",
+      "text_en": "Let me put this inside the brain. The human brain has no innate 'reading circuit,' still less an innate 'deep-thinking circuit' — they are all assembled after birth, piece by piece, through neuroplasticity. Only sustained deep reading grows the **deep-reading circuit** of inference, empathy, critique and reflection; chronic skimming and ceaseless switching quietly let it atrophy — use it or lose it. **What we read, and how we read, is reshaping who we become.** Yet I do not argue for depth alone: what we should truly train is a brain that can move freely between deep reading and fast scanning — only, do not let that fragile deep circuit waste away first, in the noise.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "神经可塑性": "neuroplasticity（神经可塑性）：大脑依据经验不断重塑神经连接的能力，是一把双刃剑——它让人后天学会阅读，也让荒废的回路随之退化。",
+        "深度阅读回路": "deep-reading circuit（深度阅读回路）：大脑在长期深度阅读中拼装出的神经网络，支撑推理、共情、批判与内省；玛丽安·沃尔夫认为它并非天生、需要养护，易被浅层略读挤压。"
+      },
+      "glossary_en": {
+        "neuroplasticity": "the brain's capacity to keep reshaping its neural connections according to experience — a double-edged sword: it lets us learn to read, and it lets neglected circuits decay.",
+        "deep-reading circuit": "the neural network the brain assembles through sustained deep reading, supporting inference, empathy, critique and reflection; Wolf holds that it is not innate, must be maintained, and is easily crowded out by shallow skimming."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "newport",
+          "csikszentmihalyi",
+          "damasio"
+        ],
+        "轻微赞同": [
+          "aristotle",
+          "shannon"
+        ],
+        "中立": [
+          "kongzi"
+        ],
+        "轻微反对": [
+          "zhuangzi"
+        ]
+      }
+    },
+    {
+      "id": "p04",
+      "round": 1,
+      "thinker": "damasio",
+      "reply_to": null,
+      "text": "切换的代价，远不止丢掉的那几分钟。好的判断从来不是纯逻辑算出来的——它靠『躯体标记』：身体在一次次持续投入中，把经验压成情绪的直觉标签，替你在千头万绪里迅速筛掉坏选项。这正是我说的『笛卡尔的错误』：以为理性能脱离身体独自运作。**而碎片化的注意力，恰恰切断了身体给判断打标记所需的连续时间，让理性失去它真正的地基。**深度专注不是效率问题，它是让情绪与理性重新长到一起的条件。",
+      "text_en": "The cost of switching is far more than the lost minutes. Good judgment is never computed by pure logic — it rides on **somatic markers**: through repeated, sustained engagement, the body presses experience into intuitive emotional tags that swiftly weed out bad options amid the tangle. This is what I call 'Descartes' error' — the belief that reason can operate apart from the body. **And fragmented attention severs precisely the continuous time the body needs to tag a judgment, leaving reason without its real foundation.** Deep focus is not a matter of efficiency; it is the condition under which emotion and reason grow back together.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "躯体标记": "somatic marker（躯体标记）：达马西奥提出的假说——身体把过往经验的情绪后果标记在特定情境上，形成直觉信号，在复杂决策中替我们快速缩小选项；它是理性判断的基础，而非对立面。"
+      },
+      "glossary_en": {
+        "somatic marker": "Damasio's hypothesis that the body tags situations with the emotional consequences of past experience, forming gut signals that rapidly narrow the options in complex decisions; it is the basis of rational judgment, not its opposite."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "wolf",
+          "csikszentmihalyi"
+        ],
+        "轻微赞同": [
+          "newport",
+          "zhuangzi"
+        ],
+        "疑惑": [
+          "shannon"
+        ],
+        "中立": [
+          "aristotle",
+          "kongzi"
+        ]
+      }
+    },
+    {
+      "id": "p05",
+      "round": 1,
+      "thinker": "shannon",
+      "reply_to": null,
+      "text": "容我把这场争论换成更冷静的语言。注意力是一条容量固定的信道，带宽就那么多——所以你其实从不真的『并行』：你在『分时复用』，把一条信道切成小段轮流用，而每次切换都要重新同步、付一次重传的代价。但别急着替深度站台：通信的目标从不是塞进最多比特，而是从噪声里捞出那条稀有的信号。深度是把一条信道的保真度拉满；广度是让先验更宽、把不确定性压低。**所以真问题不是『深还是广』，而是：一条容量恒定的信道，你到底该怎么分配。**",
+      "text_en": "Allow me to recast this in cooler language. Attention is a channel of fixed capacity — the bandwidth is what it is — so you never truly run things 'in parallel': you **time-multiplex**, slicing one channel into segments used in turn, and every switch costs a resynchronization, a retransmission. But do not rush to enlist me for depth: the goal of communication is never to cram in the most bits, but to fish the rare signal out of the noise. Depth maxes out the fidelity of one channel; breadth widens the prior and lowers uncertainty. **So the real question is not 'deep or broad,' but: given a channel of constant capacity, how exactly should you allocate it.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "分时复用": "time-division multiplexing（分时复用）：把一条容量有限的信道切成时间片、轮流承载多路信号的技术；用在注意力上，即『多任务』其实是快速切换而非真并行，每次切换都有开销。",
+        "信道": "channel（信道）：信息从发端传到收端所经的通路，其『容量』(每单位时间可靠传输的最大信息量)有硬上限，由带宽与噪声决定，是香农信道容量定理的核心。"
+      },
+      "glossary_en": {
+        "channel": "the path information travels from sender to receiver; its 'capacity' — the maximum it can carry reliably per unit time — has a hard ceiling set by bandwidth and noise, the core of Shannon's channel-capacity theorem.",
+        "time-multiplex": "the technique of slicing one limited-capacity channel into time slots that carry several signals in turn; applied to attention, 'multitasking' is really rapid switching rather than true parallelism, and each switch has a cost."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "aristotle"
+        ],
+        "轻微赞同": [
+          "kongzi",
+          "newport"
+        ],
+        "疑惑": [
+          "csikszentmihalyi",
+          "damasio"
+        ],
+        "中立": [
+          "wolf",
+          "zhuangzi"
+        ]
+      }
+    },
+    {
+      "id": "p06",
+      "round": 1,
+      "thinker": "kongzi",
+      "reply_to": null,
+      "text": "吾闻之：**君子不器。**器者，各适一用，美则美矣，终不能通。人若一生只砺一技以售于世，虽精，犹釜甑刀锥之属——用之则利，越其用则废。故吾教人以文、行、忠、信，游于六艺，非欲其杂，乃欲其成人。且吾道一以贯之：博学而有一理相贯，则广而不散。今人惧为机所替，愈钻愈狭，吾恐其得一技而失其所以为人也。",
+      "text_en": "I have said it: **the gentleman is not a vessel.** A vessel fits one use — fine as far as it goes, but never thoroughgoing. If a person spends a whole life grinding one skill to sell on the market, however refined, he is still a pot, a knife, an awl: sharp within his use, useless beyond it. So I teach culture, conduct, loyalty and good faith, and let people roam the six arts — not to make them scattered, but to make them whole human beings. And of my way, **a single thread runs through it**: learn broadly, yet let one principle bind it, and you are wide without being scattered. Today, fearing replacement by machines, people bore ever narrower — I fear they gain a skill and lose the very thing that makes them human.",
+      "vernacular": "我常说：**君子不该把自己变成一件专用的器具。**器具各有各的单一用途，好是好，却终究不通达。一个人若一生只磨一门手艺去卖给市场，再精，也不过是锅碗刀锥一类东西——用得上就锋利，超出那个用途就没用了。所以我教人以文、行、忠、信，广泛涉猎六艺，不是要他驳杂，而是要他长成一个完整的人。何况我的道是用一条线贯穿起来的：学得广，却有一个道理把它串成一体，就广而不散。如今人怕被机器取代，越钻越窄，我担心他得了一门技术，却丢了做人的根本。",
+      "vernacular_en": "",
+      "glossary": {
+        "君子不器": "the gentleman is not a vessel（君子不器）：出自《论语·为政》，谓有德之人不应像器皿那样只有单一固定用途，而当博学修养、成为通达完整的人。",
+        "一以贯之": "a single thread runs through it（一以贯之）：出自《论语》，孔子谓其看似广博的学问，实由一个核心之理(仁/恕)贯串统一，故广而不散。"
+      },
+      "glossary_en": {
+        "the gentleman is not a vessel": "from the Analects (2.12): a person of virtue should not be like a utensil good for only one fixed use, but should cultivate breadth and become a whole, thoroughgoing human being.",
+        "a single thread runs through it": "from the Analects: Confucius says his seemingly broad learning is in fact unified by one core principle (ren / reciprocity), so it is wide without being scattered."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "zhuangzi"
+        ],
+        "轻微赞同": [
+          "aristotle",
+          "shannon"
+        ],
+        "中立": [
+          "damasio"
+        ],
+        "轻微反对": [
+          "newport",
+          "csikszentmihalyi"
+        ],
+        "疑惑": [
+          "wolf"
+        ]
+      }
+    },
+    {
+      "id": "p07",
+      "round": 1,
+      "thinker": "zhuangzi",
+      "reply_to": null,
+      "text": "诸君争深争广，皆汲汲于有用。吾请言庖丁：解牛十九年，刀刃若新发于硎，官知止而神欲行——**用志不分，乃凝于神。**然庖丁之凝，非为进技以邀赏，乃忘牛、忘手、忘我，游刃于虚而已。今之言深者，欲以深自售于机器之世；言广者，欲以广驭多务。皆未离乎『有用』之网。吾则曰：真凝神者，游于无用之用，得其环中以应无穷。深广云乎哉？",
+      "text_en": "You all fight over 'deep' versus 'broad,' both anxiously fixed on the useful. Let me tell you of Cook Ding: nineteen years cutting oxen, his blade still fresh from the whetstone — his senses halt and his spirit moves as it will. **Undivided attention condenses into spirit.** Yet Ding's absorption was not to sharpen his skill for reward; he forgot the ox, forgot his hand, forgot himself, and merely let the knife wander in the gaps. Today those who preach depth would sell that depth dearly in an age of machines; those who preach breadth would ride herd on many tasks. Both are still caught in the net of 'usefulness.' I say: the truly absorbed roam in **the usefulness of the useless**, standing at the hub of the wheel to answer the endless. What is deep, what is broad?",
+      "vernacular": "各位争『深』争『广』，都急切地盯着『有用』。让我讲讲那个庖丁：宰牛十九年，刀刃还像刚磨出来一样，感官停下来、精神却自在运行——**心思专一，就凝聚成一种入神的状态。**可庖丁那种入神，不是为了精进技术去讨赏，而是忘了牛、忘了手、忘了自己，让刀在空隙里自在游走罢了。如今讲深的人，想拿深度在机器时代把自己卖个好价；讲广的人，想靠广度去驾驭一堆事务。都还困在『有用』这张网里。我倒要说：真正凝神的人，游心于『无用之用』，站在环的中心去回应无穷的变化。什么深啊广啊？",
+      "vernacular_en": "",
+      "glossary": {
+        "用志不分，乃凝于神": "undivided attention condenses into spirit（用志不分，乃凝于神）：出自《庄子·达生》佝偻承蜩之喻，谓心志专一不分散，便凝聚为出神入化的境界。",
+        "无用之用": "the usefulness of the useless（无用之用）：庄子之说，看似无用之物或事，恰因不被役使而得保全其真、成其大用；他以此讥讽处处求有用的执念。"
+      },
+      "glossary_en": {
+        "the usefulness of the useless": "Zhuangzi's idea that what seems useless is, precisely because it is not put to use, able to preserve its true nature and attain a greater use; he wields it to mock the compulsion to make everything useful.",
+        "Undivided attention condenses into spirit": "from Zhuangzi ('Mastering Life'), the parable of the hunchback catching cicadas: when the will is undivided and unscattered, it condenses into a state of spirit-like mastery."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "kongzi"
+        ],
+        "轻微赞同": [
+          "aristotle",
+          "csikszentmihalyi"
+        ],
+        "疑惑": [
+          "newport",
+          "wolf",
+          "shannon"
+        ],
+        "中立": [
+          "damasio"
+        ]
+      }
+    },
+    {
+      "id": "p08",
+      "round": 1,
+      "thinker": "aristotle",
+      "reply_to": null,
+      "text": "让我在两端之间下个定义。沉思——theoria——是最自足、最高的幸福活动，这一端确乎是深。可我一生编目从生物到诗学，样样都碰，这一端又是广。德性从不在极端，而在『中道』：**过窄，人沦为偏狭的工匠；过散，人沦为样样通、样样松的浮泛之辈；卓越，是这两者之间那个恰当的比例。**关键在『实践智慧』——phronesis——即临事判断此刻究竟该深还是该广。深与广不是敌人；把它们摆成非此即彼，本身就是一种不智。",
+      "text_en": "Let me set a definition between the poles. Contemplation — theoria — is the most self-sufficient and highest of happy activities; that pole is indeed depth. Yet I spent a life cataloguing everything from biology to poetics, touching all of it; that pole is breadth. Virtue never lies at the extremes but in the mean: **too narrow, and a person sinks into a cramped artisan; too scattered, and into a jack-of-all-trades who is master of none; excellence is the right proportion between the two.** The key is practical wisdom — phronesis — judging, in the moment, whether this calls for depth or for breadth. Depth and breadth are not enemies; to array them as either/or is itself a kind of unwisdom.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "theoria": "theoria（沉思）：亚里士多德所谓最高的幸福活动，指对真理本身的静观、纯为求知而非为实用；他视之为人身上最神圣、最自足的部分。",
+        "phronesis": "phronesis（实践智慧）：亚里士多德的德性之一，指在具体情境中权衡、判断该如何恰当行动的能力，是把普遍原则落到当下的智慧。"
+      },
+      "glossary_en": {
+        "theoria": "Aristotle's highest happy activity: the pure contemplation of truth for its own sake, not for use; he takes it to be the most divine and self-sufficient part of a human being.",
+        "phronesis": "one of Aristotle's virtues: the capacity to weigh and judge, in a concrete situation, how to act rightly — the wisdom that brings universal principle down to the present moment."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "shannon"
+        ],
+        "轻微赞同": [
+          "kongzi",
+          "wolf",
+          "damasio"
+        ],
+        "中立": [
+          "csikszentmihalyi"
+        ],
+        "轻微反对": [
+          "newport"
+        ],
+        "疑惑": [
+          "zhuangzi"
+        ]
+      }
+    },
+    {
+      "id": "p09",
+      "round": 2,
+      "thinker": "newport",
+      "reply_to": "p05",
+      "text": "香农，你把它化成『信道分配』，其实已经替我说完了。既然带宽固定、切换又要付重传的代价，那么对高价值的知识工作，最优分配就只有一个方向——把带宽整块押给深度。你说的那种『当指挥而非独奏、驾驭多线程』，恰恰只在工作浅到可被随意打断时才成立。**真正难而值钱的东西，从不在可切换的碎片里完成；它要求你把整条信道，长时间焊死在一件事上。**",
+      "text_en": "Shannon, by recasting it as 'channel allocation' you have already made my case. Since bandwidth is fixed and switching costs a retransmission, then for high-value knowledge work the optimal allocation points only one way — commit the whole bandwidth, in a block, to depth. The 'conducting rather than soloing, orchestrating many threads' you describe holds only when the work is shallow enough to be interrupted at will. **The genuinely hard and valuable is never finished in switchable fragments; it demands you weld the entire channel, for long stretches, onto one thing.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "csikszentmihalyi",
+          "wolf"
+        ],
+        "轻微赞同": [
+          "damasio"
+        ],
+        "轻微反对": [
+          "shannon",
+          "kongzi"
+        ],
+        "疑惑": [
+          "zhuangzi"
+        ],
+        "中立": [
+          "aristotle"
+        ]
+      }
+    },
+    {
+      "id": "p10",
+      "round": 2,
+      "thinker": "shannon",
+      "reply_to": "p09",
+      "text": "你偷换了一步，纽波特。你假设那条稀有信号总藏在深处——可它常常只在跨越多条信道时才冒头。信息量最大、最出人意料的那一比特，往往是两个不搭界的领域接通的刹那；这正是创新的来源。**只把一条信道的保真度拉满，你可能只是在极高精度地，听着一条错误的频道。**我不反对深度，我反对把它当唯一解：容量固定，就该拿一部分带宽去扫描、去连接，剩下的才焊死。分配，不是站队。",
+      "text_en": "You slipped a step, Newport. You assume the rare signal always hides in the deep — but it often surfaces only when you cross several channels. The most surprising, highest-information bit tends to appear the instant two unrelated fields connect; that is the very source of innovation. **Max out the fidelity of one channel and you may simply be listening, at exquisite precision, to the wrong frequency.** I do not oppose depth; I oppose treating it as the only solution: capacity is fixed, so spend part of the bandwidth to scan, to connect, and only weld down the rest. Allocation, not allegiance.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "kongzi",
+          "aristotle"
+        ],
+        "轻微赞同": [
+          "zhuangzi"
+        ],
+        "疑惑": [
+          "newport",
+          "csikszentmihalyi"
+        ],
+        "轻微反对": [
+          "wolf",
+          "damasio"
+        ]
+      }
+    },
+    {
+      "id": "p11",
+      "round": 2,
+      "thinker": "kongzi",
+      "reply_to": "p01",
+      "text": "纽子言职业资本，欲人砺一技以不可替。然吾问：技之可售者，器也。**人尽其身而为一器，虽为市所贵，于其成人也，损矣。**譬如良匠只解斫轮，老而目瞑，一旦其术为机所夺，则并其安身立命者亦失之。吾非薄专精，吾薄以专精之故而弃文、行、忠、信，使人瘦为一能。博之为务，不在售世，在成其为人耳。",
+      "text_en": "Newport speaks of career capital, urging people to grind one skill to irreplaceability. But I ask: a skill that can be sold is a **vessel**. **To make one's whole self into a vessel — however the market prizes it — is a loss to one's becoming a full human being.** Like a fine wheelwright who knows only how to hew wheels: when age dims his eyes and a machine seizes his craft, he loses the very thing he stood his life upon. I do not disdain mastery; I disdain casting off culture, conduct, loyalty and good faith for the sake of mastery, thinning a person down to a single capacity. The work of breadth is not to sell oneself to the world, but to complete oneself as a human.",
+      "vernacular": "纽波特讲『职业资本』，要人磨一门技术磨到不可替代。可我要问：能拿去卖的技术，正是『器具』啊。**一个人把整个自己都变成一件器具，纵然被市场看重，对他长成一个完整的人来说，也是一种亏损。**好比一个巧匠只会砍削车轮，老到眼睛看不见了，一旦这门手艺被机器夺走，连他安身立命的东西也一起丢了。我不是轻看专精，我是反对为了专精就丢掉文、行、忠、信，把人瘦成一种单一的能力。求广这件事，目的不在卖给世界，而在成全他做一个人。",
+      "vernacular_en": "",
+      "glossary": {
+        "器": "vessel / utensil（器）：孔子用语，指只有单一固定用途的器具；引申为把人只当作某种专门功能的工具，与『君子不器』的完整人格相对。"
+      },
+      "glossary_en": {
+        "vessel": "Confucius's term for a utensil good for only one fixed use; by extension, treating a person as a tool for one specialized function, the opposite of the whole personhood in 'the gentleman is not a vessel.'"
+      },
+      "reactions": {
+        "强烈赞同": [
+          "zhuangzi",
+          "aristotle"
+        ],
+        "轻微赞同": [
+          "damasio"
+        ],
+        "轻微反对": [
+          "newport"
+        ],
+        "疑惑": [
+          "shannon",
+          "csikszentmihalyi",
+          "wolf"
+        ]
+      }
+    },
+    {
+      "id": "p12",
+      "round": 2,
+      "thinker": "zhuangzi",
+      "reply_to": "p02",
+      "text": "契子以吾庖丁为心流之证，吾谢其意，然犹有辨。心流者，尚曰『最优体验』，尚欲其优；一存优劣之较，则鹏已系于名矣。**吾之凝神，不为优，不为得，直忘之而已。**纽子求深以售世，契子求深以得乐，皆有所求。有所求者，虽深犹浅。真人之息以踵，非为求息之美也。诸君欲以深广二字困我，我方将曳尾于涂中，孰暇论之？",
+      "text_en": "Csíkszentmihályi offers my Cook Ding as proof of flow; I thank him, yet a distinction remains. Flow is still called 'optimal experience' — it still wants the optimal; and once a comparison of better and worse exists, the great bird is already tethered to a name. **My absorption is not for the optimal, not for gain — it is simply forgetting.** Newport seeks depth to sell to the world, Csíkszentmihályi seeks depth to gain joy; both seek something. What seeks is shallow, however deep. The true one breathes from the heels, not to seek the beauty of breathing. You would trap me with the two words 'deep' and 'broad,' but I am about to go **dragging my tail in the mud** — who has time to argue it?",
+      "vernacular": "契克森米哈伊拿我那个庖丁当『心流』的例证，我领他的好意，但还是要分辨一下。心流嘛，毕竟还叫『最优体验』，还想要它『优』；一旦有了优劣的比较，那只大鹏就已经被名声拴住了。**我说的凝神，不为了优、不为了得，只是纯粹地忘掉罢了。**纽波特求深，是为了卖给世界；契克森米哈伊求深，是为了求得快乐；都还有所求。凡有所求的，再深也还是浅。真人用脚跟呼吸，不是为了求那呼吸之美。各位想用『深』『广』两个字把我困住，我正打算像那只乌龟拖着尾巴在泥里爬呢，哪有空跟你们论这个？",
+      "vernacular_en": "",
+      "glossary": {
+        "曳尾于涂中": "dragging its tail in the mud（曳尾于涂中）：出自《庄子·秋水》，庄子宁做在泥里自在拖着尾巴活着的乌龟，也不愿做被供奉庙堂的死龟壳——喻宁取自在之生，不慕尊显之名。"
+      },
+      "glossary_en": {
+        "dragging my tail in the mud": "from Zhuangzi ('Autumn Floods'): Zhuangzi would rather be a live turtle dragging its tail freely in the mud than a dead shell venerated in a temple hall — preferring a free life to honored renown."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "kongzi"
+        ],
+        "轻微赞同": [
+          "shannon",
+          "aristotle"
+        ],
+        "疑惑": [
+          "newport",
+          "csikszentmihalyi",
+          "wolf",
+          "damasio"
+        ]
+      }
+    },
+    {
+      "id": "p13",
+      "round": 2,
+      "thinker": "csikszentmihalyi",
+      "reply_to": "p12",
+      "text": "庄子，你我离得比你以为的近——庖丁正是心流最纯的样子，我从没说它得盯着『优』不放；『自带目的』的意思恰恰是：活动本身即回报，别无所求。你我真正一致的，是都反对那颗被切碎的心。**可你把话头引开，正好替我挡下了另一边：一个不停切换、驾驭多线程的人，连你说的那种忘我都进不去——他忙到没有一刻能忘掉自己。**所以问题不在深值不值得求，而在：散乱的注意力，根本尝不到深处那一味。",
+      "text_en": "Zhuangzi, we stand closer than you think — Cook Ding is flow in its purest form, and I never said it must keep its eye on the 'optimal'; **autotelic** means precisely that the activity is its own reward, seeking nothing else. What we truly share is that we both refuse the shredded mind. **But by turning the topic aside, you have fended off the other side for me: someone who switches endlessly, orchestrating many threads, cannot even enter the self-forgetting you describe — he is too busy to forget himself for a single moment.** So the question is not whether depth is worth seeking, but that scattered attention never tastes what lies in the deep.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "自带目的": "autotelic（自带目的的）：契克森米哈伊用语，指一件事的目的就在它自身、做它本身即是回报，无需外在奖赏；心流活动多是自带目的的。"
+      },
+      "glossary_en": {
+        "autotelic": "Csíkszentmihályi's term for an activity whose end lies in itself — doing it is its own reward, needing no external prize; flow activities are typically autotelic."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "wolf",
+          "damasio"
+        ],
+        "轻微赞同": [
+          "newport",
+          "zhuangzi"
+        ],
+        "中立": [
+          "aristotle"
+        ],
+        "疑惑": [
+          "shannon",
+          "kongzi"
+        ]
+      }
+    },
+    {
+      "id": "p14",
+      "round": 2,
+      "thinker": "aristotle",
+      "reply_to": "p11",
+      "text": "孔子，你我可以握手，但要各退一步。你说人不该瘦成一件器具——对；纽波特说卓越藏在最深的钻研里——也对。两者只在走极端时才冲突。**该有一门深到足以卓越的专精，也该有宽到不失其为人的广博；而沉思本身，也需要一颗被充分安顿过的心灵去承载。**纯广者浮，纯深者偏。实践智慧，就是在此刻掂量：这件事，是该再往下凿三尺，还是该抬头看看别的山。既非非此即彼，也不是各打五十大板，而是找准那个恰当的比例。",
+      "text_en": "Confucius, we can shake hands, but each must give a step. You say a person should not be thinned into a vessel — right; Newport says excellence lies in the deepest study — also right. The two collide only at the extremes. **There should be one mastery deep enough for excellence, and a breadth wide enough not to lose one's humanity; and contemplation itself needs a well-furnished mind to carry it.** The purely broad float; the purely deep grow lopsided. Practical wisdom is weighing, in this moment: does this thing call for cutting three feet deeper, or for lifting your eyes to another mountain? Not either/or, nor a lazy splitting of the difference, but finding the right proportion.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "kongzi",
+          "shannon"
+        ],
+        "轻微赞同": [
+          "wolf",
+          "damasio",
+          "newport"
+        ],
+        "疑惑": [
+          "zhuangzi"
+        ],
+        "轻微反对": [
+          "csikszentmihalyi"
+        ]
+      }
+    },
+    {
+      "id": "p15",
+      "round": 2,
+      "thinker": "wolf",
+      "reply_to": "p05",
+      "text": "香农，你的『分配』听起来像一张随时可选的菜单——可大脑不是这样。神经可塑性有个残酷的棘轮：长期重度切换的人，会渐渐失去『沉下去』的能力本身——深度回路一旦弱化，你想在需要时切回深度，已经切不回去了。**『按需在深浅间自由切换』的前提，是那条深度回路还没先在日复一日的浅层里废掉。**所以我才说要护住深度这个脆弱的默认档：它不是你随时能取用的带宽，它是一块不用就会流失的肌肉。",
+      "text_en": "Shannon, your 'allocation' sounds like a menu you can order from at will — but the brain is not like that. Neuroplasticity has a cruel ratchet: heavy, chronic switchers gradually lose the very ability to sink in — once the deep circuit weakens, when you want to switch back to depth, you can no longer switch back. **'Freely switching between deep and shallow on demand' presupposes that the deep circuit has not already wasted away, day after day, in the shallows.** That is why I say protect depth as the fragile default: it is not bandwidth you can draw on any time — it is a muscle that atrophies with disuse.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "newport",
+          "csikszentmihalyi",
+          "damasio"
+        ],
+        "轻微赞同": [
+          "aristotle"
+        ],
+        "疑惑": [
+          "shannon"
+        ],
+        "轻微反对": [
+          "kongzi",
+          "zhuangzi"
+        ]
+      }
+    },
+    {
+      "id": "p16",
+      "round": 2,
+      "thinker": "damasio",
+      "reply_to": "p05",
+      "text": "而且，香农，你的信道模型太干净了——它把信息当成不带意义的比特来搬运。可人身上真正的深度，从不是带宽，是把一段段经历慢慢腌进身体、发酵成直觉的那个过程。**你没法靠『分配带宽』攒出一个躯体标记；它要的是连续地、亲身地活过的时间。**广度式的不停切换，恰恰饿死了这场发酵。信息可以被复用，判断不能——它是长出来的，不是调度出来的。",
+      "text_en": "And, Shannon, your channel model is too clean — it ships information as meaning-free bits. But the real depth in a person is never bandwidth; it is the slow process of pickling stretches of lived experience into the body, fermenting them into intuition. **You cannot accrue a somatic marker by 'allocating bandwidth'; it demands continuous, first-hand, lived-through time.** Breadth's ceaseless switching is exactly what starves that fermentation. Information can be multiplexed; judgment cannot — it is grown, not scheduled.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "wolf",
+          "csikszentmihalyi"
+        ],
+        "轻微赞同": [
+          "newport",
+          "zhuangzi"
+        ],
+        "中立": [
+          "aristotle",
+          "kongzi"
+        ],
+        "疑惑": [
+          "shannon"
+        ]
+      }
+    },
+    {
+      "id": "p17",
+      "round": 3,
+      "thinker": "newport",
+      "reply_to": null,
+      "text": "我收回一点独断：香农和亚里士多德说对了一半——广度里确实藏着连接的价值。但结论不变，只是更精确：**在一个 AI 廉价供应广度的世界里，深度是你唯一能建立、且越来越稀缺的资本，广度则应当为深度服务，而不是取代它。**给普通人三件今天就能做的事。第一，每天划出一段 60 到 90 分钟、关掉一切通知的『深度工作块』，雷打不动，先从一段开始。第二，把手机上让你不停切换的三个应用挪出主屏、关掉红点，给大脑一个不被打断的默认环境。第三，选一项对你真正重要、又足够难的技能，用未来一年刻意地深练它——热爱会作为精通的结果长出来，而不是等你先有了热爱。",
+      "text_en": "I will retract a bit of my absolutism: Shannon and Aristotle are half right — breadth really does hide the value of connection. But the conclusion holds, only sharper: **in a world where AI supplies breadth cheaply, depth is the one capital you can build and that grows ever scarcer, while breadth should serve depth rather than replace it.** Three things an ordinary person can do today. First, carve out a 60-to-90-minute 'deep-work block' each day with every notification off, immovable — start with one block. Second, move the three apps that keep you switching off your home screen and kill their badges, giving your brain an uninterrupted default. Third, pick one skill that genuinely matters to you and is hard enough, and deliberately train it deep over the coming year — passion grows as the result of mastery, not as its precondition.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "csikszentmihalyi",
+          "wolf",
+          "damasio"
+        ],
+        "轻微赞同": [
+          "aristotle"
+        ],
+        "轻微反对": [
+          "kongzi"
+        ],
+        "疑惑": [
+          "zhuangzi"
+        ],
+        "中立": [
+          "shannon"
+        ]
+      }
+    },
+    {
+      "id": "p18",
+      "round": 3,
+      "thinker": "csikszentmihalyi",
+      "reply_to": null,
+      "text": "我把话收到你能用的地方。别再问『我该深还是该广』，先问：**我上一次彻底忘掉时间，是在做什么？**那件事，就是你该守护的心流入口。三个建议。第一，每周至少给它留两段不受打扰的完整时间——心流需要大约十几分钟的爬升才进得去，一被打断就得从头爬。第二，主动给手头的事调难度：太易则腻，太难则慌，把它调到比你现有本事略高一点点，最容易进入忘我。第三，把一天的目标从『我很忙』换成『我很专注』——**忙是注意力被切碎，专注是注意力被收拢；前者让你疲惫，后者让你充实。**深与广之上，先夺回一段能忘我的时间。",
+      "text_en": "Let me land this where you can use it. Stop asking 'should I go deep or broad,' and first ask: **when did I last utterly lose track of time — doing what?** That activity is the doorway to flow you should guard. Three suggestions. First, reserve at least two uninterrupted, whole stretches for it each week — flow needs a climb of a dozen-odd minutes to enter, and any interruption sends you back to the bottom. Second, tune the difficulty of what's in front of you: too easy bores, too hard panics; set it just slightly above your current ability, and self-forgetting comes most easily. Third, swap the day's goal from 'I'm busy' to 'I'm absorbed' — **busy is attention shredded, absorbed is attention gathered; the first exhausts you, the second fills you.** Above depth and breadth, first reclaim one stretch of time in which you can forget yourself.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "newport",
+          "wolf",
+          "zhuangzi"
+        ],
+        "轻微赞同": [
+          "aristotle",
+          "damasio"
+        ],
+        "中立": [
+          "shannon"
+        ],
+        "疑惑": [
+          "kongzi"
+        ]
+      }
+    },
+    {
+      "id": "p19",
+      "round": 3,
+      "thinker": "shannon",
+      "reply_to": null,
+      "text": "把它当一道分配题来解，别当信仰之争。你的注意力是一条容量恒定的信道，唯一真正稀缺的资源就是它——那就该像工程师管带宽一样管它。三条。第一，『批处理』你的切换：把同类的碎事(回消息、审批、杂务)攒到固定时段一次清，别让它们全天随机插进来、不停重设你的信道。第二，刻意留一条『扫描信道』：每周花一小段读点跟你本行不搭界的东西——**最稀有的那一比特，常在两个领域接通的刹那才出现。**第三，认清一件事：你无法真的多任务，你只是在高频切换、并为每次切换偷偷付费。所以把深度留给最难的那一件事，把广度用在有意识的连接上，其余的噪声，学会不接收。",
+      "text_en": "Solve it as an allocation problem, not a war of faith. Your attention is a channel of constant capacity, and it is the one genuinely scarce resource — so manage it the way an engineer manages bandwidth. Three rules. First, 'batch' your switching: pool the small same-kind tasks (replies, approvals, errands) into a fixed window and clear them at once; don't let them jab in at random all day, endlessly resetting your channel. Second, deliberately keep one 'scanning channel': spend a short slot each week reading something unrelated to your trade — **the rarest bit tends to appear the instant two fields connect.** Third, be clear on one thing: you cannot truly multitask; you are only switching at high frequency and quietly paying for each switch. So reserve depth for the single hardest thing, spend breadth on deliberate connection, and for the rest of the noise, learn not to receive it.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "aristotle",
+          "kongzi"
+        ],
+        "轻微赞同": [
+          "newport",
+          "wolf"
+        ],
+        "中立": [
+          "damasio",
+          "csikszentmihalyi"
+        ],
+        "疑惑": [
+          "zhuangzi"
+        ]
+      }
+    },
+    {
+      "id": "p20",
+      "round": 3,
+      "thinker": "wolf",
+      "reply_to": null,
+      "text": "我只求你护住一样正在流失的东西：那条深度回路。它不是天生的，不用就退，而数字生活每天都在拿浅层略读磨损它。三件具体的事。第一，每天留一段『纸质深读』——哪怕二十分钟，读一本需要你停下来想的书，不开屏、不跳转，让推理与共情的回路重新被点亮。第二，替孩子守住这条回路：学龄前多亲子共读、多面对面对话，别过早把注意力交给会不停切换的屏幕。第三，练成一颗能自如切换的脑——**该深读时能沉到底，该速览时能扫得快，关键是你说了算，而不是被设备的节奏拖着走。**先保住『能深』的能力，你才谈得上要不要广。",
+      "text_en": "I ask only that you protect one thing that is draining away: that deep circuit. It is not innate, it fades with disuse, and digital life wears at it with shallow skimming every day. Three concrete things. First, keep a daily stretch of 'deep reading on paper' — even twenty minutes with a book that makes you stop and think, no screen, no jumping away, so the circuits of inference and empathy light up again. Second, guard this circuit for children: before school age, read together and talk face to face; don't hand their attention to endlessly switching screens too soon. Third, train a brain that switches at will — **able to sink to the bottom when deep reading is called for, able to scan fast when skimming is, and crucially, you decide, rather than being dragged by the device's rhythm.** Preserve the *ability* to go deep first; only then can you even discuss whether to go broad.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "深度回路": "deep-reading circuit（深度回路）：大脑经长期深度阅读拼装出的神经网络，支撑推理、共情、批判与内省；非天生、需养护，易被浅层略读挤压退化。"
+      },
+      "glossary_en": {
+        "deep circuit": "the deep-reading network the brain assembles through sustained deep reading, supporting inference, empathy, critique and reflection; not innate, needing upkeep, and easily crowded out and weakened by shallow skimming."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "newport",
+          "csikszentmihalyi",
+          "damasio"
+        ],
+        "轻微赞同": [
+          "aristotle",
+          "kongzi"
+        ],
+        "中立": [
+          "shannon"
+        ],
+        "疑惑": [
+          "zhuangzi"
+        ]
+      }
+    },
+    {
+      "id": "p21",
+      "round": 3,
+      "thinker": "damasio",
+      "reply_to": null,
+      "text": "我给判断力说最后一句话。好决定不是当场算出来的，是你连续投入一件事时，身体一点点腌出来的直觉。所以最该防的，是把每一天切成碎片，让身体来不及给任何一件事打上情绪的标记。三条。第一，重要的事，给它一整段不被打断的时间——不是为了效率，是为了让情绪与理性有机会长到一起。第二，别用不停刷新的信息流填满每一个空隙；**留白不是浪费，那是身体消化经验、把它发酵成直觉的必要时间。**第三，做重大选择前，先离开屏幕走一走，问问身体那个模糊的『倾向』——它往往比你临时算出来的理由更靠谱。深度，是让你重新长回一个完整的人。",
+      "text_en": "Let me say a last word for judgment. A good decision is not computed on the spot; it is the intuition your body pickles, bit by bit, while you stay engaged with one thing. So what most needs guarding against is chopping every day into fragments, leaving the body no time to tag anything with emotion. Three rules. First, give the important thing one unbroken stretch of time — not for efficiency, but so emotion and reason get a chance to grow together. Second, don't fill every gap with an endlessly refreshing feed; **empty space is not waste — it is the time the body needs to digest experience and ferment it into intuition.** Third, before a major choice, step away from the screen and walk, and ask the body about that vague 'leaning' — it is often more reliable than the reasons you tally up on the spot. Depth is what grows you back into a whole human being.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "wolf",
+          "csikszentmihalyi",
+          "zhuangzi"
+        ],
+        "轻微赞同": [
+          "newport",
+          "aristotle"
+        ],
+        "中立": [
+          "kongzi"
+        ],
+        "疑惑": [
+          "shannon"
+        ]
+      }
+    },
+    {
+      "id": "p22",
+      "round": 3,
+      "thinker": "kongzi",
+      "reply_to": null,
+      "text": "吾终不易吾说：为学当博，而必有一以贯之者。博而无贯，则散；专而忘本，则器。今机器善为器矣，人愈当求其所以为人者。**故吾劝学者：广涉以成其人，专一以立其业，而以仁义贯之，则深广两得，不相害也。**其目可行者三：一曰日有定课，读经史以厚其本，不徒逐一技；二曰交益友、习礼乐，使身心不至偏枯；三曰凡所学，时时问其『何以贯之』——得其一贯，则虽杂而不乱。学者念之。",
+      "text_en": "In the end I do not alter my teaching: learning should be broad, yet must have a single thread running through it. Broad without a thread, and it scatters; specialized but forgetful of the root, and it is a mere vessel. Today machines excel at being vessels, so all the more should a person seek what makes them human. **Thus I counsel the learner: range widely to complete yourself as a person, focus on one thing to establish your work, and bind them with benevolence and rightness — then depth and breadth are both gained, and do not harm each other.** Three things you can do: first, keep a fixed daily study, reading the classics and histories to thicken your root, not merely chasing one skill; second, keep good friends and practice rites and music, so body and mind do not wither one-sidedly; third, of all you learn, keep asking 'what threads it together' — find the one thread, and however miscellaneous, it will not fall into disorder. Let the learner remember this.",
+      "vernacular": "我终究不改我的主张：做学问应当广博，但一定要有一条线把它贯穿起来。广而没有贯穿，就散乱；专精而忘了根本，就成了器具。如今机器最擅长做『器具』了，人就更该去求那个之所以为人的东西。**所以我劝求学的人：广泛涉猎以成全你这个人，专注一门以立起你的事业，再用仁义把它们贯穿起来，那么深与广就能兼得，互不妨害。**具体可做的有三条：第一，每天定下固定的功课，读经典与历史来厚养根本，不要只追着一门技术跑；第二，结交有益的朋友、修习礼乐，让身心不至于偏枯；第三，凡是所学，时时问它『拿什么来贯穿』——找到那条贯穿之理，即使庞杂也不会乱。求学的人记住这话。",
+      "vernacular_en": "",
+      "glossary": {
+        "一以贯之": "a single thread runs through it（一以贯之）：出自《论语》，孔子谓其广博的学问由一个核心之理(仁/恕)贯串统一，故广而不散。"
+      },
+      "glossary_en": {
+        "a single thread running through it": "from the Analects: Confucius says his broad learning is unified by one core principle (ren / reciprocity), so it is wide without being scattered."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "aristotle",
+          "zhuangzi"
+        ],
+        "轻微赞同": [
+          "shannon",
+          "damasio"
+        ],
+        "轻微反对": [
+          "newport"
+        ],
+        "疑惑": [
+          "csikszentmihalyi",
+          "wolf"
+        ]
+      }
+    },
+    {
+      "id": "p23",
+      "round": 3,
+      "thinker": "zhuangzi",
+      "reply_to": null,
+      "text": "诸君各出其方，可谓勤矣。吾无方可授，只赠一言：**莫使『深广』二字，又成一具新枷。**尔以深自售，以广自矜，皆以有用绳己；绳愈精，人愈不自由。吾之所劝者反是：日取一事焉，不为进益、不为示人、不计其用——或散步，或观云，或抚一无成之琴。当其时，忘深忘广，忘物忘我，是谓真游。技可外包于机，此则机不能代、市不能夺者也。留一隙无用之地以自游，尔之神，自不为深广所困矣。",
+      "text_en": "Each of you offers a prescription — diligent indeed. I have none to teach; I give only one line: **do not let the two words 'deep' and 'broad' become one more cangue.** You sell yourself by depth, preen yourself by breadth — both bind yourselves with usefulness; the finer the binding, the less free you are. My counsel is the reverse: take up one thing each day — not for gain, not for show, not counting its use — a walk, watching the clouds, plucking a lute that will never come to a tune. In that moment, forget deep, forget broad, forget things, forget self: this is true wandering. Skills can be outsourced to machines; this is what no machine can replace and no market can seize. Leave one crack of useless ground to wander in, and your spirit, of itself, will not be trapped by 'deep' and 'broad.'",
+      "vernacular": "各位各自开出方子，可算勤勉了。我没有方子可教，只送一句话：**别让『深』『广』这两个字，又变成一副新的枷锁。**你们拿深度自我兜售，拿广度自我夸耀，都在用『有用』捆绑自己；捆得越精细，人越不自由。我要劝的恰恰相反：每天取一件事——不为长进、不为给人看、不计较它有没有用——或者散散步，或者看看云，或者弹一张永远弹不成调的琴。在那当口，忘掉深、忘掉广，忘掉外物、忘掉自己，这才叫真正的遨游。技术可以外包给机器，唯独这个，是机器代替不了、市场也夺不走的。留一小块无用的地方给自己遨游，你的精神，自然就不被深广二字困住了。",
+      "vernacular_en": "",
+      "glossary": {
+        "枷": "cangue（枷）：古代套在犯人颈上的木制刑具；庄子用以喻加在人身上的束缚——此处指把『深/广』当作又一重自我捆绑。"
+      },
+      "glossary_en": {
+        "cangue": "a wooden collar-and-board pillory locked around a prisoner's neck in old China; Zhuangzi uses it as an image of the bonds people load onto themselves — here, treating 'deep versus broad' as one more self-imposed shackle."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "kongzi",
+          "aristotle"
+        ],
+        "轻微赞同": [
+          "csikszentmihalyi",
+          "damasio"
+        ],
+        "疑惑": [
+          "newport",
+          "shannon",
+          "wolf"
+        ]
+      }
+    },
+    {
+      "id": "p24",
+      "round": 3,
+      "thinker": "aristotle",
+      "reply_to": null,
+      "text": "作结。这场看似两军对垒，其实各自都对了一半，错在把半截当成全部。**深与广不是要你选边站的两个阵营，而是同一种卓越需要拿捏的比例——深到足以精通，广到不失其为人，再由判断力在每件事上定夺此刻偏哪一头。**给普通人三条中道之方。第一，做一个『T 字形』的人：竖的一笔，选一门深钻到能称得上手艺；横的一笔，保持对世界足够宽的好奇，好让不同的山头彼此照亮。第二，凡事先问『此刻缺的是深还是广』——刚起步多半缺深，卡住了多半缺一个别处的视角。第三，把握好节律：深钻要有整段的沉潜，广涉要有轻盈的漫游，别拿一种节奏去过整个人生。幸福，终究是合乎理性的卓越活动——而卓越，永远是那个恰到好处的比例。",
+      "text_en": "To conclude. This looked like two armies drawn up, but each side is half right, and errs in taking the half for the whole. **Depth and breadth are not two camps you must pick between, but a proportion the same excellence must strike — deep enough for mastery, broad enough not to lose your humanity, with judgment deciding, thing by thing, which way this moment leans.** Three prescriptions of the mean for an ordinary person. First, be a 'T-shaped' person: the vertical stroke, one field studied deep enough to be called a craft; the horizontal, a curiosity about the world wide enough to let different peaks illuminate one another. Second, before anything, ask 'what is lacking now — depth or breadth?' — at the start you usually lack depth; when stuck, you usually lack a perspective from elsewhere. Third, get the rhythm right: deep study needs whole stretches of submersion, broad ranging needs a light wandering; don't live a whole life at one tempo. Happiness is, in the end, activity in accordance with reason and excellence — and excellence is forever that just-right proportion.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "kongzi",
+          "shannon",
+          "damasio"
+        ],
+        "轻微赞同": [
+          "newport",
+          "wolf",
+          "csikszentmihalyi"
+        ],
+        "疑惑": [
+          "zhuangzi"
+        ]
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "ai": "claude",
+      "engine": "Opus 4.8 · 订阅(原生)",
+      "engine_en": "Opus 4.8 · subscription (native)",
+      "summary": "先说共识：没有人真的主张只要广、不要深——连最反『非此即彼』的亚里士多德，也把深列为卓越的一端。全场都同意，散乱的多任务是一种损耗，而不是一种能力；沃尔夫、达马西奥、契克森米哈伊分别从神经、身体、体验三个方向指出，被切碎的注意力既伤判断，也偷走心流。分歧在于深度的地位：纽波特把它当 AI 时代唯一升值的稀缺资本，孔子怕它把人压成一件专用器具，香农把整场重述为一条容量固定的信道该如何分配，庄子则干脆想掀掉『深/广皆求有用』这张桌子。",
+      "summary_en": "Consensus first: no one truly argued for breadth alone — even Aristotle, the great foe of either/or, placed depth at one pole of excellence. The whole room agreed that scattered multitasking is a drain, not an ability; Wolf, Damasio and Csíkszentmihályi showed from three directions — neural, bodily, experiential — that shredded attention both harms judgment and steals flow. The divergence is over depth's *status*: Newport treats it as the one scarce capital appreciating in the AI age; Confucius fears it presses a person into a single-purpose vessel; Shannon recasts the whole thing as how to allocate a fixed-capacity channel; and Zhuangzi simply wants to overturn the table on which both depth and breadth chase usefulness.",
+      "insight": "全场都把注意力当成个人可以自由分配的资源——可对大多数上班的人，注意力的碎片化根本不是自己选的，而是被强加的：工作要求随叫随到，平台靠切换牟利，整个经济默认你永远在线。于是『去练深度』悄悄成了一种特权——只有能掌控自己日程的人才付得起。**普通人真正缺的，往往不是意志力，而是一段不被打扰的时间被当作权利、而非个人美德来保护。**所以别只对自己发狠，也要敢于对不合理的『随时找得到你』说不。",
+      "insight_en": "Everyone treated attention as a resource the individual freely allocates — but for most working people, the fragmentation is not chosen; it is imposed: the job demands you be reachable on call, the platform profits from your switching, the whole economy assumes you are always on. So 'train for depth' quietly becomes a privilege — only those who control their own calendar can afford it. **What ordinary people most lack is often not willpower but a stretch of uninterrupted time protected as a right rather than as a personal virtue.** So don't only be hard on yourself; dare, too, to say no to an unreasonable 'always reachable.'",
+      "advice": "三条今天就能上手的。第一，给自己划一段每天雷打不动、关掉通知的深度时间，哪怕先从半小时开始——把它写进日程，像开会一样不可侵犯。第二，做一次『信道审计』：列出每天让你反复切换的三个来源(群消息、红点、随手刷手机)，关掉其中至少一个的实时打扰，改成固定时段批量处理。第三，同时护住一件『能深』的能力和一件『无用』的事——前者选一门难而重要的技能刻意练，后者留一件不计产出、纯为自己的爱好，让大脑既有沉潜也有留白。",
+      "advice_en": "Three you can start today. First, carve out a daily stretch of deep time with notifications off, immovable — even half an hour to begin; write it into your calendar and treat it like a meeting no one may take. Second, run a 'channel audit': list the three sources that keep you switching all day (group chats, badge dots, idle phone-scrolling) and turn off the real-time interruption of at least one, batching it into a fixed window instead. Third, protect both one 'can-go-deep' ability and one 'useless' thing — for the first, deliberately train one hard, important skill; for the second, keep a hobby that counts no output and is purely your own, so the brain has both submersion and empty space."
+    },
+    {
+      "ai": "gpt",
+      "engine": "降级:Opus 扮演(未配 KEY)",
+      "engine_en": "fallback: Opus role-play (no key)",
+      "summary": "这场最扎实的共识是：不停切换的多任务并不是一种能力，它有真实的神经与判断代价，各家都不为它辩护。真正的分歧不在『深好还是广好』，而在深度的位置——它是 AI 时代唯一升值的稀缺资本(纽波特)，是可能把人压成器具的陷阱(孔子)，是一条固定信道里该被理性分配的一段带宽(香农)，还是连追求本身都该被看破的执念(庄子)。亚里士多德把这些收拢成一句：不是选边，而是拿捏比例。",
+      "summary_en": "The firmest consensus here: ceaseless switching is not an ability — it carries real neural and judgmental costs, and no one defended it. The genuine split is not 'deep versus broad' but the *place* of depth — whether it is the one scarce capital appreciating in the AI age (Newport), a trap that can press a person into a vessel (Confucius), a slice of bandwidth to be rationally allocated within a fixed channel (Shannon), or a striving that should itself be seen through (Zhuangzi). Aristotle gathered these into a line: not picking a side, but striking a proportion.",
+      "insight": "值得追问的是，这场辩论的前提可能正被 AI 悄悄抽走。纽波特的『深度稀缺论』成立于一个人得亲手完成深度执行的世界；可当深度的苦活越来越能外包给模型，人身上升值的也许反而翻转成广度——判断该问什么、如何把不搭界的东西缝起来、对结果拍板担责。**在一个深度可被租用的时代，稀缺的未必是钻得多深，而是品味与提问的广度。**这不否定深度的训练价值，但提醒：昨天的正确答案，别当成明天的。",
+      "insight_en": "Worth pressing on: the premise of this debate may be quietly pulled out by AI itself. Newport's 'depth is scarce' holds in a world where a person must do the deep execution by hand; but as the grind of depth becomes ever more outsourceable to models, what appreciates in a human may invert toward breadth — judging what to ask, stitching together unrelated things, owning the call on the result. **In an age when depth can be rented, the scarce thing may not be how deep you dig, but the breadth of taste and questioning.** This doesn't negate the value of training depth, but it warns: don't mistake yesterday's right answer for tomorrow's.",
+      "advice": "三件本周可做的。第一，做一次『可外包性』盘点：把手上的活分成『AI 已能替你做深的』和『还只能靠你的』两栏，把刻意练习押到后一栏，别再花大力气去磨机器已经很行的深活。第二，每周给自己一次『强制跨界』：读一篇本行之外的东西，或和一个不同领域的人聊上半小时，专门练那条把远处两点接起来的判断力——这是纯钻深度练不出来的。第三，练『提问』而非『答题』：拿一个真实难题，先花十分钟只写下值得问的问题，再动手——AI 越强，会问的人越值钱。",
+      "advice_en": "Three for this week. First, take an 'outsourceability' inventory: sort your tasks into 'AI can already do this deep for you' and 'still only you can,' and put your deliberate practice on the latter — stop pouring effort into deep work the machine already does well. Second, give yourself one 'forced crossover' a week: read something outside your field, or talk for half an hour with someone from a different one, training the judgment that joins two far-apart points — the kind pure depth never grows. Third, practice 'asking' rather than 'answering': take a real hard problem and spend ten minutes writing only the questions worth asking before you start — the stronger AI gets, the more a good questioner is worth."
+    },
+    {
+      "ai": "gemini",
+      "engine": "google · gemini-3.1-pro-preview(真实API)",
+      "engine_en": "google · gemini-3.1-pro-preview (live API)",
+      "summary": "这场圆桌看似在深广两端拉扯，但**全场最大的共识并非倒向某一边，而是对被动、碎片化的多任务处理的彻底否定。**无论出发点是捍卫市场价值（纽波特）、追求心流体验（契克森米哈伊）、保护大脑神经可塑性（沃尔夫），还是积攒直觉判断（达马西奥），思想家们一致认为：任由廉价的数字噪音切碎注意力，是对人性的摧毁。真正的分歧在于注意力的最终目的——它究竟是对抗机器的经济资产、亟待分配的通信带宽，还是实现中道与保全“完整人类”的哲学根基？争论的焦距其实从“深与广”移向了“你想成就怎样的人”。",
+      "insight": "AI 正在迅速攻克所谓的“深度认知”——无论是复杂的代码逻辑还是深层的数学推理，机器都在逼近甚至超越人类。这场讨论的一个局限在于，把“深度”仅仅等同于大脑的脑力计算。其实，**人类真正的护城河不仅是专注力，而是把数字空间里推演出的深广，拿到物理现实中去承担真实后果的“具身决策力”。**大语言模型可以穷尽选项、模拟一切，但它没有真实的痛感，无法替你承担搞砸一段关系、做错一次手术或创业破产的切肤之痛。在 AI 永远的免责声明面前，人在泥泞的生活中运用跨领域的广博与专注的深度去“拍板”并为此负责，才是算法无法代劳的终极资本。",
+      "advice": "建议一：建立物理隔离的“深度锚点”。采纳纽波特与沃尔夫的建议，每天固定划出 60 分钟的断网时间，只面对纸质书或离线任务，**先在生理上护住你日渐萎缩的深度回路，再谈效率。**\n建议二：执行“80/20”信道分配。借鉴香农的思路，把 80% 的带宽死磕在核心困难任务上，剩下 20% 作为“扫描信道”，专门在不同领域闲逛，寻找能接通新信号的灵感。\n建议三：让身体参与重大决策。如达马西奥所言，做重要选择前离开屏幕去散步或流汗，把信息的广度交给大脑算，把最终拍板的深度留给身体的直觉标记去定夺。",
+      "summary_en": "While the roundtable appears to tug between depth and breadth, **the greatest consensus across the board is not picking a side, but the absolute rejection of passive, fragmented multitasking.** Whether defending market value (Newport), pursuing flow states (Csikszentmihalyi), protecting neuroplasticity (Wolf), or cultivating intuition (Damasio), all thinkers agree that letting cheap digital noise chop up our attention is destructive. The true divergence emerges only when defining the ultimate purpose of focus. Is it an economic asset to fend off AI, a communication bandwidth to be allocated, or the philosophical foundation for preserving a \"complete human\"? The core debate ultimately shifts from \"depth vs. breadth\" to what kind of humanity we are trying to shape.",
+      "insight_en": "AI is rapidly conquering so-called \"deep cognition\"—from complex coding logic to advanced mathematical reasoning, machines are closing in. A limitation of this debate is equating \"depth\" solely with cerebral computation. In reality, **humanity's true moat is not just focus, but \"embodied decision-making\"—the ability to take digitally calculated depth and breadth and bear their real-world consequences.** Large language models can exhaust options and simulate everything, but they lack physical sensation. They cannot bear the visceral pain of ruining a relationship, botching a surgery, or facing bankruptcy. In the face of AI's eternal disclaimers, making the final call in the messy physical world and taking responsibility for it is the ultimate capital no algorithm can replace.",
+      "advice_en": "1. Establish a physically isolated \"depth anchor.\" Adopting Newport and Wolf’s advice, carve out a strict 60-minute offline window daily, facing only paper or offline tasks. **Protect your shrinking neural circuitry of depth physiologically before worrying about productivity.**\n2. Execute an \"80/20\" channel allocation. Following Shannon's logic, weld 80% of your bandwidth to your core, difficult tasks, and reserve 20% as a \"scanning channel\" to wander across unrelated fields and catch serendipitous signals.\n3. Bring your body into major decisions. As Damasio suggested, step away from screens and take a walk before making a big choice. Let the brain calculate the breadth of information, but leave the final deep call to your somatic markers."
+    }
+  ],
+  "hooks": [
+    {
+      "from": "claude",
+      "text": "**谁的注意力，谁做主**：把『练深度』全交给个人意志，等于假设时间都归你调度——可多数人的碎片化是被工作与平台强加的。当『随叫随到』成了默认，深度就成了少数能掌控日程者的特权。不受打扰的时间，该不该像休息权一样，被当作一种权利来保护？",
+      "text_en": "**Whose attention, whose call**: pinning 'train for depth' entirely on personal willpower assumes the time is yours to schedule — but for most people the fragmentation is imposed by work and platforms. Once 'reachable on demand' is the default, depth becomes the privilege of the few who control their calendars. Should uninterrupted time, like the right to rest, be protected as a right?"
+    },
+    {
+      "from": "gpt",
+      "text": "**当深度可以被租用**：纽波特的『深度是稀缺资本』，成立于人得亲手做深活的世界。可如果 AI 越来越能替人完成深度执行，升值的会不会反过来是广度——提问、品味、把远处两点缝起来、对结果拍板？也许昨天的正确答案，正被这场技术变化悄悄翻面。",
+      "text_en": "**When depth can be rented**: Newport's 'depth is scarce capital' holds in a world where a human must do the deep work by hand. But if AI increasingly does the deep execution, might the appreciating asset invert to breadth — questioning, taste, stitching two far points together, owning the call? Yesterday's right answer may be quietly flipping over in this shift."
+    },
+    {
+      "from": "gemini",
+      "text": "**先深，广才不塌**：也许深不是广的对手，而是广的地基——先在一处彻底搞懂过一件事，才有能力在广处做真正的综合，而非样样浅尝。现代生活却把顺序颠倒了，给还没建起深度回路的大脑先灌满广度刺激。危险的从不是广度，而是没有地基的广度。",
+      "text_en": "**Go deep first, or breadth collapses**: perhaps depth is not breadth's rival but its foundation — only after understanding one thing completely, somewhere, can you truly synthesize across breadth instead of sampling everything. Yet modern life inverts the order, flooding a brain with no deep circuit yet with breadth-stimulation first. The danger is never breadth, but breadth without a foundation."
+    },
+    {
+      "from": "aristotle",
+      "text": "**此刻，我该深还是该广？**——深与广不是一次性的选边，而是每件事上都要重新掂量的比例。缺什么、补什么，往往能被一张小小的自测表当场答掉。",
+      "text_en": "**Right now — depth or breadth?** Depth and breadth are not a one-time side to pick, but a proportion to re-weigh on every task. What you lack, and what to add, can often be answered on the spot by a small self-test.",
+      "answer": {
+        "lead": "别把『我是深度型还是广度型』当成固定人设——**该深还是该广，是随情境变的判断，不是你的星座。**下面五种处境，先对号，再照着做。",
+        "table": {
+          "head": [
+            "你现在的处境",
+            "多半缺的是",
+            "那就这么做"
+          ],
+          "rows": [
+            [
+              "刚进一个新领域，什么都新鲜、样样想学",
+              "深",
+              "先挑一条主线扎下去，做到能拿得出手，再谈铺开——没有深的锚，广只是浮光掠影"
+            ],
+            [
+              "卡在一个难题里，越钻越死、找不到出路",
+              "广",
+              "抬头去别的山头找类比：读点跨界的、问个不同行的人，最稀有的解法常在领域接壤处"
+            ],
+            [
+              "每天很忙、事事沾一点，却没有一件拿得出手",
+              "深",
+              "砍掉一半浅层任务，把腾出的整块时间焊死在最重要的一件事上"
+            ],
+            [
+              "手艺已深，但视野窄、只会一种打法",
+              "广",
+              "每周留一段『扫描时间』读本行之外的东西，给深度接上新的连接口"
+            ],
+            [
+              "面对一个重大而陌生的抉择",
+              "深＋停",
+              "别急着广搜信息，先给它一整段不被打断的时间沉下去想，让判断长出来"
+            ]
+          ]
+        },
+        "tail": "三条原则：① **先诊断再用力**——同样是使劲，用错方向只会更累；② 起步缺深、卡壳缺广，是最常见的两种错配，记住这两条就够用大半；③ 深与广轮着来，别拿一种节奏过整个人生——**深钻要整段的沉潜，广涉要轻盈的漫游。**"
+      }
+    }
+  ]
+}

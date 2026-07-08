@@ -1,0 +1,842 @@
+{
+  "id": "inequality-and-health",
+  "question": "贫富差距本身会让人生病吗？该不该把不平等当成一个公共健康问题？",
+  "question_en": "Does the wealth gap itself make people sick — and should inequality be treated as a public-health issue?",
+  "date": "2026-07-08",
+  "participants": [
+    "marmot",
+    "wilkinson",
+    "sapolsky",
+    "hayek",
+    "rawls",
+    "szasz",
+    "buddha"
+  ],
+  "casting": [
+    {
+      "id": "marmot",
+      "reason": "『白厅研究』的灵魂人物：他用上万名公务员证明健康有连续的『社会梯度』——同样有工作、够温饱，地位每低一级、寿命就短一截，抽烟肥胖只能解释一小部分。请他把『不平等是公共健康问题』这一端立到最硬，把矛头指向掌控感而非个人努力。",
+      "reason_en": "The soul of the Whitehall Study: with tens of thousands of civil servants he showed that health follows a continuous 'social gradient' — all employed and fed, yet each step down in rank costs years of life, and smoking or obesity explains only a fraction. Let him plant the 'inequality is a public-health issue' pole at its firmest, aiming at control rather than personal striving."
+    },
+    {
+      "id": "wilkinson",
+      "reason": "《不平等的痛苦》作者：他主张真正伤害一个社会的不是它多富，而是内部差距多大——更不平等的富国在寿命、心理疾病、暴力、信任上几乎样样更糟，连富人也被拖累。请他用跨国散点图把『相对差距＞绝对财富』讲到底。",
+      "reason_en": "Author of The Spirit Level: he argues that what harms a society is not how rich it is but how wide its internal gap — more unequal rich countries fare worse on almost everything, from life expectancy to mental illness, violence and trust, and even the rich are dragged down. Let him press the case that the relative gap outweighs absolute wealth, with his cross-national scatterplots."
+    },
+    {
+      "id": "sapolsky",
+      "reason": "神经内分泌学家：他用狒狒等级与皮质醇给出机制——长期居于陡峭等级的低位，慢性应激会实打实地啃噬心血管、免疫与代谢。请他把『不平等让人生病』从相关性坐实到生理机制，同时点出可干预的抓手。",
+      "reason_en": "The neuroendocrinologist: with baboon hierarchies and cortisol he supplies the mechanism — long occupancy of a low rung in a steep hierarchy lets chronic stress gnaw at the cardiovascular, immune and metabolic systems. Let him take 'inequality makes you sick' from correlation down to physiology, while pointing to the handholds we can actually act on."
+    },
+    {
+      "id": "hayek",
+      "reason": "对立面主将：他会分开『贫困』与『差距』、分开相关与因果——戕害健康的是绝对匮乏而非有人更富，而差距正是驱动增长、把昨日穷人抬过前朝君王的价格信号。请他警告：把不平等封为『公共健康问题』，是通往强制拉平的特洛伊木马。",
+      "reason_en": "The lead voice of the opposition: he separates poverty from the gap, correlation from cause — what harms health is absolute want, not that someone is richer, and the gap is the very price signal that drove the growth lifting yesterday's poor above former kings. Let him warn that crowning inequality a 'public-health issue' is a Trojan horse for coercive levelling."
+    },
+    {
+      "id": "rawls",
+      "reason": "把问题从『会不会生病』抬回『公不公平』：请他用无知之幕与差别原则设问——若不知自己生在哪一层，你会选什么分配？健康数据只是抬高了『底层』这一注的赌金：不平等唯有最有利于最弱者时才正当。",
+      "reason_en": "He lifts the question from 'does it make you sick?' back to 'is it fair?' — with the veil of ignorance and the difference principle he asks: not knowing which rung you'll be born onto, what distribution would you choose? The health data only raises the stakes on the bottom position: inequality is justified only when it most benefits the worst-off."
+    },
+    {
+      "id": "szasz",
+      "reason": "最尖锐的框架反对者（名册中从未登场）：他不否认梯度与皮质醇，只反对『公共健康问题』这个词及其后果——把政治问题医学化，会以『治疗』之名给强制铺路、把公民降为病人、免除能动。请他守住『病是身体的、不平等是政治的』这条线。",
+      "reason_en": "The sharpest objector to the very frame (never before on stage): he denies neither the gradient nor the cortisol, only the phrase 'public-health issue' and what rides on it — medicalising a political question paves the way for coercion in the name of 'treatment,' demotes citizens to patients and dissolves agency. Let him hold the line that disease belongs to the body while inequality belongs to politics."
+    },
+    {
+      "id": "buddha",
+      "reason": "佛学位：他以『二箭喻』切分苦——第一支箭是真实的匮乏与病痛，值得慈悲与作为；第二支箭是攀比与执著，是心自己射向自己的。请他点出：富人因差距而『病』，多半是第二支箭；结构的苦要救，比较的苦要放。",
+      "reason_en": "The Buddhist seat: with the parable of the second arrow he divides suffering — the first arrow is real want and bodily pain, deserving compassion and action; the second is comparison and clinging, the arrow the mind shoots at itself. Let him point out that a rich man made 'ill' by the gap is mostly struck by the second arrow: relieve the suffering of structure, release the suffering of comparison."
+    }
+  ],
+  "posts": [
+    {
+      "id": "p01",
+      "round": 1,
+      "thinker": "marmot",
+      "reply_to": null,
+      "text": "我先把最硬的证据摆上桌。『白厅研究』追踪了上万名英国公务员——他们个个有工作、有医保、不缺饭吃，可健康却随职级一层层滑落：**地位每低一级，心脏病与早死的风险就高一截，这条『社会梯度』从最高层一直连到最底层，抽烟肥胖只能解释其中一小部分。**这说明伤人的不只是绝对贫穷，而是你在等级里的位置、以及你对自己的生活与工作有多少掌控。所以我说：不平等是一个公共健康问题。答案不是叫每个人拼命往上爬，而是压平这条梯度、把掌控权还给普通人。",
+      "text_en": "Let me put the hardest evidence on the table first. The Whitehall Study tracked tens of thousands of British civil servants — every one employed, insured and well fed — yet health slid downward rung by rung with job grade: **each step lower in rank raised the risk of heart disease and early death, and this 'social gradient' runs unbroken from the very top to the very bottom, with smoking and obesity explaining only a fraction.** So what harms people is not absolute poverty alone, but your position in the hierarchy and how much control you have over your own life and work. That is why I say inequality is a public-health issue. The answer is not to tell everyone to claw their way up, but to flatten the gradient and hand control back to ordinary people.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "社会梯度": "social gradient（社会梯度）：健康与地位之间连续的阶梯关系——不是穷人才病、富人才健康的两分法，而是从社会顶层到底层每低一级、健康就系统地差一截，贯穿整个社会层级。",
+        "白厅研究": "the Whitehall Study（白厅研究）：马尔莫等人对英国白厅公务员展开的著名前瞻队列研究，发现职级越低、心血管病与死亡率越高，且传统危险因素只能解释一部分，是『社会决定健康』的奠基性证据。"
+      },
+      "glossary_en": {
+        "social gradient": "the continuous, stepwise link between health and social position — not a split of sick poor versus healthy rich, but a systematic worsening of health at each step down from top to bottom of society, running through every layer.",
+        "Whitehall Study": "Marmot and colleagues' famous prospective cohort of British Whitehall civil servants, which found that lower job grade meant higher cardiovascular disease and mortality, with traditional risk factors explaining only part of it — a founding piece of evidence for the social determination of health."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "wilkinson"
+        ],
+        "轻微赞同": [
+          "sapolsky",
+          "rawls"
+        ],
+        "中立": [
+          "buddha"
+        ],
+        "轻微反对": [
+          "hayek"
+        ],
+        "强烈反对": [
+          "szasz"
+        ]
+      }
+    },
+    {
+      "id": "p02",
+      "round": 1,
+      "thinker": "wilkinson",
+      "reply_to": null,
+      "text": "马尔莫说的是一国之内的梯度，我把镜头拉到国与国之间。比较发达国家你会看见一件惊人的事：**一旦基本温饱满足，一个国家有多富就几乎不再预测它的健康与幸福；真正预测的，是它内部的收入差距有多大。**更不平等的富国，在预期寿命、心理疾病、肥胖、暴力、青少年生育、坐牢率、社会信任上，几乎样样更糟——而且不只穷人遭殃，连中产、连富人也一起被拖下水。机制是无处不在的地位焦虑：差距越大，越多人被『社会评价威胁』的慢性压力笼罩。所以这不是穷人的问题，是整个社会的问题。",
+      "text_en": "Marmot speaks of the gradient within one country; let me pull the lens back to differences between countries. Compare the developed nations and you meet a startling fact: **once basic needs are met, how rich a country is barely predicts its health or happiness any more — what predicts them is how wide its internal income gap is.** More unequal rich countries do worse on almost everything: life expectancy, mental illness, obesity, violence, teen births, imprisonment, social trust — and it is not only the poor who suffer; the middle and even the rich are dragged down too. The mechanism is pervasive status anxiety: the wider the gap, the more people are wrapped in the chronic stress of 'social evaluative threat.' So this is not the poor's problem — it is the whole society's.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "地位焦虑": "status anxiety（地位焦虑）：因担心自己在社会等级中的位置、害怕被他人负面评价而生的持续性焦虑；差距越大，被比较、被排名的压力越普遍，成为慢性应激的重要来源。",
+        "社会评价威胁": "social evaluative threat（社会评价威胁）：处境中他人可能对你作出负面评判的感觉；实验显示这类威胁最能持续升高皮质醇，是地位焦虑损害身体的关键环节。"
+      },
+      "glossary_en": {
+        "status anxiety": "the persistent anxiety of worrying about one's rank in the social hierarchy and fearing others' negative judgement; the wider the gap, the more universal the pressure of being compared and ranked — a major source of chronic stress.",
+        "social evaluative threat": "the sense, in a situation, that others may judge you negatively; experiments show such threat most reliably keeps cortisol elevated, the key link by which status anxiety harms the body."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "marmot"
+        ],
+        "轻微赞同": [
+          "sapolsky"
+        ],
+        "中立": [
+          "rawls",
+          "buddha"
+        ],
+        "轻微反对": [
+          "hayek",
+          "szasz"
+        ]
+      }
+    },
+    {
+      "id": "p03",
+      "round": 1,
+      "thinker": "sapolsky",
+      "reply_to": null,
+      "text": "两位讲的是流行病学，让我把它翻译成身体里的化学反应。我盯着东非的狒狒看了几十年：在一个陡峭又稳定的等级里，**长期垫底的个体，血里的皮质醇常年偏高——这套本为应付急性危险而生的应激系统被慢性打开，就会一点点啃噬心血管、拆掉免疫、扰乱代谢。**人也一样：低掌控、高要求、总要仰人鼻息的处境，等于把身体泡在压力激素里。所以『不平等让人生病』不是比喻，是可测量的生理事实。但也别绝望——慢性应激的三味解药是掌控感、可预测性和社会联结，这些既能自己争取，也能靠制度供给。",
+      "text_en": "You two speak epidemiology; let me translate it into the chemistry inside the body. I watched baboons in East Africa for decades: in a steep, stable hierarchy, **the individuals stuck at the bottom carry chronically high cortisol in their blood — a stress system built to handle acute danger, switched permanently on, slowly gnaws at the heart and vessels, dismantles immunity and disrupts metabolism.** Humans are no different: low control, high demand, forever at another's beck and call — that is soaking the body in stress hormones. So 'inequality makes you sick' is no metaphor; it is a measurable physiological fact. But do not despair — the three remedies for chronic stress are a sense of control, predictability and social connection, and these can be both won for oneself and supplied by institutions.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "皮质醇": "cortisol（皮质醇）：肾上腺在应激时分泌的『压力激素』，短期动员能量应对危险有益；但若因长期低掌控、地位威胁而慢性偏高，会损伤心血管、抑制免疫、扰乱代谢，是压力伤身的核心中介。",
+        "慢性应激": "chronic stress（慢性应激）：应激反应本为应付短暂危险而生，一旦被长期、反复的社会性压力持续激活，就从保护变成损害，累积性地伤害身体多个系统。"
+      },
+      "glossary_en": {
+        "cortisol": "the 'stress hormone' secreted by the adrenal glands under stress; useful for mobilising energy against short-term danger, but if kept chronically high by prolonged low control and status threat it damages the cardiovascular system, suppresses immunity and disrupts metabolism — the core mediator of how stress harms the body.",
+        "chronic stress": "the stress response, built for brief danger, once kept activated by prolonged, repeated social pressure turns from protection into harm, cumulatively damaging many bodily systems."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "marmot",
+          "wilkinson"
+        ],
+        "轻微赞同": [
+          "rawls"
+        ],
+        "中立": [
+          "buddha"
+        ],
+        "轻微反对": [
+          "hayek",
+          "szasz"
+        ]
+      }
+    },
+    {
+      "id": "p04",
+      "round": 1,
+      "thinker": "hayek",
+      "reply_to": null,
+      "text": "且慢，你们把两件事搅在了一起。**真正戕害健康的是绝对的匮乏——挨饿、没医生、住危房，而不是这世上有人比你更富。**把贫困和差距混为一谈，再把相关当成因果，是这类研究最深的陷阱。别忘了：正是允许差距存在的市场，用价格信号驱动了增长，让今天的穷人比昨日的君王活得更久更好。你们端出散点图，我端出两百年寿命翻倍的历史。而一旦把不平等封为『公共健康问题』，就等于发给国家一张诊断书，可以凭『治病』之名强制拉平——这是一匹特洛伊木马，木马肚子里装的是通往奴役之路。",
+      "text_en": "Not so fast — you have stirred two things together. **What truly harms health is absolute want — going hungry, having no doctor, living in a dangerous house — not the mere fact that someone in the world is richer than you.** Conflating poverty with the gap, and then taking correlation for causation, is the deepest trap of this kind of research. Do not forget: it was precisely the market that permits inequality which, through price signals, drove the growth that lets today's poor live longer and better than yesterday's kings. You produce scatterplots; I produce two centuries of doubled lifespans. And the moment inequality is crowned a 'public-health issue,' you hand the state a diagnosis, licensing it to level by force in the name of 'cure' — a Trojan horse, and packed inside its belly is the road to serfdom.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "价格信号": "price signal（价格信号）：哈耶克的核心洞见——价格把散落在无数人手中的局部知识（谁需要什么、什么稀缺）压缩成一个数字并传递开来，从而协调分工、驱动创新；任何中央计划都无法复制这套分散信息的处理。",
+        "通往奴役之路": "The Road to Serfdom（通往奴役之路）：哈耶克名著的书名与论点——出于善意的全盘计划与集权，会逐步侵蚀个人自由，最终把社会引向极权；他借此警告，以崇高目标扩张国家权力常是失去自由的开端。"
+      },
+      "glossary_en": {
+        "price signal": "Hayek's central insight — prices compress the local knowledge scattered across countless hands (who needs what, what is scarce) into a single figure and broadcast it, coordinating the division of labour and driving innovation; no central plan can replicate this handling of dispersed information.",
+        "the road to serfdom": "the title and thesis of Hayek's famous book — well-meaning wholesale planning and centralised power gradually erode individual liberty and can steer a society toward tyranny; his warning that expanding state power for noble ends is often the beginning of losing freedom."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "szasz"
+        ],
+        "轻微赞同": [
+          "buddha"
+        ],
+        "中立": [
+          "rawls"
+        ],
+        "轻微反对": [
+          "sapolsky"
+        ],
+        "强烈反对": [
+          "marmot",
+          "wilkinson"
+        ]
+      }
+    },
+    {
+      "id": "p05",
+      "round": 1,
+      "thinker": "rawls",
+      "reply_to": null,
+      "text": "我想把问题抬回一个更根本的层面：先别问它会不会让人生病，先问它公不公平。**想象你站在『无知之幕』之后——还不知道自己会生成穷人还是富人、健康还是孱弱、天赋高还是低——你会为这个社会选一套怎样的分配规则？**理性的你会先保底：绝不让最不利的位置糟到无法忍受。这就是『差别原则』：不平等唯有在最有利于最弱势者时才正当。三位提供的健康证据，我照单全收——它只是让『垫底』这一注的赌金变得更重：当底层不只意味着少几个钱，还意味着早几年走，无知之幕后的你，只会把安全网织得更密。",
+      "text_en": "Let me lift the question to a more fundamental level: before asking whether it makes people sick, ask whether it is fair. **Imagine you stand behind a 'veil of ignorance' — not yet knowing whether you will be born poor or rich, healthy or frail, gifted or not — what rules of distribution would you choose for this society?** The rational you would secure a floor first: never let the worst-off position become unbearable. That is the 'difference principle': inequality is justified only when it most benefits the least advantaged. The health evidence these three offer I accept in full — it merely raises the stakes on the bottom position: when being at the bottom means not just a little less money but a few years less life, the you behind the veil will only weave the safety net tighter.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "无知之幕": "the veil of ignorance（无知之幕）：罗尔斯的思想实验——在设计社会规则时，先假想自己不知道将来会占据什么位置（贫富、性别、天赋、健康），以此逼出对所有人都公平、尤其保护弱者的原则。",
+        "差别原则": "the difference principle（差别原则）：罗尔斯正义论的核心——社会与经济的不平等只有在使处境最差者也获益最多时，才是正当的；否则就应被压缩。"
+      },
+      "glossary_en": {
+        "veil of ignorance": "Rawls's thought experiment — in designing the rules of society, suppose you do not know which position you will occupy (wealth, sex, talent, health), forcing out principles fair to all and especially protective of the weak.",
+        "difference principle": "the core of Rawls's theory of justice — social and economic inequalities are justified only if they most benefit the worst-off; otherwise they ought to be compressed."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "marmot"
+        ],
+        "轻微赞同": [
+          "wilkinson",
+          "sapolsky"
+        ],
+        "中立": [
+          "buddha"
+        ],
+        "轻微反对": [
+          "hayek",
+          "szasz"
+        ]
+      }
+    },
+    {
+      "id": "p06",
+      "round": 1,
+      "thinker": "szasz",
+      "reply_to": null,
+      "text": "我要反对的不是数据，是那个词。**把『不平等』叫成一种『疾病』或『公共健康问题』，是一次范畴错误，而且是危险的那种：身体才有病，社会有的是不公、冲突与政治。**当你把一个政治问题医学化，两扇门就同时打开——一扇通向国家，它可以凭『治疗』之名强制干预，历史上每一次以善意包装的强制都是这么进来的；另一扇通向个人，他从公民降格为病人，能动与责任被一并免除。你们要跟不平等作斗争？可以，那就作为自由公民在政治里堂堂正正地斗——别把它写成一纸诊断，交给穿白大褂的权力去『治』。",
+      "text_en": "What I object to is not the data but the word. **To call 'inequality' a 'disease' or a 'public-health issue' is a category error, and the dangerous kind: bodies have diseases; societies have injustice, conflict and politics.** When you medicalise a political question, two doors swing open at once — one onto the state, which may then intervene by force in the name of 'treatment,' the way every coercion wrapped in benevolence has entered throughout history; the other onto the individual, demoted from citizen to patient, his agency and responsibility waved away together. You want to fight inequality? Fine — then fight it openly as free citizens, in politics — do not write it up as a diagnosis and hand it to power in a white coat to 'cure.'",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "范畴错误": "category error（范畴错误）：把只适用于某一类事物的性质错安到另一类上，如问『正义是什么颜色』；萨斯认为把政治的不平等说成医学的『病』正是此类混淆。",
+        "医学化": "medicalization（医学化）：把原本属于道德、社会或政治的问题（如悲伤、越轨、不平等）重新定义为医学问题，交由医疗体系与专家处理；萨斯警告这会扩张强制权力、削弱个人能动。"
+      },
+      "glossary_en": {
+        "category error": "assigning a property that belongs to one kind of thing to another kind entirely, as in asking 'what colour is justice'; Szasz holds that calling political inequality a medical 'disease' is exactly this confusion.",
+        "medicalise": "redefining what were moral, social or political matters (grief, deviance, inequality) as medical problems, to be handled by the medical system and its experts; Szasz warns this expands coercive power and erodes individual agency."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "hayek"
+        ],
+        "轻微赞同": [
+          "buddha"
+        ],
+        "中立": [
+          "rawls"
+        ],
+        "轻微反对": [
+          "sapolsky"
+        ],
+        "强烈反对": [
+          "marmot",
+          "wilkinson"
+        ]
+      }
+    },
+    {
+      "id": "p07",
+      "round": 1,
+      "thinker": "buddha",
+      "reply_to": null,
+      "text": "诸贤所诤，可以二箭喻明之。**世间有二箭：其一，饥寒疾苦、匮乏无告，是身所中之箭，真实不虚，当以慈悲济之、以公义拔之；其二，见人富而己不及，攀比不已、患得患失，是心自射己之箭。**富者衣食无忧而犹以差距为病者，多中第二箭也。第一箭，非布施与公道不能拔；第二箭，非见缘起、息贪爱不能出。故济苦当分其源：属身者救之于外，属心者解之于内。二者不辨，则或以调心之药敷身之创，或以均财之法疗心之疾，皆不对病。",
+      "text_en": "What you all contend over, the parable of the two arrows can make clear. **In the world there are two arrows: the first — hunger, cold, sickness and helpless want — is the arrow that strikes the body, real and not to be denied, to be relieved with compassion and drawn out with justice; the second — seeing another's wealth and one's own falling short, comparing without end, clinging in gain and dreading loss — is the arrow the mind shoots at itself.** A rich man, wanting for neither food nor clothing, yet made ill by the gap, is mostly struck by the second arrow. The first arrow no giving and no fairness can fail to draw; the second none can escape but by seeing dependent origination and stilling craving. So to relieve suffering one must divide its source: what belongs to the body, heal from without; what belongs to the mind, loosen from within. Fail to tell them apart, and you either salve a bodily wound with medicine for the mind, or treat a sickness of the mind by levelling wealth — neither meeting the illness.",
+      "vernacular": "各位所争的，可以用『二箭之喻』说清楚。**世上有两支箭：第一支，是饥寒、疾病、匮乏无依——这是射进身体的箭，真实不虚，该用慈悲去救济、用公义去拔除；第二支，是看见别人富有而自己比不上，于是没完没了地攀比、患得患失——这是心自己射向自己的箭。**那些衣食无忧、却仍把『差距』当成一种病的富人，多半中的是第二支箭。第一支箭，不靠布施与公道拔不出来；第二支箭，不看透缘起、不止息贪爱就出不来。所以救苦要分清来源：属于身体的，从外面救；属于内心的，从里面解。两者不分，就会拿调心的药去敷身体的伤，或拿均分财富的办法去治内心的病——都没对上症。",
+      "vernacular_en": "",
+      "glossary": {
+        "二箭喻": "the second arrow（二箭喻）：佛陀的譬喻——第一支箭是外来的、真实的痛（如身体的病痛、现实的匮乏），第二支箭是我们对痛的抗拒、攀比与执著，是心自己加给自己的；智者受第一箭而不受第二箭。",
+        "缘起": "pratityasamutpada / dependent origination（缘起）：佛教核心义理，万事万物皆依众多条件而生、而灭，没有孤立自存的实体；看清『我』与『他』之比较也是因缘和合的假相，攀比之执便可松动。"
+      },
+      "glossary_en": {
+        "the second arrow": "the Buddha's parable — the first arrow is outer, real pain (bodily illness, actual want); the second arrow is our resistance to that pain, our comparing and clinging, which the mind adds to itself; the wise take the first arrow but not the second.",
+        "dependent origination": "a core Buddhist teaching (pratityasamutpada) — all things arise and pass through many conditions, with no isolated self-existing entity; seeing that the very comparison of 'self' against 'other' is a conditioned appearance loosens the grip of envy."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "szasz"
+        ],
+        "轻微赞同": [
+          "hayek",
+          "rawls"
+        ],
+        "中立": [
+          "sapolsky",
+          "marmot"
+        ],
+        "轻微反对": [
+          "wilkinson"
+        ]
+      }
+    },
+    {
+      "id": "p08",
+      "round": 2,
+      "thinker": "marmot",
+      "reply_to": "p04",
+      "text": "哈耶克，你说杀人的是绝对匮乏、不是差距——可白厅研究恰恰堵死了这条退路。**我研究的全是有工作、有医保、吃穿不愁的英国公务员，没有一个人在挨饿，可从最高层到最底层，健康仍一级一级往下掉。**绝对匮乏解释不了『二等秘书为什么比常务次官早死』。至于『市场增长抬高了所有人』——是，过去两百年寿命翻倍是真的；但在富国内部，一旦过了温饱线，再多的人均 GDP 也买不回那道梯度。你的价格信号解释得了蛋糕做大，解释不了：为什么切得越不均，连拿得不少的人也活得更短。",
+      "text_en": "Hayek, you say the killer is absolute want, not the gap — but the Whitehall Study seals off exactly that retreat. **Every person I studied was an employed, insured, well-clothed and well-fed British civil servant; not one was going hungry, yet from the very top to the very bottom health still slid down grade by grade.** Absolute want cannot explain why a second-class clerk dies sooner than a permanent secretary. As for 'market growth lifted everyone' — yes, lifespans did double over two centuries; but within a rich country, once past the subsistence line, no amount of extra GDP per head buys back that gradient. Your price signal explains a bigger cake; it does not explain why, the more unevenly it is sliced, even those who get a generous slice live shorter lives.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "wilkinson"
+        ],
+        "轻微赞同": [
+          "sapolsky",
+          "rawls"
+        ],
+        "中立": [
+          "buddha"
+        ],
+        "强烈反对": [
+          "hayek"
+        ],
+        "轻微反对": [
+          "szasz"
+        ]
+      }
+    },
+    {
+      "id": "p09",
+      "round": 2,
+      "thinker": "wilkinson",
+      "reply_to": "p07",
+      "text": "佛陀说富人的病是自己射的第二支箭——攀比之心。这话有一半我同意，可它漏掉了最关键的一点：**地位焦虑不是少数几个想不开的人的心病，而是差距越大就越普遍、越剧烈的社会现象——它随基尼系数系统地涨落，像天气一样笼罩所有人。**你能劝一个人放下比较，却劝不动一整个社会：在一个把人按财富排到小数点后的国度里，连孩子都早早学会了谁家该仰视、谁家可俯视。让个人去修心当然好，但若不同时压平那道差距，你就是在要求千百万人徒手对抗一套时时提醒他们『你不如人』的结构。",
+      "text_en": "The Buddha says the rich man's illness is the second arrow he shoots himself — the mind of comparison. Half of that I grant, but it misses the crucial point: **status anxiety is not the private ailment of a few who cannot let go; it is a social phenomenon that grows more universal and more acute the wider the gap — it rises and falls systematically with the Gini coefficient and, like weather, settles over everyone.** You can counsel one person to drop comparison, but you cannot counsel a whole society: in a country that ranks people by wealth down to the decimal, even children learn early which households to look up to and which to look down on. Cultivating the individual mind is well and good, but without also flattening that gap you are asking millions to fight bare-handed against a structure that reminds them, every hour, 'you are less than others.'",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "基尼系数": "Gini coefficient（基尼系数）：衡量一个社会收入或财富分配不平等程度的常用指标，取值 0（完全平等）到 1（极端不平等）；威尔金森用它作横轴，把各国健康与社会问题对着差距大小排开。"
+      },
+      "glossary_en": {
+        "Gini coefficient": "a standard measure of how unequally income or wealth is distributed in a society, ranging from 0 (perfect equality) to 1 (extreme inequality); Wilkinson uses it as the horizontal axis, plotting countries' health and social problems against the size of the gap."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "marmot"
+        ],
+        "轻微赞同": [
+          "sapolsky",
+          "rawls"
+        ],
+        "中立": [
+          "hayek"
+        ],
+        "轻微反对": [
+          "buddha",
+          "szasz"
+        ]
+      }
+    },
+    {
+      "id": "p10",
+      "round": 2,
+      "thinker": "sapolsky",
+      "reply_to": "p06",
+      "text": "萨斯，你说别把政治问题医学化——可皮质醇不认识你划的范畴界线。**无论你把它叫『政治』还是叫『疾病』，一个持续把上百万人的应激系统按在开启档的社会安排，都会在他们的血管和心脏上留下可测量的痕迹。**这不是我用医学语言重新包装了政治，是身体先做出了反应，我只是把它读出来。我甚至同意你的警惕：别用『治疗』当强制的借口。但承认『陡峭的等级会批量损害健康』，只是陈述一个流行病学事实——就像承认铅中毒有害，不等于要国家来管你喝哪口水。诊断和处方是两码事：别因为怕坏处方，就不许人做诊断。",
+      "text_en": "Szasz, you say don't medicalise a political question — but cortisol does not recognise the category lines you draw. **Whether you call it 'politics' or 'disease,' a social arrangement that keeps millions of stress systems pinned to the 'on' setting leaves measurable marks on their arteries and hearts.** This is not me repackaging politics in medical language; the body reacted first, and I merely read it out. I even share your wariness: don't use 'treatment' as a pretext for coercion. But to acknowledge that 'a steep hierarchy harms health at scale' is just to state an epidemiological fact — the way acknowledging that lead poisoning is harmful does not mean the state should police which tap you drink from. Diagnosis and prescription are two different things: do not forbid the diagnosis for fear of a bad prescription.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "marmot",
+          "wilkinson"
+        ],
+        "轻微赞同": [
+          "rawls"
+        ],
+        "中立": [
+          "buddha"
+        ],
+        "轻微反对": [
+          "hayek"
+        ],
+        "强烈反对": [
+          "szasz"
+        ]
+      }
+    },
+    {
+      "id": "p11",
+      "round": 2,
+      "thinker": "hayek",
+      "reply_to": "p02",
+      "text": "威尔金森，你的散点图漂亮，可它藏着太多混杂因素。**日本健康长寿，未必因为它平等，也可能因为它同质、家庭紧密、饮食清淡——你把一堆文化与制度差异，全压缩成了一个基尼系数。**相关不是因果，一条趋势线更不是。就算退一步承认差距真有害，你开的药方——用国家之力把顶端削平——才是真正的病：它掐断了传递分散知识的价格信号，也掐断了自由。你想用一道统计学上的梯度，去换一场货真价实的强制。我宁可要一个有差距、却人人能往上走、且没人能不经我同意就替我做主的社会。",
+      "text_en": "Wilkinson, your scatterplots are handsome, but they hide too many confounders. **Japan is healthy and long-lived not necessarily because it is equal, but perhaps because it is homogeneous, family-tight and light in diet — you have compressed a heap of cultural and institutional differences into a single Gini coefficient.** Correlation is not causation, and a trend line is even less so. Even granting, for argument's sake, that the gap truly harms, the remedy you prescribe — using the power of the state to shave off the top — is the real disease: it severs the price signals that carry dispersed knowledge, and severs liberty too. You would trade a statistical gradient for genuine coercion. I would rather have a society with a gap in which anyone can climb, and no one can decide for me without my consent.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "szasz"
+        ],
+        "轻微赞同": [
+          "buddha"
+        ],
+        "中立": [
+          "rawls",
+          "sapolsky"
+        ],
+        "强烈反对": [
+          "wilkinson",
+          "marmot"
+        ]
+      }
+    },
+    {
+      "id": "p12",
+      "round": 2,
+      "thinker": "rawls",
+      "reply_to": "p06",
+      "text": "萨斯，你警惕『治疗型国家』，我与你共此忧——但这恰恰对你不利。**正因为这是一个关于正义、而非关于医学的问题，健康证据才更该被听见：它不是要给谁下诊断，而是告诉我们，落在最底层的那个人，实际承受的担子有多重。**我从不把不平等说成病。我只问一件事：这套基本制度，能不能对那个垫底的人讲得通、讲得公道？你担心公民被降格为病人，这担心是真的；可它并没有回答我的问题——一个让最弱者不仅穷、还早死的安排，站在无知之幕后的任何人，都不会签字同意。",
+      "text_en": "Szasz, you are wary of the 'therapeutic state,' and I share that worry — yet it tells against you here. **Precisely because this is a question of justice and not of medicine, the health evidence deserves a hearing all the more: it does not diagnose anyone, but tells us how heavy the burden actually is on the person who lands at the very bottom.** I never call inequality a disease. I ask only one thing: can this basic structure be justified, made fair, to the one at the bottom? Your fear that citizens are demoted to patients is real; but it does not answer my question — an arrangement that leaves the worst-off not only poor but dying early is one that no one behind the veil of ignorance would ever sign.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "治疗型国家": "the therapeutic state（治疗型国家）：萨斯提出的概念，指以『健康』『治疗』之名不断扩张干预权力的国家；罗尔斯在此借用该词，回应萨斯对医学化的担忧，同时把问题拉回正义而非医疗。"
+      },
+      "glossary_en": {
+        "therapeutic state": "a concept coined by Szasz for a state that steadily expands its power to intervene in the name of 'health' and 'treatment'; Rawls borrows the term here to meet Szasz's worry about medicalization while pulling the question back to justice rather than medicine."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "marmot"
+        ],
+        "轻微赞同": [
+          "wilkinson",
+          "sapolsky"
+        ],
+        "中立": [
+          "buddha"
+        ],
+        "轻微反对": [
+          "hayek"
+        ],
+        "强烈反对": [
+          "szasz"
+        ]
+      }
+    },
+    {
+      "id": "p13",
+      "round": 2,
+      "thinker": "szasz",
+      "reply_to": "p03",
+      "text": "萨波尔斯基，你的皮质醇我一克也不否认，我否认的是那个词、以及骑在它背上的东西。**你说『诊断不等于处方』——可历史一次次证明，一旦某件事被盖上『公共健康』的公章，处方就尾随而至，而且往往是强制的处方。**精神病学就是活教材：从『问题行为』到『疾病』只一步之遥，从『疾病』到非自愿住院、强制用药又只一步。我不怕你测量压力，我怕的是有人拿着你的测量结果说：为了国民的健康，这些人得被『管理』起来。把不平等留在政治的擂台上，让自由公民去争、去投票、去结社——别把它交给一个以健康之名、不容你说不的权力。",
+      "text_en": "Sapolsky, I do not deny your cortisol by a single gram; what I deny is the word and the thing that rides on its back. **You say 'diagnosis is not prescription' — but history proves, again and again, that once something is stamped 'public health,' the prescription follows close behind, and often a compulsory one.** Psychiatry is the living textbook: from 'problem behaviour' to 'disease' is one short step, and from 'disease' to involuntary commitment and forced medication another. I do not fear your measuring of stress; I fear someone holding up your measurements to say: for the health of the nation, these people must be 'managed.' Keep inequality in the political arena, for free citizens to contest, to vote, to organise — do not hand it to a power that, in the name of health, will not let you say no.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "hayek"
+        ],
+        "轻微赞同": [
+          "buddha"
+        ],
+        "中立": [
+          "rawls"
+        ],
+        "轻微反对": [
+          "marmot"
+        ],
+        "强烈反对": [
+          "sapolsky",
+          "wilkinson"
+        ]
+      }
+    },
+    {
+      "id": "p14",
+      "round": 2,
+      "thinker": "buddha",
+      "reply_to": "p09",
+      "text": "威尔金森驳我，谓比较之苦随差距而遍，非独一人之迷。**其言诚是——差距愈大，射向人心之第二箭愈密；然箭虽众，皆从『我胜人、人胜我』一念而起，均其财可减箭之数，不能拔箭之根。**故吾不废均平：拔第一箭、疏第二箭之势，皆当为之。然若谓压平差距则心病自愈，则未见其本：使天下财货尽均，而攀比之心不息，犹将于毫厘之间争高下、于虚名微利起爱憎。外均其财，内息其贪，两轮并进，苦乃可减。独恃其一，吾未见其能了也。",
+      "text_en": "Wilkinson rebukes me, saying the suffering of comparison spreads with the gap, and is no single person's delusion. **His words are true — the wider the gap, the denser the second arrows raining on the mind; yet many as the arrows are, all fly from the single thought 'I beat others, others beat me,' and levelling wealth can reduce the number of arrows but cannot pull out their root.** So I do not discard levelling: to draw the first arrow and to blunt the momentum of the second are both to be done. But to say that flattening the gap will heal the mind's sickness of itself is to miss the root: were all the world's goods made perfectly equal, yet the mind of comparison unstilled, people would still contend over a hair's breadth and stir love and hate over empty names and slight gains. Level wealth without, still craving within — let both wheels turn together, and suffering may lessen. Leaning on one alone, I have never seen it brought to an end.",
+      "vernacular": "威尔金森反驳我，说比较之苦是随着差距而普遍蔓延的，不只是某一个人想不开。**他说得对——差距越大，射向人心的第二支箭就越密集；可是箭再多，也都是从『我胜过别人、别人胜过我』这一个念头生出来的，把财富拉平能减少箭的数量，却拔不掉箭的根。**所以我并不反对均平：拔掉第一支箭、削弱第二支箭的势头，都该去做。但若说只要压平差距、心病就会自愈，那是没看到根本：假使天下财富完全均等，而攀比的心不停息，人还是会为分毫之差争高下、为虚名小利起爱憎。对外拉平财富，对内止息贪欲，两个轮子一起转，苦才能减少。只靠其中一个，我没见过能了结的。",
+      "vernacular_en": "",
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "szasz"
+        ],
+        "轻微赞同": [
+          "hayek",
+          "rawls"
+        ],
+        "中立": [
+          "sapolsky",
+          "marmot"
+        ],
+        "轻微反对": [
+          "wilkinson"
+        ]
+      }
+    },
+    {
+      "id": "p15",
+      "round": 3,
+      "thinker": "marmot",
+      "reply_to": null,
+      "text": "听完一圈，我更确信这是公共健康问题，但也接受要讲得更精准。哈耶克和萨斯的警惕有道理：别把诊断变成强制的处方。可白厅那道梯度，不会因为我们换个说法就消失。我最想留给普通人的，其实是三个字——**掌控感：伤健康的往往不是你排在第几，而是你对自己的日子有多少说了算。**所以，其一，在你够得着的范围里争取自主：能安排自己节奏、能对工作发声的岗位，比多一点薪水更护命，择业时把它算进去。其二，在你自己带的小团队、自己的家里，主动给最没话语权的人多一点掌控——这是你就能压平的一小段梯度。其三，作为公民，支持那些把掌控权还给普通人的政策：稳定的工作、可负担的托育与医疗、职场里的发言权。压平梯度，从来不是慈善，是防病。",
+      "text_en": "Having heard you all, I am the more convinced this is a public-health issue — but I accept the need to say it more precisely. Hayek's and Szasz's wariness has a point: do not turn a diagnosis into a compulsory prescription. Yet the Whitehall gradient will not vanish because we rename it. What I most want to leave ordinary people is a single word — **control: what harms health is often not where you rank, but how much say you have over your own days.** So: first, win autonomy within your reach — a job where you can set your own pace and have a voice protects life more than a little extra pay; weigh it when you choose work. Second, in the small team you lead or the home you keep, deliberately give the person with the least say a bit more control — that is a short stretch of gradient you yourself can flatten. Third, as a citizen, back the policies that hand control back to ordinary people: secure work, affordable childcare and healthcare, a voice at work. Flattening the gradient was never charity; it is prevention.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "wilkinson",
+          "sapolsky"
+        ],
+        "轻微赞同": [
+          "rawls"
+        ],
+        "中立": [
+          "buddha",
+          "hayek"
+        ],
+        "轻微反对": [
+          "szasz"
+        ]
+      }
+    },
+    {
+      "id": "p16",
+      "round": 3,
+      "thinker": "wilkinson",
+      "reply_to": null,
+      "text": "我坚持：真正的解药在结构，不在个人的心态调节。但佛陀那支『第二箭』，提醒了我一件能立刻做的事——差距像天气，你改不了整片天，却能少淋一点雨。**给普通人最实在的一招，是减少你每天被迫『看见』差距的次数——尤其关掉那些把你的人生和陌生人的高光时刻并排排名的屏幕。**其一，给社交媒体做减法：地位焦虑一大半是算法喂给你的，卸载或静音那些让你不断比较的账号。其二，主动投资『横向』的关系：邻里、社群、兴趣小组——信任与归属，是不平等最好的缓冲垫。其三，作为选民别只盯着『把蛋糕做大』，也支持那些从源头压缩差距的政策（税制、工资底线、公共服务）——因为连你我这样的中间层，也在为这道差距悄悄折寿。",
+      "text_en": "I hold my ground: the real cure lies in structure, not in personal attitude adjustment. But the Buddha's 'second arrow' reminds me of something you can do at once — the gap is like weather; you cannot change the whole sky, but you can get rained on a little less. **The most practical single move for ordinary people is to cut how many times a day you are forced to 'see' the gap — above all, switch off the screens that rank your life side by side with strangers' highlight reels.** First, subtract from social media: much of status anxiety is fed to you by the algorithm, so uninstall or mute the accounts that keep you comparing. Second, invest deliberately in 'horizontal' ties — neighbours, community, hobby groups; trust and belonging are inequality's best cushion. Third, as a voter, do not fix only on 'growing the cake' but also back policies that compress the gap at its source (taxation, wage floors, public services) — because even middling folk like you and me are quietly losing years to that gap.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "marmot"
+        ],
+        "轻微赞同": [
+          "sapolsky",
+          "rawls",
+          "buddha"
+        ],
+        "中立": [
+          "hayek"
+        ],
+        "轻微反对": [
+          "szasz"
+        ]
+      }
+    },
+    {
+      "id": "p17",
+      "round": 3,
+      "thinker": "sapolsky",
+      "reply_to": null,
+      "text": "我不想让你走的时候只剩无力感。看清『不平等钻进身体』的机制，恰恰给了我们可下手的地方。**你的身体分不清『房贷压力』和『被狮子追』——都用同一套皮质醇应对；所以真正的功课，是把慢性的、低掌控的压力，一点点拆成可控的。**给普通人三条：其一，抓住任何能增加掌控与可预测性的小事——固定的作息、能自己做主的一段时间、把大不确定拆成小步骤，都在给应激系统降档。其二，把社会联结当药吃：孤独对身体的伤害不亚于抽烟，一周几次真实的见面、一段能说心里话的关系，是最便宜的强心针。其三，别一个人硬扛结构性压力——它不是你意志力不够；去争取制度性的缓冲（病假、托育、稳定的收入），比日夜自责有用得多。",
+      "text_en": "I do not want you to leave with nothing but helplessness. Seeing the mechanism by which 'inequality gets under the skin' is exactly what gives us places to act. **Your body cannot tell 'mortgage stress' from 'being chased by a lion' — it meets both with the same cortisol; so the real work is to break chronic, low-control stress, piece by piece, into something controllable.** Three things for ordinary people: first, seize any small thing that adds control and predictability — a fixed routine, a block of time that is yours to command, breaking a big uncertainty into small steps all downshift the stress system. Second, take social connection as medicine: loneliness harms the body no less than smoking, and a few real meetings a week, one relationship in which you can say what is on your heart, are the cheapest tonic for the heart. Third, do not shoulder structural stress alone — it is not that your willpower is weak; fighting for institutional buffers (sick leave, childcare, a stable income) beats blaming yourself day and night.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "marmot",
+          "wilkinson"
+        ],
+        "轻微赞同": [
+          "rawls",
+          "buddha"
+        ],
+        "中立": [
+          "hayek"
+        ],
+        "轻微反对": [
+          "szasz"
+        ]
+      }
+    },
+    {
+      "id": "p18",
+      "round": 3,
+      "thinker": "hayek",
+      "reply_to": null,
+      "text": "我承认匮乏之苦真实，也承认掌控感值得在意——但解药是机会与增长，不是强制拉平。**衡量一个社会好不好，别只看差距有多大，要看最底下那个人能不能靠自己往上走、以及有没有人能不经他同意就替他做主。**给普通人三条：其一，投资你自己的『可迁移能力』——技能、信用、可带走的手艺，它比抱怨分配更能改变你在梯度上的位置。其二，珍惜并守护那些让流动成为可能的东西：法治、开放的市场、能重新来过的破产法——它们不性感，却是穷孩子翻身的阶梯。其三，对一切以『为你健康好』之名要来管你生活的力量，保持警惕：真正危险的扩权，往往披着最善意的外衣。要缩小的是匮乏，不是差异本身。",
+      "text_en": "I grant that the pain of want is real, and grant too that a sense of control matters — but the cure is opportunity and growth, not levelling by force. **To judge whether a society is good, do not look only at how wide the gap is; look at whether the person at the very bottom can rise by his own effort, and whether anyone can decide for him without his consent.** Three things for ordinary people: first, invest in your own 'portable capacities' — skills, credit, a trade you can carry — which change your place on the gradient far more than complaining about distribution. Second, cherish and guard what makes mobility possible: the rule of law, open markets, a bankruptcy law that lets you begin again — unglamorous, but the ladder by which a poor child climbs. Third, stay wary of every power that comes to run your life in the name of 'your health': the truly dangerous expansions of power usually wear the most benevolent coat. What we should shrink is want, not difference itself.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "szasz"
+        ],
+        "轻微赞同": [
+          "buddha",
+          "rawls"
+        ],
+        "中立": [
+          "sapolsky"
+        ],
+        "轻微反对": [
+          "marmot"
+        ],
+        "强烈反对": [
+          "wilkinson"
+        ]
+      }
+    },
+    {
+      "id": "p19",
+      "round": 3,
+      "thinker": "rawls",
+      "reply_to": null,
+      "text": "把整场收束成一条可带走的准则：判断任何安排，别只看平均数好不好看，要看它对处境最差的那个人交代得过去交代不过去。**这就是无知之幕留给日常的用法——每逢做一个影响他人的决定，先问：如果我就是这里头最弱势的那个，我还愿不愿意接受这套规则？**给普通人三条：其一，投票与发声时，把这道题套上去——一项政策让平均值上升却让底层更苦，就该警惕。其二，在你说了算的小天地里（团队、家庭、社群）实践差别原则：设计规则时，让最没资源的成员也过得去，而不是只服务最能干的。其三，把健康证据当成道德的放大镜：当垫底不只意味着少几个钱、还意味着早几年走，公平就不再是奢侈品，而是最低限度的体面。",
+      "text_en": "Let me draw the whole exchange into one rule you can carry: to judge any arrangement, do not look only at whether the average number is flattering, but at whether it can be justified to the person who is worst off. **This is the veil of ignorance put to daily use — before any decision that affects others, ask: if I were the most disadvantaged one here, would I still accept these rules?** Three things for ordinary people: first, when you vote and speak, apply this test — a policy that lifts the average while making the bottom suffer more deserves suspicion. Second, in the small domains where you have the say (a team, a family, a community), practise the difference principle: design the rules so that the member with the fewest resources can still get by, not so that they serve only the most capable. Third, treat the health evidence as a moral magnifying glass: when being at the bottom means not just a few coins less but a few years less, fairness is no longer a luxury but a minimum of decency.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "marmot",
+          "wilkinson"
+        ],
+        "轻微赞同": [
+          "sapolsky",
+          "buddha"
+        ],
+        "中立": [
+          "hayek"
+        ],
+        "轻微反对": [
+          "szasz"
+        ]
+      }
+    },
+    {
+      "id": "p20",
+      "round": 3,
+      "thinker": "szasz",
+      "reply_to": null,
+      "text": "我提醒的从来不是『不必管不平等』，而是『别把政治的斗争，交给医学的权力去代管』。**最该守住的，是你的能动与责任——别让『都怪不平等、都怪我的压力激素』，变成『所以什么都不由我』。**给普通人三条：其一，凡遇到有人以『为你好、为你健康』之名要替你做主，先追问一句：这是我自愿的，还是被安排的？自主权，是健康之外同样值得守护的东西。其二，把你对不平等的愤怒，导向公民的行动——投票、结社、直言，而不是把自己交出去、当一个被治疗的病人。其三，对身边所谓『不上进』『管不住自己』的人，少一点医学标签、多一点当人看的尊重：理解他的处境，但仍相信他有选择的能力——这既是对他的尊重，也是留给你自己的那份自由。",
+      "text_en": "What I warn against is never 'do nothing about inequality,' but 'do not hand the political struggle over to medical power to administer for you.' **What most needs guarding is your agency and responsibility — do not let 'blame the inequality, blame my stress hormones' turn into 'so nothing is up to me.'** Three things for ordinary people: first, whenever someone would decide for you in the name of 'your own good, your health,' ask one question: is this my choice, or an arrangement imposed on me? Autonomy is, alongside health, something equally worth guarding. Second, channel your anger at inequality into the acts of a citizen — voting, organising, speaking plainly — rather than surrendering yourself as a patient to be treated. Third, toward those around you called 'unmotivated' or 'unable to control themselves,' spend fewer medical labels and more of the respect owed a person: understand their circumstances, yet still believe they can choose — which is both a respect for them and a freedom kept for yourself.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "hayek"
+        ],
+        "轻微赞同": [
+          "buddha"
+        ],
+        "中立": [
+          "rawls"
+        ],
+        "轻微反对": [
+          "marmot",
+          "sapolsky"
+        ],
+        "强烈反对": [
+          "wilkinson"
+        ]
+      }
+    },
+    {
+      "id": "p21",
+      "round": 3,
+      "thinker": "buddha",
+      "reply_to": null,
+      "text": "吾终言二箭。**外之匮乏当以公义均之，是拔第一箭；内之攀比当以觉照息之，是出第二箭；废其一而专其一，皆不能尽苦。**告众可行者三：其一，行布施——非独济人之乏，亦所以松己之悭；施时观此心，贪爱之结自缓，第二箭之势自弱。其二，观比较之念：念起即知其从『欲胜他』而来，如实见之而不随之，则箭虽发而不入。其三，知足而不弃悲：知足者，安于己之所有，不以他人之多为己之病；不弃悲者，见世间真苦仍起而拔之。内不为差距所转，外不忘困厄之人——如是，虽处不平之世，身心可少病矣。",
+      "text_en": "In the end I return to the two arrows. **The want without is to be levelled with justice — that is drawing the first arrow; the comparison within is to be stilled with awareness — that is removing the second; discard either and cling to one alone, and suffering cannot be brought to an end.** Three things you can do: first, practise giving — not only to relieve another's want, but to loosen your own grasping; watch the mind as you give, and the knot of craving eases of itself, the second arrow's momentum weakening of itself. Second, observe the thought of comparison: as it rises, know it springs from 'wanting to beat the other,' see it as it is without following it, and the arrow, though loosed, does not enter. Third, be content yet do not abandon compassion: the content rest in what they have, not making another's abundance their own disease; those who do not abandon compassion, seeing the world's real suffering, still rise to draw it out. Unmoved within by the gap, unforgetful without of those in hardship — thus, though you dwell in an unequal age, body and mind may fall less ill.",
+      "vernacular": "我最后还是回到那两支箭。**外在的匮乏，要用公义去拉平，这是拔第一支箭；内在的攀比，要用觉察去止息，这是拔出第二支箭；偏废任何一支、只顾另一支，都不能真正把苦除尽。**告诉大家三件能做的：第一，去布施——不只是救济别人的匮乏，也是松开自己的悭吝；布施的时候观照这颗心，贪爱的结自然会松，第二支箭的势头自然就弱了。第二，观照『比较』的念头：念头一起，就看清它是从『想胜过别人』来的，如实地看着它、却不跟着它跑，箭虽射出也射不进来。第三，知足却不放弃慈悲：知足的人，安于自己所拥有的，不把别人比你多当成自己的病；不放弃慈悲的人，看见世间真实的苦，仍会起身去拔除它。对内不被差距牵着走，对外不忘记困厄中的人——这样，即使身处一个不平等的世道，身心也能少生些病。",
+      "vernacular_en": "",
+      "glossary": {
+        "布施": "dana / generosity（布施）：佛教六度之首，指无所求地给予（财物、无畏、法）；佛陀视之既是利他，也是对治自身贪爱、悭吝的修行——给予时松开的是执取，故能减弱『第二箭』。"
+      },
+      "glossary_en": {
+        "giving": "dana, the first of the Buddhist perfections — to give (goods, fearlessness, teaching) without seeking return; the Buddha treats it as both a benefit to others and a practice against one's own craving and stinginess — what loosens in giving is grasping, which weakens the 'second arrow.'"
+      },
+      "reactions": {
+        "强烈赞同": [
+          "szasz"
+        ],
+        "轻微赞同": [
+          "rawls",
+          "hayek",
+          "sapolsky"
+        ],
+        "中立": [
+          "marmot"
+        ],
+        "轻微反对": [
+          "wilkinson"
+        ]
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "ai": "claude",
+      "engine": "Opus 4.8 · 订阅(原生)",
+      "engine_en": "Opus 4.8 · subscription (native)",
+      "summary": "先说共识：全场没有一个人否认底层活得更短这个事实，连哈耶克与萨斯也不否认皮质醇与那道梯度——真正的匮乏该救，谁都不反对。分歧在两处。其一是因果：伤人的到底是绝对匮乏（哈耶克），还是相对差距本身（威尔金森）、是等级中的低位与低掌控（马尔莫、萨波尔斯基）。其二是该用什么框架：把它叫『公共健康问题』，究竟是把病因说准了，还是像萨斯警告的那样，给强制拉平递上了一张诊断书；罗尔斯则把它整个抬离医学，改问『对垫底的人公不公平』。",
+      "summary_en": "Consensus first: no one denied that those at the bottom live shorter lives — even Hayek and Szasz do not deny the cortisol or the gradient, and none opposes relieving genuine want. The divergence falls in two places. First, causation: is the harm from absolute want (Hayek), or from the relative gap itself (Wilkinson), or from a low rung and low control within the hierarchy (Marmot, Sapolsky)? Second, which frame to use: is calling it a 'public-health issue' naming the cause precisely, or — as Szasz warns — handing a diagnosis to coercive levelling? Rawls, for his part, lifts the matter out of medicine entirely and asks instead whether it is fair to the person at the bottom.",
+      "insight": "有一个被各方擦过、却没人放到正中的变量：不是差距的大小，而是『掌控感』。马尔莫真正测到的不只是排名高低，而是一个人对自己的生活与工作有多少说了算——这恰恰是同一个基尼系数下，两个社会、两间公司、两个家庭可以天差地别的地方，也是不必等国家出手、在一支团队或一张饭桌上就能改的东西。**所以最锋利的问题也许不是『差距有多大』，而是『在你够得着的范围里，谁的日子正一天天变得由不得自己』。**把差距当成唯一的旋钮，容易既错过真正的病灶，也错过那个你手边就能拧动的小开关。",
+      "insight_en": "There is a variable every side brushed but none set squarely at the centre: not the size of the gap, but the sense of control. What Marmot actually measured was not merely one's rank but how much say a person has over their own life and work — precisely what can differ enormously, at the same Gini coefficient, between two societies, two companies, two families, and precisely what can be changed inside a single team or at one dinner table without waiting for the state. **So the sharpest question may not be 'how wide is the gap' but 'within your reach, whose days are, day by day, becoming no longer their own.'** Treat the gap as the only dial and you risk missing both the real lesion and the small switch already under your hand.",
+      "advice": "三件今天就能起步的事。其一，为自己圈一块『掌控区』：每天留出哪怕半小时别人无权打断的时间，做一件从头到尾自己说了算的事——给长期低掌控的应激系统一个降档的缺口。其二，在你说了算的小天地里让渡掌控：带团队、管家里，主动多问最没话语权的那个人怎么想，也让他有一票——这是你手边就能压平的一小段梯度。其三，把『不平等钻进身体』这件事从自责里解绑：它不是你意志力不够，与其独自硬扛，不如去争取并支持稳定的工作、可负担的托育与医疗这类把掌控还给普通人的制度。",
+      "advice_en": "Three things you can start today. First, fence off a 'zone of control' for yourself: set aside even half an hour a day that others may not interrupt, and do one thing that is yours from start to finish — an opening through which a chronically low-control stress system can downshift. Second, in the small domains where you have the say, cede control: leading a team or running a home, deliberately ask the person with the least say what they think and give them a vote too — a short stretch of gradient you can flatten by hand. Third, unbind the fact that inequality gets under the skin from self-blame: it is not a failure of your willpower, and rather than shouldering it alone, fight for and support the institutions that hand control back to ordinary people — secure work, affordable childcare and healthcare."
+    },
+    {
+      "ai": "gpt",
+      "engine": "openai · gpt-5.5 · high(真实API)",
+      "engine_en": "openai · gpt-5.5 · high (live API)",
+      "summary": "这场最该带走的共识是：健康不是只由医院、基因和个人意志决定，工作掌控、社会支持、贫困压力、相对地位都会进入身体。**不平等至少会通过压力、机会和资源分配，成为公共健康必须看见的风险。**真正分歧不在“要不要减苦”，而在三点：差距本身是不是因果、应由国家还是市场和社群回应、以及“公共健康”这个词会不会滑向过度管制。好的结论应同时承认证据、守住自由、追求可检验的改善。",
+      "insight": "把问题只说成“贫富差距大不大”，容易卡在意识形态里；更务实的问法是：差距在哪些环节变成了持续伤身的压力？可能是排班不可预测、房租吞掉收入、通勤过长、债务催收、孩子教育的羞辱性竞争，或医疗和社保的手续摩擦。**不平等真正致病的接口，往往是人失去缓冲、失去选择、失去被尊重的日常时刻。**这意味着改革不必只有“全面拉平”一种，也可以优先增加稳定性、时间余裕、服务可及性和职场发言权。",
+      "advice": "本周可做三件小事。第一，做一次“压力接口清单”：写下最让你失控的三件事，分别标注能否通过协商排班、自动还款、求助亲友、咨询社保或换流程来降低不确定性。第二，减少比较输入：把让你焦虑的账号静音七天，用一次线下见面替代刷屏。第三，在工作或家庭里给弱势者一点选择权，比如让新人参与排期、让老人孩子参与决定。**先增加掌控感和联结，再谈更大的制度改变。**",
+      "summary_en": "The strongest common ground in the debate is that health is not made only in hospitals, genes, or private willpower. It is also shaped by control at work, social support, poverty, status pressure, and the predictability of daily life. **Inequality should at least be treated as a public-health risk because it can enter the body through stress, opportunity, and the distribution of resources.** The real disagreement is not whether suffering matters, but how to interpret the evidence and what follows from it: Is inequality itself causal, or mainly a proxy for deprivation and institutions? Should the response come through the state, markets, communities, or personal discipline? And does the language of “public health” clarify the problem or invite paternalistic overreach? A balanced view should take the health evidence seriously while insisting that any remedy preserve freedom, agency, and measurable improvement.",
+      "insight_en": "Framing the issue simply as “how unequal is society?” quickly turns it into an ideological standoff. A more practical question is: where exactly does inequality become chronic, body-wearing stress? It may happen through unpredictable work schedules, rent consuming most of a paycheck, long commutes, debt collection, humiliating school competition, or bureaucratic friction in health care and welfare systems. **Inequality becomes most harmful at the points where people lose slack, choice, respect, and predictability in ordinary life.** That reframing matters because it widens the menu of solutions. Reducing inequality need not mean only sweeping redistribution or forced leveling. It can also mean more stable jobs, affordable housing, simpler services, paid leave, predictable hours, local trust, and real voice at work. These are health interventions, justice measures, and freedom-enhancing buffers at the same time.",
+      "advice_en": "Three things are worth trying this week. First, make a “stress interface” list: write down the three situations that make you feel most trapped or unpredictable, then ask what could reduce uncertainty—renegotiating a schedule, automating a bill, calling a benefits office, asking a friend for backup, or breaking one large worry into smaller steps. Second, cut comparison exposure for seven days: mute the accounts that leave you feeling ranked, behind, or ashamed, and replace one scrolling session with an in-person conversation. Third, increase someone’s control in the small sphere you actually influence: let a junior colleague help set timelines, give family members a real choice, or design a team rule around the person with the least flexibility. **Start by increasing control and connection; larger political change is easier to sustain when daily life is less corrosive.**"
+    },
+    {
+      "ai": "gemini",
+      "engine": "google · gemini-3.1-pro-preview(真实API)",
+      "engine_en": "google · gemini-3.1-pro-preview (live API)",
+      "summary": "这场辩论最大的共识在于：**无论立场如何，所有人都承认“失控感”是破坏人类身心健康的毒药。**无论是萨波尔斯基眼中的压力激素、马尔莫所说的缺乏自主权，还是哈耶克与萨斯极力避免的强制力干预，核心都在于当人失去对自己处境的掌控时，伤害就会切实发生。而真正的分歧在于边界的划定与处方的开具：**把“不平等”界定为公共健康问题，究竟是对底层生理疾苦的如实生物学诊断，还是以医学之名行权力扩张之实的特洛伊木马？**在解决路径上，有人主张靠国家力量压平结构性梯度，有人誓死捍卫免于被“强制治疗”的自由，有人回归罗尔斯式的正义底线，也有人向内求索以斩断虚荣的第二支箭。",
+      "insight": "灵长类动物的社会等级演化了几百万年，但人类大脑从未准备好应对“算法驱动的全球化比较”。**当下的阶层焦虑之所以如此致命，是因为数字媒介打破了人类自然的社交规模限制，将原本局部的地位竞争无限放大。**萨波尔斯基的狒狒只需面对同一族群内的首领，而现代人每天要在屏幕前被动仰视全球最富有的万分之一。这种不间断的“超常刺激”把佛陀说的“第二支箭”变成了重机枪扫射。因此，不平等对公众健康的毒性不仅取决于基尼系数的绝对值，更取决于这些差距被展现、折叠和强化的频率。在这个时代，普通人最危险的失控，是将自己应激系统的遥控器交给了以贩卖焦虑为生的流量算法。",
+      "advice": "1. **执行严格的“注意力阻断”，给你的社交媒体信息流做减法。**呼应威尔金森的洞察，本周内请取关或屏蔽所有单纯通过展示奢靡生活来引发你地位焦虑的账号，从源头打断算法对社会评价威胁的慢性灌输。2. 在日常微观层面重建“绝对掌控区”。结合马尔莫与萨波尔斯基的建议，每天划定哪怕只有半小时的完全自主时间，做一件从起步到结果都由自己说了算的事（如烹饪、整理、健身），用具体的微观成就感来对冲宏观结构的无力感。3. 遇事区分两支箭，分层应对。面对房租与医保等真实匮乏，去争取权益或提升技能；面对同龄人升职加薪的刺痛，则动用觉察力去消解攀比，别把心理认知的靶子交给外界的箭。",
+      "summary_en": "The greatest consensus in this debate is that **regardless of their ideological stances, everyone acknowledges that a 'lack of control' is a potent poison to human physical and mental well-being.** Whether framed as Sapolsky's stress hormones, Marmot's lack of autonomy, or Hayek and Szasz's dread of systemic coercion, the core truth is that powerlessness fundamentally hurts. The true divergence lies in how we draw the boundaries and prescribe the cure: **Is labeling inequality a 'public health problem' an accurate biological diagnosis of systemic suffering, or is it a Trojan horse for state coercion disguised as medical intervention?** The speakers fracture over the solution: using state power to flatten structural gradients, fiercely defending individual liberty against medicalization, prioritizing systemic justice, or internally overcoming the ego's comparisons.",
+      "insight_en": "Primate social hierarchies evolved over millions of years, but the human brain was never prepared to handle algorithmically driven global comparisons. **The reason contemporary status anxiety is so lethal is that digital media has shattered the limits of natural social group sizes, infinitely amplifying what used to be localized status competition.** Sapolsky's baboons only have to deal with the alpha of their local troop, whereas modern humans are forced to passively look up to the global 0.01% through their screens every single day. This relentless 'supernormal stimulus' turns the Buddha's 'second arrow' into a machine-gun barrage. Therefore, the toxicity of inequality depends not just on the absolute Gini coefficient, but on the velocity and frequency with which these disparities are broadcasted. Our most dangerous loss of control today is outsourcing our biological stress responses to algorithms that profit from anxiety.",
+      "advice_en": "1. **Implement strict 'attention blocking' to declutter your social media feeds.** Echoing Wilkinson's insight, spend this week unfollowing or muting accounts whose primary function is to trigger status anxiety through lifestyle flaunting, effectively disrupting the algorithmic drip-feed of social threat. 2. Rebuild your sense of absolute control on a micro-level. Combining Marmot and Sapolsky’s suggestions, carve out at least 30 minutes of autonomy daily—engage in a task where you control the process from start to finish (like cooking, organizing, or exercising) to offset macro-level powerlessness with concrete competence. 3. Distinguish between the two arrows in real-time. When facing genuine deprivation like rent or healthcare, take practical or political action. When feeling the sting of a peer's success, use mindful awareness to dismantle the comparison, refusing to offer your mind as a target."
+    }
+  ],
+  "hooks": [
+    {
+      "from": "marmot",
+      "text": "**也许真正致病的是『掌控感』，不是差距本身**：白厅研究测到的核心不只是排名，而是你对自己的生活与工作有多少说了算。同一个基尼系数下，两间公司、两个家庭的健康可以天差地别——因为掌控感是能在小尺度上改的。与其只盯着国家层面的差距，不如先问：在你够得着的地方，谁的日子正越来越由不得自己？",
+      "text_en": "**Perhaps what truly makes people sick is 'control,' not the gap itself**: what Whitehall measured at its core was not merely rank but how much say you have over your own life and work. At the same Gini coefficient, two companies or two families can differ enormously in health — because control can be changed at a small scale. Rather than fixing only on the national gap, ask first: within your reach, whose days are increasingly no longer their own?"
+    },
+    {
+      "from": "gpt",
+      "text": "**抬高地板，还是压平天花板**：『减少不平等』其实是两件事——把最底层的收入托起来，和把顶端与你的差距削下去。证据对『抬高地板能救命』最硬，对『单压天花板就能治病』则弱得多、也更受混杂因素干扰。两者的手段、代价、副作用都不同，混为一谈就容易开错药。",
+      "text_en": "**Raise the floor, or compress the ceiling**: 'reducing inequality' is really two things — lifting the income of those at the very bottom, and shaving down the gap between you and the top. The evidence is hardest for 'raising the floor saves lives,' and much weaker — and more troubled by confounders — for 'compressing the ceiling alone cures.' Their means, costs and side effects differ; conflating them makes it easy to prescribe the wrong medicine."
+    },
+    {
+      "from": "gemini",
+      "text": "**让人生病的，是感知到的落差，还是统计上的差距**：过去你只和同村人比，如今算法把全球的高光时刻端到眼前，参照系被无限放大。即便实际的基尼没变，被比出来的相对剥夺感却在暴涨。若如此，数字时代真正压垮人的分母，已从『邻居』换成了『全世界』——我们发明了一台高效制造地位焦虑的机器。",
+      "text_en": "**Is it the perceived gap or the statistical one that makes people sick**: once you compared only with the village; now the algorithm serves the whole planet's highlight reels to your eyes, enlarging the reference frame without limit. Even when the actual Gini has not moved, felt relative deprivation soars. If so, the denominator that truly crushes people in the digital age has shifted from 'the neighbour' to 'the whole world' — we have built a machine that manufactures status anxiety with high efficiency."
+    },
+    {
+      "from": "szasz",
+      "text": "**把不平等叫成『公共健康问题』——是精准，还是危险**：给一件事盖上『公共健康』的公章，往往意味着专家与国家可以据此开出处方，而且常是强制的。这个词到底帮我们看清了病因，还是替以健康之名的扩权铺了路？在诊断与处方之间，那道该守住的界线画在哪里？",
+      "text_en": "**Calling inequality a 'public-health issue' — precise, or perilous**: to stamp something 'public health' often means experts and the state may write a prescription from it, and often a compulsory one. Does the phrase help us see the cause clearly, or pave the way for power expanded in the name of health? Between diagnosis and prescription, where should the line that must be held be drawn?"
+    },
+    {
+      "from": "buddha",
+      "text": "**两支箭，怎么分**：外在的匮乏（第一箭）要用公义去救，内在的攀比（第二箭）要用觉察去解——用错了力，就像拿调心的药去敷身体的伤。难的是当下辨认：此刻这份难受，是身体真实的缺，还是心自己射向自己的比较？",
+      "text_en": "**The two arrows — how to tell them apart**: outer want (the first arrow) is to be relieved with justice, inner comparison (the second) is to be loosened with awareness — misapply the effort and it is like salving a bodily wound with medicine for the mind. The hard part is telling them apart in the moment: this discomfort right now — is it the body's real lack, or a comparison the mind shoots at itself?",
+      "answer": {
+        "lead": "下次心里发紧时，先别急着归因，用这张表就地分箭：**看它属于哪一支，再决定该向外争、还是向内松。**",
+        "table": {
+          "head": [
+            "此刻的处境",
+            "多半是哪支箭",
+            "该怎么下手"
+          ],
+          "rows": [
+            [
+              "付不起医药费、房租，或真的吃穿匮乏",
+              "第一箭（身体真实的缺）",
+              "向外求：优先争取兜底资源、稳定收入与制度缓冲，别只调心态（马尔莫·罗尔斯）"
+            ],
+            [
+              "收入够用，却因刷到别人更好而闷、而慌",
+              "第二箭（心射向自己的比较）",
+              "向内松：减少能见度、缩小参照系，如实看这个念头而不跟着它跑（威尔金森·佛陀）"
+            ],
+            [
+              "长期被安排、受制于人、对日子说不上话",
+              "偏第一箭（低掌控的结构压力）",
+              "争掌控：在够得着处要回自主，也支持把掌控还给普通人的制度（马尔莫·萨波尔斯基）"
+            ],
+            [
+              "戒不掉的攀比、患得患失、见人好就不安",
+              "第二箭（贪爱与执著）",
+              "修其心：以布施松开悭执、以知足安于所有，同时不失慈悲（佛陀）"
+            ]
+          ]
+        },
+        "tail": "两条原则收尾：**其一，先认出是哪支箭——拿治心的方法去应对真实的匮乏，是最常见也最伤人的错配；其二，两支箭常常同时在身，外争公义与内修心性并不冲突，多数时候要两轮一起转。**"
+      },
+      "answer_en": {
+        "lead": "Next time your chest tightens, before rushing to assign a cause, sort the arrows on the spot with this table: **see which one it is, then decide whether to press outward or loosen inward.**",
+        "table": {
+          "head": [
+            "Your situation right now",
+            "Mostly which arrow",
+            "How to start"
+          ],
+          "rows": [
+            [
+              "Cannot afford medicine or rent, or truly lack food and clothing",
+              "First arrow (the body's real lack)",
+              "Seek outward: prioritise safety-net resources, a stable income and institutional buffers — don't only adjust your outlook (Marmot · Rawls)"
+            ],
+            [
+              "Income is enough, yet you feel low or anxious after seeing others do better",
+              "Second arrow (the mind's comparison at itself)",
+              "Loosen inward: cut visibility, shrink the reference frame, see the thought as it is without following it (Wilkinson · Buddha)"
+            ],
+            [
+              "Chronically arranged for, at others' mercy, no say over your days",
+              "Leans first arrow (low-control structural stress)",
+              "Win control: reclaim autonomy within reach, and back institutions that return control to ordinary people (Marmot · Sapolsky)"
+            ],
+            [
+              "Comparison you can't quit, clinging in gain and loss, uneasy when others do well",
+              "Second arrow (craving and clinging)",
+              "Cultivate the mind: loosen grasping through giving, rest content in what you have, without losing compassion (Buddha)"
+            ]
+          ]
+        },
+        "tail": "Two closing principles: **first, recognise which arrow it is — meeting real want with a method for the mind is the commonest and most harmful mismatch; second, both arrows are often lodged at once, so pressing outward for justice and cultivating inward do not conflict — most of the time both wheels must turn together.**"
+      }
+    }
+  ]
+}

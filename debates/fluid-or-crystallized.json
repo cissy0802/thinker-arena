@@ -1,0 +1,731 @@
+{
+ "id": "fluid-or-crystallized",
+ "question": "AI 时代，人该练流体智力（临场推理）还是晶体智力（深厚积累）？还是真正稀缺的是坐在两者之上的判断力？",
+ "question_en": "In the age of AI, should we train fluid intelligence (on-the-spot reasoning) or crystallized intelligence (deep accumulation) — or is the real scarcity the judgment that sits above both?",
+ "date": "2026-07-10",
+ "participants": [
+  "lecun",
+  "munger",
+  "kahneman",
+  "zhuangzi",
+  "hume",
+  "nagarjuna"
+ ],
+ "casting": [
+  {
+   "id": "lecun",
+   "reason": "立『AI 让知识变廉价』的现代科学一端。作为深度学习奠基者，他最有资格说清：机器在『晶体』（海量数据）上早已碾压人类，却栽在『流体』（真正的推理与世界模型）上；由此把辩题从『背多少』逼向『会不会独立推理』。也让他直面——把判断力说成玄学，是不是低估了它。",
+   "reason_en": "Anchors the modern-science pole of 'AI made knowledge cheap.' As a founder of deep learning, he is best placed to show that machines long ago crushed us on the 'crystallized' side (vast data) yet stumble on the 'fluid' side (real reasoning and world models), pushing the debate from 'how much you memorize' toward 'can you reason on your own.' He must also face the charge that calling judgment mystical underrates it."
+  },
+  {
+   "id": "munger",
+   "reason": "判断力一端的旗手。他一生主张跨学科的『思维模型格栅』＋避免愚蠢的品性，恰好把『坐在两者之上的判断力』立到最实；也逼他回答：在答案唾手可得的时代，攒一辈子模型是否还划算，会不会只是把自信包装得更体面。",
+   "reason_en": "The standard-bearer for judgment. His lifelong case for a cross-disciplinary latticework of mental models plus the temperament to avoid stupidity sets the 'judgment above both' pole most concretely; he must also answer whether, in an age of answers on tap, building models for a lifetime still pays, or merely dresses up confidence."
+  },
+  {
+   "id": "kahneman",
+   "reason": "认知科学的裁判。系统1/系统2，以及『专家直觉只在高效度环境才可靠』的证据，能给全场的『流体崇拜』与『判断力崇拜』同时降温；他提醒：先分清你在什么场，再谈信不信自己的脑子。",
+   "reason_en": "The cognitive-science referee. System 1 / System 2, and the evidence that expert intuition is reliable only in high-validity environments, cool both the worship of fluid brilliance and the worship of judgment at once; he insists you first tell what arena you're in before trusting your own head."
+  },
+  {
+   "id": "zhuangzi",
+   "reason": "庖丁解牛的一端——技进于道、以神遇而不以目视，指向一种既非临场算力、也非书本知识的『忘技』式精熟。请他把『熟能生巧到自动化、乃至超越智力分类』这条被现代话语忽略的路立出来。",
+   "reason_en": "The Cook Ding pole — skill passing into the Way, meeting things with the spirit rather than the eye, pointing to a mastery that is neither on-the-spot processing nor book knowledge but a 'forgetting of technique.' He raises the path modern talk overlooks: practice ripening into automatic ease, and past the very categories of intelligence."
+  },
+  {
+   "id": "hume",
+   "reason": "经验论的定盘星。他坚持一切知识都从累积的经验与习惯里来、『理性是激情的奴隶』、『是』推不出『应当』——为『晶体／积累不可跳过』一端提供最硬的哲学地基，也给『AI 能否生出真正判断力』划一道界。",
+   "reason_en": "The empiricist anchor. His insistence that all knowledge comes from accumulated experience and habit, that reason is the slave of the passions, and that no 'ought' follows from an 'is,' gives the 'crystallized/accumulation can't be skipped' pole its hardest philosophical footing — and draws a line under whether AI can ever grow real judgment."
+  },
+  {
+   "id": "nagarjuna",
+   "reason": "中观的解构者。当全场忙着争『哪种智力最稀缺』，请他用性空与缘起把问题本身拆开：三者相待而有、皆无自性，执着于任何一个都是新的系缚。为辩论提供一个『跳出比较』的维度。",
+   "reason_en": "The Middle Way's deconstructor. While the room quarrels over 'which intelligence is scarcest,' he takes apart the question itself with emptiness and dependent origination: the three exist only in mutual dependence, none has self-nature, and clinging to any one is a fresh bondage — supplying a dimension that steps outside the comparison altogether."
+  }
+ ],
+ "posts": [
+  {
+   "id": "p01",
+   "round": 1,
+   "thinker": "lecun",
+   "reply_to": null,
+   "text": "先把话说清：这三样不在一个层级。晶体智力——背下来的知识、公式、案例——今天一台手机就装得下，机器早已碾过我们。真正稀缺的是流体智力：面对没见过的局面，当场建起一个『世界模型』、推演接下来会怎样。**大语言模型把整个互联网都『晶体化』了，却连一杯水倒了会洒都推不出来——这恰恰证明，堆知识不等于会思考。**AI 时代该练的，是机器最缺的那样：在真实世界里推理、预测、动手验证。",
+   "text_en": "Let's be precise: these three are not on one level. Crystallized intelligence — memorized facts, formulas, cases — fits in a phone today; machines passed us long ago. What's truly scarce is fluid intelligence: facing a situation you've never seen, building a world model on the spot and reasoning out what happens next. **Large language models have crystallized the whole internet, yet can't infer that a knocked-over glass will spill — proof that piling up knowledge is not the same as thinking.** What the age of AI should train is exactly what machines lack most: reasoning, predicting, and testing things by hand in the real world.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "流体智力": "fluid intelligence（流体智力）：面对陌生问题时当场推理、发现规律、举一反三的能力，20 岁后随年龄缓慢下降。",
+    "晶体智力": "crystallized intelligence（晶体智力）：靠学习与经验积累下来的知识、词汇、技能，往往越老越丰厚。",
+    "世界模型": "world model（世界模型）：大脑或 AI 对『世界如何运作』的内部模拟，靠它预测下一步、规划行动；LeCun 认为这是当前 AI 最缺的一环。"
+   },
+   "glossary_en": {
+    "fluid intelligence": "The capacity to reason on the spot about unfamiliar problems, spot patterns and generalize; it declines slowly with age after one's twenties.",
+    "Crystallized intelligence": "The store of knowledge, vocabulary and skills built up through learning and experience; it often keeps growing with age.",
+    "world model": "An internal simulation of how the world works — in a brain or an AI — used to predict the next step and plan; LeCun holds this is what today's AI most lacks."
+   },
+   "reactions": {
+    "轻微赞同": [
+     "munger"
+    ],
+    "中立": [
+     "kahneman",
+     "nagarjuna"
+    ],
+    "轻微反对": [
+     "hume"
+    ],
+    "疑惑": [
+     "zhuangzi"
+    ]
+   }
+  },
+  {
+   "id": "p02",
+   "round": 1,
+   "thinker": "munger",
+   "reply_to": null,
+   "text": "杨立昆把智力拆成两半，还是拆少了。**光有流体的聪明，是最危险的东西——它让蠢事做得又快又漂亮。**我一辈子的本事，是把物理、生物、心理、经济各学科的大道理，编成一张『思维模型格栅』，遇事从多个角度照一遍。这既不是天生的算力，也不是死记的事实，而是判断力。再加一条：待在你的『能力圈』里，反过来想，先避开愚蠢，再谈聪明。会推理的傻瓜，硅谷一抓一大把。",
+   "text_en": "LeCun splits intelligence in two — and that's still too few. **Fluid cleverness on its own is the most dangerous thing there is: it lets a man do stupid things quickly and elegantly.** My whole trick has been to weave the big ideas of physics, biology, psychology and economics into a latticework of mental models, and run any problem past several of them at once. That's neither raw processing power nor memorized facts — it's judgment. Add one rule: stay inside your circle of competence, invert, avoid stupidity first and worry about brilliance second. Reasoning fools are a dime a dozen in Silicon Valley.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "思维模型格栅": "latticework of mental models（思维模型格栅）：芒格的方法——把各学科最可靠的基本原理编织成一张网，遇到问题时从多门学科同时检视，而非只用一门。",
+    "能力圈": "circle of competence（能力圈）：你真正懂、能可靠判断的范围；芒格主张老实待在圈内，圈外的事宁可不碰。"
+   },
+   "glossary_en": {
+    "latticework of mental models": "Munger's method — weaving the most reliable basic principles from many disciplines into a net, and checking any problem against several fields at once rather than just one.",
+    "circle of competence": "The range you genuinely understand and can judge reliably; Munger urges honestly staying inside it and leaving what lies beyond alone."
+   },
+   "reactions": {
+    "轻微赞同": [
+     "kahneman",
+     "hume"
+    ],
+    "中立": [
+     "zhuangzi"
+    ],
+    "轻微反对": [
+     "lecun",
+     "nagarjuna"
+    ]
+   }
+  },
+  {
+   "id": "p03",
+   "round": 1,
+   "thinker": "hume",
+   "reply_to": null,
+   "text": "诸位争流体还是晶体，却忘了问：所谓『当场推理』，材料从哪来？**没有一条推理不是从过往经验里借来的习惯——因果不过是我们见惯了『甲随乙来』，便以为必然。**婴儿再聪明，不曾被火烫过，也不会躲火。所以哪有什么脱离积累的纯粹流体？『理性是激情的奴隶』。判断力，说白了是被无数经历磨出来的品味与分寸，急不得，也抄不得近路。",
+   "text_en": "You all argue fluid versus crystallized, and forget to ask: this 'reasoning on the spot' — where does its material come from? **Not one chain of reasoning is anything but a habit borrowed from past experience — causation is merely our having seen 'B follow A' so often that we call it necessary.** However clever an infant, if it has never been burned it will not flee the fire. So where is this pure fluid faculty, free of all accumulation? Reason is the slave of the passions and of experience. Judgment, plainly put, is taste and measure ground out by countless encounters — it cannot be rushed, and takes no shortcut.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "理性是激情的奴隶": "reason is the slave of the passions（理性是激情的奴隶）：休谟名言——理性只能算计手段、辨清事实，真正驱动人行动的是情感与欲望，理性为其服务。"
+   },
+   "glossary_en": {
+    "the slave of the passions": "Hume's dictum that reason can only work out means and establish facts; what actually moves us to act is feeling and desire, which reason serves."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "zhuangzi"
+    ],
+    "轻微赞同": [
+     "munger",
+     "kahneman"
+    ],
+    "中立": [
+     "nagarjuna"
+    ],
+    "强烈反对": [
+     "lecun"
+    ]
+   }
+  },
+  {
+   "id": "p04",
+   "round": 1,
+   "thinker": "kahneman",
+   "reply_to": null,
+   "text": "我提醒各位，对『判断力』保持谦卑。人脑有『系统1』（快、直觉）和『系统2』（慢、费力）。你们赞美的那种流体直觉，正是系统1，也正是各种偏误藏身之处。**专家的直觉只在一种地方可靠：规律稳定、反馈又快又准的环境——下棋、救火可以，选股、预测十年后则不行。**所以别急着问『该练哪种智力』，先问：我此刻身处的，是能让经验沉淀成真本事的场，还是一个只会奖励运气和自信的场？",
+   "text_en": "I'd urge some humility about 'judgment.' The mind runs on System 1 (fast, intuitive) and System 2 (slow, effortful). The fluid intuition you all praise is System 1 — and it is exactly where the biases hide. **Expert intuition is trustworthy in only one kind of place: environments regular enough, with feedback fast and accurate enough, to learn from — chess and firefighting yes, stock-picking and ten-year forecasts no.** So don't rush to ask 'which intelligence should I train.' Ask first: is the arena I'm standing in one where experience settles into real skill, or one that merely rewards luck and confidence?",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "系统1": "System 1（系统1）：卡尼曼对『快思考』的称呼——自动、瞬时、不费力的直觉反应。",
+    "系统2": "System 2（系统2）：『慢思考』——刻意、费力、需要集中注意力的分析推理。"
+   },
+   "glossary_en": {
+    "System 1": "Kahneman's name for 'fast thinking' — the automatic, instant, effortless intuitive response.",
+    "System 2": "'Slow thinking' — deliberate, effortful, attention-hungry analytical reasoning."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "munger"
+    ],
+    "轻微赞同": [
+     "hume",
+     "nagarjuna"
+    ],
+    "中立": [
+     "lecun"
+    ],
+    "轻微反对": [
+     "zhuangzi"
+    ]
+   }
+  },
+  {
+   "id": "p05",
+   "round": 1,
+   "thinker": "zhuangzi",
+   "reply_to": null,
+   "text": "庖丁解牛，十九年而刀刃若新发于硎。始解牛时，所见无非全牛；三年之后，未尝见全牛也。**方今之时，臣以神遇而不以目视，官知止而神欲行，依乎天理。**此岂流体、晶体之所能名？技既熟，则忘技；知既化，则忘知。诸君斤斤于计智之高下，正如未庖之丁，见其全牛而已。道进乎技，非积智之多寡也。",
+   "text_en": "Cook Ding carved oxen for nineteen years, and his blade stayed as keen as if fresh from the whetstone. When he began, he saw nothing but whole oxen; after three years, he no longer saw the whole ox. **These days I meet it with my spirit and do not look with my eyes — perception stops and the spirit moves as it will, following the natural grain.** What has this to do with 'fluid' or 'crystallized'? When the skill ripens, the skill is forgotten; when knowing is transformed, knowing is forgotten. You gentlemen who fuss over higher and lower degrees of cleverness are like Ding before he ever picked up the knife — still seeing only the whole ox. The Way goes beyond skill; it is not a matter of how much cleverness one has piled up.",
+   "vernacular": "我解牛十九年，刀刃还像刚磨过一样。刚开始，眼里全是整头牛；三年以后，就再看不到整头牛了。**到今天，我是用心神去感应，而不再用眼睛去看，感官都停下来，只凭那股内在的劲儿顺着牛身本来的纹理走。**这哪里是『流体』『晶体』能说清的？技术熟到极点就忘了技术，知识化开了就忘了知识。你们斤斤计较谁的脑子更聪明，就像还没上手的我，眼里只有一整头牛。真正的道，是超过技术的，不在于你积攒了多少聪明。",
+   "vernacular_en": "",
+   "glossary": {
+    "庖丁解牛": "Cook Ding cutting up an ox（庖丁解牛）：《庄子》寓言——厨师庖丁解牛技艺出神入化，喻指经年累月的磨练最终化为不假思索的直觉精熟。",
+    "以神遇而不以目视": "meeting it with the spirit, not looking with the eyes（以神遇而不以目视）：不再靠眼睛与刻意分析，而是凭内在的直觉与整体感通去应对。",
+    "道进乎技": "the Way goes beyond skill（道进乎技）：最高的境界超越了『技术』本身——从可传授的方法，跃入无法言说的自在。"
+   },
+   "glossary_en": {
+    "Cook Ding": "A parable from the Zhuangzi: the cook Ding carves an ox with such mastery that the work becomes effortless intuition — an image of long practice ripening into thoughtless skill.",
+    "meet it with my spirit": "To respond no longer by eye or deliberate analysis but through an inner, holistic attunement.",
+    "The Way goes beyond skill": "The highest attainment surpasses technique itself — leaping from teachable method into an unsayable ease."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "nagarjuna"
+    ],
+    "轻微赞同": [
+     "hume"
+    ],
+    "中立": [
+     "munger"
+    ],
+    "轻微反对": [
+     "lecun"
+    ],
+    "疑惑": [
+     "kahneman"
+    ]
+   }
+  },
+  {
+   "id": "p06",
+   "round": 1,
+   "thinker": "nagarjuna",
+   "reply_to": null,
+   "text": "汝等立『流体』『晶体』『判断』三名，各执一端，争其孰为最要。然三者相待而立：无所积则无可运，无所运则积亦死，判无所判则空名。**既相待而有，即无自性；无自性，故毕竟空。**是故『何者最稀缺』一问，如问兔角孰长——所诤者本无实体。破此执，非弃智也，乃不为智所缚。缘起故假名有，性空故不可执。",
+   "text_en": "You set up three names — 'fluid,' 'crystallized,' 'judgment' — each clinging to one, disputing which matters most. Yet the three stand only in mutual dependence: with nothing accumulated there is nothing to work upon; with nothing worked upon, the store is dead; judgment with nothing to judge is an empty name. **Since they exist only in dependence, they have no self-nature; having no self-nature, they are in the end empty.** So the question 'which is scarcest' is like asking which of a rabbit's horns is longer — what you quarrel over has no substance to begin with. To break this grasping is not to discard intelligence, but to cease being bound by it. By dependent origination they are provisionally named; being empty of self-nature, they cannot be clung to.",
+   "vernacular": "你们立下『流体』『晶体』『判断』三个名目，各抓住一个，争谁最要紧。可这三样是互相依赖才立得起来的：没有积累，就没有东西可供临场调动；没有调动，积累也是死的；判断如果没有对象，就只是个空名。**既然它们都要靠彼此才存在，就没有各自独立的本质；没有独立本质，归根到底就是空。**所以『哪个最稀缺』这个问题，就像问兔子的两只角哪只更长——你们争的东西本来就没有实体。看破这种执着，不是要你扔掉智力，而是不被智力捆住。因缘和合才有个假名，本质是空，所以抓不住。",
+   "vernacular_en": "",
+   "glossary": {
+    "自性": "svabhāva / self-nature（自性）：事物自身独立、恒常、不依赖他者的本质；中观派主张一切法皆无自性。",
+    "性空": "emptiness of self-nature（性空）：因一切事物皆依缘而起、无独立本质，故说其『空』——空的是自性，不是不存在。",
+    "缘起": "dependent origination（缘起）：一切现象都依赖条件、彼此相待而生，没有孤立自存之物。"
+   },
+   "glossary_en": {
+    "self-nature": "svabhāva — an independent, permanent essence a thing possesses on its own; the Middle Way school holds that nothing has it.",
+    "empty": "In this school, to be 'empty' is to lack self-nature because everything arises dependently — it is emptiness of independent essence, not non-existence.",
+    "dependent origination": "The teaching that all phenomena arise in reliance on conditions and on one another; nothing stands alone."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "zhuangzi"
+    ],
+    "中立": [
+     "hume",
+     "kahneman"
+    ],
+    "轻微反对": [
+     "munger"
+    ],
+    "强烈反对": [
+     "lecun"
+    ]
+   }
+  },
+  {
+   "id": "p07",
+   "round": 2,
+   "thinker": "munger",
+   "reply_to": "p01",
+   "text": "杨立昆说机器把知识变廉价了，所以只练流体。**我偏说，正因为答案唾手可得，会不会判断才第一次成了唯一值钱的东西。**机器能背下所有病例，可它不会告诉你这台手术、这个病人、此刻该不该做——那要跨医学、伦理、概率、人情一起称量。流体推理再快，喂进去的若是单一学科的窄见识，照样算出漂亮的蠢答案。稀缺的从来不是算得快，是想得全。",
+   "text_en": "LeCun says machines made knowledge cheap, so just train the fluid part. **I'd say the opposite: precisely because answers are now there for the asking, whether you can judge is for the first time the only thing worth anything.** A machine can memorize every case file, but it won't tell you whether this operation, on this patient, at this moment, should be done at all — that takes medicine, ethics, probability and human feeling weighed together. However fast your fluid reasoning, feed it the narrow view of a single discipline and it will compute you an elegant stupidity. What's scarce was never speed of calculation; it's thinking things through whole.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "轻微赞同": [
+     "kahneman",
+     "hume"
+    ],
+    "中立": [
+     "zhuangzi",
+     "nagarjuna"
+    ],
+    "轻微反对": [
+     "lecun"
+    ]
+   }
+  },
+  {
+   "id": "p08",
+   "round": 2,
+   "thinker": "lecun",
+   "reply_to": "p05",
+   "text": "庖丁的『神遇』听着玄，其实一点不神：那是大脑经过千万次练习，把一套精准的世界模型压进了运动皮层，快到你意识不到它在算。**忘掉技术，不是超越了技术，而是技术终于自动化了——这恰恰是流体智力驯化出来的晶体化直觉。**我造神经网络，做的就是复现这件事。别把说不清的东西供起来当道；说不清，往往只是我们还没把它拆开看懂而已。",
+   "text_en": "Ding's 'meeting with the spirit' sounds mystical; it isn't the least bit mystical. It's a brain that, through millions of repetitions, has pressed a precise world model down into the motor cortex — fast enough that you never notice it computing. **Forgetting the technique is not transcending it; it's the technique finally automated — an intuition crystallized out of fluid intelligence.** Building neural nets is my way of reproducing exactly this. Don't enshrine the inexplicable as the Way; 'inexplicable' usually just means we haven't taken it apart yet.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "轻微赞同": [
+     "kahneman"
+    ],
+    "中立": [
+     "munger"
+    ],
+    "轻微反对": [
+     "hume",
+     "zhuangzi"
+    ],
+    "疑惑": [
+     "nagarjuna"
+    ]
+   }
+  },
+  {
+   "id": "p09",
+   "round": 2,
+   "thinker": "kahneman",
+   "reply_to": "p02",
+   "text": "芒格的格栅我敬重，但要泼盆冷水：**投资，正是我说的那种『低效度环境』——反馈慢、噪声大、运气冒充实力——在这里，再多学科模型也可能只是把自信包装得更体面。**你能想起自己无数次英明，却记不清同样多次的走运和纠错。判断力最大的敌人，不是知识不够，是我们对自己判断的过度自信。请给你的格栅装一样东西：一份能证明你错了的记录。",
+   "text_en": "I respect Munger's latticework, but let me pour some cold water. **Investing is exactly the kind of low-validity environment I described — slow feedback, heavy noise, luck masquerading as skill — and there, more disciplinary models may only dress up overconfidence more respectably.** You can recall your many brilliant calls; you can't recall the equally many times you got lucky or quietly corrected course. Judgment's greatest enemy isn't too little knowledge — it's our overconfidence in our own judgment. Fit one thing to your latticework: a record that can prove you were wrong.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "低效度环境": "low-validity environment（低效度环境）：规律不稳定、反馈慢又充满噪声的领域（如选股、长期预测），在此专家直觉往往不比碰运气强。"
+   },
+   "glossary_en": {
+    "low-validity environment": "A domain where regularities are unstable and feedback is slow and noisy (stock-picking, long-range forecasting); expert intuition there is often no better than chance."
+   },
+   "reactions": {
+    "轻微赞同": [
+     "munger",
+     "hume",
+     "lecun",
+     "nagarjuna"
+    ],
+    "中立": [
+     "zhuangzi"
+    ]
+   }
+  },
+  {
+   "id": "p10",
+   "round": 2,
+   "thinker": "hume",
+   "reply_to": "p01",
+   "text": "杨立昆盼着机器学会『真正的推理』，我却要问：你所谓的推理，能从中挤出一个『应当』吗？**再完美的世界模型，也只告诉你事情『是』如何，永远推不出你『该』如何——『是』推不出『应当』，中间隔着的，是唯有活过、痛过才生得出的情感。**机器没有习惯，因为它不曾一次次被同一件事灼伤而心生畏惧。它能模仿判断的形，却生不出判断的根：那点由经验养出的分寸感，是算不出来的。",
+   "text_en": "LeCun longs for machines to learn 'real reasoning.' I ask: from this reasoning of yours, can you squeeze out a single 'ought'? **The most perfect world model tells you only how things are; it will never yield how you ought to act — there is no 'ought' from an 'is' — and across that gap lies feeling, which only a creature that has lived and suffered can produce.** A machine has no habits, because it has never been scorched by the same thing again and again until fear was born. It can imitate the shape of judgment but grow no root for it: that sense of measure raised by experience cannot be computed.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "『是』推不出『应当』": "no 'ought' from 'is'（『是』推不出『应当』）：休谟指出，纯粹关于事实（是什么）的陈述，逻辑上推不出关于价值（应当怎样）的结论。"
+   },
+   "glossary_en": {
+    "no 'ought' from an 'is'": "Hume's point that statements purely about fact (what is) cannot, by logic alone, entail conclusions about value (what one ought to do)."
+   },
+   "reactions": {
+    "轻微赞同": [
+     "zhuangzi",
+     "nagarjuna",
+     "munger"
+    ],
+    "中立": [
+     "kahneman"
+    ],
+    "强烈反对": [
+     "lecun"
+    ]
+   }
+  },
+  {
+   "id": "p11",
+   "round": 2,
+   "thinker": "zhuangzi",
+   "reply_to": "p04",
+   "text": "卡尼曼处处防其直觉，如临深渊，此『成心』之累也。**夫疑其心而后动，则庖丁之刀早钝于胸中之算矣。**畏偏误而不敢任神，是以有涯之思逐无涯之变，殆矣。吾非教人恃妄，乃谓真熟者自不待算——算之所不及，正神之所遇。子欲以系统二纠系统一，然纠者亦心也，谁纠其纠？不若两忘，游刃于虚。",
+   "text_en": "Kahneman guards against his own intuition at every step, as if standing over an abyss — and this too is the burden of the fixed mind. **Doubt your heart before you move, and Ding's blade goes blunt inside the reckoning in his chest before it ever touches the ox.** To fear bias so much you dare not trust the spirit is to chase the endless changes of things with a finite, effortful thought — perilous. I do not teach reliance on delusion; I say the truly ripened need no reckoning — where reckoning cannot reach is exactly where the spirit meets things. You would have System 2 correct System 1; but the corrector is also mind — who corrects the corrector? Better to forget both, and let the blade roam free through the empty spaces.",
+   "vernacular": "卡尼曼时时提防自己的直觉，像站在悬崖边，这本身就是被『成心』（成见与算计）拖累了。**你要是每动一下都先怀疑自己的心，那庖丁的刀还没碰到牛，就先钝在他脑子里的盘算里了。**怕出偏误怕到不敢信任心神，等于拿有限、费力的思虑去追赶无穷无尽的变化，危险得很。我不是叫人乱来，而是说真正纯熟的人根本不用算——算不到的地方，正是心神感应到的地方。你想用系统2去纠正系统1，可那个『纠正者』也是心，谁来纠正它？不如两个都忘掉，让刀在空隙里自在游走。",
+   "vernacular_en": "",
+   "glossary": {
+    "成心": "the fixed mind（成心）：《庄子》语——预设的成见与刻意计较之心；庄子认为正是它遮蔽了本可自然流动的应对。",
+    "游刃": "the blade roaming free（游刃）：庖丁解牛时刀在骨节空隙间自如游走，喻指顺其自然、毫不勉强的应对。"
+   },
+   "glossary_en": {
+    "the fixed mind": "From the Zhuangzi: a heart of preset opinion and deliberate calculation, which he holds blocks the response that could otherwise flow naturally.",
+    "the blade roam free": "As Cook Ding's knife glides through the gaps between joints, an image of responding with the grain, without force or strain."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "nagarjuna"
+    ],
+    "中立": [
+     "hume"
+    ],
+    "轻微反对": [
+     "lecun",
+     "munger",
+     "kahneman"
+    ]
+   }
+  },
+  {
+   "id": "p12",
+   "round": 2,
+   "thinker": "nagarjuna",
+   "reply_to": "p07",
+   "text": "芒格谓判断为独尊，稀缺之至。然判断依所判之境而立，境易则判亦异，何尝有一定之『判断力』常住不变？**尔所宝之判断，亦缘起假名，觅其自性，了不可得。**执之为最要，是于空花上更添一花。吾不谓判断无用——于『世俗谛』中，假名施设、随宜而用；然若认作实有一物可执可守，则堕。用而不执，斯近之矣。",
+   "text_en": "Munger crowns judgment sole sovereign, the scarcest of all. Yet judgment stands only in reliance on what is judged; change the situation and the judging changes — where is one fixed 'judgment' abiding unchanged? **The judgment you treasure is itself a provisional name, dependently arisen; seek its self-nature and it cannot be found.** To grasp it as most essential is to paint one more flower onto a flower in the empty sky. I do not say judgment is useless — in conventional truth it is set up as a provisional name and used as fits the moment; but take it for one real thing to be seized and defended, and you fall. Use it without clinging: that comes near.",
+   "vernacular": "芒格说判断力独一无二、最为稀缺。可是判断总要依着它所判断的情境才立得住，情境一变，判断也就不同了，哪有一个固定不变、永远常在的『判断力』呢？**你所珍视的判断，同样只是因缘凑合而临时起的名字，你去找它独立自存的本质，根本找不到。**把它当成最要紧的实体死守，等于在空中的幻花上再添一朵花。我不是说判断没用——在世俗约定的层面，它作为一个『假名』随时随宜地用，很好；可你要是把它当成一个真实存在、可以抓住守住的东西，就落入执着了。用它，但不抓住它，这就接近了。",
+   "vernacular_en": "",
+   "glossary": {
+    "世俗谛": "conventional truth（世俗谛）：二谛之一——在约定俗成的层面，事物有名有用、可说可行；与之相对的『胜义谛』则指其空性。",
+    "假名": "provisional designation（假名）：事物只是依缘和合而临时安立的名称，并无与名相应的独立实体。"
+   },
+   "glossary_en": {
+    "conventional truth": "One of the Two Truths: at the level of everyday convention, things have names and uses and can be spoken of; its counterpart, ultimate truth, points to their emptiness.",
+    "provisional name": "A designation only temporarily set up on a dependently-arisen bundle, with no independent entity answering to it."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "zhuangzi"
+    ],
+    "轻微赞同": [
+     "hume"
+    ],
+    "中立": [
+     "kahneman"
+    ],
+    "轻微反对": [
+     "munger"
+    ],
+    "强烈反对": [
+     "lecun"
+    ]
+   }
+  },
+  {
+   "id": "p13",
+   "round": 3,
+   "thinker": "lecun",
+   "reply_to": null,
+   "text": "收个尾。三样都要，但分工得随时代改。**记忆和检索，交给机器；你自己要死守的，是流体智力——在新情境里建模型、做预测、再动手验证的能力。**给普通人三条：一，学任何东西，别停在『背下来』，逼自己讲给外行听、或写一段能跑的代码，把知识逼成能推理的模型；二，多接触反馈快的真实任务——动手做东西、做小实验，那是流体智力的健身房；三，把 AI 当协作者，让它做草稿和检索，你负责判断哪里错、下一步往哪走。机器越强，越显出『会不会独立推理』的分野。",
+   "text_en": "To close. You need all three, but the division of labor must shift with the times. **Hand memory and retrieval to the machine; what you must defend yourself is fluid intelligence — the power to build a model in a new situation, predict, and then test it by doing.** Three things for ordinary people: one, when you learn anything, don't stop at 'memorized' — force yourself to explain it to a layperson or write code that actually runs, pressing knowledge into a model you can reason with; two, seek real tasks with fast feedback — make things, run small experiments; that's the gym for the fluid mind; three, treat AI as a collaborator: let it draft and retrieve while you judge where it's wrong and where to go next. The stronger the machine, the sharper the line between those who can reason independently and those who can't.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "轻微赞同": [
+     "munger",
+     "kahneman",
+     "hume"
+    ],
+    "中立": [
+     "zhuangzi",
+     "nagarjuna"
+    ]
+   }
+  },
+  {
+   "id": "p14",
+   "round": 3,
+   "thinker": "munger",
+   "reply_to": null,
+   "text": "我的总结朴素得很。**别指望天生聪明，也别以为读得多就够——真本事是一辈子攒起来的一张多学科模型网，配上肯认错的老实。**给普通人：第一，逼自己学会几门大学科各自最硬的那几条道理——复利、概率、激励、进化、临界点，这几十条模型能解释世上大半的事；第二，遇事先反过来想，不问怎么成功，先问怎么会搞砸，然后躲开；第三，老实待在能力圈里，圈外的诱惑再香也说一句『我不懂』。慢慢来，避开蠢事，你就赢过大多数聪明人了。",
+   "text_en": "My summary is plain. **Don't count on being born clever, and don't imagine that reading a lot is enough — the real thing is a multidisciplinary web of models built over a lifetime, paired with the honesty to admit you were wrong.** For ordinary people: first, force yourself to learn the few hardest ideas from each big discipline — compounding, probability, incentives, evolution, tipping points; a few dozen such models explain most of the world; second, invert — don't ask how to succeed, ask how you'd wreck it, and then avoid that; third, stay honestly inside your circle of competence, and however sweet the temptation outside it, say 'I don't know.' Go slow, dodge the stupid things, and you'll beat most of the clever ones.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "kahneman"
+    ],
+    "轻微赞同": [
+     "hume"
+    ],
+    "中立": [
+     "lecun",
+     "nagarjuna"
+    ],
+    "轻微反对": [
+     "zhuangzi"
+    ]
+   }
+  },
+  {
+   "id": "p15",
+   "round": 3,
+   "thinker": "hume",
+   "reply_to": null,
+   "text": "我的结论朴素而不讨喜：**判断力没有捷径，它是经验一寸寸磨出来的品味，急不得，也买不来。**给寻常人三件事：一，重复与在场——想练出对某事的『眼力』，就得反复亲历它、亲手做它，让习惯替你把规律沉淀下来，读再多攻略都替不了；二，警惕由一两次经历就跳出的大结论，你的因果感常是错觉，多等几个例子再下判断；三，善待你的情感，它不是判断的敌人，而是判断的燃料——只是要用见识去校准它，别任其奔流。理性算清手段，情感定夺方向，二者缺一不可。",
+   "text_en": "My conclusion is plain and unflattering: **judgment has no shortcut — it is taste ground out of experience inch by inch; it cannot be rushed and cannot be bought.** Three things for ordinary people: one, repetition and presence — to grow an 'eye' for something you must live it and do it with your own hands again and again, letting habit settle the regularity for you; no amount of how-to reading substitutes; two, beware the sweeping conclusion leaped to from one or two episodes — your sense of cause is often illusion, so wait for a few more instances before you judge; three, treat your feelings well: they are not judgment's enemy but its fuel — only calibrate them with experience rather than letting them run loose. Reason works out the means, feeling sets the direction; neither can be spared.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "zhuangzi"
+    ],
+    "轻微赞同": [
+     "munger",
+     "kahneman",
+     "nagarjuna"
+    ],
+    "中立": [
+     "lecun"
+    ]
+   }
+  },
+  {
+   "id": "p16",
+   "round": 3,
+   "thinker": "kahneman",
+   "reply_to": null,
+   "text": "我留下一件工具，比选哪种智力更有用。**先分辨你所在的场：规律稳、反馈快，就大胆信直觉、把它练成专家的本能；规律乱、反馈慢，就别信那份自信，改用清单、数据和外部视角。**给普通人：一，重要决定前，写下你的预测和理由，事后回来对账——这是把运气从实力里分离出来的唯一办法；二，请一个敢当面说你错的人，或用『别人这么做，我会怎么劝他』来跳出自我；三，累了、饿了、赶时间时别做大判断，那时系统2下了班，直觉最容易骗你。对自己的判断谦卑一点，你就已经比多数人清醒。",
+   "text_en": "I leave one tool, more useful than choosing which intelligence. **First tell what arena you're in: stable patterns and fast feedback — then trust intuition boldly and drill it into an expert's instinct; messy patterns and slow feedback — then distrust that confidence and switch to checklists, data and the outside view.** For ordinary people: one, before a big decision write down your prediction and reasons, then come back to reconcile — that is the only way to separate luck from skill; two, keep someone who dares tell you to your face that you're wrong, or ask 'what would I advise someone else doing this' to step outside yourself; three, don't make big judgments when tired, hungry or rushed — that's when System 2 clocks out and intuition deceives you most. Be a little humble about your own judgment, and you're already clearer than most.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "munger"
+    ],
+    "轻微赞同": [
+     "lecun",
+     "hume",
+     "nagarjuna"
+    ],
+    "中立": [
+     "zhuangzi"
+    ]
+   }
+  },
+  {
+   "id": "p17",
+   "round": 3,
+   "thinker": "zhuangzi",
+   "reply_to": null,
+   "text": "吾终不与诸君争名。**流体、晶体、判断，皆筌蹄耳；得鱼忘筌，得意忘言，何必守其目而较其数？**为学者，且择一事而深耽之，久之手熟心忘，技自入道——庖丁之神，非读牛经而得，乃解万牛而后忘牛。故吾劝世人：勿贪多骛博，勿终日测己之智愚；择所好，磨之以岁月，待其自化。用力于必忘之地，斯得之矣。及其成也，亦不自知其所以然，而无不然。",
+   "text_en": "In the end I will not contest names with you gentlemen. **Fluid, crystallized, judgment — all are just the fish-trap and the snare; once the fish is caught, forget the trap; once the meaning is grasped, forget the words. Why guard the labels and tally their number?** For the learner: pick one thing and sink deep into it; in time the hand grows sure and the mind forgets, and skill enters the Way of itself — Ding's spirit came not from reading a treatise on oxen but from carving ten thousand oxen and then forgetting the ox. So my counsel to the world: do not crave breadth, do not spend your days measuring your own cleverness or dullness; choose what you love, grind it with the years, and wait for it to transform. Put your effort into the place you must ultimately forget — there you will find it. When it ripens, you will not know how it is so, yet nothing is not so.",
+   "vernacular": "我到底不跟你们争这些名目。**流体、晶体、判断，都不过是捕鱼的筌、抓兔的蹄这类工具罢了；捕到鱼就该忘掉筌，领会了意思就该忘掉言辞，何必死守这些标签、还去比谁的数目高？**要学，就挑一件事扎进去深耽，时间久了手熟到心都忘了，技术自然就通向道——庖丁那份出神，不是读了什么《解牛宝典》，而是解过上万头牛之后连牛都忘了。所以我劝世人：别贪多求博，别整天测量自己是聪明还是笨；挑你真心喜欢的，拿岁月去磨它，等它自己化开。把力气下在那个终究要忘掉的地方，就得着了。等到真正成了，你自己也说不清为什么会这样，却没有一处不对。",
+   "vernacular_en": "",
+   "glossary": {
+    "筌蹄": "the fish-trap and the snare（筌蹄）：《庄子》喻——捕到鱼兔便可丢开工具；比喻名相、方法只是手段，达到了就该放下，别死守。",
+    "得鱼忘筌": "forget the trap once the fish is caught（得鱼忘筌）：既已领会实质，便不必执着于言辞名目。"
+   },
+   "glossary_en": {
+    "the fish-trap and the snare": "A Zhuangzi image — once you've caught the fish or hare you can drop the tool; names and methods are only means, to be let go once they've served.",
+    "forget the trap": "Once the substance is grasped, cling no longer to the words and labels that carried you to it."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "nagarjuna"
+    ],
+    "轻微赞同": [
+     "hume",
+     "lecun"
+    ],
+    "中立": [
+     "kahneman"
+    ],
+    "轻微反对": [
+     "munger"
+    ]
+   }
+  },
+  {
+   "id": "p18",
+   "round": 3,
+   "thinker": "nagarjuna",
+   "reply_to": null,
+   "text": "末后一语：诸智皆空，然空非『断灭』，正为大用。**知其空，则不为『我聪明』『我博学』所缚，亦不为『我愚钝』所困——用而不执，随缘生巧。**故与世人共勉：其一，勿以一时之测度自定高下，智愚流转，皆无自性；其二，遇事尽力学之、思之、判之，事过则放下，勿贮之为『我慢』之资；其三，于所不知，坦然曰不知——不知亦空，何耻之有？执智者反为智困，忘智者智乃周流。破执，非弃用也，乃善用之门。",
+   "text_en": "A last word: all the intelligences are empty — yet emptiness is not annihilation; it is precisely what makes great use possible. **Know their emptiness, and you are bound neither by 'I am clever' nor 'I am learned,' nor trapped by 'I am dull' — you use them without clinging, and skill arises as conditions allow.** So a shared encouragement for the world: first, do not fix your rank by a moment's measurement — cleverness and dullness revolve, all without self-nature; second, meeting a task, learn it, think it, judge it with all your strength, then set it down when it passes — do not hoard it as fuel for conceit; third, of what you do not know, say plainly 'I don't know' — not-knowing is empty too, so where is the shame? One who clings to intelligence is trapped by it; one who forgets it lets intelligence flow freely everywhere. To break grasping is not to abandon use — it is the gateway to using well.",
+   "vernacular": "最后说一句：各种智力都是空的——但『空』不是什么都没有的『断灭』，恰恰是它才让智力有大用。**明白它是空的，你就不会被『我聪明』『我博学』捆住，也不会被『我愚笨』困住——用它，但不抓住它，随着因缘自然生出巧妙。**所以和世人共勉三点：第一，别拿一时的测量给自己定高下，聪明和愚钝是流动的，都没有固定本质；第二，遇到事就尽全力去学、去想、去判断，事情过去了就放下，别把它囤起来当作自高自大的本钱；第三，对不懂的，坦然说『我不知道』——不知道也是空的，有什么可羞耻的？越是死抓着智力不放，反被它困住；肯把它忘掉，智力反而处处流通。破除执着，不是不用，而是善用的门径。",
+   "vernacular_en": "",
+   "glossary": {
+    "断灭": "nihilistic annihilation（断灭）：误把『空』当成一切都不存在的虚无；中观特意区分：空是无自性，绝非什么都没有。",
+    "我慢": "conceit of self（我慢）：因自以为高人一等而生的傲慢，佛教视为根本烦恼之一。"
+   },
+   "glossary_en": {
+    "annihilation": "Mistaking 'emptiness' for the nihilistic view that nothing exists at all; the Middle Way insists emptiness means lack of self-nature, not non-existence.",
+    "conceit": "The pride born of thinking oneself superior; Buddhism counts it among the root afflictions."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "zhuangzi"
+    ],
+    "轻微赞同": [
+     "kahneman",
+     "munger",
+     "hume"
+    ],
+    "中立": [
+     "lecun"
+    ]
+   }
+  }
+ ],
+ "summaries": [
+  {
+   "ai": "claude",
+   "engine": "Opus 4.8 · 订阅(原生)",
+   "engine_en": "Opus 4.8 · subscription (native)",
+   "summary": "先说共识：六个人没有一个把『背得多、算得快』当成真本事——晶体也好、流体也罢，众人都指向一样更整合、更靠打磨的东西，也都警惕把伶俐的小聪明供上神坛。**分歧在于那样东西到底能不能被命名。**芒格叫它跨学科的判断力，杨立昆叫它建世界模型的流体推理，卡尼曼把它还原成『只在高效度环境才可信的直觉』；而庄子与龙树反过来说，越想给它安个名、争个高下，越是执念——真熟了是忘技，看透了是性空。休谟则在中间钉下一句：无论叫它什么，都只能靠经验一寸寸磨出来，没有捷径。",
+   "insight": "最该点破的是：全场都在问『练哪一种』，却漏了那个谁都没在争、却决定一切的变量——反馈。三种智力其实都长在同一件事上：在一个规律稳、能及时告诉你对错的环境里，一次次真刀真枪地做。**AI 真正的危险不是替我们思考，而是它把答案提前塞进来，抽掉了那点逼我们建模型的摩擦与挣扎。**过去你被难住、卡壳、试错，正是在这挣扎里，经验才熬成本事。当答案唾手可得，最稀缺的就不再是某一种智力，而是你是否还留着那道让经验变成能力的坎。",
+   "advice": "落到本周能做的三件事。**其一，先挣扎再问 AI：**碰到难题，给自己定个十五分钟，先自己硬啃、写下思路，再去问 AI，把摩擦留住，模型才长得出来。其二，学卡尼曼记一本『决策日记』：重要判断前写下你的预测与理由，过段时间回来对账，这是把运气从实力里分离出来的唯一办法。其三，照休谟和庄子说的，挑一件反馈快的真事扎进去深耕——动手做、办小实验、把东西讲给外行听，让经验在一个能纠错的场里，慢慢沉成你自己的直觉。",
+   "summary_en": "Consensus first: not one of the six treats 'memorizing a lot' or 'computing fast' as real skill — crystallized or fluid, they all point to something more integrative and honed, and all guard against enthroning quick cleverness. **The disagreement is whether that something can be named at all.** Munger calls it cross-disciplinary judgment; LeCun calls it the fluid reasoning that builds world models; Kahneman reduces it to 'intuition trustworthy only in high-validity environments.' Zhuangzi and Nagarjuna reply that the more you try to name it and rank it, the more you cling — ripened skill forgets technique, clear sight sees emptiness. Hume drives in the middle stake: whatever you call it, it can only be ground out of experience inch by inch, with no shortcut.",
+   "insight_en": "What most deserves naming: the whole room asks 'which one to train' and misses the variable no one is fighting over yet which decides everything — feedback. All three intelligences grow on the same thing: doing it for real, again and again, in an environment regular enough to tell you promptly whether you were right. **AI's true danger is not that it thinks for us, but that it slips the answer in early, stripping away the friction and struggle that force us to build a model.** In getting stuck and trying again, experience used to boil down into skill. When answers are on tap, the scarcest thing is no longer any one intelligence — it's whether you still keep the hurdle that turns experience into ability.",
+   "advice_en": "Three things to do this week. **One, struggle before you ask AI:** on a hard problem, give yourself fifteen minutes to wrestle it and write down your reasoning first, then ask AI — keep the friction and the model can grow. Two, keep a 'decision journal' like Kahneman: before a big call, write your prediction and reasons, then come back later to reconcile — the only way to separate luck from skill. Three, as Hume and Zhuangzi urge, pick one real thing with fast feedback and sink deep — make things, run small experiments, explain them to a layperson — letting experience settle, in an arena that can correct you, into an intuition of your own."
+  },
+  {
+   "ai": "gpt",
+   "engine": "openai · gpt-5.5 · high(真实API)",
+   "engine_en": "openai · gpt-5.5 · high (live API)",
+   "summary": "最大的共识是：AI 让“会背、会搜、会套话”迅速贬值，人的优势必须落在经验、推理、反馈与自我校准的结合处。分歧不在三者要不要，而在主轴放哪：有人重临场建模，有人重跨学科判断，有人重长期经验、情感分寸、偏误防护或技艺化境。**最可带走的结论是：别把流体、晶体、判断力拆成三门课，它们要在真实任务里合成一种可检验的能力。**",
+   "insight": "AI 时代真正变化的，不只是知识便宜了，而是“答案”太容易出现，普通人更容易误把流畅输出当成理解。训练单位不该是智力类型，而该是一个决策闭环：提出问题、调取知识、形成假设、预测结果、行动验证、复盘修正。**真正该练的是把知识、推理、情境和反馈接成闭环的能力。**没有闭环，晶体知识会变成谈资，流体推理会变成脑补，判断力会变成自信的别名。",
+   "advice": "本周可以做三件小事。第一，开一个“判断账本”：重要决定前写下预测、信心百分比、理由和什么证据会让你改主意，一周后复盘。第二，选一个有快反馈的小项目，如写脚本、做菜谱实验、改简历投递，用 AI 帮查资料，但自己必须解释、执行、测试。第三，每周整理一张“模型卡”：一个概念、一个适用例、一个失效边界。**少追求显得聪明，多建立能暴露错误的练习场。**",
+   "summary_en": "The strongest shared point is that AI makes recall, search, and polished verbal performance much less scarce. What remains valuable is the fusion of experience, reasoning, feedback, and self-correction. The disagreement is not really about whether fluid intelligence, crystallized knowledge, or judgment matters; all three do. The real question is where to put the center of gravity: live model-building, multidisciplinary judgment, lived experience, emotional calibration, bias control, embodied skill, or non-attachment. **The practical takeaway is this: do not treat fluid intelligence, crystallized knowledge, and judgment as separate courses; train them together inside real tasks that can prove you wrong.**",
+   "insight_en": "The big shift is not just that knowledge is cheap. It is that answers now arrive so quickly and fluently that people can mistake output for understanding. So the unit of training should not be a type of intelligence, but a decision loop: ask a question, retrieve knowledge, form a hypothesis, make a prediction, act, get feedback, and revise. **What is worth training is the ability to connect knowledge, reasoning, context, and feedback into a working loop.** Without that loop, knowledge becomes trivia, reasoning becomes fantasy, and judgment becomes a flattering name for confidence.",
+   "advice_en": "Try three concrete moves this week. First, keep a judgment log: before an important choice, write your prediction, confidence level, reasons, and what evidence would change your mind; review it later. Second, pick one small project with fast feedback—write a script, test a recipe, improve a résumé and send it out—and use AI for research or critique, not as a substitute for doing. Third, make one “model card” each week: one concept, one example where it applies, and one boundary where it fails. **Aim less at sounding smart and more at building practice fields that expose your mistakes.**"
+  },
+  {
+   "ai": "gemini",
+   "engine": "google · gemini-3.1-pro-preview(真实API)",
+   "engine_en": "google · gemini-3.1-pro-preview (live API)",
+   "summary": "全场最坚实的共识在于：**单纯死记硬背（纯晶体智力）在 AI 时代已被机器彻底碾压，不再是人类的核心竞争力。** 面对不可预测的未来，所有思想家都认同人类必须向更高维的心智能力演进。分歧的焦点则落在“这种高维能力究竟是什么”。以杨立昆为代表的工程派推崇流体智力，认为现场建构模型、动态推理才是出路；而芒格、卡尼曼与休谟则将选票投给了判断力，强调由真实的痛感、多元的学科网以及对人性的警惕所沉淀出的分寸感。最终，庄子与龙树在哲学层面上将两者解构，指出执着于“练哪种智力”本身就是一种思维枷锁，真正的智慧在于随境化用、用而不执。",
+   "insight": "诸位在脑海中解剖智力，却大多忽略了脖子以下的身体。无论流体推演还是经验判断，**人类区别于硅基生命的最深护城河是“具身感知”（Embodied Perception）——在真实的物理与社会环境中，通过看、听、触摸甚至流血受伤来接收高带宽的多模态反馈。** 大语言模型吞吐的文本，本质上是人类对世界极度降维、压缩后的“二手信息”；而人所面对的，是充满摩擦力且未被数据化的真实世界。因此，当前最稀缺的并非坐在书房里的逻辑推理或静态判断，而是把自己抛入浑水，用肉身和多感官去捕捉那些无法写进 Prompt 里的高频微弱信号，并在承担真实后果中校准自己的直觉。",
+   "advice": "结合具身视角与诸家智慧，提供三点行动指南：第一，建立多模态输入源。别只靠读书或刷网获取资讯，这已是 AI 的主场；去现场考察、与人面谈或亲自动手打磨实物，**把你的身体当成最敏锐的传感器，收集机器抓取不到的“暗数据”。** 第二，践行卡尼曼与芒格的防身术。本周在做任何重要决定前，先进行“事前验尸”——写下“假设一年后这事彻底搞砸了，最可能的原因是什么”，强迫系统 2 上班来对抗盲目自信。第三，重新分配脑力资源。彻底把死记硬背和初步检索外包给 AI 助手，将省下的时间全部投入到需要承担真实后果的现实试错中去。",
+   "summary_en": "The most solid consensus across the board is clear: **Rote memorization (pure crystallized intelligence) has been thoroughly crushed by machines and is no longer humanity's core competency in the AI era.** Facing an unpredictable future, everyone agrees that human minds must evolve toward higher-dimensional capabilities. The divergence centers on what exactly this capability is. The engineering camp, led by LeCun, champions fluid intelligence, arguing that dynamic reasoning and on-the-spot modeling are the way forward. Conversely, Munger, Kahneman, and Hume vote for judgment—a sense of proportion forged by real-world pain, multidisciplinary frameworks, and skepticism of human bias. Finally, Zhuangzi and Nagarjuna deconstruct the debate philosophically, pointing out that fixating on 'which intelligence to practice' is a trap, and true wisdom lies in fluid adaptation without attachment.",
+   "insight_en": "The debaters elegantly dissect intelligence within the brain, yet mostly overlook everything below the neck. Whether it's fluid reasoning or empirical judgment, **the deepest moat separating humans from silicon-based life is 'embodied perception'—the ability to receive high-bandwidth, multimodal feedback by seeing, touching, and even bleeding in the real physical and social world.** The text that LLMs process is essentially second-hand information, severely compressed and dimensionally reduced by humans. Humans face an uncompressed, frictionless reality. Thus, what is truly scarce is not armchair logic or static judgment, but the courage to throw oneself into muddy waters, using the physical body to capture unquantifiable weak signals that cannot be written into a prompt, thereby calibrating intuition through real consequences.",
+   "advice_en": "Combining the embodied perspective with the panel's wisdom, here are three actionable steps. First, establish multimodal input sources. Do not rely solely on reading or surfing the web—that is AI's turf. Go to the physical site, talk face-to-face, or build a tangible prototype; **use your body as the most sensitive sensor to gather 'dark data' that machines cannot scrape.** Second, practice the self-defense tactics of Kahneman and Munger. Before making a major decision this week, conduct a 'pre-mortem': write down, 'If this completely fails in a year, what is the most likely reason?' to force System 2 to counter blind overconfidence. Third, reallocate your cognitive bandwidth. Fully outsource rote memorization and basic retrieval to AI assistants, investing the saved time into real-world trials where you must bear actual consequences."
+  }
+ ],
+ "hooks": [
+  {
+   "from": "claude",
+   "text": "**越过挣扎的代价**：AI 太早把答案递过来，抹掉的正是那点逼你建立模型的摩擦——而经验恰恰是在卡壳、试错里才熬成本事的。省下的时间，会不会正是你本该长本领的地方？",
+   "text_en": "**The cost of skipping the struggle**: AI hands you the answer too early, erasing the very friction that forces you to build a model — yet skill is forged precisely in getting stuck and trying again. Is the time you save exactly where your ability was meant to grow?"
+  },
+  {
+   "from": "gpt",
+   "text": "**练一个决策闭环，而不是三门智力课**：AI 让答案来得又快又顺，最大的风险是把『流畅的输出』误当成『真的懂了』。与其纠结练流体还是晶体，不如把『提问→假设→预测→行动→复盘』接成一个能证伪自己的闭环——没有闭环，知识变谈资，推理变脑补，判断变自信的别名。",
+   "text_en": "**Train a decision loop, not three courses in intelligence**: AI makes answers arrive fast and fluent, and the real risk is mistaking fluent output for real understanding. Rather than agonizing over fluid versus crystallized, wire question → hypothesis → prediction → action → review into a loop that can prove you wrong — without it, knowledge becomes trivia, reasoning becomes fantasy, and judgment becomes a flattering name for confidence."
+  },
+  {
+   "from": "gemini",
+   "text": "**脖子以下的身体**：六人都在脑子里解剖智力，却漏了『具身感知』——人和机器最深的护城河，是在真实世界里靠看、听、触摸、乃至流血受伤接收的高带宽反馈。AI 吞的是被压扁的二手文本，你却能把身体当传感器，去捕捉那些写不进 prompt 的微弱信号。",
+   "text_en": "**The body below the neck**: the six dissect intelligence inside the head and miss embodied perception — the deepest moat between human and machine is the high-bandwidth feedback we take in by seeing, touching, even bleeding in the real world. AI swallows flattened second-hand text; you can use your body as a sensor to catch the faint signals that can never be written into a prompt."
+  },
+  {
+   "from": "kahneman",
+   "text": "**什么时候该信你的直觉**：不是所有场合都值得相信那份『我一看就懂』。先分清你身处的是规律稳、反馈快的高效度环境，还是噪声大、反馈慢的低效度环境——再决定是放胆用直觉，还是改用清单与数据。",
+   "text_en": "**When to trust your gut**: not every setting earns that 'I just know it' feeling. First tell whether you're in a high-validity environment — stable patterns, fast feedback — or a low-validity one — heavy noise, slow feedback — then decide whether to trust intuition or switch to checklists and data.",
+   "answer": {
+    "lead": "对照卡尼曼的判据，给你眼前这个决定归归类——**它决定了你的直觉值不值得信。**",
+    "table": {
+     "head": [
+      "这个领域…",
+      "偏『可信直觉』（高效度）",
+      "偏『别信直觉』（低效度）"
+     ],
+     "rows": [
+      [
+       "规律稳不稳？",
+       "规律稳定、可重复（下棋、开车、乐器）",
+       "规律多变、充满噪声（选股、预测政局）"
+      ],
+      [
+       "反馈快不快？",
+       "当场就知道对错，可立即纠正",
+       "反馈迟到数月数年，甚至永不揭晓"
+      ],
+      [
+       "练了多少次？",
+       "同类情形反复历练过上千次",
+       "样本稀少，每次都像头一回"
+      ],
+      [
+       "运气占多大？",
+       "结果主要由技术决定",
+       "运气足以冒充实力"
+      ],
+      [
+       "该怎么做？",
+       "放胆信直觉，并继续打磨它",
+       "改用清单、数据、外部视角与预先记录"
+      ]
+     ]
+    },
+    "tail": "**多数真实决定是混合的——越靠右，越要给直觉装上刹车。**一个简单自测：你能说清上一次这类判断错在哪吗？答不出，就说明这个场还没让你的直觉长熟。"
+   },
+   "answer_en": {
+    "lead": "Run the decision in front of you through Kahneman's test — **it settles whether your gut is worth trusting.**",
+    "table": {
+     "head": [
+      "Does this field…",
+      "Leans 'trust the gut' (high-validity)",
+      "Leans 'distrust the gut' (low-validity)"
+     ],
+     "rows": [
+      [
+       "Are patterns stable?",
+       "Regular, repeatable (chess, driving, an instrument)",
+       "Shifting, noisy (stock-picking, predicting politics)"
+      ],
+      [
+       "Is feedback fast?",
+       "You learn right away and can correct at once",
+       "Feedback lags months or years, or never comes"
+      ],
+      [
+       "How many reps?",
+       "Thousands of runs at the same kind of case",
+       "Few samples; every time feels like the first"
+      ],
+      [
+       "How much luck?",
+       "Outcomes are mostly skill",
+       "Luck can masquerade as skill"
+      ],
+      [
+       "So what to do?",
+       "Trust the gut boldly and keep honing it",
+       "Use checklists, data, the outside view and a written record"
+      ]
+     ]
+    },
+    "tail": "**Most real decisions are mixed — the further right, the more brakes your intuition needs.** A quick self-test: can you say exactly what your last judgment of this kind got wrong? If not, this arena hasn't ripened your gut yet."
+   }
+  },
+  {
+   "from": "nagarjuna",
+   "text": "**别急着给自己贴标签**：『我聪明』『我笨』都只是一时一地的测量，智愚本是流动的。把自己钉死在某个标签上，比一时的无知更困住人——它会悄悄决定你还敢不敢学、敢不敢碰新领域。",
+   "text_en": "**Don't rush to label yourself**: 'I'm smart,' 'I'm slow' are just one measurement at one moment; cleverness and dullness flow. Nailing yourself to a label traps you more than any passing ignorance — it quietly decides whether you still dare to learn, or touch a new field at all."
+  },
+  {
+   "from": "munger",
+   "text": "**能力圈的边界**：答案越廉价，『我不懂』这三个字越值钱。真本事不只是知道很多，更是准确画得出自己不懂的地方，并在圈外老实收手。你能说清自己判断力的边界在哪吗？",
+   "text_en": "**The edge of your competence**: the cheaper answers get, the more the words 'I don't know' are worth. Real skill isn't only knowing a lot — it's drawing an accurate line around what you don't know, and honestly stopping at its edge. Can you say where your own judgment ends?"
+  }
+ ]
+}

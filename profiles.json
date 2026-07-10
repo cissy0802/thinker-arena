@@ -7280,6 +7280,58 @@
    "lineage_en": "Early on he fused biology with Kantian questions about knowledge, then turned to studying the genesis of knowledge by empirical means. He founded the Geneva school and profoundly shaped developmental psychology, cognitive science and constructivist education; Kohlberg's theory of moral development directly inherited his mantle, while Vygotsky engaged and complemented him from a sociocultural angle.",
    "trivia": "皮亚杰研究的许多经典发现，来自他对自己三个孩子婴幼儿期近乎实验般的日常观察——他会一次次把玩具藏起来，看孩子何时开始去寻找看不见的东西，由此揭示『客体永久性』的形成。把家庭育儿现场变成一流的科学实验室，是他独特的研究方式。",
    "trivia_en": "Many of Piaget's classic findings came from his almost experimental daily observation of his own three children in infancy — again and again he would hide a toy to see when the child began to search for what was out of sight, revealing how 'object permanence' forms. Turning the domestic scene of child-rearing into a first-rate scientific laboratory was his distinctive way of working."
+  },
+  "lecun": {
+   "bio": "1960 年生于巴黎，法裔美国计算机科学家，深度学习的奠基者之一。1980 年代末在贝尔实验室把反向传播用于手写识别，做出最早能实用的卷积神经网络，一度为全美银行读取大量支票。2013 年创立 Facebook（Meta）人工智能研究院 FAIR 并任首席 AI 科学家，同时任教纽约大学。2018 年与辛顿、本吉奥共获图灵奖，三人被称为『深度学习三巨头』。",
+   "bio_en": "Born in Paris in 1960, a French-American computer scientist and a founder of deep learning. In the late 1980s at Bell Labs he applied backpropagation to handwriting recognition, producing the first practical convolutional neural networks, which at one point read a large share of the checks in the United States. In 2013 he founded FAIR, Facebook (Meta)'s AI research lab, serving as Chief AI Scientist, while also teaching at New York University. In 2018 he shared the Turing Award with Hinton and Bengio, the three being dubbed the 'godfathers of deep learning.'",
+   "ideas": "杨立昆的核心贡献是卷积神经网络（CNN）。要理解它，先想想大脑怎么看东西：你认出一只猫，靠的不是记住它出现在画面哪个角落，而是抓住『尖耳朵、胡须、毛皮』这些局部特征，无论它在左边还是右边。CNN 就是把这个思路搬进机器——用一小块『滤镜』在整张图上滑动，逐层把边缘拼成纹理、纹理拼成部件、部件拼成整体。这个『局部感受、层层抽象、位置无关』的设计，是今天几乎所有图像识别、人脸解锁、自动驾驶视觉的地基。\n他更大的主张，是给机器学习指方向。当下最火的做法叫『监督学习』——喂给机器几百万张贴好标签的图（这是猫、那是狗），它照着学。杨立昆认为这条路太贵也太笨：人类小孩不需要有人给世界贴几百万个标签，光是睁眼看、伸手碰，就无师自通地懂了重力、因果、物体不会凭空消失。他把希望押在『自监督学习』上——让机器像孩子一样，通过预测『被遮住的下一帧会是什么』来自己教自己，从海量未标注的数据里长出对世界的常识。\n由此引出他念兹在兹的『世界模型』：一个真正智能的系统，脑子里得有一套对世界如何运作的内部模拟，才能预测后果、提前规划、举一反三。他据此批评当前的大语言模型——它们靠预测下一个词，把人类文字里的规律压缩得极好，却没有一个扎根于物理世界的模型，所以会一本正经地说出违反常识的话。他有句流传很广的话：今天最强的 AI，对真实世界的理解还不如一只家猫。\n他也是最著名的『反末日论』者。当很多人担心超级智能即将失控、危及人类，他反驳说：能规划、有自主意图的机器智能还根本不存在，为一个尚未造出的东西恐慌，是本末倒置；真正该做的是把它造出来、并像对待任何技术那样一步步加装安全护栏。他还是开源 AI 的坚定拥护者，主张把强大的模型公开，让全世界共同监督、改进，而不是锁在少数几家公司手里。",
+   "ideas_en": "LeCun's central contribution is the convolutional neural network (CNN). To grasp it, think about how a brain sees: you recognize a cat not by memorizing which corner of the frame it sits in, but by catching local features — pointed ears, whiskers, fur — wherever they appear. The CNN carries this idea into a machine: a small 'filter' slides across the whole image, layer by layer assembling edges into textures, textures into parts, parts into wholes. This design — local perception, layered abstraction, position-independence — is the foundation of almost all image recognition, face unlock, and self-driving vision today.\nHis larger claim is about where machine learning should head. The dominant method now is 'supervised learning' — feed the machine millions of labeled images (this is a cat, that a dog) and it learns by imitation. LeCun thinks this path is too costly and too dull: a human child doesn't need the world labeled millions of times; just by looking and reaching it grasps gravity, causation, and that objects don't vanish into thin air. He bets instead on 'self-supervised learning' — letting a machine teach itself, like a child, by predicting 'what the hidden next frame will be,' growing common sense about the world from vast unlabeled data.\nFrom this comes the 'world model' he keeps returning to: a genuinely intelligent system needs an internal simulation of how the world works, so it can predict consequences, plan ahead, and generalize. On this basis he criticizes today's large language models — by predicting the next word they compress the regularities of human text superbly, yet have no model grounded in the physical world, so they will state, with a straight face, things that violate common sense. A widely quoted line of his: the strongest AI today understands the real world less well than a house cat.\nHe is also the best-known 'anti-doomer.' As many worry that superintelligence is about to slip loose and threaten humanity, he counters that machine intelligence able to plan and to hold autonomous intentions does not yet exist at all; panicking over a thing not yet built is backwards. What we should do is build it and, as with any technology, bolt on safeguards step by step. He is likewise a firm champion of open-source AI, arguing that powerful models should be public — so the whole world can watch and improve them — rather than locked inside a few companies.",
+   "assessments": [
+    {
+     "by": "ACM 图灵奖颁奖辞（2018）",
+     "text": "表彰他与本吉奥、辛顿在深度神经网络上的概念与工程突破，使深度学习成为现代计算的关键组成部分。"
+    },
+    {
+     "by": "杰弗里·辛顿（图灵奖共同得主）",
+     "text": "在深度学习的功绩上与他并称，但两人在『AI 是否构成生存性风险』上公开分歧——辛顿深忧，他则一贯淡然。（大意）"
+    }
+   ],
+   "assessments_en": [
+    {
+     "by": "ACM Turing Award citation (2018)",
+     "text": "Honoring him, with Bengio and Hinton, for conceptual and engineering breakthroughs in deep neural networks that made deep learning a critical component of modern computing."
+    },
+    {
+     "by": "Geoffrey Hinton (co-laureate)",
+     "text": "Named alongside him for the achievements of deep learning, yet the two disagree publicly on whether AI poses an existential risk — Hinton deeply worried, LeCun consistently unruffled. (paraphrased)"
+    }
+   ],
+   "quotes": [
+    "革命不会有监督。（『The revolution will not be supervised』—— 他著名演讲的标题，双关：真正的智能突破将来自自监督学习。）",
+    "今天最强的 AI，对世界的理解还不如一只猫或一个四岁孩子。（大意）",
+    "没有世界模型、不会规划的系统，谈不上真正的智能。（大意）",
+    "担心超级智能统治人类，就像还没造出喷气客机就先怕它撞楼——那东西还不存在。（大意）"
+   ],
+   "quotes_en": [
+    "The revolution will not be supervised. (The title of a famous talk — a pun: the real breakthrough in intelligence will come from self-supervised learning.)",
+    "The most advanced AI today understands the world less well than a cat or a four-year-old child. (paraphrased)",
+    "A system with no world model and no ability to plan is not truly intelligent. (paraphrased)",
+    "Worrying that superintelligence will dominate humanity is like fearing a jetliner will crash into buildings before the jetliner has even been built — the thing doesn't exist yet. (paraphrased)"
+   ],
+   "works": [
+    "《基于梯度的学习应用于文档识别》(Gradient-Based Learning Applied to Document Recognition, 1998) —— 卷积网络 LeNet 的奠基论文",
+    "《深度学习》(Deep Learning) —— 与本吉奥、辛顿合著的《自然》综述, 2015",
+    "《一条通向自主机器智能的道路》(A Path Towards Autonomous Machine Intelligence, 2022) —— 阐述世界模型与 JEPA 的立场文件"
+   ],
+   "works_en": [
+    "'Gradient-Based Learning Applied to Document Recognition' (1998) — the founding paper of the LeNet convolutional network",
+    "'Deep Learning' — a Nature review co-authored with Bengio and Hinton, 2015",
+    "'A Path Towards Autonomous Machine Intelligence' (2022) — a position paper laying out world models and JEPA"
+   ],
+   "lineage": "思想上承接福岛邦彦的『神经认知机』与鲁梅尔哈特等人的反向传播算法，早年在辛顿门下做博士后。1980 年代末于贝尔实验室把这些理念落成能读支票的实用系统；2013 年创立 Meta 的 FAIR，与本吉奥、辛顿共同点燃了 2010 年代的深度学习浪潮，门下与合作者遍布今日 AI 学界与工业界。",
+   "lineage_en": "Intellectually he builds on Kunihiko Fukushima's 'Neocognitron' and on the backpropagation algorithm of Rumelhart and others, and did his postdoc under Hinton. At Bell Labs in the late 1980s he turned these ideas into a practical check-reading system; in 2013 he founded Meta's FAIR, and together with Bengio and Hinton lit the deep-learning wave of the 2010s, his students and collaborators now spread across AI academia and industry.",
+   "trivia": "他的姓氏原写作『Le Cun』，为免英语读者误当中间名，后来连写成 LeCun。在 AT&T 期间，他还与同事共同发明了 DjVu 图像压缩格式，用于高效存储扫描文档。三位『深度学习教父』里，他以直率好辩、活跃于社交媒体、爱用工程现实给热潮泼冷水著称。",
+   "trivia_en": "His surname was originally written 'Le Cun'; to keep English readers from mistaking 'Cun' for a middle name, he later joined it into 'LeCun.' While at AT&T he also co-invented the DjVu image-compression format for storing scanned documents efficiently. Of the three 'godfathers of deep learning,' he is the blunt, argumentative one — active on social media and fond of pouring engineering cold water on hype."
   }
  }
 }

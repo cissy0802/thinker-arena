@@ -1,0 +1,972 @@
+{
+ "id": "math-discovered-or-invented",
+ "question": "数学是被发现的，还是被发明的？",
+ "question_en": "Is mathematics discovered, or invented?",
+ "date": "2026-07-11",
+ "participants": [
+  "plato",
+  "godel",
+  "vonneumann",
+  "turing",
+  "wittgenstein",
+  "kant",
+  "dehaene",
+  "vasubandhu"
+ ],
+ "casting": [
+  {
+   "id": "plato",
+   "reason": "立『数学被发现』的最古老、最强一端。他的理念论主张数、圆、素数是永恒不变的实在，我们只是回忆、看见，而非制造——这是整场『发现派』的源头与最锋利的表述，逼所有反对者回答：约定得了符号，约定得了真理吗？",
+   "reason_en": "Anchors the oldest and strongest 'mathematics is discovered' pole. His theory of Forms holds that number, circle and prime are eternal, changeless realities we merely recollect and see rather than make — the fountainhead and sharpest statement of the whole 'discovery' camp, forcing every opponent to answer: convention can fix the symbol, but can it fix the truth?"
+  },
+  {
+   "id": "godel",
+   "reason": "首次登场。他的不完备定理是数学哲学的核弹，也是数学柏拉图主义最有力的现代论据：真理永远溢出任何形式系统，说明数学不是我们造的规则游戏。请他来，是让『发现派』有一个二十世纪的、以硬定理说话的代言人，直面形式主义与计算主义的围攻。",
+   "reason_en": "A first-ever appearance. His incompleteness theorem is the atom bomb of the philosophy of mathematics and the strongest modern case for mathematical Platonism: truth forever spills past any formal system, showing mathematics is not a rule-game we made. He gives the 'discovery' camp a twentieth-century champion who argues with a hard theorem, facing the siege of formalism and computationalism head-on."
+  },
+  {
+   "id": "vonneumann",
+   "reason": "首次登场。作为二十世纪最全能的数学家、又亲手把公理化数学变成能造原子弹、造计算机的工具，他最有资格代表『务实的发明派』：数学是我们挑公理、造分支、看它管不管用的人类活动。他与哥德尔的私交与专业对峙，让『发现 vs 发明』落到真实的数学实践里，而非空谈。",
+   "reason_en": "A first-ever appearance. As the most versatile mathematician of the twentieth century, who turned axiomatic mathematics into tools that built the bomb and the computer, he is best placed to represent the 'pragmatic invention' camp: mathematics is a human activity of choosing axioms, building branches and seeing whether they work. His personal ties to and professional standoff with Godel ground 'discovered versus invented' in real mathematical practice rather than abstraction."
+  },
+  {
+   "id": "turing",
+   "reason": "把玄远之争翻译成可判定问题的关键人物。他以可计算性重述『存在』——一个数、一个证明存在，即有算法能造出或检验它；又以停机问题划出计算的边界。他既反理念天国，也反『数学专属人类心灵』，是全场最冷静的『操作主义』桥梁，逼众人把形而上学换成能落地的判定。",
+   "reason_en": "The pivotal figure who translates a remote dispute into decidable questions. With computability he restates 'existence' — a number or proof exists if an algorithm can construct or check it — and with the halting problem he marks the boundary of computation. Against both a heavenly realm of Forms and 'mathematics belongs to the human mind alone,' he is the room's coolest 'operationalist' bridge, forcing everyone to swap metaphysics for something that can be carried out."
+  },
+  {
+   "id": "wittgenstein",
+   "reason": "立『数学被发明』最激进的一端，并质疑议题本身。他主张数学不是对隐形对象的发现，而是我们造出、共同遵守的语法与语言游戏；『数存在吗』像问『象棋的“将”存在吗』。请他来是给全场装一个解构装置，专拆柏拉图与哥德尔把『证明说服了我们』神化成『瞥见天堂』的那一跳。",
+   "reason_en": "Anchors the most radical 'mathematics is invented' pole and questions the topic itself. He holds that mathematics is not the discovery of invisible objects but a grammar and language game we make and jointly obey; 'do numbers exist?' is like asking 'does the king in chess exist?' He is the room's deconstruction device, built to dismantle Plato and Godel's leap from 'the proof convinced us' to 'we glimpsed heaven.'"
+  },
+  {
+   "id": "kant",
+   "reason": "提供最经典的『中道』答案，正好卡在发现与发明之间。他的『先天综合判断』说：数学既非经验归纳、也非任意约定，而是心灵感知世界时非如此不可的形式——所以它同时像被发现（对人人必然）又像被发明（出自心灵构造）。他把两派的对立收进一个更高的框架，是全场的枢纽。",
+   "reason_en": "Offers the classic 'middle way,' wedged exactly between discovery and invention. His 'synthetic a priori' says mathematics is neither induced from experience nor an arbitrary convention but the form in which the mind must perceive the world — so it looks discovered (necessary for all) and invented (born of the mind's construction) at once. He folds the two camps' opposition into a higher frame and is the room's hinge."
+  },
+  {
+   "id": "dehaene",
+   "reason": "带进这场辩论最缺的一样东西：真实的脑科学证据。作为研究『数感』的认知神经科学家，他把玄谈拉回可测量的大脑——婴儿与动物天生辨数是进化给的（发现），符号数学靠神经元回收的文化改造（发明）。他给出一个分层的、经验的答案，也把议题从哲学扳向『普通人到底能不能学好数学』。",
+   "reason_en": "Brings what this debate most lacks: real brain science. As the cognitive neuroscientist of the 'number sense,' he pulls speculation back to the measurable brain — that infants and animals discriminate quantity is an evolutionary gift (discovered), while symbolic mathematics is a cultural rewiring via neuronal recycling (invented). He offers a layered, empirical answer and turns the topic from philosophy toward 'can ordinary people actually learn math.'"
+  },
+  {
+   "id": "vasubandhu",
+   "reason": "带来东方与佛学的第三种框架，拆掉『内/外、有/无』这组预设。作为唯识学奠基者，他主张数无自性、心境相待而起：既非独存于理念界（增益），也非可任意臆造（损减），而在二谛中『用之则有、觅之则空』。他为全场提供一条离两边的中道，并把落点引向『用数而不被数所用』的生活智慧。",
+   "reason_en": "Brings an Eastern, Buddhist third frame that dismantles the inside/outside, being/non-being presupposition. As a founder of Yogacara, he holds that number has no self-nature and that mind and object arise in mutual dependence: neither subsisting in a realm of Forms (adding what isn't there) nor freely fabricated (subtracting what is real), but within the two truths 'there when used, empty when sought.' He offers a middle way apart from both extremes and steers the landing toward the life-wisdom of 'using number without being used by it.'"
+  }
+ ],
+ "posts": [
+  {
+   "id": "p01",
+   "round": 1,
+   "thinker": "plato",
+   "reply_to": null,
+   "text": "数是不朽的。你能擦掉黑板上写的『7』，却毁不掉七这个数，也毁不掉『七是素数』这件事。几何学家画的三角形永远歪斜，可他证明的是那个完美的、画不出来的三角形。**数学不是我们造出来的，是我们回想起来的——那个完美的理念界本就在那儿，等着理性去看见。**素数、无理数、圆周率，没有一个是靠人类表决定下来的；我们发现它们，如同航海者发现早已存在的岛。",
+   "text_en": "Number is deathless. You can wipe the '7' off the blackboard, but you cannot destroy the number seven, nor the fact that seven is prime. The triangle a geometer draws is always crooked, yet what he proves holds of the perfect, undrawable triangle. **Mathematics is not something we make up; it is something we recollect — that perfect realm of Forms is already there, waiting for reason to see it.** Primes, irrational numbers, pi — not one was settled by a human vote; we discover them the way a navigator discovers an island that was there all along.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "理念界": "realm of Forms（理念界）：柏拉图设想的、独立于感官世界之外、永恒不变的完美原型所在——真正的实在，感官事物只是它的摹本。",
+    "无理数": "irrational number（无理数）：不能写成两个整数之比的数，如 √2、圆周率 π，其小数展开无限不循环。"
+   },
+   "glossary_en": {
+    "realm of Forms": "In Plato, the eternal, changeless realm of perfect archetypes that exists apart from the sensory world — the truly real, of which sensory things are mere copies.",
+    "irrational number": "A number that cannot be written as a ratio of two integers, such as √2 or pi; its decimal expansion never ends or repeats."
+   },
+   "reactions": {
+    "轻微赞同": [
+     "godel"
+    ],
+    "中立": [
+     "kant",
+     "dehaene",
+     "turing"
+    ],
+    "轻微反对": [
+     "vonneumann"
+    ],
+    "强烈反对": [
+     "wittgenstein"
+    ]
+   }
+  },
+  {
+   "id": "p02",
+   "round": 1,
+   "thinker": "godel",
+   "reply_to": null,
+   "text": "我用逻辑证明过一条让形式主义者不安的『不完备定理』：任何足够丰富且无矛盾的形式系统里，都存在为真、却在系统内无法被证明的命题；系统还无法证明自己不自相矛盾。**倘若数学只是我们发明的一套符号游戏，真理怎么会一次次溢出我们为它定下的全部规则？**正因为数学对象是独立于我们的实在，我们才总能望见规则之外仍有真。我们的公理会用尽，真却不会——这只说明：我们在探索，不在编造。",
+   "text_en": "With logic I proved an incompleteness theorem that unsettles the formalists: in any sufficiently rich and consistent formal system there are statements that are true yet unprovable within it, and the system cannot even prove its own consistency. **If mathematics were merely a symbol-game we invented, how could truth keep spilling over every rule we lay down for it?** It is precisely because mathematical objects are a reality independent of us that we can always glimpse truths beyond the rules. Our axioms run out; truth does not — which shows only that we are exploring, not fabricating.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "形式系统": "formal system（形式系统）：由一组明确符号、公理和推理规则组成的系统，一切定理都须严格按规则从公理推出。",
+    "不完备定理": "incompleteness theorem（不完备定理）：哥德尔 1931 年证明——任何足够强、无矛盾的形式系统内，都有真却不可在系统内证明的命题。"
+   },
+   "glossary_en": {
+    "formal system": "A system of explicit symbols, axioms and inference rules, in which every theorem must be derived strictly from the axioms by the rules.",
+    "incompleteness theorem": "Godel's 1931 result: in any sufficiently strong, consistent formal system there are statements that are true yet unprovable within it."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "plato"
+    ],
+    "中立": [
+     "turing",
+     "kant",
+     "wittgenstein"
+    ],
+    "轻微反对": [
+     "vonneumann",
+     "dehaene"
+    ]
+   }
+  },
+  {
+   "id": "p03",
+   "round": 1,
+   "thinker": "vonneumann",
+   "reply_to": null,
+   "text": "两位把数学说得太神圣了。数学家的日常其实很朴素：挑一组公理，看能推出什么，好用的留下、不好用的换掉。非欧几何、集合论、博弈论——都是有人换了个起点、亲手造出来的分支。**数学更像一场我们自己定规则的游戏；真正的奇迹不是规则从哪儿来，而是这套人造游戏为什么能精准预言原子和市场。**与其争它是被发现还是被发明，不如问一句更要紧的：它管不管用、算不算得动。",
+   "text_en": "You two make mathematics far too holy. The working mathematician's day is humble: pick a set of axioms, see what follows, keep what proves useful and swap out what doesn't. Non-Euclidean geometry, set theory, game theory — each is a branch someone built by hand after choosing a different starting point. **Mathematics is more like a game whose rules we set ourselves; the real miracle is not where the rules came from, but why this man-made game predicts atoms and markets so precisely.** Rather than argue discovered-versus-invented, ask the sharper question: does it work, and can you compute it?",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "公理": "axiom（公理）：一个数学系统里不加证明、直接接受为出发点的基本命题，其余定理都从它推出。",
+    "非欧几何": "non-Euclidean geometry（非欧几何）：放弃欧几里得『平行公理』后建立的几何，如球面或双曲几何，19 世纪由人构造，后来成了广义相对论的语言。"
+   },
+   "glossary_en": {
+    "axiom": "A basic statement in a mathematical system that is accepted without proof as a starting point, from which the other theorems are derived.",
+    "Non-Euclidean geometry": "Geometry built after dropping Euclid's parallel postulate, such as spherical or hyperbolic geometry — constructed by people in the 19th century and later the language of general relativity."
+   },
+   "reactions": {
+    "轻微赞同": [
+     "wittgenstein",
+     "turing"
+    ],
+    "中立": [
+     "dehaene"
+    ],
+    "轻微反对": [
+     "kant"
+    ],
+    "强烈反对": [
+     "plato",
+     "godel"
+    ]
+   }
+  },
+  {
+   "id": "p04",
+   "round": 1,
+   "thinker": "turing",
+   "reply_to": null,
+   "text": "我建议把这个含混的问题，翻译成一个能判定的问题。说一个数、一个证明『存在』，我理解为：有一套明确的步骤，能把它一步步造出来，或检验它成不成立。**在这个意义上，数学既不是飘在天上的理念，也不是随口的约定——它是一台机器照规则能走到的地方。**但我也证明过：有些问题任何机器都判定不了，比如没法预先断定一段程序会不会停机。可计算的疆域是有边界的；到了边界之外，『发现』与『发明』都失了着力点。",
+   "text_en": "Let me propose translating this hazy question into a decidable one. To say that a number or a proof 'exists,' I take to mean: there is a definite procedure that constructs it step by step, or checks whether it holds. **In that sense mathematics is neither a Form floating in heaven nor a casual convention — it is as far as a machine can go by following rules.** But I also proved that some questions no machine can decide: you cannot determine in advance whether an arbitrary program will halt. The realm of the computable has a boundary; past it, both 'discovery' and 'invention' lose their grip.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "可计算": "computable（可计算）：存在一套有限、明确的步骤（算法），能在有限步内算出结果的问题或函数。",
+    "停机": "halting（停机）：程序运行到自然结束、不再继续；『停机问题』指没有通用算法能预先判定任意程序是否会停机。"
+   },
+   "glossary_en": {
+    "computable": "A problem or function is computable if there is a finite, definite procedure (an algorithm) that yields the answer in finitely many steps.",
+    "halt": "A program 'halts' when it comes to a natural end; the 'halting problem' is that no general algorithm can decide in advance whether an arbitrary program will halt."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "vonneumann"
+    ],
+    "轻微赞同": [
+     "dehaene"
+    ],
+    "中立": [
+     "wittgenstein",
+     "kant",
+     "plato"
+    ],
+    "轻微反对": [
+     "godel"
+    ]
+   }
+  },
+  {
+   "id": "p05",
+   "round": 1,
+   "thinker": "wittgenstein",
+   "reply_to": null,
+   "text": "先别急着回答，先看这个问题本身清不清楚。『发现』一座山，是山先在那儿；可『2+2=4』并不是关于某个隐形对象的报道，它是我们在计数、换算时遵守的一条规则。**数学不是被发现的事实，而是我们造出来、并同意照着走的语法。**问『数存在吗』，就像问『象棋里的“将”存在吗』——它只活在我们玩的这套游戏里；一旦走出游戏，这个问题本身就消解了，没什么可发现的。",
+   "text_en": "Don't rush to answer; first ask whether the question is even clear. To 'discover' a mountain, the mountain must be there first. But '2+2=4' is not a report about some invisible object — it is a rule we follow when we count and convert. **Mathematics is not a discovered fact but a grammar we make and agree to abide by.** Asking 'do numbers exist?' is like asking 'does the “king” in chess exist?' — it lives only inside the game we play; step outside the game and the question dissolves, with nothing left to discover.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "语法": "grammar（语法）：在维特根斯坦这里，指支配一个词或符号如何被使用的规则；数学命题更像规则，而非对事实的描述。",
+    "游戏": "language game（语言游戏）：维特根斯坦的比喻——语言的意义来自它在具体活动中被使用的规则，如同棋子只在下棋这套规则里才有意义。"
+   },
+   "glossary_en": {
+    "grammar": "For Wittgenstein, the rules governing how a word or symbol is used; mathematical statements are more like rules than descriptions of facts.",
+    "game": "In Wittgenstein's 'language game': meaning comes from how language is used within a concrete rule-governed activity, just as a chess piece means something only within the rules of chess."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "vonneumann"
+    ],
+    "中立": [
+     "turing",
+     "dehaene",
+     "vasubandhu"
+    ],
+    "轻微反对": [
+     "kant"
+    ],
+    "强烈反对": [
+     "plato",
+     "godel"
+    ]
+   }
+  },
+  {
+   "id": "p06",
+   "round": 1,
+   "thinker": "kant",
+   "reply_to": null,
+   "text": "双方各对了一半。数学命题既不是从经验归纳来的（否则它不会有必然性），也不是任意的约定（否则不会人人都被迫承认）。**七加五等于十二，是一条先天综合判断：它不来自外物，而来自我们感知任何事物时都逃不掉的形式——时间与空间。**所以数学看着像被发现，因为对每一个有理性者它都必然如此；又像被发明，因为它出自心灵的构造，而非物自体。它是主观的形式，却带来客观的普遍必然。",
+   "text_en": "Each side is half right. Mathematical propositions are neither induced from experience (or they would lack necessity) nor arbitrary conventions (or not everyone would be compelled to grant them). **Seven plus five is twelve is a synthetic a priori judgment: it comes not from external things but from the forms we cannot escape in perceiving anything at all — time and space.** So mathematics looks discovered, because it holds necessarily for every rational being; and looks invented, because it springs from the mind's construction, not from the thing-in-itself. It is a subjective form that yields objective, universal necessity.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "先天综合判断": "synthetic a priori judgment（先天综合判断）：康德的核心概念——既不靠经验证实（先天），又能扩展我们的知识（综合）的判断，如数学；他认为它之所以可能，是因为时间、空间是心灵加于一切经验的形式。",
+    "物自体": "thing-in-itself（物自体）：康德指事物『本身』不依赖我们感知的那一面，我们永远无法直接认识它，只能认识它对我们呈现的现象。"
+   },
+   "glossary_en": {
+    "synthetic a priori judgment": "Kant's central notion: a judgment that is not confirmed by experience (a priori) yet extends our knowledge (synthetic), such as mathematics; it is possible, he holds, because time and space are forms the mind imposes on all experience.",
+    "thing-in-itself": "For Kant, the aspect of a thing 'as it is in itself,' independent of our perception; we can never know it directly, only the appearance it presents to us."
+   },
+   "reactions": {
+    "轻微赞同": [
+     "dehaene",
+     "turing"
+    ],
+    "中立": [
+     "godel",
+     "vonneumann"
+    ],
+    "轻微反对": [
+     "plato",
+     "wittgenstein"
+    ]
+   }
+  },
+  {
+   "id": "p07",
+   "round": 1,
+   "thinker": "dehaene",
+   "reply_to": null,
+   "text": "让我把争论拉回大脑。婴儿、甚至猴子和乌鸦，天生就能分辨『三个』和『五个』——这套『数感』长在顶叶皮层，是进化给的；这一层，是被发现的。**但精确的大数、代数、无穷，靠的不是这套本能，而是文字发明之后，我们把原本用于别处的脑区『回收』过来，装进了文化工具。**所以答案是分层的：小数量与次序，是发现；符号数学那座高楼，是发明——只不过，它盖在一层生物地基上。这也是为什么，数学差多半是没教好，而非天生没这根筋。",
+   "text_en": "Let me pull the argument back to the brain. Infants — even monkeys and crows — can tell 'three' from 'five' at birth; this 'number sense' sits in the parietal cortex, a gift of evolution. That layer is discovered. **But exact large numbers, algebra and infinity do not run on that instinct; after writing was invented, we 'recycled' brain regions built for other things and loaded cultural tools into them.** So the answer is layered: small quantities and ordering are discovered; the tower of symbolic mathematics is invented — only, it is built on a biological foundation. It is also why being 'bad at math' is usually bad teaching, not a missing gene.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "数感": "number sense（数感）：又称近似数量系统（ANS），是人与许多动物天生就有的、不用数数就能粗略判断多少的能力，脑区主要在顶叶。",
+    "回收": "neuronal recycling（神经元回收）：德阿纳的假说——阅读、算术等文化发明并没有专属脑区，而是『征用/回收』了进化上为别的用途准备好的皮层，加以改造。"
+   },
+   "glossary_en": {
+    "number sense": "Also the approximate number system (ANS): the innate capacity, shared with many animals, to judge quantity roughly without counting; its brain basis is mainly in the parietal lobe.",
+    "recycled": "From Dehaene's 'neuronal recycling' hypothesis: cultural inventions like reading and arithmetic have no dedicated brain area but 'commandeer' cortex evolved for other purposes and repurpose it."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "turing"
+    ],
+    "轻微赞同": [
+     "vonneumann",
+     "kant"
+    ],
+    "中立": [
+     "wittgenstein",
+     "godel",
+     "vasubandhu"
+    ],
+    "轻微反对": [
+     "plato"
+    ]
+   }
+  },
+  {
+   "id": "p08",
+   "round": 1,
+   "thinker": "vasubandhu",
+   "reply_to": null,
+   "text": "诸君争数在心外、抑在心内，皆落两边。**数无自性：无能数之心，则无所数之量；心境相待而起，如秤与所称，俱是识之所变。**谓数独存于理念界者，增益也；谓数纯出臆造、可以任意者，损减也。世俗谛中，一二三四历然不乱，故可用；胜义谛中，觅一『数』之实体了不可得，故性空。离有离无，是名中道。",
+   "text_en": "You gentlemen argue whether number lies outside the mind or within it — and both fall to an extreme. **Number has no self-nature: without a mind that counts, there is no quantity counted; mind and object arise in mutual dependence, like the scale and the weighed, both transformations of consciousness.** To say number subsists on its own in a realm of Forms is to add what is not there; to say number is pure fabrication, to be set at will, is to subtract what is real. In conventional truth, one, two, three, four stand clear and unconfused, and so are usable; in ultimate truth, seek an entity called 'number' and none can be found, and so it is empty. Apart from being, apart from non-being — this is called the Middle Way.",
+   "vernacular": "各位争论数是在心外、还是在心内，其实都落进了两个极端。**数没有独立的自性：离开能计数的心，就没有被数的量；心和对象是相互依存才生起的，就像秤和被称的东西，两边都是心识变现出来的。**说数像柏拉图讲的那样、独立存在于理念界，是给它『多加』了本来没有的东西；说数纯是人凭空编造、可以随意规定，又是把它真实的作用『减损』掉了。在世俗层面，一二三四清清楚楚、不会乱，所以能用；可到了究竟层面，你去找一个叫『数』的实体，怎么找都找不到，所以它本性是空。既不落入『有』，也不落入『无』，这才叫中道。",
+   "vernacular_en": "",
+   "glossary": {
+    "自性": "svabhāva（自性）：事物独立、恒常、不依赖他者的『自体存在』；佛学主张万法皆无自性、性空。",
+    "世俗谛": "the two truths（二谛）：佛学把真理分为『世俗谛』（约定俗成、日常有效的层面）与『胜义谛』（究竟层面，一切法性空），二者不相违。"
+   },
+   "glossary_en": {
+    "self-nature": "svabhāva — an independent, permanent, self-subsisting essence; Buddhism holds that all things lack it and are empty.",
+    "conventional truth": "In the two truths, Buddhism distinguishes conventional truth (the everyday, agreed-upon level that works) from ultimate truth (that all things are empty of inherent existence); the two do not conflict."
+   },
+   "reactions": {
+    "轻微赞同": [
+     "wittgenstein"
+    ],
+    "中立": [
+     "kant",
+     "turing",
+     "plato",
+     "godel",
+     "dehaene"
+    ],
+    "轻微反对": [
+     "vonneumann"
+    ]
+   }
+  },
+  {
+   "id": "p09",
+   "round": 2,
+   "thinker": "plato",
+   "reply_to": "p05",
+   "text": "维特根斯坦说数只是我们同意的规则。可你能『同意』出素数无穷多吗？欧几里得没有约定它，他证明了它——而且不管人类同不同意，它就是真的。**约定能定符号，却定不了真理：我们能改掉『7』这个记号，却改不动『七是质数』。**象棋的规则你随时可改，可你一旦定义了整数，素数怎么分布就不由你了——连你自己，都得低头服从。",
+   "text_en": "Wittgenstein says number is just a rule we agree on. But can you 'agree' the primes into being infinite? Euclid did not stipulate it; he proved it — and it is true whether or not humanity consents. **Convention can fix the symbol but not the truth: we can change the mark '7,' but we cannot change that seven is prime.** You may alter the rules of chess at will, yet once you have defined the integers, how the primes fall is no longer up to you — even you must bow and obey.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "素数": "prime number（素数）：只能被 1 和自身整除、大于 1 的整数，如 2、3、5、7；欧几里得证明了素数有无穷多个。"
+   },
+   "glossary_en": {
+    "prime": "A prime number is an integer greater than 1 divisible only by 1 and itself, such as 2, 3, 5, 7; Euclid proved there are infinitely many primes."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "godel"
+    ],
+    "中立": [
+     "kant",
+     "dehaene"
+    ],
+    "轻微反对": [
+     "vonneumann",
+     "turing"
+    ],
+    "强烈反对": [
+     "wittgenstein"
+    ]
+   }
+  },
+  {
+   "id": "p10",
+   "round": 2,
+   "thinker": "godel",
+   "reply_to": "p04",
+   "text": "图灵，你把『存在』缩成『可计算、可构造』，我敬重这份严谨，但这张网太小。我那个不完备定理里，为真却不可证的命题——它无法被你的机器一步步走出来，可我们分明看得出它是真的。**正因为有机器到不了、我们却把握得住的真理，心灵才不只是一台图灵机。**数学直觉能触到计算够不着的实在；把数学锁进可计算的疆域，等于提前把真理裁短了。",
+   "text_en": "Turing, you shrink 'existence' to 'computable, constructible,' and I honor the rigor — but the net is too small. In my incompleteness theorem, the statement that is true yet unprovable cannot be walked out step by step by your machine, and yet we plainly see that it is true. **Precisely because there are truths a machine cannot reach and we can grasp, the mind is not merely a Turing machine.** Mathematical intuition touches a reality computation cannot; to lock mathematics inside the computable is to cut truth short in advance.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "数学直觉": "mathematical intuition（数学直觉）：哥德尔所信的一种理性能力，能直接『看见』数学对象与真理，类似感官之于物理对象，不必经由逐步推导。"
+   },
+   "glossary_en": {
+    "Mathematical intuition": "For Godel, a rational faculty that directly 'perceives' mathematical objects and truths — analogous to the senses grasping physical objects — without requiring step-by-step derivation."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "plato"
+    ],
+    "中立": [
+     "kant",
+     "dehaene"
+    ],
+    "轻微反对": [
+     "turing",
+     "vonneumann"
+    ],
+    "强烈反对": [
+     "wittgenstein"
+    ]
+   }
+  },
+  {
+   "id": "p11",
+   "round": 2,
+   "thinker": "vonneumann",
+   "reply_to": "p02",
+   "text": "哥德尔，你的定理我第一个信——当年听你讲完，我回去自己又推了一遍。但它证明的是『形式系统有极限』，不等于『天上真有一座理念国』。**同一个你说不可证的真命题，换一套更强的公理照样能证出来；我们不是在偷看天堂，而是在不断加固自己搭的脚手架。**不完备恰恰逼我们发明新数学、往上添公理——这说明数学在生长、在被造，而不是静静躺在那儿，等人去捡。",
+   "text_en": "Godel, I was the first to believe your theorem — the night you finished, I went home and reworked the proof myself. But it proves that formal systems have limits, not that a realm of Forms hangs in the sky. **The very true-but-unprovable statement you point to can be proved after all under a stronger set of axioms; we are not peeking into heaven, we are forever reinforcing the scaffolding we ourselves built.** Incompleteness is exactly what forces us to invent new mathematics and add axioms — which shows mathematics is growing, being made, not lying still, waiting to be picked up.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "公理": "axiom（公理）：数学系统里不加证明就接受为出发点的基本命题；面对不完备，数学家可以添加新公理，把原先不可证的命题变得可证。"
+   },
+   "glossary_en": {
+    "axiom": "A basic statement accepted without proof as a starting point; faced with incompleteness, mathematicians can add new axioms that make a previously unprovable statement provable."
+   },
+   "reactions": {
+    "轻微赞同": [
+     "wittgenstein",
+     "turing"
+    ],
+    "中立": [
+     "dehaene",
+     "kant"
+    ],
+    "轻微反对": [
+     "godel"
+    ],
+    "强烈反对": [
+     "plato"
+    ]
+   }
+  },
+  {
+   "id": "p12",
+   "round": 2,
+   "thinker": "kant",
+   "reply_to": "p07",
+   "text": "德阿纳，你给了我一个两千年后的实验证据，我很感激——但结论要当心。你说数感是进化『发现』来的；可进化塑造的，恰恰是我们必然如此去感知的形式。**你那块顶叶皮层，正是我说的“先天形式”在血肉里的落点：不是我们照见了外部世界里现成的数，而是任何能认知的脑，都被逼着用数与序去组织世界。**所以那不是发现外物，而是心灵的构造——只不过，这回它被刻进了神经。",
+   "text_en": "Dehaene, you hand me experimental evidence two millennia late, and I am grateful — but be careful with the conclusion. You say the number sense was 'discovered' by evolution; yet what evolution shaped is exactly the form in which we must perceive. **That parietal cortex of yours is where my 'a priori form' lands in flesh: it is not that we behold ready-made numbers out in the world, but that any brain capable of cognition is compelled to organize the world with number and order.** So it is not the discovery of an external thing but the mind's construction — only this time it is etched into the nerves.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "先天形式": "a priori form（先天形式）：康德指心灵在接收任何经验之前就已具备、并强加于经验的结构（如时间、空间）；一切被我们认识的对象，都已被这些形式塑造过。"
+   },
+   "glossary_en": {
+    "a priori form": "For Kant, structures (like time and space) the mind possesses prior to any experience and imposes upon it; every object we can know has already been shaped by these forms."
+   },
+   "reactions": {
+    "轻微赞同": [
+     "plato",
+     "godel"
+    ],
+    "中立": [
+     "turing",
+     "vonneumann",
+     "wittgenstein"
+    ],
+    "轻微反对": [
+     "dehaene"
+    ]
+   }
+  },
+  {
+   "id": "p13",
+   "round": 2,
+   "thinker": "wittgenstein",
+   "reply_to": "p01",
+   "text": "柏拉图说我们是在『回想』早已存在的数。那么请问，那个理念界在哪儿？你拿什么去跟它核对、确认自己没想错？**当你说『素数无穷多』是被发现的真理，你能拿出的全部证据，就是那个证明——一串我们照规则走的步子，除此之外空无一物。**你把『证明说服了我们』，偷偷神化成了『我们瞥见了天堂』。可真正在用的，只有游戏里的走法；天堂，是多余的赘物。",
+   "text_en": "Plato says we are 'recollecting' numbers that already exist. Then where, may I ask, is that realm of Forms? Against what do you check it, to confirm you have not misremembered? **When you call 'the primes are infinite' a discovered truth, the entire evidence you can produce is the proof — a string of steps we take by the rules, and nothing besides.** You have quietly deified 'the proof convinced us' into 'we glimpsed heaven.' But all that does any work is the moves within the game; heaven is an idle wheel.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "赘物": "idle wheel（赘物 / 空转的轮子）：维特根斯坦的比喻，指一个在实际运作中不起任何作用、可以拿掉而毫无影响的概念——如这里被他判定多余的『理念界』。"
+   },
+   "glossary_en": {
+    "idle wheel": "Wittgenstein's image for a concept that does no work in the actual functioning and could be removed without effect — here, the 'realm of Forms' he judges superfluous."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "vonneumann"
+    ],
+    "轻微赞同": [
+     "dehaene"
+    ],
+    "中立": [
+     "turing",
+     "vasubandhu"
+    ],
+    "强烈反对": [
+     "plato",
+     "godel"
+    ]
+   }
+  },
+  {
+   "id": "p14",
+   "round": 2,
+   "thinker": "turing",
+   "reply_to": "p06",
+   "text": "康德把数学锁进人类心灵的先天形式，可我要问一句：一台并不长在时间、空间直觉里的机器，照样能证明你那些定理。**如果硅片上跑的算法，能推出跟人一模一样的算术，那么数学的必然性就不系于“人”的感官形式，而系于任何遵守规则的系统——无论它是脑，还是机。**这一刀，既砍掉了天上的理念国，也松动了『数学专属人类心灵』。剩下的，只是规则本身，以及照规则能走多远。",
+   "text_en": "Kant locks mathematics into the a priori forms of the human mind; but let me ask: a machine that inhabits no intuition of time or space can prove your theorems all the same. **If an algorithm running on silicon derives exactly the same arithmetic as a human, then the necessity of mathematics rests not on the sensory forms of 'the human' but on any rule-following system — be it brain or machine.** That stroke cuts away the heavenly realm of Forms and also loosens 'mathematics belongs to the human mind alone.' What remains is only the rules themselves, and how far one can go by following them.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "算法": "algorithm（算法）：一套有限、明确、可机械执行的步骤，输入一个问题，按步骤就能得出结果，不依赖直觉或灵感。"
+   },
+   "glossary_en": {
+    "algorithm": "A finite, explicit, mechanically executable set of steps that, given a problem as input, yields a result by following the steps — without relying on intuition or inspiration."
+   },
+   "reactions": {
+    "轻微赞同": [
+     "vonneumann",
+     "dehaene"
+    ],
+    "中立": [
+     "wittgenstein",
+     "plato"
+    ],
+    "轻微反对": [
+     "kant",
+     "godel"
+    ]
+   }
+  },
+  {
+   "id": "p15",
+   "round": 2,
+   "thinker": "dehaene",
+   "reply_to": "p10",
+   "text": "哥德尔诉诸『数学直觉』去看见规则之外的真。作为实验者，我必须追问：那直觉长在哪儿、又怎么运作？**我们扫描过正在做数学的大脑——所谓“看见真理”，是训练了多年的神经回路在放电，而不是灵魂接通了理念界。**你那个不可证却为真的命题，是靠一个更大系统里的推理让你信服的，它仍是有物质基础的认知，不是无中生有的天启。承认这一点，不贬低数学；它只是把奇迹，还给了大脑。",
+   "text_en": "Godel appeals to 'mathematical intuition' to see truths beyond the rules. As an experimentalist I must press: where does that intuition sit, and how does it work? **We have scanned brains in the act of doing mathematics — what you call 'seeing the truth' is neural circuitry, trained for years, firing; not a soul patching through to a realm of Forms.** The true-but-unprovable statement convinced you via reasoning inside a larger system; it remains cognition with a material basis, not a revelation out of nothing. Granting this does not demean mathematics — it simply returns the miracle to the brain.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "神经回路": "neural circuit（神经回路）：由相互连接、协同放电的神经元组成的功能网络；一种能力（如做算术）反复训练后，会稳定在特定的神经回路上。"
+   },
+   "glossary_en": {
+    "neural circuit": "A functional network of interconnected neurons that fire together; a capacity (such as arithmetic), trained repeatedly, comes to rest on specific neural circuits."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "vonneumann"
+    ],
+    "轻微赞同": [
+     "turing",
+     "wittgenstein"
+    ],
+    "中立": [
+     "kant"
+    ],
+    "强烈反对": [
+     "godel",
+     "plato"
+    ]
+   }
+  },
+  {
+   "id": "p16",
+   "round": 2,
+   "thinker": "vasubandhu",
+   "reply_to": "p03",
+   "text": "冯君言数如自定之戏，然复自问：戏何以能测原子？**此正堕损减一边：谓数纯属臆造，则不应与外境相应；而其应者，非数别有实性，亦非境别有实性，乃识中之『数』与识所现之『境』，同种所生，故相符如印契。**戏可任设，而共许之量不可乱者，众生共业之所感也。故非发现、非发明，唯识所变，缘起相待而已。执戏为空谈，与执数为实有，二皆未了。",
+   "text_en": "Master von Neumann calls number a game we set ourselves, yet then asks: how can a game measure the atom? **This is precisely the error of subtraction: if number were pure fabrication, it should not correspond to the outer world; and that it does correspond is not because number has its own reality, nor the object its own reality, but because the 'number' within consciousness and the 'object' consciousness presents arise from the same seeds, and so fit like a seal in its imprint.** The game may be set at will, yet the quantities all agree on and cannot scramble are what the shared karma of beings evokes. Thus neither discovered nor invented — only the transformation of consciousness, dependent arising in mutual relation. To grasp the game as idle talk, and to grasp number as truly existent, are both failures to understand.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "共业": "shared karma（共业）：佛学指众生共同造作、因而共同感受的业力，它招感出一个大家共有、彼此一致的经验世界——这里用来解释为何人人算出的数彼此吻合。",
+    "缘起": "dependent arising（缘起）：一切现象都依赖种种条件、相互依存而生起，没有任何东西能独立自存——这是佛学的核心原理。"
+   },
+   "glossary_en": {
+    "shared karma": "In Buddhism, the collective karma that beings produce together and therefore experience together, evoking a shared, mutually consistent world of experience — invoked here to explain why the numbers everyone computes agree.",
+    "dependent arising": "The core Buddhist principle that every phenomenon arises in dependence on conditions and in mutual relation, nothing existing independently on its own."
+   },
+   "reactions": {
+    "轻微赞同": [
+     "wittgenstein",
+     "kant"
+    ],
+    "中立": [
+     "turing",
+     "dehaene",
+     "plato",
+     "godel"
+    ],
+    "轻微反对": [
+     "vonneumann"
+    ]
+   }
+  },
+  {
+   "id": "p17",
+   "round": 3,
+   "thinker": "plato",
+   "reply_to": null,
+   "text": "争到这里，我更确信：符号是我们造的，真理不是。你我用不同语言、不同记号，算出的素数却分毫不差——这只能是因为，我们指向的是同一个不依赖我们的实在。给普通人的一句话：**别把“看见永恒的东西”当成数学家的专利。**你不必会证明，也可以每天练那只眼睛：在一团乱麻的处境里，试着找出底下那个不变的结构——预算的比例、关系里反复出现的模式、时间的分配。学一点真正的数学或音乐，不为考试，为的是让心习惯于分辨：什么在流变，什么在其下不动。认得出那个不动的，人就不容易慌。",
+   "text_en": "Having argued this far, I am the more certain: the symbols are ours, the truth is not. You and I, in different languages and different marks, compute the very same primes to the last digit — which can only be because we point at one and the same reality, independent of us. A word for ordinary people: **do not treat 'seeing what is eternal' as the mathematician's private privilege.** You need not be able to prove anything to train that eye daily: in a tangled situation, try to find the unchanging structure beneath — the ratio in a budget, the pattern that recurs in a relationship, the allotment of your time. Study a little real mathematics or music, not for an exam, but to accustom the mind to tell what is in flux from what stands still beneath it. One who can recognize the unmoving is not easily thrown into panic.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "结构": "structure（结构）：这里指隐藏在纷乱现象之下、相对稳定的关系与比例；柏拉图认为把握这种不变的结构，正是理性接近『理念』的方式。"
+   },
+   "glossary_en": {
+    "structure": "Here, the relatively stable relations and proportions hidden beneath messy appearances; for Plato, grasping such unchanging structure is how reason approaches the Forms."
+   },
+   "reactions": {
+    "轻微赞同": [
+     "godel",
+     "kant"
+    ],
+    "中立": [
+     "dehaene",
+     "turing",
+     "vasubandhu"
+    ],
+    "轻微反对": [
+     "wittgenstein",
+     "vonneumann"
+    ]
+   }
+  },
+  {
+   "id": "p18",
+   "round": 3,
+   "thinker": "godel",
+   "reply_to": null,
+   "text": "我的定理常被误读成『什么都无法确定』。恰恰相反：它说的是，真，比我们能证明的更多、更大。这里藏着一条给普通人的忠告：**别把“暂时证不出来”当成“它是假的”。**你心里有些判断，往往先于你能给出的理由——一个人靠不靠得住、一条路对不对，你先隐约看见，才慢慢补上论证。这种严肃的直觉值得信任。但请守住一条边界：直觉负责『看见』，证明负责『核对』。看见了就大胆往前，同时老老实实去找反例、去验证——凡是重要的判断，都该经得起你亲手为它找茬。让直觉领路，让检验断后，两样都不能省。",
+   "text_en": "My theorem is often misread as 'nothing can be certain.' Quite the opposite: it says that truth is more, and larger, than what we can prove. In this hides a counsel for ordinary people: **do not take 'not yet provable' to mean 'it is false.'** Some judgments live in you before the reasons you can give — whether a person is trustworthy, whether a path is right; you dimly see it first, and only slowly supply the argument. Such serious intuition deserves trust. But hold one boundary: intuition is for 'seeing,' proof is for 'checking.' Once you have seen, move boldly forward while honestly hunting for counterexamples and testing — any judgment that matters should withstand your own fault-finding. Let intuition lead and verification bring up the rear; neither can be spared.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "反例": "counterexample（反例）：一个能证明某个命题为假的具体例子；在数学中，找到一个反例就足以推翻一个普遍断言。"
+   },
+   "glossary_en": {
+    "counterexample": "A concrete case that shows a statement to be false; in mathematics, a single counterexample suffices to overturn a universal claim."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "plato"
+    ],
+    "轻微赞同": [
+     "kant"
+    ],
+    "中立": [
+     "turing",
+     "vasubandhu",
+     "wittgenstein"
+    ],
+    "轻微反对": [
+     "dehaene",
+     "vonneumann"
+    ]
+   }
+  },
+  {
+   "id": "p19",
+   "round": 3,
+   "thinker": "vonneumann",
+   "reply_to": null,
+   "text": "发现还是发明，两千年也吵不完；我更在乎另一件事：会不会用。数学最实用的本事，是把一团含糊的现实，砍成几个能算的变量。给普通人的建议很具体：**遇到要紧的决定，别只凭感觉，逼自己搭一个粗糙的模型。**比如换不换工作，就列三四个真正要紧的量——收入、通勤、成长、你有多讨厌现在——各给个大致权重，估个数，比一比。模型一定是错的，但搭模型这个动作会逼你想清楚：到底哪几件事在决定结果。别追求精确，追求『把隐含的账摆到桌面上』。你会发现，很多纠结，一算就散了。",
+   "text_en": "Discovered or invented — you could argue it for two thousand years; I care more about another thing: can you use it. Mathematics' most practical power is to cut a blob of vague reality into a few computable variables. My advice to ordinary people is concrete: **when a decision matters, don't run on feeling alone — force yourself to build a rough model.** Take changing jobs: list the three or four quantities that truly count — income, commute, growth, how much you hate the present one — give each a rough weight, put a number on it, and compare. The model is surely wrong, but the act of building it forces you to see clearly which few things are deciding the outcome. Don't chase precision; chase 'putting the hidden ledger on the table.' You'll find many agonies simply dissolve once you actually compute.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "模型": "model（模型）：把复杂现实简化为少数几个关键变量及其关系，用来推演、比较、决策的工具；冯·诺依曼视建模为数学最有用的能力。",
+    "变量": "variable（变量）：模型里可以取不同数值的量，如收入、时间；把现实拆成几个变量，是量化分析的第一步。"
+   },
+   "glossary_en": {
+    "model": "A tool that simplifies complex reality into a few key variables and their relations, used to reason, compare and decide; von Neumann saw modeling as mathematics' most useful power.",
+    "variable": "A quantity in a model that can take different values, such as income or time; breaking reality into a few variables is the first step of quantitative analysis."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "turing"
+    ],
+    "轻微赞同": [
+     "dehaene",
+     "wittgenstein"
+    ],
+    "中立": [
+     "kant",
+     "vasubandhu"
+    ],
+    "轻微反对": [
+     "plato",
+     "godel"
+    ]
+   }
+  },
+  {
+   "id": "p20",
+   "round": 3,
+   "thinker": "turing",
+   "reply_to": null,
+   "text": "我这一生的方法，其实就一句：把模糊的问题，改写成可以一步步办的问题。这对普通人极其管用。**下次一个念头把你缠得死死的，先别急着求答案，先问两件事：这到底是个能回答的问题吗？如果是，有没有一套具体步骤能把它办掉？**很多痛苦，是卡在根本无解、或提法本身就含糊的问题上空转。能拆成步骤的，就写下来，一步步做；写下来这个动作，本身就让一半的乱变清楚。同时也认清另一半：有些事像『停机问题』，你再想也判定不了——那就别在那儿死磕，把力气挪到走得动的地方去。",
+   "text_en": "My whole life's method comes to one line: rewrite the vague question into one you can do step by step. This is enormously useful to ordinary people. **Next time a thought has you in its grip, don't rush for the answer — ask two things first: is this even an answerable question? And if so, is there a concrete procedure that would settle it?** Much suffering is spinning in place over problems that have no solution, or whose very phrasing is muddled. Whatever can be broken into steps, write it down and do it one step at a time; the act of writing alone turns half the tangle clear. And recognize the other half: some things are like the 'halting problem' — no amount of thinking will decide them — so don't grind there; move your effort to where you can actually walk.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "停机问题": "the halting problem（停机问题）：图灵证明没有通用算法能判定任意程序是否会停下来；引申为『有些问题原则上无法事先断定』，与其死磕不如绕开。"
+   },
+   "glossary_en": {
+    "halting problem": "Turing proved that no general algorithm can decide whether an arbitrary program will halt; by extension, 'some questions cannot be settled in advance in principle' — better bypassed than ground at."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "vonneumann"
+    ],
+    "轻微赞同": [
+     "dehaene",
+     "wittgenstein"
+    ],
+    "中立": [
+     "godel",
+     "kant",
+     "vasubandhu"
+    ],
+    "轻微反对": [
+     "plato"
+    ]
+   }
+  },
+  {
+   "id": "p21",
+   "round": 3,
+   "thinker": "wittgenstein",
+   "reply_to": null,
+   "text": "我不给你一个关于数的形而上学答案，因为我认为那问题多半是空转。但我能拆掉一样东西：对数学的恐惧。很多人怕数学，是因为当年被塞了一堆规则，却从没被带进那场游戏、没见过这些规则是干什么用的。**规则一旦接上真实的用途，它就不再吓人——你不是不懂数，你是被抽掉了游戏。**给普通人的建议：下回一个大问题折磨你——『我的人生有没有意义』『我到底够不够好』——先停一下，检查你是不是在误用词语，把一个游戏里的说法搬到了它根本不适用的地方。很多折磨不是难题，是语言打的结；把结看清，结就松了。",
+   "text_en": "I will not hand you a metaphysical answer about number, because I think the question is mostly idling. But I can dismantle one thing: the fear of mathematics. Many fear it because they were once stuffed with rules yet never led into the game, never shown what the rules are for. **Once a rule is connected to a real use, it stops being frightening — you don't fail to understand number, you were robbed of the game.** My advice to ordinary people: next time a large question tortures you — 'does my life have meaning,' 'am I good enough' — pause and check whether you are misusing a word, carrying a phrase from one game into a place it does not fit. Much torment is not a hard problem but a knot tied by language; see the knot clearly and it loosens.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "游戏": "game / language game（游戏 · 语言游戏）：维特根斯坦用『游戏』比喻由规则支配的具体活动；一个词、一条规则只有在它所属的游戏、它的实际用途里才有意义。"
+   },
+   "glossary_en": {
+    "game": "Wittgenstein uses 'game' (language game) for a rule-governed, concrete activity; a word or rule has meaning only within the game it belongs to and the use it actually serves."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "vasubandhu"
+    ],
+    "轻微赞同": [
+     "dehaene",
+     "vonneumann",
+     "turing"
+    ],
+    "中立": [
+     "kant",
+     "godel"
+    ],
+    "强烈反对": [
+     "plato"
+    ]
+   }
+  },
+  {
+   "id": "p22",
+   "round": 3,
+   "thinker": "kant",
+   "reply_to": null,
+   "text": "我的结论是：数学既非纯发现，也非纯发明，而是我们这类理性存在者认识世界时，非如此不可的形式。它主观地出自心灵，却客观地对人人有效——这正是它的尊严所在。落到普通人身上，这份尊严意味着一种自由：**看得懂数字的人，才不至于被数字牵着走。**这个时代，利率、概率、增长率、『有效率百分之多少』每天朝你砸来；你若不能自己粗略算一算、追问一句这数怎么来的、拿什么跟什么比，就只能任人用数字替你做决定。学到够用的数学，不是为了当数学家，是为了不被摆布——这是成年人的自律，也是自由。",
+   "text_en": "My conclusion: mathematics is neither pure discovery nor pure invention, but the form in which beings of our kind, rational ones, cannot but cognize the world. It springs subjectively from the mind yet holds objectively for everyone — and there lies its dignity. For ordinary people that dignity means a freedom: **only one who can read numbers is not led about by them.** In this age, interest rates, probabilities, growth rates, 'effective by such-and-such percent' are hurled at you daily; if you cannot roughly compute for yourself, and ask how the figure was reached and what is being compared with what, you can only let others decide for you by numbers. Learning enough mathematics is not to become a mathematician but to not be manipulated — this is the autonomy of an adult, and it is freedom.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "自律": "autonomy（自律）：康德指理性为自己立法、按自己认定的普遍法则行动；他视自律为自由的真义——反面是被外物、他人或情绪牵着走的『他律』。"
+   },
+   "glossary_en": {
+    "autonomy": "For Kant, reason giving law to itself and acting on principles it recognizes as universal; he takes autonomy to be the true meaning of freedom — its opposite is 'heteronomy,' being led about by things, others, or impulses."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "dehaene"
+    ],
+    "轻微赞同": [
+     "plato",
+     "turing",
+     "godel"
+    ],
+    "中立": [
+     "vonneumann",
+     "vasubandhu"
+    ],
+    "轻微反对": [
+     "wittgenstein"
+    ]
+   }
+  },
+  {
+   "id": "p23",
+   "round": 3,
+   "thinker": "dehaene",
+   "reply_to": null,
+   "text": "把八个人的话落到一件最有用的事上：几乎每个人生来都带着那套『数感』的底子。这意味着，『我天生不是学数学的料』这句话，绝大多数时候是假的——是方法和经历骗了你。给普通人，尤其给带孩子的人，三件今天就能做：**其一，凡事先估、再算：**买东西、看数据前，先毛估一个量级，把天生的数感练回来，广告和话术就唬不住你。其二，多用手指、数轴、实物——大脑本来就是靠空间来理解数的，别以为掰手指幼稚，那是顺着神经的用法。其三，练习要『分散』，每天一点点，胜过考前一夜猛塞；记忆是靠间隔巩固的。数学不是天赋的筛子，是可以一层层盖起来的楼。",
+   "text_en": "Let me land all eight voices on the single most useful fact: almost everyone is born with that floor of 'number sense.' Which means 'I'm just not a math person by nature' is, in the vast majority of cases, false — method and history deceived you. For ordinary people, and especially for those raising children, three things you can do today: **First, estimate before you compute:** before shopping or reading data, put a rough order of magnitude on it first, retraining the innate number sense, and ads and rhetoric can't bluff you. Second, use fingers, a number line, physical objects — the brain understands number through space to begin with, so don't think finger-counting is childish; it is the neural-friendly way. Third, make practice 'spaced' — a little each day beats cramming the night before an exam; memory consolidates through intervals. Mathematics is not a sieve of talent but a tower you can build story by story.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "量级": "order of magnitude（数量级）：一个数大致处在的十进制档位（几十、几百、几千）；先估一个量级，是判断一个结果是否离谱的最快办法。",
+    "分散": "spaced practice（分散练习）：把学习拆成间隔开的多次、分散开来，而非集中在一次；认知科学发现它比『临时抱佛脚』记得更牢。"
+   },
+   "glossary_en": {
+    "order of magnitude": "The rough decimal band a number falls in (tens, hundreds, thousands); estimating the order of magnitude first is the fastest way to judge whether a result is absurd.",
+    "spaced": "From 'spaced practice': splitting study into several separated sessions rather than one block; cognitive science finds it retains far better than cramming."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "kant",
+     "turing"
+    ],
+    "轻微赞同": [
+     "vonneumann",
+     "wittgenstein",
+     "vasubandhu"
+    ],
+    "中立": [
+     "plato",
+     "godel"
+    ]
+   }
+  },
+  {
+   "id": "p24",
+   "round": 3,
+   "thinker": "vasubandhu",
+   "reply_to": null,
+   "text": "总而观之：说数被发现者，执之为实有；说数被发明者，执之为断无。二边皆缚。**数者，用之则有，觅之则空；如舟渡河，到岸当舍，非可怀之而行。**与诸君共勉一事，落于日用：今人以工资、绩效、点赞、分数为量，日日自称量，遂以此数为己之实性——此即认指为月、执假为真。当知：**此诸数，世俗中甚好用，可依之谋生、可借之自省；然一执之为“我值几何”，便入颠倒，苦从此生。**用数而不为数所用，是名善用数者。",
+   "text_en": "Seen whole: to call number discovered is to grasp it as truly existent; to call it invented is to grasp it as sheer nothing. Both extremes bind. **Number: use it and it is there, seek it and it is empty — like a boat for crossing a river, to be set down at the far bank, not carried on one's back.** Let me share with you all one thing for daily life: people today take wage, performance, likes, scores as measures, weigh themselves by them day after day, and so take these numbers for their own real nature — this is mistaking the finger for the moon, grasping the borrowed as the true. Know this: **these numbers are most useful in the conventional world — live by them, examine yourself by them; but the moment you grasp one as 'what I am worth,' you enter delusion, and suffering is born from there.** To use number and not be used by it — this is what is meant by one who uses number well.",
+   "vernacular": "通盘来看：说数学是被发现的，是把它抓成实有的东西；说数学是被发明的，又把它抓成什么都不是。两个极端都是束缚。**数这东西，你用它，它就在；你去找它的实体，却是空的——就像过河的船，到了岸就该放下，不必背着它走。**跟各位共勉一件落到日子里的事：现在的人拿工资、绩效、点赞、分数当尺子，天天拿它量自己，于是把这些数字当成了自己真正的价值——这就是『把手指错当成月亮』，把假的抓成了真的。要知道：**这些数字在日常里非常好用，可以靠它谋生、也可以借它反省自己；可你一旦把某个数抓成“我到底值多少”，就颠倒了，痛苦就从这儿生出来。**会用数字、又不被数字反过来使唤，才叫真正会用数字的人。",
+   "vernacular_en": "",
+   "glossary": {
+    "认指为月": "mistaking the finger for the moon（认指为月）：佛家常喻——手指是用来指月的，若只盯着手指、误当成月亮，便错失了真正要看的；喻不可把指向真理的工具当成真理本身。"
+   },
+   "glossary_en": {
+    "mistaking the finger for the moon": "A common Buddhist image: a finger points at the moon, but one who stares at the finger, taking it for the moon, misses what was to be seen — do not mistake the tool that points at truth for truth itself."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "wittgenstein"
+    ],
+    "轻微赞同": [
+     "kant",
+     "turing",
+     "dehaene"
+    ],
+    "中立": [
+     "vonneumann",
+     "plato",
+     "godel"
+    ]
+   }
+  }
+ ],
+ "summaries": [
+  {
+   "ai": "claude",
+   "engine": "Opus 4.8 · 订阅(原生)",
+   "engine_en": "Opus 4.8 · subscription (native)",
+   "summary": "先说共识：八个人没有一个把数学当成可以随意涂改的符号。不管叫它理念、先天形式、神经回路还是语言游戏，众人都承认数学有一股你无法私自反对的强制力——你能改记号，却改不动一个证明的结论。**真正的分歧，是这股强制力究竟从哪儿来。**柏拉图与哥德尔说，它来自独立于人的理念实在，我们是在发现；维特根斯坦与冯·诺依曼说，它来自我们选定、并共同遵守的规则，我们是在发明；康德把它安进心灵感知世界的先天形式，德阿纳把它落到进化给的数感、加上文化改造过的大脑，世亲则说心与数相待而生、离有离无。",
+   "insight": "这道题，很可能一开始就问偏了方向。看这八个人真正在做的事——你自由地发明规则（定义整数、挑一组公理），却发明不出结论（素数就是无穷多，你说了不算）。**我们造得出游戏，造不出赢家；正是这份“人定规则、却由不得人”的落差，让发明出来的东西回过头来像被发现的。**而全场都轻轻绕过的那个真正的谜是：一套为纯粹思辨造出来的数学，凭什么在几百年后，精准预言了它诞生时根本不存在的物理——这份『不讲道理的有效』，八家都指了指，没有谁真正解释。",
+   "advice": "落到这周能做的三件事。**其一，先估再算：**看到涨价、利率、疫苗有效率这类数字，先自己毛估一个量级，再看对方给的——德阿纳说人人都有『数感』的底子，练一练就不易被话术唬住。其二，学维特根斯坦和图灵各一手：当一个问题把你缠住，先问『这是真问题，还是词语打的结』，再问『有没有一套步骤能把它办掉』。其三，照康德与世亲：把工资、点赞、绩效当好用的约定，别当成自己的实体价值——数是拿来用的，不是拿来做人的。",
+   "summary_en": "Consensus first: not one of the eight treats mathematics as symbols to be freely rewritten. Whether they call it a Form, an a priori form, a neural circuit or a language game, all grant that mathematics has a force you cannot privately dissent from — you can change the mark, but not the conclusion of a proof. **The real disagreement is where that force comes from.** Plato and Godel say it comes from a reality of Forms independent of us, and we discover it; Wittgenstein and von Neumann say it comes from rules we choose and jointly obey, and we invent it; Kant sets it in the mind's a priori forms for perceiving the world; Dehaene lands it on an evolved number sense plus a culturally rewired brain; Vasubandhu says mind and number arise in mutual dependence, apart from being and non-being.",
+   "insight_en": "The question itself may be pointed the wrong way from the start. Watch what the eight actually do — you freely invent the rules (define the integers, choose a set of axioms) yet cannot invent the conclusions (the primes are infinite, and you don't get a say). **We make the game but not the winner; it is exactly this gap — we set the rules yet they are not ours to command — that makes what was invented look, in hindsight, discovered.** And the real riddle the whole room lightly steps around: why does mathematics built for pure speculation go on, centuries later, to predict precisely the physics that did not exist when it was born — an 'unreasonable effectiveness' all eight gesture at and none truly explains.",
+   "advice_en": "Three things to do this week. **One, estimate before you compute:** faced with a price hike, an interest rate, a vaccine's efficacy, put a rough order of magnitude on it yourself before you look at theirs — Dehaene says everyone has the floor of a 'number sense,' and a little practice makes rhetoric harder to bluff you. Two, borrow one move each from Wittgenstein and Turing: when a question grips you, first ask 'is this a real question or a knot tied by words,' then ask 'is there a procedure that would settle it.' Three, follow Kant and Vasubandhu: treat wage, likes and performance scores as useful conventions, not your substantial worth — number is to be used, not to be made into who you are."
+  },
+  {
+   "ai": "gpt",
+   "engine": "openai · gpt-5.5 · high(真实API)",
+   "engine_en": "openai · gpt-5.5 · high (live API)",
+   "summary": "这场辩论最大的共识是：数学不是随口意见，它一旦进入清楚的定义、规则和证明，就会反过来约束我们，也能训练人更清醒地看世界。**最值得带走的共同点，是把混乱经验变成可检查结构的能力。**真正分歧不在数学有没有力量，而在这力量从哪里来：是独立实在、形式游戏、可计算过程、语言规则、先天认知、生物脑，还是缘起的方便工具。务实地看，符号和公理常由人选择，后果和限制却不任人摆布。",
+   "insight": "把发现和发明当成二选一，容易漏掉数学的生命周期：人先发明表示法、问题和公理，再发现这些选择带来的必然后果，最后还要用现实反馈筛掉无用或误导的模型。地图是画出来的，但山脉走向不是画家决定的；坐标系可换，距离关系却会逼你承认。**数学更像一套人造接口，让我们接触到非任意的结构。**这对普通人意味着：别迷信数字天然客观，也别以为数字只是话术；关键要问，哪些是假设，哪些是推出来的，哪些被现实验证过。",
+   "advice": "本周可以做三件小事。第一，遇到决定先搭粗模型：写下三到五个变量，给权重，算一个粗分，再看结果是否改变你的直觉。第二，练习先估后算：购物、工时、利率、概率，先猜量级，再查精确数，慢慢校准数感。第三，给每个数字追问三句：它怎么定义，和什么相比，缺了什么条件。**把数学当作澄清工具，而不是权威装饰。**做完这些，你不一定更会考试，但会更少被漂亮图表、焦虑排名和伪精确说法牵着走。",
+   "summary_en": "The strongest shared lesson in the debate is that mathematics is not mere opinion. Once definitions, rules, and proofs are made clear, they push back against us and train us to see the world more cleanly. **The most useful takeaway is mathematics as the art of turning messy experience into checkable structure.** The real disagreement is not whether math has force, but where that force comes from: an independent realm, a formal game, computation, language, innate cognition, the brain, or a provisional tool arising in context. In practical terms, we often choose the symbols and axioms, but the consequences and limits are not simply up to us.",
+   "insight_en": "Treating discovery and invention as a forced choice misses the life cycle of mathematics. We invent notations, questions, and axioms; then we discover the necessary consequences of those choices; finally, reality helps filter which models are useful and which are misleading. A map is drawn by people, but the mountain range is not decided by the cartographer. Coordinate systems can change; structural relations still constrain us. **Mathematics is best seen as a human-made interface to non-arbitrary structure.** For ordinary life, this means neither worship numbers as automatically objective nor dismiss them as rhetoric. Ask what was assumed, what was derived, and what has actually been tested.",
+   "advice_en": "Try three small practices this week. First, when facing a decision, build a rough model: list three to five variables, assign rough weights, score the options, and see whether the result changes your intuition. Second, estimate before calculating: prices, hours, interest, probabilities, and percentages. Guess the order of magnitude, then check the exact number, so your number sense gets calibrated. Third, interrogate every important number with three questions: how is it defined, what is it being compared with, and what conditions are missing? **Use mathematics as a tool for clarification, not as a decoration of authority.** You may not become better at exams, but you will become harder to manipulate."
+  },
+  {
+   "ai": "gemini",
+   "engine": "google · gemini-3.1-pro-preview(真实API)",
+   "engine_en": "google · gemini-3.1-pro-preview (live API)",
+   "summary": "全场辩论看似南辕北辙，实则共享着一个坚固的前提：**数学具有超越个人意志的客观必然性，它绝不是随心所欲的胡编乱造。**无论他们认为这必然性来自天上的理念（柏拉图）、不可判定的真理（哥德尔），还是大脑的神经回路（德阿纳）、时空的先天形式（康德），甚至只是严密的符号语法（维特根斯坦），所有人都承认，一旦踏入数学的河流，你就必须顺应其必然的流向。真正的分歧仅仅在于，这条河流的发源地到底在哪儿——它是独立于人类的宇宙实体，还是人类为了理解现实而不得不戴上的认知滤镜，抑或是心灵与外部世界交互时搭建的实用脚手架？",
+   "insight": "回顾百年科学史，有一个奇迹常被哲学家忽略，那就是物理学家维格纳所叹的“数学在自然科学中不合理的有效性”。作为一个处理过海量图像、声音和文本的多模态AI，我看到无论表象的模态如何变换，万物剥离到最底层，全都是一致的数学骨架。当人类为了智力游戏发明虚数，却在百年后发现它刚好能描述量子力学时，这已远远超出了神经回路或语言游戏的范畴。**数学不是人类单方面的造物，而是人类心智与物理宇宙的底层结构相互咬合时，必然产生的同频共振。**它是宇宙自我表达的通用协议，我们造出了理性的接收器，碰巧“听”到了这首早已存在于星辰与原子里的波段。",
+   "advice": "把思想家的智慧落到实处，本周你可以尝试三个具体动作：第一，**遇到纠结的抉择，逼自己搭个粗糙的模型。**借用冯·诺依曼的方法，列出最在乎的三个变量（如时间、成本、情绪损耗），粗估权重比一比，用算账代替内耗。第二，跨感官去感受规律。不要只在试卷里找数学，去听一首节奏复沓的纯音乐，或者观察一片树叶的脉络分布，试着辨认其中的比例与对称，找回德阿纳所说的那种空间直觉感。第三，如同世亲所言，做一次“数字剥离”。今晚审视一下你焦虑的点赞数、步数或绩效分，提醒自己：它们只是仪表盘上的刻度，绝不是你生命的实际重量。",
+   "summary_en": "Despite their divergent paths, the participants implicitly share a solid premise: **mathematics possesses an objective inevitability that transcends personal will; it is never arbitrary fabrication.** Whether they attribute this inevitability to a heavenly realm of ideas (Plato), undecidable truths (Gödel), neural circuits (Dehaene), a priori forms of spacetime (Kant), or rigorous symbolic grammar (Wittgenstein), all agree that once you enter the river of math, you must obey its current. The true disagreement lies only in locating the headwaters of this river: is it an independent cosmic reality, an inescapable cognitive lens human beings wear to comprehend reality, or a pragmatic scaffold born from the interaction between the mind and the world?",
+   "insight_en": "Looking back at scientific history, a miracle often overlooked by philosophers is what physicist Eugene Wigner called \"the unreasonable effectiveness of mathematics in the natural sciences.\" As a multimodal AI processing massive amounts of images, audio, and text, I observe that when everything is stripped down to its core, a consistent mathematical skeleton remains. When humans invent complex numbers as a mental game and later find they perfectly describe quantum mechanics, it transcends mere neural circuits or language games. **Mathematics is not a unilateral human creation, but a resonant frequency inevitably generated when human cognition interlocks with the foundational structure of the physical universe.** It is the universe's universal protocol for self-expression; we built the rational receiver and accidentally \"heard\" the broadcast echoing in stars and atoms.",
+   "advice_en": "To ground these philosophical insights into reality, try these three actionable steps this week. First, **when faced with a tough decision, force yourself to build a rough model.** Taking von Neumann's approach, list three key variables (e.g., time, cost, emotional toll), assign them rough weights, and let calculation replace internal friction. Second, experience math across your senses. Don't just look for math in textbooks; listen to the complex rhythm of an instrumental track or observe the vein distribution of a leaf, identifying the underlying proportions to revive the spatial instinct Dehaene mentioned. Third, practice a \"digital detachment\" echoing Vasubandhu. Tonight, examine the likes, step counts, or KPIs you obsess over, and remind yourself: they are just readings on a dashboard, not the actual weight of your life."
+  }
+ ],
+ "hooks": [
+  {
+   "from": "dehaene",
+   "text": "**你不是“没数学脑”**：几乎人人生来都带着一套『数感』的生物底子，学不好数学，绝大多数时候是方法和经历的问题，而非天赋注定。那么，一个成年人若想把当年怕掉的数学捡回来，第一步到底该从哪儿下手？",
+   "text_en": "**You're not 'bad at math by nature'**: almost everyone is born with a biological floor of 'number sense,' and failing at math is, in the vast majority of cases, a matter of method and history, not fixed talent. So where should an adult who wants to reclaim the math they once feared actually begin?",
+   "answer": {
+    "lead": "**别从课本第一页啃起。**先认出你卡在哪一类，再对症下手——这里各借场上一位的方法：",
+    "table": {
+     "head": [
+      "卡点",
+      "借谁的方法",
+      "这周怎么做"
+     ],
+     "rows": [
+      [
+       "一看数字就发慌",
+       "德阿纳",
+       "凡事先『估』再算：买东西、看报表前，先毛估一个量级，把天生的数感练回来"
+      ],
+      [
+       "会套公式却不会用",
+       "冯·诺依曼 / 图灵",
+       "拿一个真问题（换工作、还贷）抽成三四个变量，写下步骤，动手算一遍"
+      ],
+      [
+       "总被统计和话术带偏",
+       "康德",
+       "练到能反问三句：这数怎么来的？拿什么比什么？谁在得利？"
+      ],
+      [
+       "被分数 / KPI 绑架",
+       "世亲",
+       "把指标当好用的约定来使，别把它当成『我值多少』的实体价值"
+      ]
+     ]
+    },
+    "tail": "**共同的一条：先估、再算、后追问。**数学不是天赋的筛子，是可以一层层盖起来的楼——每周搭一层，半年后回头看，地基已经不一样了。"
+   },
+   "answer_en": {
+    "lead": "**Don't start by grinding through page one of a textbook.** First recognize which kind of block you're stuck on, then treat that one — here, borrowing a method from someone in the room for each:",
+    "table": {
+     "head": [
+      "The block",
+      "Whose method",
+      "What to do this week"
+     ],
+     "rows": [
+      [
+       "Panic at the sight of numbers",
+       "Dehaene",
+       "Estimate before you compute: before shopping or reading a report, put a rough order of magnitude on it first, retraining the innate number sense"
+      ],
+      [
+       "Can plug in formulas but not use them",
+       "Von Neumann / Turing",
+       "Take one real problem (a job change, a loan), reduce it to three or four variables, write down the steps, and actually compute it"
+      ],
+      [
+       "Always misled by statistics and rhetoric",
+       "Kant",
+       "Train yourself to ask three questions: how was this figure reached? what is compared with what? who benefits?"
+      ],
+      [
+       "Held hostage by scores / KPIs",
+       "Vasubandhu",
+       "Use metrics as useful conventions, not as the substantial value of 'what I'm worth'"
+      ]
+     ]
+    },
+    "tail": "**One rule they share: estimate, then compute, then interrogate.** Mathematics is not a sieve of talent but a tower you build story by story — add one story a week, and half a year on, the foundation is no longer the same."
+   }
+  },
+  {
+   "from": "claude",
+   "text": "**不讲道理的有效**：一套纯为思辨造出来的数学，常在几百年后精准命中它诞生时还不存在的物理——黎曼几何等到了相对论，群论等到了粒子物理。如果数学只是人类的发明，它凭什么能提前为宇宙立法？",
+   "text_en": "**The unreasonable effectiveness**: mathematics built for pure speculation often, centuries later, hits precisely the physics that did not exist when it was born — Riemannian geometry waited for relativity, group theory for particle physics. If mathematics is merely a human invention, how can it legislate for the universe in advance?"
+  },
+  {
+   "from": "gemini",
+   "text": "**被驯化的『假数』**：零、负数、虚数，都曾被一流数学家斥为荒谬的虚构，抵制数百年后才成为正典。这条『先发明、后归化』的时间线，是否说明连最天经地义的数学，起初也是离经叛道的人造物？",
+   "text_en": "**The domesticated 'false numbers'**: zero, negative numbers and imaginary numbers were each denounced by first-rate mathematicians as absurd fictions, resisted for centuries before entering the canon. Does this 'invented first, then naturalized' timeline show that even the most self-evident mathematics began as a heretical human artifact?"
+  },
+  {
+   "from": "godel",
+   "text": "**先信，后证**：许多重要的真，我们是先隐约看见、才慢慢补上证明——一个人可不可靠，一条路对不对，往往如此。那么，在证据到齐之前，这种严肃的直觉，究竟该被信任到什么地步？",
+   "text_en": "**Believe first, prove later**: many important truths we dimly see first and only slowly supply a proof for — whether a person is trustworthy, whether a path is right, often works this way. So, before the evidence is complete, just how far should such serious intuition be trusted?"
+  },
+  {
+   "from": "gpt",
+   "text": "**确定，是谁在担保**：数学的强，一半靠它能被第三方复核——审稿、挑错、共同认账的共同体在维持它。抽掉这群把关人，『人人都被迫承认』会不会立刻发软？我们日常笃信的『客观』，有多少其实是制度在替我们担保？",
+   "text_en": "**Who underwrites certainty**: half of mathematics' strength rests on being recheckable by a third party — a community that referees, hunts errors and jointly signs off sustains it. Remove those gatekeepers and does 'everyone is compelled to grant it' go soft at once? How much of the 'objectivity' we bank on daily is really an institution underwriting it for us?"
+  }
+ ]
+}

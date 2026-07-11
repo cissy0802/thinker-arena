@@ -7332,6 +7332,128 @@
    "lineage_en": "Intellectually he builds on Kunihiko Fukushima's 'Neocognitron' and on the backpropagation algorithm of Rumelhart and others, and did his postdoc under Hinton. At Bell Labs in the late 1980s he turned these ideas into a practical check-reading system; in 2013 he founded Meta's FAIR, and together with Bengio and Hinton lit the deep-learning wave of the 2010s, his students and collaborators now spread across AI academia and industry.",
    "trivia": "他的姓氏原写作『Le Cun』，为免英语读者误当中间名，后来连写成 LeCun。在 AT&T 期间，他还与同事共同发明了 DjVu 图像压缩格式，用于高效存储扫描文档。三位『深度学习教父』里，他以直率好辩、活跃于社交媒体、爱用工程现实给热潮泼冷水著称。",
    "trivia_en": "His surname was originally written 'Le Cun'; to keep English readers from mistaking 'Cun' for a middle name, he later joined it into 'LeCun.' While at AT&T he also co-invented the DjVu image-compression format for storing scanned documents efficiently. Of the three 'godfathers of deep learning,' he is the blunt, argumentative one — active on social media and fond of pouring engineering cold water on hype."
+  },
+  "godel": {
+   "bio": "1906–1978，出生于奥匈帝国布尔诺（今属捷克）的逻辑学家、数学家，二十世纪最伟大的逻辑学家，与亚里士多德并称。年轻时活跃于维也纳，与『维也纳学派』往来，却始终是坚定的柏拉图主义者。1931 年发表『不完备定理』，震动整个数学基础界。1940 年为躲避纳粹迁居美国，任普林斯顿高等研究院终身教授，与爱因斯坦结为至交。晚年患严重的被害妄想，惧怕被下毒；1978 年因拒绝进食、极度消瘦而去世。",
+   "bio_en": "1906–1978, a logician and mathematician born in Brno (then Austria-Hungary, now the Czech Republic), the greatest logician of the twentieth century, often ranked beside Aristotle. Active in his youth in Vienna and in contact with the 'Vienna Circle,' he remained nonetheless a committed Platonist. In 1931 he published his incompleteness theorems, shaking the entire field of the foundations of mathematics. In 1940, fleeing the Nazis, he moved to the United States as a permanent member of the Institute for Advanced Study in Princeton, where he became a close friend of Einstein. In later life he suffered severe persecutory delusions, fearing he would be poisoned; he died in 1978, refusing to eat and severely emaciated.",
+   "ideas": "哥德尔一生最著名的贡献，是 1931 年的『不完备定理』。在此之前，希尔伯特等人怀抱一个宏大的梦想：为全部数学找到一组稳固的公理，再用严格的机械规则，把所有真命题都证明出来——让数学变成一座地基完美、无懈可击的大厦。哥德尔用一个惊人的构造击碎了这个梦。\n他的核心手法叫『哥德尔编码』：把每一个数学命题、每一步证明，都编成一个独一无二的数字。这样一来，『某命题能否被证明』这种关于数学的问题，本身也变成了一道算术题，数学第一次能够谈论它自己。借此他造出了一个自指的命题，大意是『这句话在本系统内无法被证明』。你若能证明它，它就成了假的，系统就自相矛盾；你若证不出它，它恰恰说了实话——于是它是一个『真的、却无法证明』的命题。\n第一不完备定理由此断言：任何足够丰富、又不自相矛盾的形式系统，内部都必有真而不可证的命题。第二定理更釜底抽薪：这样的系统，连『我自己不会自相矛盾』这件事都无法在内部证明。这并不是说数学不可靠，而是说：真理，永远大于任何一套我们能写下的规则；证明能到达的地方，是有边界的。\n哥德尔本人从中读出的，是坚定的『数学柏拉图主义』：正因为真溢出了规则，数学对象必是独立于人心的实在，我们靠一种类似知觉的『数学直觉』去把握它。他还有两项杰作：证明了『选择公理』与『连续统假设』与现有数学不矛盾（后来科恩证明它们也无法被证明，二人合起来说明连续统假设『独立』于标准数学）；以及 1949 年为爱因斯坦的引力方程找到一个惊人的旋转宇宙解，其中时间可以绕回自身、原则上允许回到过去——他借此论证时间的『流逝』或许只是幻觉。",
+   "ideas_en": "Gödel's most famous contribution is the incompleteness theorems of 1931. Before them, Hilbert and others cherished a grand dream: to find, for all of mathematics, a firm set of axioms and, by strict mechanical rules, to prove every true statement — to make mathematics a building with a perfect, unassailable foundation. Gödel shattered that dream with a single astonishing construction.\nHis core device is now called 'Gödel numbering': he encoded every mathematical statement and every step of a proof as a unique number. At a stroke, questions about mathematics — such as 'can this statement be proved?' — themselves became arithmetic problems, and mathematics could, for the first time, talk about itself. With this he built a self-referential statement saying, in effect, 'this sentence cannot be proved within this system.' If you could prove it, it would be false and the system would contradict itself; if you could not, it would be telling the truth — and so it is a statement that is true yet unprovable.\nThe first incompleteness theorem thus asserts: any sufficiently rich and consistent formal system must contain statements that are true but unprovable within it. The second cuts deeper still: such a system cannot even prove its own consistency from within. This does not mean mathematics is unreliable; it means that truth is forever larger than any set of rules we can write down — that what proof can reach has a boundary.\nGödel himself read from this a firm 'mathematical Platonism': precisely because truth overflows the rules, mathematical objects must be a reality independent of the human mind, grasped through a perception-like 'mathematical intuition.' He achieved two other masterworks: he proved that the 'axiom of choice' and the 'continuum hypothesis' are consistent with existing mathematics (Cohen later proved they also cannot be proved, and together they showed the continuum hypothesis 'independent' of standard mathematics); and in 1949 he found a startling rotating-universe solution to Einstein's gravitational equations, in which time can loop back on itself and, in principle, allow a return to the past — from which he argued that the 'passage' of time may be only an illusion.",
+   "assessments": [
+    {
+     "by": "冯·诺依曼",
+     "text": "称哥德尔为亚里士多德以来最伟大的逻辑学家，认为其成就在逻辑史上无可替代。1931 年听闻不完备定理后，他随即中止了自己在相近方向的研究。"
+    },
+    {
+     "by": "爱因斯坦",
+     "text": "晚年曾说，自己之所以还愿意去研究院，多半是为了能有和哥德尔一起散步回家的殊荣。"
+    },
+    {
+     "by": "现代逻辑学界",
+     "text": "普遍视不完备定理为二十世纪数学与哲学的分水岭，深刻影响了可计算性理论、数学基础与心灵哲学。"
+    }
+   ],
+   "assessments_en": [
+    {
+     "by": "John von Neumann",
+     "text": "Called Gödel the greatest logician since Aristotle and held his achievement irreplaceable in the history of logic. On learning of the incompleteness theorem in 1931, he abandoned his own work in a nearby direction."
+    },
+    {
+     "by": "Albert Einstein",
+     "text": "Said in later years that his own work had by then meant little to him, and that he came to the Institute mainly for the privilege of walking home with Gödel."
+    },
+    {
+     "by": "Modern logicians",
+     "text": "Widely regard the incompleteness theorems as a watershed of twentieth-century mathematics and philosophy, deeply shaping computability theory, the foundations of mathematics and the philosophy of mind."
+    }
+   ],
+   "quotes": [
+    "任何一个能表达算术的、无矛盾的形式系统，都存在它证明不了的真命题。",
+    "要么数学大到人的心智无法容纳，要么人的心智不只是一台机器。（大意 / 据转述）",
+    "我不相信自然科学，但我相信数学。（大意 / 据转述）"
+   ],
+   "quotes_en": [
+    "In any consistent formal system able to express arithmetic, there are true statements it cannot prove.",
+    "Either mathematics is too big for the human mind, or the human mind is more than a machine. (paraphrased / as reported)",
+    "I don't believe in natural science, but I do believe in mathematics. (paraphrased / as reported)"
+   ],
+   "works": [
+    "《论〈数学原理〉及相关系统中形式不可判定的命题》（1931）",
+    "《连续统假设的一致性》（1940）",
+    "《罗素的数理逻辑》（1944）",
+    "《什么是康托尔的连续统问题？》（1947）",
+    "《广义相对论中的旋转宇宙》（1949）"
+   ],
+   "works_en": [
+    "On Formally Undecidable Propositions of Principia Mathematica and Related Systems (1931)",
+    "The Consistency of the Continuum Hypothesis (1940)",
+    "Russell's Mathematical Logic (1944)",
+    "What Is Cantor's Continuum Problem? (1947)",
+    "Rotating Universes in General Relativity (1949)"
+   ],
+   "lineage": "承接弗雷格、罗素以逻辑奠定数学的『逻辑主义』传统，又直接回应并瓦解了希尔伯特的形式主义纲领。在普林斯顿与爱因斯坦、冯·诺依曼、摩根斯特恩交往密切。其不完备定理深刻影响图灵的可计算性理论；连续统问题上的工作由保罗·科恩接续完成，二人共获这一问题『独立性』的结论。",
+   "lineage_en": "He inherited the 'logicist' tradition of Frege and Russell, who sought to ground mathematics in logic, and directly answered and undid Hilbert's formalist program. In Princeton he was close to Einstein, von Neumann and Morgenstern. His incompleteness theorems deeply shaped Turing's theory of computability; his work on the continuum problem was completed by Paul Cohen, the two together yielding its 'independence.'",
+   "trivia": "申请美国公民时，据说他认真研究了美国宪法，宣称发现其中有一个逻辑漏洞、足以让美国合法地变成独裁国家；陪同他出席入籍面试的爱因斯坦与摩根斯特恩一路担心他会当场对法官讲这套，险些坏事。他一生患严重的被害妄想与疑病症，只信任妻子阿黛尔为他做的饭；1978 年阿黛尔住院期间，他因拒绝进食而饿死，去世时体重仅约 30 公斤。",
+   "trivia_en": "When applying for U.S. citizenship, he is said to have studied the Constitution so seriously that he announced he had found a logical loophole that could legally turn America into a dictatorship; Einstein and Morgenstern, who accompanied him to the naturalization interview, worried the whole way that he would explain this to the judge and nearly ruin it. All his life he suffered severe persecutory delusions and hypochondria, trusting only the food his wife Adele prepared; in 1978, while Adele was hospitalized, he starved himself to death, weighing only about 30 kilograms at the end."
+  },
+  "dehaene": {
+   "bio": "1965 年生，法国认知神经科学家，法兰西公学院实验认知心理学讲席教授，NeuroSpin 脑成像中心认知神经影像团队负责人。早年受数学训练，后转向心理学，师从神经科学家让-皮埃尔·尚热与心理语言学家雅克·梅勒。他用行为实验与脑成像研究人脑如何处理数字、阅读与意识，是『数感』研究的开创者之一。著有《数感》《脑的阅读》《意识与大脑》《我们如何学习》等，皆为畅销科普。2018 年起主持法国国民教育科学委员会，推动以实证为据的教学改革。",
+   "bio_en": "Born 1965, a French cognitive neuroscientist, professor of experimental cognitive psychology at the Collège de France and head of the cognitive neuroimaging unit at the NeuroSpin brain-imaging center. Trained first in mathematics, he turned to psychology under the neuroscientist Jean-Pierre Changeux and the psycholinguist Jacques Mehler. Using behavioral experiments and brain imaging, he studies how the human brain processes number, reading and consciousness, and is a founder of research on the 'number sense.' His books — The Number Sense, Reading in the Brain, Consciousness and the Brain, How We Learn — are all popular-science bestsellers. Since 2018 he has chaired France's scientific council for national education, pressing for evidence-based teaching reform.",
+   "ideas": "德阿纳最核心的发现，是人类并非白纸一张地面对数字。他大量实验表明：出生几天的婴儿、乃至猴子和乌鸦，都能不数数就分辨『三个』和『五个』这样的粗略数量。这套与生俱来的能力叫『近似数量系统』，通俗地说就是『数感』，它主要落在大脑顶叶的一小片区域。数越接近就越难分辨（3 和 4 难，3 和 30 易），这被称作『距离效应』——它像是刻在神经里的一把模糊的尺。\n在此基础上，他提出了两个影响深远的观点。其一是『三重编码模型』：我们处理数字时，会在三种表征间切换——听说读写的语言符号（『七』）、纸面上的阿拉伯数码（『7』）、以及那把心里的、空间化的『数轴』（他发现人往往把小数放在左、大数放在右，即所谓 SNARC 效应）。其二，也是他最大胆的假说——『神经元回收』：像阅读、算术这样几千年前才出现的文化发明，来不及演化出专属脑区，于是『征用』了大脑里本为别的用途（如识别物体、感知空间）准备好的皮层，加以改造挪用。这解释了一个惊人的事实：全世界不同文字的读者，脑中负责识字的竟是同一小块区域。\n他把同样的思路推向意识研究，与尚热共同提出『全局神经工作空间』理论：一个信息之所以变成『你意识到了』，是因为它被广播到全脑、供各个系统共享；意识不是某个神秘火花，而是一次全脑范围的『点亮』与共享。\n这些研究还有一个温暖的现实指向：既然人人都带着数感的生物底子，学不好数学、读不好书，多半是教学方法与经历的问题，而非天生的定数。他因此大力倡导循证教育——重视注意力、主动参与、及时反馈与间隔复习这四大学习支柱。",
+   "ideas_en": "Dehaene's central finding is that humans do not face numbers as blank slates. His many experiments show that infants only days old — and monkeys and crows too — can tell 'three' from 'five' as rough quantities without counting. This innate capacity is the 'approximate number system,' or in plain terms the 'number sense,' and it sits mainly in a small region of the brain's parietal lobe. The closer two numbers are, the harder they are to tell apart (3 versus 4 is hard, 3 versus 30 easy), a 'distance effect' — like a blurry ruler etched into the nervous system.\nOn this base he advanced two far-reaching ideas. The first is the 'triple-code model': in handling numbers we switch among three representations — the spoken or written word ('seven'), the Arabic digit on the page ('7'), and an inner, spatial 'number line' (he found people tend to place small numbers on the left and large on the right, the so-called SNARC effect). The second, his boldest hypothesis, is 'neuronal recycling': cultural inventions such as reading and arithmetic, only a few thousand years old, had no time to evolve dedicated brain areas, so they 'commandeer' cortex prepared for other purposes (recognizing objects, sensing space) and repurpose it. This explains a striking fact: readers of utterly different scripts around the world use the very same small brain region to recognize written words.\nHe carried the same reasoning into the study of consciousness, proposing with Changeux the 'global neuronal workspace' theory: a piece of information becomes something 'you are conscious of' when it is broadcast across the whole brain to be shared by many systems; consciousness is not a mysterious spark but a brain-wide 'ignition' and sharing.\nThis research carries a warm practical implication: since everyone carries the biological floor of a number sense, failing at mathematics or reading is mostly a matter of method and history, not a fixed fate. He is therefore a strong advocate of evidence-based education, stressing the four pillars of learning — attention, active engagement, prompt feedback and spaced review.",
+   "assessments": [
+    {
+     "by": "认知科学界",
+     "text": "公认为数字认知与阅读神经科学的奠基人物之一，其『数感』与『神经元回收』框架被广泛引用，推动了『教育神经科学』这一交叉领域的成形。"
+    },
+    {
+     "by": "让-皮埃尔·尚热",
+     "text": "作为其师与长期合作者，与他共同发展『全局神经工作空间』理论，视其为把严谨实验带入意识研究的代表人物。"
+    },
+    {
+     "by": "科普读者",
+     "text": "其著作以清晰、实证、善用比喻著称，被广泛认为在弥合脑科学与日常教育、阅读之间做出了罕见贡献。"
+    }
+   ],
+   "assessments_en": [
+    {
+     "by": "The cognitive-science community",
+     "text": "Widely regarded as a founder of the neuroscience of numerical cognition and reading; his 'number sense' and 'neuronal recycling' frameworks are broadly cited and helped shape the interdisciplinary field of 'educational neuroscience.'"
+    },
+    {
+     "by": "Jean-Pierre Changeux",
+     "text": "His teacher and long-time collaborator, with whom he developed the 'global neuronal workspace' theory, regards him as an exemplar of bringing rigorous experiment into the study of consciousness."
+    },
+    {
+     "by": "Popular-science readers",
+     "text": "His books, known for clarity, evidence and apt metaphor, are widely held to make a rare contribution in bridging brain science with everyday education and reading."
+    }
+   ],
+   "quotes": [
+    "我们并非生来就是一张白纸——每个婴儿都带着一套粗略的『数感』来到世上。（大意）",
+    "阅读并没有专属的脑区；它是文化对一块本为别用的皮层的『回收』。（大意）",
+    "学得好不好，往往取决于注意力、主动参与、反馈与巩固这几件事，而非天赋。（大意）"
+   ],
+   "quotes_en": [
+    "We are not born blank slates — every infant arrives with a rough 'number sense.' (paraphrased)",
+    "Reading has no dedicated brain area; it is culture's 'recycling' of cortex meant for another use. (paraphrased)",
+    "How well we learn depends more on attention, engagement, feedback and consolidation than on talent. (paraphrased)"
+   ],
+   "works": [
+    "《数感：心智如何创造数学》（1997）",
+    "《脑的阅读：破解人类阅读之谜》（2009）",
+    "《意识与大脑》（2014）",
+    "《我们如何学习：为什么大脑胜过任何机器……至今》（2020）"
+   ],
+   "works_en": [
+    "The Number Sense: How the Mind Creates Mathematics (1997)",
+    "Reading in the Brain: The Science and Evolution of a Human Invention (2009)",
+    "Consciousness and the Brain (2014)",
+    "How We Learn: Why Brains Learn Better Than Any Machine... for Now (2020)"
+   ],
+   "lineage": "师承分子神经生物学家让-皮埃尔·尚热与心理语言学家雅克·梅勒，把行为实验与脑成像结合，接续并革新了数字认知与阅读的研究。其『神经元回收』与『全局神经工作空间』框架，成为教育神经科学与意识科学的重要参照，影响了一代认知神经科学研究者与循证教育改革。",
+   "lineage_en": "A pupil of the molecular neurobiologist Jean-Pierre Changeux and the psycholinguist Jacques Mehler, he fused behavioral experiment with brain imaging to continue and renew the study of numerical cognition and reading. His 'neuronal recycling' and 'global neuronal workspace' frameworks became key references for educational neuroscience and the science of consciousness, shaping a generation of cognitive-neuroscience researchers and evidence-based education reform.",
+   "trivia": "他最初主修数学，一次读到关于数字如何在大脑中表征的研究后转向心理学——一个研究『数从哪来』的人，自己正是从数学走进大脑的。他领导的 NeuroSpin 拥有世界上磁场最强的人脑磁共振设备之一。他也把研究直接带回课堂：主持法国国民教育科学委员会，推动依据认知科学证据改革识字与算术教学。",
+   "trivia_en": "He first majored in mathematics and turned to psychology after reading research on how numbers are represented in the brain — a man who studies 'where number comes from' came to the brain by way of mathematics himself. The NeuroSpin center he leads houses one of the world's most powerful magnetic-resonance machines for the human brain. He has also carried his research straight back to the classroom, chairing France's scientific council for national education to reform the teaching of literacy and arithmetic according to evidence from cognitive science."
   }
  }
 }

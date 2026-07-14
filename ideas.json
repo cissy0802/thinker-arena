@@ -218,15 +218,6 @@
       "cat": "meta"
     },
     {
-      "id": "ai-consciousness",
-      "votes": 1,
-      "q": "AI 有没有、或可能有意识？我们又凭什么判断？",
-      "q_en": "Does (or could) AI have consciousness — and how would we ever know?",
-      "note": "它能对答如流，但『灯是不是亮着』（有没有主观体验）？图灵测试只测行为，查尔莫斯的『难问题』问的是体验本身。它是真有感受，还是一具完美的哲学僵尸？我们连判断的标准都还没有。",
-      "note_en": "It converses fluently, but is 'the light on inside' (is there subjective experience)? The Turing test measures behavior; Chalmers's 'hard problem' asks about experience itself. Does it truly feel, or is it a perfect philosophical zombie? We don't even have a criterion to judge.",
-      "cat": "meta"
-    },
-    {
       "id": "nuclear-energy",
       "votes": 0,
       "q": "人类该不该大力发展核能？",
@@ -540,6 +531,15 @@
       "note": "招聘、相亲、镜头前，好看的人确有实打实的溢价（『颜值红利』）。这是该像投资技能一样经营的社会资本，还是一种该被抵制的、给人贴标签的不公？经济学（贝克尔、哈基姆的『情色资本』）对上正义论与女性主义。",
       "note_en": "In hiring, dating, and on camera, the good-looking enjoy a real premium ('pretty privilege'). Is this social capital to be cultivated like a skill, or an unjust, labeling advantage to be resisted? Economics (Becker, Hakim's 'erotic capital') meets theories of justice and feminism.",
       "cat": "ethics"
+    },
+    {
+      "id": "emotion-needs-body",
+      "votes": 0,
+      "q": "情绪是身体的事，还是头脑的事？——离开心跳、肠胃与荷尔蒙这些身体反应，还会有真正的喜怒哀乐吗？",
+      "q_en": "Is emotion a matter of the body or the head? — without a racing heart, a churning gut and hormones, could there still be real joy, anger or grief?",
+      "note": "詹姆斯说『先有身体反应，才有情绪』，达马西奥的『躯体标记』把感受落到内脏；可斯多葛与认知派说情绪本是判断、是想法。到底是身体先动、心随其后，还是反过来？练情绪，该练身体还是练念头？",
+      "note_en": "William James said the bodily reaction comes first and the emotion follows; Damasio’s “somatic markers” ground feeling in the viscera; yet the Stoics and cognitive theorists hold that emotion just is a judgment, a thought. Does the body move first and the mind follow, or the reverse? To train emotion, do you train the body or the thought?",
+      "cat": "self"
     }
   ],
   "debated": [
@@ -906,6 +906,13 @@
       "q_en": "Should we let our looks age naturally, or fight it with cosmetic work and anti-aging?",
       "date": "2026-07-13",
       "cat": "self"
+    },
+    {
+      "id": "ai-consciousness",
+      "q": "AI 有没有、或可能有意识？我们又凭什么判断？",
+      "q_en": "Does (or could) AI have consciousness — and how would we ever know?",
+      "date": "2026-07-14",
+      "cat": "meta"
     }
   ]
 }

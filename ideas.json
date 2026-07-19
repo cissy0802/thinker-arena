@@ -2,15 +2,6 @@
   "_comment": "议题投票数据。candidates=未辩候选(供投票)，debated=已辩(链到辩论)。投票免 GitHub 登录，存于自建后端(Cloudflare Worker + D1，见 ~/Desktop/cissy0802.github.io/engage-backend/)：每候选一个 poll，key='topic:'+id，choice up/down，净票=👍−👎。votes 字段由 routine 每次跑 `python3 refresh_votes.py`(读后端 /votes-net) 回写；页面 ideas.js 也会实时拉取覆盖显示。观众自提议题在评论 page='thinker-open-questions'，各候选下讨论 page='topic:'+id——routine 读这些把好提案提炼成新 candidates。新候选加进 candidates 即可。",
   "candidates": [
     {
-      "id": "duty-to-distant-strangers",
-      "votes": 0,
-      "q": "我们对远方陌生人的苦难，负有多大义务？",
-      "q_en": "How much do we owe the suffering of distant strangers?",
-      "note": "溺水孩童的思想实验、有效利他主义，对上『亲疏有别』的常识道德——义务有没有半径？",
-      "note_en": "Singer's drowning-child thought experiment and effective altruism against the common-sense morality of concentric circles — does obligation have a radius?",
-      "cat": "ethics"
-    },
-    {
       "id": "duty-to-earth",
       "votes": 0,
       "q": "我们对地球（其他物种、后代）负有怎样的义务？",
@@ -558,6 +549,24 @@
       "note": "阅历与事业哪个更经不起等？观众提案：趁体力、自由与好奇心最盛时去看世界，还是趁窗口期攒下复利般的事业资本——错过的那个，还补得回来吗？",
       "note_en": "Which can least afford to wait — experience or a career? An audience proposal: spend your peak of energy, freedom and curiosity seeing the world, or use the window to compound career capital — and can whichever you skip ever be recovered?",
       "cat": "life"
+    },
+    {
+      "id": "charity-vs-justice",
+      "votes": 0,
+      "q": "对远方的苦，我们首先该做的是慈善，还是先停止自己正在参与的伤害？",
+      "q_en": "Toward distant suffering, is our first duty charity — or to stop the harm we ourselves take part in?",
+      "note": "很多远方之苦不是天灾，而是我们从中获利的系统所造。止损（正义）与补偿（善心）该不该分个先后？",
+      "note_en": "Much distant suffering is no accident but the product of systems we profit from. Should stopping harm (justice) come before compensating for it (charity)?",
+      "cat": "ethics"
+    },
+    {
+      "id": "help-that-humiliates",
+      "votes": 0,
+      "q": "帮助会不会伤人？——居高临下的善意、救世主心态与依赖，如何避免？",
+      "q_en": "Can helping do harm? — condescending goodwill, the savior complex, and dependency.",
+      "note": "被帮的人不是等待拯救的空白容器。最好的帮助是不是让对方最终不再需要你？",
+      "note_en": "The person helped is not an empty vessel awaiting rescue. Is the best help the kind that makes itself, in the end, unneeded?",
+      "cat": "ethics"
     }
   ],
   "debated": [
@@ -959,6 +968,13 @@
       "q_en": "Are performance metrics and forced ranking (KPIs, stack-ranking) a motivator, or a poison?",
       "date": "2026-07-18",
       "cat": "work"
+    },
+    {
+      "id": "duty-to-distant-strangers",
+      "q": "我们对远方陌生人的苦难，负有多大义务？",
+      "q_en": "How much do we owe the suffering of distant strangers?",
+      "date": "2026-07-19",
+      "cat": "ethics"
     }
   ]
 }

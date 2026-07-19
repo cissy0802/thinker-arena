@@ -30,7 +30,7 @@ thinker-arena/
 ├── debate.html             单场辩论的聊天页（debate.html?d=<id>）
 ├── app.js                  辩论渲染器
 ├── style.css               暗色 Discord 主题
-├── thinkers.json           ★ 人设卡注册表（100+ 人 + 表态刻度定义）— 权威名单
+├── thinkers.json           ★ 人设卡注册表（150+ 人 + 表态刻度定义）— 权威名单
 ├── debates/
 │   ├── index.json          议题清单（索引页读它；新增辩论记得在这里登记一条）
 │   └── happiness.json      一场辩论 = 一个文件
@@ -45,7 +45,7 @@ thinker-arena/
 
 ## 一场辩论是怎么来的
 
-1. **选角（默认：智能选角 + 你确认）**：据议题从名册（100+ 人，以 `thinkers.json` 为准）里挑 **6–10 位**，原则——
+1. **选角（默认：智能选角 + 你确认）**：据议题从名册（150+ 人，以 `thinkers.json` 为准）里挑 **6–10 位**，原则——
    - **多样性优先**（跨传统 / 古今 / 学科，不让一派霸场）
    - **倾向于**纳入一个佛学视角与一个现代科学视角（若与议题相关；不限定具体是谁，也不强求）
    - **只从真实名册里选**：若某位很契合却没建卡，先提示「要不要加张卡」，不擅自虚构（首场就踩过——把没建卡的伊壁鸠鲁选了进来）
@@ -104,7 +104,7 @@ node summarize-external.mjs debates/<slug>.json
 
 ---
 
-## 花名册（以 `thinkers.json` 为准 · 现 100+ 人）
+## 花名册（以 `thinkers.json` 为准 · 现 150+ 人）
 
 新增思想家 = 往 `thinkers.json` 的 `thinkers` 数组加一个对象（`id/name/handle/school/era/region/char/color/fg/classical/system/tenets`）。`classical:true` 的，引擎会为其文言发言生成整段白话。
 

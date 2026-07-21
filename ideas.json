@@ -83,15 +83,6 @@
       "cat": "life"
     },
     {
-      "id": "cultural-homogenization",
-      "votes": 0,
-      "q": "全球化正在把世界磨成同一种模样——我们在失去文化多样性吗？这是进步，还是一种贫乏？",
-      "q_en": "Globalization is grinding the world into one shape — are we losing cultural diversity, and is that progress or an impoverishment?",
-      "note": "麦当劳、英语、同一套绩效与审美开到每个角落；方言、手艺、地方性的活法在消退。多样性本身有内在价值吗，还是只是怀旧？当『最优解』全球趋同，人类会不会也丢掉应对未知的韧性(就像单一作物易遭灭顶)？",
-      "note_en": "McDonald's, English, one metric of performance and taste reaching every corner, while dialects, crafts, and local ways of living fade. Does diversity have intrinsic value, or is it just nostalgia? As the 'optimal solution' converges worldwide, do humans also lose the resilience to face the unknown (as a monoculture crop is vulnerable to wipeout)?",
-      "cat": "meta"
-    },
-    {
       "id": "assisted-dying",
       "votes": 0,
       "q": "当病痛已无可挽回、本人清醒地请求结束，社会该不该允许安乐死与协助死亡？",
@@ -558,6 +549,15 @@
       "note": "被帮的人不是等待拯救的空白容器。最好的帮助是不是让对方最终不再需要你？",
       "note_en": "The person helped is not an empty vessel awaiting rescue. Is the best help the kind that makes itself, in the end, unneeded?",
       "cat": "ethics"
+    },
+    {
+      "id": "efficiency-vs-resilience",
+      "votes": 0,
+      "q": "凡事都追求『最优／高效』，是不是正在系统性地掏空我们的韧性？——冗余、备份、『暂时没用的多样』，该不该刻意保留？",
+      "q_en": "By chasing 'optimal' and 'efficient' in everything, are we systematically hollowing out our resilience? Should redundancy, backups, and 'currently useless' variety be deliberately kept?",
+      "note": "从供应链到个人生活，我们把冗余当浪费一路砍掉，换来风平浪静时的高效；可韧性恰恰藏在那些『用不上』的备份、多样与慢里。效率与韧性能不能兼得，还是终究得取舍？该在哪里刻意留白？",
+      "note_en": "From supply chains to personal life, we cut redundancy as waste and buy efficiency for calm times; yet resilience lives precisely in the backups, variety and slack that look 'useless.' Can efficiency and resilience coexist, or must we trade them off — and where should we deliberately leave slack?",
+      "cat": "meta"
     }
   ],
   "debated": [
@@ -973,6 +973,13 @@
       "q_en": "Does procrastination even need fixing? Deadlines are the ultimate motivator and the important stuff still ships — so is it really a flaw?",
       "date": "2026-07-20",
       "cat": "self"
+    },
+    {
+      "id": "cultural-homogenization",
+      "q": "全球化正在把世界磨成同一种模样——我们在失去文化多样性吗？这是进步，还是一种贫乏？",
+      "q_en": "Globalization is grinding the world into one shape — are we losing cultural diversity, and is that progress or an impoverishment?",
+      "date": "2026-07-21",
+      "cat": "meta"
     }
   ]
 }

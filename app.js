@@ -168,7 +168,7 @@
   };
   function bar() { return document.getElementById("ta-tts"); }
   function setActive(pid) {
-    document.querySelectorAll(".post.tts-active").forEach(function (el) { el.classList.remove("tts-active"); });
+    document.querySelectorAll(".tts-active").forEach(function (el) { el.classList.remove("tts-active"); });
     if (!pid) return;
     var el = document.getElementById(pid);
     if (el) { el.classList.add("tts-active"); el.scrollIntoView({ behavior: "smooth", block: "center" }); }
@@ -214,7 +214,8 @@
   }
   function attachAudioControls() {
     if (!window.__AUDIO) return;
-    __p.order = Array.prototype.map.call(document.querySelectorAll(".post"), function (el) { return el.id; })
+    // Playback order = posts in thread order, then the AI closers.
+    __p.order = Array.prototype.map.call(document.querySelectorAll(".post, .sum-card"), function (el) { return el.id; })
       .filter(function (id) { return window.__AUDIO[id]; });
     if (!__p.order.length) return;
     // click a post's speaker button → jump to that post
@@ -269,8 +270,11 @@
     if (!summaries || !summaries.length) return "";
     var cards = summaries.map(function (s) {
       var c = tk(s.ai);
-      return '<div class="sum-card"><div class="who">' + avatar(c, 36) +
-        '<div><div class="nm" style="color:' + c.color + '">' + esc(nameOf(c)) + "</div>" +
+      var aid = "ai-" + s.ai;
+      var abtn = (window.__AUDIO && window.__AUDIO[aid])
+        ? '<button class="tts-play" data-post="' + esc(aid) + '" title="朗读收尾" aria-label="朗读"><i class="ti ti-volume"></i></button>' : "";
+      return '<div class="sum-card" id="' + esc(aid) + '"><div class="who">' + avatar(c, 36) +
+        '<div><div class="nm" style="color:' + c.color + '">' + esc(nameOf(c)) + abtn + "</div>" +
         '<div class="eng">' + esc(pick(s, "engine") || "") + "</div></div></div>" +
         '<div class="sec-lbl"><i class="ti ti-list" style="font-size:14px"></i>' + T("summary") + "</div>" +
         '<div class="sec-txt">' + mdBold(esc(pick(s, "summary"))) + "</div>" +

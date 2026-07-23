@@ -278,3 +278,4 @@ html, body {
 .tts-play:hover{color:#5865f2;background:rgba(88,101,242,.14)}
 .post.tts-active{background:rgba(88,101,242,.09);box-shadow:inset 3px 0 0 #5865f2;border-radius:6px;transition:background .2s}
 @media(max-width:640px){.ta-tts .ta-time{display:none}.ta-tts .ta-seek{width:60px}}
+.sum-card.tts-active{box-shadow:inset 3px 0 0 #5865f2,0 0 0 1px rgba(88,101,242,.3);transition:box-shadow .2s}

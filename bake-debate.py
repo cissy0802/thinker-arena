@@ -15,8 +15,10 @@ DEFAULT = {"voice": "zh-CN-XiaoxiaoMultilingualNeural"}
 _th = json.load(open(REPO / "thinkers.json"))
 THINKERS = {t["id"]: t for t in (_th.get("thinkers") if isinstance(_th, dict) else _th)}
 FEMALE = {"arendt","beauvoir","nussbaum","sontag","carstensen","dweck","wood","wolf","boroditsky"}
-FEMALE_V = ["zh-CN-XiaochenMultilingualNeural","zh-CN-XiaoshuangMultilingualNeural","zh-CN-XiaoyouMultilingualNeural",
-            "zh-CN-XiaoyuMultilingualNeural","zh-CN-XiaohanNeural","zh-CN-XiaomengNeural","zh-CN-XiaoxiaoMultilingualNeural","zh-CN-XiaoyanNeural"]
+# NB: Xiaoshuang / Xiaoyou are Azure's CHILD voices — excluded so no thinker
+# or AI closer sounds like a kid. Pool is adult/mature female voices only.
+FEMALE_V = ["zh-CN-XiaochenMultilingualNeural","zh-CN-XiaoxiaoMultilingualNeural","zh-CN-XiaoyuMultilingualNeural",
+            "zh-CN-XiaoruiNeural","zh-CN-XiaohanNeural","zh-CN-XiaomoNeural","zh-CN-XiaoyanNeural","zh-CN-XiaozhenNeural"]
 MALE_CN = ["zh-CN-YunyeNeural","zh-CN-YunzeNeural","zh-CN-YunjianNeural","zh-CN-YunfengNeural","zh-CN-YunhaoNeural",
            "zh-CN-YunyangNeural","zh-CN-YunxiNeural","zh-CN-YunjieNeural","zh-CN-YunxiaNeural"]
 MALE_MU = ["zh-CN-YunyiMultilingualNeural","zh-CN-YunfanMultilingualNeural","zh-CN-YunxiaoMultilingualNeural"]

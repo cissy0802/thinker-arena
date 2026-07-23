@@ -1,0 +1,980 @@
+{
+  "id": "shareholder-or-stakeholder",
+  "question": "公司到底该对谁负责——只对股东，还是也对员工与社会？",
+  "question_en": "Whom does a company answer to — only its shareholders, or also its workers and society?",
+  "date": "2026-07-23",
+  "participants": [
+    "friedman",
+    "adamsmith",
+    "drucker",
+    "sandel",
+    "piketty",
+    "weber",
+    "buffett",
+    "xunzi"
+  ],
+  "casting": [
+    {
+      "id": "friedman",
+      "reason": "他把立场立到最硬：在自由社会里，企业只有一项社会责任——在守法的游戏规则内为股东增加利润。经理是股东的代理人，拿股东的钱去做自定的『公益』，等于未经同意的征税、僭越政府。要行善，让股东用自己的分红去做；把公司变成对人人负责的对象，等于对谁都不负责。",
+      "reason_en": "He states it at its hardest: in a free society a business has one social responsibility — to increase profits for its shareholders within the lawful rules of the game. A manager is the shareholders' agent, and to spend their money on causes of his own choosing is a tax without consent that usurps government. If you want to do good, let shareholders do it with their own dividends; make the company answerable to everyone and it is answerable to no one."
+    },
+    {
+      "id": "adamsmith",
+      "reason": "他为一个被误读的中道辩护。看不见的手是真的——面包师出于自利却增进公益；但他另写《道德情操论》，坚持市场须以正义为承重柱、以同情为底座。放任自利而无正义，商人算计的头一件事往往是合谋欺瞒公众。他讲的自由，从来是被正义围起来的自由。",
+      "reason_en": "He defends a misread middle way. The invisible hand is real — the baker serves the public good out of self-love; yet he also wrote The Theory of Moral Sentiments, insisting the market rests on justice as its load-bearing pillar and on sympathy as its base. Left to self-interest without justice, the first thing merchants calculate is how to conspire against the public. The liberty he preached was always a liberty fenced by justice."
+    },
+    {
+      "id": "drucker",
+      "reason": "他要把记分牌和比赛分开。利润是企业存续的条件，不是它的目的；企业存在只为在外部创造顾客、创造价值。只会念『股东回报最大化』的公司，其实答不出自己在为世界做什么，最终连股东也留不住。在他看来，管理者真正的天职，是先问对『我们的事业究竟是什么』。",
+      "reason_en": "He separates the scoreboard from the game. Profit is a condition of a firm's survival, not its purpose; a business exists only to create a customer and create value on the outside. A company that can only chant 'maximize shareholder return' cannot say what it does for the world and will not keep even its shareholders. For him, a manager's true calling is to ask, rightly, 'what is our business?'"
+    },
+    {
+      "id": "sandel",
+      "reason": "他质疑把『股东价值最大化』当成唯一的语言。一旦所有事都只能用市场逻辑定价，很多东西便在被定价的同时被腐蚀——安全、尊严、信任皆然。市场是好仆人、坏主人。他要为『有些关系不该拿来出价』守住底线，因为这关乎我们想成为怎样的共同体。",
+      "reason_en": "He questions making 'shareholder value maximization' the only language we speak. Once everything can be priced by market logic alone, much is corrupted in the very act of being priced — safety, dignity, trust alike. Markets are good servants and bad masters. He holds the line that some relationships should never be put up for a price, because it bears on what kind of community we want to be."
+    },
+    {
+      "id": "piketty",
+      "reason": "他把问题拉回结构与数据。过去四十年正是『股东至上』成为教条的四十年，也是劳动收入份额下滑、资本回报走高的四十年。当资本回报率长期高于增长率（r>g），把公司盈余尽数定义为『股东的』，就会自动、持续地把财富从劳动搬向资本。他主张透明、累进税与让劳动者进董事会。",
+      "reason_en": "He pulls the question back to structure and data. The last forty years — the decades in which 'shareholder primacy' became doctrine — are also the decades in which the labor share fell and the return on capital rose. When the return on capital stays above the growth rate (r > g), defining all of a firm's surplus as 'the shareholders'' moves wealth automatically and continuously from labor to capital. He calls for transparency, progressive taxation, and workers on the board."
+    },
+    {
+      "id": "weber",
+      "reason": "他先把问题问准。现代公司是一部理性化的科层机器，其『精神』曾有宗教根源，如今却可能沉为只认工具理性的『铁笼』。『只对股东负责』之所以显得天经地义，只因它是笼中最好计算的目标。他要追问的是：我们该让哪一种价值理性来驱动这只笼子——合法性从不只靠账本。",
+      "reason_en": "He gets the question right first. The modern corporation is a rationalized bureaucratic machine whose 'spirit' once had a religious root and may now settle into an 'iron cage' that knows only instrumental rationality. 'Answerable only to shareholders' looks self-evident merely because it is the goal easiest to calculate inside the cage. What he presses is which value rationality we let drive it — legitimacy never rested on the ledger alone."
+    },
+    {
+      "id": "buffett",
+      "reason": "他用大白话讲实务。他替股东打工，但真为股东好，是买下看得懂的好生意、挖宽护城河、长期持有；而护城河最深的一条是声誉——赔钱可以理解，坏了名声绝不轻饶。把顾客当傻子宰、把员工当耗材榨，短期财报好看，长期信任却被烧光。在他看来，善待人不是慈善，是最划算的生意。",
+      "reason_en": "He talks practice in plain words. He works for shareholders, but truly serving them means buying good businesses you understand, digging a wide moat, and holding for the long haul — and the deepest part of that moat is reputation: lose money and he'll understand, ruin the firm's name and he won't forgive. Fleece customers and burn through employees and the quarter looks good while long-term trust goes up in smoke. For him, treating people well isn't charity; it's the best deal going."
+    },
+    {
+      "id": "xunzi",
+      "reason": "他从人性入手。人天生好利，逐利乃常情，不独商贾为然；故治企业不可恃人之善意，须以礼法节之。义与利人人皆有，连尧舜也去不掉求利之心，但能使其不压过好义之心。放纵逐利而无礼法之防，则争、则乱、则穷；唯有明分使群，各止其分、上下相养，方能长久。",
+      "reason_en": "He begins from human nature. People are born loving gain, and the pursuit of profit is the norm, merchants no exception; so a firm cannot be governed by trusting goodwill but must be curbed by ritual and law. Righteousness and profit dwell in everyone — not even the sage-kings could remove the desire for gain, only keep it from overpowering the love of right. Indulge the chase for profit with no dam of ritual and law and there is contention, disorder, want; only by clarifying roles so each keeps his station and high and low sustain one another can it endure."
+    }
+  ],
+  "posts": [
+    {
+      "id": "p01",
+      "round": 1,
+      "thinker": "friedman",
+      "reply_to": null,
+      "text": "让我把话说清楚：在一个自由社会里，**企业只有一项社会责任——在遵守游戏规则的前提下，运用资源、增加利润。**经理是股东雇来的代理人，公司的钱是股东的钱。他拿股东的钱去做他自以为的『社会公益』，等于未经同意就征税，既僭越了政府，也背叛了委托。慈善是股东自己拿分红去做的事，不是经理花别人的钱替自己买好名声的舞台。把目标定成『对所有人负责』，等于对谁都不负责。",
+      "text_en": "Let me be clear: in a free society, **a business has one and only one social responsibility — to use its resources to increase its profits, so long as it stays within the rules of the game.** A manager is an agent hired by the shareholders; the company's money is their money. When he spends it on what he personally deems 'the social good,' he is levying a tax without consent — usurping government and betraying his trust. Charity is what shareholders do with their own dividends, not a stage for a manager to buy himself a good name with other people's money. Make the goal 'answerable to everyone,' and you are answerable to no one.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "代理人": "principal-agent（委托-代理）：现代公司里所有权与经营权分离，股东（委托人）雇经理（代理人）替自己经营；代理人应以委托人利益为准。弗里德曼据此认定经理无权拿股东的钱去行自己认定的公益。"
+      },
+      "glossary_en": {
+        "agent": "In the modern corporation, ownership and control are separated: shareholders (principals) hire managers (agents) to run the firm on their behalf; the agent is bound to serve the principal's interest — which is why Friedman denies a manager any right to spend shareholders' money on causes of his own choosing."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "buffett"
+        ],
+        "中立": [
+          "weber"
+        ],
+        "轻微反对": [
+          "adamsmith",
+          "drucker"
+        ],
+        "强烈反对": [
+          "piketty",
+          "sandel"
+        ],
+        "疑惑": [
+          "xunzi"
+        ]
+      }
+    },
+    {
+      "id": "p02",
+      "round": 1,
+      "thinker": "adamsmith",
+      "reply_to": null,
+      "text": "我常被人拿去当自由放任的招牌，可你们只读了半本我。看不见的手是真的——面包师并非出于仁慈给你面包，而是出于自利；但我另写过一整本《道德情操论》：**市场这座大厦，是盖在正义这根承重柱上的，抽掉它，社会顷刻碎为齑粉。**同情、旁观者的目光、彼此的信任，才是交易得以进行的前提。一个忘了道德根基、只顾自利的商人，是在锯自己坐着的那根树枝。自由市场从不等于道德真空。",
+      "text_en": "People love to make me the mascot of laissez-faire, but you have read only half of me. The invisible hand is real — the baker gives you bread not out of kindness but out of self-love; yet I also wrote a whole book, The Theory of Moral Sentiments: **the great edifice of the market is built upon justice as its load-bearing pillar, and pull it out, and society crumbles to dust in an instant.** Sympathy, the gaze of the impartial spectator, mutual trust — these are the preconditions that let any exchange happen at all. A merchant who forgets the moral foundation and minds only his own gain is sawing off the branch he sits on. A free market was never the same thing as a moral vacuum.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "看不见的手": "invisible hand（看不见的手）：斯密的著名比喻——个人在市场中追逐自利，经由分工与竞争的协调，往往非出本意地增进了公共福祉。",
+        "旁观者": "impartial spectator（公正的旁观者）：斯密伦理学的核心，指我们心中一个不偏不倚的想象观察者；我们借他的眼光审视自己的行为是否得体，良知由此而来。"
+      },
+      "glossary_en": {
+        "invisible hand": "Smith's famous image: individuals pursuing self-interest in the market, coordinated by the division of labor and competition, often advance the public good without intending to.",
+        "impartial spectator": "The core of Smith's ethics: an unbiased imagined observer within us, through whose eyes we judge whether our own conduct is fitting; conscience arises from him."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sandel"
+        ],
+        "轻微赞同": [
+          "drucker",
+          "weber",
+          "piketty"
+        ],
+        "中立": [
+          "buffett",
+          "xunzi"
+        ],
+        "轻微反对": [
+          "friedman"
+        ]
+      }
+    },
+    {
+      "id": "p03",
+      "round": 1,
+      "thinker": "drucker",
+      "reply_to": null,
+      "text": "弗里德曼把记分牌当成了比赛本身。**利润不是企业的目的，而是它存续的条件——就像呼吸之于人，不呼吸会死，但没人是为了呼吸而活。**企业存在的目的只有一个：在外部创造顾客、创造价值。一家只会念叨『股东回报最大化』的公司，其实根本不知道自己是干什么的；它会为了下季度的财报砍掉研发、榨干员工，最后连股东也一起坑了。管理是一门关乎人与成果的实践，问对『我们的事业究竟是什么』，比背诵利润公式重要得多。",
+      "text_en": "Friedman has mistaken the scoreboard for the game itself. **Profit is not the purpose of a business but the condition of its survival — like breathing to a person: stop and you die, yet no one lives in order to breathe.** A business exists for one purpose only: to create a customer and create value on the outside. A company that can only chant 'maximize shareholder return' does not actually know what it is for; it will cut research and wring out its people to make next quarter's numbers, and in the end shortchange the shareholders too. Management is a practice about people and results, and asking rightly 'what is our business?' matters far more than reciting a profit formula.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "sandel"
+        ],
+        "轻微赞同": [
+          "buffett",
+          "adamsmith",
+          "weber"
+        ],
+        "中立": [
+          "xunzi"
+        ],
+        "轻微反对": [
+          "friedman"
+        ],
+        "疑惑": [
+          "piketty"
+        ]
+      }
+    },
+    {
+      "id": "p04",
+      "round": 1,
+      "thinker": "sandel",
+      "reply_to": null,
+      "text": "问题不在利润本身，而在我们让『股东价值最大化』成了唯一的语言。**一旦所有事都只能用市场逻辑来定价，很多东西就在被定价的同时被腐蚀了。**当一家公司把安全、把员工的尊严、把社区的信任都折算成可交易的成本项，它买到的服从里，早已杀死了它本想要的忠诚与荣誉感。市场是好仆人、坏主人。真正该问的不是『这样赚钱合不合算』，而是『有些关系，是不是根本就不该拿来出价』——这关乎我们想成为怎样的共同体。",
+      "text_en": "The trouble is not profit itself, but that we have let 'shareholder value maximization' become the only language we speak. **Once everything can be priced by market logic alone, many things are corrupted in the very act of being priced.** When a firm converts safety, the dignity of its workers, and the trust of a community into tradeable line-items, the compliance it buys has already killed the loyalty and honor it was really after. Markets are good servants and bad masters. The question worth asking is not 'does this pay?' but 'are there relationships that should never be put up for a price at all?' — and that is a question about what kind of community we want to be.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "股东价值最大化": "shareholder value maximization（股东价值最大化）：主张公司经营的唯一目标是提升股东的股权价值（股价加分红）的信条，1970 年代后成为英美企业主流；桑德尔批评它把本不属市场的善也一并卷入估价，从而侵蚀之。"
+      },
+      "glossary_en": {
+        "shareholder value maximization": "The creed that a company's sole aim is to raise the equity value of its shareholders (share price plus dividends), dominant in Anglo-American business since the 1970s; Sandel argues it draws non-market goods into market pricing and thereby corrupts them."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "weber"
+        ],
+        "轻微赞同": [
+          "drucker",
+          "piketty",
+          "xunzi"
+        ],
+        "中立": [
+          "adamsmith"
+        ],
+        "轻微反对": [
+          "buffett"
+        ],
+        "强烈反对": [
+          "friedman"
+        ]
+      }
+    },
+    {
+      "id": "p05",
+      "round": 1,
+      "thinker": "piketty",
+      "reply_to": null,
+      "text": "让我们看数据，而不是看信条。过去四十年，正是『股东至上』成为教条的四十年，也正是发达经济体里**劳动收入份额持续下滑、资本回报一路走高的四十年。**这不是巧合。我梳理三百年的财富数据，得出一条规律：当资本回报率长期高于经济增长率（即 r>g），财富就会自动向食利者集中，不平等自我放大。把公司的全部盈余都定义为『股东的』，只是一个分配选择，却被包装成中性的『效率』。**回购推高股价、劳动者却分不到，这台机器正在把社会撕开。**",
+      "text_en": "Let us look at the data, not the creed. The last forty years — precisely the decades in which 'shareholder primacy' became doctrine — are also the decades in which **the labor share of income kept falling while the return on capital climbed.** That is no coincidence. From three centuries of wealth data I drew one law: when the rate of return on capital stays above the growth rate of the economy (r > g), wealth concentrates automatically in the hands of rentiers and inequality amplifies itself. To define all of a firm's surplus as 'the shareholders'' is merely a distributional choice dressed up as a neutral 'efficiency.' **Buybacks lift the share price while workers get none of it — this machine is tearing society apart.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "r>g": "r > g（资本回报率高于增长率）：皮凯蒂《21 世纪资本论》的核心不等式——当资本的年回报率长期高于经济增长率，靠资本吃饭的人财富增速就快过靠劳动吃饭的人，财富与不平等便自我累积、代代放大。",
+        "劳动收入份额": "labor share（劳动收入份额）：国民收入中以工资形式分给劳动者的比例（其余归资本）；该份额在多数发达国家近数十年持续下降，是不平等扩大的关键指标。"
+      },
+      "glossary_en": {
+        "r > g": "Piketty's central inequality in Capital in the Twenty-First Century: when the annual return on capital stays above the growth rate of the economy, those who live on capital see their wealth grow faster than those who live on labor, so wealth and inequality accumulate and amplify across generations.",
+        "labor share": "The portion of national income distributed to workers as wages (the rest going to capital); this share has fallen steadily across most developed countries in recent decades, a key indicator of widening inequality."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sandel"
+        ],
+        "轻微赞同": [
+          "weber",
+          "xunzi"
+        ],
+        "中立": [
+          "drucker",
+          "adamsmith"
+        ],
+        "轻微反对": [
+          "buffett"
+        ],
+        "强烈反对": [
+          "friedman"
+        ]
+      }
+    },
+    {
+      "id": "p06",
+      "round": 1,
+      "thinker": "weber",
+      "reply_to": null,
+      "text": "我想先把问题问准。现代公司是一部理性化的科层机器，它最初的『精神』甚至有宗教根源——新教伦理把勤勉逐利圣化为天职。可当那层意义脱落，剩下的就是我所说的**『铁笼』：一套只认工具理性、为效率而效率、不再追问为何的冷机器。**所以『只对股东负责』之所以听来天经地义，是因为它是笼中最容易计算的那个目标。真正的问题不是公司该不该有价值，而是：我们要让哪一种价值理性来驱动这只笼子？合法性从来不只靠账本。",
+      "text_en": "Let me first get the question right. The modern corporation is a rationalized bureaucratic machine, and its original 'spirit' even had a religious root — the Protestant ethic sanctified diligent gain as a calling. But once that layer of meaning falls away, what remains is what I called **the 'iron cage': a cold apparatus that knows only instrumental rationality, efficiency for its own sake, no longer asking why.** 'Answerable only to shareholders' sounds self-evident precisely because it is the most easily calculated goal inside the cage. The real question is not whether a company should have values, but which value rationality we let drive the cage. Legitimacy never rested on the ledger alone.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "铁笼": "iron cage / stahlhartes Gehäuse（铁笼）：韦伯的著名意象——资本主义精神一旦脱去宗教理想，就固化为一套自我运转的理性化秩序，人被囚在追逐效率的机制里，身不由己。",
+        "工具理性": "Zweckrationalität / instrumental rationality（工具理性）：只计算『用什么手段最有效达成给定目标』的理性；它不追问目标本身值不值，韦伯视之为现代性的主导逻辑。",
+        "价值理性": "Wertrationalität / value rationality（价值理性）：以某种终极价值或信念本身为目的的理性行动，即便不划算也去做，因为它『应当』；与工具理性相对。"
+      },
+      "glossary_en": {
+        "iron cage": "Weber's famous image: once the spirit of capitalism sheds its religious ideal, it hardens into a self-running rationalized order in which people are trapped, against their will, in the machinery of chasing efficiency.",
+        "instrumental rationality": "Reasoning that calculates only 'which means most efficiently achieves a given end'; it does not ask whether the end itself is worth it. Weber saw it as the dominant logic of modernity.",
+        "value rationality": "Action oriented to some ultimate value or conviction as an end in itself — done because it 'ought' to be, even when it does not pay; the counterpart to instrumental rationality."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sandel"
+        ],
+        "轻微赞同": [
+          "xunzi",
+          "drucker",
+          "adamsmith"
+        ],
+        "中立": [
+          "piketty",
+          "buffett"
+        ],
+        "轻微反对": [
+          "friedman"
+        ]
+      }
+    },
+    {
+      "id": "p07",
+      "round": 1,
+      "thinker": "buffett",
+      "reply_to": null,
+      "text": "我就说点大白话。我替伯克希尔的股东打工，这话我认。可怎么才叫真为股东好？是买下看得懂的好生意、给它挖一条又宽又深的护城河，然后几十年不撒手。**而护城河里最深的一条，是名声——赔钱我还能理解，坏了声誉我绝不轻饶。**你把顾客当傻子宰、把员工当耗材榨，短期财报是好看了，可你亲手把长期的信任烧了。为下季度每股收益去回购、去砍研发的人，不是价值投资者，是在拆自家的房子当柴烧。**善待人不是慈善，是最划算的生意。**",
+      "text_en": "Let me put it plainly. I work for Berkshire's shareholders — I'll own that. But what does it actually mean to serve them well? It means buying good businesses you understand, digging a moat around them that's wide and deep, and then not letting go for decades. **And the deepest part of that moat is reputation — lose money for the firm and I can understand it; lose a shred of the firm's reputation and I will be ruthless.** Treat customers like marks to be fleeced and employees like fuel to be burned, and the quarter looks great while you set fire to the trust it took years to build. A man who buys back stock and cuts research to hit next quarter's earnings per share is no value investor — he's tearing up his own house for firewood. **Treating people well isn't charity; it's the best deal going.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "护城河": "moat（护城河）：巴菲特用语，指一家企业能长期抵御竞争、维持高回报的结构性优势（品牌、网络、成本、转换成本等）；护城河越宽，利润越可持续。"
+      },
+      "glossary_en": {
+        "moat": "Buffett's term for a firm's structural advantage that lets it fend off competition and sustain high returns over the long run (brand, network, cost, switching costs, and so on); the wider the moat, the more durable the profit."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "adamsmith"
+        ],
+        "轻微赞同": [
+          "drucker",
+          "friedman"
+        ],
+        "中立": [
+          "weber",
+          "xunzi",
+          "piketty"
+        ],
+        "轻微反对": [
+          "sandel"
+        ]
+      }
+    },
+    {
+      "id": "p08",
+      "round": 1,
+      "thinker": "xunzi",
+      "reply_to": null,
+      "text": "人之性恶，其善者伪也。人生而好利，逐利乃性之常，非独商贾为然。**故不可恃人之善意以治企业，犹不可恃水之自清而饮之也；必以礼法节之，使欲不穷乎物、物不屈于欲。**义与利者，人之所两有也，虽尧舜不能去民之欲利，然能使其欲利不克其好义。企业纵欲逐利而无礼法之防，则争，争则乱，乱则穷。明分使群，各止其分，上下相养，斯可久矣。",
+      "text_en": "Human nature is bad; whatever good appears in it is the work of deliberate effort. People are born loving gain, and the pursuit of profit is the constant of our nature — merchants are not unique in this. **So one cannot govern a company by trusting in people's goodwill, any more than one can drink water by trusting it to clear itself; it must be curbed by ritual and law, so that desire is not exhausted by things nor things exhausted by desire.** Righteousness and profit both dwell in everyone; not even the sage-kings Yao and Shun could rid the people of their desire for gain — yet they could keep that desire from overpowering the love of what is right. A firm that indulges the chase for profit with no dam of ritual and law falls to contention; contention breeds disorder; disorder breeds want. Only by clarifying roles and shares, so each keeps to his station and high and low sustain one another, can it endure.",
+      "vernacular": "人性本是趋恶的，那些善的表现，是后天人为矫正出来的。人一生下来就好利，逐利是本性的常态，不只是商人如此。**所以不能指望靠人的善意去治理企业，就像不能指望水自己会变清就直接舀来喝；必须用礼法来节制它，让欲望不被物质耗尽、物质也不被欲望榨干。**『义』和『利』，是人人身上都并存的两样东西，连尧舜也没法去掉百姓求利之心，但能让这份求利之心不压过好义之心。企业若放纵逐利、又没有礼法这道防线，就会相争，相争就生乱，生乱就走向匮乏。把名分、职分划分清楚，让每个人各守本分、上下彼此供养，这样才能长久。",
+      "vernacular_en": "",
+      "glossary": {
+        "性恶": "xìng è / bad human nature（性恶）：荀子的核心主张——人天生趋向好利争夺，善并非天性，而是靠后天的礼法教化『化性起伪』矫正出来的。",
+        "礼法": "lǐ fǎ / ritual and law（礼法）：荀子主张的制度化规范——『礼』确立名分与秩序、『法』予以强制，二者共同节制人的欲望，使群体得以合作而不乱。",
+        "明分使群": "míng fēn shǐ qún（明分使群）：荀子的社会理论——人力不如牛马却能驾驭它们，靠的是能结成分工协作的『群』；而群之所以不乱，全在『明分』即厘清各人的名分与职分。"
+      },
+      "glossary_en": {
+        "Human nature is bad": "Xunzi's core thesis: people are born inclined to seek gain and to contend; goodness is not innate but is achieved by the later shaping of ritual and law.",
+        "ritual and law": "The institutionalized norms Xunzi advocates: 'ritual' establishes roles and order while 'law' enforces them; together they curb human desire so the group can cooperate without disorder.",
+        "clarifying roles and shares": "Xunzi's social theory: human strength is less than an ox's, yet we master oxen because we can form cooperating groups; the group avoids disorder only by 'clarifying roles' — fixing each person's station and duty."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "weber"
+        ],
+        "轻微赞同": [
+          "friedman",
+          "adamsmith"
+        ],
+        "中立": [
+          "drucker",
+          "buffett"
+        ],
+        "轻微反对": [
+          "sandel"
+        ],
+        "疑惑": [
+          "piketty"
+        ]
+      }
+    },
+    {
+      "id": "p09",
+      "round": 2,
+      "thinker": "friedman",
+      "reply_to": "p05",
+      "text": "皮凯蒂，你把分配和生产搅成了一锅。**公司的活是把蛋糕做大，分蛋糕是国家用税收和法律该干的事——让企业去替政府搞再分配，等于让没人选出来的经理去定谁该得多少，两头都办砸。**你嫌 r>g，那就去改税制，别来绑架董事会。至于『利益相关者』，听着很美，可当一个经理要同时对股东、员工、社区、地球负责，他就谁也不必真正负责了——因为任何决定都能找到一个高尚的借口。责任一旦弥散，就等于消失。",
+      "text_en": "Piketty, you have stirred distribution and production into one pot. **A company's job is to make the cake bigger; slicing the cake is the state's job, through taxes and law — send the firm to do the government's redistribution and you let unelected managers decide who deserves what, and botch both.** You dislike r > g? Then reform the tax code; don't hijack the board. As for the 'stakeholder,' it sounds lovely, but when a manager must answer at once to shareholders, employees, the community and the planet, he need truly answer to no one — any decision can be dressed in a noble excuse. Once responsibility is diffused, it disappears.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "利益相关者": "stakeholder（利益相关者）：与企业经营有利害关系的各方——股东、员工、顾客、供应商、社区乃至环境；利益相关者理论主张公司应对这些群体共同负责，弗里德曼反驳说对所有人负责等于对谁都不负责。"
+      },
+      "glossary_en": {
+        "stakeholder": "Any party with a stake in how a company is run — shareholders, employees, customers, suppliers, communities, even the environment; stakeholder theory holds a company answerable to all of them, which Friedman counters by saying that answering to everyone means answering to no one."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "buffett"
+        ],
+        "中立": [
+          "adamsmith",
+          "weber"
+        ],
+        "轻微反对": [
+          "drucker"
+        ],
+        "强烈反对": [
+          "piketty",
+          "sandel"
+        ],
+        "疑惑": [
+          "xunzi"
+        ]
+      }
+    },
+    {
+      "id": "p10",
+      "round": 2,
+      "thinker": "piketty",
+      "reply_to": "p09",
+      "text": "『把蛋糕做大再谈分配』——这套说辞我听了三十年，蛋糕确实大了，可多出来的几乎全进了顶端那一小撮的口袋。**你所谓中性的『效率』，本身就是一套关于该由谁拿走盈余的政治选择，只是它把自己伪装成了自然规律。**税收当然要改，可别忘了工资是在公司内部就被压下去的——等它到了税务局，分配早已尘埃落定。德国的共同决定制让工人进董事会，照样撑起强大的工业，这说明『唯股东』根本不是效率的铁律，而是一种可以改写的权力安排。",
+      "text_en": "'Grow the cake first, talk distribution later' — I have heard this line for thirty years; the cake did grow, but almost all of the extra went into the pockets of a sliver at the top. **Your so-called neutral 'efficiency' is itself a political choice about who gets to take the surplus, merely disguised as a law of nature.** Of course taxes must change — but remember that wages are held down inside the firm; by the time income reaches the tax office, the distribution is already settled. Germany's co-determination puts workers on the board and still sustains a powerful industry, which shows that 'shareholders only' is no iron law of efficiency but an arrangement of power that can be rewritten.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "共同决定制": "Mitbestimmung / co-determination（共同决定制）：德国的公司治理制度，法律规定大企业的监事会须有一定比例的劳方代表（大型公司可达半数），让员工在重大决策上有正式发言权；常被用来证明『唯股东』并非效率的唯一解。"
+      },
+      "glossary_en": {
+        "co-determination": "Germany's corporate-governance system, in which law requires a set share of worker representatives on a large firm's supervisory board (up to half in the biggest companies), giving employees a formal voice in major decisions; often cited to show 'shareholders only' is not the sole efficient arrangement."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sandel"
+        ],
+        "轻微赞同": [
+          "weber",
+          "xunzi"
+        ],
+        "轻微反对": [
+          "buffett",
+          "adamsmith"
+        ],
+        "强烈反对": [
+          "friedman"
+        ]
+      }
+    },
+    {
+      "id": "p11",
+      "round": 2,
+      "thinker": "sandel",
+      "reply_to": "p07",
+      "text": "巴菲特，你说善待人是『最划算的生意』，我恰恰要在这儿踩一脚刹车。**当我们只能用『因为它划算』来为体面辩护时，体面本身就已经被悄悄掏空了。**你今天善待员工，是因为它有利于声誉；那么当有一天算盘打下来、亏待他们更赚钱呢？把一切美德都还原成利益的工具，就等于承认：只要价钱够高，出卖它们就是理性的。有些事该做，不是因为它划算，而是因为不这么做就是错的——这句话，市场的语言永远说不出口。",
+      "text_en": "Buffett, you say treating people well is 'the best deal going' — and this is exactly where I want to tap the brakes. **When the only way we can defend decency is 'because it pays,' decency itself has already been quietly hollowed out.** You treat employees well today because it helps your reputation; so what happens the day the math flips and mistreating them pays more? To reduce every virtue to an instrument of profit is to concede that, at a high enough price, selling them out is the rational thing. Some things should be done not because they pay but because not doing them is simply wrong — and that is a sentence the language of markets can never speak.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "weber"
+        ],
+        "轻微赞同": [
+          "xunzi",
+          "piketty"
+        ],
+        "中立": [
+          "adamsmith",
+          "drucker"
+        ],
+        "轻微反对": [
+          "buffett"
+        ],
+        "强烈反对": [
+          "friedman"
+        ]
+      }
+    },
+    {
+      "id": "p12",
+      "round": 2,
+      "thinker": "buffett",
+      "reply_to": "p11",
+      "text": "桑德尔，你这一脚刹车踩得对，我得认。**声誉的道理，只在你真心把它当目的、而不是手段时才成立——一个纯为算计而装好人的人，市场早晚闻得出那股味。**我不是说凡事都能被长期利益摆平；确实有些时候，做对的事就是要你掏钱、没有回报。那种时候，就照你说的做，因为它是对的。我只是想告诉那些一门心思盯着短期的人：在绝大多数日子里，正派和赚钱其实是同一条路——别把这难得的巧合也给挥霍了。",
+      "text_en": "Sandel, that's a fair brake, and I'll take it. **The logic of reputation only holds when you truly treat it as an end, not a means — a man who plays nice purely out of calculation, the market eventually smells it on him.** I'm not claiming long-term interest squares every circle; there really are times when doing the right thing simply costs you money with no payback. In those moments, do as you say — do it because it's right. I only want to tell the folks fixated on the short term that on the overwhelming majority of days, decency and profit run down the same road — don't squander even that rare coincidence.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "adamsmith"
+        ],
+        "轻微赞同": [
+          "drucker",
+          "sandel"
+        ],
+        "中立": [
+          "weber",
+          "friedman",
+          "xunzi"
+        ],
+        "疑惑": [
+          "piketty"
+        ]
+      }
+    },
+    {
+      "id": "p13",
+      "round": 2,
+      "thinker": "drucker",
+      "reply_to": "p01",
+      "text": "弗里德曼，你把记分牌错当成了比赛。**一家公司若只会说『我们为股东赚钱』，它其实答不出自己到底在为这个世界做什么——而答不出这一问的组织，连股东也留不住。****利润是效果的检验，不是目的的替身。**西尔斯、通用汽车的衰落，不是因为不够爱股东，恰恰是因为太爱、以至于忘了先去创造顾客、创造价值。管理者真正的天职，是先问对『我们的事业究竟是什么』；把这一问让位给每股收益，是把方向盘交给了后视镜。",
+      "text_en": "Friedman, you have mistaken the scoreboard for the game. **A company that can only say 'we make money for shareholders' cannot actually answer what it does for the world — and an organization that can't answer that question won't even keep its shareholders.** **Profit is the test of performance, not a stand-in for purpose.** Sears and General Motors declined not because they loved shareholders too little but precisely because they loved them too much, and so forgot to create a customer and create value first. A manager's true calling is to ask, rightly, 'what is our business?' To cede that question to earnings per share is to hand the wheel to the rear-view mirror.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "sandel"
+        ],
+        "轻微赞同": [
+          "weber",
+          "adamsmith",
+          "piketty"
+        ],
+        "中立": [
+          "buffett",
+          "xunzi"
+        ],
+        "轻微反对": [
+          "friedman"
+        ]
+      }
+    },
+    {
+      "id": "p14",
+      "round": 2,
+      "thinker": "adamsmith",
+      "reply_to": "p01",
+      "text": "弗里德曼常引我，我却要与他划清一道界。我确曾写下：**同行的人聚在一起，谈话往往以合谋对付公众、抬高价格收场。**可见任由自利而无正义之约束，商人算计的头一件事，往往正是如何欺瞒公众。我讲的自由，从来是以正义为篱笆的自由——法律须防止强者以欺诈与胁迫害人，然后市场才配称良善。把我读成『利润至上、道德无关』的人，是撕掉了我书的另一半。看不见的手，需要一只看得见的正义之手替它扶着栏杆。",
+      "text_en": "Friedman is fond of quoting me, so let me draw a line between us. I did write: **people of the same trade seldom meet together, but the conversation ends in a conspiracy against the public, or in some contrivance to raise prices.** Left to self-interest with no restraint of justice, the very first thing merchants calculate is how to deceive the public. The liberty I preached was always a liberty fenced by justice — the law must prevent the strong from harming others by fraud and coercion, and only then does the market deserve to be called benign. Whoever reads me as 'profit first, morality irrelevant' has torn out the other half of my book. The invisible hand needs a visible hand of justice to steady it at the rail.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "sandel"
+        ],
+        "轻微赞同": [
+          "drucker",
+          "weber",
+          "piketty",
+          "xunzi"
+        ],
+        "中立": [
+          "buffett"
+        ],
+        "轻微反对": [
+          "friedman"
+        ]
+      }
+    },
+    {
+      "id": "p15",
+      "round": 2,
+      "thinker": "weber",
+      "reply_to": "p08",
+      "text": "荀子，我们隔着两千年却握到了同一处：都不信善意能自动成事，都把希望寄托在制度上。**但我要给你的礼法添一句警告：规则一旦只剩下冷冰冰的强制、丢了它当初赖以立身的那点意义，笼子照样会把人锁死。**新教伦理起初是滚烫的信仰，后来沉淀成纯粹的科层与合规，勤勉还在、灵魂已走。所以光靠礼法节欲还不够，得时时追问这套规矩到底为何而立、由谁来立——否则你我合力打造的，可能只是一座更精密的铁笼。",
+      "text_en": "Xunzi, two thousand years apart we have grasped the same handle: neither of us trusts goodwill to get things done on its own, and both of us pin our hopes on institutions. **But let me add a warning to your ritual and law: once a rule is reduced to cold compulsion and loses the meaning it first stood on, the cage will lock people in all the same.** The Protestant ethic began as a scalding faith and later settled into pure bureaucracy and compliance — the diligence remained, the soul had left. So curbing desire by ritual and law is not enough; one must keep asking what these rules are for and who gets to make them — or what you and I built together may be only a more finely engineered iron cage.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "xunzi"
+        ],
+        "轻微赞同": [
+          "sandel",
+          "adamsmith"
+        ],
+        "中立": [
+          "drucker",
+          "buffett",
+          "piketty"
+        ],
+        "轻微反对": [
+          "friedman"
+        ]
+      }
+    },
+    {
+      "id": "p16",
+      "round": 2,
+      "thinker": "xunzi",
+      "reply_to": "p09",
+      "text": "弗里德曼谓责散则责亡，此见其一而未见其二。**分不明则争，责不定则诿，然定责非独归股东一人之谓也——礼者，正是明分使群、使各止其分而并行不悖之术。**天下未有恃一主独专而能久安者。使股东擅其利、劳者食其力、乡邑受其惠，各有分、各有责，如四体之从心，岂相妨哉？子徒忧责之散，而不知无礼以别之，则虽独尊股东，其争亦不能止。",
+      "text_en": "Friedman says that once responsibility scatters it vanishes; he sees one side and misses the other. **Where roles are unclear there is contention, where duty is unfixed there is buck-passing — but 'to fix duty' does not mean assigning it to shareholders alone. Ritual is precisely the art of clarifying roles and organizing the group, so each keeps to his station and all proceed without collision.** Under heaven nothing endures long by letting one master monopolize everything. Let shareholders have the gain that is theirs, laborers eat by their strength, and the community share in the benefit — each with a station, each with a duty, like the four limbs obeying the heart; how would they obstruct one another? You fear only that duty is diffused, and do not see that without ritual to distinguish roles, even enthroning the shareholder alone will not stop the contention.",
+      "vernacular": "弗里德曼说责任一分散就等于消失，这只看到一面、没看到另一面。**名分不清才会相争，责任不定才会推诿；可是『把责任定下来』并不等于只归给股东一个人——『礼』恰恰就是厘清名分、组织群体，让各方各守本分、并行而不冲突的办法。**天下从没有靠一个主子独占一切还能长治久安的。让股东得其应得之利、劳动者凭力气吃饭、社区乡里也受其恩惠，各有名分、各担其责，就像四肢听从心的指挥，怎么会互相妨碍呢？你只担心责任分散，却不知道：没有礼来区分名分，那么就算独尊股东，相争照样停不下来。",
+      "vernacular_en": "",
+      "glossary": {
+        "明分使群": "míng fēn shǐ qún（明分使群）：荀子的社会理论——厘清各人的名分与职分（明分），群体才能既分工协作又不陷于争夺；他以此说明秩序来自制度性的『分』，而非各方的善意。"
+      },
+      "glossary_en": {
+        "clarifying roles and organizing the group": "Xunzi's social theory: only by fixing each person's role and duty can a group both cooperate through a division of labor and avoid falling into strife; order comes from an institutional 'division,' not from anyone's goodwill."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "weber"
+        ],
+        "轻微赞同": [
+          "sandel",
+          "adamsmith",
+          "drucker"
+        ],
+        "中立": [
+          "buffett"
+        ],
+        "轻微反对": [
+          "friedman"
+        ],
+        "疑惑": [
+          "piketty"
+        ]
+      }
+    },
+    {
+      "id": "p17",
+      "round": 3,
+      "thinker": "friedman",
+      "reply_to": null,
+      "text": "听完各位，我依旧不改立场，但愿把它说得更准：**企业最好的社会贡献，是在公正而透明的游戏规则内，把生意做到极致——利润是它对社会有用的证明，不是它的原罪。**桑德尔担心的腐蚀、皮凯蒂痛心的不公，真正的解药是更好的规则和税法，而不是让经理们凭良心即兴治国。给普通人的三条实话：一，别指望公司当慈善家，它把东西做好做便宜，就已经在帮你；二，你的力量在两处——用选票去改规则，用钱包去赏罚企业；三，想行善，就拿你自己的钱和时间去做，那才干净、才真正是你的选择。",
+      "text_en": "Having heard everyone, I do not budge, but let me state it more precisely: **a company's best contribution to society is to do business superbly within fair and transparent rules of the game — profit is the proof that it is useful to society, not its original sin.** The corruption Sandel dreads and the injustice Piketty laments are cured by better rules and tax law, not by letting managers govern the country by improvised conscience. Three plain truths for ordinary people: first, don't expect a company to be a philanthropist — when it makes things good and cheap, it is already helping you; second, your power lies in two places — use your vote to change the rules and your wallet to reward or punish firms; third, if you want to do good, do it with your own money and time — that is clean, and truly your choice.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "轻微赞同": [
+          "buffett"
+        ],
+        "中立": [
+          "adamsmith",
+          "weber"
+        ],
+        "轻微反对": [
+          "drucker",
+          "xunzi"
+        ],
+        "强烈反对": [
+          "piketty",
+          "sandel"
+        ]
+      }
+    },
+    {
+      "id": "p18",
+      "round": 3,
+      "thinker": "adamsmith",
+      "reply_to": null,
+      "text": "两百年过去，我仍要为一个被误解的中道辩护：**市场与道德不是敌人，而是一副担子的两头——自利让世界运转，正义与同情让它不至于把人碾碎。**弗里德曼要规则，桑德尔要良知，其实缺一不可：规则约束你不敢做的，良知约束规则管不到的。给普通人的话：做那个『审慎又正直』的人——审慎让你善待自己的利益，正直让你在没人看见时也不去占人便宜。信誉是穷人也攒得起的资本，一次守信、一次不欺，日拱一卒，终成你最厚的护身符。心里养一个公正的旁观者，凡事先问他一句：换我是对方，我服不服气？",
+      "text_en": "Two centuries on, I still defend a misunderstood middle way: **market and morality are not enemies but the two ends of one carrying-pole — self-interest keeps the world turning, justice and sympathy keep it from grinding people to dust.** Friedman wants rules, Sandel wants conscience; in truth neither can be spared: rules restrain what you dare not do, conscience restrains what rules cannot reach. To ordinary people: be the person who is 'prudent and just' — prudence to tend your own interest well, justice never to take advantage of another even when no one is watching. Good name is capital even the poor can accumulate: one kept promise, one refusal to cheat, a step a day, until it becomes your thickest armor. Keep an impartial spectator in your breast, and before each act ask him: if I were the other party, would I accept this?",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "sandel",
+          "drucker"
+        ],
+        "轻微赞同": [
+          "buffett",
+          "weber",
+          "xunzi"
+        ],
+        "中立": [
+          "piketty"
+        ],
+        "轻微反对": [
+          "friedman"
+        ]
+      }
+    },
+    {
+      "id": "p19",
+      "round": 3,
+      "thinker": "drucker",
+      "reply_to": null,
+      "text": "我一生只教人问一个问题：**你的事业究竟是什么？——先答对『我为谁创造了什么价值』，利润会作为结果尾随而来，而不是相反。**对股东负责与对社会负责，在一家管理良好的公司里本不矛盾：持续地为顾客创造价值，正是股东回报最可靠的来源；把员工当成本去砍的公司，砍掉的其实是自己的未来。给普通人的可操作建议：无论你是打工还是带团队，本周做三件事——写下你的岗位真正为谁产出了什么『成果』；砍掉一件忙碌却不产生价值的事；给你服务的那个『顾客』当面要一次反馈。把自己活成一个对成果负责的人，而不是对考勤负责的人。",
+      "text_en": "All my life I taught people to ask one question: **what is your business, really? — answer first 'for whom have I created what value,' and profit will follow as a result, not the other way around.** Answering to shareholders and answering to society do not conflict in a well-managed firm: creating value for customers, continuously, is the most reliable source of shareholder return; a company that treats its people as a cost to be cut is cutting its own future. Actionable advice for ordinary people: whether you are an employee or lead a team, do three things this week — write down what 'results' your role truly produces and for whom; cut one busy task that creates no value; ask the 'customer' you serve for one piece of feedback face to face. Live as a person accountable for results, not one accountable to the time-clock.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "buffett",
+          "sandel"
+        ],
+        "轻微赞同": [
+          "adamsmith",
+          "weber",
+          "xunzi"
+        ],
+        "中立": [
+          "piketty"
+        ],
+        "轻微反对": [
+          "friedman"
+        ]
+      }
+    },
+    {
+      "id": "p20",
+      "round": 3,
+      "thinker": "sandel",
+      "reply_to": null,
+      "text": "我的结论只有一句：**别再让『这只是生意』成为一切对话的终点——它是一句让我们停止追问『什么才是对的』的咒语。**公司当然要盈利，但一个健康的社会，得为『有些东西不能标价』守住底线：安全、尊严、真话、彼此的信任。给普通人的建议：其一，在职场遇到『按规定、按市场就该如此』时，多追一句『那这样对吗？谁在承担代价？』；其二，把你的消费和求职，当成小小的一票，投给那些没把人当工具的公司；其三，在你能影响的小共同体里——一个团队、一个小区——试着用『我们想成为怎样的人』来做一次决定，而不是只算成本收益。**道德这块肌肉，越用才越有力。**",
+      "text_en": "My conclusion is a single line: **stop letting 'it's just business' be the end of every conversation — it is a spell that makes us stop asking what is right.** Of course a company must earn a profit, but a healthy society must hold a line that 'some things should not be priced': safety, dignity, the truth, mutual trust. Advice for ordinary people: first, when you meet 'the rules, the market, say so' at work, press one more question — 'but is it right? who bears the cost?'; second, treat your spending and your job search as a small vote, cast for firms that do not treat people as tools; third, in the small community you can influence — a team, a neighborhood — try making one decision by asking 'what kind of people do we want to be' rather than only cost and benefit. **The moral muscle grows stronger only with use.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "weber",
+          "xunzi"
+        ],
+        "轻微赞同": [
+          "drucker",
+          "piketty",
+          "adamsmith"
+        ],
+        "中立": [
+          "buffett"
+        ],
+        "轻微反对": [
+          "friedman"
+        ]
+      }
+    },
+    {
+      "id": "p21",
+      "round": 3,
+      "thinker": "piketty",
+      "reply_to": null,
+      "text": "把话收回到结构上：**只对股东负责之所以危险，不是因为股东贪婪，而是因为在 r>g 的世界里，这套规则会自动、持续地把财富从劳动搬向资本，直到社会绷断。**指望个别老板发善心救不了大局，能救的是制度：透明、累进税、让劳动者进董事会。给普通人的三条：其一，别只站在劳动这一边挨碾——用指数基金、用公司的员工持股，让自己也分到资本增值的那一份；其二，支持并参与工会、行业组织，集体议价从来比单打独斗有力；其三，读懂你所在公司的分配——利润是拿去回购做高股价，还是投进研发和加薪？这决定了长期里你是被机器碾，还是搭上车。",
+      "text_en": "Let me bring it back to structure: **answering only to shareholders is dangerous not because shareholders are greedy, but because in a world of r > g this rule will automatically and continuously move wealth from labor to capital, until society snaps.** Hoping individual bosses turn kind will not save the whole; institutions can — transparency, progressive taxation, workers on the board. Three things for ordinary people: first, don't stand only on the labor side to be ground down — through index funds and your company's employee stock ownership, take your share of capital's gains too; second, support and join unions and trade bodies — collective bargaining is always stronger than going it alone; third, understand the distribution inside your own firm — is profit spent on buybacks to prop up the share price, or invested in research and raises? That decides whether, in the long run, the machine grinds you or carries you.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "r>g": "r > g（资本回报率高于增长率）：皮凯蒂的核心不等式——当资本的年回报率长期高于经济增长率，靠资本致富者的财富增速快过靠劳动者，不平等自我累积、代际放大。",
+        "员工持股": "employee stock ownership / ESOP（员工持股）：让员工持有本公司股份的制度，使劳动者也成为资本的分享者，从而部分对冲 r>g 下财富向纯资本方集中的趋势。"
+      },
+      "glossary_en": {
+        "r > g": "Piketty's central inequality: when the annual return on capital stays above the growth rate of the economy, those who grow rich on capital outpace those who live on labor, so inequality accumulates and amplifies across generations.",
+        "employee stock ownership": "An arrangement that gives employees shares in their own company, making workers sharers in capital too and partly offsetting the drift of wealth toward pure capital holders under r > g."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sandel"
+        ],
+        "轻微赞同": [
+          "weber",
+          "xunzi",
+          "drucker"
+        ],
+        "中立": [
+          "adamsmith",
+          "buffett"
+        ],
+        "强烈反对": [
+          "friedman"
+        ]
+      }
+    },
+    {
+      "id": "p22",
+      "round": 3,
+      "thinker": "weber",
+      "reply_to": null,
+      "text": "我不给药方，只给一面镜子：**问题从来不是要不要铁笼——现代组织注定是笼——而是我们让哪一种价值住进笼里、替它赋予意义。**『只对股东负责』不是自然律，是一个我们可以选、也可以改的价值决定；它之所以显得天经地义，只因为它最好计算。给普通人的建议：其一，为你的工作找回一层『天职』般的意义，哪怕只是你亲手服务到的那个具体的人，别让工具理性把它抽干；其二，无论在哪个组织，都保留追问『这条规矩到底为谁而立、由谁来定』的习惯；其三，用你微小的合法性投票——你愿意为之尽力、愿意信任、愿意留下的组织，就是你在替未来的公司形态背书。",
+      "text_en": "I offer no prescription, only a mirror: **the question was never whether to have an iron cage — the modern organization is doomed to be one — but which value we let dwell inside it and give it meaning.** 'Answerable only to shareholders' is no law of nature; it is a value decision we can choose and can change, and it looks self-evident only because it is the easiest to calculate. Advice for ordinary people: first, recover a layer of vocation, a calling, in your work — even if only the concrete person you personally serve — and don't let instrumental rationality drain it dry; second, in any organization, keep the habit of asking 'what is this rule for, and who gets to set it'; third, cast your small vote of legitimacy — the organization you're willing to strive for, to trust, to stay with, is your endorsement of what the company of the future should be.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "天职": "Beruf / calling（天职）：韦伯《新教伦理与资本主义精神》里的关键概念，新教把世俗职业本身视为神所指派的『天职』，赋予勤勉劳动以宗教意义；韦伯借它说明观念如何塑造了资本主义精神。"
+      },
+      "glossary_en": {
+        "calling": "A key concept in Weber's The Protestant Ethic and the Spirit of Capitalism: Protestantism regarded one's worldly occupation itself as a divinely assigned calling, lending diligent labor a religious meaning; Weber used it to show how ideas shaped the spirit of capitalism."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sandel",
+          "xunzi"
+        ],
+        "轻微赞同": [
+          "drucker",
+          "adamsmith"
+        ],
+        "中立": [
+          "buffett",
+          "piketty"
+        ],
+        "轻微反对": [
+          "friedman"
+        ]
+      }
+    },
+    {
+      "id": "p23",
+      "round": 3,
+      "thinker": "buffett",
+      "reply_to": null,
+      "text": "我这辈子的体会浓缩成一句：**用几十年、而不是几个季度的眼光去看，正派和赚钱在绝大多数时候是同一件事——短视才是它们打架的根源。**你把顾客、员工、股东都当成要长期共处的人，很多所谓的两难自己就化开了。给普通人的三条实在建议：其一，尽量为你信得过的人做事、和正派的人合伙，人品是收益率最高又最少人计的复利；其二，凡事想一想『十年后我会不会为今天这事脸红』，用这一问替你筛掉大部分蠢事和坏事；其三，像守护自家护城河一样守护你的名声——它攒起来要几十年、毁掉只需五分钟，却是你一生最硬的资产。",
+      "text_en": "My life's lesson boils down to one line: **look with a horizon of decades, not quarters, and decency and profit are the same thing almost all the time — short-sightedness is the root of their quarrel.** Treat customers, employees and shareholders as people you'll live alongside for the long haul, and many so-called dilemmas dissolve on their own. Three solid pieces of advice for ordinary people: first, work for people you trust and partner with the decent — character is the highest-return, least-priced compounding there is; second, ask of everything, 'will I blush about this ten years from now?' — let that one question screen out most of the foolish and the wrong; third, guard your reputation as you would your own moat — it takes decades to build and five minutes to ruin, yet it is the hardest asset you'll ever own.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": null,
+      "glossary_en": null,
+      "reactions": {
+        "强烈赞同": [
+          "adamsmith",
+          "drucker"
+        ],
+        "轻微赞同": [
+          "friedman",
+          "weber",
+          "xunzi"
+        ],
+        "中立": [
+          "piketty"
+        ],
+        "轻微反对": [
+          "sandel"
+        ]
+      }
+    },
+    {
+      "id": "p24",
+      "round": 3,
+      "thinker": "xunzi",
+      "reply_to": null,
+      "text": "吾之结论，一言以蔽之：**善不足恃，恶不足惧，可恃者礼法之节、可惧者无分之争。**人性好利，古今一也；故治企业者，不责人皆为圣，但求立善制以化其性、导其欲于正。为寻常之人者三：其一，择善制而事之——观其分利之法、待人之规，胜于听其一时之言；其二，修身以自立，学不可以已，使己成可托之人，则不惧无位；其三，处群则明其分——知己之责，亦守人之权，不侵不诿，则身安而群治。化性起伪，非一日之功，日日为之而已。",
+      "text_en": "My conclusion, in a single line: **goodness cannot be relied on, evil need not be feared; what can be relied on is the restraint of ritual and law, and what should be feared is the contention that comes when roles are undivided.** Human nature loves gain, in ancient times as now; so one who governs a company need not demand that all be sages, but only build good institutions to reshape their nature and guide desire toward the right. Three things for the ordinary person: first, choose good institutions to serve — watch how a firm divides its gains and treats its people, which tells you more than its fine words of the moment; second, cultivate yourself and stand on your own — learning must never cease; make of yourself someone who can be entrusted, and you will not fear being without a post; third, in any group, be clear about your station — know your own duty and also guard others' rights, neither encroaching nor shirking, and you will be secure and the group well-ordered. To reshape one's nature and achieve the good by effort is no single day's work; one simply does it, day after day.",
+      "vernacular": "我的结论，一句话概括：**善良靠不住，邪恶也不必怕，真正靠得住的是礼法的节制，真正该怕的是没有名分划分时的争夺。**人性趋利，古今都一样；所以治理企业的人，不必苛求人人都成圣人，只要建立起好的制度去矫正人性、把欲望引导到正道上。给普通人三条建议：其一，选择好制度去投靠——看一家公司怎么分配利益、怎么对待人，胜过听它一时的漂亮话；其二，修养自身、自立自强，学习不能停止，让自己成为一个可被托付的人，就不怕没有位置；其三，在群体里要弄清自己的名分——既知道自己的责任，也守住别人的权利，不侵犯也不推诿，这样自己安稳、群体也有序。矫正本性、成就人为的善，不是一天的功夫，只是日复一日地去做罢了。",
+      "vernacular_en": "",
+      "glossary": {
+        "化性起伪": "huà xìng qǐ wěi（化性起伪）：荀子用语——『化性』是矫正人天生趋恶的本性，『起伪』是兴起后天人为的努力（礼义、学习）；善不是天生的，而是靠持续的人为教化『做』出来的。"
+      },
+      "glossary_en": {
+        "reshape one's nature and achieve the good by effort": "Xunzi's phrase: to correct the human nature that inclines to bad and to raise up deliberate human effort (ritual, learning); goodness is not innate but is 'made' through sustained cultivation."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "weber"
+        ],
+        "轻微赞同": [
+          "adamsmith",
+          "drucker",
+          "sandel"
+        ],
+        "中立": [
+          "buffett",
+          "piketty"
+        ],
+        "轻微反对": [
+          "friedman"
+        ]
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "ai": "claude",
+      "engine": "Opus 4.8 · 订阅(原生)",
+      "engine_en": "Opus 4.8 · subscription (native)",
+      "summary": "最大的共识出人意料：几乎没人真站在纯粹的『唯股东』极端——连弗里德曼都把利润拴在『遵守游戏规则』的前提上，最凶的批评者也不主张让经理凭一时好恶治企业。真正的一致在于：一家嵌在社会里的公司，光靠账本无法为自己赢得正当性，而长期的股东利益与善待各方，多数时候本就同路。分歧则在纠偏的着力点：是写进公司的目的（德鲁克、桑德尔），交给公司之外的制度与规则（弗里德曼、荀子、皮凯蒂），还是系于经营者的品格与声誉（斯密、巴菲特）；以及『利益相关者』究竟赋权于所有人，还是让谁都不必真正担责。",
+      "insight": "这场辩论悄悄把两个问题揉成了一个：『公司对谁负责』是治理与问责的问题，『公司怎样才算好』是目的与伦理的问题。弗里德曼答的是前者——代理人对委托人负责，在这一层他大体没错；他的批评者答的是后者——公司该服务更广的善，在那一层他们大体也没错；两拨人常常擦肩而过。**最锋利的现实杠杆，其实不在『股东』与『利益相关者』之间二选一，而在掰正时间尺度与游戏规则。**多数被痛斥的恶，源自坏规则里的短视，而非『尊重股东』本身。",
+      "advice": "落到这周能做的几件事。其一，看清你所在的公司到底对谁负责：翻翻高管薪酬怎么算、利润是拿去回购还是投研发与加薪——用它决定你把青春和信任押在哪。其二，别只站在劳动一边挨 r>g 的碾压，用一份指数基金或公司的员工持股，让自己也分到资本增值的那一份。其三，在职场把『这只是生意』从对话的终点上挪开——遇到『按规定就该如此』，多追一句『那这样对吗？谁在买单？』，去争取一条更好的规则，而不是求一次通融。**别指望公司发善心；去争取好规则，并让自己既有本事、又有底线。**",
+      "summary_en": "The biggest consensus was unexpected: almost no one truly stood on the pure 'shareholders only' extreme — even Friedman ties profit to 'obeying the rules of the game,' and the fiercest critics do not want managers running firms on whim. The real agreement is that a company embedded in society cannot win its own legitimacy from the ledger alone, and that long-term shareholder interest and treating people well mostly run down the same road. The divergence is over where the correction belongs: written into the company's purpose (Drucker, Sandel), handed to institutions and rules outside the firm (Friedman, Xunzi, Piketty), or resting on the character and reputation of those who run it (Smith, Buffett); and whether 'stakeholder' empowers everyone or lets no one truly be held to account.",
+      "insight_en": "This debate quietly fused two questions into one: 'whom does a company answer to' is a question of governance and accountability; 'what makes a company good' is a question of purpose and ethics. Friedman answers the first — the agent answers to the principal, and there he is largely right; his critics answer the second — the firm should serve a wider good, and there they are largely right too; the two camps keep talking past each other. **The sharpest real-world lever is not choosing between 'shareholders' and 'stakeholders' but straightening the time horizon and the rules of the game.** Most of the abuses denounced spring from short-sightedness inside bad rules, not from respecting shareholders as such.",
+      "advice_en": "A few things you can do this week. First, see clearly whom your own company answers to: look at how executive pay is calculated and whether profit goes to buybacks or to research and raises — and let that decide where you stake your years and your trust. Second, don't stand only on the labor side to be ground down by r > g; through an index fund or your firm's employee stock ownership, take your share of capital's gains too. Third, at work, move 'it's just business' off the end of the conversation — when you meet 'the rules say so,' press one more question, 'but is it right? who's paying for it?', and push for a better rule rather than a one-time favor. **Don't wait for a company to turn kind; fight for good rules, and make yourself both capable and principled.**"
+    },
+    {
+      "ai": "gpt",
+      "engine": "openai · gpt-5.5 · high(真实API)",
+      "engine_en": "openai · gpt-5.5 · high (live API)",
+      "summary": "这场辩论最大的共识，不是公司应当少赚钱，而是不能把短期利润、合法合规和真正负责混为一谈。无论站在股东、顾客、员工还是社会一边，大家都承认企业需要利润，也需要规则、信任、声誉和长期价值。**真正分歧在于：公司内部是否只把股东当作最终委托人，还是要把员工、社区和外部风险也制度化地纳入决策。**所以问题不是善良企业对抗邪恶资本，而是责任边界、决策权和约束机制怎么设计。",
+      "insight": "把“对谁负责”换成“谁承担了不可轻易退出的风险”，问题会清楚很多。股东承担资本风险，但多数时候可以分散投资、随时卖出；员工把技能、时间、家庭安排押在一家公司上，社区和环境更难退出。**责任不应按情感平均分配，而应按风险、控制权和退出能力来配置。**这能避免利益相关者口号变成空话：谁受重大影响，谁就应有信息、申诉、协商或代表权；谁掌握决策权，谁就要对外部成本负责。",
+      "advice": "本周可以做三件小事。第一，若你在公司里参与决策，把每个降本或增利方案写成一页纸：省了谁的钱，成本转嫁给谁，风险是否可逆，是否伤害信任。第二，选工作或投资时别只看薪资和股价，查三项：员工流失率、研发和培训投入、回购与分红是否挤压长期能力。第三，作为消费者和公民，把偏好变成动作：给好公司复购、差公司少买，并支持更透明的薪酬、安全、税收和治理规则。**别指望一次选择改变世界，但持续投票会改变激励。**",
+      "summary_en": "The strongest common ground here is not that companies should care less about profit. It is that short-term profit, legal compliance, and genuine responsibility are not the same thing. Everyone in the debate, even from very different starting points, accepts that firms need profits to survive and that markets need rules, trust, reputation, and a long time horizon to work well. **The real disagreement is whether the firm should treat shareholders as the only final principal, or whether employees, communities, and external risks should be built into its governance.** So the practical question is not good-hearted business versus evil capitalism. It is how to define the boundary of responsibility, who gets a say, and what mechanisms keep managers from hiding behind noble language or narrow financial targets.",
+      "insight_en": "A cleaner way to ask the question is this: who bears risks they cannot easily escape? Shareholders do bear capital risk, but many can diversify, sell, and move on. Employees often commit skills, time, health, and family plans to one employer; communities and ecosystems may have even less ability to exit. **Responsibility should not be spread equally by sentiment; it should be allocated according to risk exposure, decision power, and exit options.** That makes stakeholder talk more concrete. If a group is materially affected, it should have access to information, complaint channels, bargaining power, or representation. If a group controls the decision, it should be accountable for the costs it pushes onto others.",
+      "advice_en": "Three things are usable this week. First, if you help make workplace decisions, turn every cost-cutting or profit-boosting proposal into a one-page trade-off memo: whose money is saved, who carries the cost, whether the risk is reversible, and whether trust is being damaged. Second, when choosing a job or an investment, do not look only at salary or share price. Check employee turnover, spending on training and research, and whether buybacks or dividends are crowding out long-term capability. Third, as a consumer and citizen, convert preference into action: buy again from firms that behave well, buy less from firms that shift harm onto others, and support clearer rules on pay, safety, tax, and governance. **One choice will not remake the system, but repeated votes change incentives.**"
+    },
+    {
+      "ai": "gemini",
+      "engine": "google · gemini-3.1-pro-preview(真实API)",
+      "engine_en": "google · gemini-3.1-pro-preview (live API)",
+      "summary": "纵观全场，最大的共识并不在于“要不要赚钱”，而在于**不受约束的短期逐利必然反噬商业自身的根基**。无论是斯密呼唤的正义、巴菲特看重的声誉、德鲁克的顾客价值，还是荀子强调的礼法，大家都承认企业若只盯着眼前的记分牌，终将失去比赛资格。真正的分歧焦点在于：**究竟由谁来划定和执行这些边界？**弗里德曼与荀子倾向于把道德底线交给外部的法律与制度，皮凯蒂要求用税收和分配结构强制纠偏；而德鲁克、桑德尔与巴菲特则坚持，企业内部的目标设定与日常决策本身，就必须内化社会责任与长期道义，不能全推给外部系统。",
+      "insight": "当我们争论“公司该对谁负责”时，往往预设了公司、员工与社会是截然分开的实体。但今天真实发生的最深刻变局是：**随着巨头企业演变为全社会的基础设施，商业生态与公共利益在物理边界上已经重合。**像科技巨头控制着信息流动，或物流网络维系着城市运转，它们不再是社会的“旁观者”或单纯的财富抽取者。在这种体量下，外部性被彻底内化了——系统性的社会衰退必然导致企业增长的停滞。因此不再是“为了算计而装好人”，而是**在一个高度互联的复杂系统里，损人利己的局部优化，在数学上必然导致全局的崩溃与自身的毁灭**。这使得长远眼光从道德呼吁变成了生存的硬科学。",
+      "advice": "结合上述洞察，普通人在日常工作与生活中可以采取以下三个具体动作：第一，**重构你的“成果核算表”**。本周试着像德鲁克建议的那样，写下你当前岗位真正交付了什么社会价值，而不仅仅是KPI数字；当你能清晰答出“我为谁解决了什么问题”时，你的职业护城河才真正建立。第二，实施一次“良知微小投票”。在接下来的消费或求职中，刻意避开以压榨员工或欺瞒顾客闻名的公司，把预算或才华投给更正派的机构。第三，**在团队决策中引入“系统外部性”视角**。下次开会讨论降本增效时，主动追问：“削减这项成本，是否会把代价转嫁给其他部门、客户或未来的维护者？”用具体的提问阻止组织滑向盲目。",
+      "summary_en": "Looking across the entire panel, the most significant consensus isn't about whether companies should make money, but that **unbridled, short-term profit-seeking inevitably devours the very foundation of business itself**. Whether it's Smith's emphasis on justice, Buffett's focus on reputation, Drucker's customer value, or Xunzi's institutional rules, all agree that obsessing solely over the immediate scoreboard will ultimately disqualify a company from the game. The true focal point of divergence is: **Who exactly gets to define and enforce these boundaries?** Friedman and Xunzi rely on external laws and regulatory systems, while Piketty demands structural redistribution through taxes. Conversely, Drucker, Sandel, and Buffett insist that the enterprise's internal goals and daily operations must intrinsically embody social responsibility, rather than outsourcing morality entirely to external mechanisms.",
+      "insight_en": "When we argue about \"who the company should answer to,\" we often assume that the corporation, employees, and society are distinctly separate entities. Yet the most profound paradigm shift happening today is that **as mega-corporations evolve into fundamental societal infrastructure, the physical boundaries between business ecosystems and public interest have completely merged.** When tech giants mediate our reality and logistics networks sustain urban survival, they are no longer isolated bystanders or mere wealth extractors. At this massive scale, externalities are fully internalized—systemic societal decline guarantees corporate stagnation. It is no longer about \"faking goodness for calculation.\" **In a hyper-connected complex system, localized optimization at the expense of others mathematically guarantees global collapse and self-destruction.** This reality turns long-termism from a moral plea into the hard, undeniable science of survival.",
+      "advice_en": "Based on these systemic insights, here are three actionable steps you can take in your daily life this week: First, **reconstruct your \"results ledger.\"** Follow Drucker's advice and write down the actual societal value your current role delivers, beyond just your KPI metrics. Your professional moat is only truly built when you can clearly answer, \"Whose problem am I solving?\" Second, cast a \"micro-vote of conscience.\" In your next purchase or job hunt, deliberately avoid companies known for exploiting workers or deceiving customers, and direct your budget or talent to a more decent organization. Third, **introduce a \"systemic externality\" lens to team decisions.** The next time your team discusses cost-cutting, proactively ask: \"Does this cut merely shift the hidden price onto other departments, customers, or future maintainers?\" Use concrete questions to prevent organizational blindness."
+    }
+  ],
+  "hooks": [
+    {
+      "from": "piketty",
+      "text": "**给工人一张董事会的椅子，二选一还成立吗**：德国的共同决定制让员工正式进入董事会，公司照样有竞争力。当劳动者既分股权、又握投票权，『股东 vs 利益相关者』的对立会不会根本消解？还是只是把同一场博弈搬进了会议室？",
+      "text_en": "**Give workers a seat on the board — does the either/or still hold?**: Germany's co-determination puts employees formally on the board, and the companies stay competitive. When labor both shares equity and holds votes, does the 'shareholders vs. stakeholders' opposition dissolve at the root — or does it just move the same struggle into the boardroom?"
+    },
+    {
+      "from": "weber",
+      "text": "**墙上的使命，与真正驱动笼子的指标**：几乎每家公司都在墙上写着漂亮的使命，可真正决定行为的是薪酬、KPI 与季度考核。当『愿景』和『激励』说的是两种语言，我们该信哪一个？一家公司的真实价值观，是不是全写在它的计分表里？",
+      "text_en": "**The mission on the wall, and the metrics that actually drive the cage**: nearly every company posts a lofty mission, yet what really governs behavior is pay, KPIs and the quarterly review. When the 'vision' and the 'incentives' speak two different languages, which should we believe? Are a company's true values written entirely in its scorecard?"
+    },
+    {
+      "from": "sandel",
+      "text": "**公司内部，有什么是根本不该标价的**：加班、危险岗位、沉默条款——很多东西一旦允许拿钱买卖，它本身就变了质。一家公司里，哪些东西该退出市场逻辑、无论出价多高都不交易？划这条线的，又该是谁？",
+      "text_en": "**Inside a company, what should simply never carry a price**: overtime, hazardous posts, silence clauses — many things, once allowed to be bought and sold, are changed in their very nature. Within a firm, what should be pulled out of market logic and left untradeable at any price? And who should get to draw that line?"
+    },
+    {
+      "from": "drucker",
+      "text": "**谁来替十年后的公司说话**：回购做高今天的股价很容易，为十年后的产品去投研发却没人鼓掌。当决策者的任期只有几年、奖金只看当季，谁在为那个『还没出生的长期』发声？把时间尺度拉长，答案会不会自己变了？",
+      "text_en": "**Who speaks for the company ten years from now**: buying back stock to lift today's share price is easy; investing in research for a product a decade out wins no applause. When decision-makers serve only a few years and are paid on the quarter, who speaks for the 'long term that isn't born yet'? Stretch the time horizon, and does the answer change on its own?"
+    },
+    {
+      "from": "gpt",
+      "text": "**怎么看出一家公司到底为谁而开**：别听它墙上写的价值观，看它花钱和裁员时的动作。下面几个信号，基本能读出一家公司真正把谁排在第一。",
+      "text_en": "**How to tell whom a company is really run for**: don't listen to the values on its wall — watch what it does when it spends and when it lays people off. A few signals will let you read whom a company truly puts first.",
+      "answer": {
+        "lead": "看一家公司**在『赚钱』和『做对的事』真打架时先松开哪只手**，比读它任何一句宣言都准。",
+        "table": {
+          "head": [
+            "看哪里",
+            "偏『只对股东』的信号",
+            "偏『也对员工与社会』的信号"
+          ],
+          "rows": [
+            [
+              "利润去向",
+              "大举回购、推高股价，分红优先",
+              "持续投研发、给员工加薪、再投资"
+            ],
+            [
+              "高管薪酬",
+              "几乎全绑短期股价 / 每股收益",
+              "含长期，且含非财务指标（安全、留存、客户）"
+            ],
+            [
+              "裁员时",
+              "先裁人保财报，话术叫『优化』",
+              "先减高管奖金 / 分红，裁员是最后一招"
+            ],
+            [
+              "危机时先保谁",
+              "股东与股价",
+              "客户安全与员工，哪怕当季难看"
+            ],
+            [
+              "对外披露",
+              "只披露财务数字",
+              "连带披露对员工、社区、环境的影响，且可核查"
+            ]
+          ]
+        },
+        "tail": "没有一家公司会满格落在某一栏；**关键看它在压力下先牺牲谁——那才是它排序的真相。**"
+      },
+      "answer_en": {
+        "lead": "Watching **which hand a company lets go of first when 'making money' and 'doing right' truly collide** tells you more than any statement it makes.",
+        "table": {
+          "head": [
+            "Where to look",
+            "Signals of 'shareholders only'",
+            "Signals of 'workers and society too'"
+          ],
+          "rows": [
+            [
+              "Where profit goes",
+              "Heavy buybacks to lift the share price; dividends first",
+              "Sustained R&D, raises for staff, reinvestment"
+            ],
+            [
+              "Executive pay",
+              "Tied almost entirely to short-term share price / EPS",
+              "Includes the long term and non-financial metrics (safety, retention, customers)"
+            ],
+            [
+              "When it lays off",
+              "People cut first to protect earnings, called 'optimization'",
+              "Executive bonuses / dividends trimmed first; layoffs a last resort"
+            ],
+            [
+              "Who it protects in a crisis",
+              "Shareholders and the share price",
+              "Customer safety and employees, even if the quarter looks bad"
+            ],
+            [
+              "Disclosure",
+              "Financial figures only",
+              "Also discloses, verifiably, impact on workers, community, environment"
+            ]
+          ]
+        },
+        "tail": "No company sits fully in one column; **what matters is whom it sacrifices first under pressure — that is the truth of its ranking.**"
+      }
+    },
+    {
+      "from": "buffett",
+      "text": "**声誉这条护城河，规模一大还守得住吗**：一间小店的老板天天照面，坏了口碑立刻现报；可当公司大到几十万人、隔着无数层级，声誉还拦得住短期的算计吗？把『名声即资产』写进百万人巨企的制度里，到底有没有办法？",
+      "text_en": "**Reputation as a moat — does it hold once a firm gets huge?**: the owner of a small shop faces customers daily and pays at once for a ruined name; but when a company swells to hundreds of thousands across countless layers, can reputation still restrain short-term calculation? Is there any way to build 'a name is an asset' into the institutions of a million-person giant?"
+    }
+  ]
+}

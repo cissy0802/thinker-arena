@@ -174,17 +174,24 @@
     if (el) { el.classList.add("tts-active"); el.scrollIntoView({ behavior: "smooth", block: "center" }); }
   }
   function fmt(s) { if (!isFinite(s) || s < 0) s = 0; var m = Math.floor(s / 60), x = Math.floor(s % 60); return m + ":" + (x < 10 ? "0" : "") + x; }
-  function updBar() {
+  // Play/pause icon + rate + segment index change rarely — only rewrite them
+  // on state change, never inside the per-frame ontimeupdate (rewriting the
+  // icon font 4-5×/s is what made pause feel laggy).
+  function updState() {
     var b = bar(); if (!b) return;
     b.querySelector(".ta-play").innerHTML = __p.playing
       ? '<i class="ti ti-player-pause-filled"></i>' : '<i class="ti ti-player-play-filled"></i>';
     b.querySelector(".ta-rate").textContent = __p.rate + "×";
     var n = __p.order.length, i = __p.idx;
     b.querySelector(".ta-prog").textContent = n ? (Math.max(0, i) + 1) + "/" + n : "–";
+  }
+  function updProg() {
+    var b = bar(); if (!b) return;
     var au = __p.audio, dur = au && isFinite(au.duration) ? au.duration : 0, cur = au ? au.currentTime : 0;
     b.querySelector(".ta-fill").style.width = dur ? (cur / dur * 100) + "%" : "0%";
     b.querySelector(".ta-time").textContent = fmt(cur) + " / " + fmt(dur);
   }
+  function updBar() { updState(); updProg(); }
   function play(pid) {
     var a = window.__AUDIO && window.__AUDIO[pid]; if (!a) return;
     if (__p.audio) { __p.audio.pause(); __p.audio = null; }
@@ -192,14 +199,14 @@
     setActive(pid);
     var au = new Audio(a.audio); au.playbackRate = __p.rate;
     __p.audio = au; __p.playing = true;
-    au.ontimeupdate = updBar;
-    au.onloadedmetadata = updBar;
+    au.ontimeupdate = updProg;
+    au.onloadedmetadata = updProg;
     au.onended = function () { next(true); };
     au.play().catch(function () { pause(); });
     updBar();
   }
-  function pause() { if (__p.audio) __p.audio.pause(); __p.playing = false; updBar(); }
-  function resume() { if (__p.audio) { __p.audio.play(); __p.playing = true; } else if (__p.order.length) play(__p.order[Math.max(0, __p.idx)]); updBar(); }
+  function pause() { if (__p.audio) __p.audio.pause(); __p.playing = false; updState(); }
+  function resume() { if (__p.audio) { __p.audio.play(); __p.playing = true; updState(); } else if (__p.order.length) play(__p.order[Math.max(0, __p.idx)]); }
   function toggle() { if (__p.playing) pause(); else resume(); }
   function next(auto) {
     if (__p.idx + 1 < __p.order.length) { play(__p.order[__p.idx + 1]); }
@@ -214,8 +221,8 @@
   }
   function attachAudioControls() {
     if (!window.__AUDIO) return;
-    // Playback order = posts in thread order, then the AI closers.
-    __p.order = Array.prototype.map.call(document.querySelectorAll(".post, .sum-card"), function (el) { return el.id; })
+    // Playback order = posts, then AI closers, then closing hooks — in DOM order.
+    __p.order = Array.prototype.map.call(document.querySelectorAll(".post, .sum-card, .hook"), function (el) { return el.id; })
       .filter(function (id) { return window.__AUDIO[id]; });
     if (!__p.order.length) return;
     // click a post's speaker button → jump to that post
@@ -228,9 +235,11 @@
     el.id = "ta-tts"; el.className = "ta-tts";
     el.innerHTML =
       '<button class="ta-btn ta-prev" title="上一条"><i class="ti ti-player-track-prev-filled"></i></button>' +
+      '<span class="ta-sep"></span>' +
       '<button class="ta-btn ta-back" title="后退10秒">−10</button>' +
       '<button class="ta-btn ta-play" title="播放/暂停"><i class="ti ti-player-play-filled"></i></button>' +
       '<button class="ta-btn ta-fwd" title="前进10秒">+10</button>' +
+      '<span class="ta-sep"></span>' +
       '<button class="ta-btn ta-next" title="下一条"><i class="ti ti-player-track-next-filled"></i></button>' +
       '<span class="ta-sep"></span>' +
       '<span class="ta-prog">–</span>' +
@@ -309,14 +318,17 @@
   }
   function renderHooks(hooks) {
     if (!hooks || !hooks.length) return "";
-    var items = hooks.map(function (h) {
+    var items = hooks.map(function (h, i) {
       var c = tk(h.from);
+      var hid = "hook-" + i;
+      var hbtn = (window.__AUDIO && window.__AUDIO[hid])
+        ? '<button class="tts-play" data-post="' + esc(hid) + '" title="朗读" aria-label="朗读"><i class="ti ti-volume"></i></button>' : "";
       var inner = '<div class="hook-who">' + avatar(c, 26) +
-        '<span class="nm" style="color:' + c.color + '">' + esc(nameOf(c)) + "</span></div>" +
+        '<span class="nm" style="color:' + c.color + '">' + esc(nameOf(c)) + "</span>" + hbtn + "</div>" +
         '<div class="hook-txt">' + mdBold(esc(pick(h, "text"))) + "</div>";
       var ans = pick(h, "answer");
-      if (!ans) return '<div class="hook">' + inner + "</div>";
-      return '<div class="hook has-answer"><div class="hook-main" role="button" tabindex="0" aria-expanded="false">' +
+      if (!ans) return '<div class="hook" id="' + hid + '">' + inner + "</div>";
+      return '<div class="hook has-answer" id="' + hid + '"><div class="hook-main" role="button" tabindex="0" aria-expanded="false">' +
         inner + '<div class="hook-toggle"><i class="ti ti-chevron-down"></i><span>' + esc(T("seeAnswer")) + "</span></div></div>" +
         '<div class="hook-answer">' + renderHookAnswer(ans) + "</div></div>";
     }).join("");

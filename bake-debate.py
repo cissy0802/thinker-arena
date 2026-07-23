@@ -63,12 +63,34 @@ def bake(seg_id, c, text):
 
 for p in d["posts"]:
     bake(p["id"], cfg(p["thinker"]), p["text"])
+
+# AI closers: prefix each block with its section label so the three parts
+# ("综述… 洞察… 给普通人的建议…") are audibly separated, not run together.
 for s in d.get("summaries", []):
     ai = s.get("ai", "")
     c = cfg("_ai_" + ai)
-    parts = [s.get("summary",""), s.get("insight",""), s.get("advice","")]
-    text = "。".join(p.strip().rstrip("。") for p in parts if p and p.strip())
+    blocks = [("综述", s.get("summary","")), ("洞察", s.get("insight","")),
+              ("给普通人的建议", s.get("advice",""))]
+    text = "。".join(f"{lbl}。{body.strip().rstrip('。')}" for lbl, body in blocks if body and body.strip())
     bake("ai-" + ai, c, text)
+
+# Closing hooks: each is a lingering question posed by one thinker; read it
+# (and its answer, if any) in that thinker's voice.
+def hook_text(hk):
+    # question + answer's prose lead/tail; the table is visual, left unread.
+    parts = [hk.get("text","")]
+    ans = hk.get("answer")
+    if isinstance(ans, dict):
+        parts += [ans.get("lead",""), ans.get("tail","")]
+    elif isinstance(ans, str):
+        parts.append(ans)
+    return "。".join(p.strip().rstrip("。") for p in parts if p and str(p).strip())
+
+for i, hk in enumerate(d.get("hooks", [])):
+    frm = hk.get("from", "")
+    # a hook may be posed by an AI (e.g. "gpt") rather than a thinker
+    c = cfg("_ai_" + frm) if ("_ai_" + frm) in VOICES else cfg(frm)
+    bake("hook-%d" % i, c, hook_text(hk))
 
 json.dump(manifest, open(outdir/"manifest.json","w"), ensure_ascii=False, indent=1)
 # clean orphans

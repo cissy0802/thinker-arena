@@ -21,9 +21,9 @@ FEMALE = {"arendt","beauvoir","nussbaum","sontag","carstensen","dweck","wood","w
 # theatrical (audiobook narrator) so it sits last as a fallback only.
 FEMALE_V = ["zh-CN-XiaohanNeural","zh-CN-XiaoyanNeural","zh-CN-XiaozhenNeural",
             "zh-CN-XiaochenMultilingualNeural","zh-CN-XiaoxiaoMultilingualNeural","zh-CN-XiaoyuMultilingualNeural",
-            "zh-CN-XiaomoNeural","zh-CN-XiaoruiNeural"]
+            "zh-CN-XiaomoNeural"]
 MALE_CN = ["zh-CN-YunyeNeural","zh-CN-YunzeNeural","zh-CN-YunjianNeural","zh-CN-YunfengNeural","zh-CN-YunhaoNeural",
-           "zh-CN-YunyangNeural","zh-CN-YunxiNeural","zh-CN-YunjieNeural","zh-CN-YunxiaNeural"]
+           "zh-CN-YunyangNeural","zh-CN-YunxiNeural","zh-CN-YunjieNeural"]
 MALE_MU = ["zh-CN-YunyiMultilingualNeural","zh-CN-YunfanMultilingualNeural","zh-CN-YunxiaoMultilingualNeural"]
 
 def _birth(era):

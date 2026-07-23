@@ -10,9 +10,13 @@ on:
   workflow_dispatch:
     inputs:
       slug:
-        description: "Debate slug (blank = all)"
+        description: "Debate slug (blank = every debate missing audio)"
         required: false
         default: ""
+
+# Needed so the bot can push the baked audio back.
+permissions:
+  contents: write
 
 concurrency:
   group: bake-debates
@@ -26,22 +30,41 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.11" }
-      - run: pip install requests
-      - name: Bake changed (or all) debates
+      - run: pip install requests beautifulsoup4
+      - name: Bake debates that are missing audio
         env:
           AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
           AZURE_SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION }}
+          ONLY_SLUG: ${{ inputs.slug }}
         run: |
-          if [ -n "${{ inputs.slug }}" ]; then
-            python3 bake-debate.py "${{ inputs.slug }}"
-          else
-            # only debates whose json changed in this push (fallback: none)
-            changed=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} -- 'debates/*.json' 2>/dev/null | sed 's#debates/##;s#\.json##' || true)
-            for slug in $changed; do
-              [ "$slug" = "index" ] && continue
-              python3 bake-debate.py "$slug" || echo "FAILED $slug"
-            done
-          fi
+          # Rather than diffing commits (fragile — a stale base can miss the new
+          # debate), ask the baker itself which debates lack audio and bake only
+          # those. Idempotent: existing mp3s are skipped by hash.
+          python3 - <<'PY'
+          import json, glob, os, subprocess, hashlib
+          src = open("bake-debate.py").read().split("slug = sys.argv[1]")[0]
+          src = src.replace('KEY = os.environ["AZURE_SPEECH_KEY"]; REGION = os.environ["AZURE_SPEECH_REGION"]', 'KEY=REGION="x"')
+          g = {}; exec(src, g)
+          assign = g["assign_debate_voices"]; strip = g["strip_md"]
+          def h(c, t):
+              s = c["voice"]+"|"+(c.get("pitch") or "")+"|"+(c.get("rate") or "")+"|"+t
+              return hashlib.sha1(s.encode()).hexdigest()[:16]
+          only = os.environ.get("ONLY_SLUG", "").strip()
+          todo = []
+          for f in sorted(glob.glob("debates/*.json")):
+              slug = os.path.basename(f)[:-5]
+              if slug == "index": continue
+              if only and slug != only: continue
+              d = json.load(open(f)); ps = list(dict.fromkeys(p["thinker"] for p in d["posts"]))
+              dv = assign(ps); dd = f"audio/debate/{slug}"
+              missing = (not os.path.exists(dd+"/manifest.json")) or any(
+                  not os.path.exists(f"{dd}/{h(dv[p['thinker']], strip(p['text']))}.mp3") for p in d["posts"])
+              if missing: todo.append(slug)
+          print("to bake:", todo or "(none)")
+          for slug in todo:
+              r = subprocess.run(["python3", "bake-debate.py", slug])
+              if r.returncode != 0: print("FAILED", slug)
+          PY
       - name: Commit audio
         run: |
           git config user.name  "github-actions[bot]"

@@ -143,13 +143,78 @@
     return T("roundWord").replace("%N", round) + " · " + phase;
   }
 
+  function ttsBtn(post) {
+    var a = window.__AUDIO && window.__AUDIO[post.id];
+    if (!a) return "";
+    return '<button class="tts-play" data-post="' + esc(post.id) + '" data-src="' +
+      esc(a.audio) + '" title="朗读这条" aria-label="朗读"><i class="ti ti-volume"></i></button>';
+  }
+
   function renderPost(post, maxR) {
     var c = tk(post.thinker);
     return '<div class="post" id="' + esc(post.id) + '">' + postAvatar(c) +
       '<div class="body">' + renderReply(post) +
       '<div class="meta"><span class="name" style="color:' + c.color + '">' + esc(nameOf(c)) + "</span>" +
-      '<span class="info">' + esc(pick(c, "school")) + " · " + roundLabel(post.round, maxR).split(" · ").pop() + "</span></div>" +
+      '<span class="info">' + esc(pick(c, "school")) + " · " + roundLabel(post.round, maxR).split(" · ").pop() + "</span>" +
+      ttsBtn(post) + "</div>" +
       renderBody(post) + renderReactions(post) + "</div></div>";
+  }
+
+  // ---- Per-speaker audio playback ----
+  var __player = { audio: null, order: [], idx: -1, playing: false };
+  function stopPlayer() {
+    if (__player.audio) { __player.audio.pause(); __player.audio = null; }
+    __player.playing = false;
+    document.querySelectorAll(".post.tts-active").forEach(function (el) { el.classList.remove("tts-active"); });
+    var fab = document.getElementById("tts-fab");
+    if (fab) fab.innerHTML = '<i class="ti ti-player-play"></i><span>朗读全场</span>';
+  }
+  function playPost(pid, chain) {
+    var a = window.__AUDIO && window.__AUDIO[pid];
+    if (!a) return;
+    if (__player.audio) { __player.audio.pause(); __player.audio = null; }
+    document.querySelectorAll(".post.tts-active").forEach(function (el) { el.classList.remove("tts-active"); });
+    var postEl = document.getElementById(pid);
+    if (postEl) { postEl.classList.add("tts-active"); postEl.scrollIntoView({ behavior: "smooth", block: "center" }); }
+    var au = new Audio(a.audio);
+    au.playbackRate = __player.rate || 1;
+    __player.audio = au; __player.playing = true;
+    au.onended = function () {
+      if (postEl) postEl.classList.remove("tts-active");
+      if (chain) {
+        var i = __player.order.indexOf(pid);
+        if (i >= 0 && i + 1 < __player.order.length) { __player.idx = i + 1; playPost(__player.order[i + 1], true); return; }
+      }
+      stopPlayer();
+    };
+    au.play().catch(function () { stopPlayer(); });
+  }
+  function playAll() {
+    if (!window.__AUDIO) return;
+    __player.order = Array.prototype.map.call(document.querySelectorAll(".post"), function (el) { return el.id; })
+      .filter(function (id) { return window.__AUDIO[id]; });
+    if (!__player.order.length) return;
+    var fab = document.getElementById("tts-fab");
+    if (__player.playing) { stopPlayer(); return; }
+    if (fab) fab.innerHTML = '<i class="ti ti-player-stop"></i><span>停止</span>';
+    __player.idx = 0; playPost(__player.order[0], true);
+  }
+  function attachAudioControls() {
+    if (!window.__AUDIO) return;
+    var thread = document.getElementById("thread");
+    thread.addEventListener("click", function (e) {
+      var b = e.target.closest && e.target.closest(".tts-play");
+      if (!b) return;
+      e.preventDefault();
+      playPost(b.getAttribute("data-post"), false);
+    });
+    if (!document.getElementById("tts-fab")) {
+      var fab = document.createElement("button");
+      fab.id = "tts-fab"; fab.className = "tts-fab";
+      fab.innerHTML = '<i class="ti ti-player-play"></i><span>朗读全场</span>';
+      fab.addEventListener("click", playAll);
+      document.body.appendChild(fab);
+    }
   }
 
   function renderLineup(casting) {
@@ -353,6 +418,7 @@
     document.getElementById("thread").innerHTML = html;
     setHeader(debate);
     attachInteractions();
+    attachAudioControls();
     // login-free comment section, keyed per debate id
     var debId = (debate && debate.id) || new URLSearchParams(location.search).get("d") || "happiness";
     document.getElementById("thread").appendChild(buildDebateComments("debate:" + debId));
@@ -434,10 +500,18 @@
 
   function boot() {
     var id = new URLSearchParams(location.search).get("d") || "happiness";
-    Promise.all([getJSON("thinkers.json"), getJSON("debates/" + id + ".json")])
+    // Optional per-speaker TTS: an audio manifest may exist for this debate.
+    // Missing manifest just means no audio yet — the page renders as before.
+    var manifestUrl = "audio/debate/" + id + "/manifest.json";
+    Promise.all([
+      getJSON("thinkers.json"),
+      getJSON("debates/" + id + ".json"),
+      fetch(manifestUrl).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; })
+    ])
       .then(function (res) {
         res[0].thinkers.forEach(function (c) { THINKERS[c.id] = c; });
         (res[0].reactionTypes || []).forEach(function (rt) { REACTS[rt.key] = rt; REACT_ORDER.push(rt.key); });
+        window.__AUDIO = res[2] || null;
         renderDebate(res[1]);
       })
       .catch(function (e) { fail(esc(e.message || e)); });

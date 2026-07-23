@@ -250,7 +250,31 @@ html, body {
 .tts-play{background:none;border:none;cursor:pointer;color:var(--muted,#8a93a0);padding:2px 6px;border-radius:6px;font-size:15px;line-height:1;transition:color .15s,background .15s}
 .tts-play:hover{color:var(--accent,#5865f2);background:rgba(88,101,242,.12)}
 .post.tts-active{background:rgba(88,101,242,.08);box-shadow:inset 3px 0 0 var(--accent,#5865f2);border-radius:6px;transition:background .2s}
-.tts-fab{position:fixed;right:20px;bottom:20px;z-index:9999;display:inline-flex;align-items:center;gap:8px;background:var(--accent,#5865f2);color:#fff;border:none;border-radius:24px;padding:11px 18px;font-size:14px;font-weight:600;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.35)}
-.tts-fab:hover{filter:brightness(1.08)}
-.tts-fab .ti{font-size:16px}
 @media(max-width:600px){.tts-fab span{display:none}.tts-fab{padding:12px;border-radius:50%}}
+
+/* ---- Full TTS control bar (dark theme, matches site-wide controls) ---- */
+.ta-tts{position:fixed;bottom:18px;right:18px;z-index:9999;display:flex;align-items:center;gap:2px;
+  background:rgba(32,34,42,0.97);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+  border:1px solid rgba(255,255,255,0.08);border-radius:26px;padding:6px;
+  box-shadow:0 8px 28px rgba(0,0,0,0.45);font-family:inherit}
+.ta-tts .ta-btn{background:transparent;border:none;cursor:pointer;color:#c8cdd8;
+  padding:7px 10px;border-radius:16px;font-size:13px;font-weight:600;line-height:1;
+  display:flex;align-items:center;justify-content:center;min-width:34px;min-height:34px;
+  transition:background .15s,color .15s}
+.ta-tts .ta-btn:hover{background:rgba(88,101,242,.18);color:#fff}
+.ta-tts .ta-play{background:#5865f2;color:#fff}
+.ta-tts .ta-play:hover{filter:brightness(1.12)}
+.ta-tts .ta-btn .ti{font-size:16px}
+.ta-tts .ta-sep{width:1px;height:18px;background:rgba(255,255,255,0.12);margin:0 4px}
+.ta-tts .ta-prog{font-size:11px;color:#9aa2b1;padding:0 4px;min-width:38px;text-align:center;font-variant-numeric:tabular-nums}
+.ta-tts .ta-seek{position:relative;width:96px;height:16px;cursor:pointer;display:flex;align-items:center;margin:0 4px}
+.ta-tts .ta-track{position:absolute;left:0;right:0;height:3px;background:rgba(255,255,255,0.14);border-radius:2px}
+.ta-tts .ta-fill{position:absolute;left:0;height:3px;background:#5865f2;border-radius:2px;width:0%}
+.ta-tts .ta-time{font-size:10px;color:#8a93a0;font-variant-numeric:tabular-nums;min-width:66px;text-align:right}
+.ta-tts .ta-rate{background:transparent;border:none;cursor:pointer;color:#9aa2b1;font-size:12px;
+  font-weight:700;padding:6px 9px;border-radius:14px;min-width:36px;font-variant-numeric:tabular-nums}
+.ta-tts .ta-rate:hover{background:rgba(88,101,242,.18);color:#fff}
+.tts-play{background:none;border:none;cursor:pointer;color:#8a93a0;padding:2px 6px;border-radius:6px;font-size:14px;line-height:1;vertical-align:middle;transition:color .15s,background .15s}
+.tts-play:hover{color:#5865f2;background:rgba(88,101,242,.14)}
+.post.tts-active{background:rgba(88,101,242,.09);box-shadow:inset 3px 0 0 #5865f2;border-radius:6px;transition:background .2s}
+@media(max-width:640px){.ta-tts .ta-time{display:none}.ta-tts .ta-seek{width:60px}}

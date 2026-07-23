@@ -160,61 +160,95 @@
       renderBody(post) + renderReactions(post) + "</div></div>";
   }
 
-  // ---- Per-speaker audio playback ----
-  var __player = { audio: null, order: [], idx: -1, playing: false };
-  function stopPlayer() {
-    if (__player.audio) { __player.audio.pause(); __player.audio = null; }
-    __player.playing = false;
+  // ---- Per-speaker audio player (full control bar, matching site-wide TTS) ----
+  var RATES = [0.75, 1, 1.25, 1.5, 1.75, 2];
+  var __p = {
+    audio: null, order: [], idx: -1, playing: false,
+    rate: parseFloat(localStorage.getItem("ta-tts-rate")) || 1
+  };
+  function bar() { return document.getElementById("ta-tts"); }
+  function setActive(pid) {
     document.querySelectorAll(".post.tts-active").forEach(function (el) { el.classList.remove("tts-active"); });
-    var fab = document.getElementById("tts-fab");
-    if (fab) fab.innerHTML = '<i class="ti ti-player-play"></i><span>朗读全场</span>';
+    if (!pid) return;
+    var el = document.getElementById(pid);
+    if (el) { el.classList.add("tts-active"); el.scrollIntoView({ behavior: "smooth", block: "center" }); }
   }
-  function playPost(pid, chain) {
-    var a = window.__AUDIO && window.__AUDIO[pid];
-    if (!a) return;
-    if (__player.audio) { __player.audio.pause(); __player.audio = null; }
-    document.querySelectorAll(".post.tts-active").forEach(function (el) { el.classList.remove("tts-active"); });
-    var postEl = document.getElementById(pid);
-    if (postEl) { postEl.classList.add("tts-active"); postEl.scrollIntoView({ behavior: "smooth", block: "center" }); }
-    var au = new Audio(a.audio);
-    au.playbackRate = __player.rate || 1;
-    __player.audio = au; __player.playing = true;
-    au.onended = function () {
-      if (postEl) postEl.classList.remove("tts-active");
-      if (chain) {
-        var i = __player.order.indexOf(pid);
-        if (i >= 0 && i + 1 < __player.order.length) { __player.idx = i + 1; playPost(__player.order[i + 1], true); return; }
-      }
-      stopPlayer();
-    };
-    au.play().catch(function () { stopPlayer(); });
+  function fmt(s) { if (!isFinite(s) || s < 0) s = 0; var m = Math.floor(s / 60), x = Math.floor(s % 60); return m + ":" + (x < 10 ? "0" : "") + x; }
+  function updBar() {
+    var b = bar(); if (!b) return;
+    b.querySelector(".ta-play").innerHTML = __p.playing
+      ? '<i class="ti ti-player-pause-filled"></i>' : '<i class="ti ti-player-play-filled"></i>';
+    b.querySelector(".ta-rate").textContent = __p.rate + "×";
+    var n = __p.order.length, i = __p.idx;
+    b.querySelector(".ta-prog").textContent = n ? (Math.max(0, i) + 1) + "/" + n : "–";
+    var au = __p.audio, dur = au && isFinite(au.duration) ? au.duration : 0, cur = au ? au.currentTime : 0;
+    b.querySelector(".ta-fill").style.width = dur ? (cur / dur * 100) + "%" : "0%";
+    b.querySelector(".ta-time").textContent = fmt(cur) + " / " + fmt(dur);
   }
-  function playAll() {
-    if (!window.__AUDIO) return;
-    __player.order = Array.prototype.map.call(document.querySelectorAll(".post"), function (el) { return el.id; })
-      .filter(function (id) { return window.__AUDIO[id]; });
-    if (!__player.order.length) return;
-    var fab = document.getElementById("tts-fab");
-    if (__player.playing) { stopPlayer(); return; }
-    if (fab) fab.innerHTML = '<i class="ti ti-player-stop"></i><span>停止</span>';
-    __player.idx = 0; playPost(__player.order[0], true);
+  function play(pid) {
+    var a = window.__AUDIO && window.__AUDIO[pid]; if (!a) return;
+    if (__p.audio) { __p.audio.pause(); __p.audio = null; }
+    __p.idx = __p.order.indexOf(pid);
+    setActive(pid);
+    var au = new Audio(a.audio); au.playbackRate = __p.rate;
+    __p.audio = au; __p.playing = true;
+    au.ontimeupdate = updBar;
+    au.onloadedmetadata = updBar;
+    au.onended = function () { next(true); };
+    au.play().catch(function () { pause(); });
+    updBar();
+  }
+  function pause() { if (__p.audio) __p.audio.pause(); __p.playing = false; updBar(); }
+  function resume() { if (__p.audio) { __p.audio.play(); __p.playing = true; } else if (__p.order.length) play(__p.order[Math.max(0, __p.idx)]); updBar(); }
+  function toggle() { if (__p.playing) pause(); else resume(); }
+  function next(auto) {
+    if (__p.idx + 1 < __p.order.length) { play(__p.order[__p.idx + 1]); }
+    else { pause(); setActive(null); __p.idx = -1; updBar(); }
+  }
+  function prev() { if (__p.idx > 0) play(__p.order[__p.idx - 1]); else if (__p.audio) __p.audio.currentTime = 0; }
+  function skip(d) { if (__p.audio) { __p.audio.currentTime = Math.max(0, Math.min(__p.audio.duration || 0, __p.audio.currentTime + d)); updBar(); } }
+  function cycleRate() {
+    var i = (RATES.indexOf(__p.rate) + 1) % RATES.length;
+    __p.rate = RATES[i]; localStorage.setItem("ta-tts-rate", __p.rate);
+    if (__p.audio) __p.audio.playbackRate = __p.rate; updBar();
   }
   function attachAudioControls() {
     if (!window.__AUDIO) return;
-    var thread = document.getElementById("thread");
-    thread.addEventListener("click", function (e) {
+    __p.order = Array.prototype.map.call(document.querySelectorAll(".post"), function (el) { return el.id; })
+      .filter(function (id) { return window.__AUDIO[id]; });
+    if (!__p.order.length) return;
+    // click a post's speaker button → jump to that post
+    document.getElementById("thread").addEventListener("click", function (e) {
       var b = e.target.closest && e.target.closest(".tts-play");
-      if (!b) return;
-      e.preventDefault();
-      playPost(b.getAttribute("data-post"), false);
+      if (!b) return; e.preventDefault(); play(b.getAttribute("data-post"));
     });
-    if (!document.getElementById("tts-fab")) {
-      var fab = document.createElement("button");
-      fab.id = "tts-fab"; fab.className = "tts-fab";
-      fab.innerHTML = '<i class="ti ti-player-play"></i><span>朗读全场</span>';
-      fab.addEventListener("click", playAll);
-      document.body.appendChild(fab);
-    }
+    if (bar()) return;
+    var el = document.createElement("div");
+    el.id = "ta-tts"; el.className = "ta-tts";
+    el.innerHTML =
+      '<button class="ta-btn ta-prev" title="上一条"><i class="ti ti-player-track-prev-filled"></i></button>' +
+      '<button class="ta-btn ta-back" title="后退10秒">−10</button>' +
+      '<button class="ta-btn ta-play" title="播放/暂停"><i class="ti ti-player-play-filled"></i></button>' +
+      '<button class="ta-btn ta-fwd" title="前进10秒">+10</button>' +
+      '<button class="ta-btn ta-next" title="下一条"><i class="ti ti-player-track-next-filled"></i></button>' +
+      '<span class="ta-sep"></span>' +
+      '<span class="ta-prog">–</span>' +
+      '<span class="ta-seek"><span class="ta-track"></span><span class="ta-fill"></span></span>' +
+      '<span class="ta-time">0:00 / 0:00</span>' +
+      '<button class="ta-rate" title="速度">1×</button>';
+    document.body.appendChild(el);
+    el.querySelector(".ta-play").onclick = toggle;
+    el.querySelector(".ta-prev").onclick = prev;
+    el.querySelector(".ta-next").onclick = function () { next(false); };
+    el.querySelector(".ta-back").onclick = function () { skip(-10); };
+    el.querySelector(".ta-fwd").onclick = function () { skip(10); };
+    el.querySelector(".ta-rate").onclick = cycleRate;
+    el.querySelector(".ta-seek").onclick = function (ev) {
+      if (!__p.audio || !isFinite(__p.audio.duration)) return;
+      var r = this.getBoundingClientRect();
+      __p.audio.currentTime = (ev.clientX - r.left) / r.width * __p.audio.duration; updBar();
+    };
+    updBar();
   }
 
   function renderLineup(casting) {

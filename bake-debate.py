@@ -17,8 +17,11 @@ THINKERS = {t["id"]: t for t in (_th.get("thinkers") if isinstance(_th, dict) el
 FEMALE = {"arendt","beauvoir","nussbaum","sontag","carstensen","dweck","wood","wolf","boroditsky"}
 # NB: Xiaoshuang / Xiaoyou are Azure's CHILD voices — excluded so no thinker
 # or AI closer sounds like a kid. Pool is adult/mature female voices only.
-FEMALE_V = ["zh-CN-XiaochenMultilingualNeural","zh-CN-XiaoxiaoMultilingualNeural","zh-CN-XiaoyuMultilingualNeural",
-            "zh-CN-XiaoruiNeural","zh-CN-XiaohanNeural","zh-CN-XiaomoNeural","zh-CN-XiaoyanNeural","zh-CN-XiaozhenNeural"]
+# Preferred first: Xiaohan/Xiaoyan/Xiaozhen (natural, unfussy). Xiaorui is
+# theatrical (audiobook narrator) so it sits last as a fallback only.
+FEMALE_V = ["zh-CN-XiaohanNeural","zh-CN-XiaoyanNeural","zh-CN-XiaozhenNeural",
+            "zh-CN-XiaochenMultilingualNeural","zh-CN-XiaoxiaoMultilingualNeural","zh-CN-XiaoyuMultilingualNeural",
+            "zh-CN-XiaomoNeural","zh-CN-XiaoruiNeural"]
 MALE_CN = ["zh-CN-YunyeNeural","zh-CN-YunzeNeural","zh-CN-YunjianNeural","zh-CN-YunfengNeural","zh-CN-YunhaoNeural",
            "zh-CN-YunyangNeural","zh-CN-YunxiNeural","zh-CN-YunjieNeural","zh-CN-YunxiaNeural"]
 MALE_MU = ["zh-CN-YunyiMultilingualNeural","zh-CN-YunfanMultilingualNeural","zh-CN-YunxiaoMultilingualNeural"]

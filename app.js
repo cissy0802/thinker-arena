@@ -539,12 +539,16 @@
   function boot() {
     var id = new URLSearchParams(location.search).get("d") || "happiness";
     // Optional per-speaker TTS: an audio manifest may exist for this debate.
-    // Missing manifest just means no audio yet — the page renders as before.
+    // Only for the Chinese page — the baked audio is Chinese, and the EN page
+    // is served by the site-wide single-voice i18n-tts.js instead.
     var manifestUrl = "audio/debate/" + id + "/manifest.json";
+    var manifestP = (LANG === "zh")
+      ? fetch(manifestUrl).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; })
+      : Promise.resolve(null);
     Promise.all([
       getJSON("thinkers.json"),
       getJSON("debates/" + id + ".json"),
-      fetch(manifestUrl).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; })
+      manifestP
     ])
       .then(function (res) {
         res[0].thinkers.forEach(function (c) { THINKERS[c.id] = c; });

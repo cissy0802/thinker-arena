@@ -85,9 +85,16 @@
   }
   function getJSON(u) { return fetch(u).then(function (r) { if (!r.ok) throw new Error(u + " HTTP " + r.status); return r.json(); }); }
 
-  // ---- voter identity + this browser's own vote per topic ----
-  var voter = localStorage.getItem("bigcat_voter");
-  if (!voter) { voter = "v_" + Math.random().toString(36).slice(2) + Date.now().toString(36); localStorage.setItem("bigcat_voter", voter); }
+  // ---- voter identity: an account (one vote per person, enforced server-side)
+  // The old random localStorage id is gone; net tallies stay public to all.
+  var SESSION_KEY = "bigcat-session";
+  function session() { try { return localStorage.getItem(SESSION_KEY) || ""; } catch (e) { return ""; } }
+  function loginUrl() {
+    var en = /\.en\.html$/i.test(location.pathname) ||
+      (document.documentElement.lang || "").toLowerCase().indexOf("en") === 0;
+    return (en ? "/account.en.html" : "/account.html") +
+      "?next=" + encodeURIComponent(location.pathname + location.search);
+  }
   function myVotes() { try { return JSON.parse(localStorage.getItem("bigcat_topicvotes") || "{}"); } catch (e) { return {}; } }
   function setMyVote(term, dir) { var m = myVotes(); m[term] = dir; localStorage.setItem("bigcat_topicvotes", JSON.stringify(m)); }
 
@@ -181,13 +188,20 @@
 
   // ---- vote casting ----
   function castVote(term, dir, ctl) {
+    if (!session()) { window.location.href = loginUrl(); return; }
     fetch(API + "/vote", {
       method: "POST", headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ poll: term, choice: dir, voter: voter })
+      body: JSON.stringify({ poll: term, choice: dir, session: session() })
     })
       .then(function (r) { return r.json(); })
       .then(function (d) {
-        if (!d.ok) return;
+        if (!d.ok) {
+          if (d.error === "login_required") {
+            try { localStorage.removeItem(SESSION_KEY); } catch (e) {}
+            window.location.href = loginUrl();
+          }
+          return;
+        }
         setMyVote(term, dir);
         var up = (d.tally && d.tally.up) || 0, down = (d.tally && d.tally.down) || 0;
         ctl.querySelector(".net").textContent = up - down;

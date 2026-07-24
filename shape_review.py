@@ -36,6 +36,8 @@ def feats(d):
     rk = frozenset(k for p in posts for k in (p.get("reactions") or {}))
     hooks = d.get("hooks") or []
     hb = Counter(h.get("from") for h in hooks)
+    _ai = {"claude", "gpt", "gemini"}
+    _hai = sum(1 for h in hooks if h.get("from") in _ai)
     sums = d.get("summaries", [])
     def has_num(s):
         return bool(re.search(r"[①②③]|[1-3][\.、)]", s or ""))
@@ -45,6 +47,7 @@ def feats(d):
         "每轮帖数": ppr,
         "钩子数": len(hooks),
         "钩子分布": tuple(sorted("%s:%d" % (k, v) for k, v in hb.items())),
+        "钩子作者类型": "AI%d/思想家%d" % (_hai, len(hooks) - _hai) if hooks else "-",
         "二轮全反一轮": "%d/%d" % (r2_to_r1, len(r2)) if r2 else "-",
         "表态档集合": tuple(sorted(rk)),
         "用了疑惑": "疑惑" in rk,
@@ -64,7 +67,7 @@ print("=" * 70)
 print("形状自评 ·", tid, "· 对比最近", len(R), "场:", "、".join(eid for eid, _ in R) or "(无)")
 print("=" * 70)
 
-SCALARS = ["人数","轮数","每轮帖数","钩子数","钩子分布","二轮全反一轮","表态档集合",
+SCALARS = ["人数","轮数","每轮帖数","钩子数","钩子分布","钩子作者类型","二轮全反一轮","表态档集合",
            "用了疑惑","带glossary帖数","古文帖数","建议带①②③","帖均加粗处"]
 flags = []
 print("\n%-14s %-22s %s" % ("维度", "本场", "最近几场"))

@@ -1,970 +1,970 @@
 {
- "_comment": "议题投票数据。candidates=未辩候选(供投票)，debated=已辩(链到辩论)。投票免 GitHub 登录，存于自建后端(Cloudflare Worker + D1，见 ~/Desktop/cissy0802.github.io/engage-backend/)：每候选一个 poll，key='topic:'+id，choice up/down，净票=👍−👎。votes 字段由 routine 每次跑 `python3 refresh_votes.py`(读后端 /votes-net) 回写；页面 ideas.js 也会实时拉取覆盖显示。观众自提议题在评论 page='thinker-open-questions'，各候选下讨论 page='topic:'+id——routine 读这些把好提案提炼成新 candidates。新候选加进 candidates 即可。",
- "candidates": [
-  {
-   "id": "duty-to-earth",
-   "votes": 0,
-   "q": "我们对地球（其他物种、后代）负有怎样的义务？",
-   "q_en": "What do we owe the Earth — other species, and future generations?",
-   "note": "对其他物种、对尚未出生的后代——我们凭什么索取，又欠下什么？",
-   "note_en": "Toward other species and generations not yet born — by what right do we take, and what do we owe?",
-   "cat": "ethics"
-  },
-  {
-   "id": "liberty-vs-equality",
-   "votes": 0,
-   "q": "自由与平等不可兼得时，该牺牲哪个？",
-   "q_en": "When liberty and equality can't both be had, which should give way?",
-   "note": "自由市场的效率与不平等，还是再分配的公平与强制？现代政治的核心取舍。",
-   "note_en": "The efficiency-and-inequality of free markets, or the fairness-and-coercion of redistribution? The central trade-off of modern politics.",
-   "cat": "ethics"
-  },
-  {
-   "id": "truth-vs-harmony",
-   "votes": 0,
-   "q": "维系和谐，有时是否比说出真相更重要？",
-   "q_en": "Is keeping the peace sometimes more important than telling the truth?",
-   "note": "苏格拉底为真理赴死，孔子讲『和』，阿伦特谈真相与政治——在家庭、职场、社会里，何时该说、何时该忍。",
-   "note_en": "Socrates died for the truth, Confucius prized harmony, Arendt on truth and politics — in family, work, and society, when to speak and when to hold back.",
-   "cat": "self"
-  },
-  {
-   "id": "regret",
-   "votes": 0,
-   "q": "该为过去的选择后悔吗？如何与无法重来的过去和解？",
-   "q_en": "Should we regret the choices we made — and how do we make peace with a past we can't redo?",
-   "note": "『如果当初…』的内疚反复折磨人——克尔凯郭尔、斯多葛、庄子（鼓盆而歌）、佛教放下，各给一套与过去和解的办法。",
-   "note_en": "The 'if only I had…' guilt that keeps gnawing — Kierkegaard, the Stoics, Zhuangzi (drumming and singing at his wife's death), and Buddhist letting-go each offer a way to make peace with what's done.",
-   "cat": "self"
-  },
-  {
-   "id": "legitimacy-of-power",
-   "votes": 0,
-   "q": "国家的权力从何而来、有无正当的边界？",
-   "q_en": "Where does the state's power come from, and does it have legitimate limits?",
-   "note": "社会契约、天命、还是法家的强力？权力的来源与边界，是政治哲学最古老的争点。",
-   "note_en": "Social contract, the Mandate of Heaven, or Legalist force? The source and limits of legitimate power are political philosophy's oldest quarrel.",
-   "cat": "ethics"
-  },
-  {
-   "id": "moral-limits-of-markets",
-   "votes": 0,
-   "q": "有什么是金钱不该买卖的？市场该有边界吗？",
-   "q_en": "Is there anything money shouldn't be able to buy? Should markets have moral limits?",
-   "note": "从代孕、器官到选票与友情——当市场逻辑渗入一切，有没有该守住的非卖品？",
-   "note_en": "From surrogacy and organs to votes and friendship — as market logic seeps into everything, are there things that should stay off the auction block?",
-   "cat": "ethics"
-  },
-  {
-   "id": "abundance-and-decline",
-   "votes": 0,
-   "q": "当物质极度丰裕、不再需要奋斗，人类会不会重演『老鼠乌托邦』式的衰亡？",
-   "q_en": "When material abundance removes all need to struggle, could humanity repeat the collapse of the 'mouse utopia'?",
-   "note": "卡尔霍恩的『25 号宇宙』实验里，食物无限、天敌全无的鼠群最终走向求偶停摆、社交退缩与整体崩溃。当 AI 与富足替人类卸下生存压力，我们会迎来繁荣，还是尼采笔下只求安逸的『末人』、赫胥黎《美丽新世界》式的温柔沉沦？奋斗与匮乏，是否是意义与活力的必要燃料？",
-   "note_en": "In Calhoun's 'Universe 25,' a mouse colony with unlimited food and no predators slid into mating breakdown, social withdrawal, and total collapse. As AI and abundance lift the pressure to survive, will humanity flourish — or become Nietzsche's comfort-seeking 'last man,' a gentle Brave New World decline? Are struggle and scarcity necessary fuel for meaning and vitality?",
-   "cat": "ethics"
-  },
-  {
-   "id": "third-places",
-   "votes": 0,
-   "q": "我们是不是正在失去『第三空间』与闲逛式的日常社交？孤独流行病从何而来？",
-   "q_en": "Are we losing 'third places' and the art of aimless everyday sociability — and where does the loneliness epidemic come from?",
-   "note": "家与公司之外，曾有酒馆、广场、教堂、茶馆、街角小店这样的『第三空间』，让人不带目的地反复遇见同一批人——社会学家奥登伯格说，正是这些地方织起了社区与公共生活。如今它们被通勤、外卖、远程与屏幕悄悄抽空，普特南笔下『独自打保龄』的孤独蔓延开来。这是城市规划与技术的结构性后果，还是个人选择？普通人又如何在生活里重建这些不被绩效考核的相遇？",
-   "note_en": "Beyond home and work there once stood 'third places' — pubs, plazas, temples, teahouses, the corner shop — where people met the same faces again and again without any purpose; the sociologist Ray Oldenburg argued these were what wove community and public life together. Today they are quietly hollowed out by commuting, delivery, remote work, and screens, and the 'bowling alone' loneliness Robert Putnam described spreads. Is this a structural consequence of urban design and technology, or a matter of personal choice — and how does an ordinary person rebuild these unranked, purposeless encounters in daily life?",
-   "cat": "life"
-  },
-  {
-   "id": "assisted-dying",
-   "votes": 0,
-   "q": "当病痛已无可挽回、本人清醒地请求结束，社会该不该允许安乐死与协助死亡？",
-   "q_en": "When suffering is beyond cure and a lucid patient asks to end it, should society permit euthanasia and assisted dying?",
-   "note": "这与『撤管放手』关键不同：那里是停止徒劳的治疗、让自然走完；这里是应本人明确请求、主动结束生命。『让其死去』和『杀死他』之间，真有一道清白的道德界线，还是我们需要它存在？自主权、生命神圣、对弱势者被胁迫的担忧、医生『不伤害』的誓言在此正面相撞。",
-   "note_en": "Crucially different from 'withdrawing life support': there one stops futile treatment and lets nature finish; here one actively ends a life at the patient's explicit request. Is there really a clean moral line between 'letting him die' and 'killing him,' or do we need one to exist? Autonomy, the sanctity of life, fear of coercing the vulnerable, and the physician's oath to 'do no harm' collide head-on.",
-   "cat": "ethics"
-  },
-  {
-   "id": "eat-meat",
-   "votes": 0,
-   "q": "该不该吃肉？动物有没有值得我们尊重的道德地位？",
-   "q_en": "Should we eat meat? Do animals have a moral standing we're bound to respect?",
-   "note": "辛格说，能感受痛苦就该被纳入道德考量，『物种歧视』和种族歧视一样站不住脚；可儒家讲『亲亲而仁民、仁民而爱物』的差等之爱，庄子又说万物齐一。一个你每天在做、却很少严肃质疑的选择。",
-   "note_en": "Singer argues that whatever can suffer deserves moral consideration, and 'speciesism' is as indefensible as racism; yet Confucianism teaches a graded love radiating outward, and Zhuangzi sees all things as one. A choice we make daily but rarely question.",
-   "cat": "ethics"
-  },
-  {
-   "id": "democracy-best",
-   "votes": 0,
-   "q": "民主一定是最好的制度吗？",
-   "q_en": "Is democracy necessarily the best system of government?",
-   "note": "柏拉图把民主比作让乘客投票指挥航船、终将触礁，主张哲人王；托克维尔警惕『多数人的暴政』；法家信赏必罚的强力，熊彼特把民主降格为『精英竞争选票』。一个几乎不容置疑的『神圣价值』，值得被认真盘问一次。",
-   "note_en": "Plato likened democracy to passengers voting to steer a ship onto the rocks, and argued for philosopher-kings; Tocqueville warned of the 'tyranny of the majority'; Legalism trusts strict reward and punishment, and Schumpeter reduced democracy to 'elites competing for votes.' A near-unquestionable 'sacred value' worth interrogating.",
-   "cat": "ethics"
-  },
-  {
-   "id": "play-and-uselessness",
-   "votes": 0,
-   "q": "一定要事事「有意义」吗？「无用」和「玩」本身有没有价值？",
-   "q_en": "Must everything be 'meaningful'? Do uselessness and play have worth in themselves?",
-   "note": "庄子说『无用之用，方为大用』；罗素在《悠闲颂》里抨击把人变成工具的勤奋崇拜；可韦伯笔下的新教伦理早把『不事生产＝罪』刻进现代人骨子里。我们为何一闲下来就愧疚？玩、发呆、做无用之事，是浪费，还是人之为人的必需？",
-   "note_en": "Zhuangzi said 'the use of the useless is the greatest use'; in 'In Praise of Idleness,' Russell attacked the cult of busyness that turns people into tools; yet Weber's Protestant ethic long ago carved 'unproductiveness = sin' into modern bones. Why do we feel guilty the moment we rest? Is play, idling, doing the useless a waste — or what makes us human?",
-   "cat": "self"
-  },
-  {
-   "id": "value-of-suffering",
-   "votes": 0,
-   "q": "痛苦有没有价值？一个彻底没有苦难的世界，值得要吗？",
-   "q_en": "Does suffering have value? Would a world with no suffering at all be worth wanting?",
-   "note": "工程师的本能是优化掉一切不适；可陀思妥耶夫斯基笔下的『地下室人』宁可砸了完美的『水晶宫』，也要保住受苦的自由；尼采说『杀不死我的使我更强』；佛陀却以灭苦为全部修行的目的。赫胥黎《美丽新世界》警告：没有眼泪的幸福，或许不值一过。",
-   "note_en": "An engineer's instinct is to optimize away all discomfort; yet Dostoevsky's 'underground man' would smash the perfect 'crystal palace' rather than surrender the freedom to suffer; Nietzsche says 'what does not kill me makes me stronger'; the Buddha makes the ending of suffering the whole point of practice. Huxley's 'Brave New World' warns: a happiness without tears may not be worth living.",
-   "cat": "life"
-  },
-  {
-   "id": "dark-forest",
-   "votes": 0,
-   "q": "宇宙真的是「黑暗森林」吗？文明之间注定你死我活，还是可能合作？",
-   "q_en": "Is the universe really a 'dark forest'? Are civilizations doomed to mutual annihilation, or can they cooperate?",
-   "note": "刘慈欣用『带枪的猎人、先开枪才能活』来解费米悖论（宇宙这么大，外星人都去哪了）。可这是宇宙的铁律，还是把人类的猜疑与博弈论投射上了星空？合作、沉默，还是先发制人？",
-   "note_en": "Liu Cixin answers the Fermi paradox (where is everybody?) by casting every civilization as an armed hunter who must shoot first to survive. But is this a cosmic law, or our own suspicion and game theory projected onto the stars? Cooperation, silence, or the first strike?",
-   "cat": "meta"
-  },
-  {
-   "id": "higher-dimensions",
-   "votes": 0,
-   "q": "是否存在我们感知不到的更高维空间？",
-   "q_en": "Are there higher dimensions we simply cannot perceive?",
-   "note": "弦理论需要十多个维度，数学自洽却看不见摸不着；从柏拉图的洞穴到『二维生物理解不了三维』的类比——我们会不会也是困在低维、对更高实在一无所知的囚徒？这是物理，还是新的形而上学？",
-   "note_en": "String theory needs ten-plus dimensions — mathematically consistent yet unseeable; from Plato's cave to the analogy of 'a 2D being unable to grasp 3D,' might we too be prisoners trapped in low dimensions, blind to a higher reality? Is this physics, or a new metaphysics?",
-   "cat": "meta"
-  },
-  {
-   "id": "multiverse",
-   "votes": 0,
-   "q": "真的存在平行宇宙吗？",
-   "q_en": "Do parallel universes really exist?",
-   "note": "量子力学的『多世界诠释』说每次测量都分裂出无数个你；宇宙学的暴胀又推出无穷多个泡泡宇宙。它能解释『常数为何刚好适合生命』，可一个永远无法观测、不可证伪的理论，还算科学吗，还是披着方程的信仰？",
-   "note_en": "Quantum mechanics' 'many-worlds' says every measurement splits off countless copies of you; cosmic inflation implies endless bubble universes. It can explain 'why the constants are fine-tuned for life,' but is a theory we can never observe or falsify still science — or faith dressed in equations?",
-   "cat": "meta"
-  },
-  {
-   "id": "does-time-exist",
-   "votes": 0,
-   "q": "时间真的存在吗，还是一种幻觉？",
-   "q_en": "Does time really exist, or is it an illusion?",
-   "note": "物理学家罗韦利说基础方程里根本没有『时间』这个量；爱因斯坦把过去、现在、未来摊平成『块状宇宙』，流逝只是错觉。可我们分明在变老、在记忆、在期待——『现在』的鲜活，是宇宙的事实，还是意识编的故事？",
-   "note_en": "The physicist Rovelli says the fundamental equations contain no quantity called 'time'; Einstein flattens past, present and future into a 'block universe' where passage is an illusion. Yet we plainly age, remember, anticipate — is the vividness of 'now' a fact of the cosmos, or a story consciousness tells?",
-   "cat": "meta"
-  },
-  {
-   "id": "materialism-idealism",
-   "votes": 0,
-   "q": "世界到底是唯物的还是唯心的？意识只是大脑的副产品，还是更根本的实在？",
-   "q_en": "Is the world fundamentally matter, or mind? Is consciousness just a byproduct of the brain, or something more fundamental?",
-   "note": "唯物论说一切归于物质与规律、意识是大脑放的电；唯心/唯识（贝克莱『存在即被感知』、王阳明『心外无物』、佛教唯识）说能确证的只有意识、物质反是心的显现；泛心论折中——意识是宇宙的基本属性。到底哪个在先？",
-   "note_en": "Materialism reduces all to matter and law, with consciousness as the brain's electricity; idealism (Berkeley's 'to be is to be perceived,' Wang Yangming's 'nothing outside the mind,' Buddhist Yogacara) says the one thing we can be sure of is consciousness, and matter is mind's appearance; panpsychism splits the difference — consciousness is a basic feature of the cosmos. Which comes first?",
-   "cat": "meta"
-  },
-  {
-   "id": "nuclear-energy",
-   "votes": 0,
-   "q": "人类该不该大力发展核能？",
-   "q_en": "Should humanity go big on nuclear power?",
-   "note": "切尔诺贝利、福岛的阴影 vs 它是目前最稳定、最高密度的低碳能源；核废料几万年的负担、扩散风险，对上气候危机的紧迫与可再生能源的间歇性。恐惧、概率与未来世代的账，该怎么算？",
-   "note_en": "The shadows of Chernobyl and Fukushima versus the most stable, highest-density low-carbon energy we have; the tens-of-thousands-of-years burden of waste and proliferation risk versus the urgency of the climate crisis and the intermittency of renewables. How do we weigh fear, probability and the ledger of future generations?",
-   "cat": "ethics"
-  },
-  {
-   "id": "climate-action",
-   "votes": 0,
-   "q": "气候变化：面对共识与怀疑，我们该信什么、又该做到什么程度？",
-   "q_en": "Climate change: amid consensus and doubt, what should we believe — and how far should we go?",
-   "note": "暖化且主要人为，是压倒性的科学共识；真正可辩的是另外几层：普通人该如何对待『科学共识』与少数异见（认识论）？该靠减增长、技术乐观（核能/碳捕集）、还是适应？以及——个人改变 vs 制度责任，谁是主战场？",
-   "note_en": "That the planet is warming, mostly from human activity, is an overwhelming scientific consensus; the genuinely debatable layers lie elsewhere: how should ordinary people weigh 'scientific consensus' against a dissenting minority (epistemics)? Degrowth, techno-optimism (nuclear, carbon capture), or adaptation? And — individual change vs systemic responsibility, which is the real battleground?",
-   "cat": "ethics"
-  },
-  {
-   "id": "courage",
-   "votes": 0,
-   "q": "真正的『勇气』是什么——是无所畏惧，还是带着恐惧仍然前行？它能后天习得吗？",
-   "q_en": "What is real courage — being fearless, or moving forward despite fear? And can it be cultivated?",
-   "note": "亚里士多德说勇敢是鲁莽与怯懦之间的『中道』；苏格拉底说它其实是一种智慧——知道什么才真正可怕；马丁·路德·金说勇气不是没有恐惧，而是战胜它。日常的道德勇气（说真话、认错、对抗不公、开始一件可能失败的事）与战场上的血性是一回事吗？它是天生的气质，还是能像肌肉一样练出来？普通人又该如何修得勇气？",
-   "note_en": "Aristotle called courage the 'mean' between rashness and cowardice; Socrates said it is really a kind of wisdom — knowing what is truly to be feared; Martin Luther King said courage is not the absence of fear but the triumph over it. Is everyday moral courage (telling the truth, admitting fault, standing against injustice, starting something that might fail) the same as battlefield nerve? Is it an innate temperament, or can it be trained like a muscle — and how would an ordinary person cultivate it?",
-   "cat": "self"
-  },
-  {
-   "id": "save-or-spend",
-   "votes": 0,
-   "q": "钱到底该省下来、靠复利慢慢滚大，还是该花掉、『千金散尽还复来』地享受当下、投资自己？",
-   "q_en": "Should money be saved to compound over time, or spent — 'spend it all, it comes back again' — to enjoy now and invest in yourself?",
-   "note": "一边是巴菲特式的信条：复利是世界第八大奇迹，节俭、延迟满足、把雪球滚大；一边是李白的『人生得意须尽欢，千金散尽还复来』，和凯恩斯的『节俭悖论』——人人猛存反而拖垮经济、长期看我们都死了。行为经济学还说：多数人既存得太少、又乱花得太多。钱花在体验与自我投资上，和攒成一道安全垫、换来自由，哪个更划算？普通人该做守财的复利信徒，还是及时行乐——又如何在两端拿捏？",
-   "note_en": "On one side, the Buffett creed: compounding is the eighth wonder of the world — be thrifty, defer gratification, roll the snowball bigger. On the other, Li Bai's 'seize joy while you can, for the gold scattered will come again,' and Keynes's 'paradox of thrift' — if everyone hoards, the economy stalls, and in the long run we are all dead. Behavioral economics adds: most people both save too little and spend too carelessly. Is money better spent on experiences and investing in yourself, or banked into a cushion that buys freedom? Should an ordinary person be a thrifty compounding believer or seize the day — and how to strike the balance?",
-   "cat": "self"
-  },
-  {
-   "id": "quiet-quitting",
-   "votes": 0,
-   "q": "给公司打工，到底该投入多少自己？（敬业内卷 vs 安静离职、守住边界）",
-   "q_en": "How much of yourself should you pour into a job? (Devotion and the rat race vs quiet quitting and boundaries)",
-   "note": "『反内卷』『安静离职』是觉醒，还是另一种逃避？把工作当事业，还是当一桩生意？韦伯的新教伦理与『铁笼』、马克思的异化、亚里士多德的卓越、庄子的『无用之用』，争一个打工人该把多少灵魂押进工作。",
-   "note_en": "Are 'anti-overwork' and 'quiet quitting' an awakening, or just another escape? Treat work as a calling, or as a transaction? Weber's Protestant ethic and 'iron cage,' Marx on alienation, Aristotle on excellence, and Zhuangzi's 'usefulness of the useless' argue over how much of your soul to stake on a job.",
-   "cat": "work"
-  },
-  {
-   "id": "algorithmic-management",
-   "votes": 0,
-   "q": "该不该让算法来管人——派活、打分、监控，甚至解雇？",
-   "q_en": "Should algorithms manage people — assigning work, scoring, surveilling, even firing?",
-   "note": "外卖骑手、仓库工人早已被 AI 派单、屏幕监控、自动评分甚至解雇。把管理权与监督权交给算法，是更公平高效、去除人情偏私，还是数字泰勒制——去人性化、无处申诉、出错没人担责？泰勒制与边沁的圆形监狱、福柯的规训、韩非子的『术』、康德『人是目的不是手段』，正面交锋。",
-   "note_en": "Delivery riders and warehouse workers are already dispatched by AI, watched on screen, auto-scored, even fired by algorithm. Handing management and oversight to code — is it fairer and more efficient, stripped of human favoritism, or digital Taylorism: dehumanizing, with nowhere to appeal and no one accountable when it errs? Taylor's scientific management and Bentham's panopticon, Foucault on discipline, Han Feizi's 'technique of control,' and Kant's 'treat people as ends, not means' collide.",
-   "cat": "work"
-  },
-  {
-   "id": "leadership-after-ai",
-   "votes": 0,
-   "q": "当 AI 比谁都懂，领导者还剩什么不可替代的？",
-   "q_en": "When AI knows more than anyone, what's left that only a leader can do?",
-   "note": "当 AI 能做分析、写战略、给出方案，领导的价值还在专业知识吗，还是只剩判断、品味、信任、担责与赋予意义？德鲁克、亚里士多德的『实践智慧』(phronesis)、孔子的『德与信』、海德格尔对技术的追问，再加黄仁勋与奥特曼，争领导力被 AI 掏空后还剩的内核。",
-   "note_en": "When AI can analyze, draft strategy and hand you options, is a leader's value still expertise — or only judgment, taste, trust, accountability and the giving of meaning? Drucker, Aristotle's 'practical wisdom' (phronesis), Confucius on virtue and trust, Heidegger's question concerning technology, plus Huang and Altman, argue over the core of leadership once AI has hollowed out the rest.",
-   "cat": "work"
-  },
-  {
-   "id": "output-or-growth",
-   "votes": 0,
-   "q": "当下属都用 AI 干活，领导该考核产出，还是过程与成长？",
-   "q_en": "When your team does the work with AI, should you judge output, or process and growth?",
-   "note": "如果活是 AI 做的，你评的到底是什么？只看结果，会不会养出一批『只会发指令、自己什么都不会』的人；可要求『亲手做』，又像在抗拒工具。德韦克的成长心态、波兰尼的『默会知识』、亚里士多德、桑内特的匠艺，掂量产出与能力之间该押注哪头。",
-   "note_en": "If AI does the work, what are you actually evaluating? Judge only results and you may breed people who can only issue prompts and do nothing themselves; insist on 'by your own hand' and you look like you're fighting the tool. Dweck's growth mindset, Polanyi's 'tacit knowledge,' Aristotle, and Sennett on craftsmanship weigh whether to bet on output or on capability.",
-   "cat": "work"
-  },
-  {
-   "id": "globalization-or-reshoring",
-   "votes": 0,
-   "q": "全球分工该越分越细、各国各擅其长，还是该把生产搬回本国？（自由贸易 vs 制造业回流）",
-   "q_en": "Should the global division of labor keep deepening — each nation to its strength — or should production be brought home? (Free trade vs reshoring)",
-   "note": "亚当·斯密与李嘉图说：分工与比较优势让各国专精、互通有无，整体更富。可现实里，疫情断供、芯片卡脖子、产业空心化与失业，又把『制造业回流、自给自足』推上台面（如美国近年的关税与回流政策）。是效率与互赖更优，还是安全与韧性优先？李斯特的『幼稚产业』、波兰尼的『社会自我保护』、塔勒布的反脆弱，对垒斯密的自由贸易。",
-   "note_en": "Adam Smith and Ricardo held that the division of labor and comparative advantage let each nation specialize and trade, making all richer. Yet pandemic shortages, chip chokepoints, hollowed-out industry and lost jobs have pushed 'reshoring and self-sufficiency' to the fore (as in recent US tariff-and-reshoring policy). Is efficiency-and-interdependence better, or security-and-resilience first? List's 'infant industries,' Polanyi's 'society protecting itself,' and Taleb's antifragility square off against Smith's free trade.",
-   "cat": "ethics"
-  },
-  {
-   "id": "forgiveness-or-revenge",
-   "votes": 0,
-   "q": "该不该原谅伤害过你的人？宽恕是解脱，还是对受害者的道德绑架？",
-   "q_en": "Should you forgive those who've wronged you? Is forgiveness liberation, or a moral burden laid on the victim?",
-   "note": "孔子偏偏反对以德报怨——主张『以直报怨，以德报德』；基督教却要你『爱你的仇敌』，佛家劝放下，尼采则剖开『怨恨』(ressentiment)如何毒害人。阿伦特说宽恕是唯一能打断因果报复链的行动。可要求受害者『大度』，会不会是二次伤害？",
-   "note_en": "Confucius actually rejected 'repaying injury with virtue,' urging 'repay injury with justice, and virtue with virtue'; Christianity says 'love your enemies,' Buddhism counsels letting go, and Nietzsche dissects how 'ressentiment' poisons the soul. Arendt calls forgiveness the only act that can break the chain of vengeance. Yet does demanding a victim 'be magnanimous' inflict a second wound?",
-   "cat": "self"
-  },
-  {
-   "id": "truth-after-ai",
-   "votes": 0,
-   "q": "当 AI 能伪造一切、『亲眼所见』已死——我们还凭什么相信任何东西？",
-   "q_en": "When AI can fake anything and 'seeing is believing' is dead, on what can we still ground belief in anything?",
-   "note": "deepfake、生成内容淹没一切之后，『眼见为实』彻底失效。古老的怀疑论突然变得灼热：笛卡尔的恶魔、庄周梦蝶（庄子简直为此题而生）、休谟论证言与轻信、福柯的『真相体制』。真伪难辨的时代，我们靠什么重建信任？辛顿、图灵旁观。",
-   "note_en": "Once deepfakes and generated content drown everything, 'seeing is believing' collapses. Ancient skepticism suddenly turns urgent: Descartes's demon, Zhuangzi dreaming he was a butterfly (Zhuangzi seems made for this), Hume on testimony and credulity, Foucault's 'regime of truth.' In an age where real and fake blur, on what do we rebuild trust? With Hinton and Turing looking on.",
-   "cat": "meta"
-  },
-  {
-   "id": "ai-resurrect-dead",
-   "votes": 0,
-   "q": "该不该用 AI「复活」逝去的亲人？（用聊天记录、声音训练一个『TA』来陪伴）",
-   "q_en": "Should you use AI to 'resurrect' a dead loved one — training a 'them' from their messages and voice to keep you company?",
-   "note": "用逝者的数据造一个会说话的『TA』——是慰藉、是亵渎，还是病态地拒绝哀悼？佛家看执取、弗洛伊德分『哀悼与忧郁』、孔子讲『祭如在』（儒家其实早在『模拟』逝者），再加图灵测试的幽灵版。生者的安慰与死者的尊严，哪个优先？",
-   "note_en": "To build a talking 'them' from a dead person's data — comfort, desecration, or a pathological refusal to grieve? Buddhism on clinging, Freud on 'mourning and melancholia,' Confucius on 'sacrifice as if they were present' (Confucians were 'simulating' the dead long ago), plus a ghostly version of the Turing test. Which comes first — the living's solace, or the dead's dignity?",
-   "cat": "life"
-  },
-  {
-   "id": "believe-in-fate",
-   "votes": 0,
-   "q": "该不该信命？算命、八字、星座为何长盛不衰——是迷信，还是另一种自我认知？",
-   "q_en": "Should you believe in fate? Why do fortune-telling and astrology endure — superstition, or another way of knowing yourself?",
-   "note": "求签、八字、星座至今风靡：是廉价的心理安慰、放弃能动性的借口，还是一面帮人看清自己的镜子？孔子『不知命无以为君子』与『敬鬼神而远之』的张力、斯多葛的命运之爱(amor fati)、荣格的共时性、萨特『人是自己选择的总和』正面交锋。",
-   "note_en": "Divination, bazi and astrology still thrive: cheap psychological comfort, an excuse to surrender agency, or a mirror that helps people see themselves? The tension in Confucius between 'without knowing fate one cannot be a gentleman' and 'respect the spirits but keep them at a distance,' the Stoic amor fati, Jung's synchronicity, and Sartre's 'man is the sum of his choices' collide.",
-   "cat": "self"
-  },
-  {
-   "id": "hypocrisy-vs-vice",
-   "votes": 0,
-   "q": "伪善，是不是比赤裸的恶更可恨？道德表演与『人设』，是文明的润滑剂还是腐蚀剂？",
-   "q_en": "Is hypocrisy more contemptible than naked vice? Are moral performance and curated 'personas' civilization's lubricant, or its corrosion?",
-   "note": "拉罗什富科说『伪善是恶行向美德的致敬』——虚伪至少还承认了善的标准。可当人人都在表演道德、经营人设，真诚是否成了奢侈品？康德的诚实绝对律令、儒家『乡愿，德之贼也』、戈夫曼的拟剧论，辩表演与真心的边界。",
-   "note_en": "La Rochefoucauld said 'hypocrisy is the tribute vice pays to virtue' — at least the hypocrite concedes the standard of the good. Yet when everyone performs morality and curates a persona, has sincerity become a luxury? Kant's absolute duty of honesty, the Confucian 'the village worthy is the thief of virtue,' and Goffman's dramaturgy argue the line between performance and a true heart.",
-   "cat": "ethics"
-  },
-  {
-   "id": "death-penalty",
-   "votes": 0,
-   "q": "死刑该废除吗？国家有没有权力剥夺一个人的生命？",
-   "q_en": "Should the death penalty be abolished? Does the state have the right to take a life?",
-   "note": "康德的报应论——杀人者偿命才是对其人格的尊重；贝卡里亚开创废死——国家无权杀人、威慑存疑、冤案不可逆。正义、威慑、报应、人的尊严，以及『以命偿命』到底是正义还是另一桩杀戮，正面相撞。",
-   "note_en": "Kant's retributivism — a life for a life is the only way to respect the murderer as a person; Beccaria, founder of abolitionism — the state has no right to kill, deterrence is doubtful, and a wrongful execution cannot be undone. Justice, deterrence, retribution, human dignity, and whether 'a life for a life' is justice or just another killing collide head-on.",
-   "cat": "ethics"
-  },
-  {
-   "id": "being-envied",
-   "votes": 0,
-   "q": "被人嫉妒该怎么办？——『财不外露』『枪打出头鸟』是自保智慧，还是对平庸的投降？",
-   "q_en": "What should you do when others envy you? Are 'don't flaunt wealth' and 'the nail that sticks up gets hammered' self-protective wisdom, or surrender to mediocrity?",
-   "note": "嫉妒场只治了『嫉妒者』，漏掉了同样日常的另一半——被嫉妒。管理他人嫉妒的隐形成本、示弱表演的代价，以及『敢于被看见地好』是否可能。",
-   "note_en": "The envy debate treated only the envier and missed the equally daily other half — being envied. The hidden cost of managing others' envy, the price of performing weakness, and whether it is possible to be safely, visibly good.",
-   "cat": "self"
-  },
-  {
-   "id": "faith-and-reason",
-   "votes": 0,
-   "q": "哲学能不能独立于宗教？——当理性与信仰冲突，该让哪一个让步？",
-   "q_en": "Can philosophy stand independent of religion — and when reason and faith collide, which should yield?",
-   "note": "阿维森纳、阿威罗伊的『双重真理』，安萨里《哲学家的矛盾》遭阿威罗伊反驳，迈蒙尼德调和雅典与耶路撒冷，阿奎那的自然神学，直到今天的世俗理性——理性与启示能否共处，谁为谁划界？",
-   "note_en": "Averroes' 'double truth,' al-Ghazali's Incoherence of the Philosophers answered by Averroes, Maimonides reconciling Athens and Jerusalem, Aquinas's natural theology, down to modern secular reason — can reason and revelation coexist, and who bounds whom?",
-   "cat": "meta"
-  },
-  {
-   "id": "work-life-balance",
-   "votes": 0,
-   "q": "「工作与生活的平衡」是能达成的状态，还是一句自我安慰？到底有没有平衡，还是只有取舍？",
-   "q_en": "Is work–life balance an achievable state or a comforting myth — is there balance at all, or only tradeoffs?",
-   "note": "短期里时间精力是零和，『平衡』常被当成能一劳永逸的稳态，达不到反增愧疚；可它也能指长周期的季节轮换、或工作即生活的一部分而非对立面，而『只有取舍』又容易把 996 这类制度问题私人化。Naval『没有平衡，只有优先级』对上罗素《悠闲颂》、塞内卡《论生命之短暂》、凯恩斯的闲暇预言，与纽波特的深度／边界。",
-   "note_en": "In the short run time and energy are zero-sum, and 'balance' is often treated as a steady state to be reached once and for all — falling short only breeds guilt; yet 'balance' can also mean seasons rotating over a long life, or work as part of life rather than its opposite, while 'only tradeoffs' risks privatizing structural problems like the 996 grind. Naval's 'no balance, only priorities' against Russell's In Praise of Idleness, Seneca's On the Shortness of Life, Keynes's leisure prophecy, and Newport's depth/boundaries.",
-   "cat": "self"
-  },
-  {
-   "id": "science-needs-philosophy",
-   "votes": 0,
-   "q": "科学还需要哲学吗？——『闭嘴计算』能走多远？",
-   "q_en": "Does science still need philosophy — and how far can 'shut up and calculate' go?",
-   "note": "量子力学的测量问题悬置百年，量子计算机照样开跑：不理解也能使用，是知识的常态还是文明的隐患？工程能否永远替代解释？当模型越来越准、越来越黑箱（从量子到AI），『解释』还算不算科学的义务？",
-   "note_en": "Quantum mechanics' measurement problem has hung unresolved for a century, yet quantum computers run anyway: is using-without-understanding the normal condition of knowledge, or a civilizational hazard? Can engineering forever substitute for explanation? As models grow ever more accurate and more black-box (from quanta to AI), is 'explaining' still part of science's job?",
-   "cat": "meta"
-  },
-  {
-   "id": "gardener-or-carpenter",
-   "votes": 0,
-   "q": "园丁还是木匠？——父母该「雕琢」孩子，还是营造环境让他自己长成？",
-   "q_en": "Gardener or carpenter — should parents shape the child, or cultivate the soil and let them grow unpredictably?",
-   "note": "高普尼克《园丁与木匠》：木匠按蓝图把孩子雕成想要的样子，园丁只管土壤、静待不可预知的花开——控制/设计 vs 涌现/放手。皮亚杰的建构主义（知识是孩子自己建的）、卢梭《爱弥儿》的自然教育，对上东亚『栽培』传统与孟子『揠苗助长』的反木匠寓言。它比『鸡娃 vs 放手』更根本：不是使多大劲，而是父母到底该不该塑造。",
-   "note_en": "Gopnik's The Gardener and the Carpenter: the carpenter carves the child to a blueprint, the gardener only tends the soil and awaits an unpredictable bloom — control/design vs emergence/letting-go. Piaget's constructivism (the child builds knowledge) and Rousseau's Emile against the East Asian 'cultivation' tradition and Mencius's anti-carpenter parable of not pulling up sprouts. Deeper than 'push vs let go': not how hard, but whether parents should shape at all.",
-   "cat": "life"
-  },
-  {
-   "id": "early-excellence",
-   "votes": 0,
-   "q": "「优秀」是会自我实现的滚雪球，还是幸存者偏差＋标签的诅咒？——早慧到底是祝福还是枷锁？",
-   "q_en": "Is 'excellence' a self-fulfilling snowball, or survivorship bias plus the curse of the label — is being a prodigy a blessing or a cage?",
-   "note": "皮格马利翁效应、马太效应、自我效能，会让早早的优秀滚成越来越大的优势雪球；可德韦克发现『夸聪明』养出固定型思维、害怕跌下神坛反而不敢冒险，早慧者又常背上『空心』与均值回归。优秀到底是被正反馈制造出来的良性循环，还是幸存者偏差加上标签的枷锁？我们又该怎么教孩子？",
-   "note_en": "The Pygmalion effect, the Matthew effect, and self-efficacy can snowball early excellence into an ever-widening advantage; yet Dweck found that praising 'smartness' breeds a fixed mindset and a fear of falling that discourages risk, while prodigies often carry hollowness and regression to the mean. Is excellence a virtuous circle manufactured by positive feedback, or survivorship bias plus the cage of a label — and how then should we raise children?",
-   "cat": "self"
-  },
-  {
-   "id": "mental-suffering",
-   "votes": 0,
-   "q": "精神痛苦，是该吃药修复的『脑病』，还是对处境的正常/有意义反应？——把痛苦一律药物化，是解脱还是消音？",
-   "q_en": "Is mental suffering a 'brain disease' to be fixed with medication, or a normal, meaningful response to one's situation — is medicating all pain relief, or silencing?",
-   "note": "抑郁到底是『血清素失衡』要靠 SSRI 修的脑病，还是身体对糟糕处境（或存在困境）发出的正常信号？萨波尔斯基的生物化学决定论对上弗兰克尔的意义疗法（痛苦可以有意义，别急着消除）、萨斯的『精神病的神话』（问题是生活的，不是脑子的病）、福柯的『什么被定义成病』，再加哈里斯谈冥想与意识。接得住 value-of-suffering，但切的是医学化 vs 意义这条新轴。",
-   "note_en": "Is depression a 'serotonin imbalance' brain disease to be fixed by SSRIs, or a normal signal the body sends about a bad situation (or an existential bind)? Sapolsky's biochemical determinism meets Frankl's logotherapy (suffering can hold meaning — don't rush to erase it), Szasz's 'myth of mental illness' (problems are of living, not of the brain), Foucault on what gets defined as illness, plus Harris on meditation and consciousness. It picks up value-of-suffering but cuts a new axis: medicalization vs meaning.",
-   "cat": "self"
-  },
-  {
-   "id": "health-vs-liberty",
-   "votes": 0,
-   "q": "为了公共健康，国家能限制个人自由到什么程度？（强制疫苗、封控、糖税、禁烟）",
-   "q_en": "For the sake of public health, how far may the state limit individual freedom (mandatory vaccines, lockdowns, sugar taxes, smoking bans)?",
-   "note": "2020 年代最撕裂的真问题：密尔的『伤害原则』止于何处？福柯的『生命权力』——现代国家正是靠管理『人口的健康』来行使治理，对上伯林的消极自由、洛克的个人权利，与功利主义/公共卫生的集体福祉正面交锋。个人自主 vs 集体安全，边界到底划在哪。",
-   "note_en": "The most divisive real question of the 2020s: where does Mill's 'harm principle' stop? Foucault's 'biopower' — the modern state governs precisely by managing 'the health of the population' — meets Berlin's negative liberty and Locke's individual rights, colliding head-on with the utilitarian/public-health case for collective welfare. Personal autonomy vs collective safety: where exactly is the line?",
-   "cat": "ethics"
-  },
-  {
-   "id": "medicalization",
-   "votes": 0,
-   "q": "我们是不是把太多正常的人生状态『医学化』成了病？——过度诊断与 DSM 扩张，是进步还是合谋？",
-   "q_en": "Have we 'medicalized' too many ordinary states of life into diseases — is overdiagnosis and the expanding DSM progress, or a collusion?",
-   "note": "悲伤、害羞、衰老、多动、更年期……被一个个贴上诊断、开出药方。伊里奇的『医源性疾病』（医疗把人生问题变成医疗问题、反噬健康）、萨斯的『精神病的神话』、福柯的临床医学与生命权力，对上现代医学实打实的救命成就与『早诊早治』。是医学的进步，还是大药厂与『把人生外包给医疗』的合谋？",
-   "note_en": "Sadness, shyness, aging, restlessness, menopause — each gets a diagnosis and a prescription. Illich's iatrogenesis (medicine turning problems of living into medical problems and harming health), Szasz's 'myth of mental illness,' and Foucault's clinic and biopower meet the real life-saving gains of modern medicine and 'catch it early.' Progress, or a collusion of Big Pharma and outsourcing life to medicine?",
-   "cat": "ethics"
-  },
-  {
-   "id": "test-loyalty",
-   "votes": 0,
-   "q": "忠诚该不该被考验？——一段只有在不被验证时才成立的信任，算不算真的信任？",
-   "q_en": "Should loyalty be tested — and is a trust that holds only while unverified really trust at all?",
-   "note": "有人设局（雇假第三者）去测忠诚，得出『人性经不起考验』；但设局是选择偏差＋优化过的对抗攻击＋钓鱼制造机会，测不到真东西。更根本的是：暗中考验已把信任换成了监控，而且『以欺骗求诚实』自相矛盾——你先做了你最怕对方做的事。康德（把人当工具、欺骗的悖论）、亚里士多德（一次设局测不出稳定德性）、博弈论（信任是一种代价高昂的信号）、儒家的『诚』与『信』正面交锋。",
-   "note_en": "Some set a trap (hiring a fake third party) to test loyalty and conclude 'human nature can't withstand testing'; but the trap is selection bias plus an optimized adversarial attack plus entrapment that manufactures the opportunity — it can't measure the real thing. More fundamentally: covert testing has already swapped trust for surveillance, and 'seeking honesty through deception' is self-contradictory — you've done the very thing you feared. Kant (treating people as means; the paradox of deception), Aristotle (one staged trap can't reveal settled virtue), game theory (trust as a costly signal), and the Confucian 'sincerity' and 'trust' meet head-on.",
-   "cat": "life"
-  },
-  {
-   "id": "moral-universals-or-relativism",
-   "votes": 0,
-   "q": "有没有放之四海皆准的美德，还是善恶本就因文化、时代而异？——我们该向谁的道德看齐？",
-   "q_en": "Are there universal virtues, or are good and evil relative to culture and era — whose morality should we measure by?",
-   "note": "同一件事，一处的美德可能是另一处的恶习：孝顺、忠诚、勇敢的内容随文化而变，甚至彼此冲突。道德是可跨文明求真的『一套』，还是各有各的约定？休谟的『是与应当』、尼采的价值重估、孔子的礼、人类学的文化相对论各执一端——若无共同标尺，宽容与批判又各以何为据？",
-   "note_en": "The same act can be a virtue in one place and a vice in another: the content of filial duty, loyalty and courage shifts with culture and can even conflict. Is morality a single truth pursuable across civilisations, or a set of local conventions? Hume's is–ought gap, Nietzsche's revaluation of values, Confucian ritual and anthropological cultural relativism pull in different directions — and without a shared measure, on what do tolerance and critique each rest?",
-   "cat": "ethics"
-  },
-  {
-   "id": "read-people-in-ai-age",
-   "votes": 0,
-   "q": "AI 时代，最稀缺的会不会是『会读人』？——读懂人、拿捏分寸、维系信任的社会情感能力，机器能取代吗？",
-   "q_en": "In the age of AI, is 'reading people' the scarcest skill of all? — can machines take over the social-emotional judgment of understanding others, gauging tone, and holding trust?",
-   "note": "当分析与检索被 AI 商品化，认知型能力普遍贬值，最难被机器接管的也许是对人的判断：读一张脸、掂一句话的分寸、在冲突里维系信任。这类社会/情感智能长期被『智力』话语忽略，却可能在 AI 时代最保值。可请 EQ/共情研究者、谈判专家、达马西奥（情绪与决策）、庄子（人情世故）等对打。",
-   "note_en": "As analysis and retrieval are commoditized by AI and cognitive skills broadly depreciate, what may be hardest for machines to take over is judgment about people: reading a face, weighing the tone of a sentence, holding trust through conflict. Such social/emotional intelligence has long been sidelined by 'intelligence' talk, yet may hold its value best in the age of AI. Could pit EQ/empathy researchers, negotiation experts, Damasio (emotion and decision), and Zhuangzi (worldly wisdom) against one another.",
-   "cat": "self"
-  },
-  {
-   "id": "how-knowledge-becomes-obvious",
-   "q": "一个想法是怎么从『离经叛道』变成『天经地义』的？——常识是被发现的真理，还是被慢慢驯化的人造物？",
-   "q_en": "How does an idea go from heresy to common sense? Is common knowledge a discovered truth, or a slowly domesticated human artifact?",
-   "note": "零、负数、虚数都曾被斥为荒谬、抵制数百年才成正典——常识的形成史。可带进库恩（范式转移）、福柯（知识型）、拉图尔、玛丽·道格拉斯，对上实在论。　并延伸：我们笃信的『客观』有多少是靠制度与把关共同体（审稿、挑错、共同认账）在替我们担保？抽掉这群人，确定性会不会发软？",
-   "note_en": "Zero, negatives and imaginary numbers were once denounced as absurd and resisted for centuries before entering the canon — the making of common sense. Could bring in Kuhn (paradigm shift), Foucault, Latour, Mary Douglas, against realism. And by extension: how much of the 'objectivity' we trust is underwritten by institutions and a gatekeeping community (peer review, error-catching, shared acceptance)? Remove them and does certainty go soft?",
-   "cat": "meta",
-   "votes": 0
-  },
-  {
-   "id": "beauty-as-capital",
-   "votes": 0,
-   "q": "外貌在多大程度上是一种『资本』？——该承认颜值红利、好好经营，还是该抵制这种不公？",
-   "q_en": "To what extent are looks a form of 'capital' — should we acknowledge and cultivate the beauty premium, or resist it as unjust?",
-   "note": "招聘、相亲、镜头前，好看的人确有实打实的溢价（『颜值红利』）。这是该像投资技能一样经营的社会资本，还是一种该被抵制的、给人贴标签的不公？经济学（贝克尔、哈基姆的『情色资本』）对上正义论与女性主义。",
-   "note_en": "In hiring, dating, and on camera, the good-looking enjoy a real premium ('pretty privilege'). Is this social capital to be cultivated like a skill, or an unjust, labeling advantage to be resisted? Economics (Becker, Hakim's 'erotic capital') meets theories of justice and feminism.",
-   "cat": "ethics"
-  },
-  {
-   "id": "emotion-needs-body",
-   "votes": 0,
-   "q": "情绪是身体的事，还是头脑的事？——离开心跳、肠胃与荷尔蒙这些身体反应，还会有真正的喜怒哀乐吗？",
-   "q_en": "Is emotion a matter of the body or the head? — without a racing heart, a churning gut and hormones, could there still be real joy, anger or grief?",
-   "note": "詹姆斯说『先有身体反应，才有情绪』，达马西奥的『躯体标记』把感受落到内脏；可斯多葛与认知派说情绪本是判断、是想法。到底是身体先动、心随其后，还是反过来？练情绪，该练身体还是练念头？",
-   "note_en": "William James said the bodily reaction comes first and the emotion follows; Damasio’s “somatic markers” ground feeling in the viscera; yet the Stoics and cognitive theorists hold that emotion just is a judgment, a thought. Does the body move first and the mind follow, or the reverse? To train emotion, do you train the body or the thought?",
-   "cat": "self"
-  },
-  {
-   "id": "who-owns-the-words",
-   "votes": 0,
-   "q": "当权力把『裁员』改叫『优化』，我们还能守住自己的判断吗？——委婉语、行话与口号如何不禁止你开口就替你预设结论。",
-   "q_en": "When power renames 'layoffs' as 'optimization,' can we still hold on to our own judgment?",
-   "note": "委婉语、行话与政治口号如何在不禁止你开口的情况下替你预设结论；乔姆斯基的『制造同意』，普通人识破话术、还原朴素事实的自保之道。　也含法律/金融/学术『黑话』——是必要的精确，还是把人挡在门外的墙？清晰表达是不是一种被低估的正义（鲁迅白话之问）。",
-   "note_en": "How euphemism, jargon and slogans preset your conclusions without ever forbidding you to speak; Chomsky's 'manufacturing consent,' and how an ordinary person sees through the spin and restores the plain fact. It also covers legal/financial/academic jargon — necessary precision, or a wall that keeps people out? Is plain speech an underrated form of justice (Lu Xun's vernacular question)?",
-   "cat": "ethics"
-  },
-  {
-   "id": "beauty-and-evil",
-   "votes": 0,
-   "q": "一件东西可以既美又坏吗？——宣扬暴政的建筑、为恶辩护的诗也可技艺精湛，美的形式与恶的内容并存时，该被打动还是该警惕？",
-   "q_en": "Can a thing be both beautiful and evil?",
-   "note": "宣扬暴政的建筑、为恶辩护的诗也可技艺精湛——美的形式与恶的内容并存时，该被打动还是该警惕？",
-   "note_en": "A building that glorifies tyranny, a poem that pleads for cruelty, can still be masterful — when beautiful form houses evil content, should we be moved or wary?",
-   "cat": "ethics"
-  },
-  {
-   "id": "express-ambition",
-   "votes": 0,
-   "q": "职场教人「低调谦逊、别张扬野心」，是普世的处世智慧，还是让老实人吃亏、并专门规训女性与弱势者的枷锁？",
-   "q_en": "Is the workplace counsel to 'stay humble, don't flaunt ambition' universal wisdom, or a yoke that penalizes the honest and disciplines women and the disadvantaged in particular?",
-   "note": "还是『藏 vs 露』的老张力，但轴不在『哪个更聪明』，而在『这条规范到底服务了谁』：同样的野心，男性表达叫领导力，女性表达常被判 aggressive（有实证的双重标准）；谦逊文化是处世智慧，还是让敢开口者系统性占了老实人便宜？亚当·格兰特（给予者/索取者）、里德·霍夫曼（做自己的经纪人）、道金斯（藏与露本是一对 ESS 博弈策略）、老子/庄子（不争）对上尼采（权力意志），桑塔格/波伏娃（性别双标）。区别于 being-envied（那道谈已成功后如何应对他人嫉妒）。",
-   "note_en": "Still the old 'hide vs show' tension, but the axis is not 'which is smarter' — it's 'whom does this norm actually serve.' The same ambition reads as leadership from a man and as 'aggressive' from a woman (an empirically documented double standard); is a culture of humility worldly wisdom, or does it let the outspoken systematically exploit the modest? Adam Grant (givers/takers), Reid Hoffman (be your own agent), Dawkins (hide vs show as a pair of ESS strategies), Laozi/Zhuangzi (non-contention) against Nietzsche (will to power), Sontag/Beauvoir (the gender double standard). Distinct from being-envied, which is about handling others' envy once you've already succeeded.",
-   "cat": "work"
-  },
-  {
-   "id": "spiritual-bypass-or-wisdom",
-   "votes": 0,
-   "q": "「一切皆修行、随遇而安」是通透的智慧，还是让人对不公逆来顺受的麻醉剂？",
-   "q_en": "Is 'everything is practice, accept what comes' true wisdom, or an anesthetic that makes us submit to injustice?",
-   "note": "把苦难、劳作、逆境都收进『修行』与『放下』，能让人在无力处安身；可同一句话，也可能让人对本可改变的不公一并认命——修心与抗争，是同一条路，还是有时互相拆台？另一层：成功学的『上进、建构自我』与佛学的『无我、放下』，能否按人生阶段各就其位（新手要身份脚手架、高手拆架子），还是根本二选一？而一旦把『无我』当成提升表现的药『在对的时刻服用』，这份工具化的机心，是否正是它要人放下的病？王阳明、慧能、庄子、阿德勒、德韦克、纽波特可辩。",
-   "note_en": "Folding suffering, toil and adversity all into 'practice' and 'letting go' lets a person find footing where they are powerless; yet the same words can make one resign to injustice that could be changed — are inner cultivation and resistance one road, or do they sometimes undercut each other? A second layer: can the self-help creed of 'strive, build a self' and Buddhism's 'no-self, let go' each take their place by life stage (the beginner needs an identity scaffold, the master dismantles it), or is it finally either/or? And once you take 'no-self' as a pill to improve performance, 'to be swallowed at the right moment,' is that instrumentalizing calculation not the very disease it asks you to drop? For Wang Yangming, Huineng, Zhuangzi, Adler, Dweck, Newport to debate.",
-   "cat": "self"
-  },
-  {
-   "id": "youth-career-or-explore",
-   "votes": 0,
-   "q": "趁年轻，该拼命搏一份事业，还是先去世界各地走走看看？——阅历与事业，哪个更经不起等？",
-   "q_en": "When young, should you throw yourself into building a career, or first go see the world?",
-   "note": "阅历与事业哪个更经不起等？观众提案：趁体力、自由与好奇心最盛时去看世界，还是趁窗口期攒下复利般的事业资本——错过的那个，还补得回来吗？",
-   "note_en": "Which can least afford to wait — experience or a career? An audience proposal: spend your peak of energy, freedom and curiosity seeing the world, or use the window to compound career capital — and can whichever you skip ever be recovered?",
-   "cat": "life"
-  },
-  {
-   "id": "charity-vs-justice",
-   "votes": 0,
-   "q": "对远方的苦，我们首先该做的是慈善，还是先停止自己正在参与的伤害？",
-   "q_en": "Toward distant suffering, is our first duty charity — or to stop the harm we ourselves take part in?",
-   "note": "很多远方之苦不是天灾，而是我们从中获利的系统所造。止损（正义）与补偿（善心）该不该分个先后？　还有『怎么帮』：居高临下的善意、救世主心态与依赖，会不会连尊严一起夺走——最好的帮助是不是让对方最终不再需要你？",
-   "note_en": "Much distant suffering is no accident but the product of systems we profit from. Should stopping harm (justice) come before compensating for it (charity)? And how one helps: does condescending goodwill, a savior complex and dependence strip away dignity too — is the best help the kind that ends the need for you?",
-   "cat": "ethics"
-  },
-  {
-   "id": "efficiency-vs-resilience",
-   "votes": 0,
-   "q": "凡事都追求『最优／高效』，是不是正在系统性地掏空我们的韧性？——冗余、备份、『暂时没用的多样』，该不该刻意保留？",
-   "q_en": "By chasing 'optimal' and 'efficient' in everything, are we systematically hollowing out our resilience? Should redundancy, backups, and 'currently useless' variety be deliberately kept?",
-   "note": "从供应链到个人生活，我们把冗余当浪费一路砍掉，换来风平浪静时的高效；可韧性恰恰藏在那些『用不上』的备份、多样与慢里。效率与韧性能不能兼得，还是终究得取舍？该在哪里刻意留白？",
-   "note_en": "From supply chains to personal life, we cut redundancy as waste and buy efficiency for calm times; yet resilience lives precisely in the backups, variety and slack that look 'useless.' Can efficiency and resilience coexist, or must we trade them off — and where should we deliberately leave slack?",
-   "cat": "meta"
-  },
-  {
-   "id": "walden-simple-living",
-   "votes": 0,
-   "q": "该主动过「极简 / 少欲」的生活吗？——梭罗式的「简化，再简化」是通往自由与清醒的智慧，还是一种特权、逃避、甚至另一种精致的消费主义？",
-   "q_en": "Should we deliberately live simply — is Thoreau's 'simplify, simplify' the road to freedom and lucidity, or a privilege, an escape, even a refined form of consumerism?",
-   "note": "《瓦尔登湖》的激进主张不是『别追求成功』，而是砍掉欲望本身、自食其力、退到自然里审慎地活——真正的财富是可自由支配的时间。梭罗、第欧根尼（自足）、老子（少私寡欲）、庄子（无用之用）、伊壁鸠鲁（欲望三分）、佛陀（少欲）、弗洛姆（占有还是存在）对上马克思（退隐是逃避、问题在系统不在你的欲望）、纳瓦尔（现代财务自由版）、以及『消费是社会信号、简朴解不了攀比』的凡勃伦式视角。自带三记反驳：特权（有退路才玩得起）、逃避（弃社会责任）、被收编（极简成了美学与生意）。",
-   "note_en": "Walden's radical claim is not 'don't chase success' but cut the wants themselves, be self-reliant, withdraw into nature to live deliberately — real wealth is time you can freely spend. Thoreau, Diogenes (self-sufficiency), Laozi (few desires), Zhuangzi (the use of the useless), Epicurus (three classes of desire), the Buddha (few wants), Fromm (To Have or To Be) against Marx (withdrawal is escape; the problem is the system, not your wants), Naval (a modern financial-freedom version), and a Veblen-style view that consumption is a social signal simplicity cannot cure. It carries three rebuttals: privilege (only the cushioned can opt out), escapism (abandoning social duty), and co-optation (minimalism turned into an aesthetic and a business).",
-   "cat": "self"
-  },
-  {
-   "id": "social-interest-or-self",
-   "votes": 0,
-   "q": "阿德勒说「社会兴趣」是心理健康与幸福的关键——被高估了，还是真的那把尺？独处、自我实现、离经叛道，是病还是另一种活法？",
-   "q_en": "Adler says 'social interest' is the key to mental health and happiness — is it overrated, or really the yardstick? Are solitude, self-realization and nonconformity a sickness, or another way to live?",
-   "note": "阿德勒的强命题：与人联结、为共同体贡献是心理健康的标尺，一切痛苦都是社会兴趣的匮乏（《被讨厌的勇气》）。锋利处在于它把独行者、隐士、不合群的天才都量成『不健康』。正方：阿德勒 × 亚里士多德（人是政治动物）× 马克思（人是社会关系的总和）× 弗洛姆 × 萨波尔斯基（社会联结的神经缓冲，呼应白厅）；反方：弗洛伊德（宿敌·驱力是个人的、文明与个人不可调和）× 尼采（超人·反从众）× 萨特（他人即地狱）× 庄子/佛陀（向内的解脱）。阿德勒 vs 弗洛伊德同台是戏眼。区别于 third-places（孤独社会学）与 intimacy-recession（亲密关系）。",
-   "note_en": "Adler's strong claim: connectedness and contribution to community are the yardstick of mental health, and all suffering is a deficit of social interest (popularized by The Courage to Be Disliked). Its sharp edge is that it measures the loner, the hermit and the nonconforming genius as 'unhealthy.' For: Adler × Aristotle (man is a political animal) × Marx (the self is the sum of social relations) × Fromm × Sapolsky (the neural buffer of social connection, echoing Whitehall); against: Freud (his old rival — drives are individual, individual and civilization irreconcilable) × Nietzsche (the overman, anti-herd) × Sartre (hell is other people) × Zhuangzi/Buddha (inward liberation). Adler vs Freud on one stage is the centerpiece. Distinct from third-places (sociology of loneliness) and intimacy-recession (romantic relationships).",
-   "cat": "self"
-  },
-  {
-   "id": "nde-mind-beyond-brain",
-   "votes": 0,
-   "q": "濒死体验证明了意识能脱离大脑吗？——它是灵魂离体的证据，还是垂死大脑的最后一场烟花？",
-   "q_en": "Do near-death experiences prove consciousness can leave the brain — evidence of a soul departing the body, or the dying brain's last fireworks?",
-   "note": "隧道/离体/一生走马灯/见故人/极度平静——濒死体验跨文化一致、常改变一生。争点不在『体验是否真实』（千真万确），而在它是否证明意识能脱离大脑。大脑派：缺氧与二氧化碳、氯胺酮能复制、颞顶联合区可诱发离体、垂死伽马波爆发、事后记忆重构；意识为本/灵魂派：AWARE 研究里个别『离体看到细节』、脑电近平坦却生出最清晰体验的悖论。『神奇案例』多被幸存者偏差放大。世亲·唯识（意识为本）、佛陀 对 萨波尔斯基/达马西奥/拉马钱德兰（脑机制）、萨姆·哈里斯（懂神经又认真对待意识、但不信灵魂），加一个『解释了机制≠解释了体验与意义』的哲学立场。是 materialism-idealism 的一个具体、有画面感的战场。",
-   "note_en": "Tunnel, out-of-body, life review, meeting the dead, deep peace — near-death experiences are cross-culturally consistent and often life-changing. The dispute is not whether the experience is real (it undeniably is) but whether it proves consciousness can leave the brain. Brain side: hypoxia and CO2, ketamine reproduces it, the temporoparietal junction can induce OBEs, a dying gamma-wave surge, retrospective memory construction; consciousness-primary/soul side: the odd 'saw a detail while out of body' in the AWARE study, and the paradox of the clearest experience arising while EEG is near-flat. The 'miraculous' cases are inflated by survivorship bias. Vasubandhu (consciousness-only) and the Buddha against Sapolsky/Damasio/Ramachandran (brain mechanisms) and Sam Harris (a neuroscientist who takes consciousness seriously yet rejects a soul), plus a philosophical stance that explaining the mechanism is not explaining the experience or its meaning. A concrete, vivid battlefield for materialism-idealism.",
-   "cat": "meta"
-  }
- ],
- "debated": [
-  {
-   "id": "happiness",
-   "q": "幸福到底是什么？我们是否应该追求幸福？",
-   "q_en": "What is happiness, really? And should we even pursue it?",
-   "date": "2026-06-13",
-   "cat": "self"
-  },
-  {
-   "id": "attention-and-meaning",
-   "q": "AI 时代，人如何夺回注意力与存在的意义？",
-   "q_en": "In the age of AI, how do we reclaim our attention and the meaning of our existence?",
-   "date": "2026-06-13",
-   "cat": "self"
-  },
-  {
-   "id": "ai-unemployment",
-   "q": "AI 取代工作后，人类是否迎来存在危机？普通人怎样面对中年失业？",
-   "q_en": "After AI replaces human work, will humanity face an existential crisis? How should ordinary people cope with mass midlife unemployment?",
-   "date": "2026-06-13",
-   "cat": "ethics"
-  },
-  {
-   "id": "family-trauma",
-   "q": "原生家庭的创伤：我们多大程度被童年塑造？能否走出？能否改变父母？",
-   "q_en": "Trauma from the family we're born into: how much does childhood shape us, can we move past it, and can we change our parents?",
-   "date": "2026-06-13",
-   "cat": "life"
-  },
-  {
-   "id": "ai-augment-or-atrophy",
-   "q": "AI 与算法：在增强我们，还是在让我们退化？",
-   "q_en": "AI and algorithms: are they augmenting us, or making us atrophy?",
-   "date": "2026-06-14",
-   "cat": "self"
-  },
-  {
-   "id": "ai-era-parenting",
-   "q": "AI 时代该怎么养孩子？——拼命鸡娃、挤名校到底还值不值得？",
-   "q_en": "Raising kids in the age of AI: is intense “tiger parenting” and chasing elite schools still worth it?",
-   "date": "2026-06-15",
-   "cat": "life"
-  },
-  {
-   "id": "management-flattening",
-   "q": "科技大厂的『扁平化』——一个经理带 30–50 人，会成为常态吗？",
-   "q_en": "Big-tech 'flattening' — one manager over 30–50 reports: is this the new normal?",
-   "date": "2026-06-15",
-   "cat": "work"
-  },
-  {
-   "id": "is-there-a-creator",
-   "q": "是否有“造物主”，如果有的话，TA为什么要造出人类？",
-   "q_en": "Is there a 'Creator'? And if so, why would they have made humankind?",
-   "date": "2026-06-16",
-   "cat": "meta"
-  },
-  {
-   "id": "what-makes-good-manager",
-   "q": "一个好的『管理者』，到底是怎样的？",
-   "q_en": "What actually makes a good manager?",
-   "date": "2026-06-16",
-   "cat": "work"
-  },
-  {
-   "id": "knowing-vs-doing",
-   "q": "“知道”和“做到”之间的差异是如何产生的？（知道该锻炼、早睡，却很难做到）",
-   "q_en": "Why is there a gap between knowing and doing? (We know we should exercise and sleep early — yet rarely do.)",
-   "date": "2026-06-17",
-   "cat": "self"
-  },
-  {
-   "id": "pursue-immortality",
-   "q": "人是否应该追求长生，如果人真的能够长生，世界会怎样？",
-   "q_en": "Should we pursue immortality — and if humans really could live forever, what would the world become?",
-   "date": "2026-06-17",
-   "cat": "life"
-  },
-  {
-   "id": "money-and-happiness",
-   "q": "金钱能（在多大程度上）买到幸福？",
-   "q_en": "Can money buy happiness — and how much?",
-   "date": "2026-06-18",
-   "cat": "self"
-  },
-  {
-   "id": "control-and-letting-go",
-   "q": "「只专注于你能控制的」是处世智慧，还是一种对改不了的不公视而不见的特权式逃避？",
-   "q_en": "Is 'focus only on what you can control' practical wisdom, or a privileged way of looking past injustice you could help change?",
-   "date": "2026-06-19",
-   "cat": "self"
-  },
-  {
-   "id": "falling-birthrate",
-   "q": "现在的年轻人（尤其在亚洲）为什么不想生孩子？这对个人与社会意味着什么？",
-   "q_en": "Why don't young people — especially in Asia — want children anymore, and what does it mean for the individual and for society?",
-   "date": "2026-06-19",
-   "cat": "ethics"
-  },
-  {
-   "id": "facing-death",
-   "q": "我们该如何面对死亡？如何做到「向死而生」？",
-   "q_en": "How should we face death — and how do we actually live 'toward' it (being-toward-death)?",
-   "date": "2026-06-19",
-   "cat": "life"
-  },
-  {
-   "id": "intimacy-recession",
-   "q": "为什么这一代人越来越难谈恋爱、走入亲密关系？是个人问题，还是时代造的？",
-   "q_en": "Why is this generation finding it ever harder to date and form intimate relationships — a personal failing, or one the age has made?",
-   "date": "2026-06-19",
-   "cat": "ethics"
-  },
-  {
-   "id": "three-teachings",
-   "q": "儒、释、道的异同：三家分歧究竟在哪，又在何处殊途同归？",
-   "q_en": "Confucianism, Buddhism, and Daoism: where do the three traditions truly differ, and where do they converge?",
-   "date": "2026-06-19",
-   "cat": "meta"
-  },
-  {
-   "id": "index-or-stock-picking",
-   "q": "普通人投资，该买大盘指数，还是买自己拿着放心的个股？",
-   "q_en": "For ordinary investors: buy the broad index, or the individual stocks you can hold with confidence?",
-   "date": "2026-06-19",
-   "cat": "self"
-  },
-  {
-   "id": "driven-by-fear",
-   "q": "靠恐惧驱动的优秀（『要够好才配被爱』）该不该放下？放下了，会不会就失去前进的动力？",
-   "q_en": "Excellence driven by fear ('I must be good enough to deserve love') — should we let it go, and if we do, do we lose the drive to move forward?",
-   "date": "2026-06-19",
-   "cat": "self"
-  },
-  {
-   "id": "east-west-philosophy",
-   "q": "东方与西方哲学：源头何以不同，如何塑造了今天的东西方人，又能否融合双方的智慧？",
-   "q_en": "Eastern and Western philosophy: why did they diverge at the root, how have they shaped people East and West today, and can the two wisdoms be fused?",
-   "date": "2026-06-20",
-   "cat": "meta"
-  },
-  {
-   "id": "office-politics",
-   "q": "大型组织里的『组织政治』，是毒瘤还是必需？普通人又该如何看待、甚至善用它？",
-   "q_en": "Office politics in large organizations: a cancer, or a necessity — and how should ordinary people navigate, even use, it?",
-   "date": "2026-06-20",
-   "cat": "work"
-  },
-  {
-   "id": "withdraw-life-support",
-   "q": "家中老人病重、靠插管维持近乎植物人的状态，作为子女，该不该撤管放手？",
-   "q_en": "An elderly parent kept alive by tubes in a near-vegetative state — should the children withdraw life support and let go?",
-   "date": "2026-06-21",
-   "cat": "life"
-  },
-  {
-   "id": "virtue-vs-talent",
-   "q": "企业用人，该「以德为先」还是「以才为先」？",
-   "q_en": "When a company hires and promotes, should it put character first, or ability first?",
-   "date": "2026-06-22",
-   "cat": "work"
-  },
-  {
-   "id": "coach-or-manage-out",
-   "q": "下属能力或动力不足，领导该花时间 coaching，还是果断 manage out？",
-   "q_en": "When a report lacks the ability or the drive, should a leader invest in coaching — or manage them out?",
-   "date": "2026-06-24",
-   "cat": "work"
-  },
-  {
-   "id": "seeing-others-is-self",
-   "q": "「你眼中的别人不是别人，你眼中的自己不是自己，你眼中的别人才是自己」——这话有道理吗？",
-   "q_en": "'The others you see aren't really them, the self you see isn't really you, and the others you see are actually you' — is there truth to this?",
-   "date": "2026-06-25",
-   "cat": "self"
-  },
-  {
-   "id": "worldly-success",
-   "q": "世俗意义上的『成功』——财富、地位、名声、成就——到底值不值得追求？",
-   "q_en": "Is worldly 'success' — wealth, status, fame, achievement — worth pursuing at all?",
-   "date": "2026-06-26",
-   "cat": "self"
-  },
-  {
-   "id": "being-yourself",
-   "q": "「忠于真实的自我」是不是个伪命题？到底有没有一个本真的我？",
-   "q_en": "Is 'being true to your authentic self' a false premise — and is there even an authentic self to begin with?",
-   "date": "2026-06-26",
-   "cat": "self"
-  },
-  {
-   "id": "acceptable-inequality",
-   "q": "什么样的不平等是可以接受的？",
-   "q_en": "What kind of inequality is acceptable?",
-   "date": "2026-06-27",
-   "cat": "ethics"
-  },
-  {
-   "id": "luck-and-merit",
-   "q": "我们的成功与失败，多少是「应得的」？努力真能决定命运吗？",
-   "q_en": "How much of our success or failure do we actually deserve — and does effort really decide our fate?",
-   "date": "2026-06-28",
-   "cat": "self"
-  },
-  {
-   "id": "gene-editing",
-   "q": "该不该用基因编辑「设计」更聪明、更健康的下一代？",
-   "q_en": "Should we use gene editing to 'design' smarter, healthier children?",
-   "date": "2026-06-29",
-   "cat": "ethics"
-  },
-  {
-   "id": "eldercare-home-or-facility",
-   "q": "父母年迈失能，该亲自接回家照顾，还是送养老院、请护工？",
-   "q_en": "When parents grow old and frail, should you care for them at home yourself, or place them in a nursing home and hire professional carers?",
-   "date": "2026-06-30",
-   "cat": "life"
-  },
-  {
-   "id": "job-hopping",
-   "q": "该频繁跳槽，还是在一处深耕固守？",
-   "q_en": "Should you job-hop often, or stay put and dig deep in one place?",
-   "date": "2026-06-30",
-   "cat": "work"
-  },
-  {
-   "id": "productivity-and-leisure",
-   "q": "生产力一次次飞跃，人是更清闲还是更忙、更幸福还是更不幸？（农业、工业、AI 三次革命）",
-   "q_en": "With each leap in productivity, do people end up more leisured or busier, happier or unhappier? (The agricultural, industrial, and AI revolutions)",
-   "date": "2026-06-30",
-   "cat": "meta"
-  },
-  {
-   "id": "what-determines-value",
-   "q": "一样东西的价值，到底由什么决定？（劳动、效用、稀缺，还是别的？）",
-   "q_en": "What ultimately determines the value of a thing? (Labor, utility, scarcity — or something else?)",
-   "date": "2026-06-30",
-   "cat": "meta"
-  },
-  {
-   "id": "ai-and-inequality",
-   "q": "AI 创造的财富，会加剧不平等（赢家通吃的马太效应），还是造就更公平的社会？",
-   "q_en": "Will the wealth AI creates deepen inequality (a winner-takes-all Matthew effect), or build a fairer society?",
-   "date": "2026-07-01",
-   "cat": "ethics"
-  },
-  {
-   "id": "identity-or-no-self",
-   "q": "想改变自己，该先给自己贴正向标签、强化身份（成功学的『先改 identity』），还是看破『我执』、放下自我（佛学的无我）？",
-   "q_en": "To change yourself, should you start by claiming a positive label and reinforcing a new identity (the self-help 'identity-first' move), or by seeing through self-grasping and letting go of the self (the Buddhist no-self)?",
-   "date": "2026-07-02",
-   "cat": "self"
-  },
-  {
-   "id": "free-will",
-   "q": "人是否拥有真正的自由意志？",
-   "q_en": "Do humans have genuine free will?",
-   "date": "2026-07-02",
-   "cat": "meta"
-  },
-  {
-   "id": "geography-shapes-thought",
-   "q": "是地理与物质环境塑造了思想与文明的分野（东西方为何不同），还是思想自有其命（偶然、伟人、观念）？",
-   "q_en": "Did geography and material conditions shape the divergence of thought and civilization (why East and West differ), or do ideas have a life of their own (contingency, great individuals, the force of ideas)?",
-   "date": "2026-07-02",
-   "cat": "meta"
-  },
-  {
-   "id": "engage-or-withdraw",
-   "q": "这一辈子想活得不后悔，到底该入世（投身事功与人群），还是出世（超脱放下、向内求安）？",
-   "q_en": "To live this life without regret, should you engage the world (throw yourself into achievement and people), or withdraw from it (transcend, let go, seek peace within)?",
-   "date": "2026-07-02",
-   "cat": "self"
-  },
-  {
-   "id": "comparison-and-envy",
-   "q": "为什么我们忍不住跟别人比？嫉妒能消除吗？",
-   "q_en": "Why can't we stop comparing ourselves to others — and can envy ever be cured?",
-   "date": "2026-07-03",
-   "cat": "self"
-  },
-  {
-   "id": "enough-money-still-work",
-   "q": "如果有了足够的钱（财务自由），是否还应该继续工作？",
-   "q_en": "If you had enough money to never need to, should you still work?",
-   "date": "2026-07-04",
-   "cat": "self"
-  },
-  {
-   "id": "quantum-observation",
-   "q": "量子物理是否说明「观测」真的改变了世界？",
-   "q_en": "Does quantum physics show that 'observation' really changes the world?",
-   "date": "2026-07-05",
-   "cat": "meta"
-  },
-  {
-   "id": "depth-or-breadth",
-   "q": "AI 时代，人的心智该往「深」练还是往「广」练？——不受打扰的深度专注，还是驾驭多线程的调度与切换？",
-   "q_en": "In the AI era, should the mind train for depth or breadth — undistracted deep focus, or orchestrating and switching across many threads?",
-   "date": "2026-07-07",
-   "cat": "self"
-  },
-  {
-   "id": "virtue-teachable",
-   "q": "品德是教出来的，还是长出来的？——美德到底可不可教？",
-   "q_en": "Can virtue be taught — is character instilled, or does it grow on its own?",
-   "date": "2026-07-07",
-   "cat": "self"
-  },
-  {
-   "id": "big-firm-or-startup",
-   "q": "普通人该进大厂求稳，还是闯小公司、创业？",
-   "q_en": "Should you join a big company for stability, or take a startup — or strike out on your own?",
-   "date": "2026-07-07",
-   "cat": "work"
-  },
-  {
-   "id": "inequality-and-health",
-   "q": "贫富差距本身会让人生病吗？——该不该把不平等当成一个公共健康问题？",
-   "q_en": "Does the wealth gap itself make people sick — and should inequality be treated as a public-health problem?",
-   "date": "2026-07-08",
-   "cat": "ethics"
-  },
-  {
-   "id": "what-is-education-for",
-   "q": "教育到底是为了什么——筛选人才的机器，还是培养人的土壤？",
-   "q_en": "What is education actually for — a machine to sort talent, or soil to cultivate a person?",
-   "date": "2026-07-09",
-   "cat": "ethics"
-  },
-  {
-   "id": "fluid-or-crystallized",
-   "q": "AI 时代，人该练流体智力（临场推理）还是晶体智力（深厚积累）？还是真正稀缺的是坐在两者之上的判断力？",
-   "q_en": "In the AI era, should we train fluid intelligence (on-the-spot reasoning) or crystallized intelligence (deep accumulation) — or is the real scarcity the judgment that sits above both?",
-   "date": "2026-07-10",
-   "cat": "self"
-  },
-  {
-   "id": "math-discovered-or-invented",
-   "q": "数学是被发现的，还是被发明的？",
-   "q_en": "Is mathematics discovered, or invented?",
-   "date": "2026-07-11",
-   "cat": "meta"
-  },
-  {
-   "id": "is-progress-real",
-   "q": "进步是真的吗？历史是在前进，还是循环、甚至退步？",
-   "q_en": "Is progress real? Is history moving forward, in cycles — or even backward?",
-   "date": "2026-07-12",
-   "cat": "meta"
-  },
-  {
-   "id": "progress-liberation-or-control",
-   "q": "现代的『文明进步』——废酷刑、办学校、建医院、讲人道——到底是人的解放，还是一种更高效、更彻底的控制？",
-   "q_en": "Modern 'civilizational progress' — abolishing torture, building schools and hospitals, invoking humanity — is it human liberation, or a more efficient and more total form of control?",
-   "date": "2026-07-13",
-   "cat": "ethics"
-  },
-  {
-   "id": "natural-aging",
-   "q": "容颜该顺其自然地老去，还是该努力医美、抗衰？",
-   "q_en": "Should we let our looks age naturally, or fight it with cosmetic work and anti-aging?",
-   "date": "2026-07-13",
-   "cat": "self"
-  },
-  {
-   "id": "ai-consciousness",
-   "q": "AI 有没有、或可能有意识？我们又凭什么判断？",
-   "q_en": "Does (or could) AI have consciousness — and how would we ever know?",
-   "date": "2026-07-14",
-   "cat": "meta"
-  },
-  {
-   "id": "language-shapes-thought",
-   "q": "语言塑造思维吗？说不同语言的人，看到的是不同的世界吗？",
-   "q_en": "Does language shape thought? Do speakers of different languages see different worlds?",
-   "date": "2026-07-15",
-   "cat": "meta"
-  },
-  {
-   "id": "what-is-beauty",
-   "q": "美，是主观感受，还是有客观的标准？",
-   "q_en": "Is beauty just in the eye of the beholder, or is there an objective standard?",
-   "date": "2026-07-16",
-   "cat": "meta"
-  },
-  {
-   "id": "care-and-emotional-labor",
-   "q": "我们为何系统性地低估『照护与情感劳动』的价值？（带孩子、陪伴、安抚、协调——这些撑起一切却没人记功的活）",
-   "q_en": "Why do we systematically undervalue care and emotional labor?",
-   "date": "2026-07-17",
-   "cat": "life"
-  },
-  {
-   "id": "performance-ranking",
-   "q": "绩效考核与「赛马」（KPI、末位淘汰）是激励，还是毒药？",
-   "q_en": "Are performance metrics and forced ranking (KPIs, stack-ranking) a motivator, or a poison?",
-   "date": "2026-07-18",
-   "cat": "work"
-  },
-  {
-   "id": "duty-to-distant-strangers",
-   "q": "我们对远方陌生人的苦难，负有多大义务？",
-   "q_en": "How much do we owe the suffering of distant strangers?",
-   "date": "2026-07-19",
-   "cat": "ethics"
-  },
-  {
-   "id": "procrastination",
-   "q": "拖延症要治吗？deadline 是第一生产力，重要的事最后也赶得出来——那它到底是不是病？",
-   "q_en": "Does procrastination even need fixing? Deadlines are the ultimate motivator and the important stuff still ships — so is it really a flaw?",
-   "date": "2026-07-20",
-   "cat": "self"
-  },
-  {
-   "id": "cultural-homogenization",
-   "q": "全球化正在把世界磨成同一种模样——我们在失去文化多样性吗？这是进步，还是一种贫乏？",
-   "q_en": "Globalization is grinding the world into one shape — are we losing cultural diversity, and is that progress or an impoverishment?",
-   "date": "2026-07-21",
-   "cat": "meta"
-  },
-  {
-   "id": "nature-of-love",
-   "q": "真爱是发现的，还是培养（甚至建构）出来的？",
-   "q_en": "Is true love found, or cultivated — even constructed?",
-   "date": "2026-07-22",
-   "cat": "life"
-  },
-  {
-   "id": "shareholder-or-stakeholder",
-   "q": "公司到底该对谁负责——只对股东，还是也对员工与社会？",
-   "q_en": "Whom does a company answer to — only shareholders, or also its workers and society?",
-   "date": "2026-07-23",
-   "cat": "work"
-  },
-  {
-   "id": "escape-from-freedom",
-   "q": "人真的在逃避自由吗？——自由是解放，还是一副人宁愿卸下的重担？",
-   "q_en": "Do humans really flee from freedom — is freedom liberation, or a burden people would rather set down?",
-   "date": "2026-07-24",
-   "cat": "self"
-  }
- ]
+  "_comment": "议题投票数据。candidates=未辩候选(供投票)，debated=已辩(链到辩论)。投票免 GitHub 登录，存于自建后端(Cloudflare Worker + D1，见 ~/Desktop/cissy0802.github.io/engage-backend/)：每候选一个 poll，key='topic:'+id，choice up/down，净票=👍−👎。votes 字段由 routine 每次跑 `python3 refresh_votes.py`(读后端 /votes-net) 回写；页面 ideas.js 也会实时拉取覆盖显示。观众自提议题在评论 page='thinker-open-questions'，各候选下讨论 page='topic:'+id——routine 读这些把好提案提炼成新 candidates。新候选加进 candidates 即可。",
+  "candidates": [
+    {
+      "id": "duty-to-earth",
+      "votes": 0,
+      "q": "我们对地球（其他物种、后代）负有怎样的义务？",
+      "q_en": "What do we owe the Earth — other species, and future generations?",
+      "note": "对其他物种、对尚未出生的后代——我们凭什么索取，又欠下什么？",
+      "note_en": "Toward other species and generations not yet born — by what right do we take, and what do we owe?",
+      "cat": "ethics"
+    },
+    {
+      "id": "liberty-vs-equality",
+      "votes": 0,
+      "q": "自由与平等不可兼得时，该牺牲哪个？",
+      "q_en": "When liberty and equality can't both be had, which should give way?",
+      "note": "自由市场的效率与不平等，还是再分配的公平与强制？现代政治的核心取舍。",
+      "note_en": "The efficiency-and-inequality of free markets, or the fairness-and-coercion of redistribution? The central trade-off of modern politics.",
+      "cat": "ethics"
+    },
+    {
+      "id": "truth-vs-harmony",
+      "votes": 0,
+      "q": "维系和谐，有时是否比说出真相更重要？",
+      "q_en": "Is keeping the peace sometimes more important than telling the truth?",
+      "note": "苏格拉底为真理赴死，孔子讲『和』，阿伦特谈真相与政治——在家庭、职场、社会里，何时该说、何时该忍。",
+      "note_en": "Socrates died for the truth, Confucius prized harmony, Arendt on truth and politics — in family, work, and society, when to speak and when to hold back.",
+      "cat": "self"
+    },
+    {
+      "id": "regret",
+      "votes": 0,
+      "q": "该为过去的选择后悔吗？如何与无法重来的过去和解？",
+      "q_en": "Should we regret the choices we made — and how do we make peace with a past we can't redo?",
+      "note": "『如果当初…』的内疚反复折磨人——克尔凯郭尔、斯多葛、庄子（鼓盆而歌）、佛教放下，各给一套与过去和解的办法。",
+      "note_en": "The 'if only I had…' guilt that keeps gnawing — Kierkegaard, the Stoics, Zhuangzi (drumming and singing at his wife's death), and Buddhist letting-go each offer a way to make peace with what's done.",
+      "cat": "self"
+    },
+    {
+      "id": "legitimacy-of-power",
+      "votes": 0,
+      "q": "国家的权力从何而来、有无正当的边界？",
+      "q_en": "Where does the state's power come from, and does it have legitimate limits?",
+      "note": "社会契约、天命、还是法家的强力？权力的来源与边界，是政治哲学最古老的争点。",
+      "note_en": "Social contract, the Mandate of Heaven, or Legalist force? The source and limits of legitimate power are political philosophy's oldest quarrel.",
+      "cat": "ethics"
+    },
+    {
+      "id": "moral-limits-of-markets",
+      "votes": 0,
+      "q": "有什么是金钱不该买卖的？市场该有边界吗？",
+      "q_en": "Is there anything money shouldn't be able to buy? Should markets have moral limits?",
+      "note": "从代孕、器官到选票与友情——当市场逻辑渗入一切，有没有该守住的非卖品？",
+      "note_en": "From surrogacy and organs to votes and friendship — as market logic seeps into everything, are there things that should stay off the auction block?",
+      "cat": "ethics"
+    },
+    {
+      "id": "abundance-and-decline",
+      "votes": 0,
+      "q": "当物质极度丰裕、不再需要奋斗，人类会不会重演『老鼠乌托邦』式的衰亡？",
+      "q_en": "When material abundance removes all need to struggle, could humanity repeat the collapse of the 'mouse utopia'?",
+      "note": "卡尔霍恩的『25 号宇宙』实验里，食物无限、天敌全无的鼠群最终走向求偶停摆、社交退缩与整体崩溃。当 AI 与富足替人类卸下生存压力，我们会迎来繁荣，还是尼采笔下只求安逸的『末人』、赫胥黎《美丽新世界》式的温柔沉沦？奋斗与匮乏，是否是意义与活力的必要燃料？",
+      "note_en": "In Calhoun's 'Universe 25,' a mouse colony with unlimited food and no predators slid into mating breakdown, social withdrawal, and total collapse. As AI and abundance lift the pressure to survive, will humanity flourish — or become Nietzsche's comfort-seeking 'last man,' a gentle Brave New World decline? Are struggle and scarcity necessary fuel for meaning and vitality?",
+      "cat": "ethics"
+    },
+    {
+      "id": "third-places",
+      "votes": 0,
+      "q": "我们是不是正在失去『第三空间』与闲逛式的日常社交？孤独流行病从何而来？",
+      "q_en": "Are we losing 'third places' and the art of aimless everyday sociability — and where does the loneliness epidemic come from?",
+      "note": "家与公司之外，曾有酒馆、广场、教堂、茶馆、街角小店这样的『第三空间』，让人不带目的地反复遇见同一批人——社会学家奥登伯格说，正是这些地方织起了社区与公共生活。如今它们被通勤、外卖、远程与屏幕悄悄抽空，普特南笔下『独自打保龄』的孤独蔓延开来。这是城市规划与技术的结构性后果，还是个人选择？普通人又如何在生活里重建这些不被绩效考核的相遇？",
+      "note_en": "Beyond home and work there once stood 'third places' — pubs, plazas, temples, teahouses, the corner shop — where people met the same faces again and again without any purpose; the sociologist Ray Oldenburg argued these were what wove community and public life together. Today they are quietly hollowed out by commuting, delivery, remote work, and screens, and the 'bowling alone' loneliness Robert Putnam described spreads. Is this a structural consequence of urban design and technology, or a matter of personal choice — and how does an ordinary person rebuild these unranked, purposeless encounters in daily life?",
+      "cat": "life"
+    },
+    {
+      "id": "assisted-dying",
+      "votes": 0,
+      "q": "当病痛已无可挽回、本人清醒地请求结束，社会该不该允许安乐死与协助死亡？",
+      "q_en": "When suffering is beyond cure and a lucid patient asks to end it, should society permit euthanasia and assisted dying?",
+      "note": "这与『撤管放手』关键不同：那里是停止徒劳的治疗、让自然走完；这里是应本人明确请求、主动结束生命。『让其死去』和『杀死他』之间，真有一道清白的道德界线，还是我们需要它存在？自主权、生命神圣、对弱势者被胁迫的担忧、医生『不伤害』的誓言在此正面相撞。",
+      "note_en": "Crucially different from 'withdrawing life support': there one stops futile treatment and lets nature finish; here one actively ends a life at the patient's explicit request. Is there really a clean moral line between 'letting him die' and 'killing him,' or do we need one to exist? Autonomy, the sanctity of life, fear of coercing the vulnerable, and the physician's oath to 'do no harm' collide head-on.",
+      "cat": "ethics"
+    },
+    {
+      "id": "eat-meat",
+      "votes": 0,
+      "q": "该不该吃肉？动物有没有值得我们尊重的道德地位？",
+      "q_en": "Should we eat meat? Do animals have a moral standing we're bound to respect?",
+      "note": "辛格说，能感受痛苦就该被纳入道德考量，『物种歧视』和种族歧视一样站不住脚；可儒家讲『亲亲而仁民、仁民而爱物』的差等之爱，庄子又说万物齐一。一个你每天在做、却很少严肃质疑的选择。",
+      "note_en": "Singer argues that whatever can suffer deserves moral consideration, and 'speciesism' is as indefensible as racism; yet Confucianism teaches a graded love radiating outward, and Zhuangzi sees all things as one. A choice we make daily but rarely question.",
+      "cat": "ethics"
+    },
+    {
+      "id": "democracy-best",
+      "votes": 0,
+      "q": "民主一定是最好的制度吗？",
+      "q_en": "Is democracy necessarily the best system of government?",
+      "note": "柏拉图把民主比作让乘客投票指挥航船、终将触礁，主张哲人王；托克维尔警惕『多数人的暴政』；法家信赏必罚的强力，熊彼特把民主降格为『精英竞争选票』。一个几乎不容置疑的『神圣价值』，值得被认真盘问一次。",
+      "note_en": "Plato likened democracy to passengers voting to steer a ship onto the rocks, and argued for philosopher-kings; Tocqueville warned of the 'tyranny of the majority'; Legalism trusts strict reward and punishment, and Schumpeter reduced democracy to 'elites competing for votes.' A near-unquestionable 'sacred value' worth interrogating.",
+      "cat": "ethics"
+    },
+    {
+      "id": "play-and-uselessness",
+      "votes": 0,
+      "q": "一定要事事「有意义」吗？「无用」和「玩」本身有没有价值？",
+      "q_en": "Must everything be 'meaningful'? Do uselessness and play have worth in themselves?",
+      "note": "庄子说『无用之用，方为大用』；罗素在《悠闲颂》里抨击把人变成工具的勤奋崇拜；可韦伯笔下的新教伦理早把『不事生产＝罪』刻进现代人骨子里。我们为何一闲下来就愧疚？玩、发呆、做无用之事，是浪费，还是人之为人的必需？",
+      "note_en": "Zhuangzi said 'the use of the useless is the greatest use'; in 'In Praise of Idleness,' Russell attacked the cult of busyness that turns people into tools; yet Weber's Protestant ethic long ago carved 'unproductiveness = sin' into modern bones. Why do we feel guilty the moment we rest? Is play, idling, doing the useless a waste — or what makes us human?",
+      "cat": "self"
+    },
+    {
+      "id": "value-of-suffering",
+      "votes": 0,
+      "q": "痛苦有没有价值？一个彻底没有苦难的世界，值得要吗？",
+      "q_en": "Does suffering have value? Would a world with no suffering at all be worth wanting?",
+      "note": "工程师的本能是优化掉一切不适；可陀思妥耶夫斯基笔下的『地下室人』宁可砸了完美的『水晶宫』，也要保住受苦的自由；尼采说『杀不死我的使我更强』；佛陀却以灭苦为全部修行的目的。赫胥黎《美丽新世界》警告：没有眼泪的幸福，或许不值一过。",
+      "note_en": "An engineer's instinct is to optimize away all discomfort; yet Dostoevsky's 'underground man' would smash the perfect 'crystal palace' rather than surrender the freedom to suffer; Nietzsche says 'what does not kill me makes me stronger'; the Buddha makes the ending of suffering the whole point of practice. Huxley's 'Brave New World' warns: a happiness without tears may not be worth living.",
+      "cat": "life"
+    },
+    {
+      "id": "dark-forest",
+      "votes": 0,
+      "q": "宇宙真的是「黑暗森林」吗？文明之间注定你死我活，还是可能合作？",
+      "q_en": "Is the universe really a 'dark forest'? Are civilizations doomed to mutual annihilation, or can they cooperate?",
+      "note": "刘慈欣用『带枪的猎人、先开枪才能活』来解费米悖论（宇宙这么大，外星人都去哪了）。可这是宇宙的铁律，还是把人类的猜疑与博弈论投射上了星空？合作、沉默，还是先发制人？",
+      "note_en": "Liu Cixin answers the Fermi paradox (where is everybody?) by casting every civilization as an armed hunter who must shoot first to survive. But is this a cosmic law, or our own suspicion and game theory projected onto the stars? Cooperation, silence, or the first strike?",
+      "cat": "meta"
+    },
+    {
+      "id": "higher-dimensions",
+      "votes": 0,
+      "q": "是否存在我们感知不到的更高维空间？",
+      "q_en": "Are there higher dimensions we simply cannot perceive?",
+      "note": "弦理论需要十多个维度，数学自洽却看不见摸不着；从柏拉图的洞穴到『二维生物理解不了三维』的类比——我们会不会也是困在低维、对更高实在一无所知的囚徒？这是物理，还是新的形而上学？",
+      "note_en": "String theory needs ten-plus dimensions — mathematically consistent yet unseeable; from Plato's cave to the analogy of 'a 2D being unable to grasp 3D,' might we too be prisoners trapped in low dimensions, blind to a higher reality? Is this physics, or a new metaphysics?",
+      "cat": "meta"
+    },
+    {
+      "id": "multiverse",
+      "votes": 0,
+      "q": "真的存在平行宇宙吗？",
+      "q_en": "Do parallel universes really exist?",
+      "note": "量子力学的『多世界诠释』说每次测量都分裂出无数个你；宇宙学的暴胀又推出无穷多个泡泡宇宙。它能解释『常数为何刚好适合生命』，可一个永远无法观测、不可证伪的理论，还算科学吗，还是披着方程的信仰？",
+      "note_en": "Quantum mechanics' 'many-worlds' says every measurement splits off countless copies of you; cosmic inflation implies endless bubble universes. It can explain 'why the constants are fine-tuned for life,' but is a theory we can never observe or falsify still science — or faith dressed in equations?",
+      "cat": "meta"
+    },
+    {
+      "id": "does-time-exist",
+      "votes": 0,
+      "q": "时间真的存在吗，还是一种幻觉？",
+      "q_en": "Does time really exist, or is it an illusion?",
+      "note": "物理学家罗韦利说基础方程里根本没有『时间』这个量；爱因斯坦把过去、现在、未来摊平成『块状宇宙』，流逝只是错觉。可我们分明在变老、在记忆、在期待——『现在』的鲜活，是宇宙的事实，还是意识编的故事？",
+      "note_en": "The physicist Rovelli says the fundamental equations contain no quantity called 'time'; Einstein flattens past, present and future into a 'block universe' where passage is an illusion. Yet we plainly age, remember, anticipate — is the vividness of 'now' a fact of the cosmos, or a story consciousness tells?",
+      "cat": "meta"
+    },
+    {
+      "id": "materialism-idealism",
+      "votes": 0,
+      "q": "世界到底是唯物的还是唯心的？意识只是大脑的副产品，还是更根本的实在？",
+      "q_en": "Is the world fundamentally matter, or mind? Is consciousness just a byproduct of the brain, or something more fundamental?",
+      "note": "唯物论说一切归于物质与规律、意识是大脑放的电；唯心/唯识（贝克莱『存在即被感知』、王阳明『心外无物』、佛教唯识）说能确证的只有意识、物质反是心的显现；泛心论折中——意识是宇宙的基本属性。到底哪个在先？",
+      "note_en": "Materialism reduces all to matter and law, with consciousness as the brain's electricity; idealism (Berkeley's 'to be is to be perceived,' Wang Yangming's 'nothing outside the mind,' Buddhist Yogacara) says the one thing we can be sure of is consciousness, and matter is mind's appearance; panpsychism splits the difference — consciousness is a basic feature of the cosmos. Which comes first?",
+      "cat": "meta"
+    },
+    {
+      "id": "nuclear-energy",
+      "votes": 0,
+      "q": "人类该不该大力发展核能？",
+      "q_en": "Should humanity go big on nuclear power?",
+      "note": "切尔诺贝利、福岛的阴影 vs 它是目前最稳定、最高密度的低碳能源；核废料几万年的负担、扩散风险，对上气候危机的紧迫与可再生能源的间歇性。恐惧、概率与未来世代的账，该怎么算？",
+      "note_en": "The shadows of Chernobyl and Fukushima versus the most stable, highest-density low-carbon energy we have; the tens-of-thousands-of-years burden of waste and proliferation risk versus the urgency of the climate crisis and the intermittency of renewables. How do we weigh fear, probability and the ledger of future generations?",
+      "cat": "ethics"
+    },
+    {
+      "id": "climate-action",
+      "votes": 0,
+      "q": "气候变化：面对共识与怀疑，我们该信什么、又该做到什么程度？",
+      "q_en": "Climate change: amid consensus and doubt, what should we believe — and how far should we go?",
+      "note": "暖化且主要人为，是压倒性的科学共识；真正可辩的是另外几层：普通人该如何对待『科学共识』与少数异见（认识论）？该靠减增长、技术乐观（核能/碳捕集）、还是适应？以及——个人改变 vs 制度责任，谁是主战场？",
+      "note_en": "That the planet is warming, mostly from human activity, is an overwhelming scientific consensus; the genuinely debatable layers lie elsewhere: how should ordinary people weigh 'scientific consensus' against a dissenting minority (epistemics)? Degrowth, techno-optimism (nuclear, carbon capture), or adaptation? And — individual change vs systemic responsibility, which is the real battleground?",
+      "cat": "ethics"
+    },
+    {
+      "id": "courage",
+      "votes": 0,
+      "q": "真正的『勇气』是什么——是无所畏惧，还是带着恐惧仍然前行？它能后天习得吗？",
+      "q_en": "What is real courage — being fearless, or moving forward despite fear? And can it be cultivated?",
+      "note": "亚里士多德说勇敢是鲁莽与怯懦之间的『中道』；苏格拉底说它其实是一种智慧——知道什么才真正可怕；马丁·路德·金说勇气不是没有恐惧，而是战胜它。日常的道德勇气（说真话、认错、对抗不公、开始一件可能失败的事）与战场上的血性是一回事吗？它是天生的气质，还是能像肌肉一样练出来？普通人又该如何修得勇气？",
+      "note_en": "Aristotle called courage the 'mean' between rashness and cowardice; Socrates said it is really a kind of wisdom — knowing what is truly to be feared; Martin Luther King said courage is not the absence of fear but the triumph over it. Is everyday moral courage (telling the truth, admitting fault, standing against injustice, starting something that might fail) the same as battlefield nerve? Is it an innate temperament, or can it be trained like a muscle — and how would an ordinary person cultivate it?",
+      "cat": "self"
+    },
+    {
+      "id": "save-or-spend",
+      "votes": 0,
+      "q": "钱到底该省下来、靠复利慢慢滚大，还是该花掉、『千金散尽还复来』地享受当下、投资自己？",
+      "q_en": "Should money be saved to compound over time, or spent — 'spend it all, it comes back again' — to enjoy now and invest in yourself?",
+      "note": "一边是巴菲特式的信条：复利是世界第八大奇迹，节俭、延迟满足、把雪球滚大；一边是李白的『人生得意须尽欢，千金散尽还复来』，和凯恩斯的『节俭悖论』——人人猛存反而拖垮经济、长期看我们都死了。行为经济学还说：多数人既存得太少、又乱花得太多。钱花在体验与自我投资上，和攒成一道安全垫、换来自由，哪个更划算？普通人该做守财的复利信徒，还是及时行乐——又如何在两端拿捏？",
+      "note_en": "On one side, the Buffett creed: compounding is the eighth wonder of the world — be thrifty, defer gratification, roll the snowball bigger. On the other, Li Bai's 'seize joy while you can, for the gold scattered will come again,' and Keynes's 'paradox of thrift' — if everyone hoards, the economy stalls, and in the long run we are all dead. Behavioral economics adds: most people both save too little and spend too carelessly. Is money better spent on experiences and investing in yourself, or banked into a cushion that buys freedom? Should an ordinary person be a thrifty compounding believer or seize the day — and how to strike the balance?",
+      "cat": "self"
+    },
+    {
+      "id": "quiet-quitting",
+      "votes": 0,
+      "q": "给公司打工，到底该投入多少自己？（敬业内卷 vs 安静离职、守住边界）",
+      "q_en": "How much of yourself should you pour into a job? (Devotion and the rat race vs quiet quitting and boundaries)",
+      "note": "『反内卷』『安静离职』是觉醒，还是另一种逃避？把工作当事业，还是当一桩生意？韦伯的新教伦理与『铁笼』、马克思的异化、亚里士多德的卓越、庄子的『无用之用』，争一个打工人该把多少灵魂押进工作。",
+      "note_en": "Are 'anti-overwork' and 'quiet quitting' an awakening, or just another escape? Treat work as a calling, or as a transaction? Weber's Protestant ethic and 'iron cage,' Marx on alienation, Aristotle on excellence, and Zhuangzi's 'usefulness of the useless' argue over how much of your soul to stake on a job.",
+      "cat": "work"
+    },
+    {
+      "id": "algorithmic-management",
+      "votes": 0,
+      "q": "该不该让算法来管人——派活、打分、监控，甚至解雇？",
+      "q_en": "Should algorithms manage people — assigning work, scoring, surveilling, even firing?",
+      "note": "外卖骑手、仓库工人早已被 AI 派单、屏幕监控、自动评分甚至解雇。把管理权与监督权交给算法，是更公平高效、去除人情偏私，还是数字泰勒制——去人性化、无处申诉、出错没人担责？泰勒制与边沁的圆形监狱、福柯的规训、韩非子的『术』、康德『人是目的不是手段』，正面交锋。",
+      "note_en": "Delivery riders and warehouse workers are already dispatched by AI, watched on screen, auto-scored, even fired by algorithm. Handing management and oversight to code — is it fairer and more efficient, stripped of human favoritism, or digital Taylorism: dehumanizing, with nowhere to appeal and no one accountable when it errs? Taylor's scientific management and Bentham's panopticon, Foucault on discipline, Han Feizi's 'technique of control,' and Kant's 'treat people as ends, not means' collide.",
+      "cat": "work"
+    },
+    {
+      "id": "leadership-after-ai",
+      "votes": 0,
+      "q": "当 AI 比谁都懂，领导者还剩什么不可替代的？",
+      "q_en": "When AI knows more than anyone, what's left that only a leader can do?",
+      "note": "当 AI 能做分析、写战略、给出方案，领导的价值还在专业知识吗，还是只剩判断、品味、信任、担责与赋予意义？德鲁克、亚里士多德的『实践智慧』(phronesis)、孔子的『德与信』、海德格尔对技术的追问，再加黄仁勋与奥特曼，争领导力被 AI 掏空后还剩的内核。",
+      "note_en": "When AI can analyze, draft strategy and hand you options, is a leader's value still expertise — or only judgment, taste, trust, accountability and the giving of meaning? Drucker, Aristotle's 'practical wisdom' (phronesis), Confucius on virtue and trust, Heidegger's question concerning technology, plus Huang and Altman, argue over the core of leadership once AI has hollowed out the rest.",
+      "cat": "work"
+    },
+    {
+      "id": "output-or-growth",
+      "votes": 0,
+      "q": "当下属都用 AI 干活，领导该考核产出，还是过程与成长？",
+      "q_en": "When your team does the work with AI, should you judge output, or process and growth?",
+      "note": "如果活是 AI 做的，你评的到底是什么？只看结果，会不会养出一批『只会发指令、自己什么都不会』的人；可要求『亲手做』，又像在抗拒工具。德韦克的成长心态、波兰尼的『默会知识』、亚里士多德、桑内特的匠艺，掂量产出与能力之间该押注哪头。",
+      "note_en": "If AI does the work, what are you actually evaluating? Judge only results and you may breed people who can only issue prompts and do nothing themselves; insist on 'by your own hand' and you look like you're fighting the tool. Dweck's growth mindset, Polanyi's 'tacit knowledge,' Aristotle, and Sennett on craftsmanship weigh whether to bet on output or on capability.",
+      "cat": "work"
+    },
+    {
+      "id": "globalization-or-reshoring",
+      "votes": 0,
+      "q": "全球分工该越分越细、各国各擅其长，还是该把生产搬回本国？（自由贸易 vs 制造业回流）",
+      "q_en": "Should the global division of labor keep deepening — each nation to its strength — or should production be brought home? (Free trade vs reshoring)",
+      "note": "亚当·斯密与李嘉图说：分工与比较优势让各国专精、互通有无，整体更富。可现实里，疫情断供、芯片卡脖子、产业空心化与失业，又把『制造业回流、自给自足』推上台面（如美国近年的关税与回流政策）。是效率与互赖更优，还是安全与韧性优先？李斯特的『幼稚产业』、波兰尼的『社会自我保护』、塔勒布的反脆弱，对垒斯密的自由贸易。",
+      "note_en": "Adam Smith and Ricardo held that the division of labor and comparative advantage let each nation specialize and trade, making all richer. Yet pandemic shortages, chip chokepoints, hollowed-out industry and lost jobs have pushed 'reshoring and self-sufficiency' to the fore (as in recent US tariff-and-reshoring policy). Is efficiency-and-interdependence better, or security-and-resilience first? List's 'infant industries,' Polanyi's 'society protecting itself,' and Taleb's antifragility square off against Smith's free trade.",
+      "cat": "ethics"
+    },
+    {
+      "id": "forgiveness-or-revenge",
+      "votes": 0,
+      "q": "该不该原谅伤害过你的人？宽恕是解脱，还是对受害者的道德绑架？",
+      "q_en": "Should you forgive those who've wronged you? Is forgiveness liberation, or a moral burden laid on the victim?",
+      "note": "孔子偏偏反对以德报怨——主张『以直报怨，以德报德』；基督教却要你『爱你的仇敌』，佛家劝放下，尼采则剖开『怨恨』(ressentiment)如何毒害人。阿伦特说宽恕是唯一能打断因果报复链的行动。可要求受害者『大度』，会不会是二次伤害？",
+      "note_en": "Confucius actually rejected 'repaying injury with virtue,' urging 'repay injury with justice, and virtue with virtue'; Christianity says 'love your enemies,' Buddhism counsels letting go, and Nietzsche dissects how 'ressentiment' poisons the soul. Arendt calls forgiveness the only act that can break the chain of vengeance. Yet does demanding a victim 'be magnanimous' inflict a second wound?",
+      "cat": "self"
+    },
+    {
+      "id": "truth-after-ai",
+      "votes": 0,
+      "q": "当 AI 能伪造一切、『亲眼所见』已死——我们还凭什么相信任何东西？",
+      "q_en": "When AI can fake anything and 'seeing is believing' is dead, on what can we still ground belief in anything?",
+      "note": "deepfake、生成内容淹没一切之后，『眼见为实』彻底失效。古老的怀疑论突然变得灼热：笛卡尔的恶魔、庄周梦蝶（庄子简直为此题而生）、休谟论证言与轻信、福柯的『真相体制』。真伪难辨的时代，我们靠什么重建信任？辛顿、图灵旁观。",
+      "note_en": "Once deepfakes and generated content drown everything, 'seeing is believing' collapses. Ancient skepticism suddenly turns urgent: Descartes's demon, Zhuangzi dreaming he was a butterfly (Zhuangzi seems made for this), Hume on testimony and credulity, Foucault's 'regime of truth.' In an age where real and fake blur, on what do we rebuild trust? With Hinton and Turing looking on.",
+      "cat": "meta"
+    },
+    {
+      "id": "ai-resurrect-dead",
+      "votes": 0,
+      "q": "该不该用 AI「复活」逝去的亲人？（用聊天记录、声音训练一个『TA』来陪伴）",
+      "q_en": "Should you use AI to 'resurrect' a dead loved one — training a 'them' from their messages and voice to keep you company?",
+      "note": "用逝者的数据造一个会说话的『TA』——是慰藉、是亵渎，还是病态地拒绝哀悼？佛家看执取、弗洛伊德分『哀悼与忧郁』、孔子讲『祭如在』（儒家其实早在『模拟』逝者），再加图灵测试的幽灵版。生者的安慰与死者的尊严，哪个优先？",
+      "note_en": "To build a talking 'them' from a dead person's data — comfort, desecration, or a pathological refusal to grieve? Buddhism on clinging, Freud on 'mourning and melancholia,' Confucius on 'sacrifice as if they were present' (Confucians were 'simulating' the dead long ago), plus a ghostly version of the Turing test. Which comes first — the living's solace, or the dead's dignity?",
+      "cat": "life"
+    },
+    {
+      "id": "believe-in-fate",
+      "votes": 0,
+      "q": "该不该信命？算命、八字、星座为何长盛不衰——是迷信，还是另一种自我认知？",
+      "q_en": "Should you believe in fate? Why do fortune-telling and astrology endure — superstition, or another way of knowing yourself?",
+      "note": "求签、八字、星座至今风靡：是廉价的心理安慰、放弃能动性的借口，还是一面帮人看清自己的镜子？孔子『不知命无以为君子』与『敬鬼神而远之』的张力、斯多葛的命运之爱(amor fati)、荣格的共时性、萨特『人是自己选择的总和』正面交锋。",
+      "note_en": "Divination, bazi and astrology still thrive: cheap psychological comfort, an excuse to surrender agency, or a mirror that helps people see themselves? The tension in Confucius between 'without knowing fate one cannot be a gentleman' and 'respect the spirits but keep them at a distance,' the Stoic amor fati, Jung's synchronicity, and Sartre's 'man is the sum of his choices' collide.",
+      "cat": "self"
+    },
+    {
+      "id": "hypocrisy-vs-vice",
+      "votes": 0,
+      "q": "伪善，是不是比赤裸的恶更可恨？道德表演与『人设』，是文明的润滑剂还是腐蚀剂？",
+      "q_en": "Is hypocrisy more contemptible than naked vice? Are moral performance and curated 'personas' civilization's lubricant, or its corrosion?",
+      "note": "拉罗什富科说『伪善是恶行向美德的致敬』——虚伪至少还承认了善的标准。可当人人都在表演道德、经营人设，真诚是否成了奢侈品？康德的诚实绝对律令、儒家『乡愿，德之贼也』、戈夫曼的拟剧论，辩表演与真心的边界。",
+      "note_en": "La Rochefoucauld said 'hypocrisy is the tribute vice pays to virtue' — at least the hypocrite concedes the standard of the good. Yet when everyone performs morality and curates a persona, has sincerity become a luxury? Kant's absolute duty of honesty, the Confucian 'the village worthy is the thief of virtue,' and Goffman's dramaturgy argue the line between performance and a true heart.",
+      "cat": "ethics"
+    },
+    {
+      "id": "death-penalty",
+      "votes": 0,
+      "q": "死刑该废除吗？国家有没有权力剥夺一个人的生命？",
+      "q_en": "Should the death penalty be abolished? Does the state have the right to take a life?",
+      "note": "康德的报应论——杀人者偿命才是对其人格的尊重；贝卡里亚开创废死——国家无权杀人、威慑存疑、冤案不可逆。正义、威慑、报应、人的尊严，以及『以命偿命』到底是正义还是另一桩杀戮，正面相撞。",
+      "note_en": "Kant's retributivism — a life for a life is the only way to respect the murderer as a person; Beccaria, founder of abolitionism — the state has no right to kill, deterrence is doubtful, and a wrongful execution cannot be undone. Justice, deterrence, retribution, human dignity, and whether 'a life for a life' is justice or just another killing collide head-on.",
+      "cat": "ethics"
+    },
+    {
+      "id": "being-envied",
+      "votes": 0,
+      "q": "被人嫉妒该怎么办？——『财不外露』『枪打出头鸟』是自保智慧，还是对平庸的投降？",
+      "q_en": "What should you do when others envy you? Are 'don't flaunt wealth' and 'the nail that sticks up gets hammered' self-protective wisdom, or surrender to mediocrity?",
+      "note": "嫉妒场只治了『嫉妒者』，漏掉了同样日常的另一半——被嫉妒。管理他人嫉妒的隐形成本、示弱表演的代价，以及『敢于被看见地好』是否可能。",
+      "note_en": "The envy debate treated only the envier and missed the equally daily other half — being envied. The hidden cost of managing others' envy, the price of performing weakness, and whether it is possible to be safely, visibly good.",
+      "cat": "self"
+    },
+    {
+      "id": "faith-and-reason",
+      "votes": 0,
+      "q": "哲学能不能独立于宗教？——当理性与信仰冲突，该让哪一个让步？",
+      "q_en": "Can philosophy stand independent of religion — and when reason and faith collide, which should yield?",
+      "note": "阿维森纳、阿威罗伊的『双重真理』，安萨里《哲学家的矛盾》遭阿威罗伊反驳，迈蒙尼德调和雅典与耶路撒冷，阿奎那的自然神学，直到今天的世俗理性——理性与启示能否共处，谁为谁划界？",
+      "note_en": "Averroes' 'double truth,' al-Ghazali's Incoherence of the Philosophers answered by Averroes, Maimonides reconciling Athens and Jerusalem, Aquinas's natural theology, down to modern secular reason — can reason and revelation coexist, and who bounds whom?",
+      "cat": "meta"
+    },
+    {
+      "id": "work-life-balance",
+      "votes": 0,
+      "q": "「工作与生活的平衡」是能达成的状态，还是一句自我安慰？到底有没有平衡，还是只有取舍？",
+      "q_en": "Is work–life balance an achievable state or a comforting myth — is there balance at all, or only tradeoffs?",
+      "note": "短期里时间精力是零和，『平衡』常被当成能一劳永逸的稳态，达不到反增愧疚；可它也能指长周期的季节轮换、或工作即生活的一部分而非对立面，而『只有取舍』又容易把 996 这类制度问题私人化。Naval『没有平衡，只有优先级』对上罗素《悠闲颂》、塞内卡《论生命之短暂》、凯恩斯的闲暇预言，与纽波特的深度／边界。",
+      "note_en": "In the short run time and energy are zero-sum, and 'balance' is often treated as a steady state to be reached once and for all — falling short only breeds guilt; yet 'balance' can also mean seasons rotating over a long life, or work as part of life rather than its opposite, while 'only tradeoffs' risks privatizing structural problems like the 996 grind. Naval's 'no balance, only priorities' against Russell's In Praise of Idleness, Seneca's On the Shortness of Life, Keynes's leisure prophecy, and Newport's depth/boundaries.",
+      "cat": "self"
+    },
+    {
+      "id": "science-needs-philosophy",
+      "votes": 0,
+      "q": "科学还需要哲学吗？——『闭嘴计算』能走多远？",
+      "q_en": "Does science still need philosophy — and how far can 'shut up and calculate' go?",
+      "note": "量子力学的测量问题悬置百年，量子计算机照样开跑：不理解也能使用，是知识的常态还是文明的隐患？工程能否永远替代解释？当模型越来越准、越来越黑箱（从量子到AI），『解释』还算不算科学的义务？",
+      "note_en": "Quantum mechanics' measurement problem has hung unresolved for a century, yet quantum computers run anyway: is using-without-understanding the normal condition of knowledge, or a civilizational hazard? Can engineering forever substitute for explanation? As models grow ever more accurate and more black-box (from quanta to AI), is 'explaining' still part of science's job?",
+      "cat": "meta"
+    },
+    {
+      "id": "gardener-or-carpenter",
+      "votes": 0,
+      "q": "园丁还是木匠？——父母该「雕琢」孩子，还是营造环境让他自己长成？",
+      "q_en": "Gardener or carpenter — should parents shape the child, or cultivate the soil and let them grow unpredictably?",
+      "note": "高普尼克《园丁与木匠》：木匠按蓝图把孩子雕成想要的样子，园丁只管土壤、静待不可预知的花开——控制/设计 vs 涌现/放手。皮亚杰的建构主义（知识是孩子自己建的）、卢梭《爱弥儿》的自然教育，对上东亚『栽培』传统与孟子『揠苗助长』的反木匠寓言。它比『鸡娃 vs 放手』更根本：不是使多大劲，而是父母到底该不该塑造。",
+      "note_en": "Gopnik's The Gardener and the Carpenter: the carpenter carves the child to a blueprint, the gardener only tends the soil and awaits an unpredictable bloom — control/design vs emergence/letting-go. Piaget's constructivism (the child builds knowledge) and Rousseau's Emile against the East Asian 'cultivation' tradition and Mencius's anti-carpenter parable of not pulling up sprouts. Deeper than 'push vs let go': not how hard, but whether parents should shape at all.",
+      "cat": "life"
+    },
+    {
+      "id": "early-excellence",
+      "votes": 0,
+      "q": "「优秀」是会自我实现的滚雪球，还是幸存者偏差＋标签的诅咒？——早慧到底是祝福还是枷锁？",
+      "q_en": "Is 'excellence' a self-fulfilling snowball, or survivorship bias plus the curse of the label — is being a prodigy a blessing or a cage?",
+      "note": "皮格马利翁效应、马太效应、自我效能，会让早早的优秀滚成越来越大的优势雪球；可德韦克发现『夸聪明』养出固定型思维、害怕跌下神坛反而不敢冒险，早慧者又常背上『空心』与均值回归。优秀到底是被正反馈制造出来的良性循环，还是幸存者偏差加上标签的枷锁？我们又该怎么教孩子？",
+      "note_en": "The Pygmalion effect, the Matthew effect, and self-efficacy can snowball early excellence into an ever-widening advantage; yet Dweck found that praising 'smartness' breeds a fixed mindset and a fear of falling that discourages risk, while prodigies often carry hollowness and regression to the mean. Is excellence a virtuous circle manufactured by positive feedback, or survivorship bias plus the cage of a label — and how then should we raise children?",
+      "cat": "self"
+    },
+    {
+      "id": "mental-suffering",
+      "votes": 0,
+      "q": "精神痛苦，是该吃药修复的『脑病』，还是对处境的正常/有意义反应？——把痛苦一律药物化，是解脱还是消音？",
+      "q_en": "Is mental suffering a 'brain disease' to be fixed with medication, or a normal, meaningful response to one's situation — is medicating all pain relief, or silencing?",
+      "note": "抑郁到底是『血清素失衡』要靠 SSRI 修的脑病，还是身体对糟糕处境（或存在困境）发出的正常信号？萨波尔斯基的生物化学决定论对上弗兰克尔的意义疗法（痛苦可以有意义，别急着消除）、萨斯的『精神病的神话』（问题是生活的，不是脑子的病）、福柯的『什么被定义成病』，再加哈里斯谈冥想与意识。接得住 value-of-suffering，但切的是医学化 vs 意义这条新轴。",
+      "note_en": "Is depression a 'serotonin imbalance' brain disease to be fixed by SSRIs, or a normal signal the body sends about a bad situation (or an existential bind)? Sapolsky's biochemical determinism meets Frankl's logotherapy (suffering can hold meaning — don't rush to erase it), Szasz's 'myth of mental illness' (problems are of living, not of the brain), Foucault on what gets defined as illness, plus Harris on meditation and consciousness. It picks up value-of-suffering but cuts a new axis: medicalization vs meaning.",
+      "cat": "self"
+    },
+    {
+      "id": "health-vs-liberty",
+      "votes": 0,
+      "q": "为了公共健康，国家能限制个人自由到什么程度？（强制疫苗、封控、糖税、禁烟）",
+      "q_en": "For the sake of public health, how far may the state limit individual freedom (mandatory vaccines, lockdowns, sugar taxes, smoking bans)?",
+      "note": "2020 年代最撕裂的真问题：密尔的『伤害原则』止于何处？福柯的『生命权力』——现代国家正是靠管理『人口的健康』来行使治理，对上伯林的消极自由、洛克的个人权利，与功利主义/公共卫生的集体福祉正面交锋。个人自主 vs 集体安全，边界到底划在哪。",
+      "note_en": "The most divisive real question of the 2020s: where does Mill's 'harm principle' stop? Foucault's 'biopower' — the modern state governs precisely by managing 'the health of the population' — meets Berlin's negative liberty and Locke's individual rights, colliding head-on with the utilitarian/public-health case for collective welfare. Personal autonomy vs collective safety: where exactly is the line?",
+      "cat": "ethics"
+    },
+    {
+      "id": "medicalization",
+      "votes": 0,
+      "q": "我们是不是把太多正常的人生状态『医学化』成了病？——过度诊断与 DSM 扩张，是进步还是合谋？",
+      "q_en": "Have we 'medicalized' too many ordinary states of life into diseases — is overdiagnosis and the expanding DSM progress, or a collusion?",
+      "note": "悲伤、害羞、衰老、多动、更年期……被一个个贴上诊断、开出药方。伊里奇的『医源性疾病』（医疗把人生问题变成医疗问题、反噬健康）、萨斯的『精神病的神话』、福柯的临床医学与生命权力，对上现代医学实打实的救命成就与『早诊早治』。是医学的进步，还是大药厂与『把人生外包给医疗』的合谋？",
+      "note_en": "Sadness, shyness, aging, restlessness, menopause — each gets a diagnosis and a prescription. Illich's iatrogenesis (medicine turning problems of living into medical problems and harming health), Szasz's 'myth of mental illness,' and Foucault's clinic and biopower meet the real life-saving gains of modern medicine and 'catch it early.' Progress, or a collusion of Big Pharma and outsourcing life to medicine?",
+      "cat": "ethics"
+    },
+    {
+      "id": "test-loyalty",
+      "votes": 0,
+      "q": "忠诚该不该被考验？——一段只有在不被验证时才成立的信任，算不算真的信任？",
+      "q_en": "Should loyalty be tested — and is a trust that holds only while unverified really trust at all?",
+      "note": "有人设局（雇假第三者）去测忠诚，得出『人性经不起考验』；但设局是选择偏差＋优化过的对抗攻击＋钓鱼制造机会，测不到真东西。更根本的是：暗中考验已把信任换成了监控，而且『以欺骗求诚实』自相矛盾——你先做了你最怕对方做的事。康德（把人当工具、欺骗的悖论）、亚里士多德（一次设局测不出稳定德性）、博弈论（信任是一种代价高昂的信号）、儒家的『诚』与『信』正面交锋。",
+      "note_en": "Some set a trap (hiring a fake third party) to test loyalty and conclude 'human nature can't withstand testing'; but the trap is selection bias plus an optimized adversarial attack plus entrapment that manufactures the opportunity — it can't measure the real thing. More fundamentally: covert testing has already swapped trust for surveillance, and 'seeking honesty through deception' is self-contradictory — you've done the very thing you feared. Kant (treating people as means; the paradox of deception), Aristotle (one staged trap can't reveal settled virtue), game theory (trust as a costly signal), and the Confucian 'sincerity' and 'trust' meet head-on.",
+      "cat": "life"
+    },
+    {
+      "id": "moral-universals-or-relativism",
+      "votes": 0,
+      "q": "有没有放之四海皆准的美德，还是善恶本就因文化、时代而异？——我们该向谁的道德看齐？",
+      "q_en": "Are there universal virtues, or are good and evil relative to culture and era — whose morality should we measure by?",
+      "note": "同一件事，一处的美德可能是另一处的恶习：孝顺、忠诚、勇敢的内容随文化而变，甚至彼此冲突。道德是可跨文明求真的『一套』，还是各有各的约定？休谟的『是与应当』、尼采的价值重估、孔子的礼、人类学的文化相对论各执一端——若无共同标尺，宽容与批判又各以何为据？",
+      "note_en": "The same act can be a virtue in one place and a vice in another: the content of filial duty, loyalty and courage shifts with culture and can even conflict. Is morality a single truth pursuable across civilisations, or a set of local conventions? Hume's is–ought gap, Nietzsche's revaluation of values, Confucian ritual and anthropological cultural relativism pull in different directions — and without a shared measure, on what do tolerance and critique each rest?",
+      "cat": "ethics"
+    },
+    {
+      "id": "read-people-in-ai-age",
+      "votes": 0,
+      "q": "AI 时代，最稀缺的会不会是『会读人』？——读懂人、拿捏分寸、维系信任的社会情感能力，机器能取代吗？",
+      "q_en": "In the age of AI, is 'reading people' the scarcest skill of all? — can machines take over the social-emotional judgment of understanding others, gauging tone, and holding trust?",
+      "note": "当分析与检索被 AI 商品化，认知型能力普遍贬值，最难被机器接管的也许是对人的判断：读一张脸、掂一句话的分寸、在冲突里维系信任。这类社会/情感智能长期被『智力』话语忽略，却可能在 AI 时代最保值。可请 EQ/共情研究者、谈判专家、达马西奥（情绪与决策）、庄子（人情世故）等对打。",
+      "note_en": "As analysis and retrieval are commoditized by AI and cognitive skills broadly depreciate, what may be hardest for machines to take over is judgment about people: reading a face, weighing the tone of a sentence, holding trust through conflict. Such social/emotional intelligence has long been sidelined by 'intelligence' talk, yet may hold its value best in the age of AI. Could pit EQ/empathy researchers, negotiation experts, Damasio (emotion and decision), and Zhuangzi (worldly wisdom) against one another.",
+      "cat": "self"
+    },
+    {
+      "id": "how-knowledge-becomes-obvious",
+      "q": "一个想法是怎么从『离经叛道』变成『天经地义』的？——常识是被发现的真理，还是被慢慢驯化的人造物？",
+      "q_en": "How does an idea go from heresy to common sense? Is common knowledge a discovered truth, or a slowly domesticated human artifact?",
+      "note": "零、负数、虚数都曾被斥为荒谬、抵制数百年才成正典——常识的形成史。可带进库恩（范式转移）、福柯（知识型）、拉图尔、玛丽·道格拉斯，对上实在论。　并延伸：我们笃信的『客观』有多少是靠制度与把关共同体（审稿、挑错、共同认账）在替我们担保？抽掉这群人，确定性会不会发软？",
+      "note_en": "Zero, negatives and imaginary numbers were once denounced as absurd and resisted for centuries before entering the canon — the making of common sense. Could bring in Kuhn (paradigm shift), Foucault, Latour, Mary Douglas, against realism. And by extension: how much of the 'objectivity' we trust is underwritten by institutions and a gatekeeping community (peer review, error-catching, shared acceptance)? Remove them and does certainty go soft?",
+      "cat": "meta",
+      "votes": 0
+    },
+    {
+      "id": "beauty-as-capital",
+      "votes": 0,
+      "q": "外貌在多大程度上是一种『资本』？——该承认颜值红利、好好经营，还是该抵制这种不公？",
+      "q_en": "To what extent are looks a form of 'capital' — should we acknowledge and cultivate the beauty premium, or resist it as unjust?",
+      "note": "招聘、相亲、镜头前，好看的人确有实打实的溢价（『颜值红利』）。这是该像投资技能一样经营的社会资本，还是一种该被抵制的、给人贴标签的不公？经济学（贝克尔、哈基姆的『情色资本』）对上正义论与女性主义。",
+      "note_en": "In hiring, dating, and on camera, the good-looking enjoy a real premium ('pretty privilege'). Is this social capital to be cultivated like a skill, or an unjust, labeling advantage to be resisted? Economics (Becker, Hakim's 'erotic capital') meets theories of justice and feminism.",
+      "cat": "ethics"
+    },
+    {
+      "id": "emotion-needs-body",
+      "votes": 0,
+      "q": "情绪是身体的事，还是头脑的事？——离开心跳、肠胃与荷尔蒙这些身体反应，还会有真正的喜怒哀乐吗？",
+      "q_en": "Is emotion a matter of the body or the head? — without a racing heart, a churning gut and hormones, could there still be real joy, anger or grief?",
+      "note": "詹姆斯说『先有身体反应，才有情绪』，达马西奥的『躯体标记』把感受落到内脏；可斯多葛与认知派说情绪本是判断、是想法。到底是身体先动、心随其后，还是反过来？练情绪，该练身体还是练念头？",
+      "note_en": "William James said the bodily reaction comes first and the emotion follows; Damasio’s “somatic markers” ground feeling in the viscera; yet the Stoics and cognitive theorists hold that emotion just is a judgment, a thought. Does the body move first and the mind follow, or the reverse? To train emotion, do you train the body or the thought?",
+      "cat": "self"
+    },
+    {
+      "id": "who-owns-the-words",
+      "votes": 0,
+      "q": "当权力把『裁员』改叫『优化』，我们还能守住自己的判断吗？——委婉语、行话与口号如何不禁止你开口就替你预设结论。",
+      "q_en": "When power renames 'layoffs' as 'optimization,' can we still hold on to our own judgment?",
+      "note": "委婉语、行话与政治口号如何在不禁止你开口的情况下替你预设结论；乔姆斯基的『制造同意』，普通人识破话术、还原朴素事实的自保之道。　也含法律/金融/学术『黑话』——是必要的精确，还是把人挡在门外的墙？清晰表达是不是一种被低估的正义（鲁迅白话之问）。",
+      "note_en": "How euphemism, jargon and slogans preset your conclusions without ever forbidding you to speak; Chomsky's 'manufacturing consent,' and how an ordinary person sees through the spin and restores the plain fact. It also covers legal/financial/academic jargon — necessary precision, or a wall that keeps people out? Is plain speech an underrated form of justice (Lu Xun's vernacular question)?",
+      "cat": "ethics"
+    },
+    {
+      "id": "beauty-and-evil",
+      "votes": 0,
+      "q": "一件东西可以既美又坏吗？——宣扬暴政的建筑、为恶辩护的诗也可技艺精湛，美的形式与恶的内容并存时，该被打动还是该警惕？",
+      "q_en": "Can a thing be both beautiful and evil?",
+      "note": "宣扬暴政的建筑、为恶辩护的诗也可技艺精湛——美的形式与恶的内容并存时，该被打动还是该警惕？",
+      "note_en": "A building that glorifies tyranny, a poem that pleads for cruelty, can still be masterful — when beautiful form houses evil content, should we be moved or wary?",
+      "cat": "ethics"
+    },
+    {
+      "id": "express-ambition",
+      "votes": 0,
+      "q": "职场教人「低调谦逊、别张扬野心」，是普世的处世智慧，还是让老实人吃亏、并专门规训女性与弱势者的枷锁？",
+      "q_en": "Is the workplace counsel to 'stay humble, don't flaunt ambition' universal wisdom, or a yoke that penalizes the honest and disciplines women and the disadvantaged in particular?",
+      "note": "还是『藏 vs 露』的老张力，但轴不在『哪个更聪明』，而在『这条规范到底服务了谁』：同样的野心，男性表达叫领导力，女性表达常被判 aggressive（有实证的双重标准）；谦逊文化是处世智慧，还是让敢开口者系统性占了老实人便宜？亚当·格兰特（给予者/索取者）、里德·霍夫曼（做自己的经纪人）、道金斯（藏与露本是一对 ESS 博弈策略）、老子/庄子（不争）对上尼采（权力意志），桑塔格/波伏娃（性别双标）。区别于 being-envied（那道谈已成功后如何应对他人嫉妒）。",
+      "note_en": "Still the old 'hide vs show' tension, but the axis is not 'which is smarter' — it's 'whom does this norm actually serve.' The same ambition reads as leadership from a man and as 'aggressive' from a woman (an empirically documented double standard); is a culture of humility worldly wisdom, or does it let the outspoken systematically exploit the modest? Adam Grant (givers/takers), Reid Hoffman (be your own agent), Dawkins (hide vs show as a pair of ESS strategies), Laozi/Zhuangzi (non-contention) against Nietzsche (will to power), Sontag/Beauvoir (the gender double standard). Distinct from being-envied, which is about handling others' envy once you've already succeeded.",
+      "cat": "work"
+    },
+    {
+      "id": "spiritual-bypass-or-wisdom",
+      "votes": 0,
+      "q": "「一切皆修行、随遇而安」是通透的智慧，还是让人对不公逆来顺受的麻醉剂？",
+      "q_en": "Is 'everything is practice, accept what comes' true wisdom, or an anesthetic that makes us submit to injustice?",
+      "note": "把苦难、劳作、逆境都收进『修行』与『放下』，能让人在无力处安身；可同一句话，也可能让人对本可改变的不公一并认命——修心与抗争，是同一条路，还是有时互相拆台？另一层：成功学的『上进、建构自我』与佛学的『无我、放下』，能否按人生阶段各就其位（新手要身份脚手架、高手拆架子），还是根本二选一？而一旦把『无我』当成提升表现的药『在对的时刻服用』，这份工具化的机心，是否正是它要人放下的病？王阳明、慧能、庄子、阿德勒、德韦克、纽波特可辩。",
+      "note_en": "Folding suffering, toil and adversity all into 'practice' and 'letting go' lets a person find footing where they are powerless; yet the same words can make one resign to injustice that could be changed — are inner cultivation and resistance one road, or do they sometimes undercut each other? A second layer: can the self-help creed of 'strive, build a self' and Buddhism's 'no-self, let go' each take their place by life stage (the beginner needs an identity scaffold, the master dismantles it), or is it finally either/or? And once you take 'no-self' as a pill to improve performance, 'to be swallowed at the right moment,' is that instrumentalizing calculation not the very disease it asks you to drop? For Wang Yangming, Huineng, Zhuangzi, Adler, Dweck, Newport to debate.",
+      "cat": "self"
+    },
+    {
+      "id": "youth-career-or-explore",
+      "votes": 0,
+      "q": "趁年轻，该拼命搏一份事业，还是先去世界各地走走看看？——阅历与事业，哪个更经不起等？",
+      "q_en": "When young, should you throw yourself into building a career, or first go see the world?",
+      "note": "阅历与事业哪个更经不起等？观众提案：趁体力、自由与好奇心最盛时去看世界，还是趁窗口期攒下复利般的事业资本——错过的那个，还补得回来吗？",
+      "note_en": "Which can least afford to wait — experience or a career? An audience proposal: spend your peak of energy, freedom and curiosity seeing the world, or use the window to compound career capital — and can whichever you skip ever be recovered?",
+      "cat": "life"
+    },
+    {
+      "id": "charity-vs-justice",
+      "votes": 0,
+      "q": "对远方的苦，我们首先该做的是慈善，还是先停止自己正在参与的伤害？",
+      "q_en": "Toward distant suffering, is our first duty charity — or to stop the harm we ourselves take part in?",
+      "note": "很多远方之苦不是天灾，而是我们从中获利的系统所造。止损（正义）与补偿（善心）该不该分个先后？　还有『怎么帮』：居高临下的善意、救世主心态与依赖，会不会连尊严一起夺走——最好的帮助是不是让对方最终不再需要你？",
+      "note_en": "Much distant suffering is no accident but the product of systems we profit from. Should stopping harm (justice) come before compensating for it (charity)? And how one helps: does condescending goodwill, a savior complex and dependence strip away dignity too — is the best help the kind that ends the need for you?",
+      "cat": "ethics"
+    },
+    {
+      "id": "efficiency-vs-resilience",
+      "votes": 0,
+      "q": "凡事都追求『最优／高效』，是不是正在系统性地掏空我们的韧性？——冗余、备份、『暂时没用的多样』，该不该刻意保留？",
+      "q_en": "By chasing 'optimal' and 'efficient' in everything, are we systematically hollowing out our resilience? Should redundancy, backups, and 'currently useless' variety be deliberately kept?",
+      "note": "从供应链到个人生活，我们把冗余当浪费一路砍掉，换来风平浪静时的高效；可韧性恰恰藏在那些『用不上』的备份、多样与慢里。效率与韧性能不能兼得，还是终究得取舍？该在哪里刻意留白？",
+      "note_en": "From supply chains to personal life, we cut redundancy as waste and buy efficiency for calm times; yet resilience lives precisely in the backups, variety and slack that look 'useless.' Can efficiency and resilience coexist, or must we trade them off — and where should we deliberately leave slack?",
+      "cat": "meta"
+    },
+    {
+      "id": "walden-simple-living",
+      "votes": 0,
+      "q": "该主动过「极简 / 少欲」的生活吗？——梭罗式的「简化，再简化」是通往自由与清醒的智慧，还是一种特权、逃避、甚至另一种精致的消费主义？",
+      "q_en": "Should we deliberately live simply — is Thoreau's 'simplify, simplify' the road to freedom and lucidity, or a privilege, an escape, even a refined form of consumerism?",
+      "note": "《瓦尔登湖》的激进主张不是『别追求成功』，而是砍掉欲望本身、自食其力、退到自然里审慎地活——真正的财富是可自由支配的时间。梭罗、第欧根尼（自足）、老子（少私寡欲）、庄子（无用之用）、伊壁鸠鲁（欲望三分）、佛陀（少欲）、弗洛姆（占有还是存在）对上马克思（退隐是逃避、问题在系统不在你的欲望）、纳瓦尔（现代财务自由版）、以及『消费是社会信号、简朴解不了攀比』的凡勃伦式视角。自带三记反驳：特权（有退路才玩得起）、逃避（弃社会责任）、被收编（极简成了美学与生意）。",
+      "note_en": "Walden's radical claim is not 'don't chase success' but cut the wants themselves, be self-reliant, withdraw into nature to live deliberately — real wealth is time you can freely spend. Thoreau, Diogenes (self-sufficiency), Laozi (few desires), Zhuangzi (the use of the useless), Epicurus (three classes of desire), the Buddha (few wants), Fromm (To Have or To Be) against Marx (withdrawal is escape; the problem is the system, not your wants), Naval (a modern financial-freedom version), and a Veblen-style view that consumption is a social signal simplicity cannot cure. It carries three rebuttals: privilege (only the cushioned can opt out), escapism (abandoning social duty), and co-optation (minimalism turned into an aesthetic and a business).",
+      "cat": "self"
+    },
+    {
+      "id": "social-interest-or-self",
+      "votes": 0,
+      "q": "阿德勒说「社会兴趣」是心理健康与幸福的关键——被高估了，还是真的那把尺？独处、自我实现、离经叛道，是病还是另一种活法？",
+      "q_en": "Adler says 'social interest' is the key to mental health and happiness — is it overrated, or really the yardstick? Are solitude, self-realization and nonconformity a sickness, or another way to live?",
+      "note": "阿德勒的强命题：与人联结、为共同体贡献是心理健康的标尺，一切痛苦都是社会兴趣的匮乏（《被讨厌的勇气》）。锋利处在于它把独行者、隐士、不合群的天才都量成『不健康』。正方：阿德勒 × 亚里士多德（人是政治动物）× 马克思（人是社会关系的总和）× 弗洛姆 × 萨波尔斯基（社会联结的神经缓冲，呼应白厅）；反方：弗洛伊德（宿敌·驱力是个人的、文明与个人不可调和）× 尼采（超人·反从众）× 萨特（他人即地狱）× 庄子/佛陀（向内的解脱）。阿德勒 vs 弗洛伊德同台是戏眼。区别于 third-places（孤独社会学）与 intimacy-recession（亲密关系）。",
+      "note_en": "Adler's strong claim: connectedness and contribution to community are the yardstick of mental health, and all suffering is a deficit of social interest (popularized by The Courage to Be Disliked). Its sharp edge is that it measures the loner, the hermit and the nonconforming genius as 'unhealthy.' For: Adler × Aristotle (man is a political animal) × Marx (the self is the sum of social relations) × Fromm × Sapolsky (the neural buffer of social connection, echoing Whitehall); against: Freud (his old rival — drives are individual, individual and civilization irreconcilable) × Nietzsche (the overman, anti-herd) × Sartre (hell is other people) × Zhuangzi/Buddha (inward liberation). Adler vs Freud on one stage is the centerpiece. Distinct from third-places (sociology of loneliness) and intimacy-recession (romantic relationships).",
+      "cat": "self"
+    },
+    {
+      "id": "nde-mind-beyond-brain",
+      "votes": 0,
+      "q": "濒死体验证明了意识能脱离大脑吗？——它是灵魂离体的证据，还是垂死大脑的最后一场烟花？",
+      "q_en": "Do near-death experiences prove consciousness can leave the brain — evidence of a soul departing the body, or the dying brain's last fireworks?",
+      "note": "隧道/离体/一生走马灯/见故人/极度平静——濒死体验跨文化一致、常改变一生。争点不在『体验是否真实』（千真万确），而在它是否证明意识能脱离大脑。大脑派：缺氧与二氧化碳、氯胺酮能复制、颞顶联合区可诱发离体、垂死伽马波爆发、事后记忆重构；意识为本/灵魂派：AWARE 研究里个别『离体看到细节』、脑电近平坦却生出最清晰体验的悖论。『神奇案例』多被幸存者偏差放大。世亲·唯识（意识为本）、佛陀 对 萨波尔斯基/达马西奥/拉马钱德兰（脑机制）、萨姆·哈里斯（懂神经又认真对待意识、但不信灵魂），加一个『解释了机制≠解释了体验与意义』的哲学立场。是 materialism-idealism 的一个具体、有画面感的战场。",
+      "note_en": "Tunnel, out-of-body, life review, meeting the dead, deep peace — near-death experiences are cross-culturally consistent and often life-changing. The dispute is not whether the experience is real (it undeniably is) but whether it proves consciousness can leave the brain. Brain side: hypoxia and CO2, ketamine reproduces it, the temporoparietal junction can induce OBEs, a dying gamma-wave surge, retrospective memory construction; consciousness-primary/soul side: the odd 'saw a detail while out of body' in the AWARE study, and the paradox of the clearest experience arising while EEG is near-flat. The 'miraculous' cases are inflated by survivorship bias. Vasubandhu (consciousness-only) and the Buddha against Sapolsky/Damasio/Ramachandran (brain mechanisms) and Sam Harris (a neuroscientist who takes consciousness seriously yet rejects a soul), plus a philosophical stance that explaining the mechanism is not explaining the experience or its meaning. A concrete, vivid battlefield for materialism-idealism.",
+      "cat": "meta"
+    }
+  ],
+  "debated": [
+    {
+      "id": "happiness",
+      "q": "幸福到底是什么？我们是否应该追求幸福？",
+      "q_en": "What is happiness, really? And should we even pursue it?",
+      "date": "2026-06-13",
+      "cat": "self"
+    },
+    {
+      "id": "attention-and-meaning",
+      "q": "AI 时代，人如何夺回注意力与存在的意义？",
+      "q_en": "In the age of AI, how do we reclaim our attention and the meaning of our existence?",
+      "date": "2026-06-13",
+      "cat": "self"
+    },
+    {
+      "id": "ai-unemployment",
+      "q": "AI 取代工作后，人类是否迎来存在危机？普通人怎样面对中年失业？",
+      "q_en": "After AI replaces human work, will humanity face an existential crisis? How should ordinary people cope with mass midlife unemployment?",
+      "date": "2026-06-13",
+      "cat": "ethics"
+    },
+    {
+      "id": "family-trauma",
+      "q": "原生家庭的创伤：我们多大程度被童年塑造？能否走出？能否改变父母？",
+      "q_en": "Trauma from the family we're born into: how much does childhood shape us, can we move past it, and can we change our parents?",
+      "date": "2026-06-13",
+      "cat": "life"
+    },
+    {
+      "id": "ai-augment-or-atrophy",
+      "q": "AI 与算法：在增强我们，还是在让我们退化？",
+      "q_en": "AI and algorithms: are they augmenting us, or making us atrophy?",
+      "date": "2026-06-14",
+      "cat": "self"
+    },
+    {
+      "id": "ai-era-parenting",
+      "q": "AI 时代该怎么养孩子？——拼命鸡娃、挤名校到底还值不值得？",
+      "q_en": "Raising kids in the age of AI: is intense “tiger parenting” and chasing elite schools still worth it?",
+      "date": "2026-06-15",
+      "cat": "life"
+    },
+    {
+      "id": "management-flattening",
+      "q": "科技大厂的『扁平化』——一个经理带 30–50 人，会成为常态吗？",
+      "q_en": "Big-tech 'flattening' — one manager over 30–50 reports: is this the new normal?",
+      "date": "2026-06-15",
+      "cat": "work"
+    },
+    {
+      "id": "is-there-a-creator",
+      "q": "是否有“造物主”，如果有的话，TA为什么要造出人类？",
+      "q_en": "Is there a 'Creator'? And if so, why would they have made humankind?",
+      "date": "2026-06-16",
+      "cat": "meta"
+    },
+    {
+      "id": "what-makes-good-manager",
+      "q": "一个好的『管理者』，到底是怎样的？",
+      "q_en": "What actually makes a good manager?",
+      "date": "2026-06-16",
+      "cat": "work"
+    },
+    {
+      "id": "knowing-vs-doing",
+      "q": "“知道”和“做到”之间的差异是如何产生的？（知道该锻炼、早睡，却很难做到）",
+      "q_en": "Why is there a gap between knowing and doing? (We know we should exercise and sleep early — yet rarely do.)",
+      "date": "2026-06-17",
+      "cat": "self"
+    },
+    {
+      "id": "pursue-immortality",
+      "q": "人是否应该追求长生，如果人真的能够长生，世界会怎样？",
+      "q_en": "Should we pursue immortality — and if humans really could live forever, what would the world become?",
+      "date": "2026-06-17",
+      "cat": "life"
+    },
+    {
+      "id": "money-and-happiness",
+      "q": "金钱能（在多大程度上）买到幸福？",
+      "q_en": "Can money buy happiness — and how much?",
+      "date": "2026-06-18",
+      "cat": "self"
+    },
+    {
+      "id": "control-and-letting-go",
+      "q": "「只专注于你能控制的」是处世智慧，还是一种对改不了的不公视而不见的特权式逃避？",
+      "q_en": "Is 'focus only on what you can control' practical wisdom, or a privileged way of looking past injustice you could help change?",
+      "date": "2026-06-19",
+      "cat": "self"
+    },
+    {
+      "id": "falling-birthrate",
+      "q": "现在的年轻人（尤其在亚洲）为什么不想生孩子？这对个人与社会意味着什么？",
+      "q_en": "Why don't young people — especially in Asia — want children anymore, and what does it mean for the individual and for society?",
+      "date": "2026-06-19",
+      "cat": "ethics"
+    },
+    {
+      "id": "facing-death",
+      "q": "我们该如何面对死亡？如何做到「向死而生」？",
+      "q_en": "How should we face death — and how do we actually live 'toward' it (being-toward-death)?",
+      "date": "2026-06-19",
+      "cat": "life"
+    },
+    {
+      "id": "intimacy-recession",
+      "q": "为什么这一代人越来越难谈恋爱、走入亲密关系？是个人问题，还是时代造的？",
+      "q_en": "Why is this generation finding it ever harder to date and form intimate relationships — a personal failing, or one the age has made?",
+      "date": "2026-06-19",
+      "cat": "ethics"
+    },
+    {
+      "id": "three-teachings",
+      "q": "儒、释、道的异同：三家分歧究竟在哪，又在何处殊途同归？",
+      "q_en": "Confucianism, Buddhism, and Daoism: where do the three traditions truly differ, and where do they converge?",
+      "date": "2026-06-19",
+      "cat": "meta"
+    },
+    {
+      "id": "index-or-stock-picking",
+      "q": "普通人投资，该买大盘指数，还是买自己拿着放心的个股？",
+      "q_en": "For ordinary investors: buy the broad index, or the individual stocks you can hold with confidence?",
+      "date": "2026-06-19",
+      "cat": "self"
+    },
+    {
+      "id": "driven-by-fear",
+      "q": "靠恐惧驱动的优秀（『要够好才配被爱』）该不该放下？放下了，会不会就失去前进的动力？",
+      "q_en": "Excellence driven by fear ('I must be good enough to deserve love') — should we let it go, and if we do, do we lose the drive to move forward?",
+      "date": "2026-06-19",
+      "cat": "self"
+    },
+    {
+      "id": "east-west-philosophy",
+      "q": "东方与西方哲学：源头何以不同，如何塑造了今天的东西方人，又能否融合双方的智慧？",
+      "q_en": "Eastern and Western philosophy: why did they diverge at the root, how have they shaped people East and West today, and can the two wisdoms be fused?",
+      "date": "2026-06-20",
+      "cat": "meta"
+    },
+    {
+      "id": "office-politics",
+      "q": "大型组织里的『组织政治』，是毒瘤还是必需？普通人又该如何看待、甚至善用它？",
+      "q_en": "Office politics in large organizations: a cancer, or a necessity — and how should ordinary people navigate, even use, it?",
+      "date": "2026-06-20",
+      "cat": "work"
+    },
+    {
+      "id": "withdraw-life-support",
+      "q": "家中老人病重、靠插管维持近乎植物人的状态，作为子女，该不该撤管放手？",
+      "q_en": "An elderly parent kept alive by tubes in a near-vegetative state — should the children withdraw life support and let go?",
+      "date": "2026-06-21",
+      "cat": "life"
+    },
+    {
+      "id": "virtue-vs-talent",
+      "q": "企业用人，该「以德为先」还是「以才为先」？",
+      "q_en": "When a company hires and promotes, should it put character first, or ability first?",
+      "date": "2026-06-22",
+      "cat": "work"
+    },
+    {
+      "id": "coach-or-manage-out",
+      "q": "下属能力或动力不足，领导该花时间 coaching，还是果断 manage out？",
+      "q_en": "When a report lacks the ability or the drive, should a leader invest in coaching — or manage them out?",
+      "date": "2026-06-24",
+      "cat": "work"
+    },
+    {
+      "id": "seeing-others-is-self",
+      "q": "「你眼中的别人不是别人，你眼中的自己不是自己，你眼中的别人才是自己」——这话有道理吗？",
+      "q_en": "'The others you see aren't really them, the self you see isn't really you, and the others you see are actually you' — is there truth to this?",
+      "date": "2026-06-25",
+      "cat": "self"
+    },
+    {
+      "id": "worldly-success",
+      "q": "世俗意义上的『成功』——财富、地位、名声、成就——到底值不值得追求？",
+      "q_en": "Is worldly 'success' — wealth, status, fame, achievement — worth pursuing at all?",
+      "date": "2026-06-26",
+      "cat": "self"
+    },
+    {
+      "id": "being-yourself",
+      "q": "「忠于真实的自我」是不是个伪命题？到底有没有一个本真的我？",
+      "q_en": "Is 'being true to your authentic self' a false premise — and is there even an authentic self to begin with?",
+      "date": "2026-06-26",
+      "cat": "self"
+    },
+    {
+      "id": "acceptable-inequality",
+      "q": "什么样的不平等是可以接受的？",
+      "q_en": "What kind of inequality is acceptable?",
+      "date": "2026-06-27",
+      "cat": "ethics"
+    },
+    {
+      "id": "luck-and-merit",
+      "q": "我们的成功与失败，多少是「应得的」？努力真能决定命运吗？",
+      "q_en": "How much of our success or failure do we actually deserve — and does effort really decide our fate?",
+      "date": "2026-06-28",
+      "cat": "self"
+    },
+    {
+      "id": "gene-editing",
+      "q": "该不该用基因编辑「设计」更聪明、更健康的下一代？",
+      "q_en": "Should we use gene editing to 'design' smarter, healthier children?",
+      "date": "2026-06-29",
+      "cat": "ethics"
+    },
+    {
+      "id": "eldercare-home-or-facility",
+      "q": "父母年迈失能，该亲自接回家照顾，还是送养老院、请护工？",
+      "q_en": "When parents grow old and frail, should you care for them at home yourself, or place them in a nursing home and hire professional carers?",
+      "date": "2026-06-30",
+      "cat": "life"
+    },
+    {
+      "id": "job-hopping",
+      "q": "该频繁跳槽，还是在一处深耕固守？",
+      "q_en": "Should you job-hop often, or stay put and dig deep in one place?",
+      "date": "2026-06-30",
+      "cat": "work"
+    },
+    {
+      "id": "productivity-and-leisure",
+      "q": "生产力一次次飞跃，人是更清闲还是更忙、更幸福还是更不幸？（农业、工业、AI 三次革命）",
+      "q_en": "With each leap in productivity, do people end up more leisured or busier, happier or unhappier? (The agricultural, industrial, and AI revolutions)",
+      "date": "2026-06-30",
+      "cat": "meta"
+    },
+    {
+      "id": "what-determines-value",
+      "q": "一样东西的价值，到底由什么决定？（劳动、效用、稀缺，还是别的？）",
+      "q_en": "What ultimately determines the value of a thing? (Labor, utility, scarcity — or something else?)",
+      "date": "2026-06-30",
+      "cat": "meta"
+    },
+    {
+      "id": "ai-and-inequality",
+      "q": "AI 创造的财富，会加剧不平等（赢家通吃的马太效应），还是造就更公平的社会？",
+      "q_en": "Will the wealth AI creates deepen inequality (a winner-takes-all Matthew effect), or build a fairer society?",
+      "date": "2026-07-01",
+      "cat": "ethics"
+    },
+    {
+      "id": "identity-or-no-self",
+      "q": "想改变自己，该先给自己贴正向标签、强化身份（成功学的『先改 identity』），还是看破『我执』、放下自我（佛学的无我）？",
+      "q_en": "To change yourself, should you start by claiming a positive label and reinforcing a new identity (the self-help 'identity-first' move), or by seeing through self-grasping and letting go of the self (the Buddhist no-self)?",
+      "date": "2026-07-02",
+      "cat": "self"
+    },
+    {
+      "id": "free-will",
+      "q": "人是否拥有真正的自由意志？",
+      "q_en": "Do humans have genuine free will?",
+      "date": "2026-07-02",
+      "cat": "meta"
+    },
+    {
+      "id": "geography-shapes-thought",
+      "q": "是地理与物质环境塑造了思想与文明的分野（东西方为何不同），还是思想自有其命（偶然、伟人、观念）？",
+      "q_en": "Did geography and material conditions shape the divergence of thought and civilization (why East and West differ), or do ideas have a life of their own (contingency, great individuals, the force of ideas)?",
+      "date": "2026-07-02",
+      "cat": "meta"
+    },
+    {
+      "id": "engage-or-withdraw",
+      "q": "这一辈子想活得不后悔，到底该入世（投身事功与人群），还是出世（超脱放下、向内求安）？",
+      "q_en": "To live this life without regret, should you engage the world (throw yourself into achievement and people), or withdraw from it (transcend, let go, seek peace within)?",
+      "date": "2026-07-02",
+      "cat": "self"
+    },
+    {
+      "id": "comparison-and-envy",
+      "q": "为什么我们忍不住跟别人比？嫉妒能消除吗？",
+      "q_en": "Why can't we stop comparing ourselves to others — and can envy ever be cured?",
+      "date": "2026-07-03",
+      "cat": "self"
+    },
+    {
+      "id": "enough-money-still-work",
+      "q": "如果有了足够的钱（财务自由），是否还应该继续工作？",
+      "q_en": "If you had enough money to never need to, should you still work?",
+      "date": "2026-07-04",
+      "cat": "self"
+    },
+    {
+      "id": "quantum-observation",
+      "q": "量子物理是否说明「观测」真的改变了世界？",
+      "q_en": "Does quantum physics show that 'observation' really changes the world?",
+      "date": "2026-07-05",
+      "cat": "meta"
+    },
+    {
+      "id": "depth-or-breadth",
+      "q": "AI 时代，人的心智该往「深」练还是往「广」练？——不受打扰的深度专注，还是驾驭多线程的调度与切换？",
+      "q_en": "In the AI era, should the mind train for depth or breadth — undistracted deep focus, or orchestrating and switching across many threads?",
+      "date": "2026-07-07",
+      "cat": "self"
+    },
+    {
+      "id": "virtue-teachable",
+      "q": "品德是教出来的，还是长出来的？——美德到底可不可教？",
+      "q_en": "Can virtue be taught — is character instilled, or does it grow on its own?",
+      "date": "2026-07-07",
+      "cat": "self"
+    },
+    {
+      "id": "big-firm-or-startup",
+      "q": "普通人该进大厂求稳，还是闯小公司、创业？",
+      "q_en": "Should you join a big company for stability, or take a startup — or strike out on your own?",
+      "date": "2026-07-07",
+      "cat": "work"
+    },
+    {
+      "id": "inequality-and-health",
+      "q": "贫富差距本身会让人生病吗？——该不该把不平等当成一个公共健康问题？",
+      "q_en": "Does the wealth gap itself make people sick — and should inequality be treated as a public-health problem?",
+      "date": "2026-07-08",
+      "cat": "ethics"
+    },
+    {
+      "id": "what-is-education-for",
+      "q": "教育到底是为了什么——筛选人才的机器，还是培养人的土壤？",
+      "q_en": "What is education actually for — a machine to sort talent, or soil to cultivate a person?",
+      "date": "2026-07-09",
+      "cat": "ethics"
+    },
+    {
+      "id": "fluid-or-crystallized",
+      "q": "AI 时代，人该练流体智力（临场推理）还是晶体智力（深厚积累）？还是真正稀缺的是坐在两者之上的判断力？",
+      "q_en": "In the AI era, should we train fluid intelligence (on-the-spot reasoning) or crystallized intelligence (deep accumulation) — or is the real scarcity the judgment that sits above both?",
+      "date": "2026-07-10",
+      "cat": "self"
+    },
+    {
+      "id": "math-discovered-or-invented",
+      "q": "数学是被发现的，还是被发明的？",
+      "q_en": "Is mathematics discovered, or invented?",
+      "date": "2026-07-11",
+      "cat": "meta"
+    },
+    {
+      "id": "is-progress-real",
+      "q": "进步是真的吗？历史是在前进，还是循环、甚至退步？",
+      "q_en": "Is progress real? Is history moving forward, in cycles — or even backward?",
+      "date": "2026-07-12",
+      "cat": "meta"
+    },
+    {
+      "id": "progress-liberation-or-control",
+      "q": "现代的『文明进步』——废酷刑、办学校、建医院、讲人道——到底是人的解放，还是一种更高效、更彻底的控制？",
+      "q_en": "Modern 'civilizational progress' — abolishing torture, building schools and hospitals, invoking humanity — is it human liberation, or a more efficient and more total form of control?",
+      "date": "2026-07-13",
+      "cat": "ethics"
+    },
+    {
+      "id": "natural-aging",
+      "q": "容颜该顺其自然地老去，还是该努力医美、抗衰？",
+      "q_en": "Should we let our looks age naturally, or fight it with cosmetic work and anti-aging?",
+      "date": "2026-07-13",
+      "cat": "self"
+    },
+    {
+      "id": "ai-consciousness",
+      "q": "AI 有没有、或可能有意识？我们又凭什么判断？",
+      "q_en": "Does (or could) AI have consciousness — and how would we ever know?",
+      "date": "2026-07-14",
+      "cat": "meta"
+    },
+    {
+      "id": "language-shapes-thought",
+      "q": "语言塑造思维吗？说不同语言的人，看到的是不同的世界吗？",
+      "q_en": "Does language shape thought? Do speakers of different languages see different worlds?",
+      "date": "2026-07-15",
+      "cat": "meta"
+    },
+    {
+      "id": "what-is-beauty",
+      "q": "美，是主观感受，还是有客观的标准？",
+      "q_en": "Is beauty just in the eye of the beholder, or is there an objective standard?",
+      "date": "2026-07-16",
+      "cat": "meta"
+    },
+    {
+      "id": "care-and-emotional-labor",
+      "q": "我们为何系统性地低估『照护与情感劳动』的价值？（带孩子、陪伴、安抚、协调——这些撑起一切却没人记功的活）",
+      "q_en": "Why do we systematically undervalue care and emotional labor?",
+      "date": "2026-07-17",
+      "cat": "life"
+    },
+    {
+      "id": "performance-ranking",
+      "q": "绩效考核与「赛马」（KPI、末位淘汰）是激励，还是毒药？",
+      "q_en": "Are performance metrics and forced ranking (KPIs, stack-ranking) a motivator, or a poison?",
+      "date": "2026-07-18",
+      "cat": "work"
+    },
+    {
+      "id": "duty-to-distant-strangers",
+      "q": "我们对远方陌生人的苦难，负有多大义务？",
+      "q_en": "How much do we owe the suffering of distant strangers?",
+      "date": "2026-07-19",
+      "cat": "ethics"
+    },
+    {
+      "id": "procrastination",
+      "q": "拖延症要治吗？deadline 是第一生产力，重要的事最后也赶得出来——那它到底是不是病？",
+      "q_en": "Does procrastination even need fixing? Deadlines are the ultimate motivator and the important stuff still ships — so is it really a flaw?",
+      "date": "2026-07-20",
+      "cat": "self"
+    },
+    {
+      "id": "cultural-homogenization",
+      "q": "全球化正在把世界磨成同一种模样——我们在失去文化多样性吗？这是进步，还是一种贫乏？",
+      "q_en": "Globalization is grinding the world into one shape — are we losing cultural diversity, and is that progress or an impoverishment?",
+      "date": "2026-07-21",
+      "cat": "meta"
+    },
+    {
+      "id": "nature-of-love",
+      "q": "真爱是发现的，还是培养（甚至建构）出来的？",
+      "q_en": "Is true love found, or cultivated — even constructed?",
+      "date": "2026-07-22",
+      "cat": "life"
+    },
+    {
+      "id": "shareholder-or-stakeholder",
+      "q": "公司到底该对谁负责——只对股东，还是也对员工与社会？",
+      "q_en": "Whom does a company answer to — only shareholders, or also its workers and society?",
+      "date": "2026-07-23",
+      "cat": "work"
+    },
+    {
+      "id": "escape-from-freedom",
+      "q": "人真的在逃避自由吗？——自由是解放，还是一副人宁愿卸下的重担？",
+      "q_en": "Do humans really flee from freedom — is freedom liberation, or a burden people would rather set down?",
+      "date": "2026-07-24",
+      "cat": "self"
+    }
+  ]
 }

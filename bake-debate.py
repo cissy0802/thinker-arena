@@ -4,7 +4,10 @@
 import json, os, sys, hashlib, re, requests
 from pathlib import Path
 
-REPO = Path(os.path.expanduser("~/Desktop/repos/thinker-arena"))
+# Repo root = this script's own directory. Must NOT be a hardcoded ~/Desktop
+# path: on GitHub Actions ~ is /home/runner, so voices.json/thinkers.json/
+# debates/ all vanish and every CI bake dies with FileNotFoundError.
+REPO = Path(__file__).parent.resolve()
 KEY = os.environ["AZURE_SPEECH_KEY"]; REGION = os.environ["AZURE_SPEECH_REGION"]
 ENDPOINT = f"https://{REGION}.tts.speech.microsoft.com/cognitiveservices/v1"
 VOICES = json.load(open(REPO / "voices.json"))

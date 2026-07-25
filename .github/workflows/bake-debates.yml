@@ -44,7 +44,9 @@ jobs:
           import json, glob, os, subprocess, hashlib
           src = open("bake-debate.py").read().split("slug = sys.argv[1]")[0]
           src = src.replace('KEY = os.environ["AZURE_SPEECH_KEY"]; REGION = os.environ["AZURE_SPEECH_REGION"]', 'KEY=REGION="x"')
-          g = {}; exec(src, g)
+          # bake-debate.py resolves REPO from __file__; exec() has none by
+          # default, so hand it one pointing at the checked-out script.
+          g = {"__file__": os.path.abspath("bake-debate.py")}; exec(src, g)
           assign = g["assign_debate_voices"]; strip = g["strip_md"]
           def h(c, t):
               s = c["voice"]+"|"+(c.get("pitch") or "")+"|"+(c.get("rate") or "")+"|"+t

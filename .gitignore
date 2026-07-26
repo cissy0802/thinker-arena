@@ -4,3 +4,11 @@
 # 系统/编辑器杂物
 .DS_Store
 node_modules/
+
+# Baked debate MP3s live in R2 (bucket bigcat-audio, prefix thinker-arena/),
+# served by the bigcat-audio Worker.
+#
+# Only the MP3s — audio/debate/<slug>/manifest.json stays tracked. app.js reads
+# it at runtime to find each speaker's track, and the bake workflow reads it to
+# decide which debates still need audio. Ignoring all of audio/ would strand both.
+audio/**/*.mp3

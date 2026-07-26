@@ -117,9 +117,83 @@ def synth(c, text):
         time.sleep(2 ** attempt)
     raise RuntimeError("retries exhausted")
 
+# ---- Where the MP3s go -----------------------------------------------------
+# They used to be committed here: 591MB of this repo's 598MB. Now they go to
+# R2 (bucket bigcat-audio, key thinker-arena/debate/<slug>/<hash>.mp3) and are
+# served by the bigcat-audio Worker. The manifest stays in git — it is small,
+# it is the index app.js reads, and keeping it tracked is what lets CI tell
+# which debates still need baking without the MP3s being present.
+#
+# R2 mode switches on when the three R2_* env vars are set, so a local run
+# without credentials still writes audio/ and behaves exactly as before.
+class LocalStore:
+    label = "local audio/"
+    def __init__(self, root): self.root = root
+    def has(self, rel): return (self.root/rel).exists()
+    def put(self, rel, data):
+        p = self.root/rel; p.parent.mkdir(parents=True, exist_ok=True); p.write_bytes(data)
+    def prune(self, keep_dir, keep_names):
+        import glob as _g
+        for f in _g.glob(str(self.root/keep_dir/"*.mp3")):
+            if os.path.basename(f) not in keep_names: os.remove(f)
+
+
+class R2Store:
+    def __init__(self, acct, ak, sk, bucket, prefix):
+        import boto3
+        from botocore.config import Config
+        self.bucket, self.prefix = bucket, prefix.strip("/")
+        self.label = f"r2://{bucket}/{self.prefix}"
+        self.c = boto3.client("s3", endpoint_url=f"https://{acct}.r2.cloudflarestorage.com",
+                              aws_access_key_id=ak, aws_secret_access_key=sk, region_name="auto",
+                              config=Config(signature_version="s3v4", retries={"max_attempts": 5}))
+    def _key(self, rel): return f"{self.prefix}/{rel}"
+    def _list(self, rel_dir):
+        keys, tok = set(), None
+        while True:
+            kw = {"Bucket": self.bucket, "Prefix": f"{self.prefix}/{rel_dir}/"}
+            if tok: kw["ContinuationToken"] = tok
+            r = self.c.list_objects_v2(**kw)
+            for o in r.get("Contents", []): keys.add(o["Key"])
+            if not r.get("IsTruncated"): return keys
+            tok = r["NextContinuationToken"]
+    def has(self, rel):
+        d = os.path.dirname(rel)
+        if not hasattr(self, "_cache"): self._cache = {}
+        if d not in self._cache: self._cache[d] = self._list(d)
+        return self._key(rel) in self._cache[d]
+    def put(self, rel, data):
+        self.c.put_object(Bucket=self.bucket, Key=self._key(rel), Body=data,
+                          ContentType="audio/mpeg",
+                          CacheControl="public, max-age=31536000, immutable")
+        self._cache.setdefault(os.path.dirname(rel), set()).add(self._key(rel))
+    def prune(self, keep_dir, keep_names):
+        stale = [k for k in self._list(keep_dir) if os.path.basename(k) not in keep_names
+                 and k.endswith(".mp3")]
+        for i in range(0, len(stale), 1000):
+            self.c.delete_objects(Bucket=self.bucket,
+                                  Delete={"Objects": [{"Key": k} for k in stale[i:i+1000]],
+                                          "Quiet": True})
+        if stale: print(f"  pruned {len(stale)} stale objects")
+
+
+def make_store():
+    e = {k: os.environ.get(k) for k in
+         ("R2_ACCOUNT_ID", "R2_ACCESS_KEY_ID", "R2_SECRET_ACCESS_KEY")}
+    if not all(e.values()):
+        if any(e.values()):
+            print("WARNING: partial R2 config, baking to disk instead", file=sys.stderr)
+        return LocalStore(REPO/"audio")
+    return R2Store(e["R2_ACCOUNT_ID"], e["R2_ACCESS_KEY_ID"], e["R2_SECRET_ACCESS_KEY"],
+                   os.environ.get("R2_BUCKET", "bigcat-audio"),
+                   os.environ.get("R2_PREFIX", "thinker-arena"))
+
+
 slug = sys.argv[1]
 d = json.load(open(REPO/f"debates/{slug}.json"))
 outdir = REPO/"audio"/"debate"/slug; outdir.mkdir(parents=True, exist_ok=True)
+store = make_store()
+print(f"Audio store: {store.label}")
 manifest = {}
 
 # Collision-free voices for THIS debate's speakers (stable, stateless — the
@@ -135,9 +209,9 @@ def bake(seg_id, c, text):
     # hash includes voice+pitch+rate so retuning produces a fresh file
     sig = c["voice"] + "|" + (c.get("pitch") or "") + "|" + (c.get("rate") or "") + "|" + text
     h = hashlib.sha1(sig.encode()).hexdigest()[:16]
-    fp = outdir/f"{h}.mp3"
-    if not fp.exists():
-        fp.write_bytes(synth(c, text))
+    rel = f"debate/{slug}/{h}.mp3"
+    if not store.has(rel):
+        store.put(rel, synth(c, text))
         tag = c["voice"].replace("zh-CN-","")[:20] + (f" {c.get('pitch','')}" if c.get('pitch') else "")
         print(f"  {seg_id:<12} {tag:<26} {len(text)}字")
     manifest[seg_id] = {"audio": f"audio/debate/{slug}/{h}.mp3", "voice": c["voice"]}
@@ -175,9 +249,9 @@ for i, hk in enumerate(d.get("hooks", [])):
     bake("hook-%d" % i, c, hook_text(hk))
 
 json.dump(manifest, open(outdir/"manifest.json","w"), ensure_ascii=False, indent=1)
-# clean orphans
+# Drop segments this bake no longer uses — editing a post changes its hash and
+# strands the old file. Doing it per debate is why this repo has no dead audio
+# to prune, unlike the ones baked by bake-tts.py.
 used = {v["audio"].split("/")[-1] for v in manifest.values()}
-import glob
-for f in glob.glob(str(outdir/"*.mp3")):
-    if os.path.basename(f) not in used: os.remove(f)
+store.prune(f"debate/{slug}", used)
 print(f"✅ {len(manifest)} 段（含 3 AI 收尾）→ manifest.json")

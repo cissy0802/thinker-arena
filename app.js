@@ -548,6 +548,27 @@
   }
   function getJSON(u) { return fetch(u).then(function (r) { if (!r.ok) throw new Error(u + " HTTP " + r.status); return r.json(); }); }
 
+  // The baked MP3s left this repo for R2 (they were 591MB of the 598MB here),
+  // and are served by the bigcat-audio Worker. The manifest still stores the
+  // original repo-relative path — rewriting it here, once, means every
+  // consumer downstream (the per-post buttons and the player) is unaware.
+  //
+  // Sibling of R2_AUDIO_REPOS in hub.cissychen.com/i18n-tts.js; this repo needs
+  // its own copy because its debates are rendered client-side from JSON and
+  // never carry the data-tts attributes that script keys off.
+  var R2_AUDIO_ORIGIN = "https://bigcat-audio.cissychen.workers.dev";
+  function resolveAudio(manifest) {
+    if (!manifest) return null;
+    Object.keys(manifest).forEach(function (k) {
+      var e = manifest[k];
+      // "audio/debate/<slug>/<hash>.mp3" -> "<origin>/thinker-arena/debate/<slug>/<hash>.mp3"
+      if (e && typeof e.audio === "string" && e.audio.indexOf("audio/") === 0) {
+        e.audio = R2_AUDIO_ORIGIN + "/thinker-arena/" + e.audio.slice("audio/".length);
+      }
+    });
+    return manifest;
+  }
+
   function boot() {
     var id = new URLSearchParams(location.search).get("d") || "happiness";
     // Optional per-speaker TTS: an audio manifest may exist for this debate.
@@ -565,7 +586,7 @@
       .then(function (res) {
         res[0].thinkers.forEach(function (c) { THINKERS[c.id] = c; });
         (res[0].reactionTypes || []).forEach(function (rt) { REACTS[rt.key] = rt; REACT_ORDER.push(rt.key); });
-        window.__AUDIO = res[2] || null;
+        window.__AUDIO = resolveAudio(res[2]);
         renderDebate(res[1]);
       })
       .catch(function (e) { fail(esc(e.message || e)); });

@@ -25,6 +25,17 @@ def load(eid):
     p = "debates/%s.json" % eid
     return json.load(open(p)) if os.path.exists(p) else None
 
+def _cn(t):
+    return len(re.findall(r"[\u4e00-\u9fff]", t or ""))
+
+def _r3_ratio(posts):
+    """第3轮均长 ÷ 第1轮均长——照出『总结陈词一律拉到上限』这种未被覆盖的形状坍缩。"""
+    a = [_cn(p.get("text", "")) for p in posts if p.get("round") == 1]
+    b = [_cn(p.get("text", "")) for p in posts if p.get("round") == 3]
+    if not a or not b:
+        return 0.0
+    return round((sum(b) / len(b)) / max(1.0, sum(a) / len(a)), 2)
+
 def feats(d):
     posts = d.get("posts", [])
     rounds = sorted({p["round"] for p in posts})
@@ -55,8 +66,11 @@ def feats(d):
         "古文帖数": sum(1 for p in posts if p.get("vernacular")),
         "建议带①②③": sum(1 for s in sums if has_num(s.get("advice", ""))),
         "帖均加粗处": round(sum((p.get("text", "").count("**")) // 2 for p in posts) / max(1, len(posts)), 2),
+        # 总结陈词是否一律被拉长到上限（第3轮均长 ÷ 第1轮均长；每场都 ~2.0 即是形状定型）
+        "总结膨胀比": _r3_ratio(posts),
         # 措辞指纹（开头几字）
         "_insight_open": [(s.get("ai", "?"), (s.get("insight", "") or "")[:5]) for s in sums],
+        "_advice_open": [(s.get("ai", "?"), (s.get("advice", "") or "")[:6]) for s in sums],
         "_post_open": [(p.get("text", "") or "")[:3] for p in posts],
     }
 
@@ -68,7 +82,7 @@ print("形状自评 ·", tid, "· 对比最近", len(R), "场:", "、".join(eid 
 print("=" * 70)
 
 SCALARS = ["人数","轮数","每轮帖数","钩子数","钩子分布","钩子作者类型","二轮全反一轮","表态档集合",
-           "用了疑惑","带glossary帖数","古文帖数","建议带①②③","帖均加粗处"]
+           "用了疑惑","带glossary帖数","古文帖数","建议带①②③","帖均加粗处","总结膨胀比"]
 flags = []
 print("\n%-14s %-22s %s" % ("维度", "本场", "最近几场"))
 print("-" * 70)
@@ -96,6 +110,19 @@ for ai, op in T["_insight_open"]:
     print("  %-7s 「%s…」%s" % (ai, op, tag))
     if reuse >= 2:
         flags.append("insight开头:%s" % op)
+
+# ---- 措辞坍缩：advice 开头 ----（"三件今天就能试的事"/"本周可做三件事" 最易跨场复读）
+print("\n【advice 开头】（每家换个起手式，别每场都从同一句数数开始）")
+allao = Counter()
+for eid, f in R:
+    for ai, op in f.get("_advice_open", []):
+        allao[op] += 1
+for ai, op in T["_advice_open"]:
+    reuse = allao.get(op, 0)
+    tag = " ⚠️ 最近%d场也这么开头" % reuse if reuse >= 2 else ""
+    print("  %-7s 「%s…」%s" % (ai, op, tag))
+    if reuse >= 2:
+        flags.append("advice开头:%s" % op)
 
 # ---- 帖子起手式：本场内部单调 + 跨场复用 ----
 print("\n【帖子起手式】（本场内大量同起手 or 跨场复用＝套路）")

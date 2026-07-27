@@ -192,17 +192,44 @@
     b.querySelector(".ta-time").textContent = fmt(cur) + " / " + fmt(dur);
   }
   function updBar() { updState(); updProg(); }
+  // Warm the next few posts while the current one plays. Without this each
+  // MP3 only starts downloading once the previous post ends, which reads as a
+  // gap between speakers now that audio comes from R2 rather than this origin.
+  // Keyed by URL so a reordered thread can never hand back the wrong post.
+  var __pf = {};
+  function prefetchNext(count) {
+    for (var i = 1; i <= count; i++) {
+      var j = __p.idx + i;
+      if (j >= __p.order.length) break;
+      var e = window.__AUDIO && window.__AUDIO[__p.order[j]];
+      if (!e || !e.audio || __pf[e.audio]) continue;
+      var a = new Audio(e.audio); a.preload = "auto";
+      __pf[e.audio] = a;
+    }
+  }
+  function clearPrefetch() {
+    Object.keys(__pf).forEach(function (u) {
+      var a = __pf[u];
+      try { a.pause(); } catch (err) {}
+      a.removeAttribute("src"); if (a.load) a.load();
+    });
+    __pf = {};
+  }
   function play(pid) {
     var a = window.__AUDIO && window.__AUDIO[pid]; if (!a) return;
     if (__p.audio) { __p.audio.pause(); __p.audio = null; }
     __p.idx = __p.order.indexOf(pid);
     setActive(pid);
-    var au = new Audio(a.audio); au.playbackRate = __p.rate;
+    // Reuse the warmed element if we already started fetching this one.
+    var au = __pf[a.audio] || new Audio(a.audio);
+    delete __pf[a.audio];
+    au.playbackRate = __p.rate;
     __p.audio = au; __p.playing = true;
     au.ontimeupdate = updProg;
     au.onloadedmetadata = updProg;
     au.onended = function () { next(true); };
     au.play().catch(function () { pause(); });
+    prefetchNext(2);
     updBar();
   }
   function pause() { if (__p.audio) __p.audio.pause(); __p.playing = false; updState(); }
@@ -210,7 +237,7 @@
   function toggle() { if (__p.playing) pause(); else resume(); }
   function next(auto) {
     if (__p.idx + 1 < __p.order.length) { play(__p.order[__p.idx + 1]); }
-    else { pause(); setActive(null); __p.idx = -1; updBar(); }
+    else { pause(); clearPrefetch(); setActive(null); __p.idx = -1; updBar(); }
   }
   function prev() { if (__p.idx > 0) play(__p.order[__p.idx - 1]); else if (__p.audio) __p.audio.currentTime = 0; }
   function skip(d) { if (__p.audio) { __p.audio.currentTime = Math.max(0, Math.min(__p.audio.duration || 0, __p.audio.currentTime + d)); updBar(); } }

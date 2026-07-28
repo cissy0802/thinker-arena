@@ -78,9 +78,17 @@ jobs:
               if any(f"{h(dv[p['thinker']], strip(p['text']))}.mp3" not in have for p in d["posts"]):
                   todo.append(slug)
           print("to bake:", todo or "(none)")
+          # Fail the job when a bake fails. Printing and carrying on left this
+          # workflow green for days while every debate silently went unbaked:
+          # thinker-arena's Azure secrets were empty, so each run raised
+          # InvalidURL, said FAILED, and exited 0. A red run is the whole point.
+          failed = []
           for slug in todo:
               r = subprocess.run(["python3", "bake-debate.py", slug])
-              if r.returncode != 0: print("FAILED", slug)
+              if r.returncode != 0:
+                  print("FAILED", slug); failed.append(slug)
+          if failed:
+              raise SystemExit(f"{len(failed)} debate(s) failed to bake: {failed}")
           PY
       - name: Commit audio
         run: |

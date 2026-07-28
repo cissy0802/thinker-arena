@@ -9,6 +9,14 @@ from pathlib import Path
 # debates/ all vanish and every CI bake dies with FileNotFoundError.
 REPO = Path(__file__).parent.resolve()
 KEY = os.environ["AZURE_SPEECH_KEY"]; REGION = os.environ["AZURE_SPEECH_REGION"]
+# A missing GitHub secret arrives as an empty string, not as an unset variable,
+# so os.environ[...] happily returns "". That produced a URL of
+# "https://.tts.speech.microsoft.com/..." and an InvalidURL raised deep inside
+# requests, ten frames from the actual cause. Say it plainly instead.
+if not KEY or not REGION:
+    missing = [n for n, v in (("AZURE_SPEECH_KEY", KEY), ("AZURE_SPEECH_REGION", REGION)) if not v]
+    sys.exit(f"ERROR: {', '.join(missing)} is empty — add it to this repo's "
+             f"Actions secrets. Nothing was baked.")
 ENDPOINT = f"https://{REGION}.tts.speech.microsoft.com/cognitiveservices/v1"
 VOICES = json.load(open(REPO / "voices.json"))
 DEFAULT = {"voice": "zh-CN-XiaoxiaoMultilingualNeural"}

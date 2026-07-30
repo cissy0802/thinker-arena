@@ -44,6 +44,16 @@ def _r3_ratio(posts):
         return 0.0
     return round((sum(b) / len(b)) / max(1.0, sum(a) / len(a)), 2)
 
+def _order_repeat(posts, rounds):
+    """后面各轮里，有几轮的发言顺序与第1轮一字不差。每场都按同一个次序轮流开口，
+    读起来就是同一张点名表念了三遍——它不在人数、不在反驳结构上，静态规则查不出。
+    0 = 每轮都换了次序（想要的样子），所以 0 不算模板、不报连号。"""
+    seq = {r: [p["thinker"] for p in posts if p["round"] == r] for r in rounds}
+    base = seq.get(rounds[0], [])
+    later = list(rounds[1:])
+    return sum(1 for r in later if seq[r] == base)
+
+
 def feats(d):
     posts = d.get("posts", [])
     rounds = sorted({p["round"] for p in posts})
@@ -52,6 +62,8 @@ def feats(d):
     # 第2轮反驳是否每帖都 reply 第1轮
     r2 = [p for p in posts if p["round"] == 2]
     r2_to_r1 = sum(1 for p in r2 if p.get("reply_to") and by_id.get(p["reply_to"], {}).get("round") == 1)
+    # 第2轮内部的『追击』：反驳的是同一轮里刚说完的人，而不是清一色回头打第1轮
+    r2_chain = sum(1 for p in r2 if p.get("reply_to") and by_id.get(p["reply_to"], {}).get("round") == 2)
     rk = frozenset(k for p in posts for k in (p.get("reactions") or {}))
     hooks = d.get("hooks") or []
     hb = Counter(h.get("from") for h in hooks)
@@ -68,6 +80,10 @@ def feats(d):
         "钩子分布": tuple(sorted("%s:%d" % (k, v) for k, v in hb.items())),
         "钩子作者类型": "AI%d/思想家%d" % (_hai, len(hooks) - _hai) if hooks else "-",
         "二轮全反一轮": "%d/%d" % (r2_to_r1, len(r2)) if r2 else "-",
+        # 二轮里有多少帖是接着同轮的人往下打（0 = 每帖都回头打第1轮，结构最单调）
+        "二轮同轮追击": "%d/%d" % (r2_chain, len(r2)) if r2 else "-",
+        # 后面各轮里有几轮照抄了第1轮的发言顺序（0 = 每轮都换了次序，正是想要的）
+        "轮内照抄顺序": _order_repeat(posts, rounds),
         "表态档集合": tuple(sorted(rk)),
         "用了疑惑": "疑惑" in rk,
         "带glossary帖数": sum(1 for p in posts if p.get("glossary")),
@@ -91,7 +107,7 @@ print("=" * 70)
 print("形状自评 ·", tid, "· 对比最近", len(R), "场:", "、".join(eid for eid, _ in R) or "(无)")
 print("=" * 70)
 
-SCALARS = ["人数","轮数","每轮帖数","钩子数","钩子分布","钩子作者类型","二轮全反一轮","表态档集合",
+SCALARS = ["人数","轮数","每轮帖数","钩子数","钩子分布","钩子作者类型","二轮全反一轮","二轮同轮追击","轮内照抄顺序","表态档集合",
            "用了疑惑","带glossary帖数","古文帖数","建议带①②③","帖均加粗处","总结膨胀比","总结数数起手"]
 flags = []
 print("\n%-14s %-22s %s" % ("维度", "本场", "最近几场"))

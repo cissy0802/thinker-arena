@@ -2,15 +2,6 @@
   "_comment": "议题投票数据。candidates=未辩候选(供投票)，debated=已辩(链到辩论)。投票免 GitHub 登录，存于自建后端(Cloudflare Worker + D1，见 ~/Desktop/cissy0802.github.io/engage-backend/)：每候选一个 poll，key='topic:'+id，choice up/down，净票=👍−👎。votes 字段由 routine 每次跑 `python3 refresh_votes.py`(读后端 /votes-net) 回写；页面 ideas.js 也会实时拉取覆盖显示。观众自提议题在评论 page='thinker-open-questions'，各候选下讨论 page='topic:'+id——routine 读这些把好提案提炼成新 candidates。新候选加进 candidates 即可。",
   "candidates": [
     {
-      "id": "duty-to-earth",
-      "votes": 0,
-      "q": "我们对地球（其他物种、后代）负有怎样的义务？",
-      "q_en": "What do we owe the Earth — other species, and future generations?",
-      "note": "对其他物种、对尚未出生的后代——我们凭什么索取，又欠下什么？。也含最尖锐的那个分支：面对气候这类有科学共识却仍被怀疑的议题，我们该信到什么程度、又该做到什么程度——义务落到个人的日常，还是只能靠制度？",
-      "note_en": "Toward other species and generations not yet born — by what right do we take, and what do we owe?. It also contains the sharpest branch of the question: on an issue like climate, where scientific consensus coexists with public doubt, how much should we believe and how far must we actually go — does the duty land on individual daily life, or only on institutions?",
-      "cat": "ethics"
-    },
-    {
       "id": "liberty-vs-equality",
       "votes": 0,
       "q": "自由与平等不可兼得时，该牺牲哪个？",
@@ -110,15 +101,6 @@
       "cat": "self"
     },
     {
-      "id": "value-of-suffering",
-      "votes": 0,
-      "q": "痛苦有没有价值？一个彻底没有苦难的世界，值得要吗？",
-      "q_en": "Does suffering have value? Would a world with no suffering at all be worth wanting?",
-      "note": "工程师的本能是优化掉一切不适；可陀思妥耶夫斯基笔下的『地下室人』宁可砸了完美的『水晶宫』，也要保住受苦的自由；尼采说『杀不死我的使我更强』；佛陀却以灭苦为全部修行的目的。赫胥黎《美丽新世界》警告：没有眼泪的幸福，或许不值一过。",
-      "note_en": "An engineer's instinct is to optimize away all discomfort; yet Dostoevsky's 'underground man' would smash the perfect 'crystal palace' rather than surrender the freedom to suffer; Nietzsche says 'what does not kill me makes me stronger'; the Buddha makes the ending of suffering the whole point of practice. Huxley's 'Brave New World' warns: a happiness without tears may not be worth living.",
-      "cat": "life"
-    },
-    {
       "id": "dark-forest",
       "votes": 0,
       "q": "宇宙真的是「黑暗森林」吗？文明之间注定你死我活，还是可能合作？",
@@ -141,8 +123,8 @@
       "votes": 0,
       "q": "世界到底是唯物的还是唯心的？意识只是大脑的副产品，还是更根本的实在？",
       "q_en": "Is the world fundamentally matter, or mind? Is consciousness just a byproduct of the brain, or something more fundamental?",
-      "note": "唯物论说一切归于物质与规律、意识是大脑放的电；唯心/唯识（贝克莱『存在即被感知』、王阳明『心外无物』、佛教唯识）说能确证的只有意识、物质反是心的显现；泛心论折中——意识是宇宙的基本属性。到底哪个在先？。一个可以逼近的切口：『大脑是产生器还是接收器』这两个比喻，究竟在哪一条观察上会分开？找不出让二者给出不同预测的实验，本身就是一个结论。",
-      "note_en": "Materialism reduces all to matter and law, with consciousness as the brain's electricity; idealism (Berkeley's 'to be is to be perceived,' Wang Yangming's 'nothing outside the mind,' Buddhist Yogacara) says the one thing we can be sure of is consciousness, and matter is mind's appearance; panpsychism splits the difference — consciousness is a basic feature of the cosmos. Which comes first?. One tractable way in: on what observation do the two metaphors — the brain as generator versus as receiver — actually come apart? Failing to find an experiment on which they predict differently is itself a conclusion.",
+      "note": "唯物论说一切归于物质与规律、意识是大脑放的电；唯心/唯识（贝克莱『存在即被感知』、王阳明『心外无物』、佛教唯识）说能确证的只有意识、物质反是心的显现；泛心论折中——意识是宇宙的基本属性。到底哪个在先？一个可以逼近的切口：『大脑是产生器还是接收器』这两个比喻，究竟在哪一条观察上会分开？找不出让二者给出不同预测的实验，本身就是一个结论。",
+      "note_en": "Materialism reduces all to matter and law, with consciousness as the brain's electricity; idealism (Berkeley's 'to be is to be perceived,' Wang Yangming's 'nothing outside the mind,' Buddhist Yogacara) says the one thing we can be sure of is consciousness, and matter is mind's appearance; panpsychism splits the difference — consciousness is a basic feature of the cosmos. Which comes first? One tractable way in: on what observation do the two metaphors — the brain as generator versus as receiver — actually come apart? Failing to find an experiment on which they predict differently is itself a conclusion.",
       "cat": "meta"
     },
     {
@@ -177,17 +159,8 @@
       "votes": 0,
       "q": "当 AI 比谁都懂，领导者还剩什么不可替代的？",
       "q_en": "When AI knows more than anyone, what's left that only a leader can do?",
-      "note": "当 AI 能做分析、写战略、给出方案，领导的价值还在专业知识吗，还是只剩判断、品味、信任、担责与赋予意义？德鲁克、亚里士多德的『实践智慧』(phronesis)、孔子的『德与信』、海德格尔对技术的追问，再加黄仁勋与奥特曼，争领导力被 AI 掏空后还剩的内核。",
-      "note_en": "When AI can analyze, draft strategy and hand you options, is a leader's value still expertise — or only judgment, taste, trust, accountability and the giving of meaning? Drucker, Aristotle's 'practical wisdom' (phronesis), Confucius on virtue and trust, Heidegger's question concerning technology, plus Huang and Altman, argue over the core of leadership once AI has hollowed out the rest.",
-      "cat": "work"
-    },
-    {
-      "id": "output-or-growth",
-      "votes": 0,
-      "q": "当下属都用 AI 干活，领导该考核产出，还是过程与成长？",
-      "q_en": "When your team does the work with AI, should you judge output, or process and growth?",
-      "note": "如果活是 AI 做的，你评的到底是什么？只看结果，会不会养出一批『只会发指令、自己什么都不会』的人；可要求『亲手做』，又像在抗拒工具。德韦克的成长心态、波兰尼的『默会知识』、亚里士多德、桑内特的匠艺，掂量产出与能力之间该押注哪头。",
-      "note_en": "If AI does the work, what are you actually evaluating? Judge only results and you may breed people who can only issue prompts and do nothing themselves; insist on 'by your own hand' and you look like you're fighting the tool. Dweck's growth mindset, Polanyi's 'tacit knowledge,' Aristotle, and Sennett on craftsmanship weigh whether to bet on output or on capability.",
+      "note": "当 AI 能做分析、写战略、给出方案，领导的价值还在专业知识吗，还是只剩判断、品味、信任、担责与赋予意义？德鲁克、亚里士多德的『实践智慧』(phronesis)、孔子的『德与信』、海德格尔对技术的追问，再加黄仁勋与奥特曼，争领导力被 AI 掏空后还剩的内核。也含一个直接的管理分支：当下属都用 AI 干活，该考核产出还是过程与成长——只看结果会不会养出『只会发指令、自己什么都不会』的人，可要求亲手做又像在抗拒工具（德韦克的成长心态、波兰尼的默会知识、桑内特的匠艺可入场）。",
+      "note_en": "When AI can analyze, draft strategy and hand you options, is a leader's value still expertise — or only judgment, taste, trust, accountability and the giving of meaning? Drucker, Aristotle's 'practical wisdom' (phronesis), Confucius on virtue and trust, Heidegger's question concerning technology, plus Huang and Altman, argue over the core of leadership once AI has hollowed out the rest. It also carries a direct managerial branch: once subordinates all work through AI, should you assess output or process and growth — judging results alone may breed people who can only issue prompts and do nothing themselves, while insisting on doing it by hand looks like fighting the tool (Dweck's growth mindset, Polanyi's tacit knowledge and Sennett on craftsmanship all belong here).",
       "cat": "work"
     },
     {
@@ -301,10 +274,10 @@
     {
       "id": "mental-suffering",
       "votes": 0,
-      "q": "精神痛苦，是该吃药修复的『脑病』，还是对处境的正常/有意义反应？——把痛苦一律药物化，是解脱还是消音？（含：悲伤、走神、内向、衰老被『医学化』成病，过度诊断与 DSM 扩张是进步还是合谋）",
+      "q": "精神痛苦，是该吃药修复的『脑病』，还是对处境的正常/有意义反应？——把痛苦一律药物化，是解脱还是消音？（含：悲伤、走神、内向、衰老被『医学化』成病，过度诊断与 DSM 扩张是进步还是合谋；也含更根本的一问：痛苦本身有没有价值，一个彻底没有苦难的世界值不值得要）",
       "q_en": "Is mental suffering a 'brain disease' to be fixed with medication, or a normal, meaningful response to one's situation — is medicating all pain relief, or silencing?",
-      "note": "抑郁到底是『血清素失衡』要靠 SSRI 修的脑病，还是身体对糟糕处境（或存在困境）发出的正常信号？萨波尔斯基的生物化学决定论对上弗兰克尔的意义疗法（痛苦可以有意义，别急着消除）、萨斯的『精神病的神话』（问题是生活的，不是脑子的病）、福柯的『什么被定义成病』，再加哈里斯谈冥想与意识。接得住 value-of-suffering，但切的是医学化 vs 意义这条新轴。也含更大的一问：我们是不是把太多正常的人生状态（悲伤、走神、内向、衰老）『医学化』成了病——过度诊断与 DSM 的不断扩张，究竟是识别了以前被忽视的痛苦，还是诊断标签与药物市场的合谋？",
-      "note_en": "Is depression a 'serotonin imbalance' brain disease to be fixed by SSRIs, or a normal signal the body sends about a bad situation (or an existential bind)? Sapolsky's biochemical determinism meets Frankl's logotherapy (suffering can hold meaning — don't rush to erase it), Szasz's 'myth of mental illness' (problems are of living, not of the brain), Foucault on what gets defined as illness, plus Harris on meditation and consciousness. It picks up value-of-suffering but cuts a new axis: medicalization vs meaning. It also carries the larger question of whether too many ordinary states of life — grief, distraction, introversion, ageing — have been medicalized into illnesses, and whether ever-expanding diagnostic manuals recognize suffering that was previously ignored or serve the market that treats it.",
+      "note": "抑郁到底是『血清素失衡』要靠 SSRI 修的脑病，还是身体对糟糕处境（或存在困境）发出的正常信号？萨波尔斯基的生物化学决定论对上弗兰克尔的意义疗法（痛苦可以有意义，别急着消除）、萨斯的『精神病的神话』（问题是生活的，不是脑子的病）、福柯的『什么被定义成病』，再加哈里斯谈冥想与意识。接得住 value-of-suffering，但切的是医学化 vs 意义这条新轴。也含更大的一问：我们是不是把太多正常的人生状态（悲伤、走神、内向、衰老）『医学化』成了病——过度诊断与 DSM 的不断扩张，究竟是识别了以前被忽视的痛苦，还是诊断标签与药物市场的合谋？也含更根本的一问：痛苦本身有没有价值，一个彻底没有苦难的世界值不值得要。",
+      "note_en": "Is depression a 'serotonin imbalance' brain disease to be fixed by SSRIs, or a normal signal the body sends about a bad situation (or an existential bind)? Sapolsky's biochemical determinism meets Frankl's logotherapy (suffering can hold meaning — don't rush to erase it), Szasz's 'myth of mental illness' (problems are of living, not of the brain), Foucault on what gets defined as illness, plus Harris on meditation and consciousness. It picks up value-of-suffering but cuts a new axis: medicalization vs meaning. It also carries the larger question of whether too many ordinary states of life — grief, distraction, introversion, ageing — have been medicalized into illnesses, and whether ever-expanding diagnostic manuals recognize suffering that was previously ignored or serve the market that treats it. It also carries the deeper question of whether suffering has any value at all, and whether a world entirely free of it would be worth having.",
       "cat": "self"
     },
     {
@@ -313,7 +286,7 @@
       "q": "为了公共健康，国家能限制个人自由到什么程度？（强制疫苗、封控、糖税、禁烟；同一把尺该不该量向广告、无限下拉、成瘾式设计这类制造欲望与注意力的产业）",
       "q_en": "For the sake of public health, how far may the state limit individual freedom (mandatory vaccines, lockdowns, sugar taxes, smoking bans)?",
       "note": "2020 年代最撕裂的真问题：密尔的『伤害原则』止于何处？福柯的『生命权力』——现代国家正是靠管理『人口的健康』来行使治理，对上伯林的消极自由、洛克的个人权利，与功利主义/公共卫生的集体福祉正面交锋。个人自主 vs 集体安全，边界到底划在哪。同一把尺该不该量向制造欲望与注意力的产业：广告、无限下拉、成瘾式设计——如果糖税与禁烟成立，凭什么不管它们？还是说管制欲望本身就越界了？",
-      "note_en": "The most divisive real question of the 2020s: where does Mill's 'harm principle' stop? Foucault's 'biopower' — the modern state governs precisely by managing 'the health of the population' — meets Berlin's negative liberty and Locke's individual rights, colliding head-on with the utilitarian/public-health case for collective welfare. Personal autonomy vs collective safety: where exactly is the line?. The same yardstick can be turned on the industries that manufacture desire and harvest attention — advertising, infinite scroll, addictive design. If sugar taxes and smoking bans are legitimate, why not these? Or is regulating desire itself a step too far?",
+      "note_en": "The most divisive real question of the 2020s: where does Mill's 'harm principle' stop? Foucault's 'biopower' — the modern state governs precisely by managing 'the health of the population' — meets Berlin's negative liberty and Locke's individual rights, colliding head-on with the utilitarian/public-health case for collective welfare. Personal autonomy vs collective safety: where exactly is the line? The same yardstick can be turned on the industries that manufacture desire and harvest attention — advertising, infinite scroll, addictive design. If sugar taxes and smoking bans are legitimate, why not these? Or is regulating desire itself a step too far?",
       "cat": "ethics"
     },
     {
@@ -398,15 +371,6 @@
       "cat": "work"
     },
     {
-      "id": "spiritual-bypass-or-wisdom",
-      "votes": 0,
-      "q": "「一切皆修行、随遇而安」是通透的智慧，还是让人对不公逆来顺受的麻醉剂？",
-      "q_en": "Is 'everything is practice, accept what comes' true wisdom, or an anesthetic that makes us submit to injustice?",
-      "note": "把苦难、劳作、逆境都收进『修行』与『放下』，能让人在无力处安身；可同一句话，也可能让人对本可改变的不公一并认命——修心与抗争，是同一条路，还是有时互相拆台？另一层：成功学的『上进、建构自我』与佛学的『无我、放下』，能否按人生阶段各就其位（新手要身份脚手架、高手拆架子），还是根本二选一？而一旦把『无我』当成提升表现的药『在对的时刻服用』，这份工具化的机心，是否正是它要人放下的病？王阳明、慧能、庄子、阿德勒、德韦克、纽波特可辩。",
-      "note_en": "Folding suffering, toil and adversity all into 'practice' and 'letting go' lets a person find footing where they are powerless; yet the same words can make one resign to injustice that could be changed — are inner cultivation and resistance one road, or do they sometimes undercut each other? A second layer: can the self-help creed of 'strive, build a self' and Buddhism's 'no-self, let go' each take their place by life stage (the beginner needs an identity scaffold, the master dismantles it), or is it finally either/or? And once you take 'no-self' as a pill to improve performance, 'to be swallowed at the right moment,' is that instrumentalizing calculation not the very disease it asks you to drop? For Wang Yangming, Huineng, Zhuangzi, Adler, Dweck, Newport to debate.",
-      "cat": "self"
-    },
-    {
       "id": "youth-career-or-explore",
       "votes": 0,
       "q": "趁年轻，该拼命搏一份事业，还是先去世界各地走走看看？——阅历与事业，哪个更经不起等？",
@@ -429,8 +393,8 @@
       "votes": 0,
       "q": "凡事都追求『最优／高效』，是不是正在系统性地掏空我们的韧性？——冗余、备份、『暂时没用的多样』，该不该刻意保留？",
       "q_en": "By chasing 'optimal' and 'efficient' in everything, are we systematically hollowing out our resilience? Should redundancy, backups, and 'currently useless' variety be deliberately kept?",
-      "note": "从供应链到个人生活，我们把冗余当浪费一路砍掉，换来风平浪静时的高效；可韧性恰恰藏在那些『用不上』的备份、多样与慢里。效率与韧性能不能兼得，还是终究得取舍？该在哪里刻意留白？",
-      "note_en": "From supply chains to personal life, we cut redundancy as waste and buy efficiency for calm times; yet resilience lives precisely in the backups, variety and slack that look 'useless.' Can efficiency and resilience coexist, or must we trade them off — and where should we deliberately leave slack?",
+      "note": "从供应链到个人生活，我们把冗余当浪费一路砍掉，换来风平浪静时的高效；可韧性恰恰藏在那些『用不上』的备份、多样与慢里。效率与韧性能不能兼得，还是终究得取舍？该在哪里刻意留白？也含面对小概率大灾难时的决策规则：科学给出的是区间、政策却只能落一个数字，该按最可能值还是按承受得起的最坏值来定——预防原则是审慎，还是让人瘫痪。",
+      "note_en": "From supply chains to personal life, we cut redundancy as waste and buy efficiency for calm times; yet resilience lives precisely in the backups, variety and slack that look 'useless.' Can efficiency and resilience coexist, or must we trade them off — and where should we deliberately leave slack? It also carries the decision rule for low-probability, high-damage events: science hands over a range while policy can only settle on one number, so should it be set at the most likely value or at the worst one you could survive — is the precautionary principle prudence, or paralysis?",
       "cat": "meta"
     },
     {
@@ -477,6 +441,15 @@
       "note": "记忆不是录像带，而是每次回想都被重写一遍的重建。洛夫特斯只用一句提示就能植入从未发生的童年往事，目击证词因此送错过人；而我们的身份、亲密关系与恩怨账本，全架在这份不可靠的记录上。若记忆总是按当下的需要改写过去，『忠于事实的自我』还成立吗？遗忘又该算缺陷还是恩赐——尼采说没有遗忘就无法生活，博尔赫斯笔下过目不忘的富内斯反而丧失了思考。奥古斯丁的『记忆之宫』、普鲁斯特的非自愿记忆、佛教的种子熏习，对上洛夫特斯与沙克特的实验，再加一个现实追问：当聊天记录、照片流与 AI 摘要替我们保存一切，外置的记忆会矫正我们，还是取代我们？",
       "note_en": "Memory is not videotape but a reconstruction rewritten on every recall. Loftus could implant a childhood event that never happened with a single suggestion, and eyewitness testimony has sent the wrong people to prison; yet our identity, our intimacies and our ledgers of grievance all rest on this unreliable record. If memory always edits the past to suit the present, does 'a self faithful to the facts' survive? And is forgetting a defect or a gift — Nietzsche held that without forgetting one cannot live, while Borges's Funes, who forgot nothing, lost the ability to think. Augustine's palace of memory, Proust's involuntary recollection and the Buddhist perfuming of seeds meet the experiments of Loftus and Schacter, plus a practical question: now that chat logs, photo streams and AI summaries keep everything for us, will externalised memory correct us or replace us?",
       "cat": "meta"
+    },
+    {
+      "id": "geoengineering-and-nature",
+      "votes": 0,
+      "q": "该不该给地球动手术？——人工降温、复活灭绝物种、重造生态：当自然早已被我们改过一遍，『不干预』还算得上一个选项吗？",
+      "q_en": "Should we operate on the planet? — solar geoengineering, de-extinction, rebuilt ecosystems: once nature has already been altered by us, is 'not intervening' still an option?",
+      "note": "不是问我们欠自然什么，而是问我们该不该主动动手：往高空撒气溶胶给地球降温、用基因技术把猛犸或旅鸽带回来、把整片湿地按图纸重造。支持者说保持原样早已不可能，反对者说这是把整个星球当实验台、且一旦开始就不能停。也含一个更难的问题：如果『原始的自然』本身是个想象，我们究竟在恢复什么。",
+      "note_en": "Not what we owe nature, but whether we should reach in and act: spraying aerosols to cool the planet, using genetic technology to bring back the mammoth or the passenger pigeon, rebuilding an entire wetland to a blueprint. Advocates say leaving things as they are stopped being possible long ago; opponents say this treats the whole planet as a bench, and that once begun it cannot be stopped. It also contains a harder question: if 'pristine nature' is itself an imagined thing, what exactly are we restoring?",
+      "cat": "ethics"
     }
   ],
   "debated": [
@@ -948,6 +921,13 @@
       "q_en": "Does time really exist, or is it an illusion?",
       "date": "2026-07-28",
       "cat": "meta"
+    },
+    {
+      "id": "duty-to-earth",
+      "q": "我们对地球（其他物种、后代）负有怎样的义务？",
+      "q_en": "What do we owe the Earth — other species, and future generations?",
+      "date": "2026-07-30",
+      "cat": "ethics"
     }
   ]
 }

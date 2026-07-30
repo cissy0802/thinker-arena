@@ -28,6 +28,14 @@ def load(eid):
 def _cn(t):
     return len(re.findall(r"[\u4e00-\u9fff]", t or ""))
 
+def _r3_countdown(posts):
+    """总结陈词里『我说三件事／三条建议／吾终之以三事』这类数数起手式占几帖。
+    一场里几乎人人都用数字开场清单，读起来就是同一个模子印的——它不在字数、
+    也不在反驳结构上，静态规则查不出，只能作为指纹逐场比。"""
+    r3 = [p.get("text", "") or "" for p in posts if p.get("round") == 3]
+    pat = re.compile(r"^.{0,14}?[二三四两]\s*(?:件|条|事|点|句|端)")
+    return "%d/%d" % (sum(1 for t in r3 if pat.search(t)), len(r3)) if r3 else "-"
+
 def _r3_ratio(posts):
     """第3轮均长 ÷ 第1轮均长——照出『总结陈词一律拉到上限』这种未被覆盖的形状坍缩。"""
     a = [_cn(p.get("text", "")) for p in posts if p.get("round") == 1]
@@ -68,6 +76,8 @@ def feats(d):
         "帖均加粗处": round(sum((p.get("text", "").count("**")) // 2 for p in posts) / max(1, len(posts)), 2),
         # 总结陈词是否一律被拉长到上限（第3轮均长 ÷ 第1轮均长；每场都 ~2.0 即是形状定型）
         "总结膨胀比": _r3_ratio(posts),
+        # 总结陈词有多少帖用『三件事/三条建议』这类数数起手（人人如此＝同一个模子）
+        "总结数数起手": _r3_countdown(posts),
         # 措辞指纹（开头几字）
         "_insight_open": [(s.get("ai", "?"), (s.get("insight", "") or "")[:5]) for s in sums],
         "_advice_open": [(s.get("ai", "?"), (s.get("advice", "") or "")[:6]) for s in sums],
@@ -82,7 +92,7 @@ print("形状自评 ·", tid, "· 对比最近", len(R), "场:", "、".join(eid 
 print("=" * 70)
 
 SCALARS = ["人数","轮数","每轮帖数","钩子数","钩子分布","钩子作者类型","二轮全反一轮","表态档集合",
-           "用了疑惑","带glossary帖数","古文帖数","建议带①②③","帖均加粗处","总结膨胀比"]
+           "用了疑惑","带glossary帖数","古文帖数","建议带①②③","帖均加粗处","总结膨胀比","总结数数起手"]
 flags = []
 print("\n%-14s %-22s %s" % ("维度", "本场", "最近几场"))
 print("-" * 70)

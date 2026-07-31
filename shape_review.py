@@ -28,6 +28,15 @@ def load(eid):
 def _cn(t):
     return len(re.findall(r"[\u4e00-\u9fff]", t or ""))
 
+def _sum_open_kind(s):
+    """summary \u7684\u8d77\u624b\u5957\u8def\u5206\u7c7b\u3002\u5148\u5f52\u7c7b\u518d\u8de8\u573a\u6bd4\uff0c\u514d\u5f97\u6362\u4e2a\u6570\u5b57\u5c31\u4ee5\u4e3a\u81ea\u5df1\u6362\u4e86\u5199\u6cd5\u3002"""
+    t = re.sub(r"[\*\s]", "", s or "")[:40]
+    if re.match(r"^[\u4e00\u4e8c\u4e09\u56db\u4e94\u516d\u4e03\u516b\u4e5d\u5341]+(\u4f4d|\u4e2a)?\u4eba", t):
+        return "\u70b9\u540d\u82b1\u540d\u518c(N\u4e2a\u4eba\u2026)"
+    if re.match(r"^(\u5148\u8bf4|\u8fd9\u573a|\u672c\u573a)?(\u6700\u5927\u7684)?\u5171\u8bc6", t) or re.match(r"^(\u5148\u8bf4|\u9996\u5148)", t):
+        return "\u5148\u8bf4\u5171\u8bc6\u8d77\u624b"
+    return t[:6]
+
 def _r3_countdown(posts):
     """总结陈词里『我说三件事／三条建议／吾终之以三事』这类数数起手式占几帖。
     一场里几乎人人都用数字开场清单，读起来就是同一个模子印的——它不在字数、
@@ -95,6 +104,9 @@ def feats(d):
         # 总结陈词有多少帖用『三件事/三条建议』这类数数起手（人人如此＝同一个模子）
         "总结数数起手": _r3_countdown(posts),
         # 措辞指纹（开头几字）
+        # summary 起手式：先归成『套路种类』再比——最爱复读的两种是
+        # 『N 个人从…进来，没有一个…』的点名花名册，和『先说共识／最大的共识是…』
+        "_summary_open": [(s.get("ai", "?"), _sum_open_kind(s.get("summary", ""))) for s in sums],
         "_insight_open": [(s.get("ai", "?"), (s.get("insight", "") or "")[:5]) for s in sums],
         "_advice_open": [(s.get("ai", "?"), (s.get("advice", "") or "")[:6]) for s in sums],
         "_post_open": [(p.get("text", "") or "")[:3] for p in posts],
@@ -123,6 +135,19 @@ for k in SCALARS:
     if streak:
         flags.append(k)
     print("%-14s %-22s %s%s" % (k, str(cur), " | ".join(str(v) for v in recent_vals), mark))
+
+# ---- 措辞坍缩：summary 开头 ----（『N个人从…进来』『先说共识』最易跨场复读）
+print("\n【summary 起手式】（先共识后分歧是要求，但开场句式别每场同一副模子）")
+allso = Counter()
+for eid, f in R:
+    for ai, op in f.get("_summary_open", []):
+        allso[op] += 1
+for ai, op in T["_summary_open"]:
+    reuse = allso.get(op, 0)
+    tag = " ⚠️ 最近%d场也这么开头" % reuse if reuse >= 2 else ""
+    print("  %-7s 「%s」%s" % (ai, op, tag))
+    if reuse >= 2:
+        flags.append("summary起手:%s" % op)
 
 # ---- 措辞坍缩：insight 开头 ----
 print("\n【insight 开头】（同一开头跨场复用＝套路；每家换个起手式）")

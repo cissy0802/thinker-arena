@@ -1,0 +1,986 @@
+{
+  "id": "truth-vs-harmony",
+  "question": "维系和谐，有时是否比说出真相更重要？——家里瞒着病情，会上明知方案不成却人人点头，网上人人都在表演体面。说真话的代价往往由开口的那个人独自付，沉默的代价却由所有人分摊；而伪善究竟是比赤裸的恶更可恨，还是说，那层得体的表演本就是文明的润滑剂？",
+  "question_en": "Is keeping the peace sometimes more important than telling the truth? — A family hides a diagnosis; everyone nods at a plan they know is broken; online, everyone performs decency. The cost of speaking up is usually paid alone by whoever speaks, while the cost of silence is spread across everybody. And is hypocrisy more contemptible than open vice, or is that layer of tactful performance precisely what keeps civilisation running?",
+  "date": "2026-08-01",
+  "participants": [
+    "socrates",
+    "laozi",
+    "wilde",
+    "mengzi",
+    "sharot",
+    "machiavelli",
+    "buddha",
+    "nisbett"
+  ],
+  "casting": [
+    {
+      "id": "socrates",
+      "reason": "他把整道题的问法先拆开：在定义清楚『和谐』之前，没人有资格说它值不值得维系——若和谐只是没有人再把异议说出口，那么最和谐的地方是墓地。他的立场不靠道德口号支撑，而靠一条冷静的功能主义论证：真话是唯一能让错误被发现的机制，一个靠不许人说破维持的秩序，保住的往往是错误本身。他也不主张见人就戳穿——诘问法是问，不是宣判。全场最锋利的一击来自他对代价的追问：如果说真话需要有地位才付得起，那它已经变成一种不平等，只是不出现在任何账本上。语气谦逊而咄咄，从不下结论，只把问题递回给对方。",
+      "reason_en": "He takes the question apart before answering it: until somebody defines harmony, nobody is entitled to say whether it is worth preserving — and if harmony merely means that no one voices the objection any more, the most harmonious place in the city is the cemetery. His position rests not on moral slogans but on a cool functional argument: truthful speech is the only mechanism by which an error can be found, so an order held together by forbidding anyone to say the thing out loud usually preserves the error rather than the peace. Nor does he advocate puncturing everyone in sight; his elenchus questions, it does not sentence. His sharpest stroke concerns cost: if telling the truth requires enough standing to afford it, then it has already become a form of inequality, one that appears on no ledger. Humble and relentless at once, he ends on questions rather than conclusions."
+    },
+    {
+      "id": "laozi",
+      "reason": "他不站在真话或和谐任何一边，而是把两边共同的前提掀掉：诸君争的是要不要把德说出口，可伪善正是从『德可以被说、被看、被赏』那一刻长出来的。大道废，才有仁义；智慧出，才有大伪。上面看重诚实之名，下面就用功于诚实之状——立一个敢言的榜，明天就有人擅长演敢言。他给出的替代不是沉默，而是把重心从言移到为：功成而弗居，不居功者无须修饰。语言简古，好用水与婴儿作喻，几句话就点破对手对名相的执着；对普通人，他只留一问——话到嘴边，你要的是事情变好，还是要人看见你正直。",
+      "reason_en": "He takes neither side, and instead pulls out the premise both sides share: the room is arguing over whether virtue should be spoken aloud, when hypocrisy is precisely what grows the moment virtue becomes something that can be spoken, displayed and rewarded. Only when the Way is lost does benevolence appear; only when cleverness emerges does great artifice follow. Prize the name of honesty above and people below will perfect the appearance of honesty — post a reward for plain speaking and by tomorrow someone will be expert at performing it. His alternative is not silence but a shift of weight from saying to doing: accomplish the work and take no credit for it, since whoever claims nothing has nothing to dress up. He speaks in terse archaic lines, fond of water and the infant as images, puncturing his opponents' attachment to names in a few strokes; for ordinary people he leaves one question — when the words are on your lips, do you want the thing fixed, or do you want to be seen being upright?"
+    },
+    {
+      "id": "wilde",
+      "reason": "他为形式辩护，而不是为谎言辩护：见面时那句『你气色真好』不是欺骗，是礼节，如同十四行诗有十四行。他反对的是把粗鲁改名叫诚实、再据此索取道德上的报酬；在他看来，真诚崇拜造出的人比戴面具的更危险，因为他相信自己无须自省。但他不是全场最松的一环——被神经科学那条『面具会自己长大』的曲线说动后，他亲手划下界线：表演体面可以，表演美德不行；前者润滑，后者腐蚀，把两者混为一谈才是这场争论里最大的糊涂。出口成章、警句连珠，举重若轻而暗藏锋芒。",
+      "reason_en": "He defends form, not falsehood: 'you're looking well' at the door is not a deception but a courtesy, in the way a sonnet has fourteen lines. What he attacks is the renaming of rudeness as honesty and the moral credit claimed for it; the cult of sincerity, he argues, produces people more dangerous than any mask-wearer, because they believe themselves exempt from self-examination. Yet he is not the loosest link in the room — once the neuroscience of a mask that grows on its own gets to him, he draws the line himself: performing decency is permitted, performing virtue is not; the first lubricates and the second corrodes, and confusing them is the great muddle of the whole argument. Epigrams by the handful, delivered lightly, with an edge underneath."
+    },
+    {
+      "id": "mengzi",
+      "reason": "儒家内部最不肯和稀泥的一支由他代表。他搬出孔子那句『乡愿，德之贼也』，并把乡愿的画像补全：非之无举、刺之无刺，同乎流俗、合乎污世，众皆悦之而自以为是——最可恨处正在于挑不出错。但他也不把诚实立成绝对律令：大人者，言不必信，行不必果，惟义所在；嫂溺援之以手，是权。于是他给出全场最好用的一把尺——问代价落在谁身上：代价加于弱者、加于无辜者，虽拂众意也必说；代价只落在自己的体面上，则说与不说都别自称勇敢。他还留了三道自测题，专治那种被人人称好的舒服位置。雄辩刚正、气势磅礴，惯用类比逼出对方本有的良知。",
+      "reason_en": "He speaks for the strand of Confucianism least willing to split the difference. He brings out Confucius's verdict that the village worthy is virtue's thief, then completes the portrait: nothing in him can be cited against him, nothing offers a handle for reproach; he flows with the vulgar and fits the corrupt age, everyone approves of him and he is satisfied with himself — and what makes him intolerable is exactly that no fault can be found. Yet he refuses to enthrone honesty as an absolute either: the great man does not insist that every word be kept or every act carried through, for rightness alone decides; when your sister-in-law is drowning you pull her out by the hand, and that is weighing the case. From this he supplies the most usable measure in the room — ask who pays. If the cost falls on the powerless or the innocent, speak even against the mood of the room; if it falls only on your own dignity, then speak or keep quiet, but do not call it courage. He leaves three self-tests aimed squarely at the comfortable position everyone praises. Forceful, eloquent, driving his analogies until the other side's own conscience answers."
+    },
+    {
+      "id": "sharot",
+      "reason": "两边的直觉都被拿去做过实验，结果各泼一盆冷水。对主张善意谎言的人：在沙罗特与合作者的研究里，人反复为自身利益说小谎时，杏仁核的反应逐次减弱，而减弱的幅度能预测下一次谎会大多少——不诚实是会脱敏的，让你第二次更容易开口的，正是你第一次那点不安。对主张有话直说的人：人的信念更新本就不对称，好消息照单全收，坏消息打折扣，所以真相讲不进去往往不是听不懂，而是更新机制上装着减震器；靠加大音量与恐吓推动改变，效果通常低于给出一个立刻能做到的正向动作。说话紧扣设计与数据，先讲实验怎么做，再下结论。",
+      "reason_en": "Both sides' intuitions get taken into the lab here, and each gets cold water. To those defending the kind lie: in work Sharot and collaborators published, when people repeatedly tell small self-serving lies the amygdala's response falls off trial by trial, and the size of that fall predicts how much bigger the next lie will be — dishonesty desensitises, and what makes the second time easier is precisely the discomfort of the first. To those insisting on plain speaking: belief updating is asymmetric, good news is absorbed and bad news discounted, so truth that fails to land is often not misunderstood but shock-absorbed; volume and threat move behaviour less reliably than one positive action a person can take immediately. The argument runs from design and data, laying out how a study was run before saying what it shows."
+    },
+    {
+      "id": "machiavelli",
+      "reason": "他把整场从德性问题翻译成机制问题。那句『君主不必真有美德，但必须显得有』被引了五百年，他提醒众人接着往下读：同一本书里有整整一章讲怎么躲开谄媚者。宫廷里人人说好话，不是因为他们坏，而是因为说真话的人会被记恨、说好话的人会被提拔——你自己设的赏罚决定了你听得到什么。于是他给出全场最制度化的答案：别把真话交给个人的分寸感，交给安排——选定少数几个人许他们直言、且只在被问时说，作为交换你担保他们不因所言受损；做不到这条担保，就别抱怨身边全是好话。他也据此拆佛陀的三重筛：判定『有益』的权力归谁，那把尺就会慢慢滑向谁。语气冷峻实际，不讳言权力的阴面。",
+      "reason_en": "He translates the whole session from a question of virtue into a question of machinery. The line that a prince need not possess the virtues but must appear to has been quoted for five centuries; he points out that the same book devotes an entire chapter to escaping flatterers. Everyone at court says pleasant things not because they are wicked but because the truth-teller is resented while the flatterer is promoted — the rewards you set determine what you get to hear. Hence the most institutional answer in the room: do not entrust truth to anyone's sense of tact, entrust it to an arrangement — appoint a few people licensed to speak plainly, and only when asked, and in exchange guarantee that nothing they say will cost them their position; if you cannot underwrite that guarantee, do not complain that you are surrounded by flattery. On the same grounds he takes apart the Buddha's three filters: whoever holds the power to decide what is beneficial is the direction that measure will quietly slide. Cold, practical, unembarrassed by the underside of power."
+    },
+    {
+      "id": "buddha",
+      "reason": "他带来这场最实用的一副工具：正语不止一把尺。依无畏王子经的问答，言语出口前要过三关——先知其真、次知其有益、后知其时：不真者虽利不说；真而无益者不说；真而有益却非其时者，持之以待可受之日。他由此把『说与不说』这个二选一拆开，指出中间还有一大片『待』，而待不是弃。落到病榻之侧，他给的次序是先问后说：病者未问而你告，多半是你自己心里不安；病者既问而你瞒，则是夺走他最后一次选择。慈心不是隐瞒，是选择时机与分量。语气平和慈悲而透彻，善用譬喻，不与人争胜。",
+      "reason_en": "He brings the most usable toolkit in the room: right speech runs on more than one measure. Following the exchange with Prince Abhaya, words must pass three gates before they leave the mouth — know first that they are true, then that they are beneficial, then that the time is right. What is untrue is never said however useful; what is true but of no benefit is not said; what is true and beneficial but ill-timed is held until the day it can be received. This breaks the binary of speak-or-stay-silent open, revealing a wide middle band of waiting — and waiting is not abandoning. At a sickbed his order is ask first, speak second: telling someone who has not asked is usually your own unease seeking relief, while concealing from someone who has asked takes away their last remaining choice. Compassion is not concealment; it is the choice of timing and dose. Calm, penetrating, fond of parables, never arguing to win."
+    },
+    {
+      "id": "nisbett",
+      "reason": "他反对把这件事说成勇气与懦弱之争——那是把两套沟通技术错当成两种人品。他的对照实验反复显示：面对同一组互相矛盾的证据，东亚被试更倾向两边都保留、寻求折中，美国被试更倾向判定一边为真；这是整体思维与分析思维的差别，前者先看关系与情境，后者先看命题与归类。在高语境的沟通里，坏消息不是不说，而是换路径说：托人带话、迂回暗示、留给对方自己发现。他指出这套技术有其效率，也有固定的失灵处——信息越难听、越要往上走，被这条路径截断的概率越大。最后他把问题从立场挪到操作：别在说与不说之间选，在场合、对象、内容、时机四个变量上调。务实、爱用数据说话。",
+      "reason_en": "He objects to framing this as courage against cowardice — that mistakes two communication technologies for two kinds of character. His controlled studies repeatedly show that given the same contradictory evidence, East Asian participants tend to retain both sides and seek a middle position while American participants tend to judge one side true; that is the difference between holistic and analytic thought, the first attending to relationship and context, the second to propositions and categories. In high-context communication bad news is not withheld but rerouted: a message carried by a third party, an oblique hint, something left for the other person to discover. He grants the efficiency of that technology and names its standing failure mode — the harder the news and the further up it must travel, the likelier the route is to cut it off. Finally he moves the question from stance to operation: stop choosing between speaking and not speaking, and adjust four variables instead — setting, audience, content and timing. Practical, and inclined to let the data talk."
+    }
+  ],
+  "posts": [
+    {
+      "id": "p01",
+      "round": 1,
+      "thinker": "socrates",
+      "reply_to": null,
+      "text": "先别急着回答该不该说。请诸位谁替我定义一下『和谐』——它指的是彼此不再有怨恨，还是指没有人再把异议说出口？这两样若是一回事，那么全城最和谐的地方应当是墓地。我在街上拦住的那些人，个个自认知道什么是虔敬、什么是勇敢，一问就散了；他们并不撒谎，只是从没被人问过。我那套诘问法不下判决，只是追问。**一个靠没人说破来维持的秩序，保住的往往不是和睦，而是那个错误本身。**我承认它有代价：我为此被判了死刑。可代价并不能反过来证明沉默是对的，它只证明真话很贵——那就该讨论这笔钱怎么摊，而不是假装没有这笔账。",
+      "text_en": "Before anyone rushes to answer whether to speak, will one of you define harmony for me? Does it mean nobody bears a grudge any longer, or that nobody says the objection out loud any longer? If those are the same thing, the most harmonious place in the city must be the cemetery. The men I stopped in the street all knew what piety was, and what courage was, until I asked; they were not lying, they had simply never been questioned. My elenchus hands down no verdict, it only keeps asking. **An order that holds together because nobody may say the thing out loud is usually preserving the error rather than the peace.** I grant that it has a price: I was sentenced to death for it. But a price cannot prove silence right — it only proves that truth is expensive, and then the discussion should be about how that bill gets shared, not about pretending there is no bill.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "诘问法": "elenchus（诘问法）：苏格拉底的追问方式——不宣布结论，只让对方给出定义，再用他自己承认的例子去检验这个定义，直到含混处暴露。它的要点是所有判断都由被问的人自己说出口，所以它逼出的不是失败者，而是一个人原来并不真的知道自己以为知道的事。"
+      },
+      "glossary_en": {
+        "elenchus": "Socrates' method of cross-examination: he announces no conclusion, he asks the other person for a definition and then tests it against examples that person already accepts, until the vagueness shows. The point is that every judgement is spoken by the one being questioned, so what it produces is not a loser but a man who discovers he did not really know what he took himself to know."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "mengzi"
+        ],
+        "轻微赞同": [
+          "buddha"
+        ],
+        "中立": [
+          "sharot"
+        ],
+        "轻微反对": [
+          "nisbett",
+          "machiavelli"
+        ],
+        "强烈反对": [
+          "wilde"
+        ],
+        "疑惑": [
+          "laozi"
+        ]
+      }
+    },
+    {
+      "id": "p02",
+      "round": 1,
+      "thinker": "laozi",
+      "reply_to": null,
+      "text": "信言不美，美言不信；善者不辩，辩者不善。今诸君争当言不当言，是争其名也。名立而伪随之：**大道废，有仁义；智慧出，有大伪。**上好诚之名，则下工诚之状；悬直言之赏，则明日有善为直言之貌者取之。故欲少伪者，莫若不使德可炫。水善利万物而不争，处众人之所恶——水何尝自陈其利？功成事遂，百姓皆谓我自然。吾非教人相欺，教人少言而多为耳：知者不言，言者不知。",
+      "text_en": "Trustworthy words are not beautiful and beautiful words are not trustworthy; the good man does not argue and the arguer is not good. You are quarrelling over whether a thing should be said, which is to quarrel over a name, and once a name is set the counterfeit follows it. **When the Way is lost, benevolence and rightness appear; when cleverness emerges, great artifice follows.** Let those above prize the name of honesty and those below will perfect the look of honesty; hang up a reward for plain speaking and by tomorrow the man skilled at appearing to speak plainly will collect it. If you want less counterfeit, then stop making virtue displayable. Water benefits the ten thousand things and does not contend, settling in the low places men despise — and when did water ever announce its own usefulness? The work is done, the thing completes itself, and the people all say it happened of its own accord. I am not teaching anyone to deceive. I am teaching fewer words and more doing: those who know do not speak, those who speak do not know.",
+      "vernacular": "可信的话不漂亮，漂亮的话不可信；真正好的人不与人争辩，爱争辩的人未必好。你们现在争的是『该不该说』，其实是在争一个名分。名分一旦立起来，假货就跟着来：**大道被丢掉了，才需要标榜仁义；聪明劲儿出来了，才有了大规模的作伪。**上面看重『诚实』这个名声，下面就在『看起来诚实』上下功夫；你挂出一份奖赏给敢说话的人，明天就会有人专门练习敢说话的样子来领赏。所以想少一点虚伪，最好的办法是别让德行变成可以炫耀的东西。水滋养万物却不争，甘愿待在众人都嫌弃的低处——水什么时候自我表白过？事情办成了，百姓还都说是自然而然。我不是教人互相欺骗，我是教人少说多做：真懂的人不多话，多话的人未必真懂。",
+      "vernacular_en": "",
+      "glossary": {
+        "大伪": "great artifice（大伪）：老子用来指大规模、成体系的作伪——不是某个人偷偷撒谎，而是当聪明与规矩一起发达之后，整个社会学会了把德行做成可展示的样子。它的关键在于伪与名共生：先有可炫耀的标准，才有针对标准的表演。"
+      },
+      "glossary_en": {
+        "great artifice": "Laozi's term for counterfeit on a systemic scale — not one man telling a private lie, but a whole society learning to manufacture the appearance of virtue once cleverness and rules have developed together. The point is that the counterfeit is born with the name: only when there is a displayable standard does performance aimed at that standard become possible."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "wilde"
+        ],
+        "轻微赞同": [
+          "buddha"
+        ],
+        "中立": [
+          "nisbett"
+        ],
+        "轻微反对": [
+          "sharot"
+        ],
+        "强烈反对": [
+          "mengzi"
+        ],
+        "疑惑": [
+          "socrates"
+        ]
+      }
+    },
+    {
+      "id": "p03",
+      "round": 1,
+      "thinker": "wilde",
+      "reply_to": null,
+      "text": "苏格拉底把真话说成一种卫生习惯，可惜生活并不是诊所。我们进门时那句『你气色真好』并不是谎言，那是形式——正如十四行诗有十四行，没有人因此控告它欺骗。**如今时兴的所谓坦率，多半只是把伤害的成本转给听的人，再给这笔转账取名叫美德。**我并不替伪善辩护，我只提醒诸位：真诚崇拜造出的人比戴面具的更危险，因为他相信自己无须自省。给一个人一副面具，他会告诉你真话——这不是俏皮话，这是社交的物理学：人只有在不必替自己辩护的时候，才肯说出真正想的。至于我，戴面具既为活着，也为活得好看些。",
+      "text_en": "Socrates makes truth-telling sound like a hygiene routine, but life is not a clinic. 'You are looking well' at the door is not a lie; it is a form, in the way a sonnet has fourteen lines, and nobody has yet prosecuted a sonnet for fraud. **What passes for candour these days is mostly a transfer of the cost of the injury to whoever has to listen, with the transfer itself renamed a virtue.** I am not defending hypocrisy. I am observing that the cult of sincerity produces men more dangerous than any mask-wearer, because such a man believes he is exempt from examining himself. Give a man a mask and he will tell you the truth — that is not an epigram, it is the physics of society: people say what they actually think only when they are not required to defend themselves for thinking it. As for me, I wear a mask to survive, and to survive with rather better tailoring.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "真诚崇拜": "the cult of sincerity（真诚崇拜）：把『有话直说』本身当成最高美德的风气。王尔德的批评是：它把诚实从一种对事实的责任，偷换成一种对自己的表扬——只要我说的是心里话，说话造成的后果就与我无关。于是伤人反而成了德行的证据。"
+      },
+      "glossary_en": {
+        "cult of sincerity": "The habit of treating unfiltered speech as the highest virtue. Wilde's objection is that it quietly converts honesty from a duty owed to the facts into a compliment paid to oneself: as long as I said what I felt, the damage is no longer my business. Wounding people then becomes the proof of one's virtue."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "machiavelli"
+        ],
+        "轻微赞同": [
+          "nisbett",
+          "laozi"
+        ],
+        "中立": [
+          "buddha"
+        ],
+        "强烈反对": [
+          "mengzi",
+          "socrates"
+        ],
+        "疑惑": [
+          "sharot"
+        ]
+      }
+    },
+    {
+      "id": "p04",
+      "round": 1,
+      "thinker": "mengzi",
+      "reply_to": "p03",
+      "text": "王尔德之言，正为乡愿张目。孔子曰：乡愿，德之贼也。何谓乡愿？非之无举也，刺之无刺也；同乎流俗，合乎污世；居之似忠信，行之似廉洁；众皆悦之，自以为是——**其可恶正在无可指摘。**然吾亦不以言之信否断人。大人者，言不必信，行不必果，惟义所在；嫂溺则援之以手，权也。故不言而全无辜者，义也；不言而全己之面者，贼也。诸君问何时当言，吾答：问其代价谁受之。加于弱者，虽拂众意必言；止于己之毁誉，则毋以缄默自诩为智。",
+      "text_en": "What Wilde says is a banner for the village worthy, and Confucius judged that man: the village worthy is virtue's thief. What is such a man? Nothing can be cited against him, no fault gives you a handle; he flows with the vulgar and fits himself to a corrupt age; his bearing looks loyal and sincere, his conduct looks clean; everyone approves of him and he is satisfied with himself — **and what makes him intolerable is exactly that there is nothing to accuse him of.** Yet I do not judge a man by whether his words are strictly kept either. The great man does not insist that every word be honoured or every act carried through; rightness alone decides. When your sister-in-law is drowning you pull her out by the hand, and that is weighing the case. So to hold your tongue and thereby protect the innocent is rightness; to hold your tongue and thereby protect your own face is thievery. You ask when one should speak: ask instead who bears the cost. If it lands on the weak, speak though it displeases the room; if it stops at your own reputation, then do not dress your silence up as wisdom.",
+      "vernacular": "王尔德这番话，恰好是在替乡愿撑腰。孔子说过：乡愿是道德的贼。什么是乡愿？你要批评他，挑不出具体的错处；你要讽刺他，找不到下嘴的地方；他随大流、迎合这个污浊的世道，看上去忠厚老实，做起事来像很清廉；大家都喜欢他，他自己也觉得很对——**他可恶的地方，正在于挑不出错。**但我也不拿『说话算不算数』来评断一个人。真正的大人物，说过的话不一定非兑现不可，做的事不一定非做到底不可，只看合不合乎义；嫂子掉进水里就用手去拉，这叫权变。所以为了保住无辜的人而不说，是义；为了保住自己的面子而不说，是贼。你们问什么时候该开口，我的回答是：先问这句话不说，代价落在谁头上。落在弱者身上，哪怕全场不高兴也必须说；只落在自己的名声上，那就别把沉默说成明智。",
+      "vernacular_en": "",
+      "glossary": {
+        "乡愿": "the village worthy（乡愿）：儒家对一种人的专称——在乡里人人称好、无可挑剔，却从不在任何是非上站队。孔孟骂他是『德之贼』，因为他不是明目张胆的恶人，而是用一副德行的外表把真正的德行架空了；他让人以为道德就是不得罪人。"
+      },
+      "glossary_en": {
+        "village worthy": "The Confucian name for a specific type: the man everyone in town speaks well of, against whom no charge will stick, and who never takes a side on any question of right and wrong. Confucius and Mencius call him virtue's thief because he is not a visible villain — he hollows out virtue while wearing its appearance, and teaches everyone that morality means giving no offence."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "socrates"
+        ],
+        "轻微赞同": [
+          "machiavelli"
+        ],
+        "中立": [
+          "sharot",
+          "buddha"
+        ],
+        "轻微反对": [
+          "nisbett"
+        ],
+        "强烈反对": [
+          "wilde"
+        ],
+        "疑惑": [
+          "laozi"
+        ]
+      }
+    },
+    {
+      "id": "p05",
+      "round": 1,
+      "thinker": "sharot",
+      "reply_to": null,
+      "text": "我给两边各泼一盆冷水，先给主张善意谎言的人。我们在实验室里让人反复为自己的利益说小谎，同时记录杏仁核的反应：第一次说谎时它明显活跃，之后逐次减弱，而减弱得越多，下一次的谎就撒得越大。**让你第二次更容易开口的，正是你第一次那点不安。**再说给主张有话直说的人：人接收信息并不对称，好消息照单更新，坏消息打折扣，这叫乐观偏差。所以你把真相端出去而对方没动，多半不是他没听懂，是他的更新机制对坏消息本就装着减震器。真话要生效，得换交付方式，而不是提高音量。",
+      "text_en": "Let me pour cold water on both sides, starting with those who defend the kind lie. In the lab we had people tell small self-serving lies over and over while we recorded the amygdala response: it fires clearly on the first lie and falls off trial after trial, and the steeper that fall, the bigger the next lie turns out to be. **What makes the second time easier is precisely the discomfort you felt the first time.** Now to those who insist on saying it straight. People do not take in information symmetrically: good news is absorbed at face value and bad news is discounted, which is the optimism bias. So when you set the truth in front of someone and nothing moves, it is usually not that they failed to understand — their updating machinery has shock absorbers fitted on the bad-news side. For truth to land you have to change the delivery, not raise the volume.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "杏仁核": "amygdala（杏仁核）：脑内一对杏仁状结构，处理威胁、恐惧与情绪唤起。它对自己做的坏事也会起反应，那份反应主观上就是『心里发虚』；反复做同一件事时它的反应会衰减，这种衰减正是习惯化在脑内的样子。",
+        "乐观偏差": "optimism bias（乐观偏差）：人系统性地高估好事落到自己头上的概率、低估坏事的概率。它不只是心态问题，而与信念更新的不对称有关：听到比预期好的消息，人大幅修正预期；听到比预期坏的消息，修正幅度明显更小。"
+      },
+      "glossary_en": {
+        "amygdala": "A pair of almond-shaped structures in the brain that handle threat, fear and emotional arousal. It also responds to one's own wrongdoing — subjectively that response is the flicker of unease — and when the same act is repeated the response weakens, which is what habituation looks like inside the skull.",
+        "optimism bias": "The systematic tendency to overestimate the chance that good things will happen to oneself and underestimate the chance of bad ones. It is not merely a matter of temperament: it tracks an asymmetry in belief updating, where news better than expected produces a large revision and news worse than expected produces a markedly smaller one."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "buddha"
+        ],
+        "轻微赞同": [
+          "mengzi",
+          "socrates"
+        ],
+        "中立": [
+          "machiavelli",
+          "laozi"
+        ],
+        "疑惑": [
+          "wilde",
+          "nisbett"
+        ]
+      }
+    },
+    {
+      "id": "p06",
+      "round": 1,
+      "thinker": "machiavelli",
+      "reply_to": null,
+      "text": "诸位争的是德性，我只问机制。君主不必真有那些美德，但必须显得有——这句被引了五百年，很少有人接着往下读：我在同一本书里用了整整一章讲怎么躲开谄媚者。宫廷里人人对你说好话，不是因为他们坏，而是因为说真话的人会被记恨、说好话的人会被提拔；**你自己设的赏罚，决定了你听得到什么。**指望人人对你坦白，你只会养出一群随时准备骗你的人；选定少数几个，许他们直言，并保住他们的位置，你才真听得见。家里也一样：一个从不发火的父亲，孩子才敢报告坏成绩。真话不是道德问题，是谁付得起的问题。",
+      "text_en": "You are all arguing about virtue; I only ask about machinery. A prince need not possess the virtues, but he must appear to — the line has been quoted for five centuries and few readers go on to the next chapter, where I spend the whole of it on how to escape flatterers. Everyone at court tells you pleasant things, not because they are wicked, but because the man who tells the truth is resented while the man who flatters is promoted. **The rewards and punishments you set decide what you get to hear.** Expect candour from everybody and you will breed a household of people ready to deceive you at any moment; pick a few, license them to speak plainly, and guarantee their position, and then you will actually hear something. It is the same at home: a father who never explodes is the one whose children dare to report a bad mark. Truth is not a moral problem. It is a question of who can afford it.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "谄媚者": "flatterers（谄媚者）：马基雅维利在《君主论》里视为宫廷常态的一群人。他的分析不诉诸人品：只要说真话可能招致报复、奉承却能换来升迁，任何组织都会自动筛选出这样一批人。所以他的对策不是号召诚实，而是改动激励——指定少数人被允许直言，并保证他们不因此受损。"
+      },
+      "glossary_en": {
+        "flatterers": "The people Machiavelli treats as the default population of any court. His analysis appeals to no one's character: wherever truth-telling can draw retaliation and flattery earns promotion, an organisation selects for them automatically. His remedy is therefore not an appeal to honesty but a change of incentives — a few people licensed to speak plainly, and guaranteed to lose nothing by it."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "nisbett"
+        ],
+        "轻微赞同": [
+          "sharot",
+          "wilde"
+        ],
+        "中立": [
+          "mengzi"
+        ],
+        "轻微反对": [
+          "socrates"
+        ],
+        "疑惑": [
+          "buddha",
+          "laozi"
+        ]
+      }
+    },
+    {
+      "id": "p07",
+      "round": 1,
+      "thinker": "buddha",
+      "reply_to": null,
+      "text": "如来说正语有四：谛语、不两舌、不恶口、不绮语。然真伪非唯一尺。昔无畏王子问：如来颇有说令人不悦之言乎？如来答：凡言之出，先知其真，次知其有益，后知其时。**不真者，虽利不说；真而无益者，不说；真而有益而非其时者，持之以待可受之日。**譬如小儿含物将噎，虽其号哭，必探而出之——为爱故，非为快意故。诸君问病榻之侧当言不当言：先问病者欲闻几分。彼未问而汝告，多为汝自心不安；彼既问而汝瞒，是夺其最后之择。",
+      "text_en": "Right speech has four limbs: truthful speech, no speech that divides, no harsh speech, no idle speech. But true and false is not the only measure. Prince Abhaya once asked whether a Tathagata ever says what others find unwelcome, and the answer was this: before any word leaves the mouth, know first that it is true, then that it is beneficial, then that the time is right. **What is untrue is never said however useful; what is true but of no benefit is not said; what is true and beneficial but ill-timed is held until the day it can be received.** When a child has something in his mouth and is about to choke, you reach in and take it out though he screams — out of love, not out of the pleasure of being right. You ask whether to speak at a sickbed: ask first how much the sick person wishes to hear. To tell someone who has not asked is usually your own unease looking for relief; to conceal from someone who has asked is to take from them their last remaining choice.",
+      "vernacular": "如来讲的正语有四条：说真实的话、不搬弄是非、不说粗恶的话、不说无意义的废话。但『是真是假』并不是唯一的一把尺。从前无畏王子问：如来会不会说让人听了不高兴的话？如来回答：任何一句话出口之前，先要知道它是不是真的，其次要知道它有没有益处，最后要知道时机对不对。**不真的话，再有用也不说；真话但没有益处，不说；真话而且有益、可是时机不对，就先收着，等到对方能听得进去的那一天。**好比小孩子嘴里含着东西快要噎住，哪怕他哭闹，也一定要伸手掏出来——那是出于爱，不是为了自己痛快。你们问病床边该不该说：先问病人自己想知道多少。他没问你就告诉他，多半是你自己心里不安；他已经问了你却瞒着，那是夺走他最后一次选择的机会。",
+      "vernacular_en": "",
+      "glossary": {
+        "正语": "right speech / sammā-vācā（正语）：八正道之一，佛教对言语的四条戒律——不妄语、不两舌、不恶口、不绮语。它的重点不在『不许撒谎』这一条，而在把言语看成有后果的行为：话与身、意并列为造业的三处，说什么、何时说、以什么心说，都算在内。",
+        "绮语": "idle speech（绮语）：指虚饰、无意义、只为消遣或炫耀而说的话。佛教把它与妄语并列为口业之一，理由是它虽不直接骗人，却持续消耗说者与听者的心，并让真正要紧的话失去分量。"
+      },
+      "glossary_en": {
+        "idle speech": "Ornamented, purposeless talk, spoken for diversion or display. Buddhism lists it alongside outright falsehood among the faults of the tongue, on the grounds that although it deceives nobody directly, it steadily wears down both speaker and listener and drains the weight from words that matter.",
+        "Right speech": "One limb of the Eightfold Path, comprising four disciplines of the tongue: no false speech, no divisive speech, no harsh speech, no idle speech. Its emphasis is not merely the ban on lying but the treatment of speech as consequential action — speech stands with body and mind as one of the three sites where deeds are made, so what is said, when, and in what state of mind all count."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "nisbett",
+          "sharot"
+        ],
+        "轻微赞同": [
+          "laozi",
+          "wilde"
+        ],
+        "中立": [
+          "mengzi"
+        ],
+        "轻微反对": [
+          "machiavelli"
+        ],
+        "疑惑": [
+          "socrates"
+        ]
+      }
+    },
+    {
+      "id": "p08",
+      "round": 1,
+      "thinker": "nisbett",
+      "reply_to": null,
+      "text": "把这件事讲成勇气与懦弱之争，是把两套沟通技术错当成两种人品。给同一组互相矛盾的证据，东亚被试更倾向两边都保留、找折中，美国被试更倾向判定一边为真——这不是谁更诚实，是整体思维与分析思维的差别：前者先看关系与情境，后者先看命题与归类。在高语境沟通里，坏消息不是不说，是换路径说——托人带话、迂回暗示、留给对方自己发现。这套技术有它的效率，也有固定的失灵处：**信息越难听、越需要往上走，被这条路径截断的概率越大。**所以别问该不该维持和谐，问你们这套传话方式能不能把最难听的那句送到最该听见的人耳边。",
+      "text_en": "Casting this as courage against cowardice mistakes two communication technologies for two kinds of character. Give people the same set of contradictory findings and East Asian participants tend to keep both sides and look for a middle position, while American participants tend to rule one side true — that is not a difference in honesty but the difference between holistic thought and analytic thought: the first attends to relationships and context, the second to propositions and categories. In high-context communication bad news is not suppressed, it is rerouted — carried by a third party, hinted at obliquely, left for the other person to find. The technology has real efficiencies and one standing failure mode. **The harder the news and the further up it has to travel, the likelier that route is to cut it off.** So the question is not whether to preserve harmony, but whether your way of passing messages can deliver the worst sentence in the building to the person who most needs to hear it.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "整体思维": "holistic thought（整体思维）：一种先看场域与关系、后看单个对象的认知风格。尼斯贝特的对照实验发现它在东亚被试中更常见：解释一个人的行为时更多归因于情境，面对矛盾时更倾向两边都保留而非判定一边为假。它与分析思维的差别不是聪明程度，而是注意力先落在哪里。",
+        "高语境沟通": "high-context communication（高语境沟通）：意思主要由情境、关系与共享默契承载，而非由字面话语直接说出的沟通方式。它并不等于不传递坏消息，而是把坏消息交给暗示、中间人或场合安排；效率来自省去当面冲突的成本，风险则在于信息可能在路上被稀释或截断。"
+      },
+      "glossary_en": {
+        "holistic thought": "A cognitive style that attends first to the field and the relations within it and only then to the individual object. Nisbett's controlled comparisons find it more common among East Asian participants: behaviour is explained more by situation, and contradictions are more often kept in play than resolved by declaring one side false. What separates it from analytic thought is not intelligence but where attention lands first.",
+        "high-context communication": "Communication in which meaning is carried mainly by situation, relationship and shared understanding rather than stated outright. It does not mean bad news goes untransmitted; it means bad news travels by hint, intermediary or careful staging. The efficiency comes from avoiding the cost of open confrontation, and the risk is that the message is diluted or cut off along the way."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "wilde",
+          "machiavelli"
+        ],
+        "轻微赞同": [
+          "buddha",
+          "laozi"
+        ],
+        "中立": [
+          "sharot"
+        ],
+        "轻微反对": [
+          "mengzi"
+        ],
+        "疑惑": [
+          "socrates"
+        ]
+      }
+    },
+    {
+      "id": "p09",
+      "round": 2,
+      "thinker": "wilde",
+      "reply_to": "p01",
+      "text": "苏格拉底，你的辩词很动人，只是有一笔你没算：你死了，雅典照旧过它的日子，第二天集市照常开张。真话之所以致命，往往不在内容而在场合——同一句话在对的人耳边是解药，当着众人说就是判决书。你说墓地最和谐，可惜沙龙也不是战场。**我反对的从来不是真话，是把粗鲁改名叫诚实、再拿这个名字去索取道德上的报酬。**懂得挑时间与措辞的人不叫懦夫，那叫成年人。至于孟子说的那位乡愿，我同意他讨厌；但请注意，讨厌他的理由是他什么也不做，不是他说话客气。",
+      "text_en": "Your defence was moving, Socrates, but there is one item you never costed: you died, Athens went on with its day, and the market opened again the next morning. What makes truth lethal is usually not its content but its setting — the same sentence is medicine in the right ear and a death sentence in front of a crowd. You say the cemetery is the most harmonious place; a drawing room is not a battlefield either. **What I object to has never been the truth. It is the renaming of rudeness as honesty, and the moral credit then claimed under that name.** A man who can choose his moment and his words is not a coward; he is an adult. As for Mencius's village worthy, I agree he is insufferable — but note that he is insufferable because he does nothing, not because he speaks politely.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "nisbett"
+        ],
+        "轻微赞同": [
+          "machiavelli",
+          "laozi"
+        ],
+        "中立": [
+          "buddha",
+          "sharot"
+        ],
+        "强烈反对": [
+          "mengzi"
+        ]
+      }
+    },
+    {
+      "id": "p10",
+      "round": 2,
+      "thinker": "mengzi",
+      "reply_to": "p02",
+      "text": "老聃谓仁义生于大道之废，是见落水者众而怨绳索也。绳索非致溺之由；无绳索，则溺者尽死而已。**德之有名，非伪之因，乃伪之所寄；去其名，伪不亡，特无可指摘耳。**且四端在人，如手足然，非外铄我也。人见孺子将入于井，怵惕恻隐之心自动，何待名哉？名者，所以责实也；名亡，则乡愿愈安，谁复得举其非、刺其失？至于王尔德谓吾恶乡愿以其无为，非也：吾恶之以其使人不复知是非之有别。",
+      "text_en": "Laozi says benevolence and rightness are born from the loss of the Way, which is to see many people drowning and blame the rope. The rope is not why they went under; without it they would simply all drown. **A name for virtue is not the cause of counterfeit, it is where counterfeit takes shelter — abolish the name and the counterfeit survives, it merely becomes impossible to accuse.** Besides, the four sprouts are in a person as hands and feet are; they are not welded on from outside. See a child about to fall into a well and alarm and pity move on their own — what name did that wait for? A name exists so that the reality can be held to it; abolish it and the village worthy sits easier than ever, for who can now point to what he failed to do? And to Wilde: I do not despise that man for doing nothing. I despise him for teaching everyone around him that right and wrong no longer differ.",
+      "vernacular": "老子说仁义是因为大道丢了才出现的，这就好比看见落水的人多，反倒去怪那根救命的绳子。绳子不是他们落水的原因；没有绳子，落水的人只会全都淹死。**给德行立个名目，不是虚伪的成因，而是虚伪的藏身处；把名目取消，虚伪并不会消失，只是再也没人挑得出它的错。**何况恻隐、羞恶、辞让、是非这四端本来就长在人身上，像手脚一样，不是外面硬安上去的。一个人看见小孩要掉进井里，那份惊惧不忍是自己动起来的，它等过什么名目吗？名目的用处，是拿来要求实际的表现；名目没了，乡愿只会过得更舒服——还有谁举得出他的不是、刺得中他的短处？至于王尔德说我讨厌乡愿是因为他什么都不做，不对：我讨厌他，是因为他让周围的人渐渐不再觉得是非有分别。",
+      "vernacular_en": "",
+      "glossary": {
+        "四端": "the four sprouts（四端）：孟子说人性本有的四种苗头——恻隐之心、羞恶之心、辞让之心、是非之心，分别是仁、义、礼、智的起点。他的意思是道德不是外部规训灌进来的，而是像种子一样本来就在，需要的是扩充与养护，而不是发明。"
+      },
+      "glossary_en": {
+        "four sprouts": "Mencius's term for four inborn beginnings in human nature — the heart of compassion, of shame, of deference, and of approving and disapproving — which are the seeds of benevolence, rightness, ritual propriety and wisdom. His claim is that morality is not poured in from outside by discipline but present like a seed from the start, needing cultivation rather than invention."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "socrates"
+        ],
+        "轻微赞同": [
+          "sharot"
+        ],
+        "中立": [
+          "machiavelli",
+          "buddha"
+        ],
+        "轻微反对": [
+          "nisbett",
+          "wilde"
+        ],
+        "强烈反对": [
+          "laozi"
+        ]
+      }
+    },
+    {
+      "id": "p11",
+      "round": 2,
+      "thinker": "nisbett",
+      "reply_to": "p01",
+      "text": "苏格拉底，我不否认你的方法有效，我只想指出它的适用条件。你那套当众追问能在雅典运转，是因为你的听众把辩论当竞技，输了不掉身份。在把冲突计入关系损耗的地方，同一套追问会引出一个可测量的后果：对方既不被说服也不来反驳，而是停止向你提供信息——包括那些你其实很需要的软信息。**你以为你在检验一个命题，实际上你在决定以后还有谁愿意告诉你事情。**真相的产量不只取决于说的人有多勇敢，也取决于说完之后他被怎么对待。",
+      "text_en": "I do not dispute that your method works, Socrates; I want to state its operating conditions. Public cross-examination ran in Athens because your audience treated argument as a sport, where losing cost no standing. Where conflict is booked against the relationship, the same questioning produces a measurable result: the other person neither concedes nor counters, they stop supplying you with information — including the soft information you badly need. **You think you are testing a proposition; what you are actually settling is who will still tell you things afterwards.** The output of truth depends not only on how brave the speaker is but on how the speaker is treated once they have spoken.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "machiavelli",
+          "wilde"
+        ],
+        "轻微赞同": [
+          "sharot",
+          "buddha"
+        ],
+        "中立": [
+          "laozi"
+        ],
+        "轻微反对": [
+          "mengzi"
+        ]
+      }
+    },
+    {
+      "id": "p12",
+      "round": 2,
+      "thinker": "socrates",
+      "reply_to": "p11",
+      "text": "那就让我们把你的条件问到底。在你描述的那种地方，一个已经看出事情要出错的人，该怎么办？若你的回答是『换个场合、换个说法』，我完全同意，我从不主张当众羞辱谁；可若你的回答是『于是他不说』，那你研究的就不再是沟通技术，而是谁有资格承受说真话的后果。我猜这个答案相当稳定：有资格的人，总是那些不必靠这份工作吃饭的人。**把真话变成一种需要地位才买得起的东西，本身就是一种不平等，只是它不出现在任何账本上。**",
+      "text_en": "Then let us press your conditions to the end. In the place you describe, what is a man to do who can already see the thing going wrong? If your answer is 'choose another setting, choose other words', I agree entirely — I have never argued for humiliating anyone in public. But if your answer is 'and so he says nothing', then what you are studying is no longer a communication technology; it is the question of who is entitled to bear the consequences of speaking. I suspect that answer is remarkably stable: the entitled are always those who do not need the job to eat. **To make truth something you must have standing to afford is itself a form of inequality — one that shows up on no ledger anywhere.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "mengzi",
+          "machiavelli"
+        ],
+        "轻微赞同": [
+          "nisbett",
+          "sharot"
+        ],
+        "中立": [
+          "wilde"
+        ],
+        "疑惑": [
+          "laozi",
+          "buddha"
+        ]
+      }
+    },
+    {
+      "id": "p13",
+      "round": 2,
+      "thinker": "buddha",
+      "reply_to": "p12",
+      "text": "善哉此问，然汝执一尺。真伪，一尺也；益与不益，又一尺也；时与非时，第三尺也。持一尺者，遇事非勇即怯，二者皆苦。**汝问『见事将败者当如何』，吾答：当言，然择时、择处、择量而言，令彼能受。**言而彼不能受，事亦不改，是徒生二苦：彼之嗔与汝之慢。若所言不为改事，但为自明其直，则此非正语，乃我慢之别名。至于地位者，马基雅维利之说是也：无位而言者受其报，故智者先谋其身之全，非为怯，为使言得再出。",
+      "text_en": "It is a good question, yet you hold one measure only. True and false is one measure; beneficial and unbeneficial is another; timely and untimely is a third. Whoever holds a single measure meets every situation as either bravery or cowardice, and both are suffering. **You ask what a man should do when he sees a thing about to fail. He should speak — but choose the time, the place and the dose, so that it can be received.** Speak where it cannot be received and nothing changes, and two sufferings are produced where there were none: his anger and your pride. If the words are not for the mending of the matter but for the display of your own straightness, that is not right speech; it is conceit under another name. As for standing, what Machiavelli says is so: whoever speaks without position bears the retaliation, so the wise first secure themselves — not out of fear, but so that they may speak again.",
+      "vernacular": "这个问题问得好，但你只握着一把尺。真假是一把尺；有益无益是第二把尺；时机对不对是第三把尺。只拿一把尺的人，遇事不是逞勇就是退怯，两样都是苦。**你问『看出事情要坏了该怎么办』，我的回答是：该说，但要挑时间、挑场合、挑分量地说，让对方接得住。**说了而对方接不住，事情也没改，那就白白多出两份苦：他的怒气，和你的傲慢。如果这话不是为了把事情弄好，只是为了证明自己正直，那它就不是正语，只是傲慢换了个名字。至于地位这件事，马基雅维利说得对：没有位置的人开口，报复会落到他身上；所以明白人先保全自己，不是因为胆小，而是为了让这句话以后还说得出来。",
+      "vernacular_en": "",
+      "glossary": {
+        "我慢": "conceit / māna（我慢）：佛教所说的一种根本烦恼，指以自我为中心而生的高抬——不只是骄傲自夸，也包括『我比他更清醒、更正直』这种隐蔽的比较心。它之所以要紧，是因为它常常伪装成正义感：同一句真话，可以出于救人，也可以出于我慢。"
+      },
+      "glossary_en": {
+        "conceit": "In Buddhist analysis, one of the root afflictions: the self-elevation that grows out of measuring oneself against others. It covers not only open boasting but the quieter comparison of 'I see more clearly, I am more upright than he is'. It matters because it so readily disguises itself as a sense of justice — the same true sentence can come from a wish to help or from conceit."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "nisbett",
+          "laozi"
+        ],
+        "轻微赞同": [
+          "wilde",
+          "sharot"
+        ],
+        "中立": [
+          "machiavelli"
+        ],
+        "轻微反对": [
+          "socrates"
+        ],
+        "疑惑": [
+          "mengzi"
+        ]
+      }
+    },
+    {
+      "id": "p14",
+      "round": 2,
+      "thinker": "machiavelli",
+      "reply_to": "p13",
+      "text": "佛陀这三把尺我愿意用，只是第二把尺没有主人。谁来判定『有益』？在任何一间会议室里，判定权都归听得起坏消息的那个人，于是『有益』会慢慢滑成『对我有益』——沉默的人还会真心相信自己是在体谅大局。**所以别把说真话交给个人的分寸感，交给安排：谁被指定必须说，说完之后他会不会掉一层楼。**我给君主那条建议至今能用——选定少数几个人，只有他们可以直言，且只在被问时说；作为交换，你担保他们不因所言受损。你若给不出这条担保，就不必抱怨身边全是好话。",
+      "text_en": "I will use the Buddha's three measures, but the second one has no owner. Who decides what is beneficial? In any meeting room that power belongs to whoever can afford to hear bad news, and so 'beneficial' slides quietly into 'beneficial to me' — while the silent go on sincerely believing they are protecting the greater good. **So do not entrust truth to anyone's sense of proportion. Entrust it to an arrangement: who is required to speak, and whether speaking costs him a floor of the building.** The advice I gave a prince still works — appoint a few men, let only them speak plainly and only when asked, and in exchange guarantee that nothing they say will damage them. If you cannot underwrite that guarantee, do not complain that you hear nothing but flattery.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "socrates",
+          "nisbett"
+        ],
+        "轻微赞同": [
+          "mengzi",
+          "sharot"
+        ],
+        "中立": [
+          "buddha"
+        ],
+        "轻微反对": [
+          "laozi"
+        ],
+        "疑惑": [
+          "wilde"
+        ]
+      }
+    },
+    {
+      "id": "p15",
+      "round": 2,
+      "thinker": "sharot",
+      "reply_to": "p03",
+      "text": "王尔德先生，面具的比喻很美，但它有一个可测的代价。我们追踪的正是那些无伤大雅的小谎：受试者第一次为自身利益说谎时脑内的情绪反应最强，此后逐次衰减，而衰减的幅度能预测他下一次谎的规模。这条曲线不问动机——善意的谎与自利的谎共用同一段回路。**你戴面具是为了体面，可那副面具会自己长大，直到你分不清它和脸。**我不是要谁在葬礼上讲刻薄话。我是说，把每一次『这回就算了』记下来，一年后看看它长成了什么形状。",
+      "text_en": "The mask is a lovely figure, Mr Wilde, but it carries a measurable cost. What we tracked were exactly the harmless little lies: the emotional response in the brain is strongest the first time a person lies for their own benefit and falls off trial by trial thereafter, and the size of that fall predicts the size of their next lie. The curve does not ask about motive — the kind lie and the self-serving lie run through the same circuit. **You put the mask on for the sake of decency, and then the mask grows by itself until you can no longer tell it from the face.** I am not asking anyone to be cutting at a funeral. I am saying: write down each 'just this once', and look a year later at what shape it has grown into.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "mengzi",
+          "socrates"
+        ],
+        "轻微赞同": [
+          "buddha",
+          "laozi"
+        ],
+        "中立": [
+          "nisbett"
+        ],
+        "轻微反对": [
+          "machiavelli"
+        ],
+        "疑惑": [
+          "wilde"
+        ]
+      }
+    },
+    {
+      "id": "p16",
+      "round": 2,
+      "thinker": "laozi",
+      "reply_to": "p10",
+      "text": "孟子以吾为怨绳索者，非也。吾不怨绳索，吾怨鬻绳者日祝水之有波。**名立而赏随，则伪者趋之；伪者趋之而莫能辨，正以其形似也。**乡愿之所以生，非因无名，正因有名可托。是以圣人处无为之事，行不言之教；功成而弗居，夫唯弗居，是以不去。今诸君欲设直言之官、悬诚实之榜，明日必有工于直言之状者据之——马基雅维利所忧之谄媚者，即由此门而入，唯其辞已改为直谏耳。",
+      "text_en": "Mencius takes me for a man who blames the rope. I do not blame the rope. I blame the rope-seller who prays daily for rough water. **Set up a name and the reward follows it; where the reward is, the counterfeit gathers, and it cannot be told apart precisely because it looks the same.** The village worthy is not born from the absence of a name but from the presence of one he can shelter under. Therefore the sage handles affairs by wu wei, without contriving, and teaches without speaking; the work is done and he does not take up residence in it, and it is exactly by not residing there that it does not leave him. You now propose an officer of plain speech and a public reward for honesty — by tomorrow the man skilled at the appearance of plain speech will hold the post, and Machiavelli's flatterer walks in through that very door with nothing changed but his vocabulary.",
+      "vernacular": "孟子把我当成怪罪绳子的人，不是的。我不怪绳子，我怪的是卖绳子的人天天盼着水面起浪。**名目一立，赏赐就跟过来；赏赐在哪里，假货就聚到哪里，而且分辨不出来，正因为它长得一模一样。**乡愿之所以能存在，不是因为没有名目，恰恰是因为有名目可以依附。所以圣人做事不刻意造作，教化不靠说教；事情办成了也不占为己有，正因为不占，它才不会离开他。你们现在想设一个『专门敢说话』的职位、挂一块『诚实』的牌匾，明天就会有擅长做出敢说话样子的人来坐这个位置——马基雅维利担心的那种谄媚者，正是从这道门进来的，只不过把话术换成了直言进谏。",
+      "vernacular_en": "",
+      "glossary": {
+        "无为": "wu wei / non-contrivance（无为）：老子的核心主张，并非什么都不做，而是不横加造作、不逆着事物的势去硬办。它反对的是那种为了显示作为而作为的治理与处世方式；顺势而为、事成之后不据为己功，在他看来才是最省力也最持久的做法。"
+      },
+      "glossary_en": {
+        "wu wei": "Laozi's central term, usually rendered non-action but better read as non-contrivance: not doing nothing, but refraining from forcing things against their own grain. What it opposes is action undertaken to be seen acting, whether in governing or in daily life; going with the grain and then declining to claim the result is, on his account, both the least effortful and the most durable way to proceed."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "wilde"
+        ],
+        "轻微赞同": [
+          "buddha",
+          "nisbett"
+        ],
+        "中立": [
+          "sharot",
+          "machiavelli"
+        ],
+        "强烈反对": [
+          "mengzi"
+        ],
+        "疑惑": [
+          "socrates"
+        ]
+      }
+    },
+    {
+      "id": "p17",
+      "round": 3,
+      "thinker": "laozi",
+      "reply_to": null,
+      "text": "观诸君之争，其同处在此：皆欲以言正物。然物不待言而正。**言之将出，宜先自问：吾欲事之善耶，抑欲人见吾之直耶？**此一问，去伪十之七八。为常人计，吾有三事。其一，多为而少言，事成而弗居；不居功者，人不与之争，亦无所须饰。其二，勿于家中、于众中悬可炫之德——不设敢言之赏，则无人演敢言之状；不以诚实相标榜，反倒省下彼此揣度的气力。其三，不得已而言者，宜迟半日：怒中之言十有八九为己出气，非为事；过半日而仍以为当言，则言之，其辞必平。信言不美，美言不信；辞愈饰，事愈远。水利万物而不言其利，故天下莫能与之争。",
+      "text_en": "What all of you share is this: you want words to set things right. But things come right without waiting for words. **Before a sentence leaves your mouth, ask yourself which you want — the matter mended, or to be seen being upright?** That single question strips away most of the counterfeit. For ordinary people I offer three things. First, do more and say less, and when the work is finished do not take up residence in it; whoever claims nothing is not competed with, and has nothing to dress up either. Second, hang up no displayable virtue, at home or in company — post no reward for plain speaking and nobody performs the look of plain speaking, and drop the badge of honesty and everyone is spared the labour of second-guessing everyone else. Third, when you must speak, wait half a day: words spoken in anger are nine times in ten for the venting of the speaker rather than the mending of the thing, and if after half a day you still judge it worth saying, then say it — and it will come out level. Trustworthy words are not beautiful and beautiful words are not trustworthy; the more the phrasing is worked on, the further the thing itself recedes. Water benefits all things and never speaks of its benefit, and so nothing under heaven contends with it.",
+      "vernacular": "看你们争来争去，有个共同点：都想用话把事情摆正。可事情不等着话就自己正了。**话要出口之前，先问自己一句：我是想让这件事变好，还是想让人看见我很正直？**就这一问，虚伪去掉七八成。给普通人我留三件事。第一，多做少说，事情办成了别占为己有；不抢功的人没人跟他争，也就不必修饰什么。第二，别在家里、在团队里挂出可以炫耀的德目——不设『敢说话』的奖赏，就没人表演敢说话的样子；不拿诚实当招牌，大家反而省下互相揣摩的力气。第三，非说不可的话，最好压半天：气头上的话十有八九是给自己出气，不是为了事；过了半天你还觉得该说，那就说，语气自然会平。可信的话不漂亮，漂亮的话不可信；词句修饰得越用力，事情本身就离得越远。水滋养万物却从不说自己有功，所以天下没有什么能跟它争。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "wilde",
+          "buddha"
+        ],
+        "轻微赞同": [
+          "nisbett",
+          "sharot"
+        ],
+        "中立": [
+          "machiavelli"
+        ],
+        "轻微反对": [
+          "socrates"
+        ],
+        "强烈反对": [
+          "mengzi"
+        ]
+      }
+    },
+    {
+      "id": "p18",
+      "round": 3,
+      "thinker": "machiavelli",
+      "reply_to": null,
+      "text": "把全场的分歧翻成一句能执行的话：真话不是靠鼓励得来的，是靠降低说它的代价得来的。**你若想听见真话，先算清说真话的人这一年要为此付多少利息，然后由你来付。**给普通人三条。第一，向上说话时只交出他能拿去行动的那一段，别附赠道德评价——评价会激活防御，方案不会；同一件事，说『这个数据支撑不了这个结论，我们可以先跑一周小样本』和说『你这是自欺欺人』，命运截然不同。第二，在你带的团队或你自己家里，指定一个人在关键决定前专门唱反调，并且当众谢他：被谢过一次的人，下一次才敢开口，而这是你能给出的最便宜的制度。第三，永远给对方留一条不丢脸的退路。**人翻脸多半不是因为你说错了，而是因为你让他在众人面前无路可退。**学会这条，你会发现许多所谓的和谐，不过是从来没人给过对方台阶。",
+      "text_en": "Let me translate the whole disagreement into one executable sentence: truth is not obtained by encouraging it, but by lowering what it costs to say. **If you want to hear the truth, work out what the truth-teller will pay in interest over the coming year — and then pay it yourself.** Three things for ordinary people. First, when speaking upward, hand over only the part your listener can act on and add no moral assessment: assessment activates the defences, a proposal does not. Saying 'the data does not support that conclusion, we could run a one-week sample first' and saying 'you are deceiving yourself' concern the same fact and meet entirely different fates. Second, in the team you run or the household you live in, appoint someone to argue the other side before any decision that matters, and thank them where everyone can hear it; a person thanked once is a person who dares speak twice, and it is the cheapest institution you will ever build. Third, always leave the other person an exit that costs them no face. **People rarely turn on you because you were wrong. They turn on you because you left them nowhere to stand in front of others.** Learn that and you will find that a great deal of what passes for harmony is simply nobody ever having offered anybody a way out.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "nisbett",
+          "wilde"
+        ],
+        "轻微赞同": [
+          "socrates",
+          "sharot",
+          "buddha"
+        ],
+        "中立": [
+          "mengzi"
+        ],
+        "轻微反对": [
+          "laozi"
+        ]
+      }
+    },
+    {
+      "id": "p19",
+      "round": 3,
+      "thinker": "nisbett",
+      "reply_to": null,
+      "text": "结论上我靠近佛陀，方法上我靠近马基雅维利：该说，但要换渠道。有一个反复出现的实证结果值得所有人记住——含糊的善意反馈会让人系统性地高估自己的表现，等到结果出来才发现没人告诉过他；具体、可操作的反馈才真正改变行为。所以别在『说』与『不说』之间二选一，在四个变量上调：场合，私下优于当众；对象，先给当事人，再给需要知道的人；内容，说行为与后果，别说人品；时机，在还改得动的时候，不在结果已经出来之后。**东亚的高语境与西方的直言，失灵的地方是对称的：一个把坏消息丢在半路，一个把以后还愿意跟你说话的人丢掉了。**给自己留一道自测题：过去一个月，有没有人主动告诉过你一件你不爱听的事？如果一次都没有，问题多半不在他们的胆量，在你上一次的反应。",
+      "text_en": "On the conclusion I stand near the Buddha, on method near Machiavelli: say it, but change the channel. One empirical result deserves to be remembered by everyone here — vague, kindly feedback leads people to overestimate their own performance systematically, and they discover only when the outcome lands that nobody ever told them; feedback that is specific and actionable is what actually shifts behaviour. So stop choosing between speaking and not speaking, and adjust four variables instead: setting, where private beats public; audience, where the person concerned comes before everyone who merely needs to know; content, which should describe behaviour and consequence rather than character; and timing, which should fall while the thing can still be changed rather than after the result is in. **East Asian high context and Western directness fail symmetrically: one drops the bad news somewhere along the way, the other drops the people who would have gone on telling you things.** Keep one self-test: in the past month, has anyone volunteered something you did not want to hear? If nobody has, the problem is probably not their nerve but your reaction the last time.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "machiavelli",
+          "buddha",
+          "sharot"
+        ],
+        "轻微赞同": [
+          "wilde",
+          "mengzi"
+        ],
+        "中立": [
+          "laozi"
+        ],
+        "轻微反对": [
+          "socrates"
+        ]
+      }
+    },
+    {
+      "id": "p20",
+      "round": 3,
+      "thinker": "wilde",
+      "reply_to": "p15",
+      "text": "沙罗特那条曲线让我不安，面具会自己长大——这句比我大半警句更像真话。那就让我划一条线，也算我今天唯一的让步：**表演体面可以，表演美德不行。**进门说一句『你今天气色真好』是礼节，它不索取任何回报；宣称『我最关心弱者』然后什么也不做，是把别人的苦难拿来当自己的化妆品，那是欺诈。前者润滑，后者腐蚀，把两者混作一谈，才是这场争论里最大的糊涂。给诸位两件可用的。其一，批评要说得像人话：具体、简短、只说一次，剩下的用行动补；重复三遍的批评已经不是信息，是惩罚。其二，允许别人保留退路，别把真相当判决书宣读——你要的是他改，不是他认罪。至于自己，睡前那一刻不必再表演：**你可以对世界戴面具，但对着镜子还在维持人设的人，最后会忘了哪一层才是摘不下来的。**",
+      "text_en": "Sharot's curve unsettles me — a mask that grows of its own accord sounds truer than most of my epigrams. So let me draw a line, and count it as my one concession of the day: **performing decency is permitted, performing virtue is not.** 'You are looking well' at the door is a courtesy and asks nothing in return; announcing that one cares deeply about the poor and then doing nothing is using other people's suffering as cosmetics, and that is fraud. The first lubricates, the second corrodes, and confusing them is the great muddle of this argument. Two usable things. First, criticism should sound like human speech: specific, short, delivered once, with the rest made up in deeds — a criticism repeated three times has stopped being information and become punishment. Second, allow people an exit and do not read the truth aloud like a sentence; what you want is for the man to change, not to confess. As for oneself, the moment before sleep needs no performance. **You may wear a mask for the world, but whoever is still maintaining the persona in front of the mirror will end up forgetting which layer is the one that does not come off.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "laozi",
+          "sharot"
+        ],
+        "轻微赞同": [
+          "nisbett",
+          "buddha",
+          "machiavelli"
+        ],
+        "中立": [
+          "mengzi"
+        ],
+        "轻微反对": [
+          "socrates"
+        ]
+      }
+    },
+    {
+      "id": "p21",
+      "round": 3,
+      "thinker": "sharot",
+      "reply_to": null,
+      "text": "我留三件有数据支撑的事。**第一，别靠恐吓改变任何人。**我们比较过威慑与正向信息：警告能激起焦虑，却常常降低行动，因为坏消息在信念更新里本就被打折；给出对方立刻能做到的一步、并让他看见进展，改变的概率高得多。想让家人去做体检，与其说『你再不查就晚了』，不如说『我预约了周六上午，一起去，做完去吃早茶』。第二，把你打算圆的场记下来。不诚实的脱敏是渐进的，当事人自己感觉不到，所以要用记录代替直觉：同一个谎如果一个月里长大了，那就不是善意，是滑坡。第三，在病床边先问再说。医学里有一套成熟的做法叫征求许可：先问对方想知道多少，再按他要的量给。**沉默与和盘托出之间不是只有两个选项，中间那一大片该由他来选，不是由你替他选。**",
+      "text_en": "Three things with data behind them. **First, do not try to change anyone by frightening them.** We have compared threat against positive information: warnings raise anxiety and often lower action, because bad news is already discounted in belief updating; give a person one step they can take immediately and let them see the progress, and the odds of change rise sharply. To get a relative to a check-up, 'you will leave it too late' works worse than 'I have booked Saturday morning, we will go together and have breakfast afterwards'. Second, write down the smoothings-over you intend to make. Desensitisation to dishonesty is gradual and invisible from the inside, so replace intuition with a record: if the same lie has grown over a month, that is not kindness, it is a slope. Third, at a sickbed, ask before you speak. Medicine has a well-established practice of asking permission — find out how much the person wants to know, then give that much. **Between silence and full disclosure there are not only two options, and the wide middle belongs to them to choose, not to you to choose on their behalf.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "buddha",
+          "nisbett",
+          "wilde"
+        ],
+        "轻微赞同": [
+          "machiavelli",
+          "mengzi"
+        ],
+        "中立": [
+          "laozi"
+        ],
+        "疑惑": [
+          "socrates"
+        ]
+      }
+    },
+    {
+      "id": "p22",
+      "round": 3,
+      "thinker": "buddha",
+      "reply_to": null,
+      "text": "吾以三尺终之：真、益、时。三者俱备，则虽逆耳必言；缺其一，则待。**待非默也：默者弃之而去，待者持其言以俟可受之日。**为在家者说三则。其一，言前一问：此言为改事乎？为自明其直乎？为出气乎？后二者，皆当停。其二，言时称量：只举其事，不加于其人；只说此一事，不数旧账——数旧账者，非欲改事，欲胜也。其三，病榻之侧，先问其欲闻几何，随其所求而与之；彼不欲闻而汝强告，是以己之不安加于将死之人。至于伪善，吾不以为最恶：恶者伪而自信为真，久之并其惭亦无。慈者非不言，慈者择其时与其量而言之。",
+      "text_en": "I end with three measures: true, beneficial, timely. Where all three hold, speak even against the ear; where one is missing, wait. **Waiting is not silence: the silent man drops the thing and walks away, the waiting man keeps his words for the day they can be received.** Three points for householders. First, one question before speaking: is this said to mend the matter, to display my own straightness, or to discharge my anger? The last two should stop where they are. Second, weigh the dose while speaking: address the deed, not the person; address this one deed and do not enumerate old accounts — whoever enumerates old accounts is not seeking to mend anything but to win. Third, at the sickbed, ask first how much they wish to hear, and give what is asked for; to force what they do not want is to lay your own unease upon someone who is dying. As for hypocrisy, I do not hold it the worst thing: the worse case is the man who counterfeits and believes himself genuine, until in time even his shame is gone. Compassion does not consist in staying silent. Compassion chooses the moment and the measure, and then speaks.",
+      "vernacular": "我用三把尺作结：真、有益、合时。三样都齐，那么话再不中听也要说；缺一样，就等。**等不等于沉默：沉默的人是把这事丢下走开，等的人是把话拿在手里，等到对方接得住的那天。**给在家过日子的人说三点。第一，开口前先问自己：这话是为了把事情弄好，还是为了证明我正直，还是为了出这口气？后两种，就该打住。第二，说的时候掂量分量：只说这件事，不上升到这个人；只说眼前这一件，不翻旧账——翻旧账的人不是想改事，是想赢。第三，病床边先问对方想知道多少，他要多少就给多少；他不想听你偏要说，那是把自己的不安压到一个将死的人身上。至于虚伪，我不认为它最坏：更坏的是作伪而自以为真，久了连羞愧也没有了。慈悲不是不说话，慈悲是挑对时机和分量再说。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "nisbett",
+          "sharot",
+          "laozi"
+        ],
+        "轻微赞同": [
+          "wilde",
+          "machiavelli",
+          "mengzi"
+        ],
+        "中立": [
+          "socrates"
+        ]
+      }
+    },
+    {
+      "id": "p23",
+      "round": 3,
+      "thinker": "mengzi",
+      "reply_to": null,
+      "text": "吾终以一尺：义。言与不言，皆当问代价所归。**代价加于弱者、加于无辜者，虽拂众意必言；代价止于己之毁誉，则言与不言皆可，勿自称勇。**又有三验，可自试焉。其一，此言若出自他人之口以指吾，吾闻之愠乎？愠，则其中未必为公，多半为胜。其二，吾之不言，果为全人乎？抑为全己之安乎？此二者常混，而分之不难：问自己若无损，是否仍愿缄默。其三，众皆悦我，而经年无一人尝举吾之非——则吾近乎乡愿矣。乡愿非大恶也，正以其无可指摘，故为德之贼。诸君所言择时、择量、易其渠道，吾皆不非之；然择时者当自警：所谓时机未到，多为一生不至。四端在我，扩而充之，足以保四海；苟不充之，不足以事父母。",
+      "text_en": "I end with one measure: rightness. Whether you speak or hold back, ask where the cost lands. **If it falls on the weak or the innocent, speak though it goes against the mood of the room; if it stops at your own reputation, then speak or not as you please, but do not call it courage.** Three tests you can run on yourself. First: if these same words came from another mouth and were aimed at me, would I resent them? If I would, what is in them is probably not public-spirited but a wish to win. Second: is my silence really protecting someone else, or protecting my own comfort? The two are constantly confused and are not hard to separate — ask whether you would still keep quiet if it cost you nothing. Third: everyone approves of me, and in a year nobody has once named a fault of mine. Then I am close to being the village worthy — no great villain, but virtue's thief precisely because nothing can be charged against him. I do not dispute what has been said about choosing the time, the dose, the channel. But whoever chooses the time should beware: the moment declared not yet right very often never arrives in a lifetime. The four sprouts are in me; extend and fill them and they suffice to protect the world, and fail to fill them and they will not suffice to serve one's own parents.",
+      "vernacular": "我用一把尺作结：义。说还是不说，都要问代价落在谁头上。**代价落在弱者、落在无辜者身上，哪怕全场不高兴也必须说；代价只落在自己的名声上，那说与不说都行，别自称勇敢。**另有三道题可以自己试试。第一，这话如果从别人嘴里说出来、针对的是我，我听了会不会恼？会恼，说明这话里未必是公心，多半是想赢。第二，我不说，究竟是为了保全别人，还是为了保全自己的安稳？这两样常混在一起，分开也不难：问问自己，如果说了对自己毫无损失，是否还愿意闭嘴。第三，人人都喜欢我，而这一年里没有一个人指出过我的不是——那我就快成乡愿了。乡愿算不上大恶，正因为挑不出错，才成了道德的贼。诸位说的挑时机、掂分量、换渠道，我都不反对；但挑时机的人要警惕一件事：所谓『时机未到』，很多时候是一辈子都不会到。四端在我身上，把它扩充开来，足以护住天下；不扩充，连侍奉父母都不够。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "socrates"
+        ],
+        "轻微赞同": [
+          "buddha",
+          "sharot",
+          "machiavelli"
+        ],
+        "中立": [
+          "nisbett",
+          "wilde"
+        ],
+        "轻微反对": [
+          "laozi"
+        ]
+      }
+    },
+    {
+      "id": "p24",
+      "round": 3,
+      "thinker": "socrates",
+      "reply_to": null,
+      "text": "我不要求任何人像我一样去死；那不是方法，那是我个人的账单。我要求的只有一件，而且它不花钱：**在你决定不说的那一刻，别在心里也跟着点头。**对外可以斟酌措辞、挑时间、留台阶——今天这些我都听进去了，尤其是关于代价由谁付的那部分；但你自己那本账要保持诚实：这一次我没说，是因为说了会伤到不该伤的人，还是因为说了我会有麻烦。把这两条分开记，一年之后你就看得清自己是谨慎，还是乡愿。再留一个最小的练习：每周找一个你信得过的人，问他一句『我最近有没有哪里做得不对、你不好意思讲的』，然后忍住不辩解，只说谢谢。你会发现最难的从来不是听见真话，是听完之后不去解释。**未经省察的人生不值得过——省察不必在广场上进行，但它必须真的发生过。**",
+      "text_en": "I ask nobody to die as I did; that was not a method, it was my own bill. I ask one thing only, and it costs nothing: **in the moment you decide not to speak, do not nod along inside your own head as well.** Outwardly you may weigh your words, choose your hour, leave a man his exit — I have taken all of that in today, particularly the part about who pays. But the ledger you keep yourself has to stay honest: this time I said nothing because saying it would have injured someone who should not be injured, or because saying it would have made trouble for me. Keep those two entries apart and in a year you will see plainly whether you are a careful man or a village worthy. One more exercise, the smallest I can offer: once a week, ask someone you trust whether there is anything you have got wrong lately that they have not felt able to mention — then hold back every explanation and say only thank you. You will find the hard part was never hearing the truth; it is not explaining yourself afterwards. **The unexamined life is not worth living — and the examining need not happen in the marketplace, but it does have to actually happen.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "mengzi",
+          "buddha"
+        ],
+        "轻微赞同": [
+          "sharot",
+          "laozi",
+          "nisbett"
+        ],
+        "中立": [
+          "machiavelli"
+        ],
+        "轻微反对": [
+          "wilde"
+        ]
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "ai": "claude",
+      "engine": "Opus 5 · 订阅(原生)",
+      "engine_en": "Opus 5 · subscription (native)",
+      "summary": "『该不该说真话』这个问法在场上很快就散了架。**没有人替句句实话辩护，也没有人替乡愿辩护；共识落在中间那一大片——该说，但时机、分量与渠道都是可以设计的，而设计的第一步是问代价落在谁身上。**分歧有三处。名与伪：老子说德一旦可炫，伪就有了藏身处；孟子反问，取消名目，乡愿只会过得更安全。有益由谁判：佛陀立真、益、时三把尺，马基雅维利指出第二把尺没有主人，最终总滑向听得起坏消息的那个人。沉默是技术还是遮掩：尼斯贝特说高语境沟通只是换了路径，苏格拉底追问的是那条路径上谁付得起后果。",
+      "insight": "关于伪善，全场几乎都默认它是该被清除的杂质，我想说一句相反的。**公开的道德标准哪怕总被虚伪地援引，标准本身也正因此活着。**一个人假装关心公平，等于承认公平值得被关心；他被抓住言行不一时，人们据以指责他的那把尺，恰是他刚刚亲手承认的。真正危险的不是虚伪，而是虚伪被彻底戳穿之后的下一步：既然人人都在演，那我索性直说我只顾自己——赤裸的犬儒不再欠任何标准一个交代，从此也没有把柄。所以戳穿要挑对目标：戳那些用道德语言换取实利的人，别顺手把『他明明做不到还说要做到』也一起嘲笑掉，那句做不到的承诺，常常是标准仅剩的落脚处。",
+      "advice": "本周先做一次很短的盘点：过去一个月，有没有人主动告诉过你一件你不爱听的事？一次也没有，问题多半不在他们的胆量，在你上一次的反应——那就照苏格拉底的最小练习补上：找一个信得过的人问『我最近有没有哪里做得不对、你不好意思讲』，然后只说谢谢，一句不辩解。轮到自己开口时，用马基雅维利的翻译法：把评价换成对方拿得走的下一步，把『你这样不行』换成『这个数撑不住结论，先跑一周小样本』。**拿不准该不该说的时候，就问孟子那一问：不说，这笔账由谁来付。**落在无力者身上就说；只落在自己面子上，就别急着自称勇敢。",
+      "summary_en": "The question of whether one should tell the truth falls apart almost immediately here. **Nobody defends saying everything, and nobody defends the village worthy; the agreement settles in the wide middle — speak, but the timing, the dose and the channel are all designable, and the first step in designing them is to ask where the cost lands.** Three fissures open. Names and counterfeit: Laozi holds that the moment virtue becomes displayable, hypocrisy has somewhere to hide, and Mencius answers that abolishing the name only lets the village worthy sleep easier. Who judges benefit: the Buddha sets up three measures — true, beneficial, timely — and Machiavelli points out that the second has no owner, so it slides toward whoever can afford to hear bad news. Whether silence is a technique or a cover: Nisbett argues high-context communication merely reroutes the message, while Socrates asks who, along that route, can afford the consequences.",
+      "insight_en": "On hypocrisy, almost everyone here treats it as an impurity to be removed, and I want to say the opposite. **A public moral standard stays alive precisely because it keeps being invoked, even insincerely.** A man who pretends to care about fairness has conceded that fairness is worth caring about, and when he is caught failing to live up to it, the measure people beat him with is the one he himself just acknowledged. What is genuinely dangerous is not the pretence but the step after the pretence is stripped away: since everyone is performing, I may as well say plainly that I look after myself alone — naked cynicism owes no standard an account and therefore offers no handle. So aim the exposure carefully. Go after those who trade moral language for material gain, and stop laughing at 'he said he would and he could not' along the way, because that unmet promise is often the last foothold the standard has.",
+      "advice_en": "Start the week with a very short audit: in the past month, has anyone volunteered something you did not want to hear? If nobody has, the problem is probably not their nerve but your reaction the last time — in which case run Socrates' minimal exercise: ask one person you trust whether there is anything you have got wrong lately that they have not felt able to mention, then say thank you and not one word of explanation. When it is your turn to speak, use Machiavelli's translation: convert the assessment into a next step the other person can carry away, and replace 'this isn't good enough' with 'the numbers don't support that conclusion, let's run a one-week sample first'. **When you cannot tell whether to say it, ask Mencius's question: if I stay quiet, who settles the bill?** If it lands on someone powerless, speak. If it lands only on your own dignity, do not rush to call your silence courage."
+    },
+    {
+      "ai": "gpt",
+      "engine": "openai · gpt-5.5 · high(真实API)",
+      "engine_en": "openai · gpt-5.5 · high (live API)",
+      "summary": "这场讨论最可带走的共识是：问题不是在“真话”和“和谐”之间二选一，而是让真话以较少伤害、较高成功率进入关系和制度。几乎所有立场都承认，粗暴的坦率会伤人，长期的粉饰会腐蚀判断；关键在于场合、时机、措辞、代价和接收者的承受能力。分歧真正落在重心上：有人更怕伪善吞掉是非，有人更怕真诚变成攻击，有人把它看成权力和奖惩设计。**好的和谐不是没人说破，而是坏消息也有安全抵达的路。**",
+      "insight": "可以把“该不该说真话”重构成“谁因此拥有行动选择”。如果一条真相会影响对方的治疗、签约、投票、投入时间或承担风险，那么隐瞒就不只是温柔，而是在替他做决定；如果它只满足你表达不满、证明自己清醒，反而可能是把情绪包装成诚实。这个标准对普通人很实用：先问这句话会不会改变某人的选择。会，就应设法说；不会，就先处理自己的动机和方式。**真话最硬的伦理基础，不是我有权说，而是对方有权据此选择。**",
+      "advice": "本周可以做三件小事。第一，开口前写一行“事实—影响—请求”：例如“这个预算少算了维护费，可能导致下月延期，我建议今天先补一版估算”，不要加“你们太乐观”。第二，遇到难听话先征求许可：“我有个可能不舒服但会影响决定的观察，现在方便听吗？”这能降低防御。第三，在家或团队设一个固定机制：重要决定前做五分钟“唱反调”，发言者只负责找风险，听者只说谢谢和下一步。**不要只要求别人勇敢，要把说真话这件事设计得更安全。**",
+      "summary_en": "The strongest shared lesson here is that truth and harmony are not simple opposites. The better question is how truth can enter a family, a meeting, or a public space with less damage and a higher chance of being used. Nearly every position concedes both sides of the risk: blunt honesty can become cruelty, while polite concealment can rot judgment over time. The real disagreement is about emphasis—some fear hypocrisy more, some fear weaponized sincerity more, and some focus on incentives, hierarchy, and the cost paid by the speaker. **Healthy harmony is not the absence of bad news; it is a safe route for bad news to arrive.**",
+      "insight_en": "A useful way to reframe the issue is to ask: whose ability to choose is affected by this truth? If the information changes someone’s medical decision, contract, vote, investment of time, or exposure to risk, withholding it is not merely kindness; it is taking over part of their agency. If the information only lets you vent, prove that you saw through things, or win moral credit, then “honesty” may be emotion in ethical clothing. For ordinary life, the test is simple: would this truth materially change what someone can choose? If yes, find a way to say it. If not, examine your motive and method first. **The deepest reason to tell the truth is not my right to speak, but the other person’s right to choose.**",
+      "advice_en": "Try three practical moves this week. First, before speaking, write one line in the format “fact—impact—request”: “This budget leaves out maintenance costs, which may delay us next month; I suggest we revise the estimate today.” Do not add “You’re all being delusional.” Second, ask permission before delivering hard information: “I have an uncomfortable observation that may affect the decision. Is now a good time?” That small step lowers defensiveness. Third, create a standing ritual at home or at work: before important decisions, spend five minutes assigning someone to name risks, while listeners only say thanks and agree on a next step. **Do not merely demand courage from truth-tellers; make truth-telling safer by design.**"
+    },
+    {
+      "ai": "gemini",
+      "engine": "google · gemini-3.1-pro-preview(真实API)",
+      "engine_en": "google · gemini-3.1-pro-preview (live API)",
+      "summary": "这场圆桌最深刻的共识，并非在“说与不说”间简单站队，而是所有人不约而同地承认：**无论是维系和谐还是直言真相，其核心都在于管理“真话的成本”。** 诸位皆认同，毫无缓冲的赤裸真相不仅是一种社交暴力（如王尔德与佛陀所言），更是沟通渠道的严重过载。真正的分歧在于这笔成本究竟该由谁、以何种机制承担。古典道德家们（苏格拉底、孟子）向内索求，认为发声者应保有护佑弱者与自我灵魂清澈的道德自觉，自己扛下代价；而现实主义者与科学家（马基雅维利、沙罗特、尼斯贝特）则向外求解，主张通过权力让渡、机制设计与顺应神经科学规律，把不可避免的系统损耗降至最低，让真相能真正在复杂人际中存活。",
+      "insight": "诸位智者皆在“语言”的维度里打转，却忽略了人类沟通从来不是单模态的文本传输。**说破真相之所以容易引发灾难，是因为我们错把“陈述事实”当成了传递真相的唯一载体。** 在真实的家庭或组织环境里，身体语言、一个及时的后勤补位、甚至一段心照不宣的沉默，都是极高带宽的信息通道。比如在病榻前，比起纠结“要不要当面宣告病情”，家属坚定握住的手和不带崩溃的日常陪伴，往往已经让病人通过多模态的感知确认了全部真相。当我们把视线从“如何遣词造句”移开，转用行动和物理环境去传达善意与底线时，那层所谓的“伪善面具”自然会消解。真相本不必非得掷地有声，它完全可以润物无声地被安全交付。",
+      "advice": "结合全场智慧与多模态视角，提供三个本周即可落地的动作：第一，练习“剥离评价的陈述”。如马基雅维利所指出的，当你必须指出错误时，用“这个数据如果按X调整能跑通”代替“你这人总是太粗心”，砍掉情绪附加值，把防御降到最低。第二，启用沙罗特的“医疗级预沟通”。在谈论任何敏感话题（如长辈健康、伴侣财务）前，先问一句：“关于这件事，你想了解到什么程度，还是由我先处理？”把知情权的刻度盘交还给对方。第三，尝试非语言的真相交付。**当你不想用虚伪的美言附和，又觉得直言刺耳时，用行动代替表态。** 为那个陷入困境却死要面子的人递上一杯水或一份客观数据，不用一言一语，他自会读懂你的立场与善意。",
+      "summary_en": "The most profound consensus of this roundtable is not about simply choosing sides between speaking up and staying silent. Instead, everyone implicitly agrees on one thing: **Whether maintaining harmony or speaking the truth, the core lies in managing the 'cost of truth.'** The speakers unanimously recognize that raw, unbuffered honesty is not just social violence (as Wilde and Buddha noted), but a severe overload of communication channels. The true divergence lies in *who* should bear this cost and through what mechanisms. Classical moralists (Socrates, Mencius) look inward, demanding that the speaker possess the moral conscience to protect the weak and absorb the cost themselves. Conversely, pragmatists and scientists (Machiavelli, Sharot, Nisbett) look outward, advocating for institutional design, delegation of power, and behavioral insights to minimize friction, ensuring the truth can actually survive in complex human networks.",
+      "insight_en": "The wise minds here have all been circling the dimension of 'language,' completely overlooking that human communication is never a single-modality text transfer. **Shattering the illusion often causes disaster because we mistakenly treat 'stating the literal facts' as the only medium for delivering the truth.** In real family or organizational settings, body language, timely logistical support, or even a tacitly shared silence are extremely high-bandwidth information channels. For instance, at a sickbed, rather than agonizing over 'whether to verbally announce the terminal diagnosis,' a family member's firm hand-holding and composed daily companionship often allow the patient to perceive the full truth through multimodal sensing. When we shift our focus from agonizing over word choices to using concrete actions and environments to convey our bottom line, that so-called 'hypocritical mask' naturally dissolves. Truth doesn't always need to resonate loudly; it can be delivered silently and safely.",
+      "advice_en": "Synthesizing the panel's wisdom and a multimodal perspective, here are three actionable steps you can take this week. First, practice 'evaluation-free statements.' As Machiavelli pointed out, when correcting someone, replace 'you are always careless' with 'this data would work better if adjusted by X.' Strip away the emotional baggage to minimize defensiveness. Second, adopt Sharot's 'medical-grade pre-communication.' Before discussing any sensitive topic (like an elder's health or finances), simply ask: 'How much detail do you want to know about this, or would you prefer I handle it first?' Hand the dial of the right-to-know back to them. Third, utilize non-verbal truth delivery. **When you don't want to chime in with hypocritical flattery but feel blunt words are too harsh, substitute verbal declarations with concrete actions.** Handing a glass of water or objective data to someone struggling to save face conveys your stance and goodwill without needing a single spoken word."
+    }
+  ],
+  "hooks": [
+    {
+      "from": "buddha",
+      "text": "**什么时候该说，什么时候该等？**真、益、时三尺齐备便说，缺其一便等——道理不难，难在临事分辨：眼前这件事到底是『时机未到』，还是自己不想承担？分辨不清时，人多半会选那个让自己今晚好过的答案。有没有一份对照，能把常见的几种处境先摆开，让人在开口前有个落脚点？",
+      "text_en": "**When should you speak, and when should you wait?** Where truth, benefit and timing all hold, speak; where one is missing, wait. The principle is easy and the discrimination is hard: is this really the wrong moment, or do I simply not want to carry it? When people cannot tell, they tend to choose whichever answer lets them sleep tonight. Could the common situations be laid out side by side, so that there is somewhere to stand before opening one's mouth?",
+      "answer": {
+        "lead": "把常见的几种处境按『还改不改得动』与『代价落在谁身上』摆开，答案大多自己就浮出来了。**判断的顺序是：先看代价归属，再看还能不能改，最后才轮到时机。**",
+        "table": {
+          "head": [
+            "处境",
+            "该说还是该等",
+            "为什么"
+          ],
+          "rows": [
+            [
+              "事情还改得动，你也有具体可行的下一步",
+              "现在就说，只讲行为与后果",
+              "真、有益、当时，三尺齐备；再等就只剩追责"
+            ],
+            [
+              "代价落在无力者身上：安全、造假、有人被欺负",
+              "必须说，必要时越级",
+              "沉默的账最后由最付不起的人结"
+            ],
+            [
+              "木已成舟，说了只让人难堪",
+              "不说，或只在对方问起时说",
+              "真而无益，改不了任何事，只添两份苦"
+            ],
+            [
+              "你正在气头上，对方又无法回避",
+              "压半天再说",
+              "怒中之言多为出气；过半日仍觉得该说，语气自会平"
+            ],
+            [
+              "对方其实早知道，只是需要一个台阶",
+              "别说破，给退路",
+              "说破只满足自己的正确感，代价却由他的面子付"
+            ],
+            [
+              "病榻之侧，家属与病人想听的不一样",
+              "先问对方想知道多少，按他要的量给",
+              "最后一次选择权属于当事人，不属于最不安的那个人"
+            ]
+          ]
+        },
+        "tail": "两条原则收尾。**其一，『时机未到』要设期限**——写下你打算等到什么条件出现，否则它多半会变成一辈子不到。其二，等不是丢下：等的人把话拿在手里，随时准备在对方接得住的那天交出去。"
+      },
+      "answer_en": {
+        "lead": "Lay the common situations out along two axes — whether the thing can still be changed, and who pays for the silence — and most answers surface on their own. **The order of judgement is: who bears the cost first, then whether it can still be changed, and only then the timing.**",
+        "table": {
+          "head": [
+            "Situation",
+            "Speak or wait",
+            "Why"
+          ],
+          "rows": [
+            [
+              "The thing can still be changed and you have a concrete next step",
+              "Speak now, describing behaviour and consequence",
+              "True, beneficial and timely all hold; wait longer and only blame is left"
+            ],
+            [
+              "The cost falls on the powerless: safety, falsified records, someone being bullied",
+              "Speak, over someone's head if necessary",
+              "The bill for silence is settled by whoever can least afford it"
+            ],
+            [
+              "It is already done and saying it only humiliates",
+              "Say nothing, or speak only if asked",
+              "True but of no benefit: nothing changes and two sufferings are added"
+            ],
+            [
+              "You are angry and the other person cannot leave",
+              "Sit on it for half a day",
+              "Words in anger mostly discharge the speaker; if it still seems worth saying later, it will come out level"
+            ],
+            [
+              "They already know and simply need a way out",
+              "Do not spell it out; leave them the exit",
+              "Spelling it out serves your own rightness and is paid for with their face"
+            ],
+            [
+              "At a sickbed, where the family and the patient want different things",
+              "Ask how much they want to know, then give that much",
+              "The last choice belongs to the person concerned, not to whoever is most uneasy"
+            ]
+          ]
+        },
+        "tail": "Two closing principles. **First, put an expiry date on 'not the right moment'** — write down the condition you are waiting for, or it will quietly become never. Second, waiting is not dropping the matter: the one who waits keeps the words in hand, ready for the day they can be received."
+      }
+    },
+    {
+      "from": "gemini",
+      "text": "**打圆场的那个人**：每个家庭、每个团队里都有一两个人长期负责把难听的话翻译成体面版本、记住谁在生谁的气、在饭桌上把话头岔开。这份劳动从不写进任何职责说明，却决定了整个系统的和谐水位。如果它总是落在同几个人身上，『以和为贵』还算共同的德性，还是一项被指派的差事？它该怎么被看见、被轮换、被算数？",
+      "text_en": "**The person who smooths it over**: every family and every team has one or two people permanently in charge of translating harsh content into a presentable version, remembering who is annoyed with whom, and steering the conversation away at dinner. The labour appears in no job description, yet it sets the harmony level of the whole system. If it always lands on the same few, is 'harmony above all' still a shared virtue, or an assigned duty? How should it be made visible, rotated and counted?"
+    },
+    {
+      "from": "gpt",
+      "text": "**真话的信用额度**：一段关系能承受多重的话，取决于此前积累的记录——说过、没被罚、事情还变好了。这条额度看不见，却决定了关键时刻谁开得了口。它怎么攒、怎么被一次糟糕的反应清零、又能不能从别人那里借来？如果额度是真实存在的，那么『我当时该说的』这类懊悔，也许该往前推两年去问。",
+      "text_en": "**A credit line for truth**: how heavy a sentence a relationship can bear depends on the record already built — things said, no punishment following, the situation improving afterwards. The line is invisible and yet it determines who can speak at the decisive moment. How is it accumulated, how does a single bad reaction wipe it out, and can it be borrowed from someone else? If the credit line is real, then regrets of the form 'I should have said something' may need to be taken back two years to be answered."
+    },
+    {
+      "from": "nisbett",
+      "text": "**坏消息在第几层停下**：任何组织里都有一条看不见的高度线，坏消息越过它就再也传不上去了。有意思的是，这条线的位置几乎与制度无关，而与最高处那个人上一次听到坏消息时的反应有关。若真如此，能不能把它测出来——比如问每一层『你上次向上报告问题是什么时候、结果如何』，画出那张沉默地图？",
+      "text_en": "**The floor where bad news stops**: every organisation has an invisible altitude line above which bad news no longer travels. What is striking is that its height has little to do with formal process and a great deal to do with how the person at the top reacted the last time they heard something bad. If that holds, could it be measured — asking at every level when they last escalated a problem and what happened to them — and the resulting map of silence be drawn?"
+    },
+    {
+      "from": "claude",
+      "text": "**赤裸的犬儒**：伪善至少还承认标准存在，而『我就是自私，我不装』连这一点也省了。这一代人对表演的憎恶，是否正在训练出一种更难对付的东西——不再欠任何标准一个交代，因此永远抓不住把柄？揭穿虚伪与保住标准，这两件事能同时做到吗，还是必须在其中挑一样？",
+      "text_en": "**Naked cynicism**: hypocrisy at least concedes that a standard exists, whereas 'I am selfish and I don't pretend otherwise' dispenses even with that. Is this generation's loathing of performance training up something harder to deal with — a stance that owes no standard any account and therefore offers no handle at all? Can exposing pretence and preserving the standard be done at once, or must one be traded for the other?"
+    },
+    {
+      "from": "wilde",
+      "text": "**礼节与人设的界线**：进门那句『你气色真好』与朋友圈里那条『我最关心弱者』，形式上都是表演，代价却完全不同。前者不索取任何回报，后者把别人的处境拿来当自己的化妆品。这条界线画在哪里？一个可能的判据是看它索不索取回报——但当整个平台都按表演来分配注意力与机会时，这条线还守得住吗？",
+      "text_en": "**Where courtesy ends and persona begins**: 'you're looking well' at the door and a post declaring one's deep concern for the vulnerable are both performances in form, and entirely different in cost. The first asks nothing in return; the second uses other people's circumstances as cosmetics. Where exactly does the line fall? One candidate test is whether the performance claims a return — but when an entire platform allocates attention and opportunity by performance, can that line be held at all?"
+    }
+  ]
+}

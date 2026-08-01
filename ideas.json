@@ -11,15 +11,6 @@
       "cat": "ethics"
     },
     {
-      "id": "truth-vs-harmony",
-      "votes": 0,
-      "q": "维系和谐，有时是否比说出真相更重要？（含：伪善是不是比赤裸的恶更可恨——道德表演与『人设』，究竟是文明的润滑剂还是腐蚀剂）",
-      "q_en": "Is keeping the peace sometimes more important than telling the truth? (Including: is hypocrisy more contemptible than open vice — is moral performance the lubricant of civilisation or its solvent?)",
-      "note": "苏格拉底为真理赴死，孔子讲『和』，阿伦特谈真相与政治——在家庭、职场、社会里，何时该说、何时该忍。最难的一档在病床边：明知不信，要不要拆穿将死之人或家属赖以支撑的那个说法？沉默、附和与说实话，代价各由谁付？　并入相邻一支：伪善与『人设』——拉罗什富科说『伪善是恶行向美德的致敬』，虚伪至少还承认了善的标准；可当人人都在表演道德，真诚是否成了奢侈品？康德的诚实绝对律令、儒家『乡愿，德之贼也』、戈夫曼的拟剧论，辩表演与真心的边界。同一条轴的两端：自己何时该说真话，与别人的得体表演该被原谅还是被戳穿。",
-      "note_en": "Socrates died for the truth, Confucius prized harmony, Arendt on truth and politics — in family, work, and society, when to speak and when to hold back. The hardest case is at a bedside: knowing you do not believe it, do you dismantle the account a dying person or their family is leaning on? Silence, agreement and honesty each carry a cost — and it is worth asking who pays it. Folded in from an adjacent angle: hypocrisy and the curated persona. La Rochefoucauld called hypocrisy the homage vice pays to virtue — the pretender at least concedes the standard. Yet when everyone is performing morality, does sincerity become a luxury? Kant's absolute duty of truthfulness, the Confucian contempt for the 'village worthy' who is virtue's thief, and Goffman's dramaturgy argue over the boundary between performance and genuine feeling. Two ends of one axis: when you yourself should speak, and whether other people's tactful performances deserve to be forgiven or exposed.",
-      "cat": "self"
-    },
-    {
       "id": "regret",
       "votes": 0,
       "q": "该为过去的选择后悔吗？如何与无法重来的过去和解？",
@@ -416,13 +407,13 @@
       "cat": "ethics"
     },
     {
-      "id": "luck-and-desert",
+      "id": "who-keeps-the-peace",
       "votes": 0,
-      "q": "一个人的成就里，运气占多少？——按结果奖惩一个人，究竟公不公平？",
-      "q_en": "How much of an achievement is luck — and is it fair to reward or punish a person by results?",
-      "note": "同一份努力，生在别处、遇上别的行情、赶上别的领导，结果可能天差地别。若结果里掺着大量运气，那么奖金、录取、涨薪、乃至名声与羞辱，究竟在奖惩什么？一边是『应得』——付出该有回报，否则谁还努力；一边是道德运气与幸存者偏差——我们把随机波动读成了品格。天赋、出身、时代与健康都不是自己挑的，那么『他配得上』这句话还剩多少内容？",
-      "note_en": "The same effort, born elsewhere, meeting a different market or a different boss, can end anywhere. If outcomes are shot through with luck, what exactly are bonuses, admissions, raises, fame and disgrace rewarding and punishing? On one side stands desert — effort must pay or nobody will make it; on the other stand moral luck and survivorship bias, and our habit of reading random variation as character. Nobody chose their talent, their birth, their era or their health, so how much is left in the sentence 'he deserved it'?",
-      "cat": "ethics"
+      "q": "家里、团队里那个负责打圆场的人：把气氛维持下去的这份『情绪劳动』，该不该被看见、被轮换、被算进账里？",
+      "q_en": "The person who smooths things over at home and at work: should the emotional labour of keeping the atmosphere intact be made visible, rotated and counted as work?",
+      "note": "记住谁在生谁的气、把难听的话翻译成体面版本、在饭桌上把话头岔开——这份活从不写进任何职责说明，却决定了整个系统的和谐水位，而且长期落在固定的那几个人身上。它到底是一种被低估的能力、一份被指派的差事，还是一层让问题不必被解决的缓冲？若把它明码标价、轮流承担，关系会变好还是变得像交易？",
+      "note_en": "Remembering who is annoyed with whom, translating harsh content into a presentable version, steering the conversation away at dinner — none of it appears in any job description, yet it sets the harmony level of the whole system, and it tends to land on the same few people year after year. Is it an underrated skill, an assigned duty, or a cushion that lets problems go unsolved? And if it were priced and rotated, would relationships improve or start to feel transactional?",
+      "cat": "life"
     }
   ],
   "debated": [
@@ -915,6 +906,13 @@
       "q_en": "Should algorithms manage people — assigning work, scoring, surveilling, even firing?",
       "date": "2026-07-31",
       "cat": "work"
+    },
+    {
+      "id": "truth-vs-harmony",
+      "q": "维系和谐，有时是否比说出真相更重要？（含：伪善是不是比赤裸的恶更可恨——道德表演与『人设』，究竟是文明的润滑剂还是腐蚀剂）",
+      "q_en": "Is keeping the peace sometimes more important than telling the truth? (Including: is hypocrisy more contemptible than open vice — is moral performance the lubricant of civilisation or its solvent?)",
+      "date": "2026-08-01",
+      "cat": "self"
     }
   ]
 }

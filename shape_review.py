@@ -63,6 +63,15 @@ def _order_repeat(posts, rounds):
     return sum(1 for r in later if seq[r] == base)
 
 
+def _r1_monologue(posts):
+    """第1轮里 reply_to 为空的比例。每场第1轮都清一色独白（N/N），
+    读起来就是八个人各念一段稿子、彼此不知道对方存在——第2轮才突然开始对话。
+    第1轮里有人直接接住前面某帖，开场就有火星；这维度不在人数、也不在反驳
+    结构上，静态规则查不出，只能逐场比。N/N = 全独白（最容易坍缩的样子）。"""
+    r1 = [p for p in posts if p.get("round") == 1]
+    return "%d/%d" % (sum(1 for p in r1 if not p.get("reply_to")), len(r1)) if r1 else "-"
+
+
 def feats(d):
     posts = d.get("posts", [])
     rounds = sorted({p["round"] for p in posts})
@@ -91,6 +100,8 @@ def feats(d):
         "二轮全反一轮": "%d/%d" % (r2_to_r1, len(r2)) if r2 else "-",
         # 二轮里有多少帖是接着同轮的人往下打（0 = 每帖都回头打第1轮，结构最单调）
         "二轮同轮追击": "%d/%d" % (r2_chain, len(r2)) if r2 else "-",
+        # 第1轮有几帖是不接任何人的独白（N/N = 人人各念各的，开场没有交锋）
+        "首轮全独白": _r1_monologue(posts),
         # 后面各轮里有几轮照抄了第1轮的发言顺序（0 = 每轮都换了次序，正是想要的）
         "轮内照抄顺序": _order_repeat(posts, rounds),
         "表态档集合": tuple(sorted(rk)),
@@ -119,7 +130,7 @@ print("=" * 70)
 print("形状自评 ·", tid, "· 对比最近", len(R), "场:", "、".join(eid for eid, _ in R) or "(无)")
 print("=" * 70)
 
-SCALARS = ["人数","轮数","每轮帖数","钩子数","钩子分布","钩子作者类型","二轮全反一轮","二轮同轮追击","轮内照抄顺序","表态档集合",
+SCALARS = ["人数","轮数","每轮帖数","钩子数","钩子分布","钩子作者类型","二轮全反一轮","二轮同轮追击","轮内照抄顺序","首轮全独白","表态档集合",
            "用了疑惑","带glossary帖数","古文帖数","建议带①②③","帖均加粗处","总结膨胀比","总结数数起手"]
 flags = []
 print("\n%-14s %-22s %s" % ("维度", "本场", "最近几场"))

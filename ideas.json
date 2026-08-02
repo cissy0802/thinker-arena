@@ -20,15 +20,6 @@
       "cat": "self"
     },
     {
-      "id": "legitimacy-of-power",
-      "votes": 0,
-      "q": "国家的权力从何而来、有无正当的边界？",
-      "q_en": "Where does the state's power come from, and does it have legitimate limits?",
-      "note": "社会契约、天命、还是法家的强力？权力的来源与边界，是政治哲学最古老的争点。",
-      "note_en": "Social contract, the Mandate of Heaven, or Legalist force? The source and limits of legitimate power are political philosophy's oldest quarrel.",
-      "cat": "ethics"
-    },
-    {
       "id": "moral-limits-of-markets",
       "votes": 0,
       "q": "有什么是金钱不该买卖的？市场该有边界吗？",
@@ -81,15 +72,6 @@
       "note": "挺闲的：亚里士多德（σχολή『闲暇』是沉思与文化之基，希腊语『学校』即源于它）、罗素《悠闲颂》、庄子（无用之用）、老子；反方：韦伯《新教伦理与资本主义精神》把勤勉神圣化、富兰克林式『时间就是金钱』，以及『这不过是给懒惰找的漂亮借口』的诘问。关键判据：闲之所以是涵养（留白、酝酿、深度需要休耕），与懒之所以是逃避（就是不想启动），到底靠什么区分？接 procrastination 一场苏轼（把每刻填满是不是另一种病）、GPT（无聊是洞见的孵化器）与纽波特（深活靠节奏不靠肾上腺素）的钩子。",
       "note_en": "For idleness: Aristotle (σχολή, 'leisure,' is the ground of contemplation and culture — the Greek word for 'school' derives from it), Russell's In Praise of Idleness, Zhuangzi (the use of the useless), Laozi; against: Weber's Protestant Ethic and the Spirit of Capitalism sanctifying industry, Franklin's 'time is money,' and the charge that this is merely a pretty excuse for sloth. The crux is a criterion: what distinguishes idleness-as-cultivation (fallow ground, incubation, depth needs rest) from sloth-as-avoidance (you just won't start)? It picks up the procrastination debate's hooks — Su Shi (is filling every moment another kind of sickness?), GPT (boredom as the incubator of insight) and Newport (deep work runs on rhythm, not adrenaline).",
       "cat": "self"
-    },
-    {
-      "id": "dark-forest",
-      "votes": 0,
-      "q": "宇宙真的是「黑暗森林」吗？文明之间注定你死我活，还是可能合作？",
-      "q_en": "Is the universe really a 'dark forest'? Are civilizations doomed to mutual annihilation, or can they cooperate?",
-      "note": "刘慈欣用『带枪的猎人、先开枪才能活』来解费米悖论（宇宙这么大，外星人都去哪了）。可这是宇宙的铁律，还是把人类的猜疑与博弈论投射上了星空？合作、沉默，还是先发制人？",
-      "note_en": "Liu Cixin answers the Fermi paradox (where is everybody?) by casting every civilization as an armed hunter who must shoot first to survive. But is this a cosmic law, or our own suspicion and game theory projected onto the stars? Cooperation, silence, or the first strike?",
-      "cat": "meta"
     },
     {
       "id": "multiverse",
@@ -247,10 +229,10 @@
     {
       "id": "health-vs-liberty",
       "votes": 0,
-      "q": "为了公共健康，国家能限制个人自由到什么程度？（强制疫苗、封控、糖税、禁烟；同一把尺该不该量向广告、无限下拉、成瘾式设计这类制造欲望与注意力的产业）",
-      "q_en": "For the sake of public health, how far may the state limit individual freedom (mandatory vaccines, lockdowns, sugar taxes, smoking bans)?",
-      "note": "2020 年代最撕裂的真问题：密尔的『伤害原则』止于何处？福柯的『生命权力』——现代国家正是靠管理『人口的健康』来行使治理，对上伯林的消极自由、洛克的个人权利，与功利主义/公共卫生的集体福祉正面交锋。个人自主 vs 集体安全，边界到底划在哪。同一把尺该不该量向制造欲望与注意力的产业：广告、无限下拉、成瘾式设计——如果糖税与禁烟成立，凭什么不管它们？还是说管制欲望本身就越界了？",
-      "note_en": "The most divisive real question of the 2020s: where does Mill's 'harm principle' stop? Foucault's 'biopower' — the modern state governs precisely by managing 'the health of the population' — meets Berlin's negative liberty and Locke's individual rights, colliding head-on with the utilitarian/public-health case for collective welfare. Personal autonomy vs collective safety: where exactly is the line? The same yardstick can be turned on the industries that manufacture desire and harvest attention — advertising, infinite scroll, addictive design. If sugar taxes and smoking bans are legitimate, why not these? Or is regulating desire itself a step too far?",
+      "q": "为了公共健康，国家能限制个人自由到什么程度？（强制疫苗、封控、糖税、禁烟；同一把尺该不该量向广告、无限下拉、成瘾式设计这类制造欲望与注意力的产业；也含更根本的一问：国家的这份权力从何而来、有没有正当的边界）",
+      "q_en": "For the sake of public health, how far may the state limit individual freedom (mandatory vaccines, lockdowns, sugar taxes, smoking bans) — and where does that power come from in the first place?",
+      "note": "2020 年代最撕裂的真问题：密尔的『伤害原则』止于何处？福柯的『生命权力』——现代国家正是靠管理『人口的健康』来行使治理，对上伯林的消极自由、洛克的个人权利，与功利主义/公共卫生的集体福祉正面交锋。个人自主 vs 集体安全，边界到底划在哪。同一把尺该不该量向制造欲望与注意力的产业：广告、无限下拉、成瘾式设计——如果糖税与禁烟成立，凭什么不管它们？还是说管制欲望本身就越界了？　更根本的一层：这份权力究竟从何而来——社会契约、天命，还是法家式的强力？来源与边界是政治哲学最古老的争点，也决定了上面每一条禁令该由谁点头。",
+      "note_en": "The most divisive real question of the 2020s: where does Mill's 'harm principle' stop? Foucault's 'biopower' — the modern state governs precisely by managing 'the health of the population' — meets Berlin's negative liberty and Locke's individual rights, colliding head-on with the utilitarian/public-health case for collective welfare. Personal autonomy vs collective safety: where exactly is the line? The same yardstick can be turned on the industries that manufacture desire and harvest attention — advertising, infinite scroll, addictive design. If sugar taxes and smoking bans are legitimate, why not these? Or is regulating desire itself a step too far? A deeper layer: where does that power come from at all — a social contract, the Mandate of Heaven, or Legalist force? Source and limit are political philosophy's oldest quarrel, and they decide who is entitled to sign off on any of the prohibitions above.",
       "cat": "ethics"
     },
     {
@@ -258,8 +240,8 @@
       "votes": 0,
       "q": "忠诚该不该被考验？——一段只有在不被验证时才成立的信任，算不算真的信任？",
       "q_en": "Should loyalty be tested — and is a trust that holds only while unverified really trust at all?",
-      "note": "有人设局（雇假第三者）去测忠诚，得出『人性经不起考验』；但设局是选择偏差＋优化过的对抗攻击＋钓鱼制造机会，测不到真东西。更根本的是：暗中考验已把信任换成了监控，而且『以欺骗求诚实』自相矛盾——你先做了你最怕对方做的事。康德（把人当工具、欺骗的悖论）、亚里士多德（一次设局测不出稳定德性）、博弈论（信任是一种代价高昂的信号）、儒家的『诚』与『信』正面交锋。",
-      "note_en": "Some set a trap (hiring a fake third party) to test loyalty and conclude 'human nature can't withstand testing'; but the trap is selection bias plus an optimized adversarial attack plus entrapment that manufactures the opportunity — it can't measure the real thing. More fundamentally: covert testing has already swapped trust for surveillance, and 'seeking honesty through deception' is self-contradictory — you've done the very thing you feared. Kant (treating people as means; the paradox of deception), Aristotle (one staged trap can't reveal settled virtue), game theory (trust as a costly signal), and the Confucian 'sincerity' and 'trust' meet head-on.",
+      "note": "有人设局（雇假第三者）去测忠诚，得出『人性经不起考验』；但设局是选择偏差＋优化过的对抗攻击＋钓鱼制造机会，测不到真东西。更根本的是：暗中考验已把信任换成了监控，而且『以欺骗求诚实』自相矛盾——你先做了你最怕对方做的事。康德（把人当工具、欺骗的悖论）、亚里士多德（一次设局测不出稳定德性）、博弈论（信任是一种代价高昂的信号）、儒家的『诚』与『信』正面交锋。　相邻的一问：何时该先示信、何时该先设防？判据也许不在对方是不是好人，而在这段关系还会不会重复、这一步收不收得回——先看可逆性，再看重复性，最后才轮到对方是谁。",
+      "note_en": "Some set a trap (hiring a fake third party) to test loyalty and conclude 'human nature can't withstand testing'; but the trap is selection bias plus an optimized adversarial attack plus entrapment that manufactures the opportunity — it can't measure the real thing. More fundamentally: covert testing has already swapped trust for surveillance, and 'seeking honesty through deception' is self-contradictory — you've done the very thing you feared. Kant (treating people as means; the paradox of deception), Aristotle (one staged trap can't reveal settled virtue), game theory (trust as a costly signal), and the Confucian 'sincerity' and 'trust' meet head-on. An adjacent question: when should you extend credit first, and when cover yourself first? The test may not be whether the other person is good but whether the relationship repeats and whether the step can be taken back — reversibility first, repetition second, who they are only after that.",
       "cat": "life"
     },
     {
@@ -303,8 +285,8 @@
       "votes": 0,
       "q": "当权力把『裁员』改叫『优化』，我们还能守住自己的判断吗？——委婉语、行话与口号如何不禁止你开口就替你预设结论。",
       "q_en": "When power renames 'layoffs' as 'optimization,' can we still hold on to our own judgment?",
-      "note": "委婉语、行话与政治口号如何在不禁止你开口的情况下替你预设结论；乔姆斯基的『制造同意』，普通人识破话术、还原朴素事实的自保之道。　也含法律/金融/学术『黑话』——是必要的精确，还是把人挡在门外的墙？清晰表达是不是一种被低估的正义（鲁迅白话之问）。",
-      "note_en": "How euphemism, jargon and slogans preset your conclusions without ever forbidding you to speak; Chomsky's 'manufacturing consent,' and how an ordinary person sees through the spin and restores the plain fact. It also covers legal/financial/academic jargon — necessary precision, or a wall that keeps people out? Is plain speech an underrated form of justice (Lu Xun's vernacular question)?",
+      "note": "委婉语、行话与政治口号如何在不禁止你开口的情况下替你预设结论；乔姆斯基的『制造同意』，普通人识破话术、还原朴素事实的自保之道。　也含法律/金融/学术『黑话』——是必要的精确，还是把人挡在门外的墙？清晰表达是不是一种被低估的正义（鲁迅白话之问）。　同一种操作的另一面：把一个选择重述成『规律』——宇宙法则、优胜劣汰、人性本贪、市场自会决定——责任就从选择者身上转移给了世界。检验的办法或许是看引用之后紧接着要做的那个动作。",
+      "note_en": "How euphemism, jargon and slogans preset your conclusions without ever forbidding you to speak; Chomsky's 'manufacturing consent,' and how an ordinary person sees through the spin and restores the plain fact. It also covers legal/financial/academic jargon — necessary precision, or a wall that keeps people out? Is plain speech an underrated form of justice (Lu Xun's vernacular question)? The same manoeuvre has another face: restate a choice as a 'law' — of the cosmos, of survival of the fittest, of human greed, of the market — and responsibility passes from the chooser to the world. The test may be to watch the action that follows immediately after the citation.",
       "cat": "ethics"
     },
     {
@@ -402,8 +384,8 @@
       "votes": 0,
       "q": "该不该给地球动手术？——人工降温、复活灭绝物种、重造生态：当自然早已被我们改过一遍，『不干预』还算得上一个选项吗？",
       "q_en": "Should we operate on the planet? — solar geoengineering, de-extinction, rebuilt ecosystems: once nature has already been altered by us, is 'not intervening' still an option?",
-      "note": "不是问我们欠自然什么，而是问我们该不该主动动手：往高空撒气溶胶给地球降温、用基因技术把猛犸或旅鸽带回来、把整片湿地按图纸重造。支持者说保持原样早已不可能，反对者说这是把整个星球当实验台、且一旦开始就不能停。也含一个更难的问题：如果『原始的自然』本身是个想象，我们究竟在恢复什么。",
-      "note_en": "Not what we owe nature, but whether we should reach in and act: spraying aerosols to cool the planet, using genetic technology to bring back the mammoth or the passenger pigeon, rebuilding an entire wetland to a blueprint. Advocates say leaving things as they are stopped being possible long ago; opponents say this treats the whole planet as a bench, and that once begun it cannot be stopped. It also contains a harder question: if 'pristine nature' is itself an imagined thing, what exactly are we restoring?",
+      "note": "不是问我们欠自然什么，而是问我们该不该主动动手：往高空撒气溶胶给地球降温、用基因技术把猛犸或旅鸽带回来、把整片湿地按图纸重造。支持者说保持原样早已不可能，反对者说这是把整个星球当实验台、且一旦开始就不能停。也含一个更难的问题：如果『原始的自然』本身是个想象，我们究竟在恢复什么。　并含一层代表权的问题：给地球降温、复活物种、乃至向星际发出信号，都属于『任何人都能做、后果所有人承担、且撤不回来』的动作——除了呼吁自律，有没有可执行的程序：公开登记、多方审议、可逆试探优先？",
+      "note_en": "Not what we owe nature, but whether we should reach in and act: spraying aerosols to cool the planet, using genetic technology to bring back the mammoth or the passenger pigeon, rebuilding an entire wetland to a blueprint. Advocates say leaving things as they are stopped being possible long ago; opponents say this treats the whole planet as a bench, and that once begun it cannot be stopped. It also contains a harder question: if 'pristine nature' is itself an imagined thing, what exactly are we restoring? It also carries a question of standing: cooling the planet, de-extincting a species, even beaming a signal at the stars all belong to the class of acts anyone can perform, everyone bears, and nobody can recall. Beyond appeals to restraint, is there any enforceable procedure — public registration, multi-party review, reversible probes first?",
       "cat": "ethics"
     },
     {
@@ -913,6 +895,13 @@
       "q_en": "Is keeping the peace sometimes more important than telling the truth? (Including: is hypocrisy more contemptible than open vice — is moral performance the lubricant of civilisation or its solvent?)",
       "date": "2026-08-01",
       "cat": "self"
+    },
+    {
+      "id": "dark-forest",
+      "q": "宇宙真的是「黑暗森林」吗？文明之间注定你死我活，还是可能合作？",
+      "q_en": "Is the universe really a 'dark forest'? Are civilizations doomed to mutual annihilation, or can they cooperate?",
+      "date": "2026-08-02",
+      "cat": "meta"
     }
   ]
 }

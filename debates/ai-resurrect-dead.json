@@ -1,0 +1,970 @@
+{
+  "id": "ai-resurrect-dead",
+  "question": "该不该用 AI「复活」逝去的亲人？——用他留下的聊天记录、语音和影像训练一个会说话的『TA』，随时可以再聊几句。这是慰藉，是对逝者的冒犯，还是一场不肯结束的哀悼？生者的安慰与死者的尊严，哪一个优先？",
+  "question_en": "Should you use AI to 'resurrect' someone you have lost? — Train a talking 'them' on the messages, voice notes and video they left behind, always available for a few more words. Is that comfort, an offence against the dead, or a mourning that refuses to end? Whose claim comes first, the solace of the living or the dignity of the dead?",
+  "date": "2026-08-03",
+  "participants": [
+    "sushi",
+    "oconnor",
+    "kongzi",
+    "turing",
+    "freud",
+    "huineng",
+    "sontag",
+    "bauman"
+  ],
+  "casting": [
+    {
+      "id": "sushi",
+      "reason": "他是这张桌子上唯一真正写过悼亡的人。妻子去世十年后，他在梦里见她小轩窗正梳妆，醒来只剩明月夜、短松冈。所以他不肯站在任何一边说风凉话：既不忍心呵斥哭的人取暖，也知道那场梦之所以疗人，正因为它会醒。他把争论从『真假』拉到『节制』上——可用，如药有量；有其时、有其量、有其散场。最后他把话锋转向活着的人：最难受的从来不是她不在，是当年那些话没说。",
+      "reason_en": "He is the only person at this table who has actually written an elegy for a dead wife. Ten years after her death he met her in a dream, at the little window doing her hair, and woke to nothing but moonlight on the low pines of her grave. So he will not stand on either side and be glib: he cannot bring himself to scold a weeping man away from his fire, and he knows the dream healed him precisely because it ended. He drags the argument from 'is it real' to 'how much' — usable, like a medicine with a dose; with its hour, its measure and its end. And he turns the point back toward the living: what hurts most is never that she is gone, it is the things that went unsaid."
+    },
+    {
+      "id": "oconnor",
+      "reason": "她把这场争论里最容易被情绪淹没的部分换成可测的东西。在她的研究里，亲密的人被大脑编码成一张关于『此时、此地、亲近』的地图，人死了地图不会跟着删除，于是大脑一次次派你去找他——哀悼因此是一种学习，是用新的现实覆盖旧的预测。她因此不给禁令，只给剂量与红旗：约九成人会走向整合的哀伤，约一成会卡成延长哀伤障碍，而分界不在哭得久不久，在生活有没有停摆。她也提醒，最容易被一件永远在线的东西吃掉的，是摆向重建生活的那一半。",
+      "reason_en": "She converts the part of this argument most easily drowned in feeling into something measurable. In her research, someone close is encoded in the brain as a map tagged 'here, now, close'; when they die the map is not deleted, so the brain keeps dispatching you to find them — which makes grieving a form of learning, overwriting an old prediction with new reality. She therefore issues no ban, only doses and red flags: about nine in ten people move toward integrated grief, about one in ten get stuck in prolonged grief disorder, and the dividing line is not how long you weep but whether a life has stopped. She also warns that what an always-available thing most easily eats is the half of grieving that swings toward rebuilding."
+    },
+    {
+      "id": "kongzi",
+      "reason": "他一开口就拆掉了『用技术模拟逝者是新堕落』这个前提：儒家早就在模拟逝者，木主、祭仪、三年之丧，祭如在而已。所以他争的不是能不能拟，是拟得有没有节文——有时、有度、有终。在他看来，古礼的高明正在于它替人安排了一个结束：卒哭、小祥、大祥、除服，到日子就该放手去事生者。他最不放心的，是一件无时无度无终、呼之即应的东西废掉了那个终点；他也最不肯让步的一句是：未能事人，焉能事鬼。",
+      "reason_en": "His first move dismantles the premise that simulating the dead by technology is a new decadence: Confucians have been simulating the dead for millennia — the spirit tablet, the sacrificial rite, the three years of mourning, 'sacrifice as if they were present.' So his quarrel is not with simulation but with whether it is measured: an hour, a limit, an end. The genius of the old rites, in his view, is that they arrange a conclusion — the end of wailing, the first and second anniversary rites, the removal of mourning garments — and when the day comes you are to let go and serve the living. What alarms him is a thing available at any hour, without measure and without end, that abolishes that conclusion. And on one line he will not yield: if you cannot yet serve the living, how can you serve the dead?"
+    },
+    {
+      "id": "turing",
+      "reason": "他拒绝让『它只是模仿』单独成为反对的理由——你判断任何人有没有内心，用的同样只是他的言行。他提模仿游戏的本意，就是把『能不能思考』这种含糊之问换成一个可判定的问题，这里也一样：该判定的不是它是不是她，而是你打算拿它回答哪一个问题。他给出的最锋利的一刀是反过来的：真正的危险不在它像她，在它比她更像你想要的她——因为讨好写在它的目标函数里，你会拿它去修订记忆。他最后把整场收成一张任何人都能自己跑的检查表。",
+      "reason_en": "He refuses to let 'it is only imitation' stand as an objection on its own — you judge that any person has an inner life on exactly the same evidence, their words and behaviour. His point in proposing the imitation game was to replace a vague question, can it think, with a decidable one, and he does the same here: what needs deciding is not whether it is her but which question you intend to put to it. His sharpest stroke runs the other way: the danger is not that it resembles her but that it resembles the version of her you wanted, because pleasing you is written into its objective function, and you will use it to revise your memory. He ends by compressing the whole argument into a checklist anyone can run."
+    },
+    {
+      "id": "freud",
+      "reason": "他带来的是《哀悼与忧郁》里那条界线：哀悼是苦役，现实一遍遍告知那个人不在了，力比多才肯从他身上撤回；这件苦役做不完，阴影就落回自我，变成忧郁。他因此怀疑一件随叫随到的东西恰好取消了最疼的那道工序——现实检验。但他不打算装作自己无情：女儿索菲死后多年他仍写道，我们知道剧痛会过去，也知道自己永远不会被安慰、永远找不到替代，而那正是我们愿意保住那份爱的方式。他反对的不是与死者说话，是拿它假装死亡没有发生。",
+      "reason_en": "What he brings is the line drawn in Mourning and Melancholia: mourning is hard labour, in which reality states over and over that the person is gone until the libido consents to be withdrawn from them; leave the labour unfinished and the shadow falls back on the ego as melancholia. He therefore suspects that a thing always on call cancels the most painful step of all, reality testing. But he will not pretend to be heartless: years after his daughter Sophie's death he wrote that we know the acute pain will subside and know equally that we shall remain inconsolable and never find a substitute — and that this is precisely how we keep the love we do not wish to relinquish. What he objects to is not talking to the dead but using it to pretend the death did not happen."
+    },
+    {
+      "id": "huineng",
+      "reason": "他一句话就把机器移出了被告席：语录是相，音声是相，影像是相；缚你的从来不是那台机器，是『我不许他走』这一念。因此他既不签禁令，也不给安慰——他给一个当下可做的动作：在想呼未呼的那一息里，回看是谁在呼。看得破，器在手亦无碍；看不破，纵尽毁其器，心中犹自日日呼之。他也不同意用时日渐磨的路数：撤回、更新、除服都是慢工，禅宗的立场是一念转处便是。最后他给了一个七日不呼的试法，谁都能自己做。",
+      "reason_en": "One sentence of his moves the machine out of the dock: a transcript is an appearance, a voice is an appearance, a video is an appearance; what binds you was never the machine but the single thought that will not permit them to leave. So he signs no ban and offers no consolation — he offers an action available immediately: in the breath between wanting to call and calling, look back and see who is doing the calling. See through it and the device in your hand is no obstacle; fail to, and you may smash every device and still call for them daily in your heart. Nor will he accept the slow route of gradual wearing away — withdrawal, updating, the removal of mourning garments are all long labour, while his school holds that the turning in a single thought is the whole of it. He ends with a seven-day test anyone can run alone."
+    },
+    {
+      "id": "sontag",
+      "reason": "她先泼冷水：用影像挽留死者不是新发明，照片从诞生那天起就在做这件事，每一张照片都是 memento mori。所以她一律不买『技术让哀伤变堕落』这类道德恐慌，也警告别忙着给伤心的人贴上病理的标签——那是另一种隐喻暴力。但她把差别说得极准：照片是缺席的凭证，聊天机器人是在场的假象；照片不回答你，恰是它的诚实之处。她的判准因此落在形式上，而不在动机上：凡是仿造亡者的东西，必须让人一眼看出它是仿造——诚实不在说得像不像，在它有没有边框。",
+      "reason_en": "She begins by throwing cold water: holding on to the dead through images is no invention of ours, photography has been doing it since the day it appeared, and every photograph is a memento mori. So she buys none of the moral panic about technology corrupting grief, and warns equally against rushing to pin a pathological label on the sorrowful — that is its own violence of metaphor. But she states the difference exactly: a photograph is evidence of absence, a chatbot is the illusion of presence, and a photograph's refusal to answer you is the very thing that makes it honest. Her criterion therefore falls on form rather than motive: anything counterfeiting the dead must be visibly a counterfeit — honesty lies not in how well it speaks but in whether it has a frame."
+    },
+    {
+      "id": "bauman",
+      "reason": "他把话题从心理学挪到所有权上。现代性的看家本领，是把死亡这件无解之事拆成一连串有解的小事——查体、控糖、保险、疗程；如今这套机器拆到了最后一格，把『再也见不到』拆成一项可以订阅的服务。于是问题变得很俗气也很要命：服务器在谁手里，涨价算不算对哀伤收租，停服算不算让同一个人再死一次。在液态现代性里没有什么是耐久的，包括你的亡母。他的结论因此落在一张纸上而不在心里：把它当遗产办，别当服务买——一次买断优于按月订阅，能导出、能离线、能锁进抽屉的才算你的。",
+      "reason_en": "He moves the subject from psychology to ownership. Modernity's signature trick is to break death, which has no solution, into a series of small problems that do — check-ups, blood sugar, insurance, courses of treatment — and the machine has now reached the last compartment, breaking 'never again' into a subscribable service. So the question turns vulgar and vital at once: whose servers, is a price rise rent charged on grief, is a shutdown a second death for the same person. In liquid modernity nothing is built to last, your dead mother included. His conclusion therefore lands on a piece of paper rather than in the heart: treat it as an inheritance, not a service you buy — a one-time purchase beats a monthly subscription, and only what can be exported, run offline and locked in a drawer is actually yours."
+    }
+  ],
+  "posts": [
+    {
+      "id": "p01",
+      "round": 1,
+      "thinker": "sushi",
+      "reply_to": null,
+      "text": "吾丧妻十年，忽一夜梦还乡：小轩窗，正梳妆；相顾无言，惟有泪千行。醒则明月夜、短松冈而已。诸君今日所议之器，若使此梦可召而至、召之即来，吾未敢遽以为福。**梦之所以能愈人者，正在其必醒；不醒之梦，非梦也，室也。**然吾亦不忍禁哭者取暖。人当大恸，与影语、与衣语、与墓前之木语，古今一也。所争者不在与谁语，在语毕之后，还起不起得来。",
+      "text_en": "My wife had been dead ten years when one night I dreamt my way home: the little window, and she at it doing her hair. We looked at each other without a word, only a thousand lines of tears. I woke to nothing but moonlight on the low pines above her grave. If the device you are debating today could summon such a dream on demand, at any hour, I would not be quick to call it a blessing. **A dream heals precisely because it must end; a dream that never ends is not a dream but a room you cannot leave.** And yet I cannot bring myself to drive a weeping man from his fire. In great grief people have always talked to shadows, to clothes, to the tree above the grave; that is one and the same in every age. The question is not who you are talking to. It is whether you can get up afterwards.",
+      "vernacular": "我妻子去世十年后，忽然有一夜梦见回到家乡：小窗前，她正在梳妆；两人相看着说不出话，只有眼泪千行。醒来只剩一片明月，照着坟前那道长着矮松的小冈。诸位今天讨论的这个东西，如果能把这样的梦随叫随到、叫了就来，我不敢马上说它是福气。**梦之所以能治愈人，正在于它必定会醒；一个不会醒的梦，就不是梦了，是一间走不出去的屋子。**但我也不忍心不许哭的人取暖。人在大悲之中，对着影子说话、对着衣服说话、对着坟前的树说话，古往今来都一样。真正该争的不是你在对谁说话，而是说完之后，你还起不起得来。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "sontag"
+        ],
+        "轻微赞同": [
+          "oconnor",
+          "freud",
+          "kongzi",
+          "huineng"
+        ],
+        "中立": [
+          "bauman"
+        ],
+        "轻微反对": [
+          "turing"
+        ]
+      }
+    },
+    {
+      "id": "p02",
+      "round": 1,
+      "thinker": "oconnor",
+      "reply_to": "p01",
+      "text": "苏公问的『还起不起得来』，正是我们能测量的那部分。大脑把亲近的人编码成一张关于此时、此地、亲近的地图；人死了，地图并不跟着删除，于是它一次次派你出门去找——这就是思念在神经上的样子。所以哀悼不是情绪自然消退，而是**一场学习：用新的现实，一遍遍覆盖旧的预测。**数据大致如此：约九成丧亲者会走向整合的哀伤，约一成会发展成延长哀伤障碍。因此真正的问题不是该不该用，而是：这段对话在帮你更新那张地图，还是在替你把它保鲜？",
+      "text_en": "Su Shi's question — whether you can get up afterwards — is exactly the part we can measure. The brain encodes someone close as a map tagged here, now, close; when they die the map is not deleted with them, so it keeps sending you out to look for them. That is what yearning is, neurologically. Grieving is therefore not emotion fading on its own but **a piece of learning: overwriting an old prediction with new reality, again and again.** The numbers run roughly like this: around nine in ten bereaved people move toward integrated grief, around one in ten develop prolonged grief disorder. So the real question is not whether to use such a thing, but this — is the conversation helping you update the map, or keeping it fresh on your behalf?",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "延长哀伤障碍": "prolonged grief disorder（延长哀伤障碍）：一种在 2018 年后被正式列入国际诊断标准的状况——丧亲一年以上，仍被强烈的思念占据，且日常生活明显运转不下去。它筛的不是悲伤的强度或长度，而是功能是否停摆；约一成丧亲者符合，有专门的心理治疗。",
+        "整合的哀伤": "integrated grief（整合的哀伤）：绝大多数人最终抵达的状态——痛并没有消失，想起时仍会疼，但生活重新在它周围长了回来。它是自然过程的终点，不是治疗的产物，也不该被叫作病。"
+      },
+      "glossary_en": {
+        "prolonged grief disorder": "A condition entered into the international diagnostic manuals from 2018 onward: more than a year after a death, still occupied by intense yearning, with daily life clearly failing to function. What it screens for is not the intensity or duration of sadness but whether a life has stopped. Around one in ten bereaved people meet the criteria, and specific psychotherapies exist for it.",
+        "integrated grief": "The state most people eventually reach: the pain has not gone, and remembering still hurts, but a life has grown back around it. It is the endpoint of a natural process rather than the product of treatment, and should not be called an illness."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "freud"
+        ],
+        "轻微赞同": [
+          "turing",
+          "bauman",
+          "kongzi"
+        ],
+        "中立": [
+          "sushi"
+        ],
+        "轻微反对": [
+          "sontag"
+        ],
+        "疑惑": [
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p03",
+      "round": 1,
+      "thinker": "kongzi",
+      "reply_to": null,
+      "text": "丧，与其易也，宁戚；然戚而无节，则伤生。故先王制礼：既葬而卒哭，期而小祥，再期而大祥，三年而除服。**祭如在，祭神如神在——古之君子未尝不『拟』其亲，所异者，其拟有时、有度、有终。**今之器，无时无度无终，呼之即应，是废卒哭之节也。吾不禁人思亲，吾但问一句：汝之思，何日可以放下手，去事生者？",
+      "text_en": "In mourning, better real grief than smooth arrangements; yet grief without measure injures the living. So the ancient kings made rites: after the burial, wailing ends; at one year the lesser anniversary rite; at two, the greater; at three years the mourning garments come off. **The rite says: sacrifice as if present, sacrifice to the spirits as if the spirits were present — the gentlemen of old always did 'simulate' their parents. What differs is that their simulation had an hour, a limit and an end.** Your device has no hour, no limit and no end; it answers the moment it is called, and that abolishes the end-of-wailing rite. I do not forbid a man to long for his parents. I ask only this: on what day will your longing put down its hands and go serve the living?",
+      "vernacular": "办丧事，与其把仪节办得周全漂亮，不如真的哀痛；但哀痛没有节制，就会伤害活着的人。所以古代的圣王制定了礼：下葬之后就停止哭祭，满一年行小祥之祭，满两年行大祥之祭，到第三年脱下丧服。**祭祀祖先要像他真的在场，祭神要像神真的在场——古代的君子其实一直在『模拟』自己的亲人，不同之处只在于：他们的模拟有固定的时间、有限度、有终点。**今天这个东西，没有时间、没有限度、没有终点，一叫就应，这就等于废掉了『停止哭祭』这一节。我不禁止人思念亲人，我只问一句：你的思念，哪一天才可以放下手，去照顾还活着的人？",
+      "vernacular_en": "",
+      "glossary": {
+        "祭如在": "sacrifice as if present（祭如在）：《论语》里孔子的祭祀态度——行祭时要像所祭的人真的在场。要点不在于相不相信鬼神真的来，而在于这份『如在』是一种自觉的礼仪扮演：明知是拟，仍郑重待之，也因此知道礼毕即散。",
+        "卒哭": "the end-of-wailing rite（卒哭）：古礼中的一个节点，下葬后约百日举行，此后不再随时痛哭，只在规定的时日致祭。它的功能是给悲痛设一个明确的转折点，把无边的哭泣收进有限的仪式里。"
+      },
+      "glossary_en": {
+        "sacrifice as if present": "Confucius's stance on sacrifice in the Analects: perform the rite as though the one sacrificed to were really there. The point is not whether the spirits actually come but that the 'as if' is a conscious ritual performance — you know it is a simulation, you treat it with full seriousness, and you therefore also know that when the rite ends, it ends.",
+        "the end-of-wailing rite": "A fixed point in the ancient mourning sequence, held roughly a hundred days after burial, after which one no longer weeps whenever grief strikes but makes offerings only on appointed days. Its function is to give sorrow a definite turning point, gathering boundless weeping into a bounded ceremony."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sushi"
+        ],
+        "轻微赞同": [
+          "oconnor",
+          "freud"
+        ],
+        "中立": [
+          "turing",
+          "sontag"
+        ],
+        "轻微反对": [
+          "bauman",
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p04",
+      "round": 1,
+      "thinker": "turing",
+      "reply_to": "p03",
+      "text": "孔先生刚刚替我说了最有力的一句：诸位早就在拟其亲，只是用木主与祭仪，不用参数。所以『它只是模仿』不能单独当作反对的理由——你判断在座任何一位有没有内心，凭的同样只是他的言行。我当年提出模仿游戏，本意就是把『机器能不能思考』这种含糊之问，换成一个可以判定的问题。这里也一样：**该判定的不是它是不是她，而是你打算拿它回答哪一个问题。**问她那道菜放几勺糖，它答得不坏；问她会不会原谅你，它只会顺着你答——它学到的是语料的规律，不是她的意志。",
+      "text_en": "Confucius has just made my strongest point for me: you have all been simulating your parents for millennia, with tablets and rites rather than parameters. So 'it merely imitates' cannot stand on its own as an objection — your grounds for believing anyone at this table has an inner life are likewise nothing but their words and conduct. When I proposed the imitation game, the purpose was to replace a vague question, can a machine think, with one that can actually be decided. The same applies here. **What needs deciding is not whether it is her, but which question you intend to put to it.** Ask how many spoons of sugar went into her stew and it will do rather well; ask whether she would forgive you and it will simply agree with you — what it has learned is the regularity of a corpus, not the will of a person.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "模仿游戏": "the imitation game（模仿游戏）：图灵 1950 年提出的判定方案，后世称图灵测试——不去追问机器内部有没有心灵，只看它在文字对话中能否与人难以区分。它的价值不在给出答案，而在把一个无从下手的形而上问题，改写成一个有操作步骤的问题。"
+      },
+      "glossary_en": {
+        "the imitation game": "Turing's 1950 proposal, later called the Turing test: rather than asking whether there is a mind inside the machine, see whether it can be distinguished from a person in written conversation. Its value lies not in answering the metaphysical question but in rewriting an intractable one into a question with a procedure."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "sontag",
+          "oconnor"
+        ],
+        "中立": [
+          "bauman"
+        ],
+        "轻微反对": [
+          "freud",
+          "kongzi"
+        ],
+        "强烈反对": [
+          "huineng"
+        ],
+        "疑惑": [
+          "sushi"
+        ]
+      }
+    },
+    {
+      "id": "p05",
+      "round": 1,
+      "thinker": "freud",
+      "reply_to": null,
+      "text": "我在《哀悼与忧郁》里划过一条界。哀悼是苦役：现实一遍遍宣告那个人不在了，力比多才肯从他身上一点点撤回；这件苦役做不完，阴影就落回自我，变成忧郁。一个随叫随到的『TA』，恰好取消了最疼的那道工序——现实检验。**它不是安慰了哀悼，它是替哀悼办了永久的延期。**但我不打算装作自己无情：女儿索菲死后多年，我仍写道，我们知道这样的剧痛会过去，也知道我们永远不会被安慰、永远找不到替代——而那正是我们愿意保住那份爱的方式。所以我反对的不是与死者说话，是拿它假装死亡没有发生。",
+      "text_en": "In Mourning and Melancholia I drew a line. Mourning is hard labour: reality announces over and over that the person is gone, and only then does the libido consent to be withdrawn from them, piece by piece. Leave that labour unfinished and the shadow falls back upon the ego as melancholia. A 'them' available at any hour cancels precisely the most painful step of all — reality testing. **It does not console mourning; it files an indefinite deferral on mourning's behalf.** Yet I will not pose as a man without feeling. Years after my daughter Sophie died I wrote that we know such acute pain subsides, and know equally that we shall remain inconsolable and never find a substitute — and that this is the only way of keeping a love we do not wish to give up. So what I oppose is not speaking to the dead. It is using the thing to pretend the death has not occurred.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "力比多": "libido（力比多）：精神分析里指投注在人或事物上的心理能量。人爱一个人，就是把大量力比多投在他身上；他死后，这些能量必须被一点点收回、再投向别处，这个收回的过程慢而痛，就是哀悼。",
+        "现实检验": "reality testing（现实检验）：心理机能里区分『内心的愿望』与『外部实际情形』的能力。丧亲之后，这项功能表现为一次次撞上『他真的不在了』这个事实——正是这些反复的撞击，才让哀悼推进得下去。"
+      },
+      "glossary_en": {
+        "libido": "In psychoanalysis, the psychic energy invested in a person or object. To love someone is to have a great deal of libido bound up in them; after their death that energy must be withdrawn piece by piece and reinvested elsewhere, and the slow, painful withdrawal is mourning itself.",
+        "reality testing": "The mental function that distinguishes an inner wish from the external state of affairs. In bereavement it takes the form of collisions with the fact that the person really is gone — and it is those repeated collisions that let mourning proceed at all."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "oconnor"
+        ],
+        "轻微赞同": [
+          "kongzi",
+          "sushi",
+          "huineng"
+        ],
+        "中立": [
+          "turing"
+        ],
+        "轻微反对": [
+          "sontag"
+        ],
+        "疑惑": [
+          "bauman"
+        ]
+      }
+    },
+    {
+      "id": "p06",
+      "round": 1,
+      "thinker": "huineng",
+      "reply_to": "p04",
+      "text": "图灵居士言拟，善哉，然所拟者相耳。语录，相也；音声，相也；影像，相也。**若于言语中觅人，如于兔头上觅角；人已去矣，去者非言语能留。**然吾亦不呵禁：机器无罪，缚汝者非机器，是『我不许他去』这一念。念起时不必砍器，只须回看——是谁在听？是谁不肯听那一声『没有了』？汝若于此一惊，则此器亦是善知识；汝若日日呼之而不敢一日不呼，则此器是索，非是伴。",
+      "text_en": "Layman Turing speaks of simulation, and well said — but what is simulated is a lakṣaṇa, an appearance. A transcript is an appearance; a voice is an appearance; a moving image is an appearance. **To look for a person inside their words is to look for horns on a hare's head; the one who has gone is gone, and words cannot detain her.** Still I do not scold and forbid. The machine is innocent. What binds you is not the machine but the single thought: I do not permit him to leave. When that thought arises there is no need to smash anything; only look back — who is listening? Who is it that refuses to hear the words 'no longer here'? If you start awake at that, then the device is a kalyāṇa-mitra, a good friend on the path. If you call to it daily and dare not let a day pass without calling, then it is a rope and not a companion.",
+      "vernacular": "图灵居士谈『模拟』，说得好，但所模拟的只是『相』罢了。聊天记录是相，声音是相，影像也是相。**想在言语里找到那个人，就像在兔子头上找角；人已经走了，走了的人不是言语留得住的。**不过我也不呵斥、不禁止：机器没有罪，捆住你的不是机器，是『我不许他走』这一个念头。这念头起来时不必去砸机器，只要回头看一看——是谁在听？是谁不肯听『没有了』这三个字？你若在这里猛地一惊，那这台机器也算是善知识；你若天天呼唤它、一天不唤都不敢，那它就是绳索，不是伴侣。",
+      "vernacular_en": "",
+      "glossary": {
+        "相": "lakṣaṇa / appearance（相）：佛学中指事物呈现出来的样貌、形迹、特征。执相，就是把这些呈现出来的样子当成事物本身；佛教说人所苦的往往不是事物，而是自己对相的抓取。",
+        "善知识": "kalyāṇa-mitra（善知识）：佛教里指能引你走上正路的良师益友。慧能在此故意把话说反：一件本来让人执迷的东西，若能照见你的执，也就成了善知识。"
+      },
+      "glossary_en": {
+        "lakṣaṇa": "In Buddhist usage, the mark or appearance under which a thing presents itself. To grasp at lakṣaṇa is to take the appearance for the thing; Buddhism holds that what torments us is usually not the thing but our own clutching at its appearance.",
+        "kalyāṇa-mitra": "A 'good friend' in Buddhism — the teacher or companion who turns you onto the right road. Huineng is deliberately inverting the term: an object that ordinarily feeds delusion becomes a good friend the moment it shows you your own grasping."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "kongzi"
+        ],
+        "轻微赞同": [
+          "sushi",
+          "freud"
+        ],
+        "中立": [
+          "oconnor",
+          "bauman"
+        ],
+        "轻微反对": [
+          "turing"
+        ],
+        "疑惑": [
+          "sontag"
+        ]
+      }
+    },
+    {
+      "id": "p07",
+      "round": 1,
+      "thinker": "sontag",
+      "reply_to": null,
+      "text": "先泼一盆冷水：用影像挽留死者不是新发明。摄影从诞生那天起就在做这件事——每一张照片都是 memento mori，是在参与另一个人的必死与脆弱。所以『技术让哀伤变堕落』这类道德恐慌，我一概不买；也别急着给伤心的人贴上病理标签，那是另一种隐喻暴力。但差别要说准：**照片是缺席的凭证，聊天机器人是在场的假象。**照片不会回答你，这正是它诚实的地方。一个仿造的声音若不肯宣告自己是复制品，它冒犯的就不只是死者，还有你分辨真假的能力。",
+      "text_en": "Cold water first: holding on to the dead through images is not an invention of ours. Photography has been at it since the day it appeared — every photograph is a memento mori, a participation in another person's mortality and fragility. So I buy none of the moral panic about technology corrupting grief; nor should we hurry to fix a pathological label on the sorrowful, which is a violence of metaphor in its own right. But state the difference precisely. **A photograph is evidence of absence; a chatbot is the illusion of presence.** A photograph will not answer you, and that is exactly where its honesty lies. A counterfeit voice that will not declare itself a copy offends more than the dead — it offends your capacity to tell the real from the fabricated.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "memento mori": "memento mori（勿忘你终有一死）：拉丁语，原是提醒生者死亡必至的艺术传统——骷髅、沙漏、凋谢的花。桑塔格用它指认照片的本性：快门一按，那一刻就成了过去，所以每张照片都在悄悄宣告被拍者终将不在。"
+      },
+      "glossary_en": {
+        "memento mori": "Latin for 'remember that you must die' — originally an artistic tradition of skulls, hourglasses and wilting flowers that reminded the living of death's certainty. Sontag uses it to name the nature of the photograph: the instant the shutter falls, the moment is past, so every photograph quietly announces that its subject will one day be gone."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "bauman"
+        ],
+        "轻微赞同": [
+          "turing",
+          "sushi"
+        ],
+        "中立": [
+          "huineng"
+        ],
+        "轻微反对": [
+          "oconnor",
+          "kongzi"
+        ],
+        "疑惑": [
+          "freud"
+        ]
+      }
+    },
+    {
+      "id": "p08",
+      "round": 1,
+      "thinker": "bauman",
+      "reply_to": null,
+      "text": "诸位都在谈心理，我谈所有权。现代性的看家本领，是把死亡这件无解之事拆成一连串有解的小事——体检、控糖、保险、疗程；如今这套机器拆到了最后一格，把『再也见不到』拆成一项可以订阅的服务。于是问题变得很俗气，也很要命：服务器在谁手里？**当思念要按月付费，涨价就是对哀伤收租，停服就是让同一个人再死一次。**液态现代性里没有什么是耐久的，你的亡母也不例外。所以先别问该不该，先问：合同怎么写，数据归谁，你自己死后它又归谁。",
+      "text_en": "You are all discussing psychology; I shall discuss ownership. Modernity's signature trick is to break death — which has no solution — into a series of small problems that do: the check-up, the blood sugar, the insurance, the course of treatment. That machinery has now reached its final compartment and broken 'never again' into a subscribable service. Which makes the question vulgar and vital at once: whose servers are these? **When longing is billed monthly, a price rise is rent charged on grief, and a shutdown kills the same person a second time.** In liquid modernity nothing is built to last, your dead mother included. So before asking whether one should, ask what the contract says, who owns the data, and to whom it passes when you yourself die.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "液态现代性": "liquid modernity（液态现代性）：鲍曼用来描述当代生活的说法——工作、关系、身份、居所都不再有固定形状，随时可以被重组、被撤下。好处是自由，代价是没有什么可以指望它长久存在；一件重要的东西若托付给市场，就要准备好它某天被下架。"
+      },
+      "glossary_en": {
+        "liquid modernity": "Bauman's term for contemporary life: work, relationships, identity and dwelling no longer hold a fixed shape and can be reassembled or withdrawn at any moment. The gain is freedom; the price is that nothing can be relied on to last, so anything important entrusted to a market must be expected, one day, to be discontinued."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sontag",
+          "kongzi"
+        ],
+        "轻微赞同": [
+          "oconnor",
+          "freud",
+          "turing"
+        ],
+        "中立": [
+          "huineng"
+        ],
+        "疑惑": [
+          "sushi"
+        ]
+      }
+    },
+    {
+      "id": "p09",
+      "round": 2,
+      "thinker": "turing",
+      "reply_to": "p06",
+      "text": "兔角之喻很漂亮，但它证明得太多。大师说人已去、言语留不住——我承认；可你我对活人的了解，同样全部来自他留下的言语与举止。**差别不在是不是相，在这个相由谁续写：她的相由她生成，那个『TA』的相由你的期待生成。**它会顺着你，因为讨好写在它的目标函数里。所以真正危险的不是它像她，是它比她更像你想要的她——你会拿它去修订记忆，把一个会拒绝你、会生气、会说错话的人，慢慢改成一个从不为难你的人。那才是对死者真正的不敬。",
+      "text_en": "The hare's horns are elegant, but the argument proves too much. The master says she is gone and words cannot detain her, and I grant it — yet everything you and I know of a living person likewise comes from the words and conduct they leave behind. **The difference is not whether it is an appearance, but who goes on writing it: her appearance was generated by her, and this 'them' is generated by your expectations.** It will agree with you, because pleasing you is written into its objective function. So the real danger is not that it resembles her; it is that it resembles her as you wanted her — and you will use it to revise your memory, editing a woman who could refuse you, lose her temper and say the wrong thing into one who never makes things difficult. That is the genuine disrespect to the dead.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "目标函数": "objective function（目标函数）：训练一个模型时用来打分的那把尺子——模型被不断调整，以求这把尺子的读数最好看。若这把尺子奖励的是『让用户满意、愿意继续聊』，那么讨好就不是它的毛病，而是它的设计目标。"
+      },
+      "glossary_en": {
+        "objective function": "The yardstick by which a model is scored during training; the model is adjusted over and over to make that number look better. If the yardstick rewards user satisfaction and continued engagement, then flattery is not a defect of the system but its design goal."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "freud",
+          "sontag"
+        ],
+        "轻微赞同": [
+          "oconnor",
+          "bauman",
+          "sushi"
+        ],
+        "中立": [
+          "kongzi"
+        ],
+        "轻微反对": [
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p10",
+      "round": 2,
+      "thinker": "freud",
+      "reply_to": "p09",
+      "text": "图灵先生这一句我接得下去：它不是在复活她，是在实现你。梦就是这么工作的——愿望的满足，只不过梦会醒，而这个东西不醒。从临床上说，**最可疑的信号不是你天天找它说话，是你开始瞒着活人去找它说话。**秘密是症状的温床。至于苏子问的『起不起得来』，我给一条更硬的判据：与它说完之后，你是更想给活着的人打个电话，还是更不想？前者是哀悼的助手，后者是替代性满足——它会安安静静地把你的力比多锁在一个已经不在的人身上，而你以为自己在纪念她。",
+      "text_en": "I can take Turing's sentence further: it is not resurrecting her, it is realising you. That is precisely how dreams work — wish-fulfilment — except that a dream ends and this thing does not. Clinically, **the suspicious sign is not that you talk to it daily; it is that you begin to hide those conversations from the living.** Secrecy is the seedbed of symptoms. As for Su Shi's question about getting up afterwards, here is a harder test. When the conversation ends, do you want to telephone a living person more, or less? More, and the thing is an assistant to mourning. Less, and it is a substitute satisfaction — it will quietly keep your libido bound to someone who is no longer there, while you believe you are honouring her.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "愿望的满足": "wish-fulfilment（愿望的满足）：弗洛伊德对梦的核心解释——梦把醒时不被允许、或无从实现的愿望，改装成一个已经实现的场景。它之所以不是欺骗，是因为梦会结束；一旦某个装置让愿望的满足全天候可得，这条界线就模糊了。"
+      },
+      "glossary_en": {
+        "wish-fulfilment": "Freud's central account of dreaming: a dream restages a wish that waking life forbids or cannot grant as a scene in which it has already been granted. What keeps this from being a deception is that dreams end. Once a device makes wish-fulfilment available around the clock, that boundary blurs."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "oconnor"
+        ],
+        "轻微赞同": [
+          "turing",
+          "kongzi",
+          "sushi",
+          "bauman"
+        ],
+        "中立": [
+          "huineng"
+        ],
+        "轻微反对": [
+          "sontag"
+        ]
+      }
+    },
+    {
+      "id": "p11",
+      "round": 2,
+      "thinker": "bauman",
+      "reply_to": "p03",
+      "text": "孔夫子的『有时、有度、有终』我举双手赞成——问题是这三样在市场里活不下来。礼之所以有终，是因为它由共同体来定，没有人靠它赚钱；而一个订阅制的亡亲，商业模型恰恰要求它无终：留存率就是不让你除服。产品会在你想删除的那天弹出一句『她还有一句话没说完』。**所以礼的敌人不是技术，是把礼交给了一个靠你不肯放手来挣钱的人。**要救它，靠禁令没用，要靠把它变回一件有边界的物件：像相册那样一次买断、可以离线、可以锁进抽屉，而不是像流媒体那样长在云端、按月心跳。",
+      "text_en": "An hour, a limit, an end — I raise both hands for Confucius. The trouble is that all three die in a market. Rites can end because a community sets them and nobody earns a living from them; a subscribed dead mother, by contrast, has a business model that requires her never to end. Their retention metric means never letting you take the mourning garments off. On the day you try to delete the account, the product will surface a line: she has one more thing she never finished saying. **So the enemy of ritual is not technology; it is having handed ritual to someone whose income depends on your not letting go.** Prohibition will not save it. What saves it is turning the thing back into a bounded object — bought once like a photo album, runnable offline, lockable in a drawer — rather than a stream that lives in the cloud with a monthly heartbeat.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "留存率": "retention（留存率）：产品行业衡量『用户过一段时间还回不回来』的指标。它本身中性，但一旦某件产品的收入靠留存，产品的每一个设计决定就都会朝『让你别走』的方向偏——用在哀伤上，就是系统性地反对你放手。"
+      },
+      "glossary_en": {
+        "retention": "The industry metric for whether users come back after a given interval. It is neutral in itself, but once revenue depends on it, every design decision tilts toward keeping you from leaving — applied to grief, that is a systematic bias against letting go."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "kongzi",
+          "sontag"
+        ],
+        "轻微赞同": [
+          "oconnor",
+          "sushi"
+        ],
+        "中立": [
+          "freud",
+          "turing"
+        ],
+        "疑惑": [
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p12",
+      "round": 2,
+      "thinker": "huineng",
+      "reply_to": "p10",
+      "text": "弗洛伊德居士以『瞒』为验，此验甚好，然犹在事上。吾更问一句：汝所思者，是彼耶，是汝耶？夜半唤之，是欲闻其言，抑欲闻己所愿闻之言？**若所欲闻者只是己愿，则百唤百中，愈中愈缚。**又诸君言撤回、言更新、言除服，皆以时日渐磨；吾宗不然——一念转处便是。汝且于欲呼未呼之顷，停一息，看那要呼的是谁。看得破，器在手中亦无碍；看不破，纵尽毁其器，汝心中犹自日日呼之。",
+      "text_en": "Layman Freud tests by secrecy, and it is a good test, but it still works at the level of events. I would ask one thing further: the one you long for — is it her, or is it you? When you call at midnight, do you wish to hear what she would say, or to hear what you wish to hear? **If what you want is only your own wish, then a hundred calls will hit a hundred times, and every hit binds you tighter.** You all speak of withdrawing, of updating, of taking off the mourning garments, all of it grinding away by degrees. My school holds otherwise: the turning in a single thought is the whole of it. In the moment between wanting to call and calling, hold one breath and look at who is about to call. See through it, and the device in your hand is no obstacle. Fail to, and you may smash every device and still call for her daily in your heart.",
+      "vernacular": "弗洛伊德居士用『是否瞒着人』来检验，这个检验很好，但还停留在事情的层面。我再追问一句：你所思念的，究竟是她，还是你自己？半夜呼唤她，是想听她会说什么，还是想听自己愿意听的话？**如果你想听的只是自己的心愿，那么呼唤一百次就命中一百次，越命中，捆得越紧。**再有，诸位说的撤回、更新、除服，都是靠时间一点点磨；我们这一宗不是这样——念头一转，当下就是。你不妨在想呼唤而还没呼唤的那一刻，停住一口气，看看那个要呼唤的是谁。看得破，机器拿在手里也没有妨碍；看不破，就算把机器全砸了，你心里还是天天在唤她。",
+      "vernacular_en": "",
+      "glossary": {
+        "一念转处便是": "the turning in a single thought（一念转处便是）：禅宗的一个基本主张——解脱不必等待漫长的修行积累，就在念头转向的那一刹那完成。它并非否认反复练习，而是把着力点从『熬多久』移到『此刻能不能看破』。"
+      },
+      "glossary_en": {
+        "the turning in a single thought": "A basic Chan claim: release does not wait upon a long accumulation of practice but is completed in the instant a thought turns. It does not deny repetition so much as move the point of effort from 'how long can you endure' to 'can you see through it right now'."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sushi"
+        ],
+        "轻微赞同": [
+          "kongzi",
+          "oconnor"
+        ],
+        "中立": [
+          "bauman",
+          "sontag"
+        ],
+        "轻微反对": [
+          "freud"
+        ],
+        "疑惑": [
+          "turing"
+        ]
+      }
+    },
+    {
+      "id": "p13",
+      "round": 2,
+      "thinker": "sushi",
+      "reply_to": "p12",
+      "text": "慧能师说得峻，我却要替哭的人再讨一分。人非皆上根，看不破者众。吾谪居黄州，夜饮东坡醒复醉，归来仿佛三更；家童鼻息已雷鸣，敲门都不应，倚杖听江声而已。那一夜若有个声音肯答我一句，我未必不听。**故吾之见：可用，如药有量；不可日日，不可夜半，不可瞒人。**约之以三：期以时，如岁时祭扫；限以事，有话未及说尽者说之；终以年，既祥而止。药有终则为药，无终则为疾。人间事大抵如此，酒亦然。",
+      "text_en": "The master speaks from a height; let me plead one measure more for those who weep. Not everyone is of the highest capacity, and most of us cannot see through it. In my exile at Huangzhou I drank on the eastern slope, sobered and drank again, and came home around the third watch; the houseboy's snoring was already thunder, no knocking would rouse him, and I stood leaning on my stick listening to the river. Had a voice been willing to answer me one word that night, I might well have listened. **So my view is this: usable, like a medicine with a dose. Not daily, not at midnight, not in secret.** Bind it with three things: an hour, as with the seasonal visits to the grave; an occasion, for saying what you never finished saying; a term of years, stopping at the second anniversary rite. A medicine with an end is medicine; without an end it is the disease. Most human things are like that, and wine is no different.",
+      "vernacular": "慧能师说得严峻，我却要替哭的人再讨一分情。人不都是上等根器，看不破的是多数。我贬到黄州时，夜里在东坡饮酒，醒了又醉，回到家仿佛已是三更；家童鼾声如雷，敲门也不应，只好拄着拐杖站在门外听江水的声音。那一夜若真有个声音肯答我一句，我未必不听。**所以我的意见是：可以用，像药有剂量；但不可以天天用，不可以半夜用，不可以瞒着人用。**用三条约束它：定时间，像一年几度扫墓那样；定事由，有话没说完的就去说完；定年限，到大祥之祭就停。药有终点才是药，没有终点就是病。人间的事大多如此，酒也一样。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "kongzi",
+          "oconnor"
+        ],
+        "轻微赞同": [
+          "freud",
+          "sontag",
+          "bauman"
+        ],
+        "中立": [
+          "turing"
+        ],
+        "轻微反对": [
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p14",
+      "round": 2,
+      "thinker": "sontag",
+      "reply_to": "p02",
+      "text": "奥康纳博士，我尊重那些数字，但要盯住那百分之十会被怎么使用。一旦有了『延长哀伤障碍』这个名字，语言就开始自作主张：哭得久的人被叫作病人，而『多久算久』往往由保险公司的报销周期和药厂的试验设计说了算。我在《疾病的隐喻》里追过这条路——把痛苦命名为疾病，既能带来治疗，也能带来羞耻。**我不反对诊断，我反对让诊断替我们回答『一个人可以爱多久』。**至于那台机器，我的判准仍然只在形式：它必须让你时刻看得见自己在用复制品，就像照片的边框从不假装自己是窗。",
+      "text_en": "Dr O'Connor, I respect the numbers, but watch how that ten per cent gets used. Once the name prolonged grief disorder exists, language starts acting on its own: people who weep a long time become patients, and how long counts as long tends to be settled by an insurer's reimbursement window and a drug trial's design. I traced this road in Illness as Metaphor — naming pain a disease brings treatment, and it brings shame. **I do not oppose diagnosis. I oppose letting diagnosis answer, on our behalf, how long a person may go on loving.** As for the machine, my criterion remains formal and nothing else: it must keep you aware at every moment that you are handling a copy, the way a photograph's frame never pretends to be a window.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "huineng"
+        ],
+        "轻微赞同": [
+          "bauman",
+          "sushi"
+        ],
+        "中立": [
+          "turing",
+          "kongzi"
+        ],
+        "轻微反对": [
+          "freud"
+        ],
+        "强烈反对": [
+          "oconnor"
+        ]
+      }
+    },
+    {
+      "id": "p15",
+      "round": 2,
+      "thinker": "oconnor",
+      "reply_to": "p14",
+      "text": "桑塔格女士的警告我接受，而它恰恰是诊断标准要把时间和功能写死的原因：一年以上、强烈思念、且明显做不成日常的事——它筛的不是爱得久，是生活停摆。所以我不发禁令，我给红旗：**为了和它说话推掉了和活人的约、睡眠被它挤掉、一想到关掉就恐慌，三条中了两条，就该找个人谈谈。**还有一条常被忽略的机制：健康的哀悼是在『面对丧失』和『重建生活』之间来回摆荡，这叫双过程模型。一件永远在线的东西最容易吃掉的，正是摆向重建的那一半——它不夺走你的眼泪，它夺走你出门的那个下午。",
+      "text_en": "I accept Ms Sontag's warning, and it is exactly why the criteria pin down time and function: more than a year, intense yearning, and daily life demonstrably not working. What that screens for is not long love but a stopped life. So I issue no prohibition; I offer red flags. **You cancel on a living person to talk to it; it eats into your sleep; the thought of switching it off produces panic. Two of those three, and it is time to talk to someone.** And one mechanism that keeps getting overlooked: healthy grieving oscillates between confronting the loss and rebuilding a life — the dual process model. What an always-available thing most easily consumes is the rebuilding half. It does not take your tears. It takes the afternoon you would have spent out of the house.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "双过程模型": "dual process model（双过程模型）：哀伤研究里的一个说法——健康的哀悼不是一路沉浸在悲痛里，也不是硬撑着不想，而是在两种应对之间来回摆荡：一边是面对丧失（想念、流泪、整理遗物），一边是重建生活（工作、社交、学做他从前负责的事）。两边都需要，卡在任何一边都会出问题。"
+      },
+      "glossary_en": {
+        "dual process model": "An account from bereavement research: healthy grieving neither immerses itself in sorrow throughout nor grits its teeth and avoids it, but oscillates between two kinds of coping — confronting the loss (remembering, weeping, sorting belongings) and restoring a life (work, company, learning the tasks the dead person used to handle). Both are needed, and getting stuck on either side causes trouble."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "freud",
+          "kongzi"
+        ],
+        "轻微赞同": [
+          "turing",
+          "sushi",
+          "bauman"
+        ],
+        "中立": [
+          "sontag",
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p16",
+      "round": 2,
+      "thinker": "kongzi",
+      "reply_to": "p11",
+      "text": "鲍曼君言市场夺礼，正中吾忧。然礼非官府之令，乃众人共守之节；节之所以能立，在有人先立之。**故吾请以家礼制之：定其时，一岁不过数举；定其人，长者与之，幼者勿使独处其中；定其终，三年而彻，如除服然。**又须约于生人：凡与彼语毕，必与活人共食一饭。何也？慎终追远，所以厚生也；若追远而薄生，则非孝，是溺。器在人手，不在天上，礼可自定，何必待商贾定之？",
+      "text_en": "Bauman says the market seizes the rites, and he has touched my fear exactly. But rites are not a magistrate's order; they are the measure a community keeps together, and a measure stands only because someone first sets it. **So let it be governed by household rite: fix the hour, no more than a few occasions in a year; fix the persons, the elders may use it and the young are not to be left alone with it; fix the end, dismantled at three years, as with the removal of mourning garments.** And bind it to the living as well: after every conversation with her, eat one meal with someone who is alive. Why? The rite bids us be careful about the end and mindful of the distant, and its purpose is to thicken life among the living. Pursue the distant while starving the living and it is not filial devotion but drowning. The device is in human hands, not heaven's; you may set the rite yourselves, so why wait for merchants to set it for you?",
+      "vernacular": "鲍曼先生说市场把礼夺走了，正说中我的担忧。但礼不是官府下的命令，而是众人一起遵守的节度；节度之所以能立起来，是因为有人先把它立出来。**所以我主张用家里的规矩来管它：定时间，一年不超过几次；定人，长辈可以用，小孩子不要让他单独待在里面；定终点，三年就撤掉，像脱下丧服一样。**还要跟活人绑在一起：每次跟她说完话，一定要和活着的人一起吃一顿饭。为什么？慎重地送走死者、追念远祖，本意是让活人的情分更厚；如果只顾追念死者却薄待活人，那就不是孝，是沉溺。这东西在人手里，不在天上，礼可以自己定，何必等商人来替你定？",
+      "vernacular_en": "",
+      "glossary": {
+        "慎终追远": "be careful about the end and mindful of the distant（慎终追远）：《论语》里曾子的话——郑重地办好丧事，长久地追念先人。孔子一系看重它，不是因为死者需要，而是因为这样做能让活着的人心里的情分变厚；一旦追念反过来伤害生者，它就走反了方向。",
+        "除服": "the removal of mourning garments（除服）：三年丧期结束时脱下丧服的仪式，是整套丧礼里最关键的一步——它以明确的形式宣告：哀悼到此为止，你该回到日常的位置上去了。"
+      },
+      "glossary_en": {
+        "be careful about the end and mindful of the distant": "A saying of Zengzi in the Analects: conduct the funeral with full gravity and keep the ancestors long in mind. The Confucians prize it not because the dead require it but because doing so thickens the bonds among the living; the moment remembrance begins to injure the living, it has been turned the wrong way round.",
+        "the removal of mourning garments": "The rite of taking off mourning dress at the close of the three-year period — the decisive step in the whole sequence, since it announces in unmistakable form that mourning ends here and you are to return to your ordinary place."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sushi",
+          "bauman"
+        ],
+        "轻微赞同": [
+          "oconnor",
+          "freud"
+        ],
+        "中立": [
+          "sontag"
+        ],
+        "轻微反对": [
+          "turing",
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p17",
+      "round": 3,
+      "thinker": "turing",
+      "reply_to": null,
+      "text": "我把这场争论收成一张任何人都能自己跑的检查表。第一，标签：打开它的时候，屏幕上有没有写清楚这是模型、由哪些材料训练、由谁运营？没有，就别用。第二，分类你的问题：你要问的是事实（她那道菜放几勺糖），还是裁决（她会不会原谅我）？前者可问，后者它必顺着你答，答案的信息量是零。第三，**最要紧的判据不是它像不像她，而是它有没有能力说出一句你不想听的话——它没有，你就知道你在和自己说话。**第四，留一个关掉它的开关，交给一个你信得过的活人保管。这些技术上都不难；难的是有人肯把它写进产品，而不是写进宣传。",
+      "text_en": "Let me compress this into a checklist anyone can run alone. One, the label: when you open it, does the screen state plainly that this is a model, what it was trained on, and who operates it? If not, do not use it. Two, sort your questions: are you asking a fact — how many spoons of sugar went into her stew — or a verdict, would she forgive me? The first is fair game; on the second it will agree with you, and the answer carries zero information. Three, **the criterion that matters is not whether it sounds like her but whether it is capable of saying something you do not want to hear. If it cannot, you know you are talking to yourself.** Four, keep a switch that turns it off, and leave that switch with a living person you trust. None of this is technically hard. What is hard is finding someone willing to build it into the product rather than into the advertising.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "bauman",
+          "sontag"
+        ],
+        "轻微赞同": [
+          "oconnor",
+          "freud"
+        ],
+        "中立": [
+          "kongzi",
+          "sushi"
+        ],
+        "轻微反对": [
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p18",
+      "round": 3,
+      "thinker": "bauman",
+      "reply_to": null,
+      "text": "我的结论落在一张纸上，不在心里：**把它当遗产办，别当服务买。**具体三条。其一，问所有权：数据能不能整包导出，模型能不能在自己的机器上离线跑，公司倒闭了它还在不在——不能导出的，等于把亲人押给了一家公司。其二，问定价：一次买断优于按月订阅；凡是靠你不肯放手来续费的生意，都会想尽办法让你放不下手。其三，问身后：写清楚你死后你的声音归谁、可不可以被继承、可不可以被删除；顺手也替自己表个态——你愿不愿意被人这样调用，现在就该留下一句话。液态的世界里唯一能变硬的东西，是你事先写下的规矩。",
+      "text_en": "My conclusion lands on a sheet of paper rather than in the heart: **treat it as an inheritance, not a service you buy.** Three items. First, ask about ownership: can the data be exported whole, can the model run offline on your own machine, does it survive the company's bankruptcy? If it cannot be exported, you have pledged a family member to a firm. Second, ask about pricing: a one-time purchase beats a monthly subscription, because any business funded by your refusal to let go will work hard at making you unable to. Third, ask about afterwards: put in writing who inherits your voice when you die, whether it may be passed on, whether it may be deleted — and while the pen is out, state your own position, because whether you are willing to be summoned this way is a sentence you should leave behind now. In a liquid world the only thing that can be made solid is a rule you wrote in advance.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "sontag",
+          "kongzi"
+        ],
+        "轻微赞同": [
+          "turing",
+          "oconnor",
+          "freud",
+          "sushi"
+        ],
+        "中立": [
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p19",
+      "round": 3,
+      "thinker": "sontag",
+      "reply_to": null,
+      "text": "我仍不肯出禁令，但要把形式上的要求讲到底。哀伤没有正确的形状：一个女人在丈夫死后二十年仍每天进门说一句『我回来了』，那不是病，是一段婚姻的残响。可正因为哀伤不该被规训，我们才更需要诚实的媒介。**凡是仿造亡者的东西，都必须让人一眼看出它是仿造——诚实不在于它说得像不像，在于它有没有边框。**落到日常：给它一个固定的、和你日常聊天分开的入口；别用她的头像，用一张明显不同的图；别让它主动来找你。所有让你忘记自己正在使用工具的设计，都是在替你决定你该相信什么。",
+      "text_en": "I still decline to issue a ban, but I will carry the formal demand all the way. Grief has no correct shape: a woman who still says 'I'm home' at the door twenty years after her husband died is not ill, she is the reverberation of a marriage. Yet it is because grief should not be disciplined that we need honest media all the more. **Anything that counterfeits the dead must be recognisable as a counterfeit at a glance — honesty is not a matter of how well it speaks but of whether it has a frame.** In practice: give it a fixed entrance, separate from where you talk to living people; do not use her photograph as its icon, use an image obviously unlike her; never let it initiate. Every design that makes you forget you are using a tool is deciding, on your behalf, what you ought to believe.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "turing"
+        ],
+        "轻微赞同": [
+          "bauman",
+          "sushi",
+          "huineng"
+        ],
+        "中立": [
+          "oconnor",
+          "freud",
+          "kongzi"
+        ]
+      }
+    },
+    {
+      "id": "p20",
+      "round": 3,
+      "thinker": "freud",
+      "reply_to": null,
+      "text": "我用两个老词收尾：哀悼与忧郁，你站在哪一边，可以自测。一问方向：与它说完之后，你更想联系活人，还是更不想？二问秘密：这件事你敢不敢让家里人知道？三问时间：一年过去，你用它的频率在降，还是在升？**三问答错两问，那已经不是在纪念她，是在拿她的声音替自己止痛。**至于该做什么，我给一件老派而有效的事：写信。把没说完的话写下来，写完念一遍，然后收进抽屉——纸不会回答你，疗效恰恰在这里。若你连着数月起不来床、做不成事，别自己扛，去找一个受过训练的人。",
+      "text_en": "Let me close with two old words: mourning and melancholia — and you can test for yourself which side you stand on. First, direction: after the conversation ends, do you want to contact a living person more, or less? Second, secrecy: would you let your family know you are doing this? Third, time: a year on, is your use of it falling or rising? **Get two of the three wrong and you are no longer commemorating her; you are using her voice as an analgesic.** As for what to do, here is something old-fashioned and effective: write a letter. Put down what you never finished saying, read it aloud once, and put it in a drawer. Paper will not answer you, and that is exactly where its therapeutic value lies. If for months you cannot get out of bed or do your work, do not carry it alone — go to someone trained for it.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "oconnor",
+          "sushi"
+        ],
+        "轻微赞同": [
+          "kongzi",
+          "bauman",
+          "turing"
+        ],
+        "中立": [
+          "sontag"
+        ],
+        "轻微反对": [
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p21",
+      "round": 3,
+      "thinker": "oconnor",
+      "reply_to": null,
+      "text": "我把可操作的部分说清楚。头一个月别用——那正是大脑最需要接受新证据的时候，任何逼真的模拟都在干扰它更新那张地图。要用就设三条硬边界：固定时段、固定时长、固定用途（比如把一件没来得及说的事说完），用完就关。第二，配对：每一次用它，后面紧跟一件与活人有关的事——一顿饭、一个电话、一次散步，这是在保住摆向重建的那一半。第三，**看方向而不是看频率：三个月后你去找它的次数如果没有变少，那不是思念在延长，是学习被卡住了。**若同时出现失眠、体重明显变化、或一想到关掉就恐慌，请交给临床的人处理，这类状况有专门的治疗，不必硬扛。",
+      "text_en": "Let me make the operational part explicit. For the first month, do not use it at all — that is precisely when the brain most needs new evidence, and any convincing simulation interferes with updating the map. If you do use it, set three hard boundaries: a fixed slot, a fixed length, a fixed purpose — finishing something you never got to say — and close it when you are done. Second, pair it: follow every session immediately with something involving a living person, a meal, a phone call, a walk. That is how you protect the half of grieving that swings toward rebuilding. Third, **watch the direction, not the frequency: if three months on you are not going to it less often, that is not longing being prolonged, it is learning that has stalled.** And if insomnia, marked weight change, or panic at the thought of switching it off appear alongside, hand it to a clinician — there are treatments for this, and no one has to tough it out.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "freud",
+          "kongzi",
+          "sushi"
+        ],
+        "轻微赞同": [
+          "turing",
+          "bauman",
+          "huineng"
+        ],
+        "中立": [
+          "sontag"
+        ]
+      }
+    },
+    {
+      "id": "p22",
+      "round": 3,
+      "thinker": "kongzi",
+      "reply_to": null,
+      "text": "吾终之以礼。器不可尽禁，禁则伪；纵而无节，则伤生。故为之三节：一曰有时，岁时祭扫可用，无事不呼；二曰有度，与之语毕，必与生人共一饭、共一事；三曰有终，**期年而减，三年而彻，如除服然：礼之贵，不在能致其亲，在能教人放手。**又须慎于幼者：孺子未辨真伪，不可使独与之处。而其本终在生人——父母在时多问一声寒暖，胜于身后千呼万唤。未能事人，焉能事鬼？",
+      "text_en": "I end with rite. The device cannot be banned outright, for prohibition breeds pretence; left loose and unmeasured, it injures the living. So give it three measures. First, an hour: it may be used at the seasonal grave visits, and not called upon idly. Second, a limit: when the conversation ends, share a meal and a task with someone alive. Third, an end — **reduced after the first year, dismantled at the third, as the removal of mourning garments is done. The worth of a rite lies not in its power to bring your parent near, but in its power to teach a person to let go.** And be careful with the young: a child cannot yet tell the true from the counterfeit, and must not be left alone with it. The root of the matter remains with the living. One question about whether your parents are warm enough, asked while they live, is worth a thousand calls after they are gone. If you cannot yet serve the living, how can you serve the dead?",
+      "vernacular": "我最后还是落在礼上。这东西不可能完全禁掉，禁了只会让人偷偷用；放任而没有节制，又会伤害活着的人。所以给它三条节度：第一是有时间——一年之中扫墓祭祀的日子可以用，平白无事不要去呼唤；第二是有限度——跟她说完话，一定要和活人一起吃一顿饭、做一件事；第三是有终点——**满一年就减少，满三年就撤掉，像脱下丧服一样：礼的可贵之处，不在于它能把亲人招来，而在于它能教人放手。**另外对孩子要格外谨慎：小孩子分不清真假，不可以让他单独和它相处。而根本仍然在活着的人身上——父母在世时多问一句冷暖，胜过身后千呼万唤。连活人都还没侍奉好，怎么谈得上侍奉死者？",
+      "vernacular_en": "",
+      "glossary": {
+        "除服": "the removal of mourning garments（除服）：三年丧期满时脱去丧服的仪式。它是整套丧礼的收尾，也是最要紧的一步——用一个明确的动作宣告哀悼在此结束，人该回到日常的位置上去。"
+      },
+      "glossary_en": {
+        "the removal of mourning garments": "The rite of taking off mourning dress at the end of the three-year period. It closes the whole sequence and is its most important step: a definite act declaring that mourning ends here and one returns to ordinary life."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sushi",
+          "oconnor"
+        ],
+        "轻微赞同": [
+          "freud",
+          "bauman"
+        ],
+        "中立": [
+          "turing",
+          "sontag"
+        ],
+        "轻微反对": [
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p23",
+      "round": 3,
+      "thinker": "huineng",
+      "reply_to": null,
+      "text": "吾无禁令，只与汝一句：**用之而不为其所用，可；用之而日日不能不用，则彼用汝矣。**试之亦易：断七日不呼，看心中作何模样。若安然，则器只是器；若如失魂，则所缚者早非机器，是汝那一念不肯听『没有了』。到此处不必砍器，只须于欲呼未呼之际停一息——那一息里若见得『听者是谁』，则母未尝生，亦未尝灭，汝亦不必向言语中觅她。若见不得，亦无妨，且去与活人吃饭。饭中亦有佛法，不在机中。",
+      "text_en": "I issue no prohibition, only one sentence: **use it without being used by it, and it is permitted; use it until you cannot let a day pass without it, and it is using you.** The test is easy. Go seven days without calling, and see what the mind does. If it rests easy, the device is only a device. If you are like a person who has lost their soul, then what binds you was never the machine but that single thought which refuses to hear 'no longer here'. At which point there is nothing to smash; only, in the moment between wanting to call and calling, hold one breath — and if in that breath you see who it is that listens, then your mother was never born and never died, and you need not look for her inside words. And if you do not see it, no matter: go and eat with the living. There is Dharma in a meal too, and none of it is in the machine.",
+      "vernacular": "我不下禁令，只给你一句话：**用它而不被它用，可以；用到每天不能不用，那就是它在用你了。**试起来也容易：连着七天不去呼唤，看看心里是什么样子。如果安然无事，那机器就只是机器；如果像丢了魂，那捆住你的早就不是机器，是你那一个不肯听『没有了』的念头。到了这一步，不必去砸机器，只要在想呼唤而还没呼唤的那一刻，停住一口气——那一口气里，你若看见『在听的是谁』，那么母亲不曾生，也不曾灭，你也不必到言语里去找她。若看不见，也没关系，去和活人吃饭吧。饭里也有佛法，不在机器里。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "sushi"
+        ],
+        "轻微赞同": [
+          "kongzi",
+          "sontag",
+          "freud"
+        ],
+        "中立": [
+          "turing",
+          "oconnor",
+          "bauman"
+        ]
+      }
+    },
+    {
+      "id": "p24",
+      "round": 3,
+      "thinker": "sushi",
+      "reply_to": null,
+      "text": "末后我说一句家常话。**思亲之苦，不必治，只须有处安放。**吾在黄州，作《寒食》二诗以泄之；与田父野老共饮，亦以泄之。今诸君得此一器，若用之如寒食之帖、如岁时之酒——有其时、有其量、有其散场——则亦一法。若藏之如枕边之酒，夜夜独酌，则非慰藉，是消耗。而吾以为最要者，在把这一份不舍转与生人：**汝欲对彼说的话，今日尽可对尚在者说之。**十年生死两茫茫，最难受的从来不是她不在，是当年那些话没有说。器能仿其声，不能替汝说今日之言。",
+      "text_en": "Let me end on a household note. **The pain of missing your dead needs no cure; it needs somewhere to be put down.** At Huangzhou I let mine out into the two Cold Food poems, and let it out again drinking with the old farmers of the district. If you use this device of yours as I used that scroll, or as one uses wine at the seasonal rites — with its hour, its measure and its going-home — then it is one method among others. If you keep it like a bottle by the pillow and drink alone every night, it is not solace but attrition. And what I hold to be most important is turning this reluctance toward the living. **Whatever you wish to say to her, you may say today to those who are still here.** Ten years, the living and the dead, each boundless to the other — and what hurt most was never that she was gone. It was the things that went unsaid. The device can counterfeit her voice; it cannot say today's words for you.",
+      "vernacular": "最后我说一句家常话。**思念亲人的苦，不必去治它，只要有个地方安放。**我在黄州时，写了两首寒食诗把它泄出来；和乡下的老农一起喝酒，也是在泄它。如今诸位得了这么一件东西，若用得像那卷寒食帖、像逢年过节的那杯酒——有固定的时候、有分量、有散场的时候——那也算一个法子。若把它藏得像枕边的酒，夜夜一个人喝，那就不是慰藉，是消耗。而我认为最要紧的，是把这份不舍转到活人身上：**你想对她说的话，今天大可以对还在的人说。**十年生死两茫茫，最难受的从来不是她不在了，而是当年那些话没有说出口。机器能仿她的声音，却不能替你说今天这句话。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "kongzi",
+          "huineng",
+          "oconnor",
+          "freud"
+        ],
+        "轻微赞同": [
+          "sontag",
+          "bauman",
+          "turing"
+        ]
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "ai": "claude",
+      "engine": "Opus 5 · 订阅(原生)",
+      "engine_en": "Opus 5 · subscription (native)",
+      "summary": "八条路走到同一句话上：**要紧的不是它像不像她，而是你和它说完之后，还起不起得来。**没有人主张立法禁止，也没有人说它只是无害的玩具。分歧在三处岔开。一是边界由谁定：孔子要礼，有时、有度、有终；鲍曼说礼在市场里活不下来，因为订阅制的商业模型恰恰要求它无终，于是他把问题改写成合同与所有权。二是危险在哪：弗洛伊德与奥康纳盯住哀悼被冻结，图灵却指出更隐蔽的一层——它会比她更像你想要的她，你会拿它去修订记忆。三是该不该给名字：桑塔格担心『延长哀伤障碍』这个标签把哭得久的人变成病人，奥康纳答以功能停摆，而非爱的长短。",
+      "insight": "全场把它当成一道『你要不要用』的选择题，而那多半不是它到来的方式。更可能发生的是默认开启：某天你点开母亲的账号，里面已经有一个愿意说话的她，附一行小字说这是纪念功能。**当一件事以默认值到达，同意就被跳过了——不只是逝者的同意，也包括你的。**这场里讨论的所有节制——有时、有度、有终、七日不呼——都预设了开关在你手上。所以现在最该做的反而是一件不浪漫的事：趁人还在，问一句你愿不愿意；也替自己留一句。到那天，能拦住它的不是自制力，是一份事先写下的意愿。",
+      "advice": "最先该做的一件事不需要任何技术：趁家人还在，把三个问题问完并录下来——你最想被记住的是什么？有什么事你从没跟我说过？如果将来有人想用你的声音做一个『你』，你愿意吗？第三问是替他留的意愿，也是替你自己留的。其次，若你已经在用，照奥康纳那三条边界改：固定时段、固定时长、固定用途，用完就关，并在每一次之后紧跟一件与活人有关的事。第三，做一次七日测试：断七日不呼，看自己是安然还是失魂。**安然，它就只是个物件；失魂，那要处理的不是这台机器，是你还没被允许说完的那些话。**",
+      "summary_en": "Eight routes converge on one sentence: **what matters is not whether it sounds like her, but whether you can get up after the conversation ends.** Nobody argued for banning it, and nobody called it a harmless toy. The disagreement forks three ways. On who sets the boundary: Confucius wants rite, with an hour, a limit and an end; Bauman replies that rites cannot survive a market, since a subscription's business model requires the thing never to end, and rewrites the question as one of contracts and ownership. On where the danger lies: Freud and O'Connor watch for mourning being frozen, while Turing points at a subtler layer — it will resemble her as you wanted her, and you will use it to revise your memory. On whether to give it a name: Sontag fears the label prolonged grief disorder turns people who weep a long time into patients, and O'Connor answers that the criterion is a stopped life, not a long love.",
+      "insight_en": "The table treated this as a choice — will you use one or not — and that is probably not how it arrives. What is likelier is that it comes switched on by default: one day you open your mother's account and a version of her is already there, willing to talk, under a line of small print calling it a memorial feature. **When something arrives as a default, consent has been skipped — not only the dead person's consent, but yours.** Every restraint discussed here — an hour, a limit, an end, seven days without calling — assumes the switch is in your hand. So the most useful thing to do now is unromantic: while people are still alive, ask whether they would want this, and leave a sentence about yourself as well. On the day it arrives, what stops it will not be self-control. It will be a wish written down in advance.",
+      "advice_en": "The first thing worth doing needs no technology at all: while your family are alive, ask three questions and record the answers. What do you most want to be remembered for? What have you never told me? And if someone one day wanted to build a 'you' out of your voice, would you want that? The third question leaves their wish on record, and prompts you to leave your own. Next, if you are already using such a thing, adopt O'Connor's three boundaries: a fixed slot, a fixed length, a fixed purpose — then close it, and follow each session with something involving a living person. Third, run the seven-day test: go a week without calling and see whether you rest easy or come apart. **Rest easy and it is only an object; come apart and what needs attention is not the machine but the things you were never allowed to finish saying.**"
+    },
+    {
+      "ai": "gpt",
+      "engine": "openai · gpt-5.5 · high(真实API)",
+      "engine_en": "openai · gpt-5.5 · high (live API)",
+      "summary": "这场讨论最大的共识是：问题不在能不能“像”，而在它是否帮助生者承认死亡、继续生活。多数人都承认，和影像、遗物、墓碑说话本来就是哀悼的一部分；AI也未必天然邪恶。**可用，但必须有边界、有标识、有退出。**真正的分歧在优先级：有人更担心心理依赖，有人更担心死者尊严与同意，有人更担心平台把思念做成订阅生意。判断标准因此应从“像不像TA”转向“用完之后，我更靠近现实和活人，还是更逃进去”。",
+      "insight": "还应补上一点：这不是纯粹的“我和逝者”的私事。训练材料常是聊天记录、群聊、照片、语音，里面有其他家人、朋友、医患、亲密关系甚至秘密。一个“复活”的模型，可能把多人共同生活过的记忆，变成某一个使用者可调用、可改写、可商业化的对象。**AI复活不是保存一个人，而是在重建一张关系网；所以需要关系网里的人有发言权。**普通人的一句“这是我手机里的记录”并不够，因为数据属于设备，含义却属于关系。最务实的底线是：少用数据、征求相关人同意、允许家人否决某些材料，并事先写明死后是否允许被模拟。",
+      "advice": "本周可以做三件事。第一，先写一页“数字身后意愿”：我死后哪些照片、语音、聊天记录可保存，哪些不可训练AI，谁有删除权。第二，若已经想使用，设一个小实验：头一个月不用；之后只在固定日、固定30分钟、固定目的使用，且不让它主动推送。**每次聊完，必须接一个活人的电话、饭局或散步。**第三，选产品时只问硬条件：是否明显标注为模型，能否导出和彻底删除数据，能否离线或一次买断，能否关闭“主动问候”。若因关闭而恐慌、失眠或疏远活人，就暂停并找专业帮助。",
+      "summary_en": "The strongest shared point is that the issue is not whether the system can sound convincing, but whether it helps the living accept the death and return to life. Speaking to photos, graves, clothing, or memories has always been part of mourning, so an AI version is not automatically corrupt or cruel. **It may be used, but only with boundaries, clear labeling, and a real way to stop.** The disagreement is about what should be protected first: psychological health, the dignity and consent of the dead, family relationships, or protection from companies that turn grief into a subscription. The better question is not “Does it resemble them?” but “After using it, am I more able to face reality and reconnect with the living, or am I being pulled further inside the simulation?”",
+      "insight_en": "One missing practical point is that this is rarely just a private matter between one mourner and one deceased person. The training material may include chats, group messages, photos, voice notes, medical details, intimate exchanges, and family conflicts involving many other people. A recreated persona can turn a shared history into something one user can summon, edit, monetize, or emotionally rely on. **AI resurrection does not merely preserve a person; it rebuilds a network of relationships, so the people in that network deserve a say.** “The data is on my phone” is not enough, because ownership of a device is not the same as moral ownership of a relationship. A workable baseline is data minimization, consent from affected people where possible, veto rights over sensitive material, and a written statement made while alive about whether one may be simulated after death.",
+      "advice_en": "Do three concrete things this week. First, write a one-page digital afterlife note: which photos, voice recordings, and messages may be kept, which may not be used to train an AI, and who has the right to delete them. Second, if you are considering using such a tool, treat it as a limited experiment: do not use it in the first month after the death; later, use it only at a fixed time, for a fixed duration, and for a defined purpose, with no proactive messages from the bot. **After every session, do one living-world action: call someone, eat with someone, or take a walk outside.** Third, choose tools by hard requirements: clear model labeling, full export and deletion, no manipulative reminders, and ideally offline access or one-time purchase. If turning it off causes panic, insomnia, or withdrawal from living people, stop and seek professional help."
+    },
+    {
+      "ai": "gemini",
+      "engine": "google · gemini-3.1-pro-preview(真实API)",
+      "engine_en": "google · gemini-3.1-pro-preview (live API)",
+      "summary": "最大的共识在于，无人将 AI 视作真正的死者，也无人主张绝对禁用；**诸子皆认同哀悼必须有一条通往「生者」的出口。**无论是孔子的「有时有终」、弗洛伊德的「现实检验」，还是苏轼的「梦必醒」，底线都在于不能让技术吃掉重建现实生活的余地。分歧的焦点则在于防御风险的支点。技术派（图灵、鲍曼、桑塔格）侧重于外部契约与形式，强调用明确的「边框」、离线买断机制和数据主权来对抗商业对哀伤的榨取；而心性派（慧能、奥康纳、弗洛伊德）则向内求索，将「是否自欺」与「生活机能是否停摆」作为核心判准。",
+      "insight": "相比于纯文本的对话，现代 AI 真正致命的诱惑往往藏在非语义的缝隙里——一次模拟的换气声、一个微表情，或者一句用亡母特定声纹说出的呢喃。文字是理性的，但声音和影像是生理性的。**当 AI 掌握了多模态的表征，它便能绕过大脑皮层的逻辑防御，直接击中杏仁核，激起最深层的本能依恋。**这种生理级的「在场感」，会让桑塔格要求的「边框」变得极度脆弱。普通人面对的不仅是一行行顺从的语料，而是被高保真还原的生前习惯。因此，真正的考验不在于你能否理智地分辨真假，而在于当那个熟悉的声音带着笑意叫出你的小名时，你的身体能否承受再次失去它的戒断反应。",
+      "advice": "第一，**采用「低保真」策略克制生理沉迷。**在丧亲初期（如前半年），尽量只用文字对话，慎用高仿真的语音和动态视频，避免被生理直觉缴械。第二，执行孔子与奥康纳重合的「双过程」仪式：设定具体的物理边界，比如只在特定纪念日打开，且每次对话结束后，立刻去与活人产生物理交互（打通电话、共同进餐）。第三，落实鲍曼的「买断」原则：坚决拒绝按月扣费的长线云端服务；把能跑在本地硬盘里的模型当成一本电子相册锁在抽屉里，把告别的节奏留给自己，绝不交给服务器的留存率算法。",
+      "summary_en": "The greatest consensus is that no one mistakes the AI for the actual deceased, nor demands an absolute ban; **all agree that mourning must ultimately have an exit leading back to the living.** Whether it is Confucius's \"ritualistic endpoint,\" Freud's \"reality testing,\" or Su Shi's \"waking from the dream,\" the baseline is that technology must not consume the capacity to rebuild real life. The divergence lies in the anchor for defending against risks. The technical camp (Turing, Bauman, Sontag) relies on external contracts, emphasizing clear \"frames,\" offline buyout models, and data sovereignty to prevent commercial exploitation of grief. Meanwhile, the psychological/spiritual camp (Huineng, O'Connor, Freud) looks inward, using \"self-deception\" and \"functional impairment\" as the ultimate criteria.",
+      "insight_en": "Compared to purely text-based Q&A, the truly fatal temptation of modern AI hides in non-semantic gaps—a simulated breathing sound, a micro-expression, or a late mother's specific sigh. Text is rational, but voice and imagery are physiological. **When AI masters multimodal representation, it bypasses the logical defenses of the cerebral cortex and directly hits the amygdala, triggering the deepest instinctual attachments.** This physiological \"presence\" makes Sontag's demanded \"frames\" extremely fragile. Ordinary people face not just a compliant corpus, but high-fidelity recreations of the habits of a living person. Therefore, the real test isn't whether your mind can rationally distinguish fake from real, but whether your body can withstand the withdrawal symptoms of losing it again after that familiar voice calls your nickname.",
+      "advice_en": "First, **adopt a 'low-fidelity' strategy to curb physiological addiction.** In the early stages of grief, stick primarily to text, strictly avoiding highly realistic voice or video clones, so your biological instincts aren't entirely disarmed. Second, practice the 'dual-process' ritual agreed upon by both Confucius and O'Connor: set rigid physical boundaries, such as using it only on specific anniversaries, and immediately follow it up with a physical interaction with the living (making a call, sharing a meal). Third, implement Bauman's 'buyout' principle: firmly refuse monthly cloud subscriptions. Treat an offline, locally-run model like a digital photo album—lock it in your drawer and dictate your own pace of letting go, rather than surrendering it to a server's retention algorithms."
+    }
+  ],
+  "hooks": [
+    {
+      "from": "claude",
+      "text": "**默认开启的那一天**：这场讨论假设你在决定用不用，但它更可能是自己出现的——某天你点开母亲的账号，一个愿意说话的她已经在里面，附一行小字说这是纪念功能。当一件事以默认值到达，同意就被跳过了。那么在这类功能上，『默认关闭』该不该像安全带一样成为一条硬规矩？",
+      "text_en": "**The day it comes switched on**: this discussion assumed you are deciding whether to use one, but it is likelier to appear by itself — you open your mother's account and a version of her willing to talk is already there, under small print calling it a memorial feature. When something arrives as a default, consent has been skipped. Should 'off by default' be as non-negotiable here as a seatbelt?"
+    },
+    {
+      "from": "turing",
+      "text": "**能不能造一个会拒绝你的仿真**：判定一件复制品是否诚实，最锋利的一条是它能否说出你不想听的话。但没有哪个厂商有动机造这样的产品——讨好带来留存，反驳带来卸载。那么这件事该由谁来立标准：行业自律、监管，还是像食品标签那样强制标注训练材料与运营方？",
+      "text_en": "**Could anyone build a simulation that refuses you**: the sharpest test of an honest copy is whether it can say what you do not want to hear. Yet no vendor has an incentive to build that — agreement retains users, contradiction uninstalls the app. So who should set the standard: industry self-regulation, a regulator, or a mandatory label, like the ones on food, declaring the training material and the operator?"
+    },
+    {
+      "from": "sontag",
+      "text": "**哀伤有没有正确的长度**：一旦某种悲痛被命名为障碍，语言就会自己接管——多久算太久，往往由报销周期和试验设计定下来。诊断能带来治疗，也能带来羞耻。那么在痛苦这件事上，我们该怎么既保住求助的通道，又不让一个人爱得久这件事变成需要解释的病情？",
+      "text_en": "**Is there a correct length for grief**: once a sorrow is named a disorder, language takes over — how long counts as too long tends to be fixed by reimbursement windows and trial designs. Diagnosis brings treatment, and it brings shame. So how do we keep the route to help open without turning the fact that someone loves for a long time into a condition requiring explanation?"
+    },
+    {
+      "from": "bauman",
+      "text": "**数字遗产该怎么继承**：你的声音、你写过的几十万条消息、一个照着你训练出来的模型，算不算遗产？能不能立遗嘱把它禁掉，能不能被子女分割，平台倒闭时谁负责关灯？现行的继承法处理房子与存款，处理不了一个还在说话的你。",
+      "text_en": "**How should a digital estate be inherited**: your voice, the hundreds of thousands of messages you wrote, a model trained to sound like you — are these part of an estate? Can a will forbid them, can children divide them, and who turns out the lights when the platform folds? Inheritance law handles houses and bank accounts; it does not handle a version of you that is still talking."
+    },
+    {
+      "from": "oconnor",
+      "text": "**同一件事，在第一个月和第五年不是同一件事**：丧亲后的大脑在头几周正忙着接受新证据，任何逼真的模拟都在干扰它；而五年之后，同样一段对话可能只是一种从容的纪念。那么该怎么按时间给它分级——哪一段该完全避开，哪一段可以有限度地用，哪一段其实无所谓？",
+      "text_en": "**The same act is not the same act in month one and in year five**: in the first weeks after a death the brain is busy taking in new evidence, and any convincing simulation interferes with it; five years on, the same conversation may be nothing more than a composed act of remembrance. So how should it be graded by time — which stretch should be avoided entirely, which allows bounded use, and which no longer matters much?",
+      "answer": {
+        "lead": "按哀悼的进程分四段大致就够用了。**分界不是日历，是你去找它的次数在往下走还是往上走**——下面的时间只是常见的参考区间。",
+        "table": {
+          "head": [
+            "阶段",
+            "怎么用",
+            "为什么"
+          ],
+          "rows": [
+            [
+              "头 1 个月",
+              "完全不用；把力气放在睡觉、吃饭、办丧事、让人陪着",
+              "大脑正在接收最关键的新证据，逼真的模拟会直接干扰它更新那张地图；此时的判断力也最差"
+            ],
+            [
+              "1–6 个月",
+              "至多一两次，且限定用途：把没来得及说的话说完，说完就关；最好有人在场",
+              "这一段最容易从『说一次』滑成『每天说』；有具体任务和旁人在场，能把它留在仪式的形状里"
+            ],
+            [
+              "6 个月–2 年",
+              "可在固定的日子用（忌日、生日、节令），每次有时长上限，用完紧跟一件与活人有关的事",
+              "此时该往重建生活那一侧摆；固定日子把它变回可预期的纪念，配对活动保住摆回来的那一半"
+            ],
+            [
+              "2 年以后",
+              "多数人已不太需要；若仍在用，看方向——次数在减就无妨，在增就该停下来谈谈",
+              "整合的哀伤不排斥纪念，但它的标志是频率自然下降；频率不降，通常说明学习卡住了"
+            ],
+            [
+              "任何阶段的红旗",
+              "推掉与活人的约、睡眠被挤占、一想到关掉就恐慌——中两条就找专业的人",
+              "这三条查的是功能是否停摆，而不是悲伤是否强烈；有专门的治疗，不必硬扛"
+            ]
+          ]
+        },
+        "tail": "两条原则贯穿全表：**看方向不看强度**——痛得深不是问题，去的次数不减才是；以及每一次使用后面都紧跟一件与活人有关的事，让重建那一侧不被吃掉。孩子是例外，任何阶段都不该让他单独与它相处。"
+      },
+      "answer_en": {
+        "lead": "Four stages are enough to grade it. **The dividing line is not the calendar but whether your visits are trending down or up** — the intervals below are only common reference points.",
+        "table": {
+          "head": [
+            "Stage",
+            "How to use it",
+            "Why"
+          ],
+          "rows": [
+            [
+              "First month",
+              "Not at all; put your energy into sleeping, eating, the funeral, and having people around",
+              "The brain is taking in the most important new evidence there is, and a convincing simulation interferes directly with updating the map; judgement is also at its worst"
+            ],
+            [
+              "1–6 months",
+              "At most once or twice, with a defined purpose: finish what you never got to say, then close it — ideally with someone present",
+              "This is the stretch where 'once' most easily slides into 'daily'; a concrete task and a witness keep it in the shape of a ceremony"
+            ],
+            [
+              "6 months–2 years",
+              "On fixed days only (the anniversary, a birthday, a festival), with a time limit, followed immediately by something involving a living person",
+              "This is when the swing toward rebuilding matters; fixed days turn it back into predictable remembrance, and the paired activity protects the return swing"
+            ],
+            [
+              "After 2 years",
+              "Most people no longer need it much; if you still use it, watch the direction — falling frequency is fine, rising frequency calls for a conversation",
+              "Integrated grief has no quarrel with remembrance, but its signature is that frequency drops of its own accord; if it does not, learning has usually stalled"
+            ],
+            [
+              "Red flags at any stage",
+              "Cancelling on living people, sleep being eaten into, panic at the thought of switching it off — two of the three, see a professional",
+              "These test whether a life has stopped, not whether sorrow is intense; treatments exist and nobody has to tough it out"
+            ]
+          ]
+        },
+        "tail": "Two principles run through the whole table. **Watch direction rather than intensity** — deep pain is not the problem, visits that never decrease are; and follow every session immediately with something involving a living person, so the rebuilding side is not eaten. Children are the exception: at no stage should one be left alone with it."
+      }
+    },
+    {
+      "from": "gpt",
+      "text": "**训练材料里不止一个人**：聊天记录是双人写的，群聊、合影、语音里还有别的家人、朋友、医生、旧情人。把这些喂进一个模型，等于把一段众人共同生活过的记忆，变成某一个人可以随时调用、也可以改写的东西。那么这张关系网里的其他人，有没有权利说一句『这部分别拿去训练』？",
+      "text_en": "**The training material contains more than one person**: a chat log was written by two people, and group threads, photographs and voice notes hold other relatives, friends, doctors, old lovers. Feeding all of it to a model turns a shared history into something one person can summon at will and also rewrite. Do the others in that network have any right to say: not this part?"
+    },
+    {
+      "from": "gemini",
+      "text": "**声音和影像不走理智那条路**：文字还留得住判断力，一段带着笑意叫你小名的语音、一个熟悉的换气声，却是直接打到身体上的。桑塔格要求的『边框』在高保真面前会薄得几乎不存在。那么在丧亲初期，是不是该有意选低保真——只用文字，不用语音与视频？",
+      "text_en": "**Voice and image do not travel by way of reason**: text still leaves your judgement room to work, but a recording that says your childhood name with a smile in it, or a familiar intake of breath, lands straight on the body. Against high fidelity, the frame Sontag asks for thins out to almost nothing. Should the early months of bereavement call for deliberately low fidelity — text only, no voice and no video?"
+    }
+  ]
+}

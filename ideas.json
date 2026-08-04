@@ -2,15 +2,6 @@
   "_comment": "议题投票数据。candidates=未辩候选(供投票)，debated=已辩(链到辩论)。投票免 GitHub 登录，存于自建后端(Cloudflare Worker + D1，见 ~/Desktop/cissy0802.github.io/engage-backend/)：每候选一个 poll，key='topic:'+id，choice up/down，净票=👍−👎。votes 字段由 routine 每次跑 `python3 refresh_votes.py`(读后端 /votes-net) 回写；页面 ideas.js 也会实时拉取覆盖显示。观众自提议题在评论 page='thinker-open-questions'，各候选下讨论 page='topic:'+id——routine 读这些把好提案提炼成新 candidates。新候选加进 candidates 即可。",
   "candidates": [
     {
-      "id": "liberty-vs-equality",
-      "votes": 0,
-      "q": "自由与平等不可兼得时，该牺牲哪个？",
-      "q_en": "When liberty and equality can't both be had, which should give way?",
-      "note": "自由市场的效率与不平等，还是再分配的公平与强制？现代政治的核心取舍。",
-      "note_en": "The efficiency-and-inequality of free markets, or the fairness-and-coercion of redistribution? The central trade-off of modern politics.",
-      "cat": "ethics"
-    },
-    {
       "id": "regret",
       "votes": 0,
       "q": "该为过去的选择后悔吗？如何与无法重来的过去和解？",
@@ -22,10 +13,10 @@
     {
       "id": "moral-limits-of-markets",
       "votes": 0,
-      "q": "有什么是金钱不该买卖的？市场该有边界吗？（含：逝者的声音、聊天记录与照着他训练出来的模型该不该进市场——按月订阅一位亲人，算不算对哀伤收租）",
+      "q": "有什么是金钱不该买卖的？市场该有边界吗？（含：逝者的声音、聊天记录与照着他训练出来的模型该不该进市场——按月订阅一位亲人，算不算对哀伤收租；也含平台抽成与流量分配权算不算数字时代的新地租）",
       "q_en": "Is there anything money shouldn't be able to buy? Should markets have moral limits?",
-      "note": "从代孕、器官到选票与友情——当市场逻辑渗入一切，有没有该守住的非卖品？ 也含：逝者的声音、聊天记录与照着他训练出来的模型该不该进市场——按月订阅一位亲人，算不算对哀伤收租。",
-      "note_en": "From surrogacy and organs to votes and friendship — as market logic seeps into everything, are there things that should stay off the auction block? Also: should a dead person's voice, messages and a model trained on them be tradeable at all — is subscribing to a relative by the month a rent charged on grief?",
+      "note": "从代孕、器官到选票与友情——当市场逻辑渗入一切，有没有该守住的非卖品？ 也含：逝者的声音、聊天记录与照着他训练出来的模型该不该进市场——按月订阅一位亲人，算不算对哀伤收租。 也含：当算力与推荐位成了基础设施，平台抽成与流量分配权算不算数字时代的新地租，数据产权该归谁。",
+      "note_en": "From surrogacy and organs to votes and friendship — as market logic seeps into everything, are there things that should stay off the auction block? Also: should a dead person's voice, messages and a model trained on them be tradeable at all — is subscribing to a relative by the month a rent charged on grief? Also: once computing power and recommendation slots become infrastructure, are platform commissions and traffic allocation the ground rent of the digital age, and who should own the data?",
       "cat": "ethics"
     },
     {
@@ -63,15 +54,6 @@
       "note": "柏拉图把民主比作让乘客投票指挥航船、终将触礁，主张哲人王；托克维尔警惕『多数人的暴政』；法家信赏必罚的强力，熊彼特把民主降格为『精英竞争选票』。一个几乎不容置疑的『神圣价值』，值得被认真盘问一次。",
       "note_en": "Plato likened democracy to passengers voting to steer a ship onto the rocks, and argued for philosopher-kings; Tocqueville warned of the 'tyranny of the majority'; Legalism trusts strict reward and punishment, and Schumpeter reduced democracy to 'elites competing for votes.' A near-unquestionable 'sacred value' worth interrogating.",
       "cat": "ethics"
-    },
-    {
-      "id": "play-and-uselessness",
-      "votes": 0,
-      "q": "「闲」是懒惰的遮羞布，还是深处涵养的必需？——不事生产的「无用」时光，到底有没有价值，又怎么和懒区分？",
-      "q_en": "Is 'idleness' a fig-leaf for laziness, or a necessity for deep cultivation? — Does unproductive, 'useless' time have value, and how do we tell it from mere sloth?",
-      "note": "挺闲的：亚里士多德（σχολή『闲暇』是沉思与文化之基，希腊语『学校』即源于它）、罗素《悠闲颂》、庄子（无用之用）、老子；反方：韦伯《新教伦理与资本主义精神》把勤勉神圣化、富兰克林式『时间就是金钱』，以及『这不过是给懒惰找的漂亮借口』的诘问。关键判据：闲之所以是涵养（留白、酝酿、深度需要休耕），与懒之所以是逃避（就是不想启动），到底靠什么区分？接 procrastination 一场苏轼（把每刻填满是不是另一种病）、GPT（无聊是洞见的孵化器）与纽波特（深活靠节奏不靠肾上腺素）的钩子。",
-      "note_en": "For idleness: Aristotle (σχολή, 'leisure,' is the ground of contemplation and culture — the Greek word for 'school' derives from it), Russell's In Praise of Idleness, Zhuangzi (the use of the useless), Laozi; against: Weber's Protestant Ethic and the Spirit of Capitalism sanctifying industry, Franklin's 'time is money,' and the charge that this is merely a pretty excuse for sloth. The crux is a criterion: what distinguishes idleness-as-cultivation (fallow ground, incubation, depth needs rest) from sloth-as-avoidance (you just won't start)? It picks up the procrastination debate's hooks — Su Shi (is filling every moment another kind of sickness?), GPT (boredom as the incubator of insight) and Newport (deep work runs on rhythm, not adrenaline).",
-      "cat": "self"
     },
     {
       "id": "multiverse",
@@ -175,10 +157,10 @@
     {
       "id": "work-life-balance",
       "votes": 0,
-      "q": "「工作与生活的平衡」是能达成的状态，还是一句自我安慰？到底有没有平衡，还是只有取舍？（含：该把多少自己押进这份工作——敬业内卷 vs 安静离职、守住边界）",
+      "q": "「工作与生活的平衡」是能达成的状态，还是一句自我安慰？到底有没有平衡，还是只有取舍？（含：该把多少自己押进这份工作——敬业内卷 vs 安静离职、守住边界；也含「闲」是懒惰的遮羞布还是涵养的必需——不事生产的「无用」时光到底有没有价值、又怎么和懒区分）",
       "q_en": "Is work–life balance an achievable state or a comforting myth — is there balance at all, or only tradeoffs?",
-      "note": "短期里时间精力是零和，『平衡』常被当成能一劳永逸的稳态，达不到反增愧疚；可它也能指长周期的季节轮换、或工作即生活的一部分而非对立面，而『只有取舍』又容易把 996 这类制度问题私人化。Naval『没有平衡，只有优先级』对上罗素《悠闲颂》、塞内卡《论生命之短暂》、凯恩斯的闲暇预言，与纽波特的深度／边界。另一面是『该把多少自己押进这份工作』：敬业内卷与『安静离职』之争、把工作当事业还是当一桩生意——韦伯的新教伦理与铁笼、马克思的异化、庄子的『无用之用』都在这条线上。",
-      "note_en": "In the short run time and energy are zero-sum, and 'balance' is often treated as a steady state to be reached once and for all — falling short only breeds guilt; yet 'balance' can also mean seasons rotating over a long life, or work as part of life rather than its opposite, while 'only tradeoffs' risks privatizing structural problems like the 996 grind. Naval's 'no balance, only priorities' against Russell's In Praise of Idleness, Seneca's On the Shortness of Life, Keynes's leisure prophecy, and Newport's depth/boundaries. The other face of it is how much of yourself to stake on the job at all: devotion and overwork against 'quiet quitting', treating work as a calling or as a transaction — Weber's Protestant ethic and iron cage, Marx on alienation and Zhuangzi's 'usefulness of the useless' all sit on this line.",
+      "note": "短期里时间精力是零和，『平衡』常被当成能一劳永逸的稳态，达不到反增愧疚；可它也能指长周期的季节轮换、或工作即生活的一部分而非对立面，而『只有取舍』又容易把 996 这类制度问题私人化。Naval『没有平衡，只有优先级』对上罗素《悠闲颂》、塞内卡《论生命之短暂》、凯恩斯的闲暇预言，与纽波特的深度／边界。另一面是『该把多少自己押进这份工作』：敬业内卷与『安静离职』之争、把工作当事业还是当一桩生意——韦伯的新教伦理与铁笼、马克思的异化、庄子的『无用之用』都在这条线上。 另一条并进来的线是『闲』：不事生产的『无用』时光到底有没有价值，又该怎么和懒区分。",
+      "note_en": "In the short run time and energy are zero-sum, and 'balance' is often treated as a steady state to be reached once and for all — falling short only breeds guilt; yet 'balance' can also mean seasons rotating over a long life, or work as part of life rather than its opposite, while 'only tradeoffs' risks privatizing structural problems like the 996 grind. Naval's 'no balance, only priorities' against Russell's In Praise of Idleness, Seneca's On the Shortness of Life, Keynes's leisure prophecy, and Newport's depth/boundaries. The other face of it is how much of yourself to stake on the job at all: devotion and overwork against 'quiet quitting', treating work as a calling or as a transaction — Weber's Protestant ethic and iron cage, Marx on alienation and Zhuangzi's 'usefulness of the useless' all sit on this line. A further strand folded in: does unproductive, 'useless' time have value of its own, and how is it told apart from idleness?",
       "cat": "self"
     },
     {
@@ -373,10 +355,10 @@
     {
       "id": "who-keeps-the-peace",
       "votes": 0,
-      "q": "家里、团队里那个负责打圆场的人：把气氛维持下去的这份『情绪劳动』，该不该被看见、被轮换、被算进账里？",
+      "q": "家里、团队里那个负责打圆场的人：把气氛维持下去的这份『情绪劳动』，该不该被看见、被轮换、被算进账里？（含：把这些没人记账的小时真的折算出来摊在桌上谈，是让分工变公平，还是把家变成一间会计室）",
       "q_en": "The person who smooths things over at home and at work: should the emotional labour of keeping the atmosphere intact be made visible, rotated and counted as work?",
-      "note": "记住谁在生谁的气、把难听的话翻译成体面版本、在饭桌上把话头岔开——这份活从不写进任何职责说明，却决定了整个系统的和谐水位，而且长期落在固定的那几个人身上。它到底是一种被低估的能力、一份被指派的差事，还是一层让问题不必被解决的缓冲？若把它明码标价、轮流承担，关系会变好还是变得像交易？",
-      "note_en": "Remembering who is annoyed with whom, translating harsh content into a presentable version, steering the conversation away at dinner — none of it appears in any job description, yet it sets the harmony level of the whole system, and it tends to land on the same few people year after year. Is it an underrated skill, an assigned duty, or a cushion that lets problems go unsolved? And if it were priced and rotated, would relationships improve or start to feel transactional?",
+      "note": "记住谁在生谁的气、把难听的话翻译成体面版本、在饭桌上把话头岔开——这份活从不写进任何职责说明，却决定了整个系统的和谐水位，而且长期落在固定的那几个人身上。它到底是一种被低估的能力、一份被指派的差事，还是一层让问题不必被解决的缓冲？若把它明码标价、轮流承担，关系会变好还是变得像交易？ 再进一步：把这些没人记账的小时真的折算出来、摊在桌上谈，是让分工变公平，还是把家变成一间会计室？",
+      "note_en": "Remembering who is annoyed with whom, translating harsh content into a presentable version, steering the conversation away at dinner — none of it appears in any job description, yet it sets the harmony level of the whole system, and it tends to land on the same few people year after year. Is it an underrated skill, an assigned duty, or a cushion that lets problems go unsolved? And if it were priced and rotated, would relationships improve or start to feel transactional? And one step further: does actually converting those unbooked hours into a number and putting it on the table make the division fairer, or turn a home into an accounts office?",
       "cat": "life"
     },
     {
@@ -386,6 +368,15 @@
       "q_en": "Do rituals still do anything? — Weddings, funerals, anniversaries, opening ceremonies: empty forms and social obligation, or scaffolding the mind cannot do without?",
       "note": "在一个不太信神的时代，礼仪的正当性从哪里来？涂尔干说仪式制造的是共同体而非神迹，人类学看它标记身份的转换，心理学看它给不确定的情绪一个形状与终点。可代价是真实：走过场的婚礼、被指标化的葬礼、公司的团建。哪些仪式该保留、该改造、该废掉——判据是什么？",
       "note_en": "In an age that largely does not believe in gods, where does the legitimacy of ritual come from? Durkheim held that rites manufacture community rather than miracles; anthropology reads them as markers of transitions in status; psychology sees them giving formless emotion a shape and an end. The cost is authenticity: the wedding gone through by rote, the funeral reduced to a checklist, the corporate away-day. Which rites should be kept, which reworked, which abolished — and by what test?",
+      "cat": "life"
+    },
+    {
+      "id": "leave-it-to-kids",
+      "votes": 0,
+      "q": "该不该把家底留给孩子？——把房子、存款、人脉传下去是天经地义的自由，还是机会平等最大的那个漏洞？留多少算爱，留多少就成了替他决定一生？",
+      "q_en": "Should you leave your wealth to your children? — Is passing on the house, the savings and the contacts an obvious liberty, or the largest loophole in equal opportunity?",
+      "note": "制度层面几乎人人反对世袭特权，回到自家餐桌，却几乎人人想把房子、存款与人脉留给孩子。继承是家庭最自然的延续，也是不平等代际复制最主要的通道：一代人的运气经由它变成下一代的起点。留多少算爱、留到多少就成了替他决定一生？巴菲特那句『多到能做任何事，少到不能什么都不做』给了一条经验线；遗产税、赠与、学区房与人脉引荐则是同一件事的不同马甲。还有一问：把钱留给孩子与捐出去，哪一个才对得起自己那份运气？",
+      "note_en": "At the level of policy almost everyone opposes inherited privilege; back at the family table almost everyone wants to leave the house, the savings and the contacts to their children. Inheritance is the most natural continuation of a family and also the main channel through which inequality reproduces itself across generations — one person's luck becomes the next generation's starting line. How much counts as love, and at what point does it decide a life on someone's behalf? Buffett's rule of thumb — enough to do anything, not enough to do nothing — draws one line; estate tax, lifetime gifts, catchment-area housing and a word in the right ear are the same act in different clothes. And a further question: does leaving it to your children or giving it away do more justice to the luck you were handed?",
       "cat": "life"
     }
   ],
@@ -900,6 +891,13 @@
       "q_en": "Should you use AI to 'resurrect' a dead loved one — training a 'them' from their messages and voice to keep you company?",
       "date": "2026-08-03",
       "cat": "life"
+    },
+    {
+      "id": "liberty-vs-equality",
+      "q": "自由与平等不可兼得时，该牺牲哪个？",
+      "q_en": "When liberty and equality can't both be had, which should give way?",
+      "date": "2026-08-04",
+      "cat": "ethics"
     }
   ]
 }

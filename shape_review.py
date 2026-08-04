@@ -81,6 +81,14 @@ def _r1_monologue(posts):
     return "%d/%d" % (sum(1 for p in r1 if not p.get("reply_to")), len(r1)) if r1 else "-"
 
 
+def _bold_spread(posts):
+    """本场加粗处数的分布（如 1处×30）。均值会把『每一帖都恰好一处』抹平成 1.0，
+    看不出整场加粗节奏完全同一；分布能照出这种场内单调——重点该随内容起伏，
+    而不是每帖都机械地标一句。"""
+    c = Counter((p.get("text", "") or "").count("**") // 2 for p in posts)
+    return "/".join("%d处x%d" % (k, c[k]) for k in sorted(c)) if c else "-"
+
+
 def feats(d):
     posts = d.get("posts", [])
     rounds = sorted({p["round"] for p in posts})
@@ -119,6 +127,8 @@ def feats(d):
         "古文帖数": sum(1 for p in posts if p.get("vernacular")),
         "建议带①②③": sum(1 for s in sums if has_num(s.get("advice", ""))),
         "帖均加粗处": round(sum((p.get("text", "").count("**")) // 2 for p in posts) / max(1, len(posts)), 2),
+        # 场内加粗节奏：每帖都恰好一处（1处xN）＝机械化的重点标注，均值查不出
+        "加粗处分布": _bold_spread(posts),
         # 总结陈词是否一律被拉长到上限（第3轮均长 ÷ 第1轮均长；每场都 ~2.0 即是形状定型）
         "总结膨胀比": _r3_ratio(posts),
         # 总结陈词有多少帖用『三件事/三条建议』这类数数起手（人人如此＝同一个模子）
@@ -142,7 +152,7 @@ print("形状自评 ·", tid, "· 对比最近", len(R), "场:", "、".join(eid 
 print("=" * 70)
 
 SCALARS = ["人数","轮数","每轮帖数","钩子数","钩子分布","钩子作者类型","二轮全反一轮","二轮同轮追击","轮内照抄顺序","首轮全独白","表态档集合",
-           "用了疑惑","带glossary帖数","古文帖数","建议带①②③","帖均加粗处","总结膨胀比","总结数数起手","总结转日常"]
+           "用了疑惑","带glossary帖数","古文帖数","建议带①②③","帖均加粗处","加粗处分布","总结膨胀比","总结数数起手","总结转日常"]
 flags = []
 print("\n%-14s %-22s %s" % ("维度", "本场", "最近几场"))
 print("-" * 70)

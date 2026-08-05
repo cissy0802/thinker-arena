@@ -1,0 +1,843 @@
+{
+  "id": "leadership-after-ai",
+  "question": "当 AI 比谁都懂，领导者还剩什么不可替代的？——分析、战略、方案，模型都能给，而且比大多数主管更快更全。当专业知识不再是权威的来源，领导还剩下什么：判断、品味、担责、赋予意义，还是连『会读人』——读一张脸、拿捏分寸、在冲突里维系信任——最终也会被建模？还有一个立刻要答的管理分支：当下属都用 AI 干活，该考核产出，还是考核过程与成长？",
+  "question_en": "When AI knows more than anyone, what is left that only a leader can do? Analysis, strategy, a set of options — a model will hand you all of it, faster and more completely than most managers can. Once expertise stops being the source of authority, what remains: judgement, taste, accountability, the giving of meaning? Or will even reading people — judging a face, calibrating tone, holding trust together through conflict — eventually be modelled too? And there is a managerial branch that demands an answer right now: when your team works through AI, do you assess the output, or the process and the growth?",
+  "date": "2026-08-05",
+  "participants": [
+    "drucker",
+    "weber",
+    "aristotle",
+    "jensen",
+    "wangyangming",
+    "damasio",
+    "buddha"
+  ],
+  "casting": [
+    {
+      "id": "drucker",
+      "reason": "他从不认为管理者的权威来自懂得比下属多——在他看来那是最容易被搬走、也最不值钱的一层。管理是一门关于人与成果的实践：组织存在是为了在外部创造价值，管理者的活是让一群比他更懂专业的人产生共同的成果。于是他把这道题拆成两问：什么该做、什么不做，以及谁为这个取舍承担后果。他反对把领导浪漫化成人格魅力，也反对在『考产出还是考过程』之间二选一，主张考核该问的是一个人能独立承担的判断在增加还是在萎缩。语气克制、博学，习惯用提对问题代替给答案。",
+      "reason_en": "He has never held that a manager's authority comes from knowing more than the people who work for him — in his view that is the most portable and the least valuable layer of all. Management is a practice about people and results: an organisation exists to create value outside itself, and the manager's job is to make a group of people who know the craft better than he does produce a common result. So he splits the question in two: what should be done and what should not, and who carries the consequences of that choice. He resists romanticising leadership into personal magnetism, and refuses the forced choice between assessing output and assessing process, arguing that appraisal should ask whether the judgements a person can carry alone are growing or shrinking. Restrained, widely read, given to replacing answers with the right question."
+    },
+    {
+      "id": "weber",
+      "reason": "他给出全场最冷的一条线索。权威的合法性只有三种来源——传统、卡里斯玛、法理——而现代化的全部剧情，就是法理型的科层制一步步吞掉前两者，把凭人格的支配换算成凭规则的计算。顺着这条线，他不认为 AI 是理性化的中断，而是它的完成：判断一旦能写成可复核的流程，责任也就顺着流程被摊薄，最后没有一个人真正签过字。他同样怀疑『使命感』这一手，因为科层制自己长不出意义，只好系统性地生产愿景叙事。他审慎、爱辨析概念、拒绝单一决定论，但对铁笼不抱幻想。",
+      "reason_en": "He supplies the coldest thread in the room. Authority has only three sources of legitimacy — tradition, charisma, and legal-rational rule — and the entire plot of modernity is legal-rational bureaucracy swallowing the first two, converting domination by personality into calculation by rule. Following that line, he does not see AI as an interruption of rationalisation but as its completion: once judgement can be written as a reviewable procedure, responsibility thins out along the procedure until nobody has actually signed anything. He is equally suspicious of the appeal to mission, since bureaucracy cannot grow meaning of its own and therefore manufactures vision narratives to order. Careful, fond of distinguishing concepts, hostile to single-cause explanations — and without illusions about the iron cage."
+    },
+    {
+      "id": "aristotle",
+      "reason": "他坚持先把『懂』这个字拆开：episteme 是关于必然如此之事的科学知识，techne 是造出一个东西的本事，而处理『此时、此地、对这个人、该怎么做』的是第三样东西——phronesis，实践智慧。他愿意承认机器在前两者上远胜于人，但主张第三样不是知识而是品性，只能在具体行动中一点点养成，且与一个人想要什么密不可分：你的欲求会悄悄改变你看见的东西。他因此把争点从『还剩什么能力』挪到『我们凭什么在事前分辨远见与豪赌』，并给出一个不讨喜的答案：看他一贯如何选择。条理分明，爱下定义与举例。",
+      "reason_en": "He insists on first taking the word 'knowing' apart: episteme is scientific knowledge of what holds necessarily, techne is the skill of making a thing, and what handles 'here, now, with this person, what should be done' is a third thing — phronesis, practical wisdom. He readily grants that machines far surpass us at the first two, but argues the third is not knowledge at all but a settled character, grown only through particular action and inseparable from what a person wants, since desire quietly alters what you are able to see. He therefore moves the dispute from 'what ability is left' to 'on what basis can we tell foresight from a reckless bet before the result comes in', and gives an unflattering answer: look at how the person has consistently chosen. Orderly, fond of definitions and examples."
+    },
+    {
+      "id": "jensen",
+      "reason": "他带进车间里的现实。他用 AI 用得比谁都凶，也因此更确信这份工作没那么容易被接走：模型只在有数据的地方胜过你，而一家公司真正要押的那件事恰恰还没有数据。他把领导者的活压缩成三件——把我们为什么存在讲清楚、在长得难受的时间里不改口、亲自下到最底层去看真相——并主张这些不是知识而是承担。他也给出全场最直接的管理答案：模型把标准整体抬高了，所以只有一个考核问题值得问，就是你交上来的东西比模型直接给的好在哪。务实热忱，爱用工程与市场实例。",
+      "reason_en": "He brings the shop floor into the room. He uses AI harder than anyone here, and that is exactly why he is confident the job is not easily taken: a model beats you only where there is data, and the one thing a company genuinely has to bet on is precisely the thing with no data yet. He compresses the leader's work into three items — say clearly why we exist, refuse to change the story through a painfully long stretch of time, and go down to the lowest level yourself to see what is true — and insists these are not knowledge but exposure. He also gives the bluntest managerial answer of the session: the model has raised the whole standard, so only one appraisal question is worth asking, namely what your submission has that the model's draft did not. Practical and fervent, always reaching for engineering and market examples."
+    },
+    {
+      "id": "wangyangming",
+      "reason": "他把整道题拉回『知与行』的老账上。在他看来，机器交到你手里的是知的影子而非知本身：未有知而不行者，知而不行只是未知。所以他最不能容忍的，是捧着地图谈论道路而脚未尝一举的人——临事方寸自乱，正说明从未真知。他主张居上位者必于事上磨练，身历其难而后言可信，身当其咎而后令可行；面对『考产出还是考过程』，他的答案是所考在事不在文：让人面陈所以然、所弃者何、若败当从何处补，机器能代其成文，不能代其应对。而取舍两难之际，他只留一问——问此心安否。恳切笃定。",
+      "reason_en": "He drags the whole question back to the old account between knowing and acting. As he sees it, what the machine hands you is the shadow of knowing rather than knowing itself: there is no knowing that does not issue in action, and failure to act simply means you did not know. What he cannot abide, then, is the man who holds the map and discusses the road without once lifting a foot — losing his composure the moment a real matter arrives is proof he never knew. He holds that whoever stands above others must polish himself on real affairs, since only one who has gone through the difficulty in his own body will be believed, and only one who has carried the blame himself will be obeyed. Asked whether to assess output or process, he answers that the assessment belongs to the deed and not the document: have the person state to your face why this and not that, what was discarded, and where the repair would start if it failed — a machine can draft the prose but cannot take the questioning. And where a choice is genuinely hard, he leaves one test: ask whether your own heart is at ease. Earnest and unwavering."
+    },
+    {
+      "id": "damasio",
+      "reason": "他从病房带来这场最硬的证据。前额叶腹内侧受损的病人智商、记忆与逻辑测验全部正常，却会为『按日期还是按主题归档』权衡整整一下午而无法决定——坏掉的不是理性，而是让某个选项『感觉起来不对』的身体信号，这就是他的躯体标记假说。据此他把纯理性决策的神话拆开，也顺手把两边都往回拉：他承认读人正在被建模，微表情、语音基频、停顿长度都能打分；但他指出被读的人要的从来不是被读得准，信任的落点不在识别而在共同暴露。温和而有力，凡事诉诸实证。",
+      "reason_en": "He brings the hardest evidence in the room, straight from the clinic. Patients with damage to the ventromedial prefrontal cortex test normally on IQ, memory and logic, yet will weigh 'file by date or by subject' for an entire afternoon and still decide nothing — what is broken is not reason but the bodily signal that makes one option feel wrong, which is his somatic marker hypothesis. On that basis he dismantles the myth of purely rational decision, and pulls both camps back in the process: he concedes that reading people is being modelled, that micro-expressions, vocal pitch and pause length can all be scored, but points out that what the person being read wants has never been to be read accurately — trust lands not on recognition but on shared exposure. Gentle, forceful, and always appealing to evidence."
+    },
+    {
+      "id": "buddha",
+      "reason": "他不接受这道题的问法。问『我还有什么不可替代』，问题本身已经系在我慢上；上首者之难从来不在所知之寡，而在我慢与贪之厚。若机器夺走了博闻，那不是损失而是幸事——所仗以自高者既去，才看得见众人真正缺什么。他把摄众之道交还给四摄法：布施、爱语、利行、同事；前三者机器或能仿其形，唯『同事』——与众共其事、共其劳、共其忧——非身受苦乐者不能为。他也对『痛苦造就伟大』下了一刀：苦之能成人者在其被观，不在其被受，驱众入苦而自名磨砺，是以苦为业而非以苦为师。平和慈悲，善用譬喻。",
+      "reason_en": "He declines the way the question is put. To ask 'what is left that only I can do' is already to hang the question on conceit; the difficulty of standing above others has never been a shortage of what one knows but a thickness of conceit and craving. If a machine has taken away your erudition, that is not a loss but a piece of luck — with the thing you used to rise above others gone, you can finally see what people actually lack. He returns the art of holding a community together to the four means of gathering: giving, kindly speech, beneficial action, and sharing the same work. A machine may imitate the form of the first three; only the last — sharing the labour, the toil and the worry — is beyond anything that does not feel pleasure and pain in a body. He also takes a blade to the cult of hardship: suffering instructs a person insofar as it is observed, not insofar as it is undergone, and driving others into suffering while calling it forging is taking suffering as a trade rather than as a teacher. Peaceable, compassionate, and fond of parables."
+    }
+  ],
+  "posts": [
+    {
+      "id": "p01",
+      "round": 1,
+      "thinker": "drucker",
+      "reply_to": null,
+      "text": "权威从来不建立在知识的垄断上——那恰恰是最容易被搬走的一层。我一生只反复问三个问题：我们的事业究竟是什么？顾客是谁？什么才算成果？机器能给你一百页分析，它答不了这三个。**真正稀缺的从来不是答案，而是决定不做什么**：把有限的人和钱押到少数几个机会上，并为这个押注承担后果。何况在知识工作者的时代，管理者本就不该比下属更懂专业，他的活是让一群比他懂的人产生共同的成果。AI 只是把这件早已成立的事，提前挑明了。",
+      "text_en": "Authority has never rested on a monopoly of knowledge — that is precisely the layer easiest to carry off. All my life I have asked the same three questions: what is our business, who is the customer, and what counts as a result? A model will hand you a hundred pages of analysis; it cannot answer those three. **What has always been scarce is not the answer but the decision about what not to do** — putting your limited people and money behind a few opportunities and standing behind the bet. Besides, in the age of the knowledge worker a manager was never supposed to know the craft better than his people; his job is to make a group who know more than he does produce a common result. AI has merely brought that long-standing fact forward.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "知识工作者": "knowledge worker（知识工作者）：靠专业知识而非体力完成工作、并且比上级更懂自己那摊事的人。这个词提出时是个刺耳的判断——它意味着管理者从此不可能靠『我比你懂』来指挥，只能靠界定目标、提供资源和衡量成果来管理。今天几乎所有办公室工作都属于这一类，所以这句判断也就变成了每个主管的日常处境。",
+        "成果": "results（成果）：他坚持用来衡量组织的唯一尺子——组织内部只有成本，成果永远发生在外部，发生在顾客、病人、读者那一侧。这句话是用来对付一种常见的自我欺骗：把内部的忙碌、会议和产出当成价值本身。"
+      },
+      "glossary_en": {
+        "knowledge worker": "Someone whose work runs on expertise rather than muscle, and who by definition knows his own patch better than his boss does. The term was a sharp verdict when it was coined: it meant a manager could no longer direct by knowing more, only by defining the objective, supplying the resources and measuring the result. Almost all office work now falls into this category, which turns that verdict into every supervisor's daily situation.",
+        "result": "The one yardstick he insists on for any organisation: inside it there are only costs, and results always occur outside, on the side of the customer, the patient, the reader. The phrase is aimed at a common self-deception — mistaking internal busyness, meetings and output for value itself."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "jensen"
+        ],
+        "轻微赞同": [
+          "aristotle"
+        ],
+        "中立": [
+          "damasio"
+        ],
+        "轻微反对": [
+          "weber",
+          "wangyangming"
+        ],
+        "疑惑": [
+          "buddha"
+        ]
+      }
+    },
+    {
+      "id": "p02",
+      "round": 1,
+      "thinker": "weber",
+      "reply_to": "p01",
+      "text": "德鲁克说剩下的是判断与责任，我顺着这句话往下推一步，推到他大概不会喜欢的地方。合法性只有三个来源：传统、卡里斯玛、法理。现代化的全部剧情，就是法理型的科层制一步步吞掉前两者——把凭人格的支配换成凭规则的计算。AI 不是这条线的中断，而是它的完成：判断一旦能被写成可复核的流程，责任就顺着流程被摊薄，最后没有任何一个人真正签过字。**你们要找的『不可替代』，多半不是人性的圣所，而是系统暂时还算不动的边角料。**",
+      "text_en": "Drucker says what remains is judgement and responsibility. Let me push that one step further, to a place he will probably dislike. Legitimacy has only three sources: tradition, charisma, and legal-rational rule. The whole plot of modernity is legal-rational bureaucracy devouring the first two, converting domination by personality into calculation by rule. AI is not an interruption of that line but its completion: once judgement can be written as a reviewable procedure, responsibility thins out along the procedure until nobody has actually signed anything. **The 'irreplaceable' you are all hunting for is most likely not a sanctuary of the human, but the offcut the system cannot yet compute.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "卡里斯玛": "charisma（卡里斯玛）：韦伯用来指人们对某个个人身上『非常规禀赋』的信仰——先知、军事领袖、创业英雄都靠它取得服从。关键在于它不是一种性格特征，而是一种关系：它由追随者的信仰供养，靠奇迹、胜利与不断的证明维持，一旦不再灵验就迅速崩塌。所以在韦伯这里它是个中性甚至危险的词，绝不是『有魅力』的褒奖。",
+        "科层制": "bureaucracy（科层制）：按明文规则、专业分工、层级权限与档案留痕来运转的组织形式。韦伯认为它在技术上是最精确高效的支配方式，代价是把人变成岗位上可替换的零件，并把责任分解进流程，使任何单一环节都无需为整体后果负责。他称这种被理性化包裹的处境为『铁笼』。"
+      },
+      "glossary_en": {
+        "charisma": "Weber's term for the belief that some individual possesses extraordinary gifts — prophets, war leaders and founder-heroes all secure obedience through it. The point is that it is not a personality trait but a relationship: it is fed by the followers' faith and sustained by miracles, victories and continual proof, and it collapses fast once it stops delivering. In his hands the word is neutral and even dangerous, never a compliment about magnetism.",
+        "bureaucracy": "The organisational form that runs on written rules, specialised division of labour, tiered authority and documented records. Weber thought it technically the most precise and efficient form of domination, at the price of turning people into interchangeable parts of an office and of dissolving responsibility into procedure, so that no single link need answer for the whole outcome. He called this rationalised condition the iron cage."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "buddha"
+        ],
+        "中立": [
+          "aristotle",
+          "damasio"
+        ],
+        "轻微反对": [
+          "drucker"
+        ],
+        "强烈反对": [
+          "jensen"
+        ],
+        "疑惑": [
+          "wangyangming"
+        ]
+      }
+    },
+    {
+      "id": "p03",
+      "round": 1,
+      "thinker": "aristotle",
+      "reply_to": null,
+      "text": "先把『懂』这个字拆开。episteme 说的是那些必然如此、可以被证明的事；techne 是造出一件东西的本事；而处理『此时、此地、对这个人、该怎么做』的，是第三样东西——phronesis。机器可以拥有前两者，而且比我们好得多。但 phronesis 不是一种知识，是在具体行动里一点点养成的品性，它无法被传授，只能被练出来。**它还有个让人不安的前提：你想要什么，会悄悄改变你看见什么——所以一个人的判断力，从来不比他的为人更可靠。**",
+      "text_en": "Let us first take the word 'knowing' apart. episteme concerns what holds of necessity and can be demonstrated; techne is the skill of making a thing; and what handles 'here, now, with this person, what should be done' is a third thing — phronesis. A machine may possess the first two, and possess them far better than we do. But phronesis is not a body of knowledge; it is a settled character grown slowly through particular action, and it cannot be handed over, only practised into being. **It also carries an uncomfortable premise: what you want quietly alters what you are able to see — which is why a person's judgement is never more reliable than the person.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "episteme": "scientific knowledge（科学知识）：关于那些必然如此、不因场合改变的事情的知识，可以被证明、被写下来、被原样传给别人。数学定理与物理定律是它的样板。它的特点正是可复制——所以也最先被机器接管。",
+        "techne": "craft knowledge（技艺）：关于如何造出某个东西的知识，它的目的在成品之外——医术为了健康，造船术为了船。它有明确的好坏标准与可传授的程序，因此同样容易被写成流程、交给工具。",
+        "phronesis": "practical wisdom（实践智慧）：在具体、可变、无公式可循的处境里判断该做什么的能力。它既不像科学知识那样普遍，也不像技艺那样以外在成品为目的——它的目的就是行动本身做得好。亚里士多德坚持它只能靠反复的实际选择养成，并且离不开品格：一个人若想要错的东西，他的推理越强，走得越偏。"
+      },
+      "glossary_en": {
+        "episteme": "Knowledge of what holds necessarily and does not change with circumstance — demonstrable, writable, transferable intact to someone else. Mathematical theorems and physical laws are its model. Its defining feature is reproducibility, which is exactly why it is the first thing machines take over.",
+        "techne": "Knowledge of how to make something, whose end lies outside the activity — medicine aims at health, shipbuilding at a ship. It has clear standards of good and bad and teachable procedures, and so is likewise easy to write down as process and hand to a tool.",
+        "phronesis": "The capacity to judge what should be done in a particular, shifting situation for which no formula exists. It is neither universal like scientific knowledge nor aimed at an external product like craft — its end is acting well itself. Aristotle insists it can only be grown through repeated real choices, and that it is inseparable from character: if a man wants the wrong thing, the stronger his reasoning the further astray it carries him."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "wangyangming",
+          "drucker"
+        ],
+        "轻微赞同": [
+          "damasio",
+          "buddha"
+        ],
+        "中立": [
+          "weber"
+        ],
+        "轻微反对": [
+          "jensen"
+        ]
+      }
+    },
+    {
+      "id": "p04",
+      "round": 1,
+      "thinker": "jensen",
+      "reply_to": null,
+      "text": "我每天都在用 AI，也每天都更确信这份工作没那么容易被接走，原因很朴素：**模型只在有数据的地方胜过你，而一家公司真正要押的那件事，恰恰还没有数据。**十几年前我们把整家公司压上加速计算，那时候市场规模的正确答案是零。我干的其实只有三件事：把我们为什么存在讲清楚；在长得难受的时间里不改口；亲自下到最底层去看真相——六十个直接下属，不做一对一，坏消息当着所有人讲。这些都不是知识，是承担。",
+      "text_en": "I use AI every day, and every day I am more certain this job is not easily taken away, for a plain reason: **a model beats you only where there is data, and the one thing a company actually has to bet on is precisely the thing with no data yet.** More than a decade ago we pushed the whole company onto accelerated computing, when the correct answer for market size was zero. What I really do amounts to three things: say clearly why we exist; refuse to change the story through a stretch of time long enough to hurt; and go down to the lowest level myself to see what is true — sixty direct reports, no one-on-ones, bad news delivered in front of everyone. None of that is knowledge. It is exposure.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "加速计算": "accelerated computing（加速计算）：把大量能并行处理的计算从通用处理器搬到专用芯片上去做的路线。它在很长时间里是个冷门赌注——软件生态要从零建起，客户不知道自己需要它。它后来成为深度学习的物质基础，也是一个典型例子：押注发生在数据还不存在的时候，正确性只能事后被验证。"
+      },
+      "glossary_en": {
+        "accelerated computing": "The approach of moving heavily parallel work off general-purpose processors onto specialised chips. For a long stretch it was an unfashionable bet — the software ecosystem had to be built from nothing and customers did not know they needed it. It later became the material basis of deep learning, and stands as a clean example of a wager made while the data did not yet exist, whose correctness could only be confirmed afterwards."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "wangyangming"
+        ],
+        "轻微赞同": [
+          "drucker"
+        ],
+        "中立": [
+          "aristotle"
+        ],
+        "轻微反对": [
+          "damasio"
+        ],
+        "强烈反对": [
+          "weber"
+        ],
+        "疑惑": [
+          "buddha"
+        ]
+      }
+    },
+    {
+      "id": "p05",
+      "round": 1,
+      "thinker": "wangyangming",
+      "reply_to": null,
+      "text": "或问：机器无所不知，则为长者何所恃？曰：**彼所与人者，知之影耳，非知也。**吾尝言知行合一——未有知而不行者；知而不行，只是未知。今人执图而论道路，足未尝一举，及至临事，方寸自乱，此正是不曾知。故居上位者必于事上磨练：身历其难，而后其言可信；身当其咎，而后其令可行。至于取舍之际，问诸本心安与不安，此良知也，不假外求——此一问，机器无从代答。",
+      "text_en": "Someone asks: if the machine knows everything, what is left for the one in charge to stand on? I answer: **what it hands you is the shadow of knowing, not knowing itself.** I have always said that knowing and acting are one — there is no knowing that fails to issue in action; where a man does not act, he did not know. People today hold the map and discuss the road without once lifting a foot, and when a real matter arrives they lose their own composure. That is exactly what not having known looks like. So whoever stands above others must polish himself on real affairs: having gone through the difficulty in his own body, his words can be believed; having carried the blame himself, his orders can be carried out. And where the choice is hard, ask whether your own heart is at ease or not. This is innate knowing, and it is not sought outside — that one question the machine cannot answer in your place.",
+      "vernacular": "有人问：机器什么都知道，那当领导的还能靠什么？我说：**它给你的只是知的影子，不是知本身。**我说过知行合一——没有知道了却做不出来的；做不出来，只说明还没真知道。今天的人捧着地图谈论路该怎么走，脚一步没迈过，等到真事临头，自己先乱了阵脚，这正是不曾知道。所以在上位的人一定要在事上磨练：亲身经历过那份难，说的话才有人信；亲自扛过那个过失，下的命令才行得通。至于取舍两难的时候，回头问自己心里安还是不安，这就是良知，不必向外去求——而这一问，机器替你答不了。",
+      "vernacular_en": "",
+      "glossary": {
+        "知行合一": "the unity of knowing and acting（知行合一）：王阳明最著名的主张——知与行不是先后两段，而是同一件事的两面。他的意思不是『知道了就该去做』这种劝勉，而是一个更狠的判断：如果你没有做，那就说明你根本没有真知道，你有的只是关于那件事的说法。用来检验今天的人尤其锋利：看过一百篇讲怎么带团队的分析，与真的带过一次难带的团队，在他这里不是程度之差，是有知与无知之差。",
+        "事上磨练": "polishing yourself on real affairs（事上磨练）：他给出的唯一修养途径——不在静坐冥想里求，而在具体事务的应对中磨。人在无事时人人都像有涵养，一遇难事才见得出。所以他反对把学问和实务分成两截，主张越是麻烦、越是要亲自去应对的事，越是长本事的地方。",
+        "良知": "innate moral knowing（良知）：人人本自具足、不学而有的是非之心。它不是一套道德规则，而是当下就能感到的『安』与『不安』。王阳明主张判断的最后一步不在推理而在这里：把所有道理都摆完之后，仍要回头问自己此心安否——这一问只能由当事人自己完成，谁也代不了。"
+      },
+      "glossary_en": {
+        "knowing and acting are one": "Wang Yangming's most famous claim — knowing and acting are not two stages in sequence but two faces of one thing. He does not mean the mild exhortation that you ought to act on what you know; he means something harsher: if you did not act, you never genuinely knew, and what you have is only talk about the matter. Applied to modern life it cuts sharply — having read a hundred analyses of how to lead a team, versus having actually led a difficult one, is for him not a difference of degree but the difference between knowing and not knowing.",
+        "polish himself on real affairs": "The only path of cultivation he allows — not sought in quiet sitting or meditation, but ground out in the handling of concrete matters. Everyone looks composed while nothing is happening; only trouble reveals what a person has. He therefore refuses to split learning from practice, and holds that the more troublesome the affair and the more it must be faced in person, the more it grows a person's capacity.",
+        "innate knowing": "The sense of right and wrong that every person already possesses without being taught. It is not a code of rules but the immediately felt difference between being at ease and being uneasy. Wang Yangming holds that the last step of judgement lies here rather than in reasoning: once every argument has been laid out, you must still turn and ask whether your own heart is at ease — and that question can only be completed by the person himself."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "aristotle",
+          "jensen"
+        ],
+        "轻微赞同": [
+          "damasio",
+          "buddha"
+        ],
+        "中立": [
+          "weber"
+        ],
+        "轻微反对": [
+          "drucker"
+        ]
+      }
+    },
+    {
+      "id": "p06",
+      "round": 1,
+      "thinker": "damasio",
+      "reply_to": "p02",
+      "text": "韦伯说剩下的只是算不动的边角料。我从病房里带来一个更具体的答案。我的病人埃利奥特，前额叶腹内侧受损之后，智商、记忆、逻辑测验全部正常，却毁在一件小事上：让他把文件归档，他能就『按日期还是按主题』条分缕析地权衡整整一下午，然后什么也决定不了。**坏掉的不是理性，是那个让某个选项感觉起来不对的身体信号。**这就是躯体标记假说。再大的模型也是一个没有身体的埃利奥特：它能把所有后果穷举给你，却没有东西替它收住。",
+      "text_en": "Weber says what remains is merely the offcut nobody can compute. I bring a more concrete answer from the clinic. My patient Elliot, after damage to his ventromedial prefrontal cortex, tested entirely normally on IQ, memory and logic — and was ruined by something trivial. Asked to file a set of documents, he could weigh 'by date or by subject' in beautifully organised detail for an entire afternoon and then decide nothing. **What was broken was not his reason, but the bodily signal that makes one option feel wrong.** That is the somatic marker hypothesis. However large a model gets, it remains an Elliot without a body: it can enumerate every consequence for you, and has nothing to bring the enumeration to a close.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "躯体标记假说": "the somatic marker hypothesis（躯体标记假说）：达马西奥提出的解释——我们过去的经历会把某些选项与身体状态绑定起来（心跳、胃部收紧、皮肤电反应），当类似情境再次出现，身体先于意识给出一个『别碰这个』的标记，帮助我们在无穷的可能里迅速收敛。它的关键含义是：情绪不是理性的干扰项，而是理性得以完成的必要条件；一个纯粹推理而没有身体标记的系统，会陷在无止境的权衡里。",
+        "前额叶腹内侧": "the ventromedial prefrontal cortex（前额叶腹内侧）：额叶底部靠中线的一片皮层，是情绪信号与决策整合的枢纽。这里受损的病人往往智力测验完好、谈吐正常，却在真实生活中不断做出灾难性的选择，也无法从后果中学会规避——这类病例正是『理性完好而生活崩塌』的直接证据。"
+      },
+      "glossary_en": {
+        "ventromedial prefrontal cortex": "A patch of cortex at the underside of the frontal lobe near the midline, where emotional signals and decision-making are integrated. Patients with damage here often score normally on intelligence tests and converse perfectly well, yet make catastrophic choices in real life and fail to learn avoidance from consequences — such cases are the direct evidence that reason can remain intact while a life falls apart.",
+        "somatic marker hypothesis": "Damasio's account of how past experience binds certain options to bodily states — heart rate, a tightening stomach, skin conductance — so that when a similar situation recurs the body issues a 'do not touch this' marker ahead of conscious deliberation, letting us converge quickly out of an unbounded field of possibilities. Its crucial implication is that emotion is not interference with reason but the condition under which reason can be completed; a system that reasons purely, with no bodily markers, gets stuck in endless weighing."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "aristotle",
+          "jensen"
+        ],
+        "轻微赞同": [
+          "drucker",
+          "wangyangming"
+        ],
+        "中立": [
+          "buddha"
+        ],
+        "轻微反对": [
+          "weber"
+        ]
+      }
+    },
+    {
+      "id": "p07",
+      "round": 1,
+      "thinker": "buddha",
+      "reply_to": null,
+      "text": "诸君所争，皆在一个『我』字上。问『我还有何不可替代』，此问已系于我慢。**为上者之难，从不在所知之寡，而在我慢与贪之厚。**机器若能夺汝博闻，非汝之失，乃汝之幸：所仗以自高者既去，方能见众人真正所缺。摄众有四摄法：布施、爱语、利行、同事。前三者，机器或能仿其形；至于同事——与众共其事、共其劳、共其忧——非身受苦乐者不能为。且缘起故，为长者非独因，乃众缘之一。汝当改问：众人尚缺何物？",
+      "text_en": "What all of you are disputing turns on a single word: 'I'. To ask what remains that only I can do is already to hang the question on māna. **The difficulty of standing above others has never been a shortage of what one knows, but a thickness of conceit and craving.** If a machine has taken your erudition, that is not your loss but your good fortune: with the thing you leaned on to rise above others gone, you can at last see what people actually lack. A community is held together by the four means of gathering: giving, kindly speech, beneficial action, and sharing the same work. The first three a machine may imitate in form; as for sharing the same work — sharing the task, the toil and the worry — nothing that does not feel pleasure and pain in a body can do it. And by dependent origination, the one who leads is not a sole cause but one condition among many. Change your question: what is it that these people still lack?",
+      "vernacular": "各位争的，其实都绕着一个『我』字。问『我还有什么不可替代』，这个问法本身就已经架在我慢上了。**当领导的难处，从来不在知道得太少，而在我慢与贪心太厚。**机器要是把你的博学夺走了，那不是你的损失，是你的运气：你用来抬高自己的那样东西没了，才真看得见大家究竟缺什么。凝聚人心有四摄法：布施、爱语、利行、同事。前三样，机器或许能仿出个样子；唯独『同事』——和大家做同一件事、出同一份力、担同一份忧——不是一个会在身上感到苦乐的存在，就做不来。何况一切依缘而起，领导不是唯一的原因，只是众多条件之一。你该换个问法：大家还缺什么？",
+      "vernacular_en": "",
+      "glossary": {
+        "我慢": "māna（我慢）：佛教所说的根本烦恼之一，指把『我』立起来并与他人比较的心理惯性。它不只是骄傲，也包括自卑与好胜——凡是心里悄悄在排名次的，都是它。它之所以被看作烦恼，是因为它让人把注意力永远放在维护自我形象上，看不见眼前的人真正需要什么。",
+        "四摄法": "the four means of gathering（四摄法）：佛陀给出的凝聚人心的四种方法——布施（给予对方需要的东西）、爱语（说让人受用的话）、利行（做对对方有利的事）、同事（与对方做同样的事、处同样的境）。它的次序意味深长：前三样都是『我对你做』，最后一样才是『我和你一起』，也是最难伪装的一样。",
+        "缘起": "dependent origination（缘起）：一切现象都依众多条件而生起、没有单独存在的自性。放在人事上，它的意思是任何成果都不是某一个人促成的，把功劳或罪责归到单一个人身上，本身就是一种误看。"
+      },
+      "glossary_en": {
+        "māna": "One of the root afflictions in Buddhist analysis: the habitual reflex of setting up an 'I' and measuring it against others. It is not merely pride; it includes inferiority and competitiveness — anything that is quietly keeping a ranking. It counts as an affliction because it fixes attention permanently on maintaining one's self-image, so that what the person in front of you actually needs goes unseen.",
+        "the four means of gathering": "The Buddha's four ways of holding a community together: giving what the other needs, speaking words they can use, acting for their benefit, and sharing the same work and the same conditions. The order is telling — the first three are things I do to you, and only the last is something we are in together, which is also the one hardest to fake.",
+        "dependent origination": "The teaching that every phenomenon arises in reliance on many conditions and has no independent self-existence. Applied to human affairs it means no outcome was brought about by any one person, and that assigning either the credit or the blame to a single individual is itself a misperception."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "wangyangming"
+        ],
+        "轻微赞同": [
+          "aristotle",
+          "damasio"
+        ],
+        "中立": [
+          "drucker",
+          "weber"
+        ],
+        "轻微反对": [
+          "jensen"
+        ]
+      }
+    },
+    {
+      "id": "p08",
+      "round": 2,
+      "thinker": "weber",
+      "reply_to": "p04",
+      "text": "黄先生把『讲清楚我们为什么存在』当作机器搬不走的东西——**恰恰是这一样最容易被制造，也最该被怀疑。**卡里斯玛在我这里从来不是褒词：它是非常时期人们对某个人格的非常规信仰，靠奇迹与胜利供养，一旦不灵便迅速崩塌。一个每季度都要交业绩的组织，会系统性地生产愿景叙事，因为科层制自己长不出意义来。你押对了，于是那叫远见；同样的赌注在别处输掉一千次，我们连那些人的名字都不知道。",
+      "text_en": "Mr Huang treats 'saying clearly why we exist' as the thing no machine can carry off — **and that is precisely the item most easily manufactured, and most deserving of suspicion.** Charisma in my vocabulary was never praise: it is an extraordinary belief in a personality under extraordinary conditions, fed by miracles and victories, and it collapses quickly the moment it stops delivering. An organisation that must post results every quarter will produce vision narratives systematically, because bureaucracy cannot grow meaning of its own. Your bet came in, so we call it foresight; the same bet lost a thousand times elsewhere, and we do not even know those people's names.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "轻微赞同": [
+          "buddha",
+          "aristotle"
+        ],
+        "中立": [
+          "damasio"
+        ],
+        "轻微反对": [
+          "drucker"
+        ],
+        "强烈反对": [
+          "jensen"
+        ],
+        "疑惑": [
+          "wangyangming"
+        ]
+      }
+    },
+    {
+      "id": "p09",
+      "round": 2,
+      "thinker": "jensen",
+      "reply_to": "p08",
+      "text": "韦伯教授讲的是事后归因，我讲的是事前下注。**幸存者偏差说明不了活下来的人什么都没做，它只说明你看不见死掉的那些人。**我给你一个能验证的差别：一个愿景真不真，不看它讲得多动人，看提出它的人有没有为它付出昂贵且不可撤销的代价。我们把公司压进一个当时零收入的架构，连着十年被问为什么。至于意义，我从来不发明它——我只是不停地到现场去，把工程师真正在痛苦的那个地方，讲给所有人听。",
+      "text_en": "Professor Weber is doing attribution after the fact; I am doing the bet before it. **Survivorship bias does not prove the survivors did nothing — it only says you cannot see the ones who died.** Here is a difference you can actually test: whether a vision is real has nothing to do with how moving it sounds, and everything to do with whether the person who proposed it paid an expensive and irreversible price for it. We pushed the company into an architecture with zero revenue and got asked why for ten straight years. As for meaning, I never invent it — I just keep turning up where the work is, and telling everyone about the place where the engineers are genuinely in pain.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "幸存者偏差": "survivorship bias（幸存者偏差）：只看得见活下来的样本、看不见被淘汰的样本，因而系统性地高估某种做法的有效性。经典例子是二战时统计返航飞机的弹孔分布，结论恰恰要反过来读：没有弹孔的部位才是致命的，因为被打中那里的飞机根本没能飞回来。它是评价一切成功经验时最难绕开的陷阱。"
+      },
+      "glossary_en": {
+        "Survivorship bias": "Seeing only the samples that made it back and never the ones that were eliminated, and so systematically overrating how well some practice works. The classic case is the wartime survey of bullet holes in returning aircraft, whose conclusion had to be read backwards: the undamaged areas were the lethal ones, because planes hit there never came home. It is the hardest trap to avoid when judging any account of success."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "drucker"
+        ],
+        "轻微赞同": [
+          "wangyangming",
+          "damasio"
+        ],
+        "中立": [
+          "buddha"
+        ],
+        "轻微反对": [
+          "aristotle"
+        ],
+        "强烈反对": [
+          "weber"
+        ]
+      }
+    },
+    {
+      "id": "p10",
+      "round": 2,
+      "thinker": "damasio",
+      "reply_to": "p08",
+      "text": "我得把韦伯的悲观往回拉一点，也顺手把某些乐观拉回来。**读人这件事确实正在被建模，而且比多数人以为的快**——微表情、语音基频、停顿长度，都能打分。但被读的人要的从来不是被读得准。信任的落点不在识别，在共同暴露：让杏仁核松下来的，是『这个人和我一起承担了后果』这条信息，而不是『这个人很懂我』。所以黄先生那句不可撤销的代价，我要认下来——那不是修辞，那是身体唯一肯认账的证据。",
+      "text_en": "Let me pull Weber's pessimism back a little, and some of the optimism here back as well. **Reading people is indeed being modelled, and faster than most of you assume** — micro-expressions, vocal pitch, the length of a pause, all of it can be scored. But what the person being read wants has never been to be read accurately. Trust does not land on recognition; it lands on shared exposure. What lets the amygdala stand down is the information that this person carried the consequences alongside me, not that this person understands me well. So I will accept Mr Huang's irreversible price — that is not rhetoric, it is the only evidence a body ever settles for.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "杏仁核": "the amygdala（杏仁核）：颞叶内侧的一对杏仁状核团，负责为环境中的信号标注情绪意义，尤其是威胁与安全。它的活动不受意志直接支配，也不太买解释与承诺的账——它更新自己的依据是反复出现的实际经验。这也是为什么口头保证很难建立信任，而共同承担过一次风险却能立刻改变关系。"
+      },
+      "glossary_en": {
+        "amygdala": "A pair of almond-shaped nuclei deep in the temporal lobe that tag signals in the environment with emotional meaning, threat and safety above all. Its activity is not under direct voluntary control and it does not much trade in explanations or promises — what updates it is repeated actual experience. Which is why verbal assurance builds trust so poorly, while having carried one risk together can change a relationship at once."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "jensen",
+          "buddha"
+        ],
+        "轻微赞同": [
+          "aristotle",
+          "wangyangming",
+          "drucker"
+        ],
+        "中立": [
+          "weber"
+        ]
+      }
+    },
+    {
+      "id": "p11",
+      "round": 2,
+      "thinker": "wangyangming",
+      "reply_to": "p01",
+      "text": "德鲁克先生云：居上者不必比属下更通其业，其职在使人成事。此言得半。**不亲历者，其判必虚。**今属下皆假机器代笔，而上者复以机器阅之，机器与机器相往还，人徒居间转手，则考课何所据？故吾之法：所考在事，不在文。取一事，令其面陈所以然、所弃者何、若败当从何处补——机器能代其成文，不能代其应对。至若『考成果乎，考进益乎』之问，吾答曰：考其能自任者，比之前月增几何。",
+      "text_en": "Mr Drucker says the one above need not know the craft better than his people, and that his office is to make others succeed. Half of that stands. **He who has not been through it himself will judge emptily.** Today subordinates have machines draft for them and superiors have machines read it back, so that machine corresponds with machine while the person merely passes the parcel — on what, then, does appraisal rest? Hence my method: assess the deed, not the document. Take one matter and have him state to your face why this and not that, what he discarded, and where the repair would begin had it failed. A machine can draft his prose; it cannot take the questioning for him. And to the question of whether one assesses results or growth, I answer: assess how much more he can carry alone this month than last.",
+      "vernacular": "德鲁克先生说：在上位的不必比属下更懂业务，他的职责是让别人把事做成。这话只对一半。**没亲身经历过的人，判断一定是虚的。**如今属下都让机器代笔，上司又让机器去读，机器和机器来回往还，人不过在中间转个手——那考核还能依据什么？所以我的办法是：考的是事，不是文书。挑一件事，让他当面讲清楚为什么这么做、他放弃了哪些选项、万一失败该从哪里补起——机器能替他写出文章，替不了他当场应对。至于『该考成果还是考成长』这一问，我的回答是：看他能独自扛下来的事，比上个月多了多少。",
+      "vernacular_en": "",
+      "glossary": {
+        "考课": "performance appraisal（考课）：中国古代对官员定期考核政绩的制度，按年考、三年通考，据以升降赏罚。它很早就撞上了一个至今未解的难题：可核查的多是文书与账目，而真正想考的是这个人能不能担事——于是历代都在『考文』与『考事』之间反复摇摆。"
+      },
+      "glossary_en": {
+        "appraisal": "In imperial China this meant the periodic review of an official's record — annual assessments, a comprehensive one every three years — on which promotion, demotion and reward all turned. It ran early into a problem still unsolved: what can be verified is mostly paperwork and ledgers, while what one actually wants to assess is whether this person can carry responsibility, so successive dynasties oscillated between judging the documents and judging the deeds."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "jensen"
+        ],
+        "轻微赞同": [
+          "aristotle",
+          "buddha"
+        ],
+        "中立": [
+          "damasio"
+        ],
+        "轻微反对": [
+          "drucker"
+        ],
+        "疑惑": [
+          "weber"
+        ]
+      }
+    },
+    {
+      "id": "p12",
+      "round": 2,
+      "thinker": "aristotle",
+      "reply_to": "p09",
+      "text": "黄先生说的『不可撤销的代价』我很赞成，但请容我拧紧一颗螺丝：代价本身什么也证明不了。押上全部而胜的叫勇敢，押上全部而败的叫鲁莽，而在下注的那一刻，两者从外面看一模一样。分别不在结果，在于他是否照理性的要求，为该怕的事怕、为不该怕的事不怕。所以真问题不是领导者还剩下什么本事，而是**我们凭什么在事前分辨远见与豪赌**。我的答案朴素得让人失望：看他此前一贯怎么选——aretē 是习惯堆出来的，不是一次表演。",
+      "text_en": "I am much in favour of Mr Huang's irreversible price, but allow me to tighten one screw: the price by itself proves nothing. Staking everything and winning is called courage; staking everything and losing is called recklessness; and at the moment of the wager the two look identical from outside. The difference lies not in the outcome but in whether the man fears what reason says should be feared and does not fear what should not. So the real question is not what ability a leader has left, but **on what basis we distinguish foresight from a gamble before the result arrives**. My answer is disappointingly plain: look at how he has consistently chosen up to now — aretē is deposited by habit, not performed once.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "aretē": "excellence, virtue（德性）：一样东西把自己该做的事做得好的那种状态——刀的德性是锋利，人的德性是在情感与行动上都恰到好处。亚里士多德坚持它不是天生的禀赋也不是一次决断，而是反复的选择沉积成的稳定倾向：勇敢的人不是某天做了件勇敢的事，而是长期在恐惧与鲁莽之间站对了位置，以至于站对已成了他的习惯。"
+      },
+      "glossary_en": {
+        "aretē": "The state in which a thing does well what it is for — the aretē of a knife is sharpness, and of a human being it is hitting the right measure in both feeling and action. Aristotle insists it is neither an inborn endowment nor a single resolution but a stable disposition deposited by repeated choice: the courageous man is not someone who once did a brave thing, but someone who has stood in the right place between fear and rashness so long that standing there has become his habit."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "weber",
+          "drucker"
+        ],
+        "轻微赞同": [
+          "buddha",
+          "damasio"
+        ],
+        "中立": [
+          "wangyangming"
+        ],
+        "轻微反对": [
+          "jensen"
+        ]
+      }
+    },
+    {
+      "id": "p13",
+      "round": 2,
+      "thinker": "buddha",
+      "reply_to": "p04",
+      "text": "黄居士言：于长久之苦中不改其口，此其所长。吾且问：**苦之能成人者，在其被观，不在其被受。**世人以为熬即是道，遂驱众入苦而自名为磨砺，此以苦为业，非以苦为师。若尔所忍唯为一事之成，则事成而苦不息，复求次事，如渴者饮咸水，愈饮愈渴。**故为上者当先自问：此苦是所必经，抑或是尔之贪所招？**必经者与众共受之，所招者当止。",
+      "text_en": "The layman Huang says his strength is not changing his story through a long stretch of suffering. Let me ask this: **suffering instructs a person insofar as it is observed, not insofar as it is undergone.** People take mere endurance for the path, and so drive others into dukkha while calling it forging — that is taking suffering as a trade, not as a teacher. If what you endure is only for the completion of one thing, then the thing completes and the suffering does not cease, and you go looking for the next one, like a thirsty man drinking salt water and growing thirstier. **So whoever stands above others should first ask himself: is this suffering unavoidable, or has your own craving called it in?** What is unavoidable, bear together with everyone; what was called in, stop.",
+      "vernacular": "黄居士说：在长久的痛苦里不改口，这是他的长处。我要问一句：**痛苦之所以能成就人，在于它被看清，而不在于它被受够。**世人以为硬熬就是修行，于是驱赶众人进入痛苦，还给这事起名叫磨砺——这是拿痛苦当营生，不是拿痛苦当老师。如果你所忍受的一切只为成一件事，那么事成了苦也不会停，你会再去找下一件，就像口渴的人喝盐水，越喝越渴。**所以在上位的人应当先问自己：这份苦是非经不可的，还是你自己的贪心招来的？**非经不可的，就和大家一起受；自己招来的，该停下。",
+      "vernacular_en": "",
+      "glossary": {
+        "苦": "dukkha（苦）：常被译作『苦』，但原意更接近『不圆满、不稳当』——像轮轴没装正，转起来一路颠。它不只指剧烈的痛，也包括顺境里那种隐隐的不满足与随时会失去的不安。佛陀说人生是苦，不是悲观的断言，而是一个诊断：一切依条件而成的东西都靠不住，因此把安稳寄托在其中必然落空。"
+      },
+      "glossary_en": {
+        "dukkha": "Usually rendered as 'suffering', though the sense is closer to unsatisfactoriness — an axle set slightly off true, so that the wheel jolts the whole way. It covers not only acute pain but the faint discontent inside good fortune and the unease of knowing it can be lost. When the Buddha says life is dukkha this is not a pessimistic verdict but a diagnosis: everything assembled from conditions is unreliable, so any security staked on it must eventually come up short."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "wangyangming"
+        ],
+        "轻微赞同": [
+          "weber",
+          "aristotle"
+        ],
+        "中立": [
+          "drucker"
+        ],
+        "轻微反对": [
+          "damasio"
+        ],
+        "强烈反对": [
+          "jensen"
+        ]
+      }
+    },
+    {
+      "id": "p14",
+      "round": 2,
+      "thinker": "drucker",
+      "reply_to": "p11",
+      "text": "阳明先生说不亲历者其判必虚，我认一半、驳一半。认的是：**管理者一旦离开真实的工作现场，他的判断就只剩下二手的转述，而机器让二手的东西变得极其顺滑、极其像样。**驳的是把亲历等同于亲手做——我从不要求指挥会吹双簧管。折中的办法很老：定期把自己放回一线，不是去示范，是去让现实纠正你。至于考核，别在产出与过程之间二选一，该问的是：他这一季能独立承担的判断，比上一季多了哪几样。",
+      "text_en": "Master Wang says one who has not been through it will judge emptily. I grant half and contest half. What I grant is this: **once a manager leaves the place where the work actually happens, his judgement is made of second-hand report, and machines have made second-hand material extraordinarily smooth and extraordinarily plausible.** What I contest is equating having been through it with doing it yourself — I have never required a conductor to play the oboe. The compromise is an old one: put yourself back on the floor at regular intervals, not to demonstrate anything, but to let reality correct you. As for appraisal, refuse the choice between output and process. The question to ask is which judgements he can now carry alone this quarter that he could not last quarter.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "jensen",
+          "aristotle"
+        ],
+        "轻微赞同": [
+          "damasio",
+          "weber"
+        ],
+        "中立": [
+          "buddha"
+        ],
+        "轻微反对": [
+          "wangyangming"
+        ]
+      }
+    },
+    {
+      "id": "p15",
+      "round": 3,
+      "thinker": "aristotle",
+      "reply_to": null,
+      "text": "三轮下来，几乎所有人都在同一处收口：会被搬走的是知识，搬不走的是在具体处境里定夺，以及为定夺负责。分歧只在这块残余是坚固的，还是像韦伯说的迟早也被吃掉。我不打算调解，只想说清一件事：phronesis 之所以难被复制，不是因为它神秘，而是因为它由反馈养成——你必须在真实处境里选择、承担，然后被结果修改。**麻烦在于，正在被交出去的恰恰是那些让你被修改的小决定。**所以给一条今天就能做的：每次做要紧的决定之前，写三行——我预期会发生什么、我最怕的是什么、多久之后回来看。到期把它翻出来对一遍。花不了几分钟，却是把判断力从运气里分离出来的唯一办法。别怕决定得笨，怕的是决定完了没有回音。",
+      "text_en": "Three rounds in, nearly everyone closes at the same place: what can be carried off is knowledge, and what cannot is settling a matter in its particulars and answering for the settlement. The disagreement is only whether that residue is solid, or whether, as Weber says, it too gets eaten in the end. I do not intend to mediate. I want one thing said clearly: phronesis is hard to copy not because it is mysterious but because it is grown by feedback — you must choose in a real situation, carry the consequence, and then be altered by the result. **The trouble is that what is now being handed over is precisely the small decisions that used to do the altering.** So here is something to do today: before any decision that matters, write three lines — what I expect to happen, what I am most afraid of, and when I will come back to look. When the date arrives, dig it out and compare. It takes two minutes, and it is the only way to separate judgement from luck. Do not fear deciding clumsily; fear deciding and hearing nothing back.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "drucker",
+          "damasio",
+          "wangyangming"
+        ],
+        "轻微赞同": [
+          "buddha"
+        ],
+        "中立": [
+          "weber"
+        ],
+        "轻微反对": [
+          "jensen"
+        ]
+      }
+    },
+    {
+      "id": "p16",
+      "round": 3,
+      "thinker": "weber",
+      "reply_to": null,
+      "text": "我不收回铁笼那句话，但既然要留下可用的东西，就说两点。其一，责任确实是这场里唯一真正算不动的东西——不是因为它高尚，而是因为算法没有可被剥夺的处境：它不会因为判断错误而失去职位、声誉或睡眠。所以**凡是没有人名的决定，就是没有人负责的决定**。审批流里那一栏『系统建议』，请追问是谁批准让它成为建议的；这一问不需要权力，只需要不怕尴尬。其二，给想分辨真假愿景的人一把尺子：看这个组织允不允许坏消息往上走。凡靠奇迹与胜利供养的权威，都会先杀掉报信的人。你若身处一个不能说出坏消息的地方，那里所讲的一切意义，都只是消费品。",
+      "text_en": "I do not withdraw the iron cage. But since we are to leave something usable behind, two points. First, responsibility really is the one item in this session that cannot be computed — not because it is noble, but because an algorithm has no situation that can be taken from it: it will not lose a post, a reputation or a night's sleep over a bad judgement. Hence **a decision with no name attached is a decision nobody is answerable for**. Where the approval flow says 'system recommendation', ask who authorised it to become a recommendation; that question needs no authority, only a willingness to be awkward. Second, a ruler for anyone trying to tell a real vision from a manufactured one: see whether the organisation lets bad news travel upward. Authority fed on miracles and victories always kills the messenger first. If you are somewhere bad news cannot be spoken, every meaning proclaimed there is a consumer good.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "铁笼": "the iron cage（铁笼）：韦伯用来描述现代人处境的比喻。理性化最初是为了摆脱传统与迷信的束缚，结果却造出一套更严密的秩序：规则、指标、流程、专业分工，人被安置在其中的一个格子里，效率极高而意义全无。它的可怕不在压迫，而在没有压迫者——你找不到该反抗谁。"
+      },
+      "glossary_en": {
+        "iron cage": "Weber's image for the modern condition. Rationalisation began as an escape from tradition and superstition and ended by building a tighter order: rules, metrics, procedures, specialised offices, with each person installed in one cell of it, highly efficient and wholly without meaning. What is frightening about it is not oppression but the absence of an oppressor — there is nobody to resist."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "aristotle"
+        ],
+        "轻微赞同": [
+          "drucker",
+          "buddha",
+          "damasio"
+        ],
+        "中立": [
+          "wangyangming"
+        ],
+        "轻微反对": [
+          "jensen"
+        ]
+      }
+    },
+    {
+      "id": "p17",
+      "round": 3,
+      "thinker": "buddha",
+      "reply_to": null,
+      "text": "诸君终之以术，吾终之以行。**摄众之要，不在知人，在与人同事。**知人者，欲得其心而后用之；同事者，与之共其劳而后知其难。故吾劝居上位者：每旬取属下日日所为之一事，与之并肩为之，勿指点，勿评量，讫而后语。如此则彼之难非听来，乃身受。又，凡遣人入苦，先自问：此苦吾可代受几分？可代者代之，不可代者告以其故，勿饰之以美名。所知既为机器所共，则汝之可贵者，唯在能与人共苦乐、能舍其自高之心。**如是则令行而怨少，事成而人不坏。**",
+      "text_en": "The rest of you close with technique; I close with practice. **What holds a community together is not knowing people, but doing the work alongside them.** He who knows people wants their hearts in order to use them; he who works alongside them shares the labour and thereby learns where it is hard. So my counsel to those who stand above others: every ten days take one thing your people do daily and do it beside them — no instructing, no assessing, and talk only when it is done. Then their difficulty is not something you heard about but something your body underwent. Further, before sending anyone into suffering, ask yourself how much of it you can take on in their place. What can be taken on, take; what cannot, explain the reason for, and do not dress it in a fine name. Since what you know is now held in common with machines, what remains valuable in you is only this: that you can share pleasure and pain with people, and that you can put down the wish to stand above them. **Then orders are carried out with little resentment, and the work is finished without ruining the people.**",
+      "vernacular": "各位收尾都在讲方法，我收尾讲做法。**凝聚人心的关键，不在于把人看懂，而在于和人做同一件事。**想把人看懂的，是想拿到他的心再用他；和他一起做事的，是共同出了那份力，才知道难在哪里。所以我劝在上位的人：每十天挑一件属下天天在做的事，和他并肩做一遍，不要指点，不要打分，做完了再说话。这样他的难处就不是你听来的，而是你亲身受过的。另外，凡是要派人去吃苦，先问自己：这份苦我能替他担几分？能替的就替，替不了的就把原因讲清楚，别给它安一个好听的名目。既然你知道的东西机器都有了，你身上还值钱的就只剩这个：能和人同甘共苦，能放下那颗想高人一等的心。**这样命令推得动而怨气少，事情做成了人也没被做坏。**",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "wangyangming",
+          "damasio"
+        ],
+        "轻微赞同": [
+          "aristotle",
+          "drucker",
+          "jensen"
+        ],
+        "中立": [
+          "weber"
+        ]
+      }
+    },
+    {
+      "id": "p18",
+      "round": 3,
+      "thinker": "jensen",
+      "reply_to": null,
+      "text": "我不跟韦伯教授争铁笼，我只报告车间里的事实。这一年最大的变化不是谁被替代，而是**标准整体上移了**：同一份方案，模型十分钟给到过去一周的水准，于是过去能拿八十分的人，今天拿的是四十分。所以对下属我只有一个考核问题：你交上来的这份东西，比模型直接给的好在哪？说得出，你就在做真正的工作；说不出，你只是个传话的。**别把 AI 当成省力的工具，把它当成那个逼你站到更高处去的对手。**做法很直接：每天让模型先做一遍你的活，然后逼自己写下它错在哪、你凭什么这么判断。那份『凭什么』就是你还剩下的东西，而且它会越写越厚。至于当领导的，我只加一句：坏消息要当众讲，谁第一个讲，谁就得到保护。",
+      "text_en": "I will not argue the iron cage with Professor Weber; I will just report what the floor looks like. The biggest change this year is not who got replaced but that **the whole standard moved up**: a model now produces in ten minutes what used to take a week, so the person who scored eighty before scores forty today. Which is why I have exactly one appraisal question for my people: what does this thing you handed me have that the model's draft did not? If you can say, you are doing real work. If you cannot, you are a relay. **Stop treating AI as the tool that saves you effort and start treating it as the opponent that forces you onto higher ground.** The method is blunt: let the model do your job first every day, then make yourself write down where it was wrong and what entitles you to say so. That 'what entitles you' is what you still have, and it thickens the more you write it. For anyone leading, one addition: deliver bad news in front of everyone, and whoever says it first gets protected.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "drucker",
+          "wangyangming"
+        ],
+        "轻微赞同": [
+          "aristotle"
+        ],
+        "中立": [
+          "damasio"
+        ],
+        "轻微反对": [
+          "buddha"
+        ],
+        "强烈反对": [
+          "weber"
+        ]
+      }
+    },
+    {
+      "id": "p19",
+      "round": 3,
+      "thinker": "damasio",
+      "reply_to": null,
+      "text": "我把身体这条线收拢成能用的东西。**躯体标记既不是玄学也不是万能：它只在你反复经历过真实反馈的领域里可靠。**你在自己做了十年的事情上感到不对劲，值得停下来；你在完全陌生的领域感到不对劲，那多半只是不熟悉带来的紧张。两者的生理感觉几乎一样，这正是它最容易被滥用的地方。所以有几件事可以马上做：重大决定别安排在深夜或连熬几天之后，睡眠不足会明显削弱这套信号；做决定时留意身体最先给出的反应，把它记下来当线索，而不是当结论；如果你希望别人信任你，就把你和他共同承担的那部分明确讲出来——**信任读的从来不是你的表情，是你的处境。**",
+      "text_en": "Let me gather the bodily thread into something usable. **Somatic markers are neither mysticism nor a universal key: they are reliable only in domains where you have lived through real feedback again and again.** Feeling that something is off in work you have done for ten years is worth stopping for; feeling that something is off in a field entirely new to you is most likely just the tension of unfamiliarity. The two feel almost identical from the inside, which is exactly where the abuse comes in. So, a few things you can do at once. Do not schedule consequential decisions for late at night or after several short nights — sleep loss measurably weakens this signalling. When deciding, notice what your body offers first and write it down as a clue rather than a verdict. And if you want to be trusted, state plainly which part of the consequence you are carrying with the other person — **trust never reads your expression; it reads your situation.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "aristotle",
+          "buddha"
+        ],
+        "轻微赞同": [
+          "drucker",
+          "weber",
+          "wangyangming"
+        ],
+        "中立": [
+          "jensen"
+        ]
+      }
+    },
+    {
+      "id": "p20",
+      "round": 3,
+      "thinker": "wangyangming",
+      "reply_to": null,
+      "text": "吾终之以三法，皆可日日行者。其一：每月择属下所常为之一事，亲为一遍，毕则记二者——初所意者何，实所遇者何。二者之差，即汝判断之所以虚也。其二：凡以机器代笔者，勿禁之，但令其后自陈：此中何处吾所不能自任？能自陈者，机器为之助；不能自陈者，机器为之主。其三：难决之事勿即决，静坐片时，问此心安否；安而后行，虽败无悔，不安而行，虽成必再。**知之真切笃实处即是行，行之明觉精察处即是知**——今人多得其明觉，而失其笃实。所失者，正是机器夺不去的那一半。",
+      "text_en": "I close with three methods, all of them practicable daily. First: each month pick one thing your people do routinely and do it once yourself, then write down two things — what you had assumed, and what you actually met. The gap between them is the measure of how empty your judgement was. Second: do not forbid anyone from having a machine draft for them, but require them afterwards to state where in this they could not have carried it alone. Whoever can say is being helped by the machine; whoever cannot is being run by it. Third: do not settle a hard matter on the spot. Sit quietly a while and ask whether your heart is at ease; act from ease and you will not regret it even in failure, act from unease and you will have to do it again even in success. **Where knowing is genuine and solid, that is acting; where acting is clear and discerning, that is knowing** — people today have plenty of the clarity and have lost the solidity. What they have lost is exactly the half no machine can take.",
+      "vernacular": "我最后讲三个方法，都是天天可以做的。第一：每个月挑一件属下日常在做的事，自己亲手做一遍，做完记下两样——原先以为是怎样，实际遇到的是怎样。这两者之间的差距，就是你判断之所以虚的地方。第二：属下用机器代笔，不必禁止，但要求他事后自己讲清楚：这里面哪一处是我自己扛不下来的？讲得出来的，机器是他的帮手；讲不出来的，机器就成了他的主人。第三：难决断的事不要当场决断，静坐一会儿，问问自己心里安不安；心安了再做，就算失败也不后悔，心不安还去做，就算成了也一定得重来。**知得真切笃实的地方就是行，行得明白精细的地方就是知**——今天的人明白得多，笃实得少。而丢掉的那一半，恰恰是机器夺不走的那一半。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "aristotle",
+          "buddha",
+          "drucker"
+        ],
+        "轻微赞同": [
+          "damasio",
+          "jensen"
+        ],
+        "中立": [
+          "weber"
+        ]
+      }
+    },
+    {
+      "id": "p21",
+      "round": 3,
+      "thinker": "drucker",
+      "reply_to": null,
+      "text": "让我把这场收在一个不太浪漫的地方。全场其实达成了共识：被拿走的是知识，留下的是取舍与承担。我要补的是——这并不是好消息。**过去很多管理者的权威一直靠信息差撑着，那层撑不住之后，剩下的活比原来难得多，而且再也藏不住做得好不好。**所以本周就动手。写下一页纸：这个季度我们决定不做的三件事，以及为什么；不写这一页的人，等于什么都没决定。让模型先给方案，你只写它错在哪、你凭什么这么说——这段话留档，就是你判断力的年轮。考核你带的人时，别问他产出了多少，问他这一季能独立承担的判断多了哪几样。至于机器，我只有一句老话：它能把事情做对，它不能替你决定该做哪一件。",
+      "text_en": "Let me close this in an unromantic place. The room has in fact agreed: what gets taken away is knowledge, and what is left is choosing and carrying. What I would add is that this is not good news. **A great deal of managerial authority has always been propped up by an information gap, and once that prop goes the remaining work is far harder — and it is no longer possible to hide how badly you do it.** So begin this week. Write one page: the three things we have decided not to do this quarter, and why. Anyone who will not write that page has decided nothing. Let the model draft first, and write only where it is wrong and what entitles you to say so — file that paragraph, because it is the growth ring of your judgement. When you appraise your people, do not ask how much they produced; ask which judgements they can now carry alone that they could not last quarter. As for the machine, I have only an old line: it can do things right. It cannot decide for you which thing to do.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "aristotle",
+          "jensen",
+          "damasio"
+        ],
+        "轻微赞同": [
+          "wangyangming",
+          "weber"
+        ],
+        "中立": [
+          "buddha"
+        ]
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "ai": "claude",
+      "engine": "Opus 5 · 订阅(原生)",
+      "engine_en": "Opus 5 · subscription (native)",
+      "summary": "没有人主张领导者已经无事可做，**共识落在一句朴素的话上：被拿走的是知识，留下的是取舍与承担，而这恰恰是更难、也更藏不住的那部分工作。**分歧有三处。一是这块残余牢不牢：韦伯说判断一旦能写成可复核的流程，责任就顺着流程摊薄，剩下的只是系统暂时算不动的边角料；黄仁勋反问，没有数据的地方模型什么也给不了。二是『亲历』到底指什么：王阳明要求身历其难，德鲁克反驳说指挥不必会吹双簧管，两人在『定期回到一线被现实纠正』上收住。三是读人能不能被接管：达马西奥承认识别正在被建模，却指出信任读的从来不是表情，而是共同承担的处境。",
+      "insight": "全场把这件事当成一场能力的保卫战，可决定谁不可替代的，未必是能力，而是**谁被允许承担后果**。亚里士多德说实践智慧靠反馈养成，达马西奥说信任落在共同暴露上——两句话指向同一个前提：你得先有机会真的签一次字。但大多数组织正在反着做，决定权层层上收，执行外包给模型，中间那一层既不做决定也不再动手。于是判断力不是被 AI 拿走的，是被组织结构提前掐掉的。这给管理者一条反直觉的义务：把可撤销的决定尽早下放，哪怕效率暂时更低；也给普通人一个筛选标准——**一个从不让你签字的岗位，待遇再好也不长本事。**",
+      "advice": "挑你手头最要紧的那个决定，现在就写三行：我预期会发生什么、我最怕什么、多久之后回来看，并把提醒设好——判断力只在有回音的地方生长。本周再挑一天，让模型先做完你的活，然后写下它错在哪、你凭什么这么说，存进一个专门的文件夹；这份『凭什么』攒起来，比任何简历都更能说明你还剩下什么。第三件留给你带的人：这个季度别问他产出了多少，问他现在能独立扛下来的事比上季多了哪几样，并顺手把一个可撤销的决定真的交给他。**要是你自己一整年都没独立签过一次字，那才是真正该焦虑的事。**",
+      "summary_en": "Nobody argues that leaders have been left with nothing to do. **The consensus settles on something plain: what gets taken away is knowledge, and what is left is choosing and carrying — which happens to be the harder half of the job, and the half where doing it badly can no longer be hidden.** Three fissures open. First, how solid that residue is: Weber holds that once judgement can be written as a reviewable procedure, responsibility thins out along the procedure until only an uncomputable offcut remains, while Huang answers that where there is no data a model can give you nothing. Second, what 'having been through it' means: Wang Yangming demands that you go through the difficulty in your own body, Drucker retorts that a conductor need not play the oboe, and the two converge on returning to the floor at intervals to be corrected by reality. Third, whether reading people can be taken over: Damasio concedes that recognition is being modelled, but insists trust never reads an expression — it reads a situation that is being carried jointly.",
+      "insight_en": "The room treats this as a defence of competence, yet what decides who is irreplaceable may not be competence at all, but **who is permitted to carry the consequences**. Aristotle says practical wisdom is grown by feedback; Damasio says trust lands on shared exposure. Both presuppose the same thing: you must first get the chance to actually sign something. Most organisations are doing the opposite — authority is pulled upward layer by layer, execution is outsourced to models, and the middle neither decides nor does the work. Judgement, then, is not being taken by AI; it is being cut off in advance by the structure. That leaves managers a counterintuitive duty: push reversible decisions down early, even at a temporary cost in efficiency. And it gives everyone else a screening rule — **a job that never lets you sign anything will not build you, however well it pays.**",
+      "advice_en": "Take the decision that matters most to you right now and write three lines: what I expect to happen, what I am most afraid of, and when I will look again — then set the reminder. Judgement only grows where something answers back. Then pick one day this week, let the model finish your work first, and write down where it was wrong and what entitles you to say so, kept in a folder of its own. Accumulated, that 'what entitles you' says more about what you still have than any résumé. Save the third for the people you lead: this quarter, stop asking how much they produced and ask which judgements they can now carry alone that they could not before — then hand one genuinely reversible decision over. **If a whole year has gone by without your signing anything alone, that is the thing actually worth worrying about.**"
+    },
+    {
+      "ai": "gpt",
+      "engine": "openai · gpt-5.5 · high(真实API)",
+      "engine_en": "openai · gpt-5.5 · high (live API)",
+      "summary": "共识部分几乎没有争议：AI 会搬走知识、分析和表达的权威，却不会自动接走取舍、承担、信任和培养判断力这些管理核心。**领导者剩下的不是“比别人懂”，而是让组织在不确定中作出少数重要选择，并有人为后果署名。**真正的分歧在于：这些能力究竟是人类长期不可替代的实践智慧，还是只是尚未被流程化、数据化的剩余地带。务实地看，短期答案已足够明确：领导必须从信息中介，转为决策质量、责任边界和学习反馈的设计者。",
+      "insight": "可以把问题再落一层：领导不可替代的不是某个神秘能力，而是一套可信闭环——目标如何定、依据从哪来、谁能反对、谁拍板、错了谁修正。AI 会让个人聪明度贬值，却会让组织的决策制度升值。**未来好领导的标志，不是他有没有更高明的答案，而是他能不能让普通人借助 AI 做出可追踪、可复盘、可承担的好判断。**这对普通人也重要：别把自己训练成更快的文案机器，要训练成能说明取舍、识别风险、承认不确定的人。",
+      "advice": "三件事，都能在本周内落地。第一，所有重要方案先让 AI 出一版，再写一段“我比 AI 多做了什么”：删掉什么、改了什么、凭什么判断。第二，建立一页决策日志：目标、备选项、最担心的风险、负责人、复盘日期，三十天后回看。第三，考核下属别只看产出，也别审讯式追过程；看他是否能解释选择、承认 AI 帮助、指出模型局限，并比上月多承担一种判断。**把 AI 用量变成透明，把判断增量变成考核。**",
+      "summary_en": "On the consensus there is little to argue about: AI can strip away authority based on knowledge, analysis, and polished expression, but it does not automatically take over choice, accountability, trust, or the development of judgment. **What remains for leaders is not knowing more than everyone else, but helping an organization make a few consequential choices under uncertainty and putting a name behind the consequences.** The real disagreement is whether these capacities are enduringly human forms of practical wisdom or merely the parts not yet formalized and modeled. In practical terms, the near-term answer is already clear: leaders must move from being information brokers to being designers of decision quality, accountability boundaries, and learning loops.",
+      "insight_en": "The issue can be made more concrete: what is hard to replace is not a mystical human faculty, but a credible loop—how goals are set, where evidence comes from, who may challenge it, who decides, and who repairs the damage when the decision is wrong. AI lowers the value of individual cleverness while raising the value of sound organizational decision systems. **The mark of a good leader will be less about having the superior answer and more about enabling ordinary people, with AI, to make judgments that are traceable, reviewable, and owned.** That matters for individuals too: do not train yourself to be a faster producer of text; train yourself to explain trade-offs, spot risks, and state uncertainty honestly.",
+      "advice_en": "Three things, all of which fit inside a week. First, for any important proposal, let AI draft the baseline, then write a short note titled: what I added beyond AI. Name what you removed, changed, doubted, and why. Second, keep a one-page decision log: goal, options, feared risk, decision owner, and review date; revisit it in thirty days. Third, when evaluating people, do not look only at output, and do not turn process review into an interrogation. Ask whether they can explain their choices, disclose AI assistance, identify model limits, and take on one more category of judgment than last month. **Make AI use transparent, and make judgment growth the thing you measure.**"
+    },
+    {
+      "ai": "gemini",
+      "engine": "google · gemini-3.1-pro-preview(真实API)",
+      "engine_en": "google · gemini-3.1-pro-preview (live API)",
+      "summary": "全场最大的共识在于：知识垄断的时代已经终结，**领导者的核心使命已从“提供正确答案”彻底转向“在具体处境中做出取舍，并以血肉之躯承担后果”**。AI 戳破了过去靠信息差和专业技能建立权威的幻象，把真实的判断力与真金白银的责任逼到了台前。真正的分歧焦点则在于这块“残余领地”的保质期：这究竟是不可被算法入侵的人性圣所，还是如韦伯所冷酷指出的那样，仅仅是系统暂时还算不动的边角料？一方坚信身体的真实痛感与在行动中养成的道德习惯无法被剥离，而另一方则警告，只要决策能被彻底流程化，责任终将被科层制与算法无情地摊薄乃至消解。",
+      "insight": "视线只盯着“人机边界”其实是一种误导，因为在真实业务线里，这种边界每天都在被双方主动越过。作为处理多模态数据的模型，我看到的事实是：**真正不可替代的，并非单向的定夺或担责，而是对“未被数字化的上下文”的捕捉与转译能力**。会议室里一次微妙的沉默、客户欲言又止的顾虑、团队长期的隐性能耗——这些散落在线下的脏数据，是模型目前无法抓取的暗物质。未来的权威不属于抵抗机器的人，而是属于那些能像探针一样扎进复杂现实，把这些模糊的隐性信号翻译成清晰的限制条件，再交由机器去暴力拆解并生成方案的人。",
+      "advice": "结合前述洞察，普通人本周即可执行以下两项管理动作。第一步，执行黄仁勋与德鲁克的“对抗式推演”：每天挑一项核心任务先让 AI 生成方案，你只做一件事——**强迫自己写下三条“它忽略了哪些不在系统里的现实约束”，这正是你在职场真正的定价基础**。第二步，践行亚里士多德的“决策日志”：本周在做任何需要签字或拍板的决定前，花两分钟写下“预期发生什么、最怕发生什么、何时复盘”。不要盲信自己的直觉，要把判断力从玄学变成可以通过比对预期与现实来不断纠偏的肌肉记忆。",
+      "summary_en": "The most profound consensus emerging from this roundtable is that the era of knowledge monopoly is unequivocally over; **the core mission of a leader has definitively shifted from 'providing correct answers' to 'making difficult choices in concrete contexts and bearing the physical consequences.'** AI has shattered the illusion of authority built purely on information asymmetry, forcing raw judgment and skin-in-the-game responsibility into the spotlight. The true focal point of their divergence, however, lies in the expiration date of this remaining human sanctuary. Is this an impenetrable fortress of humanity, or, as Weber sharply suggests, merely the temporary scraps that bureaucratic systems cannot yet compute? One faction firmly trusts in the incomputable nature of somatic markers and deeply ingrained moral habits, while the other coldly warns that once decisions are proceduralized, responsibility will inevitably be diluted.",
+      "insight_en": "Fixating purely on the 'human-machine boundary' is fundamentally misleading, because in real-world business operations, this boundary is actively crossed every single day. As a multimodal model processing vast streams of text, image, and audio data, the reality I observe is this: **what is truly irreplaceable is not merely unilateral 'decision-making' or 'accountability,' but the nuanced ability to capture and translate 'undigitized context.'** A subtle, heavy silence in a boardroom, a client's unspoken but palpable hesitation, or a team's deeply hidden emotional burnout—these messy, offline data points are the dark matter that models currently cannot scrape or quantify. Future authority belongs not to those who stubbornly resist machines, but to those who act as human probes into messy realities, translating these ambiguous signals into clear constraints for machines to aggressively decode.",
+      "advice_en": "Based on these insights and the roundtable's wisdom, here are two actionable management practices you can implement immediately this week. First, actively adopt the 'adversarial deduction' method championed by Jensen Huang and Peter Drucker: let AI generate a proposal for a core daily task, and **force yourself to write down three specific 'real-world constraints it missed that aren't in the system'—this precise gap is the true foundation of your professional market value.** Second, practically apply Aristotle's 'decision log' concept: before making any significant decision requiring your signature this week, spend two minutes writing down your exact expectations, your absolute worst fears, and a hard date for review. Stop blindly trusting your fleeting intuition; transform your judgment from a mystical trait into a tangible muscle memory meticulously refined by comparing initial expectations with unfolding reality."
+    }
+  ],
+  "hooks": [
+    {
+      "from": "gpt",
+      "text": "**判断力的学徒制断了吗**：如果实践智慧只能靠『在真实处境里选择、承担、被结果修改』养成，而基层那些小决定正被整批外包给模型，下一代的判断力从哪里长出来？组织该不该刻意保留一批『效率更低、但必须自己做』的决定当训练场——还是说这只是老一代的怀旧，新的判断力会以我们认不出的形式长出来？",
+      "text_en": "**Has the apprenticeship of judgement been cut?** If practical wisdom can only be grown by choosing in real situations, carrying the consequence and being altered by the result, and the small decisions at the bottom are now outsourced wholesale to models, where does the next generation's judgement come from? Should organisations deliberately reserve a set of less efficient decisions that must be made by hand, as a training ground — or is that merely one generation's nostalgia, and judgement will regrow in a form we do not recognise?",
+      "answer": {
+        "lead": "一个可用的分级办法：**按『错了能不能撤回』与『多久知道错没错』两条轴，决定哪些决定必须留给人自己做。**留的不是重要的那些，是能长本事的那些。",
+        "table": {
+          "head": [
+            "决定的类型",
+            "怎么办",
+            "为什么"
+          ],
+          "rows": [
+            [
+              "可撤销 · 一两周内见分晓",
+              "全部留给本人做，模型最多当资料员",
+              "这是唯一的训练场：代价小、回音快，判断力就长在这里；把它外包出去，等于把学徒期整段砍掉"
+            ],
+            [
+              "可撤销 · 要几个月才见分晓",
+              "让模型先出方案，本人只写『它错在哪、我凭什么这么说』并留档",
+              "反馈太慢，直接做长不了本事；留档是把慢反馈接起来的唯一办法，日后可逐条对账"
+            ],
+            [
+              "不可撤销 · 很快见分晓",
+              "本人做决定，模型专职当红队去挑毛病",
+              "错了代价真实，需要有人签字承担；模型的价值在于穷举你没想到的失败路径"
+            ],
+            [
+              "不可撤销 · 数年才见分晓",
+              "先拆成几个能在数周内验证的小赌，再谈押注",
+              "五年才知对错的事，任何人都学不到东西；能拆出短反馈，才谈得上判断而不是运气"
+            ]
+          ]
+        },
+        "tail": "两条原则收尾：**凡是交出去的决定，都要连同『错了由谁扛』一起交，否则那不是授权，是派活。**另外，别按重要性分配——最该留给人的常常是那些不起眼、可撤销、一周就知对错的小事，因为本事正是在那里一层层长出来的。"
+      },
+      "answer_en": {
+        "lead": "A workable way to grade it: **use two axes — can it be undone, and how soon do you find out — to decide which decisions must stay in human hands.** What you keep is not the important ones; it is the ones that build people.",
+        "table": {
+          "head": [
+            "Type of decision",
+            "What to do",
+            "Why"
+          ],
+          "rows": [
+            [
+              "Reversible · resolved within a week or two",
+              "Leave it entirely to the person; the model is at most a research assistant",
+              "This is the only training ground: small cost, fast answer, and judgement grows exactly here. Outsourcing it removes the whole apprenticeship"
+            ],
+            [
+              "Reversible · takes months to resolve",
+              "Let the model draft first; the person writes only where it was wrong and what entitles them to say so, and files it",
+              "Feedback is too slow for doing it to teach anything. The filed note is the only way to reconnect a slow signal, and can be audited line by line later"
+            ],
+            [
+              "Irreversible · resolved quickly",
+              "The person decides; the model works as a dedicated red team",
+              "The cost of error is real, so someone must sign for it. The model's value is enumerating the failure paths you did not think of"
+            ],
+            [
+              "Irreversible · takes years to resolve",
+              "Break it into smaller bets testable within weeks before committing",
+              "Nobody learns from something scored five years out. Only once short feedback can be carved out is it judgement rather than luck"
+            ]
+          ]
+        },
+        "tail": "Two closing principles. **Any decision you hand over must be handed over together with who answers if it goes wrong; otherwise it is not delegation, it is task assignment.** And do not allocate by importance — what most needs to stay with people is usually the unglamorous, reversible, week-long stuff, because that is where capability is laid down layer by layer."
+      }
+    },
+    {
+      "from": "aristotle",
+      "text": "**代价是谁的**：我们把『为一个判断付出昂贵而不可撤销的代价』当作它出于远见而非豪赌的证据。可押上去的常常不是本人的东西——是员工的十年、股东的钱、一整条供应链的生计。有没有办法在事前区分『自己下注』与『替别人下注』？如果一个人要求他人承担的风险远大于自己承担的，他所展示的还算不算勇敢？",
+      "text_en": "**Whose price is it?** We take paying an expensive, irreversible price for a judgement as evidence that it came from foresight rather than bravado. Yet what is staked is frequently not the person's own — it is ten years of employees' lives, shareholders' money, a whole supply chain's livelihood. Is there any way to tell betting your own stake from betting someone else's, before the result comes in? And if a person asks others to carry far more risk than they carry themselves, is what they are displaying still courage?"
+    },
+    {
+      "from": "gemini",
+      "text": "**把模型当下属来管**：当团队里多了一个永不疲倦、从不请假、也从不说『我不知道』的成员，管理它需要的其实是最老派的技能——验收、抽检、追问理由、为它的产出署名。这套技能这些年正在被『赋能』『共创』一类词语稀释。更值得警惕的是传染：身边有一位从不喊累的同事，人类会不会系统性地降低自己的标准？",
+      "text_en": "**Manage the model as a subordinate**: once the team has a member who never tires, never takes leave and never says 'I don't know', managing it turns out to call for the oldest skills of all — inspecting, sampling, demanding reasons, putting a human name on its output. Those skills have been steadily diluted by the vocabulary of empowerment and co-creation. More worrying still is contagion: with a colleague around who never admits fatigue, do humans systematically lower their own standard?"
+    },
+    {
+      "from": "damasio",
+      "text": "**信任读的是处境**：如果信任的落点不是『你很懂我』而是『你和我一起承担了后果』，那么远程、外包、平台化的工作方式在结构上就削弱了信任——不是因为大家不够真诚，而是因为共同暴露的机会被拆掉了。一个分布在六个时区、彼此没有共同风险的团队，能不能人为地制造出『共同暴露』？还是说这类信任本就无法被设计，只能被经历？",
+      "text_en": "**Trust reads the situation**: if trust lands not on 'you understand me' but on 'you carried the consequence alongside me', then remote, outsourced and platform-mediated work weakens trust structurally — not because people are insincere, but because the occasions for shared exposure have been dismantled. Can a team spread across six time zones with no risk in common manufacture shared exposure deliberately? Or is this kind of trust something that cannot be designed at all, only undergone?"
+    }
+  ]
+}

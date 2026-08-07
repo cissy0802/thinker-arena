@@ -479,7 +479,8 @@
     var maxR = debate.rounds || debate.posts.reduce(function (m, p) { return Math.max(m, p.round); }, 1);
 
     var html = '<div class="topic"><div class="label"><i class="ti ti-pin" style="font-size:14px"></i>' + T("topic") + "</div>" +
-      '<div class="q">' + esc(pick(debate, "question")) + "</div></div>";
+      '<div class="q">' + esc(pick(debate, "question")) + "</div>" +
+      (pick(debate, "sub") ? '<div class="qsub">' + esc(pick(debate, "sub")) + "</div>" : "") + "</div>";
     html += renderLineup(debate.casting);
     var cur = null;
     debate.posts.forEach(function (p) {

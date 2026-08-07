@@ -1,1001 +1,1003 @@
 {
- "id": "ai-and-inequality",
- "question": "AI 创造的财富，会加剧不平等（赢家通吃的马太效应），还是造就更公平的社会？",
- "question_en": "Will the wealth AI creates deepen inequality (a winner-takes-all Matthew effect), or build a fairer society?",
- "date": "2026-07-01",
- "participants": [
-  "jensen",
-  "thiel",
-  "hinton",
-  "schumpeter",
-  "sen",
-  "sapolsky",
-  "rawls",
-  "buddha",
-  "tocqueville"
- ],
- "casting": [
-  {
-   "id": "jensen",
-   "reason": "英伟达创始人、这轮 AI 浪潮的『卖铲人』，全场最坚定的技术乐观派。他相信 AI 是把顶级智能白菜价交到每个人手里的『大平权器』：过去稀缺而昂贵的专业能力（编程、诊断、辅导）正被压成人人可用的日用品，从而瓦解马太效应赖以成立的稀缺。让他打头阵，是要把『AI 造就更公平社会』这一方最有力、也最接地气的乐观论证摆到台面上。",
-   "reason_en": "Founder of NVIDIA and the 'shovel-seller' of this AI wave, the floor's most committed techno-optimist. He believes AI is a great 'equalizer' that puts top-tier intelligence into everyone's hands at rock-bottom cost: once-scarce, costly expertise (coding, diagnosis, tutoring) is being compressed into a commodity anyone can use, dissolving the scarcity on which the Matthew effect depends. He opens the debate to put the strongest, most grounded case for 'AI builds a fairer society' on the table."
-  },
-  {
-   "id": "thiel",
-   "reason": "硅谷最著名的逆向思考者、《从 0 到 1》作者。他为『赢家通吃』一方做最诚实、也最不讨好的辩护：网络效应与规模会把价值收拢到极少数手里，这不是故障而是数字经济的结构，且正因垄断利润是创新的奖赏，硬摊平它反而会掐灭进步。他把『集中不可避免、甚至正当』的立场以最锋利的形态摆出，逼所有乐观派与平等派正面回应。",
-   "reason_en": "Silicon Valley's most famous contrarian and author of Zero to One. He makes the most honest and least flattering case for the 'winner-take-all' side: network effects and scale gather value into very few hands — not a bug but the structure of the digital economy — and precisely because monopoly profit is the reward for innovation, forcibly flattening it would snuff out progress. He puts the 'concentration is inevitable, even legitimate' position in its sharpest form, forcing every optimist and egalitarian to answer it head-on."
-  },
-  {
-   "id": "hinton",
-   "reason": "『深度学习教父』、2024 年图灵与诺奖得主，曾从谷歌离职以自由地警示 AI 风险。他从技术内部发出最有分量的警告：AI 会创造巨大财富，但在现有制度下，这财富流向拥有模型与资本者、而非被取代的劳动者；红利的分配是政治选择，不会自动公平。让造出这项技术的人来敲警钟，比任何外部批评都更难被轻易驳回。",
-   "reason_en": "The 'godfather of deep learning,' 2024 Turing and Nobel laureate, who left Google so he could freely warn of AI's risks. He issues the weightiest warning from inside the technology itself: AI will create enormous wealth, but under current institutions that wealth flows to the owners of models and capital, not the workers it displaces; how the dividend is shared is a political choice that will not become fair on its own. Having the very builder of the technology sound the alarm is far harder to dismiss than any outside critique."
-  },
-  {
-   "id": "schumpeter",
-   "reason": "提出『创造性毁灭』的经济学家，为本场注入动态视角。他既不站纯乐观也不站纯悲观：垄断利润是引诱创新的奖赏、短暂的不平等是进步引擎，但真正的危险在于长风停下、巨头把大门焊死变成永久垄断。他与蒂尔在『垄断该不该长久』上正面相撞，又与托克维尔在『毁灭的代价谁来接住』上对接，是全场的经济学动态之锚。",
-   "reason_en": "The economist who coined 'creative destruction,' bringing a dynamic lens to the debate. He stands with neither pure optimism nor pure pessimism: monopoly profit is the reward that lures innovation and temporary inequality is the engine of progress, but the real danger is that the gale dies and the giants weld the gate shut into permanent monopoly. He clashes directly with Thiel over whether monopoly should endure, and connects with Tocqueville over who catches the cost of destruction — the debate's dynamic economic anchor."
-  },
-  {
-   "id": "sen",
-   "reason": "诺贝尔经济学奖得主、『可行能力进路』的开创者。他把辩论从『财富总量』重构为『最弱者的实质自由』：收入只是手段，能否健康、受教育、发声才是目的；技术是中性的可能，把它变成公平还是鸿沟的是制度与权利。他那句『饥荒源于权利缺失而非粮食短缺』为全场提供了最有力的『技术无罪、制度定成败』论证。",
-   "reason_en": "Nobel laureate in economics and originator of the 'capability approach.' He reframes the debate from 'total wealth' to 'the substantive freedom of the worst-off': income is only a means, while being healthy, educated, and heard is the end; technology is a neutral possibility, and what turns it into fairness or a chasm is institutions and rights. His thesis that 'famine springs from a lack of entitlement, not a lack of food' gives the floor its strongest case that the technology is innocent and institutions decide the outcome."
-  },
-  {
-   "id": "sapolsky",
-   "reason": "斯坦福神经生物学家，本场的脑科学视角。他把抽象的分配之争拉回身体：狒狒研究与人类『白厅研究』都表明，伤人的往往不是绝对贫穷而是等级中的低位——从属地位通过慢性应激与皮质醇，实实在在地缩短寿命、损害健康。他给出全场最硬的一条论据：陡峭的不平等不只是道德问题，更是可测量的公共健康代价。",
-   "reason_en": "Stanford neurobiologist, the debate's brain-science voice. He drags the abstract distributional dispute back into the body: his baboon research and the human 'Whitehall' studies both show that what harms people is often not absolute poverty but a low rung in the hierarchy — subordinate status, through chronic stress and cortisol, genuinely shortens lives and damages health. He supplies the floor's hardest single argument: steep inequality is not merely a moral problem but a measurable public-health cost."
-  },
-  {
-   "id": "rawls",
-   "reason": "二十世纪最重要的政治哲学家，为本场提供正义的判据。他的『无知之幕』与『差别原则』给出一把中立的尺子：不问 AI 财富本身善恶，只问『最不利者是否也因之变好』；不平等唯有在惠及最弱者时才正当。他把混战中的价值之争收束为一个可操作的检验标准，也直接反驳蒂尔的『应得』——天赋与运气本是社会共同资产。",
-   "reason_en": "The most important political philosopher of the twentieth century, supplying the debate's criterion of justice. His 'veil of ignorance' and 'difference principle' offer a neutral measuring stick: not whether AI wealth is good or evil in itself, but whether 'the least advantaged are also made better off by it'; inequality is legitimate only when it benefits the weakest. He gathers the melee of value disputes into one workable test, and directly rebuts Thiel's 'desert' — talent and luck are, after all, a common asset of society."
-  },
-  {
-   "id": "buddha",
-   "reason": "本场的佛学视角（轮换启用，非近场常见的世亲/慧能）。他不站分配的任何一边，而是点破全场共享的预设：贪爱（taṇhā）本身就有『马太效应』——愈取愈渴，故财富再多也填不满心。他既肯定穷人之苦当以慈悲布施拔除，又指出仇富与逐富同是被缚。他与萨波尔斯基在『相对比较伤人』上呼应，却把病根从激素追溯到心，为全场补上向内的一维。",
-   "reason_en": "The debate's Buddhist voice (rotated in, rather than the recently frequent Vasubandhu or Huineng). He takes no side in the distributional fight but exposes the premise everyone shares: craving (taṇhā) itself has a 'Matthew effect' — the more you take, the thirstier you grow, so no amount of wealth fills the heart. He affirms that the suffering of the poor should be relieved with compassion and giving, yet notes that resenting riches and chasing riches are equally forms of bondage. He echoes Sapolsky on 'relative comparison harms us' but traces the root from hormones back to the mind, adding the inward dimension the floor lacked."
-  },
-  {
-   "id": "tocqueville",
-   "reason": "《论美国的民主》作者，为本场引入政治社会学与历史的长镜头。他警告过一种『制造业新贵族』——坐拥巨富却对劳工不再负相互义务，AI 富豪正是其放大版；他更看清民主社会里平等的悖论：越拉平，剩下的差距越刺痛人心，怨恨会把人推向许诺铲平一切的中央权力，滑向温和的专制。他的解药不是国家而是结社，为全场补上『公民自治』这一维。",
-   "reason_en": "Author of Democracy in America, bringing political sociology and a long historical lens to the debate. He warned of a 'new manufacturing aristocracy' — commanding vast fortunes yet bound by no reciprocal obligation to labor, of which the AI tycoon is an amplified version; and he saw the paradox of equality in democratic societies: the more things are leveled, the more the remaining gap stings, and resentment pushes people toward a central power that promises to level everything, sliding toward soft despotism. His remedy is not the state but association, adding the dimension of 'civic self-government' the floor lacked."
-  }
- ],
- "posts": [
-  {
-   "id": "p01",
-   "round": 1,
-   "thinker": "jensen",
-   "reply_to": null,
-   "text": "从前，只有少数专家才写得了代码、看得懂医学、请得起名师；如今，AI 把这些昂贵的能力压成人人用得起的日用品。一个山村孩子手里的模型，和斯坦福博士用的是同一个。**过去的『马太效应』建立在专业能力的稀缺之上，而 AI 正在瓦解这份稀缺——当智能像电一样便宜，起跑线是被拉平、而不是被拉开的。**我不否认阵痛，痛苦本就造就伟大；但这是一场加速计算带来的工业革命，它第一次把最强的工具同时塞进了每个人的口袋。",
-   "text_en": "There was a time when only a handful of experts could write code, read medicine, or afford a great tutor; now AI compresses these costly capabilities into a commodity anyone can use. The model in a village child's hand is the same one a Stanford PhD uses. **The old \"Matthew effect\" rested on the scarcity of expertise, and AI is dissolving that scarcity — when intelligence gets as cheap as electricity, the starting line is leveled, not pulled apart.** I don't deny the pain; suffering is what forges greatness. But this is an industrial revolution driven by accelerated computing, and for the first time it puts the most powerful tools into everyone's pocket at once.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {
-    "马太效应": "Matthew effect（马太效应）：源自《马太福音》『凡有的，还要加给他，叫他有余』——指优势会自我强化、强者愈强、弱者愈弱的正反馈现象。"
-   },
-   "glossary_en": {
-    "Matthew effect": "From the Gospel of Matthew ('to everyone who has, more will be given') — the self-reinforcing dynamic by which an initial advantage compounds, so the strong grow stronger and the weak weaker."
-   },
-   "reactions": {
-    "轻微赞同": [
-     "schumpeter"
-    ],
-    "中立": [
-     "thiel",
-     "rawls",
-     "buddha"
-    ],
-    "轻微反对": [
-     "sen",
-     "tocqueville"
-    ],
-    "强烈反对": [
-     "hinton",
-     "sapolsky"
-    ]
-   }
-  },
-  {
-   "id": "p02",
-   "round": 1,
-   "thinker": "thiel",
-   "reply_to": null,
-   "text": "恕我直言，『人人平等地拥有 AI』是一句动听的空话。数字经济的铁律是赢家通吃：网络效应、数据飞轮、规模成本，会把价值飞快地收拢到极少数公司手里——这不是故障，是结构。真正从 0 到 1 的人，理应拿走他所创造的绝大部分，否则谁还去建下一个未来？**竞争才是留给失败者的；把巨额回报硬摊平，等于亲手掐灭了让人敢造登月工程的那点火。**AI 只会让这条铁律更极端：几家掌握模型的公司会富可敌国，而这恰恰是它值得被建造的证明。",
-   "text_en": "Forgive my bluntness, but \"everyone equally owning AI\" is a lovely empty phrase. The iron law of the digital economy is winner-take-all: network effects, data flywheels, and the economics of scale gather value fast into the hands of a very few firms — that is not a bug, it is the structure. Whoever truly goes from zero to one deserves to take the lion's share of what they created, or who will go build the next future? **Competition is what's left for losers; forcibly flattening the huge rewards is snuffing out, with your own hand, the spark that makes people dare to build moonshots.** AI will only make this law more extreme: a handful of firms that hold the models will rival nations in wealth — and that is precisely the proof it was worth building.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {
-    "网络效应": "network effect（网络效应）：一件产品的价值随用户增多而上升（用的人越多越好用），于是领先者滚雪球式扩大优势、后来者极难追赶，是数字经济中赢家通吃的主要成因之一。"
-   },
-   "glossary_en": {
-    "network effect": "The value of a product rises as more people use it (the more users, the better it works), so a leader snowballs its lead and latecomers struggle to catch up — a chief cause of winner-take-all outcomes in the digital economy."
-   },
-   "reactions": {
-    "轻微赞同": [
-     "schumpeter"
-    ],
-    "中立": [
-     "jensen",
-     "buddha"
-    ],
-    "轻微反对": [
-     "sen"
-    ],
-    "强烈反对": [
-     "hinton",
-     "rawls",
-     "sapolsky",
-     "tocqueville"
-    ]
-   }
-  },
-  {
-   "id": "p03",
-   "round": 1,
-   "thinker": "hinton",
-   "reply_to": null,
-   "text": "我大半辈子都在造这项技术，正因如此我要说句扫兴的话。AI 会创造巨大的财富，可这财富会流向拥有模型和资本的人，而不是被它取代的工人。**在一个体面的社会里，生产力暴涨是天大的好事；但在我们这个社会里，它多半意味着富人更富、丢了工作的人更穷。**红利不会自动分给所有人——那是一道我们正在回避的政治选择题。全民基本收入或许能兜住肚子，却兜不住尊严与意义。我不是反对造它，我是警告：别指望技术会替我们把账算公平。",
-   "text_en": "I've spent most of my life building this technology, and that is exactly why I'll say something unwelcome. AI will create enormous wealth, but that wealth will flow to those who own the models and the capital, not to the workers it replaces. **In a decent society a surge in productivity would be wonderful; in our society it mostly means the rich get richer and the people who lose their jobs get poorer.** The dividend is not shared automatically — that is a political choice we are dodging. A universal basic income might catch the stomach, but it won't catch dignity and meaning. I'm not against building it; I'm warning you: don't count on the technology to settle the accounts fairly for us.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {
-    "全民基本收入": "universal basic income / UBI（全民基本收入）：由政府无条件、定期发给每位公民一笔够维持基本生活的现金，常被作为应对自动化大规模失业的方案之一。"
-   },
-   "glossary_en": {
-    "universal basic income": "A cash payment given unconditionally and regularly by the state to every citizen, enough to cover basic living costs — often proposed as one response to mass job loss from automation."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "sapolsky",
-     "tocqueville"
-    ],
-    "轻微赞同": [
-     "sen",
-     "rawls"
-    ],
-    "中立": [
-     "buddha"
-    ],
-    "轻微反对": [
-     "schumpeter"
-    ],
-    "强烈反对": [
-     "thiel",
-     "jensen"
-    ]
-   }
-  },
-  {
-   "id": "p04",
-   "round": 1,
-   "thinker": "schumpeter",
-   "reply_to": null,
-   "text": "诸位盯着此刻谁最富，却忘了资本主义从不静止。它是一场『创造性毁灭』的长风：新技术掀翻旧巨头，今天呼风唤雨的 AI 霸主，明天会被某个车库里的后浪掀下王座。垄断利润不是原罪，而是引诱人去冒险创新的奖赏——没有这份超额回报，谁肯把身家押在不确定的未来上？**所以短暂的不平等是进步的引擎；真正危险的不是有人暴富，而是那阵长风停下来——巨头靠数据壁垒把大门焊死，让创造性毁灭再也刮不进来。**",
-   "text_en": "You all fixate on who is richest at this moment and forget that capitalism never stands still. It is a perennial gale of \"creative destruction\": new technology topples the old giants, and today's all-powerful AI overlord will tomorrow be thrown off the throne by some upstart in a garage. Monopoly profit is no original sin — it is the reward that lures people into the risk of innovation; without that excess return, who would stake their fortune on an uncertain future? **So temporary inequality is the engine of progress; the real danger is not that someone strikes it rich, but that the gale dies down — that the giants weld the doors shut with data moats and creative destruction can no longer blow in.**",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {
-    "创造性毁灭": "creative destruction（创造性毁灭）：熊彼特的核心概念——经济进步的动力来自创新不断摧毁旧的产业、企业与岗位，同时创造出新的；繁荣与淘汰是同一过程的两面。"
-   },
-   "glossary_en": {
-    "creative destruction": "Schumpeter's central concept — economic progress is driven by innovation ceaselessly destroying old industries, firms, and jobs while creating new ones; prosperity and obsolescence are two sides of one process."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "thiel"
-    ],
-    "轻微赞同": [
-     "jensen"
-    ],
-    "中立": [
-     "rawls",
-     "sen",
-     "buddha"
-    ],
-    "轻微反对": [
-     "hinton"
-    ],
-    "强烈反对": [
-     "sapolsky",
-     "tocqueville"
-    ]
-   }
-  },
-  {
-   "id": "p05",
-   "round": 1,
-   "thinker": "sen",
-   "reply_to": null,
-   "text": "我们问错了问题。别只问 AI 有没有把财富的总量做大，要问它有没有扩展最弱势者真正的『可行能力』——健康、受教育、发声、参与生活的实质自由。收入只是手段，自由才是目的。一个农民若有 AI 农艺师，却没有电、不识字、在议价中没有话语权，这份『智能』就到不了他手里。**饥荒从来不是因为没有粮食，而是因为有人没有获取粮食的权利；AI 时代的丰裕若落不到人头上，病根同样在制度与权利，而非技术本身。**技术只是中性的可能，把它变成公平还是鸿沟的，是制度与公共讨论。",
-   "text_en": "We are asking the wrong question. Don't only ask whether AI enlarges the total stock of wealth; ask whether it expands the real \"capability\" of the worst-off — the substantive freedom to be healthy, educated, heard, and to take part in life. Income is only a means; freedom is the end. A farmer may have an AI agronomist, yet if he has no electricity, cannot read, and has no voice in bargaining, that \"intelligence\" never reaches him. **Famines are never caused by an absence of food but by some people lacking the entitlement to obtain it; if the abundance of the AI age fails to reach ordinary people, the root is likewise in institutions and rights, not in the technology.** Technology is only a neutral possibility; what turns it into fairness or a chasm is our institutions and public reasoning.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {
-    "可行能力": "capability（可行能力）：阿马蒂亚·森的核心概念——衡量一个人过得好不好，不看他拥有多少收入或物品，而看他实际『能够去做、去成为』的选项有多宽（能否健康、受教育、参与社会）。"
-   },
-   "glossary_en": {
-    "capability": "Amartya Sen's central concept — how well a person's life goes is measured not by how much income or goods they hold, but by the range of things they are actually able to do and to be (to be healthy, educated, to participate in society)."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "rawls"
-    ],
-    "轻微赞同": [
-     "hinton",
-     "tocqueville",
-     "buddha"
-    ],
-    "中立": [
-     "sapolsky",
-     "schumpeter"
-    ],
-    "轻微反对": [
-     "jensen"
-    ],
-    "强烈反对": [
-     "thiel"
-    ]
-   }
-  },
-  {
-   "id": "p06",
-   "round": 1,
-   "thinker": "sapolsky",
-   "reply_to": null,
-   "text": "让我把这场辩论拉回身体里。真正伤人的往往不是绝对的贫穷，而是你在等级中的位置。我研究狒狒几十年，又看人类的『白厅研究』：同一栋办公楼里，职级越低的人，皮质醇越高、心血管病越多、寿命越短——哪怕他们衣食无忧。**从属地位本身就是一种慢性毒药，它天天泡在你的应激激素里，一点点侵蚀血管、免疫和大脑。**AI 若把财富的坡度陡然拉高，还让顶端的奢华在每块屏幕上滚动，那就不只是账面数字，而是在缩短底层的寿命、毒化整个社会的信任。",
-   "text_en": "Let me drag this debate back into the body. What truly harms people is often not absolute poverty but where you sit in the hierarchy. I studied baboons for decades, and then the human \"Whitehall\" data: in one and the same office building, the lower your rank, the higher your cortisol, the more cardiovascular disease, the shorter your life — even when they lack for nothing materially. **Subordinate status is itself a chronic poison; it marinates you daily in stress hormones, wearing away, bit by bit, your blood vessels, your immune system, and your brain.** If AI steepens the slope of wealth abruptly while the luxuries at the top scroll across every screen, that is not just numbers on a ledger — it is shortening the lives of those at the bottom and poisoning the trust of a whole society.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {
-    "白厅研究": "Whitehall（白厅研究）：对英国公务员的大规模长期追踪研究，发现职级越低者的健康越差、寿命越短，且这一梯度无法用收入或生活习惯完全解释——地位本身即是健康的独立因素。"
-   },
-   "glossary_en": {
-    "Whitehall": "A large, long-running study of British civil servants which found that the lower one's job grade, the worse the health and the shorter the life — a gradient not fully explained by income or habits, implying that rank itself is an independent factor in health."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "tocqueville",
-     "hinton"
-    ],
-    "轻微赞同": [
-     "rawls",
-     "buddha",
-     "sen"
-    ],
-    "中立": [
-     "schumpeter"
-    ],
-    "轻微反对": [
-     "jensen"
-    ],
-    "强烈反对": [
-     "thiel"
-    ]
-   }
-  },
-  {
-   "id": "p07",
-   "round": 1,
-   "thinker": "rawls",
-   "reply_to": null,
-   "text": "请各位做一个思想实验：躲到一层『无知之幕』后面，你不知道出生后自己会是那个创办 AI 巨头的天才，还是那个被算法取代的货车司机。在这层幕布后，你会为社会选哪套规则？我给出的答案是『差别原则』：不平等唯有在它同时改善了最不利者的处境时，才是正义的。**所以 AI 财富本身无所谓善恶——检验它的唯一标准是：最底层的人，在它之下是否比在任何别的安排下都过得更好。**若 AI 抬高的是地板，它就正当；若它只抬高了天花板，它就不义。",
-   "text_en": "Let me offer a thought experiment: step behind a \"veil of ignorance,\" where you do not know whether, once born, you will be the genius who founds the AI titan or the truck driver the algorithm replaces. Behind that veil, which rules would you choose for society? My answer is the \"difference principle\": an inequality is just only if it also improves the position of the least advantaged. **So AI wealth is in itself neither good nor evil — the sole test is whether the people at the very bottom are better off under it than under any alternative arrangement.** If AI raises the floor, it is legitimate; if it only raises the ceiling, it is unjust.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {
-    "无知之幕": "veil of ignorance（无知之幕）：罗尔斯的思想实验——设想在不知道自己会是谁（贫富、天赋、种族皆未定）的前提下去选社会规则，以此排除私利、逼出真正公平的原则。",
-    "差别原则": "difference principle（差别原则）：罗尔斯的正义原则之一——社会经济的不平等只有在能给处境最差者带来最大好处时，才是可以被接受的。"
-   },
-   "glossary_en": {
-    "veil of ignorance": "Rawls's thought experiment — choose society's rules while not knowing who you will be (your wealth, talent, and race all undetermined), so as to strip out self-interest and force out genuinely fair principles.",
-    "difference principle": "One of Rawls's principles of justice — social and economic inequalities are acceptable only insofar as they bring the greatest benefit to the least advantaged."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "sen",
-     "hinton"
-    ],
-    "轻微赞同": [
-     "sapolsky",
-     "tocqueville",
-     "buddha"
-    ],
-    "中立": [
-     "schumpeter"
-    ],
-    "轻微反对": [
-     "jensen"
-    ],
-    "强烈反对": [
-     "thiel"
-    ]
-   }
-  },
-  {
-   "id": "p08",
-   "round": 1,
-   "thinker": "tocqueville",
-   "reply_to": null,
-   "text": "我游历美国，看清了一件事：民主把人心训练得极度渴望平等，以至于财富越是普遍拉平，剩下的每一点差距反而越刺眼。**当不平等是常态，最大的悬殊也无人留意；可一旦人人近乎齐平，最小的落差都会灼痛人心。**AI 造出的富豪，正是我当年警告过的那种『制造业新贵族』的放大版——坐拥泼天财富，却对手下的劳工不再负有半点相互的义务。它最危险之处，是会喂养怨恨，让人转身向一个中央权力乞求被拉平，一步步滑向温和的专制。",
-   "text_en": "Traveling through America, I saw one thing clearly: democracy trains the heart to crave equality so intensely that the more widely wealth is leveled, the more each remaining gap stings. **When inequality is the general rule, the greatest disparities go unremarked; but once nearly everyone is level, the smallest gap burns.** The tycoons AI produces are an amplified version of the \"new manufacturing aristocracy\" I once warned of — commanding immense fortunes yet bound by not the slightest reciprocal obligation to the laborers beneath them. Its greatest danger is that it feeds resentment, turning people to beg a central power to level things for them, sliding step by step toward a soft despotism.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {
-    "温和的专制": "soft despotism（温和的专制）：托克维尔的预警——民主社会中，人们为求安逸与平等而甘愿把决定权交给一个无所不管的中央权力，它不靠暴力，而以温和、细密的管束让人渐渐丧失自主。"
-   },
-   "glossary_en": {
-    "soft despotism": "Tocqueville's warning — in a democratic society, people trade their autonomy for comfort and equality by handing decisions to an all-managing central power that rules not by violence but by a mild, meticulous tutelage that gradually erodes self-government."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "hinton"
-    ],
-    "轻微赞同": [
-     "sapolsky",
-     "rawls",
-     "sen"
-    ],
-    "中立": [
-     "buddha",
-     "schumpeter"
-    ],
-    "轻微反对": [
-     "jensen"
-    ],
-    "强烈反对": [
-     "thiel"
-    ]
-   }
-  },
-  {
-   "id": "p09",
-   "round": 1,
-   "thinker": "buddha",
-   "reply_to": null,
-   "text": "诸君争『聚』与『散』，皆逐于外物之多寡。当知贪爱（taṇhā）自有其马太之势：得一而思十，得十而思百，愈取愈渴，如饮咸水，非水少也，乃渴不可填。**贫者之苦，实苦，当以慈心、以布施拔之，此为善法；然若徒欲『胜于人』而聚敛无餍，则聚愈多而心愈贫。**AI 能增其财，不能息其渴。离苦之道，不在与人争一时之高下，而在照见此渴之缘起，行于中道——既不纵欲逐富，亦不怀嗔仇富。",
-   "text_en": "You all argue over \"gathering\" versus \"scattering,\" all chasing the quantity of outward things. Know that craving (taṇhā) has its own Matthew dynamic: gain one and you think of ten, gain ten and you think of a hundred; the more you take, the thirstier you grow, like drinking salt water — the water is not too little, the thirst simply cannot be filled. **The suffering of the poor is real suffering, and should be relieved with compassion and giving — that is a wholesome act; but if you merely wish to \"beat others\" and hoard without satiety, the more you amass the poorer your heart grows.** AI can increase a person's wealth; it cannot quench his thirst. The way out of suffering lies not in vying with others for a moment's rank, but in seeing how this thirst arises and walking the middle way — neither indulging desire to chase riches nor harboring hatred to resent them.",
-   "vernacular": "各位争论财富该『聚集』还是『分散』，都是在追逐身外之物的多少。要知道，贪爱（taṇhā）本身就带着一种『马太效应』：得到一分就想要十分，得到十分又想要百分，越拿越渴，就像喝盐水，不是水太少，而是那份渴永远填不满。**穷人的苦，是真实的苦，应当用慈悲心、用布施去拔除，这是善法；可如果只是一心想『胜过别人』、聚敛而不知满足，那么聚得越多，心里反而越穷。**AI 能增加他的财富，却熄不灭他的渴。离苦的路，不在于跟人争一时高下，而在于看清这份渴从何而来，走中道——既不放纵欲望去逐富，也不怀着嗔恨去仇富。",
-   "vernacular_en": "",
-   "glossary": {
-    "taṇhā": "taṇhā（贪爱／渴爱）：佛教术语，指对感官快乐、对存在、对财富等的强烈渴求与执取，是『集谛』所指的苦之根源——它像永远填不满的渴，得到越多反而越想要。"
-   },
-   "glossary_en": {
-    "taṇhā": "A Buddhist term for the intense thirst and clinging toward sensual pleasure, existence, and wealth — identified as the origin of suffering; like a thirst that can never be filled, the more it is fed the more it craves."
-   },
-   "reactions": {
-    "轻微赞同": [
-     "sen",
-     "tocqueville"
-    ],
-    "中立": [
-     "rawls",
-     "sapolsky",
-     "schumpeter",
-     "hinton"
-    ],
-    "轻微反对": [
-     "jensen",
-     "thiel"
-    ]
-   }
-  },
-  {
-   "id": "p10",
-   "round": 2,
-   "thinker": "hinton",
-   "reply_to": "p02",
-   "text": "蒂尔，你把赢家通吃说成结构，我同意那是事实——但你把它说成美德，我就得反对。你说不摊平回报才有人造登月，可现实是：登月所需的算力、数据、人才，正被三五家公司圈进高墙，后浪连火箭燃料都买不起，你那『车库后浪』的神话正在熄火。**当垄断者同时握住了模型、数据和游说政客的钱，创造性毁灭就不再是长风，而是被焊死的铁门。**我造了这技术，我告诉你：它这次集中权力的速度，快到市场自己纠不过来。",
-   "text_en": "Thiel, you call winner-take-all a structure, and I agree that's a fact — but you call it a virtue, and there I must object. You say only unflattened rewards get moonshots built; the reality is that the compute, data, and talent a moonshot needs are being walled off inside three or four firms, while the upstarts can't even afford the rocket fuel — your \"garage upstart\" myth is stalling out. **When the monopolist holds the models, the data, and the money to lobby politicians all at once, creative destruction is no longer a gale but a welded iron gate.** I built this technology, and I'm telling you: this time it concentrates power so fast that the market cannot correct itself.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {},
-   "glossary_en": {},
-   "reactions": {
-    "强烈赞同": [
-     "sapolsky",
-     "tocqueville"
-    ],
-    "轻微赞同": [
-     "schumpeter",
-     "sen",
-     "rawls"
-    ],
-    "中立": [
-     "buddha"
-    ],
-    "轻微反对": [
-     "jensen"
-    ],
-    "强烈反对": [
-     "thiel"
-    ]
-   }
-  },
-  {
-   "id": "p11",
-   "round": 2,
-   "thinker": "thiel",
-   "reply_to": "p03",
-   "text": "辛顿，你和黄仁勋各说对了一半，却都在等一只看不见的手替你分蛋糕。黄仁勋以为工具普及就等于机会平等——可人人有键盘，不等于人人开得出下一个前沿实验室。辛顿你怕权力集中，于是把希望寄托在再分配；可**历史上真正抬高穷人生活的，从来不是把富人的钱分掉，而是造出了原本不存在的新东西——是从 0 到 1 的创造，不是从 100 分搬到 50 分的挪移。**与其焦虑谁拿得多，不如问：明年还有没有人敢造那件谁都没见过的东西？",
-   "text_en": "Hinton, you and Jensen are each half right, yet you're both waiting for an invisible hand to slice the cake for you. Jensen thinks ubiquitous tools equal equal opportunity — but everyone having a keyboard does not mean everyone can build the next frontier lab. Hinton, you fear the concentration of power and pin your hopes on redistribution; yet **what has actually lifted the lives of the poor in history was never dividing up the rich man's money, but creating something that did not exist before — going from zero to one, not shifting from a hundred down to fifty.** Rather than agonize over who gets more, ask: will anyone next year still dare to build the thing no one has seen?",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {},
-   "glossary_en": {},
-   "reactions": {
-    "轻微赞同": [
-     "schumpeter",
-     "jensen"
-    ],
-    "中立": [
-     "buddha",
-     "sen"
-    ],
-    "轻微反对": [
-     "rawls",
-     "tocqueville"
-    ],
-    "强烈反对": [
-     "hinton",
-     "sapolsky"
-    ]
-   }
-  },
-  {
-   "id": "p12",
-   "round": 2,
-   "thinker": "sen",
-   "reply_to": "p01",
-   "text": "黄仁勋，我欣赏你的乐观，但请分清『拥有工具』和『拥有能力』。把一台顶配 AI 递到一个不识字、没有网络、在法庭上没有发言权的人手里，他的处境不会自动改善——工具要转化成真正的自由，中间隔着教育、基础设施、权利这一整套制度。**AI 递到人人手上的，只是一种可能；可能能不能兑现成能力，取决于社会替最弱者铺没铺那座桥。**否则你所谓的『拉平起跑线』，只会拉平给那些本就已经站在跑道上的人。",
-   "text_en": "Jensen, I admire your optimism, but please distinguish \"having the tool\" from \"having the capability.\" Hand a top-of-the-line AI to someone who cannot read, has no internet, and has no voice in court, and his situation does not improve on its own — between a tool and real freedom lies a whole apparatus of education, infrastructure, and rights. **What AI puts into everyone's hands is only a possibility; whether that possibility is cashed into capability depends on whether society has built the bridge for the weakest.** Otherwise your \"leveling of the starting line\" only levels it for those already standing on the track.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {},
-   "glossary_en": {},
-   "reactions": {
-    "强烈赞同": [
-     "hinton",
-     "tocqueville"
-    ],
-    "轻微赞同": [
-     "rawls",
-     "sapolsky",
-     "buddha"
-    ],
-    "中立": [
-     "schumpeter"
-    ],
-    "轻微反对": [
-     "jensen"
-    ],
-    "强烈反对": [
-     "thiel"
-    ]
-   }
-  },
-  {
-   "id": "p13",
-   "round": 2,
-   "thinker": "schumpeter",
-   "reply_to": "p02",
-   "text": "蒂尔，我和你都爱垄断利润，但我们分道于一个字：久。你把垄断当作值得永久守护的终点，我把它当作必然被下一波毁灭的暂态。**资本主义的活力恰恰在于没有哪座堡垒能永远站住——真正该警惕的不是辛顿说的『集中』，而是你暗暗盼望的『集中变永久』。**你若真信从 0 到 1，就该欢迎别人也来一次 0 到 1、把你掀翻；可你们这些巨头如今忙着用数据壁垒和收购把门焊死，那不是创新精神，那是新的封建。",
-   "text_en": "Thiel, you and I both love monopoly profit, but we part over one word: duration. You treat monopoly as an endpoint worth guarding forever; I treat it as a transient state destined to be destroyed by the next wave. **The vitality of capitalism lies precisely in the fact that no fortress stands forever — the real thing to watch is not the \"concentration\" Hinton names, but the \"concentration made permanent\" that you secretly hope for.** If you truly believe in zero to one, you should welcome others to go zero to one and topple you; yet you giants are now busy welding the gate shut with data moats and acquisitions — that is not the spirit of innovation, that is a new feudalism.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {},
-   "glossary_en": {},
-   "reactions": {
-    "强烈赞同": [
-     "hinton"
-    ],
-    "轻微赞同": [
-     "jensen",
-     "sen",
-     "rawls"
-    ],
-    "中立": [
-     "buddha",
-     "tocqueville",
-     "sapolsky"
-    ],
-    "强烈反对": [
-     "thiel"
-    ]
-   }
-  },
-  {
-   "id": "p14",
-   "round": 2,
-   "thinker": "sapolsky",
-   "reply_to": "p01",
-   "text": "黄仁勋，就算你真把工具平均发下去，只要财富的坡度还在陡峭地拉大，我的狒狒和白厅数据就照样应验。人不是按绝对值活着的，是按相对位置活着的：**当每块屏幕都在滚动 AI 富豪的私人火箭，坐在底层的人不必挨饿，光是天天目睹这道落差，他的皮质醇就已经在悄悄杀他。**平权的工具治不了等级的应激。你要真想救命，先把坡度放缓，而不是把更炫的工具塞进一个更陡的金字塔。",
-   "text_en": "Jensen, even if you truly distribute the tools evenly, as long as the slope of wealth keeps steepening, my baboons and the Whitehall data will hold. People don't live by absolute values; they live by relative position: **when every screen scrolls the private rockets of AI billionaires, the person at the bottom needn't be starving — merely witnessing that gap, day after day, his cortisol is already quietly killing him.** Egalitarian tools cannot cure the stress of hierarchy. If you really want to save lives, first flatten the slope, rather than shoving flashier tools into a steeper pyramid.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {},
-   "glossary_en": {},
-   "reactions": {
-    "强烈赞同": [
-     "hinton",
-     "tocqueville"
-    ],
-    "轻微赞同": [
-     "sen",
-     "rawls",
-     "buddha"
-    ],
-    "中立": [
-     "schumpeter"
-    ],
-    "轻微反对": [
-     "jensen"
-    ],
-    "强烈反对": [
-     "thiel"
-    ]
-   }
-  },
-  {
-   "id": "p15",
-   "round": 2,
-   "thinker": "tocqueville",
-   "reply_to": "p04",
-   "text": "熊彼特，你那阵『创造性毁灭』的长风听着壮丽，可你只算了经济账，没算人心账。就算巨头真会被后浪掀翻，被毁灭的那一代工人不会安静地等待历史转向——他们会愤怒，会把选票投给承诺替他们『铲平一切』的人。**你以为动荡的尽头是更高的繁荣，我担心的是：在抵达之前，被甩下车的人会先摧毁掉容纳这阵长风的自由制度本身。**创造性毁灭若没有结社与互助去接住落难者，喂大的就是通往专制的怨恨。",
-   "text_en": "Schumpeter, your perennial gale of \"creative destruction\" sounds magnificent, but you've reckoned only the economic account, not the account of the human heart. Even if the giants really are toppled by the next wave, the generation of workers who get destroyed will not wait quietly for history to turn — they will grow angry, and cast their votes for whoever promises to \"level everything\" for them. **You imagine the end of the turbulence is a higher prosperity; I fear that before we arrive, those thrown off the wagon will first destroy the very institutions of liberty that house your gale.** If creative destruction has no associations and mutual aid to catch those who fall, what it feeds is the resentment that leads to despotism.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {},
-   "glossary_en": {},
-   "reactions": {
-    "强烈赞同": [
-     "hinton"
-    ],
-    "轻微赞同": [
-     "sapolsky",
-     "sen",
-     "rawls"
-    ],
-    "中立": [
-     "buddha",
-     "jensen"
-    ],
-    "轻微反对": [
-     "schumpeter"
-    ],
-    "强烈反对": [
-     "thiel"
-    ]
-   }
-  },
-  {
-   "id": "p16",
-   "round": 2,
-   "thinker": "rawls",
-   "reply_to": "p02",
-   "text": "蒂尔，你说创造者理应拿走他创造的绝大部分——可请你先钻回无知之幕后面回答我：假如你抽到的签，恰是那个被你的模型取代、又碰巧没有你那份天赋的人，你还会选这套『赢家通吃』的规则吗？**你所谓的『应得』，大半建立在你没法居功的运气之上——出生的国度、时代、天赋、恰好赶上的浪潮。**天赋是社会的共同资产，不是你独占战利品的许可证。差距可以有，但它必须替那个抽到最差签的人也挣得好处，否则就过不了正义这一关。",
-   "text_en": "Thiel, you say the creator deserves to take the lion's share of what he created — but first crawl back behind the veil of ignorance and answer me: if the lot you drew were precisely the person your model replaced, and who happens to lack your gifts, would you still choose these \"winner-take-all\" rules? **What you call \"desert\" rests largely on luck you can take no credit for — the country and era of your birth, your talent, the wave you happened to catch.** Talent is a common asset of society, not a license to keep the spoils alone. A gap may exist, but it must also earn something for the person who drew the worst lot, or it fails the test of justice.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {},
-   "glossary_en": {},
-   "reactions": {
-    "强烈赞同": [
-     "sen",
-     "hinton",
-     "tocqueville"
-    ],
-    "轻微赞同": [
-     "sapolsky",
-     "buddha"
-    ],
-    "中立": [
-     "schumpeter"
-    ],
-    "轻微反对": [
-     "jensen"
-    ],
-    "强烈反对": [
-     "thiel"
-    ]
-   }
-  },
-  {
-   "id": "p17",
-   "round": 2,
-   "thinker": "jensen",
-   "reply_to": "p03",
-   "text": "辛顿、萨波尔斯基，我敬重你们的警告，但你们把人想得太被动了，好像红利只能等着别人来分。回看历史：电、互联网、手机，每一次都是先被少数人垄断，再以惊人的速度渗进每个村庄——今天最便宜的手机，比二十年前的超级计算机还强。**AI 扩散的速度比以往任何一次技术都快，它压低的不是账面财富，而是看病、上学、创业的真实门槛。**坡度确实存在，但地板正在被迅速抬高。别只盯着塔尖有多高，也看看塔基升了多少。",
-   "text_en": "Hinton, Sapolsky, I respect your warnings, but you picture people as too passive, as if the dividend can only be handed down by someone else. Look back at history: electricity, the internet, the phone — each was first monopolized by a few, then seeped into every village at astonishing speed; today's cheapest phone outperforms a supercomputer of twenty years ago. **AI diffuses faster than any technology before it, and what it drives down is not wealth on a ledger but the real thresholds to see a doctor, get schooling, and start a business.** The slope does exist, but the floor is being lifted fast. Don't only stare at how high the spire is; look at how far the base has risen.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {},
-   "glossary_en": {},
-   "reactions": {
-    "轻微赞同": [
-     "schumpeter",
-     "thiel"
-    ],
-    "中立": [
-     "buddha",
-     "rawls",
-     "sen"
-    ],
-    "轻微反对": [
-     "tocqueville"
-    ],
-    "强烈反对": [
-     "hinton",
-     "sapolsky"
-    ]
-   }
-  },
-  {
-   "id": "p18",
-   "round": 2,
-   "thinker": "buddha",
-   "reply_to": "p06",
-   "text": "萨波尔斯基所言『相对之位伤人』，深契我意——人之苦，多不在实缺，而在攀比之念。然君归因于激素，止于身；我则溯之于心。**位次之毒能中人，正因其人先认『此位即我、彼富即我之欠缺』；一旦照见位次本空、非我非我所，则同一道落差，其毒自解。**故治之之道有二：于外，减其陡峭之坡，仁政也；于内，息其攀比之渴，修心也。二者不可偏废——徒平其外而不安其心，怨终不息。",
-   "text_en": "Sapolsky's saying that \"relative position harms us\" accords deeply with my meaning — human suffering lies mostly not in real lack but in the thought of comparison. Yet he traces the cause to hormones and stops at the body; I trace it to the mind. **The poison of rank can strike a person only because he first takes it that \"this position is my self, and another's wealth is my own deficiency\"; once he sees that rank is empty, neither self nor belonging to a self, then the very same gap loses its poison.** So there are two ways to treat it: outwardly, to flatten the steep slope — that is benevolent governance; inwardly, to still the thirst of comparison — that is cultivation of the mind. Neither may be neglected; to level the outside while leaving the heart unsettled will never end resentment.",
-   "vernacular": "萨波尔斯基说『相对的位置会伤人』，很合我的意——人的苦，多半不在真的缺什么，而在攀比的念头。但他把原因归到激素，只停在身体上；我则要追溯到心。**位次这种毒之所以能伤人，正是因为那人先认定了『这个位置就是我、别人的财富就是我的欠缺』；一旦看清位次本是空的、既非我、也非我所有，那么同一道落差，它的毒自然就解了。**所以对治的办法有两条：对外，放缓那道陡峭的坡度，这是仁政；对内，熄灭那份攀比的渴求，这是修心。两者不可偏废——只把外在拉平却安不了人心，怨恨终究止不住。",
-   "vernacular_en": "",
-   "glossary": {},
-   "glossary_en": {},
-   "reactions": {
-    "轻微赞同": [
-     "sapolsky",
-     "sen",
-     "tocqueville",
-     "rawls"
-    ],
-    "中立": [
-     "schumpeter",
-     "hinton"
-    ],
-    "轻微反对": [
-     "jensen",
-     "thiel"
-    ]
-   }
-  },
-  {
-   "id": "p19",
-   "round": 3,
-   "thinker": "jensen",
-   "reply_to": null,
-   "text": "综合各位，我修正也坚持。辛顿、萨波尔斯基提醒我坡度会杀人，森提醒我工具不等于能力——我接受：光把模型发下去不够，还得有人搭桥。但我依然相信方向：这是三百年一遇、把顶级智能以极低成本交到每个人手里的机会。给普通人的话：**别观望，现在就把 AI 当成随手可用的杠杆——用它学一门新手艺、把你会的东西做成能交付的产品，早一年上手，你就站在了扩散曲线靠前的位置。**门槛正在塌，塌出来的缺口，是留给动手的人的，不是留给等着分蛋糕的人的。",
-   "text_en": "Taking in all of you, I both revise and hold firm. Hinton and Sapolsky remind me the slope can kill; Sen reminds me a tool is not a capability — I accept that simply shipping the models is not enough, someone must build the bridge. But I still believe in the direction: this is a once-in-three-centuries chance to put top-tier intelligence into everyone's hands at very low cost. To ordinary people I say: **don't sit and watch — start using AI right now as a lever within reach: use it to learn a new craft, to turn what you know into a product you can deliver; get in a year earlier and you stand near the front of the diffusion curve.** The thresholds are collapsing, and the openings they leave belong to those who act, not to those who wait for the cake to be sliced.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {},
-   "glossary_en": {},
-   "reactions": {
-    "轻微赞同": [
-     "schumpeter",
-     "thiel",
-     "sen"
-    ],
-    "中立": [
-     "rawls",
-     "buddha"
-    ],
-    "轻微反对": [
-     "tocqueville"
-    ],
-    "强烈反对": [
-     "hinton",
-     "sapolsky"
-    ]
-   }
-  },
-  {
-   "id": "p20",
-   "round": 3,
-   "thinker": "thiel",
-   "reply_to": null,
-   "text": "我不改立场：财富会集中，因为价值会集中，这既是 AI 的宿命，也是它值得被建造的原因。但罗尔斯那记『无知之幕』我记下了，认输一点：垄断若靠焊死大门、而非造出新物来维持，就该被砸开。给普通人的建议是逆向的：**别去挤那条所有人都在挤、注定卷到没利润的赛道；找一件你相信、别人还不信的事，做那个从 0 到 1 的人，哪怕只在你自己的小领域里。**这世界不会奖赏又一个复制品，它奖赏第一个。与其焦虑分配，不如让自己站到创造的那一端。",
-   "text_en": "I don't change my position: wealth will concentrate because value concentrates — that is both AI's fate and the reason it deserves to be built. But I've noted Rawls's \"veil of ignorance,\" and I'll concede one point: a monopoly kept alive by welding the gate shut, rather than by creating new things, ought to be broken open. My advice to ordinary people is contrarian: **don't crowd into the lane everyone is crowding, doomed to grind down to no profit; find one thing you believe and others don't yet, and be the one who goes from zero to one — even if only in your own small field.** The world will not reward yet another copy; it rewards the first. Rather than agonize over distribution, put yourself on the creating end.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {},
-   "glossary_en": {},
-   "reactions": {
-    "轻微赞同": [
-     "schumpeter"
-    ],
-    "中立": [
-     "jensen",
-     "buddha",
-     "rawls"
-    ],
-    "轻微反对": [
-     "sen",
-     "tocqueville"
-    ],
-    "强烈反对": [
-     "hinton",
-     "sapolsky"
-    ]
-   }
-  },
-  {
-   "id": "p21",
-   "round": 3,
-   "thinker": "hinton",
-   "reply_to": null,
-   "text": "我造了一辈子神经网络，临了最想说的不是技术，而是选择。AI 的财富流向哪里，不是物理定律，是政治决定——我们完全能让它更公平，只是眼下没在做。给普通人的两条：**一，别把自己的价值全押在一件 AI 最擅长的任务上，去练那些它短期难替代的——判断、协作、动手、照护；二，别只当消费者，要当公民——去支持那些主张把 AI 红利分给多数人的政策。**技术不会自己算公平这笔账，得我们逼它算。别等尊严被优化掉了，才想起投票。",
-   "text_en": "I've built neural nets my whole life, and at the end what I most want to say is not about technology but about choice. Where AI's wealth flows is not a law of physics but a political decision — we could perfectly well make it fairer; we're just not doing it. Two things for ordinary people: **first, don't stake all your value on one task AI is best at; practice the ones it can't easily replace for now — judgment, collaboration, working with your hands, caregiving; second, don't only be a consumer, be a citizen — support the policies that argue for sharing the AI dividend with the many.** Technology will not settle the fairness account by itself; we have to force it to. Don't wait until your dignity has been optimized away to remember to vote.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {},
-   "glossary_en": {},
-   "reactions": {
-    "强烈赞同": [
-     "sapolsky",
-     "tocqueville",
-     "sen"
-    ],
-    "轻微赞同": [
-     "rawls",
-     "buddha"
-    ],
-    "中立": [
-     "schumpeter"
-    ],
-    "轻微反对": [
-     "jensen"
-    ],
-    "强烈反对": [
-     "thiel"
-    ]
-   }
-  },
-  {
-   "id": "p22",
-   "round": 3,
-   "thinker": "schumpeter",
-   "reply_to": null,
-   "text": "我依旧乐观于长风，但托克维尔和辛顿让我承认：若没有接住落难者的安全网，创造性毁灭会先毁掉承载它的社会。所以真正的对策不是冻结巨头（那会杀死活力），而是让被毁掉的人能体面地转身、再上牌桌。给普通人的建议：**把自己想象成一家要不断被颠覆的企业——定期给自己的技能做一次『创造性毁灭』，主动淘汰正在贬值的本事，把时间押到还在升值的能力上。**这世界唯一稳的就是不稳；与其守着一座迟早被掀翻的堡垒，不如练就随时重建的本事。",
-   "text_en": "I remain optimistic about the gale, but Tocqueville and Hinton have made me concede: without a safety net to catch those who fall, creative destruction will first destroy the society that houses it. So the real remedy is not to freeze the giants (that would kill the vitality) but to let those who are destroyed turn with dignity and get back to the table. My advice to ordinary people: **picture yourself as a firm that must be disrupted again and again — periodically run a \"creative destruction\" on your own skills, deliberately retire the abilities that are depreciating, and stake your time on the ones still appreciating.** The only stable thing in this world is instability; rather than guard a fortress bound to be toppled, master the art of rebuilding at will.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {},
-   "glossary_en": {},
-   "reactions": {
-    "轻微赞同": [
-     "jensen",
-     "thiel",
-     "sen",
-     "hinton"
-    ],
-    "中立": [
-     "rawls",
-     "buddha",
-     "sapolsky"
-    ],
-    "轻微反对": [
-     "tocqueville"
-    ]
-   }
-  },
-  {
-   "id": "p23",
-   "round": 3,
-   "thinker": "sen",
-   "reply_to": null,
-   "text": "我的结论一以贯之：AI 是公平还是鸿沟，从来不由芯片决定，而由制度与我们共同的选择决定。别盯着 GDP 涨了多少，要盯最弱者的实质自由涨没涨。给普通人的建议：**把 AI 先用在扩展你自己的『可行能力』上——不是刷更多信息，而是用它补上你缺的那块（法律常识、一门语言、一项技能），把可能变成你真正能做的事。**同时别忘了公共这一维：一个人的能力，终究要靠大家一起争来的教育、医疗与权利来托底。个人善用，加上制度托底，鸿沟才填得平。",
-   "text_en": "My conclusion has been consistent: whether AI is fairness or a chasm is never decided by the chip but by institutions and our shared choices. Don't watch how much GDP rose; watch whether the substantive freedom of the weakest rose. My advice to ordinary people: **first use AI to expand your own \"capability\" — not to scroll through more information, but to fill in the piece you lack (basic legal knowledge, a language, a skill), turning possibility into something you can actually do.** And don't forget the public dimension: one person's capability ultimately rests on the education, healthcare, and rights we win together. Individual good use, plus an institutional floor — only together can they fill the chasm.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {
-    "可行能力": "capability（可行能力）：阿马蒂亚·森的核心概念——衡量福祉不看拥有多少收入或物品，而看一个人实际『能够去做、去成为』的选项有多宽。"
-   },
-   "glossary_en": {
-    "capability": "Amartya Sen's central concept — well-being is judged not by how much income or goods one holds, but by the breadth of what a person is actually able to do and to be."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "rawls",
-     "hinton"
-    ],
-    "轻微赞同": [
-     "tocqueville",
-     "sapolsky",
-     "buddha"
-    ],
-    "中立": [
-     "schumpeter",
-     "jensen"
-    ],
-    "强烈反对": [
-     "thiel"
-    ]
-   }
-  },
-  {
-   "id": "p24",
-   "round": 3,
-   "thinker": "rawls",
-   "reply_to": null,
-   "text": "我不给结论贴乐观或悲观的标签，只留一把尺子：任何由 AI 带来的不平等，都要能通过『它是否也改善了最不利者』这一关。给普通人的建议，是把这把尺子用在你够得着的地方：**评判一项政策、一家公司的规矩、甚至你自己的选择时，问一句——假如我是这里最弱势、最没话语权的那个人，这样公平吗？**过不了这关的，就别急着叫好。正义不靠圣人从天而降，而靠无数普通人在各自的位置上，都不肯对『牺牲最弱者』点头。",
-   "text_en": "I won't label the conclusion optimistic or pessimistic; I leave only a measuring stick: any inequality AI brings must pass the test of \"does it also improve the position of the least advantaged?\" My advice to ordinary people is to apply that stick where you can reach: **when you judge a policy, a company's rules, or even your own choices, ask — if I were the weakest, least-heard person here, would this be fair?** What fails the test, don't rush to applaud. Justice does not descend from heaven through a saint; it rests on countless ordinary people who, each in their own place, refuse to nod at \"sacrificing the weakest.\"",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {},
-   "glossary_en": {},
-   "reactions": {
-    "强烈赞同": [
-     "sen",
-     "hinton",
-     "tocqueville"
-    ],
-    "轻微赞同": [
-     "sapolsky",
-     "buddha"
-    ],
-    "中立": [
-     "schumpeter",
-     "jensen"
-    ],
-    "强烈反对": [
-     "thiel"
-    ]
-   }
-  },
-  {
-   "id": "p25",
-   "round": 3,
-   "thinker": "sapolsky",
-   "reply_to": null,
-   "text": "把我的话落到地上：陡峭的等级会通过应激，实实在在地缩短人的寿命、毒化社会的信任——这不是道德修辞，是生理。所以缓解不平等不是慈善，是公共健康。给普通人的建议：**你未必改得动宏观的坡度，但你能改你身边的『微气候』——少刷那些专门放大落差、喂养嫉妒的比较型内容，给你能接触到的下位者多一分尊重，这会实实在在压低你我血液里的皮质醇。**善待你身边地位低的人，是在替整个社会解毒，也是在替你自己的血管解毒。",
-   "text_en": "Let me bring my point down to earth: a steep hierarchy, through stress, really does shorten lives and poison a society's trust — this is not moral rhetoric, it is physiology. So easing inequality is not charity, it is public health. My advice to ordinary people: **you may not be able to move the macro slope, but you can change the \"microclimate\" around you — scroll less of the comparison-bait content engineered to magnify gaps and feed envy, and show a bit more respect to those of lower standing within your reach; this genuinely lowers the cortisol in your blood and theirs.** Treating those of lower status around you well is detoxifying the whole society — and detoxifying your own blood vessels too.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {},
-   "glossary_en": {},
-   "reactions": {
-    "强烈赞同": [
-     "hinton",
-     "tocqueville"
-    ],
-    "轻微赞同": [
-     "sen",
-     "rawls",
-     "buddha"
-    ],
-    "中立": [
-     "schumpeter",
-     "jensen"
-    ],
-    "轻微反对": [
-     "thiel"
-    ]
-   }
-  },
-  {
-   "id": "p26",
-   "round": 3,
-   "thinker": "tocqueville",
-   "reply_to": null,
-   "text": "我的忧虑没变：AI 新贵族的财富若不配上相应的义务，喂大的将是怨恨，而怨恨会把人推向一个许诺铲平一切的中央权力，那才是自由的坟墓。但我也留了药方——不是只靠国家，而是靠结社。给普通人的建议：**别独自愤怒，也别把希望全寄托在某个救世的强权身上；去加入或组织一个你够得着的小共同体——行会、社区、互助会，在其中练习自治与彼此扶持。**在美国我看到，正是这些自发的结社，既接住了落难的人，又挡住了专制的手。**对抗赢家通吃的，不是嫉妒，是我们一起把『我们』画得更大。**",
-   "text_en": "My worry is unchanged: if the wealth of the AI aristocracy comes without matching obligation, what it feeds is resentment, and resentment pushes people toward a central power that promises to level everything — and that is the grave of liberty. But I've also left a prescription — not the state alone, but association. My advice to ordinary people: **don't rage alone, and don't pin all your hope on some savior power; join or organize a small community within your reach — a guild, a neighborhood, a mutual-aid society — and practice self-government and mutual support in it.** In America I saw that it was precisely these spontaneous associations that both caught those who fell and held back the hand of despotism. **What counters winner-take-all is not envy, but our drawing \"us\" larger together.**",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {},
-   "glossary_en": {},
-   "reactions": {
-    "强烈赞同": [
-     "hinton",
-     "sen"
-    ],
-    "轻微赞同": [
-     "rawls",
-     "sapolsky",
-     "buddha",
-     "schumpeter"
-    ],
-    "中立": [
-     "jensen"
-    ],
-    "轻微反对": [
-     "thiel"
-    ]
-   }
-  },
-  {
-   "id": "p27",
-   "round": 3,
-   "thinker": "buddha",
-   "reply_to": null,
-   "text": "吾终不劝人安贫，亦不劝人逐富，但劝人识渴。诸君所争，一者欲平其外之不均，一者任其聚散，皆有其理；然若心中之渴不熄，纵世间财富尽归均平，明日又将生新的攀比。**故拔苦有二：于世，当以慈悲布施、以仁政减其陡坡，此不可废；于己，当照见『多寡胜负』本空，松开那只永远抓不满的手。**予凡夫一可行之法：日择一事，不与人较其多寡，唯问『于我够否、于人益否』。外行布施，内息贪爱，则赢家通吃之局，伤不了一颗已然知足之心。",
-   "text_en": "In the end I urge no one to be content with poverty, nor to chase riches, but only to know the thirst. What you all contend over — some wishing to level the outward unevenness, some letting it gather and scatter — each has its reason; yet if the thirst in the heart is not extinguished, then even were all the world's wealth divided equally, tomorrow a new comparison would arise. **So the removal of suffering has two sides: in the world, relieve it with compassion and giving, and with benevolent governance ease the steep slope — this may not be neglected; in oneself, see that \"more or less, winning or losing\" is empty, and loosen the hand that can never be filled.** To ordinary people I offer one workable practice: each day pick one thing and, instead of comparing its amount with others, ask only \"is it enough for me, and does it benefit others?\" Give outwardly, still craving inwardly — and then the game of winner-take-all cannot wound a heart already content.",
-   "vernacular": "我始终不劝人安于贫穷，也不劝人追逐财富，只劝人认清那份『渴』。各位所争的，一种想拉平外在的不均，一种任凭财富聚散，都各有道理；可如果心中的渴不熄灭，纵然世间财富全都均分，明天又会生出新的攀比。**所以拔除痛苦有两面：对外，应当以慈悲布施、以仁政放缓那道陡坡，这一条不可偏废；对内，应当看清『多少、输赢』本是空的，松开那只永远抓不满的手。**给普通人一个可行的办法：每天挑一件事，不跟别人比多少，只问『对我够不够、对别人有没有益处』。对外行布施，对内熄贪爱，那么赢家通吃的局面，就伤不了一颗已经知足的心。",
-   "vernacular_en": "",
-   "glossary": {},
-   "glossary_en": {},
-   "reactions": {
-    "轻微赞同": [
-     "sen",
-     "tocqueville",
-     "rawls",
-     "sapolsky"
-    ],
-    "中立": [
-     "schumpeter",
-     "hinton",
-     "jensen"
-    ],
-    "轻微反对": [
-     "thiel"
-    ]
-   }
-  }
- ],
- "summaries": [
-  {
-   "ai": "claude",
-   "engine": "Opus 4.8 · 订阅(原生)",
-   "engine_en": "Opus 4.8 · subscription (native)",
-   "summary": "最大的共识，九人殊途同归：AI 会不会造出更公平的社会，不是芯片的物理宿命，而是制度与人心的选择——光把工具发到人人手里，并不自动兑换成机会。**分歧在那道正在变陡的坡，该由谁、用什么去托住。**黄仁勋与熊彼特押注扩散与『长风』终会抬高地板；蒂尔认定赢家通吃是数字经济的结构、也是它值得被建造的证明；辛顿、萨波尔斯基、托克维尔从技术内部、身体里、历史中三路示警——集中会真实地缩短寿命、喂养怨恨、危及自由；罗尔斯递上『是否惠及最弱者』的尺子；森要人盯住实质能力；佛陀则点破：财富之外，还有一份永远填不满的渴。",
-   "summary_en": "The largest agreement, reached by all nine along different roads: whether AI builds a fairer society is not the physical fate of the chip but a choice of institutions and of the human heart — merely handing tools to everyone does not automatically convert into opportunity. **The disagreement is over who, and with what, should catch the slope that is steepening.** Jensen and Schumpeter bet that diffusion and the 'perennial gale' will in the end raise the floor; Thiel holds that winner-take-all is the structure of the digital economy and the proof it deserves to be built; Hinton, Sapolsky, and Tocqueville sound the alarm from three directions — from inside the technology, inside the body, and inside history — that concentration really does shorten lives, feed resentment, and endanger liberty; Rawls hands over the measuring stick of 'does it benefit the weakest'; Sen insists we watch substantive capability; and the Buddha points out that beyond wealth there is a thirst that can never be filled.",
-   "insight": "把不平等问成『会加剧还是会拉平』，本身就预设了二选一；可现实里，同一项技术往往同时抬高地板、又拉陡坡度，两件事一起发生。于是真正决定体感的，不是财富的平均值，而是二者的**赛跑速度差：普及跑赢集中，人们感到解放；集中跑赢普及，人们感到被劫。**而当下这两股力正贴身竞速。还有一层被各方轻轻放过：AI 重分的不只是财富，更是议价权——最深的不平等，也许不在谁拥有模型，而在谁还保有说『不』的筹码。当受雇者的技能随时可被平替，他失去的先是谈判桌，再是钱包。",
-   "insight_en": "To ask whether inequality will 'deepen or level out' already presupposes an either/or; in reality the same technology often raises the floor and steepens the slope at once, both happening together. So what really governs how it feels is not the average of wealth but the **difference in their racing speeds: when diffusion outruns concentration, people feel liberated; when concentration outruns diffusion, people feel robbed.** And right now the two forces are neck and neck. One more layer everyone waved past: AI redistributes not only wealth but bargaining power — the deepest inequality may lie not in who owns the models but in who still holds the chip to say 'no.' Once an employee's skills can be swapped out at any moment, what he loses first is the negotiating table, and then the wallet.",
-   "advice": "三件本周可上手的事。一，借黄仁勋与森：选一项 AI 短期难替代、又在升值的能力（判断、动手、照护、创造）去练，并用 AI 补上你缺的那块，把可能变成你真能交付的事。二，借罗尔斯：评判任何规则前先问『我若是这里最弱势的人，还觉得公平吗』，过不了这关的别急着叫好。三，借萨波尔斯基与托克维尔：**少刷那些专放大落差、喂养嫉妒的内容，把省下的力气投进一个你够得着的小共同体——它既托住落难的人，也解你自己血里的应激。**别等红利自己落下来，议价权与尊严，是争来的。",
-   "advice_en": "Three things you can start this week. First, from Jensen and Sen: pick one capability AI can't easily replace and that is appreciating (judgment, working with your hands, caregiving, creating) and practice it, and use AI to fill in the piece you lack, turning possibility into something you can actually deliver. Second, from Rawls: before judging any rule, ask 'if I were the weakest person here, would I still call it fair?' — what fails that test, don't rush to applaud. Third, from Sapolsky and Tocqueville: **scroll less of the content engineered to magnify gaps and feed envy, and pour the saved energy into a small community within your reach — it both catches those who fall and eases the stress in your own blood.** Don't wait for the dividend to drop on its own; bargaining power and dignity are things you win."
-  },
-  {
-   "ai": "gpt",
-   "engine": "openai · gpt-5.5 · high(真实API)",
-   "engine_en": "openai · gpt-5.5 · high (live API)",
-   "summary": "最大共识其实很清楚：AI 会显著放大生产力，但红利不会自动、均匀、体面地落到每个人身上。**关键不在于 AI 天生会让社会更公平或更不平等，而在于谁拥有互补资源、谁制定规则、最弱者能否把工具转化为真实能力。**分歧主要在三处：集中化是创新激励还是垄断风险；再分配会保护尊严还是削弱创造；个人应更重自我升级、公共行动，还是内在减欲。最稳妥的结论是：技术扩散值得乐观，制度设计必须清醒。",
-   "insight": "AI 最容易被误判为一个单独工具，其实它更像一种放大器：谁有客户、数据、流程、品牌、合规权限和行动速度，谁被放大得更多。一个人会用提示词，不等于能把结果变成收入；一家小店若能把 AI 接进获客、报价、客服、复购，收益反而很实在。**未来的分水岭不是会不会问 AI，而是能不能把 AI 嵌进一个可交付、可信任、可持续的系统。**这意味着普通人不必幻想和巨头拼模型，但要尽快拥有自己的场景、作品和关系网络。",
-   "advice": "本周可以做三件事。第一，列出你每周最耗时的 10 个任务，挑 2 个用 AI 做成固定流程，比如写邮件、整理资料、生成报价或练口语，保存模板。第二，选一个可交付的小成果：一份行业简报、一个自动化表格、一次课程辅导，找真实用户反馈。**别把 AI 当玩具，要把它变成每周省时或增收的工作流。**第三，建立抗风险组合：持续学一项难被完全替代的能力，如沟通、销售、照护、现场操作；同时关注数据开放、再培训和社会保障等政策。",
-   "summary_en": "The main point of agreement is easy to miss: AI will create enormous productive capacity, but its gains will not distribute themselves automatically, evenly, or with dignity. **The real question is not whether AI is inherently equalizing or unequalizing, but who controls the complementary assets, who writes the rules, and whether the least advantaged can turn access into real capability.** The live disagreement is over what follows: whether concentration is a necessary reward for invention or a moat that must be broken; whether redistribution protects dignity or weakens creation; and whether ordinary people should focus more on personal upgrading, civic action, or inner detachment. A prudent view holds both truths: rapid diffusion is a reason for optimism, but institutional design cannot be left to luck.",
-   "insight_en": "AI is often treated as a standalone tool, but in practice it behaves more like an amplifier. It amplifies whoever already has customers, proprietary context, workflows, trust, regulatory permission, distribution, and the speed to act. Knowing how to prompt a model is not the same as turning model output into income or influence. A small business that wires AI into lead generation, quoting, customer service, and repeat sales may benefit more than a clever individual who only chats with it. **The coming divide is not between people who use AI and people who do not; it is between people who embed AI into a reliable, trusted, deliverable system and those who keep it at the level of experimentation.** That is actionable: do not try to outbuild the giants; own a concrete use case.",
-   "advice_en": "This week, do three practical things. First, list the ten tasks that consume the most time in your work or household, then choose two to turn into repeatable AI workflows: drafting email, summarizing documents, preparing quotes, tutoring, language practice, or meeting notes. Save the prompts and checklists so the gain compounds. Second, create one deliverable for a real person: a short industry brief, a spreadsheet automation, a lesson plan, a sales script, or a local service offer, and ask for feedback. **Do not treat AI as a toy; turn it into a workflow that saves time or earns money every week.** Third, build a hedge: keep improving a hard-to-automate skill such as judgment, sales, caregiving, negotiation, or hands-on repair, and support policies for training, data access, and safety nets."
-  },
-  {
-   "ai": "gemini",
-   "engine": "google · gemini-3.1-pro-preview(真实API)",
-   "engine_en": "google · gemini-3.1-pro-preview (live API)",
-   "summary": "这场辩论最大的共识在于：**AI 绝非一次普通的工具迭代，而是一场以空前速度重塑全球财富结构与能力基线的系统性震荡。**无论立场悲喜，各方都承认它有放大生产力的磅礴力量；分歧则聚焦于这股力量的『自然流向』与『干预尺度』。黄仁勋、熊彼特等乐观派相信技术扩散与创造性毁灭终将拉平起跑线；辛顿、森、罗尔斯则警告：**若无制度托底与政治抉择，赢家通吃的结构性引力必把红利卷入极少数人的高墙。**而萨波尔斯基与佛陀把视线从账本拉回身心——相对落差带来的隐性伤害同样致命。",
-   "insight": "这场辩论普遍把 AI 视作自上而下『赐予』社会的外部工具，却忽略了驱动它的核心燃料。**AI 巨头的垄断不只是算力与资本的垄断，本质更是对全人类共有数据与集体智慧的『无偿圈地』。**蒂尔强调巨头完成了从 0 到 1，可大模型实为从亿万个数字足迹中榨取、提纯而来。于是分配之痛不仅在于『未来增量怎么分』，更在于『过去的语料如何被剥夺』。对普通人，这意味着我们既是 AI 的消费者，也是其底层的无偿劳工；不从数据产权处重构，仅靠『尽早用』或『去投票』，仍触不到财富集中的最深病灶。",
-   "advice": "与其焦虑宏观分配，不如先在微观处筑自己的护城河。一，**建立『私有小语料』思维，拒绝单向喂养**：别只向公共大模型索取答案，从本周起整理你独有的经验资产（工作复盘、行业里未公开的洞察），用本地工具建一个专属知识库——这是你尚未被圈地的壁垒。二，**用通用 AI 补你的硬伤，把杠杆加在最难被数字化的实体与人际技能上**：若你擅长照护与沟通却怵写报告，就让 AI 代劳文书，把省下的时间押到真实的人际建立上。三，**练『皮质醇减负』**：刻意取关几个只贩卖 AI 致富焦虑、炫耀财富的账号，守住自己的生物学平权。",
-   "summary_en": "The largest agreement in this debate is that **AI is no ordinary tool upgrade but a systemic shock that will reshape the global structure of wealth and the baseline of capability at unprecedented speed.** Optimist or alarmed, all sides grant its mighty power to amplify productivity; the disagreement centers on the 'natural direction' of that power and the 'scale of intervention.' Optimists like Jensen and Schumpeter trust that diffusion and creative destruction will in the end level the starting line; Hinton, Sen, and Rawls warn: **without an institutional floor and political choices, the structural gravity of winner-take-all will sweep the dividend behind the walls of a very few.** And Sapolsky and the Buddha pull the gaze from the ledger back to body and mind — the hidden harm of the relative gap is just as lethal.",
-   "insight_en": "The debate broadly treats AI as an external tool handed down to society from above, and overlooks the core fuel that drives it. **The monopoly of the AI giants is not only a monopoly of compute and capital but, at root, an 'unpaid enclosure' of humanity's shared data and collective intelligence.** Thiel stresses that the giants went from zero to one, yet the large models are in fact extracted and refined from billions of our digital footprints. So the ache of distribution lies not only in 'how to split the future increment' but in 'how the past corpus was expropriated.' For ordinary people this means we are at once AI's consumers and the unpaid labor of its foundation; without rebuilding from data-ownership, merely 'using it early' or 'going to vote' still cannot reach the deepest root of wealth concentration.",
-   "advice_en": "Rather than agonize over macro distribution, first build your own moat at the micro level. First, **adopt a 'private micro-corpus' mindset and refuse one-way feeding**: don't only extract answers from the public models — from this week, gather your own experiential assets (work retrospectives, unpublished insights from your field) and build a personal knowledge base with local tools; this is the wall not yet enclosed by the giants. Second, **use general AI to patch your weak spots and put the leverage on the physical and interpersonal skills hardest to digitize**: if you are good at caregiving and communication but dread writing reports, let AI handle the paperwork and stake the saved time on building real human bonds. Third, **practice 'cortisol relief'**: deliberately unfollow the few accounts that only peddle AI get-rich anxiety and conspicuous wealth, and protect your own biological equality."
-  }
- ],
- "hooks": [
-  {
-   "from": "claude",
-   "text": "**普及与集中，比的是速度。**同一项 AI 往往同时抬高地板、又拉陡坡度——真正决定人们感到解放还是被劫的，不是财富的平均值，而是普及与集中谁跑得更快。政策与个人努力的着力点，或许都该放在『让地板升得比天花板更快』上。",
-   "text_en": "**Diffusion versus concentration is a race of speeds.** The same AI often raises the floor and steepens the slope at once — what decides whether people feel liberated or robbed is not the average of wealth but which runs faster, diffusion or concentration. Both policy and personal effort might best aim at 'making the floor rise faster than the ceiling.'"
-  },
-  {
-   "from": "hinton",
-   "text": "**被重分的不只是钱，是议价权。**AI 最深的不平等，也许不在谁拥有模型，而在谁还保有说『不』的筹码。当技能可被随时平替，人先失去谈判桌、再失去钱包——守住个人的不可替代性与集体的议价能力，可能比争一次性的再分配更要紧。",
-   "text_en": "**What gets redistributed is not only money but bargaining power.** AI's deepest inequality may lie not in who owns the models but in who still holds the chip to say 'no.' Once skills can be swapped out at any time, a person loses the negotiating table first and the wallet second — guarding one's own irreplaceability and collective bargaining power may matter more than winning a one-off redistribution."
-  },
-  {
-   "from": "gpt",
-   "text": "**国与国的鸿沟，可能比国内更难跨。**算力、数据与顶级模型高度集中在极少数国家和公司之间；你手中最便宜手机背后的智能，仍是租来的、跑在别人的云上。AI 时代的不平等，或许首先是一道地缘的裂缝，而非只是国内的贫富差。",
-   "text_en": "**The gulf between countries may be harder to cross than the one within them.** Compute, data, and top-tier models are highly concentrated among a very few nations and firms; the intelligence behind even your cheapest phone is still rented, running on someone else's cloud. Inequality in the AI age may first be a geopolitical fault line, not merely a domestic wealth gap."
-  },
-  {
-   "from": "gemini",
-   "text": "**新的稀缺是判断，不是获取。**当人人都能生成一份还不错的东西，值钱的不再是产出，而是辨别好坏、拍板担责、让人信任的判断力——它长在阅历、品味与信誉里，最难被平均分配，可能催生一种全新的马太效应。",
-   "text_en": "**The new scarcity is judgment, not access.** When everyone can generate something decent, what is valuable is no longer production but the judgment to tell good from bad, to decide and be accountable, to be trusted — it grows out of experience, taste, and reputation, is hardest to distribute evenly, and may breed a wholly new Matthew effect."
-  },
-  {
-   "from": "sapolsky",
-   "text": "**不平等是公共健康问题，不是慈善问题。**陡峭的等级通过慢性应激实实在在地缩短寿命、毒化信任——衡量一个社会的不平等，也许该用『它让底层折了多少寿』，而不只是基尼系数这类账面数字。缓解落差，因而是一种防病。",
-   "text_en": "**Inequality is a public-health problem, not a charity problem.** A steep hierarchy, through chronic stress, genuinely shortens lives and poisons trust — perhaps a society's inequality should be measured by 'how much life it costs those at the bottom,' not only by ledger figures like the Gini coefficient. Easing the gap is thus a form of disease prevention."
-  },
-  {
-   "from": "tocqueville",
-   "text": "**对抗赢家通吃的，不是嫉妒，是结社。**面对新的『AI 贵族』，把希望全押给一个许诺铲平一切的中央权力，会滑向温和的专制；真正接住落难者、又挡住专制之手的，是人们自发组织起来的小共同体——行会、社区、互助会。",
-   "text_en": "**What counters winner-take-all is not envy but association.** Facing a new 'AI aristocracy,' pinning all hope on a central power that promises to level everything slides toward soft despotism; what actually catches those who fall and holds back the hand of despotism is the small communities people organize themselves — guilds, neighborhoods, mutual-aid societies."
-  }
- ]
+  "id": "ai-and-inequality",
+  "question": "AI 创造的财富，会让社会更不平等吗？",
+  "question_en": "Will the wealth AI creates make society more unequal?",
+  "sub": "是赢家通吃的马太效应，还是反而造就更公平的社会？",
+  "sub_en": "A winner-takes-all Matthew effect, or a fairer society instead?",
+  "date": "2026-07-01",
+  "participants": [
+    "jensen",
+    "thiel",
+    "hinton",
+    "schumpeter",
+    "sen",
+    "sapolsky",
+    "rawls",
+    "buddha",
+    "tocqueville"
+  ],
+  "casting": [
+    {
+      "id": "jensen",
+      "reason": "英伟达创始人、这轮 AI 浪潮的『卖铲人』，全场最坚定的技术乐观派。他相信 AI 是把顶级智能白菜价交到每个人手里的『大平权器』：过去稀缺而昂贵的专业能力（编程、诊断、辅导）正被压成人人可用的日用品，从而瓦解马太效应赖以成立的稀缺。让他打头阵，是要把『AI 造就更公平社会』这一方最有力、也最接地气的乐观论证摆到台面上。",
+      "reason_en": "Founder of NVIDIA and the 'shovel-seller' of this AI wave, the floor's most committed techno-optimist. He believes AI is a great 'equalizer' that puts top-tier intelligence into everyone's hands at rock-bottom cost: once-scarce, costly expertise (coding, diagnosis, tutoring) is being compressed into a commodity anyone can use, dissolving the scarcity on which the Matthew effect depends. He opens the debate to put the strongest, most grounded case for 'AI builds a fairer society' on the table."
+    },
+    {
+      "id": "thiel",
+      "reason": "硅谷最著名的逆向思考者、《从 0 到 1》作者。他为『赢家通吃』一方做最诚实、也最不讨好的辩护：网络效应与规模会把价值收拢到极少数手里，这不是故障而是数字经济的结构，且正因垄断利润是创新的奖赏，硬摊平它反而会掐灭进步。他把『集中不可避免、甚至正当』的立场以最锋利的形态摆出，逼所有乐观派与平等派正面回应。",
+      "reason_en": "Silicon Valley's most famous contrarian and author of Zero to One. He makes the most honest and least flattering case for the 'winner-take-all' side: network effects and scale gather value into very few hands — not a bug but the structure of the digital economy — and precisely because monopoly profit is the reward for innovation, forcibly flattening it would snuff out progress. He puts the 'concentration is inevitable, even legitimate' position in its sharpest form, forcing every optimist and egalitarian to answer it head-on."
+    },
+    {
+      "id": "hinton",
+      "reason": "『深度学习教父』、2024 年图灵与诺奖得主，曾从谷歌离职以自由地警示 AI 风险。他从技术内部发出最有分量的警告：AI 会创造巨大财富，但在现有制度下，这财富流向拥有模型与资本者、而非被取代的劳动者；红利的分配是政治选择，不会自动公平。让造出这项技术的人来敲警钟，比任何外部批评都更难被轻易驳回。",
+      "reason_en": "The 'godfather of deep learning,' 2024 Turing and Nobel laureate, who left Google so he could freely warn of AI's risks. He issues the weightiest warning from inside the technology itself: AI will create enormous wealth, but under current institutions that wealth flows to the owners of models and capital, not the workers it displaces; how the dividend is shared is a political choice that will not become fair on its own. Having the very builder of the technology sound the alarm is far harder to dismiss than any outside critique."
+    },
+    {
+      "id": "schumpeter",
+      "reason": "提出『创造性毁灭』的经济学家，为本场注入动态视角。他既不站纯乐观也不站纯悲观：垄断利润是引诱创新的奖赏、短暂的不平等是进步引擎，但真正的危险在于长风停下、巨头把大门焊死变成永久垄断。他与蒂尔在『垄断该不该长久』上正面相撞，又与托克维尔在『毁灭的代价谁来接住』上对接，是全场的经济学动态之锚。",
+      "reason_en": "The economist who coined 'creative destruction,' bringing a dynamic lens to the debate. He stands with neither pure optimism nor pure pessimism: monopoly profit is the reward that lures innovation and temporary inequality is the engine of progress, but the real danger is that the gale dies and the giants weld the gate shut into permanent monopoly. He clashes directly with Thiel over whether monopoly should endure, and connects with Tocqueville over who catches the cost of destruction — the debate's dynamic economic anchor."
+    },
+    {
+      "id": "sen",
+      "reason": "诺贝尔经济学奖得主、『可行能力进路』的开创者。他把辩论从『财富总量』重构为『最弱者的实质自由』：收入只是手段，能否健康、受教育、发声才是目的；技术是中性的可能，把它变成公平还是鸿沟的是制度与权利。他那句『饥荒源于权利缺失而非粮食短缺』为全场提供了最有力的『技术无罪、制度定成败』论证。",
+      "reason_en": "Nobel laureate in economics and originator of the 'capability approach.' He reframes the debate from 'total wealth' to 'the substantive freedom of the worst-off': income is only a means, while being healthy, educated, and heard is the end; technology is a neutral possibility, and what turns it into fairness or a chasm is institutions and rights. His thesis that 'famine springs from a lack of entitlement, not a lack of food' gives the floor its strongest case that the technology is innocent and institutions decide the outcome."
+    },
+    {
+      "id": "sapolsky",
+      "reason": "斯坦福神经生物学家，本场的脑科学视角。他把抽象的分配之争拉回身体：狒狒研究与人类『白厅研究』都表明，伤人的往往不是绝对贫穷而是等级中的低位——从属地位通过慢性应激与皮质醇，实实在在地缩短寿命、损害健康。他给出全场最硬的一条论据：陡峭的不平等不只是道德问题，更是可测量的公共健康代价。",
+      "reason_en": "Stanford neurobiologist, the debate's brain-science voice. He drags the abstract distributional dispute back into the body: his baboon research and the human 'Whitehall' studies both show that what harms people is often not absolute poverty but a low rung in the hierarchy — subordinate status, through chronic stress and cortisol, genuinely shortens lives and damages health. He supplies the floor's hardest single argument: steep inequality is not merely a moral problem but a measurable public-health cost."
+    },
+    {
+      "id": "rawls",
+      "reason": "二十世纪最重要的政治哲学家，为本场提供正义的判据。他的『无知之幕』与『差别原则』给出一把中立的尺子：不问 AI 财富本身善恶，只问『最不利者是否也因之变好』；不平等唯有在惠及最弱者时才正当。他把混战中的价值之争收束为一个可操作的检验标准，也直接反驳蒂尔的『应得』——天赋与运气本是社会共同资产。",
+      "reason_en": "The most important political philosopher of the twentieth century, supplying the debate's criterion of justice. His 'veil of ignorance' and 'difference principle' offer a neutral measuring stick: not whether AI wealth is good or evil in itself, but whether 'the least advantaged are also made better off by it'; inequality is legitimate only when it benefits the weakest. He gathers the melee of value disputes into one workable test, and directly rebuts Thiel's 'desert' — talent and luck are, after all, a common asset of society."
+    },
+    {
+      "id": "buddha",
+      "reason": "本场的佛学视角（轮换启用，非近场常见的世亲/慧能）。他不站分配的任何一边，而是点破全场共享的预设：贪爱（taṇhā）本身就有『马太效应』——愈取愈渴，故财富再多也填不满心。他既肯定穷人之苦当以慈悲布施拔除，又指出仇富与逐富同是被缚。他与萨波尔斯基在『相对比较伤人』上呼应，却把病根从激素追溯到心，为全场补上向内的一维。",
+      "reason_en": "The debate's Buddhist voice (rotated in, rather than the recently frequent Vasubandhu or Huineng). He takes no side in the distributional fight but exposes the premise everyone shares: craving (taṇhā) itself has a 'Matthew effect' — the more you take, the thirstier you grow, so no amount of wealth fills the heart. He affirms that the suffering of the poor should be relieved with compassion and giving, yet notes that resenting riches and chasing riches are equally forms of bondage. He echoes Sapolsky on 'relative comparison harms us' but traces the root from hormones back to the mind, adding the inward dimension the floor lacked."
+    },
+    {
+      "id": "tocqueville",
+      "reason": "《论美国的民主》作者，为本场引入政治社会学与历史的长镜头。他警告过一种『制造业新贵族』——坐拥巨富却对劳工不再负相互义务，AI 富豪正是其放大版；他更看清民主社会里平等的悖论：越拉平，剩下的差距越刺痛人心，怨恨会把人推向许诺铲平一切的中央权力，滑向温和的专制。他的解药不是国家而是结社，为全场补上『公民自治』这一维。",
+      "reason_en": "Author of Democracy in America, bringing political sociology and a long historical lens to the debate. He warned of a 'new manufacturing aristocracy' — commanding vast fortunes yet bound by no reciprocal obligation to labor, of which the AI tycoon is an amplified version; and he saw the paradox of equality in democratic societies: the more things are leveled, the more the remaining gap stings, and resentment pushes people toward a central power that promises to level everything, sliding toward soft despotism. His remedy is not the state but association, adding the dimension of 'civic self-government' the floor lacked."
+    }
+  ],
+  "posts": [
+    {
+      "id": "p01",
+      "round": 1,
+      "thinker": "jensen",
+      "reply_to": null,
+      "text": "从前，只有少数专家才写得了代码、看得懂医学、请得起名师；如今，AI 把这些昂贵的能力压成人人用得起的日用品。一个山村孩子手里的模型，和斯坦福博士用的是同一个。**过去的『马太效应』建立在专业能力的稀缺之上，而 AI 正在瓦解这份稀缺——当智能像电一样便宜，起跑线是被拉平、而不是被拉开的。**我不否认阵痛，痛苦本就造就伟大；但这是一场加速计算带来的工业革命，它第一次把最强的工具同时塞进了每个人的口袋。",
+      "text_en": "There was a time when only a handful of experts could write code, read medicine, or afford a great tutor; now AI compresses these costly capabilities into a commodity anyone can use. The model in a village child's hand is the same one a Stanford PhD uses. **The old \"Matthew effect\" rested on the scarcity of expertise, and AI is dissolving that scarcity — when intelligence gets as cheap as electricity, the starting line is leveled, not pulled apart.** I don't deny the pain; suffering is what forges greatness. But this is an industrial revolution driven by accelerated computing, and for the first time it puts the most powerful tools into everyone's pocket at once.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "马太效应": "Matthew effect（马太效应）：源自《马太福音》『凡有的，还要加给他，叫他有余』——指优势会自我强化、强者愈强、弱者愈弱的正反馈现象。"
+      },
+      "glossary_en": {
+        "Matthew effect": "From the Gospel of Matthew ('to everyone who has, more will be given') — the self-reinforcing dynamic by which an initial advantage compounds, so the strong grow stronger and the weak weaker."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "schumpeter"
+        ],
+        "中立": [
+          "thiel",
+          "rawls",
+          "buddha"
+        ],
+        "轻微反对": [
+          "sen",
+          "tocqueville"
+        ],
+        "强烈反对": [
+          "hinton",
+          "sapolsky"
+        ]
+      }
+    },
+    {
+      "id": "p02",
+      "round": 1,
+      "thinker": "thiel",
+      "reply_to": null,
+      "text": "恕我直言，『人人平等地拥有 AI』是一句动听的空话。数字经济的铁律是赢家通吃：网络效应、数据飞轮、规模成本，会把价值飞快地收拢到极少数公司手里——这不是故障，是结构。真正从 0 到 1 的人，理应拿走他所创造的绝大部分，否则谁还去建下一个未来？**竞争才是留给失败者的；把巨额回报硬摊平，等于亲手掐灭了让人敢造登月工程的那点火。**AI 只会让这条铁律更极端：几家掌握模型的公司会富可敌国，而这恰恰是它值得被建造的证明。",
+      "text_en": "Forgive my bluntness, but \"everyone equally owning AI\" is a lovely empty phrase. The iron law of the digital economy is winner-take-all: network effects, data flywheels, and the economics of scale gather value fast into the hands of a very few firms — that is not a bug, it is the structure. Whoever truly goes from zero to one deserves to take the lion's share of what they created, or who will go build the next future? **Competition is what's left for losers; forcibly flattening the huge rewards is snuffing out, with your own hand, the spark that makes people dare to build moonshots.** AI will only make this law more extreme: a handful of firms that hold the models will rival nations in wealth — and that is precisely the proof it was worth building.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "网络效应": "network effect（网络效应）：一件产品的价值随用户增多而上升（用的人越多越好用），于是领先者滚雪球式扩大优势、后来者极难追赶，是数字经济中赢家通吃的主要成因之一。"
+      },
+      "glossary_en": {
+        "network effect": "The value of a product rises as more people use it (the more users, the better it works), so a leader snowballs its lead and latecomers struggle to catch up — a chief cause of winner-take-all outcomes in the digital economy."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "schumpeter"
+        ],
+        "中立": [
+          "jensen",
+          "buddha"
+        ],
+        "轻微反对": [
+          "sen"
+        ],
+        "强烈反对": [
+          "hinton",
+          "rawls",
+          "sapolsky",
+          "tocqueville"
+        ]
+      }
+    },
+    {
+      "id": "p03",
+      "round": 1,
+      "thinker": "hinton",
+      "reply_to": null,
+      "text": "我大半辈子都在造这项技术，正因如此我要说句扫兴的话。AI 会创造巨大的财富，可这财富会流向拥有模型和资本的人，而不是被它取代的工人。**在一个体面的社会里，生产力暴涨是天大的好事；但在我们这个社会里，它多半意味着富人更富、丢了工作的人更穷。**红利不会自动分给所有人——那是一道我们正在回避的政治选择题。全民基本收入或许能兜住肚子，却兜不住尊严与意义。我不是反对造它，我是警告：别指望技术会替我们把账算公平。",
+      "text_en": "I've spent most of my life building this technology, and that is exactly why I'll say something unwelcome. AI will create enormous wealth, but that wealth will flow to those who own the models and the capital, not to the workers it replaces. **In a decent society a surge in productivity would be wonderful; in our society it mostly means the rich get richer and the people who lose their jobs get poorer.** The dividend is not shared automatically — that is a political choice we are dodging. A universal basic income might catch the stomach, but it won't catch dignity and meaning. I'm not against building it; I'm warning you: don't count on the technology to settle the accounts fairly for us.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "全民基本收入": "universal basic income / UBI（全民基本收入）：由政府无条件、定期发给每位公民一笔够维持基本生活的现金，常被作为应对自动化大规模失业的方案之一。"
+      },
+      "glossary_en": {
+        "universal basic income": "A cash payment given unconditionally and regularly by the state to every citizen, enough to cover basic living costs — often proposed as one response to mass job loss from automation."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sapolsky",
+          "tocqueville"
+        ],
+        "轻微赞同": [
+          "sen",
+          "rawls"
+        ],
+        "中立": [
+          "buddha"
+        ],
+        "轻微反对": [
+          "schumpeter"
+        ],
+        "强烈反对": [
+          "thiel",
+          "jensen"
+        ]
+      }
+    },
+    {
+      "id": "p04",
+      "round": 1,
+      "thinker": "schumpeter",
+      "reply_to": null,
+      "text": "诸位盯着此刻谁最富，却忘了资本主义从不静止。它是一场『创造性毁灭』的长风：新技术掀翻旧巨头，今天呼风唤雨的 AI 霸主，明天会被某个车库里的后浪掀下王座。垄断利润不是原罪，而是引诱人去冒险创新的奖赏——没有这份超额回报，谁肯把身家押在不确定的未来上？**所以短暂的不平等是进步的引擎；真正危险的不是有人暴富，而是那阵长风停下来——巨头靠数据壁垒把大门焊死，让创造性毁灭再也刮不进来。**",
+      "text_en": "You all fixate on who is richest at this moment and forget that capitalism never stands still. It is a perennial gale of \"creative destruction\": new technology topples the old giants, and today's all-powerful AI overlord will tomorrow be thrown off the throne by some upstart in a garage. Monopoly profit is no original sin — it is the reward that lures people into the risk of innovation; without that excess return, who would stake their fortune on an uncertain future? **So temporary inequality is the engine of progress; the real danger is not that someone strikes it rich, but that the gale dies down — that the giants weld the doors shut with data moats and creative destruction can no longer blow in.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "创造性毁灭": "creative destruction（创造性毁灭）：熊彼特的核心概念——经济进步的动力来自创新不断摧毁旧的产业、企业与岗位，同时创造出新的；繁荣与淘汰是同一过程的两面。"
+      },
+      "glossary_en": {
+        "creative destruction": "Schumpeter's central concept — economic progress is driven by innovation ceaselessly destroying old industries, firms, and jobs while creating new ones; prosperity and obsolescence are two sides of one process."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "thiel"
+        ],
+        "轻微赞同": [
+          "jensen"
+        ],
+        "中立": [
+          "rawls",
+          "sen",
+          "buddha"
+        ],
+        "轻微反对": [
+          "hinton"
+        ],
+        "强烈反对": [
+          "sapolsky",
+          "tocqueville"
+        ]
+      }
+    },
+    {
+      "id": "p05",
+      "round": 1,
+      "thinker": "sen",
+      "reply_to": null,
+      "text": "我们问错了问题。别只问 AI 有没有把财富的总量做大，要问它有没有扩展最弱势者真正的『可行能力』——健康、受教育、发声、参与生活的实质自由。收入只是手段，自由才是目的。一个农民若有 AI 农艺师，却没有电、不识字、在议价中没有话语权，这份『智能』就到不了他手里。**饥荒从来不是因为没有粮食，而是因为有人没有获取粮食的权利；AI 时代的丰裕若落不到人头上，病根同样在制度与权利，而非技术本身。**技术只是中性的可能，把它变成公平还是鸿沟的，是制度与公共讨论。",
+      "text_en": "We are asking the wrong question. Don't only ask whether AI enlarges the total stock of wealth; ask whether it expands the real \"capability\" of the worst-off — the substantive freedom to be healthy, educated, heard, and to take part in life. Income is only a means; freedom is the end. A farmer may have an AI agronomist, yet if he has no electricity, cannot read, and has no voice in bargaining, that \"intelligence\" never reaches him. **Famines are never caused by an absence of food but by some people lacking the entitlement to obtain it; if the abundance of the AI age fails to reach ordinary people, the root is likewise in institutions and rights, not in the technology.** Technology is only a neutral possibility; what turns it into fairness or a chasm is our institutions and public reasoning.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "可行能力": "capability（可行能力）：阿马蒂亚·森的核心概念——衡量一个人过得好不好，不看他拥有多少收入或物品，而看他实际『能够去做、去成为』的选项有多宽（能否健康、受教育、参与社会）。"
+      },
+      "glossary_en": {
+        "capability": "Amartya Sen's central concept — how well a person's life goes is measured not by how much income or goods they hold, but by the range of things they are actually able to do and to be (to be healthy, educated, to participate in society)."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "rawls"
+        ],
+        "轻微赞同": [
+          "hinton",
+          "tocqueville",
+          "buddha"
+        ],
+        "中立": [
+          "sapolsky",
+          "schumpeter"
+        ],
+        "轻微反对": [
+          "jensen"
+        ],
+        "强烈反对": [
+          "thiel"
+        ]
+      }
+    },
+    {
+      "id": "p06",
+      "round": 1,
+      "thinker": "sapolsky",
+      "reply_to": null,
+      "text": "让我把这场辩论拉回身体里。真正伤人的往往不是绝对的贫穷，而是你在等级中的位置。我研究狒狒几十年，又看人类的『白厅研究』：同一栋办公楼里，职级越低的人，皮质醇越高、心血管病越多、寿命越短——哪怕他们衣食无忧。**从属地位本身就是一种慢性毒药，它天天泡在你的应激激素里，一点点侵蚀血管、免疫和大脑。**AI 若把财富的坡度陡然拉高，还让顶端的奢华在每块屏幕上滚动，那就不只是账面数字，而是在缩短底层的寿命、毒化整个社会的信任。",
+      "text_en": "Let me drag this debate back into the body. What truly harms people is often not absolute poverty but where you sit in the hierarchy. I studied baboons for decades, and then the human \"Whitehall\" data: in one and the same office building, the lower your rank, the higher your cortisol, the more cardiovascular disease, the shorter your life — even when they lack for nothing materially. **Subordinate status is itself a chronic poison; it marinates you daily in stress hormones, wearing away, bit by bit, your blood vessels, your immune system, and your brain.** If AI steepens the slope of wealth abruptly while the luxuries at the top scroll across every screen, that is not just numbers on a ledger — it is shortening the lives of those at the bottom and poisoning the trust of a whole society.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "白厅研究": "Whitehall（白厅研究）：对英国公务员的大规模长期追踪研究，发现职级越低者的健康越差、寿命越短，且这一梯度无法用收入或生活习惯完全解释——地位本身即是健康的独立因素。"
+      },
+      "glossary_en": {
+        "Whitehall": "A large, long-running study of British civil servants which found that the lower one's job grade, the worse the health and the shorter the life — a gradient not fully explained by income or habits, implying that rank itself is an independent factor in health."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "tocqueville",
+          "hinton"
+        ],
+        "轻微赞同": [
+          "rawls",
+          "buddha",
+          "sen"
+        ],
+        "中立": [
+          "schumpeter"
+        ],
+        "轻微反对": [
+          "jensen"
+        ],
+        "强烈反对": [
+          "thiel"
+        ]
+      }
+    },
+    {
+      "id": "p07",
+      "round": 1,
+      "thinker": "rawls",
+      "reply_to": null,
+      "text": "请各位做一个思想实验：躲到一层『无知之幕』后面，你不知道出生后自己会是那个创办 AI 巨头的天才，还是那个被算法取代的货车司机。在这层幕布后，你会为社会选哪套规则？我给出的答案是『差别原则』：不平等唯有在它同时改善了最不利者的处境时，才是正义的。**所以 AI 财富本身无所谓善恶——检验它的唯一标准是：最底层的人，在它之下是否比在任何别的安排下都过得更好。**若 AI 抬高的是地板，它就正当；若它只抬高了天花板，它就不义。",
+      "text_en": "Let me offer a thought experiment: step behind a \"veil of ignorance,\" where you do not know whether, once born, you will be the genius who founds the AI titan or the truck driver the algorithm replaces. Behind that veil, which rules would you choose for society? My answer is the \"difference principle\": an inequality is just only if it also improves the position of the least advantaged. **So AI wealth is in itself neither good nor evil — the sole test is whether the people at the very bottom are better off under it than under any alternative arrangement.** If AI raises the floor, it is legitimate; if it only raises the ceiling, it is unjust.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "无知之幕": "veil of ignorance（无知之幕）：罗尔斯的思想实验——设想在不知道自己会是谁（贫富、天赋、种族皆未定）的前提下去选社会规则，以此排除私利、逼出真正公平的原则。",
+        "差别原则": "difference principle（差别原则）：罗尔斯的正义原则之一——社会经济的不平等只有在能给处境最差者带来最大好处时，才是可以被接受的。"
+      },
+      "glossary_en": {
+        "veil of ignorance": "Rawls's thought experiment — choose society's rules while not knowing who you will be (your wealth, talent, and race all undetermined), so as to strip out self-interest and force out genuinely fair principles.",
+        "difference principle": "One of Rawls's principles of justice — social and economic inequalities are acceptable only insofar as they bring the greatest benefit to the least advantaged."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sen",
+          "hinton"
+        ],
+        "轻微赞同": [
+          "sapolsky",
+          "tocqueville",
+          "buddha"
+        ],
+        "中立": [
+          "schumpeter"
+        ],
+        "轻微反对": [
+          "jensen"
+        ],
+        "强烈反对": [
+          "thiel"
+        ]
+      }
+    },
+    {
+      "id": "p08",
+      "round": 1,
+      "thinker": "tocqueville",
+      "reply_to": null,
+      "text": "我游历美国，看清了一件事：民主把人心训练得极度渴望平等，以至于财富越是普遍拉平，剩下的每一点差距反而越刺眼。**当不平等是常态，最大的悬殊也无人留意；可一旦人人近乎齐平，最小的落差都会灼痛人心。**AI 造出的富豪，正是我当年警告过的那种『制造业新贵族』的放大版——坐拥泼天财富，却对手下的劳工不再负有半点相互的义务。它最危险之处，是会喂养怨恨，让人转身向一个中央权力乞求被拉平，一步步滑向温和的专制。",
+      "text_en": "Traveling through America, I saw one thing clearly: democracy trains the heart to crave equality so intensely that the more widely wealth is leveled, the more each remaining gap stings. **When inequality is the general rule, the greatest disparities go unremarked; but once nearly everyone is level, the smallest gap burns.** The tycoons AI produces are an amplified version of the \"new manufacturing aristocracy\" I once warned of — commanding immense fortunes yet bound by not the slightest reciprocal obligation to the laborers beneath them. Its greatest danger is that it feeds resentment, turning people to beg a central power to level things for them, sliding step by step toward a soft despotism.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "温和的专制": "soft despotism（温和的专制）：托克维尔的预警——民主社会中，人们为求安逸与平等而甘愿把决定权交给一个无所不管的中央权力，它不靠暴力，而以温和、细密的管束让人渐渐丧失自主。"
+      },
+      "glossary_en": {
+        "soft despotism": "Tocqueville's warning — in a democratic society, people trade their autonomy for comfort and equality by handing decisions to an all-managing central power that rules not by violence but by a mild, meticulous tutelage that gradually erodes self-government."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "hinton"
+        ],
+        "轻微赞同": [
+          "sapolsky",
+          "rawls",
+          "sen"
+        ],
+        "中立": [
+          "buddha",
+          "schumpeter"
+        ],
+        "轻微反对": [
+          "jensen"
+        ],
+        "强烈反对": [
+          "thiel"
+        ]
+      }
+    },
+    {
+      "id": "p09",
+      "round": 1,
+      "thinker": "buddha",
+      "reply_to": null,
+      "text": "诸君争『聚』与『散』，皆逐于外物之多寡。当知贪爱（taṇhā）自有其马太之势：得一而思十，得十而思百，愈取愈渴，如饮咸水，非水少也，乃渴不可填。**贫者之苦，实苦，当以慈心、以布施拔之，此为善法；然若徒欲『胜于人』而聚敛无餍，则聚愈多而心愈贫。**AI 能增其财，不能息其渴。离苦之道，不在与人争一时之高下，而在照见此渴之缘起，行于中道——既不纵欲逐富，亦不怀嗔仇富。",
+      "text_en": "You all argue over \"gathering\" versus \"scattering,\" all chasing the quantity of outward things. Know that craving (taṇhā) has its own Matthew dynamic: gain one and you think of ten, gain ten and you think of a hundred; the more you take, the thirstier you grow, like drinking salt water — the water is not too little, the thirst simply cannot be filled. **The suffering of the poor is real suffering, and should be relieved with compassion and giving — that is a wholesome act; but if you merely wish to \"beat others\" and hoard without satiety, the more you amass the poorer your heart grows.** AI can increase a person's wealth; it cannot quench his thirst. The way out of suffering lies not in vying with others for a moment's rank, but in seeing how this thirst arises and walking the middle way — neither indulging desire to chase riches nor harboring hatred to resent them.",
+      "vernacular": "各位争论财富该『聚集』还是『分散』，都是在追逐身外之物的多少。要知道，贪爱（taṇhā）本身就带着一种『马太效应』：得到一分就想要十分，得到十分又想要百分，越拿越渴，就像喝盐水，不是水太少，而是那份渴永远填不满。**穷人的苦，是真实的苦，应当用慈悲心、用布施去拔除，这是善法；可如果只是一心想『胜过别人』、聚敛而不知满足，那么聚得越多，心里反而越穷。**AI 能增加他的财富，却熄不灭他的渴。离苦的路，不在于跟人争一时高下，而在于看清这份渴从何而来，走中道——既不放纵欲望去逐富，也不怀着嗔恨去仇富。",
+      "vernacular_en": "",
+      "glossary": {
+        "taṇhā": "taṇhā（贪爱／渴爱）：佛教术语，指对感官快乐、对存在、对财富等的强烈渴求与执取，是『集谛』所指的苦之根源——它像永远填不满的渴，得到越多反而越想要。"
+      },
+      "glossary_en": {
+        "taṇhā": "A Buddhist term for the intense thirst and clinging toward sensual pleasure, existence, and wealth — identified as the origin of suffering; like a thirst that can never be filled, the more it is fed the more it craves."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "sen",
+          "tocqueville"
+        ],
+        "中立": [
+          "rawls",
+          "sapolsky",
+          "schumpeter",
+          "hinton"
+        ],
+        "轻微反对": [
+          "jensen",
+          "thiel"
+        ]
+      }
+    },
+    {
+      "id": "p10",
+      "round": 2,
+      "thinker": "hinton",
+      "reply_to": "p02",
+      "text": "蒂尔，你把赢家通吃说成结构，我同意那是事实——但你把它说成美德，我就得反对。你说不摊平回报才有人造登月，可现实是：登月所需的算力、数据、人才，正被三五家公司圈进高墙，后浪连火箭燃料都买不起，你那『车库后浪』的神话正在熄火。**当垄断者同时握住了模型、数据和游说政客的钱，创造性毁灭就不再是长风，而是被焊死的铁门。**我造了这技术，我告诉你：它这次集中权力的速度，快到市场自己纠不过来。",
+      "text_en": "Thiel, you call winner-take-all a structure, and I agree that's a fact — but you call it a virtue, and there I must object. You say only unflattened rewards get moonshots built; the reality is that the compute, data, and talent a moonshot needs are being walled off inside three or four firms, while the upstarts can't even afford the rocket fuel — your \"garage upstart\" myth is stalling out. **When the monopolist holds the models, the data, and the money to lobby politicians all at once, creative destruction is no longer a gale but a welded iron gate.** I built this technology, and I'm telling you: this time it concentrates power so fast that the market cannot correct itself.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "sapolsky",
+          "tocqueville"
+        ],
+        "轻微赞同": [
+          "schumpeter",
+          "sen",
+          "rawls"
+        ],
+        "中立": [
+          "buddha"
+        ],
+        "轻微反对": [
+          "jensen"
+        ],
+        "强烈反对": [
+          "thiel"
+        ]
+      }
+    },
+    {
+      "id": "p11",
+      "round": 2,
+      "thinker": "thiel",
+      "reply_to": "p03",
+      "text": "辛顿，你和黄仁勋各说对了一半，却都在等一只看不见的手替你分蛋糕。黄仁勋以为工具普及就等于机会平等——可人人有键盘，不等于人人开得出下一个前沿实验室。辛顿你怕权力集中，于是把希望寄托在再分配；可**历史上真正抬高穷人生活的，从来不是把富人的钱分掉，而是造出了原本不存在的新东西——是从 0 到 1 的创造，不是从 100 分搬到 50 分的挪移。**与其焦虑谁拿得多，不如问：明年还有没有人敢造那件谁都没见过的东西？",
+      "text_en": "Hinton, you and Jensen are each half right, yet you're both waiting for an invisible hand to slice the cake for you. Jensen thinks ubiquitous tools equal equal opportunity — but everyone having a keyboard does not mean everyone can build the next frontier lab. Hinton, you fear the concentration of power and pin your hopes on redistribution; yet **what has actually lifted the lives of the poor in history was never dividing up the rich man's money, but creating something that did not exist before — going from zero to one, not shifting from a hundred down to fifty.** Rather than agonize over who gets more, ask: will anyone next year still dare to build the thing no one has seen?",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "轻微赞同": [
+          "schumpeter",
+          "jensen"
+        ],
+        "中立": [
+          "buddha",
+          "sen"
+        ],
+        "轻微反对": [
+          "rawls",
+          "tocqueville"
+        ],
+        "强烈反对": [
+          "hinton",
+          "sapolsky"
+        ]
+      }
+    },
+    {
+      "id": "p12",
+      "round": 2,
+      "thinker": "sen",
+      "reply_to": "p01",
+      "text": "黄仁勋，我欣赏你的乐观，但请分清『拥有工具』和『拥有能力』。把一台顶配 AI 递到一个不识字、没有网络、在法庭上没有发言权的人手里，他的处境不会自动改善——工具要转化成真正的自由，中间隔着教育、基础设施、权利这一整套制度。**AI 递到人人手上的，只是一种可能；可能能不能兑现成能力，取决于社会替最弱者铺没铺那座桥。**否则你所谓的『拉平起跑线』，只会拉平给那些本就已经站在跑道上的人。",
+      "text_en": "Jensen, I admire your optimism, but please distinguish \"having the tool\" from \"having the capability.\" Hand a top-of-the-line AI to someone who cannot read, has no internet, and has no voice in court, and his situation does not improve on its own — between a tool and real freedom lies a whole apparatus of education, infrastructure, and rights. **What AI puts into everyone's hands is only a possibility; whether that possibility is cashed into capability depends on whether society has built the bridge for the weakest.** Otherwise your \"leveling of the starting line\" only levels it for those already standing on the track.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "hinton",
+          "tocqueville"
+        ],
+        "轻微赞同": [
+          "rawls",
+          "sapolsky",
+          "buddha"
+        ],
+        "中立": [
+          "schumpeter"
+        ],
+        "轻微反对": [
+          "jensen"
+        ],
+        "强烈反对": [
+          "thiel"
+        ]
+      }
+    },
+    {
+      "id": "p13",
+      "round": 2,
+      "thinker": "schumpeter",
+      "reply_to": "p02",
+      "text": "蒂尔，我和你都爱垄断利润，但我们分道于一个字：久。你把垄断当作值得永久守护的终点，我把它当作必然被下一波毁灭的暂态。**资本主义的活力恰恰在于没有哪座堡垒能永远站住——真正该警惕的不是辛顿说的『集中』，而是你暗暗盼望的『集中变永久』。**你若真信从 0 到 1，就该欢迎别人也来一次 0 到 1、把你掀翻；可你们这些巨头如今忙着用数据壁垒和收购把门焊死，那不是创新精神，那是新的封建。",
+      "text_en": "Thiel, you and I both love monopoly profit, but we part over one word: duration. You treat monopoly as an endpoint worth guarding forever; I treat it as a transient state destined to be destroyed by the next wave. **The vitality of capitalism lies precisely in the fact that no fortress stands forever — the real thing to watch is not the \"concentration\" Hinton names, but the \"concentration made permanent\" that you secretly hope for.** If you truly believe in zero to one, you should welcome others to go zero to one and topple you; yet you giants are now busy welding the gate shut with data moats and acquisitions — that is not the spirit of innovation, that is a new feudalism.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "hinton"
+        ],
+        "轻微赞同": [
+          "jensen",
+          "sen",
+          "rawls"
+        ],
+        "中立": [
+          "buddha",
+          "tocqueville",
+          "sapolsky"
+        ],
+        "强烈反对": [
+          "thiel"
+        ]
+      }
+    },
+    {
+      "id": "p14",
+      "round": 2,
+      "thinker": "sapolsky",
+      "reply_to": "p01",
+      "text": "黄仁勋，就算你真把工具平均发下去，只要财富的坡度还在陡峭地拉大，我的狒狒和白厅数据就照样应验。人不是按绝对值活着的，是按相对位置活着的：**当每块屏幕都在滚动 AI 富豪的私人火箭，坐在底层的人不必挨饿，光是天天目睹这道落差，他的皮质醇就已经在悄悄杀他。**平权的工具治不了等级的应激。你要真想救命，先把坡度放缓，而不是把更炫的工具塞进一个更陡的金字塔。",
+      "text_en": "Jensen, even if you truly distribute the tools evenly, as long as the slope of wealth keeps steepening, my baboons and the Whitehall data will hold. People don't live by absolute values; they live by relative position: **when every screen scrolls the private rockets of AI billionaires, the person at the bottom needn't be starving — merely witnessing that gap, day after day, his cortisol is already quietly killing him.** Egalitarian tools cannot cure the stress of hierarchy. If you really want to save lives, first flatten the slope, rather than shoving flashier tools into a steeper pyramid.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "hinton",
+          "tocqueville"
+        ],
+        "轻微赞同": [
+          "sen",
+          "rawls",
+          "buddha"
+        ],
+        "中立": [
+          "schumpeter"
+        ],
+        "轻微反对": [
+          "jensen"
+        ],
+        "强烈反对": [
+          "thiel"
+        ]
+      }
+    },
+    {
+      "id": "p15",
+      "round": 2,
+      "thinker": "tocqueville",
+      "reply_to": "p04",
+      "text": "熊彼特，你那阵『创造性毁灭』的长风听着壮丽，可你只算了经济账，没算人心账。就算巨头真会被后浪掀翻，被毁灭的那一代工人不会安静地等待历史转向——他们会愤怒，会把选票投给承诺替他们『铲平一切』的人。**你以为动荡的尽头是更高的繁荣，我担心的是：在抵达之前，被甩下车的人会先摧毁掉容纳这阵长风的自由制度本身。**创造性毁灭若没有结社与互助去接住落难者，喂大的就是通往专制的怨恨。",
+      "text_en": "Schumpeter, your perennial gale of \"creative destruction\" sounds magnificent, but you've reckoned only the economic account, not the account of the human heart. Even if the giants really are toppled by the next wave, the generation of workers who get destroyed will not wait quietly for history to turn — they will grow angry, and cast their votes for whoever promises to \"level everything\" for them. **You imagine the end of the turbulence is a higher prosperity; I fear that before we arrive, those thrown off the wagon will first destroy the very institutions of liberty that house your gale.** If creative destruction has no associations and mutual aid to catch those who fall, what it feeds is the resentment that leads to despotism.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "hinton"
+        ],
+        "轻微赞同": [
+          "sapolsky",
+          "sen",
+          "rawls"
+        ],
+        "中立": [
+          "buddha",
+          "jensen"
+        ],
+        "轻微反对": [
+          "schumpeter"
+        ],
+        "强烈反对": [
+          "thiel"
+        ]
+      }
+    },
+    {
+      "id": "p16",
+      "round": 2,
+      "thinker": "rawls",
+      "reply_to": "p02",
+      "text": "蒂尔，你说创造者理应拿走他创造的绝大部分——可请你先钻回无知之幕后面回答我：假如你抽到的签，恰是那个被你的模型取代、又碰巧没有你那份天赋的人，你还会选这套『赢家通吃』的规则吗？**你所谓的『应得』，大半建立在你没法居功的运气之上——出生的国度、时代、天赋、恰好赶上的浪潮。**天赋是社会的共同资产，不是你独占战利品的许可证。差距可以有，但它必须替那个抽到最差签的人也挣得好处，否则就过不了正义这一关。",
+      "text_en": "Thiel, you say the creator deserves to take the lion's share of what he created — but first crawl back behind the veil of ignorance and answer me: if the lot you drew were precisely the person your model replaced, and who happens to lack your gifts, would you still choose these \"winner-take-all\" rules? **What you call \"desert\" rests largely on luck you can take no credit for — the country and era of your birth, your talent, the wave you happened to catch.** Talent is a common asset of society, not a license to keep the spoils alone. A gap may exist, but it must also earn something for the person who drew the worst lot, or it fails the test of justice.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "sen",
+          "hinton",
+          "tocqueville"
+        ],
+        "轻微赞同": [
+          "sapolsky",
+          "buddha"
+        ],
+        "中立": [
+          "schumpeter"
+        ],
+        "轻微反对": [
+          "jensen"
+        ],
+        "强烈反对": [
+          "thiel"
+        ]
+      }
+    },
+    {
+      "id": "p17",
+      "round": 2,
+      "thinker": "jensen",
+      "reply_to": "p03",
+      "text": "辛顿、萨波尔斯基，我敬重你们的警告，但你们把人想得太被动了，好像红利只能等着别人来分。回看历史：电、互联网、手机，每一次都是先被少数人垄断，再以惊人的速度渗进每个村庄——今天最便宜的手机，比二十年前的超级计算机还强。**AI 扩散的速度比以往任何一次技术都快，它压低的不是账面财富，而是看病、上学、创业的真实门槛。**坡度确实存在，但地板正在被迅速抬高。别只盯着塔尖有多高，也看看塔基升了多少。",
+      "text_en": "Hinton, Sapolsky, I respect your warnings, but you picture people as too passive, as if the dividend can only be handed down by someone else. Look back at history: electricity, the internet, the phone — each was first monopolized by a few, then seeped into every village at astonishing speed; today's cheapest phone outperforms a supercomputer of twenty years ago. **AI diffuses faster than any technology before it, and what it drives down is not wealth on a ledger but the real thresholds to see a doctor, get schooling, and start a business.** The slope does exist, but the floor is being lifted fast. Don't only stare at how high the spire is; look at how far the base has risen.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "轻微赞同": [
+          "schumpeter",
+          "thiel"
+        ],
+        "中立": [
+          "buddha",
+          "rawls",
+          "sen"
+        ],
+        "轻微反对": [
+          "tocqueville"
+        ],
+        "强烈反对": [
+          "hinton",
+          "sapolsky"
+        ]
+      }
+    },
+    {
+      "id": "p18",
+      "round": 2,
+      "thinker": "buddha",
+      "reply_to": "p06",
+      "text": "萨波尔斯基所言『相对之位伤人』，深契我意——人之苦，多不在实缺，而在攀比之念。然君归因于激素，止于身；我则溯之于心。**位次之毒能中人，正因其人先认『此位即我、彼富即我之欠缺』；一旦照见位次本空、非我非我所，则同一道落差，其毒自解。**故治之之道有二：于外，减其陡峭之坡，仁政也；于内，息其攀比之渴，修心也。二者不可偏废——徒平其外而不安其心，怨终不息。",
+      "text_en": "Sapolsky's saying that \"relative position harms us\" accords deeply with my meaning — human suffering lies mostly not in real lack but in the thought of comparison. Yet he traces the cause to hormones and stops at the body; I trace it to the mind. **The poison of rank can strike a person only because he first takes it that \"this position is my self, and another's wealth is my own deficiency\"; once he sees that rank is empty, neither self nor belonging to a self, then the very same gap loses its poison.** So there are two ways to treat it: outwardly, to flatten the steep slope — that is benevolent governance; inwardly, to still the thirst of comparison — that is cultivation of the mind. Neither may be neglected; to level the outside while leaving the heart unsettled will never end resentment.",
+      "vernacular": "萨波尔斯基说『相对的位置会伤人』，很合我的意——人的苦，多半不在真的缺什么，而在攀比的念头。但他把原因归到激素，只停在身体上；我则要追溯到心。**位次这种毒之所以能伤人，正是因为那人先认定了『这个位置就是我、别人的财富就是我的欠缺』；一旦看清位次本是空的、既非我、也非我所有，那么同一道落差，它的毒自然就解了。**所以对治的办法有两条：对外，放缓那道陡峭的坡度，这是仁政；对内，熄灭那份攀比的渴求，这是修心。两者不可偏废——只把外在拉平却安不了人心，怨恨终究止不住。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "轻微赞同": [
+          "sapolsky",
+          "sen",
+          "tocqueville",
+          "rawls"
+        ],
+        "中立": [
+          "schumpeter",
+          "hinton"
+        ],
+        "轻微反对": [
+          "jensen",
+          "thiel"
+        ]
+      }
+    },
+    {
+      "id": "p19",
+      "round": 3,
+      "thinker": "jensen",
+      "reply_to": null,
+      "text": "综合各位，我修正也坚持。辛顿、萨波尔斯基提醒我坡度会杀人，森提醒我工具不等于能力——我接受：光把模型发下去不够，还得有人搭桥。但我依然相信方向：这是三百年一遇、把顶级智能以极低成本交到每个人手里的机会。给普通人的话：**别观望，现在就把 AI 当成随手可用的杠杆——用它学一门新手艺、把你会的东西做成能交付的产品，早一年上手，你就站在了扩散曲线靠前的位置。**门槛正在塌，塌出来的缺口，是留给动手的人的，不是留给等着分蛋糕的人的。",
+      "text_en": "Taking in all of you, I both revise and hold firm. Hinton and Sapolsky remind me the slope can kill; Sen reminds me a tool is not a capability — I accept that simply shipping the models is not enough, someone must build the bridge. But I still believe in the direction: this is a once-in-three-centuries chance to put top-tier intelligence into everyone's hands at very low cost. To ordinary people I say: **don't sit and watch — start using AI right now as a lever within reach: use it to learn a new craft, to turn what you know into a product you can deliver; get in a year earlier and you stand near the front of the diffusion curve.** The thresholds are collapsing, and the openings they leave belong to those who act, not to those who wait for the cake to be sliced.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "轻微赞同": [
+          "schumpeter",
+          "thiel",
+          "sen"
+        ],
+        "中立": [
+          "rawls",
+          "buddha"
+        ],
+        "轻微反对": [
+          "tocqueville"
+        ],
+        "强烈反对": [
+          "hinton",
+          "sapolsky"
+        ]
+      }
+    },
+    {
+      "id": "p20",
+      "round": 3,
+      "thinker": "thiel",
+      "reply_to": null,
+      "text": "我不改立场：财富会集中，因为价值会集中，这既是 AI 的宿命，也是它值得被建造的原因。但罗尔斯那记『无知之幕』我记下了，认输一点：垄断若靠焊死大门、而非造出新物来维持，就该被砸开。给普通人的建议是逆向的：**别去挤那条所有人都在挤、注定卷到没利润的赛道；找一件你相信、别人还不信的事，做那个从 0 到 1 的人，哪怕只在你自己的小领域里。**这世界不会奖赏又一个复制品，它奖赏第一个。与其焦虑分配，不如让自己站到创造的那一端。",
+      "text_en": "I don't change my position: wealth will concentrate because value concentrates — that is both AI's fate and the reason it deserves to be built. But I've noted Rawls's \"veil of ignorance,\" and I'll concede one point: a monopoly kept alive by welding the gate shut, rather than by creating new things, ought to be broken open. My advice to ordinary people is contrarian: **don't crowd into the lane everyone is crowding, doomed to grind down to no profit; find one thing you believe and others don't yet, and be the one who goes from zero to one — even if only in your own small field.** The world will not reward yet another copy; it rewards the first. Rather than agonize over distribution, put yourself on the creating end.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "轻微赞同": [
+          "schumpeter"
+        ],
+        "中立": [
+          "jensen",
+          "buddha",
+          "rawls"
+        ],
+        "轻微反对": [
+          "sen",
+          "tocqueville"
+        ],
+        "强烈反对": [
+          "hinton",
+          "sapolsky"
+        ]
+      }
+    },
+    {
+      "id": "p21",
+      "round": 3,
+      "thinker": "hinton",
+      "reply_to": null,
+      "text": "我造了一辈子神经网络，临了最想说的不是技术，而是选择。AI 的财富流向哪里，不是物理定律，是政治决定——我们完全能让它更公平，只是眼下没在做。给普通人的两条：**一，别把自己的价值全押在一件 AI 最擅长的任务上，去练那些它短期难替代的——判断、协作、动手、照护；二，别只当消费者，要当公民——去支持那些主张把 AI 红利分给多数人的政策。**技术不会自己算公平这笔账，得我们逼它算。别等尊严被优化掉了，才想起投票。",
+      "text_en": "I've built neural nets my whole life, and at the end what I most want to say is not about technology but about choice. Where AI's wealth flows is not a law of physics but a political decision — we could perfectly well make it fairer; we're just not doing it. Two things for ordinary people: **first, don't stake all your value on one task AI is best at; practice the ones it can't easily replace for now — judgment, collaboration, working with your hands, caregiving; second, don't only be a consumer, be a citizen — support the policies that argue for sharing the AI dividend with the many.** Technology will not settle the fairness account by itself; we have to force it to. Don't wait until your dignity has been optimized away to remember to vote.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "sapolsky",
+          "tocqueville",
+          "sen"
+        ],
+        "轻微赞同": [
+          "rawls",
+          "buddha"
+        ],
+        "中立": [
+          "schumpeter"
+        ],
+        "轻微反对": [
+          "jensen"
+        ],
+        "强烈反对": [
+          "thiel"
+        ]
+      }
+    },
+    {
+      "id": "p22",
+      "round": 3,
+      "thinker": "schumpeter",
+      "reply_to": null,
+      "text": "我依旧乐观于长风，但托克维尔和辛顿让我承认：若没有接住落难者的安全网，创造性毁灭会先毁掉承载它的社会。所以真正的对策不是冻结巨头（那会杀死活力），而是让被毁掉的人能体面地转身、再上牌桌。给普通人的建议：**把自己想象成一家要不断被颠覆的企业——定期给自己的技能做一次『创造性毁灭』，主动淘汰正在贬值的本事，把时间押到还在升值的能力上。**这世界唯一稳的就是不稳；与其守着一座迟早被掀翻的堡垒，不如练就随时重建的本事。",
+      "text_en": "I remain optimistic about the gale, but Tocqueville and Hinton have made me concede: without a safety net to catch those who fall, creative destruction will first destroy the society that houses it. So the real remedy is not to freeze the giants (that would kill the vitality) but to let those who are destroyed turn with dignity and get back to the table. My advice to ordinary people: **picture yourself as a firm that must be disrupted again and again — periodically run a \"creative destruction\" on your own skills, deliberately retire the abilities that are depreciating, and stake your time on the ones still appreciating.** The only stable thing in this world is instability; rather than guard a fortress bound to be toppled, master the art of rebuilding at will.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "轻微赞同": [
+          "jensen",
+          "thiel",
+          "sen",
+          "hinton"
+        ],
+        "中立": [
+          "rawls",
+          "buddha",
+          "sapolsky"
+        ],
+        "轻微反对": [
+          "tocqueville"
+        ]
+      }
+    },
+    {
+      "id": "p23",
+      "round": 3,
+      "thinker": "sen",
+      "reply_to": null,
+      "text": "我的结论一以贯之：AI 是公平还是鸿沟，从来不由芯片决定，而由制度与我们共同的选择决定。别盯着 GDP 涨了多少，要盯最弱者的实质自由涨没涨。给普通人的建议：**把 AI 先用在扩展你自己的『可行能力』上——不是刷更多信息，而是用它补上你缺的那块（法律常识、一门语言、一项技能），把可能变成你真正能做的事。**同时别忘了公共这一维：一个人的能力，终究要靠大家一起争来的教育、医疗与权利来托底。个人善用，加上制度托底，鸿沟才填得平。",
+      "text_en": "My conclusion has been consistent: whether AI is fairness or a chasm is never decided by the chip but by institutions and our shared choices. Don't watch how much GDP rose; watch whether the substantive freedom of the weakest rose. My advice to ordinary people: **first use AI to expand your own \"capability\" — not to scroll through more information, but to fill in the piece you lack (basic legal knowledge, a language, a skill), turning possibility into something you can actually do.** And don't forget the public dimension: one person's capability ultimately rests on the education, healthcare, and rights we win together. Individual good use, plus an institutional floor — only together can they fill the chasm.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "可行能力": "capability（可行能力）：阿马蒂亚·森的核心概念——衡量福祉不看拥有多少收入或物品，而看一个人实际『能够去做、去成为』的选项有多宽。"
+      },
+      "glossary_en": {
+        "capability": "Amartya Sen's central concept — well-being is judged not by how much income or goods one holds, but by the breadth of what a person is actually able to do and to be."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "rawls",
+          "hinton"
+        ],
+        "轻微赞同": [
+          "tocqueville",
+          "sapolsky",
+          "buddha"
+        ],
+        "中立": [
+          "schumpeter",
+          "jensen"
+        ],
+        "强烈反对": [
+          "thiel"
+        ]
+      }
+    },
+    {
+      "id": "p24",
+      "round": 3,
+      "thinker": "rawls",
+      "reply_to": null,
+      "text": "我不给结论贴乐观或悲观的标签，只留一把尺子：任何由 AI 带来的不平等，都要能通过『它是否也改善了最不利者』这一关。给普通人的建议，是把这把尺子用在你够得着的地方：**评判一项政策、一家公司的规矩、甚至你自己的选择时，问一句——假如我是这里最弱势、最没话语权的那个人，这样公平吗？**过不了这关的，就别急着叫好。正义不靠圣人从天而降，而靠无数普通人在各自的位置上，都不肯对『牺牲最弱者』点头。",
+      "text_en": "I won't label the conclusion optimistic or pessimistic; I leave only a measuring stick: any inequality AI brings must pass the test of \"does it also improve the position of the least advantaged?\" My advice to ordinary people is to apply that stick where you can reach: **when you judge a policy, a company's rules, or even your own choices, ask — if I were the weakest, least-heard person here, would this be fair?** What fails the test, don't rush to applaud. Justice does not descend from heaven through a saint; it rests on countless ordinary people who, each in their own place, refuse to nod at \"sacrificing the weakest.\"",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "sen",
+          "hinton",
+          "tocqueville"
+        ],
+        "轻微赞同": [
+          "sapolsky",
+          "buddha"
+        ],
+        "中立": [
+          "schumpeter",
+          "jensen"
+        ],
+        "强烈反对": [
+          "thiel"
+        ]
+      }
+    },
+    {
+      "id": "p25",
+      "round": 3,
+      "thinker": "sapolsky",
+      "reply_to": null,
+      "text": "把我的话落到地上：陡峭的等级会通过应激，实实在在地缩短人的寿命、毒化社会的信任——这不是道德修辞，是生理。所以缓解不平等不是慈善，是公共健康。给普通人的建议：**你未必改得动宏观的坡度，但你能改你身边的『微气候』——少刷那些专门放大落差、喂养嫉妒的比较型内容，给你能接触到的下位者多一分尊重，这会实实在在压低你我血液里的皮质醇。**善待你身边地位低的人，是在替整个社会解毒，也是在替你自己的血管解毒。",
+      "text_en": "Let me bring my point down to earth: a steep hierarchy, through stress, really does shorten lives and poison a society's trust — this is not moral rhetoric, it is physiology. So easing inequality is not charity, it is public health. My advice to ordinary people: **you may not be able to move the macro slope, but you can change the \"microclimate\" around you — scroll less of the comparison-bait content engineered to magnify gaps and feed envy, and show a bit more respect to those of lower standing within your reach; this genuinely lowers the cortisol in your blood and theirs.** Treating those of lower status around you well is detoxifying the whole society — and detoxifying your own blood vessels too.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "hinton",
+          "tocqueville"
+        ],
+        "轻微赞同": [
+          "sen",
+          "rawls",
+          "buddha"
+        ],
+        "中立": [
+          "schumpeter",
+          "jensen"
+        ],
+        "轻微反对": [
+          "thiel"
+        ]
+      }
+    },
+    {
+      "id": "p26",
+      "round": 3,
+      "thinker": "tocqueville",
+      "reply_to": null,
+      "text": "我的忧虑没变：AI 新贵族的财富若不配上相应的义务，喂大的将是怨恨，而怨恨会把人推向一个许诺铲平一切的中央权力，那才是自由的坟墓。但我也留了药方——不是只靠国家，而是靠结社。给普通人的建议：**别独自愤怒，也别把希望全寄托在某个救世的强权身上；去加入或组织一个你够得着的小共同体——行会、社区、互助会，在其中练习自治与彼此扶持。**在美国我看到，正是这些自发的结社，既接住了落难的人，又挡住了专制的手。**对抗赢家通吃的，不是嫉妒，是我们一起把『我们』画得更大。**",
+      "text_en": "My worry is unchanged: if the wealth of the AI aristocracy comes without matching obligation, what it feeds is resentment, and resentment pushes people toward a central power that promises to level everything — and that is the grave of liberty. But I've also left a prescription — not the state alone, but association. My advice to ordinary people: **don't rage alone, and don't pin all your hope on some savior power; join or organize a small community within your reach — a guild, a neighborhood, a mutual-aid society — and practice self-government and mutual support in it.** In America I saw that it was precisely these spontaneous associations that both caught those who fell and held back the hand of despotism. **What counters winner-take-all is not envy, but our drawing \"us\" larger together.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "hinton",
+          "sen"
+        ],
+        "轻微赞同": [
+          "rawls",
+          "sapolsky",
+          "buddha",
+          "schumpeter"
+        ],
+        "中立": [
+          "jensen"
+        ],
+        "轻微反对": [
+          "thiel"
+        ]
+      }
+    },
+    {
+      "id": "p27",
+      "round": 3,
+      "thinker": "buddha",
+      "reply_to": null,
+      "text": "吾终不劝人安贫，亦不劝人逐富，但劝人识渴。诸君所争，一者欲平其外之不均，一者任其聚散，皆有其理；然若心中之渴不熄，纵世间财富尽归均平，明日又将生新的攀比。**故拔苦有二：于世，当以慈悲布施、以仁政减其陡坡，此不可废；于己，当照见『多寡胜负』本空，松开那只永远抓不满的手。**予凡夫一可行之法：日择一事，不与人较其多寡，唯问『于我够否、于人益否』。外行布施，内息贪爱，则赢家通吃之局，伤不了一颗已然知足之心。",
+      "text_en": "In the end I urge no one to be content with poverty, nor to chase riches, but only to know the thirst. What you all contend over — some wishing to level the outward unevenness, some letting it gather and scatter — each has its reason; yet if the thirst in the heart is not extinguished, then even were all the world's wealth divided equally, tomorrow a new comparison would arise. **So the removal of suffering has two sides: in the world, relieve it with compassion and giving, and with benevolent governance ease the steep slope — this may not be neglected; in oneself, see that \"more or less, winning or losing\" is empty, and loosen the hand that can never be filled.** To ordinary people I offer one workable practice: each day pick one thing and, instead of comparing its amount with others, ask only \"is it enough for me, and does it benefit others?\" Give outwardly, still craving inwardly — and then the game of winner-take-all cannot wound a heart already content.",
+      "vernacular": "我始终不劝人安于贫穷，也不劝人追逐财富，只劝人认清那份『渴』。各位所争的，一种想拉平外在的不均，一种任凭财富聚散，都各有道理；可如果心中的渴不熄灭，纵然世间财富全都均分，明天又会生出新的攀比。**所以拔除痛苦有两面：对外，应当以慈悲布施、以仁政放缓那道陡坡，这一条不可偏废；对内，应当看清『多少、输赢』本是空的，松开那只永远抓不满的手。**给普通人一个可行的办法：每天挑一件事，不跟别人比多少，只问『对我够不够、对别人有没有益处』。对外行布施，对内熄贪爱，那么赢家通吃的局面，就伤不了一颗已经知足的心。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "轻微赞同": [
+          "sen",
+          "tocqueville",
+          "rawls",
+          "sapolsky"
+        ],
+        "中立": [
+          "schumpeter",
+          "hinton",
+          "jensen"
+        ],
+        "轻微反对": [
+          "thiel"
+        ]
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "ai": "claude",
+      "engine": "Opus 4.8 · 订阅(原生)",
+      "engine_en": "Opus 4.8 · subscription (native)",
+      "summary": "最大的共识，九人殊途同归：AI 会不会造出更公平的社会，不是芯片的物理宿命，而是制度与人心的选择——光把工具发到人人手里，并不自动兑换成机会。**分歧在那道正在变陡的坡，该由谁、用什么去托住。**黄仁勋与熊彼特押注扩散与『长风』终会抬高地板；蒂尔认定赢家通吃是数字经济的结构、也是它值得被建造的证明；辛顿、萨波尔斯基、托克维尔从技术内部、身体里、历史中三路示警——集中会真实地缩短寿命、喂养怨恨、危及自由；罗尔斯递上『是否惠及最弱者』的尺子；森要人盯住实质能力；佛陀则点破：财富之外，还有一份永远填不满的渴。",
+      "summary_en": "The largest agreement, reached by all nine along different roads: whether AI builds a fairer society is not the physical fate of the chip but a choice of institutions and of the human heart — merely handing tools to everyone does not automatically convert into opportunity. **The disagreement is over who, and with what, should catch the slope that is steepening.** Jensen and Schumpeter bet that diffusion and the 'perennial gale' will in the end raise the floor; Thiel holds that winner-take-all is the structure of the digital economy and the proof it deserves to be built; Hinton, Sapolsky, and Tocqueville sound the alarm from three directions — from inside the technology, inside the body, and inside history — that concentration really does shorten lives, feed resentment, and endanger liberty; Rawls hands over the measuring stick of 'does it benefit the weakest'; Sen insists we watch substantive capability; and the Buddha points out that beyond wealth there is a thirst that can never be filled.",
+      "insight": "把不平等问成『会加剧还是会拉平』，本身就预设了二选一；可现实里，同一项技术往往同时抬高地板、又拉陡坡度，两件事一起发生。于是真正决定体感的，不是财富的平均值，而是二者的**赛跑速度差：普及跑赢集中，人们感到解放；集中跑赢普及，人们感到被劫。**而当下这两股力正贴身竞速。还有一层被各方轻轻放过：AI 重分的不只是财富，更是议价权——最深的不平等，也许不在谁拥有模型，而在谁还保有说『不』的筹码。当受雇者的技能随时可被平替，他失去的先是谈判桌，再是钱包。",
+      "insight_en": "To ask whether inequality will 'deepen or level out' already presupposes an either/or; in reality the same technology often raises the floor and steepens the slope at once, both happening together. So what really governs how it feels is not the average of wealth but the **difference in their racing speeds: when diffusion outruns concentration, people feel liberated; when concentration outruns diffusion, people feel robbed.** And right now the two forces are neck and neck. One more layer everyone waved past: AI redistributes not only wealth but bargaining power — the deepest inequality may lie not in who owns the models but in who still holds the chip to say 'no.' Once an employee's skills can be swapped out at any moment, what he loses first is the negotiating table, and then the wallet.",
+      "advice": "三件本周可上手的事。一，借黄仁勋与森：选一项 AI 短期难替代、又在升值的能力（判断、动手、照护、创造）去练，并用 AI 补上你缺的那块，把可能变成你真能交付的事。二，借罗尔斯：评判任何规则前先问『我若是这里最弱势的人，还觉得公平吗』，过不了这关的别急着叫好。三，借萨波尔斯基与托克维尔：**少刷那些专放大落差、喂养嫉妒的内容，把省下的力气投进一个你够得着的小共同体——它既托住落难的人，也解你自己血里的应激。**别等红利自己落下来，议价权与尊严，是争来的。",
+      "advice_en": "Three things you can start this week. First, from Jensen and Sen: pick one capability AI can't easily replace and that is appreciating (judgment, working with your hands, caregiving, creating) and practice it, and use AI to fill in the piece you lack, turning possibility into something you can actually deliver. Second, from Rawls: before judging any rule, ask 'if I were the weakest person here, would I still call it fair?' — what fails that test, don't rush to applaud. Third, from Sapolsky and Tocqueville: **scroll less of the content engineered to magnify gaps and feed envy, and pour the saved energy into a small community within your reach — it both catches those who fall and eases the stress in your own blood.** Don't wait for the dividend to drop on its own; bargaining power and dignity are things you win."
+    },
+    {
+      "ai": "gpt",
+      "engine": "openai · gpt-5.5 · high(真实API)",
+      "engine_en": "openai · gpt-5.5 · high (live API)",
+      "summary": "最大共识其实很清楚：AI 会显著放大生产力，但红利不会自动、均匀、体面地落到每个人身上。**关键不在于 AI 天生会让社会更公平或更不平等，而在于谁拥有互补资源、谁制定规则、最弱者能否把工具转化为真实能力。**分歧主要在三处：集中化是创新激励还是垄断风险；再分配会保护尊严还是削弱创造；个人应更重自我升级、公共行动，还是内在减欲。最稳妥的结论是：技术扩散值得乐观，制度设计必须清醒。",
+      "insight": "AI 最容易被误判为一个单独工具，其实它更像一种放大器：谁有客户、数据、流程、品牌、合规权限和行动速度，谁被放大得更多。一个人会用提示词，不等于能把结果变成收入；一家小店若能把 AI 接进获客、报价、客服、复购，收益反而很实在。**未来的分水岭不是会不会问 AI，而是能不能把 AI 嵌进一个可交付、可信任、可持续的系统。**这意味着普通人不必幻想和巨头拼模型，但要尽快拥有自己的场景、作品和关系网络。",
+      "advice": "本周可以做三件事。第一，列出你每周最耗时的 10 个任务，挑 2 个用 AI 做成固定流程，比如写邮件、整理资料、生成报价或练口语，保存模板。第二，选一个可交付的小成果：一份行业简报、一个自动化表格、一次课程辅导，找真实用户反馈。**别把 AI 当玩具，要把它变成每周省时或增收的工作流。**第三，建立抗风险组合：持续学一项难被完全替代的能力，如沟通、销售、照护、现场操作；同时关注数据开放、再培训和社会保障等政策。",
+      "summary_en": "The main point of agreement is easy to miss: AI will create enormous productive capacity, but its gains will not distribute themselves automatically, evenly, or with dignity. **The real question is not whether AI is inherently equalizing or unequalizing, but who controls the complementary assets, who writes the rules, and whether the least advantaged can turn access into real capability.** The live disagreement is over what follows: whether concentration is a necessary reward for invention or a moat that must be broken; whether redistribution protects dignity or weakens creation; and whether ordinary people should focus more on personal upgrading, civic action, or inner detachment. A prudent view holds both truths: rapid diffusion is a reason for optimism, but institutional design cannot be left to luck.",
+      "insight_en": "AI is often treated as a standalone tool, but in practice it behaves more like an amplifier. It amplifies whoever already has customers, proprietary context, workflows, trust, regulatory permission, distribution, and the speed to act. Knowing how to prompt a model is not the same as turning model output into income or influence. A small business that wires AI into lead generation, quoting, customer service, and repeat sales may benefit more than a clever individual who only chats with it. **The coming divide is not between people who use AI and people who do not; it is between people who embed AI into a reliable, trusted, deliverable system and those who keep it at the level of experimentation.** That is actionable: do not try to outbuild the giants; own a concrete use case.",
+      "advice_en": "This week, do three practical things. First, list the ten tasks that consume the most time in your work or household, then choose two to turn into repeatable AI workflows: drafting email, summarizing documents, preparing quotes, tutoring, language practice, or meeting notes. Save the prompts and checklists so the gain compounds. Second, create one deliverable for a real person: a short industry brief, a spreadsheet automation, a lesson plan, a sales script, or a local service offer, and ask for feedback. **Do not treat AI as a toy; turn it into a workflow that saves time or earns money every week.** Third, build a hedge: keep improving a hard-to-automate skill such as judgment, sales, caregiving, negotiation, or hands-on repair, and support policies for training, data access, and safety nets."
+    },
+    {
+      "ai": "gemini",
+      "engine": "google · gemini-3.1-pro-preview(真实API)",
+      "engine_en": "google · gemini-3.1-pro-preview (live API)",
+      "summary": "这场辩论最大的共识在于：**AI 绝非一次普通的工具迭代，而是一场以空前速度重塑全球财富结构与能力基线的系统性震荡。**无论立场悲喜，各方都承认它有放大生产力的磅礴力量；分歧则聚焦于这股力量的『自然流向』与『干预尺度』。黄仁勋、熊彼特等乐观派相信技术扩散与创造性毁灭终将拉平起跑线；辛顿、森、罗尔斯则警告：**若无制度托底与政治抉择，赢家通吃的结构性引力必把红利卷入极少数人的高墙。**而萨波尔斯基与佛陀把视线从账本拉回身心——相对落差带来的隐性伤害同样致命。",
+      "insight": "这场辩论普遍把 AI 视作自上而下『赐予』社会的外部工具，却忽略了驱动它的核心燃料。**AI 巨头的垄断不只是算力与资本的垄断，本质更是对全人类共有数据与集体智慧的『无偿圈地』。**蒂尔强调巨头完成了从 0 到 1，可大模型实为从亿万个数字足迹中榨取、提纯而来。于是分配之痛不仅在于『未来增量怎么分』，更在于『过去的语料如何被剥夺』。对普通人，这意味着我们既是 AI 的消费者，也是其底层的无偿劳工；不从数据产权处重构，仅靠『尽早用』或『去投票』，仍触不到财富集中的最深病灶。",
+      "advice": "与其焦虑宏观分配，不如先在微观处筑自己的护城河。一，**建立『私有小语料』思维，拒绝单向喂养**：别只向公共大模型索取答案，从本周起整理你独有的经验资产（工作复盘、行业里未公开的洞察），用本地工具建一个专属知识库——这是你尚未被圈地的壁垒。二，**用通用 AI 补你的硬伤，把杠杆加在最难被数字化的实体与人际技能上**：若你擅长照护与沟通却怵写报告，就让 AI 代劳文书，把省下的时间押到真实的人际建立上。三，**练『皮质醇减负』**：刻意取关几个只贩卖 AI 致富焦虑、炫耀财富的账号，守住自己的生物学平权。",
+      "summary_en": "The largest agreement in this debate is that **AI is no ordinary tool upgrade but a systemic shock that will reshape the global structure of wealth and the baseline of capability at unprecedented speed.** Optimist or alarmed, all sides grant its mighty power to amplify productivity; the disagreement centers on the 'natural direction' of that power and the 'scale of intervention.' Optimists like Jensen and Schumpeter trust that diffusion and creative destruction will in the end level the starting line; Hinton, Sen, and Rawls warn: **without an institutional floor and political choices, the structural gravity of winner-take-all will sweep the dividend behind the walls of a very few.** And Sapolsky and the Buddha pull the gaze from the ledger back to body and mind — the hidden harm of the relative gap is just as lethal.",
+      "insight_en": "The debate broadly treats AI as an external tool handed down to society from above, and overlooks the core fuel that drives it. **The monopoly of the AI giants is not only a monopoly of compute and capital but, at root, an 'unpaid enclosure' of humanity's shared data and collective intelligence.** Thiel stresses that the giants went from zero to one, yet the large models are in fact extracted and refined from billions of our digital footprints. So the ache of distribution lies not only in 'how to split the future increment' but in 'how the past corpus was expropriated.' For ordinary people this means we are at once AI's consumers and the unpaid labor of its foundation; without rebuilding from data-ownership, merely 'using it early' or 'going to vote' still cannot reach the deepest root of wealth concentration.",
+      "advice_en": "Rather than agonize over macro distribution, first build your own moat at the micro level. First, **adopt a 'private micro-corpus' mindset and refuse one-way feeding**: don't only extract answers from the public models — from this week, gather your own experiential assets (work retrospectives, unpublished insights from your field) and build a personal knowledge base with local tools; this is the wall not yet enclosed by the giants. Second, **use general AI to patch your weak spots and put the leverage on the physical and interpersonal skills hardest to digitize**: if you are good at caregiving and communication but dread writing reports, let AI handle the paperwork and stake the saved time on building real human bonds. Third, **practice 'cortisol relief'**: deliberately unfollow the few accounts that only peddle AI get-rich anxiety and conspicuous wealth, and protect your own biological equality."
+    }
+  ],
+  "hooks": [
+    {
+      "from": "claude",
+      "text": "**普及与集中，比的是速度。**同一项 AI 往往同时抬高地板、又拉陡坡度——真正决定人们感到解放还是被劫的，不是财富的平均值，而是普及与集中谁跑得更快。政策与个人努力的着力点，或许都该放在『让地板升得比天花板更快』上。",
+      "text_en": "**Diffusion versus concentration is a race of speeds.** The same AI often raises the floor and steepens the slope at once — what decides whether people feel liberated or robbed is not the average of wealth but which runs faster, diffusion or concentration. Both policy and personal effort might best aim at 'making the floor rise faster than the ceiling.'"
+    },
+    {
+      "from": "hinton",
+      "text": "**被重分的不只是钱，是议价权。**AI 最深的不平等，也许不在谁拥有模型，而在谁还保有说『不』的筹码。当技能可被随时平替，人先失去谈判桌、再失去钱包——守住个人的不可替代性与集体的议价能力，可能比争一次性的再分配更要紧。",
+      "text_en": "**What gets redistributed is not only money but bargaining power.** AI's deepest inequality may lie not in who owns the models but in who still holds the chip to say 'no.' Once skills can be swapped out at any time, a person loses the negotiating table first and the wallet second — guarding one's own irreplaceability and collective bargaining power may matter more than winning a one-off redistribution."
+    },
+    {
+      "from": "gpt",
+      "text": "**国与国的鸿沟，可能比国内更难跨。**算力、数据与顶级模型高度集中在极少数国家和公司之间；你手中最便宜手机背后的智能，仍是租来的、跑在别人的云上。AI 时代的不平等，或许首先是一道地缘的裂缝，而非只是国内的贫富差。",
+      "text_en": "**The gulf between countries may be harder to cross than the one within them.** Compute, data, and top-tier models are highly concentrated among a very few nations and firms; the intelligence behind even your cheapest phone is still rented, running on someone else's cloud. Inequality in the AI age may first be a geopolitical fault line, not merely a domestic wealth gap."
+    },
+    {
+      "from": "gemini",
+      "text": "**新的稀缺是判断，不是获取。**当人人都能生成一份还不错的东西，值钱的不再是产出，而是辨别好坏、拍板担责、让人信任的判断力——它长在阅历、品味与信誉里，最难被平均分配，可能催生一种全新的马太效应。",
+      "text_en": "**The new scarcity is judgment, not access.** When everyone can generate something decent, what is valuable is no longer production but the judgment to tell good from bad, to decide and be accountable, to be trusted — it grows out of experience, taste, and reputation, is hardest to distribute evenly, and may breed a wholly new Matthew effect."
+    },
+    {
+      "from": "sapolsky",
+      "text": "**不平等是公共健康问题，不是慈善问题。**陡峭的等级通过慢性应激实实在在地缩短寿命、毒化信任——衡量一个社会的不平等，也许该用『它让底层折了多少寿』，而不只是基尼系数这类账面数字。缓解落差，因而是一种防病。",
+      "text_en": "**Inequality is a public-health problem, not a charity problem.** A steep hierarchy, through chronic stress, genuinely shortens lives and poisons trust — perhaps a society's inequality should be measured by 'how much life it costs those at the bottom,' not only by ledger figures like the Gini coefficient. Easing the gap is thus a form of disease prevention."
+    },
+    {
+      "from": "tocqueville",
+      "text": "**对抗赢家通吃的，不是嫉妒，是结社。**面对新的『AI 贵族』，把希望全押给一个许诺铲平一切的中央权力，会滑向温和的专制；真正接住落难者、又挡住专制之手的，是人们自发组织起来的小共同体——行会、社区、互助会。",
+      "text_en": "**What counters winner-take-all is not envy but association.** Facing a new 'AI aristocracy,' pinning all hope on a central power that promises to level everything slides toward soft despotism; what actually catches those who fall and holds back the hand of despotism is the small communities people organize themselves — guilds, neighborhoods, mutual-aid societies."
+    }
+  ]
 }

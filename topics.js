@@ -271,6 +271,7 @@
         return '<a class="topic-card" href="' + PG("debate") + '?d=' + esc(d.id) + '">' +
           '<div class="idx">' + esc(T("session").replace("%N", d.__n)) + "</div>" +
           '<div class="q">' + esc(pick(d, "question")) + "</div>" +
+          (pick(d, "sub") ? '<div class="qsub">' + esc(pick(d, "sub")) + "</div>" : "") +
           '<div class="seats">' + seats + '<span class="more">' + n + esc(T("panel")) + "</span></div>" +
           '<div class="meta"><span><i class="ti ti-calendar" style="font-size:13px;vertical-align:-2px"></i> ' +
           esc(d.date || "") + '</span><span class="go">' + T("enter") + "</span></div></a>";

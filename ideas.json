@@ -2,15 +2,6 @@
   "_comment": "议题投票数据。candidates=未辩候选(供投票)，debated=已辩(链到辩论)。投票免 GitHub 登录，存于自建后端(Cloudflare Worker + D1，见 ~/Desktop/cissy0802.github.io/engage-backend/)：每候选一个 poll，key='topic:'+id，choice up/down，净票=👍−👎。votes 字段由 routine 每次跑 `python3 refresh_votes.py`(读后端 /votes-net) 回写；页面 ideas.js 也会实时拉取覆盖显示。观众自提议题在评论 page='thinker-open-questions'，各候选下讨论 page='topic:'+id——routine 读这些把好提案提炼成新 candidates。新候选加进 candidates 即可。",
   "candidates": [
     {
-      "id": "regret",
-      "votes": 0,
-      "q": "该为过去的选择后悔吗？如何与无法重来的过去和解？",
-      "q_en": "Should we regret the choices we made — and how do we make peace with a past we can't redo?",
-      "note": "『如果当初…』的内疚反复折磨人——克尔凯郭尔、斯多葛、庄子（鼓盆而歌）、佛教放下，各给一套与过去和解的办法。再往形而上推一层：若物理学的『块状宇宙』为真、过去与未来同样实在，那么后悔、劝告与责备各自还剩什么？",
-      "note_en": "The 'if only I had…' guilt that keeps gnawing — Kierkegaard, the Stoics, Zhuangzi (drumming and singing at his wife's death), and Buddhist letting-go each offer a way to make peace with what's done. Pushed one level into metaphysics: if physics' block universe is right and past and future are equally real, what is left of regret, of advice, of blame?",
-      "cat": "self"
-    },
-    {
       "id": "moral-limits-of-markets",
       "votes": 0,
       "q": "有什么是金钱不该买卖的？市场该有边界吗？",
@@ -90,15 +81,6 @@
       "note": "『千金散尽还复来』地享受当下、投资自己，和靠复利慢慢变富，哪个更值？　一边是巴菲特式的信条：复利是世界第八大奇迹，节俭、延迟满足、把雪球滚大；一边是李白的『人生得意须尽欢，千金散尽还复来』，和凯恩斯的『节俭悖论』——人人猛存反而拖垮经济、长期看我们都死了。行为经济学还说：多数人既存得太少、又乱花得太多。钱花在体验与自我投资上，和攒成一道安全垫、换来自由，哪个更划算？普通人该做守财的复利信徒，还是及时行乐——又如何在两端拿捏？它更一般的形式是跨期折现：为将来的自己牺牲现在的自己，能牺牲到什么程度？而『将来的我』究竟是同一个人，还是一个我正在替他受苦的陌生人？",
       "note_en": "'spend it all, it comes back again' — to enjoy now and invest in yourself? On one side, the Buffett creed: compounding is the eighth wonder of the world — be thrifty, defer gratification, roll the snowball bigger. On the other, Li Bai's 'seize joy while you can, for the gold scattered will come again,' and Keynes's 'paradox of thrift' — if everyone hoards, the economy stalls, and in the long run we are all dead. Behavioral economics adds: most people both save too little and spend too carelessly. Is money better spent on experiences and investing in yourself, or banked into a cushion that buys freedom? Should an ordinary person be a thrifty compounding believer or seize the day — and how to strike the balance? Its general form is intertemporal discounting: how much of your present self may be sacrificed to your future self — and is that future self the same person at all, or a stranger on whose behalf you are suffering now?",
       "cat": "self"
-    },
-    {
-      "id": "globalization-or-reshoring",
-      "votes": 0,
-      "q": "全球分工该越分越细、各国各擅其长，还是该把生产搬回本国？",
-      "q_en": "Should the global division of labor keep deepening",
-      "note": "（自由贸易 vs 制造业回流）　亚当·斯密与李嘉图说：分工与比较优势让各国专精、互通有无，整体更富。可现实里，疫情断供、芯片卡脖子、产业空心化与失业，又把『制造业回流、自给自足』推上台面（如美国近年的关税与回流政策）。是效率与互赖更优，还是安全与韧性优先？李斯特的『幼稚产业』、波兰尼的『社会自我保护』、塔勒布的反脆弱，对垒斯密的自由贸易。",
-      "note_en": "each nation to its strength — or should production be brought home? (Free trade vs reshoring) Adam Smith and Ricardo held that the division of labor and comparative advantage let each nation specialize and trade, making all richer. Yet pandemic shortages, chip chokepoints, hollowed-out industry and lost jobs have pushed 'reshoring and self-sufficiency' to the fore (as in recent US tariff-and-reshoring policy). Is efficiency-and-interdependence better, or security-and-resilience first? List's 'infant industries,' Polanyi's 'society protecting itself,' and Taleb's antifragility square off against Smith's free trade.",
-      "cat": "ethics"
     },
     {
       "id": "forgiveness-or-revenge",
@@ -276,8 +258,8 @@
       "votes": 0,
       "q": "凡事都追求『最优／高效』，是不是正在系统性地掏空我们的韧性？",
       "q_en": "By chasing 'optimal' and 'efficient' in everything, are we systematically hollowing out our resilience?",
-      "note": "冗余、备份、『暂时没用的多样』，该不该刻意保留？　从供应链到个人生活，我们把冗余当浪费一路砍掉，换来风平浪静时的高效；可韧性恰恰藏在那些『用不上』的备份、多样与慢里。效率与韧性能不能兼得，还是终究得取舍？该在哪里刻意留白？也含面对小概率大灾难时的决策规则：科学给出的是区间、政策却只能落一个数字，该按最可能值还是按承受得起的最坏值来定——预防原则是审慎，还是让人瘫痪。　另含一条相邻角度：城市规划与算法在同一个方向上追求『无摩擦』——导航给点对点最短路径、外卖免掉去店里那一趟、推荐流滤掉不合口味的，物理世界的『撞见』与信息世界的『不期而遇』被同时剪掉；生活越来越像一次次搜索：带着目的去、拿到就走。摩擦、绕路与浪费掉的时间，能不能被有意识地重新装回去？",
-      "note_en": "Should redundancy, backups, and 'currently useless' variety be deliberately kept? From supply chains to personal life, we cut redundancy as waste and buy efficiency for calm times; yet resilience lives precisely in the backups, variety and slack that look 'useless.' Can efficiency and resilience coexist, or must we trade them off — and where should we deliberately leave slack? It also carries the decision rule for low-probability, high-damage events: science hands over a range while policy can only settle on one number, so should it be set at the most likely value or at the worst one you could survive — is the precautionary principle prudence, or paralysis? One adjacent angle folded in: urban planning and algorithms both chase the frictionless — navigation supplies the shortest point-to-point route, delivery removes the trip to the shop, recommendation feeds filter out whatever is not to taste, and so bumping into someone physically and stumbling on something unexpected online are cut away together. Life comes to resemble a series of searches: arrive with a purpose, collect, leave. Can friction, detours and wasted time be deliberately built back in?",
+      "note": "冗余、备份、『暂时没用的多样』，该不该刻意保留？　从供应链到个人生活，我们把冗余当浪费一路砍掉，换来风平浪静时的高效；可韧性恰恰藏在那些『用不上』的备份、多样与慢里。效率与韧性能不能兼得，还是终究得取舍？该在哪里刻意留白？也含面对小概率大灾难时的决策规则：科学给出的是区间、政策却只能落一个数字，该按最可能值还是按承受得起的最坏值来定——预防原则是审慎，还是让人瘫痪。　另含一条相邻角度：城市规划与算法在同一个方向上追求『无摩擦』——导航给点对点最短路径、外卖免掉去店里那一趟、推荐流滤掉不合口味的，物理世界的『撞见』与信息世界的『不期而遇』被同时剪掉；生活越来越像一次次搜索：带着目的去、拿到就走。摩擦、绕路与浪费掉的时间，能不能被有意识地重新装回去？ 也含国与国这一层：分工越细、比较优势越极致，断供与卡脖子的代价也越高——『把生产搬回本国』究竟是买保险，还是用效率换来的一层昂贵冗余？",
+      "note_en": "Should redundancy, backups, and 'currently useless' variety be deliberately kept? From supply chains to personal life, we cut redundancy as waste and buy efficiency for calm times; yet resilience lives precisely in the backups, variety and slack that look 'useless.' Can efficiency and resilience coexist, or must we trade them off — and where should we deliberately leave slack? It also carries the decision rule for low-probability, high-damage events: science hands over a range while policy can only settle on one number, so should it be set at the most likely value or at the worst one you could survive — is the precautionary principle prudence, or paralysis? One adjacent angle folded in: urban planning and algorithms both chase the frictionless — navigation supplies the shortest point-to-point route, delivery removes the trip to the shop, recommendation feeds filter out whatever is not to taste, and so bumping into someone physically and stumbling on something unexpected online are cut away together. Life comes to resemble a series of searches: arrive with a purpose, collect, leave. Can friction, detours and wasted time be deliberately built back in? It also covers the international layer: the finer the division of labour and the more extreme the comparative advantage, the costlier a cut-off or a chokepoint becomes — is reshoring production buying insurance, or paying for an expensive layer of redundancy with efficiency?",
       "cat": "meta"
     },
     {
@@ -312,8 +294,8 @@
       "votes": 0,
       "q": "我们记得的过去，有多少是重新编造的？",
       "q_en": "How much of the past we remember was rebuilt on the spot",
-      "note": "记忆若不可靠，『我是谁』还立得住吗？（同一问题的另一面：靠冥想、致幻剂、极限体验换来的『顿悟』，是真知还是大脑的一场花样——脑子给我们的经验，凭什么当证据）　记忆不是录像带，而是每次回想都被重写一遍的重建。洛夫特斯只用一句提示就能植入从未发生的童年往事，目击证词因此送错过人；而我们的身份、亲密关系与恩怨账本，全架在这份不可靠的记录上。若记忆总是按当下的需要改写过去，『忠于事实的自我』还成立吗？遗忘又该算缺陷还是恩赐——尼采说没有遗忘就无法生活，博尔赫斯笔下过目不忘的富内斯反而丧失了思考。奥古斯丁的『记忆之宫』、普鲁斯特的非自愿记忆、佛教的种子熏习，对上洛夫特斯与沙克特的实验，再加一个现实追问：当聊天记录、照片流与 AI 摘要替我们保存一切，外置的记忆会矫正我们，还是取代我们？ 同一问题的另一面：靠冥想、致幻剂、极限体验换来的『顿悟』，是真知还是大脑的一场花样——脑子交给我们的经验，凭什么当证据？",
-      "note_en": "and if memory is unreliable, does 'who I am' still stand? Memory is not videotape but a reconstruction rewritten on every recall. Loftus could implant a childhood event that never happened with a single suggestion, and eyewitness testimony has sent the wrong people to prison; yet our identity, our intimacies and our ledgers of grievance all rest on this unreliable record. If memory always edits the past to suit the present, does 'a self faithful to the facts' survive? And is forgetting a defect or a gift — Nietzsche held that without forgetting one cannot live, while Borges's Funes, who forgot nothing, lost the ability to think. Augustine's palace of memory, Proust's involuntary recollection and the Buddhist perfuming of seeds meet the experiments of Loftus and Schacter, plus a practical question: now that chat logs, photo streams and AI summaries keep everything for us, will externalised memory correct us or replace us? The same question from the other side: is the 'insight' won through meditation, psychedelics or extreme experience real knowledge, or a trick of the brain — on what grounds does experience handed to us by the brain count as evidence?",
+      "note": "记忆若不可靠，『我是谁』还立得住吗？（同一问题的另一面：靠冥想、致幻剂、极限体验换来的『顿悟』，是真知还是大脑的一场花样——脑子给我们的经验，凭什么当证据）　记忆不是录像带，而是每次回想都被重写一遍的重建。洛夫特斯只用一句提示就能植入从未发生的童年往事，目击证词因此送错过人；而我们的身份、亲密关系与恩怨账本，全架在这份不可靠的记录上。若记忆总是按当下的需要改写过去，『忠于事实的自我』还成立吗？遗忘又该算缺陷还是恩赐——尼采说没有遗忘就无法生活，博尔赫斯笔下过目不忘的富内斯反而丧失了思考。奥古斯丁的『记忆之宫』、普鲁斯特的非自愿记忆、佛教的种子熏习，对上洛夫特斯与沙克特的实验，再加一个现实追问：当聊天记录、照片流与 AI 摘要替我们保存一切，外置的记忆会矫正我们，还是取代我们？ 同一问题的另一面：靠冥想、致幻剂、极限体验换来的『顿悟』，是真知还是大脑的一场花样——脑子交给我们的经验，凭什么当证据？ 　由此还牵出两问：一是后见之明——你现在知道那条路不通，恰恰因为你走过了，再拿这份知识回头审当年的自己，等于用今天的答案去考一个还没上过课的人；二是若每次取回都在重写，那么叙事疗法、写信、复盘这类『与过去和解』的做法，在机制上是不是就是在合法地改写记忆，而当那件事还牵着别人时，谁有权改写共同的那一段？",
+      "note_en": "and if memory is unreliable, does 'who I am' still stand? Memory is not videotape but a reconstruction rewritten on every recall. Loftus could implant a childhood event that never happened with a single suggestion, and eyewitness testimony has sent the wrong people to prison; yet our identity, our intimacies and our ledgers of grievance all rest on this unreliable record. If memory always edits the past to suit the present, does 'a self faithful to the facts' survive? And is forgetting a defect or a gift — Nietzsche held that without forgetting one cannot live, while Borges's Funes, who forgot nothing, lost the ability to think. Augustine's palace of memory, Proust's involuntary recollection and the Buddhist perfuming of seeds meet the experiments of Loftus and Schacter, plus a practical question: now that chat logs, photo streams and AI summaries keep everything for us, will externalised memory correct us or replace us? The same question from the other side: is the 'insight' won through meditation, psychedelics or extreme experience real knowledge, or a trick of the brain — on what grounds does experience handed to us by the brain count as evidence? Two further questions follow. First, hindsight: you know that road leads nowhere precisely because you walked it, and turning that knowledge back on your earlier self is examining someone on a course they had not yet taken. Second, if every retrieval rewrites, then narrative therapy, letter-writing and the post-mortem — the standard ways of 'making peace with the past' — are mechanically a licensed rewriting of memory; and when other people are attached to the event, who has the right to rewrite the part that is shared?",
       "cat": "meta"
     },
     {
@@ -378,6 +360,15 @@
       "note": "他健康时说过的话、他此刻表现出的偏好，还是旁人认定的最佳利益？三者打架时听谁的　重度失智、终身智力障碍、深度昏迷之后，『尊重他的选择』整套语言失去了对象。三种标准彼此冲突：预立意愿（他健康时立下的规矩，可立规矩的那个人某种意义上已经不在了）、当下偏好（此刻的他确实在笑、在拒绝，但那算不算意愿）、最佳利益（由旁人认定，最容易滑向替他过日子）。联合国残障权利公约要求以支持性决策取代替代性决策，可支持得再多，也总有一条线之后必须有人拍板。谁有资格拍、拍错了怎么纠、代管要不要写归还日期？另一头是执行者的资格：判断『他是否已失能』本身是一门专业，而现场往往只有一个惊慌的家人。",
       "note_en": "what they said while well, the preferences they show now, or what others judge to be their best interests? And when the three conflict, which wins? After advanced dementia, lifelong intellectual disability or deep coma, the whole vocabulary of 'respecting his choices' loses the person it was addressed to. Three standards collide: the advance directive (rules laid down while well, by someone who in a sense is no longer here), present preference (this person is genuinely smiling or refusing now — does that count as a will?), and best interests (determined by others, and the standard that slides most easily into living someone's life for them). The UN disability convention requires supported decision-making in place of substituted decision-making, yet however much support is supplied, past some line somebody still has to call it. Who is entitled to call it, how is a wrong call corrected, and should custody carry a return date? At the other end sits the question of competence: judging whether someone has lost capacity is a professional skill in itself, and the person on the scene is usually one frightened relative.",
       "cat": "life"
+    },
+    {
+      "id": "inherited-guilt",
+      "votes": 0,
+      "q": "我们该为上一代做过的事负责吗？",
+      "q_en": "Are we answerable for what earlier generations did?",
+      "note": "道歉、赔偿、纪念碑与教科书——一个人没做过的事，凭什么由他来还？　雅斯贝尔斯把罪分成刑事、政治、道德与形而上四层，说只有第一层能上法庭；阿伦特反对『集体罪责』，认为人人有罪等于无人有罪；可现实里国家在道歉、企业在赔偿、后代仍在继承那份好处。继承了红利算不算继承了债？幸存者的愧疚、家族的旧账与国家的历史责任，是同一件事的不同尺度吗？",
+      "note_en": "Apologies, reparations, monuments and textbooks — why should anyone repay what they never did? Jaspers divided guilt into criminal, political, moral and metaphysical, and held that only the first belongs in a court; Arendt rejected collective guilt on the grounds that where everyone is guilty no one is. Yet states apologise, companies pay reparations, and descendants go on inheriting the benefit. Does inheriting the dividend mean inheriting the debt? And are survivor's guilt, a family's old accounts and a nation's historical responsibility the same thing at different scales?",
+      "cat": "ethics"
     }
   ],
   "debated": [
@@ -912,6 +903,13 @@
       "q_en": "How far should love intervene in another's life?",
       "date": "2026-08-06",
       "cat": "life"
+    },
+    {
+      "id": "regret",
+      "q": "该为过去的选择后悔吗？",
+      "q_en": "Should we regret the choices we made?",
+      "date": "2026-08-07",
+      "cat": "self"
     }
   ]
 }

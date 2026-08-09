@@ -89,6 +89,26 @@ def _r1_monologue(posts):
     return "%d/%d" % (sum(1 for p in r1 if not p.get("reply_to")), len(r1)) if r1 else "-"
 
 
+_TH_NAME = {t["id"]: t["name"] for t in json.load(open("thinkers.json"))["thinkers"]}
+
+
+def _r2_callout_open(posts, by_id):
+    """第2轮有多少帖是『直呼被驳者的名字』起手（「桑德尔，你的…」「贝克尔说…」）。
+    单帖这么写很自然，整轮 N/N 全这么写就是一条流水线——反驳的进入方式本该有变化：
+    先复述对方的论证再拆、先讲一个例子、先承认一半、直接从数据切入……
+    """
+    r2 = [p for p in posts if p["round"] == 2 and p.get("reply_to")]
+    if not r2:
+        return "-"
+    n = 0
+    for p in r2:
+        tgt_id = by_id.get(p["reply_to"], {}).get("thinker")
+        nm = _TH_NAME.get(tgt_id)
+        if nm and nm in (p.get("text", "") or "")[:12]:
+            n += 1
+    return "%d/%d" % (n, len(r2))
+
+
 def _bold_spread(posts):
     """本场加粗处数的分布（如 1处×30）。均值会把『每一帖都恰好一处』抹平成 1.0，
     看不出整场加粗节奏完全同一；分布能照出这种场内单调——重点该随内容起伏，
@@ -125,6 +145,8 @@ def feats(d):
         "二轮全反一轮": "%d/%d" % (r2_to_r1, len(r2)) if r2 else "-",
         # 二轮里有多少帖是接着同轮的人往下打（0 = 每帖都回头打第1轮，结构最单调）
         "二轮同轮追击": "%d/%d" % (r2_chain, len(r2)) if r2 else "-",
+        # 二轮有多少帖直呼被驳者的名字起手（N/N = 整轮同一个进入方式，反驳节奏坍缩）
+        "二轮点名起手": _r2_callout_open(posts, by_id),
         # 第1轮有几帖是不接任何人的独白（N/N = 人人各念各的，开场没有交锋）
         "首轮全独白": _r1_monologue(posts),
         # 后面各轮里有几轮照抄了第1轮的发言顺序（0 = 每轮都换了次序，正是想要的）
@@ -161,7 +183,7 @@ print("=" * 70)
 print("形状自评 ·", tid, "· 对比最近", len(R), "场:", "、".join(eid for eid, _ in R) or "(无)")
 print("=" * 70)
 
-SCALARS = ["人数","轮数","每轮帖数","钩子数","钩子分布","钩子作者类型","二轮全反一轮","二轮同轮追击","轮内照抄顺序","首轮全独白","表态档集合",
+SCALARS = ["人数","轮数","每轮帖数","钩子数","钩子分布","钩子作者类型","二轮全反一轮","二轮同轮追击","二轮点名起手","轮内照抄顺序","首轮全独白","表态档集合",
            "用了疑惑","带glossary帖数","古文帖数","建议带①②③","帖均加粗处","加粗处分布","总结膨胀比","总结数数起手","总结列清单","总结转日常"]
 flags = []
 print("\n%-14s %-22s %s" % ("维度", "本场", "最近几场"))

@@ -2,21 +2,12 @@
   "_comment": "议题投票数据。candidates=未辩候选(供投票)，debated=已辩(链到辩论)。投票免 GitHub 登录，存于自建后端(Cloudflare Worker + D1，见 ~/Desktop/cissy0802.github.io/engage-backend/)：每候选一个 poll，key='topic:'+id，choice up/down，净票=👍−👎。votes 字段由 routine 每次跑 `python3 refresh_votes.py`(读后端 /votes-net) 回写；页面 ideas.js 也会实时拉取覆盖显示。观众自提议题在评论 page='thinker-open-questions'，各候选下讨论 page='topic:'+id——routine 读这些把好提案提炼成新 candidates。新候选加进 candidates 即可。",
   "candidates": [
     {
-      "id": "moral-limits-of-markets",
-      "votes": 0,
-      "q": "有什么是金钱不该买卖的？市场该有边界吗？",
-      "q_en": "Is there anything money shouldn't be able to buy? Should markets have moral limits?",
-      "note": "从代孕、器官到选票与友情——当市场逻辑渗入一切，有没有该守住的非卖品？ 也含：逝者的声音、聊天记录与照着他训练出来的模型该不该进市场——按月订阅一位亲人，算不算对哀伤收租。 也含：当算力与推荐位成了基础设施，平台抽成与流量分配权算不算数字时代的新地租，数据产权该归谁。",
-      "note_en": "From surrogacy and organs to votes and friendship — as market logic seeps into everything, are there things that should stay off the auction block? Also: should a dead person's voice, messages and a model trained on them be tradeable at all — is subscribing to a relative by the month a rent charged on grief? Also: once computing power and recommendation slots become infrastructure, are platform commissions and traffic allocation the ground rent of the digital age, and who should own the data?",
-      "cat": "ethics"
-    },
-    {
       "id": "abundance-and-decline",
       "votes": 0,
       "q": "当物质极度丰裕、不再需要奋斗，人类会不会重演『老鼠乌托邦』式的衰亡？",
       "q_en": "When material abundance removes all need to struggle, could humanity repeat the collapse of the 'mouse utopia'?",
-      "note": "卡尔霍恩的『25 号宇宙』实验里，食物无限、天敌全无的鼠群最终走向求偶停摆、社交退缩与整体崩溃。当 AI 与富足替人类卸下生存压力，我们会迎来繁荣，还是尼采笔下只求安逸的『末人』、赫胥黎《美丽新世界》式的温柔沉沦？奋斗与匮乏，是否是意义与活力的必要燃料？",
-      "note_en": "In Calhoun's 'Universe 25,' a mouse colony with unlimited food and no predators slid into mating breakdown, social withdrawal, and total collapse. As AI and abundance lift the pressure to survive, will humanity flourish — or become Nietzsche's comfort-seeking 'last man,' a gentle Brave New World decline? Are struggle and scarcity necessary fuel for meaning and vitality?",
+      "note": "卡尔霍恩的『25 号宇宙』实验里，食物无限、天敌全无的鼠群最终走向求偶停摆、社交退缩与整体崩溃。当 AI 与富足替人类卸下生存压力，我们会迎来繁荣，还是尼采笔下只求安逸的『末人』、赫胥黎《美丽新世界》式的温柔沉沦？奋斗与匮乏，是否是意义与活力的必要燃料？ 也含：当一个人什么不便都能用钱绕开（插队、代排、代陪诊、代照护），他会不会连同对公共品质的利害感一起买走。",
+      "note_en": "In Calhoun's 'Universe 25,' a mouse colony with unlimited food and no predators slid into mating breakdown, social withdrawal, and total collapse. As AI and abundance lift the pressure to survive, will humanity flourish — or become Nietzsche's comfort-seeking 'last man,' a gentle Brave New World decline? Are struggle and scarcity necessary fuel for meaning and vitality? Also: when a person can pay their way around every inconvenience — queues, errands, clinic waits, care — do they also buy their way out of caring whether public things work?",
       "cat": "ethics"
     },
     {
@@ -185,8 +176,8 @@
       "id": "how-knowledge-becomes-obvious",
       "q": "一个想法是怎么从『离经叛道』变成『天经地义』的？",
       "q_en": "How does an idea go from heresy to common sense?",
-      "note": "常识是被发现的真理，还是被慢慢驯化的人造物？　零、负数、虚数都曾被斥为荒谬、抵制数百年才成正典——常识的形成史。可带进库恩（范式转移）、福柯（知识型）、拉图尔、玛丽·道格拉斯，对上实在论。　并延伸：我们笃信的『客观』有多少是靠制度与把关共同体（审稿、挑错、共同认账）在替我们担保？抽掉这群人，确定性会不会发软？",
-      "note_en": "Is common knowledge a discovered truth, or a slowly domesticated human artifact? Zero, negatives and imaginary numbers were once denounced as absurd and resisted for centuries before entering the canon — the making of common sense. Could bring in Kuhn (paradigm shift), Foucault, Latour, Mary Douglas, against realism. And by extension: how much of the 'objectivity' we trust is underwritten by institutions and a gatekeeping community (peer review, error-catching, shared acceptance)? Remove them and does certainty go soft?",
+      "note": "常识是被发现的真理，还是被慢慢驯化的人造物？　零、负数、虚数都曾被斥为荒谬、抵制数百年才成正典——常识的形成史。可带进库恩（范式转移）、福柯（知识型）、拉图尔、玛丽·道格拉斯，对上实在论。　并延伸：我们笃信的『客观』有多少是靠制度与把关共同体（审稿、挑错、共同认账）在替我们担保？抽掉这群人，确定性会不会发软？ 也含：有偿献血、人寿保险、代孕这类曾被视为亵渎的交易是怎么变成寻常的——习惯化本身算不算一种论证。",
+      "note_en": "Is common knowledge a discovered truth, or a slowly domesticated human artifact? Zero, negatives and imaginary numbers were once denounced as absurd and resisted for centuries before entering the canon — the making of common sense. Could bring in Kuhn (paradigm shift), Foucault, Latour, Mary Douglas, against realism. And by extension: how much of the 'objectivity' we trust is underwritten by institutions and a gatekeeping community (peer review, error-catching, shared acceptance)? Remove them and does certainty go soft? Also: how trades once held to be desecration — paid blood donation, life insurance, surrogacy — became ordinary, and whether habituation itself counts as an argument.",
       "cat": "meta",
       "votes": 0
     },
@@ -258,8 +249,8 @@
       "votes": 0,
       "q": "一个人能在多大程度上既拒绝共同体的要求，又指望共同体的托底？",
       "q_en": "How far can a person decline what a community asks of them while still counting on its safety net",
-      "note": "自立的人对社会还欠什么，社会又欠他什么？　独来独往、不参加、不搭理，被越来越多人当作正当的活法；可现实里替独行者兜底的仍是家人、邻居、公共医保与养老金。于是问题不再是『合群好不好』，而是权利与义务对不对称：能不能只要退出的自由、不要参与的义务？反过来，社会有没有资格用『你不贡献』去削减对一个人的照顾？照护、急救、失业救济这些托底，究竟是无条件的人的资格，还是共同体成员身份的对价？",
-      "note_en": "what does the self-reliant still owe society, and what does society still owe them? Keeping to yourself — not joining, not answering — is increasingly treated as a legitimate way to live; yet in practice the backstop for the loner is still family, neighbours, public health insurance and pensions. The question is then no longer whether sociability is good but whether rights and duties are symmetrical: can one claim the freedom to withdraw without the duty to take part? And conversely, is a society entitled to cut what it gives a person on the grounds that they contribute nothing? Are care, emergency treatment and unemployment support unconditional entitlements of persons, or the consideration paid for membership in a community?",
+      "note": "自立的人对社会还欠什么，社会又欠他什么？　独来独往、不参加、不搭理，被越来越多人当作正当的活法；可现实里替独行者兜底的仍是家人、邻居、公共医保与养老金。于是问题不再是『合群好不好』，而是权利与义务对不对称：能不能只要退出的自由、不要参与的义务？反过来，社会有没有资格用『你不贡献』去削减对一个人的照顾？照护、急救、失业救济这些托底，究竟是无条件的人的资格，还是共同体成员身份的对价？ 也含：有能力的人纷纷买下私立学校、私人医疗与私家车而退出公共服务之后，剩下的人还托不托得住。",
+      "note_en": "what does the self-reliant still owe society, and what does society still owe them? Keeping to yourself — not joining, not answering — is increasingly treated as a legitimate way to live; yet in practice the backstop for the loner is still family, neighbours, public health insurance and pensions. The question is then no longer whether sociability is good but whether rights and duties are symmetrical: can one claim the freedom to withdraw without the duty to take part? And conversely, is a society entitled to cut what it gives a person on the grounds that they contribute nothing? Are care, emergency treatment and unemployment support unconditional entitlements of persons, or the consideration paid for membership in a community? Also: once those who can afford it withdraw into private schools, private medicine and private cars, does the floor still hold for everyone left.",
       "cat": "ethics"
     },
     {
@@ -288,15 +279,6 @@
       "note": "人工降温、复活灭绝物种、重造生态：当自然早已被我们改过一遍，『不干预』还算得上一个选项吗？　不是问我们欠自然什么，而是问我们该不该主动动手：往高空撒气溶胶给地球降温、用基因技术把猛犸或旅鸽带回来、把整片湿地按图纸重造。支持者说保持原样早已不可能，反对者说这是把整个星球当实验台、且一旦开始就不能停。也含一个更难的问题：如果『原始的自然』本身是个想象，我们究竟在恢复什么。　并含一层代表权的问题：给地球降温、复活物种、乃至向星际发出信号，都属于『任何人都能做、后果所有人承担、且撤不回来』的动作——除了呼吁自律，有没有可执行的程序：公开登记、多方审议、可逆试探优先？",
       "note_en": "solar geoengineering, de-extinction, rebuilt ecosystems: once nature has already been altered by us, is 'not intervening' still an option? Not what we owe nature, but whether we should reach in and act: spraying aerosols to cool the planet, using genetic technology to bring back the mammoth or the passenger pigeon, rebuilding an entire wetland to a blueprint. Advocates say leaving things as they are stopped being possible long ago; opponents say this treats the whole planet as a bench, and that once begun it cannot be stopped. It also contains a harder question: if 'pristine nature' is itself an imagined thing, what exactly are we restoring? It also carries a question of standing: cooling the planet, de-extincting a species, even beaming a signal at the stars all belong to the class of acts anyone can perform, everyone bears, and nobody can recall. Beyond appeals to restraint, is there any enforceable procedure — public registration, multi-party review, reversible probes first?",
       "cat": "ethics"
-    },
-    {
-      "id": "who-keeps-the-peace",
-      "votes": 0,
-      "q": "打圆场的那个人，该被看见吗？",
-      "q_en": "The person who smooths things over at home and at work: should the emotional labour of keeping the atmosphere intact be made visible, rotated and counted as work?",
-      "note": "家里、团队里维持气氛的这份『情绪劳动』，该不该被看见、被轮换、被算进账里？　记住谁在生谁的气、把难听的话翻译成体面版本、在饭桌上把话头岔开——这份活从不写进任何职责说明，却决定了整个系统的和谐水位，而且长期落在固定的那几个人身上。它到底是一种被低估的能力、一份被指派的差事，还是一层让问题不必被解决的缓冲？若把它明码标价、轮流承担，关系会变好还是变得像交易？ 再进一步：把这些没人记账的小时真的折算出来、摊在桌上谈，是让分工变公平，还是把家变成一间会计室？ 同一份没人记账的活还有更重的一种：长期照护与托底——陪病、垫钱、深夜接电话，也常年落在同一个人身上，直到他耗尽后彻底消失。它该不该像值班一样排班、计时、有替补？",
-      "note_en": "Remembering who is annoyed with whom, translating harsh content into a presentable version, steering the conversation away at dinner — none of it appears in any job description, yet it sets the harmony level of the whole system, and it tends to land on the same few people year after year. Is it an underrated skill, an assigned duty, or a cushion that lets problems go unsolved? And if it were priced and rotated, would relationships improve or start to feel transactional? And one step further: does actually converting those unbooked hours into a number and putting it on the table make the division fairer, or turn a home into an accounts office? There is a heavier version of the same unbooked work: long-term care and being the family's backstop — hospital visits, money fronted, calls answered at 3am — which also lands on the same person year after year, until they burn out and disappear altogether. Should that be rostered like a shift, timed, and covered by a substitute?",
-      "cat": "life"
     },
     {
       "id": "rituals-still-needed",
@@ -360,6 +342,15 @@
       "note": "狗永远学不会微积分；人的认知硬件会不会也有天花板？内嗅皮层的网格细胞按平面铺格子，我们对空间的表征天生是三维的——谈更高维时并不是在想象，只是在符号上滑行，再把顺畅误当成理解。那么数学符号、仪器与 AI 算不算『外接的感官』，能把天花板推到多高；又该怎么分辨『暂时不懂』与『原则上不可懂』？",
       "note_en": "A dog will never learn calculus; does human cognitive hardware have a ceiling of its own? Grid cells in the entorhinal cortex tile a plane and our representation of space is natively three-dimensional — above three dimensions we are not imagining anything, only skating along a symbolic surface and mistaking the smoothness for comprehension. Do mathematical notation, instruments and AI count as prosthetic sense organs, and how far can they push the ceiling back? And how would we tell 'not understood yet' from 'unintelligible in principle'?",
       "cat": "meta"
+    },
+    {
+      "id": "allocation-without-money",
+      "votes": 0,
+      "q": "不用钱来分，就更公平吗？",
+      "q_en": "Is an allocation made without money any fairer?",
+      "note": "排队、抽签、按需要、按资历、按人脉、按行政审批——把稀缺的好东西移出市场之后，这些方式各自会滋生什么样的腐蚀？排队奖励有闲的人，认定需要的权力立刻成为新的稀缺资源，靠关系分配则把价码压进不透明也无法拒绝的人情。器官名单、学区、公立医院的加号、稀缺岗位的推荐，谁在这些规则下赢，谁被悄悄挡在门外？",
+      "note_en": "Queues, lotteries, need, seniority, connections, administrative approval — once a scarce good is taken off the market, what corruption does each of these breed? Queues reward those with time to spare; the power to certify need instantly becomes the new scarce resource; allocation through connections buries the price in favours that are neither transparent nor refusable. Organ lists, school catchments, the extra slot at a public hospital, the referral into a scarce job: who wins under these rules, and who is quietly kept out?",
+      "cat": "ethics"
     }
   ],
   "debated": [
@@ -908,6 +899,13 @@
       "q_en": "Do parallel universes really exist?",
       "date": "2026-08-08",
       "cat": "meta"
+    },
+    {
+      "id": "moral-limits-of-markets",
+      "q": "有什么是金钱不该买卖的？",
+      "q_en": "Is there anything money should not be able to buy?",
+      "date": "2026-08-09",
+      "cat": "ethics"
     }
   ]
 }

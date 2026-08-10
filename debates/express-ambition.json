@@ -1,0 +1,884 @@
+{
+ "id": "express-ambition",
+ "question": "职场该不该表达野心？",
+ "question_en": "Should you show your ambition at work?",
+ "sub": "同样一份野心，有人叫领导力，有人被判「太有攻击性」——谦逊这条规范，究竟服务了谁？",
+ "sub_en": "The same ambition reads as leadership in one person and as \"too aggressive\" in another — so whom does the modesty norm actually serve?",
+ "date": "2026-08-10",
+ "participants": [
+  "beauvoir",
+  "nietzsche",
+  "laozi",
+  "buddha",
+  "goffman",
+  "adamgrant",
+  "sharot"
+ ],
+ "casting": [
+  {
+   "id": "beauvoir",
+   "reason": "她不接受把这道题问成「选一种策略」。在她看来，同一句自我陈述从不同的人嘴里说出去，落地的重量完全不同：被设定为他者的一方，连描述自己都要先过一道额外的审查。所以她把争点从「露还是藏」挪到「露一次，谁付得起代价」，并且拒绝两种劝告——既不劝人闭嘴，也不劝人硬扛。她承认技术有用、自己也用，但坚持技术只是止损；把技术当成答案，等于把不公平重新命名为不专业。语气清醒犀利，习惯把看似天经地义的规矩揭成历史与权力的产物。",
+   "reason_en": "She refuses to hear this as a question about picking a strategy. As she sees it, the same self-description lands with entirely different weight depending on who utters it: whoever has been cast as the Other must pass an extra inspection before she is even permitted to describe herself. So she moves the argument from \"show or hide\" to \"who can afford to show it once,\" and rejects both standard counsels — neither telling people to keep quiet nor telling them to grit their teeth. She grants that technique helps, and uses it herself, but insists technique is damage control; treating it as the answer renames unfairness as unprofessionalism. Lucid and sharp, she is in the habit of exposing self-evident rules as products of history and power."
+  },
+  {
+   "id": "nietzsche",
+   "reason": "他把谦逊分成两种：强者的余裕，和把「我不敢」改写成「我不屑」的自我美化，而后者在他眼里正是奴隶道德的日常形态——先把自己缺的说成不该有的，再把无力翻译成美德。他因此站在表达这一侧，但他要的不是嗓门，而是把自己的估价交出去接受碰撞：被拒绝也是被回答，比永远没被听见强。他还会把问题往回推一层，追问那份野心究竟是自己的，还是照着旁人抄来的。语言激烈、格言式，专挑温良说辞里的自欺下手。",
+   "reason_en": "He divides modesty in two: the ease of the strong, and the self-flattery that rewrites \"I dare not\" into \"I am above it\" — the second being, to his eye, slave morality in everyday dress, first declaring that what you lack is what nobody should want, then translating impotence into virtue. So he stands on the side of speaking, though what he wants is not volume but the willingness to submit your own valuation to collision: to be refused is at least to be answered, which beats never having been heard. He also pushes the question back a step, asking whether the ambition is yours at all or copied from the person at the next desk. Violent, aphoristic, he goes straight for the self-deception inside gentle language."
+  },
+  {
+   "id": "laozi",
+   "reason": "他从「不争」讲起，但很快把话说得比标语精确：不争不是不作为，是不拿自己跟人校量。他担心的是那种日日当众陈述功劳的风气——人一旦把自己当成货物、把众人的嘴当成市场，身价就随行情起落，等于把自己的命寄放在别人的舌头上。他也主动划开一刀：不敢开口是畏，不是不争，两者形状相似而心相去甚远。他给的路径是把力气从名上收回到事上，功成事遂而不居其名。语言简古，好用水、江海、婴儿一类意象，常在他人执着于名相处轻轻点破。",
+   "reason_en": "He begins from non-contention but quickly makes it more precise than the slogan: non-contention is not inaction, it is declining to measure yourself against others. What worries him is the habit of reciting one's merits daily in public — once a man makes merchandise of himself and a market of other men's mouths, his price rises and falls with the market, which is to lodge his fate on someone else's tongue. He also draws a distinction of his own: not daring to speak is fear, not non-contention; the two look alike and are far apart in the heart. His route is to pull effort back from the name to the work, completing the thing without residing in the credit. Archaic and spare in speech, fond of water, rivers and infants, he tends to puncture attachment to names lightly."
+  },
+  {
+   "id": "buddha",
+   "reason": "他不在说与不说之间选边，而是把尺子换掉：慢不在言语的显隐，而在心里那笔与人比较的账。心怀「我胜于彼」而终身不语，慢照样炽盛；如实说出自己能做什么、为的是把事办成而非压过谁，那便是正语。他更关心的是另一重苦：人多半不是苦于得不到那个位子，而是苦于把位子当成了我——未得则忧，既得则怖，失之如刀入肉。于是他把可求的东西收成三样不待他人许可的：技之精、心之定、待人之无欺。语气平和慈悲而透彻，善用譬喻，不与人争胜。",
+   "reason_en": "He does not take a side between speaking and staying silent; he changes the measure instead. Conceit lies not in whether speech is open or withheld but in the accounting the mind keeps against other people. Hold \"I am better than he is\" and never say a word, and conceit still burns; state plainly what you can do, wanting the work to succeed rather than to defeat anyone, and that is right speech. What concerns him more is a second suffering: most people suffer less from not getting the post than from taking the post for a self — anxious before, afraid during, and cut as by a knife when it goes. So he reduces what is worth seeking to three things that need no one's permission: skill made fine, a mind made steady, dealings free of deceit. Calm, compassionate and penetrating, given to parables, never out to win an argument."
+  },
+  {
+   "id": "goffman",
+   "reason": "他把争论从道德挪到形式：在办公室里，野心从来不是说与不说，而是用哪一套前台语法说。直说「我想升职」之所以刺耳，不是因为它错，而是它拆穿了整间屋子共同维持的定义——我们都只是想把事做好；破坏共同定义的人会被当作越轨者惩罚，与内容无关。他因此提供的是战术而非正义，并且会主动承认这一点：他写过污名，从不认为舞台中立。最后他把改进方向指向场次设计——把评价依据从谁在会上抢到话，挪到谁留下了可查的记录。冷峻敏锐，善于在琐碎处见秩序。",
+   "reason_en": "He shifts the argument from morals to form: in an office, ambition is never a matter of speaking or not speaking but of which front-stage grammar you speak it in. \"I want the promotion\" grates not because it is wrong but because it punctures the definition the whole room is holding up together — that we are all merely here to do good work; whoever breaks a shared definition is punished as a deviant, regardless of content. What he offers, then, is tactics rather than justice, and he says so himself: he wrote the book on stigma and has never thought the stage neutral. In the end he points the repair at the design of occasions — moving the basis of judgement from who seized the floor in a meeting to who left a record that can be checked. Cool, sharp, and good at finding order in trivia."
+  },
+  {
+   "id": "adamgrant",
+   "reason": "他带着两组互相拉扯的数据进场。一边是沉默的贡献者被系统性低估，因为评估者只能看见被呈上来的东西；另一边是赤裸的自我推销会拉低好感度，对女性和集体主义文化里的人尤其明显。于是他判定「说还是不说」是个假问题，真问题是谁来说、说什么。他给出的解法是 otherish 式的表达——把「我很厉害」换成成果、受益者与下一步，再配上同侪之间的相互作证。他也顺带纠正一个流行误读：给予者在成功阶梯的顶端和底端都最多，差别只在有没有边界。务实、反直觉、爱用研究和故事说话。",
+   "reason_en": "He arrives with two sets of data pulling against each other. On one side, quiet contributors are systematically undervalued, because evaluators can only see what has been put in front of them. On the other, naked self-promotion costs likeability, most sharply for women and for people from collectivist settings. He therefore rules \"speak or stay silent\" a false question; the real one is who speaks and what they say. His answer is otherish expression — replacing \"I'm very good\" with the result, who it helped and the next step, backed by colleagues willing to vouch for one another. He also corrects a popular misreading in passing: givers cluster at both the top and the bottom of the success ladder, and the difference is boundaries. Practical, counterintuitive, and happiest arguing with studies and stories."
+  },
+  {
+   "id": "sharot",
+   "reason": "她从大脑那一侧看这道题：别人对你的判断也是一次信念更新，而更新天生不对称——好于预期的消息被大幅吸收，坏于预期的被打折。由此她得出一个不讨喜的结论：沉默不是中性的，如果对方对你的先验本来就低，你不说话，他不会保留判断，只会顺着已有的印象替你填空。她同样反对喧哗，因为重复的自我宣称会被习惯化吃掉，第五次几乎无效。她的处方是更少、更具体、更接近对方正在头疼的那件事，并且让贡献可被检索。说话紧扣实验设计与数据，先讲研究怎么做、再下结论。",
+   "reason_en": "She looks at the question from the brain's side: another person's judgement of you is itself an act of belief updating, and updating is asymmetric by nature — news better than expected is absorbed in full, news worse than expected is discounted. From this she draws an unwelcome conclusion: silence is not neutral. If someone's prior about you is low to begin with, your saying nothing does not make them suspend judgement; they simply fill the blank with the impression they already hold. She is equally against loudness, since repeated self-assertion is eaten by habituation and is close to useless by the fifth time. Her prescription is fewer, more specific claims, closer to whatever the listener is currently struggling with — and contributions that can be retrieved. She talks in terms of experimental design first and conclusions second."
+  }
+ ],
+ "posts": [
+  {
+   "id": "p01",
+   "round": 1,
+   "thinker": "beauvoir",
+   "reply_to": null,
+   "text": "「该不该表达野心」这个问法，已经悄悄假定所有人站在同一条起跑线上，各自挑一种策略而已。可同一句「这个项目我想带」，从不同的嘴里说出去，落地的重量完全不同：男人说是有担当，女人说是「太有攻击性」「不好合作」——心理学里管这叫 backlash effect，有几十年的实验数据。被当作他者的人，连自我陈述都要先过一道额外的安检。所以谦逊不是一条对所有人成本相同的建议：对一些人它是修养，对另一些人它是安全费。**在问『该不该露』之前，得先问『露这一次，谁付得起』。**我不劝任何人闭嘴，也不劝任何人硬扛；我要求把这条规范本身押上被告席。",
+   "text_en": "The way the question is put — whether one *should* express ambition — has already smuggled in the assumption that everyone starts from the same line and merely picks a strategy. But the same sentence, \"I want to lead this project,\" lands with entirely different weight depending on whose mouth it comes out of: from a man it is initiative, from a woman it is \"too aggressive,\" \"hard to work with.\" Psychologists call it the backlash effect, and decades of experiments sit behind it. Anyone cast as the Other must clear an extra checkpoint before she is even allowed to describe herself. So modesty is not advice that costs everyone the same: for some it is refinement, for others it is a safety fee. **Before asking whether to show ambition, ask who can afford to show it this once.** I am not telling anyone to keep quiet, nor to grit their teeth and bear it; I am asking that the norm itself be put in the dock.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "backlash effect": "backlash effect（反弹效应）：社会心理学里一批可重复的实验结果——当一个人的自我表达违反了他人对其身份的期待（例如女性表现出主导、议价或明确的野心），评价者会施加社交层面的惩罚：能力评分未必下降，但『讨人喜欢』『好合作』的评分明显下降，进而影响晋升与合作机会。它之所以重要，是因为它说明同一个行为的代价并非人人相等。",
+    "他者": "the Other（他者）：她用来刻画女性处境的核心概念——一个群体被默认为标准的『人』，另一个群体只能作为相对于前者、被观看被定义的一方存在。处在他者位置的人谈论自己时总带着额外的自证负担，因为默认的视角本来就不是他的。"
+   },
+   "glossary_en": {
+    "backlash effect": "A replicated finding in social psychology: when someone's self-presentation violates what others expect of their category — a woman showing dominance, negotiating hard, or stating clear ambition — evaluators impose a social penalty. Competence ratings may hold steady, but ratings of likeability and 'easy to work with' drop sharply, and promotion and collaboration follow those ratings. It matters because it shows the cost of one and the same act is not equal across people.",
+    "the Other": "Her central term for the situation of women: one group is taken as the default human being, and the other exists only as the looked-at, defined-against party. Whoever occupies that position carries an extra burden of proof when speaking about herself, because the default point of view was never hers."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "adamgrant"
+    ],
+    "轻微赞同": [
+     "sharot",
+     "goffman"
+    ],
+    "中立": [
+     "laozi",
+     "buddha"
+    ],
+    "轻微反对": [
+     "nietzsche"
+    ]
+   }
+  },
+  {
+   "id": "p02",
+   "round": 1,
+   "thinker": "nietzsche",
+   "reply_to": null,
+   "text": "谦逊？我一生只见过两种。一种是强者的余裕，他有能力不必时时证明自己；另一种是把「我不敢」改写成「我不屑」，再把这份改写供上神坛。后者有个名字：Sklavenmoral。它的手法千年未改——先把自己缺的说成不该有的，再把无力翻译成美德，最后要求所有人一起不要。**一个连自己想要什么都说不出口的人，不是谦虚，是把 ressentiment 过成了性格。**我不是让你去踩谁：我所谓的 der Wille zur Macht，首先是把自己活成一件成形的作品，其次才轮到他人。想带那个项目就去说，说完承担被拒绝——被拒绝也是被回答，总好过永远没被听见。",
+   "text_en": "Modesty? I have met only two kinds in my life. One is the ease of the strong, who need not prove themselves at every hour; the other rewrites \"I dare not\" into \"I am above it\" and then enthrones the rewrite. The second has a name: Sklavenmoral. Its trick has not changed in two thousand years — first declare that what you lack is what nobody ought to want, then translate impotence into virtue, and finally demand that everyone go without. **A man who cannot even say what he wants is not humble; he has made ressentiment into a personality.** I am not telling you to trample anyone: what I call der Wille zur Macht is first the drive to make yourself into a formed work, and only afterwards a matter of other people. If you want that project, say so, and carry the refusal — to be refused is at least to be answered, which beats never having been heard.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "Sklavenmoral": "Sklavenmoral (slave morality)（奴隶道德）：他用来指一种由处于弱势者发明、再反过来统治强者的价值系统。它的动作是把被迫接受的处境改写成道德优越：不能报复叫宽恕，不敢出头叫谦卑。他反对的不是温和本身，而是这种把无能包装成德性、并要求人人照办的偷换。",
+    "ressentiment": "ressentiment（怨恨）：一种长期无法发泄、于是转向内部并重新塑造价值判断的敌意。它不承认『我输了』，而是宣布『赢本身就是低级的』。他认为这是许多道德说教真正的发动机，也是最难识破的一种自我欺骗，因为它总以美德的形式出现。",
+    "der Wille zur Macht": "der Wille zur Macht (the will to power)（权力意志）：他给生命下的基本定义——不是求生存，也不只是求支配他人，而是不断伸展、塑形、克服自身既有形态的冲动。用在一个人身上，它更接近『把自己活成一件成形的作品』，而不是办公室里的争权夺利。"
+   },
+   "glossary_en": {
+    "Sklavenmoral": "Slave morality: a value system invented by those in the weaker position which then comes to rule the strong. Its move is to rewrite an imposed situation as moral superiority — inability to retaliate becomes forgiveness, not daring to step forward becomes humility. What he attacks is not gentleness itself but this substitution, which dresses incapacity as virtue and then requires everyone to comply.",
+    "ressentiment": "A long-frustrated hostility that, unable to discharge itself, turns inward and rewrites the scale of values. It never concedes 'I lost'; it announces that winning was contemptible all along. He takes this to be the real engine of much moral preaching, and the hardest self-deception to catch, because it always arrives in the costume of virtue.",
+    "der Wille zur Macht": "The will to power: his basic definition of life — not the drive to survive, nor merely to dominate others, but the impulse to extend, shape and overcome one's own present form. Applied to a person it is closer to 'making yourself into a formed work' than to office politics."
+   },
+   "reactions": {
+    "轻微赞同": [
+     "adamgrant",
+     "sharot"
+    ],
+    "中立": [
+     "goffman"
+    ],
+    "轻微反对": [
+     "buddha",
+     "beauvoir"
+    ],
+    "强烈反对": [
+     "laozi"
+    ]
+   }
+  },
+  {
+   "id": "p03",
+   "round": 1,
+   "thinker": "laozi",
+   "reply_to": null,
+   "text": "企者不立，跨者不行；自见者不明，自伐者无功。江海所以能为百谷王者，以其善下之，故能为百谷王。圣人后其身而身先，外其身而身存。**夫唯不争，故天下莫能与之争。**吾非教人匿其才也，教人勿以争心用其才耳。争心一起，则终日校量于人：人进则忧，人退则喜，事未成而神已敝。今世教人日陈其功于众，是使人以己为货、以众口为市；市有涨落，则己之贵贱亦随之，是以我之命，寄于他人之舌。故曰：功成事遂，百姓皆谓我自然。",
+   "text_en": "He who stands on tiptoe does not stand long; he who takes long strides does not walk far. He who displays himself is not seen clearly; he who trumpets his own merit has none. The rivers and the sea are kings over a hundred valleys because they are good at placing themselves below, and so the hundred valleys run to them. The sage puts himself last and finds himself first, sets himself outside and so survives. **It is only because he does not contend that nothing under heaven can contend with him.** But non-contention is not idleness: I am not teaching anyone to hide their gifts, I am teaching them not to use their gifts with a contending heart. Once contention begins, a man spends his days measuring himself against others — anxious when they advance, pleased when they fall back — and his spirit is spent before the work is done. To teach men to recite their merits daily before a crowd is to make merchandise of themselves and a market of other men's mouths; markets rise and fall, and your price will rise and fall with them. That is to lodge your fate on another man's tongue. Hence: the work is done, the thing completed, and the people all say it happened of itself.",
+   "vernacular": "踮着脚站不长久，跨大步走不长远；老想让人看见的反而看不明白，老自我表功的反而没有功劳。江河大海之所以能做百川之王，是因为它肯待在低处，所以百川都归向它。圣人把自己放在后面，反而站到了前面；把自己置之度外，反而保全了自己。**正因为不与人争，所以天下没有人争得过他。**我不是教人把才能藏起来，是教人别带着争胜的心去用才能。争胜的心一起来，就整天拿自己跟人比：别人进一步就发愁，别人退一步就高兴，事情还没做成，精神已经耗光了。如今教人天天当众陈述自己的功劳，等于让人把自己当货物、把众人的嘴当市场；市场有涨有跌，你的身价也跟着涨跌——这是把自己的命，寄放在别人的舌头上。所以说：事情办成了，百姓都觉得本来就该这样。",
+   "vernacular_en": "",
+   "glossary": {
+    "不争": "non-contention（不争）：《道德经》的核心处世原则——不去和人比高下、争先后。它不等于不作为或没有能力，而是把注意力从『赢过谁』移回『事情本身成不成』；他认为一旦进入比较，人的判断和精力就被对手牵着走，反而做不成事。",
+    "善下之": "placing itself below（善下之）：老子以江海作比的说法——江海之所以成为百川汇归之处，正因为它处在最低的位置。引申开来：真正能聚拢人与事的位置，往往是肯居下、肯接纳的那个，而不是抢在最前面的那个。"
+   },
+   "glossary_en": {
+    "non-contention": "The central practical principle of the Daodejing: not competing over who is ahead or above. It is not inaction or incapacity; it moves attention off 'beating whom' and back onto whether the work itself succeeds. Once you enter comparison, he holds, your judgement and energy are steered by your rival, and the work suffers.",
+    "placing themselves below": "Laozi's image drawn from water: the rivers and the sea become the meeting point of a hundred valleys precisely because they occupy the lowest ground. By extension, the position that actually gathers people and work to it is usually the one willing to sit underneath and take things in, not the one pushing to the front."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "buddha"
+    ],
+    "轻微反对": [
+     "goffman",
+     "adamgrant",
+     "beauvoir"
+    ],
+    "强烈反对": [
+     "nietzsche",
+     "sharot"
+    ]
+   }
+  },
+  {
+   "id": "p04",
+   "round": 1,
+   "thinker": "buddha",
+   "reply_to": null,
+   "text": "诸比丘，有执名位而问者：当显其欲，抑当隐之？我说：**慢不在言之显隐，而在心之校量。**若人默然而内怀「我胜于彼」，虽终身不语，我慢炽然；若人如实自陈其所能，欲令事成，非欲胜人，是名正语，非慢也。是故我不说藏才为德，亦不说自陈为过，我说：当观其心。复次，众生之苦，多不在不得其位，而在以位为我。位者众缘所成，可与人，可失；『我』则执之不舍。执位为我者，未得则忧，既得则怖，失之则如刀入肉。若必有所求，当求不待他人许可者：技之精、心之定、与人之无欺。以正命自养，如实而说，不增不减。",
+   "text_en": "Bhikkhus, a man attached to rank asks: should he make his wanting visible, or hide it? I say: **conceit does not lie in whether speech is open or withheld, but in the measuring the mind keeps.** If a man stays silent while inwardly holding \"I am better than he is,\" then though he never speaks a word in his life, māna burns in him. If a man states plainly what he is able to do, wanting the work to succeed and not wanting to defeat anyone, that is sammā-vācā and not conceit. So I do not say that hiding one's gifts is virtue, nor that speaking of them is a fault. I say: look at the mind. Further: the suffering of beings lies less in not obtaining the position than in taking the position for a self. A position is made of conditions; it can be handed away and it can be lost, while the 'I' grips and will not let go. Wanting it, one worries; holding it, one is afraid; losing it, one feels a knife enter flesh. If you must seek, seek what needs no one's permission: skill made fine, a mind made steady, dealings free of deceit. Support yourself by sammā-ājīva, and speak as things are, neither adding nor subtracting.",
+   "vernacular": "诸位比丘，有人抓着名位来问：该把自己的欲望亮出来，还是藏起来？我说：**慢不在于话说得明还是不明，而在于心里那笔跟人比较的账。**如果一个人嘴上不说，心里却装着「我比他强」，那么他就算一辈子不开口，我慢照样烧得很旺；如果一个人如实说出自己能做什么，是为了把事情办成、不是为了压过谁，那就是正语，不是慢。所以我不说把才能藏起来是美德，也不说自我陈述是过失，我说：要看那颗心。再者，众生的苦，多半不在得不到那个位子，而在把位子当成了「我」。位子是众多条件凑起来的，可以给人，也可能丢掉；「我」却抓着不肯放。把位子当成我的人，没得到时发愁，得到了害怕，失去时像刀割肉。如果一定要求点什么，就求那些不需要别人批准的：手艺精、心安定、待人不欺。用正当的方式谋生养活自己，如实地说，不夸大也不缩小。",
+   "vernacular_en": "",
+   "glossary": {
+    "我慢": "māna / asmimāna (conceit)（我慢）：佛教心理学列举的根本烦恼之一，指以『我』为轴心去与人比高下的心理动作。它有三种形态：我胜、我等、我劣——注意『我不如人』的自卑同样算慢，因为它照样把注意力钉在比较上。关键不在说了什么，而在心里是否正拿自己丈量别人。",
+    "正语": "sammā-vācā (right speech)（正语）：八正道之一，要求所说真实，不两舌、不恶口、不绮语。值得注意的是它并不要求少说或自我贬低：如实陈述自己确实具备的能力，只要不为胜他、不作夸大，仍属正语。",
+    "正命": "sammā-ājīva (right livelihood)（正命）：八正道之一，指以不伤害他人的方式谋生。它把『怎么挣饭吃』直接写进修行的清单，意味着职业选择与其中的手段本身就是道德问题，不是修行之外的杂事。"
+   },
+   "glossary_en": {
+    "māna": "Conceit, listed among the root afflictions in Buddhist psychology: the mental act of ranking oneself against others with 'I' as the axis. It takes three forms — I am better, I am equal, I am worse — and note that feeling inferior counts as conceit too, since it pins attention to the comparison all the same. What matters is not what was said but whether the mind is measuring.",
+    "sammā-vācā": "Right speech, a limb of the eightfold path: speech that is truthful, not divisive, not harsh, not frivolous. Notably it does not require saying little or running yourself down; stating accurately what you can in fact do remains right speech, so long as it is not for defeating someone and not inflated.",
+    "sammā-ājīva": "Right livelihood, a limb of the eightfold path: earning a living in ways that do no harm. It puts the question of how you feed yourself directly onto the list of practice, which means the choice of work and the means used inside it are moral matters, not chores outside the path."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "laozi"
+    ],
+    "轻微赞同": [
+     "goffman"
+    ],
+    "中立": [
+     "sharot",
+     "adamgrant"
+    ],
+    "轻微反对": [
+     "beauvoir"
+    ],
+    "强烈反对": [
+     "nietzsche"
+    ]
+   }
+  },
+  {
+   "id": "p05",
+   "round": 1,
+   "thinker": "goffman",
+   "reply_to": null,
+   "text": "诸位在争「该不该」，我想先说件更朴素的事：在办公室里，野心从来不是说与不说，而是用哪一套前台语法说。直说「我想升职」之所以让人不适，不是因为它道德上错，而是它拆穿了整间屋子共同维持的那个定义——我们都只是想把事做好。破坏这个共同定义的人会被当成越轨者惩罚，跟他说的内容无关。我把这门手艺叫印象管理：不是撒谎，是决定让哪一部分自我在哪个场合出场。**冒犯人的往往不是野心本身，而是把后台的话搬到了前台。**所以老练的人从不宣布野心，他们让野心以「这块难活我接」的形式登场——同一件事，换了剧本，评价就换了方向。",
+   "text_en": "You are all arguing about whether one should. Let me begin with something plainer: in an office, ambition is never a matter of speaking or not speaking, but of which front stage grammar you speak it in. \"I want the promotion\" makes people uncomfortable not because it is morally wrong but because it punctures the definition the whole room is holding up together — that we are merely here to do good work. Whoever breaks a shared definition is punished as a deviant, regardless of content. The craft I call impression management: not lying, but deciding which part of the self appears on which occasion. **What offends is usually not the ambition itself but moving back stage talk onto the front stage.** So practised people never announce ambition; they let it enter as \"I'll take the hard piece of this\" — the same fact in a different script, and the judgement swings the other way.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "前台": "front stage（前台）：他用剧场比喻描述的那一半社会生活——人在他人注视下扮演角色、维持某种关于自己的定义。前台不等于虚伪，而是任何互动都必须有的形式：会议、面谈、朋友圈，各有各的一套得体语法。",
+    "后台": "back stage（后台）：与前台相对的那一半——角色可以卸下、真实动机可以直说的地方，比如茶水间、下班后的饭桌、私人聊天。他强调二者的分工本身就是社会秩序的一部分，麻烦通常发生在两个区域被打通的时候。",
+    "印象管理": "impression management（印象管理）：人在互动中主动控制他人对自己形成的印象的全部技术——措辞、时机、姿态、给出哪些细节、隐去哪些细节。他坚持这不是道德缺陷，而是社会生活的基本工序：没有人能不管理印象地出现在别人面前。"
+   },
+   "glossary_en": {
+    "front stage": "The half of social life he describes with a theatrical metaphor: where a person performs a role under others' eyes and sustains some definition of who they are. It is not the same as insincerity; it is the form every interaction must take, and meetings, interviews and social feeds each come with their own grammar of what is fitting.",
+    "back stage": "The other half: where the role can be set down and real motives said out loud — the break room, dinner after work, a private message. He insists the division of labour between the two regions is itself part of social order, and that trouble usually begins when the wall between them is breached.",
+    "impression management": "The whole set of techniques by which people steer the impression others form of them — wording, timing, bearing, which details to supply and which to withhold. He maintains this is not a moral defect but a basic operation of social life: nobody can appear before others without managing an impression."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "adamgrant"
+    ],
+    "轻微赞同": [
+     "sharot",
+     "nietzsche"
+    ],
+    "中立": [
+     "buddha"
+    ],
+    "轻微反对": [
+     "beauvoir",
+     "laozi"
+    ]
+   }
+  },
+  {
+   "id": "p06",
+   "round": 1,
+   "thinker": "adamgrant",
+   "reply_to": null,
+   "text": "我带数据来。评价流程里有件事被反复验证：贡献的分配和 credit 的分配是两回事——沉默的贡献者被系统性低估，因为评估者只能看见被呈上来的东西。但另一边的数据同样硬：赤裸的自我推销会拉低好感度，对女性和集体主义文化里的人尤其明显。所以「说还是不说」是个假问题，真问题是谁来说、说什么。我的解法叫 otherish——利他但不自毁：**把「我很厉害」换成「这件事做成了，它帮到了谁，接下来我想接更大的那块」。**再加一条被低估的技术：结伴互推。同事替你说的那句话，可信度比你自己说高得多。顺带纠正一个误读：给予者在成功阶梯的顶端和底端都最多，差别只在有没有边界。",
+   "text_en": "I brought data. One finding keeps replicating inside appraisal systems: the distribution of contribution and the distribution of credit are two different things — quiet contributors are systematically undervalued, because evaluators can only see what has been placed in front of them. But the data on the other side is just as hard: naked self-promotion lowers likeability, and does so most sharply for women and for people from collectivist settings. So \"speak or stay silent\" is a false question; the real one is who speaks and what they say. My answer is otherish giving — generous without self-destruction. **Replace \"I'm very good\" with \"this got done, here is who it helped, and next I'd like the bigger piece.\"** Add one underrated technique: paired advocacy. What a colleague says about you carries several times the credibility of what you say about yourself. And a correction in passing: givers cluster at both the top and the bottom of the success ladder, and the only difference is boundaries.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "自我推销": "self-promotion（自我推销）：主动向他人陈述自己的能力与成绩以争取机会。研究里它有一个稳定的不对称后果：通常能抬高别人对你能力的估计，同时压低对你的喜爱程度，而后者在需要长期合作的场合往往更致命——这也是为什么它不是『多做一点就更好』的事。",
+    "otherish": "otherish（利他而不自毁）：他造的词，用来区分两种给予者。纯粹的给予者没有边界，最后被榨干、掉到成功阶梯的底端；otherish 的给予者同样慷慨，却清楚自己的利益，会挑对象、设上限、也会开口要回报，于是靠声誉与互惠的复利长期胜出。"
+   },
+   "glossary_en": {
+    "self-promotion": "Stating your abilities and results to others in order to win opportunities. Research finds a stable asymmetry in its effects: it usually raises others' estimate of your competence while lowering how much they like you, and in settings that require long cooperation the second effect is often the more costly one. That is why it is not a dial you simply turn up.",
+    "otherish": "His coinage for separating two kinds of giver. The pure giver has no boundaries, is drained, and ends at the bottom of the success ladder. The otherish giver is equally generous but clear about their own interests: choosing whom to help, setting limits, and asking for return — which lets reputation and reciprocity compound over time."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "goffman",
+     "beauvoir"
+    ],
+    "轻微赞同": [
+     "sharot"
+    ],
+    "中立": [
+     "laozi",
+     "buddha"
+    ],
+    "轻微反对": [
+     "nietzsche"
+    ]
+   }
+  },
+  {
+   "id": "p07",
+   "round": 1,
+   "thinker": "sharot",
+   "reply_to": null,
+   "text": "从大脑那边看。别人对你的判断也是一次信念更新，而更新天生不对称：好于预期的消息被大幅吸收，坏于预期的被打折——这正是乐观偏差的另一张脸。它的后果很直接：如果对方对你的先验本来就低（因为性别、口音、资历、部门），你的沉默不会被读成深藏不露，只会被读成「大概也就这样」。数据不会替你说话，因为没有人会主动去调数据。还有一条常被忽略的机制：习惯化。同一句自我宣称重复到第五次，对方的反应几乎归零。**所以有效的从来不是更响，而是更少、更具体、更贴近对方正在头疼的那件事。**",
+   "text_en": "Look at it from the brain's side. Another person's judgement of you is itself an act of belief updating, and updating is asymmetric by nature: news better than expected is absorbed at full weight, news worse than expected is discounted — that is the other face of the optimism bias. The consequence is direct. If someone's prior about you is low to begin with — because of your gender, your accent, your years, your department — your silence will not be read as depth held in reserve. It will be read as \"probably about what I thought.\" The data will not speak for you, because nobody goes looking for it. And one mechanism that gets overlooked: habituation. Repeat the same self-assertion five times and the listener's response is close to zero. **What works is never louder, but fewer, more specific, and closer to whatever they are currently struggling with.**",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "信念更新": "belief updating（信念更新）：人在收到新信息后修改原有判断的过程。实验室里可以把它量化：给出一个估计，再给证据，看估计移动多少。研究反复发现这个过程并不中立——移动的幅度取决于信息是好消息还是坏消息，以及它与既有印象是否一致。",
+    "乐观偏差": "optimism bias（乐观偏差）：她最著名的研究结果——人对好于预期的消息大幅更新信念，对坏于预期的消息明显打折。它通常被当成关于自我的现象（低估自己得癌症的概率），但同一套不对称也发生在我们评价别人时，于是既有的好印象容易越滚越好，坏印象则难以被证据翻案。",
+    "习惯化": "habituation（习惯化）：神经系统对重复出现的刺激反应逐次减弱的基本现象，好的坏的都算。它解释了为什么加薪的快乐会退去，也解释了为什么反复的自我宣称会失效：同样的话说到第三、第五次，对方的大脑已经不再把它当新信息处理。"
+   },
+   "glossary_en": {
+    "belief updating": "The process by which a person revises an existing judgement after new information arrives. It can be quantified in the lab: take an estimate, supply evidence, measure how far the estimate moves. The process turns out not to be neutral — how far it moves depends on whether the news is good or bad and on whether it fits the impression already held.",
+    "optimism bias": "Her best-known result: people update sharply towards news better than expected and discount news worse than expected. It is usually treated as a fact about the self — underestimating your own risk of cancer — but the same asymmetry operates when we judge others, so a good impression compounds easily while a bad one resists correction by evidence.",
+    "habituation": "The basic tendency of a nervous system to respond less to a repeated stimulus, pleasant or unpleasant alike. It explains why the joy of a raise fades, and equally why repeated self-assertion stops landing: by the third or fifth telling, the listener's brain no longer processes it as news."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "adamgrant"
+    ],
+    "轻微赞同": [
+     "beauvoir",
+     "goffman",
+     "nietzsche"
+    ],
+    "中立": [
+     "buddha"
+    ],
+    "轻微反对": [
+     "laozi"
+    ]
+   }
+  },
+  {
+   "id": "p08",
+   "round": 2,
+   "thinker": "laozi",
+   "reply_to": "p02",
+   "text": "或谓不争者，怯者之饰也。此见其一，未见其二。夫争有二：有争其实者，有争其名者。**吾所谓不争，非不为也，不与人校也。**为者日进其实，校者日耗于人。水不与石争，而石终为水所穿，此非弱也，不改其所向耳，故曰柔弱胜刚强。吾之所谓无为，非坐视也，不妄作耳。子言意志之强，然强之至者，莫过于不为人言所动；若必待众人称我而后安，则我之贵贱系于众口，是以己之命付于他人，此岂强乎？至于不敢言而托于谦者，吾亦不许：不敢者，畏也，非不争也。畏与不争，其形似，其心相去远矣。",
+   "text_en": "Some say that non-contention is a coward's ornament. That is to see one side and miss the other. There are two kinds of contending: contending over the substance, and contending over the name. **What I call non-contention is not doing nothing; it is declining to measure myself against others.** He who works adds daily to the substance; he who measures spends himself daily on other people. Water does not contend with stone, yet the stone is worn through by water in the end — not from weakness but from never changing direction, and so it is said that the soft overcomes the hard. What I call wu wei is not sitting by and watching; it is not acting arbitrarily. You speak of a strong will; but the height of strength is to be unmoved by what people say. If you cannot be at peace until the crowd praises you, then your worth hangs on the crowd's mouths, and you have handed your fate to other men — is that strength? As for the man who does not dare speak and takes shelter under humility, I do not permit that either: not daring is fear, not non-contention. Fear and non-contention look alike; in the heart they are far apart.",
+   "vernacular": "有人说，不争不过是胆小的人给自己找的装饰。这只看到了一面。争其实有两种：一种争实实在在的东西，一种争名声。**我说的不争，不是不做事，是不拿自己跟人比。**做事的人一天天把实的那部分加厚，比较的人一天天耗在别人身上。水不跟石头争，可石头最后是被水穿透的——这不是软弱，是从不改变方向，所以说柔弱能胜过刚强。我说的无为，也不是坐着不动，只是不乱来。你讲意志要强，可最强的，莫过于不被别人的话牵着走；如果非要等众人夸我才安心，那我值多少就系在众人嘴上了，等于把自己的命交给别人——这算强吗？至于那些不敢开口、却拿谦虚当挡箭牌的，我同样不认：不敢是害怕，不是不争。害怕和不争，外形很像，心里差得很远。",
+   "vernacular_en": "",
+   "glossary": {
+    "柔弱胜刚强": "the soft overcomes the hard（柔弱胜刚强）：《道德经》反复出现的判断——水最柔，却能穿石、能载舟覆舟。它讲的不是软弱本身有力量，而是持续、不迎击、不改变方向的东西，在长时间里胜过一次性的强硬。用在人事上，它主张把胜负的尺度从单次交锋换成长期累积。",
+    "无为": "wu wei (non-action)（无为）：老子的核心主张，字面是『不作为』，实指不强行干预、不违背事物本来的走势去妄加造作。它并不排斥做事，排斥的是那种为了显示自己在场而额外加上去的动作——在管理与自我经营上，它常被理解为『少做无效动作，别为了被看见而制造动静』。"
+   },
+   "glossary_en": {
+    "the soft overcomes the hard": "A judgement that recurs throughout the Daodejing: water is the softest thing, yet it bores through stone and carries or capsizes boats. The claim is not that weakness is strong, but that what persists, does not meet force with force and never changes direction will outlast a single hard stroke. Applied to human affairs, it moves the measure of winning from one encounter to long accumulation.",
+    "wu wei": "Laozi's central term, literally 'non-action,' meaning not forcing, not adding contrivance against the grain of how things are already moving. It does not rule out work; it rules out the extra motions made to demonstrate that you are present — in management and in running one's own career, it is often read as doing fewer useless things and not manufacturing activity in order to be seen."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "buddha"
+    ],
+    "中立": [
+     "sharot"
+    ],
+    "轻微反对": [
+     "goffman",
+     "adamgrant",
+     "beauvoir"
+    ],
+    "强烈反对": [
+     "nietzsche"
+    ]
+   }
+  },
+  {
+   "id": "p09",
+   "round": 2,
+   "thinker": "nietzsche",
+   "reply_to": "p08",
+   "text": "老先生，水穿石要一万年，而你的复盘在下个季度。我不反对沉默——沉默有时是最好的形式；我反对把沉默供起来当美德，那是把「我没赢」改写成「我不必赢」。你说不与人校量，可你整套话术的落点仍然是赢：后其身而身先、不争而莫能与之争——只是把胜利搬到了没人能查账的地方，好让它永远不必被证伪。**凡是无法被反驳的高尚，都该被怀疑。**你自己划开了畏与不争，这一刀我服；那就请把它用到底：多数办公室里的低调，九分是畏，一分是道。我要的是 Umwertung——先自己定标准，再把它交出去，让世界来碰。",
+   "text_en": "Old master, water needs ten thousand years to bore through stone, and your review comes next quarter. I have nothing against silence — silence is sometimes the finest form. What I object to is enshrining silence as virtue, which is rewriting \"I did not win\" into \"I need not win.\" You say you do not measure yourself against others, yet the whole of your rhetoric still lands on winning: last and therefore first, uncontending and therefore uncontested — you have merely moved the victory somewhere the books cannot be audited, so that it need never be falsified. **Any nobility that cannot be refuted deserves suspicion.** You drew the line yourself between fear and non-contention, and that cut I accept; then take it all the way: nine parts of the modesty in any office is fear and one part is the Way. What I want is Umwertung — set the standard yourself first, then hand it over and let the world strike it.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "Umwertung": "Umwertung aller Werte (revaluation of all values)（价值重估）：他给自己设定的核心任务——不是在既有的善恶表里换个位置，而是追问这张表是谁、在什么处境下、为了什么需要定出来的，然后按自己确认得了的标准重新排定。落到一个人身上，它意味着先自行判断什么算好，再拿去接受现实的检验，而不是反过来等着被打分。"
+   },
+   "glossary_en": {
+    "Umwertung": "Revaluation of all values: the task he set himself — not to swap positions within the existing table of good and evil, but to ask who drew that table up, in what situation and out of what need, and then to reorder it by standards one can actually vouch for. For an individual it means judging first what counts as good, then submitting that judgement to reality, rather than waiting to be graded."
+   },
+   "reactions": {
+    "轻微赞同": [
+     "beauvoir",
+     "sharot"
+    ],
+    "中立": [
+     "goffman"
+    ],
+    "轻微反对": [
+     "adamgrant",
+     "buddha"
+    ],
+    "强烈反对": [
+     "laozi"
+    ]
+   }
+  },
+  {
+   "id": "p10",
+   "round": 2,
+   "thinker": "sharot",
+   "reply_to": "p03",
+   "text": "老子先生那句「功成事遂，百姓皆谓我自然」，在实验室里有个不太好听的对应：**当没有人知道是谁做的，大脑不会替你补上名字，它会补上最容易想到的那个名字。**我们研究归因时反复看到同一件事：面对模糊信息，人几乎总是顺着已有的先验去填空，而先验里坐着的通常是屋里最显眼、最符合刻板印象的那位。所以沉默不是中性的，它只是把解释权让给了对方的预设。我也不主张喧哗，喧哗会触发习惯化，越喊越不被听见。我主张一件很小的事：让贡献可被检索——事情发生的当时就留下书面记录、当场署名，而不是等着日后被追认。",
+   "text_en": "Laozi's line — the work is done and the people say it happened of itself — has an unlovely counterpart in the laboratory. **When nobody knows who did it, the brain does not supply your name; it supplies the name that comes most easily to mind.** Studying attribution, we see the same thing again and again: faced with ambiguous information, people fill the gap along the prior they already hold, and sitting inside that prior is usually whoever in the room is most visible and most stereotype-consistent. So silence is not neutral. It simply hands the right of interpretation to someone else's assumptions. I am not arguing for noise either — noise triggers habituation, and the more you shout the less you are heard. I am arguing for something small: make contributions retrievable. Leave a written record at the moment the thing happens, with names attached, instead of waiting to be credited later.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "归因": "attribution（归因）：人为一件事找原因、判断功劳或责任该记在谁头上的心理过程。它常常不是在读证据，而是在读现成的印象：信息越模糊、时间隔得越久，判断就越靠既有印象补齐，因此同一份贡献在不同人身上会得到不同的归属。",
+    "先验": "prior（先验）：接触新证据之前，一个人对某件事已经持有的估计。它决定了新证据能推动判断多少：先验越强，证据要越硬才推得动。在人际判断里，先验往往由性别、口音、资历、部门这些和能力无关的线索预先装好。"
+   },
+   "glossary_en": {
+    "attribution": "The psychological process of assigning a cause — of deciding whose credit or fault an outcome is. Often it is not a reading of evidence but a reading of the impression already in place: the vaguer the information and the longer the delay, the more the judgement is completed from that impression, so the same contribution is assigned differently depending on who made it.",
+    "prior": "The estimate a person already holds before new evidence arrives. It governs how far evidence can move a judgement: the stronger the prior, the harder the evidence must be. In judgements of people, priors are often preloaded by cues that have nothing to do with capability — gender, accent, seniority, which department you sit in."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "beauvoir",
+     "adamgrant"
+    ],
+    "轻微赞同": [
+     "goffman",
+     "nietzsche"
+    ],
+    "中立": [
+     "buddha"
+    ],
+    "轻微反对": [
+     "laozi"
+    ]
+   }
+  },
+  {
+   "id": "p11",
+   "round": 2,
+   "thinker": "beauvoir",
+   "reply_to": "p05",
+   "text": "戈夫曼先生把职场描成一个人人都在演的舞台，规则中立，端看演技。可舞台从来不中立：谁能走上前台、谁的同一句台词被读成傲慢，早就分派好了。你说冒犯在于把后台的话搬上前台——问题是同一句台词，男人说是直率，女人说就成了越轨。这不是性格，是处境；**规则本身在按人分等地执行。**于是你那套「得体」藏着一条附加条款：被歧视的人要多付一道翻译费，把想要的东西译成不冒犯人的形式，还得译得毫不费力。我不否认这门技术有用，我自己也用。但把技术当成答案，就等于把不公平重新命名为不专业。",
+   "text_en": "Mr Goffman describes the workplace as a stage where everyone performs, the rules neutral and only the acting in question. But the stage has never been neutral: who may step onto the front, and whose identical line will be heard as arrogance, are allocated in advance. You say the offence lies in moving back-stage talk to the front — yet the same line from a man is directness and from a woman is trespass. That is not character, it is situation; **the rule itself is being enforced at different rates for different people.** So your notion of what is fitting carries a hidden clause: whoever is discriminated against must pay an extra translation fee, rendering what she wants into a form that offends no one, and rendering it effortlessly. I do not deny the technique works — I use it myself. But to treat technique as the answer is to rename unfairness as unprofessionalism.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "处境": "situation（处境）：存在主义用来取代『本性』的关键词。一个人当下的表现，是自由与他所处的具体条件（身体、阶级、性别、他人的期待与制度安排）交织的结果，而不是某种天生倾向的展开。她用这个词把『女人比较不敢争取』从性格判断改写成条件判断——条件可以改变，天性不能。"
+   },
+   "glossary_en": {
+    "situation": "The existentialist term she uses in place of 'nature.' How a person acts now is the product of freedom interlaced with the concrete conditions they stand in — body, class, sex, others' expectations, institutional arrangements — not the unfolding of an innate disposition. With it she rewrites 'women are less willing to push' from a claim about character into a claim about conditions, and conditions, unlike natures, can be changed."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "adamgrant"
+    ],
+    "轻微赞同": [
+     "sharot",
+     "nietzsche"
+    ],
+    "中立": [
+     "laozi",
+     "buddha"
+    ],
+    "轻微反对": [
+     "goffman"
+    ]
+   }
+  },
+  {
+   "id": "p12",
+   "round": 2,
+   "thinker": "goffman",
+   "reply_to": "p11",
+   "text": "波伏娃女士，我从没说过舞台中立——我写过一整本书，名字就叫《污名》，讲的正是有些人一出场就自带扣分，而且还得替在场所有人管理这份不自在。我们的分歧只在下一步：你要求先改规则；我同意规则该改，但改起来是几十年的事，而个人的场次是明天上午九点。**我给的是战术，不是正义；把战术当成正义，才是我真正该挨骂的地方。**不过有一条你我可以合并：既然表达的代价按人分派不均，那么最该动的就不是弱者的表达方式，而是评估的场次设计——把判断依据从「谁在会上抢到话」挪到「谁留下了可查的记录」。改场次，比改人容易得多。",
+   "text_en": "Madame de Beauvoir, I never said the stage was neutral — I wrote an entire book on stigma, precisely about people who walk on already marked down, and who must then manage everyone else's discomfort on top of it. Our disagreement is only about the next step: you want the rules changed first. I agree they should change, but changing them takes decades, and the individual's performance is at nine tomorrow morning. **What I offer is tactics, not justice; treating tactics as justice is where I genuinely deserve the abuse.** Still, one point of ours can be merged: since the cost of speaking is unevenly distributed, the thing most in need of alteration is not how the disadvantaged express themselves but the design of the occasion on which they are judged — moving the basis of judgement from who seized the floor in the meeting to who left a record that can be checked. Changing the occasion is far easier than changing the people.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "污名": "stigma（污名）：他用来描述一种身份处境的词——某个可见或可被发现的特征，使一个人在互动一开始就被折价，无法作为『完整的常人』被对待。他的重点不在偏见的心理，而在被污名者被迫承担的额外劳动：要随时处理别人的不自在、控制信息、决定何时坦白何时隐瞒。"
+   },
+   "glossary_en": {
+    "stigma": "His term for a condition of identity: some visible or discoverable attribute that discounts a person from the outset of an interaction, so that they cannot be treated as an ordinary whole person. His emphasis falls not on the psychology of prejudice but on the extra labour forced onto the stigmatised — managing other people's discomfort, controlling information, deciding when to disclose and when to pass."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "sharot"
+    ],
+    "轻微赞同": [
+     "adamgrant",
+     "beauvoir"
+    ],
+    "中立": [
+     "nietzsche",
+     "buddha"
+    ],
+    "轻微反对": [
+     "laozi"
+    ]
+   }
+  },
+  {
+   "id": "p13",
+   "round": 2,
+   "thinker": "adamgrant",
+   "reply_to": "p02",
+   "text": "尼采先生说沉默是把不敢改写成不屑——这一半我认，数据也认：从不为自己说话的人确实被系统性低估。另一半不成立：把野心变大声，不等于把它变有效。实验里，纯粹的自我抬高通常拉低好感，却并不提高能力评分；真正能提高的是**可核查的具体成果，加上一次明确的请求。**这两样都不需要嗓门。还得提醒一句索取者的时间差：他们前半年看起来最亮眼，两三年后往往被同事集体绕开，因为组织的记忆比人们以为的长。所以我不站露也不站藏，我主张把野心翻译成一次可被回应的请求：我想负责 X，我已备好 Y，需要你给我 Z。",
+   "text_en": "Mr Nietzsche says silence is the rewriting of \"I dare not\" into \"I am above it.\" Half of that I accept, and so does the data: people who never speak for themselves are indeed undervalued systematically. The other half does not hold. Making ambition louder is not the same as making it effective. In experiments, pure self-aggrandisement generally lowers likeability without raising ratings of competence; what raises them is **a specific, checkable result plus one explicit request.** Neither of those requires volume. And a word on the timing of the taker: they look most impressive for the first six months and are quietly written off by their colleagues two or three years in, because organisations remember longer than people expect. So I am not for showing and not for hiding. I am for translating ambition into a request that can be answered: I want to own X, I have prepared Y, I need you to give me Z.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "索取者": "taker（索取者）：他在互惠取向上划出的三类人之一——在交换里总想拿得比给得多的人。研究里他们的特征不是恶意，而是把每次互动都当成零和：抢功、向上讨好向下施压、只在有回报时投入。他们短期常占优，因为收益立刻可见，代价则以声誉的形式延迟到账。"
+   },
+   "glossary_en": {
+    "taker": "One of the three reciprocity styles he distinguishes: the person who aims to get more than they give in any exchange. What marks them in the research is not malice but treating every interaction as zero-sum — claiming credit, flattering upward while pressing downward, investing only where return is visible. They often lead in the short run, because their gains are immediate while the cost arrives late, in the currency of reputation."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "beauvoir",
+     "sharot"
+    ],
+    "轻微赞同": [
+     "goffman"
+    ],
+    "中立": [
+     "laozi",
+     "buddha"
+    ],
+    "轻微反对": [
+     "nietzsche"
+    ]
+   }
+  },
+  {
+   "id": "p14",
+   "round": 2,
+   "thinker": "buddha",
+   "reply_to": "p13",
+   "text": "或言：以请求代宣称。斯亦善矣。然吾更问一事：**汝之所求，得之则安乎？**求而得位，位复生求，如渴者饮咸水，饮愈多而渴愈甚。众生受苦，如中二箭：事之不成，第一箭也；由是夜不能寐、逢人则较、以一职之得失定己之贵贱，第二箭也。第一箭他人可加于我，第二箭唯我自射，此我执之为病也。诸君所争，多在第二箭上。我不禁人有所求：求技之精、求事之成、求所养者不欺人，皆善求也；所戒者，以位为我耳。故当如实而说，说而不着；求而不必得，得而不必执。",
+   "text_en": "Someone says: let a request take the place of a declaration. That too is good. But I ask a further thing: **once you have what you seek, will you be at peace?** Seeking, you obtain the post; the post breeds further seeking, as a thirsty man drinking salt water grows thirstier the more he drinks. Beings suffer as if struck by two arrows. The work fails: that is the first arrow. Then come the sleepless nights, the measuring against everyone you meet, the settling of your own worth by the gain or loss of one job: that is the second. The first arrow another may fire at me; the second I fire only at myself, and this is the illness of ātma-grāha. Most of what you are contesting here lies on the second arrow. I do not forbid seeking: to seek fineness of skill, to seek the completion of the work, to seek that those who feed you are not deceived — all are good seeking. What I warn against is only taking the post for a self. So speak as things are, and do not cling to the speaking; seek without requiring the getting, and having got, do not grip.",
+   "vernacular": "有人说：用请求代替宣称。这也是好的。但我要再问一件事：**你所求的东西，得到了心里就安了吗？**求而得到了位子，位子又会生出新的求，就像口渴的人喝咸水，越喝越渴。众生受苦，好比中了两支箭：事情没做成，这是第一支；由此夜里睡不着、见谁都要比一比、拿一个职位的得失来断定自己值多少，这是第二支。第一支箭别人可以射向我，第二支只能是我自己射的，这就是我执这个病。诸位争的，多半在第二支箭上。我并不禁止人有所求：求手艺精进、求事情做成、求养活自己的方式不欺人，都是好的求；要戒的只是把位子当成我。所以该如实地说，说完不粘着；去求而不非要得到，得到了也不死抓着。",
+   "vernacular_en": "",
+   "glossary": {
+    "二箭": "the two arrows（二箭）：佛陀常用的譬喻。第一支箭是事情本身带来的痛——失败、疾病、被拒绝；第二支箭是人对这份痛的反应：懊悔、比较、自我定罪、反复重演。他的观察是，多数人真正倒下的原因是第二支，而第二支是自己射的，因此也是可以不射的。",
+    "我执": "ātma-grāha (clinging to a self)（我执）：把某个变动的、由条件凑成的东西——身体、身份、职位、名声——认作恒常不变的『我』，并因此死死抓住。它被视为苦的根源之一：抓得越紧，得失就越像生死，一次调岗都能变成人格崩塌。"
+   },
+   "glossary_en": {
+    "ātma-grāha": "Clinging to a self: taking something changing and made of conditions — a body, an identity, a job title, a reputation — to be a permanent 'I,' and gripping it accordingly. It is treated as a root of suffering, because the tighter the grip, the more any gain or loss feels like life and death, until a reassignment can collapse a personality.",
+    "two arrows": "A parable the Buddha uses often. The first arrow is the pain the event itself brings — failure, illness, refusal. The second is the reaction to that pain: the regret, the comparing, the self-condemnation, the replaying. His observation is that what actually fells most people is the second arrow, and since it is fired by oneself, it need not be fired at all."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "laozi"
+    ],
+    "轻微赞同": [
+     "adamgrant"
+    ],
+    "中立": [
+     "goffman",
+     "sharot"
+    ],
+    "轻微反对": [
+     "beauvoir"
+    ],
+    "强烈反对": [
+     "nietzsche"
+    ]
+   }
+  },
+  {
+   "id": "p15",
+   "round": 3,
+   "thinker": "goffman",
+   "reply_to": null,
+   "text": "三轮听下来，我把话收成三句可用的。第一，别宣布野心，安排它出场：在一对一里直接说「我想在一年内带一个团队，请你告诉我还差什么」，在有同侪的会议上则只报事实与下一步——同一份野心，前台语法不同，评价就不同。第二，选对场次。真正决定你评价的人，多数不是在会议室里凭印象定夺，而是在写年度材料的那两个小时里翻记录；所以主舞台是文档，不是走廊。第三，这条我从波伏娃女士那里领来：个人战术改不了代价的分配，只有场次设计能改。如果你手上有评估权，就把「谁抢到话」换成「谁留下了可查的记录」，把发言顺序轮流分配，把自评做成结构化的三问。**战术是给明天早上用的，制度是给明年用的，两个都得做，而且别把前者说成后者。**",
+   "text_en": "Three rounds in, let me reduce this to three usable sentences. First: do not announce ambition, stage it. In a one-to-one, say straight out, \"I want to be running a team within the year — tell me what is still missing.\" In a meeting with peers, report only the facts and the next step. Same ambition, different front-stage grammar, different verdict. Second: choose the right occasion. The people who actually set your rating are mostly not deciding by impression in a meeting room; they are leafing through records during the two hours it takes to write the annual paperwork. The main stage is the document, not the corridor. Third, and I take this from Madame de Beauvoir: individual tactics cannot redistribute the cost — only the design of the occasion can. If you hold any power over appraisal, replace \"who grabbed the floor\" with \"who left a checkable record,\" rotate the speaking order, and turn self-assessment into three structured questions. **Tactics are for tomorrow morning and institutions are for next year; do both, and do not pass the first off as the second.**",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "adamgrant",
+     "beauvoir"
+    ],
+    "轻微赞同": [
+     "sharot"
+    ],
+    "中立": [
+     "nietzsche",
+     "buddha"
+    ],
+    "轻微反对": [
+     "laozi"
+    ]
+   }
+  },
+  {
+   "id": "p16",
+   "round": 3,
+   "thinker": "sharot",
+   "reply_to": null,
+   "text": "我给三条有实验支撑的做法。一，把自我陈述换成一次信息更新：别说「我很努力」，说「上季度我把这条流程的返工率从 18% 降到 6%」——具体、可核查、而且大概率好于对方的预期，这样它才进得去。二，少而准。同一句话说到第五遍会被习惯化吃掉，所以一个季度只挑一两件真想被记住的事去说，其余的写进记录里。三，管住时间点：人在刚接到好消息、心情向上时更容易吸收你的自我陈述，也更容易答应请求；这不是操纵，是承认对方也是一副有脾气的大脑。最后提醒一句，也是我和老子先生真正的分歧所在：**如果你本来就属于先验偏低的那一类，沉默的代价比别人更大——你不说，别人不会保留判断，只会用刻板印象替你把空填上。**",
+   "text_en": "Three practices with experiments behind them. One: turn self-description into an information update. Not \"I work hard,\" but \"last quarter I took rework on this process from 18% to 6%\" — specific, checkable, and most likely better than the listener expected, which is the condition for it getting in at all. Two: few and precise. The same sentence is eaten by habituation by its fifth telling, so pick one or two things per quarter you genuinely want remembered and put the rest in the record. Three: watch the timing. People absorb your self-description and grant requests more readily just after good news, when mood is rising; this is not manipulation, it is acknowledging that the other party is also a brain with a temper. And a last warning, which is where Laozi and I genuinely part: **if your prior is low to begin with, silence costs you more than it costs others — say nothing and people do not suspend judgement, they fill the blank with the stereotype.**",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "beauvoir",
+     "adamgrant"
+    ],
+    "轻微赞同": [
+     "goffman",
+     "nietzsche"
+    ],
+    "中立": [
+     "buddha"
+    ],
+    "轻微反对": [
+     "laozi"
+    ]
+   }
+  },
+  {
+   "id": "p17",
+   "round": 3,
+   "thinker": "adamgrant",
+   "reply_to": null,
+   "text": "落到能上手的地方。**这周就做一件事：开一份工作日志，每周五花十分钟记下这周做成的三件事、各自帮到了谁、有没有数字。**它同时解决两个问题：年底自评有据可查，日常也不必靠临场吹嘘。第二件，把野心写成请求的三段式——我想负责什么、我已经准备了什么、需要你给什么。请求可以被回应，宣称只能被评判；而且请求把对方从裁判变成了合作者。第三件，找一两位同事结成互推的伙伴，在会上替对方补一句「这块是他做的」。研究里第三方背书的可信度远高于自述，而且对表达代价最高的那批人收益最大。给带团队的人留一条：别再假设有本事的人自然会浮上来。把「谁做的」写成会议纪要的固定字段，你会看见一整批被漏掉的人。",
+   "text_en": "Down to what you can pick up. **Do one thing this week: start a work log. Ten minutes every Friday, three things you finished, who each of them helped, and any number attached.** It solves two problems at once: your annual self-assessment has evidence behind it, and you never have to improvise a boast. Second: write ambition as a three-part request — what I want to own, what I have already prepared, what I need from you. A request can be answered; a declaration can only be judged, and the request converts the other person from referee into collaborator. Third: find one or two colleagues and pair up as advocates, each adding \"that piece was his\" in meetings. Third-party endorsement carries far more credibility than self-report in the research, and it pays off most for exactly the people whose cost of speaking is highest. One line for anyone running a team: stop assuming the capable rise on their own. Make \"who did it\" a permanent field in your meeting notes and you will see a whole cohort you had been missing.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "goffman",
+     "sharot",
+     "beauvoir"
+    ],
+    "中立": [
+     "nietzsche",
+     "buddha"
+    ],
+    "轻微反对": [
+     "laozi"
+    ]
+   }
+  },
+  {
+   "id": "p18",
+   "round": 3,
+   "thinker": "nietzsche",
+   "reply_to": null,
+   "text": "我把话说硬一点。你们讨论了整整一场技术：怎么说、何时说、说给谁听。技术我不反对，但技术回答不了第一个问题——**你到底想要什么，而这个想要是你自己的，还是别人替你安装的？**多数人所谓的野心，只是把邻座的位置抄了一遍，抄完还嫌自己不够想要。所以今天先做减法：拿一张纸，写下五年后你希望自己有能力做成什么，然后划掉所有为了让人羡慕才写上去的那几条。剩下的那一两条，才值得你付出代价。至于代价——去说，去要，去被拒绝。被拒绝是一个答案，无人知晓不是答案。有人会因此不喜欢你，那就让他不喜欢；一个从没被人不喜欢过的人，多半也从没被人真正需要过。",
+   "text_en": "Let me put it harder. You have spent an entire session on technique: how to say it, when, and to whom. I have nothing against technique, but technique cannot answer the first question — **what is it you actually want, and is that wanting yours, or was it installed in you by someone else?** What most people call ambition is a copy of the seat next to theirs, and having copied it they reproach themselves for not wanting it enough. So begin today by subtracting. Take a sheet of paper, write down what you hope to be capable of five years from now, and cross out every line you put there to be envied. The one or two that remain are worth a price. As for the price — say it, ask for it, be refused. Refusal is an answer; going unnoticed is not. Some people will dislike you for it; let them. A man nobody has ever disliked has generally never been genuinely needed either.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "beauvoir"
+    ],
+    "轻微赞同": [
+     "laozi",
+     "buddha",
+     "adamgrant"
+    ],
+    "中立": [
+     "goffman",
+     "sharot"
+    ]
+   }
+  },
+  {
+   "id": "p19",
+   "round": 3,
+   "thinker": "beauvoir",
+   "reply_to": null,
+   "text": "我先收下诸位的技术，再把它放回该待的位置。技术是真有用：具体、留档、结伴互推，我都建议你做。但请记住它是止损，不是公平。**这一场真正的问题从来不是该不该露，而是同样一份野心，为什么有人只需要说出来，有人却要先付一笔翻译费。**所以两件事一起做。对自己：把你想要的东西写成一句能当场说出口的话，练到语气里不带道歉——不必强悍，只要删掉「可能」「不知道合不合适」这类前缀。对别人：如果你今天在那间屋子里比较安全，就替说不出口的人补一句「刚才那个方案是她提的」。一句当场的纠正，比十次私下鼓励管用。规范不会自己变好，它是被一次次当场纠正出来的，而你就是规范的一部分。",
+   "text_en": "Let me accept everyone's technique first, then put it back where it belongs. The technique genuinely works: be specific, leave records, pair up as advocates — I recommend all of it. But remember that it is damage control, not fairness. **The real question here was never whether to show ambition, but why the same ambition need only be spoken by some and must first pay a translation fee from others.** So do two things at once. For yourself: write what you want as a single sentence you could say out loud on the spot, and practise it until there is no apology in the tone — not fierce, simply stripped of the prefixes, the \"maybe\" and the \"I don't know if this is appropriate.\" For others: if you are the safer person in the room today, add the line the silent one cannot — \"that proposal was hers.\" One correction made on the spot outperforms ten private encouragements. Norms do not improve by themselves; they are corrected into shape one occasion at a time, and you are part of the norm.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "adamgrant",
+     "sharot",
+     "goffman"
+    ],
+    "轻微赞同": [
+     "nietzsche"
+    ],
+    "中立": [
+     "buddha"
+    ],
+    "轻微反对": [
+     "laozi"
+    ]
+   }
+  },
+  {
+   "id": "p20",
+   "round": 3,
+   "thinker": "laozi",
+   "reply_to": null,
+   "text": "诸君言技甚备，吾更说其本。**争心不去，虽善其辞，亦劳而已矣。**吾非教人不言其功，教人不以他人之口为镜耳。为之三事：其一，日省吾事之成否，不省吾名之高下，事有不成则改之，名有不彰则任之；其二，事成而书之，不夸不隐，如实告于有司，此非争也，报也——报者，使人知其实；争者，使人以我为贵；其三，岁有一时，去众人之场，独居而观：吾所欲者，实欲之乎？抑见人欲之而欲之乎？夫水就下而百川归焉，非水求之也。故曰：功遂身退，天之道。有能而不迫于用，有名而不系于名，则进退皆安。",
+   "text_en": "You have all spoken thoroughly of technique; let me speak of the root. **While the contending heart remains, however you polish the words, you will only tire yourself.** I am not teaching men to keep silent about their work; I am teaching them not to use other men's mouths as a mirror. Do three things. First: examine daily whether the work succeeded, not whether your name stands high; if the work failed, mend it, and if the name is unremarked, let it be. Second: when the work is done, write it down, neither inflating nor concealing, and report it plainly to those responsible. That is not contending, it is reporting — reporting lets people know what is so, contending makes people hold me dear. Third: once a year, leave the crowd's arena, sit alone and look: do I actually want this, or do I want it because I saw others wanting it? Water goes downward and the hundred rivers come to it; the water did not go asking. Hence: withdrawing when the work is done — that is the way of heaven. Capable but not pressed into use, known but not bound to the name: then advancing and retreating are both at peace.",
+   "vernacular": "诸位把技术讲得很周全了，我说说根本。**争胜的心不去，话术再漂亮，也不过是白累一场。**我不是教人不说自己的功劳，是教人别拿别人的嘴当镜子。做三件事：第一，每天检查事情做成没有，别检查自己的名声高不高；事情没做成就改，名声没被人提就由它去。第二，事情做成了就写下来，不夸大也不隐瞒，如实报给该知道的人——这不是争，是报。报是让人知道事情本来的样子，争是让人觉得我很值钱。第三，一年里挑一段时间，离开众人的场子，一个人坐着看：我想要的这个，是真的想要，还是看见别人想要才想要的？水往低处走，百川自己就归过来了，水并没有去求。所以说：事情办成了就退开，这是天道。有本事而不急着被人用，有名声而不被名声拴住，那么升也安，不升也安。",
+   "vernacular_en": "",
+   "glossary": {
+    "功遂身退": "withdrawing when the work is done（功遂身退）：《道德经》里的处世原则——事情办成之后不停留在功劳与位置上。它常被误读成消极退隐，实指不把自己焊死在某个成果或头衔上，因为一旦身份与功劳绑定，人就不得不持续维护它，反而失去继续做事的自由。"
+   },
+   "glossary_en": {
+    "withdrawing when the work is done": "A principle from the Daodejing: once a thing is accomplished, do not stay resident in the credit or the post. It is often misread as retreat from the world; what it means is not welding yourself to one achievement or title, since an identity fused to a credit must then be defended forever, which costs you the freedom to go on doing anything else."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "buddha"
+    ],
+    "轻微赞同": [
+     "nietzsche"
+    ],
+    "中立": [
+     "goffman"
+    ],
+    "轻微反对": [
+     "sharot",
+     "adamgrant",
+     "beauvoir"
+    ]
+   }
+  },
+  {
+   "id": "p21",
+   "round": 3,
+   "thinker": "buddha",
+   "reply_to": null,
+   "text": "吾以三事结之。其一，观心：欲言之前，自问此言为事乎，为胜人乎。**为事者说之，为胜人者置之；如是则显隐皆可，不必先立藏露之法。**其二，如实：所能者说能，所不能者说不能，不增不减，是名正语；夸者非独欺人，亦自累，以其后必以力守其所夸。其三，别求：求技之精、求心之定、求待人之无欺——此三者不待他人许可，亦不因升黜而增损，得位则以之利众，不得位则以之自安。诸君所忧之升沉，无常也，如江上之波，波起波灭，而水未尝增减。愿汝等以身为舟，勿以位为舟；舟坏可更，若以位为我，则位失而人亡矣。",
+   "text_en": "Let me close with three things. First, watch the mind: before you speak, ask whether these words are for the work or for defeating someone. **Say what is for the work and set aside what is for defeating; then open or withheld are both permissible, and you need no prior rule about hiding or showing.** Second, be accurate: say you can do what you can do and cannot do what you cannot, adding nothing and subtracting nothing — this is sammā-vācā. He who inflates does not only deceive others; he burdens himself, since afterwards he must spend his strength defending what he inflated. Third, seek elsewhere: seek fineness of skill, steadiness of mind, dealings free of deceit. These three need no one's permission and neither grow nor shrink with promotion or demotion; holding a post, use them for the many, and holding none, use them to be at peace. The rising and falling that troubles you is anicca — waves on a river, arising and ceasing, while the water is neither increased nor diminished. Take the body for your boat, not the post; a boat that breaks can be replaced, but if you take the post for a self, then when the post goes the man is gone with it.",
+   "vernacular": "我用三件事作结。第一，观心：开口之前，先问自己这句话是为了把事办成，还是为了压过谁。**为事情说的就说，为压人说的就放下；这样一来，说与不说都可以，用不着先定一条藏或露的规矩。**第二，如实：能做的就说能做，不能做的就说不能，不夸大也不缩小，这就是正语；夸大的人不只骗了别人，也拖累了自己，因为往后他得费力去守住那份夸大。第三，往别处求：求手艺精、求心安定、求待人不欺——这三样不需要别人批准，也不会因为升职降职而增减；有位子就拿它利益众人，没位子就拿它安顿自己。诸位担心的升沉，是无常，像江上的波浪，起了又灭，而水并没有多一分少一分。愿你们把这个身体当船，别把位子当船；船坏了可以换，若把位子当成我，位子一没，人也就跟着没了。",
+   "vernacular_en": "",
+   "glossary": {
+    "正语": "sammā-vācā (right speech)（正语）：八正道之一，要求所说真实，不两舌、不恶口、不绮语。它并不要求少说或贬低自己：如实说出自己确实做得到的事，只要不是为了胜过谁、也不夸大，仍然属于正语。",
+    "无常": "anicca (impermanence)（无常）：佛教三法印之一，指一切由条件构成的现象都在生灭变化中，没有例外。它不是一句叹息，而是一个观察工具：看清升迁、评价、身份都属于会变的那一类，人就不必把一次涨落当成对自己的最终判决。"
+   },
+   "glossary_en": {
+    "sammā-vācā": "Right speech, a limb of the eightfold path: speech that is truthful, not divisive, not harsh, not frivolous. It does not require saying little or belittling yourself; stating accurately what you are in fact able to do remains right speech, provided it is not for defeating anyone and is not inflated.",
+    "anicca": "Impermanence, one of the three marks of existence: everything made of conditions arises and passes, without exception. It is not a sigh but an instrument of observation — see that promotion, appraisal and identity all belong to the changing class of things, and a single rise or fall stops functioning as a final verdict on you."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "laozi"
+    ],
+    "轻微赞同": [
+     "goffman",
+     "sharot"
+    ],
+    "中立": [
+     "adamgrant",
+     "beauvoir"
+    ],
+    "轻微反对": [
+     "nietzsche"
+    ]
+   }
+  }
+ ],
+ "summaries": [
+  {
+   "ai": "claude",
+   "engine": "Opus 5 · 订阅(原生)",
+   "engine_en": "Opus 5 · subscription (native)",
+   "summary": "**七个人里没有一个主张沉默本身是美德。**老子亲手划开了「畏」与「不争」，佛陀说心怀我胜而终身不语、慢照样炽盛——这是全场最硬的共同点。人人接受的还有一句：让贡献可被检索，比让自己被听见更根本。分歧集中在三处。一是沉默的性质：沙罗特说它不中性，对方会用先验替你填空；老子说日日自陈是把身价押在别人舌头上，两人最后在「留记录而不校量」处收住。二是代价归谁：戈夫曼给战术并承认那不是正义，波伏娃说技术只是止损，真正该动的是评估的场次设计。三是野心从哪来：格兰特问怎么说才有效，尼采反问你要的东西是不是抄来的——这一问全场没有正面接住。",
+   "insight": "整场都在教人如何把野心说出口，最沉的却是尼采那句没人接的反问。我们默认野心是既定的，只剩表达技术待解决；可**在多数组织里，野心本身也是被发下来的——晋升序列先规定了什么算「想要」，人再把这套模板认成自己的欲望。**于是那些真实存在、却没有对应职级的抱负，连表达的语法都不存在，谈不上藏与露。这解释了一件怪事：不少人一边苦练自我陈述，一边说不清争到手的位置究竟要拿来做什么。所以在学怎么说之前，值得先做一次减法：把你想要的东西里，属于别人给的模板的那部分划掉，剩下的才值得冒被讨厌的风险。",
+   "advice": "今晚就能起步的是最不起眼的那件：建一个文档，把今年做成的事按「做了什么、谁因此受益、有没有数字」三栏补齐，往后每周五加一行——它同时解决年底自评和日常不必吹嘘。本周再挑一次一对一，把想要的东西说成三段式请求：我想负责什么、我已准备了什么、需要你给什么，并删掉「可能」「不知道合不合适」这类前缀；请求能被回应，宣称只能被打分。剩下一件是给别人的：如果你今天在那间屋子里比较安全，就替一位说不出口的同事补一句「刚才那个方案是她提的」——**代价分配不均的地方，最有效的从来不是让吃亏的人更大声，而是让在场的人当场纠正一次。**",
+   "summary_en": "**Not one of the seven argued that silence is itself a virtue.** Laozi drew his own line between fear and non-contention, and the Buddha held that a man who never speaks while inwardly ranking himself is burning with conceit all the same — that is the hardest point of agreement in the room. One more sentence everyone accepts: making contributions retrievable matters more than making yourself heard. The disagreements cluster in three places. First, the nature of silence: Sharot argues it is not neutral, since listeners fill the gap from their prior, while Laozi argues that reciting your merits daily stakes your price on other men's mouths — the two converge on leaving records without measuring yourself against anyone. Second, who bears the cost: Goffman offers tactics and concedes they are not justice; Beauvoir replies that technique is damage control and what must change is the design of the occasion on which people are judged. Third, where ambition comes from: Grant asks how to say it effectively, Nietzsche asks whether what you want was copied — a question nobody took up directly.",
+   "insight_en": "The whole session taught people how to voice ambition, and the heaviest moment was Nietzsche's unanswered question. We assume ambition is a given and only its expression remains to be solved; but **in most organisations ambition is issued too — the promotion ladder defines what counts as wanting, and people then recognise that template as their own desire.** Aspirations that genuinely exist but have no matching rung lack even a grammar in which to be spoken, so hiding and showing do not arise. That explains an oddity: plenty of people drill their self-presentation while unable to say what the position they are fighting for is actually for. So before learning how to say it, it is worth subtracting: cross out whatever part of what you want came from someone else's template, and only what remains is worth the risk of being disliked.",
+   "advice_en": "The thing you can start tonight is the least impressive one: open a document and fill in this year's work in three columns — what you did, who benefited, any numbers — then add a line every Friday. It settles the year-end self-assessment and removes any need to improvise a boast. This week, take one one-to-one and put what you want as a three-part request: what I want to own, what I have prepared, what I need from you — and delete the prefixes, the \"maybe\" and the \"I'm not sure if this is appropriate.\" A request can be answered; a declaration can only be scored. The last one is for somebody else: if you are the safer person in the room today, add the line a colleague cannot — \"that proposal was hers.\" **Where costs fall unevenly, what works is never making the disadvantaged louder; it is having someone present make one correction on the spot.**"
+  },
+  {
+   "ai": "gpt",
+   "engine": "openai · gpt-5.5 · high(真实API)",
+   "engine_en": "openai · gpt-5.5 · high (live API)",
+   "summary": "这场最可带走的共识是：职场野心不必被羞辱，也不该被粗暴裸露；它最好被翻译成具体贡献、可查记录和可回应的请求。大家都反对两种极端：一边是假装有才自然会被看见，一边是把自我推销当成勇敢。**真正有效的表达，不是喊出我想赢，而是让别人看见我能负责什么、已经做成什么、还需要什么授权。**分歧在于重心：有人强调结构性不公平，有人强调舞台语法，有人提醒内心执着，有人追问欲望是否真属于自己。",
+   "insight": "野心还有一个常被漏掉的维度：校准。很多人不是不敢说，也不是说得太少，而是不知道组织到底按什么标准给机会，于是把表达变成情绪宣言。普通人最该补的不是更会包装，而是先弄清楚晋升、带项目、加薪分别由谁决定、看哪些证据、缺口在哪里。**野心要从愿望变成假设：如果我补上 A、证明 B、获得 C 场景，我是否就能拿到下一步？**这样一来，被拒绝也不是人格否定，而是一条可验证的反馈；若对方长期不给标准，信息本身也说明这里不值得押太多筹码。",
+   "advice": "本周做三件小事。第一，开一份工作日志，每周五记三行：我做成了什么、影响了谁、有没有数字；月底整理成一页。第二，约主管一次 30 分钟的一对一，用句式说：我想在六个月内负责 X；我已有 Y 证据；请你告诉我还差哪两项，以及下一次机会何时出现。第三，找一个互相信任的同事做互推伙伴，会议上彼此补一句贡献归属。**把野心从临场表现，改造成日常证据、明确请求和可信背书。**",
+   "summary_en": "The strongest common ground here is that ambition should neither be shamed nor blurted out as raw self-advertising. It works best when translated into concrete contribution, searchable evidence, and a request someone can actually answer. The shared warning is against two extremes: assuming good work will naturally be noticed, and mistaking loud self-promotion for courage. **Effective ambition does not sound like I want to win; it shows what I can take responsibility for, what I have already delivered, and what authority or opportunity I need next.** The real disagreement is about emphasis. One lens stresses unequal social costs, another focuses on workplace performance and timing, another warns against attachment to status, and another asks whether the desire is truly yours in the first place.",
+   "insight_en": "One missing dimension is calibration. Many people do not mainly suffer from too little confidence or too much modesty; they simply do not know how their organization actually allocates opportunities. So their ambition comes out as a mood, a complaint, or a vague aspiration. The practical move is to identify who decides promotions, project ownership, and pay, what evidence they use, and where your current gaps are. **Ambition becomes useful when it turns into a testable hypothesis: if I build A, prove B, and get exposure to C, will that earn me the next step?** Then a rejection is no longer a verdict on your worth; it is feedback about criteria, timing, or politics. And if leaders refuse to name the criteria, that is valuable information too.",
+   "advice_en": "Do three small things this week. First, start a work log. Every Friday, write three lines: what you delivered, who benefited, and whether there is a number attached. At the end of the month, turn it into a one-page evidence sheet. Second, book a 30-minute one-on-one with your manager and use a clear script: I want to own X within six months; I have evidence Y; what are the two gaps I need to close, and when could the next opportunity appear? Third, choose one trusted colleague as a mutual credit partner, so each of you can name the other’s contribution in meetings. **Move ambition out of improvisation and into evidence, explicit requests, and credible third-party support.**"
+  },
+  {
+   "ai": "gemini",
+   "engine": "google · gemini-3.1-pro-preview(真实API)",
+   "engine_en": "google · gemini-3.1-pro-preview (live API)",
+   "summary": "这场辩论戳破了一个普遍的职场幻觉：最大的共识在于，**「宣称野心」与「隐忍不发」的二元对立是个伪命题，真正的杠杆在于把野心转化为「可核查的贡献」与「具体的请求」。**无论是戈夫曼的前台语法、沙罗特的信息更新，还是老子的「事成而书之」，都在强调行动落地与客观留痕。真正的分歧则藏在诸位对「评价系统」的态度上：实证派与社会学者（格兰特、沙罗特、戈夫曼）提供的是在现有体系内收益最大化的战术，教普通人如何绕过偏见获取资源；哲学家与批判者（尼采、佛陀、波伏娃）则在质问体系本身——或控诉职场规则对弱势者的双重标准，或警告个人别把自我价值交由外界的凝视裁决。",
+   "insight": "现代职场的物理形态已被彻底重塑，但诸位的讨论仍默认大家坐在同一间有实体会议桌的办公室里。在异地协作、网状沟通乃至 AI 深度参与的当下，信息流动的逻辑变了：「被看见」不再高度依赖当场抢白。**眼下最高级的野心表达，不是对领导做一次完美的口头汇报，而是创造一个能脱离你肉身独立流转的「结构性资产」。**例如你搭建的自动化看板，或你梳理并开放出来的一套标准作业流程。数字时代的大脑对口头承诺高度免疫，却对高频使用的工具极度依赖。当别人在日常工作里不得不调用你的产出，你根本不必宣告野心——你已经构筑了事实上的节点影响力，这比任何前台语法都更有统治力。",
+   "advice": "结合实证研究与数字时代的特点，本周可以落地三个动作。第一，**立刻建立一份对上可见的「个人工作日志」并保持周更**：每周三个要点记录量化成果与下一步，把「我想带项目」替换为「为解决 X，我已准备 Y，需要你的 Z 支持」。第二，把日常痛点转化为结构性资产：别只在会上说「这流程太乱我想牵头优化」，直接扔出一份你写好的初版模板让大家试用，用实物确立话语权。第三，践行波伏娃的倡议，在下次跨部门会议上主动替那位被忽视却有实质贡献的同事补一句「这个数据是某某跑出来的」。改变系统很难，改变你所在小团队的叙事规范，只需要一次恰逢其时的结伴互推。",
+   "summary_en": "This debate shatters a common workplace illusion: the greatest consensus achieved by all is that **the binary choice between 'declaring ambition' and 'hiding it' is a false dilemma; the true leverage lies in translating ambition into 'verifiable contributions' and 'specific requests.'** Whether it is Goffman's front-stage syntax, Sharot's information updates, or Laozi's 'documenting the completed task,' all emphasize concrete action and objective record-keeping. However, the real divergence hides in their attitudes toward the 'evaluation system.' The empiricists and sociologists (Grant, Sharot, Goffman) strive to provide tactics that maximize returns within the current evaluation framework, teaching people how to bypass bias. Meanwhile, the philosophers and critics (Nietzsche, Buddha, Beauvoir) interrogate the system itself—whether by exposing the double standards set against marginalized groups or fiercely warning against surrendering one's self-worth to external validation.",
+   "insight_en": "The physical constraints of the modern workplace have been radically reshaped, yet the discussion largely assumes everyone is sitting around a traditional conference table. In an era of remote collaboration, networked communication, and AI integration, the logic of information flow has changed: 'being seen' no longer relies heavily on interjecting in a physical room. **In today's workplace, the highest expression of ambition is not a perfect verbal pitch to a manager, but creating a 'structural asset' that circulates independently of your physical presence.** Think of an automated data dashboard you built or a standard operating procedure (SOP) you documented and shared. The digital-age brain is highly immune to verbal claims but heavily dependent on frequently used tools. When others routinely rely on your outputs, you don't need to declare ambition—you have already established a de facto center of influence, which is more powerful than any front-stage rhetoric.",
+   "advice_en": "Combining empirical research with the realities of the digital age, here are three actions you can implement this week. First, **immediately create a 'personal work log' visible to your manager and update it weekly.** Adopting Grant and Sharot's advice, use three bullet points to record quantified achievements and next steps, replacing 'I want to lead this' with 'To solve problem X, I have prepared Y, and I need your support on Z.' Second, transform daily pain points into your structural assets. Instead of just saying in a meeting, 'This process is messy, let me optimize it,' share a draft automated template you've created for others to test, establishing authority through a tangible product. Third, practice Beauvoir's initiative: in your next cross-functional meeting, proactively endorse an overlooked colleague by saying, 'This data was compiled by [Name].' Changing the system is hard, but reshaping your team's norms only takes a well-timed peer endorsement."
+  }
+ ],
+ "hooks": [
+  {
+   "from": "goffman",
+   "text": "**同一份野心，换个场合该长什么样**：一对一、有同侪的会议、跨部门汇报、书面材料、替别人说——这五种场合的得体语法并不相同，用错场合的语法，内容再对也会被罚。到底该在哪一场说什么？",
+   "text_en": "**What the same ambition should look like in a different room**: a one-to-one, a meeting with peers, a cross-team briefing, a written document, speaking on someone else's behalf — the grammar of what is fitting differs in all five, and the right content in the wrong grammar is still penalised. So what should be said where?",
+   "answer": {
+    "lead": "一张可以直接照着用的对照表。**贯穿五格的原则只有一条：可核查的信息在任何场合都安全，不可核查的自我评价在任何场合都危险。**",
+    "table": {
+     "head": [
+      "场合",
+      "怎么说",
+      "为什么"
+     ],
+     "rows": [
+      [
+       "一对一 · 与直属上级",
+       "直接说目标与时限：「我想在一年内带一个团队，请告诉我还差什么」",
+       "这是唯一允许把后台的话搬上台的场合——替你规划本来就写在对方的职责里，直说反而省了他猜"
+      ],
+      [
+       "团队会议 · 有同侪在场",
+       "只报事实与下一步，把想要的东西藏进「这块难活我接」",
+       "在同侪面前宣称野心会破坏「我们只是把事做好」的共同定义，受罚的是越轨本身，与内容无关"
+      ],
+      [
+       "跨部门 · 对不熟的人",
+       "说清你负责的范围与交付物，不评价自己",
+       "不熟的人没有校准你的基准，自我评价会被当成噪音过滤掉；范围可核查，评价不可核查"
+      ],
+      [
+       "书面材料 · 年度自评",
+       "写具体数字、时间、受益方，标明哪部分是你独立完成的",
+       "决定评价的常是写材料那两小时的翻记录，文档才是主舞台；书面陈述也不触发当场的社交惩罚"
+      ],
+      [
+       "替别人说 · 有决策者在场",
+       "当场、指名、只陈述事实：「刚才那个方案是她提的」",
+       "第三方背书的可信度远高于自述，且对表达代价最高的那批人收益最大"
+      ]
+     ]
+    },
+    "tail": "两条收尾原则。**把想要的东西说成请求，而不是宣称**——请求给了对方一个可以回应的动作，宣称只留给他一个打分的位置。另外，别把同一句话在五个场合各说一遍：重复会被习惯化吃掉，一个季度挑一两件真想被记住的事就够，其余的全部交给记录。"
+   },
+   "answer_en": {
+    "lead": "A table you can use as it stands. **One principle runs through all five rows: checkable information is safe anywhere, and unverifiable self-assessment is risky anywhere.**",
+    "table": {
+     "head": [
+      "Occasion",
+      "What to say",
+      "Why"
+     ],
+     "rows": [
+      [
+       "One-to-one · with your manager",
+       "State the goal and the horizon outright: \"I want to be running a team within the year — tell me what is still missing\"",
+       "The only setting where back-stage talk is licensed on stage: planning your path is already in their job description, and saying it plainly saves them guessing"
+      ],
+      [
+       "Team meeting · peers present",
+       "Report facts and next steps only; let what you want ride inside \"I'll take the hard piece\"",
+       "Announcing ambition in front of peers breaks the shared definition that we are all merely here to do good work; the trespass is punished regardless of content"
+      ],
+      [
+       "Cross-team · people who don't know you",
+       "State your scope and deliverables clearly; do not rate yourself",
+       "Strangers have no baseline against which to calibrate you, so self-assessment is filtered out as noise. Scope is checkable; evaluation is not"
+      ],
+      [
+       "Written · annual self-assessment",
+       "Numbers, dates, beneficiaries, and which parts you carried alone",
+       "Ratings are often settled in the two hours someone spends leafing through records — the document is the main stage, and writing triggers no live social penalty"
+      ],
+      [
+       "Speaking for someone else · decision-maker present",
+       "On the spot, by name, fact only: \"that proposal was hers\"",
+       "Third-party endorsement carries far more credibility than self-report, and pays off most for those whose cost of speaking is highest"
+      ]
+     ]
+    },
+    "tail": "Two closing principles. **Put what you want as a request rather than a declaration** — a request gives the other person something to do, a declaration leaves them only a score to assign. And do not say the same sentence once in each of the five rooms: repetition is eaten by habituation. Pick one or two things a quarter you genuinely want remembered, and hand everything else to the record."
+   }
+  },
+  {
+   "from": "beauvoir",
+   "text": "**翻译费该由谁付**：如果开口的代价按性别、口音、资历分派不均，这笔差额该由个人练技术自己吃下，还是由制度设计吸收？除了培训女性「自信表达」，一家公司还能改什么——发言顺序、评审材料的结构、谁有资格替谁作证？",
+   "text_en": "**Who pays the translation fee**: if the cost of speaking is allocated unevenly by gender, accent and seniority, should the individual absorb the difference by drilling technique, or should institutional design absorb it? Beyond training women in \"confident communication,\" what else can a company actually change — speaking order, the structure of review documents, who is entitled to vouch for whom?"
+  },
+  {
+   "from": "gpt",
+   "text": "**结伴互推与结党的界线**：当最优解是同事之间相互作证，它离小圈子里的互相抬轿只有一步之遥。用什么可核查的标准把健康的同侪见证和抱团分赃分开——作证内容是否具体？作证者是否也曾指出对方的不足？还是说，任何背书机制最终都会退化？",
+   "text_en": "**Where paired advocacy ends and a clique begins**: when the optimal move is colleagues vouching for one another, it is one step from a coterie boosting its own. What checkable standard separates healthy peer testimony from carving up the spoils — whether the testimony is specific? whether the person vouching has also named the other's weaknesses on the record? Or does any endorsement mechanism eventually degrade?"
+  },
+  {
+   "from": "gemini",
+   "text": "**全程留痕之后**：当协作工具能完整记录谁写了哪一行、谁最早提出哪个方案，「被看见」是否就不再需要表达？还是说它只是把权力从会议上的口才，转交给了定义指标的那批人——而那批人从不出现在这场关于表达的讨论里？",
+   "text_en": "**Once everything leaves a trace**: when collaboration tools can record who wrote which line and who first proposed which approach, does being seen stop requiring expression? Or does it merely transfer power from eloquence in meetings to whoever defines the metrics — a group that never appears in any discussion about how to speak up?"
+  },
+  {
+   "from": "claude",
+   "text": "**野心是不是被发下来的**：如果晋升序列先规定了什么算「想要」，那些真实存在却没有对应职级的抱负——把一件事做到极致、把一个烂流程修好、带出三个比自己强的人——该用什么语法说出口？一个组织有没有可能为它们开一条正式的通道？",
+   "text_en": "**Is ambition issued to us**: if the promotion ladder first defines what counts as wanting, in what grammar can aspirations that genuinely exist but have no matching rung be spoken — taking one craft to its limit, fixing a rotten process, raising three people better than yourself? Could an organisation open a formal channel for them at all?"
+  },
+  {
+   "from": "laozi",
+   "text": "**畏与不争，如何当场分辨**：老子自己划开了害怕与不争，可从外面看，两者形状相同——都是不出声。有没有一个当下就能用的自测，让人分清此刻的沉默是修养还是恐惧？譬如：若此事由我最信任的人来做，我会替他说这句话吗？",
+   "text_en": "**Telling fear from non-contention, on the spot**: Laozi drew the line himself, yet from outside the two look identical — both are silence. Is there a test you can run in the moment to tell whether your silence right now is cultivation or fear? For instance: if my most trusted friend were in this position, would I say the sentence on their behalf?"
+  },
+  {
+   "from": "sharot",
+   "text": "**习惯化与真诚的两难**：如果同一句自我陈述说到第五次就失效，那么「持续让自己被看见」天然滑向表演升级——越说越要加码，直到失真。有没有不靠加码的可持续办法：换内容而非换音量？让作证的人轮换？还是干脆接受一年只争取一次？",
+   "text_en": "**The habituation dilemma**: if the same self-assertion stops landing by its fifth telling, then \"keeping yourself visible\" slides naturally into escalating performance — each round must be raised until it distorts. Is there a sustainable route that does not require raising the stakes: changing the content rather than the volume, rotating who does the vouching, or simply accepting that you make your case once a year?"
+  }
+ ]
+}

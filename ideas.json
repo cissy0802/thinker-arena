@@ -209,15 +209,6 @@
       "cat": "ethics"
     },
     {
-      "id": "express-ambition",
-      "votes": 0,
-      "q": "职场该不该表达野心？",
-      "q_en": "Is the workplace counsel to 'stay humble, don't flaunt ambition' universal wisdom, or a yoke that penalizes the honest and disciplines women and the disadvantaged in particular?",
-      "note": "教人「低调谦逊、别张扬野心」是普世的处世智慧，还是让老实人吃亏、并专门规训女性与弱势者的枷锁？　还是『藏 vs 露』的老张力，但轴不在『哪个更聪明』，而在『这条规范到底服务了谁』：同样的野心，男性表达叫领导力，女性表达常被判 aggressive（有实证的双重标准）；谦逊文化是处世智慧，还是让敢开口者系统性占了老实人便宜？亚当·格兰特（给予者/索取者）、里德·霍夫曼（做自己的经纪人）、道金斯（藏与露本是一对 ESS 博弈策略）、老子/庄子（不争）对上尼采（权力意志），桑塔格/波伏娃（性别双标）。区别于 being-envied（那道谈已成功后如何应对他人嫉妒）。",
-      "note_en": "Still the old 'hide vs show' tension, but the axis is not 'which is smarter' — it's 'whom does this norm actually serve.' The same ambition reads as leadership from a man and as 'aggressive' from a woman (an empirically documented double standard); is a culture of humility worldly wisdom, or does it let the outspoken systematically exploit the modest? Adam Grant (givers/takers), Reid Hoffman (be your own agent), Dawkins (hide vs show as a pair of ESS strategies), Laozi/Zhuangzi (non-contention) against Nietzsche (will to power), Sontag/Beauvoir (the gender double standard). Distinct from being-envied, which is about handling others' envy once you've already succeeded.",
-      "cat": "work"
-    },
-    {
       "id": "youth-career-or-explore",
       "votes": 0,
       "q": "趁年轻，该拼命搏一份事业，还是先去世界各地走走看看？",
@@ -348,9 +339,18 @@
       "votes": 0,
       "q": "不用钱来分，就更公平吗？",
       "q_en": "Is an allocation made without money any fairer?",
-      "note": "排队、抽签、按需要、按资历、按人脉、按行政审批——把稀缺的好东西移出市场之后，这些方式各自会滋生什么样的腐蚀？排队奖励有闲的人，认定需要的权力立刻成为新的稀缺资源，靠关系分配则把价码压进不透明也无法拒绝的人情。器官名单、学区、公立医院的加号、稀缺岗位的推荐，谁在这些规则下赢，谁被悄悄挡在门外？",
-      "note_en": "Queues, lotteries, need, seniority, connections, administrative approval — once a scarce good is taken off the market, what corruption does each of these breed? Queues reward those with time to spare; the power to certify need instantly becomes the new scarce resource; allocation through connections buries the price in favours that are neither transparent nor refusable. Organ lists, school catchments, the extra slot at a public hospital, the referral into a scarce job: who wins under these rules, and who is quietly kept out?",
+      "note": "排队、抽签、按需要、按资历、按人脉、按行政审批——把稀缺的好东西移出市场之后，这些方式各自会滋生什么样的腐蚀？排队奖励有闲的人，认定需要的权力立刻成为新的稀缺资源，靠关系分配则把价码压进不透明也无法拒绝的人情。器官名单、学区、公立医院的加号、稀缺岗位的推荐，谁在这些规则下赢，谁被悄悄挡在门外？ 同一问题在组织内部的版本是背书与推荐：当机会靠同事的作证与人脉分配，怎样的可核查标准才能把健康的同侪见证与小圈子的互相抬轿分开？",
+      "note_en": "Queues, lotteries, need, seniority, connections, administrative approval — once a scarce good is taken off the market, what corruption does each of these breed? Queues reward those with time to spare; the power to certify need instantly becomes the new scarce resource; allocation through connections buries the price in favours that are neither transparent nor refusable. Organ lists, school catchments, the extra slot at a public hospital, the referral into a scarce job: who wins under these rules, and who is quietly kept out? The same question inside an organisation takes the form of endorsement and referral: when opportunity is allocated by colleagues vouching for one another, what checkable standard separates honest peer testimony from a clique boosting its own?",
       "cat": "ethics"
+    },
+    {
+      "id": "one-ladder-organizations",
+      "votes": 0,
+      "q": "只有一条晋升阶梯的组织，浪费了谁？",
+      "q_en": "Who is wasted by an organisation with only one ladder?",
+      "note": "晋升序列先规定了什么算「想要」——管更多人、拿更大预算、往上走一格；于是那些真实存在却没有对应职级的抱负，几乎没有名分也没有语法：把一门手艺做到极致、把一个烂流程修好、带出三个比自己强的人。双轨制（专业序列对管理序列）是真解药，还是给不肯当官的人发的安慰奖？把「不想升」读成缺乏进取心，究竟是组织在系统性浪费人，还是个人本就该接受阶梯的规则？德鲁克、彼得原理、王阳明的事上磨练、匠艺传统与现代双通道职级都可入场。",
+      "note_en": "A promotion ladder decides in advance what counts as wanting — more people, a bigger budget, one rung up — so aspirations that genuinely exist but have no matching rung are left with neither standing nor grammar: taking a craft to its limit, fixing a rotten process, raising three people better than yourself. Is a dual track (individual contributor versus manager) a real remedy, or a consolation prize handed to those who refuse to take charge? When 'not wanting the promotion' is read as lack of drive, is the organisation wasting people systematically, or should individuals simply accept the rules of the ladder? Drucker, the Peter principle, Wang Yangming on tempering oneself in affairs, the craft traditions and modern dual-track levels all belong in this one.",
+      "cat": "work"
     }
   ],
   "debated": [
@@ -906,6 +906,13 @@
       "q_en": "Is there anything money should not be able to buy?",
       "date": "2026-08-09",
       "cat": "ethics"
+    },
+    {
+      "id": "express-ambition",
+      "q": "职场该不该表达野心？",
+      "q_en": "Should you show your ambition at work?",
+      "date": "2026-08-10",
+      "cat": "work"
     }
   ]
 }

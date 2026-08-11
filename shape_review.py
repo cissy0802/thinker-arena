@@ -117,6 +117,18 @@ def _bold_spread(posts):
     return "/".join("%d处x%d" % (k, c[k]) for k in sorted(c)) if c else "-"
 
 
+def _casting_tone_tail(d):
+    """选角 reason 是不是每条都用一句『语气X、爱用Y』收尾。
+    这是最容易在无意间锚死的一处措辞：写第一条时顺手带上人物语气，
+    后面八条便照抄同一个收尾模具，读起来像同一张表格填了九遍。
+    整场全中 → 该给若干人换个收束方式（落到一句主张、一个动作、一处让步）。"""
+    cs = d.get("casting") or []
+    if not cs:
+        return "-"
+    hit = sum(1 for c in cs if re.search(r"语气|口吻", (c.get("reason") or "")[-40:]))
+    return "%d/%d" % (hit, len(cs))
+
+
 def feats(d):
     posts = d.get("posts", [])
     rounds = sorted({p["round"] for p in posts})
@@ -142,6 +154,7 @@ def feats(d):
         "钩子数": len(hooks),
         "钩子分布": tuple(sorted("%s:%d" % (k, v) for k, v in hb.items())),
         "钩子作者类型": "AI%d/思想家%d" % (_hai, len(hooks) - _hai) if hooks else "-",
+        "选角语气收尾": _casting_tone_tail(d),
         "二轮全反一轮": "%d/%d" % (r2_to_r1, len(r2)) if r2 else "-",
         # 二轮里有多少帖是接着同轮的人往下打（0 = 每帖都回头打第1轮，结构最单调）
         "二轮同轮追击": "%d/%d" % (r2_chain, len(r2)) if r2 else "-",
@@ -183,7 +196,7 @@ print("=" * 70)
 print("形状自评 ·", tid, "· 对比最近", len(R), "场:", "、".join(eid for eid, _ in R) or "(无)")
 print("=" * 70)
 
-SCALARS = ["人数","轮数","每轮帖数","钩子数","钩子分布","钩子作者类型","二轮全反一轮","二轮同轮追击","二轮点名起手","轮内照抄顺序","首轮全独白","表态档集合",
+SCALARS = ["人数","轮数","每轮帖数","钩子数","钩子分布","钩子作者类型","选角语气收尾","二轮全反一轮","二轮同轮追击","二轮点名起手","轮内照抄顺序","首轮全独白","表态档集合",
            "用了疑惑","带glossary帖数","古文帖数","建议带①②③","帖均加粗处","加粗处分布","总结膨胀比","总结数数起手","总结列清单","总结转日常"]
 flags = []
 print("\n%-14s %-22s %s" % ("维度", "本场", "最近几场"))

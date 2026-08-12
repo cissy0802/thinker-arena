@@ -117,6 +117,20 @@ def _bold_spread(posts):
     return "/".join("%d处x%d" % (k, c[k]) for k in sorted(c)) if c else "-"
 
 
+def _term_bolding(posts):
+    """glossary 术语被 `**` 包起来的比例。ENGINE 只要求把『最关键的一句话』加粗；
+    顺手把每个术语也加粗，看起来更醒目，实际是把重点摊薄成满屏黑体——而且它是整场
+    一次性发作的（写第一帖时顺手，后面照抄），均值/分布都只照出『加粗变多了』，
+    照不出多出来的那些其实全是术语。N/N 即整场术语无一漏网，该收回来。"""
+    tot = hit = 0
+    for p in posts:
+        for t in (p.get("glossary") or {}):
+            tot += 1
+            if ("**%s**" % t) in (p.get("text", "") or ""):
+                hit += 1
+    return "%d/%d" % (hit, tot) if tot else "-"
+
+
 def _casting_tone_tail(d):
     """选角 reason 是不是每条都用一句『语气X、爱用Y』收尾。
     这是最容易在无意间锚死的一处措辞：写第一条时顺手带上人物语气，
@@ -167,6 +181,8 @@ def feats(d):
         "表态档集合": tuple(sorted(rk)),
         "用了疑惑": "疑惑" in rk,
         "带glossary帖数": sum(1 for p in posts if p.get("glossary")),
+        # glossary 术语顺手也加粗＝把重点摊薄成满屏黑体（重点只该是那一句）
+        "术语加粗": _term_bolding(posts),
         "古文帖数": sum(1 for p in posts if p.get("vernacular")),
         "建议带①②③": sum(1 for s in sums if has_num(s.get("advice", ""))),
         "帖均加粗处": round(sum((p.get("text", "").count("**")) // 2 for p in posts) / max(1, len(posts)), 2),
@@ -197,7 +213,7 @@ print("形状自评 ·", tid, "· 对比最近", len(R), "场:", "、".join(eid 
 print("=" * 70)
 
 SCALARS = ["人数","轮数","每轮帖数","钩子数","钩子分布","钩子作者类型","选角语气收尾","二轮全反一轮","二轮同轮追击","二轮点名起手","轮内照抄顺序","首轮全独白","表态档集合",
-           "用了疑惑","带glossary帖数","古文帖数","建议带①②③","帖均加粗处","加粗处分布","总结膨胀比","总结数数起手","总结列清单","总结转日常"]
+           "用了疑惑","带glossary帖数","术语加粗","古文帖数","建议带①②③","帖均加粗处","加粗处分布","总结膨胀比","总结数数起手","总结列清单","总结转日常"]
 flags = []
 print("\n%-14s %-22s %s" % ("维度", "本场", "最近几场"))
 print("-" * 70)

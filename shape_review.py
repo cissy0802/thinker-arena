@@ -153,6 +153,9 @@ def feats(d):
     r2_to_r1 = sum(1 for p in r2 if p.get("reply_to") and by_id.get(p["reply_to"], {}).get("round") == 1)
     # 第2轮内部的『追击』：反驳的是同一轮里刚说完的人，而不是清一色回头打第1轮
     r2_chain = sum(1 for p in r2 if p.get("reply_to") and by_id.get(p["reply_to"], {}).get("round") == 2)
+    # 第2轮的火力散布：被反驳的目标有几个不同的帖（全都压在同一两帖上＝交锋面窄；
+    # 每场都恰好 N/N 一一对应＝另一种定型）
+    r2_targets = len({p.get("reply_to") for p in r2 if p.get("reply_to")})
     rk = frozenset(k for p in posts for k in (p.get("reactions") or {}))
     hooks = d.get("hooks") or []
     hb = Counter(h.get("from") for h in hooks)
@@ -178,6 +181,10 @@ def feats(d):
         "首轮全独白": _r1_monologue(posts),
         # 后面各轮里有几轮照抄了第1轮的发言顺序（0 = 每轮都换了次序，正是想要的）
         "轮内照抄顺序": _order_repeat(posts, rounds),
+        # 二轮反驳目标的散度（不同目标数/二轮帖数；1/N＝全场围攻一帖，N/N＝一一对应）
+        "二轮火力散布": "%d/%d" % (r2_targets, len(r2)) if r2 else "-",
+        # 带可点开答案表的钩子数（ENGINE 限每场至多 1；每场都恰好 1 也是一种定型，宁缺毋滥）
+        "钩子带答案表": sum(1 for h in hooks if h.get("answer")),
         "表态档集合": tuple(sorted(rk)),
         "用了疑惑": "疑惑" in rk,
         "带glossary帖数": sum(1 for p in posts if p.get("glossary")),
@@ -212,7 +219,7 @@ print("=" * 70)
 print("形状自评 ·", tid, "· 对比最近", len(R), "场:", "、".join(eid for eid, _ in R) or "(无)")
 print("=" * 70)
 
-SCALARS = ["人数","轮数","每轮帖数","钩子数","钩子分布","钩子作者类型","选角语气收尾","二轮全反一轮","二轮同轮追击","二轮点名起手","轮内照抄顺序","首轮全独白","表态档集合",
+SCALARS = ["人数","轮数","每轮帖数","钩子数","钩子分布","钩子作者类型","钩子带答案表","选角语气收尾","二轮全反一轮","二轮同轮追击","二轮点名起手","二轮火力散布","轮内照抄顺序","首轮全独白","表态档集合",
            "用了疑惑","带glossary帖数","术语加粗","古文帖数","建议带①②③","帖均加粗处","加粗处分布","总结膨胀比","总结数数起手","总结列清单","总结转日常"]
 flags = []
 print("\n%-14s %-22s %s" % ("维度", "本场", "最近几场"))

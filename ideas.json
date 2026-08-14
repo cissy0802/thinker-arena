@@ -2,15 +2,6 @@
   "_comment": "议题投票数据。candidates=未辩候选(供投票)，debated=已辩(链到辩论)。投票免 GitHub 登录，存于自建后端(Cloudflare Worker + D1，见 ~/Desktop/cissy0802.github.io/engage-backend/)：每候选一个 poll，key='topic:'+id，choice up/down，净票=👍−👎。votes 字段由 routine 每次跑 `python3 refresh_votes.py`(读后端 /votes-net) 回写；页面 ideas.js 也会实时拉取覆盖显示。观众自提议题在评论 page='thinker-open-questions'，各候选下讨论 page='topic:'+id——routine 读这些把好提案提炼成新 candidates。新候选加进 candidates 即可。",
   "candidates": [
     {
-      "id": "abundance-and-decline",
-      "votes": 0,
-      "q": "当物质极度丰裕、不再需要奋斗，人类会不会重演『老鼠乌托邦』式的衰亡？",
-      "q_en": "When material abundance removes all need to struggle, could humanity repeat the collapse of the 'mouse utopia'?",
-      "note": "卡尔霍恩的『25 号宇宙』实验里，食物无限、天敌全无的鼠群最终走向求偶停摆、社交退缩与整体崩溃。当 AI 与富足替人类卸下生存压力，我们会迎来繁荣，还是尼采笔下只求安逸的『末人』、赫胥黎《美丽新世界》式的温柔沉沦？奋斗与匮乏，是否是意义与活力的必要燃料？ 也含：当一个人什么不便都能用钱绕开（插队、代排、代陪诊、代照护），他会不会连同对公共品质的利害感一起买走。",
-      "note_en": "In Calhoun's 'Universe 25,' a mouse colony with unlimited food and no predators slid into mating breakdown, social withdrawal, and total collapse. As AI and abundance lift the pressure to survive, will humanity flourish — or become Nietzsche's comfort-seeking 'last man,' a gentle Brave New World decline? Are struggle and scarcity necessary fuel for meaning and vitality? Also: when a person can pay their way around every inconvenience — queues, errands, clinic waits, care — do they also buy their way out of caring whether public things work?",
-      "cat": "ethics"
-    },
-    {
       "id": "assisted-dying",
       "votes": 0,
       "q": "社会该不该允许安乐死与协助死亡？",
@@ -227,15 +218,6 @@
       "cat": "meta"
     },
     {
-      "id": "geoengineering-and-nature",
-      "votes": 0,
-      "q": "该不该给地球动手术？",
-      "q_en": "Should we operate on the planet?",
-      "note": "人工降温、复活灭绝物种、重造生态：当自然早已被我们改过一遍，『不干预』还算得上一个选项吗？　不是问我们欠自然什么，而是问我们该不该主动动手：往高空撒气溶胶给地球降温、用基因技术把猛犸或旅鸽带回来、把整片湿地按图纸重造。支持者说保持原样早已不可能，反对者说这是把整个星球当实验台、且一旦开始就不能停。也含一个更难的问题：如果『原始的自然』本身是个想象，我们究竟在恢复什么。　并含一层代表权的问题：给地球降温、复活物种、乃至向星际发出信号，都属于『任何人都能做、后果所有人承担、且撤不回来』的动作——除了呼吁自律，有没有可执行的程序：公开登记、多方审议、可逆试探优先？",
-      "note_en": "solar geoengineering, de-extinction, rebuilt ecosystems: once nature has already been altered by us, is 'not intervening' still an option? Not what we owe nature, but whether we should reach in and act: spraying aerosols to cool the planet, using genetic technology to bring back the mammoth or the passenger pigeon, rebuilding an entire wetland to a blueprint. Advocates say leaving things as they are stopped being possible long ago; opponents say this treats the whole planet as a bench, and that once begun it cannot be stopped. It also contains a harder question: if 'pristine nature' is itself an imagined thing, what exactly are we restoring? It also carries a question of standing: cooling the planet, de-extincting a species, even beaming a signal at the stars all belong to the class of acts anyone can perform, everyone bears, and nobody can recall. Beyond appeals to restraint, is there any enforceable procedure — public registration, multi-party review, reversible probes first?",
-      "cat": "ethics"
-    },
-    {
       "id": "rituals-still-needed",
       "votes": 0,
       "q": "仪式还有用吗？",
@@ -267,8 +249,8 @@
       "votes": 0,
       "q": "谁有权拿别人的人生下注？",
       "q_en": "Who is entitled to bet other people's lives?",
-      "note": "创始人、将领、政客付出的『不可撤销的代价』，押上的常常不是自己的东西　我们习惯把『为一个判断付出昂贵而不可撤销的代价』当成它出于远见而非豪赌的证据。可押上去的常常是员工的十年、股东的钱、士兵的命、一整条供应链的生计——事前有没有办法区分『自己下注』与『替别人下注』？如果一个人要求他人承担的风险远大于自己承担的，他展示的还算不算勇敢？再往下还有一问：被押上去的人凭什么算同意——一纸雇佣、一张选票、一道军令，够不够；押错之后又该怎么赔。亚里士多德的勇敢与鲁莽之辨、塔勒布的切肤之痛、马基雅维利、韦伯的责任伦理都能入场。　也含：当一个人永久失去自主能力，该按什么替他做决定——照他先前表达过的意愿，还是照旁人判断的最佳利益？以及父母替孩子承担风险时，可恢复的损失与一旦触到就回不来的损失，事前该怎么分辨。",
-      "note_en": "the irreversible price paid by a founder, a general or a politician is usually not their own We habitually treat paying an expensive, irreversible price for a judgement as proof that it came from foresight rather than bravado. Yet what gets staked is usually ten years of employees' lives, shareholders' money, soldiers' lives, an entire supply chain's livelihood — so is there any way, before the result arrives, to tell betting your own stake from betting someone else's? If a person asks others to carry far more risk than they carry themselves, is what they display still courage? A further question follows: on what basis are the people staked said to have consented — does an employment contract, a vote or a military order suffice — and what is owed to them when the bet fails? Aristotle on courage versus recklessness, Taleb on skin in the game, Machiavelli, and Weber's ethic of responsibility all belong here. Also included: when someone permanently loses the capacity to decide, by what standard should others decide for them — their previously expressed wishes, or another's judgement of their best interests? And when parents take risks on a child's behalf, how does one tell in advance a recoverable loss from one there is no coming back from?",
+      "note": "创始人、将领、政客付出的『不可撤销的代价』，押上的常常不是自己的东西　我们习惯把『为一个判断付出昂贵而不可撤销的代价』当成它出于远见而非豪赌的证据。可押上去的常常是员工的十年、股东的钱、士兵的命、一整条供应链的生计——事前有没有办法区分『自己下注』与『替别人下注』？如果一个人要求他人承担的风险远大于自己承担的，他展示的还算不算勇敢？再往下还有一问：被押上去的人凭什么算同意——一纸雇佣、一张选票、一道军令，够不够；押错之后又该怎么赔。亚里士多德的勇敢与鲁莽之辨、塔勒布的切肤之痛、马基雅维利、韦伯的责任伦理都能入场。　也含：当一个人永久失去自主能力，该按什么替他做决定——照他先前表达过的意愿，还是照旁人判断的最佳利益？以及父母替孩子承担风险时，可恢复的损失与一旦触到就回不来的损失，事前该怎么分辨。 也含：该不该给地球动手术——平流层遮阳、海洋施铁这类气候工程，由少数人决定、风险却落在所有人与后代身上，谁有资格按下这个开关。",
+      "note_en": "the irreversible price paid by a founder, a general or a politician is usually not their own We habitually treat paying an expensive, irreversible price for a judgement as proof that it came from foresight rather than bravado. Yet what gets staked is usually ten years of employees' lives, shareholders' money, soldiers' lives, an entire supply chain's livelihood — so is there any way, before the result arrives, to tell betting your own stake from betting someone else's? If a person asks others to carry far more risk than they carry themselves, is what they display still courage? A further question follows: on what basis are the people staked said to have consented — does an employment contract, a vote or a military order suffice — and what is owed to them when the bet fails? Aristotle on courage versus recklessness, Taleb on skin in the game, Machiavelli, and Weber's ethic of responsibility all belong here. Also included: when someone permanently loses the capacity to decide, by what standard should others decide for them — their previously expressed wishes, or another's judgement of their best interests? And when parents take risks on a child's behalf, how does one tell in advance a recoverable loss from one there is no coming back from? Also: whether to operate on the planet — stratospheric sunshades, ocean iron fertilization and the like, decided by a few while the risk falls on everyone and on those not yet born. Who is entitled to press that switch?",
       "cat": "ethics"
     },
     {
@@ -333,6 +315,15 @@
       "note": "告诉一个人他的爱情是催产素、他的敬畏是颞叶放电、他的直觉是贝叶斯更新，很多人立刻觉得被贬低了；可没有人在知道彩虹是折射之后就不再看彩虹。这种『一被解释就掉价』的感觉从哪里来——它只是一种心理错觉，还是在提醒我们某样东西确实被拿走了？济慈抱怨牛顿拆散了彩虹，费曼说懂得花的结构只会让它更美，韦伯把这一整个过程叫作祛魅。也含一层实用的：把动机、习惯、亲密关系拆成机制之后，人还剩下多少行动的力气；什么时候该看机制，什么时候该把说明书放下。",
       "note_en": "Tell someone their love is oxytocin, their awe is temporal-lobe activity, their intuition Bayesian updating, and many feel demoted on the spot — yet nobody stopped looking at rainbows on learning about refraction. Where does this devaluation-by-explanation come from: is it merely a psychological illusion, or a signal that something really has been taken away? Keats complained that Newton unwove the rainbow, Feynman held that knowing a flower's structure only adds to its beauty, and Weber named the whole process disenchantment. There is a practical layer too: once motives, habits and intimacy have been decomposed into mechanisms, how much force to act is left, and when should one look at the mechanism and when put the manual down?",
       "cat": "meta"
+    },
+    {
+      "id": "real-work-or-invented-roles",
+      "votes": 0,
+      "q": "你的工作是真被需要，还是被造出来的？",
+      "q_en": "Is your job actually needed, or was it invented?",
+      "note": "会照开、表照填、人人被需要，却没有一件事会因为你缺席而不成立。组织能不能批量制造出仪式性的岗位来维持活力？一个人怎么分辨自己每天做的事是被真实需要，还是被造出来让他有事做——而如果分辨出来了，又该拿这个答案怎么办。",
+      "note_en": "The meetings still held, the forms still filed, everyone needed — and nothing that would fail to happen in your absence. Can an organization manufacture ceremonial posts wholesale in order to keep itself busy? How does a person tell whether what they do each day is genuinely required or produced so they have something to do — and what should they do with the answer once they have it?",
+      "cat": "work"
     }
   ],
   "debated": [
@@ -916,6 +907,13 @@
       "q_en": "Is the world made of matter, or of mind?",
       "date": "2026-08-13",
       "cat": "meta"
+    },
+    {
+      "id": "abundance-and-decline",
+      "q": "物质极度丰裕后，人会走向衰亡吗？",
+      "q_en": "Does material abundance lead to decline?",
+      "date": "2026-08-14",
+      "cat": "ethics"
     }
   ]
 }

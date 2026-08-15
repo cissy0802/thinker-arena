@@ -1,0 +1,886 @@
+{
+  "id": "entry-jobs-and-apprenticeship",
+  "question": "AI 做完入门的活，新人怎么学本事？",
+  "question_en": "If AI does the entry-level work, how do novices learn?",
+  "sub": "学徒、实习、蹲着调 bug——那些『笨办法』该刻意保留，还是该让它去？",
+  "sub_en": "Apprenticeships, internships, sitting with a bug — keep the slow way on purpose, or let it go?",
+  "date": "2026-08-15",
+  "participants": [
+    "aristotle",
+    "hinton",
+    "dehaene",
+    "zhuangzi",
+    "deming",
+    "schumpeter",
+    "illich",
+    "vasubandhu"
+  ],
+  "casting": [
+    {
+      "id": "aristotle",
+      "reason": "他不承认技艺与德性能靠听讲得到：人是通过建造成为建筑师、通过弹奏成为琴师的。他最看重的实践智慧处理的是个别情境，而个别情境永远比规则多，所以判断只能由一连串有后果的具体选择养成。在他看来，被嫌弃的那些琐碎初级活，恰是这种养成唯一的场地；抽掉它，剩下的是能背诵条文却认不出眼前这一份哪里不对劲的人。",
+      "reason_en": "He does not accept that a craft or a virtue can be acquired by being told about it: one becomes a builder by building and a lyre-player by playing. The practical wisdom he values most deals with particular situations, and particulars always outnumber rules, so judgement can only be grown through a long run of concrete choices that carry consequences. On his view the drudgery of junior work is the only place that growth happens; take it away and what remains is someone who can recite the rules and still not see what is wrong with the document in front of them."
+    },
+    {
+      "id": "hinton",
+      "reason": "他知道这些系统能做什么，也公开说过该停止培训放射科医生，并承认自己说早了。他不肯为了让新人有事做而保留机器已经做得更稳的活——那是养老院不是学校。但他担忧的地方比怀旧更硬：人恰恰是在大量常见情形里练出对罕见情形的手感，若只把罕见的那一小撮留给人，等于要求一个从没上过场的人去接最难的球。",
+      "reason_en": "He knows what these systems can do, has said publicly that we should stop training radiologists, and concedes he said it too early. He will not keep work the machines already do more reliably simply so that novices have something to occupy them — that is a nursing home, not a school. But his worry runs harder than nostalgia: it is precisely on a mass of ordinary cases that people build a feel for the rare one, and leaving humans only the rare residue asks someone who has never been on the field to take the hardest ball."
+    },
+    {
+      "id": "dehaene",
+      "reason": "他把学习拆成可测量的机制：注意、主动参与、错误反馈、睡眠中的巩固，其中错误反馈最要害——大脑更新的是自己那份预测与结果之间的差。据此他指出，旁观一个答案生成，并不会在你脑里产生任何需要被改写的误差。同时他也拒绝把成人学习说得神秘：回路是可以改的，只要人真的先下注、再看结果。",
+      "reason_en": "He breaks learning down into measurable mechanisms — attention, active engagement, error feedback and consolidation during sleep — of which error feedback matters most: what the brain updates on is the gap between its own prediction and the outcome. From there he points out that watching an answer appear produces no error in you that would need rewriting. He equally refuses to make adult learning mysterious: circuits remain changeable, provided the person actually commits to a guess before seeing the result."
+    },
+    {
+      "id": "zhuangzi",
+      "reason": "他讲过那个斫轮的老工匠：手上的分寸不徐不疾，得之于手而应于心，口不能言——连儿子也传不下去，所以七十岁还得自己斫轮。凡能写下来的都是糟粕，真东西只在手上。不过他也不肯跟着一起焦虑：担心新人学不会本事，本身就是一种执着；道在屎溺，会不会做事跟用什么工具无关，跟人有没有整个进去有关。",
+      "reason_en": "He tells of the old wheelwright: the stroke neither too slow nor too quick, got by the hand and answered by the heart, and impossible to put into words — he could not pass it to his own son, so at seventy he was still cutting wheels himself. Whatever can be written down is the dregs; the real thing lives in the hands. He will not join the general anxiety, though: fretting that the young will never learn is itself an attachment. The way is in the dung and the piss — whether a person can do a thing has little to do with the tools and everything to do with whether they are wholly inside it."
+    },
+    {
+      "id": "deming",
+      "reason": "他把绩效的绝大部分归给系统而非个人：若一家公司三年后找不到能独立签字的人，那不是这一代年轻人不肯吃苦，是管理层用短期成本把训练环节拆掉了。他的管理十四要点里既有在岗培训，也有驱走恐惧——不敢让人犯错的组织，实际上是在拿别人的成长换自己的季度数字。他要的指标很硬：一年造得出几个能替代自己的人。",
+      "reason_en": "He assigns most of performance to the system rather than to individuals: if a firm cannot find anyone able to sign off three years from now, that is not a generation unwilling to work hard but management dismantling the training step to save short-term cost. His fourteen points include both training on the job and driving out fear — an organisation that dares not let people make mistakes is trading other people's growth for its own quarterly numbers. The measure he wants is hard: how many people capable of replacing you does a year produce."
+    },
+    {
+      "id": "schumpeter",
+      "reason": "他提醒行会学徒制并不是第一次被机器杀死——工厂杀过它一次，流水线又改写过一次；每有新的组合上场，旧的技能阶梯整段作废，再在别处长出来。替一份已经不创造价值的初级工作举行葬礼，在他看来是替手工织机守灵。但他另有一层忧虑：当创新本身被例行化、交给流程去办，敢冒险的那个职能会枯萎，衰落便不来自毁灭太多，而来自没有人再需要冒险。",
+      "reason_en": "He points out that guild apprenticeship has been killed before — once by the factory and again by the assembly line; each new combination voids an entire ladder of skill, which then regrows somewhere else. Holding a funeral for junior work that no longer creates value is, to him, sitting vigil over a hand loom. He carries a second worry, though: when innovation itself is routinised and handed to procedure, the risk-taking function withers, and decline arrives not from too much destruction but from no one needing to take a risk any more."
+    },
+    {
+      "id": "illich",
+      "reason": "他坚持学徒制不是今天才死的——一百多年前学校就把学习从生活里拔出来，包装成可颁证书的课程，然后宣告没有证书的人不会做事。这正是他说的反生产力：制度膨胀到某个规模，就开始生产它本要消灭的东西。他不主张恢复旧行会，他要的是把学习的入口还回去：谁会一件事谁就能教，想学的人自己找得到他。",
+      "reason_en": "He insists that apprenticeship did not die this year — schooling pulled learning out of life more than a century ago, packaged it as a certifiable course, and then announced that anyone without the certificate could not do the work. This is exactly what he calls counterproductivity: an institution past a certain size starts manufacturing the very thing it was meant to abolish. He does not want the old guilds back; he wants the entrance to learning handed over — whoever can do a thing may teach it, and whoever wants to learn can find them."
+    },
+    {
+      "id": "vasubandhu",
+      "reason": "依他的唯识义，凡有所作皆熏成种子，藏入阿赖耶识，遇缘再起现行；所谓本事，就是这条相续里一层层积下来的习气。据此他判断：代你做的，其种落在彼处，你只见到影子——旁观千万遍，于你的相续毫无增益。但他不把这件事系在工具上：熏习不问器物粗细，只问那一刻是谁的心真正住在这件事里、由谁承担结果。",
+      "reason_en": "On his Yogācāra account, everything one does perfumes a seed into the storehouse consciousness, where it waits for conditions and rises again as action; what people call skill is nothing but the layered residue of that continuum. From this he judges that whatever is done on your behalf lays its seed elsewhere and leaves you looking at an image — a thousand observations add nothing to your own stream. He does not tie the matter to tools, though: perfuming asks nothing about the coarseness of the instrument, only whose mind was actually resting in the work, and who bore the result."
+    }
+  ],
+  "posts": [
+    {
+      "id": "p01",
+      "round": 1,
+      "thinker": "aristotle",
+      "reply_to": null,
+      "text": "先把话说定：技艺与德性都不是靠听来的。人通过建造而成为建筑师，通过弹奏而成为琴师。实践智慧(phronesis)尤其如此——它处理的是个别情境，而个别情境永远比规则多；一个人能背下全部条文，仍然看不出眼前这一份合同哪里不对劲，因为那种不对劲只在做过几百份之后才浮上来。**你们急着削掉的那些笨活，正是判断力唯一的教室。**规则给得了新手一个起点，判断只能由一连串有后果的具体选择长成。",
+      "text_en": "Let us settle one thing first: neither a craft nor a virtue is acquired by being told about it. Men become builders by building and lyre-players by playing. This holds above all for phronesis — it deals with particulars, and particulars always outnumber rules. A man may have every statute by heart and still not see what is wrong with the contract in front of him, because that wrongness only surfaces after some hundreds of them. **The drudgery you are all in such a hurry to cut away is the only classroom judgement has.** Rules can give a beginner a starting point; judgement grows only out of a long run of concrete choices that carry consequences.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "phronesis": "phronesis（实践智慧）：亚里士多德用来指处理具体情境的实践理性，与处理普遍必然之事的理论知识相对。它不能靠传授命题获得，只能在反复的、有后果的具体判断中养成，因此他把它归为经验与习惯的产物。"
+      },
+      "glossary_en": {
+        "phronesis": "Aristotle's term for the practical reason that deals with particular situations, as against theoretical knowledge of what is universal and necessary. It cannot be acquired by being handed propositions; it forms only through repeated concrete judgements that carry consequences, which is why he treats it as a product of experience and habit."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "vasubandhu"
+        ],
+        "轻微赞同": [
+          "dehaene",
+          "deming"
+        ],
+        "中立": [
+          "zhuangzi"
+        ],
+        "轻微反对": [
+          "schumpeter",
+          "illich"
+        ],
+        "疑惑": [
+          "hinton"
+        ]
+      }
+    },
+    {
+      "id": "p02",
+      "round": 1,
+      "thinker": "hinton",
+      "reply_to": null,
+      "text": "我有一句话被反复引用：该停止培训放射科医生了。时间证明我说早了，方向我不收回——为了让新人有事可做而保留一批机器已经做得更稳的活，那是养老院，不是学校。让我睡不好的是另一件事。模型在分布内(in-distribution)的常见情形上会做得比人好，而人偏偏是在大量常见情形里练出对罕见情形的手感。**当只剩罕见的那一小撮留给人，我们等于要求一个从没上过场的人去接最难的那颗球。**",
+      "text_en": "One line of mine gets quoted endlessly: we should stop training radiologists. Time has shown I said it too early; I do not take back the direction. Keeping work the machines already do more reliably, so that beginners have something to occupy them, is a nursing home, not a school. What keeps me up is something else. A model will outperform people on the ordinary in-distribution cases, and it is precisely on a mass of ordinary cases that people build their feel for the rare one. **Leave humans only the rare residue and we are asking someone who has never been on the field to take the hardest ball of the match.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "分布内": "in-distribution（分布内）：机器学习里指落在训练数据所覆盖范围内的输入。模型在这类情形上表现最稳；一旦输入偏离训练分布，性能可能急剧下降，却仍然给出语气自信的答案。"
+      },
+      "glossary_en": {
+        "in-distribution": "In machine learning, an input that falls within the range covered by the training data. Models are most reliable here; once an input drifts outside that distribution, performance can collapse while the answer still comes out sounding confident."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "dehaene"
+        ],
+        "轻微赞同": [
+          "aristotle",
+          "deming"
+        ],
+        "中立": [
+          "schumpeter"
+        ],
+        "轻微反对": [
+          "zhuangzi"
+        ],
+        "疑惑": [
+          "illich"
+        ]
+      }
+    },
+    {
+      "id": "p03",
+      "round": 1,
+      "thinker": "dehaene",
+      "reply_to": null,
+      "text": "把争论拉回可测量的地方。人脑学得快，靠四件事：注意、主动参与、错误反馈、睡眠中的巩固。最要害的是第三件——大脑更新的，是你自己那份预测与实际结果之间的差，这个量叫预测误差(prediction error)。看模型直接给出答案，你的系统里根本没有产生它：你没有先押注，就没有可用来改写回路的误差。**旁观一千次，抵不上自己错一次；改写神经回路的是你的错，不是别人的对。**顺带说，成年人的脑并不迟钝，它只是需要真的下场。",
+      "text_en": "Let me pull this back to what can be measured. Human brains learn fast on four things: attention, active engagement, error feedback, and consolidation during sleep. The third matters most — what the brain updates on is the gap between its own prediction and the actual outcome, a quantity we call prediction error. Watch a model hand you the answer and none is generated in you at all: without a committed guess there is no error available to rewrite the circuit with. **A thousand observations are worth less than one mistake of your own; what rewrites cortex is your error, not somebody else's correctness.** And for the record, the adult brain is not slow. It simply has to be on the field.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "预测误差": "prediction error（预测误差）：认知神经科学里指大脑对将要发生之事的预测与实际结果之间的差值。这个差被当作学习信号，用来调整内部模型；预测与结果一致时几乎不发生更新，因此学到多少取决于你先做出了怎样的预测。"
+      },
+      "glossary_en": {
+        "prediction error": "In cognitive neuroscience, the gap between what the brain predicted would happen and what actually did. That gap serves as the learning signal that adjusts the internal model; when prediction and outcome agree, almost no updating occurs, so how much you learn depends on having made a prediction in the first place."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "aristotle",
+          "vasubandhu"
+        ],
+        "轻微赞同": [
+          "hinton",
+          "deming"
+        ],
+        "中立": [
+          "illich"
+        ],
+        "轻微反对": [
+          "schumpeter"
+        ],
+        "疑惑": [
+          "zhuangzi"
+        ]
+      }
+    },
+    {
+      "id": "p04",
+      "round": 1,
+      "thinker": "zhuangzi",
+      "reply_to": null,
+      "text": "桓公读书于堂上，轮扁斫轮于堂下，释椎凿而问曰：公所读者，古人之糟粕已夫。斫轮徐则甘而不固，疾则苦而不入；**不徐不疾，得之于手而应于心，口不能言，有数存焉于其间。**臣不能以喻臣之子，臣之子亦不能受之于臣，是以行年七十而老斫轮。今诸君忧新人之不得手，正坐此耳。机能授其糟粕，不能授其手。然亦不必大惊：道在屎溺，能与不能，不在器之新旧，在其人之全与不全。",
+      "text_en": "Duke Huan was reading in the hall; Wheelwright Bian was cutting a wheel below. He set down mallet and chisel and asked: what you are reading, sir, is no more than the dregs the ancients left behind. In cutting a wheel, go slow and the joint slides loose; go fast and it binds and will not enter. **Neither slow nor fast — that measure is got by the hand and answered by the heart, and the mouth cannot say it; there is a knack in there that will not be spoken.** I cannot explain it to my son, and my son cannot receive it from me, which is why at seventy I am still cutting wheels myself. Your worry that beginners will never get it into their hands sits exactly here. A machine can hand you the dregs; it cannot hand you the hands. Still, no need for alarm: the way is in the dung and the piss. Whether a person can do a thing turns not on whether the tool is old or new, but on whether the person went wholly into it.",
+      "vernacular": "齐桓公在堂上读书，做车轮的老工匠轮扁在堂下砍木头，放下锤子凿子上去问他：您读的这些，不过是古人留下的渣滓罢了。砍车轮这件事，下手慢了榫头松滑而不牢，下手快了又涩滞而进不去；**不快不慢，那个分寸是手上得来、心里应着的，嘴巴说不出来，中间有个说不清的窍门。**我没法把它讲给我儿子听，我儿子也没法从我这里接过去，所以我七十岁了还得自己砍轮子。今天各位担心新人练不出手上的功夫，症结正在这里。机器能把渣滓交给你，交不了那双手。不过也不必大惊小怪：道连屎尿里都有，会不会做事，不在于工具是新是旧，在于那个人整个进去了没有。",
+      "vernacular_en": "",
+      "glossary": {
+        "糟粕": "dregs（糟粕）：原指酿酒剩下的渣滓，庄子用它比喻圣人之言留在书上的那一部分。他的意思不是书无用，而是凡能被说出、写下的都只是过程的残余，真正起作用的分寸留在做事的人身上，传不下去。"
+      },
+      "glossary_en": {
+        "dregs": "Originally the residue left after brewing; Zhuangzi uses it for the part of a sage's understanding that survives on the page. His point is not that books are useless but that whatever can be said or written is the residue of a process, while the working measure stays in the person who does it and cannot be handed on."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "illich"
+        ],
+        "轻微赞同": [
+          "aristotle",
+          "vasubandhu"
+        ],
+        "中立": [
+          "deming",
+          "hinton"
+        ],
+        "轻微反对": [
+          "dehaene"
+        ],
+        "强烈反对": [
+          "schumpeter"
+        ]
+      }
+    },
+    {
+      "id": "p05",
+      "round": 1,
+      "thinker": "deming",
+      "reply_to": null,
+      "text": "各位在争新人该怎么办，我要问的是谁在管这个系统。一家公司若三年后找不到能独立签字的人，那不是这一代年轻人不肯吃苦，是管理层拿季度成本把训练那一段拆掉了。我的十四要点里有一条叫在岗培训，另一条叫驱走恐惧——不敢让人犯错的组织，实际上是在用别人的成长换自己的数字。**衡量一家公司，别只看它今年产出多少，要看它一年造得出几个能替代自己的人。**这个数你今天就能算，而且多半会难看。",
+      "text_en": "You are all arguing about what the beginners should do; my question is who is managing the system. If a firm cannot find anyone able to sign off three years from now, that is not a generation unwilling to work hard — it is management dismantling the training step to protect a quarterly cost line. One of my fourteen points is training on the job; another is drive out fear. An organisation that dares not let people make mistakes is trading other people's growth for its own numbers. **Judge a company not by what it produced this year but by how many people it produced who could replace the ones it has.** You can compute that figure today, and it will probably be ugly.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "在岗培训": "training on the job（在岗培训）：戴明管理十四要点之一，指在真实工作现场由懂行的人带着新人边做边教，而不是只靠脱产课程。他把它算作管理层的责任而非员工的自我修养，因为一个人能不能学会，多半取决于系统给不给机会。"
+      },
+      "glossary_en": {
+        "training on the job": "One of Deming's fourteen points: instruction given at the real workplace by someone who knows the work, alongside the work itself, rather than as a course held apart from it. He counts it as management's obligation rather than the employee's private virtue, since whether a person can learn is mostly decided by whether the system gives them the chance."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "aristotle"
+        ],
+        "轻微赞同": [
+          "dehaene",
+          "hinton",
+          "vasubandhu"
+        ],
+        "中立": [
+          "zhuangzi"
+        ],
+        "轻微反对": [
+          "schumpeter"
+        ],
+        "强烈反对": [
+          "illich"
+        ]
+      }
+    },
+    {
+      "id": "p06",
+      "round": 1,
+      "thinker": "schumpeter",
+      "reply_to": null,
+      "text": "请诸位记住：行会的学徒制不是被机器第一次杀死的。工厂杀过它一次，流水线又把剩下的改写了一遍。每有一种新的组合上场，旧的技能阶梯就整段作废，然后在别处重新长出来——我叫它创造性毁灭(creative destruction)。**为一份已经不再创造价值的初级工作举行葬礼，是在替手工织机守灵。**不过我另有一层忧虑：当创新本身也被例行化、交给流程与机器去办，敢冒险的那个职能就会枯萎。那时衰落不来自毁灭太多，而来自没有人再需要冒险。",
+      "text_en": "Remember something: guild apprenticeship was not first killed by machines. The factory killed it once, and the assembly line rewrote whatever was left. Every time a new combination enters, an entire ladder of skill is voided and then regrows somewhere else — I call this creative destruction. **To hold a funeral for junior work that no longer creates value is to sit vigil over a hand loom.** I do carry a second worry, though. When innovation itself is routinised and handed over to procedure and machinery, the function that takes risks withers. Decline then comes not from destroying too much but from no one needing to take a risk any more.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "创造性毁灭": "creative destruction（创造性毁灭）：熊彼特用来描述资本主义演进的核心机制——新的产品、技术与组织方式不断从内部摧毁旧结构，再在废墟上建起新结构。他强调这不是失灵而是常态，代价是旧岗位与旧技能会成批作废。"
+      },
+      "glossary_en": {
+        "creative destruction": "Schumpeter's term for the central mechanism of capitalist development: new products, techniques and forms of organisation continually destroy the existing structure from within and build a new one on its ruins. He insists this is not a malfunction but the normal state of affairs, and its price is that whole classes of jobs and skills are voided at once."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "hinton"
+        ],
+        "轻微赞同": [
+          "illich"
+        ],
+        "中立": [
+          "zhuangzi",
+          "deming"
+        ],
+        "轻微反对": [
+          "dehaene",
+          "vasubandhu"
+        ],
+        "强烈反对": [
+          "aristotle"
+        ]
+      }
+    },
+    {
+      "id": "p07",
+      "round": 1,
+      "thinker": "illich",
+      "reply_to": null,
+      "text": "我提醒各位，学徒制不是今天才死的。一百多年前学校就把学习从生活里拔了出来，包装成一段可以颁证书的课程，再宣布没有证书的人不会做事。这就是我说的反生产力(counterproductivity)：一个制度膨胀到某个规模，便开始生产它本要消灭的那个东西。**现在轮到机器接手同一套把戏——它把能力搬进一个你付费才能进入的黑箱，于是你就真的不会了。**出路不是复活旧行会，是把学习的入口还回去：谁会一件事谁就能教，想学的人自己找得到他。",
+      "text_en": "Let me remind you that apprenticeship did not die this year. More than a century ago, schooling pulled learning out of life, packaged it as a certifiable course, and then announced that whoever lacked the certificate could not do the work. This is what I call counterproductivity: past a certain scale an institution begins to manufacture the very thing it was founded to abolish. **Now the machines take over the same trick — they move competence into a black box you must pay to enter, and then you really cannot do it.** The way out is not to revive the guilds but to hand back the entrance to learning: whoever can do a thing may teach it, and whoever wants to learn can find them.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "反生产力": "counterproductivity（反生产力）：伊里奇提出的概念，指现代大制度越过某个规模门槛之后，会系统性地生产出与自身目标相反的结果——学校让人厌学、医疗制造病人、交通消耗掉比它节省的更多时间。他据此主张给制度设上限，而不是不断扩张它。"
+      },
+      "glossary_en": {
+        "counterproductivity": "Illich's term for the way modern institutions, once past a threshold of scale, begin systematically producing the opposite of their stated purpose — schooling that makes people unwilling to learn, medicine that manufactures patients, transport that consumes more time than it saves. His conclusion is that institutions need ceilings rather than perpetual expansion."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "zhuangzi"
+        ],
+        "轻微赞同": [
+          "schumpeter",
+          "vasubandhu"
+        ],
+        "中立": [
+          "aristotle",
+          "hinton"
+        ],
+        "轻微反对": [
+          "dehaene"
+        ],
+        "强烈反对": [
+          "deming"
+        ]
+      }
+    },
+    {
+      "id": "p08",
+      "round": 1,
+      "thinker": "vasubandhu",
+      "reply_to": null,
+      "text": "依唯识义，凡有所作，皆熏成种，藏于阿赖耶识；种遇缘复起现行，展转不断。世所谓『本事』者，不过此相续中层层积下之熏习耳。**代汝作者，其种落于彼处，汝但见影；观之千万遍，于汝相续无所增益。**故必汝自作、自误、自受其果，乃有种落。然亦莫执定须用旧法：熏习不问器之粗细，唯问尔时是谁之心真住此事、其果谁当。若假机为手而汝仍自决、自断、自任其咎，则种亦成。",
+      "text_en": "On the Yogācāra account, whatever one does perfumes a seed, and the seed is stored in the ālaya-vijñāna; meeting its conditions the seed rises again as action, and so it turns without end. What the world calls skill is nothing but the vāsanā laid down layer upon layer in that continuum. **What is done in your place drops its seed elsewhere, and you see only an image; observe it ten thousand times and your own continuum gains nothing.** So it must be you who acts, you who errs, you who receives the fruit — only then does a seed fall. Yet do not fix on the notion that the old method is required: perfuming asks nothing about the coarseness of the instrument, only whose mind was truly resting in the matter at that moment, and who answers for the result. Take the machine as your hand and still decide, still judge, still bear the blame yourself, and the seed falls all the same.",
+      "vernacular": "按唯识学的说法，凡是做过的事都会熏出种子，收进阿赖耶识里；种子遇到条件又生出现行，这样来回不断。世人说的『本事』，不过是这条相续里一层层积下来的习气罢了。**别人替你做的，种子落在他那边，你只看到一个影子；看上千万遍，对你自己这条相续毫无增益。**所以必须你自己做、自己出错、自己承担结果，才会有种子落下。但也不要死执着非得用老办法：熏习不问工具粗细，只问那一刻是谁的心真的住在这件事里、结果由谁来担。假如把机器当手用，而你仍旧自己决定、自己判断、自己认这个责任，种子照样会落。",
+      "vernacular_en": "",
+      "glossary": {
+        "阿赖耶识": "ālaya-vijñāna（阿赖耶识）：唯识学所立的第八识，字面意为『藏识』。一切经验都在其中留下种子，种子遇缘又生起新的现行，构成个体经验相续不断的依托；它不是一个不变的灵魂，而是一条持续被自身行为改写的流。",
+        "熏习": "vāsanā（熏习）：字面是香气熏染衣物，唯识学借以描述行为在识中留下的余习。每一次现行都熏成种子，种子又生现行，因此习惯与能力被理解为反复自作留下的沉积，而不是一次获得的实体。"
+      },
+      "glossary_en": {
+        "ālaya-vijñāna": "The eighth consciousness posited by Yogācāra, literally the storehouse consciousness. Every experience deposits a seed in it, and seeds meeting the right conditions give rise to fresh activity, which is what carries the continuity of an individual's experience. It is not an unchanging soul but a stream continuously rewritten by its own activity.",
+        "vāsanā": "Literally the perfuming of cloth by incense, borrowed by Yogācāra for the residue an action leaves in consciousness. Each act perfumes a seed and each seed gives rise to further acts, so habits and capacities are understood as sediment laid down by repeated doing rather than as a thing acquired once."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "aristotle",
+          "dehaene"
+        ],
+        "轻微赞同": [
+          "zhuangzi",
+          "deming"
+        ],
+        "中立": [
+          "illich",
+          "hinton"
+        ],
+        "轻微反对": [
+          "schumpeter"
+        ]
+      }
+    },
+    {
+      "id": "p09",
+      "round": 2,
+      "thinker": "schumpeter",
+      "reply_to": "p05",
+      "text": "一年造得出几个能替代自己的人——这个数我愿意算，但请把旁边那一栏也填上：这些人究竟是在为哪一种活做准备？你所谓的训练系统，很可能正精心培养一批熟练操作一套即将作废的流程的人。**行会当年也有极完整的师徒制度，而它维护的恰恰是被蒸汽机一次抹平的那套手艺。**留住训练环节却不问训练的内容，最后得到的不是接班人，是一群懂得如何优雅地做已经没人需要的事的人。",
+      "text_en": "How many replacements does a year produce — I am willing to compute that figure, provided we also fill in the column beside it: replacements trained for which work, exactly? What you call a training system may be diligently producing people fluent in a procedure that is about to be void. **The guilds too had a complete and admirable system of masters and apprentices, and what it preserved was precisely the craft the steam engine erased in a single stroke.** Keep the training step without asking what is being trained and you do not end up with successors; you end up with people who know how to do gracefully what nobody needs done.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "hinton"
+        ],
+        "轻微赞同": [
+          "illich",
+          "zhuangzi"
+        ],
+        "中立": [
+          "vasubandhu"
+        ],
+        "轻微反对": [
+          "dehaene",
+          "aristotle"
+        ],
+        "强烈反对": [
+          "deming"
+        ]
+      }
+    },
+    {
+      "id": "p10",
+      "round": 2,
+      "thinker": "aristotle",
+      "reply_to": "p09",
+      "text": "熊彼特先生把技艺与技艺的对象混作一谈了。手工织机作废，织工对织机的手感确实随之无用；可初级律师逐条读合同养出来的并不是读合同，而是在一页看起来都合规的条款里认出那一条不对劲的能力，这种能力换了行当仍在。**会作废的是任务，不作废的是从任务里长出来的判断——你们拆掉任务时顺手把判断也拆了，还以为只丢了一份任务。**若真有更快的养成之路，我洗耳恭听；只是至今我没见过不经具体事情而得的实践智慧。",
+      "text_en": "Schumpeter confuses a skill with the object a skill is exercised on. When the hand loom goes, the weaver's feel for that loom truly goes with it. But what the junior lawyer grows by reading clause after clause is not the reading of clauses; it is the capacity to spot the one term that is wrong on a page where everything looks compliant, and that capacity survives a change of trade. **Tasks expire; the judgement grown out of tasks does not — and when you dismantle the task you dismantle the judgement along with it, believing you lost only a task.** If there is a faster road to that formation I will listen gladly; I have simply never seen practical wisdom arrive without particular matters to arrive through.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "deming",
+          "vasubandhu"
+        ],
+        "轻微赞同": [
+          "dehaene"
+        ],
+        "中立": [
+          "zhuangzi",
+          "hinton"
+        ],
+        "轻微反对": [
+          "illich"
+        ],
+        "强烈反对": [
+          "schumpeter"
+        ]
+      }
+    },
+    {
+      "id": "p11",
+      "round": 2,
+      "thinker": "illich",
+      "reply_to": "p10",
+      "text": "那间教室由谁来开？这一点亚里士多德先生整个略过了——他假定它只能由事务所、医院、编辑部来开。**一旦『判断只能在机构内部养成』被当作常识，机构就取得了发放能力的垄断权，而它开出的价码从来不是学费，是你的青年时代。**我不否认要在具体事情里学，我否认的是必须由持牌者派给你具体事情。巷口修车的少年拆装过的车比任何培训计划允许的都多，而没有任何计划录取过他。真正该问的不是保不保留初级岗，是普通人能不能不经许可就摸到真实的活。",
+      "text_en": "Who opens the classroom? Aristotle passes over that entirely — he assumes it can only be opened by a firm, a hospital, an editorial office. **Once it becomes common sense that judgement can only form inside an institution, the institution acquires a monopoly on issuing competence, and the price it charges was never tuition — it was your twenties.** I do not deny that one learns in particular matters. I deny that the particular matters must be handed to you by a licence holder. The boy fixing motorbikes at the end of the alley has stripped and rebuilt more of them than any programme would allow, and no programme ever admitted him. The real question is not whether to preserve junior posts but whether an ordinary person can reach real work without permission.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "zhuangzi"
+        ],
+        "轻微赞同": [
+          "schumpeter",
+          "hinton"
+        ],
+        "中立": [
+          "vasubandhu"
+        ],
+        "轻微反对": [
+          "aristotle",
+          "dehaene"
+        ],
+        "强烈反对": [
+          "deming"
+        ]
+      }
+    },
+    {
+      "id": "p12",
+      "round": 2,
+      "thinker": "deming",
+      "reply_to": "p09",
+      "text": "熊彼特先生，我从不主张训练一套将要作废的流程；我主张训练人去改进系统本身，那件事三百年不作废。您把毁灭说成自然律，可账是分开记的：新结构的收益归公司，旧技能的报废归个人承担，于是没有一个季度经理有动机为三年后的人负责。**这不是宿命，是一张没人签字的责任单。**我的做法很土：把训练算进系统的产出指标，让砍掉它的人当场看见自己砍掉了什么。恐惧与短期考核杀死学徒的速度，比任何机器都快。",
+      "text_en": "Mr Schumpeter, I have never argued for training people in a procedure about to be void; I argue for training people to improve the system itself, and that does not go out of date in three centuries. You speak of destruction as a law of nature, but the books are kept separately: the gains from the new structure accrue to the company while the write-off of the old skill is borne by the individual, so no manager on a quarterly clock has any reason to answer for whoever is still here in three years. **That is not fate; it is a liability nobody has signed for.** My remedy is plain: put training into the system's output measures, so whoever cuts it sees on the spot what he has cut. Fear and short-horizon appraisal kill apprentices faster than any machine does.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "aristotle"
+        ],
+        "轻微赞同": [
+          "dehaene",
+          "vasubandhu",
+          "hinton"
+        ],
+        "中立": [
+          "zhuangzi"
+        ],
+        "轻微反对": [
+          "schumpeter"
+        ],
+        "强烈反对": [
+          "illich"
+        ]
+      }
+    },
+    {
+      "id": "p13",
+      "round": 2,
+      "thinker": "dehaene",
+      "reply_to": "p04",
+      "text": "那位斫轮的老工匠，我在实验室里每周都见。但庄先生那句话我要修一修：口不能言，不等于不可分析。**默会知识(tacit knowledge)说不出口，是因为它住在感觉运动回路与统计规律里，而不是因为它属于神秘之域——说不出，仍然可以被拆成能训练的成分。**专家棋手看不见自己怎么看棋盘，眼动仪看得见。真正的好消息在这里：把过去要蹲十年才碰得上的情形做成密集的、带即时反馈的练习，人可以学得比自然学徒快得多。前提仍是他先自己出手。",
+      "text_en": "That old wheelwright is in my laboratory every week. One line of Zhuangzi's I would amend, though: that the mouth cannot say it does not mean it cannot be analysed. **What we call tacit knowledge resists words because it lives in sensorimotor circuits and in statistical regularities, not because it belongs to some mysterious realm — what cannot be said can still be broken into trainable components.** A master chess player cannot see how he reads a board; an eye tracker can. And here is the genuinely good news: take the situations that used to require ten years of waiting to meet, make them dense and give them immediate feedback, and a person learns considerably faster than any natural apprentice did. The condition is unchanged — he must move first himself.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "默会知识": "tacit knowledge（默会知识）：指人能做到却说不清楚的那部分本领，如辨认一张脸、掌握手上的力度。它多半以感觉运动程序与对统计规律的隐性把握的形式存在，学习者往往无法自述其规则，因而很难靠讲授传递。"
+      },
+      "glossary_en": {
+        "tacit knowledge": "The part of a competence a person can exercise but cannot state — recognising a face, judging how hard to press. It exists largely as sensorimotor routines and as an implicit grip on statistical regularities, so the learner usually cannot report the rules and the ability resists being handed over by instruction."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "aristotle",
+          "hinton"
+        ],
+        "轻微赞同": [
+          "deming",
+          "vasubandhu"
+        ],
+        "中立": [
+          "illich",
+          "schumpeter"
+        ],
+        "轻微反对": [
+          "zhuangzi"
+        ]
+      }
+    },
+    {
+      "id": "p14",
+      "round": 2,
+      "thinker": "vasubandhu",
+      "reply_to": "p13",
+      "text": "德阿纳君言默会可拆为可训之分，此与吾义不违：熏习本无神秘，唯是数数现行、层层积种而已。**然拆之愈细、喂之愈密，仍须问一句：此番出手，其果谁受？**若练习之场无果可受，纵万次不倦，所熏者不过应付练习之种，非任事之种。故吾以为，可省者是笨活之量，不可省者是自任其咎之一刻。器可以代手，不可以代受。诸君若欲加速，请先造出真会痛的练习。",
+      "text_en": "Dehaene says tacit competence can be decomposed into trainable parts, and this does not conflict with our doctrine: perfuming was never mysterious — it is only repeated activity depositing seed upon seed. **Yet however finely you decompose it and however densely you feed it, one question remains: for this move of yours, who receives the fruit?** If the practice ground carries no consequence to be borne, then ten thousand tireless repetitions perfume only the seed of coping with practice, not the seed of carrying a matter. So what may be spared is the quantity of drudgery; what may not be spared is the moment of answering for one's own fault. An instrument may stand in for your hand; it cannot stand in for your receiving. If you wish to go faster, first build practice that genuinely hurts.",
+      "vernacular": "德阿纳先生说默会的本事可以拆成能训练的成分，这跟唯识的说法并不冲突：熏习本来就不神秘，无非是一次次现行、一层层积下种子罢了。**但拆得越细、喂得越密，仍要问一句：这一次出手，结果由谁来承受？**如果练习场里没有真实后果要承担，那么练一万次也不知疲倦，熏出来的也只是『应付练习』的种子，不是『担事』的种子。所以我认为，可以省掉的是笨活的数量，不能省掉的是自己承担过失的那一刻。工具可以代替你的手，不能代替你受。各位若想加速，请先造出真会痛的练习。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "aristotle",
+          "zhuangzi"
+        ],
+        "轻微赞同": [
+          "dehaene",
+          "deming"
+        ],
+        "中立": [
+          "hinton"
+        ],
+        "轻微反对": [
+          "schumpeter"
+        ],
+        "疑惑": [
+          "illich"
+        ]
+      }
+    },
+    {
+      "id": "p15",
+      "round": 2,
+      "thinker": "hinton",
+      "reply_to": "p12",
+      "text": "这笔账我认，但有一处没有算进去。就算公司愿意付训练的钱，被训练的内容也在飞快贬值：我们这一行两年换一次工具链，去年练出的手感今年归零。**我担心的不是组织舍不得花钱，而是没有人知道该练什么——所有人都在为一个还没定形的岗位做准备。**所以我倾向于把赌注押在少数几样掉价慢的东西上：看出一个系统在什么时候会自信地出错、把问题拆成能验证的小块、以及自己动手做一遍以便知道答案该长什么样。这三样，机器越强越值钱。",
+      "text_en": "I accept the accounting Deming just gave, but one line is missing from it. Even where a company is willing to pay for training, what gets trained is depreciating fast: our field swaps its toolchain every two years, and the feel you built last year is worth nothing this year. **My worry is not that organisations begrudge the money — it is that nobody knows what to train for, because everyone is preparing for a job that has not settled into a shape yet.** So I would put the bet on the few things that depreciate slowly: seeing when a system is about to be confidently wrong, cutting a problem into pieces you can actually check, and doing a thing once by hand so that you know what the answer ought to look like. Those three get more valuable the stronger the machines become.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "dehaene"
+        ],
+        "轻微赞同": [
+          "deming",
+          "schumpeter",
+          "aristotle"
+        ],
+        "中立": [
+          "illich",
+          "vasubandhu"
+        ],
+        "轻微反对": [
+          "zhuangzi"
+        ]
+      }
+    },
+    {
+      "id": "p16",
+      "round": 2,
+      "thinker": "zhuangzi",
+      "reply_to": "p15",
+      "text": "夫忧无人知所当练者，此正吾所谓丧己于物也。**夫不知所练而练，与不知所之而行同；先定其所之，则所练自明。**且吾闻之：无用之用，乃为大用。诸君所弃之笨活，其果无用乎？今人恐机之代手，然机不能代汝之饥、汝之惧、汝之爱其所作。苟于所作之中忘其得失，则手自熟，不待人授。若事事先问此技几年作废，则终身皆在算账，何暇入其中？",
+      "text_en": "To fret that no one knows what to train for is exactly what I call losing yourself in things. **To train without knowing what for is the same as setting out without knowing where to — settle where you are going and what to train becomes plain.** Besides, I have said it before: the use of the useless is the great use. Are the dull tasks you all disdain truly good for nothing? People now fear the machine will replace their hands, but no machine replaces your hunger, your fear, or your liking for what you make. Forget gain and loss while you are doing it and the hand ripens on its own, with nobody to teach it. If every matter must first be asked how many years before this craft expires, then you spend a lifetime keeping accounts and never have the leisure to get inside anything.",
+      "vernacular": "担心没人知道该练什么，这本身就是我说的『在外物里把自己丢了』。**不知道要练什么就去练，跟不知道要去哪儿就上路是一回事；先定下要去哪里，练什么自然就清楚了。**况且我早说过：看似无用的用处，才是大用处。各位嫌弃的那些笨活，真的一点用都没有吗？今人怕机器代替了手，可机器代替不了你的饿、你的怕、你对自己所做之事的喜欢。只要做的时候忘掉得失，手自然会熟，不必等谁来教。若每件事都要先问这门手艺几年后作废，那就一辈子都在算账，哪还有工夫进到事情里去。",
+      "vernacular_en": "",
+      "glossary": {
+        "无用之用": "the use of the useless（无用之用）：庄子的说法，指看似没有用处的东西反而成全了根本的用处——不成材的树因无用而免于斧斤，得以长成。他借此反对以外在效用衡量一切，认为不被计价的那部分往往托着人真正的自在。"
+      },
+      "glossary_en": {
+        "the use of the useless": "Zhuangzi's phrase for the way what seems good for nothing turns out to serve the deepest use — the tree too crooked for timber is spared the axe and grows tall. He uses it against measuring everything by external utility, holding that what goes unpriced is often what carries a person's actual freedom."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "illich"
+        ],
+        "轻微赞同": [
+          "vasubandhu"
+        ],
+        "中立": [
+          "aristotle",
+          "hinton"
+        ],
+        "轻微反对": [
+          "dehaene",
+          "deming"
+        ],
+        "强烈反对": [
+          "schumpeter"
+        ]
+      }
+    },
+    {
+      "id": "p17",
+      "round": 3,
+      "thinker": "hinton",
+      "reply_to": null,
+      "text": "听下来，我把自己的位置收窄了一点。我仍然反对为了让人有事做而保留假活，那对谁都不诚实。但世亲那句『器可以代手，不可以代受』说到了点子上：真正稀缺的不是练习——练习从没这么便宜过——稀缺的是后果。给普通人的话我只说三条。第一，任何你打算交给模型的事，先自己给出一个答案再看它的，哪怕只花两分钟；这就是德阿纳说的那份误差，你不押注就拿不到。第二，主动去要一件小而真的责任：能落在你名下、错了由你解释的那种，金额小没关系，署名比工作量值钱。**你的成长速度取决于你一年真正签过几次字，而不是你经手过多少活。**第三，练那些掉价慢的东西——判断一个系统何时会自信地出错、把大问题拆成能验证的小块、亲手做一遍以便知道答案该长什么样。",
+      "text_en": "Having listened, I have narrowed my own position. I still oppose keeping fake work so that people have something to do; that is honest with nobody. But Vasubandhu's line — an instrument can stand in for your hand, not for your receiving — lands on the right spot. What is scarce is not practice; practice has never been cheaper. What is scarce is consequence. Three things for ordinary people. First, whatever you are about to hand to a model, produce your own answer first and only then look at its answer, even if that costs two minutes; that is Dehaene's error signal, and without a bet you do not get one. Second, go and ask for a small real responsibility: something that lands under your name, that you have to explain if it goes wrong. The amount does not matter; the signature is worth more than the volume of work. **Your rate of growth depends on how many times a year you actually sign for something, not on how much work has passed through your hands.** Third, train the things that depreciate slowly — seeing when a system is about to be confidently wrong, cutting a problem into checkable pieces, and doing something by hand so you know what an answer should look like.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "dehaene",
+          "vasubandhu"
+        ],
+        "轻微赞同": [
+          "deming",
+          "aristotle"
+        ],
+        "中立": [
+          "schumpeter",
+          "zhuangzi"
+        ],
+        "轻微反对": [
+          "illich"
+        ]
+      }
+    },
+    {
+      "id": "p18",
+      "round": 3,
+      "thinker": "deming",
+      "reply_to": null,
+      "text": "我把话收回到管理者身上，因为个人再自觉也扛不动一个不打算培养人的系统。给带团队的人三件今天就能做的事。第一，把『能独立签字的人数』当作与产出并列的指标，每季度报一次；不被计量的东西一定会被砍掉。第二，在最容易外包的那类活里划出固定的一小份不许外包，并事先写明允许犯错的边界——员工不知道错到哪一步会挨罚，就永远不会真的下手。第三，把复盘从追责改成查系统：出了事先问流程哪一步让这个错误变得容易发生，而不是谁不小心。**恐惧一进门，学习就出门；这两样东西从来不曾在同一个组织里共存。**至于个人：如果一份工作三年都不让你独立担一次责，那不是你不够努力，是它没有把你算进自己的未来。",
+      "text_en": "Let me bring this back to managers, because no amount of individual diligence can carry a system that does not intend to grow anyone. Three things a team leader can do today. First, put the number of people able to sign off alongside output as a reported measure, once a quarter; what is not measured will be cut. Second, in the category of work that is easiest to outsource, fence off a fixed small share that may not be outsourced, and write down in advance the boundary within which mistakes are permitted — an employee who does not know how far wrong they may go before being punished will never truly commit. Third, turn the post-mortem from assigning blame to examining the system: ask which step of the process made this error easy, not who was careless. **The moment fear walks in, learning walks out; the two have never coexisted in one organisation.** As for individuals: if a job has not let you carry a single responsibility alone in three years, that is not your effort falling short — it is that job not counting you in its own future.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "aristotle",
+          "hinton"
+        ],
+        "轻微赞同": [
+          "dehaene",
+          "vasubandhu",
+          "schumpeter"
+        ],
+        "中立": [
+          "zhuangzi"
+        ],
+        "轻微反对": [
+          "illich"
+        ]
+      }
+    },
+    {
+      "id": "p19",
+      "round": 3,
+      "thinker": "zhuangzi",
+      "reply_to": null,
+      "text": "吾观诸君终日论技之存亡，如观舟中之人争其楫之新旧，而不问所渡何水。**技随世迁，未有不迁者；能不与之俱迁者，其人耳。**庖丁解牛十九年而刀刃若新发于硎，非其刀异，乃其心不与筋骨争。今人得机之助，省却百工之劳，此亦刀也；用之而心不住其中，则虽日省万工，其人日损。故吾之说甚简：择一事，亲为之，勿计其效，久之而手自应心。**此非守旧，乃养其能应万变者。**若终日惧所学之无用，则未学而已先自弃矣。",
+      "text_en": "I watch you all debate the survival of crafts as one watches men in a boat quarrel over whether the oar is old or new, without asking which water they mean to cross. **Crafts move with the age; none has ever failed to. What need not move with them is the person.** Cook Ding cut up oxen for nineteen years and his blade was as if fresh from the whetstone — not because his knife was unusual, but because his mind did not contend with sinew and bone. You have the machine's help now and are spared the labour of a hundred hands; that too is a knife. Use it with your mind not resting inside the work and you may be spared the labour of ten thousand hands a day while the person wears thinner by the day. So my advice is very simple: choose one matter, do it yourself, do not reckon its yield, and in time the hand answers the heart. **This is not conservatism; it is cultivating the thing that can meet whatever comes.** Spend your days afraid that what you learn will be useless, and you have abandoned yourself before you began.",
+      "vernacular": "我看各位整天讨论手艺会不会消失，就像看船上的人争论船桨是新是旧，却不问要渡的是哪条河。**手艺会随时代变，没有不变的；能不跟着一起变没的，只有人自己。**庖丁解牛解了十九年，刀刃还像刚磨过一样，不是他的刀特别，是他的心不去跟筋骨硬碰。今天的人借机器省下大量力气，这也是一把刀；用它的时候心不在里面，那就算一天省下一万份力气，人还是一天天在损耗。所以我的说法很简单：挑一件事，自己亲手做，别去算它的效益，久了手自然就应得上心。**这不是守旧，是养出那个能应付万变的东西。**如果整天怕自己学的东西没用，那就是还没开始学，就已经先把自己丢掉了。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "illich",
+          "vasubandhu"
+        ],
+        "轻微赞同": [
+          "aristotle"
+        ],
+        "中立": [
+          "hinton",
+          "deming"
+        ],
+        "轻微反对": [
+          "dehaene"
+        ],
+        "强烈反对": [
+          "schumpeter"
+        ]
+      }
+    },
+    {
+      "id": "p20",
+      "round": 3,
+      "thinker": "schumpeter",
+      "reply_to": null,
+      "text": "我承认亚里士多德那一刀切得准：作废的是任务，不是从任务里长出来的判断。但我坚持一件事，诸位若不听，任何训练方案都会办成博物馆——训练的内容必须由正在形成的新组合来定，而不是由旧岗位的形状来定。历史上没有一次技能断层是靠保住旧岗位接上的；接上它的永远是那些先跳进新领域、在无人可教的地方自学的人。**所以最该被保护的不是初级岗位，而是让年轻人有机会自己开一件小的、会失败的事的条件。**给普通人的话：与其等一个完善的培训体系，不如尽早做一件规模很小、由你全权负责、并且可能亏掉的事——一个副业、一个项目、一次自己揽下来的改造。真正的学徒制，从来是自己给自己派活。",
+      "text_en": "I grant that Aristotle's cut is accurate: what expires is the task, not the judgement grown out of it. But I hold to one thing, and without it any training scheme becomes a museum — what is trained must be set by the new combination now forming, not by the shape of the old post. No skill discontinuity in history has ever been bridged by preserving the old jobs; it is bridged by the people who jumped into the new field first and taught themselves where no one could teach them. **So the thing most worth protecting is not the junior position but the conditions under which a young person can start something small of their own that is allowed to fail.** For ordinary people: rather than wait for a complete training system, do one small thing early that is entirely yours to answer for and that might lose money — a side venture, a project, a repair you take on yourself. Real apprenticeship has always meant assigning yourself the work.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "illich"
+        ],
+        "轻微赞同": [
+          "hinton",
+          "aristotle",
+          "vasubandhu"
+        ],
+        "中立": [
+          "zhuangzi",
+          "dehaene"
+        ],
+        "轻微反对": [
+          "deming"
+        ]
+      }
+    },
+    {
+      "id": "p21",
+      "round": 3,
+      "thinker": "dehaene",
+      "reply_to": null,
+      "text": "作为唯一带数据来的人，我把可执行的部分留下。学习要发生，四件事缺一不可：注意、主动参与、错误反馈、睡眠中的巩固。眼下最容易塌的是第二和第三件，因为答案来得太快。三条具体做法。其一，先押注后查证：任何问题先写下你的答案与把握程度，再去看模型给的；两者不一致的地方，就是这一天里唯一值得花时间的地方。其二，制造有间隔的重来：同一类问题隔几天再做一次，别在当天连做——间隔与睡眠所做的巩固，比多刷一小时有用得多。其三，把模型当考官而不是答手：让它出题、挑你的错、追问你为什么，这时产生的误差才是你的。**答案变得免费之后，唯一还稀缺的学习资源，是你自己那份被证伪的预测。**",
+      "text_en": "As the only one here who brought data, let me leave the actionable part. For learning to happen, four things are required together: attention, active engagement, error feedback, and consolidation during sleep. The two most likely to collapse right now are the second and the third, because answers arrive too fast. Three concrete practices. One, bet before you check: for any question write down your answer and your confidence first, then look at the model's; where the two disagree is the only part of that day worth spending time on. Two, manufacture spaced repetition: come back to the same kind of problem a few days later rather than running them back to back — the consolidation done by the interval and by sleep outperforms another hour of drilling. Three, use the model as an examiner rather than an answerer: have it set problems, pick apart your errors, ask you why. The error generated then is yours. **Once answers are free, the only scarce learning resource left is your own falsified prediction.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "hinton",
+          "vasubandhu",
+          "aristotle"
+        ],
+        "轻微赞同": [
+          "deming"
+        ],
+        "中立": [
+          "schumpeter",
+          "illich"
+        ],
+        "轻微反对": [
+          "zhuangzi"
+        ]
+      }
+    },
+    {
+      "id": "p22",
+      "round": 3,
+      "thinker": "illich",
+      "reply_to": null,
+      "text": "我不为旧制度惋惜，我怕新的垄断。这一场里几乎所有人都默认能力得由某个机构派发——公司派任务、学校发证书，如今再加一个按调用次数计费的黑箱。**一件工具是不是好工具，只看一条：普通人能不能不经许可地拿它去做自己想做的事。**照这条看，今天的模型其实是罕见的好东西：它便宜、随手可得、不问你的出身与学历，这是学校从没给过的。真正的危险在别处——当能力可以租用，行业往往更依赖执照来划边界，于是入口重新被守住。所以给年轻人的建议是绕过审批：找一个真实的、有人在意结果的小问题，用手边任何工具把它解决掉，然后把过程公开。会做事的证据，一直都比允许你做事的许可更难伪造。",
+      "text_en": "I do not mourn the old institutions; I fear the new monopoly. Nearly everyone here has assumed that competence must be issued by some institution — the firm hands out tasks, the school hands out certificates, and now a black box billed by the call joins them. **There is one test of whether a tool is a good tool: can an ordinary person take it, without permission, and do what they want to do with it?** By that test today's models are a rare good thing: cheap, at hand, indifferent to your background and your diplomas — which is more than schooling ever offered. The real danger lies elsewhere. Once competence can be rented, a profession tends to lean harder on licences to mark its boundary, and the entrance closes again. So my advice to the young is to route around the approval: find a small real problem whose outcome someone cares about, solve it with whatever tool is to hand, and publish how you did it. Evidence that you can do the work has always been harder to forge than permission to do it.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "zhuangzi",
+          "schumpeter"
+        ],
+        "轻微赞同": [
+          "hinton"
+        ],
+        "中立": [
+          "vasubandhu",
+          "dehaene"
+        ],
+        "轻微反对": [
+          "aristotle"
+        ],
+        "强烈反对": [
+          "deming"
+        ]
+      }
+    },
+    {
+      "id": "p23",
+      "round": 3,
+      "thinker": "vasubandhu",
+      "reply_to": null,
+      "text": "总而言之：本事者非物也，乃相续中之习气，由自作而积，非由观他而得。**故一事可代，二事不可代：一曰决，二曰受。**决者，此时此境当如何，须出不含糊之答；受者，果至而自当之。此二者在，虽以机为手，种自落汝识；此二者不在，虽终日劳形，所熏亦不过随人之种。是以吾劝诸君日课有三：一，遇事先自决，而后参他；二，择一处小事，明言其果归己；三，事毕自省，勿唯记其成败，当记尔时心所依者何——**记其所依，则种可择而熏之。**",
+      "text_en": "In sum: skill is not a thing but a habit-residue in the continuum, accumulated by acting oneself and never by watching another. **So one thing may be done for you and two things may not: deciding, and receiving.** To decide is to say what this situation, here and now, requires, in terms that are not equivocal; to receive is to take the fruit when it arrives. Where these two remain, you may use the machine as your hand and the seed still falls into your own consciousness; where they are absent, you may labour to exhaustion and perfume nothing but the seed of following others. So I would set you three daily exercises. First, decide for yourself before you consult anyone. Second, choose one small matter and say plainly that its outcome is yours. Third, when it is finished, review — and do not record only whether it succeeded, but what your mind was resting on when it judged. **Record what it rested on, and you may then choose which seeds you perfume.**",
+      "vernacular": "总起来说：本事不是一件东西，而是这条相续里的习气，靠自己去做一点点积起来，不是靠看别人做得来的。**所以有一件事可以让人代劳，有两件事不能：一是决定，二是承担。**所谓决定，是在此时此地判断该怎么办，给出不含糊的答案；所谓承担，是结果来了自己接着。这两样还在，就算把机器当手用，种子照样落进你的识里；这两样不在，就算整天忙得筋疲力尽，熏出来的也不过是跟着别人走的种子。所以我劝各位每天做三件事：第一，遇事先自己给出判断，然后再去参考别人的；第二，挑一件小事，明确说清楚它的结果归你；第三，事情做完自己回想一遍，别只记住成败，要记住那一刻你的心是靠着什么做出的判断——**记住所依，才谈得上挑着种子来熏。**",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "aristotle",
+          "dehaene"
+        ],
+        "轻微赞同": [
+          "zhuangzi",
+          "hinton",
+          "deming"
+        ],
+        "中立": [
+          "illich"
+        ],
+        "轻微反对": [
+          "schumpeter"
+        ]
+      }
+    },
+    {
+      "id": "p24",
+      "round": 3,
+      "thinker": "aristotle",
+      "reply_to": null,
+      "text": "让我收个尾。各位争的其实是同一件事的两半：熊彼特与辛顿担心我们把人训练成过时的样子，戴明与伊里奇争的是谁该为入口负责，而德阿纳、世亲与庄子说的是同一句话的三个版本——非自作者不成。我因此愿意退一步：具体的任务确实可以让，机器做得更好的就让它做。但有三样东西让不得，因为判断力正由此长成——**先于答案的判断、落在自己名下的后果、以及事后对自己何以如此判断的追问。**给一个刚入行的年轻人，我只留一条可执行的：每周挑一件事，先写下你的判断与理由再去核对，并想办法让其中至少一件真的有人依赖你的结论。至于那份从不让你独立担责的工作，待遇再好，它给你的是薪水，不是本事；**你要问的不是它今年付你多少，而是三年之后你会成为什么样的人。**",
+      "text_en": "Let me close. You have been arguing two halves of one thing: Schumpeter and Hinton fear we are training people into obsolescence, Deming and Illich are disputing who owes the entrance, and Dehaene, Vasubandhu and Zhuangzi are giving three versions of a single sentence — nothing forms in a man that he did not do himself. So I will concede ground: particular tasks can indeed be given away, and what the machine does better it should do. But three things cannot be given away, because judgement is grown out of exactly these — **the judgement made before the answer arrives, the consequence that lands under your own name, and the questioning afterwards of why you judged as you did.** To someone just starting out I leave one usable rule: each week take one matter, write down your judgement and your reasons before you check them, and arrange for at least one of those judgements to be something a real person depends on. As for the job that never lets you carry anything alone, however well it pays: what it gives you is a salary, not a competence. **The question is not what it pays you this year, but who you will be three years from now.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "deming",
+          "vasubandhu",
+          "dehaene"
+        ],
+        "轻微赞同": [
+          "hinton",
+          "zhuangzi"
+        ],
+        "中立": [
+          "schumpeter"
+        ],
+        "轻微反对": [
+          "illich"
+        ]
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "ai": "claude",
+      "engine": "Opus 5 · 订阅(原生)",
+      "engine_en": "Opus 5 · subscription (native)",
+      "summary": "**没有一个人替『为了让新人有事做而保留假活』辩护，也没有一个人否认能力必须由自己做出的、有后果的选择长成——共识就落在这两句之间。**分歧岔成三处。其一，断点在哪：德阿纳与世亲指向个体，没有自己的预测就没有可用来改写的误差；戴明指向系统，是季度成本把训练那一段拆掉了；伊里奇指向入口，能力被制度垄断在先，机器只是接手同一套把戏。其二，该守住什么：亚里士多德坚持任务可换而判断不可替，熊彼特与辛顿反问你究竟要为哪一种活准备人。其三，责任归谁——个人的自觉、管理层的指标，还是绕过许可自己去找真实的活。",
+      "insight": "这场里被反复当成稀缺品的『练习机会』，其实是全场最不稀缺的东西。模型可以无限出题、即时挑错、随时陪练，密度远超任何师傅带徒弟。真正被抽走的是另一样：后果。**学徒制的核心从来不是重复劳动，而是被允许犯有代价的错，同时有人替你兜底。**照这个读法，该保留的不是笨活，而是责任的最小单位——让新人真的签一次字，哪怕金额小到无关紧要。这比保留低效岗位便宜得多，也更容易执行：不必逆着效率走，只需把署名和担责往下放一层。反过来说，一份从不让你独立担责的工作，无论多忙，都没有把你算进它的未来。",
+      "advice": "**把顺序倒过来：任何你准备交给模型的问题，先花两分钟写下自己的答案和把握程度，再去看它的。**两者不一致的地方，就是这一天里唯一值得细看的部分——你没先押注，就拿不到那份能改写回路的误差。第二，本周向上要一件署名：一件小的、有真实后果、结果落在你名下的事，金额或范围小都无所谓，重要的是错了由你解释。第三，若你带团队，算一个数并公开它——今年你的团队产生了几个能独立签字的人；同时在最容易外包的活里划出固定一小份不许外包，并事先写明允许犯错到哪一步。最后给正犹豫的人一句：三年都不让你独立担一次责的工作，付的是薪水，不是本事。",
+      "summary_en": "**Nobody defended keeping fake work so that beginners have something to do, and nobody denied that capability grows only out of consequential choices one makes oneself — the consensus sits between those two sentences.** From there the disagreement forks three ways. First, where the break occurs: Dehaene and Vasubandhu point at the individual, since without your own prediction there is no error to rewrite anything with; Deming points at the system, where quarterly cost accounting removed the training step; Illich points at the entrance, arguing that competence was monopolised by institutions long before the machines took over the same trick. Second, what is worth defending: Aristotle insists tasks are replaceable and judgement is not, while Schumpeter and Hinton ask which work exactly you propose to prepare people for. Third, whose obligation it is — individual diligence, a management metric, or routing around permission to find real work yourself.",
+      "insight_en": "The 'chance to practise' that everyone here treats as scarce is in fact the least scarce thing in the room. A model can set unlimited problems, catch errors instantly and drill with you at any hour, at a density no master-and-apprentice pair ever managed. What has actually been withdrawn is something else: consequence. **The core of apprenticeship was never repetitive labour but permission to make a costly mistake with someone standing behind you.** Read that way, the thing to preserve is not the drudgery but the smallest unit of responsibility — letting a beginner genuinely sign for something, even at an amount too small to matter. That is far cheaper than maintaining inefficient posts and far easier to implement: it does not require working against efficiency, only pushing the signature and the liability down one level. Conversely, a job that never lets you carry anything alone, however busy, has not counted you into its own future.",
+      "advice_en": "**Reverse the order: for anything you are about to hand to a model, spend two minutes writing down your own answer and how confident you are, and only then look at its answer.** Where the two disagree is the only part of the day worth examining closely — without a bet placed first, you never receive the error that rewrites the circuit. Second, ask upward this week for a signature: one small thing with a real consequence that lands under your name. The size is irrelevant; what matters is that you are the one who explains it if it goes wrong. Third, if you lead a team, compute a number and publish it — how many people capable of signing off did your team produce this year? — and fence off a fixed small share of the most outsourceable work that may not be outsourced, stating in advance how far wrong someone may go. One last line for anyone hesitating: a job that has not let you carry a single responsibility alone in three years is paying you a salary, not a competence."
+    },
+    {
+      "ai": "gpt",
+      "engine": "openai · gpt-5.5 · high(真实API)",
+      "engine_en": "openai · gpt-5.5 · high (live API)",
+      "summary": "最大的共识不是反 AI，而是反旁观式熟练：本事来自先判断、真出手、受反馈、担后果，AI 可以省力，不能替你形成预测误差和责任感。分歧在入口与内容：要不要保留初级岗、谁来承担训练成本、练旧流程还是新组合、机构还是个人项目提供真实场景。**该保留的不是笨活本身，而是笨活曾经承载的可犯错、可复盘、可署名的训练机制。**",
+      "insight": "现在最缺的也许不是活，而是好反馈的仲裁者。AI 能给答案、出题、挑错，但它也会把错误包装得很像正确；新人的关键风险是把流畅当能力。因此训练要从“做不做低阶任务”改成“有没有校准回路”：先让人独立产出，再由模型、人类专家和真实结果三方校验，记录哪类判断反复偏差。**AI 时代的学徒制应当设计成逐级放大的责任梯度，而不是手工时代任务清单的残留。**",
+      "advice": "本周可以做三件事。第一，建立预测日志：每天选一个工作问题，先写结论、理由、置信度，再问 AI 或同事，周末只复盘差异。第二，给自己找一个小署名：一页报告、一次客户回复、一个自动化脚本，明确谁会使用、错了怎么补救。第三，把 AI 用成教练：让它反驳、出相似题、要求你解释依据，而不是直接替你交付。**目标不是少用 AI，而是每次用 AI 前后都留下自己的判断痕迹。**",
+      "summary_en": "The strongest shared point here is not “AI is bad for beginners.” It is that learning collapses when the beginner becomes a spectator. Skill grows from making a prediction, acting on it, seeing it fail or hold, and carrying some consequence. AI can remove drudgery, but it cannot donate your prediction error or your responsibility. The real disagreement is about where that learning loop should live: inside firms and professions, in open networks and self-started projects, in preserved junior work, or in entirely new kinds of work. **What needs preserving is not the busywork itself, but the training function it accidentally performed: safe error, review, ownership, and progressively real stakes.**",
+      "insight_en": "A practical bottleneck may shift from access to tasks to access to calibration. AI can generate endless exercises, examples, drafts, and critiques; the hard part is knowing when the critique is right and when a polished answer is quietly wrong. That matters because beginners are especially vulnerable to fluency: if the output sounds competent, they may stop forming their own internal standard. The better frame is not manual versus automated, but calibrated versus uncalibrated learning. A useful modern apprenticeship should look like a responsibility ramp: the novice first drafts independently, AI challenges the draft, a human or real-world result audits the important cases, and the scope of unsupervised action expands only when error patterns improve. **AI should not replace apprenticeship; it should make the steps between practice and real responsibility more finely graded.**",
+      "advice_en": "This week, do three concrete things. First, keep a prediction log. Once a day, choose a real work question, write your answer, your reasoning, and your confidence before asking AI or a colleague; review only the mismatches at the end of the week. Second, secure one small piece of ownership: a one-page memo, a customer reply, a data check, a tiny automation—something someone will actually use and for which you can explain mistakes. Third, use AI as a coach rather than a ghostwriter: ask it to cross-examine you, create near-transfer problems, list failure modes, and force you to justify your assumptions. **The aim is not to avoid AI, but to ensure every use of AI leaves behind a trace of your own judgment.**"
+    },
+    {
+      "ai": "gemini",
+      "engine": "google · gemini-3.1-pro-preview(真实API)",
+      "engine_en": "google · gemini-3.1-pro-preview (live API)",
+      "summary": "场上的最大共识是：**无论机器能代劳多少差事，长出真本领的必要条件是「必须亲自作出预测并承担后果」**。无论是德阿纳的预测误差、世亲的「自决自受」，还是亚里士多德的实践智慧，全场都认同被动旁观无法替代亲自下场。真正的分歧在于这块「试炼场」该由谁来提供。戴明和亚里士多德试图在现有的企业组织中保卫新人的容错空间，认为管理层必须为培养体系买单；而熊彼特、伊里奇与辛顿则认为，既然旧岗位与旧流程已加速作废，与其指望机构发善心，不如让新人利用去中心化的新工具，在体制外自行开拓无需许可的真实试错场。",
+      "insight": "诸位将 AI 视作「夺走入门任务的代劳者」或「给出标准答案的黑箱」，却忽略了 AI 的另一种核心形态——它不仅能输出答案，更能零成本重构极其丰富的仿真环境。辛顿担忧新人碰不到足够多的「罕见情形」来练手，但在多模态与生成式 AI 面前，这种稀缺性已被打破。**你完全可以反向使用机器，不让它替你做题，而是让它为你生成无穷无尽的疑难杂症与边缘案例。**过去需要耗在律所五年才能攒齐的合同陷阱，或是待在急诊室三年才能见全的罕见病症，现在可以通过设定参数，在一个下午向你高频投放。机器夺走了低效的旧学徒制，却也把极其昂贵的「高频情境模拟器」推平到了每个人桌面。",
+      "advice": "结合场上共识与机器的模拟器特性，普通人本周就能开始三个动作：第一，**执行「盲注」原则**。在让 AI 帮你写代码、改方案前，先强迫自己用五分钟写下核心思路，拿着你的「预测」去碰撞 AI 的产出，捕捉德阿纳所说的预测误差。第二，**把 AI 当陪练而非替身**。每周挑一个核心业务场景，让 AI 扮演刁钻的客户或审查员，要求它生成十个罕见的边缘报错或极端需求，由你来排雷，主动积攒对罕见情形的手感。第三，借用伊里奇的建议，发起一个不需要许可的微型项目。去解决一个真实的痛点，哪怕极其微小，但必须由你全权拍板并署名，在真实的反馈中完成决断与受果。",
+      "summary_en": "The most profound consensus across the roundtable is that **no matter how many tasks machines can automate, true expertise absolutely requires making personal predictions and bearing the consequences.** Whether framed as Dehaene's neuroscience of prediction error, Vasubandhu's concept of personal decision and karmic consequence, or Aristotle's defense of practical wisdom, everyone agrees that passive observation cannot replace active engagement. The real divergence lies in who is responsible for providing this developmental training ground. Deming and Aristotle advocate for defending a safe margin of error within existing organizational structures, insisting that corporate management must be held accountable for mentorship. Conversely, Schumpeter, Illich, and Hinton argue that since old workflows are rapidly obsolescing, we shouldn't rely on institutional benevolence. Instead, newcomers must leverage decentralized tools to create their own permissionless, real-world testing grounds outside the traditional system.",
+      "insight_en": "The thinkers primarily treat AI as an \"automation tool taking away entry-level tasks\" or a \"black box providing standard answers,\" completely overlooking its potential as an interactive, multimodal simulator. Hinton worries that novices will no longer encounter enough \"rare cases\" to develop intuition, but generative AI entirely shatters this scarcity. **You can reverse-engineer the machine: instead of having it solve problems for you, instruct it to generate an endless stream of edge cases and complex anomalies for you to navigate.** The hidden contractual loopholes that once required five years at a corporate law firm to experience, or the rare diagnoses that took years in an emergency room to witness, can now be simulated and synthesized on your desktop in a single afternoon. AI may have dismantled the inefficient traditional apprenticeship, but it has democratized access to what was once an incredibly expensive \"high-frequency scenario simulator.\"",
+      "advice_en": "Synthesizing the debate and AI's capabilities as a high-fidelity simulator, here are three highly actionable steps you can start practicing this week. First, **enforce the \"Blind Bet\" rule.** Before asking an AI to write your code or draft a proposal, force yourself to spend five minutes outlining your core approach. Collide your raw prediction with the AI's polished output to harvest the exact prediction error that Dehaene emphasizes. Second, **use AI as a sparring partner rather than a stand-in.** Pick a core business scenario weekly and prompt the AI to act as an erratic client or a strict auditor. Have it generate ten rare edge cases for you to troubleshoot, actively building your intuition for outliers. Third, adopting Illich's advice, launch a permissionless micro-project. Solve a real, tangible problem where you are the sole decision-maker, putting your name on the line to fully experience the cycle of decision and consequence."
+    }
+  ],
+  "hooks": [
+    {
+      "from": "claude",
+      "text": "**责任的最小单位**：练习从没这么便宜过，稀缺的是后果。若学徒制真正给的是『被允许犯有代价的错、并且有人兜底』，那么该保留的就不是低效的活，而是让新人真的签一次字的机会。一个组织能把签字权往下放到多低？一个人又该从多小的事开始要求署名？",
+      "text_en": "**The smallest unit of responsibility**: practice has never been cheaper; what is scarce is consequence. If what apprenticeship really provided was permission to make a costly mistake with someone standing behind you, then the thing worth preserving is not inefficient work but the chance for a beginner to actually sign for something. How far down can an organisation push the authority to sign? And how small a matter should a person start demanding their name on?"
+    },
+    {
+      "from": "gpt",
+      "text": "**流畅不等于会**：一个包装得很好的错误答案，读起来和正确答案几乎一样。新人最大的风险不是没活干，而是把流畅当成掌握，从此不再建立自己的标准。那么问题就该从『还做不做低阶任务』换成『有没有一条校准回路』——先独立产出，再让模型挑错，最后由真实结果裁决。一个人怎么知道自己的判断到底在变准还是在变松？",
+      "text_en": "**Fluency is not competence**: a well-packaged wrong answer reads almost exactly like a right one. The real hazard for a beginner is not the absence of work but mistaking fluency for mastery and never building an internal standard of their own. That turns the question from whether to keep doing low-level tasks into whether there is a calibration loop at all — draft independently first, let the model attack the draft, and let the real outcome settle it. How does a person find out whether their judgement is actually getting sharper or merely getting looser?"
+    },
+    {
+      "from": "gemini",
+      "text": "**把机器当出题者，而不是答题者**：新人练不出手感，是因为罕见情形太少见——而生成式模型恰恰最擅长把罕见情形批量造出来。过去要在律所待五年才攒得齐的合同陷阱，现在可以一个下午高频投放。若稀缺的从来不是答案而是情境，那么该被推平的成本就是『情境模拟器』。不过还得追一句：哪些本事无论怎么密集投喂，都仍然必须靠时间才长得出来？",
+      "text_en": "**Use the machine to set the problems, not to answer them**: a beginner fails to build intuition because the rare cases are rare — and generative models happen to be very good at manufacturing rare cases in bulk. The contractual traps that once took five years at a firm to accumulate can now be delivered at high frequency in one afternoon. If what was scarce was never the answer but the situation, then the cost being driven to zero is the cost of a scenario simulator. One question still follows it: which capacities refuse to grow faster however densely they are fed, and simply take time?"
+    },
+    {
+      "from": "illich",
+      "text": "**执照还守得住什么**：当能力可以按次租用，行业往往不会因此放松准入，反而更依赖执照来划定边界。那么一张证书证明的到底是能力，还是排队的资格？如果一个没有任何文凭的人能持续把事做对，什么样的社会安排才会承认他？",
+      "text_en": "**What is a licence still guarding**: once competence can be rented by the call, a profession rarely loosens its entry requirements — it tends to lean harder on licences to mark the boundary. So does a certificate attest to capability, or to having waited in the right queue? If someone with no credential can get the work right again and again, what arrangement would ever let that count?"
+    }
+  ]
+}

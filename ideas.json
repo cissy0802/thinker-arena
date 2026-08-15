@@ -236,15 +236,6 @@
       "cat": "life"
     },
     {
-      "id": "entry-jobs-and-apprenticeship",
-      "votes": 0,
-      "q": "当 AI 把入门级的活都做完，新人还怎么学会本事？",
-      "q_en": "When AI finishes all the entry-level work, how does anyone still learn the trade?",
-      "note": "学徒制、实习与那些『笨办法』还留不留得住？　判断力靠『在真实处境里选择、承担、然后被结果修改』一点点养成，而这些小决定正被整批外包给模型：初级律师不再逐条改合同，新程序员不再蹲着调 bug，新记者不再去跑那些最没意思的会。组织该不该刻意保留一批『效率更低、但必须自己做』的活当训练场，还是说这只是老一代的怀旧，新的本事会以我们认不出的形式长出来？也含一个更硬的分支：一个从不让你独立签字的岗位，待遇再好该不该走。波兰尼的默会知识、桑内特的匠艺、德韦克的成长心态、亚里士多德的实践智慧、王阳明的事上磨练，以及行会学徒制的真实历史，都可入场。",
-      "note_en": "Judgement is grown slowly by choosing in a real situation, carrying the consequence and then being altered by the result — and those small decisions are now being outsourced wholesale to models: junior lawyers no longer mark up contracts clause by clause, new programmers no longer sit with a bug, new reporters no longer cover the dullest meetings. Should organisations deliberately reserve a set of less efficient tasks that must be done by hand, as a training ground? Or is that one generation's nostalgia, and capability will regrow in a form we do not recognise? A harder branch follows: should you leave a job that never lets you sign for anything, however well it pays? Polanyi on tacit knowledge, Sennett on craftsmanship, Dweck on the growth mindset, Aristotle's practical wisdom, Wang Yangming on polishing yourself on real affairs, and the actual history of guild apprenticeship all belong here.",
-      "cat": "work"
-    },
-    {
       "id": "who-bears-the-bet",
       "votes": 0,
       "q": "谁有权拿别人的人生下注？",
@@ -324,6 +315,15 @@
       "note": "会照开、表照填、人人被需要，却没有一件事会因为你缺席而不成立。组织能不能批量制造出仪式性的岗位来维持活力？一个人怎么分辨自己每天做的事是被真实需要，还是被造出来让他有事做——而如果分辨出来了，又该拿这个答案怎么办。",
       "note_en": "The meetings still held, the forms still filed, everyone needed — and nothing that would fail to happen in your absence. Can an organization manufacture ceremonial posts wholesale in order to keep itself busy? How does a person tell whether what they do each day is genuinely required or produced so they have something to do — and what should they do with the answer once they have it?",
       "cat": "work"
+    },
+    {
+      "id": "credentials-and-licences",
+      "votes": 0,
+      "q": "文凭和执照，到底在保护谁？",
+      "q_en": "Diplomas and licences: whom do they actually protect?",
+      "note": "医生、律师、教师、电工都要持牌，理由是保护外行免于庸手；可同一道门也把想进来的人挡在外面，并替在里面的人维持稀缺。一张证书证明的究竟是能力，还是排过队的资格？当能力越来越能被按次租用、一个没有任何文凭的人可以持续把事做对，什么样的社会安排才会承认他——作品集、公开的实绩、还是必须再考一次？也含一条更硬的分支：取消准入会不会先伤到最没有议价能力的人。可带进伊里奇的去学校化与专业垄断、斯密对行会的抨击、韦伯的科层与文凭制、以及行医与建筑执照的真实事故史。",
+      "note_en": "Doctors, lawyers, teachers and electricians all need a licence, on the ground that laymen must be protected from incompetents; yet the same door keeps out those who want in and preserves scarcity for those already inside. Does a certificate attest to capability, or to having stood in the right queue? As competence becomes rentable by the call and someone with no diploma can get the work right again and again, what arrangement would ever let that count — a portfolio, a public track record, or one more examination? A harder branch follows: would abolishing entry requirements hurt first the people with the least bargaining power? Illich on deschooling and professional monopoly, Smith's attack on the guilds, Weber on bureaucracy and credentialism, and the real accident history behind medical and building licences all belong here.",
+      "cat": "ethics"
     }
   ],
   "debated": [
@@ -914,6 +914,13 @@
       "q_en": "Does material abundance lead to decline?",
       "date": "2026-08-14",
       "cat": "ethics"
+    },
+    {
+      "id": "entry-jobs-and-apprenticeship",
+      "q": "AI 做完入门的活，新人怎么学本事？",
+      "q_en": "If AI does the entry-level work, how do novices learn?",
+      "date": "2026-08-15",
+      "cat": "work"
     }
   ]
 }

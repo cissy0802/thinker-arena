@@ -143,6 +143,30 @@ def _casting_tone_tail(d):
     return "%d/%d" % (hit, len(cs))
 
 
+_TH_CAT = {t["id"]: t.get("cat", "?") for t in json.load(open("thinkers.json"))["thinkers"]}
+
+
+def _answer_slot(hooks):
+    """带可点开答案表的钩子排在钩子列表的第几条。ENGINE 限每场至多 1 条，
+    『钩子带答案表』只数有没有；这一维照出的是它的位置——每场都压在最后一条
+    （或每场都排头一条），同样是一副没被编码过的模子。"""
+    if not hooks:
+        return "-"
+    slots = [i + 1 for i, h in enumerate(hooks) if h.get("answer")]
+    return ("%s/%d" % (",".join(map(str, slots)), len(hooks))) if slots else "-/%d" % len(hooks)
+
+
+def _closing_cat(posts):
+    """收尾帖发言者所属的名册类别。谁说最后一句，读者记得最牢；若每场都固定由
+    同一路人（最常见的是东方古人念一段文言收束）压轴，整个系列的结尾就是同一种腔调。
+    它不在人数、不在反驳结构、也不在措辞指纹里，静态规则查不出，只能逐场比。"""
+    if not posts:
+        return "-"
+    last_round = max(p["round"] for p in posts)
+    tail = [p for p in posts if p["round"] == last_round]
+    return _TH_CAT.get(tail[-1]["thinker"], "?") if tail else "-"
+
+
 def feats(d):
     posts = d.get("posts", [])
     rounds = sorted({p["round"] for p in posts})
@@ -185,6 +209,11 @@ def feats(d):
         "二轮火力散布": "%d/%d" % (r2_targets, len(r2)) if r2 else "-",
         # 带可点开答案表的钩子数（ENGINE 限每场至多 1；每场都恰好 1 也是一种定型，宁缺毋滥）
         "钩子带答案表": sum(1 for h in hooks if h.get("answer")),
+        # 带答案表的钩子排在第几条（『答案永远压轴』也是一种没被编码过的定型；-/N＝本场没有）
+        "答案表位次": _answer_slot(hooks),
+        # 收尾帖发言者所属的名册类别。每场都让同一路人（尤其东方古人）说最后一句，
+        # 是一处静态规则查不出的收束定型：结尾的分量该随议题给不同传统，别固定归谁。
+        "收尾帖类别": _closing_cat(posts),
         "表态档集合": tuple(sorted(rk)),
         "用了疑惑": "疑惑" in rk,
         "带glossary帖数": sum(1 for p in posts if p.get("glossary")),
@@ -219,7 +248,7 @@ print("=" * 70)
 print("形状自评 ·", tid, "· 对比最近", len(R), "场:", "、".join(eid for eid, _ in R) or "(无)")
 print("=" * 70)
 
-SCALARS = ["人数","轮数","每轮帖数","钩子数","钩子分布","钩子作者类型","钩子带答案表","选角语气收尾","二轮全反一轮","二轮同轮追击","二轮点名起手","二轮火力散布","轮内照抄顺序","首轮全独白","表态档集合",
+SCALARS = ["人数","轮数","每轮帖数","钩子数","钩子分布","钩子作者类型","钩子带答案表","选角语气收尾","二轮全反一轮","二轮同轮追击","二轮点名起手","二轮火力散布","轮内照抄顺序","首轮全独白","答案表位次","收尾帖类别","表态档集合",
            "用了疑惑","带glossary帖数","术语加粗","古文帖数","建议带①②③","帖均加粗处","加粗处分布","总结膨胀比","总结数数起手","总结列清单","总结转日常"]
 flags = []
 print("\n%-14s %-22s %s" % ("维度", "本场", "最近几场"))

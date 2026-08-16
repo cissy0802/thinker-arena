@@ -110,15 +110,6 @@
       "cat": "ethics"
     },
     {
-      "id": "test-loyalty",
-      "votes": 0,
-      "q": "忠诚该不该被考验？",
-      "q_en": "Should loyalty be tested — and is a trust that holds only while unverified really trust at all?",
-      "note": "一段只有在不被验证时才成立的信任，算不算真的信任？　有人设局（雇假第三者）去测忠诚，得出『人性经不起考验』；但设局是选择偏差＋优化过的对抗攻击＋钓鱼制造机会，测不到真东西。更根本的是：暗中考验已把信任换成了监控，而且『以欺骗求诚实』自相矛盾——你先做了你最怕对方做的事。康德（把人当工具、欺骗的悖论）、亚里士多德（一次设局测不出稳定德性）、博弈论（信任是一种代价高昂的信号）、儒家的『诚』与『信』正面交锋。　相邻的一问：何时该先示信、何时该先设防？判据也许不在对方是不是好人，而在这段关系还会不会重复、这一步收不收得回——先看可逆性，再看重复性，最后才轮到对方是谁。 也含一个来自神经科学的转向：信任究竟落在『你很懂我』还是『你和我一起承担了后果』上——若是后者，远程、外包、分散在六个时区的协作就在结构上拆掉了共同暴露的机会，这样的关系还长不长得出信任。",
-      "note_en": "Some set a trap (hiring a fake third party) to test loyalty and conclude 'human nature can't withstand testing'; but the trap is selection bias plus an optimized adversarial attack plus entrapment that manufactures the opportunity — it can't measure the real thing. More fundamentally: covert testing has already swapped trust for surveillance, and 'seeking honesty through deception' is self-contradictory — you've done the very thing you feared. Kant (treating people as means; the paradox of deception), Aristotle (one staged trap can't reveal settled virtue), game theory (trust as a costly signal), and the Confucian 'sincerity' and 'trust' meet head-on. An adjacent question: when should you extend credit first, and when cover yourself first? The test may not be whether the other person is good but whether the relationship repeats and whether the step can be taken back — reversibility first, repetition second, who they are only after that. It also carries a turn from neuroscience: does trust land on 'you understand me' or on 'you carried the consequence alongside me'? If the latter, then remote, outsourced and platform-mediated work dismantles the occasions for shared exposure at a structural level, and the question becomes whether such a relationship can grow trust at all.",
-      "cat": "life"
-    },
-    {
       "id": "moral-universals-or-relativism",
       "votes": 0,
       "q": "有没有放之四海皆准的美德，还是善恶本就因文化、时代而异？",
@@ -222,8 +213,8 @@
       "votes": 0,
       "q": "仪式还有用吗？",
       "q_en": "Do rituals still do anything?",
-      "note": "在一个不太信神的时代，礼仪的正当性从哪里来？涂尔干说仪式制造的是共同体而非神迹，人类学看它标记身份的转换，心理学看它给不确定的情绪一个形状与终点。可代价是真实：走过场的婚礼、被指标化的葬礼、公司的团建。哪些仪式该保留、该改造、该废掉——判据是什么？",
-      "note_en": "Weddings, funerals, anniversaries, opening ceremonies: empty forms and social obligation, or scaffolding the mind cannot do without? In an age that largely does not believe in gods, where does the legitimacy of ritual come from? Durkheim held that rites manufacture community rather than miracles; anthropology reads them as markers of transitions in status; psychology sees them giving formless emotion a shape and an end. The cost is authenticity: the wedding gone through by rote, the funeral reduced to a checklist, the corporate away-day. Which rites should be kept, which reworked, which abolished — and by what test?",
+      "note": "在一个不太信神的时代，礼仪的正当性从哪里来？涂尔干说仪式制造的是共同体而非神迹，人类学看它标记身份的转换，心理学看它给不确定的情绪一个形状与终点。可代价是真实：走过场的婚礼、被指标化的葬礼、公司的团建。哪些仪式该保留、该改造、该废掉——判据是什么？　也含一个来自『忠诚该不该被考验』的角度：婚礼誓词、入职宣誓、公开许诺，都是当众进行、双方知情的检验——它们也许根本不在测量已有的承诺，而是在生产承诺：让人当着众人付出一笔收不回的代价，从此难以反悔。若仪式的功能是制造不可撤销，那么在一个什么都能撤回的时代，它该怎么重做？",
+      "note_en": "Weddings, funerals, anniversaries, opening ceremonies: empty forms and social obligation, or scaffolding the mind cannot do without? In an age that largely does not believe in gods, where does the legitimacy of ritual come from? Durkheim held that rites manufacture community rather than miracles; anthropology reads them as markers of transitions in status; psychology sees them giving formless emotion a shape and an end. The cost is authenticity: the wedding gone through by rote, the funeral reduced to a checklist, the corporate away-day. Which rites should be kept, which reworked, which abolished — and by what test? It also carries an angle from the debate on testing loyalty: wedding vows, oaths of office and promises made in public are all examinations conducted before witnesses with both parties fully informed — and they may not measure an existing commitment at all but manufacture one, by extracting a cost in public that cannot be recovered, after which going back becomes hard. If the function of ritual is to make something irrevocable, how should it be rebuilt in an age where almost everything can be undone?",
       "cat": "life"
     },
     {
@@ -324,6 +315,15 @@
       "note": "医生、律师、教师、电工都要持牌，理由是保护外行免于庸手；可同一道门也把想进来的人挡在外面，并替在里面的人维持稀缺。一张证书证明的究竟是能力，还是排过队的资格？当能力越来越能被按次租用、一个没有任何文凭的人可以持续把事做对，什么样的社会安排才会承认他——作品集、公开的实绩、还是必须再考一次？也含一条更硬的分支：取消准入会不会先伤到最没有议价能力的人。可带进伊里奇的去学校化与专业垄断、斯密对行会的抨击、韦伯的科层与文凭制、以及行医与建筑执照的真实事故史。",
       "note_en": "Doctors, lawyers, teachers and electricians all need a licence, on the ground that laymen must be protected from incompetents; yet the same door keeps out those who want in and preserves scarcity for those already inside. Does a certificate attest to capability, or to having stood in the right queue? As competence becomes rentable by the call and someone with no diploma can get the work right again and again, what arrangement would ever let that count — a portfolio, a public track record, or one more examination? A harder branch follows: would abolishing entry requirements hurt first the people with the least bargaining power? Illich on deschooling and professional monopoly, Smith's attack on the guilds, Weber on bureaucracy and credentialism, and the real accident history behind medical and building licences all belong here.",
       "cat": "ethics"
+    },
+    {
+      "id": "who-gets-watched",
+      "votes": 0,
+      "q": "监控为什么总是朝下查？",
+      "q_en": "Why does scrutiny always run downhill?",
+      "note": "被查的几乎总是位置更低的那一方：员工被背调、被绩效监控、被试用期，老板不被；保姆工作的家里装着摄像头，雇主家里没有；孩子的手机被翻，父母的不被。若『该不该核查』在实践中等于『上位者该不该用这项特权』，那么正当性是不是该用一条对等性判据来判——这项核查能不能反过来施加给提出它的人？还有一层现实的推力：当协作被拆到远程、外包、跨时区，一起挨骂、一起熬夜这些共同暴露的机会先没了，组织于是改用监控去补那个缺口——补得上吗，还是只是把成本换了个地方付？边沁的全景敞视、福柯的规训、法家的『察必有法』与信任的生理基础在此相撞。",
+      "note_en": "The person checked is almost always the one lower down: employees get background checks, performance monitoring and probation periods while their bosses do not; there is a camera in the house where the nanny works and none in the employer's; the child's phone is searched and the parent's is not. If 'should there be verification' amounts in practice to 'should those above use this privilege', should legitimacy be settled by a reciprocity test — can this piece of scrutiny be turned around on whoever proposed it? There is also a structural push behind it: once work is broken into remote, outsourced, cross-time-zone pieces, the occasions for shared exposure disappear first and organisations reach for surveillance to plug the gap. Does it plug, or does it merely move where the cost is paid? Bentham's panopticon, Foucault on discipline, the Legalist demand that inspection follow public statute, and the physiology of trust all collide here.",
+      "cat": "work"
     }
   ],
   "debated": [
@@ -921,6 +921,13 @@
       "q_en": "If AI does the entry-level work, how do novices learn?",
       "date": "2026-08-15",
       "cat": "work"
+    },
+    {
+      "id": "test-loyalty",
+      "q": "忠诚该不该被考验？",
+      "q_en": "Should loyalty be tested — and is a trust that holds only while unverified really trust at all?",
+      "date": "2026-08-16",
+      "cat": "life"
     }
   ]
 }

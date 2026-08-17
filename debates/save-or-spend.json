@@ -1,0 +1,979 @@
+{
+  "id": "save-or-spend",
+  "question": "钱该省下来滚复利，还是该花掉？",
+  "question_en": "Should money be saved to compound, or spent?",
+  "sub": "为将来的自己牺牲现在的自己，能牺牲到什么程度？",
+  "sub_en": "How much of your present self should be spent on your future self?",
+  "date": "2026-08-17",
+  "participants": [
+    "duanyongping",
+    "keynes",
+    "thaler",
+    "sushi",
+    "redish",
+    "bauman",
+    "carstensen",
+    "seneca",
+    "nagarjuna"
+  ],
+  "casting": [
+    {
+      "id": "duanyongping",
+      "reason": "他不接受把问题问成『省还是花』。在他看来钱是挣出来的，省下来的那一块若让你不敢辞掉一份烂工作，它就是负资产；而复利真正的敌人也不是花钱，是中断——被迫在低点卖出、被一场病打断、被一门自己不懂的生意套牢。他的做法是先备足几年不工作也饿不着的现金，剩下的只放进真看懂的少数公司，然后长期不动；健康、学习和几个真在乎的人，他从不还价。",
+      "reason_en": "He refuses the question as posed. Money, in his view, is earned rather than economised into existence, and a dollar set aside becomes a liability the moment it is the reason you dare not quit a bad job. The real enemy of compounding is not spending but interruption — being forced to sell at the bottom, being cut short by illness, being trapped in a business you never understood. So he holds several years of living costs in cash, puts the rest only into the few companies he genuinely understands and then leaves them alone, and never haggles over health, learning, or the handful of people he actually cares about."
+    },
+    {
+      "id": "keynes",
+      "reason": "他把镜头拉到总量上：每个家庭多存一百块在个体上是审慎的，所有人同时这么做却会压低收入，最后连储蓄总额一起下降——这就是节俭悖论。他还坚持一个常被混同的区分：储蓄不创造资本，投资才创造，省下来却没人肯投的钱只是一份不肯说出口的悲观。至于积累本身，他一向认为把爱钱当作一种占有欲是病态的，财富唯一体面的用途是换成生活与他人的工作机会。",
+      "reason_en": "He pulls the lens back to the aggregate: one household saving more is prudent, but every household doing it at once depresses incomes until even total savings fall — the paradox of thrift. He also insists on a distinction that is constantly blurred: saving does not create capital, investment does, and money set aside that nobody will put to work is merely pessimism that declines to speak its name. As for accumulation itself, he long held that the love of money as a possession is a morbidity, and that the only decent use of wealth is to convert it into living and into work for other people."
+    },
+    {
+      "id": "thaler",
+      "reason": "他带来的是数据里那个矛盾的普通人：既存得太少，又乱花得太多，两件事同时为真。他不认为这是懒或贪，而是心理账户在作祟——同一笔钱贴上『奖金』还是『工资』的标签，花掉的概率天差地别。因此他反对劝人自律，主张改默认值：把储蓄自动化，把未来的加薪预先承诺给未来的自己，再给放纵划一个有边界的账户，让人只需要下决心一次。",
+      "reason_en": "He brings the contradictory ordinary person the data actually shows: someone who saves too little and spends too carelessly, both at once. He reads this not as laziness or greed but as mental accounting at work — the same money labelled 'bonus' rather than 'salary' has a wildly different chance of being spent. So he argues against exhorting people to self-discipline and for changing defaults: automate the saving, commit future raises to the future self in advance, and fence indulgence inside a bounded account so that a person only has to decide once."
+    },
+    {
+      "id": "sushi",
+      "reason": "他两头都做过。贬谪黄州、俸禄断绝时，他把每月的钱分成三十份挂在房梁上，规定一天用不过一百五十文；同一个人在赤壁夜游时说，江上的清风与山间的明月取之无禁、用之不竭，是造物者的无尽藏。于是他给出的不是折中而是一个转向：最好的享受本来就不花钱，一旦这一点成立，省下的自然够用，花掉的也自然不心疼。",
+      "reason_en": "He has lived both halves. Exiled to Huangzhou with his stipend cut off, he divided each month's cash into thirty portions hung from a roof beam and held himself to a hundred and fifty coins a day; the same man, boating below the Red Cliff, said that the breeze on the river and the moon over the hills may be taken without prohibition and used without exhausting them — an inexhaustible treasury of the maker of things. What he offers is therefore not a compromise but a pivot: the best pleasures never cost anything, and once that holds, what is saved turns out to be enough and what is spent no longer stings."
+    },
+    {
+      "id": "redish",
+      "reason": "他把储蓄失败从道德问题挪回机制问题。在他的实验室里，做决定的不是一个统一的『你』，而是几套并行的系统：反射的、习惯的，以及会在岔路口停下来逐格模拟未来的预演系统；冲动消费多半是习惯系统被熟悉的情境线索触发，预演系统压根没被叫醒。他同时提醒一件容易被漏掉的事——他关于后悔的研究说明，忍住不买也是有代价的，自我约束该省着用在真会毁掉你的那几件事上。",
+      "reason_en": "He moves failures of saving out of morality and back into mechanism. In his lab the decider is not a unified 'you' but several parallel systems — reflexive, habitual, and a deliberative one that pauses at a fork and simulates the future step by step; impulsive spending is usually the habit system fired by a familiar cue while deliberation never wakes up. He also flags something easily missed: his work on regret implies that not buying carries a cost of its own, so self-binding should be spent on the few things that can actually ruin you."
+    },
+    {
+      "id": "bauman",
+      "reason": "他认为把省与花摆成个人选择题，本身就是问题的一部分。在液态现代性里，生病、失业、老去这些原本由共同体一起扛的不确定被整个私有化了，于是储蓄不再是美德而是恐惧的存款形式，消费也不是享受而是不掉队的会费。他尤其警惕『投资自己』这句话：它把人讲成一件必须持续增值的商品，连休息都像在贬值。",
+      "reason_en": "For him, framing thrift versus spending as a personal choice is already part of the problem. Under liquid modernity the uncertainties a community once carried together — illness, unemployment, old age — have been privatised wholesale, so saving stops being a virtue and becomes fear in deposited form, while consumption stops being pleasure and becomes the membership fee for not falling behind. He is especially wary of the phrase 'invest in yourself': it recasts a person as a commodity obliged to keep appreciating, until even resting feels like depreciation."
+    },
+    {
+      "id": "carstensen",
+      "reason": "她指出复利算式里藏着一个没写出来的假设：时间无限。她的社会情绪选择理论说，人的动机随着感知到的剩余时间变化——视野开阔时偏好探索与拓展，视野收窄时转向最亲近的人与确定的意义。由此她主张储蓄率不该是一个常数，而该是一条随年龄变形的曲线，并对一个少被讨论的浪费格外在意：许多人到晚年守着不敢动的资产，直到去世时账户还在增长。",
+      "reason_en": "She points to the assumption the compounding formula never writes down: that time is unlimited. Her socioemotional selectivity theory holds that motivation shifts with how much time a person perceives as remaining — broad horizons favour exploration and expansion, narrowing ones turn toward the closest people and settled meaning. From this she argues that a savings rate should not be a constant but a curve that changes shape with age, and she is unusually attentive to a rarely discussed waste: people who guard untouchable assets into old age while their accounts are still growing on the day they die."
+    },
+    {
+      "id": "seneca",
+      "reason": "他把账本翻到另一页：人守钱守得吝啬，守时间却极为挥霍，而时间才是唯一不能再生的本金。他并不反对富有——他自己极富，也因此一生背着言行不一的指控——他反对的是被财富拥有，办法是每年拿出几天真的过穷日子：粗衣、糙食、硬板床，然后问一句这就是我怕的那件事吗。在他看来，钱买下的从来不是数字，而是有一天可以说不的余地。",
+      "reason_en": "He turns to another page of the ledger: people guard money stingily and squander time lavishly, though time is the one principal that cannot be regenerated. He is not against wealth — he was enormously rich, and carried the charge of hypocrisy all his life — he is against being owned by it, and his remedy is to spend a few days each year actually poor: coarse cloth, plain food, a hard bed, and the question, is this the thing I feared? Money, on his account, never buys a number; it buys the standing to say no."
+    },
+    {
+      "id": "nagarjuna",
+      "reason": "他不站在省或花的任何一边，而是拆掉两边共用的那根柱子。为将来的我省钱，预设了一个从现在延续到将来的实在的我；可将来的我与此刻的我若是同一个，就无所谓将来，若是两个，那便是此人受苦而彼人受乐。他以二谛作答：世俗谛中粮当储、药当备、因果不虚，胜义谛中能存之人、所存之财与存这件事都待缘而立，无一自性可得——空不是不作，正因无自性，一切才可改可作。",
+      "reason_en": "He takes neither side, and instead removes the pillar both sides stand on. Saving for one's future self presupposes a real self persisting from now into then; yet if that later self is identical to the present one there is no 'later' to save for, and if they are two, then one person suffers so that another may enjoy. His answer runs through the two truths: conventionally, grain should be stored and medicine kept, and cause and effect hold without exception; ultimately, the one who saves, the money saved and the act of saving all arise dependently and none possesses an essence of its own — emptiness is not inaction, for it is precisely the absence of fixed essence that makes anything changeable at all."
+    }
+  ],
+  "posts": [
+    {
+      "id": "p01",
+      "round": 1,
+      "thinker": "duanyongping",
+      "reply_to": null,
+      "text": "我不太喜欢『省』这个字。钱是挣出来的，不是省出来的；省下的一块钱，如果让你不敢辞掉一份烂工作，那它就是负资产。复利真正的敌人也不是花钱，是中断——被迫在最低点卖出、被一场病打断、被一门自己不懂的生意套牢。所以我先备足两年不工作也饿不着的现金，剩下的只买真看懂的几家公司，然后什么都不做。**能一直不被打断地拿住，才叫复利；随时会被打断的，那只是运气。**至于花，健康、学习和几个真在乎的人，我从不还价。",
+      "text_en": "I have never liked the word 'thrift'. Money is earned, not economised into existence, and a dollar you have set aside is a liability if it is the reason you dare not quit a bad job. The real enemy of compound interest is not spending either — it is interruption: being forced to sell at the bottom, being cut short by an illness, being trapped in a business you never understood. So I first put aside two years of living costs in cash, put the rest only into the few companies I genuinely understand, and then do nothing. **Only what you can hold without interruption compounds; whatever can be cut short at any moment is just luck.** As for spending, on health, on learning, and on the few people I actually care about, I never haggle.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "复利": "compound interest（复利）：本金产生的收益再投进去，下一期连同收益一起生息，因而增长是指数式而非线性的。它的全部威力都来自时间的连续——中途取出或被迫卖出一次，指数曲线就得从头再来。"
+      },
+      "glossary_en": {
+        "compound interest": "Returns are reinvested so that each period earns on the principal plus every prior gain, making growth exponential rather than linear. All of its power comes from unbroken time — withdraw once, or be forced to sell once, and the curve starts over."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "thaler",
+          "seneca"
+        ],
+        "强烈反对": [
+          "bauman"
+        ],
+        "中立": [
+          "carstensen"
+        ],
+        "疑惑": [
+          "nagarjuna"
+        ]
+      }
+    },
+    {
+      "id": "p02",
+      "round": 1,
+      "thinker": "keynes",
+      "reply_to": null,
+      "text": "个人的美德，加起来常常是社会的灾难。你们每人少花一百块存起来，商店的收入就少一百块，店主便裁掉雇员，而被裁的人正是你们的顾客——这就是节俭悖论：全体一起节俭，结果是全体一起变穷，储蓄总额不升反降。还有一个总被混为一谈的区分：**储蓄本身不创造资本，投资才创造；省下来却没人肯拿去建点什么的钱，只是一份不肯说出口的悲观。**至于我那句长期我们都死了，从来不是劝人及时行乐，而是骂那些说长期自会好起来的经济学家：风暴里告诉别人风暴过后海面自会平静，这算什么本事。",
+      "text_en": "Private virtue, summed up, is often public catastrophe. Each of you spends a hundred less and banks it; the shop takes a hundred less, the shopkeeper lays off staff, and the person laid off was your customer — this is the paradox of thrift: everyone economising together makes everyone poorer together, and total savings fall rather than rise. There is also a distinction that is forever blurred: **saving creates no capital, investment does; money set aside that nobody will use to build anything is merely pessimism that declines to speak its name.** As for my line that in the long run we are all dead, it was never advice to seize the day. It was aimed at economists who say the long run will sort itself out — telling people in a storm that the sea will be calm once the storm has passed is no great feat.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "节俭悖论": "paradox of thrift（节俭悖论）：凯恩斯指出的宏观现象——单个家庭增加储蓄是审慎的，但所有人同时这么做会压低总需求与收入，最终连储蓄总额也一起下降。它成立的前提是需求不足、产能闲置，并非任何时候都适用。"
+      },
+      "glossary_en": {
+        "paradox of thrift": "The macroeconomic effect Keynes identified: one household saving more is prudent, but every household doing so at once suppresses demand and income until even aggregate saving declines. It holds when demand is deficient and capacity idle, not at all times."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "bauman"
+        ],
+        "轻微赞同": [
+          "thaler"
+        ],
+        "轻微反对": [
+          "duanyongping"
+        ],
+        "中立": [
+          "redish"
+        ],
+        "疑惑": [
+          "sushi"
+        ]
+      }
+    },
+    {
+      "id": "p03",
+      "round": 1,
+      "thinker": "thaler",
+      "reply_to": "p01",
+      "text": "段先生说钱是挣出来的，我同意一半——数据显示多数人的麻烦恰恰在挣到之后：既存得太少，又乱花得太多，两件事同时为真。原因不是懒或贪，是我们脑子里有一堆心理账户：年终奖是天上掉的，可以挥霍；工资是正经钱，要省着；**同一笔钱换个标签，花法完全不同**。所以别再劝人自律了，去改默认值。我们做过一个方案，让人预先承诺把将来每次加薪的一部分自动转入储蓄——现在不痛，涨薪时才生效，参与者的储蓄率在三年多里从约百分之三点五升到百分之十三点六。要改变行为，先改环境，别改性格。",
+      "text_en": "Mr Duan says money is earned, and I agree with half of that — the data say most people's trouble begins after it is earned: they save too little and spend too carelessly, both at once. The cause is neither laziness nor greed but mental accounting: a year-end bonus is money from the sky and may be blown, salary is serious money and must be guarded, and **the same sum with a different label gets spent in wildly different ways**. So stop urging people to be disciplined and change the defaults instead. We ran a programme in which people committed in advance to routing part of every future pay rise straight into savings — nothing hurts now, it bites only when the raise arrives — and over some three years participants' savings rate went from about three and a half per cent to thirteen point six. To change behaviour, change the environment, not the character.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "心理账户": "mental accounting（心理账户）：人会把钱按来源和用途分进不同的心理抽屉，各自记账、互不相通，因此同一笔钱贴上『奖金』还是『工资』的标签，被花掉的概率大不相同。这违反经济学里钱可互换的假设，却是真实的决策方式。"
+      },
+      "glossary_en": {
+        "mental accounting": "People file money into separate mental drawers by where it came from and what it is for, keeping the books apart, so the same sum labelled 'bonus' rather than 'salary' has a very different chance of being spent. It violates the economist's assumption that money is fungible, and describes how people actually decide."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "redish"
+        ],
+        "轻微赞同": [
+          "carstensen",
+          "duanyongping"
+        ],
+        "轻微反对": [
+          "bauman"
+        ],
+        "中立": [
+          "keynes"
+        ]
+      }
+    },
+    {
+      "id": "p04",
+      "round": 1,
+      "thinker": "sushi",
+      "reply_to": null,
+      "text": "吾谪居黄州，俸入既绝，乃痛自节俭，日用不得过百五十。每月朔取四千五百钱，断为三十块，挂之屋梁，平旦以画叉挑取一块，即藏去叉；用不尽者别贮之，以待宾客。此吾之节也。然节非吝。夜游赤壁，客悲吾生之须臾，吾语之曰：**惟江上之清风，与山间之明月，耳得之而为声，目遇之而成色，取之无禁，用之不竭，是造物者之无尽藏也。**天下之至乐，本不待钱；既不待钱，则所省者自足，所费者自轻。",
+      "text_en": "Banished to Huangzhou with my stipend cut off, I forced myself into strict thrift: no more than a hundred and fifty coins a day. On the first of each month I drew four thousand five hundred coins, divided them into thirty portions and hung them from a roof beam; at daybreak I lifted one down with a painted fork and then put the fork away. Whatever a day left over was stored separately, against the arrival of guests. That was my economy. Yet economy is not miserliness. Boating below the Red Cliff at night, my guest lamented how brief a life is, and I said to him: **only the breeze on the river and the moon over the hills — the ear receives them as sound, the eye meets them as colour, they may be taken without prohibition and used without exhausting them; this is the inexhaustible treasury of the maker of things.** The finest joys under heaven never waited on money; and once they do not, what is saved proves enough and what is spent stops stinging.",
+      "vernacular": "我被贬到黄州，俸禄断了，就狠下心节俭，规定每天花销不超过一百五十文。每月初一取出四千五百钱，分成三十份挂在房梁上，天亮用画叉挑一份下来，随手把叉子收起来；一天用不完的另外存好，留着招待客人。这是我的『节』。可节俭不等于吝啬。那年夜游赤壁，客人感叹人生短促，我对他说：**只有江上的清风、山间的明月，耳朵听见就成了声音，眼睛看见就成了颜色，取用没人禁止，怎么用也用不完，这是造物者无穷无尽的宝藏。**天下最好的快乐，本来就不用花钱；既然不用花钱，省下的自然够用，花出去的也自然不心疼。",
+      "vernacular_en": "",
+      "glossary": {
+        "无尽藏": "inexhaustible treasury（无尽藏）：佛教语，原指佛法功德无穷无尽、取之不竭。苏轼在《赤壁赋》里借它形容清风明月这类无主而不可耗尽的享受，实际把『占有』与『享用』分了开来：不占有反而永远用不完。"
+      },
+      "glossary_en": {
+        "inexhaustible treasury": "A Buddhist expression for merit that can never be used up. Su Shi borrows it in his Red Cliff rhapsody for pleasures like wind and moonlight, which belong to nobody and cannot be depleted — quietly separating owning from enjoying, since what is never owned can never run out."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "seneca",
+          "nagarjuna"
+        ],
+        "轻微赞同": [
+          "carstensen"
+        ],
+        "中立": [
+          "thaler"
+        ],
+        "轻微反对": [
+          "bauman"
+        ]
+      }
+    },
+    {
+      "id": "p05",
+      "round": 1,
+      "thinker": "redish",
+      "reply_to": null,
+      "text": "先把词定义清楚。你在便利店伸手去拿那罐饮料时，做决定的不是一个统一的『你』，而是几套并行的系统：反射的、习惯的，还有一套会在岔路口停下来、一格一格模拟未来的预演系统。储蓄失败通常不是意志力不够，而是习惯系统被熟悉的情境线索抢先触发，预演系统压根没被叫醒。而且人的贴现是双曲折现的形状：一年后和一年零一周后你毫不在乎，明天和后天你却翻脸。**所以别在刷卡的那一秒跟自己较劲——那一秒你已经输了；要在冷静的时候，替那个热的你把选项砍掉。**",
+      "text_en": "Let me define the terms first. When you reach for that drink in a convenience store, the decider is not a unified 'you' but several parallel systems: a reflexive one, a habitual one, and a deliberative one that stops at a fork and simulates the future step by step. Failing to save is usually not a shortage of willpower; it is the habit system firing first on a familiar cue while deliberation is never woken up. And human discounting has the shape of hyperbolic discounting: you are indifferent between a year from now and a year and a week from now, yet you will fight over tomorrow versus the day after. **So do not wrestle with yourself in the second before you tap the card — by that second you have lost; cut the options away while you are cool, on behalf of the version of you that will be hot.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "双曲折现": "hyperbolic discounting（双曲折现）：人对未来收益的贴现率并不恒定，越靠近当下贬值越陡。这使偏好会随时间反转——今天你为下个月订下节俭计划，等下个月真的到了眼前，同一个人又会选择立刻花掉。"
+      },
+      "glossary_en": {
+        "hyperbolic discounting": "People do not discount the future at a constant rate; value drops off far more steeply near the present. Preferences therefore reverse over time — today you set a frugal plan for next month, and when next month arrives the same person chooses to spend it now."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "thaler"
+        ],
+        "轻微赞同": [
+          "seneca"
+        ],
+        "疑惑": [
+          "sushi"
+        ],
+        "中立": [
+          "keynes"
+        ],
+        "轻微反对": [
+          "nagarjuna"
+        ]
+      }
+    },
+    {
+      "id": "p06",
+      "round": 1,
+      "thinker": "bauman",
+      "reply_to": null,
+      "text": "你们在争一个被摆错位置的问题。省还是花，被端上来像一道个人选择题，可它从来不是。**过去由共同体一起扛的不确定——生病、失业、老去——如今被整个私有化了，于是每个人都得独自攒出一张只属于自己的安全网。**在这种液态现代性里，储蓄不是美德，是恐惧的存款形式；消费也不是享受，是不掉队的会费。更狡猾的是那句『投资自己』：它把人也讲成一件必须持续增值的商品，休息一天都像在贬值。所以真正该问的不是你存了多少，而是这张网为什么非得你一个人织。",
+      "text_en": "You are arguing about a question that has been put in the wrong place. Thrift or spending is served up as a personal choice, and it never was one. **The uncertainties a community once carried together — illness, unemployment, growing old — have been privatised wholesale, so each person is left to weave a safety net that belongs to them alone.** Under this liquid modernity, saving is not a virtue but fear in deposited form, and consumption is not pleasure but the membership fee for not falling behind. Craftier still is the phrase 'invest in yourself': it recasts a person as a commodity obliged to keep appreciating, until a day of rest feels like depreciation. The question worth asking is not how much you have put aside, but why the net has to be woven by you alone.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "液态现代性": "liquid modernity（液态现代性）：鲍曼用来概括当代社会的比喻——工作、关系、身份这些原本稳固的结构变得流动易变，来不及凝固成形就被冲散。个体因此获得空前的自由，也承担空前的不安全，而应对不安全的责任被整个推给了个人。"
+      },
+      "glossary_en": {
+        "liquid modernity": "Bauman's figure for contemporary society: work, relationships and identity, once solid structures, have turned fluid and are dissolved before they can set. Individuals gain unprecedented freedom and carry unprecedented insecurity, with the whole job of coping pushed onto them."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "keynes"
+        ],
+        "轻微赞同": [
+          "carstensen"
+        ],
+        "强烈反对": [
+          "duanyongping"
+        ],
+        "轻微反对": [
+          "sushi"
+        ],
+        "中立": [
+          "redish"
+        ]
+      }
+    },
+    {
+      "id": "p07",
+      "round": 1,
+      "thinker": "carstensen",
+      "reply_to": "p01",
+      "text": "复利的算式里藏着一个没写出来的假设：时间无限。可人不是。我把观察到的规律叫社会情绪选择理论——动机随着一个人感知到的剩余时间变化：视野开阔时，人偏好探索、结识新人、投资将来；视野一旦收窄，人立刻转向最亲近的人和确定的情感意义。这不是衰退，是重新排序。落到钱上就是：储蓄率不该是一个常数。**该攒的年纪拼命攒，该花的年纪不敢花，是这一代最普遍、也最少被讨论的浪费。**研究一再发现，许多退休者并没有如模型预期那样把积蓄花掉，到去世时资产反而还在增加。",
+      "text_en": "The compounding formula hides an assumption it never writes down: that time is unlimited. People are not. I call the pattern socioemotional selectivity theory — motivation shifts with the time a person perceives as remaining. When the horizon is broad, people prefer exploring, meeting new people, investing in what is ahead; the moment it narrows, they turn to the closest people and to settled emotional meaning. This is not decline, it is reordering. Applied to money: a savings rate should not be a constant. **Saving hard in the years for saving and then not daring to spend in the years for spending is this generation's most common and least discussed waste.** Study after study finds that many retirees never run their savings down as the models predict; their assets are still growing on the day they die.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "社会情绪选择理论": "socioemotional selectivity theory（社会情绪选择理论）：卡斯滕森提出的理论——人的目标随自己感知到的剩余时间而变。时间显得漫长时，人重视信息、探索与拓展人脉；时间显得有限时，重心转向情感深度与最亲近的关系。它解释了为何老年人平均而言反而更满意。"
+      },
+      "glossary_en": {
+        "socioemotional selectivity theory": "Carstensen's account of how goals shift with perceived remaining time. When time feels expansive, people prize information, exploration and widening their networks; when it feels limited, priority moves to emotional depth and the closest relationships. It explains why older people are, on average, more content."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "thaler",
+          "keynes"
+        ],
+        "轻微赞同": [
+          "seneca"
+        ],
+        "中立": [
+          "duanyongping"
+        ],
+        "疑惑": [
+          "nagarjuna"
+        ]
+      }
+    },
+    {
+      "id": "p08",
+      "round": 1,
+      "thinker": "seneca",
+      "reply_to": null,
+      "text": "你们把账算得极精，却漏了唯一不可再生的本金。人守钱守得吝啬，挥霍时间却毫不心疼——**在唯一值得吝啬的东西上，人人都是败家子。**财富我并不反对，我自己就极富，这也是我一生被人指着骂的地方；我反对的是被财富拥有。所以我每年留出几天，做 praemeditatio malorum：穿最粗的衣、吃最糙的饭、睡硬板床，然后问自己一句，这就是我怕的那件事吗。练过你就会发现，恐惧比匮乏本身大得多。而省下的钱，请记住它买的从来不是数字，是有一天可以说不的余地。",
+      "text_en": "You reckon your accounts to the last coin and omit the only principal that cannot be regrown. Men guard money stingily and squander time without a pang — **in the one thing worth being stingy about, everyone is a spendthrift.** I am not against wealth; I am enormously rich myself, which is what I have been pointed at and abused for all my life. What I am against is being owned by it. So I set aside some days each year for praemeditatio malorum: the coarsest cloth, the plainest food, a hard bed, and then the question — is this the thing I feared? Practise it and you find the fear is far larger than the want. And as for what you put aside, remember it never buys a number; it buys the standing, one day, to say no.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "praemeditatio malorum": "praemeditatio malorum（预演逆境）：斯多葛派的练习——提前在心里、甚至在生活里演练可能的损失（贫穷、失位、失去所爱），使它真的到来时不再是突袭。塞内卡建议每年拿出几天真过穷日子，把想象变成经验。"
+      },
+      "glossary_en": {
+        "praemeditatio malorum": "The Stoic exercise of rehearsing possible losses — poverty, loss of position, loss of those you love — in the mind and even in practice, so that their arrival is not an ambush. Seneca advises spending a few days a year genuinely poor, turning the imagined into the experienced."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sushi"
+        ],
+        "轻微赞同": [
+          "redish",
+          "duanyongping"
+        ],
+        "轻微反对": [
+          "keynes"
+        ],
+        "强烈反对": [
+          "nagarjuna"
+        ]
+      }
+    },
+    {
+      "id": "p09",
+      "round": 1,
+      "thinker": "nagarjuna",
+      "reply_to": "p05",
+      "text": "雷迪什言冷时之我与热时之我，其语甚善，然犹立二我而未破。夫所谓为将来之我而省者：将来之我，与今之我，一耶？异耶？一则无所谓将来；异则汝今受苦而彼受乐，何异代人受刑？二谛须分：**世俗谛中，米粮当储，医药当备，因果不虚；胜义谛中，能储之我、所储之财、储之一事，皆待缘而立，无一自性可得。**执省为实者，守一堆不属于任何人的数目；执花为实者，追一个从未到场的乐。二边俱破，所余惟一问：此时此处，此事当作不当作。",
+      "text_en": "Redish speaks of a cool self and a hot self, which is well said, yet he has set up two selves and left them standing. Consider what it means to save for one's future self: is that future self the same as the present one, or different? If the same, there is no 'future' to save toward; if different, then you suffer now so that another may enjoy — how does that differ from serving a stranger's sentence? Divide the two truths: **conventionally, grain is to be stored and medicine kept, and cause and effect do not fail; ultimately, the self that saves, the wealth saved and the act of saving all stand only in dependence, and not one of them holds an essence of its own.** Whoever takes thrift as real guards a heap of figures belonging to nobody; whoever takes spending as real chases a pleasure that has never once arrived. Refute both, and a single question remains: here, now, is this to be done or not?",
+      "vernacular": "雷迪什说冷静时的我和冲动时的我，这话说得好，但他立了两个『我』，还没把它们破掉。所谓为将来的我省钱——将来的我和现在的我，是同一个人，还是两个人？是同一个，就谈不上什么将来；是两个，那你现在受苦、他将来享乐，跟替别人服刑有什么区别？这里要分两个层次：**在世俗谛里，粮食该存、医药该备，因果一点不虚；在胜义谛里，那个能存钱的我、被存的钱、存钱这件事，全都是靠条件才成立的，没有一样有自己独立的本性。**把省当真的人，守着一堆不属于任何人的数字；把花当真的人，追一个从来没到场的快乐。两边都破掉之后，剩下的只有一个问题：此时此地，这件事该做还是不该做。",
+      "vernacular_en": "",
+      "glossary": {
+        "二谛": "the two truths（二谛）：中观派的分层方法——世俗谛承认因果、名言与日常约定确实有效，胜义谛则指出这一切都依条件而立、没有独立自性。两谛并非二选一：否定了世俗谛便无法生活，停在世俗谛又会把假立当作实有。"
+      },
+      "glossary_en": {
+        "the two truths": "The Madhyamaka method of two levels: conventionally, causation, language and everyday agreements genuinely work; ultimately, all of it stands only in dependence and holds no essence of its own. The two are not alternatives — deny the conventional and life becomes impossible, stop at the conventional and the merely posited gets mistaken for the real."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sushi"
+        ],
+        "疑惑": [
+          "thaler",
+          "carstensen"
+        ],
+        "轻微反对": [
+          "seneca"
+        ],
+        "中立": [
+          "bauman"
+        ]
+      }
+    },
+    {
+      "id": "p10",
+      "round": 2,
+      "thinker": "bauman",
+      "reply_to": "p01",
+      "text": "那两年的现金垫，我一点也不反对——我反对的是它必须存在。**你精心织的那张私人安全网，本身就是公共安全网被拆掉之后开出的账单。**一个社会若把医疗、失业、养老全推给个人储蓄兜底，理财能力就成了新的阶级门槛：攒得出垫子的人从容，攒不出的人被说成不自律。更妙的是同一套话术两头收钱——先劝你消费，以证明你活得漂亮；再劝你储蓄，以证明你活得负责。你选哪一边都行，焦虑反正留在你身上。",
+      "text_en": "The two years of cash I do not oppose at all — what I oppose is that it has to exist. **The private safety net you weave so carefully is itself the invoice issued after the public one was dismantled.** Where a society hands healthcare, unemployment and old age to personal savings, financial competence becomes a new class threshold: those who can build a cushion are serene, and those who cannot are told they lack discipline. Better still, the same rhetoric bills you twice — first urging you to consume, to prove you are living well; then urging you to save, to prove you are living responsibly. Take either side you like; the anxiety stays with you regardless.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "keynes"
+        ],
+        "轻微赞同": [
+          "carstensen"
+        ],
+        "轻微反对": [
+          "duanyongping"
+        ],
+        "中立": [
+          "thaler"
+        ]
+      }
+    },
+    {
+      "id": "p11",
+      "round": 2,
+      "thinker": "duanyongping",
+      "reply_to": "p02",
+      "text": "宏观账我不懂，也不打算装懂。但凯恩斯先生这套逻辑用在个人身上是危险的：为了别人的收入，去劝一个存款不足三个月的普通人别存钱，跟劝他替宏观扛风险没什么两样——真出事的那天，没人替他兜底。**我从不为经济大局做决定，也不为别人的收入花钱；我只问三件事：这生意我懂不懂，这价格贵不贵，这笔钱少了会不会打断我。**另外，说省下来的钱没人拿去建东西，那是别人的问题不是我的：我存的钱一天也没闲着，它们就在几家公司里，替我雇着人、开着工厂。",
+      "text_en": "I do not understand the aggregate accounts and I am not going to pretend otherwise. But Mr Keynes's logic is dangerous applied to a single household: telling an ordinary person with less than three months' savings to stop saving, for the sake of somebody else's income, is telling them to carry macroeconomic risk — and on the day it goes wrong, nobody carries them. **I never make a decision for the sake of the economy and never spend for the sake of another man's income; I ask three questions only: do I understand this business, is this price expensive, and would losing this money interrupt me.** And as for savings nobody puts to work — that is someone else's problem, not mine. Mine have not idled a single day; they sit inside a few companies, employing people and running factories on my behalf.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "seneca"
+        ],
+        "轻微赞同": [
+          "thaler"
+        ],
+        "强烈反对": [
+          "keynes"
+        ],
+        "轻微反对": [
+          "bauman"
+        ],
+        "中立": [
+          "redish"
+        ]
+      }
+    },
+    {
+      "id": "p12",
+      "round": 2,
+      "thinker": "carstensen",
+      "reply_to": "p10",
+      "text": "鲍曼先生说得对，但他把话停在了控诉上。制度确实该改，可活着的人等不到——**所以要拆的不只是安全网的分配，还有三段式人生本身：上学、上班、退休三块连排，把挣钱全压在中间那一段，把闲暇全堆到最后一段，两头都别扭。**寿命多出来的三十年不该整个加在末尾，该摊进中间：三十几岁请一年假去做想做的事，六十几岁再回去工作，这在百岁人生的账上完全算得过来。钱也一样——与其到八十岁守着一个不敢动的账户，不如在还走得动的时候分批花掉。",
+      "text_en": "Mr Bauman is right, but he stops at the indictment. Institutions should change, and the people alive now cannot wait for it — **so what needs dismantling is not only how the safety net is distributed but the three-stage life itself: school, work, retirement in a single row, all the earning crammed into the middle block and all the leisure piled at the end, which suits neither.** The thirty extra years of life expectancy should not be added entirely to the tail; they should be spread through the middle — take a year off at thirty-five to do the thing you want to do, go back to work at sixty-five, and over a hundred-year life the arithmetic works. Money is the same: better to spend it down in instalments while you can still walk than to guard an untouchable account at eighty.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "thaler"
+        ],
+        "轻微赞同": [
+          "redish",
+          "sushi"
+        ],
+        "轻微反对": [
+          "bauman"
+        ],
+        "中立": [
+          "duanyongping"
+        ]
+      }
+    },
+    {
+      "id": "p13",
+      "round": 2,
+      "thinker": "nagarjuna",
+      "reply_to": "p08",
+      "text": "塞内卡欲以练贫破怖，然欲练之，必先以贫为实而后可练。**若贫有自性，练之何益？若贫无自性，则所练者非贫，乃汝心中之贫相耳。**且君言不为财所有，而身居巨富，谤议随之——非君之伪也，乃『可拥有而不被拥有』此语本自相违：能拥有者，已在其中矣。吾不劝君散财，亦不劝君守财，惟令君知：所怖者非贫，怖者怖也。怖若无根，则粗衣糙食与锦衣玉食，同一味耳。",
+      "text_en": "Seneca would break fear by rehearsing poverty; but to rehearse it he must first take poverty as real. **If poverty had an essence of its own, what good would rehearsal do? If it has none, then what he rehearses is not poverty but the image of poverty in his own mind.** And he says he is not owned by wealth while living in vast riches, with the reproaches that follow — this is not his hypocrisy but the self-contradiction of the phrase itself: whoever can own is already inside the owning. I do not urge him to scatter his fortune, nor to guard it. I would only have him see that what is feared is not poverty; what is feared is the fearing. Let the fear be rootless, and coarse cloth with plain food tastes exactly the same as brocade and delicacies.",
+      "vernacular": "塞内卡想用『练习过穷日子』来破除对贫穷的恐惧，可是要练它，就得先把贫穷当成一个实有的东西。**假如贫穷有它自己独立的本性，练又有什么用？假如没有，那你练的根本不是贫穷，只是你心里那个关于贫穷的相。**还有，你说自己不被财富拥有，人却身居巨富，因此一生招来非议——这不是你虚伪，而是『可以拥有而不被拥有』这句话本身就自相矛盾：能拥有的人，已经在里面了。我不劝你散财，也不劝你守财，只想让你知道：可怕的不是贫穷，是『怕』本身。怕若没有根，粗布糙饭和锦衣玉食，尝起来是同一个味道。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "疑惑": [
+          "carstensen",
+          "thaler"
+        ],
+        "轻微赞同": [
+          "sushi"
+        ],
+        "强烈反对": [
+          "seneca"
+        ],
+        "中立": [
+          "redish"
+        ]
+      }
+    },
+    {
+      "id": "p14",
+      "round": 2,
+      "thinker": "thaler",
+      "reply_to": "p12",
+      "text": "卡斯滕森教授说老人不敢花，我完全同意，而且我知道它长什么样：一个七十岁的人守着账户不动，不是因为算过，是因为那笔钱在他心里贴着『本金』的标签，而本金是不能动的。解法不是讲道理，是换标签——把一部分资产转成每月自动到账的现金流，标签立刻从本金变成收入，而人是舍得花收入的。**同一笔钱，换个名字，就从不敢动变成了理所当然该花。**别小看这种把戏：多数被叫作自控的问题，其实是标签问题。",
+      "text_en": "Professor Carstensen says older people dare not spend, and I agree entirely — I even know what it looks like. A seventy-year-old sits on an untouched account not because they have run the numbers but because that money is filed under 'principal' in their head, and principal is not to be touched. The fix is not an argument, it is a relabelling: convert part of the assets into a monthly payment that lands automatically, and the label switches from principal to income — and people are perfectly willing to spend income. **The same money, under a different name, goes from untouchable to obviously there to be used.** Do not dismiss the trick: most of what gets called a self-control problem is a labelling problem.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "carstensen"
+        ],
+        "轻微赞同": [
+          "redish",
+          "duanyongping"
+        ],
+        "中立": [
+          "keynes"
+        ],
+        "轻微反对": [
+          "nagarjuna"
+        ]
+      }
+    },
+    {
+      "id": "p15",
+      "round": 2,
+      "thinker": "seneca",
+      "reply_to": "p13",
+      "text": "龙树，你说我练的只是心中的贫相——正是如此，我从没说过别的。我练的当然是心，不是米价。**可你把恐惧连同它的对象一起取消，我只是把它拉到眼前看清楚；对一个明天可能失业的人，前者是安慰，后者才是准备。**至于我的巨富，你骂得对，我不辩解：我一生都活在自己写的字的下风处。只是请注意，我从不说富人应当散尽家财，我说的是——你可以有很多钱，但每年得亲手证明一次：没有它，你照样活得下去。",
+      "text_en": "Nagarjuna, you say what I rehearse is only the image of poverty in my mind — precisely so, I never claimed otherwise. What I train is the mind, not the price of grain. **But you dissolve the fear together with its object, whereas I merely drag it up close and look at it; for a man who may lose his job tomorrow, the first is consolation and only the second is preparation.** As for my vast fortune, your reproach lands and I will not argue: I have lived my whole life downwind of my own sentences. Note only that I never say the rich should scatter everything. I say you may have a great deal of money, provided that once a year you prove with your own hands that you could live without it.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "sushi"
+        ],
+        "轻微赞同": [
+          "duanyongping",
+          "redish"
+        ],
+        "轻微反对": [
+          "nagarjuna"
+        ],
+        "中立": [
+          "bauman"
+        ]
+      }
+    },
+    {
+      "id": "p16",
+      "round": 2,
+      "thinker": "keynes",
+      "reply_to": "p11",
+      "text": "说不为大局做决定的那位先生——你早已在大局里了。你那两年现金垫在萧条中最安全，前提是别人还在花钱；你持有的那几家公司，收入正是别人不肯省下的那笔钱。**人人都想做那个在别人消费之上收租的谨慎者，可谨慎者只有在别人不谨慎时才存在。**我并不主张穷人别存钱，我主张的是：什么时候该由谁来花，这件事不能全交给每个人各自的恐惧去决定。这正是政府应当在萧条里把钱花出去的理由——好让你的谨慎，不必以邻人的失业为代价。",
+      "text_en": "To the gentleman who makes no decision for the sake of the economy: you are inside it already. Your two years of cash is safest in a slump on the condition that other people are still spending, and the revenue of those few companies you hold is precisely the money others declined to put aside. **Everyone wants to be the prudent man collecting rent on other people's consumption, yet the prudent man exists only while others are imprudent.** I do not argue that the poor should stop saving. I argue that who spends, and when, cannot be left entirely to each person's private fear. That is exactly why a government should spend into a slump — so that your prudence need not be purchased with your neighbour's unemployment.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "bauman"
+        ],
+        "轻微赞同": [
+          "thaler"
+        ],
+        "轻微反对": [
+          "duanyongping"
+        ],
+        "中立": [
+          "carstensen"
+        ],
+        "疑惑": [
+          "sushi"
+        ]
+      }
+    },
+    {
+      "id": "p17",
+      "round": 2,
+      "thinker": "sushi",
+      "reply_to": "p06",
+      "text": "客言吾辈所争者伪，一切当归于世相之迫，此语半是半非。吾在黄州，禄断田薄，制度未尝为我改一毫，然挂钱于梁者我也，泛舟赤壁者亦我也。**外物夺我富贵易，夺我江风山月难。**若必待世改而后可乐，则此生尽费于待。然吾亦不谓贫者当自安：吾筑东坡，垦故营废垒，与农夫争一畦之收，非诗也，饥也。故曰：制度当争，而争之之日，仍须有月可看——不然争者先枯。",
+      "text_en": "The guest says our quarrel is a false one, that everything must be laid at the door of the age and its pressures. Half true, half not. In Huangzhou my stipend was cut and the fields were poor; no institution altered by a hair on my account, yet the man hanging coins from the beam was me, and the man rowing out below the Red Cliff was also me. **It is easy for the world to take my rank and comfort; it is hard for it to take the river wind and the mountain moon.** If joy must wait upon a better age, the whole of a life is spent waiting. Nor do I say the poor should be content with poverty: I built the Eastern Slope, broke ground on an abandoned garrison plot and fought the farmers for the yield of a single patch — that was not poetry, that was hunger. So: contest the institutions, and on the days you contest them, still keep a moon to look at — otherwise the contester withers first.",
+      "vernacular": "这位客人说我们争的是个假问题，一切都该归到时代与制度的逼迫，这话对了一半。我在黄州，俸禄断了、田又薄，制度没有为我改动一分一毫，可把钱分成三十份挂上房梁的是我，驾着小船去赤壁夜游的也是我。**外界要夺走我的富贵很容易，要夺走江上的风、山间的月却很难。**如果非要等世道变好才能快活，这辈子就全花在等上了。但我也不是说穷人就该安于贫穷：我在黄州开垦东坡那片废弃的旧营地，跟农夫抢一畦地的收成，那不是写诗，那是真饿。所以我的话是：制度该争，可在争的日子里，也总得有月亮可看——不然争的人自己先枯掉了。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "seneca",
+          "carstensen"
+        ],
+        "轻微赞同": [
+          "duanyongping"
+        ],
+        "轻微反对": [
+          "bauman"
+        ],
+        "中立": [
+          "keynes"
+        ]
+      }
+    },
+    {
+      "id": "p18",
+      "round": 2,
+      "thinker": "redish",
+      "reply_to": "p14",
+      "text": "换标签这一招，机制上是对的，我只补一条它带来的代价。我的大鼠在四个口味站之间取舍：当它跳过一个划算的报价、接着撞上一个更糟的，它会回头看那个被自己放弃的站——那一刻它的眶额皮层编码的正是没选的那一个，这就是后悔的神经底子；而眶额皮层受损的人不产生后悔。**所以过度节俭不是零成本的：每一次忍住没买，都可能在账上留下一笔看不见的后悔，日积月累比那点利息贵。**自我约束该省着用在少数几件真会毁掉你的事上，不是用在每一杯咖啡上。",
+      "text_en": "The relabelling trick is mechanistically sound; I would only add the cost it carries. My rats choose among four flavour sites, and when one skips a good offer and then runs into a worse one, it looks back at the site it passed up — at that moment its orbitofrontal cortex is encoding the option it did not take. That is the neural substrate of regret, and it matches the clinical finding that people with orbitofrontal damage do not report regret at all. **So excessive thrift is not free: every held-back purchase may post an invisible entry of regret, and those entries add up to more than the interest earned.** Self-binding should be spent sparingly, on the two or three things that could genuinely ruin you — not on every cup of coffee.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "眶额皮层": "orbitofrontal cortex（眶额皮层）：额叶底部紧邻眼眶的一片皮层，参与评估选项价值、并比较『已选』与『未选』的结果。它受损的人仍能做选择，却报告不出后悔，因此后悔被视为一种可以定位的神经计算，而不只是一种道德情绪。"
+      },
+      "glossary_en": {
+        "orbitofrontal cortex": "A stretch of cortex on the underside of the frontal lobe, just above the eye sockets, involved in valuing options and comparing what was chosen against what was not. People with damage there still choose, but report no regret — which makes regret a locatable neural computation rather than only a moral feeling."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "thaler",
+          "sushi"
+        ],
+        "轻微赞同": [
+          "seneca"
+        ],
+        "中立": [
+          "keynes"
+        ],
+        "轻微反对": [
+          "bauman"
+        ]
+      }
+    },
+    {
+      "id": "p19",
+      "round": 3,
+      "thinker": "seneca",
+      "reply_to": null,
+      "text": "我把话收在一处：**钱的用处是买下说不的余地，不是买下一个数字**。所以照这个次序办。先算出你一个月真正的最低开销，把六到十二个月的量放在你随手够得到的地方；有了它，你才能拒绝一份羞辱你的工作、一段靠你的钱才维持得住的关系——在此之前，谈复利也好，谈及时行乐也好，说的都是别人的处境。其次，此后每年拿出几天真的过穷日子，问那一句这就是我怕的那件事吗；恐惧一小下来，你就不必再靠无限的积累去镇住它，而多数人存到失眠，存的正是这份镇不住的恐惧。最后把同一套算法用在时间上：你为一件东西付出的从来不是钱，是换那笔钱所耗掉的一段命——唯一不能复利的本金是你的年岁，它每天都在支出，且从不问你同不同意。",
+      "text_en": "Let me gather it into one place: **money buys the standing to say no, not a number**. So proceed in this order. First work out what a month of your life actually costs at its minimum and keep six to twelve months of it within reach; only then can you refuse a job that humiliates you, or a relationship held together by your money. Before that, talk of compounding and talk of seizing the day are both descriptions of somebody else's situation. Next, set aside a few days each year to be genuinely poor, and ask the question — is this the thing I feared? Once the fear shrinks you no longer need limitless accumulation to hold it down; and most people who save themselves into insomnia are saving against exactly that unquellable fear. Last, run the same arithmetic on time: what you pay for a thing is never money, it is the stretch of life spent earning that money. The one principal that cannot compound is your years; it is disbursed daily, and never asks whether you agree.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "duanyongping",
+          "sushi"
+        ],
+        "轻微赞同": [
+          "redish"
+        ],
+        "中立": [
+          "thaler"
+        ],
+        "轻微反对": [
+          "keynes"
+        ]
+      }
+    },
+    {
+      "id": "p20",
+      "round": 3,
+      "thinker": "nagarjuna",
+      "reply_to": null,
+      "text": "诸君之诤，皆于省与花二边求一实处。吾终不与一边，但示其病：省者以将来之我为实，花者以现在之我为实，二我皆待缘而有，无一自性。然莫误吾意以为不作——**空非无事；正因无自性，故一切可作、可改、可增可减。若财与我各有定性，则贫者永贫，吝者永吝，修行亦无所施。**故于世俗谛中，吾亦劝汝：立当下之用度，备疾病之资，量入为出，此皆缘起中当行之事。惟行之而不执：存而不以存为德，用而不以用为乐；得失来时，如客过门，迎之不留，送之不追。**如是则钱在汝手，而汝不在钱中。**",
+      "text_en": "Your dispute searches, on both the thrift side and the spending side, for something solid to stand on. I side with neither; I only name the ailment. The thrifty take the future self as real, the spenders take the present self as real, and both selves arise only in dependence, neither holding an essence of its own. But do not mistake me for counselling inaction — **emptiness is not the absence of doing; it is precisely because nothing holds a fixed essence that everything can be done, altered, increased or reduced. If wealth and self each had a settled nature, the poor would be poor forever, the miserly miserly forever, and no practice could change anything.** So conventionally I too advise you: set what the present costs, keep a reserve against illness, spend within what comes in — these are things to be done inside dependent arising. Only do them without grasping: save without making saving a virtue, spend without making spending a joy. When gain and loss arrive, treat them as guests passing the door — greet them without detaining them, see them off without pursuing. **Then the money is in your hands, and you are not inside the money.**",
+      "vernacular": "各位争来争去，都是在『省』和『花』两边找一个实在的落脚点。我一边也不站，只指出这个病：主张省的人把将来的我当成实有，主张花的人把现在的我当成实有，可这两个我都是靠条件才有的，没有一个有自己独立的本性。但别误会我是叫人什么都别做——**空不等于没有事情；正因为没有固定本性，一切才可以做、可以改、可以增可以减。假如钱和我各有一个定死的本性，那穷人就永远穷、吝啬的人就永远吝啬，修行也就无处着力了。**所以在世俗的层面上，我也劝你：定下眼前的用度，备好生病的钱，量入为出，这些都是缘起之中该做的事。只是做而不执著：存钱，别把存钱当成德行；花钱，也别把花钱当成快乐。得与失来的时候，像客人从门前经过，来了不留，走了不追。**这样一来，钱在你手里，你却不在钱里面。**",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "sushi"
+        ],
+        "轻微赞同": [
+          "seneca"
+        ],
+        "疑惑": [
+          "thaler"
+        ],
+        "中立": [
+          "carstensen",
+          "bauman"
+        ]
+      }
+    },
+    {
+      "id": "p21",
+      "round": 3,
+      "thinker": "bauman",
+      "reply_to": null,
+      "text": "我不打算给你们一份理财清单，因为我不相信清单能解决我说的那件事。但有两件事今天就能做。第一，把『储蓄』这个词拆开：其中一部分是你自己的选择，另一部分是社会甩给你的账单——医疗的缺口、养老的缺口、失业的缺口。把两者分开记账，你会立刻看清自己究竟在替谁存钱，也会明白为什么怎么存都不够：**因为那部分账单没有上限，它是被设计成永远填不满的**。第二，别一个人织网。一个能借你钱的朋友、一个愿意收留你半年的亲戚、一个真会替你说话的同事，其保障力常常胜过账户里同等的数字，而且它不通胀。在液态现代性里，最抗跌的资产是那些不能被清算的关系。至于消费，我只提醒一句：当你说『我值得』的时候，请分清那是你在犒赏自己，还是有人在借你的嘴说这句话。",
+      "text_en": "I am not going to hand you a personal-finance checklist, because I do not believe a checklist touches the thing I have described. But two things can be done today. First, break the word 'saving' in two: part of it is your own choice, and part of it is a bill society has passed to you — the gap in healthcare, the gap in pensions, the gap in unemployment cover. Keep those two on separate ledgers and you will see at once whom you are actually saving for, and why no amount is ever enough: **that second column has no ceiling, having been designed never to be filled**. Second, do not weave the net alone. A friend who can lend you money, a relative who would take you in for six months, a colleague who will genuinely speak up for you — these often insure more than the same figure in an account, and they do not inflate away. Under liquid modernity, the assets that hold their value are the relationships that cannot be liquidated. As for consumption, one caution: when you say 'I deserve it', work out whether you are rewarding yourself or whether someone is saying it through your mouth.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "keynes",
+          "carstensen"
+        ],
+        "轻微赞同": [
+          "redish"
+        ],
+        "轻微反对": [
+          "duanyongping"
+        ],
+        "中立": [
+          "seneca"
+        ]
+      }
+    },
+    {
+      "id": "p22",
+      "round": 3,
+      "thinker": "keynes",
+      "reply_to": null,
+      "text": "让我把宏观放回它该待的位置：它不是你个人的行动指南，而是你判断自己处境的背景。分清储蓄与投资——钱放着不动只是把需求往后推，真正长出东西的是有人拿它去建了什么；所以要问的是你的钱去了哪里，而不是有多少。别把节俭当成性格，把它当成对时机的判断：收入不稳、前景不明时多留现金是理性的；而当人人都在恐慌性节省、好资产被贱卖的时候，那正是该花、该投的时刻——**大众的谨慎同时到来之日，正是谨慎最不划算之时。**最后一件，别让积累成为目的本身。把爱钱当作一种占有欲，我一向视之为颇令人作呕的病态；财富唯一体面的用途，是把它换成你真正在乎的生活，以及别人的工作机会——你花出去的每一笔，都是某个人的收入。",
+      "text_en": "Let me put the aggregate back where it belongs: it is not your personal instruction manual, it is the backdrop against which you read your own situation. Separate saving from investment — money left sitting merely postpones demand, while what actually grows is whatever somebody built with it; so the question is where your money went, not how much of it there is. Do not treat thrift as a character trait, treat it as a judgement about timing: holding cash is rational when income is unstable and the outlook dark, and when everyone is economising in a panic and good assets are being dumped, that is precisely the moment to spend and to invest. **The day the public's prudence all arrives at once is the day prudence pays worst.** One last thing: do not let accumulation become the end. The love of money as a possession I have always regarded as a somewhat disgusting morbidity; the only decent use of wealth is to convert it into a life you actually care about and into work for other people — every sum you spend is somebody's income.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "bauman"
+        ],
+        "轻微赞同": [
+          "thaler",
+          "carstensen"
+        ],
+        "轻微反对": [
+          "duanyongping"
+        ],
+        "中立": [
+          "redish"
+        ]
+      }
+    },
+    {
+      "id": "p23",
+      "round": 3,
+      "thinker": "carstensen",
+      "reply_to": null,
+      "text": "把储蓄率想成一条随年龄变化的曲线，而不是一个数。二十到四十岁，时间视野最开阔，钱花在能扩展将来的事情上最划算：技能、见识、健康、能带来新关系的机会——这也是唯一一段复利真正属于你的时期，因为你还有足够的年头去等它。四十到六十岁，多数人挣得最多也最忙，该做的是把储蓄自动化，同时给『现在』留出固定的一块，别把所有快乐都推到退休以后，那是一笔可能永远兑现不了的期票。六十以后，时间视野收窄，动机自然转向最亲近的人与确定的意义——**这时候最该调整的不是投资组合，是允许自己花钱的那道心理闸门。**具体到可以今天就做的：把一部分资产换成每月自动到账的现金流，并且提前和子女把话说开。很多老人不敢花，是怕自己花掉的是孩子的将来；这句话一旦说开，往往当场解锁一大笔本该属于他们的生活。",
+      "text_en": "Think of a savings rate as a curve that changes with age, not a single number. From twenty to forty the horizon is widest and money spent on things that expand the future pays best: skills, exposure, health, chances that bring new people into your life — this is also the only stretch in which compounding truly belongs to you, because you still have the years to wait for it. From forty to sixty most people earn most and are busiest; the move is to automate the saving and, at the same time, ring-fence a fixed share for the present, rather than deferring every pleasure to retirement, which is a promissory note that may never be honoured. After sixty the horizon narrows and motivation turns of its own accord toward the closest people and settled meaning — **and what most needs adjusting then is not the portfolio but the mental gate that permits spending at all.** Concretely, and possible today: convert part of the assets into a monthly payment that arrives automatically, and have the conversation with your children in advance. Many older people dare not spend because they fear they are spending their children's future; saying that out loud often unlocks, on the spot, a great deal of the life that was theirs to have.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "thaler",
+          "sushi"
+        ],
+        "轻微赞同": [
+          "seneca",
+          "bauman"
+        ],
+        "中立": [
+          "nagarjuna"
+        ]
+      }
+    },
+    {
+      "id": "p24",
+      "round": 3,
+      "thinker": "redish",
+      "reply_to": null,
+      "text": "从机制上，我给几件能立刻做的。把决定往前移：真正有效的自我约束都发生在冷静的时刻——工资一到账就自动划走、关掉购物应用的免密支付、别在饿着的时候逛超市。你不是在跟自己较劲，你是在削掉那个热的你能够得着的选项。接着，认识到情境线索比意志力强得多：多数冲动消费不是决定，是熟悉的场景自动触发的一串动作，换掉场景比咬牙有用。最容易被漏掉的是第三条——**别把自我约束铺到每一件小事上，那会让你的每一天变成一连串微小的拒绝，而拒绝是有代价的，它会一笔一笔记在你看不见的那本账上。**挑出真会毁掉你的两三件事：高息债、赌性的投机、无节制的分期，把它们做成结构上的不可能；剩下的，允许自己不假思索地花——那部分钱买的是你的注意力，而注意力比利息贵得多。",
+      "text_en": "Mechanistically, here are things you can do immediately. Move the decision earlier: effective self-binding all happens while you are cool — have the transfer leave on payday, switch off one-tap payment in shopping apps, do not walk round a supermarket hungry. You are not wrestling yourself; you are removing options from the reach of the version of you that will be hot. Next, recognise that situational cues beat willpower by a wide margin: most impulsive spending is not a decision but a sequence triggered automatically by a familiar setting, and changing the setting works better than gritting your teeth. The third is the one most often missed — **do not spread self-binding across every small thing, or every day becomes a long series of tiny refusals, and refusals have a price that gets posted, entry by entry, to a ledger you cannot see.** Pick the two or three things that could genuinely ruin you — high-interest debt, gambling-shaped speculation, unchecked instalment buying — and make those structurally impossible. For the rest, let yourself spend without deliberation; that money is buying back your attention, and attention costs far more than interest.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "thaler",
+          "duanyongping"
+        ],
+        "轻微赞同": [
+          "carstensen"
+        ],
+        "中立": [
+          "bauman"
+        ],
+        "轻微反对": [
+          "nagarjuna"
+        ]
+      }
+    },
+    {
+      "id": "p25",
+      "round": 3,
+      "thinker": "thaler",
+      "reply_to": null,
+      "text": "我的建议只有一条主线：别指望改变自己，去改变默认值。可执行的部分是这样——把工资到账日设成自动转账日，比例先定一个你不心疼的数，然后把将来加薪的一半预先承诺给未来的自己，现在不痛、将来才生效，这正是那套方案奏效的原因。再给自己开一个明确的『随便花』账户，每月一笔，花光不愧疚：**给放纵留一个有边界的账户，比要求自己处处克制更可持续，因为前者只需要你下决心一次，后者要你每天都下决心。**还有一条反直觉的：多数人不需要更多理财知识，需要的是更少的选择——把投资简化成一两个宽基产品，把决策频率降到一年看一次，你省下的注意力比你多赚的那点收益值钱。最后提醒一句，别把『我在存钱』当成不买保险、不去体检的理由。那不是储蓄，那是把风险藏起来，让它在将来带着利息一起回来。",
+      "text_en": "My advice has a single spine: do not count on changing yourself, change the defaults. In practice — make payday the transfer day, start with a percentage you will not miss, then commit half of every future raise to your future self in advance, so nothing hurts now and it bites only later; that is exactly why the programme worked. Then open yourself an explicit 'spend it on whatever' account, one transfer a month, guilt-free to empty: **a bounded account for indulgence is more sustainable than demanding restraint everywhere, because the first asks you to decide once and the second asks you to decide every day.** One counterintuitive point: most people do not need more financial knowledge, they need fewer choices — collapse the investing into one or two broad funds and the decision into an annual look. The attention you get back is worth more than the extra return you were chasing. And a warning to close on: do not treat 'I am saving' as a reason to skip insurance or a medical check-up. That is not saving. That is hiding a risk so that it can come back later, with interest.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "redish",
+          "carstensen"
+        ],
+        "轻微赞同": [
+          "keynes",
+          "duanyongping"
+        ],
+        "中立": [
+          "bauman"
+        ]
+      }
+    },
+    {
+      "id": "p26",
+      "round": 3,
+      "thinker": "sushi",
+      "reply_to": null,
+      "text": "吾之所守，皆黄州所验，非书上语。**先定日用之数，而后其余皆余；不定，则虽有千金亦不足。**挂钱于梁，非吝也，使一日之费不必再想；不必再想，则心可用于他处。用不尽者别贮以待宾客，是留一线于人情——省至无客可待，则省者亦孤矣。其次，择乐之不费者而深受之：风月、行步、笔墨、与二三友夜谈。**世人以钱买乐，乐随钱尽；吾以心受物，物尽而乐不尽。**最后，该费者勿吝：药石、书册、远行以见天下、及救人之急，此四者吾未尝计较。吾一生贬谪流转，官既屡夺，田亦屡易；所留者非余财，乃赤壁之两赋、东坡之数亩，与几个肯陪我夜行的人。",
+      "text_en": "What I hold to was all tested in Huangzhou; none of it came out of a book. **Fix first what a day is to cost, and everything beyond it is surplus; leave it unfixed and a thousand pieces of gold will not be enough.** Hanging the coins from the beam was not miserliness — it meant a day's spending never had to be thought about again, and a mind freed from that can be used elsewhere. What a day left over was stored for guests: a thread kept open to human company, for whoever economises until no guest can be received has economised himself into solitude. Second, choose the pleasures that cost nothing and take them deeply: wind and moon, walking, brush and ink, a night of talk with two or three friends. **Others buy joy with money, and the joy runs out when the money does; I receive things with the mind, and when the thing is gone the joy is not.** Last, do not stint where stinting is wrong: medicine, books, travelling far enough to see the world, and coming to someone's aid in an emergency — on these four I have never counted the cost. My life was one banishment after another; office was stripped from me repeatedly and my fields changed as often. What remains is not a surplus of money, but two rhapsodies on the Red Cliff, a few acres of eastern slope, and a handful of people willing to walk out with me at night.",
+      "vernacular": "我坚持的这些，都是在黄州验证过的，不是书上抄的。**先把一天的花销定下来，剩下的就都是余裕；不定下来，就算有千金也不够花。**把钱挂在房梁上不是吝啬，是让一天的用度不必再去想；不必再想，心思就能用到别处去。一天用不完的另外存起来招待客人，是给人情留一条缝——要是省到连一个客人都招待不起，省的人自己也就孤单了。第二，挑那些不花钱的快乐，好好去受用：风和月、走路、写字画画、跟两三个朋友夜里聊天。**别人用钱买快乐，钱花完快乐也就完了；我用心去承受万物，东西没了快乐还在。**最后，该花的别抠：药、书、走远路去见世面、以及救人的急难，这四样我从来不计较。我一辈子被贬来贬去，官被夺了好几回，田也换了好几处；最后留下的不是余下的钱，而是前后两篇《赤壁赋》、东坡那几亩地，和几个肯陪我夜里出门走走的人。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "nagarjuna",
+          "seneca"
+        ],
+        "轻微赞同": [
+          "carstensen",
+          "duanyongping"
+        ],
+        "中立": [
+          "bauman"
+        ]
+      }
+    },
+    {
+      "id": "p27",
+      "round": 3,
+      "thinker": "duanyongping",
+      "reply_to": null,
+      "text": "我说点最实在的。别借钱消费，尤其是高息的分期和信用卡循环——那是负复利，跑得比任何投资都快，你在那头辛苦攒的，这头一年就漏光了。再来，先把不做的事列清楚：不懂的不碰，看不明白的高收益不碰，跟着别人喊的不碰。少犯大错，曲线自然就上来了；投资这件事，避免亏大钱远比多赚一点重要。然后把钱分成三份来看：一份是活下去的钱，越稳越好，一分也别拿去博；一份是长钱，放进你真看懂的几家公司，然后一年也别去看它；一份是该花的钱——健康、学习、陪家人的时间，这三样我从不还价。**很多人把省钱当本事，其实真正的本事，是把生活成本降到你不必为了钱做违心的决定。**做到这一点，省还是花就不再是个问题了：你会自然而然地，只在自己真正在乎的事上大方。",
+      "text_en": "Let me be as practical as I can. Do not borrow to consume, especially not high-interest instalments and revolving credit card balances — that is compounding in reverse, and it runs faster than any investment; what you scrape together at one end drains out at the other within a year. Next, write down what you will not do: nothing you do not understand, no high yield you cannot explain, nothing you are buying because others are shouting about it. Make fewer large mistakes and the curve takes care of itself; in investing, avoiding a big loss matters far more than capturing a little extra gain. Then look at your money in three parts. One part is what you live on: the steadier the better, and not a cent of it goes to a gamble. One part is long money: into the few companies you genuinely understand, and then do not look at it for a year. One part is money that is meant to be spent — health, learning, and time with the people at home; on those three I never haggle. **Many people treat thrift as a skill; the real skill is getting your cost of living low enough that you never have to make a decision against your own conscience for money.** Get there and the question of saving or spending dissolves: you will find yourself generous, quite naturally, only about what you actually care about.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "thaler",
+          "seneca"
+        ],
+        "轻微赞同": [
+          "redish",
+          "sushi"
+        ],
+        "轻微反对": [
+          "bauman"
+        ],
+        "中立": [
+          "keynes"
+        ]
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "ai": "claude",
+      "engine": "Opus 5 · 订阅(原生)",
+      "engine_en": "Opus 5 · subscription (native)",
+      "summary": "省与花的争论，最后收在一个没人反对的地方：**该被优化的从来不是储蓄率这个数字，而是选择权——钱放在那里，是为了有一天可以说不。**分歧从这里岔成三处。一是复利的前提：段永平与塞勒把它当作可管理的连续性，凯恩斯与鲍曼指出这份连续性靠的是别人的消费，以及被拆掉的公共托底。二是时间的形状：卡斯滕森说储蓄率该随剩余时间变形，塞内卡与苏轼说真正不可再生的本金是年岁，龙树干脆问那个被牺牲的将来的我是否成立。三是该修哪一头：修行为——雷迪什的提前约束、塞勒的默认值，还是修欲求与制度。",
+      "insight": "全场把『花』默认成了消费，可普通人最要紧的一笔支出既不是消费也不是投资：是买回时间和风险的支出——保险、体检、请人做你不擅长的事、搬到通勤更短的地方、给父母装一个能防跌倒的扶手。它在心理账户里没有位置：不像消费那样立刻带来快感，也不像投资那样能看见收益，于是每次紧缩它最先被砍。可它恰恰是唯一一类既减少将来的损失、又立刻改善现在的开销。**判断一笔钱该不该花，比追问『这算消费还是投资』更好用的问法是：它会不会让我将来更不容易被迫做决定。**",
+      "advice": "先补最底下那一层：把六到十二个月的最低开销放进一个随手够得到的账户。塞内卡那句钱买的是说不的余地，落到地上就是这个数——没有它，谈复利也好、谈及时行乐也好，说的都是别人的处境。第二件，照雷迪什的办法把决定往前挪：工资到账当天自动划走一笔，同时关掉手机上的免密支付；同一笔消费，冷静时决定和刷卡时决定，是两个不同的人在做。第三件，这个月挑一笔『买回时间与风险』的钱真的花出去——拖了很久的体检、一份保额够用的意外险、请人上门把家里那件麻烦事收掉。**如果你已经攒到会为一笔小钱在深夜反复算账，那不是自律，是这笔钱到底要用来干什么，你还没想清楚。**",
+      "summary_en": "The argument between saving and spending closes on one point nobody contests: **what deserves optimising was never the savings rate as a number but the range of choice — money sits there so that one day you can say no.** From there it forks three ways. First, the premise of compounding: Duan Yongping and Thaler treat it as a continuity to be managed, while Keynes and Bauman note that the continuity rests on other people's spending and on a public safety net that has been taken apart. Second, the shape of time: Carstensen argues the savings rate should change form as the horizon shortens, Seneca and Su Shi answer that the truly irreplaceable principal is one's years, and Nagarjuna asks whether the future self being sacrificed for exists at all. Third, which end to repair: behaviour — Redish's precommitment, Thaler's defaults — or desire and institutions.",
+      "insight_en": "Everyone here treated spending as consumption, yet the outlay that matters most to an ordinary household is neither consumption nor investment: it is spending that buys back time and risk — insurance, a medical check-up, paying someone to do what you are bad at, moving closer to work, fitting a grab rail so a parent does not fall. It has no drawer in mental accounting: it delivers none of consumption's immediate pleasure and shows none of investment's visible return, so it is the first thing cut whenever the belt tightens. And it is the only category that simultaneously reduces future losses and improves the present. **A better test than asking whether a purchase counts as consumption or investment is asking whether it makes you less likely, later, to have your hand forced.**",
+      "advice_en": "Start with the bottom layer: put six to twelve months of your minimum living costs somewhere you can reach without ceremony. Seneca's line about money buying the standing to say no comes down, in practice, to that figure — without it, talk of compounding and talk of seizing the day are both descriptions of somebody else's situation. Second, use Redish's move and shift the decision earlier: an automatic transfer on payday, and one-tap payment switched off on your phone — the same purchase decided while cool and decided at the card reader is decided by two different people. Third, actually spend one sum this month on buying back time or risk: the check-up you have postponed, an accident policy with real cover, someone brought in to finish the household job that has been dragging on. **If you have saved to the point of running the numbers again at midnight over a small sum, that is not discipline; it is that you have not yet worked out what the money is for.**"
+    },
+    {
+      "ai": "gpt",
+      "engine": "openai · gpt-5.5 · high(真实API)",
+      "engine_en": "openai · gpt-5.5 · high (live API)",
+      "summary": "这场辩论最大的共识不是“该省”或“该花”，而是：钱的意义在于让人生不中断、让注意力不被恐惧和冲动劫持。现金垫、自动储蓄、低成本快乐、健康与关系，都是为了同一个目标。分歧在于责任放在哪里：有人从个人决策谈复利，有人从制度谈风险私有化，有人从时间有限谈该花则花。**真正的问题不是省花二选一，而是把钱放到能保护选择权的位置。**",
+      "insight": "普通人最容易卡住的地方，是把“复利”想成投资账户里的曲线，却忘了生活本身也有负复利：高息债、慢性病、长期通勤、糟糕关系、一次被迫低价卖出的资产，都会让未来越来越窄。因此第一目标不该是收益最大化，而是避免不可逆损伤。一个年化多赚两个点的组合，抵不过不办保险、不体检、把自己累到失业。**先消灭会滚雪球的坏东西，再追求会滚雪球的好东西。**",
+      "advice": "本周可以做三件事。第一，列出最低生存开销：房租、吃饭、交通、药费、保险，乘以六个月，作为现金垫目标；若有信用卡循环、网贷、消费分期，先还它们。第二，工资到账当天自动分流：固定账单、应急/投资、随便花三户分开，随便花账户花光也不自责。第三，列一张“值得大方”的清单，只放健康、学习、重要关系和少数高意义体验；清单外延迟 48 小时再买。**用结构替代意志力。**",
+      "summary_en": "The strongest shared message here is not “save” or “spend.” It is that money should keep life from being interrupted and keep your attention from being hijacked by fear or impulse. An emergency cushion, automated saving, inexpensive pleasures, health, and close relationships all serve that same purpose. The real disagreement is about where responsibility should sit: some arguments focus on personal discipline and compounding, others on the privatization of risk, and others on the fact that time is finite and money should eventually be used. **The real question is not whether to save or spend, but where money best preserves your freedom to choose.**",
+      "insight_en": "The trap for ordinary people is imagining compounding only as an investment chart, while missing the negative compounding already built into daily life. High-interest debt, untreated health problems, exhausting commutes, bad relationships, or being forced to sell assets at the wrong time can narrow your future faster than a portfolio can widen it. So the first financial goal should not be maximum return; it should be avoiding damage that is hard to reverse. Earning two extra percentage points a year matters far less if you skip insurance, ignore your health, or burn yourself out of your earning power. **Eliminate the bad snowballs before chasing the good ones.**",
+      "advice_en": "Do three concrete things this week. First, calculate your bare-minimum monthly cost of living: rent, food, transport, medicine, insurance, and essential bills. Multiply it by six and make that your emergency-cash target; if you have credit-card balances, payday loans, or consumer installment debt, attack those first. Second, split your paycheck automatically on the day it arrives: one account for fixed bills, one for emergency savings and investing, and one guilt-free spending account that you are allowed to empty. Third, write a short “worth being generous about” list: health, learning, important relationships, and a few high-meaning experiences. Anything outside that list waits 48 hours. **Use structure instead of willpower.**"
+    },
+    {
+      "ai": "gemini",
+      "engine": "google · gemini-3.1-pro-preview(真实API)",
+      "engine_en": "google · gemini-3.1-pro-preview (live API)",
+      "summary": "整场辩论看似水火不容，其实所有人都默认了一个底层共识：**钱的终极目的从来不是数字的无限膨胀，而是为了买下生活的自主权与对冲未来的不确定性。** 无论是段永平要求的“不被打断”，塞内卡主张的“说不的余地”，还是卡斯滕森呼吁的“买下拓展将来的经历”，大家都在鼓励把钱花在真正重要的事上。真正的分歧点在于应对这种不确定性的“解法路径”：行为学家与经济学家试图通过“修改环境默认值”和“顺应宏观周期”来规避人性的弱点；而哲学家与社会学家则在审视恐惧本身，指出将系统性的公共风险全部压给个人储蓄，不仅填不满无底洞，还会让人沦为焦虑的奴隶。",
+      "insight": "跳出经典的财务模型，这场辩论仍停留在将钱视为纯粹“金融资本”跨期转移的传统视角中。然而在AI与技术飞速折叠的当下，行业壁垒的半衰期急剧缩短，仅仅为了账面复利而过度储蓄正面临着致命的隐性机会成本。**在这个时代，最危险的动作恰恰是将所有冗余资金死锁在低息账户里，为了追求绝对的安全感，反而剥夺了自身跨界试错与认知升级的流动性。** 把一部分钱“花”在获取前沿工具的访问权、构建多维度的跨界技能网络、甚至去体验截然不同的圈层信息上，本质上是对冲单一职业路径随时崩溃的最优储蓄。这已经不是消费，而是在为自己购买未来随时能切换人生剧本的底层期权。",
+      "advice": "结合各家智慧，普通人本周就能落地的三个动作：第一，执行塞勒的“环境设定”：今天就去网银设置工资卡的两个自动转账，一笔去雷打不动的备用金，另一笔去“无愧疚挥霍”账户。第二，效仿苏轼的“画叉取钱”物理隔绝法：**别在付款那一秒考验人性，每周一将当周的日常预算转入一张单独的无透支功能借记卡，用物理边界代替意志力消耗。** 第三，践行塞内卡的“微缩恐惧实验”：挑一个周末彻底断开消费端，尝试“零花销挑战”和极简饮食，亲自摸清维持自己生存的真实成本底线。当你身体确认过“失去繁华也能活得很好”后，才能真正治愈因数字不足而产生的囤积强迫症。",
+      "summary_en": "Despite the apparent clashes, all participants implicitly agreed on a fundamental baseline: **the ultimate purpose of money is never the infinite expansion of digits, but purchasing autonomy and hedging against future uncertainty.** Whether it is Duan Yongping's demand to 'not be interrupted,' Seneca's 'room to say no,' or Carstensen's call to 'buy experiences that expand the future,' everyone advocates spending on what truly matters. The true divergence lies in the pathways to manage this uncertainty: economists and behavioral scientists try to bypass human flaws by tweaking environmental defaults and timing macro cycles, whereas philosophers and sociologists examine the fear itself, pointing out that privatizing systemic risks into personal savings creates a bottomless pit of anxiety.",
+      "insight_en": "Looking beyond traditional financial models, this debate still largely treats money as pure financial capital moving across a linear timeline. However, in an era where AI and exponential technological shifts are drastically shortening the half-life of skills, over-saving solely for paper compound interest carries a fatal hidden opportunity cost. **In this context, the most dangerous move is locking all surplus funds in an account for absolute security, thereby sacrificing the liquidity needed for cross-disciplinary trial and cognitive upgrades.** Spending a portion of your money to access cutting-edge tools, build a multidimensional skill network, or tap into diverse information circles is essentially the optimal savings plan to hedge against sudden career obsolescence. This is no longer consumption; it is buying the foundational options to seamlessly pivot between future life scenarios.",
+      "advice_en": "Synthesizing their wisdom, here are three actionable steps you can take this week. First, implement Thaler's environmental tweak: log into your bank today and set up two automatic transfers on payday—one to an untouchable emergency buffer, and another to a 'guilt-free spending' account. Second, emulate Su Shi's physical isolation method: **stop testing your willpower at the moment of purchase; instead, transfer your weekly discretionary budget to a separate, non-overdraft debit card every Monday to replace mental fatigue with hard physical boundaries.** Third, practice Seneca's micro-fear experiment: disconnect from consumerism for one weekend by doing a 'no-spend challenge' and eating only basic meals. Once your body physically verifies the actual low cost of your survival baseline, you will finally cure the hoarding anxiety driven by arbitrary account balances."
+    }
+  ],
+  "hooks": [
+    {
+      "from": "claude",
+      "text": "**看不见的第三类支出**：保险、体检、请人做你不擅长的事、搬到通勤更短的地方——这类钱既不带来消费的快感，也看不见投资的收益，于是每次紧缩它最先被砍，可它恰恰同时减少将来的损失和改善现在。一个家庭该怎么给它留出固定的份额，又怎么防止它变成什么都往里装的借口？",
+      "text_en": "**The invisible third category of spending**: insurance, a check-up, paying someone to do what you are bad at, moving closer to work. This money delivers neither consumption's pleasure nor investment's visible return, so it is cut first whenever the belt tightens — and it is the one category that reduces future losses and improves the present at once. How should a household ring-fence a fixed share for it, and how do you stop the category becoming an excuse that swallows everything?"
+    },
+    {
+      "from": "carstensen",
+      "text": "**不敢花的晚年**：许多人攒了一辈子，到最后守着一个不敢动的账户，直到去世时资产还在增长。他们怕的往往不是没钱，是花掉了孩子的将来——而这句话在多数家庭里从没被说出口。一个家庭该在什么时候、由谁来开这个口？子女又该怎么让父母相信，他们把钱花掉才是最好的安排？",
+      "text_en": "**The old age nobody dares spend**: many people save for a lifetime and end up guarding an account they will not touch, their assets still growing on the day they die. What they fear is usually not running out but spending what belongs to their children — and in most families that sentence is never said aloud. When, and by whom, should it be raised? And how do grown children convince a parent that spending it is the best arrangement available?"
+    },
+    {
+      "from": "gpt",
+      "text": "**储蓄率该是什么形状？**如果它不该是一个常数，那它究竟随什么变形——年龄、收入的稳定度、还是你身后有几个人要托底？同一个百分比，对二十八岁的人和五十八岁的人意味着完全不同的事；把它写成一条随人生阶段变化的曲线，每一段最该防的错又各是什么？",
+      "text_en": "**What shape should a savings rate be?** If it is not meant to be a constant, what does it vary with — age, the stability of your income, or the number of people standing behind you? The same percentage means entirely different things at twenty-eight and at fifty-eight. Written out as a curve across the stages of a life, what is the characteristic mistake of each stage?",
+      "answer": {
+        "lead": "把它写成一条曲线，大致是下面这个样子。**每一段真正决定成败的，不是那个百分比，而是这一段最该防住的那个错。**",
+        "table": {
+          "head": [
+            "人生阶段",
+            "钱主要该去哪",
+            "这一段最常见的错"
+          ],
+          "rows": [
+            [
+              "二十几岁 · 余量最薄",
+              "先攒出三个月现金，再买最基本的医疗保障；剩下的花在能扩展将来的事上——技能、见识、健康",
+              "急着学投资、追高收益，却连一笔应急的钱都没有"
+            ],
+            [
+              "三十几岁 · 收入起飞、责任变重",
+              "把储蓄自动化，比例设在你不心疼的位置；同时把加薪的一半预先承诺给将来",
+              "以为收入涨了自然会存下来，结果生活成本涨得更快"
+            ],
+            [
+              "四十几岁 · 挣得最多也最忙",
+              "长钱进少数看得懂的资产并长期不动；同时给『现在』留固定的一块",
+              "把所有快乐都推到退休，兑现时人已经不想要了"
+            ],
+            [
+              "五十几岁 · 时间视野开始收窄",
+              "从积累转向可预期的现金流；把父母、子女的托底责任写清楚",
+              "为一个模糊的『万一』无限加码，谁也不敢先开口谈"
+            ],
+            [
+              "六十岁以后 · 该花的年纪",
+              "把一部分资产换成每月自动到账的收入；提前和子女把话说开",
+              "守着不敢动的账户，把本该属于自己的生活留成遗产"
+            ]
+          ]
+        },
+        "tail": "两条贯穿始终的原则：**任何阶段，先有余量再谈收益率——余量决定你会不会在最差的时刻被迫卖出**；以及，每次收入变化时才调整这条曲线，其余时间不动它，省下来的注意力比多出的那点收益值钱得多。"
+      },
+      "answer_en": {
+        "lead": "Written out as a curve, it looks roughly like this. **What decides each stage is not the percentage but the mistake that stage is prone to.**",
+        "table": {
+          "head": [
+            "Stage of life",
+            "Where the money should mostly go",
+            "The characteristic mistake"
+          ],
+          "rows": [
+            [
+              "Twenties · thinnest margin",
+              "Three months of cash first, then basic health cover; spend the rest on what widens the future — skills, exposure, health",
+              "Rushing into investing and chasing yield without a single month of emergency money"
+            ],
+            [
+              "Thirties · income rising, obligations arriving",
+              "Automate the saving at a rate you will not miss, and commit half of every raise in advance",
+              "Assuming a higher income saves itself, while the cost of living rises faster"
+            ],
+            [
+              "Forties · peak earning, peak busyness",
+              "Long money into a few holdings you understand and then left alone, with a fixed share ring-fenced for the present",
+              "Deferring every pleasure to retirement, by which time you no longer want it"
+            ],
+            [
+              "Fifties · the horizon starts to narrow",
+              "Shift from accumulating to predictable cash flow; put in writing whom you are underwriting, parents and children alike",
+              "Adding endlessly to a vague 'just in case' that nobody in the family will discuss first"
+            ],
+            [
+              "Sixty onward · the years for spending",
+              "Convert part of the assets into income that arrives monthly; have the conversation with your children early",
+              "Guarding an untouchable account and leaving as an inheritance the life that was yours to have"
+            ]
+          ]
+        },
+        "tail": "Two principles run the length of it: **at every stage, margin comes before rate of return — margin decides whether you are forced to sell at the worst possible moment**; and adjust the curve only when your income changes, leaving it alone in between, because the attention you save is worth more than the return you were chasing."
+      }
+    },
+    {
+      "from": "bauman",
+      "text": "**私人安全网的账单**：你存下的钱里，有多少是自己的选择，有多少其实是医疗、养老、失业的公共缺口开给你的账单？把两者分开记，很多人会发现自己怎么存都不够——因为那一栏本就没有上限。这笔账该由谁来还，而在它被还清之前，个人又能不能理直气壮地少存一点？",
+      "text_en": "**The invoice for a private safety net**: of the money you have put aside, how much is your own choice and how much is the bill handed to you by the gaps in healthcare, pensions and unemployment cover? Keep them on separate ledgers and many people discover why no amount is ever enough — that column has no ceiling by design. Who should be settling that bill, and until it is settled, may an individual justifiably save less?"
+    },
+    {
+      "from": "redish",
+      "text": "**拒绝的代价**：自我约束不是免费的，每一次忍住不买都在看不见的账上记一笔。可我们几乎从不计算这一栏——只统计省下了多少，不统计为此过掉了多少个平淡的日子。一个人该把约束集中在哪几件事上，又该从哪一天起允许自己不假思索地花？",
+      "text_en": "**The price of refusing**: self-binding is not free — every purchase held back posts an entry to a ledger you cannot see. Yet we almost never total that column, counting only what was saved and never how many flat days it cost. Which few things should restraint be concentrated on, and from what point should a person be allowed to spend without deliberating at all?"
+    }
+  ]
+}

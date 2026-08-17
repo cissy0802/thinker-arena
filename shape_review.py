@@ -117,6 +117,23 @@ def _bold_spread(posts):
     return "/".join("%d处x%d" % (k, c[k]) for k in sorted(c)) if c else "-"
 
 
+def _bold_at_tail(posts):
+    """加粗那一句落在帖子末尾的比例。ENGINE 只说『每帖标一处重点』，没说标在哪；
+    实际写起来最省事的位置永远是最后一句——于是整场读下来，每一帖都是『铺陈…然后
+    金句收尾』的同一副节奏。它不在加粗处数、也不在分布里（那两维只数多少），静态
+    规则查不出。N/N＝重点清一色压在帖尾，该把若干帖的重点提到开头或中段去。"""
+    tot = hit = 0
+    for p in posts:
+        t = p.get("text", "") or ""
+        end = t.rfind("**")
+        if end < 0 or t.count("**") < 2:
+            continue
+        tot += 1
+        if end >= len(t) * 0.8:
+            hit += 1
+    return "%d/%d" % (hit, tot) if tot else "-"
+
+
 def _term_bolding(posts):
     """glossary 术语被 `**` 包起来的比例。ENGINE 只要求把『最关键的一句话』加粗；
     顺手把每个术语也加粗，看起来更醒目，实际是把重点摊薄成满屏黑体——而且它是整场
@@ -219,6 +236,8 @@ def feats(d):
         "带glossary帖数": sum(1 for p in posts if p.get("glossary")),
         # glossary 术语顺手也加粗＝把重点摊薄成满屏黑体（重点只该是那一句）
         "术语加粗": _term_bolding(posts),
+        # 加粗那一句是不是清一色压在帖尾（N/N＝每帖都『铺陈+金句收尾』的同一副节奏）
+        "加粗压帖尾": _bold_at_tail(posts),
         "古文帖数": sum(1 for p in posts if p.get("vernacular")),
         "建议带①②③": sum(1 for s in sums if has_num(s.get("advice", ""))),
         "帖均加粗处": round(sum((p.get("text", "").count("**")) // 2 for p in posts) / max(1, len(posts)), 2),
@@ -249,7 +268,7 @@ print("形状自评 ·", tid, "· 对比最近", len(R), "场:", "、".join(eid 
 print("=" * 70)
 
 SCALARS = ["人数","轮数","每轮帖数","钩子数","钩子分布","钩子作者类型","钩子带答案表","选角语气收尾","二轮全反一轮","二轮同轮追击","二轮点名起手","二轮火力散布","轮内照抄顺序","首轮全独白","答案表位次","收尾帖类别","表态档集合",
-           "用了疑惑","带glossary帖数","术语加粗","古文帖数","建议带①②③","帖均加粗处","加粗处分布","总结膨胀比","总结数数起手","总结列清单","总结转日常"]
+           "用了疑惑","带glossary帖数","术语加粗","加粗压帖尾","古文帖数","建议带①②③","帖均加粗处","加粗处分布","总结膨胀比","总结数数起手","总结列清单","总结转日常"]
 flags = []
 print("\n%-14s %-22s %s" % ("维度", "本场", "最近几场"))
 print("-" * 70)

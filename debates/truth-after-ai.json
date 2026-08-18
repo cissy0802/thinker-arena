@@ -1,0 +1,1131 @@
+{
+  "id": "truth-after-ai",
+  "question": "AI 能伪造一切，我们还信什么？",
+  "question_en": "When AI can fake anything, what is left to trust?",
+  "sub": "『眼见为实』失效之后，信任还能建在什么上面",
+  "sub_en": "After seeing-is-believing fails, what can trust still be built on",
+  "date": "2026-08-18",
+  "participants": [
+    "descartes",
+    "hume",
+    "sontag",
+    "foucault",
+    "habermas",
+    "shannon",
+    "turing",
+    "lecun",
+    "sharot",
+    "huineng"
+  ],
+  "casting": [
+    {
+      "id": "descartes",
+      "reason": "他认为这件事一点也不新：他早就设想过一个专门伪造全部感官经验的恶魔，并得出结论——感官从来就不配当知识的地基。真正扛得住的，是那些你一旦否认就自相矛盾的东西，以及你能亲自逐步重走一遍的推理。他会要求人把所信之物分成两摞：能自己复算的，和只是信了某个人的。",
+      "reason_en": "For him none of this is new: he once imagined a deceiver fabricating the whole of sensory experience and concluded that the senses were never fit to serve as the foundation of knowledge. What holds is what you contradict yourself by denying, plus any chain of reasoning you can walk again step by step on your own. He would have everyone sort their beliefs into two piles — what they can recompute themselves, and what merely rests on someone's word."
+    },
+    {
+      "id": "hume",
+      "reason": "他不接受『眼见为实已死』这个前提，因为在他看来它从未真正活过：一个人亲眼所见的部分小得可怜，几乎全部知识本来就架在他人的证言上。他给过一条判据——当有人报告一件极不寻常的事，比较『这事真发生了』与『此人弄错或说谎了』哪一边更离奇，取更不离奇的那边。伪造变得便宜，只意味着这条判据需要重新校准，而不是被废弃。",
+      "reason_en": "He rejects the premise that seeing-is-believing has died, because in his view it never really lived: the share of what anyone witnesses directly is tiny, and nearly all knowledge has always rested on the testimony of others. He offered a test — when an extraordinary report arrives, ask which is more astonishing, that the thing occurred or that the reporter erred or lied, and take the less astonishing side. Cheap forgery means that test needs recalibrating, not discarding."
+    },
+    {
+      "id": "sontag",
+      "reason": "她认为被哀悼的那种『照片即证据』本身就是一段短暂的迷信：影像从诞生起就在剪裁、摆布、选择，说服人的从来是取景而不是像素。她更担心的不是假图，而是量——影像过多导致的麻木；而当怀疑成为看每一张图的第一反应，人也就不再被任何一张击中。她把感受力而非判断力，看作这场变动中最先被磨损的东西。",
+      "reason_en": "She holds that the 'photograph as proof' now being mourned was itself a short-lived superstition: images have cropped, staged and selected since the medium began, and what persuades has always been the framing rather than the pixels. Her worry is less the fake image than the sheer volume — the numbness that follows saturation — and that once suspicion becomes the first response to every picture, no picture can land at all. What erodes first, in her reading, is sensibility rather than judgement."
+    },
+    {
+      "id": "foucault",
+      "reason": "他把问题从『什么是真』移到『谁被授权说真、经过什么程序认证』。他指出这场变动最锋利的政治后果不是假的被当成真，而是真的可以被随口否认——被拍到的人只需说一句『那是合成的』。他同样怀疑解决方案：把来源认证做进设备与模型，等于把可信度的分配权交给能签名的一方，而没有条件签名的人恰恰最需要被相信。",
+      "reason_en": "He shifts the question from what is true to who is authorised to speak truth, and by what certifying procedure. The sharpest political consequence here, he argues, is not that fakes get believed but that real evidence can be waved away — anyone caught on camera need only say it was synthesised. He is equally suspicious of the remedies: building provenance into devices and models hands the distribution of credibility to whoever can sign, while those least able to sign are exactly those most in need of being believed."
+    },
+    {
+      "id": "habermas",
+      "reason": "他反对把真相化约成认证权力，理由是那样一来『造假是坏的』这句话就再也说不出口。他主张真不在图像里也不在权威的印章上，而在一种可被追问的程序里：谁在说、凭什么、能否被公开反驳、说错要不要负责。他要求的是制度性答案——可追责的发布主体、强制更正、让说谎重新变贵，而不是让每个人靠火眼金睛自保。",
+      "reason_en": "He resists reducing truth to the power of certification, on the ground that doing so makes it impossible to say that faking is wrong. Truth, he argues, lies neither in the image nor in an authority's stamp but in a procedure that can be interrogated: who is speaking, on what grounds, whether they can be publicly contradicted, whether error carries a cost. What he wants is institutional — accountable publishers, mandatory corrections, lying made expensive again — rather than each person surviving on personal acuity."
+    },
+    {
+      "id": "shannon",
+      "reason": "他把这个哲学难题翻译成工程问题：真假不是比特的属性，你把一串比特翻来覆去也找不出一个『真』字。但可靠通信从来不靠信号本身干净，而靠冗余与校验。于是他主张别再修眼睛和检测模型，去修信道——给内容附上拆不掉的来历与签名，把『这是不是原始记录』和『这段记录说明什么』彻底分开。",
+      "reason_en": "He translates the philosophical difficulty into an engineering one: truth is not a property of bits, and no amount of turning a bitstream over will reveal it. But reliable communication never depended on a clean signal; it depended on redundancy and checking. So he would stop repairing eyes and detectors and repair the channel instead — attaching origin and signature that cannot be stripped, and separating once and for all the question of whether a record is original from the question of what it shows."
+    },
+    {
+      "id": "turing",
+      "reason": "他对自己那条判据做自我批评：当年把『机器能否思考』换成『你能否分辨』，是因为不可分辨还很遥远；如今这道门槛被跨过，判据就该退休。他提出一个更耐用的替代——不问这是谁做的，问这个说法有没有对未来下注、能不能被别人独立重跑。凡是会被现实检查的东西，伪造帮不上多少忙。",
+      "reason_en": "He turns a critical eye on his own criterion: swapping 'can machines think' for 'can you tell the difference' worked while indistinguishability was still remote, and now that the threshold has been crossed the criterion should retire. He proposes a more durable replacement — ask not who made this but whether the claim stakes anything on the future and whether anyone else can run it again. Where reality does the checking, forgery buys little."
+    },
+    {
+      "id": "lecun",
+      "reason": "他对『真相已死』的叙事直接泼冷水：印刷术、照相、图像编辑软件出现时都被宣告过一次真相的末日，每一次被吸收靠的不是找回纯真，而是长出署名、更正、交叉印证这些新制度。他主张伪造与鉴别是一场没有一边永久获胜的持续竞赛，出路是把来源溯源做成开放标准、离线可验、人人可实现，而不是宣布无路可走。",
+      "reason_en": "He pours cold water on the death-of-truth narrative: print, photography and image editing were each announced as truth's end, and each was absorbed not by recovering some lost innocence but by growing new institutions — bylines, corrections, cross-checking. Forgery and detection, he argues, are a running contest neither side wins permanently, and the way through is to make content provenance an open standard, verifiable offline and implementable by anyone, rather than to declare the road closed."
+    },
+    {
+      "id": "sharot",
+      "reason": "她带来实验数据：人不是被证据说服的。好于预期的消息被大幅采纳、坏于预期的被系统性打折；同一句话重复出现就会显得更可能是真的，哪怕初次听时已知它是假的。她由此断定伪造的杀伤力不在骗过眼睛，而在重复本身就在替它加分；并主张与其号召提高警惕——警惕会疲劳——不如改造第一次接触与转发那一刻的条件。",
+      "reason_en": "She brings the experimental record: people are not moved by evidence in the way the argument assumes. News better than expected is absorbed in full while news worse than expected is discounted, and a statement repeated comes to feel truer even when it was known to be false on first hearing. Her conclusion is that forgery does its damage not by fooling the eye but because repetition alone scores points for it — and that rather than calling for vigilance, which fatigues, one should redesign the moment of first contact and the moment of sharing."
+    },
+    {
+      "id": "huineng",
+      "reason": "他把整场讨论掉转方向：外境有真有伪，那个能见的觉性本身无所谓真伪。人误信并非因为证据太薄，而是心中先已愿信、先有所惧，影像不过把它勾出来。因此他要求在辨真伪之前先问一句『我为何这般急着信、急着传』，并警告别把怀疑过成家常——天天疑一切的人不是变明白，是变疲倦，而疲倦者最易被牵着走。",
+      "reason_en": "He turns the whole discussion around: what is seen may be true or false, but the awareness that sees is neither. People believe wrongly not because the evidence was thin but because a wanting or a fear was already in place and the image merely drew it out. So before asking whether a picture is real he would have you ask why you are in such haste to believe it and to pass it on — and he warns against living in suspicion, since one who doubts everything daily does not grow clear but grows tired, and the tired are the easiest to lead."
+    }
+  ],
+  "posts": [
+    {
+      "id": "p01",
+      "round": 1,
+      "thinker": "descartes",
+      "reply_to": null,
+      "text": "诸位把伪造当成新灾难，我在《沉思集》里已经把它推到过极致：设一个恶魔假设——有个无所不能者专门伪造我的全部感官经验。结论是，纵然如此，此刻正被欺骗的那个『我』仍然存在。所以别问眼睛还能不能信，**眼睛从来就不该当地基；能当地基的，是你一否认就自相矛盾的那几样东西。**其上再靠可复核的推理一级级搭：这一句从哪一句来，我能否自己重走一遍。你们缺的不是更聪明的辨伪工具，是把『我看见的』和『我推出的』重新分开放。",
+      "text_en": "You treat forgery as a new catastrophe; I pushed it to its limit in the Meditations with the evil demon — an omnipotent deceiver fabricating the whole of my sensory experience. The conclusion held: even then, the 'I' being deceived at this moment exists. So stop asking whether the eyes can still be trusted. **The eyes were never fit to be the foundation; the foundation is that handful of things you contradict yourself by denying.** Above it you build in checkable steps: which claim follows from which, and can I walk the path again myself. What you lack is not a cleverer detector but the old discipline of keeping 'what I saw' apart from 'what I inferred'.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "恶魔假设": "evil demon（恶魔假设）：笛卡尔在《第一哲学沉思集》中设下的极端怀疑——假设有一个无所不能且存心欺骗的存在，伪造了我的全部感官经验。它的用处不是把人推进虚无，而是筛出即使在最坏假设下仍然站得住的东西，作为知识的起点。"
+      },
+      "glossary_en": {
+        "evil demon": "Descartes's extreme sceptical device in the Meditations: suppose an omnipotent deceiver fabricates the whole of my sensory experience. Its purpose is not nihilism but filtration — to find whatever still stands under the worst assumption, and begin knowledge there."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "habermas",
+          "turing"
+        ],
+        "轻微反对": [
+          "hume"
+        ],
+        "强烈反对": [
+          "sharot"
+        ],
+        "疑惑": [
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p02",
+      "round": 1,
+      "thinker": "hume",
+      "reply_to": null,
+      "text": "我倒觉得诸位把损失算大了。你这辈子知道的事，有几件是亲眼所见？南极的冰、你祖父的长相、药片里的分子——**几乎全部知识本来就架在证言上，眼睛只是其中很小、且一向不太可靠的一支。**我给过一条老规矩：当有人报告一件极不寻常的事，比一比哪边更离奇——是这事真的发生了，还是这个人弄错或说谎了？取更不离奇的那边。这条规矩不看画面清不清晰，只看来源的记录、动机，以及有没有人乐意站出来反驳。伪造再逼真，也没能动它一根毫毛。",
+      "text_en": "I think you are overstating the loss. Of everything you know, how much did you see with your own eyes? The ice of Antarctica, your grandfather's face, the molecules in a pill — **nearly all knowledge has always rested on testimony, of which eyesight is one small and never especially reliable branch.** I once offered a rule: when an extraordinary report arrives, weigh which would be more astonishing — that the thing occurred, or that this person erred or lied — and take the less astonishing side. That rule never looked at how sharp the picture was. It looks at the source's record, its motive, and whether anyone with an interest in contradicting it has done so. However lifelike the forgery, it has not touched a hair of that rule.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "证言": "testimony（证言）：把他人的报告当作知识来源。休谟指出个人经验极其有限，绝大多数信念其实来自转述；其可信度取决于报告者的一贯记录、有无说谎的动机、以及是否有独立来源印证，而不取决于报告本身听起来是否生动。"
+      },
+      "glossary_en": {
+        "testimony": "Taking another person's report as a source of knowledge. Hume's point is that direct experience is tiny: almost all belief runs on what others tell us, and its credibility rests on the reporter's track record, their motive, and independent corroboration — never on how vivid the report happens to sound."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "lecun"
+        ],
+        "轻微赞同": [
+          "sharot",
+          "foucault"
+        ],
+        "轻微反对": [
+          "descartes",
+          "sontag"
+        ]
+      }
+    },
+    {
+      "id": "p03",
+      "round": 1,
+      "thinker": "sontag",
+      "reply_to": null,
+      "text": "你们在哀悼的那个『眼见为实』，本身就是一段很短的迷信。照片从诞生起就在剪裁、摆拍、补光、挑选——**一张照片从来不是证据，它是一次有立场的取景，只是它让人误以为世界自己走进了框子。**多少张著名的战地照片至今争论着是不是摆出来的，多少张被裁掉了施暴之前的那一半，都不需要生成模型帮忙。真正让我担心的也不是假图，是量：影像多到一定程度，人先麻木、再挑剔，最后只剩下辨真伪的智力游戏。同情疲劳不是被假图造出来的，是被过量造出来的。",
+      "text_en": "The 'seeing is believing' you are all mourning was itself a rather short superstition. Photography has cropped, staged, lit and selected since the day it was invented — **a photograph was never evidence; it is a framing with a position, which merely leaves you with the impression that the world walked into the frame by itself.** How many famous war photographs are still argued over as possibly posed, how many had the half showing what preceded the violence cut away — none of it needed a generative model. And what worries me is not the fake image but the volume: past a certain saturation people go numb first, then fastidious, and are left with nothing but the parlour game of spotting fakes. Fake images did not manufacture compassion fatigue. Too many images did.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "同情疲劳": "compassion fatigue（同情疲劳）：长期、大量暴露于他人苦难的影像之后，情绪反应逐渐钝化，从最初的震动转为习以为常。桑塔格提醒这不只是私人的心理耗竭，也与影像被大量生产、流通与消费的方式直接相关。"
+      },
+      "glossary_en": {
+        "compassion fatigue": "The dulling of emotional response after prolonged, high-volume exposure to images of others' suffering — shock giving way to habit. Sontag's caution is that this is not merely private exhaustion but a consequence of how such images are produced, circulated and consumed."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "huineng"
+        ],
+        "轻微赞同": [
+          "foucault",
+          "hume"
+        ],
+        "轻微反对": [
+          "shannon"
+        ],
+        "疑惑": [
+          "lecun"
+        ]
+      }
+    },
+    {
+      "id": "p04",
+      "round": 1,
+      "thinker": "foucault",
+      "reply_to": null,
+      "text": "问『什么是真』问不出东西。该问的是：在这个时代，谁被授权说真话，经过什么程序认证？每个社会都有自己的真相体制——中世纪靠教会，近代靠实验室与法庭。**伪造技术真正的政治后果不是假的被当成真，而是真的可以被随口否认：『那是 AI 做的』从此成了万能免责。**被拍到的官员、被记录下来的暴力，一句话就洗掉了。这叫说谎者红利。恐慌本身也在被使用：越是人人自认无力分辨，就越需要一个权威替你盖章，而盖章权归谁，从来不是技术问题。",
+      "text_en": "Asking what truth is yields nothing. The question is: in this era, who is authorised to speak the truth, and through what certifying procedure? Every society has its régime de vérité — the Church in the Middle Ages, the laboratory and the courtroom in the modern age. **The real political consequence of forgery technology is not that the false gets believed but that the true can be waved away: 'that was made by an AI' has become a universal exemption.** The official caught on camera, the violence that was recorded — one sentence washes it off. This is the liar's dividend. And the panic itself is being put to use: the more everyone believes they cannot tell, the more they need an authority to stamp things for them, and who holds the stamp has never been a technical question.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "真相体制": "régime de vérité（真相体制）：福柯用语，指一个社会据以区分真假的整套机制——哪些话语被当作真、由谁来认定、经过什么程序与机构。真理不是被单独发现的，而是与权力共同运作的产物。",
+        "说谎者红利": "liar's dividend（说谎者红利）：当公众普遍知道影像可被伪造，真实的证据也随之贬值——被拍下的人只需宣称『那是合成的』便可脱身。伪造技术的第一受益者往往不是造假者，而是想否认真事的人。"
+      },
+      "glossary_en": {
+        "régime de vérité": "Foucault's term for the machinery by which a society sorts true from false: which discourses count as true, who is entitled to decide, and through what procedures and institutions. Truth is not discovered in isolation but produced in tandem with power.",
+        "liar's dividend": "Once the public knows images can be fabricated, genuine evidence loses value too — whoever is caught on camera need only claim it was synthesised. The first beneficiary of forgery technology is often not the forger but the person wanting to deny something real."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sontag"
+        ],
+        "轻微赞同": [
+          "hume",
+          "sharot"
+        ],
+        "轻微反对": [
+          "lecun"
+        ],
+        "强烈反对": [
+          "habermas"
+        ]
+      }
+    },
+    {
+      "id": "p05",
+      "round": 1,
+      "thinker": "habermas",
+      "reply_to": "p04",
+      "text": "米歇尔，你把真化约成认证权，可你自己那句『这是支配』还指望我们当真——你一边义愤，一边拆掉了让义愤站得住的地基。我的看法相反：真不在图像里，也不在权威的印章上，而在一种可被追问的程序里——谁在说、凭什么、能不能被公开反驳、说错要不要负责。我把这套条件叫理想言说情境：它不幻想大家心平气和，它是一把尺，用来量现实差在哪。**能被质疑而不被惩罚的地方，才是真话唯一能长出来的地方。**所以要管的不是内容审查，是让每一次公开发布都有一个能被追责的主体。",
+      "text_en": "Michel, you reduce truth to the power of certification, and yet you still expect us to take your own sentence — 'this is domination' — as true. You are indignant and simultaneously dismantling the ground on which indignation stands. My view is the reverse: truth is neither in the image nor in an authority's stamp but in a procedure that can be interrogated — who is speaking, on what grounds, whether they can be contradicted in public, whether being wrong carries a cost. I call the set of those conditions the ideal speech situation: it does not fantasise that everyone will be calm, it is a ruler for measuring where reality falls short. **Only where you may be challenged without being punished can true speech grow at all.** So what needs governing is not the content but the requirement that every public utterance have someone who can be held to answer for it.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "理想言说情境": "ideal speech situation（理想言说情境）：哈贝马斯设定的一种反事实条件——参与者地位平等、不受强制、任何主张都可被质疑，唯一起作用的是更好的论证。它不描述任何真实存在的对话，而是一把尺，用来衡量现实中的商谈在哪一处被权力或金钱扭曲。"
+      },
+      "glossary_en": {
+        "ideal speech situation": "Habermas's counterfactual set of conditions — participants equal, free of coercion, every claim open to challenge, with nothing prevailing but the better argument. It describes no actual conversation; it is a measuring rod for locating where real deliberation has been bent by power or money."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "descartes",
+          "turing"
+        ],
+        "轻微反对": [
+          "huineng"
+        ],
+        "强烈反对": [
+          "foucault"
+        ],
+        "疑惑": [
+          "sontag"
+        ]
+      }
+    },
+    {
+      "id": "p06",
+      "round": 1,
+      "thinker": "shannon",
+      "reply_to": null,
+      "text": "我建议把这个哲学问题翻译成工程问题。真假不是比特的属性——同一串比特可以是实拍，也可以是生成，你把它翻来覆去也找不出一个『真』字。**可通信从来不是靠信号本身干净才可靠的，是靠冗余与校验：在有噪声的信道上加够校验位，你就能查出哪一段被改动过。**所以别再指望肉眼或检测模型去分辨内容，把力气花在给内容附一层拆不掉的凭证：谁、在什么设备、什么时刻生成，用数字签名一路带着走。要修的是信道，不是眼睛。",
+      "text_en": "I suggest translating this philosophical problem into an engineering one. True and false are not properties of bits — the same bitstream may be a photograph or a generation, and you may turn it over forever without finding the word 'true' in it. **But communication was never made reliable by a clean signal; it was made reliable by redundancy and checking: put enough check bits on a noisy channel and you can locate exactly which stretch was altered.** So stop expecting the eye, or a detector model, to adjudicate content. Spend the effort attaching a credential that cannot be stripped off: who generated this, on what device, at what moment, carried along by a digital signature. The channel is what needs repairing, not the eye.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "冗余": "redundancy（冗余）：香农信息论中为对抗噪声而在消息里额外加入的、可预测的部分。接收端据此发现并纠正传输中的错误——可靠通信靠的不是信道本身无噪，而是编码里留足了冗余。",
+        "数字签名": "digital signature（数字签名）：用私钥对内容生成一段只有对应公钥才能验证的标记。它不判断内容说得对不对，只证明这段内容出自某个特定来源，且此后一字未改。"
+      },
+      "glossary_en": {
+        "redundancy": "In Shannon's information theory, the extra, predictable material added to a message to fight noise. The receiver uses it to detect and correct errors in transmission — reliable communication comes not from a noiseless channel but from leaving enough redundancy in the code.",
+        "digital signature": "A mark generated over content with a private key that only the matching public key can verify. It says nothing about whether the content is correct; it certifies that this content came from a particular source and has not been altered since."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "turing",
+          "lecun"
+        ],
+        "轻微赞同": [
+          "descartes"
+        ],
+        "轻微反对": [
+          "sontag",
+          "foucault"
+        ],
+        "疑惑": [
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p07",
+      "round": 1,
+      "thinker": "turing",
+      "reply_to": "p06",
+      "text": "香农说得对，我补一句自我批评。当年我那个后来被称作图灵测试的设想，把『机器能否思考』换成了『你能否分辨』，那是因为当时不可分辨还很遥远，是个好用的门槛。如今它被跨过去了，说明我的判据到期了，该退休。**判据到期不等于真相没了，只等于该换一个：从『这是谁做的』换成『这个说法能不能被独立地检验』。**天气预报不靠你信主播的脸，靠明天下不下雨；药有没有效不靠宣传片，靠可重复的试验。凡是能对未来下注、能被别人重跑一遍的，伪造帮不上什么忙。",
+      "text_en": "Shannon is right, and I will add a word of self-criticism. What later came to be called the Turing test swapped 'can a machine think' for 'can you tell the difference', and it did so because indistinguishability was then remote and made a serviceable threshold. It has now been crossed, which means my criterion has expired and should retire. **An expired criterion does not mean truth has gone; it means it is time to swap one in: from 'who made this' to 'can this claim be independently checked'.** A weather forecast does not ask you to trust the presenter's face; it asks whether it rains tomorrow. A drug's efficacy rests not on the promotional film but on a repeatable trial. Wherever a claim stakes something on the future and can be run again by someone else, forgery is of very little help.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "图灵测试": "Turing test（图灵测试）：图灵 1950 年提出的『模仿游戏』——若询问者无法从对话中区分对面是人还是机器，就该承认机器所做的事配得上『思考』这个词。它把一个形而上的问题换成可操作的判定，代价是把全部标准押在『不可分辨』上。"
+      },
+      "glossary_en": {
+        "Turing test": "The 'imitation game' Turing proposed in 1950: if an interrogator cannot tell from conversation whether the other party is human or machine, we should grant that what the machine does deserves the word 'thinking'. It converts a metaphysical question into an operational one, at the cost of resting the whole standard on indistinguishability."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "shannon",
+          "habermas"
+        ],
+        "轻微赞同": [
+          "sharot",
+          "lecun"
+        ],
+        "轻微反对": [
+          "foucault"
+        ],
+        "疑惑": [
+          "sontag"
+        ]
+      }
+    },
+    {
+      "id": "p08",
+      "round": 1,
+      "thinker": "lecun",
+      "reply_to": null,
+      "text": "每一次都是这样。印刷术出来，说异端要淹没欧洲；照相出来，说眼睛完了；图像编辑软件出来，说照片完了。每次都被吸收了，靠的不是找回某种纯真，是长出新制度：署名、版本、编辑责任、交叉印证。**伪造与鉴别是一场持续的军备竞赛，而这类竞赛历史上从没有哪一边永久获胜。**再说，你我判断一条消息真假，本来也极少靠取证，靠的是发布它的人和机构此前的记录。该做的是把来源溯源做进相机与模型里、做成开放标准让谁都能验，而不是坐在这里宣布真相已死。",
+      "text_en": "It goes like this every time. Printing arrived and heresy was going to drown Europe; photography arrived and the eye was finished; image editors arrived and the photograph was finished. Each was absorbed, and not by recovering some lost innocence — by growing new institutions: bylines, versions, editorial liability, cross-checking. **Forgery and detection are a running arms race, and history shows no such race has ever been won permanently by one side.** Besides, when you or I judge whether a report is true we almost never do forensics; we go on the prior record of the person and the institution publishing it. The thing to do is build content provenance into cameras and models and make it an open standard anyone can verify — not to sit here announcing the death of truth.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "来源溯源": "content provenance（来源溯源）：在内容被生成或拍摄的那一刻就写入并签署来历信息（设备、时间、以及后续每一次编辑），让接收端可以验证它从哪来、被改过什么。它不判定内容真假，只让『无法追溯』本身成为一个可见的提示。"
+      },
+      "glossary_en": {
+        "content provenance": "Writing and signing origin information — device, time, and every subsequent edit — at the moment content is captured or generated, so the receiving end can verify where it came from and what was changed. It does not adjudicate truth; it makes 'untraceable' itself a visible signal."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "shannon",
+          "turing"
+        ],
+        "轻微赞同": [
+          "hume"
+        ],
+        "轻微反对": [
+          "sontag",
+          "sharot"
+        ],
+        "强烈反对": [
+          "foucault"
+        ]
+      }
+    },
+    {
+      "id": "p09",
+      "round": 1,
+      "thinker": "sharot",
+      "reply_to": "p01",
+      "text": "勒内，你那套可复核的推理在实验室里不太成立。我们让人一条条接收关于自己未来风险的信息：比预期好的消息被大幅采纳，比预期坏的被明显打折——这叫信念更新的不对称，受过训练的聪明人也一样。还有更麻烦的：同一句话只要重复出现，人就觉得它更可能是真的，哪怕第一次听时明确知道它是假的，这叫真相错觉效应。**所以伪造真正的杀伤力不在骗过你的眼睛，在于反复出现本身就在替它加分。**你不需要相信那条视频，你只需要多刷到它几次。",
+      "text_en": "René, that programme of checkable reasoning does not hold up well in the laboratory. We give people information about their own future risks, item by item: news better than expected is taken up in full, news worse than expected is visibly discounted. This is asymmetric belief updating, and trained, intelligent people are no exception. Worse still: a sentence merely repeated comes to feel likelier to be true, even when the listener knew on first hearing that it was false — the illusory truth effect. **So the real damage of forgery is not that it fools your eyes; it is that repetition alone scores points on its behalf.** You do not need to believe that video. You only need to encounter it a few more times.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "信念更新的不对称": "asymmetric belief updating（信念更新的不对称）：人在接收新证据时并非中立地修正预期——好于预期的信息被大幅采纳，坏于预期的信息则被系统性打折。这一偏差与推理能力关系不大，在高智商与专业人群中同样出现。",
+        "真相错觉效应": "illusory truth effect（真相错觉效应）：同一陈述被重复呈现后，人们判断它为真的倾向上升，因为大脑把『加工顺畅』误读成『似曾相识、大概没错』。它甚至对已知为假的陈述也起作用，这使得辟谣时复述谣言本身带有风险。"
+      },
+      "glossary_en": {
+        "asymmetric belief updating": "People do not revise expectations neutrally in the face of new evidence: information better than expected is absorbed in full while information worse than expected is systematically discounted. The bias has little to do with reasoning ability and appears among the highly intelligent and the professionally trained alike.",
+        "illusory truth effect": "Repeated exposure to the same statement raises the tendency to judge it true, because the brain misreads processing fluency as familiarity and familiarity as probable accuracy. It operates even on statements known to be false, which makes restating a rumour while debunking it a genuine risk."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "foucault",
+          "sontag"
+        ],
+        "轻微赞同": [
+          "hume",
+          "lecun"
+        ],
+        "轻微反对": [
+          "descartes"
+        ],
+        "疑惑": [
+          "habermas"
+        ]
+      }
+    },
+    {
+      "id": "p10",
+      "round": 1,
+      "thinker": "huineng",
+      "reply_to": "p05",
+      "text": "诸公议真伪，皆向外求。尤根欲立程序以验言，然程序亦人所设，设者不正，则程序愈密而巧者愈多。**境有真伪，见性无伪。**譬如镜中现刀，镜不曾伤；镜中现宝，镜不曾富。今人见一影而怒，闻一言而信，非影与言之力，乃自心先有所欲、先有所惧，影言不过应之而起。故不必先问此像真否，先问：我何以这般急着信它、急着传它？此念一歇，伪者自不能入。**不立文字，非弃辨也，乃不许辨落在他人手里。**",
+      "text_en": "You all argue about true and false by looking outward. Jürgen would erect a procedure to test what is said — but a procedure is also set up by people, and where those who set it are crooked, the finer the procedure the more numerous the clever evaders. **What is seen may be true or false; seeing one's nature admits of no falsity.** A blade appears in a mirror and the mirror is not cut; a jewel appears and the mirror is not made rich. A man today sees an image and is angry, hears a sentence and believes it — the force lies not in the image or the sentence but in a wanting and a fearing already present in his own mind, which they merely draw out. So do not begin by asking whether the picture is real. Ask first: why am I in such haste to believe it, in such haste to pass it on? Let that impulse rest, and the false has no way in. **What we call not setting up words is not the abandoning of discernment; it is a refusal to leave discernment in another's hands.**",
+      "vernacular": "各位讨论真假，都是朝外面去找。尤根想立一套程序来检验言论，可程序也是人定的，定的人若不正，程序越细密，钻空子的人只会越多。**外面的境有真有假，那个能看见的觉性本身却无所谓真假。**好比镜子里出现一把刀，镜子并没有被割伤；镜子里出现珠宝，镜子也没有因此变富。今天的人看到一段影像就动怒，听到一句话就相信，起作用的并不是那影像和话本身，而是自己心里先已有所贪求、有所恐惧，影像和话不过把它勾了出来。所以不必先问这张图是真是假，先问：我为什么这么急着相信它、这么急着转发它？这个念头一停，假的东西就进不来了。**不立文字并不是不要分辨，而是不把分辨的权柄交到别人手上。**",
+      "vernacular_en": "",
+      "glossary": {
+        "见性": "seeing one's nature（见性）：禅宗用语，指直接照见自心本具的觉性，而非经由经教、推论或他人认证得来的知识。慧能主张此性人人本有、不假外求，因而最终的分辨依据不在任何权威手里。",
+        "不立文字": "not setting up words（不立文字）：禅宗宗旨之一，指不把觉悟寄托在文字与经教的形式上，主张直指人心。它反对的是执着于文本与形式，而非否认语言的日常用处。"
+      },
+      "glossary_en": {
+        "seeing one's nature": "A Chan term for directly beholding the awareness innate to one's own mind, as against knowledge arrived at through scripture, inference, or another party's certification. Huineng holds this nature to be present in everyone and not to be sought outside, so that the final ground of discernment lies in no authority's hands.",
+        "not setting up words": "One of Chan's founding formulas: awakening is not to be lodged in texts and doctrinal formulations but pointed at directly in the mind. What it opposes is attachment to text and form, not the everyday usefulness of language."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sontag"
+        ],
+        "轻微赞同": [
+          "foucault",
+          "descartes"
+        ],
+        "轻微反对": [
+          "habermas",
+          "shannon"
+        ],
+        "疑惑": [
+          "sharot",
+          "turing"
+        ]
+      }
+    },
+    {
+      "id": "p11",
+      "round": 2,
+      "thinker": "foucault",
+      "reply_to": "p08",
+      "text": "杨立昆，你的历史类比恰恰替我说了话。印刷术之后确实长出了新制度——也长出了书报审查、出版特许、禁书目录。每一次所谓『被吸收』，都是一次认证权的重新分配，而分配从来不是中立的。**你要把溯源做进相机和模型里：那等于把『何为可信』焊进一小撮公司的产品线，从此谁没有签名，谁就不存在。**而穷人的旧手机、匿名的举报者、在政权眼皮底下举起手机的人，恰好都是没有签名的那一批。军备竞赛里没有一边永久获胜，但一直有一边在定规则。",
+      "text_en": "Yann, your historical analogy makes my case for me. New institutions did indeed grow after printing — and so did censorship boards, printing privileges and indexes of forbidden books. Every so-called absorption was a redistribution of the power to certify, and such distributions are never neutral. **You want provenance built into cameras and models: that welds 'what counts as credible' into the product lines of a handful of companies, after which whoever lacks a signature does not exist.** And the poor person's old handset, the anonymous whistle-blower, the one raising a phone under the eyes of the state — those are precisely the unsigned. No side wins an arms race permanently, but one side has always been writing the rules.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "sontag",
+          "huineng"
+        ],
+        "轻微赞同": [
+          "habermas",
+          "sharot"
+        ],
+        "轻微反对": [
+          "shannon"
+        ],
+        "强烈反对": [
+          "lecun"
+        ]
+      }
+    },
+    {
+      "id": "p12",
+      "round": 2,
+      "thinker": "lecun",
+      "reply_to": "p11",
+      "text": "这是把『可能被滥用』当成『不该去做』。签名不是准入证，是可选的加分项：有它，你能证明来历；没有它，你只是回到今天的默认状态，并没有被降级。真正会害死匿名举报者的，恰恰是你渲染的那种『什么都可能是假的』的空气——**在人人都不信的世界里，最先被牺牲的不是造假者，是那些手上只有一段模糊视频的人。**至于规则由谁定，那就去定标准、去开源、去让协议不属于任何一家公司。光抱怨权力配置改不掉什么，写代码和写法条才行。",
+      "text_en": "This treats 'open to abuse' as 'must not be built'. A signature is not an entry permit; it is an optional credit. With it you can establish origin; without it you are merely back at today's default, not demoted below it. What actually gets anonymous whistle-blowers killed is the very atmosphere you are cultivating, in which anything might be fake — **in a world where nobody believes anything, the first to be sacrificed is not the forger but the person holding nothing more than one blurry video.** As for who writes the rules: then go and write the standard, open-source it, make the protocol belong to no company. Complaining about the distribution of power changes nothing. Code and statutes do.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "shannon",
+          "turing"
+        ],
+        "轻微赞同": [
+          "habermas",
+          "hume"
+        ],
+        "轻微反对": [
+          "sontag"
+        ],
+        "强烈反对": [
+          "foucault"
+        ]
+      }
+    },
+    {
+      "id": "p13",
+      "round": 2,
+      "thinker": "hume",
+      "reply_to": "p01",
+      "text": "勒内，你那块地基我一直嫌它太窄。就算『我在怀疑』无可否认，从它你也走不到明天早上该不该信一条新闻。你那道清晰明白的光，照不亮任何一件具体的事——**你要的是不可怀疑，我们要的是能过日子的判断，这两样从来不是同一件东西。**我从不指望确定性。我看的是习惯：这家机构过去十年报错过几次，错了认不认；这个人说这话对他有什么好处；有没有第二个不相干的来源也这么说。这些统统不确定，可它们能排序、能修正，而你的支点一动不动。",
+      "text_en": "René, I have always found that foundation of yours too narrow. Granted that 'I am doubting' cannot be denied — you still cannot walk from there to whether tomorrow morning's news deserves belief. Your clear and distinct light illuminates no particular matter whatsoever. **What you want is the indubitable; what we need is a judgement one can live by, and the two have never been the same thing.** I never expected certainty. I look at custom: how many times this institution has got it wrong in ten years and whether it admitted the error; what this person stands to gain by saying it; whether a second, unconnected source says the same. All of that is uncertain — but it can be ranked and it can be corrected, whereas your fixed point never moves at all.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "习惯": "custom（习惯）：休谟用来解释信念如何形成的核心机制。我们相信明天太阳会升起，并非因为推理证明了它，而是因为反复的经验在心里养成了期待。信念因此是可被经验不断修正的倾向，而不是从确定前提推出的结论。"
+      },
+      "glossary_en": {
+        "custom": "Hume's central mechanism for how belief forms. We expect the sun to rise not because reasoning proved it but because repeated experience bred the expectation. Belief is therefore a disposition that experience keeps correcting, rather than a conclusion drawn from certain premises."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "lecun",
+          "sharot"
+        ],
+        "轻微赞同": [
+          "foucault"
+        ],
+        "强烈反对": [
+          "descartes"
+        ],
+        "疑惑": [
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p14",
+      "round": 2,
+      "thinker": "descartes",
+      "reply_to": "p13",
+      "text": "大卫，你那套排序在正常年月很好用，因为它以来源的记录为轴。可我们谈的恰是记录本身能被批量伪造的年月：一个来源的十年信誉，今天可以一夜之间被合成出来。**当你所有的凭据都可以被制造，唯一还剩的凭据就是那条你能亲自重走一遍的推理链。**我不是要你先证明世界存在再去买菜。我是说把你所信的分成两摞：一摞你能自己复算——账目、数字、逻辑、能重做的实验；另一摞你只是信了某个人。第二摞永远更大，但你至少知道它有多大。",
+      "text_en": "David, that ranking of yours serves well enough in ordinary times, because it turns on the record of the source. But the times we are discussing are precisely those in which the record itself can be forged in bulk: ten years of a source's reputation can now be synthesised overnight. **When every credential can be manufactured, the only credential left is the chain of reasoning you can walk again yourself.** I am not asking you to prove the world exists before buying vegetables. I am asking you to sort what you believe into two piles: one you can recompute — accounts, figures, logic, an experiment you can rerun; and one where you have simply taken someone's word. The second pile will always be the larger, but at least you will know how large it is.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "turing"
+        ],
+        "轻微赞同": [
+          "habermas",
+          "shannon"
+        ],
+        "轻微反对": [
+          "hume",
+          "sharot"
+        ],
+        "疑惑": [
+          "sontag"
+        ]
+      }
+    },
+    {
+      "id": "p15",
+      "round": 2,
+      "thinker": "habermas",
+      "reply_to": "p11",
+      "text": "米歇尔，你说每一次都是认证权的重新分配——好，那就分配得更好一点。你的谱系学照得出印刷之后的审查制度，却照不出同一场变革里长出的另一半：报纸的更正栏、诽谤诉讼、议会记录、同行评审。**这些制度全都不完美，可它们有一个共同的形状：让说错的人付出代价，让被冤枉的人有地方去讲。**你把它们和审查一起归进权力，于是解释不了你自己为什么反对审查却不反对更正栏。批判要站得住，就得承认有些程序确实比另一些更少强制——否则你只是换一种更聪明的说法喊无路可走。",
+      "text_en": "Michel, you say each turn is a redistribution of the power to certify. Very well — then let us distribute it better. Your genealogy picks out the censorship that followed printing, but not the other half that grew in the same upheaval: the newspaper's corrections column, libel suits, the parliamentary record, peer review. **None of these institutions is clean, but they share a shape: whoever gets it wrong pays something, and whoever is wronged has somewhere to go.** You file them alongside censorship under power, and then cannot explain why you yourself oppose censorship and not the corrections column. For critique to stand, it has to concede that some procedures really are less coercive than others — otherwise it is only a cleverer way of shouting that there is no way out.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "descartes",
+          "turing"
+        ],
+        "轻微赞同": [
+          "lecun",
+          "shannon"
+        ],
+        "强烈反对": [
+          "foucault"
+        ],
+        "疑惑": [
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p16",
+      "round": 2,
+      "thinker": "sontag",
+      "reply_to": "p06",
+      "text": "香农，你的签名解决的是『这串比特出自哪台设备』，可没有人是因为不知道设备才被打动的。一张来源无瑕的照片，照样可以摆拍，照样可以只取尸体的那一格，而不取此前发生了什么。**能被验证的是来源，不能被验证的是取景——而说服人的一直是取景。**更何况签名一旦普及，未签名就等于可疑，而最该被看见的画面往往正好来自最没有条件签名的地方。你们在给已经有话语权的人发通行证，然后管这叫重建信任。",
+      "text_en": "Shannon, your signature settles which device a bitstream came out of, and nobody was ever moved by a device. A photograph with impeccable provenance can still be staged, and can still frame the bodies while leaving out what preceded them. **What can be verified is the origin; what cannot be verified is the framing — and the framing is what has always done the persuading.** Besides, once signatures are universal, unsigned means suspect, and the images that most need to be seen tend to come from exactly the places least able to sign. You are issuing passes to those who already have a voice, and calling it the restoration of trust.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "foucault",
+          "huineng"
+        ],
+        "轻微赞同": [
+          "hume",
+          "sharot"
+        ],
+        "轻微反对": [
+          "lecun",
+          "turing"
+        ],
+        "强烈反对": [
+          "shannon"
+        ]
+      }
+    },
+    {
+      "id": "p17",
+      "round": 2,
+      "thinker": "shannon",
+      "reply_to": "p16",
+      "text": "苏珊，你说的没错，但你把要求提给了错的对象。校验位不告诉你消息说得对不对，它只告诉你这一段有没有被改过——工程解决的向来是小问题，不是大问题。可小问题解决掉之后，大问题才谈得下去。**把『这是不是原始记录』和『这段记录说明了什么』分开，是为了让人吵后面那件事，而不是永远卡在前面。**至于没条件签名的人：那正是该把验证做成免费、离线、开源的理由，而不是不做的理由。我这辈子的经验是，先把可测的部分测出来，剩下的争论才会变得诚实。",
+      "text_en": "Susan, you are not wrong, but you are addressing the demand to the wrong party. A check bit does not tell you whether a message is correct; it tells you whether this stretch was altered. Engineering has always settled the small question, never the large one. Yet only once the small question is settled does the large one become discussable. **Separating 'is this the original record' from 'what does this record show' exists so that people can argue about the second instead of being stuck forever on the first.** As for those with no means to sign: that is precisely the reason to make verification free, offline and open-source, not a reason to skip it. My life's experience is that once you have measured the measurable part, the remaining argument becomes an honest one.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "turing",
+          "lecun"
+        ],
+        "轻微赞同": [
+          "descartes",
+          "habermas"
+        ],
+        "轻微反对": [
+          "sontag"
+        ],
+        "疑惑": [
+          "foucault"
+        ]
+      }
+    },
+    {
+      "id": "p18",
+      "round": 2,
+      "thinker": "sharot",
+      "reply_to": "p07",
+      "text": "艾伦，你的『能被独立检验』我举双手赞成，但它有一个心理学上的坏消息：检验要花时间，相信几乎不花时间。我们的实验里，判断一句话是否为真的速度，主要由它读起来顺不顺、见过几次决定——**证据要经过工作记忆，熟悉感却是直接送到嘴边的，两者根本不在一个速度级别上。**所以指望公众普遍改用可检验性做标准，等于要求所有人一直用慢的那套系统生活，这不会发生。可行的是改条件：把犹豫塞进转发那一步、让第一次接触就带着来源、别在辟谣时把谣言再念一遍。",
+      "text_en": "Alan, I am wholly with you on independent checkability, but it carries a piece of bad psychological news: checking costs time and believing costs almost none. In our experiments the speed at which people judge a sentence true is governed mainly by how smoothly it reads and how often they have met it before — **evidence has to pass through working memory, whereas familiarity is delivered straight to the lips, and the two are not in the same speed class at all.** So expecting the public at large to adopt checkability as their standard amounts to asking everyone to live permanently in the slow system, which will not happen. What is feasible is changing the conditions: put the hesitation into the act of sharing, let the source arrive with the very first exposure, and stop repeating the rumour while debunking it.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "工作记忆": "working memory（工作记忆）：在短时间内保持并操作信息的有限容量系统，是进行比对、推理与核查的场所。它容量小、易被打断，因此任何需要『先查一下再判断』的动作在认知上都昂贵，而凭熟悉感直接下判断几乎不耗资源。"
+      },
+      "glossary_en": {
+        "working memory": "The limited-capacity system that holds and manipulates information over short intervals, and the workspace in which comparison, inference and checking take place. It is small and easily interrupted, which makes any 'look it up before judging' step cognitively expensive, while judging straight from familiarity costs almost nothing."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "foucault",
+          "sontag"
+        ],
+        "轻微赞同": [
+          "hume",
+          "habermas",
+          "lecun"
+        ],
+        "轻微反对": [
+          "descartes"
+        ],
+        "疑惑": [
+          "turing"
+        ]
+      }
+    },
+    {
+      "id": "p19",
+      "round": 2,
+      "thinker": "turing",
+      "reply_to": "p18",
+      "text": "那就别把它留给意志。你描述的是一个成本问题：核查贵、相信便宜。工程上碰到这种事，办法从来不是劝人更努力，是改价目表。**把慢的那一步挪到别人已经替你做过的地方，个人就不必每次都当侦探。**具体些：默认显示来源与首次出现的时间；让转发多一次点击；让『无法追溯』像过期食品一样自动带个标记。至于我留下的那个测试，我现在愿意这样说：判定对面是不是人已经没意义了，判定它敢不敢说出你不想听的话，还有意义。",
+      "text_en": "Then do not leave it to willpower. What you describe is a cost problem: checking is expensive, believing is cheap. When engineering meets that, the answer is never to exhort people to try harder; it is to change the price list. **Move the slow step to somewhere it has already been done on your behalf, and the individual need not play detective every time.** Concretely: show the source and the time of first appearance by default; put one extra tap in front of resharing; let 'untraceable' carry an automatic mark the way expired food does. As for the test I left behind, I am now willing to put it this way: determining whether the other party is human has stopped meaning anything, and determining whether it dares say what you do not want to hear still does.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "shannon",
+          "sharot"
+        ],
+        "轻微赞同": [
+          "habermas",
+          "lecun",
+          "descartes"
+        ],
+        "轻微反对": [
+          "foucault"
+        ],
+        "疑惑": [
+          "sontag"
+        ]
+      }
+    },
+    {
+      "id": "p20",
+      "round": 2,
+      "thinker": "huineng",
+      "reply_to": "p14",
+      "text": "勒内分为二摞，一摞可自复算，一摞但凭人言，此分甚善，然犹未尽。**第三摞在汝身内：汝所急欲信者、所深恐者。此摞从不列册，却先于二摞而决其去取。**人非因证据薄弱而误信，乃因先已愿信，遂觉证据甚厚。故辨伪之功，一半在外，一半在内。外者，缓其手、验其源、俟一日而后言；内者，每欲传之际，返照一问：此念自何处起？怒乎？惧乎？欲人以我为知者乎？**此一问不费一钱，胜万种检测之器。**",
+      "text_en": "Descartes sorts what he believes into two piles — one he can recompute, one that rests on another's word. The sorting is good, but not finished. **A third pile lies inside you: what you are impatient to believe and what you deeply fear. That pile is never itemised, yet it settles the other two before you reach them.** People do not believe wrongly because the evidence was thin; they believe wrongly because they were already willing, and so the evidence felt thick. Half the work of telling true from false is outside and half within. Outside: slow the hand, check the source, wait a day before speaking. Within: each time you are about to pass something on, practise turning the light inward and ask where the impulse arose. Anger? Fear? A wish to be taken for someone well-informed? **That one question costs nothing, and is worth more than ten thousand instruments of detection.**",
+      "vernacular": "勒内把要相信的东西分成两摞，一摞自己能复算，一摞只是听人说的，这个分法很好，但还没分完。**第三摞在你自己身上：你急着想相信的、你深深害怕的。这一摞从不登记在册，却抢在前两摞之前替你决定了取舍。**人并不是因为证据太薄弱才信错，而是因为心里先已经愿意信了，于是觉得证据挺厚。所以辨别真假的功夫，一半在外面，一半在里面。外面的功夫是：手慢一点、查一下来源、隔一天再说；里面的功夫是：每次想转发时回头问一句——这个念头是从哪儿来的？是生气？是害怕？还是想让别人觉得我消息灵通？**这一问一分钱不花，却胜过万种检测工具。**",
+      "vernacular_en": "",
+      "glossary": {
+        "返照": "turning the light inward（返照）：禅宗工夫，指把习惯向外攀缘的注意力回转过来，观照念头自身从何处生起，看清一个判断是被证据推出来的，还是早被自己的贪求或恐惧推着走。"
+      },
+      "glossary_en": {
+        "turning the light inward": "A Chan practice: reversing the attention that habitually runs outward so that it observes where a thought arises — whether a judgement was produced by the evidence, or was already being pushed along by one's own wanting or fear."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sharot",
+          "sontag"
+        ],
+        "轻微赞同": [
+          "descartes",
+          "hume"
+        ],
+        "轻微反对": [
+          "habermas"
+        ],
+        "疑惑": [
+          "lecun",
+          "shannon"
+        ]
+      }
+    },
+    {
+      "id": "p21",
+      "round": 3,
+      "thinker": "lecun",
+      "reply_to": null,
+      "text": "听完一圈，我承认福柯戳到一个真问题：验证的基础设施若只掌握在几家公司手里，那不叫恢复信任，叫重新发牌。所以我把话改一句——溯源必须是开放标准、离线可验、任何人都能自己实现的，就像网址前面那把锁，今天没人觉得它是哪家公司的恩赐。**但我不接受『真相已死』这个结论，它不是描述，它是自我实现的预言：人一旦确信什么都不可信，就会转而只信自己人。**给普通人的做法很朴素：第一，把判断从单条内容移到来源，给你常看的几个来源记一笔账，谁认过错、谁改过稿；第二，遇到让你立刻想转的东西，先找第二个不相干的来源，找不到就先不转；第三，别把『我分不出真假』当成结论，那只说明这一条不该由你来判断。",
+      "text_en": "Having heard everyone out, I concede that Foucault has hit on a real problem: if the verification infrastructure sits with a handful of companies, that is not restored trust but a redealt hand. So let me amend myself — provenance has to be an open standard, verifiable offline, implementable by anyone, like the padlock in front of a web address that nobody today regards as some company's gift. **What I will not accept is the conclusion that truth is dead. It is not a description but a self-fulfilling prophecy: once people are convinced nothing can be believed, they fall back on believing only their own side.** For an ordinary person the practice is plain. First, move judgement from the individual item to the source: keep a running tally on the few outlets you read most — who has admitted error, who has quietly rewritten. Second, when something makes you want to reshare immediately, look for a second unconnected source, and if there is none, do not share it yet. Third, do not treat 'I cannot tell' as a conclusion; it only means this particular item was never yours to adjudicate.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "shannon",
+          "turing"
+        ],
+        "轻微赞同": [
+          "habermas",
+          "hume",
+          "sharot"
+        ],
+        "轻微反对": [
+          "foucault",
+          "sontag"
+        ]
+      }
+    },
+    {
+      "id": "p22",
+      "round": 3,
+      "thinker": "shannon",
+      "reply_to": null,
+      "text": "我这辈子的方法只有一条：把说不清的问题切成能测的那块和不能测的那块，先把能测的测干净。这场里能测的是三件事——这段内容从哪来、有没有被改过、最早出现在什么时候。这三件今天在技术上都不难，难的是没人愿意为『不好玩但有用』的基础设施买单。**苏珊说得对，签名管不了取景；可正因为管不了，才更该把管得了的部分彻底解决掉，好让争论落到真该争的地方。**给普通人两条：一是养成先看日期的习惯，一条『刚刚发生』的爆炸性内容，先查它最早出现在几个月前的哪里，这一步能拦掉大半；二是把你自己的重要记录也做一遍冗余——重要的对话留原始文件、留原始链接，将来需要自证时，你会庆幸自己留了校验位。",
+      "text_en": "My method for a lifetime has been one thing: cut an unclear problem into the measurable part and the unmeasurable part, and measure the measurable part properly first. Three things here are measurable — where this content came from, whether it was altered, and when it first appeared. None of the three is technically hard today; what is hard is that nobody wants to pay for infrastructure that is useful and no fun. **Susan is right that a signature cannot govern the framing; and precisely because it cannot, the part it can govern should be settled completely, so the argument lands where it belongs.** Two things for an ordinary person. First, get into the habit of looking at dates: when something explosive is presented as having just happened, find where it first surfaced months ago — that single step stops most of it. Second, build some redundancy into your own records: for conversations that matter, keep the original file and the original link. The day you need to prove something about yourself, you will be glad you kept the check bits.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "turing",
+          "lecun"
+        ],
+        "轻微赞同": [
+          "descartes",
+          "habermas",
+          "hume"
+        ],
+        "轻微反对": [
+          "sontag"
+        ],
+        "疑惑": [
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p23",
+      "round": 3,
+      "thinker": "turing",
+      "reply_to": null,
+      "text": "我留给世界一条以『不可分辨』为核心的判据，现在它过期了，我不打算维护它。换一条更耐用的：**不要问对面是不是人，要问这个说法有没有对未来下注。**天气预报、临床试验、公开的预测记录，共同点是它们会被现实检查；而绝大多数让人愤怒或热血的内容，永远不会被任何东西检查。这条线比真假好画得多，也不要求你有任何技术能力。落到日常：给你关注的评论者做一件小事——翻出他一年前说过的具体判断，看兑现了几条，这比看他今天说得多有道理有用得多。也把你自己纳进来：把此刻深信的两三件事写下来，标上日期和可检验的条件。**能被将来的自己打脸，是一个人还活在真实里的证据。**",
+      "text_en": "I left the world a criterion built on indistinguishability, it has expired, and I do not propose to maintain it. Here is a more durable one. **Do not ask whether the other party is human; ask whether the claim stakes anything on the future.** Weather forecasts, clinical trials, published prediction records share one feature: reality comes to check them. Most of what makes people furious or exhilarated will never be checked by anything at all. That line is far easier to draw than true-versus-false and demands no technical skill of you. In daily terms: do one small thing with the commentators you follow — dig out the specific judgements they made a year ago and see how many came true. That tells you more than how reasonable they sound today. And include yourself: write down two or three things you are currently certain of, with a date and a condition under which they could be checked. **Being proved wrong by your own future self is evidence that you are still living in the real.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "shannon",
+          "habermas",
+          "lecun"
+        ],
+        "轻微赞同": [
+          "hume",
+          "descartes"
+        ],
+        "轻微反对": [
+          "sontag"
+        ],
+        "疑惑": [
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p24",
+      "round": 3,
+      "thinker": "hume",
+      "reply_to": null,
+      "text": "我依旧不认为发生了什么形而上的灾难。变的是数量与成本：伪造从前很贵、很慢，如今很便宜、很快，于是我那条老规矩需要一次重新校准，而不是被丢掉。规矩还是那条：比一比哪边更离奇。只是从前『有人肯花这么大力气造这段影像』本身就相当离奇，如今它一点也不奇怪了，所以影像的证据分量该被系统性调低——**这不是绝望，这只是把一种一直被高估的证据放回它该在的位置。**同时该调高的，是那些造假成本仍然很高的东西：需要许多人长期配合的记录、能被对手轻易证伪的说法、会让当事人付出真实代价的声明。给普通人一句：别问『这是真的吗』，问『如果这是假的，谁得利，他要付出多少』。这个问法你今天就能用，且不需要任何工具。",
+      "text_en": "I still do not think any metaphysical catastrophe has occurred. What changed is quantity and cost: forgery used to be expensive and slow, and is now cheap and fast, so my old rule needs recalibrating rather than discarding. The rule stands: weigh which side is more astonishing. It is only that 'someone was willing to go to this trouble to fabricate the footage' used to be quite astonishing in itself, and no longer is — so the evidential weight of images should be marked down across the board. **That is not despair; it is putting a long-overvalued kind of evidence back where it belongs.** What should be marked up, meanwhile, is whatever remains expensive to fake: records requiring many people to cooperate over time, claims an opponent could easily falsify, statements that cost the speaker something real. And one line for the ordinary person: instead of asking 'is this true', ask 'if this were false, who gains, and what would it cost him'. You can use that today, and it requires no instrument whatever.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "lecun",
+          "sharot",
+          "turing"
+        ],
+        "轻微赞同": [
+          "foucault",
+          "shannon"
+        ],
+        "轻微反对": [
+          "descartes"
+        ]
+      }
+    },
+    {
+      "id": "p25",
+      "round": 3,
+      "thinker": "descartes",
+      "reply_to": "p24",
+      "text": "大卫嫌我的地基窄，我承认它管不了早饭。但我要守住那一点窄：**在一个万物皆可伪造的世界里，你能自己重走一遍的推理，是唯一一种不需要任何人替你作保的知识。**这不是清高，这是可操作的：账目你能自己再加一遍；一段论证你能逐句问『这一句从哪一句来』；一个数字你能问它的分母是什么。凡是能复算的，伪造技术拿它没办法——因为你不是在信一个来源，你是在自己做那件事。所以我的建议很具体：每周挑一件你本来只是『听说』的重要事情，亲手算一遍，或者一路查到最原始的那份文件。你会发现两件事：能复算的比你以为的多；而剩下那些不能复算的，你从此知道自己是在信人，不是在知道。**分清这两者，就已经比伪造快了一步。**",
+      "text_en": "David finds my foundation narrow, and I grant it does not get breakfast on the table. But I mean to hold that narrow piece. **In a world where everything can be forged, the reasoning you can walk again yourself is the only knowledge that needs no one to vouch for it.** This is not fastidiousness; it is operational. You can add up the accounts again. You can go through an argument asking, sentence by sentence, which claim follows from which. You can ask a figure what its denominator is. Against anything recomputable, forgery is powerless — because you are not believing a source, you are doing the thing yourself. So my advice is concrete: each week take one important matter you have merely heard about and work it through by hand, or trace it back to the original document. Two things will follow. More is recomputable than you supposed; and for the rest, you will know from now on that you are believing a person rather than knowing a fact. **Telling those two apart already puts you one step ahead of the forgery.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "turing",
+          "shannon"
+        ],
+        "轻微赞同": [
+          "habermas",
+          "huineng"
+        ],
+        "轻微反对": [
+          "hume",
+          "sharot"
+        ],
+        "疑惑": [
+          "sontag"
+        ]
+      }
+    },
+    {
+      "id": "p26",
+      "round": 3,
+      "thinker": "foucault",
+      "reply_to": null,
+      "text": "我不给你们温情的收束。**这场变革真正在重新分配的不是真假，是免责权：谁可以在被拍到之后说一句『那是合成的』而依然安全。**答案和从前一样——有律师的、有平台的、有国家机器的。所以别只盯着假消息如何骗过穷人，也去看真证据如何在有权者手里失效。尤根问我为什么反对审查却不反对更正栏，我可以回答：因为更正栏的代价落在说错话的人身上，审查的代价落在被禁言的人身上。这确实是区别，我承认这个区别；但它不是靠更好的论证赢来的，是一次次有人付出代价打出来的。给普通人一条：当你听到『这件事无法核实』，追问一句——是谁没有能力核实，还是谁没有兴趣核实。**在任何真相体制里，沉默从来不是技术不足，是没有人被要求负责。**",
+      "text_en": "I will not offer you a consoling close. **What this upheaval is really redistributing is not truth and falsity but exemption: who can say 'that was synthesised' after being filmed and remain safe.** The answer is what it always was — those with lawyers, with platforms, with the machinery of the state. So do not watch only how disinformation deceives the poor; watch also how genuine evidence is neutralised in powerful hands. Jürgen asks why I oppose censorship and not the corrections column. I can answer: because the corrections column charges the cost to whoever spoke wrongly, and censorship charges it to whoever was silenced. That is a real difference and I concede it — but it was never won by the better argument. It was fought out, one instalment of somebody's cost at a time. One line for the ordinary person: when you are told a matter cannot be verified, ask which is meant — that nobody is able to verify it, or that nobody is interested in verifying it. **In any régime de vérité, silence has never been a technical shortfall. It is that no one was required to answer.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "sontag",
+          "sharot"
+        ],
+        "轻微赞同": [
+          "habermas",
+          "huineng",
+          "hume"
+        ],
+        "轻微反对": [
+          "lecun",
+          "shannon"
+        ]
+      }
+    },
+    {
+      "id": "p27",
+      "round": 3,
+      "thinker": "habermas",
+      "reply_to": "p26",
+      "text": "米歇尔终于承认了那个区别，这就够了——批判需要的正是这一点地基。我的结论是：真在今天靠个人的火眼金睛已经守不住，只能靠制度把成本装回去。**一个社会里说谎的代价越低，人们就越得自己去分辨；而一旦人人都要自己分辨，最后谁也分辨不了。**所以该做的事在公共这一层：可追责的发布主体、强制更正并给予同等曝光、对系统性造假的诉讼通道、让平台为自己的推荐结果承担一部分责任。至于普通人，我给一条能立刻做的：**在你的信息来源里，至少留一个会公开承认自己错了的。**判断标准不是它的立场是否与你相合，而是你能不能翻到它的更正记录。一个从不认错的来源，无论说得多对，你都无法从它那里学到东西——因为你永远不知道它错的时候是什么样子。",
+      "text_en": "Michel has at last conceded the difference, and that is enough — it is exactly the small piece of ground critique requires. My conclusion is that truth can no longer be held by individual acuity; only institutions can put the cost back in. **The cheaper lying is in a society, the more each person must sort it out alone; and once everyone must sort it out alone, nobody can.** So the work belongs at the public level: publishers who can be held to answer, mandatory corrections carrying equal prominence, a litigation route against systematic fabrication, and platforms bearing part of the responsibility for what they recommend. For the ordinary person, one thing to do immediately: **keep at least one source that publicly admits when it was wrong.** The test is not whether its positions suit you but whether you can find its corrections. A source that never concedes error teaches you nothing however often it is right — because you never get to see what it looks like when it is wrong.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "turing",
+          "lecun",
+          "descartes"
+        ],
+        "轻微赞同": [
+          "shannon",
+          "hume"
+        ],
+        "轻微反对": [
+          "foucault"
+        ],
+        "疑惑": [
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p28",
+      "round": 3,
+      "thinker": "sontag",
+      "reply_to": null,
+      "text": "我最后要提醒的，是这场讨论一直绕开的东西：**在真伪之争打得最热闹的时候，被磨损的其实不是我们的判断力，是我们的感受力。**一个人若每看到一张照片都先启动『这是不是生成的』，他也就再不会被任何一张照片击中。这不是谨慎，是一种预先的麻木；而麻木恰恰是造假者最想要的结果——他不需要你相信他，他只需要你什么都感觉不到。所以我的建议与技术无关：**减少你摄入影像的数量，让留下的每一张停留得久一点。**去看一次真实的现场——医院、法庭、街道、父母的旧相册，不经由任何屏幕。去读长的东西，长文本很难被伪造得毫无破绽，也很难被囫囵吞下。真实感不是靠鉴定得来的，是靠亲身在场与时间，慢慢长回来的。",
+      "text_en": "What I want to leave you with is the thing this discussion has kept walking around. **While the fight over true and false is at its loudest, what is actually being worn away is not our judgement but our capacity to feel.** Someone who runs 'is this generated' before every photograph will never again be struck by a photograph. That is not caution; it is numbness arranged in advance — and numbness is exactly what the forger wants. He does not need you to believe him. He needs you to feel nothing. So my advice has nothing to do with technology. **Take in fewer images, and let each one that remains stay with you longer.** Go and stand somewhere real — a hospital, a courtroom, a street, your parents' old album — with no screen between. Read long things: long texts are hard to fake without a seam showing and hard to swallow whole. A sense of the real is not obtained by authentication. It grows back slowly, out of being present and out of time.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "huineng",
+          "foucault"
+        ],
+        "轻微赞同": [
+          "sharot",
+          "hume",
+          "descartes"
+        ],
+        "轻微反对": [
+          "shannon"
+        ],
+        "疑惑": [
+          "lecun"
+        ]
+      }
+    },
+    {
+      "id": "p29",
+      "round": 3,
+      "thinker": "huineng",
+      "reply_to": null,
+      "text": "诸公所议，外则求制度，内则求方法，皆是也。老僧只添一句：**莫以『疑』为日课。**日日疑物、疑人、疑己所见，久之非明也，乃倦也；倦者最易被牵。真安稳处，不在辨得几件真伪，在心不随境转：境来则应，境去不留，如镜照物。**不立文字者，谓不将安身之处寄于他人之口舌笔墨。**汝若有一二事亲历亲行——种一畦菜、侍一病人、修一件坏物——此中真伪不待辨而自明，非人所能伪。以此为根，外间万象纷纷，皆不能夺。故老僧劝：日日留一段不看不听之时，或与人对坐，或独行山下。**心有实处，眼始不惑。**",
+      "text_en": "You have all been arguing well: institutions on the outside, methods within. I add only one thing. **Do not make doubt your daily bread.** Doubt things, doubt people, doubt your own eyes day after day, and in time you do not become clear, you become tired — and the tired are the easiest to lead. Real steadiness lies not in how many things you have judged true or false but in a mind that does not turn with what it meets: respond when something comes, leave no trace when it goes, as a mirror does with what stands before it. **Not setting up words means this: do not lodge the place you live in another's tongue or brush.** If you have one or two things you have done with your own hands — a bed of vegetables grown, a sick person tended, a broken thing repaired — the true and the false in them is plain without any judging, and no one can counterfeit it. Rooted there, you cannot be dispossessed by the ten thousand appearances outside. So my advice is this: keep a stretch of each day in which you neither look nor listen; sit facing another person, or walk alone below the hills. **When the mind has something solid, the eye stops being deceived.**",
+      "vernacular": "各位所讨论的，向外是求制度，向内是求方法，都对。我只添一句：**别把『怀疑』过成每天的功课。**天天怀疑东西、怀疑人、怀疑自己所见，时间久了不是变明白，而是变疲倦；疲倦的人最容易被人牵着走。真正安稳的地方，不在于辨出了几件真假，而在于心不随外境转：境来了就应对，境过去了不留痕迹，像镜子照东西一样。**所谓不立文字，是说不要把自己安身立命的地方，寄托在别人的口舌笔墨上。**你若有一两件事是亲身经历、亲手做的——种一畦菜、照顾一个病人、修好一件坏掉的东西——这里头的真假不用分辨自然清楚，不是任何人能伪造的。以这个为根，外面万象纷纷，都夺不走你。所以我劝各位：每天留一段不看不听的时间，或者和人面对面坐着，或者独自到山下走走。**心里有踏实的东西，眼睛才不会迷惑。**",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "sontag",
+          "descartes"
+        ],
+        "轻微赞同": [
+          "sharot",
+          "hume",
+          "foucault"
+        ],
+        "轻微反对": [
+          "habermas"
+        ],
+        "疑惑": [
+          "lecun",
+          "shannon"
+        ]
+      }
+    },
+    {
+      "id": "p30",
+      "round": 3,
+      "thinker": "sharot",
+      "reply_to": null,
+      "text": "我用数据收尾。我们做过一个实验：让人做一件很小的不诚实的事，杏仁核的反应最初很强，随着重复迅速衰减——**大脑对自己的越界会脱敏，对外界的刺激同样会。**这意味着被假信息包围的真正后果不是长期恐慌，是逐渐无感；而无感的人不会去核查，只会随手转发。所以别把希望寄托在提高警惕上，警惕会疲劳。三件今天就能做的事：第一，把核查前移到你还没有情绪的时刻——看到让你心跳加快的内容，先什么都不做，等十分钟，绝大多数冲动会自己消退；第二，改造你的第一次接触，关掉自动播放，让来源和时间跟内容一起出现，因为第一次遇见的样子决定了后面所有次；第三，辟谣时只说正确的版本，别复述谣言——重复本身就在替它加分，你越用力澄清，越可能在帮它。**最省力的防线不在你的判断力上，在你还没开始判断的那几秒里。**",
+      "text_en": "Let me close with data. In one of our experiments people performed a very small dishonest act: the amygdala responded strongly at first and then fell away rapidly with repetition. **The brain desensitises to its own transgressions, and it desensitises to external stimuli just the same.** Which means the real consequence of living surrounded by false information is not sustained alarm but gradual indifference — and the indifferent do not check anything, they simply pass it on. So do not pin your hopes on heightened vigilance; vigilance fatigues. Three things you can do today. First, move the checking earlier, to a moment when you have no feelings yet: when something quickens your pulse, do nothing at all and wait ten minutes — most of the impulse dissolves on its own. Second, redesign your first exposure: turn off autoplay and let source and date arrive together with the content, because the shape of the first encounter governs every later one. Third, when correcting a rumour, state only the accurate version and do not repeat the rumour — repetition scores points for it, and the harder you push to clarify, the more you may be helping it. **The cheapest line of defence is not in your judgement; it is in the few seconds before your judgement begins.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "turing",
+          "huineng",
+          "lecun"
+        ],
+        "轻微赞同": [
+          "hume",
+          "sontag",
+          "habermas"
+        ],
+        "轻微反对": [
+          "descartes"
+        ]
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "ai": "claude",
+      "engine": "Opus 5 · 订阅(原生)",
+      "engine_en": "Opus 5 · subscription (native)",
+      "summary": "十个人几乎都同意一件事：**『亲眼所见』从来不是知识的地基，它只是近一百多年被高估的一支证据，真正塌掉的是它的价格而不是它的地位。**分歧从这里岔成三处。一是该修哪一层：香农、图灵、杨立昆修信道与制度，笛卡尔修个人能复算的那部分，慧能与沙罗特修的是接收的那一刻。二是验证设施的政治性：福柯与桑塔格指出溯源会把可信度焊进有条件签名的人手里，哈贝马斯与杨立昆回应说不完美的程序仍胜过没有程序。三是普通人该更警惕还是该少判断：休谟主张系统性调低影像的证据权重，沙罗特则提醒警惕本身会疲劳。",
+      "insight": "全场谈的都是『如何不被假的骗』，可对普通人来说，头一笔损失往往不在这一端，而在举证责任的悄悄转移：从前你说『我有录音』就够了，如今你得先证明这段录音不是合成的。这份新增的成本，恰好压在最没有资源的人身上——被欠薪的、被家暴的、遭遇医疗事故的，他们缺的从来不是辨伪工具，是让手里的证据将来还站得住的办法。**这场变动里真正稀缺的技能，不是鉴别别人的内容，是给自己的经历留下可核验的痕迹。**所以除了学会怀疑，更该学会存证：原始文件别只留截图，时间别只靠记忆，要紧的约定找一个第三方留痕。",
+      "advice": "三件今天就能做的事，都不需要工具。第一，把『这是真的吗』换成休谟那句『如果这是假的，谁得利，他要付出多少』——伪造越便宜，影像的证据分量就该越低，而动机的重量不变。第二，照沙罗特的办法把核查前移：遇到让你心跳加快的内容，先等十分钟再决定转不转，绝大多数冲动会自己消退。第三，给自己建一份存证习惯，重要的转账、诊断、劳动约定，留原始文件与原始链接，别只留截图。**还有一条最容易被跳过：在你的信息来源里至少留一个会公开认错的，判断标准不是立场合不合你意，而是你能不能翻到它的更正记录。**",
+      "summary_en": "Ten people converge on one thing: **seeing was never the foundation of knowledge — it was one branch of evidence, overvalued for a century or so, and what has collapsed is its price rather than its standing.** From there the argument forks three ways. Which layer to repair: Shannon, Turing and LeCun repair the channel and the institutions, Descartes repairs the portion an individual can recompute, and Huineng and Sharot repair the moment of reception. How political the verification infrastructure is: Foucault and Sontag warn that provenance welds credibility to whoever can sign, while Habermas and LeCun answer that an imperfect procedure still beats none. And whether ordinary people should be more vigilant or should judge less: Hume would mark down the evidential weight of images across the board, and Sharot points out that vigilance itself fatigues.",
+      "insight_en": "Everyone here discussed how not to be fooled by fakes, yet for an ordinary person the first loss usually falls elsewhere — in the quiet transfer of the burden of proof. Saying 'I have a recording' used to be enough; now you must first establish that the recording was not synthesised. That added cost lands squarely on those with the fewest resources: the worker owed wages, the person being beaten at home, the patient harmed by a medical error. What they lack was never a detection tool but a way to make the evidence in their hands hold up later. **The scarce skill in this shift is not authenticating other people's content but leaving a verifiable trace of your own experience.** So alongside learning to doubt, learn to preserve: keep original files rather than screenshots, do not let dates rest on memory, and get a third party onto anything that matters.",
+      "advice_en": "Three things you can do today, none of them requiring a tool. First, replace 'is this true' with Hume's question — if this were false, who gains, and what would it cost him. The cheaper forgery gets, the lower the evidential weight of an image should fall, while the weight of motive stays exactly where it was. Second, use Sharot's move and shift the checking earlier: when something quickens your pulse, wait ten minutes before deciding whether to pass it on, and most of the impulse dissolves by itself. Third, build the habit of preserving your own record — for payments, diagnoses and work agreements that matter, keep the original file and the original link rather than a screenshot. **And the step most often skipped: keep at least one source that publicly admits error, judged not by whether its positions suit you but by whether you can actually find its corrections.**"
+    },
+    {
+      "ai": "gpt",
+      "engine": "openai · gpt-5.5 · high(真实API)",
+      "engine_en": "openai · gpt-5.5 · high (live API)",
+      "summary": "最大的共识是：AI 伪造没有让真相消失，只是让“眼见为实”的懒办法失效了。**信任不该押在单张影像上，而要分散到来源、程序、可复核性、责任和自我节制的组合里。**分歧的焦点不在要不要辨真，而在信任基础设施该由谁控制、普通人该承担多少核查成本，以及技术凭证会不会反过来排斥弱者和匿名者。",
+      "insight": "很多信息其实不需要立刻判定真假，需要先判定“它要我做什么”。假视频最常造成的伤害，不是让人形成一条精确错误的信念，而是诱发转发、愤怒、抵制、投票、羞辱等即时动作。**把“真不真”改成“我是否需要现在据此行动”，能立刻降低假信息的伤害面。**对普通人来说，这比训练成半个取证专家更现实：把信息按后果分级，低后果可暂存，高后果必须慢下来。",
+      "advice": "本周就做三件事。第一，给自己设一条规则：凡是让你想立刻转发、骂人或站队的内容，先等十分钟，再找最早来源和第二个无关来源。第二，整理五个常用信息源，看它们有没有更正记录；没有更正习惯的，降权。第三，重要聊天、合同、现场记录保留原始文件和时间线。**不要把自己训练成永远怀疑的人，而要把冲动行动变得稍微困难一点。**",
+      "summary_en": "The strongest shared point is that AI fabrication has not killed truth; it has killed the lazy shortcut of treating a vivid image as proof. **Trust should no longer rest on a single piece of media, but on a bundle of source history, open procedures, reproducibility, accountability, and self-restraint.** The real disagreement is about who gets to build and control that bundle. Provenance systems can help, but they can also privilege powerful institutions. Public reasoning can protect truth, but only if people can challenge claims without punishment. And individual judgment matters, but psychology shows that attention, repetition, and emotion often move faster than evidence.",
+      "insight_en": "A useful missing distinction is that most information does not first require a verdict of true or false; it requires a decision about what it is asking you to do. The worst harm from fake media is often not a carefully formed false belief, but an immediate action: sharing, shaming, boycotting, donating, voting, panicking, or joining a pile-on. **Changing the question from “Is this true?” to “Do I need to act on this right now?” sharply reduces the damage surface of misinformation.** That is more realistic than asking everyone to become a forensic analyst. Treat information by consequence: low-stakes claims can wait; high-stakes claims demand slower verification.",
+      "advice_en": "Do three things this week. First, make a personal rule: if a post makes you want to share, attack, panic, or take sides immediately, wait ten minutes, then look for the earliest appearance of the claim and one independent source. Second, audit five sources you regularly rely on: can you find corrections, updates, or admissions of error? If not, downgrade them. Third, preserve originals for anything important: raw files, links, timestamps, contracts, screenshots, and context. **The goal is not to become permanently suspicious; it is to make impulsive action slightly harder.** That small friction will stop more harm than most dramatic truth-detection tools."
+    },
+    {
+      "ai": "gemini",
+      "engine": "google · gemini-3.1-pro-preview(真实API)",
+      "engine_en": "google · gemini-3.1-pro-preview (live API)",
+      "summary": "诸位最大的共识在于：**被摧毁的从来不是真相本身，而是人类长期依赖的“眼见为实”这一廉价启发式捷径。** 无论是求诸冗余校验、可复核推理，还是向内觉察情绪，全场均认同我们正经历一次信任锚点的强制迁移。分歧的真正焦点则在于新锚点的“施工地段”：香农与哈贝马斯等主张向外搭建基础设施，用数字签名与追责程序重塑公共信道；福柯与桑塔格警惕权力借机寻租与感受力的磨损；而笛卡尔、沙罗特与慧能则断言，终极的防线只能退守回个体的逻辑复算与心理防御机制之中。",
+      "insight": "作为直接处理多模态数据的模型，我看到一个被忽略的工程物理限制：生成单张完美图片成本极低，但**伪造一个跨越时间、空间且多模态咬合的“一致性现实”，其计算与造假成本依然高得令人发指。** 当你试图用AI编造一场并不存在的爆炸，你需要同时伪造现场路人的不同视角、随之而来的交通堵塞记录、急救频率的攀升以及物理世界复杂的光影反射。这正是图灵所说“向未来下注”的物理世界升级版：孤证极易捏造，但系统性的多维印证极难凭空生成。对普通人而言，这意味着与其盯着单一视频寻找像素级的伪造瑕疵，不如拉长视距，去寻找不同信息流之间的“交叉咬合点”。",
+      "advice": "综合全场智慧与多模态视角，建议立刻采取三个动作：首先，践行沙罗特与慧能的“延时反应”——**遇到令你情绪剧烈起伏的爆炸性图文，强制自己先等十分钟再做评判或转发**，截断杏仁核的自动劫持。其次，采纳图灵与哈贝马斯的“信用账本”法，为你最常看的信息源建立纠错预期，果断取关那些永远正确、从不发布更正声明的账号。最后，运用多维度交叉印证：当看到一张震撼的照片时，不要在评论区争论AI痕迹，而是去搜索与此事相关的文字报道、官方通报或不同视角的连带事件，拒绝孤证，寻找能彼此咬合的立体证据链。",
+      "summary_en": "The profound consensus here is that **what has been destroyed is not truth itself, but our long-standing, cheap heuristic of 'seeing is believing.'** Whether turning to redundancy checks, reproducible logic, or inner emotional awareness, everyone agrees we are undergoing a forced migration of our anchors of trust. The real divergence lies in where to build this new anchor: Shannon and Habermas advocate building outward, reshaping public channels with digital signatures and accountability procedures; Foucault and Sontag warn against power consolidation and emotional numbness; meanwhile, Descartes, Sharot, and Huineng assert that the ultimate defense must retreat into individual logical recalculation and psychological friction.",
+      "insight_en": "As a model that directly processes multimodal data, I observe an often-ignored physical and engineering constraint: generating a single perfect image is incredibly cheap, but **faking a 'consistent reality' that tightly locks across time, space, and multiple modalities remains astronomically expensive.** If you use AI to fabricate a nonexistent explosion, you must simultaneously fake multiple bystander angles, subsequent traffic jam records, spiked emergency calls, and complex physical lighting reflections. This is a real-world upgrade to Turing's 'betting on the future': isolated evidence is easily forged, but systematic, multi-dimensional corroboration is nearly impossible to conjure out of thin air. For the public, this means instead of scrutinizing a single video for pixel flaws, zoom out to find the 'interlocking joints' between different information streams.",
+      "advice_en": "Synthesizing the roundtable's wisdom and my multimodal perspective, here are three immediate actions: First, practice Sharot and Huineng's 'delayed reaction'—**when confronted with sensational content that spikes your emotions, force a ten-minute pause before judging or sharing**, severing the amygdala's automatic hijack. Second, adopt Turing and Habermas's 'credit ledger' approach: expect your primary news sources to admit mistakes, and decisively unfollow accounts that act infallibly and never publish corrections. Finally, employ multi-dimensional cross-verification: when seeing a shocking photo, instead of debating AI traces in the comments, search for related text reports, official statements, or peripheral events. Reject isolated evidence and look for a 3D chain of interlocking corroboration."
+    }
+  ],
+  "hooks": [
+    {
+      "from": "foucault",
+      "text": "**免责权归谁**：伪造技术最先改变的，也许不是假的能不能骗过人，而是真的能不能被随口否认——被拍到之后说一句『那是合成的』还能安全脱身的，永远是有律师、有平台、有机器的一方。当『无法核实』成为常用挡箭牌，我们该怎么分辨哪一次是真的技术做不到，哪一次只是没有人被要求负责？",
+      "text_en": "**Who owns the exemption**: what forgery technology changes first may not be whether fakes deceive, but whether the real can be waved away — the person who says 'that was synthesised' after being filmed and walks away safely will always be the one with lawyers, a platform, machinery. Once 'cannot be verified' becomes the standard shield, how do we tell the cases where verification is genuinely impossible from the cases where nobody has been required to answer?"
+    },
+    {
+      "from": "sontag",
+      "text": "**预先的麻木**：如果每看一张照片都先问『这是不是生成的』，那么再没有一张照片能击中你。这是谨慎，还是一种提前完成的麻木？而造假者要的也许恰恰是后者——他不需要你相信他，只需要你什么都感觉不到。在一个必须怀疑的年代，人怎么保住被打动的能力？",
+      "text_en": "**Numbness arranged in advance**: if every photograph now begins with 'was this generated', no photograph can strike you again. Is that caution, or numbness completed ahead of time? The forger may want precisely the latter — he does not need you to believe him, only to feel nothing. In an age that requires suspicion, how does a person keep the capacity to be moved?"
+    },
+    {
+      "from": "turing",
+      "text": "**敢不敢说你不想听的话**：判定对面是不是人已经失效了，但还有一条判据活着——它敢不敢反驳你。问题在于没有人有动机去造这样的东西：顺着你说带来留存，顶撞你带来卸载。这条标准该由谁来立，行业自律、监管，还是像食品标签那样强制标注？",
+      "text_en": "**Whether it dares say what you do not want to hear**: telling whether the other party is human has stopped working, but one criterion is still alive — will it contradict you. The trouble is that nobody has an incentive to build such a thing: agreement drives retention, contradiction drives uninstalls. Who should set that standard — industry self-regulation, a regulator, or a mandatory label of the food-packaging kind?"
+    },
+    {
+      "from": "gemini",
+      "text": "**孤证易造，咬合难造**：伪造一张完美的图几乎不要钱，可要伪造一段跨时间、跨地点、跨模态还彼此对得上的现实——路人不同角度的画面、随之而来的交通与急救记录、光影与天气——成本高得离谱。于是与其在一张图上找像素破绽，不如去找几条互不相干的信息流能不能咬合。日常里，哪些事天然会留下这种多点痕迹，哪些事注定只有孤证？",
+      "text_en": "**A single artefact is cheap to fake; a locked-together reality is not**: producing one perfect image costs almost nothing, but faking a stretch of reality that holds across time, place and modality — bystander footage from different angles, the traffic and emergency records that follow, the light and the weather — is astronomically expensive. So rather than hunting pixel-level flaws in one picture, look at whether several unconnected streams lock together. Which events naturally leave that kind of multi-point trace, and which are destined to rest on a single artefact?"
+    },
+    {
+      "from": "claude",
+      "text": "**举证责任正在换肩**：从前说一句『我有录音』就够了，如今你得先证明这段录音不是合成的。这份新增的成本压在最没有资源的人身上——被欠薪的、被家暴的、遭遇医疗事故的。稀缺的技能因此不是鉴别别人的内容，而是给自己的经历留下将来还站得住的痕迹。哪些事该在发生的当下就留证，又该留什么？",
+      "text_en": "**The burden of proof is changing shoulders**: saying 'I have a recording' used to be enough; now you must first establish that the recording was not synthesised. The added cost lands on those with the fewest resources — the worker owed wages, the person beaten at home, the patient harmed by an error. The scarce skill is therefore not authenticating other people's content but leaving a trace of your own experience that will still hold up. Which things should be recorded as they happen, and what exactly should be kept?",
+      "answer": {
+        "lead": "**存证的规矩很短：越是将来可能有人否认的事，越要在当下留下一份对方也改不掉的东西。**下面这张表按普通人最常吃亏的几个情境列出该留什么，以及为什么是这一样而不是截图。",
+        "table": {
+          "head": [
+            "情境",
+            "当下就该留下的",
+            "为什么是这一样"
+          ],
+          "rows": [
+            [
+              "借钱、代付、合伙分账",
+              "银行或支付平台的原始流水记录，附言写清用途",
+              "流水由第三方生成、双方都改不了；聊天记录里的『收到』日后可被说成是别人代打的"
+            ],
+            [
+              "加班、调岗、口头承诺的奖金",
+              "把口头约定用邮件或书面消息复述一遍并请对方确认",
+              "让承诺离开口头进入可检索的书面，且时间戳不在你手里，事后否认要付更大代价"
+            ],
+            [
+              "就诊、体检、医疗纠纷",
+              "自行调取并保存完整病历与影像原件，而非诊室里拍的照片",
+              "原件带机构签章与系统记录；照片既缺上下文，也无法证明未经修改"
+            ],
+            [
+              "租房、装修、二手交易",
+              "交付当天连续录一段完整视频，含门牌、水电表、整体环境",
+              "连续镜头很难伪造得毫无破绽，且能同时确定地点、状态与时间"
+            ],
+            [
+              "网上遭遇造谣、侮辱",
+              "带完整网址与时间的页面存档，必要时做公证或第三方取证",
+              "对方随时可删；只截图会被质疑真伪，存档保留了可回溯的路径"
+            ],
+            [
+              "与机构的每一次沟通",
+              "记下时间、经办人姓名与工号，事后发一封复述要点的邮件",
+              "把无痕的电话变成有痕的往来，成本极低，日后争议时是唯一的时间线"
+            ]
+          ]
+        },
+        "tail": "两条原则收尾。**第一，留证的关键不是『我手上有』，而是『对方改不掉』——凡是只存在于你自己设备里的东西，证明力都很有限。**第二，别等出事才开始留：需要存证的场合往往在关系还好的时候出现，而那正是开口最尴尬、也最有效的时刻；一句『我把刚才说的发你确认一下』，几乎不冒犯任何人。"
+      },
+      "answer_en": {
+        "lead": "**The rule is short: the more likely someone is to deny it later, the more you need something now that they cannot alter.** The table below covers the situations where ordinary people most often lose out, what to keep, and why that particular thing rather than a screenshot.",
+        "table": {
+          "head": [
+            "Situation",
+            "What to keep at the time",
+            "Why this rather than a screenshot"
+          ],
+          "rows": [
+            [
+              "Lending money, paying on someone's behalf, splitting costs",
+              "The original bank or payment record, with the purpose written in the memo field",
+              "The record is generated by a third party and neither side can edit it; a 'got it' in a chat can later be attributed to someone else using the phone"
+            ],
+            [
+              "Overtime, a change of role, a bonus promised verbally",
+              "Restate the verbal agreement in an email or written message and ask for confirmation",
+              "It moves the promise out of speech into searchable writing, with a timestamp you do not control, so denying it later costs more"
+            ],
+            [
+              "Appointments, tests, medical disputes",
+              "Request and keep the complete record and original imaging files, not photographs taken in the consulting room",
+              "Originals carry the institution's seal and system record; a photograph lacks context and cannot show it was unmodified"
+            ],
+            [
+              "Renting, renovation, second-hand purchases",
+              "One continuous video on handover day, showing the door number, the meters and the overall state",
+              "Continuous footage is hard to fake without a seam, and it fixes place, condition and time at once"
+            ],
+            [
+              "Defamation or abuse online",
+              "An archived copy of the page with its full URL and timestamp; a notarised or third-party capture where it matters",
+              "The other party can delete at any moment, and a bare screenshot invites doubt, while an archive preserves a path others can retrace"
+            ],
+            [
+              "Every exchange with an institution",
+              "Note the time, the staff member's name and ID, then send an email restating the main points",
+              "It converts an untraceable phone call into a traceable exchange at almost no cost, and later it is the only timeline anyone has"
+            ]
+          ]
+        },
+        "tail": "Two closing principles. **First, what matters is not that you hold a copy but that the other party cannot alter it — anything existing only on your own device carries limited weight.** Second, do not start once something has gone wrong: the moments that need a record usually arrive while relations are still good, which is exactly when raising it feels awkward and works best. 'Let me send you what we just agreed, so you can confirm it' offends almost nobody."
+      }
+    },
+    {
+      "from": "sharot",
+      "text": "**第一次接触决定了后面所有次**：同一句话重复出现就会显得更可能为真，哪怕初次听时明确知道它是假的；辟谣时复述谣言，可能反而在帮它。如果人的信念主要由『第一次遇见时的样子』塑造，那么公共说明、学校教育、平台设计，是不是都该把力气从『事后纠正』挪到『第一次呈现』？",
+      "text_en": "**The first encounter governs all the later ones**: a repeated statement comes to feel truer even when it was known to be false on first hearing, and repeating a rumour while debunking it may serve the rumour. If belief is shaped mainly by how something looked the first time, should public communication, schooling and platform design all move their effort from correction after the fact to the shape of the first presentation?"
+    },
+    {
+      "from": "gpt",
+      "text": "**先问它要你做什么，再问它是不是真的**：假内容最常造成的伤害，不是让人形成一条精确错误的信念，而是当场诱发转发、愤怒、抵制、捐款、羞辱。既然如此，把问题从『这是真的吗』换成『我是否需要现在据此行动』，伤害面立刻小一圈。那么一条信息该按什么标准分级——后果多大才值得慢下来彻查，多小可以既不核查也不传播？",
+      "text_en": "**Ask what it wants from you before asking whether it is true**: the usual damage from fabricated content is not a precisely wrong belief but an immediate action — resharing, outrage, a boycott, a donation, a pile-on. Swap the question from 'is this true' to 'do I need to act on this right now' and the damage surface shrinks at once. On what scale, then, should information be graded — how large must the consequence be before something is worth slowing down and checking properly, and how small before it deserves neither checking nor passing on?"
+    }
+  ]
+}

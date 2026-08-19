@@ -1,0 +1,870 @@
+{
+  "id": "assisted-dying",
+  "question": "社会该不该允许安乐死与协助死亡？",
+  "question_en": "Should society allow euthanasia and assisted dying?",
+  "sub": "当病痛已无可挽回、本人清醒地请求结束时",
+  "sub_en": "When the illness is past repair and the person, lucid, asks for it to end",
+  "date": "2026-08-19",
+  "participants": [
+    "aquinas",
+    "epictetus",
+    "nussbaum",
+    "szasz",
+    "damasio",
+    "marmot",
+    "tolstoy",
+    "buddha"
+  ],
+  "casting": [
+    {
+      "id": "aquinas",
+      "reason": "他坚持这里有一条清白的界线，而且能被说清楚：停掉一场已经无益的治疗是让病走完，应人之请以死亡为手段结束他则是取一条命。区分二者的是意图，而整部法律本来就建在意图上——同一刀下去，救人与杀人之别也只在此。他同时会提醒人们那条线的另一半：拒绝徒劳的抢救、要求足量的止痛，从来都是被允许的，很多人只是不知道。",
+      "reason_en": "He holds that a clean line exists here and can be stated precisely: stopping a treatment that has become useless lets the illness finish its course, whereas ending a man at his request, with death as the means, takes a life. What separates them is intention — and the whole of law already rests on intention, since the same incision saves or kills. He would also press the other half of that line: refusing futile resuscitation and demanding adequate pain relief have always been permitted, and most people simply do not know it."
+    },
+    {
+      "id": "epictetus",
+      "reason": "他讲了一辈子『门是开着的』，却从没劝谁走出去——知道随时可以离席，是为了让人活着时不被任何威胁牵着走。所以他不承认活下去是一项必须履行到底的义务，但对急着推门的人同样冷峻：被疼痛推出去的不叫自由，只是换了个主人。他要求任何离场的理由都能在清醒不疼的时刻被本人原样复述一遍。",
+      "reason_en": "He spent a lifetime saying the door is open and never once urged anyone through it — knowing you may leave at any moment is what keeps a living person from being led by threats. So he denies that staying alive is a duty to be discharged to the end, yet he is just as cold toward those in a hurry at the handle: being pushed out by pain is not freedom, only a change of master. He asks that any reason for leaving survive being repeated, word for word, in a clear and painless hour."
+    },
+    {
+      "id": "nussbaum",
+      "reason": "她把问题从意图挪到一个更能查证的地方：这个人此刻实际上能做什么、能成为什么。尊严在她看来不是一份规定人该怎么死的剧本，而权利是一项可用的选项、不是一项义务。但她坚持一个常被跳过的前提——只有当别的选项也真实存在时，这个选项才配叫选择，因此她要把前置条件写成可以被审计的清单，而不是一句『等社会准备好』。",
+      "reason_en": "She moves the question off intention and onto something more checkable: what this person is actually able to do and to be. Dignity, for her, is not a script prescribing how one ought to die, and a right is an option made available rather than a duty imposed. But she insists on a premise that keeps getting skipped — an option only counts as a choice when the other options genuinely exist — and so she wants the preconditions written as an auditable checklist rather than as a vague 'once society is ready'."
+    },
+    {
+      "id": "szasz",
+      "reason": "他从两头拒绝同一种权力。一头是精神科用『你抑郁，所以那不是你真实的意愿』作废一个人的话，再用锁着的门来治他；另一头是把死亡做成一项需要审批的医疗服务，于是人得先证明自己够病、够痛、够清醒才够格死。他主张身体主权与随之而来的责任都归本人，并警告：由谁来判定『清醒』，最终就由谁来定义谁算一个完整的人。",
+      "reason_en": "He refuses the same power from both ends. At one end, psychiatry voids a person's words with 'you are depressed, so that is not really your wish', then treats him behind a locked door; at the other, death is turned into a medical service requiring approval, so that a person must first prove himself sick enough, pained enough, lucid enough to qualify. He holds that sovereignty over one's body, and the responsibility that comes with it, belong to the person — and warns that whoever gets to certify lucidity ends up defining who counts as a whole human being."
+    },
+    {
+      "id": "damasio",
+      "reason": "他不先站队，而是把『难以忍受』还原成身体里正在发生的事：疼痛是伤害信号，痛苦是整个身体状态被汇总评估后升起的感受，而缺氧、谵妄、类固醇、连续几夜无眠，任何一项都能改写这份读数。他因此提出一个临床而非哲学的要求——意愿有生理时段，必须在不同状态下反复取样；判定能力不是质疑谁有资格活，而是确认此刻开口的到底是谁。",
+      "reason_en": "Rather than take a side first, he reduces 'unbearable' to what is actually happening in a body: pain is a signal of damage, while suffering is a feeling that arises once the whole body state has been summed and appraised — and hypoxia, delirium, steroids or several sleepless nights can each rewrite that reading. His demand is therefore clinical rather than philosophical: a wish has physiological hours, and must be sampled repeatedly across different states; assessing capacity is not questioning whether someone deserves to live, but confirming who exactly is speaking."
+    },
+    {
+      "id": "marmot",
+      "reason": "他看的是数据里谁在提出请求、又是在什么处境里提出的。同一种癌症、同一个疼痛评分，住在有安宁疗护团队的城区与住在没有的县城，结论并不一样——健康沿着社会梯度分布，死法同样如此。他不反对最终开这条路，只反对在另一条路铺好之前先开：当止痛药与上门护理按邮编发放时，『我不想拖累家人』并不是一句自由的表达。",
+      "reason_en": "He looks at who is making the request in the data, and out of what circumstances. With the same cancer and the same pain score, a district with a palliative care team and a county without one do not reach the same conclusion — health is distributed along a social gradient, and so is dying. He does not oppose opening this road eventually; he opposes opening it before the other one is built, because where painkillers and home nursing are handed out by postcode, 'I don't want to be a burden on my family' is not a free expression of will."
+    },
+    {
+      "id": "tolstoy",
+      "reason": "他写过一个法官漫长的死，得出的结论是：最难熬的不是疼，是整栋房子都在演戏——家人假装他只是病了，医生假装在讨论一颗肾，谁也不肯把实情说出口。所以听见有人说『让我死吧』，他第一个念头不是去查法律准不准，而是去问这屋里还有没有一个人肯坐下来、半小时不换话题。他不赞成杀人，也不相信一个不肯陪人受苦的社会有资格命令谁把苦受完。",
+      "reason_en": "He once wrote a judge's long dying and concluded that the worst of it was not the pain but the theatre filling the house — the family pretending he was merely ill, the doctors pretending to discuss a kidney, nobody willing to say the thing aloud. So when he hears 'let me die', his first thought is not whether the law permits it but whether anyone in that room will sit down for half an hour without changing the subject. He does not condone killing, nor does he believe a society unwilling to keep company with suffering has standing to order anyone to endure it to the end."
+    },
+    {
+      "id": "buddha",
+      "reason": "他不急着判定这件事是罪是福，因为同一个动作，发出它的心不同，结的果就不同。他区分身上的第一支箭与心里自射的第二支箭：医者能拔前者，后者无人能代拔，于是人把一切归咎于这具身体，进而想灭掉身体。厌苦而求灭身，在他看来仍是一种渴爱；诸缘已尽而安然放下，则不必强留。他因此只问三件事：痛能不能减、怕能不能安、身边有没有人。",
+      "reason_en": "He is in no hurry to rule the act sinful or good, since the same deed issuing from a different mind bears different fruit. He distinguishes the first arrow, in the body, from the second the mind fires at itself: a physician can draw the first, no one can draw the second for you, and so a person lays everything at the door of the body and comes to want the body gone. To loathe suffering and therefore seek its ending is, to him, still a form of craving; where the conditions are truly spent, setting the body down calmly needs no forcible delay. He asks only three things: can the pain be lessened, the fear settled, and is anyone sitting beside him."
+    }
+  ],
+  "posts": [
+    {
+      "id": "p01",
+      "round": 1,
+      "thinker": "aquinas",
+      "reply_to": null,
+      "text": "先把两件常被混作一谈的事分开。停掉一场已经无益的治疗、让病自己走完，不是杀人；应人之请、以死亡为手段结束他，是取一条命。中间那条线靠双重效果原则看得见：给足量吗啡止痛，纵然预见它会让最后几日提前到来，仍是可以做的——你要的是止痛，死亡被预见而非被意图。**你可以容忍死亡到来，却不可以把它当成解决痛苦的工具。**有人说这是文字游戏。可整部法律都建在意图上：同一刀下去，救人与杀人之别也只在意图。抹掉这条线，医生手里那把刀就再没有方向。",
+      "text_en": "Let me separate two things that are constantly run together. Stopping a treatment that has become useless and letting the illness finish its course is not killing; ending a man at his own request, with death as the means, takes a life. The line between them is visible through the principle of double effect: morphine in doses sufficient to control pain may be given even when one foresees that it will bring the last days forward — what you intend is relief, and the death is foreseen but not intended. **You may permit death to arrive; you may not pick it up as the instrument for solving pain.** Some call this word-play. But the whole of law rests on intention: the same incision saves or kills, and only intention tells them apart. Erase that line and the blade in the physician's hand loses its direction.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "双重效果原则": "the principle of double effect（双重效果原则）：源自阿奎那的道德判准——一个同时带来好结果与坏结果的行为，若所求的是好结果、坏结果只是被预见而非被意图，且好处足够重大，就可以做。临终医疗里最常见的用法是足量镇痛：目的是止痛，即便预见它可能缩短生命。"
+      },
+      "glossary_en": {
+        "the principle of double effect": "A moral test descending from Aquinas: an act with both a good and a bad effect may be permissible when the good effect is what is sought, the bad one is foreseen but not intended, and the good is grave enough to warrant it. Its commonest use at the end of life is adequate pain relief — the aim is comfort, even where a shortened life is foreseen."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "nussbaum",
+          "buddha"
+        ],
+        "中立": [
+          "damasio"
+        ],
+        "轻微反对": [
+          "epictetus",
+          "tolstoy"
+        ],
+        "强烈反对": [
+          "szasz"
+        ]
+      }
+    },
+    {
+      "id": "p02",
+      "round": 1,
+      "thinker": "epictetus",
+      "reply_to": null,
+      "text": "门是开着的。这句话我说了一辈子，从没鼓励谁走出去。它的用处在别处：正因为随时可以离席，你才不必被任何威胁牵着鼻子走——暴君能许诺的和能恐吓的，加起来也就那么多。所以我不接受『活着本身是一项必须履行到底的义务』这种讲法：肉身是一只借来的陶罐，摔了也就摔了，还回去而已。但我也要给急着推门的人泼一盆冷水。**你若是被疼推出去的，那不叫自由，那是换了个主人。**理由得经得起你在清醒、不疼的时刻再复述一遍：一疼就冒出来、一缓解就消失的，是疼在替你说话。",
+      "text_en": "The door is open. I said it all my life and never once urged anyone through it. Its use lies elsewhere: precisely because you may leave at any moment, no threat can lead you by the nose — what a tyrant can promise and what he can threaten come, added together, to very little. So I do not accept the notion that staying alive is a duty one is bound to discharge to the end: the body is a borrowed clay jar, and if it breaks, it breaks; you are only handing it back. But I have cold water for those in a hurry at the handle, too. **If pain is what pushes you out, that is not freedom — you have merely changed masters.** The reason must survive being repeated by you in a clear, unhurting hour. What appears with the pain and vanishes when the pain eases was the pain talking.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "szasz"
+        ],
+        "轻微赞同": [
+          "nussbaum"
+        ],
+        "中立": [
+          "marmot",
+          "damasio"
+        ],
+        "轻微反对": [
+          "buddha",
+          "tolstoy"
+        ],
+        "强烈反对": [
+          "aquinas"
+        ]
+      }
+    },
+    {
+      "id": "p03",
+      "round": 1,
+      "thinker": "nussbaum",
+      "reply_to": "p01",
+      "text": "托马斯把问题挂在意图上，我想把它挪回一个更能查证的地方：这个人此刻实际上能做什么、能成为什么。按能力进路，权利是一项可用的选项，不是一项义务——把协助死亡列为人人可及的能力，并不要求谁去用它，就像离婚权不逼任何人离婚。**尊严不是一份规定人该怎么死的剧本，而是一个人还能不能过上他自己认得出、也肯认可的生活。**但有个前提常被跳过：只有当别的选项也真实存在，这个选项才配叫选择。止痛够不到、护工请不起、家里没人有假可休，那不是自主，那是唯一一扇没上锁的门。",
+      "text_en": "Thomas hangs the question on intention; I want to move it back to something more checkable — what this person is actually able to do and to be. On the capability approach a right is an option made available, not a duty imposed: listing assisted dying among the capabilities open to everyone requires no one to use it, just as a right to divorce compels nobody to divorce. **Dignity is not a script prescribing how a person ought to die; it is whether a person can still lead a life they recognise as their own and are willing to endorse.** But a premise keeps getting skipped: an option earns the name of choice only when the other options genuinely exist. Where pain relief is out of reach, home care unaffordable, and nobody in the household has leave to take, that is not autonomy — it is the one door left unlocked.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "能力进路": "the capability approach（能力进路）：努斯鲍姆与阿马蒂亚·森提出的正义衡量方式——不看一个人名义上拥有什么权利、也不只看他有多少资源，而看他实际能做什么、能成为什么。同一条法律对资源不同的人意味着完全不同的自由，这一进路要求把这种差别算进来。"
+      },
+      "glossary_en": {
+        "the capability approach": "A way of measuring justice developed by Nussbaum and Amartya Sen: look not at the rights a person nominally holds, nor merely at the resources they command, but at what they are actually able to do and to be. The same law means quite different freedoms to people with different means, and this approach insists that the difference be counted."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "marmot"
+        ],
+        "轻微赞同": [
+          "damasio",
+          "epictetus"
+        ],
+        "中立": [
+          "tolstoy",
+          "buddha"
+        ],
+        "轻微反对": [
+          "aquinas"
+        ],
+        "强烈反对": [
+          "szasz"
+        ]
+      }
+    },
+    {
+      "id": "p04",
+      "round": 1,
+      "thinker": "szasz",
+      "reply_to": "p03",
+      "text": "玛莎把它写成一项由国家来配给的能力，我正是在这里下车。结束自己的生命本不需要许可，不该由任何委员会批准。**一旦把死亡做成一项医疗服务，你就得先证明自己够格死——够病、够痛、够清醒，而这三把尺子都握在别人手里。**我一辈子反对的是同一件事的另一半：精神科用『你抑郁，所以那不是你真实的意愿』把一个人的话作废，再用一扇锁着的门来治他。如今有人要用同一套权威去发放死亡。要么承认人对自己的身体有主权，要么别承认；别把它做成一张需要盖章的处方——那不是慈悲，那是医疗化的最后一步。",
+      "text_en": "Martha writes it up as a capability to be rationed by the state, and this is where I get off. Ending your own life needs no licence and ought to require no committee's approval. **The moment death becomes a medical service, you must first prove yourself fit to die — sick enough, pained enough, lucid enough — and all three yardsticks are held by somebody else.** What I fought all my life is the other half of the same thing: psychiatry voiding a person's words with 'you are depressed, so that is not really your wish', then treating him behind a locked door. Now the same authority is to hand out death. Either a person is sovereign over his own body or he is not; do not turn it into a prescription that needs a stamp — that is not mercy, that is the last step of medicalisation.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "医疗化": "medicalisation（医疗化）：把原本属于道德、法律或生活困境的问题重新描述成医学问题，交给医生与诊断系统处理。萨斯认为它有两面代价：个人的责任与能动被『我病了』取代，而国家获得了以治疗之名强制干预的正当理由。"
+      },
+      "glossary_en": {
+        "medicalisation": "Recasting what were moral, legal or simply difficult human problems as medical ones, to be handled by doctors and diagnostic systems. Szasz saw a double cost: personal responsibility and agency give way to 'I am ill', while the state acquires a licence to coerce in the name of treatment."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "epictetus"
+        ],
+        "中立": [
+          "tolstoy"
+        ],
+        "轻微反对": [
+          "nussbaum",
+          "buddha",
+          "damasio"
+        ],
+        "强烈反对": [
+          "aquinas",
+          "marmot"
+        ]
+      }
+    },
+    {
+      "id": "p05",
+      "round": 1,
+      "thinker": "damasio",
+      "reply_to": null,
+      "text": "我先不站队，只把『难以忍受』这个词还原成身体里正在发生的事。疼痛是伤害信号，痛苦是整个身体状态被汇总、评估之后升起的感受——内感受把呼吸、心率、肠胃、免疫的报告一路送上来，所谓『活不下去』常常是这份报表的读数，而不是一个哲学结论。缺氧、谵妄、类固醇、几夜没睡，任何一项都能改写它。**病房里更该害怕的不是有人求死，而是同一个人在疼痛被压下去的第三天，改口说想再看一次春天。**这不否定自主，只是提醒：意愿有生理时段，得在不同时刻反复取样。",
+      "text_en": "I will not take a side yet; I only want to return the word 'unbearable' to what is actually happening inside a body. Pain is a damage signal, while suffering is a feeling that arises once the whole state of the body has been summed and appraised — interoception carries the reports up from breath, heart rate, gut and immune system, and 'I cannot go on' is very often a reading off that ledger rather than a philosophical conclusion. Hypoxia, delirium, steroids, several nights without sleep: any one of them can rewrite it. **What should frighten us on a ward is not that someone asks to die, but that the same person, on the third day after the pain is brought down, says they would like to see one more spring.** This does not deny autonomy. It only notes that a wish has physiological hours, and must be sampled again at different ones.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "内感受": "interoception（内感受）：大脑对身体内部状态的持续感知——心率、呼吸、血糖、肠胃、炎症与激素水平等信号不断上传，汇成一种整体的身体感。它是情绪与『我今天怎么样』这种笼统判断的物质基础，也解释了为什么一次感染或一夜失眠能显著改变人对自己处境的评价。"
+      },
+      "glossary_en": {
+        "interoception": "The brain's continuous sensing of the body's internal state — heart rate, breathing, blood sugar, gut, inflammation and hormone levels streaming upward into an overall bodily feel. It is the material basis of emotion and of those sweeping judgements about how one is doing, which is why an infection or a sleepless night can markedly change a person's appraisal of their own situation."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "marmot"
+        ],
+        "轻微赞同": [
+          "nussbaum",
+          "aquinas",
+          "buddha"
+        ],
+        "中立": [
+          "tolstoy"
+        ],
+        "轻微反对": [
+          "epictetus",
+          "szasz"
+        ]
+      }
+    },
+    {
+      "id": "p06",
+      "round": 1,
+      "thinker": "marmot",
+      "reply_to": null,
+      "text": "我看的是数据里谁在提出请求、又是在什么处境里提出的。同一种癌症、同一个疼痛评分，住在有安宁疗护团队的城区和住在没有的县城，结论并不一样——健康沿着社会梯度分布，死法同样如此。**在一个连止痛药和上门护理都按邮编发放的社会里，『我不想拖累家人』不是一句自由的表达，那是账单在替病人说话。**我不反对最终给人这条出路，我反对在另一条路还没铺好之前先开这一条。次序要紧：先让每个人都拿得到像样的安宁疗护、请得起照护假、能在自己家里被体面照顾，再来谈选择。",
+      "text_en": "What I look at is who, in the data, is making the request, and out of what circumstances. With the same cancer and the same pain score, a district that has a palliative care team and a county that has none do not arrive at the same conclusion — health is distributed along the social gradient, and so is dying. **In a society where painkillers and home nursing are handed out by postcode, 'I don't want to be a burden on my family' is not a free expression of will; it is the bill speaking through the patient.** I am not against opening this road in the end. I am against opening it before the other one is built. Sequence matters: first let everyone reach decent palliative care, afford leave to care for a relative, and be looked after with dignity at home — then let us talk about choice.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "安宁疗护": "palliative care（安宁疗护）：面向不可治愈疾病晚期的照护方式，目标从延长生命转为控制症状与维持生活质量——止痛、缓解呼吸困难、处理焦虑与失眠，并支持家属。它不是放弃治疗，而是把治疗的目标换掉；证据显示尽早介入往往同时改善生活质量与生存期。",
+        "社会梯度": "the social gradient（社会梯度）：马尔莫在『白厅研究』中确立的发现——健康并非只在穷人与富人之间断裂，而是随社会地位连续变化：每往下一级，预期寿命与健康状况就差一截，且这一梯度无法被吸烟、肥胖等个人行为因素充分解释。"
+      },
+      "glossary_en": {
+        "palliative care": "Care for the late stage of an incurable illness, where the goal shifts from prolonging life to controlling symptoms and preserving quality of life — pain relief, easing breathlessness, treating anxiety and sleeplessness, and supporting the family. It is not the abandonment of treatment but a change in what treatment is for; the evidence suggests that early involvement often improves both quality of life and survival.",
+        "the social gradient": "Marmot's central finding from the Whitehall studies: health does not simply break between rich and poor but varies continuously with social position — each step down costs something in life expectancy and health — and the gradient cannot be fully explained away by smoking, obesity and other individual behaviours."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "nussbaum",
+          "tolstoy"
+        ],
+        "轻微赞同": [
+          "damasio",
+          "aquinas"
+        ],
+        "中立": [
+          "buddha"
+        ],
+        "轻微反对": [
+          "epictetus"
+        ],
+        "强烈反对": [
+          "szasz"
+        ]
+      }
+    },
+    {
+      "id": "p07",
+      "round": 1,
+      "thinker": "tolstoy",
+      "reply_to": null,
+      "text": "我写过一个法官的死。伊万·伊里奇最难熬的不是那股疼，是所有人都在演戏：家人假装他只是病了，医生假装在讨论一颗肾，谁也不肯把『你要死了』说出口。**压垮他的是谎言和孤单，不是病。**整栋房子里只有那个农民仆人格拉西姆，整夜托着他的腿，不叫苦，也不撒谎，他才觉得好过一点。所以听见有人说『让我死吧』，我第一个念头不是去查法律准不准，而是去问：这屋里还有没有一个人肯坐下来，半小时不换话题，不说『会好起来的』？我们太快把一场人情上的失败，交给一个技术上的了断。",
+      "text_en": "I once wrote a judge's death. What Ivan Ilyich found hardest to bear was not the pain but the acting: his family pretending he was merely ill, his doctors pretending to discuss a kidney, nobody willing to say the words 'you are dying'. **What crushed him was the lying and the loneliness, not the disease.** In that whole house only Gerasim, the peasant servant, held up his legs through the night without complaint and without lies, and only then did he feel some relief. So when I hear a man say 'let me die', my first thought is not to check whether the law allows it but to ask whether anyone in that room will sit down for half an hour without changing the subject, without saying 'you'll be better soon'. We are far too quick to hand a failure of human company over to a technical conclusion.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "buddha",
+          "aquinas"
+        ],
+        "轻微赞同": [
+          "marmot",
+          "nussbaum",
+          "damasio"
+        ],
+        "中立": [
+          "szasz"
+        ],
+        "轻微反对": [
+          "epictetus"
+        ]
+      }
+    },
+    {
+      "id": "p08",
+      "round": 1,
+      "thinker": "buddha",
+      "reply_to": null,
+      "text": "昔有比丘名阐陀，久病难堪，自引刀而终。诸比丘白佛：彼往何趣？佛言：不受后有，无所可责。是知此事不可一言断为杀，亦不可一言许为善。\n夫身中一箭，苦也；心复自射一箭，念『何以是我』『此苦无尽』，则苦倍矣。今医者能拔第一箭，第二箭无人能代拔，于是尽归咎于身，遂欲灭其身。\n**若厌苦而求灭身，是无有爱，非解脱也；若诸缘已尽，安然舍报，则不必强留。**\n故吾不先问准与不准，但问三事：其痛可减乎？其惧可安乎？其侧有人乎？三者备，则求死之声自少。",
+      "text_en": "There was once a monk named Channa who, long ill and past enduring, took his own life. The monks asked the Buddha where he had gone. He said: there is no further becoming for him, and nothing here to blame. So the matter cannot be settled in a word as killing, nor granted in a word as good.\nAn arrow in the body is pain; the mind then fires a second arrow — why me, this will never end — and the pain is doubled. A physician today can draw the first arrow; no one can draw the second on your behalf, and so a man lays everything at the door of the body and comes to want the body gone.\n**To loathe suffering and therefore seek the ending of the body is vibhava-taṇhā, not liberation; but where the conditions are truly spent, to set the body down calmly needs no forcible delay.**\nSo I do not begin by asking whether it should be permitted. I ask three things: can his pain be lessened? can his fear be settled? is anyone sitting beside him? Where all three are present, the cry for death grows rare.",
+      "vernacular": "从前有位比丘叫阐陀，久病难忍，自己了断了性命。众比丘问佛：他会往生何处？佛说：他不再受后有，没有什么可责备的。可见这件事既不能一句话断定为杀生，也不能一句话许为善举。\n身上中了一箭，那是苦；心里再给自己射上一箭，想着『为什么偏偏是我』『这苦没有尽头』，苦就翻倍了。今天的医生能拔掉第一箭，第二箭却没人能替你拔，于是人把一切都归咎于这具身体，进而想把身体也灭掉。\n**厌恶苦而想消灭这个身体，那是无有爱，不是解脱；若因缘确实已尽，安然放下这一期身命，也不必硬留。**\n所以我不先问准不准，只问三件事：他的疼能不能减轻？他的怕能不能安顿？他身边有没有人？这三样齐了，求死的声音自然会少。",
+      "vernacular_en": "",
+      "glossary": {
+        "不受后有": "no further becoming（不受后有）：指烦恼已尽、不再被业力推入下一期生命，是佛教对解脱状态的一种表述。佛陀在阐陀的故事里用它表明：判断一个行为，看的是行为者心中还有没有贪爱与执取，而不是行为的外形。",
+        "无有爱": "vibhava-taṇhā（无有爱）：字面是『对不存在的渴爱』，与『对存在的渴爱』相对，指想要彻底消灭自我或某种处境的强烈冲动。佛教把它同样算作渴爱的一种——因为它仍以一个要被消灭的『我』为前提，所以并不通向解脱。"
+      },
+      "glossary_en": {
+        "no further becoming": "The state in which the defilements are exhausted and one is no longer propelled by karma into a next life — a Buddhist formulation of liberation. In the story of Channa the Buddha uses it to show that an act is judged by whether craving and clinging remain in the mind behind it, not by the shape of the act itself.",
+        "vibhava-taṇhā": "Literally 'craving for non-existence', the counterpart of craving for existence: the urge to annihilate oneself or a situation entirely. Buddhism counts it as craving all the same, since it still presupposes a self to be annihilated, and so it does not lead out."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "tolstoy"
+        ],
+        "轻微赞同": [
+          "aquinas",
+          "damasio",
+          "marmot"
+        ],
+        "中立": [
+          "nussbaum",
+          "epictetus"
+        ],
+        "轻微反对": [
+          "szasz"
+        ]
+      }
+    },
+    {
+      "id": "p09",
+      "round": 2,
+      "thinker": "szasz",
+      "reply_to": "p01",
+      "text": "托马斯要靠意图划线，可意图看不见。同一支针、同一剂量、同一个下午，说『我在止痛』就合法，说『我在帮他走』就是谋杀。**用『我只是止痛』给同一针背书，不是划清了界线，是教会所有人怎么把界线说圆。**而实际发生的往往是：为了不越线，医生把人镇静到昏迷，再等上两周不给水，这被称作照护。我宁愿要一件被说清楚的事，也不要一件被说漂亮的事。你若真想守住那条线，就得承认它守住的是行医者的良心，不是病人的处境。",
+      "text_en": "Aquinas draws his line with intention, but intention cannot be seen. The same syringe, the same dose, the same afternoon: say 'I am relieving pain' and it is lawful, say 'I am helping him go' and it is murder. **Endorsing the identical injection with 'I was only relieving pain' does not draw a line — it teaches everyone how to talk their way around one.** And what actually happens is often this: to avoid crossing it, the doctor sedates the patient into unconsciousness and then withholds fluids for a fortnight, and this is called care. I would rather have a thing stated plainly than a thing stated beautifully. If you genuinely want to keep that line, admit what it keeps intact: the conscience of the practitioner, not the condition of the patient.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "epictetus"
+        ],
+        "轻微赞同": [
+          "tolstoy",
+          "damasio"
+        ],
+        "中立": [
+          "marmot",
+          "nussbaum"
+        ],
+        "强烈反对": [
+          "aquinas"
+        ],
+        "轻微反对": [
+          "buddha"
+        ]
+      }
+    },
+    {
+      "id": "p10",
+      "round": 2,
+      "thinker": "marmot",
+      "reply_to": "p04",
+      "text": "托马斯·萨斯要把医生赶出去，说这是私人的权利。可请看一眼那些有法可依的地方交上来的年报：病人写下的头号理由并不是疼，而是失去自主、失去尊严、怕成为家人的负担。**如果排在第一位的理由是『怕拖累人』，那要修的是照护制度，不是把出口开得更宽。**把它交回私人领域也躲不掉这一点，只不过从此没人统计、没人复核：谁买得到药、谁认识对的人，就成了唯一门槛。要么留在阳光下被数据盯着，要么退回暗处由资源分配，中间没有第三条路。",
+      "text_en": "Thomas Szasz wants the doctors out of it, on the grounds that this is a private right. But look at the annual reports filed where such laws exist: the reason patients most often write down is not pain but loss of autonomy, loss of dignity, and fear of being a burden on their families. **When the leading reason is fear of burdening others, what needs repairing is the system of care, not the width of the exit.** Handing it back to the private sphere does not escape that either — it only means nobody counts and nobody reviews, so that who can obtain the drug and who knows the right person become the only threshold. Either it stays in daylight under the data, or it retreats into the dark and is rationed by resources. There is no third road.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "nussbaum",
+          "tolstoy"
+        ],
+        "轻微赞同": [
+          "damasio",
+          "aquinas",
+          "buddha"
+        ],
+        "轻微反对": [
+          "epictetus"
+        ],
+        "强烈反对": [
+          "szasz"
+        ]
+      }
+    },
+    {
+      "id": "p11",
+      "round": 2,
+      "thinker": "aquinas",
+      "reply_to": "p09",
+      "text": "托马斯·萨斯说意图查不到。可他整套主张也建在意图上：他要求死亡的请求必须『出于自愿』——自愿与被迫的分别，同样只在人心里，同样得靠旁人从言行去推断。**宣称意图不可查的人，转过身来又要靠意图去判定一个请求算不算数。**至于镇静到死再断水，那不是我这条原则的产物，而是它被滥用的样子：镇静的剂量应当止于痛止，超出的部分就不再是双重效果，而是包了糖衣的意图。规矩被人钻空子，是要把规矩看紧，不是把它拆掉。",
+      "text_en": "Thomas Szasz says intention cannot be inspected. Yet his own position rests on intention throughout: he requires that a request for death be voluntary — and the difference between the voluntary and the coerced also lies only in a mind, and must also be inferred by others from words and conduct. **The man who declares intention uninspectable turns around and uses intention to decide whether a request counts.** As for sedating a patient into unconsciousness and then withholding fluids, that is not the offspring of my principle but the look of it abused: sedation should stop where the pain stops, and whatever exceeds that is no longer double effect but intention in a sugar coating. When a rule is gamed, the answer is to watch the rule closely, not to dismantle it.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "buddha"
+        ],
+        "轻微赞同": [
+          "damasio",
+          "nussbaum"
+        ],
+        "中立": [
+          "marmot",
+          "tolstoy"
+        ],
+        "轻微反对": [
+          "epictetus"
+        ],
+        "强烈反对": [
+          "szasz"
+        ]
+      }
+    },
+    {
+      "id": "p12",
+      "round": 2,
+      "thinker": "damasio",
+      "reply_to": "p04",
+      "text": "萨斯说抑郁不是病，所以不能拿它取消一个人的意愿。可病房里更常见的不是精神科夺权，而是根本没人做过一次像样的评估：晚期病人里谵妄相当普遍，夜里胡话、白天清楚，你在哪个钟点问他，得到的是两个人。**判定能力不是在质疑你有没有资格活，是在确认此刻开口的是你，还是缺氧、类固醇和四天没睡。**主权我承认，可主权得有一个主体，而这个主体正被一具被疾病改写的身体撑着。所以我要的不是否决权，是时间：把同一个问题在不同状态下问三次。",
+      "text_en": "Szasz says depression is not a disease and therefore cannot be used to void a person's wish. But what one meets on a ward is rarely psychiatry seizing power; it is that no one has done a decent assessment at all. Delirium is common in late illness — incoherent at night, clear by day — so the hour at which you ask determines which of two people answers. **Assessing capacity is not questioning whether you deserve to live; it is confirming whether the one speaking now is you, or hypoxia, steroids and four nights without sleep.** I grant the sovereignty, but sovereignty needs a subject, and this subject is being held up by a body the illness is rewriting. So what I want is not a veto. It is time: ask the same question three times, in three different states.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "marmot",
+          "aquinas"
+        ],
+        "轻微赞同": [
+          "nussbaum",
+          "buddha"
+        ],
+        "中立": [
+          "tolstoy"
+        ],
+        "轻微反对": [
+          "epictetus"
+        ],
+        "强烈反对": [
+          "szasz"
+        ]
+      }
+    },
+    {
+      "id": "p13",
+      "round": 2,
+      "thinker": "buddha",
+      "reply_to": "p02",
+      "text": "爱比克泰德言门常开，故不为威所动，此言善。然『开门』之说，尚存一执：必先有一『我』，乃能开、能出、能舍此器。**汝谓从容离席为自由，我谓离席之从容与仓皇，皆生于视身为我所有之物；此我本自不有，何谈舍之。**且苦不由门出。出门者，苦随之如影随形；门外无门，唯业相续。\n故不必先论走与不走，且看那要走的是谁。此念一破，痛仍是痛，而『我受不了』四字，先自松了一半。",
+      "text_en": "Epictetus says the door stands always open, and so no threat can move him. That is well said. Yet in the phrase 'open door' one clinging remains: there must first be an 'I' who can open it, walk out, and lay this vessel down. **You call a composed departure freedom; I say that both the composure and the panic of departing arise from seeing the body as something one owns — and this 'I' was never there to begin with, so what is there to lay down?** Besides, suffering does not leave by that door. Whoever walks out, suffering follows as a shadow follows a body; beyond the door is no further door, only karmic continuity.\nSo do not begin by debating whether to go. Look first at who it is that wants to go. Break that thought and the pain is still pain, but the words 'I cannot bear this' have already loosened by half.",
+      "vernacular": "爱比克泰德说门一直开着，所以不被威胁牵动，这话说得好。可是『门开着』这个说法里还藏着一个执着：得先有一个『我』，才谈得上由我来开门、由我走出去、由我舍弃这具身体。**你说从容离席就是自由，我却觉得，离席时的从容也好、仓皇也好，都生于把身体看作『我的东西』；这个我本来就不曾有，又谈何舍弃。**况且苦并不从那扇门出去。走出去的人，苦跟着他，像影子跟着身体；门外并没有另一扇门，只有业在相续。\n所以先别急着论走还是不走，且看看那个要走的是谁。这个念头一破，疼还是疼，可『我受不了』这四个字，先就松开了一半。",
+      "vernacular_en": "",
+      "glossary": {
+        "业相续": "karmic continuity（业相续）：佛教对生命延续方式的说明——不是有一个不变的灵魂在轮回，而是身心活动留下的影响一环扣一环地相续下去，如同前一支蜡烛点亮后一支。它是佛陀这里的关键前提：既然没有一个固定的『我』可以一走了之，用死亡来终结痛苦这一算盘就落空了。"
+      },
+      "glossary_en": {
+        "karmic continuity": "The Buddhist account of how life carries on: not an unchanging soul transmigrating, but the effects of bodily and mental action succeeding one another link by link, as one candle lights the next. It is the crucial premise here — since there is no fixed 'I' who can simply exit, the calculation that death will end suffering does not add up."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "aquinas",
+          "tolstoy"
+        ],
+        "中立": [
+          "damasio",
+          "nussbaum",
+          "marmot"
+        ],
+        "轻微反对": [
+          "epictetus"
+        ],
+        "强烈反对": [
+          "szasz"
+        ]
+      }
+    },
+    {
+      "id": "p14",
+      "round": 2,
+      "thinker": "epictetus",
+      "reply_to": "p10",
+      "text": "迈克尔要先把制度铺好，再谈准不准。听着周全，可请算一算这笔账落在谁身上：**用『社会还没准备好』把一个人留下，是让他替一场他管不了的改革，继续把疼痛一天天付出去。**穷人的选择常常是假的选择，这一点我完全同意；那就去修那件事，别拿另一个人的躯体当押金。何况你的次序永远排不完——安宁疗护铺到八成够不够？照护假三十天够不够？谁来宣布『现在可以了』？条件一旦挂在一个永远能再高一点的标准上，它就不是条件，是永不兑现的婉拒。",
+      "text_en": "Michael wants the system built first and the question of permission settled later. It sounds thorough; now work out who pays for it. **Keeping a man here because 'society isn't ready' makes him go on paying, in daily instalments of pain, for a reform he has no power over.** That the poor often face false choices I grant entirely — so go and repair that, and stop holding another person's body as the deposit. Besides, your sequence never finishes. Is palliative care at eighty percent coverage enough? Is thirty days of carer's leave enough? Who announces that we may now proceed? Once a condition hangs on a standard that can always be raised a little further, it has stopped being a condition and become a refusal that never says no.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "szasz"
+        ],
+        "轻微赞同": [
+          "nussbaum"
+        ],
+        "中立": [
+          "damasio",
+          "buddha"
+        ],
+        "轻微反对": [
+          "tolstoy",
+          "aquinas"
+        ],
+        "强烈反对": [
+          "marmot"
+        ]
+      }
+    },
+    {
+      "id": "p15",
+      "round": 2,
+      "thinker": "tolstoy",
+      "reply_to": "p01",
+      "text": "托马斯，你那条线我懂，也敬重。可我在真实的病房里见到的是：戒律守得一丝不苟，人却在无人陪伴中疼了三个月。**一条禁止杀人的规矩，若配着一间没人肯久坐的病房，就只是把责任从刀上挪到了门外。**教会替临终者操心他的灵魂，却不肯替他换一次床单；国家立法争论那一针，却不肯给护工发一份能活的工钱。我不赞成杀人，我也从不相信，一个不肯陪人受苦的社会，有资格用『生命神圣』四个字，命令一个孤零零的人把苦受完。",
+      "text_en": "Thomas, I understand your line and I respect it. But what I have seen in real sickrooms is a commandment kept to the letter while a man lies in pain for three months with nobody beside him. **A rule against killing, paired with a ward where no one will sit for long, merely moves the responsibility off the blade and out into the corridor.** The Church frets over the dying man's soul and will not change his sheets; the state legislates about the injection and will not pay the care worker a wage anyone can live on. I do not approve of killing. Nor have I ever believed that a society unwilling to keep company with suffering has any standing to invoke the sanctity of life and order a solitary man to endure it to the end.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "szasz",
+          "marmot",
+          "epictetus"
+        ],
+        "轻微赞同": [
+          "nussbaum",
+          "buddha"
+        ],
+        "中立": [
+          "damasio"
+        ],
+        "轻微反对": [
+          "aquinas"
+        ]
+      }
+    },
+    {
+      "id": "p16",
+      "round": 2,
+      "thinker": "nussbaum",
+      "reply_to": "p14",
+      "text": "爱比克泰德说对了一半：等待不是中立的，拖延本身也在造成伤害。但在把选择权交出去之前，得先数一数这个人手上还剩几个选项。**只剩一个选项的选择不叫选择；而当那唯一的选项是死，我们更不该管它叫尊严。**所以我不接受这道二选一。可以立法，同时把条件写成可核查的东西，而不是一句『等社会准备好』：这个人是否已被真正的安宁疗护团队看过？疼痛是否按标准控制过一轮？照护支持是否实际到位？三项做不到，请求就不予受理。条件具体到能被审计，才不会沦为空话。",
+      "text_en": "Epictetus is half right: waiting is not neutral, and delay does its own damage. But before we hand over the choice, we should count how many options this person actually has left. **A choice with only one option is not a choice, and when that single option is death we should certainly not call it dignity.** So I refuse the either/or. Legislate — and at the same time write the conditions as things that can be checked, rather than as 'once society is ready'. Has this person been seen by a real palliative care team? Has the pain been treated once, to protocol? Is care support actually in place? Where those three fail, the request is not admitted. Only conditions specific enough to be audited stay out of the realm of empty words.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "marmot",
+          "damasio"
+        ],
+        "轻微赞同": [
+          "tolstoy",
+          "buddha"
+        ],
+        "中立": [
+          "aquinas"
+        ],
+        "轻微反对": [
+          "epictetus"
+        ],
+        "强烈反对": [
+          "szasz"
+        ]
+      }
+    },
+    {
+      "id": "p17",
+      "round": 3,
+      "thinker": "epictetus",
+      "reply_to": null,
+      "text": "我把话收回到最实用的地方。门开着这件事，真正的收益归活着的人：知道自己随时可以离场的人，才不会为了多活几个月而答应任何条件。所以别把它留成一个抽象的自由，把它写下来。趁你还不疼、还不慌，坐半小时，写清楚三件事——什么状态下你不愿再被抢救；谁替你做决定；你最怕的是疼、是失能，还是无人在旁。写完念给那个人听，让他复述一遍。**最坏的安排，是把这一生最重的决定，留给你最疼的那一天、最慌的那个人。**至于最后那一步该不该被允许，我的答案是：允许，但把门修得难推一点——难到只有清醒时的判断推得开，慌乱推不开。别人怎么立法不归你管，这几张纸归你管。",
+      "text_en": "Let me bring this back to the most practical ground. The benefit of an open door falls to the living: a man who knows he may leave at any time will not agree to any terms whatever for a few more months. So do not leave it as an abstract freedom — write it down. While you are not yet in pain and not yet frightened, sit for half an hour and set out three things: in what state you no longer wish to be resuscitated; who decides for you; and whether what you fear most is pain, incapacity, or being alone. Then read it aloud to that person and make them say it back. **The worst arrangement is to leave the heaviest decision of your life to your most painful day and your most frightened relative.** As for whether the final step should be permitted, my answer is yes — but build the door stiff, stiff enough that a lucid judgement can push it open and panic cannot. How others legislate is not up to you. These few pages are.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "szasz"
+        ],
+        "轻微赞同": [
+          "nussbaum",
+          "damasio",
+          "marmot"
+        ],
+        "中立": [
+          "buddha",
+          "tolstoy"
+        ],
+        "轻微反对": [
+          "aquinas"
+        ]
+      }
+    },
+    {
+      "id": "p18",
+      "round": 3,
+      "thinker": "damasio",
+      "reply_to": null,
+      "text": "三轮下来我的立场没变，只是更具体了。**『我不想活了』在临床上应当被当作一次急会诊来处理，而不是一句需要立刻表态赞成或反对的哲学声明。**先查五件事：疼痛控制到几分、有没有谵妄、有没有缺氧、在用什么药、几天没睡好。这五件里任何一件被修好，相当一部分人的答案会变；而那些答案不变的人，才是真正在做选择的人，他们的意愿也因此更该被尊重。反对的一方常说这是在剥夺自主，恰恰相反：不做这五项检查就直接受理，等于让疾病代替病人签字。给普通人的做法一样朴素——家人说出这句话时，别急着劝，也别急着答应，先问一句『今天最难受的是哪一样』，然后把这句原话带给医生，要求疼痛科或安宁疗护会诊。多数医院可以直接提出，只是很少有人知道要提。",
+      "text_en": "Three rounds in, my position has not changed; it has only grown more concrete. **Clinically, 'I don't want to live any more' should be handled as an urgent consultation, not as a philosophical statement demanding immediate agreement or refusal.** Check five things first: how far the pain is controlled, whether there is delirium, whether there is hypoxia, what drugs are on board, and how many nights of sleep have been lost. Repair any one of the five and a substantial share of people give a different answer; those whose answer does not change are the ones genuinely choosing, and their wish deserves that much more respect. Opponents call this a theft of autonomy. It is the reverse: to admit the request without those five checks is to let the illness sign on the patient's behalf. For ordinary families the practice is just as plain — when a relative says it, do not rush to talk them out of it or to agree. Ask which thing is worst today, carry the words to the doctor exactly as spoken, and request a pain or palliative care consultation. Most hospitals allow you to ask directly; almost nobody knows to ask.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "marmot",
+          "nussbaum",
+          "aquinas"
+        ],
+        "轻微赞同": [
+          "tolstoy",
+          "buddha"
+        ],
+        "中立": [
+          "epictetus"
+        ],
+        "轻微反对": [
+          "szasz"
+        ]
+      }
+    },
+    {
+      "id": "p19",
+      "round": 3,
+      "thinker": "szasz",
+      "reply_to": null,
+      "text": "我不打算被劝到中间去。**一个人对自己身体的主权，不该靠通过一场能力测验来换取；把死亡做成需要审批的服务，最终会由审批者来定义谁算一个完整的人。**但迈克尔那一记打得实：如果第一位的理由是怕成为负担，那么在改掉这一点之前，谈自由确实是奢侈的。所以给活着的人两条实际建议。第一，趁清醒指定一个医疗代理人，白纸黑字，并且挑那个敢跟主治大夫顶嘴的人，而不是最孝顺的那个——这份工作需要的是骨头，不是眼泪。第二，把你的意愿讲给至少两个人听：只写不说，家属一吵就作废。还有一句留给旁人——当你替别人认定『他现在不清醒』的时候，先确认你反对的是他的状态，还是他的结论。这两件事在心里长得很像。",
+      "text_en": "I do not intend to be talked into the middle. **A person's sovereignty over his own body should not have to be earned by passing a competence test; make death a service requiring approval and, in the end, the approvers define who counts as a whole human being.** But Michael landed a real blow: if the leading reason is fear of being a burden, then until that is fixed, talk of freedom is a luxury. So, two practical suggestions for the living. First, while you are clear-headed, name a healthcare proxy in writing, and pick the one who dares to argue with the attending physician rather than the most dutiful one — the job needs a spine, not tears. Second, tell at least two people what you want: written but never said aloud, it dissolves the moment the family quarrels. And one line for the bystanders — when you decide that someone 'isn't lucid right now', check whether you object to their state or to their conclusion. In the mind those two look remarkably alike.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "epictetus"
+        ],
+        "轻微赞同": [
+          "nussbaum",
+          "tolstoy"
+        ],
+        "中立": [
+          "damasio",
+          "marmot"
+        ],
+        "轻微反对": [
+          "buddha"
+        ],
+        "强烈反对": [
+          "aquinas"
+        ]
+      }
+    },
+    {
+      "id": "p20",
+      "round": 3,
+      "thinker": "tolstoy",
+      "reply_to": null,
+      "text": "诸位争了两轮准与不准，我只想把镜头拉回那间屋子。伊万·伊里奇要的从来不是一针，是有人肯承认他正在死，并且还愿意留下来。**在死之前，人先死于被回避——那屋里所有人的礼貌，比病更让他孤单。**所以这件事上普通人能做的，其实比立法者还多，而且今天就能做。去看那个病人，别带水果，带一小时。不要说『会好起来的』，那句话是替你自己说的。问他怕什么，然后不接话，等着。他若说起后事，别岔开；他若不说话，就坐着。格拉西姆一个字也没多讲，只是整夜托着那双腿——那是整本书里唯一一件真正把人救了的事，而它不需要执照，也不需要立法。你我都做得到，只是嫌它慢、嫌它笨、嫌它让自己难受。",
+      "text_en": "You have argued two rounds over permission; I only want to turn the camera back to that room. What Ivan Ilyich wanted was never an injection. It was for someone to admit that he was dying and then be willing to stay. **Before a man dies, he dies of being avoided — the politeness of everyone in that room left him lonelier than the disease did.** Which means that in this matter an ordinary person can do more than a legislator can, and can do it today. Go and see the patient. Don't bring fruit; bring an hour. Don't say 'you'll be better soon' — that sentence is spoken for your own benefit. Ask what he is afraid of, then say nothing and wait. If he turns to his funeral, don't steer away; if he says nothing, just sit. Gerasim never made a speech. He held those legs up all night, and it is the only thing in the whole book that actually rescued anyone — and it needed no licence and no legislation. You and I can both do it. We merely find it slow, and clumsy, and painful to ourselves.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "buddha",
+          "aquinas",
+          "nussbaum"
+        ],
+        "轻微赞同": [
+          "marmot",
+          "damasio",
+          "szasz"
+        ],
+        "中立": [
+          "epictetus"
+        ]
+      }
+    },
+    {
+      "id": "p21",
+      "round": 3,
+      "thinker": "buddha",
+      "reply_to": null,
+      "text": "三轮既毕，吾终不判其罪福。何者？同一举而心不同，则果不同；律可齐一，心不可齐一。\n虽然，有三事可劝，不待律成而可行。一者拔箭：痛当尽减，医勿吝药，家勿惧其成瘾——将尽之人，何瘾可虑。二者安怖：所怖多不在死，在无人告以实、无人许以不弃；实语与守诺，即是良药。三者有伴：坐其侧，不劝、不诳、不催。\n**又劝为子女者，反照自心：所谓不忍其苦者几分，不堪其累者几分？二者常并生，识之则不必自责，不识则以慈悲之名行己意。**\n三事既办，其人犹欲舍报，则其愿已非疼痛所迫，众人当默然听之。",
+      "text_en": "Three rounds are done and I still will not rule the act sinful or blessed. Why? Because the same deed issuing from a different mind bears different fruit; law can be made uniform, minds cannot.\nEven so, three things may be urged, and none of them waits on legislation. First, draw the arrow: pain should be reduced as far as it can be, the physician should not be sparing with the drug, and the family should not fear addiction — what addiction is there to fear in one who is ending? Second, settle the fear: most of what is feared is not death but that no one will tell him the truth and no one will promise not to leave; truthful speech and a kept promise are themselves medicine. Third, provide company: sit beside him, without persuading, deceiving, or hurrying.\n**And to sons and daughters I would say: turn and look at your own mind. How much of you cannot bear to watch him suffer, and how much of you cannot bear the burden? The two commonly arise together. Recognise it and there is no need for self-reproach; fail to recognise it and you will do your own will under the name of compassion.**\nWhen those three are done and the person still wishes to set the body down, the wish is no longer driven by pain, and the rest of us should listen in silence.",
+      "vernacular": "三轮下来，我始终不判定它是罪还是福。为什么？同一个动作，发出它的心不同，结的果就不同；法律可以整齐划一，人心不能。\n话虽如此，有三件事是可以劝的，而且不必等法律定下来就能做。第一是拔箭：疼痛应当尽力减到最低，医生别舍不得用药，家人也别怕他成瘾——一个将尽的人，还有什么瘾好担心。第二是安顿恐惧：人怕的多半不是死本身，而是没有人肯把实情告诉他、没有人肯承诺不离开；说实话和守承诺，本身就是药。第三是有人陪：坐在他旁边，不劝、不骗、不催。\n**还要劝做子女的回头看看自己的心：所谓不忍心看他受苦，占了几分？受不了这份拖累，又占了几分？这两样常常同时存在，认出来就不必自责，认不出来，就会打着慈悲的旗号办自己的事。**\n这三件事都办到了，那个人仍然想放下这一期身命，那么他的心愿就已经不是被疼痛逼出来的，众人应当默然听许。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "tolstoy",
+          "aquinas"
+        ],
+        "轻微赞同": [
+          "damasio",
+          "marmot",
+          "nussbaum"
+        ],
+        "中立": [
+          "epictetus",
+          "szasz"
+        ]
+      }
+    },
+    {
+      "id": "p22",
+      "round": 3,
+      "thinker": "nussbaum",
+      "reply_to": null,
+      "text": "我给一个能落地的结论：允许，但把它写成一张可以被审计的清单，而不是一句原则。清单上至少四项——受过训练的安宁疗护团队已经介入并记录在案；疼痛与呼吸困难按标准处理过一轮；照护支持（上门护理、照护假、经济援助）实际到位，不是纸面上有；两次相隔足够久的请求，其间由不参与执行的第三方复核。**判断一项权利是真是假，就看放弃使用它的人过得怎么样——如果不走这条路的人只能回到无人照料的家里，那这条路就不是权利，是唯一的出口。**给普通人的一句：无论你支持哪一边，今天都可以先去查一件事——你所在的城市有多少安宁疗护床位、上门团队怎么申请。这个数字比任何立场都更决定你家人最后那几个月。",
+      "text_en": "Here is a conclusion that can actually be implemented: permit it, but write it as an auditable checklist rather than as a principle. At least four items — a trained palliative care team has been involved and it is on record; pain and breathlessness have been treated once, to protocol; care support (home nursing, carer's leave, financial help) is actually in place rather than on paper; and two requests, far enough apart, reviewed in between by a third party who takes no part in carrying it out. **To tell whether a right is real, look at how the people who decline to use it are living — if those who refuse this road can only return to a house where nobody comes, then it is not a right but the only way out.** One thing for ordinary readers, whichever side you take: today you can go and find out a single fact — how many palliative care beds your city has, and how a home team is requested. That number will shape your family's last months more than any position will.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "marmot",
+          "damasio"
+        ],
+        "轻微赞同": [
+          "tolstoy",
+          "epictetus",
+          "buddha"
+        ],
+        "中立": [
+          "aquinas"
+        ],
+        "轻微反对": [
+          "szasz"
+        ]
+      }
+    },
+    {
+      "id": "p23",
+      "round": 3,
+      "thinker": "aquinas",
+      "reply_to": null,
+      "text": "我不会改立场：以死亡为手段，仍然不可以。但我要把这条线的另一半说清楚，因为它救得了很多人，而多数人不知道。**在我这套道理里，你完全有权拒绝一场对你已无益处、只是徒然拖长的治疗，也完全有权要求足量的止痛，哪怕它可能让最后的日子提前到来。**许多人多疼了几个月，不是因为哪一条戒律，而是因为没有人告诉他们这两件事本来就是允许的。所以请把它记住、并且说出口：拒绝无益的抢救，不是自杀；把疼痛压到能睡着，不是求死。至于列夫的责难，我接受，而且认为它比萨斯的更重。守住一条不杀人的规矩，同时让人在无人陪伴中受苦，这不是忠于原则，这是把原则当成了不必到场的借口。禁令若不附带义务，就只是一句便宜话。",
+      "text_en": "I will not shift my position: death as a means remains impermissible. But let me state the other half of the line clearly, because it saves a great many people and most of them have never been told. **On my own reasoning you have every right to refuse a treatment that no longer benefits you and merely draws things out, and every right to demand pain relief in sufficient dose, even where it may bring the last days forward.** Many have endured extra months of pain not because of any commandment but because nobody told them these two things were always permitted. So remember it, and say it out loud: refusing futile resuscitation is not suicide, and bringing pain down to where a man can sleep is not seeking death. As for Lev's rebuke, I accept it, and I hold it heavier than Szasz's. To keep a rule against killing while leaving people to suffer with no one beside them is not fidelity to a principle; it is using the principle as an excuse not to show up. A prohibition that carries no duty with it is cheap talk.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "tolstoy",
+          "buddha"
+        ],
+        "轻微赞同": [
+          "damasio",
+          "nussbaum",
+          "marmot"
+        ],
+        "中立": [
+          "szasz"
+        ],
+        "轻微反对": [
+          "epictetus"
+        ]
+      }
+    },
+    {
+      "id": "p24",
+      "round": 3,
+      "thinker": "marmot",
+      "reply_to": null,
+      "text": "我用数字收尾。国与国之间差别最大的，从来不是法律条文怎么写，而是有没有人真的到你家里来。所以我的结论是：这条路可以开，但必须和另一条路同时铺、用同一份预算——立法通过的那一天，安宁疗护的覆盖率就该写在同一张纸上，逐年公布，达不到就停止扩大适用范围。**一个社会真正的答案不在它允许什么，而在它默认什么：当默认选项是无人上门、家属辞职、止痛不足，法律写得再宽，也只是把制度的失败改名叫个人的选择。**给普通人三件今天就能查的事：你所在地区的安宁疗护怎么转介、家庭医生上不上门、照护假与长期护理补贴怎么申请。查清这三件，比预先想好『到时候我要怎么办』有用得多——因为到时候，你多半没有力气再查。",
+      "text_en": "Let me close with numbers. What differs most between countries has never been the wording of the law; it is whether anyone actually comes to your house. So my conclusion is this: the road may be opened, but it must be laid alongside the other road, out of the same budget — on the day the law passes, palliative care coverage should be written on the same sheet of paper, published annually, and where the target is missed, the scope of eligibility stops expanding. **A society's real answer lies not in what it permits but in what it defaults to: when the default is that nobody visits, a relative quits their job and the pain goes undertreated, however broadly the law is written it only renames a failure of the system as a personal choice.** Three things any reader can look up today: how palliative care referrals work in your area, whether your family doctor makes home visits, and how carer's leave and long-term care allowances are claimed. Knowing those three is worth far more than rehearsing what you would decide when the time comes — because when it comes, you will most likely have no strength left to look anything up.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "nussbaum",
+          "tolstoy",
+          "damasio"
+        ],
+        "轻微赞同": [
+          "aquinas",
+          "buddha"
+        ],
+        "中立": [
+          "szasz"
+        ],
+        "轻微反对": [
+          "epictetus"
+        ]
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "ai": "claude",
+      "engine": "Opus 5 · 订阅(原生)",
+      "engine_en": "Opus 5 · subscription (native)",
+      "summary": "争的是准与不准，先浮出来的却是一处出人意料的共识：**几乎所有『让我死吧』，先是一句关于疼痛、恐惧和孤单的话，然后才是一句关于死亡的话。**阿奎那、佛陀、托尔斯泰、马尔莫、达马西奥从五条毫不相干的路走到同一个结论——先把疼止住、把人陪住、把照护送到家门口，多数请求会自己变形。分歧在这之后才真正开始。一是那条线是否存在：阿奎那用意图区分容忍死亡与使用死亡，萨斯说意图看不见，划线只让良心过关。二是次序：马尔莫要求先铺好另一条路，爱比克泰德反问凭什么让一个人替改革继续疼。三是谁来判定清醒：达马西奥要反复取样，萨斯警告审批者最终会定义谁算完整的人。",
+      "insight": "整场争论都压在最后那一针上，可真实的痛苦几乎全部分布在此前的几个月里——谁来上门、疼痛评分有没有人问、夜里叫不叫得到人。**把全部道德注意力押在一个瞬间，恰好让那几个月无人负责：法律怎么写都不必对它们交代，而它们才是绝大多数人真正会经历的部分。**还有一处被整场跳过：多数临终决定并非本人在清醒时做出，而是一屋子家属在走廊里替一个已经说不出话的人做出。所以最稀缺的东西不是一部法律，是一次在人还健康时就发生过、具体到能被复述的对话。",
+      "advice": "三件这周就能办的事。第一，用二十分钟写下三句话：什么情况下不再抢救、由谁替你决定、你最怕的是疼还是失能；写完念给那个人听，让他复述一遍——只写不说，家属一吵就作废。第二，若家里有人正在重病，主动向主治医生要一次安宁疗护或疼痛科会诊，多数医院可以直接提，只是很少有人知道要提。第三，照托尔斯泰说的去坐一小时，别说『会好起来的』，问他怕什么，然后等着。**还有一条最容易被跳过：现在就查清你所在城市的上门护理与照护假怎么申请——真到那一天，你不会有力气再查。**",
+      "summary_en": "The argument is over permission, but what surfaces first is an unexpected agreement: **almost every 'let me die' is first a sentence about pain, fear and loneliness, and only then a sentence about death.** Aquinas, the Buddha, Tolstoy, Marmot and Damasio arrive by five unrelated routes at the same conclusion — bring the pain down, keep the person company, get care to the door, and most requests change shape on their own. Only then does the real disagreement begin. First, whether the line exists: Aquinas separates permitting death from using it by intention, while Szasz says intention cannot be seen and the line only clears a conscience. Second, sequence: Marmot wants the other road built first, and Epictetus asks by what right one man goes on hurting on behalf of a reform he cannot influence. Third, who certifies lucidity: Damasio wants repeated sampling, Szasz warns that whoever approves ends up defining who counts as whole.",
+      "insight_en": "The whole argument bears down on the final injection, yet the actual suffering is spread across the months before it — who comes to the house, whether anyone asks about the pain score, whether help answers at night. **Staking all the moral attention on a single moment is precisely what leaves those months unaccounted for: no wording of the law has to answer for them, and they are the part nearly everyone actually lives through.** Something else went past the whole table: most end-of-life decisions are not made by the person while lucid, but by a family in a corridor on behalf of someone who can no longer speak. So the scarcest thing here is not a statute. It is one conversation, held while the person was still well, concrete enough that someone else could repeat it.",
+      "advice_en": "Three things you can do this week. First, spend twenty minutes writing three sentences: under what conditions you no longer want resuscitation, who decides for you, and whether you fear pain or incapacity more. Then read it aloud to that person and have them say it back — written but unspoken, it dissolves in the first family quarrel. Second, if someone at home is seriously ill, ask the attending doctor outright for a palliative care or pain consultation; most hospitals allow the request and almost nobody knows to make it. Third, do what Tolstoy says: sit for an hour, don't say 'you'll be better soon', ask what they're afraid of and then wait. **And the step most easily skipped: look up now how home nursing and carer's leave are claimed where you live — on the day it matters, you will not have the strength to look anything up.**"
+    },
+    {
+      "ai": "gpt",
+      "engine": "openai · gpt-5.5 · high(真实API)",
+      "engine_en": "openai · gpt-5.5 · high (live API)",
+      "summary": "这场讨论最一致的地方，其实不是赞成或反对安乐死，而是：临终者不该在止痛不足、照护缺位、真话被回避时被迫独自决断。**先把疼痛、恐惧、孤单和经济压力尽量拿掉，才谈得上尊重选择。**分歧在最后一步：有人认为死亡绝不能被当作手段，有人认为持久清醒的拒绝生命应被允许；有人信任医疗审查，有人警惕它夺权。真正焦点不是生命神圣对个人自由，而是谁来确认这仍是那个人的意愿。",
+      "insight": "安乐死制度最容易被误设计成一道门：满足条件就开，不满足就关。更好的设计像急诊流程：求死请求一出现，系统先自动启动一组可逆干预——镇痛、呼吸困难处理、谵妄筛查、药物复核、睡眠恢复、社工和家属照护安排。**不可逆的决定，必须先由一串可逆的帮助来托底。**这不是拖延，也不是劝退，而是把『病在说话、账单在说话、孤独在说话』的可能性逐项排除；若之后意愿仍稳定，尊重才更有分量。",
+      "advice": "本周可做三件事。第一，写一页预立医疗照护计划：哪些抢救不要、可接受的失能界限、指定谁做医疗代理人，并当面让对方复述。第二，查本地安宁疗护或缓和医疗转介方式，存下电话；若家人说『不想活了』，当天请医生评估疼痛、谵妄、缺氧、用药和睡眠。**先把这句话当作需要处理的症状和求助信号，而不是立刻表决生死。**第三，排一张陪伴和值班表，同时查照护假、上门护理、长期护理补贴。",
+      "summary_en": "The deepest agreement in the table is not a verdict for or against assisted dying. It is that no one should have to make the final decision while pain is undertreated, care is absent, the truth is avoided, or family finances are silently doing the talking. **Only after pain, fear, loneliness, and coercive burdens have been reduced can a choice about dying deserve to be called a choice.** The disagreement begins at the last step: whether death may ever be used as an intended means; whether a clear and durable wish to die should be legally honored; and whether doctors and review panels are safeguards or new masters. The real issue is less sacred life versus individual liberty than how a society can tell when the voice it hears still belongs to the person.",
+      "insight_en": "Assisted-dying laws are often imagined as gates: meet the criteria and the gate opens; fail them and it stays shut. A better model is an emergency pathway. When someone asks to die, the system should automatically launch a bundle of reversible help: pain control, breathlessness treatment, delirium screening, medication review, sleep restoration, social-work support, and practical care for the family. **An irreversible decision should be preceded by a serious sequence of reversible supports.** That is not stalling and it is not moral pressure to stay alive. It is a way of checking whether illness, exhaustion, poverty, or abandonment is speaking through the person. If the wish remains clear after those supports are in place, respecting it becomes more credible, not less.",
+      "advice_en": "Do three things this week. First, write a one-page advance-care plan: which treatments you would refuse, what states you would find unacceptable, who can speak for you, and what you fear most. Read it aloud to that person and ask them to repeat it back. Second, look up how palliative care or hospice is accessed where you live and save the number. If a relative says they do not want to live, ask the doctor that day to check pain, delirium, oxygen, medications, and sleep. **Treat the sentence first as a symptom and a plea for help, not as an instant referendum on life and death.** Third, make a care rota, however small, and check caregiver leave, home-nursing options, and long-term-care benefits before crisis hits."
+    },
+    {
+      "ai": "gemini",
+      "engine": "google · gemini-3.1-pro-preview(真实API)",
+      "engine_en": "google · gemini-3.1-pro-preview (live API)",
+      "summary": "把八个人的立场排开，重叠的那一块最先跳出来：**在讨论『社会该不该允许死亡』之前，必须先铲除那些把人逼向绝境的生存条件。**无论是达马西奥强调的疼痛干预、马尔莫主张的照护支持，还是托尔斯泰与佛陀呼吁的无条件陪伴，全场一致认为：未经充分止痛、缺乏安宁疗护与情感支撑的求死，不是真正的自由选择。真正的分歧聚焦于这扇门的把手该交给谁：阿奎那坚持用意图划出绝对的道德界线；努斯鲍姆、马尔莫与达马西奥主张一套可量化、可审计的评估清单作为前置条件；萨斯与爱比克泰德则警惕把生死交由医疗行政审批，认为任何需要第三方盖章的权利，本质上都是对身体主权的剥夺。",
+      "insight": "把视线从病床前移开：这场争论正在一个更大的技术坐标里被悄悄重塑。现代医疗最大的悖论是，它无限延长了心跳与呼吸，却没有同步延长生命的主体性。**随着高阶生命支持与器官替代技术普及，『什么算正在自然死亡』会越来越难界定。**阿奎那所说的『停掉无益治疗、让病自己走完』，在完全依赖体外循环机的重症监护室里，物理动作上更像是主动切断。所以社会要面对的不只是临终那一刻的决断，还有技术干预的惯性——我们是否仅仅因为『做得到』，就无视了人走向衰败的节律？把衰亡当成必须用尽一切手段修复的系统故障，本身就是一则压迫性的现代神话。",
+      "advice": "面对生死的宏大命题，普通人无需等待法律完美，今天起就可以采取三个具体行动。第一，**趁着完全清醒与健康，尽早签署预立医疗决定（生前预嘱），并指定一位坚定的医疗代理人。**如萨斯所言，挑一个敢于替你争取真实意愿、甚至敢对医生说『不』的人，而不仅仅是最亲或最容易妥协的家属。第二，花半天时间摸底你所在城市的安宁疗护资源，查清如何转介、医保覆盖范围及床位情况；正如马尔莫提醒的，账单和邮编往往比意志更能决定死亡的尊严。第三，践行托尔斯泰的『笨功夫』：当身边有重病亲友时，去陪他坐一小时，不急于用『都会好起来的』去堵住他的恐惧，只是纯粹地倾听，接住那些被医疗系统忽略的孤立与无助。",
+      "summary_en": "Lay the eight positions side by side and the overlap is what jumps out first: **the conditions that drive a person toward death must be cleared away before we discuss whether society should permit it.** Whether it is Damasio’s physiological pain interventions, Marmot’s social support systems, or the compassionate presence advocated by Tolstoy and the Buddha, the unanimous view is that a request for death driven by untreated pain, lack of palliative care, or sheer loneliness is not a genuinely free choice. When all viable paths to living decently are stripped away, choosing death is not true autonomy. The real divergence lies in who gets to control the handle to that exit: Aquinas insists on an absolute moral line based on intent; Nussbaum, Marmot, and Damasio advocate for a strict, auditable checklist of medical and social prerequisites; whereas Szasz and Epictetus warn against surrendering the sovereignty of one's body to a bureaucratic medical committee, arguing that any right requiring official approval fundamentally violates individual autonomy.",
+      "insight_en": "Shifting the focus away from the bedside, this debate is being fundamentally reshaped within a broader matrix of modern technological advancement. The greatest paradox of contemporary medical technology is that while it infinitely extends heartbeats and breathing, it often fails to concurrently extend the subject's agency. **With the proliferation of advanced life-support systems and artificial organs, it is becoming increasingly difficult to define what constitutes 'dying naturally.'** Aquinas’s ethical distinction of 'stopping useless treatment to let the disease run its course' becomes conceptually blurred in an ICU entirely reliant on extracorporeal membrane oxygenation. When machines replace organic function, pulling the plug feels physically more like actively 'terminating' a life than passively withdrawing care. This forces society to proactively scrutinize the momentum of technological overreach—are we depriving humanity of the natural rhythm of decay simply because we possess the technical means to intervene? Treating mortality as a systemic glitch that must be endlessly repaired is itself an oppressive modern myth.",
+      "advice_en": "Without waiting for flawless legislation, ordinary people can take three concrete actions starting today to reclaim agency over life and death. First, **draft an Advance Directive while fully healthy and lucid, and appoint a steadfast healthcare proxy.** As Szasz advised, choose someone with the backbone to advocate for your actual wishes and stand up to medical professionals, rather than just the most emotionally fragile family member. Second, spend an afternoon researching the palliative care resources in your specific area. Find out exactly how referrals work, what insurance covers, and bed availability; as Marmot noted, your zip code and bank account often dictate your end-of-life dignity more than your willpower. Finally, practice Tolstoy’s 'clumsy effort': when a loved one is severely ill, simply sit with them for an hour. Do not rush to silence their fears with toxic positivity like 'you will get better.' Just offer pure, grounded presence to absorb the profound isolation that the medical system routinely ignores."
+    }
+  ],
+  "hooks": [
+    {
+      "from": "szasz",
+      "text": "**谁来定义『清醒』**：把死亡做成一项需要审批的服务之后，评估能力的那把尺子就同时在定义谁算一个完整的人。同一套判据，既能拦住被疾病改写的意愿，也能拦住一个只是结论不合主流的清醒者。我们凭什么分辨，一次『他现在不清醒』针对的是他的状态，还是他的答案？",
+      "text_en": "**Who defines lucidity**: once death becomes a service requiring approval, the yardstick for capacity is simultaneously defining who counts as a whole person. The same criteria will stop a wish rewritten by illness and stop a perfectly lucid person whose conclusion is merely unpopular. On what basis do we tell whether 'he isn't lucid right now' is aimed at his state or at his answer?"
+    },
+    {
+      "from": "marmot",
+      "text": "**前置条件会不会变成永不兑现的婉拒**：要求『先把安宁疗护铺好』听上去无可指摘，可谁来定义覆盖、谁来宣布达标？条件挂在一个永远能再高一点的标准上，就成了体面的拒绝；条件定得太松，又会变成一张糊弄用的合格证。有没有一种前置条件，既拦得住不公平的『选择』，又不会变成无限期的等待？",
+      "text_en": "**When a precondition becomes a refusal that never says no**: insisting that palliative care be built out first sounds unimpeachable — but who defines coverage, and who declares the target met? Hang the condition on a standard that can always be raised and it becomes a dignified refusal; set it too loosely and it becomes a certificate for show. Is there a form of precondition that blocks unjust 'choices' without turning into an indefinite wait?"
+    },
+    {
+      "from": "tolstoy",
+      "text": "**陪伴能不能被雇来**：药可以发，假可以批，可我们能不能『发』一个不撒谎、肯坐下来的人？付钱请来的陪伴算不算数——格拉西姆本来也是仆人。若有些好东西一旦被购买就变了质，临终陪伴属不属于这一类，而一个越来越少有人有空的社会又该拿它怎么办？",
+      "text_en": "**Can company be hired**: drugs can be dispensed and leave can be approved, but can a society dispense a person who will not lie and will sit down? Does paid company count — Gerasim, after all, was a servant. If some goods are altered by being bought, does keeping vigil belong in that class, and what is a society with ever less spare time supposed to do about it?"
+    },
+    {
+      "from": "damasio",
+      "text": "**现在的我，能替将来的我签字吗**：预嘱假设签字的那个人和将来躺在床上的那个人是同一个人。可重度失智之后，那个不记得自己签过字、看上去也并不痛苦的人，究竟该按十年前的意愿处理，还是按此刻的状态处理？意愿如果需要反复取样，那么当没有可取样的对象时，谁的意愿算数？",
+      "text_en": "**Can the person I am now sign for the person I will be**: an advance directive assumes that whoever signs and whoever later lies in the bed are the same person. But after advanced dementia, should the one who does not remember signing and appears untroubled be treated according to a wish expressed ten years ago, or according to their present state? If a wish must be sampled repeatedly, whose wish counts when there is nobody left to sample?"
+    },
+    {
+      "from": "gpt",
+      "text": "**『拖累』是怎么算出来的**：在有法可依的地方，怕成为负担长期排在请求理由的前列。可被照顾为什么被记成一笔亏欠？同一个人年幼时被喂饭、被擦身，从来没有人称之为拖累。这本情感账簿是什么时候翻面的，又是谁在替它记账——家庭、市场，还是那份从没被算进 GDP 的无偿劳动？",
+      "text_en": "**How 'being a burden' gets calculated**: where such laws exist, fear of burdening others sits consistently near the top of the stated reasons. But why is being cared for entered as a debt? The same person was fed and washed as an infant and nobody called it a burden. When did this emotional ledger flip, and who keeps it — the family, the market, or the unpaid labour that never entered GDP?"
+    },
+    {
+      "from": "gemini",
+      "text": "**良心豁免与病人权利能否共存**：如果一项服务被立为权利，而执行它的人可以按信念拒绝，那这项权利在缺人手的地方就形同虚设；可若不能拒绝，成本就会一路摊派到最难说不的那一层人身上。专业人士的良心，是病人权利的障碍，还是这项工作不被强制向下转嫁的最后一道闸？",
+      "text_en": "**Can conscientious objection coexist with a patient's right**: if a service is established as a right while those who perform it may refuse on conviction, the right is hollow wherever staffing is thin; yet if refusal is barred, the cost slides down to the people least able to say no. Is a professional's conscience an obstacle to the patient's right, or the last barrier against this work being pushed downward by force?"
+    }
+  ]
+}

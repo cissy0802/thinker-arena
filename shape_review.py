@@ -197,6 +197,27 @@ def _closing_cat(posts):
     return _TH_CAT.get(tail[-1]["thinker"], "?") if tail else "-"
 
 
+def _cast_order_is_r1(d):
+    """第1轮的发言次序是不是照着 casting 名单从头念了一遍。选角条与首轮几乎总是同序，
+    读者一进页面就先看名单、再看同样次序的九段独白，开场的节奏因此每场一模一样。
+    它不在人数、不在反驳结构里（『轮内照抄顺序』只比第2、3轮与第1轮），静态规则查不出。"""
+    cast = [c.get("id") for c in d.get("casting", [])]
+    r1 = [p["thinker"] for p in d.get("posts", []) if p.get("round") == 1]
+    if not cast or not r1:
+        return "-"
+    return "是" if cast == r1 else "否"
+
+
+def _last_round_detached(posts):
+    """末轮（总结陈词）里 reply_to 为空的帖数。总结不必逐条反驳是对的，但若每场都是
+    N/N 全断连，最后一轮就永远是各念各的独白，读者看不到任何人把话接住再收。"""
+    if not posts:
+        return "-"
+    last_round = max(p["round"] for p in posts)
+    tail = [p for p in posts if p["round"] == last_round]
+    return "%d/%d" % (sum(1 for p in tail if not p.get("reply_to")), len(tail))
+
+
 def feats(d):
     posts = d.get("posts", [])
     rounds = sorted({p["round"] for p in posts})
@@ -244,6 +265,10 @@ def feats(d):
         # 收尾帖发言者所属的名册类别。每场都让同一路人（尤其东方古人）说最后一句，
         # 是一处静态规则查不出的收束定型：结尾的分量该随议题给不同传统，别固定归谁。
         "收尾帖类别": _closing_cat(posts),
+        # 第1轮是不是照着选角名单的次序念了一遍（每场都『是』＝开场节奏被锁死）
+        "首轮序=选角序": _cast_order_is_r1(d),
+        # 末轮有多少帖不接任何人（N/N＝总结轮永远是九段互不相干的独白）
+        "末轮断连": _last_round_detached(posts),
         "表态档集合": tuple(sorted(rk)),
         "用了疑惑": "疑惑" in rk,
         "带glossary帖数": sum(1 for p in posts if p.get("glossary")),
@@ -282,7 +307,7 @@ print("=" * 70)
 print("形状自评 ·", tid, "· 对比最近", len(R), "场:", "、".join(eid for eid, _ in R) or "(无)")
 print("=" * 70)
 
-SCALARS = ["人数","轮数","每轮帖数","钩子数","钩子分布","钩子作者类型","钩子带答案表","选角语气收尾","二轮全反一轮","二轮同轮追击","二轮点名起手","二轮火力散布","轮内照抄顺序","首轮全独白","答案表位次","收尾帖类别","表态档集合",
+SCALARS = ["人数","轮数","每轮帖数","钩子数","钩子分布","钩子作者类型","钩子带答案表","选角语气收尾","二轮全反一轮","二轮同轮追击","二轮点名起手","二轮火力散布","轮内照抄顺序","首轮全独白","答案表位次","收尾帖类别","首轮序=选角序","末轮断连","表态档集合",
            "用了疑惑","带glossary帖数","术语加粗","加粗压帖尾","古文帖数","建议带①②③","帖均加粗处","加粗处分布","总结膨胀比","总结数数起手","总结列清单","总结转日常","收尾建议条数"]
 flags = []
 print("\n%-14s %-22s %s" % ("维度", "本场", "最近几场"))

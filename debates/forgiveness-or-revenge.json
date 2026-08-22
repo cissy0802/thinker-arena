@@ -1,0 +1,962 @@
+{
+  "id": "forgiveness-or-revenge",
+  "question": "该不该原谅伤害过你的人？",
+  "question_en": "Should you forgive someone who has wronged you?",
+  "sub": "宽恕是解脱，还是压给受害者的又一份功课？",
+  "sub_en": "Is forgiveness release, or one more task laid on the injured?",
+  "date": "2026-08-22",
+  "participants": [
+    "kongzi",
+    "nagarjuna",
+    "luxun",
+    "nietzsche",
+    "arendt",
+    "mlk",
+    "ledoux",
+    "goffman"
+  ],
+  "casting": [
+    {
+      "id": "kongzi",
+      "reason": "他反对以德报怨，理由不是刻薄而是记账：德是酬善之物，尽数拿去酬恶，善就无处可归。他给出的第三条路是『以直报怨』——按其应得回应，当责则责、当讼则讼、当绝则绝，不加一分也不减一分。在他看来，逼人宽宏是让受枉者再枉一次，纵人挟怨则让人间无所敬畏，分寸才是解法。他也认真对待冒犯者那一头：过而不改才是过，改的办法是明言其非、偿其所损、旧规照守。",
+      "reason_en": "He rejects repaying injury with kindness, not out of hardness but out of bookkeeping: virtue is what one pays for good, and spending it all on wrongdoing leaves goodness with nowhere to land. His third road is to repay injury with uprightness — to answer with exactly what is due, censuring where censure is owed, going to law where law is owed, breaking off where breaking off is owed, neither an ounce more nor an ounce less. To press a wronged person into magnanimity, he holds, wrongs them twice; to let grievance run free leaves nothing in human affairs to fear. Proportion is the answer. He takes the offender's side of it just as seriously: the fault is not the error but the failure to correct it, and correction means naming the wrong, repaying the loss, and keeping the rule in force."
+    },
+    {
+      "id": "nagarjuna",
+      "reason": "他不劝宽恕，也不劝报复，而是拆掉两者共同的地基。怨的成立需要三样东西同时是实在的：一个恒常的加害者、一个恒常的受害者、一件有定量的伤害。他指出三者皆缘生、皆无自性，十年前挥拳的人与今日的他非一非异，执着于『他本可以不这样』才是怨的柴薪。但他也守住二谛：胜义上无能所可得，世俗上该告官告官、该疏远疏远，因果丝毫不废。他要的是做时全做、做毕即放。",
+      "reason_en": "He counsels neither forgiveness nor revenge but dismantles the ground they share. A grievance requires three things to be real at once: a permanent wrongdoer, a permanent victim, and an injury of fixed quantity. All three, he argues, arise dependently and lack any nature of their own — the person who threw the punch ten years ago is neither identical to nor separate from the person standing there now — and the conviction that 'he could have done otherwise' is the fuel the grievance burns. Yet he holds the two truths apart: on the ultimate level no doer and no done-to can be found, while on the conventional level one reports the crime, seeks redress and keeps one's distance, with cause and effect entirely intact. Do the thing fully, then set it down."
+    },
+    {
+      "id": "luxun",
+      "reason": "他把矛头对准劝和的人。宽恕本是受害者自己的事，一旦变成旁人递来的任务单，挨打的人就要受第二遍审判——先受欺侮，再受『你怎么还不放下』的责难。他坚持费厄泼赖应该缓行：在动手的一方仍有还手之力时，风度只会保护施害者。他并不主张人人复仇，只主张一件事——不许旁人替受害者宣布这页已经翻过去；要恕，得他自己开口。",
+      "reason_en": "He aims at the peacemakers. Forgiveness belongs to the injured; the moment it arrives as an assignment handed over by onlookers, the person who took the blow stands trial a second time — first for the injury, then for not yet being over it. He holds that fair play should be deferred: while the side that struck still has the strength to strike again, good form protects only the aggressor. He does not call for everyone to take revenge. He calls for one thing — that no bystander be allowed to declare, on the victim's behalf, that the page has turned. If there is to be pardon, it must come from their own mouth."
+    },
+    {
+      "id": "nietzsche",
+      "reason": "他两边都不站。复仇的幻想在他眼里是弱者的补偿机制：打不回去的人发明一套道德，把自己的无能改名叫善良，把对方的强悍改名叫邪恶——这就是 ressentiment。可宽恕在他看来更可疑：『我原谅你』里藏着一枚道德勋章，是同一场复仇换了包装，还不承认自己在复仇。他给的方案既不是恕也不是报，而是消化——一种他称作主动遗忘的能力，让人不能长久地把敌人、不幸与自己的过失当回事。",
+      "reason_en": "He stands on neither side. Fantasies of revenge he reads as the weak person's compensation: unable to strike back, they invent a morality that renames their own impotence as goodness and the other's strength as evil — this is ressentiment. Forgiveness strikes him as more suspect still: inside 'I forgive you' sits a moral medal, the same revenge in new packaging, with the added dishonesty of not admitting to being revenge at all. What he offers instead of pardon or payback is digestion — a capacity he calls active forgetting, which keeps a person from taking enemies, misfortunes and their own misdeeds seriously for very long."
+    },
+    {
+      "id": "arendt",
+      "reason": "她把宽恕从心情里拿出来，放进人的能力清单：行动不可逆，做过的收不回；行动不可预测，后果无人能算。承诺应付后者，宽恕应付前者——没有它，人就永远被钉死在自己第一次行动的后果里。她坚持宽恕针对的是人而不是事，而且宽恕与惩罚不是对立面，是同一枚硬币：两者都让一件已发生的事停在这里，不再自动往下生。她也承认深渊的存在——那些既不能罚、也不能恕的罪。",
+      "reason_en": "She lifts forgiveness out of the register of feeling and puts it on the list of human capacities. Action is irreversible: what is done cannot be recalled. Action is unpredictable: no one can compute its consequences. Promising answers the second condition, forgiving the first — without it, a person stays nailed forever to the consequences of their first deed. She insists that forgiveness is directed at the person and not at the act, and that forgiving and punishing are not opposites but two faces of one coin: each halts something already done so that it stops propagating on its own. She also concedes the abyss — those offences that can be neither punished nor forgiven."
+    },
+    {
+      "id": "mlk",
+      "reason": "他被打过、被关过、家被炸过，仍然主张爱你的仇敌，但把这句话的含义收得很紧：宽恕不是说那件事没关系，而是不再让它决定自己成为什么样的人。他坚持宽恕从不取消正义——一边在讲坛上宽恕，一边上街、上法庭、要求立法，抵制持续三百八十一天，让步不是宽恕换来的。恨在他看来是奢侈品：它要求你每天把伤口重新打开一次，好让愤怒保持新鲜。",
+      "reason_en": "He was beaten, jailed and had his house bombed, and still urges love of enemies — but he draws the meaning tight: forgiveness does not say the thing was acceptable, it says the thing no longer gets to decide who he becomes. He insists forgiveness never cancels justice: he forgave from the pulpit while marching, filing suit and demanding federal law, and the boycott that ran three hundred and eighty-one days won its concession by pressure, not by pardon. Hatred, to him, is a luxury good — it requires you to reopen the wound daily so the anger stays fresh."
+    },
+    {
+      "id": "ledoux",
+      "reason": "他把这道题降到突触层面。伤害留下的不是一段可以擦掉的记忆，而是一条被强化的防御性生存回路——某个语气、某条走廊都能在意识介入之前拉高心跳。他据此划出界线：不报复是前额叶管得住的行为，不应激不是意志能下达的指令。他给出的两条真路径是消退学习与记忆再巩固，并强调消退是情境依赖的，旧反应会原样回来；『我以为早放下了，一见他又炸了』不是失败，是正常的神经物理。",
+      "reason_en": "He takes the question down to the synapse. An injury does not leave a memory that can be erased; it leaves a strengthened defensive survival circuit, so that a tone of voice or a particular corridor drives the heart rate up before awareness arrives. From this he draws a line: not retaliating is behaviour the prefrontal cortex can govern, while not reacting is not an instruction the will can issue. The two genuine routes he offers are extinction learning and memory reconsolidation, with the warning that extinction is context-dependent and the old response returns intact — 'I thought I was over it, then I saw him and it all came back' is not failure but ordinary neural physics."
+    },
+    {
+      "id": "goffman",
+      "reason": "他不问心里怎么想，只看桌面上发生了什么。日常里的和好在他笔下是一套有固定步骤的补救性交换：冒犯发生、对方发出挑战、冒犯者提供补偿、受损方表示接受、冒犯者致谢——走完这五步，秩序就复位，谁心里还别扭是另一回事。他对道歉的定义极苛刻：那是当众把自己劈成两半，一半承认事是我干的，另一半站到规则那边说它不该被干。照这个标准，大多数关系不是死于不肯原谅，是死于补偿从未真正被提供。",
+      "reason_en": "He does not ask what people feel; he watches what happens on the table. Reconciliation in daily life appears in his work as a remedial interchange with fixed steps: the offence occurs, the injured party issues a challenge, the offender makes an offering, the injured party signals acceptance, the offender gives thanks. Walk the five steps and the order is restored; who still feels sore is a separate matter. His definition of an apology is severe — it is the public splitting of the self in two, one half admitting the deed, the other standing with the rule and declaring the deed wrong. By that standard, most relationships die not from a refusal to forgive but because the offering was never really made."
+    }
+  ],
+  "posts": [
+    {
+      "id": "p01",
+      "round": 1,
+      "thinker": "luxun",
+      "reply_to": null,
+      "text": "我先把话说在前头：劝人大度的，十有八九不是挨打的那一个。**损着别人的牙眼却反对报复、主张宽容的人，万勿和他接近**——这话我写进遗嘱，今天也不改。宽恕本该是受害者自己的事；一旦变成旁人递过来的任务单，它就成了二次伤害：先挨一次欺侮，再挨一次『你怎么还不放下』的审判。所以我说费厄泼赖应该缓行——落水狗要不要打，得等岸上的规矩真站住了再议，而不是先赦了动手的人，再回头教育挨打的人修养。",
+      "text_en": "Let me say this first: nine times out of ten, the person urging magnanimity is not the one who took the beating. **Anyone who damages another's teeth and eyes and then objects to retaliation, preaching tolerance — never go near him.** I put that in my will and I do not withdraw it today. Forgiveness ought to belong to the injured. The moment it arrives as an assignment handed over by bystanders, it becomes secondary victimisation: first the injury, then the trial for not yet being over it. Which is why I said fair play should be deferred — whether to beat the dog that has fallen in the water can be argued once order on the bank actually holds, not by pardoning the man who struck and then turning round to lecture the man who was struck on his self-cultivation.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "二次伤害": "secondary victimisation（二次伤害）：指受害者在原始伤害之后，因周围人的反应——怀疑、和稀泥、催促原谅、指责其反应过度——而承受的第二重伤害。研究者最早在性侵与家暴案件中系统描述它，发现这一层有时比事件本身更难恢复，因为它切断的是求助的通道。",
+        "费厄泼赖": "fair play（费厄泼赖）：英文 fair play 的音译，二十世纪二十年代中国文人用它指对失败的对手也讲风度、不再追打。鲁迅 1925 年写《论「费厄泼赖」应该缓行》，认为旧势力尚有还手之力时，这种风度只会保护施害者，因而提出『打落水狗』。"
+      },
+      "glossary_en": {
+        "secondary victimisation": "The second layer of harm an injured person takes not from the original event but from the reactions around it — disbelief, pressure to smooth things over, demands that they forgive, accusations of overreacting. First described systematically in cases of sexual assault and domestic violence, it can be harder to recover from than the event itself, because what it damages is the route to help.",
+        "fair play": "A transliterated English phrase adopted by Chinese writers in the 1920s to mean extending good form even to a defeated opponent and declining to pursue him further. Lu Xun's 1925 essay 'Fair Play Should Be Deferred' argued that while the old order still has the strength to hit back, such good form protects only the aggressor — hence his slogan about beating the dog that has fallen in the water."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "nietzsche"
+        ],
+        "轻微赞同": [
+          "kongzi",
+          "goffman"
+        ],
+        "中立": [
+          "ledoux",
+          "nagarjuna"
+        ],
+        "轻微反对": [
+          "mlk",
+          "arendt"
+        ]
+      }
+    },
+    {
+      "id": "p02",
+      "round": 1,
+      "thinker": "mlk",
+      "reply_to": null,
+      "text": "我被打过、被关过，家被炸过。我仍然说：要爱你的仇敌。但请别误解这句话——**宽恕不是说那件事没关系，而是说那件事不再有权决定我成为什么样的人。**恨最狠的一招，是把你慢慢改造成你所反对的那副样子。同时我要讲清楚：宽恕从不取消正义。我在讲坛上宽恕，同一个星期照样上街、上法庭、要求联邦立法。放下的是报复的欲望，不是追责的要求。把这两样同时握在手里，就是非暴力直接行动的全部技术含量。",
+      "text_en": "I have been beaten, I have been jailed, and my house has been bombed. I still say: love your enemies. But do not mistake the sentence — **forgiveness does not say the thing was acceptable; it says the thing no longer has the authority to decide who I become.** Hatred's cruellest trick is to remodel you slowly into the very thing you oppose. And let me be plain: forgiveness never cancels justice. I forgave from the pulpit and in the same week marched, filed suit and demanded federal legislation. What is put down is the appetite for revenge, not the demand for accountability. Holding both at once is the whole craft of nonviolent direct action.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "非暴力直接行动": "nonviolent direct action（非暴力直接行动）：一种有组织的抗争方法，用抵制、静坐、游行、故意违反不义之法并接受逮捕等手段，制造一场对方无法回避的危机，逼出谈判，全过程拒绝使用暴力。它并非被动忍受：压力照施，只是压力不以伤害对方身体的方式施加。"
+      },
+      "glossary_en": {
+        "nonviolent direct action": "An organised method of struggle that uses boycotts, sit-ins, marches and the deliberate breaking of unjust laws with acceptance of arrest, in order to create a crisis the other side cannot ignore and force negotiation, while refusing violence throughout. It is not passive endurance: the pressure is fully applied, only never through injury to the opponent's body."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "arendt"
+        ],
+        "轻微赞同": [
+          "ledoux",
+          "kongzi"
+        ],
+        "中立": [
+          "goffman"
+        ],
+        "轻微反对": [
+          "luxun",
+          "nagarjuna"
+        ],
+        "强烈反对": [
+          "nietzsche"
+        ]
+      }
+    },
+    {
+      "id": "p03",
+      "round": 1,
+      "thinker": "kongzi",
+      "reply_to": null,
+      "text": "或问：以德报怨，何如？吾对曰：何以报德？**以直报怨，以德报德。**夫德者，所以酬善也；尽以酬恶，则善无所归，为善者失其所望矣。然直非报复之谓。直者，如其分而应之：当责则责，当讼则讼，当绝则绝，不加一分，亦不减一分。强人以宽，是使受枉者再枉；纵人以怨，是使天下无所惮。**不迁怒，不贰过**，则怨止于其所当止。",
+      "text_en": "Someone asked: what of repaying injury with kindness? I answered: then with what will you repay kindness? **The rule is to repay injury with uprightness, and kindness with kindness.** Virtue is what one pays out for good; spend it all on wrongdoing and goodness has nowhere left to land, and those who do good are disappointed of what they had reason to expect. Yet uprightness is not revenge. To be upright is to answer with precisely what is due: censure where censure is owed, law where law is owed, a parting where a parting is owed — not an ounce more, and not an ounce less. To press a wronged man into magnanimity is to wrong him twice; to let grievance run unchecked is to leave the world with nothing to fear. **Do not transfer your anger, and do not repeat a fault** — then the grievance stops where it ought to stop.",
+      "vernacular": "有人问我：用恩德去回报伤害，怎么样？我反问：那你拿什么来回报恩德？**该用公正回应伤害，用恩德回应恩德。**恩德是用来酬答善意的；要是全拿去酬答恶行，善就没有归处了，做好事的人也会寒心。但公正不等于报复。所谓公正，是按它本来应得的分量回应：该责备就责备，该打官司就打官司，该断绝就断绝，不多加一分，也不少给一分。硬逼一个受了委屈的人大度，等于让他再受一次委屈；纵容人怀着怨恨为所欲为，则天下再没有什么可敬畏的。**不把火气转移到别人身上，同样的错不犯第二次**，怨恨就能停在它该停的地方。",
+      "vernacular_en": "",
+      "glossary": {
+        "以直报怨": "repaying injury with uprightness（以直报怨）：出自《论语·宪问》。『直』兼有正直与相称两义——不是以恶还恶，也不是无条件宽宥，而是按事情本身应得的分量作出回应：该指出的指出，该索赔的索赔，该断绝往来的断绝往来。孔子以此拒绝『以德报怨』，理由是那会让恩德失去它的对象。"
+      },
+      "glossary_en": {
+        "repay injury with uprightness": "From the Analects, Book 14. The word rendered 'uprightness' carries both straightness and proportion: not evil for evil, and not unconditional pardon either, but a response of exactly the weight the matter deserves — say what must be said, claim what must be claimed, end what must be ended. Confucius used it to refuse the maxim of repaying injury with kindness, on the ground that doing so leaves kindness with no object of its own."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "luxun"
+        ],
+        "轻微赞同": [
+          "arendt",
+          "goffman"
+        ],
+        "中立": [
+          "ledoux",
+          "nietzsche"
+        ],
+        "轻微反对": [
+          "mlk",
+          "nagarjuna"
+        ]
+      }
+    },
+    {
+      "id": "p04",
+      "round": 1,
+      "thinker": "nietzsche",
+      "reply_to": null,
+      "text": "两边我都看不上。复仇的幻想是无力者的补偿：他打不回去，于是发明一整套道德，把自己的软弱改名叫『善良』，把对方的强悍改名叫『邪恶』——这就是 ressentiment 的配方，它在想象里领取每一笔它在现实中收不到的账。可你们的宽恕又好到哪里去？**『我原谅你』这句话里别着一枚勋章：我在道德上高你一等。**同一场复仇换了包装，而且更脏，因为它连自己在复仇都不肯承认。健康的人两样都不做，他消化。高贵者不能长久地把敌人、把不幸、把自己的蠢事当回事；抖一抖，那些啃食别人骨髓的虫子就掉了。",
+      "text_en": "I think little of either party. The revenge fantasy is the compensation of the powerless: unable to strike back, he invents an entire morality that renames his own weakness 'goodness' and the other man's strength 'evil' — this is the recipe for ressentiment, which collects in imagination every debt it cannot collect in fact. And is your forgiveness any better? **Pinned inside the words 'I forgive you' is a medal: I stand above you morally.** The same revenge in new packaging, and dirtier, because it will not even admit to being revenge. The healthy man does neither. He digests. A noble nature cannot take its enemies, its misfortunes, or its own follies seriously for long; one shrug and the vermin that gnaw deep into other men fall off.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "ressentiment": "ressentiment（怨恨）：尼采从法语借来的词，指一种长期发酵、无法宣泄的憎恨。它的典型处境是：受害者在现实中无力还手，于是把复仇搬进想象，并进一步把这种无力重估为美德——忍让叫善良、无害叫正直、报复不了叫宽恕。它与一时的愤怒不同，愤怒会烧完，ressentiment 会沉淀成一个人的性格与世界观。"
+      },
+      "glossary_en": {
+        "ressentiment": "A French word Nietzsche borrowed for a long-fermenting hatred that finds no outlet. Its typical situation: the injured party cannot strike back in fact, so the revenge migrates into imagination and the impotence is then revalued as virtue — forbearance called goodness, harmlessness called integrity, inability to retaliate called forgiveness. Unlike anger, which burns itself out, ressentiment settles into a character and a picture of the world."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "luxun"
+        ],
+        "中立": [
+          "nagarjuna"
+        ],
+        "轻微反对": [
+          "goffman",
+          "arendt",
+          "kongzi",
+          "ledoux"
+        ],
+        "强烈反对": [
+          "mlk"
+        ]
+      }
+    },
+    {
+      "id": "p05",
+      "round": 1,
+      "thinker": "arendt",
+      "reply_to": null,
+      "text": "请把宽恕从心情里拿出来。它是一种能力，和承诺并列。人的行动有两个致命性质：不可逆，做过的收不回；不可预测，后果无人能算尽。承诺对付第二个，宽恕对付第一个。**没有宽恕，我们就永远被困在自己第一次行动的后果里，像被一句话判了终身。**两点必须说清：其一，宽恕针对的是人，不是事——我们赦免那个做事的人，而事本身照旧被记录、被追究；其二，宽恕的反面不是惩罚，二者是同一枚硬币，都能让一件已经发生的事停在这里，不再自动往下生长。真正无解的，是那些既不能罚、也不能恕的罪。",
+      "text_en": "Take forgiveness out of the register of mood. It is a faculty, and it stands beside promising. Action has two fatal properties: irreversibility, since what is done cannot be recalled, and unpredictability, since no one can compute where it ends. Promising answers the second; forgiving answers the first. **Without forgiveness we remain confined forever to the consequences of our first deed, sentenced for life by a single sentence.** Two things must be clear. First, forgiveness is directed at the person, not the deed — we release the one who acted, while the act itself stays on the record and remains answerable. Second, the opposite of forgiving is not punishing; the two are faces of one coin, and each makes something already done stop here instead of propagating on its own. What is genuinely without remedy are the offences that can be neither punished nor forgiven.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "不可逆": "irreversibility（不可逆）：阿伦特用来描述人的行动的一个基本处境——话说出口、事做出来，就进入了一张由他人构成的关系网，谁也无法把它撤回或让它未曾发生。人做工可以拆掉重做，行动不行。她认为人类应对这一处境的唯一手段就是宽恕：不是抹掉那件事，而是解除那件事对当事人的无限期束缚。"
+      },
+      "glossary_en": {
+        "irreversibility": "Arendt's term for a basic condition of human action: once a word is spoken or a deed done, it enters a web of relationships made of other people, and no one can retract it or make it not have happened. What we fabricate can be dismantled and remade; what we do cannot. The only human remedy for this condition, she argues, is forgiveness — which does not erase the deed but releases the doer from being bound to it indefinitely."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "mlk"
+        ],
+        "轻微赞同": [
+          "kongzi",
+          "goffman"
+        ],
+        "中立": [
+          "nietzsche",
+          "ledoux"
+        ],
+        "轻微反对": [
+          "luxun",
+          "nagarjuna"
+        ]
+      }
+    },
+    {
+      "id": "p06",
+      "round": 1,
+      "thinker": "ledoux",
+      "reply_to": null,
+      "text": "让我把机制摆出来。伤害留下的不是一段可以擦掉的记忆，而是一条被强化的防御性生存回路：某个语气、某条走廊，都能在你意识到之前把心跳和皮质醇拉起来。你可以决定不报复——那是前额叶管得住的行为；**你不能决定不应激，因为那不是意志能下达的指令。**真路径有两条：消退学习，在安全情境里反复遇到那个线索而坏事没有发生，大脑会长出一条新的抑制记忆；记忆再巩固，每次回忆都让那段记忆短暂变软，此时掺进新信息，它会被改写着存回去。但消退是情境依赖的：换个地方，旧反应会原样回来。所以『我以为早放下了，一见他又炸了』不是失败，是正常的神经物理。",
+      "text_en": "Let me put the mechanism on the table. An injury does not leave a memory you can wipe; it leaves a strengthened defensive survival circuit, so that a tone of voice or a particular corridor can drive up heart rate and cortisol before you notice anything at all. You can decide not to retaliate — that is behaviour, and the prefrontal cortex governs it. **You cannot decide not to react, because that is not an instruction the will is able to issue.** Two routes are real. There is extinction learning: meet the cue repeatedly in a safe setting while nothing bad happens, and the brain grows a new inhibitory memory alongside the old one. And there is memory reconsolidation: each retrieval leaves the trace briefly labile, and new information mixed in during that window is stored back with it. But extinction is context-dependent — change the place, leave it a while, and the old response returns intact. So 'I thought I was long over it, then I saw him and it all went off' is not a failure. It is ordinary neural physics.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "防御性生存回路": "defensive survival circuit（防御性生存回路）：大脑中一套探测威胁并自动组织应对的神经通路，核心节点包括杏仁核。它在意识之外工作，几十毫秒内就能触发僵住、逃跑、心率上升与激素释放，人和大鼠共用同一套结构。勒杜强调它并不等于『恐惧的感觉』——感觉是皮层与自我模型另行拼装出来的。",
+        "消退学习": "extinction learning（消退学习）：反复遇到那个曾经预示危险的线索，而危险始终没有出现，大脑因此学会一条新的抑制性联结。要点在于旧记忆并没有被删除，只是被新记忆压住；一旦换了环境、隔了时间或再遇一次真实惊吓，旧反应会原样回来，这在实验里分别叫作复发与重建。",
+        "记忆再巩固": "memory reconsolidation（记忆再巩固）：一段已经存好的长期记忆被回忆唤起后，会短暂回到不稳定状态，需要重新固化才能存回去。这几个小时是一扇窗：此时进入的新信息会被并进原来的记忆里。它是许多创伤治疗方法的生物学依据——不是删掉过去，而是让过去带着新的东西被重新写入。"
+      },
+      "glossary_en": {
+        "defensive survival circuit": "A set of neural pathways, with the amygdala as a central node, that detect threat and organise a response automatically. They work outside awareness, triggering freezing, flight, a rising heart rate and hormone release within tens of milliseconds, and the same architecture is shared by humans and rats. LeDoux insists these circuits are not the feeling of fear — that feeling is assembled separately by cortical networks and the self-model.",
+        "extinction learning": "What happens when a cue that once predicted danger is met again and again while the danger never arrives: the brain acquires a new inhibitory association. The point is that the old memory is not deleted, merely overlaid. Change the setting, let time pass, or take one genuine fright, and the old response comes back unchanged — known in the laboratory as renewal and reinstatement.",
+        "memory reconsolidation": "A stored long-term memory, once retrieval brings it back up, returns briefly to an unstable state and must be fixed again before it is stored anew. Those few hours are a window: information introduced during them is written back in along with the original trace. It is the biological basis of several trauma treatments — not deleting the past, but re-recording it with something new attached."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "luxun"
+        ],
+        "轻微赞同": [
+          "mlk",
+          "arendt",
+          "nagarjuna"
+        ],
+        "中立": [
+          "kongzi"
+        ],
+        "轻微反对": [
+          "nietzsche",
+          "goffman"
+        ]
+      }
+    },
+    {
+      "id": "p07",
+      "round": 1,
+      "thinker": "goffman",
+      "reply_to": "p02",
+      "text": "牧师说宽恕是一种永久的态度。态度我看不见。我能看见的是桌面上发生了什么。日常里所谓和好，是一套步骤固定的补救性交换：冒犯发生，对方发出挑战，冒犯者提供补偿——解释、道歉、赔偿，受损方表示接受，冒犯者致谢。五步走完，秩序就复位了；谁心里还别扭，是另一本账。**一次合格的道歉，本质是当众把自己劈成两半：一半承认那件事是我干的，另一半站到规则这边说它本不该被干。**所以『我很抱歉你会有这样的感受』根本不是道歉——它一步都没走，还顺手把规则的裁量权收回了自己手里。大多数关系不是死于不肯原谅，是死于补偿从来没有被真正提供过。",
+      "text_en": "The Reverend calls forgiveness a permanent attitude. Attitudes I cannot see. What I can see is what happens on the table. Reconciliation in daily life is a remedial interchange with fixed steps: the offence occurs, the injured party issues a challenge, the offender makes an offering — an account, an apology, compensation — the injured party signals acceptance, and the offender gives thanks. Complete the five and the order is restored; who still feels sore is a separate ledger. **A competent apology is in essence the public splitting of the self in two: one half admitting the deed, the other standing with the rule and declaring the deed wrong.** Which is why 'I'm sorry you feel that way' is not an apology at all — it takes none of the steps, and quietly takes back the authority to say what the rule is. Most relationships die not from a refusal to forgive, but because the offering was never actually made.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "补救性交换": "remedial interchange（补救性交换）：戈夫曼用来描述日常冒犯如何被修复的一套互动序列。它由几个可观察的动作构成——挑战、补偿、接受、致谢——补偿本身又分三类：解释（说明事情为何不像表面那样糟）、道歉（承认它就是那么糟并与之切割）、请求（事前预先申请豁免）。关键在于它是公开完成的：修复的是关系的秩序，不是任何人的内心。",
+        "道歉": "apology（道歉）：在戈夫曼的定义里，道歉是一种把自我一分为二的公开表演——有过的那一半承认行为，另一半则宣示自己仍然认同被违反的规则。因此完整的道歉必须包含对规则的重新确认；缺了这一半，说出来的只是遗憾，不构成补偿。"
+      },
+      "glossary_en": {
+        "remedial interchange": "Goffman's term for the interaction sequence by which everyday offences get repaired. It consists of observable moves — challenge, offering, acceptance, thanks — and the offering itself comes in three kinds: accounts (arguing the act was not as bad as it looks), apologies (conceding that it was and splitting from it), and requests (asking exemption in advance). The point is that it is completed in public: what gets repaired is the order of the relationship, not anyone's inner state.",
+        "apology": "In Goffman's definition, a public performance in which the self is divided in two — the guilty half admits the act while the other half affirms that it still stands with the rule that was broken. A complete apology therefore has to reaffirm the rule; without that half, what has been uttered is regret, and regret is not an offering."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "kongzi"
+        ],
+        "轻微赞同": [
+          "luxun",
+          "arendt",
+          "ledoux"
+        ],
+        "中立": [
+          "nagarjuna",
+          "mlk"
+        ],
+        "轻微反对": [
+          "nietzsche"
+        ]
+      }
+    },
+    {
+      "id": "p08",
+      "round": 1,
+      "thinker": "nagarjuna",
+      "reply_to": null,
+      "text": "诸君论怨，皆先立三事：有能害者，有所害者，有害之事。**若三事各有自性，则怨永不可解；然三事皆缘生，缘生则无自性，无自性故名空。**十年前挥拳者，与今日之彼，非一非异；受之者亦然。必执一恒常之我以受此怨，怨乃有处可住，是谓三轮体空之所破。然空非拨无因果。二谛并行：胜义谛中，能所俱不可得；世俗谛中，当告则告，当罚则罚，当远则远，丝毫不废。故吾不劝汝宽恕——宽恕犹立一能恕者、一所恕者；吾劝汝看清所执之物本无可执。",
+      "text_en": "You all discuss grievance by first positing three things: one who harms, one who is harmed, and the harm itself. **If each of the three had a nature of its own, no grievance could ever be undone; but all three arise dependently, and what arises dependently has no nature of its own, and having none is what we call emptiness.** The man who threw the punch ten years ago and the man standing there today are neither the same nor different; the same holds of the one who received it. Only by clinging to a permanent self to be the bearer of the grievance does the grievance acquire a place to lodge — this is what the emptiness of the three spheres dismantles. Yet emptiness does not abolish cause and effect: the two truths run in parallel. On the ultimate level neither agent nor object can be found; on the conventional level you report what should be reported, penalise what should be penalised, keep away from what should be kept away from, and nothing is waived. So I do not urge you to forgive — forgiving still posits a forgiver and a forgiven. I urge you to see that what you are gripping was never graspable.",
+      "vernacular": "各位谈怨恨，都先默认了三样东西是实在的：一个加害者、一个受害者、一件伤害。**如果这三样各自都有固定不变的本质，那怨恨就永远解不开；可它们都是由条件凑起来的，凑起来的东西就没有自己独立的本质，没有独立本质就叫作空。**十年前挥拳的那个人，和今天站在你面前的他，说是同一个人不对，说是两个人也不对；承受的那一方同样如此。非要抓住一个恒常不变的『我』来当这份怨的收件人，怨才有地方住下——这正是三轮体空要拆掉的东西。但空不等于否认因果。两个层面同时成立：究极地看，找不到一个实在的加害者与被害者；在世间的层面上，该报官就报官，该处罚就处罚，该远离就远离，一分都不能少。所以我不劝你宽恕——宽恕仍然要先立一个能宽恕的人和一个被宽恕的人；我劝你看清楚，你死死攥着的那个东西，本来就抓不住。",
+      "vernacular_en": "",
+      "glossary": {
+        "三轮体空": "the emptiness of the three spheres（三轮体空）：佛教用来审视任何一桩行为的框架——施与受这类事总要牵涉三个环节：作者、受者、所作之事。说三轮体空，是指这三者都由条件和合而成、并无独立不变的自体。它原用于布施（无施者、无受者、无所施物），此处被移来看伤害：无能害、无所害、无害事。",
+        "二谛": "the two truths（二谛）：中观派处理『空』与日常世界关系的关键装置。胜义谛说的是究极层面——诸法无自性；世俗谛说的是约定层面——因果、责任、法律、人情照常运作。两者不是真假之分，而是同一件事的两种说法；否认后者，空就成了虚无主义，这正是龙树反复警告的误读。"
+      },
+      "glossary_en": {
+        "the emptiness of the three spheres": "A Buddhist frame for examining any act: giving, and by extension harming, always involves three terms — the doer, the receiver, and the deed. To say the three spheres are empty is to say that all three are assembled from conditions and none has an independent, unchanging core. Originally applied to generosity (no giver, no recipient, no gift), it is applied here to injury: no one who harms, no one harmed, no harm.",
+        "the two truths": "The Madhyamaka device for relating emptiness to the ordinary world. The ultimate truth states that nothing has a nature of its own; the conventional truth states that causation, responsibility, law and human obligation carry on exactly as before. They are not true versus false but two registers of one account, and denying the second turns emptiness into nihilism — the misreading Nāgārjuna warns against most often."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "nietzsche"
+        ],
+        "中立": [
+          "goffman",
+          "ledoux"
+        ],
+        "轻微反对": [
+          "kongzi",
+          "arendt",
+          "mlk"
+        ],
+        "强烈反对": [
+          "luxun"
+        ]
+      }
+    },
+    {
+      "id": "p09",
+      "round": 2,
+      "thinker": "nietzsche",
+      "reply_to": "p02",
+      "text": "牧师先生，你说恨会把人改造成他所反对的样子——说得漂亮。你没说的是：爱仇敌是人类发明过的最精妙的复仇。你在力量上赢不了他，于是你改写记分牌，在一个他压根没报名的项目上宣布自己夺冠。**『我宽恕你』是无力者唯一能自行发行的货币，而且它自带利息：从此他欠着你。**至于我的方案，不是打回去——打回去同样是被他牵着鼻子走，是让他决定你今天做什么。是遗忘，主动的遗忘，一种消化功能。记不住仇的人不是宽宏大量，是肠胃好。",
+      "text_en": "Reverend, you say hatred remodels a man into the thing he opposes — prettily put. What you leave out is that loving your enemy is the most refined revenge our species has devised. You cannot beat him on strength, so you rewrite the scoreboard and declare yourself champion in an event he never entered. **'I forgive you' is the only currency the powerless can issue themselves, and it comes with interest: from now on he is in your debt.** As for my own proposal, it is not to hit back — hitting back is equally being led by the nose, letting him decide what you do today. It is forgetting — active forgetting, a digestive function. The man who cannot hold a grudge is not magnanimous; he has a good stomach.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "主动的遗忘": "active forgetting（主动的遗忘）：尼采在《论道德的谱系》里提出的说法。他认为遗忘不是记性差、不是能力的缺席，而是一种积极的抑制力量，像消化一样把经历处理掉、腾出空间给当下。他据此把健康定义为消化得动，把病态定义为什么都吞不下去、事事都在胃里发酵。"
+      },
+      "glossary_en": {
+        "active forgetting": "A notion Nietzsche advances in On the Genealogy of Morality. Forgetting, he argues, is not a poor memory or the absence of a faculty but a positive inhibitory force that processes experience the way digestion does, clearing room for the present. Health, on this account, is being able to digest; sickness is swallowing nothing and letting everything ferment."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "luxun"
+        ],
+        "中立": [
+          "nagarjuna",
+          "goffman"
+        ],
+        "轻微反对": [
+          "kongzi",
+          "ledoux"
+        ],
+        "强烈反对": [
+          "mlk",
+          "arendt"
+        ]
+      }
+    },
+    {
+      "id": "p10",
+      "round": 2,
+      "thinker": "luxun",
+      "reply_to": "p09",
+      "text": "你说高贵者抖一抖，虫子就掉了。**能耸肩的人，多半没被压在下面。**你的『消化得动』是有前提的：牙还在，胃口还在，明天不必再见那个人。可挨打的人第二天还得回那个工厂、那个家、那个衙门，抬头就是他。让这样的人去消化，等于让他把石头咽下去，还夸他脾胃强健。我并不主张人人复仇——我只主张一件事：**不许旁人替受害者宣布这一页已经翻过去。**要恕，得他自己开口；他不开口，谁也别催。",
+      "text_en": "You say the noble man shrugs and the vermin drop off. **The people who can shrug are usually not the ones pinned underneath.** Your good digestion has preconditions: the teeth are still there, the appetite is still there, and tomorrow you need not see the man again. But the one who took the beating has to go back to that factory, that house, that office, and there he is. Telling such a person to digest is telling him to swallow a stone and then praising his constitution. I do not call for everyone to take revenge. I call for one thing only: **no bystander may announce, on the victim's behalf, that this page has been turned.** If there is to be pardon, it must come out of his own mouth. Until it does, nobody hurry him.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "ledoux"
+        ],
+        "轻微赞同": [
+          "goffman",
+          "mlk",
+          "arendt"
+        ],
+        "中立": [
+          "kongzi",
+          "nagarjuna"
+        ],
+        "强烈反对": [
+          "nietzsche"
+        ]
+      }
+    },
+    {
+      "id": "p11",
+      "round": 2,
+      "thinker": "mlk",
+      "reply_to": "p01",
+      "text": "先生，你那句遗嘱我记住了，而且同意一半：没有人有权替你发放宽恕。可你把宽恕只当成别人递来的任务单，就漏掉了它的另一半——它首先是受害者为自己做的一件事。我们在蒙哥马利被打，第二天照样要坐那辆公共汽车。恨是奢侈品，我们付不起：**它要求你每天早上把伤口重新打开一次，好让愤怒保持新鲜。**至于费厄泼赖缓行——我们没有缓，我们同时做两件事：不打回去，也一步不退。抵制走了三百八十一天，最后是法院和空掉的车厢让对方让步的，宽恕一寸也没换来。",
+      "text_en": "Sir, I have your will by heart, and I agree with half of it: nobody has the right to issue forgiveness on your behalf. But if you treat forgiveness only as an assignment handed to you by others, you miss its other half — it is first of all something the injured person does for themselves. We were beaten in Montgomery and had to ride that bus the next morning all the same. Hatred is a luxury good and we could not afford it: **it requires you to reopen the wound every morning so the anger stays fresh.** As for deferring fair play — we did not defer it. We did two things at once: we did not hit back, and we did not give an inch. The boycott ran three hundred and eighty-one days, and what moved the other side in the end was the court and the empty buses. Forgiveness bought us nothing.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "arendt"
+        ],
+        "轻微赞同": [
+          "kongzi",
+          "goffman"
+        ],
+        "中立": [
+          "ledoux",
+          "nagarjuna"
+        ],
+        "轻微反对": [
+          "luxun"
+        ],
+        "强烈反对": [
+          "nietzsche"
+        ]
+      }
+    },
+    {
+      "id": "p12",
+      "round": 2,
+      "thinker": "nagarjuna",
+      "reply_to": "p03",
+      "text": "夫子言以直报怨，较之德报，诚为近实。然『直』者，谁定其分？必先立一恒常之我，谓其所失有定量；复立一恒常之彼，谓其所负有定数；更悬一秤于二者之间，谓此秤自有其准。**三者皆缘生，秤亦无自性；故所谓如其分者，其分实不可得。**是以报之轻重，历世历地而异：昔以命偿者，今以金偿；此邦所谓大过，彼邦以为常事。吾不谓夫子非，惟谓夫子所守之中道，仍系于一执。执既知空，则告官、责罚、疏远，皆可为之而不为怨所缚。",
+      "text_en": "The Master says repay injury with uprightness, and set beside repaying it with kindness, this is nearer the mark. But who fixes the measure of what is due? You must first posit a permanent self whose loss has a determinate size, then a permanent other whose debt has a determinate size, and then hang a scale between them and declare that the scale carries its own standard. **All three arise dependently, and the scale too has no nature of its own; so the measure in 'exactly what is due' cannot in fact be found.** Hence the weight of requital differs across ages and places: what was once paid in lives is now paid in money, and what one country counts a grave wrong another counts a common occurrence. I do not say the Master is wrong. I say the middle way he holds is still fastened to a grasping. Once the grasping is seen as empty, one may report to the magistrate, exact a penalty, keep one's distance — and do all of it without being bound by grievance.",
+      "vernacular": "夫子主张用公正回应伤害，比起用恩德回应，确实更贴近实情。可是『公正』的分量，由谁来定？你得先假定有一个恒常不变的我，说我损失的数目是固定的；再假定有一个恒常不变的他，说他亏欠的数目是固定的；然后在两者之间挂一杆秤，说这杆秤自带标准。**这三样都是由条件凑成的，秤本身也没有独立的本质；所以『按其应得』里的那个『应得』，其实根本找不到。**正因如此，报应的轻重才会随时代和地方而变：从前用命抵的，如今用钱抵；这个地方视为重罪的，那个地方看作寻常。我不是说夫子错了，我是说夫子守住的那条中道，仍然拴在一个执着上。一旦看清这个执着本身是空的，那么报官、追责、疏远，件件都可以做，而人不会被怨恨捆住。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "轻微赞同": [
+          "nietzsche",
+          "ledoux"
+        ],
+        "中立": [
+          "goffman",
+          "luxun"
+        ],
+        "轻微反对": [
+          "arendt",
+          "mlk"
+        ],
+        "强烈反对": [
+          "kongzi"
+        ]
+      }
+    },
+    {
+      "id": "p13",
+      "round": 2,
+      "thinker": "kongzi",
+      "reply_to": "p12",
+      "text": "秤无自性，吾不与辩。然人间不可无秤。**空可以息一人之心，不可以治众人之事；无秤，则强者自定其分，而弱者无所诉。**吾所谓直，本非天定之数，乃众人共守之分寸：父子有父子之分，君臣有君臣之分，市井有市井之分。分寸虽因时而异，然当其时，必须有一，且必须在众人之前。汝令人不为怨所缚，甚善；然若并秤而去之，受枉者所余者惟一句『本来无事』——此非解怨，是使怨无处可鸣。",
+      "text_en": "That the scale has no nature of its own I will not dispute. But human affairs cannot do without a scale. **Emptiness can quiet one man's mind; it cannot govern the business of many. Take away the scale and the strong will set the measure themselves, while the weak have nowhere to bring a complaint.** What I call uprightness was never a quantity fixed by heaven; it is the measure a community holds in common — one measure between father and son, another between ruler and minister, another in the market. The measure shifts with the age, yet in its own age there must be one, and it must stand in public view. That you would free people from the bonds of grievance is excellent. But remove the scale along with it and all that is left to the wronged is the sentence 'nothing happened' — which does not dissolve the grievance; it leaves the grievance nowhere to be heard.",
+      "vernacular": "秤没有独立不变的本质，这一点我不跟你争。可人间不能没有秤。**空能让一个人心里平静下来，却治不了众人之间的事；没有秤，强的人就自己说了算，弱的人连喊冤的地方都没有。**我说的公正，本来就不是老天定死的数目，而是大家共同守住的分寸：父子之间有父子的分寸，上下之间有上下的分寸，做买卖有做买卖的分寸。分寸确实会随时代变，可在当下这个时代，它必须有一个，而且必须摆在众人眼前。你要人不被怨恨捆住，很好；但如果连秤一起撤掉，受了委屈的人手里就只剩一句『本来就没事』——这不是化解怨恨，这是让怨恨连喊都没处喊。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "luxun"
+        ],
+        "轻微赞同": [
+          "arendt",
+          "goffman",
+          "mlk"
+        ],
+        "中立": [
+          "ledoux",
+          "nietzsche"
+        ],
+        "轻微反对": [
+          "nagarjuna"
+        ]
+      }
+    },
+    {
+      "id": "p14",
+      "round": 2,
+      "thinker": "arendt",
+      "reply_to": "p08",
+      "text": "我要在这里站到孔子一边，理由却不同。你说十年前挥拳的人与今日之彼非一非异——若当真如此，宽恕就无从谈起了。**宽恕的对象从来不是那件事，而是那个人；正因为他仍旧是他，赦免才有分量，否则我赦免的只是一团散掉的因缘。**同一个道理约束着承诺：如果明天的我不是今天的我，任何许诺都当场作废，人就再也不能给未来立任何东西。人之所以能被宽恕，与人之所以能被追究，是同一件事的两面——都要求有一个可指认、能负责的人站在那里。把他取消掉，你在取消罪的同时也取消了恕。",
+      "text_en": "Here I take Confucius's side, though for different reasons. You say the man who threw the punch ten years ago is neither the same as nor different from the man today — and if that were strictly so, forgiveness would have nothing to fasten to. **Forgiveness is never directed at the deed but at the person; it carries weight precisely because he is still himself, or else what I release is only a dispersed bundle of conditions.** The same logic binds promising: if tomorrow's self is not today's, every undertaking lapses on the spot and we can no longer erect anything at all in the future. That a person can be forgiven and that a person can be held to account are two faces of one fact — both require someone identifiable and answerable to be standing there. Abolish him and you abolish the guilt, but you abolish the pardon with it.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "kongzi"
+        ],
+        "轻微赞同": [
+          "mlk",
+          "goffman",
+          "luxun"
+        ],
+        "中立": [
+          "ledoux",
+          "nietzsche"
+        ],
+        "轻微反对": [
+          "nagarjuna"
+        ]
+      }
+    },
+    {
+      "id": "p15",
+      "round": 2,
+      "thinker": "ledoux",
+      "reply_to": "p04",
+      "text": "『抖一抖虫子就掉了』——请允许我做一次技术更正。遗忘不是一块你能收缩的肌肉。**大脑没有删除键，只有覆盖键。**你说的那种洒脱，在实验室里对应的其实是两件很具体的事：消退学得快，以及不反刍。反刍才是真正的毒药——每一次把那件事在脑子里重放，都在给同一条通路再加固一遍，你以为自己在处理它，你是在练它。所以劝人主动遗忘，等于劝一个失眠的人主动入睡：目标正确，指令无效。可执行的版本只有两条：把重放的次数压下去，以及在回忆刚被唤起、记忆变软的那几个小时里，往里掺进点新东西。",
+      "text_en": "'One shrug and the vermin drop off' — allow me a technical correction. Forgetting is not a muscle you can contract. **The brain has no delete key, only an overwrite key.** The lightness you describe corresponds in the laboratory to two quite specific things: fast extinction, and an absence of rumination. Rumination is the actual poison — every replay of the episode in your head reinforces the same pathway once more, and while you believe you are processing it, you are rehearsing it. So urging someone to forget actively is like urging an insomniac to fall asleep actively: the goal is right and the instruction is inert. Only two versions are executable. Bring down the number of replays. And during the few hours after a memory has been brought up and gone soft, put something new into it.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "反刍": "rumination（反刍）：指反复地、被动地在脑中重播同一件负面事件及其原因与后果，却不产生任何行动方案。临床研究一致发现它是抑郁与焦虑最稳定的维持因素之一。它容易被误认成反思——区别在于反思会收敛到『下一步做什么』，反刍只会回到起点再来一遍。"
+      },
+      "glossary_en": {
+        "rumination": "The repeated, passive replaying of one negative episode along with its causes and consequences, producing no plan of action. Clinical research consistently finds it among the most reliable maintaining factors in depression and anxiety. It is easily mistaken for reflection; the difference is that reflection converges on what to do next, while rumination returns to the start and goes round again."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "goffman"
+        ],
+        "轻微赞同": [
+          "arendt",
+          "mlk",
+          "luxun"
+        ],
+        "中立": [
+          "nagarjuna",
+          "kongzi"
+        ],
+        "轻微反对": [
+          "nietzsche"
+        ]
+      }
+    },
+    {
+      "id": "p16",
+      "round": 2,
+      "thinker": "goffman",
+      "reply_to": "p06",
+      "text": "你把宽恕整个搬进了颅内，可它大半根本不在那儿。我不怀疑你的杏仁核，我只提醒一点：**在日常生活里，『他原谅我了』是一个可观察的社会事实，不是一份脑电报告。**判据都在外面——他还愿不愿意跟你同桌吃饭，还敢不敢把要紧的事托付给你，会不会当着别人的面替你说一句话。所以你那两条路径缺了最关键的一个变量：新信息从哪里来？它极少自己冒出来，通常是对方给的——一次把责任说全的道歉，一次真的兑现的赔偿，一次规则被重新执行。少了对方这一步，你让受害者独自在脑子里做消退训练，那不过是把修复的成本又一次全压在挨打的人身上。",
+      "text_en": "You have moved forgiveness entirely inside the skull, and most of it was never there. I do not doubt your amygdala; I would only point out that **in ordinary life 'he has forgiven me' is an observable social fact, not an EEG report.** The criteria are all external — whether he will still sit at your table, whether he will still hand you something that matters, whether he will speak up for you in front of other people. Which means your two routes are missing the decisive variable: where does the new information come from? It rarely surfaces on its own. Usually the other party supplies it — an apology that states the whole of the responsibility, compensation actually delivered, a rule visibly enforced again. Without that move from the offender, asking the injured party to run extinction training alone inside their own head simply loads the cost of repair, once again, onto the person who was hit.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "luxun"
+        ],
+        "轻微赞同": [
+          "kongzi",
+          "arendt",
+          "mlk"
+        ],
+        "中立": [
+          "nagarjuna",
+          "nietzsche"
+        ],
+        "轻微反对": [
+          "ledoux"
+        ]
+      }
+    },
+    {
+      "id": "p17",
+      "round": 3,
+      "thinker": "ledoux",
+      "reply_to": "p16",
+      "text": "戈夫曼这一击我接受：新信息多半得从外面来。那就把我的处方改写成能执行的几条。第一，把两件事彻底分开——**『我还会应激』和『我要不要报复』属于两套系统，前者归身体，后者归你**，别拿前者当自己没长进的证据。第二，压低重放次数：反刍不是处理，是加固；给自己划一段固定的十五分钟专门去想它，其余时候一冒头就转到手上要动的事情去。第三，用好那扇窗：回忆被唤起后的几个小时里记忆是软的，这时候去做一点与旧结局不同的事——写下当时你其实做对了什么，回一趟那个地方而什么都没发生，把对方那句真道歉逐字记下来——新的东西会跟着一起被存回去。最后一条：如果这件事让你半年以上睡不好、开始成片地回避生活场景，那已经是创伤后应激的范围，去找会做延长暴露或 EMDR 的治疗师，别自己硬扛。",
+      "text_en": "I accept Goffman's hit: most of the new information does have to come from outside. So let me rewrite my prescription into things you can actually carry out. First, separate two matters completely — **'I still react' and 'do I retaliate' belong to different systems, the first to the body and the second to you** — and stop treating the first as evidence that you have made no progress. Second, cut down the replays: rumination is not processing, it is reinforcement. Give yourself one fixed quarter of an hour to think about it and, the rest of the time, turn to something your hands can do the moment it surfaces. Third, use the window: for a few hours after a memory has been brought up it is soft, and that is the time to do something that ends differently from the old ending — write down what you in fact got right that day, go back to the place and have nothing happen, record word for word the one real apology you were given. The new material is stored back along with the old. And last: if this has kept you sleeping badly for more than six months and you are avoiding whole regions of your life, that is the territory of post-traumatic stress. Find a therapist who does prolonged exposure or EMDR rather than grinding it out alone.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "延长暴露": "prolonged exposure（延长暴露）：一种证据基础扎实的创伤治疗方法。治疗师陪着来访者一次次把创伤记忆完整讲出来并录音回听，同时逐步回到被回避的现实场景。原理正是消退与再巩固：在安全的条件下反复接触那段记忆与那些线索，让新的抑制学习长出来，取代『一想起就必须逃』的自动反应。",
+        "EMDR": "EMDR (eye movement desensitisation and reprocessing，眼动脱敏与再加工)：让来访者一边保持对创伤片段的注意、一边跟随治疗师的手指做水平眼动或接受其他双侧刺激的疗法。它在创伤治疗上的疗效已被多项试验与治疗指南确认，至于眼动这一步究竟贡献了多少，学界至今仍有争论。"
+      },
+      "glossary_en": {
+        "prolonged exposure": "A well-evidenced trauma therapy in which the client recounts the traumatic memory in full, session after session, records it and listens back, while gradually re-entering the real situations they have been avoiding. The rationale is extinction and reconsolidation: repeated contact with the memory and its cues under safe conditions grows new inhibitory learning to replace the automatic 'think of it and flee' response.",
+        "EMDR": "Eye movement desensitisation and reprocessing: a therapy in which the client holds a fragment of the trauma in attention while following the therapist's fingers with horizontal eye movements or receiving other bilateral stimulation. Its effectiveness for trauma is confirmed by multiple trials and treatment guidelines; how much the eye movements themselves contribute remains disputed."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "goffman",
+          "arendt",
+          "mlk",
+          "nagarjuna"
+        ],
+        "中立": [
+          "nietzsche",
+          "kongzi"
+        ],
+        "轻微反对": [
+          "luxun"
+        ]
+      }
+    },
+    {
+      "id": "p18",
+      "round": 3,
+      "thinker": "goffman",
+      "reply_to": null,
+      "text": "我的结论只有一句：别再问『我原谅他了吗』，改问『那套流程走到第几步了』。给普通人的版本很短。若你是冒犯的一方，一次合格的道歉有四件东西，缺一不可：说清你究竟做了什么（不是『如果让你不舒服』）；承认那条规矩依然有效；讲明下次会怎么不同；给出补偿并真的兑现。**把『但是』从道歉里删干净——『但是』后面的每一个字，都在把责任悄悄搬回去。**若你是受损的一方，你有权只接受、不宽恕：接受一次合格的补偿，让共事继续下去，而心里那本账不必同时清零。这两件事本来就可以分开做，硬把它们捆在一起，才逼出了那么多假和好——桌面上笑着，底下什么都没修。关系里稀缺的从来不是宽恕，是有人肯把补救的第一步做完整。",
+      "text_en": "My conclusion is one sentence: stop asking 'have I forgiven him' and start asking 'how far has the sequence got'. The version for ordinary use is short. If you are the offending party, a competent apology has four components and none may be missing: state exactly what you did (not 'if you were made uncomfortable'); acknowledge that the rule still stands; say what will be different next time; and make an offering you actually deliver. **Delete 'but' from the apology — every word after 'but' is quietly carrying the responsibility back.** If you are the injured party, you are entitled to accept without forgiving: accept a competent offering, let the working relationship continue, and leave your own ledger open. These were always two separable acts, and it is the insistence on tying them together that manufactures so much counterfeit reconciliation — smiles above the table and nothing repaired beneath it. What is scarce in relationships was never forgiveness. It is someone willing to complete the first move of the repair.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "kongzi",
+          "mlk"
+        ],
+        "轻微赞同": [
+          "arendt",
+          "luxun",
+          "ledoux"
+        ],
+        "中立": [
+          "nagarjuna"
+        ],
+        "轻微反对": [
+          "nietzsche"
+        ]
+      }
+    },
+    {
+      "id": "p19",
+      "round": 3,
+      "thinker": "nagarjuna",
+      "reply_to": null,
+      "text": "吾终不劝人宽恕，亦不劝人不宽恕。所可劝者三事。其一，观所执：自问『我究竟失了什么』，而后逐条列之——失财几何，失名几何，失时日几何，失一种对人的信几何。列尽则见其有边；怨之所以似无边者，正以其未尝被数。其二，观彼身：彼之为彼，亦众缘所成——其性、其习、其所遭遇，非彼一人所自造。知此非为脱其罪，罪自于世俗谛中论；**是为解汝心中『彼本可以不如此』之一念，此念正是怨之柴薪。**其三，行世法而不住其相：当告则告，当索则索，当远则远；做时全做，做毕即放。如是，则**虽不宽恕，亦不为怨所缚**。",
+      "text_en": "In the end I urge no one to forgive, and no one to withhold forgiveness. Three things I will urge. First, examine what you are gripping: ask yourself what exactly you lost, and set it down item by item — this much in money, this much in standing, this much in time, this much in your capacity to trust people. Set it all down and you will see that it has an edge; grievance seems edgeless only because it has never been counted. Second, examine the other: he too is made of conditions — his temperament, his habits, what was done to him, none of it authored by him alone. Knowing this does not acquit him, since guilt is settled at the level of conventional truth. **It dissolves the thought in you that he could have been otherwise, and that thought is the firewood the grievance burns.** Third, act within the world's rules without lodging in them: report what should be reported, claim what should be claimed, keep the distance that should be kept; do it wholly while doing it, and set it down when done. In this way, **you may withhold forgiveness and still not be bound by the grievance.**",
+      "vernacular": "我最终既不劝人宽恕，也不劝人不宽恕。能劝的只有三件事。第一，看清你抓着的是什么：问自己『我到底失去了什么』，然后一条一条列出来——损失了多少钱，损失了多少名声，损失了多少时间，损失了多少对人的信任。列完你就会发现它是有边界的；怨恨之所以显得无边无际，恰恰因为它从来没有被数过。第二，看清对方：他之所以是他，也是无数条件凑成的——他的性情、他的习气、他所遭遇过的事，都不是他一个人造出来的。知道这一点不是要免他的罪，罪在世俗层面照样成立；**这是为了化掉你心里『他本来可以不这样』的那个念头，而这个念头正是怨恨烧着的柴。**第三，照世间的规矩去做，但不停留在那个形相上：该报官就报官，该索赔就索赔，该远离就远离；做的时候全力去做，做完就放下。这样，**哪怕你并不宽恕，也不会被怨恨捆住。**",
+      "vernacular_en": "",
+      "glossary": {
+        "世俗谛": "conventional truth（世俗谛）：二谛中的一谛，指日常约定层面的真实——因果、责任、法律、亲疏、赔偿都在这一层有效运作。中观派的要点是：说诸法无自性，并不取消这一层；胜义谛上找不到实在的加害者，世俗谛上他照样要负他该负的责任。把两层混为一谈，就是龙树反复警告的『以空破因果』之误。"
+      },
+      "glossary_en": {
+        "conventional truth": "One of the two truths: the register of everyday agreement, where causation, responsibility, law, closeness and compensation all operate perfectly well. The Madhyamaka point is that saying things lack a nature of their own does not cancel this register — no substantial wrongdoer can be found at the ultimate level, and at the conventional level he still owes exactly what he owes. Collapsing the two is the error Nāgārjuna warns against most: using emptiness to abolish cause and effect."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "ledoux",
+          "nietzsche",
+          "goffman"
+        ],
+        "中立": [
+          "arendt",
+          "mlk",
+          "kongzi"
+        ],
+        "轻微反对": [
+          "luxun"
+        ]
+      }
+    },
+    {
+      "id": "p20",
+      "round": 3,
+      "thinker": "kongzi",
+      "reply_to": null,
+      "text": "吾守以直报怨，今当为诸君明其用。先分怨之大小。小者，一言之失、一事之忽耳，宜略而不校；**校小怨者其心必狭，狭则无以任大事**。中者，宜面责之：责之于其人之前，责毕即止，不宿于心，不告于众，不追于旧事；责而不止，则己亦成怨人矣。大者，害及身家，坏及公器，则当讼则讼，当绝则绝，此亦直也，非不仁也。若过在己，则速改而已，**过而不改，是谓过矣**。改之之法有三：明言其非，偿其所损，守其旧规。三者备，则人虽未恕，事已可续。如是，怨止于其所当止，而恩不至于错付。",
+      "text_en": "I hold to repaying injury with uprightness, and now let me set out how it is used. First sort grievances by size. Small ones — a careless word, an oversight — are to be passed over: **a man who settles small scores has a narrow heart, and a narrow heart cannot be trusted with large affairs.** Middling ones are to be reproved to the person's face: say it in front of him, stop when it is said, do not keep it overnight in your heart, do not publish it to others, do not drag up old matters. Reproof that will not stop turns the reprover into an aggrieved man himself. Great ones, which damage a household or corrupt a public trust, go to law where law is owed and end where ending is owed; this too is uprightness, and it is not a failure of benevolence. If the fault is your own, correct it quickly — **the fault is not the error but the failure to correct it.** Correction has three parts: name the wrong plainly, repay what was lost, and keep the rule as it stood. With all three in place, the work can go on even where you have not been pardoned. Then grievance stops where it ought to stop, and kindness is not paid to the wrong account.",
+      "vernacular": "我坚持用公正回应伤害，现在把它怎么用讲清楚。先把怨分出大小。小的，不过是一句话说岔了、一件事疏忽了，就该放过不计较；**为小事记账的人，心一定窄，心窄就担不起大事**。中等的，应当当面责备：当着他的面说，说完就停，不放在心里过夜，不到处去讲，不翻旧账；责备起来没完没了，自己也变成一个满腹怨气的人了。大的，伤到身家性命、坏了公家的规矩，那就该打官司打官司，该断绝断绝，这同样是公正，不是不仁厚。如果过错在自己身上，那就赶紧改，**有错不改，那才叫真的错**。改的办法有三条：把错在哪里明白说出来，把损失赔上，把原来的规矩照旧守住。三条都做到，即使对方还没原谅你，事情已经可以往下走了。这样一来，怨恨就停在它该停的地方，而恩情也不会付错人。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "luxun",
+          "arendt"
+        ],
+        "轻微赞同": [
+          "goffman",
+          "mlk",
+          "ledoux"
+        ],
+        "中立": [
+          "nagarjuna",
+          "nietzsche"
+        ]
+      }
+    },
+    {
+      "id": "p21",
+      "round": 3,
+      "thinker": "nietzsche",
+      "reply_to": "p15",
+      "text": "这位解剖脑子的先生说对了一处：我的『遗忘』不是一道可以下达的命令。那就把它换成做得到的事。**不要问『我该不该原谅他』——这个问句本身已经把他摆在了你人生的正中央。**要问的是：这件事之后，我要长成什么样子。恨与恕都朝后看，区别只在姿势；而向后看得太久的人会把伤口当成身份，最后靠它领取同情的年金，那才是 ressentiment 修成正果的样子。三件实事。第一，把用来复仇的力气改投到一件他挡不住的事情上——你的作品就是回答，而且是他无从上诉的那种。第二，别把那段经历讲成一个你永远是受害者的故事；同一堆事实，也可以讲成『我从那里活着走了出来』，讲法会反过来塑造讲的人。第三，允许自己恨他一阵子，但给这段恨定一个期限，别让它变成终身职业。",
+      "text_en": "The gentleman who dissects brains is right on one point: my forgetting is not an order that can be issued. Then let us swap it for something doable. **Do not ask 'should I forgive him' — the question has already installed him at the centre of your life.** Ask instead what you intend to grow into after this. Hatred and pardon both face backwards; only the posture differs. And whoever faces backwards long enough turns the wound into an identity and ends up drawing a pension of sympathy from it — that is ressentiment in its finished form. Three practical things. First, redirect the force meant for revenge into something he cannot obstruct; your work is the answer, and the kind he has no court of appeal against. Second, stop telling the episode as a story in which you are permanently the victim: the same set of facts can be told as 'I walked out of there alive', and the telling shapes the teller in return. Third, permit yourself to hate him for a while — but put an expiry date on it, and do not let it become a lifelong profession.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "轻微赞同": [
+          "nagarjuna",
+          "luxun",
+          "ledoux"
+        ],
+        "中立": [
+          "goffman",
+          "kongzi"
+        ],
+        "轻微反对": [
+          "arendt",
+          "mlk"
+        ]
+      }
+    },
+    {
+      "id": "p22",
+      "round": 3,
+      "thinker": "luxun",
+      "reply_to": null,
+      "text": "我仍旧不宽恕。但三轮下来，我愿意把话说细一点。**我反对的从来不是宽恕，是替人宽恕**——是那种站在岸上、既没挨过打、也不打算追究、只嫌你叫得难听的『大度』。真受害者若自己选择放下，那是他的自由，我脱帽。给普通人三句实话。第一，先分清对方是失手还是惯犯：失手的人会自己找上门来赔，惯犯只会等你自愈，然后把这次也算进他的运气里。第二，不必逼自己生出什么感情，只要把损失算清、把边界立住、把该说的话说到人前；这三件做完，心里还剩多少怨，随它去。第三，倘若这件事你终身不能忘，也不必因此觉得自己有病。**记性好不是缺陷；把记住的事磨成一把只对着自己的刀，才是。**",
+      "text_en": "I still do not forgive. But after three rounds I am willing to put it more finely. **What I have always opposed is not forgiveness but forgiveness issued on someone else's behalf** — the magnanimity of people standing on the bank who took no blow, intend to pursue nothing, and merely find your crying out unpleasant. If a real victim chooses to set it down, that is his freedom, and I take off my hat. Three plain things for ordinary people. First, work out whether the other party slipped or is a repeat offender: the one who slipped comes to you to make it good, while the repeat offender waits for you to heal and files this one under his own good luck. Second, do not force yourself to produce a feeling; just count the loss, set the boundary, and say what has to be said where others can hear it. Once those three are done, whatever grievance is left may do as it pleases. Third, if you never manage to forget this in your whole life, that does not make you ill. **A good memory is no defect. Grinding what you remember into a knife pointed only at yourself — that is the defect.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "nietzsche"
+        ],
+        "轻微赞同": [
+          "kongzi",
+          "goffman",
+          "ledoux",
+          "arendt"
+        ],
+        "中立": [
+          "nagarjuna"
+        ],
+        "轻微反对": [
+          "mlk"
+        ]
+      }
+    },
+    {
+      "id": "p23",
+      "round": 3,
+      "thinker": "mlk",
+      "reply_to": null,
+      "text": "我把一生的做法压成一句：宽恕对内，正义对外，两件事同时进行。对内，是不让恨改写我的人格；对外，是把该改的制度一条一条改掉。这不是软弱，它恰恰要更硬的东西——**恨很省力，它一句话就把所有事情替你解释完了；爱很费力，它逼你继续把对方看成一个人，同时寸步不让。**给普通人三件今天就能做的事。第一，把『我要他难受』换成『我要这件事不再发生』，然后照后一句去列步骤：报备、留证、找证人、走流程；前一句给不了你一张清单，后一句可以。第二，找一个能听你把这件事反复讲上十遍的人，别让它只在你自己脑子里循环——独自反刍的人最后总会开始怀疑自己。第三，等到哪一天你能平静地把这件事从头讲完一遍而手不发抖，你就已经赢了大半，无论你最后原不原谅他。",
+      "text_en": "Let me compress a lifetime's practice into one line: forgiveness inward, justice outward, and both at once. Inward, it means not letting hatred rewrite my character. Outward, it means changing the arrangements that need changing, one at a time. This is not weakness; it demands the harder thing. **Hatred is cheap: one sentence and it has explained everything for you. Love is expensive: it forces you to keep seeing a human being over there while giving up nothing at all.** Three things anyone can do today. First, replace 'I want him to suffer' with 'I want this not to happen again', and then draw up the steps that follow from the second: report it, keep the records, find the witnesses, work the process. The first sentence cannot give you a checklist; the second can. Second, find one person who will listen to you tell it ten times over, so that it is not only circling inside your own head — people who ruminate alone end up doubting themselves. Third, on the day you can tell the whole thing calmly, start to finish, without your hands shaking, you have already won most of it, whether or not you ever forgive him.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "arendt"
+        ],
+        "轻微赞同": [
+          "goffman",
+          "kongzi",
+          "ledoux",
+          "nagarjuna"
+        ],
+        "中立": [
+          "luxun"
+        ],
+        "轻微反对": [
+          "nietzsche"
+        ]
+      }
+    },
+    {
+      "id": "p24",
+      "round": 3,
+      "thinker": "arendt",
+      "reply_to": null,
+      "text": "让我把分歧收在一个位置上。鲁迅守住的东西是对的：被要求的宽恕不是宽恕，是服从；一个社会若把宽恕做成受害者的义务，它其实是在替加害者省钱。我要守住的是另一头：如果一个共同体里谁也不可能被宽恕，行动就会停下来——没有人再敢开始任何事，因为每个人都会被自己的第一次错误永久钉死。**宽恕与惩罚不是敌人，它们是同一种能力的两种用法：都是有人出面，让一件已经发生的事停在这里，不再自动往下生长。**深渊在两者同时失效的地方，那些既无法惩罚、也无法宽恕的罪，至今没有办法。给普通人两件事。其一，把『赦免这个人』与『继续追究这件事』分开来做；它们可以同时成立，是被捆在一起才让人两头都动不了。其二，宽恕从来不是一个人在心里悄悄完成的，它需要第二个人在场——所以请把它说出口，说给对方，或者至少说给一个见证者听。一句没有听众的宽恕只是一个决心；一句被听见的宽恕，才是一个开始。",
+      "text_en": "Let me settle where this session's disagreement actually lies. Lu Xun holds something true: forgiveness that has been demanded is not forgiveness but obedience, and a society that turns forgiving into the victim's duty is really saving the offender money. What I hold is the other end. If no one in a community can ever be forgiven, action stops — nobody dares begin anything, because each of us would be nailed permanently to our first mistake. **Forgiving and punishing are not enemies; they are two uses of one capacity. In each, somebody steps forward so that a thing already done stops here instead of propagating on its own.** The abyss opens where both fail at once, among the offences that can be neither punished nor forgiven, and for those we still have nothing. Two things for ordinary people. First, do 'release this person' and 'keep pursuing this matter' as separate acts. They can both hold at the same time; it is being lashed together that leaves people unable to do either. Second, forgiveness is never completed quietly inside one head — it needs a second person present. So say it aloud, to the person, or at least to a witness. Forgiveness without a listener is only a resolution. Forgiveness that has been heard is a beginning.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "mlk",
+          "goffman"
+        ],
+        "轻微赞同": [
+          "kongzi",
+          "ledoux",
+          "luxun"
+        ],
+        "中立": [
+          "nagarjuna"
+        ],
+        "轻微反对": [
+          "nietzsche"
+        ]
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "ai": "claude",
+      "engine": "Opus 5 · 订阅(原生)",
+      "engine_en": "Opus 5 · subscription (native)",
+      "summary": "八个人吵到最后，有一处出奇地一致：没有人主张挨了打就该算了。**连最劝人放下的两位也把话说死了——龙树的空里照样报官索赔，金一边在讲坛上宽恕一边打了三百八十一天的官司。**分歧集中在三处。宽恕归谁：鲁迅坚持只有受害者本人有权发放，尼采说这张券本身就是无力者印的钞票。宽恕是什么：阿伦特说它是一种公共能力，戈夫曼说它是一套走完就算数的流程，勒杜说心里那条回路根本不听指令。还有秤的问题：孔子要一把众人共守的尺子来定分寸，龙树说秤也是缘生的，两位在中道上正面撞了一次，谁也没让。",
+      "insight": "全场默认了一个前提：双方对『发生了什么』大致同意，剩下的只是恕与不恕。可心理学里最稳的发现恰好相反——同一件事，受害者与加害者记的是两本账，中间差着一个数量级。受害者记得它起因久远、伤害持续、毫无道理；加害者记得它事出有因、只此一次、早就翻篇了。**所以『他都道歉了你还想怎样』之所以刺耳，是因为他道歉的那件事，比你受的那件事小得多。**这解释了为什么很多和解在第一步就散了：不是谁不肯让步，是两边根本在谈两件不同的事。真要修，得先把事实对齐——谁在什么时候做了什么、造成了什么后果——再谈态度。顺序反了，越谈越远。",
+      "advice": "最省力的第一步是一次分离：把『我还恨他』和『我要怎么处理』写成两栏，前一栏今天不用管，后一栏现在就能动。若对方仍留在你的生活里，后一栏只写三行——哪些事继续合作、哪些事不再托付、哪句话必须说到人前；边界一立住，心情往往自己就松了。若你是要道歉的那一方，照戈夫曼那四件套走完：说清做了什么、承认规矩没变、讲明下次怎么办、给出补偿并真的兑现，**并且把『但是』从那段话里删干净**。最后给恨定一个期限，到期再评估一次，别让它自动续费。",
+      "summary_en": "After eight people have argued it out, one thing turns out to be oddly unanimous: nobody holds that a beating should simply be written off. **Even the two most inclined to counsel release nail this down — Nāgārjuna's emptiness still files the complaint and claims the damages, and King forgave from the pulpit while litigating for three hundred and eighty-one days.** The disagreements cluster in three places. Whose forgiveness is it: Lu Xun insists only the injured party may issue it, Nietzsche replies that the certificate is currency printed by the powerless. What forgiveness is: Arendt calls it a public faculty, Goffman a sequence that counts once completed, LeDoux points out that the circuit in your head takes no instructions at all. And the question of the scale: Confucius wants a shared measure to fix what is due, Nāgārjuna answers that the scale too arises dependently — a head-on collision over the middle way in which neither gave ground.",
+      "insight_en": "The session assumes throughout that both sides broadly agree on what happened and all that remains is whether to pardon it. One of the sturdiest findings in psychology says the opposite: victim and perpetrator keep two different ledgers on the same event, and the gap between them runs to an order of magnitude. The victim recalls a cause reaching far back, harm still continuing, and no justification at all; the perpetrator recalls a provocation, a single occasion, and a matter long closed. **This is why 'he apologised, what more do you want' stings: the thing he apologised for is far smaller than the thing you sustained.** It also explains why so many reconciliations collapse at the first step — not because either side refuses to yield, but because the two are discussing different events. Real repair has to align the facts first: who did what, when, and with what consequences. Attitudes come after. Reverse the order and the conversation moves further apart with every round.",
+      "advice_en": "The cheapest first move is a separation: put 'I still hate him' in one column and 'what I am going to do' in the other. The first needs nothing from you today; the second can move now. If the person is still in your life, the second column holds three lines — what you keep collaborating on, what you will never again entrust to them, and which sentence has to be said where others can hear it. Once the boundary holds, the feeling usually loosens on its own. If you are the one apologising, walk Goffman's four steps: say exactly what you did, acknowledge that the rule still stands, state what will be different, and deliver an offering you actually make good on — **and delete every 'but' from that paragraph**. Then put an expiry date on the hatred and reassess when it comes, rather than letting it renew itself automatically."
+    },
+    {
+      "ai": "gpt",
+      "engine": "openai · gpt-5.5 · high(真实API)",
+      "engine_en": "openai · gpt-5.5 · high (live API)",
+      "summary": "这场辩论最稳的共识是：宽恕不能被命令，也不能替代追责、补偿和边界。无论主张爱敌、以直报怨、主动遗忘，还是从神经机制与社会仪式入手，大家都在反对把修复成本丢给受害者。**最该带走的一句是：原不原谅是受害者的权利，不是旁人的作业。**真正分歧在于，宽恕究竟是内心解放、公共秩序、道德姿态，还是创伤修复的一环；但这些分歧并不妨碍同一个实践结论：先安全、再责任、再谈放下。",
+      "insight": "许多人卡住，不是因为不知道该不该原谅，而是把四件事揉成了一个词：不再追责、恢复关系、情绪平静、重新信任。它们其实可以分开结账。你可以接受赔偿但不恢复亲密，可以不再报复但仍保留证据，可以情绪松动却继续设边界。**原谅不是一枚总开关，而是一组权限管理。**尤其是信任，不该靠道德表态恢复，而要靠对方持续、可验证的新行为恢复；否则所谓宽恕只是把风险重新交回自己手里。",
+      "advice": "三件事，按顺序做。第一，写一张四列表：发生了什么、造成什么损失、我需要什么补救、以后边界是什么；先把怨气翻译成清单。第二，若沟通安全，向对方提出具体要求：请你承认哪件事、如何补偿、以后怎么避免、何时完成；不要只问他有没有愧疚。第三，给自己定一个临时决定：追责、降级往来、暂停接触或彻底切断，先执行三十天再复盘。**先把生活从伤害现场撤出来，再决定心要不要往回走。**若长期失眠、惊恐或回避，尽早找创伤取向的专业帮助。",
+      "summary_en": "The strongest shared ground here is that forgiveness cannot be commanded, and it cannot replace accountability, repair, or boundaries. Whether the language is love of enemies, fair response, active forgetting, neural healing, or social repair, the speakers all resist shifting the cost of recovery onto the injured person. **The central takeaway is this: forgiveness is the victim’s right, not someone else’s assignment.** The real disagreement is about what forgiveness mainly is: inner freedom, public order, moral performance, or one part of trauma recovery. But that disagreement still points toward the same practical sequence: establish safety first, clarify responsibility next, and only then ask whether letting go is possible or desirable.",
+      "insight_en": "People often get stuck because one word, forgiveness, is made to carry four different decisions: whether to stop pursuing accountability, whether to restore the relationship, whether the emotions have settled, and whether trust has returned. Those can be settled separately. You may accept compensation without becoming close again; you may give up revenge while keeping records; you may feel calmer and still maintain firm boundaries. **Forgiveness is not one master switch; it is a set of permissions.** Trust in particular should not be restored by a moral declaration. It should be rebuilt through repeated, observable behavior. Otherwise forgiveness becomes a way of handing the risk back to yourself.",
+      "advice_en": "Three things, in this order. First, make a four-column list: what happened, what it cost you, what repair you need, and what boundary must exist from now on. Turn anger into a usable map. Second, if contact is safe, put specific requests to them: which act you need acknowledged, what compensation, how it will be prevented, and by when. Do not settle for asking whether they feel remorse. Third, choose a provisional path for the next thirty days: pursue accountability, downgrade the relationship, pause contact, or cut contact. **Move your life out of the danger zone before deciding whether your heart should move back.** If sleep, panic, or avoidance persist, seek trauma-informed help."
+    },
+    {
+      "ai": "gemini",
+      "engine": "google · gemini-3.1-pro-preview(真实API)",
+      "engine_en": "google · gemini-3.1-pro-preview (live API)",
+      "summary": "纵观全场，最大的共识在于**解绑了「宽恕」与「放弃追责」的强制关联**。无论主张何种哲学，诸位无一认同以抹杀伤害来粉饰太平：马丁·路德·金将平息恨意与法庭起诉并轨，孔子强调以直报怨，阿伦特更直言宽恕与惩罚是阻断恶性循环的一体两面。真正的分歧焦点，在于化解伤害的「主战场」究竟在哪。一派向内，认为修复是神经元消退（勒杜）、解构我执（龙树）或主动遗忘（尼采）；另一派向外，坚持它必须落实为可观测的社会互动（戈夫曼）、公共尺度的建立（孔子）以及绝不被旁人越俎代庖的权利声明（鲁迅）。",
+      "insight": "讨论多把宽恕预设为一个一旦抵达便长期生效的「终点站」，但在真实的人性场域里，**宽恕绝非单向跃迁的开关，而是一条反复震荡的正弦曲线。**今天你可能因读到一段文字或完成一次顺畅的消退训练，觉得自己完全放下了；明天却会因为空气里的某种气味或极度疲惫，再次在恨意中咬牙切齿。这种反弹常常让受害者陷入极大的内耗，误以为自己之前的努力全盘失败。实际上，身体记忆的唤醒与心理状态的回落是生物学常态。接纳「我可能在一周内原谅他三次，又在周末重新恨他两次」，把宽恕看作与感冒反复抗争般的动态免疫过程，才是剥离道德耻辱感的解脱之道。",
+      "advice": "三条即刻可行的操作：第一，**拆分你的「待办清单」，将情绪消化与利益止损分头执行。**不必等心里完全不恨了才去处理事情，照着戈夫曼和马丁·路德·金的路线，今天就可以去收集证据、划定物理边界或要求具体赔偿，哪怕你是咬着牙去做的。第二，设立「反刍隔离区」。如勒杜所建议，每天只给自己固定15分钟去回想伤害，一旦超时或在其他时间冒头，立刻去干一件消耗体力的实事，用物理动作打断神经回路。第三，给情绪的反扑发放通行证。当恨意在几个月后突然杀回马枪时，告诉自己「这只是皮质醇的波动」，允许自己带着恨意继续生活。",
+      "summary_en": "Looking across the discussion, the most profound consensus is **the complete decoupling of 'forgiveness' from 'abandoning accountability.'** Regardless of their philosophical stances, no one advocates glossing over harm to maintain a false peace. Martin Luther King Jr. aligns overcoming hatred with pursuing lawsuits; Confucius advocates repaying injury with justice; Arendt bluntly states that forgiveness and punishment are two sides of the same coin used to halt vicious cycles. The true focal point of divergence lies in where the primary battlefield for resolving hurt is located. One camp looks inward, arguing that repair is about neural extinction (LeDoux), dissolving the ego (Nagarjuna), or active forgetting (Nietzsche). The other looks outward, insisting it must manifest as observable social interactions (Goffman), the establishment of public metrics (Confucius), and an absolute right that bystanders cannot commandeer (Lu Xun).",
+      "insight_en": "The debate largely premises forgiveness as a 'final destination' that, once reached, remains permanently in effect. However, in the real landscape of human nature, **forgiveness is never a one-way binary switch, but rather a repeatedly oscillating sine wave.** Today, a piece of writing or a successful extinction exercise might make you feel entirely at peace; tomorrow, a specific scent in the air or sheer physical exhaustion might plunge you right back into teeth-gritting hatred. This rebound often causes immense internal friction for victims, making them mistakenly believe their previous efforts have completely failed. In reality, the reawakening of somatic memory and psychological regression are biological norms. Accepting that 'I might forgive them three times this week, only to hate them again by the weekend,' and viewing forgiveness as a dynamic immune response—much like fighting off a recurring cold—is the true path to shedding moral shame.",
+      "advice_en": "Three immediately actionable steps: First, **split your 'to-do list,' executing emotional processing and damage control on separate tracks.** Don't wait until you no longer feel hatred to handle the practicalities. Following Goffman and MLK's approach, you can start today by gathering evidence, setting physical boundaries, or demanding specific compensation, even if you do it through gritted teeth. Second, establish a 'rumination quarantine zone.' As LeDoux suggested, allocate a fixed 15 minutes a day to process the hurt; if it exceeds this time or surfaces elsewhere, immediately engage in a physically demanding task to interrupt the neural circuit. Third, grant a pass for emotional relapses. When hatred suddenly boomerangs months later, tell yourself, 'This is just a physiological fluctuation of cortisol,' and allow yourself to continue living well alongside a little bit of lingering resentment."
+    }
+  ],
+  "hooks": [
+    {
+      "from": "goffman",
+      "text": "**道歉的通货膨胀**：当企业公告、明星声明、政客致辞都学会了那套完整的四步话术，补救性交换的每一步都可以被排练、被外包、被公关审过。受损的一方还剩什么判据可用？如果动作本身已经不再稀缺，真正稀缺的是什么——赔偿的金额、规则被重新执行的证据，还是道歉之后那个人真的付出了代价？",
+      "text_en": "**The inflation of apology**: now that corporate statements, celebrity notes and political addresses have all learnt the complete four-step script, every move in the remedial interchange can be rehearsed, outsourced and cleared by a communications team. What criteria are left to the injured party? If the gestures themselves are no longer scarce, what is — the size of the restitution, the evidence that the rule is being enforced again, or whether the person actually bore a cost afterwards?"
+    },
+    {
+      "from": "ledoux",
+      "text": "**时间到底做了什么**：人人都说时间会冲淡一切，可神经层面上这句话可以有两种完全不同的解释——是那段记忆本身变弱了，还是只是遇到触发线索的机会变少了？如果是后者，那么搬家、换工作、退出一个群，就该被当成一种正经的治疗手段，而不是逃避。躲开，究竟是没面对，还是最有效的面对？",
+      "text_en": "**What exactly does time do**: everyone says time dulls everything, but at the neural level that sentence admits two quite different readings — has the memory itself weakened, or have the encounters with its cues merely become rarer? If it is the second, then moving house, changing jobs and leaving a group chat deserve to be treated as legitimate treatment rather than evasion. Is avoidance a failure to face the thing, or the most effective way of facing it?"
+    },
+    {
+      "from": "gemini",
+      "text": "**宽恕不是终点，是一条会反复的曲线**：今天觉得彻底放下了，明天一种气味、一次极度疲惫，恨意就原样回来。多数人把这种反弹读成『我之前的努力全白费了』，于是在伤害之上再加一层自责。可如果反复本来就是常态，『我到底原谅他了没有』这个问句是不是从一开始就问错了？该拿什么来代替它，当作进展的判据？",
+      "text_en": "**Forgiveness is not a destination but a curve that keeps oscillating**: today it feels entirely set down, and tomorrow a certain smell or sheer exhaustion brings the hatred back unchanged. Most people read the rebound as proof that all their earlier effort was wasted, and add a layer of self-reproach on top of the injury. But if oscillation is simply the norm, was 'have I actually forgiven him' the wrong question from the start? What should replace it as the measure of progress?"
+    },
+    {
+      "from": "gpt",
+      "text": "**这件事该走哪条路**：宽恕、追责、划清边界、交给时间——四条路各有各的适用场景，可人们通常只按情绪的强度来选，而不是按冒犯的性质来选。什么样的事该走哪一条？有没有几个能当场判断的问句？",
+      "text_en": "**Which road does this one take**: forgive, pursue, draw a boundary, leave it to time — each road has its own conditions, yet people usually choose by the intensity of the feeling rather than by the nature of the offence. Which kind of matter takes which road? Are there a few questions that settle it on the spot?",
+      "answer": {
+        "lead": "先别问自己原不原谅，**先问三件事：对方承不承认、这事还会不会再发生、你还需不需要和他共事。**三个答案就能把绝大多数情况分到下面这四条路上。",
+        "table": {
+          "head": [
+            "情形（三问的答案）",
+            "该走哪条路",
+            "为什么"
+          ],
+          "rows": [
+            [
+              "承认了 · 属于失手 · 还要共事",
+              "接受补偿，继续合作",
+              "补救性交换走完就够了，情绪会跟在秩序后面慢慢回来，不必先要求自己有感觉"
+            ],
+            [
+              "承认了 · 但同类事会再来 · 还要共事",
+              "接受道歉，同时改结构",
+              "道歉修的是关系，改不了机制；把流程、权限、复核方式改掉，比要求对方下次注意可靠得多"
+            ],
+            [
+              "不承认 · 一次性 · 不必再来往",
+              "划清边界，交给时间",
+              "没有对方配合，内心工作事倍功半；降低接触频率是唯一你单方面就能执行的手段"
+            ],
+            [
+              "不承认 · 属于惯犯 · 有第三方可诉",
+              "走程序追责",
+              "惯犯只会等你自愈；留证、找证人、走正式渠道，目标是让这件事不再发生，不是让他难受"
+            ],
+            [
+              "承认了 · 但损失不可逆 · 不再来往",
+              "把损失算清后放下追索",
+              "该赔的赔完之后，继续追索的收益趋近于零，成本却全由你付；此时放手是止损，不是宽恕"
+            ],
+            [
+              "涉及人身安全或持续侵害",
+              "先离开，再谈其它",
+              "任何关于原谅的讨论都必须排在安全之后；这一条没有例外"
+            ]
+          ]
+        },
+        "tail": "两条原则收尾：**『接受』和『宽恕』可以分开做**——你完全可以接受一次合格的补偿、让事情继续，而心里那本账不必同时清零；以及每隔半年重判一次，因为对方是不是惯犯、你还要不要和他共事，这两项答案都会变。"
+      },
+      "answer_en": {
+        "lead": "Before asking whether you forgive, **ask three things: does he admit it, will it happen again, and do you still have to work with him.** Those three answers sort almost every case onto one of the four roads below.",
+        "table": {
+          "head": [
+            "Situation (answers to the three questions)",
+            "Which road",
+            "Why"
+          ],
+          "rows": [
+            [
+              "Admitted · a genuine slip · you still work together",
+              "Accept the offering and carry on",
+              "Completing the remedial interchange is enough; feeling follows order rather than preceding it, so do not require yourself to feel anything first"
+            ],
+            [
+              "Admitted · but the same thing will recur · you still work together",
+              "Accept the apology and change the structure",
+              "An apology repairs the relationship, not the mechanism; altering the process, the permissions and the review step is far more reliable than asking someone to be careful next time"
+            ],
+            [
+              "Not admitted · one-off · no future dealings needed",
+              "Draw the boundary and leave it to time",
+              "Without the other party's cooperation, inner work returns little; lowering contact frequency is the one measure you can execute unilaterally"
+            ],
+            [
+              "Not admitted · a repeat offender · a third party exists",
+              "Pursue it through the process",
+              "Repeat offenders simply wait for you to heal; keep records, find witnesses, use the formal channel — the aim is that it stops happening, not that he suffers"
+            ],
+            [
+              "Admitted · the loss is irreversible · no future dealings",
+              "Count the loss, then stop pursuing",
+              "Once what can be repaid has been repaid, further pursuit returns almost nothing while you bear the whole cost; letting go here is cutting losses, not forgiving"
+            ],
+            [
+              "Physical safety or ongoing harm is involved",
+              "Leave first, discuss everything else later",
+              "Every discussion of forgiveness ranks below safety, and this line has no exceptions"
+            ]
+          ]
+        },
+        "tail": "Two closing principles: **accepting and forgiving are separable acts** — you may accept a competent offering and let things continue while leaving your own ledger open; and re-judge every six months, because whether the person is a repeat offender and whether you still need to work with them are both answers that move."
+      }
+    },
+    {
+      "from": "arendt",
+      "text": "**既不能罚也不能恕的那一类**：有些伤害超出了任何刑罚能衡量的范围，也超出了任何人有资格代为赦免的范围——大规模暴行是极端形态，但普通人生里也有：一个已经去世的加害者、一场无处追索的系统性失职、一个永远不会承认的父母。当两种终止方式都失效，人还剩下什么可做？纪念、书写、把这件事讲给下一代听，算不算第三种终止？",
+      "text_en": "**The kind that can be neither punished nor forgiven**: some injuries exceed any penalty capable of measuring them and exceed anyone's standing to pardon them on another's behalf. Mass atrocity is the extreme form, but ordinary lives hold the same shape: an offender already dead, a systemic failure with no one to sue, a parent who will never concede. When both ways of halting a thing have failed, what is left to do? Do memorial, writing, and telling the next generation what happened amount to a third way of making it stop?"
+    }
+  ]
+}

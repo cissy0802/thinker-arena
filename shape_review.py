@@ -59,6 +59,28 @@ def _advice_item_counts(sums):
     return "/".join(out) if out else "-"
 
 
+def _advice_enum_shape(sums):
+    """三家 AI 的 advice 有几家把建议写成『第一/第二/第三』的编号清单（如 3/3）。
+    条数(_advice_item_counts)查的是几条，这里查的是**体例**：连续多场三家全都
+    是编号清单，读者看到的就是同一张表格换了内容——建议本可以写成连贯的一段话、
+    一个先后顺序、或干脆只给一件最要紧的事。三家齐刷刷带编号即是体例坍缩。"""
+    pat = re.compile(r"第[一二三四五六七][，、,]|其[一二三四五][，、,]|[①②③④⑤]")
+    hit = sum(1 for s in sums if len(set(pat.findall(s.get("advice", "") or ""))) >= 2)
+    return "%d/%d" % (hit, len(sums)) if sums else "-"
+
+
+def _advice_open_norm(txt):
+    """advice 起手式的『去水版』：把随场次变动的填充词抹掉再比，
+    好让『结合全场智慧』『综合各家智慧』『结合诸家之言』这类同模子异措辞撞在一起。"""
+    t = re.sub(r"[，。：、\s]", "", txt or "")[:14]
+    # 最顽固的一副模子：『综合/结合 + 全场/各家/诸家 + 智慧/之言』——只换填充词，逐字比撞不上
+    if re.match(r"^(综合|结合|汇总|纵观|综观)(全场|各家|诸家|场上|大家|各位|上述)", t):
+        return "综合＊家＊"
+    t = re.sub(r"本周|这周|今天|当下|眼下|马上|即刻", "＊", t)
+    t = re.sub(r"[一二三四五六两]", "N", t)
+    return t[:6]
+
+
 def _r3_countdown(posts):
     """总结陈词里『我说三件事／三条建议／吾终之以三事』这类数数起手式占几帖。
     一场里几乎人人都用数字开场清单，读起来就是同一个模子印的——它不在字数、
@@ -291,12 +313,15 @@ def feats(d):
         "总结转日常": _r3_everyday_turn(posts),
         # 三家 AI 的 advice 各列几条（每场都 3/3/3＝建议条数被锚成定值，该随议题浮动）
         "收尾建议条数": _advice_item_counts(sums),
+        # 建议的**体例**：几家把 advice 写成『第一/第二/第三』的编号清单（连场 3/3＝同一张表换内容）
+        "建议编号体例": _advice_enum_shape(sums),
         # 措辞指纹（开头几字）
         # summary 起手式：先归成『套路种类』再比——最爱复读的两种是
         # 『N 个人从…进来，没有一个…』的点名花名册，和『先说共识／最大的共识是…』
         "_summary_open": [(s.get("ai", "?"), _sum_open_kind(s.get("summary", ""))) for s in sums],
         "_insight_open": [(s.get("ai", "?"), (s.get("insight", "") or "")[:5]) for s in sums],
         "_advice_open": [(s.get("ai", "?"), (s.get("advice", "") or "")[:6]) for s in sums],
+        "_advice_open_norm": [(s.get("ai", "?"), _advice_open_norm(s.get("advice", ""))) for s in sums],
         "_post_open": [(p.get("text", "") or "")[:3] for p in posts],
     }
 
@@ -308,7 +333,7 @@ print("形状自评 ·", tid, "· 对比最近", len(R), "场:", "、".join(eid 
 print("=" * 70)
 
 SCALARS = ["人数","轮数","每轮帖数","钩子数","钩子分布","钩子作者类型","钩子带答案表","选角语气收尾","二轮全反一轮","二轮同轮追击","二轮点名起手","二轮火力散布","轮内照抄顺序","首轮全独白","答案表位次","收尾帖类别","首轮序=选角序","末轮断连","表态档集合",
-           "用了疑惑","带glossary帖数","术语加粗","加粗压帖尾","古文帖数","建议带①②③","帖均加粗处","加粗处分布","总结膨胀比","总结数数起手","总结列清单","总结转日常","收尾建议条数"]
+           "用了疑惑","带glossary帖数","术语加粗","加粗压帖尾","古文帖数","建议带①②③","帖均加粗处","加粗处分布","总结膨胀比","总结数数起手","总结列清单","总结转日常","收尾建议条数","建议编号体例"]
 flags = []
 print("\n%-14s %-22s %s" % ("维度", "本场", "最近几场"))
 print("-" * 70)
@@ -362,6 +387,17 @@ for ai, op in T["_advice_open"]:
     print("  %-7s 「%s…」%s" % (ai, op, tag))
     if reuse >= 2:
         flags.append("advice开头:%s" % op)
+
+# ---- 措辞坍缩：advice 起手『去水版』----（"结合全场智慧"/"综合各家智慧" 只差两字，逐字比不出来）
+allan = Counter()
+for eid, f in R:
+    for ai, op in f.get("_advice_open_norm", []):
+        allan[op] += 1
+for ai, op in T.get("_advice_open_norm", []):
+    reuse = allan.get(op, 0)
+    if reuse >= 2:
+        print("  ⚠️ %-7s 起手去水后是「%s」——最近 %d 场同模子（只换了填充词不算换）" % (ai, op, reuse))
+        flags.append("advice起手同模子:%s" % ai)
 
 # ---- 帖子起手式：本场内部单调 + 跨场复用 ----
 print("\n【帖子起手式】（本场内大量同起手 or 跨场复用＝套路）")

@@ -253,6 +253,19 @@ def _last_round_detached(posts):
     return "%d/%d" % (sum(1 for p in tail if not p.get("reply_to")), len(tail))
 
 
+def _react_coverage(d, posts):
+    """每帖表态人数 ÷ 在场其他人数，取全场平均。趋近 1.00 说明表态被当成必填表格
+    逐帖填满，于是『谁选择不开口』这个本身有意味的信号被抹平；每场都同一个数值，
+    则是连表态密度都被锚死了。"""
+    n = len(d.get("participants", []))
+    if n < 2 or not posts:
+        return "-"
+    tot = 0
+    for p in posts:
+        tot += sum(len(v) for v in (p.get("reactions") or {}).values())
+    return round(tot / len(posts) / (n - 1), 2)
+
+
 def feats(d):
     posts = d.get("posts", [])
     rounds = sorted({p["round"] for p in posts})
@@ -307,6 +320,11 @@ def feats(d):
         "末轮断连": _last_round_detached(posts),
         "表态档集合": tuple(sorted(rk)),
         "用了疑惑": "疑惑" in rk,
+        # 每帖平均有多少比例的在场者表了态（1.00＝每帖都被全员表态一遍）。
+        # 静态规则查不出的一处坍缩：表态被当成必填表格逐帖填满，于是『谁选择不表态』
+        # 这个本身有意味的信号消失了。该让它随帖子浮动——有的帖子该激起满场反应，
+        # 有的（技术性的、无人接得住的）本就只有两三个人会开口。
+        "表态覆盖率": _react_coverage(d, posts),
         "带glossary帖数": sum(1 for p in posts if p.get("glossary")),
         # glossary 术语顺手也加粗＝把重点摊薄成满屏黑体（重点只该是那一句）
         "术语加粗": _term_bolding(posts),
@@ -347,7 +365,7 @@ print("形状自评 ·", tid, "· 对比最近", len(R), "场:", "、".join(eid 
 print("=" * 70)
 
 SCALARS = ["人数","轮数","每轮帖数","钩子数","钩子分布","钩子作者类型","钩子带答案表","选角语气收尾","选角代词起手","二轮全反一轮","二轮同轮追击","二轮点名起手","二轮火力散布","轮内照抄顺序","首轮全独白","答案表位次","收尾帖类别","首轮序=选角序","末轮断连","表态档集合",
-           "用了疑惑","带glossary帖数","术语加粗","加粗压帖尾","古文帖数","建议带①②③","帖均加粗处","加粗处分布","总结膨胀比","总结数数起手","总结列清单","总结转日常","收尾建议条数","建议编号体例"]
+           "用了疑惑","表态覆盖率","带glossary帖数","术语加粗","加粗压帖尾","古文帖数","建议带①②③","帖均加粗处","加粗处分布","总结膨胀比","总结数数起手","总结列清单","总结转日常","收尾建议条数","建议编号体例"]
 flags = []
 print("\n%-14s %-22s %s" % ("维度", "本场", "最近几场"))
 print("-" * 70)

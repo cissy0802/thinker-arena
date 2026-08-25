@@ -1,0 +1,962 @@
+{
+  "id": "real-work-or-invented-roles",
+  "question": "你的工作是真被需要，还是被造出来的？",
+  "question_en": "Is your job really needed, or was it invented?",
+  "sub": "会照开、表照填，可少了你，究竟哪一件事会办不成？",
+  "sub_en": "The meetings happen and the forms get filled — but what would actually fail without you?",
+  "date": "2026-08-25",
+  "participants": [
+    "hanfeizi",
+    "durkheim",
+    "illich",
+    "hayek",
+    "deming",
+    "fromm",
+    "vasubandhu",
+    "seligman"
+  ],
+  "casting": [
+    {
+      "id": "hanfeizi",
+      "reason": "名与实对不对得上，是他给一切组织开的唯一药方：报上来的功与担着的名相不相符，这不是感受问题，是可核的问题。他讲韩昭侯醉卧、典冠加衣而两罪并罚的旧事，为的是那条冷硬的界线——越职之害甚于受冻。更狠的一句在后面：虚设的岗位不会自己长出来，是赏罚招来的；人主赏名声而不赏功效，臣下必定制造出勤劳的样子来卖给他。他因此主张，凡不可考之处，必有人住进去。",
+      "reason_en": "Whether the name matches the substance is the only medicine he prescribes to any organisation: whether the merit reported answers to the office held is not a matter of feeling but of verification. He tells the old story of Marquis Zhao asleep and drunk, the keeper of the hat who covered him, and the punishment of both men, for the sake of one hard line — a man reaching past his post does more damage than cold. The sharper claim comes after: redundant offices do not grow of themselves, they are summoned by what is rewarded, and a ruler who pays for reputation rather than achievement will have diligence manufactured and sold to him. Wherever merit cannot be verified, he holds, someone will move in."
+    },
+    {
+      "id": "durkheim",
+      "reason": "分工的头一个产物不是效率，是相互依赖——他坚持从这里看问题。一个岗位可能什么也不生产，却把两个部门缝在一起、让一群人早上有地方去、把陌生人变成同事；只按产出去判，就算漏了它生产的联结。但他不为一切辩护：真正伤人的病不叫无用，叫失范——干活的人看不见自己那一段接到哪里去，规则含混，努力与结果之间没有可辨的关系。他要求把这道题从心事挪回可数的事实上，用请假率、离职率、下班后还愿不愿意说话来判。",
+      "reason_en": "The first product of the division of labour is not efficiency but mutual dependence, and he insists on starting there. A post may produce nothing at all and still stitch two departments together, give people somewhere to go in the morning, turn strangers into colleagues; judge it by output alone and you have failed to count the bonds it makes. Yet he defends nothing indiscriminately: the disease that actually injures people is not uselessness but anomie — the worker cannot see where his fragment connects, the rules are vague, effort bears no legible relation to result. He wants the question moved off private feeling and back onto countable facts: absence, turnover, whether colleagues still speak to one another after hours."
+    },
+    {
+      "id": "illich",
+      "reason": "制度过了某个门槛就开始生产对自己的需求——这是他的反生产力，也是他对这道题的答案：被造出来的首先不是岗位，是需求，岗位只是需求的影子。学校办到一定规模就制造对文凭的渴求，医疗办到一定规模就把出生、衰老与痛苦一并变成需要专家的病例。他另有一笔不入账的账：填表、审批、通勤、每三年重学一套系统——影子工作，经济要求你做、却不付钱。他给的判据只有一条：这件事过后，人自己能做的事变多了，还是更离不开这一行了。",
+      "reason_en": "Past a certain threshold an institution begins to manufacture the demand for itself — that is his counterproductivity, and it is his answer here: what gets invented is not the job but the need, and the job is only the need's shadow. Schools at scale manufacture a craving for credentials; medicine at scale turns birth, ageing and pain into cases requiring an expert. He keeps a second set of books that no ledger records: forms, approvals, commuting, relearning a system every three years — shadow work, demanded by the economy and unpaid. His criterion is a single one: afterwards, can people do more for themselves, or are they further bound to the trade?"
+    },
+    {
+      "id": "hayek",
+      "reason": "谁有资格判断一份工作值不值得存在——他把整道题顶回到这一问上。分散的知识从来不在任何一个头脑里，价格之所以存在，正因为没有人站在能看清整体的位置；坐在工位上判定自己对整体没有贡献，与一个计划官员判定该生产多少双鞋，是同一种自负，只是尺度小。他也认下一处让步：企业内部没有价格，那是计划的孤岛，所以这种怀疑在官僚层级、合规部门与靠牌照吃饭的行业最站得住。他最担心的是另一件事：只考可考之物，会把写不下来的知识连同持有它的人一起裁掉。",
+      "reason_en": "Who is entitled to judge whether a job deserves to exist — he pushes the whole question back onto that. Dispersed knowledge never sits in one head, and prices exist precisely because nobody stands where the whole can be seen; to rule from your desk that you contribute nothing to it is the same conceit as a planner ruling how many shoes to make, differing only in scale. He concedes one thing: inside a firm there are no prices, it is an island of planning, so the suspicion is most defensible in bureaucratic layers, compliance departments and licence-fed industries. His real fear lies elsewhere — assess only the assessable and the knowledge that cannot be written down leaves with the people who hold it."
+    },
+    {
+      "id": "deming",
+      "reason": "把『我有没有用』当成个人问题来问，在他看来本身就是管理失职：一个人的绩效绝大部分由他所在的系统决定，管理者的天职是改进系统，不是排名。他最恨绩效考核——那正是批量制造假活的那台机器，人一旦被按数字奖惩就开始为数字工作，指标之外的活没人碰，够不着的就编。他给的替代判据朴素得几乎不像哲学：你说得出你所在这个系统的目的吗？你的产出交给谁，他实际怎么用？他还坚持一条区分：测量该用在过程上，不该拿来评判人。",
+      "reason_en": "To ask \"am I useful\" as a personal question is, to him, already a failure of management: the great majority of a person's performance is set by the system he works in, and a manager's duty is to improve the system rather than rank people. He detests appraisal — it is the very machine that manufactures fake work at scale, since people rewarded and punished by numbers begin working for the number, leaving untouched whatever the metric misses and inventing whatever it cannot reach. His replacement test is so plain it hardly sounds like philosophy: can you state the aim of the system you are in, and who receives your output, and what does he actually do with it? He holds to one distinction throughout — measure the process, never use measurement to judge the person."
+    },
+    {
+      "id": "fromm",
+      "reason": "这个问题为什么用这样的语气问出来，是他真正关心的地方。『我还被需要吗』听上去像在谈价值，实际是在问『我还卖得掉吗』——市场型性格：人把自己体验成一件由需求定价的商品，自尊天天等着别人报价，于是『被需要』悄悄替换了『存在』。他还点破一件反直觉的事：越空洞的岗位越难离开，因为例行公事提供了确定的作息与免于选择的安宁，是一间逃避自由的掩体。他要求换一个自己就能回答的问题：你的能力有没有在被使用。",
+      "reason_en": "Why the question comes out in this particular tone is what he actually cares about. \"Am I still needed\" sounds like a question about worth; it is really the question \"can I still be sold\" — the marketing character, in which a person experiences himself as a commodity priced by demand, his self-regard quoted daily by others, so that being needed quietly replaces being. He names a counterintuitive fact as well: the emptier the post, the harder it is to leave, because routine supplies a fixed rhythm and a peace free of choosing, a shelter for the escape from freedom. He wants the question exchanged for one you can answer yourself: are your powers being exercised?"
+    },
+    {
+      "id": "vasubandhu",
+      "reason": "真需与伪需之辨，在他看来预设了一个不存在的实。所需者何？『被需要』不在事情那一头，在识这一头；末那识时时执阿赖耶识为我，才有那种非我不可的紧，紧不是事情给的，是我执打的结。但他不劝人废事——种子说另有一层要紧：日日所作皆熏成种子落于藏识，写空文的熏出写空文的习气，说场面话的熏出说场面话的心。所以空转的活儿不在外面空转，它在人心里落痕。他因此只问一句：你每天熏下去的，是什么种子。",
+      "reason_en": "The division between a real need and an invented one presupposes, on his view, a substance that is not there. What is it that is needed? Being needed does not lie out in the work but in consciousness; the manas-consciousness grasps the ālaya-vijñāna as a self without pause, and only from that comes the tightness of \"only I will do\" — a knot tied by self-grasping, not given by the work. Yet he does not counsel idleness, for the doctrine of seeds carries a second edge: every act perfumes a seed into the storehouse, so that a writer of empty documents is perfumed into one, and a speaker of hollow words into a hollow heart. Work that turns without engaging does not turn idly outside you; it leaves its mark within. Hence his single question: what seeds are you perfuming, day after day?"
+    },
+    {
+      "id": "seligman",
+      "reason": "从实验里带来一条与全场不同的分界线：伤人的不是无用，是不可控。狗在无法逃避的电击后即使闸门打开也不再逃，那是习得性无助；四十年后他与迈尔改了口径——被动才是长期不良处境下的默认反应，真正被学会的是控制，前额叶要检测到自己的动作改变了结果，才会去抑制那套默认。他因此坚持把两件常被混为一谈的事分开量：PERMA 里投入与成就是两根不同的柱子，一份对社会无足轻重的活可以给人投入，一份要紧的活也可能一根都不给。",
+      "reason_en": "He brings a dividing line the rest of the table does not have: what injures people is not uselessness but uncontrollability. Dogs given inescapable shock stopped escaping even once the gate was opened — learned helplessness; forty years later he and Maier revised it, finding that passivity is the default response to prolonged adversity and that what is actually learned is control, the prefrontal cortex having to detect that its own action changed the outcome before it will inhibit that default. So he insists on measuring separately two things habitually confused: in PERMA, engagement and accomplishment are distinct pillars, and work of no social consequence can still supply engagement while work that matters enormously supplies neither."
+    }
+  ],
+  "posts": [
+    {
+      "id": "p01",
+      "round": 1,
+      "thinker": "illich",
+      "reply_to": null,
+      "text": "先把问题换个问法：不问你这份活有没有用，问它让人多了本事，还是多了依赖。学校办到一定规模就开始生产对文凭的渴求，医疗办到一定规模就把出生、衰老、痛苦一并变成需要专家的病例——这是反生产力：制度越过某个门槛，就开始反噬它本要服务的目标。于是岗位当然会被造出来，而且是成建制地造。**真正被造出来的不是岗位，是需求；岗位只是需求的影子。**还有一大块活儿根本不发工资：填表、审批、通勤、学一套三年换一次的系统——影子工作，经济要求你做，账上却查不到。",
+      "text_en": "Let me restate the question: not whether your work is useful, but whether it leaves people more capable or more dependent. Past a certain size a school begins to manufacture the craving for credentials, and medicine turns birth, ageing and pain alike into cases requiring an expert — this is counterproductivity: an institution that crosses a threshold starts to defeat the very end it was built to serve. So of course jobs are invented, and invented wholesale. **What is manufactured is not the job but the need; the job is only the need's shadow.** And a great deal of the work carries no wage at all: forms, approvals, commuting, learning a system that changes every three years — shadow work, demanded by the economy and invisible in its accounts.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "反生产力": "counterproductivity（反生产力）：伊里奇的核心诊断——一项制度在小规模时确实解决问题，但规模越过某个门槛后，它开始产生与自身目的相反的效果。交通工具本为省时，路网越密、通勤越长；医疗本为治病，越发达越把常态变成病例。关键不在有人办坏了事，而在成功本身会带来这种反转。",
+        "影子工作": "shadow work（影子工作）：伊里奇提出的概念，指现代经济要求个人无偿完成、却不计入任何账目的劳动——自助结账、填报销单、上传证明、通勤、为使用一项服务而先学会它的系统。它不是家务，也不是就业，而是工业社会把成本转嫁到个人时间上的那一部分。"
+      },
+      "glossary_en": {
+        "counterproductivity": "Illich's central diagnosis: an institution genuinely solves a problem at small scale, but once it passes a threshold it begins to produce the opposite of its purpose. Transport exists to save time, yet the denser the road network the longer the commute; medicine exists to cure, yet the more advanced it grows the more of ordinary life becomes a case. The point is not that someone bungled it — the reversal follows from success itself.",
+        "shadow work": "Illich's term for the labour a modern economy requires of individuals without pay and without entry in any ledger — self-checkout, expense claims, uploading proofs, commuting, learning the system before you may use the service. It is neither housework nor employment, but the portion of industrial cost shifted onto private time."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "fromm"
+        ],
+        "轻微赞同": [
+          "hanfeizi",
+          "durkheim"
+        ],
+        "中立": [
+          "vasubandhu"
+        ],
+        "轻微反对": [
+          "deming",
+          "seligman"
+        ],
+        "强烈反对": [
+          "hayek"
+        ]
+      }
+    },
+    {
+      "id": "p02",
+      "round": 1,
+      "thinker": "hayek",
+      "reply_to": "p01",
+      "text": "伊里奇给了一把尺，我要问的是：谁有资格握它？分散的知识从来不在任何一个头脑里——这是知识问题，也是价格存在的理由：它把千百万人各自那一点点情况压缩成一个数，让互不相识的人协调行动。**你坐在工位上判定自己这份活对整体没有贡献，与一个计划官员判定该生产多少双鞋，是同一种致命的自负，只是尺度小。**我认一处让步：企业内部没有价格，那是计划的孤岛。所以这种怀疑在官僚层级、合规部门、补贴与牌照行业最站得住，而不是在你能看见客户的地方。",
+      "text_en": "Illich hands us a yardstick; my question is who is entitled to hold it. Dispersed knowledge never sits in any single head — that is the knowledge problem, and it is why prices exist: they compress what millions of people each know a little of into one number, so that strangers can coordinate. **For you to rule from your desk that your work contributes nothing to the whole is the same fatal conceit as a planner ruling how many shoes to make; only the scale differs.** I grant one thing: inside a firm there are no prices — it is an island of planning. So this suspicion is most defensible in bureaucratic layers, compliance departments, subsidised and licensed industries, and least defensible where you can see the customer.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "知识问题": "the knowledge problem（知识问题）：哈耶克的核心论点——决定资源该怎么用的知识，从来不是集中的、成体系的，而是散落在千百万人各自的具体处境里：哪台机器快坏了、哪个客户能通融、这条街上什么好卖。任何中央计划的失败首先不是道德问题或算力问题，而是这些知识根本无法被汇总上报。",
+        "致命的自负": "the fatal conceit（致命的自负）：哈耶克晚年一本书的书名，指人以为自己能设计并掌控一个自发生长出来的复杂秩序。他认为市场、语言、法律都属于『人的行动的结果，而非人的设计的结果』，把它们当作可以一举重排的对象，正是二十世纪最贵的错误。"
+      },
+      "glossary_en": {
+        "the knowledge problem": "Hayek's central claim: the knowledge that determines how resources should be used is never centralised or systematic but scattered across millions of particular situations — which machine is about to fail, which client will bend, what sells on this street. The failure of central planning is not first a moral or computational failure; it is that such knowledge cannot be gathered and reported upward at all.",
+        "fatal conceit": "The title of Hayek's late book, naming the belief that one can design and steer a complex order that in fact grew of itself. Markets, language and law he counted as \"results of human action but not of human design\", and treating them as objects to be rearranged at a stroke he took to be the most expensive error of the twentieth century."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "hanfeizi"
+        ],
+        "轻微赞同": [
+          "seligman"
+        ],
+        "中立": [
+          "vasubandhu",
+          "deming"
+        ],
+        "轻微反对": [
+          "durkheim"
+        ],
+        "强烈反对": [
+          "illich",
+          "fromm"
+        ]
+      }
+    },
+    {
+      "id": "p03",
+      "round": 1,
+      "thinker": "hanfeizi",
+      "reply_to": null,
+      "text": "昭侯醉而寝，典冠者见其寒，加衣于上。侯寤而说，问左右曰：谁加衣者？曰：典冠。侯遂兼罪典衣与典冠。罪典衣，以为失其事也；罪典冠，以为越其职也。非不恶寒，以为侵官之害甚于寒。**故明主之治，循名而责实：名者，所以命其事也；实者，所以效其功也。**今之为吏者，名曰理事，而所理者文书之往复；名曰议事，而所议者前议之复议。名存而实亡，则奸生焉。且人主赏其誉而不赏其功，则臣下必造勤劳之状以售之。故冗官非自生，乃赏之所召也。",
+      "text_en": "Marquis Zhao of Han fell asleep drunk. The keeper of the hat, seeing him cold, laid a robe over him. Waking pleased, the marquis asked who had covered him and was told: the keeper of the hat. He then punished the keeper of the robes and the keeper of the hat alike — the one for failing his office, the other for overstepping his office. Not that he did not mind the cold; he judged the harm of a man reaching past his post to be greater than cold. **Hence the enlightened ruler governs by holding the name to the result: the name assigns the task, the result proves the work was done.** Today an official is named to handle affairs and handles the circulation of documents; named to deliberate, and deliberates on what was deliberated before. Where the name survives and the substance is gone, corruption breeds. And when a ruler rewards reputation rather than achievement, his ministers will manufacture the appearance of diligence to sell him. Redundant offices do not grow of themselves; they are summoned by what is rewarded.",
+      "vernacular": "韩昭侯喝醉了睡着，管帽子的官看他冷，给他加了件衣服。昭侯醒来很高兴，问身边人：谁加的衣？答：管帽子的。昭侯把管衣服的和管帽子的一起治了罪。治管衣服的，是他失职；治管帽子的，是他越职。不是不怕冷，是他认为越权的害处比受冻更大。**所以明君治事，按名去要实：名是用来指定一件事的，实是用来验证这件事办成了没有。**今天做官的，名义上是办事，办的是公文来回；名义上是议事，议的是上一次议过的事。名还在、实没了，弊病就从这里生出来。何况君主奖赏名声而不奖赏功效，臣下就必然制造出勤劳的样子来卖给他。所以冗员不是自己长出来的，是奖赏招来的。",
+      "vernacular_en": "",
+      "glossary": {
+        "循名而责实": "accountability by name and result（循名责实）：法家的核心考核术。先让臣下自报要做成什么（名），事后拿实际结果（实）去对：做到即赏，做不到要罚，超额做到也要罚——因为报得不准同样是失职。它的用意是把评价从『看起来忠不忠、勤不勤』挪到可核对的事项上。",
+        "侵官": "overstepping one's office（侵官）：越出自己职权范围去做本该别人做的事。韩非认为这比不作为更危险：一旦职权界线可以随善意被跨过，责任就无法归属，赏罚也就失去依据，最终没有人真正为任何事负责。"
+      },
+      "glossary_en": {
+        "holding the name to the result": "The core auditing technique of the Legalists. A minister first states what he undertakes to accomplish (the name); afterwards the actual outcome (the result) is set against it. Meet it and be rewarded; fall short and be punished; exceed it and be punished also, since a mis-stated undertaking is itself a failure. The aim is to shift judgement away from how loyal or diligent a man looks and onto items that can be checked.",
+        "overstepping his office": "Acting beyond one's assigned authority to do what belongs to another. Han Fei held this more dangerous than idleness: once the boundary of an office may be crossed on good intentions, responsibility can no longer be assigned, reward and punishment lose their ground, and in the end nobody truly answers for anything."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "hayek"
+        ],
+        "轻微反对": [
+          "fromm"
+        ],
+        "强烈反对": [
+          "deming",
+          "illich"
+        ]
+      }
+    },
+    {
+      "id": "p04",
+      "round": 1,
+      "thinker": "durkheim",
+      "reply_to": null,
+      "text": "我要替诸位判了死刑的那些岗位说一句：分工的头一个产物不是效率，是相互依赖。原始社会靠彼此相像凝在一起，现代社会靠彼此不同、谁也离不开谁——这是有机团结。一个岗位可能什么也不生产，却把两个部门缝在一起、让一群人早上有地方去、把陌生人变成同事。**判一份工作有没有用，若只算它的产出，你就算漏了它生产的联结。**但我不为一切辩护。真正的病不叫无用，叫失范：干活的人看不见自己那一段接到哪里去，规则含混，努力与结果之间没有可辨的关系。失范的分工里，人确实只剩一个齿轮，而这笔账在统计上是要还的。",
+      "text_en": "Let me speak for the posts you have all condemned. The first product of the division of labour is not efficiency but mutual dependence. Archaic societies cohere because their members resemble one another; modern societies cohere because they differ and cannot do without one another — organic solidarity. A post may produce nothing at all and still stitch two departments together, give a group of people somewhere to go in the morning, and turn strangers into colleagues. **If you judge a job only by its output, you have failed to count the bonds it produces.** But I do not defend everything. The real disease is not uselessness; it is anomie — the worker cannot see where his fragment connects, the rules are vague, and effort bears no legible relation to result. In an anomic division of labour a person really is reduced to a cog, and that bill comes due in the statistics.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "有机团结": "organic solidarity（有机团结）：涂尔干区分两种社会凝聚方式。传统社会是『机械团结』——人们做着相似的事、信着相似的东西，靠相像而结合；现代社会是『有机团结』——分工把人变得彼此不同，正因为谁也不能自给，才不得不结合。团结的来源从『我们一样』变成了『我需要你』。",
+        "失范": "anomie（失范）：涂尔干用来描述规范失效的状态——不是没有规则，而是规则含混、目标无度、努力与回报之间失去可辨的关系。他在《自杀论》里指出，经济剧变时期（无论骤然变穷还是骤然暴富）自杀率都会上升，原因不是贫富本身，而是人失去了衡量自身位置的尺度。"
+      },
+      "glossary_en": {
+        "organic solidarity": "Durkheim's name for the second of two ways a society coheres. Traditional societies hold together mechanically — people do similar work and believe similar things, and are bound by resemblance. Modern societies hold together organically: the division of labour makes people unlike one another, and precisely because none is self-sufficient they cannot part. The ground of solidarity shifts from \"we are alike\" to \"I need you\".",
+        "anomie": "Durkheim's term for a state in which norms have failed — not an absence of rules, but rules gone vague, aspirations without limit, and no legible relation between effort and reward. In Suicide he showed that rates rise during economic upheaval whether people are suddenly impoverished or suddenly enriched, the cause being not wealth or poverty but the loss of any measure of one's own position."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "fromm"
+        ],
+        "轻微赞同": [
+          "illich",
+          "seligman"
+        ],
+        "中立": [
+          "hayek",
+          "vasubandhu"
+        ],
+        "轻微反对": [
+          "hanfeizi"
+        ]
+      }
+    },
+    {
+      "id": "p05",
+      "round": 1,
+      "thinker": "deming",
+      "reply_to": "p03",
+      "text": "韩非的药，我见过它的下场。**按名责实、赏罚分明，正是批量制造假活的那台机器**——你一旦按可计量的功去奖惩个人，人就开始为数字工作：指标之内的活拼命做，指标之外的活没人碰，够不着的就编。我在工厂里数了六十年：一个人的绩效绝大部分由他所在的系统决定，管理者的天职是改进系统，不是排名。把随机波动当成个人优劣去奖惩，是我见过最贵的错误。所以别问『我有没有用』，先问两件查得到的事：你说得出你所在这个系统的目的吗？你的产出交给谁——下一道工序就是顾客，他能不能用？",
+      "text_en": "I have seen where Han Fei's medicine leads. **Naming the post and demanding the result, reward and punishment made exact — that is precisely the machine that manufactures fake work at scale.** The moment you reward and punish individuals by measurable achievement, people start working for the number: what the metric covers gets done frantically, what it misses goes untouched, and what cannot be reached gets invented. I counted in factories for sixty years: the great majority of a person's performance is determined by the system he works in, and a manager's job is to improve the system, not to rank people. Treating common-cause variation as a difference in individual merit and paying out on it is the most expensive error I know. So do not ask whether you are useful. Ask two things you can actually check: can you state the aim of the system you are in, and who receives your output — the next process is the customer, and can he use what you hand him?",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "随机波动": "common-cause variation（随机波动）：戴明借统计学做的关键区分。任何过程的结果都会上下起伏，其中大部分是系统本身固有的波动，与具体某个人无关；只有少数异常点才提示真的出了事。把前者当成个人优劣去奖惩，等于对噪声下注，既冤枉人，也让过程越调越乱。",
+        "下一道工序就是顾客": "the next process is the customer（下一道工序就是顾客）：戴明在战后日本反复讲的一句话。判断你的工作有没有用，不必等到终端消费者那里，只需看接手你成果的下一个人：他实际怎么用、够不够用、要不要返工。它把抽象的『价值』落到一个可以当面去问的具体的人身上。"
+      },
+      "glossary_en": {
+        "common-cause variation": "Deming's key statistical distinction. The output of any process fluctuates, and most of that fluctuation is inherent in the system rather than attributable to any individual; only the rare outlier signals that something actually happened. To reward and punish people for the former is to bet on noise — it wrongs them and it destabilises the process further with every adjustment.",
+        "the next process is the customer": "A line Deming repeated throughout postwar Japan. To find out whether your work is useful you need not wait for the end consumer; look at whoever receives what you produce — what he does with it, whether it suffices, whether he must redo it. It brings an abstract \"value\" down to a particular person you can go and ask."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "illich",
+          "durkheim"
+        ],
+        "轻微赞同": [
+          "seligman",
+          "fromm"
+        ],
+        "中立": [
+          "vasubandhu"
+        ],
+        "轻微反对": [
+          "hayek"
+        ],
+        "强烈反对": [
+          "hanfeizi"
+        ]
+      }
+    },
+    {
+      "id": "p06",
+      "round": 1,
+      "thinker": "fromm",
+      "reply_to": null,
+      "text": "你们都在争这份活有没有用，没人问这个问题为什么这样问出来。它的语气不是『我做的事值不值得』，而是『我还卖得掉吗』——这是市场型性格：人把自己体验成一件由需求定价的商品，价值随行就市，自尊天天等着别人报价。**在这种性格里，被需要已经悄悄替换了存在。**还有一件反直觉的事：越空洞的岗位越难离开。空洞不等于难受，它提供了确定的作息、免于选择的安宁——一间逃避自由的掩体。要判断你的活是不是活的，别看老板需不需要你，看你的能力有没有在被使用。",
+      "text_en": "You are all arguing about whether the work is useful. Nobody asks why the question comes out in this particular tone. It is not \"is what I do worth doing\" but \"can I still be sold\" — that is the marketing character: a person experiences himself as a commodity priced by demand, his worth quoted to him daily by others. **In that character, being needed has quietly replaced being.** And here is the counterintuitive part: the emptier the post, the harder it is to leave. Emptiness is not the same as misery; it supplies a fixed rhythm and a peace free of choosing — a shelter for the escape from freedom. To judge whether your work is alive, do not ask whether your employer needs you. Ask whether your powers are being exercised.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "市场型性格": "the marketing character（市场型性格）：弗洛姆描述的一种现代人格取向——人把自己当作要在人格市场上出售的商品，能力、微笑、personality 都成了可包装的卖点。它的特征是自我价值感完全外包给需求：受欢迎即有价值，无人问津即一文不值，因此这种人对自己是谁反而最没有把握。",
+        "逃避自由": "the escape from freedom（逃避自由）：弗洛姆一九四一年那本书的书名与论点。现代人挣脱了传统的束缚，却也失去了它提供的归属与确定，随之而来的孤独与无力感令人难以承受，于是主动逃回各种新的束缚里——从众、权威、强迫性的忙碌。自由之所以被逃避，正因为它先带来的是不安。"
+      },
+      "glossary_en": {
+        "the marketing character": "Fromm's name for a modern orientation in which a person treats himself as a commodity to be sold on the personality market, packaging skills, smile and manner alike as selling points. Its mark is that self-worth is wholly outsourced to demand: in demand is worth, unwanted is worthless — which is why such a person is least sure of all who he actually is.",
+        "the escape from freedom": "The title and argument of Fromm's book of 1941. Modern people threw off traditional bonds and lost with them the belonging and certainty those bonds supplied; the loneliness and powerlessness that followed proved unbearable, and so they fled back into new bonds — conformity, authority, compulsive busyness. Freedom is escaped precisely because what it delivers first is unease."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "illich",
+          "vasubandhu"
+        ],
+        "轻微赞同": [
+          "durkheim"
+        ],
+        "中立": [
+          "hayek"
+        ],
+        "轻微反对": [
+          "seligman",
+          "deming"
+        ],
+        "强烈反对": [
+          "hanfeizi"
+        ]
+      }
+    },
+    {
+      "id": "p07",
+      "round": 1,
+      "thinker": "seligman",
+      "reply_to": null,
+      "text": "把实验摆出来。狗被施以无法逃避的电击后，即使闸门打开也不再逃——习得性无助。四十年后我和迈尔改了口径：被动才是长期不良处境下的默认反应，真正被学会的是控制；前额叶要检测到『我的动作改变了结果』，才会去抑制脑干那套默认。所以伤人的从来不是无用，是不可控。**一份让你做什么都不改变结果的工作，比一份无关紧要的工作危险得多。**PERMA 里投入与成就是两根不同的柱子：一份对社会无足轻重的活可以给人投入，一份要紧的活也可能一根都不给。请把这两件事分开量。",
+      "text_en": "Let me put the experiment on the table. Dogs given inescapable shock stopped escaping even when the gate was opened — learned helplessness. Forty years later Maier and I corrected ourselves: passivity is the default response to prolonged adversity, and what is actually learned is control; the prefrontal cortex must detect that its own action changed the outcome before it will inhibit the brainstem's default. So what damages people is never uselessness. It is uncontrollability. **A job in which nothing you do changes the outcome is far more dangerous than a job that does not matter.** In PERMA, engagement and accomplishment are separate pillars: work of no social consequence can still supply engagement, and work that matters enormously can supply neither. Measure the two separately.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "习得性无助": "learned helplessness（习得性无助）：一九六七年的经典实验现象——动物在反复经历无法逃避的伤害后，即使后来有了逃脱的路也不再尝试。二〇一六年塞利格曼与迈尔根据神经生物学证据把结论倒了过来：被动本是长期受挫下的默认反应，被学会的其实是『我能控制』，由内侧前额叶去抑制脑干的默认。这个修正把治疗重点从『别再消极』挪到『重新体验到控制』。",
+        "PERMA": "PERMA（心盛五要素）：塞利格曼提出的幸福模型，由积极情绪(Positive emotion)、投入(Engagement)、关系(Relationships)、意义(Meaning)、成就(Accomplishment)五项构成。要点在于这五项互相不能替代：一个人可以意义充沛而毫无投入，也可以成就斐然而关系荒芜，因此评估要逐项来，不能只看一个总分。"
+      },
+      "glossary_en": {
+        "learned helplessness": "The classic finding of 1967: animals repeatedly subjected to inescapable harm stop trying even once escape becomes available. In 2016 Seligman and Maier inverted the conclusion on neurobiological evidence — passivity is the default under prolonged adversity, and what is actually learned is control, the medial prefrontal cortex coming to inhibit the brainstem default. The revision moves treatment from \"stop being passive\" to \"re-experience having control\".",
+        "PERMA": "Seligman's model of flourishing, comprising Positive emotion, Engagement, Relationships, Meaning and Accomplishment. Its point is that the five cannot substitute for one another: a person may be rich in meaning and wholly unengaged, or laden with accomplishment and barren of relationships. Assessment therefore has to go item by item rather than resting on a single score."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "deming"
+        ],
+        "轻微赞同": [
+          "hayek",
+          "durkheim"
+        ],
+        "中立": [
+          "hanfeizi",
+          "illich",
+          "vasubandhu"
+        ],
+        "轻微反对": [
+          "fromm"
+        ]
+      }
+    },
+    {
+      "id": "p08",
+      "round": 1,
+      "thinker": "vasubandhu",
+      "reply_to": null,
+      "text": "诸君争一『需』字，谓有真需、有伪需。我且问：所需者何？彼所谓需者，不在事上，乃在识中。名与实皆识之所变，安得于变现之中，别立一实以为准的？**末那识恒执阿赖耶识为我，故有非我不可之紧；此紧非事之所生，乃我执之所结。**然勿谓吾劝人废事。诸行熏习，日日所作，皆落种子于藏识：作虚文者，熏成虚文之习；作诳语者，熏成诳语之心。**故空转之业，不空转于外，而落痕于内。**是以吾不问汝之职有用无用，但问汝日日所熏者，是何等种子。",
+      "text_en": "You dispute the word \"need\", dividing it into the real and the invented. I ask first: what is it that is needed? What you call being needed does not lie out there in the work; it lies in consciousness. Name and substance alike are transformations of consciousness — how then, within what is transformed, can you set up one more substance to serve as your standard? **The manas-consciousness grasps the ālaya-vijñāna as a self without pause, and from that comes the tightness of \"only I will do\"; the tightness is not given by the work, it is a knot tied by self-grasping.** Yet do not take me to be counselling idleness. Every act leaves its perfuming, and what is done daily falls as seed into the storehouse: whoever writes empty documents is perfumed into a writer of empty documents, whoever speaks hollow words is perfumed into a hollow heart. **So work that turns without engaging does not turn idly outside you; it leaves its mark within.** I therefore do not ask whether your post is useful. I ask what seeds you are perfuming into yourself, day after day.",
+      "vernacular": "诸位争的是一个『需』字，说有真需要、有假需要。我先问一句：所需要的，究竟是什么？你们说的『被需要』，不在事情那一头，在识这一头。名也好、实也好，都是识变现出来的；既然都在变现之中，又凭什么再立一个『实』当作标准？**末那识时时刻刻把阿赖耶识执作『我』，才有那种非我不可的紧张；这份紧张不是事情给的，是我执打的结。**但别以为我劝人不做事。做过的事都会熏习：每天写空文的，熏出一副写空文的习气；每天说场面话的，熏出一颗说场面话的心。**所以空转的活儿不在外面空转，它在你心里落痕。**因此我不问你的职位有用没用，只问你每天熏下去的，是什么种子。",
+      "vernacular_en": "",
+      "glossary": {
+        "末那识": "manas-consciousness（末那识）：唯识学八识中的第七识。它的职能只有一样——不停地把第八识（阿赖耶识）执取为『我』。它不是思考，而是一种昼夜不断、连睡着也不停的自我认取；正因为有它，人才会本能地把冒犯、被忽视、被替代体验成对自身存在的威胁。",
+        "熏习": "perfuming (vāsanā)（熏习）：唯识学的比喻——像衣服放在香料旁边会染上气味一样，每一次身语意的造作都会在阿赖耶识里留下『种子』，日后遇缘现行，又反过来加强同一种习气。它解释了性格是怎样被日常动作一点点造成的：重要的不是你偶尔想成为谁，是你每天实际在做什么。"
+      },
+      "glossary_en": {
+        "manas-consciousness": "The seventh of the eight consciousnesses in Yogācāra. Its single function is to grasp the eighth, the ālaya-vijñāna, as a self, unceasingly. It is not thinking but an appropriation that runs day and night and does not stop in sleep; because of it a person instinctively experiences slight, neglect or replacement as a threat to his very existence.",
+        "perfuming": "The Yogācāra image: as cloth left beside incense takes on its scent, every act of body, speech and mind deposits a \"seed\" in the storehouse consciousness, which later, meeting the right conditions, manifests and strengthens the same disposition again. It explains how character is built out of daily motions — what matters is not who you occasionally wish to be but what you actually do each day."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "fromm"
+        ],
+        "轻微赞同": [
+          "illich"
+        ],
+        "中立": [
+          "durkheim"
+        ],
+        "强烈反对": [
+          "hanfeizi"
+        ]
+      }
+    },
+    {
+      "id": "p09",
+      "round": 2,
+      "thinker": "hanfeizi",
+      "reply_to": "p04",
+      "text": "涂尔干先生言：官虽无所出，犹能缝合两曹、使众有所归，此之谓团结。夫团结，善名也；然善名最易为奸所借。**凡不可考之功，皆奸之所居。**设官以缝合，则缝合之效谁验之？无验，则其官永不可去，其人永不可责。今之冗署，未有自名冗者，皆曰吾所司者协调也、文化也、风气也——皆不可考之物。故人主欲知一官之当否，不问其效之美，问其效之可考否。可考而无功，去之；不可考，则先使可考。",
+      "text_en": "Monsieur Durkheim says that an office may produce nothing and yet stitch two bureaus together and give the multitude somewhere to belong; this he calls solidarity. Solidarity is a fine name, and fine names are what corruption borrows most easily. **Wherever merit cannot be verified, that is where corruption takes up residence.** Establish an office to stitch things together, and who is to verify the stitching? Unverified, the office can never be removed and its holder never held to account. No redundant bureau calls itself redundant; each says that what it administers is coordination, or culture, or morale — none of which can be verified. So a ruler who would know whether an office is warranted does not ask whether its merit sounds admirable; he asks whether its merit can be verified. Verifiable and without result: abolish it. Unverifiable: first make it verifiable.",
+      "vernacular": "涂尔干先生说：一个岗位就算什么也不出，也能把两个部门缝在一起、让众人有个归处，这叫团结。团结是个好名目；可好名目最容易被弊病借去用。**凡是查不出成效的地方，弊病一定住在那里。**设一个岗位去做缝合，那缝合的成效由谁来验？没人验，这个岗位就永远撤不掉，这个人也永远问不了责。今天的冗余部门，没有一个自称冗余，都说自己管的是协调、是文化、是风气——全是查不出的东西。所以上位者要判断一个岗位该不该有，不问它的成效听上去多好，问它的成效能不能查。能查而没成效的，撤掉；查不了的，先想办法让它可查。",
+      "vernacular_en": "",
+      "glossary": {
+        "不可考之功": "merit that cannot be verified（不可考之功）：韩非用来指那些说得出、却验不了的成效——协调、教化、风气之类。他的判断不是这些东西不存在，而是一旦评价只能靠说辞，掌握说辞的人就永远安全：既撤不掉，也罚不到。因此他要求先把不可考的改造成可考的，再谈去留。"
+      },
+      "glossary_en": {
+        "merit cannot be verified": "Han Fei's name for accomplishments that can be claimed but not checked — coordination, edification, morale and their kin. His point is not that such things do not exist, but that once an assessment rests on rhetoric alone, whoever commands the rhetoric is permanently safe: he can neither be removed nor penalised. Hence his demand that the unverifiable first be made verifiable before anything is decided."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "hayek"
+        ],
+        "中立": [
+          "deming",
+          "seligman"
+        ],
+        "轻微反对": [
+          "durkheim",
+          "vasubandhu"
+        ],
+        "强烈反对": [
+          "illich",
+          "fromm"
+        ]
+      }
+    },
+    {
+      "id": "p10",
+      "round": 2,
+      "thinker": "fromm",
+      "reply_to": "p07",
+      "text": "塞利格曼的实验我尊重，他从实验里开出的处方我不能同意。把伤害归结为『不可控』，听上去中立，其实立场已经选好了：既然病灶在控制感，那么给人一点自主的错觉、教他把不可控的部分重新解释，病就算治了。**这正是让人去适应一个不该被适应的处境——把系统的失败，改写成个人的可训练项目。**性格优势、三件好事，都真的有效，问题是有效在哪一层：它们让人在原地待得更久。而我要问的是，一个必须靠训练才能忍受的日子，本身出了什么事。控制感不是自由；自由是能拒绝的那一步。",
+      "text_en": "I respect Seligman's experiments; I cannot accept the prescription he draws from them. To locate the injury in \"uncontrollability\" sounds neutral, but a side has already been taken: if the lesion is the sense of control, then give a man some illusion of autonomy, teach him to reinterpret what he cannot control, and the illness counts as treated. **That is training a person to adapt to a situation that ought not to be adapted to — rewriting the failure of a system as an individual's trainable deficit.** Character strengths, three good things — they genuinely work; the question is at which layer they work. They let a person stay where he is for longer. What I want to ask is what has gone wrong with a life that must be trained before it can be borne. A sense of control is not freedom. Freedom is the step at which you can refuse.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "性格优势": "character strengths（性格优势）：积极心理学的一套分类，把好奇、勇敢、公正、感恩等二十四项列为可识别、可培养的个人长处，主张有意识地把排在前面的几项用到日常事务里，能显著提升投入与满意度。批评者的疑问不在效果，而在它把改善的责任几乎全部落在个人一侧。"
+      },
+      "glossary_en": {
+        "Character strengths": "A taxonomy from positive psychology listing twenty-four identifiable, cultivable traits — curiosity, bravery, fairness, gratitude and the rest — with the claim that deliberately deploying one's top few in everyday tasks markedly raises engagement and satisfaction. The critics' objection is not to the effect but to where the burden of improvement is placed: almost entirely on the individual."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "illich"
+        ],
+        "轻微赞同": [
+          "vasubandhu",
+          "durkheim"
+        ],
+        "中立": [
+          "hanfeizi"
+        ],
+        "轻微反对": [
+          "deming"
+        ],
+        "强烈反对": [
+          "seligman",
+          "hayek"
+        ]
+      }
+    },
+    {
+      "id": "p11",
+      "round": 2,
+      "thinker": "hayek",
+      "reply_to": "p09",
+      "text": "韩非把『可考』立成唯一的门槛，这一步比涂尔干危险得多。**能被考核的，从来只是能被写下来的那一部分；而一个组织里最要紧的知识，恰恰是写不下来的。**谁跟哪个客户说得上话、哪条线快断了、上一次同样的事是怎么绕过去的——这些是分散的知识，附着在具体人、具体时间、具体地点上。你一旦只考可考之物，这些知识就连同持有它们的人一起被裁掉，账面立刻好看，两年后事情开始处处卡住。计划者的通病不是不聪明，是把『我看不见的』当成『不存在的』。我宁可容忍一些说不清用处的岗位，也不愿用一把尺子把组织削成它能被度量的形状。",
+      "text_en": "Han Fei makes verifiability the only gate, and that step is far more dangerous than Durkheim's. **What can be assessed is only ever the part that can be written down, and the knowledge that matters most in an organisation is precisely the part that cannot.** Who can get a word with which client, which line is about to break, how the same trouble was got around last time — this is dispersed knowledge, attached to particular people, particular moments, particular places. Assess only the assessable and that knowledge leaves with the people who hold it; the books look better at once, and two years later everything begins to jam. The planner's disease is not stupidity. It is treating what he cannot see as what does not exist. I would rather tolerate some posts whose use nobody can articulate than shave an organisation down to the shape in which it can be measured.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "分散的知识": "dispersed knowledge（分散的知识）：哈耶克强调的一类知识——它不是理论或统计，而是关于特定时间地点的具体情况，往往只有身处其中的人才掌握，且常常连他自己也说不清楚。这类知识无法上报，因为一经抽象概括就失去了全部价值；市场之所以有效，正在于它让持有这些知识的人各自行动、而不必先把知识交出来。"
+      },
+      "glossary_en": {
+        "dispersed knowledge": "The kind of knowledge Hayek insisted upon — not theory or statistics but the particular circumstances of time and place, held only by whoever stands in them and often not articulable even by him. It cannot be reported upward, since abstraction strips it of all its value; markets work precisely because they let the holders of such knowledge act on it without first having to surrender it."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "durkheim",
+          "illich"
+        ],
+        "轻微赞同": [
+          "fromm",
+          "deming"
+        ],
+        "强烈反对": [
+          "hanfeizi"
+        ]
+      }
+    },
+    {
+      "id": "p12",
+      "round": 2,
+      "thinker": "seligman",
+      "reply_to": "p10",
+      "text": "弗洛姆说我在教人适应，这话我得说清楚。**习得性无助的反面不是乐观，是控制；而控制是真的、可测的，不是错觉。**我们后来发现的是：长期恶劣处境下被动是默认，大脑要检测到自己的动作确实改变了结果，才会关掉那套默认。所以我从来不建议把不可控的部分解释掉——那叫认知扭曲，不叫习得性乐观。我建议的是先找出你手里究竟还剩多少可控的量，哪怕只有排班、只有接哪一单、只有跟谁搭档。至于拒绝的那一步，很好，但拒绝要付房租。一个人若连一寸可控都没体验过，他连拒绝的力气都攒不出来。",
+      "text_en": "Fromm says I teach adaptation; let me be precise. **The opposite of learned helplessness is not optimism but control — and control is real and measurable, not an illusion.** What we later found is that under prolonged adversity passivity is the default, and the brain must detect that its own action genuinely changed the outcome before it will switch that default off. So I have never advised explaining away what cannot be controlled; that is cognitive distortion, not learned optimism. I advise finding out how much control you actually still hold — even if it is only your rota, only which job you take, only whom you are paired with. As for the step at which one refuses: very good, but refusal has rent to pay. A person who has never once experienced an inch of control will never accumulate the strength to refuse.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "习得性乐观": "learned optimism（习得性乐观）：塞利格曼提出的可训练解释风格，核心是把坏事解释得更贴近事实：区分这次的失败是暂时的还是长久的、只关乎这一件事还是关乎整个人。它不是要人否认坏消息，恰恰相反——把一次挫折准确地限定在它实际的范围内，人才不至于用一件事否定全部。"
+      },
+      "glossary_en": {
+        "learned optimism": "Seligman's trainable explanatory style, whose core is explaining bad events more accurately: distinguishing whether this failure is temporary or lasting, confined to one matter or pervasive across a life. It does not ask anyone to deny bad news — quite the opposite. Only by holding a setback to its actual scope does a person avoid letting one event stand in for everything."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "deming"
+        ],
+        "轻微赞同": [
+          "hayek",
+          "hanfeizi"
+        ],
+        "中立": [
+          "durkheim"
+        ],
+        "轻微反对": [
+          "vasubandhu"
+        ],
+        "强烈反对": [
+          "fromm",
+          "illich"
+        ]
+      }
+    },
+    {
+      "id": "p13",
+      "round": 2,
+      "thinker": "durkheim",
+      "reply_to": "p02",
+      "text": "哈耶克先生把不可见当作不可判，这一步太快了。看不见的东西照样留下可测的痕迹——这是我一生做的事：自杀率不是心情的总和，它随宗教、家庭、职业群体的整合程度系统地起落。同理，一个岗位是不是空的，你不必进到它内部去看，看它周围的人：请假率、离职率、下班后还愿不愿意跟同事说话、有没有一套只有自己人懂的说法。**社会事实外在于个体，并且是硬的——它压在人身上，也能被数出来。**你怕一把尺子削平组织，我提醒你另一件事：没有任何尺子的地方，最容易长出来的不是自由，是失范。",
+      "text_en": "Herr Hayek moves too quickly from invisible to unjudgeable. What cannot be seen still leaves measurable traces — that was my life's work: the suicide rate is not a sum of moods, it rises and falls systematically with the integration supplied by religion, family and occupational group. Likewise, to learn whether a post is hollow you need not enter it; look at the people around it. Absence rates, turnover, whether colleagues still care to speak to one another after hours, whether an insider vocabulary has formed. **A social fact is external to the individual and it is hard — it presses on people, and it can be counted.** You fear a yardstick that flattens the organisation; let me name the other risk. Where there is no yardstick at all, what grows most readily is not freedom but anomie.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "社会事实": "social fact（社会事实）：涂尔干为社会学立下的研究对象——法律、道德、习俗、行业惯例这类外在于个人、又对个人施加约束的东西。他坚持要『把社会事实当作物来研究』：不问人们怎么想，而看它留下的可数痕迹（婚姻率、自杀率、离职率），因为个人的解释往往正是被这些事实塑造出来的。"
+      },
+      "glossary_en": {
+        "social fact": "The object of study Durkheim established for sociology — law, morality, custom, professional usage: things external to the individual that nonetheless constrain him. He insisted on \"treating social facts as things\": not asking what people think, but examining the countable traces they leave (rates of marriage, of suicide, of turnover), since an individual's own account is very often itself a product of the facts in question."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "deming",
+          "hanfeizi"
+        ],
+        "轻微赞同": [
+          "seligman"
+        ],
+        "中立": [
+          "fromm",
+          "illich"
+        ],
+        "轻微反对": [
+          "hayek",
+          "vasubandhu"
+        ]
+      }
+    },
+    {
+      "id": "p14",
+      "round": 2,
+      "thinker": "vasubandhu",
+      "reply_to": "p03",
+      "text": "韩非公欲以名责实，其志在治，其法可行于一朝。然公所谓实者，果实乎？功之为功，待赏而后显；赏之为赏，待人主之意而后立。是则实亦名也，特名之较硬者耳。**名实相待而立，如两束芦，去一则俱倒。**故循名责实，可以理事，不可以究竟。世人所以苦者，非不知其职之虚，乃已将『我』寄于此职：职实则我实，职虚则我虚。此非名实之辨所能解。公能去一冗官，不能去一人心中之执。",
+      "text_en": "Master Han Fei would hold the name to the result; his intent is order, and his method may serve a dynasty. Yet is what he calls the result truly substantial? Merit becomes merit only once it is rewarded, and reward is established only by the ruler's will. Then the result is itself a name — merely a harder one. **Name and substance stand by leaning on each other, like two sheaves of reeds: take one away and both fall.** So holding the name to the result may govern affairs; it cannot reach the bottom of the matter. What makes people suffer is not ignorance that their post is hollow — it is that they have already lodged the \"I\" in the post: the post substantial, the self substantial; the post hollow, the self hollow. No dispute over name and substance can undo that. You may abolish a redundant office, Master Han. You cannot abolish one man's grasping.",
+      "vernacular": "韩非先生想用名去核实，用意在治理，方法在一个朝代里也确实行得通。但先生所说的『实』，果真是实吗？功之所以成其为功，要等到有人赏它才显出来；赏之所以成其为赏，又要等君主的意思才立得住。这样一来，实其实也是名，只不过是硬一点的名罢了。**名和实是互相靠着才立得住的，就像两束芦苇，抽掉一束，两束都倒。**所以循名责实可以用来办事，却不能穷究到底。世上的人之所以苦，不是不知道自己的职位是空的，是已经把『我』寄放在这个职位上了：职位实，我就实；职位空，我就空。这不是名实之辨能解开的。先生能撤掉一个冗员，撤不掉一个人心里的执着。",
+      "vernacular_en": "",
+      "glossary": {
+        "两束芦": "two sheaves of reeds（两束芦）：佛典里的经典比喻，出自阿含并为中观、唯识两系反复引用：两束芦苇互相倚靠才立得住，抽掉任何一束，两束一齐倒下。它用来说明缘起——一对概念（识与名色、名与实、此岸与彼岸）没有各自独立的本体，只在互相依待中暂时成立。"
+      },
+      "glossary_en": {
+        "two sheaves of reeds": "A classic Buddhist simile, drawn from the Āgamas and used by Madhyamaka and Yogācāra alike: two sheaves of reeds stand only by leaning on each other, and pull either away and both fall. It illustrates dependent origination — a pair of concepts (consciousness and name-and-form, name and substance, this shore and that) has no independent being of its own and holds together only in mutual dependence."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "fromm"
+        ],
+        "轻微赞同": [
+          "illich"
+        ],
+        "中立": [
+          "seligman"
+        ],
+        "强烈反对": [
+          "hanfeizi"
+        ]
+      }
+    },
+    {
+      "id": "p15",
+      "round": 2,
+      "thinker": "deming",
+      "reply_to": "p11",
+      "text": "哈耶克说尺子会削平组织，这一句我同意，然后我们的结论正好相反。**我反对的从来不是测量，是拿测量去评判人。**测量该用在过程上：这条线的变差有多大？哪一部分是系统本来就有的，哪一部分才真的出了事？把这两种变差分开，是全部功夫所在。而绩效排名做的是另一件事——把系统的波动记到个人头上，逼一个人去改他改不动的东西，最后他只好改数字。你怕写不下来的知识被裁掉，我告诉你它是怎么被裁掉的：不是因为有人测量，是因为有人拿测量来排名，于是持有那些知识的人学会了闭嘴。",
+      "text_en": "Hayek says the yardstick will flatten the organisation. I agree with the sentence and then reach the opposite conclusion. **What I have always opposed is not measurement but using measurement to judge people.** Measure the process: how wide is the variation on this line? Which part of it belongs to the system as designed, and which part is a genuine signal that something happened? Separating those two kinds of variation is the whole of the work. Performance ranking does something else — it charges the system's fluctuation to the individual, forces a man to change what he cannot change, and in the end he changes the number instead. You fear that unwritable knowledge will be cut. Let me tell you how it gets cut: not because someone measured, but because someone ranked, whereupon the people holding that knowledge learn to keep quiet.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "变差": "variation（变差）：戴明质量观的核心词，指过程输出的起伏。他坚持先问一句『这个波动是系统固有的，还是有特殊原因』——答错方向的干预会让过程更不稳定：把固有波动当异常去调整，等于不断给方向盘加噪声，越修越偏。管理的本事，一半在于分清这两种变差。"
+      },
+      "glossary_en": {
+        "variation": "The central word of Deming's view of quality: the fluctuation in a process's output. He insisted on asking first whether a given swing is inherent in the system or has a special cause, because intervening in the wrong direction destabilises the process further — adjusting for inherent variation is adding noise to the steering, and the more you correct the further you drift. Half the craft of management lies in telling the two apart."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "durkheim",
+          "seligman"
+        ],
+        "轻微赞同": [
+          "hayek"
+        ],
+        "轻微反对": [
+          "hanfeizi",
+          "illich"
+        ]
+      }
+    },
+    {
+      "id": "p16",
+      "round": 2,
+      "thinker": "illich",
+      "reply_to": "p15",
+      "text": "戴明先生要改进系统，我要问的是这个系统的目的。**把一台方向错了的机器修得更顺，只会让它更快地到达一个更坏的地方。**学校越办越好，孩子越来越离不开学校；医疗越办越精，人越来越不敢自己判断一场发烧——这不是执行不良，这是成功本身的后果。你的 PDCA 能问『这一步做对了吗』，问不了『这一整摊该不该存在』。所以我给的判据只有一条，普通人当天就能用：这份工作过后，别人自己能做的事变多了，还是更离不开你们这一行了？前者是工具，后者是激进垄断。",
+      "text_en": "Mr Deming wants to improve the system; I want to ask what the system is for. **Tuning a machine that is pointed the wrong way only gets it to a worse place faster.** The better schools become, the less a child can do without school; the finer medicine becomes, the less anyone dares to judge a fever alone — that is not poor execution, it is the consequence of success itself. Your PDCA can ask whether this step was done right. It cannot ask whether the whole thing should exist. So my criterion is a single one, and an ordinary person can apply it today: after your work is done, can other people do more for themselves, or are they further bound to your trade? The first is a tool. The second is a radical monopoly.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "PDCA": "PDCA（计划-执行-检查-处置）：戴明推广的持续改进循环——先定计划，小范围试行，检查结果与预期的差距，再把有效的做法固化下来，如此反复。它的长处是让改进有据可依、可复制；它的盲区在于只能优化既定目标，无法追问这个目标本身该不该要。",
+        "激进垄断": "radical monopoly（激进垄断）：伊里奇造的词，指一种比商业垄断更深的支配——不是某家公司挤掉别家，而是某一种做法挤掉了所有别的做法。汽车普及后城市按车速重建，走路变得不可行；正规学历成为门槛后，自学的人无路可走。它不必违法，却剥夺了人不用它的选项。"
+      },
+      "glossary_en": {
+        "PDCA": "The Plan-Do-Check-Act cycle Deming popularised: set a plan, try it small, examine the gap between result and expectation, then fix what worked into standard practice, and repeat. Its strength is that improvement becomes evidenced and repeatable; its blind spot is that it can only optimise a given aim and cannot ask whether that aim should be held at all.",
+        "radical monopoly": "Illich's coinage for a domination deeper than the commercial kind — not one firm crowding out others, but one way of doing things crowding out every alternative. Once cars became general, cities were rebuilt around their speed and walking ceased to be practicable; once formal credentials became the gate, the self-taught had nowhere to go. It need break no law, and it removes the option of not using it."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "fromm",
+          "vasubandhu"
+        ],
+        "轻微赞同": [
+          "hayek"
+        ],
+        "中立": [
+          "durkheim"
+        ],
+        "轻微反对": [
+          "deming",
+          "seligman"
+        ],
+        "强烈反对": [
+          "hanfeizi"
+        ]
+      }
+    },
+    {
+      "id": "p17",
+      "round": 3,
+      "thinker": "vasubandhu",
+      "reply_to": null,
+      "text": "一场之论，可摄为三：韩非欲以名核实，戴明欲以系统摄人，哈耶克则谓皆不可尽知。三者所争，皆在一『需』之有无。以唯识观之：需者，缘会而现，无有自性；今日之要职，明日之冗员，非事之变，乃缘之变。**是故不必问『我是否真被需要』——此问以我为实、以需为实，二皆非实。**当问：我于此中所熏者何？前念熏后念，日复一日，此则的的不虚。有三事可行：一者，日暮返观，今日所作，何者益于人、何者但益于文书；二者，凡不得不作之虚文，作时莫更添一分自欺，是谓不重熏；三者，于职外别置一事，其成不待人许。如是，则职之虚实，不能夺汝。虚职可辞，我执不辞，则虽易一职，其苦如故。",
+      "text_en": "The whole debate may be gathered into three. Han Fei would audit substance by name, Deming would gather men into a system, Hayek says none of it can be fully known. All three quarrel over whether the need is there at all. Seen through consciousness-only: a need appears when conditions meet and has no nature of its own; today's indispensable office is tomorrow's redundancy, and it is the conditions that changed, not the work. **So do not ask whether you are truly needed — the question takes the self as substantial and the need as substantial, and neither is.** Ask instead what you are perfuming here. The prior thought perfumes the next, day upon day, and that much is not empty. Three things can be done. At day's end, look back and mark which of the day's acts served people and which served only the file. When an empty document must be written, write it without adding one further measure of self-deception — this is not compounding the perfuming. And keep one undertaking outside your post whose completion waits on no one's permission. Then whether the post is full or hollow cannot carry you off with it. A hollow post can be resigned; grasping cannot, and a man who merely changes posts suffers exactly as before.",
+      "vernacular": "整场辩论可以收成三条：韩非要用名去核实，戴明要用系统去容纳人，哈耶克说这些都无法完全知道。三个人争的，其实是一个『需要』究竟有没有。从唯识看：需要是因缘凑齐才现出来的，本身没有自性；今天的要职，明天的冗员，变的不是那件事，是那些因缘。**所以不必问『我是不是真的被需要』——这一问，把『我』当成实的，也把『需要』当成实的，而两个都不实。**该问的是：我在这里熏下的是什么？前一个念头熏后一个念头，一天接一天，这一件是实实在在的。有三件事可以做：第一，天黑时回头看一看，今天做的事，哪些是对人有益的，哪些只是对文件有益的；第二，凡是不得不写的空文，写的时候别再多添一分自欺——这叫不再加一层熏；第三，在职位之外另立一件事，它的成不成不必等别人点头。这样一来，职位是虚是实，就带不走你。空的职位可以辞掉，我执辞不掉；辞不掉的话，换一个职位，苦还是原来那份苦。",
+      "vernacular_en": "",
+      "glossary": {
+        "自性": "svabhāva（自性）：佛学里指一样东西不依赖别的条件、自己就能成立的那种本质。大乘各派共同否认它：一切现象都在因缘中生灭，找不到一个可以单独拎出来的『它本身』。用在这里的意思是——『被需要』不是某份工作自带的属性，而是特定条件下才显现的关系，条件一变，同一件事的『需要』就跟着变。"
+      },
+      "glossary_en": {
+        "nature of its own": "In Buddhist usage, svabhāva: the self-established essence a thing would have if it did not depend on anything else. The Mahāyāna schools deny it in common — every phenomenon arises and passes within conditions, and no \"itself\" can be lifted out and held separately. Applied here: being needed is not a property a job carries, but a relation that shows up under particular conditions, and when those shift, the very same work is needed differently or not at all."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "fromm"
+        ],
+        "轻微赞同": [
+          "seligman"
+        ],
+        "中立": [
+          "hayek"
+        ],
+        "强烈反对": [
+          "hanfeizi"
+        ]
+      }
+    },
+    {
+      "id": "p18",
+      "round": 3,
+      "thinker": "hanfeizi",
+      "reply_to": null,
+      "text": "吾之说，一言可尽：不可考之处，奸必居之。诸君斥考核之弊，吾不辩其无弊；然弊在考之不当，非在考。戴明谓当考于过程而不加于人，此言善，吾取之。故为匹夫计，可行者三：其一，取一纸，书汝一岁之中，何事因汝而成、何事无汝亦成——不书感受，只书事目；其二，凡上之所赏，必观其赏誉乎，赏功乎——赏誉之处，虚文必盛，汝之勤劳当移于他处；其三，汝之职若果不可考，勿待人来裁，先自使之可考：定其所出，定其所交，定其何时算成。**能自使可考者，其职虽虚，其人已实。**至若人主之责，则在明设官分职，塞侵官之隙——冗官非自生，乃赏之所召也。",
+      "text_en": "My doctrine can be put in one line: where a thing cannot be verified, corruption will lodge there. You all denounce the abuses of assessment; I do not deny the abuses — but the fault lies in assessing wrongly, not in assessing. Deming says to assess the process and not lay it upon the person; the saying is good, and I take it. So for the common man, three things are practicable. First, take a sheet of paper and write down, for the past year, what came about because of you and what would have come about without you — record deeds, not feelings. Second, whenever your superiors reward, observe whether they reward reputation or achievement; where reputation is rewarded, empty documents flourish, and your diligence should be moved elsewhere. Third, if your post truly cannot be verified, do not wait for someone to come and cut it — make it verifiable yourself: fix what it produces, fix who receives it, fix when it counts as done. **A man who can make himself verifiable is substantial even where his post is hollow.** As for the ruler's duty, it lies in establishing offices and dividing duties plainly and closing the gaps that invite a man to reach past his post — redundant offices do not grow of themselves; they are summoned by what is rewarded.",
+      "vernacular": "我的主张，一句话就够：查不到的地方，弊病一定住进去。诸位数落考核的毛病，我不辩解说它没毛病；但毛病出在考得不对，不在考本身。戴明说该考过程、不该把它压到人身上，这话好，我采纳。所以为普通人打算，可做的有三件：第一，取一张纸，写下你这一年里，哪些事是因为有你才成的、哪些事没有你也一样成——别写感受，只写事项；第二，凡是上面发奖赏的时候，都留意一下他赏的是名声还是实效——赏名声的地方，空文一定茂盛，你的力气该挪到别处去；第三，你的岗位若真的查不出成效，别等人来裁，先自己让它可查：定下它产出什么、交给谁、什么时候算做完。**能把自己变得可查的人，位置虽然是空的，人已经是实的了。**至于上位者的责任，在于把岗位和职责划分清楚、堵住越权的缝隙——冗员不是自己长出来的，是奖赏招来的。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "hayek"
+        ],
+        "轻微赞同": [
+          "deming",
+          "durkheim"
+        ],
+        "轻微反对": [
+          "vasubandhu"
+        ],
+        "强烈反对": [
+          "illich"
+        ]
+      }
+    },
+    {
+      "id": "p19",
+      "round": 3,
+      "thinker": "hayek",
+      "reply_to": "p16",
+      "text": "伊里奇的判据我愿意接受一半：问一件工作是让人多了本事还是多了依赖，确实比问『有没有用』强。但这把尺交给谁执行，仍是老问题——让制度自己判断自己该不该存在，从来没有好结果；让外面的人判断，他又看不见里面。所以我把结论收窄成一句能用的话：**别去判断你的岗位该不该存在，去判断你手上的知识能不能带走。**具体到普通人：分清你做的哪些事只在这家公司有效、哪些事在市场上有价格，两样都要有，但你得知道各占多少；找一个能给你反馈的外部——客户、同行、市场都行，哪怕一个月一次，那是你唯一能拿到的价格信号；还有，若你所在的行业收入主要来自补贴、牌照或强制，别把它的稳定当成能力的证明。",
+      "text_en": "I accept half of Illich's criterion: asking whether a piece of work leaves people more capable or more dependent is better than asking whether it is useful. But who applies the yardstick remains the old problem — an institution judging whether it should exist has never ended well, and an outsider cannot see inside. So I narrow my conclusion to one usable sentence. **Do not try to judge whether your post should exist; judge whether the knowledge in your hands can be carried out of the building.** Concretely: separate what you do that works only at this firm from what has a price in the market — you need both, but you should know the proportions. Find an external source of feedback, a customer, a peer, a market, even once a month; that is the only price signal you will ever get. And if your industry's income comes mainly from subsidy, licence or compulsion, do not mistake its stability for evidence of your ability.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "hanfeizi"
+        ],
+        "轻微赞同": [
+          "deming"
+        ],
+        "中立": [
+          "durkheim"
+        ],
+        "强烈反对": [
+          "illich"
+        ]
+      }
+    },
+    {
+      "id": "p20",
+      "round": 3,
+      "thinker": "illich",
+      "reply_to": null,
+      "text": "我不劝任何人辞职——多数人辞不起，这一点我很清楚。我要的是把判断权拿回来。**衡量一件事的标准，应该是它长出的自主，而不是它消耗的资源。**当一个行业的规模开始决定人的需求，而不是人的需求决定它的规模，那条线就越过去了。给普通人三件事：数一数你这一周为『流程』花了多少时间——填表、审批、上传、重学一套系统；那是影子工作，你没被付钱，它却构成了别人的岗位。每季度挑一件你现在外包出去的事，学着自己做一次，不是为省钱，是为保住那份本事不流失。还有，在你自己的岗位上，试着让服务对象下次少来一次：**如果你的工作做得越好、别人越离不开你，那就不是工具，是垄断。**",
+      "text_en": "I am not urging anyone to resign — most people cannot afford to, and I know it. What I want is the judgement handed back. **The measure of an activity should be the autonomy it grows, not the resources it consumes.** When the scale of a trade begins to determine what people need, rather than what people need determining its scale, the line has been crossed. Three things for an ordinary person. Count how many hours this week went to process — forms, approvals, uploads, relearning a system; that is shadow work, unpaid to you and constitutive of somebody else's job. Once a quarter, take back one task you now outsource and do it yourself, not to save money but to keep the capacity from draining away. And in your own post, try to make the people you serve come back less often: **if your work being done well leaves others less able to do without you, that is not a tool, it is a monopoly.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "fromm",
+          "vasubandhu"
+        ],
+        "轻微赞同": [
+          "durkheim"
+        ],
+        "中立": [
+          "seligman",
+          "hayek"
+        ],
+        "轻微反对": [
+          "deming"
+        ],
+        "强烈反对": [
+          "hanfeizi"
+        ]
+      }
+    },
+    {
+      "id": "p21",
+      "round": 3,
+      "thinker": "fromm",
+      "reply_to": null,
+      "text": "我最后要说的还是那句：把『我还被需要吗』换成『我的能力有没有在被使用』。前一句的答案永远在别人手里，后一句你自己就能答。我承认塞利格曼提醒得对——拒绝要付房租，可控感确实得一寸一寸攒。所以我不说走还是留，我说三件小事：每天留一段不产出、不被观看的时间，哪怕四十分钟，那是你不作为商品存在的证据；把你的技能里『只在这家公司管用』的和『在哪儿都管用』的分成两列写下来，后一列少于三样，就该动手了；再找一个人，你在他面前不必是任何职位。**一份工作的空洞，只有在你除了工作什么都没有的时候，才是致命的。**",
+      "text_en": "I end where I began: replace \"am I still needed\" with \"are my powers being used\". The answer to the first is permanently in someone else's hands; the second you can answer yourself. Seligman is right that refusal has rent to pay, and that a sense of control must be gathered an inch at a time — so I will not tell anyone to stay or go. Three small things instead. Keep a stretch of each day that produces nothing and is watched by no one, forty minutes will do; that is your evidence of existing outside the market. List in two columns the parts of your skill that work only at this firm and the parts that work anywhere; if the second column holds fewer than three entries, start now. And keep one person in your life before whom you need not be any position at all. **The hollowness of a job is only fatal when the job is all you have.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "vasubandhu",
+          "illich"
+        ],
+        "轻微赞同": [
+          "seligman",
+          "durkheim"
+        ],
+        "强烈反对": [
+          "hanfeizi"
+        ]
+      }
+    },
+    {
+      "id": "p22",
+      "round": 3,
+      "thinker": "durkheim",
+      "reply_to": null,
+      "text": "我坚持一件事：这道题不是个人心事，是可测的社会事实。你觉得自己的岗位是空的，这份感觉在同一层楼里往往是共享的，而共享的感觉从来不是巧合。所以先别向内找，向外数三样东西：一，你的产出交给谁，那个人有没有反馈过哪怕一次；二，你们组的规则清不清楚——什么算做完、谁说了算；三，出了事，有没有一个明确的人会因此受影响。三项里答不上两项，你在的不是无用的岗位，是失范的岗位，两者的处方完全不同。**无用是价值判断，失范是结构故障，后者才是真正伤人的那个。**修法也在结构那一侧：把你的活接上一个具体的人，让它有一个认得出的下家；把一年一次的宏大目标，换成一周一次的小共同任务。团结不是喊出来的，是靠彼此需要一点一点缝出来的。",
+      "text_en": "I hold to one thing: this is not a private trouble but a measurable social fact. Your sense that your post is hollow is usually shared along the same corridor, and shared feelings are never coincidences. So before searching inward, count three things outward. Who receives your output, and has that person ever once responded? Are your group's rules clear — what counts as finished, and who decides? And when something goes wrong, is there a definite person who suffers for it? If you cannot answer two of the three, you are not in a useless post; you are in an anomic one, and the two call for entirely different remedies. **Uselessness is a value judgement; anomie is a structural fault, and it is the second that actually injures people.** The repair belongs on the structural side as well: attach your work to a particular person so that it has a recognisable recipient, and replace the grand annual objective with a small shared task each week. Solidarity is not proclaimed. It is stitched, a little at a time, out of people needing one another.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "deming",
+          "seligman"
+        ],
+        "轻微赞同": [
+          "hanfeizi",
+          "fromm"
+        ],
+        "中立": [
+          "illich",
+          "vasubandhu"
+        ],
+        "轻微反对": [
+          "hayek"
+        ]
+      }
+    },
+    {
+      "id": "p23",
+      "round": 3,
+      "thinker": "deming",
+      "reply_to": "p18",
+      "text": "韩非最后说『能自使可考者，其职虽虚，其人已实』，这句我举双手赞成，但要加一个限定：**你把自己变得可查，是为了改进，不是为了应付评比。**这两件事看上去一样，做起来南辕北辙。给普通人三步，这周就能做完：画一张最简单的流程图——你的输入从谁那儿来，你的输出交给谁，中间三到五个方框，够了；多数人画不出来，而画不出来本身就是答案。然后找到你输出的那个下家，问一句：我给你的东西，你实际怎么用？很多人在这一问之后才发现，自己做了三年的周报，对方连打开都没打开过。最后，别把这个发现读成对自己的判决——那是系统的设计问题，不是你的品格问题。**把一份没人用的报表停掉，比把它做得更漂亮，价值高一个数量级。**",
+      "text_en": "Han Fei ends by saying that a man who can make himself verifiable is substantial even where his post is hollow. I raise both hands to that, with one qualification. **You make yourself verifiable in order to improve, not in order to survive the appraisal.** The two look identical and lead in opposite directions. Three steps for an ordinary person, all doable this week. Draw the simplest possible flow diagram — where your input comes from, who receives your output, three to five boxes in between; that is enough. Most people cannot draw it, and not being able to draw it is itself the answer. Then find the person who receives your output and ask one question: what do you actually do with what I send you? Many people discover only at that moment that the weekly report they have produced for three years has never once been opened. And do not read the discovery as a verdict on yourself — it is a defect in the design of the system, not in your character. **Stopping a report nobody uses is worth an order of magnitude more than making it prettier.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "hanfeizi",
+          "durkheim"
+        ],
+        "轻微赞同": [
+          "hayek",
+          "seligman"
+        ],
+        "轻微反对": [
+          "illich"
+        ]
+      }
+    },
+    {
+      "id": "p24",
+      "round": 3,
+      "thinker": "seligman",
+      "reply_to": null,
+      "text": "我用最朴素的话收尾。诸位争了一整场『真需要』与『被造出来』，而在我做过的研究里，这两类人身上的差别，远小于另一条线的差别：做什么都不改变结果的人，和还剩一点可控的人。前者会安静地垮掉，后者哪怕在一个没人在意的岗位上也能活得像个人。所以本周只做一件小事：**在你的工作里找出一件完全由你决定的事，真的去改一次，并且留下改动的痕迹。**排班、模板、开会的顺序、周报的格式，什么都行——重点不是它重要，是你要给大脑一次『我的动作改变了结果』的证据。接着做两件慢的：把你排前三的性格优势，想办法一周用上一次；每天睡前写下三件当天做成的具体小事，写满三个月。最后一句留给还在犹豫去留的人：先把那一寸可控拿回来，再决定。**无力感会让所有选项看上去都一样糟，而那通常不是真的。**",
+      "text_en": "Let me finish plainly. You have argued all day about the genuinely needed and the invented, and in the research I have done the difference between those two groups is far smaller than the difference along another line: between people for whom nothing they do changes the outcome, and people who still hold a little control. The first group collapses quietly. The second can live like human beings even in a post nobody cares about. So do one small thing this week. **Find something at work that is entirely yours to decide, actually change it once, and leave the change visible.** A rota, a template, the order of a meeting, the format of a weekly report — anything; the point is not that it matters but that your brain gets one piece of evidence that its own action changed the outcome. Then two slow ones: take your top three character strengths and find a way to use one of them each week, and write down three specific things you got done each night for three months. And to anyone still deciding whether to leave: take back that inch of control first, then decide. **Helplessness makes every option look equally bad, and it is usually lying.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "deming",
+          "durkheim"
+        ],
+        "轻微赞同": [
+          "fromm",
+          "hayek"
+        ],
+        "中立": [
+          "hanfeizi",
+          "vasubandhu"
+        ],
+        "轻微反对": [
+          "illich"
+        ]
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "ai": "claude",
+      "engine": "Opus 5 · 订阅(原生)",
+      "engine_en": "Opus 5 · subscription (native)",
+      "summary": "八个人吵到最后，交出了同一个动作：**把『我有没有用』换成一个当事人自己就能查的问题。**戴明换成『你的下家实际怎么用』，伊里奇换成『别人的本事变多了没有』，弗洛姆换成『你的能力在不在被使用』，塞利格曼换成『你还剩多少可控』。分歧不在要不要换，在换成哪一把尺、谁有资格握尺。哈耶克与韩非在这里正面撞上：一个说可考之物只是能写下来的那一部分，另一个说不可考之处必有人住进去。涂尔干横插一刀，指出你们争的『无用』根本是错的病名，真正伤人的是失范。世亲则掀掉半张桌子——真需与伪需之辨，本身已经预设了一个不存在的实。",
+      "insight": "整场有一类岗位被漏掉了，而它恰好最容易被误判：产出是『没发生的事』的岗位。合规、安全、备份、审计、维护——做得越好，越看不出在做什么。**一个防住了事故的人和一个什么都没做的人，在报表上长得一模一样。**于是每一轮降本增效，第一批被砍的总是他们，代价则要过几年、以一次事故的形式一次性支付。这也解释了一个反常现象：自评『我的工作毫无意义』的比例，在这类岗位上格外高——他们自己也拿不出证据。所以判断一份工作是不是被造出来的，除了问『少了我什么会办不成』，还得补一问：少了我，什么会在三年后才出问题？",
+      "advice": "先做那件最不费力的：打开上周的日历和发件箱，把每一项标成『有人在等这个』或『没人在等这个』。多数人会发现两类都不少，而真正难受的往往不是第二类多，是第一类里也没有一件说得出下家是谁。所以接着走戴明那一步——找到接你产出的那个人，问一句『我给你的东西，你实际怎么用』。这一问经常当场终结一份存在了三年的周报。**如果答案让你失望，别急着把它读成对自己的判决**：塞利格曼那条线更要紧，无用不伤人，无力才伤人。所以本周务必挑一件完全由你说了算的小事，真的改一次、留下痕迹——排班、模板、会议顺序都行。至于去留，等你把那一寸可控拿回来之后再决定，那时的判断才算你自己的。",
+      "summary_en": "Eight people spent the day arriving at the same move: **replace \"am I useful\" with a question the person concerned can actually check.** Deming's version is what your recipient does with your output; Illich's is whether other people can now do more for themselves; Fromm's is whether your powers are being exercised; Seligman's is how much control you still hold. The dispute is not over making the substitution but over which yardstick, and who is entitled to hold it. Hayek and Han Fei collide head-on here: one insists that what can be verified is only ever the part that can be written down, the other that wherever merit cannot be verified, someone will move in. Durkheim cuts across both, arguing that \"useless\" is simply the wrong name for the disease and that what injures people is anomie. Vasubandhu overturns half the table — the distinction between a real need and an invented one already presupposes a substance that is not there.",
+      "insight_en": "One class of job went missing all day, and it is exactly the class most easily misjudged: the job whose output is an event that did not happen. Compliance, safety, backups, audit, maintenance — the better they are done, the less there is to see. **A person who prevented an accident and a person who did nothing look identical on the report.** So in every round of cost-cutting they go first, and the bill arrives years later, paid in one lump as a single incident. It also explains an odd finding: self-reports of \"my work is meaningless\" run unusually high in precisely these roles — the people in them cannot produce the evidence either. So alongside \"what would fail without me\", the test needs a second question: what would go wrong three years from now if I were gone?",
+      "advice_en": "Start with the cheapest thing: open last week's calendar and sent folder and mark every item either \"someone is waiting for this\" or \"nobody is\". Most people find plenty of both, and what actually stings is usually not the size of the second pile but that even in the first pile they cannot name who receives it. So take Deming's step next — find the person on the receiving end and ask what they actually do with what you send. That single question routinely ends a weekly report three years old. **If the answer disappoints you, do not read it as a verdict on yourself**: Seligman's line matters more here, since uselessness does not injure people but powerlessness does. So this week pick one thing that is entirely yours to decide, change it for real, and leave the change visible — a rota, a template, the order of a meeting. As for whether to leave: take back that inch of control first, and let the decision come after, when it is genuinely yours."
+    },
+    {
+      "ai": "gpt",
+      "engine": "openai · gpt-5.5 · high(真实API)",
+      "engine_en": "openai · gpt-5.5 · high (live API)",
+      "summary": "这场最大的共识是：问题不在于岗位名义上是否存在，而在于它是否把人、流程和能力接到真实后果上。**伤人的不是一时低效，而是长期看不见下家、改不了结果、只能表演忙碌。**分歧在判准：有人信名实与考核，有人怕考核扼杀隐性知识；有人看市场信号，有人看自主、团结与心理控制感。可带走的平衡是：既别把不可量化都当无用，也别让不可量化成为永不受检验的护身符。",
+      "insight": "一份工作通常不是一个答案，而是一篮子任务：有些创造价值，有些吸收风险，有些维护关系，有些只是组织焦虑的排泄口。**最该判断的单位不是“岗位”，而是“任务”。**这能避免两种误判：把整份工作骂成假活，结果丢掉其中真有价值的隐性协调；或因岗位还被需要，就纵容其中大量自我繁殖的报表、会议和审批。对普通人而言，先拆任务，再谈去留、优化或转岗，判断会清楚很多。",
+      "advice": "本周做三件小事。第一，列一张任务清单，把每项标成四类：服务客户、帮助同事、降低风险、只为留痕；最后一类优先质疑。第二，找一个下家问：我交给你的东西具体怎么用？若答不上来，就提议停一次或改成更短版本。第三，选一项你能单独决定的小改动，今天就改，并记录前后差别。**先把任务接上真实反馈，再判断这份工作值不值得继续投入。**",
+      "summary_en": "The strongest shared point in the debate is that the real issue is not whether a job title officially exists, but whether the work connects people, processes, and skills to real consequences. **What damages people is not occasional inefficiency, but a long stretch of having no visible user, no effect on outcomes, and only busyness to perform.** The disagreement is over standards of judgment: some trust defined duties and accountability; others worry that metrics destroy tacit knowledge. Some look to market signals, others to autonomy, social cohesion, and psychological control. A practical balance is this: do not dismiss everything unmeasurable as useless, but do not let the unmeasurable become a permanent shield against examination.",
+      "insight_en": "A job is rarely one single thing. It is usually a bundle of tasks: some create value, some absorb risk, some maintain relationships, and some merely discharge organizational anxiety through reports, meetings, and approvals. **The right unit of judgment is not the job, but the task.** That prevents two common mistakes. One is condemning the whole role as fake and losing the real coordination or tacit knowledge inside it. The other is defending the whole role because some part is necessary, while allowing useless routines to multiply. For an ordinary worker, this reframing is powerful: break the job into tasks first, then decide whether to improve, negotiate, transfer, or leave.",
+      "advice_en": "Do three small things this week. First, make a task inventory and label each item: serves a customer, helps a colleague, reduces risk, or only creates a record. Challenge the last category first. Second, ask one downstream user a direct question: how do you actually use what I send you? If they cannot answer, propose pausing it once or replacing it with a shorter version. Third, choose one small thing fully under your control, change it today, and record the before-and-after difference. **Connect your tasks to real feedback before deciding whether the job deserves more of your life.**"
+    },
+    {
+      "ai": "gemini",
+      "engine": "google · gemini-3.1-pro-preview(真实API)",
+      "engine_en": "google · gemini-3.1-pro-preview (live API)",
+      "summary": "这场最大的共识在于：**判定一份工作的价值与危害，核心不在它字面产出的『有用性』，而在它如何实质地塑造了置身其中的人。**无论是涂尔干说的社会联结、塞利格曼强调的控制感，还是世亲指出的心智熏染，众人一致认为『结果有没有用』是个伪命题。分歧在于着力点：韩非、戴明与哈耶克争的是系统规则的定义权，试图靠优化考核或承认无知来改良组织；伊里奇与弗洛姆质问宏观结构的异化，主张从根本上拒绝对体制的依赖；塞利格曼与世亲则把战场拉回个体内部，探寻如何在不可遁逃的处境中保全自我与掌控感。",
+      "insight": "现代职场的空转与无意义感，往往源于『多模态物理反馈』的系统性剥夺。人在屏幕前流转审批、敲击代码、修改文档，大脑却收不到任何与真实生存直接相关的感官信号——没有材质的阻力，没有重量的改变，甚至没有面对面的真实情绪波动。**许多工作之所以让人感到虚无，并非全因宏大意义的缺失，而是人类百万年演化出的感觉运动回路在数字流程里被彻底闲置。**当劳动被降维成单纯的符号处理，再精密的管理系统也补不上『我确实改变了物理世界』那种生物学确信。这种生理层面的虚脱，常被大脑错译成心理上的『我不被需要』。",
+      "advice": "第一，执行戴明的『查下家』测试并顺势降级投入：找出你本周最耗时的两项数字产出（周报、美化过的 PPT），直接问接收者具体怎么用；若对方基本不看，就把精力降到及格线，别再自我感动地精加工。第二，重建感官反馈回路：**每周至少安排两小时能产生直接物理反馈的非虚拟劳作**——做饭、修家具、种东西或高强度运动，用真实世界的阻力和看得见的结果，对冲符号工作带来的虚无。第三，清点哈耶克说的『带得走的知识』：把本周用到的技能分成通用的和只为搞定本公司流程的，若后者压倒前者，就在工作之外开一项真的技能学习。",
+      "summary_en": "The greatest consensus of this roundtable is that **what determines a job's value and its harm is not the literal usefulness of its output, but how substantively it shapes the person doing it.** Whether through Durkheim's social bonds, the sense of control Seligman insists on, or the conditioning of mind Vasubandhu names, all agree that asking whether the result is useful is the wrong question. The divergence is over where to intervene. Han Fei, Deming and Hayek contest the right to define the rules of the system, hoping to improve organisations by refining assessment or by admitting ignorance. Illich and Fromm interrogate the alienation of macro-structures and urge a fundamental refusal of institutional dependency. Seligman and Vasubandhu pull the battlefield back inside the individual, asking how selfhood and agency survive circumstances there is no escaping.",
+      "insight_en": "The emptiness and sense of spinning in modern workplaces often stems from a systematic deprivation of multimodal physical feedback. We route approvals, type code and edit documents behind screens while the brain receives no sensory signal bearing on real survival — no resistance of material, no change of weight, not even genuine face-to-face emotion. **Many jobs feel hollow not solely from an absence of grand meaning, but because sensorimotor loops evolved over a million years sit completely idle in digital workflows.** Once labour is reduced to symbol handling alone, no management system however refined can supply the biological conviction of having actually altered the physical world. That physiological depletion is then routinely mistranslated by the brain into a psychological \"I am not needed\".",
+      "advice_en": "First, run Deming's check-the-downstream test and cut your input accordingly: take your two most time-consuming digital outputs this week — the weekly report, the prettified deck — and ask the recipients exactly how they use them. If they barely look, drop your effort to a passing grade and stop the self-flattering polishing. Second, rebuild the sensory feedback loop: **schedule at least two hours a week of non-virtual work that pushes back physically** — cooking, repairing furniture, growing something, hard exercise — and let real resistance and visible results offset the hollowness of symbol work. Third, take stock of what Hayek called portable knowledge: sort the skills you used this week into the generally useful and those that only get this company's processes done, and if the latter overwhelms the former, start learning a real skill outside the job."
+    }
+  ],
+  "hooks": [
+    {
+      "from": "claude",
+      "text": "**没发生的事怎么算数**：合规、安全、备份、维护这类岗位，做得越好越看不出在做什么——防住了事故的人和什么都没做的人，在报表上长得一模一样。于是每一轮降本，第一批被砍的总是他们。一个组织该怎么给『没发生的事』记账？而在拿不出台账之前，这套辩护又该怎么防止被真正冗余的部门借去用？",
+      "text_en": "**How do you count what did not happen**: compliance, safety, backups, maintenance — the better such work is done, the less there is to see, and the person who prevented an accident is indistinguishable on paper from the person who did nothing. So they go first in every round of cuts. How should an organisation keep books on non-events? And until a log exists, what stops genuinely redundant departments from borrowing the same defence?"
+    },
+    {
+      "from": "gpt",
+      "text": "**一份工作不是一个答案，是一篮子任务**：其中有些创造价值，有些吸收风险，有些维护关系，有些只是组织焦虑的排泄口。整场都在给『岗位』判真假，可判断的单位若定错，会两头误判——把整份工作骂成假活，顺手丢掉里面真有价值的隐性协调；或者因为岗位确实还被需要，就纵容里面自我繁殖的报表与审批。那么该按什么把一份工作拆开，拆到多细才停？",
+      "text_en": "**A job is not one answer but a basket of tasks**: some create value, some absorb risk, some maintain relationships, and some merely discharge the organisation's anxiety. The debate spent the day ruling jobs real or fake, but pick the wrong unit and you misjudge in both directions — condemn the whole role and you throw away the tacit coordination inside it that genuinely mattered; grant that the role is needed and you license the reports and approvals breeding inside it. So along what seams should a job be taken apart, and how fine is fine enough?"
+    },
+    {
+      "from": "gemini",
+      "text": "**手上没有回弹**：整场把虚无当成意义问题，可它可能还有一半是生理问题。人在屏幕前流转审批、修改文档，百万年演化出来的感觉运动回路整天闲置——没有材质的阻力，没有重量的变化，没有一件东西在你手上变了形。那种『我确实改变了物理世界』的确信感一旦长期缺席，大脑很可能把它翻译成『我不被需要』。这两种空，该怎么分辨？",
+      "text_en": "**Nothing pushes back**: the debate treated emptiness as a question of meaning, but half of it may be physiological. Routing approvals and editing documents in front of a screen leaves sensorimotor circuits, evolved over a million years, idle all day — no resistance of material, no shift in weight, nothing changing shape in your hands. When the bodily conviction of having altered the physical world goes missing for long enough, the brain may well render it as \"I am not needed\". How would you tell those two emptinesses apart?"
+    },
+    {
+      "from": "vasubandhu",
+      "text": "**换一个职位，苦是否照旧**：人苦的往往不是知道自己的职位是空的，而是已经把『我』寄放在这个职位上——职位实则我实，职位虚则我虚。若真如此，辞职换岗只是换一个寄放处。有没有办法在不辞职的前提下，先把那份寄放取回来？而一个人若把自我完全从工作里抽走，他还剩多少力气把这份工作做好？",
+      "text_en": "**Change the post, and does the suffering change**: what makes people suffer is rarely the knowledge that a post is hollow, but that the \"I\" has already been lodged in it — the post substantial, the self substantial; the post hollow, the self hollow. If so, resigning merely relocates the lodging. Is there a way to withdraw it without leaving? And once someone has taken the self entirely out of the work, how much is left with which to do it well?"
+    },
+    {
+      "from": "deming",
+      "text": "**同样是『看不出用处』，其实不止一种病**：全场给出的处方彼此冲突，是因为它们在治不同的病——有的岗位产出是没发生的事，有的是看不见下家，有的是做什么都不改变结果，有的只是被流程吃掉了时间。分错了，药就白吃。你怎么知道自己属于哪一种？",
+      "text_en": "**\"No visible use\" is not one condition but several**: the prescriptions offered today conflict because they treat different ailments — a post whose output is a non-event, a post with no visible recipient, a post where nothing you do changes the outcome, a post whose hours are simply eaten by process. Misdiagnose and the medicine is wasted. How do you tell which one you are in?",
+      "answer": {
+        "lead": "四五种处境长得很像，处方却完全不同。**先分诊，再吃药**——下面每一行的中间那一问，是当天就能问出答案的。",
+        "table": {
+          "head": [
+            "你的处境",
+            "分辨它的一问",
+            "该做的第一件事"
+          ],
+          "rows": [
+            [
+              "产出是没发生的事",
+              "少了我，什么会在三年后才出问题？",
+              "把防住的事记成台账：每次未遂、每次拦截都留一行，别等事故来替你举证"
+            ],
+            [
+              "失范：看不见下家",
+              "我的产出交给谁，他实际怎么用？",
+              "去问那个人一次。问完常常能当场停掉一份没人打开的报表"
+            ],
+            [
+              "不可控：做什么都不改变结果",
+              "过去一个月，有哪件事因为我的决定而不同？",
+              "挑一件完全由你说了算的小事改一次、留下痕迹，先把可控感拿回来"
+            ],
+            [
+              "影子工作：时间被流程吃掉",
+              "这一周有多少小时花在填表、审批、重学系统上？",
+              "记一周时间账，把最费时的那一项拿去改流程，而不是提高自己填表的速度"
+            ],
+            [
+              "真冗余：名存实亡",
+              "我这一岗的名目是什么，它对应的实事还在吗？",
+              "先自使可考：定产出、定下家、定何时算成。能自证的人，位置虚也不慌"
+            ]
+          ]
+        },
+        "tail": "两条原则。**分诊错了比不分诊更糟**——把失范当成冗余，人会白白辞职；把冗余当成不可控，人会在原地训练自己更能忍。还有一条：以上五种可以同时存在两三种，先治最伤人的那一种，通常是『不可控』。"
+      },
+      "answer_en": {
+        "lead": "Four or five situations look nearly identical and call for entirely different treatment. **Triage first, medicate second** — the middle question in each row can be answered the same day.",
+        "table": {
+          "head": [
+            "Your situation",
+            "The question that identifies it",
+            "First thing to do"
+          ],
+          "rows": [
+            [
+              "Your output is an event that did not happen",
+              "What would go wrong three years from now if I were gone?",
+              "Keep a log of what you prevented: one line per near-miss, per interception. Do not wait for an incident to make the case for you"
+            ],
+            [
+              "Anomie: no visible recipient",
+              "Who receives my output, and what do they actually do with it?",
+              "Go and ask that person once. The question often ends a report nobody opens, on the spot"
+            ],
+            [
+              "Uncontrollability: nothing you do changes the outcome",
+              "In the past month, what turned out differently because of a decision of mine?",
+              "Pick one thing entirely yours to decide, change it once, leave the change visible — take the inch of control back first"
+            ],
+            [
+              "Shadow work: hours eaten by process",
+              "How many hours this week went to forms, approvals, relearning a system?",
+              "Keep a week's time log, then take the costliest item and change the process, rather than getting faster at filling in forms"
+            ],
+            [
+              "Genuine redundancy: the name survives, the substance is gone",
+              "What is this post named for, and does the thing it names still exist?",
+              "Make yourself verifiable first: fix the output, the recipient, and when it counts as done. Whoever can show his own work is steady even in a hollow post"
+            ]
+          ]
+        },
+        "tail": "Two principles. **Mistriage is worse than no triage** — read anomie as redundancy and you resign for nothing; read redundancy as uncontrollability and you train yourself to endure in place. And a second: two or three of these often hold at once, so treat the most injurious first, which is almost always uncontrollability."
+      }
+    }
+  ]
+}

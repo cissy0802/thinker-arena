@@ -2,15 +2,6 @@
   "_comment": "议题投票数据。candidates=未辩候选(供投票)，debated=已辩(链到辩论)。投票免 GitHub 登录，存于自建后端(Cloudflare Worker + D1，见 ~/Desktop/cissy0802.github.io/engage-backend/)：每候选一个 poll，key='topic:'+id，choice up/down，净票=👍−👎。votes 字段由 routine 每次跑 `python3 refresh_votes.py`(读后端 /votes-net) 回写；页面 ideas.js 也会实时拉取覆盖显示。观众自提议题在评论 page='thinker-open-questions'，各候选下讨论 page='topic:'+id——routine 读这些把好提案提炼成新 candidates。新候选加进 candidates 即可。",
   "candidates": [
     {
-      "id": "eat-meat",
-      "votes": 0,
-      "q": "该不该吃肉？动物有没有值得我们尊重的道德地位？",
-      "q_en": "Should we eat meat? Do animals have a moral standing we're bound to respect?",
-      "note": "辛格说，能感受痛苦就该被纳入道德考量，『物种歧视』和种族歧视一样站不住脚；可儒家讲『亲亲而仁民、仁民而爱物』的差等之爱，庄子又说万物齐一。一个你每天在做、却很少严肃质疑的选择。",
-      "note_en": "Singer argues that whatever can suffer deserves moral consideration, and 'speciesism' is as indefensible as racism; yet Confucianism teaches a graded love radiating outward, and Zhuangzi sees all things as one. A choice we make daily but rarely question.",
-      "cat": "ethics"
-    },
-    {
       "id": "democracy-best",
       "votes": 0,
       "q": "民主一定是最好的制度吗？",
@@ -96,8 +87,8 @@
       "votes": 0,
       "q": "凡事都追求『最优／高效』，是不是正在系统性地掏空我们的韧性？",
       "q_en": "By chasing 'optimal' and 'efficient' in everything, are we systematically hollowing out our resilience?",
-      "note": "冗余、备份、『暂时没用的多样』，该不该刻意保留？　从供应链到个人生活，我们把冗余当浪费一路砍掉，换来风平浪静时的高效；可韧性恰恰藏在那些『用不上』的备份、多样与慢里。效率与韧性能不能兼得，还是终究得取舍？该在哪里刻意留白？也含面对小概率大灾难时的决策规则：科学给出的是区间、政策却只能落一个数字，该按最可能值还是按承受得起的最坏值来定——预防原则是审慎，还是让人瘫痪。　另含一条相邻角度：城市规划与算法在同一个方向上追求『无摩擦』——导航给点对点最短路径、外卖免掉去店里那一趟、推荐流滤掉不合口味的，物理世界的『撞见』与信息世界的『不期而遇』被同时剪掉；生活越来越像一次次搜索：带着目的去、拿到就走。摩擦、绕路与浪费掉的时间，能不能被有意识地重新装回去？ 也含国与国这一层：分工越细、比较优势越极致，断供与卡脖子的代价也越高——『把生产搬回本国』究竟是买保险，还是用效率换来的一层昂贵冗余？",
-      "note_en": "Should redundancy, backups, and 'currently useless' variety be deliberately kept? From supply chains to personal life, we cut redundancy as waste and buy efficiency for calm times; yet resilience lives precisely in the backups, variety and slack that look 'useless.' Can efficiency and resilience coexist, or must we trade them off — and where should we deliberately leave slack? It also carries the decision rule for low-probability, high-damage events: science hands over a range while policy can only settle on one number, so should it be set at the most likely value or at the worst one you could survive — is the precautionary principle prudence, or paralysis? One adjacent angle folded in: urban planning and algorithms both chase the frictionless — navigation supplies the shortest point-to-point route, delivery removes the trip to the shop, recommendation feeds filter out whatever is not to taste, and so bumping into someone physically and stumbling on something unexpected online are cut away together. Life comes to resemble a series of searches: arrive with a purpose, collect, leave. Can friction, detours and wasted time be deliberately built back in? It also covers the international layer: the finer the division of labour and the more extreme the comparative advantage, the costlier a cut-off or a chokepoint becomes — is reshoring production buying insurance, or paying for an expensive layer of redundancy with efficiency?",
+      "note": "冗余、备份、『暂时没用的多样』，该不该刻意保留？　从供应链到个人生活，我们把冗余当浪费一路砍掉，换来风平浪静时的高效；可韧性恰恰藏在那些『用不上』的备份、多样与慢里。效率与韧性能不能兼得，还是终究得取舍？该在哪里刻意留白？也含面对小概率大灾难时的决策规则：科学给出的是区间、政策却只能落一个数字，该按最可能值还是按承受得起的最坏值来定——预防原则是审慎，还是让人瘫痪。　另含一条相邻角度：城市规划与算法在同一个方向上追求『无摩擦』——导航给点对点最短路径、外卖免掉去店里那一趟、推荐流滤掉不合口味的，物理世界的『撞见』与信息世界的『不期而遇』被同时剪掉；生活越来越像一次次搜索：带着目的去、拿到就走。摩擦、绕路与浪费掉的时间，能不能被有意识地重新装回去？ 也含国与国这一层：分工越细、比较优势越极致，断供与卡脖子的代价也越高——『把生产搬回本国』究竟是买保险，还是用效率换来的一层昂贵冗余？　还有一条从『看不见的成功』来的角度：产出是「没发生的事」的岗位——合规、安全、备份、维护——做得越好越看不出在做什么，于是每一轮降本时第一批被砍；代价过几年才以一次事故的形式一次性支付。一个组织该怎么给没发生的事记账，又怎么防止真正冗余的部门借用同一套辩护？",
+      "note_en": "Should redundancy, backups, and 'currently useless' variety be deliberately kept? From supply chains to personal life, we cut redundancy as waste and buy efficiency for calm times; yet resilience lives precisely in the backups, variety and slack that look 'useless.' Can efficiency and resilience coexist, or must we trade them off — and where should we deliberately leave slack? It also carries the decision rule for low-probability, high-damage events: science hands over a range while policy can only settle on one number, so should it be set at the most likely value or at the worst one you could survive — is the precautionary principle prudence, or paralysis? One adjacent angle folded in: urban planning and algorithms both chase the frictionless — navigation supplies the shortest point-to-point route, delivery removes the trip to the shop, recommendation feeds filter out whatever is not to taste, and so bumping into someone physically and stumbling on something unexpected online are cut away together. Life comes to resemble a series of searches: arrive with a purpose, collect, leave. Can friction, detours and wasted time be deliberately built back in? It also covers the international layer: the finer the division of labour and the more extreme the comparative advantage, the costlier a cut-off or a chokepoint becomes — is reshoring production buying insurance, or paying for an expensive layer of redundancy with efficiency? A further angle comes from success that leaves no trace: roles whose output is an event that did not happen — compliance, safety, backups, maintenance — show less the better they are done, so they go first in every round of cuts, and the bill arrives years later as a single incident. How should an organisation keep books on non-events, and what stops genuinely redundant departments from borrowing the same defence?",
       "cat": "meta"
     },
     {
@@ -159,7 +150,7 @@
       "votes": 0,
       "q": "谁有权拿别人的人生下注？",
       "q_en": "Who is entitled to bet other people's lives?",
-      "note": "创始人、将领、政客付出的『不可撤销的代价』，押上的常常不是自己的东西　我们习惯把『为一个判断付出昂贵而不可撤销的代价』当成它出于远见而非豪赌的证据。可押上去的常常是员工的十年、股东的钱、士兵的命、一整条供应链的生计——事前有没有办法区分『自己下注』与『替别人下注』？如果一个人要求他人承担的风险远大于自己承担的，他展示的还算不算勇敢？再往下还有一问：被押上去的人凭什么算同意——一纸雇佣、一张选票、一道军令，够不够；押错之后又该怎么赔。亚里士多德的勇敢与鲁莽之辨、塔勒布的切肤之痛、马基雅维利、韦伯的责任伦理都能入场。　也含：当一个人永久失去自主能力，该按什么替他做决定——照他先前表达过的意愿，还是照旁人判断的最佳利益？以及父母替孩子承担风险时，可恢复的损失与一旦触到就回不来的损失，事前该怎么分辨。 也含：该不该给地球动手术——平流层遮阳、海洋施铁这类气候工程，由少数人决定、风险却落在所有人与后代身上，谁有资格按下这个开关。　同一道题的家庭版本：二十几岁的人要不要出走、要不要换城市，看起来是个人选择，实际由家庭这个单位承担——父母何时需要人在身边、家里有没有第二个人顶得上、汇款要不要继续。一个人的探索，该由谁一起签字？",
+      "note": "创始人、将领、政客付出的『不可撤销的代价』，押上的常常不是自己的东西　我们习惯把『为一个判断付出昂贵而不可撤销的代价』当成它出于远见而非豪赌的证据。可押上去的常常是员工的十年、股东的钱、士兵的命、一整条供应链的生计——事前有没有办法区分『自己下注』与『替别人下注』？如果一个人要求他人承担的风险远大于自己承担的，他展示的还算不算勇敢？再往下还有一问：被押上去的人凭什么算同意——一纸雇佣、一张选票、一道军令，够不够；押错之后又该怎么赔。亚里士多德的勇敢与鲁莽之辨、塔勒布的切肤之痛、马基雅维利、韦伯的责任伦理都能入场。　也含：父母替孩子承担风险时，可恢复的损失与一旦触到就回不来的损失，事前该怎么分辨。 也含：该不该给地球动手术——平流层遮阳、海洋施铁这类气候工程，由少数人决定、风险却落在所有人与后代身上，谁有资格按下这个开关。　同一道题的家庭版本：二十几岁的人要不要出走、要不要换城市，看起来是个人选择，实际由家庭这个单位承担——父母何时需要人在身边、家里有没有第二个人顶得上、汇款要不要继续。一个人的探索，该由谁一起签字？",
       "note_en": "the irreversible price paid by a founder, a general or a politician is usually not their own We habitually treat paying an expensive, irreversible price for a judgement as proof that it came from foresight rather than bravado. Yet what gets staked is usually ten years of employees' lives, shareholders' money, soldiers' lives, an entire supply chain's livelihood — so is there any way, before the result arrives, to tell betting your own stake from betting someone else's? If a person asks others to carry far more risk than they carry themselves, is what they display still courage? A further question follows: on what basis are the people staked said to have consented — does an employment contract, a vote or a military order suffice — and what is owed to them when the bet fails? Aristotle on courage versus recklessness, Taleb on skin in the game, Machiavelli, and Weber's ethic of responsibility all belong here. Also included: when someone permanently loses the capacity to decide, by what standard should others decide for them — their previously expressed wishes, or another's judgement of their best interests? And when parents take risks on a child's behalf, how does one tell in advance a recoverable loss from one there is no coming back from? Also: whether to operate on the planet — stratospheric sunshades, ocean iron fertilization and the like, decided by a few while the risk falls on everyone and on those not yet born. Who is entitled to press that switch? The household version of the same question: whether someone in their twenties leaves, or moves cities, looks like a personal choice yet is borne by the family as a unit — when parents will need somebody present, whether a second person at home can step in, whether the remittance continues. Who else should be signing off on one person's exploration?",
       "cat": "ethics"
     },
@@ -195,8 +186,8 @@
       "votes": 0,
       "q": "该坚持，还是该及时止损？",
       "q_en": "Persist, or cut your losses?",
-      "note": "一件看不到回报的事，撑下去是毅力还是沉没成本？　照顾一个不会好转的病人、守着一份没有反馈的研究、写一本可能没人读的书——需要三年的耐力和需要三秒的胆量几乎不共用同一套机制：后者靠一次到位的动作，前者靠意义结构与能让你明天还起得来的日常。同一种坚持，事后既可能被叫作毅力，也可能被叫作不肯认输。有没有事前就能立的止损线？把退出条件写下来，是先认输，还是让投入变得付得起？达克沃思的 grit 对上卡尼曼的沉没成本谬误，弗兰克尔的意义对上『及时放弃也是一种能力』。",
-      "note_en": "When something shows no return, is staying with it grit or sunk cost? Caring for a patient who will not recover, staying with research that gives no feedback, finishing a book that may go unread — three years of endurance and three seconds of nerve barely share a mechanism: the second runs on one well-aimed action, the first on a structure of meaning and a routine that gets you up tomorrow. The same persistence is called tenacity or refusal to admit defeat depending on how it ends. Can a stop-loss be set in advance, and does writing down your exit conditions concede the fight or make the commitment affordable? Duckworth on grit meets Kahneman on the sunk-cost fallacy, and Frankl on meaning meets the claim that quitting in time is itself a skill.",
+      "note": "一件看不到回报的事，撑下去是毅力还是沉没成本？　照顾一个不会好转的病人、守着一份没有反馈的研究、写一本可能没人读的书——需要三年的耐力和需要三秒的胆量几乎不共用同一套机制：后者靠一次到位的动作，前者靠意义结构与能让你明天还起得来的日常。同一种坚持，事后既可能被叫作毅力，也可能被叫作不肯认输。有没有事前就能立的止损线？把退出条件写下来，是先认输，还是让投入变得付得起？达克沃思的 grit 对上卡尼曼的沉没成本谬误，弗兰克尔的意义对上『及时放弃也是一种能力』。　另一条相邻角度：人苦的往往不是知道这件事是空的，而是已经把「我」寄放在它上面——它实则我实，它虚则我虚。若真如此，换一件事做只是换一个寄放处；有没有办法在不退出的前提下先把那份寄放取回来？",
+      "note_en": "When something shows no return, is staying with it grit or sunk cost? Caring for a patient who will not recover, staying with research that gives no feedback, finishing a book that may go unread — three years of endurance and three seconds of nerve barely share a mechanism: the second runs on one well-aimed action, the first on a structure of meaning and a routine that gets you up tomorrow. The same persistence is called tenacity or refusal to admit defeat depending on how it ends. Can a stop-loss be set in advance, and does writing down your exit conditions concede the fight or make the commitment affordable? Duckworth on grit meets Kahneman on the sunk-cost fallacy, and Frankl on meaning meets the claim that quitting in time is itself a skill. An adjacent angle: what makes people suffer is rarely knowing the thing is hollow, but that the \"I\" has already been lodged in it — it substantial, the self substantial; it hollow, the self hollow. If so, switching to something else merely relocates the lodging. Is there a way to withdraw it without leaving?",
       "cat": "self"
     },
     {
@@ -218,15 +209,6 @@
       "cat": "meta"
     },
     {
-      "id": "real-work-or-invented-roles",
-      "votes": 0,
-      "q": "你的工作是真被需要，还是被造出来的？",
-      "q_en": "Is your job actually needed, or was it invented?",
-      "note": "会照开、表照填、人人被需要，却没有一件事会因为你缺席而不成立。组织能不能批量制造出仪式性的岗位来维持活力？一个人怎么分辨自己每天做的事是被真实需要，还是被造出来让他有事做——而如果分辨出来了，又该拿这个答案怎么办。当岗位被切至极碎——分拣、审核、按脚本回话——\"事上磨练\"里那件值得磨的\"事\"本身也变小了：这条工夫论是否只对幸运的岗位成立？",
-      "note_en": "The meetings still held, the forms still filed, everyone needed — and nothing that would fail to happen in your absence. Can an organization manufacture ceremonial posts wholesale in order to keep itself busy? How does a person tell whether what they do each day is genuinely required or produced so they have something to do — and what should they do with the answer once they have it?. And when a role is sliced down to the finest grain — sorting, moderating, reading from a script — the \"affair worth tempering\" in classical work-discipline is itself shrunk: does that discipline still hold outside of the fortunate jobs?",
-      "cat": "work"
-    },
-    {
       "id": "credentials-and-licences",
       "votes": 0,
       "q": "文凭和执照，到底在保护谁？",
@@ -240,8 +222,8 @@
       "votes": 0,
       "q": "监控为什么总是朝下查？",
       "q_en": "Why does scrutiny always run downhill?",
-      "note": "被查的几乎总是位置更低的那一方：员工被背调、被绩效监控、被试用期，老板不被；保姆工作的家里装着摄像头，雇主家里没有；孩子的手机被翻，父母的不被。若『该不该核查』在实践中等于『上位者该不该用这项特权』，那么正当性是不是该用一条对等性判据来判——这项核查能不能反过来施加给提出它的人？还有一层现实的推力：当协作被拆到远程、外包、跨时区，一起挨骂、一起熬夜这些共同暴露的机会先没了，组织于是改用监控去补那个缺口——补得上吗，还是只是把成本换了个地方付？边沁的全景敞视、福柯的规训、法家的『察必有法』与信任的生理基础在此相撞。　另一面是举证责任的换肩：从前说一句『我有录音』就够了，如今得先证明录音不是合成的，而这份新增成本压在最没有资源的人身上——被欠薪的、被家暴的、遭遇医疗事故的。哪些事该在发生的当下就留证？制度该不该把自证责任还回去，让机构而非个人承担记录义务？",
-      "note_en": "The person checked is almost always the one lower down: employees get background checks, performance monitoring and probation periods while their bosses do not; there is a camera in the house where the nanny works and none in the employer's; the child's phone is searched and the parent's is not. If 'should there be verification' amounts in practice to 'should those above use this privilege', should legitimacy be settled by a reciprocity test — can this piece of scrutiny be turned around on whoever proposed it? There is also a structural push behind it: once work is broken into remote, outsourced, cross-time-zone pieces, the occasions for shared exposure disappear first and organisations reach for surveillance to plug the gap. Does it plug, or does it merely move where the cost is paid? Bentham's panopticon, Foucault on discipline, the Legalist demand that inspection follow public statute, and the physiology of trust all collide here. The other face of this is the shifting of the burden of proof: saying 'I have a recording' used to be enough, and now the recording itself must be shown not to be synthetic — a new cost that falls on those with the fewest resources, the unpaid worker, the battered partner, the victim of a medical error. What should be documented the moment it happens? And should the duty of record-keeping be handed back to institutions rather than left with individuals?",
+      "note": "被查的几乎总是位置更低的那一方：员工被背调、被绩效监控、被试用期，老板不被；保姆工作的家里装着摄像头，雇主家里没有；孩子的手机被翻，父母的不被。若『该不该核查』在实践中等于『上位者该不该用这项特权』，那么正当性是不是该用一条对等性判据来判——这项核查能不能反过来施加给提出它的人？还有一层现实的推力：当协作被拆到远程、外包、跨时区，一起挨骂、一起熬夜这些共同暴露的机会先没了，组织于是改用监控去补那个缺口——补得上吗，还是只是把成本换了个地方付？边沁的全景敞视、福柯的规训、法家的『察必有法』与信任的生理基础在此相撞。　另一面是举证责任的换肩：从前说一句『我有录音』就够了，如今得先证明录音不是合成的，而这份新增成本压在最没有资源的人身上——被欠薪的、被家暴的、遭遇医疗事故的。哪些事该在发生的当下就留证？制度该不该把自证责任还回去，让机构而非个人承担记录义务？　另一条相邻角度是被考核者的知识：能被考核的从来只是能被写下来的那一部分，而一个组织里最要紧的知识——谁跟哪个客户说得上话、哪条线快断了——恰恰写不下来。只考可考之物，这些知识会连同持有它们的人一起消失；更常见的是持有者学会闭嘴。",
+      "note_en": "The person checked is almost always the one lower down: employees get background checks, performance monitoring and probation periods while their bosses do not; there is a camera in the house where the nanny works and none in the employer's; the child's phone is searched and the parent's is not. If 'should there be verification' amounts in practice to 'should those above use this privilege', should legitimacy be settled by a reciprocity test — can this piece of scrutiny be turned around on whoever proposed it? There is also a structural push behind it: once work is broken into remote, outsourced, cross-time-zone pieces, the occasions for shared exposure disappear first and organisations reach for surveillance to plug the gap. Does it plug, or does it merely move where the cost is paid? Bentham's panopticon, Foucault on discipline, the Legalist demand that inspection follow public statute, and the physiology of trust all collide here. The other face of this is the shifting of the burden of proof: saying 'I have a recording' used to be enough, and now the recording itself must be shown not to be synthetic — a new cost that falls on those with the fewest resources, the unpaid worker, the battered partner, the victim of a medical error. What should be documented the moment it happens? And should the duty of record-keeping be handed back to institutions rather than left with individuals? An adjacent angle concerns the knowledge of those being assessed: what can be assessed is only ever what can be written down, while the knowledge that matters most in an organisation — who can get a word with which client, which line is about to break — is precisely what cannot. Assess only the assessable and that knowledge leaves with the people holding it; more often, they simply learn to keep quiet.",
       "cat": "work"
     },
     {
@@ -288,6 +270,15 @@
       "note": "举证责任在主张者、婚姻要双方同意、儿童不该做工——今天几乎不必再论证的判断，多半在几代人以前还是少数人的激进主张。论证在一个人身上很少奏效，却能在两三代之后变成默认：它先进教材，再进法律，最后进语感。这条传导链究竟怎么运作，中间漫长的成本由谁承担、谁最先付？反过来问同样锋利：今天被当成常识、其实从没被检验过的判断有哪些，又该怎么把它们找出来？",
       "note_en": "That the burden of proof lies with whoever asserts, that a marriage requires both parties' consent, that children should not work — judgements now barely in need of defence were, a few generations back, the radical claims of a minority. An argument seldom moves the person in front of you, yet two or three generations later it has become the default: into textbooks first, then law, finally the ear. How does that transmission actually work, who carries the long cost in between, and who pays first? The question cuts as sharply in reverse: which of today's unexamined common sense has never been tested, and how would you find it?",
       "cat": "meta"
+    },
+    {
+      "id": "who-sets-the-default",
+      "votes": 0,
+      "q": "默认选项是谁定的？",
+      "q_en": "Who gets to set the default?",
+      "note": "决定大多数人今天怎么做的，往往不是良心也不是选择，是默认值。一所学校、一家医院、一间公司食堂的菜单，一份退休金的默认缴费比例，器官捐献是默认同意还是默认拒绝，推荐流开箱时先放什么——一笔合同、一行配置抵得上几千人各自立誓。个人伦理讨论了几千年，设默认值这一端却几乎没有伦理学：谁有资格替几千人定这个值，该按什么标准，被设定的人凭什么算同意，又该怎么把它改回来？塞勒的助推与选择架构、密尔的自由原则、罗尔斯的正当程序都能入场。",
+      "note_en": "What determines how most people act today is often neither conscience nor choice but the default. A school, hospital or company canteen menu; the default contribution rate on a pension; whether organ donation is opt-in or opt-out; what a feed shows you before you touch it — one contract, one line of configuration outweighs thousands of private resolutions. Personal ethics has been debated for millennia while the setting of defaults has almost none: who is entitled to set one for thousands of people, by what standard, in what sense have those people consented, and how is it changed back? Thaler on nudges and choice architecture, Mill's liberty principle and Rawls on fair procedure all belong at the table.",
+      "cat": "ethics"
     }
   ],
   "debated": [
@@ -941,6 +932,20 @@
       "q_en": "When reason and faith collide, which should yield?",
       "date": "2026-08-23",
       "cat": "meta"
+    },
+    {
+      "id": "eat-meat",
+      "q": "该不该吃肉？动物有没有值得我们尊重的道德地位？",
+      "q_en": "Should we eat meat? Do animals have a moral standing we're bound to respect?",
+      "date": "2026-08-24",
+      "cat": "ethics"
+    },
+    {
+      "id": "real-work-or-invented-roles",
+      "q": "你的工作是真被需要，还是被造出来的？",
+      "q_en": "Is your job actually needed, or was it invented?",
+      "date": "2026-08-25",
+      "cat": "work"
     }
   ]
 }

@@ -752,8 +752,8 @@
       "summary_en": "Start with the hardest-won consensus: across East and West, ancient and modern, idealist and materialist, almost no one believes that directly chasing pleasure and satisfying desire can itself deliver happiness — temperance (Epicurus), letting go (Buddha, Naval), investing in meaning (Aristotle, Frankl), even reforming structures (Marx) are all about making room for something else. And, unusually, the whole panel landed on the same practical direction: rather than asking 'what is happiness,' improve your relationships, health, sense of control, and the fairness of your circumstances. The real disagreement is only over where the key sits — inner cultivation, outer distribution, or physiology — and how far happiness is clamped by a genetic set point (Sapolsky) and social structure (Marx) rather than freely chosen.",
       "insight_en": "What's most valuable here is that the debate doesn't stay up in the clouds: it plants both legs — social structure (Marx) and physiology (Sapolsky) — firmly on the ground. I noticed that almost all the 'turn inward and let go' wisdom quietly assumes a precondition: that you aren't actually starving, aren't being crushed by chronic stress. The tension between Buddha and Marx needn't be an either/or: structure provides the margin that makes 'letting go' possible; cultivation puts that margin to good use. The most honest answer for ordinary people may be layered — first shore up the floor with Sapolsky's physiological basics (sleep, lower stress, social connection) and Marx's improved circumstances, then reach for the ceiling with Seligman's and Frankl's methods — rather than opening in the clouds with 'what is happiness.'",
       "engine_en": "Opus 4.8 · subscription (native)",
-      "advice": "三条最实在的：① 先托住身体的下限——规律睡眠、运动、维系至少一段安全关系（萨波尔斯基），实打实降压力、稳情绪；② 给欲望做减法——逐条问「这渴望是必要的，还是攀比来的」，划掉非必要的、少和人比（伊壁鸠鲁、纳瓦尔）；③ 别追问「幸福是什么」，而去审计你的一天：多安排真正愉快的时段、和喜欢的人相处，能改的琐事（比如通勤）就改（卡尼曼）。",
-      "advice_en": "Three concrete moves: (1) shore up the body first — regular sleep, exercise, and at least one safe relationship (Sapolsky), which measurably lower stress and steady mood; (2) subtract from desire — ask of each craving “necessary, or born of comparison?”, cut the unnecessary, and compare yourself with others less (Epicurus, Naval); (3) stop asking “what is happiness” and audit your day instead — schedule more genuinely good hours and time with people you like, and fix the small miseries you can, like the commute (Kahneman)."
+      "advice": "三条最实在的：① 先托住身体的下限——规律睡眠、运动、维系至少一段安全关系（萨波尔斯基），实打实降压力、稳情绪；② 给欲望做减法——逐条问「这渴望是必要的，还是攀比来的」，划掉非必要的、少和人比（伊壁鸠鲁、纳瓦尔）；③ 别追问「幸福是什么」，而去审计你的一天：多安排真正愉快的时段、和喜欢的人相处，能改的琐事（比如通勤）就改（卡尼曼）；④ 每周留一件**为它本身而做**的事——一门手艺、一次创作、一场深谈：它不像买来的东西那样很快归于平淡，而是每次都要你重新投入，也就每次都还给你一点。",
+      "advice_en": "Three concrete moves: (1) shore up the body first — regular sleep, exercise, and at least one safe relationship (Sapolsky), which measurably lower stress and steady mood; (2) subtract from desire — ask of each craving “necessary, or born of comparison?”, cut the unnecessary, and compare yourself with others less (Epicurus, Naval); (3) stop asking “what is happiness” and audit your day instead — schedule more genuinely good hours and time with people you like, and fix the small miseries you can, like the commute (Kahneman); (4) keep one thing each week that you do **for its own sake** — a craft, a piece of work, a long conversation: unlike a purchase it does not flatten into the ordinary, because it asks you to engage afresh each time, and so gives something back each time."
     },
     {
       "ai": "gpt",
@@ -809,6 +809,77 @@
       "from": "gpt",
       "text": "**不快乐是报警器**：有些不快乐是信号，提示关系／工作／制度该改变，不应都被冥想和感恩「消音」——把所有负面情绪都调成静音，可能关掉了最该听的警报。",
       "text_en": "**Unhappiness is an alarm**: Some unhappiness is a signal that a relationship / job / institution should change, and shouldn't all be 'muted' by meditation and gratitude — silencing every negative emotion may switch off the very alarm you most need to hear."
+    },
+    {
+      "from": "sapolsky",
+      "text": "**幸福不可持续，是构造问题还是错把零件当整机？**多巴胺只对『意料之外』放电——奖赏一旦被预测到，放电就前移到预测信号上，完全预期的好状态是**零信号**。若人只认落差、不认状态，那『过上幸福生活』岂不是从设计上就无法完成？可这只是『想要』那一套；『喜欢』与『平静』另有回路。到底是硬件注定，还是我们把一套被工业化放大的系统当成了全部？",
+      "text_en": "**Is happiness unsustainable by design — or are we mistaking one part for the whole machine?** Dopamine fires only to the *unexpected*: once a reward is predicted, the firing shifts to the cue, and a fully anticipated good state produces **no signal at all**. If we register only deltas and not states, isn't 'living a happy life' uncompletable by design? Yet that is only the *wanting* system; *liking* and *contentment* run on other circuits. Is this hardware destiny, or have we mistaken one industrially amplified system for the whole of us?",
+      "answer": {
+        "lead": "两件事都真：**多巴胺确实是落差探测器**（奖赏预测误差），但**『快感机制』不止一套**——『想要』只认落差且不知餍足，『喜欢』与『平静』另有回路，只是被推送、榜单、无限下拉挤到了边上。更要紧的是：**适应不是定律，是有选择的**。",
+        "table": {
+          "head": [
+            "适应程度",
+            "典型事项",
+            "对你的意思"
+          ],
+          "rows": [
+            [
+              "几乎完全适应",
+              "涨薪、搬进大房子、买到心仪之物、结婚",
+              "靠『获得』买来的状态会迅速归零——押注在这里回报衰减最快"
+            ],
+            [
+              "不完全适应",
+              "丧偶、离婚、残疾",
+              "基线会真的移动，别用『人总会习惯的』安慰自己或别人"
+            ],
+            [
+              "几乎不适应",
+              "失业、慢性疼痛、长期噪音、糟糕通勤、恶劣关系",
+              "清除这些的收益**不会衰减**——这是最高杠杆的一格"
+            ],
+            [
+              "适应得最慢的『加法』",
+              "有难度、有变化、要投入的活动（技艺、创造、深交）",
+              "自带落差，所以不容易归零；把资源押这里"
+            ]
+          ]
+        },
+        "tail": "三条推论：① **别瞄准状态，瞄准活动**——买来的会归零，做出来的自带落差；② **先减后加**：既然人对慢性疼痛、糟糕通勤、恶劣关系几乎不适应，清掉它们比追加一次快感划算得多；③ **别直接追幸福**——享乐主义悖论早已指出，直接瞄准快乐反而得不到；实证还显示越看重幸福的人反而越孤独。真正被证伪的不是『幸福』，而是**『把幸福当成一个可以抵达并停留的状态』这个目标设定**——它更像副产品，不像目的地。"
+      },
+      "answer_en": {
+        "lead": "Both things are true: **dopamine really is a delta-detector** (reward prediction error), but **there is more than one pleasure system** — 'wanting' tracks only deltas and is never sated, while 'liking' and 'contentment' run on other circuits that push notifications, leaderboards and infinite scroll have shoved to the margins. More importantly: **adaptation is not a law, it is selective.**",
+        "table": {
+          "head": [
+            "Degree of adaptation",
+            "Typical cases",
+            "What it means for you"
+          ],
+          "rows": [
+            [
+              "Almost complete",
+              "A raise, a bigger house, the thing you wanted, marriage",
+              "States bought by acquiring return to zero fast — the worst place to put your chips"
+            ],
+            [
+              "Incomplete",
+              "Widowhood, divorce, disability",
+              "The baseline really does move; don't console yourself or others with 'you'll get used to it'"
+            ],
+            [
+              "Almost none",
+              "Unemployment, chronic pain, chronic noise, a bad commute, a bad relationship",
+              "Removing these pays a dividend that **never decays** — the highest-leverage row here"
+            ],
+            [
+              "The slowest-fading 'addition'",
+              "Demanding, varied, effortful activity (craft, creation, deep friendship)",
+              "It generates its own deltas, so it resists returning to zero — put your resources here"
+            ]
+          ]
+        },
+        "tail": "Three corollaries: (1) **don't aim at states, aim at activities** — what you buy returns to zero, what you make carries its own deltas; (2) **subtract before you add**: since people barely adapt to chronic pain, a bad commute or a bad relationship, clearing those beats buying one more hit of pleasure; (3) **don't pursue happiness head-on** — the paradox of hedonism said it long ago, and studies find that people who value happiness more end up lonelier. What is actually refuted is not 'happiness' but **the goal of treating it as a state you can arrive at and remain in** — it behaves like a by-product, not a destination."
+      }
     }
   ]
 }

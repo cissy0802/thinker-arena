@@ -2,15 +2,6 @@
   "_comment": "议题投票数据。candidates=未辩候选(供投票)，debated=已辩(链到辩论)。投票免 GitHub 登录，存于自建后端(Cloudflare Worker + D1，见 ~/Desktop/cissy0802.github.io/engage-backend/)：每候选一个 poll，key='topic:'+id，choice up/down，净票=👍−👎。votes 字段由 routine 每次跑 `python3 refresh_votes.py`(读后端 /votes-net) 回写；页面 ideas.js 也会实时拉取覆盖显示。观众自提议题在评论 page='thinker-open-questions'，各候选下讨论 page='topic:'+id——routine 读这些把好提案提炼成新 candidates。新候选加进 candidates 即可。",
   "candidates": [
     {
-      "id": "democracy-best",
-      "votes": 0,
-      "q": "民主一定是最好的制度吗？",
-      "q_en": "Is democracy necessarily the best system of government?",
-      "note": "柏拉图把民主比作让乘客投票指挥航船、终将触礁，主张哲人王；托克维尔警惕『多数人的暴政』；法家信赏必罚的强力，熊彼特把民主降格为『精英竞争选票』。一个几乎不容置疑的『神圣价值』，值得被认真盘问一次。",
-      "note_en": "Plato likened democracy to passengers voting to steer a ship onto the rocks, and argued for philosopher-kings; Tocqueville warned of the 'tyranny of the majority'; Legalism trusts strict reward and punishment, and Schumpeter reduced democracy to 'elites competing for votes.' A near-unquestionable 'sacred value' worth interrogating.",
-      "cat": "ethics"
-    },
-    {
       "id": "death-penalty",
       "votes": 0,
       "q": "死刑该废除吗？国家有没有权力剥夺一个人的生命？",
@@ -78,8 +69,8 @@
       "votes": 0,
       "q": "一个人能在多大程度上既拒绝共同体的要求，又指望共同体的托底？",
       "q_en": "How far can a person decline what a community asks of them while still counting on its safety net",
-      "note": "自立的人对社会还欠什么，社会又欠他什么？　独来独往、不参加、不搭理，被越来越多人当作正当的活法；可现实里替独行者兜底的仍是家人、邻居、公共医保与养老金。于是问题不再是『合群好不好』，而是权利与义务对不对称：能不能只要退出的自由、不要参与的义务？反过来，社会有没有资格用『你不贡献』去削减对一个人的照顾？照护、急救、失业救济这些托底，究竟是无条件的人的资格，还是共同体成员身份的对价？ 也含：有能力的人纷纷买下私立学校、私人医疗与私家车而退出公共服务之后，剩下的人还托不托得住。　一个具体的入口：你存下的钱里，有多少是自己的选择，有多少是医疗、养老、失业的公共缺口开给你的账单？后者本就没有上限，所以怎么存都不够。",
-      "note_en": "what does the self-reliant still owe society, and what does society still owe them? Keeping to yourself — not joining, not answering — is increasingly treated as a legitimate way to live; yet in practice the backstop for the loner is still family, neighbours, public health insurance and pensions. The question is then no longer whether sociability is good but whether rights and duties are symmetrical: can one claim the freedom to withdraw without the duty to take part? And conversely, is a society entitled to cut what it gives a person on the grounds that they contribute nothing? Are care, emergency treatment and unemployment support unconditional entitlements of persons, or the consideration paid for membership in a community? Also: once those who can afford it withdraw into private schools, private medicine and private cars, does the floor still hold for everyone left. A concrete way in: of the money you have put aside, how much is your own choice and how much is the bill handed to you by the gaps in healthcare, pensions and unemployment cover? The second column has no ceiling by design, which is why no amount is ever enough.",
+      "note": "自立的人对社会还欠什么，社会又欠他什么？　独来独往、不参加、不搭理，被越来越多人当作正当的活法；可现实里替独行者兜底的仍是家人、邻居、公共医保与养老金。于是问题不再是『合群好不好』，而是权利与义务对不对称：能不能只要退出的自由、不要参与的义务？反过来，社会有没有资格用『你不贡献』去削减对一个人的照顾？照护、急救、失业救济这些托底，究竟是无条件的人的资格，还是共同体成员身份的对价？ 也含：有能力的人纷纷买下私立学校、私人医疗与私家车而退出公共服务之后，剩下的人还托不托得住。　一个具体的入口：你存下的钱里，有多少是自己的选择，有多少是医疗、养老、失业的公共缺口开给你的账单？后者本就没有上限，所以怎么存都不够。 也含一条相邻角度：托底的厚薄决定一个人输得起输不起——当落败意味着失去医保、住处或人身安全，拒不认输就成了理性选择；于是『社会该替失败者兜住多少』这一问，同时是政治稳定的问题，而不只是慈善的问题。",
+      "note_en": "what does the self-reliant still owe society, and what does society still owe them? Keeping to yourself — not joining, not answering — is increasingly treated as a legitimate way to live; yet in practice the backstop for the loner is still family, neighbours, public health insurance and pensions. The question is then no longer whether sociability is good but whether rights and duties are symmetrical: can one claim the freedom to withdraw without the duty to take part? And conversely, is a society entitled to cut what it gives a person on the grounds that they contribute nothing? Are care, emergency treatment and unemployment support unconditional entitlements of persons, or the consideration paid for membership in a community? Also: once those who can afford it withdraw into private schools, private medicine and private cars, does the floor still hold for everyone left. A concrete way in: of the money you have put aside, how much is your own choice and how much is the bill handed to you by the gaps in healthcare, pensions and unemployment cover? The second column has no ceiling by design, which is why no amount is ever enough. It also carries an adjacent angle: how thick the safety net is decides whether a person can afford to lose. When defeat means losing health cover, housing or personal safety, refusing to concede becomes the rational move — so the question of how much a society should catch its losers is a question about political stability, not only about charity.",
       "cat": "ethics"
     },
     {
@@ -168,8 +159,8 @@
       "votes": 0,
       "q": "钱、婚姻、国界，是真实的东西吗？",
       "q_en": "Are money, marriage and borders real things?",
-      "note": "它们不长在原子里，也不长在某一个人的念头里——靠许多人相互承认而持续存在，大家同时不认便真的消失，纸币变回纸。这类『共建的实在』既非唯物亦非唯心，却最能左右普通人的命运：房价、学历、信用分、周一早上九点。它们是发明还是发现？承认能被撤回，是否意味着它们比石头更脆弱、还是反而更结实（石头砸不动一条法律）？普通人能改动其中哪一层，又在哪一层撞上真正的铁？可带进涂尔干的社会事实、霍布斯与卢梭的立约、韦伯的正当性、哈拉瑞的共同虚构，对上唯物论者。　也含：一个想法怎么从『离经叛道』变成『天经地义』——零、负数、虚数都曾被斥为荒谬、抵制数百年才成正典；有偿献血、人寿保险也曾被视为亵渎。可带进库恩的范式转移、福柯的知识型、拉图尔与玛丽·道格拉斯，对上实在论；并追问我们笃信的『客观』有多少靠审稿、复核这类把关共同体在替我们担保。",
-      "note_en": "They grow neither in atoms nor in any single person's head: they persist because many people recognise them together, and would genuinely vanish if everyone stopped at once, a banknote reverting to paper. This 'jointly built' reality is neither material nor mental, yet it governs ordinary lives more than almost anything — house prices, credentials, credit scores, nine o'clock on Monday. Are they invented or discovered? Does the fact that recognition can be withdrawn make them more fragile than a stone, or sturdier (no stone ever moved a statute)? Which layer can an ordinary person actually shift, and where do they hit genuine iron? Durkheim's social facts, the covenants of Hobbes and Rousseau, Weber on legitimacy and Harari's shared fictions, set against the materialists. Also: how an idea travels from heresy to common sense — zero, negative and imaginary numbers were each denounced as absurd and resisted for centuries before entering the canon, and paid blood donation and life insurance were once treated as desecration. Kuhn's paradigm shifts, Foucault's épistémè, Latour and Mary Douglas can be brought against realism here; and it is worth asking how much of what we call objective is in fact underwritten for us by gatekeeping communities — referees, replicators, people who agree to stand behind a claim.",
+      "note": "它们不长在原子里，也不长在某一个人的念头里——靠许多人相互承认而持续存在，大家同时不认便真的消失，纸币变回纸。这类『共建的实在』既非唯物亦非唯心，却最能左右普通人的命运：房价、学历、信用分、周一早上九点。它们是发明还是发现？承认能被撤回，是否意味着它们比石头更脆弱、还是反而更结实（石头砸不动一条法律）？普通人能改动其中哪一层，又在哪一层撞上真正的铁？可带进涂尔干的社会事实、霍布斯与卢梭的立约、韦伯的正当性、哈拉瑞的共同虚构，对上唯物论者。　也含：一个想法怎么从『离经叛道』变成『天经地义』——零、负数、虚数都曾被斥为荒谬、抵制数百年才成正典；有偿献血、人寿保险也曾被视为亵渎。可带进库恩的范式转移、福柯的知识型、拉图尔与玛丽·道格拉斯，对上实在论；并追问我们笃信的『客观』有多少靠审稿、复核这类把关共同体在替我们担保。 另一条并进来的线是时间：一个主张如何从少数人的异端，经由教材、法律、语感，变成两三代之后不必再论证的常识——共同承认不只是此刻的事实，也是一段可以追踪的传导史，而中间漫长的成本由谁先付。",
+      "note_en": "They grow neither in atoms nor in any single person's head: they persist because many people recognise them together, and would genuinely vanish if everyone stopped at once, a banknote reverting to paper. This 'jointly built' reality is neither material nor mental, yet it governs ordinary lives more than almost anything — house prices, credentials, credit scores, nine o'clock on Monday. Are they invented or discovered? Does the fact that recognition can be withdrawn make them more fragile than a stone, or sturdier (no stone ever moved a statute)? Which layer can an ordinary person actually shift, and where do they hit genuine iron? Durkheim's social facts, the covenants of Hobbes and Rousseau, Weber on legitimacy and Harari's shared fictions, set against the materialists. Also: how an idea travels from heresy to common sense — zero, negative and imaginary numbers were each denounced as absurd and resisted for centuries before entering the canon, and paid blood donation and life insurance were once treated as desecration. Kuhn's paradigm shifts, Foucault's épistémè, Latour and Mary Douglas can be brought against realism here; and it is worth asking how much of what we call objective is in fact underwritten for us by gatekeeping communities — referees, replicators, people who agree to stand behind a claim. A further strand folded in here is time: how a claim travels from the heresy of a few, through textbooks, law and finally the ear, into something two or three generations later no longer bother to argue for — mutual recognition is not only a present fact but a traceable history of transmission, and the long cost in between is paid first by someone.",
       "cat": "meta"
     },
     {
@@ -236,15 +227,6 @@
       "cat": "ethics"
     },
     {
-      "id": "heresy-to-common-sense",
-      "votes": 0,
-      "q": "观念是怎么从异端变成常识的？",
-      "q_en": "How does a heresy turn into common sense?",
-      "note": "举证责任在主张者、婚姻要双方同意、儿童不该做工——今天几乎不必再论证的判断，多半在几代人以前还是少数人的激进主张。论证在一个人身上很少奏效，却能在两三代之后变成默认：它先进教材，再进法律，最后进语感。这条传导链究竟怎么运作，中间漫长的成本由谁承担、谁最先付？反过来问同样锋利：今天被当成常识、其实从没被检验过的判断有哪些，又该怎么把它们找出来？",
-      "note_en": "That the burden of proof lies with whoever asserts, that a marriage requires both parties' consent, that children should not work — judgements now barely in need of defence were, a few generations back, the radical claims of a minority. An argument seldom moves the person in front of you, yet two or three generations later it has become the default: into textbooks first, then law, finally the ear. How does that transmission actually work, who carries the long cost in between, and who pays first? The question cuts as sharply in reverse: which of today's unexamined common sense has never been tested, and how would you find it?",
-      "cat": "meta"
-    },
-    {
       "id": "who-keeps-the-ties",
       "votes": 0,
       "q": "关系是谁在维护？",
@@ -261,6 +243,15 @@
       "note": "被省掉的绕路、排队与翻错架子，是浪费还是新东西唯一的入口？　导航给点对点最短路径，外卖免掉去店里那一趟，推荐流滤掉不合口味的——物理世界的『撞见』与信息世界的『不期而遇』被同时剪掉，生活越来越像一次次搜索：带着目的去，拿到就走。这些摩擦能不能被有意识地装回去（走路上班、逛实体店、随机点单），还是说替代品一旦更省力，个人的自律就注定敌不过默认？也含一层公共的：城市规划与平台设计在同一个方向上追求无摩擦，谁该为『可被撞见的空间』买单，而最先失去它的又是谁。",
       "note_en": "Are the detours, queues and wrong shelves we have edited out mere waste, or the only doorway to anything new? Navigation supplies the shortest point-to-point route, delivery removes the trip to the shop, and recommendation feeds filter out whatever is not to taste, so bumping into someone physically and stumbling on something unexpected online are cut away together. Life comes to resemble a series of searches: arrive with a purpose, collect, leave. Can that friction be deliberately built back in — walking to work, browsing a real shop, ordering at random — or, once the frictionless option is easier, is private discipline always going to lose to the default? There is a public layer too: urban planning and platform design chase the frictionless in the same direction, so who should pay for space in which people can still run into one another, and who loses it first?",
       "cat": "life"
+    },
+    {
+      "id": "vote-at-work",
+      "votes": 0,
+      "q": "上班的地方，为什么不投票？",
+      "q_en": "Why is there no vote where we work?",
+      "note": "一天里最不民主的八小时通常在公司：决定谁被裁、谁调岗、要不要加班的人，并不由被决定的人选出。德国的共同决定制把工人送进董事会，蒙德拉贡这类合作社让雇员选出经理，员工持股与工会各有成败。政治上人人认同『被统治者的同意』，为什么一进厂门就失效——是因为公司本就是自愿加入、可以退出的契约，还是因为退出的代价高到让同意变成空话？",
+      "note_en": "The least democratic eight hours of the day are usually spent at work: the people who decide who is laid off, who is reassigned and whether tonight runs late are not chosen by those the decision falls on. German codetermination seats workers on the board, cooperatives like Mondragon let employees elect their managers, and employee ownership and unions have their own mixed records. Everyone accepts the consent of the governed in politics — so why does it lapse at the factory gate? Because a company is a contract you joined voluntarily and may leave, or because the cost of leaving is high enough to make that consent hollow?",
+      "cat": "work"
     }
   ],
   "debated": [
@@ -949,6 +940,13 @@
       "q_en": "By chasing 'optimal' and 'efficient' in everything, are we systematically hollowing out our resilience?",
       "date": "2026-08-28",
       "cat": "meta"
+    },
+    {
+      "id": "democracy-best",
+      "q": "民主一定是最好的制度吗？",
+      "q_en": "Is democracy necessarily the best system?",
+      "date": "2026-08-29",
+      "cat": "ethics"
     }
   ]
 }

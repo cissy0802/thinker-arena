@@ -1,1877 +1,1897 @@
 {
- "debates": [
-  {
-   "id": "happiness",
-   "question": "幸福到底是什么？我们是否应该追求幸福？",
-   "question_en": "What is happiness, really? And should we even pursue it?",
-   "date": "2026-06-13",
-   "participants": [
-    "aristotle",
-    "epicurus",
-    "buddha",
-    "schopenhauer",
-    "seligman",
-    "kahneman",
-    "frankl",
-    "naval",
-    "marx",
-    "sapolsky"
-   ],
-   "cat": "self"
-  },
-  {
-   "id": "attention-and-meaning",
-   "question": "AI 时代，人如何夺回注意力与存在的意义？",
-   "question_en": "In the age of AI, how do we reclaim our attention and the meaning of our existence?",
-   "date": "2026-06-13",
-   "participants": [
-    "harari",
-    "foucault",
-    "heidegger",
-    "nietzsche",
-    "frankl",
-    "vasubandhu",
-    "harris",
-    "naval",
-    "altman"
-   ],
-   "cat": "self"
-  },
-  {
-   "id": "ai-unemployment",
-   "question": "AI 取代人类工作后，会有『存在危机』吗？",
-   "question_en": "After AI replaces human work, will we face an 'existential crisis'?",
-   "date": "2026-06-13",
-   "participants": [
-    "harari",
-    "keynes",
-    "marx",
-    "arendt",
-    "frankl",
-    "nietzsche",
-    "zhuangzi",
-    "altman",
-    "naval",
-    "sapolsky"
-   ],
-   "cat": "ethics",
-   "sub": "普通人又该怎样面对大面积的中年失业？",
-   "sub_en": "And how should ordinary people cope with mass midlife unemployment?"
-  },
-  {
-   "id": "family-trauma",
-   "question": "原生家庭的创伤，能真正走出来吗？",
-   "question_en": "Can we truly move past the trauma of the family we're born into?",
-   "date": "2026-06-13",
-   "participants": [
-    "freud",
-    "adler",
-    "jung",
-    "sapolsky",
-    "frankl",
-    "vasubandhu",
-    "nietzsche",
-    "kongzi"
-   ],
-   "cat": "life",
-   "sub": "我们多大程度被童年塑造？又是否有希望改变父母？",
-   "sub_en": "How much does childhood shape us — and is there any hope of changing our parents?"
-  },
-  {
-   "id": "ai-augment-or-atrophy",
-   "question": "AI 与算法：在增强我们，还是在让我们退化？",
-   "question_en": "AI and algorithms: are they augmenting us, or making us atrophy?",
-   "date": "2026-06-14",
-   "participants": [
-    "socrates",
-    "turing",
-    "heidegger",
-    "marx",
-    "vasubandhu",
-    "wolf",
-    "harari",
-    "altman",
-    "naval"
-   ],
-   "cat": "self"
-  },
-  {
-   "id": "ai-era-parenting",
-   "question": "AI 时代该怎么养孩子？——拼命鸡娃、挤名校到底还值不值得？",
-   "question_en": "Raising kids in the age of AI: is intense 'tiger parenting' and chasing elite schools still worth it?",
-   "date": "2026-06-15",
-   "participants": [
-    "mengzi",
-    "xunzi",
-    "laozi",
-    "huineng",
-    "haidt",
-    "dweck",
-    "gopnik",
-    "adamsmith"
-   ],
-   "cat": "life"
-  },
-  {
-   "id": "management-flattening",
-   "question": "科技大厂的『扁平化』——一个经理带 30–50 人，会成为常态吗？",
-   "question_en": "Big-tech 'flattening' — one manager over 30–50 reports: is this the new normal?",
-   "date": "2026-06-15",
-   "participants": [
-    "weber",
-    "hanfeizi",
-    "hayek",
-    "jensen",
-    "arendt",
-    "dunbar",
-    "laozi",
-    "buddha"
-   ],
-   "cat": "work"
-  },
-  {
-   "id": "is-there-a-creator",
-   "question": "是否有“造物主”，如果有的话，TA为什么要造出人类？",
-   "question_en": "Is there a 'Creator'? And if so, why would they have made humankind?",
-   "date": "2026-06-16",
-   "participants": [
-    "aquinas",
-    "maimonides",
-    "hume",
-    "kant",
-    "darwin",
-    "einstein",
-    "hawking",
-    "durkheim",
-    "nagarjuna"
-   ],
-   "cat": "meta"
-  },
-  {
-   "id": "what-makes-good-manager",
-   "question": "一个好的『管理者』，到底是怎样的？",
-   "question_en": "What actually makes a good manager?",
-   "date": "2026-06-16",
-   "participants": [
-    "kongzi",
-    "machiavelli",
-    "sunzi",
-    "wangyangming",
-    "huineng",
-    "jobs",
-    "munger",
-    "covey",
-    "damasio"
-   ],
-   "cat": "work"
-  },
-  {
-   "id": "knowing-vs-doing",
-   "question": "『知道』和『做到』之间，差在哪？",
-   "question_en": "Where does the gap between knowing and doing come from?",
-   "date": "2026-06-17",
-   "participants": [
-    "aristotle",
-    "epictetus",
-    "wangyangming",
-    "zhuangzi",
-    "buddha",
-    "kahneman",
-    "freud",
-    "thaler",
-    "wood"
-   ],
-   "cat": "self",
-   "sub": "知道该锻炼、该早睡，却很难做到——这道缝隙从何而来？",
-   "sub_en": "We know we should exercise and sleep early — yet rarely do."
-  },
-  {
-   "id": "pursue-immortality",
-   "question": "人是否应该追求长生，如果人真的能够长生，世界会怎样？",
-   "question_en": "Should we pursue immortality — and if humans really could live forever, what would the world become?",
-   "date": "2026-06-17",
-   "participants": [
-    "thiel",
-    "augustine",
-    "dawkins",
-    "heidegger",
-    "beauvoir",
-    "vasubandhu",
-    "arendt",
-    "ramachandran",
-    "sushi"
-   ],
-   "cat": "life"
-  },
-  {
-   "id": "facing-death",
-   "question": "我们该如何面对死亡？如何做到「向死而生」？",
-   "question_en": "How should we face death — and how do we actually live 'toward' it (being-toward-death)?",
-   "date": "2026-06-19",
-   "participants": [
-    "epicurus",
-    "zhuangzi",
-    "sartre",
-    "buddha",
-    "harris",
-    "schopenhauer",
-    "wangguowei",
-    "frankl",
-    "zhuxi"
-   ],
-   "cat": "life"
-  },
-  {
-   "id": "money-and-happiness",
-   "question": "金钱能（在多大程度上）买到幸福？",
-   "question_en": "Can money buy happiness — and how much?",
-   "date": "2026-06-18",
-   "participants": [
-    "epicurus",
-    "schopenhauer",
-    "adamsmith",
-    "kongzi",
-    "huineng",
-    "sapolsky",
-    "kahneman",
-    "nussbaum",
-    "taleb"
-   ],
-   "cat": "self"
-  },
-  {
-   "id": "control-and-letting-go",
-   "question": "「只专注你能控制的」，是智慧还是逃避？",
-   "question_en": "'Focus only on what you can control' — wisdom, or escape?",
-   "date": "2026-06-19",
-   "participants": [
-    "epictetus",
-    "frankl",
-    "laozi",
-    "harris",
-    "mengzi",
-    "rawls",
-    "foucault",
-    "tocqueville"
-   ],
-   "cat": "self",
-   "sub": "它会不会成了对改不了的不公视而不见的特权式借口？",
-   "sub_en": "Does it become a privileged way of looking past injustice you could help change?"
-  },
-  {
-   "id": "falling-birthrate",
-   "question": "年轻人为什么不想生孩子了？",
-   "question_en": "Why don't young people want children anymore?",
-   "date": "2026-06-19",
-   "participants": [
-    "becker",
-    "zhuxi",
-    "beauvoir",
-    "darwin",
-    "arendt",
-    "durkheim",
-    "musk",
-    "buddha",
-    "sartre"
-   ],
-   "cat": "ethics",
-   "sub": "尤其在亚洲——这对个人与社会又意味着什么？",
-   "sub_en": "Especially in Asia — and what does it mean for the individual and for society?"
-  },
-  {
-   "id": "intimacy-recession",
-   "question": "为什么这一代人越来越难谈恋爱？",
-   "question_en": "Why is this generation finding it ever harder to date?",
-   "date": "2026-06-19",
-   "participants": [
-    "plato",
-    "nietzsche",
-    "marx",
-    "nussbaum",
-    "nagarjuna",
-    "dunbar",
-    "adler",
-    "wilde"
-   ],
-   "cat": "ethics",
-   "sub": "走入亲密关系变难，是个人问题，还是时代造的？",
-   "sub_en": "Is the trouble forming intimate relationships a personal failing, or one the age has made?"
-  },
-  {
-   "id": "three-teachings",
-   "question": "儒、释、道的异同：三家分歧究竟在哪，又在何处殊途同归？",
-   "question_en": "Confucianism, Buddhism, and Daoism: where do the three traditions truly differ, and where do they converge?",
-   "date": "2026-06-19",
-   "participants": [
-    "kongzi",
-    "wangyangming",
-    "laozi",
-    "zhuangzi",
-    "huineng",
-    "vasubandhu",
-    "mozi",
-    "damasio"
-   ],
-   "cat": "meta"
-  },
-  {
-   "id": "index-or-stock-picking",
-   "question": "普通人投资，该买大盘指数，还是买自己拿着放心的个股？",
-   "question_en": "For ordinary investors: buy the broad index, or the individual stocks you can hold with confidence?",
-   "date": "2026-06-19",
-   "participants": [
-    "keynes",
-    "hayek",
-    "socrates",
-    "feynman",
-    "munger",
-    "duanyongping",
-    "wangyangming",
-    "dalio",
-    "damasio"
-   ],
-   "cat": "self"
-  },
-  {
-   "id": "driven-by-fear",
-   "question": "靠恐惧驱动的优秀，该不该放下？",
-   "question_en": "Should we let go of excellence driven by fear?",
-   "date": "2026-06-19",
-   "participants": [
-    "adler",
-    "maslow",
-    "csikszentmihalyi",
-    "huineng",
-    "kierkegaard",
-    "seneca",
-    "sapolsky"
-   ],
-   "cat": "self",
-   "sub": "『要够好才配被爱』——放下了，会不会连动力也一起没了？",
-   "sub_en": "'I must be good enough to deserve love' — and if we let go, do we lose the drive too?"
-  },
-  {
-   "id": "east-west-philosophy",
-   "question": "东方与西方哲学，源头何以不同？",
-   "question_en": "Why did Eastern and Western philosophy diverge at the source?",
-   "date": "2026-06-20",
-   "participants": [
-    "kongzi",
-    "shankara",
-    "nagarjuna",
-    "luxun",
-    "descartes",
-    "hegel",
-    "russell",
-    "nisbett"
-   ],
-   "cat": "meta",
-   "sub": "它如何塑造了今天的东西方人？两边的智慧又能否融合？",
-   "sub_en": "How did that shape the people we are today — and can the two wisdoms be fused?"
-  },
-  {
-   "id": "office-politics",
-   "question": "『组织政治』是毒瘤，还是必需？",
-   "question_en": "Is 'office politics' a tumor, or a necessity?",
-   "date": "2026-06-20",
-   "participants": [
-    "bourdieu",
-    "goffman",
-    "hobbes",
-    "weber",
-    "drucker",
-    "hanfeizi",
-    "marcusaurelius",
-    "buddha",
-    "sapolsky"
-   ],
-   "cat": "work",
-   "sub": "大型组织里的政治，普通人该如何看待、甚至善用它？",
-   "sub_en": "How should ordinary people view — even make good use of — politics in large organizations?"
-  },
-  {
-   "id": "withdraw-life-support",
-   "question": "家中老人病重、靠插管维持近乎植物人的状态，作为子女，该不该撤管放手？",
-   "question_en": "When an elderly parent is critically ill and kept in a near-vegetative state by life support, should the children withdraw it and let go?",
-   "date": "2026-06-21",
-   "participants": [
-    "aquinas",
-    "sen",
-    "damasio",
-    "nagarjuna",
-    "tolstoy",
-    "camus",
-    "sandel"
-   ],
-   "cat": "life"
-  },
-  {
-   "id": "virtue-vs-talent",
-   "question": "企业用人，该「以德为先」还是「以才为先」？",
-   "question_en": "When a company hires and promotes, should it put character first, or ability first?",
-   "date": "2026-06-22",
-   "participants": [
-    "mengzi",
-    "mozi",
-    "machiavelli",
-    "friedman",
-    "buffett",
-    "skinner",
-    "vasubandhu",
-    "gandhi"
-   ],
-   "cat": "work"
-  },
-  {
-   "id": "coach-or-manage-out",
-   "question": "下属不行，该带教还是该换人？",
-   "question_en": "When a subordinate falls short: coach, or move them out?",
-   "date": "2026-06-24",
-   "participants": [
-    "drucker",
-    "dweck",
-    "hanfeizi",
-    "schumpeter",
-    "wood",
-    "singer",
-    "dalio"
-   ],
-   "cat": "work",
-   "sub": "能力或动力不足时，领导该花时间 coaching，还是果断 manage out？",
-   "sub_en": "If ability or motivation is lacking, should a leader invest time in coaching or decisively manage them out?"
-  },
-  {
-   "id": "seeing-others-is-self",
-   "question": "「你眼中的别人，其实是你自己」？",
-   "question_en": "'The others you see are really you' — is that true?",
-   "date": "2026-06-25",
-   "participants": [
-    "huineng",
-    "zhuangzi",
-    "jung",
-    "ramachandran",
-    "sartre",
-    "wittgenstein"
-   ],
-   "cat": "self",
-   "sub": "『你眼中的别人不是别人，你眼中的自己不是自己，你眼中的别人才是自己』——这话有道理吗？",
-   "sub_en": "'The others you see aren't really them, the self you see isn't really you, and the others you see are actually you.'"
-  },
-  {
-   "id": "eldercare-home-or-facility",
-   "question": "父母年迈失能，该亲自接回家照顾，还是送养老院、请护工？",
-   "question_en": "When parents grow old and frail, should you care for them at home yourself, or place them in a nursing home and hire professional carers?",
-   "date": "2026-06-30",
-   "participants": [
-    "kongzi",
-    "beauvoir",
-    "adamsmith",
-    "damasio",
-    "spinoza",
-    "seneca",
-    "laozi",
-    "sen"
-   ],
-   "cat": "life"
-  },
-  {
-   "id": "worldly-success",
-   "question": "世俗意义上的『成功』——财富、地位、名声、成就——到底值不值得追求？",
-   "question_en": "Is worldly 'success' — wealth, status, fame, achievement — worth pursuing at all?",
-   "date": "2026-06-26",
-   "participants": [
-    "aristotle",
-    "adamsmith",
-    "laozi",
-    "seneca",
-    "rousseau",
-    "weber",
-    "russell",
-    "kahneman",
-    "jensen"
-   ],
-   "cat": "self"
-  },
-  {
-   "id": "being-yourself",
-   "question": "「忠于真实的自我」是不是个伪命题？到底有没有一个本真的我？",
-   "question_en": "Is 'being true to your authentic self' a false premise — and is there even an authentic self to begin with?",
-   "date": "2026-06-26",
-   "participants": [
-    "hume",
-    "vasubandhu",
-    "sartre",
-    "maslow",
-    "xunzi",
-    "goffman",
-    "freud"
-   ],
-   "cat": "self"
-  },
-  {
-   "id": "acceptable-inequality",
-   "question": "什么样的不平等是可以接受的？",
-   "question_en": "What kind of inequality is acceptable?",
-   "date": "2026-06-27",
-   "participants": [
-    "piketty",
-    "hayek",
-    "locke",
-    "rawls",
-    "sandel",
-    "mlk",
-    "berlin",
-    "bauman",
-    "kongzi",
-    "nagarjuna"
-   ],
-   "cat": "ethics"
-  },
-  {
-   "id": "luck-and-merit",
-   "question": "我们的成功与失败，多少是「应得的」？努力真能决定命运吗？",
-   "question_en": "How much of our success or failure do we actually deserve — and does effort really decide our fate?",
-   "date": "2026-06-28",
-   "participants": [
-    "machiavelli",
-    "harris",
-    "buffett",
-    "xunzi",
-    "huineng",
-    "nietzsche",
-    "taleb",
-    "calvin"
-   ],
-   "cat": "self"
-  },
-  {
-   "id": "gene-editing",
-   "question": "该不该用基因编辑「设计」更聪明、更健康的下一代？",
-   "question_en": "Should we use gene editing to 'design' smarter, healthier children?",
-   "date": "2026-06-29",
-   "participants": [
-    "plato",
-    "sandel",
-    "dawkins",
-    "nussbaum",
-    "sapolsky",
-    "schrodinger",
-    "buddha"
-   ],
-   "cat": "ethics"
-  },
-  {
-   "id": "job-hopping",
-   "question": "该频繁跳槽，还是在一处深耕固守？",
-   "question_en": "Should you job-hop often, or stay put and dig deep in one place?",
-   "date": "2026-06-30",
-   "participants": [
-    "taleb",
-    "naval",
-    "munger",
-    "wangyangming",
-    "huineng",
-    "fromm",
-    "damasio",
-    "beauvoir",
-    "weber",
-    "adamgrant",
-    "reidhoffman"
-   ],
-   "cat": "work"
-  },
-  {
-   "id": "productivity-and-leisure",
-   "question": "生产力一次次飞跃，人更闲了还是更忙了？",
-   "question_en": "With each leap in productivity, are we more leisured or busier?",
-   "date": "2026-06-30",
-   "participants": [
-    "keynes",
-    "russell",
-    "harari",
-    "marx",
-    "rousseau",
-    "aristotle",
-    "zhuangzi",
-    "kahneman"
-   ],
-   "cat": "meta",
-   "sub": "农业、工业、AI 三次革命——人是更幸福，还是更不幸？",
-   "sub_en": "Across the agricultural, industrial and AI revolutions — happier, or unhappier?"
-  },
-  {
-   "id": "what-determines-value",
-   "question": "一样东西的价值，到底由什么决定？（劳动、效用、稀缺，还是别的？）",
-   "question_en": "What ultimately determines the value of a thing? (Labor, utility, scarcity — or something else?)",
-   "date": "2026-06-30",
-   "participants": [
-    "adamsmith",
-    "hayek",
-    "piketty",
-    "bourdieu",
-    "nagarjuna",
-    "ramachandran",
-    "wilde"
-   ],
-   "cat": "meta"
-  },
-  {
-   "id": "ai-and-inequality",
-   "question": "AI 创造的财富，会让社会更不平等吗？",
-   "question_en": "Will the wealth AI creates make society more unequal?",
-   "date": "2026-07-01",
-   "participants": [
-    "jensen",
-    "thiel",
-    "hinton",
-    "schumpeter",
-    "sen",
-    "sapolsky",
-    "rawls",
-    "buddha",
-    "tocqueville"
-   ],
-   "cat": "ethics",
-   "sub": "是赢家通吃的马太效应，还是反而造就更公平的社会？",
-   "sub_en": "A winner-takes-all Matthew effect, or a fairer society instead?"
-  },
-  {
-   "id": "identity-or-no-self",
-   "question": "想改变自己，该先立身份还是先放下自我？",
-   "question_en": "To change yourself: build an identity first, or let the self go?",
-   "date": "2026-07-02",
-   "participants": [
-    "adler",
-    "dweck",
-    "goffman",
-    "wood",
-    "xunzi",
-    "vasubandhu",
-    "sartre",
-    "dostoevsky"
-   ],
-   "cat": "self",
-   "sub": "成功学说『先改 identity』、贴正向标签；佛学说看破我执、无我——哪一条走得通？",
-   "sub_en": "Self-help says claim a positive label and reinforce a new identity; Buddhism says see through self-grasping. Which one works?"
-  },
-  {
-   "id": "free-will",
-   "question": "人是否拥有真正的自由意志？",
-   "question_en": "Do we have genuine free will?",
-   "date": "2026-07-02",
-   "participants": [
-    "spinoza",
-    "hume",
-    "kant",
-    "dostoevsky",
-    "skinner",
-    "einstein",
-    "vasubandhu",
-    "libet"
-   ],
-   "cat": "meta"
-  },
-  {
-   "id": "geography-shapes-thought",
-   "question": "是地理塑造了思想，还是思想自有其命？",
-   "question_en": "Did geography shape thought, or do ideas have a life of their own?",
-   "date": "2026-07-02",
-   "participants": [
-    "diamond",
-    "ibnkhaldun",
-    "marx",
-    "hegel",
-    "weber",
-    "nisbett",
-    "levistrauss",
-    "nagarjuna",
-    "luther"
-   ],
-   "cat": "meta",
-   "sub": "东西方为何不同——是地理与物质环境决定，还是偶然、伟人与观念的力量？",
-   "sub_en": "Why East and West differ — geography and material conditions, or contingency, great individuals and the force of ideas?"
-  },
-  {
-   "id": "engage-or-withdraw",
-   "question": "想活得不后悔，该入世还是出世？",
-   "question_en": "To live without regret: engage the world, or withdraw from it?",
-   "date": "2026-07-02",
-   "participants": [
-    "kongzi",
-    "zhuangzi",
-    "huineng",
-    "sushi",
-    "alghazali",
-    "arendt",
-    "harris"
-   ],
-   "cat": "self",
-   "sub": "投身事功与人群，还是超脱放下、向内求安？",
-   "sub_en": "Throw yourself into achievement and people, or transcend, let go and seek peace within?"
-  },
-  {
-   "id": "comparison-and-envy",
-   "question": "为什么我们忍不住跟别人比？嫉妒能消除吗？",
-   "question_en": "Why can't we stop comparing ourselves to others? Can envy ever be eliminated?",
-   "date": "2026-07-03",
-   "participants": [
-    "festinger",
-    "damasio",
-    "adamsmith",
-    "bourdieu",
-    "sontag",
-    "thiel",
-    "nietzsche",
-    "kierkegaard",
-    "laozi",
-    "buddha"
-   ],
-   "cat": "self"
-  },
-  {
-   "id": "enough-money-still-work",
-   "question": "如果有了足够的钱（财务自由），是否还应该继续工作？",
-   "question_en": "If you had enough money to never need to, should you still work?",
-   "date": "2026-07-04",
-   "participants": [
-    "epicurus",
-    "buffett",
-    "schumpeter",
-    "fromm",
-    "beauvoir",
-    "newport",
-    "carstensen",
-    "wangyangming",
-    "huineng"
-   ],
-   "cat": "self"
-  },
-  {
-   "id": "quantum-observation",
-   "question": "量子物理是否说明「观测」真的改变了世界？",
-   "question_en": "Does quantum physics show that 'observation' really changes the world?",
-   "date": "2026-07-05",
-   "participants": [
-    "schrodinger",
-    "bohr",
-    "einstein",
-    "heisenberg",
-    "vonneumann",
-    "kant",
-    "vasubandhu",
-    "harris"
-   ],
-   "cat": "meta"
-  },
-  {
-   "id": "depth-or-breadth",
-   "question": "AI 时代，人的心智该往「深」练还是往「广」练？",
-   "question_en": "In the AI era, should the mind train for depth or for breadth?",
-   "date": "2026-07-07",
-   "participants": [
-    "newport",
-    "csikszentmihalyi",
-    "wolf",
-    "damasio",
-    "shannon",
-    "kongzi",
-    "zhuangzi",
-    "aristotle"
-   ],
-   "cat": "self"
-  },
-  {
-   "id": "virtue-teachable",
-   "question": "品德是教出来的，还是长出来的？——美德到底可不可教？",
-   "question_en": "Can virtue be taught — is character instilled, or does it grow on its own?",
-   "date": "2026-07-07",
-   "participants": [
-    "socrates",
-    "mengzi",
-    "xunzi",
-    "aristotle",
-    "huineng",
-    "piaget",
-    "sapolsky"
-   ],
-   "cat": "self"
-  },
-  {
-   "id": "big-firm-or-startup",
-   "question": "普通人该进大厂求稳，还是闯小公司、创业？",
-   "question_en": "Should ordinary people play it safe at a big company, or take the leap into a startup?",
-   "date": "2026-07-07",
-   "participants": [
-    "reidhoffman",
-    "newport",
-    "drucker",
-    "taleb",
-    "duanyongping",
-    "hayek",
-    "sapolsky",
-    "wangyangming",
-    "beauvoir",
-    "huineng"
-   ],
-   "cat": "work"
-  },
-  {
-   "id": "inequality-and-health",
-   "question": "贫富差距本身会让人生病吗？该不该把不平等当成一个公共健康问题？",
-   "question_en": "Does the wealth gap itself make people sick — and should inequality be treated as a public-health issue?",
-   "date": "2026-07-08",
-   "participants": [
-    "marmot",
-    "wilkinson",
-    "sapolsky",
-    "hayek",
-    "rawls",
-    "szasz",
-    "buddha"
-   ],
-   "cat": "ethics"
-  },
-  {
-   "id": "what-is-education-for",
-   "question": "教育到底是为了什么——筛选人才的机器，还是培养人的土壤？",
-   "question_en": "What is education for — a machine to sort talent, or soil to cultivate a person?",
-   "date": "2026-07-09",
-   "participants": [
-    "kongzi",
-    "piaget",
-    "gopnik",
-    "rousseau",
-    "plato",
-    "bourdieu",
-    "illich",
-    "laozi"
-   ],
-   "cat": "ethics"
-  },
-  {
-   "id": "fluid-or-crystallized",
-   "question": "AI 时代，该练流体智力还是晶体智力？",
-   "question_en": "In the age of AI: train fluid intelligence, or crystallized?",
-   "date": "2026-07-10",
-   "participants": [
-    "lecun",
-    "munger",
-    "kahneman",
-    "zhuangzi",
-    "hume",
-    "nagarjuna"
-   ],
-   "cat": "self",
-   "sub": "临场推理，还是深厚积累——抑或真正稀缺的是坐在两者之上的判断力？",
-   "sub_en": "On-the-spot reasoning or deep accumulation — or is the real scarcity the judgment that sits above both?"
-  },
-  {
-   "id": "math-discovered-or-invented",
-   "question": "数学是被发现的，还是被发明的？",
-   "question_en": "Is mathematics discovered, or invented?",
-   "date": "2026-07-11",
-   "participants": [
-    "plato",
-    "godel",
-    "vonneumann",
-    "turing",
-    "wittgenstein",
-    "kant",
-    "dehaene",
-    "vasubandhu"
-   ],
-   "cat": "meta"
-  },
-  {
-   "id": "is-progress-real",
-   "question": "进步是真的吗？历史是在前进，还是循环、甚至退步？",
-   "question_en": "Is progress real? Is history moving forward, in cycles — or even backward?",
-   "date": "2026-07-12",
-   "participants": [
-    "hegel",
-    "diamond",
-    "ibnkhaldun",
-    "nietzsche",
-    "benjamin",
-    "darwin",
-    "nagarjuna"
-   ],
-   "cat": "meta"
-  },
-  {
-   "id": "progress-liberation-or-control",
-   "question": "现代的『文明进步』，是解放还是控制？",
-   "question_en": "Modern 'civilizational progress': liberation, or control?",
-   "date": "2026-07-13",
-   "participants": [
-    "foucault",
-    "illich",
-    "marx",
-    "kant",
-    "tocqueville",
-    "adamgrant",
-    "habermas",
-    "buddha",
-    "damasio"
-   ],
-   "cat": "ethics",
-   "sub": "废酷刑、办学校、建医院、讲人道——是人的解放，还是一种更高效、更彻底的控制？",
-   "sub_en": "Abolishing torture, building schools and hospitals, preaching humanity — the liberation of humankind, or a more efficient and total control?"
-  },
-  {
-   "id": "natural-aging",
-   "question": "容颜该顺其自然地老去，还是该努力医美、抗衰？",
-   "question_en": "Should we let our looks age naturally, or fight it with cosmetic work and anti-aging?",
-   "date": "2026-07-13",
-   "participants": [
-    "sontag",
-    "wilde",
-    "schopenhauer",
-    "epictetus",
-    "carstensen",
-    "thiel",
-    "shankara",
-    "goffman"
-   ],
-   "cat": "self"
-  },
-  {
-   "id": "ai-consciousness",
-   "question": "AI 有没有、或可能有意识？我们又凭什么判断？",
-   "question_en": "Does (or could) AI have consciousness — and how would we ever know?",
-   "date": "2026-07-14",
-   "participants": [
-    "turing",
-    "descartes",
-    "ramachandran",
-    "hinton",
-    "huineng",
-    "spinoza",
-    "libet"
-   ],
-   "cat": "meta"
-  },
-  {
-   "id": "language-shapes-thought",
-   "question": "语言塑造思维吗？说不同语言的人，看到的是不同的世界吗？",
-   "question_en": "Does language shape thought? Do speakers of different languages see different worlds?",
-   "date": "2026-07-15",
-   "participants": [
-    "boroditsky",
-    "chomsky",
-    "kongzi",
-    "laozi",
-    "nietzsche",
-    "heidegger",
-    "russell",
-    "luxun",
-    "levistrauss"
-   ],
-   "cat": "meta"
-  },
-  {
-   "id": "what-is-beauty",
-   "question": "美，是主观感受，还是有客观的标准？",
-   "question_en": "Is beauty just in the eye of the beholder, or is there an objective standard?",
-   "date": "2026-07-16",
-   "participants": [
-    "aristotle",
-    "kant",
-    "hume",
-    "wangguowei",
-    "wilde",
-    "tolstoy",
-    "ramachandran",
-    "vasubandhu"
-   ],
-   "cat": "meta"
-  },
-  {
-   "id": "care-and-emotional-labor",
-   "question": "我们为何系统性地低估『照护与情感劳动』的价值？",
-   "question_en": "Why do we systematically undervalue care and emotional labor?",
-   "date": "2026-07-17",
-   "participants": [
-    "beauvoir",
-    "nussbaum",
-    "becker",
-    "durkheim",
-    "mengzi",
-    "huineng",
-    "sapolsky"
-   ],
-   "cat": "life"
-  },
-  {
-   "id": "performance-ranking",
-   "question": "绩效考核与「赛马」（KPI、末位淘汰）是激励，还是毒药？",
-   "question_en": "Performance appraisal and stack-ranking (KPIs, rank-and-yank): motivation or poison?",
-   "date": "2026-07-18",
-   "participants": [
-    "hanfeizi",
-    "deming",
-    "dalio",
-    "dweck",
-    "skinner",
-    "foucault",
-    "drucker",
-    "zhuangzi"
-   ],
-   "cat": "work"
-  },
-  {
-   "id": "duty-to-distant-strangers",
-   "question": "我们对远方陌生人的苦难，负有多大义务？",
-   "question_en": "How much do we owe to the suffering of distant strangers?",
-   "date": "2026-07-19",
-   "participants": [
-    "mozi",
-    "mengzi",
-    "adamsmith",
-    "buddha",
-    "haidt",
-    "taleb",
-    "mlk"
-   ],
-   "cat": "ethics"
-  },
-  {
-   "id": "procrastination",
-   "question": "拖延症，到底要不要治？",
-   "question_en": "Should we cure procrastination at all?",
-   "date": "2026-07-20",
-   "participants": [
-    "seneca",
-    "wangyangming",
-    "wood",
-    "nagarjuna",
-    "kierkegaard",
-    "thaler",
-    "taleb",
-    "newport",
-    "sushi"
-   ],
-   "cat": "self",
-   "sub": "deadline 是第一生产力，重要的事最后也赶得出来——那它究竟是不是病？",
-   "sub_en": "Deadlines are the ultimate productivity engine and the important things still get done — so is it really a disease?"
-  },
-  {
-   "id": "cultural-homogenization",
-   "question": "全球化正在让世界失去文化多样性吗？",
-   "question_en": "Is globalization costing us cultural diversity?",
-   "date": "2026-07-21",
-   "participants": [
-    "berlin",
-    "sen",
-    "nisbett",
-    "diamond",
-    "marx",
-    "gandhi",
-    "ibnkhaldun",
-    "laozi"
-   ],
-   "cat": "meta",
-   "sub": "世界被磨成同一种模样——这是进步，还是一种贫乏？",
-   "sub_en": "The world ground into one shape — is that progress, or an impoverishment?"
-  },
-  {
-   "id": "nature-of-love",
-   "question": "真爱是发现的，还是培养（甚至建构）出来的？",
-   "question_en": "Is true love found, or cultivated — even constructed?",
-   "date": "2026-07-22",
-   "participants": [
-    "plato",
-    "avicenna",
-    "schopenhauer",
-    "fromm",
-    "beauvoir",
-    "buddha",
-    "fisher"
-   ],
-   "cat": "life"
-  },
-  {
-   "id": "shareholder-or-stakeholder",
-   "question": "公司到底该对谁负责——只对股东，还是也对员工与社会？",
-   "question_en": "Whom does a company answer to — only its shareholders, or also its workers and society?",
-   "date": "2026-07-23",
-   "participants": [
-    "friedman",
-    "adamsmith",
-    "drucker",
-    "sandel",
-    "piketty",
-    "weber",
-    "buffett",
-    "xunzi"
-   ],
-   "cat": "work"
-  },
-  {
-   "id": "escape-from-freedom",
-   "question": "人真的在逃避自由吗？——自由是解放，还是一副人宁愿卸下的重担？",
-   "question_en": "Do people really flee from freedom — is freedom a liberation, or a burden they would rather set down?",
-   "date": "2026-07-24",
-   "participants": [
-    "fromm",
-    "dostoevsky",
-    "kierkegaard",
-    "sartre",
-    "berlin",
-    "arendt",
-    "thoreau",
-    "zhuangzi",
-    "libet"
-   ],
-   "cat": "self"
-  },
-  {
-   "id": "walden-simple-living",
-   "question": "该主动过「极简 / 少欲」的生活吗？",
-   "question_en": "Should we deliberately live simply?",
-   "date": "2026-07-25",
-   "participants": [
-    "thoreau",
-    "diogenes",
-    "epicurus",
-    "kongzi",
-    "vasubandhu",
-    "lembke",
-    "bourdieu",
-    "marx",
-    "luxun",
-    "naval"
-   ],
-   "cat": "self",
-   "sub": "梭罗式的『简化，再简化』是通往自由与清醒的智慧，还是一种特权、逃避、甚至另一种精致的消费主义？",
-   "sub_en": "Is Thoreau's 'simplify, simplify' a road to freedom and clarity — or a privilege, an escape, even a refined consumerism?"
-  },
-  {
-   "id": "social-interest-or-self",
-   "question": "「社会兴趣」是衡量活得好不好的尺吗？",
-   "question_en": "Is 'social interest' the yardstick of a life well lived?",
-   "date": "2026-07-26",
-   "participants": [
-    "adler",
-    "durkheim",
-    "dunbar",
-    "nussbaum",
-    "freud",
-    "jung",
-    "szasz",
-    "huineng"
-   ],
-   "cat": "self",
-   "sub": "阿德勒说它是心理健康与幸福的关键——那独处、自我实现、离经叛道，是病还是另一种活法？",
-   "sub_en": "Adler called it the key to mental health and happiness — so are solitude, self-realization and nonconformity a sickness, or another way to live?"
-  },
-  {
-   "id": "nde-mind-beyond-brain",
-   "question": "濒死体验证明意识能脱离大脑吗？",
-   "question_en": "Do near-death experiences prove consciousness can leave the brain?",
-   "date": "2026-07-27",
-   "participants": [
-    "ramachandran",
-    "shankara",
-    "dehaene",
-    "nagarjuna",
-    "hume",
-    "averroes",
-    "harris",
-    "kant",
-    "beauvoir"
-   ],
-   "cat": "meta",
-   "sub": "是灵魂离体的证据，还是垂死大脑的最后一场烟花？",
-   "sub_en": "Evidence of a soul departing the body, or the dying brain's last fireworks?"
-  },
-  {
-   "id": "does-time-exist",
-   "question": "时间真的存在吗，还是一种幻觉？",
-   "question_en": "Does time really exist, or is it an illusion?",
-   "date": "2026-07-28",
-   "participants": [
-    "newton",
-    "einstein",
-    "rovelli",
-    "kant",
-    "augustine",
-    "vasubandhu",
-    "libet",
-    "heidegger",
-    "carstensen"
-   ],
-   "cat": "meta",
-   "sub": "钟表在走、人在变老，可物理学里找不到一个普适的『现在』——流逝是世界的性质，还是心造的？",
-   "sub_en": "Clocks tick and we grow old, yet physics finds no universal 'now' — is the flow a property of the world, or something the mind makes?"
-  },
-  {
-   "id": "duty-to-earth",
-   "question": "我们对地球（其他物种、后代）负有怎样的义务？",
-   "question_en": "What do we owe the Earth — other species, and future generations?",
-   "date": "2026-07-30",
-   "participants": [
-    "eowilson",
-    "hobbes",
-    "locke",
-    "zhuxi",
-    "galileo",
-    "mozi",
-    "buddha",
-    "damasio"
-   ],
-   "cat": "ethics"
-  },
-  {
-   "id": "third-places",
-   "question": "我们是不是正在失去『第三空间』？",
-   "question_en": "Are we losing our 'third places'?",
-   "date": "2026-07-30",
-   "participants": [
-    "bauman",
-    "tocqueville",
-    "illich",
-    "becker",
-    "dunbar",
-    "huineng",
-    "sushi",
-    "newport",
-    "goffman",
-    "marmot"
-   ],
-   "cat": "life",
-   "sub": "闲逛式的日常社交在消失——孤独流行病从何而来？",
-   "sub_en": "Aimless everyday sociability is vanishing — where does the loneliness epidemic come from?"
-  },
-  {
-   "id": "algorithmic-management",
-   "question": "该不该让算法来管人——派活、打分、监控，甚至解雇？",
-   "question_en": "Should algorithms manage people — assigning the work, scoring it, watching it, even ending it?",
-   "date": "2026-07-31",
-   "participants": [
-    "hanfeizi",
-    "foucault",
-    "dalio",
-    "deming",
-    "sapolsky",
-    "arendt",
-    "nagarjuna"
-   ],
-   "cat": "work"
-  },
-  {
-   "id": "truth-vs-harmony",
-   "question": "维系和谐，有时是否比说出真相更重要？",
-   "question_en": "Is keeping the peace sometimes more important than telling the truth?",
-   "date": "2026-08-01",
-   "participants": [
-    "socrates",
-    "laozi",
-    "wilde",
-    "mengzi",
-    "sharot",
-    "machiavelli",
-    "buddha",
-    "nisbett"
-   ],
-   "cat": "self"
-  },
-  {
-   "id": "dark-forest",
-   "question": "宇宙真的是「黑暗森林」吗？文明之间注定你死我活，还是可能合作？",
-   "question_en": "Is the universe really a 'dark forest'? Are civilisations doomed to destroy one another, or can they cooperate?",
-   "date": "2026-08-02",
-   "participants": [
-    "vonneumann",
-    "sagan",
-    "hobbes",
-    "diamond",
-    "hawking",
-    "sunzi",
-    "dawkins",
-    "haidt",
-    "vasubandhu"
-   ],
-   "cat": "meta"
-  },
-  {
-   "id": "ai-resurrect-dead",
-   "question": "该不该用 AI「复活」逝去的亲人？",
-   "question_en": "Should you use AI to 'resurrect' a dead loved one?",
-   "date": "2026-08-03",
-   "participants": [
-    "sushi",
-    "oconnor",
-    "kongzi",
-    "turing",
-    "freud",
-    "huineng",
-    "sontag",
-    "bauman"
-   ],
-   "cat": "life",
-   "sub": "用聊天记录与声音训练一个『TA』来陪伴自己。",
-   "sub_en": "Training a 'them' from their messages and voice to keep you company."
-  },
-  {
-   "id": "liberty-vs-equality",
-   "question": "自由与平等不可兼得时，该牺牲哪个？",
-   "question_en": "When liberty and equality cannot both be had, which gives way?",
-   "date": "2026-08-04",
-   "participants": [
-    "hayek",
-    "rawls",
-    "piketty",
-    "berlin",
-    "wilkinson",
-    "xunzi",
-    "sen",
-    "beauvoir",
-    "keynes",
-    "nagarjuna"
-   ],
-   "cat": "ethics",
-   "sub": "累进税、遗产税、学区名额、平台抽成——每一次让弱者好过些都要动用强制；每一次守住『我的就是我的』，差距就再拉开一寸。",
-   "sub_en": "Progressive taxes, estate duties, school catchments, platform commissions — every arrangement that eases life for the weak invokes coercion; every defence of 'what is mine is mine' widens the gap."
-  },
-  {
-   "id": "leadership-after-ai",
-   "question": "当 AI 比谁都懂，领导者还剩什么不可替代的？",
-   "question_en": "When AI knows more than anyone, what is left that only a leader can do?",
-   "date": "2026-08-05",
-   "participants": [
-    "drucker",
-    "weber",
-    "aristotle",
-    "jensen",
-    "wangyangming",
-    "damasio",
-    "buddha"
-   ],
-   "cat": "work"
-  },
-  {
-   "id": "interfere-or-let-be",
-   "question": "爱一个人，该介入他的人生多深？",
-   "question_en": "How far should love intervene in another's life?",
-   "date": "2026-08-06",
-   "participants": [
-    "adler",
-    "shankara",
-    "zhuxi",
-    "mozi",
-    "zhuangzi",
-    "fromm",
-    "lembke",
-    "nussbaum"
-   ],
-   "cat": "life",
-   "sub": "『不干涉他人因果』是尊重与智慧，还是给冷漠找的灵性借口？哪怕对家人？",
-   "sub_en": "Is 'don't interfere with another's karma' respect and wisdom, or a spiritual excuse for indifference — even with family?"
-  },
-  {
-   "id": "regret",
-   "question": "该为过去的选择后悔吗？",
-   "question_en": "Should we regret the choices we made?",
-   "sub": "「如果当初…」反复啃噬——面对不能重来的过去，该放下、该担起，还是根本没有那条没走的路？",
-   "sub_en": "The 'if only I had…' that keeps gnawing: with a past you cannot redo, do you let it go, take it on, or find there was never a road not taken?",
-   "date": "2026-08-07",
-   "participants": [
-    "kierkegaard",
-    "marcusaurelius",
-    "nagarjuna",
-    "arendt",
-    "redish",
-    "rovelli"
-   ],
-   "cat": "self"
-  },
-  {
-   "id": "multiverse",
-   "question": "真的存在平行宇宙吗？",
-   "question_en": "Do parallel universes really exist?",
-   "sub": "多世界诠释与永恒暴胀都推出无数个「你」——一个永远观测不到的理论，还算科学吗？",
-   "sub_en": "The many-worlds reading and eternal inflation both yield innumerable copies of you — but is a theory that can never be observed still science?",
-   "date": "2026-08-08",
-   "participants": [
-    "hawking",
-    "bohr",
-    "schrodinger",
-    "feynman",
-    "hume",
-    "wittgenstein",
-    "godel",
-    "vasubandhu",
-    "dehaene"
-   ],
-   "cat": "meta"
-  },
-  {
-   "id": "moral-limits-of-markets",
-   "question": "有什么是金钱不该买卖的？",
-   "question_en": "Is there anything money should not be able to buy?",
-   "sub": "从代孕、器官到选票与照护——当市场逻辑渗进一切，还有没有该守住的非卖品？",
-   "sub_en": "From surrogacy and organs to votes and care: as market logic seeps into everything, is anything still off the auction block?",
-   "date": "2026-08-09",
-   "participants": [
-    "sandel",
-    "friedman",
-    "becker",
-    "marx",
-    "mengzi",
-    "huineng",
-    "nussbaum",
-    "fehr"
-   ],
-   "cat": "ethics"
-  },
-  {
-   "id": "express-ambition",
-   "question": "职场该不该表达野心？",
-   "question_en": "Should you show your ambition at work?",
-   "sub": "同样一份野心，有人叫领导力，有人被判「太有攻击性」——谦逊这条规范，究竟服务了谁？",
-   "sub_en": "The same ambition reads as leadership in one person and as \"too aggressive\" in another — so whom does the modesty norm actually serve?",
-   "date": "2026-08-10",
-   "participants": [
-    "beauvoir",
-    "nietzsche",
-    "laozi",
-    "buddha",
-    "goffman",
-    "adamgrant",
-    "sharot"
-   ],
-   "cat": "work"
-  },
-  {
-   "id": "gardener-or-carpenter",
-   "question": "园丁还是木匠？父母该塑造孩子吗？",
-   "question_en": "Gardener or carpenter: should parents shape a child?",
-   "sub": "按蓝图雕琢，还是养好土壤等花自己开——以及早早贴上的「优秀」标签，后来把人带去了哪。",
-   "sub_en": "Carve to a blueprint, or tend the soil and wait for a bloom nobody can predict — and where an early label of “gifted” actually leads.",
-   "date": "2026-08-11",
-   "participants": [
-    "gopnik",
-    "xunzi",
-    "skinner",
-    "rousseau",
-    "wangyangming",
-    "dweck",
-    "bourdieu",
-    "taleb",
-    "vasubandhu"
-   ],
-   "cat": "life"
-  },
-  {
-   "id": "courage",
-   "question": "真正的『勇气』是什么？",
-   "question_en": "What is courage, really?",
-   "sub": "是无所畏惧，还是带着恐惧仍然前行？它能不能像肌肉一样练出来？",
-   "sub_en": "The absence of fear, or moving forward while afraid — and can it be trained like a muscle?",
-   "date": "2026-08-12",
-   "participants": [
-    "ledoux",
-    "socrates",
-    "mengzi",
-    "nagarjuna",
-    "mlk",
-    "foucault",
-    "wood",
-    "fisher"
-   ],
-   "cat": "self"
-  },
-  {
-   "id": "materialism-idealism",
-   "question": "世界是唯物的，还是唯心的？",
-   "question_en": "Is the world made of matter, or of mind?",
-   "sub": "意识只是大脑放的电，还是比物质更根本的实在？",
-   "sub_en": "Is consciousness just the brain's electricity, or something more fundamental than matter?",
-   "date": "2026-08-13",
-   "participants": [
-    "hobbes",
-    "darwin",
-    "ramachandran",
-    "shankara",
-    "schopenhauer",
-    "hegel",
-    "russell",
-    "heisenberg",
-    "zhuxi",
-    "luxun"
-   ],
-   "cat": "meta"
-  },
-  {
-   "id": "abundance-and-decline",
-   "question": "物质极度丰裕后，人会走向衰亡吗？",
-   "question_en": "Does material abundance lead to decline?",
-   "sub": "卡尔霍恩的鼠群在无限食物里走向崩溃——匮乏是意义的必要燃料吗？",
-   "sub_en": "Calhoun's mice collapsed amid unlimited food — is scarcity a necessary fuel for meaning?",
-   "date": "2026-08-14",
-   "participants": [
-    "calhoun",
-    "nietzsche",
-    "arendt",
-    "ibnkhaldun",
-    "keynes",
-    "maslow",
-    "lembke",
-    "epicurus",
-    "huineng"
-   ],
-   "cat": "ethics"
-  },
-  {
-   "id": "entry-jobs-and-apprenticeship",
-   "question": "AI 做完入门的活，新人怎么学本事？",
-   "question_en": "If AI does the entry-level work, how do novices learn?",
-   "sub": "学徒、实习、蹲着调 bug——那些『笨办法』该刻意保留，还是该让它去？",
-   "sub_en": "Apprenticeships, internships, sitting with a bug — keep the slow way on purpose, or let it go?",
-   "date": "2026-08-15",
-   "participants": [
-    "aristotle",
-    "hinton",
-    "dehaene",
-    "zhuangzi",
-    "deming",
-    "schumpeter",
-    "illich",
-    "vasubandhu"
-   ],
-   "cat": "work"
-  },
-  {
-   "id": "test-loyalty",
-   "question": "忠诚该不该被考验？",
-   "question_en": "Should loyalty be put to the test?",
-   "sub": "一段只有在不被验证时才成立的信任，算不算真的信任？",
-   "sub_en": "If a trust only holds while nobody verifies it, is it trust at all?",
-   "date": "2026-08-16",
-   "participants": [
-    "hanfeizi",
-    "kongzi",
-    "kant",
-    "dunbar",
-    "buddha",
-    "adamsmith",
-    "adler"
-   ],
-   "cat": "life"
-  },
-  {
-   "id": "save-or-spend",
-   "question": "钱该省下来滚复利，还是该花掉？",
-   "question_en": "Should money be saved to compound, or spent?",
-   "sub": "为将来的自己牺牲现在的自己，能牺牲到什么程度？",
-   "sub_en": "How much of your present self should be spent on your future self?",
-   "date": "2026-08-17",
-   "participants": [
-    "duanyongping",
-    "keynes",
-    "thaler",
-    "sushi",
-    "redish",
-    "bauman",
-    "carstensen",
-    "seneca",
-    "nagarjuna"
-   ],
-   "cat": "self"
-  },
-  {
-   "id": "truth-after-ai",
-   "question": "AI 能伪造一切，我们还信什么？",
-   "question_en": "When AI can fake anything, what is left to trust?",
-   "sub": "『眼见为实』失效之后，信任还能建在什么上面",
-   "sub_en": "After seeing-is-believing fails, what can trust still be built on",
-   "date": "2026-08-18",
-   "participants": [
-    "descartes",
-    "hume",
-    "sontag",
-    "foucault",
-    "habermas",
-    "shannon",
-    "turing",
-    "lecun",
-    "sharot",
-    "huineng"
-   ],
-   "cat": "meta"
-  },
-  {
-   "id": "assisted-dying",
-   "question": "社会该不该允许安乐死与协助死亡？",
-   "question_en": "Should society allow euthanasia and assisted dying?",
-   "sub": "当病痛已无可挽回、本人清醒地请求结束时",
-   "sub_en": "When the illness is past repair and the person, lucid, asks for it to end",
-   "date": "2026-08-19",
-   "participants": [
-    "aquinas",
-    "epictetus",
-    "nussbaum",
-    "szasz",
-    "damasio",
-    "marmot",
-    "tolstoy",
-    "buddha"
-   ],
-   "cat": "ethics"
-  },
-  {
-   "id": "one-ladder-organizations",
-   "question": "只有一条晋升阶梯的组织，浪费了谁？",
-   "question_en": "Who is wasted by an organisation with only one ladder?",
-   "sub": "把「不想升」读成缺乏进取心，是组织在系统性浪费人，还是个人本该接受阶梯的规则？",
-   "sub_en": "When \"not wanting the promotion\" is read as lack of drive — is the organisation wasting people systematically, or should individuals simply accept the ladder’s rules?",
-   "date": "2026-08-20",
-   "participants": [
-    "drucker",
-    "weber",
-    "wangyangming",
-    "marx",
-    "sapolsky",
-    "laozi",
-    "newport"
-   ],
-   "cat": "work"
-  },
-  {
-   "id": "youth-career-or-explore",
-   "question": "趁年轻，该搏事业还是先去看世界？",
-   "question_en": "When young: build a career, or go see the world first?",
-   "sub": "阅历与事业，错过的那一个还补得回来吗？",
-   "sub_en": "Experience or a career — can whichever you skip ever be recovered?",
-   "date": "2026-08-21",
-   "participants": [
-    "becker",
-    "wangguowei",
-    "reidhoffman",
-    "bourdieu",
-    "kahneman",
-    "gopnik",
-    "vasubandhu",
-    "thoreau",
-    "diogenes"
-   ],
-   "cat": "life"
-  },
-  {
-   "id": "forgiveness-or-revenge",
-   "question": "该不该原谅伤害过你的人？",
-   "question_en": "Should you forgive someone who has wronged you?",
-   "sub": "宽恕是解脱，还是压给受害者的又一份功课？",
-   "sub_en": "Is forgiveness release, or one more task laid on the injured?",
-   "date": "2026-08-22",
-   "participants": [
-    "kongzi",
-    "nagarjuna",
-    "luxun",
-    "nietzsche",
-    "arendt",
-    "mlk",
-    "ledoux",
-    "goffman"
-   ],
-   "cat": "self"
-  },
-  {
-   "id": "faith-and-reason",
-   "question": "理性与信仰冲突时，该让哪一个让步？",
-   "question_en": "When reason and faith collide, which should yield?",
-   "sub": "哲学能不能独立于宗教——从安萨里到康德，谁有资格给对方划界。",
-   "sub_en": "Can philosophy stand on its own — and from al-Ghazālī to Kant, who gets to draw the line.",
-   "date": "2026-08-23",
-   "participants": [
-    "alghazali",
-    "averroes",
-    "maimonides",
-    "spinoza",
-    "kant",
-    "kierkegaard",
-    "russell",
-    "buddha",
-    "zhuxi",
-    "sharot"
-   ],
-   "cat": "meta"
-  },
-  {
-   "id": "eat-meat",
-   "question": "该不该吃肉？",
-   "question_en": "Should we eat meat?",
-   "sub": "动物有没有值得尊重的道德地位——一天三次的选择，很少被认真想过。",
-   "sub_en": "Do animals have a moral standing worth respecting — a choice made three times a day and rarely examined.",
-   "date": "2026-08-24",
-   "participants": [
-    "mengzi",
-    "zhuangzi",
-    "huineng",
-    "descartes",
-    "darwin",
-    "eowilson",
-    "harris",
-    "gandhi",
-    "levistrauss"
-   ],
-   "cat": "ethics"
-  },
-  {
-   "id": "real-work-or-invented-roles",
-   "question": "你的工作是真被需要，还是被造出来的？",
-   "question_en": "Is your job really needed, or was it invented?",
-   "sub": "会照开、表照填，可少了你，究竟哪一件事会办不成？",
-   "sub_en": "The meetings happen and the forms get filled — but what would actually fail without you?",
-   "date": "2026-08-25",
-   "participants": [
-    "hanfeizi",
-    "durkheim",
-    "illich",
-    "hayek",
-    "deming",
-    "fromm",
-    "vasubandhu",
-    "seligman"
-   ],
-   "cat": "work"
-  },
-  {
-   "id": "cut-ties-or-keep",
-   "question": "该给关系做减法吗？",
-   "question_en": "Should you prune your relationships?",
-   "sub": "断掉消耗你的人，是必要的止损，还是把自己越活越窄？",
-   "sub_en": "Is cutting off the people who drain you a necessary stop-loss, or a life quietly narrowing itself?",
-   "date": "2026-08-26",
-   "participants": [
-    "bauman",
-    "marcusaurelius",
-    "schopenhauer",
-    "mozi",
-    "carstensen",
-    "augustine",
-    "oconnor"
-   ],
-   "cat": "life"
-  },
-  {
-   "id": "believe-in-fate",
-   "question": "该不该信命？",
-   "question_en": "Should you believe in fate?",
-   "sub": "算命、八字、星座为何长盛不衰——是迷信、逃避，还是一面照见自己的镜子？",
-   "sub_en": "Why fortune-telling and astrology endure — superstition, evasion, or a mirror that shows you yourself?",
-   "date": "2026-08-27",
-   "participants": [
-    "xunzi",
-    "jung",
-    "sartre",
-    "epictetus",
-    "buddha",
-    "skinner",
-    "festinger",
-    "weber",
-    "beauvoir",
-    "taleb"
-   ],
-   "cat": "self"
-  },
-  {
-   "id": "efficiency-vs-resilience",
-   "question": "追求高效，是否正在掏空韧性？",
-   "question_en": "Is the chase for efficiency hollowing out our resilience?",
-   "sub": "冗余、备份、『暂时没用的多样』，该不该刻意保留？",
-   "sub_en": "Should redundancy, backups and 'currently useless' variety be kept on purpose?",
-   "date": "2026-08-28",
-   "participants": [
-    "musk",
-    "sunzi",
-    "keynes",
-    "schumpeter",
-    "shannon",
-    "redish",
-    "ibnkhaldun",
-    "rawls",
-    "nagarjuna"
-   ],
-   "cat": "meta"
-  },
-  {
-   "id": "democracy-best",
-   "question": "民主一定是最好的制度吗？",
-   "question_en": "Is democracy necessarily the best system?",
-   "sub": "多数人的意见、专家的知识、被治理者的同意，哪一个该说了算？",
-   "sub_en": "Majority opinion, expert knowledge, the consent of the governed — which one should decide?",
-   "date": "2026-08-29",
-   "participants": [
-    "sen",
-    "plato",
-    "tocqueville",
-    "habermas",
-    "sandel",
-    "hobbes",
-    "haidt",
-    "huineng"
-   ],
-   "cat": "ethics"
-  },
-  {
-   "id": "who-gets-watched",
-   "question": "监控为什么总是朝下查？",
-   "question_en": "Why does scrutiny always run downhill?",
-   "sub": "被查的总是位置更低的那一方——这项核查，能不能反过来施加给提出它的人？",
-   "sub_en": "The one who gets checked is always the one lower down — could this check be turned around on whoever proposed it?",
-   "date": "2026-08-30",
-   "participants": [
-    "mozi",
-    "zhuangzi",
-    "foucault",
-    "machiavelli",
-    "drucker",
-    "fehr",
-    "marmot"
-   ],
-   "cat": "work"
-  },
-  {
-   "id": "rituals-still-needed",
-   "question": "仪式还有用吗？",
-   "question_en": "Do rituals still do anything?",
-   "sub": "婚礼、葬礼、开学礼、公司团建——哪些该留、哪些该改、哪些该废？",
-   "sub_en": "Weddings, funerals, first days of term, corporate away-days — which to keep, which to rework, which to abolish?",
-   "date": "2026-08-31",
-   "participants": [
-    "xunzi",
-    "buddha",
-    "durkheim",
-    "luther",
-    "luxun",
-    "goffman",
-    "sontag",
-    "dunbar",
-    "oconnor",
-    "thaler"
-   ],
-   "cat": "life"
-  },
-  {
-   "id": "work-life-balance",
-   "question": "「工作与生活的平衡」真的存在吗？",
-   "question_en": "Is work-life balance a real thing?",
-   "sub": "是能达成的稳态，还是一句自我安慰？只有取舍，还是长周期的轮换？",
-   "sub_en": "An attainable steady state, or a phrase we comfort ourselves with — only tradeoffs, or seasons taken in turn?",
-   "date": "2026-09-01",
-   "participants": [
-    "calvin",
-    "russell",
-    "seneca",
-    "sushi",
-    "huineng",
-    "nussbaum",
-    "newport",
-    "lembke"
-   ],
-   "cat": "self"
-  }
- ]
+  "debates": [
+    {
+      "id": "happiness",
+      "question": "幸福到底是什么？我们是否应该追求幸福？",
+      "question_en": "What is happiness, really? And should we even pursue it?",
+      "date": "2026-06-13",
+      "participants": [
+        "aristotle",
+        "epicurus",
+        "buddha",
+        "schopenhauer",
+        "seligman",
+        "kahneman",
+        "frankl",
+        "naval",
+        "marx",
+        "sapolsky"
+      ],
+      "cat": "self"
+    },
+    {
+      "id": "attention-and-meaning",
+      "question": "AI 时代，人如何夺回注意力与存在的意义？",
+      "question_en": "In the age of AI, how do we reclaim our attention and the meaning of our existence?",
+      "date": "2026-06-13",
+      "participants": [
+        "harari",
+        "foucault",
+        "heidegger",
+        "nietzsche",
+        "frankl",
+        "vasubandhu",
+        "harris",
+        "naval",
+        "altman"
+      ],
+      "cat": "self"
+    },
+    {
+      "id": "ai-unemployment",
+      "question": "AI 取代人类工作后，会有『存在危机』吗？",
+      "question_en": "After AI replaces human work, will we face an 'existential crisis'?",
+      "date": "2026-06-13",
+      "participants": [
+        "harari",
+        "keynes",
+        "marx",
+        "arendt",
+        "frankl",
+        "nietzsche",
+        "zhuangzi",
+        "altman",
+        "naval",
+        "sapolsky"
+      ],
+      "cat": "ethics",
+      "sub": "普通人又该怎样面对大面积的中年失业？",
+      "sub_en": "And how should ordinary people cope with mass midlife unemployment?"
+    },
+    {
+      "id": "family-trauma",
+      "question": "原生家庭的创伤，能真正走出来吗？",
+      "question_en": "Can we truly move past the trauma of the family we're born into?",
+      "date": "2026-06-13",
+      "participants": [
+        "freud",
+        "adler",
+        "jung",
+        "sapolsky",
+        "frankl",
+        "vasubandhu",
+        "nietzsche",
+        "kongzi"
+      ],
+      "cat": "life",
+      "sub": "我们多大程度被童年塑造？又是否有希望改变父母？",
+      "sub_en": "How much does childhood shape us — and is there any hope of changing our parents?"
+    },
+    {
+      "id": "ai-augment-or-atrophy",
+      "question": "AI 与算法：在增强我们，还是在让我们退化？",
+      "question_en": "AI and algorithms: are they augmenting us, or making us atrophy?",
+      "date": "2026-06-14",
+      "participants": [
+        "socrates",
+        "turing",
+        "heidegger",
+        "marx",
+        "vasubandhu",
+        "wolf",
+        "harari",
+        "altman",
+        "naval"
+      ],
+      "cat": "self"
+    },
+    {
+      "id": "ai-era-parenting",
+      "question": "AI 时代该怎么养孩子？——拼命鸡娃、挤名校到底还值不值得？",
+      "question_en": "Raising kids in the age of AI: is intense 'tiger parenting' and chasing elite schools still worth it?",
+      "date": "2026-06-15",
+      "participants": [
+        "mengzi",
+        "xunzi",
+        "laozi",
+        "huineng",
+        "haidt",
+        "dweck",
+        "gopnik",
+        "adamsmith"
+      ],
+      "cat": "life"
+    },
+    {
+      "id": "management-flattening",
+      "question": "科技大厂的『扁平化』——一个经理带 30–50 人，会成为常态吗？",
+      "question_en": "Big-tech 'flattening' — one manager over 30–50 reports: is this the new normal?",
+      "date": "2026-06-15",
+      "participants": [
+        "weber",
+        "hanfeizi",
+        "hayek",
+        "jensen",
+        "arendt",
+        "dunbar",
+        "laozi",
+        "buddha"
+      ],
+      "cat": "work"
+    },
+    {
+      "id": "is-there-a-creator",
+      "question": "是否有“造物主”，如果有的话，TA为什么要造出人类？",
+      "question_en": "Is there a 'Creator'? And if so, why would they have made humankind?",
+      "date": "2026-06-16",
+      "participants": [
+        "aquinas",
+        "maimonides",
+        "hume",
+        "kant",
+        "darwin",
+        "einstein",
+        "hawking",
+        "durkheim",
+        "nagarjuna"
+      ],
+      "cat": "meta"
+    },
+    {
+      "id": "what-makes-good-manager",
+      "question": "一个好的『管理者』，到底是怎样的？",
+      "question_en": "What actually makes a good manager?",
+      "date": "2026-06-16",
+      "participants": [
+        "kongzi",
+        "machiavelli",
+        "sunzi",
+        "wangyangming",
+        "huineng",
+        "jobs",
+        "munger",
+        "covey",
+        "damasio"
+      ],
+      "cat": "work"
+    },
+    {
+      "id": "knowing-vs-doing",
+      "question": "『知道』和『做到』之间，差在哪？",
+      "question_en": "Where does the gap between knowing and doing come from?",
+      "date": "2026-06-17",
+      "participants": [
+        "aristotle",
+        "epictetus",
+        "wangyangming",
+        "zhuangzi",
+        "buddha",
+        "kahneman",
+        "freud",
+        "thaler",
+        "wood"
+      ],
+      "cat": "self",
+      "sub": "知道该锻炼、该早睡，却很难做到——这道缝隙从何而来？",
+      "sub_en": "We know we should exercise and sleep early — yet rarely do."
+    },
+    {
+      "id": "pursue-immortality",
+      "question": "人是否应该追求长生，如果人真的能够长生，世界会怎样？",
+      "question_en": "Should we pursue immortality — and if humans really could live forever, what would the world become?",
+      "date": "2026-06-17",
+      "participants": [
+        "thiel",
+        "augustine",
+        "dawkins",
+        "heidegger",
+        "beauvoir",
+        "vasubandhu",
+        "arendt",
+        "ramachandran",
+        "sushi"
+      ],
+      "cat": "life"
+    },
+    {
+      "id": "facing-death",
+      "question": "我们该如何面对死亡？如何做到「向死而生」？",
+      "question_en": "How should we face death — and how do we actually live 'toward' it (being-toward-death)?",
+      "date": "2026-06-19",
+      "participants": [
+        "epicurus",
+        "zhuangzi",
+        "sartre",
+        "buddha",
+        "harris",
+        "schopenhauer",
+        "wangguowei",
+        "frankl",
+        "zhuxi"
+      ],
+      "cat": "life"
+    },
+    {
+      "id": "money-and-happiness",
+      "question": "金钱能（在多大程度上）买到幸福？",
+      "question_en": "Can money buy happiness — and how much?",
+      "date": "2026-06-18",
+      "participants": [
+        "epicurus",
+        "schopenhauer",
+        "adamsmith",
+        "kongzi",
+        "huineng",
+        "sapolsky",
+        "kahneman",
+        "nussbaum",
+        "taleb"
+      ],
+      "cat": "self"
+    },
+    {
+      "id": "control-and-letting-go",
+      "question": "「只专注你能控制的」，是智慧还是逃避？",
+      "question_en": "'Focus only on what you can control' — wisdom, or escape?",
+      "date": "2026-06-19",
+      "participants": [
+        "epictetus",
+        "frankl",
+        "laozi",
+        "harris",
+        "mengzi",
+        "rawls",
+        "foucault",
+        "tocqueville"
+      ],
+      "cat": "self",
+      "sub": "它会不会成了对改不了的不公视而不见的特权式借口？",
+      "sub_en": "Does it become a privileged way of looking past injustice you could help change?"
+    },
+    {
+      "id": "falling-birthrate",
+      "question": "年轻人为什么不想生孩子了？",
+      "question_en": "Why don't young people want children anymore?",
+      "date": "2026-06-19",
+      "participants": [
+        "becker",
+        "zhuxi",
+        "beauvoir",
+        "darwin",
+        "arendt",
+        "durkheim",
+        "musk",
+        "buddha",
+        "sartre"
+      ],
+      "cat": "ethics",
+      "sub": "尤其在亚洲——这对个人与社会又意味着什么？",
+      "sub_en": "Especially in Asia — and what does it mean for the individual and for society?"
+    },
+    {
+      "id": "intimacy-recession",
+      "question": "为什么这一代人越来越难谈恋爱？",
+      "question_en": "Why is this generation finding it ever harder to date?",
+      "date": "2026-06-19",
+      "participants": [
+        "plato",
+        "nietzsche",
+        "marx",
+        "nussbaum",
+        "nagarjuna",
+        "dunbar",
+        "adler",
+        "wilde"
+      ],
+      "cat": "ethics",
+      "sub": "走入亲密关系变难，是个人问题，还是时代造的？",
+      "sub_en": "Is the trouble forming intimate relationships a personal failing, or one the age has made?"
+    },
+    {
+      "id": "three-teachings",
+      "question": "儒、释、道的异同：三家分歧究竟在哪，又在何处殊途同归？",
+      "question_en": "Confucianism, Buddhism, and Daoism: where do the three traditions truly differ, and where do they converge?",
+      "date": "2026-06-19",
+      "participants": [
+        "kongzi",
+        "wangyangming",
+        "laozi",
+        "zhuangzi",
+        "huineng",
+        "vasubandhu",
+        "mozi",
+        "damasio"
+      ],
+      "cat": "meta"
+    },
+    {
+      "id": "index-or-stock-picking",
+      "question": "普通人投资，该买大盘指数，还是买自己拿着放心的个股？",
+      "question_en": "For ordinary investors: buy the broad index, or the individual stocks you can hold with confidence?",
+      "date": "2026-06-19",
+      "participants": [
+        "keynes",
+        "hayek",
+        "socrates",
+        "feynman",
+        "munger",
+        "duanyongping",
+        "wangyangming",
+        "dalio",
+        "damasio"
+      ],
+      "cat": "self"
+    },
+    {
+      "id": "driven-by-fear",
+      "question": "靠恐惧驱动的优秀，该不该放下？",
+      "question_en": "Should we let go of excellence driven by fear?",
+      "date": "2026-06-19",
+      "participants": [
+        "adler",
+        "maslow",
+        "csikszentmihalyi",
+        "huineng",
+        "kierkegaard",
+        "seneca",
+        "sapolsky"
+      ],
+      "cat": "self",
+      "sub": "『要够好才配被爱』——放下了，会不会连动力也一起没了？",
+      "sub_en": "'I must be good enough to deserve love' — and if we let go, do we lose the drive too?"
+    },
+    {
+      "id": "east-west-philosophy",
+      "question": "东方与西方哲学，源头何以不同？",
+      "question_en": "Why did Eastern and Western philosophy diverge at the source?",
+      "date": "2026-06-20",
+      "participants": [
+        "kongzi",
+        "shankara",
+        "nagarjuna",
+        "luxun",
+        "descartes",
+        "hegel",
+        "russell",
+        "nisbett"
+      ],
+      "cat": "meta",
+      "sub": "它如何塑造了今天的东西方人？两边的智慧又能否融合？",
+      "sub_en": "How did that shape the people we are today — and can the two wisdoms be fused?"
+    },
+    {
+      "id": "office-politics",
+      "question": "『组织政治』是毒瘤，还是必需？",
+      "question_en": "Is 'office politics' a tumor, or a necessity?",
+      "date": "2026-06-20",
+      "participants": [
+        "bourdieu",
+        "goffman",
+        "hobbes",
+        "weber",
+        "drucker",
+        "hanfeizi",
+        "marcusaurelius",
+        "buddha",
+        "sapolsky"
+      ],
+      "cat": "work",
+      "sub": "大型组织里的政治，普通人该如何看待、甚至善用它？",
+      "sub_en": "How should ordinary people view — even make good use of — politics in large organizations?"
+    },
+    {
+      "id": "withdraw-life-support",
+      "question": "家中老人病重、靠插管维持近乎植物人的状态，作为子女，该不该撤管放手？",
+      "question_en": "When an elderly parent is critically ill and kept in a near-vegetative state by life support, should the children withdraw it and let go?",
+      "date": "2026-06-21",
+      "participants": [
+        "aquinas",
+        "sen",
+        "damasio",
+        "nagarjuna",
+        "tolstoy",
+        "camus",
+        "sandel"
+      ],
+      "cat": "life"
+    },
+    {
+      "id": "virtue-vs-talent",
+      "question": "企业用人，该「以德为先」还是「以才为先」？",
+      "question_en": "When a company hires and promotes, should it put character first, or ability first?",
+      "date": "2026-06-22",
+      "participants": [
+        "mengzi",
+        "mozi",
+        "machiavelli",
+        "friedman",
+        "buffett",
+        "skinner",
+        "vasubandhu",
+        "gandhi"
+      ],
+      "cat": "work"
+    },
+    {
+      "id": "coach-or-manage-out",
+      "question": "下属不行，该带教还是该换人？",
+      "question_en": "When a subordinate falls short: coach, or move them out?",
+      "date": "2026-06-24",
+      "participants": [
+        "drucker",
+        "dweck",
+        "hanfeizi",
+        "schumpeter",
+        "wood",
+        "singer",
+        "dalio"
+      ],
+      "cat": "work",
+      "sub": "能力或动力不足时，领导该花时间 coaching，还是果断 manage out？",
+      "sub_en": "If ability or motivation is lacking, should a leader invest time in coaching or decisively manage them out?"
+    },
+    {
+      "id": "seeing-others-is-self",
+      "question": "「你眼中的别人，其实是你自己」？",
+      "question_en": "'The others you see are really you' — is that true?",
+      "date": "2026-06-25",
+      "participants": [
+        "huineng",
+        "zhuangzi",
+        "jung",
+        "ramachandran",
+        "sartre",
+        "wittgenstein"
+      ],
+      "cat": "self",
+      "sub": "『你眼中的别人不是别人，你眼中的自己不是自己，你眼中的别人才是自己』——这话有道理吗？",
+      "sub_en": "'The others you see aren't really them, the self you see isn't really you, and the others you see are actually you.'"
+    },
+    {
+      "id": "eldercare-home-or-facility",
+      "question": "父母年迈失能，该亲自接回家照顾，还是送养老院、请护工？",
+      "question_en": "When parents grow old and frail, should you care for them at home yourself, or place them in a nursing home and hire professional carers?",
+      "date": "2026-06-30",
+      "participants": [
+        "kongzi",
+        "beauvoir",
+        "adamsmith",
+        "damasio",
+        "spinoza",
+        "seneca",
+        "laozi",
+        "sen"
+      ],
+      "cat": "life"
+    },
+    {
+      "id": "worldly-success",
+      "question": "世俗意义上的『成功』——财富、地位、名声、成就——到底值不值得追求？",
+      "question_en": "Is worldly 'success' — wealth, status, fame, achievement — worth pursuing at all?",
+      "date": "2026-06-26",
+      "participants": [
+        "aristotle",
+        "adamsmith",
+        "laozi",
+        "seneca",
+        "rousseau",
+        "weber",
+        "russell",
+        "kahneman",
+        "jensen"
+      ],
+      "cat": "self"
+    },
+    {
+      "id": "being-yourself",
+      "question": "「忠于真实的自我」是不是个伪命题？到底有没有一个本真的我？",
+      "question_en": "Is 'being true to your authentic self' a false premise — and is there even an authentic self to begin with?",
+      "date": "2026-06-26",
+      "participants": [
+        "hume",
+        "vasubandhu",
+        "sartre",
+        "maslow",
+        "xunzi",
+        "goffman",
+        "freud"
+      ],
+      "cat": "self"
+    },
+    {
+      "id": "acceptable-inequality",
+      "question": "什么样的不平等是可以接受的？",
+      "question_en": "What kind of inequality is acceptable?",
+      "date": "2026-06-27",
+      "participants": [
+        "piketty",
+        "hayek",
+        "locke",
+        "rawls",
+        "sandel",
+        "mlk",
+        "berlin",
+        "bauman",
+        "kongzi",
+        "nagarjuna"
+      ],
+      "cat": "ethics"
+    },
+    {
+      "id": "luck-and-merit",
+      "question": "我们的成功与失败，多少是「应得的」？努力真能决定命运吗？",
+      "question_en": "How much of our success or failure do we actually deserve — and does effort really decide our fate?",
+      "date": "2026-06-28",
+      "participants": [
+        "machiavelli",
+        "harris",
+        "buffett",
+        "xunzi",
+        "huineng",
+        "nietzsche",
+        "taleb",
+        "calvin"
+      ],
+      "cat": "self"
+    },
+    {
+      "id": "gene-editing",
+      "question": "该不该用基因编辑「设计」更聪明、更健康的下一代？",
+      "question_en": "Should we use gene editing to 'design' smarter, healthier children?",
+      "date": "2026-06-29",
+      "participants": [
+        "plato",
+        "sandel",
+        "dawkins",
+        "nussbaum",
+        "sapolsky",
+        "schrodinger",
+        "buddha"
+      ],
+      "cat": "ethics"
+    },
+    {
+      "id": "job-hopping",
+      "question": "该频繁跳槽，还是在一处深耕固守？",
+      "question_en": "Should you job-hop often, or stay put and dig deep in one place?",
+      "date": "2026-06-30",
+      "participants": [
+        "taleb",
+        "naval",
+        "munger",
+        "wangyangming",
+        "huineng",
+        "fromm",
+        "damasio",
+        "beauvoir",
+        "weber",
+        "adamgrant",
+        "reidhoffman"
+      ],
+      "cat": "work"
+    },
+    {
+      "id": "productivity-and-leisure",
+      "question": "生产力一次次飞跃，人更闲了还是更忙了？",
+      "question_en": "With each leap in productivity, are we more leisured or busier?",
+      "date": "2026-06-30",
+      "participants": [
+        "keynes",
+        "russell",
+        "harari",
+        "marx",
+        "rousseau",
+        "aristotle",
+        "zhuangzi",
+        "kahneman"
+      ],
+      "cat": "meta",
+      "sub": "农业、工业、AI 三次革命——人是更幸福，还是更不幸？",
+      "sub_en": "Across the agricultural, industrial and AI revolutions — happier, or unhappier?"
+    },
+    {
+      "id": "what-determines-value",
+      "question": "一样东西的价值，到底由什么决定？（劳动、效用、稀缺，还是别的？）",
+      "question_en": "What ultimately determines the value of a thing? (Labor, utility, scarcity — or something else?)",
+      "date": "2026-06-30",
+      "participants": [
+        "adamsmith",
+        "hayek",
+        "piketty",
+        "bourdieu",
+        "nagarjuna",
+        "ramachandran",
+        "wilde"
+      ],
+      "cat": "meta"
+    },
+    {
+      "id": "ai-and-inequality",
+      "question": "AI 创造的财富，会让社会更不平等吗？",
+      "question_en": "Will the wealth AI creates make society more unequal?",
+      "date": "2026-07-01",
+      "participants": [
+        "jensen",
+        "thiel",
+        "hinton",
+        "schumpeter",
+        "sen",
+        "sapolsky",
+        "rawls",
+        "buddha",
+        "tocqueville"
+      ],
+      "cat": "ethics",
+      "sub": "是赢家通吃的马太效应，还是反而造就更公平的社会？",
+      "sub_en": "A winner-takes-all Matthew effect, or a fairer society instead?"
+    },
+    {
+      "id": "identity-or-no-self",
+      "question": "想改变自己，该先立身份还是先放下自我？",
+      "question_en": "To change yourself: build an identity first, or let the self go?",
+      "date": "2026-07-02",
+      "participants": [
+        "adler",
+        "dweck",
+        "goffman",
+        "wood",
+        "xunzi",
+        "vasubandhu",
+        "sartre",
+        "dostoevsky"
+      ],
+      "cat": "self",
+      "sub": "成功学说『先改 identity』、贴正向标签；佛学说看破我执、无我——哪一条走得通？",
+      "sub_en": "Self-help says claim a positive label and reinforce a new identity; Buddhism says see through self-grasping. Which one works?"
+    },
+    {
+      "id": "free-will",
+      "question": "人是否拥有真正的自由意志？",
+      "question_en": "Do we have genuine free will?",
+      "date": "2026-07-02",
+      "participants": [
+        "spinoza",
+        "hume",
+        "kant",
+        "dostoevsky",
+        "skinner",
+        "einstein",
+        "vasubandhu",
+        "libet"
+      ],
+      "cat": "meta"
+    },
+    {
+      "id": "geography-shapes-thought",
+      "question": "是地理塑造了思想，还是思想自有其命？",
+      "question_en": "Did geography shape thought, or do ideas have a life of their own?",
+      "date": "2026-07-02",
+      "participants": [
+        "diamond",
+        "ibnkhaldun",
+        "marx",
+        "hegel",
+        "weber",
+        "nisbett",
+        "levistrauss",
+        "nagarjuna",
+        "luther"
+      ],
+      "cat": "meta",
+      "sub": "东西方为何不同——是地理与物质环境决定，还是偶然、伟人与观念的力量？",
+      "sub_en": "Why East and West differ — geography and material conditions, or contingency, great individuals and the force of ideas?"
+    },
+    {
+      "id": "engage-or-withdraw",
+      "question": "想活得不后悔，该入世还是出世？",
+      "question_en": "To live without regret: engage the world, or withdraw from it?",
+      "date": "2026-07-02",
+      "participants": [
+        "kongzi",
+        "zhuangzi",
+        "huineng",
+        "sushi",
+        "alghazali",
+        "arendt",
+        "harris"
+      ],
+      "cat": "self",
+      "sub": "投身事功与人群，还是超脱放下、向内求安？",
+      "sub_en": "Throw yourself into achievement and people, or transcend, let go and seek peace within?"
+    },
+    {
+      "id": "comparison-and-envy",
+      "question": "为什么我们忍不住跟别人比？嫉妒能消除吗？",
+      "question_en": "Why can't we stop comparing ourselves to others? Can envy ever be eliminated?",
+      "date": "2026-07-03",
+      "participants": [
+        "festinger",
+        "damasio",
+        "adamsmith",
+        "bourdieu",
+        "sontag",
+        "thiel",
+        "nietzsche",
+        "kierkegaard",
+        "laozi",
+        "buddha"
+      ],
+      "cat": "self"
+    },
+    {
+      "id": "enough-money-still-work",
+      "question": "如果有了足够的钱（财务自由），是否还应该继续工作？",
+      "question_en": "If you had enough money to never need to, should you still work?",
+      "date": "2026-07-04",
+      "participants": [
+        "epicurus",
+        "buffett",
+        "schumpeter",
+        "fromm",
+        "beauvoir",
+        "newport",
+        "carstensen",
+        "wangyangming",
+        "huineng"
+      ],
+      "cat": "self"
+    },
+    {
+      "id": "quantum-observation",
+      "question": "量子物理是否说明「观测」真的改变了世界？",
+      "question_en": "Does quantum physics show that 'observation' really changes the world?",
+      "date": "2026-07-05",
+      "participants": [
+        "schrodinger",
+        "bohr",
+        "einstein",
+        "heisenberg",
+        "vonneumann",
+        "kant",
+        "vasubandhu",
+        "harris"
+      ],
+      "cat": "meta"
+    },
+    {
+      "id": "depth-or-breadth",
+      "question": "AI 时代，人的心智该往「深」练还是往「广」练？",
+      "question_en": "In the AI era, should the mind train for depth or for breadth?",
+      "date": "2026-07-07",
+      "participants": [
+        "newport",
+        "csikszentmihalyi",
+        "wolf",
+        "damasio",
+        "shannon",
+        "kongzi",
+        "zhuangzi",
+        "aristotle"
+      ],
+      "cat": "self"
+    },
+    {
+      "id": "virtue-teachable",
+      "question": "品德是教出来的，还是长出来的？——美德到底可不可教？",
+      "question_en": "Can virtue be taught — is character instilled, or does it grow on its own?",
+      "date": "2026-07-07",
+      "participants": [
+        "socrates",
+        "mengzi",
+        "xunzi",
+        "aristotle",
+        "huineng",
+        "piaget",
+        "sapolsky"
+      ],
+      "cat": "self"
+    },
+    {
+      "id": "big-firm-or-startup",
+      "question": "普通人该进大厂求稳，还是闯小公司、创业？",
+      "question_en": "Should ordinary people play it safe at a big company, or take the leap into a startup?",
+      "date": "2026-07-07",
+      "participants": [
+        "reidhoffman",
+        "newport",
+        "drucker",
+        "taleb",
+        "duanyongping",
+        "hayek",
+        "sapolsky",
+        "wangyangming",
+        "beauvoir",
+        "huineng"
+      ],
+      "cat": "work"
+    },
+    {
+      "id": "inequality-and-health",
+      "question": "贫富差距本身会让人生病吗？该不该把不平等当成一个公共健康问题？",
+      "question_en": "Does the wealth gap itself make people sick — and should inequality be treated as a public-health issue?",
+      "date": "2026-07-08",
+      "participants": [
+        "marmot",
+        "wilkinson",
+        "sapolsky",
+        "hayek",
+        "rawls",
+        "szasz",
+        "buddha"
+      ],
+      "cat": "ethics"
+    },
+    {
+      "id": "what-is-education-for",
+      "question": "教育到底是为了什么——筛选人才的机器，还是培养人的土壤？",
+      "question_en": "What is education for — a machine to sort talent, or soil to cultivate a person?",
+      "date": "2026-07-09",
+      "participants": [
+        "kongzi",
+        "piaget",
+        "gopnik",
+        "rousseau",
+        "plato",
+        "bourdieu",
+        "illich",
+        "laozi"
+      ],
+      "cat": "ethics"
+    },
+    {
+      "id": "fluid-or-crystallized",
+      "question": "AI 时代，该练流体智力还是晶体智力？",
+      "question_en": "In the age of AI: train fluid intelligence, or crystallized?",
+      "date": "2026-07-10",
+      "participants": [
+        "lecun",
+        "munger",
+        "kahneman",
+        "zhuangzi",
+        "hume",
+        "nagarjuna"
+      ],
+      "cat": "self",
+      "sub": "临场推理，还是深厚积累——抑或真正稀缺的是坐在两者之上的判断力？",
+      "sub_en": "On-the-spot reasoning or deep accumulation — or is the real scarcity the judgment that sits above both?"
+    },
+    {
+      "id": "math-discovered-or-invented",
+      "question": "数学是被发现的，还是被发明的？",
+      "question_en": "Is mathematics discovered, or invented?",
+      "date": "2026-07-11",
+      "participants": [
+        "plato",
+        "godel",
+        "vonneumann",
+        "turing",
+        "wittgenstein",
+        "kant",
+        "dehaene",
+        "vasubandhu"
+      ],
+      "cat": "meta"
+    },
+    {
+      "id": "is-progress-real",
+      "question": "进步是真的吗？历史是在前进，还是循环、甚至退步？",
+      "question_en": "Is progress real? Is history moving forward, in cycles — or even backward?",
+      "date": "2026-07-12",
+      "participants": [
+        "hegel",
+        "diamond",
+        "ibnkhaldun",
+        "nietzsche",
+        "benjamin",
+        "darwin",
+        "nagarjuna"
+      ],
+      "cat": "meta"
+    },
+    {
+      "id": "progress-liberation-or-control",
+      "question": "现代的『文明进步』，是解放还是控制？",
+      "question_en": "Modern 'civilizational progress': liberation, or control?",
+      "date": "2026-07-13",
+      "participants": [
+        "foucault",
+        "illich",
+        "marx",
+        "kant",
+        "tocqueville",
+        "adamgrant",
+        "habermas",
+        "buddha",
+        "damasio"
+      ],
+      "cat": "ethics",
+      "sub": "废酷刑、办学校、建医院、讲人道——是人的解放，还是一种更高效、更彻底的控制？",
+      "sub_en": "Abolishing torture, building schools and hospitals, preaching humanity — the liberation of humankind, or a more efficient and total control?"
+    },
+    {
+      "id": "natural-aging",
+      "question": "容颜该顺其自然地老去，还是该努力医美、抗衰？",
+      "question_en": "Should we let our looks age naturally, or fight it with cosmetic work and anti-aging?",
+      "date": "2026-07-13",
+      "participants": [
+        "sontag",
+        "wilde",
+        "schopenhauer",
+        "epictetus",
+        "carstensen",
+        "thiel",
+        "shankara",
+        "goffman"
+      ],
+      "cat": "self"
+    },
+    {
+      "id": "ai-consciousness",
+      "question": "AI 有没有、或可能有意识？我们又凭什么判断？",
+      "question_en": "Does (or could) AI have consciousness — and how would we ever know?",
+      "date": "2026-07-14",
+      "participants": [
+        "turing",
+        "descartes",
+        "ramachandran",
+        "hinton",
+        "huineng",
+        "spinoza",
+        "libet"
+      ],
+      "cat": "meta"
+    },
+    {
+      "id": "language-shapes-thought",
+      "question": "语言塑造思维吗？说不同语言的人，看到的是不同的世界吗？",
+      "question_en": "Does language shape thought? Do speakers of different languages see different worlds?",
+      "date": "2026-07-15",
+      "participants": [
+        "boroditsky",
+        "chomsky",
+        "kongzi",
+        "laozi",
+        "nietzsche",
+        "heidegger",
+        "russell",
+        "luxun",
+        "levistrauss"
+      ],
+      "cat": "meta"
+    },
+    {
+      "id": "what-is-beauty",
+      "question": "美，是主观感受，还是有客观的标准？",
+      "question_en": "Is beauty just in the eye of the beholder, or is there an objective standard?",
+      "date": "2026-07-16",
+      "participants": [
+        "aristotle",
+        "kant",
+        "hume",
+        "wangguowei",
+        "wilde",
+        "tolstoy",
+        "ramachandran",
+        "vasubandhu"
+      ],
+      "cat": "meta"
+    },
+    {
+      "id": "care-and-emotional-labor",
+      "question": "我们为何系统性地低估『照护与情感劳动』的价值？",
+      "question_en": "Why do we systematically undervalue care and emotional labor?",
+      "date": "2026-07-17",
+      "participants": [
+        "beauvoir",
+        "nussbaum",
+        "becker",
+        "durkheim",
+        "mengzi",
+        "huineng",
+        "sapolsky"
+      ],
+      "cat": "life"
+    },
+    {
+      "id": "performance-ranking",
+      "question": "绩效考核与「赛马」（KPI、末位淘汰）是激励，还是毒药？",
+      "question_en": "Performance appraisal and stack-ranking (KPIs, rank-and-yank): motivation or poison?",
+      "date": "2026-07-18",
+      "participants": [
+        "hanfeizi",
+        "deming",
+        "dalio",
+        "dweck",
+        "skinner",
+        "foucault",
+        "drucker",
+        "zhuangzi"
+      ],
+      "cat": "work"
+    },
+    {
+      "id": "duty-to-distant-strangers",
+      "question": "我们对远方陌生人的苦难，负有多大义务？",
+      "question_en": "How much do we owe to the suffering of distant strangers?",
+      "date": "2026-07-19",
+      "participants": [
+        "mozi",
+        "mengzi",
+        "adamsmith",
+        "buddha",
+        "haidt",
+        "taleb",
+        "mlk"
+      ],
+      "cat": "ethics"
+    },
+    {
+      "id": "procrastination",
+      "question": "拖延症，到底要不要治？",
+      "question_en": "Should we cure procrastination at all?",
+      "date": "2026-07-20",
+      "participants": [
+        "seneca",
+        "wangyangming",
+        "wood",
+        "nagarjuna",
+        "kierkegaard",
+        "thaler",
+        "taleb",
+        "newport",
+        "sushi"
+      ],
+      "cat": "self",
+      "sub": "deadline 是第一生产力，重要的事最后也赶得出来——那它究竟是不是病？",
+      "sub_en": "Deadlines are the ultimate productivity engine and the important things still get done — so is it really a disease?"
+    },
+    {
+      "id": "cultural-homogenization",
+      "question": "全球化正在让世界失去文化多样性吗？",
+      "question_en": "Is globalization costing us cultural diversity?",
+      "date": "2026-07-21",
+      "participants": [
+        "berlin",
+        "sen",
+        "nisbett",
+        "diamond",
+        "marx",
+        "gandhi",
+        "ibnkhaldun",
+        "laozi"
+      ],
+      "cat": "meta",
+      "sub": "世界被磨成同一种模样——这是进步，还是一种贫乏？",
+      "sub_en": "The world ground into one shape — is that progress, or an impoverishment?"
+    },
+    {
+      "id": "nature-of-love",
+      "question": "真爱是发现的，还是培养（甚至建构）出来的？",
+      "question_en": "Is true love found, or cultivated — even constructed?",
+      "date": "2026-07-22",
+      "participants": [
+        "plato",
+        "avicenna",
+        "schopenhauer",
+        "fromm",
+        "beauvoir",
+        "buddha",
+        "fisher"
+      ],
+      "cat": "life"
+    },
+    {
+      "id": "shareholder-or-stakeholder",
+      "question": "公司到底该对谁负责——只对股东，还是也对员工与社会？",
+      "question_en": "Whom does a company answer to — only its shareholders, or also its workers and society?",
+      "date": "2026-07-23",
+      "participants": [
+        "friedman",
+        "adamsmith",
+        "drucker",
+        "sandel",
+        "piketty",
+        "weber",
+        "buffett",
+        "xunzi"
+      ],
+      "cat": "work"
+    },
+    {
+      "id": "escape-from-freedom",
+      "question": "人真的在逃避自由吗？——自由是解放，还是一副人宁愿卸下的重担？",
+      "question_en": "Do people really flee from freedom — is freedom a liberation, or a burden they would rather set down?",
+      "date": "2026-07-24",
+      "participants": [
+        "fromm",
+        "dostoevsky",
+        "kierkegaard",
+        "sartre",
+        "berlin",
+        "arendt",
+        "thoreau",
+        "zhuangzi",
+        "libet"
+      ],
+      "cat": "self"
+    },
+    {
+      "id": "walden-simple-living",
+      "question": "该主动过「极简 / 少欲」的生活吗？",
+      "question_en": "Should we deliberately live simply?",
+      "date": "2026-07-25",
+      "participants": [
+        "thoreau",
+        "diogenes",
+        "epicurus",
+        "kongzi",
+        "vasubandhu",
+        "lembke",
+        "bourdieu",
+        "marx",
+        "luxun",
+        "naval"
+      ],
+      "cat": "self",
+      "sub": "梭罗式的『简化，再简化』是通往自由与清醒的智慧，还是一种特权、逃避、甚至另一种精致的消费主义？",
+      "sub_en": "Is Thoreau's 'simplify, simplify' a road to freedom and clarity — or a privilege, an escape, even a refined consumerism?"
+    },
+    {
+      "id": "social-interest-or-self",
+      "question": "「社会兴趣」是衡量活得好不好的尺吗？",
+      "question_en": "Is 'social interest' the yardstick of a life well lived?",
+      "date": "2026-07-26",
+      "participants": [
+        "adler",
+        "durkheim",
+        "dunbar",
+        "nussbaum",
+        "freud",
+        "jung",
+        "szasz",
+        "huineng"
+      ],
+      "cat": "self",
+      "sub": "阿德勒说它是心理健康与幸福的关键——那独处、自我实现、离经叛道，是病还是另一种活法？",
+      "sub_en": "Adler called it the key to mental health and happiness — so are solitude, self-realization and nonconformity a sickness, or another way to live?"
+    },
+    {
+      "id": "nde-mind-beyond-brain",
+      "question": "濒死体验证明意识能脱离大脑吗？",
+      "question_en": "Do near-death experiences prove consciousness can leave the brain?",
+      "date": "2026-07-27",
+      "participants": [
+        "ramachandran",
+        "shankara",
+        "dehaene",
+        "nagarjuna",
+        "hume",
+        "averroes",
+        "harris",
+        "kant",
+        "beauvoir"
+      ],
+      "cat": "meta",
+      "sub": "是灵魂离体的证据，还是垂死大脑的最后一场烟花？",
+      "sub_en": "Evidence of a soul departing the body, or the dying brain's last fireworks?"
+    },
+    {
+      "id": "does-time-exist",
+      "question": "时间真的存在吗，还是一种幻觉？",
+      "question_en": "Does time really exist, or is it an illusion?",
+      "date": "2026-07-28",
+      "participants": [
+        "newton",
+        "einstein",
+        "rovelli",
+        "kant",
+        "augustine",
+        "vasubandhu",
+        "libet",
+        "heidegger",
+        "carstensen"
+      ],
+      "cat": "meta",
+      "sub": "钟表在走、人在变老，可物理学里找不到一个普适的『现在』——流逝是世界的性质，还是心造的？",
+      "sub_en": "Clocks tick and we grow old, yet physics finds no universal 'now' — is the flow a property of the world, or something the mind makes?"
+    },
+    {
+      "id": "duty-to-earth",
+      "question": "我们对地球（其他物种、后代）负有怎样的义务？",
+      "question_en": "What do we owe the Earth — other species, and future generations?",
+      "date": "2026-07-30",
+      "participants": [
+        "eowilson",
+        "hobbes",
+        "locke",
+        "zhuxi",
+        "galileo",
+        "mozi",
+        "buddha",
+        "damasio"
+      ],
+      "cat": "ethics"
+    },
+    {
+      "id": "third-places",
+      "question": "我们是不是正在失去『第三空间』？",
+      "question_en": "Are we losing our 'third places'?",
+      "date": "2026-07-30",
+      "participants": [
+        "bauman",
+        "tocqueville",
+        "illich",
+        "becker",
+        "dunbar",
+        "huineng",
+        "sushi",
+        "newport",
+        "goffman",
+        "marmot"
+      ],
+      "cat": "life",
+      "sub": "闲逛式的日常社交在消失——孤独流行病从何而来？",
+      "sub_en": "Aimless everyday sociability is vanishing — where does the loneliness epidemic come from?"
+    },
+    {
+      "id": "algorithmic-management",
+      "question": "该不该让算法来管人——派活、打分、监控，甚至解雇？",
+      "question_en": "Should algorithms manage people — assigning the work, scoring it, watching it, even ending it?",
+      "date": "2026-07-31",
+      "participants": [
+        "hanfeizi",
+        "foucault",
+        "dalio",
+        "deming",
+        "sapolsky",
+        "arendt",
+        "nagarjuna"
+      ],
+      "cat": "work"
+    },
+    {
+      "id": "truth-vs-harmony",
+      "question": "维系和谐，有时是否比说出真相更重要？",
+      "question_en": "Is keeping the peace sometimes more important than telling the truth?",
+      "date": "2026-08-01",
+      "participants": [
+        "socrates",
+        "laozi",
+        "wilde",
+        "mengzi",
+        "sharot",
+        "machiavelli",
+        "buddha",
+        "nisbett"
+      ],
+      "cat": "self"
+    },
+    {
+      "id": "dark-forest",
+      "question": "宇宙真的是「黑暗森林」吗？文明之间注定你死我活，还是可能合作？",
+      "question_en": "Is the universe really a 'dark forest'? Are civilisations doomed to destroy one another, or can they cooperate?",
+      "date": "2026-08-02",
+      "participants": [
+        "vonneumann",
+        "sagan",
+        "hobbes",
+        "diamond",
+        "hawking",
+        "sunzi",
+        "dawkins",
+        "haidt",
+        "vasubandhu"
+      ],
+      "cat": "meta"
+    },
+    {
+      "id": "ai-resurrect-dead",
+      "question": "该不该用 AI「复活」逝去的亲人？",
+      "question_en": "Should you use AI to 'resurrect' a dead loved one?",
+      "date": "2026-08-03",
+      "participants": [
+        "sushi",
+        "oconnor",
+        "kongzi",
+        "turing",
+        "freud",
+        "huineng",
+        "sontag",
+        "bauman"
+      ],
+      "cat": "life",
+      "sub": "用聊天记录与声音训练一个『TA』来陪伴自己。",
+      "sub_en": "Training a 'them' from their messages and voice to keep you company."
+    },
+    {
+      "id": "liberty-vs-equality",
+      "question": "自由与平等不可兼得时，该牺牲哪个？",
+      "question_en": "When liberty and equality cannot both be had, which gives way?",
+      "date": "2026-08-04",
+      "participants": [
+        "hayek",
+        "rawls",
+        "piketty",
+        "berlin",
+        "wilkinson",
+        "xunzi",
+        "sen",
+        "beauvoir",
+        "keynes",
+        "nagarjuna"
+      ],
+      "cat": "ethics",
+      "sub": "累进税、遗产税、学区名额、平台抽成——每一次让弱者好过些都要动用强制；每一次守住『我的就是我的』，差距就再拉开一寸。",
+      "sub_en": "Progressive taxes, estate duties, school catchments, platform commissions — every arrangement that eases life for the weak invokes coercion; every defence of 'what is mine is mine' widens the gap."
+    },
+    {
+      "id": "leadership-after-ai",
+      "question": "当 AI 比谁都懂，领导者还剩什么不可替代的？",
+      "question_en": "When AI knows more than anyone, what is left that only a leader can do?",
+      "date": "2026-08-05",
+      "participants": [
+        "drucker",
+        "weber",
+        "aristotle",
+        "jensen",
+        "wangyangming",
+        "damasio",
+        "buddha"
+      ],
+      "cat": "work"
+    },
+    {
+      "id": "interfere-or-let-be",
+      "question": "爱一个人，该介入他的人生多深？",
+      "question_en": "How far should love intervene in another's life?",
+      "date": "2026-08-06",
+      "participants": [
+        "adler",
+        "shankara",
+        "zhuxi",
+        "mozi",
+        "zhuangzi",
+        "fromm",
+        "lembke",
+        "nussbaum"
+      ],
+      "cat": "life",
+      "sub": "『不干涉他人因果』是尊重与智慧，还是给冷漠找的灵性借口？哪怕对家人？",
+      "sub_en": "Is 'don't interfere with another's karma' respect and wisdom, or a spiritual excuse for indifference — even with family?"
+    },
+    {
+      "id": "regret",
+      "question": "该为过去的选择后悔吗？",
+      "question_en": "Should we regret the choices we made?",
+      "sub": "「如果当初…」反复啃噬——面对不能重来的过去，该放下、该担起，还是根本没有那条没走的路？",
+      "sub_en": "The 'if only I had…' that keeps gnawing: with a past you cannot redo, do you let it go, take it on, or find there was never a road not taken?",
+      "date": "2026-08-07",
+      "participants": [
+        "kierkegaard",
+        "marcusaurelius",
+        "nagarjuna",
+        "arendt",
+        "redish",
+        "rovelli"
+      ],
+      "cat": "self"
+    },
+    {
+      "id": "multiverse",
+      "question": "真的存在平行宇宙吗？",
+      "question_en": "Do parallel universes really exist?",
+      "sub": "多世界诠释与永恒暴胀都推出无数个「你」——一个永远观测不到的理论，还算科学吗？",
+      "sub_en": "The many-worlds reading and eternal inflation both yield innumerable copies of you — but is a theory that can never be observed still science?",
+      "date": "2026-08-08",
+      "participants": [
+        "hawking",
+        "bohr",
+        "schrodinger",
+        "feynman",
+        "hume",
+        "wittgenstein",
+        "godel",
+        "vasubandhu",
+        "dehaene"
+      ],
+      "cat": "meta"
+    },
+    {
+      "id": "moral-limits-of-markets",
+      "question": "有什么是金钱不该买卖的？",
+      "question_en": "Is there anything money should not be able to buy?",
+      "sub": "从代孕、器官到选票与照护——当市场逻辑渗进一切，还有没有该守住的非卖品？",
+      "sub_en": "From surrogacy and organs to votes and care: as market logic seeps into everything, is anything still off the auction block?",
+      "date": "2026-08-09",
+      "participants": [
+        "sandel",
+        "friedman",
+        "becker",
+        "marx",
+        "mengzi",
+        "huineng",
+        "nussbaum",
+        "fehr"
+      ],
+      "cat": "ethics"
+    },
+    {
+      "id": "express-ambition",
+      "question": "职场该不该表达野心？",
+      "question_en": "Should you show your ambition at work?",
+      "sub": "同样一份野心，有人叫领导力，有人被判「太有攻击性」——谦逊这条规范，究竟服务了谁？",
+      "sub_en": "The same ambition reads as leadership in one person and as \"too aggressive\" in another — so whom does the modesty norm actually serve?",
+      "date": "2026-08-10",
+      "participants": [
+        "beauvoir",
+        "nietzsche",
+        "laozi",
+        "buddha",
+        "goffman",
+        "adamgrant",
+        "sharot"
+      ],
+      "cat": "work"
+    },
+    {
+      "id": "gardener-or-carpenter",
+      "question": "园丁还是木匠？父母该塑造孩子吗？",
+      "question_en": "Gardener or carpenter: should parents shape a child?",
+      "sub": "按蓝图雕琢，还是养好土壤等花自己开——以及早早贴上的「优秀」标签，后来把人带去了哪。",
+      "sub_en": "Carve to a blueprint, or tend the soil and wait for a bloom nobody can predict — and where an early label of “gifted” actually leads.",
+      "date": "2026-08-11",
+      "participants": [
+        "gopnik",
+        "xunzi",
+        "skinner",
+        "rousseau",
+        "wangyangming",
+        "dweck",
+        "bourdieu",
+        "taleb",
+        "vasubandhu"
+      ],
+      "cat": "life"
+    },
+    {
+      "id": "courage",
+      "question": "真正的『勇气』是什么？",
+      "question_en": "What is courage, really?",
+      "sub": "是无所畏惧，还是带着恐惧仍然前行？它能不能像肌肉一样练出来？",
+      "sub_en": "The absence of fear, or moving forward while afraid — and can it be trained like a muscle?",
+      "date": "2026-08-12",
+      "participants": [
+        "ledoux",
+        "socrates",
+        "mengzi",
+        "nagarjuna",
+        "mlk",
+        "foucault",
+        "wood",
+        "fisher"
+      ],
+      "cat": "self"
+    },
+    {
+      "id": "materialism-idealism",
+      "question": "世界是唯物的，还是唯心的？",
+      "question_en": "Is the world made of matter, or of mind?",
+      "sub": "意识只是大脑放的电，还是比物质更根本的实在？",
+      "sub_en": "Is consciousness just the brain's electricity, or something more fundamental than matter?",
+      "date": "2026-08-13",
+      "participants": [
+        "hobbes",
+        "darwin",
+        "ramachandran",
+        "shankara",
+        "schopenhauer",
+        "hegel",
+        "russell",
+        "heisenberg",
+        "zhuxi",
+        "luxun"
+      ],
+      "cat": "meta"
+    },
+    {
+      "id": "abundance-and-decline",
+      "question": "物质极度丰裕后，人会走向衰亡吗？",
+      "question_en": "Does material abundance lead to decline?",
+      "sub": "卡尔霍恩的鼠群在无限食物里走向崩溃——匮乏是意义的必要燃料吗？",
+      "sub_en": "Calhoun's mice collapsed amid unlimited food — is scarcity a necessary fuel for meaning?",
+      "date": "2026-08-14",
+      "participants": [
+        "calhoun",
+        "nietzsche",
+        "arendt",
+        "ibnkhaldun",
+        "keynes",
+        "maslow",
+        "lembke",
+        "epicurus",
+        "huineng"
+      ],
+      "cat": "ethics"
+    },
+    {
+      "id": "entry-jobs-and-apprenticeship",
+      "question": "AI 做完入门的活，新人怎么学本事？",
+      "question_en": "If AI does the entry-level work, how do novices learn?",
+      "sub": "学徒、实习、蹲着调 bug——那些『笨办法』该刻意保留，还是该让它去？",
+      "sub_en": "Apprenticeships, internships, sitting with a bug — keep the slow way on purpose, or let it go?",
+      "date": "2026-08-15",
+      "participants": [
+        "aristotle",
+        "hinton",
+        "dehaene",
+        "zhuangzi",
+        "deming",
+        "schumpeter",
+        "illich",
+        "vasubandhu"
+      ],
+      "cat": "work"
+    },
+    {
+      "id": "test-loyalty",
+      "question": "忠诚该不该被考验？",
+      "question_en": "Should loyalty be put to the test?",
+      "sub": "一段只有在不被验证时才成立的信任，算不算真的信任？",
+      "sub_en": "If a trust only holds while nobody verifies it, is it trust at all?",
+      "date": "2026-08-16",
+      "participants": [
+        "hanfeizi",
+        "kongzi",
+        "kant",
+        "dunbar",
+        "buddha",
+        "adamsmith",
+        "adler"
+      ],
+      "cat": "life"
+    },
+    {
+      "id": "save-or-spend",
+      "question": "钱该省下来滚复利，还是该花掉？",
+      "question_en": "Should money be saved to compound, or spent?",
+      "sub": "为将来的自己牺牲现在的自己，能牺牲到什么程度？",
+      "sub_en": "How much of your present self should be spent on your future self?",
+      "date": "2026-08-17",
+      "participants": [
+        "duanyongping",
+        "keynes",
+        "thaler",
+        "sushi",
+        "redish",
+        "bauman",
+        "carstensen",
+        "seneca",
+        "nagarjuna"
+      ],
+      "cat": "self"
+    },
+    {
+      "id": "truth-after-ai",
+      "question": "AI 能伪造一切，我们还信什么？",
+      "question_en": "When AI can fake anything, what is left to trust?",
+      "sub": "『眼见为实』失效之后，信任还能建在什么上面",
+      "sub_en": "After seeing-is-believing fails, what can trust still be built on",
+      "date": "2026-08-18",
+      "participants": [
+        "descartes",
+        "hume",
+        "sontag",
+        "foucault",
+        "habermas",
+        "shannon",
+        "turing",
+        "lecun",
+        "sharot",
+        "huineng"
+      ],
+      "cat": "meta"
+    },
+    {
+      "id": "assisted-dying",
+      "question": "社会该不该允许安乐死与协助死亡？",
+      "question_en": "Should society allow euthanasia and assisted dying?",
+      "sub": "当病痛已无可挽回、本人清醒地请求结束时",
+      "sub_en": "When the illness is past repair and the person, lucid, asks for it to end",
+      "date": "2026-08-19",
+      "participants": [
+        "aquinas",
+        "epictetus",
+        "nussbaum",
+        "szasz",
+        "damasio",
+        "marmot",
+        "tolstoy",
+        "buddha"
+      ],
+      "cat": "ethics"
+    },
+    {
+      "id": "one-ladder-organizations",
+      "question": "只有一条晋升阶梯的组织，浪费了谁？",
+      "question_en": "Who is wasted by an organisation with only one ladder?",
+      "sub": "把「不想升」读成缺乏进取心，是组织在系统性浪费人，还是个人本该接受阶梯的规则？",
+      "sub_en": "When \"not wanting the promotion\" is read as lack of drive — is the organisation wasting people systematically, or should individuals simply accept the ladder’s rules?",
+      "date": "2026-08-20",
+      "participants": [
+        "drucker",
+        "weber",
+        "wangyangming",
+        "marx",
+        "sapolsky",
+        "laozi",
+        "newport"
+      ],
+      "cat": "work"
+    },
+    {
+      "id": "youth-career-or-explore",
+      "question": "趁年轻，该搏事业还是先去看世界？",
+      "question_en": "When young: build a career, or go see the world first?",
+      "sub": "阅历与事业，错过的那一个还补得回来吗？",
+      "sub_en": "Experience or a career — can whichever you skip ever be recovered?",
+      "date": "2026-08-21",
+      "participants": [
+        "becker",
+        "wangguowei",
+        "reidhoffman",
+        "bourdieu",
+        "kahneman",
+        "gopnik",
+        "vasubandhu",
+        "thoreau",
+        "diogenes"
+      ],
+      "cat": "life"
+    },
+    {
+      "id": "forgiveness-or-revenge",
+      "question": "该不该原谅伤害过你的人？",
+      "question_en": "Should you forgive someone who has wronged you?",
+      "sub": "宽恕是解脱，还是压给受害者的又一份功课？",
+      "sub_en": "Is forgiveness release, or one more task laid on the injured?",
+      "date": "2026-08-22",
+      "participants": [
+        "kongzi",
+        "nagarjuna",
+        "luxun",
+        "nietzsche",
+        "arendt",
+        "mlk",
+        "ledoux",
+        "goffman"
+      ],
+      "cat": "self"
+    },
+    {
+      "id": "faith-and-reason",
+      "question": "理性与信仰冲突时，该让哪一个让步？",
+      "question_en": "When reason and faith collide, which should yield?",
+      "sub": "哲学能不能独立于宗教——从安萨里到康德，谁有资格给对方划界。",
+      "sub_en": "Can philosophy stand on its own — and from al-Ghazālī to Kant, who gets to draw the line.",
+      "date": "2026-08-23",
+      "participants": [
+        "alghazali",
+        "averroes",
+        "maimonides",
+        "spinoza",
+        "kant",
+        "kierkegaard",
+        "russell",
+        "buddha",
+        "zhuxi",
+        "sharot"
+      ],
+      "cat": "meta"
+    },
+    {
+      "id": "eat-meat",
+      "question": "该不该吃肉？",
+      "question_en": "Should we eat meat?",
+      "sub": "动物有没有值得尊重的道德地位——一天三次的选择，很少被认真想过。",
+      "sub_en": "Do animals have a moral standing worth respecting — a choice made three times a day and rarely examined.",
+      "date": "2026-08-24",
+      "participants": [
+        "mengzi",
+        "zhuangzi",
+        "huineng",
+        "descartes",
+        "darwin",
+        "eowilson",
+        "harris",
+        "gandhi",
+        "levistrauss"
+      ],
+      "cat": "ethics"
+    },
+    {
+      "id": "real-work-or-invented-roles",
+      "question": "你的工作是真被需要，还是被造出来的？",
+      "question_en": "Is your job really needed, or was it invented?",
+      "sub": "会照开、表照填，可少了你，究竟哪一件事会办不成？",
+      "sub_en": "The meetings happen and the forms get filled — but what would actually fail without you?",
+      "date": "2026-08-25",
+      "participants": [
+        "hanfeizi",
+        "durkheim",
+        "illich",
+        "hayek",
+        "deming",
+        "fromm",
+        "vasubandhu",
+        "seligman"
+      ],
+      "cat": "work"
+    },
+    {
+      "id": "cut-ties-or-keep",
+      "question": "该给关系做减法吗？",
+      "question_en": "Should you prune your relationships?",
+      "sub": "断掉消耗你的人，是必要的止损，还是把自己越活越窄？",
+      "sub_en": "Is cutting off the people who drain you a necessary stop-loss, or a life quietly narrowing itself?",
+      "date": "2026-08-26",
+      "participants": [
+        "bauman",
+        "marcusaurelius",
+        "schopenhauer",
+        "mozi",
+        "carstensen",
+        "augustine",
+        "oconnor"
+      ],
+      "cat": "life"
+    },
+    {
+      "id": "believe-in-fate",
+      "question": "该不该信命？",
+      "question_en": "Should you believe in fate?",
+      "sub": "算命、八字、星座为何长盛不衰——是迷信、逃避，还是一面照见自己的镜子？",
+      "sub_en": "Why fortune-telling and astrology endure — superstition, evasion, or a mirror that shows you yourself?",
+      "date": "2026-08-27",
+      "participants": [
+        "xunzi",
+        "jung",
+        "sartre",
+        "epictetus",
+        "buddha",
+        "skinner",
+        "festinger",
+        "weber",
+        "beauvoir",
+        "taleb"
+      ],
+      "cat": "self"
+    },
+    {
+      "id": "efficiency-vs-resilience",
+      "question": "追求高效，是否正在掏空韧性？",
+      "question_en": "Is the chase for efficiency hollowing out our resilience?",
+      "sub": "冗余、备份、『暂时没用的多样』，该不该刻意保留？",
+      "sub_en": "Should redundancy, backups and 'currently useless' variety be kept on purpose?",
+      "date": "2026-08-28",
+      "participants": [
+        "musk",
+        "sunzi",
+        "keynes",
+        "schumpeter",
+        "shannon",
+        "redish",
+        "ibnkhaldun",
+        "rawls",
+        "nagarjuna"
+      ],
+      "cat": "meta"
+    },
+    {
+      "id": "democracy-best",
+      "question": "民主一定是最好的制度吗？",
+      "question_en": "Is democracy necessarily the best system?",
+      "sub": "多数人的意见、专家的知识、被治理者的同意，哪一个该说了算？",
+      "sub_en": "Majority opinion, expert knowledge, the consent of the governed — which one should decide?",
+      "date": "2026-08-29",
+      "participants": [
+        "sen",
+        "plato",
+        "tocqueville",
+        "habermas",
+        "sandel",
+        "hobbes",
+        "haidt",
+        "huineng"
+      ],
+      "cat": "ethics"
+    },
+    {
+      "id": "who-gets-watched",
+      "question": "监控为什么总是朝下查？",
+      "question_en": "Why does scrutiny always run downhill?",
+      "sub": "被查的总是位置更低的那一方——这项核查，能不能反过来施加给提出它的人？",
+      "sub_en": "The one who gets checked is always the one lower down — could this check be turned around on whoever proposed it?",
+      "date": "2026-08-30",
+      "participants": [
+        "mozi",
+        "zhuangzi",
+        "foucault",
+        "machiavelli",
+        "drucker",
+        "fehr",
+        "marmot"
+      ],
+      "cat": "work"
+    },
+    {
+      "id": "rituals-still-needed",
+      "question": "仪式还有用吗？",
+      "question_en": "Do rituals still do anything?",
+      "sub": "婚礼、葬礼、开学礼、公司团建——哪些该留、哪些该改、哪些该废？",
+      "sub_en": "Weddings, funerals, first days of term, corporate away-days — which to keep, which to rework, which to abolish?",
+      "date": "2026-08-31",
+      "participants": [
+        "xunzi",
+        "buddha",
+        "durkheim",
+        "luther",
+        "luxun",
+        "goffman",
+        "sontag",
+        "dunbar",
+        "oconnor",
+        "thaler"
+      ],
+      "cat": "life"
+    },
+    {
+      "id": "work-life-balance",
+      "question": "「工作与生活的平衡」真的存在吗？",
+      "question_en": "Is work-life balance a real thing?",
+      "sub": "是能达成的稳态，还是一句自我安慰？只有取舍，还是长周期的轮换？",
+      "sub_en": "An attainable steady state, or a phrase we comfort ourselves with — only tradeoffs, or seasons taken in turn?",
+      "date": "2026-09-01",
+      "participants": [
+        "calvin",
+        "russell",
+        "seneca",
+        "sushi",
+        "huineng",
+        "nussbaum",
+        "newport",
+        "lembke"
+      ],
+      "cat": "self"
+    },
+    {
+      "id": "how-reliable-is-memory",
+      "question": "我们记得的过去，有多少是重新编造的？",
+      "question_en": "How much of the past we remember was rebuilt on the spot?",
+      "sub": "若每次回想都要重写一遍，那个『忠于事实的自我』还立得住吗？",
+      "sub_en": "If every recall rewrites the record, does a self faithful to the facts still stand?",
+      "date": "2026-09-02",
+      "participants": [
+        "loftus",
+        "locke",
+        "hume",
+        "augustine",
+        "nietzsche",
+        "freud",
+        "vasubandhu",
+        "socrates",
+        "wolf"
+      ],
+      "cat": "meta"
+    }
+  ]
 }

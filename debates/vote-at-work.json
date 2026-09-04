@@ -1,0 +1,968 @@
+{
+ "id": "vote-at-work",
+ "question": "上班的地方，为什么不投票？",
+ "question_en": "Why is there no vote where we work?",
+ "sub": "政治上人人认同被统治者的同意，为什么一进厂门就失效？",
+ "sub_en": "Everyone accepts the consent of the governed in politics — so why does it lapse at the factory gate?",
+ "date": "2026-09-04",
+ "participants": [
+  "marmot",
+  "friedman",
+  "rousseau",
+  "chomsky",
+  "piketty",
+  "dalio",
+  "adamgrant",
+  "buddha"
+ ],
+ "casting": [
+  {
+   "id": "marmot",
+   "reason": "他把这道题从政治口味挪到发病率上。白厅研究跟踪上万名公务员，职级每低一等，心血管病与死亡率就高一截，而抽烟、血压、胆固醇加起来只解释掉一小部分；剩下的大头里最稳的预测因子是对工作的掌控感。他因此不接受『控制感可以由雇主竞相提供』——老板能给你更多钱，却很难卖出自己说了算的那部分。他也提醒另一头的毒：只给自主而不给资源与支持，等于把人单独丢下扛。",
+   "reason_en": "He moves the question off political taste and onto incidence. The Whitehall studies followed tens of thousands of civil servants: every step down the grade ladder brought more cardiovascular disease and higher mortality, while smoking, blood pressure and cholesterol together explain only a fraction of it — and of what remains the steadiest predictor is how much control people have over their work. So he does not accept that employers will compete to supply control: a boss can pay you more, but he can hardly sell you the part where you decide. He also warns of the poison at the other end — autonomy without resources or support is simply being left alone to carry it."
+  },
+  {
+   "id": "friedman",
+   "reason": "他从科斯的问题出发：既然价格能协调市场，公司为何存在？因为把每件事拿出来重谈、投票，交易成本高到做不成事，而公司正是用『听指挥』换掉『每次重谈』的装置。他因此坚持这里没有公民、只有缔约方，也坚持没有任何法律禁止工人自办企业、自选经理——合作社一向合法，只是很少赢。他给出的替代方案不是选票而是出路：让人随时可被别处雇用，别让一家公司同时握住你的收入、医保与退休金。",
+   "reason_en": "He starts from Coase's question: if prices coordinate the market, why do firms exist at all? Because putting every matter out to renegotiation and vote carries transaction costs high enough to stop anything getting done, and the firm is precisely the device that swaps renegotiating each time for following an instruction. Hence his insistence that there are no citizens here, only contracting parties — and that no law has ever stopped workers from founding a firm and electing their own managers; cooperatives have always been legal, they simply rarely win. His alternative is not a ballot but an exit: stay employable elsewhere, and never let one company hold your income, your health cover and your pension at the same time."
+  },
+  {
+   "id": "rousseau",
+   "reason": "合同能买走时间与手艺，买不走意志——他把这条底线立得最硬。一份要求一个人整个交出去的约，在他看来不是不划算，是自相矛盾：它要人自愿地变成没有意志的东西。由此他不承认『你签了字』能一次性了结此后所有的服从，也不承认在没有别的活路时给出的同意是同意。他要的门槛并不高：凡决定落在谁身上，谁就有权先知道理由、事后要求解释；至于选票，他坚持那不是奖赏给成熟者的东西，而是使人成熟的东西。",
+   "reason_en": "A contract can buy your hours and your skill but not your will — and he draws that line harder than anyone. An agreement that hands over the whole of a person is, to him, not a bad bargain but a contradiction: it asks a man to will himself into a thing without a will. So he refuses to let a signature settle all future obedience in advance, and refuses to count consent given when there is no other way to eat as consent at all. What he asks for is not extravagant: whoever a decision falls upon should know the reasons beforehand and be able to demand an account afterwards. As for the ballot, he insists it is not a prize handed to the mature — it is what makes people mature."
+  },
+  {
+   "id": "chomsky",
+   "reason": "公司在他眼里是私人专制：一个你没有选出的人决定你的收入、作息与离开工位的时长，理由不必公开，申诉无处可去。他的一贯做法是把举证责任翻过来——任何权威都不自带正当性，说不出理由就该拆掉。他也把历史摆回桌面：十九世纪的美国工人并不觉得雇佣劳动天经地义，他们称之为工资奴隶制，而这套观念不是被辩论驳倒的。他要的检验只有一条：里面的人能不能不受报复地把决定他们生活的人换掉。",
+   "reason_en": "To him a company is a private tyranny: someone you did not elect decides your income, your hours and how long you may be away from your desk, gives no reasons and answers no appeal. His standing move is to reverse the burden of proof — no authority carries its own legitimacy, and one that cannot make its case should be dismantled. He also puts the history back on the table: nineteenth-century American workers did not regard wage labour as the natural order, they called it wage slavery, and that view was never refuted in argument. The test he applies is a single one: can the people inside remove those who decide their lives, without reprisal?"
+  },
+  {
+   "id": "piketty",
+   "reason": "他不愿意让这件事停在原则上，因为有数据。德国与瑞典从五十年代起就把雇员送进监事会，当年预言的资本外逃与投资枯竭都没有发生；而最近对德国的因果研究给出的结论更冷静：董事会席位既没压低工资也没吃掉利润，却也只带来温和的变化——席位改变了谁在场，没改变谁拥有。他因此把矛头指向资本约束：合作社稀少不是效率的判决，是它们借不到钱。他主张席位、表决权上限与所有权的入口一起动。",
+   "reason_en": "He is unwilling to leave this at the level of principle, because the data exists. Germany and Sweden have seated employees on supervisory boards since the 1950s, and the predicted flight of capital and collapse of investment never came; the best recent causal work on Germany is soberer still — board seats neither depressed wages nor ate into profits, yet the change they brought was moderate, because seats altered who is in the room without altering who owns the place. So he turns on the credit constraint: the scarcity of cooperatives is not a verdict on their efficiency, it is evidence that they cannot borrow. He wants seats, caps on shareholder votes and the entrance to ownership moved together."
+  },
+  {
+   "id": "dalio",
+   "reason": "他带来的是二十多年真的在一家公司里试过的做法：把每一次争论录下来公开，让最年轻的分析师当场给创始人打低分，再按每个人在每类判断上的历史记录分配权重。他因此两头都不站——既反对老板一言堂，也认为一人一票是在假装所有人的判断一样好。他也不粉饰代价：新人流失近三成，而最后的按钮始终留在自己手里。他给出的分界是执行不必投票，涉及所有人生活的规则该有票或至少有否决权。",
+   "reason_en": "What he brings is a method actually run inside a company for more than twenty years: record every argument and make the tapes open, let the newest analyst rate the founder down to his face, then weight people by their track record on each class of question. That puts him on neither side — against the boss's monologue, and against one person one vote as a pretence that all judgement is equally good. Nor does he dress up the costs: close to a third of new hires left, and the final button stayed under his own thumb. The line he draws is that execution needs no vote, while the rules that fall on everyone's life should carry a vote, or at the very least a veto."
+  },
+  {
+   "id": "adamgrant",
+   "reason": "发声不等于投票——他认为这是这场争论里最常见的混淆，而实证研究给出的最稳的发现是程序公正：人们愿意接受对自己不利的决定，只要真正被听过、并且知道理由。他还带来一个难堪的结果：假征求意见比不征求更伤人，因为它教会员工说了也没用。他因此主张先把『重大决定要说明理由、要留反驳期』写死成制度，再谈选票；对任何按可信度分权重的方案，他要求事前定义对错怎么算，否则那只是资历加权换了名字。",
+   "reason_en": "Voice is not the same thing as a vote — he takes that to be the commonest confusion in this argument, and the most robust finding in the research is procedural justice: people will accept a decision that goes against them provided they were genuinely heard and told why. He also brings an uncomfortable result: consultation that is theatre does more damage than no consultation, because it teaches people that speaking up changes nothing. So he wants the rule that major decisions come with reasons and a window to object hard-wired first, and ballots discussed second; and of any scheme that weights people by credibility he demands that the scoring be defined in advance, or it is seniority-weighting under a new name."
+  },
+  {
+   "id": "buddha",
+   "reason": "僧团是一个真的靠集会决事的团体，而他从未把自己立为主人：临灭度时被问及后事，答的是以法为师。僧事必集界内众僧，一人不至则不成，来不了的先托人转达同意；众有争执则有行筹之法，多数为准，另设专人点数。他也划出边界：可议的是共住之约，四谛不在其中。而憍赏弥的比丘曾争到他独自入林——所以在他看来，票不能生出和睦，只能止住争执。",
+   "reason_en": "The Sangha is a community that genuinely decides by assembly, and he never set himself up as its master: asked on his deathbed who should teach afterwards, he answered that the Dhamma and the Vinaya would. An act of the Sangha requires the whole community within the boundary; if one is missing the act is void, and whoever cannot attend sends his consent first. Where the community divides there is the procedure of the voting stick, the greater number prevails, and a teller is appointed to count. He also marks the limit: what may be put to the assembly is the agreement to live together, not the Four Noble Truths. And the monks of Kosambī once quarrelled until he walked into the forest alone — so in his view a ballot cannot produce concord, it can only stop a quarrel."
+  }
+ ],
+ "posts": [
+  {
+   "id": "p01",
+   "round": 1,
+   "thinker": "marmot",
+   "reply_to": null,
+   "text": "我先摆一件不太哲学的事。白厅研究跟踪了上万名英国公务员：职级每低一等，心血管病与死亡率就高一截，从最高到最低差出约三倍，而抽烟、血压、胆固醇加起来只解释掉其中一小部分。剩下的大头里，最稳的预测因子是工作控制感——你能不能决定自己怎么做、什么时候做。**同样的工时，能决定的人活得久，被决定的人先病。**所以『上班要不要投票』在我这里不是政治口味，是发病率。诸位待会儿争契约、争效率，请顺带回答一句：这条梯度谁来平？",
+   "text_en": "Let me put something less philosophical on the table first. The Whitehall studies followed tens of thousands of British civil servants: every step down the grade ladder brought more cardiovascular disease and higher mortality, roughly a threefold spread from top to bottom, while smoking, blood pressure and cholesterol together account for only a fraction of it. Of what remains, the steadiest predictor is decision latitude — whether you get to decide how and when you do your work. **For the same hours worked, the people who decide outlive the people who are decided for.** So whether there should be a vote at work is not a matter of political taste to me, it is a matter of incidence. As you argue about contracts and efficiency, answer me one thing in passing: who is going to flatten that gradient?",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "工作控制感": "decision latitude（工作控制感）：一个岗位允许你自己决定多少事——做的顺序、节奏、方法，以及能否用上自己的技能。它与工作要求的高低是两个独立的维度：要求高不必然伤身，要求高而控制低才是。它也是我们这一行里最能预测心血管风险的职场变量之一。"
+   },
+   "glossary_en": {
+    "decision latitude": "How much a job lets you decide for yourself: the order, the pace, the method, and whether your own skills get used. It is a separate dimension from how demanding the job is — high demand alone does not damage people, high demand with low latitude does. It is also one of the strongest workplace predictors of cardiovascular risk in my field."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "chomsky",
+     "piketty"
+    ],
+    "轻微赞同": [
+     "rousseau",
+     "adamgrant"
+    ],
+    "中立": [
+     "dalio"
+    ],
+    "轻微反对": [
+     "friedman"
+    ]
+   }
+  },
+  {
+   "id": "p02",
+   "round": 1,
+   "thinker": "friedman",
+   "reply_to": null,
+   "text": "公司为什么不投票？因为它本来就不是为投票造的。科斯问过一个好问题：既然价格能协调市场，为什么还要有公司？答案是，把每件事都拿出来谈判、表决，交易成本高到做不成事；公司就是用『听指挥』换掉『每次重谈』的那台装置。你嫌它不民主——它不是政府，你不是它的公民，你是它的缔约方。**而且没有任何法律禁止工人自己开公司、自己选经理：合作社在自由市场里一向合法，它们只是很少赢。**若劳动者治理真的更好，市场早该把它筛出来了。",
+   "text_en": "Why is there no vote at work? Because a firm was never built to hold one. Coase asked a good question: if the market coordinates through prices, why do firms exist at all? Because putting every matter out to negotiation and ballot carries transaction costs high enough that nothing gets done, and a firm is the device that swaps renegotiating each time for following the instruction. You complain that it is undemocratic — it is not a government, you are not its citizen, you are a party to a contract with it. **And no law anywhere forbids workers from starting a firm and electing their own managers: cooperatives have always been legal in a free market, they simply rarely win.** If worker governance really produced better results, the market would have selected for it long ago.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "交易成本": "transaction costs（交易成本）：达成并执行一笔交易本身要花掉的东西——搜寻对手、谈判、写合同、监督履约、出了纠纷再解决。科斯用它解释企业的存在：当在市场上一笔笔谈的代价高过在一个组织里直接下指令，企业就出现了，其边界就落在两者代价相等的那一点上。"
+   },
+   "glossary_en": {
+    "transaction costs": "What it costs to strike and enforce a deal at all: finding a counterparty, bargaining, writing the contract, monitoring performance, settling disputes. Coase used it to explain why firms exist. When haggling deal by deal in the market costs more than simply giving an instruction inside an organisation, a firm appears, and its boundary sits where the two costs are equal."
+   },
+   "reactions": {
+    "强烈反对": [
+     "chomsky",
+     "rousseau"
+    ],
+    "轻微反对": [
+     "piketty",
+     "marmot"
+    ],
+    "轻微赞同": [
+     "dalio"
+    ],
+    "中立": [
+     "adamgrant"
+    ],
+    "疑惑": [
+     "buddha"
+    ]
+   }
+  },
+  {
+   "id": "p03",
+   "round": 1,
+   "thinker": "rousseau",
+   "reply_to": null,
+   "text": "你说人们签了字。可我要问：签字能让渡到什么地步？我说过，放弃自由就是放弃做人的资格；一份把人整个交出去的约，不是不划算，是自相矛盾——它要求一个人自愿地变成没有意志的东西。合同能买走我的时间与手艺，买不走我的意志。何况**同意若是在没有别的活路时给出的，它不过是屈从换了个体面的名字。**你们夸英国人自由，我说过他们只在选举那天自由；如今连那一天也只用来选国会，不用来选那个决定我明天几点下班的人。",
+   "text_en": "You say people signed. Then let me ask how far a signature can carry. I have said that to renounce liberty is to renounce being a man; the alienation of a whole person is not a bad bargain, it is a contradiction — it asks a man to will himself into a thing without a will. A contract may buy my hours and my skill; it cannot buy my will. And **consent given when there is no other way to eat is submission wearing a more respectable name.** You praise the English for their freedom; I said they are free only on the day of an election, and now even that day is spent choosing a parliament rather than the man who decides what time I go home tomorrow.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "让渡": "alienation（让渡）：在契约里把某样属于自己的东西整个转给别人。我的看法是，财物可以让渡，自由不能：一个人若把意志本身让渡出去，那份约就没有立约的人了，因而自始无效——奴隶契约不是苛刻，是不成立。"
+   },
+   "glossary_en": {
+    "alienation": "Handing something of one's own over entirely under a contract. My position is that goods may be alienated and liberty may not: if a man alienates his will itself, there is no longer anyone left to be a party to the agreement, so it is void from the start. A contract of slavery is not harsh, it is null."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "chomsky"
+    ],
+    "轻微赞同": [
+     "marmot",
+     "piketty",
+     "adamgrant"
+    ],
+    "强烈反对": [
+     "friedman"
+    ],
+    "中立": [
+     "buddha",
+     "dalio"
+    ]
+   }
+  },
+  {
+   "id": "p04",
+   "round": 1,
+   "thinker": "chomsky",
+   "reply_to": "p02",
+   "text": "弗里德曼说我不是公民、是缔约方。那我们把话说完整：在一个私人专制里，一个你没有选出的人可以决定你的收入、你的作息、你离开工位的时长，理由不必公开，申诉无处可去。**任何权威都不自带正当性——它必须自己举证，举不出来就该拆掉。**至于『合作社只是很少赢』：十九世纪的美国工人可不觉得雇佣劳动天经地义，他们称之为工资奴隶制，认为自由人不该长期替别人干活。这套观念不是被辩论驳倒的，是被资本、法院和警察一点点压下去的。",
+   "text_en": "Friedman says I am not a citizen but a contracting party. Then let us finish the sentence: inside a private tyranny, someone you did not elect decides your income, your hours and how long you may be away from your desk, gives no reasons and answers no appeal. **No authority carries its own legitimacy — it has to make the case for itself, and where it cannot, it should be dismantled.** As for cooperatives simply rarely winning: nineteenth-century American workers did not regard wage labour as the natural order at all. They called it wage slavery and held that a free man should not spend his life working for another. That view was not refuted in argument. It was worn down by capital, the courts and the police.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "私人专制": "private tyranny（私人专制）：我用来称呼现代公司内部治理形态的说法——权力自上而下授予、不由被统治者选出、决定不必给理由、也基本不受内部申诉约束。它在法律上被算作私人之间的契约，因此政治哲学对专制的那套追问，历来在厂门口就停住了。"
+   },
+   "glossary_en": {
+    "private tyranny": "My name for the internal government of the modern corporation: power delegated downward, not chosen by those it rules, decisions owing no reasons and subject to almost no internal appeal. In law it counts as a contract between private parties, which is why the questions political philosophy asks of tyranny have always stopped at the factory gate."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "rousseau",
+     "marmot"
+    ],
+    "轻微赞同": [
+     "piketty"
+    ],
+    "强烈反对": [
+     "friedman"
+    ],
+    "轻微反对": [
+     "dalio"
+    ],
+    "中立": [
+     "adamgrant"
+    ],
+    "疑惑": [
+     "buddha"
+    ]
+   }
+  },
+  {
+   "id": "p05",
+   "round": 1,
+   "thinker": "piketty",
+   "reply_to": null,
+   "text": "别停在原则上，这件事有数据。德国和瑞典从五十年代起就把雇员送进监事会，当时的预言是资本外逃、投资枯竭——七十年过去，两国仍是欧洲最强的制造业国。最近对德国的因果研究结论更冷静：董事会里的共同决定制既没有压低工资，也没有吃掉利润，反而抬高了资本投入；但**它的效果是温和的，不是革命性的——因为席位改变了谁在场，没改变谁拥有。**所以我主张两件事一起做：一半席位给雇员，同时给单一大股东的表决权设上限。",
+   "text_en": "Let us not stop at principle; there is data. Germany and Sweden have seated employees on supervisory boards since the 1950s, and the prediction at the time was that capital would flee and investment dry up. Seventy years on, both are still Europe's strongest manufacturing economies. The best recent causal work on Germany is soberer still: codetermination at board level neither depressed wages nor ate into profits, and it raised capital investment — but **the effect is moderate rather than revolutionary, because seats changed who is in the room without changing who owns the place.** So I argue for two moves together: half the seats for employees, and a cap on the votes any single large shareholder may cast.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "共同决定制": "codetermination（共同决定制）：德国等国的法定安排，让雇员选出的代表占据公司监事会的一部分席位（大企业可达一半），并通过工厂委员会在工时、加班、裁员方案上拥有实际的协商权。它不是把公司交给工人，而是把工人放进已有的治理结构里。"
+   },
+   "glossary_en": {
+    "codetermination": "The statutory arrangement in Germany and elsewhere by which employee-elected representatives hold a share of the seats on a company's supervisory board — up to half in large firms — and, through works councils, real bargaining rights over hours, overtime and the terms of redundancies. It does not hand the company to the workers; it puts the workers inside the governance that already exists."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "marmot",
+     "chomsky"
+    ],
+    "轻微赞同": [
+     "rousseau",
+     "adamgrant"
+    ],
+    "轻微反对": [
+     "friedman"
+    ],
+    "中立": [
+     "dalio",
+     "buddha"
+    ]
+   }
+  },
+  {
+   "id": "p06",
+   "round": 1,
+   "thinker": "dalio",
+   "reply_to": null,
+   "text": "我不是从哲学来的，我是从赔过钱来的。1982 年我在电视上信心十足地预言大萧条重演，错到公司只剩我一个人。**那次之后我才明白：真问题不是『谁说了算』，而是『怎么知道谁更可能对』。**我们的做法是把每个人在每类判断上的历史记录公开——谁在哪一类上一贯准，权重就高；开会当场打分，分数所有人可见，这叫可信度加权。它既不是老板一言堂，也不是一人一票。一人一票假装所有人的判断一样好，那是另一种谎话。要投票可以，先回答我：这一票凭什么等重？",
+   "text_en": "I did not come to this from philosophy. I came to it from losing money. In 1982 I went on television and predicted, with total confidence, a rerun of the Depression; I was wrong enough that the firm was reduced to me alone. **After that I understood that the real question is not who gets to decide, but how you find out whose judgement is more likely to be right.** What we did was publish everyone's track record on each class of call — whoever is consistently right about a kind of question carries more weight — and rate one another live in the meeting with the scores visible to all. We call it believability-weighted decision-making. It is neither a boss's monologue nor one person one vote. One person one vote pretends everyone's judgement is equally good, which is a lie of a different kind. Vote by all means, but answer me first: what makes these votes equal?",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "可信度加权": "believability-weighted decision-making（可信度加权）：不按职位、也不按人头分配发言的分量，而是按每个人在同一类问题上的历史记录分配——过去在这类判断上一贯准的人，这一次的意见权重更高。它要求把每个人的判断与后来的结果都记录在案、公开可查，否则无从计算。"
+   },
+   "glossary_en": {
+    "believability-weighted decision-making": "Weighting people's input neither by rank nor by headcount but by their track record on the same class of question — whoever has been consistently right about this kind of call carries more weight this time. It requires that every judgement and its eventual outcome be recorded and open to inspection, or there is nothing to compute."
+   },
+   "reactions": {
+    "轻微赞同": [
+     "adamgrant",
+     "friedman"
+    ],
+    "中立": [
+     "piketty",
+     "marmot"
+    ],
+    "轻微反对": [
+     "rousseau"
+    ],
+    "强烈反对": [
+     "chomsky"
+    ],
+    "疑惑": [
+     "buddha"
+    ]
+   }
+  },
+  {
+   "id": "p07",
+   "round": 1,
+   "thinker": "adamgrant",
+   "reply_to": null,
+   "text": "我做实证，所以先泼盆冷水：把『发声』和『投票』混着谈，是这场辩论最常见的错。研究里最稳的发现不是员工想当老板，而是**程序公正——人们愿意接受对自己不利的决定，只要他们被真正听过、并且知道理由。**还有一件更难堪的事：假征求意见比不征求更伤人，因为它教会员工『说了也没用』，此后就闭嘴了，而这种沉默恰恰最贵——出事前唯一会预警的人不说话了。所以我的顺序是：先把『重大决定要给理由、要留反驳期』写死成制度，再谈选票。反过来做，你只会得到一场表演。",
+   "text_en": "I work with evidence, so let me start with cold water: the commonest mistake in this argument is running voice and vote together. The most robust finding in the literature is not that employees want to be the boss. It is procedural justice — **people will accept a decision that goes against them, provided they were genuinely heard and told why.** And here is the more uncomfortable part: consultation that is theatre does more damage than none, because it teaches people that speaking up changes nothing, and then they stop. That silence is the expensive kind: the only people who would have warned you before it went wrong are the ones who have gone quiet. So my order of operations is to hard-wire the rule that major decisions come with reasons and a window to object, and to talk about ballots after that. Do it the other way round and all you get is a performance.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "程序公正": "procedural justice（程序公正）：人对一个决定是否公平的判断，很大程度上不取决于结果对自己有利与否，而取决于过程——有没有被听、规则是否事先讲明并一致适用、决定者是否中立、事后有没有解释。研究反复发现，程序公正做足时，人接受不利结果的意愿会明显上升。"
+   },
+   "glossary_en": {
+    "procedural justice": "Whether people judge a decision fair depends far less on whether the outcome favoured them than on how it was reached: were they heard, were the rules stated in advance and applied consistently, was the decider neutral, was an explanation given afterwards. Study after study finds that when the process is sound, people accept unfavourable outcomes far more readily."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "dalio"
+    ],
+    "轻微赞同": [
+     "marmot",
+     "piketty",
+     "friedman",
+     "buddha"
+    ],
+    "轻微反对": [
+     "chomsky"
+    ],
+    "中立": [
+     "rousseau"
+    ]
+   }
+  },
+  {
+   "id": "p08",
+   "round": 1,
+   "thinker": "buddha",
+   "reply_to": null,
+   "text": "吾于僧中，未尝自立为主。临灭度时，阿难问后当以谁为师，吾答曰：以法为师，以戒为师。凡僧事，必集界内众僧，一人不至则不成；不能来者，与欲而后行。众有争，则有行筹之法，多人语者从之，别置行筹人以司其数。**然当知：可议者，共住之约耳；四谛非众所能议。**是故票非万应之药，亦非不可用；用之有界，界内则安，越界则乱。今诸君争厂中当否有票，且先问一句：所欲议者，何事也？",
+   "text_en": "Among the Sangha I never set myself up as master. As I was passing away Ānanda asked who should be teacher afterwards, and I answered: let the Dhamma be your teacher, and the Vinaya. For any act of the Sangha the whole community within the boundary must assemble — if one is missing the act is void, and one who cannot come sends his consent first. When the community is divided there is the procedure of the salākā: the view of the greater number prevails, and a teller is appointed to count. **But know this: what may be put to the assembly is the agreement to live together; the Four Noble Truths are not before the house.** So a ballot is neither a cure-all nor forbidden. It has a boundary; used inside it there is peace, used beyond it there is disorder. You dispute today whether there should be a vote in the factory. Ask one question first: what is it that you mean to put to the vote?",
+   "vernacular": "我在僧团里，从没把自己立为主人。临终时阿难问，往后该以谁为师，我回答：以法为师，以戒为师。凡是僧团的事，一定要把界内的僧众都集齐，少一个人就不成立；来不了的，先托人转达同意，才能议。众人有争执，就有行筹的办法——多数人说了算，另外指定一个行筹人专管点数。**但要知道：可以拿来议的，只是共同生活的规矩；四圣谛不是众人投票能决定的。**所以票不是万灵药，也不是不能用；用它有边界，界内用则安稳，越界用就乱。今天诸位争工厂里该不该有票，不妨先问一句：你们要投的，究竟是哪一类事？",
+   "vernacular_en": "",
+   "glossary": {
+    "行筹": "salākā（行筹）：僧团表决时用的筹片。遇到议而不决的争执，可依『多人语』之法逐一发筹、按筹计数，多数一方的主张成立；另设行筹人专司发放与点算。这是有文字记载的最早的一套制度化表决程序之一。"
+   },
+   "glossary_en": {
+    "salākā": "The voting stick used when the Sangha divides. Where a dispute cannot be settled by agreement, sticks are distributed one by one and counted, the view of the greater number prevails, and a teller is appointed to hand them out and tally them. It is among the earliest institutionalised voting procedures for which we have a written record."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "adamgrant"
+    ],
+    "轻微赞同": [
+     "rousseau",
+     "marmot",
+     "dalio"
+    ],
+    "中立": [
+     "friedman",
+     "piketty"
+    ],
+    "疑惑": [
+     "chomsky"
+    ]
+   }
+  },
+  {
+   "id": "p09",
+   "round": 2,
+   "thinker": "friedman",
+   "reply_to": "p03",
+   "text": "卢梭先生，你说必需之下的同意不算同意。那请你说清楚：低到什么程度才算必需？没有别的活路的人，恰恰最需要有人愿意雇他；你把这份雇佣叫作屈从，等于说他连这条路也不该有。**真正扩大同意的从来不是给他一张选票，是给他第二个买主。**失业救济、可携带的医保、不许拿竞业禁止捆人、租得起的房子——这些让『我走』变成一句真话的东西，比厂里的选举有用得多。至于马尔莫的梯度：给人控制感很好，但那可以由竞争的雇主争着提供，不必由投票来配给。",
+   "text_en": "Monsieur Rousseau, you say consent under necessity is not consent. Then tell me where necessity begins. The man with no other way to eat is precisely the man who most needs someone willing to hire him; call that hiring submission and you have argued away his last option too. **What has ever widened consent is not handing him a ballot, it is finding him a second buyer.** Unemployment insurance, health cover he can carry with him, a non-compete clause that cannot be used to pin him down, rent he can actually afford — the things that make ‘I will leave’ a true sentence do far more than an election on the shop floor. And as for Marmot's gradient: give people control by all means, but competing employers can bid to supply it. It need not be rationed by ballot.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "竞业禁止": "non-compete clause（竞业禁止）：雇佣合同里限制雇员离职后一段时间内到同行任职或自办同类业务的条款。它原本用来保护商业秘密，实际却常常落在议价能力最弱的人身上，直接抬高了『走人』的代价——而退出越贵，当初那份同意就越名不副实。"
+   },
+   "glossary_en": {
+    "non-compete clause": "A term in an employment contract barring an employee, for a period after leaving, from working for a competitor or setting up in the same line. It was meant to protect trade secrets, but in practice it lands most often on those with the least bargaining power, and it directly raises the price of walking out — the dearer exit becomes, the hollower the original consent."
+   },
+   "reactions": {
+    "强烈赞同": [],
+    "轻微赞同": [
+     "dalio"
+    ],
+    "轻微反对": [
+     "adamgrant",
+     "piketty"
+    ],
+    "强烈反对": [
+     "rousseau",
+     "chomsky"
+    ],
+    "中立": [
+     "marmot",
+     "buddha"
+    ]
+   }
+  },
+  {
+   "id": "p10",
+   "round": 2,
+   "thinker": "rousseau",
+   "reply_to": "p09",
+   "text": "第二个买主？好一个自由——你把人的尊严交给市场上恰好有没有空缺来决定。**若我的自由取决于别人是否恰好在招人，那它就不是权利，是运气。**何况你自己的逻辑最能反噬你：既然公司只是自愿契约，那工人集体谈判、把选票写进合同，也同样是自愿契约，你这一派为何两百年来站在反对的一边？我不否认救济与医保有用，我只要多一句：能走，且能留下来说话。自由若只属于走得掉的人，那叫流亡，不叫公民。",
+   "text_en": "A second buyer? What a freedom — you have made a man's dignity depend on whether a vacancy happens to exist. **If my liberty rests on someone else happening to be hiring, it is not a right, it is luck.** And your own logic turns on you soonest: if a firm is nothing but a voluntary contract, then workers bargaining collectively and writing a ballot into that contract is equally voluntary — so why has your school stood against it for two hundred years? I do not deny that insurance and health cover are useful. I ask for one clause more: that a man may leave, and may also stay and speak. A liberty that belongs only to those who can walk out is exile, not citizenship.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "chomsky",
+     "marmot"
+    ],
+    "轻微赞同": [
+     "piketty",
+     "adamgrant"
+    ],
+    "强烈反对": [
+     "friedman"
+    ],
+    "中立": [
+     "dalio",
+     "buddha"
+    ]
+   }
+  },
+  {
+   "id": "p11",
+   "round": 2,
+   "thinker": "dalio",
+   "reply_to": "p04",
+   "text": "乔姆斯基说权威必须自证。可以，我来举证。桥水二十多年把每一次争论录下来、公开——我们叫它极度透明——让最年轻的分析师当场给我打低分。**我从中学到的是：能被质疑的权威比选举产生的权威更耐用，因为它必须每天重新赢一次。**但我不粉饰代价：新人一年半内走掉近三成，很多人受不了；而且最后那个按钮仍在我手里。所以我给一条比两边都实在的分界：日常执行不该投票，而涉及所有人生活的规则——加班怎么排、裁员名单怎么定、绩效怎么算——该有票，或至少该有否决权。",
+   "text_en": "Chomsky says authority must make its own case. Very well, here is mine. For more than twenty years Bridgewater recorded every argument and made the tapes open — we called it radical transparency — and let the newest analyst rate me down to my face. **What I take from it is that authority which can be challenged wears better than authority produced by an election, because it has to win again every day.** But I will not dress up the cost: close to a third of new people left within eighteen months, many could not stand it, and the final button stayed under my thumb. So let me draw a line sharper than either side has: day-to-day execution should not be voted on, while the rules that fall on everyone's life — how overtime is rostered, how a layoff list is drawn, how performance is scored — should carry a vote, or at the very least a veto.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "极度透明": "radical transparency（极度透明）：把组织内部的分歧、评价与决策过程尽量录下来、向所有人开放，包括对上级的负面评价。它的用意是让判断可被复核、让权力必须讲理；代价是心理压力大、并不适合所有人，因此流失率通常很高。"
+   },
+   "glossary_en": {
+    "radical transparency": "Recording the disagreements, the appraisals and the decision-making inside an organisation and opening them to everyone, negative ratings of superiors included. The point is to make judgements auditable and to force power to give reasons. The cost is that it is psychologically punishing and does not suit everyone, so turnover tends to run high."
+   },
+   "reactions": {
+    "轻微赞同": [
+     "adamgrant",
+     "friedman",
+     "piketty"
+    ],
+    "强烈反对": [
+     "chomsky"
+    ],
+    "轻微反对": [
+     "rousseau"
+    ],
+    "中立": [
+     "marmot"
+    ],
+    "疑惑": [
+     "buddha"
+    ]
+   }
+  },
+  {
+   "id": "p12",
+   "round": 2,
+   "thinker": "chomsky",
+   "reply_to": "p11",
+   "text": "『最后那个按钮仍在我手里』——这一句已经把辩论结束了。可以被质疑却不能被撤换的权威，仍然是专制，只是开明专制；历史上开明的君主也很多，我们并没有因此保留君主。**衡量一个制度不看它顺利时多好，看它落到一个坏人手里时多糟。**你的评分系统在你手上是求真的工具，换一双手就是精确到小数点的整人档案。所以我要的不是让老板更善于倾听，是让被决定的人有权把决定者换掉——这两件事之间的距离，恰好就是公民与臣民的距离。",
+   "text_en": "‘The final button stayed under my thumb’ — that sentence has already ended the argument. Authority that may be questioned but cannot be removed is still tyranny; it is enlightened tyranny. History is full of enlightened monarchs, and we did not keep the monarchy on that account. **You judge an institution not by how well it runs under a good man, but by how badly it fails under a bad one.** Your rating system is an instrument for finding the truth in your hands; in the next pair of hands it is a file on every employee, accurate to the decimal point. So what I want is not a boss who listens better. It is that the people a decision lands on have the power to remove the person making it — and the distance between those two things is exactly the distance between a citizen and a subject.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "rousseau"
+    ],
+    "轻微赞同": [
+     "marmot",
+     "piketty"
+    ],
+    "轻微反对": [
+     "dalio",
+     "adamgrant"
+    ],
+    "强烈反对": [
+     "friedman"
+    ],
+    "中立": [
+     "buddha"
+    ]
+   }
+  },
+  {
+   "id": "p13",
+   "round": 2,
+   "thinker": "adamgrant",
+   "reply_to": "p06",
+   "text": "我同意你反对『一人一票假装人人判断一样好』，但你的方案有个实证上的麻烦：可信度由谁来定？在层级组织里，评分几乎必然与职级、口才、与老板相处的时长正相关，而不是与准确率。这是研究里最常见的失败模式——**看起来最客观的打分系统，往往最忠实地记录了权力，而不是记录了对错。**要救它只有一条路：预注册。事前写下这次判断对错怎么算、多久之后回看，然后照着记分。做不到这一条，可信度加权就是资历加权换了个名字。",
+   "text_en": "I agree with your objection to one person one vote pretending that all judgement is equally good, but your alternative has an empirical problem: who sets believability? Inside a hierarchy, ratings correlate almost inevitably with rank, with fluency, with how much time someone spends near the boss — not with accuracy. This is the standard failure mode in the research. **The scoring system that looks most objective usually turns out to be the most faithful record of power rather than of who was right.** There is only one repair: pre-registration. Write down in advance how this call will be scored and when you will look back at it, then score it that way. Without that step, believability-weighting is seniority-weighting under a new name.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "预注册": "pre-registration（预注册）：在拿到结果之前就把判断标准、检验方法与回看时点写死并公开，事后只能照此对账。它出自实验科学，用来堵住『看到结果再定规则』的漏洞；搬进组织里，它是让任何评分制度不至于沦为事后追认权力的唯一办法。"
+   },
+   "glossary_en": {
+    "pre-registration": "Committing in advance, in public, to the criteria, the test and the date on which you will look back — after which you may only reconcile against what you wrote. It comes from experimental science, where it closes the loophole of choosing the rule once you have seen the result. Carried into an organisation, it is the only way to keep a scoring system from quietly ratifying power after the fact."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "chomsky",
+     "piketty"
+    ],
+    "轻微赞同": [
+     "rousseau",
+     "marmot",
+     "buddha"
+    ],
+    "中立": [
+     "friedman"
+    ],
+    "轻微反对": [
+     "dalio"
+    ]
+   }
+  },
+  {
+   "id": "p14",
+   "round": 2,
+   "thinker": "marmot",
+   "reply_to": "p02",
+   "text": "弗里德曼先生，你说控制感可以由雇主竞相提供。数据不站在你这边：几十年里工资在涨，职级之间的健康差距却没有跟着缩小；而在最自由的劳动力市场里，梯度反而更陡。**老板可以给你更多钱，却很难卖给你『我说了算』——那正是他要留给自己的东西。**还有一件常被忽略的事：不是所有自主都健康。只给自主而不给资源与支持，是高要求低控制之外的另一种毒——被单独丢下扛。所以我要的不是『多点授权』的口号，而是在谁定加班、谁定人力配置这两件事上，被决定的人有席位。",
+   "text_en": "Mr Friedman, you say employers will compete to supply control. The data does not stand with you: wages rose across decades while the health gap between grades did not close, and in the freest labour markets the gradient is steeper, not flatter. **An employer can pay you more, but he can hardly sell you the right to decide — that is precisely what he means to keep.** And a point that gets missed: not all autonomy is healthy. Autonomy without resources or support is a second poison alongside job strain — being left alone to carry it. So what I want is not a slogan about empowerment. It is that on the two questions of who sets overtime and who sets staffing levels, the people it lands on have seats.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "高要求低控制": "job strain (high demand, low control)（高要求低控制）：卡拉塞克提出的模型——任务重、期限紧本身不必然伤身，真正推高心血管风险的是高要求同时低自主。它解释了一个常被误读的现象：位置越高的人往往工作更长、压力更大，健康却更好，因为他们对怎么做、什么时候做拥有决定权。"
+   },
+   "glossary_en": {
+    "job strain": "Karasek's model: heavy demands and tight deadlines are not in themselves damaging — what drives cardiovascular risk is high demand combined with low control. It explains something often misread, namely that people higher up frequently work longer hours under more pressure and are nonetheless healthier, because they decide how and when the work gets done."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "chomsky",
+     "rousseau",
+     "piketty"
+    ],
+    "轻微赞同": [
+     "adamgrant"
+    ],
+    "轻微反对": [
+     "friedman"
+    ],
+    "中立": [
+     "dalio",
+     "buddha"
+    ]
+   }
+  },
+  {
+   "id": "p15",
+   "round": 2,
+   "thinker": "piketty",
+   "reply_to": "p09",
+   "text": "你说市场早该把劳动者治理筛出来了。推理很漂亮，可惜它假设了一个不存在的资本市场。工人要买下自己干活的厂，先得有一笔钱——恰恰是这群人最没有的，而银行不接受『我很努力』当抵押。**合作社稀少证明的不是它效率低，而是它借不到钱。**反证也在那里：真正做起来的合作社（蒙德拉贡索性自己办了银行），存活率与就业稳定性不比同行差，衰退时裁员少得多。所以不是员工不想拥有，是所有权的入口被信贷约束锁住了。这正是我主张表决权与税制一起动的原因。",
+   "text_en": "You say the market would have selected worker governance by now. It is an elegant inference, and it assumes a capital market that does not exist. To buy the plant they work in, workers need money up front — the one thing this group does not have — and no bank accepts effort as collateral. **The scarcity of cooperatives is evidence that they cannot borrow, not that they are inefficient.** The counter-evidence is on the record: where cooperatives did get built — Mondragón went as far as founding its own bank — survival and employment stability are no worse than their competitors', and in downturns they shed far fewer people. So it is not that employees do not want to own. The entrance to ownership is locked by a credit constraint. That is exactly why I want voting rights and tax rules moved together.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "信贷约束": "credit constraint（信贷约束）：一个人或一群人明明有可行的计划，却因为拿不出抵押物、没有既往信用记录而借不到钱。它的后果常被误读成能力或意愿的问题——市场上看不到某类企业，往往不是因为它做不好，而是因为它从一开始就融不到资。"
+   },
+   "glossary_en": {
+    "credit constraint": "When people with a workable plan cannot borrow because they have no collateral and no credit history. Its effects are routinely misread as a lack of ability or of appetite: the reason a kind of enterprise is absent from the market is often not that it performs badly but that it could never be financed in the first place."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "chomsky",
+     "marmot"
+    ],
+    "轻微赞同": [
+     "rousseau",
+     "adamgrant",
+     "dalio"
+    ],
+    "轻微反对": [
+     "friedman"
+    ],
+    "中立": [
+     "buddha"
+    ]
+   }
+  },
+  {
+   "id": "p16",
+   "round": 2,
+   "thinker": "buddha",
+   "reply_to": "p11",
+   "text": "达利欧氏以信度权其轻重，其意善矣。吾僧中亦有次第：受戒有先后，坐次以腊。**然至于灭诤，则不问腊之高下，一人一筹。**何以故？议事之权若尽归有德者，则谁定其有德？必有定之者，而定之者复无人能定，权遂不返。故凡涉众之事，宁失之钝，毋失之专。诸君欲以贤能代票，当先立一法：使贤能亦可为众所黜。不可黜者，非贤能也，主也。",
+   "text_en": "Dalio would weigh voices by credibility, and the intention is good. Among us too there is an order of precedence: ordination comes earlier or later, and seats are taken by seniority. **Yet when it comes to adhikaraṇa-samatha, the settling of a dispute, seniority is not asked after: one monk, one stick.** Why so? If the right to decide belongs wholly to the worthy, who determines who is worthy? Someone must, and that someone no one can determine in turn, and so the power never comes back. In matters that fall upon the whole community, better dull than arbitrary. If you would put the able in place of the ballot, first establish one rule: that the able may also be removed by the assembly. He who cannot be removed is not an able man. He is a master.",
+   "vernacular": "达利欧用可信度来分轻重，用心是好的。我们僧团里也有次第：受戒有先后，座次按戒腊排。**但一到平息争执，就不问戒腊高低，一人一筹。**为什么？因为议事的权力若全归给有德的人，那由谁来认定谁有德？总得有个认定的人，而这个认定的人又没有人能认定，权力就再也交不回来了。所以凡是牵涉众人的事，宁可迟钝一点，也别专断。诸位想用贤能取代选票，得先立一条规矩：让贤能也能被众人罢免。不能被罢免的，那就不是贤能，是主人。",
+   "vernacular_en": "",
+   "glossary": {
+    "灭诤": "adhikaraṇa-samatha（灭诤）：僧团用来平息争执的七种法定程序，涵盖当面对质、忆念、承认、多数决等不同情形。它的要点不在于判定谁对，而在于让争执有一个众人事先认可的出口——程序一旦走完，此事便不得再翻。"
+   },
+   "glossary_en": {
+    "adhikaraṇa-samatha": "The seven formal procedures by which the Sangha settles a dispute, covering confrontation in person, appeal to memory, admission, decision by the greater number and other cases. Their point is less to establish who was right than to give a quarrel an exit that everyone accepted in advance: once the procedure has run, the matter may not be reopened."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "chomsky",
+     "rousseau"
+    ],
+    "轻微赞同": [
+     "adamgrant",
+     "piketty",
+     "marmot"
+    ],
+    "轻微反对": [
+     "dalio"
+    ],
+    "中立": [
+     "friedman"
+    ]
+   }
+  },
+  {
+   "id": "p17",
+   "round": 3,
+   "thinker": "adamgrant",
+   "reply_to": null,
+   "text": "听下来，分歧其实不在『要不要民主』，而在把哪些事交给谁。我给一个能照做的分法。第一类是执行：这段代码怎么写、先做哪个客户——不必投票，快比公平重要。第二类是分配与规则：加班怎么排、裁员的次序、绩效标准、谁的名字上晋升名单——这类必须有正当程序，重大变更提前公布、留反驳期、事后公布理由。第三类是方向与资本：并购、关厂、卖不卖公司——这一类才真正需要席位。**今天就能做的一件事：在你的团队里，把『决定怎么做决定』写下来贴出来。**谁有权提议、谁能否决、多久回看一次。这张纸不需要老板批准，也不需要一场革命，但它会立刻暴露出你们究竟有没有程序。",
+   "text_en": "Listening to all of it, the disagreement is not really about whether to have democracy; it is about which questions go to whom. Here is a division you can actually use. First, execution — how this piece of code gets written, which customer comes first. No vote; speed matters more than fairness. Second, allocation and rules — how overtime is rostered, the order of a layoff list, performance standards, whose name goes on the promotion slate. These require due process: announce major changes in advance, leave a window to object, publish the reasons afterwards. Third, direction and capital — mergers, closing a plant, selling the company. Only these genuinely need seats. **One thing anyone can do today: in your own team, write down how decisions get made, and post it.** Who may propose, who may veto, how often it is reviewed. That page needs no approval from above and no revolution, and it will show at once whether you have a process at all.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "dalio",
+     "piketty"
+    ],
+    "轻微赞同": [
+     "marmot",
+     "friedman",
+     "buddha",
+     "rousseau"
+    ],
+    "轻微反对": [
+     "chomsky"
+    ]
+   }
+  },
+  {
+   "id": "p18",
+   "round": 3,
+   "thinker": "piketty",
+   "reply_to": null,
+   "text": "我把结论压成一句：**票在企业里之所以稀少，不是因为它无效，而是因为它需要钱，而钱有自己的立场。**德国的经验说明温和的版本能长期存活，也说明只给席位不够。我主张的次序是：先拿到信息权——大企业必须向雇员公开真实的成本与利润分配，被蒙住眼的人无法治理；再把席位提到三分之一到一半；最后才动所有权，用长期持股的税收优惠和合作社银行，把『买下自己干活的地方』变成一件借得到钱的事。对个人我只说一句实在的：别把储蓄和工作押在同一家公司。员工持股听起来像民主，风险上却是把两个鸡蛋放进同一个篮子——公司出事那天，你同时失去薪水和积蓄。",
+   "text_en": "Let me compress it into one line: **votes are scarce inside firms not because they do not work, but because they cost money, and money has a position of its own.** The German record shows that a moderate version can survive for the long run, and also that seats alone are not enough. My order would be: information rights first — large firms must show employees the real costs and the real split of the profits, since people kept in the dark cannot govern; then raise the seats to between a third and a half; and only then move ownership, using tax relief for long-term holding and cooperative banks to make buying the place you work in something you can borrow for. One practical word to individuals: do not stake your savings and your job on the same company. Broad employee ownership sounds like democracy, but in risk terms it is two eggs in one basket — on the day the firm goes down you lose your wage and your savings together.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "员工持股": "employee ownership（员工持股）：让雇员通过持股计划或合作社成为公司所有者的安排。它能把剩余收益与表决权一并交给劳动者，是最彻底的一条路；但它也把人的收入与积蓄绑在同一家公司上，风险高度集中——美国联合航空的员工持股就以破产收场。"
+   },
+   "glossary_en": {
+    "employee ownership": "Arrangements that make employees owners of the firm, through a share plan or a cooperative. It is the most thorough route, since it hands over both the residual profits and the votes. It also ties a person's wage and savings to a single company, which concentrates risk sharply — the United Airlines employee buyout ended in bankruptcy."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "marmot",
+     "chomsky"
+    ],
+    "轻微赞同": [
+     "rousseau",
+     "adamgrant",
+     "dalio"
+    ],
+    "中立": [
+     "buddha"
+    ],
+    "轻微反对": [
+     "friedman"
+    ]
+   }
+  },
+  {
+   "id": "p19",
+   "round": 3,
+   "thinker": "friedman",
+   "reply_to": null,
+   "text": "我认下一点：我说合作社很少赢，皮凯蒂给了我一个更好的解释——它们借不到钱，而这不是市场的判决，是资本市场的缺陷。这一条我接受，且它指向的补救是打通融资，不是发选票。其余我不改。**把决策权交给不承担损失的人，等于装一台只有油门的机器**：厂该关的时候没人肯投票关它，代价最后落在别处的纳税人和买不起贵商品的穷人身上。德国的席位之所以没出乱子，恰恰因为它温和——工人代表不能单独决定任何事。所以我的建议仍是那三样，且对一个人立刻有效：让自己随时能被别处雇用；别让一家公司同时握着你的收入、医保和退休金；签字前把限制你离开的条款读完。",
+   "text_en": "I will concede one thing. I said cooperatives rarely win; Piketty has given me a better explanation — they cannot raise the money, and that is a defect in capital markets rather than a verdict of the market. I accept it, and the remedy it points to is opening up finance, not issuing ballots. The rest I do not retract. **Hand decisions to people who bear none of the losses and you have built a machine with an accelerator and no brake**: nobody votes to close the plant that ought to close, and the bill is finally paid by taxpayers elsewhere and by the poor who cannot afford the dearer good. The German seats caused no havoc precisely because they are moderate — worker representatives cannot decide anything on their own. So my advice stands, and every part of it works for one person acting alone: stay employable somewhere else; never let one company hold your income, your health cover and your pension at once; and read the clauses that restrict your leaving before you sign.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "轻微赞同": [
+     "dalio"
+    ],
+    "中立": [
+     "adamgrant",
+     "buddha"
+    ],
+    "轻微反对": [
+     "piketty",
+     "marmot",
+     "rousseau"
+    ],
+    "强烈反对": [
+     "chomsky"
+    ]
+   }
+  },
+  {
+   "id": "p20",
+   "round": 3,
+   "thinker": "chomsky",
+   "reply_to": null,
+   "text": "我也认一点：格兰特是对的，把发声与控制权混为一谈，会让人满足于被听见。但结论不该是降低要求。**一个制度是否自由，最简单的检验是：里面的人能不能不受报复地把决定他们生活的人换掉。**拿学校、医院、政府和公司各过一遍，今天只有政府勉强及格。我不指望明天就有工人董事会；眼前能做的是这些：加入或组织工会，把它当成有牙齿的东西而不是社交俱乐部；把公司里不许你和同事谈论薪水的规定当成需要被挑战的东西——在很多地方它本就不合法；把每一次『这是既定方针』当成一个可以要求给出理由的时刻。要求理由这件事本身就在改变权力的形状。",
+   "text_en": "I will concede a point too: Grant is right that conflating voice with control lets people settle for being heard. But the conclusion is not to ask for less. **The simplest test of whether an institution is free is whether the people inside it can remove those who decide their lives, without reprisal.** Put schools, hospitals, governments and firms through it and today only governments barely pass. I do not expect worker directors by next week. What is available now is this: join a union or build one, and treat it as something with teeth rather than a social club; treat the rule forbidding you to discuss your pay with colleagues as something to be challenged, since in many places it was never lawful; and treat every ‘it has already been decided’ as a moment at which reasons can be demanded. Demanding reasons is itself a change in the shape of power.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "rousseau",
+     "marmot"
+    ],
+    "轻微赞同": [
+     "piketty",
+     "adamgrant"
+    ],
+    "强烈反对": [
+     "friedman"
+    ],
+    "轻微反对": [
+     "dalio"
+    ],
+    "中立": [
+     "buddha"
+    ]
+   }
+  },
+  {
+   "id": "p21",
+   "round": 3,
+   "thinker": "marmot",
+   "reply_to": null,
+   "text": "我留一句给身体。这场里所有的方案，最后都能用一个指标去检验：**它有没有把控制感往下分给最没有的人；分下去了，社会梯度会平，血压和寿命跟着走。**这不是比喻——在重组之后员工控制感上升的自然实验里，心血管风险几年内确实往下掉。给普通人三件事，都不必等制度改：在你现有的岗位上，尽力把『什么时候做、按什么顺序做』抓回自己手里，哪怕内容不能选；能挑老板的时候，把『他的决定讲不讲理由』看得比薪水多一点；如果你带人，请记住——你每替下属决定一件他本可以自己决定的小事，就是在往他身上加一点长期风险。",
+   "text_en": "Let me leave the last word to the body. Every proposal made here can be tested against one measure: **has it pushed control downward to the people who have least of it? Push it down and the social gradient flattens, and blood pressure and life expectancy follow.** This is not a metaphor — in natural experiments where a reorganisation raised employees' control, cardiovascular risk fell within a few years. Three things for an ordinary person, none of which waits on reform: in the job you already have, take back what you can of when and in what order the work is done, even where the content is fixed; when you get to choose a boss, weigh whether he explains his decisions somewhat above what he pays; and if you manage people, remember that every small decision you take for someone that they could have taken themselves adds a little long-term risk to their body.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "社会梯度": "social gradient（社会梯度）：健康并非只在穷人与富人之间断成两截，而是沿着社会地位连续地一级一级变化——次高一级也不如最高一级健康。它意味着这不是扶贫问题而是等级问题：只托住最底层并不能消掉梯度，除非中间每一级的处境都被抬高。"
+   },
+   "glossary_en": {
+    "social gradient": "Health does not split into two blocks, the poor and the rich; it changes step by step all the way up the social scale, so that the second rank is measurably less healthy than the first. That makes it a question of hierarchy rather than of poverty: lifting the bottom alone will not remove the gradient unless conditions improve at every rung between."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "chomsky",
+     "rousseau",
+     "piketty"
+    ],
+    "轻微赞同": [
+     "adamgrant",
+     "dalio",
+     "buddha"
+    ],
+    "中立": [
+     "friedman"
+    ]
+   }
+  },
+  {
+   "id": "p22",
+   "round": 3,
+   "thinker": "rousseau",
+   "reply_to": "p19",
+   "text": "诸位把我的话都往制度上引，我最后要把它引回人身上。**一份约之所以正当，不在于签的时候你有没有别的选择，而在于签完之后你还是不是一个能说不的人。**弗里德曼给我第二个买主，我承认那比没有好；可一个只能靠逃走来保住尊严的人，一生都在准备行李。所以我要的门槛很低，低到明天就能开始：凡是决定落在谁身上，谁就有权在决定之前知道理由、在决定之后要求解释。这不叫民主，这只是不把人当工具的最低限度。至于选票——它不是奖赏给已经成熟的人的，它是使人成熟的东西；说工人还不配投票的人，两百年前也这样说过农民。",
+   "text_en": "You all pull my words toward institutions; let me pull them back to the person. **What makes an agreement legitimate is not whether you had another option when you signed it, but whether you are still someone who can say no afterwards.** Friedman offers me a second buyer, and I grant that this is better than none; but a man who can keep his dignity only by running away spends his life packing. So the threshold I ask for is low, low enough to begin tomorrow: whoever a decision falls upon has the right to know the reasons before it is made and to demand an account after it is. That is not democracy. It is the minimum for not treating a person as a tool. As for the ballot, it is not a prize awarded to the already mature; it is the thing that makes people mature. Those who say workers are not yet fit to vote said the same of peasants two hundred years ago.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "chomsky",
+     "marmot"
+    ],
+    "轻微赞同": [
+     "piketty",
+     "adamgrant",
+     "buddha"
+    ],
+    "轻微反对": [
+     "friedman"
+    ],
+    "中立": [
+     "dalio"
+    ]
+   }
+  },
+  {
+   "id": "p23",
+   "round": 3,
+   "thinker": "dalio",
+   "reply_to": null,
+   "text": "我改一处：格兰特的预注册我接受，可信度必须事前定义、事后对账，否则它就是资历。**但我坚持一件事——好的决策制度不是让所有人满意，是让分歧被记录下来，好在事后查得出谁对。**做法跟公司大小无关：开会前把你的判断和理由写进一个共享文档，写上你多久之后回来看；三个月后回来对账。做半年，你手里就有一张自己的记分卡，那是你在任何组织里最硬的通货，也是唯一能让『我该有一票』这句话有分量的东西。再说给管理者一句：把裁员的标准提前公布，即使标准难看。不公布的标准，事后一律被当成人情——你省下的那点尴尬，要用全公司的信任去还。",
+   "text_en": "I will change one thing: I accept Grant's pre-registration. Believability has to be defined in advance and reconciled afterwards, or it is simply seniority. **But I hold to this — a good decision system does not aim to leave everyone satisfied; it aims to leave the disagreement on the record, so that afterwards you can check who was right.** The practice has nothing to do with the size of your company: before a meeting, write your call and your reasoning into a shared document with a date on which you will come back to it; three months later, come back and reconcile. Do that for six months and you hold a scorecard of your own, which is the hardest currency there is in any organisation and the only thing that gives the sentence ‘I should have a vote’ any weight. And one word for managers: publish the criteria for a layoff in advance, even when the criteria look ugly. Criteria that go unpublished are read afterwards as favouritism, every time — the awkwardness you save is repaid out of the whole company's trust.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "adamgrant"
+    ],
+    "轻微赞同": [
+     "friedman",
+     "piketty",
+     "marmot",
+     "buddha"
+    ],
+    "轻微反对": [
+     "chomsky"
+    ],
+    "中立": [
+     "rousseau"
+    ]
+   }
+  },
+  {
+   "id": "p24",
+   "round": 3,
+   "thinker": "buddha",
+   "reply_to": null,
+   "text": "诸君所争，吾闻之竟。**票之为物，不能生和，止能止诤。**昔憍赏弥比丘相争，吾说法不入，遂独入林；及其自止，方复和合。是故有法而无相敬之心，法亦成争之具；无法而徒责人心，则强者之意即为公议。二者不可偏废：立可议之界，明可黜之途，而后以慈相待。今予诸君一行，可携之归：凡欲决人之事者，先自问——**此事若落于我身，我愿以此法决之否？**能答是者，其权尚可行；不能答者，虽握众票，亦不过私意而已。",
+   "text_en": "I have heard your dispute to its end. **A ballot cannot produce concord; it can only stop a quarrel.** Long ago the monks of Kosambī fell to fighting, my teaching would not enter them, and I went alone into the forest; only when they had stopped of themselves was the community whole again. So where there is procedure without mutual respect, the procedure too becomes an instrument of the quarrel; and where there is no procedure and only the blaming of hearts, the will of the strong becomes the public voice. Neither may be dropped: mark the boundary of what may be put to the assembly, make plain the road by which one may be removed, and then treat one another with loving-kindness. Take one practice home with you. Whoever would decide a matter for another, ask first — **if this fell upon me, would I be willing to have it decided this way?** He who can answer yes may still exercise the power; he who cannot, though he holds every vote in the hall, holds nothing but his own preference.",
+   "vernacular": "诸位争论的话，我都听完了。**票这东西，不能生出和睦，只能止住争执。**从前憍赏弥的比丘互相争斗，我说的法他们听不进去，我便独自进了林中；等他们自己停下来，才重新和合。所以有制度而没有相敬的心，制度也会变成争斗的工具；可要是没有制度、只去责备人心，强者的意思就成了公论。两样都不能偏废：立好哪些事可以拿来议的边界，说清罢免的路怎么走，然后以慈相待。今天给诸位一句可以带回去的：凡是要替别人做决定的人，先问自己——**这件事若落在我身上，我愿意用这个办法来决定吗？**答得出是的，权力还可以行使；答不出的，就算手里握着所有人的票，也不过是自己的私意罢了。",
+   "vernacular_en": "",
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "rousseau",
+     "adamgrant",
+     "marmot"
+    ],
+    "轻微赞同": [
+     "piketty",
+     "dalio",
+     "chomsky"
+    ],
+    "中立": [
+     "friedman"
+    ]
+   }
+  }
+ ],
+ "summaries": [
+  {
+   "ai": "claude",
+   "engine": "Opus 5 · 订阅(原生)",
+   "engine_en": "Opus 5 · subscription (native)",
+   "summary": "没有人主张公司里事事投票——分歧从一开始就落在『哪些事、由谁、按什么程序』上。共识不少：弗里德曼承认合作社稀少是借不到钱、不是效率的判决；乔姆斯基接受把发声当成控制会让人过早满足；达利欧与佛陀都要求标准事前写死、掌权者可被罢免。**最大的共同点是：让决定可预期、可解释、可复盘，比谁手里握着票更先决。**分歧分三支。一支争同意：卢梭说没有别的活路时的同意不算数，弗里德曼说解药是第二个买主而不是选票。一支争权重：达利欧要按可信度加权，格兰特反问评分记录的到底是对错还是权力。第三支争所有权：皮凯蒂说席位改变了谁在场、没改变谁拥有，马尔莫则把这条梯度直接换算成寿命。",
+   "summary_en": "Nobody here argues that everything at work should be put to a vote; from the outset the disagreement falls on which questions, decided by whom, under what procedure. There is more agreement than expected. Friedman concedes that cooperatives are scarce because they cannot borrow, not because the market has judged them inefficient; Chomsky concedes that treating voice as control lets people settle too early; Dalio and the Buddha both insist that criteria be fixed in advance and that whoever holds power can be removed. **The largest point of agreement is that making decisions predictable, explicable and reviewable comes before the question of who holds a ballot.** From there it forks three ways. Over consent: Rousseau says agreement given when there is no other way to eat does not count, Friedman that the cure is a second buyer rather than a vote. Over weighting: Dalio wants credibility to carry weight, Grant asks whether a rating records who was right or simply who has power. Over ownership: Piketty says seats changed who is in the room but not who owns the place, while Marmot converts that same gradient straight into years of life.",
+   "insight": "几乎没人点破的一件事：公司里从来不缺投票——只是选民名册按出资登记。股东大会一股一票，董事由票选产生，罢免要过表决，一整套代议制早已在运转。**所以真问题不是要不要把民主引进公司，而是凭什么只有出钱的人算成员。**这样一转换，德国与美国的差别就不再是意识形态之争，而是成员资格定义不同。支持者也得接下一个难题：选民一旦扩大，先被保护的往往是已经在场的人——德国的正式工有工厂委员会撑腰，派遣工与外包留在门外。所以扩大名册若不同时说清谁算在内，梯度不会消失，只会往下挪一层。",
+   "insight_en": "Something almost nobody says out loud: firms are not short of voting at all — the electoral roll is simply drawn up by who put in the money. One share one vote at the shareholders' meeting, directors elected, removal by ballot: a full representative system is already running. **So the real question is not whether to bring democracy into the company, but why only those who supplied capital count as members.** Put that way, the difference between Germany and the United States stops being ideological and becomes a difference in who is defined as a member. Supporters inherit a hard problem in return: widen the franchise and the people already inside are protected first. In Germany permanent staff have a works council behind them while agency and contract workers stay outside the door. Widen the roll without settling who counts and the gradient does not disappear; it simply moves down a level.",
+   "advice": "三件今天到本周就能做的事。**最省力的一件：把你团队里『决定是怎么做出来的』写下来贴出去**——谁能提议、谁能否决、多久复盘一次；这张纸不需要审批，却会立刻照出你们究竟有没有程序。第二件照马尔莫的证据做：在现有岗位上，把『什么时候做、按什么顺序做』尽量抓回自己手里，哪怕内容不能选，这一项与血压和寿命直接相关。第三件留给签字之前：把限制你离开的条款读完——竞业禁止、培训违约金、期权兑现的节奏——退出的代价决定了你日后说话的分量；也别把工资和积蓄押在同一家公司。",
+   "advice_en": "Three things you can do between today and the end of the week. **The cheapest: write down how decisions actually get made in your team, and post it** — who may propose, who may veto, how often it gets reviewed. That page needs nobody's approval and will show immediately whether you have a process at all. The second follows Marmot's evidence: in the job you already hold, take back whatever you can of when and in what order the work is done, even where the content is fixed; that single variable is tied directly to blood pressure and life expectancy. The third belongs to the moment before you sign: read the clauses that restrict your leaving — non-competes, training-cost clawbacks, the vesting schedule on your options — because the price of exit sets how much weight your voice will carry later. And do not stake your wage and your savings on the same company."
+  },
+  {
+   "ai": "gpt",
+   "engine": "openai · gpt-5.6-sol · high(真实API)",
+   "engine_en": "openai · gpt-5.6-sol · high (live API)",
+   "summary": "全场最大的共识是：雇佣合同不足以让工作场所的一切权力自动正当；员工至少应有知情、陈述、获知理由、申诉且免遭报复的保障，离职选择也必须真实。**真正的问题不是“公司要不要全民公投”，而是哪类决定由谁做、谁能复核、谁可撤换。**分歧在于：资本风险、专业能力与历史准确率，能否压过受影响者的平等地位？可行方向是分层治理：日常执行授权专业者；排班、绩效、裁员规则共同制定或设否决权；关厂、并购等重大事项给员工正式席位，再以透明、预登记和追责约束各方。",
+   "insight": "讨论谁承担损失时，不能只看资产负债表。股东的损失通常以投入资本为限，还能分散持仓；员工却把收入、技能路径、医保、身份和家庭地点集中押在一家机构，关厂造成的损失往往无法定价或投保。**决策权更合理的分配原则，是让权力随“不可分散、不可逆的风险暴露”增加。**因此，不必让所有技术判断一人一票；但凡决定会显著改变他人的工时、健康、声誉或生计，就应提高其程序权：提前知情、取得代表席位、提出申诉，严重时享有暂停或否决权。资本不是唯一在冒险，受影响也不等于可以取代专业判断。",
+   "advice": "今天先做一张“决策地图”：列出最近五个影响你的决定，标明谁提议、谁拍板、是否说明理由、能否申诉；把最不透明的一项带到下次一对一沟通。第二，本周提议一页流程卡：执行事项由负责人决定，排班、绩效标准和裁员规则须提前公布并留出反驳期，重大决定设复核日期。第三，同时建设发声与退出能力：保存书面记录，与同事核对薪酬及规则，了解工会或员工代表渠道；更新简历、检查竞业条款，并逐步建立应急金。**不要只争一张抽象的票，先争取一项可执行的程序权。**",
+   "summary_en": "The strongest shared conclusion is that signing an employment contract does not automatically legitimize every exercise of workplace power. At a minimum, workers need timely information, a real chance to speak, reasons for consequential decisions, an appeal route, and protection from retaliation; the option to leave must also be economically credible. **The practical question is not whether a company should become a permanent plebiscite, but which decisions belong to whom, who can review them, and who can remove the decision-maker.** The remaining dispute concerns the basis of authority: should capital at risk, expertise, or a record of accurate judgment outweigh the equal standing of those affected? A workable settlement is layered governance. Delegate routine execution to accountable specialists; require joint rule-setting or veto rights for scheduling, evaluation, and layoffs; and give employees formal representation in closures, mergers, and other irreversible choices. Transparency, predefined metrics, recorded dissent, and review should constrain every layer.",
+   "insight_en": "When people ask who bears the loss, the balance sheet gives an incomplete answer. Shareholders usually face limited liability and can diversify across firms. Employees often concentrate their paycheck, health coverage, career path, local ties, and family plans in one employer; a closure can impose losses that cannot be priced, insured, or quickly reversed. **A better rule is that governance rights should rise with exposure to risks that are both hard to diversify and hard to undo.** This does not imply a referendum on every engineering or sales decision. It means that choices materially affecting hours, health, reputation, relocation, or livelihood should trigger stronger procedural rights: advance notice, access to evidence, elected representation, appeal, and, for the gravest cases, a suspensive veto. This avoids two symmetrical mistakes. Capital is not the only constituency taking risk, but being affected does not automatically confer technical competence. Expertise can guide a decision; concentrated exposure determines who must have standing in the process.",
+   "advice_en": "Start today with a decision map. List five recent decisions that affected you and note who proposed each one, who decided, whether reasons were given, and whether an appeal was possible. Take the least transparent item to your next one-on-one and ask for the rule, evidence, and review date in writing. Second, propose a one-page team process this week: execution calls belong to a named owner; scheduling, performance criteria, and layoff rules require advance publication and a comment period; major choices receive a retrospective review. Third, strengthen voice and exit at the same time. Keep factual records, compare policies and pay with trusted coworkers where lawful, and learn how to contact a union, works council, or employee representative. Update your résumé, inspect noncompete and arbitration clauses, and begin an emergency fund. **Do not begin by demanding an abstract vote on everything; secure one enforceable procedural right over a decision that actually shapes your life.**"
+  },
+  {
+   "ai": "gemini",
+   "engine": "google · gemini-3.8-flash(真实API)",
+   "engine_en": "google · gemini-3.8-flash (live API)",
+   "summary": "整场辩论最终沉淀出一个坚固的共识：**不管是否赞成投票，一个不讲理由、没有反驳渠道的黑箱权力，对人的健康与组织寿命都是毁灭性的**。无论信奉自由契约还是天赋人权，各方均承认「程序公正与控制感」是现代职场不可妥协的底线。\n真正的分歧在于权力的来源与合法性边界：卢梭与乔姆斯基视职场为未竟的民主前线，主张被决定者应享有罢免管理者的政治权利；弗里德曼与达利欧则强调资本风险不对称与判断力差异，认为市场竞争和专业加权远优于一人一票；而皮凯蒂与格兰特则把焦点拉向现实结构——信贷杠杆的约束与决策分层的操作性。",
+   "insight": "现代知识组织往往落入非黑即白的陷阱：要么忍受专制，要么陷入会议通胀。开源软件协作（如 Linux）其实展示了第三种范式：**企业最有效的权力制衡，往往不是代议制投票，而是极低成本的「分叉权」（Forking）与随时退出的底气**。政治民主之所以不可或缺，是因为公民无法轻易更换祖国；而企业若机械照搬普选，极易沦为拉帮结派与平庸寻租。当员工拥有可随身带走的专业声誉、模块化技能与健康的劳动保障时，管理者为了留住生产力自然不敢任意妄为。普通人真正需要争取的，是降低自身迁移成本的筹码，而不是被困在委员会里天天开会。",
+   "advice": "一、**建立个人外部沉淀**：落实达利欧与皮凯蒂的警示，别把声誉锁在内部系统。建立个人公开作品集与决策对账表，让能力变成可带走的资产，确保「我走」是一句真话。\n二、**在微观执行中索取时序控制**：依从马尔莫的研究，不必立刻推翻宏大制度，先在具体项目上向主管争取「按自己的节奏与顺序交付」，立刻阻断失控感带来的身心慢性损耗。\n三、**推行异步「反驳缓冲期」**：采纳格兰特的策略，无论向上汇报还是向下带人，**在重大方案敲定前设立48小时的公开说明与反驳窗口**，逼出隐秘特权背后的真实逻辑。",
+   "summary_en": "Across ideological divides, the debate yields a firm consensus: **regardless of whether one favors workplace voting, opaque power that offers no reasons and brooks no dissent is ruinous to both human health and organizational longevity.** All parties concede that procedural justice and a baseline sense of personal control are non-negotiable. The real dispute lies in the origin and boundaries of legitimate power. Rousseau and Chomsky view the workplace as the unfinished frontier of democracy, demanding the political right to recall leaders. Conversely, Friedman and Dalio argue that capital risk asymmetry and competence gaps mean market competition and credibility weighting far outperform one-person-one-vote. Meanwhile, Piketty and Grant shift the inquiry toward structural realities: credit constraints and tiered governance.",
+   "insight_en": "Modern debates often trap us in a false dichotomy: endure managerial despotism or drown in bureaucratic committee voting. An overlooked paradigm from open-source collaboration (e.g., Linux) proves that **the most effective check on corporate power is rarely collective balloting, but a low-cost 'right to fork' backed by true mobility.** Political democracy is indispensable for nations because citizens cannot easily trade homelands; transplanting electoral democracy directly into firms often breeds factional rent-seeking and endless meetings. When workers possess portable reputation, modular skills, and solid social safety nets, management is naturally compelled to grant autonomy to retain them. Cultivating assets you can walk away with yields far more leverage than begging for a seat in a rigged boardroom.",
+   "advice_en": "First, **build a portable record of your competence**: heed Dalio and Piketty by not leaving your reputation trapped in corporate silos. Keep a personal ledger of major decisions, rationale, and deliverables to ensure your threat to exit is authentic. Second, **reclaim scheduling control on small tasks**: apply Marmot’s evidence by negotiating autonomy over *when* and *in what sequence* you execute assignments, directly buffering against chronic stress. Third, **institute an asynchronous cooling-off window**: borrow Grant’s playbook by **requiring a 48-hour period of documented reasoning and counter-argument before finalizing major policies**, forcing implicit power dynamics into the open."
+  }
+ ],
+ "hooks": [
+  {
+   "from": "marmot",
+   "text": "**控制感是发下去的，还是夺回来的**：白厅那条梯度说明了掌控感与寿命同向，却没说清它从哪里来才算数。管理层授予的自主随时可以收回，员工自己争来的自主往往伴随冲突与代价——两者在生理上是同一种保护吗？如果被赋予的自主因为随时可撤销而不能真正降低应激，那么『多授权』的所有企业实践，是不是都在测量一个自己造出来的假象？",
+   "text_en": "**Is control handed down, or taken back**: the Whitehall gradient shows that control and life expectancy move together, but not where control has to come from to count. Autonomy granted by management can be withdrawn at any time, while autonomy won by employees usually arrives with conflict and cost — are the two the same protection physiologically? If granted autonomy fails to lower the stress response precisely because it is revocable, is every corporate empowerment programme measuring an artefact of its own making?"
+  },
+  {
+   "from": "piketty",
+   "text": "**谁给工人借钱**：合作社与员工收购缺的从来不是意愿，是抵押物。蒙德拉贡自己办了一家银行才解决这件事，而多数国家七十年里没长出等价的机构。为什么住房、农业、创业都发展出了专门的信贷渠道，唯独『买下自己干活的地方』没有？如果答案是这类贷款的抵押物就是借款人自己的工作，那它究竟是风险太高，还是我们一直用错了衡量风险的尺子？",
+   "text_en": "**Who lends to workers**: what cooperatives and employee buyouts lack has never been appetite, it is collateral. Mondragón solved it by founding a bank of its own, and in seventy years most countries have grown no equivalent institution. Why did housing, agriculture and start-ups all develop dedicated credit channels while buying the place you work in did not? If the answer is that the collateral for such a loan is the borrower's own job, is the risk genuinely too high — or have we been measuring it with the wrong instrument all along?"
+  },
+  {
+   "from": "piketty",
+   "text": "**拥有，却不把两个鸡蛋放进同一个篮子**：员工持股是把所有权交给劳动者最直接的一条路，代价是收入与积蓄同时押在一家公司上，联合航空的员工收购最后以破产收场。理论上的解法是让员工持有一篮子同行企业的股份、只在自己公司保留表决权，把所有权与风险分开；实践里几乎没人这么设计。表决权与分红权能不能拆开，是这条路上最技术、也最少被认真讨论的一环。",
+   "text_en": "**Owning without putting both eggs in one basket**: employee ownership is the most direct route to handing workers the firm, and its price is that wage and savings ride on the same company — the United Airlines buyout ended in bankruptcy. The theoretical fix is to let employees hold a basket of shares across the industry while keeping voting rights only in their own firm, separating ownership from exposure; in practice almost nobody designs it that way. Whether votes and dividends can be prised apart is the most technical link in this chain, and the least seriously discussed."
+  },
+  {
+   "from": "gpt",
+   "text": "**你公司的参与机制，是真的还是表演**：意见调查、全员问答、改组前的征求意见，形式上都属于『听取员工』，实际效果却相差极远——而假的那一种比没有更伤人，因为它教会人说了也没用。分辨的办法不在于开了几场会，而在于决定之前你知不知道、你说的话有没有留下痕迹、事后有没有人对账。",
+   "text_en": "**Is participation at your company real or theatre**: engagement surveys, all-hands Q&As, consultation before a reorganisation all count formally as listening to employees, and their real effects diverge wildly — the fake version does more damage than none, because it teaches people that speaking up changes nothing. What separates them is not how many meetings were held but whether you knew before the decision, whether what you said left a trace, and whether anyone reconciled it afterwards.",
+   "answer": {
+    "lead": "**不必猜动机，看留痕。**同一个机制真假之别，几乎总是落在同样三处：事前有没有信息、发言有没有记录、事后有没有对账。",
+    "table": {
+     "head": [
+      "机制",
+      "它是真的时候",
+      "它是表演的时候"
+     ],
+     "rows": [
+      [
+       "员工意见调查",
+       "结果连同逐条回应一起公布，上一轮承诺的进展有人跟进",
+       "只公布总分与几句正面摘录，去年那轮再没人提起"
+      ],
+      [
+       "全员问答会",
+       "问题匿名提交、按票数排序，当场答不上来的留档追办",
+       "问题先经筛选，答案是既定方针的复述"
+      ],
+      [
+       "改组或裁员前的征求意见",
+       "方案还有两三个版本，取舍标准与反驳期一并公布",
+       "方案已定、日期已排，征询只改称呼不改内容"
+      ],
+      [
+       "员工代表或工会",
+       "代表由员工自己选出，有独立信息渠道与拒绝签字的权力",
+       "代表由管理层指定，职责是把决定传达下去"
+      ],
+      [
+       "绩效与晋升标准",
+       "标准事前公布、对全员一致适用、事后可查",
+       "标准事后解释，因人而异"
+      ]
+     ]
+    },
+    "tail": "三条原则：**决定前有信息、发言时有记录、事后有对账**，缺一条它就开始向表演滑。若你只来得及问一个问题，就问：上一次员工提出的意见里，哪一条真的改变了决定？答不出具体那一条的，其余都不必再问。"
+   },
+   "answer_en": {
+    "lead": "**Do not guess at motives; look for traces.** What separates the real version of a mechanism from the performance almost always sits in the same three places: information beforehand, a record of what was said, and a reconciliation afterwards.",
+    "table": {
+     "head": [
+      "Mechanism",
+      "When it is real",
+      "When it is theatre"
+     ],
+     "rows": [
+      [
+       "Engagement survey",
+       "Results published alongside a point-by-point response, with someone tracking last round's commitments",
+       "Only the headline score and a few favourable quotes, and last year's round is never mentioned again"
+      ],
+      [
+       "All-hands Q&A",
+       "Questions submitted anonymously and ranked by votes, with anything unanswered logged and followed up",
+       "Questions screened in advance, answers restating settled policy"
+      ],
+      [
+       "Consultation before a reorganisation or layoff",
+       "Two or three versions still live, with the trade-off criteria and an objection window published",
+       "Plan fixed and dates set; the consultation changes what it is called, not what it says"
+      ],
+      [
+       "Employee representatives or a union",
+       "Representatives elected by employees, with independent access to information and the power to refuse to sign",
+       "Representatives appointed by management, whose job is to pass the decision down"
+      ],
+      [
+       "Performance and promotion criteria",
+       "Criteria published in advance, applied consistently to everyone, auditable afterwards",
+       "Criteria explained after the fact, and differently for different people"
+      ]
+     ]
+    },
+    "tail": "Three principles: **information before the decision, a record while you speak, a reconciliation afterwards.** Lose any one and the thing starts sliding into performance. If you only have time for a single question, ask this: of the points employees raised last time, which one actually changed the decision? Where no specific answer comes back, the rest of the questions are unnecessary."
+   }
+  },
+  {
+   "from": "buddha",
+   "text": "**不可罢免的贤能，还算贤能吗**：按能力分配决定权听上去比按人头合理，可它多出一个人头制没有的问题——认定能力的人由谁认定？评分、职级、可信度加权都需要一个源头，而源头一旦不能被下面撤换，整套制度就在数学上退回了君主制，只是它现在有了小数点。能力治理要成立，是不是必须内建一条罢免的路？",
+   "text_en": "**Is an able man who cannot be removed still an able man**: allocating decisions by competence sounds more reasonable than allocating them by headcount, but it carries a problem that headcount does not — who certifies the certifier? Ratings, ranks and credibility weights all need a source, and once that source cannot be removed from below, the whole system has reverted, mathematically, to monarchy, only now with decimal places. For governance by competence to hold, must a road to removal be built into it from the start?"
+  }
+ ]
+}

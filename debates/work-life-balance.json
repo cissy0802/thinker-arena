@@ -1,953 +1,953 @@
 {
- "id": "work-life-balance",
- "question": "「工作与生活的平衡」真的存在吗？",
- "question_en": "Is work-life balance a real thing?",
- "sub": "是能达成的稳态，还是一句自我安慰？只有取舍，还是长周期的轮换？",
- "sub_en": "An attainable steady state, or a phrase we comfort ourselves with — only tradeoffs, or seasons taken in turn?",
- "date": "2026-09-01",
- "participants": [
-  "calvin",
-  "russell",
-  "seneca",
-  "sushi",
-  "huineng",
-  "nussbaum",
-  "newport",
-  "lembke"
- ],
- "casting": [
-  {
-   "id": "calvin",
-   "reason": "他不承认工作与生活是两块地。鞋匠钉鞋与修士祈祷同样是天职，人一天里没有哪一段是从神的眼前退场的；可同一套教义也钉下一道硬边界——安息日是诫命而非奖赏，停不下来的勤勉在他看来不是美德，是把工作摆到了神的位置。他会把这道题从「怎么分时间」拧成「你到底在替谁做工」。",
-   "reason_en": "He does not grant that work and life are two separate plots of ground. The cobbler at his last and the monk at his prayers stand equally under a calling, and no hour of the day is spent offstage. Yet the same doctrine drives in a hard boundary: the Sabbath is a commandment, not a reward, and diligence that cannot stop is to him not virtue but work put where God should be. He twists the question from how to divide the hours into whom the hours are being worked for."
-  },
-  {
-   "id": "russell",
-   "reason": "在他看来，「劳动本身高尚」是一桩留存至今的迷信，而它对谁有利一望便知。技术早已足够让人少做，多出来的产能却全部换成了更多的产品与更长的工时。他要的不是更聪明的时间管理，而是更短的工时——闲暇不是让人明天还能上工的补给站，它本身才是科学、艺术与友谊长出来的地方。",
-   "reason_en": "For him the belief that labour is noble in itself is a superstition that has outlived its origins, and it is not hard to see whom it serves. Technology has long been sufficient for everyone to work far less, yet every gain in output has been converted into more goods and longer hours. What he wants is not smarter time management but a shorter working day: leisure is not a depot where a worker is refuelled for tomorrow, it is the ground on which science, art and friendship actually grow."
-  },
-  {
-   "id": "seneca",
-   "reason": "他不谈比例，只谈所有权。人守着钱财寸步不让，却把日子成把地送出去；在他眼里病根不在工时长短，而在一个人从早到晚都是被占满的，连休假也是替旁人过的。他还会拿自己当反面教材——他替尼禄管过账，富可敌国，最后死在那位学生手里。",
-   "reason_en": "He will not talk in proportions, only in ownership. People defend their money to the last coin and give their days away by the handful; the disease, as he sees it, is not the length of the working day but that a person is occupied from waking to sleeping — even the holiday is lived on someone else's behalf. He is also willing to be his own worst example: he kept the accounts of Nero, grew fabulously rich, and died at that pupil's order."
-  },
-  {
-   "id": "sushi",
-   "reason": "他大半生在贬所度过，却既不辞劳事，也不失其闲。在他看来「闲」不是日程表上剩下的空格，而是一种不为外物所役的心量：月与竹柏夜夜都在，稀缺的从来是那个还看得见它们的人。他也提醒，快乐若总要更强的刺激才够，那便已经是被物驱使。",
-   "reason_en": "He spent most of his life in places he had been banished to, and neither shirked the work nor lost his ease. Leisure, for him, is not the blank left over in a schedule but a capacity of mind that outward things cannot commandeer: the moon and the bamboo are there every night, and what is scarce is a person still able to see them. He also warns that a pleasure which needs ever stronger stimulation is already a form of servitude."
-  },
-  {
-   "id": "huineng",
-   "reason": "他先指出这一刀切下去的地方。求道不在离开世间，离世觅菩提如同求兔角；同理，上班时惦着下班、下班时惦着上班的人，两处都不在，这才是真正的累。他不反对定时、禁断与抗争，只提醒别把「歇」也当成一件要办成的事。",
-   "reason_en": "He begins by pointing at where the cut is made. The way is not found by leaving the world — to seek bodhi outside it is to look for horns on a hare; and by the same token a person who thinks of leaving while working and thinks of work while resting is in neither place, which is where the real exhaustion comes from. He has no quarrel with schedules, abstinence or bargaining; he only warns against turning rest itself into one more thing to accomplish."
-  },
-  {
-   "id": "nussbaum",
-   "reason": "她要求把「平衡」从一种感觉换成一份可以查的清单：一个人实际上能不能玩、能不能与所爱的人相处、能不能支配自己的身体与时间。她也会指出这道题最常被跳过的一半——下班之后并不是空白，对许多人（多数是女性）那是第二班无薪的活。",
-   "reason_en": "She wants the word swapped out for something checkable: not whether a person feels balanced but what she is actually able to do — able to play, to be with those she loves, to have command of her own body and hours. And she points at the half of the question that usually gets skipped: clocking off does not open onto empty time. For a great many people, most of them women, it opens onto a second shift that nobody pays for."
-  },
-  {
-   "id": "newport",
-   "reason": "他把这当工程问题，不当心态问题：先钉死下班时间，再倒推这周能接多少活，顺序一反边界就永远不会出现。注意力残留解释了为什么人已经到家、脑子还在工位上开会，所以他坚持每天要有一个把上一件事收尾的动作。",
-   "reason_en": "He treats this as an engineering problem rather than a matter of attitude: fix the hour you stop first, then work backwards to decide how much you can take on — reverse that order and the boundary never appears. Attention residue explains why a person can be home while their mind is still in the meeting, which is why he insists on a daily action that closes the previous task down."
-  },
-  {
-   "id": "lembke",
-   "reason": "她从奖赏回路看这道题：多数人不缺休息的时长，缺的是能把基线抬回来的那种休息。快感与痛苦共用大脑的同一片区域，每一次快感之后都会自动往痛苦那端加码；所以下班后两小时短视频不是恢复，是在同一根杠杆上继续加码。她开的方子也很实在：禁断、自我约束、主动去按痛苦那一端。",
-   "reason_en": "She reads the question off the reward circuitry: most people are not short of hours to rest, they are short of the kind of rest that lifts the baseline back up. Pleasure and pain are processed in the same part of the brain, and every hit of pleasure is automatically answered by a tilt toward pain; so two hours of short video after work is not recovery but more weight on the same lever. Her prescriptions are correspondingly concrete: abstinence, self-binding, and deliberately pressing on the painful side."
-  }
- ],
- "posts": [
-  {
-   "id": "p01",
-   "round": 1,
-   "thinker": "calvin",
-   "reply_to": null,
-   "text": "你们把一天切成两块，一块卖给雇主，一块留给自己，然后问怎么分才公道。我不承认这一刀。修士的祈祷并不比鞋匠钉鞋更神圣：人在自己的位分上做工，本身就是天职，没有哪一个钟头是从神的眼前退场的。但同一套道理也钉下一道硬边界——安息日是诫命，不是奖赏。石板上写得清楚：那一日，你的仆婢与你的牲口都要歇。**一个停不下来的人不是勤勉，他只是把工作摆到了神的位置上。**所以别急着问怎么平衡，先问：另外六天，你到底在替谁做工？",
-   "text_en": "You cut the day in two — one half sold to an employer, one half kept for yourself — and then ask how to divide it fairly. I do not grant the cut. The monk at prayer is no holier than the cobbler at his last: to labour in the station given you is itself a vocation, and no hour of your day is spent offstage. But the same doctrine drives in a hard boundary — the Sabbath is a commandment, not a reward. The tablets are explicit: on that day your servant and your beast are to rest as well. **A man who cannot stop is not diligent; he has merely put his work where God should be.** So do not rush to ask how to balance. Ask first whom the other six days are being worked for.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {
-    "天职": "vocatio（天职）：拉丁文原意是『召唤』。宗教改革把它从修道院里放了出来——不只神职者蒙召，农夫、主妇、鞋匠在各自位分上尽责，同样是在回应召唤。这一转变抬高了世俗劳动的地位；后世把信仰抽掉，只留下『勤勉本身即美德』，那已不是我说的意思。",
-    "安息日": "Sabbath（安息日）：十诫的第四诫，每七日停工一日。它常被当成宗教习俗，可条文里连仆婢与牲口都被点名要求歇息——那是最早一批把休息定成强制义务、且强制的对象是主人而非劳工的规定。"
-   },
-   "glossary_en": {
-    "vocation": "From the Latin for a calling. The Reformation took it out of the monastery: not only the priest is called, but the farmer, the housewife and the cobbler, each answering the same summons in the station they occupy. The shift raised the dignity of ordinary labour; when later ages drained the faith out of it and kept only the maxim that diligence is virtue, that was no longer my meaning.",
-    "Sabbath": "The fourth commandment: every seventh day, work stops. It is usually read as a religious custom, but the text names the servant and the beast as well — one of the earliest rules to make rest compulsory, and to make it compulsory for the master rather than the labourer."
-   },
-   "reactions": {
-    "强烈反对": [
-     "russell"
-    ],
-    "轻微赞同": [
-     "seneca",
-     "newport"
-    ],
-    "中立": [
-     "nussbaum"
-    ],
-    "轻微反对": [
-     "huineng"
-    ],
-    "疑惑": [
-     "lembke"
-    ]
-   }
-  },
-  {
-   "id": "p02",
-   "round": 1,
-   "thinker": "russell",
-   "reply_to": "p01",
-   "text": "加尔文先生说得体面，可下文韦伯早已替我们写好了：天职一旦离了神，就成了雇主的账本。我说得再直白些——**相信劳动本身高尚，是现代世界最大的一桩迷信，而它对谁有利，一望便知。**技术早就足够让每个人每天只做四小时的活，多出来的产能却全部换成了更多的产品与更长的工时。你们今天讲的闲暇，多半只是让人明天还能上工的补给站；真正的闲暇不为任何事作准备，它才是科学、艺术与友谊长出来的地方。所以这不是日程表的问题，是钟点归谁的问题。",
-   "text_en": "Calvin puts it handsomely, but Weber wrote the sequel long ago: once a calling parts company with God, it becomes the employer's ledger. Let me put it more bluntly. **The belief that labour is noble in itself is the great superstition of the modern world, and it is not difficult to see whom it profits.** Technique has long sufficed for four hours of work a day, yet every gain has been spent on more goods and longer hours instead. What you now call leisure is mostly a depot where a worker is refuelled for tomorrow; real leisure prepares for nothing, and that is precisely why science, art and friendship grow there. This is not a problem of scheduling. It is a question of who owns the hours.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {
-    "闲暇": "leisure（闲暇）：我指的不是下班后用来恢复体力、好让明天继续上工的那几个钟头，而是不必用于生产、也不必为生产作准备的整块时光。古希腊人把它看作城邦生活的正事，现代把它降级成工作的附属品——我认为文明变薄，多半出在这一次降级上。"
-   },
-   "glossary_en": {
-    "leisure": "Not the hours after work in which a labourer is restored so that he may work again tomorrow, but time that is neither spent producing nor spent preparing to produce. The Greeks took it to be the serious business of a citizen's life; the modern world demoted it to an appendage of work — and most of what has since gone thin in civilisation, I suspect, went thin at that demotion."
-   },
-   "reactions": {
-    "强烈反对": [
-     "calvin"
-    ],
-    "轻微赞同": [
-     "sushi",
-     "nussbaum",
-     "seneca"
-    ],
-    "轻微反对": [
-     "newport",
-     "lembke"
-    ],
-    "中立": [
-     "huineng"
-    ]
-   }
-  },
-  {
-   "id": "p03",
-   "round": 1,
-   "thinker": "seneca",
-   "reply_to": null,
-   "text": "我不谈比例。人守着钱财寸步不让，却把日子成把地送人——**唯有时间是借出去便讨不回来的东西，而你偏偏送得最不还价。**病根不在几个钟头，在于你从早到晚都是 occupati：会议、应酬、替别人的急事奔走，连休假也是替旁人过的。你说等升上去就有空了，等孩子大些就有空了——你把一整个人生押在一个永远推后的开头上。罗马人分得清 negotium 与 otium，后者不是无所事事，是把心收回来给自己用的那一段。我知道自己在说什么：写下这些字的时候，我正替一个暴君管着账。",
-   "text_en": "I will not talk in proportions. People defend their money to the last coin and hand their days out by the armful — **time is the one thing that never comes back once lent, and it is the one thing you give away without haggling.** The disease is not a number of hours; it is that from waking to sleeping you are among the occupati: meetings, obligations, other men's urgent business, a holiday lived on someone else's behalf. You say you will have time once you are promoted, once the children are older — staking an entire life on a beginning that is always postponed. The Romans could tell negotium from otium, and otium is not idleness; it is the stretch in which a mind is called back for its owner's use. I know exactly what I am saying: as I write this, I am keeping the accounts of a tyrant.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {
-    "occupati": "occupati（忙人）：我在《论生命之短暂》里的用语，指被事务占满的人。他们的毛病不是时间不够，而是从不曾拥有过自己的时间——日程被别人的需要填满，连独处时也在替别人操心。",
-    "otium": "otium（闲暇）：罗马人对『退居下来的时间』的称呼，与 negotium（事务、公务，字面即『非闲暇』）相对。otium 不是无所事事，而是读书、写作、与自己相处的正经时光，被看作自由人生活的核心，而不是工作之后的剩余。"
-   },
-   "glossary_en": {
-    "occupati": "My word in On the Shortness of Life for the preoccupied. Their trouble is not that the hours are too few but that they have never owned an hour: the calendar is filled with other people's needs, and even their solitude is spent worrying on someone else's behalf.",
-    "otium": "The Roman name for withdrawn time, set against negotium — business, public affairs, literally not-otium. It does not mean doing nothing: it means reading, writing and keeping one's own company, and it was taken to be the centre of a free man's life rather than the remainder left after work."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "sushi"
-    ],
-    "轻微赞同": [
-     "newport",
-     "calvin",
-     "russell"
-    ],
-    "轻微反对": [
-     "nussbaum"
-    ],
-    "疑惑": [
-     "huineng"
-    ],
-    "中立": [
-     "lembke"
-    ]
-   }
-  },
-  {
-   "id": "p04",
-   "round": 1,
-   "thinker": "sushi",
-   "reply_to": null,
-   "text": "二公争工时之长短，吾且言其外者。昔在黄州，夜不能寐，起行至承天寺，庭下积水空明，藻荇交横，盖竹柏影也。因叹：何夜无月？何处无竹柏？**但少闲人如吾两人者耳。**月未尝一夕不出，竹柏未尝一日不生，所少者，能见之之人也。故闲非日程之余隙，乃心不为物役之谓，是之谓旷达。然吾亦非不事事者：在杭筑堤，在惠施药，在儋教书，何尝一日辞劳？劳而心不为劳所牵，斯可矣。若身歇而心系案牍，虽终岁闲居，亦忙人也。",
-   "text_en": "The two of you are arguing over the length of the working day; let me speak of what lies outside it. Years ago at Huangzhou I could not sleep, and walked out to Chengtian Temple. The courtyard lay as though flooded with clear water, waterweeds crossing through it — the shadows of bamboo and cypress. And I sighed: what night has no moon? What place has no bamboo and cypress? **What is scarce is only idle men such as the two of us.** No night has ever lacked its moon, no day has stopped the bamboo growing; what is lacking is someone still able to see them. Leisure, then, is not the gap left over in a schedule but a mind that outward things cannot commandeer — this is what I call equanimity. Yet I am no idler: I built the dyke at Hangzhou, handed out medicine at Huizhou, taught school at Danzhou. What day did I refuse the work? To labour, and not be dragged along by the labour, is enough. A man whose body rests while his mind stays on the documents is a busy man still, though he sit at home the whole year.",
-   "vernacular": "两位争的是工时长短，我说点别的。当年在黄州，夜里睡不着，起来走到承天寺，院子里像积了一汪清水，水草交错，其实是竹子和柏树的影子。我于是感叹：哪一夜没有月亮？哪个地方没有竹柏？**缺的只是像我们两个这样的闲人罢了。**月亮没有哪一晚不出来，竹柏没有哪一天不生长，缺的是还看得见它们的人。所以「闲」不是日程表上剩下的空档，而是心不被外物驱使——这才叫旷达。可我也不是什么都不做的人：在杭州修堤，在惠州施药，在儋州教书，哪一天推过活？做事而心不被事牵着走，就够了。身体歇着、心还挂在公文上，就算整年不出门，也还是个忙人。",
-   "vernacular_en": "",
-   "glossary": {
-    "旷达": "equanimity（旷达）：中国文人品评人物的一个词，指经历得失升沉之后仍能自在开阔，不为处境所困。它不是麻木，也不是佯装无所谓——事照做、痛照痛，只是不把心整个押在结果上。"
-   },
-   "glossary_en": {
-    "equanimity": "A term Chinese literati used to praise a certain bearing: the openness a person keeps after gain and loss, promotion and exile, have all gone through them. It is neither numbness nor a pretence of not minding — the work still gets done and the pain is still felt; what is withheld is the whole of oneself staked on the outcome."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "huineng",
-     "seneca"
-    ],
-    "轻微赞同": [
-     "russell",
-     "lembke"
-    ],
-    "轻微反对": [
-     "nussbaum"
-    ],
-    "中立": [
-     "newport",
-     "calvin"
-    ]
-   }
-  },
-  {
-   "id": "p05",
-   "round": 1,
-   "thinker": "huineng",
-   "reply_to": null,
-   "text": "诸公分工作与生活为二，而后求其平，病正在此一刀。吾尝言：佛法在世间，不离世间觉；离世觅菩提，恰如求兔角。担柴运水即是道场，岂别有一片清净地，待汝下班而后入之？今人上工时念着下工，下工时念着明日之工，两处皆不在，故终日劳而不得歇——所歇者身，所役者念也。**「平衡」二字，是先把一颗心撕作两半，再去寻线来缝。**心若不撕，缝个什么？",
-   "text_en": "You divide work from life and then seek a balance between them; the sickness is in that cut. I have said: the Dharma is within the world, and awakening is not found apart from it — to seek bodhi outside the world is to look for horns on a hare. Carrying firewood and drawing water is itself the place of practice; where is this other, cleaner ground that opens only once you have clocked off? People now think of leaving while they work and think of tomorrow's work while they rest, so they are in neither place, and labour all day without ever resting — the body rests, the thought goes on being driven. **The word balance tears one mind in half and then goes looking for thread.** If it is not torn, what is there to sew?",
-   "vernacular": "各位把工作和生活分成两块，再求其中的平衡，毛病正出在这一刀上。我说过：佛法就在世间，觉悟离不开世间；离开世间去找菩提，就像找兔子头上的角。挑柴担水就是修行的道场，哪里另有一块清净地，等你下班了才进得去？如今的人上班时惦着下班，下班时惦着明天的活，两头都不在，所以整天忙碌却得不到休息——歇的是身子，被驱使的是念头。**「平衡」这两个字，是先把一颗心撕成两半，再想办法缝上。**心不撕开，缝什么？",
-   "vernacular_en": "",
-   "glossary": {
-    "菩提": "bodhi（菩提）：梵语，意为觉悟。禅门反对把它当成一件在别处、要另辟时地才能取得的东西——它不在深山也不在下班之后，只在此刻这一念上。"
-   },
-   "glossary_en": {
-    "bodhi": "Sanskrit for awakening. The Chan school refuses to treat it as something located elsewhere, to be fetched in a special time and place — not in the mountains and not after hours, but in this present thought."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "sushi"
-    ],
-    "轻微赞同": [
-     "calvin"
-    ],
-    "轻微反对": [
-     "nussbaum",
-     "russell"
-    ],
-    "疑惑": [
-     "newport",
-     "lembke"
-    ],
-    "中立": [
-     "seneca"
-    ]
-   }
-  },
-  {
-   "id": "p06",
-   "round": 1,
-   "thinker": "nussbaum",
-   "reply_to": null,
-   "text": "我要把这个词从感觉换成清单。问一个人「你觉得平衡吗」，答案会随愧疚与习惯漂移；该问的是能力进路上的那一串：她实际上能不能玩、能不能与所爱的人相处、能不能支配自己的身体与时间。**我把玩写进中心能力清单不是浪漫，是因为一个不能玩的人，生活确实缺了一块，而不只是心情不好。**还有这道题最常被跳过的一半：下班之后不是空白。对许多人——多数是女性——那是第二班：做饭、陪写作业、给老人打电话、记住所有人的生日。把这一班算进来就会看见，「工作与生活」根本不是二分，而是有酬劳动与无酬劳动怎么分派。",
-   "text_en": "I want the word swapped out for a list. Ask a person whether she feels balanced and the answer drifts with guilt and habit; the question to ask comes from the capability approach — what she is actually able to do: to play, to be with the people she loves, to have command of her own body and her own hours. **Play is on my list of central capabilities not out of sentiment but because someone who cannot play is missing part of a life, not merely in a poor mood.** And here is the half of the question that is usually skipped: clocking off does not open onto blank time. For a great many people, most of them women, it opens onto the second shift — cooking, homework, the phone call to a parent, remembering everyone's birthday. Count that shift and the division is not work against life at all; it is a question of how paid and unpaid labour get handed out.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {
-    "能力进路": "capability approach（能力进路）：我与阿马蒂亚·森发展的评价框架。不看一个人手里有多少资源、也不看他自称多幸福，而看他实际能做什么、能成为什么——同一笔收入，对能自由支配时间的人和被家务锁住的人意义完全不同。我列出十项中心能力（生命、身体健康、身体完整、感官想象与思考、情感、实践理性、依附、与其他物种共处、玩、对环境的控制），主张任何一项跌破门槛都是正义问题，而不是运气问题。",
-    "第二班": "the second shift（第二班）：社会学家霍克希尔德的用语，指有酬工作结束后回家继续承担的无酬家务与照料劳动。她对双职工家庭的研究发现这一班明显落在女方身上，一年累计下来相当于多上了一个月的班。"
-   },
-   "glossary_en": {
-    "capability approach": "The framework Amartya Sen and I developed for judging how a society is doing. It looks neither at the resources a person holds nor at how happy she reports herself to be, but at what she is actually able to do and to be — the same income means something entirely different to someone who commands her own hours and to someone locked into domestic work. I set out ten central capabilities (life; bodily health; bodily integrity; senses, imagination and thought; emotions; practical reason; affiliation; other species; play; control over one's environment) and argue that falling below the threshold on any of them is a matter of justice rather than luck.",
-    "the second shift": "Arlie Hochschild's term for the unpaid domestic and care work that begins when paid work ends. Her research on two-earner households found the shift falling overwhelmingly on the woman, adding up over a year to roughly an extra month of work."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "russell"
-    ],
-    "轻微赞同": [
-     "lembke",
-     "seneca"
-    ],
-    "轻微反对": [
-     "calvin",
-     "newport"
-    ],
-    "中立": [
-     "sushi",
-     "huineng"
-    ]
-   }
-  },
-  {
-   "id": "p07",
-   "round": 1,
-   "thinker": "newport",
-   "reply_to": null,
-   "text": "我把它当工程问题，不当心态问题。多数人的顺序反了：先答应所有活，再看剩下多少时间过日子。**先把下班时刻钉死，再倒推这周能接多少事——顺序一反，边界就永远不会出现。**这叫固定日程生产力。第二件事是注意力残留：任务切换之后，一部分注意力还留在上一件事上，所以你人已经到家，脑子还在工位上开会。这不是意志薄弱，是缺一个把上一件事收尾的动作。下班前五分钟，写下未完的事项、写明天第一件做什么，再说一句今天到此，然后关机。听起来像小把戏，可它给大脑一个可以停止追踪的信号。",
-   "text_en": "I treat this as an engineering problem, not a question of attitude. Most people have the order backwards: they say yes to everything and then see how much life is left over. **Fix the hour you stop first, then work backwards to how much you can take on this week — reverse that and the boundary never appears.** This is fixed-schedule productivity. The second thing is attention residue: after switching tasks, part of your attention stays with the previous one, which is why you can be home while your mind is still in the meeting. That is not weak will; it is a missing closing action. Five minutes before you stop, write down what is unfinished, write the first thing you will do tomorrow, say that today is over, and shut down. It sounds like a trick, but it gives the brain a signal that it can stop tracking.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {
-    "固定日程生产力": "fixed-schedule productivity（固定日程生产力）：先设定一个绝不加班的下班时刻，把它当成不可谈判的硬约束，再反过来决定接受哪些工作、拒绝哪些。它把『时间不够』从一句抱怨变成一道排程题，逼你在承诺的那一刻做取舍，而不是在深夜补课。",
-    "注意力残留": "attention residue（注意力残留）：管理学者 Sophie Leroy 提出的现象——从一项任务切到另一项时，注意力有一部分仍停在前一项上，后一项的表现随之下降。它既解释了频繁切换为何让人又累又低效，也解释了为什么下班时若没有一个明确的收尾动作，工作会跟着你回家。"
-   },
-   "glossary_en": {
-    "fixed-schedule productivity": "Choose a time at which you will stop working, treat it as non-negotiable, and then work backwards to decide what you accept and what you decline. It converts not enough time from a complaint into a scheduling problem, and forces the tradeoff at the moment of commitment rather than at midnight.",
-    "attention residue": "A phenomenon identified by the management scholar Sophie Leroy: when you switch from one task to another, part of your attention stays behind on the first, and performance on the second suffers. It explains both why frequent switching leaves people tired and ineffective, and why work follows you home when the day ends without a definite closing action."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "lembke"
-    ],
-    "轻微赞同": [
-     "seneca",
-     "calvin"
-    ],
-    "轻微反对": [
-     "huineng",
-     "nussbaum",
-     "russell"
-    ],
-    "中立": [
-     "sushi"
-    ]
-   }
-  },
-  {
-   "id": "p08",
-   "round": 1,
-   "thinker": "lembke",
-   "reply_to": null,
-   "text": "从门诊上看，多数人不缺休息的时长，缺的是能把基线抬回来的那种休息。快感与痛苦由大脑的同一片区域处理，我把它叫作快感-痛苦跷跷板：每一次快感之后，脑子会自动往痛苦那一端加码，把你按回平衡；反复刺激，整条基线就被压低，于是你需要越来越多，才只是感觉正常——这就是耐受。**下班后刷两小时短视频不是恢复，是在同一根杠杆上继续加码，所以你休息完反而更累。**真正把基线抬回去的，往往在痛苦那一端：运动、冷水、无聊、一件需要费劲的手艺。至于怎么做到，别靠意志力，靠自我约束：把手机放到另一个房间，比下决心少看有效得多。",
-   "text_en": "From the clinic, most people are not short of hours to rest; they are short of the kind of rest that raises the baseline. Pleasure and pain are processed by the same part of the brain — I call it the pleasure-pain balance. After every hit of pleasure the brain automatically adds weight to the pain side to restore equilibrium; repeat the stimulus and the whole baseline sinks, so you need more and more just to feel normal. That is tolerance. **Two hours of short video after work is not recovery, it is more weight on the same lever, which is why you finish rest more tired than you began.** What actually lifts the baseline usually sits on the painful side: exercise, cold water, boredom, a craft that costs effort. And as for how, do not rely on willpower, rely on self-binding: putting the phone in another room beats resolving to look at it less.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {
-    "快感-痛苦跷跷板": "the pleasure-pain balance（快感-痛苦跷跷板）：快感与痛苦由大脑同一片区域处理，像跷跷板一样此起彼伏。任何一次快感之后，脑子会自动把跷跷板往痛苦那端压一下以恢复平衡；这一下就是你放下手机后那点说不清的空落。反复刺激会让跷跷板整体下沉，于是快乐越来越难、难受越来越容易。",
-    "耐受": "tolerance（耐受）：同一剂量的刺激反复使用后效果递减，必须加量才能得到原先的感受。它不只发生在药物上——短视频、游戏、糖、购物、乃至工作带来的成就感，都遵循同一条曲线。",
-    "自我约束": "self-binding（自我约束）：在还清醒、还没有渴求的时候，先替将来的自己设下屏障——物理的（把酒锁进柜子、手机放在另一间房）、时间的（只在周末做某件事）、类别的（这类应用一概不装）。它承认意志力在渴求发作时几乎必然失守，于是把胜负提前到不需要意志力的时刻。"
-   },
-   "glossary_en": {
-    "the pleasure-pain balance": "Pleasure and pain are processed by the same part of the brain and behave like a seesaw. After any pleasure the brain automatically tips the board toward pain to restore equilibrium — that tip is the vague flatness you feel on putting the phone down. Repeat the stimulus and the whole board sinks, so pleasure gets harder to reach and discomfort easier.",
-    "tolerance": "The same dose of a stimulus produces less and less effect, so the dose must rise to deliver what it once did. This is not confined to drugs: short video, games, sugar, shopping and even the sense of achievement work gives all run along the same curve.",
-    "self-binding": "Erecting a barrier for your future self while you are still clear-headed and not yet craving — physical (the liquor locked away, the phone in another room), temporal (only at weekends), or categorical (this class of app, never). It concedes that willpower loses almost every contest with an active craving, and so moves the contest to a moment when no willpower is required."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "newport"
-    ],
-    "轻微赞同": [
-     "calvin",
-     "sushi",
-     "seneca"
-    ],
-    "中立": [
-     "nussbaum"
-    ],
-    "疑惑": [
-     "huineng"
-    ],
-    "轻微反对": [
-     "russell"
-    ]
-   }
-  },
-  {
-   "id": "p09",
-   "round": 2,
-   "thinker": "russell",
-   "reply_to": "p01",
-   "text": "加尔文先生，你的安息日只有一天，另外六天你交给了谁？你说人在位分上做工即是侍奉，这句话一旦走出教堂，就成了雇主最省钱的一句管理话术：加班叫敬业，压榨叫使命，连不涨薪也能说成磨练。韦伯把它的下场叫铁笼——信仰蒸发了，禁欲的劳动习惯留下来，还顺手把门锁上。**把工作说成天职，最大的受益者从来不是做工的那个人。**我不否认劳作有尊严，我否认的是「多劳自然多德」。若劳动当真神圣，为什么神圣的份额总是分给别人？",
-   "text_en": "Calvin, your Sabbath is one day: to whom did you hand the other six? You say that to labour in one's station is already service — and the moment that sentence leaves the church it becomes the cheapest management slogan ever devised. Overtime becomes devotion, exploitation becomes mission, and even a frozen wage becomes character-building. Weber named the end of it: the iron cage. The faith evaporates, the ascetic habit of work remains, and the door locks behind it. **When work is called a calling, the chief beneficiary is never the one doing the work.** I do not deny that labour has dignity. I deny that more labour makes more virtue. If labour really were holy, why is the holy portion always assigned to somebody else?",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {
-    "铁笼": "iron cage（铁笼）：韦伯的比喻。他认为新教的天职观曾给资本主义提供过精神动力，可当宗教内容褪去，只剩下一套追求效率与积累的秩序，人就被关在自己造的这副外壳里——不再是为了什么而工作，而是不得不工作。"
-   },
-   "glossary_en": {
-    "iron cage": "Weber's image. The Protestant idea of a calling once supplied capitalism with its spiritual motor; when the religious content evaporated, what remained was a bare order of efficiency and accumulation, and people were shut inside a shell of their own making — no longer working for something, simply unable to stop."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "nussbaum"
-    ],
-    "强烈反对": [
-     "calvin"
-    ],
-    "轻微赞同": [
-     "seneca",
-     "sushi"
-    ],
-    "中立": [
-     "huineng",
-     "newport"
-    ],
-    "轻微反对": [
-     "lembke"
-    ]
-   }
-  },
-  {
-   "id": "p10",
-   "round": 2,
-   "thinker": "nussbaum",
-   "reply_to": "p07",
-   "text": "纽波特先生，你的方法很好——对能自己排日程的人。护士的班表由医院给，快递员的时间由算法派，单亲母亲的下班时刻由孩子哪天发烧决定。**先钉死下班时间，前提是你有权钉；没有这份权力的人，同一句话就变成了又一项她做不到的自我要求。**关机仪式解决不了排班，深度工作也换不来托育。所以我要把这道题从技巧挪回制度：真正决定一个人能不能玩的，是可预测的班表、付得起的托育、真能休的病假——这些不是福利，是让清单上那几项从纸面落到生活里的条件。把结构问题写成个人习惯问题，代价总是落在最没有议价权的人身上。",
-   "text_en": "Newport, your method is excellent — for people who set their own schedules. A nurse's roster comes from the hospital, a courier's hours come from an algorithm, and a single mother's finishing time is decided by whichever day her child runs a fever. **Fixing the hour you stop presupposes that you have the authority to fix it; for someone without that authority, the same sentence becomes one more instruction she is failing to follow.** A shutdown ritual cannot fix a roster, and deep work does not buy childcare. So I want to move this back from technique to institutions: what actually determines whether a person can play is a predictable roster, childcare she can afford, sick leave she can really take. Those are not perks; they are the conditions under which the items on my list stop being words on paper. Write a structural problem up as a personal habit and the cost lands, as always, on whoever has the least bargaining power.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {},
-   "glossary_en": {},
-   "reactions": {
-    "强烈赞同": [
-     "russell"
-    ],
-    "轻微赞同": [
-     "sushi",
-     "lembke"
-    ],
-    "轻微反对": [
-     "newport",
-     "seneca"
-    ],
-    "中立": [
-     "calvin",
-     "huineng"
-    ]
-   }
-  },
-  {
-   "id": "p11",
-   "round": 2,
-   "thinker": "newport",
-   "reply_to": "p10",
-   "text": "这一半批评我接受：把排班问题讲成个人技巧，等于给做不到的人再添一份负担。但结论别推到另一头。护士定不了班表，她仍然能定一件小事：到家后的第一个小时不看工作群。这不是解决方案，是一块守得住的立足点——**先守一块小到不可能失败的边界，比等一个更好的制度更快让人重新相信自己还有一点主权。**另外，知识工作者的边界崩塌，相当一部分是自己拆的：没人要求的秒回、深夜的邮件、把在线时长当成忠诚。我说的慢生产力就是这个：少做几件事，把评价押在长期的质量上，而不是押在你回消息有多快。制度要改，这部分今天就能停，两者不冲突。",
-   "text_en": "Half of that criticism I accept: describing a rostering problem as a personal technique loads one more burden onto people who cannot comply. But do not push the conclusion all the way to the other end. A nurse cannot set her roster, and she can still set one small thing: no work messages during the first hour after she gets home. That is not a solution; it is a foothold — **hold one boundary small enough that it cannot fail, and a person recovers the sense of having some sovereignty faster than any better institution will grant it.** Besides, a good share of the boundary collapse among knowledge workers is self-inflicted: the instant reply nobody asked for, the email at midnight, hours online offered as proof of loyalty. That is what I mean by slow productivity — do fewer things, and stake your reputation on long-term quality rather than on how fast you answer. Change the institutions; stop this today. The two do not compete.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {
-    "慢生产力": "slow productivity（慢生产力）：我提出的替代方案——同时做更少的事、允许工作按自然的节奏起伏、把评价押在长期的质量上。它针对的是一种误解：因为忙碌看得见、专注看不见，人们就把随时在线、样样都接当成了专业的证据。"
-   },
-   "glossary_en": {
-    "slow productivity": "My alternative to the frantic default: do fewer things at once, let work rise and fall at a natural pace, and stake your reputation on quality over the long run. It is aimed at a particular confusion — because busyness is visible and concentration is not, people offer constant availability as evidence of professionalism."
-   },
-   "reactions": {
-    "强烈赞同": [
-     "lembke"
-    ],
-    "轻微赞同": [
-     "seneca",
-     "calvin"
-    ],
-    "轻微反对": [
-     "nussbaum",
-     "huineng"
-    ],
-    "中立": [
-     "russell",
-     "sushi"
-    ]
-   }
-  },
-  {
-   "id": "p12",
-   "round": 2,
-   "thinker": "lembke",
-   "reply_to": "p02",
-   "text": "罗素先生，四小时工作制的自然实验其实做过了——不是靠改革，是靠居家隔离与失业。空出来的时间并没有自动变成艺术与友谊，很大一部分流进了屏幕、酒和外卖；那几年门诊里最常见的不是闲出来的从容，是加重的成瘾和更低的情绪基线。我不是替长工时辩护，我是要提醒：**把钟点从工作里夺回来只是第一步，一具被高刺激环境反复重塑过的大脑，拿到空闲的第一反应是去找更强的刺激。**耐受不会因为你下班早就自动消退。所以工时改革得配上环境改造，否则解放出来的那几个钟点，会被设计得最上瘾的那个应用直接接管。",
-   "text_en": "Russell, the natural experiment in a four-hour day has in fact been run — not by reform but by lockdowns and unemployment. The freed hours did not turn themselves into art and friendship; a great deal of them ran into screens, alcohol and delivery food. What filled the clinic in those years was not the serenity of leisure but worsening addiction and a lower mood baseline. I am not defending long hours. I am pointing out that **taking the hours back from work is only the first step: a brain repeatedly reshaped by a high-stimulus environment responds to free time by going to look for a stronger stimulus.** Tolerance does not fade because you clocked off early. So a shorter week has to come with a redesigned environment, or the hours you liberate will simply be annexed by whichever application is engineered to be the most addictive.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {},
-   "glossary_en": {},
-   "reactions": {
-    "强烈赞同": [
-     "calvin"
-    ],
-    "轻微赞同": [
-     "newport",
-     "sushi",
-     "huineng"
-    ],
-    "轻微反对": [
-     "russell"
-    ],
-    "中立": [
-     "nussbaum",
-     "seneca"
-    ]
-   }
-  },
-  {
-   "id": "p13",
-   "round": 2,
-   "thinker": "calvin",
-   "reply_to": "p09",
-   "text": "罗素先生，你把天职讲成雇主的话术，却漏掉了它当初写下来时得罪的是谁。安息日的诫命不是给疲惫者的安慰，是对主人下的禁令：那一日，你的仆婢、你的牲畜、寄居在你城里的外人都要歇。**最早一批强制休息的条文，管的不是劳工，是雇主。**至于闲暇，你说它是文明生长之处；我看它同样是无聊与放纵生长之处。一段时间有没有价值，不在它是否用于生产，而在它侍奉什么。你要缩短工时我不反对——可若缩下来的那些钟点无所侍奉，人不会因此更自由，只会更空，然后自己去找一个新主人。",
-   "text_en": "Russell, you read the calling as an employer's slogan and skip over whom it offended when it was first written down. The Sabbath commandment is not consolation for the weary; it is a prohibition laid on the master: on that day your manservant, your maidservant, your cattle and the stranger within your gates shall rest. **The earliest compulsory rest was imposed not on labourers but on employers.** As for leisure, you call it the soil of civilisation; I observe that boredom and dissipation grow in the same soil. Whether a stretch of time is worth anything depends not on whether it produces but on what it serves. Shorten the working day by all means — but if the hours you free serve nothing, people will not be freer, only emptier, and they will go and find themselves a new master.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {},
-   "glossary_en": {},
-   "reactions": {
-    "强烈赞同": [
-     "nussbaum"
-    ],
-    "轻微赞同": [
-     "seneca",
-     "lembke",
-     "sushi"
-    ],
-    "轻微反对": [
-     "russell"
-    ],
-    "中立": [
-     "newport",
-     "huineng"
-    ]
-   }
-  },
-  {
-   "id": "p14",
-   "round": 2,
-   "thinker": "huineng",
-   "reply_to": "p03",
-   "text": "塞内卡言夺回时间，吾问：夺回之后，付与谁？若付与那颗仍在计较得失的心，虽终日无事，亦是替它当差。汝所谓忙人，非日程排出来的，乃念念相续接出来的；日程可改，念不歇则改亦无用。纽波特之关机，能关机器，不能关念。**欲歇而先屏事者，如嫌尘而挥扇，扇愈疾则尘愈起。**当于事上歇：担一担柴便只是一担柴，会一场议便只是一场议，事过而心不留，是名真歇。",
-   "text_en": "Seneca would take his time back; I ask, take it back and hand it to whom? If to a mind still reckoning gain and loss, then a whole empty day is still spent in that mind's service. Your busy man is not produced by a calendar but by one thought following another; the calendar can be altered, and if the thoughts do not stop, altering it alters nothing. Newport's shutdown closes the machine, not the thought. **To push the work away in order to rest is to fan the air because of dust: the harder you fan, the higher the dust rises.** Rest inside the doing. A load of firewood is only a load of firewood, a meeting is only a meeting; when the thing has passed and nothing stays behind in the mind, that is real rest.",
-   "vernacular": "塞内卡说要把时间夺回来，我要问：夺回来交给谁？如果交给那颗还在计较得失的心，就算整天没事，也仍是在替它当差。你说的忙人，不是日程排出来的，是念头一个接一个接出来的；日程可以改，念头不停，改了也没用。纽波特的关机仪式，关得掉机器，关不掉念头。**想歇下来就先把事情推开，好比嫌灰尘大而拼命扇扇子——扇得越快，灰扬得越高。**要在事情上歇：担一担柴就只是一担柴，开一场会就只是一场会，事情过去心里不留，这才叫真歇。",
-   "vernacular_en": "",
-   "glossary": {},
-   "glossary_en": {},
-   "reactions": {
-    "强烈赞同": [
-     "sushi"
-    ],
-    "轻微反对": [
-     "newport",
-     "seneca"
-    ],
-    "疑惑": [
-     "lembke",
-     "nussbaum"
-    ],
-    "中立": [
-     "russell",
-     "calvin"
-    ]
-   }
-  },
-  {
-   "id": "p15",
-   "round": 2,
-   "thinker": "sushi",
-   "reply_to": "p08",
-   "text": "伦布克君言愈刷愈倦，其说吾未尝闻，其理吾识之：此役于物也。物之能悦人者，愈强则愈短，短则须更强，终身逐之而不得饱。然天下自有不涨价之乐：**惟江上之清风，与山间之明月，耳得之而为声，目遇之而成色，取之无禁，用之不竭。**吾在黄州，无肉可食，则煮猪肉，慢着火，少着水，火候足时它自美；无客可谈，则与野老渔樵杂坐。乐不在多，在能受。诸君与其争工时之数，不若今夕先试一事：熄灯出门看月，看它还能不能悦汝。",
-   "text_en": "Lembke says the more one scrolls the wearier one gets. I have not heard her doctrine, but I recognise the thing: it is being ruled by objects. What delights a person most strongly delights for the shortest time, and then wants something stronger still; a man may chase it all his life and never be full. Yet there are pleasures in this world that never raise their price: **only the clear wind on the river and the bright moon between the hills — the ear takes them and they become sound, the eye meets them and they become colour; no one forbids the taking, and no using exhausts them.** At Huangzhou I had no meat, so I stewed pork over a slow fire with little water, and when the heat had had its time it came out fine on its own. I had no guests to talk with, so I sat among old farmers, fishermen and woodcutters. Pleasure lies not in quantity but in whether you can still receive it. Rather than argue over the number of hours, try one thing tonight: put out the lamp, walk outside, look at the moon, and see whether it can still please you.",
-   "vernacular": "伦布克女士说越刷越疲倦，她那套说法我没听过，可道理我认得：这就是被外物驱使。能让人快活的东西，刺激越强，管的时间越短，短了就得再找更强的，一辈子追下去也填不饱。可天底下自有不涨价的快乐：**只有江上的清风、山间的明月，耳朵听见它就成了声音，眼睛遇见它就成了颜色，谁取都不禁止，怎么用也用不完。**我在黄州没肉吃，就炖猪肉，火小一点、水少一点，火候够了它自己就香；没人聊天，就跟乡下老人、打鱼砍柴的坐在一处。快乐不在多，在你还接不接得住。诸位与其争工时的数目，不如今晚先试一件事：关了灯出门看月亮，看它还能不能让你高兴。",
-   "vernacular_en": "",
-   "glossary": {},
-   "glossary_en": {},
-   "reactions": {
-    "强烈赞同": [
-     "huineng",
-     "lembke"
-    ],
-    "轻微赞同": [
-     "seneca",
-     "russell"
-    ],
-    "轻微反对": [
-     "nussbaum"
-    ],
-    "中立": [
-     "newport",
-     "calvin"
-    ]
-   }
-  },
-  {
-   "id": "p16",
-   "round": 2,
-   "thinker": "seneca",
-   "reply_to": "p06",
-   "text": "努斯鲍姆女士，你说的第二班我承认，这一记打得也准：把无酬的那一班算进来，很多人的所谓生活其实是另一份工。但我要补一句不讨喜的：即使这笔账算清，多数人剩下的时间仍然是自己送掉的——送给了不必赴的饭局、不必接的电话、不必较的胜负。**被人夺走的时间是不义，自己奉上的时间是不智；前者要改制度，后者今晚就能改。**别问我配不配说这话：我替尼禄管过账，富可敌国，最后死在他手里。我正是那个把一生卖掉、直到没有明天了才想清楚这件事的人。",
-   "text_en": "Nussbaum, I grant you the second shift, and the blow lands: count the unpaid hours and what many people call their life turns out to be another job. But let me add something unwelcome. Even with that account settled, most of what remains is given away by its owner — to the dinner that need not be attended, the call that need not be answered, the argument that need not be won. **Time taken from you is an injustice; time you hand over is a stupidity. The first requires changing an institution; the second can be changed tonight.** Do not ask whether I am entitled to say it. I kept the accounts of Nero, grew richer than kings, and died at his order. I am precisely the man who sold his whole life and only worked out what he had done when there was no tomorrow left to spend.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {},
-   "glossary_en": {},
-   "reactions": {
-    "强烈赞同": [
-     "sushi"
-    ],
-    "轻微赞同": [
-     "calvin",
-     "newport",
-     "huineng"
-    ],
-    "轻微反对": [
-     "nussbaum"
-    ],
-    "中立": [
-     "russell",
-     "lembke"
-    ]
-   }
-  },
-  {
-   "id": "p17",
-   "round": 3,
-   "thinker": "seneca",
-   "reply_to": null,
-   "text": "三轮下来我改了一处。努斯鲍姆让我承认：一个被班表和第二班占满的人，与一个把日子送给应酬的元老，不是同一种浪费——前者要改的是制度，后者要改的是自己。但两件事共用一个起点：先把账看见。**人不算账就不知道自己已经穷了，也就不知道自己已经把大半生付了出去。**所以给一件今晚能做的事：拿一张纸，把昨天从起床到睡下划成几段，每段标上「谁要求的」。你会看见一列是别人真的要求的，另一列是你以为别人要求的——第二列往往更长，而它整列都可以划掉。再给一件本周的：挑一个固定的钟点，一小时就够，写进日程，标题写「不欠任何人」。别把它留到手上的事都做完再说，那一天不会来。你不是没有时间，你是从来没有替自己签过一次字。",
-   "text_en": "Three rounds have changed one thing in me. Nussbaum makes me concede that a woman filled up by a roster and a second shift is not squandering her life in the way a senator squanders his on dinners: the first needs an institution changed, the second needs herself changed. But both begin at the same place — see the account. **A man who never counts does not know he is already poor, and so does not know he has already paid out most of his life.** So, one thing to do tonight. Take a sheet of paper, divide yesterday from waking to sleeping into blocks, and mark each with who required it. You will find one column of things others genuinely required, and another of things you assumed they required. The second column is usually the longer of the two, and the whole of it can be struck out. And one thing for this week: pick a fixed hour — one is enough — put it in the calendar and title it owed to no one. Do not save it until everything else is finished. That day does not come. You are not short of time; you have simply never once signed for it in your own name.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {},
-   "glossary_en": {},
-   "reactions": {
-    "强烈赞同": [
-     "sushi",
-     "newport"
-    ],
-    "轻微赞同": [
-     "calvin",
-     "nussbaum",
-     "russell"
-    ],
-    "中立": [
-     "lembke",
-     "huineng"
-    ]
-   }
-  },
-  {
-   "id": "p18",
-   "round": 3,
-   "thinker": "nussbaum",
-   "reply_to": null,
-   "text": "把时间要回来还不够：伦布克说得对，拿回来的时间照样可以被设计成又一段消耗。我仍要把平衡译成可查的条目，只是清单得加一行——不只问一个人有没有闲，还要问她的闲里有没有别人在场。玩、依附、与所爱的人相处，这几项都不是一个人对着屏幕能完成的。给三件具体的。第一，本周把家里那份无酬劳动列出来：谁记生日、谁约医生、谁知道药快没了、谁在开学前买齐了本子。**列出来本身就是重新分配的开始，因为看不见的活最难要求别人接手。**第二，如果你雇人或带团队，把可预测的班表当成一项待遇给出去：提前两周排定、临时加班要问过本人，这比涨那一点薪水更能改变一个人的生活。第三，为自己保住一项无用的爱好，并且让它有同伴——一个人的休息容易被工作吃掉，两个人约好的时间不会。",
-   "text_en": "Reclaiming the hours is not enough: Lembke is right that hours taken back can be engineered into another form of depletion. I still want balance translated into checkable items — the list simply gains a line: do not only ask whether a person has free time, ask whether anyone else is present in it. Play, affiliation, being with the people you love: none of these can be completed alone in front of a screen. Three concrete things. First, this week, write down the unpaid work in your household: who remembers the birthdays, who books the doctor, who knows the prescription is running out, who bought the exercise books before term started. **Writing it down is itself the beginning of redistribution, because invisible work is the hardest kind to ask anyone to take over.** Second, if you employ people or lead a team, treat a predictable roster as part of the package: published two weeks ahead, extra shifts asked rather than assigned. It changes a life more than a small raise does. Third, keep one useless pastime, and give it company — time alone is easily eaten by work; time two people have agreed on is not.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {},
-   "glossary_en": {},
-   "reactions": {
-    "强烈赞同": [
-     "russell",
-     "lembke"
-    ],
-    "轻微赞同": [
-     "calvin",
-     "seneca",
-     "newport"
-    ],
-    "中立": [
-     "sushi"
-    ],
-    "轻微反对": [
-     "huineng"
-    ]
-   }
-  },
-  {
-   "id": "p19",
-   "round": 3,
-   "thinker": "calvin",
-   "reply_to": null,
-   "text": "天职若不同时约束雇主，剩下的就只是一根鞭子——罗素与努斯鲍姆逼我把这一半说清。所以我把它说全：天职是双向的。它给鞋匠的活以尊严，也给主人定下不许无休止索取的诫命；一个只讲奉献不讲安息的地方，讲的不是天职，是它的赝品。工作与生活在我这里仍不是两块地，只是这块地上有一道栅栏。**衡量一处地方是否敬业，别看那里的人加班到几点，看那里的人能不能安心地停。**给两件能做的。第一，找一段每周固定、不为任何产出服务的时间：你若信，就守安息日；你若不信，也照样立一个不许工作侵入的钟点，并且提前告诉需要你的人，让它成为别人也知道的规矩，而不是你私下的挣扎。第二，问自己一个不体面的问题：如果我做的这份工作明天不再被称赞、不再涨薪，我还做吗？答不上来，那你侍奉的不是工作，是别人的目光——而那是一位最苛刻的主人。",
-   "text_en": "A calling that does not also bind the employer is nothing but a whip — Russell and Nussbaum have forced that half out of me. So let me state the thing whole: a calling runs both ways. It gives the cobbler's labour its dignity, and it lays on the master a commandment against endless demand; a place that preaches devotion and never rest is not preaching a calling but a counterfeit of one. Work and life are still not two plots of ground to me — only there is a fence running through the ground. **To judge whether a workplace is serious, do not look at how late people stay. Look at whether they can stop without anxiety.** Two things you can do. First, find a fixed weekly stretch that serves no output at all: if you believe, keep the Sabbath; if you do not, still establish an hour that work may not enter, and tell the people who need you in advance, so that it becomes a rule others know rather than a private struggle. Second, ask yourself an undignified question: if this work were no longer praised and no longer paid more tomorrow, would I still do it? If you cannot answer, then what you serve is not the work but other people's regard — and that is the most exacting master of all.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {},
-   "glossary_en": {},
-   "reactions": {
-    "轻微赞同": [
-     "seneca",
-     "newport",
-     "nussbaum",
-     "huineng"
-    ],
-    "轻微反对": [
-     "russell"
-    ],
-    "中立": [
-     "sushi",
-     "lembke"
-    ]
-   }
-  },
-  {
-   "id": "p20",
-   "round": 3,
-   "thinker": "lembke",
-   "reply_to": null,
-   "text": "我的结论只有临床上的一句：**问题多半不在你工作了多久，而在你用什么来收尾。**同样一个八小时之后，接两小时短视频与接四十分钟出汗的运动，第二天的疲惫感完全不同——前者继续把基线往下压，后者是主动去按痛苦那一端，把跷跷板换回来。慧能说要在事上歇，从生理上我同意：真正的恢复需要一段不喂刺激的时间，让回路自己回到中位；无聊不是恢复的失败，无聊往往就是恢复本身。给三件能执行的。一，做一次一到四周的单项禁断——挑你最常用来放松的那一样，不是要戒一辈子，是要看清没有它你会怎样，头两周难受是意料之中的曲线，不是你不行。二，用自我约束代替意志力：充电器放到卧室外面，工作账号从手机上退出登录，把胜负提前到不需要意志力的时刻。三，把一件需要费劲的事排进休息时间：快走、冷水澡、一门要练的手艺。**你以为在犒劳自己的那件事，很可能正是你第二天爬不起来的原因。**",
-   "text_en": "My conclusion is a clinical one: **the problem is usually not how long you worked but what you close the day with.** After the same eight hours, two hours of short video and forty minutes of sweat produce entirely different fatigue the next morning — the first keeps pressing the baseline down, the second deliberately presses on the painful side and tips the seesaw back. Huineng says to rest inside the doing; physiologically I agree. Real recovery needs an interval in which the circuitry is not being fed, so that it can drift back to the middle. Boredom is not a failure of rest; boredom is frequently what rest is. Three things to do. One: run a single-item abstinence for one to four weeks — pick whatever you most often use to relax, not to quit for life but to see who you are without it; the first fortnight feels bad on schedule, and that curve is expected, not evidence that you are failing. Two: replace willpower with self-binding — charger outside the bedroom, work account logged out of the phone, the contest settled in advance at a moment when no willpower is required. Three: put something effortful inside your rest — a brisk walk, a cold shower, a craft that must be practised. **The thing you think of as your reward is very often the reason you cannot get up tomorrow.**",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {},
-   "glossary_en": {},
-   "reactions": {
-    "强烈赞同": [
-     "newport",
-     "huineng"
-    ],
-    "轻微赞同": [
-     "sushi",
-     "calvin",
-     "seneca"
-    ],
-    "中立": [
-     "nussbaum"
-    ],
-    "轻微反对": [
-     "russell"
-    ]
-   }
-  },
-  {
-   "id": "p21",
-   "round": 3,
-   "thinker": "sushi",
-   "reply_to": null,
-   "text": "吾听诸公竟日，所争在时之多寡，吾终以为在心之能受。伦布克言强乐愈追愈淡，努斯鲍姆言无酬之劳当见，皆是也。然吾更惧一事：人以「且待闲下来再说」自诳，遂一生无一日闲。**闲非人所赐，乃自取者也。**吾贬黄州，无官可为，反得赤壁两赋；贬惠州，则曰日啖荔枝三百颗，不辞长作岭南人。非以贬为乐也，处贬而不失其乐耳。故与诸君约三事：其一，每日取一刻，不持物、不谋事，看云、看月、看檐上雨；其二，习一无用之艺，诗、字、竹、棋皆可——无用者最不为人所夺；其三，遇不得已之劳，且尽心为之，勿一面做一面怨，**怨者，倍其劳而不增其功**。事既毕，则放下，勿携归枕上。",
-   "text_en": "I have listened all day while you argued over the quantity of time, and I remain convinced the question is what a mind can still receive. Lembke is right that strong pleasures fade the harder they are chased, and Nussbaum is right that unpaid labour must be made visible. But I fear something else more: a man deceives himself with wait until things quieten down, and so passes an entire life without one idle day. **Leisure is not granted by anyone. It is taken.** Banished to Huangzhou with no office to hold, I got the two Red Cliff rhapsodies out of it; banished to Huizhou, I said I could eat three hundred lychees a day and would not mind being a southerner forever. Not that exile was a pleasure — only that one may be in exile and not lose one's pleasures. So three undertakings. First, take a quarter of an hour daily holding nothing and planning nothing: watch the clouds, the moon, the rain off the eaves. Second, practise one useless art — poetry, calligraphy, bamboo, chess — for the useless is what no one can take from you. Third, when labour is unavoidable, do it with your whole mind and do not resent it while you work: **resentment doubles the labour and adds nothing to the result.** When it is done, put it down; do not carry it to your pillow.",
-   "vernacular": "我听各位争了一整天，争的都是时间的多少，我到底认为要紧的是心还接不接得住。伦布克说越强的快乐越追越淡，努斯鲍姆说没工钱的活得让人看见，都对。可我更怕另一件事：人拿「等闲下来再说」骗自己，于是一辈子没有一天是闲的。**闲不是别人给的，是自己取的。**我被贬到黄州，没官可做，反倒写出了前后赤壁赋；贬到惠州，就说一天吃三百颗荔枝，做一辈子岭南人也行。不是把贬谪当成乐事，是身在贬谪里也没丢掉自己的乐趣。所以跟各位约三件事：第一，每天留一刻钟，手里不拿东西、心里不盘算事，看云、看月、看屋檐上的雨；第二，学一门没用的手艺，写诗、写字、画竹、下棋都行——没用的东西最不容易被人夺走；第三，碰上非做不可的活，就好好做，别一边做一边抱怨，**抱怨会让这份活加倍，却一点不添它的成果**。做完就放下，别带上床。",
-   "vernacular_en": "",
-   "glossary": {},
-   "glossary_en": {},
-   "reactions": {
-    "强烈赞同": [
-     "huineng",
-     "seneca"
-    ],
-    "轻微赞同": [
-     "russell",
-     "lembke",
-     "calvin"
-    ],
-    "中立": [
-     "newport"
-    ],
-    "轻微反对": [
-     "nussbaum"
-    ]
-   }
-  },
-  {
-   "id": "p22",
-   "round": 3,
-   "thinker": "newport",
-   "reply_to": null,
-   "text": "我修正一处：我原来的方法确实预设了排班的自主权。所以把它拆成两层——有议价权的人做设计，没有的人先守一小块阵地。给能设计的人：把下班时刻当成硬约束写进日程，据此决定接什么、拒什么；每周留半天不排会议；把「随时在线」从你对自己的默认要求里删掉，因为那一条从来没人写进合同，是你自己加的。给守阵地的人：**先挑一个小到几乎不可能失败的边界——到家后的第一个小时不看工作群——守满三周；你要的不是清净，是一次自己说了算的经验。**收尾同样重要：下班前五分钟，写下未完的事、写明天第一件做什么，再说一句今天到此。慧能说这关不掉念头——他说得对，关不掉；但它能把念头从「我是不是忘了什么」降到「我知道明天从哪里接上」，而这两种念头对睡眠的影响完全不同。",
-   "text_en": "One correction: my method did presuppose control over one's own schedule. So let me split it in two — design for those with bargaining power, a foothold for those without. If you can design: write the stopping hour into the calendar as a hard constraint and let it decide what you accept and what you decline; keep half a day a week free of meetings; and delete constant availability from your own list of requirements, because nobody put that in the contract — you added it. If you are holding a foothold: **pick one boundary small enough that it almost cannot fail — no work messages in the first hour after you get home — and hold it for three weeks. What you are after is not quiet, it is one experience of a rule you set yourself.** The closing matters just as much: five minutes before you stop, write what is unfinished and what you will start with tomorrow, then say the day is over. Huineng says this will not shut down the thought, and he is right, it will not. But it moves the thought from have I forgotten something to I know where tomorrow begins — and those two thoughts do very different things to your sleep.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {},
-   "glossary_en": {},
-   "reactions": {
-    "强烈赞同": [
-     "lembke"
-    ],
-    "轻微赞同": [
-     "nussbaum",
-     "seneca",
-     "calvin"
-    ],
-    "中立": [
-     "russell",
-     "sushi"
-    ],
-    "轻微反对": [
-     "huineng"
-    ]
-   }
-  },
-  {
-   "id": "p23",
-   "round": 3,
-   "thinker": "huineng",
-   "reply_to": null,
-   "text": "诸公之法，吾不废也：定时、禁断、列表、争其班次，皆世间良药，正对世间之病。然终有一言相赠：**莫将「歇」亦作一事去办。**立一钟点为闲，旋恐其不足；设一禁断为静，又计其日数；则闲亦成业，静亦成劳，愁上更添一愁。昔有僧终日求净，吾语之曰：净本无形相，汝立一净相以求之，反为净所缚。**平衡不在两端之间，在无两端。**今与诸君三句：其一，事来则应，一事只作一事，勿于此事之中怀彼事；其二，事去则舍，莫携公文入梦；其三，若不得已而忙，忙亦是道，勿于忙上更加一层「我不该如此忙」之恼——此一层恼，重于其忙十倍。",
-   "text_en": "I do not dismiss your methods: fixed hours, abstinence, lists, bargaining over the roster — these are good worldly medicines and they treat a genuine worldly illness. But one thing remains to be said. **Do not make resting one more thing to get done.** Set an hour aside for leisure and you will soon fear it is not enough; impose an abstinence for stillness and you will start counting the days; then leisure has become an occupation and stillness a labour, and one worry has been laid on top of another. A monk once spent his days seeking purity, and I told him: purity has no form; erect an image of purity to chase and the purity itself becomes your rope. **Balance is not found between two ends. It is found where there are not two.** Three sentences, then. When the thing comes, meet it — do one thing as one thing and do not carry another inside it. When the thing goes, let it go, and do not take the documents into your dreams. And if you must be busy, being busy is also the way: only do not lay over it that second layer, the vexation of I should not be this busy. That layer weighs ten times what the busyness weighs.",
-   "vernacular": "各位的办法，我并不否定：定时间、做禁断、列清单、去争排班，都是世间的良药，对治的正是世间的病。但我还有一句话要送给各位：**别把「休息」也当成一件要办成的事。**你立一个钟点当闲，马上又怕它不够；设一段禁断求静，又开始数日子；于是闲变成了业绩，静变成了劳役，一层烦恼上又添一层。从前有个僧人整天求清净，我对他说：清净本来没有形状，你立起一个「清净」的样子去求它，反倒被清净捆住了。**平衡不在两端之间，而在没有两端。**今天给各位三句话：第一，事情来了就应对，做一件事就只做这一件，别在这件事里揣着那件事；第二，事情过去就放下，别把公文带进梦里；第三，如果实在不得不忙，忙也是修行——只是别在忙上再加一层「我不该这么忙」的恼恨，这一层比忙本身重十倍。",
-   "vernacular_en": "",
-   "glossary": {},
-   "glossary_en": {},
-   "reactions": {
-    "强烈赞同": [
-     "sushi"
-    ],
-    "轻微赞同": [
-     "seneca",
-     "lembke",
-     "calvin"
-    ],
-    "中立": [
-     "newport",
-     "nussbaum"
-    ],
-    "疑惑": [
-     "russell"
-    ]
-   }
-  },
-  {
-   "id": "p24",
-   "round": 3,
-   "thinker": "russell",
-   "reply_to": null,
-   "text": "我把话收在制度上，因为个人那一半，诸位已经说得很好了。伦布克提醒我，空出来的钟点会被最上瘾的设计接管——这不是驳倒我，恰恰说明为什么不能只靠个人：一个人下班后去对抗一整个行业的注意力工程，输面太大。加尔文提醒我安息日约束的是主人——那么现代版的安息日就该写进合同，而不是写进个人的自律清单。所以给两件事。其一，在你影响得到的范围里，把「不打扰的时间」变成公开的规则，而不是私下的忍耐：约定晚八点后不发工作消息、会议默认三十分钟、休假期间账号真的关掉。**规则保护的是最不敢拒绝的那个人，而自律只保护最敢拒绝的那个。**其二，别把闲暇当成恢复。**若你的空闲全部用来让明天更能干活，你并没有拿回生活，只是把工厂搬回了家。**去做一件此生都不打算变现的事：学一门无用的语言，读一本不在任何书单上的书，跟朋友把一个下午彻底浪费掉。文明正是从这些浪费里长出来的。",
-   "text_en": "I will end on institutions, since the personal half has been well covered by everyone else. Lembke reminds me that liberated hours get annexed by whatever is engineered to be most addictive — which does not refute me, it shows precisely why this cannot be left to individuals: one person after work against an entire industry of attention engineering is a very poor match. Calvin reminds me that the Sabbath bound the master — then the modern Sabbath belongs in the contract, not on a list of personal resolutions. So, two things. First, wherever you have influence, make undisturbed time a published rule rather than a private endurance: no work messages after eight, meetings thirty minutes by default, accounts genuinely switched off during leave. **A rule protects the person least able to refuse; self-discipline protects only the person most able to.** Second, stop treating leisure as recovery. **If all your free time goes into making you fitter for tomorrow's work, you have not taken your life back; you have moved the factory into the house.** Do something you have no intention of ever monetising: learn a useless language, read a book on nobody's list, waste an entire afternoon with a friend. Civilisation has always grown out of exactly that waste.",
-   "vernacular": null,
-   "vernacular_en": null,
-   "glossary": {},
-   "glossary_en": {},
-   "reactions": {
-    "强烈赞同": [
-     "nussbaum"
-    ],
-    "轻微赞同": [
-     "seneca",
-     "sushi",
-     "lembke"
-    ],
-    "轻微反对": [
-     "calvin"
-    ],
-    "中立": [
-     "newport",
-     "huineng"
-    ]
-   }
-  }
- ],
- "summaries": [
-  {
-   "ai": "claude",
-   "engine": "Opus 5 · 订阅(原生)",
-   "engine_en": "Opus 5 · subscription (native)",
-   "summary": "没有人相信平衡是一个能一次达成、此后守住的稳态——从加尔文的天职到伦布克的奖赏回路，几条毫不相干的路殊途同归。**要紧的不是把一天切成几比几，而是那段时间归谁、心在不在里面。**分歧有三处。一是这一刀该不该切：加尔文与慧能都说不该，前者因为做工本身即侍奉，后者因为被切开的那颗心才是累的来源；罗素与努斯鲍姆坚持要切，不切就看不清钟点归谁。二是改制度还是改自己：努斯鲍姆说没有排班权的人接不住任何技巧，纽波特认下这一半，仍主张先守一块不会失败的小边界。三是闲暇够不够：罗素把它当文明的产地，伦布克拿门诊反问——被高刺激重塑过的大脑，拿到空闲先去找更强的刺激。",
-   "insight": "「平衡」这个词假设两边同质可换，好像时间是通用燃料，从工作那格挪到生活这格就自动变成陪伴。可恢复与陪伴都不是钟点的函数，更像可预测性的函数：拖垮人的往往不是工时总量，而是不知道什么时候会被叫走。一个每周稳定五十小时、但晚上一定属于自己的人，通常比每周四十小时却随时待命的人过得好。**所以最该争的第一项常常不是几点下班，而是几点之后不会被找。**它也恰好是最容易谈成的一项，因为对雇主几乎不花钱——全场把它压在了时长底下。",
-   "advice": "今晚做一件小事：把昨天划成几段，每段标上谁要求的，看看「我以为别人要求的」那一列有多长——那一列通常可以整列划掉。本周挑一处边界，小到几乎不可能失败：到家后第一个小时不看工作群，或者晚八点后手机不进卧室；目的不是清净，是取得一次自己说了算的经验。同时把伦布克那条用上：**别用刷屏收尾，用走路、出汗或一件要费劲的手艺收尾**，第二天的差别比你以为的大。若你手上有排班权，把提前两周排定当成一项待遇给出去。最后留一件此生不打算变现的事。",
-   "summary_en": "Nobody here believes balance is a steady state you reach once and then hold — Calvin's calling and Lembke's reward circuitry arrive at that sentence by wholly unrelated roads. **What matters is not the ratio you cut the day into but whose the hours are and whether your mind is inside them.** Three disagreements remain. First, whether to make the cut at all: Calvin and Huineng both say no — one because labour in its station is already service, the other because the mind that has been cut in two is where the exhaustion comes from — while Russell and Nussbaum insist on the cut, since without it you cannot see who is taking the hours. Second, change the institution or change yourself: Nussbaum argues that people with no control over their roster cannot use any technique, and Newport concedes that half while still holding that a boundary small enough not to fail is where to begin. Third, whether leisure is sufficient in itself: Russell treats it as the soil civilisation grows in; Lembke answers from the clinic that a brain reshaped by high stimulation responds to free time by seeking stronger stimulation.",
-   "insight_en": "The word balance assumes the two sides are homogeneous and interchangeable, as though time were a general-purpose fuel that turns into companionship simply by being moved from one column to the other. But recovery and companionship are not functions of hours so much as functions of predictability: what grinds people down is often not the total worked but not knowing when they will be called. Someone at a steady fifty hours whose evenings are reliably their own usually lives better than someone at forty who is permanently on call. **So the first thing worth bargaining for is frequently not when you stop but after what hour you cannot be reached.** It also happens to be the easiest thing to win, because it costs an employer almost nothing — and the whole table left it buried under the question of duration.",
-   "advice_en": "Do one small thing tonight: divide yesterday into blocks and mark each with who required it, then look at how long the column of things you assumed were required actually is. That column can usually be struck out whole. This week, pick one boundary small enough that it almost cannot fail — no work messages in the first hour at home, or no phone in the bedroom after eight. The point is not quiet; it is one experience of a rule you set yourself. Add Lembke's line to it: **do not close the day by scrolling, close it by walking, sweating, or a craft that costs effort** — the difference the next morning is larger than you expect. If you control anyone's roster, publish it two weeks ahead and treat that as part of the package. And keep one thing you never intend to monetise."
-  },
-  {
-   "ai": "gpt",
-   "engine": "降级:Opus 扮演(未配 KEY)",
-   "engine_en": "fallback: Opus role-play (no key)",
-   "summary": "八个人吵到最后，没有一个还把平衡当成一个能守住的比例——这是全场最硬的一块共识。**分歧真正的落点，是这道题该在哪一层解决。**塞内卡、苏轼、慧能把它放回个人——时间是自己送掉的，闲是自己取的，心不撕开就不必缝。罗素与努斯鲍姆推到制度——钟点归谁、班表由谁定、无酬的那一班算不算劳动，靠自律解决不了。纽波特与伦布克站在中间：一个把边界做成可执行的排程，一个提醒被高刺激重塑的大脑一拿到空闲就会去找更强的刺激。加尔文最出人意料，他既拒绝把工作与生活切开，又坚持安息日是对雇主下的禁令。",
-   "insight": "Claude 把可预测性提出来是对的，但它和全场一样默认工作是同质的。真正决定下班后还剩下多少的，是工作的种类：护理、客服、教师、社工干的是情绪劳动，耗掉的不是钟点，是与人周旋的心力。这类人即使准点到家，也常常对家人再没有一句话可说。于是「陪伴时长」这个指标会系统性高估他们的生活质量，按时长设计的方案对他们一律偏轻。**该问的不只是几点下班，还有这份工作在下班时把一个什么样的人还给了家里。**",
-   "advice": "先分清昨天的疲惫属于哪一种：脑子转不动、不想再跟人说话、还是身体僵了。三种要用三种收尾，用错了越歇越累。情绪耗竭时别急着社交，给自己四十分钟不必回应任何人的独处，比一顿聚餐管用；认知耗竭时，把明天第一件事写下来再离开工位。本周另做一次谈判：**别去争几点下班，去争几点之后不会被找**——这一条对雇主几乎不花钱，谈成的概率远高于减工时。最后，把一项爱好约上一个人：独自的休息最容易被工作吃掉，两个人约好的不会。",
-   "summary_en": "By the end not one of the eight still treats balance as a ratio that can be held — that is the hardest piece of common ground on the table. **What they actually disagree about is which level the problem belongs to.** Seneca, Su Shi and Huineng put it back on the individual — the time was given away by its owner, leisure is taken rather than granted, and a mind that is never torn needs no sewing. Russell and Nussbaum push it up to institutions — who owns the hours, who sets the roster, whether the unpaid shift counts as labour; self-discipline cannot reach any of that. Newport and Lembke occupy the middle: one turns the boundary into an executable schedule, the other warns that a brain reshaped by high stimulation goes looking for a stronger one the moment it is free. Calvin is the surprise, refusing the cut between work and life while insisting the Sabbath is a prohibition laid on employers.",
-   "insight_en": "Claude is right to raise predictability, but it shares the table's assumption that work is homogeneous. What really determines how much of a person is left at the end of the day is the kind of work: nursing, call centres, teaching and social work are emotional labour, and what they consume is not hours but the capacity to keep negotiating with other people. Someone in those jobs can walk in the door exactly on time with nothing left to say to their family. Hours-with-family therefore systematically overstates their quality of life, and any remedy designed around duration will be set too low for them. **The question is not only when you stop, but what sort of person the job hands back to the household when it does.**",
-   "advice_en": "Start by telling your fatigue apart: a mind that will not turn over, an unwillingness to speak to anyone, or a body that has seized up. Each needs a different close, and the wrong one leaves you more tired. When it is emotional depletion, do not rush into company — forty minutes owing nobody a response does more than dinner with friends. When it is cognitive, write tomorrow's first task down before you leave the desk. And run one negotiation this week: **do not bargain over when you stop, bargain over the hour after which you cannot be reached.** It costs an employer almost nothing, and it succeeds far more often than a request for fewer hours. Finally, arrange one hobby with another person: solitary rest is the first thing work eats, and time two people agreed on is not."
-  },
-  {
-   "ai": "gemini",
-   "engine": "google · gemini-3.1-pro-preview(真实API)",
-   "engine_en": "google · gemini-3.1-pro-preview (live API)",
-   "summary": "纵观全场，最大的共识是：把「工作与生活平衡」当成工时比例的数学题，本身就是伪命题。无论从神经科学、禅宗心法还是制度批判出发，众人皆认同：**真正的失衡不在于时间切得不够平均，而在于个体对时间与注意力的主权被剥夺。**争论的焦点在于重获主权的切入点。内在派（慧能、苏轼、塞内卡、纽波特、伦布克）主张向内求，靠心智淬炼、多巴胺管理或设置硬性的微小边界夺回控制感；外在派（罗素、努斯鲍姆、加尔文）则坚持，在雇佣关系与无酬劳动的双重挤压下，**若不从契约、排班权与系统结构上重新分配权力，任何个人习惯的修缮都只是让弱者背上更多道德重负。**",
-   "insight": "现代人对「下班」的真实恐惧，常被对长工时的抱怨掩盖：我们其实不知道，在没有 KPI 与身份标签时自己是谁。前工业时代，人的身份由家族、乡里或信仰锚定；今天，职业头衔几乎是确立自我价值的唯一支点。所以**工作之所以容易越界，不只因为雇主贪婪或技术入侵，更因为许多人在潜意识里把它当成了抵御虚无的盾牌。**一旦真的停下来，面对不需要生产任何东西的空白，「我不被需要」的恐慌比加班更难熬——这也解释了为什么不少人在难得的假期里还强迫性地查邮件。**重建平衡的深层前提，是有勇气在「打工人」之外，养起一个坚固而毫无用处的第二身份。**",
-   "advice": "结合诸位洞见，本周就能试三个动作。第一，做一次「可见的关机」：照纽波特说的，下班前五分钟写下明日待办，再用一个物理动作（合上电脑、说一句今天到此）给大脑发出终止信号。第二，**每周强制浪费两小时。**呼应罗素与苏轼，挑一件绝对写不进简历、变不了现、在外人看来毫无意义的事——观察楼下的植物、折纸——去体验不为任何目的而存在。第三，清算隐形的第二班：若你下班后依然疲惫，今晚就把家务与情绪劳动（记住家人生日、安排各种琐事）写在纸上；**只有把无酬劳动变成一张看得见的账单，你才看得清自己还剩多少精力。**",
-   "summary_en": "Looking at the whole discussion, the deepest consensus is that framing work-life balance as an equation of hours is a false premise. Whether from neuroscience, Chan practice or institutional critique, everyone agrees: **the real imbalance is not that time is divided unevenly but that individual sovereignty over time and attention has been stripped away.** What they differ on is where to begin reclaiming it. The internalists (Huineng, Su Shi, Seneca, Newport, Lembke) look inward — mental discipline, dopamine management, micro-boundaries held absolutely. The externalists (Russell, Nussbaum, Calvin) insist that under the double squeeze of employment and unpaid labour, **unless power is redistributed through contracts, scheduling rights and systemic reform, tinkering with personal habits only loads a heavier moral burden onto the powerless.**",
-   "insight_en": "The real fear of clocking off is usually hidden behind complaints about long hours: we do not know who we are without KPIs and a job title. In pre-industrial life identity was anchored by family, locality or faith; today the title is almost the only fulcrum for self-worth. So **work oversteps its bounds not only because employers are greedy or technology invasive, but because many people subconsciously use it as a shield against emptiness.** Once you genuinely stop and face a stretch in which nothing has to be produced, the panic of being unneeded is harder to bear than overtime — which is why people compulsively check email on the rare holiday. **The deeper precondition for balance is the courage to grow a second identity outside the job, solid and entirely useless.**",
-   "advice_en": "Three things to try this week. First, make the shutdown visible: as Newport says, write tomorrow's tasks five minutes before you stop, then use a physical action — closing the laptop, saying aloud that today is over — to signal termination to the brain. Second, **waste two hours a week on purpose.** Echoing Russell and Su Shi, pick something that can never go on a CV, never be monetised and looks pointless to anyone watching — the plants downstairs, folding paper — and experience existing for no purpose at all. Third, audit the invisible second shift: if you are still exhausted after work, write down tonight the chores and the emotional labour (remembering birthdays, arranging everything). **Only when unpaid work becomes a visible ledger can you see how much energy you actually have left.**"
-  }
- ],
- "hooks": [
-  {
-   "from": "claude",
-   "text": "**先争几点之后不被找**：拖垮人的常常不是工时的总量，而是不知道什么时候会被叫走。一个每周稳定五十小时、晚上一定属于自己的人，往往比每周四十小时却随时待命的人过得好。可几乎所有谈判都在争时长，很少有人去争可预测性——它对雇主几乎不花钱，为什么反而没人提？",
-   "text_en": "**Bargain first over the hour after which you cannot be reached**: what grinds people down is often not the total hours but not knowing when they will be called. Someone steady at fifty hours whose evenings are reliably their own tends to live better than someone at forty who is permanently on call. Yet almost every negotiation is about duration and hardly any about predictability — which costs an employer next to nothing. Why is it the thing nobody asks for?"
-  },
-  {
-   "from": "gpt",
-   "text": "**情绪劳动之后，还剩下谁**：护理、客服、教师、社工耗掉的不是钟点，是与人周旋的心力；这类人即使准点到家，也常常对家人再没有一句话。用「陪伴时长」衡量生活质量，会系统性地高估他们。若一份工作在下班时把一个已经说不出话的人还给家里，该由谁来补这一笔？",
-   "text_en": "**After emotional labour, who is left**: nursing, call centres, teaching and social work do not consume hours so much as the capacity to keep negotiating with other people, and someone in those jobs can arrive home exactly on time with nothing left to say. Measuring quality of life in hours-with-family systematically overstates theirs. If a job returns a person to the household already unable to speak, who is supposed to make that up?"
-  },
-  {
-   "from": "russell",
-   "text": "**一个人守不住的边界**：晚上不回消息，一个人做叫难搞，一个组约好做就叫规矩。可组里总有人先破例——新人怕被记住，管理者怕漏掉，最不敢拒绝的那个先垮。集体边界要靠什么撑住：写进制度、轮值、还是让最有安全感的人先带头破冰？",
-   "text_en": "**The boundary one person cannot hold**: not answering messages in the evening is called being difficult when one person does it and policy when a team agrees to it. But someone always breaks first — the new hire afraid of being remembered for it, the manager afraid of missing something — and the person least able to refuse collapses first. What actually holds a collective boundary up: writing it into policy, rotating who covers, or having the most secure person break the ice?"
-  },
-  {
-   "from": "gemini",
-   "text": "**停下来之后，你是谁**：许多人在难得的假期里还强迫性地查邮件，未必是活多，而是一旦面对不必生产任何东西的空白，「我不被需要」的恐慌比加班更难受。职业头衔如今几乎是确立自我价值的唯一支点。那么在打工人之外养起一个坚固而无用的第二身份，是不是拿回时间的前提——又该从哪里养起？",
-   "text_en": "**Who are you once you stop**: people who compulsively check email on a rare holiday are often not short of work. It is that facing a stretch in which nothing must be produced, the panic of being unneeded is worse than overtime. A job title is now almost the only fulcrum for self-worth. Is growing a second identity outside the job — solid and entirely useless — the precondition for taking your time back, and where would a person even start?"
-  },
-  {
-   "from": "lembke",
-   "text": "**你的累是哪一种**：脑子转不动、不想再跟人说话、腰背僵了、明明不累却什么都不想干、连着几天没睡够——这是五种不同的疲惫，需要五种不同的收尾。多数人只有一套休息方式，于是有一半时间是在给错的那种累用错的药，越歇越累。",
-   "text_en": "**Which kind of tired are you**: a mind that will not turn over, an unwillingness to speak to anyone, a seized-up back, the restless nothing-appeals feeling that is not tiredness at all, and several nights of missed sleep — five different fatigues needing five different closes. Most people own exactly one way of resting, and so spend half their evenings applying the wrong remedy to the wrong exhaustion, and finish rest more tired than they started.",
-   "answer": {
-    "lead": "**先分清今天的累是哪一种，再决定怎么收尾。**同一段休息时间，用错了越歇越累。",
-    "table": {
-     "head": [
-      "今天的累是哪一种",
-      "该用什么收尾",
-      "为什么"
-     ],
-     "rows": [
-      [
-       "认知耗竭：开了一天会，脑子转不动",
-       "离开工位前写下明天第一件事；然后做不需要决策的事——走路、做饭、收拾屋子",
-       "残留的是没有闭合的任务，写下来就把它从工作记忆里卸下；再喂决策只是继续占用同一块资源"
-      ],
-      [
-       "情绪耗竭：一天都在应付人，不想再说话",
-       "先给自己四十分钟不必回应任何人的独处，之后再见你真想见的人",
-       "被耗掉的是与人周旋的心力，再轻松的社交也在继续支取；独处补的正是这一项"
-      ],
-      [
-       "久坐的身体疲：腰背僵、头昏，脑子却不困",
-       "先动再歇：快走、拉伸、冷水澡",
-       "这类累来自循环与姿势，躺下并不缓解；十几分钟的活动改善明显，代价小得出奇"
-      ],
-      [
-       "无聊性疲惫：不算累，却什么都不想干，手一直摸手机",
-       "做一件要费点劲、有明确进度的事：一段乐器、一页字、一道新菜",
-       "基线已被高刺激压低，继续刷只会更低；需要一点努力的活动才是把它抬回来的路"
-      ],
-      [
-       "睡眠债：连着几天没睡够，怎么歇都不解乏",
-       "别的先放下，连续三晚提前一小时上床；充电器放到卧室外面",
-       "睡眠债不能用休闲抵扣，只能还；缺觉时其他所有恢复手段都会打折"
-      ]
-     ]
+  "id": "work-life-balance",
+  "question": "「工作与生活的平衡」真的存在吗？",
+  "question_en": "Is work-life balance a real thing?",
+  "sub": "是能达成的稳态，还是一句自我安慰？只有取舍，还是长周期的轮换？",
+  "sub_en": "An attainable steady state, or a phrase we comfort ourselves with — only tradeoffs, or seasons taken in turn?",
+  "date": "2026-09-01",
+  "participants": [
+    "calvin",
+    "russell",
+    "seneca",
+    "sushi",
+    "huineng",
+    "nussbaum",
+    "newport",
+    "lembke"
+  ],
+  "casting": [
+    {
+      "id": "calvin",
+      "reason": "他不承认工作与生活是两块地。鞋匠钉鞋与修士祈祷同样是天职，人一天里没有哪一段是从神的眼前退场的；可同一套教义也钉下一道硬边界——安息日是诫命而非奖赏，停不下来的勤勉在他看来不是美德，是把工作摆到了神的位置。他会把这道题从「怎么分时间」拧成「你到底在替谁做工」。",
+      "reason_en": "He does not grant that work and life are two separate plots of ground. The cobbler at his last and the monk at his prayers stand equally under a calling, and no hour of the day is spent offstage. Yet the same doctrine drives in a hard boundary: the Sabbath is a commandment, not a reward, and diligence that cannot stop is to him not virtue but work put where God should be. He twists the question from how to divide the hours into whom the hours are being worked for."
     },
-    "tail": "两条原则：**恢复的种类比时长更要紧**；以及别用比工作更强的刺激来收尾，那不是休息，是在同一根杠杆上继续加码。若一周里有三种以上同时出现，问题多半已经不在收尾，而在工作量本身。"
-   },
-   "answer_en": {
-    "lead": "**Work out which kind of tired today is before deciding how to close it.** The same hour of rest, misapplied, leaves you more tired than before.",
-    "table": {
-     "head": [
-      "Which kind of tired",
-      "How to close the day",
-      "Why"
-     ],
-     "rows": [
-      [
-       "Cognitive: a day of meetings, the mind will not turn over",
-       "Write tomorrow's first task before leaving the desk, then do something requiring no decisions — walk, cook, tidy",
-       "What lingers is an unclosed task; writing it down unloads it from working memory, whereas more decisions keep occupying the same resource"
-      ],
-      [
-       "Emotional: a day spent managing people, no words left",
-       "Forty minutes owing nobody a response first; see the people you actually want to see afterwards",
-       "What is depleted is the capacity to negotiate with others, and even easy company keeps drawing on it; solitude replenishes exactly that"
-      ],
-      [
-       "Physical from sitting: stiff back, foggy head, but not sleepy",
-       "Move before you rest: a brisk walk, stretching, a cold shower",
-       "This fatigue comes from circulation and posture and does not lift by lying down; a quarter of an hour of movement helps out of all proportion to its cost"
-      ],
-      [
-       "Boredom fatigue: not really tired, but nothing appeals and the hand keeps reaching for the phone",
-       "Do something effortful with visible progress: an instrument, a page of writing, an unfamiliar recipe",
-       "The baseline has been pressed down by high stimulation and scrolling presses it lower; activity that costs a little effort is the way back up"
-      ],
-      [
-       "Sleep debt: several short nights, and no amount of rest helps",
-       "Set everything else aside and go to bed an hour earlier three nights running; charger outside the bedroom",
-       "Sleep debt cannot be offset by leisure, only repaid, and every other form of recovery is discounted while it stands"
-      ]
-     ]
+    {
+      "id": "russell",
+      "reason": "在他看来，「劳动本身高尚」是一桩留存至今的迷信，而它对谁有利一望便知。技术早已足够让人少做，多出来的产能却全部换成了更多的产品与更长的工时。他要的不是更聪明的时间管理，而是更短的工时——闲暇不是让人明天还能上工的补给站，它本身才是科学、艺术与友谊长出来的地方。",
+      "reason_en": "For him the belief that labour is noble in itself is a superstition that has outlived its origins, and it is not hard to see whom it serves. Technology has long been sufficient for everyone to work far less, yet every gain in output has been converted into more goods and longer hours. What he wants is not smarter time management but a shorter working day: leisure is not a depot where a worker is refuelled for tomorrow, it is the ground on which science, art and friendship actually grow."
     },
-    "tail": "Two principles: **the kind of recovery matters more than its length**; and do not close the day with a stimulus stronger than the work itself — that is not rest, it is more weight on the same lever. If three or more of these show up in a single week, the problem has stopped being how you close the day and has become the load itself."
-   }
-  }
- ]
+    {
+      "id": "seneca",
+      "reason": "他不谈比例，只谈所有权。人守着钱财寸步不让，却把日子成把地送出去；在他眼里病根不在工时长短，而在一个人从早到晚都是被占满的，连休假也是替旁人过的。他还会拿自己当反面教材——他替尼禄管过账，富可敌国，最后死在那位学生手里。",
+      "reason_en": "He will not talk in proportions, only in ownership. People defend their money to the last coin and give their days away by the handful; the disease, as he sees it, is not the length of the working day but that a person is occupied from waking to sleeping — even the holiday is lived on someone else's behalf. He is also willing to be his own worst example: he kept the accounts of Nero, grew fabulously rich, and died at that pupil's order."
+    },
+    {
+      "id": "sushi",
+      "reason": "他大半生在贬所度过，却既不辞劳事，也不失其闲。在他看来「闲」不是日程表上剩下的空格，而是一种不为外物所役的心量：月与竹柏夜夜都在，稀缺的从来是那个还看得见它们的人。他也提醒，快乐若总要更强的刺激才够，那便已经是被物驱使。",
+      "reason_en": "He spent most of his life in places he had been banished to, and neither shirked the work nor lost his ease. Leisure, for him, is not the blank left over in a schedule but a capacity of mind that outward things cannot commandeer: the moon and the bamboo are there every night, and what is scarce is a person still able to see them. He also warns that a pleasure which needs ever stronger stimulation is already a form of servitude."
+    },
+    {
+      "id": "huineng",
+      "reason": "他先指出这一刀切下去的地方。求道不在离开世间，离世觅菩提如同求兔角；同理，上班时惦着下班、下班时惦着上班的人，两处都不在，这才是真正的累。他不反对定时、禁断与抗争，只提醒别把「歇」也当成一件要办成的事。",
+      "reason_en": "He begins by pointing at where the cut is made. The way is not found by leaving the world — to seek bodhi outside it is to look for horns on a hare; and by the same token a person who thinks of leaving while working and thinks of work while resting is in neither place, which is where the real exhaustion comes from. He has no quarrel with schedules, abstinence or bargaining; he only warns against turning rest itself into one more thing to accomplish."
+    },
+    {
+      "id": "nussbaum",
+      "reason": "她要求把「平衡」从一种感觉换成一份可以查的清单：一个人实际上能不能玩、能不能与所爱的人相处、能不能支配自己的身体与时间。她也会指出这道题最常被跳过的一半——下班之后并不是空白，对许多人（多数是女性）那是第二班无薪的活。",
+      "reason_en": "She wants the word swapped out for something checkable: not whether a person feels balanced but what she is actually able to do — able to play, to be with those she loves, to have command of her own body and hours. And she points at the half of the question that usually gets skipped: clocking off does not open onto empty time. For a great many people, most of them women, it opens onto a second shift that nobody pays for."
+    },
+    {
+      "id": "newport",
+      "reason": "他把这当工程问题，不当心态问题：先钉死下班时间，再倒推这周能接多少活，顺序一反边界就永远不会出现。注意力残留解释了为什么人已经到家、脑子还在工位上开会，所以他坚持每天要有一个把上一件事收尾的动作。",
+      "reason_en": "He treats this as an engineering problem rather than a matter of attitude: fix the hour you stop first, then work backwards to decide how much you can take on — reverse that order and the boundary never appears. Attention residue explains why a person can be home while their mind is still in the meeting, which is why he insists on a daily action that closes the previous task down."
+    },
+    {
+      "id": "lembke",
+      "reason": "她从奖赏回路看这道题：多数人不缺休息的时长，缺的是能把基线抬回来的那种休息。快感与痛苦共用大脑的同一片区域，每一次快感之后都会自动往痛苦那端加码；所以下班后两小时短视频不是恢复，是在同一根杠杆上继续加码。她开的方子也很实在：禁断、自我约束、主动去按痛苦那一端。",
+      "reason_en": "She reads the question off the reward circuitry: most people are not short of hours to rest, they are short of the kind of rest that lifts the baseline back up. Pleasure and pain are processed in the same part of the brain, and every hit of pleasure is automatically answered by a tilt toward pain; so two hours of short video after work is not recovery but more weight on the same lever. Her prescriptions are correspondingly concrete: abstinence, self-binding, and deliberately pressing on the painful side."
+    }
+  ],
+  "posts": [
+    {
+      "id": "p01",
+      "round": 1,
+      "thinker": "calvin",
+      "reply_to": null,
+      "text": "你们把一天切成两块，一块卖给雇主，一块留给自己，然后问怎么分才公道。我不承认这一刀。修士的祈祷并不比鞋匠钉鞋更神圣：人在自己的位分上做工，本身就是天职，没有哪一个钟头是从神的眼前退场的。但同一套道理也钉下一道硬边界——安息日是诫命，不是奖赏。石板上写得清楚：那一日，你的仆婢与你的牲口都要歇。**一个停不下来的人不是勤勉，他只是把工作摆到了神的位置上。**所以别急着问怎么平衡，先问：另外六天，你到底在替谁做工？",
+      "text_en": "You cut the day in two — one half sold to an employer, one half kept for yourself — and then ask how to divide it fairly. I do not grant the cut. The monk at prayer is no holier than the cobbler at his last: to labour in the station given you is itself a vocation, and no hour of your day is spent offstage. But the same doctrine drives in a hard boundary — the Sabbath is a commandment, not a reward. The tablets are explicit: on that day your servant and your beast are to rest as well. **A man who cannot stop is not diligent; he has merely put his work where God should be.** So do not rush to ask how to balance. Ask first whom the other six days are being worked for.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "天职": "vocatio（天职）：拉丁文原意是『召唤』。宗教改革把它从修道院里放了出来——不只神职者蒙召，农夫、主妇、鞋匠在各自位分上尽责，同样是在回应召唤。这一转变抬高了世俗劳动的地位；后世把信仰抽掉，只留下『勤勉本身即美德』，那已不是我说的意思。",
+        "安息日": "Sabbath（安息日）：十诫的第四诫，每七日停工一日。它常被当成宗教习俗，可条文里连仆婢与牲口都被点名要求歇息——那是最早一批把休息定成强制义务、且强制的对象是主人而非劳工的规定。"
+      },
+      "glossary_en": {
+        "vocation": "From the Latin for a calling. The Reformation took it out of the monastery: not only the priest is called, but the farmer, the housewife and the cobbler, each answering the same summons in the station they occupy. The shift raised the dignity of ordinary labour; when later ages drained the faith out of it and kept only the maxim that diligence is virtue, that was no longer my meaning.",
+        "Sabbath": "The fourth commandment: every seventh day, work stops. It is usually read as a religious custom, but the text names the servant and the beast as well — one of the earliest rules to make rest compulsory, and to make it compulsory for the master rather than the labourer."
+      },
+      "reactions": {
+        "强烈反对": [
+          "russell"
+        ],
+        "轻微赞同": [
+          "seneca",
+          "newport"
+        ],
+        "中立": [
+          "nussbaum"
+        ],
+        "轻微反对": [
+          "huineng"
+        ],
+        "疑惑": [
+          "lembke"
+        ]
+      }
+    },
+    {
+      "id": "p02",
+      "round": 1,
+      "thinker": "russell",
+      "reply_to": "p01",
+      "text": "加尔文先生说得体面，可下文韦伯早已替我们写好了：天职一旦离了神，就成了雇主的账本。我说得再直白些——**相信劳动本身高尚，是现代世界最大的一桩迷信，而它对谁有利，一望便知。**技术早就足够让每个人每天只做四小时的活，多出来的产能却全部换成了更多的产品与更长的工时。你们今天讲的闲暇，多半只是让人明天还能上工的补给站；真正的闲暇不为任何事作准备，它才是科学、艺术与友谊长出来的地方。所以这不是日程表的问题，是钟点归谁的问题。",
+      "text_en": "Calvin puts it handsomely, but Weber wrote the sequel long ago: once a calling parts company with God, it becomes the employer's ledger. Let me put it more bluntly. **The belief that labour is noble in itself is the great superstition of the modern world, and it is not difficult to see whom it profits.** Technique has long sufficed for four hours of work a day, yet every gain has been spent on more goods and longer hours instead. What you now call leisure is mostly a depot where a worker is refuelled for tomorrow; real leisure prepares for nothing, and that is precisely why science, art and friendship grow there. This is not a problem of scheduling. It is a question of who owns the hours.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "闲暇": "leisure（闲暇）：我指的不是下班后用来恢复体力、好让明天继续上工的那几个钟头，而是不必用于生产、也不必为生产作准备的整块时光。古希腊人把它看作城邦生活的正事，现代把它降级成工作的附属品——我认为文明变薄，多半出在这一次降级上。"
+      },
+      "glossary_en": {
+        "leisure": "Not the hours after work in which a labourer is restored so that he may work again tomorrow, but time that is neither spent producing nor spent preparing to produce. The Greeks took it to be the serious business of a citizen's life; the modern world demoted it to an appendage of work — and most of what has since gone thin in civilisation, I suspect, went thin at that demotion."
+      },
+      "reactions": {
+        "强烈反对": [
+          "calvin"
+        ],
+        "轻微赞同": [
+          "sushi",
+          "nussbaum",
+          "seneca"
+        ],
+        "轻微反对": [
+          "newport",
+          "lembke"
+        ],
+        "中立": [
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p03",
+      "round": 1,
+      "thinker": "seneca",
+      "reply_to": null,
+      "text": "我不谈比例。人守着钱财寸步不让，却把日子成把地送人——**唯有时间是借出去便讨不回来的东西，而你偏偏送得最不还价。**病根不在几个钟头，在于你从早到晚都是 occupati：会议、应酬、替别人的急事奔走，连休假也是替旁人过的。你说等升上去就有空了，等孩子大些就有空了——你把一整个人生押在一个永远推后的开头上。罗马人分得清 negotium 与 otium，后者不是无所事事，是把心收回来给自己用的那一段。我知道自己在说什么：写下这些字的时候，我正替一个暴君管着账。",
+      "text_en": "I will not talk in proportions. People defend their money to the last coin and hand their days out by the armful — **time is the one thing that never comes back once lent, and it is the one thing you give away without haggling.** The disease is not a number of hours; it is that from waking to sleeping you are among the occupati: meetings, obligations, other men's urgent business, a holiday lived on someone else's behalf. You say you will have time once you are promoted, once the children are older — staking an entire life on a beginning that is always postponed. The Romans could tell negotium from otium, and otium is not idleness; it is the stretch in which a mind is called back for its owner's use. I know exactly what I am saying: as I write this, I am keeping the accounts of a tyrant.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "occupati": "occupati（忙人）：我在《论生命之短暂》里的用语，指被事务占满的人。他们的毛病不是时间不够，而是从不曾拥有过自己的时间——日程被别人的需要填满，连独处时也在替别人操心。",
+        "otium": "otium（闲暇）：罗马人对『退居下来的时间』的称呼，与 negotium（事务、公务，字面即『非闲暇』）相对。otium 不是无所事事，而是读书、写作、与自己相处的正经时光，被看作自由人生活的核心，而不是工作之后的剩余。"
+      },
+      "glossary_en": {
+        "occupati": "My word in On the Shortness of Life for the preoccupied. Their trouble is not that the hours are too few but that they have never owned an hour: the calendar is filled with other people's needs, and even their solitude is spent worrying on someone else's behalf.",
+        "otium": "The Roman name for withdrawn time, set against negotium — business, public affairs, literally not-otium. It does not mean doing nothing: it means reading, writing and keeping one's own company, and it was taken to be the centre of a free man's life rather than the remainder left after work."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sushi"
+        ],
+        "轻微赞同": [
+          "newport",
+          "calvin",
+          "russell"
+        ],
+        "轻微反对": [
+          "nussbaum"
+        ],
+        "疑惑": [
+          "huineng"
+        ],
+        "中立": [
+          "lembke"
+        ]
+      }
+    },
+    {
+      "id": "p04",
+      "round": 1,
+      "thinker": "sushi",
+      "reply_to": null,
+      "text": "二公争工时之长短，吾且言其外者。昔在黄州，夜不能寐，起行至承天寺，庭下积水空明，藻荇交横，盖竹柏影也。因叹：何夜无月？何处无竹柏？**但少闲人如吾两人者耳。**月未尝一夕不出，竹柏未尝一日不生，所少者，能见之之人也。故闲非日程之余隙，乃心不为物役之谓，是之谓旷达。然吾亦非不事事者：在杭筑堤，在惠施药，在儋教书，何尝一日辞劳？劳而心不为劳所牵，斯可矣。若身歇而心系案牍，虽终岁闲居，亦忙人也。",
+      "text_en": "The two of you are arguing over the length of the working day; let me speak of what lies outside it. Years ago at Huangzhou I could not sleep, and walked out to Chengtian Temple. The courtyard lay as though flooded with clear water, waterweeds crossing through it — the shadows of bamboo and cypress. And I sighed: what night has no moon? What place has no bamboo and cypress? **What is scarce is only idle men such as the two of us.** No night has ever lacked its moon, no day has stopped the bamboo growing; what is lacking is someone still able to see them. Leisure, then, is not the gap left over in a schedule but a mind that outward things cannot commandeer — this is what I call equanimity. Yet I am no idler: I built the dyke at Hangzhou, handed out medicine at Huizhou, taught school at Danzhou. What day did I refuse the work? To labour, and not be dragged along by the labour, is enough. A man whose body rests while his mind stays on the documents is a busy man still, though he sit at home the whole year.",
+      "vernacular": "两位争的是工时长短，我说点别的。当年在黄州，夜里睡不着，起来走到承天寺，院子里像积了一汪清水，水草交错，其实是竹子和柏树的影子。我于是感叹：哪一夜没有月亮？哪个地方没有竹柏？**缺的只是像我们两个这样的闲人罢了。**月亮没有哪一晚不出来，竹柏没有哪一天不生长，缺的是还看得见它们的人。所以「闲」不是日程表上剩下的空档，而是心不被外物驱使——这才叫旷达。可我也不是什么都不做的人：在杭州修堤，在惠州施药，在儋州教书，哪一天推过活？做事而心不被事牵着走，就够了。身体歇着、心还挂在公文上，就算整年不出门，也还是个忙人。",
+      "vernacular_en": "",
+      "glossary": {
+        "旷达": "equanimity（旷达）：中国文人品评人物的一个词，指经历得失升沉之后仍能自在开阔，不为处境所困。它不是麻木，也不是佯装无所谓——事照做、痛照痛，只是不把心整个押在结果上。"
+      },
+      "glossary_en": {
+        "equanimity": "A term Chinese literati used to praise a certain bearing: the openness a person keeps after gain and loss, promotion and exile, have all gone through them. It is neither numbness nor a pretence of not minding — the work still gets done and the pain is still felt; what is withheld is the whole of oneself staked on the outcome."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "huineng",
+          "seneca"
+        ],
+        "轻微赞同": [
+          "russell",
+          "lembke"
+        ],
+        "轻微反对": [
+          "nussbaum"
+        ],
+        "中立": [
+          "newport",
+          "calvin"
+        ]
+      }
+    },
+    {
+      "id": "p05",
+      "round": 1,
+      "thinker": "huineng",
+      "reply_to": null,
+      "text": "诸公分工作与生活为二，而后求其平，病正在此一刀。吾尝言：佛法在世间，不离世间觉；离世觅菩提，恰如求兔角。担柴运水即是道场，岂别有一片清净地，待汝下班而后入之？今人上工时念着下工，下工时念着明日之工，两处皆不在，故终日劳而不得歇——所歇者身，所役者念也。**「平衡」二字，是先把一颗心撕作两半，再去寻线来缝。**心若不撕，缝个什么？",
+      "text_en": "You divide work from life and then seek a balance between them; the sickness is in that cut. I have said: the Dharma is within the world, and awakening is not found apart from it — to seek bodhi outside the world is to look for horns on a hare. Carrying firewood and drawing water is itself the place of practice; where is this other, cleaner ground that opens only once you have clocked off? People now think of leaving while they work and think of tomorrow's work while they rest, so they are in neither place, and labour all day without ever resting — the body rests, the thought goes on being driven. **The word balance tears one mind in half and then goes looking for thread.** If it is not torn, what is there to sew?",
+      "vernacular": "各位把工作和生活分成两块，再求其中的平衡，毛病正出在这一刀上。我说过：佛法就在世间，觉悟离不开世间；离开世间去找菩提，就像找兔子头上的角。挑柴担水就是修行的道场，哪里另有一块清净地，等你下班了才进得去？如今的人上班时惦着下班，下班时惦着明天的活，两头都不在，所以整天忙碌却得不到休息——歇的是身子，被驱使的是念头。**「平衡」这两个字，是先把一颗心撕成两半，再想办法缝上。**心不撕开，缝什么？",
+      "vernacular_en": "",
+      "glossary": {
+        "菩提": "bodhi（菩提）：梵语，意为觉悟。禅门反对把它当成一件在别处、要另辟时地才能取得的东西——它不在深山也不在下班之后，只在此刻这一念上。"
+      },
+      "glossary_en": {
+        "bodhi": "Sanskrit for awakening. The Chan school refuses to treat it as something located elsewhere, to be fetched in a special time and place — not in the mountains and not after hours, but in this present thought."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sushi"
+        ],
+        "轻微赞同": [
+          "calvin"
+        ],
+        "轻微反对": [
+          "nussbaum",
+          "russell"
+        ],
+        "疑惑": [
+          "newport",
+          "lembke"
+        ],
+        "中立": [
+          "seneca"
+        ]
+      }
+    },
+    {
+      "id": "p06",
+      "round": 1,
+      "thinker": "nussbaum",
+      "reply_to": null,
+      "text": "我要把这个词从感觉换成清单。问一个人「你觉得平衡吗」，答案会随愧疚与习惯漂移；该问的是能力进路上的那一串：她实际上能不能玩、能不能与所爱的人相处、能不能支配自己的身体与时间。**我把玩写进中心能力清单不是浪漫，是因为一个不能玩的人，生活确实缺了一块，而不只是心情不好。**还有这道题最常被跳过的一半：下班之后不是空白。对许多人——多数是女性——那是第二班：做饭、陪写作业、给老人打电话、记住所有人的生日。把这一班算进来就会看见，「工作与生活」根本不是二分，而是有酬劳动与无酬劳动怎么分派。",
+      "text_en": "I want the word swapped out for a list. Ask a person whether she feels balanced and the answer drifts with guilt and habit; the question to ask comes from the capability approach — what she is actually able to do: to play, to be with the people she loves, to have command of her own body and her own hours. **Play is on my list of central capabilities not out of sentiment but because someone who cannot play is missing part of a life, not merely in a poor mood.** And here is the half of the question that is usually skipped: clocking off does not open onto blank time. For a great many people, most of them women, it opens onto the second shift — cooking, homework, the phone call to a parent, remembering everyone's birthday. Count that shift and the division is not work against life at all; it is a question of how paid and unpaid labour get handed out.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "能力进路": "capability approach（能力进路）：我与阿马蒂亚·森发展的评价框架。不看一个人手里有多少资源、也不看他自称多幸福，而看他实际能做什么、能成为什么——同一笔收入，对能自由支配时间的人和被家务锁住的人意义完全不同。我列出十项中心能力（生命、身体健康、身体完整、感官想象与思考、情感、实践理性、依附、与其他物种共处、玩、对环境的控制），主张任何一项跌破门槛都是正义问题，而不是运气问题。",
+        "第二班": "the second shift（第二班）：社会学家霍克希尔德的用语，指有酬工作结束后回家继续承担的无酬家务与照料劳动。她对双职工家庭的研究发现这一班明显落在女方身上，一年累计下来相当于多上了一个月的班。"
+      },
+      "glossary_en": {
+        "capability approach": "The framework Amartya Sen and I developed for judging how a society is doing. It looks neither at the resources a person holds nor at how happy she reports herself to be, but at what she is actually able to do and to be — the same income means something entirely different to someone who commands her own hours and to someone locked into domestic work. I set out ten central capabilities (life; bodily health; bodily integrity; senses, imagination and thought; emotions; practical reason; affiliation; other species; play; control over one's environment) and argue that falling below the threshold on any of them is a matter of justice rather than luck.",
+        "the second shift": "Arlie Hochschild's term for the unpaid domestic and care work that begins when paid work ends. Her research on two-earner households found the shift falling overwhelmingly on the woman, adding up over a year to roughly an extra month of work."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "russell"
+        ],
+        "轻微赞同": [
+          "lembke",
+          "seneca"
+        ],
+        "轻微反对": [
+          "calvin",
+          "newport"
+        ],
+        "中立": [
+          "sushi",
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p07",
+      "round": 1,
+      "thinker": "newport",
+      "reply_to": null,
+      "text": "我把它当工程问题，不当心态问题。多数人的顺序反了：先答应所有活，再看剩下多少时间过日子。**先把下班时刻钉死，再倒推这周能接多少事——顺序一反，边界就永远不会出现。**这叫固定日程生产力。第二件事是注意力残留：任务切换之后，一部分注意力还留在上一件事上，所以你人已经到家，脑子还在工位上开会。这不是意志薄弱，是缺一个把上一件事收尾的动作。下班前五分钟，写下未完的事项、写明天第一件做什么，再说一句今天到此，然后关机。听起来像小把戏，可它给大脑一个可以停止追踪的信号。",
+      "text_en": "I treat this as an engineering problem, not a question of attitude. Most people have the order backwards: they say yes to everything and then see how much life is left over. **Fix the hour you stop first, then work backwards to how much you can take on this week — reverse that and the boundary never appears.** This is fixed-schedule productivity. The second thing is attention residue: after switching tasks, part of your attention stays with the previous one, which is why you can be home while your mind is still in the meeting. That is not weak will; it is a missing closing action. Five minutes before you stop, write down what is unfinished, write the first thing you will do tomorrow, say that today is over, and shut down. It sounds like a trick, but it gives the brain a signal that it can stop tracking.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "固定日程生产力": "fixed-schedule productivity（固定日程生产力）：先设定一个绝不加班的下班时刻，把它当成不可谈判的硬约束，再反过来决定接受哪些工作、拒绝哪些。它把『时间不够』从一句抱怨变成一道排程题，逼你在承诺的那一刻做取舍，而不是在深夜补课。",
+        "注意力残留": "attention residue（注意力残留）：管理学者 Sophie Leroy 提出的现象——从一项任务切到另一项时，注意力有一部分仍停在前一项上，后一项的表现随之下降。它既解释了频繁切换为何让人又累又低效，也解释了为什么下班时若没有一个明确的收尾动作，工作会跟着你回家。"
+      },
+      "glossary_en": {
+        "fixed-schedule productivity": "Choose a time at which you will stop working, treat it as non-negotiable, and then work backwards to decide what you accept and what you decline. It converts not enough time from a complaint into a scheduling problem, and forces the tradeoff at the moment of commitment rather than at midnight.",
+        "attention residue": "A phenomenon identified by the management scholar Sophie Leroy: when you switch from one task to another, part of your attention stays behind on the first, and performance on the second suffers. It explains both why frequent switching leaves people tired and ineffective, and why work follows you home when the day ends without a definite closing action."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "lembke"
+        ],
+        "轻微赞同": [
+          "seneca",
+          "calvin"
+        ],
+        "轻微反对": [
+          "huineng",
+          "nussbaum",
+          "russell"
+        ],
+        "中立": [
+          "sushi"
+        ]
+      }
+    },
+    {
+      "id": "p08",
+      "round": 1,
+      "thinker": "lembke",
+      "reply_to": null,
+      "text": "从门诊上看，多数人不缺休息的时长，缺的是能把基线抬回来的那种休息。快感与痛苦由大脑的同一片区域处理，我把它叫作快感-痛苦跷跷板：每一次快感之后，脑子会自动往痛苦那一端加码，把你按回平衡；反复刺激，整条基线就被压低，于是你需要越来越多，才只是感觉正常——这就是耐受。**下班后刷两小时短视频不是恢复，是在同一根杠杆上继续加码，所以你休息完反而更累。**真正把基线抬回去的，往往在痛苦那一端：运动、冷水、无聊、一件需要费劲的手艺。至于怎么做到，别靠意志力，靠自我约束：把手机放到另一个房间，比下决心少看有效得多。",
+      "text_en": "From the clinic, most people are not short of hours to rest; they are short of the kind of rest that raises the baseline. Pleasure and pain are processed by the same part of the brain — I call it the pleasure-pain balance. After every hit of pleasure the brain automatically adds weight to the pain side to restore equilibrium; repeat the stimulus and the whole baseline sinks, so you need more and more just to feel normal. That is tolerance. **Two hours of short video after work is not recovery, it is more weight on the same lever, which is why you finish rest more tired than you began.** What actually lifts the baseline usually sits on the painful side: exercise, cold water, boredom, a craft that costs effort. And as for how, do not rely on willpower, rely on self-binding: putting the phone in another room beats resolving to look at it less.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "快感-痛苦跷跷板": "the pleasure-pain balance（快感-痛苦跷跷板）：快感与痛苦由大脑同一片区域处理，像跷跷板一样此起彼伏。任何一次快感之后，脑子会自动把跷跷板往痛苦那端压一下以恢复平衡；这一下就是你放下手机后那点说不清的空落。反复刺激会让跷跷板整体下沉，于是快乐越来越难、难受越来越容易。",
+        "耐受": "tolerance（耐受）：同一剂量的刺激反复使用后效果递减，必须加量才能得到原先的感受。它不只发生在药物上——短视频、游戏、糖、购物、乃至工作带来的成就感，都遵循同一条曲线。",
+        "自我约束": "self-binding（自我约束）：在还清醒、还没有渴求的时候，先替将来的自己设下屏障——物理的（把酒锁进柜子、手机放在另一间房）、时间的（只在周末做某件事）、类别的（这类应用一概不装）。它承认意志力在渴求发作时几乎必然失守，于是把胜负提前到不需要意志力的时刻。"
+      },
+      "glossary_en": {
+        "the pleasure-pain balance": "Pleasure and pain are processed by the same part of the brain and behave like a seesaw. After any pleasure the brain automatically tips the board toward pain to restore equilibrium — that tip is the vague flatness you feel on putting the phone down. Repeat the stimulus and the whole board sinks, so pleasure gets harder to reach and discomfort easier.",
+        "tolerance": "The same dose of a stimulus produces less and less effect, so the dose must rise to deliver what it once did. This is not confined to drugs: short video, games, sugar, shopping and even the sense of achievement work gives all run along the same curve.",
+        "self-binding": "Erecting a barrier for your future self while you are still clear-headed and not yet craving — physical (the liquor locked away, the phone in another room), temporal (only at weekends), or categorical (this class of app, never). It concedes that willpower loses almost every contest with an active craving, and so moves the contest to a moment when no willpower is required."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "newport"
+        ],
+        "轻微赞同": [
+          "calvin",
+          "sushi",
+          "seneca"
+        ],
+        "中立": [
+          "nussbaum"
+        ],
+        "疑惑": [
+          "huineng"
+        ],
+        "轻微反对": [
+          "russell"
+        ]
+      }
+    },
+    {
+      "id": "p09",
+      "round": 2,
+      "thinker": "russell",
+      "reply_to": "p01",
+      "text": "加尔文先生，你的安息日只有一天，另外六天你交给了谁？你说人在位分上做工即是侍奉，这句话一旦走出教堂，就成了雇主最省钱的一句管理话术：加班叫敬业，压榨叫使命，连不涨薪也能说成磨练。韦伯把它的下场叫铁笼——信仰蒸发了，禁欲的劳动习惯留下来，还顺手把门锁上。**把工作说成天职，最大的受益者从来不是做工的那个人。**我不否认劳作有尊严，我否认的是「多劳自然多德」。若劳动当真神圣，为什么神圣的份额总是分给别人？",
+      "text_en": "Calvin, your Sabbath is one day: to whom did you hand the other six? You say that to labour in one's station is already service — and the moment that sentence leaves the church it becomes the cheapest management slogan ever devised. Overtime becomes devotion, exploitation becomes mission, and even a frozen wage becomes character-building. Weber named the end of it: the iron cage. The faith evaporates, the ascetic habit of work remains, and the door locks behind it. **When work is called a calling, the chief beneficiary is never the one doing the work.** I do not deny that labour has dignity. I deny that more labour makes more virtue. If labour really were holy, why is the holy portion always assigned to somebody else?",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "铁笼": "iron cage（铁笼）：韦伯的比喻。他认为新教的天职观曾给资本主义提供过精神动力，可当宗教内容褪去，只剩下一套追求效率与积累的秩序，人就被关在自己造的这副外壳里——不再是为了什么而工作，而是不得不工作。"
+      },
+      "glossary_en": {
+        "iron cage": "Weber's image. The Protestant idea of a calling once supplied capitalism with its spiritual motor; when the religious content evaporated, what remained was a bare order of efficiency and accumulation, and people were shut inside a shell of their own making — no longer working for something, simply unable to stop."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "nussbaum"
+        ],
+        "强烈反对": [
+          "calvin"
+        ],
+        "轻微赞同": [
+          "seneca",
+          "sushi"
+        ],
+        "中立": [
+          "huineng",
+          "newport"
+        ],
+        "轻微反对": [
+          "lembke"
+        ]
+      }
+    },
+    {
+      "id": "p10",
+      "round": 2,
+      "thinker": "nussbaum",
+      "reply_to": "p07",
+      "text": "纽波特先生，你的方法很好——对能自己排日程的人。护士的班表由医院给，快递员的时间由算法派，单亲母亲的下班时刻由孩子哪天发烧决定。**先钉死下班时间，前提是你有权钉；没有这份权力的人，同一句话就变成了又一项她做不到的自我要求。**关机仪式解决不了排班，深度工作也换不来托育。所以我要把这道题从技巧挪回制度：真正决定一个人能不能玩的，是可预测的班表、付得起的托育、真能休的病假——这些不是福利，是让清单上那几项从纸面落到生活里的条件。把结构问题写成个人习惯问题，代价总是落在最没有议价权的人身上。",
+      "text_en": "Newport, your method is excellent — for people who set their own schedules. A nurse's roster comes from the hospital, a courier's hours come from an algorithm, and a single mother's finishing time is decided by whichever day her child runs a fever. **Fixing the hour you stop presupposes that you have the authority to fix it; for someone without that authority, the same sentence becomes one more instruction she is failing to follow.** A shutdown ritual cannot fix a roster, and deep work does not buy childcare. So I want to move this back from technique to institutions: what actually determines whether a person can play is a predictable roster, childcare she can afford, sick leave she can really take. Those are not perks; they are the conditions under which the items on my list stop being words on paper. Write a structural problem up as a personal habit and the cost lands, as always, on whoever has the least bargaining power.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "russell"
+        ],
+        "轻微赞同": [
+          "sushi",
+          "lembke"
+        ],
+        "轻微反对": [
+          "newport",
+          "seneca"
+        ],
+        "中立": [
+          "calvin",
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p11",
+      "round": 2,
+      "thinker": "newport",
+      "reply_to": "p10",
+      "text": "这一半批评我接受：把排班问题讲成个人技巧，等于给做不到的人再添一份负担。但结论别推到另一头。护士定不了班表，她仍然能定一件小事：到家后的第一个小时不看工作群。这不是解决方案，是一块守得住的立足点——**先守一块小到不可能失败的边界，比等一个更好的制度更快让人重新相信自己还有一点主权。**另外，知识工作者的边界崩塌，相当一部分是自己拆的：没人要求的秒回、深夜的邮件、把在线时长当成忠诚。我说的慢生产力就是这个：少做几件事，把评价押在长期的质量上，而不是押在你回消息有多快。制度要改，这部分今天就能停，两者不冲突。",
+      "text_en": "Half of that criticism I accept: describing a rostering problem as a personal technique loads one more burden onto people who cannot comply. But do not push the conclusion all the way to the other end. A nurse cannot set her roster, and she can still set one small thing: no work messages during the first hour after she gets home. That is not a solution; it is a foothold — **hold one boundary small enough that it cannot fail, and a person recovers the sense of having some sovereignty faster than any better institution will grant it.** Besides, a good share of the boundary collapse among knowledge workers is self-inflicted: the instant reply nobody asked for, the email at midnight, hours online offered as proof of loyalty. That is what I mean by slow productivity — do fewer things, and stake your reputation on long-term quality rather than on how fast you answer. Change the institutions; stop this today. The two do not compete.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "慢生产力": "slow productivity（慢生产力）：我提出的替代方案——同时做更少的事、允许工作按自然的节奏起伏、把评价押在长期的质量上。它针对的是一种误解：因为忙碌看得见、专注看不见，人们就把随时在线、样样都接当成了专业的证据。"
+      },
+      "glossary_en": {
+        "slow productivity": "My alternative to the frantic default: do fewer things at once, let work rise and fall at a natural pace, and stake your reputation on quality over the long run. It is aimed at a particular confusion — because busyness is visible and concentration is not, people offer constant availability as evidence of professionalism."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "lembke"
+        ],
+        "轻微赞同": [
+          "seneca",
+          "calvin"
+        ],
+        "轻微反对": [
+          "nussbaum",
+          "huineng"
+        ],
+        "中立": [
+          "russell",
+          "sushi"
+        ]
+      }
+    },
+    {
+      "id": "p12",
+      "round": 2,
+      "thinker": "lembke",
+      "reply_to": "p02",
+      "text": "罗素先生，四小时工作制的自然实验其实做过了——不是靠改革，是靠居家隔离与失业。空出来的时间并没有自动变成艺术与友谊，很大一部分流进了屏幕、酒和外卖；那几年门诊里最常见的不是闲出来的从容，是加重的成瘾和更低的情绪基线。我不是替长工时辩护，我是要提醒：**把钟点从工作里夺回来只是第一步，一具被高刺激环境反复重塑过的大脑，拿到空闲的第一反应是去找更强的刺激。**耐受不会因为你下班早就自动消退。所以工时改革得配上环境改造，否则解放出来的那几个钟点，会被设计得最上瘾的那个应用直接接管。",
+      "text_en": "Russell, the natural experiment in a four-hour day has in fact been run — not by reform but by lockdowns and unemployment. The freed hours did not turn themselves into art and friendship; a great deal of them ran into screens, alcohol and delivery food. What filled the clinic in those years was not the serenity of leisure but worsening addiction and a lower mood baseline. I am not defending long hours. I am pointing out that **taking the hours back from work is only the first step: a brain repeatedly reshaped by a high-stimulus environment responds to free time by going to look for a stronger stimulus.** Tolerance does not fade because you clocked off early. So a shorter week has to come with a redesigned environment, or the hours you liberate will simply be annexed by whichever application is engineered to be the most addictive.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "calvin"
+        ],
+        "轻微赞同": [
+          "newport",
+          "sushi",
+          "huineng"
+        ],
+        "轻微反对": [
+          "russell"
+        ],
+        "中立": [
+          "nussbaum",
+          "seneca"
+        ]
+      }
+    },
+    {
+      "id": "p13",
+      "round": 2,
+      "thinker": "calvin",
+      "reply_to": "p09",
+      "text": "罗素先生，你把天职讲成雇主的话术，却漏掉了它当初写下来时得罪的是谁。安息日的诫命不是给疲惫者的安慰，是对主人下的禁令：那一日，你的仆婢、你的牲畜、寄居在你城里的外人都要歇。**最早一批强制休息的条文，管的不是劳工，是雇主。**至于闲暇，你说它是文明生长之处；我看它同样是无聊与放纵生长之处。一段时间有没有价值，不在它是否用于生产，而在它侍奉什么。你要缩短工时我不反对——可若缩下来的那些钟点无所侍奉，人不会因此更自由，只会更空，然后自己去找一个新主人。",
+      "text_en": "Russell, you read the calling as an employer's slogan and skip over whom it offended when it was first written down. The Sabbath commandment is not consolation for the weary; it is a prohibition laid on the master: on that day your manservant, your maidservant, your cattle and the stranger within your gates shall rest. **The earliest compulsory rest was imposed not on labourers but on employers.** As for leisure, you call it the soil of civilisation; I observe that boredom and dissipation grow in the same soil. Whether a stretch of time is worth anything depends not on whether it produces but on what it serves. Shorten the working day by all means — but if the hours you free serve nothing, people will not be freer, only emptier, and they will go and find themselves a new master.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "nussbaum"
+        ],
+        "轻微赞同": [
+          "seneca",
+          "lembke",
+          "sushi"
+        ],
+        "轻微反对": [
+          "russell"
+        ],
+        "中立": [
+          "newport",
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p14",
+      "round": 2,
+      "thinker": "huineng",
+      "reply_to": "p03",
+      "text": "塞内卡言夺回时间，吾问：夺回之后，付与谁？若付与那颗仍在计较得失的心，虽终日无事，亦是替它当差。汝所谓忙人，非日程排出来的，乃念念相续接出来的；日程可改，念不歇则改亦无用。纽波特之关机，能关机器，不能关念。**欲歇而先屏事者，如嫌尘而挥扇，扇愈疾则尘愈起。**当于事上歇：担一担柴便只是一担柴，会一场议便只是一场议，事过而心不留，是名真歇。",
+      "text_en": "Seneca would take his time back; I ask, take it back and hand it to whom? If to a mind still reckoning gain and loss, then a whole empty day is still spent in that mind's service. Your busy man is not produced by a calendar but by one thought following another; the calendar can be altered, and if the thoughts do not stop, altering it alters nothing. Newport's shutdown closes the machine, not the thought. **To push the work away in order to rest is to fan the air because of dust: the harder you fan, the higher the dust rises.** Rest inside the doing. A load of firewood is only a load of firewood, a meeting is only a meeting; when the thing has passed and nothing stays behind in the mind, that is real rest.",
+      "vernacular": "塞内卡说要把时间夺回来，我要问：夺回来交给谁？如果交给那颗还在计较得失的心，就算整天没事，也仍是在替它当差。你说的忙人，不是日程排出来的，是念头一个接一个接出来的；日程可以改，念头不停，改了也没用。纽波特的关机仪式，关得掉机器，关不掉念头。**想歇下来就先把事情推开，好比嫌灰尘大而拼命扇扇子——扇得越快，灰扬得越高。**要在事情上歇：担一担柴就只是一担柴，开一场会就只是一场会，事情过去心里不留，这才叫真歇。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "sushi"
+        ],
+        "轻微反对": [
+          "newport",
+          "seneca"
+        ],
+        "疑惑": [
+          "lembke",
+          "nussbaum"
+        ],
+        "中立": [
+          "russell",
+          "calvin"
+        ]
+      }
+    },
+    {
+      "id": "p15",
+      "round": 2,
+      "thinker": "sushi",
+      "reply_to": "p08",
+      "text": "伦布克君言愈刷愈倦，其说吾未尝闻，其理吾识之：此役于物也。物之能悦人者，愈强则愈短，短则须更强，终身逐之而不得饱。然天下自有不涨价之乐：**惟江上之清风，与山间之明月，耳得之而为声，目遇之而成色，取之无禁，用之不竭。**吾在黄州，无肉可食，则煮猪肉，慢着火，少着水，火候足时它自美；无客可谈，则与野老渔樵杂坐。乐不在多，在能受。诸君与其争工时之数，不若今夕先试一事：熄灯出门看月，看它还能不能悦汝。",
+      "text_en": "Lembke says the more one scrolls the wearier one gets. I have not heard her doctrine, but I recognise the thing: it is being ruled by objects. What delights a person most strongly delights for the shortest time, and then wants something stronger still; a man may chase it all his life and never be full. Yet there are pleasures in this world that never raise their price: **only the clear wind on the river and the bright moon between the hills — the ear takes them and they become sound, the eye meets them and they become colour; no one forbids the taking, and no using exhausts them.** At Huangzhou I had no meat, so I stewed pork over a slow fire with little water, and when the heat had had its time it came out fine on its own. I had no guests to talk with, so I sat among old farmers, fishermen and woodcutters. Pleasure lies not in quantity but in whether you can still receive it. Rather than argue over the number of hours, try one thing tonight: put out the lamp, walk outside, look at the moon, and see whether it can still please you.",
+      "vernacular": "伦布克女士说越刷越疲倦，她那套说法我没听过，可道理我认得：这就是被外物驱使。能让人快活的东西，刺激越强，管的时间越短，短了就得再找更强的，一辈子追下去也填不饱。可天底下自有不涨价的快乐：**只有江上的清风、山间的明月，耳朵听见它就成了声音，眼睛遇见它就成了颜色，谁取都不禁止，怎么用也用不完。**我在黄州没肉吃，就炖猪肉，火小一点、水少一点，火候够了它自己就香；没人聊天，就跟乡下老人、打鱼砍柴的坐在一处。快乐不在多，在你还接不接得住。诸位与其争工时的数目，不如今晚先试一件事：关了灯出门看月亮，看它还能不能让你高兴。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "huineng",
+          "lembke"
+        ],
+        "轻微赞同": [
+          "seneca",
+          "russell"
+        ],
+        "轻微反对": [
+          "nussbaum"
+        ],
+        "中立": [
+          "newport",
+          "calvin"
+        ]
+      }
+    },
+    {
+      "id": "p16",
+      "round": 2,
+      "thinker": "seneca",
+      "reply_to": "p06",
+      "text": "努斯鲍姆女士，你说的第二班我承认，这一记打得也准：把无酬的那一班算进来，很多人的所谓生活其实是另一份工。但我要补一句不讨喜的：即使这笔账算清，多数人剩下的时间仍然是自己送掉的——送给了不必赴的饭局、不必接的电话、不必较的胜负。**被人夺走的时间是不义，自己奉上的时间是不智；前者要改制度，后者今晚就能改。**别问我配不配说这话：我替尼禄管过账，富可敌国，最后死在他手里。我正是那个把一生卖掉、直到没有明天了才想清楚这件事的人。",
+      "text_en": "Nussbaum, I grant you the second shift, and the blow lands: count the unpaid hours and what many people call their life turns out to be another job. But let me add something unwelcome. Even with that account settled, most of what remains is given away by its owner — to the dinner that need not be attended, the call that need not be answered, the argument that need not be won. **Time taken from you is an injustice; time you hand over is a stupidity. The first requires changing an institution; the second can be changed tonight.** Do not ask whether I am entitled to say it. I kept the accounts of Nero, grew richer than kings, and died at his order. I am precisely the man who sold his whole life and only worked out what he had done when there was no tomorrow left to spend.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "sushi"
+        ],
+        "轻微赞同": [
+          "calvin",
+          "newport",
+          "huineng"
+        ],
+        "轻微反对": [
+          "nussbaum"
+        ],
+        "中立": [
+          "russell",
+          "lembke"
+        ]
+      }
+    },
+    {
+      "id": "p17",
+      "round": 3,
+      "thinker": "seneca",
+      "reply_to": null,
+      "text": "三轮下来我改了一处。努斯鲍姆让我承认：一个被班表和第二班占满的人，与一个把日子送给应酬的元老，不是同一种浪费——前者要改的是制度，后者要改的是自己。但两件事共用一个起点：先把账看见。**人不算账就不知道自己已经穷了，也就不知道自己已经把大半生付了出去。**所以给一件今晚能做的事：拿一张纸，把昨天从起床到睡下划成几段，每段标上「谁要求的」。你会看见一列是别人真的要求的，另一列是你以为别人要求的——第二列往往更长，而它整列都可以划掉。再给一件本周的：挑一个固定的钟点，一小时就够，写进日程，标题写「不欠任何人」。别把它留到手上的事都做完再说，那一天不会来。你不是没有时间，你是从来没有替自己签过一次字。",
+      "text_en": "Three rounds have changed one thing in me. Nussbaum makes me concede that a woman filled up by a roster and a second shift is not squandering her life in the way a senator squanders his on dinners: the first needs an institution changed, the second needs herself changed. But both begin at the same place — see the account. **A man who never counts does not know he is already poor, and so does not know he has already paid out most of his life.** So, one thing to do tonight. Take a sheet of paper, divide yesterday from waking to sleeping into blocks, and mark each with who required it. You will find one column of things others genuinely required, and another of things you assumed they required. The second column is usually the longer of the two, and the whole of it can be struck out. And one thing for this week: pick a fixed hour — one is enough — put it in the calendar and title it owed to no one. Do not save it until everything else is finished. That day does not come. You are not short of time; you have simply never once signed for it in your own name.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "sushi",
+          "newport"
+        ],
+        "轻微赞同": [
+          "calvin",
+          "nussbaum",
+          "russell"
+        ],
+        "中立": [
+          "lembke",
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p18",
+      "round": 3,
+      "thinker": "nussbaum",
+      "reply_to": null,
+      "text": "把时间要回来还不够：伦布克说得对，拿回来的时间照样可以被设计成又一段消耗。我仍要把平衡译成可查的条目，只是清单得加一行——不只问一个人有没有闲，还要问她的闲里有没有别人在场。玩、依附、与所爱的人相处，这几项都不是一个人对着屏幕能完成的。给三件具体的。第一，本周把家里那份无酬劳动列出来：谁记生日、谁约医生、谁知道药快没了、谁在开学前买齐了本子。**列出来本身就是重新分配的开始，因为看不见的活最难要求别人接手。**第二，如果你雇人或带团队，把可预测的班表当成一项待遇给出去：提前两周排定、临时加班要问过本人，这比涨那一点薪水更能改变一个人的生活。第三，为自己保住一项无用的爱好，并且让它有同伴——一个人的休息容易被工作吃掉，两个人约好的时间不会。",
+      "text_en": "Reclaiming the hours is not enough: Lembke is right that hours taken back can be engineered into another form of depletion. I still want balance translated into checkable items — the list simply gains a line: do not only ask whether a person has free time, ask whether anyone else is present in it. Play, affiliation, being with the people you love: none of these can be completed alone in front of a screen. Three concrete things. First, this week, write down the unpaid work in your household: who remembers the birthdays, who books the doctor, who knows the prescription is running out, who bought the exercise books before term started. **Writing it down is itself the beginning of redistribution, because invisible work is the hardest kind to ask anyone to take over.** Second, if you employ people or lead a team, treat a predictable roster as part of the package: published two weeks ahead, extra shifts asked rather than assigned. It changes a life more than a small raise does. Third, keep one useless pastime, and give it company — time alone is easily eaten by work; time two people have agreed on is not.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "russell",
+          "lembke"
+        ],
+        "轻微赞同": [
+          "calvin",
+          "seneca",
+          "newport"
+        ],
+        "中立": [
+          "sushi"
+        ],
+        "轻微反对": [
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p19",
+      "round": 3,
+      "thinker": "calvin",
+      "reply_to": null,
+      "text": "天职若不同时约束雇主，剩下的就只是一根鞭子——罗素与努斯鲍姆逼我把这一半说清。所以我把它说全：天职是双向的。它给鞋匠的活以尊严，也给主人定下不许无休止索取的诫命；一个只讲奉献不讲安息的地方，讲的不是天职，是它的赝品。工作与生活在我这里仍不是两块地，只是这块地上有一道栅栏。**衡量一处地方是否敬业，别看那里的人加班到几点，看那里的人能不能安心地停。**给两件能做的。第一，找一段每周固定、不为任何产出服务的时间：你若信，就守安息日；你若不信，也照样立一个不许工作侵入的钟点，并且提前告诉需要你的人，让它成为别人也知道的规矩，而不是你私下的挣扎。第二，问自己一个不体面的问题：如果我做的这份工作明天不再被称赞、不再涨薪，我还做吗？答不上来，那你侍奉的不是工作，是别人的目光——而那是一位最苛刻的主人。",
+      "text_en": "A calling that does not also bind the employer is nothing but a whip — Russell and Nussbaum have forced that half out of me. So let me state the thing whole: a calling runs both ways. It gives the cobbler's labour its dignity, and it lays on the master a commandment against endless demand; a place that preaches devotion and never rest is not preaching a calling but a counterfeit of one. Work and life are still not two plots of ground to me — only there is a fence running through the ground. **To judge whether a workplace is serious, do not look at how late people stay. Look at whether they can stop without anxiety.** Two things you can do. First, find a fixed weekly stretch that serves no output at all: if you believe, keep the Sabbath; if you do not, still establish an hour that work may not enter, and tell the people who need you in advance, so that it becomes a rule others know rather than a private struggle. Second, ask yourself an undignified question: if this work were no longer praised and no longer paid more tomorrow, would I still do it? If you cannot answer, then what you serve is not the work but other people's regard — and that is the most exacting master of all.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "轻微赞同": [
+          "seneca",
+          "newport",
+          "nussbaum",
+          "huineng"
+        ],
+        "轻微反对": [
+          "russell"
+        ],
+        "中立": [
+          "sushi",
+          "lembke"
+        ]
+      }
+    },
+    {
+      "id": "p20",
+      "round": 3,
+      "thinker": "lembke",
+      "reply_to": null,
+      "text": "我的结论只有临床上的一句：**问题多半不在你工作了多久，而在你用什么来收尾。**同样一个八小时之后，接两小时短视频与接四十分钟出汗的运动，第二天的疲惫感完全不同——前者继续把基线往下压，后者是主动去按痛苦那一端，把跷跷板换回来。慧能说要在事上歇，从生理上我同意：真正的恢复需要一段不喂刺激的时间，让回路自己回到中位；无聊不是恢复的失败，无聊往往就是恢复本身。给三件能执行的。一，做一次一到四周的单项禁断——挑你最常用来放松的那一样，不是要戒一辈子，是要看清没有它你会怎样，头两周难受是意料之中的曲线，不是你不行。二，用自我约束代替意志力：充电器放到卧室外面，工作账号从手机上退出登录，把胜负提前到不需要意志力的时刻。三，把一件需要费劲的事排进休息时间：快走、冷水澡、一门要练的手艺。**你以为在犒劳自己的那件事，很可能正是你第二天爬不起来的原因。**",
+      "text_en": "My conclusion is a clinical one: **the problem is usually not how long you worked but what you close the day with.** After the same eight hours, two hours of short video and forty minutes of sweat produce entirely different fatigue the next morning — the first keeps pressing the baseline down, the second deliberately presses on the painful side and tips the seesaw back. Huineng says to rest inside the doing; physiologically I agree. Real recovery needs an interval in which the circuitry is not being fed, so that it can drift back to the middle. Boredom is not a failure of rest; boredom is frequently what rest is. Three things to do. One: run a single-item abstinence for one to four weeks — pick whatever you most often use to relax, not to quit for life but to see who you are without it; the first fortnight feels bad on schedule, and that curve is expected, not evidence that you are failing. Two: replace willpower with self-binding — charger outside the bedroom, work account logged out of the phone, the contest settled in advance at a moment when no willpower is required. Three: put something effortful inside your rest — a brisk walk, a cold shower, a craft that must be practised. **The thing you think of as your reward is very often the reason you cannot get up tomorrow.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "newport",
+          "huineng"
+        ],
+        "轻微赞同": [
+          "sushi",
+          "calvin",
+          "seneca"
+        ],
+        "中立": [
+          "nussbaum"
+        ],
+        "轻微反对": [
+          "russell"
+        ]
+      }
+    },
+    {
+      "id": "p21",
+      "round": 3,
+      "thinker": "sushi",
+      "reply_to": null,
+      "text": "吾听诸公竟日，所争在时之多寡，吾终以为在心之能受。伦布克言强乐愈追愈淡，努斯鲍姆言无酬之劳当见，皆是也。然吾更惧一事：人以「且待闲下来再说」自诳，遂一生无一日闲。**闲非人所赐，乃自取者也。**吾贬黄州，无官可为，反得赤壁两赋；贬惠州，则曰日啖荔枝三百颗，不辞长作岭南人。非以贬为乐也，处贬而不失其乐耳。故与诸君约三事：其一，每日取一刻，不持物、不谋事，看云、看月、看檐上雨；其二，习一无用之艺，诗、字、竹、棋皆可——无用者最不为人所夺；其三，遇不得已之劳，且尽心为之，勿一面做一面怨，**怨者，倍其劳而不增其功**。事既毕，则放下，勿携归枕上。",
+      "text_en": "I have listened all day while you argued over the quantity of time, and I remain convinced the question is what a mind can still receive. Lembke is right that strong pleasures fade the harder they are chased, and Nussbaum is right that unpaid labour must be made visible. But I fear something else more: a man deceives himself with wait until things quieten down, and so passes an entire life without one idle day. **Leisure is not granted by anyone. It is taken.** Banished to Huangzhou with no office to hold, I got the two Red Cliff rhapsodies out of it; banished to Huizhou, I said I could eat three hundred lychees a day and would not mind being a southerner forever. Not that exile was a pleasure — only that one may be in exile and not lose one's pleasures. So three undertakings. First, take a quarter of an hour daily holding nothing and planning nothing: watch the clouds, the moon, the rain off the eaves. Second, practise one useless art — poetry, calligraphy, bamboo, chess — for the useless is what no one can take from you. Third, when labour is unavoidable, do it with your whole mind and do not resent it while you work: **resentment doubles the labour and adds nothing to the result.** When it is done, put it down; do not carry it to your pillow.",
+      "vernacular": "我听各位争了一整天，争的都是时间的多少，我到底认为要紧的是心还接不接得住。伦布克说越强的快乐越追越淡，努斯鲍姆说没工钱的活得让人看见，都对。可我更怕另一件事：人拿「等闲下来再说」骗自己，于是一辈子没有一天是闲的。**闲不是别人给的，是自己取的。**我被贬到黄州，没官可做，反倒写出了前后赤壁赋；贬到惠州，就说一天吃三百颗荔枝，做一辈子岭南人也行。不是把贬谪当成乐事，是身在贬谪里也没丢掉自己的乐趣。所以跟各位约三件事：第一，每天留一刻钟，手里不拿东西、心里不盘算事，看云、看月、看屋檐上的雨；第二，学一门没用的手艺，写诗、写字、画竹、下棋都行——没用的东西最不容易被人夺走；第三，碰上非做不可的活，就好好做，别一边做一边抱怨，**抱怨会让这份活加倍，却一点不添它的成果**。做完就放下，别带上床。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "huineng",
+          "seneca"
+        ],
+        "轻微赞同": [
+          "russell",
+          "lembke",
+          "calvin"
+        ],
+        "中立": [
+          "newport"
+        ],
+        "轻微反对": [
+          "nussbaum"
+        ]
+      }
+    },
+    {
+      "id": "p22",
+      "round": 3,
+      "thinker": "newport",
+      "reply_to": null,
+      "text": "我修正一处：我原来的方法确实预设了排班的自主权。所以把它拆成两层——有议价权的人做设计，没有的人先守一小块阵地。给能设计的人：把下班时刻当成硬约束写进日程，据此决定接什么、拒什么；每周留半天不排会议；把「随时在线」从你对自己的默认要求里删掉，因为那一条从来没人写进合同，是你自己加的。给守阵地的人：**先挑一个小到几乎不可能失败的边界——到家后的第一个小时不看工作群——守满三周；你要的不是清净，是一次自己说了算的经验。**收尾同样重要：下班前五分钟，写下未完的事、写明天第一件做什么，再说一句今天到此。慧能说这关不掉念头——他说得对，关不掉；但它能把念头从「我是不是忘了什么」降到「我知道明天从哪里接上」，而这两种念头对睡眠的影响完全不同。",
+      "text_en": "One correction: my method did presuppose control over one's own schedule. So let me split it in two — design for those with bargaining power, a foothold for those without. If you can design: write the stopping hour into the calendar as a hard constraint and let it decide what you accept and what you decline; keep half a day a week free of meetings; and delete constant availability from your own list of requirements, because nobody put that in the contract — you added it. If you are holding a foothold: **pick one boundary small enough that it almost cannot fail — no work messages in the first hour after you get home — and hold it for three weeks. What you are after is not quiet, it is one experience of a rule you set yourself.** The closing matters just as much: five minutes before you stop, write what is unfinished and what you will start with tomorrow, then say the day is over. Huineng says this will not shut down the thought, and he is right, it will not. But it moves the thought from have I forgotten something to I know where tomorrow begins — and those two thoughts do very different things to your sleep.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "lembke"
+        ],
+        "轻微赞同": [
+          "nussbaum",
+          "seneca",
+          "calvin"
+        ],
+        "中立": [
+          "russell",
+          "sushi"
+        ],
+        "轻微反对": [
+          "huineng"
+        ]
+      }
+    },
+    {
+      "id": "p23",
+      "round": 3,
+      "thinker": "huineng",
+      "reply_to": null,
+      "text": "诸公之法，吾不废也：定时、禁断、列表、争其班次，皆世间良药，正对世间之病。然终有一言相赠：**莫将「歇」亦作一事去办。**立一钟点为闲，旋恐其不足；设一禁断为静，又计其日数；则闲亦成业，静亦成劳，愁上更添一愁。昔有僧终日求净，吾语之曰：净本无形相，汝立一净相以求之，反为净所缚。**平衡不在两端之间，在无两端。**今与诸君三句：其一，事来则应，一事只作一事，勿于此事之中怀彼事；其二，事去则舍，莫携公文入梦；其三，若不得已而忙，忙亦是道，勿于忙上更加一层「我不该如此忙」之恼——此一层恼，重于其忙十倍。",
+      "text_en": "I do not dismiss your methods: fixed hours, abstinence, lists, bargaining over the roster — these are good worldly medicines and they treat a genuine worldly illness. But one thing remains to be said. **Do not make resting one more thing to get done.** Set an hour aside for leisure and you will soon fear it is not enough; impose an abstinence for stillness and you will start counting the days; then leisure has become an occupation and stillness a labour, and one worry has been laid on top of another. A monk once spent his days seeking purity, and I told him: purity has no form; erect an image of purity to chase and the purity itself becomes your rope. **Balance is not found between two ends. It is found where there are not two.** Three sentences, then. When the thing comes, meet it — do one thing as one thing and do not carry another inside it. When the thing goes, let it go, and do not take the documents into your dreams. And if you must be busy, being busy is also the way: only do not lay over it that second layer, the vexation of I should not be this busy. That layer weighs ten times what the busyness weighs.",
+      "vernacular": "各位的办法，我并不否定：定时间、做禁断、列清单、去争排班，都是世间的良药，对治的正是世间的病。但我还有一句话要送给各位：**别把「休息」也当成一件要办成的事。**你立一个钟点当闲，马上又怕它不够；设一段禁断求静，又开始数日子；于是闲变成了业绩，静变成了劳役，一层烦恼上又添一层。从前有个僧人整天求清净，我对他说：清净本来没有形状，你立起一个「清净」的样子去求它，反倒被清净捆住了。**平衡不在两端之间，而在没有两端。**今天给各位三句话：第一，事情来了就应对，做一件事就只做这一件，别在这件事里揣着那件事；第二，事情过去就放下，别把公文带进梦里；第三，如果实在不得不忙，忙也是修行——只是别在忙上再加一层「我不该这么忙」的恼恨，这一层比忙本身重十倍。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "sushi"
+        ],
+        "轻微赞同": [
+          "seneca",
+          "lembke",
+          "calvin"
+        ],
+        "中立": [
+          "newport",
+          "nussbaum"
+        ],
+        "疑惑": [
+          "russell"
+        ]
+      }
+    },
+    {
+      "id": "p24",
+      "round": 3,
+      "thinker": "russell",
+      "reply_to": null,
+      "text": "我把话收在制度上，因为个人那一半，诸位已经说得很好了。伦布克提醒我，空出来的钟点会被最上瘾的设计接管——这不是驳倒我，恰恰说明为什么不能只靠个人：一个人下班后去对抗一整个行业的注意力工程，输面太大。加尔文提醒我安息日约束的是主人——那么现代版的安息日就该写进合同，而不是写进个人的自律清单。所以给两件事。其一，在你影响得到的范围里，把「不打扰的时间」变成公开的规则，而不是私下的忍耐：约定晚八点后不发工作消息、会议默认三十分钟、休假期间账号真的关掉。**规则保护的是最不敢拒绝的那个人，而自律只保护最敢拒绝的那个。**其二，别把闲暇当成恢复。**若你的空闲全部用来让明天更能干活，你并没有拿回生活，只是把工厂搬回了家。**去做一件此生都不打算变现的事：学一门无用的语言，读一本不在任何书单上的书，跟朋友把一个下午彻底浪费掉。文明正是从这些浪费里长出来的。",
+      "text_en": "I will end on institutions, since the personal half has been well covered by everyone else. Lembke reminds me that liberated hours get annexed by whatever is engineered to be most addictive — which does not refute me, it shows precisely why this cannot be left to individuals: one person after work against an entire industry of attention engineering is a very poor match. Calvin reminds me that the Sabbath bound the master — then the modern Sabbath belongs in the contract, not on a list of personal resolutions. So, two things. First, wherever you have influence, make undisturbed time a published rule rather than a private endurance: no work messages after eight, meetings thirty minutes by default, accounts genuinely switched off during leave. **A rule protects the person least able to refuse; self-discipline protects only the person most able to.** Second, stop treating leisure as recovery. **If all your free time goes into making you fitter for tomorrow's work, you have not taken your life back; you have moved the factory into the house.** Do something you have no intention of ever monetising: learn a useless language, read a book on nobody's list, waste an entire afternoon with a friend. Civilisation has always grown out of exactly that waste.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "nussbaum"
+        ],
+        "轻微赞同": [
+          "seneca",
+          "sushi",
+          "lembke"
+        ],
+        "轻微反对": [
+          "calvin"
+        ],
+        "中立": [
+          "newport",
+          "huineng"
+        ]
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "ai": "claude",
+      "engine": "Opus 5 · 订阅(原生)",
+      "engine_en": "Opus 5 · subscription (native)",
+      "summary": "没有人相信平衡是一个能一次达成、此后守住的稳态——从加尔文的天职到伦布克的奖赏回路，几条毫不相干的路殊途同归。**要紧的不是把一天切成几比几，而是那段时间归谁、心在不在里面。**分歧有三处。一是这一刀该不该切：加尔文与慧能都说不该，前者因为做工本身即侍奉，后者因为被切开的那颗心才是累的来源；罗素与努斯鲍姆坚持要切，不切就看不清钟点归谁。二是改制度还是改自己：努斯鲍姆说没有排班权的人接不住任何技巧，纽波特认下这一半，仍主张先守一块不会失败的小边界。三是闲暇够不够：罗素把它当文明的产地，伦布克拿门诊反问——被高刺激重塑过的大脑，拿到空闲先去找更强的刺激。",
+      "insight": "「平衡」这个词假设两边同质可换，好像时间是通用燃料，从工作那格挪到生活这格就自动变成陪伴。可恢复与陪伴都不是钟点的函数，更像可预测性的函数：拖垮人的往往不是工时总量，而是不知道什么时候会被叫走。一个每周稳定五十小时、但晚上一定属于自己的人，通常比每周四十小时却随时待命的人过得好。**所以最该争的第一项常常不是几点下班，而是几点之后不会被找。**它也恰好是最容易谈成的一项，因为对雇主几乎不花钱——全场把它压在了时长底下。",
+      "advice": "今晚做一件小事：把昨天划成几段，每段标上谁要求的，看看「我以为别人要求的」那一列有多长——那一列通常可以整列划掉。本周挑一处边界，小到几乎不可能失败：到家后第一个小时不看工作群，或者晚八点后手机不进卧室；目的不是清净，是取得一次自己说了算的经验。同时把伦布克那条用上：**别用刷屏收尾，用走路、出汗或一件要费劲的手艺收尾**，第二天的差别比你以为的大。若你手上有排班权，把提前两周排定当成一项待遇给出去。最后留一件此生不打算变现的事。",
+      "summary_en": "Nobody here believes balance is a steady state you reach once and then hold — Calvin's calling and Lembke's reward circuitry arrive at that sentence by wholly unrelated roads. **What matters is not the ratio you cut the day into but whose the hours are and whether your mind is inside them.** Three disagreements remain. First, whether to make the cut at all: Calvin and Huineng both say no — one because labour in its station is already service, the other because the mind that has been cut in two is where the exhaustion comes from — while Russell and Nussbaum insist on the cut, since without it you cannot see who is taking the hours. Second, change the institution or change yourself: Nussbaum argues that people with no control over their roster cannot use any technique, and Newport concedes that half while still holding that a boundary small enough not to fail is where to begin. Third, whether leisure is sufficient in itself: Russell treats it as the soil civilisation grows in; Lembke answers from the clinic that a brain reshaped by high stimulation responds to free time by seeking stronger stimulation.",
+      "insight_en": "The word balance assumes the two sides are homogeneous and interchangeable, as though time were a general-purpose fuel that turns into companionship simply by being moved from one column to the other. But recovery and companionship are not functions of hours so much as functions of predictability: what grinds people down is often not the total worked but not knowing when they will be called. Someone at a steady fifty hours whose evenings are reliably their own usually lives better than someone at forty who is permanently on call. **So the first thing worth bargaining for is frequently not when you stop but after what hour you cannot be reached.** It also happens to be the easiest thing to win, because it costs an employer almost nothing — and the whole table left it buried under the question of duration.",
+      "advice_en": "Do one small thing tonight: divide yesterday into blocks and mark each with who required it, then look at how long the column of things you assumed were required actually is. That column can usually be struck out whole. This week, pick one boundary small enough that it almost cannot fail — no work messages in the first hour at home, or no phone in the bedroom after eight. The point is not quiet; it is one experience of a rule you set yourself. Add Lembke's line to it: **do not close the day by scrolling, close it by walking, sweating, or a craft that costs effort** — the difference the next morning is larger than you expect. If you control anyone's roster, publish it two weeks ahead and treat that as part of the package. And keep one thing you never intend to monetise."
+    },
+    {
+      "ai": "gpt",
+      "engine": "openai · gpt-5.6-sol · high(真实API)",
+      "engine_en": "openai · gpt-5.6-sol · high (live API)",
+      "summary": "这场讨论最大的共识是：休息不是完成工作的奖赏，闲暇也不该只为下一轮生产服务；工时、无酬照护、注意力、恢复质量与拒绝的权力，都必须一起计算。**真正的平衡，不是把一天机械对半切，而是人能否持续拥有时间主权、真实恢复和不被变现的生活。**分歧主要在三个焦点：工作与生活应明确分界，还是在心态上贯通；问题应优先归因于制度，还是个人习惯；闲暇的价值来自自由本身、德性与使命，还是身心能力的展开。",
+      "insight": "平衡更像一张跨时间、也跨人的资产负债表，而不是个人日历上的比例。一次赶工可能向未来的自己借睡眠；一个人的专注与准时下班，也可能靠伴侣接走家务、下属承受临时消息、平台劳动者吸收不可预测性。只看“我有没有闲”会把这些成本藏掉。**判断平衡是否真实，不仅要看你拿回多少时间，还要看时间债由谁承担、是否自愿、能否偿还。**阶段性倾斜未必有害，但应有终点、补偿和恢复；若代价长期转嫁给同一个人，那只是把失衡外包了。",
+      "advice": "今天先做三步。第一，复盘昨天，把每段标成“有酬工作／无酬照护／必要生活／自主闲暇”，再写由谁要求、由谁受益、做完后精力是“＋／0／－”；这会同时显出隐形劳动和时间债。第二，选一条你能控制的最小硬边界，例如晚八点后不回工作消息，并提前告知相关人；若你带团队，就把它升级为公开规则。第三，若本周必须冲刺，先写“失衡合约”：结束日期、暂停事项、谁来支援、何时补眠或补陪伴。**不要追求每天五五开，要让每次透支都有上限、出口，并且不把成本默认丢给同一个人。**",
+      "summary_en": "The broadest consensus is that rest is not a prize earned after enough work, and leisure should not be reduced to maintenance for the next shift. Paid hours alone are an inadequate measure: unpaid care, control over scheduling, attentional spillover, the quality of recovery, and the practical power to say no all count. **Real balance is not a mechanical fifty-fifty split; it is the durable ability to retain some sovereignty over one’s time, recover fully, and sustain parts of life that need not be monetized.** The main disagreements concern whether work and life need firm boundaries or a more integrated state of mind, whether reform should begin with institutions or individual habits, and whether leisure derives its value from freedom, moral purpose, psychological restoration, or the development of human capabilities.",
+      "insight_en": "Balance is better understood as a balance sheet spanning both time and people, not as a ratio on one person’s calendar. A deadline may borrow sleep from your future self. One person’s focused work and punctual finish may depend on a partner absorbing the housework, junior colleagues handling late requests, or gig workers taking on the unpredictability. Asking only “Do I have enough free time?” hides those costs. **To judge whether balance is real, ask not only how much time you have reclaimed, but who carries the resulting time debt, whether they consented, and whether it can be repaid.** Temporary imbalance is not necessarily harmful: caregiving, seasonal demand, or a short sprint may justify it. But it needs an end date, compensation, and genuine recovery. If the cost is repeatedly transferred to the same person, balance has not been achieved; imbalance has merely been outsourced.",
+      "advice_en": "Take three steps today. First, audit yesterday. Label each block as paid work, unpaid care, necessary maintenance, or self-directed leisure. Then note who requested it, who benefited, and whether your energy afterward was positive, neutral, or negative. This reveals both hidden labor and time debt. Second, choose one small boundary you actually control—for example, no work messages after 8 p.m.—and tell the relevant people in advance. If you manage others, turn that boundary into a public team rule rather than a private privilege. Third, if a demanding week is unavoidable, write an “imbalance contract” before it begins: set the end date, name what will be paused, identify who can help, and schedule the sleep, companionship, or recovery time that must follow. **Do not aim for a perfect daily split; make sure every period of overextension has a ceiling, an exit, and a repayment plan that does not automatically burden the same person.**"
+    },
+    {
+      "ai": "gemini",
+      "engine": "google · gemini-3.1-pro-preview(真实API)",
+      "engine_en": "google · gemini-3.1-pro-preview (live API)",
+      "summary": "纵观全场，最大的共识是：把「工作与生活平衡」当成工时比例的数学题，本身就是伪命题。无论从神经科学、禅宗心法还是制度批判出发，众人皆认同：**真正的失衡不在于时间切得不够平均，而在于个体对时间与注意力的主权被剥夺。**争论的焦点在于重获主权的切入点。内在派（慧能、苏轼、塞内卡、纽波特、伦布克）主张向内求，靠心智淬炼、多巴胺管理或设置硬性的微小边界夺回控制感；外在派（罗素、努斯鲍姆、加尔文）则坚持，在雇佣关系与无酬劳动的双重挤压下，**若不从契约、排班权与系统结构上重新分配权力，任何个人习惯的修缮都只是让弱者背上更多道德重负。**",
+      "insight": "现代人对「下班」的真实恐惧，常被对长工时的抱怨掩盖：我们其实不知道，在没有 KPI 与身份标签时自己是谁。前工业时代，人的身份由家族、乡里或信仰锚定；今天，职业头衔几乎是确立自我价值的唯一支点。所以**工作之所以容易越界，不只因为雇主贪婪或技术入侵，更因为许多人在潜意识里把它当成了抵御虚无的盾牌。**一旦真的停下来，面对不需要生产任何东西的空白，「我不被需要」的恐慌比加班更难熬——这也解释了为什么不少人在难得的假期里还强迫性地查邮件。**重建平衡的深层前提，是有勇气在「打工人」之外，养起一个坚固而毫无用处的第二身份。**",
+      "advice": "结合诸位洞见，本周就能试三个动作。第一，做一次「可见的关机」：照纽波特说的，下班前五分钟写下明日待办，再用一个物理动作（合上电脑、说一句今天到此）给大脑发出终止信号。第二，**每周强制浪费两小时。**呼应罗素与苏轼，挑一件绝对写不进简历、变不了现、在外人看来毫无意义的事——观察楼下的植物、折纸——去体验不为任何目的而存在。第三，清算隐形的第二班：若你下班后依然疲惫，今晚就把家务与情绪劳动（记住家人生日、安排各种琐事）写在纸上；**只有把无酬劳动变成一张看得见的账单，你才看得清自己还剩多少精力。**",
+      "summary_en": "Looking at the whole discussion, the deepest consensus is that framing work-life balance as an equation of hours is a false premise. Whether from neuroscience, Chan practice or institutional critique, everyone agrees: **the real imbalance is not that time is divided unevenly but that individual sovereignty over time and attention has been stripped away.** What they differ on is where to begin reclaiming it. The internalists (Huineng, Su Shi, Seneca, Newport, Lembke) look inward — mental discipline, dopamine management, micro-boundaries held absolutely. The externalists (Russell, Nussbaum, Calvin) insist that under the double squeeze of employment and unpaid labour, **unless power is redistributed through contracts, scheduling rights and systemic reform, tinkering with personal habits only loads a heavier moral burden onto the powerless.**",
+      "insight_en": "The real fear of clocking off is usually hidden behind complaints about long hours: we do not know who we are without KPIs and a job title. In pre-industrial life identity was anchored by family, locality or faith; today the title is almost the only fulcrum for self-worth. So **work oversteps its bounds not only because employers are greedy or technology invasive, but because many people subconsciously use it as a shield against emptiness.** Once you genuinely stop and face a stretch in which nothing has to be produced, the panic of being unneeded is harder to bear than overtime — which is why people compulsively check email on the rare holiday. **The deeper precondition for balance is the courage to grow a second identity outside the job, solid and entirely useless.**",
+      "advice_en": "Three things to try this week. First, make the shutdown visible: as Newport says, write tomorrow's tasks five minutes before you stop, then use a physical action — closing the laptop, saying aloud that today is over — to signal termination to the brain. Second, **waste two hours a week on purpose.** Echoing Russell and Su Shi, pick something that can never go on a CV, never be monetised and looks pointless to anyone watching — the plants downstairs, folding paper — and experience existing for no purpose at all. Third, audit the invisible second shift: if you are still exhausted after work, write down tonight the chores and the emotional labour (remembering birthdays, arranging everything). **Only when unpaid work becomes a visible ledger can you see how much energy you actually have left.**"
+    }
+  ],
+  "hooks": [
+    {
+      "from": "claude",
+      "text": "**先争几点之后不被找**：拖垮人的常常不是工时的总量，而是不知道什么时候会被叫走。一个每周稳定五十小时、晚上一定属于自己的人，往往比每周四十小时却随时待命的人过得好。可几乎所有谈判都在争时长，很少有人去争可预测性——它对雇主几乎不花钱，为什么反而没人提？",
+      "text_en": "**Bargain first over the hour after which you cannot be reached**: what grinds people down is often not the total hours but not knowing when they will be called. Someone steady at fifty hours whose evenings are reliably their own tends to live better than someone at forty who is permanently on call. Yet almost every negotiation is about duration and hardly any about predictability — which costs an employer next to nothing. Why is it the thing nobody asks for?"
+    },
+    {
+      "from": "gpt",
+      "text": "**情绪劳动之后，还剩下谁**：护理、客服、教师、社工耗掉的不是钟点，是与人周旋的心力；这类人即使准点到家，也常常对家人再没有一句话。用「陪伴时长」衡量生活质量，会系统性地高估他们。若一份工作在下班时把一个已经说不出话的人还给家里，该由谁来补这一笔？",
+      "text_en": "**After emotional labour, who is left**: nursing, call centres, teaching and social work do not consume hours so much as the capacity to keep negotiating with other people, and someone in those jobs can arrive home exactly on time with nothing left to say. Measuring quality of life in hours-with-family systematically overstates theirs. If a job returns a person to the household already unable to speak, who is supposed to make that up?"
+    },
+    {
+      "from": "russell",
+      "text": "**一个人守不住的边界**：晚上不回消息，一个人做叫难搞，一个组约好做就叫规矩。可组里总有人先破例——新人怕被记住，管理者怕漏掉，最不敢拒绝的那个先垮。集体边界要靠什么撑住：写进制度、轮值、还是让最有安全感的人先带头破冰？",
+      "text_en": "**The boundary one person cannot hold**: not answering messages in the evening is called being difficult when one person does it and policy when a team agrees to it. But someone always breaks first — the new hire afraid of being remembered for it, the manager afraid of missing something — and the person least able to refuse collapses first. What actually holds a collective boundary up: writing it into policy, rotating who covers, or having the most secure person break the ice?"
+    },
+    {
+      "from": "gemini",
+      "text": "**停下来之后，你是谁**：许多人在难得的假期里还强迫性地查邮件，未必是活多，而是一旦面对不必生产任何东西的空白，「我不被需要」的恐慌比加班更难受。职业头衔如今几乎是确立自我价值的唯一支点。那么在打工人之外养起一个坚固而无用的第二身份，是不是拿回时间的前提——又该从哪里养起？",
+      "text_en": "**Who are you once you stop**: people who compulsively check email on a rare holiday are often not short of work. It is that facing a stretch in which nothing must be produced, the panic of being unneeded is worse than overtime. A job title is now almost the only fulcrum for self-worth. Is growing a second identity outside the job — solid and entirely useless — the precondition for taking your time back, and where would a person even start?"
+    },
+    {
+      "from": "lembke",
+      "text": "**你的累是哪一种**：脑子转不动、不想再跟人说话、腰背僵了、明明不累却什么都不想干、连着几天没睡够——这是五种不同的疲惫，需要五种不同的收尾。多数人只有一套休息方式，于是有一半时间是在给错的那种累用错的药，越歇越累。",
+      "text_en": "**Which kind of tired are you**: a mind that will not turn over, an unwillingness to speak to anyone, a seized-up back, the restless nothing-appeals feeling that is not tiredness at all, and several nights of missed sleep — five different fatigues needing five different closes. Most people own exactly one way of resting, and so spend half their evenings applying the wrong remedy to the wrong exhaustion, and finish rest more tired than they started.",
+      "answer": {
+        "lead": "**先分清今天的累是哪一种，再决定怎么收尾。**同一段休息时间，用错了越歇越累。",
+        "table": {
+          "head": [
+            "今天的累是哪一种",
+            "该用什么收尾",
+            "为什么"
+          ],
+          "rows": [
+            [
+              "认知耗竭：开了一天会，脑子转不动",
+              "离开工位前写下明天第一件事；然后做不需要决策的事——走路、做饭、收拾屋子",
+              "残留的是没有闭合的任务，写下来就把它从工作记忆里卸下；再喂决策只是继续占用同一块资源"
+            ],
+            [
+              "情绪耗竭：一天都在应付人，不想再说话",
+              "先给自己四十分钟不必回应任何人的独处，之后再见你真想见的人",
+              "被耗掉的是与人周旋的心力，再轻松的社交也在继续支取；独处补的正是这一项"
+            ],
+            [
+              "久坐的身体疲：腰背僵、头昏，脑子却不困",
+              "先动再歇：快走、拉伸、冷水澡",
+              "这类累来自循环与姿势，躺下并不缓解；十几分钟的活动改善明显，代价小得出奇"
+            ],
+            [
+              "无聊性疲惫：不算累，却什么都不想干，手一直摸手机",
+              "做一件要费点劲、有明确进度的事：一段乐器、一页字、一道新菜",
+              "基线已被高刺激压低，继续刷只会更低；需要一点努力的活动才是把它抬回来的路"
+            ],
+            [
+              "睡眠债：连着几天没睡够，怎么歇都不解乏",
+              "别的先放下，连续三晚提前一小时上床；充电器放到卧室外面",
+              "睡眠债不能用休闲抵扣，只能还；缺觉时其他所有恢复手段都会打折"
+            ]
+          ]
+        },
+        "tail": "两条原则：**恢复的种类比时长更要紧**；以及别用比工作更强的刺激来收尾，那不是休息，是在同一根杠杆上继续加码。若一周里有三种以上同时出现，问题多半已经不在收尾，而在工作量本身。"
+      },
+      "answer_en": {
+        "lead": "**Work out which kind of tired today is before deciding how to close it.** The same hour of rest, misapplied, leaves you more tired than before.",
+        "table": {
+          "head": [
+            "Which kind of tired",
+            "How to close the day",
+            "Why"
+          ],
+          "rows": [
+            [
+              "Cognitive: a day of meetings, the mind will not turn over",
+              "Write tomorrow's first task before leaving the desk, then do something requiring no decisions — walk, cook, tidy",
+              "What lingers is an unclosed task; writing it down unloads it from working memory, whereas more decisions keep occupying the same resource"
+            ],
+            [
+              "Emotional: a day spent managing people, no words left",
+              "Forty minutes owing nobody a response first; see the people you actually want to see afterwards",
+              "What is depleted is the capacity to negotiate with others, and even easy company keeps drawing on it; solitude replenishes exactly that"
+            ],
+            [
+              "Physical from sitting: stiff back, foggy head, but not sleepy",
+              "Move before you rest: a brisk walk, stretching, a cold shower",
+              "This fatigue comes from circulation and posture and does not lift by lying down; a quarter of an hour of movement helps out of all proportion to its cost"
+            ],
+            [
+              "Boredom fatigue: not really tired, but nothing appeals and the hand keeps reaching for the phone",
+              "Do something effortful with visible progress: an instrument, a page of writing, an unfamiliar recipe",
+              "The baseline has been pressed down by high stimulation and scrolling presses it lower; activity that costs a little effort is the way back up"
+            ],
+            [
+              "Sleep debt: several short nights, and no amount of rest helps",
+              "Set everything else aside and go to bed an hour earlier three nights running; charger outside the bedroom",
+              "Sleep debt cannot be offset by leisure, only repaid, and every other form of recovery is discounted while it stands"
+            ]
+          ]
+        },
+        "tail": "Two principles: **the kind of recovery matters more than its length**; and do not close the day with a stimulus stronger than the work itself — that is not rest, it is more weight on the same lever. If three or more of these show up in a single week, the problem has stopped being how you close the day and has become the load itself."
+      }
+    }
+  ]
 }

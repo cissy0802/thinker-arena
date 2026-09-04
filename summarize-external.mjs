@@ -11,6 +11,19 @@
 //       输入≈transcript(几千 token)+输出几百 token，一场几分钱。
 
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
+import { spawnSync } from "node:child_process";
+
+// --- 代理直通(云端 routine 必需) ---
+// Node 的 fetch(undici)默认**不读** HTTPS_PROXY，请求会绕过代理直连，在有出网策略的
+// 环境里被拦成 403；而 NODE_USE_ENV_PROXY 只在进程启动时生效，运行时改 process.env 无效。
+// 所以检测到代理但没开开关时，带上开关把自己重跑一遍。(curl 能通、脚本不通即是此因)
+if ((process.env.HTTPS_PROXY || process.env.https_proxy) && process.env.NODE_USE_ENV_PROXY !== "1") {
+  const r = spawnSync(process.execPath, [process.argv[1], ...process.argv.slice(2)], {
+    stdio: "inherit",
+    env: { ...process.env, NODE_USE_ENV_PROXY: "1" },
+  });
+  process.exit(r.status ?? 1);
+}
 
 // --- 极简 .env 读取(不引第三方依赖) ---
 if (existsSync(".env")) {
@@ -54,10 +67,10 @@ function extractJSON(text) {
 async function callOpenAI() {
   const key = process.env.OPENAI_API_KEY;
   if (!key) { console.log("· 跳过 GPT：未配 OPENAI_API_KEY"); return null; }
-  // 默认用 OpenAI 当前旗舰 GPT-5.5 + 高 effort(reasoning_effort 支持 high/xhigh)。
-  // 想要极限可改 OPENAI_MODEL=gpt-5.5-pro 或 OPENAI_REASONING_EFFORT=xhigh；
+  // 默认用 OpenAI 当前旗舰 GPT-5.6 Sol + 高 effort(reasoning_effort 支持 high/xhigh)。
+  // 想要换档改 OPENAI_MODEL=gpt-5.6-terra / gpt-5.6-luna 或 OPENAI_REASONING_EFFORT=xhigh；
   // 改用非推理模型时把 OPENAI_REASONING_EFFORT 留空。
-  const model = process.env.OPENAI_MODEL || "gpt-5.5";
+  const model = process.env.OPENAI_MODEL || "gpt-5.6-sol";
   const effort = process.env.OPENAI_REASONING_EFFORT === undefined ? "high" : process.env.OPENAI_REASONING_EFFORT;
   const body = {
     model,
@@ -80,9 +93,9 @@ async function callOpenAI() {
 async function callGemini() {
   const key = process.env.GEMINI_API_KEY;
   if (!key) { console.log("· 跳过 Gemini：未配 GEMINI_API_KEY"); return null; }
-  // 默认用 Gemini 当前最先进的 Pro(自带高强度 thinking)，而非 flash。
-  // 注意 API id 带 -preview 后缀(2026-02 起，旧 gemini-3-pro 已停用)。
-  const model = process.env.GEMINI_MODEL || "gemini-3.1-pro-preview";
+  // 默认用 Gemini 3.8 Flash。
+  // 想换档改 GEMINI_MODEL=（Pro 系列的 API id 带 -preview 后缀）。
+  const model = process.env.GEMINI_MODEL || "gemini-3.8-flash";
   const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${key}`;
   const r = await fetch(url, {
     method: "POST",
@@ -115,15 +128,29 @@ function replaceSummary(ai, payload) {
   console.log(`✓ ${ai} 已升级为真实 API（${payload.engine}）${payload.summary_en ? " · 含英文" : " · 英文回退"}`);
 }
 
+// 只记「key 配了、调用却失败」的那些；没配 key 的走 return null，不算失败
+const failed = [];
 const [gpt, gemini] = await Promise.all([
-  callOpenAI().catch((e) => { console.error("× GPT 失败：" + e.message); return null; }),
-  callGemini().catch((e) => { console.error("× Gemini 失败：" + e.message); return null; }),
+  callOpenAI().catch((e) => { console.error("× GPT 失败：" + e.message); failed.push("gpt"); return null; }),
+  callGemini().catch((e) => { console.error("× Gemini 失败：" + e.message); failed.push("gemini"); return null; }),
 ]);
 
 if (gpt) replaceSummary("gpt", gpt);
 if (gemini) replaceSummary("gemini", gemini);
 
-if (gpt || gemini) {
+// key 配了却调用失败时，routine 预写的占位标签仍写着「未配 KEY」——那是假话，
+// 会让页面长期挂着一个把人引向错误方向的说明。如实改成「API 不可达」。
+let relabelled = false;
+for (const ai of failed) {
+  const s = debate.summaries.find((x) => x.ai === ai);
+  if (!s || !/降级/.test(s.engine || "")) continue;
+  s.engine = "降级:Opus 扮演(API 不可达)";
+  s.engine_en = "fallback: Opus role-play (API unreachable)";
+  relabelled = true;
+  console.error(`  ↳ 已把 ${ai} 的 engine 标注改为「API 不可达」——key 是配了的，别照「未配 KEY」排查`);
+}
+
+if (gpt || gemini || relabelled) {
   writeFileSync(path, JSON.stringify(debate, null, 2) + "\n");
   console.log("已写回 " + path);
 } else {

@@ -41,7 +41,7 @@
 - **别泄漏生成过程**：summary / insight / advice 里不要出现「这一版 / 之前的版本 / this version / had been missing」等元信息。
 - **重点加粗**：`summary`/`insight`/`advice`（及 `_en`）也支持 `**…**` 粗体——每段克制地把**关键结论**标一处，前端会渲染成黑体高亮。`summarize-external.mjs` 的 GPT/Gemini prompt 也已要求这样做。
 - `claude`：你亲自写，`engine`/`engine_en` **填你本次实际运行的模型名，别照抄本文里的例子**——格式 `<模型名> · 订阅(原生)`／`<model> · subscription (native)`，当前应是 `Opus 5 · 订阅(原生)`／`Opus 5 · subscription (native)`（模型换代时连同这一行一起更新，别让标注停在旧版本上）；`summary`/`insight`/`advice` 三段都要写（含 `_en`）。**每段中文 150–250 字**——与 GPT/Gemini 同一区间，别写长（你目测数不准字数，写完务必跑 `validate.py` 核，超 250 必须删；英文随中文自然长度即可）。
-- `gpt`/`gemini`：先写降级占位（`engine:"降级:Opus 扮演(未配 KEY)"`／`engine_en:"fallback: Opus role-play (no key)"`，连同 `summary_en`/`insight_en`/`advice`/`advice_en`）。**然后运行 `node summarize-external.mjs debates/<slug>.json`**——若仓库有 `.env`（含 `OPENAI_API_KEY`/`GEMINI_API_KEY`）就会升级为真实 gpt-5.5(high)/gemini-3.1-pro-preview（连 advice 一并产出）；拿不到 key 就保持降级，**辩论照样完整**。它俩 `insight` 给与 Claude 不同的独到观察即可（脚本 prompt 已去掉「专挑 Claude 盲点」的诱导，避免每次都套同一种框架批判）。
+- `gpt`/`gemini`：先写降级占位（`engine:"降级:Opus 扮演(未配 KEY)"`／`engine_en:"fallback: Opus role-play (no key)"`，连同 `summary_en`/`insight_en`/`advice`/`advice_en`）。**然后运行 `node summarize-external.mjs debates/<slug>.json`**——若仓库有 `.env`（含 `OPENAI_API_KEY`/`GEMINI_API_KEY`）就会升级为真实 gpt-5.6-sol(high)/gemini-3.8-flash（连 advice 一并产出）；拿不到 key 就保持降级，**辩论照样完整**。它俩 `insight` 给与 Claude 不同的独到观察即可（脚本 prompt 已去掉「专挑 Claude 盲点」的诱导，避免每次都套同一种框架批判）。
 
 ## 4. 写文件 + 登记 + 校验
 - 写 `debates/<slug>.json`（顶层含 `question`+`question_en`；`casting[]` 每人含 `reason`+`reason_en`）。

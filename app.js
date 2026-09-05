@@ -598,7 +598,17 @@
   }
 
   function boot() {
-    var id = new URLSearchParams(location.search).get("d") || "happiness";
+    // The debate is selected by ?d=<slug>. No default: falling back to one used
+    // to render an unrelated debate for any link that got the param wrong, which
+    // reads as a bad search result instead of a broken link.
+    var id = new URLSearchParams(location.search).get("d");
+    if (!id) {
+      document.getElementById("thread").innerHTML =
+        '<div class="err"><p><b>没有指定辩论 / No debate selected</b></p>' +
+        "<p>链接缺少 <code>?d=&lt;id&gt;</code> 参数。/ This link is missing its <code>?d=&lt;id&gt;</code> parameter.</p>" +
+        '<p><a href="index.html">回到辩论列表 / Back to the list</a></p></div>';
+      return;
+    }
     // Optional per-speaker TTS: an audio manifest may exist for this debate.
     // Only for the Chinese page — the baked audio is Chinese, and the EN page
     // is served by the site-wide single-voice i18n-tts.js instead.

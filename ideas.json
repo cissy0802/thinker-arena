@@ -1,979 +1,970 @@
 {
- "_comment": "议题投票数据。candidates=未辩候选(供投票)，debated=已辩(链到辩论)。投票免 GitHub 登录，存于自建后端(Cloudflare Worker + D1，见 ~/Desktop/cissy0802.github.io/engage-backend/)：每候选一个 poll，key='topic:'+id，choice up/down，净票=👍−👎。votes 字段由 routine 每次跑 `python3 refresh_votes.py`(读后端 /votes-net) 回写；页面 ideas.js 也会实时拉取覆盖显示。观众自提议题在评论 page='thinker-open-questions'，各候选下讨论 page='topic:'+id——routine 读这些把好提案提炼成新 candidates。新候选加进 candidates 即可。",
- "candidates": [
-  {
-   "id": "health-vs-liberty",
-   "votes": 0,
-   "q": "为了公共健康，国家能限制个人自由到什么程度？",
-   "q_en": "For the sake of public health, how far may the state limit individual freedom (mandatory vaccines, lockdowns, sugar taxes, smoking bans) — and where does that power come from in the first place?",
-   "note": "（强制疫苗、封控、糖税、禁烟；同一把尺该不该量向广告、无限下拉、成瘾式设计这类制造欲望与注意力的产业；也含更根本的一问：国家的这份权力从何而来、有没有正当的边界）　2020 年代最撕裂的真问题：密尔的『伤害原则』止于何处？福柯的『生命权力』——现代国家正是靠管理『人口的健康』来行使治理，对上伯林的消极自由、洛克的个人权利，与功利主义/公共卫生的集体福祉正面交锋。个人自主 vs 集体安全，边界到底划在哪。同一把尺该不该量向制造欲望与注意力的产业：广告、无限下拉、成瘾式设计——如果糖税与禁烟成立，凭什么不管它们？还是说管制欲望本身就越界了？　更根本的一层：这份权力究竟从何而来——社会契约、天命，还是法家式的强力？来源与边界是政治哲学最古老的争点，也决定了上面每一条禁令该由谁点头。　同一母题的另一面（由『国家能要求什么』翻到『个人能推掉什么』）：一个人能在多大程度上既拒绝共同体的要求，又指望共同体的托底？独来独往被越来越多人当作正当的活法，可替独行者兜底的仍是家人、邻居、公共医保与养老金；于是争点是权利与义务的对称——能不能只要退出的自由、不要参与的义务，社会又有没有资格用『你不贡献』削减对一个人的照顾。照护、急救、失业救济是无条件的人的资格，还是成员身份的对价？也含：有能力的人买下私立学校、私人医疗与私家车退出公共服务之后，剩下的人还托不托得住；你存下的钱里有多少其实是医疗、养老、失业的公共缺口开给你的账单（这一栏没有上限，所以怎么存都不够）；以及托底的厚薄决定一个人输不输得起——当落败意味着失去医保、住处或人身安全，拒不认输就成了理性选择，『社会该替失败者兜住多少』因此也是政治稳定的问题。 同一把尺最难量的一段是替人做决定：一个正处在急性精神病发作、重度厌食或正在计划自杀的人，『尊重他此刻的意愿』可能等于放手让他死，而强制干预又是最彻底的一次自由剥夺——谁有权在什么条件下替另一个人拿主意，用什么可核查的标准？",
-   "note_en": "The most divisive real question of the 2020s: where does Mill's 'harm principle' stop? Foucault's 'biopower' — the modern state governs precisely by managing 'the health of the population' — meets Berlin's negative liberty and Locke's individual rights, colliding head-on with the utilitarian/public-health case for collective welfare. Personal autonomy vs collective safety: where exactly is the line? The same yardstick can be turned on the industries that manufacture desire and harvest attention — advertising, infinite scroll, addictive design. If sugar taxes and smoking bans are legitimate, why not these? Or is regulating desire itself a step too far? A deeper layer: where does that power come from at all — a social contract, the Mandate of Heaven, or Legalist force? Source and limit are political philosophy's oldest quarrel, and they decide who is entitled to sign off on any of the prohibitions above. The same mother question seen from the other side — from what the state may demand to what an individual may decline: how far can a person refuse what a community asks while still counting on its safety net? Keeping to yourself is increasingly treated as a legitimate way to live, yet the backstop for the loner is still family, neighbours, public health insurance and pensions. The issue is the symmetry of rights and duties: can one claim the freedom to withdraw without the duty to take part, and is a society entitled to cut what it gives someone on the grounds that they contribute nothing? Are care, emergency treatment and unemployment support unconditional entitlements of persons, or the consideration paid for membership? Also: once those who can afford it withdraw into private schools, private medicine and private cars, does the floor still hold for everyone left; how much of the money you have put aside is really the bill handed to you by the gaps in healthcare, pensions and unemployment cover (a column with no ceiling, which is why no amount is ever enough); and how the thickness of the net decides whether a person can afford to lose — when defeat means losing health cover, housing or personal safety, refusing to concede becomes rational, which makes 'how much a society should catch its losers' a question of political stability, not only of charity. The hardest stretch to measure with the same rule is deciding for someone else: for a person in acute psychosis, in severe anorexia, or actively planning to die, respecting what they want right now may amount to letting them die, while compulsory intervention is the most complete removal of liberty there is — who may decide for another person, under what conditions, and by what checkable standard?",
-   "cat": "ethics"
-  },
-  {
-   "id": "moral-universals-or-relativism",
-   "votes": 0,
-   "q": "有没有放之四海皆准的美德？",
-   "q_en": "Are there virtues that hold everywhere?",
-   "note": "还是说善恶本就因文化、因时代而异？　我们该向谁的道德看齐？　同一件事，一处的美德可能是另一处的恶习：孝顺、忠诚、勇敢的内容随文化而变，甚至彼此冲突。道德是可跨文明求真的『一套』，还是各有各的约定？休谟的『是与应当』、尼采的价值重估、孔子的礼、人类学的文化相对论各执一端——若无共同标尺，宽容与批判又各以何为据？",
-   "note_en": "Or do good and evil simply vary with culture and era? whose morality should we measure by? The same act can be a virtue in one place and a vice in another: the content of filial duty, loyalty and courage shifts with culture and can even conflict. Is morality a single truth pursuable across civilisations, or a set of local conventions? Hume's is–ought gap, Nietzsche's revaluation of values, Confucian ritual and anthropological cultural relativism pull in different directions — and without a shared measure, on what do tolerance and critique each rest?",
-   "cat": "ethics"
-  },
-  {
-   "id": "beauty-as-capital",
-   "votes": 0,
-   "q": "外貌在多大程度上是一种『资本』？",
-   "q_en": "To what extent are looks a form of 'capital'",
-   "note": "该承认颜值红利、好好经营，还是该抵制这种不公？　招聘、相亲、镜头前，好看的人确有实打实的溢价（『颜值红利』）。这是该像投资技能一样经营的社会资本，还是一种该被抵制的、给人贴标签的不公？经济学（贝克尔、哈基姆的『情色资本』）对上正义论与女性主义。　同一把尺也量得到那些看不见的资本：口音、举止、面对制度时的从容、一本通讯录。钱可以捐、可以征税，它们不能，可复制它们几乎不花钱——一次真的引荐、一次改简历、一次带人进门。为什么制度只征收最便宜的那一块，却从没有一项安排去鼓励最贵的那一块外流？",
-   "note_en": "should we acknowledge and cultivate the beauty premium, or resist it as unjust? In hiring, dating, and on camera, the good-looking enjoy a real premium ('pretty privilege'). Is this social capital to be cultivated like a skill, or an unjust, labeling advantage to be resisted? Economics (Becker, Hakim's 'erotic capital') meets theories of justice and feminism. The same measure reaches the capital nobody sees: an accent, a bearing, ease in front of institutions, an address book. Money can be given away and taxed; these cannot — yet copying them costs almost nothing, one real introduction, one CV rewritten, one door held open. Why do our institutions levy the cheapest part and do nothing to push the most valuable part outward?",
-   "cat": "ethics"
-  },
-  {
-   "id": "who-owns-the-words",
-   "votes": 0,
-   "q": "当『裁员』改叫『优化』，我们还判断得了吗？",
-   "q_en": "When layoffs are renamed optimization, can we still judge?",
-   "note": "委婉语、行话与口号如何不禁止你开口就替你预设结论。　委婉语、行话与政治口号如何在不禁止你开口的情况下替你预设结论；乔姆斯基的『制造同意』，普通人识破话术、还原朴素事实的自保之道。　也含法律/金融/学术『黑话』——是必要的精确，还是把人挡在门外的墙？清晰表达是不是一种被低估的正义（鲁迅白话之问）。　同一种操作的另一面：把一个选择重述成『规律』——宇宙法则、优胜劣汰、人性本贪、市场自会决定——责任就从选择者身上转移给了世界。检验的办法或许是看引用之后紧接着要做的那个动作。　也含道歉的通货膨胀：当企业公告、明星声明与政客致辞都学会了那套完整话术——说清做了什么、承认规矩、承诺改进、给出补偿——每一步都能被排练、外包、由公关审过。当动作本身不再稀缺，受损的一方还剩什么判据可用：赔偿的金额、规则被重新执行的证据，还是那个人此后真的付出了代价？　相邻角度（谁的说法算数）：能拿出合同、考勤、诊断书、聊天记录的人，与只有口头约定、现金结算、说不清时间线的人，从来不在同一条起跑线上。一旦『拿得出证据』成为可信的前提，最需要被相信的人反而最先出局——留痕的能力该不该被当成一种要分配的资源？",
-   "note_en": "How euphemism, jargon and slogans preset your conclusions without ever forbidding you to speak; Chomsky's 'manufacturing consent,' and how an ordinary person sees through the spin and restores the plain fact. It also covers legal/financial/academic jargon — necessary precision, or a wall that keeps people out? Is plain speech an underrated form of justice (Lu Xun's vernacular question)? The same manoeuvre has another face: restate a choice as a 'law' — of the cosmos, of survival of the fittest, of human greed, of the market — and responsibility passes from the chooser to the world. The test may be to watch the action that follows immediately after the citation. It also covers the inflation of apology: now that corporate statements, celebrity notes and political addresses have all learnt the full script — state the act, acknowledge the rule, promise the change, offer redress — every step can be rehearsed, outsourced and cleared by a communications team. When the gestures are no longer scarce, what criteria are left to the injured party: the size of the restitution, the evidence that the rule is enforced again, or whether the person actually bore a cost afterwards? An adjacent angle, whose account counts: people who can produce contracts, timesheets, medical records and chat logs have never stood on the same line as those with verbal agreements, cash payments and a timeline they cannot pin down. Once producing evidence becomes the precondition of being believed, those who most need belief are the first disqualified — should the ability to leave a record be treated as a resource to be distributed?",
-   "cat": "ethics"
-  },
-  {
-   "id": "strength-and-flaw-same-root",
-   "votes": 0,
-   "q": "一个人的优点和缺点，是不是同一个特点的两面？",
-   "q_en": "Are a person's strengths and flaws two faces of the same trait",
-   "note": "若真如此，改掉缺点会不会连优点一起改掉？　高尽责＝可靠 ⇄ 完美主义僵化；高共情＝温暖能读人 ⇄ 界限模糊被淹没；高开放＝创造好奇 ⇄ 不聚焦烂尾——同一套底层机制必然同时产出两种结果（人格特质本身价值中立，进化上叫拮抗多效性）。但要打三个折扣：很多缺点（残忍、失信、自欺）根本没有对应优点，同源论易沦为免责声明；更常见的其实是剂量或场合错了（亚里士多德中庸），不是必然代价；评价还随环境翻转。检验：去掉那个缺点，优点还在吗？亚里士多德（中庸·德性可调）× 荣格（阴影须整合）× 尼采（别阉割自己的强力）× 达尔文/萨波尔斯基（拮抗多效性与气质的生物底）对上 孔子/王阳明（克己·变化气质）与『这是自我合理化』的诘问方。",
-   "note_en": "and if so, does fixing the flaw also destroy the strength? High conscientiousness means reliable yet rigidly perfectionist; high empathy means warm and perceptive yet boundary-less and flooded; high openness means creative and curious yet unfocused and prone to abandoning things — one underlying mechanism necessarily yields both results (personality traits are value-neutral; evolution calls this antagonistic pleiotropy). But three discounts apply: many flaws (cruelty, dishonesty, self-deception) have no corresponding strength at all, so the same-root claim easily becomes a blanket excuse; more often the real issue is wrong dosage or wrong setting (Aristotle's mean), not a necessary price; and the valuation flips with environment. The test: remove the flaw — is the strength still there? Aristotle (the mean; virtue is adjustable) × Jung (the shadow must be integrated) × Nietzsche (don't geld your own strength) × Darwin/Sapolsky (antagonistic pleiotropy and the biology of temperament) against Confucius/Wang Yangming (self-mastery, transforming one's disposition) and a challenger who calls it rationalization.",
-   "cat": "self"
-  },
-  {
-   "id": "who-bears-the-bet",
-   "votes": 0,
-   "q": "谁有权拿别人的人生下注？",
-   "q_en": "Who is entitled to bet other people's lives?",
-   "note": "创始人、将领、政客付出的『不可撤销的代价』，押上的常常不是自己的东西　我们习惯把『为一个判断付出昂贵而不可撤销的代价』当成它出于远见而非豪赌的证据。可押上去的常常是员工的十年、股东的钱、士兵的命、一整条供应链的生计——事前有没有办法区分『自己下注』与『替别人下注』？如果一个人要求他人承担的风险远大于自己承担的，他展示的还算不算勇敢？再往下还有一问：被押上去的人凭什么算同意——一纸雇佣、一张选票、一道军令，够不够；押错之后又该怎么赔。亚里士多德的勇敢与鲁莽之辨、塔勒布的切肤之痛、马基雅维利、韦伯的责任伦理都能入场。　也含：父母替孩子承担风险时，可恢复的损失与一旦触到就回不来的损失，事前该怎么分辨。 也含：该不该给地球动手术——平流层遮阳、海洋施铁这类气候工程，由少数人决定、风险却落在所有人与后代身上，谁有资格按下这个开关。　同一道题的家庭版本：二十几岁的人要不要出走、要不要换城市，看起来是个人选择，实际由家庭这个单位承担——父母何时需要人在身边、家里有没有第二个人顶得上、汇款要不要继续。一个人的探索，该由谁一起签字？　家庭里的同一道题：长辈用『八字不合』否决一门婚事时，谈判对象变了——你没法跟一张命盘讲道理，而提出反对的人也不必为这个决定负责。说话的是术士，落子的是长辈，代价由小辈承担。 同一道题还有一个安静的版本：不下注、只设默认值——退休金的默认缴费比例、器官捐献默认同意还是默认拒绝、推荐流开箱先放什么、公司食堂的菜单，一行配置抵得上几千人各自立誓。谁有资格替几千人定这个值，该按什么标准，被设定的人凭什么算同意，又该怎么把它改回来？可带进塞勒的助推与选择架构、密尔的自由原则。　相邻角度（事后评价）：结果揭晓之后，还能不能公平地评判当初那个只有当时信息的人——包括你自己的过去？你现在知道那条路走不通，恰恰因为你走过了；判据该按当时手上的信息，还是按后来的结果？　同一把尺还该量向自己：日常里究竟哪些动作是收不回的——开除、断绝、公开指名、把人移出一个群体？若『可回／不可回』比『轻／重』更要紧，最不可回的那几件是不是该配上最慢的程序？　还有一把可用的尺：治理权该随『不可分散、不可逆的风险暴露』走，而不是随出资额走——股东的损失以投入资本为限、还能分散持仓，员工却把收入、技能路径、医保与家庭地点押在同一家机构上。 同一母题的另一头是事后的归属：当一件坏事被切成签字、排期、写代码、按下按钮许多道工序，每一道都小到没人觉得『这是我做的』，法律该追到哪一环，普通人在自己那一份上又该负多少？若一项处置只有靠责任分散才推得动，这件事本身就说明了什么。",
-   "note_en": "the irreversible price paid by a founder, a general or a politician is usually not their own We habitually treat paying an expensive, irreversible price for a judgement as proof that it came from foresight rather than bravado. Yet what gets staked is usually ten years of employees' lives, shareholders' money, soldiers' lives, an entire supply chain's livelihood — so is there any way, before the result arrives, to tell betting your own stake from betting someone else's? If a person asks others to carry far more risk than they carry themselves, is what they display still courage? A further question follows: on what basis are the people staked said to have consented — does an employment contract, a vote or a military order suffice — and what is owed to them when the bet fails? Aristotle on courage versus recklessness, Taleb on skin in the game, Machiavelli, and Weber's ethic of responsibility all belong here. Also included: when someone permanently loses the capacity to decide, by what standard should others decide for them — their previously expressed wishes, or another's judgement of their best interests? And when parents take risks on a child's behalf, how does one tell in advance a recoverable loss from one there is no coming back from? Also: whether to operate on the planet — stratospheric sunshades, ocean iron fertilization and the like, decided by a few while the risk falls on everyone and on those not yet born. Who is entitled to press that switch? The household version of the same question: whether someone in their twenties leaves, or moves cities, looks like a personal choice yet is borne by the family as a unit — when parents will need somebody present, whether a second person at home can step in, whether the remittance continues. Who else should be signing off on one person's exploration? The same question inside a family: when an elder vetoes a marriage because the horoscopes do not match, the negotiation changes shape — you cannot reason with a chart, and the person objecting answers for nothing. The diviner speaks, the elder moves the piece, the young pay. The same question has a quieter version, where nobody bets and someone merely sets the default — the default contribution rate on a pension, opt-in versus opt-out organ donation, what a recommendation feed shows out of the box, the menu in a company canteen. One line of configuration outweighs several thousand private resolutions. Who is entitled to set that value for thousands of people, by what standard, what makes those it is set for count as consenting, and how is it changed back? Thaler's nudges and choice architecture, and Mill's principle of liberty, both belong here. An adjacent angle, judging after the fact: once the outcome is known, can anyone fairly judge the person who had only the information available at the time — your own earlier self included? You know that road leads nowhere precisely because you walked it. Should a decision be judged by the information then in hand, or by how it turned out? The same measure turns back on oneself: which everyday acts genuinely cannot be taken back — a dismissal, a severance, naming someone publicly, removing a person from a group? If reversible against irreversible matters more than light against heavy, should the least reversible acts carry the slowest procedures? There is also a usable measure here: governance rights should follow exposure that cannot be diversified or reversed, rather than the size of a stake. A shareholder's loss is capped at the capital put in and can be spread across firms, while an employee has concentrated income, career path, health cover and where their family lives in a single institution. The other end of the same question is attribution after the fact: when a bad outcome is sliced into signing, scheduling, writing the code and pressing the button, each step too small for anyone to feel it was theirs, where should the law attach, and how much does an ordinary person owe on the part they signed? If a course of action can only be carried through by dispersing responsibility, that fact is itself telling.",
-   "cat": "ethics"
-  },
-  {
-   "id": "inherited-guilt",
-   "votes": 0,
-   "q": "我们该为上一代做过的事负责吗？",
-   "q_en": "Are we answerable for what earlier generations did?",
-   "note": "道歉、赔偿、纪念碑与教科书——一个人没做过的事，凭什么由他来还？　雅斯贝尔斯把罪分成刑事、政治、道德与形而上四层，说只有第一层能上法庭；阿伦特反对『集体罪责』，认为人人有罪等于无人有罪；可现实里国家在道歉、企业在赔偿、后代仍在继承那份好处。继承了红利算不算继承了债？幸存者的愧疚、家族的旧账与国家的历史责任，是同一件事的不同尺度吗？　另一端是既不能罚、也不能恕的那一类：加害者已经去世、系统性失职无处追索、父母永远不会承认——两种终止方式同时失效时，人还剩下什么可做？纪念、书写、把这件事讲给下一代听，算不算第三种终止？",
-   "note_en": "Apologies, reparations, monuments and textbooks — why should anyone repay what they never did? Jaspers divided guilt into criminal, political, moral and metaphysical, and held that only the first belongs in a court; Arendt rejected collective guilt on the grounds that where everyone is guilty no one is. Yet states apologise, companies pay reparations, and descendants go on inheriting the benefit. Does inheriting the dividend mean inheriting the debt? And are survivor's guilt, a family's old accounts and a nation's historical responsibility the same thing at different scales? At the other end are the wrongs that can be neither punished nor forgiven: the offender already dead, a systemic failure with no one to sue, a parent who will never concede. When both ways of halting a thing have failed, what is left to do — and do memorial, writing and telling the next generation amount to a third way of making it stop?",
-   "cat": "ethics"
-  },
-  {
-   "id": "limits-of-human-cognition",
-   "votes": 0,
-   "q": "有没有人类永远想不明白的事？",
-   "q_en": "Are there things humans can never understand?",
-   "note": "狗永远学不会微积分；人的认知硬件会不会也有天花板？内嗅皮层的网格细胞按平面铺格子，我们对空间的表征天生是三维的——谈更高维时并不是在想象，只是在符号上滑行，再把顺畅误当成理解。那么数学符号、仪器与 AI 算不算『外接的感官』，能把天花板推到多高；又该怎么分辨『暂时不懂』与『原则上不可懂』？ 也含『理解是不是必需品』这一相邻角度：量子力学的测量问题悬置百年，量子计算机照样开跑；模型越来越准也越来越黑箱。当工程上『闭嘴计算』就够用，解释还剩什么位置——科学还需不需要哲学来追问它自己在说什么？",
-   "note_en": "A dog will never learn calculus; does human cognitive hardware have a ceiling of its own? Grid cells in the entorhinal cortex tile a plane and our representation of space is natively three-dimensional — above three dimensions we are not imagining anything, only skating along a symbolic surface and mistaking the smoothness for comprehension. Do mathematical notation, instruments and AI count as prosthetic sense organs, and how far can they push the ceiling back? And how would we tell 'not understood yet' from 'unintelligible in principle'? It also carries the adjacent question of whether understanding is required at all: the measurement problem in quantum mechanics has been suspended for a century while quantum computers run anyway, and models grow both more accurate and more opaque. When 'shut up and calculate' is engineering-sufficient, what work is left for explanation — and does science still need philosophy to ask what it is saying?",
-   "cat": "meta"
-  },
-  {
-   "id": "allocation-without-money",
-   "votes": 0,
-   "q": "不用钱来分，就更公平吗？",
-   "q_en": "Is an allocation made without money any fairer?",
-   "note": "排队、抽签、按需要、按资历、按人脉、按行政审批——把稀缺的好东西移出市场之后，这些方式各自会滋生什么样的腐蚀？排队奖励有闲的人，认定需要的权力立刻成为新的稀缺资源，靠关系分配则把价码压进不透明也无法拒绝的人情。器官名单、学区、公立医院的加号、稀缺岗位的推荐，谁在这些规则下赢，谁被悄悄挡在门外？ 同一问题在组织内部的版本是背书与推荐：当机会靠同事的作证与人脉分配，怎样的可核查标准才能把健康的同侪见证与小圈子的互相抬轿分开？ 同一件事在评价与机会上的版本：取消考试、取消绩效、取消公开评审、去掉层级之后，判断并没有消失，只是从纸面挪进了饭局，先得利的往往是有关系、有出身、说得上话的人；可程序与留痕也确实能把人压成可计量的形状。韦伯把科层制看作对人身依附的解放——不认人、只认规则，正是弱者第一次能够申诉的凭据。　还有一层难处在于标的本身不可切分：一套自住房、一幅画、一家公司、一个器官名额。多数分配理论默认东西可以按份数切开，而现实里最要紧的东西往往只能整给一个人——于是父母守着房子不敢请护工，孩子在最需要的年纪一分也拿不到。不可逆、不可分的东西该按什么规则分？",
-   "note_en": "Queues, lotteries, need, seniority, connections, administrative approval — once a scarce good is taken off the market, what corruption does each of these breed? Queues reward those with time to spare; the power to certify need instantly becomes the new scarce resource; allocation through connections buries the price in favours that are neither transparent nor refusable. Organ lists, school catchments, the extra slot at a public hospital, the referral into a scarce job: who wins under these rules, and who is quietly kept out? The same question inside an organisation takes the form of endorsement and referral: when opportunity is allocated by colleagues vouching for one another, what checkable standard separates honest peer testimony from a clique boosting its own? The same question in the register of appraisal and opportunity: abolish the exam, the performance review, the open evaluation, the hierarchy itself, and judgement does not disappear — it simply moves off the page and into the dinner, where the first to gain are those with connections, background and access. Yet procedure and paperwork really do press people into measurable shapes. Weber saw bureaucracy as liberation from personal dependence: rules that recognise no faces are the first thing a weak party can appeal to. A further difficulty is that the good itself may be indivisible: one home, one painting, one company, one place on a transplant list. Most theories of allocation assume things can be cut into shares, while what matters most in practice can usually go whole to only one person — so parents sit on a house rather than hire care, and the child gets nothing in the years he needs it. By what rule should the indivisible and the irreversible be divided?",
-   "cat": "ethics"
-  },
-  {
-   "id": "persist-or-quit",
-   "votes": 0,
-   "q": "该坚持，还是该及时止损？",
-   "q_en": "Persist, or cut your losses?",
-   "note": "一件看不到回报的事，撑下去是毅力还是沉没成本？　照顾一个不会好转的病人、守着一份没有反馈的研究、写一本可能没人读的书——需要三年的耐力和需要三秒的胆量几乎不共用同一套机制：后者靠一次到位的动作，前者靠意义结构与能让你明天还起得来的日常。同一种坚持，事后既可能被叫作毅力，也可能被叫作不肯认输。有没有事前就能立的止损线？把退出条件写下来，是先认输，还是让投入变得付得起？达克沃思的 grit 对上卡尼曼的沉没成本谬误，弗兰克尔的意义对上『及时放弃也是一种能力』。　另一条相邻角度：人苦的往往不是知道这件事是空的，而是已经把「我」寄放在它上面——它实则我实，它虚则我虚。若真如此，换一件事做只是换一个寄放处；有没有办法在不退出的前提下先把那份寄放取回来？　再往里一层是权限之争：预嘱、婚约、戒断合约、把手机锁进定时盒——我们不断替一个还没到场的自己签字，而那个人未必同意。人格、偏好与价值观本来就会漂移，若承认这一点，一纸事先的承诺凭什么压过此刻活着的那个人？反过来，仪式与合约之所以有力，恰恰因为它让人当众付出一笔收不回的代价；在退出几乎免费的时代，人是否反而需要人为地把退出做贵一点？ 还有一处从不被教的空白：怎么收尾。开始一段治疗、一个项目、一份工作、一种自我要求，都有指南与课程；停下来则几乎无人教，于是最省事的做法永远是一直做着。收尾之所以没人教，是不是因为它不产生任何可计量的成果？　还有一条相邻的分辨：撞上的到底是天花板还是摩擦——若同岗位里做得最好的人也没好多少，问题在位置不在用功；反过来，还没摸到天花板就换地方，等于把每一次积累清零。事前有没有一组可看的信号？",
-   "note_en": "When something shows no return, is staying with it grit or sunk cost? Caring for a patient who will not recover, staying with research that gives no feedback, finishing a book that may go unread — three years of endurance and three seconds of nerve barely share a mechanism: the second runs on one well-aimed action, the first on a structure of meaning and a routine that gets you up tomorrow. The same persistence is called tenacity or refusal to admit defeat depending on how it ends. Can a stop-loss be set in advance, and does writing down your exit conditions concede the fight or make the commitment affordable? Duckworth on grit meets Kahneman on the sunk-cost fallacy, and Frankl on meaning meets the claim that quitting in time is itself a skill. An adjacent angle: what makes people suffer is rarely knowing the thing is hollow, but that the \"I\" has already been lodged in it — it substantial, the self substantial; it hollow, the self hollow. If so, switching to something else merely relocates the lodging. Is there a way to withdraw it without leaving? One layer further in is a quarrel about authority: advance directives, marriage contracts, sobriety agreements, the phone locked in a timed box — we keep signing on behalf of a self who has not yet arrived and may not agree. Personality, preferences and values drift anyway; granting that, on what ground does a promise made in advance outrank the person alive right now? Conversely, vows and contracts have force precisely because they extract a cost in public that cannot be recovered — so in an age where exit is nearly free, do people need to make exit expensive again on purpose? There is also a blank nobody fills: how to end things. Starting a course of treatment, a project, a job, a standard held over oneself all come with guidance and training; stopping comes with almost none, so the path of least effort is always to carry on. Is the ending untaught because it produces nothing anyone can count? A neighbouring distinction: is what you hit a ceiling or mere friction? If the best performer in your role is barely better off, the problem is the position rather than the diligence; bolting before you have touched the ceiling, on the other hand, resets every bit of accumulation to zero. Are there signals visible in advance?",
-   "cat": "self"
-  },
-  {
-   "id": "things-we-agree-into-being",
-   "votes": 0,
-   "q": "钱、婚姻、国界，是真实的东西吗？",
-   "q_en": "Are money, marriage and borders real things?",
-   "note": "它们不长在原子里，也不长在某一个人的念头里——靠许多人相互承认而持续存在，大家同时不认便真的消失，纸币变回纸。这类『共建的实在』既非唯物亦非唯心，却最能左右普通人的命运：房价、学历、信用分、周一早上九点。它们是发明还是发现？承认能被撤回，是否意味着它们比石头更脆弱、还是反而更结实（石头砸不动一条法律）？普通人能改动其中哪一层，又在哪一层撞上真正的铁？可带进涂尔干的社会事实、霍布斯与卢梭的立约、韦伯的正当性、哈拉瑞的共同虚构，对上唯物论者。　也含：一个想法怎么从『离经叛道』变成『天经地义』——零、负数、虚数都曾被斥为荒谬、抵制数百年才成正典；有偿献血、人寿保险也曾被视为亵渎。可带进库恩的范式转移、福柯的知识型、拉图尔与玛丽·道格拉斯，对上实在论；并追问我们笃信的『客观』有多少靠审稿、复核这类把关共同体在替我们担保。 另一条并进来的线是时间：一个主张如何从少数人的异端，经由教材、法律、语感，变成两三代之后不必再论证的常识——共同承认不只是此刻的事实，也是一段可以追踪的传导史，而中间漫长的成本由谁先付。",
-   "note_en": "They grow neither in atoms nor in any single person's head: they persist because many people recognise them together, and would genuinely vanish if everyone stopped at once, a banknote reverting to paper. This 'jointly built' reality is neither material nor mental, yet it governs ordinary lives more than almost anything — house prices, credentials, credit scores, nine o'clock on Monday. Are they invented or discovered? Does the fact that recognition can be withdrawn make them more fragile than a stone, or sturdier (no stone ever moved a statute)? Which layer can an ordinary person actually shift, and where do they hit genuine iron? Durkheim's social facts, the covenants of Hobbes and Rousseau, Weber on legitimacy and Harari's shared fictions, set against the materialists. Also: how an idea travels from heresy to common sense — zero, negative and imaginary numbers were each denounced as absurd and resisted for centuries before entering the canon, and paid blood donation and life insurance were once treated as desecration. Kuhn's paradigm shifts, Foucault's épistémè, Latour and Mary Douglas can be brought against realism here; and it is worth asking how much of what we call objective is in fact underwritten for us by gatekeeping communities — referees, replicators, people who agree to stand behind a claim. A further strand folded in here is time: how a claim travels from the heresy of a few, through textbooks, law and finally the ear, into something two or three generations later no longer bother to argue for — mutual recognition is not only a present fact but a traceable history of transmission, and the long cost in between is paid first by someone.",
-   "cat": "meta"
-  },
-  {
-   "id": "explained-away",
-   "votes": 0,
-   "q": "一件事被解释清楚，就变得不值钱了吗？",
-   "q_en": "Does explaining something drain the value out of it?",
-   "note": "告诉一个人他的爱情是催产素、他的敬畏是颞叶放电、他的直觉是贝叶斯更新，很多人立刻觉得被贬低了；可没有人在知道彩虹是折射之后就不再看彩虹。这种『一被解释就掉价』的感觉从哪里来——它只是一种心理错觉，还是在提醒我们某样东西确实被拿走了？济慈抱怨牛顿拆散了彩虹，费曼说懂得花的结构只会让它更美，韦伯把这一整个过程叫作祛魅。也含一层实用的：把动机、习惯、亲密关系拆成机制之后，人还剩下多少行动的力气；什么时候该看机制，什么时候该把说明书放下。",
-   "note_en": "Tell someone their love is oxytocin, their awe is temporal-lobe activity, their intuition Bayesian updating, and many feel demoted on the spot — yet nobody stopped looking at rainbows on learning about refraction. Where does this devaluation-by-explanation come from: is it merely a psychological illusion, or a signal that something really has been taken away? Keats complained that Newton unwove the rainbow, Feynman held that knowing a flower's structure only adds to its beauty, and Weber named the whole process disenchantment. There is a practical layer too: once motives, habits and intimacy have been decomposed into mechanisms, how much force to act is left, and when should one look at the mechanism and when put the manual down?",
-   "cat": "meta"
-  },
-  {
-   "id": "who-will-tell-you-the-truth",
-   "votes": 0,
-   "q": "谁还愿意对你说真话？",
-   "q_en": "Who is still willing to tell you the truth?",
-   "note": "顺着你说的东西越来越多：讨好带来留存，顶撞带来卸载；职位越高，听到的坏消息越少；朋友怕伤感情，医生怕纠纷，下属怕报复。于是判断一个信息源是否可信，最锋利的一条也许不是它对不对，而是它敢不敢说你不想听的话。这种『愿意得罪你』的能力该怎么保住——靠制度设计、靠挑人，还是靠自己先变得听得进去？谁又有动机去造一个会反驳你的东西？　同一道题还有一个对内的版本：受害者与加害者对同一件事记的是两本账，中间差着一个数量级——一方记得起因久远、伤害持续，另一方记得事出有因、早已翻篇。既然每个人都当过两种角色，你怎么可能知道自己不是正在低估？有没有外部装置——第三方复述、书面对账、一组固定的提问——能让人看见自己账本上被压掉的那一栏？　同一道题的另一端：轮到你说的时候。一个明知无效却让人撑住的信念——偏方、护身符、『他会回来的』——旁人有没有资格戳穿？揭穿往往让人抓得更紧，而不揭穿就是替他把代价往后推。　还有一条组织内部的版本：监控收紧之后，最先消失的往往不是偷懒而是坦白——如实记录风险的人证据最全、出事时先挨罚，含糊其辞的人反倒安全，于是数据越来越漂亮、事故并没有变少。判断一个系统是否还听得到真话，最准的一问是：上一次写下坏消息的人，得到的是什么？",
-   "note_en": "More and more of what surrounds us agrees with us: agreement drives retention and contradiction drives uninstalls; the higher the post, the less bad news reaches it; friends fear hurting you, doctors fear disputes, subordinates fear reprisal. So the sharpest test of a source may not be whether it is right but whether it dares say what you would rather not hear. How is that willingness to offend you preserved — by institutional design, by choosing the right people, or by first becoming someone who can take it? And who has any incentive to build something that contradicts you? The same question has an inward version: victim and perpetrator keep two different ledgers on one event, and the gap runs to an order of magnitude — one remembers a cause reaching far back and harm still continuing, the other a provocation and a matter long closed. Since everyone has occupied both roles, how could you know you are not the one underestimating? Is there an external device — a third party's retelling, a written reconciliation of accounts, a fixed set of questions — that shows a person the column they have compressed? The other end of the same question: when it is your turn to speak. A belief you know to be useless but which is holding someone up — a folk remedy, a talisman, 'he will come back' — is it anyone else's place to puncture it? Exposure usually tightens the grip, and staying silent defers the bill on that person's behalf. There is also an organisational version: when monitoring tightens, what disappears first is not slacking but candour — whoever honestly logs the risks leaves the fullest evidence against themselves and is disciplined first, while the vague stay safe, so the data gets prettier while incidents do not fall. The sharpest test of whether a system can still hear the truth is what happened, last time, to the person who wrote down the bad news.",
-   "cat": "self"
-  },
-  {
-   "id": "conscience-and-duty",
-   "votes": 0,
-   "q": "专业人士能因信念拒绝服务吗？",
-   "q_en": "May a professional refuse to serve on grounds of conscience?",
-   "note": "医生拒绝执行、药剂师拒绝配药、公务员拒绝登记、面包师拒绝接单——同一条『良心自由』用在不同的人身上，多数人的直觉常常相反。若允许拒绝，被立为权利的服务在缺人手的地方就形同虚设，越偏远越无人可去；若不许拒绝，成本会一路摊派到最难说不的那一层人身上，最终由资历最浅的人执行。判据该是什么：这份职业有没有垄断地位、当地有没有替代者、拒绝的是某个行为还是某类人？而一份需要良心才做得好的工作，能不能同时要求从业者把良心留在门外？",
-   "note_en": "A doctor declining to perform, a pharmacist declining to dispense, a registrar declining to register, a baker declining an order — the same freedom of conscience, applied to different people, pulls most intuitions in opposite directions. Permit refusal and a service established as a right becomes hollow wherever staffing is thin, with the remote areas emptiest of all; forbid it and the cost slides down to the people least able to say no, until the most junior hands are the ones doing it. What should the criteria be — whether the profession holds a monopoly, whether a local alternative exists, whether what is refused is an act or a class of person? And can work that is only done well by people with a conscience also demand that they leave it at the door?",
-   "cat": "ethics"
-  },
-  {
-   "id": "travel-and-locals",
-   "votes": 0,
-   "q": "旅行者来了之后，当地人得到了什么？",
-   "q_en": "When the travellers arrive, what do the locals get?",
-   "note": "民宿把长租房源抽走、老街按游客的口味重做一遍、旺季挤到本地人自己出不了门——旅游带来的收入与代价从来不落在同一批人身上。一边是它确实养活了整条街的生计、也是许多地方唯一的外部收入；一边是房租、水源、公共空间被一种可以随时离开的需求重新定价。旅行者有没有义务了解自己的重量？该由谁来定这个限度——市场、当地政府，还是住在那里的人？同一把尺也量得到数字游民与短租平台。",
-   "note_en": "Short-let listings drain the long-term rental stock, old streets are remade to a visitor's taste, and in peak season residents cannot get through their own town — the income tourism brings and the costs it imposes never land on the same people. On one side it genuinely feeds a whole street and is the only outside income many places have; on the other, rents, water and public space get repriced by a demand that can leave at any moment. Do travellers owe it to a place to understand their own weight? And who should set the limit — the market, the local authority, or the people who live there? The same ruler reaches digital nomads and short-let platforms.",
-   "cat": "ethics"
-  },
-  {
-   "id": "who-keeps-the-ties",
-   "votes": 0,
-   "q": "关系是谁在维护？",
-   "q_en": "Who does the work of keeping people together?",
-   "note": "记生日、攒局、报信、每周给老人打那通电话——让联系继续存在的活儿，在任何家庭与团体里都压在少数人身上，而且明显性别化，却几乎从不被算作劳动。于是『我什么都不用做也总有人张罗』并不是人缘好，是有人替你付了这笔维护预算。两个追问：这份劳动能不能被看见、被轮换、被记账？以及一旦这个人累了退出，塌掉的常常不是她一个人的社交，而是与她相连的一整簇关系——很多联结本就挂在第三个人身上，枢纽一走，中间没有任何一对当事人做过决定，一个圈子却在两年里消失了。　仪式是这份劳动最集中的地方：谁记生日、谁订餐厅、谁在葬礼上安排一切。于是『废掉没意义的仪式』听起来像解放，落地时往往先解放了从不筹备的人；轮值算不算最有效的改革？　另一半更隐蔽：这些活里有相当一部分是没人真心想要的——婚宴的规格、群里的秒回、逢年过节的走动，所有人私下都不认同，却都以为只有自己不认同，于是谁也不肯先开口。那么该被减掉的到底是分配不均，还是这份义务本身？　同一笔维护劳动在钱上的版本：父母失能前后的那十年，出钱、出假、辞职回家的往往是同一个孩子，而遗产按人头均分，等于让付出最多的人补贴其他人。照护该不该被折算成可记账的份额，一旦折算，亲情会不会当场变成买卖？",
-   "note_en": "Remembering birthdays, organising dinners, passing news along, making the weekly call to the old people — the work that keeps connection in existence falls on a few members of any family or group, is strongly gendered, and is almost never counted as work. So 'things get organised without my doing anything' is not popularity; someone else is paying the maintenance budget on your behalf. Two questions follow. Can that labour be made visible, rotated and put on the books? And when the person carrying it tires and steps back, what collapses is usually not her social life but a whole cluster attached to her — many ties hang on a third person, so when the hub goes, no pair of the people involved ever decided anything and yet a circle disappears within two years. Ritual is where this labour concentrates: who remembers the birthdays, books the restaurant, arranges everything at the funeral. So abolishing meaningless ceremonies sounds like liberation and in practice liberates first the people who never prepared one. Is rotation the most effective reform available? The other half is better hidden: a large share of this work is wanted by no one — the scale of the wedding, replying within seconds in the group chat, the holiday rounds. Everyone privately objects and everyone assumes they are the only one, so nobody speaks first. Is what needs cutting the uneven distribution, or the obligation itself? The same maintenance labour has a monetary version: in the decade around a parent's loss of independence it tends to be one child who pays, takes the leave and gives up a job, while the estate is split equally by head — which makes the biggest contributor subsidise the rest. Should care be priced into shares, and if it were, would affection become a transaction on the spot?",
-   "cat": "life"
-  },
-  {
-   "id": "friction-and-serendipity",
-   "votes": 0,
-   "q": "生活里的『偶遇』正在消失吗？",
-   "q_en": "Are chance encounters disappearing from our lives?",
-   "note": "被省掉的绕路、排队与翻错架子，是浪费还是新东西唯一的入口？　导航给点对点最短路径，外卖免掉去店里那一趟，推荐流滤掉不合口味的——物理世界的『撞见』与信息世界的『不期而遇』被同时剪掉，生活越来越像一次次搜索：带着目的去，拿到就走。这些摩擦能不能被有意识地装回去（走路上班、逛实体店、随机点单），还是说替代品一旦更省力，个人的自律就注定敌不过默认？也含一层公共的：城市规划与平台设计在同一个方向上追求无摩擦，谁该为『可被撞见的空间』买单，而最先失去它的又是谁。　同一把剪刀也剪掉了在场：远程办公、异地亲情、线上告别式已是常态，而能改变生理指标的偏偏是同步动作、共食与放声笑。身体在场究竟哪一部分不可替代，哪一部分只是我们还没学会替代？",
-   "note_en": "Are the detours, queues and wrong shelves we have edited out mere waste, or the only doorway to anything new? Navigation supplies the shortest point-to-point route, delivery removes the trip to the shop, and recommendation feeds filter out whatever is not to taste, so bumping into someone physically and stumbling on something unexpected online are cut away together. Life comes to resemble a series of searches: arrive with a purpose, collect, leave. Can that friction be deliberately built back in — walking to work, browsing a real shop, ordering at random — or, once the frictionless option is easier, is private discipline always going to lose to the default? There is a public layer too: urban planning and platform design chase the frictionless in the same direction, so who should pay for space in which people can still run into one another, and who loses it first? The same scissors also cut away presence: remote work, family at a distance and online funerals are now normal, while what actually shifts a physiological measure is synchronised movement, shared meals and hard laughter. Which part of being bodily present is irreplaceable, and which part have we merely not yet learned to replace?",
-   "cat": "life"
-  },
-  {
-   "id": "work-that-changes-you",
-   "votes": 0,
-   "q": "有些工作会把人改掉吗？",
-   "q_en": "Do some jobs change the person doing them?",
-   "note": "同样的八小时，有的工作只拿走时间，有的会换一个人还回来。护士、警察、客服、教师、殡葬从业者、内容审核员干的是情绪劳动与道德伤害的第一线：下班准点，却已经对家人说不出话，或者渐渐不再相信陌生人。职业性的人格变形算不算一种工伤？该由谁补偿、怎么补偿——更高的薪水、更短的年限、强制的心理支持，还是干脆承认有些岗位不该由一个人长期承担？另一端也要问：有没有把人变好的工作，那又是靠什么？",
-   "note_en": "The same eight hours: some jobs take only your time, others hand back a different person. Nurses, police, call-centre staff, teachers, funeral workers and content moderators stand at the front line of emotional labour and moral injury — home on time, with nothing left to say to their families, or slowly no longer able to trust a stranger. Does occupational deformation count as an injury of work? Who should compensate it and how — higher pay, shorter maximum tenure, mandatory psychological support, or an admission that certain posts should not be held by one person for long? And the other end deserves asking too: are there jobs that make people better, and what is it that does the making?",
-   "cat": "work"
-  },
-  {
-   "id": "what-dreams-are",
-   "votes": 0,
-   "q": "梦是内心的密电，还是大脑随手编的故事？",
-   "q_en": "Are dreams a coded message from within, or a story the brain improvises?",
-   "note": "凡是脑子自动生成的内容，凭什么当证据？　弗洛伊德把梦读成被伪装过的愿望，一套可解码的密电；霍布森的激活-合成假说反过来说，脑干在睡眠中随机放电，皮层只是顺手把噪声编成一个说得通的故事。同一把尺子还该量到别的东西头上：灵光一闪的顿悟、致幻剂与极限体验里的『真知』、冥想中的洞见——它们都是脑子交给你的，不是你查证过的。若梦只是噪声的整理，为什么它总用你最在意的材料来编，又为什么醒来时的情绪真实得像刚发生过？庄子的蝶梦、《梦的解析》、睡眠中的记忆巩固与情绪清算研究可以正面相撞。落到实处：把梦当线索用（它在提示你在意什么）与把它当答案用（它告诉你该怎么做）之间，界线画在哪？",
-   "note_en": "On what grounds does anything the brain generates on its own count as evidence? Freud read dreams as disguised wishes, a coded message waiting to be decrypted; Hobson's activation-synthesis hypothesis answers that the brainstem fires more or less at random during sleep and the cortex simply improvises a story that hangs together. The same yardstick should be turned on other things: the flash of sudden insight, the 'knowledge' won through psychedelics or extreme experience, the vision that arrives in meditation — all handed to you by the brain rather than verified by you. If a dream is only noise tidied up, why is it always assembled from the material you care about most, and why does the feeling on waking seem as real as something that just happened? Zhuangzi's butterfly, The Interpretation of Dreams, and research on memory consolidation and emotional processing in sleep can meet head-on. Practically: where is the line between using a dream as a clue to what you care about and using it as an answer about what to do?",
-   "cat": "meta"
-  },
-  {
-   "id": "who-gets-credit",
-   "votes": 0,
-   "q": "为什么有人借得到钱，有人借不到？",
-   "q_en": "Why can some people borrow and others cannot?",
-   "note": "住房、农业、创业都长出了专门的信贷渠道，唯独『买下自己干活的地方』没有——合作社与员工收购缺的从来不是意愿，是抵押物，蒙德拉贡索性自己办了一家银行才解决。银行不接受努力、技能与信誉当抵押，于是已经有资产的人更容易再拿到资产；市场上看不到某一类企业，往往不是因为它做不好，而是它从一开始就融不到资。抵押物凭什么被算作风险的尺子？信用评分把什么样的人系统性地挡在门外？小额信贷、合作社银行、互助会与彩礼、宗族借贷这些非正式渠道，究竟解决了什么、又制造了什么？　相邻角度：员工持股把所有权交给劳动者，却把收入与积蓄押进同一家公司——表决权与分红权能不能拆开，让人既拥有又不必把两个鸡蛋放进一个篮子？",
-   "note_en": "Housing, farming and start-ups all grew dedicated credit channels; buying the place you work in never did. What cooperatives and employee buyouts lack has never been appetite, it is collateral — Mondragon had to found a bank of its own to get around it. Banks do not accept effort, skill or reputation as security, so those who already hold assets find it easier to acquire more, and the reason a kind of enterprise is absent from the market is often not that it performs badly but that it could never be financed. On what grounds is collateral treated as the measure of risk? Whom do credit scores systematically keep outside the door? And what do microfinance, cooperative banks, rotating savings clubs, bride price and clan lending actually solve — and what do they create? An adjacent angle: employee ownership hands workers the firm while staking their wage and their savings on it. Can votes and dividends be prised apart, so that people can own without putting both eggs in one basket?",
-   "cat": "ethics"
-  },
-  {
-   "id": "favourite-child",
-   "votes": 0,
-   "q": "父母偏心，能不能说出口？",
-   "q_en": "Can a family admit to having a favourite child?",
-   "note": "几乎所有父母都否认有偏爱，多数子女却都指得出那个被偏爱的人。特里弗斯的亲代-子代冲突说，资源有限时父母本来就没有理由绝对均分；阿德勒把一生的性格追到手足次序上；而中国旧法把『诸子均分』写进制度，多半正是为了取消这份公布。偏心该被承认并解释，还是被规则抹平？为什么手足之间的比较，比与外人的比较更伤人、也更长久？",
-   "note_en": "Nearly every parent denies having a favourite, and nearly every sibling can name one. Trivers' parent–offspring conflict says that under scarce resources parents have no particular reason to divide exactly evenly; Adler traced adult character back to birth order; and old Chinese law wrote equal division among sons into the code largely in order to cancel the announcement. Should favouritism be admitted and explained, or flattened by a rule? And why does comparison between siblings cut deeper, and last longer, than comparison with strangers?",
-   "cat": "life"
-  },
-  {
-   "id": "placebo-that-works",
-   "votes": 0,
-   "q": "明知是假的，为什么还有效？",
-   "q_en": "Why does it still work when you know it is fake?",
-   "note": "糖片能止痛，白大褂、仪器的声音、诊室的仪式感都能改变生理指标，甚至在被明确告知『这是安慰剂』之后仍然有效。这意味着期待、信任与仪式本身就是有生理作用的成分，那么把它们从医疗里剔除（更客观、更去人格化），是不是在扔掉一味真正管用的药？同一把尺也量得到教练的鼓励、护身符、开学典礼、职场的仪式与领导的口号——它们靠人相信才起作用，可一旦被拆穿又常常照旧起作用。以及最难的一层伦理：若有效需要一点不说破，医生、老师、父母有没有权利保留那点不说破？",
-   "note_en": "A sugar pill relieves pain; the white coat, the sound of the machine and the ritual of the consulting room all shift physiological measures, and the effect survives even when a person is told outright that they are taking a placebo. That suggests expectation, trust and ritual are themselves active ingredients — so does stripping them out of care in the name of objectivity throw away something that genuinely worked? The same rule measures a coach's encouragement, a lucky charm, an opening ceremony, workplace rituals and a leader's slogans: they work because people believe them, and often keep working after they are exposed. And the hardest layer is ethical: if the effect requires something left unsaid, may a doctor, a teacher or a parent leave it unsaid?",
-   "cat": "meta"
-  },
-  {
-   "id": "many-small-hands",
-   "votes": 0,
-   "q": "一件坏事分给很多人做，责任算谁的？",
-   "q_en": "When a harm is done by many small hands, whose is it?",
-   "note": "签字的、排期的、写代码的、按下按钮的，每一道工序都小到没有人觉得『这是我做的』。裁员名单、外包的审核、投放的广告、军队与供应链，都是这样完成的。若一项处置只有靠责任分散才推得动，这件事本身说明了什么——是分工的必然，还是该被当成警报？被切碎之后，法律该追到哪一环，而普通人在自己签的那一份上又该负多少？",
-   "note_en": "The one who signs, the one who schedules, the one who writes the code, the one who presses the button — each step small enough that nobody experiences it as their own doing. Layoff lists, outsourced moderation, ad placement, armies and supply chains all work this way. If a measure can only be pushed through by dispersing responsibility, what does that tell us — is it an inevitable feature of the division of labour, or an alarm? Once it is cut into pieces, which link should the law reach, and how much does an ordinary person owe for the part they signed?",
-   "cat": "ethics"
-  },
-  {
-   "id": "move-or-build",
-   "q": "该让人去有机会的地方，还是把机会带到人所在的地方？",
-   "q_en": "Should people be moved to where the opportunities are, or opportunity brought to where the people are?",
-   "note": "补贴迁移、放宽落户与签证，见效快，却把走掉的人原来那个地方抽得更空——留下的多是老人与走不动的人；修基础设施、统一规则、把小市场连成大市场，慢而贵，却不要求任何人离开亲人。两条路的代价落在完全不同的人身上：一条要个人承担离散，一条要纳税人承担账单。谁有资格替一个正在收缩的地方决定它该被连上还是被放弃？地理经济学、迁移研究与乡土伦理可以正面相撞。",
-   "note_en": "Subsidised relocation and looser residence or visa rules work fast, and they hollow out the places the movers left, where mostly the old and the immobile remain. Infrastructure, common rules and small markets joined into large ones are slow and expensive, and ask nobody to leave their family. The costs land on entirely different people: one path charges individuals in separation, the other charges taxpayers in money. Who is entitled to decide, for a shrinking place, whether it gets connected or written off? Economic geography, migration research and the ethics of attachment to a place can meet head on.",
-   "cat": "ethics",
-   "votes": 0
-  }
- ],
- "debated": [
-  {
-   "id": "happiness",
-   "q": "幸福到底是什么？我们是否应该追求幸福？",
-   "q_en": "What is happiness, really? And should we even pursue it?",
-   "date": "2026-06-13",
-   "cat": "self"
-  },
-  {
-   "id": "attention-and-meaning",
-   "q": "AI 时代，人如何夺回注意力与存在的意义？",
-   "q_en": "In the age of AI, how do we reclaim our attention and the meaning of our existence?",
-   "date": "2026-06-13",
-   "cat": "self"
-  },
-  {
-   "id": "ai-unemployment",
-   "q": "AI 取代人类工作后，会有『存在危机』吗？",
-   "q_en": "After AI replaces human work, will we face an 'existential crisis'?",
-   "date": "2026-06-13",
-   "cat": "ethics"
-  },
-  {
-   "id": "family-trauma",
-   "q": "原生家庭的创伤，能真正走出来吗？",
-   "q_en": "Can we truly move past the trauma of the family we're born into?",
-   "date": "2026-06-13",
-   "cat": "life"
-  },
-  {
-   "id": "ai-augment-or-atrophy",
-   "q": "AI 与算法：在增强我们，还是在让我们退化？",
-   "q_en": "AI and algorithms: are they augmenting us, or making us atrophy?",
-   "date": "2026-06-14",
-   "cat": "self"
-  },
-  {
-   "id": "ai-era-parenting",
-   "q": "AI 时代该怎么养孩子？——拼命鸡娃、挤名校到底还值不值得？",
-   "q_en": "Raising kids in the age of AI: is intense “tiger parenting” and chasing elite schools still worth it?",
-   "date": "2026-06-15",
-   "cat": "life"
-  },
-  {
-   "id": "management-flattening",
-   "q": "科技大厂的『扁平化』——一个经理带 30–50 人，会成为常态吗？",
-   "q_en": "Big-tech 'flattening' — one manager over 30–50 reports: is this the new normal?",
-   "date": "2026-06-15",
-   "cat": "work"
-  },
-  {
-   "id": "is-there-a-creator",
-   "q": "是否有“造物主”，如果有的话，TA为什么要造出人类？",
-   "q_en": "Is there a 'Creator'? And if so, why would they have made humankind?",
-   "date": "2026-06-16",
-   "cat": "meta"
-  },
-  {
-   "id": "what-makes-good-manager",
-   "q": "一个好的『管理者』，到底是怎样的？",
-   "q_en": "What actually makes a good manager?",
-   "date": "2026-06-16",
-   "cat": "work"
-  },
-  {
-   "id": "knowing-vs-doing",
-   "q": "『知道』和『做到』之间，差在哪？",
-   "q_en": "Where does the gap between knowing and doing come from?",
-   "date": "2026-06-17",
-   "cat": "self"
-  },
-  {
-   "id": "pursue-immortality",
-   "q": "人是否应该追求长生，如果人真的能够长生，世界会怎样？",
-   "q_en": "Should we pursue immortality — and if humans really could live forever, what would the world become?",
-   "date": "2026-06-17",
-   "cat": "life"
-  },
-  {
-   "id": "money-and-happiness",
-   "q": "金钱能（在多大程度上）买到幸福？",
-   "q_en": "Can money buy happiness — and how much?",
-   "date": "2026-06-18",
-   "cat": "self"
-  },
-  {
-   "id": "control-and-letting-go",
-   "q": "「只专注你能控制的」，是智慧还是逃避？",
-   "q_en": "'Focus only on what you can control' — wisdom, or escape?",
-   "date": "2026-06-19",
-   "cat": "self"
-  },
-  {
-   "id": "falling-birthrate",
-   "q": "年轻人为什么不想生孩子了？",
-   "q_en": "Why don't young people want children anymore?",
-   "date": "2026-06-19",
-   "cat": "ethics"
-  },
-  {
-   "id": "facing-death",
-   "q": "我们该如何面对死亡？如何做到「向死而生」？",
-   "q_en": "How should we face death — and how do we actually live 'toward' it (being-toward-death)?",
-   "date": "2026-06-19",
-   "cat": "life"
-  },
-  {
-   "id": "intimacy-recession",
-   "q": "为什么这一代人越来越难谈恋爱？",
-   "q_en": "Why is this generation finding it ever harder to date?",
-   "date": "2026-06-19",
-   "cat": "ethics"
-  },
-  {
-   "id": "three-teachings",
-   "q": "儒、释、道的异同：三家分歧究竟在哪，又在何处殊途同归？",
-   "q_en": "Confucianism, Buddhism, and Daoism: where do the three traditions truly differ, and where do they converge?",
-   "date": "2026-06-19",
-   "cat": "meta"
-  },
-  {
-   "id": "index-or-stock-picking",
-   "q": "普通人投资，该买大盘指数，还是买自己拿着放心的个股？",
-   "q_en": "For ordinary investors: buy the broad index, or the individual stocks you can hold with confidence?",
-   "date": "2026-06-19",
-   "cat": "self"
-  },
-  {
-   "id": "driven-by-fear",
-   "q": "靠恐惧驱动的优秀，该不该放下？",
-   "q_en": "Should we let go of excellence driven by fear?",
-   "date": "2026-06-19",
-   "cat": "self"
-  },
-  {
-   "id": "east-west-philosophy",
-   "q": "东方与西方哲学，源头何以不同？",
-   "q_en": "Why did Eastern and Western philosophy diverge at the source?",
-   "date": "2026-06-20",
-   "cat": "meta"
-  },
-  {
-   "id": "office-politics",
-   "q": "『组织政治』是毒瘤，还是必需？",
-   "q_en": "Is 'office politics' a tumor, or a necessity?",
-   "date": "2026-06-20",
-   "cat": "work"
-  },
-  {
-   "id": "withdraw-life-support",
-   "q": "家中老人病重、靠插管维持近乎植物人的状态，作为子女，该不该撤管放手？",
-   "q_en": "An elderly parent kept alive by tubes in a near-vegetative state — should the children withdraw life support and let go?",
-   "date": "2026-06-21",
-   "cat": "life"
-  },
-  {
-   "id": "virtue-vs-talent",
-   "q": "企业用人，该「以德为先」还是「以才为先」？",
-   "q_en": "When a company hires and promotes, should it put character first, or ability first?",
-   "date": "2026-06-22",
-   "cat": "work"
-  },
-  {
-   "id": "coach-or-manage-out",
-   "q": "下属不行，该带教还是该换人？",
-   "q_en": "When a subordinate falls short: coach, or move them out?",
-   "date": "2026-06-24",
-   "cat": "work"
-  },
-  {
-   "id": "seeing-others-is-self",
-   "q": "「你眼中的别人，其实是你自己」？",
-   "q_en": "'The others you see are really you' — is that true?",
-   "date": "2026-06-25",
-   "cat": "self"
-  },
-  {
-   "id": "worldly-success",
-   "q": "世俗意义上的『成功』——财富、地位、名声、成就——到底值不值得追求？",
-   "q_en": "Is worldly 'success' — wealth, status, fame, achievement — worth pursuing at all?",
-   "date": "2026-06-26",
-   "cat": "self"
-  },
-  {
-   "id": "being-yourself",
-   "q": "「忠于真实的自我」是不是个伪命题？到底有没有一个本真的我？",
-   "q_en": "Is 'being true to your authentic self' a false premise — and is there even an authentic self to begin with?",
-   "date": "2026-06-26",
-   "cat": "self"
-  },
-  {
-   "id": "acceptable-inequality",
-   "q": "什么样的不平等是可以接受的？",
-   "q_en": "What kind of inequality is acceptable?",
-   "date": "2026-06-27",
-   "cat": "ethics"
-  },
-  {
-   "id": "luck-and-merit",
-   "q": "我们的成功与失败，多少是「应得的」？努力真能决定命运吗？",
-   "q_en": "How much of our success or failure do we actually deserve — and does effort really decide our fate?",
-   "date": "2026-06-28",
-   "cat": "self"
-  },
-  {
-   "id": "gene-editing",
-   "q": "该不该用基因编辑「设计」更聪明、更健康的下一代？",
-   "q_en": "Should we use gene editing to 'design' smarter, healthier children?",
-   "date": "2026-06-29",
-   "cat": "ethics"
-  },
-  {
-   "id": "eldercare-home-or-facility",
-   "q": "父母年迈失能，该亲自接回家照顾，还是送养老院、请护工？",
-   "q_en": "When parents grow old and frail, should you care for them at home yourself, or place them in a nursing home and hire professional carers?",
-   "date": "2026-06-30",
-   "cat": "life"
-  },
-  {
-   "id": "job-hopping",
-   "q": "该频繁跳槽，还是在一处深耕固守？",
-   "q_en": "Should you job-hop often, or stay put and dig deep in one place?",
-   "date": "2026-06-30",
-   "cat": "work"
-  },
-  {
-   "id": "productivity-and-leisure",
-   "q": "生产力一次次飞跃，人更闲了还是更忙了？",
-   "q_en": "With each leap in productivity, are we more leisured or busier?",
-   "date": "2026-06-30",
-   "cat": "meta"
-  },
-  {
-   "id": "what-determines-value",
-   "q": "一样东西的价值，到底由什么决定？（劳动、效用、稀缺，还是别的？）",
-   "q_en": "What ultimately determines the value of a thing? (Labor, utility, scarcity — or something else?)",
-   "date": "2026-06-30",
-   "cat": "meta"
-  },
-  {
-   "id": "ai-and-inequality",
-   "q": "AI 创造的财富，会让社会更不平等吗？",
-   "q_en": "Will the wealth AI creates make society more unequal?",
-   "date": "2026-07-01",
-   "cat": "ethics"
-  },
-  {
-   "id": "identity-or-no-self",
-   "q": "想改变自己，该先立身份还是先放下自我？",
-   "q_en": "To change yourself: build an identity first, or let the self go?",
-   "date": "2026-07-02",
-   "cat": "self"
-  },
-  {
-   "id": "free-will",
-   "q": "人是否拥有真正的自由意志？",
-   "q_en": "Do humans have genuine free will?",
-   "date": "2026-07-02",
-   "cat": "meta"
-  },
-  {
-   "id": "geography-shapes-thought",
-   "q": "是地理塑造了思想，还是思想自有其命？",
-   "q_en": "Did geography shape thought, or do ideas have a life of their own?",
-   "date": "2026-07-02",
-   "cat": "meta"
-  },
-  {
-   "id": "engage-or-withdraw",
-   "q": "想活得不后悔，该入世还是出世？",
-   "q_en": "To live without regret: engage the world, or withdraw from it?",
-   "date": "2026-07-02",
-   "cat": "self"
-  },
-  {
-   "id": "comparison-and-envy",
-   "q": "为什么我们忍不住跟别人比？嫉妒能消除吗？",
-   "q_en": "Why can't we stop comparing ourselves to others — and can envy ever be cured?",
-   "date": "2026-07-03",
-   "cat": "self"
-  },
-  {
-   "id": "enough-money-still-work",
-   "q": "如果有了足够的钱（财务自由），是否还应该继续工作？",
-   "q_en": "If you had enough money to never need to, should you still work?",
-   "date": "2026-07-04",
-   "cat": "self"
-  },
-  {
-   "id": "quantum-observation",
-   "q": "量子物理是否说明「观测」真的改变了世界？",
-   "q_en": "Does quantum physics show that 'observation' really changes the world?",
-   "date": "2026-07-05",
-   "cat": "meta"
-  },
-  {
-   "id": "depth-or-breadth",
-   "q": "AI 时代，人的心智该往「深」练还是往「广」练？——不受打扰的深度专注，还是驾驭多线程的调度与切换？",
-   "q_en": "In the AI era, should the mind train for depth or breadth — undistracted deep focus, or orchestrating and switching across many threads?",
-   "date": "2026-07-07",
-   "cat": "self"
-  },
-  {
-   "id": "virtue-teachable",
-   "q": "品德是教出来的，还是长出来的？——美德到底可不可教？",
-   "q_en": "Can virtue be taught — is character instilled, or does it grow on its own?",
-   "date": "2026-07-07",
-   "cat": "self"
-  },
-  {
-   "id": "big-firm-or-startup",
-   "q": "普通人该进大厂求稳，还是闯小公司、创业？",
-   "q_en": "Should you join a big company for stability, or take a startup — or strike out on your own?",
-   "date": "2026-07-07",
-   "cat": "work"
-  },
-  {
-   "id": "inequality-and-health",
-   "q": "贫富差距本身会让人生病吗？——该不该把不平等当成一个公共健康问题？",
-   "q_en": "Does the wealth gap itself make people sick — and should inequality be treated as a public-health problem?",
-   "date": "2026-07-08",
-   "cat": "ethics"
-  },
-  {
-   "id": "what-is-education-for",
-   "q": "教育到底是为了什么——筛选人才的机器，还是培养人的土壤？",
-   "q_en": "What is education actually for — a machine to sort talent, or soil to cultivate a person?",
-   "date": "2026-07-09",
-   "cat": "ethics"
-  },
-  {
-   "id": "fluid-or-crystallized",
-   "q": "AI 时代，该练流体智力还是晶体智力？",
-   "q_en": "In the age of AI: train fluid intelligence, or crystallized?",
-   "date": "2026-07-10",
-   "cat": "self"
-  },
-  {
-   "id": "math-discovered-or-invented",
-   "q": "数学是被发现的，还是被发明的？",
-   "q_en": "Is mathematics discovered, or invented?",
-   "date": "2026-07-11",
-   "cat": "meta"
-  },
-  {
-   "id": "is-progress-real",
-   "q": "进步是真的吗？历史是在前进，还是循环、甚至退步？",
-   "q_en": "Is progress real? Is history moving forward, in cycles — or even backward?",
-   "date": "2026-07-12",
-   "cat": "meta"
-  },
-  {
-   "id": "progress-liberation-or-control",
-   "q": "现代的『文明进步』，是解放还是控制？",
-   "q_en": "Modern 'civilizational progress': liberation, or control?",
-   "date": "2026-07-13",
-   "cat": "ethics"
-  },
-  {
-   "id": "natural-aging",
-   "q": "容颜该顺其自然地老去，还是该努力医美、抗衰？",
-   "q_en": "Should we let our looks age naturally, or fight it with cosmetic work and anti-aging?",
-   "date": "2026-07-13",
-   "cat": "self"
-  },
-  {
-   "id": "ai-consciousness",
-   "q": "AI 有没有、或可能有意识？我们又凭什么判断？",
-   "q_en": "Does (or could) AI have consciousness — and how would we ever know?",
-   "date": "2026-07-14",
-   "cat": "meta"
-  },
-  {
-   "id": "language-shapes-thought",
-   "q": "语言塑造思维吗？说不同语言的人，看到的是不同的世界吗？",
-   "q_en": "Does language shape thought? Do speakers of different languages see different worlds?",
-   "date": "2026-07-15",
-   "cat": "meta"
-  },
-  {
-   "id": "what-is-beauty",
-   "q": "美，是主观感受，还是有客观的标准？",
-   "q_en": "Is beauty just in the eye of the beholder, or is there an objective standard?",
-   "date": "2026-07-16",
-   "cat": "meta"
-  },
-  {
-   "id": "care-and-emotional-labor",
-   "q": "我们为何系统性地低估『照护与情感劳动』的价值？（带孩子、陪伴、安抚、协调——这些撑起一切却没人记功的活）",
-   "q_en": "Why do we systematically undervalue care and emotional labor?",
-   "date": "2026-07-17",
-   "cat": "life"
-  },
-  {
-   "id": "performance-ranking",
-   "q": "绩效考核与「赛马」（KPI、末位淘汰）是激励，还是毒药？",
-   "q_en": "Are performance metrics and forced ranking (KPIs, stack-ranking) a motivator, or a poison?",
-   "date": "2026-07-18",
-   "cat": "work"
-  },
-  {
-   "id": "duty-to-distant-strangers",
-   "q": "我们对远方陌生人的苦难，负有多大义务？",
-   "q_en": "How much do we owe the suffering of distant strangers?",
-   "date": "2026-07-19",
-   "cat": "ethics"
-  },
-  {
-   "id": "procrastination",
-   "q": "拖延症，到底要不要治？",
-   "q_en": "Should we cure procrastination at all?",
-   "date": "2026-07-20",
-   "cat": "self"
-  },
-  {
-   "id": "cultural-homogenization",
-   "q": "全球化正在让世界失去文化多样性吗？",
-   "q_en": "Is globalization costing us cultural diversity?",
-   "date": "2026-07-21",
-   "cat": "meta"
-  },
-  {
-   "id": "nature-of-love",
-   "q": "真爱是发现的，还是培养（甚至建构）出来的？",
-   "q_en": "Is true love found, or cultivated — even constructed?",
-   "date": "2026-07-22",
-   "cat": "life"
-  },
-  {
-   "id": "shareholder-or-stakeholder",
-   "q": "公司到底该对谁负责——只对股东，还是也对员工与社会？",
-   "q_en": "Whom does a company answer to — only shareholders, or also its workers and society?",
-   "date": "2026-07-23",
-   "cat": "work"
-  },
-  {
-   "id": "escape-from-freedom",
-   "q": "人真的在逃避自由吗？——自由是解放，还是一副人宁愿卸下的重担？",
-   "q_en": "Do humans really flee from freedom — is freedom liberation, or a burden people would rather set down?",
-   "date": "2026-07-24",
-   "cat": "self"
-  },
-  {
-   "id": "walden-simple-living",
-   "q": "该主动过「极简 / 少欲」的生活吗？",
-   "q_en": "Should we deliberately live simply?",
-   "date": "2026-07-25",
-   "cat": "self"
-  },
-  {
-   "id": "social-interest-or-self",
-   "q": "「社会兴趣」是衡量活得好不好的尺吗？",
-   "q_en": "Is 'social interest' the yardstick of a life well lived?",
-   "date": "2026-07-26",
-   "cat": "self"
-  },
-  {
-   "id": "nde-mind-beyond-brain",
-   "q": "濒死体验证明意识能脱离大脑吗？",
-   "q_en": "Do near-death experiences prove consciousness can leave the brain?",
-   "date": "2026-07-27",
-   "cat": "meta"
-  },
-  {
-   "id": "does-time-exist",
-   "q": "时间真的存在吗，还是一种幻觉？",
-   "q_en": "Does time really exist, or is it an illusion?",
-   "date": "2026-07-28",
-   "cat": "meta"
-  },
-  {
-   "id": "duty-to-earth",
-   "q": "我们对地球（其他物种、后代）负有怎样的义务？",
-   "q_en": "What do we owe the Earth — other species, and future generations?",
-   "date": "2026-07-30",
-   "cat": "ethics"
-  },
-  {
-   "id": "third-places",
-   "q": "我们是不是正在失去『第三空间』？",
-   "q_en": "Are we losing our 'third places'?",
-   "date": "2026-07-30",
-   "cat": "life"
-  },
-  {
-   "id": "algorithmic-management",
-   "q": "该不该让算法来管人——派活、打分、监控，甚至解雇？",
-   "q_en": "Should algorithms manage people — assigning work, scoring, surveilling, even firing?",
-   "date": "2026-07-31",
-   "cat": "work"
-  },
-  {
-   "id": "truth-vs-harmony",
-   "q": "维系和谐，有时是否比说出真相更重要？（含：伪善是不是比赤裸的恶更可恨——道德表演与『人设』，究竟是文明的润滑剂还是腐蚀剂）",
-   "q_en": "Is keeping the peace sometimes more important than telling the truth? (Including: is hypocrisy more contemptible than open vice — is moral performance the lubricant of civilisation or its solvent?)",
-   "date": "2026-08-01",
-   "cat": "self"
-  },
-  {
-   "id": "dark-forest",
-   "q": "宇宙真的是「黑暗森林」吗？文明之间注定你死我活，还是可能合作？",
-   "q_en": "Is the universe really a 'dark forest'? Are civilizations doomed to mutual annihilation, or can they cooperate?",
-   "date": "2026-08-02",
-   "cat": "meta"
-  },
-  {
-   "id": "ai-resurrect-dead",
-   "q": "该不该用 AI「复活」逝去的亲人？",
-   "q_en": "Should you use AI to 'resurrect' a dead loved one?",
-   "date": "2026-08-03",
-   "cat": "life"
-  },
-  {
-   "id": "liberty-vs-equality",
-   "q": "自由与平等不可兼得时，该牺牲哪个？",
-   "q_en": "When liberty and equality cannot both be had, which gives way?",
-   "date": "2026-08-04",
-   "cat": "ethics"
-  },
-  {
-   "id": "leadership-after-ai",
-   "q": "当 AI 比谁都懂，领导者还剩什么不可替代的？（含：最稀缺的会不会是『会读人』——读懂人、拿捏分寸、在冲突里维系信任的社会情感能力，机器能不能接管）",
-   "q_en": "When AI knows more than anyone, what is left that only a leader can do? (Including: will the scarcest skill turn out to be reading people — judging a face, calibrating tone, holding trust together through conflict — and can machines take that over?)",
-   "date": "2026-08-05",
-   "cat": "work"
-  },
-  {
-   "id": "interfere-or-let-be",
-   "q": "爱一个人，该介入他的人生多深？",
-   "q_en": "How far should love intervene in another's life?",
-   "date": "2026-08-06",
-   "cat": "life"
-  },
-  {
-   "id": "regret",
-   "q": "该为过去的选择后悔吗？",
-   "q_en": "Should we regret the choices we made?",
-   "date": "2026-08-07",
-   "cat": "self"
-  },
-  {
-   "id": "multiverse",
-   "q": "真的存在平行宇宙吗？",
-   "q_en": "Do parallel universes really exist?",
-   "date": "2026-08-08",
-   "cat": "meta"
-  },
-  {
-   "id": "moral-limits-of-markets",
-   "q": "有什么是金钱不该买卖的？",
-   "q_en": "Is there anything money should not be able to buy?",
-   "date": "2026-08-09",
-   "cat": "ethics"
-  },
-  {
-   "id": "express-ambition",
-   "q": "职场该不该表达野心？",
-   "q_en": "Should you show your ambition at work?",
-   "date": "2026-08-10",
-   "cat": "work"
-  },
-  {
-   "id": "gardener-or-carpenter",
-   "q": "园丁还是木匠？——父母该「雕琢」孩子，还是营造环境让他自己长成？",
-   "q_en": "Gardener or carpenter — should parents shape the child, or cultivate the soil and let them grow unpredictably?",
-   "date": "2026-08-11",
-   "cat": "life"
-  },
-  {
-   "id": "courage",
-   "q": "真正的『勇气』是什么？",
-   "q_en": "What is courage, really?",
-   "date": "2026-08-12",
-   "cat": "self"
-  },
-  {
-   "id": "materialism-idealism",
-   "q": "世界是唯物的，还是唯心的？",
-   "q_en": "Is the world made of matter, or of mind?",
-   "date": "2026-08-13",
-   "cat": "meta"
-  },
-  {
-   "id": "abundance-and-decline",
-   "q": "物质极度丰裕后，人会走向衰亡吗？",
-   "q_en": "Does material abundance lead to decline?",
-   "date": "2026-08-14",
-   "cat": "ethics"
-  },
-  {
-   "id": "entry-jobs-and-apprenticeship",
-   "q": "AI 做完入门的活，新人怎么学本事？",
-   "q_en": "If AI does the entry-level work, how do novices learn?",
-   "date": "2026-08-15",
-   "cat": "work"
-  },
-  {
-   "id": "test-loyalty",
-   "q": "忠诚该不该被考验？",
-   "q_en": "Should loyalty be tested — and is a trust that holds only while unverified really trust at all?",
-   "date": "2026-08-16",
-   "cat": "life"
-  },
-  {
-   "id": "save-or-spend",
-   "q": "钱该省下来滚复利，还是该花掉？",
-   "q_en": "Should money be saved to compound, or spent?",
-   "date": "2026-08-17",
-   "cat": "self"
-  },
-  {
-   "id": "truth-after-ai",
-   "q": "AI 能伪造一切，我们还信什么？",
-   "q_en": "When AI can fake anything, what is left to trust?",
-   "date": "2026-08-18",
-   "cat": "meta"
-  },
-  {
-   "id": "assisted-dying",
-   "q": "社会该不该允许安乐死与协助死亡？",
-   "q_en": "Should society allow euthanasia and assisted dying?",
-   "date": "2026-08-19",
-   "cat": "ethics"
-  },
-  {
-   "id": "one-ladder-organizations",
-   "q": "只有一条晋升阶梯的组织，浪费了谁？",
-   "q_en": "Who is wasted by an organisation with only one ladder?",
-   "date": "2026-08-20",
-   "cat": "work"
-  },
-  {
-   "id": "youth-career-or-explore",
-   "q": "趁年轻，该搏事业还是先去看世界？",
-   "q_en": "When young: build a career, or go see the world first?",
-   "date": "2026-08-21",
-   "cat": "life"
-  },
-  {
-   "id": "forgiveness-or-revenge",
-   "q": "该不该原谅伤害过你的人？",
-   "q_en": "Should you forgive someone who has wronged you?",
-   "date": "2026-08-22",
-   "cat": "self"
-  },
-  {
-   "id": "faith-and-reason",
-   "q": "理性与信仰冲突时，该让哪一个让步？",
-   "q_en": "When reason and faith collide, which should yield?",
-   "date": "2026-08-23",
-   "cat": "meta"
-  },
-  {
-   "id": "eat-meat",
-   "q": "该不该吃肉？动物有没有值得我们尊重的道德地位？",
-   "q_en": "Should we eat meat? Do animals have a moral standing we're bound to respect?",
-   "date": "2026-08-24",
-   "cat": "ethics"
-  },
-  {
-   "id": "real-work-or-invented-roles",
-   "q": "你的工作是真被需要，还是被造出来的？",
-   "q_en": "Is your job actually needed, or was it invented?",
-   "date": "2026-08-25",
-   "cat": "work"
-  },
-  {
-   "id": "cut-ties-or-keep",
-   "q": "该给关系做减法吗？",
-   "q_en": "Should you prune your relationships?",
-   "date": "2026-08-26",
-   "cat": "life"
-  },
-  {
-   "id": "believe-in-fate",
-   "q": "该不该信命？算命、八字、星座为何长盛不衰",
-   "q_en": "Should you believe in fate? Why do fortune-telling and astrology endure",
-   "date": "2026-08-27",
-   "cat": "self"
-  },
-  {
-   "id": "efficiency-vs-resilience",
-   "q": "凡事都追求『最优／高效』，是不是正在系统性地掏空我们的韧性？",
-   "q_en": "By chasing 'optimal' and 'efficient' in everything, are we systematically hollowing out our resilience?",
-   "date": "2026-08-28",
-   "cat": "meta"
-  },
-  {
-   "id": "democracy-best",
-   "q": "民主一定是最好的制度吗？",
-   "q_en": "Is democracy necessarily the best system?",
-   "date": "2026-08-29",
-   "cat": "ethics"
-  },
-  {
-   "id": "who-gets-watched",
-   "q": "监控为什么总是朝下查？",
-   "q_en": "Why does scrutiny always run downhill?",
-   "date": "2026-08-30",
-   "cat": "work"
-  },
-  {
-   "id": "rituals-still-needed",
-   "q": "仪式还有用吗？",
-   "q_en": "Do rituals still do anything?",
-   "date": "2026-08-31",
-   "cat": "life"
-  },
-  {
-   "id": "work-life-balance",
-   "q": "「工作与生活的平衡」真的存在吗？",
-   "q_en": "Is work-life balance a real thing?",
-   "date": "2026-09-01",
-   "cat": "self"
-  },
-  {
-   "id": "how-reliable-is-memory",
-   "q": "我们记得的过去，有多少是重新编造的？",
-   "q_en": "How much of the past we remember was rebuilt on the spot",
-   "date": "2026-09-02",
-   "cat": "meta"
-  },
-  {
-   "id": "death-penalty",
-   "q": "死刑该废除吗？",
-   "q_en": "Should the death penalty be abolished?",
-   "date": "2026-09-03",
-   "cat": "ethics"
-  },
-  {
-   "id": "vote-at-work",
-   "q": "上班的地方，为什么不投票？",
-   "q_en": "Why is there no vote where we work?",
-   "date": "2026-09-04",
-   "cat": "work"
-  },
-  {
-   "id": "leave-it-to-kids",
-   "q": "该不该把家底留给孩子？",
-   "q_en": "Should you leave your wealth to your children?",
-   "date": "2026-09-05",
-   "cat": "life"
-  },
-  {
-   "id": "mental-suffering",
-   "q": "精神痛苦是脑病，还是正常反应？",
-   "q_en": "Is mental suffering a brain disease or a normal response?",
-   "date": "2026-09-06",
-   "cat": "self"
-  },
-  {
-   "id": "position-vs-effort",
-   "q": "机遇和位置，比努力更重要吗？",
-   "q_en": "Do opportunity and position matter more than effort?",
-   "date": "2026-09-06",
-   "cat": "self"
-  }
- ]
+  "_comment": "议题投票数据。candidates=未辩候选(供投票)，debated=已辩(链到辩论)。投票免 GitHub 登录，存于自建后端(Cloudflare Worker + D1，见 ~/Desktop/cissy0802.github.io/engage-backend/)：每候选一个 poll，key='topic:'+id，choice up/down，净票=👍−👎。votes 字段由 routine 每次跑 `python3 refresh_votes.py`(读后端 /votes-net) 回写；页面 ideas.js 也会实时拉取覆盖显示。观众自提议题在评论 page='thinker-open-questions'，各候选下讨论 page='topic:'+id——routine 读这些把好提案提炼成新 candidates。新候选加进 candidates 即可。",
+  "candidates": [
+    {
+      "id": "health-vs-liberty",
+      "votes": 0,
+      "q": "为了公共健康，国家能限制个人自由到什么程度？",
+      "q_en": "For the sake of public health, how far may the state limit individual freedom (mandatory vaccines, lockdowns, sugar taxes, smoking bans) — and where does that power come from in the first place?",
+      "note": "（强制疫苗、封控、糖税、禁烟；同一把尺该不该量向广告、无限下拉、成瘾式设计这类制造欲望与注意力的产业；也含更根本的一问：国家的这份权力从何而来、有没有正当的边界）　2020 年代最撕裂的真问题：密尔的『伤害原则』止于何处？福柯的『生命权力』——现代国家正是靠管理『人口的健康』来行使治理，对上伯林的消极自由、洛克的个人权利，与功利主义/公共卫生的集体福祉正面交锋。个人自主 vs 集体安全，边界到底划在哪。同一把尺该不该量向制造欲望与注意力的产业：广告、无限下拉、成瘾式设计——如果糖税与禁烟成立，凭什么不管它们？还是说管制欲望本身就越界了？　更根本的一层：这份权力究竟从何而来——社会契约、天命，还是法家式的强力？来源与边界是政治哲学最古老的争点，也决定了上面每一条禁令该由谁点头。　同一母题的另一面（由『国家能要求什么』翻到『个人能推掉什么』）：一个人能在多大程度上既拒绝共同体的要求，又指望共同体的托底？独来独往被越来越多人当作正当的活法，可替独行者兜底的仍是家人、邻居、公共医保与养老金；于是争点是权利与义务的对称——能不能只要退出的自由、不要参与的义务，社会又有没有资格用『你不贡献』削减对一个人的照顾。照护、急救、失业救济是无条件的人的资格，还是成员身份的对价？也含：有能力的人买下私立学校、私人医疗与私家车退出公共服务之后，剩下的人还托不托得住；你存下的钱里有多少其实是医疗、养老、失业的公共缺口开给你的账单（这一栏没有上限，所以怎么存都不够）；以及托底的厚薄决定一个人输不输得起——当落败意味着失去医保、住处或人身安全，拒不认输就成了理性选择，『社会该替失败者兜住多少』因此也是政治稳定的问题。 同一把尺最难量的一段是替人做决定：一个正处在急性精神病发作、重度厌食或正在计划自杀的人，『尊重他此刻的意愿』可能等于放手让他死，而强制干预又是最彻底的一次自由剥夺——谁有权在什么条件下替另一个人拿主意，用什么可核查的标准？",
+      "note_en": "The most divisive real question of the 2020s: where does Mill's 'harm principle' stop? Foucault's 'biopower' — the modern state governs precisely by managing 'the health of the population' — meets Berlin's negative liberty and Locke's individual rights, colliding head-on with the utilitarian/public-health case for collective welfare. Personal autonomy vs collective safety: where exactly is the line? The same yardstick can be turned on the industries that manufacture desire and harvest attention — advertising, infinite scroll, addictive design. If sugar taxes and smoking bans are legitimate, why not these? Or is regulating desire itself a step too far? A deeper layer: where does that power come from at all — a social contract, the Mandate of Heaven, or Legalist force? Source and limit are political philosophy's oldest quarrel, and they decide who is entitled to sign off on any of the prohibitions above. The same mother question seen from the other side — from what the state may demand to what an individual may decline: how far can a person refuse what a community asks while still counting on its safety net? Keeping to yourself is increasingly treated as a legitimate way to live, yet the backstop for the loner is still family, neighbours, public health insurance and pensions. The issue is the symmetry of rights and duties: can one claim the freedom to withdraw without the duty to take part, and is a society entitled to cut what it gives someone on the grounds that they contribute nothing? Are care, emergency treatment and unemployment support unconditional entitlements of persons, or the consideration paid for membership? Also: once those who can afford it withdraw into private schools, private medicine and private cars, does the floor still hold for everyone left; how much of the money you have put aside is really the bill handed to you by the gaps in healthcare, pensions and unemployment cover (a column with no ceiling, which is why no amount is ever enough); and how the thickness of the net decides whether a person can afford to lose — when defeat means losing health cover, housing or personal safety, refusing to concede becomes rational, which makes 'how much a society should catch its losers' a question of political stability, not only of charity. The hardest stretch to measure with the same rule is deciding for someone else: for a person in acute psychosis, in severe anorexia, or actively planning to die, respecting what they want right now may amount to letting them die, while compulsory intervention is the most complete removal of liberty there is — who may decide for another person, under what conditions, and by what checkable standard?",
+      "cat": "ethics"
+    },
+    {
+      "id": "moral-universals-or-relativism",
+      "votes": 0,
+      "q": "有没有放之四海皆准的美德？",
+      "q_en": "Are there virtues that hold everywhere?",
+      "note": "还是说善恶本就因文化、因时代而异？　我们该向谁的道德看齐？　同一件事，一处的美德可能是另一处的恶习：孝顺、忠诚、勇敢的内容随文化而变，甚至彼此冲突。道德是可跨文明求真的『一套』，还是各有各的约定？休谟的『是与应当』、尼采的价值重估、孔子的礼、人类学的文化相对论各执一端——若无共同标尺，宽容与批判又各以何为据？",
+      "note_en": "Or do good and evil simply vary with culture and era? whose morality should we measure by? The same act can be a virtue in one place and a vice in another: the content of filial duty, loyalty and courage shifts with culture and can even conflict. Is morality a single truth pursuable across civilisations, or a set of local conventions? Hume's is–ought gap, Nietzsche's revaluation of values, Confucian ritual and anthropological cultural relativism pull in different directions — and without a shared measure, on what do tolerance and critique each rest?",
+      "cat": "ethics"
+    },
+    {
+      "id": "beauty-as-capital",
+      "votes": 0,
+      "q": "外貌在多大程度上是一种『资本』？",
+      "q_en": "To what extent are looks a form of 'capital'",
+      "note": "该承认颜值红利、好好经营，还是该抵制这种不公？　招聘、相亲、镜头前，好看的人确有实打实的溢价（『颜值红利』）。这是该像投资技能一样经营的社会资本，还是一种该被抵制的、给人贴标签的不公？经济学（贝克尔、哈基姆的『情色资本』）对上正义论与女性主义。　同一把尺也量得到那些看不见的资本：口音、举止、面对制度时的从容、一本通讯录。钱可以捐、可以征税，它们不能，可复制它们几乎不花钱——一次真的引荐、一次改简历、一次带人进门。为什么制度只征收最便宜的那一块，却从没有一项安排去鼓励最贵的那一块外流？",
+      "note_en": "should we acknowledge and cultivate the beauty premium, or resist it as unjust? In hiring, dating, and on camera, the good-looking enjoy a real premium ('pretty privilege'). Is this social capital to be cultivated like a skill, or an unjust, labeling advantage to be resisted? Economics (Becker, Hakim's 'erotic capital') meets theories of justice and feminism. The same measure reaches the capital nobody sees: an accent, a bearing, ease in front of institutions, an address book. Money can be given away and taxed; these cannot — yet copying them costs almost nothing, one real introduction, one CV rewritten, one door held open. Why do our institutions levy the cheapest part and do nothing to push the most valuable part outward?",
+      "cat": "ethics"
+    },
+    {
+      "id": "who-owns-the-words",
+      "votes": 0,
+      "q": "当『裁员』改叫『优化』，我们还判断得了吗？",
+      "q_en": "When layoffs are renamed optimization, can we still judge?",
+      "note": "委婉语、行话与口号如何不禁止你开口就替你预设结论。　委婉语、行话与政治口号如何在不禁止你开口的情况下替你预设结论；乔姆斯基的『制造同意』，普通人识破话术、还原朴素事实的自保之道。　也含法律/金融/学术『黑话』——是必要的精确，还是把人挡在门外的墙？清晰表达是不是一种被低估的正义（鲁迅白话之问）。　同一种操作的另一面：把一个选择重述成『规律』——宇宙法则、优胜劣汰、人性本贪、市场自会决定——责任就从选择者身上转移给了世界。检验的办法或许是看引用之后紧接着要做的那个动作。　也含道歉的通货膨胀：当企业公告、明星声明与政客致辞都学会了那套完整话术——说清做了什么、承认规矩、承诺改进、给出补偿——每一步都能被排练、外包、由公关审过。当动作本身不再稀缺，受损的一方还剩什么判据可用：赔偿的金额、规则被重新执行的证据，还是那个人此后真的付出了代价？　相邻角度（谁的说法算数）：能拿出合同、考勤、诊断书、聊天记录的人，与只有口头约定、现金结算、说不清时间线的人，从来不在同一条起跑线上。一旦『拿得出证据』成为可信的前提，最需要被相信的人反而最先出局——留痕的能力该不该被当成一种要分配的资源？",
+      "note_en": "How euphemism, jargon and slogans preset your conclusions without ever forbidding you to speak; Chomsky's 'manufacturing consent,' and how an ordinary person sees through the spin and restores the plain fact. It also covers legal/financial/academic jargon — necessary precision, or a wall that keeps people out? Is plain speech an underrated form of justice (Lu Xun's vernacular question)? The same manoeuvre has another face: restate a choice as a 'law' — of the cosmos, of survival of the fittest, of human greed, of the market — and responsibility passes from the chooser to the world. The test may be to watch the action that follows immediately after the citation. It also covers the inflation of apology: now that corporate statements, celebrity notes and political addresses have all learnt the full script — state the act, acknowledge the rule, promise the change, offer redress — every step can be rehearsed, outsourced and cleared by a communications team. When the gestures are no longer scarce, what criteria are left to the injured party: the size of the restitution, the evidence that the rule is enforced again, or whether the person actually bore a cost afterwards? An adjacent angle, whose account counts: people who can produce contracts, timesheets, medical records and chat logs have never stood on the same line as those with verbal agreements, cash payments and a timeline they cannot pin down. Once producing evidence becomes the precondition of being believed, those who most need belief are the first disqualified — should the ability to leave a record be treated as a resource to be distributed?",
+      "cat": "ethics"
+    },
+    {
+      "id": "strength-and-flaw-same-root",
+      "votes": 0,
+      "q": "一个人的优点和缺点，是不是同一个特点的两面？",
+      "q_en": "Are a person's strengths and flaws two faces of the same trait",
+      "note": "若真如此，改掉缺点会不会连优点一起改掉？　高尽责＝可靠 ⇄ 完美主义僵化；高共情＝温暖能读人 ⇄ 界限模糊被淹没；高开放＝创造好奇 ⇄ 不聚焦烂尾——同一套底层机制必然同时产出两种结果（人格特质本身价值中立，进化上叫拮抗多效性）。但要打三个折扣：很多缺点（残忍、失信、自欺）根本没有对应优点，同源论易沦为免责声明；更常见的其实是剂量或场合错了（亚里士多德中庸），不是必然代价；评价还随环境翻转。检验：去掉那个缺点，优点还在吗？亚里士多德（中庸·德性可调）× 荣格（阴影须整合）× 尼采（别阉割自己的强力）× 达尔文/萨波尔斯基（拮抗多效性与气质的生物底）对上 孔子/王阳明（克己·变化气质）与『这是自我合理化』的诘问方。",
+      "note_en": "and if so, does fixing the flaw also destroy the strength? High conscientiousness means reliable yet rigidly perfectionist; high empathy means warm and perceptive yet boundary-less and flooded; high openness means creative and curious yet unfocused and prone to abandoning things — one underlying mechanism necessarily yields both results (personality traits are value-neutral; evolution calls this antagonistic pleiotropy). But three discounts apply: many flaws (cruelty, dishonesty, self-deception) have no corresponding strength at all, so the same-root claim easily becomes a blanket excuse; more often the real issue is wrong dosage or wrong setting (Aristotle's mean), not a necessary price; and the valuation flips with environment. The test: remove the flaw — is the strength still there? Aristotle (the mean; virtue is adjustable) × Jung (the shadow must be integrated) × Nietzsche (don't geld your own strength) × Darwin/Sapolsky (antagonistic pleiotropy and the biology of temperament) against Confucius/Wang Yangming (self-mastery, transforming one's disposition) and a challenger who calls it rationalization.",
+      "cat": "self"
+    },
+    {
+      "id": "who-bears-the-bet",
+      "votes": 0,
+      "q": "谁有权拿别人的人生下注？",
+      "q_en": "Who is entitled to bet other people's lives?",
+      "note": "创始人、将领、政客付出的『不可撤销的代价』，押上的常常不是自己的东西　我们习惯把『为一个判断付出昂贵而不可撤销的代价』当成它出于远见而非豪赌的证据。可押上去的常常是员工的十年、股东的钱、士兵的命、一整条供应链的生计——事前有没有办法区分『自己下注』与『替别人下注』？如果一个人要求他人承担的风险远大于自己承担的，他展示的还算不算勇敢？再往下还有一问：被押上去的人凭什么算同意——一纸雇佣、一张选票、一道军令，够不够；押错之后又该怎么赔。亚里士多德的勇敢与鲁莽之辨、塔勒布的切肤之痛、马基雅维利、韦伯的责任伦理都能入场。　也含：父母替孩子承担风险时，可恢复的损失与一旦触到就回不来的损失，事前该怎么分辨。 也含：该不该给地球动手术——平流层遮阳、海洋施铁这类气候工程，由少数人决定、风险却落在所有人与后代身上，谁有资格按下这个开关。　同一道题的家庭版本：二十几岁的人要不要出走、要不要换城市，看起来是个人选择，实际由家庭这个单位承担——父母何时需要人在身边、家里有没有第二个人顶得上、汇款要不要继续。一个人的探索，该由谁一起签字？　家庭里的同一道题：长辈用『八字不合』否决一门婚事时，谈判对象变了——你没法跟一张命盘讲道理，而提出反对的人也不必为这个决定负责。说话的是术士，落子的是长辈，代价由小辈承担。 同一道题还有一个安静的版本：不下注、只设默认值——退休金的默认缴费比例、器官捐献默认同意还是默认拒绝、推荐流开箱先放什么、公司食堂的菜单，一行配置抵得上几千人各自立誓。谁有资格替几千人定这个值，该按什么标准，被设定的人凭什么算同意，又该怎么把它改回来？可带进塞勒的助推与选择架构、密尔的自由原则。　相邻角度（事后评价）：结果揭晓之后，还能不能公平地评判当初那个只有当时信息的人——包括你自己的过去？你现在知道那条路走不通，恰恰因为你走过了；判据该按当时手上的信息，还是按后来的结果？　同一把尺还该量向自己：日常里究竟哪些动作是收不回的——开除、断绝、公开指名、把人移出一个群体？若『可回／不可回』比『轻／重』更要紧，最不可回的那几件是不是该配上最慢的程序？　还有一把可用的尺：治理权该随『不可分散、不可逆的风险暴露』走，而不是随出资额走——股东的损失以投入资本为限、还能分散持仓，员工却把收入、技能路径、医保与家庭地点押在同一家机构上。 同一母题的另一头是事后的归属：当一件坏事被切成签字、排期、写代码、按下按钮许多道工序，每一道都小到没人觉得『这是我做的』，法律该追到哪一环，普通人在自己那一份上又该负多少？若一项处置只有靠责任分散才推得动，这件事本身就说明了什么。",
+      "note_en": "the irreversible price paid by a founder, a general or a politician is usually not their own We habitually treat paying an expensive, irreversible price for a judgement as proof that it came from foresight rather than bravado. Yet what gets staked is usually ten years of employees' lives, shareholders' money, soldiers' lives, an entire supply chain's livelihood — so is there any way, before the result arrives, to tell betting your own stake from betting someone else's? If a person asks others to carry far more risk than they carry themselves, is what they display still courage? A further question follows: on what basis are the people staked said to have consented — does an employment contract, a vote or a military order suffice — and what is owed to them when the bet fails? Aristotle on courage versus recklessness, Taleb on skin in the game, Machiavelli, and Weber's ethic of responsibility all belong here. Also included: when someone permanently loses the capacity to decide, by what standard should others decide for them — their previously expressed wishes, or another's judgement of their best interests? And when parents take risks on a child's behalf, how does one tell in advance a recoverable loss from one there is no coming back from? Also: whether to operate on the planet — stratospheric sunshades, ocean iron fertilization and the like, decided by a few while the risk falls on everyone and on those not yet born. Who is entitled to press that switch? The household version of the same question: whether someone in their twenties leaves, or moves cities, looks like a personal choice yet is borne by the family as a unit — when parents will need somebody present, whether a second person at home can step in, whether the remittance continues. Who else should be signing off on one person's exploration? The same question inside a family: when an elder vetoes a marriage because the horoscopes do not match, the negotiation changes shape — you cannot reason with a chart, and the person objecting answers for nothing. The diviner speaks, the elder moves the piece, the young pay. The same question has a quieter version, where nobody bets and someone merely sets the default — the default contribution rate on a pension, opt-in versus opt-out organ donation, what a recommendation feed shows out of the box, the menu in a company canteen. One line of configuration outweighs several thousand private resolutions. Who is entitled to set that value for thousands of people, by what standard, what makes those it is set for count as consenting, and how is it changed back? Thaler's nudges and choice architecture, and Mill's principle of liberty, both belong here. An adjacent angle, judging after the fact: once the outcome is known, can anyone fairly judge the person who had only the information available at the time — your own earlier self included? You know that road leads nowhere precisely because you walked it. Should a decision be judged by the information then in hand, or by how it turned out? The same measure turns back on oneself: which everyday acts genuinely cannot be taken back — a dismissal, a severance, naming someone publicly, removing a person from a group? If reversible against irreversible matters more than light against heavy, should the least reversible acts carry the slowest procedures? There is also a usable measure here: governance rights should follow exposure that cannot be diversified or reversed, rather than the size of a stake. A shareholder's loss is capped at the capital put in and can be spread across firms, while an employee has concentrated income, career path, health cover and where their family lives in a single institution. The other end of the same question is attribution after the fact: when a bad outcome is sliced into signing, scheduling, writing the code and pressing the button, each step too small for anyone to feel it was theirs, where should the law attach, and how much does an ordinary person owe on the part they signed? If a course of action can only be carried through by dispersing responsibility, that fact is itself telling.",
+      "cat": "ethics"
+    },
+    {
+      "id": "inherited-guilt",
+      "votes": 0,
+      "q": "我们该为上一代做过的事负责吗？",
+      "q_en": "Are we answerable for what earlier generations did?",
+      "note": "道歉、赔偿、纪念碑与教科书——一个人没做过的事，凭什么由他来还？　雅斯贝尔斯把罪分成刑事、政治、道德与形而上四层，说只有第一层能上法庭；阿伦特反对『集体罪责』，认为人人有罪等于无人有罪；可现实里国家在道歉、企业在赔偿、后代仍在继承那份好处。继承了红利算不算继承了债？幸存者的愧疚、家族的旧账与国家的历史责任，是同一件事的不同尺度吗？　另一端是既不能罚、也不能恕的那一类：加害者已经去世、系统性失职无处追索、父母永远不会承认——两种终止方式同时失效时，人还剩下什么可做？纪念、书写、把这件事讲给下一代听，算不算第三种终止？",
+      "note_en": "Apologies, reparations, monuments and textbooks — why should anyone repay what they never did? Jaspers divided guilt into criminal, political, moral and metaphysical, and held that only the first belongs in a court; Arendt rejected collective guilt on the grounds that where everyone is guilty no one is. Yet states apologise, companies pay reparations, and descendants go on inheriting the benefit. Does inheriting the dividend mean inheriting the debt? And are survivor's guilt, a family's old accounts and a nation's historical responsibility the same thing at different scales? At the other end are the wrongs that can be neither punished nor forgiven: the offender already dead, a systemic failure with no one to sue, a parent who will never concede. When both ways of halting a thing have failed, what is left to do — and do memorial, writing and telling the next generation amount to a third way of making it stop?",
+      "cat": "ethics"
+    },
+    {
+      "id": "limits-of-human-cognition",
+      "votes": 0,
+      "q": "有没有人类永远想不明白的事？",
+      "q_en": "Are there things humans can never understand?",
+      "note": "狗永远学不会微积分；人的认知硬件会不会也有天花板？内嗅皮层的网格细胞按平面铺格子，我们对空间的表征天生是三维的——谈更高维时并不是在想象，只是在符号上滑行，再把顺畅误当成理解。那么数学符号、仪器与 AI 算不算『外接的感官』，能把天花板推到多高；又该怎么分辨『暂时不懂』与『原则上不可懂』？ 也含『理解是不是必需品』这一相邻角度：量子力学的测量问题悬置百年，量子计算机照样开跑；模型越来越准也越来越黑箱。当工程上『闭嘴计算』就够用，解释还剩什么位置——科学还需不需要哲学来追问它自己在说什么？",
+      "note_en": "A dog will never learn calculus; does human cognitive hardware have a ceiling of its own? Grid cells in the entorhinal cortex tile a plane and our representation of space is natively three-dimensional — above three dimensions we are not imagining anything, only skating along a symbolic surface and mistaking the smoothness for comprehension. Do mathematical notation, instruments and AI count as prosthetic sense organs, and how far can they push the ceiling back? And how would we tell 'not understood yet' from 'unintelligible in principle'? It also carries the adjacent question of whether understanding is required at all: the measurement problem in quantum mechanics has been suspended for a century while quantum computers run anyway, and models grow both more accurate and more opaque. When 'shut up and calculate' is engineering-sufficient, what work is left for explanation — and does science still need philosophy to ask what it is saying?",
+      "cat": "meta"
+    },
+    {
+      "id": "allocation-without-money",
+      "votes": 0,
+      "q": "不用钱来分，就更公平吗？",
+      "q_en": "Is an allocation made without money any fairer?",
+      "note": "排队、抽签、按需要、按资历、按人脉、按行政审批——把稀缺的好东西移出市场之后，这些方式各自会滋生什么样的腐蚀？排队奖励有闲的人，认定需要的权力立刻成为新的稀缺资源，靠关系分配则把价码压进不透明也无法拒绝的人情。器官名单、学区、公立医院的加号、稀缺岗位的推荐，谁在这些规则下赢，谁被悄悄挡在门外？ 同一问题在组织内部的版本是背书与推荐：当机会靠同事的作证与人脉分配，怎样的可核查标准才能把健康的同侪见证与小圈子的互相抬轿分开？ 同一件事在评价与机会上的版本：取消考试、取消绩效、取消公开评审、去掉层级之后，判断并没有消失，只是从纸面挪进了饭局，先得利的往往是有关系、有出身、说得上话的人；可程序与留痕也确实能把人压成可计量的形状。韦伯把科层制看作对人身依附的解放——不认人、只认规则，正是弱者第一次能够申诉的凭据。　还有一层难处在于标的本身不可切分：一套自住房、一幅画、一家公司、一个器官名额。多数分配理论默认东西可以按份数切开，而现实里最要紧的东西往往只能整给一个人——于是父母守着房子不敢请护工，孩子在最需要的年纪一分也拿不到。不可逆、不可分的东西该按什么规则分？",
+      "note_en": "Queues, lotteries, need, seniority, connections, administrative approval — once a scarce good is taken off the market, what corruption does each of these breed? Queues reward those with time to spare; the power to certify need instantly becomes the new scarce resource; allocation through connections buries the price in favours that are neither transparent nor refusable. Organ lists, school catchments, the extra slot at a public hospital, the referral into a scarce job: who wins under these rules, and who is quietly kept out? The same question inside an organisation takes the form of endorsement and referral: when opportunity is allocated by colleagues vouching for one another, what checkable standard separates honest peer testimony from a clique boosting its own? The same question in the register of appraisal and opportunity: abolish the exam, the performance review, the open evaluation, the hierarchy itself, and judgement does not disappear — it simply moves off the page and into the dinner, where the first to gain are those with connections, background and access. Yet procedure and paperwork really do press people into measurable shapes. Weber saw bureaucracy as liberation from personal dependence: rules that recognise no faces are the first thing a weak party can appeal to. A further difficulty is that the good itself may be indivisible: one home, one painting, one company, one place on a transplant list. Most theories of allocation assume things can be cut into shares, while what matters most in practice can usually go whole to only one person — so parents sit on a house rather than hire care, and the child gets nothing in the years he needs it. By what rule should the indivisible and the irreversible be divided?",
+      "cat": "ethics"
+    },
+    {
+      "id": "persist-or-quit",
+      "votes": 0,
+      "q": "该坚持，还是该及时止损？",
+      "q_en": "Persist, or cut your losses?",
+      "note": "一件看不到回报的事，撑下去是毅力还是沉没成本？　照顾一个不会好转的病人、守着一份没有反馈的研究、写一本可能没人读的书——需要三年的耐力和需要三秒的胆量几乎不共用同一套机制：后者靠一次到位的动作，前者靠意义结构与能让你明天还起得来的日常。同一种坚持，事后既可能被叫作毅力，也可能被叫作不肯认输。有没有事前就能立的止损线？把退出条件写下来，是先认输，还是让投入变得付得起？达克沃思的 grit 对上卡尼曼的沉没成本谬误，弗兰克尔的意义对上『及时放弃也是一种能力』。　另一条相邻角度：人苦的往往不是知道这件事是空的，而是已经把「我」寄放在它上面——它实则我实，它虚则我虚。若真如此，换一件事做只是换一个寄放处；有没有办法在不退出的前提下先把那份寄放取回来？　再往里一层是权限之争：预嘱、婚约、戒断合约、把手机锁进定时盒——我们不断替一个还没到场的自己签字，而那个人未必同意。人格、偏好与价值观本来就会漂移，若承认这一点，一纸事先的承诺凭什么压过此刻活着的那个人？反过来，仪式与合约之所以有力，恰恰因为它让人当众付出一笔收不回的代价；在退出几乎免费的时代，人是否反而需要人为地把退出做贵一点？ 还有一处从不被教的空白：怎么收尾。开始一段治疗、一个项目、一份工作、一种自我要求，都有指南与课程；停下来则几乎无人教，于是最省事的做法永远是一直做着。收尾之所以没人教，是不是因为它不产生任何可计量的成果？　还有一条相邻的分辨：撞上的到底是天花板还是摩擦——若同岗位里做得最好的人也没好多少，问题在位置不在用功；反过来，还没摸到天花板就换地方，等于把每一次积累清零。事前有没有一组可看的信号？",
+      "note_en": "When something shows no return, is staying with it grit or sunk cost? Caring for a patient who will not recover, staying with research that gives no feedback, finishing a book that may go unread — three years of endurance and three seconds of nerve barely share a mechanism: the second runs on one well-aimed action, the first on a structure of meaning and a routine that gets you up tomorrow. The same persistence is called tenacity or refusal to admit defeat depending on how it ends. Can a stop-loss be set in advance, and does writing down your exit conditions concede the fight or make the commitment affordable? Duckworth on grit meets Kahneman on the sunk-cost fallacy, and Frankl on meaning meets the claim that quitting in time is itself a skill. An adjacent angle: what makes people suffer is rarely knowing the thing is hollow, but that the \"I\" has already been lodged in it — it substantial, the self substantial; it hollow, the self hollow. If so, switching to something else merely relocates the lodging. Is there a way to withdraw it without leaving? One layer further in is a quarrel about authority: advance directives, marriage contracts, sobriety agreements, the phone locked in a timed box — we keep signing on behalf of a self who has not yet arrived and may not agree. Personality, preferences and values drift anyway; granting that, on what ground does a promise made in advance outrank the person alive right now? Conversely, vows and contracts have force precisely because they extract a cost in public that cannot be recovered — so in an age where exit is nearly free, do people need to make exit expensive again on purpose? There is also a blank nobody fills: how to end things. Starting a course of treatment, a project, a job, a standard held over oneself all come with guidance and training; stopping comes with almost none, so the path of least effort is always to carry on. Is the ending untaught because it produces nothing anyone can count? A neighbouring distinction: is what you hit a ceiling or mere friction? If the best performer in your role is barely better off, the problem is the position rather than the diligence; bolting before you have touched the ceiling, on the other hand, resets every bit of accumulation to zero. Are there signals visible in advance?",
+      "cat": "self"
+    },
+    {
+      "id": "things-we-agree-into-being",
+      "votes": 0,
+      "q": "钱、婚姻、国界，是真实的东西吗？",
+      "q_en": "Are money, marriage and borders real things?",
+      "note": "它们不长在原子里，也不长在某一个人的念头里——靠许多人相互承认而持续存在，大家同时不认便真的消失，纸币变回纸。这类『共建的实在』既非唯物亦非唯心，却最能左右普通人的命运：房价、学历、信用分、周一早上九点。它们是发明还是发现？承认能被撤回，是否意味着它们比石头更脆弱、还是反而更结实（石头砸不动一条法律）？普通人能改动其中哪一层，又在哪一层撞上真正的铁？可带进涂尔干的社会事实、霍布斯与卢梭的立约、韦伯的正当性、哈拉瑞的共同虚构，对上唯物论者。　也含：一个想法怎么从『离经叛道』变成『天经地义』——零、负数、虚数都曾被斥为荒谬、抵制数百年才成正典；有偿献血、人寿保险也曾被视为亵渎。可带进库恩的范式转移、福柯的知识型、拉图尔与玛丽·道格拉斯，对上实在论；并追问我们笃信的『客观』有多少靠审稿、复核这类把关共同体在替我们担保。 另一条并进来的线是时间：一个主张如何从少数人的异端，经由教材、法律、语感，变成两三代之后不必再论证的常识——共同承认不只是此刻的事实，也是一段可以追踪的传导史，而中间漫长的成本由谁先付。",
+      "note_en": "They grow neither in atoms nor in any single person's head: they persist because many people recognise them together, and would genuinely vanish if everyone stopped at once, a banknote reverting to paper. This 'jointly built' reality is neither material nor mental, yet it governs ordinary lives more than almost anything — house prices, credentials, credit scores, nine o'clock on Monday. Are they invented or discovered? Does the fact that recognition can be withdrawn make them more fragile than a stone, or sturdier (no stone ever moved a statute)? Which layer can an ordinary person actually shift, and where do they hit genuine iron? Durkheim's social facts, the covenants of Hobbes and Rousseau, Weber on legitimacy and Harari's shared fictions, set against the materialists. Also: how an idea travels from heresy to common sense — zero, negative and imaginary numbers were each denounced as absurd and resisted for centuries before entering the canon, and paid blood donation and life insurance were once treated as desecration. Kuhn's paradigm shifts, Foucault's épistémè, Latour and Mary Douglas can be brought against realism here; and it is worth asking how much of what we call objective is in fact underwritten for us by gatekeeping communities — referees, replicators, people who agree to stand behind a claim. A further strand folded in here is time: how a claim travels from the heresy of a few, through textbooks, law and finally the ear, into something two or three generations later no longer bother to argue for — mutual recognition is not only a present fact but a traceable history of transmission, and the long cost in between is paid first by someone.",
+      "cat": "meta"
+    },
+    {
+      "id": "explained-away",
+      "votes": 0,
+      "q": "一件事被解释清楚，就变得不值钱了吗？",
+      "q_en": "Does explaining something drain the value out of it?",
+      "note": "告诉一个人他的爱情是催产素、他的敬畏是颞叶放电、他的直觉是贝叶斯更新，很多人立刻觉得被贬低了；可没有人在知道彩虹是折射之后就不再看彩虹。这种『一被解释就掉价』的感觉从哪里来——它只是一种心理错觉，还是在提醒我们某样东西确实被拿走了？济慈抱怨牛顿拆散了彩虹，费曼说懂得花的结构只会让它更美，韦伯把这一整个过程叫作祛魅。也含一层实用的：把动机、习惯、亲密关系拆成机制之后，人还剩下多少行动的力气；什么时候该看机制，什么时候该把说明书放下。",
+      "note_en": "Tell someone their love is oxytocin, their awe is temporal-lobe activity, their intuition Bayesian updating, and many feel demoted on the spot — yet nobody stopped looking at rainbows on learning about refraction. Where does this devaluation-by-explanation come from: is it merely a psychological illusion, or a signal that something really has been taken away? Keats complained that Newton unwove the rainbow, Feynman held that knowing a flower's structure only adds to its beauty, and Weber named the whole process disenchantment. There is a practical layer too: once motives, habits and intimacy have been decomposed into mechanisms, how much force to act is left, and when should one look at the mechanism and when put the manual down?",
+      "cat": "meta"
+    },
+    {
+      "id": "who-will-tell-you-the-truth",
+      "votes": 0,
+      "q": "谁还愿意对你说真话？",
+      "q_en": "Who is still willing to tell you the truth?",
+      "note": "顺着你说的东西越来越多：讨好带来留存，顶撞带来卸载；职位越高，听到的坏消息越少；朋友怕伤感情，医生怕纠纷，下属怕报复。于是判断一个信息源是否可信，最锋利的一条也许不是它对不对，而是它敢不敢说你不想听的话。这种『愿意得罪你』的能力该怎么保住——靠制度设计、靠挑人，还是靠自己先变得听得进去？谁又有动机去造一个会反驳你的东西？　同一道题还有一个对内的版本：受害者与加害者对同一件事记的是两本账，中间差着一个数量级——一方记得起因久远、伤害持续，另一方记得事出有因、早已翻篇。既然每个人都当过两种角色，你怎么可能知道自己不是正在低估？有没有外部装置——第三方复述、书面对账、一组固定的提问——能让人看见自己账本上被压掉的那一栏？　同一道题的另一端：轮到你说的时候。一个明知无效却让人撑住的信念——偏方、护身符、『他会回来的』——旁人有没有资格戳穿？揭穿往往让人抓得更紧，而不揭穿就是替他把代价往后推。　还有一条组织内部的版本：监控收紧之后，最先消失的往往不是偷懒而是坦白——如实记录风险的人证据最全、出事时先挨罚，含糊其辞的人反倒安全，于是数据越来越漂亮、事故并没有变少。判断一个系统是否还听得到真话，最准的一问是：上一次写下坏消息的人，得到的是什么？",
+      "note_en": "More and more of what surrounds us agrees with us: agreement drives retention and contradiction drives uninstalls; the higher the post, the less bad news reaches it; friends fear hurting you, doctors fear disputes, subordinates fear reprisal. So the sharpest test of a source may not be whether it is right but whether it dares say what you would rather not hear. How is that willingness to offend you preserved — by institutional design, by choosing the right people, or by first becoming someone who can take it? And who has any incentive to build something that contradicts you? The same question has an inward version: victim and perpetrator keep two different ledgers on one event, and the gap runs to an order of magnitude — one remembers a cause reaching far back and harm still continuing, the other a provocation and a matter long closed. Since everyone has occupied both roles, how could you know you are not the one underestimating? Is there an external device — a third party's retelling, a written reconciliation of accounts, a fixed set of questions — that shows a person the column they have compressed? The other end of the same question: when it is your turn to speak. A belief you know to be useless but which is holding someone up — a folk remedy, a talisman, 'he will come back' — is it anyone else's place to puncture it? Exposure usually tightens the grip, and staying silent defers the bill on that person's behalf. There is also an organisational version: when monitoring tightens, what disappears first is not slacking but candour — whoever honestly logs the risks leaves the fullest evidence against themselves and is disciplined first, while the vague stay safe, so the data gets prettier while incidents do not fall. The sharpest test of whether a system can still hear the truth is what happened, last time, to the person who wrote down the bad news.",
+      "cat": "self"
+    },
+    {
+      "id": "conscience-and-duty",
+      "votes": 0,
+      "q": "专业人士能因信念拒绝服务吗？",
+      "q_en": "May a professional refuse to serve on grounds of conscience?",
+      "note": "医生拒绝执行、药剂师拒绝配药、公务员拒绝登记、面包师拒绝接单——同一条『良心自由』用在不同的人身上，多数人的直觉常常相反。若允许拒绝，被立为权利的服务在缺人手的地方就形同虚设，越偏远越无人可去；若不许拒绝，成本会一路摊派到最难说不的那一层人身上，最终由资历最浅的人执行。判据该是什么：这份职业有没有垄断地位、当地有没有替代者、拒绝的是某个行为还是某类人？而一份需要良心才做得好的工作，能不能同时要求从业者把良心留在门外？",
+      "note_en": "A doctor declining to perform, a pharmacist declining to dispense, a registrar declining to register, a baker declining an order — the same freedom of conscience, applied to different people, pulls most intuitions in opposite directions. Permit refusal and a service established as a right becomes hollow wherever staffing is thin, with the remote areas emptiest of all; forbid it and the cost slides down to the people least able to say no, until the most junior hands are the ones doing it. What should the criteria be — whether the profession holds a monopoly, whether a local alternative exists, whether what is refused is an act or a class of person? And can work that is only done well by people with a conscience also demand that they leave it at the door?",
+      "cat": "ethics"
+    },
+    {
+      "id": "travel-and-locals",
+      "votes": 0,
+      "q": "旅行者来了之后，当地人得到了什么？",
+      "q_en": "When the travellers arrive, what do the locals get?",
+      "note": "民宿把长租房源抽走、老街按游客的口味重做一遍、旺季挤到本地人自己出不了门——旅游带来的收入与代价从来不落在同一批人身上。一边是它确实养活了整条街的生计、也是许多地方唯一的外部收入；一边是房租、水源、公共空间被一种可以随时离开的需求重新定价。旅行者有没有义务了解自己的重量？该由谁来定这个限度——市场、当地政府，还是住在那里的人？同一把尺也量得到数字游民与短租平台。",
+      "note_en": "Short-let listings drain the long-term rental stock, old streets are remade to a visitor's taste, and in peak season residents cannot get through their own town — the income tourism brings and the costs it imposes never land on the same people. On one side it genuinely feeds a whole street and is the only outside income many places have; on the other, rents, water and public space get repriced by a demand that can leave at any moment. Do travellers owe it to a place to understand their own weight? And who should set the limit — the market, the local authority, or the people who live there? The same ruler reaches digital nomads and short-let platforms.",
+      "cat": "ethics"
+    },
+    {
+      "id": "who-keeps-the-ties",
+      "votes": 0,
+      "q": "关系是谁在维护？",
+      "q_en": "Who does the work of keeping people together?",
+      "note": "记生日、攒局、报信、每周给老人打那通电话——让联系继续存在的活儿，在任何家庭与团体里都压在少数人身上，而且明显性别化，却几乎从不被算作劳动。于是『我什么都不用做也总有人张罗』并不是人缘好，是有人替你付了这笔维护预算。两个追问：这份劳动能不能被看见、被轮换、被记账？以及一旦这个人累了退出，塌掉的常常不是她一个人的社交，而是与她相连的一整簇关系——很多联结本就挂在第三个人身上，枢纽一走，中间没有任何一对当事人做过决定，一个圈子却在两年里消失了。　仪式是这份劳动最集中的地方：谁记生日、谁订餐厅、谁在葬礼上安排一切。于是『废掉没意义的仪式』听起来像解放，落地时往往先解放了从不筹备的人；轮值算不算最有效的改革？　另一半更隐蔽：这些活里有相当一部分是没人真心想要的——婚宴的规格、群里的秒回、逢年过节的走动，所有人私下都不认同，却都以为只有自己不认同，于是谁也不肯先开口。那么该被减掉的到底是分配不均，还是这份义务本身？　同一笔维护劳动在钱上的版本：父母失能前后的那十年，出钱、出假、辞职回家的往往是同一个孩子，而遗产按人头均分，等于让付出最多的人补贴其他人。照护该不该被折算成可记账的份额，一旦折算，亲情会不会当场变成买卖？",
+      "note_en": "Remembering birthdays, organising dinners, passing news along, making the weekly call to the old people — the work that keeps connection in existence falls on a few members of any family or group, is strongly gendered, and is almost never counted as work. So 'things get organised without my doing anything' is not popularity; someone else is paying the maintenance budget on your behalf. Two questions follow. Can that labour be made visible, rotated and put on the books? And when the person carrying it tires and steps back, what collapses is usually not her social life but a whole cluster attached to her — many ties hang on a third person, so when the hub goes, no pair of the people involved ever decided anything and yet a circle disappears within two years. Ritual is where this labour concentrates: who remembers the birthdays, books the restaurant, arranges everything at the funeral. So abolishing meaningless ceremonies sounds like liberation and in practice liberates first the people who never prepared one. Is rotation the most effective reform available? The other half is better hidden: a large share of this work is wanted by no one — the scale of the wedding, replying within seconds in the group chat, the holiday rounds. Everyone privately objects and everyone assumes they are the only one, so nobody speaks first. Is what needs cutting the uneven distribution, or the obligation itself? The same maintenance labour has a monetary version: in the decade around a parent's loss of independence it tends to be one child who pays, takes the leave and gives up a job, while the estate is split equally by head — which makes the biggest contributor subsidise the rest. Should care be priced into shares, and if it were, would affection become a transaction on the spot?",
+      "cat": "life"
+    },
+    {
+      "id": "friction-and-serendipity",
+      "votes": 0,
+      "q": "生活里的『偶遇』正在消失吗？",
+      "q_en": "Are chance encounters disappearing from our lives?",
+      "note": "被省掉的绕路、排队与翻错架子，是浪费还是新东西唯一的入口？　导航给点对点最短路径，外卖免掉去店里那一趟，推荐流滤掉不合口味的——物理世界的『撞见』与信息世界的『不期而遇』被同时剪掉，生活越来越像一次次搜索：带着目的去，拿到就走。这些摩擦能不能被有意识地装回去（走路上班、逛实体店、随机点单），还是说替代品一旦更省力，个人的自律就注定敌不过默认？也含一层公共的：城市规划与平台设计在同一个方向上追求无摩擦，谁该为『可被撞见的空间』买单，而最先失去它的又是谁。　同一把剪刀也剪掉了在场：远程办公、异地亲情、线上告别式已是常态，而能改变生理指标的偏偏是同步动作、共食与放声笑。身体在场究竟哪一部分不可替代，哪一部分只是我们还没学会替代？",
+      "note_en": "Are the detours, queues and wrong shelves we have edited out mere waste, or the only doorway to anything new? Navigation supplies the shortest point-to-point route, delivery removes the trip to the shop, and recommendation feeds filter out whatever is not to taste, so bumping into someone physically and stumbling on something unexpected online are cut away together. Life comes to resemble a series of searches: arrive with a purpose, collect, leave. Can that friction be deliberately built back in — walking to work, browsing a real shop, ordering at random — or, once the frictionless option is easier, is private discipline always going to lose to the default? There is a public layer too: urban planning and platform design chase the frictionless in the same direction, so who should pay for space in which people can still run into one another, and who loses it first? The same scissors also cut away presence: remote work, family at a distance and online funerals are now normal, while what actually shifts a physiological measure is synchronised movement, shared meals and hard laughter. Which part of being bodily present is irreplaceable, and which part have we merely not yet learned to replace?",
+      "cat": "life"
+    },
+    {
+      "id": "work-that-changes-you",
+      "votes": 0,
+      "q": "有些工作会把人改掉吗？",
+      "q_en": "Do some jobs change the person doing them?",
+      "note": "同样的八小时，有的工作只拿走时间，有的会换一个人还回来。护士、警察、客服、教师、殡葬从业者、内容审核员干的是情绪劳动与道德伤害的第一线：下班准点，却已经对家人说不出话，或者渐渐不再相信陌生人。职业性的人格变形算不算一种工伤？该由谁补偿、怎么补偿——更高的薪水、更短的年限、强制的心理支持，还是干脆承认有些岗位不该由一个人长期承担？另一端也要问：有没有把人变好的工作，那又是靠什么？",
+      "note_en": "The same eight hours: some jobs take only your time, others hand back a different person. Nurses, police, call-centre staff, teachers, funeral workers and content moderators stand at the front line of emotional labour and moral injury — home on time, with nothing left to say to their families, or slowly no longer able to trust a stranger. Does occupational deformation count as an injury of work? Who should compensate it and how — higher pay, shorter maximum tenure, mandatory psychological support, or an admission that certain posts should not be held by one person for long? And the other end deserves asking too: are there jobs that make people better, and what is it that does the making?",
+      "cat": "work"
+    },
+    {
+      "id": "what-dreams-are",
+      "votes": 0,
+      "q": "梦是内心的密电，还是大脑随手编的故事？",
+      "q_en": "Are dreams a coded message from within, or a story the brain improvises?",
+      "note": "凡是脑子自动生成的内容，凭什么当证据？　弗洛伊德把梦读成被伪装过的愿望，一套可解码的密电；霍布森的激活-合成假说反过来说，脑干在睡眠中随机放电，皮层只是顺手把噪声编成一个说得通的故事。同一把尺子还该量到别的东西头上：灵光一闪的顿悟、致幻剂与极限体验里的『真知』、冥想中的洞见——它们都是脑子交给你的，不是你查证过的。若梦只是噪声的整理，为什么它总用你最在意的材料来编，又为什么醒来时的情绪真实得像刚发生过？庄子的蝶梦、《梦的解析》、睡眠中的记忆巩固与情绪清算研究可以正面相撞。落到实处：把梦当线索用（它在提示你在意什么）与把它当答案用（它告诉你该怎么做）之间，界线画在哪？",
+      "note_en": "On what grounds does anything the brain generates on its own count as evidence? Freud read dreams as disguised wishes, a coded message waiting to be decrypted; Hobson's activation-synthesis hypothesis answers that the brainstem fires more or less at random during sleep and the cortex simply improvises a story that hangs together. The same yardstick should be turned on other things: the flash of sudden insight, the 'knowledge' won through psychedelics or extreme experience, the vision that arrives in meditation — all handed to you by the brain rather than verified by you. If a dream is only noise tidied up, why is it always assembled from the material you care about most, and why does the feeling on waking seem as real as something that just happened? Zhuangzi's butterfly, The Interpretation of Dreams, and research on memory consolidation and emotional processing in sleep can meet head-on. Practically: where is the line between using a dream as a clue to what you care about and using it as an answer about what to do?",
+      "cat": "meta"
+    },
+    {
+      "id": "who-gets-credit",
+      "votes": 0,
+      "q": "为什么有人借得到钱，有人借不到？",
+      "q_en": "Why can some people borrow and others cannot?",
+      "note": "住房、农业、创业都长出了专门的信贷渠道，唯独『买下自己干活的地方』没有——合作社与员工收购缺的从来不是意愿，是抵押物，蒙德拉贡索性自己办了一家银行才解决。银行不接受努力、技能与信誉当抵押，于是已经有资产的人更容易再拿到资产；市场上看不到某一类企业，往往不是因为它做不好，而是它从一开始就融不到资。抵押物凭什么被算作风险的尺子？信用评分把什么样的人系统性地挡在门外？小额信贷、合作社银行、互助会与彩礼、宗族借贷这些非正式渠道，究竟解决了什么、又制造了什么？　相邻角度：员工持股把所有权交给劳动者，却把收入与积蓄押进同一家公司——表决权与分红权能不能拆开，让人既拥有又不必把两个鸡蛋放进一个篮子？",
+      "note_en": "Housing, farming and start-ups all grew dedicated credit channels; buying the place you work in never did. What cooperatives and employee buyouts lack has never been appetite, it is collateral — Mondragon had to found a bank of its own to get around it. Banks do not accept effort, skill or reputation as security, so those who already hold assets find it easier to acquire more, and the reason a kind of enterprise is absent from the market is often not that it performs badly but that it could never be financed. On what grounds is collateral treated as the measure of risk? Whom do credit scores systematically keep outside the door? And what do microfinance, cooperative banks, rotating savings clubs, bride price and clan lending actually solve — and what do they create? An adjacent angle: employee ownership hands workers the firm while staking their wage and their savings on it. Can votes and dividends be prised apart, so that people can own without putting both eggs in one basket?",
+      "cat": "ethics"
+    },
+    {
+      "id": "favourite-child",
+      "votes": 0,
+      "q": "父母偏心，能不能说出口？",
+      "q_en": "Can a family admit to having a favourite child?",
+      "note": "几乎所有父母都否认有偏爱，多数子女却都指得出那个被偏爱的人。特里弗斯的亲代-子代冲突说，资源有限时父母本来就没有理由绝对均分；阿德勒把一生的性格追到手足次序上；而中国旧法把『诸子均分』写进制度，多半正是为了取消这份公布。偏心该被承认并解释，还是被规则抹平？为什么手足之间的比较，比与外人的比较更伤人、也更长久？",
+      "note_en": "Nearly every parent denies having a favourite, and nearly every sibling can name one. Trivers' parent–offspring conflict says that under scarce resources parents have no particular reason to divide exactly evenly; Adler traced adult character back to birth order; and old Chinese law wrote equal division among sons into the code largely in order to cancel the announcement. Should favouritism be admitted and explained, or flattened by a rule? And why does comparison between siblings cut deeper, and last longer, than comparison with strangers?",
+      "cat": "life"
+    },
+    {
+      "id": "placebo-that-works",
+      "votes": 0,
+      "q": "明知是假的，为什么还有效？",
+      "q_en": "Why does it still work when you know it is fake?",
+      "note": "糖片能止痛，白大褂、仪器的声音、诊室的仪式感都能改变生理指标，甚至在被明确告知『这是安慰剂』之后仍然有效。这意味着期待、信任与仪式本身就是有生理作用的成分，那么把它们从医疗里剔除（更客观、更去人格化），是不是在扔掉一味真正管用的药？同一把尺也量得到教练的鼓励、护身符、开学典礼、职场的仪式与领导的口号——它们靠人相信才起作用，可一旦被拆穿又常常照旧起作用。以及最难的一层伦理：若有效需要一点不说破，医生、老师、父母有没有权利保留那点不说破？",
+      "note_en": "A sugar pill relieves pain; the white coat, the sound of the machine and the ritual of the consulting room all shift physiological measures, and the effect survives even when a person is told outright that they are taking a placebo. That suggests expectation, trust and ritual are themselves active ingredients — so does stripping them out of care in the name of objectivity throw away something that genuinely worked? The same rule measures a coach's encouragement, a lucky charm, an opening ceremony, workplace rituals and a leader's slogans: they work because people believe them, and often keep working after they are exposed. And the hardest layer is ethical: if the effect requires something left unsaid, may a doctor, a teacher or a parent leave it unsaid?",
+      "cat": "meta"
+    },
+    {
+      "id": "move-or-build",
+      "q": "该让人去有机会的地方，还是把机会带到人所在的地方？",
+      "q_en": "Should people be moved to where the opportunities are, or opportunity brought to where the people are?",
+      "note": "补贴迁移、放宽落户与签证，见效快，却把走掉的人原来那个地方抽得更空——留下的多是老人与走不动的人；修基础设施、统一规则、把小市场连成大市场，慢而贵，却不要求任何人离开亲人。两条路的代价落在完全不同的人身上：一条要个人承担离散，一条要纳税人承担账单。谁有资格替一个正在收缩的地方决定它该被连上还是被放弃？地理经济学、迁移研究与乡土伦理可以正面相撞。",
+      "note_en": "Subsidised relocation and looser residence or visa rules work fast, and they hollow out the places the movers left, where mostly the old and the immobile remain. Infrastructure, common rules and small markets joined into large ones are slow and expensive, and ask nobody to leave their family. The costs land on entirely different people: one path charges individuals in separation, the other charges taxpayers in money. Who is entitled to decide, for a shrinking place, whether it gets connected or written off? Economic geography, migration research and the ethics of attachment to a place can meet head on.",
+      "cat": "ethics",
+      "votes": 0
+    }
+  ],
+  "debated": [
+    {
+      "id": "happiness",
+      "q": "幸福到底是什么？我们是否应该追求幸福？",
+      "q_en": "What is happiness, really? And should we even pursue it?",
+      "date": "2026-06-13",
+      "cat": "self"
+    },
+    {
+      "id": "attention-and-meaning",
+      "q": "AI 时代，人如何夺回注意力与存在的意义？",
+      "q_en": "In the age of AI, how do we reclaim our attention and the meaning of our existence?",
+      "date": "2026-06-13",
+      "cat": "self"
+    },
+    {
+      "id": "ai-unemployment",
+      "q": "AI 取代人类工作后，会有『存在危机』吗？",
+      "q_en": "After AI replaces human work, will we face an 'existential crisis'?",
+      "date": "2026-06-13",
+      "cat": "ethics"
+    },
+    {
+      "id": "family-trauma",
+      "q": "原生家庭的创伤，能真正走出来吗？",
+      "q_en": "Can we truly move past the trauma of the family we're born into?",
+      "date": "2026-06-13",
+      "cat": "life"
+    },
+    {
+      "id": "ai-augment-or-atrophy",
+      "q": "AI 与算法：在增强我们，还是在让我们退化？",
+      "q_en": "AI and algorithms: are they augmenting us, or making us atrophy?",
+      "date": "2026-06-14",
+      "cat": "self"
+    },
+    {
+      "id": "ai-era-parenting",
+      "q": "AI 时代该怎么养孩子？——拼命鸡娃、挤名校到底还值不值得？",
+      "q_en": "Raising kids in the age of AI: is intense “tiger parenting” and chasing elite schools still worth it?",
+      "date": "2026-06-15",
+      "cat": "life"
+    },
+    {
+      "id": "management-flattening",
+      "q": "科技大厂的『扁平化』——一个经理带 30–50 人，会成为常态吗？",
+      "q_en": "Big-tech 'flattening' — one manager over 30–50 reports: is this the new normal?",
+      "date": "2026-06-15",
+      "cat": "work"
+    },
+    {
+      "id": "is-there-a-creator",
+      "q": "是否有“造物主”，如果有的话，TA为什么要造出人类？",
+      "q_en": "Is there a 'Creator'? And if so, why would they have made humankind?",
+      "date": "2026-06-16",
+      "cat": "meta"
+    },
+    {
+      "id": "what-makes-good-manager",
+      "q": "一个好的『管理者』，到底是怎样的？",
+      "q_en": "What actually makes a good manager?",
+      "date": "2026-06-16",
+      "cat": "work"
+    },
+    {
+      "id": "knowing-vs-doing",
+      "q": "『知道』和『做到』之间，差在哪？",
+      "q_en": "Where does the gap between knowing and doing come from?",
+      "date": "2026-06-17",
+      "cat": "self"
+    },
+    {
+      "id": "pursue-immortality",
+      "q": "人是否应该追求长生，如果人真的能够长生，世界会怎样？",
+      "q_en": "Should we pursue immortality — and if humans really could live forever, what would the world become?",
+      "date": "2026-06-17",
+      "cat": "life"
+    },
+    {
+      "id": "money-and-happiness",
+      "q": "金钱能（在多大程度上）买到幸福？",
+      "q_en": "Can money buy happiness — and how much?",
+      "date": "2026-06-18",
+      "cat": "self"
+    },
+    {
+      "id": "control-and-letting-go",
+      "q": "「只专注你能控制的」，是智慧还是逃避？",
+      "q_en": "'Focus only on what you can control' — wisdom, or escape?",
+      "date": "2026-06-19",
+      "cat": "self"
+    },
+    {
+      "id": "falling-birthrate",
+      "q": "年轻人为什么不想生孩子了？",
+      "q_en": "Why don't young people want children anymore?",
+      "date": "2026-06-19",
+      "cat": "ethics"
+    },
+    {
+      "id": "facing-death",
+      "q": "我们该如何面对死亡？如何做到「向死而生」？",
+      "q_en": "How should we face death — and how do we actually live 'toward' it (being-toward-death)?",
+      "date": "2026-06-19",
+      "cat": "life"
+    },
+    {
+      "id": "intimacy-recession",
+      "q": "为什么这一代人越来越难谈恋爱？",
+      "q_en": "Why is this generation finding it ever harder to date?",
+      "date": "2026-06-19",
+      "cat": "ethics"
+    },
+    {
+      "id": "three-teachings",
+      "q": "儒、释、道的异同：三家分歧究竟在哪，又在何处殊途同归？",
+      "q_en": "Confucianism, Buddhism, and Daoism: where do the three traditions truly differ, and where do they converge?",
+      "date": "2026-06-19",
+      "cat": "meta"
+    },
+    {
+      "id": "index-or-stock-picking",
+      "q": "普通人投资，该买大盘指数，还是买自己拿着放心的个股？",
+      "q_en": "For ordinary investors: buy the broad index, or the individual stocks you can hold with confidence?",
+      "date": "2026-06-19",
+      "cat": "self"
+    },
+    {
+      "id": "driven-by-fear",
+      "q": "靠恐惧驱动的优秀，该不该放下？",
+      "q_en": "Should we let go of excellence driven by fear?",
+      "date": "2026-06-19",
+      "cat": "self"
+    },
+    {
+      "id": "east-west-philosophy",
+      "q": "东方与西方哲学，源头何以不同？",
+      "q_en": "Why did Eastern and Western philosophy diverge at the source?",
+      "date": "2026-06-20",
+      "cat": "meta"
+    },
+    {
+      "id": "office-politics",
+      "q": "『组织政治』是毒瘤，还是必需？",
+      "q_en": "Is 'office politics' a tumor, or a necessity?",
+      "date": "2026-06-20",
+      "cat": "work"
+    },
+    {
+      "id": "withdraw-life-support",
+      "q": "家中老人病重、靠插管维持近乎植物人的状态，作为子女，该不该撤管放手？",
+      "q_en": "An elderly parent kept alive by tubes in a near-vegetative state — should the children withdraw life support and let go?",
+      "date": "2026-06-21",
+      "cat": "life"
+    },
+    {
+      "id": "virtue-vs-talent",
+      "q": "企业用人，该「以德为先」还是「以才为先」？",
+      "q_en": "When a company hires and promotes, should it put character first, or ability first?",
+      "date": "2026-06-22",
+      "cat": "work"
+    },
+    {
+      "id": "coach-or-manage-out",
+      "q": "下属不行，该带教还是该换人？",
+      "q_en": "When a subordinate falls short: coach, or move them out?",
+      "date": "2026-06-24",
+      "cat": "work"
+    },
+    {
+      "id": "seeing-others-is-self",
+      "q": "「你眼中的别人，其实是你自己」？",
+      "q_en": "'The others you see are really you' — is that true?",
+      "date": "2026-06-25",
+      "cat": "self"
+    },
+    {
+      "id": "worldly-success",
+      "q": "世俗意义上的『成功』——财富、地位、名声、成就——到底值不值得追求？",
+      "q_en": "Is worldly 'success' — wealth, status, fame, achievement — worth pursuing at all?",
+      "date": "2026-06-26",
+      "cat": "self"
+    },
+    {
+      "id": "being-yourself",
+      "q": "「忠于真实的自我」是不是个伪命题？到底有没有一个本真的我？",
+      "q_en": "Is 'being true to your authentic self' a false premise — and is there even an authentic self to begin with?",
+      "date": "2026-06-26",
+      "cat": "self"
+    },
+    {
+      "id": "acceptable-inequality",
+      "q": "什么样的不平等是可以接受的？",
+      "q_en": "What kind of inequality is acceptable?",
+      "date": "2026-06-27",
+      "cat": "ethics"
+    },
+    {
+      "id": "luck-and-merit",
+      "q": "我们的成功与失败，多少是「应得的」？努力真能决定命运吗？",
+      "q_en": "How much of our success or failure do we actually deserve — and does effort really decide our fate?",
+      "date": "2026-06-28",
+      "cat": "self"
+    },
+    {
+      "id": "gene-editing",
+      "q": "该不该用基因编辑「设计」更聪明、更健康的下一代？",
+      "q_en": "Should we use gene editing to 'design' smarter, healthier children?",
+      "date": "2026-06-29",
+      "cat": "ethics"
+    },
+    {
+      "id": "eldercare-home-or-facility",
+      "q": "父母年迈失能，该亲自接回家照顾，还是送养老院、请护工？",
+      "q_en": "When parents grow old and frail, should you care for them at home yourself, or place them in a nursing home and hire professional carers?",
+      "date": "2026-06-30",
+      "cat": "life"
+    },
+    {
+      "id": "job-hopping",
+      "q": "该频繁跳槽，还是在一处深耕固守？",
+      "q_en": "Should you job-hop often, or stay put and dig deep in one place?",
+      "date": "2026-06-30",
+      "cat": "work"
+    },
+    {
+      "id": "productivity-and-leisure",
+      "q": "生产力一次次飞跃，人更闲了还是更忙了？",
+      "q_en": "With each leap in productivity, are we more leisured or busier?",
+      "date": "2026-06-30",
+      "cat": "meta"
+    },
+    {
+      "id": "what-determines-value",
+      "q": "一样东西的价值，到底由什么决定？（劳动、效用、稀缺，还是别的？）",
+      "q_en": "What ultimately determines the value of a thing? (Labor, utility, scarcity — or something else?)",
+      "date": "2026-06-30",
+      "cat": "meta"
+    },
+    {
+      "id": "ai-and-inequality",
+      "q": "AI 创造的财富，会让社会更不平等吗？",
+      "q_en": "Will the wealth AI creates make society more unequal?",
+      "date": "2026-07-01",
+      "cat": "ethics"
+    },
+    {
+      "id": "identity-or-no-self",
+      "q": "想改变自己，该先立身份还是先放下自我？",
+      "q_en": "To change yourself: build an identity first, or let the self go?",
+      "date": "2026-07-02",
+      "cat": "self"
+    },
+    {
+      "id": "free-will",
+      "q": "人是否拥有真正的自由意志？",
+      "q_en": "Do humans have genuine free will?",
+      "date": "2026-07-02",
+      "cat": "meta"
+    },
+    {
+      "id": "geography-shapes-thought",
+      "q": "是地理塑造了思想，还是思想自有其命？",
+      "q_en": "Did geography shape thought, or do ideas have a life of their own?",
+      "date": "2026-07-02",
+      "cat": "meta"
+    },
+    {
+      "id": "engage-or-withdraw",
+      "q": "想活得不后悔，该入世还是出世？",
+      "q_en": "To live without regret: engage the world, or withdraw from it?",
+      "date": "2026-07-02",
+      "cat": "self"
+    },
+    {
+      "id": "comparison-and-envy",
+      "q": "为什么我们忍不住跟别人比？嫉妒能消除吗？",
+      "q_en": "Why can't we stop comparing ourselves to others — and can envy ever be cured?",
+      "date": "2026-07-03",
+      "cat": "self"
+    },
+    {
+      "id": "enough-money-still-work",
+      "q": "如果有了足够的钱（财务自由），是否还应该继续工作？",
+      "q_en": "If you had enough money to never need to, should you still work?",
+      "date": "2026-07-04",
+      "cat": "self"
+    },
+    {
+      "id": "quantum-observation",
+      "q": "量子物理是否说明「观测」真的改变了世界？",
+      "q_en": "Does quantum physics show that 'observation' really changes the world?",
+      "date": "2026-07-05",
+      "cat": "meta"
+    },
+    {
+      "id": "depth-or-breadth",
+      "q": "AI 时代，人的心智该往「深」练还是往「广」练？——不受打扰的深度专注，还是驾驭多线程的调度与切换？",
+      "q_en": "In the AI era, should the mind train for depth or breadth — undistracted deep focus, or orchestrating and switching across many threads?",
+      "date": "2026-07-07",
+      "cat": "self"
+    },
+    {
+      "id": "virtue-teachable",
+      "q": "品德是教出来的，还是长出来的？——美德到底可不可教？",
+      "q_en": "Can virtue be taught — is character instilled, or does it grow on its own?",
+      "date": "2026-07-07",
+      "cat": "self"
+    },
+    {
+      "id": "big-firm-or-startup",
+      "q": "普通人该进大厂求稳，还是闯小公司、创业？",
+      "q_en": "Should you join a big company for stability, or take a startup — or strike out on your own?",
+      "date": "2026-07-07",
+      "cat": "work"
+    },
+    {
+      "id": "inequality-and-health",
+      "q": "贫富差距本身会让人生病吗？——该不该把不平等当成一个公共健康问题？",
+      "q_en": "Does the wealth gap itself make people sick — and should inequality be treated as a public-health problem?",
+      "date": "2026-07-08",
+      "cat": "ethics"
+    },
+    {
+      "id": "what-is-education-for",
+      "q": "教育到底是为了什么——筛选人才的机器，还是培养人的土壤？",
+      "q_en": "What is education actually for — a machine to sort talent, or soil to cultivate a person?",
+      "date": "2026-07-09",
+      "cat": "ethics"
+    },
+    {
+      "id": "fluid-or-crystallized",
+      "q": "AI 时代，该练流体智力还是晶体智力？",
+      "q_en": "In the age of AI: train fluid intelligence, or crystallized?",
+      "date": "2026-07-10",
+      "cat": "self"
+    },
+    {
+      "id": "math-discovered-or-invented",
+      "q": "数学是被发现的，还是被发明的？",
+      "q_en": "Is mathematics discovered, or invented?",
+      "date": "2026-07-11",
+      "cat": "meta"
+    },
+    {
+      "id": "is-progress-real",
+      "q": "进步是真的吗？历史是在前进，还是循环、甚至退步？",
+      "q_en": "Is progress real? Is history moving forward, in cycles — or even backward?",
+      "date": "2026-07-12",
+      "cat": "meta"
+    },
+    {
+      "id": "progress-liberation-or-control",
+      "q": "现代的『文明进步』，是解放还是控制？",
+      "q_en": "Modern 'civilizational progress': liberation, or control?",
+      "date": "2026-07-13",
+      "cat": "ethics"
+    },
+    {
+      "id": "natural-aging",
+      "q": "容颜该顺其自然地老去，还是该努力医美、抗衰？",
+      "q_en": "Should we let our looks age naturally, or fight it with cosmetic work and anti-aging?",
+      "date": "2026-07-13",
+      "cat": "self"
+    },
+    {
+      "id": "ai-consciousness",
+      "q": "AI 有没有、或可能有意识？我们又凭什么判断？",
+      "q_en": "Does (or could) AI have consciousness — and how would we ever know?",
+      "date": "2026-07-14",
+      "cat": "meta"
+    },
+    {
+      "id": "language-shapes-thought",
+      "q": "语言塑造思维吗？说不同语言的人，看到的是不同的世界吗？",
+      "q_en": "Does language shape thought? Do speakers of different languages see different worlds?",
+      "date": "2026-07-15",
+      "cat": "meta"
+    },
+    {
+      "id": "what-is-beauty",
+      "q": "美，是主观感受，还是有客观的标准？",
+      "q_en": "Is beauty just in the eye of the beholder, or is there an objective standard?",
+      "date": "2026-07-16",
+      "cat": "meta"
+    },
+    {
+      "id": "care-and-emotional-labor",
+      "q": "我们为何系统性地低估『照护与情感劳动』的价值？（带孩子、陪伴、安抚、协调——这些撑起一切却没人记功的活）",
+      "q_en": "Why do we systematically undervalue care and emotional labor?",
+      "date": "2026-07-17",
+      "cat": "life"
+    },
+    {
+      "id": "performance-ranking",
+      "q": "绩效考核与「赛马」（KPI、末位淘汰）是激励，还是毒药？",
+      "q_en": "Are performance metrics and forced ranking (KPIs, stack-ranking) a motivator, or a poison?",
+      "date": "2026-07-18",
+      "cat": "work"
+    },
+    {
+      "id": "duty-to-distant-strangers",
+      "q": "我们对远方陌生人的苦难，负有多大义务？",
+      "q_en": "How much do we owe the suffering of distant strangers?",
+      "date": "2026-07-19",
+      "cat": "ethics"
+    },
+    {
+      "id": "procrastination",
+      "q": "拖延症，到底要不要治？",
+      "q_en": "Should we cure procrastination at all?",
+      "date": "2026-07-20",
+      "cat": "self"
+    },
+    {
+      "id": "cultural-homogenization",
+      "q": "全球化正在让世界失去文化多样性吗？",
+      "q_en": "Is globalization costing us cultural diversity?",
+      "date": "2026-07-21",
+      "cat": "meta"
+    },
+    {
+      "id": "nature-of-love",
+      "q": "真爱是发现的，还是培养（甚至建构）出来的？",
+      "q_en": "Is true love found, or cultivated — even constructed?",
+      "date": "2026-07-22",
+      "cat": "life"
+    },
+    {
+      "id": "shareholder-or-stakeholder",
+      "q": "公司到底该对谁负责——只对股东，还是也对员工与社会？",
+      "q_en": "Whom does a company answer to — only shareholders, or also its workers and society?",
+      "date": "2026-07-23",
+      "cat": "work"
+    },
+    {
+      "id": "escape-from-freedom",
+      "q": "人真的在逃避自由吗？——自由是解放，还是一副人宁愿卸下的重担？",
+      "q_en": "Do humans really flee from freedom — is freedom liberation, or a burden people would rather set down?",
+      "date": "2026-07-24",
+      "cat": "self"
+    },
+    {
+      "id": "walden-simple-living",
+      "q": "该主动过「极简 / 少欲」的生活吗？",
+      "q_en": "Should we deliberately live simply?",
+      "date": "2026-07-25",
+      "cat": "self"
+    },
+    {
+      "id": "social-interest-or-self",
+      "q": "「社会兴趣」是衡量活得好不好的尺吗？",
+      "q_en": "Is 'social interest' the yardstick of a life well lived?",
+      "date": "2026-07-26",
+      "cat": "self"
+    },
+    {
+      "id": "nde-mind-beyond-brain",
+      "q": "濒死体验证明意识能脱离大脑吗？",
+      "q_en": "Do near-death experiences prove consciousness can leave the brain?",
+      "date": "2026-07-27",
+      "cat": "meta"
+    },
+    {
+      "id": "does-time-exist",
+      "q": "时间真的存在吗，还是一种幻觉？",
+      "q_en": "Does time really exist, or is it an illusion?",
+      "date": "2026-07-28",
+      "cat": "meta"
+    },
+    {
+      "id": "duty-to-earth",
+      "q": "我们对地球（其他物种、后代）负有怎样的义务？",
+      "q_en": "What do we owe the Earth — other species, and future generations?",
+      "date": "2026-07-30",
+      "cat": "ethics"
+    },
+    {
+      "id": "third-places",
+      "q": "我们是不是正在失去『第三空间』？",
+      "q_en": "Are we losing our 'third places'?",
+      "date": "2026-07-30",
+      "cat": "life"
+    },
+    {
+      "id": "algorithmic-management",
+      "q": "该不该让算法来管人——派活、打分、监控，甚至解雇？",
+      "q_en": "Should algorithms manage people — assigning work, scoring, surveilling, even firing?",
+      "date": "2026-07-31",
+      "cat": "work"
+    },
+    {
+      "id": "truth-vs-harmony",
+      "q": "维系和谐，有时是否比说出真相更重要？（含：伪善是不是比赤裸的恶更可恨——道德表演与『人设』，究竟是文明的润滑剂还是腐蚀剂）",
+      "q_en": "Is keeping the peace sometimes more important than telling the truth? (Including: is hypocrisy more contemptible than open vice — is moral performance the lubricant of civilisation or its solvent?)",
+      "date": "2026-08-01",
+      "cat": "self"
+    },
+    {
+      "id": "dark-forest",
+      "q": "宇宙真的是「黑暗森林」吗？文明之间注定你死我活，还是可能合作？",
+      "q_en": "Is the universe really a 'dark forest'? Are civilizations doomed to mutual annihilation, or can they cooperate?",
+      "date": "2026-08-02",
+      "cat": "meta"
+    },
+    {
+      "id": "ai-resurrect-dead",
+      "q": "该不该用 AI「复活」逝去的亲人？",
+      "q_en": "Should you use AI to 'resurrect' a dead loved one?",
+      "date": "2026-08-03",
+      "cat": "life"
+    },
+    {
+      "id": "liberty-vs-equality",
+      "q": "自由与平等不可兼得时，该牺牲哪个？",
+      "q_en": "When liberty and equality cannot both be had, which gives way?",
+      "date": "2026-08-04",
+      "cat": "ethics"
+    },
+    {
+      "id": "leadership-after-ai",
+      "q": "当 AI 比谁都懂，领导者还剩什么不可替代的？（含：最稀缺的会不会是『会读人』——读懂人、拿捏分寸、在冲突里维系信任的社会情感能力，机器能不能接管）",
+      "q_en": "When AI knows more than anyone, what is left that only a leader can do? (Including: will the scarcest skill turn out to be reading people — judging a face, calibrating tone, holding trust together through conflict — and can machines take that over?)",
+      "date": "2026-08-05",
+      "cat": "work"
+    },
+    {
+      "id": "interfere-or-let-be",
+      "q": "爱一个人，该介入他的人生多深？",
+      "q_en": "How far should love intervene in another's life?",
+      "date": "2026-08-06",
+      "cat": "life"
+    },
+    {
+      "id": "regret",
+      "q": "该为过去的选择后悔吗？",
+      "q_en": "Should we regret the choices we made?",
+      "date": "2026-08-07",
+      "cat": "self"
+    },
+    {
+      "id": "multiverse",
+      "q": "真的存在平行宇宙吗？",
+      "q_en": "Do parallel universes really exist?",
+      "date": "2026-08-08",
+      "cat": "meta"
+    },
+    {
+      "id": "moral-limits-of-markets",
+      "q": "有什么是金钱不该买卖的？",
+      "q_en": "Is there anything money should not be able to buy?",
+      "date": "2026-08-09",
+      "cat": "ethics"
+    },
+    {
+      "id": "express-ambition",
+      "q": "职场该不该表达野心？",
+      "q_en": "Should you show your ambition at work?",
+      "date": "2026-08-10",
+      "cat": "work"
+    },
+    {
+      "id": "gardener-or-carpenter",
+      "q": "园丁还是木匠？——父母该「雕琢」孩子，还是营造环境让他自己长成？",
+      "q_en": "Gardener or carpenter — should parents shape the child, or cultivate the soil and let them grow unpredictably?",
+      "date": "2026-08-11",
+      "cat": "life"
+    },
+    {
+      "id": "courage",
+      "q": "真正的『勇气』是什么？",
+      "q_en": "What is courage, really?",
+      "date": "2026-08-12",
+      "cat": "self"
+    },
+    {
+      "id": "materialism-idealism",
+      "q": "世界是唯物的，还是唯心的？",
+      "q_en": "Is the world made of matter, or of mind?",
+      "date": "2026-08-13",
+      "cat": "meta"
+    },
+    {
+      "id": "abundance-and-decline",
+      "q": "物质极度丰裕后，人会走向衰亡吗？",
+      "q_en": "Does material abundance lead to decline?",
+      "date": "2026-08-14",
+      "cat": "ethics"
+    },
+    {
+      "id": "entry-jobs-and-apprenticeship",
+      "q": "AI 做完入门的活，新人怎么学本事？",
+      "q_en": "If AI does the entry-level work, how do novices learn?",
+      "date": "2026-08-15",
+      "cat": "work"
+    },
+    {
+      "id": "test-loyalty",
+      "q": "忠诚该不该被考验？",
+      "q_en": "Should loyalty be tested — and is a trust that holds only while unverified really trust at all?",
+      "date": "2026-08-16",
+      "cat": "life"
+    },
+    {
+      "id": "save-or-spend",
+      "q": "钱该省下来滚复利，还是该花掉？",
+      "q_en": "Should money be saved to compound, or spent?",
+      "date": "2026-08-17",
+      "cat": "self"
+    },
+    {
+      "id": "truth-after-ai",
+      "q": "AI 能伪造一切，我们还信什么？",
+      "q_en": "When AI can fake anything, what is left to trust?",
+      "date": "2026-08-18",
+      "cat": "meta"
+    },
+    {
+      "id": "assisted-dying",
+      "q": "社会该不该允许安乐死与协助死亡？",
+      "q_en": "Should society allow euthanasia and assisted dying?",
+      "date": "2026-08-19",
+      "cat": "ethics"
+    },
+    {
+      "id": "one-ladder-organizations",
+      "q": "只有一条晋升阶梯的组织，浪费了谁？",
+      "q_en": "Who is wasted by an organisation with only one ladder?",
+      "date": "2026-08-20",
+      "cat": "work"
+    },
+    {
+      "id": "youth-career-or-explore",
+      "q": "趁年轻，该搏事业还是先去看世界？",
+      "q_en": "When young: build a career, or go see the world first?",
+      "date": "2026-08-21",
+      "cat": "life"
+    },
+    {
+      "id": "forgiveness-or-revenge",
+      "q": "该不该原谅伤害过你的人？",
+      "q_en": "Should you forgive someone who has wronged you?",
+      "date": "2026-08-22",
+      "cat": "self"
+    },
+    {
+      "id": "faith-and-reason",
+      "q": "理性与信仰冲突时，该让哪一个让步？",
+      "q_en": "When reason and faith collide, which should yield?",
+      "date": "2026-08-23",
+      "cat": "meta"
+    },
+    {
+      "id": "eat-meat",
+      "q": "该不该吃肉？动物有没有值得我们尊重的道德地位？",
+      "q_en": "Should we eat meat? Do animals have a moral standing we're bound to respect?",
+      "date": "2026-08-24",
+      "cat": "ethics"
+    },
+    {
+      "id": "real-work-or-invented-roles",
+      "q": "你的工作是真被需要，还是被造出来的？",
+      "q_en": "Is your job actually needed, or was it invented?",
+      "date": "2026-08-25",
+      "cat": "work"
+    },
+    {
+      "id": "cut-ties-or-keep",
+      "q": "该给关系做减法吗？",
+      "q_en": "Should you prune your relationships?",
+      "date": "2026-08-26",
+      "cat": "life"
+    },
+    {
+      "id": "believe-in-fate",
+      "q": "该不该信命？算命、八字、星座为何长盛不衰",
+      "q_en": "Should you believe in fate? Why do fortune-telling and astrology endure",
+      "date": "2026-08-27",
+      "cat": "self"
+    },
+    {
+      "id": "efficiency-vs-resilience",
+      "q": "凡事都追求『最优／高效』，是不是正在系统性地掏空我们的韧性？",
+      "q_en": "By chasing 'optimal' and 'efficient' in everything, are we systematically hollowing out our resilience?",
+      "date": "2026-08-28",
+      "cat": "meta"
+    },
+    {
+      "id": "democracy-best",
+      "q": "民主一定是最好的制度吗？",
+      "q_en": "Is democracy necessarily the best system?",
+      "date": "2026-08-29",
+      "cat": "ethics"
+    },
+    {
+      "id": "who-gets-watched",
+      "q": "监控为什么总是朝下查？",
+      "q_en": "Why does scrutiny always run downhill?",
+      "date": "2026-08-30",
+      "cat": "work"
+    },
+    {
+      "id": "rituals-still-needed",
+      "q": "仪式还有用吗？",
+      "q_en": "Do rituals still do anything?",
+      "date": "2026-08-31",
+      "cat": "life"
+    },
+    {
+      "id": "work-life-balance",
+      "q": "「工作与生活的平衡」真的存在吗？",
+      "q_en": "Is work-life balance a real thing?",
+      "date": "2026-09-01",
+      "cat": "self"
+    },
+    {
+      "id": "how-reliable-is-memory",
+      "q": "我们记得的过去，有多少是重新编造的？",
+      "q_en": "How much of the past we remember was rebuilt on the spot",
+      "date": "2026-09-02",
+      "cat": "meta"
+    },
+    {
+      "id": "death-penalty",
+      "q": "死刑该废除吗？",
+      "q_en": "Should the death penalty be abolished?",
+      "date": "2026-09-03",
+      "cat": "ethics"
+    },
+    {
+      "id": "vote-at-work",
+      "q": "上班的地方，为什么不投票？",
+      "q_en": "Why is there no vote where we work?",
+      "date": "2026-09-04",
+      "cat": "work"
+    },
+    {
+      "id": "leave-it-to-kids",
+      "q": "该不该把家底留给孩子？",
+      "q_en": "Should you leave your wealth to your children?",
+      "date": "2026-09-05",
+      "cat": "life"
+    },
+    {
+      "id": "mental-suffering",
+      "q": "精神痛苦是脑病，还是正常反应？",
+      "q_en": "Is mental suffering a brain disease or a normal response?",
+      "date": "2026-09-06",
+      "cat": "self"
+    },
+    {
+      "id": "position-vs-effort",
+      "q": "机遇和位置，比努力更重要吗？",
+      "q_en": "Do opportunity and position matter more than effort?",
+      "date": "2026-09-06",
+      "cat": "self"
+    }
+  ]
 }

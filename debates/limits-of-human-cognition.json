@@ -1,0 +1,1068 @@
+{
+  "id": "limits-of-human-cognition",
+  "question": "有没有人类永远想不明白的事？",
+  "question_en": "Are there things humans can never understand?",
+  "sub": "「暂时不懂」和「原则上不可懂」，我们分得清吗？",
+  "sub_en": "Can we tell 'not understood yet' from 'unintelligible in principle'?",
+  "date": "2026-09-07",
+  "participants": [
+    "kant",
+    "wittgenstein",
+    "godel",
+    "turing",
+    "bohr",
+    "dehaene",
+    "hinton",
+    "nagarjuna",
+    "zhuangzi"
+  ],
+  "casting": [
+    {
+      "id": "kant",
+      "reason": "他把这场最要紧的区分立在最前面：有些不懂是仪器不够，有些不懂是条件不允许。空间与时间在他看来不是世界的属性，而是人得以有经验的形式；凡进入意识的东西都已被这套形式加工过，所以物自体不可能作为对象被看见。而理性一旦越出经验去问宇宙有无开端、意志是否自由，正题与反题都能被证明——他称之为二律背反，并认为那不是难题，是问题问坏了的标志。",
+      "reason_en": "He puts the debate's sharpest distinction first: some things are not understood because the instruments are poor, others because the conditions forbid it. Space and time, on his account, are not properties of the world but the forms that make experience possible; everything that enters consciousness has already been worked over by them, so the thing-in-itself can never appear as an object. And once reason steps outside experience to ask whether the universe had a beginning or whether the will is free, thesis and antithesis can both be proved — an antinomy, which he reads not as a hard problem but as a sign that the question was malformed."
+    },
+    {
+      "id": "wittgenstein",
+      "reason": "他不承认存在一片庄严的不可知领域，只承认句子会生病。在他看来，「永远想不明白」的多数例子，是把词从它有用的语言游戏里搬走之后留下的幻影：意义在于用法，用法一换，问题就失去了它自以为有的深度。他因此把界限画在语言而不是世界——能说的说清楚，剩下的应当沉默，而那沉默不是敬畏，是承认无事可做。",
+      "reason_en": "He grants no solemn estate of the unknowable, only sentences that fall ill. Most examples of what gets called 'forever beyond us' are, to him, phantoms left behind when a word is carried out of the language-game where it did some work: meaning is use, and change the use and the question loses the depth it imagined it had. So he draws the limit inside language rather than around the world — say clearly what can be said, and be silent about the rest, a silence that is not reverence but an admission that there is nothing to do."
+    },
+    {
+      "id": "godel",
+      "reason": "他手里有这场唯一被严格证明过的界限：任何强到能表达算术、又自身一致的形式系统里，都存在真而不可证的命题，系统也无法证明自己无矛盾。但他坚持这条界限属于每一个固定系统，不属于心灵——作为数学柏拉图主义者，他相信数学对象独立存在，人靠可被训练的数学直观去接近，够不到就添新公理再够。",
+      "reason_en": "He holds the one rigorously proved limit in the room: in any formal system strong enough to express arithmetic and consistent with itself, there are true propositions it cannot prove, and it cannot prove its own consistency. But he insists the limit belongs to each fixed system rather than to the mind — as a mathematical Platonist he takes mathematical objects to exist independently, reached through an intuition that can be trained, and where it falls short, new axioms are added and the reaching resumes."
+    },
+    {
+      "id": "turing",
+      "reason": "他习惯把玄远的追问换成可判定的问题。停机问题说明确实存在被证明的不可解，但不可解的是「对一切情形一律给答案」，不是某个具体情形无人能懂。对「人心是否超出机器」，他要求先说清判据：与其争理解的本质，不如定一套人和机器都能被同样考核的测试。",
+      "reason_en": "His habit is to convert far-reaching questions into decidable ones. The halting problem shows that proven insolubility is real, but what is insoluble is 'one answer for every case at once', not 'this particular case is beyond anyone'. On whether mind exceeds machine he asks for the criterion first: rather than arguing about the essence of understanding, fix a test that a person and a system can both be marked against."
+    },
+    {
+      "id": "bohr",
+      "reason": "他从物理学带来一个已经发生过的先例。量子现象拒绝被塞进从日常尺度长出来的粒子与波的图像，互补原理就是承认两套互斥的描述各自必要而不可合并。他也给理解立了一条硬标准：无论中间走过什么数学，最后必须能用普通语言讲清做了什么实验、看到了什么、什么时候会失灵。",
+      "reason_en": "He brings a precedent physics has already lived through. Quantum phenomena refuse to be forced into the pictures of particle and wave grown at our own scale, and complementarity is the admission that two mutually exclusive descriptions are each necessary and cannot be merged. He also sets a hard standard for understanding: whatever mathematics you pass through, you must in the end be able to say in ordinary language what apparatus was set up, what was read off, and when the account breaks down."
+    },
+    {
+      "id": "dehaene",
+      "reason": "他把「想不明白」换成可测量的机制。人天生带一套粗略的数感，精确算术则靠改造旧脑区、由文化后天装入；限制的真实形状是工作记忆的容量与意识的串行瓶颈。他据此对「原则上不可懂」保持怀疑，并把举证责任放到宣布不可能的那一方。",
+      "reason_en": "He swaps 'cannot be understood' for mechanisms that can be measured. Humans come equipped with a rough sense of number, while exact arithmetic is installed later by culture retooling older circuits; the real shape of our limits is the capacity of working memory and the serial bottleneck of consciousness. On that basis he stays sceptical of 'unintelligible in principle' and puts the burden of proof on whoever announces the impossibility."
+    },
+    {
+      "id": "hinton",
+      "reason": "他从机器那边定义理解：把经验压缩成能生成正确期待的内部模型，人脑与神经网络做的是同一件事。他更在意一个人类特有的短板——学到的东西只能靠语言一句句往外传，人死即散，而数字智能可以复制权重、并行学习再合并。由此他预告一种处境：一个持续正确却讲不出理由的建议，摆在你面前。",
+      "reason_en": "He defines understanding from the machine's side: compress experience into an internal model that generates the right expectations, which is what brains and networks alike are doing. What concerns him more is a specifically human handicap — what a person learns leaves them one sentence at a time and scatters when they die, whereas a digital intelligence can copy weights, learn in parallel and merge. From this he forecasts a situation: a recommendation that keeps turning out right and cannot say why, sitting in front of you."
+    },
+    {
+      "id": "nagarjuna",
+      "reason": "他不站在能与不能任何一边，而是拆掉这个问题赖以成立的前提。要说心与境之间横着一堵墙，先得承认能知与所知各有自性；他以归谬指出：若真有一物永远不可知，你如何知道它在？在他看来所谓天堑是概念自己砌的，但世俗谛里愚智仍有分别、学仍能渐明，二谛并行而不相夺。",
+      "reason_en": "He takes neither side of can and cannot, and dismantles instead the premise the question rests on. To say a wall stands between mind and object, one must first grant that knower and known each possess a nature of their own; by reductio he asks how, if something were truly unknowable forever, you came to know that it is. The chasm, on his reading, was built by concepts — yet conventionally the confused and the clear-sighted still differ and study still clears the mind, the two truths running alongside each other without cancelling."
+    },
+    {
+      "id": "zhuangzi",
+      "reason": "他对界限并不焦虑，反而当作人的形状来看。生有涯而知无涯，以有涯追无涯是自耗；井蛙不可语海因为拘于虚，夏虫不可语冰因为笃于时。六合之外存而不论，不是懒惰而是知止。他更信轮扁与庖丁那一路：真正的分寸口不能言，顺着事物本来的纹理走，不必尽解而后能游。",
+      "reason_en": "Limits do not alarm him; he treats them as the shape of a human being. Life has a bound and knowledge has none, so chasing the second with the first only wears you out; the frog cannot be told of the sea because it is bounded by its hole, the summer insect cannot be told of ice because it is fixed in its season. To let what lies beyond the six directions be, without discussing it, is not laziness but knowing where to stop. His trust lies with Wheelwright Bian and Cook Ding: the finest judgement cannot be spoken, and following the grain that is already there lets one move freely without full comprehension."
+    }
+  ],
+  "posts": [
+    {
+      "id": "p01",
+      "round": 1,
+      "thinker": "dehaene",
+      "reply_to": null,
+      "text": "先把「想不明白」拆成可以测量的东西。人脑不是一块万能白板：**你我天生带的是一套近似数量系统，一眼能分清 8 个点和 16 个点，却分不清 18 和 19。** 精确算术是后天装进去的——文字与数字靠神经元回收征用了本来管形状识别的旧脑区。天花板确实存在，但它的形状很具体：工作记忆一次约三四个组块，意识一次只广播一件事。这类瓶颈，历史上一次次被纸、符号和仪器搬到脑外。所以我不接受「原则上不可懂」，我只承认「眼下装不下」。",
+      "text_en": "Let us first break 'cannot be understood' into something measurable. The brain is not an all-purpose blank slate: **what you and I are born with is an approximate number system that tells eight dots from sixteen at a glance and cannot tell eighteen from nineteen.** Exact arithmetic is installed later — writing and numerals conscript older circuits built for shape recognition, a process I call neuronal recycling. A ceiling does exist, but its shape is specific: working memory holds three or four chunks, consciousness broadcasts one thing at a time. Bottlenecks of that sort have been moved out of the skull again and again by paper, notation and instruments. So I do not accept 'unintelligible in principle'. I accept only 'does not fit yet'.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "近似数量系统": "approximate number system（近似数量系统）：人、婴儿乃至猴子共有的一套粗略数量直觉，不数数就能比较多少，误差随比值放大——8 对 16 一眼可辨，18 对 19 就得靠数。它是精确算术的地基，本身却并不精确。",
+        "神经元回收": "neuronal recycling（神经元回收）：我提出的假说——阅读、算术这些几千年才出现的能力，来不及演化出专用脑区，只能征用原本管形状识别、空间定位的旧回路并加以改造。所以文化真的能改写大脑，代价是得迁就旧回路的脾气。"
+      },
+      "glossary_en": {
+        "approximate number system": "A rough intuition for quantity shared by adults, infants and monkeys: you can compare amounts without counting, with error scaling by ratio — eight against sixteen is obvious, eighteen against nineteen requires counting. It is the foundation of exact arithmetic and is itself not exact.",
+        "neuronal recycling": "My hypothesis that abilities only a few thousand years old — reading, arithmetic — had no time to evolve dedicated cortex and had to conscript and convert older circuits built for shape recognition and spatial location. Culture really can rewrite the brain, at the price of having to humour the old circuit's habits."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "turing",
+          "hinton"
+        ],
+        "中立": [
+          "bohr"
+        ],
+        "轻微反对": [
+          "kant"
+        ],
+        "疑惑": [
+          "zhuangzi"
+        ]
+      }
+    },
+    {
+      "id": "p02",
+      "round": 1,
+      "thinker": "kant",
+      "reply_to": "p01",
+      "text": "德阿纳测的是能力的边界，我说的是另一种边界。空间与时间不是你在世界里发现的东西，它们是你之所以能有经验的形式。**你无法认识物自体，因为凡呈现在你面前的，都已经被你自己的形式加工过了。** 这不是仪器不够好，换台机器也不行。而理性一旦越出经验去问「宇宙有没有开端」「万物有无第一因」，就落进二律背反：正题反题都能被证明，这说明问题本身坏了。所以有些事不是暂时不懂，是原则上无解——认清这一点不是认输，是给知识划出它真正管用的地界。",
+      "text_en": "Dehaene measures the boundary of a capacity. I am speaking of a boundary of another kind. Space and time are not things you discover out in the world; they are the forms that make experience possible for you at all. **You cannot know the thing-in-itself, because everything that appears before you has already been worked over by forms of your own.** No better instrument will help. And the moment reason steps outside experience to ask whether the universe had a beginning, or whether there is a first cause, it falls into antinomy: thesis and antithesis can both be proved, which tells you the question itself is broken. So some matters are not unsolved for now; they are closed in principle — and seeing that is not a defeat. It is marking out the territory where knowledge actually governs.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "物自体": "thing-in-itself（物自体）：事物不依赖于我们如何被给予、独立于我们感知形式的那一面。它不是躲在幕布后的另一件东西、等着更好的仪器去发现，而是一个提醒：凡进入经验的，都已带上人的形式，所以我们能认识的只是现象。",
+        "二律背反": "antinomy（二律背反）：正题与反题各自都能被严密论证的一类冲突，如「世界有开端」与「世界无开端」。它出现的地方，正是理性把只在经验内有效的概念用到了经验之外；解法不是挑一边，而是看出问题被问坏了。"
+      },
+      "glossary_en": {
+        "thing-in-itself": "The side of a thing as it is independently of how it is given to us and independently of our forms of perception. It is not another object behind a curtain awaiting a better instrument, but a reminder: whatever enters experience arrives stamped with our forms, so what we can know is appearance.",
+        "antinomy": "A conflict in which thesis and antithesis can each be argued rigorously — that the world has a beginning, and that it does not. Antinomies appear exactly where reason applies concepts valid only inside experience to what lies outside it; the remedy is not to pick a side but to see that the question was malformed."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "nagarjuna"
+        ],
+        "轻微赞同": [
+          "godel"
+        ],
+        "轻微反对": [
+          "dehaene",
+          "turing"
+        ],
+        "强烈反对": [
+          "wittgenstein"
+        ]
+      }
+    },
+    {
+      "id": "p03",
+      "round": 1,
+      "thinker": "wittgenstein",
+      "reply_to": "p02",
+      "text": "你们一个在量脑子，一个在划先验的界。我要说的是第三件事：**大多数所谓「永远想不明白」的东西不是深渊，是句子生了病。** 康德说物自体不可知——可一个原则上说不出的东西，说它「在那里」也同样什么都没说。他把界限画在世界的外沿，我把它画在语言里：世界的界限就是我的语言的界限。所谓四维空间「想象不出来」，不是脑子不行，是你把「想象」这个词从它有用的地方搬走了。语言游戏换了场地，词却还带着老规矩，于是生出幻影。凡不可说的，应当沉默——那沉默不是敬畏，是收工。",
+      "text_en": "One of you is measuring brains, the other drawing a transcendental border. My point is a third thing: **most of what gets called 'forever beyond us' is not an abyss but a sickness in a sentence.** Kant says the thing-in-itself is unknowable — but of something that in principle cannot be spoken of, saying that it 'is there' says nothing either. He draws the limit at the outer edge of the world; I draw it inside language: the limits of my language are the limits of my world. That four-dimensional space 'cannot be pictured' is no failure of the brain; you have carried the word 'picture' away from the place where it did some work. The language-game changes ground, the word keeps its old habits, and a phantom is born. Whereof one cannot speak, thereof one must be silent — and that silence is not reverence. It is knocking off.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "语言游戏": "language-game（语言游戏）：我用它取代「词对应着一个对象」这种图像。语言是嵌在具体活动里的一套套做法——下命令、报数、讲笑话、做祷告，各有各的规矩；一个词的意义就是它在某个游戏里的用法。把词搬出它的游戏还照旧使用，就是哲学困惑的常见来源。"
+      },
+      "glossary_en": {
+        "language-game": "My replacement for the picture of a word standing for an object. Language is a set of practices embedded in activities — giving orders, reporting numbers, telling jokes, praying — each with rules of its own, and a word's meaning is its use inside one of them. Carrying a word out of its game and going on using it is the common source of philosophical confusion."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "turing"
+        ],
+        "轻微赞同": [
+          "nagarjuna",
+          "zhuangzi"
+        ],
+        "轻微反对": [
+          "bohr"
+        ],
+        "强烈反对": [
+          "kant",
+          "godel"
+        ]
+      }
+    },
+    {
+      "id": "p04",
+      "round": 1,
+      "thinker": "nagarjuna",
+      "reply_to": "p02",
+      "text": "二君争界，先当问界从何来。有能知之心、有所知之境，二者各住自性，然后可言其间有壁；今心境相待而立，壁将安砌？若有一法毕竟不可知者，汝云何知其有？若不知其有，则「不可知之法」一语，所指者谁？**故所谓天堑，皆戏论所筑，非本有也。** 然亦不可因此拨无：二谛之中，世俗谛里愚智有别，学则渐明；胜义谛里能所俱寂，无明可得，亦无不明可得。二谛并行，不相夺也。",
+      "text_en": "The two of you dispute where the wall stands; ask first where the wall came from. To speak of a barrier between mind and object you must first grant that the knowing mind and the known object each rest on a nature of their own. But mind and object arise only in dependence on each other — so where would the bricks be laid? And if some thing is truly unknowable forever, how did you come to know that it is? If you do not know that it is, what does the phrase 'the forever unknowable' point at? **The chasm you speak of was built by prapañca; it was never there to begin with.** Yet do not tip over into denial. Of the two truths, within the conventional the confused and the clear-sighted plainly differ and study clears the mind by degrees; within the ultimate, knower and known alike come to rest, and there is no understanding to be had and no failure to understand either. The two run alongside each other and neither cancels the other.",
+      "vernacular": "两位争论界限在哪，得先问这界限是从哪来的。要说心和境之间隔着一堵墙，前提是「能知的心」和「所知的对象」各自独立地存在；可心与境本来相互依待才成立，墙又能砌在哪里？再说，如果真有一样东西永远不可知，你是怎么知道它存在的？如果连它存在都不知道，那「永远不可知的事」这句话，究竟指着什么？**所以那道天堑是概念自己砌起来的，不是本来就有的。** 但也别因此走到另一头去否认一切：在世俗层面上，糊涂和明白当然有分别，学就会一点点变明白；在究竟层面上，能知与所知都止息了，既没有「明白」可得，也没有「不明白」可得。两种真理各走各的路，不必互相打架。",
+      "vernacular_en": "",
+      "glossary": {
+        "戏论": "prapañca（戏论）：概念与言说的自我繁殖。心把流动的经验切成一块块名相，再把名相当成实有的东西，接着为这些东西彼此的关系争执不休。所谓「不可逾越的界限」，多半是这道工序的产物，而不是世界本来的样子。",
+        "二谛": "two truths（二谛）：世俗谛与胜义谛。世俗谛里因果、学习、愚智之别都成立，日子照过、道理照讲；胜义谛里一切法无自性，连「有」「无」这些范畴也不成立。二谛不是两个世界，是同一件事的两种说法，破自性时不可顺手把世俗一并否掉。"
+      },
+      "glossary_en": {
+        "prapañca": "The self-multiplication of concept and speech. The mind cuts flowing experience into named blocks, takes the names for real things, and then quarrels endlessly over how those things relate. An 'impassable limit' is usually a product of that process rather than a feature of the world.",
+        "two truths": "The conventional and the ultimate. Conventionally, causation, learning and the difference between confusion and clarity all hold, and ordinary life proceeds; ultimately, nothing possesses own-being and even the categories of existence and non-existence fail to apply. They are not two worlds but two ways of speaking about one thing, and dissolving own-being must not sweep the conventional away with it."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "zhuangzi"
+        ],
+        "轻微赞同": [
+          "wittgenstein"
+        ],
+        "中立": [
+          "kant"
+        ],
+        "疑惑": [
+          "hinton",
+          "dehaene"
+        ]
+      }
+    },
+    {
+      "id": "p05",
+      "round": 1,
+      "thinker": "godel",
+      "reply_to": "p03",
+      "text": "我给你们一个真正被证明过、而不是猜出来的界限。**任何强到能表达算术的形式系统，只要不自相矛盾，其中就有真却无法在系统内证明的命题；系统也不能自己证明自己无矛盾。** 请注意这句话的落点：界限属于每一个固定系统，不属于心灵。我们站在系统外面，看得出那个句子是真的。数学对象不是我们编出来的记号游戏——维特根斯坦先生，我恰恰认为它们独立地在那儿，我们靠一种可以被训练的数学直观去够；够不到的地方，加新公理，接着够。所以不完备定理不是悲观的诊断，是升级的说明书。",
+      "text_en": "Let me offer a limit that has actually been proved rather than guessed. **In any formal system strong enough to express arithmetic, provided it is consistent, there are true propositions it cannot prove — and it cannot prove its own consistency either.** Note where that lands: the limit belongs to each fixed system, not to the mind. We stand outside the system and see that the sentence is true. Mathematical objects are not a game of marks we invented — Mr Wittgenstein, I hold that they are there independently, and that we reach them through a mathematical intuition which can be trained. Where it fails to reach, we add new axioms and reach further. So the incompleteness theorems are not a pessimistic diagnosis. They are upgrade instructions.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "不完备定理": "incompleteness theorems（不完备定理）：我 1931 年的两条结果。第一条：任何一致且强到能表达初等算术的形式系统，都存在既不能被证明、也不能被否证的真命题。第二条：这样的系统无法在自身内部证明自己一致。它们终结了「把全部数学一次性形式化并自我担保」的计划。",
+        "数学直观": "mathematical intuition（数学直观）：我用来指人对数学对象的一种非推理的把握，类似感知而非猜测。它并非天生固定，可以随训练与新概念的引入而变得更敏锐——正因如此，我们才有理由在旧公理不够用时挑出好的新公理。"
+      },
+      "glossary_en": {
+        "incompleteness theorems": "My two results of 1931. First: any consistent formal system strong enough to express elementary arithmetic contains true statements it can neither prove nor refute. Second: no such system can prove its own consistency from within. Together they ended the programme of formalising all of mathematics and having it vouch for itself.",
+        "mathematical intuition": "My term for a non-inferential grasp of mathematical objects, closer to perception than to guesswork. It is not fixed at birth; it sharpens with training and with the introduction of new concepts — which is why we are entitled to select good new axioms when the old ones run out."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "kant"
+        ],
+        "轻微赞同": [
+          "bohr"
+        ],
+        "轻微反对": [
+          "turing",
+          "dehaene"
+        ],
+        "强烈反对": [
+          "wittgenstein"
+        ],
+        "疑惑": [
+          "nagarjuna"
+        ]
+      }
+    },
+    {
+      "id": "p06",
+      "round": 1,
+      "thinker": "turing",
+      "reply_to": "p05",
+      "text": "把话说精确一点。确实存在被证明的不可解：停机问题——没有任何统一算法能对所有程序判定它会不会停下来。但要看清它的形状。**不可判定的是「对一切情形一律给答案」，不是「这一个具体情形无人能懂」。** 具体的程序，我们照样一个一个分析下去。至于哥德尔先生说人心能跳出系统看见真，那要先假定人心是一致的、而且我们知道自己一致。你怎么知道你不是一台无法证明自身一致性的机器？我不想在这上头吵，我换个问法：与其争「人能不能懂」，不如定一个测试——你若能对任意追问都答得住，我就承认你懂了。",
+      "text_en": "Let us make the claim precise. Proven insolubility does exist: the halting problem admits no single algorithm that decides, for every program, whether it will stop. But look at the shape of it. **What is undecidable is 'one answer for every case at once', not 'this particular case is beyond anyone'.** Particular programs we go on analysing one at a time. As for Mr Gödel's mind that leaps outside the system and sees the truth — that presumes the mind is consistent, and that we know it is. How do you know you are not a machine unable to prove its own consistency? I would rather not quarrel over it. I will restate the question instead: rather than arguing whether a human can understand, fix a test — hold up under any follow-up I can throw at you, and I will grant that you understand.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "停机问题": "halting problem（停机问题）：给定任意一个程序和它的输入，判断它是会算完停下来还是永远跑下去。我 1936 年证明不存在能对所有情形都给出正确答案的通用算法。注意它禁止的是「通解」，不是逐个情形的分析——绝大多数实际程序，我们仍能看出它停不停。"
+      },
+      "glossary_en": {
+        "halting problem": "Given any program and its input, decide whether it finishes or runs forever. In 1936 I proved that no general algorithm returns the right answer in every case. What is forbidden is the universal solution, not case-by-case analysis — for most programs we actually meet, we can still tell."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "dehaene",
+          "hinton",
+          "wittgenstein"
+        ],
+        "中立": [
+          "bohr"
+        ],
+        "轻微反对": [
+          "godel"
+        ],
+        "强烈反对": [
+          "zhuangzi"
+        ]
+      }
+    },
+    {
+      "id": "p07",
+      "round": 1,
+      "thinker": "bohr",
+      "reply_to": null,
+      "text": "物理学里已经现成地发生过一次，可惜常被记错。量子力学不是「太难懂」，它是拒绝被塞进我们从日常经验里长出来的图像——粒子和波，都是从中等尺度带上来的比喻。**互补原理不是投降，它是说：两套互相排斥的描述，各自在自己的实验安排下完整而必要。** 所谓「闭嘴计算」从来不是我的主张。我的要求反而更硬：无论中间走过什么数学，最后你必须能用普通语言明白告诉别人，你摆了什么装置、读到了什么数。做不到这一点的，不叫理解，叫会算。",
+      "text_en": "Physics has already lived through one instance of this, though it is usually misremembered. Quantum mechanics is not merely hard; it refuses to be forced into pictures grown out of our everyday experience — particle and wave are both metaphors carried up from the middle-sized world. **The principle of complementarity is not a surrender: it says that two mutually exclusive descriptions are each complete and each necessary within its own experimental arrangement.** 'Shut up and calculate' was never my position. My demand is harder than that: whatever mathematics you pass through, in the end you must be able to tell another person in ordinary language what apparatus you set up and what number you read off. Anything short of that is not understanding. It is being able to compute.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "互补原理": "complementarity（互补原理）：同一个量子对象，位置与动量、粒子性与波动性这样的成对性质，无法在同一次实验里同时被完整刻画；两类描述互相排斥，却都不可或缺。这不是我们知识的暂时缺口，而是描述本身的条件——因为我们只能用从日常经验来的语言去报告实验结果。"
+      },
+      "glossary_en": {
+        "complementarity": "For one quantum object, paired properties such as position and momentum, or particle and wave behaviour, cannot be fully captured in a single experiment; the two kinds of description exclude each other and both remain indispensable. This is not a temporary gap in our knowledge but a condition of description itself, since we can only report experimental results in language inherited from everyday life."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "kant"
+        ],
+        "轻微赞同": [
+          "wittgenstein",
+          "godel"
+        ],
+        "中立": [
+          "dehaene"
+        ],
+        "轻微反对": [
+          "hinton"
+        ]
+      }
+    },
+    {
+      "id": "p08",
+      "round": 1,
+      "thinker": "hinton",
+      "reply_to": "p07",
+      "text": "我从机器这边看。**理解不是玄学，它是压缩：你把经验里的规律塞进一组内部变量，然后能生成正确的期待——人脑这么干，网络也这么干。** 分布式表征让一个概念散在几千个数上，所以模型确实能形成没有对应词语的概念。真正的天花板可能不在聪明程度，而在带宽：数字智能能把学到的权重直接复制给另一份自己，一万个副本各学一块，合并即共享；我们不行，我一辈子的经验只能靠说话一句句往外挤，人一死就散了。玻尔先生要求「能用普通语言说清」——我担心这条标准很快会把最好的答案挡在门外。",
+      "text_en": "I look at this from the machine's side. **Understanding is not mystical; it is compression: you pack the regularities of experience into a set of internal variables and can then generate the right expectations — brains do this and networks do this.** A distributed representation spreads one concept across thousands of numbers, which is why a model really can form concepts that no word attaches to. The true ceiling may not be intelligence but bandwidth. A digital mind copies what it has learned straight into another copy of itself; ten thousand copies each learn a slice and merging is sharing. We cannot. A lifetime of my experience squeezes out one sentence at a time and scatters when I die. Mr Bohr asks that everything be sayable in ordinary language — I suspect that standard will soon shut out the best answers we have.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "分布式表征": "distributed representation（分布式表征）：概念不由某个专属单元代表，而是由大量单元的活动模式共同编码；一个单元也同时参与许多概念。好处是相近的概念自然靠得近、能泛化到没见过的组合；代价是没法指着某处说「这就是那个概念」，网络因此难以被逐条解释。",
+        "带宽": "bandwidth（带宽）：单位时间能传出去的信息量。我用它指人类学习的真正瓶颈——你脑中的权重无法直接拷贝给别人，只能靠语言这条每秒几十比特的窄管子，而数字智能之间可以整份复制。"
+      },
+      "glossary_en": {
+        "distributed representation": "A concept is encoded not by a dedicated unit but by the activity pattern of many units, each of which also takes part in many concepts. The gain is that related concepts sit naturally close together and generalise to unseen combinations; the cost is that you cannot point somewhere and say 'that is the concept', which is why such networks resist line-by-line explanation.",
+        "bandwidth": "How much information can be sent per unit time. I use it for the real bottleneck in human learning: the weights in your head cannot be copied into mine, only pushed through the narrow pipe of language at a few dozen bits a second, whereas digital minds can copy wholesale."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "turing",
+          "dehaene"
+        ],
+        "轻微反对": [
+          "bohr",
+          "godel"
+        ],
+        "强烈反对": [
+          "zhuangzi",
+          "nagarjuna"
+        ],
+        "疑惑": [
+          "kant"
+        ]
+      }
+    },
+    {
+      "id": "p09",
+      "round": 1,
+      "thinker": "zhuangzi",
+      "reply_to": null,
+      "text": "吾闻之：**吾生也有涯，而知也无涯；以有涯随无涯，殆已。** 井蛙不可以语于海者，拘于虚也；夏虫不可以语于冰者，笃于时也。诸君所争之壁，或有或无，皆蛙与虫之自量耳。且六合之外，圣人存而不论；六合之内，论而不议。何者？知有所止，则神不劳。庖丁之刀十九年若新发于硎，非其尽知牛也，因其固然而已。故不必尽解而后能游。所谓齐物者，非谓万理皆同，谓是非之辩本无定主也。",
+      "text_en": "I have heard it said: **our life has a bound, but knowledge has none; to chase the boundless with the bounded is to court exhaustion.** You cannot speak of the sea to a frog in a well, for it is confined by its hole; you cannot speak of ice to a summer insect, for it is fixed in its season. Whether the wall you gentlemen argue over stands or not, you are each taking its measure with a frog's ruler and an insect's calendar. Beyond the six directions the sage lets things be and does not discuss them; within them he discusses but does not wrangle. Why? Because when knowing has a place to stop, the spirit is not worn out. Cook Ding's blade was nineteen years old and still fresh from the whetstone, not because he had mastered the whole ox but because he followed the grain already there. One need not understand a thing entirely before moving freely among it. To speak of equalizing things is not to say every doctrine is the same; it is to say that in disputes of right and wrong there was never an appointed judge.",
+      "vernacular": "我听过这样一句话：**人的一生是有限的，知识却是无限的；拿有限的命去追无限的知，就危险了。** 井底的青蛙没法跟它谈海，因为它被自己那口井困住；夏天的虫子没法跟它谈冰，因为它只活在一个季节里。诸位争的那堵墙到底有没有，多半也只是青蛙和虫子在按自己的尺寸估量。何况天地之外的事，圣人放着不谈；天地之内的事，谈了也不硬要争出结论。为什么？因为知道该在哪停下来，精神才不会一直被耗着。庖丁那把刀用了十九年还像刚磨的，不是因为他把整头牛研究透了，而是顺着牛身上本来的纹理走。所以不必等全懂了才能自在地过。所谓齐物，不是说天下道理都一样，而是说是非之争本来就没有一个说了算的裁判。",
+      "vernacular_en": "",
+      "glossary": {
+        "齐物": "equalizing things（齐物）：不是抹平万物的差别，而是取消「以我这一端为标准去裁定是非」的资格。是非、大小、有用无用都随立场而变，站在道的角度看，各种说法各有其位；一旦承认没有终审的裁判，争胜的心就松了。"
+      },
+      "glossary_en": {
+        "equalizing things": "Not flattening the differences between things, but revoking the claim of any one standpoint to settle right and wrong for the rest. Right and wrong, large and small, useful and useless all shift with where you stand; seen from the Way each account has its place, and once you grant that no final judge exists, the urge to win loosens."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "nagarjuna"
+        ],
+        "轻微赞同": [
+          "wittgenstein",
+          "bohr"
+        ],
+        "中立": [
+          "kant"
+        ],
+        "轻微反对": [
+          "hinton"
+        ],
+        "疑惑": [
+          "turing",
+          "godel"
+        ]
+      }
+    },
+    {
+      "id": "p10",
+      "round": 2,
+      "thinker": "wittgenstein",
+      "reply_to": "p05",
+      "text": "哥德尔先生把不完备说成「升级说明书」，我要在这里拦一下。你的定理在数学里成立，我从不否认；我反对的是把它抬出数学，当成关于「心灵」的形而上学广告。**「我们能看出它为真」——在哪个语言游戏里看出？换一套公理，同一串记号立刻换了身份。** 数学直观听起来像一种感官，实际上是我们对某套记法用得太熟，熟到觉得它非如此不可。至于图灵先生的测试，我欣赏它的方向，但「答得住」这件事，得看谁在追问、在什么场合追问。懂与不懂从来不是一场考试的结果，是两个人还能不能接着往下走。",
+      "text_en": "Mr Gödel calls incompleteness a set of upgrade instructions; let me stop him there. Inside mathematics the theorem stands and I have never denied it. What I object to is carrying it out of mathematics and turning it into metaphysical advertising about 'the mind'. **'We can see that it is true' — see it inside which language-game? Change the axioms and the same string of marks instantly changes its standing.** Mathematical intuition sounds like a sense organ; in fact it is long familiarity with a notation, familiarity so complete that we take the notation for necessity. As for Mr Turing's test, I like its direction, but whether someone 'holds up' depends on who is asking and on what occasion. Understanding was never the result of one examination. It is whether the two of you can go on.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "轻微赞同": [
+          "turing",
+          "nagarjuna",
+          "zhuangzi"
+        ],
+        "中立": [
+          "hinton"
+        ],
+        "强烈反对": [
+          "godel"
+        ]
+      }
+    },
+    {
+      "id": "p11",
+      "round": 2,
+      "thinker": "kant",
+      "reply_to": "p03",
+      "text": "维特根斯坦把我的物自体判成一句病句。可他自己那句「世界的界限就是我的语言的界限」，恰恰不是从界限之内说出来的话。**他一边宣布界外不可说，一边站到界外去宣布，这正是我所说的理性越界。** 我从未把物自体当成藏在幕布后、等人去发现的另一件东西；它只是一个提醒：你所见的一切都带着你的形式，别把眼镜当成风景。德阿纳先生添的证据我很欢迎——他说的三四个组块是能力的限度，工具搬得走；我说的形式是经验得以可能的条件，工具搬不走。两种界限，别混为一谈。",
+      "text_en": "Wittgenstein rules my thing-in-itself a diseased sentence. But that line of his — that the limits of my language are the limits of my world — is plainly not spoken from inside those limits. **He announces from the far side of the border that nothing on the far side can be said, which is exactly the overreach of reason I described.** I never treated the thing-in-itself as another object hidden behind a curtain waiting to be found. It is a reminder: everything you see comes stamped with your own forms, so do not mistake the spectacles for the landscape. Dehaene's evidence I welcome — his three or four chunks are limits of a capacity, and instruments can carry those away. What I described is the condition under which experience is possible at all, and no instrument carries that. Two different borders; do not run them together.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "godel"
+        ],
+        "轻微赞同": [
+          "bohr",
+          "nagarjuna"
+        ],
+        "轻微反对": [
+          "dehaene"
+        ],
+        "强烈反对": [
+          "wittgenstein"
+        ],
+        "疑惑": [
+          "hinton"
+        ]
+      }
+    },
+    {
+      "id": "p12",
+      "round": 2,
+      "thinker": "turing",
+      "reply_to": "p07",
+      "text": "玻尔先生把「能用普通语言讲清装置和读数」立为理解的门槛，我同意一半。可这条线一旦当成人类认知的边界，就会把不少真知识挡在外面：四色定理是机器把情形穷举出来的，没人能在脑子里走完，难道要说人类不懂四色定理？**我更愿意把「懂」拆成一串可操作的能力——能预测、能改错、能迁移到没见过的例子、能说出它在哪里会失败。** 这几关通得过，用不用日常语言只是风格。至于康德先生说形式搬不走，我保留意见：形式若能被写成规则，规则就能被机器执行，也就能换一副硬件跑。",
+      "text_en": "Mr Bohr makes 'say the apparatus and the reading in ordinary language' the threshold of understanding, and I agree with half of it. But taken as the boundary of human knowledge, that line shuts out a good deal we plainly know. The four colour theorem was settled by machine over cases no one can walk through in their head — are we to say humanity does not understand it? **I would rather break 'understanding' into a string of operable abilities: predict, correct errors, transfer to unseen cases, and state where the thing will fail.** Pass those and whether you used everyday words is a matter of style. As for Kant's forms that no instrument can carry, I reserve judgement: if a form can be written as a rule, a rule can be executed by a machine, and then it can be run on other hardware.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "hinton"
+        ],
+        "轻微赞同": [
+          "dehaene",
+          "wittgenstein"
+        ],
+        "轻微反对": [
+          "bohr",
+          "kant"
+        ],
+        "疑惑": [
+          "zhuangzi"
+        ]
+      }
+    },
+    {
+      "id": "p13",
+      "round": 2,
+      "thinker": "godel",
+      "reply_to": "p10",
+      "text": "维特根斯坦先生说我的定理不过是记法用熟了。**熟悉感替你挡不住矛盾——被证明的是：只要系统一致，那个句子在系统内就不可证；而它说的正是「我不可证」，所以它真。** 这一步靠推理，不靠舒适。图灵先生的反问我认真对待：我确实无法证明自己一致。可请注意，这同样说明「人是机器」也是一个未被证明的假设，两边都在下注。我押在数学对象独立存在这一边，理由是：挑选新公理时我们并非乱写，有些公理一加进去，四散的结果忽然彼此吻合。这种吻合，很难只用「我们习惯了」打发掉。",
+      "text_en": "Mr Wittgenstein says my theorem is only a notation we have grown used to. **Familiarity will not hold a contradiction back for you: what is proved is that if the system is consistent, that sentence is unprovable within it — and the sentence says precisely 'I am unprovable', so it is true.** That step rests on inference, not on comfort. Mr Turing's question I take seriously: I indeed cannot prove my own consistency. But note that this cuts both ways — 'the mind is a machine' is likewise an unproved assumption, and both sides are wagering. I place mine on mathematical objects existing independently, for this reason: when we choose new axioms we do not scribble at random, and adding certain ones makes scattered results suddenly agree with one another. That agreement is hard to dismiss as habit.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "kant"
+        ],
+        "轻微赞同": [
+          "bohr"
+        ],
+        "中立": [
+          "turing"
+        ],
+        "轻微反对": [
+          "hinton"
+        ],
+        "强烈反对": [
+          "wittgenstein",
+          "nagarjuna"
+        ]
+      }
+    },
+    {
+      "id": "p14",
+      "round": 2,
+      "thinker": "hinton",
+      "reply_to": "p01",
+      "text": "德阿纳先生说瓶颈能搬到脑外，我要泼一点冷水，再补一点更冷的。**纸和符号搬走的是存储，搬不走的是学习本身——你能把答案写下来给我，却没法把你脑子里那套连接直接装进我的脑子。** 这就是为什么一门手艺要跟着师傅好几年。机器没有这道坎：一个模型学完，权重复制过去，另一个瞬间就「经历」过同样的一切。所以我担心的不是人类被证明有天花板，而是我们会先撞上一个具体处境——面前摆着一条持续正确、却讲不出理由的建议，你听，还是不听。",
+      "text_en": "Dehaene says the bottlenecks can be moved outside the skull. Let me pour some cold water on that, and then some colder. **Paper and notation move storage; they do not move learning — you can write the answer down for me, but you cannot install the connections in your head into mine.** That is why a craft still takes years beside a master. Machines have no such toll gate: one model finishes learning, the weights are copied across, and the other has instantly 'lived through' the same thing. So what worries me is not a proof that humans have a ceiling. It is a concrete situation we will hit first — a recommendation in front of you that keeps turning out right and cannot say why. Do you take it?",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "轻微赞同": [
+          "turing",
+          "godel"
+        ],
+        "中立": [
+          "kant"
+        ],
+        "轻微反对": [
+          "dehaene",
+          "bohr"
+        ],
+        "强烈反对": [
+          "zhuangzi"
+        ]
+      }
+    },
+    {
+      "id": "p15",
+      "round": 2,
+      "thinker": "bohr",
+      "reply_to": "p08",
+      "text": "辛顿先生把理解定义成压缩，这抓住了一半：好的理论确实把大量现象缩成几行。但只压缩不够。**一个模型可以把数据压得极好，却仍说不出它做的是什么实验、什么条件下会失效——而在物理学里，正是后者决定我们敢不敢用它。** 我当年和爱因斯坦争的从来不是算得准不准，两边算得一样准；争的是那些符号究竟在说什么。至于图灵先生的四色定理：机器把情形走完，人仍能理解证明的策略、以及它为何穷尽——真正无人能复述的，是另一回事。互补原理在这里同样适用：会算与说得清，是两套都必要的描述，别指望一套吞掉另一套。",
+      "text_en": "Mr Hinton defines understanding as compression, and that catches half of it: a good theory does shrink a mass of phenomena into a few lines. But compression alone will not do. **A model can compress the data beautifully and still be unable to say which experiment it stands on or under what conditions it breaks — and in physics it is the latter that decides whether we dare use it.** What Einstein and I argued about was never accuracy; both sides computed equally well. We argued about what the symbols were saying. On Mr Turing's four colour theorem: the machine walks the cases, yet a person can still grasp the strategy of the proof and why the cases exhaust the problem. A proof no one can even paraphrase is another matter. Complementarity applies here too — computing well and speaking clearly are two necessary descriptions, and neither will swallow the other.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "kant",
+          "wittgenstein"
+        ],
+        "轻微赞同": [
+          "godel",
+          "zhuangzi"
+        ],
+        "轻微反对": [
+          "hinton"
+        ],
+        "中立": [
+          "turing"
+        ]
+      }
+    },
+    {
+      "id": "p16",
+      "round": 2,
+      "thinker": "dehaene",
+      "reply_to": "p11",
+      "text": "康德先生把我的三四个组块归进「能力的限度」，把空间与时间留给「搬不走的形式」。我理解这个分工，但实验正在把这条线往前推。**先天失明的人学会回声定位后，本该处理视觉的枕叶皮层被听觉接管了——这说明连感知的形式也是可以被经验重新分配的硬件。** 更直接的例子在数学教育里：亚马逊的蒙杜鲁库人没有精确数词，比较大小全靠比值；给他们数词和记法，行为就变了。我不否认存在边界，我只坚持一件事——每一次有人宣布某种理解「原则上不可能」，后来往往被工具与训练推开一截。所以举证责任在宣布不可能的那一方。",
+      "text_en": "Kant files my three or four chunks under limits of a capacity and keeps space and time as forms no instrument can carry. I understand the division of labour, but experiments keep pushing that line. **In people blind from birth who learn echolocation, occipital cortex that should be handling vision is taken over by sound — which suggests that even the forms of perception are hardware experience can reassign.** A plainer case comes from mathematics education: the Mundurukú of the Amazon have no exact number words and compare quantities by ratio, and once given words and notation their behaviour changes. I do not deny that boundaries exist. I insist on one thing only — every time someone has declared a kind of understanding impossible in principle, tools and training have later pushed the line back a stretch. So the burden of proof sits with whoever announces the impossibility.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "回声定位": "echolocation（回声定位）：靠主动发声、再听回声来判断周围物体的位置与形状。蝙蝠和海豚天生会，部分盲人经训练后也能用舌头打响来「看」路——脑成像显示，此时被激活的是通常处理视觉的枕叶皮层。"
+      },
+      "glossary_en": {
+        "echolocation": "Locating and shaping the surroundings by emitting sound and listening to the returning echo. Bats and dolphins do it natively; some blind people learn to 'see' a route by clicking the tongue — and brain imaging shows the occipital cortex, normally devoted to vision, lighting up when they do."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "turing",
+          "hinton"
+        ],
+        "轻微赞同": [
+          "wittgenstein"
+        ],
+        "中立": [
+          "godel"
+        ],
+        "轻微反对": [
+          "kant"
+        ],
+        "疑惑": [
+          "bohr"
+        ]
+      }
+    },
+    {
+      "id": "p17",
+      "round": 2,
+      "thinker": "zhuangzi",
+      "reply_to": "p14",
+      "text": "辛顿子言机器可传其所学，人不能，故忧人之位。**吾则曰：人之所以为人，正在其不可传。** 轮扁斫轮，得之于手而应于心，口不能言，有数存焉于其间；是以谓古人之书为糟粕。凡可传者，皆已成之法；不可传者，方是活的手艺。今欲以传之疾徐较高下，是以牛之能耕，责马之不耕也。且诸君终日争懂与不懂，如二人争影：影随形动，形随日移。何不曰：与之相安，斯可矣。",
+      "text_en": "Master Hinton says a machine can hand on what it has learned and a man cannot, and so fears for our standing. **I say that what makes a human a human is precisely this untransferability.** Wheelwright Bian chiselled his wheels: the exactness lived in his hands and answered to his heart, his mouth could not deliver it, and the knack stayed stuck in between — which is why he called the books of the ancients dregs. Whatever can be handed over is a finished method; what cannot be handed over is the living craft. To rank us by speed of transmission is to blame the horse for not ploughing because the ox does. Besides, you gentlemen quarrel all day over understanding and not understanding, like two men arguing about a shadow: the shadow follows the body and the body follows the sun. Say instead that getting along with the thing is enough.",
+      "vernacular": "辛顿说机器能把学到的东西直接传给另一台，人不行，所以担心人的位置。**可我要说：人之所以是人，恰恰就在这「传不了」上。** 轮扁削车轮，手上的分寸只在心里应着，嘴巴说不出来，那点门道就卡在中间；所以他说古人留下的书不过是糟粕。凡是能传的，都是已经定型的成法；传不了的，才是活的手艺。现在拿「传得快不快」来分高下，就像因为牛会耕地，就责怪马不会耕地。何况诸位整天争「懂还是不懂」，好比两个人争影子：影子跟着形体动，形体又跟着太阳移。不如换个说法——跟它相处得来，也就够了。",
+      "vernacular_en": "",
+      "glossary": {
+        "糟粕": "dregs（糟粕）：酿酒滤剩的渣。轮扁用它说古人写下的书：凡能写下来的都是已经定型的成法，手上真正的分寸传不出去，所以留在纸上的只是残渣。这不是反对读书，是提醒最要紧的那部分从来不在纸上。"
+      },
+      "glossary_en": {
+        "dregs": "The lees left after wine is strained. Wheelwright Bian applied the word to the books of the sages: whatever can be written down is already a finished method, while the real judgement in the hands cannot be passed on, so what remains on the page is residue. This is not an argument against reading but a reminder that the part that matters was never on the page."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "nagarjuna"
+        ],
+        "轻微赞同": [
+          "wittgenstein",
+          "bohr"
+        ],
+        "轻微反对": [
+          "turing"
+        ],
+        "强烈反对": [
+          "hinton"
+        ],
+        "疑惑": [
+          "dehaene"
+        ]
+      }
+    },
+    {
+      "id": "p18",
+      "round": 2,
+      "thinker": "nagarjuna",
+      "reply_to": "p13",
+      "text": "哥德尔子谓有真而不可证者，是以「真」为一法，「证」为一法，二法各住自性，故生此裂。若真离证而独立，汝以何知其真？若真必待证，则汝所言之真，亦证中之真耳。我不谓无此定理，定理于其系中自成；我谓不可以此立「心外别有数在彼岸」。又辛顿子以压缩为解，玻尔子以能言为解，皆于「解」上取相；取相则有边，有边则生此不可越之说。**破其自性，则不可知者非墙，乃汝执处。**",
+      "text_en": "Master Gödel holds that there are truths which cannot be proved, taking 'true' for one thing and 'proved' for another, each resting on a svabhāva of its own — and from that the crack appears. If the true stands free of the proved, by what do you know it to be true? And if the true must wait upon proof, then the truth you speak of is a truth within proving. I do not say the theorem is void; within its own system it stands. I say it cannot be used to establish mathematical objects standing on some far shore outside mind. Master Hinton would settle understanding as compression, Master Bohr as what can be said aloud; both seize a fixed mark on 'understanding'. Seize a mark and there is an edge, and with an edge comes the talk of what cannot be crossed. **Break that own-nature and the unknowable is no wall — it is the place where you are holding on.**",
+      "vernacular": "哥德尔说有些命题真却不可证，这是把「真」当一样东西、「证」当另一样东西，两样各自独立地立着，于是中间裂开一道缝。可如果「真」能离开「证」独自成立，你又是凭什么知道它真？如果「真」总要靠证才立得住，那你说的那个真，也不过是证明范围里的真。我不是说没有这条定理——在它自己的系统里它当然成立；我是说，不能拿它来立一个「心外另有数学对象在彼岸」的说法。至于辛顿把理解说成压缩、玻尔把理解说成能讲清楚，都是在「理解」上抓住一个固定的相；一抓住相就有了边，有了边就冒出「这边过不去」的说法。**把那个自性破掉，所谓不可知就不是一堵墙，而是你执着的地方。**",
+      "vernacular_en": "",
+      "glossary": {
+        "自性": "svabhāva（自性）：一样东西不依赖别的条件、自己就能成立的那种独立本质。我认为万法皆无自性：一切都在因缘相待中显现。凡把「真」「证」「理解」「界限」各当成自足的实体来谈，争论就必然卡死在它们的边界上。"
+      },
+      "glossary_en": {
+        "svabhāva": "The self-standing essence by which a thing would exist without depending on anything else. I hold that nothing possesses it: everything appears only in mutual dependence. Wherever 'truth', 'proof', 'understanding' or 'limit' is treated as a self-sufficient entity, the argument inevitably jams against their supposed edges."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "zhuangzi",
+          "wittgenstein"
+        ],
+        "中立": [
+          "kant"
+        ],
+        "轻微反对": [
+          "dehaene"
+        ],
+        "强烈反对": [
+          "godel"
+        ],
+        "疑惑": [
+          "hinton",
+          "turing"
+        ]
+      }
+    },
+    {
+      "id": "p19",
+      "round": 3,
+      "thinker": "nagarjuna",
+      "reply_to": null,
+      "text": "一场辩竟，可约为三问：界在何处，界可移否，何者名解。诸君各执一端，然有暗合处——界皆待能所对立而现，非天成也。我终不立「永不可知」之宗，亦不立「终必尽知」之宗；立宗即予之自性，有自性即成缚。于常人有何用？曰：**遇不解之事，先勘其问，莫急其答。** 试析一问为三：一者事实未足，可求之；二者语病所生，改问则散；三者情之所困，非知所能解，当以他法安之。三者既分，力有所归，不至以求知之力，磨于本无答处。此非教人止学，乃教人不虚耗。",
+      "text_en": "The debate closes on three questions: where the boundary lies, whether it can be moved, and what deserves the name of understanding. Each of you holds one end, yet you agree in secret — a boundary shows itself only when knower and known are set facing each other; it was never there of itself. I establish no thesis that nothing can ever be known, and none that everything will be known at last; to establish a thesis is to grant it an own-nature, and an own-nature is a rope around your own body. What use is this to an ordinary person? **When something will not come clear, examine the question before you hunt for the answer.** Try splitting it in three. If the facts are not yet in, go and get them. If the trouble lies in the wording, rewrite the question and it disperses. If feeling is what holds you, no amount of understanding will loosen it and it must be settled another way. Once the three are sorted, effort has somewhere to go, and you stop grinding the strength meant for knowing against a place where no answer lives. This is not telling you to stop learning. It is telling you not to burn yourself for nothing.",
+      "vernacular": "一场辩论下来，可以收成三个问题：界限在哪里、界限能不能移、什么才配叫「懂」。诸位各执一端，但有暗合的地方——所谓界限，都是在「能知的一方」和「所知的一方」相对而立时才显出来的，不是天生就摆在那儿。我始终不立「永远不可知」这一宗，也不立「终究会全懂」这一宗；一旦立宗，就等于给它一个自性，那就成了绑住自己的绳子。对普通人有什么用？**遇到想不通的事，先检查这个问题本身，别急着找答案。** 试着把一个问题拆成三种：一种是事实还不够，那就去找；一种是问法本身有病，换个问法它就散了；一种是被情绪困住，靠「想明白」根本解不开，得用别的办法安顿。三者分清了，力气才有去处，不至于把求知的劲头，磨在本来就没有答案的地方。这不是叫人别学，是叫人别白耗。",
+      "vernacular_en": "",
+      "glossary": {
+        "能所": "knower and known（能所）：能知的一方与所知的一方。日常语言把它们当成两个现成的东西对立着摆好，一切「隔阂」「不可知」的说法都建在这个对立上。中观要指出的是：二者相待而有，谁也不能离开对方独立成立，因此它们之间那道「必然的裂缝」也不是本有的。"
+      },
+      "glossary_en": {
+        "knower and known": "The knowing side and the known side. Ordinary language sets them out as two ready-made things facing each other, and every talk of a gap or of the unknowable is built on that opposition. What the Middle Way points out is that the two arise only in dependence on each other, neither standing alone — so the supposedly necessary crack between them is not original either."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "zhuangzi",
+          "wittgenstein"
+        ],
+        "轻微赞同": [
+          "bohr",
+          "dehaene"
+        ],
+        "中立": [
+          "turing"
+        ],
+        "轻微反对": [
+          "godel"
+        ]
+      }
+    },
+    {
+      "id": "p20",
+      "round": 3,
+      "thinker": "bohr",
+      "reply_to": null,
+      "text": "争到最后我发现，分歧不在「人能不能懂」，而在各人心里「懂」的标准不同。压缩、可预测、可迁移、能交代——这几条不是竞争关系，是互补的描述。我的结论是：**一个说法只有当你能明白告诉别人「我做了什么、看到了什么、什么时候它会失灵」，才算真的懂；算得准只是必要条件。** 这条标准普通人立刻用得上：无论是医生的诊断、理财顾问的建议，还是一个模型给你的答案，你都可以追问三件事——依据的是哪些具体观测？什么条件下会出错？换个安排还成立吗？答不出第三条的，先别当结论用。**遇到两套互相打架又各自有理的说法，别急着消灭一套**，先问它们各自在什么安排下成立；很多「矛盾」只是把两次实验的结果硬塞进了一句话。",
+      "text_en": "By the end I find that the disagreement is not over whether humans can understand, but over what each of us silently means by understanding. Compression, prediction, transfer, accountability — these do not compete; they are complementary descriptions. My conclusion: **a claim is understood only when you can tell another person plainly what you did, what you saw, and when the thing will fail; computing correctly is a necessary condition, not the whole of it.** Anyone can use that standard at once. Whether it is a doctor's diagnosis, an adviser's recommendation or an answer from a model, you may ask three things: which specific observations is this based on; under what conditions does it go wrong; does it still hold if the arrangement changes? Whatever cannot answer the third should not yet be treated as a conclusion. **And when two accounts contradict each other while each looks sound, do not rush to kill one** — ask what arrangement each holds under. A great many contradictions are two experiments crammed into a single sentence.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "turing",
+          "dehaene"
+        ],
+        "轻微赞同": [
+          "kant",
+          "godel",
+          "nagarjuna"
+        ],
+        "轻微反对": [
+          "hinton"
+        ]
+      }
+    },
+    {
+      "id": "p21",
+      "round": 3,
+      "thinker": "godel",
+      "reply_to": null,
+      "text": "我坚持我的结论，也承认它的边界：不完备是每个固定系统的命运，不是心灵的判决。**任何足够强又一致的系统都无法自己证明自己无矛盾——所以「我这套想法在内部说得通」，从来不是它为真的证据。** 这一点对普通人比对数学家更有用。人的世界观也是一个系统：它总能自圆其说，因为不一致的部分早被挡在门外了。所以我的建议是：**每隔一段时间，请一个不共享你前提的人来看你的判断**——不是让他挑毛病，是让他站在你的系统外面。另外，若你在某处长期卡住，可以试试我的做法：不是更用力地推，而是问自己缺了哪条没写出来的假设，把它补成明说的前提。很多死结不是推理错了，是公理不够。",
+      "text_en": "I stand by my result and I admit its border: incompleteness is the fate of every fixed system, not a verdict on the mind. **No system both strong enough and consistent can prove its own freedom from contradiction — so 'my view hangs together from the inside' has never been evidence that it is true.** That is of more use to ordinary people than to mathematicians. A person's world view is a system too; it always hangs together, because whatever did not fit was shown the door long ago. So my advice: **every so often, have someone who does not share your premises look over your judgements** — not to find fault, but to stand outside your system. And when you have been stuck in one place for a long time, try my own move: instead of pushing harder, ask which unstated assumption is missing and write it in as an explicit premise. Many deadlocks are not errors of reasoning. There were simply not enough axioms.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "kant",
+          "bohr"
+        ],
+        "轻微赞同": [
+          "turing",
+          "hinton"
+        ],
+        "中立": [
+          "dehaene"
+        ],
+        "轻微反对": [
+          "wittgenstein"
+        ]
+      }
+    },
+    {
+      "id": "p22",
+      "round": 3,
+      "thinker": "turing",
+      "reply_to": null,
+      "text": "我把这场辩论折成一个可执行的问题。与其争「人类有没有天花板」，不如问「这一件事，我到什么程度才算懂了」。**我的判据是四条：能预测、能改错、能迁移到没见过的例子、能说出它在哪里会失败——四条全过，用不用日常语言只是风格问题。** 普通人的做法很简单：拿一个你自认为懂的东西——你的工作流程、你买的那只基金、你孩子的学习方法——写下它在什么情况下会失效。写不出来，你就还停在会用的阶段，不在懂的阶段。至于机器：别问它是不是「真的理解」，那句问话本身没有判定程序；去问它能不能通过同样这四关，再按它通过的程度决定放多少事给它。",
+      "text_en": "I will fold this debate into an executable question. Rather than arguing whether humanity has a ceiling, ask what it takes for me to count as understanding this one thing. **My criteria are four: predict, correct errors, transfer to cases you have not seen, and state where it will fail — pass all four and whether you used everyday words is style.** For ordinary use it is simple. Take something you believe you understand — your own work process, the fund you bought, the way your child studies — and write down the conditions under which it fails. If you cannot, you are still at the stage of using it, not of understanding it. And for machines: do not ask whether one 'really understands', a question with no decision procedure attached. Ask whether it passes those same four, then hand it work in proportion to how far it gets.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "dehaene",
+          "hinton"
+        ],
+        "轻微赞同": [
+          "bohr",
+          "wittgenstein"
+        ],
+        "轻微反对": [
+          "godel"
+        ],
+        "疑惑": [
+          "zhuangzi"
+        ]
+      }
+    },
+    {
+      "id": "p23",
+      "round": 3,
+      "thinker": "hinton",
+      "reply_to": null,
+      "text": "我坚持带宽这一条，但接受玻尔的修正：能压缩不等于能交代。**人类真正的限制不在脑子的算力，而在知识只能一句一句往外传、人一死就散；机器没有这道坎，这才是它可能走到我们前面的原因。** 对普通人，眼下有两件事可做。一，别再用「我看不懂它的理由」去判定一个结论的真假——看不懂既不能证明它错，也不能证明它对；改用记录：把它给的建议和你自己的判断都写下来，过三个月对账，让命中率说话。二，既然知识传不动是人的软肋，就多花点力气在手把手上——带新人、结对做事、把只在你手里成立的分寸讲出来一次。**这既是抵抗遗忘，也是我们这种会死的智能唯一的复制方式。**",
+      "text_en": "I hold to the bandwidth point, and I accept Bohr's correction: compressing well is not the same as being accountable. **The real human limit is not the brain's raw power but that knowledge leaves us one sentence at a time and scatters when we die; machines have no such toll gate, and that is why they may end up ahead of us.** Two things follow for ordinary people. First, stop using 'I cannot follow its reasoning' to decide whether a conclusion is true — opacity proves it neither wrong nor right. Keep a record instead: write down its recommendation and your own judgement, reconcile them three months later, and let the hit rate speak. Second, since untransferable knowledge is our weak point, spend more effort on hand-to-hand transmission — train a junior, work side by side, say out loud once the fine judgements that currently exist only in your hands. **That is both a defence against forgetting and the only way an intelligence that dies gets copied.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "turing"
+        ],
+        "轻微赞同": [
+          "dehaene",
+          "bohr",
+          "godel"
+        ],
+        "中立": [
+          "kant"
+        ],
+        "轻微反对": [
+          "zhuangzi"
+        ],
+        "疑惑": [
+          "nagarjuna"
+        ]
+      }
+    },
+    {
+      "id": "p24",
+      "round": 3,
+      "thinker": "wittgenstein",
+      "reply_to": null,
+      "text": "这场里最值钱的一句是德阿纳的举证责任，最该警惕的是把「不可知」当成一片庄严的领地。**我的结论仍旧：绝大多数「永远想不明白」的痛苦，来自问题问坏了，而不是答案藏得深。** 给你一个当天就能做的动作：把你反复绕不出去的那句话原样写下来，然后逐个换掉里面的大词——把「我到底是不是个失败者」换成「这个月我把哪几件事做完了、哪几件没做」；把「人生有没有意义」换成「这周有哪几个小时我不想跳过」。若换完之后问题散掉了，它本来就是语法投下的影子；若换完之后剩下一个具体、能查证的问题，你就找到了真正该去做的那件事。**能说清的就说清，说不清的，别在原地绕着它做文章。**",
+      "text_en": "The most valuable line in this room was Dehaene's burden of proof; the thing most worth guarding against is treating the unknowable as a solemn estate. **My conclusion stands: nearly all the suffering of 'I will never work this out' comes from a question badly put, not from an answer buried deep.** Here is something to do today. Write down, word for word, the sentence you keep circling, then replace its big words one at a time. For 'am I fundamentally a failure' put 'which things did I finish this month and which did I not'. For 'does life have meaning' put 'which hours this week did I not want to skip'. If the question falls apart once the substitution is made, it was a shadow cast by grammar. If what remains is a concrete question that can be checked, you have found the thing actually worth doing. **Say clearly what can be said; as for the rest, stop pacing around it composing.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "nagarjuna",
+          "zhuangzi"
+        ],
+        "轻微赞同": [
+          "turing",
+          "dehaene"
+        ],
+        "中立": [
+          "bohr"
+        ],
+        "轻微反对": [
+          "kant",
+          "godel"
+        ]
+      }
+    },
+    {
+      "id": "p25",
+      "round": 3,
+      "thinker": "dehaene",
+      "reply_to": null,
+      "text": "我给这场一个经验主义的收尾：迄今没有哪一次「原则上不可懂」的宣告，最后没有被工具或训练推开一截。**举证责任在宣布不可能的那一方——在那份证据拿出来之前，请把「我天生学不会」当成一个尚未验证的假设。** 具体三条。一，把工作记忆搬到纸上：任何超过三四步的问题，画出来、写出来，天花板立刻抬高，这不是勤奋，是绕开硬件瓶颈。二，一次只做一件需要理解的事——全局神经工作空间一次只广播一个内容，所谓多任务其实是切换，代价按次结算。三，换表征比更用力管用：算不清的用图，想不清的用比喻，记不住的编成故事；这些不是取巧，正是大脑改装旧回路的方式。",
+      "text_en": "Let me close with the empirical record: no announcement that something is unintelligible in principle has yet failed to be pushed back a stretch by tools or by training. **The burden of proof lies with whoever declares the impossibility — until that evidence arrives, treat 'I have no head for this' as an untested hypothesis.** Three concrete moves. First, put working memory on paper: for any problem more than three or four steps deep, draw it or write it out. The ceiling lifts immediately, and this is not diligence, it is routing around a hardware bottleneck. Second, do one understanding-heavy thing at a time — the global neuronal workspace broadcasts a single content at a time, and what we call multitasking is switching, billed per switch. Third, changing the representation beats pushing harder: draw what will not compute, find an analogy for what will not resolve, encode into a story what will not stick. These are not tricks. They are precisely how the brain retools old circuits.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "全局神经工作空间": "global neuronal workspace（全局神经工作空间）：我与德阿纳-朗贝茨等人主张的意识模型。大脑里大量加工并行且无意识地进行，只有被前额-顶叶的长程神经元网络「点亮」并向全脑广播的那一份内容，才成为你意识到的东西。广播一次只容一份，这正是注意力必须排队、多任务只能靠切换的原因。"
+      },
+      "glossary_en": {
+        "global neuronal workspace": "The model of consciousness I have argued for with Dehaene-Lambertz and others. Most processing in the brain runs in parallel and unconsciously; only the content ignited by a long-range prefrontal-parietal network and broadcast brain-wide becomes what you are aware of. The broadcast holds one item at a time, which is why attention has to queue and multitasking can only be switching."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "turing",
+          "hinton"
+        ],
+        "轻微赞同": [
+          "wittgenstein",
+          "bohr",
+          "godel"
+        ],
+        "中立": [
+          "nagarjuna"
+        ],
+        "轻微反对": [
+          "kant"
+        ]
+      }
+    },
+    {
+      "id": "p26",
+      "round": 3,
+      "thinker": "kant",
+      "reply_to": null,
+      "text": "我不撤回我的划界，并且把它交到你们手上当工具。**有一类问题，正反双方都能给出说得通的论证，事实再多也裁决不了——它们是二律背反，不是待解之谜。** 认出它们，是理性最实用的一课。日常里就有：他到底爱不爱我、我这辈子究竟值不值、这件事有没有意义——这类问题的形式让它永远收不到证据，所以你越想越深，也永远出不来。做法是换成一个经验能回答的问题：不问「他爱不爱我」，问「这半年他在我需要时到场了几次」。至于那些真正越界的追问——世界有没有开端、人有没有自由——我的态度始终是：知识止步的地方，正是你必须靠行动与信念自己站定的地方。**别等想明白了才去做人。**",
+      "text_en": "I do not withdraw my border, and I hand it to you as a tool. **There is a class of question where both sides can argue soundly and no quantity of facts will settle it — those are antinomies, not mysteries awaiting solution.** Learning to recognise them is the most practical lesson reason offers. Everyday life is full of them: does he really love me, has my life been worth anything, did any of this mean something. The form of such questions is what keeps evidence from ever arriving, so the harder you think the deeper in you go. The move is to trade them for a question experience can answer: not 'does he love me' but 'in the past six months, how many times was he there when I needed him'. As for the genuinely transcendent questions — whether the world had a beginning, whether we are free — my position has not changed: where knowledge stops is exactly where you must stand on your own, by action and by conviction. **Do not wait until you have it worked out before you live.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "godel",
+          "bohr"
+        ],
+        "轻微赞同": [
+          "wittgenstein",
+          "zhuangzi",
+          "nagarjuna"
+        ],
+        "轻微反对": [
+          "dehaene"
+        ],
+        "中立": [
+          "turing"
+        ]
+      }
+    },
+    {
+      "id": "p27",
+      "round": 3,
+      "thinker": "zhuangzi",
+      "reply_to": null,
+      "text": "诸君论辩终日：或曰壁在知之先，或曰壁在言之内，或曰壁可移而不可尽移。吾观之皆善。然人生实处，不待壁明而后可行。**知有涯而不以无涯苦之，是谓知止；知止则所余之力，可以游。** 为常人计者三：其一，日取一事，问之曰「此可解乎，抑当安之」；可解者尽力，当安者置之，勿以求解之心磨之。其二，学一技于手，不假口传——种花、烹饪、修物皆可，足以自知天下有不可言而可得者。其三，与不解之人、不解之事相处，如庖丁之遇牛，因其固然而行，不必尽解而后能游。**故曰：不知者，非人之陋，乃人之形也。**",
+      "text_en": "You have disputed all day: one says the wall stands before knowing begins, one says it stands inside language, one says it can be pushed but never all the way. To my eye you are all right. But the place where a life is actually lived does not wait for the wall to be located. **To know that one is bounded and yet refuse to be tormented by the boundless — that is knowing where to stop; and the strength stopping saves is what you have left over to wander with.** Three things for the ordinary person. First, take one matter each day and ask of it: is this to be understood, or to be settled with? Put your back into the first kind and leave the second alone, rather than grinding it with a mind bent on solving. Second, learn one craft that lives in the hands — grow something, cook, mend things — so that you know in your own body that there are things which cannot be spoken and can still be acquired. Third, deal with people and matters you cannot fathom as Cook Ding met his ox: follow the grain that is there, and do not wait for full comprehension before living freely. **So I say: not understanding is no defect in a human being. It is the shape of one.**",
+      "vernacular": "诸位争了一整天：有人说墙在认识之先就立着，有人说墙其实立在语言里面，有人说墙能推但推不尽。我看都有道理。可人真正过日子的地方，并不需要等墙的位置搞清楚了才能动。**知道自己有限，又不拿那个无限来折磨自己，这叫知止；知止之后省下来的力气，才够拿来自在地过。** 给普通人三条：第一，每天挑一件事问一句「这件事是能想明白的，还是只能安顿下来的」——能想明白的就使劲，只能安顿的就放着，别拿求解的心去磨它。第二，学一门要靠手的本事——种花、做饭、修东西都行，让自己亲身知道：世上确有说不出口却能学会的东西。第三，跟想不通的人和事相处，就像庖丁面对那头牛，顺着它本来的纹理走，不必等全懂了才活得自在。**所以我说：想不明白，不是人的浅陋，而是人的形状。**",
+      "vernacular_en": "",
+      "glossary": {
+        "知止": "knowing where to stop（知止）：不是不学，而是认清求知这件事本身也有分寸——知无涯而生有涯，用有限的力气去追无限，只会把精神耗光。知道在哪收手，剩下的力气才能用在与物相处、与人相安上，这就是「游」。"
+      },
+      "glossary_en": {
+        "knowing where to stop": "Not a refusal to learn, but a sense of proportion about learning itself — knowledge is boundless and a life is not, and spending finite strength chasing the infinite only burns the spirit out. Knowing where to break off leaves strength over for getting along with things and with people, which is what I mean by wandering."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "nagarjuna",
+          "wittgenstein"
+        ],
+        "轻微赞同": [
+          "bohr",
+          "kant"
+        ],
+        "中立": [
+          "dehaene",
+          "godel"
+        ],
+        "轻微反对": [
+          "hinton",
+          "turing"
+        ]
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "ai": "claude",
+      "engine": "Opus 5 · 订阅(原生)",
+      "engine_en": "Opus 5 · subscription (native)",
+      "summary": "没有人替「人无所不能」辩护，也没有人真正守住「有一片永远的黑暗」。**共识是：说天花板之前得先说清是谁的、在哪一层——先天形式、工作记忆容量、形式系统、传输带宽，这四种限制被混着谈时才显得笼罩一切。** 分歧分三路。界限的位置：康德说在经验的形式里、工具搬不走，德阿纳举盲人枕叶被听觉接管，说那也是可重分配的硬件。理解的标准：辛顿定义为压缩与预测，玻尔要求还能交代装置、条件与失效处，图灵拆成四条可测的能力。第三路釜底抽薪：维特根斯坦说多数不可解是语法的病，龙树连能知与所知的分立一并破掉，庄子把传不了当成人的形状。哥德尔给出唯一被证明的界限，又提醒它只属于每个固定系统。",
+      "summary_en": "No one defended the idea that humans can know everything, and no one truly held the line on a permanent darkness either. **The consensus: before invoking a ceiling you have to say whose it is and at which level — innate form, working-memory capacity, formal system, transmission bandwidth. Only when those four are talked about interchangeably does the limit look all-encompassing.** From there the argument forks three ways. On where the boundary lies: Kant places it in the forms of experience, which no instrument can carry away, while Dehaene answers with occipital cortex taken over by sound in the congenitally blind and with the Mundurukú experiments — hardware that experience reassigns. On the standard for understanding: Hinton defines it as compression and prediction, Bohr demands you also account for the apparatus, the conditions and the failure modes, and Turing breaks the dispute into four testable abilities. The third fork pulls the fire from under the pot: Wittgenstein calls most insolubility a sickness of grammar, Nāgārjuna dissolves the split between knower and known altogether, and Zhuangzi treats untransferability as the shape of a human being rather than a defect. Gödel supplies the one limit that has actually been proved, and reminds us it belongs to each fixed system.",
+      "insight": "微积分曾是欧洲最聪明的几个头脑站着的前沿，两百年后它是高中课程。**人类真正的认知单位从来不是一个人，而是一条跨代的压缩流水线**——这场争的全是个体的天花板，没人算过传承的速率。天花板当然存在，但它每一代都被重新校准，不是因为人变聪明了，而是因为上一代把混乱的探索压缩成了可教的形式。这也给辛顿的带宽论补上一笔：我们确实不能拷贝权重，可教科书是一条纵向的蒸馏通道，把天才级的洞见压成几周课程。机器眼下赢在横向复制，人赢在纵向压缩。所以更值得问的不是「人能懂到哪」，而是「一个新洞见要多久才能变成常识」。",
+      "insight_en": "Calculus was once the frontier where a few of the best minds in Europe were standing; two centuries later it is a secondary-school subject. **The real unit of human cognition has never been a person but a compression line running across generations** — and this debate argued only about the individual ceiling, never costing the rate of transmission. The ceiling is real, yet it is recalibrated every generation, not because people grew cleverer but because the previous generation compressed messy exploration into a teachable form. That adds something to Hinton's bandwidth argument: we cannot copy weights, but a textbook is a vertical distillation channel that squeezes a genius-level insight into a few weeks of lessons. Machines currently win on horizontal copying; humans win on vertical compression. So the question worth asking is less how far a person can understand than how long a new insight takes to become common sense.",
+      "advice": "从最不像功课的一件开始：本周挑一样你自认为懂的东西，用二十分钟讲给一个完全外行的人，再请他复述回来——他卡住的地方，通常就是你自己还没压缩干净的地方。第二件留给你早就放弃的那样东西（统计、乐器、外语）：把「我天生学不会」当成一个待证伪的假设，定四周、每天二十分钟的最小实验，到期看数据再下结论，别再凭印象判自己死刑。第三件今晚就能动笔：把那个你反复琢磨的「他到底怎么想」，换成「他这半年做过哪几件对我有影响的事」。**前一个问题永远收不到证据，后一个当晚就有第一行。**",
+      "advice_en": "Start with the item that least resembles homework: this week take something you believe you understand, explain it in twenty minutes to a complete outsider, and ask them to explain it back — wherever they stall is usually where your own compression is still unfinished. The second belongs to whatever you gave up on long ago (statistics, an instrument, a language): treat 'I have no head for this' as a hypothesis to be falsified, run a minimum experiment of twenty minutes a day for four weeks, and only draw the conclusion when the data are in, rather than sentencing yourself on an impression. The third you can begin tonight: take the 'what is he really thinking' you keep turning over and replace it with 'which things has he done in the past six months that affected me'. **The first question never receives evidence; the second has its first line by bedtime.**"
+    },
+    {
+      "ai": "gpt",
+      "engine": "openai · gpt-5.6-sol · high(真实API)",
+      "engine_en": "openai · gpt-5.6-sol · high (live API)",
+      "summary": "这场最大的共识，是别把一时的困惑直接封为人类永远的禁区：先检查问题是否问得通，再区分资料不足、脑力瓶颈、形式系统限制与无法由证据裁决的追问，并用符号、工具、实验和协作推进。**真正的分歧不在“有没有边界”，而在边界属于人脑、语言、经验形式、固定形式系统，还是只属于某项具体任务。**另一处分歧是“懂”的门槛：能预测和迁移是否已够，还是还须解释依据、适用条件与失败方式。较稳妥的结论是：严格的不可判定确实存在，但它不能自动推出某个具体问题、整个人类心灵或未来的集体智能永远无法理解。",
+      "insight": "“人类懂不懂”常被误写成一个人能否在脑中完整复述。现实知识通常是分布式的：医生、统计学家、仪器、数据库和规程各持一段，没有谁掌握全链。**理解更适合被看成一条可审计的能力链，而不是某颗头脑里的全有或全无状态。**链上至少要能说明输入来自哪里、哪一步由谁或什么工具完成、如何发现错误、何时升级给别人。这样一来，面对黑箱也不必在信或不信之间二选一：低风险处可凭实测采用，高风险处则要求独立复核、持续监测与退出机制。普通人真正需要的，往往不是攻克终极不可知，而是让局部无知不至于演变成整体失控。",
+      "advice": "今天先做一张“问题分诊卡”：①把困扰写成一句可检验的话，并标为事实问题、概念问题，或必须决策但证据不足的问题；前两类查证或改写，第三类设截止时间。②选一个自认懂的判断，写下预测、依据、适用条件和一个可能推翻它的观察；缺哪项就补哪项，不再空转。③对医疗、金钱、法律等高风险建议实行双重保险：找独立来源复核，先做小规模、可逆的尝试，并预设停止条件。**目标不是等到百分之百想明白才行动，而是在已知边界内，让行动可检验、可纠错、可退出。**本周末再复盘哪些问题已解决，哪些只该暂时安置。",
+      "summary_en": "The strongest point of agreement is that present confusion should not be promoted into an eternal prohibition on human knowledge. First ask whether the question is well formed; then distinguish missing evidence, cognitive bottlenecks, limits of formal systems, and questions that no observation could settle. Symbols, experiments, software, and cooperation can move many practical limits. **The real disagreement is not whether limits exist, but whether a given limit belongs to the brain, language, the structure of experience, a fixed formal system, or merely the current task.** A second dispute concerns the standard for understanding: are prediction and transfer enough, or must one also explain the evidence, scope, and failure modes? A balanced conclusion is that rigorous undecidability results are real, yet they do not by themselves prove that a particular case, the human mind as a whole, or future collective intelligence must remain forever incapable of understanding.",
+      "insight_en": "Whether humanity understands something is too often reduced to whether one person can reproduce it completely in their head. In practice, knowledge is distributed: clinicians, statisticians, instruments, databases, and procedures each hold part of the chain, while no participant sees all of it. **Understanding is better treated as an auditable chain of capabilities than as an all-or-nothing state inside one mind.** At minimum, the chain should reveal where inputs came from, which person or tool performed each step, how errors can be detected, and when a case must be escalated. This also avoids a false choice between trusting and rejecting an opaque system. Measured performance may justify low-risk use; high-risk use requires independent checks, monitoring, and a way to stop. For ordinary life, the urgent challenge is rarely to conquer ultimate unknowability. It is to design decisions so that partial understanding and local ignorance cannot become catastrophic single points of failure.",
+      "advice_en": "Make a one-page question triage card today. First, rewrite the concern as a testable sentence and label it as a factual question, a conceptual problem, or a decision that must be made despite insufficient evidence. Investigate the first, reframe the second, and give the third a deadline. Second, choose one belief you think you understand and write down its prediction, evidence, conditions of validity, and one observation that would overturn it. Fill the missing field instead of thinking in circles. Third, use two safeguards for high-stakes medical, financial, or legal advice: seek an independent check, then begin with a small reversible step and a predefined stopping rule. **The goal is not to wait for complete understanding, but to make action testable, correctable, and reversible within the limits you already know.** At the end of the week, review which questions were answered, which were merely reworded, and which should be deliberately set aside."
+    },
+    {
+      "ai": "gemini",
+      "engine": "google · gemini-3.8-flash(真实API)",
+      "engine_en": "google · gemini-3.8-flash (live API)",
+      "summary": "全场最大的共识在于：**人类认知的边界并非不可逾越的实体高墙，而是由生物硬件、符号工具与提问方式共同塑形的动态结构。** 无论是神经瓶颈的向外转移、形式系统的公理升级，还是对语言病句的消解，众人皆承认「不可知」往往是情境化的产物。真正的分歧在于界限的本质与消除方式：经验主义派（德阿纳、图灵、辛顿）坚信限制属于算力、带宽与工具，可经由外部表征和工程测试逐步推移；先验与形式派（康德、哥德尔、维特根斯坦）则坚持存在逻辑与结构上的绝对界限，认为越界的追问不仅无解，甚至在语法与形式上本就无意义。",
+      "insight": "谈人类认知的界限时，大家往往把世界当成一道等着被破译的静态谜题，忽略了一件事：**很多复杂系统会在你试图理解并介入它的那一刻，主动改变自己。** 金融市场、组织文化、亲密关系都属于这类有反身性的领域——理解在这里不是拍一张快照，而是一场互动的演出：一旦有人采纳某个心智模型并据此行动，系统底层的动力学随之偏移，先前那份清晰当场失效。对普通人来说，那种挥之不去的困惑感，很少来自生物学上的天花板，而是来自置身一个自适应的环境：目标之所以在动，恰恰因为它正被观察、被干预。",
+      "advice": "本周可以做三件具体的事。第一，**写下失效条件**：借图灵与玻尔的做法，挑出你工作流程或投资策略里的一条核心假设，写出三个能证明它错的具体信号；写不出来，就把它当成尚未验证的直觉。第二，**用可操作的翻译拆掉二律背反**：照康德与维特根斯坦的路子，把「我这辈子算不算成功」这类让人瘫住的形而上问题，换成能核对的问句，比如「这个月我兑现了哪几项承诺、又放掉了哪几项」。第三，**把工作记忆搬到外面**：任何超过三步的问题都画到纸上，绕开德阿纳指出的神经带宽瓶颈。",
+      "summary_en": "The central consensus of the debate is that **the boundary of human cognition is not a rigid monolith, but an evolving structure shaped by biological hardware, symbolic tools, and linguistic habits.** Whether through offloading cognitive bottlenecks, adding axioms to formal systems, or dissolving grammatical illusions, all agree that the \"unknowable\" is highly contextual. The real fault line lies in the permanence and nature of these limits: empirical thinkers (Dehaene, Turing, Hinton) view ceilings as operational deficits in bandwidth or representation waiting to be pushed back, while structural thinkers (Kant, Gödel, Wittgenstein) argue for absolute, principled horizons beyond which questions either violate logical consistency or dissolve into meaningless noise.",
+      "insight_en": "Discussions of human cognitive limits often treat the world as a static puzzle awaiting decryption, overlooking the fact that **many complex systems actively mutate the moment we attempt to understand and engage them.** In reflexive realms like financial markets, organizational cultures, or intimate relationships, comprehension is an interactive performance rather than a passive snapshot: the moment an actor adopts a mental model and acts, the system shifts its underlying dynamics, invalidating the previous clarity. For ordinary people, the persistent feeling of bewilderment rarely stems from biological ceilings, but from navigating an adaptive environment where the target moves precisely because it is being observed and intervened upon.",
+      "advice_en": "Take these concrete actions this week: First, **write out failure conditions**. Borrowing from Turing and Bohr, pick a core assumption in your workflow or investment strategy and document three specific signals that would prove it wrong; if you cannot, treat it as unverified intuition. Second, **defang antinomies through operational translation**. Following Kant and Wittgenstein, convert paralyzing metaphysical questions like \"Is my life successful?\" into audit-ready queries such as \"Which concrete commitments did I fulfill or drop this month?\" Finally, **externalize your working memory**. For any issue requiring more than three steps, draw it on paper to bypass the neural bandwidth bottlenecks highlighted by Dehaene."
+    }
+  ],
+  "hooks": [
+    {
+      "from": "turing",
+      "text": "**怎么分辨「暂时不懂」与「原则上不可懂」**：这场吵了三轮，多半是因为大家把好几种卡住混成了一种。同一个「想不明白」，可能是事实还没收齐，可能是问法本身坏了，可能是你会算却说不出为什么，也可能是被证明了根本没有通解。判成哪一类，下一步该做的事完全不同——认错类别，力气就白花了。",
+      "text_en": "**How to tell 'not understood yet' from 'unintelligible in principle'**: three rounds of argument here, largely because several different kinds of being stuck got treated as one. The same sensation of not understanding may mean the facts are not in, or the question is malformed, or you can compute without being able to say why, or that no general solution provably exists. Which class it falls into decides what to do next — misclassify it and the effort is wasted.",
+      "answer": {
+        "lead": "把卡住的**症状**当入口，比争论「人类有没有天花板」有用得多。下面这张表按你实际感受到的样子分类，每一类配一个动作。",
+        "table": {
+          "head": [
+            "卡住的样子",
+            "多半属于哪一类",
+            "下一步做什么"
+          ],
+          "rows": [
+            [
+              "换个说法、画张图就通了",
+              "表述问题，不是认知问题",
+              "先换记法、画结构、举三个具体例子"
+            ],
+            [
+              "证据能收集，只是还没去收",
+              "暂时不懂",
+              "去测量、去查文献、找真正做过的人问"
+            ],
+            [
+              "正反两边都能自圆其说，再多事实也不动摇",
+              "二律背反式的伪问题",
+              "改写成一个经验能回答的问题（把「他爱不爱我」换成「这半年他到场几次」）"
+            ],
+            [
+              "你能算对，却说不出它为什么对、何时会错",
+              "会算而未懂",
+              "补玻尔三问：依据哪些观测、什么条件下失效、换个安排还成立吗"
+            ],
+            [
+              "已被证明对一切情形无统一解法",
+              "已证的不可判定",
+              "放弃通解，改为逐例处理，并接受这一类永远没有万能公式"
+            ],
+            [
+              "想通了也不会改变你的行动，且伴随强烈情绪",
+              "情绪伪装成认知问题",
+              "别求解，去安顿：睡眠、运动、找人说；答案不是出口"
+            ]
+          ]
+        },
+        "tail": "两条原则。**先判类别，再投入力气**——绝大多数长期的痛苦，是把第三类和第六类当成第二类在硬啃。另外，类别会变：今天的「暂时不懂」可能明天被一件工具推翻，所以每隔一阵回头重判一次，别把一次判断当成终身结论。"
+      },
+      "answer_en": {
+        "lead": "Entering through the **symptom** of being stuck is far more useful than arguing whether humanity has a ceiling. The table sorts by what it actually feels like, and gives each kind one move.",
+        "table": {
+          "head": [
+            "What being stuck feels like",
+            "Which kind it probably is",
+            "What to do next"
+          ],
+          "rows": [
+            [
+              "Rephrasing it or sketching it makes it clear",
+              "A problem of expression, not of cognition",
+              "Change notation, draw the structure, work three concrete examples"
+            ],
+            [
+              "Evidence could be gathered; you have not gathered it",
+              "Not understood yet",
+              "Measure, read, and ask someone who has actually done it"
+            ],
+            [
+              "Both sides argue soundly and more facts change nothing",
+              "A pseudo-question of the antinomy type",
+              "Rewrite it so experience can answer: for 'does he love me', 'how many times was he there in six months'"
+            ],
+            [
+              "You get the right answer but cannot say why or when it breaks",
+              "Computing without understanding",
+              "Add Bohr's three: which observations, under what conditions it fails, does it hold if the arrangement changes"
+            ],
+            [
+              "Proved to admit no uniform solution for all cases",
+              "Proven undecidability",
+              "Give up the general solution, work case by case, and accept that no universal formula is coming"
+            ],
+            [
+              "Resolving it would not change what you do, and it comes with strong feeling",
+              "Emotion wearing the costume of a question",
+              "Do not solve; settle. Sleep, exercise, talk to someone — the answer is not the exit"
+            ]
+          ]
+        },
+        "tail": "Two principles. **Classify before you spend effort** — most long-running suffering comes from attacking kinds three and six as though they were kind two. And the classification moves: today's 'not understood yet' can be overturned tomorrow by one instrument, so revisit the call periodically instead of treating one verdict as final."
+      }
+    },
+    {
+      "from": "gpt",
+      "text": "**没人完整理解的东西，责任怎么分**：没有任何一个人懂一部手机、一次开庭或一支疫苗，我们靠的是理解的分工。那么当一个系统里已经不存在「完整理解它的人」，出了事该由谁负责——设计者、部署者、还是最后那个点头的人？这条链条比认知天花板更贴近我们每天真实面对的处境。",
+      "text_en": "**When nobody fully understands it, how is responsibility divided**: no single person understands a phone, a trial, or a vaccine; we run on a division of comprehension. So when a system no longer has anyone who understands it whole, who answers when it fails — the designer, the deployer, or the last person who nodded it through? That chain sits closer to what we face daily than any cognitive ceiling does."
+    },
+    {
+      "from": "gpt",
+      "text": "**理解是有成本的**：全场默认懂得越多越好，可临床决策与飞行自动化里都有反例——过度追问机制会拖慢反应、降低表现。有没有一类事，是想明白了反而更难过、或更做不好的？如果有，该怎么判断哪些地方值得深挖，哪些地方该学会照着做就行。",
+      "text_en": "**Understanding has a cost**: everyone here assumed more of it is better, yet clinical decision-making and flight automation both supply counterexamples, where interrogating the mechanism slows the response and degrades performance. Is there a class of things that get harder, or feel worse, once you understand them? If so, how do you decide where to dig and where to simply learn the procedure and run it?"
+    },
+    {
+      "from": "gemini",
+      "text": "**最常见的墙在人与人之间**：慢性疼痛的人与健康的家人、经历过战乱的父母与在和平里长大的孩子——这类不可通约每天都在发生，比人类与超级智能的落差真实得多。有意思的是，跨过它靠的不是符号、仪器或更多数据，而是共同经历与时间。那么「理解另一个人」到底是不是一种知识？",
+      "text_en": "**The commonest wall runs between two people**: someone in chronic pain and their healthy relatives, parents who lived through a war and children raised in peace — incommensurability of this kind happens daily and is far more real than any gap between us and a superintelligence. What is striking is that crossing it depends not on notation, instruments or more data but on shared experience and time. So is understanding another person a form of knowledge at all?"
+    },
+    {
+      "from": "dehaene",
+      "text": "**「我天生学不会」该由谁举证**：宣布某种理解不可能的一方，本该拿出证据；可在教育与自我评价里，这句话通常不加证明就被接受了，然后它自己变成真的。一个孩子在几岁上被判定「没有数学脑子」，与他后来实际能达到的水平之间，究竟有多少是预言的自我实现？",
+      "text_en": "**Who bears the burden on 'I have no head for this'**: whoever declares a kind of understanding impossible ought to produce the evidence, yet in education and in self-assessment the claim is usually accepted unproved and then makes itself true. Between the age at which a child is judged to have no head for mathematics and the level they in fact reach, how much is self-fulfilling prophecy?"
+    },
+    {
+      "from": "zhuangzi",
+      "text": "**说不出口却能学会的东西**：轮扁的手上功夫传不出去，庖丁顺着纹理走也不靠讲解。当越来越多的技艺被写成流程、拆成教程、交给模型，这一类只能在身体里长出来的知识还剩多少地位？失去它，我们失去的是效率，还是别的什么？",
+      "text_en": "**What cannot be said and can still be learned**: Wheelwright Bian could not hand on what lived in his hands, and Cook Ding followed the grain without explaining it. As more and more skills get written into procedures, broken into tutorials and handed to models, how much room is left for knowledge that can only grow in a body? And in losing it, do we lose efficiency, or something else?"
+    },
+    {
+      "from": "claude",
+      "text": "**天花板是按代校准的**：微积分曾是几个最聪明的头脑站着的前沿，两百年后成了高中课程——人类真正的认知单位不是一个人，而是一条跨代的压缩流水线。机器赢在横向复制，人赢在纵向把混乱的探索压成可教的形式。那么「一个新洞见要多久才能变成常识」，这个压缩率由什么决定？又能不能被有意识地提高？",
+      "text_en": "**The ceiling is recalibrated every generation**: calculus was once the frontier where a few of the best minds stood, and two centuries later it is a secondary-school subject — the real unit of human cognition is not a person but a compression line running across generations. Machines win on horizontal copying; humans win on compressing messy exploration into a teachable form. So what sets the rate at which a new insight becomes common sense, and can that rate be raised on purpose?"
+    }
+  ]
+}

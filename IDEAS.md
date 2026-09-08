@@ -154,6 +154,7 @@
 - [ ] 没共同经历的人，还能互相理解吗？  <!--beyond-shared-experience-->
 - [ ] 一旦拿来考核，好指标就坏了吗？  <!--measure-becomes-target-->
 - [ ] 平台和雇主的规矩，凭什么算数？  <!--private-rulemakers-->
+- [ ] 审慎是行动的敌人吗？  <!--deliberation-vs-action-->
 
 ---
 

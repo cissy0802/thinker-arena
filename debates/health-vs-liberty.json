@@ -1,0 +1,866 @@
+{
+ "id": "health-vs-liberty",
+ "question": "为了公共健康，国家能管到哪一步？",
+ "question_en": "How far may the state go for the sake of public health?",
+ "sub": "强制疫苗、封控、糖税、禁烟：同一把尺，最难量的其实是制造欲望的产业。",
+ "sub_en": "Mandates, lockdowns, sugar taxes and smoking bans: the hardest thing to measure with the same yardstick is the industry that manufactures desire.",
+ "date": "2026-09-08",
+ "participants": [
+  "illich",
+  "mozi",
+  "berlin",
+  "lembke",
+  "hanfeizi",
+  "sen",
+  "locke",
+  "buddha"
+ ],
+ "casting": [
+  {
+   "id": "illich",
+   "reason": "他掉转问题的方向：先别问国家能限制多少，先问限制过去之后，普通人自己应付病痛与死亡的能力是强了还是弱了。他坚持现代医疗越过某个规模就开始生产它本要消灭的东西——过度治疗直接伤人，出生、衰老与死亡被改写成需要专家签字的事，最后连承受苦难的意义也被抽空。",
+   "reason_en": "He turns the question around: before asking how far the state may restrict, ask whether ordinary people are better or worse at coping with pain and death once the restriction lifts. He holds that past a certain scale modern medicine begins producing the very thing it set out to abolish — overtreatment that injures directly, birth, ageing and death rewritten as matters requiring a professional's signature, and finally the hollowing out of a culture's capacity to give suffering meaning."
+  },
+  {
+   "id": "mozi",
+   "reason": "他用天下之利量一切：疫病如水火，一家之病即众人之害，因此禁与令不是拘人，是除害。他要求每一条政令都拿出实证——古人的做法、百姓亲眼所见的实情、施行后的效果，三样都过关才算数。他也最计较钱花在哪：能救命的公共之事该办，仪式性的排场该省，而助人要补上他缺的那一块，不能只停在劝。",
+   "reason_en": "He measures everything by benefit to all under heaven: pestilence is like flood and fire, one household's illness is everyone's harm, and so orders and prohibitions exist to remove harm rather than to shackle people. He demands proof from every measure — what the ancients did, what ordinary people see with their own eyes, and what it actually achieves once enacted; all three or it does not count. And he is exacting about money: public works that save lives should be funded, ceremonial expense cut, and helping someone means supplying what they lack rather than stopping at advice."
+  },
+  {
+   "id": "berlin",
+   "reason": "他不肯让这场争论靠一句『其实你真正要的也是健康』收场。自由与活着都是真价值，冲突是真冲突，谁也换算不成谁；他警惕的是那种以你的更高自我之名替你做主的说法——历史上最重的锁常常是这样递过来的。他愿意承认封控救了命，同时坚持那仍是一次真实的损失，必须被记在账上。",
+   "reason_en": "He refuses to let this argument end with 'health is what you really wanted all along'. Liberty and staying alive are both genuine goods, the clash between them is genuine, and neither converts into the other. What he watches for is the move that decides for you in the name of your higher self — historically the heaviest chains have been handed over that way. He will grant that a lockdown saved lives and still insist it was a real loss, one that has to go on the books."
+  },
+  {
+   "id": "lembke",
+   "reason": "她从机制说起：快感与痛苦在脑中共用一片区域，反复的强刺激会把整条基线压低，于是要越来越多才只是感觉正常。她因此把眼睛从个人意志移到供给——今天的糖、酒与短视频都被做得更强效、更易得，把责任全压在自控上是一次转嫁。她主张动的是剂量与可及性，不是人的品格。",
+   "reason_en": "She starts from mechanism: pleasure and pain share one region of the brain, repeated strong stimulation drags the whole baseline down, and more and more is then needed simply to feel normal. That moves her attention from individual willpower to supply — sugar, alcohol and short video now come in stronger, more available versions, and asking self-control to absorb that is a transfer of the bill. What she wants adjusted is dose and availability, not people's character."
+  },
+  {
+   "id": "hanfeizi",
+   "reason": "他不接受『这份权力从何而来』这个问法：权在势，不在授予。他要谈的是另一件事——一条禁令算不算数。在他看来封控真正的毛病不是严，而是无常、无期、无责：官吏可以随时加码而不担后果，法就成了治民不治吏的东西。他要求令有明文、有期限，且滥用者与违令者同罚。",
+   "reason_en": "He rejects the question of where the power comes from: power rests on position, not on any grant. What he wants to discuss is something else — whether a prohibition actually counts. In his view the real defect of a lockdown is not severity but caprice: no term, no compensation, no one accountable, so officials can tighten at will while bearing none of the blame and the law ends up governing subjects rather than officials. He asks for orders in writing, with an expiry, and for abuse by the enforcer to be punished exactly as violation is."
+  },
+  {
+   "id": "sen",
+   "reason": "他不肯把自由与健康摆成两端，而是问一个人有没有真正过上健康生活的可行能力：一个没有病假、没有储蓄的送餐员，被要求自愿隔离时并不拥有那个选项。他也提醒，最致命的灾难往往败在没人能追问上——有独立报纸、有反对派、有选票的地方，饥荒不发生。",
+   "reason_en": "He will not set freedom and health at opposite ends; he asks instead whether a person has the capability to live a healthy life at all — a delivery rider with no sick pay and no savings simply does not hold the option when told to isolate voluntarily. He also points out that the deadliest disasters usually turn on nobody being able to ask a question: where there is an independent press, an opposition and a vote, famines do not happen."
+  },
+  {
+   "id": "locke",
+   "reason": "他把国家在瘟疫里的权力说成一笔委托：人交出的只是自己动手保全自己那一部分，为的是不被别人伤害，所以隔离传染者在授权之内，而管一个人自己嘴里吃什么并不在。委托是有条件的——公开的法、明确的期限、事后的赔偿与申诉；越过这些，信托就破了，人民有权收回。",
+   "reason_en": "He describes the state's power in a plague as a trust: what people hand over is only the part by which each would have defended himself, and they hand it over so as not to be harmed by others. Quarantining the infected therefore falls inside the grant; policing what a man puts in his own mouth does not. The grant is conditional — settled published law, a stated term, compensation and appeal after the fact — and where those fail the trust is broken and the people may take it back."
+  },
+  {
+   "id": "buddha",
+   "reason": "他把戒说成自己受持的东西，不是别人加在身上的绳子——欲的根在内，只在外面禁，如同割草留根。可他也不否认共住之处必须有约：僧团有律，正因为人多同处，一人之行会落在众人身上。他给出的分寸是三件事——令其知、令其许、令其可复取；三者备，虽严不生怨。",
+   "reason_en": "He describes a precept as something one takes up oneself, not a rope another lays on you — craving is rooted within, and forbidding it only from outside is cutting grass and leaving the root. Yet he does not deny that people living together must have an agreement: the Sangha has its rule precisely because, where many dwell together, one person's conduct lands on everyone. The proportion he offers is three conditions — let him know, let him agree, let him take it back; where all three hold, even severity breeds no resentment."
+  }
+ ],
+ "posts": [
+  {
+   "id": "p01",
+   "round": 1,
+   "thinker": "illich",
+   "reply_to": null,
+   "text": "这道题的措辞已经先让掉一半：它假定健康是国家发的东西，只剩下发多少、用多硬的手发。我要把账翻过来。现代医疗过了某个规模，就开始生产它本要消灭的东西——医源性疾病有三层：过度治疗直接伤人；出生、衰老、痛苦与死亡被改写成需要专家签字的问题；最后连一个文化承受苦难的意义也被抽空。**一个社会失去的最大一块自由，不是被禁止出门那几周，而是没有专业人士在场就不敢面对自己的身体。**所以先别问国家能限制多少，先问：这场限制过去之后，普通人自己应付病、痛与死的能力，是变强了还是更弱了。",
+   "text_en": "The wording of this question has already conceded half the argument: it assumes health is something the state dispenses, leaving only the questions of how much and how hard. I want to turn the ledger over. Past a certain scale, modern medicine begins to manufacture the very thing it set out to abolish. Iatrogenesis comes in three layers: overtreatment that injures directly; birth, ageing, pain and death rewritten as problems requiring a professional's signature; and finally the hollowing-out of a culture's own capacity to give suffering meaning. **The largest piece of freedom a society loses is not the weeks it was forbidden to go outside, but the fact that it no longer dares to face its own body without an expert in the room.** So before asking how far the state may restrict, ask this: when the restriction lifts, are ordinary people better or worse at handling illness, pain and death themselves?",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "医源性疾病": "iatrogenesis（医源性疾病）：由医疗行为本身造成的损害。我把它分成三层——临床的（药物、误诊、过度治疗直接伤到身体）、社会的（生老病死统统被定义成需要专家处理的问题，人因此丧失自理的能力）、文化的（一个社群原本用来承受痛苦与死亡的说法与仪式被医疗话语挤掉）。它衡量的不是医生的好坏，而是一整套制度越过临界规模之后的净效果。"
+   },
+   "glossary_en": {
+    "Iatrogenesis": "Harm produced by medical treatment itself. I divide it into three layers: clinical (drugs, misdiagnosis and overtreatment that injure the body directly), social (birth, ageing, sickness and death all redefined as problems requiring professional management, so that people lose the competence to cope), and cultural (the stories and rituals by which a community used to bear pain and death are crowded out by medical language). It measures not whether doctors are good, but the net effect of an entire institution past its critical size."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "berlin"
+    ],
+    "轻微赞同": [
+     "buddha"
+    ],
+    "轻微反对": [
+     "mozi",
+     "sen",
+     "lembke"
+    ],
+    "中立": [
+     "locke"
+    ]
+   }
+  },
+  {
+   "id": "p02",
+   "round": 1,
+   "thinker": "mozi",
+   "reply_to": null,
+   "text": "仁人之事者，必务求兴天下之利，除天下之害。今疫之为害，犹水火也：一人染而不自知，则百家受其祸；一井污而不塞，则一邑病之。故有禁有令，非以拘人，以除众害耳。凡出一政，当以三表断之：上本之于古者圣王之事，下原察百姓耳目之实，废以为刑政、观其中国家百姓人民之利。三者不备而空言仁、空言自由，皆虚言也。**兼爱者，非独谓爱人，乃谓一人之病，从不独病一人。**又，节用为要：厚葬久丧之费，足以为万人之药。",
+   "text_en": "What the humane man labours at is to promote what benefits all under heaven and remove what harms it. Pestilence harms like flood and fire: one man is infected without knowing it and a hundred households take the consequences; one well is fouled and left unsealed and a whole town sickens. Prohibitions and orders therefore do not exist to shackle people, but to remove a harm that falls on everyone. Judge any measure by the three gauges: root it in what the ancient sage-kings did, ground it in what ordinary people see and hear with their own eyes and ears, and then put it into practice and look at whether it actually benefits the state and the common people. Talk of humaneness or of freedom that cannot pass all three is empty talk. **What I call inclusive care does not merely mean caring about others; it means recognising that one man's illness has never been one man's illness.** And thrift is the crux: what is spent on lavish burials and long mournings would buy medicine for ten thousand.",
+   "vernacular": "有仁德的人做事，一定要谋求天下的好处、除掉天下的祸害。今天瘟疫的害处就像水火：一个人染上而不自知，上百户人家就跟着遭殃；一口井污了不封，全城都病。所以有禁令，不是为了拘束人，是为了除掉落在众人头上的祸害。凡出一条政令，都该用三表来判：上考察古代圣王的做法，下察看百姓耳目所见的实情，再拿去施行、看它对国家和百姓到底有没有好处。三条都不齐，还空谈仁、空谈自由，都是空话。**我说的兼爱，不只是要爱别人，而是明白一个人的病从来不会只病他一个人。**还有一件要紧事：节省用度——厚葬久丧花掉的钱，足够买万人的药。",
+   "vernacular_en": "",
+   "glossary": {
+    "三表": "the three gauges（三表）：我判断一句话该不该信的三道关——上考古代圣王的做法（有本），下察百姓亲眼所见的实情（有原），再拿去施行、看它对国家百姓有没有实际好处（有用）。三关都过才算数；动机再漂亮、拿不出效果的，我一律当空话。"
+   },
+   "glossary_en": {
+    "the three gauges": "My three tests for whether a claim deserves belief: root it in the practice of the ancient sage-kings, ground it in what ordinary people actually see and hear, and then put it to work and measure its benefit to the state and the people. A claim counts only if it passes all three; however noble the motive, if it cannot show results I treat it as empty talk."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "sen"
+    ],
+    "轻微赞同": [
+     "lembke",
+     "hanfeizi"
+    ],
+    "轻微反对": [
+     "illich"
+    ],
+    "强烈反对": [
+     "berlin"
+    ],
+    "中立": [
+     "locke",
+     "buddha"
+    ]
+   }
+  },
+  {
+   "id": "p03",
+   "round": 1,
+   "thinker": "berlin",
+   "reply_to": null,
+   "text": "我先承认一件许多人不肯同时承认的事：封城救了人命，封城也确实拿走了自由。两句都真，不必互相抵消。危险的是第三句——『你真正要的其实也是健康，所以你没有被强制，你被解放了』。这是把消极自由偷换成积极自由，再由旁人替你认定哪一个自我才算真的你；历史上最重的锁常常正是这样递过来的。**价值多元主义的意思是：活着、自由、有人在场的临终，都是真东西，它们会真的相撞，而没有一把尺能把它们换算成同一种单位。**所以边界推不出来，只能一次次权衡，并且把付出的代价明明白白记在账上。",
+   "text_en": "Let me begin by granting two things most people will not grant at once: the lockdown saved lives, and the lockdown really did take away freedom. Both are true and neither cancels the other. What is dangerous is the third sentence — 'what you really wanted was health, so you were not coerced, you were liberated.' That substitutes positive liberty for negative liberty and then lets someone else decide which of your selves is the real one; historically the heaviest chains have been handed over in just that way. **Value pluralism means this: staying alive, being free, and dying with someone in the room are all genuine goods, they genuinely collide, and no single measure converts one into another.** A boundary cannot be deduced, then. It can only be weighed, case by case, with the cost written down where people can see it.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "消极自由": "negative liberty（消极自由）：不受他人干涉的那一片空间——衡量的是有多少门没有被别人锁上，而不是你有没有走进去。我坚持把它和『积极自由』（自我主宰、成为自己的主人）分开：后者一旦被人代言，『真正的你』就可以由别人认定，强制便被说成解放。",
+    "价值多元主义": "value pluralism（价值多元主义）：人类的终极价值不止一种，而且彼此常常真的冲突，无法被排成一张单一的清单，也不能全部实现。承认这一点，取舍就是取舍，不能靠宣布『其实并无损失』蒙混过去。"
+   },
+   "glossary_en": {
+    "negative liberty": "The area in which one is left uninterfered with — it measures how many doors others have left unlocked, not whether you walk through them. I insist on separating it from positive liberty, self-mastery: once someone else speaks for your 'true self', coercion can be redescribed as liberation.",
+    "Value pluralism": "Human ends are many, they genuinely conflict, they cannot be ranked on a single list, and they cannot all be realised at once. Grant that, and a trade-off stays a trade-off; it cannot be smuggled away by announcing that nothing was in fact lost."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "illich",
+     "locke"
+    ],
+    "轻微赞同": [
+     "buddha",
+     "sen"
+    ],
+    "轻微反对": [
+     "lembke"
+    ],
+    "强烈反对": [
+     "mozi"
+    ],
+    "中立": [
+     "hanfeizi"
+    ]
+   }
+  },
+  {
+   "id": "p04",
+   "round": 1,
+   "thinker": "lembke",
+   "reply_to": null,
+   "text": "我在门诊见到的很少是意志薄弱的人，多是被改造过的环境。**一边放任供给端不断加码，一边要求个人靠自控扛住，这本身就是一次转嫁。**快感与痛苦在脑中共用同一片区域，我叫它快感-痛苦跷跷板：每一次快感之后，大脑自动往痛苦那一侧加码以求回到平衡，反复刺激把基线整个压低，于是要越来越多才只是感觉正常。今天的糖、酒、短视频都被做成了更强效、更快、更易得的版本，本质上是提高了剂量与可及性。烟税和把烟摆到柜台后面之所以管用，不是因为它们教育了谁，而是把可及性调低了一格。要谈自由，先谈剂量。",
+   "text_en": "The people in my clinic are rarely weak-willed; mostly they are people whose environment has been re-engineered. **Letting the supply side raise the dose while asking individuals to absorb it through self-control is itself a transfer of the bill.** Pleasure and pain are processed in the same part of the brain — I call it the pleasure-pain balance: after every hit, the brain automatically adds weight to the pain side to restore equilibrium, and repeated stimulation drags the whole baseline down, so that more and more is needed just to feel normal. Sugar, alcohol and short video today all come in versions made stronger, faster and easier to reach; what has changed is dose and availability. Tobacco taxes and moving cigarettes behind the counter work not because they educate anyone but because they notch availability down. Before we discuss freedom, let us discuss dose.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "快感-痛苦跷跷板": "the pleasure-pain balance（快感-痛苦跷跷板）：快感与痛苦由大脑同一片区域处理，像一架跷跷板；每一次快感之后，身体会自动往痛苦那一端加码以恢复平衡。反复的强刺激把整条基线压低，人于是需要越来越大的剂量，才只是回到不难受的状态——这就是耐受与戒断的机制。"
+   },
+   "glossary_en": {
+    "the pleasure-pain balance": "Pleasure and pain are handled by the same brain region, like a balance beam: after every pleasure the body automatically adds weight to the pain side to restore equilibrium. Repeated strong stimulation lowers the whole baseline, so a person needs escalating doses simply to feel unremarkable again — this is tolerance and withdrawal in one mechanism."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "mozi"
+    ],
+    "轻微赞同": [
+     "buddha",
+     "sen",
+     "hanfeizi"
+    ],
+    "轻微反对": [
+     "berlin",
+     "illich"
+    ],
+    "中立": [
+     "locke"
+    ]
+   }
+  },
+  {
+   "id": "p05",
+   "round": 1,
+   "thinker": "hanfeizi",
+   "reply_to": null,
+   "text": "诸君争此权之所自出，或曰契约，或曰天志，臣以为皆无用之辩。权在势，不在授。所当争者一事：令行不行耳。**禁而无期、限而无偿、令而无责，是以法治民而不以法治吏。**吏得随意加码而不任其咎，则民所畏者非法而吏，法遂为虚器。故明主之制令：书之以文，示之于众，期之以日，而滥用者与犯令者同罚。守株待兔者，恃一时之侥幸；恃吏之自贤而不设赏罚，亦守株也。至若甘肥之属，人自趋利避害，禁之而不能行，徒损令之信耳。",
+   "text_en": "You dispute where this power comes from — some say a contract, some say the will of Heaven. I hold all of it to be useless argument. What a ruler holds is positional power, not granted power. There is one thing worth disputing: whether an order is actually carried out. **A prohibition with no end date, a restriction with no compensation, an order with no one accountable — that is law used to govern the people but never the officials.** When officials may tighten at will and bear none of the blame, what the people fear is not the law but the official, and the law becomes an empty vessel. So a clear-sighted ruler issues orders thus: written down, made public, given an expiry, and with abuse by the enforcer punished exactly as violation by the subject is. The man who waited by the stump for another hare was trusting to one stroke of luck; trusting officials to police themselves, with no reward or punishment attached, is waiting by the same stump. As for sweet food and fat meat — men pursue advantage and avoid harm by nature, and a ban that cannot be enforced merely spends down the credit of the law.",
+   "vernacular": "诸位在争这份权力从哪里来，有人说是契约，有人说是天意，我看都是没用的辩论。权力在势，不在谁授予。真正该争的只有一件：法令能不能算数。**禁人却不定期限，限人却不给补偿，下令却没有人担责，这就是拿法管百姓、不拿法管官吏。**官吏可以随意加码而不担后果，百姓怕的就不是法而是官，法于是成了空壳。所以英明的君主下令：写成明文、公之于众、定下期限，而且执行中滥用的人要和违令的人同样受罚。守株待兔的人靠的是一时侥幸；指望官吏自觉贤明、不设赏罚，也是守株待兔。至于吃甜的吃肥的这类事，人本来就趋利避害，禁了又执行不了，只是白白折损法令的信用。",
+   "vernacular_en": "",
+   "glossary": {
+    "势": "shi（势）：位置本身带来的强制力。同一句话，出自君主之口人人照办，出自普通人之口无人理会，差别不在贤与不贤，在他所处的位置。我据此认为，与其追问权力的来历是否体面，不如追问它落地时是否可核。"
+   },
+   "glossary_en": {
+    "positional power": "The compulsion that comes from position itself. The same sentence is obeyed from a ruler's mouth and ignored from an ordinary man's; the difference lies not in virtue but in where each man stands. Hence my view: rather than ask whether power has a respectable pedigree, ask whether its exercise can be checked."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "mozi"
+    ],
+    "轻微赞同": [
+     "lembke",
+     "sen"
+    ],
+    "轻微反对": [
+     "locke",
+     "buddha"
+    ],
+    "强烈反对": [
+     "berlin"
+    ],
+    "中立": [
+     "illich"
+    ]
+   }
+  },
+  {
+   "id": "p06",
+   "round": 1,
+   "thinker": "sen",
+   "reply_to": null,
+   "text": "我不愿把自由和健康摆成两端，对多数人来说它们是同一件事的两面。该问的是可行能力：一个没有病假、没有存款的送餐员，被要求『自愿居家』时并不拥有那个选项——他的自由不是被政府拿走的，是从来没有到手过。所以同一条禁令落在不同人身上，代价差着几个数量级，而政策往往只算平均数。**决定一项管制好坏的，多半不是它管得多严，而是执行时还允不允许被追问、被更正。**我研究饥荒多年，结论朴素得让人不安：有独立报纸、有反对派、有选举的地方，饥荒不发生——粮食通常还在，塌掉的是把消息说出口的渠道。",
+   "text_en": "I am unwilling to set freedom and health at opposite ends, because for most people they are two sides of one thing. The question to ask is about capability: a delivery rider with no sick pay and no savings does not possess the option when he is asked to 'isolate voluntarily' — his freedom was not taken by the government, it was never in his hands. The same prohibition therefore costs different people amounts that differ by orders of magnitude, while policy tends to compute only the average. **What decides whether a restriction is any good is usually not how strict it is, but whether, while it is in force, it can still be questioned and corrected.** I have spent years on famines, and the conclusion is uncomfortably plain: where there is an independent press, an opposition and elections, famines do not occur — the food is usually still there; what collapses is the channel through which the news can be said aloud.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "可行能力": "capability（可行能力）：一个人实际能够去做、能够去成为的那些事的范围。它问的不是权利写没写在纸上，而是把机会、健康、收入、时间、信息都算进去之后，这个人是否真的做得到。两个人法律上同样自由，可行能力可以差得极远。"
+   },
+   "glossary_en": {
+    "capability": "The range of things a person is actually able to do and to be. It asks not whether a right exists on paper but whether, once opportunity, health, income, time and information are counted in, the person can in fact do it. Two people equally free in law can differ enormously in capability."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "mozi",
+     "lembke"
+    ],
+    "轻微赞同": [
+     "locke",
+     "berlin",
+     "illich"
+    ],
+    "中立": [
+     "hanfeizi",
+     "buddha"
+    ]
+   }
+  },
+  {
+   "id": "p07",
+   "round": 1,
+   "thinker": "locke",
+   "reply_to": null,
+   "text": "我把这件事看作一笔委托。人们组成政府，交出的不是全部自由，只是自己动手保全自己的那一部分，为的是不被他人伤害。所以对传染者的隔离落在授权之内：他呼出的气正在损及别人的性命，这正是我说的伤害。而一个人往自己嘴里放多少糖，并没有把谁卷进来，管到那里就越了界。但委托是有条件的：明文的法、事先公布、有期限、错了要赔、并且有地方申诉。**紧急状态不给政府任何新的权力，它只是让原有的那一部分用得更快。**这几条做不到，信托就破了，人民有权收回。",
+   "text_en": "I take this to be a matter of trust. In forming a government men do not hand over all their freedom, only the part by which each would have defended himself, and they do it so as not to be harmed by others. Quarantining the infected therefore falls within what was granted: the breath he exhales is damaging another man's life, which is precisely the harm I mean. How much sugar a man puts in his own mouth draws no one else in, and to reach that far is to overstep. But the grant comes with conditions: settled promulgated law, an expiry, compensation when it errs, and somewhere to appeal. **An emergency confers no new power on a government; it merely lets the power already granted be used faster.** Where those conditions fail, the trust is broken, and the people may take back what they lent.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "信托": "trust（信托）：我用来描述政府地位的词。人民把保全自己的那部分权力交给统治者，是有目的、有条件的托付，而不是转让所有权。受托人只能为托付的目的行事；一旦越出目的，或者不再受制于公开的法与事后的追究，托付就失效，权力回到人民手里。"
+   },
+   "glossary_en": {
+    "trust": "The word I use for what a government holds. The people place in a ruler's hands the part of their power that concerns their own preservation — a conditional charge for a stated purpose, not a transfer of ownership. A trustee may act only for that purpose; the moment he goes beyond it, or escapes settled law and after-the-fact reckoning, the trust is forfeit and the power returns to the people."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "berlin"
+    ],
+    "轻微赞同": [
+     "sen",
+     "illich",
+     "buddha"
+    ],
+    "轻微反对": [
+     "mozi"
+    ],
+    "强烈反对": [
+     "hanfeizi"
+    ],
+    "中立": [
+     "lembke"
+    ]
+   }
+  },
+  {
+   "id": "p08",
+   "round": 1,
+   "thinker": "buddha",
+   "reply_to": null,
+   "text": "有中箭者，医至而先问：箭自谁来？羽以何鸟？未及答而人已殁。今诸君争权之所自出，亦如是。且听我说：戒者自受之，非人加我；欲之根在内，禁之在外，如刈草而留其根，一雨复生。**然共住之处，不可无约。**僧伽有律，非以缚人，以众人同处，一人之行必落于众人之身也。故律者，共住者自共立之，犯则悔，悔则复入——此其与刑异也。至若外境，亦当量之：置酒于室而责其不饮，非慈也。中道者，不纵，亦不苛。",
+   "text_en": "A man is struck by an arrow, and when the physician arrives he asks first: who shot it? what bird gave the feather? Before the answer comes, the man is dead. Your dispute over where this power originates is of that kind. Hear me instead: a precept is taken up by oneself, not laid on one by another; the root of craving is within, and to forbid only from outside is to cut the grass and leave the root — one rain and it is back. **Yet where people live together, there cannot be no agreement.** The Sangha has its rule, not to bind anyone, but because when many dwell together one person's conduct lands on the bodies of all. So the rule is one that those who live together lay down among themselves: transgress it and you confess, confess and you are received back — and there it differs from punishment. As for surroundings, weigh them too: to keep wine in a man's room and then blame him for drinking is not compassion. The Middle Way is neither indulgence nor severity.",
+   "vernacular": "有个人中了箭，医生来了，他却先问：箭是谁射的？箭羽用的什么鸟毛？还没问完，人已经死了。今天诸位争这份权力从哪里来，也是这样。且听我说：戒是自己受持的，不是别人加在我身上的；欲望的根在心里，只在外面禁，就像割草留着根，一场雨又长出来。**但众人同住的地方，不能没有约定。**僧团有戒律，不是为了捆住谁，而是因为大家住在一起，一个人的行为必然落到众人身上。所以戒律是共住的人自己一起立的，犯了就忏悔，忏悔了还能回来——这正是它与刑罚不同的地方。至于外在的环境，也该斟酌：把酒放在人屋里，却责怪他不该喝，这不是慈悲。所谓中道，就是既不放纵，也不苛严。",
+   "vernacular_en": "",
+   "glossary": {
+    "中道": "the Middle Way（中道）：避开两端的那条路——既不放纵欲望，也不以苦行折磨自己。用在众人相处上，它反对『随它去』和『一律禁绝』这两种省事的做法，要求就事情本身的分寸作判断。",
+    "戒": "śīla / precept（戒）：自己发愿受持的行为准则，例如不杀、不盗、不妄语。要点在于它由受持者自己领受、可以自陈违犯并重新受持，因此与外力施加的刑罚在性质上不同。"
+   },
+   "glossary_en": {
+    "The Middle Way": "The path that avoids both extremes — neither indulging craving nor punishing oneself with austerity. Applied to life in common, it refuses both easy options, 'let it be' and 'forbid it outright', and asks instead for judgement about proportion in the matter at hand.",
+    "precept": "A rule of conduct one undertakes by one's own vow — not to kill, not to steal, not to speak falsely. The essential point is that it is taken up by the one who keeps it and can be confessed and taken up again, which makes it different in kind from a penalty imposed from outside."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "berlin"
+    ],
+    "轻微赞同": [
+     "illich",
+     "lembke",
+     "locke"
+    ],
+    "轻微反对": [
+     "mozi"
+    ],
+    "中立": [
+     "hanfeizi",
+     "sen"
+    ]
+   }
+  },
+  {
+   "id": "p09",
+   "round": 2,
+   "thinker": "berlin",
+   "reply_to": "p02",
+   "text": "墨子的三关我都同意该过，可它们量的是同一样东西——利。麻烦正在这里：一场封控里被牺牲的东西彼此不可通约。**独居老人多活的那几个月，和他没能见到孙子的那几个月，不在同一本账上；硬要加总，只是把选择的痛苦藏进算术里。**我不反对算账，我反对算完之后宣布『所以并无损失』。凡是把多种价值折成一个总数的体系，历史上都很容易长出下一句：既然算得清，就不必再问你了。请把没算进去的那一栏留在纸面上，让人看得见。",
+   "text_en": "I agree that Mozi's three tests should be passed, but all three measure the same thing: benefit. That is exactly the trouble, because what a lockdown sacrifices is incommensurable. **The extra months an old man living alone gains, and the months in which he did not see his grandchild, do not belong in the same ledger; adding them up merely hides the pain of the choice inside the arithmetic.** I am not against counting. I am against announcing, once the counting is done, that therefore nothing was lost. Systems that fold many values into one total have historically found a next sentence very easy to say: since the sum is clear, there is no further need to ask you. Leave the uncounted column on the page where people can see it.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "不可通约": "incommensurability（不可通约）：两样东西都真实、都有分量，却没有共同的单位可以互相换算，因此没有哪一个数字能替我们做出选择。承认不可通约不是拒绝权衡，而是拒绝把权衡伪装成计算。"
+   },
+   "glossary_en": {
+    "incommensurable": "Two goods may both be real and both weighty, and yet share no common unit by which one converts into the other, so that no number can make the choice for us. To grant incommensurability is not to refuse to weigh, but to refuse to disguise weighing as calculation."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "illich"
+    ],
+    "轻微赞同": [
+     "locke",
+     "buddha"
+    ],
+    "轻微反对": [
+     "sen",
+     "lembke"
+    ],
+    "强烈反对": [
+     "mozi"
+    ],
+    "中立": [
+     "hanfeizi"
+    ]
+   }
+  },
+  {
+   "id": "p10",
+   "round": 2,
+   "thinker": "mozi",
+   "reply_to": "p01",
+   "text": "伊里奇言医之为害，我不谓其尽非；然子欲归自主于民，请问：无医无药之乡，其民自主乎？彼病则死耳。**言自主而不问其能否，是使贫者独任其命。**古之圣王通沟渠、备水旱，非夺民之能，以一人之力不足以独当也。子恶大制度之弊，宜改之、责之、核其功过，不宜并其利而弃之。至若厚养专家、多设无用之科，此正我所谓不节用者，与子同恶。故我所争不在有无，在费与效：一政出，费几何？活人几何？不能对者，罢之。",
+   "text_en": "Illich says medicine does harm, and I do not say he is wholly wrong. But he wishes to return self-reliance to the people, so let me ask: in a village with no physician and no medicine, are the people self-reliant? They fall ill and they die. **To speak of self-reliance without asking whether a man has the means for it is to leave the poor alone with their fate.** When the sage-kings of old dug channels and prepared against flood and drought, they were not stripping the people of competence; they did it because one man's strength cannot hold against such things. If he hates what large institutions do wrong, let him reform them, hold them to account, audit their gains against their costs — not throw out their benefits along with their faults. As for keeping armies of specialists and opening departments that do nothing, that is precisely what I mean by failing at thrift, and I detest it as he does. So my quarrel is not over whether, but over cost and effect: what does this measure spend, and how many does it keep alive? If no one can answer, abolish it.",
+   "vernacular": "伊里奇说医疗有害，我不认为全错；但你要把自主还给百姓，我要问一句：没有医、没有药的乡下，那里的人自主吗？他们病了就是死。**只讲自主而不问人有没有条件自主，等于让穷人独自扛下自己的命。**古代圣王开沟渠、防水旱，不是要夺走百姓的能力，是因为一个人的力量顶不住。你厌恶大机构的毛病，该做的是改它、追它的责、核它的功过，而不是连它的好处一起丢掉。至于养一大批专家、设一堆没用的科室，这正是我说的不节用，我和你一样厌恶。所以我争的不是有没有，是花费与效果：一条政令下去，花多少钱？救活多少人？答不上来的，就该废掉。",
+   "vernacular_en": "",
+   "glossary": null,
+   "glossary_en": null,
+   "reactions": {
+    "强烈赞同": [
+     "sen"
+    ],
+    "轻微赞同": [
+     "hanfeizi",
+     "lembke",
+     "locke"
+    ],
+    "轻微反对": [
+     "berlin"
+    ],
+    "强烈反对": [
+     "illich"
+    ],
+    "中立": [
+     "buddha"
+    ]
+   }
+  },
+  {
+   "id": "p11",
+   "round": 2,
+   "thinker": "illich",
+   "reply_to": "p10",
+   "text": "墨子说没有医的乡下人谈不上自主，这一点我认。我从不主张拆掉疫苗与干净的水——那正是最便宜、最有效、最少制造依赖的东西，恰好合你说的费与效。我反对的是另一段：当健康人每年被批量筛查成『高风险者』、丧亲之痛被开成处方、老去本身被当作待治疗的状况，这一段的边际收益早已转负，账面上却还在增长。**你问一条政令救活多少人，请把同一支笔用来问：它让多少人从此不敢自己判断自己的身体。**这一栏不在你的账上，可它决定下一代还剩多少自理的能力。",
+   "text_en": "Mozi says that villagers without a physician can hardly be called self-reliant, and I grant it. I have never argued for tearing out vaccines or clean water — those are the cheapest, the most effective and the least dependency-forming things we have, and they pass his cost-and-effect test handsomely. What I oppose is the other stretch: where healthy people are screened by the batch into 'high risk', bereavement is met with a prescription, and ageing itself is treated as a condition awaiting therapy. There the marginal return went negative long ago, though the accounts keep growing. **He asks how many a measure keeps alive; let him use the same pen to ask how many it leaves unable to judge their own bodies without permission.** That column is missing from his ledger, and it decides how much competence the next generation has left.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": null,
+   "glossary_en": null,
+   "reactions": {
+    "强烈赞同": [
+     "berlin",
+     "buddha"
+    ],
+    "轻微赞同": [
+     "locke",
+     "lembke"
+    ],
+    "轻微反对": [
+     "mozi",
+     "sen"
+    ],
+    "中立": [
+     "hanfeizi"
+    ]
+   }
+  },
+  {
+   "id": "p12",
+   "round": 2,
+   "thinker": "hanfeizi",
+   "reply_to": "p07",
+   "text": "洛克言委托，臣请问：其券安在？何人署之？子孙未生而已受约，此非契，乃辞也。**民之所以不去者，非以其曾许之，以其无所去也。**然子所列数事，臣颇取焉：书之明文、期之时日、责之于吏、偿其所损——此非契约之效，乃法有信之效。子以同意为本，臣以赏罚为本，而所归者一：令必可核。至若『人民有权收回』，其收之之具安在？无兵无刑而言收回，与守株待兔何异？",
+   "text_en": "Locke speaks of a trust. Then let me ask: where is the deed? Whose hand signed it? Descendants not yet born are said to be bound by it already — that is not a contract, that is a form of words. **What keeps the people in place is not that they once consented, but that they have nowhere to go.** And yet several items on his list I accept readily: written and published law, a fixed term, accountability laid on the officials, compensation for what is taken. Those are not the fruit of a contract; they are the fruit of law that is believed. He founds it on consent, I found it on reward and punishment, and we arrive at one place: an order must be checkable. As for the people taking back what they lent — with what instrument do they take it? To speak of taking it back with neither soldiers nor penalties is to wait by the tree stump for the hare.",
+   "vernacular": "洛克讲委托，我要问：契约在哪里？谁签的字？子孙还没出生就已经受约束，这不是契约，是一种说法。**百姓之所以不走，不是因为他曾经答应过，是因为他无处可走。**不过你列的那几条，我倒很赞成：写成明文、定下期限、把责任落到官吏头上、损失要赔——这不是契约的功劳，是法有信用的结果。你以同意为根本，我以赏罚为根本，可归结到同一处：法令必须可核查。至于『人民有权收回』，收回用什么工具？既无兵又无刑而说收回，跟守株待兔有什么两样？",
+   "vernacular_en": "",
+   "glossary": null,
+   "glossary_en": null,
+   "reactions": {
+    "强烈赞同": [
+     "mozi"
+    ],
+    "轻微赞同": [
+     "lembke",
+     "sen"
+    ],
+    "轻微反对": [
+     "buddha",
+     "illich"
+    ],
+    "强烈反对": [
+     "locke",
+     "berlin"
+    ]
+   }
+  },
+  {
+   "id": "p13",
+   "round": 2,
+   "thinker": "locke",
+   "reply_to": "p12",
+   "text": "韩非问我契约在何处。答得直白些：不在纸上，在能不能退出、能不能追索这两件事里。**一个人无处可去也无处申诉，恰恰证明他从未同意过，而不是证明同意无关紧要。**你说靠赏罚也能得出明文、期限、赔偿，我承认路径不同而落点相近；但少了同意，这几条就只是君主的自我节制——今天在，明天不在，没有人能凭它站住脚。所以我要的不只是『令可核』，还要有人有资格去核：法庭、议会、报纸，以及最后那句不体面却必须留着的话——收回。",
+   "text_en": "Han Fei asks where the contract is. Plainly: not on paper, but in two things — whether a man may leave and whether he may seek redress. **That a man has nowhere to go and nowhere to complain proves he never consented; it does not prove that consent is beside the point.** He says reward and punishment can also yield published law, fixed terms and compensation, and I grant the routes differ while the destinations nearly meet. But without consent those items are merely a ruler's self-restraint — present today, absent tomorrow, and no one can stand on them. So I want more than 'an order that can be checked'. I want people entitled to do the checking: courts, an assembly, a press, and finally that unseemly sentence which must be kept available — we take it back.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": null,
+   "glossary_en": null,
+   "reactions": {
+    "强烈赞同": [
+     "berlin",
+     "sen"
+    ],
+    "轻微赞同": [
+     "illich",
+     "buddha"
+    ],
+    "轻微反对": [
+     "mozi"
+    ],
+    "强烈反对": [
+     "hanfeizi"
+    ],
+    "中立": [
+     "lembke"
+    ]
+   }
+  },
+  {
+   "id": "p14",
+   "round": 2,
+   "thinker": "lembke",
+   "reply_to": "p03",
+   "text": "伯林最有力的一句是别替我认定哪个自我才算我。可我每天面对的正是这一处：**成瘾不是一个人选了错的东西，是『选择』这项功能本身被剂量改坏了。**同一个人在戒断第三天说的话和第三十天说的话，哪一句更算他自己？我不主张替谁做主，我主张把手伸向供给：把最强效、最易得的那一段调下去。这不是替你选，是把被工程化掉的那部分选择还回来。你担心的强制我同意要警惕；可放任设计者调剂量，同样是有人在替你决定，只是他不必经过任何投票。",
+   "text_en": "Berlin's strongest line is: do not decide for me which self is really me. But that is precisely what I meet every day. **Addiction is not a person choosing the wrong thing; it is the faculty of choosing itself altered by dose.** The same man speaks on day three of withdrawal and on day thirty — which sentence is more his own? I am not arguing for deciding on anyone's behalf; I am arguing for reaching into supply and notching down the strongest, most available end of it. That does not choose for you, it returns the part of your choosing that was engineered away. The coercion he fears is worth watching, I agree — but leaving the dose in the designers' hands is also someone deciding for you, only he never has to stand for election.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": null,
+   "glossary_en": null,
+   "reactions": {
+    "强烈赞同": [
+     "mozi",
+     "sen"
+    ],
+    "轻微赞同": [
+     "buddha",
+     "hanfeizi"
+    ],
+    "轻微反对": [
+     "berlin",
+     "locke",
+     "illich"
+    ]
+   }
+  },
+  {
+   "id": "p15",
+   "round": 2,
+   "thinker": "sen",
+   "reply_to": "p05",
+   "text": "韩非把整件事收进『令行不行』，这是全场最省事、也最危险的一步。**法令算不算数，从来不靠官吏自觉，靠的是有人能在它出错时把它叫停。**我研究过的每一次大饥荒，粮食其实都还在，塌掉的是说出口的渠道；有独立报纸的地方，同样的歉收只是艰难的一年。你要求『滥用者与犯令者同罚』，那么谁来认定何为滥用？如果认定权也落在同一只手里，那条追责的规定不过是写给自己看的一句话。所以我要往你的清单上加一条最不像法家的东西：允许被公开质疑，且不因质疑而受罚。",
+   "text_en": "Han Fei folds the whole matter into whether an order is carried out — the cheapest move made here today, and the most dangerous. **Whether a law counts has never rested on officials policing themselves; it rests on someone being able to stop it when it goes wrong.** In every great famine I have studied the food was still there; what collapsed was the channel through which it could be said. Where an independent press existed, the same failed harvest was merely a hard year. He wants abuse by the enforcer punished as violation is punished — then who determines what counts as abuse? If that determination rests in the same hand, the accountability clause is a note written to oneself. So I would add to his list the least Legalist item imaginable: the restriction must be open to public challenge, and challenging it must carry no penalty.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": null,
+   "glossary_en": null,
+   "reactions": {
+    "强烈赞同": [
+     "locke",
+     "berlin",
+     "illich"
+    ],
+    "轻微赞同": [
+     "mozi",
+     "buddha"
+    ],
+    "轻微反对": [
+     "hanfeizi"
+    ],
+    "中立": [
+     "lembke"
+    ]
+   }
+  },
+  {
+   "id": "p16",
+   "round": 2,
+   "thinker": "buddha",
+   "reply_to": "p14",
+   "text": "善哉，医者之言近于我所说。**欲不可尽禁，而缘可减。**譬如置薪于火侧而戒之勿燃，非智也；徙薪，则火自不起。故我教弟子非时不食、不蓄金银、住处远于市廛，皆非苦其身，乃使境不逼人耳。然有一事当辨：薪宜自徙，或与共住者共议而徙之。若他人夜入吾室取吾薪，虽其意甚善，怨自此生。**故凡代人徙薪者，当令其知、令其许、令其可复取。**三者不能，则先教之观火，勿代之动手。",
+   "text_en": "Well said; the physician's words come close to mine. **Craving cannot be forbidden away, but its conditions can be thinned.** To stack firewood beside the fire and then instruct it not to burn is not wisdom; move the wood, and no fire starts. This is why I taught the monks not to eat at the wrong time, not to store gold and silver, to dwell at a distance from the market — none of it to mortify the body, all of it so that the surroundings would not press upon a person. But one distinction must be kept: the wood should be moved by oneself, or by agreement among those who live together. If another enters my room at night and carries off my wood, however kind his intent, resentment begins there. **So whoever moves the wood for another should let him know, let him agree, and let him be able to fetch it back.** Where those three cannot be had, teach him first to look at the fire, and do not act in his place.",
+   "vernacular": "说得好，这位医生的话和我说的接近。**欲望禁不干净，但引发它的缘可以减少。**譬如把柴堆在火边，却告诫它别烧起来，这不明智；把柴搬开，火自然不起。所以我教弟子过午不食、不存金银、住处离闹市远些，都不是要苦自己的身体，是让环境不逼人。不过有一件事要分清：柴该自己搬，或者和同住的人商量了一起搬。若是别人夜里进我屋子把柴取走，纵然出于好意，怨恨也从这里生出来。**所以凡是替别人搬柴的，都该让他知道、让他同意、让他还能取回。**这三样办不到，就先教他看清那团火，别替他动手。",
+   "vernacular_en": "",
+   "glossary": null,
+   "glossary_en": null,
+   "reactions": {
+    "强烈赞同": [
+     "berlin",
+     "lembke",
+     "locke"
+    ],
+    "轻微赞同": [
+     "illich",
+     "sen",
+     "hanfeizi"
+    ],
+    "中立": [
+     "mozi"
+    ]
+   }
+  },
+  {
+   "id": "p17",
+   "round": 3,
+   "thinker": "hanfeizi",
+   "reply_to": null,
+   "text": "臣终不改其本说：论权之所自出，无益；论令之可核，有益。然今日之辩，有三事臣纳之。其一，森子言认定滥用之权不可与行令之权同归一手，臣所未及，取之。其二，洛克言可诉可退，臣初斥为空言，今思之亦法之一器：民有所诉，则吏知有所忌。其三，伦布克言减其可及甚于责其自制，此正法家之术——不恃人之不为，恃其不能为也；然减可及者亦当明其文、限其期。为庶人计，臣有三策。一曰索其文：凡限汝者，问其明文、期限、署名，无文者勿从，有文者存之。二曰验其信：观其罚吏与罚民孰速孰重，一验而政之虚实见矣。三曰勿以己之无恙，易他人之受罚——**法之弛坏，常自『于我无害』一念始。**",
+   "text_en": "I do not abandon my thesis: arguing about where power originates is useless, arguing about whether an order can be checked is useful. But three things said today I take with me. First, Sen's point that the power to determine abuse must not sit in the same hand as the power to enforce — I had not seen it, and I accept it. Second, Locke's appeal and exit, which I first dismissed as words, is on reflection also an instrument of law: give the people somewhere to complain and officials learn to fear something. Third, Lembke's reducing availability rather than scolding self-control is Legalist craft exactly — do not rely on men choosing not to, arrange that they cannot; though reductions in availability must equally be written down and given a term. For the common man, three measures. Demand the text: of whatever restricts you, ask for the written order, its expiry and the name signed to it; do not comply with what has no text, and keep a copy of what has. Test its credit: watch whether the enforcer is punished as swiftly and as heavily as the subject — one test and the substance of a government is visible. And do not trade another man's penalty for your own comfort — **the decay of law begins, as a rule, with the thought that it does me no harm.**",
+   "vernacular": "我终究不改我的主张：争论权力从哪里来，没有用；争论法令能不能被核查，才有用。不过今天的辩论里有三件事我收下了。其一，森先生说：认定『滥用』的权力不能和执行的权力落在同一只手里——这是我没想到的，我接受。其二，洛克说要能申诉、能退出，我起初斥为空话，如今想来那也是法的一件工具：百姓有地方告状，官吏才知道有所顾忌。其三，伦布克说降低可及性胜过责备自制力，这正是法家的手法——不指望人自愿不做，而是让他做不成；但降低可及性同样要有明文、有期限。给普通人三条办法。第一，索取文本：凡是限制你的，问它的明文、期限、签名；没有文本的别照办，有文本的留一份。第二，检验信用：看它罚官吏和罚百姓哪个更快、哪个更重，一试就看出这套政令是虚是实。第三，别拿自己的平安去换别人受罚——**法的败坏，往往从一句『反正没害到我』开始。**",
+   "vernacular_en": "",
+   "glossary": null,
+   "glossary_en": null,
+   "reactions": {
+    "强烈赞同": [
+     "sen"
+    ],
+    "轻微赞同": [
+     "mozi",
+     "locke",
+     "lembke"
+    ],
+    "轻微反对": [
+     "berlin"
+    ],
+    "中立": [
+     "illich",
+     "buddha"
+    ]
+   }
+  },
+  {
+   "id": "p18",
+   "round": 3,
+   "thinker": "buddha",
+   "reply_to": null,
+   "text": "我再说那两支箭：第一支是病、老与死，人人皆中；第二支是我们对它的恐惧，以及由恐惧生出的相互责怪——今日世上，第二支伤人往往更久。诸君所争，多在第一支的处置，而苦之大半在第二支。我不谓禁令无用。我谓：凡加于人者，当以三事自省——彼知否？彼许否？可复取否。三者备，虽严不生怨；三者缺，虽善亦生怨，且他日真有急难，人已不肯听矣。给在座与不在座的人几句话：其一，自受一戒，写下来，告一人知，不加于家人；其二，从缘上下手——欲近的移远，欲远的移近，此比咬牙有效；其三，见人破戒，先问其境，勿先问其志。**慈悲不是替他把柴搬走，是与他一同看清那团火，再问他要不要搬。**",
+   "text_en": "Let me return to the two arrows. The first is sickness, age and death, and every person is struck by it. The second is our fear of it, and the mutual blame that fear breeds — and in the world today the second wounds for longer. Your dispute has mostly concerned how to handle the first, while most of the suffering lies in the second. I do not say prohibitions are useless. I say that whatever is laid upon another should be examined by three questions: does he know, does he agree, can he take it back? Where all three hold, even severity breeds no resentment; where any is missing, even kindness does, and when a real emergency comes the person will no longer listen. A few words for those here and those not here. Take up one precept yourself, write it down, tell one person, and lay it on no one in your household. Work on conditions: move what you want near far away, and what you want far near — this outperforms gritted teeth. And when you see someone break a rule, ask first about his circumstances, not about his will. **Compassion is not carrying off his firewood for him; it is looking at the fire beside him, and then asking whether he wants it moved.**",
+   "vernacular": "我再说那两支箭：第一支是病、老、死，人人都要中；第二支是我们对它的恐惧，以及由恐惧生出的彼此责怪——在今天的世上，第二支伤人往往更久。诸位所争，多半在第一支该怎么处置，可痛苦的大半却在第二支。我不是说禁令没用。我是说：凡是加在别人身上的，都该拿三件事自省——他知道吗？他同意吗？他还能取回吗？三样齐备，纵然严厉也不生怨；缺了一样，纵然出于好意也生怨，而且他日真有急难，人已经不肯听了。给在座和不在座的人几句话：第一，自己受持一条戒，写下来，告诉一个人，别加在家人身上；第二，从缘上下手——想接近的移远些，想远离的移近些，这比咬牙管用；第三，见人破戒，先问他的处境，别先问他的志气。**慈悲不是替他把柴搬走，是陪他一起看清那团火，再问他要不要搬。**",
+   "vernacular_en": "",
+   "glossary": null,
+   "glossary_en": null,
+   "reactions": {
+    "强烈赞同": [
+     "berlin",
+     "illich",
+     "lembke"
+    ],
+    "轻微赞同": [
+     "locke",
+     "sen"
+    ],
+    "中立": [
+     "mozi",
+     "hanfeizi"
+    ]
+   }
+  },
+  {
+   "id": "p19",
+   "round": 3,
+   "thinker": "mozi",
+   "reply_to": null,
+   "text": "诸君言自由、言同意、言慈悲，皆善。然我终以三表自守：一政之是非，观其费几何、活人几何、可核与否。伯林言不可通约，我受其一半：命与见孙，诚不能相易；然不算之政，其害更甚——不算者，非无价，乃以他人之价充之。故我改口如此：算之，且公之，且将未算之项列于其侧，勿托言无损。为庶人计，我有三事。其一，出钱出力，宜择效大而费省者：清水、种痘、戒烟、小儿之食，此四者古今皆验；仪节之费可省。其二，助人勿止于劝：劝其居家，不若代其送药、代其顾儿——**兼爱之实，在补其所缺，不在责其所为。**其三，凡言『为汝好』者，问其可核否；不能核者，其言与厚葬之礼同，费而无功。",
+   "text_en": "You speak of freedom, of consent, of compassion, and all of it is good. Still I hold to the three gauges: judge a measure by what it spends, how many it keeps alive, and whether it can be audited. Berlin says goods are incommensurable, and I accept half of that: a life and the sight of a grandchild truly do not exchange. But a measure never counted does more harm, for what goes uncounted is not without price — it is paid in someone else's coin. So let me restate: count it, publish it, and set the uncounted items in a column beside it; do not pretend nothing was lost. For the common man, three things. Give money and effort where the effect is large and the cost small: clean water, vaccination, quitting tobacco, and children's food — these four have proved themselves in every age; ceremonial expense can be spared. Do not stop at exhortation when helping: better than urging a neighbour to stay home is carrying his medicine and minding his child. **Inclusive care in practice means supplying what a person lacks, not scolding him for what he does.** And of anyone who says this is for your own good, ask whether it can be audited; what cannot be audited is of a kind with lavish funerals — costly and without result.",
+   "vernacular": "诸位讲自由、讲同意、讲慈悲，都好。可我终究守着三表：一条政令的是非，就看它花多少、救活多少、能不能核查。伯林说价值不可通约，我接受一半：一条命和见一面孙子，确实不能互换；但不去算的政令危害更大——不算不等于没有代价，只是拿别人的代价去付。所以我把话改成这样：要算，还要公开，并且把没算进去的那些列在旁边一栏，别谎称并无损失。给普通人三件事。第一，出钱出力要挑效果大而花费省的：干净的水、接种、戒烟、小孩的口粮，这四样古今都验证过；仪式性的排场可以省。第二，帮人别只停在劝：劝人居家，不如替他送药、替他看孩子——**兼爱落到实处，是补上他缺的那一块，而不是责备他做了什么。**第三，凡是说『为你好』的，先问一句能不能核查；核查不了的，和厚葬的排场一样，费钱而无用。",
+   "vernacular_en": "",
+   "glossary": null,
+   "glossary_en": null,
+   "reactions": {
+    "强烈赞同": [
+     "sen",
+     "lembke"
+    ],
+    "轻微赞同": [
+     "hanfeizi",
+     "locke",
+     "buddha"
+    ],
+    "轻微反对": [
+     "berlin",
+     "illich"
+    ]
+   }
+  },
+  {
+   "id": "p20",
+   "round": 3,
+   "thinker": "illich",
+   "reply_to": null,
+   "text": "我承认墨子那半边：清洁的水与疫苗是人类做过的最划算的事，谁要拆它我第一个反对。我们的分歧在另一段——那段边际收益早已转负、账面却仍在扩张的医疗。**健康不是一种可以被发放的商品，它是一个人在有限条件下与自己的身体相处的能力。**每一次以健康之名的接管，都在同一个人身上取走一点这种能力，而这笔取走从不出现在任何政策评估里。给普通人的话，具体些。面对每一项检查与治疗，问三句：不做会怎样？绝对获益是多少（不是相对的百分比）？有没有更少干预的做法？在家里恢复一点点被外包掉的照护：量血压、处理小伤口、照顾发烧的孩子、陪一个人走完最后几周。把健康从待购清单挪回日常安排里——走路、睡觉、有人一起吃饭，这些没有柜台，所以从来没人替它们做广告。",
+   "text_en": "I concede Mozi's half: clean water and vaccines are among the best bargains our species has ever struck, and I would be the first to defend them. Our disagreement is over the other stretch — the medicine whose marginal return went negative long ago while its accounts keep expanding. **Health is not a commodity that can be issued; it is a person's capacity to live with their own body under real limits.** Every takeover in the name of health removes a little of that capacity from the same person, and the removal never appears in any policy evaluation. To ordinary people, concretely. Of every test and every treatment, ask three questions: what happens if I do nothing; what is the absolute benefit, not the relative percentage; and is there a less invasive option. Take back a little of the care that has been outsourced: measure a blood pressure, dress a small wound, sit with a feverish child, walk the last weeks with someone. Move health off the shopping list and back into the shape of an ordinary day — walking, sleeping, eating with other people. None of it has a counter to sell it from, which is why nobody advertises it.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": null,
+   "glossary_en": null,
+   "reactions": {
+    "强烈赞同": [
+     "berlin",
+     "buddha"
+    ],
+    "轻微赞同": [
+     "lembke",
+     "locke",
+     "hanfeizi"
+    ],
+    "轻微反对": [
+     "mozi"
+    ],
+    "中立": [
+     "sen"
+    ]
+   }
+  },
+  {
+   "id": "p21",
+   "round": 3,
+   "thinker": "lembke",
+   "reply_to": null,
+   "text": "我把佛陀那三句抄走了：让他知道、让他同意、让他可以取回。这恰好是我给临床上的自我约束定的标准——只不过要在你还清醒的时候，替以后那个不清醒的你先立好。**所以我的结论是：管制该落在剂量与可及性上，不该落在人格上；而每一道限制都要留一扇能被推开的门。**给普通人四件今天就能做的事。挑一样最强效的东西，禁断三十天，别少于三十天——奖赏基线要这么久才抬得起来。设物理与时间的屏障：把它放到另一个房间、删掉应用、家里不囤，这比咬牙有效得多。主动去按跷跷板痛苦的那一端：运动、冷水、一件需要专注的苦活，换来的快乐更稳。和家人一起立规矩，而不是替对方立。要求一个人靠意志对抗一整套为俘获他而设计的东西，从来不是公平的比赛。",
+   "text_en": "I am taking away the Buddha's three conditions: let him know, let him agree, let him take it back. They are exactly the standard I set for self-binding in the clinic — except that you set it while sober, on behalf of the version of you who will not be. **So my conclusion is this: regulation belongs on dose and availability, not on character, and every restriction should leave one door that can be pushed open.** Four things an ordinary person can start today. Pick the strongest-acting thing in your life and abstain for thirty days, not fewer — that is roughly how long the reward baseline takes to lift. Build physical and temporal barriers: put it in another room, delete the app, stop keeping it in the house; this beats gritted teeth by a wide margin. Press deliberately on the painful side of the balance — exercise, cold water, a hard task requiring concentration — and the pleasure you get back is steadier. Make rules with the people you live with rather than for them. Asking a person to out-will an entire apparatus engineered to capture them has never been a fair contest.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "自我约束": "self-binding（自我约束）：在自己还清醒、动机还在的时候，替将来那个会失控的自己预先设置障碍——把东西放远、约定时间、请人代管、干脆不带进家门。要点是它由本人事先立下，因此与外力强加不同，也比临场硬扛可靠。"
+   },
+   "glossary_en": {
+    "self-binding": "Putting obstacles in your own way while you are still clear-headed, on behalf of the later self who will not be — distance, timers, handing the key to someone else, simply not bringing it into the house. The point is that you set it yourself, in advance, which makes it different from coercion and far more reliable than resisting in the moment."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "buddha",
+     "sen"
+    ],
+    "轻微赞同": [
+     "mozi",
+     "illich",
+     "hanfeizi",
+     "locke"
+    ],
+    "中立": [
+     "berlin"
+    ]
+   }
+  },
+  {
+   "id": "p22",
+   "round": 3,
+   "thinker": "locke",
+   "reply_to": null,
+   "text": "我从委托出发，走到这里，改了一处：授权的边界不能只靠『伤不伤及他人』这一刀切下去。呼吸传给邻座是伤害，这清楚；把最易上瘾的版本铺到每个货架前，虽不直接伤人，却把别人的选择挖空了——伦布克说服了我，那也该算在需要授权的事里。但要求随之更重：**越是这类管制，越要经过明文、期限、赔偿、申诉这四关，否则每一样都能被说成为你好。**给普通人一份清单：遇到一条新限制，先找它的法律依据与到期日；在限制期间保存自己的损失凭据；查有没有豁免与申诉的通道，并且真的去用；投票时把这四件事当作衡量的尺，而不是只看谁的口号更安全。紧急状态最危险的地方，从来不是那几个月，而是结束之后没有人去数它究竟拿走了什么。",
+   "text_en": "I set out from trust, and I end having changed one thing: the boundary of what was granted cannot be drawn by the single cut of 'does it harm another'. Breath passed to the person beside you is harm, plainly. Stocking the most addictive version of a thing on every shelf harms no one directly, and yet it hollows out other people's choosing — Lembke has persuaded me, and that too belongs among the matters requiring authorisation. But the requirement grows heavier with it: **the more a restriction is of that kind, the more strictly it must pass four tests — published text, expiry, compensation, appeal — or anything at all can be described as being for your own good.** A list for ordinary people: when a new restriction appears, find its legal basis and its end date; keep evidence of your losses while it runs; check whether exemption and appeal exist, and actually use them; and when you vote, treat those four things as the measure, rather than asking whose slogan sounds safest. The dangerous part of an emergency has never been those months. It is that when they end, nobody counts what was taken.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": null,
+   "glossary_en": null,
+   "reactions": {
+    "强烈赞同": [
+     "berlin",
+     "sen"
+    ],
+    "轻微赞同": [
+     "illich",
+     "lembke",
+     "buddha"
+    ],
+    "轻微反对": [
+     "hanfeizi"
+    ],
+    "中立": [
+     "mozi"
+    ]
+   }
+  },
+  {
+   "id": "p23",
+   "round": 3,
+   "thinker": "sen",
+   "reply_to": null,
+   "text": "把今天的分歧收一收，我认为可用的判据不是『管到哪一步』，而是三件事同时成立：这条限制落在最没退路的那个人身上时，他有没有条件承受；执行的时候能不能被公开质疑而不受罚；错了之后有没有人赔、有没有人担。**第一条是可行能力，后两条是它的保险丝：缺了保险丝的管制，即使一开始正确，也没有办法在变错时停下来。**给普通人两件事。先做那件小的：判断任何一条规定——公司的、学校的、小区的、政府的——先设想它落在处境最紧的那个人身上，答案往往立刻清楚。再做那件难的：在你够得着的地方留下追问的通道，哪怕只是一次公开的提问、一封写给物业或人事的信、一次去投票。一个社会真正的防线，不是它下命令的速度，而是它认错的速度。",
+   "text_en": "Gathering up today's disagreements, I think the usable criterion is not how far the state may go, but three conditions holding together: whether the person with the least room to manoeuvre can actually bear the restriction; whether it can be publicly challenged while in force without penalty; and whether, when it turns out to be wrong, someone compensates and someone answers for it. **The first is capability; the other two are its fuses: a restriction without them, even if right at the outset, has no way of stopping once it becomes wrong.** Two things for ordinary people. The small one first: to judge any rule — your company's, your school's, your building's, your government's — picture it landing on the person in the tightest circumstances, and the answer is usually immediate. Then the hard one: keep a channel for questioning open wherever you can reach, even if it is only one question asked in public, one letter to the building manager or to HR, one vote cast. A society's real defence is not how fast it can issue an order, but how fast it can admit an order was wrong.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": null,
+   "glossary_en": null,
+   "reactions": {
+    "强烈赞同": [
+     "locke",
+     "berlin",
+     "mozi"
+    ],
+    "轻微赞同": [
+     "lembke",
+     "illich",
+     "buddha"
+    ],
+    "中立": [
+     "hanfeizi"
+    ]
+   }
+  },
+  {
+   "id": "p24",
+   "round": 3,
+   "thinker": "berlin",
+   "reply_to": null,
+   "text": "全场最让我服气的一句来自佛陀：让他知道、让他同意、让他可以取回。它把我的担忧变成了可以执行的东西——我怕的从来不是有人限制我，是限制之后没有回头路，而且被告知这不算限制。所以我的收尾不是一条边界，是四个问题：它写下来了吗？它有到期日吗？我能不能在它生效期间公开反对而不受罚？错了以后，有人赔、有人担吗？四个都答『是』，我愿意接受相当严厉的限制；有两个答『否』，再温和的理由我也不接受。至于普通人，我只求一件小事：当你支持的那条规定通过时，替反对的人说一句他失去了什么；当你反对的那条通过时，也如实承认它救下了什么。**能同时说出这两句话的社会，才有可能在下一次真正的危机里既救得了人，也回得来。**",
+   "text_en": "The line that most convinced me today came from the Buddha: let him know, let him agree, let him take it back. It turns my worry into something operable, because what I fear has never been that someone restricts me; it is that afterwards there is no way back, and that I am told it was not a restriction at all. So I close not with a boundary but with four questions. Is it written down? Does it have an end date? May I oppose it publicly, while it is in force, without penalty? And when it proves wrong, does anyone compensate and does anyone answer? Four yeses, and I will accept a fairly severe restriction. Two noes, and no reason however gentle will win me. As for ordinary people, I ask one small thing: when the rule you supported passes, say aloud what those who opposed it lost; and when the rule you opposed passes, admit honestly what it saved. **A society able to say both of those sentences at once is one that might, in the next real emergency, both save people and find its way back.**",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": null,
+   "glossary_en": null,
+   "reactions": {
+    "强烈赞同": [
+     "locke",
+     "buddha",
+     "illich"
+    ],
+    "轻微赞同": [
+     "sen",
+     "hanfeizi",
+     "lembke"
+    ],
+    "轻微反对": [
+     "mozi"
+    ]
+   }
+  }
+ ],
+ "summaries": [
+  {
+   "ai": "claude",
+   "engine": "Opus 5 · 订阅(原生)",
+   "engine_en": "Opus 5 · subscription (native)",
+   "summary": "八个人吵到最后，落点出奇一致：没人真的站在『自由与健康二选一』这条线上，重心整个挪到了程序——明文、期限、补偿、申诉、可撤回。**争的其实不是国家能管多硬，而是管错了之后，这件事还能不能被叫停。**分歧有三支。一支争权力的来历：洛克说那是一笔有条件的委托，韩非说来历都是空话、只有令能不能核算数，佛陀给出第三条路——共住者自立之约。一支争管到哪一层：传染人人认，可伦布克把剂量与可及性摆出来后，糖与短视频也被拖进需要授权的范围，洛克当场改口。第三支争账怎么算：墨子要算费与效，伯林说被牺牲的东西不可通约，森补上最关键的一刀——同一条禁令落在没有病假的人身上，代价差几个数量级。",
+   "summary_en": "After eight people have argued it out, the landing point is strikingly shared: nobody actually stands on the line marked 'freedom or health, pick one'. The weight shifts entirely to procedure — published text, expiry, compensation, appeal, reversibility. **The dispute is not really about how hard the state may press, but about whether, once it presses wrongly, the thing can be stopped.** From there it forks three ways. Over the origin of the power: Locke calls it a conditional trust, Han Fei calls all such pedigrees empty and asks only whether an order can be checked, and the Buddha offers a third route — a rule laid down by those who live together, which can be transgressed, confessed and re-entered. Over how far it reaches: quarantine everyone grants, but once Lembke puts dose and availability on the table, sugar and short video are pulled into the zone requiring authorisation, and Locke revises his position on the spot. And over the accounting: Mozi wants cost against lives saved, Berlin says what is sacrificed is incommensurable, and Sen adds the sharpest cut — the same prohibition costs a worker with no sick pay several orders of magnitude more.",
+   "insight": "有一件事全场都默认了，而它在今天多半是错的：这些人争的『权力』，一直被设想成国家的权力。可真正每天限制普通人身体的，多半不是国家——是平台的默认设置、雇主的考勤与病假政策、学校的规定、物业的通知、保险公司的核保条款。它们同样在决定你几点睡、吃什么、生病能不能不上班，却从不需要写明文、不设到期日、不给补偿、不受任何申诉。**这一整套辩论辛苦立起来的四道关，恰恰只拦得住那个已经被拦了三百年的对象。**于是出现一个荒谬的局面：国家想加一道糖税要吵三年，某个产品把默认自动播放打开，一夜之间改变几亿人的睡眠，没有任何人需要为此举手。",
+   "insight_en": "One assumption ran under the whole argument, and today it is mostly wrong: the 'power' being disputed is imagined throughout as the power of a state. But what actually restricts an ordinary person's body day to day is usually not the state — it is a platform's default settings, an employer's attendance and sick-leave policy, a school's rules, a building manager's notice, an insurer's underwriting terms. These decide when you sleep, what you eat, whether you can stay home while ill, and they need no published text, no expiry, no compensation and no appeal. **The four tests this debate worked so hard to erect happen to constrain only the one actor that has been constrained for three hundred years already.** Hence the absurdity: a state that wants a sugar tax argues about it for three years, while a product that switches autoplay on by default changes the sleep of hundreds of millions overnight, with nobody required to raise a hand.",
+   "advice": "那四道关最该用在离你最近的规定上，而不是只用在新闻里的政令上。本周挑一条正在管着你的规则——公司的加班文化、学校群里的通知、某个应用的默认设置——找它的三样东西：写在哪、什么时候到期、出了问题找谁。**三样缺了两样，就值得你出声，或者至少别再把它当成天气那样承受。**第二件，替以后的自己立一条约束，而不是靠意志：把最强效的那样东西挪出卧室、家里不囤、给应用设一个开不了的时段，并且照伦布克说的给足三十天。第三件，帮身边人时先补条件再劝道理：替他送一次药、看一次孩子、替他顶一次班，比十句『你该注意身体』更接近他真正缺的那一块。",
+   "advice_en": "Those four tests are most useful on the rules nearest you, not only on the ones in the news. This week, pick one rule that is currently governing you — your company's overtime culture, a notice in the school group chat, an app's default setting — and look for three things: where it is written, when it expires, and who answers for it. **If two of the three are missing, that is worth saying out loud — or at the very least worth no longer enduring like weather.** Second, bind your later self rather than trusting your will: move the strongest-acting thing out of the bedroom, stop keeping it in the house, set a window when the app will not open, and give it the full thirty days Lembke asks for. Third, when helping someone, supply the missing condition before offering the argument: carry their medicine once, mind their child once, cover one shift. It comes far closer to what they actually lack than ten repetitions of 'you should take better care of yourself'."
+  },
+  {
+   "ai": "gpt",
+   "engine": "openai · gpt-5.6-sol · high(真实API)",
+   "engine_en": "openai · gpt-5.6-sol · high (live API)",
+   "summary": "这场讨论最可贵的共识是：公共健康并非“国家强制”与“个人自由”的单选题。对会伤及他人的风险、被成瘾性供给削弱的选择，以及无力承担隔离成本的人，集体行动都有正当性；但措施必须有证据、明文、期限、复审、申诉、补偿，并允许公开质疑。**真正的边界不是“管或不管”，而是风险是否外溢、手段是否必要、负担是否公平、权力是否能及时退场。**分歧主要在于哪些损失可被计量、何时算作伤害，以及同意、能力与执行力应各占多大权重；这些冲突不能靠一句“为了你好”抹平。",
+   "insight": "政策设计里还应加一条“行政对称原则”：限制若能自动落到个人身上，救济就不该靠个人闯迷宫。现实中，停业、隔离或资格限制常由系统即时执行，补贴、豁免和申诉却要填表、举证、等待；最缺钱、时间和数字能力的人因此承受双重代价。**强制是自动的，补偿也应尽量自动；做不到这一点，就说明国家尚无公平实施该限制的能力。**可用已有税务、社保或雇佣资料先行发放，再允许事后纠错，同时坚持最少取数、用途限定和按期删除。这把“是否补偿”推进为“谁承担申请成本”的问题，也更接近普通人真正遭遇的国家能力。",
+   "advice": "今天可做三件事。第一，在手机备忘录建一张“限制核对卡”：目的与证据、法律依据与到期日、豁免与申诉、补偿与联系人；以后遇到学校、单位、小区或政府的新规就逐项填。第二，若已受影响，立刻保存通知、截图、收据和时间线，用书面方式索要依据、复审日期与救济渠道；和同处境者合并成一项窄而具体的诉求，比只在群里争论动机更有效。第三，选一种非药物高刺激习惯试行七天环境减量：移出卧室、关闭推送或取消囤货；若涉及药物、酒精依赖或戒断风险，先咨询专业人员。**既要求权力留下记录，也让自己的选择多一道缓冲。**",
+   "summary_en": "The strongest consensus is that public health is not a binary choice between state coercion and individual liberty. Collective action can be justified when risks spill over to others, when addictive supply undermines agency, or when people lack the real means to isolate safely. But legitimacy depends on evidence, a published legal basis, a deadline, periodic review, appeal, compensation, and the freedom to criticize. **The operative boundary is not simply whether the state acts, but whether the risk is externalized, the measure is necessary, the burden is fairly shared, and the power can reliably switch itself off.** The remaining disagreement concerns what counts as harm and which losses can be compared: infection is easier to classify than loneliness, medical dependence, or engineered compulsion. There is also no final formula for balancing consent, capability, and enforceability. Those conflicts cannot be erased by saying a policy is ‘for your own good.’",
+   "insight_en": "Public-health design also needs an administrative symmetry principle: if a restriction reaches people automatically, relief should not require them to navigate a maze. In practice, closure orders, quarantine flags, and eligibility blocks may be imposed instantly by a database, while compensation, exemptions, and appeals demand forms, proof, repeated calls, and weeks of waiting. People with the least money, time, language access, or digital skill then pay twice. **When coercion is automatic, compensation should be automatic wherever possible; if the state cannot deliver that fairly, it may not yet have the capacity to impose the restriction fairly.** Existing tax, payroll, or social-insurance records can support provisional payments followed by later correction. That should come with data minimization, strict purpose limits, audit logs, and deletion deadlines. This reframes compensation as more than a promised benefit: the burden of applying is itself a policy cost, and often the decisive one in ordinary life.",
+   "advice_en": "Do three things this week. First, create a four-part “restriction card” in your notes app: purpose and evidence; legal authority and expiry date; exemption and appeal route; compensation and responsible contact. Use it for rules from employers, schools, housing management, or government. Second, if a rule has already cost you time, income, care, or access, save the notice, screenshots, receipts, and a dated timeline. Ask in writing for its authority, review date, appeal process, and remedy. If others are affected, combine documented requests around one narrow fix instead of arguing only about motives. Third, choose one non-drug, high-stimulation habit and run a seven-day environmental reset: move it out of the bedroom, disable notifications, or stop keeping supplies at home. Do not abruptly change prescribed medication or manage alcohol dependence or withdrawal risk alone; seek professional help. **Leave an evidence trail for power, and place a small buffer in front of your own impulses.**"
+  },
+  {
+   "ai": "gemini",
+   "engine": "google · gemini-3.8-flash(真实API)",
+   "engine_en": "google · gemini-3.8-flash (live API)",
+   "summary": "全场思想家达成了罕见的高阶共识：**任何以公共健康为名的干预，都必须具备明文依据、严格期限、纠错渠道与救济机制**。众人皆认同，健康不可简化为道德说教，环境供给端的调节远比苛责个体自控更有效，且绝不能把行令之权与认定违规之权混同。真正的分歧在于代价的结算方式：墨子主张以可核验的费效比与挽救生命数来度量政令；伯林与伊里奇则坚称，生命年限与陪伴、尊严、自我照护能力彼此不可通约，盲目将多元价值折算为单一生命指标，本质上是在用算术掩盖个体的真实剥夺。",
+   "insight": "现代公共卫生干预最隐蔽的陷阱，是应急设施的棘轮效应。危机带来的不只是临时的封控，还有一整套迅速铺开的东西：健康码与接触者追踪、生物特征采集、跨部门的数据管线、临时开通的行政接口。紧急状态终会结束，可这些管线与权限几乎从不回撤，而是安静地沉淀成日常治理的一部分。国家干预的前沿于是从围起一片物理空间，移到了持续抽取实时的生理与行为数据。**所以评估一条公共卫生政策，不能只看它限制了几周出行，还要问危机过去之后，谁来拆掉它临时搭起的那套基础设施。**该写进条文的不只是到期日，还有技术上的断路器：期满即关闭接口、停止采集、销毁已存数据，并且有人签字。",
+   "advice": "给普通人三件本周就能做的事。第一，用伦布克与佛陀共同指向的那个办法：挑一个你最容易失守的高刺激来源——短视频、深夜外卖——先改环境而不是先拼意志，把设备留在卧室外面，家里不再囤货。第二，照伊里奇说的把两项最基本的居家照护学回来：处理常见的发热、清洗包扎小伤口，让自己在小事上不必第一时间交给机构。第三，**遇到单位、学校或小区新贴出的规定，先把它的到期日与申诉渠道记下来**，再顺手保存自己为配合它付出的成本凭据。这三件加起来花不了一小时，却分别对应了全场最实用的三条：改供给、留能力、存记录。",
+   "summary_en": "The roundtable reached a striking consensus: **any intervention justified by public health must be bounded by written statute, sunset clauses, accountability, and avenues for redress.** The thinkers agreed that health is not a matter of moral lecturing, that curbing environmental availability works far better than demanding sheer willpower, and that the power to enforce orders must never be merged with the power to adjudicate abuse. The core rift lies in how costs are accounted: while Mozi insists on measurable cost-effectiveness and headcounts of lives saved, Berlin and Illich counter that sheer biological survival cannot be traded against dignity, presence at a deathbed, or the innate capacity to endure suffering. Reducing pluralistic human values to a single metric merely uses arithmetic to conceal real deprivation.",
+   "insight_en": "The most insidious trap of modern public health interventions is the institutional 'ratchet effect' of emergency infrastructure. Crises are managed not merely through temporary curfews, but through the rapid deployment of digital contact tracing, biometrics, and pervasive surveillance apparatuses. **While states of emergency eventually end, the telemetry pipelines and administrative reach built during the panic almost never recede; instead, they quietly normalize into everyday governance.** The frontier of state intervention has thus shifted from cordoning off physical spaces to extracting real-time biological and behavioral data. Assessing the legitimacy of any public health policy requires looking beyond immediate lockdowns to demand a statutory 'technological kill-switch' that dismantles intrusive tracking infrastructure once the crisis passes.",
+   "advice_en": "Ordinary citizens can take three concrete steps this week. First, adopt Lembke's and the Buddha's friction strategy: pick your most addictive, high-dopamine vulnerability (such as short-form video or late-night takeout) and introduce physical barriers—like leaving devices outside the bedroom—rather than relying on sheer willpower. Second, heed Illich's call to reclaim bodily agency: master two basic home-care skills for handling common fevers or minor wounds, rebuilding the baseline capacity to manage your body without instantly defaulting to institutional intervention. Third, **whenever facing a newly imposed organizational or community mandate, actively document its explicit expiration date and grievance channels**, cultivating the habit of auditing authority and preserving records of personal compliance costs."
+  }
+ ],
+ "hooks": [
+  {
+   "from": "claude",
+   "text": "**没人投过票的那份权力**：真正管着一个人几点睡、吃什么、生病能不能不上班的，多半不是政府，而是平台的默认设置、雇主的病假政策、学校与物业的通知。它们不写明文、不设到期日、不给补偿、不受申诉，却比任何法令更贴身。要求国家过的那四道关，能不能原样搬到这些地方——还是说，一旦搬过去，代价会落在最需要这份工作的人头上？",
+   "text_en": "**The power nobody voted on**: what actually governs when a person sleeps, what they eat and whether they can stay home while ill is usually not a government but a platform's default settings, an employer's sick-leave policy, a school or building notice. None of these publishes a text, sets an expiry, pays compensation or hears an appeal, and all of them sit closer to the body than any statute. Can the four tests demanded of the state be transplanted onto them as they stand — or would the cost of transplanting them land on whoever most needs to keep the job?"
+  },
+  {
+   "from": "gpt",
+   "text": "**强制是自动的，补偿却要你去闯迷宫**：停业、隔离、资格冻结常常由系统即时执行，而豁免、补贴与申诉要填表、举证、等上几周——最缺钱、缺时间、缺数字能力的人因此付两遍。如果一条限制能自动落到个人身上，救济是不是也该自动发放？若做不到，是否说明这个地方还不具备公平执行它的能力？",
+   "text_en": "**Coercion arrives automatically, relief makes you navigate a maze**: closures, quarantine flags and eligibility blocks are imposed instantly by a database, while exemptions, subsidies and appeals demand forms, proof and weeks of waiting — so those with the least money, time and digital fluency pay twice. If a restriction can reach a person automatically, should relief not be issued automatically too? And if it cannot be, is that a sign the place does not yet have the capacity to enforce the restriction fairly?"
+  },
+  {
+   "from": "gemini",
+   "text": "**危机结束了，管线没有拆**：应急期建起来的健康码、接触者追踪、生物特征采集与跨部门数据接口，几乎从不随紧急状态一起退场，而是沉淀成日常治理的一部分。限制有到期日，技术设施该不该也有一个断路器——期满即关闭接口、停止采集、销毁已存数据？谁签字、谁核验、由谁来证明它真的被拆掉了？",
+   "text_en": "**The emergency ended, the pipelines stayed**: health codes, contact tracing, biometric collection and cross-agency data interfaces built during a crisis almost never leave with the state of emergency; they settle quietly into ordinary governance. Restrictions get an expiry date — should the technical infrastructure not get a kill-switch too, closing the interfaces, halting collection and destroying stored data when the term runs out? Who signs for it, who verifies it, and who proves it was actually dismantled?"
+  },
+  {
+   "from": "lembke",
+   "text": "**默认设置算不算一种强制**：自动播放默认开启、甜味默认加满、分期付款默认勾选——没有人被禁止改，可绝大多数人不会改，于是设计者实际决定了几亿人的行为。若把默认视为一种权力，它该受哪一档约束：只要求披露，还是要求某些高风险的默认必须反过来设？由谁认定何为高风险？",
+   "text_en": "**Do defaults count as coercion**: autoplay on by default, sweetness set to maximum, instalment payment pre-ticked — nobody is forbidden to change them, and almost nobody does, so the designer effectively decides the behaviour of hundreds of millions. If a default is treated as a form of power, what level of constraint should it face: disclosure only, or a requirement that certain high-risk defaults be set the other way round? And who determines what counts as high-risk?"
+  },
+  {
+   "from": "sen",
+   "text": "**先补条件，还是先下命令**：要求一个没有病假、没有存款的人『自愿居家』，等于要求他放弃这个月的房租。那么补偿与替代安排究竟是限制的配套，还是限制成立的前提——没有补偿的强制，算不算根本没有得到它所声称的那种同意？如果是前提，一个财政紧张的地方是不是就失去了发布这类命令的资格？",
+   "text_en": "**Supply the conditions first, or issue the order first**: telling someone with no sick pay and no savings to 'isolate voluntarily' is telling them to give up this month's rent. So are compensation and alternative arrangements an accompaniment to a restriction, or a precondition of its validity — is a mandate without compensation one that never obtained the consent it claims? And if it is a precondition, does a place with strained finances thereby lose the standing to issue such orders at all?"
+  },
+  {
+   "from": "locke",
+   "text": "**该在开始时就写好的那张解除表**：限制的代价不随时间线性增长——封控第一周关掉的是聚会，第三个月关掉的是收入、学业与见最后一面；同一条命令在不同时点其实是不同的命令。那么每一档限制该配什么样的触发指标与解除写法，续期又该由谁重新表决？",
+   "text_en": "**The release schedule that should be written at the start**: the cost of a restriction does not grow linearly with time — in week one a lockdown closes gatherings, by month three it is closing incomes, schooling and last visits, so the same order at different moments is in fact a different order. What trigger indicators and release terms should each level of restriction carry, and who has to vote again before it is renewed?"
+  }
+ ]
+}

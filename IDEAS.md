@@ -156,6 +156,7 @@
 - [ ] 审慎是行动的敌人吗？  <!--deliberation-vs-action-->
 - [x] 时势造英雄，还是英雄挑对了时势？ — 2026-09-09  <!--style-era-fit-->
 - [ ] 人生的几个时钟对不上，该迁就哪一个？  <!--clocks-out-of-phase-->
+- [ ] 「适者生存」能用来解释社会吗？  <!--social-darwinism-->
 
 ---
 

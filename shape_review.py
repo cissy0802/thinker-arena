@@ -89,6 +89,20 @@ def _advice_bold_open(sums):
     return "%d/%d" % (hit, len(sums)) if sums else "-"
 
 
+def _same_debate_open_clash(sums):
+    """同一场里，三家 AI 的 summary / insight / advice 各自有没有两家起手撞车。
+    跨场比对只查『同一家换场重复自己』，查不出『同一场里三家写成同一句』——
+    而 claude 自撰 + 两家真实 API 恰恰容易在开场撞上同一个套话（如都以
+    『全场最大的共识是…』起手）。返回撞车的字段名，读者一眼就能看到重复。"""
+    clashed = []
+    for field in ("summary", "insight", "advice"):
+        heads = [(s.get(field, "") or "").lstrip()[:6] for s in sums]
+        heads = [h for h in heads if h]
+        if len(heads) != len(set(heads)):
+            clashed.append(field)
+    return "/".join(clashed) if clashed else "无"
+
+
 def _advice_open_norm(txt):
     """advice 起手式的『去水版』：把随场次变动的填充词抹掉再比，
     好让『结合全场智慧』『综合各家智慧』『结合诸家之言』这类同模子异措辞撞在一起。"""
@@ -489,6 +503,8 @@ def feats(d):
         # insight 有几条用『整场都在谈 X、可没人提 Y』的报幕式框架开场（连场不降＝独到
         # 观察被压成固定模板；换个词就骗过开头几字的比对，所以单列一维）
         "insight报幕式": _insight_gap_frame(sums),
+        # 同一场内三家 AI 的 summary/insight/advice 起手撞车（跨场比对查不出这一种）
+        "同场起手撞车": _same_debate_open_clash(sums),
         "_insight_open": [(s.get("ai", "?"), (s.get("insight", "") or "")[:5]) for s in sums],
         "_advice_open": [(s.get("ai", "?"), (s.get("advice", "") or "")[:6]) for s in sums],
         "_advice_open_norm": [(s.get("ai", "?"), _advice_open_norm(s.get("advice", ""))) for s in sums],
@@ -503,7 +519,7 @@ print("形状自评 ·", tid, "· 对比最近", len(R), "场:", "、".join(eid 
 print("=" * 70)
 
 SCALARS = ["人数","轮数","每轮帖数","钩子数","钩子分布","钩子作者类型","钩子带答案表","选角语气收尾","选角代词起手","选角长度离散","二轮全反一轮","二轮同轮追击","二轮点名起手","二轮火力散布","轮内照抄顺序","首轮全独白","帖尾问句","答案表位次","钩子问号收尾","副标题问号收尾","收尾帖类别","首轮序=选角序","末轮断连","末轮认错起手","末轮三条式","表态档集合",
-           "用了疑惑","表态覆盖率","带glossary帖数","术语轮次分布","术语加粗","加粗压帖尾","古文帖数","建议带①②③","帖均加粗处","加粗处分布","总结膨胀比","总结数数起手","总结列清单","总结转日常","收尾建议条数","建议编号体例","建议时间锚","建议加粗起手","insight报幕式"]
+           "用了疑惑","表态覆盖率","带glossary帖数","术语轮次分布","术语加粗","加粗压帖尾","古文帖数","建议带①②③","帖均加粗处","加粗处分布","总结膨胀比","总结数数起手","总结列清单","总结转日常","收尾建议条数","建议编号体例","建议时间锚","建议加粗起手","insight报幕式","同场起手撞车"]
 flags = []
 print("\n%-14s %-22s %s" % ("维度", "本场", "最近几场"))
 print("-" * 70)
@@ -512,7 +528,7 @@ for k in SCALARS:
     cur = T[k]
     # 连号判定：与最近≥2场全部相同 → 模板（但「空/0/False」是『该特征没用上』，不算模板，跳过）
     same_tail = recent_vals[-2:] if len(recent_vals) >= 2 else recent_vals
-    trivial = cur in (0, 0.0, False, "", (), None)
+    trivial = cur in (0, 0.0, False, "", (), None, "无")
     streak = (not trivial) and len(same_tail) >= 2 and all(v == cur for v in same_tail)
     mark = " ⚠️ 连号" if streak else ""
     if streak:

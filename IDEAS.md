@@ -156,6 +156,7 @@
 - [ ] 人生的几个时钟对不上，该迁就哪一个？  <!--clocks-out-of-phase-->
 - [ ] 「适者生存」能用来解释社会吗？  <!--social-darwinism-->
 - [ ] 为什么『不做』从来不用被追责？  <!--inaction-goes-unaudited-->
+- [ ] 该去带人，还是把手艺做深？  <!--manager-or-ic-->
 
 ---
 

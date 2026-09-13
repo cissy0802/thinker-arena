@@ -2,15 +2,6 @@
   "_comment": "议题投票数据。candidates=未辩候选(供投票)，debated=已辩(链到辩论)。投票免 GitHub 登录，存于自建后端(Cloudflare Worker + D1，见 ~/Desktop/cissy0802.github.io/engage-backend/)：每候选一个 poll，key='topic:'+id，choice up/down，净票=👍−👎。votes 字段由 routine 每次跑 `python3 refresh_votes.py`(读后端 /votes-net) 回写；页面 ideas.js 也会实时拉取覆盖显示。观众自提议题在评论 page='thinker-open-questions'，各候选下讨论 page='topic:'+id——routine 读这些把好提案提炼成新 candidates。新候选加进 candidates 即可。",
   "candidates": [
     {
-      "id": "moral-universals-or-relativism",
-      "votes": 0,
-      "q": "有没有放之四海皆准的美德？",
-      "q_en": "Are there virtues that hold everywhere?",
-      "note": "还是说善恶本就因文化、因时代而异？　我们该向谁的道德看齐？　同一件事，一处的美德可能是另一处的恶习：孝顺、忠诚、勇敢的内容随文化而变，甚至彼此冲突。道德是可跨文明求真的『一套』，还是各有各的约定？休谟的『是与应当』、尼采的价值重估、孔子的礼、人类学的文化相对论各执一端——若无共同标尺，宽容与批判又各以何为据？",
-      "note_en": "Or do good and evil simply vary with culture and era? whose morality should we measure by? The same act can be a virtue in one place and a vice in another: the content of filial duty, loyalty and courage shifts with culture and can even conflict. Is morality a single truth pursuable across civilisations, or a set of local conventions? Hume's is–ought gap, Nietzsche's revaluation of values, Confucian ritual and anthropological cultural relativism pull in different directions — and without a shared measure, on what do tolerance and critique each rest?",
-      "cat": "ethics"
-    },
-    {
       "id": "beauty-as-capital",
       "votes": 0,
       "q": "外貌在多大程度上是一种『资本』？",
@@ -24,8 +15,8 @@
       "votes": 0,
       "q": "当『裁员』改叫『优化』，我们还判断得了吗？",
       "q_en": "When layoffs are renamed optimization, can we still judge?",
-      "note": "委婉语、行话与口号如何不禁止你开口就替你预设结论。　委婉语、行话与政治口号如何在不禁止你开口的情况下替你预设结论；乔姆斯基的『制造同意』，普通人识破话术、还原朴素事实的自保之道。　也含法律/金融/学术『黑话』——是必要的精确，还是把人挡在门外的墙？清晰表达是不是一种被低估的正义（鲁迅白话之问）。　同一种操作的另一面：把一个选择重述成『规律』——宇宙法则、优胜劣汰、人性本贪、市场自会决定——责任就从选择者身上转移给了世界。检验的办法或许是看引用之后紧接着要做的那个动作。　也含道歉的通货膨胀：当企业公告、明星声明与政客致辞都学会了那套完整话术——说清做了什么、承认规矩、承诺改进、给出补偿——每一步都能被排练、外包、由公关审过。当动作本身不再稀缺，受损的一方还剩什么判据可用：赔偿的金额、规则被重新执行的证据，还是那个人此后真的付出了代价？　相邻角度（谁的说法算数）：能拿出合同、考勤、诊断书、聊天记录的人，与只有口头约定、现金结算、说不清时间线的人，从来不在同一条起跑线上。一旦『拿得出证据』成为可信的前提，最需要被相信的人反而最先出局——留痕的能力该不该被当成一种要分配的资源？",
-      "note_en": "How euphemism, jargon and slogans preset your conclusions without ever forbidding you to speak; Chomsky's 'manufacturing consent,' and how an ordinary person sees through the spin and restores the plain fact. It also covers legal/financial/academic jargon — necessary precision, or a wall that keeps people out? Is plain speech an underrated form of justice (Lu Xun's vernacular question)? The same manoeuvre has another face: restate a choice as a 'law' — of the cosmos, of survival of the fittest, of human greed, of the market — and responsibility passes from the chooser to the world. The test may be to watch the action that follows immediately after the citation. It also covers the inflation of apology: now that corporate statements, celebrity notes and political addresses have all learnt the full script — state the act, acknowledge the rule, promise the change, offer redress — every step can be rehearsed, outsourced and cleared by a communications team. When the gestures are no longer scarce, what criteria are left to the injured party: the size of the restitution, the evidence that the rule is enforced again, or whether the person actually bore a cost afterwards? An adjacent angle, whose account counts: people who can produce contracts, timesheets, medical records and chat logs have never stood on the same line as those with verbal agreements, cash payments and a timeline they cannot pin down. Once producing evidence becomes the precondition of being believed, those who most need belief are the first disqualified — should the ability to leave a record be treated as a resource to be distributed?",
+      "note": "委婉语、行话与口号如何不禁止你开口就替你预设结论。　委婉语、行话与政治口号如何在不禁止你开口的情况下替你预设结论；乔姆斯基的『制造同意』，普通人识破话术、还原朴素事实的自保之道。　也含法律/金融/学术『黑话』——是必要的精确，还是把人挡在门外的墙？清晰表达是不是一种被低估的正义（鲁迅白话之问）。　同一种操作的另一面：把一个选择重述成『规律』——宇宙法则、优胜劣汰、人性本贪、市场自会决定——责任就从选择者身上转移给了世界。检验的办法或许是看引用之后紧接着要做的那个动作。　也含道歉的通货膨胀：当企业公告、明星声明与政客致辞都学会了那套完整话术——说清做了什么、承认规矩、承诺改进、给出补偿——每一步都能被排练、外包、由公关审过。当动作本身不再稀缺，受损的一方还剩什么判据可用：赔偿的金额、规则被重新执行的证据，还是那个人此后真的付出了代价？　相邻角度（谁的说法算数）：能拿出合同、考勤、诊断书、聊天记录的人，与只有口头约定、现金结算、说不清时间线的人，从来不在同一条起跑线上。一旦『拿得出证据』成为可信的前提，最需要被相信的人反而最先出局——留痕的能力该不该被当成一种要分配的资源？　另一面是译不出来的词：甘え、面子、孝、saudade 在别的语言里没有对应项，于是任何通用清单都天然偏向易译的那部分。",
+      "note_en": "How euphemism, jargon and slogans preset your conclusions without ever forbidding you to speak; Chomsky's 'manufacturing consent,' and how an ordinary person sees through the spin and restores the plain fact. It also covers legal/financial/academic jargon — necessary precision, or a wall that keeps people out? Is plain speech an underrated form of justice (Lu Xun's vernacular question)? The same manoeuvre has another face: restate a choice as a 'law' — of the cosmos, of survival of the fittest, of human greed, of the market — and responsibility passes from the chooser to the world. The test may be to watch the action that follows immediately after the citation. It also covers the inflation of apology: now that corporate statements, celebrity notes and political addresses have all learnt the full script — state the act, acknowledge the rule, promise the change, offer redress — every step can be rehearsed, outsourced and cleared by a communications team. When the gestures are no longer scarce, what criteria are left to the injured party: the size of the restitution, the evidence that the rule is enforced again, or whether the person actually bore a cost afterwards? An adjacent angle, whose account counts: people who can produce contracts, timesheets, medical records and chat logs have never stood on the same line as those with verbal agreements, cash payments and a timeline they cannot pin down. Once producing evidence becomes the precondition of being believed, those who most need belief are the first disqualified — should the ability to leave a record be treated as a resource to be distributed? The other face is the untranslatable word: amae, mianzi, xiao, saudade have no equivalents elsewhere, so any general-purpose list is structurally biased towards whatever translates easily.",
       "cat": "ethics"
     },
     {
@@ -60,8 +51,8 @@
       "votes": 0,
       "q": "不用钱来分，就更公平吗？",
       "q_en": "Is an allocation made without money any fairer?",
-      "note": "排队、抽签、按需要、按资历、按人脉、按行政审批——把稀缺的好东西移出市场之后，这些方式各自会滋生什么样的腐蚀？排队奖励有闲的人，认定需要的权力立刻成为新的稀缺资源，靠关系分配则把价码压进不透明也无法拒绝的人情。器官名单、学区、公立医院的加号、稀缺岗位的推荐，谁在这些规则下赢，谁被悄悄挡在门外？ 同一问题在组织内部的版本是背书与推荐：当机会靠同事的作证与人脉分配，怎样的可核查标准才能把健康的同侪见证与小圈子的互相抬轿分开？ 同一件事在评价与机会上的版本：取消考试、取消绩效、取消公开评审、去掉层级之后，判断并没有消失，只是从纸面挪进了饭局，先得利的往往是有关系、有出身、说得上话的人；可程序与留痕也确实能把人压成可计量的形状。韦伯把科层制看作对人身依附的解放——不认人、只认规则，正是弱者第一次能够申诉的凭据。　还有一层难处在于标的本身不可切分：一套自住房、一幅画、一家公司、一个器官名额。多数分配理论默认东西可以按份数切开，而现实里最要紧的东西往往只能整给一个人——于是父母守着房子不敢请护工，孩子在最需要的年纪一分也拿不到。不可逆、不可分的东西该按什么规则分？",
-      "note_en": "Queues, lotteries, need, seniority, connections, administrative approval — once a scarce good is taken off the market, what corruption does each of these breed? Queues reward those with time to spare; the power to certify need instantly becomes the new scarce resource; allocation through connections buries the price in favours that are neither transparent nor refusable. Organ lists, school catchments, the extra slot at a public hospital, the referral into a scarce job: who wins under these rules, and who is quietly kept out? The same question inside an organisation takes the form of endorsement and referral: when opportunity is allocated by colleagues vouching for one another, what checkable standard separates honest peer testimony from a clique boosting its own? The same question in the register of appraisal and opportunity: abolish the exam, the performance review, the open evaluation, the hierarchy itself, and judgement does not disappear — it simply moves off the page and into the dinner, where the first to gain are those with connections, background and access. Yet procedure and paperwork really do press people into measurable shapes. Weber saw bureaucracy as liberation from personal dependence: rules that recognise no faces are the first thing a weak party can appeal to. A further difficulty is that the good itself may be indivisible: one home, one painting, one company, one place on a transplant list. Most theories of allocation assume things can be cut into shares, while what matters most in practice can usually go whole to only one person — so parents sit on a house rather than hire care, and the child gets nothing in the years he needs it. By what rule should the indivisible and the irreversible be divided?",
+      "note": "排队、抽签、按需要、按资历、按人脉、按行政审批——把稀缺的好东西移出市场之后，这些方式各自会滋生什么样的腐蚀？排队奖励有闲的人，认定需要的权力立刻成为新的稀缺资源，靠关系分配则把价码压进不透明也无法拒绝的人情。器官名单、学区、公立医院的加号、稀缺岗位的推荐，谁在这些规则下赢，谁被悄悄挡在门外？ 同一问题在组织内部的版本是背书与推荐：当机会靠同事的作证与人脉分配，怎样的可核查标准才能把健康的同侪见证与小圈子的互相抬轿分开？ 同一件事在评价与机会上的版本：取消考试、取消绩效、取消公开评审、去掉层级之后，判断并没有消失，只是从纸面挪进了饭局，先得利的往往是有关系、有出身、说得上话的人；可程序与留痕也确实能把人压成可计量的形状。韦伯把科层制看作对人身依附的解放——不认人、只认规则，正是弱者第一次能够申诉的凭据。　还有一层难处在于标的本身不可切分：一套自住房、一幅画、一家公司、一个器官名额。多数分配理论默认东西可以按份数切开，而现实里最要紧的东西往往只能整给一个人——于是父母守着房子不敢请护工，孩子在最需要的年纪一分也拿不到。不可逆、不可分的东西该按什么规则分？　另一支是圣洁与禁忌：有些东西一旦可以标价、可以讨价还价，就再也守不住——那这一类东西该由什么来守？",
+      "note_en": "Queues, lotteries, need, seniority, connections, administrative approval — once a scarce good is taken off the market, what corruption does each of these breed? Queues reward those with time to spare; the power to certify need instantly becomes the new scarce resource; allocation through connections buries the price in favours that are neither transparent nor refusable. Organ lists, school catchments, the extra slot at a public hospital, the referral into a scarce job: who wins under these rules, and who is quietly kept out? The same question inside an organisation takes the form of endorsement and referral: when opportunity is allocated by colleagues vouching for one another, what checkable standard separates honest peer testimony from a clique boosting its own? The same question in the register of appraisal and opportunity: abolish the exam, the performance review, the open evaluation, the hierarchy itself, and judgement does not disappear — it simply moves off the page and into the dinner, where the first to gain are those with connections, background and access. Yet procedure and paperwork really do press people into measurable shapes. Weber saw bureaucracy as liberation from personal dependence: rules that recognise no faces are the first thing a weak party can appeal to. A further difficulty is that the good itself may be indivisible: one home, one painting, one company, one place on a transplant list. Most theories of allocation assume things can be cut into shares, while what matters most in practice can usually go whole to only one person — so parents sit on a house rather than hire care, and the child gets nothing in the years he needs it. By what rule should the indivisible and the irreversible be divided? A further strand is sanctity and taboo: some things cannot be held at all once they can be priced and haggled over — so what is supposed to hold them?",
       "cat": "ethics"
     },
     {
@@ -105,8 +96,8 @@
       "votes": 0,
       "q": "旅行者来了之后，当地人得到了什么？",
       "q_en": "When the travellers arrive, what do the locals get?",
-      "note": "民宿把长租房源抽走、老街按游客的口味重做一遍、旺季挤到本地人自己出不了门——旅游带来的收入与代价从来不落在同一批人身上。一边是它确实养活了整条街的生计、也是许多地方唯一的外部收入；一边是房租、水源、公共空间被一种可以随时离开的需求重新定价。旅行者有没有义务了解自己的重量？该由谁来定这个限度——市场、当地政府，还是住在那里的人？同一把尺也量得到数字游民与短租平台。",
-      "note_en": "Short-let listings drain the long-term rental stock, old streets are remade to a visitor's taste, and in peak season residents cannot get through their own town — the income tourism brings and the costs it imposes never land on the same people. On one side it genuinely feeds a whole street and is the only outside income many places have; on the other, rents, water and public space get repriced by a demand that can leave at any moment. Do travellers owe it to a place to understand their own weight? And who should set the limit — the market, the local authority, or the people who live there? The same ruler reaches digital nomads and short-let platforms.",
+      "note": "民宿把长租房源抽走、老街按游客的口味重做一遍、旺季挤到本地人自己出不了门——旅游带来的收入与代价从来不落在同一批人身上。一边是它确实养活了整条街的生计、也是许多地方唯一的外部收入；一边是房租、水源、公共空间被一种可以随时离开的需求重新定价。旅行者有没有义务了解自己的重量？该由谁来定这个限度——市场、当地政府，还是住在那里的人？同一把尺也量得到数字游民与短租平台。　更结构的一面：与其补贴人离开、去有机会的地方，不如把机会修到人所在的地方？两条路见效速度与代价都不同，而承担的从来不是同一批人；走掉的人留下的空缺，又由谁来补。",
+      "note_en": "Short-let listings drain the long-term rental stock, old streets are remade to a visitor's taste, and in peak season residents cannot get through their own town — the income tourism brings and the costs it imposes never land on the same people. On one side it genuinely feeds a whole street and is the only outside income many places have; on the other, rents, water and public space get repriced by a demand that can leave at any moment. Do travellers owe it to a place to understand their own weight? And who should set the limit — the market, the local authority, or the people who live there? The same ruler reaches digital nomads and short-let platforms. There is a more structural face to the same question: is it better to subsidise people to move to where the opportunities are, or to build the opportunities where the people already live? The two routes differ in speed and in cost, the costs never fall on the same people, and whoever leaves also leaves a gap that somebody has to fill.",
       "cat": "ethics"
     },
     {
@@ -155,15 +146,6 @@
       "cat": "life"
     },
     {
-      "id": "move-or-build",
-      "q": "该让人去有机会的地方，还是把机会带到人所在的地方？",
-      "q_en": "Should people be moved to where the opportunities are, or opportunity brought to where the people are?",
-      "note": "补贴迁移、放宽落户与签证，见效快，却把走掉的人原来那个地方抽得更空——留下的多是老人与走不动的人；修基础设施、统一规则、把小市场连成大市场，慢而贵，却不要求任何人离开亲人。两条路的代价落在完全不同的人身上：一条要个人承担离散，一条要纳税人承担账单。谁有资格替一个正在收缩的地方决定它该被连上还是被放弃？地理经济学、迁移研究与乡土伦理可以正面相撞。　还有个人侧的一支：换场子常被默认成免费的，可它的价格恰恰对最需要换的人最高——签证、职级、执照、房贷、孩子的学籍、配偶的工作、社保年限，都是只对留下来的人才计息的资产。于是最有条件走的是本来就没多少沉没成本的年轻人，最需要走的却是在一个不再奖励他的地方熬了十年的人。若结论是「该让人去有机会的地方」，是不是必须配上一句「因此可换性要提前买」：技能做成可迁移的、关系铺到本行业之外、收入别只挂在一个地方。",
-      "note_en": "Subsidised relocation and looser residence or visa rules work fast, and they hollow out the places the movers left, where mostly the old and the immobile remain. Infrastructure, common rules and small markets joined into large ones are slow and expensive, and ask nobody to leave their family. The costs land on entirely different people: one path charges individuals in separation, the other charges taxpayers in money. Who is entitled to decide, for a shrinking place, whether it gets connected or written off? Economic geography, migration research and the ethics of attachment to a place can meet head on. There is also an individual-scale strand: moving is usually treated as free, yet its price is highest for exactly those who most need it — visas, seniority, licences, a mortgage, a child's school place, a spouse's job, accrued benefits are all assets that pay interest only to those who stay. So the people best placed to leave are the young with little sunk cost, while those who most need to leave have spent ten years somewhere that stopped rewarding them. If the conclusion is 'move people to where the opportunity is', must it come with a rider that switchability has to be bought in advance — portable skills, relationships outside your own industry, income that does not hang on one hook?",
-      "cat": "ethics",
-      "votes": 0
-    },
-    {
       "id": "beyond-shared-experience",
       "votes": 0,
       "q": "没共同经历的人，还能互相理解吗？",
@@ -207,6 +189,24 @@
       "note": "改变要签字、要立项、要有人背，维持现状不用；于是每一次拖延都被记成谨慎，而它的账单——机会关掉、人走光、病拖重、关系凉透——从来不入账。审批慢死的人不进统计，批得快出事的人上头条；一个部门拖了两年不决定，没有人为此写检讨。这既是心理层面的现状偏误，也是制度层面的激励：作为的错误看得见、有名字，不作为的错误看不见、没有署名。　组织内部的版本是会议：集体里的审慎常常不在求真，而在生产免责证据——再开一次会、再要一份数据，为的是万一出事能指着流程说我们尽到了责任；它的迹象是连着几轮没有新论据，人数却一直在涨，因为拖延的好处归在场每个人、成本归那个项目。　可用的旋钮似乎都在治理这一侧：指派具名负责人并写下日期、事前写明『若一年后什么都不变，我们要付什么』、把『不决定』做成一个同样需要签字的选项。但反面同样真实——让不作为也要担责，会不会逼出大量只为留痕的瞎动作，把风险从不动挪到乱动？",
       "note_en": "Change requires a signature, a proposal, someone to carry it; keeping things as they are requires none. So every delay is booked as prudence while its bill — the opportunity closed, the people who left, the illness allowed to worsen, the relationship gone cold — never enters the ledger. Those who die waiting for approval are not in the statistics; those harmed by a fast approval make the headlines. A department that fails to decide for two years writes no post-mortem. This is status-quo bias at the psychological level and an incentive structure at the institutional one: errors of commission are visible and signed, errors of omission are invisible and anonymous. The organisational version of it is the meeting: deliberation inside a group is often not truth-seeking but the manufacture of exculpatory evidence — one more meeting, one more data request, so that if things go wrong someone can point at the process. Its tell is several rounds with no new argument while the attendee list keeps growing, because the benefit of delay is shared by everyone present and the cost falls on the project alone. The available dials all seem to sit on the governance side: a named owner with a written date, a prior statement of what it will cost if nothing has changed in a year, and making 'no decision' an option that also requires a signature. But the reverse is just as real — would holding people to account for inaction simply force out a mass of activity performed for the record, moving the risk from not moving to moving badly?",
       "cat": "work"
+    },
+    {
+      "id": "shame-still-binds",
+      "votes": 0,
+      "q": "羞耻还管得住人吗？",
+      "q_en": "Does shame still hold anyone in place?",
+      "note": "一条规矩靠什么真正生效——法律、邻里的眼光、羞耻，还是神？熟人之间的羞耻惩罚温和而有余地，因为明天还要见面；陌生人的审判快、重、无从申辩。当执法权从邻居转到算法推荐，我们究竟换掉了道德的哪一部分？这也解释了一件怪事：一个人换了城市、换了行业、换了每天刷到的圈子，道德口味跟着变，却没有被谁说服过。",
+      "note_en": "What actually makes a rule bite — the law, the neighbours' eyes, shame, or God? Shame among people who know you is mild and leaves room, because you will meet again tomorrow; judgement by strangers is fast, heavy and offers no appeal. When enforcement passes from the neighbour to the recommendation algorithm, which part of morality have we replaced? It also explains an oddity: change your city, your industry or the circle that fills your feed, and your moral palate shifts without anyone having persuaded you of anything.",
+      "cat": "ethics"
+    },
+    {
+      "id": "when-to-change-a-rule",
+      "votes": 0,
+      "q": "一条老规矩，什么时候该改？",
+      "q_en": "When should an old rule be changed?",
+      "note": "守多久算固执，改多快算随波逐流？切斯特顿说，看不出篱笆为什么立在那里就先别拆；可有些篱笆的立法者早已不在，当初要防的野兽也早绝迹。宪法有修正程序，教规有解经传统，佛门有『随方毗尼』——可依地方因缘调整，根本戒不动；公司流程则常常无人负责废止。难处始终是同一个：谁来判定哪一条是根本，而这个判定本身又归谁管？",
+      "note_en": "How long is holding firm, and how fast is drift? Chesterton said not to pull down a fence until you know why it was put up; yet some fences outlive both the people who built them and the beasts they were meant to keep out. Constitutions have amendment procedures, religions have traditions of interpretation, Buddhist discipline may be adjusted to local conditions while the root precepts stay fixed — and company processes usually have nobody responsible for repealing them. The difficulty is always the same: who decides which rules are root, and who governs that decision in turn?",
+      "cat": "ethics"
     }
   ],
   "debated": [
@@ -1007,6 +1007,13 @@
       "q_en": "Who does the work of keeping people together?",
       "date": "2026-09-12",
       "cat": "life"
+    },
+    {
+      "id": "moral-universals-or-relativism",
+      "q": "有没有放之四海皆准的美德？",
+      "q_en": "Are there virtues that hold everywhere?",
+      "date": "2026-09-13",
+      "cat": "ethics"
     }
   ]
 }

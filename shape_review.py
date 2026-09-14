@@ -103,6 +103,28 @@ def _same_debate_open_clash(sums):
     return "/".join(clashed) if clashed else "无"
 
 
+def _same_debate_open_clash_norm(sums):
+    """同场起手撞车的『去水版』：把加粗号、序号、时间词、数词与量词抹掉再比前四字。
+    逐字版只抓得住完全一样的开头，抓不住『**这周挑一条规矩…』与『本周挑一件最
+    影响你的事…』这种同一副模子、只换量词与填充词的撞车——claude 自撰与真实 API
+    的两家最容易在 advice 上这样撞。返回撞车的字段名。"""
+    clashed = []
+    for field in ("summary", "insight", "advice"):
+        heads = []
+        for s in sums:
+            t = (s.get(field, "") or "").replace("**", "").lstrip()
+            t = re.sub(r"^\d+\s*[\.、)）]\s*", "", t)
+            t = re.sub(r"[，。：、；！？\s（）()]", "", t)
+            t = re.sub(r"本周|这周|今天|当天|当下|眼下|马上|即刻|下周", "＊", t)
+            t = re.sub(r"[一二三四五六七八九两]", "N", t)
+            t = re.sub(r"[条件个项种张次件件]", "＊", t)
+            if t:
+                heads.append(t[:4])
+        if len(heads) != len(set(heads)):
+            clashed.append(field)
+    return "/".join(clashed) if clashed else "无"
+
+
 def _advice_open_norm(txt):
     """advice 起手式的『去水版』：把随场次变动的填充词抹掉再比，
     好让『结合全场智慧』『综合各家智慧』『结合诸家之言』这类同模子异措辞撞在一起。"""
@@ -516,6 +538,8 @@ def feats(d):
         "insight全景起手": _insight_panorama_open(sums),
         # 同一场内三家 AI 的 summary/insight/advice 起手撞车（跨场比对查不出这一种）
         "同场起手撞车": _same_debate_open_clash(sums),
+        # 同场起手撞车的去水版：抹掉加粗号/序号/时间词/数词量词后再比前四字
+        "同场起手撞车(去水)": _same_debate_open_clash_norm(sums),
         "_insight_open": [(s.get("ai", "?"), (s.get("insight", "") or "")[:5]) for s in sums],
         "_advice_open": [(s.get("ai", "?"), (s.get("advice", "") or "")[:6]) for s in sums],
         "_advice_open_norm": [(s.get("ai", "?"), _advice_open_norm(s.get("advice", ""))) for s in sums],
@@ -530,7 +554,7 @@ print("形状自评 ·", tid, "· 对比最近", len(R), "场:", "、".join(eid 
 print("=" * 70)
 
 SCALARS = ["人数","轮数","每轮帖数","钩子数","钩子分布","钩子作者类型","钩子带答案表","选角语气收尾","选角代词起手","选角长度离散","二轮全反一轮","二轮同轮追击","二轮点名起手","二轮火力散布","轮内照抄顺序","首轮全独白","帖尾问句","答案表位次","钩子问号收尾","副标题问号收尾","收尾帖类别","首轮序=选角序","末轮断连","末轮认错起手","末轮三条式","表态档集合",
-           "用了疑惑","表态覆盖率","带glossary帖数","术语轮次分布","术语加粗","加粗压帖尾","古文帖数","建议带①②③","帖均加粗处","加粗处分布","总结膨胀比","总结数数起手","总结列清单","总结转日常","收尾建议条数","建议编号体例","建议时间锚","建议加粗起手","insight报幕式","insight全景起手","同场起手撞车"]
+           "用了疑惑","表态覆盖率","带glossary帖数","术语轮次分布","术语加粗","加粗压帖尾","古文帖数","建议带①②③","帖均加粗处","加粗处分布","总结膨胀比","总结数数起手","总结列清单","总结转日常","收尾建议条数","建议编号体例","建议时间锚","建议加粗起手","insight报幕式","insight全景起手","同场起手撞车","同场起手撞车(去水)"]
 flags = []
 print("\n%-14s %-22s %s" % ("维度", "本场", "最近几场"))
 print("-" * 70)

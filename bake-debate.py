@@ -25,7 +25,7 @@ DEFAULT = {"voice": "zh-CN-XiaoxiaoMultilingualNeural"}
 #      a same-character fallback when two speakers in ONE debate would collide.
 _th = json.load(open(REPO / "thinkers.json"))
 THINKERS = {t["id"]: t for t in (_th.get("thinkers") if isinstance(_th, dict) else _th)}
-FEMALE = {"arendt","beauvoir","nussbaum","sontag","carstensen","dweck","wood","wolf","boroditsky"}
+FEMALE = {"arendt","beauvoir","nussbaum","sontag","carstensen","dweck","wood","wolf","boroditsky","maslach"}
 # NB: Xiaoshuang / Xiaoyou are Azure's CHILD voices — excluded so no thinker
 # or AI closer sounds like a kid. Pool is adult/mature female voices only.
 # Preferred first: Xiaohan/Xiaoyan/Xiaozhen (natural, unfussy). Xiaorui is

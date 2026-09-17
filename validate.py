@@ -12,7 +12,9 @@
       三家 AI 收尾的 summary / insight / advice 各段——
       上限 250 对三家硬卡(ERROR)；下限 150 对 claude 硬卡(ERROR)，
       对 gpt/gemini 仅 WARN(真实 API 产出，不为凑字数注水)。
-      帖子正文：第1/2轮 >230 或 第3轮 >340 仅 WARN。
+      帖子正文：第1/2轮 >200 或 第3轮 >240 仅 WARN。
+      反棚化（防字数棘轮，全 WARN）：每帖均值 >200 / 正文总字 >5200 /
+      钩子单条 >150 或均值 >120——软上限只在『越写越长』时才响。
 """
 import json, re, sys
 
@@ -28,7 +30,7 @@ def cn(s):
     return len(re.findall(r"[一-鿿]", s or ""))
 
 def main(path):
-    errs, warns = [], []
+    errs, warns, longp = [], [], []
     th = {t["id"] for t in json.load(open("thinkers.json"))["thinkers"]}
     prof = json.load(open("profiles.json"))["profiles"]
     d = json.load(open(path))
@@ -100,14 +102,27 @@ def main(path):
                 if w == p["thinker"]:
                     errs.append(f"{p['id']} 自我表态: {w}")
         n = cn(p["text"])
-        cap = 340 if p["round"] == 3 else 230
+        cap = 240 if p["round"] == 3 else 200
         if n > cap:
-            warns.append(f"{p['id']}(第{p['round']}轮) 正文 {n} 字，偏长(>{cap})")
+            longp.append(f"{p['id']}/{n}")
 
     for r in sorted(rounds):
         miss = set(parts) - rounds[r]
         if miss:
             errs.append(f"第{r}轮缺席: {miss}")
+
+    # ---- 反字数棘轮（只 WARN）：单帖上限管得住outlier，管不住整体上浮，
+    # 所以再看两个场级总量——历史上它们从 ~170 字/帖一路漂到 ~200。
+    if longp:
+        # 一场胖起来时会有七八帖同时超标，逐帖刷屏会把下面的反锚定 WARN 淹掉
+        warns.append(f"正文偏长 {len(longp)} 帖(软线 1/2轮200、3轮240): " + " ".join(longp))
+    body = [cn(p["text"]) for p in d["posts"]]
+    if body:
+        tot, avg = sum(body), sum(body) / len(body)
+        if avg > 200:
+            warns.append(f"反棚化：每帖均 {avg:.0f} 字（软线 200）——删句别加句，目标 120–180")
+        if tot > 5200:
+            warns.append(f"反棚化：正文共 {tot} 字（软线 5200）——整场偏胖，砍掉重复的论证")
 
     # 本场钩子（前端渲染的双语延伸角度）：缺失仅 WARN；若有，逐条校验 from/text/text_en
     hooks = d.get("hooks")
@@ -121,6 +136,12 @@ def main(path):
             for k in ("text", "text_en"):
                 if not h.get(k):
                     errs.append(f"hooks[{i}] 缺 {k}")
+        hl = [cn(h.get("text", "")) for h in hooks]
+        lh = [f"#{i}/{n}" for i, n in enumerate(hl) if n > 150]
+        if lh:
+            warns.append("钩子偏长(软线150): " + " ".join(lh) + "——钩子是一句话的引子")
+        if hl and sum(hl) / len(hl) > 120:
+            warns.append(f"反棚化：钩子均 {sum(hl)/len(hl):.0f} 字（软线 120）——留白，别写成小结")
 
     ais = {s["ai"] for s in d["summaries"]}
     if ais != {"claude", "gpt", "gemini"}:

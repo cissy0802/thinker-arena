@@ -39,7 +39,14 @@
   function mdBold(s) {
     return String(s == null ? "" : s).replace(/\*\*([^*]+?)\*\*/g, "<strong>$1</strong>");
   }
-  function tk(id) { return THINKERS[id] || { name: id, name_en: id, char: "?", color: "#888", fg: "#fff", school: "" }; }
+  function tk(id) {
+    var t = THINKERS[id];
+    if (t) return t;
+    // 名册里查不到：页面会显示裸 id + 灰问号头像，且点头像进不了图鉴。
+    // 几乎总是「thinkers.json 是旧副本」而不是真的漏了人——喊出来，别闷声退化。
+    console.warn("[thinker-arena] thinkers.json 里没有 " + id + "：多半是缓存了旧名册，强制刷新(Ctrl/Cmd+Shift+R)试试");
+    return { name: id, name_en: id, char: "?", color: "#888", fg: "#fff", school: "" };
+  }
   function nameOf(c) { return pick(c, "name"); }
   function glyph(card) { return (LANG === "en" && card.char_en) ? card.char_en : card.char; }
   function avatar(card, size) {
@@ -574,7 +581,12 @@
       '<div class="err"><p><b>无法加载数据 / Failed to load</b></p><p>' + msg + "</p>" +
       "<p>本地预览请先起服务器: <code>python3 -m http.server 8080</code></p></div>";
   }
-  function getJSON(u) { return fetch(u).then(function (r) { if (!r.ok) throw new Error(u + " HTTP " + r.status); return r.json(); }); }
+  function getJSON(u) {
+    // cache:"no-cache" = 带 ETag 的条件请求（命中就 304，几乎不花流量），不是禁用缓存。
+    // 名册/图鉴是「随每场辩论一起更新」的共享数据：浏览器沿用旧副本时，新思想家会
+    // 查不到而退化成裸 id（见 tk()），看起来就像「人物卡漏了」。这里强制每次校验。
+    return fetch(u, { cache: "no-cache" }).then(function (r) { if (!r.ok) throw new Error(u + " HTTP " + r.status); return r.json(); });
+  }
 
   // The baked MP3s left this repo for R2 (they were 591MB of the 598MB here),
   // and are served by the bigcat-audio Worker. The manifest still stores the

@@ -30,7 +30,10 @@
     });
   }
   function getJSON(u) {
-    return fetch(u).then(function (r) { if (!r.ok) throw new Error(u + " HTTP " + r.status); return r.json(); });
+    // cache:"no-cache" = 带 ETag 的条件请求（命中就 304，几乎不花流量），不是禁用缓存。
+    // 名册/图鉴是「随每场辩论一起更新」的共享数据：浏览器沿用旧副本时，新思想家会
+    // 查不到而退化成裸 id（见 tk()），看起来就像「人物卡漏了」。这里强制每次校验。
+    return fetch(u, { cache: "no-cache" }).then(function (r) { if (!r.ok) throw new Error(u + " HTTP " + r.status); return r.json(); });
   }
   function glyph(card) { return (LANG === "en" && card.char_en) ? card.char_en : card.char; }
   function av(card, size) {

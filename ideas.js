@@ -83,7 +83,12 @@
       return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
     });
   }
-  function getJSON(u) { return fetch(u).then(function (r) { if (!r.ok) throw new Error(u + " HTTP " + r.status); return r.json(); }); }
+  function getJSON(u) {
+    // cache:"no-cache" = 带 ETag 的条件请求（命中就 304，几乎不花流量），不是禁用缓存。
+    // 名册/图鉴是「随每场辩论一起更新」的共享数据：浏览器沿用旧副本时，新思想家会
+    // 查不到而退化成裸 id（见 tk()），看起来就像「人物卡漏了」。这里强制每次校验。
+    return fetch(u, { cache: "no-cache" }).then(function (r) { if (!r.ok) throw new Error(u + " HTTP " + r.status); return r.json(); });
+  }
 
   // ---- voter identity: an account (one vote per person, enforced server-side)
   // The old random localStorage id is gone; net tallies stay public to all.

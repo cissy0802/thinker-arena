@@ -29,6 +29,12 @@
       return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
     });
   }
+  // 名册/图鉴随每场辩论更新，但站点由 hub 的根域脚本包着，中间可能还压着
+  // 我们管不到的缓存层（root scope 的 service worker 会拦下 /thinker-arena/* ，
+  // 连硬刷新都不一定绕得过）。cache:"no-cache" 只管 HTTP 缓存，拦不住它，
+  // 所以再给 URL 挂一个会变的 key——URL 一变就是另一个资源，任何缓存都只能回源。
+  function bust(u, key) { return u + (u.indexOf("?") < 0 ? "?" : "&") + "v=" + encodeURIComponent(key); }
+  function today() { var d = new Date(); return d.getUTCFullYear() + "" + (101 + d.getUTCMonth() + "").slice(1) + (100 + d.getUTCDate() + "").slice(1); }
   function getJSON(u) {
     // cache:"no-cache" = 带 ETag 的条件请求（命中就 304，几乎不花流量），不是禁用缓存。
     // 名册/图鉴是「随每场辩论一起更新」的共享数据：浏览器沿用旧副本时，新思想家会
@@ -147,7 +153,7 @@
     lt.onclick = function () { location.href = OTHER_LANG_URL(); };
   }
 
-  Promise.all([getJSON("thinkers.json"), getJSON("profiles.json")])
+  Promise.all([getJSON(bust("thinkers.json", today())), getJSON(bust("profiles.json", today()))])
     .then(function (res) {
       res[0].thinkers.forEach(function (t) {
         THINKERS[t.id] = t;

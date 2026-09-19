@@ -492,6 +492,11 @@ def feats(d):
         "钩子数": len(hooks),
         "钩子分布": tuple(sorted("%s:%d" % (k, v) for k, v in hb.items())),
         "钩子作者类型": "AI%d/思想家%d" % (_hai, len(hooks) - _hai) if hooks else "-",
+        # 单个作者最多贡献了几条钩子。ENGINE 明说『同一个 AI 可以贡献两三条不同角度』，
+        # 可实际每场都长成『一人一条』——钩子被当成了出场者的署名配额，而不是按角度收。
+        # 这一维不在钩子数、也不在作者类型里（那两维只数总量与 AI/思想家的比例），静态
+        # 规则查不出。恒为 1 ＝ 谁都不许说第二句；某场某人有两条不同角度，才是随内容浮动的样子。
+        "钩子作者最大条数": max(hb.values()) if hooks else "-",
         "选角语气收尾": _casting_tone_tail(d),
         "选角代词起手": _casting_open_pronoun(d),
         # 选角 reason 的长度离散（最长÷最短；~1.0＝每条写得一样长，像同一张表填了 N 遍）

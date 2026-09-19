@@ -158,6 +158,8 @@
 - [ ] 你的权利，记在哪一本账上？  <!--whose-ledger-counts-->
 - [ ] 该磨自己，还是换个地方？  <!--change-self-or-change-place-->
 - [ ] 还有没有不被看见的地方？  <!--place-not-watched-->
+- [ ] 职业思维该不该带回家？  <!--work-mind-at-home-->
+- [ ] 跨学科的「思维模型」是智慧还是半吊子？  <!--models-across-fields-->
 
 ---
 

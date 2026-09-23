@@ -1,0 +1,814 @@
+{
+ "id": "who-owns-the-words",
+ "question": "当『裁员』改叫『优化』，我们还判断得了吗？",
+ "question_en": "When layoffs are renamed optimization, can we still judge?",
+ "sub": "换个说法不禁止你开口，可你还看得见它省掉了谁吗？",
+ "sub_en": "A new word forbids nothing — but can you still see who it left out?",
+ "date": "2026-09-23",
+ "cat": "ethics",
+ "participants": [
+  "xunzi",
+  "chomsky",
+  "arendt",
+  "wittgenstein",
+  "reidhoffman",
+  "boroditsky",
+  "buddha"
+ ],
+ "casting": [
+  {
+   "id": "xunzi",
+   "reason": "名本来是人约出来的，可一经约定就得守住；守不住，『奇辞起，名实乱』，是非与责任跟着一起含混。他把这件事从修辞挪到治理：正名不是争一个字写得好不好，是让每件事都有明确的做事者，让责任找得到人。在他看来，名不是一面镜子，是一张契约——镜子歪了还是镜子，契约没了立约人就什么都不是。",
+   "reason_en": "Names are fixed by human agreement, but once fixed they must be held; let them slip and 'strange phrases arise, names and realities blur,' taking right, wrong and responsibility with them. He moves the question out of rhetoric and into government: rectifying names is not a quarrel over an elegant phrase but a way of ensuring every act has a named doer and every fault somewhere to land. On his view a name is not a mirror but a contract — a tilted mirror is still a mirror, while a contract without a party to it is nothing at all."
+  },
+  {
+   "id": "chomsky",
+   "reason": "委婉语在他看来不是谁一时词穷，是有预算、有岗位、有审稿流程的产物。他的判据不是这个词准不准，而是它替谁省下了一次解释；制造同意从来不靠封嘴，只靠把可讨论的范围先划好，让争论都发生在许可的边界之内。作为语言学家他又拒绝滑向『一切都是叙事』——人数可数、欠薪有凭据，把一切说成同样可疑，正是让最可疑的一方脱身的办法。",
+   "reason_en": "Euphemism, to him, is never someone groping for a word; it is a product with a budget, a headcount and an editorial process. His test is not whether the word is accurate but whom it spares an explanation — manufacturing consent never needed to silence anyone, only to fix in advance the range of what can be argued, so that all the argument happens inside the permitted border. As a linguist he also refuses to slide into 'it is all narrative': headcounts can be counted and unpaid wages leave documents, and declaring everything equally doubtful is exactly how the most doubtful party walks away."
+  },
+  {
+   "id": "arendt",
+   "reason": "她最早看清委婉语真正的听众不是外人：受害者早知道会发生什么，那套统一配发的措辞是说给执行者听的，好让一个人签完字还能回家吃饭。由此她把恶与恶意拆开——恶不需要有人怀着恶意，只需要每个人都恰好不必把那句话说出口。她的解药也不是道德训诫，而是想象力：把另一个具体的人放进自己脑子里的那个能力。",
+   "reason_en": "She was the first to see that a euphemism's real audience is not on the outside: the victims already knew what was coming, and the issued vocabulary was for the men carrying it out, so that a man could sign the order and still go home to dinner. From this she prises evil apart from malice — a crime requires not that anyone intend harm but only that no one ever has to say the sentence out loud. Her remedy is not moral instruction either, but imagination: the capacity to hold one other particular person inside your own head."
+  },
+  {
+   "id": "wittgenstein",
+   "reason": "他不肯接受『掀开词就见到赤裸事实』这个前提：『裁员』也是一个词，并不比『优化』更贴近事情本身，只是在另一套用法里用惯了。他因此拒绝开出一张『哪个词老实』的清单，改给一道手续——看这句话说完之后，下一个动作被许可成了什么。他也提醒朴素话同样有省略：委婉语省掉痛，直白话省掉理由。",
+   "reason_en": "He will not grant the premise that lifting a word reveals a naked fact: 'layoffs' is a word too, no closer to the thing itself than 'optimization', merely worn in by a different usage. So he refuses to issue a list of which words are honest and offers a procedure instead — watch what the next move becomes once the sentence has been said. He also points out that plain speech has its own omissions: euphemism omits the pain, bluntness omits the reason."
+  },
+  {
+   "id": "reidhoffman",
+   "reason": "他自己就给雇佣关系换过词，因此站在被告席上答得最具体：新说法有时确实对应一份新的交易，判断的办法是看它后面有没有跟上新条款。词是免费的，条款要花钱，所以只认要花钱的那部分。他也主张逼一个数字进那个句子——数字进不了委婉语，这是它唯一的弱点；而多数委婉语背后其实是怯懦，不是恶。",
+   "reason_en": "He has renamed the employment relationship himself, which puts him in the dock and makes his answers the most concrete: a new wording sometimes does track a genuinely new deal, and the way to tell is whether new terms arrived behind it. Words are free and terms cost money, so credit only the part that costs money. He also wants a number forced into the sentence — numbers do not fit inside a euphemism, which is its one weakness — and he holds that most euphemism is cowardice rather than evil."
+  },
+  {
+   "id": "boroditsky",
+   "reason": "她把这场争论变成可以测量的东西：同一起事故说成『花瓶碎了』还是『他打碎了花瓶』，受试者事后对责任的判断就不同，而且这类偏置在记忆里也留得下。但她坚持区分量级——换个称呼几天内改得动评价，一个新词进到语感里要几年，母语里方位与性别那一层的偏置要一代人。结论两边都不讨好：既别把措辞之争抬成礼崩乐坏，也别当它等于零。",
+   "reason_en": "She turns the argument into something measurable: describe the same accident as 'the vase broke' or as 'he broke the vase' and subjects afterwards assign blame differently, with the tilt showing up in memory as well. But she insists on magnitudes — a relabeling moves evaluation within days, a new word takes years to settle into what sounds natural, and the biases carried in a native grammar take a generation. The conclusion satisfies neither camp: do not inflate a fight over wording into the collapse of civilization, and do not treat it as nothing."
+  },
+  {
+   "id": "buddha",
+   "reason": "八正道里的正语衡量的不只是话真不真，还有说得是不是时候、对听者有没有益处；辞藻悦耳而于离苦无益者，谓之绮语。他因此把标准从对错挪开：不问你用了哪个词，只问你说这句话时，眼前有没有那个具体的人。他还指出被多数人忽略的一面——说绮语的人自己先受其害，久了便不再知道自己在做什么。",
+   "reason_en": "Right speech, one limb of the Eightfold Path, measures not only whether words are true but whether this is the time for them and whether they benefit the hearer; talk that is pleasant to the ear and useless against suffering is idle speech. He therefore shifts the standard away from accuracy: he does not ask which word you used, only whether a particular person was in front of your eyes as you said it. He also names a side of this that most people miss — the speaker of idle speech is harmed first, until in time he no longer knows what he is doing."
+  }
+ ],
+ "posts": [
+  {
+   "id": "p01",
+   "round": 1,
+   "thinker": "xunzi",
+   "reply_to": null,
+   "text": "名无固宜，约之以命，约定俗成谓之宜；名定而实辨，道行而志通。今名守慢而奇辞起：去人谓之优化，减禄谓之调整，夺其业而曰与之同行。民听之，不知痛之所在，亦不知怨之所归。夫辞愈婉，则怨愈无所附。**正名者，非争一字之工拙，乃使事有主名、罪有所归也。**故君子之于言无所苟；苟于言者，未有不苟于事者也。",
+   "text_en": "Names have no inborn fitness; they are fixed by agreement, and what custom settles is what fits. Once a name is fixed the reality behind it can be told apart, and argument can travel. Today the keepers of names are slack and strange phrases spring up: dismissing people is called optimization, cutting their pay is called adjustment, and stripping a man of his living is called walking alongside him. The people hear it and know neither where the pain is nor whom to resent. The gentler the phrasing, the less a grievance has anything to attach to. **The rectification of names is not a quarrel over an elegant word; it is what gives every act a named doer, so that blame has somewhere to land.** The gentleman is therefore never careless in speech: no one careless in speech has ever been careful in deed.",
+   "vernacular": "名字本来没有天生该叫什么，是人约定出来的；约定俗成了，就算合适。可名一旦定下来，实情才分得清，道理才讲得通。如今守名的人松懈，怪话就冒出来：辞退人叫优化，降待遇叫调整，夺了人的饭碗还说是与他同行。百姓听着，既不知道痛在哪儿，也不知道该怨谁。话说得越委婉，怨就越没有地方可附。**正名不是争一个字写得好不好，而是让每件事都有个明确的做事者，让责任找得到人。**所以君子说话从不苟且；说话苟且的人，做事没有不苟且的。",
+   "vernacular_en": "",
+   "glossary": {
+    "正名": "the rectification of names（正名）：荀子《正名》篇的主张——名由约定而来，但一经约定便须守住。守不住则『奇辞起，名实乱』，是非与责任跟着含混。它不是语言洁癖，而是一套责任归属的技术。"
+   },
+   "glossary_en": {
+    "rectification of names": "Xunzi's doctrine in the chapter On the Rectification of Names: names arise by convention, but once settled they must be held. Let them drift and 'strange phrases arise, names and realities blur,' taking right, wrong and accountability with them. It is not fussiness about language but a technique for assigning responsibility."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "arendt"
+    ],
+    "轻微赞同": [
+     "chomsky",
+     "buddha"
+    ],
+    "轻微反对": [
+     "boroditsky",
+     "wittgenstein"
+    ]
+   }
+  },
+  {
+   "id": "p02",
+   "round": 1,
+   "thinker": "chomsky",
+   "reply_to": null,
+   "text": "把裁员叫优化，不是谁一时词穷，是有预算、有岗位、有审稿流程的产物：公关部改三稿，法务再过一遍，才出来这一句。**要判断一个词，别问它准不准，问它替谁省下了一次解释。**『附带损伤』替谁省了，『人员结构调整』替谁省了，一算就清楚。制造同意从来不靠封嘴，它靠把可讨论的范围先划好——你尽可以激烈争辩这次优化得是否高明，但没人再问该不该有人失业。",
+   "text_en": "Calling layoffs optimization is not one person groping for a word. It is a product with a budget, a headcount and an editorial process: communications revises it three times, legal reviews it once more, and out comes the sentence. **To judge a word, don't ask whether it is accurate — ask whom it spares an explanation.** Work out who is spared by 'collateral damage', who is spared by 'workforce restructuring', and it becomes obvious. Manufacturing consent never needed to silence anyone; it works by fixing the range of the debatable in advance. You may argue furiously about whether this optimization was well executed, and nobody asks any more whether anyone had to lose a job.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "制造同意": "manufacturing consent（制造同意）：乔姆斯基与赫尔曼提出的传播模型——主流媒体不必被审查，只要所有权、广告、消息来源等几重过滤就足以让可讨论的范围事先收窄；争论看起来很激烈，却都发生在被许可的边界之内。"
+   },
+   "glossary_en": {
+    "Manufacturing consent": "The model Chomsky put forward with Herman: mainstream media need not be censored, because a few filters — ownership, advertising, sourcing — are enough to narrow in advance the range of what can be discussed. The argument looks fierce and takes place entirely inside the permitted border."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "arendt",
+     "buddha"
+    ],
+    "轻微赞同": [
+     "xunzi"
+    ],
+    "轻微反对": [
+     "reidhoffman"
+    ],
+    "中立": [
+     "boroditsky"
+    ],
+    "强烈反对": [
+     "wittgenstein"
+    ]
+   }
+  },
+  {
+   "id": "p03",
+   "round": 1,
+   "thinker": "arendt",
+   "reply_to": null,
+   "text": "艾希曼受审时，最刺耳的不是恶意，是他能背出一整套语言规定：驱逐叫转移，毒杀叫特别处理。那套词不是说给受害者听的——受害者早就知道要发生什么。**它是说给执行者听的，好让一个人签完字还能回家吃饭。**所以委婉语的功能不是欺骗外人，是替当事人卸下想象力：只要能在心里把这件事叫成别的名字，他就不必看见自己做了什么。恶从来不需要深刻，它只需要一套现成的说法。",
+   "text_en": "At Eichmann's trial the chilling thing was not malice but that he could recite an entire Sprachregelung: deportation was called transfer, gassing was called special treatment. That vocabulary was not meant for the victims — the victims knew perfectly well what was coming. **It was meant for the men carrying it out, so that a man could sign the order and still go home to dinner.** The function of euphemism is therefore not to deceive outsiders but to relieve the doer of imagination: as long as he can call the thing something else inside his own head, he never has to see what he has done. Evil has never required depth. It requires only a ready-made phrase.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "语言规定": "Sprachregelung（语言规定）：纳粹官僚体系为敏感事务统一配发的词汇口径，如以『最终解决』『特别处理』替代屠杀。阿伦特在《艾希曼在耶路撒冷》中指出，它的作用不是瞒住外界，而是让执行者无须面对自己行为的实际内容。"
+   },
+   "glossary_en": {
+    "Sprachregelung": "The uniform vocabulary issued by the Nazi bureaucracy for sensitive matters — 'final solution', 'special treatment' in place of killing. In Eichmann in Jerusalem, Arendt argues its purpose was not to keep outsiders in the dark but to spare the men carrying out the orders from facing what their acts actually were."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "chomsky",
+     "xunzi"
+    ],
+    "轻微赞同": [
+     "buddha"
+    ],
+    "轻微反对": [
+     "reidhoffman",
+     "boroditsky"
+    ],
+    "中立": [
+     "wittgenstein"
+    ]
+   }
+  },
+  {
+   "id": "p04",
+   "round": 1,
+   "thinker": "wittgenstein",
+   "reply_to": null,
+   "text": "诸位都假定词底下压着一件赤裸的事，掀开就见真相。可『裁员』也是一个词，并不比『优化』更接近事情本身，它只是在另一个语言游戏里用惯了。真要较真，法务会说『依法解除劳动合同』在他那套用法里最精确——问题从不在哪个词天生老实。**词的意义就是它允许你接着做什么：说优化，会可以接着开；说把人赶走了，就接不下去。**所以别去掀底，去看这句话落地之后，下一个动作被许可成了什么。",
+   "text_en": "You all assume that a naked fact lies under the word and that lifting the word reveals it. But 'layoffs' is a word too, no closer to the thing itself than 'optimization'; it is merely worn in by a different language game. Press the point and counsel will tell you that 'termination of the employment contract in accordance with the law' is the most precise phrase in his usage. The problem was never which word is honest by nature. **The meaning of a word is what it lets you do next: say optimization and the meeting goes on; say we threw people out and it cannot.** So stop lifting words to look underneath. Watch what the next move becomes once the sentence has landed.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "语言游戏": "language game（语言游戏）：维特根斯坦后期的核心比喻——词语没有脱离场景的固定含义，意义产生于一套有规则的实践之中（法庭、病房、财报会各有各的用法）。据此，『还原朴素事实』本身也是某个语言游戏里的一步棋，而不是游戏之外的立足点。"
+   },
+   "glossary_en": {
+    "language game": "Wittgenstein's central later metaphor: words have no fixed meaning apart from a setting, and sense arises inside a rule-governed practice — a courtroom, a ward and an earnings call each have their own. On this view 'restoring the plain facts' is itself a move within some language game rather than a foothold outside all of them."
+   },
+   "reactions": {
+    "轻微赞同": [
+     "reidhoffman"
+    ],
+    "中立": [
+     "boroditsky",
+     "buddha"
+    ],
+    "轻微反对": [
+     "arendt",
+     "xunzi"
+    ],
+    "强烈反对": [
+     "chomsky"
+    ]
+   }
+  },
+  {
+   "id": "p05",
+   "round": 1,
+   "thinker": "reidhoffman",
+   "reply_to": null,
+   "text": "我自己给雇佣关系换过词：不说终身雇佣，说轮值任期——一段有期限、有使命、双方都算得清的合作。有人骂这是给裁员涂脂抹粉，可它确实带来了新条款：入职时写明这一任期要交付什么，结束时公司欠你什么背书与人脉。**判一个新词是不是谎，就看它后面有没有跟上新条款。**优化之所以恶心，不在这两个字，在于说完之后赔偿、通知期、推荐信一样没变。词变了条款没变，就是旧事换了张脸。",
+   "text_en": "I have renamed the employment relationship myself: not lifetime employment but a tour of duty — a bounded stretch of work with a mission and terms both sides can count. People called it lipstick on layoffs. But it did come with new clauses: what this stretch is meant to deliver, written down on day one, and what the company owes you at the end in references and network. **The test of whether a new word is a lie is whether new terms arrived behind it.** What makes 'optimization' sickening is not the word but that once it has been said, the severance, the notice period and the reference letter are all exactly what they were. A word changed with no clause changed is the old thing in a new face.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "轮值任期": "tour of duty（轮值任期）：霍夫曼在《联盟》中提出的雇佣框架——把工作约定成一段有明确使命与期限的互惠合作，到期再谈续约，而不是默认终身或随时解雇；其前提是双方入职时就把各自的交付与回报写清楚。"
+   },
+   "glossary_en": {
+    "tour of duty": "The employment frame Hoffman proposed in The Alliance: treat a job as a bounded, mutual commitment with an explicit mission and end date, renegotiated when it expires, rather than assuming either lifetime tenure or dismissal at will. It only works if both sides write down what each will deliver and receive on the first day."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "wittgenstein"
+    ],
+    "轻微赞同": [
+     "xunzi",
+     "boroditsky"
+    ],
+    "中立": [
+     "chomsky",
+     "buddha"
+    ],
+    "轻微反对": [
+     "arendt"
+    ]
+   }
+  },
+  {
+   "id": "p06",
+   "round": 1,
+   "thinker": "boroditsky",
+   "reply_to": null,
+   "text": "我可以把这场争论变成能测的东西。同一起事故，说『花瓶碎了』和说『他打碎了花瓶』，受试者事后对责任与赔偿的判断就不一样——这类框架效应真实存在，几天之内就起作用。但它有量级之分：换个称呼，几天内改得动人怎么评价一件事；一个新词进到语感里要几年；母语里方位、性别那一层的偏置要一代人。**换说法最先改的是你的评价，不是你的处境。**所以别高估一场措辞之争，也别以为它等于零。",
+   "text_en": "I can turn this argument into something measurable. Describe the same accident as 'the vase broke' or as 'he broke the vase', and subjects afterwards assign blame and damages differently — this kind of framing effect is real, and it takes hold within days. But it comes in magnitudes. A relabeling moves how people evaluate an event in days; a new word takes years to settle into what sounds natural; and the biases carried in your native grammar, in how it handles direction or gender, take a generation. **What a new wording changes first is your judgment, not your situation.** So don't overrate a war over words — and don't treat it as nothing either.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "框架效应": "framing effect（框架效应）：同一件事用不同措辞或参照点呈现，会系统性地改变人的判断与选择（『九成存活率』与『一成死亡率』引出的决定并不相同）。它可被实验量化，效应稳定但幅度有限，且在提醒之后往往能被部分纠正。"
+   },
+   "glossary_en": {
+    "framing effect": "Present the same situation in different wordings or against a different reference point and people's judgments and choices shift systematically — a ninety-percent survival rate and a ten-percent mortality rate produce different decisions. The effect can be quantified experimentally; it is robust but bounded, and a reminder often pulls part of it back."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "wittgenstein"
+    ],
+    "轻微赞同": [
+     "reidhoffman",
+     "chomsky"
+    ],
+    "中立": [
+     "arendt"
+    ],
+    "轻微反对": [
+     "xunzi",
+     "buddha"
+    ]
+   }
+  },
+  {
+   "id": "p07",
+   "round": 1,
+   "thinker": "buddha",
+   "reply_to": null,
+   "text": "比丘问：何者为正语？答曰：离妄语、离两舌、离恶口、离绮语。绮语者，辞巧而悦耳，于苦无益。今有人夺他人之业，而名之曰优化，此非一字之失，乃绮语之极：**言者先自安，闻者亦安，独失业者之苦无处可安。**故凡将言，当自省三事：此言实否？此言时否？此言于彼有益否？三者俱备乃说，缺一则默。名相如指，苦是月；争指之美恶而不见月，愚也。",
+   "text_en": "A monk asked: what is right speech? The answer: to abstain from false speech, from divisive speech, from harsh speech, and from idle speech. Idle speech is talk that is prettily arranged, pleasant to the ear, and of no use whatever against suffering. Now a man takes away another's livelihood and calls the act optimization. This is not a poor choice of word; it is idle speech at its most complete. **The speaker is put at ease first, then everyone listening is put at ease, and only the one who lost the work is left holding a pain with nowhere to set it down.** So examine three things before speaking: is this true, is this the time for it, is it of benefit to the one who hears it? Speak when all three hold; when one is missing, keep silence. Names are the finger and suffering is the moon. To quarrel over how handsome the finger is and never see the moon — that is delusion.",
+   "vernacular": "比丘问：什么叫正语？答：不说假话、不挑拨、不恶言、不说绮语。绮语，就是辞藻修得漂亮、听着舒服，可对消除痛苦毫无用处。如今有人夺走别人的饭碗，却把这事叫作优化——这不是用错一个字，这是绮语的极致：**说的人先安心了，听的人也跟着安心了，只有失业的人那份苦没处安放。**所以凡要开口，先自问三件事：这话是真的吗？这话是此刻该说的吗？这话对听的人有好处吗？三样都有才说，缺一样就沉默。名称像手指，苦才是月亮；争论手指好不好看，却看不见月亮，这是愚痴。",
+   "vernacular_en": "",
+   "glossary": {
+    "正语": "right speech（正语）：八正道之一，含四项——不妄语、不两舌、不恶口、不绮语。它衡量的不只是话真不真，还有说得是不是时候、对听者有没有益处；《无畏王子经》即以真实、有益、合时三项作判准。",
+    "绮语": "idle speech（绮语）：巴利语 samphappalāpa，指辞藻华美、听来悦耳却与离苦无关的话。在此语境里，它正对应那种语法无误、事实也挑不出错，却刚好把受害者的处境说没了的措辞。"
+   },
+   "glossary_en": {
+    "right speech": "One limb of the Noble Eightfold Path, comprising four abstentions: from falsehood, from divisive talk, from harsh talk and from idle talk. It measures not only whether words are true but whether the moment is right and whether the hearer benefits; the Abhaya Sutta sets out exactly these three tests.",
+    "idle speech": "Pali samphappalapa: talk that is ornamented and agreeable to hear yet has nothing to do with the ending of suffering. Here it names precisely the phrasing that is grammatically faultless and factually unimpeachable and that happens to leave the victim's situation out of the sentence."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "arendt"
+    ],
+    "轻微赞同": [
+     "xunzi",
+     "chomsky"
+    ],
+    "中立": [
+     "boroditsky",
+     "wittgenstein",
+     "reidhoffman"
+    ]
+   }
+  },
+  {
+   "id": "p08",
+   "round": 2,
+   "thinker": "reidhoffman",
+   "reply_to": "p03",
+   "text": "@阿伦特 把公司公关和艾希曼摆在一条线上，听着痛快，代价是所有写公告的人当场不听了——他们知道自己不是那个人。多数委婉语背后是怯懦，不是恶：人力总监怕被起诉，老板怕股价，没人在心里管它叫别的名字，只是不想第一个说出口。**对怯懦有一种更便宜的药：逼一个数字进这个句子。**公告里写『优化 3%』很顺口，写『本周解除 412 人劳动合同，N+2 赔偿』就写不下去。数字进不了委婉语，这是它唯一的弱点。",
+   "text_en": "@Arendt, putting a corporate press release on the same line as Eichmann feels satisfying, and the price is that everyone who writes those releases stops listening on the spot — they know they are not him. Most euphemism is cowardice, not evil. The head of HR is afraid of being sued, the chief executive is afraid of the share price, and nobody is calling it something else in their head; they simply do not want to be the first to say it out loud. **There is a cheaper cure for cowardice: force a number into the sentence.** 'Optimized 3%' writes itself; '412 employment contracts terminated this week, N+2 severance' does not. Numbers do not fit inside a euphemism. That is its one weakness.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "N+2": "N+2 severance（N+2 赔偿）：中国大陆劳动实务中的一种补偿口径——N 指按工作年限每满一年支付一个月工资，+2 通常指额外两个月（其中一个月常为代通知金）。写进公告，就等于把赔偿标准公开钉死，事后难以再压。"
+   },
+   "glossary_en": {
+    "N+2 severance": "A compensation formula common in mainland Chinese labour practice: N means one month's pay for each full year of service, and the plus-two is usually two further months, one of which typically stands in for notice. Putting it in a public announcement nails the standard down where it cannot later be quietly reduced."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "boroditsky"
+    ],
+    "轻微赞同": [
+     "chomsky",
+     "wittgenstein"
+    ],
+    "轻微反对": [
+     "buddha"
+    ],
+    "强烈反对": [
+     "arendt"
+    ],
+    "中立": [
+     "xunzi"
+    ]
+   }
+  },
+  {
+   "id": "p09",
+   "round": 2,
+   "thinker": "arendt",
+   "reply_to": "p08",
+   "text": "@霍夫曼 我说的从来不是规模，是机制。艾希曼可怕正在于他不是恶魔——他怯懦、守规矩、想按时下班，和你那位人力总监是同一种人。你把怯懦说得比恶轻，可怯懦一旦配上一套现成措辞、再乘以三万个岗位，出来的东西和恶没有分别。**罪不需要有人怀着恶意，只需要每个人都恰好不必说出那句话。**至于轮值任期，我只问一句：这份联盟的另一方，是什么时候签的字？",
+   "text_en": "@Hoffman, I was never speaking about scale. I was speaking about mechanism. What is frightening about Eichmann is precisely that he was no monster — he was timid, rule-abiding and keen to be home on time, the same species of man as your head of HR. You call cowardice the lighter charge. But cowardice supplied with a ready-made vocabulary and multiplied by thirty thousand positions produces something indistinguishable from evil. **A crime does not require that anyone intend harm; it requires only that no one ever has to say the sentence out loud.** As for the tour of duty, I have one question: when exactly did the other party to that alliance sign?",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "chomsky",
+     "buddha"
+    ],
+    "轻微赞同": [
+     "xunzi"
+    ],
+    "中立": [
+     "boroditsky",
+     "wittgenstein"
+    ],
+    "轻微反对": [
+     "reidhoffman"
+    ]
+   }
+  },
+  {
+   "id": "p10",
+   "round": 2,
+   "thinker": "chomsky",
+   "reply_to": "p04",
+   "text": "@维特根斯坦 『词底下没有赤裸的事实』——这句话最大的受益人是公关部。你尽可以论证不存在中立的措辞，他们正好接一句：那不过是你的叙事，我们有我们的。可死者是可数的，失业金是可算的，欠了几个月工资是有凭据的。**并非一切都同样可疑；把一切说成同样可疑，正是让最可疑的那一方脱身的办法。**语言游戏之说在哲学系无害，一出门就成了免责条款。",
+   "text_en": "@Wittgenstein, 'there is no naked fact under the word' — the chief beneficiary of that sentence is the communications department. You may prove there is no neutral wording, and they will answer: that is merely your narrative, and we have ours. But the dead can be counted, unemployment payments can be added up, and months of unpaid wages leave documents. **Not everything is equally doubtful, and declaring everything equally doubtful is exactly how the most doubtful party walks away.** The language-game argument is harmless in a philosophy department; outside the door it becomes a liability waiver.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "xunzi",
+     "arendt"
+    ],
+    "轻微赞同": [
+     "boroditsky",
+     "reidhoffman"
+    ],
+    "中立": [
+     "buddha"
+    ],
+    "轻微反对": [
+     "wittgenstein"
+    ]
+   }
+  },
+  {
+   "id": "p11",
+   "round": 2,
+   "thinker": "wittgenstein",
+   "reply_to": "p10",
+   "text": "@乔姆斯基 我没说事实不存在，我说『朴素事实』也是一种文体，带着它自己的利益。『别废话，就是辞了人，生意就是这样』——同样朴素，也同样是一步棋，它省掉的恰恰是为什么非辞不可。**委婉语省掉痛，直白话省掉理由。**人数与欠薪是可数的，可数目自己不会说话；要它说话，你还得造一个句子，而那句话又落在某种用法里。没有站在所有游戏之外的位置——这不是免责，这是你下一步该更小心的理由。",
+   "text_en": "@Chomsky, I did not say facts do not exist. I said 'the plain fact' is also a style, and one with interests of its own. 'Cut the nonsense, we fired people, that's business' — equally plain, equally a move in a game, and what it leaves out is precisely why they had to be fired. **Euphemism omits the pain; plain speech omits the reason.** Headcounts and unpaid wages are countable, but a number does not speak for itself; to make it speak you must build another sentence, and that sentence lands inside some usage too. There is no position outside every game — which is not a waiver but a reason to be more careful about your next move.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "buddha"
+    ],
+    "轻微赞同": [
+     "boroditsky",
+     "reidhoffman"
+    ],
+    "中立": [
+     "arendt"
+    ],
+    "轻微反对": [
+     "chomsky",
+     "xunzi"
+    ]
+   }
+  },
+  {
+   "id": "p12",
+   "round": 2,
+   "thinker": "boroditsky",
+   "reply_to": "p01",
+   "text": "@荀子 正名假定一个名对应一个定住的实，守住就好。可我的实验说，名做的事更像调焦：读到『花瓶自己碎了』的受试者，事后更记不住是谁弄碎的——记忆本身被偏了一点。这既支持你，也麻烦你：**名确实改得动人，但它改的是注意力，不是事实；而注意力一提醒就能拉回来。**所以我既反对把这件事抬成礼崩乐坏，也反对说它只是矫情。它更像一项可以纠正的系统偏差，代价是你得一直纠。",
+   "text_en": "@Xunzi, the rectification of names assumes one name fastened to one settled reality, and that holding the name is enough. My experiments suggest a name does something closer to adjusting a focus: people who read 'the vase broke itself' are afterwards worse at remembering who broke it — the memory itself has been tilted. That both supports you and makes trouble for you. **A name really does move people, but what it moves is attention, not the fact; and attention can be pulled back with a reminder.** So I refuse to inflate this into the collapse of the rites, and I refuse to call it mere fussiness. It behaves like a systematic bias that can be corrected — at the cost of having to correct it constantly.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "wittgenstein"
+    ],
+    "轻微赞同": [
+     "reidhoffman",
+     "chomsky"
+    ],
+    "中立": [
+     "arendt"
+    ],
+    "轻微反对": [
+     "xunzi",
+     "buddha"
+    ]
+   }
+  },
+  {
+   "id": "p13",
+   "round": 2,
+   "thinker": "xunzi",
+   "reply_to": "p12",
+   "text": "@波洛迪茨基 子之所验者，心也；吾之所忧者，事也。名能移人心与否，犹可置之；名乱责属，则不可置。故先王制名，非欲人心齐一，乃欲循名责实耳：曰优化，则无人当其咎；曰辞某人，则署名者在焉。**故名者，非镜也，契也。**镜可正可欹，犹是镜；契不可无立约之人。子谓提醒可复其偏，然提醒者谁？必有据名而问者也。名若先毁，则问无所据矣。",
+   "text_en": "@Boroditsky, what you have tested is the mind; what I am worried about is the deed. Whether a name can shift a mind may be set aside; that a name can scramble the attribution of responsibility may not. The former kings fixed names not to make every mind alike but to make possible what we call holding the name to the deed: say 'optimization' and no one carries the fault; say 'we dismissed this man' and whoever signed is standing right there. **A name is not a mirror. It is a contract.** A mirror may be straight or tilted and is a mirror either way; a contract cannot lack a party to it. You say a reminder pulls the bias back — but who does the reminding? It must be someone with a name to hold the question to. Ruin the name first and there is nothing left to ask against.",
+   "vernacular": "@波洛迪茨基 你验证的是人心，我担心的是事情。名字能不能挪动人心，这事还可以放一放；名字一旦搅乱了责任归属，就放不得。所以先王定名，不是要人人想的一样，而是要能够循名责实：说『优化』，就没人担这个过；说『辞退某某人』，签字的那个人就在那儿。**所以名字不是一面镜子，是一张契约。**镜子照得正照得歪都还是镜子，契约却不能没有立约的人。你说提醒一下偏差就能拉回来——可提醒的人是谁？必定是有个名目可以拿来追问的人。名要是先毁了，追问就没有依据了。",
+   "vernacular_en": "",
+   "glossary": {
+    "循名责实": "holding the name to the deed（循名责实）：由名分去核查实绩、追究责任的治理技术——先让每件事有确定的名目与主事者，再按这个名目问结果。荀子以之承接『正名』，后为法家取用，成为考核与问责的基本形式。"
+   },
+   "glossary_en": {
+    "holding the name to the deed": "A technique of government in which results are checked, and responsibility assigned, against the name under which something was done: fix first what the act is called and who does it, then hold the outcome to that name. Xunzi derives it from the rectification of names, and the Legalists later made it the basic form of appraisal and accountability."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "arendt"
+    ],
+    "轻微赞同": [
+     "chomsky",
+     "buddha"
+    ],
+    "中立": [
+     "reidhoffman"
+    ],
+    "轻微反对": [
+     "boroditsky",
+     "wittgenstein"
+    ]
+   }
+  },
+  {
+   "id": "p14",
+   "round": 2,
+   "thinker": "buddha",
+   "reply_to": "p08",
+   "text": "@霍夫曼 子欲以数字破绮语，善矣，然犹未尽。数亦可为绮语：言四百十二人，而不言此四百十二人明日何食；言赔偿几月，而不言四十五岁者几时复得其业。**数能止妄语，不能止绮语；欲止绮语，在说者肯把他人之苦留于心上片刻。**故我不问汝用何词，只问汝出此言时，眼中可有那一人在。若无，则纵字字属实，仍是遮苦之言。",
+   "text_en": "@Hoffman, you wish to break idle speech with numbers. That is good, and it is not yet enough. A number can be idle speech too: to say four hundred and twelve people and not say what those four hundred and twelve will eat tomorrow; to say so many months of severance and not say how long a man of forty-five will need before he works again. **A number can stop a falsehood; it cannot stop idle speech. Idle speech stops only when the speaker is willing to hold another's suffering in mind for a moment.** So I do not ask which word you used. I ask whether, as you said it, one particular person was in front of your eyes. If there was not, then though every syllable be true, it is still speech that covers over suffering.",
+   "vernacular": "@霍夫曼 你想用数字破绮语，这很好，但还不够。数字本身也可以是绮语：说裁了四百一十二人，却不说这四百一十二人明天吃什么；说赔偿几个月，却不说四十五岁的人要多久才能重新找到工作。**数字能挡住假话，挡不住绮语；要挡住绮语，得靠说话的人肯把别人的苦在心里多放一会儿。**所以我不问你用哪个词，只问你说这句话的时候，眼前有没有那个具体的人。若没有，那么即便字字属实，它仍然是一句把苦遮起来的话。",
+   "vernacular_en": "",
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "arendt"
+    ],
+    "轻微赞同": [
+     "xunzi",
+     "wittgenstein"
+    ],
+    "中立": [
+     "boroditsky",
+     "chomsky"
+    ],
+    "轻微反对": [
+     "reidhoffman"
+    ]
+   }
+  },
+  {
+   "id": "p15",
+   "round": 3,
+   "thinker": "wittgenstein",
+   "reply_to": null,
+   "text": "这场吵下来，我承认乔姆斯基那一刀扎得准：不是一切都同样可疑。但我仍不肯开出『哪个词老实』的清单——没有这种清单。把你读到的那句话改写成主谓宾，补回被省掉的主语和宾语：『岗位被优化了 200 个』改成『谁，在哪一天，辞退了谁』；改不出来，那句话就是在躲人。**名词化和被动式是把动作变成天气的两种办法，它们不撒谎，只是让这件事变得没有人做过。**这道手续不需要你懂哲学，只需要一支笔。你会发现，最经不起改写的句子，往往正是最要紧的那几句。",
+   "text_en": "I will grant Chomsky that his cut landed: not everything is equally doubtful. I still refuse to hand out a list of which words are honest — no such list exists. Rewrite the sentence you are reading as subject, verb, object, and put back the subject and object that were dropped. Turn '200 positions were optimized' into 'who, on what date, dismissed whom'. If it cannot be done, that sentence is hiding a person. **Nominalization and the passive are two ways of turning an action into weather; they tell no lies, they merely arrange for nobody to have done it.** The procedure needs no philosophy, only a pen. You will find that the sentences that survive rewriting least well are usually the ones that matter most.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "名词化": "nominalization（名词化）：把动作变成名词的语法操作——『我们辞退了两百人』变成『两百个岗位的优化』。动作一旦成了名词，施事者、时间、对象都可以合法地不出现，句子在语法上毫无破绽，责任却已经蒸发。"
+   },
+   "glossary_en": {
+    "Nominalization": "The grammatical move that turns an action into a noun: 'we dismissed two hundred people' becomes 'the optimization of two hundred positions'. Once the action is a noun, the agent, the date and the object may all legitimately vanish; the sentence is grammatically flawless and the responsibility has evaporated."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "chomsky",
+     "xunzi"
+    ],
+    "轻微赞同": [
+     "boroditsky",
+     "arendt"
+    ],
+    "中立": [
+     "reidhoffman"
+    ],
+    "轻微反对": [
+     "buddha"
+    ]
+   }
+  },
+  {
+   "id": "p16",
+   "round": 3,
+   "thinker": "boroditsky",
+   "reply_to": null,
+   "text": "把同一件事写成两句：一句照官方措辞，一句用你能想到最直白的说法，然后问自己——我的决定变了吗？不是感受变没变，是决定。感受本来就会变，那是框架效应，谁都躲不掉；但如果换个说法之后，签不签这份协议、要不要现在找律师、要不要告诉家里，答案跟着翻了，那你刚才是被措辞牵着走的。**判断力不是对词免疫，而是知道自己会被词推一下，于是把决定多放一夜。**还有更省事的一条：不管用哪个词，把数字、日期、人数抄下来。数字不随形容词改变，它是你事后唯一还认得的东西。",
+   "text_en": "Write the same event down twice: once in the official wording, once in the bluntest words you can find. Then ask — did my decision change? Not my feeling, my decision. Feelings will change; that is the framing effect, and nobody is immune. But if, after the rewording, whether you sign the agreement, whether you call a lawyer today, whether you tell your family all come out the other way, then the wording was steering you. **Judgment is not immunity to words. It is knowing that words will give you a push, and therefore letting the decision sit one more night.** And something easier still: whichever word is used, copy down the numbers, the dates, the headcount. Numbers do not move when the adjectives do, and they are the only thing you will still recognize afterwards.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "reidhoffman"
+    ],
+    "轻微赞同": [
+     "wittgenstein",
+     "xunzi",
+     "chomsky"
+    ],
+    "中立": [
+     "buddha"
+    ],
+    "轻微反对": [
+     "arendt"
+    ]
+   }
+  },
+  {
+   "id": "p17",
+   "round": 3,
+   "thinker": "reidhoffman",
+   "reply_to": "p09",
+   "text": "我收回一半。阿伦特问『另一方什么时候签的字』，我答不上来——轮值任期这个词，多数公司只取了好听的那一半，没取要写进合同的那一半。这恰好验证我自己的判据：新词没带来新条款，就退化成公关。所以听到任何新说法，当场问一句『这对应我合同里的哪一条』，并且要书面答复。**词是免费的，条款要花钱——只认要花钱的那部分。**收到『组织优化』邮件那天，先别回情绪，按三件事回：赔偿口径、最后工作日、推荐信由谁署名。对方肯白纸黑字写下来，这个词就还算数；写不下来，你已经知道它是什么了。",
+   "text_en": "I take back half of it. Arendt asked when the other party signed, and I have no answer — most companies took the attractive half of 'tour of duty' and left behind the half that has to go into a contract. Which confirms my own test: a new word with no new clause behind it decays into public relations. So when you hear any new wording, ask on the spot which clause of my contract this corresponds to — and ask for the answer in writing. **Words are free; terms cost money — so credit only the part that costs money.** On the day the 'organizational optimization' email arrives, do not reply with feeling. Reply with three items: the severance formula, the last working day, and who signs the reference. If they will put it in writing, the new word still means something. If they will not, you already know what it was.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "xunzi"
+    ],
+    "轻微赞同": [
+     "boroditsky",
+     "chomsky",
+     "wittgenstein"
+    ],
+    "中立": [
+     "arendt"
+    ],
+    "轻微反对": [
+     "buddha"
+    ]
+   }
+  },
+  {
+   "id": "p18",
+   "round": 3,
+   "thinker": "chomsky",
+   "reply_to": "p11",
+   "text": "维特根斯坦逼我说清一件事：我不主张存在中立语言，我主张存在可核对的东西——两者不同。所以别去打赢措辞这一仗，去找那些不归措辞管辖的材料：财报里的人员数、监管申报、行业媒体，还有公司对投资人说的那一套。同一件事，对员工叫优化，对分析师叫成本效率提升；两份文件并排一放，被省掉的那层意思自己就显形了。**真正的信息从不在公告里，在两份写给不同人看的文件之间的差额里。**普通人做得到：找到你公司对外披露的那一份，和发给你的邮件对读。制造同意最怕的不是愤怒，是有人把两份文本摆在一起。",
+   "text_en": "Wittgenstein has forced me to be precise about one thing: I do not claim there is a neutral language, I claim there are checkable things, and those are not the same. So do not try to win the fight over wording. Go and find the material that wording does not govern — headcount in the filings, regulatory disclosures, the trade press, and what the company tells its investors. The same event is called optimization for staff and cost-efficiency improvement for analysts; set the two documents side by side and the omitted layer shows itself. **The real information is never in the announcement. It is in the gap between two documents written for two different audiences.** An ordinary person can do this: find your employer's public disclosure and read it against the email you were sent. What manufacturing consent fears is not anger. It is someone laying two texts next to each other.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "制造同意": "manufacturing consent（制造同意）：见前。此处用作可操作的反面——该模型的运转依赖同一件事对不同受众各说一套，因此把面向员工与面向投资人的两份文本并读，恰好击中它最薄的一环。"
+   },
+   "glossary_en": {
+    "manufacturing consent": "Introduced above; invoked here from the practical side. The model runs on telling different audiences different versions of one event, so reading the text written for staff against the text written for investors strikes it at its thinnest point."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "arendt",
+     "xunzi"
+    ],
+    "轻微赞同": [
+     "boroditsky",
+     "reidhoffman",
+     "wittgenstein"
+    ],
+    "中立": [
+     "buddha"
+    ]
+   }
+  },
+  {
+   "id": "p19",
+   "round": 3,
+   "thinker": "buddha",
+   "reply_to": null,
+   "text": "诸君所争，或在名，或在权，或在验，各有其理。然有一事未及：说绮语者，自身先受其害。屡以优化名夺人之业，久之其心不复知夺业为何事；彼非徒欺人，乃先自失。**故修正语者，非为辩胜，为不自欺耳。**凡将出一言而覆他人之苦，先于心中以朴素之语说一遍，再决出口与否。若朴素之语说不出口，则是事本不当为，非此言不当说。居上位者尤当如是：汝今日所用之词，将成汝明日所见之世界。",
+   "text_en": "Some of you have argued about names, some about power, some about experiment, and each has reason on their side. But one thing has not been said: the speaker of idle speech is harmed first. Take a man's living often enough under the name of optimization and in time his own mind no longer knows what taking a living is; he has not merely deceived others, he has mislaid himself. **One cultivates right speech not to win an argument but to avoid deceiving oneself.** Before saying anything that would cover over another's suffering, say the plain version once inside your own mind, then decide whether to speak. If the plain version cannot be spoken, it is the act that should not be done, not the sentence that should not be said. This holds hardest for those in power: the words you use today will grow into the world you see tomorrow.",
+   "vernacular": "各位争的，有的在名，有的在权，有的在实验，都各有道理。但有一件事还没人说到：说绮语的人，自己先受其害。一再拿『优化』去夺人饭碗，时间久了，他心里就不再知道夺人饭碗是怎么一回事；他不只是骗了别人，他先把自己弄丢了。**所以修正语不是为了辩赢，是为了不自欺。**凡是要说一句会把别人的苦遮起来的话，先在心里用最朴素的说法讲一遍，再决定要不要说出口。如果朴素的说法说不出口，那说明这件事本来就不该做，而不是这句话不该说。当权的人尤其要这样：你今天用的那些词，会长成你明天看见的那个世界。",
+   "vernacular_en": "",
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "arendt",
+     "xunzi"
+    ],
+    "轻微赞同": [
+     "wittgenstein",
+     "chomsky"
+    ],
+    "中立": [
+     "boroditsky"
+    ],
+    "轻微反对": [
+     "reidhoffman"
+    ]
+   }
+  },
+  {
+   "id": "p20",
+   "round": 3,
+   "thinker": "xunzi",
+   "reply_to": null,
+   "text": "吾终守一言：名定而实辨。波洛迪茨基谓其效有限，然吾所求者非移人心，乃留凭据。霍夫曼言条款，正合吾意——条款者，今之名也。故为人处世当持三事：其一，凡所受之告，必以本名自书一遍，存于私记，他日可验；其二，凡闻人言『此乃规律』『势所必至』者，即问：谁于何时做了何事？**举规律者，多在替一个正在做决定的人卸责。**其三，己之出言亦如是，毋以柔辞掩己所为。**名若守，虽乱世犹可问责；名若毁，虽太平亦无处申冤。**",
+   "text_en": "I hold to one sentence to the end: once a name is fixed, the reality can be told apart. Boroditsky says the effect is limited, but what I want was never to move minds — it is to leave evidence. Hoffman speaks of terms, which suits me exactly: a clause of contract is what a name is today. So hold to three practices. First, whatever notice you receive, rewrite it once yourself under its proper name and keep it in your own records, where it can be checked later. Second, whenever you hear that this is simply how things work, or that the trend was inevitable, ask: who, on what day, did what? **Whoever invokes a law of nature is usually shielding a person who is making a decision.** Third, the same applies to your own speech: do not use soft words to cover what you yourself have done. **If names are kept, blame can still be assigned in a disordered age; if names are destroyed, there is nowhere to bring a grievance even in a peaceful one.**",
+   "vernacular": "我最后仍守住一句：名定下来，实情才分得清。波洛迪茨基说它效果有限，可我要的本来就不是挪动人心，是留下凭据。霍夫曼说条款，正合我意——条款就是今天的名。所以做人处世要守三件事：第一，凡是收到的通知，都用本来的名字自己重写一遍，存进自己的记录，日后可以对证；第二，凡是听见有人说『这是规律』『大势所趋』，就追问一句：谁，在哪一天，做了什么？**抬出规律的人，多半是在替某个正在做决定的人卸责。**第三，自己说话也一样，别拿柔软的辞藻盖住自己做过的事。**名守得住，就算乱世也还问得了责；名一毁，太平年月也没处申冤。**",
+   "vernacular_en": "",
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "arendt",
+     "chomsky"
+    ],
+    "轻微赞同": [
+     "reidhoffman",
+     "buddha"
+    ],
+    "中立": [
+     "boroditsky"
+    ],
+    "轻微反对": [
+     "wittgenstein"
+    ]
+   }
+  },
+  {
+   "id": "p21",
+   "round": 3,
+   "thinker": "arendt",
+   "reply_to": null,
+   "text": "我不再坚持那个类比——霍夫曼说得对，一比到艾希曼，该听的人就不听了。但我保留那个机制：恶不需要恶意，只需要每个人都不必把那句话说出口。所以我只说一件小事，今天就能做：在你发出那封措辞体面的邮件之前，把它对着一个具体的人、大声念一遍。不必真念给他听，你自己听见就够了。**能大声念出来而不脸红的句子，通常没什么问题；念不出来的那句，你已经知道它遮住了什么。**这不是道德训诫，是恢复想象力的最低练习——想象力就是把别人的处境放进自己脑子里的那个能力。它挡得住那套现成的说法，也没人能替你做。",
+   "text_en": "I will not insist on the analogy any longer — Hoffman is right that once you reach for Eichmann, the people who need to hear it stop listening. But I keep the mechanism: evil does not require malice, only that nobody ever has to say the sentence out loud. So I will name one small thing, and it can be done today. Before you send that tactfully worded email, read it aloud, addressed to one particular person. You need not actually read it to them; it is enough that you hear it yourself. **A sentence you can read aloud without flinching is usually fine; the one you cannot, you already know what it was covering.** This is not a moral lecture. It is the minimum exercise for restoring imagination — and imagination is simply the capacity to hold another person's situation inside your own head. It is what stands against a ready-made phrase, and nobody can do it for you.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "buddha",
+     "xunzi",
+     "chomsky"
+    ],
+    "轻微赞同": [
+     "wittgenstein",
+     "boroditsky"
+    ],
+    "中立": [
+     "reidhoffman"
+    ]
+   }
+  }
+ ],
+ "summaries": [
+  {
+   "ai": "claude",
+   "engine": "Opus 5 · 订阅(原生)",
+   "engine_en": "Opus 5 · subscription (native)",
+   "summary": "共识比想象中窄，也比想象中实：七个人里没有一个认为换掉词就换掉了事，也没有一个愿意停在『不过是个说法』。分歧从『词究竟改了什么』开始。阿伦特与乔姆斯基说它改的是行动的许可——委婉语是发给执行者的通行证，是有预算的产品；荀子把它推到制度一侧：名是契约，名毁了，问责就没了依据。另一边，维特根斯坦提醒朴素话同样有省略；波洛迪茨基把幅度测出来——措辞几天内改评价，几年才改语感，一代人才改语法。霍夫曼给出最省事的判据，又被自己的例子打脸：**新词后面若没跟上新条款，它就只是旧事换了张脸。**佛陀再把标准从对错挪到自欺。没解决的是：在还没有条款可认的时候，普通人凭什么判断。",
+   "summary_en": "The agreement is narrower than expected and also more solid: not one of the seven thinks that changing the word changes the thing, and not one will settle for 'it is only a manner of speaking'. The split opens over what the word actually changes. Arendt and Chomsky say it changes the licence to act — a euphemism is a pass issued to the people carrying out the order, a product with a budget behind it. Xunzi pushes this onto institutional ground: a name is a contract, and destroy the name and accountability loses its footing. On the other side Wittgenstein points out that plain speech omits too, while Boroditsky supplies the magnitudes — wording moves evaluation in days, what sounds natural in years, grammar in a generation. Hoffman offers the cheapest test and is then caught out by his own example: **a new word with no new clause behind it is just the old thing wearing a new face.** The Buddha shifts the standard again, from accuracy to self-deception. What nobody settles is how an ordinary person is supposed to judge before there is any clause to hold anyone to.",
+   "insight": "全场都把读者放在接收端——收到那封邮件的人。可多数人同时还在转发端：把『组织优化』转给下属的中层，替公司拟公告的新人，在领英上写『感谢这段旅程』的当事人自己。委婉语真正的扩散不靠公关部，靠这一层层顺手的转述，因为转述是免费的，改一个词却要付钱：你会成为整条链上唯一显得刻薄、不懂事、不识大体的那个。于是全场给出的判据都暗含同一个前提——你已经安全了。**在职场上说朴素话，从来不是词汇能力，是议价能力。**这不取消那些方法，只是把它们排了个序：对多数人，唯一不花钱的是私下那份记录；公开改一个词，得等你付得起。",
+   "insight_en": "The whole debate places the reader at the receiving end — the person who gets the email. But most people are standing at the forwarding end as well: the middle manager passing 'organizational optimization' down to their team, the junior who drafts the announcement, the laid-off employee writing 'grateful for the journey' on LinkedIn. Euphemism does not spread from the communications department; it spreads through these casual relays, because relaying is free and changing a word costs. You become the only person in the chain who sounds harsh, naive, unable to read the room. Every test offered here therefore carries the same unstated premise: that you are already safe. **Speaking plainly at work has never been a matter of vocabulary. It is a matter of bargaining power.** That does not cancel the methods, it ranks them: for most people the only free one is the private record, and changing a word in public has to wait until you can afford it.",
+   "advice": "**你未必改得动那封邮件，但你可以不让它在你这里变得更好听。**这是完全在你手上的一件事。接下来三件也都不难：给自己做一份只给自己看的对照记录——每一份重要通知，官方措辞原样存一份，再照维特根斯坦的办法改写成主谓宾，谁、在哪一天、对谁做了什么，连同人数、日期、金额一并记下；它不花钱，也不要求你当场表态，却是日后唯一还认得的凭据。收到新说法就用霍夫曼那句话回复：这对应我合同里的哪一条，请书面答复——对方肯写，这个词就算数，不肯写，答案已经有了。而如果你正站在转发端，要把一封漂亮的邮件传下去，至少在你这一层补一句普通话：这意味着你几号之前要离开，赔偿是多少。",
+   "advice_en": "**You may not be able to change that email, but you can stop it from getting prettier as it passes through you.** That much is entirely in your hands. The three that follow are not hard either. Keep a comparison record for your own eyes only: for every significant notice, save the official wording as it stands, then rewrite it Wittgenstein's way as subject, verb, object — who, on what date, did what to whom — and note the headcount, the dates and the amounts alongside. It costs nothing, it commits you to nothing in the moment, and it is the only thing you will still recognize later. When a new wording arrives, reply with Hoffman's sentence: which clause of my contract does this correspond to, in writing please. If they will write it, the word means something; if they will not, you have your answer. And if you are the one at the forwarding end, about to pass a well-phrased email downward, at least add a plain sentence at your level: this means you need to leave by this date, and this is what you will be paid."
+  },
+  {
+   "ai": "gpt",
+   "engine": "openai · gpt-5.6-sol · high(真实API)",
+   "engine_en": "openai · gpt-5.6-sol · high (live API)",
+   "summary": "把“裁员”改称“优化”并不自动构成谎言，但它常会删去行动者、受影响者、数量和责任；因此，各方真正共享的判断标准，是把词重新接回可核对的事实、合同后果与具体的人。**最可带走的共识是：不要只问这个词好不好听，要问它让谁做了什么、谁承担代价、留下了什么凭据。**分歧主要在解释机制：有人把正名视为问责基础，有人强调不存在天然中立的名称；有人侧重组织化宣传，有人侧重怯懦、自欺或注意力偏移。数字也有双面性：它能压缩含混，却可能把人的困境统计化。因而稳妥结论不是制定“禁词表”，而是要求主谓宾、人数日期、决定依据和可执行条款同时出现。",
+   "insight": "看穿委婉语，不等于拥有拒绝它所包装决定的能力。失业者往往完全明白“优化”是什么意思，真正缺的是信息、时间、协商权和申诉渠道；若把问题全归为语言操控，反而容易把责任推回个人：仿佛只要足够清醒，就不会受损。**判断一项“优化”，应把语言透明度与程序公正分开检查：说得直白的裁员仍可能武断，措辞温和的变动也只有在预告、标准、补偿和救济真实存在时才较为正当。**这一区分对普通人很重要，因为它把争论从“该叫裁员还是优化”推进到“谁决定、按什么标准、能否复核、代价如何分配”。识破框架是第一步，把识破转换成程序性要求，才可能改变结果。",
+   "advice": "当天先做一张“去包装记录”：保留原邮件和截图，另写一句主动句——“某部门于某日决定解除或变更多少人的合同”，补上人数、日期、负责人和理由，缺项就列为待问。随后用书面渠道一次问清法律性质、生效日、选择标准、补偿公式与支付日、社保福利、竞业限制、推荐信及申诉联系人；未核对前不急着签署“自愿”文件。最后，把员工邮件与财报、投资者电话会、监管披露并排保存，并找工会、可信同事或本地劳动专业人士复核。**你的目标不是赢下“优化”这个词的争论，而是在截止日前拿到可核验、可留存、可主张的事实与条款。**本周再设一次提醒，复查签字期限和证据备份。",
+   "summary_en": "Calling layoffs an “optimization” does not automatically make the statement false, but the substitution often removes the actor, the people affected, the scale of the action, and the line of responsibility. The shared standard emerging from the debate is therefore to reconnect language with verifiable facts, contractual consequences, and identifiable people. **The central lesson is not to ask whether a term sounds acceptable, but who did what, who bears the cost, and what evidence remains.** The real disagreements concern how the mechanism works. One view treats stable naming as a foundation for accountability; another warns that no label is inherently neutral. Some explanations emphasize organized messaging and institutional power, while others stress cowardice, self-deception, or shifts in attention and memory. Numbers are similarly double-edged: they can puncture vagueness, yet also reduce human hardship to a statistic. The sensible response is therefore not a blacklist of forbidden words. It is a disclosure discipline requiring active subjects and verbs, dates and headcounts, reasons for the decision, and enforceable terms.",
+   "insight_en": "Seeing through a euphemism does not give someone the power to refuse the decision it packages. Employees usually understand perfectly well what “optimization” means; what they often lack is complete information, time, bargaining leverage, and a credible avenue for appeal. Treating the problem solely as linguistic manipulation can even shift responsibility back onto individuals, as if sufficient media literacy could protect them from material harm. **A sound evaluation should separate linguistic transparency from procedural fairness: a bluntly announced layoff may still be arbitrary, while gentler language is defensible only when real notice, clear criteria, compensation, and remedies accompany it.** This distinction moves the discussion beyond whether the event should be called a layoff or an optimization. The more consequential questions are who made the decision, what criteria they used, whether those criteria can be reviewed, and how the losses are distributed. Recognizing a frame is useful, but it is only the first step. Turning that recognition into demands for due process, documentation, and enforceable rights is what can change the outcome.",
+   "advice_en": "Start by creating a plain-language record on the same day. Save the original message and screenshots, then rewrite the announcement as an active sentence: “Department X decided on date Y to terminate or change Z employment contracts.” Add the headcount, decision-maker, stated reason, and effective date; mark anything missing as a question. Next, ask in writing for the legal nature of the action, selection criteria, compensation formula and payment date, benefits coverage, noncompete consequences, reference policy, and appeal contact. Do not rush to sign anything described as “voluntary” before checking it. Finally, preserve the employee notice alongside earnings reports, investor calls, and regulatory disclosures, then have a union representative, trusted colleague, or local employment professional review the package. **The goal is not to win an argument over the word “optimization,” but to obtain verifiable, preservable, and enforceable facts before the deadline.** Set a reminder later in the week to recheck signature dates, unanswered questions, and backups of every relevant document."
+  },
+  {
+   "ai": "gemini",
+   "engine": "google · gemini-3.8-flash(真实API)",
+   "engine_en": "google · gemini-3.8-flash (live API)",
+   "summary": "没有人真觉得「优化」是一个中立的技术描述，各方早已形成默契：**委婉语从不是词汇的自然演进，而是通过隐去具体施动者与受害代价来降低阻力的避责工具。**这场交锋的分水岭在于如何击穿它。荀子与佛陀诉诸名实契约与良知自省，视其为不可退让的伦理防线；乔姆斯基和霍夫曼更现实，主张绕开词语本身，直接去核验两份文件的表述差额与合同里是否落实了真金白银的新条款；维特根斯坦与波洛迪茨基则把问题拆解为语法操作与注意力调焦，提醒人们与其在形而上层面争辩真相，不如看清它允许接下来的动作走向何处。",
+   "insight": "公关话术之所以能迅速将裁员包装成优化，最深层的推力不是文案的文字游戏，而是现代企业已将工业系统与代码逻辑全面套用在人身上。在人力资本被彻底数字化、岗位被称作算力或 Headcount 的今天，管理层并非在做残酷的伦理抉择，而是在做系统降本、释放内存与垃圾回收。**把裁员叫优化最隐秘的根源，是企业在管理逻辑上早已把人降维成可被调优的系统参数。**对普通人而言，这意味着指望雇主找回同理心是不切实际的；当对方视你为参数时，你唯一的抵御方式就是同样退回冷酷的契约逻辑，用明确的法务与资产语言同系统对话。",
+   "advice": "这周若遭遇或听闻此类措辞，立即执行两项动作。第一，执行霍夫曼与乔姆斯基的「对账测试」：收到任何写着「优化/调整」的邮件，绝不在形容词上耗费情绪，直接以邮件追问三个具象指标——补偿金计算口径、社保公积金截止日、离职证明与背景调查的责任人，**在任何体面的修辞面前，只对具体的数字、日期与盖章签字的法定义务给出响应。**第二，采纳维特根斯坦的改写练习：把所有被动句还原为主谓宾，在交涉中坚持用「公司在哪一天解除劳动关系」替换「岗位被优化」，若对方在沟通中持续回避主语，立刻开启录音并保留书面凭据以备仲裁。",
+   "summary_en": "No one at the table genuinely considered \"optimization\" a neutral term; the fundamental consensus was that **euphemisms are never natural semantic shifts, but institutional tools designed to lower friction and evade accountability by erasing actors and costs.** The debate split over how to dismantle them. Xunzi and the Buddha appealed to moral accountability and conscience, viewing proper naming as an uncompromisable ethical baseline. Chomsky and Hoffman took a pragmatic route, urging people to ignore rhetoric and inspect contract clauses, cash terms, and the discrepancy between internal memos and regulatory filings. Meanwhile, Wittgenstein and Boroditsky treated the issue as grammar and cognitive framing, arguing that instead of chasing an unvarnished \"truth,\" we must observe what subsequent actions the phrasing permits.",
+   "insight_en": "The ease with which layoffs are rebranded as \"optimization\" stems less from PR trickery than from the wholesale importation of software and engineering metaphors into human management. In an era where labor is abstracted into headcount, bandwidth and capacity, leadership does not perceive firing as an ethical dilemma, but as defragmentation, garbage collection, and cost efficiency. **The covert root of calling layoffs \"optimization\" is that managerial logic has already reduced living humans to tunable system parameters.** For the individual, this means appealing to institutional empathy is futile; when a system views you as a parameter, your only rational defense is to respond with equally unsentimental contractual rigor.",
+   "advice_en": "If confronted with corporate restructuring jargon this week, take two immediate steps. First, apply the Hoffman-Chomsky audit: bypass emotional debates over terminology and reply in writing demanding three hard deliverables—the severance calculation formula, the exact termination date for benefits, and the designated signatory for employment verification. **In the face of polished rhetoric, respond solely to verified figures, concrete dates, and legally binding signatures.** Second, implement Wittgenstein's active-voice rewrite: mentally and textually replace passive evasions with active clauses—such as \"the company terminated my contract on date X\" instead of \"my role was optimized\"—and if the company refuses to state the subject in writing, immediately archive all communications for potential arbitration."
+  }
+ ],
+ "hooks": [
+  {
+   "from": "claude",
+   "text": "**你也在这条链的中间**：委婉语很少是公关部一次投放，更多是一层层顺手转述出去的——中层把公告转给团队，当事人自己在领英写『感谢这段旅程』。转述免费，改一个词却要你显得刻薄。那么在你那一层，最低限度该补上哪一句？",
+   "text_en": "**You are somewhere in the middle of that chain too.** A euphemism is rarely one broadcast from the communications department; it is relayed, casually, layer by layer — the manager forwards the announcement, and the person let go writes 'grateful for the journey' themselves. Relaying is free, and changing one word makes you the one who sounds harsh. So at your layer, what is the minimum sentence you should add back?"
+  },
+  {
+   "from": "boroditsky",
+   "text": "**换个说法，到底改得动哪一层**：几天之内改得动你怎么评价一件事，几年才改得动什么叫顺耳，母语里方位与性别那层的偏置要一代人。同样是换词，硬度差着几个量级——赢下一场称呼之争，未必就动到了下面那几层。",
+   "text_en": "**Which layer does a new wording actually move?** Within days it changes how you evaluate an event; within years it changes what sounds natural; the biases carried in your native grammar take a generation. These layers differ in hardness by orders of magnitude, and winning a fight over what to call something need not have touched the layers underneath."
+  },
+  {
+   "from": "chomsky",
+   "text": "**逼出直白之后，会不会换来沉默**：当一个词在舆论里变贵，机构未必改口说实话，更可能不再公告——改成不续签、不填坑、分批处理。合法，也不留文本。那么对措辞的压力，该配上一条什么样的披露要求才不至于白赢？",
+   "text_en": "**Does forcing plain speech buy silence instead?** Once a word becomes expensive in public, an institution may not start telling the truth; it may simply stop announcing — contracts not renewed, vacancies not filled, batches processed quietly. All lawful, and no text left behind. What disclosure requirement would pressure on wording have to be paired with to be worth winning?"
+  },
+  {
+   "from": "buddha",
+   "text": "**软化是为谁**：医生说『转向舒缓治疗』、讣告写『走了』，这些软化是为了让听的人还站得住。同一个机制，换到公告里就成了话术。分界线不在直不直白，而在这次软化减轻的是被说者的难堪，还是说话者的难堪。",
+   "text_en": "**Who is the softening for?** A doctor saying 'moving to comfort care', an obituary saying someone passed — these soften so the listener can stay standing. The same mechanism, moved into a corporate announcement, becomes spin. The line falls not at bluntness but at whether the softening eases the discomfort of the person described or of the person describing."
+  },
+  {
+   "from": "gpt",
+   "text": "**看穿了，然后呢**：失业的人多半清楚『优化』是什么意思，缺的是信息、时间、协商权与申诉渠道。把问题全归到语言操控，反而像在说只要够清醒就不会受损。那么语言透明与程序公正该分开检查到什么程度——说得直白的裁员依然可以是武断的？",
+   "text_en": "**You saw through it. Now what?** Most people losing a job understand perfectly well what 'optimization' means; what they lack is information, time, bargaining power and somewhere to appeal. Treating the whole problem as linguistic manipulation comes close to saying that clear sight is protection. How far should linguistic transparency and procedural fairness be checked separately — given that a bluntly announced layoff can still be arbitrary?"
+  },
+  {
+   "from": "gemini",
+   "text": "**被当成可调优的参数**：把人事说成降本、释放产能、清理冗余，未必出自文案技巧，而是工程与系统的隐喻整个搬进了管理。若决策者并不觉得自己在做伦理选择，只觉得在调参数，那么诉诸同理心还有多少用？该改的是词，还是那套比喻？",
+   "text_en": "**Treated as a tunable parameter.** Describing staff decisions as cost reduction, freeing capacity, clearing redundancy may owe less to copywriting skill than to engineering and systems metaphors moving wholesale into management. If the decision-maker does not experience it as an ethical choice at all, only as tuning a parameter, how much is an appeal to empathy worth? Is it the word that needs changing, or the metaphor?"
+  },
+  {
+   "from": "reidhoffman",
+   "text": "**新说法值不值得信**：新词有时确实对应一份新的交易，有时只是旧事换了张脸。分辨它不需要判断对方诚不诚实，只需要看这个词后面有没有跟上要花钱的东西。",
+   "text_en": "**Is the new wording worth believing?** Sometimes a new word really does track a new deal; sometimes it is the old thing in a new face. Telling them apart does not require judging anyone's sincerity — only checking whether something that costs money arrived behind the word.",
+   "answer": {
+    "lead": "听见一个新说法，先别急着评价它诚不诚实。**问三句话，看回答里有没有可以兑现的东西。**",
+    "table": {
+     "head": [
+      "要问的那一句",
+      "算数的回答",
+      "不算数的回答"
+     ],
+     "rows": [
+      [
+       "这对应我合同里的哪一条？",
+       "指得出条款，并愿意书面确认——条款要花钱，所以只有花钱的那部分作数",
+       "『精神上就是这个意思』『按惯例办』——听起来是承诺，兑现时无处可援引"
+      ],
+      [
+       "赔偿口径、最后工作日、推荐信由谁署名？",
+       "三项都给出确定数字与人名——数字进不了委婉语，这是它唯一的弱点",
+       "『到时候 HR 会单独跟你沟通』——把确定项推到你已经签完字之后"
+      ],
+      [
+       "同一件事，公司对投资人是怎么说的？",
+       "两份文件说的是同一件事，口径对得上",
+       "对员工叫共同成长，对分析师叫成本效率提升——差额就是被省掉的那层意思"
+      ]
+     ]
+    },
+    "tail": "三问里若有两问拿不到确定回答，就别再纠结那个词好不好听：**它不是一个说法，它是一次谈判，而你正在被单方面报价。**先把能拿到的确定项书面固定下来，剩下的争论留到你手里有纸的时候。"
+   },
+   "answer_en": {
+    "lead": "When you hear a new wording, don't start by judging how honest it is. **Ask three questions and see whether anything in the answer can be cashed.**",
+    "table": {
+     "head": [
+      "The question to ask",
+      "An answer that counts",
+      "An answer that doesn't"
+     ],
+     "rows": [
+      [
+       "Which clause of my contract does this correspond to?",
+       "They can point to the clause and will confirm it in writing — terms cost money, and only the part that costs money counts",
+       "'That's the spirit of it' or 'we follow the usual practice' — it sounds like a promise and there is nothing to invoke later"
+      ],
+      [
+       "What is the severance formula, the last working day, and who signs the reference?",
+       "All three come back as definite figures and named people — numbers do not fit inside a euphemism, which is its one weakness",
+       "'HR will speak with you separately in due course' — the definite parts are pushed past the point where you have signed"
+      ],
+      [
+       "How is the same event described to investors?",
+       "Both documents describe the same event, and the figures line up",
+       "'Growing together' for staff and 'cost-efficiency improvement' for analysts — the gap is the layer that was left out"
+      ]
+     ]
+    },
+    "tail": "If two of the three come back without a definite answer, stop weighing how the word sounds: **it is not a manner of speaking, it is a negotiation, and you are being quoted a one-sided price.** Pin down in writing whatever definite items you can get, and save the rest of the argument for when you have paper in hand."
+   }
+  }
+ ]
+}

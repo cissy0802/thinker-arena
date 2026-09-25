@@ -92,15 +92,6 @@
       "votes": 0
     },
     {
-      "id": "change-self-or-change-place",
-      "votes": 0,
-      "q": "该磨自己，还是换个地方？",
-      "q_en": "Grind at yourself, or change where you stand?",
-      "note": "同一个特点在不同场合的定价差距，常常大于你能在自己身上改出来的幅度：在大公司被写进评语的『不好管』，到一支五人小队里叫『有主见』；被嫌太较真、太慢的人，进了审计、安全与药物警戒就是核心资产。那么什么时候该继续磨自己，什么时候该承认是场合不对？换场合也可能只是逃避，变成不断跳槽、不断换城市、不断换伴侣；又有哪几样东西是走到哪儿都跟着你的。判据也许不在性格测评，而在一次定价调查——这股劲儿在哪类任务上被出价最高。　前提是退出权本身分配不均：有房贷、有签证、有孩子在读书的人换不动地方，于是『不合适就走』这条建议，最沉的一份落在最没退路的人身上。　同一道题的家庭版本：还住在父母房子里、还指望他们带孩子、还在等那笔钱的人，说破与走开的成本完全不同——一条只有经济独立的人执行得起的建议，落到最依赖的那个人身上还算不算建议？",
-      "note_en": "The spread in what one trait is priced at across settings is often wider than anything a person could change in themselves: 'hard to manage' in a large company's performance review reads as 'has a mind of his own' in a team of five, and someone dismissed as too pedantic and too slow is a core asset in audit, safety engineering or pharmacovigilance. So when should a person keep grinding, and when should they concede the setting is wrong? Changing the setting can also be plain avoidance — an endless run of new jobs, new cities, new partners — and some things follow you wherever you go. The test may lie not in a personality inventory but in a pricing survey: on which kind of task does this drive fetch the highest bid? The premise is that the right of exit is itself unequally distributed: people with a mortgage, a visa or a child mid-school-year cannot move, so the advice to leave when it does not suit you falls heaviest on whoever has the least fallback. The same question in its family version: someone still living in their parents' flat, still relying on them for childcare, still waiting on that money, faces an entirely different bill for speaking up or walking away — is advice only the financially independent can act on still advice when it reaches the most dependent person?",
-      "cat": "self"
-    },
-    {
       "id": "place-not-watched",
       "votes": 0,
       "q": "还有没有不被看见的地方？",
@@ -162,6 +153,15 @@
       "note": "睡眠正被整体改写成一段维护期：睡眠债、恢复评分、把它当成明天产出的燃料，连休息都要达标。可一天里三分之一在那儿发生——梦、修复、以及人唯一不必表现的一段时间。当作资源来管理确实换来了真实的健康收益，也催生了新的毛病：越盯着分数越睡不着。另一端是干脆把夜晚整个让出去，不记录、不干预、不优化。难处是划界：哪些部分一优化就更好，哪些部分一被优化就没了？同一把尺还量得到午睡、周末补觉、以及『躺着什么也不干』该不该需要理由。",
       "note_en": "Sleep is being rewritten wholesale as a maintenance window: sleep debt, recovery scores, fuel for tomorrow's output, rest itself with targets to hit. Yet a third of every day happens there — dreaming, repair, and the one stretch in which a person is not required to perform. Managing it as a resource has bought real gains in health, and it has also produced a new complaint: the harder you watch the score, the worse you sleep. At the other end is handing the night over entirely — unlogged, untouched, unoptimised. The difficulty is where to draw the line: which parts get better under optimisation, and which parts cease to exist once optimised? The same measure reaches naps, weekend catch-up sleep, and whether lying down doing nothing ought to need a justification.",
       "cat": "life"
+    },
+    {
+      "id": "endurance-gets-you-more-work",
+      "votes": 0,
+      "q": "能扛的人，是不是总被多派活？",
+      "q_en": "Does being the one who copes just get you more work?",
+      "note": "耐受力常被当成一项可随时调用的资源：谁不抱怨、谁扛得住，活就往谁那里流，而抱怨得多的人反而被绕开。于是『练好心态』有可能正是被多派活的原因——训练出来的韧性，最后成了填补制度缺口的免费材料。可另一面也真实：真扛得住的人成长最快、也最被信任，把耐力藏起来只换来无聊的活与更低的天花板。那么一个人该把自己的耐受力显示到几分，什么时候该让代价可见、让缺口自己露出来？　家庭版本更硬：最能干、最不抱怨的那个孩子，往往被默认接下照顾父母的活；而这份『能干』一旦被认定，几乎再也退不回去。",
+      "note_en": "Endurance tends to be treated as a resource that can be drawn on at will: work flows towards whoever does not complain and can take it, while the person who complains loudly gets routed around. Training a better attitude may therefore be the very reason more work arrives — resilience, once trained, ends up as free material for patching institutional gaps. The other side is equally real: people who genuinely cope do grow fastest and are trusted most, and hiding your stamina buys only dull assignments and a lower ceiling. So how much of your own endurance should you let show, and when should the cost be made visible so that the gap reveals itself? The family version is harder still: the most capable, least complaining child is the one quietly assigned the care of ageing parents — and once that capability is established it is almost impossible to hand back.",
+      "cat": "self"
     }
   ],
   "debated": [
@@ -1046,6 +1046,13 @@
       "q_en": "Are dreams a coded message from within, or a story the brain improvises?",
       "date": "2026-09-24",
       "cat": "meta"
+    },
+    {
+      "id": "change-self-or-change-place",
+      "q": "该磨自己，还是换个地方？",
+      "q_en": "Grind at yourself, or change where you stand?",
+      "date": "2026-09-25",
+      "cat": "self"
     }
   ]
 }

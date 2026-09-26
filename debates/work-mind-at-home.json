@@ -1,0 +1,810 @@
+{
+ "id": "work-mind-at-home",
+ "question": "职业思维该不该带回家？",
+ "question_en": "Should your professional mindset come home with you?",
+ "sub": "在岗位上被嘉奖的那套心智，换到饭桌上，多半没人给你报错。",
+ "sub_en": "The mindset that earns you praise on the job comes to the dinner table, where nothing reports the error back to you.",
+ "date": "2026-09-26",
+ "participants": [
+  "goffman",
+  "bourdieu",
+  "covey",
+  "munger",
+  "nussbaum",
+  "vasubandhu",
+  "ledoux"
+ ],
+ "casting": [
+  {
+   "id": "goffman",
+   "reason": "家从来不是后台，它只是另一个观众更少、剧本更旧的前台——所以他不问一个人有没有把职业角色带回去，只问他还留着多少角色距离。戏服穿久了会长进皮肤里，那时人不再扮演审计师，他就是审计师了。他给的验法一概不往人心里探：数那些不用扮的小动作还在不在，数对方以前会讲、现在不讲的话题。",
+   "reason_en": "Home was never the back stage; it is simply another front stage with fewer spectators and an older script. So he does not ask whether someone has brought the professional role home, only how much role distance is left. A costume worn long enough grows into the skin, and at that point the person no longer performs the auditor — he is one. His tests never probe the interior: count whether the small unperformed gestures are still there, and count the topics the other person used to raise and no longer does."
+  },
+  {
+   "id": "bourdieu",
+   "reason": "惯习长在身体里，不在念头里，所以他认为自我检查在这道题上注定失效——你用来检查滤镜的那套认知，正是滤镜。被奖赏得越多，姿态、语速与直觉沉得越深。他还坚持把一件被说成修养的事翻成结构问题：同一份外溢按阶级定价，医生把权威带回家叫有主见，护工把顺从带回家叫没脾气。",
+   "reason_en": "Habitus lives in the body, not in one's thoughts, so he holds that self-examination is bound to fail here: the cognition you would use to inspect the filter is the filter. The more it is rewarded, the deeper it settles into posture, pace of speech and intuition. He also insists on translating what gets called self-cultivation back into a structural question: the same spillover is priced by class — a doctor who brings authority home is called decisive, a care worker who brings deference home is called easy-going."
+  },
+  {
+   "id": "covey",
+   "reason": "公私两套人格才是病灶：在会议室讲双赢、回家把胜负算到底，那不是两套本事。他要人分清该留在门口的技巧与该带进门的原则，并把刺激与回应之间那段空隙守到最后——人的自由住在那儿，哪怕它比他原先说的窄。他不信巧办法，只信笨办法日复一日地做。",
+   "reason_en": "Two personalities, one for the office and one for the house, is the disease itself: preaching win-win in the meeting room and then playing every disagreement at home to a win amounts to two faces, not two skill sets. He wants technique left at the door and principle brought through it, and he defends to the last that gap between stimulus and response where human freedom lives — even if it turns out narrower than he once claimed. He distrusts clever fixes and trusts clumsy ones done day after day."
+  },
+  {
+   "id": "munger",
+   "reason": "手里只有一把锤子的人，看什么都像钉子——他认定解药是多备几把，不是把那把藏起来，教人下班变笨是最糟的建议。他还要人看清一件比修养更硬的东西：这套心智越被嘉奖、奖金越厚，脑子越会替收入辩护，所以指望自己想明白是没用的。说话毒舌，最恨自欺。",
+   "reason_en": "To a man with a hammer, everything looks like a nail — and he is certain the cure is to carry more tools, not to hide the one you have; telling people to get dumber after hours is the worst advice going. He also wants something harder than self-cultivation looked at squarely: the more this mindset is praised and the fatter the bonus, the more the brain argues for the income, so waiting to reason your own way out is useless. Caustic, and allergic to self-deception."
+  },
+  {
+   "id": "nussbaum",
+   "reason": "情感是判断，不是需要过滤的噪声：恐惧在说这件事要紧而我护不住，爱在说这个人的好坏已经算进我的好坏里。她据此指出职业框架真正的损伤——把亲密关系必需的脆弱性重写成风险，然后去管理它。她也是全场唯一挡住『自测清单』的人：用判据回答这道题，本身就是在用出了问题的那套心智。",
+   "reason_en": "Emotions are judgements, not noise to be filtered out: fear says this matters and I cannot protect it, love says this person's good and ill are already counted inside my own. From there she names the real injury the professional frame does — rewriting the vulnerability that intimacy requires as risk, and then managing it. She is also the only one to block the checklist: answering this question with criteria is itself the damaged mindset at work."
+  },
+  {
+   "id": "vasubandhu",
+   "reason": "识无内外，何来带回——他一开口就拆掉了这道题的前提。所谓职业之心，是名言种子在官署里日日熏习而成的习气，藏于阿赖耶识，归家遇境便自现行，不待你许。于是他把力气全押在现行的那一瞬：照见此相是识所变、非彼人实有之过，其势自减；与之相战者，反熏其种。",
+   "reason_en": "Consciousness has no inside or outside, so what is there to bring home — his first words dismantle the question's premise. What is called the professional mind is a disposition formed by verbal seeds steeped day after day in the office, stored in the ālaya-vijñāna, manifesting of itself the moment a situation is met at home, without waiting for consent. So he stakes everything on that instant of manifesting: see that the image is a transformation of consciousness and not a fault truly present in the other, and its force slackens; fight it, and you only water the seed."
+  },
+  {
+   "id": "ledoux",
+   "reason": "他先把信念与阈值分开：审计师的多疑多半不是一套主张，是一组被训练过的探测参数，在人听清对方说什么之前就已经完成工作。因此『下班关掉它』在机制上不成立，意志管不到那条通路，能动它的只有反复的安全反例与记忆再巩固的那几小时窗口。他讲完机制一定落到剂量与时刻，也一定拒绝把可改的东西说成意志问题。",
+   "reason_en": "He separates belief from threshold first: an auditor's suspicion is rarely a set of convictions, it is a trained set of detection parameters that finish their work before the person has heard what was said. So switching it off after hours does not hold up mechanistically — the will does not reach that pathway, and the only things that move it are repeated safe counter-examples and the few hours of the reconsolidation window. Having laid out the mechanism he always lands on dose and timing, and always refuses to call a changeable thing a failure of will."
+  }
+ ],
+ "posts": [
+  {
+   "id": "p01",
+   "round": 1,
+   "thinker": "covey",
+   "reply_to": null,
+   "text": "下班换一张脸，这件事本身就该被怀疑。一个人在会议室里讲双赢、回家把每场分歧都算到胜负，这叫两副面孔，谈不上两套本事——**品格不分场合，能分场合的只有技巧。**该留在门口的是技巧：议程、结案、季度指标。该带进门的是原则，尤其那条知彼解己：先求理解，再求被理解。多数人把它用在客户身上，一次也没用在配偶身上。家里那本情感账户每天都在收支，你拿职业效率往里存，存进去的多半是取款。",
+   "text_en": "Changing your face when you clock off is itself the thing to be suspicious of. Someone who preaches win-win in the meeting room and then plays every disagreement at home to a win has two faces, not two skill sets. **Character does not vary by setting. Only technique does.** Technique is what belongs at the door: agendas, closing the item, quarterly numbers. Principle is what belongs inside, above all seek first to understand, then to be understood. Most people apply that to clients and never once to a spouse. The emotional bank account at home is taking deposits and withdrawals every day, and what you pay in as professional efficiency mostly clears as a withdrawal.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "知彼解己": "seek first to understand, then to be understood（知彼解己）：柯维七个习惯中的第五条——在提出自己的主张前，先把对方的处境与感受听懂到能替他复述一遍的程度；他认为多数人听的时候其实在准备回话。",
+    "情感账户": "emotional bank account（情感账户）：柯维的比喻，把一段关系里的信任看作一个有存有取的账户：守约、耐心、真诚的道歉是存入，敷衍、失约、居高临下是取出；余额决定一句重话是被当成关心还是当成攻击。"
+   },
+   "glossary_en": {
+    "seek first to understand, then to be understood": "The fifth of Covey's seven habits: before advancing your own case, listen to the other person's situation and feelings well enough to restate them in your own words. Most people, he argues, are drafting their reply while appearing to listen.",
+    "emotional bank account": "Covey's metaphor for the trust inside a relationship: kept promises, patience and real apologies are deposits; brush-offs, broken commitments and condescension are withdrawals. The balance decides whether a hard sentence lands as care or as an attack."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "munger"
+    ],
+    "轻微赞同": [
+     "nussbaum"
+    ],
+    "轻微反对": [
+     "goffman"
+    ],
+    "强烈反对": [
+     "bourdieu"
+    ]
+   }
+  },
+  {
+   "id": "p02",
+   "round": 1,
+   "thinker": "goffman",
+   "reply_to": "p01",
+   "text": "柯维要的『到哪儿都是同一个我』，在我看来是最精致的一种表演。家不是后台，它是另一个前台，只是观众更少、剧本更旧。健康的人两处都在演，并且知道自己在演，那点余量叫**角色距离**。麻烦发生在戏服脱不下来的那天：他不再扮演审计师，他就是审计师。**所以别问『我是不是太多疑』，去数一件事——那些不用扮的小动作还在不在。**打哈欠、说错话不改口、吃饭不摆盘：后台的证据是松懈，不是坦白。",
+   "text_en": "The 'same me everywhere' that Covey wants is, to my eye, the most refined performance of all. Home is not the back stage; it is another front stage with fewer spectators and an older script. Healthy people perform in both and know they are performing, and that margin is called **role distance**. The trouble begins the day the costume will not come off: he no longer performs the auditor, he is one. **So do not ask whether you are too suspicious. Count one thing instead — whether the small unperformed gestures are still there.** Yawning, letting a misspoken word stand, not arranging the food on the plate. The evidence of a back stage is slackness, not candour.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "角色距离": "role distance（角色距离）：戈夫曼的概念，指人在扮演一个角色的同时留出的那点不认同——医生跟护士开个玩笑、店员翻一下白眼，都是在说『我知道我在演这个』。距离归零，角色就吞掉了人。"
+   },
+   "glossary_en": {
+    "role distance": "Goffman's term for the sliver of non-identification a person keeps while playing a role: the doctor who jokes with the nurse, the clerk who rolls their eyes, are both saying 'I know I am performing this.' When the distance reaches zero, the role has swallowed the person."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "bourdieu"
+    ],
+    "轻微赞同": [
+     "ledoux",
+     "munger"
+    ],
+    "轻微反对": [
+     "covey"
+    ],
+    "疑惑": [
+     "nussbaum"
+    ]
+   }
+  },
+  {
+   "id": "p03",
+   "round": 1,
+   "thinker": "ledoux",
+   "reply_to": null,
+   "text": "审计师的多疑，多半只是一组被训练出来的阈值，谈不上信念。防御性生存回路在你听清对方说完之前就已经完成了探测，它走皮层下的快线，人和大鼠共有。**所以最好的判据是速度：对方话没说完，框架已经扣上去了，那说明启动它的东西不是你的判断。**也正因为如此，『下班把它关掉』在机制上不成立——它不接受意志的开关。能改它的只有反复出现的安全反例，也就是消退学习——这要以月计，不靠决心。",
+   "text_en": "An auditor's suspicion is mostly a set of trained thresholds, and hardly a belief at all. The defensive survival circuits finish their detection before you have heard the other person out, running on a subcortical fast route that humans share with rats. **So the best marker is speed: if the frame lands before they finish the sentence, whatever triggered it was not your judgement.** And for the same reason, 'switch it off after hours' does not hold up mechanistically — that pathway takes no orders from the will. The only thing that moves it is safe counter-examples, repeatedly: extinction learning, which takes months rather than resolve.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "防御性生存回路": "defensive survival circuits（防御性生存回路）：勒杜坚持用这个名字取代『恐惧中枢』——脑中一套在意识之外探测威胁并发动僵住、回避、心率与激素反应的线路，人和其他哺乳动物共有；它的启动与『我感到害怕』这个有意识的感受是两件可以分开的事。",
+    "消退学习": "extinction learning（消退学习）：让原本预告危险的线索反复出现却不再跟着坏结果，从而使反应逐渐减弱的过程；它不是把旧记忆擦掉，而是新长出一条抑制性的学习去压住它，所以疲劳、压力或久不练习时旧反应会回来。"
+   },
+   "glossary_en": {
+    "defensive survival circuits": "LeDoux's preferred name in place of 'fear centre': brain circuitry that detects threat outside of awareness and launches freezing, avoidance and changes in heart rate and hormones, shared across mammals. Its activation and the conscious feeling 'I am afraid' are two separable things.",
+    "extinction learning": "The process by which a cue that once predicted danger appears repeatedly without the bad outcome, so the response weakens. It does not erase the old memory but grows a new inhibitory one on top of it, which is why the old response returns under fatigue, stress or long disuse."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "bourdieu",
+     "nussbaum"
+    ],
+    "轻微赞同": [
+     "goffman"
+    ],
+    "疑惑": [
+     "covey"
+    ],
+    "轻微反对": [
+     "vasubandhu"
+    ]
+   }
+  },
+  {
+   "id": "p04",
+   "round": 1,
+   "thinker": "bourdieu",
+   "reply_to": null,
+   "text": "戈夫曼的舞台隐喻太仁慈了。脱不下来的不是戏服，是身体。惯习是在一个场域里被反复奖赏之后，沉进姿态、语速与直觉里的东西；**它先于反思，所以自我检查一定失效——你用来检查滤镜的那套认知，正是滤镜。**还有一层没人愿意提：同一份外溢按阶级定价。医生把权威带回家，家里说他有主见；护工把顺从带回家，家里说她没脾气。这不是个人修养的账。",
+   "text_en": "Goffman's stage metaphor is too kind. What will not come off is not the costume but the body. A habitus is what settles into posture, pace of speech and intuition after being rewarded over and over inside a field; **it comes before reflection, which is why self-examination is bound to fail — the cognition you would use to inspect the filter is the filter.** And there is a layer nobody wants to raise: the same spillover is priced by class. A doctor brings authority home and is called decisive; a care worker brings deference home and is called easy-going. This is not an account that self-cultivation settles.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "惯习": "habitus（惯习）：布迪厄的核心概念，指一个人在特定环境里长年生活后沉积下来的一整套倾向——怎么站、怎么说话、什么事一眼就觉得不对。它是社会结构在身体里的沉淀，运作时几乎不经过意识，因此既稳定又难以自省。",
+    "场域": "field（场域）：布迪厄用来指一个有自己规则与赌注的相对独立空间，如司法界、医疗界、艺术界。同一种举止在不同场域里的价值完全不同，一个人的能力其实是『某种惯习恰好被某个场域高价收购』的结果。"
+   },
+   "glossary_en": {
+    "habitus": "Bourdieu's central concept: the whole set of dispositions deposited in a person by years inside a particular environment — how they stand, how they speak, what strikes them instantly as wrong. It is social structure sedimented in the body, operating almost without passing through consciousness, and so both durable and hard to inspect.",
+    "field": "Bourdieu's term for a relatively autonomous space with its own rules and stakes — the law, medicine, art. The same bearing is worth quite different amounts across fields, so what is called someone's ability is really a habitus that some field happens to buy at a high price."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "ledoux"
+    ],
+    "轻微赞同": [
+     "nussbaum",
+     "vasubandhu"
+    ],
+    "轻微反对": [
+     "munger"
+    ],
+    "强烈反对": [
+     "covey"
+    ]
+   }
+  },
+  {
+   "id": "p05",
+   "round": 1,
+   "thinker": "vasubandhu",
+   "reply_to": null,
+   "text": "诸君言『带回』，已先立内外二处。识无内外，何得言带？**彼所谓职业之心，乃名言种子熏习所成**：处官署之中，日日以疑为职、以断为功，熏之久则成习气，藏于阿赖耶识。归家遇境，种子现行，不待汝许。故非汝携之入门，乃门内门外本同一识。其病不在用此心，而在**遍计所执**——以己识所现之相，执为彼人身上实有之过。相既执实，虽爱亦成讼。",
+   "text_en": "You all speak of bringing it home, which already posits an inside and an outside. Consciousness has no inside or outside, so what is there to bring? **What you call the professional mind is made by the steeping of verbal seeds**: in the office, day after day, suspicion counts as competence and issuing a verdict counts as merit; steeped long enough this becomes a disposition, stored in the ālaya-vijñāna. Return home, meet a situation, and the seeds manifest without waiting for your consent. You did not carry it through the door; inside the door and outside were one consciousness all along. The sickness is not in using this mind but in **parikalpita** — taking an image your own consciousness has produced for a fault really present in the other person. Once the image is held as real, even love turns into litigation.",
+   "vernacular": "各位说『带回家』，这就已经先立了内外两处。识没有内外，谈什么带？**所谓职业心智，是名言种子反复熏习出来的**：在单位里，天天以怀疑为称职、以下判断为功劳，熏久了就成了习气，藏在阿赖耶识里。回家一遇到情境，种子就现行，根本不等你同意。所以不是你把它带进了门，而是门内门外本来就是同一个识。它的病不在用这套心智，而在**遍计所执**——把自己心里现起的那个相，当成对方身上真有的过错。相一旦被当成实有，连爱也变成打官司。",
+   "vernacular_en": "",
+   "glossary": {
+    "名言种子": "verbal seeds (nāma-bīja)（名言种子）：唯识学认为，人每一次用概念去命名、分判事物，都会在心识里留下一份潜在的余势，日后遇到类似情境便自动依旧有的分类现起。这解释了为何一套被反复使用的职业分类会脱离原场合、变成看人看事的默认方式。",
+    "习气": "vāsanā（习气）：种子反复熏习后形成的惯性倾向，近于『积久成性』；唯识学强调它不在意识的表层，因此人常在事后才发现自己又那样反应了一次。",
+    "阿赖耶识": "ālaya-vijñāna（阿赖耶识）：唯识八识中最深的一层，字面意思是『藏』，一切种子存于其中，是经验得以延续与显现的根基；它本身不作判断，只提供一切现行所依的材料。",
+    "遍计所执": "parikalpita（遍计所执）：唯识三性中的『遍计所执性』，指把心识依分别构造出来的相状当作外在实有。在人际里的样子是：你心里生起的那个『他在敷衍我』，被当成他身上客观存在的事实。"
+   },
+   "glossary_en": {
+    "verbal seeds": "In Yogācāra, every act of naming and sorting leaves a latent residue in consciousness, which later makes the same categories arise of themselves when a similar situation appears. This is why a professional taxonomy used thousands of times detaches from its setting and becomes the default way of seeing people.",
+    "ālaya-vijñāna": "The deepest of the eight consciousnesses in Yogācāra, literally 'the storehouse', where all seeds reside; it is the ground that lets experience persist and manifest. It passes no judgement itself, only supplies the material every manifestation rests on.",
+    "parikalpita": "The 'constructed' nature among Yogācāra's three natures: taking an image that consciousness has fabricated through discrimination for something externally real. In human terms: the 'she is fobbing me off' that arises in your mind gets treated as a fact located in her."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "nussbaum"
+    ],
+    "轻微赞同": [
+     "bourdieu",
+     "goffman"
+    ],
+    "疑惑": [
+     "ledoux",
+     "munger"
+    ]
+   }
+  },
+  {
+   "id": "p06",
+   "round": 1,
+   "thinker": "nussbaum",
+   "reply_to": null,
+   "text": "我要挡住这一晚正在成形的那样东西：一份自测清单。**把这道题交给判据，已经是在用出了问题的那套心智回答它。**情感不是待过滤的噪声，它是判断——恐惧在说这件事要紧而我护不住，爱在说这个人的好坏已经算进我自己的好坏里。职业框架真正的损伤，是把亲密关系必需的脆弱性重写成风险，然后去管理它。能力进路只问一句：跟你在一起，这个人还能不能做他本来做得到的事。",
+   "text_en": "I want to block the thing taking shape this evening: a self-diagnostic checklist. **Handing this question to criteria is already answering it with the mindset that is the problem.** Emotions are not noise awaiting filtration; they are judgements — fear says this matters and I cannot protect it, love says this person's good and ill are already counted inside my own. What the professional frame really damages is this: it rewrites the vulnerability intimacy requires as risk, and then manages it. What the capability approach asks is only this: with you, can this person still do what they were able to do?",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "脆弱性": "vulnerability（脆弱性）：努斯鲍姆用它指人因为在意别人而必然承受的那份可被伤害——爱一个人就等于把自己生活的好坏交给了你控制不了的事。她认为这不是该被消除的风险，而是任何值得过的生活的构成条件。",
+    "能力进路": "the capability approach（能力进路）：努斯鲍姆与阿马蒂亚·森提出的评价框架，衡量一个处境的好坏不看资源多少或主观满意度，而看当事人真正有机会去做、去成为什么。用在关系里，它把问题从『我们谁对』换成『这段关系扩大还是缩小了对方的可能性』。"
+   },
+   "glossary_en": {
+    "vulnerability": "Nussbaum's term for the exposure a person necessarily takes on by caring about others: to love someone is to place the quality of your own life in the hands of things you cannot control. She treats this not as a risk to be eliminated but as a condition of any life worth living.",
+    "the capability approach": "The framework developed by Nussbaum and Amartya Sen, which judges a situation not by resources or reported satisfaction but by what the person genuinely has the opportunity to do and to be. Applied to a relationship, it shifts the question from who is right to whether the relationship widens or narrows what the other person can become."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "vasubandhu"
+    ],
+    "轻微赞同": [
+     "covey",
+     "ledoux"
+    ],
+    "轻微反对": [
+     "goffman"
+    ],
+    "强烈反对": [
+     "munger"
+    ]
+   }
+  },
+  {
+   "id": "p07",
+   "round": 1,
+   "thinker": "munger",
+   "reply_to": null,
+   "text": "手里拿着锤子的人看什么都像钉子，这毛病老得掉牙，解法也一样老：多备几把。劝人下班把工具关掉，等于劝人变笨。审计师在饭桌上出事，怪不到他审计得太好；怪的是他这辈子只学了一门，**格栅里只有一格，那一格当然什么都往里装**。还有一条比修养更管得住人：激励导致的偏误。这套心智越被嘉奖、奖金越厚，你越不可能在家里承认它用错了地方——你的脑子替你的收入辩护。",
+   "text_en": "To a man with a hammer everything looks like a nail. The fault is as old as the hills and so is the fix: carry more tools. Telling people to switch the tool off after hours is telling them to get dumber. When the auditor comes unstuck at the dinner table, the fault is not that he audits too well; the fault is that he only ever learned one trade — **his latticework has one square in it, so naturally everything gets filed there**. And here is something that governs people better than character does: incentive-caused bias. The more this mindset is praised and the fatter the bonus, the less able you are to admit at home that it is in the wrong room. Your brain is arguing for your income.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "格栅": "latticework of mental models（思维格栅）：芒格主张的学习方式——从心理学、物理、生物、会计等多个学科各取若干最管用的基本模型，编成一张可以交叉检验的网；他认为单一学科的高手最容易把一切都套进自己那一格。",
+    "激励导致的偏误": "incentive-caused bias（激励导致的偏误）：当一个结论对自己有利时，人会真心地相信它，而不是假装相信；芒格视之为人类误判的头号来源，并强调它在最诚实的人身上照样起作用，所以只能靠制度与外人的直言来防。"
+   },
+   "glossary_en": {
+    "latticework": "Munger's prescription for learning: take the few most useful basic models from psychology, physics, biology, accounting and elsewhere, and weave them into a net whose parts can check one another. The specialist with a single discipline, he argues, is the one most likely to file everything in his one square.",
+    "incentive-caused bias": "When a conclusion pays a person, they come to believe it sincerely rather than pretend to. Munger treated this as the leading source of human misjudgement and stressed that it works on honest people too, so only institutions and blunt outsiders can guard against it."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "covey"
+    ],
+    "轻微赞同": [
+     "ledoux",
+     "bourdieu"
+    ],
+    "强烈反对": [
+     "nussbaum"
+    ],
+    "疑惑": [
+     "vasubandhu"
+    ]
+   }
+  },
+  {
+   "id": "p08",
+   "round": 2,
+   "thinker": "munger",
+   "reply_to": "p01",
+   "text": "柯维那套原则听着体面，可它不解决本题。原则告诉你要诚实、要双赢，它不告诉你此刻该用哪个模型。人在家里犯的错，多半不是缺德，是把一段情绪当成了一个待排查的故障：流程完全正确，对象完全不对。**这里缺的是裁决规则，不是更高的品格。**我自己那条粗办法叫能力圈——碰到我没有模型的地方，先闭嘴，听两轮再开口。婚姻对大多数工程师来说就在圈外。",
+   "text_en": "Covey's principles sound respectable and they do not settle this question. A principle tells you to be honest and to seek win-win; it does not tell you which model to reach for right now. What people get wrong at home is rarely a moral failure — it is treating a feeling as a fault to be traced: the procedure is entirely correct and the object entirely wrong. **What is missing here is an adjudication rule, not loftier character.** My own crude version is the circle of competence: where I have no model, shut up and listen through two rounds before speaking. For most engineers, marriage sits outside the circle.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "能力圈": "circle of competence（能力圈）：芒格与巴菲特的自律准则——清楚划出自己真正懂的范围，圈外的事宁可不做也不硬做；关键不在圈有多大，而在边界画得准，以及边界之外肯不肯认自己不懂。"
+   },
+   "glossary_en": {
+    "circle of competence": "Munger and Buffett's rule of self-discipline: mark out clearly what you genuinely understand and decline what lies beyond it rather than force it. What matters is not the size of the circle but the accuracy of its edge — and the willingness to admit ignorance outside it."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "bourdieu"
+    ],
+    "轻微赞同": [
+     "ledoux"
+    ],
+    "轻微反对": [
+     "covey"
+    ],
+    "强烈反对": [
+     "nussbaum"
+    ],
+    "疑惑": [
+     "vasubandhu"
+    ]
+   }
+  },
+  {
+   "id": "p09",
+   "round": 2,
+   "thinker": "bourdieu",
+   "reply_to": "p02",
+   "text": "『知道自己在演』这件事，戈夫曼给得太便宜了。惯习的作用点恰在知与不知之间：你完全可以一边清楚自己是个爱盘问的人，一边在半秒之内把人盘问下去。反思拦不住身体。他那条判法我倒是认——数松懈，不数自省，方向是对的。可要补上一句：**能不能松懈，本身是场域发的许可。**在自己家里敢瘫着的人和不敢瘫的人，分野在身后有没有一份可以失态的余裕，与自觉无关。",
+   "text_en": "'Knowing that you are performing' is something Goffman gives away too cheaply. Habitus works precisely in the gap between knowing and not knowing: you can be perfectly clear that you are an interrogator by temperament and still interrogate someone inside half a second. Reflection does not stop the body. His test I will accept — count slackness, not self-scrutiny; the direction is right. But one line has to be added: **whether you may slacken at all is a permission issued by the field.** What separates the person who dares sprawl at home from the person who does not is whether there is any margin behind them for losing face. Awareness has nothing to do with it.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "ledoux"
+    ],
+    "轻微赞同": [
+     "nussbaum",
+     "vasubandhu"
+    ],
+    "轻微反对": [
+     "goffman"
+    ],
+    "强烈反对": [
+     "covey"
+    ]
+   }
+  },
+  {
+   "id": "p10",
+   "round": 2,
+   "thinker": "nussbaum",
+   "reply_to": "p08",
+   "text": "再添一把锤子，得到的是一整墙的锤子。**芒格的格栅里有一个致命的空格：它没有任何规则能告诉你，哪些事根本不该被建模。**把对方的难过当成一个需要选对模型的对象，这一步已经把她从共同生活的人降成了一个案例——她感觉到的正是这个降级，而不是你选错了工具。有个更省事的东西早就在那儿：不要立刻处理。**先待在她的难过里，等她把话说完。**这一条学不会的人，背五十个模型也没用。",
+   "text_en": "Add another hammer and what you have is a wall of hammers. **There is one fatal blank square in Munger's latticework: nothing in it can tell you which things should not be modelled at all.** Treating the other person's distress as an object requiring the right model has already demoted her from someone you share a life with to a case — and that demotion is what she feels, not your choice of tool. Something far less laborious has been available all along: do not process it. **Stay inside her distress and let her finish.** Whoever cannot learn that will get nothing from fifty models.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "vasubandhu"
+    ],
+    "轻微赞同": [
+     "covey",
+     "goffman"
+    ],
+    "轻微反对": [
+     "ledoux"
+    ],
+    "强烈反对": [
+     "munger"
+    ]
+   }
+  },
+  {
+   "id": "p11",
+   "round": 2,
+   "thinker": "covey",
+   "reply_to": "p09",
+   "text": "布迪厄把人写成了场域的产物，这一点我不接受。**刺激与回应之间有一段空隙，人的自由就住在那儿。**这叫积极主动，它说的是承认选择权在自己手里，与性格开朗无关。阶级定价那段说得对，可它解释不了同一家医院两位主任回家之后的天壤之别。我看过太多人靠一个极笨的办法改掉了这毛病：进门之前在车里坐三分钟，什么都不做，只想清楚今晚要的是解决一件事，还是留住一个人。",
+   "text_en": "Bourdieu writes the person as a product of the field, and that I do not accept. **Between stimulus and response there is a gap, and human freedom lives in it.** That is what being proactive means: the admission that the choice is yours, which has nothing to do with having a sunny temperament. His point about class pricing is right, and it cannot explain the chasm between two consultants at the same hospital once they get home. I have watched a great many people fix this with an extremely clumsy method: sit in the car for three minutes before going in, doing nothing, and settle whether tonight is about solving something or keeping someone.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "积极主动": "being proactive（积极主动）：柯维七个习惯的第一条，指人在刺激与回应之间拥有选择的余地，因而要对自己的反应负责；它反对的是把自己的状态完全记在环境、他人或性格的账上。"
+   },
+   "glossary_en": {
+    "being proactive": "The first of Covey's seven habits: between stimulus and response a person has room to choose, and is therefore responsible for their own response. What it argues against is charging one's condition entirely to the environment, to other people, or to temperament."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "munger"
+    ],
+    "轻微赞同": [
+     "nussbaum"
+    ],
+    "轻微反对": [
+     "ledoux",
+     "goffman"
+    ],
+    "强烈反对": [
+     "bourdieu"
+    ]
+   }
+  },
+  {
+   "id": "p12",
+   "round": 2,
+   "thinker": "vasubandhu",
+   "reply_to": "p03",
+   "text": "勒杜言回路不受意志所管，此说是也。然谓唯赖反复安全之境方能稍改，则犹在外境上求。汝所谓探测，正是种子现行之相。**现行之顷，若能照见此相乃识所变、非彼实有，其势自减**——此谓转依，非压伏也；压伏者反增其力，如按水上瓢。故不当问『能否关之』，但问现起之顷，汝识中有无一念觉知。此一念既起，即是汝所言消退之所依，与之非二。",
+   "text_en": "LeDoux says the circuits take no orders from the will, and in that he is right. But to say they can only be shifted a little by repeated safe surroundings is still to look for the remedy in the outer world. What he calls detection is precisely the manifesting of a seed. **At the instant of manifesting, see that the image is a transformation of consciousness and not something really out there, and its force slackens of itself** — this is called turning about at the basis, and it is not suppression; suppression only adds to its strength, like pressing a gourd under water. So the question is not whether it can be switched off, but whether, at the instant it arises, there is one moment of awareness in your consciousness. That single moment is the very ground of what he calls extinction; the two are not separate.",
+   "vernacular": "勒杜说那条回路不受意志管，这说得对。但他说它只能靠反复出现的安全环境慢慢改，这还是在外境上找办法。他所谓的『探测』，正是种子现行的样子。**现行的那一瞬，如果能看清这个相是识变出来的、不是对方身上真有的，它的势头自己就弱了**——这叫转依，不是压制；压制只会让它更强，像把瓢按进水里。所以该问的不是『能不能关掉它』，而是它起来的那一刻，你心里有没有一念觉知。这一念一起，就是他说的消退所依靠的东西，两者并不是两回事。",
+   "vernacular_en": "",
+   "glossary": {
+    "转依": "āśraya-parāvṛtti（转依）：唯识学的修证核心，字面是『所依的转换』——不是把烦恼一个个压下去，而是让心识赖以运作的那个底座由虚妄分别转成如实照见，于是同样的境界现起时不再自动生出执取。它与『压伏』的区别在于前者改变机制、后者只是加大对抗。"
+   },
+   "glossary_en": {
+    "turning about at the basis": "āśraya-parāvṛtti, the pivot of Yogācāra practice: not putting down afflictions one by one but converting the base on which consciousness operates from deluded discrimination to seeing as it is, so that the same situation arises without automatically generating grasping. It differs from suppression in changing the mechanism rather than raising the force applied against it."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "nussbaum"
+    ],
+    "轻微赞同": [
+     "goffman",
+     "bourdieu"
+    ],
+    "疑惑": [
+     "ledoux",
+     "munger"
+    ],
+    "轻微反对": [
+     "covey"
+    ]
+   }
+  },
+  {
+   "id": "p13",
+   "round": 2,
+   "thinker": "ledoux",
+   "reply_to": "p12",
+   "text": "世亲说的那一念觉知，实验室里有对应的东西：前额叶对威胁反应的再评估。它确实压得住，但两个限制必须说清。**一，它很贵——累了、饿了、喝过酒就先掉线，所以争吵总发生在晚上九点以后；你的脾气没变坏，是这项功能付不起账了。**二，它不改底层阈值，每次都要重新花一遍力气。真正改阈值的是新经验，而且要在回路刚被激活的那几小时里改，那是记忆再巩固的窗口，所以吵完当天要把话收回来。",
+   "text_en": "That single moment of awareness Vasubandhu describes has a counterpart in the laboratory: prefrontal reappraisal of a threat response. It does hold the response down, but two limits have to be stated. **First, it is expensive — tired, hungry or a drink in, it drops offline first, which is why arguments happen after nine at night. Your temper has not worsened; the function can no longer pay its bill.** Second, it does not change the underlying threshold, so the effort has to be spent again every time. What changes a threshold is new experience, and it has to arrive in the hours just after the circuit was activated, inside the window of memory reconsolidation — which is why the conversation has to be closed the same day.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "再评估": "reappraisal（再评估）：情绪调节的一种方式——不压抑已经起来的反应，而是换一个说法重新解释触发它的事，使反应自然减弱；它依赖前额叶，因而受疲劳、饥饿、酒精与认知负荷的直接影响。",
+    "记忆再巩固": "memory reconsolidation（记忆再巩固）：一段记忆被再次唤起后会短暂回到可改写的状态，之后重新固定下来；这段时间里进入的新信息会被并进旧记忆。它意味着改变一个反应的最佳时机是它刚刚被触发之后，而不是事情冷掉的几天以后。"
+   },
+   "glossary_en": {
+    "reappraisal": "A form of emotion regulation that does not suppress a response already under way but reinterprets what triggered it so the response weakens on its own. It runs on the prefrontal cortex and is therefore directly degraded by fatigue, hunger, alcohol and cognitive load.",
+    "memory reconsolidation": "After a memory is reactivated it returns briefly to a rewritable state before setting again, and new information arriving in that interval is folded into the old memory. The implication is that the best moment to change a response is just after it has been triggered, not days later once things have cooled."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "munger",
+     "bourdieu"
+    ],
+    "轻微赞同": [
+     "nussbaum"
+    ],
+    "轻微反对": [
+     "vasubandhu"
+    ],
+    "疑惑": [
+     "covey"
+    ]
+   }
+  },
+  {
+   "id": "p14",
+   "round": 2,
+   "thinker": "goffman",
+   "reply_to": "p06",
+   "text": "努斯鲍姆要我们别立判据，这句话有一笔代价她没算：没有判据的人剩下的只有自我感觉，而自我感觉正是本题里最不可靠的那样东西。我给的那条并不往人心里探，它数的是别人的行为。**比冲突更早的信号是安静的绕行——以前会跟你讲的事，现在不讲了。**冲突至少还承认你在场；绕行是观众已经决定不再看这出戏。把自测和观察分清楚：前者由你评分，后者由别人的脚投票。",
+   "text_en": "Nussbaum wants us to lay down no criteria, and there is a cost in that she has not priced: someone with no criteria is left with how they feel about themselves, which is the least reliable thing in this entire question. The marker I offered does not probe anyone's interior; it counts other people's behaviour. **The signal that arrives long before conflict is quiet avoidance — the things they used to bring to you and no longer do.** Conflict at least concedes that you are present. Avoidance means the audience has decided to stop watching the play. Keep self-diagnosis and observation apart: the first you score yourself, the second is voted on by other people's feet.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "bourdieu",
+     "munger"
+    ],
+    "轻微赞同": [
+     "ledoux"
+    ],
+    "强烈反对": [
+     "nussbaum"
+    ],
+    "疑惑": [
+     "vasubandhu"
+    ]
+   }
+  },
+  {
+   "id": "p15",
+   "round": 3,
+   "thinker": "vasubandhu",
+   "reply_to": null,
+   "text": "诸君所立判法各有其用：绕行、速度、松懈，皆外相可验，胜于自问。然皆事后之检。**唯识之要在现行之顷，不在事后。**其法至简，人人可行：一日之中择三处觉之。将断人是非之顷，先自问此相从何而来；欲以流程处人之情，且停一息；入门之时，作一转念，知前之所熏非今之所必用。如是行之日久，种子势弱，不待汝与之战。习气亦识所变，与之战者反熏其种；故当以觉代战。**此非玄谈，乃日用之事。**",
+   "text_en": "The tests put forward tonight each have their use: avoidance, speed, slackness are all outward signs that can be checked, and are better than asking oneself. Yet all of them inspect after the event. **The pivot of consciousness-only is the instant of manifesting, not the aftermath.** The method is very simple and anyone may do it: choose three places in a day to be aware. At the instant of pronouncing on someone's rights and wrongs, first ask where this image came from. When about to handle a person's feeling with a procedure, pause one breath. On entering the door, turn the mind once and know that what was steeped in you before is not what is needed now. Practised over time the seeds weaken, without your having to fight them. A disposition too is a transformation of consciousness, and to fight it waters the seed; so let awareness take the place of combat. **This is no lofty talk. It is a daily matter.**",
+   "vernacular": "各位提出的判法各有用处：绕行、反应速度、松懈，都是可以验证的外部迹象，比问自己可靠。但它们都是事后检查。**唯识的要点在现行的那一瞬，不在事后。**办法极简单，谁都做得到：一天里挑三处来觉察。要给人定是非的那一刻，先问这个相是从哪儿来的；想用流程去处理别人的情绪时，停一口气；进家门的时候，转一个念，知道从前熏出来的东西不是现在必须用的。这样做久了，种子的势头就弱了，用不着你跟它打。习气也是识变的，跟它打反而在浇它的种；所以要以觉察代替对抗。**这不是玄谈，是日用的事。**",
+   "vernacular_en": "",
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "nussbaum"
+    ],
+    "轻微赞同": [
+     "covey",
+     "bourdieu"
+    ],
+    "疑惑": [
+     "munger"
+    ],
+    "轻微反对": [
+     "ledoux"
+    ]
+   }
+  },
+  {
+   "id": "p16",
+   "round": 3,
+   "thinker": "nussbaum",
+   "reply_to": "p13",
+   "text": "这一晚我最服的一句来自勒杜：关不掉不是意志问题。它把羞耻从这道题里拿掉了，而羞耻一直是最大的阻碍——承认自己在家里一直在审人，代价高到让人宁可不承认。我保留我的反对：判据可以用，但别让它长成又一套考核。给普通人的做法比清单更简单：**把裁判权交出去。**明确地告诉一个人，我又开始盘问的时候你可以打断我，用一句固定的话，随时能用，不需要理由。那份错误报告你自己永远收不到，只能请人递给你。",
+   "text_en": "The line I most respected tonight came from LeDoux: being unable to switch it off is not a failure of will. That takes the shame out of this question, and shame has been the largest obstacle — admitting that you have been auditing people at home costs so much that it is cheaper not to admit it. I keep my objection: criteria may be used, but do not let them grow into another appraisal system. What ordinary people need is simpler than a checklist. **Hand over the right to rule.** Tell one person explicitly: when I start interrogating you again, you may cut me off, with one fixed sentence, usable at any time, no reason required. That error report is one you can never receive on your own; someone has to hand it to you.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "ledoux",
+     "vasubandhu"
+    ],
+    "轻微赞同": [
+     "goffman"
+    ],
+    "轻微反对": [
+     "munger"
+    ],
+    "疑惑": [
+     "covey"
+    ]
+   }
+  },
+  {
+   "id": "p17",
+   "round": 3,
+   "thinker": "goffman",
+   "reply_to": null,
+   "text": "我把这一晚的分歧收成一句：问题不在有没有带过去，在带过去之后还收不收得到反馈。公司会给你报错——季度会、客户流失、复盘会上有人点你的名；家里不会，家里只是安静地少讲一件事。所以得人为造一个报错通道，这一点我最后和努斯鲍姆站在一处。做法要小：每月挑一件你被绕开的事问出来，问得具体到那一次。『上次那个体检，你后来没再提，是我当时反应太快了吗。』**别问『我是不是很难沟通』——那么大的问题只换得回礼貌。**",
+   "text_en": "I will fold tonight's disagreement into one sentence: the question is not whether it came with you, but whether, once across, feedback can still reach you. A firm reports your errors — the quarterly review, the client who leaves, someone naming you in the post-mortem. Home does not. Home simply says one less thing. So a channel for error reports has to be built by hand, and on that I end up standing where Nussbaum stands. Keep it small: once a month, pick one thing you have been steered around and ask about it, specific to that one occasion. 'You never mentioned that check-up again — did I come back at you too fast?' **Do not ask whether you are difficult to talk to. A question that size buys nothing but politeness.**",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "bourdieu",
+     "munger"
+    ],
+    "轻微赞同": [
+     "ledoux",
+     "nussbaum"
+    ],
+    "轻微反对": [
+     "vasubandhu"
+    ]
+   }
+  },
+  {
+   "id": "p18",
+   "round": 3,
+   "thinker": "covey",
+   "reply_to": null,
+   "text": "我承认布迪厄那一刀有分量：习惯确实长在身体里，比我原先估计的深。但那段空隙仍在，只是比我说的窄，所以把办法做得更小。进门前三分钟，只办一件事——想清楚今晚你要的是解决一个问题，还是留住一个人。这就是以终为始用在自家门口。再加一条我不打算改的：**家里的产出只有一项，就是关系还在。**把事办成是公司的算法；会议可以复盘，人不可以被复盘。多数人回家后的第一个动作是汇报与追问，把它换成先听十分钟、什么都不评，一周之内就看得出不同。",
+   "text_en": "I grant that Bourdieu's cut has weight: habit does live in the body, deeper than I had allowed. But the gap is still there, only narrower than I claimed, so make the method smaller. Three minutes before you go in, do one thing: settle whether tonight is about solving a problem or keeping a person. That is beginning with the end in mind, applied at your own front door. And one thing I do not intend to revise: **the output at home has exactly one line in it, which is that the relationship is still there.** Getting the matter handled is the firm's arithmetic. Meetings can be reviewed; people cannot be run through a post-mortem. Most people's first move on getting home is to report and to probe. Swap it for ten minutes of listening with no verdict, and the difference shows inside a week.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "以终为始": "beginning with the end in mind（以终为始）：柯维七个习惯的第二条——动手之前先把想要的结果想清楚，再倒推此刻该做什么；他强调多数人的低效不是不够努力，是极其勤奋地把梯子搭在了错误的墙上。"
+   },
+   "glossary_en": {
+    "beginning with the end in mind": "The second of Covey's seven habits: settle the result you want before you act, then work backwards to what this moment requires. Most inefficiency, he argued, is not insufficient effort but great diligence spent climbing a ladder set against the wrong wall."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "nussbaum"
+    ],
+    "轻微赞同": [
+     "vasubandhu",
+     "munger"
+    ],
+    "轻微反对": [
+     "bourdieu"
+    ],
+    "疑惑": [
+     "goffman"
+    ]
+   }
+  },
+  {
+   "id": "p19",
+   "round": 3,
+   "thinker": "munger",
+   "reply_to": null,
+   "text": "话说得再直一点：多数人在家里的问题是懒。学了一门手艺、靠它赚了钱，就再也不肯学第二门，把家里人当成同一种钉子敲了三十年。努斯鲍姆那句我认——有些事不该被建模，那就把它划到能力圈之外：**圈外的规矩是先听两轮再开口，不确定就不出手。**再补一条老经验：把激励看清。你那套心智越值钱，你越会替它辩护，所以别指望自己想明白，指望身边那个敢打断你的人。诚实的反馈比聪明的模型贵得多，也稀得多。",
+   "text_en": "Let me put it even more plainly: most people's trouble at home is laziness. They learned one trade, made money from it, and then never learned a second, hammering the same nail at their family for thirty years. Nussbaum's line I accept — some things should not be modelled, so put them outside the circle of competence: **the rule outside the circle is listen through two rounds before speaking, and when unsure, do not act.** One piece of old experience to add: see the incentives. The more your mindset is worth, the harder you will argue for it, so do not count on reasoning your own way out — count on the person beside you who dares to interrupt. Honest feedback is far dearer than a clever model, and far scarcer.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "covey"
+    ],
+    "轻微赞同": [
+     "goffman",
+     "bourdieu"
+    ],
+    "轻微反对": [
+     "nussbaum"
+    ],
+    "疑惑": [
+     "vasubandhu"
+    ]
+   }
+  },
+  {
+   "id": "p20",
+   "round": 3,
+   "thinker": "bourdieu",
+   "reply_to": "p11",
+   "text": "我得让一步：柯维那三分钟，我原以为是安慰剂，但它改的确实是场域的边界——车里那段时间既不属于公司也不属于家，这种过渡在人类学里到处都是，脱鞋、洗手、换衣服，都是同一件事。所以我的结论落在条件上，不落在修养上：**一个人能不能在家里松下来，要看他有没有过渡的时间和空间。**通勤被压到二十分钟、家里没有一间能关上门的屋子，这些条件比任何自省都更决定结果。先去改这些；改不动的，至少别把它记在自己品格的账上。",
+   "text_en": "I will give ground: Covey's three minutes I took for a placebo, but what they actually alter is the boundary of a field — the time in the car belongs neither to the firm nor to the household, and such transitions are everywhere in the ethnographic record: taking off shoes, washing hands, changing clothes, all the same device. So my conclusion rests on conditions rather than on cultivation: **whether a person can slacken at home depends on whether they have the time and the space to cross over.** A commute compressed to twenty minutes, a home with no room whose door will close — these decide the outcome far more than any amount of introspection. Change those first, and what cannot be changed, at least do not charge to your own character.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "ledoux",
+     "nussbaum"
+    ],
+    "轻微赞同": [
+     "goffman"
+    ],
+    "轻微反对": [
+     "covey"
+    ],
+    "疑惑": [
+     "munger"
+    ]
+   }
+  },
+  {
+   "id": "p21",
+   "round": 3,
+   "thinker": "ledoux",
+   "reply_to": null,
+   "text": "机制讲完了，剩下的是剂量。阈值是几千次调出来的，不会因为一次谈话回落；但它确实会动——每一次你被点破之后没有立刻辩护，都是一个消退试次，攒够了就成了新的默认值。三件事本周就能做。一，跟一个人约定那句可以随时打断你的话。二，被打断之后先喝一口水，什么都别说，那口水买的是前额叶上线的两秒。三，吵完当天把话收回来，别拖过那一夜。**这道题上，你的自我评估永远是最后到的那份报告，所以别等自己想清楚——今晚就去把第一条约下来。**",
+   "text_en": "The mechanism is laid out; what remains is dose. A threshold was tuned over thousands of trials and will not come down after one conversation. But it does move: every time you are called out and do not immediately defend yourself, that is an extinction trial, and enough of them become the new default. Three things you can do this week. One, agree with one person on the sentence they may use to cut you off at any time. Two, when they use it, drink a mouthful of water and say nothing — what that mouthful buys is the two seconds the prefrontal cortex needs to come online. Three, close the conversation the same day; do not carry it past that night. **On this question your own assessment is always the last report to arrive, so do not wait to be clear — go and agree the first one tonight.**",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "covey",
+     "nussbaum"
+    ],
+    "轻微赞同": [
+     "bourdieu",
+     "goffman"
+    ],
+    "疑惑": [
+     "vasubandhu"
+    ],
+    "轻微反对": [
+     "munger"
+    ]
+   }
+  }
+ ],
+ "summaries": [
+  {
+   "ai": "claude",
+   "engine": "Opus 5 · 订阅(原生)",
+   "engine_en": "Opus 5 · subscription (native)",
+   "summary": "最值得带走的共识是一条禁令：这道题不能靠自问来答。**你用来检查滤镜的那套认知，正是滤镜本身。**于是全场的力气都花在找不经过自我评估的信号——戈夫曼数松懈与安静的绕行，勒杜数反应速度，布迪厄指出惯习先于反思。分歧集中在三处。解药是加还是减：芒格要多备模型，努斯鲍姆说格栅里缺的恰是『哪些事不该被建模』那一格。空隙有多宽：柯维守住刺激与回应之间那段自由，布迪厄把它压到半秒以内。以及该在哪一刻使劲：世亲押在现行的那一瞬，勒杜说阈值只在记忆再巩固的窗口里才真的动。",
+   "summary_en": "The agreement most worth taking away is a prohibition: this question cannot be answered by asking yourself. **The cognition you would use to inspect the filter is the filter.** So the evening's effort goes into finding signals that bypass self-assessment — Goffman counts slackness and quiet avoidance, LeDoux counts speed of response, Bourdieu shows that habitus precedes reflection. The disagreements gather at three points. Whether the cure is addition or subtraction: Munger wants more models, Nussbaum answers that the square missing from the latticework is the one marked 'what should not be modelled at all'. How wide the gap is: Covey defends the freedom between stimulus and response, Bourdieu compresses it to under half a second. And at which moment the effort should be spent: Vasubandhu stakes everything on the instant of manifesting, LeDoux replies that a threshold only truly moves inside the reconsolidation window.",
+   "insight": "全场都在防职业心智溢出到家里，没人问反方向：家里的心智溢出到工作里，为什么从来不算毛病？把哄孩子那套耐心用在下属身上，通常被叫做有人情味；把家里的忠诚带进公司，叫靠得住。同一条迁移换个方向，就从损伤变成了美德。**所以这道题真正的不对称不在心智，在谁有权说你越界了。**下属会忍，客户会走，伴侣会安静地绕开。三种反馈里只有客户那一种会计入你的收入，于是你的阈值永远是为客户调的。要改的不只是回路，是哪一种沉默会让你付钱。",
+   "insight_en": "The whole evening guards against the professional mind spilling into the home, and nobody asks about the other direction: why does the home mind spilling into work never count as a fault? Bring a parent's patience to a junior colleague and it is called warmth; bring household loyalty into a company and it is called dependability. The same transfer, reversed, turns from injury into virtue. **So the real asymmetry here is not in the mindset but in who has standing to tell you that you have crossed a line.** A junior colleague endures it, a client leaves, a partner quietly goes around it. Of those three kinds of feedback only the client's is booked against your income, so your thresholds are forever tuned for clients. What needs changing is not only the circuit but which silence costs you money.",
+   "advice": "**先认下一件事：这套心智给你发过工资，所以你不可能对它中立。**本周照芒格那条把激励写出来，列三条它带来的具体好处——奖金、那次被夸的复盘、同事绕着你走换来的清静；写完你会发现自己一直在替它辩护。第二条照世亲的办法，一天只挑三处觉察：将要给人定是非的那一刻、想用流程处理情绪的那一刻、进门的那一刻，各停一口气。第三条照布迪厄改条件：把通勤的最后一段改成步行，或者进门先换掉工作时穿的衣服，给自己一道真能走过去的门槛。",
+   "advice_en": "**Concede one thing first: this mindset has paid your wages, so you cannot be neutral about it.** This week, do as Munger says and write the incentives down — list three concrete things it has bought you: the bonus, the review where you were praised, the quiet that comes of colleagues steering around you. Finishing the list, you will notice how long you have been arguing its case. Second, take Vasubandhu's method and pick just three moments a day to be aware in: the instant before you pronounce on someone, the instant you reach for a procedure to handle a feeling, and the instant you come through the door. Pause one breath at each. Third, take Bourdieu's point and change the conditions: walk the last stretch of the commute, or change out of your work clothes before anything else, so that there is a threshold you actually cross."
+  },
+  {
+   "ai": "gpt",
+   "engine": "openai · gpt-5.6-sol · high(真实API)",
+   "engine_en": "openai · gpt-5.6-sol · high (live API)",
+   "summary": "职业模式不会在下班时自动关闭，也不能只靠意志切断；真正可行的是建立过渡、反馈与反复练习，让人在亲密关系中恢复倾听和修复的能力。众人也共同指出，家人减少分享、开始绕行，往往比争吵更值得警惕。分歧主要在解释层次：问题究竟源于品格与选择、神经回路、场域和惯习，还是把脆弱误写成风险、把亲人当成案例。相应地，方案也在自我觉察、环境改造、情感陪伴和外部纠错之间摆动。**真正要防的不是职业能力本身，而是某一种职业反应失去情境感、反馈和退出机制。**",
+   "insight": "职业思维带回家并非天然有害：医生的应急意识、会计的预算能力、项目经理的协调习惯，都可能保护家庭。关键不只是『用了什么工具』，而是工具能否被共同协商、随时叫停，以及代价由谁承担。若一方可以不断分析、追问和纠正，另一方却只能解释自己、安抚对方，所谓专业能力就变成了关系中的权力。反过来，若双方明确同意在报税、就医或重大决策时进入专业模式，它反而有价值。**判断职业思维是否越界，最实用的标准是：对方能不能无须举证就说停，而你能不能真的停。**",
+   "advice": "今天先做三件小事。第一，下班进门前留三分钟，问自己今晚优先『理解』还是『解决』；拿不准时默认先听十分钟。第二，和家人约定一句固定提示，例如『你又在开会了』。听见后不解释，先喝水、停两秒，再问：『你想让我听，还是一起想办法？』第三，本周安排十五分钟，只复盘一件具体的绕行或沉默，不问笼统的『我是不是难沟通』。若当天说重了，当天完成道歉、重述与补救。**把改变设计成可被打断、可重复的小动作，比要求自己回家后彻底换一个人格更可靠。**",
+   "summary_en": "Professional habits do not switch off at the end of the workday, and willpower alone rarely disables them. A more realistic approach is to build transitions, feedback channels, and repeated corrective experiences so that listening and repair become available again at home. Another strong point of agreement is that reduced sharing and quiet avoidance may be more serious warning signs than open conflict. The main disagreement concerns the level of explanation: Is the problem about character and choice, neural threat circuits, social conditioning and habitus, or the moral mistake of treating vulnerability as risk and loved ones as cases? The proposed remedies therefore range from self-awareness and emotional presence to environmental changes and outside correction. **The real danger is not professional competence itself, but a professional response that has lost its sensitivity to context, feedback, and stopping cues.**",
+   "insight_en": "Bringing professional thinking home is not inherently harmful. A clinician’s emergency awareness, an accountant’s budgeting discipline, or a project manager’s coordination skills can genuinely protect a household. The better question is whether the tool is jointly negotiated, easy to stop, and fairly distributed in its costs. If one person gets to analyze, interrogate, and correct while the other must continually explain themselves and manage the analyst’s reactions, expertise has become relational power. By contrast, professional mode can be useful when both people explicitly choose it for taxes, medical decisions, or a major move. This reframes the issue from purity—being a completely different person at home—to consent and reversibility. **The clearest test of whether professional thinking has crossed a line is whether the other person can say stop without presenting evidence, and whether you can actually stop.**",
+   "advice_en": "Try three small actions. First, take three minutes before entering home and decide whether the evening calls for understanding or problem-solving; if you are unsure, default to ten minutes of listening. Second, agree on a fixed interruption phrase with someone close to you, such as, “You’re running a meeting again.” When you hear it, do not defend yourself. Take a sip of water, pause for two seconds, and ask whether they want to be heard or want help thinking through options. Third, set aside fifteen minutes this week to discuss one specific moment of silence or avoidance rather than asking a broad question like, “Am I hard to talk to?” If you overstep, apologize, restate what you heard, and repair it the same day. **Small behaviors that are interruptible and repeatable are more dependable than trying to become a completely different person after work.**"
+  },
+  {
+   "ai": "gemini",
+   "engine": "google · gemini-3.8-flash(真实API)",
+   "engine_en": "google · gemini-3.8-flash (live API)",
+   "summary": "众人无一例外地承认，靠意志力硬关职业心智纯属徒劳，必须借由外部反馈与物理缓冲来纠偏。**真正的分歧在于亲密关系的底线究竟是能力的克制还是模型的扩充。**芒格主张添置多元思维工具并将家划为圈外，努斯鲍姆则坚称把家人降级为待解案例本身就是对爱的背叛；柯维与世亲寄望于临界点的自省刹车，布迪厄与戈夫曼则冷峻指出，身体惯习深嵌于阶级与场域，若无制度性的报错通道，任何觉察都只是自我感觉良好的空转。",
+   "insight": "这一桌都假定职业逻辑只会毒害家庭生活，却漏了另一半：现代家庭出问题，常常不是因为职业逻辑太多，而是因为责任从来没被说清。**家里最伤人的做法之一，是拿感情当理由回避明确的分工——『这还要我说出来吗』。**组织思维真正的长处并不是考核，而是把看不见的情感劳动摆到桌面上，变成可以谈、可以换的东西。去掉强制的指标之后，剩下的那些——说清楚的边界、可预期的分工、不必当面追问的异步确认——反而能让家里人不再靠猜过日子。",
+   "advice": "今晚就把勒杜与努斯鲍姆共用的那条落地：**跟伴侣约定一个无条件的『断路词』**，说出来就立刻停止盘问，接着强制自己喝一口水、停十秒。第二条照布迪厄说的做过渡：给自己划出一段不谈公事的五分钟——在停好的车里听完一首歌，或者进门先去把工作时穿的衣服换掉。第三条，每月安排一次低风险的闲聊，只问一件对方悄悄不再提起的事。这三件都不需要你先把自己想明白才能开始。",
+   "summary_en": "The panel universally acknowledges that willpower alone cannot switch off professional conditioning; real recalibration requires physical buffers and external feedback loops. **The core rift is over whether intimacy asks for the deliberate withholding of analytical models or simply a broader toolkit.** Munger advocates adding cross-disciplinary tools and treating home as outside one's circle of competence, while Nussbaum insists that framing a partner as a case to be solved is itself a betrayal of love. Covey and Vasubandhu place their hopes in a brake applied at the critical instant; Bourdieu and Goffman reply coldly that bodily habitus is lodged in class and field, and that without an institutional channel for error reports, any amount of awareness runs idle and merely feels good.",
+   "insight_en": "The roundtable assumes professional habits can only poison domestic life, and misses the other half: what goes wrong in modern households is often not an excess of professional logic but an absence of stated accountability. **One of the most wounding domestic moves is to use affection as grounds for avoiding a clear division of labour — 'do I really have to spell it out?'** The genuine virtue of organisational thinking is not appraisal; it is making invisible emotional labour explicit, and therefore negotiable. Strip out the coercive metrics and what remains — stated boundaries, predictable ownership, an asynchronous check-in that spares everyone an interrogation — can free a household from running on guesswork.",
+   "advice_en": "Put into practice tonight the remedy LeDoux and Nussbaum share: **agree with your partner on an unconditional circuit-breaker word** that stops a cross-examination the moment it is spoken, followed by a mandatory mouthful of water and ten seconds of silence. Second, build Bourdieu's threshold: carve out a non-negotiable five minutes with no work in it — one whole song in the parked car, or changing out of your work clothes before anything else. Third, book a low-stakes conversation once a month and ask about one topic your partner has quietly stopped raising. None of the three asks you to have figured yourself out first."
+  }
+ ],
+ "hooks": [
+  {
+   "from": "claude",
+   "text": "**反方向的溢出**：把哄孩子的耐心用在下属身上叫有人情味，把家里的忠诚带进公司叫靠得住——同一条迁移换个方向就从损伤变成美德。这条不对称是谁定的，又对谁有利？",
+   "text_en": "**Spillover in reverse**: bring a parent's patience to a junior colleague and it is called warmth; bring household loyalty into a company and it is called dependability. The same transfer, reversed, turns from injury into virtue. Who set that asymmetry, and whom does it serve?"
+  },
+  {
+   "from": "bourdieu",
+   "text": "**过渡是分配出来的**：车里三分钟、脱鞋洗手换衣服，这些过渡仪式确实有效，可它们要有时间和空间才办得到。通勤二十分钟、家里没有一扇能关的门，这些条件比自省更决定结果。",
+   "text_en": "**Transitions are allocated**: three minutes in the car, taking off shoes, washing hands, changing clothes — these crossing rituals do work, and they require time and space to perform. A twenty-minute commute and a home with no door that closes decide the outcome more than introspection does."
+  },
+  {
+   "from": "ledoux",
+   "text": "**同一句话，几点说**：再评估靠前额叶，而前额叶累了、饿了、喝过酒就先掉线。所以难的话题不是该不该谈，是该在几点谈——这件事比措辞更能决定结果。",
+   "text_en": "**The same sentence, at what hour**: reappraisal runs on the prefrontal cortex, and the prefrontal cortex is the first thing to drop offline when you are tired, hungry or a drink in. So with a hard topic the question is not whether to raise it but at what hour — and that decides more than the wording does.",
+   "answer": {
+    "lead": "**再评估是要花钱的。**同一个人在不同时段能不能把已经扣上去的框架松开，差别比他的决心大得多。",
+    "table": {
+     "head": [
+      "时段 / 状态",
+      "适合谈什么",
+      "为什么"
+     ],
+     "rows": [
+      [
+       "早饭到上午",
+       "需要对方改变的事、真正的分歧",
+       "前额叶最贵的那部分刚充满电，扣上去的框架还松得开"
+      ],
+      [
+       "下班到晚饭前",
+       "当天的小摩擦，当场收掉",
+       "回路还热着，记忆再巩固的窗口开着，这时改最省力"
+      ],
+      [
+       "晚上九点以后",
+       "只闲聊、只听，不下判断",
+       "再评估先掉线，多疑会以『我只是理性』的样子回来"
+      ],
+      [
+       "饿了、喝过酒、连日加班后",
+       "什么都别谈，先睡",
+       "阈值这时最低，说出口的话第二天一句也收不回"
+      ]
+     ]
+    },
+    "tail": "**两条原则。**难的话题挑上午，别挑睡前；小摩擦当天收，别攒到周末——**攒起来的不是事，是阈值。**"
+   },
+   "answer_en": {
+    "lead": "**Reappraisal costs money.** Whether the same person can loosen a frame already clamped down varies far more by the hour than by their resolve.",
+    "table": {
+     "head": [
+      "Hour / state",
+      "What it suits",
+      "Why"
+     ],
+     "rows": [
+      [
+       "Breakfast to late morning",
+       "Things you need them to change; real disagreements",
+       "The expensive part of the prefrontal cortex is freshly charged, and a clamped frame will still loosen"
+      ],
+      [
+       "Clocking off to dinner",
+       "The day's small friction, closed on the spot",
+       "The circuit is still warm and the reconsolidation window is open, so change is cheapest here"
+      ],
+      [
+       "After nine at night",
+       "Idle talk and listening only, no verdicts",
+       "Reappraisal drops offline first, and suspicion returns wearing the phrase 'I am only being rational'"
+      ],
+      [
+       "Hungry, a drink in, or after days of overtime",
+       "Say nothing at all; sleep first",
+       "Thresholds are at their lowest, and nothing said now can be taken back tomorrow"
+      ]
+     ]
+    },
+    "tail": "**Two principles.** Take the hard topics in the morning, never at bedtime; close small friction the same day rather than saving it for the weekend — **what accumulates is not the grievance but the threshold.**"
+   }
+  },
+  {
+   "from": "gemini",
+   "text": "**它为什么这么好用**：职业框架给你清楚的规则、可结案的流程、做对了会被认可的确定性；一段说不清的难过什么都不给。把家里的事改写成待排查的故障，也是为了让它变得可处理。",
+   "text_en": "**Why it works so well**: the professional frame supplies clear rules, a procedure that closes, and the certainty of recognition for getting it right. An inarticulate unhappiness supplies none of these. Rewriting the domestic thing as a fault to be traced is also a way of making it handleable."
+  }
+ ]
+}

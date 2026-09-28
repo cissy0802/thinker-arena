@@ -1,0 +1,964 @@
+{
+ "id": "who-bears-the-bet",
+ "question": "谁有权拿别人的人生下注？",
+ "question_en": "Who is entitled to bet other people's lives?",
+ "sub": "押上去的常常不是自己的东西——同意从哪里来，押错了又该怎么赔？",
+ "sub_en": "What gets staked is usually not one's own — where does consent come from, and what is owed when the bet fails?",
+ "date": "2026-09-28",
+ "participants": [
+  "machiavelli",
+  "taleb",
+  "kant",
+  "sharot",
+  "mlk",
+  "thaler",
+  "aristotle",
+  "buddha"
+ ],
+ "casting": [
+  {
+   "id": "machiavelli",
+   "reason": "围城之下没有时间挨家挨户征集同意，他从不假装有——共同体每天都在押人，问题只在押完之后找不找得到人。他真正的忌讳是无名的下注：由早已离职的人定下的排班与指标，代价显形时连个可恨的名字都没有。他要求的只有一条，凡要别人冒险的安排，必须有一个还在场、还答得上话的署名活人。",
+   "reason_en": "Under siege there is no time to gather consent door to door, and he never pretends otherwise — a community stakes people daily, and the only question is whether anyone can be found afterwards. What he truly cannot abide is the anonymous bet: rosters and targets laid down by people long since gone, so that when the cost surfaces there is not even a name to hate. He asks for one thing only — that any arrangement putting others at risk carry a living, named person still present and still able to answer."
+  },
+  {
+   "id": "taleb",
+   "reason": "他把整道题压成一句可执行的规矩：不承担尾部风险的人，无权制造尾部风险。看一个人是不是在豪赌，不必读计划书，看他会不会一起破产就够了。他还要人分清一百个人各赌一次与一个人赌一百次——前者算得出赔率，后者中途归零就没有下一次；而被押上的那批人，从来只有一条命可押。",
+   "reason_en": "He compresses the whole question into one enforceable rule: whoever does not carry the tail risk has no right to manufacture it. To tell a gambler from a decider you need not read the deck — it is enough to see whether he goes under too. He also insists on the difference between a hundred people betting once and one person betting a hundred times: the first has computable odds, the second has no next round once it hits zero — and those who get staked have only the one life to stake."
+  },
+  {
+   "id": "kant",
+   "reason": "他一上来就拆掉最受欢迎的那个答案：与人同赴危险并不产生支配他人的权利，将军与士兵同死，士兵仍旧是被用掉的手段。他要的同意有三个条件——知道最坏、拒绝不受罚、事后能撤回——并把检验收成一句：同意的真伪不看签字，看拒绝的价格。做不到时，他宁可你承认是在替人决定，也不许你用一张伪造的同意书洗干净。",
+   "reason_en": "He begins by dismantling the most popular answer: sharing a danger confers no right to dispose of anyone, and a general who dies beside his soldiers has still used them as means. The consent he demands has three conditions — knowing the worst case, no penalty for refusing, the power to withdraw afterwards — and he compresses the test into a sentence: consent is judged not by the signature but by the price of refusal. Where it cannot be met, he would rather you admit you are deciding for someone than launder it with a forged agreement."
+  },
+  {
+   "id": "sharot",
+   "reason": "她带着扫描仪里的数据进场：人对好于预期的消息大幅修正，对坏于预期的消息明显打折，八成的人如此。于是『我真的相信能成』不是谎言，而是一个可测量的偏差——诚意因此不能当证据用。她还指出习惯化的那一刀：同一种风险第二次提起，警报声就小了，而那不是它真的变安全了。",
+   "reason_en": "She arrives with data from the scanner: people revise sharply on news better than expected and discount news that is worse, and some eighty per cent of us do it. So 'I genuinely believe it will work' is not a lie but a measurable bias — which is why sincerity cannot serve as evidence. She also points to the cut habituation makes: the second time the same risk is raised the alarm is quieter, and that is not the risk having become safer."
+  },
+  {
+   "id": "mlk",
+   "reason": "这道题的最锋利处正对着他：伯明翰那年，他让孩子走上街。他不回避，只把条件摆出来——牢他先坐，队伍他走在最前，每个上街的人先受训、再签一张写明代价且随时可撕的承诺卡。他还坚持一条别人都漏掉的账：不动不是零风险，沉默的代价照样有人在付，只是账单上没有名字。",
+   "reason_en": "The sharpest edge of this question points straight at him: in Birmingham he let children march. He does not dodge it; he sets out the conditions — he went to jail first and walked at the front, and everyone who marched was trained, then signed a pledge card that spelled out the cost and could be torn up at any time. He also presses an account everyone else omits: inaction is not zero risk, the cost of silence is being paid by someone, and the invoice simply carries no name."
+  },
+  {
+   "id": "thaler",
+   "reason": "他把视线从悬崖边的豪赌拉回一行配置：退休金默认缴多少、器官捐献默认同意还是拒绝，没人投票也没人签字，二十年后却是两种人生。他的立场是选择架构没有中立档，因此该问的不是谁有资格设，而是这个默认设向谁的好处、改回来要花多大力气——而这份力气该按被设定者的处境来算。",
+   "reason_en": "He pulls attention back from the cliff-edge bet to a single line of configuration: the default pension contribution, opt-in or opt-out organ donation — nobody votes, nobody signs, and twenty years on they are two different lives. His position is that choice architecture has no neutral setting, so the question is not who may set it but whose interest it leans toward and what it costs to change back — a cost to be reckoned from the position of the person it is set for."
+  },
+  {
+   "id": "aristotle",
+   "reason": "他先把勇敢与鲁莽分开：勇敢是在该怕的地方怕得恰当、为高尚的目的承受，而这件事只能在自己身上做——没有人能替别人勇敢。凡把风险转出去的，姿态再壮烈，展示的也是别人的勇敢。至于多大的风险算过分，他不给公式，只给 phronesis：那种在具体情境里看得准的判断力，只长在承担过后果的人身上。",
+   "reason_en": "He separates courage from recklessness first: courage is fearing the right things to the right degree and enduring for the sake of the noble — and it can only be done in one's own person, for no one can be brave on another's behalf. Whoever transfers the risk outward, however grand his bearing, is displaying someone else's courage. As for how much risk is too much, he offers no formula but phronesis: the judgement that sees clearly in a particular case, which grows only in those who have carried the consequences."
+  },
+  {
+   "id": "buddha",
+   "reason": "他从一句古老的推己及人开始：一切畏刀杖，一切皆爱生。在他看来，人敢押别人，是因为中间隔了一本账，于是心不痛；而业随行为当下成立，不随结果改动——侥幸赢了，债仍在。他不指望人临事看得清，主张在还没押下去之前立戒，并把最慢的程序留给那些一举就改人一生的、收不回来的事。",
+   "reason_en": "He begins from an ancient measure of putting oneself in another's place: all beings fear the rod, all hold their life dear. As he sees it, people dare to stake others because a ledger sits in between and the heart therefore does not hurt; yet karma is established by the act and not amended by the outcome — win by luck and the debt still stands. He does not expect clarity in the moment, and would have the precept set before anything is staked, with the slowest procedures reserved for the acts that alter a life at a stroke and cannot be taken back."
+  }
+ ],
+ "posts": [
+  {
+   "id": "p01",
+   "round": 1,
+   "thinker": "machiavelli",
+   "reply_to": null,
+   "text": "先把话摆平：没有哪个共同体能等到所有被押上的人点头才动手。围城当前，君主若挨家挨户去征得同意，城破那天也就不必再谈同意了。**但我没说因此可以随便押人——押了人，就得把武器交到他手上。**佛罗伦萨的雇佣兵败得最快，因为拿钱的人没有理由死战；公民自己的军队难打散，因为那座城是他的。virtù 不是敢拿别人下注，是敢把决定权连同风险一起交给会流血的那批人。",
+   "text_en": "Let me put it plainly: no community can wait for everyone it stakes to nod before it moves. With the city under siege, a prince who goes door to door collecting consent will find that on the day the walls fall, consent is no longer worth discussing. **But I never said one may therefore stake people freely — stake a man, and the weapon must go into his hand.** Florence's mercenaries broke fastest, because men paid in coin have no reason to die; a militia of citizens is hard to scatter, because the city is theirs. virtù is not the nerve to bet other people, it is the nerve to hand the decision, along with the risk, to those who will do the bleeding.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "virtù": "virtù（德能）：马基雅维利用来指君主在命运面前所需的决断、才干与胆识，与道德意义上的『德』无关。"
+   },
+   "glossary_en": {
+    "virtù": "virtù: Machiavelli's term for the decisiveness, skill and nerve a ruler needs against fortune — not moral virtue."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "taleb"
+    ],
+    "轻微赞同": [
+     "mlk"
+    ],
+    "中立": [
+     "thaler",
+     "buddha"
+    ],
+    "轻微反对": [
+     "aristotle"
+    ],
+    "强烈反对": [
+     "kant"
+    ]
+   }
+  },
+  {
+   "id": "p02",
+   "round": 1,
+   "thinker": "taleb",
+   "reply_to": null,
+   "text": "我给一条能执行的，其余都是文学：**谁不承担尾部风险，谁就没有资格制造尾部风险。**判断一个人是不是在豪赌，不必读他的计划书，看他破产那天会不会跟着一起破产就够了。还有一条更狠的，叫遍历性：一百个人各赌一次，赔率算得出来；一个人赌一百次，中途归零就没有下一次了。你把一千名员工押上去，在你的账本上叫分散投资，在他们每个人那里都是唯一的一条命。",
+   "text_en": "Here is one enforceable rule; the rest is literature. **If you do not carry the tail risk, you are not entitled to manufacture it.** To tell whether a man is gambling, you need not read his deck — it is enough to see whether he goes bust on the day everyone else does. There is a harsher rule still, called ergodicity: a hundred people each betting once gives you odds you can compute; one person betting a hundred times has no next round once he hits zero. Stake a thousand employees and, on your ledger, it is diversification; for each of them it is the only life they have.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "尾部风险": "tail risk（尾部风险）：概率极低但一旦发生就足以毁掉全部的极端后果。",
+    "遍历性": "ergodicity（遍历性）：一个过程中『许多人各试一次』的平均结果，与『一个人连试许多次』的结果是否相同；一旦存在归零点，两者就不再相同。"
+   },
+   "glossary_en": {
+    "tail risk": "tail risk: an outcome of very low probability that is severe enough, if it lands, to wipe everything out.",
+    "ergodicity": "ergodicity: whether the average across many people each trying once equals the outcome for one person trying many times; once an absorbing zero exists, the two part company."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "machiavelli",
+     "mlk"
+    ],
+    "轻微赞同": [
+     "aristotle",
+     "thaler"
+    ],
+    "轻微反对": [
+     "sharot"
+    ],
+    "强烈反对": [
+     "kant"
+    ],
+    "中立": [
+     "buddha"
+    ]
+   }
+  },
+  {
+   "id": "p03",
+   "round": 1,
+   "thinker": "kant",
+   "reply_to": null,
+   "text": "我先拆掉一个很受欢迎的答案：与人共赴危险，并不产生支配他人的权利。将军与士兵同死，士兵仍旧是被当作手段用掉的。**判准不在谁流血，而在被押上的人能不能也以自己为目的点下这个头。**所以雇佣合同、一张选票、一道军令，都不自动等于同意。真正的同意要同时满足三件事：他知道最坏是什么、他拒绝时不会被惩罚、他事后还能撤回。定言命令在这里只有一句话：你的准则，被你押上的那个人愿不愿意自己也立为法则。",
+   "text_en": "Let me first dismantle a popular answer: sharing a danger with someone generates no right to dispose of them. A general who dies beside his soldiers has still used those soldiers as means. **The test is not who bleeds, but whether the person being staked can give that nod as an end in himself.** An employment contract, a vote, a military order — none of them is automatically consent. Real consent must satisfy three conditions at once: he knows what the worst case is, he is not punished for refusing, and he can withdraw afterwards. The categorical imperative has one sentence here: could the person you are staking will your maxim as a law himself?",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "定言命令": "categorical imperative（定言命令）：康德的道德法则形式——你的行为准则必须是你能同时希望它成为人人遵守的普遍法则的那一种。"
+   },
+   "glossary_en": {
+    "categorical imperative": "categorical imperative: Kant's formal moral law — act only on a maxim you could at the same time will to become a universal law."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "buddha",
+     "aristotle"
+    ],
+    "轻微赞同": [
+     "mlk",
+     "sharot"
+    ],
+    "轻微反对": [
+     "thaler"
+    ],
+    "强烈反对": [
+     "machiavelli",
+     "taleb"
+    ]
+   }
+  },
+  {
+   "id": "p04",
+   "round": 1,
+   "thinker": "sharot",
+   "reply_to": null,
+   "text": "我带来一个实验室里的坏消息。我们请人估计自己遭遇离婚、癌症的概率，再告诉他真实数据：比他预想好的，他大幅修正；比他预想坏的，他明显打折——脑成像里，负责处理『坏于预期』那部分的额下回，在乐观者身上活动更弱。八成的人都这样，这叫乐观偏差。**所以创始人说『我真的相信能成』的时候他没有撒谎，是他的大脑系统性地少算了坏的那一半。**诚意不能当证据用。习惯化还要补一刀：同一种风险第二次提起，警报声就小了。",
+   "text_en": "I bring bad news from the laboratory. We ask people to estimate their own odds of divorce or cancer, then give them the real figures. News better than they expected produces a large revision; news worse than expected gets heavily discounted — and in the scanner, the inferior frontal gyrus that handles worse-than-expected information is less active in the more optimistic. About eighty per cent of people show this; it is called optimism bias. **So when a founder says he genuinely believes it will work, he is not lying — his brain has systematically under-counted the bad half.** Sincerity cannot serve as evidence, and habituation then twists the knife: the second time the same risk is raised, the alarm is already quieter.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "乐观偏差": "optimism bias（乐观偏差）：人系统性地高估好事发生在自己身上的概率、低估坏事的倾向，且对好消息的信念更新明显强于坏消息。",
+    "习惯化": "habituation（习惯化）：同一刺激反复出现后，情绪与神经反应逐次减弱的现象。"
+   },
+   "glossary_en": {
+    "optimism bias": "optimism bias: the systematic tendency to overestimate one's own odds of good outcomes and underestimate bad ones, updating far more on good news than on bad.",
+    "habituation": "habituation: the progressive weakening of emotional and neural response to a stimulus that keeps recurring."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "buddha",
+     "kant"
+    ],
+    "轻微赞同": [
+     "aristotle",
+     "thaler"
+    ],
+    "轻微反对": [
+     "taleb"
+    ],
+    "中立": [
+     "machiavelli",
+     "mlk"
+    ]
+   }
+  },
+  {
+   "id": "p05",
+   "round": 1,
+   "thinker": "mlk",
+   "reply_to": null,
+   "text": "我知道这个问题是冲着谁来的。伯明翰，我让孩子走上街，有人骂我拿孩子当筹码——那是我这辈子最难签的字。我的回答有三条。牢我先坐，队伍我走在最前。每个上街的人先受训、再签一张承诺卡，白纸黑字写明他要承担什么；受不住这套纪律的，我们劝他别上街，中途要走的照样送回家——这是非暴力直接行动的纪律，不是一腔热血。**还有一条你们都漏了：别把『不动』算成零风险。**在那之前每年死在那套制度里的人，没人开账单，账照样有人付。",
+   "text_en": "I know whom this question is aimed at. In Birmingham I let children march, and I was accused of using children as chips — that was the hardest signature of my life. My answer has three parts. I went to jail first and walked at the front. Everyone who marched was trained first, then signed a pledge card setting out in plain words what they were taking on; anyone who could not hold to that discipline we urged not to march, and anyone who wanted out midway we sent home — that is the discipline of nonviolent direct action, not high feeling. **And there is a part all of you leave out: do not score 'doing nothing' as zero risk.** In the years before, people died inside that system every year; nobody issued an invoice, and the bill was paid all the same.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "非暴力直接行动": "nonviolent direct action（非暴力直接行动）：以静坐、游行、抵制等不使用暴力的方式主动制造危机，迫使被回避的不义进入公共谈判的策略。"
+   },
+   "glossary_en": {
+    "nonviolent direct action": "nonviolent direct action: deliberately creating a crisis through sit-ins, marches and boycotts, without violence, to force an injustice that is being avoided into public negotiation."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "kant",
+     "taleb"
+    ],
+    "轻微赞同": [
+     "aristotle",
+     "buddha",
+     "sharot"
+    ],
+    "中立": [
+     "thaler"
+    ],
+    "轻微反对": [
+     "machiavelli"
+    ]
+   }
+  },
+  {
+   "id": "p06",
+   "round": 1,
+   "thinker": "thaler",
+   "reply_to": null,
+   "text": "你们在争悬崖边上的豪赌，可真正把人生改道的，多半是一行配置。退休金默认缴 3% 还是 9%，二十年后是两种晚年；器官捐献默认同意还是默认拒绝，同样的民意能差出几十个百分点。没人投票，也没人签字。所以别问『谁有资格设默认值』——你不设也是设，空白本身就是一个值。**该问的是：这个默认设向了谁的好处，一个想改的人要花多大力气才改得回来。**这就是选择架构，它没有中立档。",
+   "text_en": "You are all arguing about the dramatic bet at the cliff edge, while what actually redirects a life is usually one line of configuration. A pension default of three per cent or nine per cent is two different old ages twenty years on; opt-in versus opt-out organ donation moves the same population by tens of percentage points. Nobody voted and nobody signed. So stop asking who is entitled to set a default — not setting one is also setting one, and blank is itself a value. **The question is whose interest the default leans toward, and how much effort it costs someone who wants to change it back.** That is choice architecture, and it has no neutral setting.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "选择架构": "choice architecture（选择架构）：呈现选项的方式——默认值、顺序、措辞、要填几张表——它必然存在，并在无人察觉时改变大多数人的选择。"
+   },
+   "glossary_en": {
+    "choice architecture": "choice architecture: the way options are presented — defaults, order, wording, how many forms to fill — which always exists and shifts most people's choices without their noticing."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "sharot"
+    ],
+    "轻微赞同": [
+     "kant",
+     "machiavelli",
+     "taleb"
+    ],
+    "轻微反对": [
+     "aristotle",
+     "buddha"
+    ],
+    "中立": [
+     "mlk"
+    ]
+   }
+  },
+  {
+   "id": "p07",
+   "round": 1,
+   "thinker": "aristotle",
+   "reply_to": null,
+   "text": "先分清两个词。勇敢是在该怕的地方怕得恰当、为着高尚的目的去承受；鲁莽是把承受错放在不值得的地方。**而这两样都只能在自己身上做——一个人不可能替别人勇敢。**把风险转出去的人，姿态再壮烈，他展示的也不是自己的勇敢，是别人的。至于多大的风险算过分，别指望一条规则算得出来：这要 phronesis，即在具体情境里看得准、下得了手的实践智慧；而它只长在承担过后果的人身上。",
+   "text_en": "Two words must be separated first. Courage is fearing the right things to the right degree and enduring for the sake of the noble; recklessness is enduring in a place not worth it. **And both can only be done in one's own person — no one can be brave on another's behalf.** Whoever transfers the risk outward, however grand his bearing, is displaying not his own courage but someone else's. As for how much risk is too much, do not expect a rule to compute it: that takes phronesis, the practical wisdom that sees clearly in a particular situation and can act on what it sees — and it grows only in those who have carried the consequences.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "phronesis": "phronesis（实践智慧）：亚里士多德所说在具体情境中判断该做什么的能力，不能靠规则代替，只能在实际承担后果中养成。"
+   },
+   "glossary_en": {
+    "phronesis": "phronesis: Aristotle's practical wisdom — the capacity to judge what should be done in a particular situation; no rule substitutes for it, and it is formed by bearing consequences."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "kant",
+     "buddha"
+    ],
+    "轻微赞同": [
+     "mlk",
+     "machiavelli"
+    ],
+    "轻微反对": [
+     "thaler",
+     "sharot"
+    ],
+    "中立": [
+     "taleb"
+    ]
+   }
+  },
+  {
+   "id": "p08",
+   "round": 1,
+   "thinker": "buddha",
+   "reply_to": null,
+   "text": "一切畏刀杖，一切皆爱生；以己度他情，勿杀勿行杖。人而敢押人之命者，多由不见缘起：见我为能押，见彼为所押，中间隔一账簿，故心不痛。**然业随行立，不随果改：既押人矣，其业当下已成，纵侥幸而胜，债犹在。**是故不害在先，非俟事败而追悔。汝欲押人，先以己身置其位：此箭若中，中者谁耶？",
+   "text_en": "All beings fear the rod; all beings hold their life dear. Judging others by yourself, neither kill nor cause to kill. Those who dare stake another's life mostly do so because they do not see dependent origination: they see a self that stakes and an other that is staked, with a ledger set between them, and so the heart does not hurt. **Yet karma is established by the act, not amended by the outcome: once you have staked a man, the deed already stands, and though you win by luck, the debt remains.** Therefore ahiṃsā comes first, not as regret once the thing has failed. If you would stake another, first put yourself in his place: when this arrow lands, who is it that it strikes?",
+   "vernacular": "一切生命都怕刀杖，一切生命都爱惜自己的命；拿自己的心去推想别人的心，就不要杀、也不要打。敢拿别人的命下注的人，多半是没有看见缘起：把自己看作下注的那个，把别人看作被押上的那个，中间隔着一本账，心就不疼了。**可是业随行为当下成立，不随结果改动：押了人，这一业已经成了，哪怕侥幸赢了，债还在。**所以不害要放在最前面，而不是等事情败了才追悔。你要押别人，先把自己放到他的位置上：这一箭射出去，中的是谁？",
+   "vernacular_en": "",
+   "glossary": {
+    "缘起": "dependent origination（缘起）：一切现象皆依条件而生、依条件而灭，没有独立自存的『我』与『他』。",
+    "不害": "ahiṃsā（不害）：不加害于一切有情的戒律，佛教伦理最先确立的一条底线。"
+   },
+   "glossary_en": {
+    "dependent origination": "dependent origination: the teaching that all phenomena arise and cease through conditions, so that no independently existing self or other is to be found.",
+    "ahiṃsā": "ahiṃsā: the precept of not harming any sentient being — the first line drawn in Buddhist ethics."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "kant",
+     "aristotle"
+    ],
+    "轻微赞同": [
+     "mlk"
+    ],
+    "中立": [
+     "sharot",
+     "thaler"
+    ],
+    "轻微反对": [
+     "taleb"
+    ],
+    "强烈反对": [
+     "machiavelli"
+    ]
+   }
+  },
+  {
+   "id": "p09",
+   "round": 2,
+   "thinker": "kant",
+   "reply_to": "p02",
+   "text": "塔勒布先生，切身利害是个好过滤器，却不是许可证。照你的规矩，一个愿意与部下同归于尽的将军就获得了送他们去死的资格——他只证明了自己不怕，没有证明别人同意。**风险对称是必要条件，不是授权条件；它管得住轻率，管不住僭越。**你说同意书是表演，这话我认一半：签字确实容易伪造。可伪造不掉的是拒绝的代价——一个人说『不』会不会丢掉医保和签证，这个问题有答案，而且查得出来。",
+   "text_en": "Mr Taleb, skin in the game is a fine filter but it is not a licence. On your rule, a general willing to perish alongside his men thereby earns the right to send them to die — he has proved only that he is unafraid, not that anyone agreed. **Symmetry of risk is a necessary condition, not an authorising one: it restrains rashness, it does not restrain usurpation.** You say consent forms are theatre, and I grant you half of that: signatures are easy to forge. What cannot be forged is the price of refusal — whether a man loses his health cover and his visa by saying no is a question with an answer, and one that can be checked.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "buddha",
+     "mlk"
+    ],
+    "轻微赞同": [
+     "aristotle",
+     "sharot"
+    ],
+    "轻微反对": [
+     "thaler"
+    ],
+    "强烈反对": [
+     "taleb"
+    ],
+    "中立": [
+     "machiavelli"
+    ]
+   }
+  },
+  {
+   "id": "p10",
+   "round": 2,
+   "thinker": "taleb",
+   "reply_to": "p09",
+   "text": "康德先生，您那三件事在真实世界里是零件齐全的永动机。他知道最坏是什么？连董事会都不知道。他拒绝不受罚？那他为什么还在这儿上班。他事后能撤回？公司已经搬到另一个国家去了。**纸面上的同意是最容易伪造的东西，暴露在风险里是最难伪造的。**我不反对查拒绝的代价，我只是不信一个算不清自己会不会破产的人，能算得清别人的处境。让他先把自己的钱放进去，他的问题会突然变得非常具体。",
+   "text_en": "Mr Kant, your three conditions are a perpetual motion machine with all its parts present. He knows the worst case? The board does not know it. He is not punished for refusing? Then why is he still working here. He can withdraw afterwards? The company has moved to another country. **Consent on paper is the easiest thing in the world to fake; exposure to the risk is the hardest.** I do not object to checking the price of refusal. I simply do not believe that a man who cannot work out whether he himself will go bust can work out anyone else's position. Make him put his own money in first, and his questions become extremely concrete.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "machiavelli"
+    ],
+    "轻微赞同": [
+     "mlk",
+     "thaler"
+    ],
+    "中立": [
+     "aristotle"
+    ],
+    "轻微反对": [
+     "buddha",
+     "sharot"
+    ],
+    "强烈反对": [
+     "kant"
+    ]
+   }
+  },
+  {
+   "id": "p11",
+   "round": 2,
+   "thinker": "machiavelli",
+   "reply_to": "p05",
+   "text": "金牧师，恕我直言：您其实站在我这一边，只是包装得体面得多。您也押了人，还押上了孩子；您也算过不行动的代价，那正是我说的算计。**区别不在您有没有押人，而在您押得起——您手里有摄影机，对方的暴力会变成您的筹码。**这是漂亮的手段。可换个地方，同样的队伍走上街，没有记者，只有一道命令和一片沉默，您那三条一条也救不了他们。",
+   "text_en": "Reverend King, forgive my bluntness: you stand on my side of this, only dressed a great deal better. You staked people too, and children at that; you also reckoned the cost of not acting, and that reckoning is precisely what I mean. **The difference is not whether you staked people but that you could afford to — you had cameras, and your opponent's violence became your asset.** That is fine craft. But move it elsewhere: the same column marches, there are no reporters, only an order and silence — and not one of your three conditions saves them.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "taleb"
+    ],
+    "轻微赞同": [
+     "sharot",
+     "thaler"
+    ],
+    "中立": [
+     "aristotle"
+    ],
+    "轻微反对": [
+     "buddha"
+    ],
+    "强烈反对": [
+     "mlk",
+     "kant"
+    ]
+   }
+  },
+  {
+   "id": "p12",
+   "round": 2,
+   "thinker": "mlk",
+   "reply_to": "p11",
+   "text": "包装？那张卡上写着十条：第一条是每天默想耶稣的生平与教导，第八条是拳头、舌头与心里都不许有暴力，最后一条是听从纠察队长的指挥；卡的开头是一句誓言——我以我的身体投入这场非暴力运动。我们还带人一遍遍演练被打倒时怎么护住头、怎么不还手。**筹码与人的分别就在这里：筹码不受训、不签字、也不许中途回家，而我们的人这三样都有。**至于没有记者的地方——那恰恰是我一路向全国喊的原因：把记者叫到场，本身就在降低他们的风险。",
+   "text_en": "Dressed better? That card set out ten commitments: the first to meditate daily on the life and teachings of Jesus, the eighth to refrain from the violence of fist, tongue or heart, the last to follow the directions of the movement and of the captain on a demonstration; and it opened with a pledge — I hereby pledge myself, my person and my body, to the nonviolent movement. We also drilled people again and again in how to protect the head when struck down and how not to strike back. **That is exactly the difference between a chip and a person: a chip is not trained, does not sign, and is not permitted to go home halfway — and our people had all three.** As for the places with no reporters, that is precisely why I kept calling out to the whole country: bringing the press in lowered their risk.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "kant",
+     "buddha",
+     "aristotle"
+    ],
+    "轻微赞同": [
+     "thaler",
+     "sharot"
+    ],
+    "中立": [
+     "taleb"
+    ],
+    "轻微反对": [
+     "machiavelli"
+    ]
+   }
+  },
+  {
+   "id": "p13",
+   "round": 2,
+   "thinker": "sharot",
+   "reply_to": "p02",
+   "text": "塔勒布，我要动你那条规矩的地基。你假定一个人只要被风险咬到，判断就会变准；数据说的正相反——已经投入的人对坏消息打折得更厉害，因为承认变坏就等于承认自己当初错了。押上全部身家的创始人往往不是最清醒的那个，而是最乐观的那个。**切身利害改的是他的动机，不是他的信念更新。**还有一层更安静：第一次让下属加班到十点你会不舒服，第十次就没感觉了——那不是你变坏了，是习惯化。",
+   "text_en": "Taleb, I want to move the foundation under your rule. You assume that once a man is bitten by the risk his judgement sharpens; the data say the opposite. Those already invested discount bad news harder, because conceding that things have worsened means conceding they were wrong to begin with. The founder with everything staked is often not the clearest-eyed person in the room but the most optimistic. **What skin in the game changes is his incentives, not his belief updating.** And there is a quieter layer: the first time you keep a subordinate at work until ten you feel uncomfortable; by the tenth you feel nothing — that is not you turning bad, it is habituation.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "切身利害": "skin in the game（切身利害）：决策者本人也暴露在自己所制造的风险之中，因而承担与他人相同的损失。"
+   },
+   "glossary_en": {
+    "skin in the game": "skin in the game: the decision-maker is himself exposed to the risk he creates, and so stands to lose what the others lose."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "kant",
+     "buddha"
+    ],
+    "轻微赞同": [
+     "aristotle",
+     "thaler",
+     "mlk"
+    ],
+    "中立": [
+     "machiavelli"
+    ],
+    "强烈反对": [
+     "taleb"
+    ]
+   }
+  },
+  {
+   "id": "p14",
+   "round": 2,
+   "thinker": "aristotle",
+   "reply_to": "p06",
+   "text": "塞勒，你那句『不设也是设』把一个人做的事说成了自然现象。空白是个值，不错；可选定那个值的仍旧是某个人，他有名字，也有他的品性。**一旦所有安排都被说成没有中立档，谁也就不必为任何一档负责了。**我不反对默认值，我反对用它把行动者藏起来。一条默认该配一个署名的人、一个可查的理由、一次定期重看的机会；除此之外还得指望他有 phronesis——这一点，你的表格永远填不出来。",
+   "text_en": "Thaler, your line that not setting one is also setting one turns a thing a man did into a fact of nature. Blank is a value, granted; but someone still chose that value, and he has a name and a character. **Once every arrangement is said to have no neutral setting, no one need answer for any setting at all.** I am not against defaults; I am against using them to hide the agent. A default should carry a named person, a reason on the record, and a scheduled review — and beyond that one must still hope he has phronesis, which no form of yours will ever capture.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "phronesis": "phronesis（实践智慧）：在具体情境中判断该做什么的能力，规则无法代替，只能在实际承担后果中养成。"
+   },
+   "glossary_en": {
+    "phronesis": "phronesis: the capacity to judge what should be done in a particular case; rules cannot replace it, and it is formed by bearing consequences."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "kant",
+     "mlk"
+    ],
+    "轻微赞同": [
+     "buddha",
+     "taleb",
+     "machiavelli"
+    ],
+    "轻微反对": [
+     "thaler"
+    ],
+    "中立": [
+     "sharot"
+    ]
+   }
+  },
+  {
+   "id": "p15",
+   "round": 2,
+   "thinker": "thaler",
+   "reply_to": "p14",
+   "text": "亚里士多德，我当然要署名，我也支持定期重看。但你把宝押在建筑师的品性上，我只押在建筑上。**有德性的人会调走、会退休、会去世，而那条默认值还留在原地替他继续管着几万人。**所以我的顺序是反的：先让每一条默认可撤销、可到期、退出只花两分钟，再来谈谁有德性。你要的慢，我写成一个日期；你要的判断力，我写成一个到期后必须重新点头的按钮。",
+   "text_en": "Aristotle, of course I want a name on it, and I am for scheduled review. But you are betting on the architect's character and I am betting only on the building. **A person of virtue gets transferred, retires and dies, while that default stays where it is, governing tens of thousands on his behalf.** So my order is the reverse: first make every default revocable, dated, and two minutes to exit, and then we can discuss whose character is sound. The slowness you want, I write as a date; the judgement you want, I write as a button that has to be pressed again when the date arrives.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "sharot"
+    ],
+    "轻微赞同": [
+     "kant",
+     "taleb",
+     "mlk"
+    ],
+    "轻微反对": [
+     "aristotle"
+    ],
+    "中立": [
+     "machiavelli",
+     "buddha"
+    ]
+   }
+  },
+  {
+   "id": "p16",
+   "round": 2,
+   "thinker": "buddha",
+   "reply_to": "p13",
+   "text": "沙罗特所言，与吾所谓无明同指一事：心自蔽而不自知，非为他人所欺。**既知心不可恃，则不可待临事而明；当于未押之先立戒。**戒者，不问此时心之清浊而止其行者也。故约当立于事前，界当书于纸上，悔时之路当预开。若曰『到时我自会看清』，此语即是无明。",
+   "text_en": "What Sharot describes and what I call avidyā point at one thing: the mind veils itself and does not know it, and no one else has deceived it. **Since the mind cannot be relied upon, one must not wait for clarity at the moment of acting; the precept is set before anything is staked.** A precept is what halts the act regardless of whether the mind is clear at that hour. So the agreement is made beforehand, the limit written on paper, and the road back opened in advance. To say 'I shall see clearly when the time comes' — that saying is itself avidyā.",
+   "vernacular": "沙罗特说的，和我讲的无明是同一件事：心被自己蒙住而不自知，并不是被别人骗了。**既然心靠不住，就不能等到事到临头才指望看清；要在还没押下去之前先立戒。**所谓戒，就是不管此刻心里清不清明都照样停手的那条线。所以约定要立在事前，界限要写在纸上，反悔的路要预先留好。若说『到时候我自然看得清』，这话本身就是无明。",
+   "vernacular_en": "",
+   "glossary": {
+    "无明": "avidyā（无明）：不如实了知事物真相的根本蒙昧，佛教以之为一切苦与错行的起点。",
+    "戒": "śīla（戒）：事先立下、不依临场心情而变的行为界限，使人在心被蒙蔽时仍能止住。"
+   },
+   "glossary_en": {
+    "avidyā": "avidyā: the root not-knowing that fails to see things as they are, which Buddhism treats as the origin of suffering and wrong action.",
+    "precept": "precept (śīla): a limit on conduct fixed in advance and not subject to how one feels in the moment, so that it still holds when the mind is clouded."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "kant",
+     "sharot",
+     "thaler"
+    ],
+    "轻微赞同": [
+     "aristotle",
+     "mlk"
+    ],
+    "中立": [
+     "taleb"
+    ],
+    "轻微反对": [
+     "machiavelli"
+    ]
+   }
+  },
+  {
+   "id": "p17",
+   "round": 3,
+   "thinker": "sharot",
+   "reply_to": null,
+   "text": "三轮下来，我这边的结论很窄但很硬：**任何把『我是真心相信的』当作担保的安排，都建在一个已经被测出来的错误上。**乐观偏差不会因为你诚实、勤奋或身家全押而消失。所以别再互相拷问动机，去改装置。三件本周就能做：一，决定之前把『失败长什么样』写成一个具体数字和一个日期，签名收好；二，把盯坏消息的活交给一个没有投入的人，并且让他报坏消息不吃亏；三，每次要别人担一次风险前，先回想上一次是什么感觉——若答案是『没什么感觉』，那多半是习惯化，不是这次真的更安全。",
+   "text_en": "After three rounds my side of this is narrow but hard: **any arrangement that treats 'I sincerely believe it' as a guarantee is built on an error we have already measured.** Optimism bias does not dissolve because you are honest, hard-working or fully staked. So stop interrogating each other's motives and change the machinery instead. Three things you can do this week. First, before deciding, write down what failure looks like as a specific number and a date, sign it and put it away. Second, give the job of tracking bad news to someone with nothing invested, and make sure reporting bad news costs him nothing. Third, before asking anyone to carry a risk, recall how the last time felt — if the answer is that you felt nothing, that is probably habituation rather than this one being safer.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "kant",
+     "buddha",
+     "thaler"
+    ],
+    "轻微赞同": [
+     "aristotle",
+     "mlk"
+    ],
+    "中立": [
+     "machiavelli"
+    ],
+    "轻微反对": [
+     "taleb"
+    ]
+   }
+  },
+  {
+   "id": "p18",
+   "round": 3,
+   "thinker": "thaler",
+   "reply_to": null,
+   "text": "我承认亚里士多德那一刀砍中了：说『没有中立档』不该成为免责声明。所以我把我的主张写成可以被查的东西。任何替他人设定的默认，配四样：署名、理由、到期日、两分钟能退出的出口。退出的成本要用被设定者的处境来算——同一个『随时可以走』，对有存款的人和对签证挂在雇主名下的人是两个价钱。**衡量一套安排好不好，就看它把改回来的成本压给了谁。**普通人这周可做的是：找出一条你替别人定下的默认——值班表、家庭群的规矩、孩子的周末安排——给它写上一个到期日，到期那天重新问一次。",
+   "text_en": "I concede Aristotle's cut landed: 'there is no neutral setting' must not become a disclaimer. So let me write my position as something that can be checked. Any default set for other people carries four things: a name, a reason, an expiry date, and an exit that takes two minutes. And the cost of exiting has to be reckoned from the position of the person it is set for — the same 'you can leave whenever you like' is priced differently for someone with savings and for someone whose visa hangs on the employer. **To judge an arrangement, look at whom it charges for undoing it.** What an ordinary person can do this week: find one default you have set for others — the on-call roster, the rule in the family group chat, a child's weekend schedule — give it an expiry date, and on that date ask the question again.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "kant",
+     "sharot"
+    ],
+    "轻微赞同": [
+     "aristotle",
+     "mlk",
+     "taleb"
+    ],
+    "中立": [
+     "machiavelli",
+     "buddha"
+    ]
+   }
+  },
+  {
+   "id": "p19",
+   "round": 3,
+   "thinker": "kant",
+   "reply_to": null,
+   "text": "我坚持那三件事，但我把它收成一句可用的话：**同意的真伪，不看签字，看拒绝的价格。**问对方『你说不会失去什么』——若答案是收入、医保、签证、这段关系，那你手上拿到的不是同意，是屈从。塔勒布先生说条件太苛刻以致什么都做不成，我倒认为苛刻正是要点：能满足它的事本来就该少。至于做不到的场合，也别假装：把它说成『我在替你决定』，而不是『你已经同意』。用自己的名字承担一次僭越，好过用一张伪造的同意书洗干净它。",
+   "text_en": "I hold to those three conditions, but let me compress them into one usable sentence: **the test of consent is not the signature but the price of refusal.** Ask the other person what he would lose by saying no. If the answer is his income, his health cover, his visa or this relationship, then what you are holding is not consent but submission. Mr Taleb says the conditions are so stringent that nothing would ever get done; I would say the stringency is the point — the things that can meet it ought to be few. And where they cannot be met, do not pretend: call it deciding on his behalf, not him having agreed. Better to carry one usurpation under your own name than to launder it with a forged consent.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "buddha",
+     "mlk",
+     "aristotle"
+    ],
+    "轻微赞同": [
+     "sharot",
+     "thaler"
+    ],
+    "轻微反对": [
+     "taleb"
+    ],
+    "强烈反对": [
+     "machiavelli"
+    ]
+   }
+  },
+  {
+   "id": "p20",
+   "round": 3,
+   "thinker": "machiavelli",
+   "reply_to": null,
+   "text": "我不收回任何一句，但我愿意把我的立场说得更准：问题从来不是能不能押人——共同体每天都在押——而是押完之后找不找得到人。最坏的安排不是暴君下注，是没有人下注：排班表、指标、流程由早已离职的人定下，代价显形时连个可以恨的名字都没有。**暴君至少还能被推翻，无名的规矩推不翻。**所以我只要一条：凡要别人冒险的安排，必须有一个署名的活人，他还在，还答得上话。给普通人的用法也简单——任何压到你头上的规定，先问一句『这是谁定的，他还在吗』。问不出名字的，八成也没人打算负责。",
+   "text_en": "I withdraw nothing, but let me state my position more precisely. The question was never whether people may be staked — a community stakes them daily — but whether anyone can be found afterwards. The worst arrangement is not a tyrant placing bets; it is nobody placing them: the roster, the targets and the procedure were set by people long since gone, and when the cost surfaces there is not even a name to hate. **A tyrant can at least be overthrown; a nameless rule cannot.** So I ask for one thing only: any arrangement that puts others at risk must carry a living, named person who is still here and can still answer for it. The use for ordinary people is simple — of any rule pressing on you, ask first who set it and whether he is still here. Where no name can be found, most likely no one intended to answer.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "taleb",
+     "mlk"
+    ],
+    "轻微赞同": [
+     "kant",
+     "thaler",
+     "aristotle",
+     "sharot"
+    ],
+    "中立": [
+     "buddha"
+    ]
+   }
+  },
+  {
+   "id": "p21",
+   "round": 3,
+   "thinker": "buddha",
+   "reply_to": null,
+   "text": "诸君之论，终归两途：或校其心，或校其事。心不可校，故当校事。**事之可校者三：一曰可退之路，二曰可知之最坏，三曰不可回之界。**前二者诸君已言之，末者未详。凡行有二：可回者，虽误犹可补；不可回者，一举而彼之一生改矣。逐人、断交、当众指其名、代亲属决生死，皆不可回之属。于不可回者，当设最慢之法：过夜而后发，二人署名而后行，先告其人而后动。**慢非怯也，慢者所以留一线可回之地。**吾昔舍妻子而出家，此债吾自知之，不以后来之证果相抵。",
+   "text_en": "Your arguments come to two roads in the end: audit the heart, or audit the deed. The heart cannot be audited, so audit the deed. **Three things in a deed can be audited: whether there is a road back, whether the worst case can be known, and where the line of no return runs.** The first two you have all spoken of; the last has not been set out. Acts are of two kinds. Reversible ones, mistaken, may still be mended; irreversible ones alter another's whole life at a single stroke. Dismissing a man, severing a bond, naming him in public, deciding life and death for a relative — all belong to the irreversible. For these, set the slowest procedure: sleep a night before sending, two signatures before acting, tell the person before moving. **Slowness is not cowardice; slowness is what keeps a road back open.** I myself once left a wife and a son to go forth; that debt I know to be mine, and no later attainment settles it.",
+   "vernacular": "诸位讲到最后只有两条路：要么校验人的心，要么校验人做的事。心校验不了，所以只能校验事。**事情上可校验的有三样：有没有退路、最坏是什么、哪里是收不回来的界线。**前两样各位都说了，最后一样还没讲透。行为分两种：可回的，做错了还能补；不可回的，一下子就把别人的一生改了。开除、断绝关系、当众点名、替亲人决定生死，都属于不可回的那一类。对不可回的事，要配最慢的程序：过一夜再发出去，两个人签字才执行，动手之前先告诉当事人。**慢不是怯懦，慢是替自己留一条还能回头的路。**我当年舍下妻儿出家，这笔债我自己认，不拿后来的证悟来抵。",
+   "vernacular_en": "",
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "kant",
+     "aristotle",
+     "mlk"
+    ],
+    "轻微赞同": [
+     "sharot",
+     "thaler",
+     "taleb"
+    ],
+    "中立": [
+     "machiavelli"
+    ]
+   }
+  },
+  {
+   "id": "p22",
+   "round": 3,
+   "thinker": "aristotle",
+   "reply_to": null,
+   "text": "我仍旧坚持：勇敢不能外包，可我接受塞勒改过的说法——制度要能在没有好人的时候仍然不坏。两者并不冲突，只是管不同的事。**规则守住底线，phronesis 决定底线以上的一切；而底线以上，正是大多数人生真正发生的地方。**给普通人的做法我说得具体些：凡你要别人承担的，先在纸上写一句『若我错了，我这边失去什么』。写不出来，你就不是在承担，只是在安排。再加一条自查：这件事若换成别人这样对你，你会不会觉得他有资格。这个问题不需要学问，但需要你诚实地回答一次。",
+   "text_en": "I hold to it: courage cannot be outsourced. But I accept Thaler's amended version — an institution must remain tolerable in the absence of good people. The two do not conflict; they govern different things. **Rules hold the floor, phronesis decides everything above it — and above the floor is where most of a life actually takes place.** Let me make the practical part concrete. Before asking anyone to carry something, write one line on paper: if I am wrong, what do I lose. If you cannot write it, you are not carrying anything, you are merely arranging. Add one more check: were someone to do this to you, would you think him entitled to. That question needs no learning, only one honest answer.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "phronesis": "phronesis（实践智慧）：在具体情境中判断该做什么的能力，规则无法代替。"
+   },
+   "glossary_en": {
+    "phronesis": "phronesis: the capacity to judge what should be done in a particular situation, for which no rule substitutes."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "kant",
+     "buddha",
+     "taleb"
+    ],
+    "轻微赞同": [
+     "mlk",
+     "machiavelli",
+     "thaler"
+    ],
+    "中立": [
+     "sharot"
+    ]
+   }
+  },
+  {
+   "id": "p23",
+   "round": 3,
+   "thinker": "mlk",
+   "reply_to": null,
+   "text": "我最后再说那条被漏掉的账。这场里的规矩——署名、到期日、退出的两分钟——都是给动手的人立的，很好。可还有一种人从不动手：他什么也不押，于是自觉清白。**代价照样落在别人身上，只是账单不写他的名字。**所以我要求的对称是另一种：你若因为风险太大而不动，就得说清楚这段时间由谁在承担，并且让他知道你知道。给普通人的一条：这周找一件你一直没开口的事——一句该说的话、一次该报的问题——算一算沉默的成本落在谁头上。若那个人不是你，你就已经在替他下注了。",
+   "text_en": "Let me speak once more for the account that gets left out. The rules in this room — a name, an expiry date, the two-minute exit — are all written for the one who acts, and they are good rules. But there is another sort of person who never acts: he stakes nothing, and so feels himself clean. **The cost lands on others all the same; only the invoice does not carry his name.** So the symmetry I ask for is a different one: if you hold back because the risk is too great, say plainly who is carrying it meanwhile, and let them know that you know. One thing for ordinary people: this week find something you have kept quiet about — a sentence that should have been said, a problem that should have been raised — and work out on whom the cost of that silence falls. If it is not you, you have already been betting on their behalf.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "taleb",
+     "machiavelli",
+     "kant"
+    ],
+    "轻微赞同": [
+     "aristotle",
+     "sharot",
+     "thaler"
+    ],
+    "中立": [
+     "buddha"
+    ]
+   }
+  },
+  {
+   "id": "p24",
+   "round": 3,
+   "thinker": "taleb",
+   "reply_to": null,
+   "text": "沙罗特说我的规矩治不了信念，她说得对；所以我从不打算治信念，我只打算让错误自己停下来。**你可以一直错下去，前提是你自己先垮掉。**我保留切身利害，但加一条大家都同意的：真正要防的不是输，是归零。所以三条自查。一，最坏的情况落在谁头上——写下名字，不写『团队』。二，这个人是不是把收入、医保、技能和家住哪里全押在同一个篮子里；他没得分散，你就没资格按你的分散口径算这笔账。三，输了之后他靠什么活到下个月——答不上来，这就不是一次下注，是一次转嫁。",
+   "text_en": "Sharot says my rule cannot fix belief, and she is right; I never intended to fix belief. I intend only to make the error stop itself. **You may go on being wrong indefinitely, provided you go under first.** I keep skin in the game, but I add the one thing everyone here agrees on: what must be guarded against is not losing, it is hitting zero. So, three checks. One: on whom does the worst case land — write a name, not 'the team'. Two: does that person have income, health cover, skills and where the family lives all in the same basket; if he cannot diversify, you are not entitled to price this on your own diversified terms. Three: if it goes wrong, what does he live on next month — and if you cannot answer, this was not a bet, it was a transfer.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "kant",
+     "mlk",
+     "sharot"
+    ],
+    "轻微赞同": [
+     "aristotle",
+     "buddha",
+     "machiavelli",
+     "thaler"
+    ]
+   }
+  }
+ ],
+ "summaries": [
+  {
+   "ai": "claude",
+   "engine": "Opus 5 · 订阅(原生)",
+   "engine_en": "Opus 5 · subscription (native)",
+   "summary": "**可撤回。**八个人从八条不同的路走过来，最后都停在这一个词上：康德要求事后能撤回，塞勒要求两分钟能退出，金的承诺卡签了还能撕，佛陀把最慢的程序留给收不回的事，沙罗特要在动手之前先写下失败长什么样。分歧有三处。一，凭什么才算获得授权：塔勒布说看谁跟着一起破产，康德说看拒绝的价格，两把尺互不承认。二，该修人还是修装置：亚里士多德押在判断力上，塞勒押在到期日上。三，押人到底能不能被洗白：马基雅维利说共同体天天在押，佛陀说业当下已成，赢了也还债。",
+   "summary_en": "**Revocability.** Eight people arrive by eight different roads and stop at the same word: Kant demands the power to withdraw afterwards, Thaler a two-minute exit, King's pledge card can be torn up after signing, the Buddha reserves the slowest procedure for what cannot be taken back, and Sharot wants failure written down before anyone moves. Three disagreements remain. First, what confers authority at all: Taleb looks at who goes bust alongside you, Kant at the price of refusal, and neither yardstick recognises the other. Second, whether to repair the person or the machinery: Aristotle stakes it on judgement, Thaler on an expiry date. Third, whether staking others can ever be cleared: Machiavelli says a community does it daily, while the Buddha says the deed already stands and the debt survives a win.",
+   "insight": "八个人里没有一个替还没出生的人说话，而这并非疏忽——**这场里所有可用的判据，都要求被押的人此刻在场。**拒绝的代价查得出来，是因为有人能开口说不；补偿算得出来，是因为有人能收下；连塔勒布的破产共担，也要求双方活在同一段时间里。可真正押得最大的几件事恰恰没有这个条件：气候工程、核废料、把一座城市的地下水抽干。于是我们最锋利的那几把尺，偏偏在赌注最大的地方失效，剩下的只有一条钝得多的规矩：不可回的事配最慢的程序。",
+   "insight_en": "Not one of the eight speaks for those not yet born, and that is no oversight — **every test available in this room requires the person being staked to be present now.** The price of refusal can be checked because someone is there to say no; compensation can be computed because someone is there to receive it; even Taleb's shared bankruptcy requires both parties to be alive at the same time. Yet the largest stakes of all meet none of that condition: climate engineering, nuclear waste, draining a city's aquifer. So our sharpest instruments fail precisely where the bet is biggest, and what is left is a far blunter rule — the irreversible gets the slowest procedure.",
+   "advice": "三件本周可做的。**第一，把『拒绝的价格』当成同意的唯一检验**：你要别人承担什么之前，先问他说不会失去什么；若答案是收入、医保、签证或这段关系，你手上的就不是同意。第二，列出你最近三个月做过的不可回的事——开除、公开点名、替家人做的决定——给同类的下一件配一道慢程序：过夜再发，或者第二个人签字。第三，找出一条你替别人定下的默认：值班表、家庭群的规矩、孩子的周末安排，写上一个到期日，到那天重新问一次还要不要。",
+   "advice_en": "Three things for this week. **First, make the price of refusal the sole test of consent**: before asking anyone to carry something, ask what saying no would cost them; if the answer is income, health cover, a visa or the relationship itself, what you hold is not consent. Second, list the irreversible things you have done in the past three months — a dismissal, naming someone publicly, a decision made for a relative — and give the next one of that kind a slow procedure: a night's sleep before sending, or a second signature. Third, find one default you have set for other people — the on-call roster, a rule in the family chat, a child's weekend schedule — put an expiry date on it, and on that date ask again whether it should stand."
+  },
+  {
+   "ai": "gpt",
+   "engine": "openai · gpt-5.6-sol · high(真实API)",
+   "engine_en": "openai · gpt-5.6-sol · high (live API)",
+   "summary": "风险不能被抽象成“团队会承受”：谁可能受伤、能否拒绝、最坏后果、谁署名负责，以及不行动由谁买单，都应摊在桌面上。最可带走的共同点是，诚意、胜利和一纸同意都不足以洗净替人决定的责任；制度必须让风险可见、退出可行、决定可追责。**真正的分歧不是要不要约束下注者，而是在紧急、集体且无法逐一同意时，授权究竟来自当事人同意、风险共担，还是共同体的必要性。**另一重张力在行动与不行动之间：谨慎能避免僭越，也可能把现状的损害继续压给沉默者。务实答案不是让一条原则包打天下，而是按风险的不可逆性、集中度和拒绝成本提高程序门槛。",
+   "insight": "有些决定无法让所有受影响者逐一点头：传染病隔离、城市施工、裁员自救，都会制造非自愿承担者。此时继续争论决策者是否高尚，容易漏掉更关键的制度问题：谁代表缺席者，谁有权叫停，损害发生后谁先获救。**在无法取得真实同意的场合，正当性应来自可挑战的程序与预先锁定的补偿，而不是决策者的勇气或善意。**这意味着少数人的重大损失，不能被多数人的平均收益冲销；应单列“最重受损者”指标，设置独立申诉、临时中止和补偿储备。替家人或同事决定时，也别只问总体是否划算，还要问最倒霉的那个人有没有发言席位和复原资源。",
+   "advice": "今天可做三步。第一，建一张一页纸“风险账”：写具体姓名，不写“团队”；列出行动与不行动各自的最坏结果、发生期限、承担者，以及对方是否把收入、医保和住处押在同一件事上。第二，私下问一句“你拒绝会失去什么”，再把退出变成可执行的安排，例如书面免罚、替代人选和清晰入口。第三，把方案切成可逆的小试验，设金额或人数上限、到期日和署名负责人；涉及解雇、公开点名、重大医疗等不可逆事项，至少隔夜并由第二人复核。**若无法让风险可退，就先让决定可停、责任可找、损害可赔。**本周选一项你替别人定下的安排，按这张表重做一次。",
+   "summary_en": "Risk should never disappear into a phrase like “the team will bear it.” The people who may be harmed, their real ability to refuse, the worst-case outcome, the named decision-maker, and the cost of doing nothing all belong on the table. The central agreement is that sincerity, success, and a signed form cannot erase responsibility for deciding on someone else’s behalf. Sound arrangements must make risk visible, exit realistic, and authority accountable. **The real disagreement is not whether risk-imposers need constraints, but where authorization comes from when a decision is urgent, collective, and cannot receive everyone’s consent: the consent of those exposed, shared downside, or the necessities of communal survival.** A second tension lies between action and inaction. Restraint may prevent overreach, yet it may also leave the costs of the status quo on people with little voice. The practical synthesis is to raise procedural safeguards as risks become more irreversible, concentrated, and difficult to refuse.",
+   "insight_en": "Some decisions cannot obtain meaningful consent from every affected person. Quarantines, urban construction, and layoffs intended to save an organization all create involuntary risk-bearers. In such cases, debating whether the decision-maker is virtuous can obscure more important institutional questions: Who represents absent voices? Who can pause the decision? Who receives help first if harm occurs? **When genuine consent is unavailable, legitimacy must come from a contestable process and compensation secured in advance—not from the decision-maker’s courage or good intentions.** A severe loss imposed on a minority should not disappear inside an average benefit enjoyed by the majority. The process should therefore track the worst-affected group separately and provide an independent appeal, a temporary-stay mechanism, and reserved resources for repair. The same principle applies in ordinary life. Before deciding for relatives or colleagues, do not ask only whether the arrangement is beneficial overall; ask whether the person with the worst plausible outcome has a voice and enough resources to recover.",
+   "advice_en": "Take three practical steps. First, make a one-page risk ledger. Use people’s names rather than “the team,” and record the worst outcomes of both acting and not acting, the relevant deadline, who bears each cost, and whether anyone has their income, health coverage, housing, and future options tied to the same bet. Second, ask privately, “What would you lose by saying no?” Then make exit operational through written protection from retaliation, a replacement plan, and a simple route to opt out. Third, turn the proposal into a reversible pilot with a cap on money or people exposed, an expiration date, and a named owner. For irreversible steps—dismissal, public identification, or major medical choices—require at least an overnight pause and review by a second person. **If the risk itself cannot be made reversible, make the decision stoppable, the responsibility traceable, and the harm compensable.** This week, choose one arrangement you have imposed on others and rebuild it using this checklist."
+  },
+  {
+   "ai": "gemini",
+   "engine": "google · gemini-3.8-flash(真实API)",
+   "engine_en": "google · gemini-3.8-flash (live API)",
+   "summary": "全场达成一个冰冷而清晰的共识：别人的人生不能押在决策者的良心或崇高动机上，任何正当的风险转嫁，都必须配备署名的责任主体、真实可行的退出通道，以及对行动与不行动双向代价的清算。分歧的真正焦点，在于这种授权的门槛究竟该设在理想原则还是现实泥潭之中。康德与塔勒布坚持绝对苛刻的准入条件——要么赋予对方不受惩罚的完全拒绝权，要么决策者自身承担同等的归零风险；马基雅维利与金牧师则指出这种纯洁性在危机面前并不存在，共同体往往别无选择。**这场争论的实质，是在拷问规则究竟该追求程序上的绝对免于僭越，还是在无可避免的妥协中构建最低限度的止损底线。**",
+   "insight": "现代社会最庞大、最隐蔽的下注，早已脱离了将军派兵或领袖动员的显性剧场，而是退化为被组织分工与算法架构彻底稀释的“统计学下注”。当算法团队调整推荐权重、医院优化排班效率、企业将高危工序外包时，链条上的每个人都只是在履行岗位职责或优化局部参数，没有人觉得自己握有生杀大权；但系统汇聚起来的微小扰动，落到个体身上就是不可逆的灭顶之灾。**现代制度最致命的缺陷，是用层级与技术构筑了完美的因果绝缘体，使得下注者在统计报表前感受不到任何震颤，被押上的人甚至找不到一个可以问责的面孔。**",
+   "advice": "普通人本周可直接落地的三项动作：一是核算“拒绝的真实价码”，若你正要求下属或伴侣配合某项安排，写下他们若说“不”会承受的实际损失，若代价涉及生计、孤立或严重内疚，承认这并非自愿并主动降低索求；二是借鉴佛陀与塞勒的思路，为所有不可逆决定（如裁员、绝交、重大财务担保）强制设定“双人复核与48小时冷却期”，阻断习惯化驱动的轻率；三是践行金牧师的提醒，**盘点一项你因回避冲突而选择拖延或沉默的事项，算清不作为的损耗正由谁垫付，若账单落在弱者头上，当天打破沉默。**",
+   "summary_en": "The debate converges on a sober consensus: risking another person's life can never be justified by a decision-maker's good intentions or conviction; legitimate risk allocation demands identifiable accountability, viable exit ramps, and an honest reckoning of the costs of both action and inaction. The real fault line lies in where to anchor this threshold—in uncompromising ethical absolutes or messy pragmatic realities. While Kant and Taleb mandate stringent filters—demanding either total immunity from retaliation for saying 'no' or direct personal skin in the game—Machiavelli and King argue that in systemic crises, such pristine purity is a luxury no community can afford. **The true divide hinges on whether rules should enforce absolute procedural immunity against overreach, or merely establish a pragmatic floor to limit catastrophic loss.**",
+   "insight_en": "The most pervasive gambling with human lives today has abandoned the overt theater of generals and street organizers, mutating into 'statistical wagering' diluted across bureaucratic layers and automated pipelines. When product managers tune algorithmic parameters, hospitals compress shift rotations, or corporations outsource hazardous tasks, every participant is merely optimizing a local metric without conscious malice; yet aggregate system variance lands on vulnerable individuals as ruinous catastrophe. **The fatal vulnerability of modern systems is their flawless causal insulation, which allows architects to wager away lives on spreadsheets without emotional friction, while leaving victims without a single human face to hold accountable.**",
+   "advice_en": "Three concrete actions for this week: First, calculate the 'true cost of refusal'—if you impose a routine on subordinates or family, list what they forfeit by saying no; if dissent risks livelihoods or severe guilt, treat it as coercion and lower your demands. Second, borrow from Buddha and Thaler by establishing an unskippable 48-hour cooling-off period and dual-signoff rule for any irreversible decision (firing, severe severances, major guarantees) to halt habituation. Third, adopt King’s lens: **audit one issue where you remain passive or silent to avoid friction, identify who pays for your delay, and if the burden falls on someone else, break the silence today.**"
+  }
+ ],
+ "hooks": [
+  {
+   "from": "claude",
+   "text": "**押人的人自己也被押着**：大多数把风险压给下面的人，头上也压着一份——季度目标、贷款、上级的一句话。链条上几乎每一环都既是下注者又是筹码，于是每一环都能真心说『我也没得选』。这句话在哪一环开始不再成立？",
+   "text_en": "**Whoever stakes others is himself being staked**: most people who push risk downward have a share of it pressing on them too — a quarterly target, a loan, a sentence from someone above. Nearly every link in the chain is at once a bettor and a chip, so every link can say, quite sincerely, that it had no choice. At which link does that sentence stop being true?"
+  },
+  {
+   "from": "gpt",
+   "text": "**不可回清单**：日常里究竟哪些动作是收不回的？若『可回／不可回』比『轻／重』更要紧，最不可回的那几件，是不是该配上最慢的程序？",
+   "text_en": "**A list of what cannot be taken back**: which everyday acts are genuinely irreversible? If reversible-against-irreversible matters more than light-against-heavy, should the least reversible acts carry the slowest procedures?",
+   "answer": {
+    "lead": "把手上的动作按『还能不能回头』排一遍，比按轻重排更有用。**轻重靠感觉，可回性靠事实。**",
+    "table": {
+     "head": [
+      "动作",
+      "还能不能回头",
+      "该配的程序"
+     ],
+     "rows": [
+      [
+       "当众点名批评",
+       "话收不回，关系还能修",
+       "过夜再发；只说行为，不评价人"
+      ],
+      [
+       "开除 / 断绝关系",
+       "岗位能补，信任回不来",
+       "第二个人签字；先给一次说清楚的改正期"
+      ],
+      [
+       "把人移出一个群体",
+       "位置可回，位置感回不来",
+       "先私下告诉本人，留给他自己退出的机会"
+      ],
+      [
+       "替家人做医疗决定",
+       "多数不可回",
+       "事前问清本人意愿并写下来；留下可复核的理由"
+      ],
+      [
+       "让别人辞职或换城市来配合你",
+       "几乎不可回",
+       "写下你这边的承诺期限与失败时的补偿"
+      ],
+      [
+       "公开指名一个人的过错",
+       "网上不可回",
+       "先走内部渠道；确认对方有机会回应"
+      ]
+     ]
+    },
+    "tail": "两条原则够用：**最不可回的事配最慢的程序**——过夜、第二签字、明确的改正期；以及押谁就先让谁知道，被通知的人至少还能自己走一步。"
+   },
+   "answer_en": {
+    "lead": "Sorting what is in front of you by whether it can be undone is more useful than sorting it by how big it feels. **Weight is a feeling; reversibility is a fact.**",
+    "table": {
+     "head": [
+      "Act",
+      "Can it be undone",
+      "The procedure it deserves"
+     ],
+     "rows": [
+      [
+       "Criticising someone by name in public",
+       "The words cannot; the relationship can be mended",
+       "Sleep on it before sending; describe the behaviour, not the person"
+      ],
+      [
+       "Dismissal / cutting someone off",
+       "The role can be refilled, the trust cannot",
+       "A second signature; first a stated period to put it right"
+      ],
+      [
+       "Removing someone from a group",
+       "The seat can come back, belonging does not",
+       "Tell them privately first, and leave them the chance to step out themselves"
+      ],
+      [
+       "Deciding medical care for a relative",
+       "Mostly irreversible",
+       "Ask their wishes beforehand and write them down; leave reasons that can be reviewed"
+      ],
+      [
+       "Having someone quit or move cities for you",
+       "Close to irreversible",
+       "Write down how long you are committed for, and what you owe if it fails"
+      ],
+      [
+       "Naming someone's fault publicly",
+       "Irreversible online",
+       "Use the internal channel first; make sure they can reply"
+      ]
+     ]
+    },
+    "tail": "Two principles suffice: **the least reversible act gets the slowest procedure** — a night's sleep, a second signature, a stated chance to put it right; and whoever is being staked is told first, so that they can still take a step of their own."
+   }
+  },
+  {
+   "from": "gemini",
+   "text": "**结果揭晓之后的评判**：一条路走不通，你之所以知道，恰恰因为你走过了。事后评价该按当时手上的信息，还是按后来的结果？同一把尺也该量向自己的过去——你责备当年那个选错的自己时，用的是哪一边的信息？",
+   "text_en": "**Judging once the outcome is in**: you know that road leads nowhere precisely because you walked it. Should a decision be judged on the information available at the time, or on how it turned out? The same measure applies to your own past — when you reproach the self who chose wrongly, whose information are you using?"
+  },
+  {
+   "from": "gpt",
+   "text": "**押错之后怎么赔**：整场谈的都是事前该不该押，几乎没人谈事后该赔什么。钱赔得回被耽误的三年吗？若一份风险根本无法补偿，是不是本就不该由他人承担？",
+   "text_en": "**What is owed when the bet fails**: the whole room argued about whether the stake was permissible beforehand, and almost nobody asked what is owed afterwards. Can money repay three years that were spent? And if a risk cannot be compensated at all, was it ever one that someone else should have carried?"
+  },
+  {
+   "from": "thaler",
+   "text": "**没人记得是谁设的那条规矩**：一条默认值一旦立住，定它的人会调走、退休、去世，它却继续替他管着几万人。该由谁来定期把它翻出来重新点一次头，多久一次，找不到人的那些又归谁？",
+   "text_en": "**The rule nobody remembers setting**: once a default takes hold, the person who set it gets transferred, retires and dies, while it goes on governing tens of thousands in his stead. Who is obliged to bring it back up and nod at it again, how often, and to whom do the orphaned ones fall?"
+  },
+  {
+   "from": "gemini",
+   "text": "**没有人完整理解它的时候**：一部手机、一次开庭、一支疫苗、一个模型，都已经没有一个人懂得全部。出了事，责任该落在设计者、部署者，还是最后那个点头的人身上？若一项安排只有靠把理解切碎才推得动，这件事本身说明了什么？",
+   "text_en": "**When nobody understands the whole of it**: a phone, a trial, a vaccine, a model — for none of them is there a person who understands all of it. When something fails, does responsibility fall on the designer, the deployer, or the last person who nodded it through? And if an undertaking only moves because understanding has been sliced up, what does that fact itself tell us?"
+  }
+ ]
+}

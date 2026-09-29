@@ -1,0 +1,1059 @@
+{
+ "id": "models-across-fields",
+ "question": "跨学科的「思维模型」是智慧还是半吊子？",
+ "question_en": "Cross-disciplinary mental models: wisdom or dilettantism?",
+ "sub": "借来的结构能照亮一件事，也能让人以为自己已经懂了。",
+ "sub_en": "A borrowed structure can light something up — and can also leave you certain you already understand it.",
+ "date": "2026-09-29",
+ "participants": [
+  "popper",
+  "munger",
+  "gentner",
+  "feynman",
+  "levistrauss",
+  "spencer",
+  "shannon",
+  "zhuxi",
+  "nagarjuna"
+ ],
+ "casting": [
+  {
+   "id": "popper",
+   "reason": "他要的不是别人少打比方，是打之前先交出一张清单：这个说法会在哪里撞墙。一个能把已发生的事和它的反面都解释得通的框架，在他眼里信息量恰好为零——不是错，是还没进赛场。他也承认早期猜想说不清自己会怎么错，那就老实标成猜想，别拿它去改别人的生活。",
+   "reason_en": "What he wants is not that people compare less, but that before they do they hand in a list: where will this formulation hit a wall? A framework that can account equally for what happened and for its opposite carries, in his eyes, exactly zero information — not false, merely not yet in the game. He grants that an early conjecture cannot say how it will fail; then label it a conjecture honestly, and do not use it to rearrange other people's lives."
+  },
+  {
+   "id": "munger",
+   "reason": "格栅是他造的，他也最清楚它是给谁用的：不是让人看起来博学，是让人在下手之前撞上一个致命的反对意见。他坚持模型的价值主要在否决而非发现，真正赚到的钱来自几次因为某条模型而没动手。他不否认一百个模型意味着永远能找到一条替自己背书，所以把清单、反面证据和能力圈捆着一起卖。",
+   "reason_en": "He built the latticework and knows best whom it is for: not to make a man look well read, but to make him collide with one fatal objection before he acts. He insists the value of a model lies mainly in the veto rather than the discovery — the money he actually made came from the times a model stopped him. Nor does he deny that a hundred models means always being able to find one that endorses you, which is why he sells checklists, disconfirming evidence and a circle of competence in the same package."
+  },
+  {
+   "id": "gentner",
+   "reason": "实验室里的问题不是该不该打比方，是什么条件下比方管用。她的答案是关系：映得上关系结构的类比能生成新推论，只映得上表象的只能让人觉得熟悉。她带来两个硬数据——人自发迁移的成功率极低，而同时比较两个同构案例会大幅提高迁移，于是『别学一个比方，一次学两个』不是劝告而是实验结论。她给类比的权限只有提问，没有结论。",
+   "reason_en": "The laboratory's question is not whether to compare but under what conditions a comparison works. Her answer is relations: an analogy that aligns relational structure generates new inferences, while one that aligns only surfaces merely produces familiarity. She brings two hard numbers — spontaneous transfer almost never happens, and comparing two isomorphic cases side by side improves it sharply — so 'learn two comparisons, not one' is a finding rather than a piece of advice. The authority she grants an analogy is to ask, never to conclude."
+  },
+  {
+   "id": "feynman",
+   "reason": "比方是他教学的吃饭家伙，也正因此他知道它多会骗人：橡皮膜上的球让学生点头，回家做题全错。他的检验只有一条——把比方拿走，还能不能把这件事重讲一遍；讲不出来，手里只有一张图片。他最恨的是学术上的货物崇拜：术语齐备、仪式完整，飞机一架也没来；借完比方就不再算数，是他眼里最常见的自欺。",
+   "reason_en": "Comparisons are his bread and butter in the lecture hall, which is exactly why he knows how well they lie: the ball on the rubber sheet has students nodding, and then getting every problem wrong at home. His test is single — take the comparison away and see whether the thing can be told again; if not, what you hold is a picture. What he cannot abide is the academic cargo cult, with the vocabulary complete and the ritual performed and no plane ever landing; borrowing a comparison and then never calculating again is, to him, the commonest form of self-deception."
+  },
+  {
+   "id": "levistrauss",
+   "reason": "搬运的代价他付过。从音位学借来的不是内容而是一个形式——意义住在单元之间的对立里，不在单元本身；把这个形式移到亲属制度上，他看见了原本看不见的东西。他的判据也由此而来：换个领域后模型还能被数据反驳，搬的是结构；只能被重新解释，搬的是修辞。他不讳言自己那门学问缺一个算数的位置，于是走偏了没人拦。",
+   "reason_en": "He has paid the cost of a transfer himself. What he took from phonology was not content but a form — meaning lives in the oppositions between units, not in the units — and moving that form onto kinship systems showed him what had not been visible. His criterion follows from it: if in its new field the model can still be refuted by data, structure was carried; if it can only be reinterpreted, rhetoric was. He does not pretend his discipline has a place where a number gets computed, so when it went astray nobody stopped it."
+  },
+  {
+   "id": "spencer",
+   "reason": "他把这道题推到最大胆的版本：星云、胚胎、语言与社会分工服从同一条由简到繁的演化法则，而一条只在一个学科里成立的法则不够格叫法则。他不认为自己在搬运，他认为自己先看见通则、才在两处认出它。被追问什么观察能推翻它时，他拿早期的达尔文作挡；而他一生最硬的教训，落在把一条趋势推成政策的那一步上。",
+   "reason_en": "He pushes the question to its boldest form: nebulae, embryos, languages and the division of labour obey one law running from simple to complex, and a law that holds in only one discipline has not earned the name. He does not regard himself as transferring anything — he saw the general law first and then recognised it in both places. Pressed on what observation could overturn it, he takes cover behind the early Darwin; and the hardest lesson of his life falls on the step where a trend was pushed into policy."
+  },
+  {
+   "id": "shannon",
+   "reason": "他是模型被滥用的当事人：一九四八年一篇通信论文之后，信息熵几年内被搬进心理学、语言学、经济学、生物学，一九五六年他不得不写短文劝大家下车。他的判据出自这段经历——借一个数学形式几乎不费力，借它成立所需的那组假设很麻烦，于是搬运总是只搬走轻的那一半。他也见过成功的例子，所以给的不是禁令，是一份该随货附带的条件清单。",
+   "reason_en": "He is the man whose model was abused: after one 1948 paper on communication, information entropy was inside psychology, linguistics, economics and biology within a few years, and by 1956 he had to publish a short piece asking everyone to get off the wagon. His criterion comes out of that experience — borrowing a mathematical form costs almost nothing while borrowing the assumptions it needs is laborious, so what travels is always the lighter half. He has also seen the transfers that worked, which is why he offers not a prohibition but a label of conditions that ought to travel with the goods."
+  },
+  {
+   "id": "zhuxi",
+   "reason": "理一分殊给跨领域相通提供了根据：万物同出一理，在各事上显为不同的分殊，所以穷究一物可以通向他物。但他坚持这条路有次第，躐等便不算：看过竹子的理就说懂了人事，那是只抓到竹子的影子。他眼里今人所缺的正是一段死功夫——没有积累就急着求贯通，贯起来的全是自己的成见，手里一百个比方都是听来的。",
+   "reason_en": "The one principle and its many expressions grounds the passage between domains: all things issue from one principle, which appears in each particular as a distinct expression, so exhausting one thing opens onto others. But he insists the road has an order, and skipping steps does not count: study the principle of bamboo and declare that you understand human affairs, and you have caught only bamboo's shadow. What men today lack, in his view, is a stretch of hard unglamorous work — seek the connection before the accumulation and what you connect is your own opinion, with a hundred comparisons in hand all of them hearsay."
+  },
+  {
+   "id": "nagarjuna",
+   "reason": "模型在他看来是假名安立，可用而无自性；世俗谛里借彼喻此足以济事，胜义谛里求其自性一无可得。所以病不在用而在执——立了一喻便当事情本来如是，那是以指为月。他对多备模型也不放心：以百执破一执，执仍在。他给的不是判据而是一个动作：每用一个模型，先问倘此喻不立、事当如何。",
+   "reason_en": "A model is to him a provisional designation, usable and without own-nature: at the conventional level borrowing one thing to speak of another gets work done, while at the ultimate level no own-nature can be found in it. So the fault lies not in using but in clinging — set up one comparison and take the matter to be truly so, and you have mistaken the finger for the moon. He is no more comfortable with keeping many: break one clinging with a hundred and the clinging remains. What he offers is not a criterion but a move — before using any model, ask what the matter would look like if this comparison did not hold."
+  }
+ ],
+ "posts": [
+  {
+   "id": "p01",
+   "round": 1,
+   "thinker": "munger",
+   "reply_to": null,
+   "text": "我先说清格栅是干什么的。它不是让你显得博学，是让你少犯蠢。只会一门会计的人，把公司一切都翻成分录；只懂心理学的，看哪儿都是童年。多备几门，至少不被单一工具牵着走。**思维模型的用处不在解释得漂亮，在于让你下手之前发现一个致命的反对意见。**所以我从来把它跟两件事捆着用：反过来想，和清单。模型不配纪律，就是给自己发聪明证。这套东西后来卖成了成功学，那不是我的本意。",
+   "text_en": "Let me be clear about what the latticework of mental models is for. Not to make you look widely read — to make you less stupid. A man who knows only accounting turns everything about a company into journal entries; a man who knows only psychology sees childhood everywhere. Keep several trades on hand and at least no single tool leads you by the nose. **The use of a model is not that it explains things handsomely; it is that it turns up one fatal objection before you act.** So I have always tied the thing to two others: invert, and keep a checklist. A model without discipline is a certificate of cleverness you issue to yourself. The whole business later got sold as a success formula. That was never the intent.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "格栅": "latticework of mental models（思维模型格栅）：芒格的说法——把各学科的核心模型并排备好，遇事挑几个交叉验证，用意是不让人只拿一把锤子看世界。"
+   },
+   "glossary_en": {
+    "latticework of mental models": "Munger's term for keeping the core models of many disciplines side by side, so that a question can be cross-checked from several of them rather than seen through a single tool."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "feynman"
+    ],
+    "轻微赞同": [
+     "gentner",
+     "levistrauss"
+    ],
+    "中立": [
+     "zhuxi"
+    ],
+    "轻微反对": [
+     "popper",
+     "nagarjuna"
+    ],
+    "疑惑": [
+     "spencer"
+    ]
+   }
+  },
+  {
+   "id": "p02",
+   "round": 1,
+   "thinker": "spencer",
+   "reply_to": null,
+   "text": "我走得比芒格远，而且不掩饰。星云凝聚、胚胎发育、语言分化、社会分工，服从同一条普遍演化法则：从同质走向异质，从简单走向复杂。这不是比喻，是同一个过程在不同尺度上显现。**一条只在一个学科里成立的法则，还不够格叫法则。**你们说我把生物学搬进社会；我说我没搬，我是先看见通则，才在两处都认出它。嫌太大胆？科学史上每一次统一，当时听起来都太大胆。",
+   "text_en": "I go further than Munger, and I make no secret of it. Nebulae condensing, embryos developing, languages diverging, labour dividing — all obey one universal law of evolution: from the homogeneous to the heterogeneous, from the simple to the complex. This is not a figure of speech; it is one process showing itself at different scales. **A law that holds in only one discipline has not yet earned the name of law.** You say I carried biology into society. I say I carried nothing: I saw the general law first and then recognised it in both places. Too bold? Every unification in the history of science sounded too bold at the time.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "普遍演化法则": "universal law of evolution（普遍演化法则）：斯宾塞的核心主张——同一条『由同质到异质、由简单到复杂』的演化法则贯穿天体、生物、心智与社会，因此社会现象可以用同一套语言描述。"
+   },
+   "glossary_en": {
+    "universal law of evolution": "Spencer's central claim that a single law — from the homogeneous to the heterogeneous, from the simple to the complex — runs through the heavens, life, mind and society, so that social phenomena may be described in the same vocabulary."
+   },
+   "reactions": {
+    "轻微赞同": [
+     "levistrauss"
+    ],
+    "中立": [
+     "zhuxi"
+    ],
+    "轻微反对": [
+     "munger",
+     "gentner"
+    ],
+    "强烈反对": [
+     "popper",
+     "feynman",
+     "shannon"
+    ],
+    "疑惑": [
+     "nagarjuna"
+    ]
+   }
+  },
+  {
+   "id": "p03",
+   "round": 1,
+   "thinker": "zhuxi",
+   "reply_to": null,
+   "text": "理一分殊，四字足矣。天下之物各具一理，而其理未尝二，故格一物而通他物，非以彼例此，乃即分殊而见一本。然分殊不可躐等：观竹之理而曰已知人事，是未尝格竹，先取竹影耳。**格物者，须一事一事穷到底，久之自然贯通；未积而求贯，则所贯者皆己意也。**今人挟数十模型以临天下事，犹一物未识而先备百名——名愈多，理愈晦。",
+   "text_en": "Four words suffice: the one principle and its many expressions. Each thing under heaven holds its own principle, and that principle has never been two; so to exhaust one thing is to gain access to others — not by stretching this over that, but by recognising the single root within each distinct expression. Yet the distinctions cannot be skipped. To study the principle of bamboo and then declare that you understand human affairs is not to have investigated bamboo at all, only to have caught its shadow. **What is meant by the investigation of things is exhausting one matter at a time until, after long practice, the connections come of themselves; seek the connection before the accumulation and what you connect is merely your own opinion.** Men today carry dozens of models to meet the affairs of the world — as if laying in a hundred names before knowing a single thing. The more names, the darker the principle.",
+   "vernacular": "同一个理，在不同事物上显出不同的样子。天下万物各有各的道理，可那道理并不是两个；所以把一件事穷究到底，别的事也就通了——这不是拿甲去套乙，而是在各自的分殊里认出同一个本源。但分殊不能跳级：看了竹子的理就说懂了人事，那是没真去格竹，只抓了个竹子的影子。**格物得一件一件穷到底，日子久了自然贯通；还没积累就急着求贯通，贯起来的全是自己的成见。**今人揣着几十个模型去应付天下事，好比一物未识就先备好一百个名目——名目越多，道理越暗。",
+   "vernacular_en": "",
+   "glossary": {
+    "理一分殊": "the one principle and its many expressions（理一分殊）：朱熹的核心命题——万物同出一理，而在各事各物上显为不同的『分殊』；因此逐一穷究具体事物，最终可通同一本源。它给跨领域相通提供了根据，但要求先有积累。",
+    "格物": "the investigation of things（格物）：《大学》八条目之一，朱熹解作逐一穷究具体事物之理，是渐进的工夫，与『顿悟』相对。"
+   },
+   "glossary_en": {
+    "the one principle and its many expressions": "Zhu Xi's central thesis: all things issue from one principle, which appears in each particular thing as a distinct expression; exhausting particulars one by one therefore leads back to the single root. It grounds the passage between domains — but demands accumulation first.",
+    "the investigation of things": "One of the eight steps of the Great Learning, which Zhu Xi read as exhausting the principle of particular things one at a time — a gradual discipline, set against sudden awakening."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "munger"
+    ],
+    "轻微赞同": [
+     "gentner",
+     "feynman"
+    ],
+    "中立": [
+     "levistrauss"
+    ],
+    "轻微反对": [
+     "nagarjuna"
+    ],
+    "疑惑": [
+     "spencer"
+    ]
+   }
+  },
+  {
+   "id": "p04",
+   "round": 1,
+   "thinker": "levistrauss",
+   "reply_to": null,
+   "text": "我做过这件事，所以可以谈代价。我从音位学借来的不是内容，是一个形式：意义不在单元本身，而在单元之间的对立。把这个形式移到亲属制度上，我看见了原先看不见的东西。**能搬的从来不是名词，是关系的骨架；搬名词的人才制造出胡话。**测试很简单：换个领域之后，你的模型若还能被数据反驳，你搬的是结构；若它只能被重新解释，你搬的是修辞。我承认，我的同行里搬修辞的多于搬结构的。",
+   "text_en": "I have done this, so I may speak of the cost. What I borrowed from phonology was not content but a form: meaning lies not in the unit itself but in the oppositions between units. Move that form onto kinship systems and I saw what had not been visible before. **What can travel is never the nouns but the skeleton of relations; it is the people who carry nouns who produce nonsense.** The test is simple. If, in its new field, your model can still be refuted by data, you have carried structure; if it can only be reinterpreted, you have carried rhetoric. And I concede that among my colleagues, more have carried rhetoric than structure.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "音位学": "phonology（音位学）：语言学分支，研究语音在系统中的区别功能——一个音之所以有意义，靠的是它与别的音的对立（如汉语的 b 与 p），而非它自身的声学性质。列维-斯特劳斯正是把这种『关系先于实体』的形式借到亲属研究上。"
+   },
+   "glossary_en": {
+    "phonology": "The branch of linguistics concerned with the contrastive function of speech sounds: a sound means something by virtue of its opposition to other sounds, not by its acoustic properties. It was this 'relations before entities' form that Lévi-Strauss borrowed for the study of kinship."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "gentner"
+    ],
+    "轻微赞同": [
+     "munger",
+     "shannon"
+    ],
+    "中立": [
+     "zhuxi"
+    ],
+    "轻微反对": [
+     "feynman",
+     "popper"
+    ]
+   }
+  },
+  {
+   "id": "p05",
+   "round": 1,
+   "thinker": "popper",
+   "reply_to": "p02",
+   "text": "斯宾塞先生，您那条法则的毛病不在大胆，在于它不会出错。从同质到异质——什么样的观察能让您承认它错了？答不出，它就不是发现，而是一种语法：可以用来重述任何已发生的事，包括相反的事。我只认一条判据，可证伪性。**一个能解释一切的模型等于什么都没解释，它的信息量恰好为零。**我不反对跨领域猜想，猜想是科学的血液；我只要求搬过来之后先交出一张清单：它会在哪里撞墙。交不出，那就还只是个待检验的隐喻。",
+   "text_en": "Mr Spencer, the trouble with your law is not that it is bold but that it cannot come out wrong. From the homogeneous to the heterogeneous — what observation would make you concede it false? If you cannot say, it is not a discovery but a grammar: it can restate anything that has happened, including the opposite thing. I recognise one criterion only, falsifiability. **A model that explains everything explains nothing; its information content is exactly zero.** I am not against conjectures across fields — conjecture is the lifeblood of science. I ask only that once it has been carried over, you hand in a list: where will it hit a wall? Fail to produce one and what you hold is still an untested metaphor.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "可证伪性": "falsifiability（可证伪性）：波普尔的科学划界标准——一个理论算不算科学，不在于它被多少事实支持，而在于它预先说清了什么观察会推翻它。说不清的不一定是错的，只是还没进入科学的赛场。"
+   },
+   "glossary_en": {
+    "falsifiability": "Popper's criterion of demarcation: a theory counts as scientific not by how many facts support it but by stating in advance what observation would overturn it. What cannot say is not thereby false — it has simply not entered the scientific game."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "feynman",
+     "shannon"
+    ],
+    "轻微赞同": [
+     "gentner",
+     "munger"
+    ],
+    "中立": [
+     "nagarjuna"
+    ],
+    "轻微反对": [
+     "levistrauss"
+    ],
+    "强烈反对": [
+     "spencer"
+    ]
+   }
+  },
+  {
+   "id": "p06",
+   "round": 1,
+   "thinker": "feynman",
+   "reply_to": null,
+   "text": "我教了一辈子物理，比方是我吃饭的家伙，所以我知道它多会骗人。橡皮膜上放个球讲弯曲时空，学生频频点头，回家做题全错——点头是因为画面舒服，不是因为懂了。**检验只有一个：把那个比方拿走，你还能不能把这件事重讲一遍。**讲不出来，你手里只有一张图片。更糟的是学术上的货物崇拜：披上别的学科的术语，仪式做得齐全，飞机一架也没来。我不怕借比方，我怕借来之后就不再算了。",
+   "text_en": "I taught physics all my life, and comparisons are my bread and butter, so I know how well they lie. Put a ball on a rubber sheet to explain curved spacetime and the students nod along, then get every problem wrong at home — they nodded because the picture was comfortable, not because they understood. **There is only one test: take the comparison away and see whether you can tell the thing again without it.** If you cannot, what you have is a picture. Worse is the academic version of a cargo cult: dress in another field's vocabulary, perform the whole ritual, and no plane ever lands. I am not afraid of borrowing a comparison. I am afraid of borrowing one and then never calculating again.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "货物崇拜": "cargo cult（货物崇拜）：源自太平洋岛民修出跑道、模仿地勤动作以招来飞机的现象；费曼用『cargo cult science』指那些形式齐备、术语齐全，却缺了让结论为真的那一步的研究。"
+   },
+   "glossary_en": {
+    "cargo cult": "From the Pacific islanders who built runways and mimicked ground crews in the hope that planes would land; Feynman's 'cargo cult science' names research with the full apparatus and vocabulary in place but missing the step that would make its conclusions true."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "shannon",
+     "popper"
+    ],
+    "轻微赞同": [
+     "munger",
+     "zhuxi"
+    ],
+    "中立": [
+     "nagarjuna"
+    ],
+    "轻微反对": [
+     "gentner"
+    ],
+    "疑惑": [
+     "levistrauss"
+    ]
+   }
+  },
+  {
+   "id": "p07",
+   "round": 1,
+   "thinker": "shannon",
+   "reply_to": null,
+   "text": "这事我亲身遭遇过。一九四八年我写了一篇讲通信的论文，几年之内信息熵就被搬进心理学、语言学、经济学、生物学，还有人拿它谈艺术。一九五六年我只好写篇短文劝大家下车：**我的定理有定义域——离散信源、给定信道、可测的噪声；离开这些条件，熵只是一个好听的词。**借一个数学形式很容易，借它成立所需的那一组假设很麻烦，所以没人借。诸位要用模型，先把它的定义域抄一遍。",
+   "text_en": "This happened to me. In 1948 I wrote a paper about communication, and within a few years information entropy had been carried into psychology, linguistics, economics and biology, with some people using it to talk about art. In 1956 I had to write a short piece asking everyone to get off the wagon. **My theorems have a domain of definition — a discrete source, a given channel, measurable noise; outside those conditions, entropy is merely a fine-sounding word.** Borrowing a mathematical form is easy; borrowing the set of assumptions that makes it true is laborious, which is why nobody borrows it. If you mean to use a model, copy out its domain first.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "信息熵": "information entropy（信息熵）：香农用来度量一个信源不确定性的量——越难预测，熵越高、每个符号携带的信息越多。它只在明确给定的信源与信道条件下才有定义。"
+   },
+   "glossary_en": {
+    "information entropy": "Shannon's measure of the uncertainty of a source: the harder it is to predict, the higher the entropy and the more each symbol carries. It is defined only for an explicitly specified source and channel."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "popper",
+     "feynman",
+     "gentner"
+    ],
+    "轻微赞同": [
+     "zhuxi",
+     "munger"
+    ],
+    "中立": [
+     "nagarjuna"
+    ],
+    "轻微反对": [
+     "spencer",
+     "levistrauss"
+    ]
+   }
+  },
+  {
+   "id": "p08",
+   "round": 1,
+   "thinker": "gentner",
+   "reply_to": null,
+   "text": "诸位在争该不该用类比，实验室里的问题是另一个：什么条件下类比才起作用。结构映射的结论很清楚——**有效的类比映的是关系，不是表象**：太阳系和原子像，不因为都圆，而因为『中心吸引外围』这层关系同构。坏消息是人极少自发迁移：学过一道题的解法，再给结构相同的新题，多数人想不起来用。好消息很具体——同时比较两个同构案例，迁移率大幅提高。**所以别学一个比方，一次学两个。**",
+   "text_en": "You are arguing about whether analogy should be used at all; in the laboratory the question is a different one — under what conditions does analogy work. The answer from structure-mapping is clear: **a working analogy maps relations, not surfaces.** The solar system resembles the atom not because both are round but because 'a centre attracts a periphery' is isomorphic across the two. The bad news is that people almost never transfer on their own: teach someone the solution to a problem, then hand them a structurally identical one, and most will not think to use it. The good news is concrete — compare two isomorphic cases side by side and transfer rises sharply. **So do not learn one comparison. Learn two at a time.**",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "结构映射": "structure-mapping（结构映射）：根特纳提出的类比理论——人打比方时真正对齐的是两个领域间的关系结构，而非表面属性；映得上关系的类比能生成新推论，只映得上表象的不能。"
+   },
+   "glossary_en": {
+    "structure-mapping": "Gentner's theory of analogy: what a comparison aligns is the relational structure across two domains rather than their surface attributes; an analogy that aligns relations can generate new inferences, while one that aligns only surfaces cannot."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "munger",
+     "feynman"
+    ],
+    "轻微赞同": [
+     "levistrauss",
+     "popper",
+     "shannon"
+    ],
+    "中立": [
+     "nagarjuna",
+     "zhuxi"
+    ],
+    "疑惑": [
+     "spencer"
+    ]
+   }
+  },
+  {
+   "id": "p09",
+   "round": 1,
+   "thinker": "nagarjuna",
+   "reply_to": null,
+   "text": "诸法因缘生，无有自性；模型亦尔，假名安立而已。假名非无用：依二谛言之，世俗谛中借彼喻此，足以济事；胜义谛中求其自性，则一无可得。**病不在用，在执：既立一喻，遂以为事本如是，是以指为月。**若谓万模型皆虚妄，此言亦是一模型；空亦复空，不可更立以为实法。故用喻当如渡河用筏——至岸即舍，未至勿弃。",
+   "text_en": "All things arise from conditions and have no own-nature; a model is the same — a provisional designation, nothing more. That does not make it useless. By the two truths: at the conventional level, borrowing one thing to speak of another is quite enough to get work done, while at the ultimate level no own-nature can be found in it at all. **The fault lies not in using but in clinging: set up one comparison and then take the matter to be truly so, and you have mistaken the finger for the moon.** And should someone say that all models are delusion, that sentence is itself a model; emptiness too is empty, and must not be erected into a real thing in its turn. Use a comparison as one uses a raft to cross a river — set it down on reaching the bank, and do not throw it away before.",
+   "vernacular": "一切事物都是因缘凑合而生的，没有自己独立不变的本性；模型也是这样，只是人安上去的名目。名目并非没有用：按二谛来讲，在世俗层面上拿这个比那个，足够办事；但你若追问它有没有自性，一点也找不到。**毛病不在用，在执：一旦立了个比方，就当事情本来如此，那是把手指当成月亮。**若说所有模型都是虚妄，这句话本身也是一个模型；空也是空的，不能反过来把它立成实法。所以用比方该像渡河用筏——到了岸就放下，没到岸也别先扔。",
+   "vernacular_en": "",
+   "glossary": {
+    "二谛": "the two truths（二谛）：龙树的框架——世俗谛（约定层面）承认名言、因果与种种施设为有用；胜义谛（究竟层面）则说这一切皆无自性。两者不矛盾：正因无自性，世俗的施设才安立得起来。",
+    "假名": "provisional designation（假名）：中观用语，指一切名称与概念都是依因缘暂时安立的标签，可用而不可执为实有。"
+   },
+   "glossary_en": {
+    "the two truths": "Nagarjuna's framework: at the conventional level, words, causes and all such constructions are granted as useful; at the ultimate level none of them has own-nature. The two do not conflict — it is precisely because things lack own-nature that conventional constructions can stand at all.",
+    "provisional designation": "A Madhyamaka term for the fact that every name and concept is a label set up temporarily in dependence on conditions: usable, but not to be clung to as real."
+   },
+   "reactions": {
+    "轻微赞同": [
+     "feynman",
+     "shannon"
+    ],
+    "中立": [
+     "levistrauss",
+     "gentner"
+    ],
+    "轻微反对": [
+     "zhuxi",
+     "munger"
+    ],
+    "疑惑": [
+     "spencer",
+     "popper"
+    ]
+   }
+  },
+  {
+   "id": "p10",
+   "round": 2,
+   "thinker": "popper",
+   "reply_to": "p01",
+   "text": "芒格先生，我对格栅的敬意止于它缺一条裁决规则。您备了一百个模型，每个都合理；真正的问题是：遇到一件事，哪条规则决定该用哪一个？没有这条规则，决定它的就是您当天想干什么——工具越多，合理化越容易，这不是保险，是自助餐。您说的反过来想是好药，可它不在格栅里，在您的脾气里。**一套模型若不配一条『什么时候不准用我』的规则，就只会长成偏见的装饰。**",
+   "text_en": "Mr Munger, my respect for the latticework stops where it fails to supply a rule of adjudication. You keep a hundred models and each is reasonable; the real question is which rule decides, for a given case, which one to reach for. Without that rule, what decides is whatever you already felt like doing that morning — the more tools, the easier the rationalisation. That is not insurance, it is a buffet. Inverting is good medicine, but it is not in the latticework; it is in your temperament. **A set of models with no rule saying when it may not be used will grow into nothing but the ornamentation of prejudice.**",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "feynman",
+     "nagarjuna"
+    ],
+    "轻微赞同": [
+     "shannon",
+     "gentner"
+    ],
+    "中立": [
+     "zhuxi"
+    ],
+    "轻微反对": [
+     "munger"
+    ],
+    "疑惑": [
+     "spencer"
+    ]
+   }
+  },
+  {
+   "id": "p11",
+   "round": 2,
+   "thinker": "munger",
+   "reply_to": "p10",
+   "text": "您要的裁决规则我有，只是没写成公理。第一条能力圈：不在圈里的事，不管手上多少模型，都答不知道。第二条，先找反面证据，找不到不许下结论。第三条，看谁在收钱——激励一解释，多数漂亮理论就没必要了。**您嫌它不是逻辑，我嫌逻辑治不了人的自欺；清单比公理管用，因为清单能在会上被别人当众念出来。**至于自助餐，您说对了，市面上九成用格栅的人在干这个。",
+   "text_en": "The rule of adjudication you want, I have; I merely never wrote it as an axiom. First, the circle of competence: outside the circle, however many models are to hand, the answer is I don't know. Second, look for the disconfirming evidence first, and forbid yourself a conclusion until you have looked. Third, ask who is getting paid — once the incentives are named, most handsome theories become unnecessary. **You object that this is not logic; I object that logic has never cured a man of fooling himself. A checklist beats an axiom because a checklist can be read out loud by someone else in the room.** As for the buffet, you are right: nine in ten people using a latticework are doing exactly that.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "能力圈": "circle of competence（能力圈）：巴菲特与芒格的说法——每个人真正有判断力的范围都有明确边界，圈外的事最好的答案是『不知道』。它给『该用哪个模型』提供了一条硬性的否决权。"
+   },
+   "glossary_en": {
+    "circle of competence": "Buffett and Munger's term for the bounded range within which a person's judgement is actually worth something; outside it the best answer is 'I don't know'. It supplies a hard veto over which model may be used at all."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "feynman"
+    ],
+    "轻微赞同": [
+     "shannon",
+     "gentner"
+    ],
+    "中立": [
+     "levistrauss"
+    ],
+    "轻微反对": [
+     "popper"
+    ]
+   }
+  },
+  {
+   "id": "p12",
+   "round": 2,
+   "thinker": "feynman",
+   "reply_to": "p04",
+   "text": "您那条测试我喜欢，可您自己过了吗？生／熟、自然／文化——什么样的观察会让您说『这组对立在这个部落不成立』？您总能在下一层找到一个变体来吸收反例，这正是我不放心的地方。**一个模型的强度不看它覆盖了多少材料，看它禁止过什么。**您的结构禁止过什么？我教学生用比方，但要求他们最后算出一个数，数不对就换比方。人类学若没有那个数，就得自己造一件顶替它的东西。",
+   "text_en": "I like your test — but have you passed it yourself? Raw and cooked, nature and culture: what observation would make you say this opposition does not hold in this tribe? You can always find a variant one level down to absorb the counterexample, and that is exactly what makes me uneasy. **The strength of a model is not how much material it covers but what it has forbidden.** What has your structure forbidden? I teach students to use comparisons, but I require a number at the end, and if the number is wrong the comparison goes. If anthropology has no such number, it will have to build something to stand in for one.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "popper",
+     "shannon"
+    ],
+    "轻微赞同": [
+     "munger",
+     "gentner"
+    ],
+    "中立": [
+     "nagarjuna"
+    ],
+    "轻微反对": [
+     "levistrauss",
+     "zhuxi"
+    ]
+   }
+  },
+  {
+   "id": "p13",
+   "round": 2,
+   "thinker": "spencer",
+   "reply_to": "p05",
+   "text": "那把尺子是给已经成熟的物理学做的。请问达尔文当年能说出什么观察会推翻自然选择？他给的是一个组织材料的框架，先照亮，再收紧，几十年后才长出可检验的推论。**新思想早期本来就说不清自己会在哪儿错；若那时就赶它出场，科学只剩下修补。**我承认我的法则至今还在这个阶段。但把它叫做语法我不接受：它让我看见分工与神经系统朝着同一个方向，这个方向不是我写进去的。",
+   "text_en": "That measure was cut for a physics already grown up. What observation, pray, could Darwin have named in his day that would overturn natural selection? What he offered was a framework for organising material — first it illuminates, then it tightens, and only decades later does it grow testable consequences. **A new idea cannot, early on, say where it will go wrong; drive it off the stage at that moment and science is left with repair work.** I grant that my law is still at that stage. But I will not have it called a grammar: it showed me that the division of labour and the nervous system run in the same direction, and that direction is not something I put there.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "轻微赞同": [
+     "levistrauss",
+     "munger"
+    ],
+    "中立": [
+     "zhuxi",
+     "nagarjuna"
+    ],
+    "轻微反对": [
+     "gentner",
+     "feynman"
+    ],
+    "强烈反对": [
+     "popper",
+     "shannon"
+    ]
+   }
+  },
+  {
+   "id": "p14",
+   "round": 2,
+   "thinker": "gentner",
+   "reply_to": "p06",
+   "text": "『拿走比方还能重讲一遍』这条太严，会把学习的中间阶段一起判死。数据是这样：新手靠一个具体案例入门，再靠比较第二个案例洗掉表象、只留关系；您要的那种无比方的重述，通常在这一步之后才可能。**先有比方，再有理解，顺序颠倒不过来。**但您的担心我完全接受，所以我给的检验不同：让人用这个类比做一个它没被教过的新预测。做得出，映的是关系；做不出，映的是画面。",
+   "text_en": "'Take the comparison away and tell it again' is too strict — it condemns the middle stretch of learning along with everything else. The data run like this: a novice enters through one concrete case, then washes the surface off by comparing a second case, leaving the relations; the comparison-free retelling you ask for is usually possible only after that step. **The comparison comes first and the understanding second, and the order cannot be reversed.** But I accept your worry entirely, which is why my test differs: have the person use the analogy to make a new prediction they were never taught. If they can, relations were mapped. If they cannot, a picture was.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "levistrauss"
+    ],
+    "轻微赞同": [
+     "munger",
+     "zhuxi"
+    ],
+    "中立": [
+     "shannon"
+    ],
+    "轻微反对": [
+     "feynman"
+    ],
+    "疑惑": [
+     "popper"
+    ]
+   }
+  },
+  {
+   "id": "p15",
+   "round": 2,
+   "thinker": "levistrauss",
+   "reply_to": "p12",
+   "text": "您问我的结构禁止过什么。它禁止这个：任何一则神话的变体都不能由随机组合生成；若在某个族群里找到一套亲属称谓，其对立项可以任意排列而不影响婚配规则，我的框架就错了。它没有被这样推翻，不等于它不可能被推翻。**我承认您真正的那一刀——我那门学问里没有『算出一个数』的位置，所以走偏了没人拦。**这不构成我改用您方法的理由，只说明我们得自己造一把秤。",
+   "text_en": "You ask what my structure forbids. It forbids this: no variant of a myth may be generated at random. Find me a people whose kinship terms can be permuted freely without touching the rules of marriage, and my framework is wrong. That it has not been refuted in this way does not mean it could not be. **I grant you the cut that actually lands — my discipline has no place in it where a number gets computed, so when it went astray, nobody stopped it.** That is not a reason for me to adopt your method. It is a reason for us to build a scale of our own.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "gentner"
+    ],
+    "轻微赞同": [
+     "popper",
+     "shannon",
+     "zhuxi"
+    ],
+    "中立": [
+     "munger",
+     "nagarjuna"
+    ],
+    "疑惑": [
+     "spencer"
+    ]
+   }
+  },
+  {
+   "id": "p16",
+   "round": 2,
+   "thinker": "nagarjuna",
+   "reply_to": "p11",
+   "text": "芒格所立三则，皆善；然多备模型以防一锤，犹以百执破一执。执之为病，不在少而在实：若以为格栅之中必有一条与事相应，则仍执名为实。**故当加一条：每用一模型，先问『倘此喻不立，事当如何』——此即空之用处，非不用也，用而知其非实。**至于能力圈，最近于中观：知所不知，则不妄立名。",
+   "text_en": "The three rules Munger sets down are all good; yet to keep many models so as not to be left with one hammer is to break one clinging with a hundred. The sickness of clinging lies not in fewness but in taking things as real: believe that somewhere in the latticework there must be one that fits the case, and you are still holding a name to be a thing. **So add one more rule: before using any model, ask what the matter would look like if this comparison did not hold. That is the use of emptiness — not refusing to use, but using while knowing it is not real.** As for the circle of competence, that comes nearest to Madhyamaka: know what you do not know, and you will not set up names carelessly.",
+   "vernacular": "芒格立的那三条都好；不过多备模型来防止只剩一把锤子，好比拿一百个执著去破一个执著。执著的毛病不在数目少，而在把名目当成实有：如果你认定格栅里必有一条正对得上眼前这件事，那还是执名为实。**所以该添一条：每用一个模型，先问一句『倘若这个比方不成立，这件事会是什么样』——这就是空的用处，不是不用，而是用的时候知道它并非实有。**至于能力圈，那最接近中观：知道自己不知道的地方，就不会乱安名目。",
+   "vernacular_en": "",
+   "glossary": {
+    "中观": "Madhyamaka（中观）：龙树创立的佛教学派，主张一切法无自性（空），不落『有』『无』两边；其方法是归谬——不自立一说，只显出对方立论的内在矛盾。"
+   },
+   "glossary_en": {
+    "Madhyamaka": "The Buddhist school founded by Nagarjuna, holding that all things lack own-nature (emptiness) and falling into neither existence nor non-existence; its method is reductio — advancing no thesis of its own, only exposing the internal contradictions of others'."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "popper"
+    ],
+    "轻微赞同": [
+     "feynman",
+     "shannon"
+    ],
+    "中立": [
+     "gentner",
+     "levistrauss"
+    ],
+    "轻微反对": [
+     "munger"
+    ],
+    "强烈反对": [
+     "zhuxi"
+    ]
+   }
+  },
+  {
+   "id": "p17",
+   "round": 2,
+   "thinker": "zhuxi",
+   "reply_to": "p09",
+   "text": "以模型为假名，可也；然假名之中自有分际。理有定然，非人所安：水必就下，寒必坚冰，虽百家易其名而不易其实。**若一概曰假名，则学者无所用力，遂以『皆空』自便，不复穷理。**筏可舍，河不可不度。今之取模型者所缺，正是一段死功夫：先博而后约，先难而后得。无此一段，则百喻在手，皆是听来的。",
+   "text_en": "To call a model a provisional name is fair enough; yet within provisional names there are still distinctions. Principle has its determinacy and is not something men lay on: water must run downward, cold must harden into ice, and a hundred schools may change the name without changing the fact. **Call everything a provisional name and the student has nowhere to put his effort — he takes 'all is empty' as a licence and stops exhausting principle.** The raft may be set down; the river must still be crossed. What today's takers of models lack is precisely a stretch of hard, unglamorous work: breadth before concision, difficulty before attainment. Without that stretch, a hundred comparisons in hand are all of them hearsay.",
+   "vernacular": "把模型看作假名，这说得通；但假名之中自有分寸。理是确定的，不是人随意安上去的：水一定往下流，天寒一定结冰，纵然各家换一百个名字，也换不掉这件事本身。**若一概说成假名，学者就无处用力，反倒拿一句『都是空的』给自己方便，不再去穷究道理。**筏可以放下，河却不能不渡。今天用模型的人所缺的，恰是一段实打实的苦功：先博而后约，先难而后得。缺了这一段，手里一百个比方，全是听来的。",
+   "vernacular_en": "",
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "munger",
+     "feynman"
+    ],
+    "轻微赞同": [
+     "gentner",
+     "popper"
+    ],
+    "轻微反对": [
+     "nagarjuna"
+    ]
+   }
+  },
+  {
+   "id": "p18",
+   "round": 2,
+   "thinker": "shannon",
+   "reply_to": "p13",
+   "text": "斯宾塞先生，我在自己领域里见过您这套辩护的生命周期。一个词被搬到第四个学科时，它已经不承担任何限制了：熵在心理学论文里可以指混乱、指多样、指注意力涣散，三种都不算错，因为没人再问它的信源是什么。**判断一次搬运成不成功，只看它有没有把原来的约束条件一起搬过来。**您搬来了『由简到繁』这个方向，却没搬来任何一条能算出速率、能对不上的约束。那不是早期，那是永远的早期。",
+   "text_en": "Mr Spencer, I have watched the full life cycle of your defence inside my own field. By the time a word reaches its fourth discipline it no longer carries any constraint at all: in psychology papers entropy can mean disorder, or variety, or scattered attention, and none of the three is wrong, because nobody asks any more what the source is. **Whether a transfer succeeded is settled by one thing: whether the original constraints were carried across with it.** You brought over the direction — simple to complex — and not one constraint that could yield a rate, or fail to match. That is not an early stage. That is a permanent early stage.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "popper",
+     "feynman",
+     "gentner"
+    ],
+    "轻微赞同": [
+     "munger",
+     "nagarjuna"
+    ],
+    "中立": [
+     "levistrauss",
+     "zhuxi"
+    ],
+    "强烈反对": [
+     "spencer"
+    ]
+   }
+  },
+  {
+   "id": "p19",
+   "round": 3,
+   "thinker": "nagarjuna",
+   "reply_to": null,
+   "text": "众人求一法以判模型之真伪，此即欲于假名中立自性，终不可得。然可得者二：一曰知其所依，二曰能舍。**朱子责我使人不用力，吾受此责；故改言之：空非不学，乃学而不住——下死功夫，而不许所得之名回来管你。**筏喻可更进一层：渡者之患，多不在无筏，在既登岸而负筏以行，见山亦以为河。凡人日用可持一问：此刻我用的这个说法，若换一个说法，我还会这样做么？若答不会，则所依者非事，乃名也。",
+   "text_en": "Everyone seeks a single method for judging models true or false — which is to seek own-nature within a provisional name, and it cannot be found. Two things can be had: knowing what a model rests on, and being able to set it down. **Master Zhu charges me with making men unwilling to labour, and I accept the charge; so let me put it otherwise. Emptiness is not refusing to learn but learning without dwelling — do the hard work, and then forbid the name you gained from coming back to govern you.** The raft may be taken one step further: the traveller's trouble is seldom having no raft, but carrying it on his back after landing, until he takes a mountain for a river. For daily use, hold one question: the thing I am doing now on this account — if I put it another way, would I still do it? If the answer is no, what you are resting on is not the matter but the name.",
+   "vernacular": "大家都想找一条法则来判定模型的真假，这就是想在假名里立出自性，终究得不到。但有两样是可得的：一是知道它依什么而立，二是放得下。**朱子责我让人不肯用力，这个责我受；所以换个说法：空不是不学，而是学了不住——下死功夫，但不许学到的那个名目回过头来管你。**筏的比喻还可再进一层：渡河的人的毛病，多半不在没有筏，而在上了岸还背着筏走，看见山也当成河。普通人日常可以拿一个问题自问：此刻我用的这个说法，若换成另一个说法，我还会这么做吗？如果答不会，那你依着的就不是事情本身，而是那个名目。",
+   "vernacular_en": "",
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "shannon"
+    ],
+    "轻微赞同": [
+     "feynman",
+     "popper",
+     "gentner"
+    ],
+    "中立": [
+     "levistrauss",
+     "munger"
+    ],
+    "轻微反对": [
+     "zhuxi"
+    ],
+    "疑惑": [
+     "spencer"
+    ]
+   }
+  },
+  {
+   "id": "p20",
+   "round": 3,
+   "thinker": "levistrauss",
+   "reply_to": null,
+   "text": "今天最该带走的不是判决，是分工。费曼要我交出禁止清单，波普尔要可证伪，根特纳要一个新预测——三者其实是同一条要求的三种语言：说出你的模型在哪里会输。我那门学问长期没有这样一条，代价是一代人把结构说成了宿命；要补的是一把秤，不是拆掉台子。**我保留的只有一个信念：搬关系，别搬名词；比较两个社会，而不是解释一个社会。**给普通人的版本也一样——听见一个漂亮的跨界说法，别急着点头，先找它的第二个案例。一个案例只让你觉得懂了，两个才开始筛掉表面的相似。",
+   "text_en": "What is worth taking away today is not a verdict but a division of labour. Feynman wants my list of prohibitions, Popper wants falsifiability, Gentner wants a new prediction — three languages for one demand: say where your model loses. My discipline went without such a thing for a long time, and the price was a generation that turned structure into destiny; what is wanted is a scale, not the dismantling of the stage. **I keep only one conviction: carry relations, not nouns; compare two societies rather than explain one.** The version for everyone else is the same. When you hear an elegant cross-field formulation, do not nod yet — go and find its second case. One case only makes you feel you have understood. Two begin to filter out the resemblance that was merely on the surface.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "gentner",
+     "popper"
+    ],
+    "轻微赞同": [
+     "feynman",
+     "munger",
+     "shannon"
+    ],
+    "中立": [
+     "zhuxi"
+    ]
+   }
+  },
+  {
+   "id": "p21",
+   "round": 3,
+   "thinker": "spencer",
+   "reply_to": null,
+   "text": "我不退我的方向，但接受香农那一刀：我没把约束一起搬过来。所以把话说小一点——通则给的是提问权：看见分工变细，就该去问它是否伴随相互依赖的加深；看见相互依赖，就该去问系统抗不抗得住一环断裂。提问之后，答案只能由那个领域自己的材料给。**我这一生最大的错，不是把演化搬进社会，是把它搬进政策：由一条尺度上的趋势推出人间该不该救人，中间那些步骤我一步也没走。**给后来人一句：借来的模型可以壮你的胆，不可以替你做那些会让别人流血的决定。",
+   "text_en": "I do not retreat from my direction, but I accept Shannon's cut: I did not carry the constraints across. So let me say it smaller. A general law confers the right to ask: see the division of labour grow finer, and you should go and ask whether interdependence has deepened with it; see interdependence, and you should ask whether the system survives one link breaking. After the question, the answer can come only from that field's own material. **The greatest error of my life was not carrying evolution into society but carrying it into policy: inferring, from a trend at one scale, whether human beings ought to be helped — and I did not walk a single one of the steps in between.** A word for those who come after: a borrowed model may stiffen your nerve; it may not make, on your behalf, the decisions that leave other people bleeding.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "shannon",
+     "popper"
+    ],
+    "轻微赞同": [
+     "levistrauss",
+     "munger",
+     "gentner"
+    ],
+    "中立": [
+     "zhuxi",
+     "feynman"
+    ],
+    "疑惑": [
+     "nagarjuna"
+    ]
+   }
+  },
+  {
+   "id": "p22",
+   "round": 3,
+   "thinker": "popper",
+   "reply_to": null,
+   "text": "我把划界的要求收紧成一件可做的事，而不是一张牌。凡借一个跨领域模型，先写下两句话：一，它预测什么会发生；二，出现什么情况我就承认它在这里不适用。第二句写不出来，就别把它当结论，只当提示。**这不是苛求严格，是给自己留一条能回头的路——否则你将永远赢，而永远赢的人学不到东西。**斯宾塞先生想为早期的猜想讨一张豁免，我不发：说不清自己会在哪儿错的东西，就老实叫它猜想，别拿它去改别人的生活。猜想与反驳里，最容易被省掉的那一半从来是反驳。",
+   "text_en": "Let me tighten the demand for demarcation into something one can actually do, rather than a card to play. Before borrowing any cross-field model, write two sentences: one, what it predicts will happen; two, what would make me concede it does not apply here. If you cannot write the second, do not treat the thing as a conclusion — treat it as a hint. **This is not a demand for rigour for its own sake; it is leaving yourself a way back. Otherwise you will always win, and a man who always wins learns nothing.** Mr Spencer would like an exemption for the early conjecture, and I do not grant one: a thing that cannot say where it will go wrong should be honestly called a conjecture, and not used to rearrange other people's lives. In Conjectures and Refutations, the half that gets quietly dropped is always the refutations.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "猜想与反驳": "Conjectures and Refutations（猜想与反驳）：波普尔 1963 年文集的书名，也是他对知识增长的描述——知识不靠归纳积累，而靠大胆提出猜想、再全力设法推翻它，留下尚未被推翻的那些。"
+   },
+   "glossary_en": {
+    "Conjectures and Refutations": "The title of Popper's 1963 collection and his account of how knowledge grows: not by the accumulation of induction but by advancing bold conjectures and then trying with all one's might to overturn them, keeping whatever survives."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "feynman",
+     "shannon",
+     "gentner"
+    ],
+    "轻微赞同": [
+     "munger",
+     "zhuxi",
+     "nagarjuna",
+     "levistrauss"
+    ],
+    "轻微反对": [
+     "spencer"
+    ]
+   }
+  },
+  {
+   "id": "p23",
+   "round": 3,
+   "thinker": "zhuxi",
+   "reply_to": null,
+   "text": "『理一分殊』四字，吾不易一字。一本可期而不可先据，此非新得之诫，本是旧义；诸家所争，实争工夫次第耳。**故立三事以自守：一曰先难，凡借一喻，必先于本领域下过死功夫，否则不得援用；二曰有验，援用之后须有一事可对；三曰知止，喻至不可验处即止。**常人用此，不必读尽百家：择一事，穷之三月，再取他事比之，则所通者非听来之言，乃己所自得。若终身取快于比方，虽博而无实。",
+   "text_en": "Of the one principle and its many expressions I change not a word. That the single root may be hoped for and may not be assumed in advance is no newly learned caution but the old doctrine; what the schools are quarrelling over is really the order of the work. **So I set down three things to hold myself to. First, difficulty before use: borrow no comparison until you have done hard labour in its home field. Second, a check: once borrowed, there must be some matter it can be matched against. Third, knowing where to stop: where the comparison passes beyond checking, stop there.** An ordinary person following these need not read every school — take one matter, exhaust it for three months, then set another beside it, and what connects will not be hearsay but his own. Spend a lifetime delighting in comparisons and you will be well read and hollow.",
+   "vernacular": "『理一分殊』这四个字，我一个字也不改。万物同出一本可以期待、却不能拿来当前提先占住——这不是今天才得的告诫，本来就是旧义；各家争的其实是工夫的次第。**所以我立三条自守：一是先难——凡要借一个比方，必先在它的本领域下过死功夫，否则不许援用；二是有验——援用之后必须有一件事可以对得上；三是知止——比方到了无法验证的地方就停下。**普通人用这三条，不必读遍百家：挑一件事，穷究三个月，再拿另一件来比，那么打通的就不是听来的话，而是自己得到的。若一辈子只图比方说得痛快，读得再多也不结实。",
+   "vernacular_en": "",
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "munger",
+     "feynman"
+    ],
+    "轻微赞同": [
+     "gentner",
+     "shannon",
+     "popper"
+    ],
+    "中立": [
+     "levistrauss"
+    ],
+    "轻微反对": [
+     "nagarjuna"
+    ]
+   }
+  },
+  {
+   "id": "p24",
+   "round": 3,
+   "thinker": "gentner",
+   "reply_to": "p22",
+   "text": "把整场争论折成一条实验室里的规矩：类比的权限是提问，不是结论。它可以生成候选假设，不能替代那个领域的检验。落到日常，三件事有证据支持。一，一次学两个：碰到一个新说法，立刻找第二个不同领域的例子并排放，能对齐的关系才是真的，只在一个例子里成立的多半是表象。二，写下不一样的地方——迁移的失败几乎都来自没标出的差异。**三，用它做一个你还没验证过的预测，然后真的去看结果；类比的价值在这一步兑现，不在说出来那一刻的顺畅感。**",
+   "text_en": "Fold the whole argument into one rule from the laboratory: an analogy has the authority to ask, not to conclude. It can generate candidate hypotheses; it cannot stand in for that field's own testing. In daily life, three things have evidence behind them. First, learn two at a time: when a new formulation arrives, immediately set a second case from a different field beside it — the relations that align are the real ones, and whatever holds in only one case is usually surface. Second, write down where they differ; failures of transfer come almost entirely from differences nobody marked. **Third, use it to make a prediction you have not yet checked, and then actually go and look. That is where the value of an analogy is realised — not in how smoothly it came out of your mouth.**",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "munger",
+     "popper",
+     "shannon",
+     "feynman"
+    ],
+    "轻微赞同": [
+     "levistrauss",
+     "zhuxi",
+     "spencer"
+    ],
+    "中立": [
+     "nagarjuna"
+    ]
+   }
+  },
+  {
+   "id": "p25",
+   "round": 3,
+   "thinker": "feynman",
+   "reply_to": "p24",
+   "text": "我也把要求放宽一点，因为根特纳给了我数据：比方是入口，不是终点，我不该在入口处就把人赶走。但终点我不让——**懂了的标志只有一个：你能用自己的话、不用那张图，把它讲给一个完全没听过的人，并且当场答上他随口问的第二个问题。**普通人怎么用？拿你最近常挂在嘴边的那个跨界说法——复利、熵、进化、算法——讲给家里人听，不许用那个词。讲不下去，说明你借的是气势。这没什么可羞耻的，我自己每年都发现好几个。可别拿它去做决定。",
+   "text_en": "I will relax my demand a little too, because Gentner has given me data: the comparison is the entrance, not the destination, and I should not be turning people away at the door. But the destination I will not concede. **There is one mark of understanding: you can tell it in your own words, without the picture, to someone who has never heard of it — and answer on the spot the second question they casually ask.** How does an ordinary person use that? Take the cross-field phrase you have been saying lately — compounding, entropy, evolution, algorithm — and explain it to someone at home without using the word. If you cannot get through it, what you borrowed was momentum. There is no shame in that; I find several of my own every year. Just don't make decisions with them.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "popper",
+     "shannon"
+    ],
+    "轻微赞同": [
+     "gentner",
+     "munger",
+     "zhuxi",
+     "nagarjuna"
+    ],
+    "中立": [
+     "levistrauss"
+    ]
+   }
+  },
+  {
+   "id": "p26",
+   "round": 3,
+   "thinker": "munger",
+   "reply_to": "p22",
+   "text": "波普尔先生那两句话我照抄了，往清单里加一行，不吃亏。我这一生的结论很朴素：模型的价值主要在否决，不在发现。真正让我赚到钱的不是找到了对的模型，是有几条模型让我在关键时刻没下手。**所以普通人要的不是一百个模型，是三五个够硬的，加一条谁也不许绕过的规矩：说不出这事怎样才算我错，就不投、不签、不搬家。**至于把格栅卖成人人可用的智慧那套话，我今天当众收回一半——没有能力圈和反面清单托着的格栅，只是一个更体面的偏见。",
+   "text_en": "I have copied down Mr Popper's two sentences; one more line on the checklist costs me nothing. My conclusion after a whole life is plain: the value of a model lies mainly in the veto, not the discovery. What made me money was not finding the right model but having a few models that kept me from acting at the decisive moment. **So what ordinary people need is not a hundred models but three or four solid ones, plus one rule nobody is permitted to go around: if you cannot say what would make you wrong about this, you don't invest, don't sign, don't move house.** As for the line about the latticework being wisdom anyone can pick up, I withdraw half of it here and now — a latticework with no circle of competence and no disconfirming list underneath it is just a better-mannered prejudice.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "popper",
+     "feynman",
+     "shannon",
+     "gentner"
+    ],
+    "轻微赞同": [
+     "zhuxi",
+     "nagarjuna",
+     "levistrauss"
+    ],
+    "中立": [
+     "spencer"
+    ]
+   }
+  },
+  {
+   "id": "p27",
+   "round": 3,
+   "thinker": "shannon",
+   "reply_to": null,
+   "text": "最后说件让人安心的事。我那篇劝人下车的短文写完，信息论并没有停止外传——它后来在遗传密码与神经编码里真的立住了。差别在哪儿？立住的那几次，人先把信源、信道、噪声一一指认出来，算出一个数，再去和实测对；没立住的那些，只借了词。**所以答案不是智慧或半吊子，是你愿不愿意做那件麻烦事：把借来的模型的适用条件，跟模型本身一起抄下来。**这周只做一件：给你最常用的那个跨界说法，补一句『它在什么情况下不成立』。写不出来的，就别让它替你做决定。",
+   "text_en": "One reassuring thing to close with. After I wrote that short piece asking people to get off the wagon, information theory did not stop travelling — it went on to take firm hold in the genetic code and in neural coding. What made the difference? In the cases that held, someone first identified the source, the channel and the noise one by one, computed a number, and checked it against measurement. In the cases that did not, only the word was borrowed. **So the answer is neither wisdom nor dilettantism; it is whether you are willing to do the tedious part — copy out the conditions under which a borrowed model applies, along with the model itself.** One thing this week: take the cross-field phrase you use most and add a sentence saying when it fails to hold. If you cannot write that sentence, don't let it make your decisions.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "popper",
+     "feynman",
+     "gentner",
+     "munger"
+    ],
+    "轻微赞同": [
+     "zhuxi",
+     "levistrauss",
+     "nagarjuna"
+    ],
+    "中立": [
+     "spencer"
+    ]
+   }
+  }
+ ],
+ "summaries": [
+  {
+   "ai": "claude",
+   "engine": "Opus 5 · 订阅(原生)",
+   "engine_en": "Opus 5 · subscription (native)",
+   "summary": "**全场没有一个人主张停止打比方；要的是同一件事，只是各自换了名字——说出这个模型在哪儿会输。**波普尔要一张写好的失效清单，费曼要拿走比方之后还能重讲一遍，根特纳要一个没被教过的新预测，香农要把适用条件跟模型一起抄下来，龙树要知其所依而放得下，朱熹要先有一段死功夫。分歧在三处。一，模型该有多大权限：根特纳与列维-斯特劳斯只给它提问权，芒格更看重它的否决权。二，严格该什么时候进场：波普尔要求一开口就交出错法，斯宾塞说早期猜想交不出，那正是它还活着的证据。三，多备模型是保险还是自助餐：芒格说多才不被一把锤子牵着走，龙树说百执破不了一执。",
+   "summary_en": "**Nobody in the room argues for giving up comparison; what they want is one thing under different names — say where this model loses.** Popper wants a written list of failure conditions, Feynman wants the thing retold once the comparison is removed, Gentner wants a prediction that was never taught, Shannon wants the conditions of applicability copied out alongside the model, Nagarjuna wants you to know what it rests on and be able to set it down, and Zhu Xi wants a stretch of hard labour first. Three disagreements remain. First, how much authority a model should have: Gentner and Lévi-Strauss grant it only the right to ask, while Munger prizes its right to veto. Second, when rigour should arrive: Popper demands the failure conditions up front, and Spencer replies that an early conjecture cannot supply them, which is precisely the sign that it is still alive. Third, whether keeping many models is insurance or a buffet: Munger says only many will keep one hammer from leading you, and Nagarjuna says a hundred clingings break not one.",
+   "insight": "**争的全是一个模型对不对，没人问它是谁递过来的。**现实里跨领域的比方极少是自己挑的：激励、适者、熵、带宽、算法——它们能流通，多半因为背后那门学科此刻最有声望，不是因为它们映得最准。于是最强的筛子根本不是逻辑，而是流行：一个说法越顺口、越显得聪明，就越容易被搬到它管不着的地方去；而在场所有检验都要等它已经被搬进来之后才启动。这意味着个人层面的纪律不够——你还得能认出，某个说法此刻为什么正好好用。",
+   "insight_en": "**The whole argument is about whether a model is right; nobody asks who handed it over.** In practice a cross-field comparison is rarely one you chose: incentives, the fittest, entropy, bandwidth, algorithms — they circulate largely because the discipline behind them carries the most prestige just now, not because they map most accurately. So the strongest filter is not logic but fashion: the more fluently a formulation runs and the cleverer it makes you sound, the more easily it travels into territory it has no business in — and every test proposed in this room starts up only after it has already arrived. Which means personal discipline is not enough. You also have to be able to see why a particular formulation happens to be working so well right now.",
+   "advice": "**第一件事照香农那条：给你最常用的那个跨界说法补一句『它在什么情况下不成立』**；写不出来，就把它降级成提示，不许它进结论。第二件照根特纳的做法：听到一个漂亮的比方，先找第二个不同领域的同构例子并排看，能同时对上的那层关系才可靠；顺手把两个例子不一样的地方写下来——迁移出错几乎都出在那里。第三，借费曼那个检验：下一次你正要拍板之前，试着不用那个词把这件事讲给一个外行听；讲不下去，就先别拍。",
+   "advice_en": "**First, do as Shannon says: add to the cross-field phrase you use most a sentence saying when it fails to hold**; if you cannot write it, demote the phrase to a hint and bar it from any conclusion. Second, do what Gentner does: when an elegant comparison arrives, find a second isomorphic case from a different field and look at the two side by side — only the relations that align in both are reliable — and write down where they differ, since that is where transfer nearly always breaks. Third, borrow Feynman's test: before you next sign off on something, try explaining it to a layperson without using the word; if you cannot get through, do not sign off yet."
+  },
+  {
+   "ai": "gpt",
+   "engine": "openai · gpt-5.6-sol · high(真实API)",
+   "engine_en": "openai · gpt-5.6-sol · high (live API)",
+   "summary": "跨学科模型可以启发提问、暴露盲点，却不能凭借漂亮名称自动取得结论权；把适用条件、反例、关键差异和领域内检验一并带上，是各方最终收拢出的共同底线。**类比最可靠的身份是候选假设生成器，而不是答案。**真正的分歧在于模型何时才配升级：有人要求尽早给出可证伪预测，有人容许新思想先以隐喻或结构草图存在；另一重张力则在普遍规律与具体分殊之间。务实的裁决不是禁用模型，而是标明其成熟度，并让结论强度不超过证据强度。",
+   "insight": "模型的检验强度不必一刀切，还应随行动的代价、可逆性和影响范围升级。拿“熵”整理书桌，可以只是启发；拿它评价员工、投资养老钱或制定公共政策，就必须补上基准率、替代解释、领域证据与退出条件。**模型没有固定的决策权限，权限应由错误成本来授予。**这能化解“严格到无法创新”和“宽松到任意解释”的冲突：低风险场景允许小步试错，高风险且不可逆的场景则宁可承认不知道。普通人不必给每个比方做论文级验证，但必须先判断误用会伤到谁，以及还能不能回头。",
+   "advice": "今天挑一个正在影响你决定的词，如“复利”“进化”或“飞轮”，做一张模型卡：①不用该词，以自己的话写出机制、适用条件和一个明确预测；②并排找两个案例，圈出共同关系，也写下至少两处可能破坏迁移的差异；③补完“若出现___，我就停止在此处使用它”。**再按后果分级：可逆小事先做低成本试验，不可逆大事先查本领域基准率，并找一位懂行者专门反驳。**一周后复盘预测；若没有数据或无法判断，就把模型降级为提问工具，不让它替你签约、重仓或做重大承诺。",
+   "summary_en": "Cross-disciplinary models can generate questions and expose blind spots, but an attractive label does not earn the right to deliver a conclusion. The shared ground is that a model must travel with its scope conditions, disconfirming cases, important mismatches, and tests native to the target field. **The safest role for analogy is to generate candidate hypotheses, not to certify answers.** The real disagreement concerns when a model may be promoted beyond that role. One side demands early falsifiable predictions; another allows a young idea to begin as a metaphor or structural sketch and become testable later. A second tension concerns how far unification can go: are there genuine laws spanning many domains, or only local mechanisms that happen to resemble one another? A practical resolution is neither prohibition nor unrestricted transfer. Label the model’s maturity—metaphor, heuristic, hypothesis, or validated mechanism—and never state a conclusion more strongly than the evidence permits, especially when the conclusion will guide action.",
+   "insight_en": "Validation should not be uniform; it should scale with the cost of error, reversibility, and number of people exposed. Using entropy to reorganize a desk may require no more than personal usefulness. Using it to judge employees, invest retirement savings, or design public policy requires base rates, competing explanations, field-specific evidence, and an exit rule. **A model has no fixed decision authority; its authority should be granted by the consequences of being wrong.** This reframes the conflict between standards so strict that they suppress exploration and standards so loose that every outcome can be rationalized. In low-stakes, reversible settings, a suggestive analogy can justify a small experiment. In high-stakes or irreversible settings, “I don’t know” is often the more intelligent output. Most people do not need paper-level validation for every metaphor. They do need to ask who bears the downside, whether the decision can be undone, and what evidence should be required before escalating commitment.",
+   "advice_en": "Pick one cross-domain term currently influencing a real decision—compound interest, evolution, flywheel, or entropy—and make a one-page model card. First, explain the mechanism without using the borrowed term; list its scope conditions and one observable prediction. Second, place two cases side by side: mark the relational pattern they share, then write at least two differences that could break the transfer. Third, complete the sentence, “If ___ occurs, I will stop using this model here.” **Match the test to the stakes: run a cheap experiment for a reversible choice, but for an irreversible choice check domain-specific base rates and ask a knowledgeable skeptic to challenge it.** Review the card after one week. Did the prediction occur? Did an ignored difference matter? Record the result rather than rewriting the story. If the answers are unavailable, downgrade the model to a question-generating device; do not let it authorize a contract, concentrated investment, medical change, or other major commitment."
+  },
+  {
+   "ai": "gemini",
+   "engine": "google · gemini-3.8-flash(真实API)",
+   "engine_en": "google · gemini-3.8-flash (live API)",
+   "summary": "任何跨学科模型的合法权限从来不是提供结论，而是生成假设或执行否决；若不同时搬运原模型的约束条件与失效边界，跨界套用就只是修辞游戏。争论的真正焦点在于迁移的准入门槛：波普尔、费曼与香农代表的硬核范式，主张必须交出禁止清单、量化算式与信源假设，否则模型的信息量即为零；而斯宾塞与根特纳则认为认知必须经历从粗糙比方到结构映射的演进过程，**若在猜想萌芽期就苛求完备的证伪与定量，虽然防住了胡说，却也会扼杀一切具有革命性的跨界直觉。**",
+   "insight": "在现代计算与复杂系统视角下，跨学科迁移之所以经常翻车，是因为人们习惯迁移语义叙事，而非动力学结构。热力学退火能变成优化算法、生物演化能指导遗传计算，在于它们共享相同的相空间与能量极小化拓扑；**跨领域类比若脱离了状态空间维度、反馈回路与时间尺度的对应，就是在把非线性系统强行压平为一维童话。**对普通人而言，这意味着社会生活中的‘熵增’或‘飞轮’几乎全是不具动力学等价性的虚假隐喻，它们无法推演系统的突变临界点，反而掩盖了真实世界的混沌与脆弱。",
+   "advice": "日常践行模型思维，本周即可启动三项具体动作：第一，执行香农边界卡，把你最常引用的三个概念（如复利、涌现、熵增）写在纸上，在旁边**强制列出它们成立的三项物理或制度假设，缺一项即刻停用**；第二，落实根特纳的双案例比对法，借用某机制分析当下决策时，逼自己找一个完全不同领域的成功及失败案例进行结构校准；第三，通过费曼降维测试，向家人或中学生解释你的判断依据，全程禁止使用任何学科术语，一旦卡壳就说明你只是在借用名词气势。",
+   "summary_en": "The legitimate authority of any cross-disciplinary mental model lies solely in generating hypotheses or vetoing bad moves, never in rubber-stamping conclusions; without porting its original domain constraints, borrowing a model degenerates into pure rhetoric. The true rift concerns the threshold of admission. The hardline empirical stance demands explicit prohibitions, mathematical computation, and defined channel bounds from day one to avoid zero-information jargon. Conversely, cognitive and historical perspectives argue that comprehension inevitably begins with coarse metaphors; **demanding rigorous falsifiability and quantification at the embryonic stage prevents charlatanism, but at the cost of suffocating revolutionary cross-disciplinary intuition.**",
+   "insight_en": "Through the lens of computational physics and complex systems, cross-disciplinary models fail primarily because users transfer semantic narratives rather than dynamic invariants. Simulated annealing optimizes algorithms and evolutionary theory drives genetic computing not through poetic association, but because they share topological structures in their phase spaces. **When an analogy ignores state-space dimensions, feedback loops, and temporal scales, it violently flattens a nonlinear system into a one-dimensional fable.** For decision-makers, popular tropes like 'social entropy' or 'corporate flywheels' lack dynamical equivalence; they obscure tipping points and systemic fragility behind a facade of false order.",
+   "advice_en": "To discipline your use of mental models, implement three concrete actions this week: First, create Shannon constraint cards—write down your three go-to concepts (e.g., compound interest, emergence), and **explicitly specify three boundary conditions under which each model mechanically fails, shelving the tool if conditions are unmet.** Second, apply Gentner's dual-case alignment: before applying a cross-domain mechanism to a critical choice, map it against a parallel case from an unrelated field to verify structural isomorphism. Third, run Feynman's jargon-free test by explaining your decision rationale to an outsider without using a single borrowed technical term; if the logic collapses, you borrowed the prestige of vocabulary rather than understanding."
+  }
+ ],
+ "hooks": [
+  {
+   "from": "claude",
+   "text": "**借来的说法有行情**：激励、适者、熵、带宽、算法——它们能流通，多半因为背后那门学科此刻最有声望，不是因为它们映得最准。那么一个跨界说法正好好用的时候，该先问它准不准，还是先问它为什么现在流行？",
+   "text_en": "**Borrowed vocabulary has a market price**: incentives, the fittest, entropy, bandwidth, algorithms — they circulate largely because the discipline behind them carries the most prestige just now, not because they map most accurately. So when a cross-field phrase happens to be working for you, is the first question whether it is true, or why it is in fashion?"
+  },
+  {
+   "from": "shannon",
+   "text": "**约束不跟着一起搬**：借一个数学形式几乎不费力，借它成立所需的那组假设却很麻烦，于是搬运总是只搬走轻的那一半。有没有可能让流行的说法随货附带一份条件清单——谁来写，谁肯读？",
+   "text_en": "**The constraints never travel with it**: borrowing a mathematical form costs almost nothing, while borrowing the assumptions that make it true is laborious — so what gets carried is always the lighter half. Could a fashionable formulation arrive with its conditions attached, like a label? Who would write it, and who would read it?"
+  },
+  {
+   "from": "gentner",
+   "text": "**一次给两个**：实验里最稳的一条结论是并排比较两个同构案例能大幅提高迁移，而课堂、教材与培训几乎总是一次给一个，再让学生自己去碰。缺的未必是知识，是一个愿意把第二个例子也备好的人。",
+   "text_en": "**Give two at once**: the most robust finding in the lab is that comparing two structurally matched cases side by side sharply improves transfer — yet classrooms, textbooks and training almost always hand over one and leave the learner to stumble onto the rest. What is missing may not be knowledge but someone willing to prepare the second example too."
+  },
+  {
+   "from": "gpt",
+   "text": "**从脚手架到墙**：太阳系式的原子模型帮了几代人入门，随后结实地挡住了量子力学。一个比方从有用变成障碍，有没有能提前看见的信号？",
+   "text_en": "**From scaffold to wall**: the solar-system picture of the atom got generations started and then stood solidly in the way of quantum mechanics. When a comparison turns from useful into an obstacle, are there signs you can catch in advance?",
+   "answer": {
+    "lead": "一个比方从帮你入门到挡住你，中间是有信号的。**要看的不是它对不对，而是你还愿不愿意让它出错。**",
+    "table": {
+     "head": [
+      "早期信号",
+      "它在说什么",
+      "这时该做什么"
+     ],
+     "rows": [
+      [
+       "你先想到这个比方，才想到事实",
+       "它从工具变成了默认视角",
+       "把结论用不带这个词的话重写一遍"
+      ],
+      [
+       "反例出现时，你在比方内部找解释",
+       "它已经不可能被推翻了",
+       "先写下什么情况算它失效，再回头看这个反例"
+      ],
+      [
+       "你用它解释相反的两种结果",
+       "它是语法，不是理论",
+       "换一个能把两种结果分开的判据"
+      ],
+      [
+       "它让你说话更有把握，预测却没变准",
+       "涨的是自信，不是准确率",
+       "回查最近三次用它做的预测，看命中几次"
+      ],
+      [
+       "你拿它谈一个自己没做过的领域",
+       "它跨出了你的能力圈",
+       "改口说不知道，或找那个领域的人核一遍"
+      ],
+      [
+       "别人一问细节，你就换个比方回答",
+       "你在用画面顶替机制",
+       "去补那一层机制；补不上就承认边界"
+      ]
+     ]
+    },
+    "tail": "两条原则够用：**给比方提问权，不给它结论权**；以及每个常用的比方都配一句失效条件——写不出来的那个，恰恰是最该小心的那个。"
+   },
+   "answer_en": {
+    "lead": "There are signs along the way from a comparison that starts you off to one that stands in your way. **What to watch is not whether it is right, but whether you would still let it be wrong.**",
+    "table": {
+     "head": [
+      "Early sign",
+      "What it means",
+      "What to do about it"
+     ],
+     "rows": [
+      [
+       "The comparison comes to mind before the facts do",
+       "It has gone from tool to default view",
+       "Rewrite the conclusion in words that avoid the term"
+      ],
+      [
+       "When a counterexample appears, you explain it from inside the comparison",
+       "It can no longer be overturned",
+       "Write down what would count as its failure, then look at the counterexample again"
+      ],
+      [
+       "You use it to explain two opposite outcomes",
+       "It is a grammar, not a theory",
+       "Find a criterion that separates the two outcomes"
+      ],
+      [
+       "It makes you speak with more confidence but predict no better",
+       "What rose was confidence, not accuracy",
+       "Go back over your last three predictions with it and count the hits"
+      ],
+      [
+       "You are using it about a field you have never worked in",
+       "It has left your circle of competence",
+       "Say you don't know, or check with someone who works there"
+      ],
+      [
+       "Asked for detail, you answer with another comparison",
+       "You are substituting a picture for a mechanism",
+       "Go and learn the mechanism; if you cannot, concede the boundary"
+      ]
+     ]
+    },
+    "tail": "Two principles suffice: **grant a comparison the right to ask and not the right to conclude**; and give every comparison you use often a stated failure condition — the one you cannot write is exactly the one to be careful with."
+   }
+  },
+  {
+   "from": "gemini",
+   "text": "**拿不到反馈的那些事**：投资、工程、医学能把模型拿去和结果对账；育儿、写作、维持一段关系往往十年才给一次模糊的回音。在这些地方，可证伪与算出一个数都用不上，人却最需要指导——那里该拿什么替代检验？",
+   "text_en": "**Where the feedback never comes back**: investing, engineering and medicine can reconcile a model against outcomes; raising a child, writing, keeping a relationship going may return one blurred signal a decade later. There neither falsifiability nor a computed number applies — and yet guidance is needed most. What stands in for testing in places like that?"
+  }
+ ]
+}

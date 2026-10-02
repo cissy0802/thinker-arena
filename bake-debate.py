@@ -224,6 +224,11 @@ def bake(seg_id, c, text):
         print(f"  {seg_id:<12} {tag:<26} {len(text)}字")
     manifest[seg_id] = {"audio": f"audio/debate/{slug}/{h}.mp3", "voice": c["voice"]}
 
+# The topic (question + sub) is the first thing on the page, so it is the first
+# segment: read by the site's narrator voice, not by any participant.
+bake("topic", cfg("_narrator"), "。".join(
+    t.strip().rstrip("。") for t in (d.get("question", ""), d.get("sub", "")) if t and t.strip()))
+
 for p in d["posts"]:
     bake(p["id"], voice_of(p["thinker"]), p["text"])
 
@@ -262,4 +267,4 @@ json.dump(manifest, open(outdir/"manifest.json","w"), ensure_ascii=False, indent
 # to prune, unlike the ones baked by bake-tts.py.
 used = {v["audio"].split("/")[-1] for v in manifest.values()}
 store.prune(f"debate/{slug}", used)
-print(f"✅ {len(manifest)} 段（含 3 AI 收尾）→ manifest.json")
+print(f"✅ {len(manifest)} 段（含辩题、3 AI 收尾）→ manifest.json")

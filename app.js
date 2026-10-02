@@ -255,8 +255,8 @@
   }
   function attachAudioControls() {
     if (!window.__AUDIO) return;
-    // Playback order = posts, then AI closers, then closing hooks — in DOM order.
-    __p.order = Array.prototype.map.call(document.querySelectorAll(".post, .sum-card, .hook"), function (el) { return el.id; })
+    // Playback order = topic, posts, then AI closers, then closing hooks — in DOM order.
+    __p.order = Array.prototype.map.call(document.querySelectorAll(".topic, .post, .sum-card, .hook"), function (el) { return el.id; })
       .filter(function (id) { return window.__AUDIO[id]; });
     if (!__p.order.length) return;
     // click a post's speaker button → jump to that post
@@ -485,7 +485,9 @@
     (debate.casting || []).forEach(function (c) { window.__REASONS[c.id] = pick(c, "reason"); });
     var maxR = debate.rounds || debate.posts.reduce(function (m, p) { return Math.max(m, p.round); }, 1);
 
-    var html = '<div class="topic"><div class="label"><i class="ti ti-pin" style="font-size:14px"></i>' + T("topic") + "</div>" +
+    var tbtn = (window.__AUDIO && window.__AUDIO.topic)
+      ? '<button class="tts-play" data-post="topic" title="朗读辩题" aria-label="朗读"><i class="ti ti-volume"></i></button>' : "";
+    var html = '<div class="topic" id="topic"><div class="label"><i class="ti ti-pin" style="font-size:14px"></i>' + T("topic") + tbtn + "</div>" +
       '<div class="q">' + esc(pick(debate, "question")) + "</div>" +
       (pick(debate, "sub") ? '<div class="qsub">' + esc(pick(debate, "sub")) + "</div>" : "") + "</div>";
     html += renderLineup(debate.casting);

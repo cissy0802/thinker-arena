@@ -74,7 +74,12 @@ jobs:
               mf = dd + "/manifest.json"
               if not os.path.exists(mf):
                   todo.append(slug); continue
-              have = {v["audio"].rsplit("/", 1)[-1] for v in json.load(open(mf)).values()}
+              man = json.load(open(mf))
+              have = {v["audio"].rsplit("/", 1)[-1] for v in man.values()}
+              # Debates baked before the topic segment existed have no "topic"
+              # entry; that alone is enough to re-run them (only it gets synthesised).
+              if d.get("question") and "topic" not in man:
+                  todo.append(slug); continue
               if any(f"{h(dv[p['thinker']], strip(p['text']))}.mp3" not in have for p in d["posts"]):
                   todo.append(slug)
           print("to bake:", todo or "(none)")

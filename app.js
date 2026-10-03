@@ -279,30 +279,96 @@
         position: Math.max(0, Math.min(au.duration, au.currentTime || 0)) });
     } catch (err) {}
   }
+  // Who speaks an item: a post's thinker, an AI closer's AI, a hook's asker.
+  function speakerOf(pid) {
+    var post = window.__POSTS && window.__POSTS[pid];
+    if (post) return post.thinker;
+    if (pid.indexOf("ai-") === 0) return pid.slice(3);
+    var m = /^hook-(\d+)$/.exec(pid);
+    if (m && window.__HOOKS && window.__HOOKS[+m[1]]) return window.__HOOKS[+m[1]].from;
+    return null;
+  }
+  // One item = up to three clips on the same element: the speaker's name
+  // (narrator), what they say, then the 白话 rendering of a classical post.
+  function partsOf(pid) {
+    var A = window.__AUDIO || {}, out = [], sp = speakerOf(pid);
+    if (sp && A["name-" + sp]) out.push(A["name-" + sp].audio);
+    if (A[pid]) out.push(A[pid].audio);
+    if (A[pid + "-plain"]) out.push(A[pid + "-plain"].audio);
+    return out;
+  }
   function play(pid) {
     var a = window.__AUDIO && window.__AUDIO[pid]; if (!a) return;
     __p.idx = __p.order.indexOf(pid);
+    __p.parts = partsOf(pid);
     setActive(pid);
+    if (!__p.nextP) __p.nextP = nextDebate();   // resolve while the screen is on
+    playPart(0);
+    prefetchNext(2);
+    msUpdate(pid);
+    updBar();
+  }
+  function playPart(i) {
+    var url = __p.parts[i]; if (!url) return;
+    __p.part = i;
     var au = player();
     au.pause();
-    if (au.src !== new URL(a.audio, location.href).href) au.src = a.audio;
+    if (au.src !== new URL(url, location.href).href) au.src = url;
     else { try { au.currentTime = 0; } catch (err) {} }
     au.playbackRate = __p.rate;
     __p.audio = au; __p.playing = true;
     au.ontimeupdate = function () { updProg(); msPosition(); };
     au.onloadedmetadata = updProg;
-    au.onended = function () { next(true); };
+    au.onended = function () {
+      if (__p.part + 1 < __p.parts.length) playPart(__p.part + 1);
+      else next(true);
+    };
     au.play().catch(function () { pause(); });
-    prefetchNext(2);
-    msUpdate(pid);
-    updBar();
   }
+
+  // ---- Auto-continue into the next debate (debates/index.json order) ----
+  // Rendered in this same page, URL updated in place: no navigation, so the
+  // audio element (and with it lock-screen playback) survives.
+  var __index = null;
+  function nextDebate() {
+    if (LANG !== "zh") return Promise.resolve(null);   // baked audio is Chinese only
+    if (!__index) __index = getJSON(bust("debates/index.json", "list")).then(function (j) {
+      return (j.debates || []).map(function (d) { return d.id; });
+    }).catch(function () { return []; });
+    var cur = window.__DEBATE_ID;
+    return __index.then(function (ids) {
+      var i = ids.indexOf(cur);
+      if (i < 0 || i + 1 >= ids.length) return null;
+      var id = ids[i + 1];
+      return Promise.all([
+        getJSON(bust("debates/" + id + ".json", id)),
+        fetch("audio/debate/" + id + "/manifest.json").then(function (r) { return r.ok ? r.json() : null; })
+      ]).then(function (r) { return r[1] ? { id: id, debate: r[0], manifest: r[1] } : null; });
+    }).catch(function () { return null; });
+  }
+  function continueToNextDebate() {
+    var p = __p.nextP; __p.nextP = null;
+    if (!p) return false;
+    p.then(function (nx) {
+      if (!nx) { finish(); return; }
+      window.__AUDIO = resolveAudio(nx.manifest);
+      renderDebate(nx.debate);
+      try {
+        var q = new URLSearchParams(location.search); q.set("d", nx.id);
+        history.replaceState(null, "", location.pathname + "?" + q.toString());
+      } catch (err) {}
+      window.scrollTo(0, 0);
+      if (__p.order.length) play(__p.order[0]); else finish();
+    }, finish);
+    return true;
+  }
+  function finish() { pause(); clearPrefetch(); setActive(null); __p.idx = -1; msUpdate(null); updBar(); }
   function pause() { if (__p.audio) __p.audio.pause(); __p.playing = false; updState(); msState(); }
   function resume() { if (__p.audio) { __p.audio.play(); __p.playing = true; updState(); msState(); } else if (__p.order.length) play(__p.order[Math.max(0, __p.idx)]); }
   function toggle() { if (__p.playing) pause(); else resume(); }
   function next(auto) {
     if (__p.idx + 1 < __p.order.length) { play(__p.order[__p.idx + 1]); }
-    else { pause(); clearPrefetch(); setActive(null); __p.idx = -1; msUpdate(null); updBar(); }
+    else if (!continueToNextDebate()) finish();
   }
   function prev() { if (__p.idx > 0) play(__p.order[__p.idx - 1]); else if (__p.audio) __p.audio.currentTime = 0; }
   function skip(d) { if (__p.audio) { __p.audio.currentTime = Math.max(0, Math.min(__p.audio.duration || 0, __p.audio.currentTime + d)); updBar(); } }
@@ -317,11 +383,16 @@
     __p.order = Array.prototype.map.call(document.querySelectorAll(".topic, .post, .sum-card, .hook"), function (el) { return el.id; })
       .filter(function (id) { return window.__AUDIO[id]; });
     if (!__p.order.length) return;
-    // click a post's speaker button → jump to that post
-    document.getElementById("thread").addEventListener("click", function (e) {
-      var b = e.target.closest && e.target.closest(".tts-play");
-      if (!b) return; e.preventDefault(); play(b.getAttribute("data-post"));
-    });
+    // click a post's speaker button → jump to that post. Once only: the
+    // thread is re-rendered in place when playback continues into the next
+    // debate, and a second listener would start every post twice.
+    if (!__p.wired) {
+      __p.wired = true;
+      document.getElementById("thread").addEventListener("click", function (e) {
+        var b = e.target.closest && e.target.closest(".tts-play");
+        if (!b) return; e.preventDefault(); play(b.getAttribute("data-post"));
+      });
+    }
     if (bar()) return;
     var el = document.createElement("div");
     el.id = "ta-tts"; el.className = "ta-tts";
@@ -540,6 +611,8 @@
     window.__POSTS = {};
     debate.posts.forEach(function (p) { window.__POSTS[p.id] = p; });
     __p.title = pick(debate, "question");
+    window.__HOOKS = debate.hooks || [];
+    window.__DEBATE_ID = debate.id || new URLSearchParams(location.search).get("d");
     window.__REASONS = {};
     (debate.casting || []).forEach(function (c) { window.__REASONS[c.id] = pick(c, "reason"); });
     var maxR = debate.rounds || debate.posts.reduce(function (m, p) { return Math.max(m, p.round); }, 1);

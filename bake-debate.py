@@ -229,8 +229,23 @@ def bake(seg_id, c, text):
 bake("topic", cfg("_narrator"), "。".join(
     t.strip().rstrip("。") for t in (d.get("question", ""), d.get("sub", "")) if t and t.strip()))
 
+# Who is speaking: a listener can't see the avatar, so each speaker's name is
+# its own short narrator clip ("name-<id>"), played before what they say. A
+# separate clip rather than a prefix on the post: prefixing would change every
+# post's hash and re-synthesise the whole archive.
+NARRATOR = cfg("_narrator")
+def bake_name(sid):
+    t = THINKERS.get(sid, {})
+    if t.get("name"):
+        bake("name-" + sid, NARRATOR, t["name"])
+
 for p in d["posts"]:
     bake(p["id"], voice_of(p["thinker"]), p["text"])
+    bake_name(p["thinker"])
+    # Classical-language posts carry a 白话 rendering; read it after the
+    # original, in the narrator's voice, as "<id>-plain".
+    if p.get("vernacular"):
+        bake(p["id"] + "-plain", NARRATOR, "白话。" + p["vernacular"])
 
 # AI closers: prefix each block with its section label so the three parts
 # ("综述… 洞察… 给普通人的建议…") are audibly separated, not run together.
@@ -241,6 +256,7 @@ for s in d.get("summaries", []):
               ("给普通人的建议", s.get("advice",""))]
     text = "。".join(f"{lbl}。{body.strip().rstrip('。')}" for lbl, body in blocks if body and body.strip())
     bake("ai-" + ai, c, text)
+    bake_name(ai)
 
 # Closing hooks: each is a lingering question posed by one thinker; read it
 # (and its answer, if any) in that thinker's voice.
@@ -260,6 +276,7 @@ for i, hk in enumerate(d.get("hooks", [])):
     # asker keeps the collision-free voice they were given in this debate.
     c = cfg("_ai_" + frm) if ("_ai_" + frm) in VOICES else voice_of(frm)
     bake("hook-%d" % i, c, hook_text(hk))
+    if frm: bake_name(frm)
 
 json.dump(manifest, open(outdir/"manifest.json","w"), ensure_ascii=False, indent=1)
 # Drop segments this bake no longer uses — editing a post changes its hash and

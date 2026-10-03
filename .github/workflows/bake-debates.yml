@@ -80,6 +80,12 @@ jobs:
               # entry; that alone is enough to re-run them (only it gets synthesised).
               if d.get("question") and "topic" not in man:
                   todo.append(slug); continue
+              # Speaker-name clips and 白话 clips came later too: a debate missing
+              # any of them is re-run (only the missing clips get synthesised).
+              need = {"name-" + p["thinker"] for p in d["posts"]} | \
+                     {p["id"] + "-plain" for p in d["posts"] if p.get("vernacular")}
+              if need - set(man):
+                  todo.append(slug); continue
               if any(f"{h(dv[p['thinker']], strip(p['text']))}.mp3" not in have for p in d["posts"]):
                   todo.append(slug)
           print("to bake:", todo or "(none)")

@@ -167,6 +167,7 @@
 - [ ] 本事长在人身上，还是长在那套配合里？  <!--skill-lives-in-the-crew-->
 - [ ] 你所在的组织，正处在它的哪一段？  <!--organization-own-stage-->
 - [ ] 家里那件不许提的事，该挑开吗？  <!--thing-not-spoken-of-->
+- [ ] 自己管住自己，是成熟还是驯服？  <!--discipline-or-tamed-->
 
 ---
 

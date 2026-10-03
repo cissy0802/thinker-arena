@@ -202,7 +202,8 @@
   // Warm the next few posts while the current one plays. Without this each
   // MP3 only starts downloading once the previous post ends, which reads as a
   // gap between speakers now that audio comes from R2 rather than this origin.
-  // Keyed by URL so a reordered thread can never hand back the wrong post.
+  // Warmed with fetch() into the HTTP cache (the Worker marks MP3s immutable),
+  // not with spare Audio elements — see player() for why there is only one.
   var __pf = {};
   function prefetchNext(count) {
     for (var i = 1; i <= count; i++) {
@@ -210,41 +211,98 @@
       if (j >= __p.order.length) break;
       var e = window.__AUDIO && window.__AUDIO[__p.order[j]];
       if (!e || !e.audio || __pf[e.audio]) continue;
-      var a = new Audio(e.audio); a.preload = "auto";
-      __pf[e.audio] = a;
+      __pf[e.audio] = 1;
+      (function (u) {
+        fetch(u, { mode: "cors", credentials: "omit" })
+          .then(function (r) { return r.ok ? r.arrayBuffer() : null; })
+          .catch(function () { delete __pf[u]; });
+      })(e.audio);
     }
   }
-  function clearPrefetch() {
-    Object.keys(__pf).forEach(function (u) {
-      var a = __pf[u];
-      try { a.pause(); } catch (err) {}
-      a.removeAttribute("src"); if (a.load) a.load();
-    });
-    __pf = {};
+  function clearPrefetch() { __pf = {}; }
+  // ONE element for the whole debate, src swapped per post. iOS lets an element
+  // start with sound only from a tap; an element already playing may move on
+  // to a new src from `ended`, but a fresh `new Audio()` may not. With one
+  // element per post, playback died at the first speaker change after the
+  // screen locked.
+  var __el = null;
+  function player() {
+    if (!__el) {
+      __el = new Audio(); __el.preload = "auto";
+      // The OS (lock-screen control, a call, headphones out) can pause us; keep
+      // the bar honest. Re-check .paused: the pause() play() issues between
+      // posts dispatches its event after the next src is already playing.
+      __el.addEventListener("pause", function () {
+        if (__el.paused && !__el.ended && __p.playing && __p.audio === __el) { __p.playing = false; updState(); msState(); }
+      });
+      __el.addEventListener("play", function () {
+        if (__p.audio === __el && !__p.playing) { __p.playing = true; updState(); msState(); }
+      });
+    }
+    return __el;
+  }
+  // Lock screen / notification controls.
+  var __msWired = false;
+  function msState() {
+    if (!("mediaSession" in navigator)) return;
+    navigator.mediaSession.playbackState = __p.idx < 0 ? "none" : (__p.playing ? "playing" : "paused");
+  }
+  function msUpdate(pid) {
+    if (!("mediaSession" in navigator)) return;
+    var ms = navigator.mediaSession;
+    if (!__msWired) {
+      __msWired = true;
+      var on = function (a, fn) { try { ms.setActionHandler(a, fn); } catch (err) {} };
+      on("play", resume); on("pause", pause);
+      on("previoustrack", prev); on("nexttrack", function () { next(false); });
+      on("seekbackward", function (d) { skip(-((d && d.seekOffset) || 10)); });
+      on("seekforward", function (d) { skip((d && d.seekOffset) || 10); });
+      on("seekto", function (d) { if (__p.audio && d && isFinite(d.seekTime)) { __p.audio.currentTime = d.seekTime; updBar(); } });
+    }
+    if (!pid) { ms.metadata = null; msState(); return; }
+    var el = document.getElementById(pid), nm = el && el.querySelector(".nm");
+    try {
+      ms.metadata = new MediaMetadata({
+        title: __p.title || document.title,
+        artist: nm ? nm.textContent.trim() : (pid === "topic" ? T("topic") : ""),
+        album: T("docTitle")
+      });
+    } catch (err) {}
+    msState();
+  }
+  function msPosition() {
+    var au = __p.audio;
+    if (!au || !("mediaSession" in navigator) || !navigator.mediaSession.setPositionState) return;
+    if (!isFinite(au.duration) || au.duration <= 0) return;
+    try {
+      navigator.mediaSession.setPositionState({ duration: au.duration, playbackRate: au.playbackRate || 1,
+        position: Math.max(0, Math.min(au.duration, au.currentTime || 0)) });
+    } catch (err) {}
   }
   function play(pid) {
     var a = window.__AUDIO && window.__AUDIO[pid]; if (!a) return;
-    if (__p.audio) { __p.audio.pause(); __p.audio = null; }
     __p.idx = __p.order.indexOf(pid);
     setActive(pid);
-    // Reuse the warmed element if we already started fetching this one.
-    var au = __pf[a.audio] || new Audio(a.audio);
-    delete __pf[a.audio];
+    var au = player();
+    au.pause();
+    if (au.src !== new URL(a.audio, location.href).href) au.src = a.audio;
+    else { try { au.currentTime = 0; } catch (err) {} }
     au.playbackRate = __p.rate;
     __p.audio = au; __p.playing = true;
-    au.ontimeupdate = updProg;
+    au.ontimeupdate = function () { updProg(); msPosition(); };
     au.onloadedmetadata = updProg;
     au.onended = function () { next(true); };
     au.play().catch(function () { pause(); });
     prefetchNext(2);
+    msUpdate(pid);
     updBar();
   }
-  function pause() { if (__p.audio) __p.audio.pause(); __p.playing = false; updState(); }
-  function resume() { if (__p.audio) { __p.audio.play(); __p.playing = true; updState(); } else if (__p.order.length) play(__p.order[Math.max(0, __p.idx)]); }
+  function pause() { if (__p.audio) __p.audio.pause(); __p.playing = false; updState(); msState(); }
+  function resume() { if (__p.audio) { __p.audio.play(); __p.playing = true; updState(); msState(); } else if (__p.order.length) play(__p.order[Math.max(0, __p.idx)]); }
   function toggle() { if (__p.playing) pause(); else resume(); }
   function next(auto) {
     if (__p.idx + 1 < __p.order.length) { play(__p.order[__p.idx + 1]); }
-    else { pause(); clearPrefetch(); setActive(null); __p.idx = -1; updBar(); }
+    else { pause(); clearPrefetch(); setActive(null); __p.idx = -1; msUpdate(null); updBar(); }
   }
   function prev() { if (__p.idx > 0) play(__p.order[__p.idx - 1]); else if (__p.audio) __p.audio.currentTime = 0; }
   function skip(d) { if (__p.audio) { __p.audio.currentTime = Math.max(0, Math.min(__p.audio.duration || 0, __p.audio.currentTime + d)); updBar(); } }
@@ -481,6 +539,7 @@
   function renderDebate(debate) {
     window.__POSTS = {};
     debate.posts.forEach(function (p) { window.__POSTS[p.id] = p; });
+    __p.title = pick(debate, "question");
     window.__REASONS = {};
     (debate.casting || []).forEach(function (c) { window.__REASONS[c.id] = pick(c, "reason"); });
     var maxR = debate.rounds || debate.posts.reduce(function (m, p) { return Math.max(m, p.round); }, 1);

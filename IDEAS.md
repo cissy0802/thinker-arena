@@ -166,6 +166,15 @@
 - [ ] 你所在的组织，正处在它的哪一段？  <!--organization-own-stage-->
 - [ ] 家里那件不许提的事，该挑开吗？  <!--thing-not-spoken-of-->
 - [ ] 自己管住自己，是成熟还是驯服？  <!--discipline-or-tamed-->
+- [ ] 城市该规划出来，还是让它自己长？  <!--city-planned-or-grown-->
+- [ ] 公地悲剧，只能靠私有或国管吗？  <!--beyond-the-commons-tragedy-->
+- [ ] 没有大脑，也能「想」吗？  <!--mind-without-brain-->
+- [ ] 生命和非生命的界线在哪？  <!--where-life-begins-->
+- [ ] 疼痛是身体在报警，还是大脑在预测？  <!--pain-alarm-or-prediction-->
+- [ ] 越想要越得不到的东西，该怎么要？  <!--by-product-goods-->
+- [ ] 说不清原理的「有效」，算不算知识？  <!--efficacy-without-mechanism-->
+- [ ] 音乐对生存有什么用？  <!--what-music-is-for-->
+- [ ] 太不可替代的人，反而升不上去吗？  <!--indispensable-trap-->
 
 ---
 

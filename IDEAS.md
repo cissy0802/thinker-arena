@@ -177,6 +177,7 @@
 - [ ] 说不清原理的「有效」，算不算知识？  <!--efficacy-without-mechanism-->
 - [ ] 音乐对生存有什么用？  <!--what-music-is-for-->
 - [ ] 太不可替代的人，反而升不上去吗？  <!--indispensable-trap-->
+- [ ] 在组织里，会哭的孩子真有奶喝吗？  <!--squeaky-wheel-->
 
 ---
 

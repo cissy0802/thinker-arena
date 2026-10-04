@@ -18,7 +18,7 @@
 
 输出（stdout）：
   第一行机器可读： PICK<TAB>id<TAB>cat<TAB>votes<TAB>reason
-  其后为问题原文与候选 note，routine 可直接落地（slug 用该 id）。
+  其后为问题原文与候选 note（及 brief 备料，若有），routine 可直接落地（slug 用该 id）。
 完整平票集与各类队首（含每类上次开场日期）打到 stderr，便于核对。
 """
 import json
@@ -85,6 +85,8 @@ def main():
     print(win.get("q", ""))
     if win.get("note"):
         print(win["note"])
+    if win.get("brief"):  # 选题备料：不上投票页，只给开辩用
+        print(win["brief"])
     return 0
 
 

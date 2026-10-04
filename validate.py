@@ -179,6 +179,14 @@ def main(path):
         warns.append(f"{cur} 尚未登记进 debates/index.json")
     elif entry.get("cat") not in VALID_CATS:
         errs.append(f"debates/index.json 本场缺 cat 或非法（{entry.get('cat')!r}）——索引页会掉进『其他』；取 {'/'.join(sorted(VALID_CATS))} 之一")
+    # 候选副标题 note 是投票页上的一句话，不是钩子仓库——全池硬卡，防一场场「并入其 note」长回去
+    try:
+        for c in json.load(open("ideas.json")).get("candidates", []):
+            n = cn(c.get("note"))
+            if n > 150:
+                errs.append(f"ideas.json 候选 {c['id']} 的 note 中文 {n} 字（>150）——砍回一两句；备料放 brief，钩子留在 IDEAS.md 钩子区")
+    except Exception:
+        pass
     try:
         de = next((e for e in json.load(open("ideas.json")).get("debated", []) if e.get("id") == cur), None)
         if de is not None and de.get("cat") not in VALID_CATS:

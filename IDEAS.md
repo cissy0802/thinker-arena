@@ -179,6 +179,7 @@
 - [ ] 组织该听最响的声音吗？  <!--squeaky-wheel-->
 - [ ] 该让下属互相牵制吗？  <!--hold-each-other-in-check-->
 - [ ] 让人害怕，能把组织管好吗？  <!--fear-as-management-->
+- [ ] 把功劳让出去，会越让越多吗？  <!--giving-away-credit-->
 
 ---
 

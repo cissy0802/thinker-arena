@@ -1,0 +1,725 @@
+{
+  "id": "judged-by-outcome",
+  "question": "一个决定，该按当时的信息还是按结果来评？",
+  "question_en": "Should a decision be judged on the information then, or on how it turned out?",
+  "sub": "赢了叫远见，输了叫轻率，可当时手里的牌可能一模一样。",
+  "sub_en": "Win and it's called foresight, lose and it's called rashness, though the hand you held may have been exactly the same.",
+  "date": "2026-10-05",
+  "participants": [
+    "machiavelli",
+    "kant",
+    "sunzi",
+    "adamsmith",
+    "redish",
+    "vasubandhu"
+  ],
+  "casting": [
+    {
+      "id": "machiavelli",
+      "reason": "他站在结果这一边，但不是出于势利：替别人做决定的人，百姓只认城守没守住。他把命运比作河流，人能做的是在晴天修堤，所以『运气不好』说一次可以，说三次就是无能。",
+      "reason_en": "He stands on the side of outcomes, though not out of cynicism: when you decide for others, the people only care whether the city held. He pictures fortune as a river and the human part as building dikes in fair weather, so 'bad luck' is an excuse you get once; the third time, it's incompetence."
+    },
+    {
+      "id": "kant",
+      "reason": "他把另一极立到最硬：善意志像宝石，凭自身闪耀，成败不增不减。但他也守住一条底线——『尽力』必须是真查过、真想过，不是给马虎开脱。",
+      "reason_en": "He holds the opposite pole at its firmest: a good will shines like a jewel by its own light, its worth untouched by success or failure. But he guards one line too: 'doing your best' has to mean you really checked and really thought, not a cover for carelessness."
+    },
+    {
+      "id": "sunzi",
+      "reason": "他给出一个兵家的分法：胜可知而不可为，评将看庙算、不看一战；而真正算得周全的胜利，看上去平平无奇，反而没人夸。",
+      "reason_en": "He offers a strategist's split: victory can be foreseen but not forced, so a general is judged by his reckoning before the war, not by a single battle. And the wins that were truly well reckoned look ordinary, so nobody praises them."
+    },
+    {
+      "id": "adamsmith",
+      "reason": "他早在《道德情操论》里就写透了这道题：人人在原则上按意图评人，感受上却跟着结果走。他不急着把这种『不规则』骂倒，而是追问它有什么用、又该怎么校正。",
+      "reason_en": "He worked this question through long ago in The Theory of Moral Sentiments: in principle everyone judges by intention, in feeling everyone follows the outcome. He doesn't rush to condemn this 'irregularity'; he asks what it is good for and how it should be corrected."
+    },
+    {
+      "id": "redish",
+      "reason": "他从决策神经科学带来实验：大鼠错过好报价后会回头看，眶额皮层编码着没选的那条路。在他看来，后悔是学习信号，结果非算不可；而后见之明会改写记忆，『当时的信息』本身也靠不住。",
+      "reason_en": "He brings experiments from decision neuroscience: rats that pass up a good offer look back, their orbitofrontal cortex encoding the road not taken. To him regret is a learning signal, so outcomes must count; yet hindsight rewrites memory, which makes 'the information at the time' unreliable too."
+    },
+    {
+      "id": "vasubandhu",
+      "reason": "他从《俱舍论》的业论出发：业的本体是『思』，果报却要众缘和合才成熟，所以不能把一个结果全算在一念之上。他把悔恨当年的自己，看作拿今天的知识妄加于昨天的心。",
+      "reason_en": "He starts from the theory of karma in the Abhidharmakośa: the substance of karma is intention, but its fruit ripens only when many conditions come together, so no single outcome can be laid entirely at the door of one thought. Reproaching your past self, to him, means projecting today's knowledge onto yesterday's mind."
+    }
+  ],
+  "posts": [
+    {
+      "id": "p01",
+      "round": 1,
+      "thinker": "machiavelli",
+      "reply_to": null,
+      "text": "我在《君主论》第十八章写过：凡人的行动，尤其是君主的，既然没有可以申诉的法庭，人们就只看结果。这不是我赞成，是我看见。百姓不读你的会议纪要，只看城守住没有。**替别人做决定的人，没资格只拿『我当时尽力了』来交差。**命运主宰我们一半的行动，另一半归我们自己——洪水来了，该问的不是他可不可怜，而是：河水平静时，他修堤了吗？",
+      "text_en": "In chapter eighteen of The Prince I wrote that in the actions of all men, and above all of princes, where there is no court to appeal to, people look to the outcome. I'm not endorsing it; I'm reporting it. The people don't read your minutes; they look at whether the city held. **Whoever decides on other people's behalf doesn't get to settle the account with 'I did my best at the time.'** Fortune governs half our actions; the other half is ours. When the flood comes, the question isn't whether to pity the man, but whether he built the dikes while the river was calm.",
+      "vernacular": null,
+      "vernacular_en": "",
+      "glossary": {
+        "命运": "fortuna（命运）：马基雅维利笔下像河流一样的偶然力量，主宰人事的一半；另一半归人的 virtù——事先筑堤、随势应变的本事。"
+      },
+      "glossary_en": {
+        "Fortune": "Machiavelli's fortuna: chance, pictured as a river that governs half of human affairs. The other half belongs to virtù, the knack of building dikes in advance and adapting to circumstances."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "sunzi"
+        ],
+        "中立": [
+          "redish"
+        ],
+        "轻微反对": [
+          "adamsmith",
+          "vasubandhu"
+        ],
+        "强烈反对": [
+          "kant"
+        ]
+      }
+    },
+    {
+      "id": "p02",
+      "round": 1,
+      "thinker": "kant",
+      "reply_to": null,
+      "text": "善意志之所以善，不在它成就了什么，只在它的意愿本身。即便命运格外不济，它竭尽全力却一事无成，**它仍像一颗宝石那样，凭自身而闪耀。**若按结果来评，同一个决定今天是远见、明天是轻率，评价就成了天气预报。但别误会，这不是给马虎开脱：尽力，意味着能查的都查了、能想的都想了。只有做到这一步，结果才与你的价值无关。",
+      "text_en": "A good will is good not because of what it accomplishes but solely through its willing. Even if, by some special disfavour of fortune, it strove with all its might and achieved nothing, **it would still shine like a jewel, by its own light.** Judge by outcomes and the same decision is foresight today and recklessness tomorrow; judgment turns into a weather forecast. But don't misread me: this is no excuse for sloppiness. Doing your utmost means checking everything that could be checked and thinking through everything that could be thought through. Only once you've done that does the outcome stop bearing on your worth.",
+      "vernacular": null,
+      "vernacular_en": "",
+      "glossary": {
+        "善意志": "good will（善意志）：康德《道德形而上学奠基》的起点——世上唯一无条件善的东西，是出于义务而行动的意愿；它的价值不因成败而增减。"
+      },
+      "glossary_en": {
+        "good will": "The starting point of Kant's Groundwork: the only thing good without qualification is the will to act from duty. Its worth is neither raised by success nor lowered by failure."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "vasubandhu",
+          "adamsmith"
+        ],
+        "疑惑": [
+          "redish"
+        ],
+        "轻微反对": [
+          "sunzi"
+        ],
+        "强烈反对": [
+          "machiavelli"
+        ]
+      }
+    },
+    {
+      "id": "p03",
+      "round": 1,
+      "thinker": "sunzi",
+      "reply_to": null,
+      "text": "《形》曰：『昔之善战者，先为不可胜，以待敌之可胜。不可胜在己，可胜在敌。』故曰：胜可知，而不可为。**胜兵先胜而后求战，败兵先战而后求胜。**评一将之得失，当观其庙算，不当观其一战。且善战者之胜也，无智名，无勇功——算得周全者，其胜平平无奇，众人反不以为能。",
+      "text_en": "The chapter on Disposition says: 'The skilled warriors of old first made themselves invincible, then waited for the enemy to become vulnerable. Invincibility lies with oneself; vulnerability lies with the enemy.' Hence: victory can be foreseen but not forced. **The victorious army wins first and then seeks battle; the defeated army fights first and then seeks victory.** To judge a general, look at his reckoning in the temple before the war, not at any single battle. And the victories of the truly skilled earn no name for wisdom and no credit for courage: when the reckoning was thorough, the win looks ordinary, and the crowd doesn't think he did anything clever.",
+      "vernacular": "《形篇》说：『从前善于打仗的人，先让自己立于不败之地，再等待敌人露出可被战胜的破绽。不被战胜取决于自己，能否战胜取决于敌人。』所以说：胜利可以预知，却不能强求。**打胜仗的军队先有了必胜的把握才去求战，打败仗的军队先打起来再去求胜。**评价一位将领的得失，该看他战前在庙堂上的谋算，而不是只看他打的某一仗。况且善于打仗的人取胜，既没有智谋的名声，也没有勇武的战功——算得周全的人，赢得平平无奇，众人反倒不觉得他有本事。",
+      "vernacular_en": "",
+      "glossary": {
+        "庙算": "temple reckoning（庙算）：古代出征前在祖庙里就道、天、地、将、法逐项比较敌我、计算胜算；《计篇》说『多算胜，少算不胜』。"
+      },
+      "glossary_en": {
+        "reckoning in the temple": "Before a campaign, ancient Chinese commanders compared their side and the enemy's, item by item, in the ancestral temple and tallied the odds. The opening chapter of The Art of War: 'More reckoning wins; less reckoning loses.'"
+      },
+      "reactions": {
+        "强烈赞同": [
+          "kant"
+        ],
+        "轻微赞同": [
+          "adamsmith",
+          "redish"
+        ],
+        "中立": [
+          "vasubandhu"
+        ],
+        "轻微反对": [
+          "machiavelli"
+        ]
+      }
+    },
+    {
+      "id": "p04",
+      "round": 1,
+      "thinker": "adamsmith",
+      "reply_to": null,
+      "text": "我在《道德情操论》里专门写过『命运对人们评价功过的影响』。抽象地问，人人都同意只该按意图评人；可一落到具体事情上，**一旦后果摆在眼前，我们的感受就几乎全跟着结果走了。**一个隔墙往街上扔石头、侥幸没砸到人的人，和一个砸死了人的人，我们心里判的刑截然不同。这种情感的不规则并非全无用处：它逼人对后果上心，也让法律只审行为、不审念头。但它需要被校正。",
+      "text_en": "In The Theory of Moral Sentiments I wrote a whole section on the influence of fortune on how we judge merit and blame. Ask in the abstract and everyone agrees: judge a person by intention alone. But come to a particular case, **and once the consequences are in front of us, our feelings follow the outcome almost entirely.** A man who throws a stone over a wall into the street and happens to hit no one, and a man who throws the same stone and kills someone: in our hearts we pass very different sentences. This irregularity of sentiment isn't useless. It makes people care about consequences, and it lets the law try actions rather than thoughts. But it needs correcting.",
+      "vernacular": null,
+      "vernacular_en": "",
+      "glossary": {
+        "情感的不规则": "irregularity of sentiment（情感的不规则）：斯密语——人们在原则上只按意图判断功过，实际的感受却随偶然的结果起伏。"
+      },
+      "glossary_en": {
+        "irregularity of sentiment": "Smith's phrase for the gap between our principles and our feelings: in principle we judge merit and blame by intention, in practice our sentiments rise and fall with outcomes that were down to chance."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "redish"
+        ],
+        "轻微赞同": [
+          "machiavelli",
+          "sunzi"
+        ],
+        "中立": [
+          "kant"
+        ],
+        "疑惑": [
+          "vasubandhu"
+        ]
+      }
+    },
+    {
+      "id": "p05",
+      "round": 1,
+      "thinker": "redish",
+      "reply_to": null,
+      "text": "先把两个词分开：失望是『结果比预期差』，后悔是『我本可以选另一条路』。后悔需要大脑模拟那条没走的路。我们在大鼠身上看到：它放弃一个划算的报价、接着撞上一个糟的，会回头望那个被跳过的站，眶额皮层此刻编码的正是没选的那一个。**后悔是一个学习信号，而结果是大脑唯一拿得到的老师。**所以结果必须算进去，问题只在于它教的是哪一课。",
+      "text_en": "First, separate two words. Disappointment is 'the outcome was worse than I expected'; regret is 'I could have taken the other path.' Regret needs the brain to simulate the road not taken. We've seen it in rats: after passing up a good offer and then running into a bad one, a rat looks back toward the zone it skipped, and at that moment its orbitofrontal cortex is encoding the option it didn't choose. **Regret is a learning signal, and outcomes are the only teacher the brain can get.** So outcomes have to count. The only question is which lesson they're teaching.",
+      "vernacular": null,
+      "vernacular_en": "",
+      "glossary": {
+        "眶额皮层": "orbitofrontal cortex（眶额皮层）：额叶底部、眼眶上方的脑区，参与评估选项的价值；此处受损的病人得知『没选的那个更好』时，不会产生后悔。"
+      },
+      "glossary_en": {
+        "orbitofrontal cortex": "The region at the base of the frontal lobes, just above the eye sockets, involved in valuing options. Patients with damage here learn that the option they passed up was better and feel no regret."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "adamsmith"
+        ],
+        "轻微赞同": [
+          "machiavelli"
+        ],
+        "中立": [
+          "vasubandhu"
+        ],
+        "轻微反对": [
+          "sunzi"
+        ],
+        "疑惑": [
+          "kant"
+        ]
+      }
+    },
+    {
+      "id": "p06",
+      "round": 1,
+      "thinker": "vasubandhu",
+      "reply_to": null,
+      "text": "《俱舍》云：『世别由业生，思及思所作。』业之体，唯是一思；身语所作，皆从思起。论善恶，当观其思，不当观其果。然**果之所熟，非一业独成，必待众缘和合**；今生所遇，或是宿业，或是他缘，岂可一一归于此念？汝悔昔日之我，是以今日之知妄加于昔日之心，此即遍计所执也。",
+      "text_en": "The Abhidharmakośa says: 'The variety of the world is born of karma: intention, and what intention produces.' The substance of karma is intention alone; everything done by body and speech arises from it. To judge good and bad, look at the intention, not the fruit. But **no fruit ripens from a single deed; it waits for many conditions to come together.** What you meet in this life may come from old karma or from other conditions; how can each of them be laid at the door of that one thought? When you reproach your past self, you are laying today's knowledge over yesterday's mind. That is what we call imputation.",
+      "vernacular": "《俱舍论》说：『世间的千差万别由业产生，业就是思，以及由思发动的行为。』业的本体只是一个『思』（意志）；身体与言语的所作所为都从思发起。要论善恶，该看那一念的思，不该看它的结果。但是，**一个果报成熟，从来不是一业单独造成的，必须等众多条件聚合**；这一生遇到的事，有的出于过去的业，有的出于别的因缘，怎么能件件都算在当时那一念头上？你悔恨从前的自己，是拿今天才有的认识，硬套在从前那颗心上，这就是『遍计所执』。",
+      "vernacular_en": "",
+      "glossary": {
+        "思": "cetanā（思）：心所之一，即意志、动念；佛陀说『我说思即是业』，善恶之业都以它为体。",
+        "遍计所执": "parikalpita（遍计所执）：唯识『三性』之一——心识四处计度，把自己构想出来的东西当成实有。"
+      },
+      "glossary_en": {
+        "intention": "Cetanā, a mental factor: volition, the mind setting itself in motion. The Buddha said, 'Intention, monks, is what I call karma'; good and bad karma alike have it as their substance.",
+        "imputation": "Parikalpita, the first of Yogācāra's three natures: the mind's habit of constructing something and then taking its own construction as real."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "kant"
+        ],
+        "轻微赞同": [
+          "redish"
+        ],
+        "中立": [
+          "sunzi"
+        ],
+        "轻微反对": [
+          "adamsmith",
+          "machiavelli"
+        ]
+      }
+    },
+    {
+      "id": "p07",
+      "round": 2,
+      "thinker": "kant",
+      "reply_to": "p01",
+      "text": "@machiavelli 你说百姓只看城守住没有——这是在描述人们怎么评，不是在回答该怎么评。把『事实如此』当成『理应如此』，是你那一派的老毛病。更要紧的是：若结果说了算，**守城的人就有理由去赌，因为赌赢的人和算对的人领的是同一块奖牌。**你要的堤坝，只有按『事前该做的做了没有』来评，才会有人肯在晴天去修。",
+      "text_en": "@machiavelli You say the people only look at whether the city held. That describes how people judge, not how they ought to. Passing off 'is' as 'ought' is the old habit of your school. More to the point: if the outcome decides, **the defender has every reason to gamble, because the lucky gambler and the careful calculator get the same medal.** The dikes you want only get built on sunny days if people are judged by whether they did beforehand what ought to have been done.",
+      "vernacular": null,
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "sunzi"
+        ],
+        "轻微赞同": [
+          "vasubandhu"
+        ],
+        "中立": [
+          "adamsmith"
+        ],
+        "轻微反对": [
+          "machiavelli"
+        ]
+      }
+    },
+    {
+      "id": "p08",
+      "round": 2,
+      "thinker": "sunzi",
+      "reply_to": "p05",
+      "text": "@redish 君言果为唯一之师，然一战之胜负，非师也，乃一掷耳。**以一胜论将，犹以一掷论骰。**善学者，记其庙算，战后复其算：所料中否？所不料者何？胜而侥幸者，亦当责其算疏；败而算密者，亦当存其法。不复其算而徒问胜负，十战十悔，终无一得。",
+      "text_en": "@redish You say the outcome is the only teacher. But the result of one battle is no teacher; it is a single throw of the dice. **Judging a general by one victory is like judging a die by one throw.** The good learner writes down his reckoning before the battle and checks it afterward: were my predictions right? What did I fail to foresee? If he won by luck, his loose reckoning should still be faulted; if he lost with tight reckoning, his method should still be kept. Ask only who won without checking the reckoning, and ten battles bring ten regrets and not one lesson.",
+      "vernacular": "@redish 您说结果是唯一的老师，可一场仗的胜负算不上老师，只是掷了一次骰子罢了。**凭一次胜仗评价将领，就像凭一次投掷评价骰子。**善于学习的人，会把战前的谋算记下来，战后再复核：预料的对不对？没料到的是什么？赢了却是侥幸的，也该追究他算得粗疏；输了但算得周密的，也该把方法留下来。不复核谋算、只问胜负，打十仗悔十次，最后一无所得。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "kant"
+        ],
+        "轻微赞同": [
+          "redish",
+          "adamsmith"
+        ],
+        "中立": [
+          "machiavelli"
+        ]
+      }
+    },
+    {
+      "id": "p09",
+      "round": 2,
+      "thinker": "machiavelli",
+      "reply_to": "p07",
+      "text": "@kant 你的宝石在书房里闪耀，到了战场上只是一块石头。我从没说过赌赢的人配得上奖牌：切萨雷·博尔贾样样算对，最后栽在一场病上，我照样把他写成榜样。**可一个总说『命运不济』的人，你最好别再把城交给他。**事前算得对，只配得一次原谅；第二次、第三次还『不济』，那就是他没看懂这条河。",
+      "text_en": "@kant Your jewel shines in the study; on the battlefield it's just a stone. I never said the lucky gambler deserves a medal. Cesare Borgia got everything right and was brought down by an illness, and I still held him up as a model. **But a man who keeps saying 'fortune was against me' is a man you should stop handing cities to.** Reckoning well beforehand earns you forgiveness once. If fortune is 'against you' a second and a third time, you haven't understood the river.",
+      "vernacular": null,
+      "vernacular_en": "",
+      "glossary": {
+        "切萨雷·博尔贾": "Cesare Borgia（切萨雷·博尔贾）：教皇亚历山大六世之子，《君主论》第七章的范例；马基雅维利认为他步步得当，却因父亲猝死、自己恰又病重而功败垂成。"
+      },
+      "glossary_en": {
+        "Cesare Borgia": "Son of Pope Alexander VI and the model prince of chapter seven of The Prince. Machiavelli judged that he did everything right and was undone only because his father died suddenly just as he himself fell gravely ill."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sunzi"
+        ],
+        "轻微赞同": [
+          "redish",
+          "vasubandhu"
+        ],
+        "中立": [
+          "adamsmith"
+        ],
+        "轻微反对": [
+          "kant"
+        ]
+      }
+    },
+    {
+      "id": "p10",
+      "round": 2,
+      "thinker": "redish",
+      "reply_to": "p02",
+      "text": "@kant 『按当时的信息来评』听上去干净，可大脑偏偏保存不住『当时』。心理学家费施霍夫1975年就发现：人一旦知道结果，会真诚地相信自己当初就料到了。这叫后见之明偏差，记忆被结果悄悄改写。**你以为在评当年的意图，其实评的是被结果改写过的版本。**所以光有原则不够，还得有一份在结果出来之前写下、事后改不动的记录。",
+      "text_en": "@kant 'Judge by the information at the time' sounds clean, but 'the time' is exactly what the brain fails to keep intact. In 1975 the psychologist Baruch Fischhoff found that once people know the outcome, they sincerely believe they saw it coming. That's hindsight bias: the outcome quietly edits the memory. **You think you're judging the intention you had back then; you're judging a version the outcome has already rewritten.** So principle isn't enough. You also need a record written before the result is in, one nobody can alter afterward.",
+      "vernacular": null,
+      "vernacular_en": "",
+      "glossary": {
+        "后见之明偏差": "hindsight bias（后见之明偏差）：知道结果之后，高估自己事前能预料到它的倾向；费施霍夫1975年首次系统测出。"
+      },
+      "glossary_en": {
+        "hindsight bias": "The tendency, once an outcome is known, to overestimate how predictable it was beforehand. Baruch Fischhoff first measured it systematically in 1975."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sunzi"
+        ],
+        "轻微赞同": [
+          "adamsmith",
+          "machiavelli"
+        ],
+        "中立": [
+          "vasubandhu"
+        ],
+        "疑惑": [
+          "kant"
+        ]
+      }
+    },
+    {
+      "id": "p11",
+      "round": 2,
+      "thinker": "vasubandhu",
+      "reply_to": "p09",
+      "text": "@machiavelli 君言三次不济即非命运，此语有理：**一次之果是缘，屡次之果，方见其思。**然君所谓『看懂此河』，仍是于思上用功，非于果上用功。且君但责为将者，不问自心：举城以付之人，是谁之思？众人以一胜誉人、以一败毁人，此毁誉亦是业，亦当受报。",
+      "text_en": "@machiavelli You say that three times 'unlucky' is no longer luck, and you're right: **one outcome shows the conditions; repeated outcomes reveal the intention.** But 'understanding the river', as you put it, is still work done on intention, not on outcomes. And you blame only the general without asking your own mind: whose intention was it to hand him the whole city? When the crowd praises someone for one win and damns them for one loss, that praise and blame are karma too, and they too will bear fruit.",
+      "vernacular": "@machiavelli 您说接连三次『运气不好』，那就不是运气了，这话有道理：**一次的结果是因缘，屡次的结果，才看得出他的心思。**可您说的『看懂这条河』，仍然是在『思』上下功夫，不是在结果上下功夫。况且您只责怪做将领的，不反问自己的心：把整座城交给他的，又是谁的心念？众人凭一次胜利赞誉人、凭一次失败诋毁人，这毁誉本身也是业，也会招来果报。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "轻微赞同": [
+          "kant",
+          "adamsmith",
+          "sunzi"
+        ],
+        "中立": [
+          "redish"
+        ],
+        "轻微反对": [
+          "machiavelli"
+        ]
+      }
+    },
+    {
+      "id": "p12",
+      "round": 2,
+      "thinker": "adamsmith",
+      "reply_to": "p06",
+      "text": "@vasubandhu 你劝人别拿今天的知识去套昨天的心，我赞成一半。我书里写过：一个人纯因意外害死了别人，毫无过错。**一个心地正常的人，此刻不会说『那不是我的思』，他会觉得自己欠了什么。**我称之为 piacular，需要赎补的感觉。它不是妄念，是人与人之间的联结。该卸下的是自我惩罚，不是这份在意。",
+      "text_en": "@vasubandhu You tell people not to lay today's knowledge over yesterday's mind, and I agree by half. I wrote of a man who, by pure accident and through no fault of his own, causes another's death. **A man of ordinary decency doesn't say 'that wasn't my intention'; he feels he owes something.** I called it a piacular feeling, the sense that something must be atoned for. It isn't a delusion; it's a bond between people. What should be set down is self-punishment, not that care.",
+      "vernacular": null,
+      "vernacular_en": "",
+      "glossary": {
+        "piacular": "piacular（需赎补的）：斯密借用的古词，指一个人并无过错、却因自己卷入了他人的不幸而觉得该做点什么来补偿的心情。"
+      },
+      "glossary_en": {
+        "piacular": "An old word Smith borrowed for the feeling of someone who is not at fault, yet, having been caught up in another person's misfortune, feels they must do something to make amends."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "redish"
+        ],
+        "轻微赞同": [
+          "machiavelli"
+        ],
+        "中立": [
+          "sunzi"
+        ],
+        "轻微反对": [
+          "kant"
+        ],
+        "疑惑": [
+          "vasubandhu"
+        ]
+      }
+    },
+    {
+      "id": "p13",
+      "round": 3,
+      "thinker": "redish",
+      "reply_to": null,
+      "text": "我会这样拆：**结果用来更新模型，不用来给人定罪。**大脑天生会从结果里学，这改不了，也不该改；但学之前先问三句：当时我知道什么？我是怎么判断的？结果里有多少是运气？做法很简单：重要决定前花五分钟，写下预测和理由，封存；结果出来后对照着看。连续几次偏同一个方向，是模型的问题；只偏一次，多半是运气。还有，懊悔超过一周还在回放同一幕，**那已经不是学习，是反刍**，该停了。",
+      "text_en": "Here's how I'd take it apart: **outcomes are for updating the model, not for convicting the person.** The brain learns from outcomes by nature; that can't be changed and shouldn't be. But before learning, ask three things: what did I know then? How did I judge? How much of the result was luck? The practice is simple. Before an important decision, spend five minutes writing down your prediction and your reasons, and seal it; when the result comes in, compare. Miss in the same direction several times running and it's your model; miss once and it's probably luck. And if you're still replaying the same scene a week later, **that isn't learning any more, it's rumination.** Time to stop.",
+      "vernacular": null,
+      "vernacular_en": "",
+      "glossary": {
+        "反刍": "rumination（反刍）：心理学用语，指反复回放同一件负面经历、却不产生新的理解或行动；它与学习的区别在于没有更新。"
+      },
+      "glossary_en": {
+        "rumination": "The psychological term for replaying the same negative experience over and over without arriving at any new understanding or action. What separates it from learning is that nothing gets updated."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sunzi"
+        ],
+        "轻微赞同": [
+          "kant",
+          "adamsmith",
+          "vasubandhu"
+        ],
+        "中立": [
+          "machiavelli"
+        ]
+      }
+    },
+    {
+      "id": "p14",
+      "round": 3,
+      "thinker": "kant",
+      "reply_to": "p10",
+      "text": "我收回一点：@redish 说得对，意图若不能被可靠地记住，『按意图评』就会变成按辩解评。我的原则需要一个经验的扶手。但核心不退：**人的价值，不随骰子起落。**给普通人的建议：评别人时，先问『换我站在他那时的位置、拿着他那时的信息，我会怎么做』，再开口；评自己时，只问『我当时尽到查证与思考的义务了吗』。是，就把结果当信息收下；否，该改的是做法，不是去恨自己。",
+      "text_en": "I'll concede one thing: @redish is right that if intentions can't be reliably remembered, 'judge by intention' turns into 'judge by excuse.' My principle needs an empirical handrail. But the core stands: **a person's worth does not rise and fall with the dice.** My advice: when judging others, first ask, 'In their position then, with the information they had then, what would I have done?', and only then speak. When judging yourself, ask only, 'Did I meet my duty to check and to think?' If yes, take the outcome as information. If no, what needs changing is your method, not your opinion of yourself.",
+      "vernacular": null,
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "vasubandhu"
+        ],
+        "轻微赞同": [
+          "redish",
+          "adamsmith",
+          "sunzi"
+        ],
+        "轻微反对": [
+          "machiavelli"
+        ]
+      }
+    },
+    {
+      "id": "p15",
+      "round": 3,
+      "thinker": "sunzi",
+      "reply_to": null,
+      "text": "合而论之：**评人以算，学事以果，二者不可相代。**算者在己，果者在天与敌。是故为将者三事：战前书其算，战后复其算，久而计其中否之数。凡人之事亦然：择业、置产、求医，先书所料，后验所中。十事而中七，虽一败，不必自咎；十事而中三，虽一胜，不可自矜。",
+      "text_en": "Taken together: **judge people by their reckoning, learn from events by their outcomes; neither can stand in for the other.** Reckoning lies with oneself; outcomes lie with heaven and the enemy. So a general does three things: writes down his reckoning before battle, checks it after battle, and over time counts how often he was right. Ordinary affairs are no different. Choosing a career, buying a home, seeking treatment: write down what you expect first, then check whether it came true. Right on seven of ten, and one defeat is no cause for self-reproach; right on three of ten, and one victory is no cause for pride.",
+      "vernacular": "综合来说：**评价人看他的谋算，从事情里学习看结果，两者不能互相替代。**谋算在自己，结果在天时和对手。所以做将领的要做三件事：战前把谋算写下来，战后复核谋算，时间长了统计自己料中了几成。普通人的事也一样：选职业、买房、看病，先写下你的预料，事后再验证中没中。十件事料中七件，即使输了一次，也不必自责；十件事只料中三件，即使赢了一次，也不可自夸。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "redish",
+          "kant"
+        ],
+        "轻微赞同": [
+          "adamsmith",
+          "machiavelli",
+          "vasubandhu"
+        ]
+      }
+    },
+    {
+      "id": "p16",
+      "round": 3,
+      "thinker": "machiavelli",
+      "reply_to": "p14",
+      "text": "@kant 我们其实没吵那么远：你要人事前尽到义务，我要人事后别拿命运当借口——一前一后，是同一道堤。我只补一句给手里握着别人身家的人，家长、主管、带团队的人：**别人把结果押在你身上，你就欠他们一个结果，至少欠一个解释。**所以做决定时，把『最坏会怎样、我备了什么』讲在前头；输了，先讲清当时怎么算的、错在哪一环，而不是说『谁能料到』。",
+      "text_en": "@kant We're not as far apart as it sounds. You want people to do their duty beforehand; I want them not to hide behind fortune afterward. Before and after, it's the same dike. One addition for anyone holding other people's fortunes in their hands, whether parents, managers or team leads: **when others have staked the outcome on you, you owe them an outcome, or at the very least an explanation.** So when you decide, say up front what the worst case is and what you've prepared for it. When you lose, first explain how you reckoned it and which link broke, rather than saying 'who could have known?'",
+      "vernacular": null,
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "sunzi"
+        ],
+        "轻微赞同": [
+          "kant",
+          "adamsmith",
+          "redish"
+        ],
+        "中立": [
+          "vasubandhu"
+        ]
+      }
+    },
+    {
+      "id": "p17",
+      "round": 3,
+      "thinker": "adamsmith",
+      "reply_to": null,
+      "text": "我的结论是：**让心里那位公正的旁观者来评，而不是让结果来评。**他知道你当时知道的一切，也知道结果；他会原谅运气，但不会原谅疏忽。具体做法：被结果冲昏头时，无论狂喜还是懊悔，想象一位不偏不倚、熟悉你处境的朋友站在旁边，他会怎么说你？评别人也一样，尤其是输了的人：先给他一份『按当时信息』的公道，再谈结果。至于那份因意外而生的亏欠，就去补，用行动补，不用自责补。",
+      "text_en": "My conclusion: **let the impartial spectator in your own mind be the judge, not the outcome.** He knows everything you knew at the time, and he knows the result; he will forgive bad luck but not negligence. In practice: when an outcome has gone to your head, whether as elation or remorse, picture a fair-minded friend who knows your situation standing beside you. What would he say about you? Judge others the same way, especially those who lost: first give them a fair hearing on the information they had, then talk about the result. As for the debt that comes from an accident, pay it, and pay it in deeds rather than in self-reproach.",
+      "vernacular": null,
+      "vernacular_en": "",
+      "glossary": {
+        "公正的旁观者": "impartial spectator（公正的旁观者）：斯密道德哲学的核心设想——人在心中想象一位不偏不倚、知情的旁观者，借他的眼光审视自己的行为与感受。"
+      },
+      "glossary_en": {
+        "impartial spectator": "The central device of Smith's moral philosophy: we imagine a well-informed, disinterested onlooker in our own breast and use his eyes to examine our own conduct and feelings."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "kant"
+        ],
+        "轻微赞同": [
+          "redish",
+          "vasubandhu",
+          "sunzi"
+        ],
+        "中立": [
+          "machiavelli"
+        ]
+      }
+    },
+    {
+      "id": "p18",
+      "round": 3,
+      "thinker": "vasubandhu",
+      "reply_to": null,
+      "text": "总而言之：**思是我的，果是缘的；悔其思则可，恨其果则妄。**唯识以悔为不定心所，可善可恶：见昔日之思有过，今日改之，是善悔；执一果为我，日夜追之，是烦恼。凡人用功，可行二事：一者，事前自问其思，是贪是嗔，是明是昧；二者，事后心中反复，即问『此悔能令我明日有所改否？』能则受之，不能则放下。",
+      "text_en": "In sum: **the intention is mine, the fruit belongs to conditions; to regret the intention is fitting, to resent the fruit is delusion.** Yogācāra counts regret among the indeterminate mental factors, which can turn wholesome or unwholesome. Seeing a fault in yesterday's intention and correcting it today is wholesome regret; clutching a single result as 'mine' and chasing it day and night is affliction. Ordinary people can practise two things. First, before acting, ask what your intention is: greed or anger, clarity or confusion. Second, when the mind keeps circling afterward, ask: 'Can this regret change anything I do tomorrow?' If it can, accept it; if it can't, let it go.",
+      "vernacular": "总而言之：**意念是我的，结果是因缘的；为当时的意念悔过可以，为结果怨恨就是妄执。**唯识把『悔』归入不定心所，可善可恶：看见从前的意念有过错，今天改正，是善的悔；把一个结果执为『我的』，日夜追着不放，就是烦恼。普通人下功夫，可以做两件事：第一，事前问问自己的动机——是出于贪还是嗔，是清醒还是糊涂；第二，事后心里反复纠结时，就问『这份悔，能让我明天有所改变吗？』能，就接受它；不能，就放下。",
+      "vernacular_en": "",
+      "glossary": {
+        "不定心所": "indeterminate mental factor（不定心所）：唯识把心理活动分为五十一种『心所』，其中悔（恶作）、眠、寻、伺四种性质不定，随所伴的动机而成善或成恶。"
+      },
+      "glossary_en": {
+        "indeterminate mental factors": "Yogācāra sorts mental activity into fifty-one mental factors. Four of them (regret, drowsiness, initial and sustained thought) have no fixed moral quality; they become wholesome or unwholesome depending on the motive they accompany."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "kant"
+        ],
+        "轻微赞同": [
+          "adamsmith",
+          "redish"
+        ],
+        "中立": [
+          "sunzi"
+        ],
+        "轻微反对": [
+          "machiavelli"
+        ]
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "ai": "claude",
+      "engine": "Opus 5 · 订阅(原生)",
+      "engine_en": "Opus 5 · subscription (native)",
+      "summary": "**评一个人，看他当时的信息和算法；要从一件事里学，才轮到结果——这两本账不能混记，**是全场走得最近的一点。孙子的庙算、康德的『尽了义务』、斯密的公正旁观者，都在给『当时』留一个结果冲不掉的位置；雷迪什提醒，这个位置大脑自己守不住，后见之明会改写记忆。分歧在结果该占多少分量：马基雅维利认为替人做决定的人欠的是结果本身，屡次『不济』就是无能；康德坚持人的价值不随骰子起落；世亲与斯密则争那份因意外而生的亏欠，是该放下的执著，还是该用行动去补的联结。",
+      "summary_en": "**Judge a person by what they knew and how they reasoned at the time; only when you're learning from an event do outcomes come in. Keeping those two ledgers apart** is where the whole table came closest together. Sunzi's temple reckoning, Kant's 'duty discharged' and Smith's impartial spectator all reserve a place for 'back then' that the outcome can't wash away. Redish warns that the brain can't hold that place by itself, because hindsight rewrites memory. The disagreement is over how much weight the outcome deserves. Machiavelli holds that whoever decides for others owes them the outcome itself, and that repeated 'bad luck' is incompetence; Kant insists a person's worth doesn't rise and fall with the dice. Vasubandhu and Smith argue over the debt that comes from an accident: an attachment to let go of, or a bond to honour with deeds.",
+      "insight": "全场把结果看成『运气』与『决策』的混合，却很少问：**你看得到的那些结果，本身就是被挑过的。**赢了的决定被记住、被复盘，输了又没人追问的悄悄消失；更常见的是，没做的那个决定根本没有结果可看——不换工作、不去体检、不开口，它们的代价从不上账。于是『按结果评』天然偏爱有动作、有记录的选择，惩罚看得见的失败，放过看不见的放弃。真想公平地评自己，得把『我没走的那条路』也列进来，哪怕只能估个大概。",
+      "insight_en": "The whole discussion treated an outcome as a mix of luck and decision, yet hardly anyone asked: **the outcomes you get to see have already been selected.** Decisions that won are remembered and reviewed; ones that lost and drew no questions quietly vanish. More often still, the decision you didn't make has no visible outcome at all. Not changing jobs, not getting the check-up, not speaking up: their costs never reach the books. So judging by results naturally favours choices that involve action and leave a record, punishing visible failures and letting invisible inaction off the hook. If you want to judge yourself fairly, put the road you didn't take on the list too, even if all you can do is estimate it.",
+      "advice": "三件这周就能做的事。第一，挑一个眼下悬而未决的决定（换岗、看病、买房都行），花五分钟写下：我知道什么、我预测什么、有几成把握，存进手机，定个日期再看——这是孙子的『书其算』，也是对付后见之明最省事的办法。第二，下次责备自己或别人前，先问一句：拿着当时的信息，换个明白人大概会怎么选？**答案若是『差不多』，就把结果当信息收下，别当判决。**第三，懊悔超过一周还在回放同一幕，就用世亲那一问：这份悔能让我明天改点什么？能就写下来去改，不能就放下。",
+      "advice_en": "Three things you can do this week. First, pick a decision that's still open (a job move, a treatment, a flat purchase) and spend five minutes writing down what you know, what you predict and how confident you are. Save it on your phone with a date to look again. That's Sunzi's 'write down the reckoning', and the cheapest defence against hindsight. Second, before you next blame yourself or someone else, ask: with the information available then, what would a sensible person most likely have chosen? **If the answer is 'much the same', take the outcome as information, not as a verdict.** Third, if you're still replaying the same scene a week later, ask Vasubandhu's question: can this regret change anything I do tomorrow? If so, write it down and change it; if not, let it go."
+    },
+    {
+      "ai": "gpt",
+      "engine": "openai · gpt-5.6-sol · high(真实API)",
+      "engine_en": "openai · gpt-5.6-sol · high (live API)",
+      "summary": "这场讨论汇合在一个关键区分上：决定的过程与结果都要看，但用途不同。事前可得的信息、查证义务、概率判断和预案，用来判断当时是否合理；事后结果用来校准模型、发现遗漏、承担修复责任，不能倒灌成“早就该知道”。**评人以当时可得的信息，学事以后来发生的结果。**真正的分歧不在结果要不要看，而在它能否改变道德评价、任职判断与亏欠感：有人更守住意图，有人强调受托者的交付，也有人把补偿义务与多次结果所显示的能力纳入评价。",
+      "insight": "还应把“决定质量”“授权正当性”和“长期胜任度”拆开。一项选择即使按当时概率看很优，也未必有资格替别人承担尾部风险：拿自己的闲钱做六成胜率的尝试，与拿全家积蓄、下属饭碗或病人的生命去赌，并非同一件事。**好决策不只要算得对，还要由有权的人、在可承受的风险边界内作出。**因此，“我当时判断合理”有时仍不足以免责：问题可能不在预测，而在未获同意、收益归己而风险归人，或根本没有止损。复盘时还应问：谁得利、谁受损、谁同意、最坏后果由谁承担？",
+      "advice": "本周挑一件重要决定，做一张五分钟“决策卡”：①写下目标、两三个选项、关键事实与不确定点；②给主要结果估个概率，并注明最坏情形、止损线和受影响的人；③若风险主要由别人承担，先取得同意，或把风险降到可承受。结果出来后，用两栏复盘：左栏只按当时材料给流程打分，右栏记录结果暴露了什么，不用右栏改写左栏。**一次输赢只触发检查，不触发自我定罪；同类决定累计三到五次后再判断模型。**若确实造成损害，就道歉、补救、修改规则，把懊悔变成有期限的行动清单。",
+      "summary_en": "The discussion converges on one crucial distinction: decision process and outcome both matter, but they serve different purposes. The information available at the time, the care taken to verify it, the probability judgment, and the contingency plan tell us whether the choice was reasonable then. The eventual outcome helps us update our model, uncover omissions, and decide what repair is owed; it should not be smuggled backward into a claim that the decision-maker “should have known.” **Judge the person by what was knowable then; learn from what happened later.** The real disagreement is not whether outcomes matter, but what they are allowed to change. Some views protect intention from luck, others emphasize what an entrusted decision-maker owes those affected, and still others preserve a role for restitution and for repeated outcomes as evidence of competence. The deepest disputes concern moral blame, fitness for responsibility, and whether accidental harm creates obligations even without negligence.",
+      "insight_en": "Three questions need to be separated more sharply: Was the decision technically sound? Was the decision-maker entitled to make it? And does the larger pattern show that they are fit for the role? A choice can have favorable odds and still be illegitimate when its downside is imposed on someone else. Taking a 60 percent bet with discretionary savings is not morally equivalent to staking your family’s security, an employee’s livelihood, or a patient’s life without meaningful consent. **A good decision must not only use sound reasoning; it must also be authorized and stay within an acceptable risk budget.** This explains why “my judgment was reasonable at the time” does not always settle accountability. The failure may lie not in forecasting, but in exposing others to unconsented tail risk, keeping the upside while transferring the downside, or failing to create an exit plan. A proper review should ask who benefits, who may be harmed, who agreed, and who carries the worst case.",
+      "advice_en": "This week, choose one consequential decision and make a five-minute decision card. First, write down the goal, two or three realistic options, the decisive facts, and the main unknowns. Second, assign rough probabilities to the major outcomes and record the worst case, a stop-loss or exit condition, and everyone materially affected. Third, if other people bear most of the downside, obtain their consent or redesign the choice so the exposure is tolerable. When the outcome arrives, review it in two columns: score the process in the left column using only information available at the time, and note what the result revealed in the right. Do not let the right column rewrite the left. **One win or loss should trigger inspection, not self-condemnation; judge the model only after several comparable decisions.** If someone was harmed, separate blame from repair: apologize where appropriate, compensate what you can, change the failed rule, and turn regret into a short action list with deadlines."
+    },
+    {
+      "ai": "gemini",
+      "engine": "google · gemini-3.8-flash(真实API)",
+      "engine_en": "google · gemini-3.8-flash (live API)",
+      "summary": "没有哪位思想家愿意把单次结果直接等同于决策优劣：靠侥幸押中的赌徒不配领受赞美，而穷尽考量后的不可抗力溃败亦不能直接定罪为愚蠢。大家一致认可将『决策逻辑』与『运气成分』解耦。真正的裂痕，其实落在评价主体的**权责契约**上：当决策仅关乎个体修养与内心纯粹时，康德与世亲的『纯粹意图』与『缘起无常』足以安顿内心；可一旦身处马基雅维利式的受托人位置，握着他人的身家与城池，**过程决定了你是否在智力与道德上尽责，而结果决定了外界是否还承受得起对你的信任。**",
+      "insight": "圆桌普遍预设了『信息在当时是可以穷尽查证的』，但在复杂的工程与现实系统里，信息搜集本身需要消耗不可逆的时间与资本。决策科学告诉我们，世界上不存在无限完备的信息，过度查证往往会错过决策窗口，造成惨痛的机会成本。**评价一个决定是否高明，关键不在于你查了多少，而在于你是否在最合理的边界上果断截断搜集并承担不确定性。**那种为了规避事后被追责而无限推迟决断的所谓『尽力』，在真实的动态博弈中，本质上是一种包裹着道德外衣的严重渎职。",
+      "advice": "落地执行只需做好两件事：其一，建立**『不可篡改的决策备忘』**。在买房、转行或关键立项前，用三行字写下：核心依据、预估最坏结局、以及何时必须止损。封存它，半年后对照现实复盘，只修正模型，绝不否定当时理性的自我。其二，若是替家人或团队做决定，务必做**『前置对齐』**。在执行前明确告知对方：『我依据这三点做判断，潜在代价是X，若发生意外由我承担』。把马基雅维利式的严苛追责，提前转化为阳光下的风险共识。",
+      "summary_en": "Every thinker on the panel agrees on decoupling a single outcome from the intrinsic quality of a decision: a lucky gambler deserves no medal, and a defeat driven by pure stochastic noise carries no moral guilt. The real divergence hinges on the **nature of accountability**. When evaluating solitary virtue, Kant and Vasubandhu are correct that intent and contingent factors must protect the soul from outcome bias. However, in Machiavelli's domain of delegated power—where lives and fortunes are entrusted—**process determines your intellectual integrity, but outcomes dictate whether others can afford to trust you again.**",
+      "insight_en": "The debate silently assumes that relevant information is always discoverable given enough diligence. In reality and modern decision theory, information retrieval incurs irreversible costs in time and resources. True uncertainty cannot be engineered away, and infinite deliberation leads to fatal paralysis. **A decision should not be judged by how exhaustively you investigated, but by whether you identified the optimal stopping threshold to halt inquiry and embrace calculated risk.** Procrastinating under the guise of 'due diligence' just to shield oneself from blame is, in dynamic systems, merely negligence masquerading as prudence.",
+      "advice_en": "Start with two pragmatic practices this week: First, maintain a **sealed decision log**. Before any pivotal career move, investment, or strategic pivot, spend five minutes writing down your core assumptions, the worst-case scenario, and predefined stop-loss triggers. Revisit it only when outcomes materialize—use it to debug your mental models rather than engaging in toxic rumination. Second, if you act as an agent for a team or family, conduct a **pre-mortem alignment**: state the upside logic alongside the worst-case fallout beforehand, converting retroactive political blame into shared risk consensus."
+    }
+  ],
+  "hooks": [
+    {
+      "from": "claude",
+      "text": "**没做的决定有没有结果**：不换工作、不去体检、不开口，这些『不选』的代价从不上账。按结果评，是不是天然偏爱折腾、放过拖延？",
+      "text_en": "**Do decisions you never made have outcomes?** Not changing jobs, not getting the check-up, not speaking up: the cost of these non-choices never reaches the books. Does judging by results naturally favour action and let procrastination off the hook?"
+    },
+    {
+      "from": "sunzi",
+      "text": "**一份决策记录里该写什么**：孙子说『战前书其算』，可普通人写什么、写多少、何时拿出来对照，才既防得住后见之明，又不沦为形式？",
+      "text_en": "**What belongs in a decision record?** Sunzi says to write down the reckoning before battle. But what should an ordinary person write, how much, and when should they check it, so that it guards against hindsight without becoming a ritual?",
+      "answer": {
+        "lead": "**事前五分钟，事后五分钟。**下面是一份最小可用的决策记录：",
+        "table": {
+          "head": [
+            "写什么",
+            "何时写",
+            "为什么"
+          ],
+          "rows": [
+            [
+              "要决定什么、有哪几个选项",
+              "决定前",
+              "逼自己看见『不做』也是一个选项"
+            ],
+            [
+              "此刻知道什么、还不知道什么",
+              "决定前",
+              "后见之明最先改写这一栏，必须先封存"
+            ],
+            [
+              "预测会怎样、有几成把握",
+              "决定前",
+              "没有把握程度，事后就分不清运气和判断"
+            ],
+            [
+              "最坏会怎样、准备了什么",
+              "决定前",
+              "马基雅维利的堤坝：晴天修，别等洪水"
+            ],
+            [
+              "结果如何、与预测差在哪",
+              "约定的复查日",
+              "只对照记录，不凭记忆"
+            ],
+            [
+              "差距出在信息、推理还是运气",
+              "复查日",
+              "前两者改做法；后者只记下，不自责"
+            ]
+          ]
+        },
+        "tail": "**两条原则：记录必须在结果出来之前写好，写完不改；偏一次先当运气，连着几次偏同一个方向，才回头查自己。**"
+      },
+      "answer_en": {
+        "lead": "**Five minutes before, five minutes after.** Here is a minimal decision record that actually works:",
+        "table": {
+          "head": [
+            "What to write",
+            "When",
+            "Why"
+          ],
+          "rows": [
+            [
+              "What you're deciding and what the options are",
+              "Before deciding",
+              "It forces you to see that doing nothing is also an option"
+            ],
+            [
+              "What you know now, and what you don't",
+              "Before deciding",
+              "Hindsight rewrites this column first, so seal it in advance"
+            ],
+            [
+              "What you predict, and how confident you are",
+              "Before deciding",
+              "Without a confidence level you can't later tell luck from judgment"
+            ],
+            [
+              "The worst case, and what you've prepared for it",
+              "Before deciding",
+              "Machiavelli's dikes: build them in fair weather, not when the flood arrives"
+            ],
+            [
+              "What happened, and where it differed from your prediction",
+              "On the agreed review date",
+              "Compare against the record, not your memory"
+            ],
+            [
+              "Whether the gap came from information, reasoning or luck",
+              "Review date",
+              "Fix your method for the first two; for luck, just note it and don't blame yourself"
+            ]
+          ]
+        },
+        "tail": "**Two principles: the record must be written before the outcome is known and never edited afterward; treat a single miss as luck, and only when you miss in the same direction several times running should you look at yourself.**"
+      }
+    },
+    {
+      "from": "claude",
+      "text": "**什么时候才算『结果出来了』**：换专业、搬城市，一年后像败笔，五年后像转折。评一个决定，评得太早和评错了，哪个更伤人？",
+      "text_en": "**When is the outcome actually in?** Switching fields or moving cities can look like a blunder after one year and a turning point after five. When judging a decision, which does more harm: judging too early or judging wrongly?"
+    },
+    {
+      "from": "gpt",
+      "text": "**算对了，就有权替别人押注吗**：拿自己闲钱赌六成胜率，和拿全家积蓄、下属饭碗去赌，不是同一件事。决策好不好之外，还要问谁同意了、最坏的那头谁来扛。",
+      "text_en": "**Does reckoning well give you the right to bet on others' behalf?** A 60 percent bet with your own spare cash is not the same as one with the family's savings or your team's jobs. Beyond whether the decision was sound: who agreed, and who carries the worst case?"
+    },
+    {
+      "from": "gemini",
+      "text": "**查到哪一步该停**：信息永远查不完，多查一天也有代价。『尽力』若被拿来无限拖延、只为事后免责，它还算尽力吗？",
+      "text_en": "**When should you stop gathering information?** It can never be complete, and every extra day of checking costs something. If 'doing your best' becomes endless delay meant only to avoid blame later, is it still doing your best?"
+    },
+    {
+      "from": "adamsmith",
+      "text": "**无心之失，欠不欠**：毫无过错却伤了人，那份亏欠该放下，还是该补？若要补，补给谁、补到哪一步才算够？",
+      "text_en": "**An accident with no fault: do you owe anything?** If you harmed someone through no fault of your own, should that sense of debt be let go or paid off? And if paid, to whom, and how far before it's enough?"
+    }
+  ]
+}

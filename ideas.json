@@ -65,15 +65,6 @@
       "cat": "ethics"
     },
     {
-      "id": "judged-by-outcome",
-      "votes": 0,
-      "q": "一个决定，该按当时的信息还是按结果来评？",
-      "q_en": "Should a decision be judged on the information then, or on how it turned out?",
-      "note": "赢了的判断被追认为远见，输了的被追认为轻率，而两者当时手里的信息可能一模一样。有没有只看决策质量、不看结果的评价方式，还是结果本就该算进去？你责备当年的自己时，用的又是哪一边的信息？",
-      "note_en": "A call that wins is hailed as foresight, one that loses as rashness, though both may have had exactly the same information. Can decisions be judged on their quality alone, or should outcomes count too? And when you blame your past self, which information are you using?",
-      "cat": "meta"
-    },
-    {
       "id": "small-step-drift",
       "votes": 0,
       "q": "人是怎么一步步走到当初绝不会做的事的？",
@@ -1181,6 +1172,13 @@
       "q_en": "Does being irreplaceable keep you from moving up?",
       "date": "2026-10-04",
       "cat": "work"
+    },
+    {
+      "id": "judged-by-outcome",
+      "q": "一个决定，该按当时的信息还是按结果来评？",
+      "q_en": "Should a decision be judged on the information then, or on how it turned out?",
+      "date": "2026-10-05",
+      "cat": "meta"
     }
   ]
 }

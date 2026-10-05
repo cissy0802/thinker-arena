@@ -180,6 +180,7 @@
 - [ ] 该让下属互相牵制吗？  <!--hold-each-other-in-check-->
 - [ ] 让人害怕，能把组织管好吗？  <!--fear-as-management-->
 - [ ] 把功劳让出去，会越让越多吗？  <!--giving-away-credit-->
+- [ ] 内卷，一个人退得出来吗？  <!--opting-out-of-the-race-->
 
 ---
 

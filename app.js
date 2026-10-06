@@ -199,27 +199,81 @@
     b.querySelector(".ta-time").textContent = fmt(cur) + " / " + fmt(dur);
   }
   function updBar() { updState(); updProg(); }
-  // Warm the next few posts while the current one plays. Without this each
-  // MP3 only starts downloading once the previous post ends, which reads as a
-  // gap between speakers now that audio comes from R2 rather than this origin.
-  // Warmed with fetch() into the HTTP cache (the Worker marks MP3s immutable),
-  // not with spare Audio elements — see player() for why there is only one.
-  var __pf = {};
+  // ---- Clip downloader ----
+  // Clips are fetched whole into memory and played from blob: URLs, so moving
+  // on never waits on the network (warming the HTTP cache was not enough:
+  // Safari's media loader reads in ranges through its own path). One download
+  // at a time, in the order wanted, so on a weak connection the clip needed
+  // next gets all of the bandwidth. Same design as i18n-tts.js's loader.
+  var L = { entries: {}, queue: [], busy: false, bytes: 0, LIMIT: 80 * 1024 * 1024, order: [] };
+  function lReady(u) { var e = L.entries[u]; return e && e.state === "done" ? e.blobUrl : null; }
+  function lPending(u) { var e = L.entries[u]; return !!e && e.state !== "done"; }
+  function lWait(u, ms) {
+    var e = L.entries[u];
+    if (!e) return Promise.resolve(null);
+    if (e.state === "done") return Promise.resolve(e.blobUrl);
+    return new Promise(function (res) {
+      var t = setTimeout(function () { res(null); }, ms);
+      e.waiters.push(function (b) { clearTimeout(t); res(b); });
+    });
+  }
+  function lWant(urls) {
+    if (navigator.connection && navigator.connection.saveData) return;
+    L.queue = [];
+    urls.forEach(function (u) {
+      if (!L.entries[u]) L.entries[u] = { state: "queued", waiters: [] };
+      if (L.entries[u].state === "queued") L.queue.push(u);
+    });
+    lPump();
+  }
+  function lPump() {
+    if (L.busy) return;
+    var u = L.queue.shift(); if (!u) return;
+    var e = L.entries[u];
+    if (!e || e.state !== "queued") { lPump(); return; }
+    L.busy = true; e.state = "loading";
+    // Retried once past the HTTP cache: a clip an <audio> element fetched
+    // earlier (no Origin, so no CORS headers, and no Vary: Origin) sits in the
+    // browser cache in a form a CORS fetch rejects.
+    var get = function (cacheMode) { return fetch(u, { mode: "cors", credentials: "omit", cache: cacheMode }); };
+    get("default").catch(function () { return get("reload"); })
+      .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.blob(); })
+      .then(function (b) {
+        e.blobUrl = URL.createObjectURL(b.type ? b : new Blob([b], { type: "audio/mpeg" }));
+        e.size = b.size; e.state = "done"; L.bytes += b.size; L.order.push(u);
+        e.waiters.splice(0).forEach(function (f) { f(e.blobUrl); });
+        while (L.bytes > L.LIMIT && L.order.length > 1) {
+          var old = L.order.shift(), oe = L.entries[old];
+          if (!oe || (__el && __el.src === oe.blobUrl)) { if (oe) L.order.push(old); break; }
+          URL.revokeObjectURL(oe.blobUrl); L.bytes -= oe.size; delete L.entries[old];
+        }
+      })
+      .catch(function () { e.waiters.splice(0).forEach(function (f) { f(null); }); delete L.entries[u]; })
+      .then(function () { L.busy = false; lPump(); });
+  }
+  // The clips of the next `count` items (name, speech, 白话 each), and near
+  // the end of the debate, the opening of the next debate.
   function prefetchNext(count) {
+    var urls = [];
     for (var i = 1; i <= count; i++) {
-      var j = __p.idx + i;
-      if (j >= __p.order.length) break;
-      var e = window.__AUDIO && window.__AUDIO[__p.order[j]];
-      if (!e || !e.audio || __pf[e.audio]) continue;
-      __pf[e.audio] = 1;
-      (function (u) {
-        fetch(u, { mode: "cors", credentials: "omit" })
-          .then(function (r) { return r.ok ? r.arrayBuffer() : null; })
-          .catch(function () { delete __pf[u]; });
-      })(e.audio);
+      var pid = __p.order[__p.idx + i];
+      if (!pid) break;
+      urls = urls.concat(partsOf(pid));
+    }
+    lWant(urls);
+    if (__p.idx + count >= __p.order.length && __p.nextP) {
+      __p.nextP.then(function (nx) {
+        if (!nx || !__p.playing) return;
+        var m = resolveAudio(JSON.parse(JSON.stringify(nx.manifest)));
+        var first = [];
+        ["topic"].concat(nx.debate.posts.slice(0, 1).map(function (p) { return p.id; })).forEach(function (id) {
+          if (m[id]) first.push(m[id].audio);
+        });
+        lWant(urls.concat(first));
+      });
     }
   }
-  function clearPrefetch() { __pf = {}; }
+  function clearPrefetch() { L.queue = []; }
   // ONE element for the whole debate, src swapped per post. iOS lets an element
   // start with sound only from a tap; an element already playing may move on
   // to a new src from `ended`, but a fresh `new Audio()` may not. With one
@@ -313,9 +367,6 @@
     __p.part = i;
     var au = player();
     au.pause();
-    if (au.src !== new URL(url, location.href).href) au.src = url;
-    else { try { au.currentTime = 0; } catch (err) {} }
-    au.playbackRate = __p.rate;
     __p.audio = au; __p.playing = true;
     au.ontimeupdate = function () { updProg(); msPosition(); };
     au.onloadedmetadata = updProg;
@@ -323,7 +374,21 @@
       if (__p.part + 1 < __p.parts.length) playPart(__p.part + 1);
       else next(true);
     };
-    au.play().catch(function () { pause(); });
+    var tok = __p.tok = (__p.tok || 0) + 1;
+    function start(src) {
+      if (tok !== __p.tok) return;
+      if (au.src !== new URL(src, location.href).href) au.src = src;
+      else { try { au.currentTime = 0; } catch (err) {} }
+      au.playbackRate = __p.rate;
+      au.play().then(function () { au._unlocked = true; }, function () { if (tok === __p.tok) pause(); });
+    }
+    // In memory already → no network in the gap. Still downloading → wait a
+    // little, but only when safe: the first play must start inside the tap
+    // (iOS), and with the screen locked a gap can end the audio session.
+    var ready = lReady(url);
+    if (ready) start(ready);
+    else if (au._unlocked && !document.hidden && lPending(url)) lWait(url, 3000).then(function (b) { start(b || url); });
+    else start(url);
   }
 
   // ---- Auto-continue into the next debate (debates/index.json order) ----
@@ -383,6 +448,8 @@
     __p.order = Array.prototype.map.call(document.querySelectorAll(".topic, .post, .sum-card, .hook"), function (el) { return el.id; })
       .filter(function (id) { return window.__AUDIO[id]; });
     if (!__p.order.length) return;
+    // Start downloading the opening clips as soon as the debate is on screen.
+    lWant(partsOf(__p.order[0]).concat(__p.order[1] ? partsOf(__p.order[1]) : []));
     // click a post's speaker button → jump to that post. Once only: the
     // thread is re-rendered in place when playback continues into the next
     // debate, and a second listener would start every post twice.

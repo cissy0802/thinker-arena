@@ -2,15 +2,6 @@
   "_comment": "议题投票数据。candidates=未辩候选(供投票)，debated=已辩(链到辩论)。投票免 GitHub 登录，存于自建后端(Cloudflare Worker + D1，见 ~/Desktop/cissy0802.github.io/engage-backend/)：每候选一个 poll，key='topic:'+id，choice up/down，净票=👍−👎。votes 字段由 routine 每次跑 `python3 refresh_votes.py`(读后端 /votes-net) 回写；页面 ideas.js 也会实时拉取覆盖显示。观众自提议题在评论 page='thinker-open-questions'，各候选下讨论 page='topic:'+id——routine 读这些把好提案提炼成新 candidates。新候选加进 candidates 即可。",
   "candidates": [
     {
-      "id": "allocation-without-money",
-      "votes": 0,
-      "q": "不用钱来分，就更公平吗？",
-      "q_en": "Is an allocation made without money any fairer?",
-      "note": "排队、抽签、按需要、按资历、靠人脉——把稀缺的好东西移出市场，判断并不会消失，只是换了地方。器官名单、学区、医院加号、推荐信：每一种不用钱的分法各自奖励谁，又悄悄挡住了谁？",
-      "note_en": "Queues, lotteries, need, seniority, connections: take a scarce good off the market and judgment doesn't vanish, it just moves somewhere else. Organ lists, school catchments, hospital slots, referrals: whom does each money-free rule reward, and whom does it quietly shut out?",
-      "cat": "ethics"
-    },
-    {
       "id": "conscience-and-duty",
       "votes": 0,
       "q": "专业人士能因信念拒绝服务吗？",
@@ -1175,6 +1166,13 @@
       "q_en": "Is there anywhere left that is not watched?",
       "date": "2026-10-07",
       "cat": "life"
+    },
+    {
+      "id": "allocation-without-money",
+      "q": "不用钱来分，就更公平吗？",
+      "q_en": "Is sharing things out without money any fairer?",
+      "date": "2026-10-08",
+      "cat": "ethics"
     }
   ]
 }

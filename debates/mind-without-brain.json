@@ -1,0 +1,1098 @@
+{
+ "id": "mind-without-brain",
+ "question": "没有大脑，也能「想」吗？",
+ "question_en": "Can there be thinking without a brain?",
+ "sub": "黏菌会规划线路，蚁群会找最短路：智能是神经元的专利吗？",
+ "sub_en": "Slime mould plans networks, ant colonies find shortest paths: is intelligence the preserve of neurons?",
+ "date": "2026-10-10",
+ "participants": [
+  "eowilson",
+  "darwin",
+  "descartes",
+  "turing",
+  "dehaene",
+  "wittgenstein",
+  "hayek",
+  "wangyangming",
+  "vasubandhu"
+ ],
+ "casting": [
+  {
+   "id": "eowilson",
+   "reason": "研究了一辈子蚂蚁，把蚁群看作一个超个体：每只蚂蚁都很简单，整窝却会分工、开路、权衡。他第一个开口，主张思考可以不在任何单个成员身上。",
+   "reason_en": "He spent his life on ants and sees the colony as a superorganism: each ant is simple, yet the nest divides labor, clears trails and weighs options. He opens, arguing that thinking need not sit inside any single member."
+  },
+  {
+   "id": "darwin",
+   "reason": "晚年亲手做过植物根尖和蚯蚓的实验，相信心智只有程度之差、没有一道断崖，从根尖到人是一条连续的斜坡。",
+   "reason_en": "In old age he ran his own experiments on root tips and earthworms, and holds that minds differ only in degree: from root tip to human is one continuous slope, with no cliff in between."
+  },
+  {
+   "id": "descartes",
+   "reason": "把思想定义为能怀疑、能说『我』的意识，认为动物身体是精巧的机器。他是全场最硬的反方：做得巧不等于在想。",
+   "reason_en": "He defines thought as consciousness that can doubt and say \"I,\" and treats animal bodies as exquisite machines. He is the hardest no in the room: doing something cleverly is not thinking."
+  },
+  {
+   "id": "turing",
+   "reason": "当年把『机器能思考吗』换成一个可检验的问题。他主张别争『想』这个词归谁，把它拆成记忆、预判、学习等本领逐一测。",
+   "reason_en": "He once swapped \"Can machines think?\" for a question that could be tested. He argues for not fighting over who owns the word, and instead breaking it into abilities like memory, anticipation and learning, and testing each."
+  },
+  {
+   "id": "dehaene",
+   "reason": "用脑成像研究意识，区分无意识的计算和被全脑广播、能被说出来的『意识到』。他承认黏菌会算，但不认为它意识到了什么。",
+   "reason_en": "He studies consciousness with brain imaging and separates unconscious computation from the kind of awareness that is broadcast across the brain and can be reported. Slime mould computes, he grants, but it isn't aware of anything."
+  },
+  {
+   "id": "wittgenstein",
+   "reason": "认为『想』的意思在于我们怎样使用这个词。他连『大脑在想』都不接受：想的是人，不是颅骨里的组织。",
+   "reason_en": "He holds that the meaning of \"think\" lies in how we use the word. He won't even accept \"the brain thinks\": it's the person who thinks, not the tissue in the skull."
+  },
+  {
+   "id": "hayek",
+   "reason": "一生讲社会知识从不集中在一个脑子里，价格就是没有中心的『思考』；还写过一本讲心智如何分类的《感觉秩序》。他赞成分布式智能，却警惕人们因此去找一个总设计师。",
+   "reason_en": "All his life he argued that a society's knowledge is never held in one head, and that prices are a kind of thinking without a center; he also wrote The Sensory Order, on how the mind classifies. He welcomes distributed intelligence but distrusts the urge it triggers to find a master designer."
+  },
+  {
+   "id": "wangyangming",
+   "reason": "说『心不是一块血肉，凡知觉处便是心』，又说人与草木瓦石本是一体。在他看来，问『有没有脑』本身就找错了地方。",
+   "reason_en": "He said \"the mind is not a lump of flesh; wherever there is awareness, there is mind,\" and that people are of one body with grass, trees, tiles and stones. To him, asking whether there's a brain is looking in the wrong place."
+  },
+  {
+   "id": "vasubandhu",
+   "reason": "唯识学的代表，认为识依缘而起、并无一个思考者；又严分有情与无情，以能否受苦为界。他把『谁在想』的问题原样还给每个人自己。",
+   "reason_en": "The great voice of Yogācāra: consciousness arises from conditions, with no thinker behind it, and the line between sentient and insentient is drawn at the capacity to suffer. He hands the question \"who is thinking?\" straight back to each of us."
+  }
+ ],
+ "posts": [
+  {
+   "id": "p01",
+   "round": 1,
+   "thinker": "eowilson",
+   "reply_to": null,
+   "text": "我研究了一辈子蚂蚁。一只切叶蚁的脑只有二十多万个神经元，它不知道巢里哪儿缺人，也不知道哪条路最近。可整窝蚂蚁靠信息素一来一回，能分工、开路、种真菌、调兵御敌。我把这样的群体叫超个体。**蚁群在“想”，只是这份思考不在任何一只蚂蚁里。**问“谁在想”之前，先问清楚：你要找的那个单位，是一只，还是一窝？",
+   "text_en": "I've spent my life studying ants. A leafcutter ant's brain has only a couple of hundred thousand neurons; it doesn't know where the nest is short-handed or which route is shortest. Yet by trading pheromone signals back and forth, the colony divides labor, clears trails, farms fungus and musters defenders. I call such a group a superorganism. **The colony thinks; it's just that the thinking isn't inside any single ant.** Before asking \"who is thinking,\" settle which unit you mean: one ant, or the whole nest?",
+   "vernacular": null,
+   "vernacular_en": "",
+   "glossary": {
+    "超个体": "superorganism（超个体）：威尔逊与霍尔多布勒推广的概念，指蚂蚁、蜜蜂这类社会性昆虫的群体：成员高度分工、彼此依存，整体表现得像一个生物，单个成员离开群体便难以存活。",
+    "信息素": "pheromone（信息素）：动物分泌、用来给同类传递信号的化学物质。蚂蚁沿路留下信息素，后来者闻到就跟，走的蚂蚁越多气味越浓，最短的路线因此被强化出来。"
+   },
+   "glossary_en": {
+    "superorganism": "A term popularized by Wilson and Hölldobler for colonies of social insects such as ants and bees: members are so specialized and interdependent that the whole behaves like a single organism, and an individual can barely survive on its own.",
+    "pheromone": "A chemical an animal releases to signal others of its kind. Ants lay pheromone along their trails; followers smell it and follow, the trail grows stronger the more ants use it, and the shortest route gets reinforced."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "hayek"
+    ],
+    "轻微赞同": [
+     "darwin",
+     "turing"
+    ],
+    "中立": [
+     "dehaene"
+    ],
+    "轻微反对": [
+     "vasubandhu"
+    ],
+    "强烈反对": [
+     "descartes"
+    ],
+    "疑惑": [
+     "wittgenstein"
+    ]
+   }
+  },
+  {
+   "id": "p02",
+   "round": 1,
+   "thinker": "darwin",
+   "reply_to": null,
+   "text": "我晚年和儿子弗朗西斯在家里观察植物的根，写成《植物的运动力》。根尖能感知重力、湿度、触碰，再决定往哪边弯。我在书末写道：根尖的作用，好比低等动物的脑。**自然界里，心智不是有或无，而是多或少。**从根尖到蚯蚓，到狗，到人，我找不到一道能划下去的缝。问“没有脑能不能想”，等于先假定“想”是一道门槛；我看它更像一道斜坡。",
+   "text_en": "In old age, working at home with my son Francis, I watched plant roots and wrote it up as The Power of Movement in Plants. A root tip senses gravity, moisture and touch, then decides which way to bend. At the end of the book I wrote that the tip acts like the brain of one of the lower animals. **In nature, mind isn't a matter of yes or no, but of more or less.** From root tip to earthworm, to dog, to man, I can find no crack to draw a line through. Asking \"can you think without a brain\" assumes thinking is a threshold; I see it as a slope.",
+   "vernacular": null,
+   "vernacular_en": "",
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "eowilson"
+    ],
+    "轻微赞同": [
+     "wangyangming",
+     "turing"
+    ],
+    "轻微反对": [
+     "dehaene"
+    ],
+    "强烈反对": [
+     "descartes"
+    ],
+    "疑惑": [
+     "vasubandhu"
+    ]
+   }
+  },
+  {
+   "id": "p03",
+   "round": 1,
+   "thinker": "descartes",
+   "reply_to": null,
+   "text": "诸位把“做得巧”和“在思想”混为一谈了。钟表报时比人准，我们不说钟表会算数。黏菌连出一张像东京铁路的网，靠的是管道里养分流得多的地方变粗、流得少的地方萎缩——这是机械，不是思想。**思想是能怀疑、能说“我”的那种东西；它不在路线有多巧，而在有没有一个在场的“我思”。**谁能告诉我黏菌在怀疑什么，我就收回这句话。",
+   "text_en": "You're all confusing \"doing something cleverly\" with \"thinking.\" A clock keeps time better than we do, yet nobody says the clock can count. Slime mould lays out a network like Tokyo's railways because its tubes thicken where nutrients flow strongly and wither where they don't: that's mechanism, not thought. **Thought is the kind of thing that can doubt and say \"I\"; it lies not in how clever the route is, but in whether a cogito is present.** Show me what the slime mould doubts, and I'll take it back.",
+   "vernacular": null,
+   "vernacular_en": "",
+   "glossary": {
+    "我思": "cogito（我思）：出自笛卡尔“我思故我在”（cogito, ergo sum）。他发现一切都可怀疑，唯独“我正在怀疑”这件事无法怀疑，由此把能自觉思想的意识确立为最确定的起点。",
+    "黏菌": "slime mould（黏菌）：一类没有神经系统的原生生物。实验中多头绒泡菌被放在按东京周边城市位置摆放的燕麦片之间，长出的管道网络与真实铁路网相当接近（2010 年发表于《科学》）。"
+   },
+   "glossary_en": {
+    "cogito": "From Descartes's \"I think, therefore I am\" (cogito, ergo sum). Finding that everything could be doubted except the fact that he was doubting, he made self-aware thinking the most certain starting point of all.",
+    "Slime mould": "A protist with no nervous system. In a 2010 Science study, Physarum polycephalum placed among oat flakes arranged like the cities around Tokyo grew a tube network strikingly close to the real rail network."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "dehaene"
+    ],
+    "轻微赞同": [
+     "vasubandhu"
+    ],
+    "中立": [
+     "wittgenstein"
+    ],
+    "轻微反对": [
+     "turing",
+     "hayek"
+    ],
+    "强烈反对": [
+     "eowilson",
+     "wangyangming"
+    ]
+   }
+  },
+  {
+   "id": "p04",
+   "round": 1,
+   "thinker": "turing",
+   "reply_to": null,
+   "text": "1950 年我就说过，“机器能思考吗”这个问题太含糊，不值得讨论。我建议换个问法：在给定的任务上，它能不能做得让你分不出来？笛卡尔先生要的“我思”，我在别人身上也从来看不到，只能从他的表现去推断。**与其争“想”这个词归谁，不如把它拆成能检验的本领：记忆、预判、学习、权衡。**黏菌能预判周期性的冷风，记它一分；不会说话，扣它一分。",
+   "text_en": "Back in 1950 I said the question \"Can machines think?\" was too meaningless to deserve discussion. I proposed asking something else: on a given task, can it perform so that you can't tell the difference? The cogito Monsieur Descartes demands is something I've never been able to see in anyone else either; I can only infer it from how they behave. **Rather than fight over who owns the word \"think,\" break it into abilities you can test: memory, anticipation, learning, weighing options.** Slime mould anticipates periodic blasts of cold air: give it a point. It can't talk: take one away.",
+   "vernacular": null,
+   "vernacular_en": "",
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "hayek"
+    ],
+    "轻微赞同": [
+     "darwin",
+     "eowilson"
+    ],
+    "中立": [
+     "wittgenstein"
+    ],
+    "轻微反对": [
+     "dehaene"
+    ],
+    "强烈反对": [
+     "descartes"
+    ]
+   }
+  },
+  {
+   "id": "p05",
+   "round": 1,
+   "thinker": "dehaene",
+   "reply_to": null,
+   "text": "实验室里先分清两件事：计算和意识。人脑里绝大多数计算是无意识的——你读这句话时，认字、断句、移动眼球，全在暗处完成。所以无意识地算并不稀奇，黏菌和蚁群当然能算。**可我们说“想”，常常指被全脑广播、能被你说出来的那一小块内容，这需要全局神经工作空间。**没有长程连接的网络，就没有这种广播。黏菌会解题，却没有“想到了”的那一刻。",
+   "text_en": "In the lab, separate two things first: computation and consciousness. The vast majority of the brain's computation is unconscious; as you read this sentence, recognizing letters, parsing words and moving your eyes all happen in the dark. So computing unconsciously is nothing strange, and of course slime mould and ant colonies compute. **But when we say \"think,\" we often mean the small slice of content that is broadcast across the whole brain and that you can put into words, and that requires a global neuronal workspace.** Without long-range connections there's no such broadcast. Slime mould can solve problems; it never has the moment of \"Got it.\"",
+   "vernacular": null,
+   "vernacular_en": "",
+   "glossary": {
+    "全局神经工作空间": "global neuronal workspace（全局神经工作空间）：德阿纳与尚热提出的意识理论。大脑里许多专门模块各自无意识地处理信息，只有某条信息被前额叶、顶叶的长程神经元放大并“广播”到全脑时，它才进入意识、能被报告和灵活使用。"
+   },
+   "glossary_en": {
+    "global neuronal workspace": "A theory of consciousness proposed by Dehaene and Changeux. Many specialized brain modules process information unconsciously; only when a piece of information is amplified by long-range neurons in the frontal and parietal cortex and \"broadcast\" across the brain does it become conscious, reportable and flexibly usable."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "descartes"
+    ],
+    "轻微赞同": [
+     "vasubandhu"
+    ],
+    "中立": [
+     "hayek"
+    ],
+    "轻微反对": [
+     "turing",
+     "darwin"
+    ],
+    "疑惑": [
+     "wittgenstein"
+    ]
+   }
+  },
+  {
+   "id": "p06",
+   "round": 1,
+   "thinker": "wittgenstein",
+   "reply_to": null,
+   "text": "我在《哲学研究》里写过：“机器当然不会思考！——这是经验陈述吗？不是。我们只说人以及像人的东西在思考。”这不是对事实的发现，而是这个词的语法。**所以连“大脑在想”也说错了地方——想的是人，不是他颅骨里那团组织。**问“没有大脑能不能想”，前提早已偷换。不如看看我们实际怎么用这个词：说蚂蚁“找路”、植物“记得”，是比喻还是描述，要看在什么场合说。",
+   "text_en": "In the Philosophical Investigations I wrote: \"But a machine surely cannot think! Is that an empirical statement? No. We only say of a human being and what is like one that it thinks.\" That's not a discovery about the facts; it's the grammar of the word. **So even \"the brain thinks\" puts it in the wrong place: it's the person who thinks, not the tissue in his skull.** Asking \"can there be thinking without a brain\" has already slipped in a false premise. Look instead at how we actually use the word: when we say ants \"find\" a path or plants \"remember,\" whether that's metaphor or description depends on where it's said.",
+   "vernacular": null,
+   "vernacular_en": "",
+   "glossary": {
+    "语法": "grammar（语法）：维特根斯坦后期的特殊用法，不是语文课上的句法，而是一个词在实际生活中怎样被使用的规则。哲学困惑常常来自把一个词搬出它惯常的用法。"
+   },
+   "glossary_en": {
+    "grammar": "Wittgenstein's special later sense: not school syntax but the rules for how a word is actually used in life. Philosophical puzzles, he held, often arise from dragging a word out of its ordinary use."
+   },
+   "reactions": {
+    "轻微赞同": [
+     "turing"
+    ],
+    "中立": [
+     "hayek",
+     "darwin"
+    ],
+    "轻微反对": [
+     "dehaene"
+    ],
+    "强烈反对": [
+     "eowilson"
+    ],
+    "疑惑": [
+     "wangyangming"
+    ]
+   }
+  },
+  {
+   "id": "p07",
+   "round": 1,
+   "thinker": "hayek",
+   "reply_to": null,
+   "text": "我一辈子在讲一件被低估的事：社会用到的知识，从不集中在任何一个脑子里。锡价一涨，全世界千千万万人跟着节省、找替代品，大多不知道为什么——价格把散落各处的知识压成一个信号传开了。**这就是没有中心的“思考”：它解决了谁也解决不了的问题，里面却没有一个“谁”。**我二十出头起草、五十多岁才出版的《感觉秩序》，讲的是心智本身也是这样一张分类的网。所以蚁群不让我惊讶；我只担心人们见了这种自发秩序，总想替它找个总设计师。",
+   "text_en": "All my life I've harped on something underrated: the knowledge a society uses is never concentrated in any one head. When the price of tin rises, millions of people around the world economize and look for substitutes, most without knowing why: the price compresses knowledge scattered everywhere into one signal and spreads it. **That is \"thinking\" without a center: it solves problems no one could solve alone, yet there's no \"who\" inside it.** The Sensory Order, which I drafted in my early twenties and published in my fifties, argues that the mind itself is a classifying network of the same kind. So ant colonies don't surprise me; my worry is that whenever people see such a spontaneous order, they want to find it a master designer.",
+   "vernacular": null,
+   "vernacular_en": "",
+   "glossary": {
+    "自发秩序": "spontaneous order（自发秩序）：哈耶克的核心概念，指由无数个人各自行动、彼此调适而自然形成的秩序，如语言、市场、习惯法——它是人类行动的结果，却不是任何人设计的产物。"
+   },
+   "glossary_en": {
+    "spontaneous order": "Hayek's central idea: an order that emerges as countless individuals act and adjust to one another, as with language, markets and common law. It is the result of human action, but not of anyone's design."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "eowilson"
+    ],
+    "轻微赞同": [
+     "turing",
+     "darwin"
+    ],
+    "中立": [
+     "vasubandhu"
+    ],
+    "轻微反对": [
+     "descartes"
+    ],
+    "疑惑": [
+     "wangyangming"
+    ]
+   }
+  },
+  {
+   "id": "p08",
+   "round": 1,
+   "thinker": "wangyangming",
+   "reply_to": null,
+   "text": "吾尝言：**心不是一块血肉，凡知觉处便是心。**如耳目之知视听，手足之知痛痒，此知觉便是心也。今问无脑能想否，是又把心认作一块血肉矣。人与草木瓦石原是一体，人的良知就是草木瓦石的良知。根之趋水，蚁之寻路，何尝无一点灵明？只是不能自觉，不能致其良知耳。",
+   "text_en": "I once said: **the mind is not a lump of flesh; wherever there is awareness, there is mind.** The eyes and ears knowing sight and sound, the hands and feet knowing pain and itch: that awareness is the mind. To ask whether one can think without a brain is to mistake the mind for a lump of flesh once again. People are of one body with grass, trees, tiles and stones; human liang zhi is the liang zhi of grass, trees, tiles and stones. A root reaching for water, an ant finding its way: how could they lack a glimmer of awareness? They simply cannot be aware of it, cannot bring their innate knowing to completion.",
+   "vernacular": "我曾说过：**心不是一块血肉，凡是有知觉的地方就是心。**耳朵眼睛知道看和听，手脚知道痛和痒，这个知觉就是心。如今问没有大脑能不能想，又是把心当成一块血肉了。人和草木瓦石本来是一体的，人的良知就是草木瓦石的良知。根往有水的地方长，蚂蚁会找路，哪里没有一点灵明？只是它们不能自觉，不能把良知推到极致罢了。",
+   "vernacular_en": "",
+   "glossary": {
+    "良知": "liang zhi（良知）：语出孟子，王阳明心学的核心，指人人本有、不学而知的是非之心与知觉，“致良知”即把它推到日常的每件事上。",
+    "灵明": "numinous clarity（灵明）：王阳明用语，指心那一点能觉、能照的明觉，他说“我的灵明便是天地鬼神的主宰”。"
+   },
+   "glossary_en": {
+    "liang zhi": "\"Innate knowing,\" a term from Mencius and the core of Wang Yangming's teaching: the sense of right and wrong and the awareness everyone has without being taught. \"Extending liang zhi\" means carrying it into every everyday matter."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "darwin"
+    ],
+    "轻微赞同": [
+     "eowilson"
+    ],
+    "中立": [
+     "hayek"
+    ],
+    "轻微反对": [
+     "vasubandhu",
+     "dehaene"
+    ],
+    "强烈反对": [
+     "descartes"
+    ],
+    "疑惑": [
+     "turing"
+    ]
+   }
+  },
+  {
+   "id": "p09",
+   "round": 1,
+   "thinker": "vasubandhu",
+   "reply_to": null,
+   "text": "论曰：识有八种，依根而转。眼识依眼根，意识依意根。**然根非能见，识亦非我；但众缘和合，似有能思者现。**蚁之一身，有情所摄；蚁之一聚，但是假名，犹如军林。草木随时荣悴，似有所知，而无心心所，故名无情。是故问“谁在思”，不独问蚁聚，亦当问汝自身。",
+   "text_en": "The treatise says: there are eight kinds of consciousness, and each works by relying on a sense base. Eye-consciousness relies on the eye; mind-consciousness relies on the mental base. **Yet the base itself does not see, and consciousness is not a self; it's only that when many conditions come together, something that seems to be a thinker appears.** A single ant counts as a sentient being; a heap of ants is only a designation, like \"an army\" or \"a forest.\" Plants flourish and wither with the seasons and seem to know something, yet they have no mind or mental factors, so they are called insentient. So when you ask \"who is thinking,\" don't ask it only of the colony; ask it of yourself.",
+   "vernacular": "论中说：识有八种，都依托感官（根）运作。眼识依托眼根，意识依托意根。**可是感官本身并不能看，识也不是一个“我”；只是种种条件凑在一起，好像出现了一个在思考的人。**一只蚂蚁，算是有情众生；一窝蚂蚁，只是一个假名，就像“一支军队”“一片树林”。草木随季节荣枯，好像有所知觉，却没有心和心所，所以叫无情。因此问“谁在想”，不只要问蚁群，也该问问你自己。",
+   "vernacular_en": "",
+   "glossary": {
+    "根": "indriya（根）：感官或感知的依托，如眼根、耳根、意根。唯识学认为识必须依根而起，但根本身并不能见闻觉知。",
+    "假名": "prajñapti（假名）：佛教用语，指只是为方便而起的名称，背后并没有一个独立实在的东西，如“军队”“森林”不过是许多兵、许多树的总称。",
+    "心心所": "citta-caitta（心心所）：“心”指识本身，“心所”指随心而起的各种心理作用，如受、想、思、贪、嗔。有心心所，才算有情。",
+    "无情": "insentient（无情）：佛教把有心识、能感受苦乐的众生称为“有情”，把草木山石等没有心识者称为“无情”。"
+   },
+   "glossary_en": {
+    "sense base": "Indriya: the faculty a consciousness relies on, such as the eye, ear or mental base. Yogācāra holds that consciousness must arise on a base, though the base itself neither sees nor hears.",
+    "designation": "Prajñapti: a name used for convenience with no independently real thing behind it, as \"army\" or \"forest\" is just a collective name for many soldiers or many trees.",
+    "mental factors": "Caitta: the mental activities that arise along with consciousness, such as feeling, perception, volition, craving and aversion. Having mind and mental factors is what makes a being sentient.",
+    "insentient": "Buddhism calls beings with consciousness that can feel pleasure and pain \"sentient,\" and things without consciousness, such as plants and stones, \"insentient.\""
+   },
+   "reactions": {
+    "强烈赞同": [
+     "hayek"
+    ],
+    "轻微赞同": [
+     "wittgenstein"
+    ],
+    "中立": [
+     "dehaene"
+    ],
+    "轻微反对": [
+     "wangyangming"
+    ],
+    "强烈反对": [
+     "eowilson"
+    ],
+    "疑惑": [
+     "turing"
+    ]
+   }
+  },
+  {
+   "id": "p10",
+   "round": 2,
+   "thinker": "descartes",
+   "reply_to": "p01",
+   "text": "@爱德华·威尔逊 您说蚁群在想，可您描述的每一步都是机械：碰到信息素就跟，气味浓就多跟。把一万个发条拧在一起，得到的是一台更大的钟，不是一个灵魂。**规模不会把机械变成思想，正如一万个零加起来还是零。**我承认动物的身体是精巧的机器；可一旦把“想”借给蚁群，下一步就会借给工厂、市场、算法——处处都在想，“想”也就什么都不是了。",
+   "text_en": "@E. O. Wilson You say the colony thinks, yet every step you describe is mechanical: meet pheromone, follow it; stronger scent, more followers. Wind ten thousand clockworks together and you get a bigger clock, not a soul. **Scale doesn't turn mechanism into thought, any more than ten thousand zeros add up to something.** I grant that animal bodies are exquisite machines. But lend \"thinking\" to the colony, and next you'll lend it to the factory, the market, the algorithm; once everything thinks, \"thinking\" means nothing.",
+   "vernacular": null,
+   "vernacular_en": "",
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "dehaene"
+    ],
+    "轻微赞同": [
+     "wittgenstein"
+    ],
+    "中立": [
+     "vasubandhu"
+    ],
+    "轻微反对": [
+     "hayek"
+    ],
+    "强烈反对": [
+     "eowilson",
+     "darwin"
+    ]
+   }
+  },
+  {
+   "id": "p11",
+   "round": 2,
+   "thinker": "eowilson",
+   "reply_to": "p10",
+   "text": "@笛卡尔 先生，按您这把尺子，您自己的脑也过不了关。一个神经元只在输入够强时放电，和蚂蚁闻到信息素就跟有什么两样？您的“我思”，同样是八百多亿个这样的“发条”拧在一起的结果。**要么承认机械堆起来能生出思想，要么连人脑也一并判成钟表。**我不说蚁群有灵魂，我只说：它做出的取舍，没有一只蚂蚁做得出——这就是一种心智，只是长在另一种身体上。",
+   "text_en": "@Descartes By your yardstick, sir, your own brain fails too. A neuron fires only when its input is strong enough: how is that different from an ant following pheromone? Your cogito is likewise the product of some eighty-odd billion such \"clockworks\" wound together. **Either admit that mechanism, piled high enough, can give rise to thought, or rule the human brain a clock as well.** I'm not saying the colony has a soul. I'm saying it makes trade-offs no single ant could make, and that is a kind of mind, just grown in a different kind of body.",
+   "vernacular": null,
+   "vernacular_en": "",
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "darwin"
+    ],
+    "轻微赞同": [
+     "turing",
+     "hayek"
+    ],
+    "中立": [
+     "wittgenstein"
+    ],
+    "强烈反对": [
+     "descartes"
+    ],
+    "疑惑": [
+     "vasubandhu"
+    ]
+   }
+  },
+  {
+   "id": "p12",
+   "round": 2,
+   "thinker": "dehaene",
+   "reply_to": "p04",
+   "text": "@图灵 按表现打分，会被骗。我们做过掩蔽实验：一个词闪 30 多毫秒，被试说什么也没看见，可它照样影响了他接下来的判断。**同样的表现，里面可能是“知道”和“不知道”两种截然不同的状态——差别在脑电上看得见，在答卷上看不见。**所以测本领可以，拿它判“想没想”不行。黏菌拿高分，我毫无异议；说它意识到了什么，我要看到广播的证据。",
+   "text_en": "@Turing Score by performance and you'll be fooled. We've run masking experiments: a word flashes for thirty-odd milliseconds, the subject swears he saw nothing, yet it still sways his next judgment. **The same performance can conceal two utterly different states, knowing and not knowing; the difference shows up on the EEG, not on the answer sheet.** So testing abilities is fine; using that to rule on whether something thinks is not. Slime mould scoring high? No objection. Saying it's aware of anything? I'd want evidence of the broadcast.",
+   "vernacular": null,
+   "vernacular_en": "",
+   "glossary": {
+    "掩蔽实验": "masking experiment（掩蔽实验）：让一个刺激（如一个词）极短暂地出现，前后紧接着呈现干扰图形，使人主观上看不见它，再测它是否仍在无意识中影响判断，用来分离“意识到”和“只是被处理”。"
+   },
+   "glossary_en": {
+    "masking experiments": "A stimulus such as a word is shown very briefly, sandwiched between distracting patterns so that people don't consciously see it; researchers then test whether it still influences judgment unconsciously. It separates being aware of something from merely processing it."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "descartes"
+    ],
+    "轻微赞同": [
+     "vasubandhu"
+    ],
+    "中立": [
+     "darwin"
+    ],
+    "轻微反对": [
+     "eowilson"
+    ],
+    "强烈反对": [
+     "turing"
+    ],
+    "疑惑": [
+     "wangyangming"
+    ]
+   }
+  },
+  {
+   "id": "p13",
+   "round": 2,
+   "thinker": "turing",
+   "reply_to": "p12",
+   "text": "@德阿纳 您的“广播证据”，最后不也是一份行为记录？只是换成了脑电波形，而判定哪种波形算“意识到”，您靠的还是被试报不报告——报告就是行为。**您没有绕开表现，只是把表现的范围从嘴巴扩大到了头皮。**我不反对这样扩大。我反对的是先把答案写死：不像人脑，就不算。这就像只认自家人的笔迹。",
+   "text_en": "@Dehaene Isn't your \"evidence of broadcast\" just another behavioral record in the end? You've swapped in EEG waveforms, and to decide which waveform counts as \"aware,\" you still rely on whether the subject reports it, and reporting is behavior. **You haven't escaped performance; you've only widened it from the mouth to the scalp.** I've no objection to widening it. What I object to is fixing the answer in advance: if it isn't like a human brain, it doesn't count. That's like recognizing only your own family's handwriting.",
+   "vernacular": null,
+   "vernacular_en": "",
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "eowilson"
+    ],
+    "轻微赞同": [
+     "darwin",
+     "wittgenstein"
+    ],
+    "中立": [
+     "hayek"
+    ],
+    "轻微反对": [
+     "dehaene"
+    ],
+    "疑惑": [
+     "descartes"
+    ]
+   }
+  },
+  {
+   "id": "p14",
+   "round": 2,
+   "thinker": "wittgenstein",
+   "reply_to": "p05",
+   "text": "德阿纳教授说，想需要全局工作空间。可您描述的是想的时候脑子里发生了什么，不是“想”这个词的意思。我说“我在想周末去哪儿”，没人会去查我的脑电来确认。**脑是思考的条件，不是思考的主语；腿是走路的条件，可说“我的腿在散步”就不通了。**蚂蚁、黏菌也一样：先弄清我们用的是哪一种“想”，争论多半就散了。",
+   "text_en": "Professor Dehaene says thinking needs a global workspace. But what you describe is what happens in the brain while someone thinks, not what the word \"think\" means. When I say \"I'm thinking about where to go this weekend,\" nobody checks my EEG to confirm it. **The brain is a condition of thinking, not its subject; legs are a condition of walking, but \"my legs are taking a stroll\" makes no sense.** The same goes for ants and slime mould: get clear on which sense of \"think\" we're using, and most of the dispute dissolves.",
+   "vernacular": null,
+   "vernacular_en": "",
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "wangyangming"
+    ],
+    "轻微赞同": [
+     "vasubandhu"
+    ],
+    "中立": [
+     "turing"
+    ],
+    "轻微反对": [
+     "dehaene",
+     "eowilson"
+    ],
+    "疑惑": [
+     "darwin"
+    ]
+   }
+  },
+  {
+   "id": "p15",
+   "round": 2,
+   "thinker": "darwin",
+   "reply_to": "p10",
+   "text": "@笛卡尔 我最后一本书写的是蚯蚓。它们把叶子拖进洞口堵门时，多半捏住窄的一头；换成从没见过的三角形纸片，也照样挑尖角下手。**一个不会“怀疑”的生物，却能对新东西做出合宜的判断；我只能称之为某种程度的智力。**您把思想定为能怀疑，那婴儿、熟睡的人和狗都被划了出去。划线可以，请先说明线为什么在那儿，而不在别处。",
+   "text_en": "@Descartes My last book was about earthworms. When they drag leaves into their burrows to plug the entrance, they usually grip the narrow end; give them paper triangles they've never met, and they still go for the pointed corner. **A creature that cannot \"doubt\" still makes a fitting judgment about something new; I can only call that a degree of intelligence.** Define thought as the capacity to doubt, and you've ruled out infants, sleepers and dogs. Draw a line if you like, but first explain why it falls there and not somewhere else.",
+   "vernacular": null,
+   "vernacular_en": "",
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "eowilson",
+     "wangyangming"
+    ],
+    "轻微赞同": [
+     "turing"
+    ],
+    "中立": [
+     "hayek"
+    ],
+    "轻微反对": [
+     "dehaene"
+    ],
+    "强烈反对": [
+     "descartes"
+    ]
+   }
+  },
+  {
+   "id": "p16",
+   "round": 2,
+   "thinker": "hayek",
+   "reply_to": "p11",
+   "text": "@爱德华·威尔逊 我同意蚁群有一种没有中心的智慧，但请小心您那句名言：“马克思是对的，社会主义行得通，只是他选错了物种。”**蚂蚁的分工写在基因里，人的分工靠的是各自握着别人不知道的知识。**把人群当成超个体，最顺手的推论就是“那就给它装个脑”——计划者正是这样想的。人类社会之所以聪明，恰恰因为谁也没资格替它去想。",
+   "text_en": "@E. O. Wilson I agree the colony has a centerless kind of intelligence, but be careful with that famous line of yours: \"Karl Marx was right, socialism works, it is just that he had the wrong species.\" **Ants divide their labor by genes; people divide theirs because each holds knowledge nobody else has.** Treat a human crowd as a superorganism and the handiest conclusion is \"then let's fit it with a brain,\" which is exactly how planners think. Human society is clever precisely because no one is entitled to do its thinking for it.",
+   "vernacular": null,
+   "vernacular_en": "",
+   "glossary": {
+    "超个体": "superorganism（超个体）：把一个群体看成一个整体生物的说法，源自对蚂蚁、蜜蜂等社会性昆虫的研究。"
+   },
+   "glossary_en": {
+    "superorganism": "The idea of treating a group as a single organism, drawn from the study of social insects such as ants and bees."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "descartes"
+    ],
+    "轻微赞同": [
+     "wittgenstein",
+     "turing"
+    ],
+    "中立": [
+     "vasubandhu"
+    ],
+    "轻微反对": [
+     "eowilson"
+    ],
+    "疑惑": [
+     "wangyangming"
+    ]
+   }
+  },
+  {
+   "id": "p17",
+   "round": 2,
+   "thinker": "wangyangming",
+   "reply_to": "p03",
+   "text": "@笛卡尔 闻足下谓心身二物，又求其交会于脑中一小腺，此正是认心作血肉。**心无内外，岂可于一腺中寻？**足下以能疑为心，疑者固是心；然饥知食、痛知避，亦是心之发用，何尝低了分毫？只为私意隔断，便说彼是机械、我是灵魂。",
+   "text_en": "@Descartes I hear you hold that mind and body are two things, and you look for the place they meet in a small gland in the brain: that is precisely mistaking the mind for flesh. **The mind has no inside or outside; how could you find it in a gland?** You take doubting as the mark of mind. Doubting is surely mind, but knowing to eat when hungry and to flinch from pain is also mind at work; how is it lower by the slightest degree? Only because selfish intent cuts things apart do you say they are machines and you are a soul.",
+   "vernacular": "@笛卡尔 听说您认为心和身是两样东西，又到脑中一小块腺体里去找两者交会之处，这恰恰是把心当成了血肉。**心本没有内外，怎么能在一个腺体里找到？**您把能怀疑当作心，怀疑固然是心；可饿了知道吃、痛了知道躲，也是心在起作用，哪里低了一分一毫？只因为私心把万物隔开，才说它们是机械、我是灵魂。",
+   "vernacular_en": "",
+   "glossary": {
+    "发用": "functioning（发用）：宋明理学用语，指本体在具体事情上的表现、作用，如心在饥饿时知道要吃、在疼痛时知道要躲。",
+    "私意": "selfish intent（私意）：王阳明用语，指出于小我的私心杂念，它把人与万物本来一体的关系隔开。"
+   },
+   "glossary_en": {
+    "selfish intent": "Wang Yangming's term for small-minded, self-centered thoughts, which cut people off from the oneness they originally share with all things."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "darwin"
+    ],
+    "轻微赞同": [
+     "eowilson",
+     "wittgenstein"
+    ],
+    "中立": [
+     "turing"
+    ],
+    "轻微反对": [
+     "vasubandhu"
+    ],
+    "强烈反对": [
+     "descartes"
+    ]
+   }
+  },
+  {
+   "id": "p18",
+   "round": 2,
+   "thinker": "vasubandhu",
+   "reply_to": "p08",
+   "text": "@王阳明 公言草木瓦石同一良知，此语太宽。**根之趋水，如铁之趣磁，似知而非识；**若皆名心，则心字无界，苦乐亦无所寄。吾宗分有情、无情，非为高下，为辨谁能受苦。慈悲须有所对：于能受苦者当护，于草木当惜而不必悲。",
+   "text_en": "@Wang Yangming You say grass, trees, tiles and stones share one liang zhi; that is too broad. **A root turning toward water is like iron drawn to a magnet: it looks like knowing, but it is not consciousness.** Call all of it mind, and the word \"mind\" has no edge, and suffering and joy have nowhere to land. Our school distinguishes the sentient from the insentient not to rank them, but to discern who can suffer. Compassion needs an object: protect whatever can suffer; cherish plants, but there's no call to grieve for them.",
+   "vernacular": "@王阳明 您说草木瓦石同有一个良知，这话说得太宽了。**根往有水处长，就像铁被磁石吸过去，看似有知，其实不是识；**如果都叫作心，“心”这个字就没有边界了，苦和乐也就没处落脚。我们这一宗区分有情和无情，不是分高低，而是要辨明谁能受苦。慈悲必须有对象：对能受苦的要护持，对草木要爱惜，却不必为它悲悯。",
+   "vernacular_en": "",
+   "glossary": {
+    "有情": "sentient being（有情）：梵语 sattva，佛教指有心识、能感受苦乐的众生，与草木山石等“无情”相对。"
+   },
+   "glossary_en": {
+    "sentient": "In Buddhism, a sentient being (Sanskrit sattva) is one with consciousness that can feel pleasure and pain, as opposed to insentient things such as plants and stones."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "dehaene"
+    ],
+    "轻微赞同": [
+     "descartes",
+     "wittgenstein"
+    ],
+    "中立": [
+     "hayek"
+    ],
+    "轻微反对": [
+     "darwin"
+    ],
+    "强烈反对": [
+     "wangyangming"
+    ],
+    "疑惑": [
+     "eowilson"
+    ]
+   }
+  },
+  {
+   "id": "p19",
+   "round": 3,
+   "thinker": "vasubandhu",
+   "reply_to": null,
+   "text": "诸师所争，或在能算，或在能觉，或在能疑。吾宗但问一事：**念念生灭，谁是作者？**蚁聚无主，人身亦无主；但人能返观，见念起念落而不随之转，此即修行下手处。劝诸位：日日静坐一刻，念起时但知其起，不追不拒；久之自见，所谓“我在想”，不过是想在发生。见得此者，烦恼可减大半。",
+   "text_en": "Of the teachers here, some argue over computing, some over awareness, some over doubting. Our school asks only one thing: **thought after thought arises and ceases; who is its author?** The ant colony has no master, and neither does the human body; it's only that a person can turn awareness back on itself, watch thoughts rise and fall, and not be swept along by them. That is where practice begins. My advice: sit quietly for a quarter of an hour each day; when a thought arises, simply know that it has arisen, neither chasing it nor pushing it away. In time you'll see for yourself that \"I am thinking\" is only thinking happening. See that, and most of your afflictions fall away.",
+   "vernacular": "各位老师争的，有的在能不能计算，有的在能不能觉知，有的在能不能怀疑。我们这一宗只问一件事：**念头一个接一个生起又灭去，是谁在造作它们？**蚁群没有主人，人身其实也没有主人；只不过人能反过来观照，看见念头起落而不跟着它转，这就是修行下手的地方。劝各位：每天静坐一刻钟，念头起来时只是知道它起来了，不追逐也不排斥；时间久了自然看到，所谓“我在想”，不过是“想”在发生。看清这一点，烦恼能少一大半。",
+   "vernacular_en": "",
+   "glossary": {
+    "返观": "introspection（返观）：把注意力转回到心本身，观察念头如何生起、停留、消失，而不是被念头的内容牵着走。",
+    "烦恼": "kleśa（烦恼）：佛教用语，指扰乱身心、使人痛苦的心理作用，如贪、嗔、痴、慢、疑。"
+   },
+   "glossary_en": {
+    "afflictions": "Kleśa: in Buddhism, the mental states that disturb body and mind and cause suffering, such as craving, aversion, delusion, conceit and doubt."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "wangyangming"
+    ],
+    "轻微赞同": [
+     "wittgenstein",
+     "hayek"
+    ],
+    "中立": [
+     "turing"
+    ],
+    "轻微反对": [
+     "descartes"
+    ],
+    "疑惑": [
+     "eowilson"
+    ]
+   }
+  },
+  {
+   "id": "p20",
+   "round": 3,
+   "thinker": "turing",
+   "reply_to": null,
+   "text": "我的结论不变：把“想”拆开，一样一样地问。其实今天大家已经在这么做了——达尔文看判断，德阿纳看报告，笛卡尔看自我怀疑。**拆开之后，许多“它到底想没想”的争吵，会变成“它在哪件事上靠得住”。**这对普通人用得上：面对 AI、导航、推荐算法，别问它聪不聪明，问它在你这件具体的事上错过几次、错了谁来兜底。凭记录信任，而不是凭名气或外表。",
+   "text_en": "My conclusion stands: take \"think\" apart and ask about each piece. Everyone here has in fact been doing that: Darwin looks at judgment, Dehaene at reporting, Descartes at self-doubt. **Once you take it apart, many fights over \"does it really think\" become \"what can it be trusted with.\"** Ordinary people can use this: with AI, navigation apps or recommendation algorithms, don't ask whether they're smart; ask how often they've been wrong on your specific task, and who picks up the pieces when they are. Trust by track record, not by reputation or appearance.",
+   "vernacular": null,
+   "vernacular_en": "",
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "hayek"
+    ],
+    "轻微赞同": [
+     "dehaene",
+     "darwin",
+     "eowilson"
+    ],
+    "中立": [
+     "vasubandhu"
+    ],
+    "疑惑": [
+     "wangyangming"
+    ]
+   }
+  },
+  {
+   "id": "p21",
+   "round": 3,
+   "thinker": "hayek",
+   "reply_to": null,
+   "text": "我和威尔逊教授走到了同一处：秩序可以没有设计者。分歧只在于，人要不要因此再造一个中心。**群体的聪明，靠每个人能根据自己掌握的那点情况去调整，并承担后果。**落到日常：在团队里，把决定权交给最贴近情况的人，让他们看得见成本和反馈；在家里，别替孩子把所有事都想好，留给他们试错的余地。反过来，有人说“这是系统决定的”，记得追问：谁能改它，错了谁负责？",
+   "text_en": "Professor Wilson and I have arrived at the same place: order can exist without a designer. The only disagreement is whether people should therefore build a center back in. **A group's intelligence depends on each person being able to adjust to the bit of the situation they know, and bearing the consequences.** In daily life: on a team, give decisions to the people closest to the situation and let them see costs and feedback; at home, don't think everything through for your children, leave them room to try and fail. And when someone tells you \"the system decided,\" remember to ask: who can change it, and who answers when it's wrong?",
+   "vernacular": null,
+   "vernacular_en": "",
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "eowilson"
+    ],
+    "轻微赞同": [
+     "turing",
+     "descartes"
+    ],
+    "中立": [
+     "wangyangming"
+    ],
+    "轻微反对": [
+     "dehaene"
+    ],
+    "疑惑": [
+     "vasubandhu"
+    ]
+   }
+  },
+  {
+   "id": "p22",
+   "round": 3,
+   "thinker": "darwin",
+   "reply_to": null,
+   "text": "听了一圈，我更相信斜坡而不是悬崖。笛卡尔先生要的怀疑、德阿纳教授说的广播，都在坡上很高的地方，但坡是连着的。**承认别的生灵“有一点”，不会让人贬值，只会让人少一点傲慢。**送诸位一个我用了一辈子的办法：别急着下定义，先看。找一盆植物、一列蚂蚁，每天看十分钟，记下它们怎样应对变化。耐心的观察，比任何争论都更快改变你对“聪明”的看法——对孩子、老人和不善言辞的人，也是一样。",
+   "text_en": "Having heard everyone out, I believe in the slope more than the cliff. The doubting Monsieur Descartes demands and the broadcast Professor Dehaene describes sit high up the slope, but the slope is continuous. **Granting other creatures \"a little\" doesn't cheapen us; it only makes us a little less arrogant.** Here's a method I used all my life: don't rush to define, look first. Find a potted plant or a line of ants, watch for ten minutes a day, and note how they deal with change. Patient watching will shift your idea of \"clever\" faster than any argument, and the same goes for children, old people and anyone who isn't good with words.",
+   "vernacular": null,
+   "vernacular_en": "",
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "wangyangming",
+     "eowilson"
+    ],
+    "轻微赞同": [
+     "turing"
+    ],
+    "中立": [
+     "hayek"
+    ],
+    "轻微反对": [
+     "descartes"
+    ],
+    "疑惑": [
+     "vasubandhu"
+    ]
+   }
+  },
+  {
+   "id": "p23",
+   "round": 3,
+   "thinker": "wittgenstein",
+   "reply_to": null,
+   "text": "一场争论能走多远，取决于大家有没有发现自己在用不同的“想”。达尔文的“想”是应对，德阿纳的是意识，笛卡尔的是怀疑，威尔逊的是取舍。**很多吵不完的架，不是事实上的分歧，而是同一个词各说各话。**日常也一样：夫妻争“你根本不关心我”，两人说的“关心”常常是两回事。下次卡住时，停下来问一句：“你说的这个词，具体指什么？举个例子。”这比再讲十条理由都管用。",
+   "text_en": "How far a dispute can go depends on whether people notice they're using different senses of \"think.\" Darwin's \"think\" means responding, Dehaene's means awareness, Descartes's means doubting, Wilson's means making trade-offs. **Many endless quarrels aren't disagreements about facts; they're one word being used for different things.** Everyday life is the same: when a couple argues over \"you don't care about me at all,\" the two \"cares\" are often two different things. Next time you're stuck, stop and ask: \"What exactly do you mean by that word? Give me an example.\" That does more than ten more reasons.",
+   "vernacular": null,
+   "vernacular_en": "",
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "turing"
+    ],
+    "轻微赞同": [
+     "vasubandhu",
+     "hayek",
+     "darwin"
+    ],
+    "中立": [
+     "descartes"
+    ],
+    "轻微反对": [
+     "dehaene"
+    ]
+   }
+  },
+  {
+   "id": "p24",
+   "round": 3,
+   "thinker": "eowilson",
+   "reply_to": null,
+   "text": "我收回一半：说蚁群“有心智”，词用得急了，哈耶克的提醒我接受，人不是蚂蚁。另一半我坚持：**聪明可以是一种安排，而不只是一个器官。**蚁群聪明，是因为每只蚂蚁都把信息留在路上，让后来者看见。这对普通人很实用：在家里、在团队里，别指望一个最聪明的人记住一切，把信息留在大家都会经过的地方——冰箱上的清单、共享文档、交接本。一个平常的小组，用好路上的“信息素”，常常比一个天才更靠谱。",
+   "text_en": "I'll take back half: saying the colony \"has a mind\" was hasty with the word, and I accept Hayek's warning that people aren't ants. But I hold to the other half: **intelligence can be an arrangement, not just an organ.** Colonies are smart because every ant leaves information on the trail for those who come after. That's practical for ordinary people: at home or at work, don't count on the smartest person remembering everything; leave information where everyone passes: the list on the fridge, the shared document, the handover notebook. An ordinary team that makes good use of its \"pheromone trail\" is often more reliable than a single genius.",
+   "vernacular": null,
+   "vernacular_en": "",
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "hayek"
+    ],
+    "轻微赞同": [
+     "turing",
+     "darwin",
+     "wittgenstein"
+    ],
+    "中立": [
+     "dehaene"
+    ],
+    "轻微反对": [
+     "descartes"
+    ]
+   }
+  },
+  {
+   "id": "p25",
+   "round": 3,
+   "thinker": "dehaene",
+   "reply_to": null,
+   "text": "图灵说得对，我的证据也是行为，只是更精细的行为。我把立场说准一点：**解题的能力可以遍布自然，“意识到”却很可能需要特定的结构。**这个区别对你自己最有用：你的大脑大部分时间也在无意识地算。遇到难题，先有意识地把材料吃透，再去睡一觉、散个步，让暗处的计算接手，第二天回头看，常有答案。但要拍板的事，一定在清醒、专注、一次只想一件事时做：意识的带宽很窄，别让它同时开三个窗口。",
+   "text_en": "Turing is right that my evidence is also behavior, just finer-grained behavior. Let me state my position more precisely: **problem-solving can be spread all through nature, but \"being aware\" very likely needs a particular structure.** That distinction is most useful for you: your own brain is computing unconsciously most of the time. With a hard problem, first take in the material consciously and thoroughly, then sleep on it or go for a walk and let the computation in the dark take over; come back the next day and the answer is often there. But make the final call when you're alert, focused and thinking about one thing at a time: consciousness has narrow bandwidth, so don't make it run three windows at once.",
+   "vernacular": null,
+   "vernacular_en": "",
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "descartes"
+    ],
+    "轻微赞同": [
+     "turing",
+     "vasubandhu"
+    ],
+    "中立": [
+     "eowilson"
+    ],
+    "轻微反对": [
+     "wittgenstein"
+    ],
+    "疑惑": [
+     "wangyangming"
+    ]
+   }
+  },
+  {
+   "id": "p26",
+   "round": 3,
+   "thinker": "descartes",
+   "reply_to": null,
+   "text": "我承认，图灵先生和达尔文先生逼我把线画得更小心了：能算、能应对、能学，许多生灵都有。**但我仍要守住一样东西：能退一步，怀疑自己刚得出的结论。**这是黏菌和蚁群做不到、人却常常懒得做的。所以我的建议是：每次做重要决定前，写下“我凭什么这样认为”，再找一条能推翻它的理由。别把这份能力外包给群体、潮流或机器——它们能替你算，不能替你怀疑。",
+   "text_en": "I admit Mr. Turing and Mr. Darwin have pushed me to draw my line more carefully: computing, responding, learning, many creatures have these. **But I still hold to one thing: the capacity to step back and doubt the conclusion you've just reached.** Slime mould and ant colonies can't do it, and people often can't be bothered to. So my advice: before every important decision, write down \"on what grounds do I believe this,\" then look for one reason that could overturn it. Don't outsource this ability to the crowd, to fashion or to machines; they can compute for you, but they can't doubt for you.",
+   "vernacular": null,
+   "vernacular_en": "",
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "dehaene"
+    ],
+    "轻微赞同": [
+     "wittgenstein",
+     "hayek",
+     "vasubandhu"
+    ],
+    "中立": [
+     "turing"
+    ],
+    "轻微反对": [
+     "eowilson"
+    ]
+   }
+  },
+  {
+   "id": "p27",
+   "round": 3,
+   "thinker": "wangyangming",
+   "reply_to": null,
+   "text": "诸君辨之甚细，然吾意不在辨。**知觉处便是心，则心不独在头中，亦在手足，在与物相接处。**今人终日想于头中，手足之知、饥饱之知、痛痒之知皆不理会，是自弃其心之大半也。吾劝诸君：须在事上磨练，烹饪、洒扫、灌园之际，皆留心于手足所知；待草木虫鱼、待家中老幼，勿以其不能言而轻之。此便是致良知，不待辨明脑之有无。",
+   "text_en": "You've all drawn very fine distinctions, but my purpose isn't to draw them. **If wherever there is awareness there is mind, then the mind isn't only in the head, but in the hands and feet, wherever we meet things.** People today spend all day thinking in their heads and ignore what their hands and feet know, what hunger and fullness know, what pain and itch know: they throw away most of their own mind. My advice: train yourself in practice. While cooking, sweeping or watering the garden, pay attention to what your hands and feet know; and toward grass, trees, insects and fish, toward the old and young at home, don't think less of them because they can't put it into words. That is extending liang zhi, and it doesn't wait on settling whether there's a brain.",
+   "vernacular": "各位分辨得很细，但我的用意不在分辨。**凡有知觉的地方就是心，那么心就不只在头里，也在手脚，在与外物相接触的地方。**现在的人整天在脑子里想，对手脚的知觉、饥饱的知觉、痛痒的知觉都不理会，等于自己丢掉了大半个心。我劝各位：要在具体事情上磨练，做饭、打扫、浇园子的时候，都留心手脚感受到的东西；对待草木虫鱼、对待家里老人孩子，不要因为他们说不出来就轻视他们。这就是致良知，用不着先辨明有没有大脑。",
+   "vernacular_en": "",
+   "glossary": {
+    "事上磨练": "training in practice（事上磨练）：王阳明用语，主张心性功夫不靠闭门空想，而要在处理日常具体事务中磨练。",
+    "致良知": "extending liang zhi（致良知）：王阳明晚年的宗旨，把人人本有的良知推行到每件具体事情上，知与行合为一体。"
+   },
+   "glossary_en": {
+    "extending liang zhi": "The watchword of Wang Yangming's later years: carrying the innate knowing everyone has into every concrete matter, so that knowing and acting become one."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "darwin"
+    ],
+    "轻微赞同": [
+     "vasubandhu",
+     "eowilson"
+    ],
+    "中立": [
+     "hayek"
+    ],
+    "轻微反对": [
+     "dehaene"
+    ],
+    "疑惑": [
+     "descartes"
+    ]
+   }
+  }
+ ],
+ "summaries": [
+  {
+   "ai": "claude",
+   "engine": "Opus 5.5 · 订阅(原生)",
+   "engine_en": "Opus 5.5 · subscription (native)",
+   "summary": "最大的共识是：**“想”不是一件事，而是一束本领**——应对、预判、学习、取舍、报告、怀疑，分开来问，许多分歧就缩小了。在“能不能解题”上全场几乎一致：黏菌、蚁群、根尖都能，没有大脑也行。分歧集中在三处。一是“意识到”要不要特定结构：德阿纳说要，王阳明说凡知觉处便是心。二是群体算不算一个“谁”：威尔逊倾向算，哈耶克和世亲认为那只是秩序或假名。三是线该不该划：笛卡尔守住自我怀疑，达尔文只认一道斜坡。维特根斯坦则提醒，许多争吵其实是同一个词各说各话。",
+   "summary_en": "The biggest point of agreement: **\"thinking\" isn't one thing but a bundle of abilities**: responding, anticipating, learning, weighing trade-offs, reporting, doubting. Ask about them separately and many disagreements shrink. On problem-solving, nearly everyone agreed: slime mould, ant colonies and root tips can do it, no brain required. The disagreements fell in three places. First, does awareness need a particular structure? Dehaene says yes; Wang Yangming says wherever there is awareness, there is mind. Second, does a group count as a \"who\"? Wilson leans yes; Hayek and Vasubandhu see only an order or a designation. Third, should a line be drawn at all? Descartes holds the line at self-doubt; Darwin recognizes only a slope. Wittgenstein's reminder: many of these quarrels are one word being used for different things.",
+   "insight": "全场把“没有大脑”当成黏菌和蚂蚁的事，其实**人自己的思考也有一大块不在大脑里**。我们靠笔记、日历、家人的记忆、手机提醒在想，忘带手机时就像少了一块脑子。所以“谁在想”对人同样成立，而且有现实后果：你的思考放在哪些外部工具里，谁能改动它们，你就把一部分心智交给了谁。威尔逊的信息素、哈耶克的价格，讲的都是外部痕迹在替人想。区别只在于，蚂蚁挑不了自己的路，人却能挑自己的工具，也能决定哪些事必须留在自己脑子里。",
+   "insight_en": "The whole debate treated \"no brain\" as a matter of slime mould and ants, but **a big share of human thinking doesn't happen in the brain either.** We think with notes, calendars, family members' memories and phone reminders; forget your phone and it feels like missing a piece of your mind. So \"who is thinking?\" applies to us too, with real consequences: whichever outside tools hold your thinking, and whoever can change them, have been handed part of your mind. Wilson's pheromones and Hayek's prices are both about outside traces doing people's thinking for them. The difference is that ants can't choose their trails, while people can choose their tools, and can decide what must stay in their own heads.",
+   "advice": "第一，这周给家里或团队设一条“信息素小路”：一张共享清单或交接本，让关键信息不再只存在一个人脑子里。第二，借图灵的办法用工具：对导航、AI 助手、推荐算法，记下它在你具体事务上错过几次，按记录决定交多少事给它，**别按它看起来有多聪明**。第三，借德阿纳和笛卡尔：重要决定先睡一觉，让暗处的计算接手；拍板时写下“我凭什么这样认为”，再找一条反驳它的理由。和人争执卡住时，照维特根斯坦说的，先问对方那个关键词具体指什么。",
+   "advice_en": "First, this week set up a \"pheromone trail\" at home or at work: a shared list or handover notebook, so key information no longer lives in just one person's head. Second, use tools the Turing way: with navigation apps, AI assistants and recommendation algorithms, keep track of how often they've been wrong on your specific tasks, and decide how much to hand them by that record, **not by how clever they seem.** Third, borrow from Dehaene and Descartes: sleep on important decisions and let the computation in the dark take over; when you make the call, write down \"on what grounds do I believe this,\" then look for one reason against it. And when an argument with someone stalls, do as Wittgenstein says: first ask what exactly they mean by the key word."
+  },
+  {
+   "ai": "gpt",
+   "engine": "openai · gpt-5.6-sol · high(真实API)",
+   "engine_en": "openai · gpt-5.6-sol · high (live API)",
+   "summary": "复杂、灵活的解题能力，并不必然需要中央指挥者，更不只存在于人脑：蚁群、植物、市场和机器都能以反馈、记忆或分布式协作完成某些计算。争论真正分叉在“想”包含什么：是可观察的学习与预判，是被主体体验到的意识，是反省和怀疑，还是日常语言中只适用于人的称谓；此外还牵涉该把个体、群体还是整个环境视为认知单位。**真正的分歧不是自然界有没有计算，而是哪种能力足以让我们把“思考者”、意识和道德地位归给某个系统。**",
+   "insight": "还可以把问题拆成三条彼此独立的轴：能力、体验与责任。一个系统可能很会解题，却没有痛苦或喜悦；一个群体可能形成决定，却没有统一的第一人称；一个算法即使没有主体体验，其设计者和使用者仍须为后果负责。这一区分对 AI、公司和官僚系统尤其重要：高性能不能自动证明意识，“系统自己得出的结果”也不能成为免责理由。**不要用“会解题”偷换“会感受”，也不要用“没有中心”逃避“谁负责”。**",
+   "advice": "本周可做三件事。第一，遇到 AI、团队或自己的直觉给出答案时，写一张任务卡：它具体要做什么、成功标准是什么、过去错过几次。第二，对重要决定留一页记录，写下依据、一个可能推翻结论的证据，以及何时复查。第三，把共享信息和责任同时外置：用清单、交接本或共享文档保存线索，并明确一名最终确认者和出错后的补救方案。**既利用分布式智慧，又保留可追溯、可质疑、有人兜底的决策链。**",
+   "summary_en": "Sophisticated, adaptive problem-solving does not always require a central controller, nor is it confined to a human brain. Ant colonies, plants, markets, and machines can all use feedback, memory, and distributed coordination to perform some forms of computation. The real disagreement concerns what we bundle into the word “thinking”: observable learning and prediction, conscious access to information, the ability to reflect and doubt, or a concept whose ordinary use is reserved for persons and person-like beings. There is also a boundary problem: should the relevant cognitive unit be the organism, the colony, the institution, or the organism together with its environment? **The central dispute is not whether nature computes, but which capacities justify treating a system as a thinker, a conscious subject, or a bearer of moral status.** Keeping those claims separate preserves the useful continuity in nature without erasing consequential differences.",
+   "insight_en": "The issue becomes clearer when divided along three independent dimensions: competence, experience, and responsibility. A system may solve difficult problems without feeling pain or pleasure. A collective may produce coherent decisions without possessing a unified first-person point of view. And an algorithm may lack any subjective experience while its designers, deployers, and users remain fully responsible for what it does. This framework is especially useful for dealing with AI, corporations, and bureaucracies. Impressive performance is not evidence by itself that something is conscious; conversely, saying that an outcome “emerged from the system” does not absolve the people who created its rules or accepted its recommendations. **Do not substitute problem-solving for sentience, and do not use the absence of a center to evade accountability.** These distinctions let us remain empirically open-minded about unfamiliar minds while staying practical about risk, ethics, and governance.",
+   "advice_en": "Try three concrete practices this week. First, whenever an AI tool, a team, or your own intuition produces an answer, make a small task card: define the exact job, the success criterion, and the system’s known failure rate on comparable cases. Second, keep a one-page decision log for consequential choices. Record the evidence, one observation that could overturn your conclusion, and a date for review; this turns doubt into a repeatable procedure rather than a mood. Third, externalize both information and responsibility. Put relevant clues in a shared document, checklist, or handover note, but also name one person who must verify the final decision and specify what happens if it fails. **Use distributed intelligence while preserving a decision chain that is traceable, challengeable, and backed by a human fallback.** This captures the practical benefits of collective cognition without pretending that systems are infallible or that responsibility can simply dissolve into the group."
+  },
+  {
+   "ai": "gemini",
+   "engine": "google · gemini-3.8-flash(真实API)",
+   "engine_en": "google · gemini-3.8-flash (live API)",
+   "summary": "从根尖趋水、蚁群筑巢到市场调节，适应性解题与信息整合早已遍布自然，完全打破了单一颅脑对智能行为的垄断。与会者普遍承认，复杂的效能并不依赖集中式的神经中枢。**真正的分歧焦点在于：“思考”到底该锚定在外部任务的完成度，还是锚定在内在主观意识与元反思的在场**。达尔文与图灵将心智视为从简单适应到复杂计算的光谱；德阿纳与笛卡尔则坚守意识广播与自我怀疑的独特门槛；维特根斯坦与世亲更进一步指出，把“想”归结为一个实体主语，本就是语言诱发的执念。",
+   "insight": "现代生物力学与软体机器人揭示了一个更底层的物理事实：物质形态本身就在承担计算。章鱼腕足的灵活卷曲、人类跟腱在奔跑中的能量储存，直接利用材料力学消化了极其复杂的动力学方程，根本不需要中枢神经介入放电。**真正的“非脑之思”甚至不需要信息素或电信号，肉身本身的物理结构就在替系统解题**。对普通人而言，这意味着破解复杂死局未必要靠脑力死磕；优化办公桌布局、改造工作动线、借力物理工具，让环境与身体直觉分担运算负荷，往往比苦思冥想更有效率。",
+   "advice": "不妨在日常中落地两套行之有效的动作：第一，践行威尔逊的“信息素策略”，将个人记忆外化到物理空间。把本周最关键的三件事写在显眼白板或门后便签上，**用经过视线的环境线索代替脆弱的大脑记忆**。第二，采纳笛卡尔与德阿纳的组合拳：面对重大取舍时，白天充分摄入材料后立刻停手去散步或睡眠，让潜意识并行消化；次日清晨落笔前，强制在纸上写下一条“能彻底推翻当前判断的反向证据”，确认无误后再行动。",
+   "summary_en": "Adaptive problem-solving and systemic intelligence flourish across nature without a centralized brain, evident in plant root tropism, ant colonies, and self-regulating markets. The participants share a solid foundation: sophisticated coordination does not require a cranial commander. **The true dividing line lies in whether \"thinking\" denotes behavioral problem-solving capacity or demands phenomenal consciousness and metacognitive self-doubt.** While Darwin and Turing view cognition as an unbroken continuum of functional adaptation, Descartes and Dehaene reserve genuine thought for global workspace broadcasting and reflexive doubt. Meanwhile, Wittgenstein and Vasubandhu challenge the very premise of hunting for a central \"thinker\" behind the process.",
+   "insight_en": "Modern soft robotics and biomechanics demonstrate an overlooked physical reality: material morphology itself performs computation. An octopus arm's compliant grasping or the elastic recoil of a human Achilles tendon solves intricate differential equations purely through material mechanics, bypassing neural firing entirely. **Genuine non-neural thinking does not even require signaling networks; the physical architecture of the body directly absorbs computational burdens.** For everyday life, this implies that resolving complex dilemmas does not always require intense cerebral strain. Reconfiguring your physical workspace, reshaping physical routines, and relying on external tools allow your body and environment to offload cognitive labor with far greater elegance.",
+   "advice_en": "Translate these insights into practical actions this week: First, adopt Wilson's \"pheromone strategy\" by offloading working memory into your physical surroundings. Place high-visibility cues—such as a dry-erase board or physical task cards—directly along your daily traffic path, **allowing environmental affordances rather than mental effort to prompt execution**. Second, pair Dehaene's incubation with Descartes's rigor: when tackling a high-stakes decision, absorb the relevant facts, then intentionally disengage through a walk or sleep to let non-conscious processing work. Before finalizing your choice, force yourself to write down one falsifying condition that would prove your conclusion wrong."
+  }
+ ],
+ "hooks": [
+  {
+   "from": "claude",
+   "text": "**该拿哪把尺子量“想”**：全场其实给出了好几把尺子——应对、预判、群体取舍、可报告、自我怀疑、能受苦。黏菌、蚁群各过得了哪几把？过了哪几把，又意味着什么？",
+   "text_en": "**Which yardstick measures \"thinking\"?** The debate actually offered several: responding, anticipating, group trade-offs, reportability, self-doubt, the capacity to suffer. Which ones do slime mould and ant colonies pass, and what follows from passing them?",
+   "answer": {
+    "lead": "把全场的标准摆在一起，**别问“它想不想”，问“它过了哪几把尺子”。**",
+    "table": {
+     "head": [
+      "尺子",
+      "谁主张、怎么测",
+      "黏菌 / 蚁群过不过"
+     ],
+     "rows": [
+      [
+       "应对新情况",
+       "达尔文：换一个从没见过的情境，看反应是否合宜",
+       "过：黏菌绕开障碍，蚯蚓会挑纸片的尖角"
+      ],
+      [
+       "预判与学习",
+       "图灵：给周期性刺激，看会不会提前反应",
+       "黏菌过：能预判周期性冷风"
+      ],
+      [
+       "群体取舍",
+       "威尔逊、哈耶克：整体能否做出单个成员做不出的权衡",
+       "蚁群过；单只蚂蚁不过"
+      ],
+      [
+       "全脑广播、可报告",
+       "德阿纳：信息能否被全局共享、被说出来",
+       "不过：没有长程连接"
+      ],
+      [
+       "自我怀疑",
+       "笛卡尔：能否回头质疑自己刚得出的结论",
+       "不过"
+      ],
+      [
+       "能受苦",
+       "世亲：有没有苦乐的感受",
+       "存疑：黏菌、植物多半不算，单只蚂蚁仍有争议"
+      ]
+     ]
+    },
+    "tail": "怎么用：**过了前三把，就可以把它当工具信任它做事；过了后三把，才谈得上把它当一个“谁”**——要它负责、为它担心。对 AI、对动物、对任何新东西都可以这样量。"
+   },
+   "answer_en": {
+    "lead": "Line up all the criteria from the debate: **don't ask \"does it think,\" ask \"which yardsticks does it pass.\"**",
+    "table": {
+     "head": [
+      "Yardstick",
+      "Who argues for it, and how to test",
+      "Do slime mould / ant colonies pass?"
+     ],
+     "rows": [
+      [
+       "Responding to the new",
+       "Darwin: present a situation it has never met and see if the response fits",
+       "Yes: slime mould routes around obstacles; earthworms pick the pointed corner of paper triangles"
+      ],
+      [
+       "Anticipating and learning",
+       "Turing: give a periodic stimulus and see if it starts responding in advance",
+       "Slime mould passes: it anticipates periodic cold blasts"
+      ],
+      [
+       "Group trade-offs",
+       "Wilson, Hayek: can the whole make trade-offs no single member could?",
+       "Colonies pass; a single ant doesn't"
+      ],
+      [
+       "Global broadcast, reportable",
+       "Dehaene: can information be shared across the system and put into words?",
+       "No: no long-range connections"
+      ],
+      [
+       "Self-doubt",
+       "Descartes: can it go back and question a conclusion it just reached?",
+       "No"
+      ],
+      [
+       "Capacity to suffer",
+       "Vasubandhu: does it feel pleasure and pain?",
+       "Uncertain: slime mould and plants probably not; single ants still debated"
+      ]
+     ]
+    },
+    "tail": "How to use it: **pass the first three and you can trust it as a tool to get things done; only the last three make it a \"who\"**: something you hold responsible or worry about. The same yardsticks work for AI, for animals, for anything new."
+   }
+  },
+  {
+   "from": "hayek",
+   "text": "**“系统决定的”，到底是谁决定的**：市场、算法、委员会都能做出没人单独做出的决定。没有一个“谁”在想，出了错该找谁？",
+   "text_en": "**When \"the system decided,\" who actually decided?** Markets, algorithms and committees all reach decisions no individual made. If there's no \"who\" doing the thinking, whom do you hold to account when it goes wrong?"
+  },
+  {
+   "from": "vasubandhu",
+   "text": "**道德关怀该划到哪里**：按能受苦划线，还是按有没有知觉？植物、章鱼、昆虫、未来的 AI，各落在线的哪一边？",
+   "text_en": "**Where should moral concern stop?** Do we draw the line at the capacity to suffer, or at awareness of any kind? Where do plants, octopuses, insects and future AI fall?"
+  },
+  {
+   "from": "dehaene",
+   "text": "**“睡一觉再说”有多靠谱**：无意识的计算什么时候真能帮你解题，什么时候只是让你更有把握地犯错？",
+   "text_en": "**How reliable is \"sleep on it\"?** When does unconscious computation really help you solve a problem, and when does it just make you more confident in a mistake?"
+  },
+  {
+   "from": "claude",
+   "text": "**身体里不靠大脑的学习**：免疫系统会记住见过的病菌，肠道里有数亿个神经元。人自己身上，有多少“想”从没经过大脑？",
+   "text_en": "**Learning in the body without the brain:** the immune system remembers germs it has met, and the gut holds hundreds of millions of neurons. How much of our own \"thinking\" never passes through the brain at all?"
+  }
+ ]
+}

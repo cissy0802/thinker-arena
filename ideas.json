@@ -85,15 +85,6 @@
       "cat": "ethics"
     },
     {
-      "id": "mind-without-brain",
-      "votes": 0,
-      "q": "没有大脑，也能「想」吗？",
-      "q_en": "Can there be thinking without a brain?",
-      "note": "黏菌能复刻东京地铁网，蚁群能找出最短路径，植物似乎记得被碰过。智能是神经元的专利，还是一种可以分布在许多简单个体之间的属性？如果是后者，「谁在想」这个问题还成立吗？",
-      "note_en": "Slime mould can reproduce the Tokyo rail network, ant colonies find shortest paths, plants seem to remember being touched. Is intelligence the preserve of neurons, or a property that can be spread across many simple parts? If the latter, does the question 'who is thinking?' still make sense?",
-      "cat": "meta"
-    },
-    {
       "id": "where-life-begins",
       "votes": 0,
       "q": "生命和非生命的界线在哪？",
@@ -145,15 +136,6 @@
       "q_en": "Should an organisation listen to the loudest voice?",
       "note": "开口要的人往往拿得多：他送来了信息，也让「拒绝」变贵了。可哭换来的多是预算、例外这类一次性的东西，换不来信任与托付；同样的哭，不同的人付出的代价也不同。组织若按谁最让人头疼来分资源，留下来的会是谁？",
       "note_en": "Those who ask tend to get more: they bring information, and they make saying no more costly. But complaining mostly wins one-off things like budget and exceptions, not trust or responsibility, and the same complaint costs different people very different amounts. If an organisation hands out resources to whoever causes the most headaches, who ends up staying?",
-      "cat": "work"
-    },
-    {
-      "id": "hold-each-other-in-check",
-      "votes": 0,
-      "q": "该让下属互相牵制吗？",
-      "q_en": "Should you keep your reports checking each other?",
-      "note": "职责分离能写进组织图、公开宣布，照样有效；靠下属互相提防的那套，一说出口就失效。它要的是真信息，可一旦互为对手，汇报就变成战术动作。自检：两个下属明天和好了、开始无保留合作，你是高兴还是不安？",
-      "note_en": "Segregation of duties can be drawn on the org chart and announced, and still works; keeping reports wary of each other stops working the moment it is said aloud. It is wanted for true information, yet once they are rivals every report becomes a tactical move. A test: if your two reports made peace tomorrow and cooperated without reserve, would you be pleased or uneasy?",
       "cat": "work"
     },
     {
@@ -1171,6 +1153,13 @@
       "q_en": "Which stage of its own life is your organization in?",
       "date": "2026-10-09",
       "cat": "work"
+    },
+    {
+      "id": "mind-without-brain",
+      "q": "没有大脑，也能「想」吗？",
+      "q_en": "Can there be thinking without a brain?",
+      "date": "2026-10-10",
+      "cat": "meta"
     }
   ]
 }

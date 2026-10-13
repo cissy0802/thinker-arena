@@ -29,8 +29,12 @@
       return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
     });
   }
-  // 已转义文本里的 **加粗** → <strong>（与 app.js 同一写法；* 不被 esc 转义，标记完整保留）
-  function md(s) { return esc(s).replace(/\*\*([^*]+?)\*\*/g, "<strong>$1</strong>"); }
+  // 已转义文本里的 **加粗** → <strong>（与 app.js 同一写法；* 不被 esc 转义，标记完整保留），
+  // 英文图鉴偶有 *强调* → <em>
+  function md(s) {
+    return esc(s).replace(/\*\*([^*]+?)\*\*/g, "<strong>$1</strong>")
+      .replace(/\*([^*\s][^*]*?)\*/g, "<em>$1</em>");
+  }
   // 名册/图鉴随每场辩论更新，但站点由 hub 的根域脚本包着，中间可能还压着
   // 我们管不到的缓存层（root scope 的 service worker 会拦下 /thinker-arena/* ，
   // 连硬刷新都不一定绕得过）。cache:"no-cache" 只管 HTTP 缓存，拦不住它，

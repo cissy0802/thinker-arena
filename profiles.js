@@ -29,6 +29,8 @@
       return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
     });
   }
+  // 已转义文本里的 **加粗** → <strong>（与 app.js 同一写法；* 不被 esc 转义，标记完整保留）
+  function md(s) { return esc(s).replace(/\*\*([^*]+?)\*\*/g, "<strong>$1</strong>"); }
   // 名册/图鉴随每场辩论更新，但站点由 hub 的根域脚本包着，中间可能还压着
   // 我们管不到的缓存层（root scope 的 service worker 会拦下 /thinker-arena/* ，
   // 连硬刷新都不一定绕得过）。cache:"no-cache" 只管 HTTP 缓存，拦不住它，
@@ -52,12 +54,12 @@
   }
   function list(arr, cls) {
     if (!Array.isArray(arr)) arr = (arr == null ? [] : [arr]);  // 容错：万一不是数组也不炸
-    return "<ul>" + arr.map(function (x) { return '<li class="' + (cls || "") + '">' + esc(x) + "</li>"; }).join("") + "</ul>";
+    return "<ul>" + arr.map(function (x) { return '<li class="' + (cls || "") + '">' + md(x) + "</li>"; }).join("") + "</ul>";
   }
   // 把含换行的长文本拆成多段 <p>，便于阅读（单行文本仍是一个 <p>）
   function paras(t) {
     return String(t == null ? "" : t).split(/\n+/).filter(function (s) { return s.trim(); })
-      .map(function (s) { return "<p>" + esc(s) + "</p>"; }).join("");
+      .map(function (s) { return "<p>" + md(s) + "</p>"; }).join("");
   }
   function nameOf(c) { return pick(c, "name"); }
   function catLabel(cat) { return CAT_EN[cat] && LANG === "en" ? CAT_EN[cat] : cat; }
@@ -89,7 +91,7 @@
       if (Array.isArray(assess) && assess.length) {
         body += sec(T("assess"), "ti-quote", assess.map(function (a) {
           a = a || {};
-          return '<div class="assess"><div class="by">' + esc(a.by) + '</div><div class="txt">' + esc(a.text) + "</div></div>";
+          return '<div class="assess"><div class="by">' + esc(a.by) + '</div><div class="txt">' + md(a.text) + "</div></div>";
         }).join(""));
       }
       var quotes = pick(p, "quotes");

@@ -2,15 +2,6 @@
   "_comment": "议题投票数据。candidates=未辩候选(供投票)，debated=已辩(链到辩论)。投票免 GitHub 登录，存于自建后端(Cloudflare Worker + D1，见 ~/Desktop/cissy0802.github.io/engage-backend/)：每候选一个 poll，key='topic:'+id，choice up/down，净票=👍−👎。votes 字段由 routine 每次跑 `python3 refresh_votes.py`(读后端 /votes-net) 回写；页面 ideas.js 也会实时拉取覆盖显示。观众自提议题在评论 page='thinker-open-questions'，各候选下讨论 page='topic:'+id——routine 读这些把好提案提炼成新 candidates。新候选加进 candidates 即可。",
   "candidates": [
     {
-      "id": "conscience-and-duty",
-      "votes": 0,
-      "q": "专业人士能因信念拒绝服务吗？",
-      "q_en": "May a professional refuse to serve on grounds of conscience?",
-      "note": "医生拒绝执行、药剂师拒绝配药、面包师拒绝接单——同一条「良心自由」用在不同人身上，我们的直觉常常相反。允许拒绝，偏远处的权利形同虚设；不许拒绝，成本落到最难说不的人身上。判据该是什么？",
-      "note_en": "A doctor who won't perform a procedure, a pharmacist who won't dispense, a baker who won't take the order: the same 'freedom of conscience' draws opposite intuitions depending on who invokes it. Allow refusal and rights go hollow wherever staff are scarce; forbid it and the cost lands on whoever is least able to say no. What should decide it?",
-      "cat": "ethics"
-    },
-    {
       "id": "travel-and-locals",
       "votes": 0,
       "q": "旅行者来了之后，当地人得到了什么？",
@@ -1154,6 +1145,13 @@
       "q_en": "Should the thing a family never mentions be opened up?",
       "date": "2026-10-12",
       "cat": "life"
+    },
+    {
+      "id": "conscience-and-duty",
+      "q": "专业人士能因信念拒绝服务吗？",
+      "q_en": "May a professional refuse to serve on grounds of conscience?",
+      "date": "2026-10-13",
+      "cat": "ethics"
     }
   ]
 }

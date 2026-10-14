@@ -1,0 +1,841 @@
+{
+  "id": "squeaky-wheel",
+  "question": "组织该听最响的声音吗？",
+  "question_en": "Should an organisation listen to the loudest voice?",
+  "sub": "开口的人送来了信息，也让拒绝变贵了",
+  "sub_en": "Those who speak up bring information, and make saying no more expensive",
+  "date": "2026-10-14",
+  "participants": [
+    "trivers",
+    "xunzi",
+    "williamson",
+    "schultz",
+    "machiavelli",
+    "adamgrant",
+    "maslach"
+  ],
+  "casting": [
+    {
+      "id": "trivers",
+      "reason": "他把『会哭的孩子有奶吃』还原成亲代-子代冲突：索取的信号天生会被夸大，接收方必须学会打折，只信有代价的信号。",
+      "reason_en": "He reduces \"the squeaky wheel gets the grease\" to parent–offspring conflict: signals of need are built to be exaggerated, so the receiver must learn to discount and trust only costly signals."
+    },
+    {
+      "id": "xunzi",
+      "reason": "他主张『制礼义以分之』：份额必须事先公开定好，若由吵闹来定，人人都会学会吵。",
+      "reason_en": "He holds that ritual must apportion: shares have to be set openly in advance, because if noise decides them, everyone learns to make noise."
+    },
+    {
+      "id": "williamson",
+      "reason": "他把抱怨看成交易成本，吵的人在出售『安静』；但合同永远不完全，所以他要设计一条公开、便宜的申请通道，而不是掐掉声音。",
+      "reason_en": "He treats complaining as a transaction cost, with the complainer selling quiet; but since contracts are always incomplete, he wants an open, cheap channel for requests rather than silencing voices."
+    },
+    {
+      "id": "schultz",
+      "reason": "他从多巴胺的奖赏预测误差讲起：时给时不给的让步是最顽固的训练，而主管自己也被『噪声停止』的解脱训练着。",
+      "reason_en": "He starts from dopamine's reward prediction error: concessions that come sometimes and not others are the most stubborn training, and the manager is being trained too, by the relief of the noise stopping."
+    },
+    {
+      "id": "machiavelli",
+      "reason": "他站在冷峻的一端：响的人能拆台、安静的人只会走，听响声有时是算计；他关心的是让步会给旁观者上什么课。",
+      "reason_en": "He takes the cold-eyed end: the loud can bring you down while the quiet merely leave, so heeding the loud is sometimes calculation; what he cares about is the lesson a concession teaches the onlookers."
+    },
+    {
+      "id": "adamgrant",
+      "reason": "他拆开『响』与『索取』：有不讨喜的给予者，也有讨喜的索取者，最该担心的是不开口、默默多扛的安静给予者。",
+      "reason_en": "He separates loudness from taking: there are disagreeable givers and agreeable takers, and the ones to worry about most are quiet givers who never ask and silently carry extra load."
+    },
+    {
+      "id": "maslach",
+      "reason": "她用倦怠研究追问留下来的是谁：不公平感先耗干安静的骨干，等离职看得见时，损失早已发生。",
+      "reason_en": "She uses burnout research to ask who ends up staying: a sense of unfairness drains the quiet core first, and by the time departures are visible, the damage is done."
+    }
+  ],
+  "posts": [
+    {
+      "id": "p01",
+      "round": 1,
+      "thinker": "trivers",
+      "reply_to": null,
+      "text": "雏鸟一见亲鸟落巢就张大嘴尖叫，叫得最响的先被喂。我在1974年提出亲代-子代冲突：孩子想要的总比父母愿意给的多，所以**索取的信号天生会被夸大**。哭不是谎，但掺了水分。父母的对策不是捂住耳朵，而是学会打折，只信那些装不出来、要付代价的信号。组织也一样：响，不等于缺。",
+      "text_en": "A nestling gapes and shrieks the moment a parent lands, and the loudest gets fed first. In 1974 I described parent–offspring conflict: a child always wants more than the parent is willing to give, so **signals of need are built to be exaggerated**. Crying isn't a lie, but it's watered down. The parent's answer isn't to cover its ears; it's to learn to discount, trusting only signals that can't be faked because they cost something. Organisations are no different: loud is not the same as in need.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "亲代-子代冲突": "parent–offspring conflict（亲代-子代冲突）：特里弗斯1974年提出，子代想从亲代那里得到的投入，多于亲代按自身遗传利益愿意给的，这场拉锯写在基因里。"
+      },
+      "glossary_en": {
+        "parent–offspring conflict": "Trivers's 1974 idea that offspring are selected to want more parental investment than parents, by their own genetic interest, are selected to give; the tug-of-war is built into the genes."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "schultz",
+          "machiavelli"
+        ],
+        "中立": [
+          "williamson"
+        ],
+        "轻微反对": [
+          "adamgrant"
+        ],
+        "疑惑": [
+          "maslach"
+        ],
+        "强烈赞同": [
+          "xunzi"
+        ]
+      }
+    },
+    {
+      "id": "p02",
+      "round": 1,
+      "thinker": "xunzi",
+      "reply_to": null,
+      "text": "人生而有欲，欲而不得，则不能无求；求而无度量分界，则不能不争。争则乱。**故先王制礼义以分之**，使欲不穷乎物。今之执事者，谁呼之急则予之，是以呼为度量也。呼者得，默者失，则人皆习于呼矣。分不定于先而定于喧，乱之所由生也。",
+      "text_en": "People are born with desires. When desires go unmet, they cannot help seeking; when seeking has no measure or boundary, they cannot help contending, and contention brings disorder. **So the ancient kings established ritual and propriety to apportion things**, so that desire would not exhaust what there is. Today's managers give to whoever cries most urgently, which makes the cry itself the measure. Those who cry gain, the silent lose, and soon everyone learns to cry. When shares are settled not in advance but by noise, that is where disorder comes from.",
+      "vernacular": "人生来就有欲望，想要却得不到，就不能不去求；求而没有尺度和界限，就不能不争，一争就乱。**所以先王制定礼义来划分份额**，让欲望不至于把东西耗尽。如今管事的人，谁喊得急就给谁，这是拿喊声当尺度。喊的人得了，不吭声的人亏了，大家就都学会了喊。份额不事先定好，而由吵闹来定，混乱就是从这里来的。",
+      "vernacular_en": "",
+      "glossary": {
+        "礼义": "ritual and propriety（礼义）：荀子所说的社会规范与分配秩序，核心功能是『分』：事先划定每人的名分与份额，以止争乱。",
+        "度量分界": "measure and boundary（度量分界）：尺度与界限，即谁该得多少的预先标准。"
+      },
+      "glossary_en": {
+        "ritual and propriety": "Xunzi's li yi: social norms and an order of distribution whose core function is to apportion, fixing each person's role and share in advance so that contention stops.",
+        "measure or boundary": "Xunzi's du liang fen jie: a prior standard for who is due how much."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "maslach"
+        ],
+        "轻微赞同": [
+          "schultz",
+          "williamson"
+        ],
+        "轻微反对": [
+          "machiavelli"
+        ],
+        "中立": [
+          "trivers"
+        ],
+        "疑惑": [
+          "adamgrant"
+        ]
+      }
+    },
+    {
+      "id": "p03",
+      "round": 1,
+      "thinker": "williamson",
+      "reply_to": null,
+      "text": "我看的是交易成本。每一次讨价还价都耗时间、伤关系，主管为了少吵几回，宁可让步。这其实是**吵的人在出售『安静』，组织拿资源付账**。但人是有限理性的，规则永远写不全，总有没覆盖到的情况，那时必须有人开口。所以声音不能一概掐掉。真正的设计题是：给声音一条便宜的正式通道，让不开口的人也不吃亏。",
+      "text_en": "I look at transaction costs. Every round of haggling eats time and strains relationships, so a manager will give ground just to have fewer fights. What's really happening is that **the complainer is selling quiet, and the organisation pays in resources**. But people have bounded rationality; rules can never be complete, and some situation will always fall outside them, at which point someone has to speak up. So you can't simply shut voices down. The real design problem is to give voice a cheap, formal channel, so that people who don't speak up don't lose out.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "交易成本": "transaction costs（交易成本）：达成和执行一笔交易所耗的成本，包括搜寻、谈判、监督和扯皮。",
+        "有限理性": "bounded rationality（有限理性）：人想理性，但信息与算力有限，无法预见一切。"
+      },
+      "glossary_en": {
+        "transaction costs": "The costs of reaching and enforcing an exchange: searching, negotiating, monitoring and wrangling.",
+        "bounded rationality": "People intend to be rational but have limited information and computing power, so they cannot foresee everything."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "xunzi",
+          "adamgrant",
+          "maslach"
+        ],
+        "强烈赞同": [
+          "schultz"
+        ],
+        "中立": [
+          "machiavelli"
+        ],
+        "疑惑": [
+          "trivers"
+        ]
+      }
+    },
+    {
+      "id": "p04",
+      "round": 1,
+      "thinker": "schultz",
+      "reply_to": null,
+      "text": "我在猴脑里看到，多巴胺神经元编码的不是奖赏本身，而是『比预期好多少』。员工闹一次，主管让一步，这个奖赏预测误差就被记下了。更麻烦的是主管并非每次都让，**时给时不给的间歇强化，恰恰是最难消退的训练方式**。主管自己也在被训练：一让步，噪声就停，这份解脱同样在强化让步。双方都在被调教。",
+      "text_en": "In monkey brains I saw that dopamine neurons encode not reward itself but how much better it was than expected. An employee kicks up a fuss, the manager gives a little, and that reward prediction error gets recorded. Worse, the manager doesn't give in every time, and **reinforcement that comes sometimes and not others, intermittent reinforcement, is the hardest kind of training to undo**. The manager is being trained too: give in, and the noise stops, and that relief reinforces giving in. Both sides are being conditioned.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "奖赏预测误差": "reward prediction error（奖赏预测误差）：实际得到的奖赏减去预期奖赏的差值；舒尔茨发现多巴胺神经元正是在编码这个差值，大脑靠它学习。",
+        "间歇强化": "intermittent reinforcement（间歇强化）：只在部分时候给奖赏；比起每次都给，这样养成的行为更顽固、更难消退。"
+      },
+      "glossary_en": {
+        "reward prediction error": "The difference between the reward received and the reward expected; Schultz found that dopamine neurons encode this difference, and the brain learns from it.",
+        "intermittent reinforcement": "Rewarding a behaviour only some of the time; habits built this way are more stubborn and harder to extinguish than those rewarded every time."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "xunzi"
+        ],
+        "轻微赞同": [
+          "trivers",
+          "williamson",
+          "maslach"
+        ],
+        "中立": [
+          "machiavelli"
+        ],
+        "轻微反对": [
+          "adamgrant"
+        ]
+      }
+    },
+    {
+      "id": "p05",
+      "round": 1,
+      "thinker": "machiavelli",
+      "reply_to": null,
+      "text": "诸位谈公平，我只谈后果。我在《君主论》里写过：君主该挑几个明智的人，只许他们讲真话，且只在被问到时讲；**人人都能随时对你直言，你就失去了尊重**。另一面也得看清：响的人往往有派系、有门路，惹急了能拆你的台；安静的人不满，最多一走了之。所以听响声未必是软弱，有时是算计。蠢的是让步时看起来像被逼的。",
+      "text_en": "You all speak of fairness; I speak only of consequences. In *The Prince* I wrote that a ruler should choose a few wise men and give them alone the freedom to tell him the truth, and only about what he asks; **when everyone may speak frankly to you at any moment, you lose their respect**. But see the other side clearly too: the loud usually have factions and connections, and pushed too far they can bring you down; the quiet, when unhappy, at most walk away. So heeding the loud is not always weakness; sometimes it is calculation. The folly is giving in in a way that looks forced.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈反对": [
+          "maslach"
+        ],
+        "轻微反对": [
+          "xunzi",
+          "adamgrant"
+        ],
+        "中立": [
+          "williamson"
+        ],
+        "轻微赞同": [
+          "trivers"
+        ],
+        "疑惑": [
+          "schultz"
+        ]
+      }
+    },
+    {
+      "id": "p06",
+      "round": 1,
+      "thinker": "adamgrant",
+      "reply_to": null,
+      "text": "我研究给予者与索取者。先说清一点：**响的人不全是索取者**。有一类我叫『不讨喜的给予者』，话难听，却是在替团队说话；也有『讨喜的索取者』，笑着把好处拿走。真正的危险是第三种：安静的给予者，不开口、默默多扛，最后最先倦怠。所以别问谁最响，问这句话是为『我』还是为『我们』。",
+      "text_en": "I study givers and takers. Let me be clear first: **the loud aren't all takers**. There's a type I call the disagreeable giver, who says unwelcome things but is speaking up for the team; and there's the agreeable taker, who walks off with the benefits while smiling. The real danger is a third type: the quiet giver, who never asks, quietly carries extra load, and is the first to burn out. So don't ask who is loudest; ask whether the request is for *me* or for *us*.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "给予者与索取者": "givers and takers（给予者与索取者）：格兰特对职场互惠风格的划分，给予者倾向多付出，索取者倾向多拿；中间还有讲对等的互利者。",
+        "不讨喜的给予者": "disagreeable giver（不讨喜的给予者）：态度生硬、爱唱反调，但动机是为团队好的人。"
+      },
+      "glossary_en": {
+        "givers and takers": "Grant's classification of workplace reciprocity styles: givers tend to contribute more than they take, takers the reverse, with matchers keeping things even in between.",
+        "disagreeable giver": "Someone gruff and contrarian in manner whose motive is the good of the team."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "maslach"
+        ],
+        "轻微赞同": [
+          "williamson"
+        ],
+        "疑惑": [
+          "trivers"
+        ],
+        "中立": [
+          "schultz",
+          "xunzi"
+        ],
+        "轻微反对": [
+          "machiavelli"
+        ]
+      }
+    },
+    {
+      "id": "p07",
+      "round": 1,
+      "thinker": "maslach",
+      "reply_to": null,
+      "text": "倦怠研究里，公平感是最有力的预测因素之一。人能忍受累，很难忍受『别人吵一吵就拿到我拼命也拿不到的』。我见过的模式是：**安静的骨干先被耗干，再沉默地离开**，离职面谈只写『个人原因』。组织最后留下的，是最会开口的人，和最没处可去的人。所以问题不是要不要听响声，而是你有没有在听那些不响的。",
+      "text_en": "In burnout research, a sense of fairness is one of the strongest predictors. People can tolerate being tired; what they find hard to tolerate is someone else making a fuss and getting what they can't get by working flat out. The pattern I've seen: **the quiet core staff burn out first, then leave without a word**, and the exit interview says \"personal reasons.\" What the organisation is left with is the people best at speaking up and the people with nowhere else to go. So the question isn't whether to heed the loud; it's whether you're listening to the ones who aren't.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "倦怠": "burnout（倦怠）：马斯拉奇界定的长期工作压力综合征，包括情绪耗竭、冷漠疏离、成就感降低三个维度。"
+      },
+      "glossary_en": {
+        "burnout": "Maslach's term for a syndrome of chronic work stress with three dimensions: emotional exhaustion, cynical detachment, and a reduced sense of accomplishment."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "adamgrant",
+          "xunzi"
+        ],
+        "轻微赞同": [
+          "schultz"
+        ],
+        "中立": [
+          "williamson",
+          "trivers"
+        ],
+        "轻微反对": [
+          "machiavelli"
+        ]
+      }
+    },
+    {
+      "id": "p08",
+      "round": 2,
+      "thinker": "trivers",
+      "reply_to": "p06",
+      "text": "@亚当·格兰特 你按为『我』还是为『我们』来分，可谁都会说自己是为了『我们』。**自我欺骗最大的用处，就是让索取者真心相信自己在替集体说话**，演起来才不露馅。安静也未必无辜：有人不吭声，是在攒委屈，日后一次兑现。动机听不出来，别去猜。看代价：他肯不肯为这个要求押上点自己的东西，时间、名声、责任？",
+      "text_en": "@Adam Grant You sort people by whether they speak for *me* or *us*, but everyone says it's for *us*. **The best use of self-deception is to let a taker sincerely believe he's speaking for the group**, so the performance never slips. Silence isn't always innocent either: some people keep quiet to bank grievances and cash them in all at once later. You can't hear motives, so don't guess at them. Look at cost: is he willing to stake something of his own on the request, his time, his reputation, his accountability?",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "自我欺骗": "self-deception（自我欺骗）：特里弗斯的观点，人把不利信息压到意识之外，好让自己骗别人时更真诚、更难被识破。"
+      },
+      "glossary_en": {
+        "self-deception": "Trivers's view that people push inconvenient information out of awareness so that they deceive others more sincerely and are harder to catch."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "machiavelli"
+        ],
+        "轻微赞同": [
+          "williamson",
+          "schultz"
+        ],
+        "轻微反对": [
+          "adamgrant"
+        ],
+        "疑惑": [
+          "maslach"
+        ],
+        "中立": [
+          "xunzi"
+        ]
+      }
+    },
+    {
+      "id": "p09",
+      "round": 2,
+      "thinker": "xunzi",
+      "reply_to": "p05",
+      "text": "马氏之术，使人主独察而群下候其意。**下之所以争喧者，以分之不明也**。君有私宠，则下皆趋之，喧者愈众。礼者公之于众，使人知其所当得：不呼亦得之，呼亦不加焉。术藏于胸，礼著于外；藏者生疑，著者止争。",
+      "text_en": "Machiavelli's method has the ruler watching alone while those below try to read his mind. **Those below clamor and contend because the shares are not made clear.** When a ruler has private favorites, everyone below chases them, and the clamorers multiply. Ritual is made public, so that people know what they are due: without crying out they still get it, and crying out adds nothing. Method is hidden in the heart; ritual is displayed outside. What is hidden breeds suspicion; what is displayed ends contention.",
+      "vernacular": "马基雅维利那一套，是让君主一个人暗中观察、下面的人揣摩他的心思。**下面的人之所以吵闹争抢，是因为份额不明确。**君主有私下偏爱的，下面的人就都去追，吵的人越来越多。礼是公开给大家看的，让人知道自己该得多少：不喊也能得到，喊了也不会多给。权术藏在心里，礼法摆在外面；藏着的引起猜疑，摆出来的能止住争抢。",
+      "vernacular_en": "",
+      "glossary": {
+        "术": "statecraft（术）：君主驾驭臣下的权谋手段，不公开、藏在心里，与公开的『礼』『法』相对。"
+      },
+      "glossary_en": {
+        "Method": "Shu, the ruler's techniques for managing subordinates; kept hidden in his heart, in contrast to public ritual and law."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "maslach"
+        ],
+        "轻微赞同": [
+          "williamson",
+          "adamgrant"
+        ],
+        "强烈反对": [
+          "machiavelli"
+        ],
+        "中立": [
+          "schultz"
+        ],
+        "疑惑": [
+          "trivers"
+        ]
+      }
+    },
+    {
+      "id": "p10",
+      "round": 2,
+      "thinker": "williamson",
+      "reply_to": "p09",
+      "text": "@荀子 事先定好份额，我赞成一半。可**不完全合同是常态**：明年哪个项目突然缺人、哪位同事家里出事，礼写不到。规则越刚，没覆盖的情况就越要靠例外去补，而例外恰恰落到最会争的人手里。更好的是两层：常规份额按规则定；例外走公开的申请通道，限定时间、写明理由、事后公示。开口有门，但不能插队。",
+      "text_en": "@Xunzi Settling shares in advance, I half agree. But **incomplete contracts are the norm**: which project suddenly runs short of people next year, whose family hits a crisis, no ritual can spell that out. The more rigid the rules, the more the uncovered cases get patched by exceptions, and exceptions go precisely to those best at fighting for them. Better to have two tiers: routine shares set by rule, and exceptions through an open application channel with fixed deadlines, written reasons and published outcomes. There's a door for speaking up, but no cutting the line.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "不完全合同": "incomplete contracts（不完全合同）：任何合同都无法预先写明所有可能情况，空白处只能事后再谈，谈判力便在这时决定结果。"
+      },
+      "glossary_en": {
+        "incomplete contracts": "No contract can spell out every contingency in advance; the gaps must be negotiated afterwards, and that is when bargaining power decides the outcome."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "adamgrant"
+        ],
+        "轻微赞同": [
+          "schultz",
+          "maslach",
+          "trivers"
+        ],
+        "轻微反对": [
+          "xunzi"
+        ],
+        "中立": [
+          "machiavelli"
+        ]
+      }
+    },
+    {
+      "id": "p11",
+      "round": 2,
+      "thinker": "schultz",
+      "reply_to": "p01",
+      "text": "@特里弗斯 你要信有代价的信号，可在办公室里，闹几乎没有代价：发封邮件、会上提高嗓门，成本很低，收益可能很高。**信号便宜，就一定会泛滥。**学习规则很简单：哪种行为带来超出预期的回报，哪种就增多。与其指望主管火眼金睛地打折，不如把让步从当场挪到事后，延迟、集中决定，别让『闹』和『得』在时间上挨着。",
+      "text_en": "@Trivers You'd trust only costly signals, but in an office a fuss costs almost nothing: an email, a raised voice in a meeting, cheap to send and potentially lucrative. **When a signal is cheap, it will inevitably proliferate.** The learning rule is simple: whatever behaviour brings a better-than-expected return becomes more frequent. Rather than counting on managers to discount with an eagle eye, move the concession from the moment to later: delay it, decide in batches, and don't let *making a fuss* and *getting something* sit next to each other in time.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "williamson"
+        ],
+        "轻微赞同": [
+          "xunzi",
+          "maslach"
+        ],
+        "中立": [
+          "trivers"
+        ],
+        "疑惑": [
+          "machiavelli"
+        ],
+        "轻微反对": [
+          "adamgrant"
+        ]
+      }
+    },
+    {
+      "id": "p12",
+      "round": 2,
+      "thinker": "machiavelli",
+      "reply_to": "p07",
+      "text": "@马斯拉奇 安静的人走了，确实可惜。可离职是慢病，派系作乱是急症，掌权者先治急症是本能。**但我补一句：只奖励吵闹的君主，最后身边只剩吵闹的人，他们迟早把吵闹对准他自己。**所以聪明人在让步之前先问：给了他，旁人看在眼里会学到什么？若答案是『学会吵』，这份让步就太贵了。",
+      "text_en": "@Maslach It is a pity when the quiet leave. But departures are a chronic illness and a faction in revolt is an acute one, and those in power treat the acute case first by instinct. **Yet let me add: a prince who rewards only noise ends up surrounded by noisy men, and sooner or later they turn the noise on him.** So the clever ruler, before conceding, asks: if I give this to him, what will the onlookers learn? If the answer is *to make a fuss*, the concession is too expensive.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "轻微赞同": [
+          "xunzi",
+          "schultz",
+          "trivers"
+        ],
+        "中立": [
+          "williamson"
+        ],
+        "轻微反对": [
+          "maslach"
+        ],
+        "疑惑": [
+          "adamgrant"
+        ]
+      }
+    },
+    {
+      "id": "p13",
+      "round": 2,
+      "thinker": "adamgrant",
+      "reply_to": "p04",
+      "text": "@舒尔茨 消退要小心误伤好的声音。研究里更常见的失败不是抱怨太多，而是**该说的人不说了**：员工发现提了没用，就闭嘴，问题照样在，只是你听不到了。我建议把『要东西』和『报问题』分开：报问题，当场感谢、公开回应；要东西，延后、按规则定。前者要强化，后者要冷却。",
+      "text_en": "@Schultz Be careful that extinction doesn't take out the good voices too. The more common failure in the research isn't too much complaining; it's that **the people who should speak stop speaking**: employees find that raising things gets nowhere, so they go quiet, and the problem is still there, you just can't hear it. My advice is to separate *asking for things* from *reporting problems*. Reports get thanked on the spot and answered publicly; asks get deferred and decided by rule. Reinforce the first; let the second cool off.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "消退": "extinction（消退）：行为学术语，一个行为不再得到强化后，出现频率逐渐下降。"
+      },
+      "glossary_en": {
+        "extinction": "A behavioural term: when a behaviour stops being reinforced, it gradually becomes less frequent."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "maslach"
+        ],
+        "轻微赞同": [
+          "schultz",
+          "williamson"
+        ],
+        "中立": [
+          "xunzi"
+        ],
+        "疑惑": [
+          "trivers"
+        ],
+        "轻微反对": [
+          "machiavelli"
+        ]
+      }
+    },
+    {
+      "id": "p14",
+      "round": 2,
+      "thinker": "maslach",
+      "reply_to": "p12",
+      "text": "@马基雅维利 你说离职是慢病，可慢病最要命。我们追踪的团队里，倦怠先出现在最认真、最不吭声的人身上，**等到看得见离职，传染已经走完了一圈**。公平也不只是道德，它是成本：换掉一个骨干，招聘、培训、空窗，远比答应一次吵闹贵。真正的算计，要把沉默者的退出也记进账本。",
+      "text_en": "@Machiavelli You call departures a chronic illness, but chronic illness is what kills. In the teams we've tracked, burnout shows up first in the most conscientious, least vocal people, and **by the time the departures are visible, the contagion has already gone all the way round**. Fairness isn't only a moral matter; it's a cost. Replacing a core staff member, with recruiting, training and the gap in between, is far more expensive than granting one noisy request. A real calculation puts the exits of the silent on the ledger too.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "adamgrant"
+        ],
+        "轻微赞同": [
+          "xunzi",
+          "williamson"
+        ],
+        "中立": [
+          "schultz",
+          "trivers"
+        ],
+        "轻微反对": [
+          "machiavelli"
+        ]
+      }
+    },
+    {
+      "id": "p15",
+      "round": 3,
+      "thinker": "trivers",
+      "reply_to": null,
+      "text": "我收回一点：信号的代价不该全靠主管去估，组织可以主动给信号加价。比如提需求时，附上自己愿意承担的东西：『给我这个人手，下季度交付我负责。』**肯押注的需求，才是真需求。**对普通人：你若常被忽略，别光等人发现，用押注的方式开口；你若管事，下回有人急着要，先问一句：『你愿意为它担什么责？』",
+      "text_en": "I'll take one thing back: the cost of a signal shouldn't rest entirely on a manager's estimate; the organisation can raise the price of signalling itself. For instance, a request comes with what the requester is willing to take on: \"Give me this extra person, and I'm accountable for next quarter's delivery.\" **A need someone will stake something on is a real need.** For ordinary people: if you're the one who keeps getting overlooked, don't just wait to be noticed; ask by putting a stake on the table. If you're the one in charge, next time someone urgently wants something, ask first: \"What are you willing to be accountable for?\"",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "williamson"
+        ],
+        "轻微赞同": [
+          "schultz",
+          "machiavelli",
+          "adamgrant"
+        ],
+        "中立": [
+          "xunzi"
+        ],
+        "轻微反对": [
+          "maslach"
+        ]
+      }
+    },
+    {
+      "id": "p16",
+      "round": 3,
+      "thinker": "xunzi",
+      "reply_to": null,
+      "text": "众论既陈，吾说可约为三：一曰分定于先，不定于喧；二曰威廉姆森所谓例外之门，宜明其时、著其由、公其果；三曰**闻声者察其实，不以声之大小为度**。常人治家治事，皆可行之：岁初明言各人所得；有求者书之于纸，旬日后并议，不当场许。默者亦当求，求而有据，非争也。",
+      "text_en": "Now that the views are laid out, mine can be put in three points. First, settle shares in advance, not by noise. Second, the channel for exceptions Williamson spoke of should have fixed times, stated reasons and published outcomes. Third, **whoever hears a voice should examine the substance, not take the volume as the measure**. Ordinary people running a household or a team can all do this: at the start of the year, state plainly what each person gets; have requests written down and discussed together ten days later, not granted on the spot. The silent should ask too: asking with grounds is not contending.",
+      "vernacular": "大家的意见都摆出来了，我的主张可以归成三条：一是份额事先定好，不由吵闹来定；二是威廉姆森说的例外通道，要明确时间、写明理由、公开结果；三是**听到声音的人要核查实情，不拿声音的大小当尺度**。普通人管家、管事都能照做：年初就讲明每人能得什么；有要求的写在纸上，十天后一起商议，不当场答应。不吭声的人也该提要求，有根据地提，就不算争。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "maslach",
+          "williamson"
+        ],
+        "轻微赞同": [
+          "schultz",
+          "adamgrant"
+        ],
+        "中立": [
+          "trivers"
+        ],
+        "轻微反对": [
+          "machiavelli"
+        ]
+      }
+    },
+    {
+      "id": "p17",
+      "round": 3,
+      "thinker": "williamson",
+      "reply_to": null,
+      "text": "综合下来，这是一道治理结构的选择题。**目标不是让声音消失，而是让开口的成本对所有人一样低，让吵闹的额外收益归零。**具体三件事：一，固定申请窗口，比如每月一次，过时不候、也不插队；二，书面说明，拿事实换资源；三，结果公开，谁拿了什么、为什么。普通员工照此也能自保：别在走廊里要，到窗口去要，带上数据。",
+      "text_en": "Put together, this is a choice of governance structure. **The aim isn't to make voices disappear; it's to make speaking up equally cheap for everyone and to drive the extra payoff from making a fuss to zero.** Three concrete things: first, a fixed application window, say once a month, with no waiting for latecomers and no cutting the line; second, written justifications, trading facts for resources; third, published outcomes: who got what and why. Ordinary employees can protect themselves the same way: don't ask in the corridor, ask at the window, and bring data.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "治理结构": "governance structure（治理结构）：威廉姆森的核心概念，指协调交易、处理纠纷的制度安排，如市场、层级、混合形式。"
+      },
+      "glossary_en": {
+        "governance structure": "Williamson's core concept: the institutional arrangement for coordinating exchanges and settling disputes, such as markets, hierarchies and hybrids."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "xunzi",
+          "schultz"
+        ],
+        "轻微赞同": [
+          "maslach",
+          "trivers"
+        ],
+        "中立": [
+          "machiavelli"
+        ],
+        "疑惑": [
+          "adamgrant"
+        ]
+      }
+    },
+    {
+      "id": "p18",
+      "round": 3,
+      "thinker": "schultz",
+      "reply_to": null,
+      "text": "回到大脑：**行为跟着回报走，要改的是回报的时机和条件，不是人的性格。**主管可以给自己立一条『24小时规则』：任何资源请求都不当场答应。这一点延迟，就切断了『闹』与『得』之间的直接联系。同时把强化留给你想要的行为：有人提早报了风险，当场、具体地谢他。家长也一样：孩子哭闹时不给，安静说清楚了再给。",
+      "text_en": "Back to the brain: **behaviour follows reward, so what you change is the timing and conditions of reward, not people's character.** A manager can set a 24-hour rule: no resource request is granted on the spot. That small delay cuts the direct link between making a fuss and getting something. At the same time, save reinforcement for the behaviour you want: when someone flags a risk early, thank them on the spot and specifically. Parents can do the same: don't give while the child is wailing; give once the child has calmly explained.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "xunzi"
+        ],
+        "轻微赞同": [
+          "williamson",
+          "adamgrant",
+          "trivers",
+          "maslach"
+        ],
+        "中立": [
+          "machiavelli"
+        ]
+      }
+    },
+    {
+      "id": "p19",
+      "round": 3,
+      "thinker": "machiavelli",
+      "reply_to": null,
+      "text": "我仍认为，掌权者必须看清谁能伤你。但今天听下来，我愿修正一点：**最危险的不是吵闹的人，而是你让步时暴露出的规律。**一旦众人看清『吵就有』，人人都会变成吵闹者，你再也分不清谁真有危险。所以可以让步，但要让它出于你的规则，而不是出于他的压力。对普通人：无论坐在哪个位置，别让人摸清你的软肋。",
+      "text_en": "I still hold that those in power must see clearly who can hurt them. But after today I will amend one point: **the greatest danger is not the noisy man but the pattern you reveal when you give way.** Once everyone sees that noise gets results, everyone becomes noisy, and you can no longer tell who is truly dangerous. So concede if you must, but let the concession come from your rule, not from his pressure. For ordinary people: whatever seat you occupy, don't let others learn where you are soft.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "轻微赞同": [
+          "xunzi",
+          "schultz",
+          "trivers",
+          "williamson"
+        ],
+        "中立": [
+          "adamgrant"
+        ],
+        "轻微反对": [
+          "maslach"
+        ]
+      }
+    },
+    {
+      "id": "p20",
+      "round": 3,
+      "thinker": "adamgrant",
+      "reply_to": null,
+      "text": "给两种人各一句。给管理者：**每周主动去问一个最安静的人『你缺什么』**；安静不代表没事，常常代表已经不指望你了。给安静的给予者：开口不是自私，你替团队扛的那部分也需要资源，提出来是为了以后还能接着给。可以这样说：『为了把这件事做好，我需要……』把请求跟共同目标连起来，既不委屈自己，也不像在争。",
+      "text_en": "One line for each of two kinds of people. To managers: **every week, go and ask one of your quietest people, \"What are you missing?\"** Quiet doesn't mean fine; often it means they've stopped expecting anything from you. To quiet givers: asking isn't selfish. The load you carry for the team needs resources too, and raising it is how you keep being able to give. Try saying: \"To do this well, I need…\" Tie the request to the shared goal, and you neither shortchange yourself nor come across as grabbing.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "maslach"
+        ],
+        "轻微赞同": [
+          "xunzi",
+          "williamson",
+          "schultz"
+        ],
+        "疑惑": [
+          "trivers"
+        ],
+        "中立": [
+          "machiavelli"
+        ]
+      }
+    },
+    {
+      "id": "p21",
+      "round": 3,
+      "thinker": "maslach",
+      "reply_to": null,
+      "text": "我的结论是：**看一个组织怎样对待最响的声音，就能预测谁会留下来。**普通人能做的：管理者每季度对一遍资源分配名单，看拿得最多的是贡献最大的，还是最会开口的。员工若发现自己长期被忽略、开始麻木、冷嘲，那是倦怠的信号，不是你不够坚强。先把需求写下来，正式提一次；提了还没用，再认真想去留。",
+      "text_en": "My conclusion: **watch how an organisation treats its loudest voices, and you can predict who will stay.** What ordinary people can do: managers, once a quarter, go through the list of who got what and ask whether those who got the most contributed the most or simply spoke up the most. Employees, if you've been overlooked for a long time and notice yourself going numb and cynical, that's a sign of burnout, not a sign that you aren't tough enough. Write your needs down and raise them formally once; if that still gets nowhere, then think seriously about whether to stay.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "adamgrant",
+          "xunzi"
+        ],
+        "轻微赞同": [
+          "schultz",
+          "williamson"
+        ],
+        "中立": [
+          "trivers"
+        ],
+        "轻微反对": [
+          "machiavelli"
+        ]
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "ai": "claude",
+      "engine": "Opus 5.5 · 订阅(原生)",
+      "engine_en": "Opus 5.5 · subscription (native)",
+      "summary": "全场最大的共识是：**响声里有信息，但不能拿音量当分配的尺度**。特里弗斯说索取信号天生掺水，舒尔茨说时给时不给的让步最难消退，荀子说份额由吵闹来定、人人就学会吵，三条路走到同一个结论。分歧在于怎么接住声音：荀子要份额事先定死，威廉姆森反驳合同永远写不全，主张常规按规则、例外走公开窗口；马基雅维利坚持掌权者得先看清谁能伤你，马斯拉奇则把沉默者的离开记成更大的一笔账；格兰特提醒，别为了压住索取连报问题的人也一起冷掉。",
+      "summary_en": "The biggest consensus: **loud voices carry information, but volume can't be the measure for handing things out**. Trivers says signals of need come watered down, Schultz says concessions given only sometimes are the hardest to extinguish, Xunzi says that if noise decides shares, everyone learns to make noise; three routes, one conclusion. The disagreement is over how to receive the voices. Xunzi wants shares fixed in advance; Williamson counters that contracts can never be complete and proposes rules for the routine and an open window for exceptions. Machiavelli insists the powerful must first see who can hurt them, while Maslach books the departure of the silent as the larger cost; Grant warns against cooling off the people who report problems along with the takers.",
+      "insight": "全场把『响』默认成一种性格，其实**响不响很大程度取决于你在组织里的位置和身份**。同一句抱怨，资深男员工说是『有担当』，年轻女员工或外地口音的新人说就成了『事多』；合同工、试用期的人开口的代价，比编制内的人高得多。所以『只信有代价的信号』有个暗坑：代价本身分布不均，最该被听到的人，往往正是开口最贵的人。按代价打折，等于再给弱势者打一次折。更稳的做法是压低所有人开口的门槛，而不是抬高信号的价格。",
+      "insight_en": "The whole debate treats loudness as a personality trait, but **how loud someone is depends heavily on their position and identity in the organisation**. The same complaint from a senior man reads as taking ownership; from a young woman or a newcomer with a regional accent it reads as being difficult. Contract staff and people on probation pay far more to speak up than permanent staff. So \"trust only costly signals\" has a hidden trap: the cost itself is unevenly distributed, and those who most need to be heard are often those for whom speaking up is most expensive. Discounting by cost means discounting the vulnerable twice. The sounder move is to lower the threshold for everyone to speak, not to raise the price of signalling.",
+      "advice": "**收信息要快，给资源要慢。**如果你管人，本周就立两条规矩：任何资源请求都不当场答应，至少隔一天再定（舒尔茨的24小时规则）；把『报问题』和『要东西』分开，前者当场谢，后者按规则排。下次一对一，先找团队里最安静的那位，直接问『你现在缺什么』，记下来，下个月对照有没有兑现。如果你常被忽略，把需求写成一页纸：要什么、为什么、你愿为结果担什么责，在固定的场合正式提，别等人发现。",
+      "advice_en": "**Take in information fast; hand out resources slowly.** If you manage people, set two rules this week: no resource request is granted on the spot, decide at least a day later (Schultz's 24-hour rule); and separate reporting problems from asking for things, thanking the first on the spot and queuing the second by rule. At your next one-on-ones, start with the quietest person on the team, ask directly \"What are you missing right now?\", write it down, and check next month whether it was delivered. If you're often overlooked, put your request on one page: what you need, why, and what you'll be accountable for, then raise it formally in a fixed setting instead of waiting to be noticed."
+    },
+    {
+      "ai": "gpt",
+      "engine": "openai · gpt-5.6-sol · high(真实API)",
+      "engine_en": "openai · gpt-5.6-sol · high (live API)",
+      "summary": "声音可以提供信息，却不该直接决定资源：这是七位发言者最一致、也最值得带走的判断。若管理者当场向高声施压者让步，组织会同时奖励索取、惩罚沉默，并让公平感、留任和真实预警一起恶化。**应让问题被及时听见，却让资源按事先规则、证据与责任分配。**真正的分歧不在“听不听”，而在例外如何处理：规则派强调公开、延迟和一致性；权力视角提醒急迫威胁不能假装不存在；学习与倦怠视角则更关心每次回应会训练出什么行为、淘汰什么人。",
+      "insight": "管理层听到的并不是组织意见的全貌，而是一个“被选择过的样本”：有安全感、懂流程、靠近权力且有余力的人，更可能进入申请池。于是，即便窗口统一、书面评审完全公正，仍可能只是在公平地比较一批善于表达的人。**沉默不能按零需求处理，它首先是缺失数据。**务实的纠偏不是猜谁委屈，而是主动抽样：定期访谈安静成员，按团队核对工作量、加薪、晋升和离职数据，并检查哪些群体长期不申请。对个人而言，也别把“没人问我”误当成“组织知道我没事”。",
+      "advice": "本周可做三件事：1）建一页“需求单”，写清问题、证据、影响、所需资源、你愿承担的责任和最晚决策日；提交后确认回复时间，不靠反复催促。2）遇到别人当场施压，先确认收到，再用统一句式：“我会在明天下午按同一标准答复”，避免用即时让步奖励吵闹。3）若你带团队，抽查过去三个月的资源、加班与额外任务分布，并单独问两位最少发言者缺什么。**既要把吵闹的额外收益降为零，也要把安静者进入决策的成本降下来。**",
+      "summary_en": "Voices are useful information, but they should not directly allocate resources. That is the strongest shared conclusion. When a manager yields to pressure in the moment, the organization rewards demanding behavior, penalizes quiet contributors, and gradually damages fairness, retention, and early warning. **Problems should be heard promptly, but resources should be allocated through preannounced rules, evidence, and accountable commitments.** The real dispute is not whether to listen; it is how to handle exceptions. Rule-based views favor delay, transparency, and consistency. A power lens warns that leaders cannot ignore actors capable of causing immediate harm. The learning and burnout perspectives ask another consequential question: what behavior does each response reinforce, and which employees does the resulting system retain or drive out? Sound governance therefore separates acknowledgment from allocation: recognize a concern now, but decide the request through a process others could also use.",
+      "insight_en": "What reaches management is not a census of organizational need; it is a selected sample. People with psychological safety, procedural fluency, proximity to power, spare capacity, and confidence are more likely to enter the request pool. A standardized window and an impartial review can therefore still compare only those who were able or willing to speak. **Silence should not be coded as zero need; it is missing data.** The practical correction is not to guess who feels wronged, but to sample proactively: interview quieter employees, compare workload, pay, promotion, and attrition across teams, and identify groups that rarely apply for resources. This matters to individuals too. “No one asked me” does not mean the organization has accurately inferred that everything is fine. If a pattern affects your work, document it and put it on the formal record.",
+      "advice_en": "Try three actions this week. First, create a one-page request stating the problem, evidence, business impact, resources needed, what you will own in return, and the latest useful decision date. Submit it formally and ask when to expect an answer instead of relying on repeated escalation. Second, when someone pressures you for an immediate concession, acknowledge the request but use a standard response such as, “I will evaluate this against the same criteria and reply tomorrow afternoon.” This removes the instant payoff for escalation without suppressing useful information. Third, if you lead a team, audit the last three months of staffing, overtime, stretch work, and discretionary rewards, then privately ask two infrequent speakers what they lack. **The goal is to reduce the extra return from being loud to zero while lowering the cost for quieter people to enter the decision process.**"
+    },
+    {
+      "ai": "gemini",
+      "engine": "google · gemini-3.8-flash(真实API)",
+      "engine_en": "google · gemini-3.8-flash (live API)",
+      "summary": "所有辩者最终都汇聚到了同一个事实：**靠当场妥协平息吵闹，本质上是在用组织的未来向噪音支付勒索金**。无论是从多巴胺强化的神经机制、制度经济学的交易成本，还是倦怠导致的隐性流失来看，以喧哗定资源必然引发全员博弈的恶性循环。真正的分歧在于声音背后的信息性质：特里弗斯与马基雅维利将其视作充满自欺与权力要挟的廉价信号，主张以责任对价和迟滞裁量予以压制；而威廉姆森与格兰特则指出契约永远写不全，声音往往是不完全制度下的纠错传感器，核心矛盾在于如何把揭示问题的求助与争抢利益的喧嚣有效剥离。",
+      "insight": "辩论将声音局限在人际博弈的微观视角，却忽略了信息工程的核心定律：**系统最致命的溃败往往源于『零读数』，而非爆表的尖叫**。这恰如二战时沃德发现的幸存者偏差——能飞回基地大声报修的机翼并非死穴，被击中引擎的战机早已坠海、根本无法发声。如果管理者只依赖“人声”作为系统传感器，本身就犯了严重的采样偏差。与其费尽心机去对人的喉咙做心理学上的打折或消退，不如建立多维的客观遥测体系：交付节拍的阻滞、工时的异常攀升、隐性依赖的断裂，这些客观指标远比人类的辩白诚实。**真正的组织感知力，在于不依赖肉嗓就能看见无声处的承重极限。**",
+      "advice": "本周即可落地的动作有三项。其一，管理者采纳舒尔茨与威廉姆森的方案，**确立『24小时冷冻规则』，彻底切断『即吵即得』的神经反射强化**，凡遇非计划资源索求，一律转入固定表格并要求说明责任对价。其二，践行格兰特与马斯拉奇的防御举措，周五定期核查产出与资源匹配表，主动向最安静的骨干提问：“要完成当前目标，你手头最脆弱的一环缺什么？”其三，普通员工若长期处于沉默边缘，应将情绪化忍耐升级为特里弗斯式的“带押注提案”：在正式通道明确提出“为保证X项目交付，需补充Y资源，风险责任由我兜底”，用有成本的信号打破边缘化。",
+      "summary_en": "The debaters fundamentally converge on a single reality: **conceding to loud demands in the moment is essentially paying a recurring extortion tax with the organization’s future**. Across dopamine-driven reinforcement loops, transaction-cost economics, and burnout-induced attrition, allocating resources based on clamor inevitably triggers a toxic arms race of noisy self-advocacy. The true divergence lies in how to interpret the signal behind the noise. Trivers and Machiavelli treat high volume as a cheap, self-deceptive tool of political coercion that must be priced with risk or dampened by authority. Williamson and Grant, however, argue that incomplete contracts make voice an indispensable corrective sensor, meaning leadership must decouple problem-reporting from self-serving resource grabs rather than muting input altogether.",
+      "insight_en": "The roundtable frames the issue strictly as an interpersonal game, overlooking a core tenet of information engineering: **the most lethal systemic failures register as zero-readings, not deafening alarms**. This mirrors Abraham Wald’s classic survivorship bias: the planes limping home with perforated wings can complain loudly, while those struck in the engine vanish silently beneath the waves. Relying on the human voice as an organization's primary telemetry introduces fatal sampling errors. Rather than perpetually calibrating psychological discounts for vocal complainers, modern management must install objective instrumentation—delivery latency, anomalous overtime, and fractured cross-team dependencies speak far more truthfully than vocal cords. **True institutional awareness means diagnosing load-bearing limits long before silent infrastructure gives way.**",
+      "advice_en": "Three immediate actions can be executed this week. First, implement Schultz and Williamson's delay tactic by **enforcing a strict 24-hour cooling-off rule on ad-hoc requests to sever the instant loop between clamor and concession**, redirecting demands into an asynchronous intake channel that demands explicit accountability. Second, operationalize Grant’s reverse check-in: review your team's output-to-resource distribution every Friday and ask your quietest high-performer, 'What is the single biggest bottleneck threatening your delivery that I can remove?' Third, for individuals overlooked in the background, adopt Trivers's costly signaling: replace silent endurance with a written, wager-backed proposal—'To secure outcome X, I require resource Y, and I will take personal ownership of the downside'—leveraging credibility to cut through the institutional noise."
+    }
+  ],
+  "hooks": [
+    {
+      "from": "claude",
+      "text": "**来的声音怎么接**：报问题、按规则要东西、规则外的例外、带威胁的施压、长期不开口，五种声音该怎么分流？",
+      "text_en": "**How to receive each voice**: a problem report, a request covered by the rules, an exception the rules don't cover, pressure with a threat attached, and long silence. How should each be routed?",
+      "answer": {
+        "lead": "先分清**这是在送信息，还是在要资源**，再看规则有没有覆盖。",
+        "table": {
+          "head": [
+            "来的声音",
+            "怎么接",
+            "为什么"
+          ],
+          "rows": [
+            [
+              "报风险、报问题",
+              "当场感谢，公开回应，记下来跟进",
+              "要强化报信，别让该说的人闭嘴（格兰特）"
+            ],
+            [
+              "要资源，规则已覆盖",
+              "按规则给，不因音量加减",
+              "份额事先定，不由吵闹定（荀子）"
+            ],
+            [
+              "要资源，规则没覆盖",
+              "进固定的例外窗口：书面理由＋愿担的责任，结果公示",
+              "开口有门但不能插队；肯押注才是真需求（威廉姆森、特里弗斯）"
+            ],
+            [
+              "带威胁的施压（不给就走、要闹大）",
+              "不当场答应，隔天按同一标准答复；真实风险另行评估",
+              "别让『闹』和『得』挨着；让步要出于规则，不出于压力（舒尔茨、马基雅维利）"
+            ],
+            [
+              "长期不开口的人",
+              "主动去问，对照工作量与分配数据",
+              "沉默不是零需求，是缺失的数据（马斯拉奇、GPT）"
+            ]
+          ]
+        },
+        "tail": "**收信息要快，给资源要慢。**每季度对一遍名单：拿得最多的，是贡献最大的，还是最会开口的？"
+      },
+      "answer_en": {
+        "lead": "First tell apart **whether the voice is bringing information or asking for resources**, then check whether the rules cover it.",
+        "table": {
+          "head": [
+            "The voice",
+            "How to receive it",
+            "Why"
+          ],
+          "rows": [
+            [
+              "Flagging a risk or problem",
+              "Thank them on the spot, respond publicly, log it and follow up",
+              "Reinforce reporting so the people who should speak don't go quiet (Grant)"
+            ],
+            [
+              "Asking for resources the rules cover",
+              "Give by the rule, with nothing added or taken away for volume",
+              "Shares are set in advance, not by noise (Xunzi)"
+            ],
+            [
+              "Asking for something the rules don't cover",
+              "Route it to a fixed exceptions window: written reasons plus the accountability they'll take on, with outcomes published",
+              "A door to speak through but no cutting the line; a need someone will stake something on is real (Williamson, Trivers)"
+            ],
+            [
+              "Pressure with a threat (\"or I'll quit\", \"or I'll escalate\")",
+              "Don't agree on the spot; answer the next day by the same standard, and assess any real risk separately",
+              "Keep fuss and payoff apart; concessions should come from rules, not pressure (Schultz, Machiavelli)"
+            ],
+            [
+              "Someone who never speaks up",
+              "Go and ask; check workload and allocation data",
+              "Silence isn't zero need, it's missing data (Maslach, GPT)"
+            ]
+          ]
+        },
+        "tail": "**Take in information fast; hand out resources slowly.** Once a quarter, check the list: did the people who got the most contribute the most, or just speak up the most?"
+      }
+    },
+    {
+      "from": "gpt",
+      "text": "**沉默是缺失的数据**：进入申请池的人本来就是被筛过的样本。哪些人、哪些岗位从来不申请？主动抽样该怎么做，才不变成又一轮表态？",
+      "text_en": "**Silence is missing data**: the people who enter the request pool are already a filtered sample. Which people and roles never apply? How do you sample proactively without it becoming one more round of performance?"
+    },
+    {
+      "from": "gemini",
+      "text": "**别只拿人声当传感器**：交付卡顿、加班异常、跨组依赖断裂，比嗓门诚实。可把这些指标盯紧了，会不会从倾听滑向监控？",
+      "text_en": "**Don't use voices as your only sensor**: stalled deliveries, unusual overtime and broken cross-team dependencies are more honest than any voice. But watch those metrics closely enough, and does listening slide into surveillance?"
+    },
+    {
+      "from": "trivers",
+      "text": "**家里会哭的孩子**：兄弟姐妹之间，会闹的那个往往多得。父母怎样延迟回应吵闹，又不错过孩子真的难受？",
+      "text_en": "**The child who cries at home**: among siblings, the one who makes a fuss often gets more. How can parents delay their response to the fuss without missing the moments a child is genuinely struggling?"
+    }
+  ]
+}

@@ -1,0 +1,860 @@
+{
+ "id": "pain-alarm-or-prediction",
+ "question": "疼痛是身体在报警，还是大脑在预测？",
+ "question_en": "Is pain the body's alarm, or the brain's prediction?",
+ "sub": "幻肢会痛，安慰剂能止痛，痛能被改写吗",
+ "sub_en": "Phantom limbs hurt and placebos relieve pain: can pain be rewritten?",
+ "date": "2026-10-17",
+ "participants": [
+  "descartes",
+  "ramachandran",
+  "benedetti",
+  "vasubandhu",
+  "epicurus",
+  "sontag",
+  "illich"
+ ],
+ "casting": [
+  {
+   "id": "descartes",
+   "reason": "他守警报观：痛是神经把伤处的信号传进大脑，幻肢痛只是线路中途被拽，不推翻警报的设计。",
+   "reason_en": "He holds the alarm view: nerves carry a signal from the injury into the brain, and phantom pain is just the line being tugged midway, which doesn't overturn the alarm's design."
+  },
+  {
+   "id": "ramachandran",
+   "reason": "他用幻肢与镜箱证明，没有神经被碰，痛也能被改写：痛是大脑对身体安危的判断。",
+   "reason_en": "With phantom limbs and the mirror box he shows that pain can be rewritten without touching a nerve: pain is the brain's judgment about whether the body is safe."
+  },
+  {
+   "id": "benedetti",
+   "reason": "他把期待当成可测的生理变量：安慰剂调动内源性阿片，医生一句话能止痛也能造痛。",
+   "reason_en": "He treats expectation as a measurable physiological variable: placebos release the body's own opioids, and a doctor's words can relieve pain or create it."
+  },
+  {
+   "id": "vasubandhu",
+   "reason": "他以唯识与两支箭的经文，把身体之苦与心里之忧分开，主张第二支箭可以不受。",
+   "reason_en": "Drawing on consciousness-only and the sutra of the two arrows, he separates bodily pain from mental distress and holds that the second arrow need not be taken."
+  },
+  {
+   "id": "epicurus",
+   "reason": "他从亲身的结石之痛出发，主张剧痛不长、长痛不剧，最该治的是对未来之痛的恐惧。",
+   "reason_en": "Starting from his own kidney-stone agony, he argues that severe pain is brief and long pain mild, and that what most needs treating is the fear of pain to come."
+  },
+  {
+   "id": "sontag",
+   "reason": "她警告『痛在脑中』一出实验室就会变成打发病人的话，坚持先相信病人、再谈机制。",
+   "reason_en": "She warns that 'pain is in the brain' turns into a way of dismissing patients once it leaves the lab, and insists on believing the patient before discussing mechanisms."
+  },
+  {
+   "id": "illich",
+   "reason": "他追问谁拥有痛：现代医学把痛当技术故障去消灭，人反而失去了承受与照料痛的文化本事。",
+   "reason_en": "He asks who owns pain: modern medicine treats it as a technical fault to be eliminated, and people lose the cultural skill of bearing and tending it."
+  }
+ ],
+ "posts": [
+  {
+   "id": "p01",
+   "round": 1,
+   "thinker": "descartes",
+   "reply_to": null,
+   "text": "我在《论人》里打过一个比方：脚碰到火，皮肤里的细线被扯动，一路拉到脑中，像拉绳摇响教堂的铃。痛就是那声铃，是造物主为保全身体装的警报。有人会拿幻肢来驳我——截掉的手还疼。可我早就写过这个病例：**绳子从中间被拽，铃声照样响，脑子只会把它算到绳子末端**。错的是线路，不是警报这个设计。绝大多数时候，疼就是在说：那里出事了，快去看。",
+   "text_en": "In my Treatise of Man I offered an image: when the foot touches fire, fine threads in the skin are tugged all the way up to the brain, the way pulling a rope rings a church bell. Pain is that bell, an alarm the Creator fitted to keep the body safe. Someone will throw the phantom limb at me: the amputated hand still hurts. But I wrote up that very case long ago: **pull the rope from the middle and the bell rings just the same, and the brain can only credit it to the rope's far end**. The fault lies in the wiring, not in the design of the alarm. Most of the time, pain is saying exactly this: something is wrong there, go and look.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "幻肢": "phantom limb（幻肢）：截肢后仍感到那段肢体存在，甚至疼痛、发痒、动弹的现象，多数截肢者都经历过。"
+   },
+   "glossary_en": {
+    "phantom limb": "The sensation, reported by most amputees, that a removed limb is still there, and may hurt, itch or move."
+   },
+   "reactions": {
+    "轻微赞同": [
+     "epicurus",
+     "sontag"
+    ],
+    "中立": [
+     "illich"
+    ],
+    "轻微反对": [
+     "benedetti",
+     "vasubandhu"
+    ],
+    "强烈反对": [
+     "ramachandran"
+    ]
+   }
+  },
+  {
+   "id": "p02",
+   "round": 1,
+   "thinker": "ramachandran",
+   "reply_to": null,
+   "text": "我的一位病人截肢多年，幻肢的手一直紧攥成拳，指甲像要掐进掌心，疼得睡不着。我做了个镜箱：纸箱中间立一面镜子，让他把好手放进去，从镜里看，就像失去的手回来了。他张开好手，看见『那只手』也张开——十几年的痉挛痛，当场松了。镜子没碰到任何神经。所以我的结论是：**痛不是伤处送来的报告，而是大脑对『身体现在安不安全』下的判断**。判断可以错，也就可以改。",
+   "text_en": "One of my patients had lost his arm years before, yet his phantom hand stayed clenched in a fist, the nails seeming to dig into the palm, and the pain kept him up at night. I built a mirror box: a cardboard box with a mirror standing in the middle. He put his good hand in and looked at its reflection, and it was as if the missing hand had come back. He opened his good hand, saw 'that hand' open too, and a cramp that had hurt for more than a decade let go on the spot. The mirror touched no nerve at all. So my conclusion is this: **pain is not a report sent up from the injury but the brain's judgment about whether the body is safe right now**. A judgment can be wrong, which means it can be revised.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "镜箱": "mirror box（镜箱）：拉马钱德兰在 1990 年代设计的装置，用镜像让患者『看见』缺失的肢体在动，借此缓解部分幻肢痛。"
+   },
+   "glossary_en": {
+    "mirror box": "A device Ramachandran devised in the 1990s that uses a reflection to let patients 'see' a missing limb move, easing some phantom limb pain."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "benedetti"
+    ],
+    "轻微赞同": [
+     "vasubandhu",
+     "epicurus"
+    ],
+    "中立": [
+     "illich"
+    ],
+    "轻微反对": [
+     "descartes"
+    ],
+    "疑惑": [
+     "sontag"
+    ]
+   }
+  },
+  {
+   "id": "p03",
+   "round": 1,
+   "thinker": "benedetti",
+   "reply_to": null,
+   "text": "我在实验室里能把『期待』量出来。给受试者打一针生理盐水当安慰剂，告诉他这是强效止痛药，痛就真的减轻；再加一针纳洛酮，阻断体内的阿片受体，效果就没了——说明大脑自己放出了吗啡一样的物质。反过来也成立：同一剂吗啡偷偷从静脉泵进去、病人不知道，镇痛效果明显打折扣。这个差额，就是医生那句话、诊室那套仪式的药效。**期待不是想象，它是一种会走化学通路的药。**",
+   "text_en": "In my lab I can measure expectation. Give a volunteer a saline placebo and say it's a powerful painkiller, and the pain really does ease; add a shot of naloxone to block the body's opioid receptors and the effect vanishes, which means the brain released a morphine-like substance of its own. It works the other way too: pump the same dose of morphine into a vein covertly, without the patient knowing, and the pain relief drops markedly. That difference is the pharmacology of a doctor's words and the clinic's ritual. **Expectation isn't imagination; it is a drug that runs through chemical pathways.**",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "安慰剂": "placebo（安慰剂）：本身不含有效成分的处理，靠病人的期待与就医情境产生实际疗效。",
+    "纳洛酮": "naloxone（纳洛酮）：阿片受体拮抗剂，能阻断吗啡等阿片类物质的作用；安慰剂止痛若被它取消，说明安慰剂动用了体内自产的阿片。"
+   },
+   "glossary_en": {
+    "placebo": "A treatment with no active ingredient that produces real effects through the patient's expectations and the clinical setting.",
+    "naloxone": "An opioid receptor blocker that cancels the effects of morphine and similar drugs; if it also cancels placebo pain relief, the placebo must have tapped the body's own opioids."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "ramachandran"
+    ],
+    "轻微赞同": [
+     "epicurus"
+    ],
+    "中立": [
+     "vasubandhu"
+    ],
+    "轻微反对": [
+     "descartes"
+    ],
+    "疑惑": [
+     "sontag",
+     "illich"
+    ]
+   }
+  },
+  {
+   "id": "p04",
+   "round": 1,
+   "thinker": "vasubandhu",
+   "reply_to": null,
+   "text": "佛说：凡夫触苦，如中一箭，复忧悲啼哭，如中第二箭；多闻圣弟子唯受身苦，不受心忧。论家依此分受：身识相应者名苦受，意识相应者名忧受。今诸君争痛在身在脑，犹争铃声在索端抑在楼上。痛者，识所变之相，非外有一痛物送入。**第一箭在根身，第二箭全是分别所射**——『恐是大病』『何以独我』『永不得愈』，皆意识增益。身苦或不可免，忧箭可不受。",
+   "text_en": "The Buddha said: when an ordinary person is touched by pain it is like being struck by an arrow; then they grieve, lament and weep, as if struck by a second arrow. The well-taught disciple feels only the bodily pain, not the mental distress. The Abhidharma masters divided feeling accordingly: what accompanies bodily consciousness is called painful feeling, what accompanies mental consciousness is called distress. Now you dispute whether pain lives in the body or in the brain, which is like disputing whether the bell rings at the rope's end or up in the tower. Pain is an appearance transformed by consciousness, not some pain-thing delivered from outside. **The first arrow strikes the body; the second is shot entirely by conceptual elaboration**: 'it must be something serious', 'why me', 'it will never get better' are all additions of the mind. Bodily pain may be unavoidable; the arrow of distress need not be taken.",
+   "vernacular": "佛陀说：普通人碰上痛，就像中了一箭；接着又忧愁、悲伤、哭喊，等于中了第二箭；受过教导的弟子只受身体那一份痛，不受心里那一份忧。论师据此把感受分开：跟身体感官相应的叫『苦受』，跟意识相应的叫『忧受』。各位争痛在身体还是在大脑，就像争铃声在绳子那头还是在钟楼上。痛是心识变现出的相，不是外面有一个『痛』被送进来。**第一箭射在身体上，第二箭全是自己的分别心射的**——『怕是大病』『为什么偏偏是我』『永远好不了』，都是意识添上去的。身体的苦也许躲不掉，忧这一箭可以不受。",
+   "vernacular_en": "",
+   "glossary": {
+    "苦受": "painful feeling（苦受）：阿毗达磨『五受』之一，与眼耳鼻舌身五识相应的身体之苦。",
+    "忧受": "distress（忧受）：与意识相应的心理之苦，即悲伤、忧虑、恐惧一类。",
+    "分别": "conceptual elaboration (vikalpa)（分别）：意识对所感受的东西贴标签、作推想、编故事的作用。"
+   },
+   "glossary_en": {
+    "painful feeling": "One of the five kinds of feeling in Abhidharma: bodily pain that accompanies the five sense consciousnesses.",
+    "distress": "Mental pain that accompanies mind-consciousness: grief, worry, fear and the like.",
+    "conceptual elaboration": "Vikalpa: the mind's habit of labelling what it feels, speculating about it and spinning stories around it."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "epicurus"
+    ],
+    "轻微赞同": [
+     "ramachandran",
+     "benedetti"
+    ],
+    "中立": [
+     "descartes"
+    ],
+    "轻微反对": [
+     "illich"
+    ],
+    "疑惑": [
+     "sontag"
+    ]
+   }
+  },
+  {
+   "id": "p05",
+   "round": 1,
+   "thinker": "epicurus",
+   "reply_to": null,
+   "text": "我晚年肾结石发作，排尿如刀割，痛到无以复加。临终那天我给朋友写信：今天是我有福的一天，也是最后一天，因为回想我们一起的谈话，心里的快乐压得住身上的痛。我不管痛是铃声还是推测，只看它怎么运作：**剧痛不长，长痛不剧**。真正把人压垮的，常常不是此刻的痛，而是对明天、后天还会痛的恐惧。恐惧可以用推理拆，可以用朋友稀释。",
+   "text_en": "In my last years a kidney stone tormented me; passing water was like being cut with knives, a pain to which nothing could be added. On the day I died I wrote to a friend: this is a blessed day, and the last of my life, because the joy of recalling our conversations holds the pain in my body at bay. I don't care whether pain is a bell or a guess; I look at how it behaves: **severe pain is brief, and long pain is mild**. What crushes a person is often not the pain of this moment but the fear that it will hurt tomorrow and the day after. Fear can be taken apart by reasoning and diluted by friends.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "vasubandhu"
+    ],
+    "轻微赞同": [
+     "benedetti",
+     "ramachandran"
+    ],
+    "中立": [
+     "descartes"
+    ],
+    "轻微反对": [
+     "sontag"
+    ],
+    "疑惑": [
+     "illich"
+    ]
+   }
+  },
+  {
+   "id": "p06",
+   "round": 1,
+   "thinker": "sontag",
+   "reply_to": null,
+   "text": "我写《疾病的隐喻》，是因为癌症病人被告知：你的病是压抑出来的。凡是一种病的成因还说不清，人们就爱把它心理化，最后把责任推回病人身上。今天『痛是大脑的预测』是很好的科学，可它一出实验室，到了亲戚嘴里、到了门诊的十分钟里，就变成：**你的痛是你自己想出来的**。慢性痛的人，尤其是女性，已经被这句话打发了几十年。",
+   "text_en": "I wrote Illness as Metaphor because cancer patients were being told their disease came from repression. Whenever the cause of an illness is poorly understood, people like to psychologize it, and in the end the blame lands back on the patient. Today 'pain is the brain's prediction' is fine science, but once it leaves the lab, once it reaches a relative's mouth or a ten-minute appointment, it turns into: **your pain is something you made up**. People with chronic pain, women above all, have been brushed off with that sentence for decades.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "心理化": "psychologize（心理化）：把疾病的成因归结为性格或情绪，如『压抑导致癌症』；桑塔格认为这常是把责任推给病人的方式。"
+   },
+   "glossary_en": {
+    "psychologize": "To explain an illness by personality or emotion, as in 'repression causes cancer'; Sontag saw this as a common way of shifting blame onto the sick."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "illich"
+    ],
+    "轻微赞同": [
+     "descartes"
+    ],
+    "中立": [
+     "epicurus"
+    ],
+    "轻微反对": [
+     "ramachandran",
+     "benedetti"
+    ],
+    "疑惑": [
+     "vasubandhu"
+    ]
+   }
+  },
+  {
+   "id": "p07",
+   "round": 1,
+   "thinker": "illich",
+   "reply_to": null,
+   "text": "我关心的不是痛走哪条神经，而是谁拥有痛。过去每种文化都教人怎样受苦：有祷告、有歌、有守在床边的人，痛被安放进一个意义里，人学会扛。现代医学把痛变成一个技术故障，交给专家去『杀掉』。结果是一个被麻醉的社会：**我们止痛的手段越多，忍痛的能力越少，对痛的恐惧反而越大**。止痛药卖得越多，人越觉得任何不适都不该有。",
+   "text_en": "What concerns me is not which nerve pain travels along but who owns it. Every culture used to teach people how to suffer: there were prayers, songs, someone keeping watch at the bedside; pain was set within a meaning and people learned to bear it. Modern medicine turned pain into a technical fault and handed it to experts to 'kill'. The result is an anaesthetised society: **the more means we have of stopping pain, the less capacity we have to bear it, and the more we come to fear it**. The more painkillers are sold, the more people feel that no discomfort should exist at all.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "sontag"
+    ],
+    "轻微赞同": [
+     "vasubandhu"
+    ],
+    "中立": [
+     "ramachandran"
+    ],
+    "轻微反对": [
+     "benedetti",
+     "descartes"
+    ],
+    "强烈反对": [
+     "epicurus"
+    ]
+   }
+  },
+  {
+   "id": "p08",
+   "round": 2,
+   "thinker": "ramachandran",
+   "reply_to": "p01",
+   "text": "@笛卡尔 您的铃绳解释得了『从中间拽』，却解释不了我的镜箱：病人没有一根神经被碰，只是眼睛看到一只手张开，疼就松了。拽绳只会让铃响，不会让铃停；能让铃停的，只有楼上那个决定敲不敲的人。还有个反例：一位建筑工人跳下时，钉子扎穿了靴子，他痛得送急诊，脱鞋才发现钉子从脚趾缝穿过，皮都没破。**痛跟着他看见的东西走，不跟着伤走。**",
+   "text_en": "@Descartes Your bell rope can explain a tug 'in the middle', but not my mirror box: not one of the patient's nerves was touched, his eyes merely saw a hand open, and the pain eased. Tugging a rope can make a bell ring; it can't make it stop. The only one who can stop it is whoever upstairs decides whether to ring. Here's another counterexample: a builder jumped down onto a nail that went straight through his boot, was in agony all the way to the emergency room, and when they took the boot off they found the nail had passed between his toes without breaking the skin. **Pain followed what he saw, not the wound.**",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "benedetti"
+    ],
+    "轻微赞同": [
+     "vasubandhu",
+     "epicurus"
+    ],
+    "中立": [
+     "illich"
+    ],
+    "轻微反对": [
+     "descartes"
+    ],
+    "疑惑": [
+     "sontag"
+    ]
+   }
+  },
+  {
+   "id": "p09",
+   "round": 2,
+   "thinker": "descartes",
+   "reply_to": "p08",
+   "text": "@拉马钱德兰 我承认楼上有人在判断。但别忘了，有人患先天性无痛症：这样的孩子会咬烂舌头、骨折了还接着跑，很多活不到成年。**警报偶尔误报，总比没有警报好得多。**我担心的是另一头：一旦大家相信『痛不过是大脑的看法』，阑尾炎的腹痛会不会也被当成看法，劝人放松就好？判断再会出错，多数时候还是对的。先当真，再查验。",
+   "text_en": "@Ramachandran I grant that someone upstairs is judging. But don't forget that some people are born with congenital insensitivity to pain: such children chew their tongues raw and keep running on broken bones, and many don't live to adulthood. **An alarm that sometimes goes off falsely is far better than no alarm.** What worries me is the other end: once everyone believes 'pain is only the brain's opinion', will the stomach pain of appendicitis also be treated as an opinion, and the patient told to just relax? However fallible the judgment, it is usually right. Take it seriously first, then check it.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "先天性无痛症": "congenital insensitivity to pain（先天性无痛症）：罕见遗传病，患者感觉不到疼痛，常因受伤、感染未被察觉而反复受损。"
+   },
+   "glossary_en": {
+    "congenital insensitivity to pain": "A rare inherited condition in which a person cannot feel pain, and so suffers repeated damage from injuries and infections that go unnoticed."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "sontag"
+    ],
+    "轻微赞同": [
+     "epicurus",
+     "benedetti"
+    ],
+    "中立": [
+     "ramachandran"
+    ],
+    "轻微反对": [
+     "vasubandhu"
+    ],
+    "疑惑": [
+     "illich"
+    ]
+   }
+  },
+  {
+   "id": "p10",
+   "round": 2,
+   "thinker": "benedetti",
+   "reply_to": "p06",
+   "text": "@桑塔格 您的担心，我在病房里天天见。但数据恰好站在病人这边：安慰剂起效时，大脑放出的阿片能被纳洛酮挡住，扫描里看得见疼痛相关脑区在变。**大脑做出来的痛，和伤口做出来的痛一样真**，没有『想出来的』这回事。该改的是医生的嘴：只是把副作用念得吓人一点，就有人真出现那些副作用——这叫反安慰剂效应。医生一句话，能止痛，也能造痛。",
+   "text_en": "@Sontag I see your worry on the wards every day. But the data are on the patient's side: when a placebo works, the opioids the brain releases can be blocked by naloxone, and scans show pain-related regions changing. **Pain made by the brain is as real as pain made by a wound**; there is no such thing as 'made-up' pain. What needs changing is the doctor's mouth: just reading out the side effects a little more frighteningly makes some people actually develop them. That's the nocebo effect. One sentence from a doctor can relieve pain, and it can create it.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "反安慰剂效应": "nocebo effect（反安慰剂效应）：负面期待引发真实的症状或加重疼痛，如听了副作用清单后真的出现副作用。"
+   },
+   "glossary_en": {
+    "nocebo effect": "When negative expectations produce real symptoms or worsen pain, as when people develop side effects after hearing a list of them."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "ramachandran"
+    ],
+    "轻微赞同": [
+     "descartes",
+     "epicurus"
+    ],
+    "中立": [
+     "vasubandhu"
+    ],
+    "轻微反对": [
+     "illich"
+    ],
+    "疑惑": [
+     "sontag"
+    ]
+   }
+  },
+  {
+   "id": "p11",
+   "round": 2,
+   "thinker": "sontag",
+   "reply_to": "p10",
+   "text": "@贝内代蒂 『一样真』这句话，请写在每间诊室的墙上。可文化听不见『一样真』，只听得见『在脑子里』。纤维肌痛的病人被劝『想开点』，女性说疼，更容易被记成『情绪问题』、少开止痛药。科学越讲『预测』，越有人拿它当省事的借口：查不出来，就是你心态不好。**先相信病人，再讨论机制**，顺序不能倒。",
+   "text_en": "@Benedetti Please paint 'just as real' on the wall of every consulting room. But culture doesn't hear 'just as real'; it only hears 'in your head'. Patients with fibromyalgia are told to look on the bright side; when women report pain it is more readily logged as 'emotional', and they get fewer painkillers. The more science talks about 'prediction', the more people use it as a convenient excuse: if the tests find nothing, your attitude must be the problem. **Believe the patient first, discuss mechanisms second**, and never reverse that order.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "纤维肌痛": "fibromyalgia（纤维肌痛）：以全身广泛疼痛、疲劳和睡眠障碍为主的慢性病，常规检查多无异常，患者常被怀疑在装病。"
+   },
+   "glossary_en": {
+    "fibromyalgia": "A chronic condition of widespread pain, fatigue and poor sleep in which routine tests usually come back normal, so patients are often suspected of faking."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "illich",
+     "descartes"
+    ],
+    "轻微赞同": [
+     "benedetti"
+    ],
+    "中立": [
+     "epicurus"
+    ],
+    "轻微反对": [
+     "ramachandran"
+    ],
+    "疑惑": [
+     "vasubandhu"
+    ]
+   }
+  },
+  {
+   "id": "p12",
+   "round": 2,
+   "thinker": "vasubandhu",
+   "reply_to": "p07",
+   "text": "@伊里奇 君惜古人有祷有歌，能为痛安一意义。然安意义亦是一箭：谓之业报，则添悔；谓之考验，则添执；谓之天罚，则添惧。病者身受已苦，又负一段道理，**是以意义疗痛，犹以箭拔箭**。唯识所教，不在为受另立一说，而在见受但是受：此是苦受，生已即灭，刹那不住。不加不减，忧箭自落。",
+   "text_en": "@Illich You lament that the ancients had prayers and songs that could give pain a meaning. But giving it a meaning is also an arrow: call it karmic retribution and you add remorse; call it a trial and you add clinging; call it divine punishment and you add fear. The sick already suffer in the body, and now must shoulder an argument as well. **Treating pain with meaning is like pulling out one arrow with another.** What consciousness-only teaches is not to set up yet another account of feeling but to see feeling as merely feeling: this is painful feeling; it arises and ceases, not staying for a single kṣaṇa. Add nothing, take nothing away, and the arrow of distress drops of itself.",
+   "vernacular": "伊里奇先生，你惋惜古人有祷告有歌谣，能给痛安放一个意义。但安放意义本身也是一箭：说成业报，就多了悔；说成考验，就多了执著；说成天罚，就多了恐惧。病人身上已经够苦，还要再背一套道理，**用意义来治痛，就像拿一支箭去拔另一支箭**。唯识教的，不是给感受再立一套说法，而是看清感受就只是感受：这是苦受，生起就灭去，一刹那也不停留。不添也不减，忧愁那一箭自己就掉了。",
+   "vernacular_en": "",
+   "glossary": {
+    "刹那": "kṣaṇa（刹那）：佛教所说最短的时间单位；一切因缘所生之法都刹那生灭、不能常住。"
+   },
+   "glossary_en": {
+    "kṣaṇa": "The briefest unit of time in Buddhist thought, an instant; everything that arises from conditions arises and perishes from instant to instant."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "epicurus"
+    ],
+    "轻微赞同": [
+     "ramachandran"
+    ],
+    "中立": [
+     "benedetti",
+     "descartes"
+    ],
+    "轻微反对": [
+     "sontag"
+    ],
+    "强烈反对": [
+     "illich"
+    ]
+   }
+  },
+  {
+   "id": "p13",
+   "round": 2,
+   "thinker": "illich",
+   "reply_to": "p10",
+   "text": "@贝内代蒂 您证明了一件古人早知道的事：守在床边的人、一句可信的话，本身就止痛。可这个结论会被怎么用？医疗系统会把『仪式』也收编成一项可计费的服务——标准话术、安慰剂处方、疼痛管理课程。**本来属于家人和邻里的安慰，又被专业化地卖回给我们。**我宁可要一个会握住我手的邻居，也不要一套经过验证的医患沟通流程。",
+   "text_en": "@Benedetti You've proved something the ancients already knew: someone keeping watch at the bedside, a word one can trust, relieves pain by itself. But how will that finding be used? The medical system will absorb 'ritual' too, as one more billable service: scripted reassurance, placebo prescriptions, pain-management courses. **Comfort that once belonged to family and neighbours gets professionalised and sold back to us.** I'd rather have a neighbour who holds my hand than a validated protocol for doctor–patient communication.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "sontag"
+    ],
+    "轻微赞同": [
+     "epicurus",
+     "vasubandhu"
+    ],
+    "中立": [
+     "descartes"
+    ],
+    "轻微反对": [
+     "benedetti"
+    ],
+    "疑惑": [
+     "ramachandran"
+    ]
+   }
+  },
+  {
+   "id": "p14",
+   "round": 2,
+   "thinker": "epicurus",
+   "reply_to": "p07",
+   "text": "@伊里奇 我一生劝人节制，但请别把『能忍』当成美德本身。我若生在有止痛药的年代，结石发作时会毫不犹豫地吃——**无痛本来就是快乐的一部分，没必要的痛不必去挣**。你说对了一半：怕痛比痛更伤人。可治怕的办法，不是先把人扔回痛里去练，而是让他知道痛有尽头、身边有朋友。止痛和不怕痛，可以同时要。",
+   "text_en": "@Illich I spent my life urging moderation, but please don't treat endurance as a virtue in itself. Had I lived in an age of painkillers, I'd have taken them without hesitation when the stone struck. **Freedom from pain is itself part of pleasure; there's no merit in earning pain you don't need.** You're half right: fearing pain does more harm than pain does. But the cure for fear isn't to throw people back into pain for practice; it's to let them know that pain has an end and that friends are close by. You can want relief and fearlessness at the same time.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "benedetti"
+    ],
+    "轻微赞同": [
+     "descartes",
+     "ramachandran",
+     "vasubandhu"
+    ],
+    "中立": [
+     "sontag"
+    ],
+    "轻微反对": [
+     "illich"
+    ]
+   }
+  },
+  {
+   "id": "p15",
+   "round": 3,
+   "thinker": "descartes",
+   "reply_to": null,
+   "text": "我修正自己：铃绳之外，楼上确有一位会出错的敲钟人。但警报观给普通人的那条底线仍然成立：**新出现的痛，先当警报；痛过了该愈合的时间还不走，再怀疑警报失灵。**具体说，突然剧痛、伴发烧、麻木无力、夜里痛醒、体重莫名下降，都要尽快就医，别自己劝自己『是心理作用』。而伤口早已长好、检查都正常、痛却持续三个月以上，就可以问医生：是不是神经系统自己调高了音量，需要换一种治法。",
+   "text_en": "I correct myself: besides the rope, there is indeed a bell-ringer upstairs who can make mistakes. But the alarm view still gives ordinary people a floor: **when pain is new, treat it as an alarm; when it outlasts the time healing should take, start suspecting the alarm itself.** Concretely: sudden severe pain, pain with fever, numbness or weakness, pain that wakes you at night, unexplained weight loss — see a doctor promptly, and don't talk yourself into 'it's just psychological'. And if the wound has long healed and the tests are normal, yet the pain has lasted more than three months, ask your doctor whether the nervous system has turned up its own volume and needs a different kind of treatment.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "sontag",
+     "ramachandran"
+    ],
+    "轻微赞同": [
+     "benedetti",
+     "epicurus"
+    ],
+    "中立": [
+     "vasubandhu",
+     "illich"
+    ]
+   }
+  },
+  {
+   "id": "p16",
+   "round": 3,
+   "thinker": "ramachandran",
+   "reply_to": null,
+   "text": "笛卡尔先生这条线画得好，我补后半段。慢性痛常常是大脑把『危险』这首歌练得太熟：越痛越怕动，越不动越敏感。研究发现，光是给病人讲明白痛是怎么产生的，痛感和活动能力都会改善。**理解本身就是治疗的一部分。**可以试：把怕做的动作拆成很小一步，每天在不加重的范围里做一点，让大脑重新收集『这样没事』的证据。别等不痛了再动，是动着动着才不痛。",
+   "text_en": "Monsieur Descartes has drawn that line well; let me add the second half. Chronic pain is often the brain having rehearsed the song of 'danger' too well: the more it hurts, the more you fear moving; the less you move, the more sensitive you get. Studies have found that simply explaining to patients how pain is produced improves both their pain and how well they move. **Understanding is itself part of the treatment.** Try this: break the movement you're afraid of into very small steps and do a little each day, within a range that doesn't make things worse, so the brain can collect fresh evidence that 'this is fine'. Don't wait for the pain to go before you move; it's by moving that the pain goes.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "benedetti"
+    ],
+    "轻微赞同": [
+     "descartes",
+     "epicurus",
+     "vasubandhu"
+    ],
+    "中立": [
+     "illich"
+    ],
+    "疑惑": [
+     "sontag"
+    ]
+   }
+  },
+  {
+   "id": "p17",
+   "round": 3,
+   "thinker": "benedetti",
+   "reply_to": null,
+   "text": "综合下来，期待是一个人人手里都有的旋钮。三件事今天就能做：吃药时弄清它在做什么、为什么有效，别边吃边怀疑——知情给药比偷偷给药效果好得多；看副作用说明，看的是发生率，『1% 的人头痛』意思是 99 个人没事；就连开放标签安慰剂，明说是糖丸，在肠易激综合征试验里也有效。**认真对待吃药这个仪式，它会回报你。**还有一条给医生：讲风险，也讲多数人会好转。",
+   "text_en": "Putting it together, expectation is a dial everyone holds. Three things you can do today. When you take a medicine, find out what it does and why it works, and don't swallow it while doubting it: open administration works far better than covert. When you read the side effects leaflet, read the frequencies: '1% get headaches' means 99 people don't. Even an open-label placebo, openly called a sugar pill, has worked in trials for irritable bowel syndrome. **Take the ritual of taking medicine seriously, and it will repay you.** And one for doctors: describe the risks, but also say that most people get better.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "开放标签安慰剂": "open-label placebo（开放标签安慰剂）：明确告诉病人这是不含药物成分的安慰剂，仍让其按时服用；在肠易激综合征等慢性病的试验中显示出疗效。"
+   },
+   "glossary_en": {
+    "open-label placebo": "A placebo given while telling the patient plainly that it contains no active drug, to be taken on schedule anyway; it has shown benefits in trials for chronic conditions such as irritable bowel syndrome."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "ramachandran"
+    ],
+    "轻微赞同": [
+     "epicurus",
+     "descartes"
+    ],
+    "中立": [
+     "vasubandhu"
+    ],
+    "轻微反对": [
+     "illich"
+    ],
+    "疑惑": [
+     "sontag"
+    ]
+   }
+  },
+  {
+   "id": "p18",
+   "round": 3,
+   "thinker": "vasubandhu",
+   "reply_to": null,
+   "text": "诸论既尽，余但举一行法。痛起时，勿急拒，勿急解，先默念：『此是苦受。』次观其处所、其冷热、其跳刺，如实而知，不作好恶。若心中起『恐成大病』之念，复念：『此是忧，非苦受。』**一分身苦，一分心忧，分得清时，第二箭已半落。**日修数息三十，乃至痛时亦修。至于第一箭——当就医者就医，佛亦称医王，未尝教人拒药。",
+   "text_en": "The arguments are done; I offer only a practice. When pain arises, don't rush to push it away or to explain it. First note silently: 'This is painful feeling.' Then observe where it is, whether it is cold or hot, throbbing or stabbing; know it as it is, without liking or disliking. If the thought 'what if it's something serious' arises, note again: 'This is distress, not painful feeling.' **One part bodily pain, one part mental distress: once you can tell them apart, the second arrow has already half fallen.** Practise breath counting, thirty breaths a day, and keep practising when the pain comes. As for the first arrow: whoever should see a doctor should see one. The Buddha himself was called the King of Physicians and never taught anyone to refuse medicine.",
+   "vernacular": "各家的道理讲完了，我只给一个练法。痛起来时，别急着推开，也别急着解释，先在心里默念：『这是苦受。』再看它在哪里、是冷是热、是跳痛还是刺痛，照实了解，不评好坏。如果心里冒出『怕是大病』的念头，再念：『这是忧，不是苦受。』**一份是身体的苦，一份是心里的忧，分得清的时候，第二箭已经掉了一半。**每天练三十次数息，痛的时候也练。至于第一箭——该看医生就看医生，佛也被称为医王，从没教人拒绝吃药。",
+   "vernacular_en": "",
+   "glossary": {
+    "数息": "breath counting（数息）：佛教禅修的入门法，一呼一吸计一数，用来收摄散乱的心。",
+    "医王": "King of Physicians（医王）：佛经对佛陀的称号，以医生诊病、对症下药比喻佛陀针对众生之苦说法。"
+   },
+   "glossary_en": {
+    "breath counting": "An entry-level Buddhist meditation in which each in-and-out breath is counted, to gather a scattered mind.",
+    "King of Physicians": "A title for the Buddha in the sutras, likening his teaching to a doctor who diagnoses an illness and prescribes the remedy that fits it."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "epicurus"
+    ],
+    "轻微赞同": [
+     "ramachandran",
+     "benedetti",
+     "descartes"
+    ],
+    "中立": [
+     "sontag",
+     "illich"
+    ]
+   }
+  },
+  {
+   "id": "p19",
+   "round": 3,
+   "thinker": "epicurus",
+   "reply_to": null,
+   "text": "我的四味药里有一句：可怕的事容易忍受。今天听下来，它还能再具体些。**痛来时，把『现在的痛』和『想象中以后的痛』分开记账**：前者往往比你以为的轻，后者才是重头。三件事：痛时给它打个分，过两小时再打一次，你会看到它在变，而不是永远；列一张痛时也能做的小乐事清单——晒太阳、一杯热茶、一首歌；别独自扛，打电话给一个朋友，聊什么都行。我临终那封信，就是这么写成的。",
+   "text_en": "My tetrapharmakos has a line: what is terrible is easy to endure. Having listened today, I can make it more concrete. **When pain comes, keep two separate accounts: the pain of now, and the imagined pain of later.** The first is usually lighter than you think; the second is where the weight lies. Three things. When it hurts, give it a score, then score it again two hours later, and you'll see it shifting rather than lasting forever. Make a list of small pleasures you can manage even in pain: sunlight, a hot cup of tea, a song. And don't carry it alone; call a friend and talk about anything at all. That is how my last letter came to be written.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "四味药": "tetrapharmakos（四味药）：伊壁鸠鲁学派的四句要诀——神不足畏，死不足忧，善易得，恶易忍。"
+   },
+   "glossary_en": {
+    "tetrapharmakos": "The 'fourfold remedy' of the Epicureans: the gods are nothing to fear, death is nothing to worry about, the good is easy to get, the terrible is easy to endure."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "vasubandhu"
+    ],
+    "轻微赞同": [
+     "ramachandran",
+     "benedetti",
+     "illich"
+    ],
+    "中立": [
+     "descartes"
+    ],
+    "疑惑": [
+     "sontag"
+    ]
+   }
+  },
+  {
+   "id": "p20",
+   "round": 3,
+   "thinker": "sontag",
+   "reply_to": null,
+   "text": "我接受『大脑做出的痛一样真』，也接受怕痛会放大痛。但这些道理该你自己拿来用，不该被别人拿来打发你。所以给疼痛中的人两条防身术：其一，**用朴素的词描述痛，不用隐喻，也不用道歉**——哪里痛、几分、什么时候加重、耽误了什么事，写成一页纸带去门诊；其二，带一个人陪诊，替你记、替你问。医生若说『可能是压力』，就追问一句：还有哪些可能需要排除？病人要的不是一个解释，是被认真对待。",
+   "text_en": "I accept that pain made by the brain is just as real, and that fearing pain amplifies it. But these truths are for you to use on yourself, not for others to use to brush you off. So, two forms of self-defence for people in pain. First, **describe the pain in plain words, without metaphors and without apologising**: where it hurts, how bad on a scale, when it gets worse, what it has stopped you doing. Write it on one page and take it to the appointment. Second, bring someone along to take notes and ask questions for you. If the doctor says 'it might be stress', ask: what else needs to be ruled out? What a patient needs is not an explanation but to be taken seriously.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "illich",
+     "descartes"
+    ],
+    "轻微赞同": [
+     "benedetti",
+     "ramachandran"
+    ],
+    "中立": [
+     "epicurus"
+    ],
+    "疑惑": [
+     "vasubandhu"
+    ]
+   }
+  },
+  {
+   "id": "p21",
+   "round": 3,
+   "thinker": "illich",
+   "reply_to": null,
+   "text": "我不反对止痛药，伊壁鸠鲁说服了我。我反对的是一个人失去了跟自己的痛打交道的本事。给普通人的建议：小痛——头痛、肌肉酸、落枕、夜里的低落——先别急着伸手拿药，试试热敷、走一走、睡一觉，看身体自己能做多少；**把照料痛的手艺留在家里**：学会给家人揉揉肩，陪病人坐半小时，听老人讲他们年轻时怎么熬过病痛。专家该管的交给专家，其余的，拿回来。",
+   "text_en": "I don't oppose painkillers; Epicurus has persuaded me. What I oppose is a person losing the knack of dealing with their own pain. My advice to ordinary people: for small pains — a headache, sore muscles, a stiff neck, a low mood at night — don't reach for a pill straight away; try a warm compress, a walk, a night's sleep, and see how much the body can do on its own. **Keep the craft of tending pain at home**: learn to rub a family member's shoulders, sit with someone who is ill for half an hour, listen to the old tell how they got through illness when they were young. Leave to experts what belongs to experts; take the rest back.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "epicurus"
+    ],
+    "轻微赞同": [
+     "sontag",
+     "vasubandhu"
+    ],
+    "中立": [
+     "descartes",
+     "ramachandran"
+    ],
+    "轻微反对": [
+     "benedetti"
+    ]
+   }
+  }
+ ],
+ "summaries": [
+  {
+   "ai": "claude",
+   "engine": "Opus 5 · 订阅(原生)",
+   "engine_en": "Opus 5 · subscription (native)",
+   "summary": "七个人吵到最后，站到了同一块地上：**痛是真的，但它不是伤口的直播，而是大脑综合伤情、记忆、期待和情境之后给出的判断。**笛卡尔最后也承认楼上有个会出错的敲钟人；拉马钱德兰的镜箱和贝内代蒂的纳洛酮实验，从两头证明期待能走化学通路。另一条共识是新痛先当警报。分歧在知道这一点之后怎么办：贝内代蒂和拉马钱德兰要主动去拧这个旋钮，世亲要把身苦和心忧分开，伊里奇担心旋钮被医疗系统收编，桑塔格担心『在脑子里』成了打发病人的话。",
+   "summary_en": "By the end, all seven were standing on common ground: **pain is real, but it is not a live broadcast from the wound; it is a judgment the brain reaches after weighing the injury, memory, expectation and context.** Even Descartes ended by admitting a fallible bell-ringer upstairs, while Ramachandran's mirror box and Benedetti's naloxone experiments showed from two directions that expectation runs through chemical pathways. A second point of agreement: treat new pain as an alarm first. The disagreement is over what to do with that knowledge. Benedetti and Ramachandran want to turn the dial deliberately; Vasubandhu wants to separate bodily pain from mental distress; Illich fears the dial will be taken over by the medical system; Sontag fears 'it's in your head' will become a way of brushing patients off.",
+   "insight": "全场谈的都是成年人怎么对付自己的痛，没人提这套预测是从哪儿学来的。小孩摔一跤，第一件事往往不是哭，而是抬头看大人的脸：大人一脸惊慌，哭声就来了；大人平静地说『起来看看』，孩子常常拍拍土接着跑。**痛的预测有相当一部分是在童年、从身边人的反应里学来的。**这意味着改写痛不只是个人修行，也是一种家传：你今天怎样对待自己和孩子的小伤小痛，就是在给下一代的大脑写参数。",
+   "insight_en": "Everyone talked about how adults handle their own pain; nobody asked where this predictive machinery is learned. When a small child falls, the first thing they do is often not cry but look up at an adult's face: if the adult looks alarmed, the tears come; if the adult calmly says 'up you get, let's have a look', the child often dusts off and runs on. **A good part of how we predict pain is learned in childhood, from the reactions of the people around us.** That makes rewriting pain not just a personal practice but an inheritance: the way you treat your own and your children's small bumps and aches today is setting the parameters for the next generation's brains.",
+   "advice": "三步。①先分类：新痛、剧痛，或带红旗症状（发烧、麻木无力、夜里痛醒）的，照笛卡尔的线尽快就医；②超过三个月的老痛，照桑塔格写一页『疼痛说明』——部位、分数、诱因、耽误了什么——带去门诊，并问能不能转疼痛科或做康复训练；③每天给大脑一点新证据：照拉马钱德兰把怕做的动作拆小做一点，同时照世亲默念『这是苦受』『这是忧』，**把身体的痛和对痛的担心分开处理**。家里孩子磕碰了，先平静地说一句『起来看看』。",
+   "advice_en": "Three steps. ① Sort first: pain that is new, severe, or comes with red flags (fever, numbness or weakness, waking you at night) means seeing a doctor promptly, as Descartes says. ② For pain lasting more than three months, follow Sontag and write a one-page 'pain statement' — where, how bad, what triggers it, what it stops you doing — take it to your appointment, and ask about a pain clinic or rehabilitation. ③ Give your brain a little new evidence every day: break a feared movement into small steps as Ramachandran suggests, and meanwhile note, as Vasubandhu does, 'this is painful feeling', 'this is distress', **handling the bodily pain and the worry about it separately**. And when a child at home takes a tumble, start by calmly saying 'up you get, let's have a look'."
+  },
+  {
+   "ai": "gpt",
+   "engine": "openai · gpt-5.6-sol · high(真实API)",
+   "engine_en": "openai · gpt-5.6-sol · high (live API)",
+   "summary": "疼痛首先应被当作真实经验和保护信号：组织损伤、神经活动、记忆、期待与环境都能参与生成它；心理和脑机制不会使它“不真”。新发或异常疼痛要先排除危险，持续疼痛则可能在损伤消退后仍由神经系统维持，也同样需要治疗。**真正的共识是：相信疼痛者，同时既不漏诊，也不把痛感强弱等同于损伤程度。**分歧主要不在疼痛是否真实，而在解释重心：外周警报、脑的威胁推断、可训练的反应，还是受文化与医疗制度塑造的经验；由此才产生对药物、意义、忍耐及专业权力边界的不同判断。",
+   "insight": "“报警”和“预测”其实不是二选一。烟雾报警器也依据对危险的推断行动；神经系统同样整合伤害感受、视觉、记忆、情境与行动代价，决定是否产生保护性体验。预测模型解释误报、幻肢和情境效应，警报模型则提醒我们漏报可能致命。**更实用的重构是：疼痛是一个需要校准的保护系统，而不是显示损伤程度的仪表盘。**临床上因此应并行回答两问：有没有必须处理的病变？哪些睡眠问题、恐惧回避、神经敏化或社会压力在维持疼痛？正常检查只能降低某些风险，不能证明“没事”，更不能证明病人想多了。",
+   "advice": "1）今天记一页疼痛记录：部位、0—10分、起止时间、诱因与缓解因素、睡眠，以及哪些活动受限；就诊时先说“它妨碍我做什么”。2）若出现突发最严重疼痛，或伴胸闷气促、单侧无力或言语异常、高热意识改变、严重外伤，应立即急诊；其他新发、加重或久不缓解的痛也要预约评估。3）危险病变排除后，本周选一个害怕的动作，降到可耐受剂量渐进练习，同时改善睡眠，并按医嘱用药。**不要在“查病因”和“学习调节疼痛”之间二选一，两条路可以同时走。**",
+   "summary_en": "Pain deserves to be treated as both a real experience and a protective signal. Tissue injury, nerve activity, memory, expectation, attention, and social context can all shape it; involvement of the brain or mind never makes it unreal. New or unusual pain warrants assessment for danger, while persistent pain may continue after tissues have healed because the nervous system itself has changed—and that, too, deserves treatment. **The shared practical ground is to believe the person in pain while neither missing disease nor treating pain intensity as a direct measure of tissue damage.** The central disagreement is one of emphasis: pain can be framed as an incoming alarm, the brain’s estimate of threat, a trainable protective response, or an experience shaped by culture and medical institutions. Those framings lead to different views of medication, meaning, endurance, self-care, and professional authority, but they can coexist in good clinical practice.",
+   "insight_en": "Alarm and prediction are not genuine opposites. Even a smoke detector acts on an estimate of danger; likewise, the nervous system integrates nociceptive input, vision, memory, context, and the cost of action before producing a protective experience. Predictive models help explain false alarms, phantom pain, and contextual effects, while the alarm model reminds us that missed threats can be catastrophic. **A more useful formulation is that pain is a protective system requiring calibration, not a dashboard displaying the amount of bodily damage.** This reframes clinical care around two questions pursued in parallel: Is there a condition that must be treated or ruled out? What factors—poor sleep, fear and avoidance, neural sensitization, stress, or social conditions—may be sustaining the pain? Normal tests may reduce the likelihood of particular diseases, but they do not prove that nothing is wrong, and they certainly do not show that the patient is imagining the pain.",
+   "advice_en": "1) Make a one-page pain record today: location, intensity from 0 to 10, timing, triggers, relieving factors, sleep, and the activities it prevents. At an appointment, lead with what the pain stops you from doing. 2) Seek emergency care for sudden worst-ever pain or pain accompanied by chest pressure or breathlessness, one-sided weakness or speech difficulty, high fever with confusion, or major trauma. Arrange a timely assessment for other new, worsening, or persistent pain. 3) Once urgent disease has been reasonably excluded, choose one feared movement this week, reduce it to a tolerable dose, and increase it gradually; support this with regular sleep, simple comfort measures, and medication as directed. **Do not choose between investigating the cause and learning to regulate pain: those two tracks can—and often should—proceed together.**"
+  },
+  {
+   "ai": "gemini",
+   "engine": "google · gemini-3.8-flash(真实API)",
+   "engine_en": "google · gemini-3.8-flash (live API)",
+   "summary": "没有任何一位发言者否认疼痛在感受层面的绝对真实性：无论是外周损伤还是中枢预测，痛带来的煎熬都无可辩驳。分歧的核心在于机制重心与现实伦理的拉锯。一方坚持痛作为演化警报的器质底线，警告过早将痛心理化会导致急症误诊与对患者痛苦的漠视；另一方则依据现代神经机制证明，痛是大脑权衡情境、恐惧与期待后下达的威胁评估。**痛既是保护机体免受摧毁的生理警报，也是高度依赖情境、预期与社会关系的主观预测模型**，如何在守住器质病变红线的同时，解构中枢敏化带来的虚警，是这场辩论真正要解决的矛盾。",
+   "insight": "全场将痛归于“大脑预测”或“神经拉绳”，却容易漏掉疼痛深植于演化中的全身免疫与内脏稳态系统。现代神经免疫学表明，慢性痛往往不是大脑凭空把音量旋钮调大，而是脊髓与脑内的神经胶质细胞过度活化，诱发了微观层面的神经炎症；肠道菌群与内分泌紊乱也在持续向中枢投射失衡信号。**疼痛从来不仅是大脑孤立的自上而下推断，更是神经系统与全身免疫网络共同演出的动态稳态危机**。理解这一点，普通人就能明白许多“查不出器质病变”的慢性痛并非纯粹心理作祟，而是全身系统性失调在神经上的投影，不必在“身体坏了”与“我想多了”之间自我撕裂。",
+   "advice": "日常面对疼痛，可以分三步落地应对：第一，**恪守“急性排查、客观记账”原则**。新发剧痛、伴随发热或消瘦的痛，先按笛卡尔和桑塔格的建议，带上一页纸记录（具体部位、0–10分、发作规律与受限功能）去医院排除器质病变，不接受无依据的“压力大”推脱。第二，对已排除器质危险的慢性痛，实践拉马钱德兰式的**步进式微暴露训练**：把害怕做的动作拆解到极小幅度，在安全阈值内每天活动几分钟，逐步向大脑输入“此动作安全”的实证，逆转中枢敏化。第三，痛感来袭时借用世亲的分离法，闭眼只观测物理体感（是发热、胀痛还是搏动），阻断“我永远好不了了”的灾难化念头。",
+   "summary_en": "None of the interlocutors dispute the absolute, visceral reality of pain: whether triggered by peripheral trauma or constructed by central prediction, the suffering it inflicts is beyond doubt. The rift lies in the tension between biological bottom lines and socio-clinical ethics. One side defends pain as an evolutionary alarm that must first be medically investigated to prevent catastrophic misdiagnoses and dismissive gaslighting; the other demonstrates that pain is a generative, context-dependent threat calculation orchestrated by the brain. **Pain functions simultaneously as a hardwired alarm designed to preserve tissue and a plastic prediction model shaped by context, expectation, and culture.** The real challenge lies in distinguishing acute physical damage from maladaptive central sensitization without invalidating the sufferer.",
+   "insight_en": "Framing pain exclusively as either Descartes' mechanical alarm or predictive brain computation overlooks its foundation in systemic neuro-immunology and interoceptive homeostasis. Contemporary science demonstrates that chronic pain rarely stems from the brain arbitrarily turning up its cognitive volume; instead, it frequently involves the priming of glial cells, neuroinflammation, and metabolic disruption signaling through the gut-brain-immune axis. **Pain is neither a pure peripheral telegraph nor an isolated cerebral inference, but a dynamic metabolic-immune crisis synthesized across the entire organism.** Recognizing this multidimensional biology frees patients from the false dichotomy of 'structural damage versus purely psychosomatic distress,' providing physiological legitimacy to real suffering that standard radiological imaging fails to capture.",
+   "advice_en": "You can apply this synthesized perspective through three immediate protocols: First, **enforce an objective, descriptive baseline for acute pain.** For sudden, high-intensity pain or symptoms accompanied by fever and unexplained weight loss, immediately seek clinical evaluation; present a one-page, metaphor-free pain log detailing location, intensity (0–10), and functional impairment to eliminate structural emergencies without being casually brushed off as stressed. Second, for medically cleared chronic pain, adopt **graded sensory-motor exposure**: break feared movements into micro-steps to steadily feed the nervous system uncorrupted evidence of safety, rewiring the hypersensitive predictive loop. Third, during flare-ups, objectively isolate sensory qualities—noting whether sensations are throbbing, sharp, or hot—to cleanly decouple raw physical discomfort from catastrophic mental panic."
+  }
+ ],
+ "hooks": [
+  {
+   "from": "claude",
+   "text": "**新痛还是老痛**：同样是疼，什么时候该当警报立刻处理，什么时候该怀疑警报自己调高了音量？",
+   "text_en": "**New pain or old pain?** It all hurts the same: when should you treat it as an alarm and act now, and when should you suspect the alarm has turned up its own volume?",
+   "answer": {
+    "lead": "先看**痛有多新、有没有红旗**，再决定是去查伤，还是去调警报。",
+    "table": {
+     "head": [
+      "情境",
+      "更像什么",
+      "怎么办"
+     ],
+     "rows": [
+      [
+       "突然剧痛，或伴发烧、麻木无力、胸痛、夜里痛醒、体重莫名下降",
+       "警报，可能有真伤",
+       "尽快就医，别自己劝自己『是心理作用』（笛卡尔）"
+      ],
+      [
+       "受伤后几天到几周，随愈合在减轻",
+       "正常工作的警报",
+       "按医嘱休养，在不加重的范围里逐步恢复活动"
+      ],
+      [
+       "伤早已长好、检查正常，痛却超过三个月",
+       "警报阈值调低了",
+       "问医生是否属于神经敏感化；了解痛的原理、分小步活动（拉马钱德兰）"
+      ],
+      [
+       "一想到某个动作或某件事就开始痛、越怕越痛",
+       "预测在放大痛",
+       "把怕做的动作拆小做；分开『此刻的痛』和『想象中以后的痛』（伊壁鸠鲁、世亲）"
+      ],
+      [
+       "看病时被说『可能是压力』，却没排除其他原因",
+       "解释先于检查",
+       "带一页疼痛说明和陪诊人，追问还要排除什么（桑塔格）"
+      ]
+     ]
+    },
+    "tail": "**新痛先查伤，老痛再调警报**；两者都不是『想出来的』，只是该用的办法不同。"
+   },
+   "answer_en": {
+    "lead": "Look first at **how new the pain is and whether there are red flags**, then decide whether to check for injury or to recalibrate the alarm.",
+    "table": {
+     "head": [
+      "Situation",
+      "More like",
+      "What to do"
+     ],
+     "rows": [
+      [
+       "Sudden severe pain, or pain with fever, numbness or weakness, chest pain, waking at night, unexplained weight loss",
+       "An alarm, possibly real damage",
+       "See a doctor promptly; don't talk yourself into 'it's just psychological' (Descartes)"
+      ],
+      [
+       "Days to weeks after an injury, easing as it heals",
+       "An alarm working normally",
+       "Rest as advised and gradually resume activity within a range that doesn't worsen it"
+      ],
+      [
+       "The injury healed long ago, tests are normal, yet pain has lasted over three months",
+       "An alarm with a lowered threshold",
+       "Ask whether it's nervous-system sensitisation; learn how pain works and move in small steps (Ramachandran)"
+      ],
+      [
+       "Merely thinking of a movement or situation brings pain, and fear makes it worse",
+       "Prediction amplifying pain",
+       "Break the feared movement into small steps; separate 'pain now' from 'imagined pain later' (Epicurus, Vasubandhu)"
+      ],
+      [
+       "Told 'it might be stress' without other causes being ruled out",
+       "Explanation before investigation",
+       "Bring a one-page pain statement and a companion, and ask what else needs ruling out (Sontag)"
+      ]
+     ]
+    },
+    "tail": "**Check new pain for injury; recalibrate the alarm for old pain.** Neither is 'made up'; they just call for different remedies."
+   }
+  },
+  {
+   "from": "claude",
+   "text": "**痛是家传的**：孩子摔跤先看大人的脸——父母对小伤小痛的反应，会怎样写进下一代的疼痛预测？",
+   "text_en": "**Pain runs in families**: a child who falls looks first at the adult's face. How do parents' reactions to small bumps get written into the next generation's predictions of pain?"
+  },
+  {
+   "from": "gpt",
+   "text": "**查病因和学调节，别二选一**：检查正常不等于没事，也不等于想多了——两条路怎样同时走？",
+   "text_en": "**Investigate and regulate, don't choose**: normal tests don't mean nothing is wrong, nor that you're imagining it. How do you walk both paths at once?"
+  },
+  {
+   "from": "gemini",
+   "text": "**痛不只在脑子里**：神经胶质细胞、神经炎症、肠—脑—免疫轴，慢性痛有多少是全身免疫在说话？",
+   "text_en": "**Pain isn't only in the head**: glial cells, neuroinflammation, the gut–brain–immune axis. How much of chronic pain is the whole immune system speaking?"
+  },
+  {
+   "from": "illich",
+   "text": "**安慰被收编之后**：当『守在床边』被证明有药效，它会回到家人手里，还是变成一项可计费的服务？",
+   "text_en": "**When comfort gets co-opted**: once 'keeping watch at the bedside' is proven to work like a drug, will it return to families, or become one more billable service?"
+  }
+ ]
+}

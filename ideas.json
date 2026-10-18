@@ -2,15 +2,6 @@
   "_comment": "议题投票数据。candidates=未辩候选(供投票)，debated=已辩(链到辩论)。投票免 GitHub 登录，存于自建后端(Cloudflare Worker + D1，见 ~/Desktop/cissy0802.github.io/engage-backend/)：每候选一个 poll，key='topic:'+id，choice up/down，净票=👍−👎。votes 字段由 routine 每次跑 `python3 refresh_votes.py`(读后端 /votes-net) 回写；页面 ideas.js 也会实时拉取覆盖显示。观众自提议题在评论 page='thinker-open-questions'，各候选下讨论 page='topic:'+id——routine 读这些把好提案提炼成新 candidates。新候选加进 candidates 即可。",
   "candidates": [
     {
-      "id": "travel-and-locals",
-      "votes": 0,
-      "q": "旅行者来了之后，当地人得到了什么？",
-      "q_en": "When the travellers arrive, what do the locals get?",
-      "note": "民宿抽走长租房、老街按游客口味重做、旺季本地人自己出不了门——旅游的收入和代价，从不落在同一批人身上。旅行者有没有义务知道自己的分量？限度该由市场、政府，还是住在那里的人来定？",
-      "note_en": "Short-lets drain the rental market, old streets get remade to visitors' taste, locals can't leave home in peak season: tourism's income and its costs never land on the same people. Do travellers owe it to know their own weight? Who should set the limit: the market, the government, or the people who live there?",
-      "cat": "ethics"
-    },
-    {
       "id": "social-darwinism",
       "votes": 0,
       "q": "「适者生存」能用来解释社会吗？",
@@ -1162,6 +1153,13 @@
       "q_en": "Is pain the body's alarm, or the brain's prediction?",
       "date": "2026-10-17",
       "cat": "life"
+    },
+    {
+      "id": "travel-and-locals",
+      "q": "旅行者来了之后，当地人得到了什么？",
+      "q_en": "When the travellers arrive, what do the locals get?",
+      "date": "2026-10-18",
+      "cat": "ethics"
     }
   ]
 }

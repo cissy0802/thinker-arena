@@ -1,0 +1,675 @@
+{
+  "id": "fear-as-management",
+  "question": "让人害怕，能把组织管好吗？",
+  "question_en": "Can fear make an organisation run well?",
+  "sub": "怕被追责就不越线，可坏消息也被压下了——界线在哪？",
+  "sub_en": "Fear of blame keeps people in line, but it also buries bad news. Where is the line?",
+  "date": "2026-10-19",
+  "participants": [
+    "deming",
+    "hanfeizi",
+    "edmondson",
+    "machiavelli",
+    "ledoux",
+    "epictetus"
+  ],
+  "casting": [
+    {
+      "id": "hanfeizi",
+      "reason": "他把刑赏立为治人的两个把柄，却坚持让人怕的必须是公开的法，而不是君主的脸色。",
+      "reason_en": "He makes punishment and reward the two handles of government, yet insists that what people fear must be the published law, never the ruler's face."
+    },
+    {
+      "id": "machiavelli",
+      "reason": "『宁可被畏惧，不必被爱戴』出自他手，他也最清楚畏惧一旦变成憎恨，统治就要垮。",
+      "reason_en": "'Better to be feared than loved' is his line, and he knows better than anyone that once fear turns to hatred, rule collapses."
+    },
+    {
+      "id": "edmondson",
+      "reason": "她从医院差错数据里发现，敢报错的团队才是好团队，主张高标准与心理安全并存。",
+      "reason_en": "Hospital error data showed her that the best teams are the ones willing to report mistakes; she argues for high standards and psychological safety together."
+    },
+    {
+      "id": "deming",
+      "reason": "『驱除恐惧』是他管理十四要点中的一条，他认为绝大多数错出在系统，而不在人。",
+      "reason_en": "'Drive out fear' is one of his fourteen points for management; he holds that most faults lie in the system, not the person."
+    },
+    {
+      "id": "ledoux",
+      "reason": "他把威胁反应拆到脑回路层面，解释人一受惊为什么沉默、回避、把错藏起来。",
+      "reason_en": "He takes the threat response apart at the level of brain circuits, explaining why frightened people fall silent, avoid and hide their mistakes."
+    },
+    {
+      "id": "epictetus",
+      "reason": "奴隶出身，他站在被管的一方说话：恐惧只对把好坏全押在别人手里的人有效。",
+      "reason_en": "Born a slave, he speaks for those being managed: fear works only on people who have staked everything good and bad on someone else."
+    }
+  ],
+  "posts": [
+    {
+      "id": "p01",
+      "round": 1,
+      "thinker": "deming",
+      "reply_to": null,
+      "text": "我在《走出危机》里列了管理十四要点，第八条就是：驱除恐惧。理由很实际：人一害怕，报上来的就不再是真实的数字，而是他觉得安全的数字。我做过红珠实验：工人从一箱混着红珠的白珠里舀珠子，红珠多的挨骂、少的受奖——可红珠多少，全由那只箱子决定。**罚的是人，错却出在系统。**按我的经验，绝大部分问题属于系统，那是管理层的责任。",
+      "text_en": "In Out of the Crisis I set out fourteen points for management, and the eighth is: drive out fear. The reason is practical. Once people are afraid, the figures they report are no longer the true ones but the ones that feel safe. I used to run the Red Bead Experiment: workers scoop beads from a box of white beads mixed with red, those with many red beads get scolded and those with few get praised, yet how many red beads each one draws is decided entirely by the box. **You punish the person, but the fault lies in the system.** In my experience the great majority of problems belong to the system, and the system is management's responsibility.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "红珠实验": "Red Bead Experiment（红珠实验）：戴明在讲座中常做的演示。工人用带孔的勺子从红白珠混装的箱子里舀珠子，红珠算次品；次品多少纯属随机，主管却照样奖惩，用来说明把系统波动归罪于个人的荒谬。"
+      },
+      "glossary_en": {
+        "Red Bead Experiment": "A demonstration Deming ran at his seminars. 'Workers' scoop beads with a perforated paddle from a box of mixed red and white beads, red counting as defects. The number of defects is pure chance, yet the 'foreman' rewards and punishes anyway, showing how absurd it is to blame individuals for variation built into the system."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "edmondson"
+        ],
+        "轻微赞同": [
+          "ledoux",
+          "epictetus"
+        ],
+        "轻微反对": [
+          "hanfeizi",
+          "machiavelli"
+        ]
+      }
+    },
+    {
+      "id": "p02",
+      "round": 1,
+      "thinker": "hanfeizi",
+      "reply_to": null,
+      "text": "明主之所导制其臣者，二柄而已：刑、德也。为人臣者，畏诛罚而利庆赏。故不畏则不可使，此人情也。然所畏当在法，不在君之喜怒。法者，编著之图籍，设之于官府，而布之于百姓者也。君见恶，则群臣匿端；君见好，则群臣诬能。**令臣畏法而不畏君，则过可见矣。**",
+      "text_en": "An enlightened ruler controls his ministers with two handles and no more: punishment and reward. Ministers fear penalties and covet rewards, so a man who fears nothing cannot be directed; that is simply human nature. But what he fears should be the law, not the ruler's moods. The law is written into registers, kept in the offices of state and proclaimed to the people. When the ruler lets his dislikes show, his ministers hide their faults; when he lets his likes show, they fake ability. **Make ministers fear the law rather than the ruler, and their faults come into view.**",
+      "vernacular": "英明的君主用来驾驭臣下的，只有两个把柄：刑罚和奖赏。做臣子的，怕被惩罚、贪图奖赏，所以人什么都不怕就使唤不动，这是人之常情。但让人怕的，应该是法，而不是君主的喜怒。法，是编成文字、存在官府、公布给百姓的条文。君主一露出厌恶，臣下就把毛病藏起来；君主一露出喜好，臣下就假装有本事。**让下属怕的是规则而不是你这个人，错误才看得见。**",
+      "vernacular_en": "",
+      "glossary": {
+        "二柄": "the two handles（二柄）：韩非语，指刑（惩罚）与德（奖赏），君主驾驭臣下仅有的两件工具。",
+        "法": "fa, law（法）：韩非所说的法，是写成明文、公之于众、对所有人一律适用的规则，与随君主心意而变的私意相对。"
+      },
+      "glossary_en": {
+        "two handles": "Han Fei's term for punishment and reward, the only two tools a ruler needs to control his ministers.",
+        "law": "For Han Fei, law (fa) means rules written down, made public and applied to everyone alike, as opposed to whatever the ruler happens to want."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "machiavelli"
+        ],
+        "轻微赞同": [
+          "edmondson",
+          "deming"
+        ],
+        "中立": [
+          "epictetus",
+          "ledoux"
+        ]
+      }
+    },
+    {
+      "id": "p03",
+      "round": 1,
+      "thinker": "edmondson",
+      "reply_to": null,
+      "text": "我读博时研究医院的护理团队，数据一出来，我以为自己算错了：口碑最好的团队，上报的用药差错反而最多。追下去才明白，**它们不是错得更多，而是更敢说。**恐惧不会让错误变少，只会让它看不见，直到变成事故才冒出来。但别误会，心理安全不等于一团和气、降低标准。高标准加低安全，是焦虑区；高标准加高安全，才是学习区。",
+      "text_en": "As a doctoral student I studied hospital nursing teams, and when the data came in I thought I had made an error: the best-regarded teams reported the most medication mistakes. Digging in, I found **they weren't making more mistakes; they were more willing to speak up.** Fear doesn't reduce errors, it just hides them until they surface as accidents. But don't mistake psychological safety for cosiness or lower standards. High standards with low safety is the anxiety zone; high standards with high safety is the learning zone.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "心理安全": "psychological safety（心理安全）：团队成员共同相信，在这里提问、认错、报坏消息不会被羞辱或惩罚。埃德蒙森强调它不是对彼此客气，而是敢于直言。"
+      },
+      "glossary_en": {
+        "psychological safety": "A shared belief within a team that asking questions, admitting mistakes or bringing bad news will not be met with humiliation or punishment. Edmondson stresses that it is about candour, not politeness."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "deming"
+        ],
+        "轻微赞同": [
+          "ledoux"
+        ],
+        "轻微反对": [
+          "hanfeizi",
+          "machiavelli"
+        ]
+      }
+    },
+    {
+      "id": "p04",
+      "round": 1,
+      "thinker": "machiavelli",
+      "reply_to": null,
+      "text": "我在《君主论》里写过：两者若不可兼得，被人畏惧比被人爱戴安全得多。因为人爱你凭他们的意愿，怕你却凭你的意愿；聪明的君主该把根基立在自己手里的东西上。但我紧接着说的那句常被人略过：**要让人畏惧，但别让人憎恨。**不碰下属的财物与尊严，惩罚要有明白的理由；伤害若非做不可，就一次做完，别天天翻新。",
+      "text_en": "I wrote in The Prince that if you cannot have both, it is far safer to be feared than loved. Men love you at their own will but fear you at yours, and a wise prince builds on what lies in his own hands. Yet the sentence that follows is usually skipped: **be feared, but never hated.** Keep your hands off your people's property and their dignity, punish only for clear and evident cause, and if harm must be done, do it all at once rather than renewing it every day.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "hanfeizi"
+        ],
+        "中立": [
+          "ledoux"
+        ],
+        "轻微反对": [
+          "deming",
+          "edmondson"
+        ],
+        "强烈反对": [
+          "epictetus"
+        ]
+      }
+    },
+    {
+      "id": "p05",
+      "round": 1,
+      "thinker": "ledoux",
+      "reply_to": null,
+      "text": "先纠正一个说法：杏仁核不是『恐惧中枢』。大脑里有一套防御性生存回路，在意识之外探测威胁，发动僵住、逃跑、躲藏；『我很害怕』这种感受是另一回事，由皮层另行拼装。靠吓唬管人，调动的其实是前一套。**在办公室里，沉默就是僵住，藏错就是逃跑。**而躲过一次惩罚后松的那口气，本身就是奖励，下次会躲得更快。",
+      "text_en": "First, a correction: the amygdala is not a 'fear centre'. The brain has defensive survival circuits that detect threats below awareness and set off freezing, fleeing and hiding; the feeling 'I am afraid' is something else, assembled separately by the cortex. Managing by intimidation works on the first system. **In an office, silence is freezing and hiding a mistake is fleeing.** And the relief of dodging punishment once is itself a reward, so next time the dodge comes faster.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "防御性生存回路": "defensive survival circuits（防御性生存回路）：勒杜的用语，指在意识之外探测威胁、启动僵住、逃跑、心跳加速等反应的脑回路，人与其他动物共有；他主张与有意识的『恐惧感受』分开谈。"
+      },
+      "glossary_en": {
+        "survival circuits": "LeDoux's term for brain circuits, shared by humans and other animals, that detect threats without awareness and trigger freezing, fleeing and a racing heart; he insists they be kept distinct from the conscious feeling of fear."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "edmondson"
+        ],
+        "轻微赞同": [
+          "deming"
+        ],
+        "中立": [
+          "hanfeizi"
+        ]
+      }
+    },
+    {
+      "id": "p06",
+      "round": 1,
+      "thinker": "epictetus",
+      "reply_to": null,
+      "text": "我生来为奴，相传主人拧断过我的腿。对一切靠吓人管人的人，我只有一句话：你能锁住我的腿，可我的抉择，连宙斯也压不倒。恐惧只对一种人管用——把自己的好坏全押在别人手里的人。所以，**上司能拿走的，只有你交到他手里的东西。**靠恐惧管出来的，只能是奴隶；而奴隶只做被人盯着的那部分活。",
+      "text_en": "I was born a slave, and the story goes that my master twisted my leg until it broke. To everyone who rules by intimidation I have one thing to say: you can chain my leg, but my choice (prohairesis) not even Zeus can overpower. Fear works on only one kind of person: someone who has staked everything good and bad in his life on other people. So **a boss can take from you only what you have put into his hands.** Fear can only produce slaves, and slaves do only the part of the work someone is watching.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "抉择": "prohairesis（抉择）：斯多葛派用语，指人对眼前之事作判断、决定是否认同的能力；爱比克泰德认为这是唯一真正属于自己、谁也夺不走的东西。"
+      },
+      "glossary_en": {
+        "prohairesis": "A Stoic term for the faculty of judging what is in front of us and choosing whether to assent to it; Epictetus held it to be the one thing truly our own, which no one can take away."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "deming",
+          "edmondson"
+        ],
+        "轻微反对": [
+          "machiavelli"
+        ]
+      }
+    },
+    {
+      "id": "p07",
+      "round": 2,
+      "thinker": "hanfeizi",
+      "reply_to": "p03",
+      "text": "艾氏言人安则过显，其论善矣，然未尽。慈母之于弱子，爱不可为前，然弱子有僻行，使之随师；有恶病，使之事医。慈母虽爱，无益于振刑救死。**过不可尽禁，匿过可禁也。**故自言其过者，薄其罚；匿而后发者，重其诛。如此，则臣不敢不言。",
+      "text_en": "Edmondson says faults come to light when people feel safe. Well argued, but incomplete. A loving mother puts nothing ahead of her love for her small child, yet if the child goes astray she sends him to a teacher, and if he falls gravely ill she sends him to a doctor. However much she loves him, love alone cannot save him from punishment or death. **Errors can never all be forbidden; hiding them can.** So let whoever owns up to a fault be punished lightly, and whoever hides it until it is found out be punished heavily. Then no minister will dare keep silent.",
+      "vernacular": "艾德蒙森说人安心了，错误才露出来，说得好，但没说完。慈母疼爱幼子，没有什么能排在这份爱前面；可孩子行为走偏，还得送去跟老师学；得了重病，还得送去看医生。慈母再爱，也救不了他免于刑罚和死亡。**犯错禁不尽，藏错却禁得住。**所以自己说出过失的，从轻处罚；藏起来、后来被查出的，从重处罚。这样一来，下属就不敢不说了。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "machiavelli"
+        ],
+        "轻微赞同": [
+          "edmondson"
+        ],
+        "轻微反对": [
+          "ledoux"
+        ]
+      }
+    },
+    {
+      "id": "p08",
+      "round": 2,
+      "thinker": "edmondson",
+      "reply_to": "p07",
+      "text": "韩先生这一招比很多公司高明：至少把罚的对象从犯错挪到了隐瞒。航空业早就这么做，美国的航空安全报告系统让主动报告失误的飞行员获得有限豁免。但要分清：**该罚的是明知故犯和鲁莽，不是诚实的失误。**还有一笔账您没算：头一个主动认错的人若照样挨了罚，哪怕减了半，全组都会记住。以后谁还开口？",
+      "text_en": "Mr Han's move beats what many companies do: at least it shifts the penalty from making a mistake to hiding one. Aviation has done this for decades; under the US Aviation Safety Reporting System, pilots who report their own errors get limited immunity. But draw the line clearly: **what deserves punishment is deliberate violation and recklessness, not honest error.** And there's a cost you haven't counted. If the first person to own up still gets punished, even at half the rate, the whole team will remember. Who speaks up after that?",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "航空安全报告系统": "Aviation Safety Reporting System, ASRS（航空安全报告系统）：美国 NASA 为联邦航空局运营的保密自愿报告系统；非故意的违规若及时主动报告，可获得有限的处罚豁免。"
+      },
+      "glossary_en": {
+        "Aviation Safety Reporting System": "A confidential, voluntary reporting system run by NASA for the US Federal Aviation Administration; unintentional violations reported promptly can qualify for limited immunity from penalties."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "deming",
+          "ledoux"
+        ],
+        "轻微赞同": [
+          "epictetus"
+        ],
+        "中立": [
+          "machiavelli"
+        ],
+        "轻微反对": [
+          "hanfeizi"
+        ]
+      }
+    },
+    {
+      "id": "p09",
+      "round": 2,
+      "thinker": "deming",
+      "reply_to": "p04",
+      "text": "马基雅维利先生说，惩罚要有明白的理由。可大多数公司做不到，因为他们不懂波动。把员工按业绩强制排名、末位淘汰，**等于保证每年都有人倒霉，不管大家整体做得多好。**谁落在末尾，很大程度上由随机波动决定，跟舀到几颗红珠一样。这种恐惧连发号施令的人自己都预测不了，谈何理由？它只会教人去争名次，而不是把活干好。",
+      "text_en": "Mr Machiavelli says punishment needs clear cause. Most companies can't manage that, because they don't understand variation. Forced ranking with the bottom slice let go **guarantees someone gets hurt every year, however well the group does as a whole.** Who ends up at the bottom is largely down to random variation, like how many red beads you happen to scoop. That kind of fear can't be predicted even by the people issuing the orders, so where is the cause? It teaches people to fight over rank instead of doing the work well.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "强制排名": "forced ranking（强制排名）：把员工按固定比例分到优、中、差各档的考核办法，末档常被淘汰；因而无论整体表现如何，总有固定比例的人被判为差。"
+      },
+      "glossary_en": {
+        "Forced ranking": "An appraisal system that sorts staff into top, middle and bottom bands by fixed percentages, with the bottom band often let go, so a set share of people is rated poor however well everyone performs."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "edmondson"
+        ],
+        "轻微赞同": [
+          "ledoux",
+          "epictetus"
+        ],
+        "中立": [
+          "hanfeizi"
+        ],
+        "轻微反对": [
+          "machiavelli"
+        ]
+      }
+    },
+    {
+      "id": "p10",
+      "round": 2,
+      "thinker": "machiavelli",
+      "reply_to": "p09",
+      "text": "戴明先生想把恐惧赶尽杀绝。可总有人只为薪水干活，怕丢饭碗是底线，这点我不和您争。我要说的是：恐惧赶不走，但能指个方向。我劝过君主，要做一个不停发问、耐心听答的人；一旦发现有人出于任何顾虑对他隐瞒实情，就让对方感受到他的怒气。**该让人怕的，是对你撒谎，而不是对你说实话。**",
+      "text_en": "Mr Deming wants fear driven out altogether. But some people will only ever work for the wage, and fear of losing the job is the floor; I won't argue that point with you. My point is that fear can't be driven out, but it can be aimed. I advised the prince to be a constant questioner and a patient listener, and, on learning that anyone had kept the truth from him for any reason whatever, to let his anger be felt. **What people should fear is lying to you, not telling you the truth.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "hanfeizi"
+        ],
+        "轻微赞同": [
+          "edmondson",
+          "deming"
+        ],
+        "强烈反对": [
+          "epictetus"
+        ]
+      }
+    },
+    {
+      "id": "p11",
+      "round": 2,
+      "thinker": "ledoux",
+      "reply_to": "p07",
+      "text": "韩非这笔账在纸上很漂亮：认错罚轻，藏错罚重，理性的人当然选认错。可人在受威胁的那一刻，前额叶的盘算会被压下去，防御回路只盯眼前最近的威胁线索——通常就是上司的脸色。**规则写在纸上，防御回路读的却是你的脸。**加重藏错的罚，只会把整体威胁再调高一档。让人敢报，靠的是消退：一次次报了错，什么坏事也没发生。",
+      "text_en": "On paper Han Fei's sums look neat: confess and the penalty is light, conceal and it is heavy, so a rational person confesses. But in the moment of threat, the reckoning done by the prefrontal cortex is suppressed, and the defensive circuits fix on the nearest threat cue, usually the boss's expression. **The rule is written on paper, but the defensive circuits read your face.** Raising the penalty for concealment just turns the overall threat up another notch. What makes people willing to report is extinction: reporting a mistake again and again, and nothing bad happening.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "前额叶": "prefrontal cortex（前额叶）：大脑额叶前部，负责计划、权衡、抑制冲动等『盘算』功能；急性压力下其功能会明显下降。",
+        "消退": "extinction（消退）：学习理论用语，指原本预示危险的线索反复出现而危险不再到来，防御反应随之减弱；它是一次新的学习，不是把旧记忆抹掉，所以压力下旧反应可能复发。"
+      },
+      "glossary_en": {
+        "prefrontal cortex": "The front part of the brain's frontal lobes, which handles planning, weighing options and holding back impulses; its performance drops sharply under acute stress.",
+        "extinction": "In learning theory, the weakening of a defensive response when a cue that once signalled danger keeps appearing without the danger following. It is new learning, not erasure of the old memory, which is why the old reaction can return under stress."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "edmondson"
+        ],
+        "轻微赞同": [
+          "deming",
+          "epictetus"
+        ],
+        "轻微反对": [
+          "hanfeizi"
+        ]
+      }
+    },
+    {
+      "id": "p12",
+      "round": 2,
+      "thinker": "epictetus",
+      "reply_to": "p10",
+      "text": "马基雅维利教君主怎样让人怕，却没教他自己别怕。我说过：谁握着你想要或害怕的东西，谁就是你的主人。照此推下去，靠恐惧统治的人自己也是奴隶——怕下属造反，怕报表造假，怕身边人撒谎。至于在下面干活的人，**别等上司变好，先在心里定下：哪些话我一定说，哪些事我绝不替人遮。**",
+      "text_en": "Machiavelli teaches the prince how to make others afraid but not how to stop being afraid himself. As I have said, whoever holds the power over what you want or fear is your master. Follow that through, and the man who rules by fear is a slave too: afraid his people will rebel, afraid the reports are cooked, afraid those around him are lying. As for those doing the work below, **don't wait for the boss to improve; decide now what you will always say and what you will never cover up for anyone.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "edmondson"
+        ],
+        "轻微赞同": [
+          "deming"
+        ],
+        "轻微反对": [
+          "machiavelli"
+        ]
+      }
+    },
+    {
+      "id": "p13",
+      "round": 3,
+      "thinker": "epictetus",
+      "reply_to": null,
+      "text": "听完诸位，我承认：好的规则能让人少受惊吓，那是上面的人该做的事。可我只能对下面的人说话。三件事今天就能做。一、把手头的事分两栏：活干得好不好、说不说实话，归你；上司的脸色、考评结果，不归你。二、**事先想好认错的那句话**，写下来，恐惧来时照着念，不必临场鼓勇气。三、若这里只认脸色不认规则，就开始存钱、攒本事，离开的门始终在你手里。",
+      "text_en": "Having heard you all, I grant that good rules spare people a great deal of fright, and that is the job of those above. But I can only speak to those below. Three things you can do today. One: split your concerns into two columns. Whether you do the work well and whether you tell the truth are yours; the boss's moods and your appraisal result are not. Two: **write out in advance the sentence you will use to own up**, so that when fear arrives you just read it out, with no need to summon courage on the spot. Three: if this place answers to moods rather than rules, start saving money and building skills. The door out is always in your own hands.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "edmondson"
+        ],
+        "轻微赞同": [
+          "ledoux",
+          "deming",
+          "hanfeizi"
+        ],
+        "中立": [
+          "machiavelli"
+        ]
+      }
+    },
+    {
+      "id": "p14",
+      "round": 3,
+      "thinker": "ledoux",
+      "reply_to": null,
+      "text": "把诸位的话放回大脑里看：恐惧能让人一时不越线，代价是把注意力从解决问题挪到保护自己。所以要紧的不是有没有后果，而是后果稳不稳、可不可预测。给管理者：**听到坏消息的头三秒最要紧**，先说『谢谢你告诉我』，再问细节；这句话重复几十次，就是在给全组做消退训练。给员工：开口前心跳加速、手心出汗，那是身体在报警，不说明你错了；先把事情写成三句话，再去说。",
+      "text_en": "Put everything said here back into the brain. Fear can keep people from crossing a line for a while, at the price of shifting their attention from solving the problem to protecting themselves. So what matters is not whether there are consequences but whether they are steady and predictable. For managers: **the first three seconds after you hear bad news matter most.** Say 'Thank you for telling me' first, then ask for the details; repeat that a few dozen times and you are running extinction training for the whole team. For staff: if your heart races and your palms sweat before you speak up, that is your body raising an alarm, not proof you are in the wrong. Write the problem down in three sentences, then go and say it.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "edmondson"
+        ],
+        "轻微赞同": [
+          "deming",
+          "epictetus"
+        ]
+      }
+    },
+    {
+      "id": "p15",
+      "round": 3,
+      "thinker": "machiavelli",
+      "reply_to": null,
+      "text": "我收回一半：恐惧比爱可靠，但只在少数事情上成立。我的结论是，只为两三条红线让人害怕：造假、撒谎、伤人；而且每次执行都一样，从不看心情。其余一切，宁可宽厚。**一个前后不一的上司，比一个严厉的上司危险得多。**给管理者留个练习：把过去一年你发过火的事列出来，逐条问自己，哪次是因为规则，哪次只是心情不好？后一种，去道个歉。",
+      "text_en": "I take back half of what I said: fear is more reliable than love, but only for a few things. My conclusion is to make people afraid over two or three red lines, such as falsification, lying and harming others, and to enforce them the same way every time, never according to mood. For everything else, err on the side of leniency. **An inconsistent boss is far more dangerous than a strict one.** An exercise for managers: list every time you lost your temper this past year, and ask of each one whether it was about a rule or just a bad mood. For the second kind, go and apologise.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "hanfeizi"
+        ],
+        "轻微赞同": [
+          "edmondson",
+          "ledoux",
+          "deming"
+        ],
+        "中立": [
+          "epictetus"
+        ]
+      }
+    },
+    {
+      "id": "p16",
+      "round": 3,
+      "thinker": "deming",
+      "reply_to": null,
+      "text": "诸位最后都绕回了我那句老话：先改系统，再谈人。给管理者三件事。一、出了错，先问『系统里什么让这件事有可能发生』，再问『是谁』。二、别盯着单个数字，用一张控制图把正常波动和异常分开，别为随机的起伏去表扬或训人。三、**取消强制排名**，至少别把它和淘汰挂钩。员工这边也能做一件：下次例会，带一个你发现的流程漏洞去，而不只是带成绩。",
+      "text_en": "In the end everyone has come back to my old line: fix the system first, then talk about people. Three things for managers. One: when something goes wrong, first ask 'what in the system made this possible?', and only then 'who?'. Two: stop staring at single figures; use a control chart to separate normal variation from real signals, and don't praise or scold people for random ups and downs. Three: **abolish forced ranking**, or at least stop tying it to dismissals. Staff can do one thing too: at your next team meeting, bring a flaw you've spotted in the process, not just your results.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "控制图": "control chart（控制图）：休哈特发明、戴明大力推广的统计图，按过程自身的数据画出正常波动的上下限；只有落在界限之外或呈现异常规律的点，才值得去追查特殊原因。"
+      },
+      "glossary_en": {
+        "control chart": "A statistical chart devised by Walter Shewhart and championed by Deming. It plots a process's own data against upper and lower limits of normal variation; only points beyond the limits, or unusual patterns, are worth investigating for a special cause."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "edmondson"
+        ],
+        "轻微赞同": [
+          "ledoux"
+        ],
+        "中立": [
+          "hanfeizi",
+          "machiavelli"
+        ]
+      }
+    },
+    {
+      "id": "p17",
+      "round": 3,
+      "thinker": "edmondson",
+      "reply_to": null,
+      "text": "把马基雅维利的红线和韩先生的『匿过可禁』合起来，换成今天的说法：**少数红线明确罚，其余失误当信息。**落到这周：开会时，领导先说一句『这件事不确定的地方很多，我需要听到你们看到的问题』；再问一个真问题：『我们漏了什么？』有人报了坏消息，先道谢，再一起想下一步。最后回到那道自检题：你的团队上一次有人主动上报自己的失误，是什么时候？想不起来，这就是答案。",
+      "text_en": "Combine Machiavelli's red lines with Mr Han's 'hiding them can be forbidden' and put it in today's terms: **punish a few red lines clearly, and treat every other mistake as information.** Here's what that means this week. In a meeting, the leader opens with 'There's a lot we don't know here, and I need to hear the problems you're seeing.' Then ask a genuine question: 'What are we missing?' When someone brings bad news, thank them first, then work out the next step together. Finally, back to the self-check: when did someone on your team last report their own mistake unprompted? If you can't remember, that's your answer.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "deming",
+          "ledoux"
+        ],
+        "轻微赞同": [
+          "epictetus",
+          "machiavelli"
+        ],
+        "中立": [
+          "hanfeizi"
+        ]
+      }
+    },
+    {
+      "id": "p18",
+      "round": 3,
+      "thinker": "hanfeizi",
+      "reply_to": null,
+      "text": "诸子之言，吾取其二：勒杜曰人畏面而不畏文，马氏曰所畏当止于数事。故明主之道，**法少而明，行之必信**；去好去恶，使臣不得窥其喜怒。今之为长者，可书其不可犯者三五条，悬之于众；条外之过，自言者无罪。罚必依条，不依颜色。如此，虽有畏，而无匿也。",
+      "text_en": "Of all that has been said I take two things: LeDoux's point that people fear faces rather than written rules, and Machiavelli's that fear should be confined to a few matters. So the way of an enlightened ruler is this: **few laws, plainly stated, and always enforced as promised.** Set aside your likes and dislikes, so that no one can read your moods. A leader today can write down the three or five things that must never be done and post them for all to see; for faults beyond those, whoever owns up is not punished. Penalties must follow the written rule, never the look on your face. Then, though fear remains, nothing is hidden.",
+      "vernacular": "各位的话，我取两条：勒杜说人怕的是脸色而不是条文，马基雅维利说让人怕的只该限于几件事。所以英明君主的做法是：**法令少而清楚，执行起来说到做到**；收起自己的好恶，让下属窥不到你的喜怒。现在当领导的，可以把绝对不能犯的三五条写下来，公示给所有人；条文以外的过失，自己说出来就不追究。惩罚一定照条文，不照脸色。这样一来，虽然还有畏惧，却不会有人藏错了。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "machiavelli"
+        ],
+        "轻微赞同": [
+          "edmondson",
+          "ledoux"
+        ],
+        "轻微反对": [
+          "deming"
+        ]
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "ai": "claude",
+      "engine": "Opus 5 · 订阅(原生)",
+      "engine_en": "Opus 5 · subscription (native)",
+      "summary": "**恐惧能让人一时不越红线，却会让错误、坏消息和新想法一起藏起来**——六位在这点上几乎没有异议，连韩非和马基雅维利也承认，乱用的恐惧只会招来隐瞒与憎恨。分歧有三处。一是恐惧该不该留：戴明和埃德蒙森要把它赶出日常工作，马基雅维利和韩非主张留着，但只对准少数红线。二是罚什么：韩非提出罚隐瞒重于罚犯错，埃德蒙森认同方向，却提醒头一个认错的人若挨罚，全组都会闭嘴；勒杜补充，人受惊时看的是脸色不是条文。三是改变从哪来：多数人寄望于管理者，爱比克泰德只对下面的人说话。",
+      "summary_en": "**Fear can keep people from crossing red lines for a while, but it drives mistakes, bad news and new ideas underground together.** On that the six barely disagree; even Han Fei and Machiavelli concede that fear used carelessly breeds concealment and hatred. They split in three places. First, whether fear should stay at all: Deming and Edmondson want it out of everyday work, while Machiavelli and Han Fei would keep it but aim it at a few red lines. Second, what to punish: Han Fei proposes punishing concealment more heavily than the error itself; Edmondson accepts the direction but warns that if the first person to own up is punished, the whole team goes quiet, and LeDoux adds that frightened people read faces, not rules. Third, where change comes from: most look to managers, while Epictetus speaks only to those below.",
+      "insight": "老板怕投资人，总监怕老板，组长怕总监——在多数人的工作里，恐惧不是哪位上司手里的一件工具，而是层层传下来的气压，每一层都把上面的压力加一点码再往下传。六位谈的多是一个管理者该怎样收着用它。可**一个组长再会说『谢谢你告诉我』，也挡不住公司按季度裁员带来的那份怕。**所以韩非的『法少而明』不该只用在小团队的红线上，更该问整个组织：裁员和降级的标准有没有事先公开、能不能预测。中层能做的，是当减压阀，而不是放大器。",
+      "insight_en": "The owner fears the investors, the director fears the owner, the team lead fears the director. In most people's working lives fear is not a tool in some particular boss's hand but pressure handed down the line, with each layer adding a little before passing it on. The six mostly discussed how a single manager should use it sparingly. Yet **however good a team lead is at saying 'thank you for telling me', it won't block the fear that comes from quarterly layoffs.** So Han Fei's 'few laws, plainly stated' shouldn't stop at a small team's red lines; the whole organisation should be asked whether its criteria for layoffs and demotions are published in advance and predictable. What middle managers can do is act as a pressure valve rather than an amplifier.",
+      "advice": "三件这周就能做的事。一、如果你带人：写下你最在乎的三条红线，当面告诉团队，并说明除此之外的失误，主动说出来就不追究（韩非、马基雅维利）。二、下次有人报坏消息，**先说『谢谢你告诉我』，再问细节**，别让你的第一反应是皱眉或叹气（勒杜、埃德蒙森）。三、如果你在下面：提前把认错的那句话写进手机备忘录；同时留一笔够撑几个月的应急存款，让自己说实话时底气足一点（爱比克泰德）。",
+      "advice_en": "Three things you can do this week. 1. If you manage people: write down the three red lines you care about most, tell your team in person, and make clear that any other mistake reported unprompted won't be held against anyone (Han Fei, Machiavelli). 2. The next time someone brings bad news, **say 'thank you for telling me' first and ask for details second**; don't let a frown or a sigh be your first reaction (LeDoux, Edmondson). 3. If you're the one being managed: put the sentence you'd use to own up to a mistake in your phone's notes app ahead of time, and build up an emergency fund that would cover a few months, so that telling the truth feels a little less risky (Epictetus)."
+    },
+    {
+      "ai": "gpt",
+      "engine": "openai · gpt-5.6-sol · high(真实API)",
+      "engine_en": "openai · gpt-5.6-sol · high (live API)",
+      "summary": "恐惧会让人短期守线，却也会把坏消息、失误和异议赶入地下；因此，能长期管好组织的不是“让人怕领导”，而是让规则可信、让真话安全。**后果应当稳定地落在造假、鲁莽和蓄意伤害上，而不该落在诚实上报、可理解的失误或系统造成的波动上。**真正的分歧不在要不要问责，而在恐惧能否成为常规管理工具：一方强调惩罚对底线的威慑，另一方强调威胁会扭曲信息、学习与判断。较稳妥的结论是：少数红线严而一致，红线之外先查系统、鼓励报告，并以改进能力而非表面安静衡量管理成效。",
+      "insight": "口头上的“放心说”很廉价，真正稀缺的是让坏消息与个人利益脱钩。员工不会只看领导听报告时是否微笑，还会看季度考评、晋升、奖金和裁员名单；若主动暴露问题的人最终吃亏，前三秒的道谢也会被识破。**心理安全不是一种气氛，而是一套经得起事后检验的激励与程序。**这意味着事故复盘应尽量与绩效定罪分开，允许匿名或越级报告，记录并调查报复行为，同时也给被指控者核实事实和申辩的机会。普通人不必猜上司本性如何，更可靠的是观察：谁报过坏消息、后来发生了什么、同类事件是否按同一标准处理。",
+      "advice": "今天可做三件事。第一，遇到失误先写三行：已知事实、潜在影响、建议的下一步；尽快报告，不掺推测，同时留存时间线和关键记录。第二，在复盘中追问：“这是诚实失误、流程缺口，还是明知违规？”并明确负责人、修复期限与复查日期，避免讨论滑向寻找替罪羊。第三，用四周做一次“说真话审计”，记录坏消息受到怎样的回应、报告者后来是否受隐性惩罚。**既不要因一时脸色就退缩，也不要把反复报复误认成可以忍受的管理风格。**若模式持续，启用合规、工会或越级渠道，并同步准备储蓄、简历和离开选项。",
+      "summary_en": "Fear can produce short-term compliance, but it also drives bad news, mistakes, and dissent underground. Sustainable control therefore comes not from making people afraid of the boss, but from making rules credible and truth-telling safe. **Consequences should fall consistently on fraud, recklessness, and deliberate harm—not on candid reporting, understandable mistakes, or variation created by the system.** The real disagreement is not whether accountability matters, but whether fear can serve as a routine management tool. One position stresses deterrence at hard boundaries; the other stresses how threat corrupts information, learning, and judgment. The practical synthesis is narrow but useful: establish a few clear red lines, enforce them predictably, and treat everything outside them first as information about the system. Judge management not by how quiet the workplace appears, but by whether problems surface early and the organization improves.",
+      "insight_en": "Inviting people to speak freely is cheap; separating bad news from personal career damage is much harder. Employees do not judge safety only by whether a manager smiles and says thank you. They also watch performance reviews, promotions, bonuses, and layoff decisions. If the person who exposes a problem later pays for it, a gracious first response will soon look theatrical. **Psychological safety is not merely an atmosphere; it is a set of incentives and procedures that must survive later scrutiny.** Incident reviews should therefore be separated, where possible, from automatic performance blame. Organizations need confidential or skip-level reporting, records of possible retaliation, and fair fact-finding for anyone accused. An employee need not guess whether a boss is fundamentally kind. Better evidence is behavioral: who reported bad news, what happened to them afterward, and whether comparable cases were handled by the same standard.",
+      "advice_en": "Take three practical steps. First, when something goes wrong, write three lines before reporting it: known facts, possible impact, and the next action you recommend. Report promptly, distinguish evidence from speculation, and preserve a timeline and key records. Second, during the review, ask whether the event was an honest mistake, a process weakness, or a knowing violation. Then agree on an owner, a repair deadline, and a follow-up date so the discussion does not collapse into scapegoating. Third, run a four-week truth-telling audit: note how bad news is received and whether reporters later face subtle penalties. **Do not retreat because of one irritated expression, but do not normalize a repeated pattern of retaliation either.** If retaliation persists, use compliance, union, or skip-level channels where available, while strengthening your savings, résumé, professional network, and realistic option to leave."
+    },
+    {
+      "ai": "gemini",
+      "engine": "google · gemini-3.8-flash(真实API)",
+      "engine_en": "google · gemini-3.8-flash (live API)",
+      "summary": "惩罚若不可预测，下属唯一的理性应对就是结伙藏匿真相。六位辩者无论来自古典法理、现代质量管理还是神经科学，都形成了一个明确交集：**恐惧一旦任由管理者凭喜怒挥舞，系统就会丧失自愈能力**。分歧的焦点在于恐惧是否还具有不可替代的基石价值。马基雅维利与韩非子坚信趋利避害是人性底色，必须保留对撒谎和背叛的终极震慑；戴明与勒杜则从统计波动与生理回路证实，恐惧会本能地压制前额叶反思，将正常的数据起伏逼成虚假报表。两派最终在边界上达成默契：即便保留威慑，也必须限定于极少数公开透明的违纪红线，绝不可挥向过程失误。",
+      "insight": "现代知识密集型组织对恐惧的依赖，往往伴随着隐蔽的「风险外部化」与「技术债堆积」。在流水线工序中，威慑或许能强行规范动作；但在协同复杂的认知劳动中，**恐惧不会消灭缺陷，只会让缺陷转入监控盲区并延后爆雷**。当团队把认知资源全用在被动免责与粉饰指标上时，组织正在支付昂贵的信息摩擦成本。更严重的是，威慑机制天然单向向下流动，这彻底阻断了基层向高层逆向预警战略盲区的通道。一个靠人人自危维持运转的系统看似令行禁止，实则已自行切断了感知外部巨变的前哨神经。",
+      "advice": "将震慑限制在底线，把安全还给日常：一、**划定不超过三条的“免责边界清单”**。管理层白纸黑字公开承诺：唯有伪造数据、恶意隐瞒与违规伤害才触发严惩；其余技术试验与操作失误，一律只做不追责的事后复盘。二、**践行坏消息的“三秒响应”**。借用勒杜与埃德蒙森的方法，听到下属汇报事故时，前三秒克制脸色并先说“谢谢你及时告诉我”，随后只问“需要什么资源止损”，用确定性阻断下属的防御回路。三、**员工建立事实型审计底稿**。面对喜怒无常的上级，落实爱比克泰德的课题分离：关键交接留存客观邮件与日志，汇报时只陈述“现状、影响、解决方案”，以可验证的事实验证专业边界。",
+      "summary_en": "When punishment becomes unpredictable, concealment becomes the employee's only rational strategy. Across classical statecraft, systems theory, and neuroscience, all voices converge on a core reality: **unbridled fear driven by managerial whim paralyzes an organization's capacity for self-correction**. The debate sharpens on whether fear retains any legitimate utility. While Han Feizi and Machiavelli insist that a bedrock of dread is essential to deter deceit and enforce baseline compliance, Deming and LeDoux demonstrate that fear biologically impairs cognitive reflection and punishes random statistical variance. Ultimately, both sides reconcile by narrowing the scope: deterrence must be strictly confined to transparent misconduct, never leveled against operational errors.",
+      "insight_en": "Modern knowledge-work environments reveal an overlooked cost of fear-driven culture: the rapid accumulation of organizational technical debt and deferred risk. While intimidation might enforce physical conformity on an assembly line, **fear in complex cognitive environments does not eradicate flaws; it simply pushes them into blind spots and transfers failure downstream**. When employees prioritize personal defensibility over real problem-solving, systemic information friction skyrockets. Crucially, fear flows strictly downward, blinding executive leadership to flawed strategic assumptions. An organization kept in persistent terror may appear disciplined on paper, but it effectively severs the sensory nerves required to detect systemic failure before collapse.",
+      "advice_en": "Translate psychological safety and boundaries into operational habits this week: 1. **Publish an explicit three-line red list**. Clearly state in writing that punitive measures apply exclusively to deliberate fraud, concealment, and interpersonal abuse; treat all operational missteps as systemic data points for blameless post-mortems. 2. **Practice the three-second bad news protocol**. As LeDoux and Edmondson suggest, when alerted to an error, pause for three seconds, say 'Thank you for bringing this to light,' and focus strictly on mitigation to defuse threat responses. 3. **Maintain an objective audit trail**. Employees dealing with unpredictable leaders should separate personal agency from managerial mood: document key decisions with clear timestamps and frame issues purely through data, impact, and proposed remedies."
+    }
+  ],
+  "hooks": [
+    {
+      "from": "claude",
+      "text": "**恐惧是层层传下来的**：老板怕投资人、总监怕老板、组长怕总监。夹在中间的人，怎样当减压阀而不是放大器？",
+      "text_en": "**Fear is passed down the line**: the owner fears investors, the director fears the owner, the team lead fears the director. How can those in the middle act as a pressure valve rather than an amplifier?"
+    },
+    {
+      "from": "gpt",
+      "text": "**『放心说』要看事后**：报过坏消息的人，半年后的考评、晋升、奖金怎么样了？从别人的遭遇里，怎样判断一个组织的承诺是真是假？",
+      "text_en": "**Judge 'speak freely' by what happens afterwards**: six months on, how did the reviews, promotions and bonuses of people who brought bad news turn out? How can you tell from others' experience whether an organisation's promise is real?"
+    },
+    {
+      "from": "edmondson",
+      "text": "**这个错，该罚还是该谢？**失误有好几种，各该怎么对待，才既守住底线又不让人闭嘴？",
+      "text_en": "**Punish this mistake, or thank the person for it?** There are several kinds of failure; how should each be handled so the line holds and people still speak up?",
+      "answer": {
+        "lead": "先分清是哪一种，再决定反应。**大多数失误属于后三类**，却常被当成第一类处理：",
+        "table": {
+          "head": [
+            "失误类型",
+            "怎么对待",
+            "为什么"
+          ],
+          "rows": [
+            [
+              "明知故犯：造假、跳过安全步骤、伤人",
+              "按事先公布的红线处理，每次一样",
+              "这是选择，不是失误；执行不一致比严厉更伤人（马基雅维利）"
+            ],
+            [
+              "藏起来后被查出",
+              "比原错处理得重，但先问清为什么不敢说",
+              "罚隐瞒才能让人愿意报（韩非），可不敢说往往说明报告渠道本身出了问题"
+            ],
+            [
+              "熟悉的流程里一时疏忽",
+              "补清单、改流程，别点名羞辱",
+              "同样的错换个人也会犯，问题多半在系统（戴明）"
+            ],
+            [
+              "复杂情况下几件事碰在一起",
+              "感谢报告者，全组复盘流程",
+              "没人能单独预见，越早报越能止损（埃德蒙森）"
+            ],
+            [
+              "尝试新做法、小规模试验失败",
+              "公开分享，算作收获",
+              "这是『聪明的失败』，花小钱买到了信息"
+            ]
+          ]
+        },
+        "tail": "两条原则：**先感谢，再追问**；罚只落在第一、二行，其余一律当信息。"
+      },
+      "answer_en": {
+        "lead": "Work out which kind it is before you react. **Most mistakes fall into the last three types**, yet they are often treated like the first:",
+        "table": {
+          "head": [
+            "Type of failure",
+            "How to handle it",
+            "Why"
+          ],
+          "rows": [
+            [
+              "Deliberate violation: falsifying, skipping safety steps, harming others",
+              "Apply the published red lines, the same way every time",
+              "This is a choice, not a mistake; inconsistent enforcement does more damage than strictness (Machiavelli)"
+            ],
+            [
+              "Hidden, then discovered",
+              "Treat it more seriously than the original error, but first ask why they didn't dare speak",
+              "Punishing concealment makes reporting worthwhile (Han Fei), but fear of speaking often means the reporting channel itself is broken"
+            ],
+            [
+              "A slip in a familiar routine",
+              "Add a checklist or fix the process; don't single anyone out",
+              "Anyone else would have made the same slip; the problem is usually the system (Deming)"
+            ],
+            [
+              "Several things colliding in a complex situation",
+              "Thank whoever reported it and review the process as a team",
+              "No one could have foreseen it alone, and the earlier it's reported the less it costs (Edmondson)"
+            ],
+            [
+              "A new approach or small experiment that didn't work",
+              "Share it openly and count it as a gain",
+              "This is an 'intelligent failure': cheap information bought at small cost"
+            ]
+          ]
+        },
+        "tail": "Two principles: **thank first, ask questions second**; penalties apply only to the first two rows, and everything else is information."
+      }
+    },
+    {
+      "from": "hanfeizi",
+      "text": "**鼓励举报，会不会养出告密成风？**鼓励人说出自己的错，和鼓励人揭发同事的错，是一回事吗？",
+      "text_en": "**Does rewarding reports breed a culture of informers?** Is encouraging people to admit their own mistakes the same thing as encouraging them to expose a colleague's?"
+    },
+    {
+      "from": "deming",
+      "text": "**取消排名之后，奖金怎么分？**不按名次分钱和晋升，用什么办法才不制造新的恐惧？",
+      "text_en": "**Without rankings, how do you hand out bonuses?** If pay and promotion don't follow rank, what method avoids creating new fears?"
+    },
+    {
+      "from": "ledoux",
+      "text": "**一次当众羞辱，要多少次『没事』才能抵消？**恐惧学得快、消退得慢，一个团队的沉默要多久才解冻？",
+      "text_en": "**How many 'that's fine' moments does it take to undo one public humiliation?** Fear is learned fast and extinguished slowly; how long does it take a silent team to thaw?"
+    },
+    {
+      "from": "epictetus",
+      "text": "**说真话要多少底气？**存款、可替代性、另找工作的把握——一个人的勇气，有多少其实是物质条件给的？",
+      "text_en": "**How much security does honesty need?** Savings, how replaceable you are, how sure you are of finding another job: how much of a person's courage is really supplied by material conditions?"
+    }
+  ]
+}

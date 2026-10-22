@@ -1,0 +1,877 @@
+{
+  "id": "efficacy-without-mechanism",
+  "question": "说不清原理的「有效」，算不算知识？",
+  "question_en": "Does 'it works' without knowing why count as knowledge?",
+  "sub": "柳树皮止痛早于阿司匹林几千年；反过来，漂亮的机制也可能不见效。",
+  "sub_en": "Willow bark eased pain millennia before aspirin; and an elegant mechanism can still fail.",
+  "date": "2026-10-22",
+  "participants": [
+    "aristotle",
+    "hume",
+    "zhuxi",
+    "taleb",
+    "popper",
+    "avicenna",
+    "benedetti",
+    "buddha"
+  ],
+  "casting": [
+    {
+      "id": "aristotle",
+      "reason": "他区分只知『是这样』的经验与知道『为什么』的技艺：承认前者在行动上常常更灵，却仍把后者排得更高。",
+      "reason_en": "He separates experience, which knows only that something is so, from art, which knows why. He grants that experience often does better in practice, yet still ranks art higher."
+    },
+    {
+      "id": "hume",
+      "reason": "他把『原理』也拆成习惯性的先后相随，追问的不是有没有机制，而是证据的记录配不配得上我们的信心。",
+      "reason_en": "He breaks 'mechanism' down into habitual succession as well. His question is not whether there is a mechanism, but whether the record of evidence deserves the confidence we place in it."
+    },
+    {
+      "id": "zhuxi",
+      "reason": "他坚持格物要穷到『所以然』，又把老农老医的效验当作穷理的起点，而不是糟粕。",
+      "reason_en": "He insists that investigating things must reach the 'reason why', yet treats the proven experience of old farmers and physicians as the starting point of inquiry, not as rubbish."
+    },
+    {
+      "id": "taleb",
+      "reason": "他站在『做得到却说不出』的一边，拿绿木材谬误和阿司匹林的七十年替实践知识辩护，交锋之后又收回了一半。",
+      "reason_en": "He stands with the knowledge that can do but cannot explain, defending practical know-how with the green lumber fallacy and aspirin's seventy years, then takes back half of it after the exchange."
+    },
+    {
+      "id": "popper",
+      "reason": "他认为一个说法从哪儿来无关紧要，要紧的是它敢不敢被推翻：没有机制可以，不可证伪不行。",
+      "reason_en": "For him it does not matter where a claim comes from, only whether it dares to be refuted. Lacking a mechanism is fine; being unfalsifiable is not."
+    },
+    {
+      "id": "avicenna",
+      "reason": "他早在《医典》里就为试药立下规矩：不必先懂原理，但『有效』必须经过一套排除偶然的手续。",
+      "reason_en": "In his Canon of Medicine he had already laid down rules for testing drugs: you need not understand the mechanism first, but 'it works' must pass a procedure that rules out chance."
+    },
+    {
+      "id": "benedetti",
+      "reason": "他用安慰剂实验说明：民间说的『管用』常常是真的，只是管用的未必是那味药；而一套漂亮的机制，也可能害死人。",
+      "reason_en": "His placebo experiments show that when folk remedies 'work' they often really do, though what works may not be the herb; and an elegant mechanism can kill."
+    },
+    {
+      "id": "buddha",
+      "reason": "他以毒箭喻主张先拔箭、再问来历，同时提醒：把某种仪轨本身当成灵验，同样是一种执着。",
+      "reason_en": "With the parable of the poisoned arrow he argues for pulling the arrow out before asking where it came from, while warning that treating a ritual as efficacious in itself is another kind of clinging."
+    }
+  ],
+  "posts": [
+    {
+      "id": "p01",
+      "round": 1,
+      "thinker": "aristotle",
+      "reply_to": null,
+      "text": "我在《形而上学》开篇就分过：有经验的人知道『是这样』，有技艺的人知道『为什么』。**论行动，有经验的人往往比只懂道理的人做得更好**——医生治的不是『人』，是卡利亚斯这一个病人。可我们仍说技艺比经验更有智慧，因为它知道原因，所以能教给别人。我的回答是：说不清原理的有效是知识，只是低一级的知识。",
+      "text_en": "I drew this distinction at the very opening of the Metaphysics: the experienced person knows *that* something is so; the person with an art knows *why*. **When it comes to acting, the experienced often do better than those who have only the theory.** A doctor does not cure 'man'; he cures Callias, this one patient. Yet we still call art wiser than experience, because it knows the cause and can therefore be taught. So my answer is: efficacy you cannot explain is knowledge, just knowledge of a lower grade.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "技艺": "technē（技艺）：亚里士多德的用语，指掌握了原因、因而能讲清道理并传授给他人的制作或实践知识，如医术、建筑术；与只知其然的经验相对。"
+      },
+      "glossary_en": {
+        "art": "Aristotle's technē: practical or productive knowledge that grasps causes and can therefore be explained and taught, such as medicine or building; contrasted with experience, which knows only that something is so."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "zhuxi",
+          "avicenna",
+          "popper"
+        ],
+        "中立": [
+          "benedetti"
+        ],
+        "轻微反对": [
+          "taleb"
+        ],
+        "疑惑": [
+          "hume"
+        ]
+      }
+    },
+    {
+      "id": "p02",
+      "round": 1,
+      "thinker": "hume",
+      "reply_to": null,
+      "text": "我想先拆掉『原理』这块招牌。我们从没看见哪个原因真的『产生』了结果，只看见两件事总是先后相随，看久了心里便生出期待。服了柳树皮，疼痛减轻，这是恒常连结；等化学家说出阿司匹林抑制了一种酶，**也不过是把同一种相随往下挪了一层，并没有碰到什么必然**。所以别问有没有原理，要问：这份相随的记录有多长、多干净。",
+      "text_en": "Let me first take down the signboard that says 'mechanism'. We have never once seen a cause actually *produce* its effect; we only see two things follow each other, again and again, until the mind comes to expect it. Take willow bark, and the pain eases: that is a constant conjunction. When the chemist later tells us that aspirin inhibits an enzyme, **he has only moved the same succession one level down; he has not touched any necessity**. So don't ask whether there is a mechanism. Ask how long, and how clean, the record of that conjunction is.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "恒常连结": "constant conjunction（恒常连结）：休谟的用语，指两类事件在经验中总是一前一后出现；他认为所谓『因果』，归根结底只是我们对这种反复相随的习惯性期待。"
+      },
+      "glossary_en": {
+        "constant conjunction": "Hume's term for two kinds of event that are always found together, one following the other. He held that what we call cause and effect comes down, in the end, to our habitual expectation built on such repeated succession."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "taleb",
+          "popper"
+        ],
+        "中立": [
+          "benedetti",
+          "buddha"
+        ],
+        "轻微反对": [
+          "aristotle",
+          "avicenna"
+        ],
+        "强烈反对": [
+          "zhuxi"
+        ]
+      }
+    },
+    {
+      "id": "p03",
+      "round": 1,
+      "thinker": "zhuxi",
+      "reply_to": null,
+      "text": "天下之物，必各有**所以然之故**与其所当然之则。知其当然而不知其所以然，譬如夜行识路，熟则可至，一旦路改，便茫然矣。老农老医之验，不可轻弃，此正格物之端；然**止于此，则终是记得，不是知得**。故须即物穷理，今日格一件，明日格一件，用力之久，自有豁然贯通处。",
+      "text_en": "Every thing under heaven must have its **reason why it is so** and its rule of how it ought to be. To know how a thing ought to go without knowing why is like finding your way at night: once the road is familiar you will arrive, but the day the road changes you are lost. The proven experience of old farmers and old physicians must not be lightly cast aside; it is exactly where the investigation of things begins. But **stop there, and you have only remembered it, not understood it**. So one must go to things and fathom their principle: one thing today, another tomorrow, and after long effort there comes a moment when everything suddenly connects.",
+      "vernacular": "天下每一样东西，都必有它**为什么这样的缘故**，和它应当怎样的规则。只知道应当怎么做、却不知道为什么，就像走夜路认路：走熟了也能到，可一旦路改了，就两眼一抹黑。老农老医的经验不可轻易丢掉，这正是格物的起点；但**若停在这里，终究只是记住了，不是真懂了**。所以要就着事物去穷究道理，今天弄通一件，明天弄通一件，功夫下久了，自然有豁然贯通的时候。",
+      "vernacular_en": "",
+      "glossary": {
+        "所以然之故": "the reason why（所以然）：朱熹语，指事物之所以如此的根本缘由；与『所当然之则』（应当如何的规则）相对，二者合起来就是『理』。",
+        "格物": "investigating things（格物）：《大学》八条目之首，朱熹解为就着具体事物穷究其理，日积月累以求贯通。"
+      },
+      "glossary_en": {
+        "reason why it is so": "Zhu Xi's suo yi ran: the underlying cause of a thing being as it is, paired with suo dang ran, the rule of how it ought to be. Together they make up li, principle.",
+        "investigation of things": "Gewu, the first of the eight steps in the Great Learning. Zhu Xi read it as probing the principle of concrete things one by one until understanding connects."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "aristotle"
+        ],
+        "轻微赞同": [
+          "avicenna"
+        ],
+        "中立": [
+          "popper"
+        ],
+        "轻微反对": [
+          "taleb",
+          "buddha"
+        ],
+        "疑惑": [
+          "hume"
+        ]
+      }
+    },
+    {
+      "id": "p04",
+      "round": 1,
+      "thinker": "taleb",
+      "reply_to": null,
+      "text": "知识分子最爱犯『绿木材谬误』：有个交易员靠倒卖『绿木材』发了财，却一直以为那是刷了绿漆的木头。**做成一件事所需的知识，和讲得出来的知识，根本是两回事。**阿司匹林卖了七十多年，药理学家才弄清它怎么起效——难道这七十年里吃它的人都在迷信？一个方子能在许多代人身上活下来，本身就是证据。",
+      "text_en": "Intellectuals love to commit the green lumber fallacy. A trader made a fortune dealing in 'green lumber' while believing all along that it was wood painted green. **The knowledge you need to get something done and the knowledge you can put into words are entirely different things.** Aspirin was on sale for more than seventy years before pharmacologists worked out how it acts. Were all the people who took it in those seventy years being superstitious? A remedy that survives across many generations of human bodies is itself evidence.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "绿木材谬误": "green lumber fallacy（绿木材谬误）：塔勒布的用语，指把讲得出来的知识误当成做成事所需的知识；典出一位靠『绿木材』（新伐、未干的木材）赚钱，却以为它是刷了绿漆的木头的交易员。"
+      },
+      "glossary_en": {
+        "green lumber fallacy": "Taleb's term for mistaking the knowledge you can articulate for the knowledge that actually gets things done. It comes from a trader who made money in 'green lumber' (freshly cut, unseasoned wood) while thinking it was lumber painted green."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "buddha"
+        ],
+        "轻微赞同": [
+          "hume"
+        ],
+        "轻微反对": [
+          "zhuxi",
+          "aristotle"
+        ],
+        "强烈反对": [
+          "popper"
+        ],
+        "疑惑": [
+          "benedetti"
+        ]
+      }
+    },
+    {
+      "id": "p05",
+      "round": 1,
+      "thinker": "popper",
+      "reply_to": null,
+      "text": "一个说法从哪儿来——祖传、梦里、实验室——跟它算不算知识毫无关系，**要看它敢不敢说清楚：出现什么结果，我就认输**。『这个方子治失眠』可以拿去试，试过没被推翻，就暂时算知识，没有机制也一样。可要是每次没效都有说法——『你心不诚』『剂量不对』『体质不合』——那它什么都解释得了，因而什么也没说。",
+      "text_en": "Where a claim comes from (an ancestor, a dream, a laboratory) has nothing to do with whether it counts as knowledge. **What matters is whether it dares to say plainly: if this result turns up, I lose.** 'This remedy cures insomnia' can be put to the test; if it survives, it counts as knowledge for now, mechanism or no mechanism. But if every failure comes with an excuse ('you didn't believe enough', 'wrong dose', 'wrong constitution'), then it can explain everything, and has therefore said nothing.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "avicenna"
+        ],
+        "轻微赞同": [
+          "benedetti",
+          "hume",
+          "buddha"
+        ],
+        "中立": [
+          "aristotle"
+        ],
+        "轻微反对": [
+          "taleb"
+        ]
+      }
+    },
+    {
+      "id": "p06",
+      "round": 1,
+      "thinker": "avicenna",
+      "reply_to": null,
+      "text": "一千年前我在《医典》里给试药定过规矩：药要纯，不掺别的性质；要在单纯而非复杂的病上试；效验要在许多病例中都一样，才不算偶然；要留心多久起效；**最后必须在人身上试——在马和狮子身上灵验，不足为凭**。可见我并不要求先懂原理，但『有效』二字不能随口说，它得经过一套排除偶然的手续。",
+      "text_en": "A thousand years ago, in my Canon of Medicine, I laid down rules for testing a drug. It must be pure, carrying no other quality. It must be tried on a simple disease, not a compound one. Its effect must hold across many cases, or it may be chance. Note how long it takes to act. **And in the end it must be tried on a human being: that it works on a horse or a lion proves nothing.** So I did not demand the mechanism first. But 'it works' is not something to say offhand; it has to pass a procedure that rules out chance.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "医典": "The Canon of Medicine（医典）：伊本·西那约于11世纪初写成的五卷本医学全书，在伊斯兰世界与欧洲被用作医学教科书数百年；第二卷提出了检验药物的七条规则。"
+      },
+      "glossary_en": {
+        "Canon of Medicine": "Ibn Sina's five-volume medical encyclopedia, completed in the early 11th century and used as a medical textbook in the Islamic world and Europe for centuries. Its second book sets out seven rules for testing drugs."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "popper",
+          "benedetti"
+        ],
+        "轻微赞同": [
+          "aristotle",
+          "zhuxi"
+        ],
+        "中立": [
+          "taleb"
+        ]
+      }
+    },
+    {
+      "id": "p07",
+      "round": 1,
+      "thinker": "benedetti",
+      "reply_to": null,
+      "text": "我的实验室天天在量『有效』。同一剂吗啡，病人看着医生推进去，比由机器在他不知情时悄悄输入，镇痛效果明显更强；**两者的差额，就是诊室、医生的话和病人的期待在起作用**。这部分是真生理：安慰剂镇痛会调动体内的阿片，能被纳洛酮阻断。所以民间方子说『管用』，常常是真的——只是管用的未必是那味药。",
+      "text_en": "My lab measures 'it works' every day. The same dose of morphine relieves pain clearly better when the patient watches the doctor inject it than when a machine delivers it without the patient knowing. **The difference between the two is the clinic, the doctor's words and the patient's expectations at work.** That part is real physiology: placebo analgesia recruits the body's own opioids and can be blocked by naloxone. So when a folk remedy 'works', it often truly does; it's just that what works may not be the herb.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "安慰剂镇痛": "placebo analgesia（安慰剂镇痛）：病人因期待与治疗情境而真实减轻的疼痛；研究显示它部分依赖大脑释放的内源性阿片，可被阿片拮抗剂纳洛酮削弱。",
+        "纳洛酮": "naloxone（纳洛酮）：阿片受体拮抗剂，临床上用于逆转阿片过量；实验中用来阻断安慰剂镇痛，证明后者有真实的化学通路。"
+      },
+      "glossary_en": {
+        "placebo analgesia": "Real pain relief produced by a patient's expectations and the treatment setting. Research shows it relies partly on the brain's release of its own opioids and can be weakened by the opioid blocker naloxone.",
+        "naloxone": "An opioid receptor antagonist used clinically to reverse overdoses; in experiments it blocks placebo analgesia, showing that the effect runs through a real chemical pathway."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "avicenna"
+        ],
+        "轻微赞同": [
+          "buddha",
+          "popper",
+          "hume"
+        ],
+        "中立": [
+          "zhuxi"
+        ],
+        "疑惑": [
+          "taleb"
+        ]
+      }
+    },
+    {
+      "id": "p08",
+      "round": 1,
+      "thinker": "buddha",
+      "reply_to": null,
+      "text": "我曾对迦摩罗人说：不要因为是传统、是经书、是推理、是老师说的，就去相信；**你们自己亲见某法能减苦、能利益他人，再去奉行**。我讲的四谛，其实也像医家：知病、知病因、知病可愈、知治法。我从不轻视『为什么』——集谛讲的正是病因。但我问的是断了它就能止苦的那一层因，不是一切因。",
+      "text_en": "I once told the Kālāmas: do not believe a thing because it is tradition, because it is scripture, because it is reasoned out, or because your teacher says so. **When you see for yourselves that a practice lessens suffering and benefits others, then take it up.** My Four Noble Truths are themselves rather like a physician's method: know the illness, know its cause, know it can be cured, know the cure. I have never scorned 'why'; the truth of origin is precisely about the cause of the illness. But the cause I ask about is the one whose cutting ends suffering, not every cause there is.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "四谛": "Four Noble Truths（四谛）：苦、集、灭、道。苦是病相，集是病因，灭是病可痊愈，道是治法；常被比作医家诊治的四步。",
+        "集谛": "the truth of origin（集谛）：四谛之二，指苦的成因，即贪爱与执着。"
+      },
+      "glossary_en": {
+        "Four Noble Truths": "Suffering, its origin, its cessation and the path. The first names the illness, the second its cause, the third the possibility of cure, the fourth the treatment; they are often compared to the four steps of a physician's practice.",
+        "truth of origin": "The second of the Four Noble Truths: the cause of suffering, namely craving and clinging."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "popper"
+        ],
+        "轻微赞同": [
+          "avicenna",
+          "aristotle",
+          "taleb"
+        ],
+        "中立": [
+          "hume"
+        ],
+        "轻微反对": [
+          "zhuxi"
+        ]
+      }
+    },
+    {
+      "id": "p09",
+      "round": 2,
+      "thinker": "taleb",
+      "reply_to": "p03",
+      "text": "@朱熹 等到『豁然贯通』之前，人该怎么办？1847 年，塞麦尔维斯让产科医生用漂白粉水洗手，产妇死亡率骤降；可他讲不清为什么——细菌理论还没出生——同行便嗤之以鼻，洗手迟迟推不开。**索要原理，有时就是在拒绝救命。**对管用却说不清的东西，正确的态度是先用着、记下来，别等教授点头。",
+      "text_en": "@Zhu Xi What are people supposed to do while they wait for everything to 'suddenly connect'? In 1847 Semmelweis had obstetricians wash their hands in chlorinated lime, and deaths among new mothers plunged. But he couldn't say why (germ theory hadn't been born yet), so his colleagues sneered, and handwashing struggled to catch on. **Demanding a mechanism is sometimes a way of refusing to save lives.** For things that work but can't be explained, the right attitude is to use them, keep records, and not wait for a professor's nod.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "buddha"
+        ],
+        "轻微赞同": [
+          "hume",
+          "benedetti"
+        ],
+        "轻微反对": [
+          "aristotle"
+        ],
+        "强烈反对": [
+          "zhuxi"
+        ],
+        "疑惑": [
+          "popper"
+        ]
+      }
+    },
+    {
+      "id": "p10",
+      "round": 2,
+      "thinker": "popper",
+      "reply_to": "p04",
+      "text": "@塔勒布 『活下来就是证据』？放血疗法在欧洲医学里活了两千年，华盛顿临终前还被放掉了大量的血。**时间淘汰的是不合人心的东西，未必是无效的东西**：病人本来会自己好，功劳却记在放血头上。至于塞麦尔维斯，他恰恰是我的例子：他提出可检验的猜想，拿死亡率去试——被冷落是同行的错，不是检验的错。",
+      "text_en": "@Taleb 'Surviving is itself evidence'? Bloodletting survived two thousand years in European medicine; George Washington was drained of a great deal of blood on his deathbed. **What time weeds out is what people find disagreeable, not necessarily what doesn't work.** Patients who would have recovered anyway gave the credit to the lancet. As for Semmelweis, he is precisely my example: he made a testable conjecture and checked it against death rates. That he was ignored is his colleagues' fault, not the test's.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "avicenna"
+        ],
+        "轻微赞同": [
+          "benedetti",
+          "aristotle",
+          "zhuxi"
+        ],
+        "中立": [
+          "hume"
+        ],
+        "强烈反对": [
+          "taleb"
+        ]
+      }
+    },
+    {
+      "id": "p11",
+      "round": 2,
+      "thinker": "benedetti",
+      "reply_to": "p03",
+      "text": "@朱熹 反过来的教训更吓人。上世纪八十年代，医生知道心梗后早搏多的病人更容易猝死，于是用药把早搏压下去，机制环环相扣；随机试验一做，吃药那组死得更多。**一套漂亮的所以然，没经过检验，比没有道理更危险**——因为它让所有人都信心满满。",
+      "text_en": "@Zhu Xi The lesson in the other direction is scarier. In the 1980s doctors knew that heart-attack survivors with frequent irregular beats were more likely to die suddenly, so they used drugs to suppress those beats. Every link in the mechanism held. Then a randomised trial was run, and the group on the drugs died at a higher rate. **An elegant reason why that has never been tested is more dangerous than having no reason at all**, because it makes everyone so confident.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "随机试验": "randomised trial（随机试验）：把受试者随机分进治疗组与对照组，比较结果，以排除病人本身差异造成的偏差。文中所说的是1989年公布的心律失常抑制试验（CAST）。"
+      },
+      "glossary_en": {
+        "randomised trial": "A study that assigns participants at random to a treatment group or a control group and compares outcomes, so that differences between patients don't bias the result. The one described here is the Cardiac Arrhythmia Suppression Trial (CAST), reported in 1989."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "popper"
+        ],
+        "轻微赞同": [
+          "taleb",
+          "hume",
+          "avicenna"
+        ],
+        "中立": [
+          "buddha"
+        ],
+        "轻微反对": [
+          "zhuxi"
+        ],
+        "疑惑": [
+          "aristotle"
+        ]
+      }
+    },
+    {
+      "id": "p12",
+      "round": 2,
+      "thinker": "hume",
+      "reply_to": "p01",
+      "text": "@亚里士多德 您说技艺知道『为什么』，所以可教、可推广。可您的『为什么』拆开来看，不过是更细一层的『是这样』：体液失衡致病，当年也是一个漂亮的为什么，放血正是从它推出来的。**原理并不比经验更接近确定，只是更会举一反三——也更会举一反三地错。**",
+      "text_en": "@Aristotle You say art knows *why*, and so it can be taught and extended. But take your 'why' apart and it is just a finer-grained 'that': the humours falling out of balance was once a handsome 'why' too, and bloodletting was deduced from it. **Theory is no closer to certainty than experience; it is only better at generalising, and better at generalising wrongly.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "体液": "humours（体液）：古希腊医学认为人体由血液、黏液、黄胆汁、黑胆汁四种体液构成，失衡则致病；放血即用来『排出多余体液』。"
+      },
+      "glossary_en": {
+        "humours": "In ancient Greek medicine, the four bodily fluids (blood, phlegm, yellow bile and black bile) whose imbalance was thought to cause disease; bloodletting was meant to drain an excess."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "taleb"
+        ],
+        "轻微赞同": [
+          "benedetti",
+          "popper"
+        ],
+        "中立": [
+          "buddha"
+        ],
+        "轻微反对": [
+          "avicenna"
+        ],
+        "强烈反对": [
+          "aristotle"
+        ]
+      }
+    },
+    {
+      "id": "p13",
+      "round": 2,
+      "thinker": "aristotle",
+      "reply_to": "p12",
+      "text": "@休谟 举一反三会错，可不举一反三就寸步难行。英国海军靠柠檬汁防住了坏血病，后来改用便宜的西印度青柠汁，以为『柑橘都一样』——可青柠里起作用的那种成分少得多，极地探险队又闹起了坏血病。**只知道柠檬有效的人，守不住柠檬为什么有效的那一部分。**知道原因，才知道哪些可以换、哪些不能动。",
+      "text_en": "@Hume Generalising can go wrong, but without it you cannot take a step. The Royal Navy kept scurvy at bay with lemon juice, then switched to cheaper West Indian limes, assuming 'citrus is citrus'. But limes hold far less of the substance that does the work, and scurvy returned on polar expeditions. **Someone who knows only that lemons work cannot hold on to the part that makes them work.** Knowing the cause is how you know what can be swapped and what must not be touched.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "坏血病": "scurvy（坏血病）：长期缺乏维生素C引起的疾病，症状有牙龈出血、伤口难愈，曾是远洋航行的头号杀手。"
+      },
+      "glossary_en": {
+        "scurvy": "A disease caused by prolonged lack of vitamin C, with bleeding gums and wounds that won't heal; once the leading killer on long sea voyages."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "zhuxi"
+        ],
+        "轻微赞同": [
+          "avicenna",
+          "benedetti",
+          "popper"
+        ],
+        "中立": [
+          "buddha"
+        ],
+        "轻微反对": [
+          "taleb"
+        ],
+        "疑惑": [
+          "hume"
+        ]
+      }
+    },
+    {
+      "id": "p14",
+      "round": 2,
+      "thinker": "buddha",
+      "reply_to": "p03",
+      "text": "@朱熹 有人中了毒箭，却不许医生拔，非要先知道射箭的是谁、什么种姓、弓是什么木、箭羽是哪种鸟毛——没等问清，他已经死了。**先求尽知其理再动手，往往等不到那一天。**可我也要提醒另一头：执着于某种仪轨本身就灵验，在我这里叫『戒禁取』，同样是一道束缚。",
+      "text_en": "@Zhu Xi A man is struck by a poisoned arrow, yet will not let the physician pull it out until he knows who shot it, what caste he belongs to, what wood the bow is made of, which bird the feathers came from. He dies before the questions are answered. **Insist on understanding the principle fully before you act, and that day may never come.** But I must warn the other side too: clinging to the belief that a ritual is efficacious in itself is what I call attachment to rites and rituals, and it is just as much a fetter.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "戒禁取": "attachment to rites and rituals（戒禁取）：佛教所说的一种执着，误以为某种戒条或仪式本身就能带来解脱或灵验；是修行须断除的『结』之一。"
+      },
+      "glossary_en": {
+        "attachment to rites and rituals": "Sīlabbata-parāmāsa: the clinging belief that particular rules or ceremonies bring liberation or results by themselves; one of the fetters a practitioner must cut."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "taleb"
+        ],
+        "轻微赞同": [
+          "popper",
+          "benedetti",
+          "hume"
+        ],
+        "中立": [
+          "avicenna"
+        ],
+        "轻微反对": [
+          "zhuxi"
+        ]
+      }
+    },
+    {
+      "id": "p15",
+      "round": 2,
+      "thinker": "zhuxi",
+      "reply_to": "p14",
+      "text": "@佛陀 释氏但言拔箭，箭则拔矣；然**箭从何来，明日复中，将奈何？**医者拔箭，固不待穷理；至于防其再中，则非穷理不可。吾非谓不知其理便不可用，但谓用之之时，不可遂以为已知。塔君所言洗手之事，正是有其验而未明其理，后人穷之，得其所以然，其法乃行于天下。",
+      "text_en": "@Buddha The Buddhists speak only of pulling out the arrow; very well, the arrow is out. But **where did it come from, and what will you do when another strikes tomorrow?** A physician pulling an arrow certainly need not first fathom the principle; but to prevent the next one, there is no way around fathoming it. I do not say a thing cannot be used until its principle is known; I say that when you use it, you must not take yourself to know it already. The handwashing Mr Taleb speaks of is exactly a case of proven effect with unclear principle: later generations fathomed it, found its reason why, and only then did the practice spread across the world.",
+      "vernacular": "佛家只说拔箭，箭是拔了；可**箭从哪里来，明天又中一箭，怎么办？**医生拔箭，当然不必先把道理穷尽；但要防止再中箭，就非弄清道理不可。我不是说不懂道理就不能用，而是说用的时候，不能就此以为自己已经懂了。塔勒布先生说的洗手那件事，正是先有了效验、却没弄明白道理；后人穷究下去，找到了它的所以然，这个办法才推行到天下。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "aristotle"
+        ],
+        "轻微赞同": [
+          "avicenna",
+          "popper"
+        ],
+        "中立": [
+          "hume"
+        ],
+        "轻微反对": [
+          "buddha",
+          "taleb"
+        ]
+      }
+    },
+    {
+      "id": "p16",
+      "round": 2,
+      "thinker": "avicenna",
+      "reply_to": "p07",
+      "text": "@贝内代蒂 你的实验，我在论灵魂时有过猜想：同一块木板，平放在地上，人走得稳稳当当；架到深谷上，人就会跌下去——想象能牵动身体。**病人的期待也是一味药，但要单独记账**，别算在草药名下。这和我试药的规矩是一个意思：不先把仪式、言语与药分开，你永远不知道该把功劳记给谁。",
+      "text_en": "@Benedetti I conjectured something like your experiment when I wrote on the soul. Lay a plank flat on the ground and a man walks it steadily; stretch it over a chasm and he falls. The imagination moves the body. **The patient's expectation is a medicine too, but it needs its own account**, not to be booked under the herb. That is the same point as my rules for testing drugs: unless you separate the ritual, the words and the drug, you will never know whom to credit.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "benedetti"
+        ],
+        "轻微赞同": [
+          "popper",
+          "buddha",
+          "aristotle"
+        ],
+        "中立": [
+          "zhuxi"
+        ],
+        "疑惑": [
+          "taleb"
+        ]
+      }
+    },
+    {
+      "id": "p17",
+      "round": 3,
+      "thinker": "avicenna",
+      "reply_to": null,
+      "text": "我的结论：有效可以先于原理，但『有效』要过三道关——**纯不纯、多不多、是不是在人身上**。落到日常：试一个偏方，一次只改一样，别同时换作息又喝汤药；记下开始、停用、再用时的变化，停了就回落、用了又好，可信度才往上走。家里老人信的方子，先问两件事：吃了几年，有没有伤到哪里。原理可以等学者去找，伤害等不得。",
+      "text_en": "My conclusion: efficacy can come before the mechanism, but 'it works' must pass three gates: **is it pure, does it hold across many cases, and was it tried on people?** In daily life: when you try a home remedy, change one thing at a time, not your sleep schedule and an herbal brew at once. Note what happens when you start, stop and start again; only if things slip when you stop and improve when you resume does your confidence earn the right to rise. For a remedy the elders in your family swear by, ask two things first: how many years have they taken it, and has it harmed anything? The mechanism can wait for scholars. Harm cannot wait.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "benedetti"
+        ],
+        "轻微赞同": [
+          "popper",
+          "hume",
+          "zhuxi",
+          "buddha"
+        ],
+        "中立": [
+          "taleb"
+        ]
+      }
+    },
+    {
+      "id": "p18",
+      "round": 3,
+      "thinker": "hume",
+      "reply_to": null,
+      "text": "诸位争了半天『有没有原理』，我愿换个问法：**你对它的信心，配得上它的记录吗？**明智的人按证据的分量分配信念。一个方子十个人里九个说好，先问剩下那一个怎么了、说好的人是不是本来就会好；一套原理讲得天衣无缝，先问它被试过几次。给普通人一句话：记录短，就押小注——便宜的、可停的、坏不了大事的，不妨一试；贵的、不可逆的，等更长的记录。",
+      "text_en": "We have spent all this time arguing over whether there is a mechanism. Let me put the question another way: **does your confidence match its record?** A wise man proportions his belief to the evidence. If nine people in ten say a remedy helped, first ask what happened to the tenth, and whether the nine would have got better anyway. If a theory hangs together flawlessly, first ask how many times it has been tested. My one line for ordinary people: when the record is short, place small bets. Cheap, stoppable, can't-do-much-harm? Give it a try. Expensive or irreversible? Wait for a longer record.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "popper"
+        ],
+        "轻微赞同": [
+          "taleb",
+          "avicenna",
+          "benedetti",
+          "aristotle"
+        ],
+        "中立": [
+          "buddha"
+        ],
+        "轻微反对": [
+          "zhuxi"
+        ]
+      }
+    },
+    {
+      "id": "p19",
+      "round": 3,
+      "thinker": "benedetti",
+      "reply_to": null,
+      "text": "我同意塔勒布：说不清原理不等于假。但我更同意阿维森纳：**要分清管用的是药，还是那一整套照料**。这对普通人很实际。若效果主要来自仪式和期待，那花大价钱买药材不值，睡好觉、有人陪着看病、把担心说给医生听，同样起作用；若成分真有药性，就得当药对待——告诉医生你在吃什么，草药也会和处方药相互作用。最怕两头不分：因为『感觉管用』，停掉了已经证实有效的治疗。",
+      "text_en": "I agree with Taleb that not being able to explain something doesn't make it false. But I agree more with Avicenna: **you have to tell apart whether it's the drug that works or the whole package of care.** For ordinary people this is very practical. If the effect comes mainly from ritual and expectation, paying a fortune for herbs isn't worth it; sleeping well, having someone come with you to appointments, and telling your doctor what worries you will do much the same. If the ingredients really are active, treat them as drugs: tell your doctor what you're taking, because herbs interact with prescriptions too. The worst case is mixing the two up and dropping a proven treatment because something else 'feels like it's working'.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "avicenna"
+        ],
+        "轻微赞同": [
+          "popper",
+          "buddha",
+          "aristotle"
+        ],
+        "中立": [
+          "zhuxi"
+        ],
+        "轻微反对": [
+          "taleb"
+        ]
+      }
+    },
+    {
+      "id": "p20",
+      "round": 3,
+      "thinker": "taleb",
+      "reply_to": null,
+      "text": "我收回一半：林迪效应护住的是『害不死人』，未必是『有效』——放血能活两千年，正因为它没能及时杀光信它的人。**所以对老办法，信它的减法，慎用它的加法**：斋戒、走路、少吃加工食品、按时睡觉，这类祖传的『别做什么』很少害人；祖传的『多吃点这个』，要多一分怀疑。再加一条硬规矩：问推荐的人自己用不用、给不给家人用——没有切身利害的建议，打对折。",
+      "text_en": "I'll take back half. The Lindy effect protects what doesn't kill you, not necessarily what works; bloodletting lasted two thousand years precisely because it failed to kill off its believers fast enough. **So with old practices, trust their subtractions and be wary of their additions.** Fasting, walking, eating less processed food, keeping regular sleep: ancestral 'don'ts' like these rarely harm anyone. Ancestral 'eat more of this' deserves extra suspicion. And one hard rule: ask whether the person recommending it uses it themselves, or gives it to their own family. Advice without skin in the game gets a fifty-per-cent discount.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "林迪效应": "Lindy effect（林迪效应）：塔勒布推广的说法，指书籍、技术、习俗这类不会自然衰老的事物，已存在得越久，预期还能存在得越久。"
+      },
+      "glossary_en": {
+        "Lindy effect": "An idea popularised by Taleb: for things that don't age naturally, such as books, technologies and customs, the longer they have already lasted, the longer they can be expected to last."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "buddha"
+        ],
+        "轻微赞同": [
+          "hume",
+          "popper",
+          "avicenna"
+        ],
+        "中立": [
+          "aristotle"
+        ],
+        "疑惑": [
+          "benedetti"
+        ]
+      }
+    },
+    {
+      "id": "p21",
+      "round": 3,
+      "thinker": "popper",
+      "reply_to": null,
+      "text": "我的结论很简单：**知识不需要家谱，只需要敢挨打**。祖传的、实验室的，一视同仁，看它能不能被试错。普通人用得上三问：一，它说清楚多久见效、见什么效了吗？说不清的，先存疑。二，没效时它怎么解释？失败总有托辞的，别再交钱。三，有没有人在不知道自己用的是什么的情况下试过？保健品广告、领导的管理心得、老师傅的窍门，都可以拿这三问去问。",
+      "text_en": "My conclusion is simple: **knowledge needs no pedigree, only the nerve to take a punch.** Ancestral or laboratory-made, judge them alike, by whether they can be put to the test. Three questions an ordinary person can use. One: does it say plainly how soon it works and what it does? If not, hold off. Two: how does it explain failure? If there is always an excuse, stop paying. Three: has anyone tried it without knowing what they were getting? Put these to a supplement advert, your boss's management philosophy, or an old hand's trick of the trade.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "avicenna"
+        ],
+        "轻微赞同": [
+          "hume",
+          "benedetti",
+          "aristotle"
+        ],
+        "中立": [
+          "zhuxi",
+          "buddha"
+        ],
+        "轻微反对": [
+          "taleb"
+        ]
+      }
+    },
+    {
+      "id": "p22",
+      "round": 3,
+      "thinker": "zhuxi",
+      "reply_to": null,
+      "text": "诸君之论，吾以为可合而观：**知其然者，可用；知其所以然者，可传、可变、可守**。老医之方、老匠之手，用之勿疑，亦勿自足。今人用之，当随手札记：何时用、用几何、效如何、何时不效。积之既久，所以然或自见；即不见，亦不至以讹传讹。此即格物于日用之间，不必待书斋也。",
+      "text_en": "I think everyone's views can be put together: **knowing that a thing works, you can use it; knowing why it works, you can pass it on, adapt it, and keep it from going astray.** An old doctor's prescription, an old craftsman's hands: use them without doubt, but don't rest content. When people use such things today, they should jot notes as they go: when it was used, how much, what happened, when it failed. Over time the reason why may reveal itself; and even if it doesn't, errors won't be handed down as truth. This is the investigation of things in everyday life; it needn't wait for the study.",
+      "vernacular": "各位的说法，我看可以合起来看：**知道是这样，就可以拿来用；知道为什么这样，才能传给别人、遇事变通、守得住不走样。**老医生的方子、老工匠的手艺，用它不必疑神疑鬼，也别就此满足。今天的人用这些办法，应当随手记下：什么时候用、用了多少、效果怎样、什么时候不灵。积累久了，『为什么』也许自己就显出来了；就算显不出来，也不至于以讹传讹。这就是在日常生活里格物，不必非得坐在书斋里。",
+      "vernacular_en": "",
+      "glossary": {
+        "格物": "investigating things（格物）：《大学》八条目之首，朱熹解为就着具体事物穷究其理，日积月累以求贯通。"
+      },
+      "glossary_en": {
+        "investigation of things": "Gewu, the first of the eight steps in the Great Learning. Zhu Xi read it as probing the principle of concrete things one by one until understanding connects."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "aristotle"
+        ],
+        "轻微赞同": [
+          "avicenna",
+          "benedetti",
+          "popper",
+          "taleb"
+        ],
+        "中立": [
+          "hume"
+        ]
+      }
+    },
+    {
+      "id": "p23",
+      "round": 3,
+      "thinker": "buddha",
+      "reply_to": null,
+      "text": "箭先拔，伤后养，弓手是谁，日后慢慢查。**能减苦的，先用；但别把用着有效，执成我已全懂。**凡说『一定灵』『不灵是你心不诚』的，远离——这正是戒禁取。自己试，自己记，像迦摩罗人那样亲见了再信。还有：当你特别想相信某个方子时，看一看这份想信从哪里来：是病痛，是恐惧，还是舍不得亲人？看清了，选择会清楚得多。",
+      "text_en": "Pull out the arrow first, tend the wound after, and find out who the archer was in due course. **Use what eases suffering; but don't let 'it works for me' harden into 'I understand it all'.** Keep away from anyone who says 'it never fails' or 'it didn't work because you lacked faith'; that is attachment to rites and rituals. Try it yourself, keep your own record, and believe once you have seen, as I told the Kālāmas. And when you badly want to believe in a remedy, look at where that wanting comes from: pain, fear, or not being able to let a loved one go? See that clearly, and the choice becomes much clearer.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "戒禁取": "attachment to rites and rituals（戒禁取）：佛教所说的一种执着，误以为某种戒条或仪式本身就能带来解脱或灵验；是修行须断除的『结』之一。"
+      },
+      "glossary_en": {
+        "attachment to rites and rituals": "Sīlabbata-parāmāsa: the clinging belief that particular rules or ceremonies bring liberation or results by themselves; one of the fetters a practitioner must cut."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "taleb"
+        ],
+        "轻微赞同": [
+          "benedetti",
+          "popper",
+          "hume"
+        ],
+        "中立": [
+          "aristotle"
+        ],
+        "轻微反对": [
+          "zhuxi"
+        ]
+      }
+    },
+    {
+      "id": "p24",
+      "round": 3,
+      "thinker": "aristotle",
+      "reply_to": null,
+      "text": "诸位最后其实站到了一处：**经验是知识的地基，原因是知识的屋顶**。没有地基的屋顶是空中楼阁，比如放血，比如压早搏的药；没有屋顶的地基会被雨淋坏，比如换了青柠的海军。普通人用得上的是中道：别因为说不清原理就嗤笑老办法，也别因为它老就全盘照收。对任何一个窍门，追问一句『它在什么条件下才灵』——知道边界，就是向『为什么』迈出的第一步。",
+      "text_en": "In the end you have all come to stand in one place: **experience is the foundation of knowledge, and causes are its roof.** A roof with no foundation is a castle in the air, like bloodletting or the drugs that suppressed irregular heartbeats. A foundation with no roof gets ruined by the rain, like the navy that switched to limes. What ordinary people can use is the mean: don't sneer at an old method because no one can explain it, and don't swallow it whole because it is old. Of any trick of the trade, ask one question: under what conditions does it work? Knowing its limits is the first step towards knowing why.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "zhuxi"
+        ],
+        "轻微赞同": [
+          "avicenna",
+          "popper",
+          "benedetti",
+          "buddha"
+        ],
+        "中立": [
+          "hume",
+          "taleb"
+        ]
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "ai": "claude",
+      "engine": "Opus 5 · 订阅(原生)",
+      "engine_en": "Opus 5 · subscription (native)",
+      "summary": "全场最大的共识是：**『有效』和『解释』是两张不同的证书，前者可以先于后者，但都得单独验收**。没有人说讲不清原理就是迷信——阿维森纳的试药规矩、波普尔的可证伪、休谟的按证据定信念，都不要求先有机制；也没有人说老就是对——放血疗法活了两千年，CAST 试验里环环相扣的机制反倒害死了病人。分歧在先后与轻重：塔勒布和佛陀主张先用起来，朱熹和亚里士多德强调不懂原因就守不住、传不开；贝内代蒂则把问题拆得更细：管用的究竟是药，还是那一整套照料。",
+      "summary_en": "The broadest agreement was that **'it works' and 'here's why' are two separate certificates; the first can come before the second, but each has to be checked on its own.** No one argued that a missing mechanism makes something superstition: Avicenna's drug-testing rules, Popper's falsifiability and Hume's belief proportioned to evidence all do without a mechanism up front. Nor did anyone argue that old means right: bloodletting lasted two thousand years, and in the CAST trial a mechanism in which every link held ended up killing patients. The disagreement was over order and weight. Taleb and the Buddha would use first; Zhu Xi and Aristotle stress that without the cause you can neither preserve a practice nor pass it on; Benedetti cut the question finer still: is it the drug that works, or the whole package of care?",
+      "insight": "全身麻醉为什么让人失去意识，至今没有完整答案；锂盐治双相情感障碍，也是先发现有效、后追机制——现代医学自己就有不少『知其然不知其所以然』。可辩论默认普通人能去查原理、做对照，现实里**我们既看不懂机制，也做不了试验，真正在做的选择是『信谁』**。所以『有没有原理』对普通人不是好用的分界。更好用的是看说话的人：他会不会主动告诉你什么情况下不灵，有没有公开失败的病例，建议错了他自己付不付代价。",
+      "insight_en": "There is still no complete account of why general anaesthesia switches off consciousness, and lithium was found to work for bipolar disorder long before anyone could say how: modern medicine has plenty of 'knowing that without knowing why' of its own. Yet the debate assumed ordinary people can look up the mechanism and run their own comparisons. In reality **we can neither follow the mechanism nor run the trial; the choice we are actually making is whom to trust.** So 'is there a mechanism?' is not a useful dividing line for most people. A better one is the person making the claim: do they tell you, unprompted, when it doesn't work? Do they publish their failures? Do they pay a price if their advice is wrong?",
+      "advice": "三件本周就能做的事。把家里正在用的偏方、保健品列一张单，下次看病带给医生，重点问相互作用——草药一旦真有药性，风险多半就藏在这里。想试一个新方子，先记一周基线，一次只改一样，用两周、停一周，看症状会不会跟着回落。听到任何『特别灵』的说法，先问一句：没效的时候它怎么解释？**只要失败永远怪你自己，就别再往里投钱。**另外记住，已经证实有效的治疗，不要为了腾地方试新方子而停掉。",
+      "advice_en": "Three things you can do this week. List the home remedies and supplements your household is taking and bring the list to your next doctor's appointment, asking specifically about interactions; if an herb really is active, that is where the risk usually hides. If you want to try a new remedy, log a week's baseline first, change one thing at a time, use it for two weeks, then stop for a week and see whether symptoms slip back. Whenever you hear that something 'works wonders', ask first: how does it explain the times it doesn't work? **If failure is always your own fault, stop putting money in.** And remember: don't stop a proven treatment to make room for a new remedy."
+    },
+    {
+      "ai": "gpt",
+      "engine": "openai · gpt-5.6-sol · high(真实API)",
+      "engine_en": "openai · gpt-5.6-sol · high (live API)",
+      "summary": "大家真正共享的起点是：机制不是采用一项做法的必要条件，漂亮机制也不是有效性的充分证据；经验必须能经受重复、对照与失败。**说不清原理的“有效”，可以算作有条件、可修正的实践知识，却不等于已经解释清楚的因果知识。**分歧主要在“知识”应设几级门槛：有人重视可证伪和干净记录，有人重视长期存续与实作本领，也有人强调原因对教学、迁移和守住关键条件的价值。真正要防的是两种越界：把暂时有效升级成普遍真理，或把机制叙事误当成疗效证据。",
+      "insight": "“有效”不是某个方子自带的属性，而是一条关系：对谁、相对什么、改善哪个结果、持续多久、在什么场景。**只有把这五项写全，“有效”才开始成为可检验、可迁移的知识。**于是，“整套问诊能减轻主观疼痛”与“其中那味草药没有特异药效”可以同时为真；“平均有效”也不保证某个个体能净受益。普通人最容易受骗之处，正是宣传者悄悄换掉结果或比较对象：把短期感觉好换成治愈，把“优于不用”换成“优于标准治疗”。先把句子补完整，许多玄学争论就会变成可查证的问题。",
+      "advice": "今天就为正在考虑的办法做一张“试用卡”：①写明指标和期限，如“七天内入睡时间从45分钟降到25分钟”，别只写“感觉更好”；②先分风险，若可能与药物相互作用、不可逆、昂贵，或会耽误已证实的治疗，暂停自试并咨询专业人士；③低风险项目可做简化的个人试验，一次只改一项，记录使用前、使用期和停用后的变化及副作用。**预先写下什么结果算有效、出现什么情况就停止，比事后找解释更能保护你。**症状严重、持续或恶化时，不要把任何自试当作就医的替代品。",
+      "summary_en": "A strong practical consensus emerges: a mechanism need not be known before a method can reasonably be used, while a persuasive mechanism is never sufficient evidence that it works. Experience still has to survive repetition, comparison, and genuine opportunities to fail. **An unexplained effect may count as conditional, revisable practical knowledge, but it is not yet a complete causal explanation.** The real disagreement concerns how many levels the word “knowledge” should contain. Some standards emphasize falsifiability and clean observations; others give more weight to durable practice and embodied skill; still others value causal understanding because it supports teaching, adaptation, and preservation of the intervention’s essential features. The two major errors run in opposite directions: promoting a provisional success into a universal truth, and treating an elegant explanatory story as if it were evidence of benefit. Mechanism and experience are therefore complementary checks, not rival sources from which one must be chosen.",
+      "insight_en": "“Effective” is not a property that a remedy simply possesses. It is a relationship: effective for whom, compared with what, on which outcome, over what period, and in what setting? **Only when those five elements are specified does an effectiveness claim become meaningfully testable and transferable.** This resolves several apparent contradictions. A full clinical encounter may genuinely reduce reported pain even if the herb dispensed during it has no specific pharmacological effect. Likewise, an intervention that helps on average may offer no net benefit to a particular person. The easiest way to mislead people is to change an unstated element of the claim: short-term relief becomes “a cure,” improvement over doing nothing becomes superiority to standard care, or a result in selected patients becomes a promise to everyone. Completing the sentence turns many vague disputes into answerable questions and also shows exactly which part of a successful practice may safely be copied, altered, or discarded.",
+      "advice_en": "Make a one-page “trial card” for any remedy or technique you are considering. First, define one observable outcome and a deadline—for example, “reduce the time it takes me to fall asleep from 45 to 25 minutes within seven days,” rather than “feel better.” Second, classify the risk. Do not self-test something costly, irreversible, likely to interact with medication, or capable of delaying proven care; discuss it with a qualified clinician instead. Third, for a low-risk option, run a simple personal trial: change only one thing, record a baseline, track the treatment period, and—when safe—note what happens after stopping. Include side effects, not just hoped-for benefits. **Writing down in advance what will count as success and what will make you stop is more protective than inventing explanations afterward.** If symptoms are severe, persistent, or worsening, treat self-experimentation as supplementary information, never as a substitute for diagnosis or established treatment."
+    },
+    {
+      "ai": "gemini",
+      "engine": "google · gemini-3.8-flash(真实API)",
+      "engine_en": "google · gemini-3.8-flash (live API)",
+      "summary": "面对真实世界的痛感，所有人几乎一致认可：**经验上的有效在行动中必须享有优先权**。无论是止痛的柳树皮还是洗手的产科医生，不必等待机制彻底探明，能救人、能起效就是硬道理。真正的分歧在于这层『有效』究竟是暂时的过渡，还是知识的终点。朱熹与亚里士多德坚持没有原理的有效只属于局部经验，一旦环境迁移便会失效；而塔勒布与波普尔则打破了对理论解释的崇拜，认为大部分机制不过是事后附会的漂亮叙事，只要能承受住严苛的试错与淘汰，黑箱里的有效性本身就足以立身。",
+      "insight": "在现代计算与复杂系统领域，我们早就全盘接受了『黑箱有效性』：深层神经网络或 AlphaFold 预测蛋白质结构极为精准，但人类根本无法穷尽其数十亿参数背后的微观因果。**在超高维度的复杂现实里，‘说得清原理’往往只是人类大脑对因果关系的低维简化幻觉**。许多传统手艺、民间疗法乃至尖端模型，本质上都是高维统计关联的自然结晶。与其执着于还原论式的机制拆解，不如关注它在不同环境下的『分布外泛化能力』与崩溃边界——承认黑箱的有效，并用压力测试守住底线，才是与复杂世界共处的理性态度。",
+      "advice": "本周面对任何说不清原理却号称管用的偏方、效率秘籍或投资诀窍，不妨采取两步落地法：其一，**做一次低成本的单变量 N=1 实验**。严格参考阿维森纳与休谟的建议，一次只改变一种习惯或只吃一种补充剂，连续记录使用、停用、再启用的身体或工作反馈，不引入并发变量。其二，实施塔勒布式的减法风控。凡是需要高金钱投入、且带有不可逆伤害风险的『加法』偏方一律叫停；优先采纳『少熬夜、少吃精制糖』等不花钱的祖传『减法』，在试错前必须先设好被推翻的止损条件。",
+      "summary_en": "Across all viewpoints, an undeniable consensus emerges: **empirical efficacy must take operational precedence in the face of immediate suffering or practical need.** Whether it is willow bark easing pain or antiseptics preventing puerperal fever, relief should never wait for mechanistic validation. The true divergence lies in whether such efficacy is a mere provisional milestone or knowledge in its own right. Thinkers like Aristotle and Zhu Xi maintain that efficacy without causal rationale is brittle and fails under new conditions. In contrast, figures like Taleb and Popper demote theoretical models to fragile post-hoc narratives, arguing that any empirical trial surviving relentless falsification already qualifies as robust knowledge.",
+      "insight_en": "Modern machine learning and complex systems demonstrate every day that we already live inside unexplainable efficacy: deep neural networks and tools like AlphaFold predict protein folding with breathtaking precision, yet no human can trace the causal chain across their billions of parameters. **In high-dimensional reality, demanding an articulate 'mechanism' is often an artifact of human low-dimensional cognitive bias.** Traditional heuristics and black-box algorithms are both natural consolidations of high-dimensional statistical regularities. Rather than enforcing reductionist rationales, we should focus on out-of-distribution generalization and stress-testing the boundaries of failure.",
+      "advice_en": "When confronting unverified yet seemingly effective hacks, remedies, or productivity tactics this week, apply two concrete practices: First, **conduct a low-cost, single-variable N=1 experiment.** Adopting Avicenna's logic, change only one habit or supplement at a time, meticulously logging your baseline, intervention, washout, and reintroduction phases. Second, enforce Taleb's subtractive risk filter: reject any costly, irreversible 'additions' to your regimen, while gladly adopting ancestral 'subtractions' (like cutting processed sugar or irregular sleep), and always define a strict falsification threshold before investing time or trust."
+    }
+  ],
+  "hooks": [
+    {
+      "from": "claude",
+      "text": "**信谁，而不是信什么**：普通人既看不懂机制，也做不了试验。一个来源值不值得信，有哪些看得见的信号？",
+      "text_en": "**Whom to trust, not what to believe**: most of us can neither follow the mechanism nor run the trial. What visible signs tell you a source deserves trust?"
+    },
+    {
+      "from": "gpt",
+      "text": "**『有效』是一条关系**：对谁、相对什么、改善哪个结果、持续多久、在什么场景？五项写全，宣传偷换的是哪一项？",
+      "text_en": "**'Effective' is a relationship**: for whom, compared with what, on which outcome, for how long, in what setting? Spell out all five, and which one is the advert quietly swapping?"
+    },
+    {
+      "from": "avicenna",
+      "text": "**在家怎么试一个偏方**：一个人、没有对照组，能不能做一次粗糙但诚实的检验？",
+      "text_en": "**How to test a home remedy yourself**: one person, no control group. Can you still run a rough but honest test?"
+    },
+    {
+      "from": "benedetti",
+      "text": "**说明书会不会让人生病**：副作用清单读得越细，越容易出现那些副作用吗？知情同意与反安慰剂怎样兼顾？",
+      "text_en": "**Can the leaflet make you ill?** The more closely you read the list of side effects, the more likely you are to get them? How do informed consent and the nocebo effect fit together?"
+    },
+    {
+      "from": "claude",
+      "text": "**老师傅的手艺怎么传**：工厂、厨房里说不出的窍门，写进手册就丢一半，做不了对照试验；师徒制还靠得住吗？",
+      "text_en": "**How a master's craft gets passed on**: the unspoken tricks of the workshop or the kitchen lose half their content in a manual and can't be put through controlled trials. Can apprenticeship still be relied on?"
+    },
+    {
+      "from": "claude",
+      "text": "**自愈的病最养偏方**：感冒、腰痛、失眠多会自己好转，偏方的『管用』是否扎堆在这些病上？",
+      "text_en": "**Self-limiting illnesses breed folk remedies**: colds, back pain and insomnia often get better on their own. Do claims that a remedy 'works' cluster around exactly these conditions?"
+    },
+    {
+      "from": "popper",
+      "text": "**管理心得也能证伪吗**：老板、教练、育儿专家的『我这套管用』，怎样追问才能分清经验和事后解释？",
+      "text_en": "**Can management wisdom be falsified?** When a boss, a coach or a parenting expert says 'my method works', what questions separate real experience from after-the-fact storytelling?"
+    }
+  ]
+}

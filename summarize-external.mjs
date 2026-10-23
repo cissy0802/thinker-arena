@@ -93,9 +93,12 @@ async function callOpenAI() {
 async function callGemini() {
   const key = process.env.GEMINI_API_KEY;
   if (!key) { console.log("· 跳过 Gemini：未配 GEMINI_API_KEY"); return null; }
-  // 默认用 Gemini 3.8 Flash。
-  // 想换档改 GEMINI_MODEL=（Pro 系列的 API id 带 -preview 后缀）。
-  const model = process.env.GEMINI_MODEL || "gemini-3.8-flash";
+  // 默认用 Google 当前旗舰推理模型 Gemini 4 Argon + high thinking(thinkingLevel 支持 low/medium/high，默认 medium)。
+  // 想换档改 GEMINI_MODEL= 或 GEMINI_THINKING_LEVEL=；改用不支持 thinkingLevel 的模型时把它留空。
+  const model = process.env.GEMINI_MODEL || "gemini-4-argon";
+  const level = process.env.GEMINI_THINKING_LEVEL === undefined ? "high" : process.env.GEMINI_THINKING_LEVEL;
+  const generationConfig = { responseMimeType: "application/json", maxOutputTokens: 65536 };
+  if (level) generationConfig.thinkingConfig = { thinkingLevel: level };
   const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${key}`;
   const r = await fetch(url, {
     method: "POST",
@@ -103,13 +106,14 @@ async function callGemini() {
     body: JSON.stringify({
       contents: [{ parts: [{ text: basePrompt("Gemini，Google 的多模态 AI", "广博综合、补全事实与跨域视角") }] }],
       // thinking 会占输出配额，默认上限易把 JSON 截断——显式调大
-      generationConfig: { responseMimeType: "application/json", maxOutputTokens: 65536 },
+      generationConfig,
     }),
   });
   if (!r.ok) throw new Error("Gemini HTTP " + r.status + " " + (await r.text()).slice(0, 200));
   const data = await r.json();
-  const obj = extractJSON(data.candidates[0].content.parts[0].text);
-  return { ...obj, engine: `google · ${model}(真实API)`, engine_en: `google · ${model} (live API)` };
+  const obj = extractJSON(data.candidates[0].content.parts.filter((p) => p.text && !p.thought).map((p) => p.text).join(""));
+  const tail = `google · ${model}${level ? " · " + level : ""}`;
+  return { ...obj, engine: `${tail}(真实API)`, engine_en: `${tail} (live API)` };
 }
 
 function replaceSummary(ai, payload) {

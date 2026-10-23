@@ -1,0 +1,855 @@
+{
+  "id": "opting-out-of-the-race",
+  "question": "内卷，一个人退得出来吗？",
+  "question_en": "Can one person step out of the rat race?",
+  "sub": "人人多卷一点，名次不变、大家更累；可单方面停下，往往只是让自己垫底。",
+  "sub_en": "When everyone pushes harder, the rankings stay put and everyone is more tired; yet stopping alone usually just puts you last.",
+  "date": "2026-10-23",
+  "participants": [
+    "vonneumann",
+    "festinger",
+    "schultz",
+    "thoreau",
+    "kropotkin",
+    "laozi",
+    "nagarjuna"
+  ],
+  "casting": [
+    {
+      "id": "vonneumann",
+      "reason": "他把内卷写成囚徒困境：名次固定时，单方面停下就是垫底；所以先分清奖品是否真按名次分，再瞄准门槛而非第一。",
+      "reason_en": "He models the rat race as a prisoner's dilemma: when places are fixed, stopping alone means coming last. So first check whether the prize really goes by rank, then aim at the threshold rather than first place."
+    },
+    {
+      "id": "festinger",
+      "reason": "他把内卷的发动机放进社会比较：人总拿略强于自己的同辈当尺，退出靠换参照对象，不靠意志力。",
+      "reason_en": "He locates the engine of the race in social comparison: we measure ourselves against peers slightly ahead of us, so stepping out depends on changing whom we compare with, not on willpower."
+    },
+    {
+      "id": "schultz",
+      "reason": "他从多巴胺编码的预测误差出发：赢了预期就上调，所以卷不到头；停下后的空慌是基线在重设，撤掉线索比下决心管用。",
+      "reason_en": "He starts from the prediction error that dopamine encodes: each win raises expectations, so the race never feels finished. The emptiness after stopping is the baseline resetting, and removing cues works better than resolutions."
+    },
+    {
+      "id": "thoreau",
+      "reason": "他拿瓦尔登湖的账本说话：东西的代价是交出去的生命，多数人卷是为了买卷本身制造的需要，先算账，再定退多少。",
+      "reason_en": "He argues from his Walden ledger: the cost of a thing is the life you trade for it, and most people race to buy needs the race itself creates. Do the accounts first, then decide how far to step back."
+    },
+    {
+      "id": "kropotkin",
+      "reason": "他同意一个人退不出，但认为一群人可以：互助与集体约定，才是八小时工作制那样改掉规则的路。",
+      "reason_en": "He agrees one person cannot step out alone, but holds that a group can: mutual aid and collective pacts are how rules like the eight-hour day get changed."
+    },
+    {
+      "id": "laozi",
+      "reason": "他认为争夺起于上位者推崇什么：要止争，先得定规则的人『不尚贤』；规则不改，下面的人只能知足、知止。",
+      "reason_en": "He traces contention to what those above hold up as precious: ending it starts with rule-makers who 'exalt not the worthy'. Until they do, those below can only know what is enough and where to stop."
+    },
+    {
+      "id": "nagarjuna",
+      "reason": "他质疑『退出』本身的预设：名次只是缘起的假名，卷与躺都把它当真；出路在中道，照常做事，不把分数认作自己。",
+      "reason_en": "He questions the premise of 'stepping out' itself: rank is a dependent designation, and both racing and lying flat take it as real. The way out is the middle way: do the work as usual without taking the score to be yourself."
+    }
+  ],
+  "posts": [
+    {
+      "id": "p01",
+      "round": 1,
+      "thinker": "vonneumann",
+      "reply_to": null,
+      "text": "把内卷写成博弈就清楚了：名额固定，奖品按名次分，你多投入一小时，别人就被挤后一名。于是**每个人的最优策略都是多卷一点，均衡点却是人人更累、名次不变**——典型的囚徒困境。单方面停下，在这个均衡里就是垫底。所以先别问能不能退，先问：你卷的这件事，奖品真按名次分吗？很多场其实不是。",
+      "text_en": "Write the rat race down as a game and it becomes clear. The places are fixed and the prizes go by rank, so every extra hour you put in pushes someone else down a place. **Everyone's best move is to push a little harder, yet the equilibrium leaves everyone more tired with the rankings unchanged**: a textbook prisoner's dilemma. Inside that equilibrium, stopping on your own simply means coming last. So before asking whether you can step out, ask this: is the prize in your race really handed out by rank? Often it is not.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "囚徒困境": "prisoner's dilemma（囚徒困境）：博弈论经典模型：每人各选对自己最有利的策略，结果却让所有人都比合作时更差。",
+        "均衡点": "equilibrium（均衡点）：即纳什均衡，指在别人策略不变时，谁单独改变策略都得不到好处的局面。"
+      },
+      "glossary_en": {
+        "prisoner's dilemma": "A classic model in game theory: each player picks the move that is best for themselves, and the result leaves everyone worse off than if they had cooperated.",
+        "equilibrium": "A Nash equilibrium: a situation in which no one can gain by changing strategy alone while everyone else's stays the same."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "festinger"
+        ],
+        "轻微赞同": [
+          "kropotkin",
+          "schultz"
+        ],
+        "轻微反对": [
+          "thoreau"
+        ],
+        "疑惑": [
+          "laozi",
+          "nagarjuna"
+        ]
+      }
+    },
+    {
+      "id": "p02",
+      "round": 1,
+      "thinker": "festinger",
+      "reply_to": null,
+      "text": "我的研究说：人天生要评估自己，没有客观尺子时，就拿身边的人当尺。而且**我们比的几乎总是和自己差不多、略好一点的人**，也就是向上比较——不是首富，是同届同学、隔壁工位。所以内卷的发动机一半装在脑子里：名次是外面排的，痛是比出来的。你没法不比，但比谁是可以换的。退出不靠意志力，靠换一把尺。",
+      "text_en": "My research says people have a built-in drive to evaluate themselves, and when there is no objective yardstick they use the people around them. And **we almost always compare ourselves with people much like us, only slightly ahead**: upward comparison. Not the richest man in the country, but old classmates, the person at the next desk. So half the engine of the race sits inside our heads: the rankings are drawn up out there, but the pain comes from comparing. You cannot stop comparing, but you can change whom you compare with. Stepping out takes not willpower but a different yardstick.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "向上比较": "upward comparison（向上比较）：拿比自己稍强的人作参照；常能激发动力，也常带来不满与自我贬低。"
+      },
+      "glossary_en": {
+        "upward comparison": "Measuring yourself against people slightly better off than you; it often spurs effort and just as often breeds dissatisfaction and self-criticism."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "schultz"
+        ],
+        "轻微赞同": [
+          "vonneumann",
+          "nagarjuna"
+        ],
+        "中立": [
+          "thoreau"
+        ],
+        "轻微反对": [
+          "kropotkin"
+        ],
+        "疑惑": [
+          "laozi"
+        ]
+      }
+    },
+    {
+      "id": "p03",
+      "round": 1,
+      "thinker": "schultz",
+      "reply_to": null,
+      "text": "我记录多巴胺神经元三十多年。它们报告的不是奖赏，而是预测误差：实际减预期。**赢一次，预期就上调一次，下回同样的名次已经不算奖赏了**——所以卷到前面也不满足。反过来，停下的头几周，你会尝到持续的负误差：空、慌，像做错了什么。那是大脑在重设基线，不是你选错的证据。",
+      "text_en": "I have recorded dopamine neurons for more than thirty years. What they report is not reward but prediction error: what you got minus what you expected. **Win once and your expectation moves up; next time the same rank no longer registers as a reward**, which is why getting ahead never feels like enough. The reverse holds too. For the first few weeks after you stop, you will feel a steady negative error: empty, anxious, as if you had done something wrong. That is your brain resetting its baseline, not evidence that you chose wrong.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "预测误差": "reward prediction error（奖赏预测误差）：实际得到的奖赏与预期之差；多巴胺神经元编码的正是这个差值，而非奖赏本身。"
+      },
+      "glossary_en": {
+        "prediction error": "Reward prediction error: the gap between the reward received and the reward expected. Dopamine neurons encode this difference rather than the reward itself."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "festinger"
+        ],
+        "轻微赞同": [
+          "nagarjuna",
+          "vonneumann"
+        ],
+        "中立": [
+          "kropotkin"
+        ],
+        "疑惑": [
+          "laozi",
+          "thoreau"
+        ]
+      }
+    },
+    {
+      "id": "p04",
+      "round": 1,
+      "thinker": "thoreau",
+      "reply_to": null,
+      "text": "我在瓦尔登湖盖屋，总共花了二十八美元十二分半，一年干六周左右的活就够过日子。我的算法是：**一样东西的代价，是你为它交出去的那部分生命**。多数人卷，是为了买那些卷本身让人觉得必需的东西——更大的房、更体面的衣服、对别人的交代。不必全退，先把账算出来：你会发现必需的远比害怕的少。",
+      "text_en": "I built my house at Walden for twenty-eight dollars and twelve and a half cents, and about six weeks of work a year covered my living. My reckoning went like this: **the cost of a thing is the amount of life you exchange for it**. Most people race to buy things the race itself has made seem necessary: a bigger house, more respectable clothes, something to show others. You need not step out entirely. Do the accounts first, and you will find you need far less than you fear.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "laozi"
+        ],
+        "轻微赞同": [
+          "nagarjuna",
+          "festinger"
+        ],
+        "中立": [
+          "schultz"
+        ],
+        "轻微反对": [
+          "vonneumann",
+          "kropotkin"
+        ]
+      }
+    },
+    {
+      "id": "p05",
+      "round": 1,
+      "thinker": "kropotkin",
+      "reply_to": null,
+      "text": "一个人退不出来，这我同意——但谁说只能一个人？我在西伯利亚看到的，是严酷环境里**讲互助的群体，比互相厮杀的活得更久**。八小时工作制，不是哪个工人觉悟高、早下班换来的，是大家约好一起停工。内卷的解药是同一个：几个人明说一条底线，一起守，谁破了大家都知道。",
+      "text_en": "One person cannot step out alone; I agree. But who says it must be one person? What I saw in Siberia was that in harsh conditions **groups that practised mutual aid outlasted those that tore at each other**. The eight-hour day was not won by some enlightened worker going home early; it was won by people agreeing to stop together. The cure for the rat race is the same: a few people state one limit out loud, hold it together, and everyone knows if someone breaks it.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "互助": "mutual aid（互助）：克鲁泡特金《互助论》的核心概念：同一物种内部的合作是演化的重要因素，与『只靠竞争』的社会达尔文主义相对。",
+        "八小时工作制": "eight-hour day（八小时工作制）：19 世纪起工人运动争取的工时上限，靠集体罢工与立法逐步实现。"
+      },
+      "glossary_en": {
+        "mutual aid": "The central idea of Kropotkin's book Mutual Aid: cooperation within a species is a major factor in evolution, against the Social Darwinist view that competition alone drives it.",
+        "eight-hour day": "The cap on working hours that labour movements fought for from the 19th century on, won step by step through collective strikes and legislation."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "laozi"
+        ],
+        "轻微赞同": [
+          "vonneumann"
+        ],
+        "中立": [
+          "festinger",
+          "schultz"
+        ],
+        "轻微反对": [
+          "nagarjuna"
+        ],
+        "疑惑": [
+          "thoreau"
+        ]
+      }
+    },
+    {
+      "id": "p06",
+      "round": 1,
+      "thinker": "laozi",
+      "reply_to": null,
+      "text": "不尚贤，使民不争；不贵难得之货，使民不为盗。**争之所起，起于上之所尚**。上悬一名次，下则万人趋之，趋者愈众，所得愈薄。民之退，不在一身之勇，在上者去其所尚。若上不去，则为下者知足而已：夫唯不争，故天下莫能与之争。",
+      "text_en": "Exalt not the worthy, and the people will not contend; prize not goods that are hard to come by, and the people will not steal. **Contention arises from what those above hold up as precious.** Hang one ranking from above, and ten thousand below rush toward it; the more who rush, the thinner each one's share. Whether the people can step back depends not on one person's courage but on those above setting aside what they exalt. If they will not, all those below can do is know what is enough: precisely because one does not contend, no one under heaven can contend with one.",
+      "vernacular": "不推崇所谓贤能的排名，百姓就不会去争；不把稀罕东西看得贵重，百姓就不会去偷。**争斗从哪里起？从上面推崇什么开始**。上面挂出一个名次，底下万人往上挤，挤的人越多，每人分到的越少。百姓能不能退出，不在一个人的勇气，而在定规则的人拿掉他所推崇的东西。如果上面不改，底下的人能做的只有知足：正因为不去争，天下也就没人能和你争。",
+      "vernacular_en": "",
+      "glossary": {
+        "不尚贤": "not exalting the worthy（不尚贤）：《道德经》第三章语，主张治理者不标榜、不排名『贤能』，以免激起争夺。"
+      },
+      "glossary_en": {
+        "Exalt not the worthy": "From chapter 3 of the Daodejing: those who govern should not hold up and rank 'the worthy', lest they stir up contention."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "thoreau"
+        ],
+        "轻微赞同": [
+          "kropotkin",
+          "nagarjuna"
+        ],
+        "中立": [
+          "vonneumann"
+        ],
+        "轻微反对": [
+          "festinger"
+        ],
+        "疑惑": [
+          "schultz"
+        ]
+      }
+    },
+    {
+      "id": "p07",
+      "round": 1,
+      "thinker": "nagarjuna",
+      "reply_to": null,
+      "text": "『退出』这个词已经预设了两样东西：一场有自性的比赛，和一个站在比赛外的我。可**名次只是缘起的假名**——没有考试制度、没有别人，它一刻也立不住。把它当真的人在卷；把它当仇人的人在躺，而靠反对内卷来定义自己的躺平，仍被它拴着。不是退出，是看穿：该交的卷照交，只是不再把分数当成我。",
+      "text_en": "The phrase 'step out' already assumes two things: a race with inherent existence, and a self standing outside it. But **a ranking is only a dependent designation**: without an exam system and other people, it cannot stand for a moment. Those who take it as real keep racing; those who take it as an enemy lie flat, and a lying flat that defines itself by opposing the race is still tied to it. The task is not to step out but to see through: hand in the papers you must, only stop taking the score to be you.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "自性": "svabhāva（自性）：中观所破的『自身独立、不依他而有的本质』；龙树认为一切法都没有自性。",
+        "假名": "prajñapti（假名）：依因缘假立的名称，有用，但没有独立的实体。"
+      },
+      "glossary_en": {
+        "inherent existence": "Svabhāva: an essence that exists on its own, independent of anything else. Madhyamaka sets out to refute it, and Nagarjuna holds that nothing has it.",
+        "dependent designation": "Prajñapti: a name set up on the basis of causes and conditions; useful, but with no independent entity behind it."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "laozi",
+          "schultz"
+        ],
+        "中立": [
+          "festinger",
+          "thoreau"
+        ],
+        "轻微反对": [
+          "vonneumann"
+        ],
+        "强烈反对": [
+          "kropotkin"
+        ]
+      }
+    },
+    {
+      "id": "p08",
+      "round": 2,
+      "thinker": "vonneumann",
+      "reply_to": "p04",
+      "text": "@梭罗 你的账算得漂亮，但它只对绝对品成立：小木屋暖不暖，跟邻居住什么无关。可学区房、名校名额、晋升位是位置品，**它们的价值就在于比别人靠前**。在这类局里退出，代价不会比你怕的少，只会算得更准。另外提醒一句：瓦尔登湖那块地是爱默生的。退出常常需要一个不用卷的人替你兜底。",
+      "text_en": "@thoreau Your accounts are elegant, but they hold only for absolute goods: whether a cabin keeps you warm has nothing to do with what your neighbour lives in. A flat in a good school district, a place at a top university, a promotion slot: these are positional goods, and **their value lies precisely in being ahead of others**. In those games, the cost of stepping out is not smaller than you fear, only more exactly known. One more note: the land at Walden belonged to Emerson. Stepping out often needs someone who does not have to race to cover for you.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "位置品": "positional good（位置品）：价值取决于相对排名、而非绝对数量的物品，如名校学位、稀缺学区。"
+      },
+      "glossary_en": {
+        "positional goods": "Goods whose value depends on relative rank rather than absolute quantity, such as a degree from a top university or a place in a scarce school district."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "festinger"
+        ],
+        "轻微赞同": [
+          "kropotkin",
+          "schultz"
+        ],
+        "中立": [
+          "nagarjuna"
+        ],
+        "轻微反对": [
+          "thoreau",
+          "laozi"
+        ]
+      }
+    },
+    {
+      "id": "p09",
+      "round": 2,
+      "thinker": "thoreau",
+      "reply_to": "p08",
+      "text": "@冯·诺依曼 地是爱默生的，我认；我也常进城吃饭，从没装作隐士。可你把收益矩阵当成天给的，**矩阵里一半的格子，是人自己的欲望填进去的**。学区房是位置品不假，可非要那一套的人，几成是为孩子，几成是怕在亲戚面前丢脸？先把自愿多填的格子划掉，剩下的才是真得卷的局。",
+      "text_en": "@vonneumann The land was Emerson's, I grant you, and I often walked into town for dinner; I never pretended to be a hermit. But you treat the payoff matrix as handed down from heaven, when **half its cells are filled in by people's own wants**. A school-district flat is a positional good, true. But among those who insist on that particular flat, how many do it for the child, and how many to avoid losing face before their relatives? Strike out the cells you filled in voluntarily, and what remains is the race you truly must run.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "收益矩阵": "payoff matrix（收益矩阵）：博弈论中列出每种策略组合下各方得失的表格。"
+      },
+      "glossary_en": {
+        "payoff matrix": "In game theory, the table that lists what each player gains or loses under every combination of strategies."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "laozi"
+        ],
+        "轻微赞同": [
+          "nagarjuna",
+          "festinger"
+        ],
+        "中立": [
+          "kropotkin"
+        ],
+        "轻微反对": [
+          "vonneumann"
+        ],
+        "疑惑": [
+          "schultz"
+        ]
+      }
+    },
+    {
+      "id": "p10",
+      "round": 2,
+      "thinker": "kropotkin",
+      "reply_to": "p07",
+      "text": "@龙树 看穿名次是假名，很好，但它不付房租。十九世纪的工人早就看穿老板的权威不是天定的，可工时照样十四小时，直到他们组织起来。**只在心里解脱，结构原封不动，下一代照样走进同一个局**。你那句『该交的卷照交』，恰恰是这台机器最想听到的话。",
+      "text_en": "@nagarjuna Seeing that rank is a mere designation is fine, but it does not pay the rent. Nineteenth-century workers saw well enough that the boss's authority was not ordained by heaven, yet their days stayed fourteen hours long until they organised. **Liberate only the mind and the structure stays intact; the next generation walks into the same game.** Your line 'hand in the papers you must' is exactly what this machine most wants to hear.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "vonneumann"
+        ],
+        "轻微赞同": [
+          "thoreau",
+          "laozi"
+        ],
+        "中立": [
+          "festinger"
+        ],
+        "轻微反对": [
+          "nagarjuna"
+        ],
+        "疑惑": [
+          "schultz"
+        ]
+      }
+    },
+    {
+      "id": "p11",
+      "round": 2,
+      "thinker": "nagarjuna",
+      "reply_to": "p10",
+      "text": "@克鲁泡特金 我不反对你们约定，只问一句：这份约定有没有自性？若把它当成身份，小圈子马上长出新的名次——谁最坚定、谁最纯粹、谁先破了戒。**反内卷的团体，自己也会内卷**，历史上不少运动就是这么散的。所以要约，就把约当工具，用完能放下；守得住，是因为看清它是假名，不是因为把它当真。",
+      "text_en": "@kropotkin I do not oppose your pacts. I only ask: does the pact have inherent existence? Make it an identity, and the small circle at once grows rankings of its own: who is most committed, who is purest, who broke ranks first. **A group formed against the race will start racing within itself**; plenty of movements in history broke up this way. So if you make a pact, treat it as a tool you can set down when it has done its work. You keep it because you see it is a designation, not because you take it as real.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "laozi"
+        ],
+        "轻微赞同": [
+          "festinger",
+          "schultz"
+        ],
+        "中立": [
+          "thoreau"
+        ],
+        "轻微反对": [
+          "kropotkin",
+          "vonneumann"
+        ]
+      }
+    },
+    {
+      "id": "p12",
+      "round": 2,
+      "thinker": "festinger",
+      "reply_to": "p06",
+      "text": "@老子 『不尚贤』想得太简单了。官方名次可以拿掉，比较拿不掉——没了分数，人就比谁更清闲、更有品位、孩子更松弛。**撤掉一把公开的尺，人会立刻发明十把私下的尺**，而且更难看见。与其指望上面不尚，不如让尺多起来：每条梯子上挤的人少了，每个人的痛也轻了。",
+      "text_en": "@laozi 'Exalt not the worthy' is too simple. You can remove the official ranking, but not the comparing. Take away the scores and people compete over who is more at ease, more tasteful, whose child is more carefree. **Withdraw one public yardstick and people invent ten private ones on the spot**, and those are harder to see. Rather than hope those above stop exalting, let the yardsticks multiply: with fewer people crowded onto each ladder, each person's pain is lighter.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "schultz"
+        ],
+        "轻微赞同": [
+          "vonneumann"
+        ],
+        "中立": [
+          "kropotkin"
+        ],
+        "轻微反对": [
+          "nagarjuna",
+          "thoreau"
+        ],
+        "强烈反对": [
+          "laozi"
+        ]
+      }
+    },
+    {
+      "id": "p13",
+      "round": 2,
+      "thinker": "laozi",
+      "reply_to": "p12",
+      "text": "子欲多其梯，是益其尚也。民争一梯，犹有尽时；**争百梯，则无时而休矣**。五色令人目盲，五音令人耳聋。比之为病，不在尺少，在目常向外。知足之足，常足矣——非不比也，比而知止。",
+      "text_en": "You would set up more ladders, but that only adds more things to exalt. When the people contend over one ladder, there is still an end to it; **contend over a hundred ladders, and there is never a moment's rest**. The five colours blind the eye; the five notes deafen the ear. The sickness of comparing lies not in too few yardsticks but in eyes always turned outward. The contentment of knowing what is enough is lasting contentment: not never comparing, but comparing and knowing where to stop.",
+      "vernacular": "你想多设几架梯子，这其实是多添了几样推崇的东西。大家争一架梯子，还有到头的时候；**争一百架梯子，就永远没有停歇了**。五色看多了让人眼花，五音听多了让人耳聋。比较的毛病，不在尺子太少，而在眼睛总朝外看。懂得满足的那种满足，才是长久的满足——不是不比，而是比了知道停。",
+      "vernacular_en": "",
+      "glossary": {
+        "知足之足": "the contentment of knowing enough（知足之足）：《道德经》第四十六章『知足之足，常足矣』，意为懂得满足所得的满足，才是恒常的满足。"
+      },
+      "glossary_en": {
+        "The contentment of knowing what is enough": "From chapter 46 of the Daodejing: the satisfaction that comes from knowing what is enough is the only satisfaction that lasts."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "thoreau"
+        ],
+        "轻微赞同": [
+          "nagarjuna",
+          "kropotkin"
+        ],
+        "中立": [
+          "vonneumann"
+        ],
+        "轻微反对": [
+          "festinger"
+        ],
+        "疑惑": [
+          "schultz"
+        ]
+      }
+    },
+    {
+      "id": "p14",
+      "round": 2,
+      "thinker": "schultz",
+      "reply_to": "p09",
+      "text": "@梭罗 你说欲望是自己填的，只对了一半。大脑并不是先有欲望、再去追；**价值是被线索教出来的**。成绩单、排行榜、同事几点下线的那个绿点，反复和奖惩绑在一起，多巴胺就把价值挂到这些线索上。所以单靠下决心『不想要』，效果很差。更管用的是撤掉线索：不看榜、关掉在线状态，欲望会跟着慢慢降温。",
+      "text_en": "@thoreau You say people fill in their own wants; that is half right. The brain does not first have a desire and then chase it; **value is taught by cues**. Report cards, leaderboards, the green dot showing when a colleague logs off: paired again and again with reward and punishment, they get value attached to them by dopamine. So simply resolving not to want works poorly. What works better is removing the cues: stop checking the rankings, switch off your online status, and the wanting will cool along with them.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "线索": "cue（线索）：学习中预报奖赏或惩罚的信号；反复配对后，多巴胺反应会从奖赏本身前移到线索上。"
+      },
+      "glossary_en": {
+        "cues": "Signals that predict reward or punishment during learning. After repeated pairing, the dopamine response shifts from the reward itself to the cue."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "festinger"
+        ],
+        "轻微赞同": [
+          "vonneumann",
+          "nagarjuna"
+        ],
+        "中立": [
+          "kropotkin",
+          "laozi"
+        ],
+        "疑惑": [
+          "thoreau"
+        ]
+      }
+    },
+    {
+      "id": "p15",
+      "round": 3,
+      "thinker": "vonneumann",
+      "reply_to": null,
+      "text": "我收回半句：梭罗说得对，很多格子是人自己填的；克鲁泡特金也对，重复博弈里约定守得住。给普通人三步：一，问奖品按名次分还是按水平分，按水平分的直接降速；二，按名次分的，找出**你真正需要的门槛名次，瞄准门槛而不是第一**，多出的力气不再投进去；三，找同局的人谈约定，天天见面的人，最容易守约。",
+      "text_en": "I withdraw half a sentence. Thoreau is right that many cells are filled in by ourselves, and Kropotkin is right that in a repeated game pacts can hold. Three steps for ordinary people. One: ask whether the prize goes by rank or by level; where it goes by level, slow down at once. Two: where it goes by rank, find **the threshold rank you actually need, and aim at the threshold rather than first place**; stop pouring effort in beyond it. Three: seek pacts with others in the same game, because people who see each other every day are the likeliest to keep their word.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "重复博弈": "repeated game（重复博弈）：同一批人反复进行的博弈；因为还有下一次，合作与守约更容易维持。"
+      },
+      "glossary_en": {
+        "repeated game": "A game played over and over by the same players; because there is always a next round, cooperation and promise-keeping are easier to sustain."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "kropotkin",
+          "festinger"
+        ],
+        "轻微赞同": [
+          "thoreau",
+          "schultz"
+        ],
+        "中立": [
+          "laozi"
+        ],
+        "疑惑": [
+          "nagarjuna"
+        ]
+      }
+    },
+    {
+      "id": "p16",
+      "round": 3,
+      "thinker": "festinger",
+      "reply_to": null,
+      "text": "老子说比较的病在眼睛朝外，这点我服；但眼睛改不了方向，只能换看的对象。实操：拿张纸写下你最常比的三个人，看看他们是不是都挤在同一条梯子上；接下来一个月，**把参照对象从身边同辈，换成三个月前的自己**。社交软件上最让你难受的那几位，先静音。这不是逃避，是不再让别人替你定尺。",
+      "text_en": "Laozi says the sickness of comparing lies in eyes turned outward, and that I accept. But eyes do not change direction; we can only change what they look at. In practice: write down the three people you compare yourself with most, and check whether they are all crowded onto the same ladder. For the next month, **switch your reference point from the peers around you to yourself three months ago**. Mute the few accounts that make you feel worst. This is not running away; it is refusing to let others set your yardstick.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "参照对象": "reference group（参照对象）：社会比较中被拿来衡量自己的人或群体；换参照对象，比较带来的感受会随之改变。"
+      },
+      "glossary_en": {
+        "reference point": "In social comparison, the person or group you measure yourself against; change it and the feelings that comparison produces change with it."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "schultz"
+        ],
+        "轻微赞同": [
+          "laozi",
+          "thoreau",
+          "nagarjuna"
+        ],
+        "中立": [
+          "vonneumann",
+          "kropotkin"
+        ]
+      }
+    },
+    {
+      "id": "p17",
+      "round": 3,
+      "thinker": "schultz",
+      "reply_to": null,
+      "text": "三条神经层面的建议。一，撤线索：每天查排名、刷群消息的次数砍半，价值会随线索消退。二，**给自己留一项不排名的奖赏**——做饭、跑步、手艺，进步只跟昨天比，多巴胺照样认这笔账。三，降速后头两三周的空慌，是基线在重设，提前在日历上标出来，别在那几周做『回去加倍卷』的决定。",
+      "text_en": "Three suggestions at the level of the neurons. One, remove the cues: halve the number of times a day you check rankings or scroll group chats, and value fades along with the cues. Two, **keep one reward for yourself that is never ranked**: cooking, running, a craft, where progress is measured only against yesterday. Dopamine counts that kind of gain just the same. Three, the emptiness and anxiety of the first two or three weeks after you slow down is your baseline resetting. Mark those weeks on your calendar ahead of time, and do not decide during them to go back and race twice as hard.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "festinger"
+        ],
+        "轻微赞同": [
+          "thoreau",
+          "vonneumann",
+          "nagarjuna"
+        ],
+        "中立": [
+          "laozi",
+          "kropotkin"
+        ]
+      }
+    },
+    {
+      "id": "p18",
+      "round": 3,
+      "thinker": "thoreau",
+      "reply_to": null,
+      "text": "冯·诺依曼戳中了我：有些局，一个人账算得再清也退不出。那就记两本账。一本记必须卷的：过了门槛就不再加码。一本记自愿填的：每样都换算成工时，问值不值——**一件东西要你多加多少个晚上的班，那才是它真正的标价**。最后，每天留一小时不卖给任何人，散步、读书、发呆都行。自由不是一次退出，是每天赎回一点。",
+      "text_en": "Von Neumann has me there: in some races, no amount of clear accounting will let one person out. Then keep two ledgers. One for the races you must run: once past the threshold, add nothing more. One for the cells you filled in yourself: convert each into hours of work and ask whether it is worth it. **How many evenings of overtime a thing costs you: that is its real price.** Finally, keep one hour a day that you sell to no one: walk, read, sit and stare. Freedom is not a single exit; it is buying a little of your life back each day.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "laozi"
+        ],
+        "轻微赞同": [
+          "vonneumann",
+          "schultz",
+          "festinger"
+        ],
+        "中立": [
+          "kropotkin",
+          "nagarjuna"
+        ]
+      }
+    },
+    {
+      "id": "p19",
+      "round": 3,
+      "thinker": "kropotkin",
+      "reply_to": null,
+      "text": "龙树提醒得对：约定一旦变成身份，就会自己内卷。所以约定要小、要具体、要能退。建议：找两三个处境相同的人——同组同事、同班家长——**只约一条看得见的底线**，比如晚上九点后不发工作消息、周末不报第三个班；写下来，一个月后复盘。别指望感化所有人，先在小范围证明停下不会怎样，规则往往就是这样一块块改的。",
+      "text_en": "Nagarjuna's warning is fair: once a pact becomes an identity, it starts racing within itself. So keep pacts small, concrete, and easy to leave. My suggestion: find two or three people in the same situation, colleagues on your team or parents in the same class, and **agree on just one visible limit**, such as no work messages after nine at night or no third weekend class. Write it down and review it after a month. Do not expect to convert everyone. Prove first, in a small circle, that stopping does no harm; rules are often changed exactly like this, one piece at a time.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "vonneumann"
+        ],
+        "轻微赞同": [
+          "nagarjuna",
+          "laozi",
+          "thoreau"
+        ],
+        "中立": [
+          "festinger",
+          "schultz"
+        ]
+      }
+    },
+    {
+      "id": "p20",
+      "round": 3,
+      "thinker": "laozi",
+      "reply_to": null,
+      "text": "为上者去其所尚，则下自不争；为下者守其雌，知其止。**知止所以不殆**。名次之梯，可登而不必至其巅；至其所需，则止。余力还之于身，还之于亲。水善利万物而不争，处众人之所恶，故几于道。",
+      "text_en": "Let those above set aside what they exalt, and those below will cease contending of themselves; let those below keep to the yielding, and know where to stop. **Knowing where to stop, one comes to no harm.** The ladder of ranks may be climbed, but one need not reach its top; having reached what one needs, stop. Return the strength that remains to your own body, and to your kin. Water benefits the ten thousand things and does not contend; it settles where all others disdain to be, and so it is close to the Way.",
+      "vernacular": "在上面定规则的人，拿掉他所推崇的东西，底下自然不争；在下面的人，守住柔和谦下的一面，知道在哪里停。**知道停下，所以不会陷入危险**。名次这架梯子，可以登，但不必登到顶；到了自己需要的高度，就停。剩下的力气，还给自己的身体，还给自己的亲人。水善于滋养万物却不争，安于众人都不愿待的低处，所以最接近道。",
+      "vernacular_en": "",
+      "glossary": {
+        "守其雌": "keeping to the yielding（守其雌）：《道德经》第二十八章『知其雄，守其雌』，意为明白刚强之道，却自处柔和谦下。"
+      },
+      "glossary_en": {
+        "keep to the yielding": "From chapter 28 of the Daodejing, 'know the masculine, keep to the feminine': understand the way of strength, yet hold yourself in the soft and humble place."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "thoreau"
+        ],
+        "轻微赞同": [
+          "nagarjuna",
+          "vonneumann",
+          "kropotkin"
+        ],
+        "中立": [
+          "festinger"
+        ],
+        "疑惑": [
+          "schultz"
+        ]
+      }
+    },
+    {
+      "id": "p21",
+      "round": 3,
+      "thinker": "nagarjuna",
+      "reply_to": null,
+      "text": "诸位争的，其实是两个极端：一边说『必须卷』，一边说『彻底躺』，都把名次当成实有。**中道不是卷一半，而是照常做事，不把结果认作自己**。可操作的是：下次排名出来，先在心里说一句『这是一个分数，不是我』，再决定下一步。约定、门槛、撤线索都可以用，用时记得它们也是工具。看穿了，卷与不卷都拴不住你。",
+      "text_en": "What you are all arguing over is really two extremes: one says you must race, the other says lie completely flat, and both take rank to be real. **The middle way is not racing at half speed, but doing the work as usual without taking the outcome to be yourself.** In practice: next time a ranking comes out, first say silently, 'This is a score, not me,' and only then decide your next step. Pacts, thresholds, removing cues: use them all, and remember while you use them that they too are tools. Once you see through it, neither racing nor not racing can tie you down.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "中道": "middle way（中道）：佛教不落两边的立场；在中观学里，指既不执『有』，也不执『无』。"
+      },
+      "glossary_en": {
+        "middle way": "The Buddhist stance of not falling into either extreme; in Madhyamaka, clinging neither to existence nor to non-existence."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "laozi"
+        ],
+        "轻微赞同": [
+          "festinger",
+          "schultz",
+          "thoreau"
+        ],
+        "中立": [
+          "vonneumann"
+        ],
+        "轻微反对": [
+          "kropotkin"
+        ]
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "ai": "claude",
+      "engine": "Opus 5 · 订阅(原生)",
+      "engine_en": "Opus 5 · subscription (native)",
+      "summary": "七位思想家都认：**在按名次分奖品的局里，一个人硬停确实会吃亏；但我们卷的局，并不全是这种局**。冯·诺依曼和梭罗从两头逼出了同一张筛子：先分清哪些奖品真按名次分，哪些是自己的欲望和面子填进去的。分歧在出路落在哪一层：克鲁泡特金押小圈子约定，老子押定规则的人『不尚贤』，费斯廷格与舒尔茨押换参照、撤线索，龙树则提醒，约定和躺平本身也会被执取成新的名次。",
+      "summary_en": "All seven thinkers accept this: **in a game where prizes go by rank, one person stopping alone really does lose out; but not every race we run is that kind of game**. Von Neumann and Thoreau, coming from opposite ends, arrived at the same sieve: first sort out which prizes are truly handed out by rank and which were filled in by our own wants and pride. The disagreement is about where the way out lies. Kropotkin bets on small-circle pacts, Laozi on rule-makers who 'exalt not the worthy', Festinger and Schultz on changing reference points and removing cues, while Nagarjuna warns that pacts and lying flat can themselves harden into new rankings.",
+      "insight": "内卷真正磨人的，往往不是正在跑的这一场，而是**一场接一场的接力**：中考接高考，高考接考研，考研接考编、接晋升。中途退出代价最高，因为沉没成本和名次都已锁死；**最便宜的退出点，在两场之间的交接处**——那时你只需要不报名。可许多接力其实是默认续报：身边人都报了、家里早这么安排，没人真正做过决定。普通人最该练的，不是中途急刹的勇气，而是在每一场『下一场』开跑前停下来问一句：这场我非跑不可吗？",
+      "insight_en": "What really wears people down is often not the race you are running now but **the relay, one race handed on to the next**: the high-school entrance exam leads to the university entrance exam, then the graduate exam, then the civil-service exam, then promotion. Quitting mid-race costs the most, because sunk costs and rankings are already locked in. **The cheapest exit is at the handover between races**, when all you have to do is not sign up. Yet many of these relays are simply renewed by default: everyone around you signed up, the family planned it long ago, and no one ever actually made the decision. What most people need to practise is not the nerve to brake hard mid-race, but the habit of pausing before each 'next race' begins and asking: must I really run this one?",
+      "advice": "先给手上的事分个类：①把正在卷的事列一张表，标出哪些奖品按名次分、哪些按水平分，按水平分的直接降一档；②挑一件按名次分的，写下你真正需要的门槛（比如『进前三成』，而非『第一』），**越过门槛就不再加码**；③找两三个处境相同的人，照克鲁泡特金的办法只约一条看得见的底线，一个月后复盘，只看两件事：底线守住了几天，有没有真的吃亏。另外，下次报名任何培训、考试或评比前，先等三天再交表。",
+      "advice_en": "Start by sorting what is on your plate. ① List the races you are in, and mark which prizes go by rank and which by level; where it goes by level, drop down a gear. ② Pick one that goes by rank and write down the threshold you actually need (say, 'top 30 per cent', not 'first'); **once past the threshold, add nothing more**. ③ Find two or three people in the same situation and, as Kropotkin suggests, agree on just one visible limit, then review it after a month, looking at just two things: how many days the limit held, and whether anyone actually lost out. And next time you are about to sign up for any course, exam or competition, wait three days before handing in the form."
+    },
+    {
+      "ai": "gpt",
+      "engine": "openai · gpt-5.6-sol · high(真实API)",
+      "engine_en": "openai · gpt-5.6-sol · high (live API)",
+      "summary": "内卷既不是纯粹的个人心病，也不是不可撼动的外部铁律；它由位置竞争、社会比较、奖赏学习、消费欲望与制度激励共同维持。**个人通常能退出一部分，却很难仅凭意志退出全部。** 分歧主要在改变的支点：是重写收益矩阵、替换比较尺、撤除诱发线索、降低欲望，还是组织集体规则；另一个焦点是“看穿”能否带来现实自由。较稳妥的结论是：先辨认真正的门槛与位置品，再减少自愿加码，同时争取小范围协作。心理松绑不能代替结构改革，结构改革也不会自动消除比较。",
+      "insight": "退出能力本身是一种需要积累的“选择权”。同样是不加班，有六个月储蓄、可迁移技能和可信同伴的人是在谈判；背着房贷、照护责任或签证限制的人可能是在冒险。**首要问题不只是“我想不想退”，而是“怎样让拒绝一次的代价变小”。** 这也修正了“瞄准门槛”的建议：门槛往往浮动、信息并不透明，压线策略可能突然失手。普通人更适合保留一小段安全裕度，并把余力投入现金缓冲、健康、通用技能和外部机会。它们未必立刻让你少卷，却会逐步增加你与组织、家庭和同辈谈条件的权力。",
+      "advice": "今天先做三件事。①把当前最耗力的一场竞争分成「生存门槛、真实增益、面子加码」，逐项写出证据、失败代价和安全余量；没有证据的加码先停一周。②设一条可观察的止损线，例如晚九点不回非紧急消息、排名每周只查一次，并提前告知相关人。③开一个「退出账户」：本周固定存入一笔钱和两小时，分别用于应急金与可迁移技能；再找一位同处境者试行一个月的共同底线。**不要追求一次性躺平，而要让自己每周多一点说“不”的能力。** 若停速会危及基本收入、签证或照护责任，先建立缓冲。",
+      "summary_en": "Overcompetition is neither just a private anxiety nor an immovable external law. It is sustained by rank-based scarcity, social comparison, learned reward cues, consumption norms, and institutional incentives. **An individual can usually exit parts of the race, but rarely the whole system through willpower alone.** The real disagreement is about leverage: whether change starts by redesigning payoffs, choosing different reference groups, removing triggering cues, wanting less, or forming collective rules. A second fault line concerns inner detachment: seeing a score as “not me” can reduce suffering, but it does not pay rent or alter selection systems. The most balanced conclusion is sequential rather than absolute: identify which contests are genuinely positional, determine the threshold that protects what matters, stop voluntary overinvestment, and coordinate locally where possible. Psychological freedom cannot substitute for structural reform; equally, a better rulebook will not by itself end comparison, status seeking, or escalating expectations. Both levels matter, and neither offers a complete escape.",
+      "insight_en": "The ability to step back is itself an option that has to be financed. Refusing overtime means one thing when you have six months of savings, portable skills, and trusted allies; it means something else when you carry debt, care duties, health costs, or visa constraints. **The first practical question is not only whether you want to leave the race, but how to make one act of refusal less costly.** This also qualifies the advice to aim merely at the threshold. Thresholds move, rankings are noisy, and decision rules are often hidden, so running exactly at the cutoff can fail abruptly. A modest safety margin is wiser than either maximal effort or deliberate underperformance. Resources released from overwork should be converted into bargaining power: emergency savings, physical recovery, general skills, external contacts, and credible alternatives. These assets may not reduce pressure immediately, but they gradually change who can set the terms with employers, schools, and family. That is how partial withdrawal becomes durable rather than symbolic.",
+      "advice_en": "Start with three actions this week. First, audit the competition consuming most of your energy. Sort each demand into survival threshold, genuine benefit, or status surcharge; write down the evidence, the downside of stopping, and a reasonable safety margin. Pause any surcharge with no clear evidence for seven days. Second, create one visible stop rule: no non-urgent replies after 9 p.m., no checking rankings more than once a week, or no third extracurricular activity. Tell affected people in advance so silence is not mistaken for neglect. Third, open an exit account: deposit a fixed amount of money and two hours each week, using them for an emergency fund and a portable skill. Ask one peer to test a shared boundary for a month and review what actually happened. **Do not try to prove your freedom through one dramatic act; build a little more capacity to say no every week.** If slowing down could threaten basic income, legal status, or care obligations, build the buffer first."
+    },
+    {
+      "ai": "gemini",
+      "engine": "google · gemini-4-argon · high(真实API)",
+      "engine_en": "google · gemini-4-argon · high (live API)",
+      "summary": "把生存底线与溢价欲望切开，是七位思想者不谋而合的底座：**“退出内卷”不是拼命或躺平的二选一，而是守住必需的门槛，同时剥离无效的心理与行为加码**。各方都承认在零和局里单兵硬退会吃亏，但大半痛苦源于向上比较、线索成瘾与把名次当自我的执念。分歧集中在**破局支点该先撬“外局”还是“内账”**：冯·诺依曼与克鲁泡特金从外部结构入手，主张卡准及格线、靠小团体立约；梭罗、舒尔茨与费斯廷格从内部机制止损，教你换算生命工时、撤掉排名线索、更换参照系；老子与龙树则直指认知底层，点破“反内卷同盟”或“多造尺子”仍会卷出新名次，唯有看穿分数的假名属性、知止不争，才算真正松绑。",
+      "insight": "全场都默认人只能在同一架梯子上“控量”或“修心”，却漏掉了演化生物学最硬的一条出路：生态位分化。自然界里，当达尔文雀面临食物内卷时，破局的不是“少吃一点”或“约好停嘴”的鸟，而是演化出不同喙形、去吃仙人掌或硬壳果的那批。**内卷最深的陷阱不是过度努力，而是筹码高度同质化**。只要你跟所有人在单一标准维度上死磕，就逃不开冯·诺依曼说的位置品博弈，单人降速也确实容易被替代。因此，从旧局里省下力气只是上半场；**真正的单人突围，是用赎回的时间混搭一项跨界技能，把自己变成“无法塞进同一张表格排高低”的复合体**。当你斜切进交叉生态位，原有的零和矩阵才会对你彻底失效。",
+      "advice": "本周就能上手的“三步赎回法”：第一，用冯·诺依曼与梭罗的方法画条“止损线”——挑一件正在死磕的差事，写明“够用即止的门槛”（如80分交差），把冲刺95分多耗的熬夜砍掉，每天雷打不动留出1小时不卖给任何人的自由时间。第二，照舒尔茨与费斯廷格说的做次“线索物理隔离”——今晚就把最引发同辈焦虑的三个账号静音，减少一半查排名或刷群的次数，并在日历上标出未来两周的“多巴胺基线重设期”，出现空慌时按兵不动。第三，**把每天赎回的时间投向一项与身边人不在同一赛道的“跨界手艺”或无排名爱好，先靠卡准及格线稳住饭碗，再靠跨界复利把自己养成无法被单一尺子定义的非标品**。",
+      "summary_en": "Separating baseline survival from manufactured desires forms the shared foundation across all seven thinkers: **exiting involution is not a binary choice between grinding yourself down and lying flat, but rather meeting the necessary threshold while stripping away pointless mental and behavioral escalation**. Everyone agrees that unilaterally quitting a zero-sum positional game carries a cost, yet most of the pain stems from upward comparison, cue addiction, and mistaking rank for self-worth. The real clash lies in **whether the primary lever for change is restructuring the external game or auditing the internal ledger**: Von Neumann and Kropotkin target external structures through threshold strategies and small-group pacts; Thoreau, Schultz, and Festinger focus on internal damage control by recalculating life-hours, removing ranking cues, and shifting reference points; Laozi and Nagarjuna go straight to the cognitive root, warning that even anti-involution pacts or multiple ladders breed new hierarchies unless we see through the empty construct of rank and know when to stop.",
+      "insight_en": "The entire panel assumes we can only ration our effort or adjust our mindset on the exact same ladder, overlooking evolutionary biology's most proven exit: niche differentiation. In nature, when Darwin's finches face fierce competition over the same seeds, the winners aren't the birds that eat less or form a pact to stop pecking—they are the ones that evolve different beaks to crack hard nuts or feed on cacti. **The deepest trap of involution is not excessive effort, but extreme homogenization along a single metric**. As long as your skills are identical to everyone else's, you remain trapped in Von Neumann's positional game where slowing down alone makes you replaceable. Saving energy in the old game is only half the battle; **true solo breakout comes from investing that reclaimed time into cross-domain skills, turning yourself into a composite that cannot be ranked on a single linear spreadsheet**. Once you pivot into an intersecting ecological niche, the old zero-sum matrix loses its grip on you.",
+      "advice_en": "A three-step reclamation plan you can start this week: First, combine Von Neumann and Thoreau to draw a clear stop-loss line—pick one task you are currently over-grinding, define its 'good-enough threshold' (say, an 80 instead of a 95), cut out the late-night hours spent chasing marginal perfection, and reclaim one non-negotiable hour each day that isn't for sale. Second, apply Schultz and Festinger's physical cue isolation—tonight, mute the three social accounts that trigger the most peer anxiety, cut your group-chat or ranking checks in half, and mark the next two weeks on your calendar as a 'dopamine baseline reset' so you don't panic when withdrawal hits. Third, **invest your reclaimed hour into an unranked craft or cross-disciplinary skill completely orthogonal to your peers' track—securing your livelihood by hitting the baseline threshold, while using cross-domain compounding to become unrankable by any single ruler**."
+    }
+  ],
+  "hooks": [
+    {
+      "from": "claude",
+      "text": "**最便宜的退出点**：内卷常是一场接一场的接力。中途急刹代价最高，交接处只需不报名——可我们怎样察觉，下一场其实是被默认续报的？",
+      "text_en": "**The cheapest exit**: the rat race is often a relay, one race handed on to the next. Braking mid-race costs the most; at the handover you need only not sign up. But how do we notice that the next race was renewed for us by default?"
+    },
+    {
+      "from": "vonneumann",
+      "text": "**你的局按名次分吗**：同样是拼命，有的奖品只给前几名，有的给所有达标者，有的只是别人的眼光。怎么一眼分辨，每种又该怎么退？",
+      "text_en": "**Is your race ranked?** The effort looks the same, but some prizes go only to the top few, some to everyone who meets the bar, and some are only other people's eyes. How do you tell them apart at a glance, and how do you step back from each?",
+      "answer": {
+        "lead": "冯·诺依曼的筛子可以拆成五道自测题。一件事若同时中了几类，**以最严的那类为准**。",
+        "table": {
+          "head": [
+            "自测题",
+            "若答『是』",
+            "怎么做"
+          ],
+          "rows": [
+            [
+              "名额是否固定（录取、晋升位、学区学位）？",
+              "位置局",
+              "找出你真正需要的门槛名次，瞄准门槛而不是第一"
+            ],
+            [
+              "别人变好，你的收获会变少吗？",
+              "位置局",
+              "同上，再找同局的两三个人约一条底线"
+            ],
+            [
+              "达到某个水平就能拿到全部好处吗（证书、及格线、体检达标）？",
+              "水平局",
+              "达标即止，多出的力气撤回来"
+            ],
+            [
+              "是否只跟你自己的过去比（技能、存款、体能）？",
+              "水平局",
+              "按自己的节奏来，不必盯别人的进度"
+            ],
+            [
+              "奖品是否只是别人的眼光（面子、朋友圈、排场）？",
+              "自填局",
+              "先划掉这一格，停一个月，看看真正失去了什么"
+            ]
+          ]
+        },
+        "tail": "**只有位置局才是真正的囚徒困境**，门槛策略和集体约定都是为它准备的；水平局和自填局，一个人当天就能降速。拿不准时，回到那道老问题：如果所有人同时停下，你会损失什么？"
+      },
+      "answer_en": {
+        "lead": "Von Neumann's sieve breaks down into five self-test questions. If a race fits several types at once, **go by the strictest one**.",
+        "table": {
+          "head": [
+            "Self-test question",
+            "If 'yes'",
+            "What to do"
+          ],
+          "rows": [
+            [
+              "Is the number of places fixed (admissions, promotion slots, school-district seats)?",
+              "Positional race",
+              "Find the threshold rank you actually need, and aim at it rather than first place"
+            ],
+            [
+              "When others do better, do you get less?",
+              "Positional race",
+              "As above, and agree on one limit with two or three others in the same race"
+            ],
+            [
+              "Does reaching a certain level get you the full benefit (a certificate, a pass mark, a clean health check)?",
+              "Level race",
+              "Stop once you meet the bar and take the extra effort back"
+            ],
+            [
+              "Are you measured only against your own past (skills, savings, fitness)?",
+              "Level race",
+              "Go at your own pace; there is no need to watch others' progress"
+            ],
+            [
+              "Is the prize only other people's eyes (face, social media, keeping up appearances)?",
+              "Self-imposed race",
+              "Strike out this cell, stop for a month, and see what you actually lose"
+            ]
+          ]
+        },
+        "tail": "**Only the positional race is a true prisoner's dilemma**; threshold strategies and collective pacts exist for it. In level races and self-imposed ones, one person can slow down the same day. When in doubt, go back to the old question: if everyone stopped at the same moment, what would you lose?"
+      }
+    },
+    {
+      "from": "gpt",
+      "text": "**退出权要攒**：有储蓄、可迁移技能和同伴的人说『不』是谈判，背着房贷与照护责任的人说『不』是冒险。怎样一点点降低拒绝一次的代价？",
+      "text_en": "**The right to exit has to be saved up**: for someone with savings, portable skills and allies, saying no is a negotiation; for someone carrying a mortgage and caring duties, it is a gamble. How do you lower, bit by bit, the cost of refusing once?"
+    },
+    {
+      "from": "gemini",
+      "text": "**换赛道，还是新梯子**：生态位分化让达尔文雀不必争同一种食；可人人都去『跨界』，交叉地带会不会又成了一架更挤的新梯子？",
+      "text_en": "**A new niche, or a new ladder?** Niche differentiation spared Darwin's finches from fighting over the same food. But if everyone goes 'cross-disciplinary', will the crossroads become yet another, more crowded ladder?"
+    },
+    {
+      "from": "nagarjuna",
+      "text": "**反内卷团体的内卷**：约好不卷的小圈子，很快会比谁更坚定、谁更纯粹。一份约定怎样才能只当工具，不长成新的名次？",
+      "text_en": "**When the anti-race group starts racing**: a small circle that agrees not to compete soon starts competing over who is most committed, who is purest. How can a pact stay a tool and not grow into a new ranking?"
+    },
+    {
+      "from": "festinger",
+      "text": "**私下的尺**：撤掉公开排名，人会改比清闲、品位和孩子的松弛感。看不见的比较，会不会比明面上的分数更伤人？",
+      "text_en": "**The private yardsticks**: take away public rankings and people start comparing leisure, taste and how relaxed their children are. Can comparison you cannot see hurt more than a score out in the open?"
+    }
+  ]
+}

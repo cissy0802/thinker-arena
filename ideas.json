@@ -2,15 +2,6 @@
   "_comment": "议题投票数据。candidates=未辩候选(供投票)，debated=已辩(链到辩论)。投票免 GitHub 登录，存于自建后端(Cloudflare Worker + D1，见 ~/Desktop/cissy0802.github.io/engage-backend/)：每候选一个 poll，key='topic:'+id，choice up/down，净票=👍−👎。votes 字段由 routine 每次跑 `python3 refresh_votes.py`(读后端 /votes-net) 回写；页面 ideas.js 也会实时拉取覆盖显示。观众自提议题在评论 page='thinker-open-questions'，各候选下讨论 page='topic:'+id——routine 读这些把好提案提炼成新 candidates。新候选加进 candidates 即可。",
   "candidates": [
     {
-      "id": "social-darwinism",
-      "votes": 0,
-      "q": "「适者生存」能用来解释社会吗？",
-      "q_en": "Can 'survival of the fittest' explain society?",
-      "note": "社会和市场里确实有类似「优胜劣汰」的机制，可由此推出「不该救助弱者」，就是从「是」跳到了「应该」——何况达尔文本人认为同情出自社会本能。把一个选择说成规律，做决定的人就从句子里消失了。",
-      "note_en": "Society and markets do have something like selection. But concluding 'so we shouldn't help the weak' leaps from is to ought, and Darwin himself traced sympathy to our social instincts. Recast a choice as a law of nature and the person making it vanishes from the sentence.",
-      "cat": "ethics"
-    },
-    {
       "id": "when-to-change-a-rule",
       "votes": 0,
       "q": "一条老规矩，什么时候该改？",
@@ -90,6 +81,15 @@
       "note": "看见同事造假、违规、欺负人，说出去是对组织和受害者尽责，还是出卖身边的人？奖励举报能让问题浮出水面，也可能养出人人自危、互相盯梢的风气。界线在哪：举报什么、向谁举报、凭什么证据？",
       "note_en": "When you see a colleague falsifying figures, breaking rules or bullying someone, is speaking up a duty to the organisation and the victim, or a betrayal of the person next to you? Rewarding reports brings problems to light but can also breed a climate of suspicion and mutual surveillance. Where is the line: what to report, to whom, and on what evidence?",
       "cat": "work"
+    },
+    {
+      "id": "war-and-cooperation",
+      "votes": 0,
+      "q": "战争让人类更会合作了吗？",
+      "q_en": "Did war teach humans to cooperate?",
+      "note": "有学者认为，群体间的战争逼出了群体内的团结与国家；可这样的合作，是否注定需要一个外敌？和平时期的团结又靠什么维持？",
+      "note_en": "Some scholars argue that war between groups forged solidarity and states within them. But does cooperation of that kind always need an outside enemy, and what holds people together in peacetime?",
+      "cat": "meta"
     }
   ],
   "debated": [
@@ -1163,6 +1163,13 @@
       "q_en": "Can one person step out of the rat race?",
       "date": "2026-10-23",
       "cat": "life"
+    },
+    {
+      "id": "social-darwinism",
+      "q": "「适者生存」能用来解释社会吗？",
+      "q_en": "Can 'survival of the fittest' explain society?",
+      "date": "2026-10-24",
+      "cat": "ethics"
     }
   ]
 }

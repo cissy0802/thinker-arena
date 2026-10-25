@@ -47,15 +47,6 @@
       "cat": "meta"
     },
     {
-      "id": "giving-away-credit",
-      "votes": 0,
-      "q": "把功劳让出去，会越让越多吗？",
-      "q_en": "Does giving away credit bring more of it back?",
-      "note": "大方归功于人，换来信任、合作和口碑；可这要有人看见你在让。在按署名记账、名额有限的评审里，没人看见的让功就是白让，而资深者让是锦上添花，新人让可能就此隐身。自检：在你那里，让功的人是吃亏还是得益？",
-      "note_en": "Crediting others generously earns trust, cooperation and a good name, but only if someone sees you doing it. In reviews that count bylines and have fixed quotas, unseen generosity is simply lost; a senior person giving credit away gains polish, a junior one may vanish. A test: where you work, do those who share credit lose out or come out ahead?",
-      "cat": "work"
-    },
-    {
       "id": "reason-as-press-secretary",
       "votes": 0,
       "q": "理性是在找真相，还是在替我们辩护？",
@@ -90,6 +81,15 @@
       "note": "有学者认为，群体间的战争逼出了群体内的团结与国家；可这样的合作，是否注定需要一个外敌？和平时期的团结又靠什么维持？",
       "note_en": "Some scholars argue that war between groups forged solidarity and states within them. But does cooperation of that kind always need an outside enemy, and what holds people together in peacetime?",
       "cat": "meta"
+    },
+    {
+      "id": "gifts-and-obligations",
+      "votes": 0,
+      "q": "人情往来，是纽带还是负担？",
+      "q_en": "Is the give-and-take of favours a bond or a burden?",
+      "note": "随份子、回礼、欠人情，维系着熟人社会，也让人疲于应付。账算清了关系会不会变冷？不算清，又是谁在默默吃亏？",
+      "note_en": "Wedding gifts, return presents and favours owed hold close-knit communities together, and also wear people out. Does settling every account cool the relationship? And if no one keeps count, who is quietly losing out?",
+      "cat": "life"
     }
   ],
   "debated": [
@@ -1170,6 +1170,13 @@
       "q_en": "Can 'survival of the fittest' explain society?",
       "date": "2026-10-24",
       "cat": "ethics"
+    },
+    {
+      "id": "giving-away-credit",
+      "q": "把功劳让出去，会越让越多吗？",
+      "q_en": "Does giving away credit bring more of it back?",
+      "date": "2026-10-25",
+      "cat": "work"
     }
   ]
 }

@@ -185,6 +185,9 @@
 - [ ] 举报同事，是尽责还是告密？  <!--reporting-a-colleague-->
 - [ ] 战争让人类更会合作了吗？  <!--war-and-cooperation-->
 - [ ] 人情往来，是纽带还是负担？  <!--gifts-and-obligations-->
+- [ ] 吃苦，是成长的必经之路吗？  <!--hardship-and-growth-->
+- [ ] 江山易改，本性难移吗？  <!--can-nature-change-->
+- [ ] 失去至亲，只能等时间冲淡吗？  <!--grieving-a-loss-->
 - [x] 爱好一定要练到像样吗？ — 2026-10-27  <!--hobby-done-badly-->
 
 ---

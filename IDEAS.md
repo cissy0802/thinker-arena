@@ -188,6 +188,7 @@
 - [ ] 吃苦，是成长的必经之路吗？  <!--hardship-and-growth-->
 - [ ] 江山易改，本性难移吗？  <!--can-nature-change-->
 - [ ] 失去至亲，只能等时间冲淡吗？  <!--grieving-a-loss-->
+- [ ] 人生该规划，还是走着瞧？  <!--plan-or-connect-the-dots-->
 - [x] 爱好一定要练到像样吗？ — 2026-10-27  <!--hobby-done-badly-->
 
 ---

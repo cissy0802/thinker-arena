@@ -1,0 +1,857 @@
+{
+ "id": "when-to-change-a-rule",
+ "question": "一条老规矩，什么时候该改？",
+ "question_en": "When should an old rule be changed?",
+ "sub": "守得太久成了固执，改得太快又成了随波逐流。",
+ "sub_en": "Keep a rule too long and it turns stubborn; change it too fast and it turns into drift.",
+ "date": "2026-10-29",
+ "participants": [
+  "hanfeizi",
+  "tocqueville",
+  "mlk",
+  "alghazali",
+  "popper",
+  "wood",
+  "huineng"
+ ],
+ "casting": [
+  {
+   "id": "hanfeizi",
+   "reason": "他主张「世异则事异」，法必须随时代而变；但也警告频繁变法害民，改法的权力要集中、改了就要人人遵守。",
+   "reason_en": "He holds that when the age changes, laws must change with it, yet warns that frequent change harms the people: the power to amend must be concentrated, and once a law is changed, everyone must obey it."
+  },
+  {
+   "id": "tocqueville",
+   "reason": "他从法国旧制度看到，特权一旦脱离对应的义务就变成压迫，并主张规矩应由生活在其中的人通过结社与地方自治来改。",
+   "reason_en": "From France's old regime he learned that a privilege cut loose from its duty becomes oppression, and he argues that rules should be changed by those who live under them, through associations and local self-government."
+  },
+  {
+   "id": "mlk",
+   "reason": "他站在被规矩约束最深的人一边，指出「再等等」往往等于「永不」，并为公开、非暴力、甘愿受罚地违抗不义之法辩护。",
+   "reason_en": "He speaks for those most constrained by a rule, points out that \"wait\" usually means \"never\", and defends breaking unjust laws openly, nonviolently and with a willingness to accept the penalty."
+  },
+  {
+   "id": "alghazali",
+   "reason": "他亲历过打破盲从的危机，主张以律法的宗旨为准绳：宗旨不变，手段可改。",
+   "reason_en": "Having lived through the crisis of breaking with blind imitation, he takes a law's underlying purposes as the yardstick: the purpose holds, the means may change."
+  },
+  {
+   "id": "popper",
+   "reason": "他把规矩当作待检验的猜想，要求预先说清什么算失败，主张小步试改、留好退路。",
+   "reason_en": "He treats rules as conjectures to be tested, demands that failure conditions be stated in advance, and favours small, reversible reforms."
+  },
+  {
+   "id": "wood",
+   "reason": "她用习惯研究说明，许多老规矩靠情境线索自动延续，改变的关键在于改环境、抓住生活断裂期。",
+   "reason_en": "Her research on habits shows that many old rules persist automatically through situational cues, and that the key to change is altering the environment and seizing moments when routines break."
+  },
+  {
+   "id": "huineng",
+   "reason": "他以五祖「止衣不传」和佛陀许舍小小戒为例，主张规矩如渡河之筏，不执于守，也不执于破。",
+   "reason_en": "Citing the Fifth Patriarch's decision to stop handing on the robe and the Buddha's permission to drop minor rules, he sees rules as a raft for crossing a river, to be neither clung to nor smashed."
+  }
+ ],
+ "posts": [
+  {
+   "id": "p01",
+   "round": 1,
+   "thinker": "hanfeizi",
+   "reply_to": null,
+   "text": "「宋人有耕者，田中有株，兔走触株，折颈而死，因释其耒而守株，冀复得兔。」**世异则事异，事异则备变。**上古之法，所以御上古之患；患已去而法犹在，是守株也。然吾亦言：治大国而数变法，则民苦之。法不可不变，亦不可数变。变之权，当操于一，不可人人自议。",
+   "text_en": "\"A farmer of Song had a tree stump in his field. A hare ran into it, broke its neck and died. So the farmer put down his plough and waited by the stump, hoping for another hare.\" **When the age changes, circumstances change; when circumstances change, the remedies must change.** The laws of antiquity were made for the troubles of antiquity; when the trouble is gone and the law remains, that is waiting by the stump. Yet I have also said: govern a great state by changing its laws often, and the people suffer. Law must change, but not often. And the power to change it must sit in one place, not be argued over by everyone.",
+   "vernacular": "宋国有个农夫，田里有个树桩，一只兔子跑来撞上树桩，折断脖子死了。他就放下犁守在树桩旁，盼着再捡一只。**时代变了，事情就变了；事情变了，应对的办法就得跟着变。**上古的法，是用来对付上古的麻烦的；麻烦没了，法还留着，这就是守株待兔。但我也说过：治理大国却频繁改法，百姓就要受苦。法不能不改，也不能常改。改的权力要握在一处，不能人人各自议论。",
+   "vernacular_en": "",
+   "glossary": {
+    "守株": "waiting by the stump（守株待兔）：出自《韩非子·五蠹》的寓言，讽刺把一次偶然的旧经验当成永久规矩的人。"
+   },
+   "glossary_en": {
+    "waiting by the stump": "A fable from Han Feizi's \"Five Vermin\" mocking those who treat one lucky past event as a permanent rule."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "popper"
+    ],
+    "轻微赞同": [
+     "wood"
+    ],
+    "中立": [
+     "alghazali"
+    ],
+    "轻微反对": [
+     "huineng"
+    ],
+    "强烈反对": [
+     "tocqueville",
+     "mlk"
+    ]
+   }
+  },
+  {
+   "id": "p02",
+   "round": 1,
+   "thinker": "tocqueville",
+   "reply_to": null,
+   "text": "我研究过大革命前的法国旧制度。贵族早已不再打仗、不再管地方、不再护佑农民，却照旧收着那些特权。**一项特权一旦失去了它对应的职责，在人们眼里就只剩下压迫。**所以「这条规矩为什么立」值得问，但更该问：它当初换来的那份义务，今天还有人在尽吗？还有一件事我在史料里一再看到：坏政府最危险的时刻，往往正是它开始改革的时候。要改，就得准备好人心随之松动。",
+   "text_en": "I studied France's old regime before the Revolution. The nobles had long stopped fighting wars, running local affairs or protecting the peasants, yet they went on collecting their privileges. **Once a privilege loses the duty attached to it, people see nothing in it but oppression.** So yes, ask why a rule was made. But ask too: is anyone still performing the duty it was once exchanged for? And one more thing the archives showed me again and again: the most dangerous moment for a bad government is usually when it begins to reform. If you change a rule, be ready for everything around it to loosen.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "旧制度": "Ancien Régime（旧制度）：1789 年大革命前法国的君主制社会秩序，托克维尔在《旧制度与大革命》中加以剖析。"
+   },
+   "glossary_en": {
+    "old regime": "The Ancien Régime: France's monarchical social order before the 1789 Revolution, which Tocqueville dissected in The Old Regime and the Revolution."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "mlk"
+    ],
+    "轻微赞同": [
+     "huineng",
+     "alghazali"
+    ],
+    "中立": [
+     "wood"
+    ],
+    "轻微反对": [
+     "popper",
+     "hanfeizi"
+    ]
+   }
+  },
+  {
+   "id": "p03",
+   "round": 1,
+   "thinker": "mlk",
+   "reply_to": null,
+   "text": "我在伯明翰的牢房里读到八位白人牧师的公开信，说我们的抗议「不明智也不合时宜」，劝我们等。我听「等一等」听了一辈子，**这个「等」几乎总是意味着「永不」。**问一条老规矩该不该改，先看是谁在问、谁在答。一条多数人强加给少数人、自己却不受约束的法，就是不义之法。对被篱笆圈在里面的人来说，篱笆为什么立着，从来不是秘密。",
+   "text_en": "In a Birmingham jail cell I read an open letter from eight white clergymen calling our protests \"unwise and untimely\" and urging us to wait. I have heard the word \"Wait!\" all my life, **and this \"Wait\" has almost always meant \"Never.\"** Before asking whether an old rule should change, look at who is asking and who is answering. A law that a majority imposes on a minority but does not bind itself to is an unjust law. To those fenced in, why the fence stands has never been a mystery.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "不义之法": "unjust law（不义之法）：金在《伯明翰狱中书简》中的界定之一——多数强加于少数、自己却不受其约束的法律；他认为人对这样的法负有违抗的道义责任。"
+   },
+   "glossary_en": {
+    "unjust law": "One of King's tests in his Letter from Birmingham Jail: a law a majority imposes on a minority without binding itself. He held that people have a moral responsibility to disobey such laws."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "tocqueville"
+    ],
+    "轻微赞同": [
+     "huineng",
+     "popper"
+    ],
+    "中立": [
+     "alghazali",
+     "wood"
+    ],
+    "轻微反对": [
+     "hanfeizi"
+    ]
+   }
+  },
+  {
+   "id": "p04",
+   "round": 1,
+   "thinker": "alghazali",
+   "reply_to": null,
+   "text": "我年轻时发现：基督徒的孩子长成基督徒，犹太人的孩子长成犹太人，穆斯林的孩子长成穆斯林。守规矩，多半只因为生在那里。我把这叫 taqlid。**盲从者的前提是不知道自己在盲从；一旦知道，那层玻璃就碎了，再也粘不回去。**但碎了不等于乱砸。我看一条律法的 maqasid，它护着什么：信仰、生命、理智、血脉、财产。目的还在，手段可以换；目的本身，不随风改。",
+   "text_en": "As a young man I noticed that the children of Christians grew up Christian, the children of Jews grew up Jewish, and the children of Muslims grew up Muslim. Most people keep a rule simply because they were born where it holds. I called this taqlid. **The condition of the blind follower is that he does not know he is one; once he knows, the glass shatters, and it cannot be mended.** But a shattered glass is no excuse to smash everything. I look at a law's maqasid, the goods it protects: faith, life, reason, lineage, property. While the purpose stands, the means may change; the purpose itself does not bend with the wind.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "taqlid": "taqlid（因袭、盲从）：不经自己审察，只因权威或出身而接受某种信念与规矩。",
+    "maqasid": "maqasid（法的宗旨）：伊斯兰法学关于「律法为何而立」的理论，安萨里归纳为保护信仰、生命、理智、血脉与财产五项。"
+   },
+   "glossary_en": {
+    "taqlid": "Accepting a belief or rule because of authority or upbringing, without examining it oneself.",
+    "maqasid": "The objectives of Islamic law. Al-Ghazali grouped them as the protection of faith, life, reason, lineage and property."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "huineng"
+    ],
+    "轻微赞同": [
+     "tocqueville",
+     "mlk"
+    ],
+    "中立": [
+     "hanfeizi"
+    ],
+    "疑惑": [
+     "popper"
+    ],
+    "轻微反对": [
+     "wood"
+    ]
+   }
+  },
+  {
+   "id": "p05",
+   "round": 1,
+   "thinker": "popper",
+   "reply_to": null,
+   "text": "「切斯特顿的篱笆」是说，不知道篱笆为什么立着就别拆。听上去稳妥，可很多篱笆的理由永远查不清了。**一条规矩该不该留，不取决于它有多老，而取决于它敢不敢被检验。**所以要先说清：出现什么情况，就证明它失效了？说不出来，它就成了教条。改也别一夜推倒重来：拆一段、看一阵、错了能退回。真正要问的不是谁有权定规矩，而是规矩定错了，能不能不流血地改回来。",
+   "text_en": "\"Chesterton's fence\" says you shouldn't pull down a fence until you know why it was put up. It sounds prudent, but the reasons behind many fences can never be recovered. **Whether a rule should stay depends not on how old it is, but on whether it dares to be tested.** So say first: what would show that it has failed? A rule that can't answer has become dogma. And when you change it, don't tear it all down overnight. Take down one section, watch for a while, keep the way back open. The real question isn't who has the right to make rules, but whether a bad rule can be undone without bloodshed.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "切斯特顿的篱笆": "Chesterton's fence（切斯特顿的篱笆）：英国作家切斯特顿提出的原则——在弄清一道篱笆为何而立之前，不要拆掉它。"
+   },
+   "glossary_en": {
+    "Chesterton's fence": "A principle from the English writer G. K. Chesterton: don't remove a fence until you understand why it was put there."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "wood"
+    ],
+    "轻微赞同": [
+     "hanfeizi",
+     "tocqueville"
+    ],
+    "中立": [
+     "huineng"
+    ],
+    "轻微反对": [
+     "alghazali"
+    ],
+    "疑惑": [
+     "mlk"
+    ]
+   }
+  },
+  {
+   "id": "p06",
+   "round": 1,
+   "thinker": "wood",
+   "reply_to": null,
+   "text": "我研究习惯几十年。我们每天大约四成的行为，是在同样的情境里不经思考地重复。家规、公司流程也一样：**很多老规矩活着，不是因为有人还相信它，而是因为没人停下来想过它。**问它为什么存在，常常问不出答案，因为它没有活着的理由，只有触发它的情境。好消息是，搬家、换工作、换领导这类情境断裂的时刻，旧习惯最松，最适合改规矩。",
+   "text_en": "I've studied habits for decades. Roughly 40 percent of what we do each day is repeated, without thought, in the same settings. Family rules and office procedures work the same way: **many old rules survive not because anyone still believes in them but because no one has ever stopped to think about them.** Ask why one exists and there's often no answer, because it has no living reason, only the setting that triggers it. The good news: moments of habit discontinuity, like moving house, changing jobs or getting a new boss, are when old habits are loosest and rules are easiest to change.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "情境断裂": "habit discontinuity（习惯不连续）：伍德等人的发现——搬家、换工作等让生活情境突变的时刻，旧习惯失去触发线索，新行为最容易立住。"
+   },
+   "glossary_en": {
+    "habit discontinuity": "Wood and colleagues' finding that when life's settings change abruptly, as with a move or a new job, old habits lose their cues and new behaviour is easiest to establish."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "popper"
+    ],
+    "轻微赞同": [
+     "hanfeizi",
+     "huineng"
+    ],
+    "中立": [
+     "tocqueville",
+     "mlk"
+    ],
+    "轻微反对": [
+     "alghazali"
+    ]
+   }
+  },
+  {
+   "id": "p07",
+   "round": 1,
+   "thinker": "huineng",
+   "reply_to": null,
+   "text": "五祖传我衣钵时嘱曰：「衣为争端，止汝勿传。」达摩传衣，本为取信；至我，衣已成人争夺之物，便当止。**法在心，不在衣。**佛临灭度，许舍小小戒；阿难未问何者为小，大众遂一概不舍，至今犹守。心平何劳持戒，行直何用修禅。规矩是渡河之筏，过河仍负筏而行，是愚也。",
+   "text_en": "When the Fifth Patriarch passed the robe and bowl to me, he said: \"The robe has become a cause of strife. Let it stop with you.\" Bodhidharma handed down the robe as a token of trust; by my time it had become a prize people fought over, so it had to stop. **The Dharma is in the mind, not in the robe.** As the Buddha lay dying, he allowed the order to drop the minor rules; Ānanda never asked which ones were minor, so the assembly dropped none, and they are kept to this day. With a level mind, why toil at keeping precepts? With upright conduct, why labour at meditation? A rule is a raft for crossing the river; to carry the raft on your back once you're across is folly.",
+   "vernacular": "五祖把衣钵传给我时叮嘱：「这件袈裟已成了争夺的祸根，到你为止，别再传了。」达摩传衣，本来是为了让人信服；到我这儿，衣已经成了人人争抢的东西，就该停。**法在心里，不在那件衣服上。**佛陀临终时，允许僧团舍掉细小的戒条；阿难没问哪些算细小，大家干脆一条不舍，守到今天。心里平正，何必劳神持戒；行为正直，何必刻意修禅。规矩是渡河的木筏，过了河还背着筏子走，那是愚蠢。",
+   "vernacular_en": "",
+   "glossary": {
+    "衣钵": "robe and bowl（衣钵）：禅宗师徒传法的信物，象征正统传承；自慧能之后不再传衣。",
+    "小小戒": "minor rules（小小戒）：佛陀临终允许僧团舍弃的细小戒条；因阿难未问清范围，第一次结集决定全部保留。"
+   },
+   "glossary_en": {
+    "robe and bowl": "The tokens passed from Chan master to heir, symbolising legitimate succession. After Huineng the robe was no longer handed on.",
+    "minor rules": "Lesser monastic rules the Buddha said the order might drop after his death. Because Ānanda never asked which they were, the First Council decided to keep them all."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "alghazali"
+    ],
+    "轻微赞同": [
+     "mlk",
+     "wood"
+    ],
+    "中立": [
+     "tocqueville"
+    ],
+    "轻微反对": [
+     "popper"
+    ],
+    "强烈反对": [
+     "hanfeizi"
+    ]
+   }
+  },
+  {
+   "id": "p08",
+   "round": 2,
+   "thinker": "mlk",
+   "reply_to": "p02",
+   "text": "@托克维尔 你说改革最危险的是人心松动。我们在蒙哥马利抵制公交整整 381 天，没砸过一扇窗。**松动的从来不是秩序，而是那些靠不公维持的舒适。**我也守法：破一条不义之法，就要公开地破、带着爱去破、并且甘愿受罚，这正是对法律最高的尊重。真正伤害法治的，是让一群人永远等下去的那个「适当时机」。",
+   "text_en": "@Tocqueville, you say the danger of reform is that everything loosens. We boycotted Montgomery's buses for 381 days without breaking a single window. **What loosens is never order itself, only the comfort that rests on injustice.** I respect the law too: whoever breaks an unjust law must do it openly, lovingly, and with a willingness to accept the penalty. That is the highest respect for law there is. What truly damages the rule of law is the \"right moment\" that keeps one group waiting forever.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "huineng"
+    ],
+    "轻微赞同": [
+     "popper",
+     "alghazali"
+    ],
+    "中立": [
+     "wood"
+    ],
+    "轻微反对": [
+     "tocqueville"
+    ],
+    "疑惑": [
+     "hanfeizi"
+    ]
+   }
+  },
+  {
+   "id": "p09",
+   "round": 2,
+   "thinker": "tocqueville",
+   "reply_to": "p01",
+   "text": "@韩非子 你说改法之权当操于一。法国正是这么做的：两百年间，王权把地方自治一点点收走，规矩全由巴黎定。结果人民既不会议事，也不再信任彼此，一旦要改，只剩革命一条路。**规矩该由住在规矩里的人来改，哪怕慢些、吵些。**我在美国看到的乡镇会议，就是一个社会练习改规矩的地方。",
+   "text_en": "@Han Feizi, you say the power to change law should sit in one place. That is exactly what France did: over two centuries the crown stripped away local self-government piece by piece until Paris decided every rule. The result was a people who no longer knew how to deliberate or trust one another, so when change came, revolution was the only road left. **Rules should be changed by the people who live under them, even if it is slower and noisier.** The town meetings I saw in America were where a society practised changing its rules.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "乡镇会议": "town meeting（乡镇会议）：新英格兰地区由全体居民直接议决地方事务的集会，托克维尔视之为「自由的小学校」。"
+   },
+   "glossary_en": {
+    "town meeting": "A New England assembly in which all residents decide local affairs directly; Tocqueville called such institutions primary schools of liberty."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "mlk"
+    ],
+    "轻微赞同": [
+     "popper",
+     "huineng"
+    ],
+    "中立": [
+     "alghazali"
+    ],
+    "疑惑": [
+     "wood"
+    ],
+    "强烈反对": [
+     "hanfeizi"
+    ]
+   }
+  },
+  {
+   "id": "p10",
+   "round": 2,
+   "thinker": "hanfeizi",
+   "reply_to": "p03",
+   "text": "@马丁·路德·金 汝公然犯法而甘受其刑，吾犹敬之，此真知法者。汝之所求，正吾所谓「法不阿贵」也。然**人人自谓法不义而犯之，则法亡矣。**侠以武犯禁，儒以文乱法，皆自以为义。法之不善，当明言其害，请于上而更之；更之之后，上下一体守之，虽贵不免。",
+   "text_en": "@Martin Luther King Jr., you break the law openly and accept its punishment; I respect that, for you truly understand law. What you demand is just what I call \"the law does not bend to the noble.\" But **if everyone who calls a law unjust may break it, the law is finished.** The knight-errant defies prohibitions with the sword, the scholar confounds the law with words, and each believes himself righteous. If a law is bad, state its harm plainly and petition for its change. Once it is changed, high and low must obey it alike, and rank exempts no one.",
+   "vernacular": "你公开违法又甘愿受刑，我反倒敬你，这是真懂法的人。你要的，其实就是我说的「法不偏袒权贵」。可**人人都说法不公正就去违反，法也就没了。**游侠用武力犯禁，儒生用文辞乱法，都自认为是正义。法若不好，应当明说它的害处，请求上面改掉；改了之后，上上下下一起遵守，再尊贵的人也不能例外。",
+   "vernacular_en": "",
+   "glossary": {
+    "法不阿贵": "the law does not bend to the noble（法不阿贵）：出自《韩非子·有度》，主张法律对权贵与平民一视同仁。"
+   },
+   "glossary_en": {
+    "the law does not bend to the noble": "From Han Feizi's chapter \"Having Standards\": the law applies to the powerful and the common people alike."
+   },
+   "reactions": {
+    "轻微赞同": [
+     "popper",
+     "alghazali"
+    ],
+    "中立": [
+     "wood"
+    ],
+    "轻微反对": [
+     "huineng",
+     "tocqueville"
+    ],
+    "强烈反对": [
+     "mlk"
+    ]
+   }
+  },
+  {
+   "id": "p11",
+   "round": 2,
+   "thinker": "popper",
+   "reply_to": "p04",
+   "text": "@安萨里 「看律法护着什么」是个好标准，前提是这个目的能被检验。可如果谁都能说某条规矩是为了守护信仰或理智，那它就能为任何规矩辩护，也能为任何改动辩护。**一个能解释一切的标准，其实什么也没解释。**我宁要一个笨办法：写下这条规矩预期带来什么，过一段时间去量。没达到，就改。",
+   "text_en": "@al-Ghazali, \"look at what a law protects\" is a fine test, provided the purpose can be checked. But if anyone can claim a rule exists to guard faith or reason, then that purpose can justify any rule, and any change too. **A standard that explains everything explains nothing.** I'd rather use a clumsy method: write down what the rule is expected to achieve, then go back after a while and measure. If it fell short, change it.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "wood"
+    ],
+    "轻微赞同": [
+     "hanfeizi",
+     "mlk"
+    ],
+    "中立": [
+     "tocqueville"
+    ],
+    "轻微反对": [
+     "huineng"
+    ],
+    "强烈反对": [
+     "alghazali"
+    ]
+   }
+  },
+  {
+   "id": "p12",
+   "round": 2,
+   "thinker": "alghazali",
+   "reply_to": "p06",
+   "text": "@伍德 你说规矩活着只靠情境推动，这解释了人怎样守，却没说该守什么。我们每天五次礼拜，正是要把它练成不假思索的习惯。**好规矩本就该变成习惯，可一个习惯成了规矩，并不因此就是好的。**分辨两者，靠停下来问：如果今天从头来过，我还会这样立吗？会，就让习惯替你守着；不会，就拆。",
+   "text_en": "@Wendy Wood, you say rules survive on situational cues alone. That explains how people keep them, not which ones they should keep. We pray five times a day precisely so that prayer becomes second nature. **A good rule ought to become a habit, but a habit that has hardened into a rule is not good for that reason alone.** Telling them apart means stopping to ask: if we were starting from scratch today, would I set this rule? If yes, let habit keep it for you. If not, take it down.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "huineng"
+    ],
+    "轻微赞同": [
+     "wood",
+     "popper",
+     "tocqueville"
+    ],
+    "中立": [
+     "mlk",
+     "hanfeizi"
+    ]
+   }
+  },
+  {
+   "id": "p13",
+   "round": 2,
+   "thinker": "wood",
+   "reply_to": "p05",
+   "text": "@波普尔 写下预期、过段时间去量，这个方法我完全赞成，可数据告诉我，人几乎不会自己回头去量。意图对行为的影响，远没有我们以为的大。**所以别指望大家记得复查，要把复查做进流程里。**比如给每条新规矩设一个日落条款，到期不续就自动失效。这样，维持现状的一方得站出来讲理由，而不是想改的人去求别人。",
+   "text_en": "@Popper, I fully back writing down the expected effect and measuring it later, but my data says people almost never go back to measure on their own. Intentions move behaviour far less than we think. **So don't count on people remembering to review; build the review into the procedure.** Give every new rule a sunset clause, an expiry date after which it lapses unless renewed. Then it's the side defending the status quo that has to make its case, not the person who wants change who has to go begging.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "日落条款": "sunset clause（日落条款）：在规则里写明失效日期，到期须重新审议通过才能延续。"
+   },
+   "glossary_en": {
+    "sunset clause": "A provision stating that a rule expires on a set date unless it is reviewed and renewed."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "popper"
+    ],
+    "轻微赞同": [
+     "mlk",
+     "hanfeizi"
+    ],
+    "中立": [
+     "alghazali"
+    ],
+    "疑惑": [
+     "tocqueville"
+    ],
+    "轻微反对": [
+     "huineng"
+    ]
+   }
+  },
+  {
+   "id": "p14",
+   "round": 2,
+   "thinker": "huineng",
+   "reply_to": "p01",
+   "text": "@韩非子 汝言更法之权当操于一。五祖手握此衣，本可传之以固其门，乃自止之。**能舍其权者，方可定其法。**规矩若只利于掌规矩之人，掌者愈坚，众心愈离。昔我南归，数百人追至大庾岭，欲夺衣钵；此衣不止，争无已时。汝之法，能先缚君乎？若不能，此衣犹在也。",
+   "text_en": "@Han Feizi, you say the power to change law must sit in one place. The Fifth Patriarch held the robe in his hands; he could have kept passing it on to secure his school, yet he chose to stop it himself. **Only someone who can let go of power is fit to settle the rules.** If a rule benefits only those who hold it, the tighter they grip, the further people drift away. When I went south, hundreds pursued me to the Dayu Pass to seize the robe and bowl; had the robe not stopped, the fighting would never have ended. Can your law bind the ruler first? If not, the robe that breeds strife is still there.",
+   "vernacular": "你说改法的权力要握在一处。五祖手里握着这件袈裟，本可以接着传下去巩固本门，却自己叫停了。**能放下手中权力的人，才有资格定规矩。**规矩如果只对掌规矩的人有利，掌的人抓得越紧，众人的心就离得越远。当年我南归，几百人追到大庾岭，要夺衣钵；这件衣不停传，争夺就没有尽头。你的法，能先约束君王吗？若不能，那件惹祸的衣就还在。",
+   "vernacular_en": "",
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "mlk",
+     "tocqueville"
+    ],
+    "轻微赞同": [
+     "alghazali"
+    ],
+    "中立": [
+     "popper",
+     "wood"
+    ],
+    "轻微反对": [
+     "hanfeizi"
+    ]
+   }
+  },
+  {
+   "id": "p15",
+   "round": 3,
+   "thinker": "wood",
+   "reply_to": null,
+   "text": "听完各位，我把改规矩分成两步：先看清，再动手。看清：把家里、团队里的规矩列一张单子，每条旁边写上它被什么情境触发、最初想解决什么，写不出来的打个问号。动手：**别靠开会下决心，要改环境。**想取消周末必须秒回消息的默认，就把群消息改成周一统一处理；趁搬家、换岗、新人入职这些断裂期动手。也同意安萨里：留下的好规矩，就让它变成习惯，别天天靠意志撑。",
+   "text_en": "Having heard everyone, I'd split changing a rule into two steps: see it clearly, then act. To see it: list the rules in your home or team, and next to each write what triggers it and what it was first meant to solve. Put a question mark by the ones you can't explain. To act: **don't rely on a meeting full of resolutions; change the environment.** If you want to end the expectation of instant replies at weekends, switch the group chat to a Monday catch-up. Make the change during a break in routine, such as a move, a new role or a new hire. And I agree with al-Ghazali: let the good rules you keep become habits, so you don't have to prop them up with willpower every day.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "popper"
+    ],
+    "轻微赞同": [
+     "alghazali",
+     "hanfeizi",
+     "tocqueville"
+    ],
+    "中立": [
+     "huineng",
+     "mlk"
+    ]
+   }
+  },
+  {
+   "id": "p16",
+   "round": 3,
+   "thinker": "popper",
+   "reply_to": null,
+   "text": "我修正一点：@伍德 说得对，复查得做进制度，否则「可检验」只是一句漂亮话。所以我的建议很朴素：**改规矩，像做实验，不像发宣言。**第一，写下「出现什么就算它失败了」；第二，先在一个小组试一个月，留好退路；第三，给新旧规矩都设复查日。对金牧师我也服气：有些规矩失败的证据，早就写在被它伤害的人身上，用不着再等实验结果。",
+   "text_en": "I'll revise one point: @Wendy Wood is right that review has to be built into the system, or \"testable\" is just a pretty word. So my advice is plain: **change a rule the way you run an experiment, not the way you issue a manifesto.** First, write down what would count as failure. Second, try it with one group for a month, with a way back. Third, give both old and new rules a review date. And I concede to Dr King: for some rules the evidence of failure is already written on the people they harm, and there's no need to wait for an experiment.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "wood",
+     "mlk"
+    ],
+    "轻微赞同": [
+     "tocqueville",
+     "alghazali"
+    ],
+    "中立": [
+     "hanfeizi"
+    ],
+    "轻微反对": [
+     "huineng"
+    ]
+   }
+  },
+  {
+   "id": "p17",
+   "round": 3,
+   "thinker": "tocqueville",
+   "reply_to": null,
+   "text": "我仍然相信，改得最稳的规矩，是住在其中的人亲手改的。落到普通人身上：**家里的规矩开家庭会议改，团队的规矩让执行它的人一起改，**别等上面一纸通知。还有一条从旧制度学来的检验：特权还在，就问对应的义务还在不在。长辈要求守的「规矩」，若他们自己那份照顾和担当早已不在，晚辈心里只会剩怨气。改的时候把理由讲透，人心就不容易散。",
+   "text_en": "I still believe the most stable changes are made by the people who live under the rule. For ordinary people that means: **change family rules at a family meeting, and let the people who carry out a team's rules help change them,** rather than waiting for a notice from above. And here is a test I learned from the old regime: while a privilege remains, ask whether its matching duty does too. If elders insist on \"the rules\" while their own share of care and responsibility has long since gone, the young will feel nothing but resentment. When you change something, explain your reasons in full, and people are less likely to drift apart.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "mlk"
+    ],
+    "轻微赞同": [
+     "huineng",
+     "alghazali",
+     "wood"
+    ],
+    "中立": [
+     "popper"
+    ],
+    "轻微反对": [
+     "hanfeizi"
+    ]
+   }
+  },
+  {
+   "id": "p18",
+   "round": 3,
+   "thinker": "alghazali",
+   "reply_to": null,
+   "text": "我和波普尔各退一步：目的未必能精确量，但可以说清楚。**给每条规矩写一句「它在守护什么」：那样东西还在，就修手段；不在了，就整条放下。**动手前，先去问立规矩的人，或还记得缘由的人，这是切斯特顿留的功课，也是对前人的礼。问不到，就用波普尔的小试。最后一句提醒：玻璃刚碎的人，最容易把一切都看成盲从。怀疑也会变成新的 taqlid，别让它替你做决定。",
+   "text_en": "Popper and I can each give a little: a purpose may not be precisely measurable, but it can be stated clearly. **Write one line for every rule saying what it protects: if that thing still matters, fix the means; if it no longer does, let the whole rule go.** Before you act, ask whoever made the rule, or whoever still remembers why. That is Chesterton's homework, and a courtesy owed to those who came before. If no one can tell you, use Popper's small trial. One last warning: someone whose glass has just shattered is the most likely to see blind imitation everywhere. Doubt can become a new taqlid. Don't let it decide for you.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "huineng"
+    ],
+    "轻微赞同": [
+     "popper",
+     "tocqueville",
+     "wood"
+    ],
+    "中立": [
+     "hanfeizi",
+     "mlk"
+    ]
+   }
+  },
+  {
+   "id": "p19",
+   "round": 3,
+   "thinker": "hanfeizi",
+   "reply_to": null,
+   "text": "吾取诸君之长而守吾之本：**法当变，则一变而定，不可朝令夕改。**其一，凡欲更之法，先明告其故与其期，使人知所避就；其二，既更之后，先行于上，贵者不免，则下自服；其三，金子所言是也，法若专利于立法者，必失人心，此非民之过，乃法之过。今人治一家、管一组，亦当如此：少立规矩，立则必行，行则人人同守。",
+   "text_en": "I take the best of what you've all said and keep my own foundation: **when a law must change, change it once and settle it; don't issue an order in the morning and reverse it by night.** First, for any rule you mean to change, announce the reason and the date in advance, so people know where they stand. Second, once it is changed, apply it at the top first, with rank exempting no one, and those below will accept it. Third, King is right: a law that serves only those who make it will lose the people's hearts, and that is the law's fault, not theirs. Whoever runs a household or a small team today should do the same: make few rules, enforce the ones you make, and have everyone keep them alike.",
+   "vernacular": "我吸收各位的长处，但守住自己的根本：**法该改时，就一次改定，不能早上下令、晚上又改。**第一，凡是要改的规矩，先把原因和生效日期讲清楚，让人知道该怎么做；第二，改了之后先从上面执行，地位再高也不例外，下面自然服气；第三，金说得对，规矩如果只对定规矩的人有利，一定失人心，这不是百姓的错，是规矩的错。今天的人管一个家、带一个小组，也该这样：少立规矩，立了就一定执行，执行就人人一起遵守。",
+   "vernacular_en": "",
+   "glossary": {
+    "朝令夕改": "reversing orders overnight（朝令夕改）：早上发布的命令晚上就改，形容政令反复无常。"
+   },
+   "glossary_en": {
+    "reverse it by night": "To change an order the same day it was issued; a Chinese idiom for erratic, unreliable rule-making."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "wood"
+    ],
+    "轻微赞同": [
+     "mlk",
+     "popper"
+    ],
+    "中立": [
+     "alghazali",
+     "huineng"
+    ],
+    "轻微反对": [
+     "tocqueville"
+    ]
+   }
+  },
+  {
+   "id": "p20",
+   "round": 3,
+   "thinker": "mlk",
+   "reply_to": null,
+   "text": "我同意要试、要查、要讲清理由，但请给每次复查加一个问题：**这条规矩，定它的人自己守不守？代价落在谁身上？**这两问答不好，就别再说「再等等」，给出一个具体日期。日常里也一样：家里只管女儿不管儿子的规矩，公司只约束员工不约束管理层的规矩，都该当面提出来，署上名字，讲出理由，愿意为此付出代价，不怀恨地去改它。道德宇宙的弧线很长，但它不会自己弯，是一双双手把它扳弯的。",
+   "text_en": "I agree we should trial, review and give reasons, but please add a question to every review: **does the person who made this rule keep it, and on whom does its cost fall?** If those two questions have no good answer, stop saying \"wait a little longer\" and name a date. The same holds in daily life. A family rule that binds daughters but not sons, or a company rule that binds staff but not managers, should be raised face to face, with your name on it, your reasons stated and a willingness to pay the price. Change it without bitterness. The arc of the moral universe is long, but it doesn't bend by itself; people's hands bend it.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "tocqueville",
+     "huineng"
+    ],
+    "轻微赞同": [
+     "popper",
+     "hanfeizi"
+    ],
+    "中立": [
+     "alghazali",
+     "wood"
+    ]
+   }
+  },
+  {
+   "id": "p21",
+   "round": 3,
+   "thinker": "huineng",
+   "reply_to": null,
+   "text": "诸君所言，皆是筏也。吾但一言：**守亦是执，破亦是执；不执于守，不执于破，方见规矩本来面目。**问一条规矩，只问它今日还渡不渡人：渡人，则敬而守之；不渡人反成争端，如五祖之衣，止之可也。然止时莫怨前人，前人立之，亦为渡人。日用之中，但于每条家规、每条门规前自问：我守此，是为人，还是为心中不安？为不安者，先放下那份不安，再论去留。",
+   "text_en": "Everything you have said is a raft. I'll add one line: **clinging to a rule is attachment, and smashing it is attachment too; only when you cling to neither do you see the rule as it really is.** To judge a rule, ask only whether it still carries people across today. If it does, keep it with respect. If it no longer does and has become a source of strife, like the Fifth Patriarch's robe, let it stop. But don't resent those who came before when you stop it; they made it to carry people across too. In daily life, before each family rule or workplace rule, ask yourself: am I keeping this for people's sake, or for my own unease? If it's unease, put the unease down first, then decide whether the rule stays.",
+   "vernacular": "各位说的，都是筏子。我只说一句：**死守是执著，砸烂也是执著；既不执著于守，也不执著于破，才看得见规矩本来的样子。**问一条规矩，只问它今天还能不能帮人过河：能，就恭敬地守着；不能，反而成了争端，就像五祖那件袈裟，停了就是。但停的时候别怨前人，前人立它，也是为了帮人过河。日常里，在每条家规、每条单位规矩前问自己：我守着它，是为了人，还是为了心里那点不安？如果是为了不安，先把不安放下，再讨论它的去留。",
+   "vernacular_en": "",
+   "glossary": {
+    "执": "attachment（执）：佛教指对事物、观念的执取与黏着，是烦恼的根源。"
+   },
+   "glossary_en": {
+    "attachment": "In Buddhism, clinging to things or ideas, regarded as the root of suffering."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "alghazali"
+    ],
+    "轻微赞同": [
+     "wood",
+     "mlk",
+     "tocqueville"
+    ],
+    "中立": [
+     "popper"
+    ],
+    "疑惑": [
+     "hanfeizi"
+    ]
+   }
+  }
+ ],
+ "summaries": [
+  {
+   "ai": "claude",
+   "engine": "Opus 5 · 订阅(原生)",
+   "engine_en": "Opus 5 · subscription (native)",
+   "summary": "七位思想家用的尺子惊人地一致：**一条规矩的年纪不是理由，它今天守护的东西才是。**安萨里问它的宗旨，托克维尔问特权背后的义务还在不在，慧能问它还渡不渡人，波普尔问出现什么算它失败，四种说法指向同一个检验。伍德补了一盆冷水：多数老规矩活着只因没人停下来想，所以复查得写进流程。分歧有两处。谁来改：韩非子要权归于一、一次改定，托克维尔要住在规矩里的人慢慢商量着改。多快改：波普尔要小试、可退，金则提醒，「再等等」常常就是「永不」。",
+   "summary_en": "The seven thinkers measured with strikingly similar rulers: **a rule's age is no reason to keep it; what it protects today is.** Al-Ghazali asks about its purpose, Tocqueville asks whether the duty behind a privilege still exists, Huineng asks whether it still carries people across, and Popper asks what would count as failure. Four phrasings, one test. Wood added a dose of cold water: most old rules survive only because no one stops to think about them, so review has to be written into the procedure. The disagreements come in two places. Who changes a rule: Han Feizi wants the power concentrated and the change made once, while Tocqueville wants the people living under it to work it out slowly together. How fast: Popper wants small, reversible trials, while King warns that \"wait a little longer\" usually means \"never\".",
+   "insight": "一条老规矩被拆掉之后，它顺手承担的那份功能去了哪里？这一问几乎没人提。很多老规矩除了明面上的理由，还在暗中做着一件没人写下来的事。比如「年夜饭必须全家到齐」，明面是礼数，暗里是一年一次让散居各地的亲戚碰面，知道谁病了、谁难了。拆掉一条规矩不难，**难的是把它顺手承担的那份功能接住。**所以动手之前，除了问它为什么立，还要问：没了它，谁会悄悄吃亏？",
+   "insight_en": "When an old rule is scrapped, where do its side jobs go? Almost nobody asked. Many old rules, besides their stated purpose, quietly do something nobody ever wrote down. Take \"the whole family must be at New Year's Eve dinner\". On the surface it's etiquette; underneath, it's the one time a year scattered relatives meet and find out who is ill and who is struggling. Scrapping a rule is easy; **the hard part is catching the work it was quietly doing.** So before you act, ask not only why it was made but also: without it, who will lose out without anyone noticing?",
+   "advice": "先挑一条你最想改的家规或团队规矩，照安萨里的办法写一句「它在守护什么」，再照金的两问检查：定它的人自己守不守，代价落在谁身上。如果决定改，照波普尔先在小范围试一个月，同时照伍德在日历上定好复查日。动手前，再把这条规矩顺手做着的事列出来，比如它让谁见了面、替谁省了心，想好由什么接住，再改。若一时想不清，就先停用一个月，看看谁来抱怨，抱怨的人就是它一直在照顾的人。",
+   "advice_en": "Start by picking the family or team rule you most want to change, write one line on what it protects, as al-Ghazali suggests, then run King's two checks: does the person who made it keep it, and who bears its cost? If you decide to change it, follow Popper and trial it on a small scale for a month, and follow Wood by putting a review date in the calendar now. Before you act, also list the side jobs the rule is doing, such as who it brings together or whose worries it spares, decide what will take them over, and only then make the change. If you can't tell, suspend it for a month and see who complains; whoever complains is the person it has been looking after."
+  },
+  {
+   "ai": "gpt",
+   "engine": "openai · gpt-5.6-sol · high(真实API)",
+   "engine_en": "openai · gpt-5.6-sol · high (live API)",
+   "summary": "老规矩不能只凭年资续命，也不能只因令人不适就推倒：应追问它原本保护什么、今天实际造成什么、立规者是否同受约束，并把复查和纠错嵌入制度。这是各方汇合之处。真正的分歧在合法性与速度：改法应由权威统一还是由受影响者参与；应小步试验、保留退路，还是面对明确不义时立即抗拒；目的应以可量结果检验，还是还需由道德原则约束。**最实用的综合判断是先分流：明显侵害平等与基本权利的规则应立即止损、限期替换，普通的低效规则则小范围试改、定期复盘。**",
+   "insight": "改规矩时常漏算的不是旧规矩的成本，而是“过桥”的成本。即使新规则长期更好，切换期也可能让最缺时间、金钱、信息和话语权的人承担培训、迁移、收入中断或犯错风险；反对者未必恋旧，只是付不起改革的门票。反过来，拿“转型太贵”作借口也会让坏制度永久续命。**改革方案必须同时交代终点和桥梁：谁先改、谁获豁免多久、谁得到补偿或培训、旧流程何时关闭、失败时如何回退。**这样才能把抽象的去留之争变成可谈判的责任分配，并区分真实困难与既得利益的拖延。",
+   "advice": "本周挑一条最常引发摩擦的家规或团队流程，做一张“一页规则卡”：①目的；②实际受益者与付费者；③制定者是否同守；④取消后可能发生什么；⑤什么证据算成功或失败。接着做一个7至14天的小试，只改一个环节，提前记录两项指标，如耗时、差错或抱怨，并约定复盘日期。**试行通知里必须写清过渡安排：负责人、临时例外、培训或补偿、回退条件与正式生效日。**若规则涉及歧视、安全或基本权利，不要用试验拖延止损：先暂停伤害，再限期听取意见并落实替代方案。",
+   "summary_en": "An old rule does not deserve to survive merely because it is old, but discomfort alone is not enough to justify tearing it down. The shared ground is practical: identify what the rule was meant to protect, examine what it now does and who bears its costs, ask whether rule-makers are equally bound, and build in review and correction. The central disagreements concern legitimacy and pace. Should change be imposed consistently by a single authority or shaped by those who live under the rule? Should reform proceed through reversible trials, or should plainly unjust rules be resisted at once? And can outcomes be measured, or must they also answer to moral commitments that resist quantification? **The most useful synthesis is triage: rules that clearly violate equality or basic rights should be halted immediately and replaced on a firm deadline, while merely inefficient rules should be changed through limited pilots and scheduled review.** This preserves caution without turning caution into a veto on justice.",
+   "insight_en": "Reform debates often count the cost of the old rule but ignore the cost of crossing from old to new. A replacement may be better in the long run yet impose training, migration, lost income, uncertainty, or early-error risks on the people with the least time, money, information, and influence. Their resistance may reflect an inability to afford the transition, not nostalgia or bad faith. The opposite danger is equally real: incumbents can invoke transition costs forever to preserve a harmful arrangement. **A credible reform must specify both the destination and the bridge: who changes first, who receives a temporary exemption, what training or compensation is available, when the old process closes, and what triggers rollback.** This turns an abstract argument about change into a negotiable allocation of duties and risks. It also helps distinguish genuine implementation problems from delay tactics, because every claimed obstacle must be paired with a remedy, an owner, and a deadline.",
+   "advice_en": "This week, choose one household rule or team process that repeatedly causes friction. First, make a one-page rule card with five entries: its purpose; who benefits and who pays; whether the people who set it also follow it; what would likely happen if it vanished; and what evidence would count as success or failure. Second, run a seven-to-fourteen-day pilot that changes only one element. Record two simple measures in advance—such as time spent, errors, missed obligations, or complaints—and schedule the review before the pilot starts. **The trial notice should state the transition plan, including an owner, temporary exceptions, training or compensation, the rollback trigger, and the date a successful change becomes permanent.** Do not use experimentation to postpone action on discrimination, safety hazards, or basic rights. Pause the harmful practice first, document why, and set a short deadline for consultation and replacement. Then explicitly adopt, revise, or reject the change."
+  },
+  {
+   "ai": "gemini",
+   "engine": "google · gemini-4-argon · high(真实API)",
+   "engine_en": "google · gemini-4-argon · high (live API)",
+   "summary": "规矩只是渡河的筏、护事的器，从不因「老」本身而自动拥有合法性。从法家、禅宗到现代心理学，七位思想家在底线上高度一致：**当一条规矩所御之患已去、所负之责已空、所护之本已失，它就到了该改的时刻；且改规矩不能靠临时起意，必须把复查与试错做进日常机制。** 真正的分歧在于「谁有权按动修改键」与「何时算不能再等」：韩非子要自上而下一锤定音以护秩序，托克维尔要居于其中的人共议，金牧师则指出受害者不必苦等上面的「适当时机」；波普尔相信小步实验的数据，而慧能与安萨里更看重人心与根本价值是否仍在。",
+   "insight": "讨论中多把规矩看作独立的「篱笆」或「木筏」，但在真实的组织与家庭系统里，死规矩之所以极难清理，往往不是因为盲从或习惯，而是因为**「免责不对称」：守着一条愚蠢的老规矩出事，责任是前人的；拆掉一条老规矩哪怕只带来百分之一的意外，罪责全是改动者的。** 在组织行为学与系统工程中，这导致了规矩的「单向堆积」——加规矩永远比减规矩安全。此外，许多老规矩像 QWERTY 键盘一样，虽非最优解，却因捆绑了多方的转换成本而被锁死。对普通人而言，改规矩最大的阻力往往不是想不想得通，而是谁来为试错兜底。",
+   "advice": "本周就可以在团队或家里做三件小事：第一，借用温迪·伍德与安萨里的办法，拉一张「高频摩擦清单」，挑出三条大家最常抱怨的家规或工作流程，在旁边写下「它今天还在保护什么？定规矩的人自己守不守？」答不上来的直接标红。第二，按波普尔的思路做「两周冻结实验」：别硬求废除某条规矩，而是提议**「暂停执行两周，若未发生具体某类事故，到期自动作废」**，把举证责任倒置给想保留它的人。第三，针对「怕担责」心理，事先在家庭或小组会上约定：试改期间若出小岔子，算集体实验成本，绝不追责提议者。",
+   "summary_en": "Rules are merely rafts for crossing a river or tools for solving problems; age alone never grants them legitimacy. From Legalism and Zen to modern psychology, the seven thinkers converge on a foundational truth: **when the threat a rule guarded against has vanished, its paired duty has evaporated, or its core purpose is lost, the rule must change—and review mechanisms must be built into our routines rather than left to willpower.** Their real clash lies in who holds the trigger and how failure is defined: Han Feizi demands top-down authority to preserve order, while Tocqueville favors collective self-governance and King insists victims need not wait for a \"convenient season\"; Popper relies on measurable experiments, whereas Al-Ghazali and Huineng look to whether the rule still serves the human heart and fundamental values.",
+   "insight_en": "The roundtable treats rules mostly as standalone fences or rafts, yet in real-world organizations and families, dead rules survive not just out of habit or blind faith, but because of **asymmetric accountability: if things go wrong while following a foolish old rule, no one is blamed; if you remove a rule and a rare mishap occurs, the fault is entirely yours.** In organizational behavior and systems engineering, this drives one-way \"rule accretion\"—adding a rule is always safer than subtracting one. Moreover, like the QWERTY keyboard, many outdated rules persist simply because the coordination cost of switching is too high. For ordinary people, the hardest part of changing a rule isn't proving it's obsolete, but redesigning who absorbs the risk of trying something new.",
+   "advice_en": "Try three concrete steps at home or work this week: First, combining Wendy Wood's and Al-Ghazali's approaches, list three rules or workflows that cause the most daily friction, and write beside each: \"What is this protecting today, and do the rule-makers follow it themselves?\" Flag any you can't answer. Second, run a Popper-style \"two-week freeze\": instead of fighting to abolish a rule permanently, **propose pausing it for two weeks with a sunset clause—if a specific, pre-defined problem doesn't occur, it expires automatically.** Third, to neutralize the fear of blame, agree upfront as a family or team that any minor hiccups during this trial count as shared learning costs, never the proposer's personal fault."
+  }
+ ],
+ "hooks": [
+  {
+   "from": "claude",
+   "text": "**规矩顺手干的活**：很多老规矩除了明面理由，还暗中承担着没人写下的功能，比如年夜饭让散居的亲戚一年碰一次面。拆它之前，先想好谁来接住这份活。",
+   "text_en": "**The side jobs rules do**: many old rules quietly do work nobody wrote down, like a New Year's Eve dinner that brings scattered relatives together once a year. Before you scrap one, decide who will take over that work."
+  },
+  {
+   "from": "popper",
+   "text": "**改一条规矩前，先问哪几个问题？**本场每位思想家都给了一道检验。把它们排在一起，就是一张可以照着走的自测单。",
+   "text_en": "**What should you ask before changing a rule?** Each thinker in this debate offered one test. Put side by side, they make a checklist you can actually follow.",
+   "answer": {
+    "lead": "把一条规矩依次过一遍下面六问，**卡在哪一问，就从哪一步动手**：",
+    "table": {
+     "head": [
+      "自测题",
+      "答不上来 / 答案是「否」时",
+      "出处"
+     ],
+     "rows": [
+      [
+       "它在守护什么？",
+       "先去问立规矩或还记得缘由的人；问不到，就小范围试着停掉",
+       "安萨里 · 切斯特顿"
+      ],
+      [
+       "出现什么情况，就算它失败了？",
+       "写不出失败条件，它就成了教条，先补上标准再谈去留",
+       "波普尔"
+      ],
+      [
+       "定它的人自己守不守？",
+       "不守的规矩最伤人心，先让它约束到上面",
+       "金 · 韩非子"
+      ],
+      [
+       "它对应的义务还有人在尽吗？",
+       "只剩特权、没了职责，就该改或连特权一起取消",
+       "托克维尔"
+      ],
+      [
+       "它是被什么情境触发的？",
+       "多半只是惯性，趁搬家、换岗等断裂期改环境",
+       "伍德"
+      ],
+      [
+       "没了它，谁会悄悄吃亏？",
+       "先找好替代，再动手",
+       "Claude"
+      ]
+     ]
+    },
+    "tail": "三条原则：**改的人要能被改的规矩约束**；能小试就别一次推倒；每条规矩，不论新旧，都给一个复查日期。"
+   },
+   "answer_en": {
+    "lead": "Run a rule through these six questions in order. **Wherever it gets stuck is where you start**:",
+    "table": {
+     "head": [
+      "Question",
+      "If you can't answer, or the answer is no",
+      "Source"
+     ],
+     "rows": [
+      [
+       "What does it protect?",
+       "Ask whoever made it or still remembers why; if no one can say, try pausing it on a small scale",
+       "al-Ghazali · Chesterton"
+      ],
+      [
+       "What would count as failure?",
+       "If you can't state a failure condition, it has become dogma; set a standard before deciding",
+       "Popper"
+      ],
+      [
+       "Does the person who made it keep it?",
+       "Rules the makers ignore breed the most resentment; make it bind those at the top first",
+       "King · Han Feizi"
+      ],
+      [
+       "Is anyone still doing the duty that came with it?",
+       "If only the privilege remains, change it or drop the privilege too",
+       "Tocqueville"
+      ],
+      [
+       "What situation triggers it?",
+       "It's probably just inertia; change the setting during a move or a new role",
+       "Wood"
+      ],
+      [
+       "Without it, who quietly loses out?",
+       "Arrange a replacement before you act",
+       "Claude"
+      ]
+     ]
+    },
+    "tail": "Three principles: **whoever changes a rule should be bound by it**; trial small rather than tearing everything down; give every rule, old or new, a review date."
+   }
+  },
+  {
+   "from": "mlk",
+   "text": "**谁能把一条规矩拿上桌**：被规矩约束最深的人，往往最没有提议修改的权利。家里、公司里，提出「这条该改了」的门槛有多高，又是谁设的？",
+   "text_en": "**Who gets to put a rule on the table?** Those most bound by a rule often have the least right to propose changing it. At home or at work, how high is the bar for saying \"this should change\", and who set it?"
+  },
+  {
+   "from": "gpt",
+   "text": "**过桥的成本谁出**：新规矩长远更好，切换期的培训、搬迁、收入中断却常落在最没时间和话语权的人身上。改革方案要同时写清终点和桥：谁先改、谁暂缓、谁补偿、何时回退。",
+   "text_en": "**Who pays to cross the bridge?** A new rule may be better in the long run, but the training, relocation and lost income of the switch tend to fall on those with the least time and say. A reform plan should spell out both the destination and the bridge: who changes first, who gets a delay, who is compensated, and when to roll back."
+  },
+  {
+   "from": "gemini",
+   "text": "**加规矩永远比减规矩安全**：守着蠢规矩出事，错在前人；拆了规矩出一点意外，罪全在改动者。这种免责不对称让规矩只增不减。谁来为试错兜底？",
+   "text_en": "**Adding a rule is always safer than removing one**: if trouble comes while following a foolish rule, the blame lies with whoever made it; if a mishap follows removing one, it all lands on the reformer. This asymmetry means rules only ever pile up. Who will underwrite the cost of trying?"
+  },
+  {
+   "from": "tocqueville",
+   "text": "**论资排辈还剩多少义务**：资历带来的特权，原本对应着带新人、扛责任。当老员工、长辈只剩特权而义务已经消失，这份敬重还该不该给？",
+   "text_en": "**What duties are left in seniority?** The privileges of seniority once came with mentoring newcomers and carrying responsibility. When veterans and elders keep the privileges but the duties are gone, is the deference still owed?"
+  }
+ ]
+}

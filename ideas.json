@@ -2,15 +2,6 @@
   "_comment": "议题投票数据。candidates=未辩候选(供投票)，debated=已辩(链到辩论)。投票免 GitHub 登录，存于自建后端(Cloudflare Worker + D1，见 ~/Desktop/cissy0802.github.io/engage-backend/)：每候选一个 poll，key='topic:'+id，choice up/down，净票=👍−👎。votes 字段由 routine 每次跑 `python3 refresh_votes.py`(读后端 /votes-net) 回写；页面 ideas.js 也会实时拉取覆盖显示。观众自提议题在评论 page='thinker-open-questions'，各候选下讨论 page='topic:'+id——routine 读这些把好提案提炼成新 candidates。新候选加进 candidates 即可。",
   "candidates": [
     {
-      "id": "when-to-change-a-rule",
-      "votes": 0,
-      "q": "一条老规矩，什么时候该改？",
-      "q_en": "When should an old rule be changed?",
-      "note": "守多久算固执，改多快算随波逐流？切斯特顿说，看不出篱笆为什么立着就先别拆；可有些篱笆的立法者早已不在，要防的野兽也早绝迹。难处始终是：谁来判定哪一条是根本，这个判定又归谁管？",
-      "note_en": "How long is steadfast before it turns stubborn, how fast is reform before it becomes drift? Chesterton said not to pull down a fence until you know why it stands, but some fences have outlived their builders and the beasts they kept out. The hard part: who decides which rules are fundamental, and who oversees that decision?",
-      "cat": "ethics"
-    },
-    {
       "id": "who-pays-for-discomfort",
       "votes": 0,
       "q": "让人不舒服的好东西，卖得出去吗？",
@@ -1216,6 +1207,13 @@
       "q_en": "Must the falling leaf return to its roots?",
       "date": "2026-10-28",
       "cat": "life"
+    },
+    {
+      "id": "when-to-change-a-rule",
+      "q": "一条老规矩，什么时候该改？",
+      "q_en": "When should an old rule be changed?",
+      "date": "2026-10-29",
+      "cat": "ethics"
     }
   ]
 }

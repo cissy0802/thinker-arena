@@ -38,15 +38,6 @@
       "cat": "meta"
     },
     {
-      "id": "reporting-a-colleague",
-      "votes": 0,
-      "q": "举报同事，是尽责还是告密？",
-      "q_en": "Is reporting a colleague duty or betrayal?",
-      "note": "看见同事造假、违规、欺负人，说出去是对组织和受害者尽责，还是出卖身边的人？奖励举报能让问题浮出水面，也可能养出人人自危、互相盯梢的风气。界线在哪：举报什么、向谁举报、凭什么证据？",
-      "note_en": "When you see a colleague falsifying figures, breaking rules or bullying someone, is speaking up a duty to the organisation and the victim, or a betrayal of the person next to you? Rewarding reports brings problems to light but can also breed a climate of suspicion and mutual surveillance. Where is the line: what to report, to whom, and on what evidence?",
-      "cat": "work"
-    },
-    {
       "id": "war-and-cooperation",
       "votes": 0,
       "q": "战争让人类更会合作了吗？",
@@ -99,6 +90,15 @@
       "note": "乔布斯说，点只能回头连。可回头连上的，往往是事后挑出来的那几个点，其余几百个没连上的被悄悄略过；而多数人的转折又确实来自没计划到的偶然。既然画不出线，规划还剩什么用——定方向，还是只管多播种子？自检：你现在的位置，有几成是当初计划好的？",
       "note_en": "Jobs said the dots only connect looking back. But the dots we connect are usually the few picked out afterwards, with the hundreds that led nowhere quietly dropped; and most people's turning points really did come from chance they never planned for. If no line can be drawn ahead, what is planning still for: setting a direction, or just sowing more seeds? A test: how much of where you are now did you actually plan?",
       "cat": "self"
+    },
+    {
+      "id": "why-we-punish",
+      "votes": 0,
+      "q": "惩罚坏人，是为了公道还是为了解气？",
+      "q_en": "Do we punish wrongdoers for justice or for satisfaction?",
+      "note": "罚是为了让作恶者偿还、为了吓阻下一个，还是只为了让我们心里舒服？惩罚违规者时大脑奖赏回路会亮，正义感与报复心未必分得开。",
+      "note_en": "Do we punish to make wrongdoers pay, to deter the next one, or simply to make ourselves feel better? The brain's reward circuits light up when we punish rule-breakers, so a sense of justice and a taste for revenge may be hard to tell apart.",
+      "cat": "ethics"
     }
   ],
   "debated": [
@@ -1214,6 +1214,13 @@
       "q_en": "When should an old rule be changed?",
       "date": "2026-10-29",
       "cat": "ethics"
+    },
+    {
+      "id": "reporting-a-colleague",
+      "q": "举报同事，是尽责还是告密？",
+      "q_en": "Is reporting a colleague duty or betrayal?",
+      "date": "2026-10-30",
+      "cat": "work"
     }
   ]
 }

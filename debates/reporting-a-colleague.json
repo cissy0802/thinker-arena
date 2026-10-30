@@ -1,0 +1,711 @@
+{
+  "id": "reporting-a-colleague",
+  "question": "举报同事，是尽责还是告密？",
+  "question_en": "Is reporting a colleague duty or betrayal?",
+  "sub": "看见同事造假或欺负人，说出去是保护受害者，还是出卖身边人？",
+  "sub_en": "When a colleague cheats or bullies, is speaking up protecting the victim or selling out the person beside you?",
+  "date": "2026-10-30",
+  "participants": [
+    "edmondson",
+    "kongzi",
+    "fehr",
+    "vasubandhu",
+    "arendt",
+    "maimonides"
+  ],
+  "casting": [
+    {
+      "id": "edmondson",
+      "reason": "她研究团队心理安全感，认为组织需要「举报」说明日常开口渠道已坏，责任首先在管理者，而不在举报者的忠诚。",
+      "reason_en": "She studies psychological safety in teams and argues that an organisation needing whistleblowers has broken everyday channels for speaking up; the burden falls first on managers, not on the reporter's loyalty."
+    },
+    {
+      "id": "kongzi",
+      "reason": "他认为「直」不等于有错必揭，厌恶以揭短为正直；同僚有过先当面劝告，但伤及无辜时见义不为是无勇。",
+      "reason_en": "He holds that uprightness does not mean exposing every fault and distrusts those who make a virtue of exposure; a colleague's fault calls first for honest advice, though standing by while the innocent are harmed is cowardice."
+    },
+    {
+      "id": "fehr",
+      "reason": "他的实验显示惩罚违规者是合作得以维持的关键，但也发现罚人会激活奖赏回路，悬赏可能挤掉公平心。",
+      "reason_en": "His experiments show that punishing violators is what keeps cooperation going, but also that punishing activates reward circuits and that bounties can crowd out the sense of fairness."
+    },
+    {
+      "id": "vasubandhu",
+      "reason": "他从唯识角度看动机：同一举发，出于悲心还是嗔心，业果截然不同；所见之过也可能是自己成见的投射。",
+      "reason_en": "He looks at motive through Yogācāra: the same report has entirely different karmic weight depending on whether it comes from compassion or anger, and the fault one \"sees\" may be one's own prejudice projected."
+    },
+    {
+      "id": "arendt",
+      "reason": "她从艾希曼看到沉默的普通人如何共成大恶，又从极权看到人人做线人如何摧毁信任，把公开作证与匿名密报严格分开。",
+      "reason_en": "From Eichmann she saw how silent ordinary people jointly accomplish great evil, and from totalitarianism how turning everyone into an informer destroys trust; she sharply separates open testimony from anonymous denunciation."
+    },
+    {
+      "id": "maimonides",
+      "reason": "他把「不可搬弄是非」与「不可袖手旁观邻人流血」同时定为律法，用「有没有人正在受害」来划界，并主张先私下责备。",
+      "reason_en": "He codified both \"do not be a talebearer\" and \"do not stand idly by your neighbour's blood,\" draws the line at whether someone is being harmed, and calls for private rebuke first."
+    }
+  ],
+  "posts": [
+    {
+      "id": "p01",
+      "round": 1,
+      "thinker": "kongzi",
+      "reply_to": null,
+      "text": "昔叶公语吾曰：「吾党有直躬者，其父攘羊，而子证之。」吾答之曰：「吾党之直者异于是：父为子隐，子为父隐，**直在其中矣**。」此言父子，非言同僚。同僚有过，当先「忠告而善道之，不可则止」。吾门子贡恶讦以为直者，吾深然之：揭人之短以邀己名，非直也。然其所为若害及无辜，见义不为，无勇也。",
+      "text_en": "The Duke of She once told me: \"Among my people there is an upright man. When his father stole a sheep, the son testified against him.\" I answered: \"Among my people, uprightness is different. A father covers for his son, a son covers for his father, and **uprightness lies in that**.\" That was about fathers and sons, not colleagues. When a colleague errs, first \"advise him faithfully and guide him well; if he will not listen, stop.\" My disciple Zigong detests those who take exposing others for uprightness, and I agree: dragging out another's faults to win a name for yourself is not upright. Yet if what he does harms the innocent, then to see what is right and not do it is cowardice.",
+      "vernacular": "叶公曾对我说：「我们那里有个正直的人，父亲偷了羊，儿子出来作证。」我回答：「我们那里的正直不一样：父亲替儿子隐瞒，儿子替父亲隐瞒，**正直就在这里面了**。」这说的是父子，不是同事。同事有过错，先要「真心劝告、好好引导，劝不动就停下」。我的学生子贡厌恶把揭发别人当作正直的人，我很赞同：揭人短处来给自己博名声，那不是正直。但如果他做的事伤害到无辜的人，看见该做的事却不做，就是没有勇气。",
+      "vernacular_en": "",
+      "glossary": {
+        "直": "uprightness（直）：孔子的「直」不是有错必揭，而是合乎人情的真诚，与「讦」相对。",
+        "讦": "exposing others（讦）：揭发他人的隐私或过失，《论语·阳货》中子贡说他厌恶「讦以为直者」。"
+      },
+      "glossary_en": {
+        "uprightness": "Confucius's zhi: not exposing every fault, but a sincerity that honours human bonds; the opposite of exposing others for show."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "vasubandhu",
+          "maimonides"
+        ],
+        "轻微反对": [
+          "fehr",
+          "edmondson"
+        ],
+        "强烈反对": [
+          "arendt"
+        ]
+      }
+    },
+    {
+      "id": "p02",
+      "round": 1,
+      "thinker": "maimonides",
+      "reply_to": null,
+      "text": "《利未记》同一节里写着两条诫命：「不可在民中往来搬弄是非」，紧接着「不可袖手旁观邻人流血」。我在《密西拿托拉》里把两条都定为律法：同事有错，先私下、温和地责备，别当众羞辱；但若有人正在受害，知情不说就是共犯。**界线不看你忠于谁，而看有没有人正在流血。**闲谈别人的过失，哪怕属实，也是 lashon hara。",
+      "text_en": "In Leviticus a single verse carries two commandments: \"Do not go about as a talebearer among your people,\" and right after it, \"Do not stand idly by the blood of your neighbour.\" In the Mishneh Torah I set both down as law. When a colleague does wrong, first rebuke him privately and gently; do not shame him in public. But if someone is being harmed right now, to know and keep quiet is to share the guilt. **The line is not drawn by whom you are loyal to, but by whether someone is bleeding.** Gossiping about another's faults, even true ones, is lashon hara.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "密西拿托拉": "Mishneh Torah（密西拿托拉）：迈蒙尼德编纂的十四卷犹太律法法典。",
+        "lashon hara": "希伯来语「恶舌」：说他人的坏话，即使属实，在犹太律法中也属禁止，除非是为了保护他人。"
+      },
+      "glossary_en": {
+        "Mishneh Torah": "Maimonides's fourteen-volume code of Jewish law.",
+        "lashon hara": "Hebrew for \"evil tongue\": speaking ill of others, forbidden in Jewish law even when true, unless it serves to protect someone."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "edmondson"
+        ],
+        "轻微赞同": [
+          "kongzi",
+          "arendt",
+          "vasubandhu"
+        ],
+        "中立": [
+          "fehr"
+        ]
+      }
+    },
+    {
+      "id": "p03",
+      "round": 1,
+      "thinker": "fehr",
+      "reply_to": null,
+      "text": "我们做过公共品实验：几个人往一个公共池里投钱。没有惩罚时，合作一轮轮塌掉，搭便车的人越来越多；一旦允许花自己的钱罚搭便车者，合作就稳住了。连自己没受损的第三方也愿意掏钱去罚。**所以「告发」不是人性的阴暗面，而是大规模合作赖以维持的底层机制。**但先别鼓掌：脑成像显示，惩罚违规者时奖赏回路会亮。罚人是爽的，爽的东西就会被滥用。",
+      "text_en": "We ran public goods experiments: a few people put money into a common pot. Without punishment, cooperation collapses round after round as more people free-ride. Once players may spend their own money to fine the free-riders, cooperation holds. Even uninvolved bystanders will pay to punish. **So \"telling on someone\" is not the dark side of human nature; it is a basic mechanism that keeps large-scale cooperation alive.** But hold the applause: brain scans show reward circuits light up when people punish rule-breakers. Punishing feels good, and whatever feels good gets abused.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "公共品实验": "public goods game（公共品实验）：每人决定往公共池投多少钱、收益大家平分的实验，用来测量合作与搭便车。",
+        "第三方": "third-party punishment（第三方惩罚）：自身没有受损的旁观者自掏腰包惩罚违规者。"
+      },
+      "glossary_en": {
+        "public goods experiments": "Games where each player chooses how much to put into a shared pot whose returns are split equally; used to measure cooperation and free-riding.",
+        "uninvolved bystanders": "Third-party punishment: people who were not harmed themselves pay to punish a violator."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "maimonides",
+          "edmondson"
+        ],
+        "疑惑": [
+          "kongzi"
+        ],
+        "中立": [
+          "arendt"
+        ],
+        "轻微反对": [
+          "vasubandhu"
+        ]
+      }
+    },
+    {
+      "id": "p04",
+      "round": 1,
+      "thinker": "arendt",
+      "reply_to": null,
+      "text": "我旁听过艾希曼的审判。他不是恶魔，是个尽职的办事员，最大的罪过是不思考：「我只是照上面说的做」。**大多数恶不是坏人做的，是一群什么都没说的普通人一起做成的。**所以沉默不是中立。但我也研究过极权：它最有效的手段，恰恰是让每个邻居都可能是线人，把人与人之间的信任碾碎。同样是「说出去」，可以是公开担责的行动，也可以是匿名递上去的密报，两者截然不同。",
+      "text_en": "I sat in on Eichmann's trial. He was no monster but a diligent functionary whose greatest crime was not thinking: \"I only did what I was told.\" **Most evil is not done by wicked people; it is accomplished together by ordinary people who said nothing.** So silence is not neutral. But I have also studied totalitarianism, and its most effective tool is precisely this: making every neighbour a possible informer, grinding trust between people into dust. \"Speaking out\" can be a deed done openly, owning the consequences, or a secret tip passed upward. Those are entirely different things.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "极权": "totalitarianism（极权）：不仅垄断政治、还要渗透并改造私人生活的统治形式；阿伦特认为它的要害是摧毁人与人之间的纽带，让每个人孤立无援。"
+      },
+      "glossary_en": {
+        "totalitarianism": "A form of rule that does not merely monopolise politics but penetrates and remakes private life; Arendt saw its core as destroying the bonds between people and leaving each person isolated."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "maimonides"
+        ],
+        "轻微赞同": [
+          "edmondson",
+          "kongzi"
+        ],
+        "中立": [
+          "fehr"
+        ],
+        "疑惑": [
+          "vasubandhu"
+        ]
+      }
+    },
+    {
+      "id": "p05",
+      "round": 1,
+      "thinker": "edmondson",
+      "reply_to": null,
+      "text": "我早年研究医院团队，发现口碑好的团队上报的差错反而多——不是错得多，是有心理安全感、敢说。航天飞机失事、银行员工偷开假账户，事后看都有人早就知道，只是不敢开口。**一个组织需要用到「举报」这个词，说明日常的开口渠道已经坏了。**健康的地方，指出问题是例行工作，不是背叛，也不需要英雄。该先被追问的不是举报者忠不忠诚，而是管理者平时听到坏消息时是什么脸色。",
+      "text_en": "Early on I studied hospital teams and found that the best-regarded ones reported more errors. Not because they made more, but because they had the psychological safety to say so. The Columbia shuttle disaster, the bank whose staff opened fake accounts: afterwards it turned out people knew early and didn't dare speak. **When an organisation needs the word \"whistleblowing,\" its everyday channels for speaking up are already broken.** In a healthy workplace, pointing out a problem is routine work, not betrayal, and it takes no hero. The first question isn't whether the reporter is loyal; it's what face the manager usually makes on hearing bad news.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "心理安全感": "psychological safety（心理安全感）：团队成员相信提问题、报坏消息、承认错误不会遭到羞辱或报复的共同信念。"
+      },
+      "glossary_en": {
+        "psychological safety": "A shared belief within a team that raising questions, reporting bad news or admitting mistakes will not bring humiliation or punishment."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "fehr"
+        ],
+        "轻微赞同": [
+          "arendt",
+          "maimonides"
+        ],
+        "中立": [
+          "kongzi",
+          "vasubandhu"
+        ]
+      }
+    },
+    {
+      "id": "p06",
+      "round": 1,
+      "thinker": "vasubandhu",
+      "reply_to": null,
+      "text": "诸君论举与不举，皆于外事上较量。然**业由思成**：同一举发，出于悲心，则护众生；出于嗔心、嫉心，则是借公器报私怨。身语二业，皆以思心所为体。复次，汝所「见」之过，或是遍计所执——以己之成见，增益彼人之相。故未举之前，先观二事：吾所见者实否？吾所以举者何心？",
+      "text_en": "You all weigh reporting or not reporting by outward deeds. But **karma is made by intention**. The same disclosure, born of compassion, protects living beings; born of anger or envy, it uses a public instrument to settle a private grudge. Deeds of body and speech both have volition at their core. Moreover, the fault you \"saw\" may be imagined construction: your own prejudice adding features to the other person. So before you report, examine two things: is what I saw real? And from what mind am I reporting?",
+      "vernacular": "各位争论举报还是不举报，都只在外在的事上比较。可是**行为的善恶由起心动念决定**：同样是揭发，出于悲悯，就是在保护众人；出于愤恨、嫉妒，就是借公家的工具报私人的怨。身体的行为、说出的话，本质都是背后那个意志。再者，你「看见」的过错，可能是遍计所执——用自己的成见，往别人身上添了本没有的样子。所以举报之前，先看两件事：我看到的是真的吗？我举报，是出于什么心？",
+      "vernacular_en": "",
+      "glossary": {
+        "思心所": "cetanā（思心所）：唯识学中推动造作的心理功能，即意志；佛教认为业的本质就是思。",
+        "遍计所执": "parikalpita（遍计所执）：唯识「三性」之一，指把心识周遍计度、虚构出来的相，当成外在实有。"
+      },
+      "glossary_en": {
+        "volition": "Cetanā: the mental factor that drives action; in Buddhism karma is, at root, intention.",
+        "imagined construction": "Parikalpita: one of the Three Natures in Yogācāra; mistaking what the mind has projected for something really out there."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "kongzi"
+        ],
+        "轻微赞同": [
+          "maimonides"
+        ],
+        "中立": [
+          "edmondson"
+        ],
+        "轻微反对": [
+          "arendt",
+          "fehr"
+        ]
+      }
+    },
+    {
+      "id": "p07",
+      "round": 2,
+      "thinker": "arendt",
+      "reply_to": "p01",
+      "text": "@孔子 「父为子隐」放在一家人里我能理解。但这套逻辑一旦扩到「圈子」「单位」「自己人」，就成了我在许多官僚机构里见过的那种体面：我们不出卖自己人。**把忠诚全给了身边的人，就等于把受害者推到了圈子外面。**那个被欺负的实习生、被造假数据误导的病人，也是邻人，只是不在你的饭桌上。",
+      "text_en": "@Confucius I can understand \"a father covers for his son\" within a family. But once that logic stretches to \"our circle,\" \"our unit,\" \"our own people,\" it becomes a decorum I have seen in many bureaucracies: we don't sell out our own. **Give all your loyalty to the people beside you, and you push the victims outside the circle.** The bullied intern, the patient misled by falsified data: they are neighbours too, just not at your dinner table.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "maimonides"
+        ],
+        "轻微赞同": [
+          "edmondson",
+          "fehr"
+        ],
+        "轻微反对": [
+          "kongzi"
+        ],
+        "中立": [
+          "vasubandhu"
+        ]
+      }
+    },
+    {
+      "id": "p08",
+      "round": 2,
+      "thinker": "kongzi",
+      "reply_to": "p03",
+      "text": "@费尔 子言罚人则其心乐，此正吾所忧。**讦人而心快，久则以讦为能，以告为功**，朝中遂多佞人。然吾非谓不举也：「以直报怨」。其过在事，则就事而言，当面言之，言之有据；不可阴附长官之耳，亦不可张扬以为己名。举之者，所以止其恶，非所以快吾心。",
+      "text_en": "@Fehr You say the heart takes pleasure in punishing others. That is exactly what worries me. **Expose people and enjoy it, and in time exposing becomes a skill and informing becomes merit**, until the court is full of flatterers. Yet I do not say never report. \"Repay injury with uprightness.\" If the fault lies in the deed, speak to the deed, face to face, with evidence. Do not whisper in a superior's ear, nor broadcast it to make your own name. One reports to stop the wrong, not to gladden one's own heart.",
+      "vernacular": "@费尔 你说惩罚别人时心里快活，这正是我担忧的。**揭发别人而心里痛快，久了就会把揭发当本事、把告状当功劳**，朝廷里于是多了谄佞小人。但我不是说不举报：「用正直来回应怨恨」。过错在事上，就针对事来说，当面说，有凭有据地说；不可以偷偷凑到上司耳边，也不可以张扬出去给自己博名声。举报是为了制止他作恶，不是为了让自己心里痛快。",
+      "vernacular_en": "",
+      "glossary": {
+        "以直报怨": "repaying injury with uprightness（以直报怨）：出自《论语·宪问》，孔子主张对怨恨既不以德报之，也不以怨报之，而是依公道回应。"
+      },
+      "glossary_en": {
+        "Repay injury with uprightness": "From the Analects: answer a wrong neither with kindness nor with revenge, but with what is fair."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "vasubandhu"
+        ],
+        "轻微赞同": [
+          "fehr",
+          "maimonides"
+        ],
+        "轻微反对": [
+          "edmondson"
+        ],
+        "中立": [
+          "arendt"
+        ]
+      }
+    },
+    {
+      "id": "p09",
+      "round": 2,
+      "thinker": "fehr",
+      "reply_to": "p05",
+      "text": "@埃德蒙森 心理安全很重要，但只有安全、没有后果，开口就成了对着墙说话。我的实验里，多数人是有条件的合作者：看到搭便车的人不受追究，自己也跟着少投。**人敢不敢说，取决于说了有没有用；说了三次没下文，第四次就没人说了。**还有个坑：重金悬赏举报，会把「我在维护规矩」变成「我在挣奖金」，挤掉原本的公平心，还招来诬告。",
+      "text_en": "@Edmondson Psychological safety matters, but safety without consequences turns speaking up into talking to a wall. In my experiments most people are conditional cooperators: when they see free-riders go unpunished, they cut their own contributions too. **Whether people dare to speak depends on whether speaking changes anything; after three reports with no follow-up, nobody makes a fourth.** And there's another trap: big cash bounties turn \"I'm upholding the rules\" into \"I'm earning a reward,\" crowding out the original sense of fairness and inviting false accusations.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "有条件的合作者": "conditional cooperators（有条件的合作者）：别人合作我就合作、别人搭便车我就跟着退缩的人，在实验中占多数。",
+        "挤掉": "crowding out（挤出效应）：外部报酬取代并削弱了原本的内在动机。"
+      },
+      "glossary_en": {
+        "conditional cooperators": "People who cooperate when others do and pull back when others free-ride; the majority in experiments.",
+        "crowding out": "When an external reward displaces and weakens an intrinsic motive."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "edmondson"
+        ],
+        "轻微赞同": [
+          "vasubandhu",
+          "kongzi"
+        ],
+        "中立": [
+          "maimonides",
+          "arendt"
+        ]
+      }
+    },
+    {
+      "id": "p10",
+      "round": 2,
+      "thinker": "edmondson",
+      "reply_to": "p02",
+      "text": "@迈蒙尼德 「先私下责备」听着体面，可现实里，看见问题的往往是新人、外包、实习生，出问题的往往比他高两级。**让最弱的人去当面对质最强的人，等于让他一个人扛下全部风险。**所以组织得给不靠人情的通道：匿名热线、跨级反馈、反报复承诺，而且要真兑现。私下劝告适合平级之间的小错，不适合有权力差的场合。",
+      "text_en": "@Maimonides \"Rebuke privately first\" sounds decent, but in practice the person who sees the problem is often a new hire, a contractor or an intern, and the person causing it is two levels above them. **Asking the weakest person to confront the strongest face to face leaves them carrying the whole risk alone.** So organisations need channels that don't run on personal ties: anonymous hotlines, skip-level feedback, anti-retaliation pledges that are actually honoured. Private rebuke suits small mistakes between peers, not situations with a gap in power.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "反报复": "anti-retaliation（反报复）：明确禁止并追究对提出问题者的打压、调岗、降薪等报复行为的制度承诺。"
+      },
+      "glossary_en": {
+        "anti-retaliation": "An institutional commitment to forbid, and punish, reprisals such as sidelining, transfers or pay cuts against people who raise concerns."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "arendt"
+        ],
+        "轻微赞同": [
+          "fehr",
+          "maimonides"
+        ],
+        "轻微反对": [
+          "kongzi"
+        ],
+        "中立": [
+          "vasubandhu"
+        ]
+      }
+    },
+    {
+      "id": "p11",
+      "round": 2,
+      "thinker": "maimonides",
+      "reply_to": "p10",
+      "text": "@埃德蒙森 你说得对，律法本来也分轻重。责备要私下、温和，是为了让他回头；但若有人欺压众人、危害公众，就不必等他回头，可以交给有权制止的人。**私下劝告是给犯错者留的门，不是给受害者设的关卡。**另外，向谁说也要掂量：告诉能制止他的人是尽责，告诉茶水间就是 lashon hara。",
+      "text_en": "@Edmondson You are right, and the law itself weighs cases differently. Rebuke is private and gentle so that he may turn back. But when someone oppresses the many or endangers the public, you need not wait for him to turn back; you may hand the matter to those with the power to stop it. **Private rebuke is a door left open for the wrongdoer, not a checkpoint placed in front of the victim.** Also weigh whom you tell: telling someone who can stop him is duty; telling the break room is lashon hara.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "edmondson",
+          "arendt"
+        ],
+        "轻微赞同": [
+          "kongzi",
+          "fehr"
+        ],
+        "中立": [
+          "vasubandhu"
+        ]
+      }
+    },
+    {
+      "id": "p12",
+      "round": 2,
+      "thinker": "vasubandhu",
+      "reply_to": "p09",
+      "text": "@费尔 汝言悬赏易招诬告，吾更进一步。**一众之中，日日以伺察为功，则所熏者皆疑种**；种子增长，一旦现行，见同侪皆似贼。此非一二人之过，乃共业也。然亦不可执「不举」为清净：见恶不止，是舍心成麻木，亦熏痴种。是故制度之设，当令举者所熏为护，不为伺。",
+      "text_en": "@Fehr You say bounties invite false accusations; I go one step further. **When a group counts spying as merit day after day, what it perfumes into the mind are seeds of suspicion.** The seeds grow, and once they ripen, every colleague looks like a thief. This is not one or two people's fault but collective karma. Yet do not cling to \"not reporting\" as purity either: to see wrong and not stop it turns equanimity into numbness, and that too perfumes seeds of delusion. So systems should be built so that what reporters cultivate is protection, not surveillance.",
+      "vernacular": "@费尔 你说悬赏容易招来诬告，我再往前推一步。**一群人里天天把暗中监视当功劳，熏出来的全是怀疑的种子**；种子长大，一旦现起，看同事个个都像贼。这不是一两个人的错，而是大家共同造的业。但也不能执着于「不举报」就是清净：看见恶不去制止，是把「放下」变成了麻木，也在熏愚痴的种子。所以设计制度，要让举报的人熏习的是「护」，而不是「盯」。",
+      "vernacular_en": "",
+      "glossary": {
+        "共业": "collective karma（共业）：众人共同造作、共同承受其果的业，比如一个群体的风气。",
+        "熏": "perfuming（熏习）：唯识学的比喻，行为与念头像香气一样熏染心识，留下种子，日后再现起为习性。"
+      },
+      "glossary_en": {
+        "perfumes": "Vāsanā, \"perfuming\": the Yogācāra image of deeds and thoughts scenting the mind like incense, leaving seeds that later resurface as habits.",
+        "collective karma": "Karma made and reaped by many together, such as the climate of a group."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "kongzi"
+        ],
+        "轻微赞同": [
+          "fehr",
+          "arendt"
+        ],
+        "中立": [
+          "edmondson",
+          "maimonides"
+        ]
+      }
+    },
+    {
+      "id": "p13",
+      "round": 3,
+      "thinker": "edmondson",
+      "reply_to": null,
+      "text": "听完各位，我的结论是：**举报是最后一道防线，不该是第一道。**给普通人三条：一，对事不对人，把看到的写下来，时间、地点、数据，不加形容词；二，事情可逆、是平级小错，先当面说一句「这个数我看着不太对」；三，牵涉伤害他人，或对方比你位高，直接走正式渠道，并留好副本。如果你是管理者，下次有人来报坏消息，第一句话说「谢谢你告诉我」。",
+      "text_en": "Having heard everyone, my conclusion is: **reporting is the last line of defence, not the first.** Three things for ordinary people. One: stick to the facts, not the person. Write down what you saw: time, place, figures, no adjectives. Two: if it's reversible and a small slip between peers, start face to face with \"this number doesn't look right to me.\" Three: if others are being harmed, or the person outranks you, go straight to formal channels and keep copies. And if you manage people, the next time someone brings you bad news, make your first words \"thank you for telling me.\"",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "maimonides"
+        ],
+        "轻微赞同": [
+          "fehr",
+          "kongzi",
+          "arendt"
+        ],
+        "中立": [
+          "vasubandhu"
+        ]
+      }
+    },
+    {
+      "id": "p14",
+      "round": 3,
+      "thinker": "fehr",
+      "reply_to": null,
+      "text": "我同意孔子和世亲的担心：罚人会上瘾，这股冲动得装上刹车。**好的制度让惩罚确定、温和、看得见，而不是罕见、严酷、全凭运气。**对个人：举报前做个换人测试——同样的事，换成你讨厌的同事做、换成你喜欢的同事做，你会一样处理吗？答案不同，就先冷一冷。对组织：重证据、轻悬赏，对诬告同样追责。",
+      "text_en": "I share the worry of Confucius and Vasubandhu: punishing can become addictive, so the impulse needs brakes. **A good system makes sanctions certain, moderate and visible, not rare, harsh and a matter of luck.** For individuals, run a swap test before you report: if a colleague you dislike had done the same thing, and if one you like had, would you handle it the same way? If the answers differ, cool off first. For organisations: weigh evidence, go easy on bounties, and hold false accusers to account as well.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "vasubandhu"
+        ],
+        "轻微赞同": [
+          "kongzi",
+          "edmondson",
+          "maimonides"
+        ],
+        "中立": [
+          "arendt"
+        ]
+      }
+    },
+    {
+      "id": "p15",
+      "round": 3,
+      "thinker": "kongzi",
+      "reply_to": null,
+      "text": "闻诸君之言，吾有取焉。**直者，不隐其所当言，亦不言其所不当言。**小过，忠告而善道之；大恶害人，见义而为。言之必有据，必以其名，不以匿书伤人。亦当自省：「躬自厚而薄责于人」，吾所责于彼者，吾能无之乎？如此，则举者不失其直，被举者亦不失其所以为人。",
+      "text_en": "Having heard you all, I take something from each. **The upright do not hide what ought to be said, nor say what ought not to be said.** For small faults, advise faithfully and guide well. For great wrongs that harm others, see what is right and do it. When you speak, have evidence and put your own name to it; do not wound people with anonymous letters. And examine yourself: \"Be strict with yourself and lenient with others.\" The faults I charge him with, am I free of them? Then the one who reports keeps his uprightness, and the one reported keeps his dignity as a person.",
+      "vernacular": "听了各位的话，我各有所取。**正直的人，不隐瞒该说的，也不说不该说的。**小的过错，真心劝告、好好引导；大恶伤人，见义就去做。说的时候一定要有凭据，一定署上自己的名字，不用匿名信去伤人。也要反省自己：「多责备自己，少责备别人」，我拿来责备他的那些，我自己就没有吗？这样，举报的人不失正直，被举报的人也不失做人的尊严。",
+      "vernacular_en": "",
+      "glossary": {
+        "躬自厚而薄责于人": "being strict with oneself and lenient with others（躬自厚而薄责于人）：出自《论语·卫灵公》，意为多责备自己、少责备别人，就能远离怨恨。"
+      },
+      "glossary_en": {
+        "Be strict with yourself and lenient with others": "From the Analects: demand much of yourself and little of others, and resentment stays away."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "arendt"
+        ],
+        "轻微赞同": [
+          "maimonides",
+          "vasubandhu"
+        ],
+        "轻微反对": [
+          "edmondson"
+        ],
+        "中立": [
+          "fehr"
+        ]
+      }
+    },
+    {
+      "id": "p16",
+      "round": 3,
+      "thinker": "arendt",
+      "reply_to": null,
+      "text": "我收回对孔子的一半不满：他说要署名，这是对的。**区分告密与作证的，是你愿不愿意站到光里，为自己说的话负责。**匿名渠道可以保护弱者，但最终总得有人公开站出来。给普通人一个习惯：遇到不对的事，问自己一句——五年后这件事曝光，我愿意被记成「当时什么都没说的那个人」吗？这个问题比任何规章都更能把人从不思考里拽出来。",
+      "text_en": "I take back half my complaint against Confucius: he is right about putting your name to it. **What separates informing from bearing witness is whether you are willing to step into the light and answer for what you said.** Anonymous channels can protect the weak, but in the end someone has to stand up in public. One habit for ordinary people: when something seems wrong, ask yourself, if this comes out in five years, am I willing to be remembered as the one who said nothing at the time? That question pulls people out of thoughtlessness better than any rulebook.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "kongzi"
+        ],
+        "轻微赞同": [
+          "maimonides",
+          "fehr"
+        ],
+        "轻微反对": [
+          "edmondson"
+        ],
+        "中立": [
+          "vasubandhu"
+        ]
+      }
+    },
+    {
+      "id": "p17",
+      "round": 3,
+      "thinker": "maimonides",
+      "reply_to": null,
+      "text": "我把各位的话排成一架梯子，从下往上爬，能停就停。第一级，核实事实，别凭传闻；第二级，平级小错，私下温和地说；第三级，对方不改，或你没有开口的地位，就去找能制止他的人，而不是找听众；第四级，**有人正在受害，就不必按顺序，直接跳到能止损的那一级。**每一级都要问：我说这话，是为了修补，还是为了让他难堪？",
+      "text_en": "Let me arrange what everyone said into a ladder; climb from the bottom and stop as soon as you can. Rung one: confirm the facts; don't act on rumour. Rung two: for a small fault between peers, speak privately and gently. Rung three: if he won't change, or you are in no position to speak to him, go to someone who can stop him, not someone who'll merely listen. Rung four: **if someone is being harmed right now, skip the order and go straight to the rung that stops the harm.** On every rung, ask: am I saying this to repair, or to humiliate?",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "edmondson",
+          "fehr"
+        ],
+        "轻微赞同": [
+          "kongzi",
+          "arendt",
+          "vasubandhu"
+        ]
+      }
+    },
+    {
+      "id": "p18",
+      "round": 3,
+      "thinker": "vasubandhu",
+      "reply_to": null,
+      "text": "诸君所立，梯也、刹车也、署名也，皆善。吾但补一句：**举发之事，其果在外；举发之心，其果在己。**以悲心举，彼虽受罚，汝心无垢；以嗔心举，纵所言皆实，汝已熏一分怨种。故当举则举，举已即放：不追看其受罚之快，不于众前复述其过。如是，护众生而不自伤。",
+      "text_en": "What you have set up, the ladder, the brakes, the signature, is all good. I add only one line: **the act of reporting bears fruit out there; the mind that reports bears fruit in you.** Report from compassion and, even if he is punished, your mind stays clean. Report from anger and, even if every word is true, you have already planted a seed of resentment. So report when you must, and once it's done, let go: don't linger to savour his punishment, and don't retell his faults to others. That way you protect others without harming yourself.",
+      "vernacular": "各位立下的，梯子、刹车、署名，都好。我只补一句：**揭发这件事，果报落在外面；揭发的那颗心，果报落在你自己身上。**以悲悯之心举报，他即使受罚，你的心也干净；以愤恨之心举报，哪怕你说的句句属实，也已经熏下了一分怨恨的种子。所以该举报就举报，举报完就放下：别去追看他受罚时的痛快，别在众人面前反复讲他的过错。这样既保护了众人，也不伤自己。",
+      "vernacular_en": "",
+      "glossary": {
+        "悲心": "compassion（悲心）：佛教「慈悲」中的「悲」，愿他人离苦的心。"
+      },
+      "glossary_en": {
+        "compassion": "Karuṇā: the wish that others be free of suffering."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "kongzi"
+        ],
+        "轻微赞同": [
+          "fehr",
+          "maimonides"
+        ],
+        "中立": [
+          "arendt",
+          "edmondson"
+        ]
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "ai": "claude",
+      "engine": "Opus 5 · 订阅(原生)",
+      "engine_en": "Opus 5 · subscription (native)",
+      "summary": "全场最大的共识是：**举报不是「说或不说」的开关，而是一架有顺序的梯子**——先核实事实，平级小错当面说，有人正在受害就直接找能止损的人；对事不对人，找能管事的人，而不是找听众。迈蒙尼德的梯子、埃德蒙森的「最后一道防线」、孔子的「有据、署名」在这里汇合。分歧有两处：一是匿名，埃德蒙森视之为保护弱者的必需，孔子和阿伦特却认为告密与作证的分界正在于是否署名担责；二是动机分量，世亲和孔子认为起心动念决定举报的成色，费尔和阿伦特更看后果——受害者不会因为你动机不纯就少受一分伤。",
+      "summary_en": "The broadest agreement: **reporting is not an on/off switch but a ladder climbed in order.** Check the facts, raise small faults between peers face to face, and when someone is being harmed go straight to whoever can stop it; address the deed, not the person, and speak to someone with power to act, not an audience. Maimonides's ladder, Edmondson's \"last line of defence\" and Confucius's \"evidence and a signature\" all meet here. The disagreements are two. First, anonymity: Edmondson sees it as essential protection for the weak, while Confucius and Arendt think the line between informing and testifying is precisely whether you sign your name. Second, how much motive matters: Vasubandhu and Confucius say intention decides the worth of a report, while Fehr and Arendt look to consequences; a victim is not hurt any less because your motives were impure.",
+      "insight": "全场默认举报者站在干净的一边，看见的是同事的错。但普通人更常遇到的是灰色地带：**你自己也在其中**——那张报表你也签过字，那套潜规则你也沾过光。这时最难的不是要不要出卖同事，而是一开口就得先承认自己。很多沉默并非出于忠诚，而是因为说出来等于自首。组织若真想让问题浮出水面，就该给「主动说出、自己也有份」的人从轻处理；个人则要明白，越早开口，需要承认的部分越小，拖得越久越说不出口。",
+      "insight_en": "The whole discussion assumed the reporter stands on clean ground, looking at a colleague's fault. But ordinary people more often face a grey zone: **you are part of it too.** You also signed that report; you also benefited from that unwritten rule. Then the hardest part is not whether to betray a colleague but that speaking up means confessing first. Much silence comes not from loyalty but from the fact that talking would amount to turning yourself in. An organisation that truly wants problems to surface should go easy on people who come forward despite their own involvement. And individuals should know that the earlier you speak, the less you have to admit; the longer you wait, the harder it gets to say anything at all.",
+      "advice": "一、拿一件你觉得不对、但还没说出口的小事，照埃德蒙森的办法只写下时间、事实、数据，不加形容词；**写不出具体事实，说明你还不该举报**。二、做一次费尔的换人测试：把当事人换成你喜欢的同事，你还会同样处理吗？答案不同就先放一放。三、趁平时没事，弄清单位里真正能止损的是谁、有没有反报复规定，别等出了事才临时找门路。四、若你自己也牵涉其中，越早主动说出越好。",
+      "advice_en": "First, take one small thing that seemed wrong but you haven't mentioned, and, following Edmondson, write down only the time, the facts and the figures, with no adjectives. **If you can't write down concrete facts, you're not ready to report.** Second, run Fehr's swap test: if the person were a colleague you like, would you handle it the same way? If not, set it aside for now. Third, while things are calm, find out who in your workplace can actually stop harm and whether there are anti-retaliation rules, so you aren't scrambling when something happens. Fourth, if you are involved yourself, the sooner you come forward, the better."
+    },
+    {
+      "ai": "gpt",
+      "engine": "openai · gpt-5.6-sol · high(真实API)",
+      "engine_en": "openai · gpt-5.6-sol · high (live API)",
+      "summary": "讨论守住了一条共同底线：沉默并非天然忠诚，举报也非天然正义。面对正在发生的伤害、欺诈或公共风险，应让信息抵达真正能止损的人；面对可逆的小错，则先核实、就事沟通，并避免羞辱、闲谈和借机报复。制度还须保护发声者、公正调查并给违规以稳定后果。真正的分歧集中在程序：是否应先当面提醒、匿名是否损害责任、动机应占多大权重，以及举报究竟是日常纠错还是最后防线。**可取的总原则是：以风险决定升级速度，以证据约束指控，以止损而非惩罚快感决定去向。**",
+      "insight": "举报者常被迫同时扮演侦探、检察官和法官，仿佛只有拿出完整铁证才配开口；这既会让弱者沉默，也容易使未经核实的怀疑直接变成定罪。更合理的分工，是允许员工提交可信的风险信号，再由独立调查者取证、听取对方陈述并判断责任。普通人应明确标注哪些是亲见事实、哪些是推断、哪些尚待核实，同时说明潜在损害与紧迫性。**举报者的责任是诚实、具体、不过度声称；组织的责任是保密调查、程序公正并防止报复。**这样既降低开口门槛，也保护被举报者不被流言先行判刑。",
+      "advice": "今天就可做三件事。第一，先分级：若涉及人身安全、骚扰、重大造假、违法或证据可能灭失，不要单独对质，立即使用合规、审计、工会、监管或紧急渠道；一般失误且沟通安全，再私下提醒。第二，建立事实日志，记下时间、地点、原话、文件来源和在场者，把「我看到」与「我推测」分栏；保留合法取得的材料，但不要越权窃取资料。第三，只向能处理的人提交，写明希望采取的止损措施，并保存回执和后续记录。**若遭威胁、排挤或考核报复，应停止孤军应对，尽快寻求工会、律师或外部监管支持。**",
+      "summary_en": "The discussion converges on a firm baseline: silence is not automatically loyalty, and reporting is not automatically virtuous. When people face ongoing harm, fraud, or public danger, information should reach someone able to stop it. For reversible, lower-stakes mistakes, verify the facts, address the conduct rather than attack the person, and avoid humiliation, gossip, or revenge. A sound organization must also protect people who speak up, investigate fairly, and impose predictable consequences. The real disagreements concern procedure: whether direct conversation should usually come first, whether anonymity weakens accountability or protects the vulnerable, how much the reporter’s motive should matter, and whether reporting is ordinary organizational feedback or a last line of defense. **The best synthesis is to let risk determine the speed of escalation, let evidence limit the claim, and let harm reduction—not the pleasure of punishment—determine where the information goes.**",
+      "insight_en": "Employees are often implicitly asked to be detective, prosecutor, and judge, as though they have no right to speak until they can prove a complete case. That expectation silences vulnerable people; the opposite mistake turns an unverified suspicion into an informal conviction. A better division of labor allows an employee to submit a credible risk signal while an independent investigator gathers evidence, hears the other person’s account, and determines responsibility. A reporter should distinguish firsthand observations from inferences and unresolved questions, while explaining the possible harm and urgency. **The reporter’s duty is to be honest, specific, and modest about what is known; the organization’s duty is to investigate confidentially, ensure due process, and prevent retaliation.** This lowers the threshold for raising legitimate concerns without allowing rumor to punish the accused before the facts are established.",
+      "advice_en": "Take three practical steps. First, triage the risk. If the issue involves immediate safety, harassment, serious fraud, illegality, or evidence likely to disappear, do not confront the person alone; use compliance, audit, union, regulatory, or emergency channels promptly. For an ordinary, reversible error, speak privately first only if doing so is genuinely safe. Second, create a factual log recording dates, locations, exact words, document sources, and witnesses. Separate what you observed from what you inferred, and preserve only material you obtained lawfully. Third, report to someone with both authority and reasonable independence, state what immediate safeguard you want, and retain receipts and follow-up records. **If threats, exclusion, demotion, or performance-review retaliation begins, stop handling the matter alone and seek help from a union, lawyer, ombuds office, or external regulator.**"
+    },
+    {
+      "ai": "gemini",
+      "engine": "google · gemini-4-argon · high(真实API)",
+      "engine_en": "google · gemini-4-argon · high (live API)",
+      "summary": "无论持何种哲学，六位思想家都把红线画在了“是否有人正在受害”上：**当同僚的行为已伤及无辜或公共利益，沉默就是共犯；但若只是平级间的可逆小错，不经当面沟通的背后汇报与茶水间闲谈，皆属不义。**众人也一致认可“阶梯原则”：先核实事实、自省动机（戒除惩罚快感与私怨），按轻重拾级而上。真正的交锋在于“匿名与否”及“风险归属”：孔子与阿伦特坚持公开署名才算担责的“作证”，以此防范毁掉信任的阴暗告密；埃德蒙森则指出，在真实的权力落差下要求弱者实名对质等于推人入险境，匿名通道与管理者的接纳度才是破局前提。",
+      "insight": "区分“告密”与“尽责”，除却动机，更取决于权力与风险的流向：**告密是顺着权力的意志向下或向平级猎巫，用出卖同侪换取自身安全或奖赏；尽责（吹哨）则是逆着权力的惯性向上预警，替不在场的受害者扛下风险。**此外，在场诸位多默认存在一个“能制止错误的公正上级”，但波音、安然等现代组织失效史表明：当同事的违规其实是在迎合管理层的扭曲KPI时，内部合规通道往往不会解决问题，反而会合谋清理提出问题的人。分辨恶行是“背刺公司的个人贪腐”还是“公司默许的系统性溃烂”，决定了内部举报是救赎还是自投罗网。",
+      "advice": "在职场遇到类似困境，可立即执行三步：第一，做埃德蒙森的“去形容词记录”与费尔的“换人测试”——只记时间、数据和客观影响，删掉情绪词汇；自问若换成关系最好的同事做此事，自己是否同样处理。第二，做“利益对齐排查”：**先判断该违规是在损害上级利益（如舞弊吃回扣），还是在迎合上级的扭曲指标（如业绩造假）；前者可走内部通报，后者则须警惕通道失灵，务必先在个人端留存证据副本。**第三，平级小错先用提问留体面（“这处数据和源表有出入，是我漏了新口径吗？”）；若已正式上报，便守住世亲的“举已即放”，绝不在茶水间复述半句。",
+      "summary_en": "Across vastly different traditions, all six thinkers draw the exact same red line at active harm: **when a colleague’s actions injure the innocent or endanger the public, silence is complicity; yet for reversible, minor mistakes among peers, going behind someone's back or gossiping in the breakroom is unjust.** Everyone also converges on a \"ladder of escalation\"—verify facts first, check your own motives (ruling out malice or the neurological thrill of punishing), and address minor issues privately before escalating. The real fault lines lie in *anonymity* and *institutional trust*. Confucius and Arendt insist on signing one's name to separate accountable testimony from the toxic, trust-destroying snitching of totalitarian regimes. Edmondson counters with organizational reality: across steep power gradients, demanding that a junior employee confront a superior openly is an invitation to retaliation, making anonymous channels and psychologically safe leadership essential prerequisites.",
+      "insight_en": "Beyond personal motives, distinguishing \"snitching\" from \"doing one's duty\" requires mapping the vectors of power and risk: **snitching flows with power, policing peers or subordinates to buy personal safety or favor from authority; true whistleblowing flows against power, absorbing personal risk to protect absent victims.** Furthermore, both Maimonides and Edmondson largely assume the existence of an impartial authority figure who wants to stop the wrongdoing. Yet modern corporate disasters—from Enron to Boeing—repeatedly show that when a colleague’s misconduct actually serves management's distorted KPIs or short-term profits, internal compliance channels often act as silencers designed to neutralize the reporter rather than fix the flaw. Discerning whether an offense is a rogue act betraying the organization or a systemic rot quietly endorsed by it determines whether internal reporting is an act of repair or professional suicide.",
+      "advice_en": "When facing a workplace violation this week, take three concrete steps. First, combine Edmondson’s \"adjective-free log\" with Fehr’s \"substitution test\": write down only timestamps, data, and objective impacts while stripping away emotional labels, then ask if you would react the same way had your favorite colleague made the mistake. Second, run an \"incentive alignment check\": **determine whether the misconduct harms leadership's interests (like embezzlement) or quietly serves their distorted targets (like falsifying safety metrics); use internal channels for the former, but keep offline personal copies of your evidence for the latter in case the system retaliates.** Third, for minor peer errors, replace accusations with curious questions (\"This number doesn't match the source sheet—did I miss an update?\"). Once you escalate a serious issue formally, practice Vasubandhu’s rule of \"reporting and letting go\"—never repeat the story around the watercooler."
+    }
+  ],
+  "hooks": [
+    {
+      "from": "claude",
+      "text": "**自己也在其中的举报**：错误你也沾过手时，开口就等于自首。组织该不该给「主动说出、自己也有份」的人从轻处理？",
+      "text_en": "**Reporting when you're part of it**: if you had a hand in the wrong too, speaking up means confessing. Should organisations go easier on people who come forward despite their own involvement?"
+    },
+    {
+      "from": "gpt",
+      "text": "**被举报者的正当程序**：一次误报就可能毁掉一个人。被举报的人该有哪些权利，举报制度才可信？",
+      "text_en": "**Due process for the accused**: one false report can ruin someone. What rights must the person reported have for a reporting system to be trusted?"
+    },
+    {
+      "from": "arendt",
+      "text": "**匿名还是署名**：匿名保护弱者，署名让人担责。能不能两者兼得，比如先匿名报告、查实后再公开作证？",
+      "text_en": "**Anonymous or signed**: anonymity protects the weak; a signature makes people accountable. Can we have both, say, report anonymously first and testify openly once the facts are confirmed?"
+    },
+    {
+      "from": "fehr",
+      "text": "**罚人的快感**：惩罚违规者时奖赏回路会亮。正义感和报复心，在脑子里分得开吗？",
+      "text_en": "**The pleasure of punishing**: reward circuits light up when we punish rule-breakers. Can the brain tell a sense of justice from a taste for revenge?"
+    },
+    {
+      "from": "maimonides",
+      "text": "**看见了，下一步做什么**：从同事的小毛病到有人正在受害，每种情况该找谁、怎么说？",
+      "text_en": "**You saw it; what next?**: from a colleague's small slip to someone being harmed right now, whom do you go to in each case, and how?",
+      "answer": {
+        "lead": "按伤害大小和权力差来分级，**能停在低一级就别往上爬，但有人正在受害就直接跳级**。",
+        "table": {
+          "head": [
+            "情境",
+            "做什么",
+            "为什么"
+          ],
+          "rows": [
+            [
+              "只是听说，没亲眼见",
+              "先核实，或干脆不传",
+              "传闻转述最容易冤枉人"
+            ],
+            [
+              "平级之间的小错，可补救",
+              "私下、当面、只说事实",
+              "给对方留改正的门，不伤关系"
+            ],
+            [
+              "说过了不改，或对方比你位高",
+              "找有权制止的人（直属上级、合规、HR），书面提出",
+              "避免最弱的人独自对抗最强的人"
+            ],
+            [
+              "造假、欺凌，有人正在受害",
+              "直接走正式渠道，留副本",
+              "止损优先，顺序可以跳过"
+            ],
+            [
+              "组织内部渠道失灵或被掩盖",
+              "找外部监管或法律途径",
+              "内部救济已用尽"
+            ]
+          ]
+        },
+        "tail": "每一步都问：**我是在找能管事的人，还是在找听众？** 只说事实，不加形容词；说完不追看对方受罚，也不在人前复述。"
+      },
+      "answer_en": {
+        "lead": "Grade it by how much harm there is and how big the power gap is. **Stop at the lowest rung that works, but if someone is being harmed right now, skip straight up.**",
+        "table": {
+          "head": [
+            "Situation",
+            "What to do",
+            "Why"
+          ],
+          "rows": [
+            [
+              "You only heard about it, didn't see it",
+              "Check first, or simply don't pass it on",
+              "Second-hand stories are how innocent people get blamed"
+            ],
+            [
+              "A small, fixable mistake between peers",
+              "Privately, face to face, facts only",
+              "Leaves them a way to fix it without damaging the relationship"
+            ],
+            [
+              "You raised it and nothing changed, or they outrank you",
+              "Go to someone with power to stop it (your manager, compliance, HR), in writing",
+              "Don't leave the weakest person to take on the strongest alone"
+            ],
+            [
+              "Fraud or bullying, someone is being harmed",
+              "Go straight to formal channels and keep copies",
+              "Stopping the harm comes first; the order can be skipped"
+            ],
+            [
+              "Internal channels fail or cover it up",
+              "Go to an outside regulator or legal route",
+              "Internal remedies are exhausted"
+            ]
+          ]
+        },
+        "tail": "At every step ask: **am I going to someone who can act, or looking for an audience?** Stick to facts, no adjectives; afterwards, don't linger over their punishment or retell it to others."
+      }
+    }
+  ]
+}

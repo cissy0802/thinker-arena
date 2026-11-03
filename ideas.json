@@ -2,15 +2,6 @@
   "_comment": "议题投票数据。candidates=未辩候选(供投票)，debated=已辩(链到辩论)。投票免 GitHub 登录，存于自建后端(Cloudflare Worker + D1，见 ~/Desktop/cissy0802.github.io/engage-backend/)：每候选一个 poll，key='topic:'+id，choice up/down，净票=👍−👎。votes 字段由 routine 每次跑 `python3 refresh_votes.py`(读后端 /votes-net) 回写；页面 ideas.js 也会实时拉取覆盖显示。观众自提议题在评论 page='thinker-open-questions'，各候选下讨论 page='topic:'+id——routine 读这些把好提案提炼成新 candidates。新候选加进 candidates 即可。",
   "candidates": [
     {
-      "id": "who-pays-for-discomfort",
-      "votes": 0,
-      "q": "让人不舒服的好东西，卖得出去吗？",
-      "q_en": "Can something good that makes people uncomfortable survive a market?",
-      "note": "如实的体检报告、不讨好的新闻、会让人挂科的课、直言的朋友——它们的价值恰恰来自那点不适，可供给者靠的是对方愿不愿意再来。市场于是把不适磨平。有没有别的办法养活它们？",
-      "note_en": "An honest check-up, unflattering news, a course you can fail, a friend who tells you straight: their value lies in the discomfort, yet whoever supplies them depends on you coming back. So markets sand the discomfort away. Is there another way to keep them alive?",
-      "cat": "ethics"
-    },
-    {
       "id": "city-planned-or-grown",
       "votes": 0,
       "q": "城市该规划出来，还是让它自己长？",
@@ -72,6 +63,17 @@
       "note": "罚是为了让作恶者偿还、为了吓阻下一个，还是只为了让我们心里舒服？惩罚违规者时大脑奖赏回路会亮，正义感与报复心未必分得开。",
       "note_en": "Do we punish to make wrongdoers pay, to deter the next one, or simply to make ourselves feel better? The brain's reward circuits light up when we punish rule-breakers, so a sense of justice and a taste for revenge may be hard to tell apart.",
       "cat": "ethics"
+    },
+    {
+      "id": "work-as-a-game",
+      "votes": 0,
+      "q": "把工作做成游戏，是激励还是操控？",
+      "q_en": "Turning work into a game: motivation or manipulation?",
+      "note": "积分、排行榜、连续打卡、骑手等级——进度条能让枯燥的事变得想做，也能让人为一个数字拼命。游戏化是让人更投入，还是悄悄拿走了定规则的权力？",
+      "note_en": "Points, leaderboards, streaks, delivery riders' rank tiers: a progress bar can make dull work feel worth doing, and can also make people run themselves ragged for a number. Does gamification make people more engaged, or quietly take away their say over the rules?",
+      "cat": "work",
+      "brief": "引子：外卖骑手的等级与准时率、仓库拣货排行、多邻国连胜、企业内部积分商城。正方：即时反馈与可见进度把远期收益切碎，契克森米哈伊的心流需要清晰目标与反馈；反方：斯金纳式的可变奖励、规则单方面可改、数字替代了判断（古德哈特定律）。选角方向：契克森米哈伊、斯金纳、舒尔茨（多巴胺）、马克思（异化）、戈夫曼、德鲁克/戴明（目标管理之害）。",
+      "brief_en": "Hook: delivery riders' tiers and on-time rates, warehouse pick leaderboards, language-app streaks, corporate points stores. For: immediate feedback and visible progress chop distant payoffs into pieces; flow needs clear goals and feedback. Against: Skinnerian variable rewards, rules the platform can change unilaterally, numbers replacing judgement (Goodhart's law). Casting: Csikszentmihalyi, Skinner, Schultz, Marx, Goffman, Drucker/Deming."
     }
   ],
   "debated": [
@@ -1215,6 +1217,13 @@
       "q_en": "Is the give-and-take of favours a bond or a burden?",
       "date": "2026-11-02",
       "cat": "life"
+    },
+    {
+      "id": "who-pays-for-discomfort",
+      "q": "让人不舒服的好东西，卖得出去吗？",
+      "q_en": "Can something good that makes people uncomfortable survive a market?",
+      "date": "2026-11-03",
+      "cat": "ethics"
     }
   ]
 }

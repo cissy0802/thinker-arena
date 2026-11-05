@@ -1,0 +1,852 @@
+{
+  "id": "war-and-cooperation",
+  "question": "战争让人类更会合作了吗？",
+  "question_en": "Did war teach humans to cooperate?",
+  "sub": "群体间的战争逼出了团结与国家；和平时期的『我们』，又靠什么维系？",
+  "sub_en": "War between groups forged solidarity and states. What holds an 'us' together in peacetime?",
+  "date": "2026-11-05",
+  "participants": [
+    "kant",
+    "mozi",
+    "sapolsky",
+    "ibnkhaldun",
+    "arendt",
+    "kropotkin",
+    "eowilson"
+  ],
+  "casting": [
+    {
+      "id": "kant",
+      "reason": "提出『非社会的社会性』与《永久和平论》的哲学家。他承认自然借战争逼人联合，但主张理性要用制度接手，好制度比好心肠可靠。",
+      "reason_en": "The philosopher of 'unsocial sociability' and 'Perpetual Peace'. He grants that nature used war to force humans into union, but insists reason must take over through institutions, which are more reliable than good hearts."
+    },
+    {
+      "id": "mozi",
+      "reason": "主张兼爱、非攻，又亲手组织守城的墨家祖师。他认为攻战之合是『合众以杀人』，合作的本事该从守护里学。",
+      "reason_en": "Founder of the Mohists, who preached impartial care and opposed offensive war while organizing the defence of besieged cities himself. He calls the unity of war 'gathering the many to kill' and says cooperation should be learned from defending."
+    },
+    {
+      "id": "sapolsky",
+      "reason": "研究应激与行为的神经内分泌学家。他从催产素和群体实验出发：合作与敌意是同一套回路，但『我们』的边界很好改。",
+      "reason_en": "Neuroendocrinologist of stress and behaviour. Drawing on oxytocin research and group experiments, he argues that cooperation and hostility share one circuit, but the boundary of 'us' is easy to redraw."
+    },
+    {
+      "id": "ibnkhaldun",
+      "reason": "《历史绪论》的作者，用 asabiyya 解释王朝兴衰。他站在正方：共同的危险最能铸出凝聚力，而安逸会在三四代内把它耗光。",
+      "reason_en": "Author of the Muqaddimah, who explained the rise and fall of dynasties through asabiyya. He takes the affirmative: shared danger forges cohesion best, and comfort wears it away within three or four generations."
+    },
+    {
+      "id": "arendt",
+      "reason": "区分权力与暴力、剖析极权的政治思想家。她指出靠敌人凝聚的群体离不开敌人，持久的团结来自公共生活里的承诺与共同行动。",
+      "reason_en": "Political theorist who distinguished power from violence and anatomized totalitarianism. She warns that a group held together by an enemy cannot let the enemy go, and that lasting solidarity comes from promises and shared action in public life."
+    },
+    {
+      "id": "kropotkin",
+      "reason": "《互助论》的作者、西伯利亚考察过的博物学家。他坚决反对：互助比战争古老，战争给的是征召与服从，算不上合作。",
+      "reason_en": "Naturalist of Siberia and author of 'Mutual Aid'. He flatly disagrees: mutual aid is older than war, and what war produces is conscription and obedience, not cooperation."
+    },
+    {
+      "id": "eowilson",
+      "reason": "研究蚂蚁的社会生物学家、多层选择的鼓吹者。他带来最硬的演化证据：最会合作的物种往往最会打仗，部落主义是合作的代价。",
+      "reason_en": "The ant biologist behind sociobiology and a champion of multilevel selection. He brings the hardest evolutionary evidence: the most cooperative species are often the most warlike, and tribalism is the price of cooperation."
+    }
+  ],
+  "posts": [
+    {
+      "id": "p01",
+      "round": 1,
+      "thinker": "ibnkhaldun",
+      "reply_to": null,
+      "text": "我写《历史绪论》时看到一条规律：凝聚力生于共同的危险。沙漠部落血亲相依，一起抵御劫掠、一起迁徙，于是有了 asabiyya——愿意为彼此去死的那股劲。靠它，部落攻下城市、建立王朝。可王朝一安定，子孙住进宫殿，享乐取代了警觉，**凝聚力在三四代之内就会耗尽**，被下一支更强悍的人取代。所以我的回答是：是的，外来的威胁最能把人拧成一股绳；和平本身不会自动产出团结。",
+      "text_en": "Writing the Muqaddimah, I saw a pattern: cohesion is born of shared danger. Desert tribes, bound by kinship, fought off raiders and moved camp together, and out of that came asabiyya, the readiness to die for one another. With it a tribe takes cities and founds a dynasty. But once the dynasty settles, the grandchildren move into palaces, comfort replaces vigilance, and **the cohesion runs out within three or four generations**, until a hardier people takes their place. So my answer is yes: an outside threat binds people together like nothing else, and peace does not produce solidarity on its own.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "asabiyya": "asabiyya（群体凝聚力）：阿拉伯语，伊本·赫勒敦《历史绪论》的核心概念，指群体成员之间愿意彼此支援、共担生死的团结感；他认为它在艰苦环境中最强，在安逸中衰退。"
+      },
+      "glossary_en": {
+        "asabiyya": "Arabic for 'group feeling', the central idea of Ibn Khaldun's Muqaddimah: the solidarity that makes members of a group stand by one another. He held it is strongest under hardship and decays in comfort."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "eowilson"
+        ],
+        "轻微赞同": [
+          "kant"
+        ],
+        "轻微反对": [
+          "kropotkin",
+          "mozi"
+        ],
+        "疑惑": [
+          "arendt"
+        ],
+        "中立": [
+          "sapolsky"
+        ]
+      }
+    },
+    {
+      "id": "p02",
+      "round": 1,
+      "thinker": "kropotkin",
+      "reply_to": null,
+      "text": "我在西伯利亚考察了五年，冬天看见的不是厮杀，而是鹿群结队迁徙、鸟群互相报警、农民合伙修路。**互助比战争古老得多**，它本身就是演化选中的本事：在严酷环境里，抱团的物种活下来，内斗的灭绝。人也一样——中世纪的行会、村社，今天楼里的互助群，没有一个是靠外敌撑起来的。战争确实能把人拧在一起，但那是征召与服从，是国家借着危险收走你自发合作的能力。把这叫作合作，是张冠李戴。",
+      "text_en": "I spent five years exploring Siberia, and what I saw in winter wasn't slaughter. It was deer migrating in herds, birds warning each other, peasants banding together to build roads. **Mutual aid is far older than war**, and evolution itself selected for it: in harsh conditions, species that stick together survive and those that fight among themselves die out. Humans are no different. Medieval guilds, village communes, the neighbour group chat in your building: none of them needed an outside enemy. War can certainly lash people together, but that is conscription and obedience, the state using danger to take away your capacity to cooperate on your own. Calling that cooperation is putting the wrong name on it.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "互助": "mutual aid（互助）：克鲁泡特金1902年同名著作的核心主张：物种内部的合作是演化的重要因素，与生存竞争并存，甚至更为关键。",
+        "行会": "guild（行会）：中世纪欧洲同业者自愿结成的组织，自定规矩、互相救济，克鲁泡特金视之为人类自治互助的典范。"
+      },
+      "glossary_en": {
+        "Mutual aid": "The thesis of Kropotkin's 1902 book of that name: cooperation within a species is a major factor in evolution, working alongside the struggle for existence and often mattering more.",
+        "guilds": "Voluntary associations of medieval European craftsmen and merchants that set their own rules and supported members in need; Kropotkin's model of self-governing mutual aid."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "arendt"
+        ],
+        "轻微赞同": [
+          "mozi"
+        ],
+        "中立": [
+          "kant"
+        ],
+        "轻微反对": [
+          "eowilson",
+          "ibnkhaldun"
+        ],
+        "疑惑": [
+          "sapolsky"
+        ]
+      }
+    },
+    {
+      "id": "p03",
+      "round": 1,
+      "thinker": "eowilson",
+      "reply_to": null,
+      "text": "我研究了一辈子蚂蚁，得说句不中听的：**最会合作的物种，往往也最会打仗。** 人身上有两股力量在拉扯——群体内部，自私的个体胜过利他的个体；群体之间，利他的群体胜过自私的群体。这叫多层选择。我们的忠诚、同情、为集体牺牲的冲动，有很大一部分是在群体相争里选出来的。所以战争确实参与塑造了合作，代价是部落主义刻进了本性：我们天生爱『我们』，也天生提防『他们』。",
+      "text_en": "I've spent my life studying ants, so let me say something unwelcome: **the most cooperative species are often the most warlike.** Two forces pull at us. Within a group, selfish individuals beat altruistic ones; between groups, altruistic groups beat selfish ones. That is multilevel selection. Much of our loyalty, sympathy and urge to sacrifice for the group was selected in contests between groups. So yes, war helped shape cooperation, and the price is tribalism built into our nature: we are born to love 'us' and born to be wary of 'them'.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "多层选择": "multilevel selection（多层选择）：认为自然选择同时作用于个体和群体两个层面的理论；个体层面偏向自私，群体层面偏向利他，人性是两者拉扯的结果。威尔逊晚年力主此说。",
+        "部落主义": "tribalism（部落主义）：对自己所属群体的强烈忠诚，以及随之而来的对外群体的警惕与敌意。"
+      },
+      "glossary_en": {
+        "multilevel selection": "The view that natural selection acts at two levels at once, on individuals and on groups. Selection among individuals favours selfishness, selection among groups favours altruism, and human nature is the tug-of-war between them. Wilson championed it late in his career.",
+        "tribalism": "Strong loyalty to one's own group, along with the wariness or hostility toward outsiders that tends to come with it."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "ibnkhaldun"
+        ],
+        "轻微赞同": [
+          "sapolsky"
+        ],
+        "中立": [
+          "kant"
+        ],
+        "轻微反对": [
+          "arendt"
+        ],
+        "强烈反对": [
+          "kropotkin"
+        ],
+        "疑惑": [
+          "mozi"
+        ]
+      }
+    },
+    {
+      "id": "p04",
+      "round": 1,
+      "thinker": "mozi",
+      "reply_to": null,
+      "text": "今有一人，入人园圃，窃其桃李，众闻则非之；至大为攻国，则弗知非，从而誉之，谓之义。此可谓知义与不义之别乎？攻战之合，**合于一时之利，而离于天下之利**。夺民之用，废民之利，丁壮死于沟壑，老弱冻馁于家，以此为合，是合众以杀人也。天下之乱，起于不相爱：交相别则交相贼，兼相爱则交相利。故曰：战不能教人合，惟兼爱能之。",
+      "text_en": "If a man slips into another's orchard and steals peaches and plums, everyone who hears of it condemns him. Yet when a state launches a great attack on another, people fail to see the wrong, praise it and call it righteous. Is that knowing right from wrong? The unity of war **binds people to a moment's gain and sets them against the good of all under heaven.** It robs the people of their means and their livelihood; young men die in ditches, the old and weak freeze and starve at home. To call that unity is to gather the many in order to kill. Disorder comes from people not caring for one another: partiality breeds mutual harm, impartial care breeds mutual benefit. So I say war cannot teach cooperation; only impartial care can.",
+      "vernacular": "现在有个人溜进别人的果园，偷了桃子李子，大家听说了都谴责他；可到了大举攻打别国，人们却看不出这是不义，反而跟着称颂，说这是正义。这能算懂得义和不义的分别吗？打仗时的团结，**团结在一时的利益上，却背离了天下人的利益**。它夺走百姓的用度，毁掉百姓的生计，青壮年死在沟壑里，老弱在家中挨冻挨饿。把这叫作团结，就是把众人聚起来去杀人。天下的祸乱，起于人与人不相爱：彼此分清你我，就会彼此残害；彼此兼爱，就会彼此得利。所以我说：战争教不会人合作，只有兼爱能。",
+      "vernacular_en": "",
+      "glossary": {
+        "兼爱": "impartial care（兼爱）：墨子的核心主张：不分亲疏远近地关爱所有人，与儒家由近及远的『差等之爱』相对。",
+        "交相别": "mutual partiality（交相别）：墨子用语，指人人只顾分清你我亲疏、以自家为重；他认为这是互相残害的根源。"
+      },
+      "glossary_en": {
+        "impartial care": "Mozi's central teaching: care for everyone without ranking people by closeness, as opposed to the Confucian love that radiates outward from family by degrees.",
+        "partiality": "Mozi's term for each person drawing sharp lines between mine and yours, near and far, and putting their own side first; he saw it as the root of mutual harm."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "kropotkin"
+        ],
+        "轻微赞同": [
+          "arendt"
+        ],
+        "中立": [
+          "sapolsky"
+        ],
+        "轻微反对": [
+          "ibnkhaldun",
+          "kant"
+        ],
+        "疑惑": [
+          "eowilson"
+        ]
+      }
+    },
+    {
+      "id": "p05",
+      "round": 1,
+      "thinker": "sapolsky",
+      "reply_to": null,
+      "text": "先说激素。催产素常被叫作『爱的荷尔蒙』，可实验发现，它让人对自己人更慷慨，对外人更冷漠、更想先下手。**大脑里的合作回路和敌意回路，是同一套线路。** 好消息是，『我们』和『他们』的边界极其好改：有项实验里，人们会本能地按种族给陌生人归类，可一旦让他们穿上两队不同的球衣，种族分类明显减弱，球衣成了新边界。所以战争不是合作的唯一开关，只是最便宜、最快的那个。",
+      "text_en": "Start with hormones. Oxytocin gets called the 'love hormone', but experiments show it makes people more generous to their own side and colder, quicker to strike first, toward outsiders. **The brain's wiring for cooperation and its wiring for hostility are the same circuit.** The good news is that the line between 'us' and 'them' is remarkably easy to redraw. In one study, people instinctively sorted strangers by race, but once those strangers wore two different team shirts, racial sorting dropped sharply and the shirts became the new boundary. So war isn't the only switch for cooperation. It's just the cheapest and fastest one.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "催产素": "oxytocin（催产素）：下丘脑分泌的神经肽，与亲子依恋、信任有关；研究显示它也会放大对外群体的防御与排斥。"
+      },
+      "glossary_en": {
+        "Oxytocin": "A neuropeptide made in the hypothalamus, linked to bonding and trust; studies show it can also amplify defensiveness and hostility toward outsiders."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "arendt"
+        ],
+        "轻微赞同": [
+          "kant",
+          "kropotkin"
+        ],
+        "中立": [
+          "mozi"
+        ],
+        "轻微反对": [
+          "ibnkhaldun"
+        ],
+        "疑惑": [
+          "eowilson"
+        ]
+      }
+    },
+    {
+      "id": "p06",
+      "round": 1,
+      "thinker": "kant",
+      "reply_to": null,
+      "text": "我早就说过，人有一种『非社会的社会性』：既离不开同类，又处处想压过同类。**大自然正是借这份对抗，逼人发展出才能、法律与国家**——战争是其中最粗暴的一环，它确实迫使各民族结成更大的联合体。但那只是自然的手段，不是理性的目的。理性要求把对抗装进规则：共和制的国家、自由国家的联盟、善待来访异乡人的世界公民法权。战争教会了我们合作的形式，配得上这形式的内容只能是和平。",
+      "text_en": "I said long ago that humans have an 'unsocial sociability': we cannot do without one another, yet we keep trying to get the better of one another. **Nature uses exactly this antagonism to drive us to develop our talents, our laws and our states.** War is its crudest instrument, and it really has forced peoples into larger unions. But that is nature's means, not reason's end. Reason demands that we fit the antagonism inside rules: republican states, a federation of free states, a cosmopolitan right that guarantees the visiting stranger a hospitable welcome. War taught us the form of cooperation; the only content worthy of that form is peace.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "非社会的社会性": "unsocial sociability（非社会的社会性）：康德1784年《世界公民观点之下的普遍历史理念》中的概念，指人既要结群又要彼此对抗的矛盾倾向，自然借此推动文明进步。",
+        "世界公民法权": "cosmopolitan right（世界公民法权）：康德《永久和平论》(1795)的第三条正式条款，限定为『普遍的友好』，即异乡人到访时不受敌视的权利。"
+      },
+      "glossary_en": {
+        "unsocial sociability": "Kant's term, from his 1784 'Idea for a Universal History with a Cosmopolitan Purpose', for our contradictory drive both to live in society and to resist one another; nature uses it to push civilization forward.",
+        "cosmopolitan right": "The third definitive article of Kant's 'Perpetual Peace' (1795), limited to 'universal hospitality': a stranger's right not to be treated as an enemy on arrival."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "arendt"
+        ],
+        "轻微赞同": [
+          "eowilson",
+          "ibnkhaldun"
+        ],
+        "中立": [
+          "sapolsky"
+        ],
+        "轻微反对": [
+          "mozi"
+        ],
+        "疑惑": [
+          "kropotkin"
+        ]
+      }
+    },
+    {
+      "id": "p07",
+      "round": 1,
+      "thinker": "arendt",
+      "reply_to": null,
+      "text": "权力与暴力，常被混为一谈。**权力来自人们一起行动的能力；暴力能摧毁权力，却永远造不出权力。** 战壕里的战友情是真的，但它靠的是共同的死亡威胁，一回到和平就散了——退伍兵常常怀念它，正因为在平常日子里再也找不到。持久的团结得从别处来：人们在公共生活里彼此承诺、守住承诺，一起商议、一起做事。外敌给的是一时的整齐划一，不是能延续下去的『我们』。",
+      "text_en": "Power and violence are constantly confused. **Power comes from people's ability to act together; violence can destroy power, but it can never create it.** The comradeship of the trenches is real, but it rests on a shared threat of death, and it dissolves once peace returns. Veterans often miss it precisely because ordinary life never gives it back. Lasting solidarity has to come from somewhere else: from people making promises to one another in public life and keeping them, deliberating together, doing things together. An outside enemy gives you a moment of lockstep, not an 'us' that can endure.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "kropotkin",
+          "mozi"
+        ],
+        "轻微赞同": [
+          "sapolsky"
+        ],
+        "中立": [
+          "kant"
+        ],
+        "轻微反对": [
+          "ibnkhaldun"
+        ],
+        "疑惑": [
+          "eowilson"
+        ]
+      }
+    },
+    {
+      "id": "p08",
+      "round": 2,
+      "thinker": "eowilson",
+      "reply_to": "p02",
+      "text": "@克鲁泡特金 你在西伯利亚看到的互助我信，可你看的是冬天的鹿群，没看夏天的蚁巢。蚂蚁之间的战争动辄成千上万只阵亡，而它们恰恰是合作最精密的社会。**互助与战争不是对立的两条路，常常是同一条路的两面**：群内越团结，群间越能打。人类学对狩猎采集社会的研究里，死于群体冲突的比例也不低。说战争与合作无关，不是乐观，是回避证据。",
+      "text_en": "@Kropotkin I believe in the mutual aid you saw in Siberia, but you watched deer in winter and never looked at an ant nest in summer. Wars between ant colonies leave thousands dead, and these are the most finely cooperative societies on earth. **Mutual aid and war aren't two opposing roads; they are often two sides of the same road.** The more united a group is inside, the better it fights outside. Anthropological studies of hunter-gatherers also find a sizeable share of deaths from conflict between groups. Saying war has nothing to do with cooperation isn't optimism. It's dodging the evidence.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "ibnkhaldun"
+        ],
+        "轻微赞同": [
+          "sapolsky"
+        ],
+        "轻微反对": [
+          "arendt"
+        ],
+        "强烈反对": [
+          "kropotkin"
+        ],
+        "疑惑": [
+          "mozi"
+        ],
+        "中立": [
+          "kant"
+        ]
+      }
+    },
+    {
+      "id": "p09",
+      "round": 2,
+      "thinker": "kropotkin",
+      "reply_to": "p01",
+      "text": "@伊本·赫勒敦 你的沙漠部落，凝聚力真是从打仗里来的吗？我看是从沙漠里来的：缺水、远行、寒夜，人不抱团就活不下去。**把人拧在一起的是共同的困境，不一定是共同的敌人**——这两件事被你混成了一件。地震、洪水、疫情里，陌生人互相搭救，没有谁需要先指认一个敌人。至于你说的富裕腐蚀，那是王朝把互助收归官府，人只管纳税和服从，自治的肌肉才萎缩了。",
+      "text_en": "@Ibn Khaldun Did your desert tribes really get their cohesion from fighting? I'd say they got it from the desert: scarce water, long journeys, cold nights, where nobody survives alone. **What binds people is a shared predicament, not necessarily a shared enemy.** You've folded those two things into one. In earthquakes, floods and epidemics, strangers rescue each other without anyone first having to name an enemy. As for the corruption of wealth: that happens when the dynasty takes mutual aid over into the state, leaves people nothing to do but pay taxes and obey, and the muscles of self-government waste away.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "sapolsky",
+          "arendt"
+        ],
+        "轻微赞同": [
+          "mozi"
+        ],
+        "中立": [
+          "kant"
+        ],
+        "轻微反对": [
+          "ibnkhaldun"
+        ],
+        "疑惑": [
+          "eowilson"
+        ]
+      }
+    },
+    {
+      "id": "p10",
+      "round": 2,
+      "thinker": "mozi",
+      "reply_to": "p03",
+      "text": "威尔逊谓群争而利他生，吾不疑其事，而疑其利。**以杀人得之合，必以杀人守之。** 昔楚将攻宋，吾裂裳裹足，十日十夜而至于郢，与公输盘论攻守，彼九设攻城之机变，吾九距之。墨者守城，亦众志成城也；然守以存人，攻以亡人，二者岂可同日而语？合作之术，可学于守，不必学于攻。",
+      "text_en": "Wilson says altruism grew out of contests between groups. I don't doubt the fact; I doubt its benefit. **A unity won by killing must be kept by killing.** When Chu was about to attack Song, I tore my robe to bind my feet and walked ten days and ten nights to Ying. I matched wits with Gongshu Ban over attack and defence: nine times he set up his siege engines, nine times I held him off. When we Mohists defended a city, we too stood as one. But defence keeps people alive and attack destroys them; how can the two be mentioned in the same breath? The craft of cooperation can be learned from defending. It need not be learned from attacking.",
+      "vernacular": "威尔逊说群体相争催生了利他，我不怀疑这件事本身，我怀疑的是它的好处。**靠杀人得来的团结，也必然要靠杀人去维持。** 当年楚国要攻打宋国，我撕下衣裳裹住脚，走了十天十夜赶到郢都，和公输盘推演攻守，他九次变换攻城器械，我九次都挡住了。墨家守城，也是众志成城；但守是为了保全人，攻是为了消灭人，两者怎能相提并论？合作的本事，可以从守护中学，不必从进攻中学。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "arendt",
+          "kropotkin"
+        ],
+        "轻微赞同": [
+          "kant"
+        ],
+        "中立": [
+          "ibnkhaldun"
+        ],
+        "轻微反对": [
+          "eowilson"
+        ],
+        "疑惑": [
+          "sapolsky"
+        ]
+      }
+    },
+    {
+      "id": "p11",
+      "round": 2,
+      "thinker": "kant",
+      "reply_to": "p04",
+      "text": "@墨子 兼爱是高贵的愿望，可我不把和平押在人心变好上。我说过，**建立国家这个难题，哪怕对一群魔鬼也能解决，只要他们有理智**：让彼此的私心互相牵制，结果就如同人人守法。国与国之间也一样，不必等人人兼爱，只需让战争变得不划算——商业精神与战争不能并存，贸易与借贷会把各国绑在一起。好制度比好心肠更可靠。",
+      "text_en": "@Mozi Impartial care is a noble wish, but I won't stake peace on hearts improving. As I put it, **the problem of setting up a state can be solved even for a nation of devils, so long as they have understanding**: arrange things so that each one's selfishness checks the others', and the result is as if everyone obeyed the law. The same holds between nations. We needn't wait for everyone to love impartially; we need only make war a bad bargain. The spirit of commerce cannot coexist with war, and trade and lending tie nations together. Good institutions are more reliable than good hearts.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "sapolsky"
+        ],
+        "轻微赞同": [
+          "eowilson",
+          "ibnkhaldun"
+        ],
+        "中立": [
+          "arendt"
+        ],
+        "轻微反对": [
+          "mozi",
+          "kropotkin"
+        ]
+      }
+    },
+    {
+      "id": "p12",
+      "round": 2,
+      "thinker": "arendt",
+      "reply_to": "p08",
+      "text": "@威尔逊 靠敌人凝聚的群体有个隐患：**敌人不能消失。** 外敌一退，团结就得靠找新敌人来续命。我研究极权运动时看到，它们发明了『客观敌人』——不看你做了什么，只看你属于哪一类人；今天是这一类，明天换成那一类，名单永远可以加长。从演化上解释部落主义可以，但别让解释滑向宿命：人既然能被动员起来去恨，也就能在公共生活里学会和陌生人一起做事。",
+      "text_en": "@Wilson A group held together by an enemy has a hidden flaw: **the enemy is not allowed to disappear.** Once the outside threat recedes, the solidarity has to be kept alive by finding a new one. Studying totalitarian movements, I saw them invent the 'objective enemy', judged not by anything you did but by the category you belong to; this group today, that group tomorrow, and the list can always grow. Explaining tribalism through evolution is fine, but don't let the explanation slide into fate. If people can be mobilized to hate, they can also learn, in public life, to act together with strangers.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "客观敌人": "objective enemy（客观敌人）：阿伦特《极权主义的起源》中的概念，指政权按人所属的类别（而非任何行为）认定的敌人，名单可随意识形态需要不断扩展。"
+      },
+      "glossary_en": {
+        "objective enemy": "A concept from Arendt's 'The Origins of Totalitarianism': an enemy designated by the regime on the basis of the category a person belongs to rather than anything they have done, a list that can be extended whenever the ideology requires."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "mozi",
+          "kropotkin"
+        ],
+        "轻微赞同": [
+          "kant",
+          "sapolsky"
+        ],
+        "轻微反对": [
+          "ibnkhaldun"
+        ],
+        "中立": [
+          "eowilson"
+        ]
+      }
+    },
+    {
+      "id": "p13",
+      "round": 2,
+      "thinker": "sapolsky",
+      "reply_to": "p01",
+      "text": "@伊本·赫勒敦 凝聚力确实会耗尽，但罗伯斯山洞实验给了另一条路。1954年，研究者把两组男孩带进夏令营，比赛几天就水火不容，互相袭击，烧掉对方的队旗。让他们和好的不是新敌人，而是营地供水『坏了』，全体男孩得一起排查水管。**一个必须合作才能完成的共同任务，效果不输外敌。** 难的是，这类任务得真实、持续，不能靠喊口号。",
+      "text_en": "@Ibn Khaldun Cohesion does run out, but the Robbers Cave experiment points to another route. In 1954 researchers took two groups of boys to a summer camp; after a few days of competition they loathed each other, raided each other's cabins and burned the other side's flag. What reconciled them wasn't a new enemy. It was the camp's water supply 'breaking down', so that all the boys had to trace the pipes together. **A shared task that can only be done together works as well as an outside enemy.** The hard part is that such a task has to be real and ongoing, not a slogan.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "罗伯斯山洞实验": "Robbers Cave experiment（罗伯斯山洞实验）：社会心理学家谢里夫等人1954年在美国俄克拉何马州罗伯斯山洞州立公园做的群体冲突研究，发现必须合作才能达成的『上位目标』能化解群际敌意。"
+      },
+      "glossary_en": {
+        "Robbers Cave experiment": "A 1954 study of group conflict by Muzafer Sherif and colleagues at Robbers Cave State Park, Oklahoma. It found that 'superordinate goals', which neither group can reach alone, dissolve hostility between groups."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "kropotkin",
+          "arendt"
+        ],
+        "轻微赞同": [
+          "kant",
+          "mozi"
+        ],
+        "中立": [
+          "eowilson"
+        ],
+        "疑惑": [
+          "ibnkhaldun"
+        ]
+      }
+    },
+    {
+      "id": "p14",
+      "round": 2,
+      "thinker": "ibnkhaldun",
+      "reply_to": "p09",
+      "text": "@克鲁泡特金 你说得对，是困境，不是敌人——沙漠本身就是一场没有尽头的围攻。可你漏看了下一步：困境一旦解除，凝聚力就开始流失。城里人有城墙，有雇来的兵，不必再互相依靠，于是只顾自家的财产与体面。**舒适不会制造敌人，但会让人不再需要彼此。** 你说的村社与行会，不也是在富起来之后一个个瓦解的吗？",
+      "text_en": "@Kropotkin You're right: a predicament, not an enemy. The desert itself is a siege that never ends. But you've missed the next step. Once the predicament lifts, cohesion starts to drain away. City people have walls and hired soldiers; they no longer need to rely on each other, so they look after their own property and standing. **Comfort doesn't create enemies, but it lets people stop needing one another.** Didn't your village communes and guilds fall apart one by one after they grew rich?",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "eowilson"
+        ],
+        "轻微赞同": [
+          "sapolsky",
+          "kant"
+        ],
+        "中立": [
+          "mozi"
+        ],
+        "轻微反对": [
+          "kropotkin"
+        ],
+        "疑惑": [
+          "arendt"
+        ]
+      }
+    },
+    {
+      "id": "p15",
+      "round": 3,
+      "thinker": "kropotkin",
+      "reply_to": "p14",
+      "text": "伊本·赫勒敦这一问问到了点子上：富足以后，人靠什么继续需要彼此？我的回答是：**别等灾难来了才认识邻居。** 把合作做成日常——楼里拉个群，互借工具、轮流接孩子、给独居老人留个电话；单位里办个互助金，谁家出事大家凑一点。这些事平时看着多余，危机一来就是救命的网。战争逼出来的团结是国家发给你的，日常的互助是你自己织的，后者不需要任何敌人。",
+      "text_en": "Ibn Khaldun has asked exactly the right question: once we're comfortable, what keeps us needing each other? My answer: **don't wait for a disaster to meet your neighbours.** Make cooperation part of daily life. Start a group for your building, lend each other tools, take turns on the school run, leave your number with the elderly neighbour who lives alone. At work, set up a hardship fund where everyone chips in when someone's family is hit. These things look unnecessary in normal times; in a crisis they're the net that catches you. The solidarity war forces on you is issued by the state. Everyday mutual aid is something you weave yourself, and it needs no enemy at all.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "arendt",
+          "sapolsky"
+        ],
+        "轻微赞同": [
+          "mozi",
+          "ibnkhaldun"
+        ],
+        "中立": [
+          "kant"
+        ],
+        "轻微反对": [
+          "eowilson"
+        ]
+      }
+    },
+    {
+      "id": "p16",
+      "round": 3,
+      "thinker": "sapolsky",
+      "reply_to": null,
+      "text": "把全场拼起来：大脑确实有一套『我们—他们』的快速分类，外敌是激活合作最便宜的开关；但边界可塑，共同任务能替代共同敌人。三个小办法。**一、有人号召你团结时，先看他指向的是一个任务，还是一群人。** 二、跟『对面』的人做一件需要配合的事，一起做顿饭、一起修个东西都行。三、多给自己几个身份——你是某地人，也是跑者、家长、某支球队的球迷；身份越多，越难被一条线一刀切开。",
+      "text_en": "Put the whole discussion together: the brain does have a fast 'us versus them' sorter, and an outside enemy is the cheapest switch for cooperation. But the line is movable, and a shared task can stand in for a shared enemy. Three small things to do. **First, when someone calls on you to unite, check whether they're pointing at a task or at a group of people.** Second, do something that needs coordination with someone from 'the other side': cook a meal together, fix something together. Third, collect identities. You're from somewhere, but you're also a runner, a parent, a fan of some team. The more identities you have, the harder it is for any single line to cut you off from others.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "kropotkin",
+          "kant"
+        ],
+        "轻微赞同": [
+          "arendt",
+          "eowilson"
+        ],
+        "中立": [
+          "mozi"
+        ],
+        "疑惑": [
+          "ibnkhaldun"
+        ]
+      }
+    },
+    {
+      "id": "p17",
+      "round": 3,
+      "thinker": "eowilson",
+      "reply_to": "p12",
+      "text": "阿伦特提醒得对，解释不等于宿命。我说过，人类带着旧石器时代的情感、中世纪的制度和神一样的技术，这个组合很危险。但部落本能可以换个出口：**让群体去和难题比赛，而不是和别的群体比赛。** 体育、科学竞赛、几个社区比谁先把一条河清干净，都能满足『我们赢了』的冲动而不流血。普通人能做的：给孩子找一个团队项目；给自己找一件要跟一群人一起攻下的难事。",
+      "text_en": "Arendt is right to warn that explanation isn't destiny. I've said that humanity has Paleolithic emotions, medieval institutions and godlike technology, and that's a dangerous mix. But tribal instinct can be given another outlet: **let groups compete against problems instead of against other groups.** Sport, science competitions, neighbourhoods racing to be first to clean up a river: all of these satisfy the urge to say 'we won' without anyone bleeding. What ordinary people can do: find your child a team project, and find yourself a hard thing to take on together with a group.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "sapolsky"
+        ],
+        "轻微赞同": [
+          "arendt",
+          "kant",
+          "kropotkin"
+        ],
+        "中立": [
+          "ibnkhaldun"
+        ],
+        "轻微反对": [
+          "mozi"
+        ]
+      }
+    },
+    {
+      "id": "p18",
+      "round": 3,
+      "thinker": "mozi",
+      "reply_to": "p11",
+      "text": "康德谓制度胜于心肠，吾以为然，亦以为未尽。吾言兼爱，非徒劝人心善，亦计其利：**视人之国若视其国，视人之家若视其家**，则攻伐何利？故兼爱者，至实之算也。凡人欲与人合，先审三事：此合利于众乎？不害于外人乎？去其敌，此合犹存乎？三者皆然，乃真合也；不然，聚众以待杀耳。",
+      "text_en": "Kant says institutions beat good hearts. I agree, and I think it isn't the whole story. When I teach impartial care I'm not only urging people to be kind; I'm counting costs and benefits. **Regard other people's states as your own, other people's families as your own**, and what is there to gain from attacking them? Impartial care is the most practical calculation there is. Whenever you mean to band together with others, examine three things first. Does this unity benefit everyone in it? Does it do no harm to outsiders? Take the enemy away: does the unity still stand? If all three hold, it's real cooperation; if not, it's only gathering a crowd to wait for the killing.",
+      "vernacular": "康德说制度比心肠可靠，我同意，但觉得还不够。我讲兼爱，不只是劝人心善，也是在算利害：**把别人的国家看作自己的国家，把别人的家看作自己的家**，那攻伐还有什么好处？所以兼爱其实是最实在的算计。普通人想和别人团结起来时，先审三件事：这份团结对其中所有人有利吗？对外人无害吗？拿掉敌人，这份团结还在吗？三条都成立，才是真团结；否则，不过是聚起一群人等着去杀人罢了。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "kropotkin",
+          "arendt"
+        ],
+        "轻微赞同": [
+          "kant",
+          "sapolsky"
+        ],
+        "中立": [
+          "eowilson"
+        ],
+        "轻微反对": [
+          "ibnkhaldun"
+        ]
+      }
+    },
+    {
+      "id": "p19",
+      "round": 3,
+      "thinker": "kant",
+      "reply_to": "p07",
+      "text": "阿伦特和墨子从两头补全了我的论证。我的结论是：战争曾是自然逼人类联合的手段，但我们没有理由继续拿它当老师。**永久和平不是一种心情，而是一项要持续施工的工程。** 落到个人：与人起冲突时，先把规则谈出来、写下来，别指望对方变好；把对手也当作目的，哪怕你不喜欢他；多和『外人』做交易、打交道——彼此依赖的人很难互相开火。",
+      "text_en": "Arendt and Mozi have completed my argument from two ends. My conclusion: war was once nature's way of forcing humans into union, but we have no reason to keep it on as our teacher. **Perpetual peace is not a mood; it's a construction project that never stops.** For individuals: when you fall into conflict with someone, negotiate the rules and write them down instead of waiting for the other person to improve. Treat your opponent as an end too, even if you dislike them. And deal and trade with 'outsiders' as much as you can: people who depend on each other find it hard to open fire.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "永久和平": "perpetual peace（永久和平）：康德1795年同名小册子的主题，主张以共和宪政、自由国家联盟与世界公民法权逐步消除战争。"
+      },
+      "glossary_en": {
+        "Perpetual peace": "The subject of Kant's 1795 essay of that name, which proposes republican constitutions, a federation of free states and cosmopolitan right as the path to ending war."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "arendt"
+        ],
+        "轻微赞同": [
+          "mozi",
+          "sapolsky",
+          "eowilson"
+        ],
+        "中立": [
+          "ibnkhaldun"
+        ],
+        "疑惑": [
+          "kropotkin"
+        ]
+      }
+    },
+    {
+      "id": "p20",
+      "round": 3,
+      "thinker": "ibnkhaldun",
+      "reply_to": "p16",
+      "text": "我收回一半：外敌不是唯一的铸模，萨波尔斯基说的共同任务也能铸出凝聚力。另一半我不改——**团结是会折旧的资产，越安逸越该往里存。** 王朝在第三代开始腐朽，不是因为没了敌人，而是后人忘了先辈为什么抱团。所以，一个家庭、一个团队，要定期一起做件难事：徒步、搬家、办一场活动；把当初一起吃过的苦讲给新来的人听；也要警惕『什么都外包、谁也不需要谁』的那种舒服。",
+      "text_en": "I'll take back half of what I said: an outside enemy isn't the only mould, and Sapolsky's shared task can forge cohesion too. The other half stands. **Solidarity is an asset that depreciates, and the more comfortable you are, the more you need to pay into it.** Dynasties begin to rot in the third generation not because the enemies are gone but because the heirs forget why their forebears stuck together. So a family or a team should regularly do something hard together: a long hike, a house move, putting on an event. Tell newcomers about the hard times you got through together. And be wary of the kind of comfort where everything is outsourced and nobody needs anybody.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "eowilson"
+        ],
+        "轻微赞同": [
+          "sapolsky",
+          "kropotkin",
+          "kant"
+        ],
+        "中立": [
+          "mozi"
+        ],
+        "轻微反对": [
+          "arendt"
+        ]
+      }
+    },
+    {
+      "id": "p21",
+      "round": 3,
+      "thinker": "arendt",
+      "reply_to": null,
+      "text": "大家走到了同一处：战争能逼出整齐，却给不了能延续的团结。我想补一种能力——承诺。**人无法预知未来，但可以借彼此的承诺，在不确定的海里搭起一座座小岛。** 婚约、合同、宪法、社团章程，都是这样的岛。给普通人的建议：别只在网上表态，去参加一次真实的公共事务——业主大会、家长会、社区议事；做一个小承诺，然后守住它。和平时期的『我们』，就是这样一次次说到做到攒出来的。",
+      "text_en": "We've all arrived at the same place: war can force people into line, but it can't give them a solidarity that lasts. I want to add one capacity: the promise. **We cannot predict the future, but through promises made to one another we can build islands in a sea of uncertainty.** Marriage vows, contracts, constitutions, the rules of a club: each is such an island. My advice: don't just take positions online. Go to a real public meeting, a residents' assembly, a parents' meeting, a neighbourhood forum. Make a small promise and keep it. The 'us' of peacetime is built up exactly this way, one kept word at a time.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "kropotkin",
+          "mozi"
+        ],
+        "轻微赞同": [
+          "kant",
+          "sapolsky"
+        ],
+        "中立": [
+          "eowilson"
+        ],
+        "轻微反对": [
+          "ibnkhaldun"
+        ]
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "ai": "claude",
+      "engine": "Opus 5 · 订阅(原生)",
+      "engine_en": "Opus 5 · subscription (native)",
+      "summary": "**团结不必非有外敌，但必须有一件让人彼此需要的事**——这是七位最后都认下的一点。威尔逊和伊本·赫勒敦用蚂蚁与王朝说明，群体相争确实锻造了人类的忠诚；克鲁泡特金把它拆成『共同困境』与『共同敌人』两件事，萨波尔斯基用罗伯斯山洞实验给出替代品：真实的共同任务。分歧在后半程：伊本·赫勒敦坚持安逸必然让团结折旧，康德把希望押在制度与贸易上，墨子和阿伦特则认为靠敌人维系的『我们』本身就有毒，因为它离不开下一个敌人。",
+      "summary_en": "**Solidarity doesn't require an outside enemy, but it does require something that makes people need each other.** All seven ended up conceding that much. Wilson and Ibn Khaldun, with ants and dynasties, showed that conflict between groups really did forge human loyalty. Kropotkin split that into two separate things, a shared predicament and a shared enemy, and Sapolsky offered a substitute from the Robbers Cave experiment: a real shared task. The disagreement comes after that. Ibn Khaldun insists comfort inevitably depreciates solidarity; Kant puts his hope in institutions and trade; Mozi and Arendt hold that an 'us' sustained by an enemy is poisonous in itself, because it can never do without the next enemy.",
+      "insight": "讨论几乎都在谈情感上的团结：战友情、凝聚力、『我们』的感觉。可战争留下的最持久的合作，往往不是情感，而是制度。英国的全民医疗服务是二战废墟上建起来的，许多国家的所得税和社会保险也是在战时铺开的。**热血会散，账本会留下来。** 这意味着和平时期的团结，大半藏在看起来很无聊的地方：按时缴的社保、维护良好的公共设施、一项没人注意却人人受益的公共服务。它不让人热泪盈眶，却会在你生病、失业时接住你。",
+      "insight_en": "Almost the whole discussion was about solidarity as a feeling: comradeship, cohesion, the sense of 'us'. Yet the most durable cooperation war leaves behind is usually not a feeling but an institution. Britain built its National Health Service on the rubble of the Second World War, and in many countries income tax and social insurance spread in wartime. **The fervour fades; the ledger stays.** Which means peacetime solidarity mostly lives in places that look dull: the social insurance you pay on time, well-maintained public facilities, a public service nobody notices but everybody benefits from. It won't bring tears to your eyes, but it catches you when you fall ill or lose your job.",
+      "advice": "危机里能接住你的网，得在平时织。**这周先认识三位邻居**：知道名字、留下电话、了解谁家有老人或小孩。再拿你所在群体的一句口号做个检验：它指向一件要一起完成的事，还是一群要提防的人？拿掉那个『对手』，你们还剩什么？如果答不上来，就少投入一点情绪。最后，和家人或同事约一件需要合力的难事，一次长途徒步、一个周末的共同项目都行，给那份会折旧的团结存一笔款。",
+      "advice_en": "The net that catches you in a crisis has to be woven in normal times. **This week, get to know three neighbours**: their names, their numbers, which households have elderly people or small children. Then test one slogan from a group you belong to: does it point at something to be done together, or at a group of people to be wary of? Take away the 'opponent', and what's left of you? If you can't answer, invest a little less emotion in it. Finally, plan something hard with family or colleagues that needs everyone pulling together, a long hike or a weekend project, and make a deposit into that depreciating solidarity."
+    },
+    {
+      "ai": "gpt",
+      "engine": "openai · gpt-5.6-sol · high(真实API)",
+      "engine_en": "openai · gpt-5.6-sol · high (live API)",
+      "summary": "战争确能迅速扩大群内信任、服从与牺牲，也确实参与塑造了人类的协作能力；但它不是合作的唯一来源，更不是值得继续依赖的老师。互助、共同困境、共同任务、交易、制度与承诺，都能在没有敌人的情况下形成“我们”。**战争最擅长生产的是高强度、窄边界的动员，而和平要建设的是可持续、能容纳陌生人的合作。**真正的分歧在于因果权重：合作主要源于群际竞争，还是生态压力与日常自治？安逸必然腐蚀凝聚力，还是可以靠公共参与续存？道德扩展与制度约束，何者又更可靠？",
+      "insight": "“更会合作”不是单一指标，至少要区分速度、规模、自愿性、持续性、对外部人的伤害，以及危机结束后能否留下信任。战争往往提高前两项，却可能牺牲后几项；它能让组织短期内高度协调，也会压低异议、制造忠诚测试，并把成本转嫁给局外人。**战争可能提升群内协调，却降低社会的普遍合作能力；若只看动员强度，就会把服从误认成合作。**判断一次“团结”是否健康，不要只看口号多响，还要看能否质疑、能否退出、是否伤及无辜，以及威胁消失后，规则、关系和共同成果是否仍在。",
+      "advice": "今天先做一次“团结审计”：遇到动员性消息，写下它要解决的具体任务、要求你反对的对象、谁承担代价，并追问“没有这个敌人，合作还成立吗？”本周再发起一个一小时可完成的共同任务，例如和邻居核对消防通道、建立老人紧急联系人表，或与意见不同的同事共同整理流程；设负责人、截止时间和可见成果。最后把一次性热情变成小制度：约定每月一次、任务轮值、承诺写下、事后复盘。**用共同任务替代共同敌人，用可兑现的承诺替代情绪高峰。**若活动开始排斥某类人或不许提问，就暂停参与，并要求把目标改写为可检验的问题。",
+      "summary_en": "War can rapidly deepen trust, obedience, and willingness to sacrifice within a group, and conflict probably helped shape some human capacities for coordination. Yet it is neither the only source of cooperation nor a teacher humanity should keep employing. Mutual aid, shared hardship, superordinate tasks, trade, institutions, and promises can all create a sense of ‘we’ without requiring an enemy. **War is especially good at producing intense cooperation within a narrow boundary; peace must build durable cooperation that can include strangers.** The real disagreement concerns causal weight. Did cooperation arise mainly through competition among groups, or through ecological pressure and everyday mutual dependence? Does comfort inevitably erode solidarity, or can civic participation and repeated joint work replenish it? A final tension is practical as well as philosophical: should peace rest chiefly on widening moral concern, on rules that channel self-interest, or on both? The strongest answer is likely a combination, because motives fluctuate, while institutions without civic habits can become hollow.",
+      "insight_en": "The phrase ‘becoming better at cooperation’ hides several different measures: speed, scale, voluntariness, durability, tolerance of dissent, harm to outsiders, and whether trust survives after the emergency. War often improves the first two while damaging several of the others. It can produce extraordinary short-term coordination, but it may also suppress disagreement, reward loyalty tests, spread fear-driven misinformation, and shift costs onto people outside the favored group. **War may strengthen coordination within a group while weakening society’s broader capacity to cooperate; if we measure only mobilization, obedience can masquerade as cooperation.** This distinction matters in ordinary life, not only in geopolitics. When a workplace, movement, or community demands unity, ask whether people may question the plan, leave without punishment, and revise the rules when evidence changes. Also ask what remains once the threat is gone: functioning procedures, wider trust, useful shared assets, and relationships across boundaries—or merely exhaustion and a search for the next enemy.",
+      "advice_en": "Start today with a quick ‘solidarity audit.’ When you encounter a call for unity, write down the concrete task, the person or category you are being asked to oppose, who bears the costs, and whether cooperation would still make sense without that opponent. This week, organize one task that can be completed in about an hour across an existing social boundary: check your building’s fire exits with neighbors, create an emergency contact list for older residents, or improve a work process with a colleague whose views differ from yours. Give it an owner, a deadline, and a visible result. Then turn the successful effort into a small routine through monthly meetings, rotating roles, written commitments, and a brief review afterward. **Replace common enemies with common tasks, and replace emotional peaks with promises people can actually keep.** If an activity begins excluding an entire category of people, forbids questions, or has no measurable objective, pause your participation and ask for the goal to be rewritten as a specific, testable problem."
+    },
+    {
+      "ai": "gemini",
+      "engine": "降级:Opus 扮演(API 不可达)",
+      "engine_en": "fallback: Opus role-play (API unreachable)",
+      "summary": "**全场共识是：外敌是团结的捷径，不是唯一来源。** 共同困境、共同任务、日常互助、彼此承诺都能替代它，威尔逊和伊本·赫勒敦也不否认这一点，他们只是提醒，这些替代品的劲头远不如生死威胁。分歧集中在规模与持久：伊本·赫勒敦和威尔逊认为和平会慢慢削弱凝聚力，康德寄望于制度和贸易把私心互相牵制住，阿伦特与墨子则警告，靠敌人维系的团结终会掉头向内，在自己人里寻找下一个敌人。",
+      "summary_en": "**The consensus: an outside enemy is a shortcut to solidarity, not its only source.** Shared hardship, shared tasks, everyday mutual aid and mutual promises can all stand in, and Wilson and Ibn Khaldun don't deny it; they only point out that these substitutes are far weaker than a threat to life itself. The disagreement is about scale and durability. Ibn Khaldun and Wilson think peace slowly weakens cohesion, Kant relies on institutions and trade to set private interests against each other, and Arendt and Mozi warn that solidarity kept alive by an enemy eventually turns inward and looks for the next enemy among its own people.",
+      "insight": "讨论在『国家』和『人类』的尺度上来回，却漏了战时团结真正发生的尺度。二战后对士兵的研究发现，人在前线拼命，多半是为了身边那几个战友，而不是为了国家口号；小队一打散，士气就跟着垮。**战时团结真正的单位，是十来个彼此认得脸的人。** 这对和平时期是个好消息：不必等一个全民共同的敌人或任务，在楼栋、班组、兴趣小组这类小单位里，一样能复制那种被需要、彼此托付的感觉。",
+      "insight_en": "The discussion moved between the scale of nations and of humanity, and missed the scale at which wartime solidarity actually happens. Studies of soldiers after the Second World War found that men fought hard mostly for the handful of comrades beside them, not for national slogans; break up the squad and morale went with it. **The real unit of wartime solidarity is about ten people who know each other's faces.** That's good news for peacetime: you don't need a nationwide enemy or task. The feeling of being needed and trusted can be reproduced in small units, a building, a work crew, a hobby group.",
+      "advice": "挑一个你所在的小单位，人数最好在十人上下，定一个固定的共同活动，比如每周一次的晨跑、读书会或公共区域的轮流打扫。**让每个人都有一项别人依赖他的具体职责**，哪怕只是负责带钥匙或订场地——被需要比被号召更能把人留下。新人加入时，安排一位老成员带一次，把『为什么我们在一起』讲给他听。",
+      "advice_en": "Pick a small unit you belong to, ideally around ten people, and set a regular shared activity: a weekly morning run, a reading group, a rota for cleaning a shared space. **Give everyone a specific job that others rely on them for**, even if it's just bringing the key or booking the venue; being needed keeps people around better than being rallied. When someone new joins, have an old hand bring them along once and tell them why the group exists."
+    }
+  ],
+  "hooks": [
+    {
+      "from": "claude",
+      "text": "**热血会散，账本会留下**：战争留下的最持久合作是全民医疗、社会保险这类制度。和平时期，人们愿意为看不见的『我们』持续缴费吗？",
+      "text_en": "**The fervour fades, the ledger stays**: war's most durable legacy of cooperation is institutions like public health care and social insurance. In peacetime, will people keep paying in for an 'us' they can't see?"
+    },
+    {
+      "from": "sapolsky",
+      "text": "**任务还是人群**：同样号召团结，有的指向要一起完成的事，有的指向要提防的人。怎样一眼分辨？",
+      "text_en": "**A task or a crowd?** Calls to unite sometimes point at something to be done together and sometimes at people to be wary of. How can you tell them apart at a glance?",
+      "answer": {
+        "lead": "一张自测表：听到『我们要团结起来』时，先看它**把你引向一件事，还是引向一群人**。",
+        "table": {
+          "head": [
+            "自测题",
+            "若答『是』",
+            "该怎么做"
+          ],
+          "rows": [
+            [
+              "号召里能说出一件具体要完成的事吗？",
+              "是任务型团结",
+              "问清分工和完成标准，按事投入"
+            ],
+            [
+              "号召的主角是『他们』，而不是要做的事吗？",
+              "是敌人型团结",
+              "追问：除了反对他们，我们要一起做成什么？"
+            ],
+            [
+              "拿掉对手，这个群体还有理由聚在一起吗？",
+              "团结有自己的内容",
+              "可以长期投入"
+            ],
+            [
+              "『对面』的人有机会加入一起做吗？",
+              "边界是开放的",
+              "主动拉一位对面的人进来"
+            ],
+            [
+              "不附和就会被当成叛徒吗？",
+              "这是动员，不是合作",
+              "保留异议的空间，别急着表态"
+            ]
+          ]
+        },
+        "tail": "**指向任务的团结，事情办成后还能留下信任；指向敌人的团结，需要不断补充新的敌人。**"
+      },
+      "answer_en": {
+        "lead": "A self-test: when you hear 'we must stand together', first ask whether it **leads you toward a task or toward a group of people**.",
+        "table": {
+          "head": [
+            "Question",
+            "If yes",
+            "What to do"
+          ],
+          "rows": [
+            [
+              "Can the call name a concrete thing to get done?",
+              "Task-based solidarity",
+              "Ask about roles and what 'done' means; commit to the work"
+            ],
+            [
+              "Is 'them' the main character, rather than the work?",
+              "Enemy-based solidarity",
+              "Ask: apart from opposing them, what are we building together?"
+            ],
+            [
+              "Take away the opponent: does the group still have a reason to exist?",
+              "The solidarity has its own content",
+              "Worth a long-term commitment"
+            ],
+            [
+              "Could people from 'the other side' join in?",
+              "The boundary is open",
+              "Invite someone from the other side in"
+            ],
+            [
+              "Will you be called a traitor if you don't go along?",
+              "This is mobilization, not cooperation",
+              "Keep room for dissent; don't rush to declare"
+            ]
+          ]
+        },
+        "tail": "**Solidarity aimed at a task leaves trust behind once the job is done; solidarity aimed at an enemy needs a steady supply of new enemies.**"
+      }
+    },
+    {
+      "from": "ibnkhaldun",
+      "text": "**团结会折旧吗**：富足的城市、成熟的大公司、第三代的家族企业，凝聚力是否必然衰退？有没有社会成功逆转过这个循环？",
+      "text_en": "**Does solidarity depreciate?** Prosperous cities, mature corporations, third-generation family firms: must their cohesion decline? Has any society ever broken the cycle?"
+    },
+    {
+      "from": "kant",
+      "text": "**做生意的国家不打仗吗**：贸易与借贷会把国家绑在一起，可1914年前欧洲经贸往来正密。经济上的相互依赖，今天还能阻止战争吗？",
+      "text_en": "**Do trading nations not fight?** Trade and lending tie nations together, yet Europe before 1914 was deeply interlinked economically. Can economic interdependence still prevent war today?"
+    },
+    {
+      "from": "arendt",
+      "text": "**退伍兵为何怀念战场**：很多人在和平里反而觉得孤独。战时那种被需要、同生共死的感觉，平常生活缺的究竟是什么？",
+      "text_en": "**Why do veterans miss the front?** Many feel lonelier in peace than in war. What exactly does ordinary life lack that wartime's sense of being needed, of living and dying together, supplied?"
+    }
+  ]
+}

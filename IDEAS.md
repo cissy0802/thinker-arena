@@ -192,6 +192,16 @@
 - [ ] 惩罚坏人，是为了公道还是为了解气？  <!--why-we-punish-->
 - [x] 把工作做成游戏，是激励还是操控？ — 2026-11-04  <!--work-as-a-game-->
 - [x] 爱好一定要练到像样吗？ — 2026-10-27  <!--hobby-done-badly-->
+- [ ] 能外包的，都该外包出去吗？  <!--outsource-or-build-->
+- [ ] 不在一间屋里，还算一个团队吗？  <!--team-without-a-room-->
+- [ ] 同事之间，该交朋友吗？  <!--friends-with-coworkers-->
+- [ ] 越不想去想，为什么越忘不掉？  <!--white-bear-thoughts-->
+- [ ] 第一印象，该信吗？  <!--trusting-first-impressions-->
+- [ ] 孩子离家后，父母靠什么过？  <!--empty-nest-->
+- [ ] 病人快不行了，该告诉他吗？  <!--telling-the-dying-->
+- [ ] 富国该敞开国门吗？  <!--open-borders-->
+- [ ] 科学为什么在一些文明停下了？  <!--why-science-stalled-->
+- [ ] 相信科学，也是一种信仰吗？  <!--trust-in-science-->
 
 ---
 

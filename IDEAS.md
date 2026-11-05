@@ -202,6 +202,7 @@
 - [ ] 富国该敞开国门吗？  <!--open-borders-->
 - [ ] 科学为什么在一些文明停下了？  <!--why-science-stalled-->
 - [ ] 相信科学，也是一种信仰吗？  <!--trust-in-science-->
+- [ ] 科学该不该放慢脚步？  <!--should-science-slow-down-->
 
 ---
 

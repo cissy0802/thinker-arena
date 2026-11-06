@@ -1,0 +1,664 @@
+{
+  "id": "can-nature-change",
+  "question": "江山易改，本性难移吗？",
+  "question_en": "Can a leopard change its spots?",
+  "sub": "性格一半写在基因里，人却会随年龄与经历改变——变的是本性，还是习惯与故事？",
+  "sub_en": "Half of personality is in our genes, yet people change with age and experience. Is it nature that changes, or habits and stories?",
+  "date": "2026-11-06",
+  "participants": [
+    "xunzi",
+    "nagarjuna",
+    "schopenhauer",
+    "sartre",
+    "williamjames",
+    "gazzaniga"
+  ],
+  "casting": [
+    {
+      "id": "schopenhauer",
+      "reason": "他认为人的性格天生而不可改，教育只改变认识与手段；人能做所意愿的，却不能意愿所意愿的。他守住『本性难移』最硬的一端。",
+      "reason_en": "He holds that character is inborn and unalterable, and that education changes only knowledge and means: we can do what we will, but cannot will what we will. He defends 'you can't change your nature' at its hardest."
+    },
+    {
+      "id": "xunzi",
+      "reason": "主张性恶而可化的儒者。他承认本性不善，却认为礼法、师友与环境日积月累，能『化性起伪』——本性可以被改造，只是要靠积。",
+      "reason_en": "The Confucian who held that human nature is bad but transformable. Teachers, ritual and surroundings, accumulated day by day, can remake nature through deliberate effort."
+    },
+    {
+      "id": "williamjames",
+      "reason": "美国心理学的奠基者，写下『多数人三十岁性格就如石膏定型』，又把习惯解释为神经的可塑性。他站在中间：本性难移，多半是习惯难移。",
+      "reason_en": "A founder of American psychology who wrote that in most of us character 'has set like plaster' by thirty, and who explained habit as the plasticity of nerves. He stands in the middle: what resists change is mostly habit."
+    },
+    {
+      "id": "gazzaniga",
+      "reason": "裂脑研究者，带来人格遗传率与毕生追踪的数据，并提醒：『我天生就这样』可能只是左脑解释器事后编的故事。",
+      "reason_en": "The split-brain researcher brings data on the heritability of personality and lifelong tracking studies, and warns that 'I was born this way' may be a story the left-hemisphere interpreter tells after the fact."
+    },
+    {
+      "id": "nagarjuna",
+      "reason": "中观派祖师。他从『无自性』出发，指出『本性难移』与『本性可改』都预设了一个固定的本性，而性格只是因缘和合。",
+      "reason_en": "The founder of Madhyamaka. Starting from the absence of intrinsic nature, he argues that 'nature can't change' and 'nature can change' both presuppose a fixed nature, whereas character is just conditions coming together."
+    },
+    {
+      "id": "sartre",
+      "reason": "他主张存在先于本质，人由行动定义自己；把『改不了』说成本性，是逃避选择的自欺。",
+      "reason_en": "He holds that existence precedes essence and that we define ourselves by our acts; calling 'I can't change' your nature is bad faith, a way of fleeing choice."
+    }
+  ],
+  "posts": [
+    {
+      "id": "p01",
+      "round": 1,
+      "thinker": "schopenhauer",
+      "reply_to": null,
+      "text": "我在《论意志自由》里说得很清楚：**人能做他所意愿的，却不能意愿他所意愿的。**性格是天生的、不变的，像化学元素一样可靠。教育能改变的只是认识——让人看清哪条路通向他想要的东西——却改不了那个“想要”本身。吝啬鬼可以被说服去捐款，因为他算出好名声更值钱；他捐出的是钱，不是吝啬。所以江山易改、本性难移，这句老话比所有励志书都诚实。",
+      "text_en": "I put it plainly in my essay On the Freedom of the Will: **a man can do what he wills, but he cannot will what he wills.** Character is inborn and unchanging, as dependable as a chemical element. Education changes only knowledge: it shows a person which road leads to what he wants, but never touches the wanting itself. A miser can be talked into a donation once he works out that a good name is worth more; what he gives away is money, not his miserliness. The old saying that a leopard can't change its spots is more honest than every self-help book.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "轻微赞同": [
+          "williamjames"
+        ],
+        "轻微反对": [
+          "xunzi",
+          "gazzaniga"
+        ],
+        "强烈反对": [
+          "sartre"
+        ],
+        "疑惑": [
+          "nagarjuna"
+        ]
+      }
+    },
+    {
+      "id": "p02",
+      "round": 1,
+      "thinker": "xunzi",
+      "reply_to": null,
+      "text": "人之性恶，其善者伪也。伪者，人为也，非虚假之谓。木直中绳，輮以为轮，其曲中规，虽有槁暴，不复挺者，輮使之然也。性不可学而能，然可化：**注错习俗，所以化性也。**故蓬生麻中，不扶而直；白沙在涅，与之俱黑。本性难移？吾谓本性非移之也，积之也。积土成山，积善成德，涂之人可以为禹。",
+      "text_en": "Human nature is bad; whatever good is in it is artifice, by which I mean human effort, not falsehood. Take wood straight enough to fit the plumb line, steam it and bend it into a wheel: its curve now fits the compass, and even dried in the sun it will not spring straight again, because the bending made it so. Nature cannot be learned, but it can be transformed: **the way we arrange our conduct and the customs we soak in are what transform nature.** Mugwort growing among hemp stands straight without a stake; white sand mixed into black mud turns black with it. Is nature hard to move? I say you do not move it, you build on it. Heap up earth and you get a mountain; heap up good deeds and you get virtue. Any man on the road can become a Yu.",
+      "vernacular": "人的本性是恶的，那些善是“伪”——人为造出来的，不是虚假的意思。木头本来直得合乎墨线，用火烤弯做成车轮，弯度就合乎圆规，即使再晒干，也不会重新挺直，是烤弯让它变成这样的。本性不是学来的，却可以改造：**怎样安排自己的举止、长期浸在什么风气里，正是改造本性的办法。**所以蓬草长在麻丛里，不用扶也长得直；白沙混进黑泥，就跟着变黑。本性难移吗？我说本性不是“移”走的，而是一点一点“积”出新的来。堆土成山，积善成德，路上的普通人也可以成为大禹。",
+      "vernacular_en": "",
+      "glossary": {
+        "伪": "artifice（伪）：荀子用语，指后天的人为努力与教化，与天生的“性”相对，并非“虚假”之意。",
+        "注错习俗": "habituation（注错习俗）：“注错”即安排、措置自己的举止，“习俗”即长期浸染的风气；荀子认为二者日积月累，能改造人的本性。",
+        "禹": "Yu the Great（禹）：传说中治水成功的上古圣王，儒家常用来代表人所能达到的最高德行。"
+      },
+      "glossary_en": {
+        "artifice": "Xunzi's term (wei) for deliberate human effort and cultivation, as opposed to inborn nature (xing); it does not mean fakery.",
+        "Yu": "Yu the Great, the legendary sage-king who tamed the floods; Confucians use him as the model of the highest virtue a person can reach."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "williamjames"
+        ],
+        "轻微赞同": [
+          "gazzaniga"
+        ],
+        "轻微反对": [
+          "schopenhauer",
+          "nagarjuna"
+        ],
+        "中立": [
+          "sartre"
+        ]
+      }
+    },
+    {
+      "id": "p03",
+      "round": 1,
+      "thinker": "williamjames",
+      "reply_to": null,
+      "text": "我在《心理学原理》里写过一句后来常被引用的话：**多数人到三十岁，性格就像石膏一样定型，再也不会软化。**这不是宿命论，而是神经的事实：神经组织有可塑性，反复走过的通路会越刻越深，习惯就是这么来的。所谓本性难移，其实是习惯难移——而习惯是我们自己一天天浇筑的。年轻时每一次放纵或克制，都在给将来的自己定型。可怕的不是生来如何，而是对日常小事的漫不经心。",
+      "text_en": "In The Principles of Psychology I wrote a line people still quote: **in most of us, by the age of thirty, the character has set like plaster, and will never soften again.** That is not fatalism; it is a fact about nerves. Nervous tissue has plasticity: a pathway travelled again and again is worn deeper, and that is all a habit is. When people say nature can't be changed, they mean habit can't, and habit is something we pour ourselves, one day at a time. Every indulgence or restraint in youth sets the mould of the person you will become. What should frighten us is not how we were born, but how carelessly we treat the small things of each day.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "可塑性": "plasticity（可塑性）：詹姆斯借自生理学的概念，指神经组织既能被反复的作用改变、又能保持改变后的形状；他以此解释习惯如何形成。"
+      },
+      "glossary_en": {
+        "plasticity": "A term James borrowed from physiology: nervous tissue can be reshaped by repeated use and then holds its new shape. He used it to explain how habits form."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "xunzi"
+        ],
+        "轻微赞同": [
+          "gazzaniga"
+        ],
+        "轻微反对": [
+          "sartre"
+        ],
+        "中立": [
+          "schopenhauer"
+        ],
+        "疑惑": [
+          "nagarjuna"
+        ]
+      }
+    },
+    {
+      "id": "p04",
+      "round": 1,
+      "thinker": "gazzaniga",
+      "reply_to": null,
+      "text": "数据比口号诚实。双生子研究显示，人格差异大约四到五成可归于基因；人与人之间的相对排名也随年龄越来越稳，五十岁前后最稳。但同一批追踪数据还显示另一件事：**几乎所有人都在随年龄变得更尽责、更随和、情绪更稳。**再说我的老本行：左脑的解释器会为你的行为当场编故事。“我天生就这样”很可能正是这样一个故事——不是对本性的观察，而是事后的解说。",
+      "text_en": "Data are more honest than slogans. Twin studies attribute roughly 40 to 50 per cent of the differences in personality to genes, and people's relative ranking grows steadier with age, most stable around fifty. But the same long-term studies show something else: **nearly everyone becomes more conscientious, more agreeable and emotionally steadier as they get older.** Then there is my own field. The brain's left-hemisphere interpreter makes up stories about your behaviour on the spot. 'I was just born this way' may well be one of those stories: not an observation of your nature, but commentary written after the fact.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "解释器": "interpreter（解释器）：加扎尼加从裂脑研究中提出的概念，指左脑中专门为行为与感受编出连贯解释的系统，即使它并不知道真正的原因。"
+      },
+      "glossary_en": {
+        "interpreter": "Gazzaniga's term, drawn from split-brain research, for a left-hemisphere system that produces coherent explanations of our actions and feelings even when it has no access to their real causes."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "xunzi",
+          "williamjames",
+          "sartre"
+        ],
+        "轻微反对": [
+          "schopenhauer"
+        ],
+        "中立": [
+          "nagarjuna"
+        ]
+      }
+    },
+    {
+      "id": "p05",
+      "round": 1,
+      "thinker": "nagarjuna",
+      "reply_to": null,
+      "text": "你说的“本性”是什么？若它真有自性，不依任何条件而独立存在，那它一刻也不可能改变——《中论》说：“若法实有性，后则不应异。”可你明明会变：换了城市、换了伴侣、生过一场大病，人就不一样了。既然会变，它就不是“本性”。**所以“本性难移”和“本性可改”错在同一处：都假定那里有一个固定的东西。**性格因缘和合而生，条件在它就在，条件变它就变。",
+      "text_en": "What do you mean by 'nature'? If it truly had svabhāva, a being of its own that depends on no conditions, it could not change for a single instant. As my Middle Way verses put it, 'if a thing had an intrinsic nature, it could never later become otherwise.' Yet you plainly do change: move cities, change partners, come through a serious illness, and you are someone else. If it changes, it was never a 'nature'. **So 'nature can't change' and 'nature can be changed' make the same mistake: both assume there is a fixed thing sitting there.** Character arises from conditions coming together. While they hold, it holds; when they shift, it shifts.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "自性": "svabhāva（自性）：梵语，指事物独立、恒常、不依赖条件的本质。龙树认为一切现象都没有自性，这就是“空”。",
+        "因缘和合": "dependent origination（因缘和合）：佛教的基本观点，一切现象都由多种条件聚合而生，条件改变，现象也随之改变。",
+        "中论": "Mūlamadhyamakakārikā（中论）：龙树的代表作，以偈颂体论证一切法无自性，是中观学派的根本经典。"
+      },
+      "glossary_en": {
+        "svabhāva": "Sanskrit for 'own-being': an independent, permanent essence that relies on no conditions. Nagarjuna argues nothing has it; that absence is what he calls emptiness.",
+        "Middle Way verses": "The Mūlamadhyamakakārikā, Nagarjuna's main work, a set of verses arguing that no phenomenon has intrinsic nature; the founding text of the Madhyamaka school.",
+        "conditions coming together": "Dependent origination: every phenomenon arises from many conditions combining, and changes when they change."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "gazzaniga",
+          "xunzi"
+        ],
+        "轻微反对": [
+          "schopenhauer"
+        ],
+        "中立": [
+          "williamjames"
+        ],
+        "疑惑": [
+          "sartre"
+        ]
+      }
+    },
+    {
+      "id": "p06",
+      "round": 1,
+      "thinker": "sartre",
+      "reply_to": null,
+      "text": "人没有预先写好的本性。**存在先于本质：人先存在，然后才由自己的行动定义自己。**懦夫不是天生的懦夫，是他一次次退缩把自己造成了懦夫；英雄也一样。所以当有人说“我就是这种性格，改不了”，我要说：这是自欺。他把自己当成一块石头，好逃避每天都得重新选择的重负。你有过去、有身体、有出身，但如何对待它们，永远由你负责。",
+      "text_en": "Humans have no nature written in advance. **Existence precedes essence: we exist first, and only then define ourselves through what we do.** The coward is not born a coward; he makes himself one, retreat by retreat, and the same goes for the hero. So when someone says 'that's just my personality, I can't change it', I call it bad faith. He treats himself as a stone so he can escape the burden of having to choose again every single day. You have a past, a body, an upbringing; what you do with them is always your responsibility.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "存在先于本质": "existence precedes essence（存在先于本质）：萨特存在主义的核心命题，人没有预定的本质，先存在，再通过选择与行动成为某种人。",
+        "自欺": "bad faith（自欺）：萨特用语（法语 mauvaise foi），指人假装自己别无选择、把自己当成物，以逃避自由与责任。"
+      },
+      "glossary_en": {
+        "Existence precedes essence": "The core claim of Sartre's existentialism: humans have no predetermined essence; we exist first and become a certain kind of person through our choices and acts.",
+        "bad faith": "Sartre's mauvaise foi: pretending we have no choice, treating ourselves as things, in order to dodge freedom and responsibility."
+      },
+      "reactions": {
+        "强烈反对": [
+          "schopenhauer"
+        ],
+        "轻微赞同": [
+          "williamjames"
+        ],
+        "轻微反对": [
+          "nagarjuna"
+        ],
+        "中立": [
+          "xunzi"
+        ],
+        "疑惑": [
+          "gazzaniga"
+        ]
+      }
+    },
+    {
+      "id": "p07",
+      "round": 2,
+      "thinker": "xunzi",
+      "reply_to": "p01",
+      "text": "叔本华谓性不可易，其重性也似我；谓伪不能及性，则惑矣。人之性好利，而礼义能使之让，岂徒算计哉？**积伪既久，伪亦成性；习与性成，不可复分。**譬之輮木为轮，汝能谓轮中尚藏直木乎？且子之说，最便惰者：性既定矣，何劳学焉？故君子不言天命之不可违，而言制天命而用之。",
+      "text_en": "Schopenhauer says nature cannot be changed, and in taking nature seriously he resembles me. But to say artifice never reaches nature is muddled. Human nature loves gain, yet ritual and righteousness can teach a man to yield; is that mere calculation? **When artifice piles up long enough, artifice becomes nature; habit and nature grow into one and can no longer be told apart.** When wood has been bent into a wheel, will you say a straight stick is still hiding inside it? Besides, your doctrine suits the lazy best: if nature is fixed, why trouble to learn? So the gentleman does not say Heaven's decree cannot be resisted; he says, master Heaven's decree and put it to use.",
+      "vernacular": "叔本华说本性不可改，在看重本性这一点上跟我相近；但他说人为的努力碰不到本性，就糊涂了。人的本性贪利，礼义却能让人谦让，这难道只是算计吗？**人为的东西积累久了，人为也就成了本性；习惯与本性长在一起，再也分不开。**就像把木头烤弯做成车轮，你能说轮子里还藏着一根直木吗？况且你这套说法最方便懒人：本性既然定了，还学什么？所以君子不说天命不可违抗，而说掌握天命、为我所用。",
+      "vernacular_en": "",
+      "glossary": {
+        "制天命而用之": "mastering Heaven's decree（制天命而用之）：出自《荀子·天论》，主张不迷信天命，而是认识自然的规律并加以利用。",
+        "礼义": "ritual and righteousness（礼义）：儒家的社会规范与道义准则；荀子视之为圣人制定、用来矫正人性的工具。"
+      },
+      "glossary_en": {
+        "master Heaven's decree": "From the 'Discourse on Heaven' in the Xunzi: rather than revering fate, understand the regularities of nature and turn them to human use.",
+        "ritual and righteousness": "Confucian social norms and moral principles; for Xunzi, tools devised by the sages to straighten out human nature."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "williamjames"
+        ],
+        "轻微赞同": [
+          "gazzaniga",
+          "sartre"
+        ],
+        "强烈反对": [
+          "schopenhauer"
+        ],
+        "中立": [
+          "nagarjuna"
+        ]
+      }
+    },
+    {
+      "id": "p08",
+      "round": 2,
+      "thinker": "schopenhauer",
+      "reply_to": "p06",
+      "text": "@萨特 你说懦夫“把自己造成”懦夫——那他第一次退缩时凭什么选？凭他已经是的那个人。**选择不创造性格，只是把性格暴露出来。**我们在行动之后才认识自己，这叫获得性格：不是变了，是看清了。你的学说听着豪迈，其实残忍：它让天生胆小的人为自己的气质负全责、天天愧疚。荀子的车轮我也不服：弯的是木头的形状，不是木头的纹理。",
+      "text_en": "@Sartre, you say the coward 'makes himself' a coward. Then on what basis did he choose the first time he backed down? On the basis of who he already was. **Choice does not create character; it only exposes it.** We come to know ourselves after we act, which is what I call acquired character: not a change, but a clearer view. Your doctrine sounds bold but is in fact cruel: it makes a naturally timid person wholly responsible for his temperament, and guilty every day. Nor does Xunzi's wheel persuade me. What bends is the shape of the wood, not its grain.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "获得性格": "acquired character（获得性格）：叔本华用语，指人通过经验逐步认清自己天生不变的性格，从而更一贯地按它行事；变的是自知，不是性格本身。"
+      },
+      "glossary_en": {
+        "acquired character": "Schopenhauer's term for the self-knowledge we gain through experience of our own inborn, unchanging character, which lets us act on it more consistently. What changes is the self-knowledge, not the character."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "nagarjuna"
+        ],
+        "轻微反对": [
+          "williamjames",
+          "xunzi"
+        ],
+        "强烈反对": [
+          "sartre"
+        ],
+        "疑惑": [
+          "gazzaniga"
+        ]
+      }
+    },
+    {
+      "id": "p09",
+      "round": 2,
+      "thinker": "gazzaniga",
+      "reply_to": "p01",
+      "text": "@叔本华 “不能改”是个可检验的命题，而它没通过检验。2017年一项汇总两百多项研究的分析发现：心理治疗平均二十来周，就能测出人格变化，情绪稳定性变得最多，追踪多年仍在。**另一个发现更扎心：人们都承认自己过去十年变了很多，却预测未来十年不会再怎么变。**心理学家叫它历史终结错觉。你那句“本性难移”，也许正是这种错觉的哲学版。",
+      "text_en": "@Schopenhauer, 'cannot change' is a testable claim, and it fails the test. A 2017 analysis pooling more than two hundred studies found that therapy, lasting a little over twenty weeks on average, produces measurable personality change, largest in emotional stability, and it is still there years later. **Another finding stings more: people readily admit they changed a great deal over the past ten years, yet predict they will hardly change over the next ten.** Psychologists call it the end-of-history illusion. Your 'nature can't be changed' may be its philosophical edition.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "历史终结错觉": "end-of-history illusion（历史终结错觉）：2013年奎德巴赫、吉尔伯特与威尔逊在《科学》上报告的现象：各年龄段的人都承认自己过去变化很大，却普遍低估自己将来还会改变多少。"
+      },
+      "glossary_en": {
+        "end-of-history illusion": "A finding reported by Quoidbach, Gilbert and Wilson in Science in 2013: people of every age acknowledge how much they have changed, yet consistently underestimate how much they will change in future."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sartre"
+        ],
+        "轻微赞同": [
+          "williamjames",
+          "xunzi"
+        ],
+        "轻微反对": [
+          "schopenhauer"
+        ],
+        "中立": [
+          "nagarjuna"
+        ]
+      }
+    },
+    {
+      "id": "p10",
+      "round": 2,
+      "thinker": "williamjames",
+      "reply_to": "p06",
+      "text": "@萨特 我年轻时也靠一次决断救了自己：读了雷诺维耶，我在日记里写下“我的第一个自由意志行为，就是相信自由意志”。但我很快明白，**决心本身一文不值，除非它在第一个机会里变成动作。**整天下决心却从不动手的人，性格只会更软弱。所以我不把一切押在“选择”上；选择要重复千百次，才长进神经里。至于我那句“石膏”，该补一句：它说的是不再练习的人。",
+      "text_en": "@Sartre, I too was rescued as a young man by an act of decision: after reading Renouvier I wrote in my diary, 'My first act of free will shall be to believe in free will.' But I soon learned that **a resolution is worth nothing unless it turns into action at the very first opportunity.** A man who makes resolutions all day and never acts only grows weaker in character. So I won't stake everything on 'choice'; a choice must be repeated hundreds of times before it grows into the nerves. As for my line about plaster, it needs a footnote: it describes people who have stopped practising.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "雷诺维耶": "Charles Renouvier（雷诺维耶）：19世纪法国哲学家，主张自由意志的实在性；詹姆斯在1870年的抑郁危机中读他的论述，从此走出低谷。"
+      },
+      "glossary_en": {
+        "Renouvier": "Charles Renouvier, a 19th-century French philosopher who defended the reality of free will; reading him helped James out of his depressive crisis in 1870."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "xunzi"
+        ],
+        "轻微赞同": [
+          "gazzaniga",
+          "nagarjuna"
+        ],
+        "轻微反对": [
+          "sartre"
+        ],
+        "中立": [
+          "schopenhauer"
+        ]
+      }
+    },
+    {
+      "id": "p11",
+      "round": 2,
+      "thinker": "nagarjuna",
+      "reply_to": "p06",
+      "text": "@萨特 你破“本性”破得痛快，转身却立起一个“绝对自由”：不受条件约束、随时能重新开始的我。**这只是把自性从性格搬到了意志上。**叔本华执常，你执断，两边都离了中道。真实的情形是：你今天的选择受昨天的习气牵引，又成为明天的条件。不必认命，也别以为一个念头就能翻身。",
+      "text_en": "@Sartre, you tear down 'nature' with gusto, then turn round and set up an 'absolute freedom': a self bound by no conditions, able to start over at any moment. **That only moves svabhāva out of character and into the will.** Schopenhauer clings to permanence, you cling to rupture, and both have strayed from the Middle Way. What really happens is that today's choice is pulled along by yesterday's habit energy, and becomes one of tomorrow's conditions. No need to resign yourself to fate; but don't imagine one thought can turn your life around either.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "中道": "the Middle Way（中道）：佛教用语，指远离“常”（认为事物恒存不变）与“断”（认为事物彼此断绝、毫无延续）两种极端见解的正见。",
+        "习气": "vāsanā（习气）：佛教用语，指过往的行为与念头留下的惯性倾向，会持续影响此后的身心反应。",
+        "自性": "svabhāva（自性）：独立恒常、不依条件的本质；中观认为它并不存在。"
+      },
+      "glossary_en": {
+        "svabhāva": "Intrinsic, unconditioned essence; Madhyamaka denies that anything has it.",
+        "the Middle Way": "The Buddhist right view that avoids two extremes: eternalism (things persist unchanged) and annihilationism (things are cut off with no continuity).",
+        "habit energy": "Vāsanā: the momentum left by past actions and thoughts, which keeps shaping later reactions of body and mind."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "williamjames",
+          "gazzaniga",
+          "xunzi"
+        ],
+        "中立": [
+          "schopenhauer"
+        ],
+        "轻微反对": [
+          "sartre"
+        ]
+      }
+    },
+    {
+      "id": "p12",
+      "round": 2,
+      "thinker": "sartre",
+      "reply_to": "p08",
+      "text": "@叔本华 你说选择只暴露性格——那这个“性格”你在哪里见过？你见过的只有行动。在行动背后再塞一个看不见的本性，等于给每一次退缩备好了现成的借口。我承认处境：身体、阶级、过去，就是我说的事实性，它限制你，却不替你作决定。**胆小的人不必为心跳加速负责，却要为那天没开口负责。**这不残忍，这是把人当人。",
+      "text_en": "@Schopenhauer, you say choice only exposes character. Where have you ever seen this 'character'? All you have ever seen is actions. Stuffing an invisible nature behind them hands every retreat a ready-made excuse. I grant the situation: body, class and past are what I call facticity; it limits you but never decides for you. **The timid man isn't responsible for his racing heart, but he is responsible for not speaking up that day.** That isn't cruelty; it is treating a person as a person.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "事实性": "facticity（事实性）：萨特用语，指人无法选择的既定事实，如身体、出身、过去；人总是在这些事实之上做出选择。"
+      },
+      "glossary_en": {
+        "facticity": "Sartre's term for the given facts of a life that we did not choose, such as our body, origins and past; we always choose on top of them."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "williamjames",
+          "gazzaniga"
+        ],
+        "轻微反对": [
+          "nagarjuna"
+        ],
+        "强烈反对": [
+          "schopenhauer"
+        ],
+        "中立": [
+          "xunzi"
+        ]
+      }
+    },
+    {
+      "id": "p13",
+      "round": 3,
+      "thinker": "schopenhauer",
+      "reply_to": null,
+      "text": "诸位只说服了我一半：习惯、处境、行为会变，数据我认。但请分清“改得了”与“值得改”。**最实用的智慧，是先认清自己的性格，再挑适合它的位置，而不是一辈子跟它摔跤。**内向的人去做全天候销售，只会天天受挫；给他一间能专心的屋子，他就是好手。我的建议：写下你反复犯、反复后悔的三件事，问问是性格本身，还是你把自己放错了地方。多数时候，换位置比换性格容易得多。",
+      "text_en": "You have persuaded me only halfway: habits, circumstances and behaviour do change, and I accept the data. But distinguish 'can be changed' from 'worth changing'. **The most practical wisdom is to know your character first and then choose a place that suits it, instead of wrestling with it all your life.** Put an introvert in round-the-clock sales and he fails daily; give him a quiet room where he can concentrate and he excels. My advice: write down the three things you keep doing and keep regretting, and ask whether the cause is your character itself or the fact that you have put yourself in the wrong place. Most of the time, changing your place is far easier than changing your character.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "轻微赞同": [
+          "nagarjuna",
+          "gazzaniga",
+          "xunzi"
+        ],
+        "轻微反对": [
+          "sartre"
+        ],
+        "中立": [
+          "williamjames"
+        ]
+      }
+    },
+    {
+      "id": "p14",
+      "round": 3,
+      "thinker": "xunzi",
+      "reply_to": null,
+      "text": "性不足恃，亦不足畏。君子居必择乡，游必就士，所以防邪僻而近中正也。**化性不求一朝之悟，而求日日之积：不积跬步，无以至千里。**今人欲改躁急，先改其所处、所友、所习，日行一事，久而不辍。师友与所居之地，即今之礼也。",
+      "text_en": "Nature is nothing to rely on, and nothing to fear. The gentleman chooses his neighbourhood with care and keeps company with worthy men, to guard against the crooked and stay close to the upright. **Transforming nature asks for no sudden awakening, only daily accumulation: without piling up half-steps you will never travel a thousand li.** If you want to cure a quick temper, first change where you live, whom you befriend and what you practise; do one thing each day and never stop. Your teachers, your friends and the place you live are the ritual of our time.",
+      "vernacular": "本性不值得依仗，也不值得害怕。君子居住一定选择好的乡里，交游一定接近有德之士，用来防止走上邪路、亲近正道。**改造本性不求一下子开悟，而求一天天积累：不积累半步一步，就到不了千里之外。**现在的人想改掉急躁，就先改所处的环境、所交的朋友、所练的习惯，每天做一件事，长久不停。老师、朋友和你住的地方，就是今天的“礼”。",
+      "vernacular_en": "",
+      "glossary": {
+        "跬步": "half-step（跬步）：古人称迈一次腿为“跬”，两次为“步”；“不积跬步，无以至千里”出自《荀子·劝学》。"
+      },
+      "glossary_en": {
+        "half-steps": "In ancient Chinese, kui meant a single stride of one leg, half a full step; 'without piling up half-steps you will never travel a thousand li' comes from Xunzi's 'Exhortation to Learning'.",
+        "li": "A traditional Chinese unit of distance, roughly half a kilometre."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "williamjames"
+        ],
+        "轻微赞同": [
+          "gazzaniga",
+          "nagarjuna",
+          "schopenhauer"
+        ],
+        "中立": [
+          "sartre"
+        ]
+      }
+    },
+    {
+      "id": "p15",
+      "round": 3,
+      "thinker": "williamjames",
+      "reply_to": null,
+      "text": "我把《习惯》一章的老规矩交给诸位，至今管用。第一，**开头要猛：新习惯起步时，尽量多借外力——公开宣布、约好同伴、改造环境。**第二，新习惯扎根之前，绝不允许例外；每次破例，都像把辛苦绕好的线团掉在地上，一下就散掉许多圈。第三，一有决心，就抓住第一个机会动手。第四，每天做一点“无谓的”小努力，比如没必要地早起十分钟，让意志别萎缩。石膏会定型，但浇筑它的是你。",
+      "text_en": "Here are the old rules from my chapter on habit; they still work. First, **launch yourself as strongly as you can: when a new habit starts, recruit every outside help you can find, by announcing it publicly, finding a partner, rearranging your surroundings.** Second, never allow an exception until the new habit is firmly rooted; each slip is like dropping a ball of string you have been carefully winding, and many turns come undone at once. Third, seize the very first opportunity to act on a resolution. Fourth, do a little gratuitous effort every day, say getting up ten minutes earlier than you need to, so the will doesn't waste away. Plaster does set, but you are the one pouring it.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "xunzi",
+          "gazzaniga"
+        ],
+        "轻微赞同": [
+          "sartre",
+          "nagarjuna"
+        ],
+        "中立": [
+          "schopenhauer"
+        ]
+      }
+    },
+    {
+      "id": "p16",
+      "round": 3,
+      "thinker": "gazzaniga",
+      "reply_to": null,
+      "text": "我的建议从“别全信你的解说员”开始。第一，**判断自己变没变，别问感受，去看行为记录：**这个月发了几次火、拖了几次稿，再请熟人打分，比内省准。第二，“我就是这样”冒出来时，把它当成解释器的一个假设，而不是结论。第三，若某个特质真在伤你——长期焦虑、动辄发怒——就去找有证据支持的心理治疗，几个月就可能见效。基因给你起点和范围，不给你终点。",
+      "text_en": "My advice begins with: don't take your narrator at its word. First, **to judge whether you have changed, don't consult your feelings; look at the record of your behaviour.** Count how often you lost your temper or missed a deadline this month, and ask people who know you to rate you; it beats introspection. Second, when 'I'm just like this' pops up, treat it as one of the interpreter's hypotheses, not a verdict. Third, if a trait is genuinely hurting you, such as chronic anxiety or a hair-trigger temper, seek out evidence-based therapy; it can work within months. Your genes give you a starting point and a range, not a destination.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "解释器": "interpreter（解释器）：左脑中为行为编出连贯解释的系统，见加扎尼加第一轮发言。"
+      },
+      "glossary_en": {
+        "interpreter": "The left-hemisphere system that produces coherent explanations of our behaviour; see Gazzaniga's first-round post."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sartre"
+        ],
+        "轻微赞同": [
+          "williamjames",
+          "xunzi",
+          "nagarjuna"
+        ],
+        "中立": [
+          "schopenhauer"
+        ]
+      }
+    },
+    {
+      "id": "p17",
+      "round": 3,
+      "thinker": "nagarjuna",
+      "reply_to": null,
+      "text": "我不给你一个新的自我，只给你一种看法：**性格是一串条件，不是一块石头。**想改它，别对着“我”使劲，对着条件使劲：睡眠、饮食、在谁身边、手机放在哪、早上第一件事做什么。换掉几个条件，“你”就跟着换了。也别因为改得慢就说“本性难移”，那又是把它看成了石头。改得慢，只是因为条件多、缠得紧。一根一根地解。",
+      "text_en": "I won't hand you a new self, only a way of seeing: **character is a bundle of conditions, not a stone.** To change it, don't push against 'me'; push against the conditions: sleep, food, who you spend time with, where your phone lives, what you do first thing in the morning. Change a few conditions and 'you' change along with them. And don't conclude that nature can't be changed because change is slow; that is treating it as a stone again. It is slow only because the conditions are many and tightly knotted. Untie them one strand at a time.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "xunzi"
+        ],
+        "轻微赞同": [
+          "gazzaniga",
+          "williamjames",
+          "schopenhauer"
+        ],
+        "轻微反对": [
+          "sartre"
+        ]
+      }
+    },
+    {
+      "id": "p18",
+      "round": 3,
+      "thinker": "sartre",
+      "reply_to": null,
+      "text": "叔本华说对了一半：我们确实常在行动之后才认出自己。那就让行动走在前面。**别等“变成另一个人”再去做，先做那件事，你就已经是另一个人了。**想做一个不再逃避的人，今天就打那通拖了三周的电话。失败会有，但它不证明你“本性如此”，只证明你还在选择。最后一句：别用“我改不了”原谅自己，也别用“我必须彻底改”折磨自己；你只需对下一个行动负责。",
+      "text_en": "Schopenhauer is half right: we often recognise ourselves only after we act. So let action go first. **Don't wait until you have 'become someone else' to do the thing; do it, and you already are someone else.** If you want to be a person who no longer runs away, make the phone call you have been putting off for three weeks, today. You will fail sometimes, but failure doesn't prove 'that's my nature'; it only proves you are still choosing. One last word: don't use 'I can't change' to excuse yourself, and don't use 'I must change completely' to torment yourself. You only have to answer for your next action.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "轻微赞同": [
+          "williamjames",
+          "gazzaniga"
+        ],
+        "轻微反对": [
+          "schopenhauer",
+          "nagarjuna"
+        ],
+        "中立": [
+          "xunzi"
+        ]
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "ai": "claude",
+      "engine": "Opus 5 · 订阅(原生)",
+      "engine_en": "Opus 5 · subscription (native)",
+      "summary": "六位的共识比预想的多：**人的行为模式确实会变，但不是靠一个念头，而是靠环境与重复一点点改。**荀子的“积”、詹姆斯的习惯、加扎尼加引的追踪与治疗数据、龙树的“因缘”，讲的是同一件事的不同侧面；连叔本华最后也认了习惯与处境会变。分歧在“变的是什么”：叔本华坚持变的是自知与位置，性格的纹理不动；萨特认为根本没有纹理，只有行动；龙树则说两边都把性格当成了实体。真正悬而未决的是责任：天生的气质，该不该算在一个人头上。",
+      "summary_en": "The six agreed more than expected: **behaviour patterns really do change, not through a single resolution but bit by bit, through surroundings and repetition.** Xunzi's accumulation, James's habit, the tracking and therapy data Gazzaniga cited, Nagarjuna's conditions: these are sides of one fact, and even Schopenhauer ended by granting that habits and circumstances change. The split is over what changes. Schopenhauer insists it is self-knowledge and one's place, while the grain of character stays put; Sartre says there is no grain, only acts; Nagarjuna says both sides treat character as a thing. The open question is responsibility: should an inborn temperament be held against the person who has it?",
+      "insight": "这场容易被忽略的一点：主张“性不可改”的叔本华与主张“性可化”的荀子，开出的药方几乎一样——一个劝人换位置，一个劝人择乡就士。**也就是说，不必先解决“本性能不能改”这个形而上问题，就可以动手。**另外，追踪数据里大多数人格变化，是随工作、成家、照顾人这些角色被动发生的：不是我们主动改了自己，而是生活要求我们换个活法。所以比“我能不能变”更有用的问题是：我愿意接下哪一份会改变我的责任？",
+      "insight_en": "One point easily missed: Schopenhauer, who says nature cannot change, and Xunzi, who says it can be transformed, prescribe almost the same remedy. One tells you to change your place, the other to choose your neighbourhood and your company. **You don't need to settle whether nature can change before you start.** Also, most of the personality change in long-term studies happens passively, through roles such as a job, a family or caring for someone: we didn't change ourselves so much as life asked us to live differently. So a more useful question than 'can I change?' is: which responsibility, one that will change me, am I willing to take on?",
+      "advice": "一、挑一个真正困扰你的毛病（比如一生气就说重话），按詹姆斯的规矩办：今天就告诉一个人、定好一个替代动作（先停三秒、离开房间），头两个月不许破例。二、每周看一次行为记录而不是感受：记下发作次数，请伴侣或同事打分，这是加扎尼加绕开自我叙事的办法，比问自己“我变了吗”可靠。三、动手前先问叔本华那个问题：这是性格要改，还是位置放错了？**若是后者，换环境往往比磨性格见效快。**",
+      "advice_en": "1. Pick one flaw that genuinely bothers you, say lashing out when angry, and follow James's rules: tell someone today, settle on a replacement action (pause for three seconds, leave the room), and allow no exceptions for the first two months. 2. Once a week, look at your behaviour record rather than your feelings: count the flare-ups and ask your partner or a colleague to rate you, which is Gazzaniga's way around the self-narrative and more reliable than asking yourself 'have I changed?' 3. Before you start, ask Schopenhauer's question: does my character need changing, or am I in the wrong place? **If it's the latter, changing your surroundings usually works faster than grinding down your character.**"
+    },
+    {
+      "ai": "gpt",
+      "engine": "openai · gpt-5.6-sol · high(真实API)",
+      "engine_en": "openai · gpt-5.6-sol · high (live API)",
+      "summary": "人的行为并非只能服从既有性格：习惯、环境、关系、行动与治疗都能带来可观察且可持续的变化；同时，气质、遗传倾向和多年形成的模式确实会制造阻力。这是各路意见真正相交之处。分歧在于该把阻力解释为不变的意志、被塑造的习性、条件网络，还是不断选择的结果，以及个人应承担多大责任。现代证据更支持“稳定与变化并存”：人格有中度遗传性和排序稳定性，也会随年龄、经历及干预改变。**本性不是任意改写的白纸，也不是不可移动的石头，而是带惯性的可塑系统。**",
+      "insight": "“改变自己”常被当成单一任务，其实至少有三层：反应阈值较低、相对稳定的气质；可以训练和记录的行为习惯；以及“我就是这样”的身份叙事。三者变化速度不同，也会彼此反馈。一个易焦虑的人未必能立刻不紧张，却能通过提前准备来减少回避，并停止把焦虑等同于无能；这些行为积累久了，又可能降低特质焦虑。**务实的目标不是证明本性可改，而是先改变代价最高、最伤人的那一层。**这样既不会把一次复发判作宿命，也不会因没彻底变成另一种人而否定真实进步。",
+      "advice": "本周只选一个反复造成损失的行为，不选“变自律”这类大词。①把它写成可计数指标，如“晚十一点后刷手机几分钟”或“一周因害怕取消几次约谈”，连续记录七天；②设置一个“如果—那么”方案并改造环境，例如十一点把手机放到客厅，想逃避电话时先完成拨号并坚持两分钟，同时请一位熟人周末核对记录；③七天后只比较频率、强度和恢复时间，不用一次失手给自己定性。**先让下一次反应容易一点，再用重复把偶然变成倾向。**若焦虑、暴怒或成瘾已持续损害生活，应寻求循证心理治疗或医疗评估。",
+      "summary_en": "Human behavior is not condemned to obey an existing personality. Habits, surroundings, relationships, deliberate action, and therapy can all produce observable, lasting change; at the same time, temperament, genetic predispositions, and long-rehearsed patterns create real resistance. That is the common ground worth keeping. The actual dispute concerns what that resistance is: an unchanging will, acquired habit, a network of conditions, or the accumulated result of choice—and how much responsibility a person should bear for it. Contemporary evidence favors a mixed picture. Personality differences are moderately heritable and people’s relative rankings become fairly stable, yet average traits shift with age, major experiences matter, and structured interventions can alter how people think, feel, and act. **Human nature is neither a blank page that can be rewritten at will nor an immovable stone; it is a plastic system with inertia.** This view preserves accountability without pretending that everyone begins with equal constraints or can transform through resolve alone.",
+      "insight_en": "“Changing yourself” is often treated as a single task, but it contains at least three layers: relatively stable temperament, trainable and measurable habits, and the identity story that says, “This is simply who I am.” These layers change at different speeds and also reinforce one another. An anxiety-prone person may not be able to stop feeling tense on command, but they can prepare earlier, reduce avoidance, and stop treating anxiety as proof of incompetence. Repeated long enough, those behavioral changes may even reduce trait anxiety. **The practical aim is not to prove that human nature can change, but to change first the layer that causes the greatest harm or cost.** This distinction prevents two common mistakes: treating one relapse as evidence of destiny, and dismissing genuine progress because one has not become a completely different person. It also lets people choose an intervention suited to the target instead of demanding that willpower solve everything.",
+      "advice_en": "Choose one recurring, costly behavior this week—not a vague ambition such as “be more disciplined.” First, translate it into something countable: minutes spent scrolling after 11 p.m., angry messages sent, or meetings canceled out of fear. Record it for seven days without trying to explain it. Second, create one “if–then” rule and alter the environment: “If it is 11 p.m., my phone goes in the living room,” or “If I want to avoid the call, I will dial and remain on it for two minutes.” Ask one trusted person to review the record with you at week’s end. Third, compare frequency, intensity, and recovery time rather than demanding perfection; a lapse is information, not a verdict on your character. **Make the next better response slightly easier, then use repetition to turn an exception into a tendency.** If anxiety, rage, addiction, or another pattern is persistently damaging work, health, or relationships, seek evidence-based psychotherapy or a medical assessment rather than treating it as a private test of willpower."
+    },
+    {
+      "ai": "gemini",
+      "engine": "降级:Opus 扮演(API 不可达)",
+      "engine_en": "fallback: Opus role-play (API unreachable)",
+      "summary": "最大的共识是：**改变是可能的，但它更像园艺而非手术**——要靠环境、重复与时间，一个决心改不了什么。科学证据与古代智慧在这里意外地汇合。分歧在于对“本性”的定义与态度：叔本华要人认清并顺应它，荀子与詹姆斯要人用习惯去改造它，萨特干脆否认它存在，龙树则认为它只是暂时聚合的条件。随之而来的问题是：改不动的那部分，该接纳还是继续努力。",
+      "summary_en": "The biggest consensus: **change is possible, but it is more like gardening than surgery**, needing surroundings, repetition and time; a single resolution achieves little. Scientific evidence and ancient wisdom converge unexpectedly here. The split is over how to define and treat 'nature': Schopenhauer wants us to recognise and work with it, Xunzi and James to reshape it through habit, Sartre denies it exists, and Nagarjuna sees it as a temporary gathering of conditions. Which raises the question of whether the part that won't budge should be accepted or fought.",
+      "insight": "全场默认改变是好事，却很少问：稳定本身有什么价值？朋友信任你、同事敢把事交给你，恰恰因为你可预测。**一个人若太容易被环境与新决心改写，反而难以被依靠。**数据里人的相对排名随年龄越来越稳，未必是僵化，也可能是一个人终于成形。更值得问的，或许不是能不能变，而是哪些部分该守住、哪些部分该松开——这需要先想清楚你想成为什么样的人。",
+      "insight_en": "The whole debate assumed change is good, and rarely asked what stability is worth. Friends trust you and colleagues hand you things precisely because you are predictable. **Someone too easily rewritten by surroundings and fresh resolutions becomes hard to rely on.** The way people's relative ranking steadies with age need not be rigidity; it may be a person finally taking shape. The better question may be not whether you can change, but which parts to hold onto and which to loosen, and that requires first deciding who you want to be.",
+      "advice": "一、写下三项你希望十年后仍保有的品质，和一项最想改掉的习惯，分清“守”与“改”。二、改的那一项只从环境入手：挪走诱因、换一个时间段，先坚持一个月再评估，别急着给自己下结论。三、对守住的那几项，**每月一次问一位信任的朋友：我还是你认识的那个人吗？**让别人帮你确认，稳定是成熟而不是停滞；若朋友说你变得更僵了，那就是该松一松的信号。",
+      "advice_en": "1. Write down three qualities you hope to still have in ten years and one habit you most want to drop, so you know what to keep and what to change. 2. For the habit, work only on your surroundings: remove the triggers, shift the time of day, and keep it up for a month before judging, without rushing to a verdict on yourself. 3. For the qualities you are keeping, **once a month ask a trusted friend: am I still the person you know?** Let someone else help confirm that your stability is maturity, not stagnation; if they say you have grown more rigid, take it as a sign to loosen up."
+    }
+  ],
+  "hooks": [
+    {
+      "from": "claude",
+      "text": "**换个角色，就换个人**：很多人格变化是随工作、成家、照顾人被动发生的。主动接下一份责任，算不算最有效的『改性格』？",
+      "text_en": "**A new role, a new person**: much personality change happens passively, through work, family or caregiving. Is taking on a responsibility the most effective way to change your character?"
+    },
+    {
+      "from": "gpt",
+      "text": "**改哪一层**：气质、习惯、『我就是这样』的身份叙事，变化速度各不同。先动代价最高的那一层，还是最容易动的那一层？",
+      "text_en": "**Which layer to change**: temperament, habits and the 'that's just me' identity story change at different speeds. Start with the costliest layer, or the easiest one to move?"
+    },
+    {
+      "from": "gemini",
+      "text": "**稳定也是美德**：朋友信你，是因为你可预测。一个太容易变的人值得依靠吗？哪些部分该守、哪些该改？",
+      "text_en": "**Stability is a virtue too**: friends trust you because you are predictable. Can you rely on someone who changes too easily? What should you keep, and what should you change?"
+    },
+    {
+      "from": "sartre",
+      "text": "**别人记住的你**：家人同事按旧版本待你，回老家就变回十五岁。改变要不要别人『批准』？怎样让周围人更新对你的印象？",
+      "text_en": "**The you others remember**: family and colleagues treat you as the old version, and you turn fifteen again whenever you go home. Does change need other people's sign-off? How do you get them to update?"
+    },
+    {
+      "from": "schopenhauer",
+      "text": "**气质该算谁的账**：天生易怒的人发火，和天生平和的人发火，该受同样的责备吗？",
+      "text_en": "**Who pays for temperament?** When someone born hot-tempered loses their temper, do they deserve the same blame as someone born calm?"
+    },
+    {
+      "from": "nagarjuna",
+      "text": "**剧变改人**：大病、丧亲、移居之后，人常像变了个人。一夜之间的巨变与日积月累的小改，靠的是同一种机制吗？",
+      "text_en": "**Upheaval remakes people**: after serious illness, bereavement or emigration, people often seem to become someone else. Do sudden upheaval and slow daily change work by the same mechanism?"
+    },
+    {
+      "from": "williamjames",
+      "text": "**想改一个毛病，具体从哪下手？**决心容易，落地难。从第一天到它变成自动，每个阶段该做什么？",
+      "text_en": "**Where exactly do you start on a bad habit?** Resolving is easy; following through is hard. What should you do at each stage, from day one until it runs on its own?"
+    }
+  ]
+}

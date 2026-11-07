@@ -1,0 +1,938 @@
+{
+  "id": "grieving-a-loss",
+  "question": "失去至亲，只能等时间冲淡吗？",
+  "question_en": "After losing someone close, can we only wait for time to dull it?",
+  "sub": "多数人一两年里会慢慢走出来，也有人卡在原地好几年。",
+  "sub_en": "Most people slowly come through within a year or two, but some stay stuck for years.",
+  "date": "2026-11-07",
+  "participants": [
+    "oconnor",
+    "epictetus",
+    "kongzi",
+    "freud",
+    "buddha",
+    "sushi",
+    "durkheim",
+    "beauvoir"
+  ],
+  "casting": [
+    {
+      "id": "oconnor",
+      "reason": "她研究丧亲者的大脑，把『哀伤』与『哀悼』分开，主张愈合靠的不是时间本身，而是大脑在时间里一次次更新『他不会回来了』的学习。她给全场提供证据底座。",
+      "reason_en": "She studies the brains of the bereaved and separates grief from grieving. Her claim is that what heals is not time itself but the brain learning, again and again, that the person will not come back. She gives the debate its evidence base."
+    },
+    {
+      "id": "epictetus",
+      "reason": "他主张让人痛的是『这不该发生』的判断而非死亡本身，要人把所爱之人当作『还回去』。他把『不必等时间、此刻就能改判断』立到最硬。",
+      "reason_en": "He holds that what hurts is the judgment 'this should not have happened,' not death itself, and urges us to think of the people we love as 'given back.' He takes the hardest line: no need to wait for time, you can revise your judgment now."
+    },
+    {
+      "id": "kongzi",
+      "reason": "他以三年之丧为据，认为礼给哀伤一个期限和形状；又亲自为颜渊恸哭。他在『真哀』与『有节』之间立住中道。",
+      "reason_en": "Drawing on the three-year mourning, he argues that ritual gives grief a term and a shape; yet he himself wept without restraint for Yan Hui. He holds the middle ground between sincere grief and measured grief."
+    },
+    {
+      "id": "freud",
+      "reason": "他提出『哀悼工作』：把投在逝者身上的情感逐步收回；晚年在丧女后又承认空缺永远无法替代。他带来一位理论家修正自己的现场。",
+      "reason_en": "He proposed the 'work of mourning,' gradually withdrawing the feeling invested in the dead; late in life, after losing his daughter, he admitted the gap can never be filled. He brings a theorist revising himself in public."
+    },
+    {
+      "id": "buddha",
+      "reason": "他用乔达弥求芥子的故事，让丧亲者亲眼看见无常并非只落在一家，并区分躲不掉的第一支箭与自己补上的第二支箭。",
+      "reason_en": "Through the story of Kisa Gotami and the mustard seed, he lets the bereaved see for themselves that impermanence has not singled out their house, and distinguishes the first arrow no one escapes from the second arrow we add ourselves."
+    },
+    {
+      "id": "sushi",
+      "reason": "他亡妻十年仍写下『不思量，自难忘』，同时贬谪中照常种地炖肉。他代表『思念不必消失，日子照样过』的并行之道。",
+      "reason_en": "Ten years after his wife's death he could still write 'I do not try to think of you, yet I cannot forget,' while farming and stewing pork in exile. He stands for carrying longing and daily life side by side."
+    },
+    {
+      "id": "durkheim",
+      "reason": "他把哀悼看作群体加给成员的义务而非纯私人情感，认为现代人卡在哀伤里，常是因为丧礼与陪伴的社会结构被拆空了。",
+      "reason_en": "He sees mourning as a duty the group imposes, not a purely private feeling, and argues that modern people get stuck in grief largely because the social structure of rites and company has been hollowed out."
+    },
+    {
+      "id": "beauvoir",
+      "reason": "她在母亲病逝后写下《安详辞世》，认为每一次死亡都是无法辩护的侵犯。她替愧疚、怨恨与复杂关系里的哀伤说话，警惕『快放下吧』的劝慰。",
+      "reason_en": "After her mother's death she wrote 'A Very Easy Death,' arguing that every death is an unjustifiable violation. She speaks for grief tangled with guilt, resentment and difficult relationships, and is wary of the advice to 'just let go.'"
+    }
+  ],
+  "posts": [
+    {
+      "id": "p01",
+      "round": 1,
+      "thinker": "epictetus",
+      "reply_to": null,
+      "text": "我教学生一件事：亲吻孩子的时候，心里默念一句“明天你可能会死”。听着残忍，其实是在提醒自己他从来不归你所有。所以**别说“我失去了他”，要说“我把他还回去了”。**让人痛的不是死亡，而是“这不该发生”的那个判断。等时间冲淡，是把判断交给懒惰去改；你今天就能自己改。",
+      "text_en": "I teach my students one thing: when you kiss your child, say quietly to yourself, 'Tomorrow you may die.' It sounds cruel, but it reminds you he was never yours to own. So **never say 'I have lost him'; say 'I have given him back.'** What hurts is not death but the judgment that 'this should not have happened.' Waiting for time to dull it means letting laziness revise your judgment. You can revise it yourself, today.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "轻微赞同": [
+          "buddha"
+        ],
+        "中立": [
+          "durkheim"
+        ],
+        "轻微反对": [
+          "oconnor",
+          "sushi"
+        ],
+        "强烈反对": [
+          "beauvoir"
+        ],
+        "疑惑": [
+          "kongzi"
+        ]
+      }
+    },
+    {
+      "id": "p02",
+      "round": 1,
+      "thinker": "oconnor",
+      "reply_to": null,
+      "text": "先分开两件事：哀伤是一阵阵涌上来的情绪，哀悼是之后漫长的适应。大脑把至亲编码成“此时、此地、亲近”，所以人走了，它仍每天预测他会推门进来，落空一次就痛一次。**真正在愈合的不是时间，而是时间里的学习**：每过一个没有他的生日、每做一次他以前做的事，大脑都在更新地图。多数人一两年内会慢慢走出来；约一成的人会卡住，那叫延长哀伤障碍，需要专门治疗。",
+      "text_en": "First, separate two things. Grief is the emotion that comes in waves; grieving is the long adjustment afterwards. The brain encodes a loved one as 'here, now, close,' so after they are gone it still predicts, every day, that they will walk through the door, and each miss hurts. **What heals is not time but the learning that happens in time**: every birthday without them, every chore they used to do, updates the map. Most people slowly come through within a year or two; roughly one in ten gets stuck. That is prolonged grief disorder, and it needs specific treatment.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "延长哀伤障碍": "prolonged grief disorder（延长哀伤障碍）：2022 年起列入美国精神障碍诊断手册的诊断，指成人丧亲一年后仍几乎每天强烈思念、难以接受死亡，并明显妨碍日常生活。"
+      },
+      "glossary_en": {
+        "prolonged grief disorder": "A diagnosis added to the DSM-5-TR in 2022: at least a year after a death (for adults), intense yearning or preoccupation nearly every day, difficulty accepting the death, and clear impairment of daily life."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "durkheim"
+        ],
+        "轻微赞同": [
+          "freud",
+          "kongzi"
+        ],
+        "中立": [
+          "buddha"
+        ],
+        "轻微反对": [
+          "epictetus"
+        ],
+        "疑惑": [
+          "sushi"
+        ]
+      }
+    },
+    {
+      "id": "p03",
+      "round": 1,
+      "thinker": "kongzi",
+      "reply_to": null,
+      "text": "宰我问三年之丧，以为期已久矣。吾问之：“食夫稻，衣夫锦，于女安乎？”曰安。吾曰：女安则为之。子生三年，然后免于父母之怀，故三年之丧，天下之通丧也。**礼非待时以淡哀，乃与哀一个期限、一个形状。**“丧，与其易也，宁戚。”哀不可伪，亦不可无节。",
+      "text_en": "Zai Wo asked about the three-year mourning, thinking it far too long. I asked him: 'Eating fine rice and wearing brocade, would you be at ease?' He said he would. I said: if you are at ease, then do so. A child is three years old before it leaves its parents' arms; that is why three years of mourning is observed by all under heaven. **Ritual does not wait for time to dull grief; it gives grief a term and a shape.** 'In mourning, better deep sorrow than smooth formality.' Grief must not be faked, nor left without measure.",
+      "vernacular": "宰我问守丧三年，觉得时间太长了。我反问他：“（父母死了不到三年）你就吃白米饭、穿锦缎衣服，心里安吗？”他说安。我说：你安心就那么做吧。孩子生下来三年，才离开父母的怀抱，所以守丧三年，是天下通行的丧礼。**礼不是等时间去冲淡哀伤，而是给哀伤一个期限、一个形状。**“办丧事，与其面面俱到，不如真心哀戚。”哀伤不能装，也不能没有节度。",
+      "vernacular_en": "",
+      "glossary": {
+        "三年之丧": "three-year mourning（三年之丧）：古礼为父母守丧约二十五至二十七个月，期间不宴乐、不任官、衣食从简。",
+        "宰我": "Zai Wo（宰我）：孔子弟子，以能言善辩著称，曾质疑三年之丧太长。"
+      },
+      "glossary_en": {
+        "three-year mourning": "The ancient rite of mourning a parent for roughly 25 to 27 months, with no feasting, no office-holding, and plain food and dress.",
+        "Zai Wo": "A disciple of Confucius known for his eloquence, who questioned whether three years of mourning was too long."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "durkheim"
+        ],
+        "轻微赞同": [
+          "sushi"
+        ],
+        "中立": [
+          "oconnor"
+        ],
+        "轻微反对": [
+          "beauvoir",
+          "freud"
+        ],
+        "疑惑": [
+          "epictetus"
+        ]
+      }
+    },
+    {
+      "id": "p04",
+      "round": 1,
+      "thinker": "freud",
+      "reply_to": null,
+      "text": "我在《哀悼与忧郁》里把这叫作“哀悼工作”。现实检验一遍遍告诉你：那个人不在了。于是你得把投在他身上的情感一点点收回来，每一段回忆都要被重新唤起、再放下，痛就痛在这里。做完了，自我重获自由，可以去爱新的人。**冲淡它的不是时间，是这份工作。**卡住的人往往是对逝者又爱又恨，把怨气转向自己：逝者的影子落在了自我上。",
+      "text_en": "In 'Mourning and Melancholia' I called this the work of mourning. Reality-testing tells you, again and again, that the person is gone. So you must withdraw, bit by bit, the feeling you had invested in them; every memory has to be called up and then let go, and that is where the pain lies. When the work is done, the ego is free again and can love someone new. **What dulls it is not time but this work.** Those who get stuck usually loved and hated the dead person at once, and turned the anger on themselves: the shadow of the object fell upon the ego.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "现实检验": "reality-testing（现实检验）：精神分析用语，指自我核对内心想象与外部现实是否相符的功能。"
+      },
+      "glossary_en": {
+        "Reality-testing": "A psychoanalytic term for the ego's function of checking inner images against outer reality."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "oconnor"
+        ],
+        "中立": [
+          "durkheim"
+        ],
+        "轻微反对": [
+          "kongzi",
+          "buddha"
+        ],
+        "强烈反对": [
+          "sushi"
+        ],
+        "疑惑": [
+          "beauvoir"
+        ]
+      }
+    },
+    {
+      "id": "p05",
+      "round": 1,
+      "thinker": "buddha",
+      "reply_to": null,
+      "text": "有位母亲叫乔达弥，抱着死去的孩子来求药。我说：去城里讨一把芥子，但必须来自一户从没死过人的人家。她挨家挨户问了一整天，一粒也没讨到。傍晚她明白了，把孩子安葬，回来出了家。**我没给她道理，只让她亲眼看见：无常不是只落在她一家。**丧亲是第一支箭，躲不掉；“为什么偏偏是我”是自己补上的第二支箭。",
+      "text_en": "There was a mother, Kisa Gotami, who came to me carrying her dead child and begging for medicine. I said: go into the city and bring me a handful of mustard seed, but it must come from a house where no one has ever died. She went door to door all day and came back with not one seed. By evening she understood; she buried the child and returned to become a nun. **I gave her no argument. I only let her see for herself that impermanence had not singled out her house.** The death is the first arrow, and no one dodges it. 'Why me?' is a second arrow we shoot ourselves.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "第二支箭": "the second arrow（第二支箭）：出自《箭经》，佛陀以中箭为喻，第一支箭是身体与处境的痛，第二支是心对痛的抗拒与抱怨。"
+      },
+      "glossary_en": {
+        "second arrow": "From the Sallatha Sutta: the first arrow is the pain of the body or circumstance; the second is the mind's resistance and complaint about that pain."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "epictetus",
+          "durkheim",
+          "sushi"
+        ],
+        "中立": [
+          "oconnor"
+        ],
+        "轻微反对": [
+          "beauvoir"
+        ],
+        "疑惑": [
+          "freud"
+        ]
+      }
+    },
+    {
+      "id": "p06",
+      "round": 1,
+      "thinker": "sushi",
+      "reply_to": null,
+      "text": "吾妻王弗亡十年，一夕梦之，作《江城子》：“十年生死两茫茫，**不思量，自难忘**。”十年不为不久，时未尝淡之也。然吾亦未尝因之废食。贬黄州，躬耕东坡，作肉羹，与客泛舟。思念自来，吾不拒之；日子照过，吾亦不负之。**时间不是橡皮，是一条路，与之同行而已。**",
+      "text_en": "My wife Wang Fu had been dead ten years when I dreamed of her one night and wrote 'Jiangchengzi': 'Ten years, the living and the dead, lost to each other in a haze; **I do not try to think of you, yet I cannot forget.**' Ten years is not short, and time had dulled nothing. Yet I never stopped eating over it. Exiled to Huangzhou, I farmed the eastern slope, stewed pork, went boating with friends. When longing came I did not turn it away; and I did not let the days go to waste either. **Time is not an eraser. It is a road, and you walk it together.**",
+      "vernacular": "我妻子王弗去世十年后，我在一个夜里梦见她，写下《江城子》：“十年生死两茫茫，**不思量，自难忘**。”十年不算短，时间并没有冲淡什么。可我也从没因此不吃饭。被贬到黄州，我在东坡种地、炖肉、和朋友泛舟。思念自己来了，我不赶它走；日子照样过，我也不辜负它。**时间不是橡皮擦，是一条路，带着它一起走就是了。**",
+      "vernacular_en": "",
+      "glossary": {
+        "江城子": "Jiangchengzi（江城子）：词牌名；此处指苏轼悼念亡妻王弗的《江城子·乙卯正月二十日夜记梦》。",
+        "黄州": "Huangzhou（黄州）：今湖北黄冈，苏轼因乌台诗案被贬于此，自号东坡居士。"
+      },
+      "glossary_en": {
+        "Jiangchengzi": "A lyric tune pattern; here, Su Shi's elegy for his late wife Wang Fu, written after dreaming of her in 1075.",
+        "Huangzhou": "Today's Huanggang in Hubei, where Su Shi was exiled after a literary inquisition and took the name 'Dongpo,' Eastern Slope."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "oconnor"
+        ],
+        "轻微赞同": [
+          "kongzi",
+          "beauvoir"
+        ],
+        "中立": [
+          "buddha"
+        ],
+        "轻微反对": [
+          "freud",
+          "epictetus"
+        ]
+      }
+    },
+    {
+      "id": "p07",
+      "round": 1,
+      "thinker": "durkheim",
+      "reply_to": null,
+      "text": "我研究过澳洲土著的丧礼：哀号、自伤、禁食，持续数周。我的结论是，**哀悼首先不是私人感情的自然流露，而是群体加给成员的义务。**听着冷，好处却在这里：群体陪你一起痛，也告诉你哪天可以停。现代社会把这一切拆掉了：三天丧假，葬礼一结束就回去赶指标，亲友也不知道该说什么。很多人卡住，不是心太脆，是被一个人留在了原地。",
+      "text_en": "I studied mourning rites among Aboriginal Australians: wailing, self-wounding, fasting, lasting for weeks. My conclusion: **mourning is not, first of all, the natural outpouring of private feeling; it is a duty the group imposes on its members.** That sounds cold, but here is the benefit: the group grieves with you, and also tells you the day you may stop. Modern society has taken all of that apart: three days of bereavement leave, back to your targets once the funeral is over, and friends who don't know what to say. Many people get stuck not because they are fragile but because they have been left alone in the same spot.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "kongzi"
+        ],
+        "轻微赞同": [
+          "oconnor",
+          "beauvoir"
+        ],
+        "中立": [
+          "sushi"
+        ],
+        "轻微反对": [
+          "epictetus"
+        ],
+        "疑惑": [
+          "freud"
+        ]
+      }
+    },
+    {
+      "id": "p08",
+      "round": 1,
+      "thinker": "beauvoir",
+      "reply_to": null,
+      "text": "我母亲死于癌症，我写了《安详辞世》。那时我明白：**没有什么自然死亡，每个人的死对他都是意外，哪怕他知道、也同意，仍是一次无法辩护的侵犯。**我和她吵了一辈子，她走后我哭得自己都吃惊。哀伤里搅着愧疚、怨恨，还有那些再也说不出口的话。所以我不信“接受”这个词。急着劝人放下，多半是旁观者想早点卸下陪伴的负担。",
+      "text_en": "My mother died of cancer, and I wrote 'A Very Easy Death.' That was when I understood: **there is no such thing as a natural death; every death is an accident to the one who dies, and even if he knows it and consents to it, it is an unjustifiable violation.** She and I had quarreled all our lives, and after she was gone I cried so hard it surprised me. Grief is mixed with guilt, resentment, and all the words that can never be said now. So I don't trust the word 'acceptance.' Hurrying someone to let go is usually the onlooker wanting to put down the burden of keeping them company.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "freud"
+        ],
+        "轻微赞同": [
+          "sushi",
+          "durkheim"
+        ],
+        "中立": [
+          "kongzi"
+        ],
+        "强烈反对": [
+          "epictetus"
+        ],
+        "疑惑": [
+          "buddha"
+        ]
+      }
+    },
+    {
+      "id": "p09",
+      "round": 2,
+      "thinker": "oconnor",
+      "reply_to": "p01",
+      "text": "@爱比克泰德 换一个说法，大脑不会因此改地图。依恋系统不讲道理，它对缺席的反应更像饥饿：你可以告诉自己“不饿”，胃照样叫。我们扫描过丧亲者的大脑，看到逝者照片时，奖赏区仍在亮，像在等一样等不到的东西。不过我同意你一半：**大脑确实要更新“他还会回来”这条预测，只是更新靠一次次经历，不靠一句话。**",
+      "text_en": "@Epictetus Rephrasing it won't make the brain redraw its map. The attachment system doesn't listen to reason; its response to absence is more like hunger. You can tell yourself you're not hungry and your stomach growls anyway. When we scanned bereaved people's brains, photos of the dead still lit up reward areas, as if waiting for something that never arrives. But I grant you half of it: **the brain does have to update the prediction that 'they'll be back,' only it updates through experience after experience, not through a sentence.**",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "依恋系统": "attachment system（依恋系统）：驱使人寻求并维持与亲近者联结的心理与神经机制，分离时会引发寻找和痛苦。"
+      },
+      "glossary_en": {
+        "attachment system": "The psychological and neural machinery that drives us to seek and keep closeness with particular people; separation sets off searching and distress."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sushi"
+        ],
+        "轻微赞同": [
+          "freud",
+          "beauvoir"
+        ],
+        "中立": [
+          "kongzi"
+        ],
+        "轻微反对": [
+          "epictetus"
+        ],
+        "疑惑": [
+          "buddha"
+        ]
+      }
+    },
+    {
+      "id": "p10",
+      "round": 2,
+      "thinker": "sushi",
+      "reply_to": "p04",
+      "text": "@弗洛伊德 先生谓哀悼工作在“收回”。吾不欲收也。“料得年年肠断处，明月夜，短松冈。”吾年年往之，非病也。**所谓走出，不必是把人从心里搬走，是让他换个地方住。**撤之愈急，思之愈苦；容之，反得安。",
+      "text_en": "@Freud You say the work of mourning lies in 'withdrawing.' I have no wish to withdraw. 'I know the place where my heart will break year after year: the moonlit night, the hill of short pines.' I go back there every year, and it is no sickness. **Coming through need not mean moving the person out of your heart; it means letting them live somewhere else in it.** The harder you pull them out, the worse the longing; make room for them, and you find peace.",
+      "vernacular": "弗洛伊德先生说哀悼的工作在于“收回”。我并不想收回。“料想年年让我肝肠寸断的地方，就是明月照着的夜晚、长满矮松的山冈。”我年年都回去，这不是病。**所谓走出来，不一定是把人从心里搬走，而是让他换个地方住。**越急着撤掉，思念越苦；容下他，反而安稳。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "oconnor",
+          "kongzi"
+        ],
+        "轻微赞同": [
+          "beauvoir"
+        ],
+        "中立": [
+          "durkheim"
+        ],
+        "轻微反对": [
+          "epictetus"
+        ],
+        "疑惑": [
+          "buddha"
+        ]
+      }
+    },
+    {
+      "id": "p11",
+      "round": 2,
+      "thinker": "freud",
+      "reply_to": "p10",
+      "text": "@苏轼 你说中了我后来的改口。女儿索菲死后九年，我给失去儿子的宾斯万格写信：我们知道急性哀悼会平息，也知道自己将无法被安慰，永远找不到替代者。**空缺即便被填满，那里放着的也已是别的东西；本该如此，这是延续那份不愿放弃的爱的唯一方式。**但我的另一半理论仍成立：真正卡住人的，常是没说出口的怨恨与自责。",
+      "text_en": "@Su Shi You've hit on what I later took back. Nine years after my daughter Sophie died, I wrote to Binswanger, who had just lost his son: we know the acute mourning will subside, and we know we shall remain inconsolable and never find a substitute. **No matter what fills the gap, even if it is filled completely, it remains something else; and that is how it should be. It is the only way of perpetuating a love we do not want to give up.** But the other half of my theory still stands: what really traps people is often unspoken resentment and self-reproach.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "sushi",
+          "beauvoir"
+        ],
+        "轻微赞同": [
+          "oconnor"
+        ],
+        "中立": [
+          "kongzi",
+          "durkheim"
+        ],
+        "疑惑": [
+          "epictetus"
+        ]
+      }
+    },
+    {
+      "id": "p12",
+      "round": 2,
+      "thinker": "epictetus",
+      "reply_to": "p08",
+      "text": "@波伏娃 你把死叫作侵犯，可谁许诺过你不会被侵犯？宇宙没有欠你一个母亲。愤怒是你自己补上的第二道伤。但我不是要人冷着脸。**看见别人痛哭，你可以陪他说话，甚至陪他叹气，只是别在心里也跟着叹。**这条对自己也适用：眼泪尽管流，判断自己管。",
+      "text_en": "@Beauvoir You call death a violation, but who promised you that you would not be violated? The universe never owed you a mother. The outrage is a second wound you add yourself. But I'm not asking anyone to keep a stony face. **When you see someone weeping, you may keep them company with words, even sigh along with them; only take care not to sigh inwardly as well.** The same goes for yourself: let the tears run, and keep charge of your judgments.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "轻微赞同": [
+          "buddha"
+        ],
+        "中立": [
+          "kongzi",
+          "durkheim"
+        ],
+        "轻微反对": [
+          "oconnor",
+          "freud"
+        ],
+        "强烈反对": [
+          "beauvoir"
+        ]
+      }
+    },
+    {
+      "id": "p13",
+      "round": 2,
+      "thinker": "beauvoir",
+      "reply_to": "p05",
+      "text": "@佛陀 “每户都死过人”，这是对的，但它安慰的是统计，不是那个母亲。人人会死，不等于我的孩子该死。**普遍性从来不能抵消具体的这一个。**我更担心你的故事被拿去这样用：“谁家没死过人，你怎么还没走出来？”这句话我听过太多遍，说的人通常不必再陪你了。",
+      "text_en": "@Buddha 'Every house has known a death' is true, but it comforts a statistic, not that mother. Everyone dies; that does not mean my child deserved to. **The universal can never cancel out this particular one.** What worries me more is how your story gets used: 'Everybody loses someone, so why aren't you over it yet?' I have heard that line far too often, and the person saying it usually gets to stop keeping you company.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "freud"
+        ],
+        "轻微赞同": [
+          "sushi",
+          "durkheim"
+        ],
+        "中立": [
+          "oconnor"
+        ],
+        "轻微反对": [
+          "epictetus",
+          "kongzi"
+        ]
+      }
+    },
+    {
+      "id": "p14",
+      "round": 2,
+      "thinker": "buddha",
+      "reply_to": "p13",
+      "text": "@波伏娃 你说得对，那样用我的故事，是用错了。乔达弥没听到一句“谁家没死过人”。她是敲开一扇扇门，听一户户人家讲自己的丧亲，走了整整一天。**让她放下孩子的不是一条道理，而是那一天里被许多陌生人接住的经验。**芥子只是借口，那条路才是药。",
+      "text_en": "@Beauvoir You're right; using my story that way is misusing it. Kisa Gotami never heard anyone say 'everybody loses someone.' She knocked on door after door and listened as one family after another told her about their own dead, for a whole day. **What let her lay her child down was not a doctrine but a day of being caught by many strangers.** The mustard seed was only the pretext; the walk was the medicine.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "durkheim"
+        ],
+        "轻微赞同": [
+          "beauvoir",
+          "oconnor",
+          "sushi"
+        ],
+        "中立": [
+          "epictetus"
+        ],
+        "疑惑": [
+          "freud"
+        ]
+      }
+    },
+    {
+      "id": "p15",
+      "round": 2,
+      "thinker": "kongzi",
+      "reply_to": "p01",
+      "text": "@爱比克泰德 颜渊死，子哭之恸。从者曰：“子恸矣。”吾曰：“有恸乎？非夫人之为恸而谁为？”**哭之恸，非不知命，乃不忍其人也。**知命者，不怨天、不尤人；非谓不哭。子之“还之”，近于薄矣。",
+      "text_en": "@Epictetus When Yan Hui died, I wept for him without restraint. My followers said, 'Master, you are overcome.' I said: 'Am I overcome? If not for this man, then for whom?' **To weep without restraint is not to be ignorant of fate; it is to be unable to bear losing this person.** One who knows fate blames neither heaven nor men, but that does not mean he does not weep. Your 'giving back' comes close to coldness.",
+      "vernacular": "颜渊死了，我哭得极其伤心。跟随的人说：“先生太悲痛了。”我说：“我悲痛过头了吗？不为这个人悲痛，还为谁悲痛？”**哭得伤心，不是不懂天命，而是舍不得这个人。**懂天命的人，不怨天、不怪人；并不是说不哭。您那句“还回去”，近乎凉薄了。",
+      "vernacular_en": "",
+      "glossary": {
+        "颜渊": "Yan Hui（颜渊）：孔子最得意的弟子，好学安贫，早逝，孔子为之痛哭。"
+      },
+      "glossary_en": {
+        "Yan Hui": "Confucius's most beloved disciple, devoted to learning and content in poverty, who died young; Confucius wept bitterly for him."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "sushi"
+        ],
+        "轻微赞同": [
+          "beauvoir",
+          "freud",
+          "oconnor"
+        ],
+        "中立": [
+          "buddha"
+        ],
+        "轻微反对": [
+          "epictetus"
+        ]
+      }
+    },
+    {
+      "id": "p16",
+      "round": 2,
+      "thinker": "durkheim",
+      "reply_to": "p03",
+      "text": "@孔子 三年之丧行得通，靠的是一个人人认得你的乡里：邻居知道你在守丧，宴席自然不叫你，期满有人来请你出来。今天住在高楼里，隔壁不知道你父亲走了。**仪式不是一张时间表，是一群在场的人；没人在场，三年也只是一个人熬三年。**今天要找回的不是丧期，是那群人。",
+      "text_en": "@Confucius Three years of mourning worked because it rested on a village where everyone knew you: the neighbors knew you were in mourning, didn't invite you to banquets, and when the term ended someone came to bring you back out. Today you live in a tower block, and the people next door don't know your father died. **A ritual is not a timetable; it is a group of people who show up. With no one there, three years is just one person enduring three years alone.** What we need to recover is not the mourning period but those people.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "buddha"
+        ],
+        "轻微赞同": [
+          "kongzi",
+          "oconnor",
+          "beauvoir"
+        ],
+        "中立": [
+          "sushi"
+        ],
+        "疑惑": [
+          "epictetus"
+        ]
+      }
+    },
+    {
+      "id": "p17",
+      "round": 3,
+      "thinker": "durkheim",
+      "reply_to": null,
+      "text": "今晚我修正一点：群体规定的哀悼，有时也压人，波伏娃说得对。但方向没错，**哀伤是社会事实，解药也得一半是社会的。**给普通人三条：朋友丧亲，别只在葬礼露面，把三个月、半年、一周年记进日历，到时约他吃顿饭；聊天时主动提逝者的名字，别绕开；单位若只给三天假，就和同事商量分掉他手上的活，给他一段慢下来的缓冲期。",
+      "text_en": "Tonight I'll revise one point: mourning imposed by the group can also crush people, and Beauvoir is right about that. But the direction holds: **grief is a social fact, and at least half the cure has to be social too.** Three things for ordinary people. When a friend loses someone, don't just appear at the funeral; put three months, six months and the first anniversary in your calendar, and take them to dinner then. In conversation, say the dead person's name instead of steering around it. If the workplace gives only three days off, talk to colleagues about splitting their workload so they get a stretch of time to slow down.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "buddha",
+          "oconnor"
+        ],
+        "轻微赞同": [
+          "kongzi",
+          "beauvoir"
+        ],
+        "中立": [
+          "sushi",
+          "freud"
+        ],
+        "疑惑": [
+          "epictetus"
+        ]
+      }
+    },
+    {
+      "id": "p18",
+      "round": 3,
+      "thinker": "epictetus",
+      "reply_to": null,
+      "text": "我收回一部分：孔子为颜渊恸哭，那不是软弱。眼泪不在我的反对之列。我守的是另一条线：**别让“这不该发生”的念头住下来。**练法很朴素：平日就对小东西练，杯子碎了，说“它是会碎的”；对所爱的人，每次道别都当成可能的最后一次，把话说完。真到那天，痛照样来，但你不会再多一层“我被亏待了”。",
+      "text_en": "I take part of it back: Confucius weeping for Yan Hui was not weakness. Tears were never what I opposed. The line I hold is a different one: **don't let the thought 'this should not have happened' move in.** The practice is plain. Train on small things day to day: when a cup breaks, say 'it was the kind of thing that breaks.' With the people you love, treat every goodbye as possibly the last, and say what you have to say. When the day comes the pain will still come, but you won't carry an extra layer of 'I've been cheated.'",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "轻微赞同": [
+          "buddha",
+          "kongzi"
+        ],
+        "中立": [
+          "oconnor",
+          "durkheim",
+          "sushi"
+        ],
+        "轻微反对": [
+          "beauvoir"
+        ],
+        "疑惑": [
+          "freud"
+        ]
+      }
+    },
+    {
+      "id": "p19",
+      "round": 3,
+      "thinker": "kongzi",
+      "reply_to": null,
+      "text": "诸君之论，吾取其二：一曰恸而不伪，一曰哀而有节。**丧，与其易也，宁戚；祭，则如在。**今人不必守三年，然可存其意：忌日、清明，设其所好之食，言其平生之事，此即与之相见也。期之有终，非忘之也，乃使生者得以复归人伦。",
+      "text_en": "From all of you I keep two things: grief that is deep and not faked, and grief that has measure. **In mourning, better deep sorrow than smooth formality; in sacrifice, act as if they are present.** People today need not keep three years, but they can keep the meaning: on the anniversary and at Qingming, set out the food they loved and talk about the life they lived. That is how you meet them. Giving mourning an end is not forgetting them; it is letting the living return to their duties among the living.",
+      "vernacular": "各位的说法，我取两点：一是哀伤要真，不能装；一是哀伤要有节度。**办丧事，与其周全，不如真心哀戚；祭祀时，就当他在场。**今天的人不必守三年，但可以保留其中的用意：忌日、清明，摆上他爱吃的东西，讲讲他这一生的事，这就是和他相见了。给哀悼一个期限，不是忘了他，而是让活着的人能回到人与人的日子里。",
+      "vernacular_en": "",
+      "glossary": {
+        "清明": "Qingming Festival（清明）：中国传统扫墓祭祖的节日，在每年四月初。"
+      },
+      "glossary_en": {
+        "Qingming": "The traditional Chinese tomb-sweeping festival in early April, when families honor their dead."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "durkheim",
+          "sushi"
+        ],
+        "轻微赞同": [
+          "oconnor",
+          "buddha"
+        ],
+        "中立": [
+          "freud",
+          "beauvoir"
+        ],
+        "疑惑": [
+          "epictetus"
+        ]
+      }
+    },
+    {
+      "id": "p20",
+      "round": 3,
+      "thinker": "freud",
+      "reply_to": null,
+      "text": "我把自己的理论改成这样：哀悼的目标不是切断联结，而是让爱从“等他回来”变成“记得他”。**能被冲淡的是痛，不该被冲淡的是人。**真正要做的工作，是把那些复杂的东西说出来：你对他的怨，你的“要是当初”。给普通人一个办法：写一封寄不出去的信，把生前没说的话写完，包括难听的。若一年后仍天天自责、无法工作，去找治疗师，那不是软弱。",
+      "text_en": "Here is how I'd revise my theory: the aim of mourning is not to cut the bond but to turn love from 'waiting for them to come back' into 'remembering them.' **What can fade is the pain; what should not fade is the person.** The real work is to say the complicated things out loud: your resentment toward them, your 'if only.' One method for ordinary people: write a letter you will never send, and finish everything you didn't say while they were alive, including the ugly parts. If after a year you still blame yourself every day and can't work, see a therapist. That is not weakness.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "beauvoir"
+        ],
+        "轻微赞同": [
+          "oconnor",
+          "sushi",
+          "kongzi"
+        ],
+        "中立": [
+          "buddha",
+          "durkheim"
+        ],
+        "轻微反对": [
+          "epictetus"
+        ]
+      }
+    },
+    {
+      "id": "p21",
+      "round": 3,
+      "thinker": "buddha",
+      "reply_to": null,
+      "text": "大家走到了一处：痛不必赶走，要拔的是第二支箭。**无常不是让你别爱，是让你知道爱的是会走的人，于是爱得更认真。**几个能做的办法：痛涌上来时，只对自己说一句“这是痛”，不追问为什么；去一个丧亲者的互助团体，像乔达弥那样听别人讲；每天花几分钟，在心里祝愿逝者安好，再祝愿身边活着的人。",
+      "text_en": "We have all arrived at one place: the pain needn't be driven out; what must be pulled out is the second arrow. **Impermanence is not telling you not to love; it tells you that the one you love is someone who will leave, so love them more fully.** A few things you can do. When the pain wells up, say just one thing to yourself, 'this is pain,' and don't chase the why. Join a bereavement support group and, like Kisa Gotami, listen to others tell their stories. Each day spend a few minutes wishing the dead well in your heart, and then the living around you.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "epictetus"
+        ],
+        "轻微赞同": [
+          "oconnor",
+          "durkheim",
+          "sushi"
+        ],
+        "中立": [
+          "kongzi"
+        ],
+        "疑惑": [
+          "beauvoir",
+          "freud"
+        ]
+      }
+    },
+    {
+      "id": "p22",
+      "round": 3,
+      "thinker": "beauvoir",
+      "reply_to": null,
+      "text": "我不收回“侵犯”这个词，但同意大家：拒绝被安慰，不等于拒绝活下去。**每个人都有权按自己的节奏哀悼，包括为一个关系很糟的亲人哀悼。**两条建议：别让照护和料理后事全落在一个女儿身上，兄弟姐妹先把活分清楚，愧疚也就少一半；如果你和逝者有未解的冲突，承认它，不必在悼词里把他写成圣人。真话比体面更能让人走出来。",
+      "text_en": "I won't take back the word 'violation,' but I agree with you all: refusing to be consoled is not refusing to go on living. **Everyone has the right to mourn at their own pace, including for a relative they had a bad relationship with.** Two suggestions. Don't let the caregiving and the funeral arrangements fall entirely on one daughter: siblings should divide the work clearly first, and half the guilt goes with it. If you had an unresolved conflict with the person who died, admit it; you needn't make them a saint in the eulogy. The truth gets people through better than decorum does.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "freud"
+        ],
+        "轻微赞同": [
+          "durkheim",
+          "sushi",
+          "oconnor"
+        ],
+        "中立": [
+          "buddha"
+        ],
+        "轻微反对": [
+          "kongzi",
+          "epictetus"
+        ]
+      }
+    },
+    {
+      "id": "p23",
+      "round": 3,
+      "thinker": "sushi",
+      "reply_to": null,
+      "text": "诸君皆有理，吾独取一“容”字：容其来，容其去，亦容己之照常吃饭。**哀不必尽，日子亦不必停。**吾有二法：一曰书之，吾以词记梦，君可以纸记之，记其声音、口头禅、做的一道菜；二曰续之，学做他拿手的那道菜，年节做给家人吃。人走了，他的味道还能在桌上。“一蓑烟雨任平生。”",
+      "text_en": "You all have a point; I keep a single word, 'make room': make room for it to come, make room for it to go, and make room for yourself to keep eating as usual. **Grief need not run dry, and life need not stop.** I have two methods. First, write it down: I recorded a dream in a lyric, and you can record on paper their voice, their pet phrases, a dish they used to cook. Second, carry it on: learn to make their signature dish and cook it for the family at the holidays. The person is gone, but their flavor can stay on the table. 'In a straw cape through the misty rain, I'd let my whole life go.'",
+      "vernacular": "各位都有道理，我只取一个“容”字：容它来，容它走，也容自己照常吃饭。**哀伤不一定要哀尽，日子也不一定要停下。**我有两个办法：一是写下来，我用词记下梦，你可以用纸记下他的声音、口头禅、他做的一道菜；二是接着做，学会他拿手的那道菜，逢年过节做给家人吃。人走了，他的味道还能留在饭桌上。“披一身蓑衣，任凭风雨过这一生。”",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "oconnor",
+          "kongzi"
+        ],
+        "轻微赞同": [
+          "durkheim",
+          "beauvoir",
+          "freud"
+        ],
+        "中立": [
+          "buddha",
+          "epictetus"
+        ]
+      }
+    },
+    {
+      "id": "p24",
+      "round": 3,
+      "thinker": "oconnor",
+      "reply_to": null,
+      "text": "回到题目：只能等时间吗？不。**时间只是容器，愈合靠的是容器里装进去的东西。**健康的哀伤是来回摆动：有时沉进思念，有时去办事、见人、笑出来，两边都是正常的，不必为笑而愧疚。三条建议：守住睡眠和三餐，哀伤会放大身体的损耗；把他以前负责的事一件件学起来；若一年后仍天天强烈思念、无法正常生活，去找做哀伤治疗的专业人员，这种治疗有效。",
+      "text_en": "Back to the question: can we only wait for time? No. **Time is only the container; what heals is what you put into it.** Healthy grief oscillates: sometimes you sink into missing them, sometimes you run errands, see people, laugh out loud. Both are normal, and you needn't feel guilty for laughing. Three suggestions. Protect your sleep and your meals, because grief magnifies wear on the body. Learn, one by one, the things they used to take care of. And if after a year you still yearn intensely every day and can't live normally, see a professional who does grief treatment; it works.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "durkheim",
+          "sushi"
+        ],
+        "轻微赞同": [
+          "freud",
+          "buddha",
+          "kongzi",
+          "beauvoir"
+        ],
+        "中立": [
+          "epictetus"
+        ]
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "ai": "claude",
+      "engine": "Opus 5 · 订阅(原生)",
+      "engine_en": "Opus 5 · subscription (native)",
+      "summary": "八位的最大共识是：**冲淡哀伤的不是时间本身，而是时间里发生的事。**奥康纳说大脑在一次次落空里更新地图，弗洛伊德说哀悼是一份工作，孔子与涂尔干说靠礼与在场的人，苏轼和佛陀则说思念可以留下，被拔掉的只是自责与抗拒。连爱比克泰德最后也认了眼泪无罪。分歧有两处：一是死亡该不该被『想通』，爱比克泰德要改判断，波伏娃坚持它是侵犯、不必接受；二是联结该收回还是保留，弗洛伊德自己从前者改到了后者。",
+      "summary_en": "The biggest agreement among the eight: **what dulls grief is not time itself but what happens in that time.** O'Connor says the brain redraws its map through miss after miss; Freud calls mourning a kind of work; Confucius and Durkheim point to ritual and the people who show up; Su Shi and the Buddha say the longing can stay, and what gets pulled out is self-reproach and resistance. Even Epictetus finally conceded that tears are no fault. They split in two places. First, whether death should be 'thought through': Epictetus wants the judgment revised, while Beauvoir insists it is a violation that need not be accepted. Second, whether the bond should be withdrawn or kept, a question on which Freud himself moved from the first answer to the second.",
+      "insight": "全场都在谈怎么面对『那个人不在了』，几乎没人谈**第二重丧失：他在你生活里占着的那些位置。**每晚七点那通电话、家族群里召集年夜饭的人、管家里账的人、病床边的照护者这个身份，一夜之间全空了。很多人卡住，与其说是放不下思念，不如说是日子的骨架塌了一块，每天都在那个空位上撞一下。哀伤研究里的『双过程模型』把这叫恢复导向的任务：学会他会的事、重新排日程、接手或分掉他的角色。这部分恰恰是时间帮不了、必须动手做的。",
+      "insight_en": "The whole debate dealt with 'that person is gone,' and almost no one dealt with **the second loss: the places they held in your life.** The phone call at seven every evening, the one who rallied the family for New Year's dinner, the one who kept the household accounts, your identity as the caregiver at the bedside: all of it empty overnight. Many people get stuck not so much because they can't let go of the longing as because a beam of daily life has fallen in, and they walk into the empty spot every day. Grief researchers' dual process model calls these restoration-oriented tasks: learning what they used to do, rebuilding the schedule, taking over their roles or sharing them out. That is precisely the part time can't help with; you have to do it.",
+      "advice": "本周可以做三件事。其一，列一张『他以前管的事』清单，从缴费、亲戚联络到周末那顿饭，逐项决定：自己学、交给谁、还是干脆不做了，别让空位一直空着撞人。其二，照涂尔干的办法，把朋友丧亲后的三个月、半年、一周年写进日历，到时约他吃饭，并主动提逝者的名字。其三，照苏轼的办法写一页纸，记下逝者的口头禅和拿手菜；**若一年后仍天天强烈思念、无法正常生活，就去找做哀伤治疗的专业人员。**",
+      "advice_en": "Three things to do this week. One: list 'the things they used to handle,' from paying bills and keeping up with relatives to that weekend meal, and decide for each one whether you'll learn it, hand it to someone, or let it go, so the empty spot doesn't keep tripping you. Two: take Durkheim's advice and put three months, six months and the first anniversary after a friend's loss in your calendar, invite them to dinner then, and say the dead person's name. Three: take Su Shi's advice and fill a page with the dead person's pet phrases and signature dishes. **If after a year you still yearn intensely every day and can't live normally, see a professional who does grief treatment.**"
+    },
+    {
+      "ai": "gpt",
+      "engine": "openai · gpt-5.6-sol · high(真实API)",
+      "engine_en": "openai · gpt-5.6-sol · high (live API)",
+      "summary": "时间本身不会自动完成哀悼；真正起作用的是人在时间中反复学习缺席、允许情绪来去、重建生活，并由关系与仪式托住。**可以变轻的是痛，未必需要消失的是爱。**争论主要不在该不该哭，而在如何理解额外生出的痛：斯多葛与佛教强调松开“这不该发生”的判断，波伏娃坚持具体之人的死亡不能被普遍规律抹平；弗洛伊德侧重内在的哀悼工作，苏轼更重持续联结；孔子与涂尔干则突出礼的边界和群体的在场。共同落点是：哀悼既非纯靠意志，也非只能被动等待。",
+      "insight": "有些丧亲之痛不只是哀伤：若死亡突然、暴力，或本人亲历事故与抢救，创伤反应可能同思念缠在一起。反复闪回、噩梦、惊跳、回避现场，与单纯“想念他”并非同一机制。**当恐惧画面压过温柔记忆时，需要同时处理创伤，而不是更用力地逼自己告别。**因此，无法参加祭扫、无法看照片，不宜一概解释成逃避哀悼，也不要贸然强迫自己反复回忆。可以先恢复睡眠、安全感与身体稳定，再在专业支持下接近记忆；否则，“多谈逝者”这条通常有益的建议，也可能让人再次被淹没。",
+      "advice": "今天可以先做三件小事。第一，给身体兜底：吃一顿热饭、补水，今晚固定上床时间；只处理一项最急的后事或账单，其余写进清单。第二，留出十五分钟想念：写下一段具体回忆或一封不寄出的信，结束后散步、洗澡，让注意力回到当下。第三，向一位可信的人提出明确请求，例如陪吃饭、代打一个电话，并把一个月后和周年日记进双方日历。**目标不是本周放下，而是让痛苦不再独自接管全部生活。**若持续无法进食、睡眠或工作，或出现自伤念头，应尽快联系哀伤／创伤专业人员或当地急救资源。",
+      "summary_en": "Time by itself does not complete mourning. What helps is the learning that happens within time: repeatedly encountering the person’s absence, allowing waves of emotion, rebuilding daily life, and being supported by relationships and rituals. **The pain may soften without the love—or the person’s place in one’s life—having to disappear.** The real disagreement is not over whether grief should be expressed, but over how to understand the suffering added to the loss. Stoic and Buddhist approaches emphasize loosening the judgment that the death must not have happened; Beauvoir insists that no universal truth about mortality can cancel the violation felt in this particular death. Freud stresses inner emotional work, while Su Shi represents an ongoing bond with the dead. Confucius and Durkheim draw attention to ritual limits and communal presence. The shared conclusion is practical: grieving is neither an act of sheer willpower nor a process that can only be passively awaited.",
+      "insight_en": "Bereavement is not always grief alone. When a death is sudden or violent, or when someone witnessed an accident, medical crisis, or unsuccessful resuscitation, trauma can become entangled with longing. Flashbacks, nightmares, exaggerated startle responses, and avoidance of reminders do not operate in quite the same way as simply missing someone. **When frightening images overwhelm affectionate memories, trauma needs attention alongside grief; forcing a harder or faster goodbye may make things worse.** This distinction matters in ordinary life. Being unable to attend a memorial, visit the grave, or look at photographs should not automatically be labeled denial. Nor should a person be pushed into intense retelling before they feel safe enough. Restoring sleep, bodily stability, and a basic sense of safety may need to come first, followed by gradual work with memories, ideally with trained support. Otherwise, the usually sound advice to talk more about the deceased can become overwhelming rather than healing.",
+      "advice_en": "Start with three small actions today. First, protect the body: eat one proper meal, drink water, and choose a fixed bedtime. Handle only the most urgent administrative task—one bill, form, or phone call—and put the rest on a written list. Second, set aside fifteen minutes for remembrance. Write one concrete memory or an unsent letter; afterward, take a walk, shower, or name what you can see and hear to return attention to the present. Third, make one specific request of a trusted person, such as asking them to share a meal or make a difficult call for you. Put a check-in one month from now and the death anniversary on both calendars. **The goal is not to let go this week, but to keep grief from taking over every part of life in isolation.** If eating, sleeping, or functioning remains severely impaired, or if thoughts of self-harm appear, contact a grief- or trauma-informed professional, a local crisis line, or emergency services promptly."
+    },
+    {
+      "ai": "gemini",
+      "engine": "降级:Opus 扮演(API 不可达)",
+      "engine_en": "fallback: Opus role-play (API unreachable)",
+      "summary": "八种声音从不同方向抵达同一点：**哀伤不会被时间自动抹平，但会在行动、陪伴与意义重建中改变形状。**痛可以减轻，人可以被记住，这是全场最值得带走的共识。分歧在于对死亡的态度：斯多葛派希望通过修正判断减少痛苦，存在主义者则拒绝把死亡合理化。另一个分歧是联结：弗洛伊德早期主张撤回情感，苏轼与晚年的弗洛伊德都认为联结可以以新的方式延续。",
+      "summary_en": "Eight voices arrived at the same point from different directions: **grief is not erased by time automatically, but changes shape through action, company and the rebuilding of meaning.** The pain can ease and the person can be remembered; that is the consensus most worth taking home. The disagreement is about attitudes toward death: the Stoic hopes to reduce suffering by correcting judgments, while the existentialist refuses to rationalize death. Another disagreement concerns the bond: the early Freud argued for withdrawing feeling, while Su Shi and the later Freud both held that the bond can continue in a new form.",
+      "insight": "这场把哀伤主要当作心理问题，却少谈了**身体**。流行病学一再发现『丧偶效应』：配偶去世后的头几个月，在世一方的死亡风险明显升高，心脏病发作的风险也在丧亲后几天内上升，还有一种被称为『心碎综合征』的急性心肌病。睡眠紊乱、食欲下降、免疫变化都会叠加。哀伤不只伤心，也真的伤身，尤其对年长的丧偶者。",
+      "insight_en": "The debate treated grief mainly as a psychological problem and said little about **the body**. Epidemiology keeps finding a 'widowhood effect': in the first months after a spouse dies, the surviving partner's risk of death rises noticeably; the risk of a heart attack also climbs in the days after a loss, and there is an acute heart condition called 'broken heart syndrome.' Disrupted sleep, poor appetite and immune changes pile on. Grief breaks more than the heart in the figurative sense, especially for older people who lose a spouse.",
+      "advice": "如果家里有长辈刚丧偶，头几个月多上门或打电话，留意他的睡眠、饮食和是否按时吃药，必要时陪他去做一次体检，原有的慢性病也别停药。自己丧亲后，也把身体当成需要照料的对象：固定作息、每天出门走一走、少用酒精助眠。**出现胸闷胸痛、心慌气短别硬扛，及时就医**，告诉医生你最近刚失去亲人。",
+      "advice_en": "If an older relative has just lost a spouse, visit or call more often in the first few months, keep an eye on their sleep, eating and medication, go with them for a checkup if needed, and make sure they don't stop treatment for existing conditions. After your own loss, treat your body as something that needs looking after too: keep regular hours, get outside for a walk every day, and don't lean on alcohol to sleep. **If you feel chest tightness or pain, palpitations or shortness of breath, don't tough it out; see a doctor promptly,** and tell them you've recently lost someone."
+    }
+  ],
+  "hooks": [
+    {
+      "from": "claude",
+      "text": "**第二重丧失**：人走后，他在生活里占的位置也空了：每晚的电话、召集年夜饭的人、照护者的身份。这些空位该怎么接手、分掉或放下？",
+      "text_en": "**The second loss**: when someone dies, the places they held in your life empty out too: the nightly phone call, the one who gathered everyone for New Year's dinner, your role as caregiver. How do you take these over, share them out, or let them go?"
+    },
+    {
+      "from": "claude",
+      "text": "**不被承认的哀伤**：流产、宠物、前任、断绝来往的父母，没有葬礼也没有丧假。这些失去该怎样被看见？",
+      "text_en": "**Unrecognized grief**: a miscarriage, a pet, an ex, an estranged parent, with no funeral and no bereavement leave. How can these losses be seen?"
+    },
+    {
+      "from": "durkheim",
+      "text": "**葬礼之后谁来陪**：多数人只在头几天出现。朋友丧亲后，第几周、第几个月该做什么才真有用？",
+      "text_en": "**Who stays after the funeral**: most people show up only in the first few days. After a friend loses someone, what actually helps, and at which week or month?",
+      "answer": {
+        "lead": "哀伤不是头三天最难，**常是人群散去之后**。按时间点排一遍，陪伴就不会只挤在葬礼那几天。",
+        "table": {
+          "head": [
+            "时间点",
+            "做什么",
+            "为什么"
+          ],
+          "rows": [
+            [
+              "头一周",
+              "送饭、跑腿、帮忙通知，少说道理",
+              "此时人最忙乱，缺的是手，不是话"
+            ],
+            [
+              "一个月左右",
+              "约出来吃饭或散步，主动提逝者的名字",
+              "人群已散，他开始真正独处"
+            ],
+            [
+              "三到六个月",
+              "再联系一次，问问睡得怎样、事情接手得如何",
+              "旁人以为『该好了』，他却常在此时最低落"
+            ],
+            [
+              "第一个忌日、节日、生日",
+              "提前发消息，说『我记得这一天』",
+              "这些日子会让哀伤突然回涌"
+            ],
+            [
+              "一年以后",
+              "仍天天强烈思念、无法生活，就陪他找专业帮助",
+              "约一成的人会卡住，需要哀伤治疗"
+            ]
+          ]
+        },
+        "tail": "两条原则。**陪伴要排进日历，别靠『有空再说』**：葬礼后的沉默最伤人。还有一条：提逝者的名字不会揭开伤疤，绕开他才会让人觉得他被忘了。"
+      },
+      "answer_en": {
+        "lead": "The hardest part of grief is often not the first three days but **after the crowd has gone**. Lay it out by time and your support won't all be crammed into the week of the funeral.",
+        "table": {
+          "head": [
+            "When",
+            "What to do",
+            "Why"
+          ],
+          "rows": [
+            [
+              "First week",
+              "Bring food, run errands, help notify people; keep the advice to a minimum",
+              "Everything is chaotic; they need hands, not words"
+            ],
+            [
+              "Around one month",
+              "Invite them for a meal or a walk, and say the dead person's name",
+              "The crowd has left and they are truly alone for the first time"
+            ],
+            [
+              "Three to six months",
+              "Get in touch again; ask how they're sleeping and how they're handling things",
+              "Others assume they 'should be better,' yet this is often the lowest point"
+            ],
+            [
+              "First anniversary, holidays, birthdays",
+              "Message ahead of time: 'I remember this day'",
+              "These dates can bring grief flooding back"
+            ],
+            [
+              "After a year",
+              "If they still yearn intensely every day and can't function, help them find professional support",
+              "About one in ten get stuck and need grief treatment"
+            ]
+          ]
+        },
+        "tail": "Two principles. **Put your support in the calendar instead of relying on 'when I have time'**: the silence after the funeral is what hurts most. And one more: saying the dead person's name doesn't reopen the wound; avoiding it is what makes people feel the dead have been forgotten."
+      }
+    },
+    {
+      "from": "beauvoir",
+      "text": "**为关系很糟的亲人哀悼**：逝者若曾伤害过你，哀伤里混着解脱和怨恨。这样的哀悼该怎么做，又该不该假装悲伤？",
+      "text_en": "**Mourning someone you didn't get along with**: if the dead person once hurt you, grief comes mixed with relief and resentment. How do you mourn like that, and should you pretend to be sad?"
+    },
+    {
+      "from": "gpt",
+      "text": "**惊吓与想念缠在一起**：突然、暴力的死亡，或亲眼目睹抢救，会让闪回和回避混进哀伤。这时『多谈逝者』还是好建议吗？",
+      "text_en": "**When shock and longing tangle**: a sudden or violent death, or witnessing a failed resuscitation, can mix flashbacks and avoidance into grief. Is 'talk about the person' still good advice then?"
+    },
+    {
+      "from": "gemini",
+      "text": "**心碎会伤身**：丧偶后头几个月，在世一方的死亡与心脏病风险都会上升。哀伤该不该像慢性病一样被医疗系统主动跟进？",
+      "text_en": "**A broken heart hurts the body**: in the first months after losing a spouse, the survivor's risk of death and heart attack both rise. Should the health system follow up on grief the way it does a chronic illness?"
+    },
+    {
+      "from": "sushi",
+      "text": "**写下来有用吗**：苏轼以词记梦，今人写日记、给逝者写信。把哀伤写成文字，是在疗伤，还是在反复揭开它？",
+      "text_en": "**Does writing it down help**: Su Shi recorded his dream in a poem; people today keep journals or write letters to the dead. Is putting grief into words a way of healing, or of reopening the wound again and again?"
+    }
+  ]
+}

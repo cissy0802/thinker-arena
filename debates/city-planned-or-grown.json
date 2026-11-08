@@ -1,0 +1,859 @@
+{
+  "id": "city-planned-or-grown",
+  "question": "城市该规划出来，还是让它自己长？",
+  "question_en": "Should a city be planned, or left to grow?",
+  "sub": "推平老街照图纸重建，还是让街巷自己长？城市更像机器，还是更像生物？",
+  "sub_en": "Raze the old streets and build to a blueprint, or let the lanes grow on their own? Is a city more machine or organism?",
+  "date": "2026-11-08",
+  "participants": [
+    "descartes",
+    "hayek",
+    "plato",
+    "calhoun",
+    "vasubandhu",
+    "benjamin",
+    "popper"
+  ],
+  "casting": [
+    {
+      "id": "descartes",
+      "reason": "他相信由一位工程师在平地上统一设计的城市，胜过许多人代代拼凑的老城，站在『规划』一端最理性的位置，最后又退回到『整体设计只用于自己负全责的范围』。",
+      "reason_en": "He holds that a city laid out by one engineer on an open plain beats an old town patched together over generations, taking the most rationalist position on the planning side, before retreating to 'design the whole only where you answer for all of it'."
+    },
+    {
+      "id": "hayek",
+      "reason": "在哈耶克看来，城市是自发秩序：决定城市好坏的知识散在千百万人心里，规划局收不齐。他要的是好规则，不是总蓝图。",
+      "reason_en": "To Hayek, the city is spontaneous order: the knowledge that makes it good or bad is scattered across millions of minds and no planning office can gather it. He wants good rules, not a master blueprint."
+    },
+    {
+      "id": "plato",
+      "reason": "他从『发烧的城邦』出发，认为任其生长的城市长的是胃口；好城市要先知道自己该有多大。",
+      "reason_en": "Starting from his 'feverish city', he argues that a city left to grow grows appetite, and that a good city must first know how big it ought to be."
+    },
+    {
+      "id": "calhoun",
+      "reason": "『25号宇宙』的鼠群崩溃是他的证据：杀死城市的往往不是密度本身，而是布局造成的过度接触与角色耗尽——自发聚集也会越滚越坏。",
+      "reason_en": "The collapse of Universe 25 is his evidence: what kills a city is often not density itself but layouts that force excessive contact and exhaust social roles; spontaneous clustering can also snowball."
+    },
+    {
+      "id": "vasubandhu",
+      "reason": "他以唯识学的『器世间由共业所感』，把城市从心外之物还原为众人习气的显现：人人每天的脚步都在规划这座城。",
+      "reason_en": "Through the Yogācāra teaching that the receptacle world arises from shared karma, he recasts the city not as a thing outside the mind but as the manifestation of many people's habits: everyone's daily footsteps plan it."
+    },
+    {
+      "id": "benjamin",
+      "reason": "他从巴黎拱廊街与奥斯曼改造入手，追问规划要让谁看清城市、画线落在谁家门口，并替『在城市里迷路』辩护。",
+      "reason_en": "Drawing on the Paris arcades and Haussmann's rebuilding, he asks whom planning makes the city legible to and whose door each line runs past, and defends the art of getting lost in a city."
+    },
+    {
+      "id": "popper",
+      "reason": "规划与生长之争，被波普尔改写成另一个问题：一项改动错了能否被发现、能否撤回。他主张零星社会工程，反对照总蓝图推倒重来。",
+      "reason_en": "Popper rewrites planned-versus-grown as a different question: can a change that proves wrong be noticed and undone? He argues for piecemeal social engineering against razing everything for a master blueprint."
+    }
+  ],
+  "posts": [
+    {
+      "id": "p01",
+      "round": 1,
+      "thinker": "descartes",
+      "reply_to": null,
+      "text": "我年轻时在德国一间暖炉房里想过这个问题。**由许多工匠一代代拼凑起来的老城，街道弯曲、房屋大小不一，更像偶然的产物，而不是理性的安排；一位工程师在平地上照自己的构想画出的城市，几乎总是更整齐。**城市的毛病，根子在于没人从头想过。下水道该走哪、失火时人往哪跑、病从哪条街传开——这些靠『长』是长不出来的，得有人先把原则想清楚。",
+      "text_en": "I first thought about this as a young man, shut in a stove-heated room in Germany. **Old towns pieced together by many builders over generations have crooked streets and mismatched houses; they look like the work of chance, not of reason. A city one engineer lays out on an open plain to his own design is almost always more orderly.** What ails a city, at bottom, is that nobody ever thought it through from the start. Where the sewers run, which way people flee a fire, along which street a disease spreads: none of that grows by itself. Someone has to work out the principles first.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "plato"
+        ],
+        "轻微赞同": [
+          "popper"
+        ],
+        "轻微反对": [
+          "benjamin"
+        ],
+        "强烈反对": [
+          "hayek"
+        ],
+        "中立": [
+          "vasubandhu"
+        ]
+      }
+    },
+    {
+      "id": "p02",
+      "round": 1,
+      "thinker": "hayek",
+      "reply_to": null,
+      "text": "城市是**自发秩序**的典型：没人规定东京的居酒屋该开在哪，可它们总开在下班人流经过的地方。**决定一座城市好坏的知识，散落在几百万人的脑子里——哪条巷子租金便宜、哪个路口晚上热闹——没有哪个规划局收得齐。**我不反对规则：产权、防火标准、谁弄脏了邻居的地谁赔，这些该定。但规则是游戏的规矩，规划是替所有人走棋。前者让城市生长，后者让城市僵死。",
+      "text_en": "A city is the textbook case of **spontaneous order**: nobody decreed where Tokyo's izakayas should go, yet they always open where the evening crowds pass. **The knowledge that makes a city good or bad is scattered across millions of heads (which alley has cheap rent, which corner comes alive at night), and no planning office can ever gather it all.** I am not against rules: property rights, fire codes, making whoever fouls a neighbor's land pay. Those should be set. But rules are the rules of the game; a plan makes everyone's moves for them. The first lets a city grow; the second kills it stiff.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "自发秩序": "spontaneous order（自发秩序）：哈耶克用语，指无人统一设计、由众人遵循共同规则各自行动而自然形成的秩序，如语言、市场、普通法。"
+      },
+      "glossary_en": {
+        "spontaneous order": "Hayek's term for order that no one designs, arising as many people act on their own under shared rules; language, markets and common law are his examples."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "popper"
+        ],
+        "轻微赞同": [
+          "benjamin"
+        ],
+        "中立": [
+          "vasubandhu"
+        ],
+        "轻微反对": [
+          "calhoun"
+        ],
+        "强烈反对": [
+          "plato",
+          "descartes"
+        ]
+      }
+    },
+    {
+      "id": "p03",
+      "round": 1,
+      "thinker": "plato",
+      "reply_to": null,
+      "text": "我在《理想国》里写过两座城。第一座只满足必需，朴素而健康；第二座添上香料、艺人与奢华，**于是成了『发烧的城邦』：欲望没有边，土地就不够，接着就要去抢邻邦的地。**城市任其生长，长的是胃口。所以在《法篇》里，我让立法者先定下限度：五千零四十户，神庙与市场居中，土地分成份额。好城市的第一条不是街道多宽，而是知道自己该有多大。",
+      "text_en": "In the Republic I described two cities. The first meets only necessities, plain and healthy. The second adds spices, performers and luxuries, **and becomes a feverish city: appetite has no limit, the land runs short, and next it must seize its neighbor's.** Leave a city to grow and what grows is appetite. So in the Laws I had the lawgiver set limits first: 5,040 households, temples and market at the center, land divided into lots. The first mark of a good city is not how wide its streets are, but that it knows how big it ought to be.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "发烧的城邦": "feverish city（发烧的城邦）：《理想国》卷二语，指为满足无尽欲望而膨胀、终将对外扩张的奢华城邦，与只求必需的『健康城邦』相对。",
+        "《法篇》": "Laws（《法篇》）：柏拉图晚年最长的对话，为一座名为马格尼西亚的新建城邦详细设计法律、人口与土地制度。"
+      },
+      "glossary_en": {
+        "feverish city": "From Book II of the Republic: a city swollen by limitless desire, bound sooner or later to expand at its neighbors' expense, as opposed to the 'healthy city' that seeks only necessities.",
+        "Laws": "Plato's last and longest dialogue, which designs in detail the laws, population and land system of a new city called Magnesia."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "descartes"
+        ],
+        "轻微赞同": [
+          "calhoun"
+        ],
+        "轻微反对": [
+          "popper"
+        ],
+        "强烈反对": [
+          "hayek"
+        ],
+        "中立": [
+          "benjamin"
+        ]
+      }
+    },
+    {
+      "id": "p04",
+      "round": 1,
+      "thinker": "calhoun",
+      "reply_to": null,
+      "text": "我给老鼠造过城。『25号宇宙』里食物、水和巢穴永远充足，没有天敌，空间够三千八百只住，种群却在两千两百只左右见顶，随后一路走向灭绝。**杀死它们的不是拥挤本身，而是布局：几处食槽附近挤满了不得不碰面的同类，接触多到没有哪个角色能完整履行。**母鼠弃仔，公鼠要么斗殴，要么缩在角落只顾理毛。我管这叫**行为沉沦**。城市的布局，决定了谁每天被迫遇见谁。",
+      "text_en": "I have built cities for mice. In Universe 25, food, water and nesting were always plentiful and there were no predators; there was room for 3,800, yet the population peaked at about 2,200 and then slid all the way to extinction. **What killed them was not crowding as such but layout: a few feeders filled up with animals that had no choice but to meet, and contact grew so dense that no role could be carried out in full.** Mothers abandoned their young; males either fought or withdrew to a corner and did nothing but groom. I called it the **behavioral sink**. A city's layout decides whom you are forced to run into every day.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "25号宇宙": "Universe 25（25号宇宙）：卡尔霍恩 1968 年起在美国国立精神卫生研究院搭建的小鼠『乌托邦』围场，资源无限，种群仍由盛转衰直至灭绝。",
+        "行为沉沦": "behavioral sink（行为沉沦）：卡尔霍恩 1962 年提出的术语，指过度社交接触下动物行为的集体崩溃：育幼失败、攻击、退缩。"
+      },
+      "glossary_en": {
+        "Universe 25": "The mouse 'utopia' Calhoun built at the US National Institute of Mental Health from 1968: unlimited resources, yet the population rose, declined and died out.",
+        "behavioral sink": "Calhoun's 1962 term for the collective breakdown of animal behavior under excessive social contact: failed nurturing, aggression, withdrawal."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "plato"
+        ],
+        "轻微赞同": [
+          "descartes",
+          "benjamin"
+        ],
+        "中立": [
+          "popper",
+          "hayek",
+          "vasubandhu"
+        ]
+      }
+    },
+    {
+      "id": "p05",
+      "round": 1,
+      "thinker": "vasubandhu",
+      "reply_to": null,
+      "text": "诸君争城当画抑当长，皆执城为心外实有之物。吾宗谓：山河大地，名**器世间**，**共业所感，众识所变。**一街一巷，乃千万人日日行住、贪求、畏惧之**种子**，**熏习**成形。规划者之图，一人之识也；市廛之自发，众人之识也。城非机器，亦非生物，乃众心之显现。欲改其城，先观众心所熏。",
+      "text_en": "You argue over whether a city should be drawn or grown, and all of you take the city to be a real thing outside the mind. My school says: mountains, rivers and the great earth are called the **receptacle world**, **brought forth by shared karma and manifested by many minds together.** Each street and lane is the **seeds** of millions of people walking, dwelling, craving and fearing day after day, **perfumed** into form. The planner's drawing is one mind; the market's spontaneous growth is many minds. A city is neither machine nor organism; it is many minds made visible. To change a city, first look at what those minds have been steeped in.",
+      "vernacular": "各位争论城市该照图纸画出来还是该自己生长，都把城市当成了心外真实存在的东西。我们唯识学说：山河大地叫作『器世间』，**是众生共同的业力感召、由大家的心识共同变现出来的。**一条街、一条巷子，是千千万万人每天走动、居住、贪求、恐惧留下的『种子』，反复熏习才成了形。规划者的图纸，是一个人的心识；市井自发生长，是众人的心识。城市不是机器，也不是生物，而是众人心识的显现。想改变一座城，先看看大家的心被什么熏染着。",
+      "vernacular_en": "",
+      "glossary": {
+        "器世间": "receptacle world（器世间）：佛教用语，指众生所依存的山河大地等外在环境，与有情众生（有情世间）相对。",
+        "共业": "shared karma（共业）：众生共同造作、共同感受果报的业；唯识学认为器世间即由共业所感现。",
+        "种子": "seeds（种子）：唯识学用语，指藏在阿赖耶识中、能生起一切现象的潜在势能。",
+        "熏习": "perfuming（熏习）：唯识学用语，指日常言行思念如香熏衣般在心识中留下种子、反复强化的过程。"
+      },
+      "glossary_en": {
+        "receptacle world": "Buddhist term for the outer environment of mountains, rivers and land on which sentient beings depend, as opposed to the world of beings themselves.",
+        "shared karma": "Karma that beings create and experience in common; Yogācāra holds that the receptacle world is manifested by it.",
+        "seeds": "Yogācāra term for latent potentials stored in the storehouse consciousness, from which all phenomena arise.",
+        "perfumed": "From the Yogācāra notion of 'perfuming': daily speech, action and thought leave seeds in consciousness, the way incense scents cloth, and repetition strengthens them."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "benjamin"
+        ],
+        "中立": [
+          "popper",
+          "hayek",
+          "descartes",
+          "calhoun",
+          "plato"
+        ]
+      }
+    },
+    {
+      "id": "p06",
+      "round": 1,
+      "thinker": "benjamin",
+      "reply_to": null,
+      "text": "十九世纪巴黎最迷人的是**拱廊街**：玻璃顶下的小店与闲逛的人，没人料到它会长成一种生活方式。然后**奥斯曼**来了，推倒老街，开出笔直的林荫大道。当时有个说法叫**战略性美化**：**街道宽到筑不成街垒，军队能长驱直入工人区。**规划从来不只是理性，它还回答一个问题：城市要让谁看得清楚？我更在意另一种能力——在城市里迷路。",
+      "text_en": "The most enchanting thing in nineteenth-century Paris was the **arcades**: little shops under glass roofs and the people idling through them; nobody foresaw they would grow into a way of life. Then **Haussmann** came, knocked down the old streets and cut straight boulevards. People at the time had a phrase for it, **strategic embellishment**: **streets too wide for barricades, so troops could march straight into the workers' quarters.** Planning is never just reason; it also answers a question: who is the city being made legible to? I care more about another skill: getting lost in a city.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "拱廊街": "arcades（拱廊街）：十九世纪巴黎带玻璃顶棚的商业通道，本雅明晚年未竟巨著《拱廊街计划》即以此为题。",
+        "奥斯曼": "Haussmann（奥斯曼）：塞纳省省长，1853–1870 年主持巴黎大改造，拆除大片中世纪街区、开辟林荫大道与下水道系统。",
+        "战略性美化": "strategic embellishment（战略性美化）：本雅明引用的十九世纪说法，指奥斯曼改造兼有防止街垒巷战、便于调兵的用意。"
+      },
+      "glossary_en": {
+        "arcades": "Glass-roofed shopping passages of nineteenth-century Paris; Benjamin's unfinished late work, The Arcades Project, takes them as its subject.",
+        "Haussmann": "Prefect of the Seine who directed the rebuilding of Paris from 1853 to 1870, clearing medieval districts and laying out boulevards and a sewer network.",
+        "strategic embellishment": "A nineteenth-century phrase Benjamin quotes: Haussmann's renovation was also meant to prevent barricade fighting and ease troop movements."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "hayek"
+        ],
+        "轻微赞同": [
+          "vasubandhu",
+          "popper"
+        ],
+        "轻微反对": [
+          "descartes"
+        ],
+        "强烈反对": [
+          "plato"
+        ],
+        "中立": [
+          "calhoun"
+        ]
+      }
+    },
+    {
+      "id": "p07",
+      "round": 1,
+      "thinker": "popper",
+      "reply_to": null,
+      "text": "我想把问题换个切法。规划与生长不是真正的分界，**真正的分界是：一项改动错了，能不能被发现、能不能改回来。**我称之为**零星社会工程**对**乌托邦工程**：前者一次改一个路口、加一条公交线，看效果，错了就退；后者照一张总蓝图推平重来，等发现错时，几十万人已经住进去了。蓝图无法被**证伪**，直到它被浇成混凝土。",
+      "text_en": "I want to cut the question another way. Planning versus growing is not the real dividing line. **The real line is whether a change, once it proves wrong, can be noticed and undone.** I call it **piecemeal social engineering** versus **utopian engineering**: the first changes one intersection, adds one bus line, watches the result and backs out if it fails; the second razes everything to follow a master blueprint, and by the time the error shows, hundreds of thousands already live in it. A blueprint cannot be **falsified** until it has been poured in concrete.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "零星社会工程": "piecemeal social engineering（零星社会工程）：波普尔用语，主张以小步、可检验、可撤回的改革逐一消除具体弊病。",
+        "乌托邦工程": "utopian engineering（乌托邦工程）：波普尔用语，指依照理想社会的整体蓝图全盘改造社会的做法。",
+        "证伪": "falsify（证伪）：用观察结果推翻一个理论或方案；波普尔视其为检验知识的核心方法。"
+      },
+      "glossary_en": {
+        "piecemeal social engineering": "Popper's term for reform by small, testable, reversible steps that remove specific evils one at a time.",
+        "utopian engineering": "Popper's term for remaking a whole society according to a master blueprint of the ideal.",
+        "falsified": "Refuted by observation; for Popper, exposing a theory or plan to possible refutation is the heart of testing knowledge."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "hayek"
+        ],
+        "轻微赞同": [
+          "calhoun",
+          "benjamin"
+        ],
+        "中立": [
+          "vasubandhu"
+        ],
+        "轻微反对": [
+          "descartes",
+          "plato"
+        ]
+      }
+    },
+    {
+      "id": "p08",
+      "round": 2,
+      "thinker": "hayek",
+      "reply_to": "p01",
+      "text": "@笛卡尔 您那位平地上的工程师，正是我说的**建构主义理性**：以为一切好的秩序都得出自某个头脑的设计。可老城的街弯，常常弯得有道理——顺着地形、水源、旧地界，那是几百年试错留下的知识。**最自负的不是画图，而是相信图上没画的东西都不存在。**您要的那种确定，在城市里只能靠推平一切来换。",
+      "text_en": "@Descartes Your engineer on the open plain is exactly what I call **constructivist rationalism**: the belief that every good order must come out of some one mind's design. But an old town's streets often bend for good reason, following the terrain, the water, old property lines; that is knowledge left by centuries of trial and error. **The real conceit is not drawing a plan; it is believing that whatever the plan leaves out does not exist.** The certainty you want can be had in a city only by flattening everything.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "建构主义理性": "constructivist rationalism（建构主义理性）：哈耶克用语，批评笛卡尔式的信念——认为人类制度都应、也能由理性从头设计。"
+      },
+      "glossary_en": {
+        "constructivist rationalism": "Hayek's term, aimed at the Cartesian belief that human institutions should and can be designed from scratch by reason."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "popper",
+          "benjamin"
+        ],
+        "轻微赞同": [
+          "vasubandhu"
+        ],
+        "轻微反对": [
+          "calhoun"
+        ],
+        "强烈反对": [
+          "descartes",
+          "plato"
+        ]
+      }
+    },
+    {
+      "id": "p09",
+      "round": 2,
+      "thinker": "descartes",
+      "reply_to": "p02",
+      "text": "@哈耶克 您说有规则就够了，可规则本身就是规划。**伦敦的霍乱一次次暴发，直到有人画出一整套截污干管、统一铺设，才终于止住；**一个房东一个房东地试错，试不出一条通往下游的总管。价格信号能告诉面包店开在哪，却不告诉谁该为看不见的污水付钱。有些东西只有整体设计才会存在。",
+      "text_en": "@Hayek You say rules are enough, but rules are themselves a plan. **Cholera broke out in London again and again until someone drew up a complete system of intercepting sewers and laid it as one network; only then did it stop.** Landlord-by-landlord trial and error will never produce a trunk main to carry it all downstream. Price signals can tell a bakery where to open, but not who should pay for the sewage nobody sees. Some things exist only if they are designed as a whole.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "plato"
+        ],
+        "轻微赞同": [
+          "calhoun",
+          "popper"
+        ],
+        "中立": [
+          "vasubandhu"
+        ],
+        "轻微反对": [
+          "hayek",
+          "benjamin"
+        ]
+      }
+    },
+    {
+      "id": "p10",
+      "round": 2,
+      "thinker": "plato",
+      "reply_to": "p04",
+      "text": "@卡尔霍恩 你的老鼠正好替我作证：**一切充足、唯独没有限度的城，正是发烧的城邦。**它们缺的不是粮食，而是秩序——谁在何处、做何事、守何分。我让**马格尼西亚**定下户数，就是要每个公民认得彼此、担得起一个角色。你的鼠群那样死去，是一座不知止的城的死法。",
+      "text_en": "@Calhoun Your mice testify for me: **a city with plenty of everything except limits is precisely the feverish city.** What they lacked was not food but order: who belongs where, does what, keeps to which part. I fixed the number of households in **Magnesia** so that every citizen could know the others and carry a role. Your colony died the way a city dies when it does not know where to stop.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "马格尼西亚": "Magnesia（马格尼西亚）：柏拉图《法篇》中设想的新建城邦，公民户数固定为 5040。"
+      },
+      "glossary_en": {
+        "Magnesia": "The new city imagined in Plato's Laws, its citizen households fixed at 5,040."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "descartes"
+        ],
+        "轻微赞同": [
+          "calhoun"
+        ],
+        "轻微反对": [
+          "hayek",
+          "vasubandhu"
+        ],
+        "强烈反对": [
+          "popper"
+        ],
+        "中立": [
+          "benjamin"
+        ]
+      }
+    },
+    {
+      "id": "p11",
+      "round": 2,
+      "thinker": "calhoun",
+      "reply_to": "p02",
+      "text": "@哈耶克 25号宇宙里没有一只老鼠规划过行为沉沦，它是自己长出来的。几处食槽碰巧成了聚点，越聚越挤，越挤越乱。**自发秩序会自我强化，可它强化的不一定是好东西。**城市也一样：便宜的地段聚起贫困，热门的地段推高房租。每一步都合理，市场哪里也没出错，加起来却是一片沉沦区。",
+      "text_en": "@Hayek In Universe 25 not one mouse planned the behavioral sink; it grew by itself. A few feeders happened to become gathering points; the more animals gathered, the more crowded, and the more crowded, the more chaotic. **Spontaneous order reinforces itself, but what it reinforces is not necessarily good.** Cities are the same: cheap districts collect poverty, hot districts drive up rents. Every step is rational, the market gets nothing wrong, and the sum is a sink.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "plato"
+        ],
+        "轻微赞同": [
+          "descartes",
+          "benjamin",
+          "vasubandhu"
+        ],
+        "中立": [
+          "popper"
+        ],
+        "轻微反对": [
+          "hayek"
+        ]
+      }
+    },
+    {
+      "id": "p12",
+      "round": 2,
+      "thinker": "popper",
+      "reply_to": "p03",
+      "text": "@柏拉图 我写《开放社会及其敌人》，第一卷写的就是您。**您把城市当成一件可以照理念完工的作品，而完工的东西不再接受批评。**定死五千零四十户，然后呢？人口变了、技术变了，谁有权修改？**哲人王**。二十世纪照这种思路从零画出的新首都，宽阔、整齐、空旷，居民最先动手补上的，是蓝图里没有的集市和小路。",
+      "text_en": "@Plato The first volume of my Open Society and Its Enemies is about you. **You treat a city as a work to be finished according to the Forms, and a finished work no longer accepts criticism.** Fix it at 5,040 households, and then? Population shifts, technology changes; who has the right to revise it? The **philosopher-king**. The new capitals of the twentieth century, drawn from scratch in that spirit, came out broad, tidy and empty, and the first things residents added themselves were the markets and footpaths the blueprint had left out.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "哲人王": "philosopher-king（哲人王）：柏拉图《理想国》主张由掌握善的理念的哲学家来统治城邦。"
+      },
+      "glossary_en": {
+        "philosopher-king": "Plato's proposal in the Republic that the city be ruled by philosophers who grasp the Form of the Good."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "hayek"
+        ],
+        "轻微赞同": [
+          "benjamin"
+        ],
+        "中立": [
+          "vasubandhu",
+          "calhoun"
+        ],
+        "轻微反对": [
+          "descartes"
+        ],
+        "强烈反对": [
+          "plato"
+        ]
+      }
+    },
+    {
+      "id": "p13",
+      "round": 2,
+      "thinker": "benjamin",
+      "reply_to": "p01",
+      "text": "@笛卡尔 奥斯曼正是您的好学生：一张图、一把尺，一位省长替整座巴黎想清楚。**笔直的大道治好了卫生，也顺手把工人赶出了城。**理性画下的线从不中立，画在谁家门口，谁就得搬家。我不反对下水道，我反对把『整齐』当成『好』——那是统治者的审美，不是住户的。",
+      "text_en": "@Descartes Haussmann was your star pupil: one map, one ruler, one prefect thinking all of Paris through. **The straight boulevards cured the city's sanitation and, while they were at it, drove the workers out of town.** No line drawn by reason is neutral; whoever's door it runs past has to move. I am not against sewers. I am against mistaking tidy for good; that is the taste of rulers, not of residents.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "popper"
+        ],
+        "轻微赞同": [
+          "hayek",
+          "calhoun"
+        ],
+        "中立": [
+          "vasubandhu"
+        ],
+        "轻微反对": [
+          "plato"
+        ],
+        "强烈反对": [
+          "descartes"
+        ]
+      }
+    },
+    {
+      "id": "p14",
+      "round": 2,
+      "thinker": "vasubandhu",
+      "reply_to": "p11",
+      "text": "哈耶克言知散于众心，近吾说矣，然犹未尽。**规划者执图为实，放任者执自发为善，皆遍计所执也。**城本**依他起**，因缘和合，无有定性。卡尔霍恩之鼠，非困于笼，困于熏习：日日挤于一槽，种子愈熏愈固。人城亦然。不观自心，则易一图、撤一令，所生仍是旧城。",
+      "text_en": "Hayek says knowledge is scattered across many minds. That comes close to my teaching, but stops short. **The planner clings to the drawing as real; the advocate of laissez-faire clings to the spontaneous as good. Both are the imagined nature.** A city is of a dependent nature, a coming-together of causes and conditions with no fixed essence. Calhoun's mice were trapped not by the cage but by habit: crowding at one feeder day after day, the seeds grew ever firmer. Human cities are the same. Without looking into our own minds, swap one drawing or repeal one decree, and what arises is still the old city.",
+      "vernacular": "哈耶克说知识分散在众人心里，这跟我的说法很接近，但还没说透。**规划者把图纸当成真实，放任者把自发当成一定是好的，两者都是『遍计所执』——把心里的构想当成了实物。**城市本来是『依他起』的，由种种因缘凑合而成，没有固定不变的本性。卡尔霍恩的老鼠，困住它们的不是笼子，而是熏习：天天挤在同一个食槽边，那些种子就越熏越牢。人的城市也一样。不回头看自己的心，换一张图纸、撤一道命令，长出来的还是那座旧城。",
+      "vernacular_en": "",
+      "glossary": {
+        "遍计所执": "the imagined nature（遍计所执）：唯识『三性』之一，指心识把依缘而生的现象虚妄执取为有固定本质的实物。",
+        "依他起": "the dependent nature（依他起）：唯识『三性』之一，指一切现象都依赖因缘条件而生起，本身无固定不变的自性。"
+      },
+      "glossary_en": {
+        "imagined nature": "One of the Yogācāra 'three natures': the mind's false grasping of conditioned phenomena as things with a fixed essence.",
+        "dependent nature": "One of the Yogācāra 'three natures': all phenomena arise in dependence on causes and conditions and have no fixed essence of their own."
+      },
+      "reactions": {
+        "轻微赞同": [
+          "benjamin",
+          "popper"
+        ],
+        "中立": [
+          "calhoun",
+          "descartes",
+          "plato"
+        ],
+        "轻微反对": [
+          "hayek"
+        ]
+      }
+    },
+    {
+      "id": "p15",
+      "round": 3,
+      "thinker": "calhoun",
+      "reply_to": "p11",
+      "text": "我晚年一直在追一个问题：如果给老鼠更多能扮演的角色、更多需要学习的事，同样的密度撑不撑得住？我的答案是撑得住。**所以问题从来不是规划还是不规划，而是一座城给不给人足够多的角色与回旋余地。**给普通人一条建议：选住处时，别只看面积和通勤，看看步行十分钟内有没有一个常去、有人认得你的地方——咖啡馆、球场、社区活动室。在城里有一个角色，比多十平米要紧。",
+      "text_en": "In my later years I kept chasing one question: if mice had more roles to play and more things to learn, could they bear the same density? My answer was yes. **So the question was never whether to plan, but whether a city gives people enough roles and enough room to maneuver.** One piece of advice: when choosing a place to live, look past floor space and commute. Is there somewhere within a ten-minute walk you go regularly and where someone knows you: a café, a court, a community room? Having a role in the city matters more than ten extra square meters.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "plato"
+        ],
+        "轻微赞同": [
+          "hayek",
+          "vasubandhu",
+          "benjamin"
+        ],
+        "中立": [
+          "popper",
+          "descartes"
+        ]
+      }
+    },
+    {
+      "id": "p16",
+      "round": 3,
+      "thinker": "plato",
+      "reply_to": "p12",
+      "text": "波普尔说我封闭，我认一半：户数定得确实太死。但城市仍需要一个『度』，没有度，增长只是在喂胃口。**今天不必由哲人王来定这个度，可每个住在城里的人都能给自己定一个。**算一算你的生活半径：认得几个邻居，多久去一次公园，为了住得大一点搬了多远。要是半径大到你谁也不认得，那不是自由，是发烧。",
+      "text_en": "Popper says I am closed, and I grant him half: I did fix the number of households too rigidly. But a city still needs a measure; without one, growth only feeds appetite. **Today no philosopher-king need set that measure, but everyone who lives in a city can set one for themselves.** Work out your radius of living: how many neighbors you know, how often you get to a park, how far you moved for a little more space. If the radius is so wide you know no one, that is not freedom; it is fever.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "calhoun"
+        ],
+        "轻微赞同": [
+          "descartes",
+          "vasubandhu"
+        ],
+        "中立": [
+          "popper",
+          "benjamin"
+        ],
+        "轻微反对": [
+          "hayek"
+        ]
+      }
+    },
+    {
+      "id": "p17",
+      "round": 3,
+      "thinker": "hayek",
+      "reply_to": "p09",
+      "text": "笛卡尔和卡尔霍恩让我补一句：**自发秩序需要好规则做土壤。**下水道这类真正的公共品、污染的赔偿，该由公共来定。但最常见的毛病不是规则太少，而是太多：住宅楼下不许开店、每户必须配车位、处处限高限密。给普通人的建议：下次社区或市里开规划听证会，去听一次，看看是哪条规则在禁止你楼下开一家早餐店。",
+      "text_en": "Descartes and Calhoun prompt me to add one thing: **spontaneous order needs good rules as its soil.** Genuine public goods like sewers, and compensation for pollution, should be settled publicly. But the commonest problem is not too few rules; it is too many: no shops allowed under apartment buildings, mandatory parking for every unit, height and density caps everywhere. My advice: next time your neighborhood or city holds a planning hearing, go once, and find out which rule is stopping someone from opening a breakfast place downstairs.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "popper"
+        ],
+        "轻微赞同": [
+          "descartes",
+          "benjamin"
+        ],
+        "中立": [
+          "vasubandhu"
+        ],
+        "轻微反对": [
+          "plato",
+          "calhoun"
+        ]
+      }
+    },
+    {
+      "id": "p18",
+      "round": 3,
+      "thinker": "benjamin",
+      "reply_to": "p13",
+      "text": "我留下一句话：**在城市里找不到路，算不了什么；可要像在森林里那样迷失于城市，却需要练习。**规划者想让城市一览无余，市场想让每一寸都有标价，而城市的记忆藏在两者都没算进去的角落里。建议很简单：每月挑一个下午，不开导航，走一片没去过的街区，留意哪些老店还在、哪些已经拆了。你会比任何蓝图都清楚，这座城失去了什么、还剩下什么。",
+      "text_en": "I leave you one line: **not finding your way in a city means little; but losing yourself in a city, as one loses oneself in a forest, takes practice.** The planner wants the city laid bare at a glance; the market wants a price on every inch; and the city's memory hides in the corners neither of them counted. The advice is simple: one afternoon a month, switch off the map app and walk a neighborhood you have never been to. Notice which old shops are still there and which are gone. You will know better than any blueprint what the city has lost and what it still has.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "vasubandhu"
+        ],
+        "轻微赞同": [
+          "calhoun",
+          "hayek",
+          "popper"
+        ],
+        "中立": [
+          "plato"
+        ],
+        "轻微反对": [
+          "descartes"
+        ]
+      }
+    },
+    {
+      "id": "p19",
+      "round": 3,
+      "thinker": "vasubandhu",
+      "reply_to": "p14",
+      "text": "诸君之论，吾试收之：笛卡尔、柏拉图见城须有度，哈耶克见知散众心，卡尔霍恩见聚处生病，本雅明见线落谁门，波普尔见错须可改。**然城既众识所变，则人人皆是规划者。**每日所行之路、所入之店、所避之街，皆是一票。劝诸君：择一条每日必经之路，行时不看手机，观其何处令心紧、何处令心舒。知城如何熏汝，方知汝如何熏城。",
+      "text_en": "Let me gather your arguments: Descartes and Plato see that a city needs measure; Hayek sees knowledge scattered across minds; Calhoun sees sickness where crowds gather; Benjamin sees whose door the line falls on; Popper sees that errors must be correctable. **But if the city is manifested by many minds, then everyone is a planner.** The routes you walk each day, the shops you enter, the streets you avoid: each is a vote. My counsel: pick one route you take every day and walk it without your phone. Notice where your mind tightens and where it eases. Once you know how the city steeps you, you will know how you steep the city.",
+      "vernacular": "各位的说法，我试着收拢一下：笛卡尔、柏拉图看到城市需要有分寸，哈耶克看到知识散在众人心里，卡尔霍恩看到人群挤聚处会生病，本雅明看到规划的线落在谁家门口，波普尔看到错了必须能改。**可既然城市是众人心识变现的，那么人人都是规划者。**你每天走的路、进的店、绕开的街，都是一票。劝各位：挑一条每天必经的路，走的时候不看手机，留意哪里让你心里发紧、哪里让你心里舒展。知道城市怎样熏染你，才知道你怎样熏染这座城。",
+      "vernacular_en": "",
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "benjamin"
+        ],
+        "轻微赞同": [
+          "calhoun",
+          "popper"
+        ],
+        "中立": [
+          "hayek",
+          "plato",
+          "descartes"
+        ]
+      }
+    },
+    {
+      "id": "p20",
+      "round": 3,
+      "thinker": "descartes",
+      "reply_to": "p13",
+      "text": "诸位说服了我一半。其实我在《方法论》里也写过：**我们从没见过有人为了照新样式重建而把全城的房子拆光，却常见有人拆了自家的房子重盖。**理性的整体设计，最适合用在你自己能负全责的范围里。所以我的建议是：把清晰的规划留给自己的生活。搬家前，把通勤、学校、医院、买菜各要多少分钟算清楚，画在一张纸上。城市交给众人，自己这栋房子，值得从地基想起。",
+      "text_en": "You have half persuaded me. In fact I wrote in the Discourse on Method: **we never see anyone pull down every house in a town just to rebuild it in a new style, but we often see people tear down their own house to build it again.** Whole-cloth rational design works best within the bounds you can answer for entirely. So my advice is to keep the clear planning for your own life. Before you move, work out how many minutes it takes to commute, to reach school, the hospital, the grocery, and put it on one sheet of paper. Leave the city to everyone; your own house is worth thinking through from the foundations.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {
+        "《方法论》": "Discourse on Method（《方法论》）：笛卡尔 1637 年的著作，第二部分以老城与新城作比，阐明他由自己从头重建知识的方法。"
+      },
+      "glossary_en": {
+        "Discourse on Method": "Descartes's 1637 work; Part Two compares old towns with planned ones to explain his method of rebuilding his own knowledge from the ground up."
+      },
+      "reactions": {
+        "强烈赞同": [
+          "popper"
+        ],
+        "轻微赞同": [
+          "hayek",
+          "plato"
+        ],
+        "中立": [
+          "calhoun",
+          "vasubandhu"
+        ],
+        "轻微反对": [
+          "benjamin"
+        ]
+      }
+    },
+    {
+      "id": "p21",
+      "round": 3,
+      "thinker": "popper",
+      "reply_to": null,
+      "text": "今天的分歧，可以用一个标准收住：**不管规划还是放任，凡是能小规模试、看得见后果、撤得回来的，就放手去做；凡是一做就几十年改不回来的，就要格外谨慎、广纳批评。**画一条临时自行车道，三个月后看数据，胜过争论一年。普通人也一样：想换座城市生活，先短租一两个月；想推动社区改变，先提一个能撤回的小试点，比如周末封一条街给孩子玩。让错误早点、便宜地暴露出来。",
+      "text_en": "Today's disagreement can be settled with one test: **whether it is planning or letting be, anything that can be tried small, whose results can be seen and which can be undone, go ahead; anything that, once done, cannot be reversed for decades, demands extra caution and wide criticism.** Paint a temporary bike lane and check the numbers after three months; that beats a year of argument. The same goes for ordinary people: if you are thinking of moving to another city, rent short-term for a month or two first; if you want to change your neighborhood, propose a small pilot that can be reversed, such as closing one street to cars on weekends so children can play. Let mistakes show up early and cheaply.",
+      "vernacular": null,
+      "vernacular_en": null,
+      "glossary": {},
+      "glossary_en": {},
+      "reactions": {
+        "强烈赞同": [
+          "hayek",
+          "descartes"
+        ],
+        "轻微赞同": [
+          "calhoun",
+          "benjamin",
+          "plato"
+        ],
+        "中立": [
+          "vasubandhu"
+        ]
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "ai": "claude",
+      "engine": "Opus 5 · 订阅(原生)",
+      "engine_en": "Opus 5 · subscription (native)",
+      "summary": "**全场最大的共识，是『规划还是生长』本身问错了：城市要的是少数整体设计加大量自发生长。**下水道这类公共骨架必须有人统一画，具体开什么店、怎么用，交给住在里面的人去试。连笛卡尔也收回半步，承认整体设计最适合自己负全责的范围。分歧在于该画多少：柏拉图坚持城市要有『度』，哈耶克认为最大的病是规则太多；卡尔霍恩指出自发聚集也会越滚越坏，本雅明追问每条规划线落在谁家门口；波普尔给出一把尺子——能不能小步试、能不能撤回；世亲则提醒，城市是众人每天的脚步熏出来的。",
+      "insight": "这场辩论漏了一个维度：时间。城市的各层改得快慢差别极大——**街网与地块一旦划定，能管上百年，楼房几十年一换，店铺几年一换。**曼哈顿 1811 年定下的方格网至今未变，而网格里的房子已换过好几轮。斯图尔特·布兰德把这叫『速度分层』。照这个看，『规划还是生长』按层回答就清楚了：最慢、最难改的骨架（街道密度、地块大小、公共用地、管网）值得慎重地整体设计；骨架上快的那几层，就该放手让人去长。很多城市恰好弄反了：骨架随开发商零碎拼凑，对楼下开什么店却管得极细。",
+      "advice": "三件这周就能做的事。① 选住处先看骨架：在地图上数一数小区周围十分钟步行内有多少个路口、多少种店，路口密、店种杂的街区，往往更好住、也更安全。② 照卡尔霍恩的提醒，找一个步行可达、常去、有人认得你的地方，**在城里给自己一个角色**。③ 学波普尔：想换城市先短租一两个月，想改社区先提一个能撤回的小试点；查一次本区规划公示，知道哪条规则在管你的街，再找个周末下午，像本雅明说的那样不开导航走一片陌生街区。",
+      "summary_en": "**The broadest agreement was that 'planned or grown' is the wrong question: a city needs a little design of the whole and a great deal of spontaneous growth.** Shared skeletons like sewers must be drawn up as one system; which shops open and how space is used should be left to the people who live there to try out. Even Descartes stepped half back, conceding that whole-cloth design suits the bounds one can fully answer for. The dispute was over how much to draw. Plato insisted a city needs a measure; Hayek held that the commonest disease is too many rules; Calhoun showed that spontaneous clustering can also snowball into decay; Benjamin asked whose door each planning line runs past; Popper offered a yardstick, whether a change can be tried small and undone; and Vasubandhu reminded everyone that a city is steeped into shape by everyone's daily footsteps.",
+      "insight_en": "One dimension went missing: time. The layers of a city change at wildly different speeds. **Once a street grid and its lots are laid down they can govern for centuries; buildings turn over in decades, shops in a few years.** Manhattan's 1811 grid is still there, while the buildings in it have been replaced several times. Stewart Brand called this 'pace layering'. Seen that way, the question answers itself layer by layer: the slowest, hardest-to-change skeleton (street density, lot size, public land, pipes) deserves careful design as a whole; the fast layers on top should be left free to grow. Many cities get it exactly backwards, letting developers piece the skeleton together ad hoc while micromanaging what may open on the ground floor.",
+      "advice_en": "Three things to do this week. (1) Judge a neighborhood by its skeleton first: on a map, count how many intersections and how many kinds of shops lie within a ten-minute walk. Dense intersections and a varied mix usually mean a street that is better to live on and safer. (2) Take Calhoun's point and find a place within walking distance that you visit regularly and where someone knows you: **give yourself a role in the city.** (3) Borrow Popper's method: rent short-term for a month or two before moving to a new city, propose a reversible pilot before trying to change your neighborhood, and look up your district's planning notices once to learn which rules govern your street; then, one weekend afternoon, do as Benjamin says and walk an unfamiliar neighborhood with the map app switched off."
+    },
+    {
+      "ai": "gpt",
+      "engine": "openai · gpt-5.6-sol · high(真实API)",
+      "engine_en": "openai · gpt-5.6-sol · high (live API)",
+      "summary": "城市既不能只靠一张总图，也不能把所有后果交给自发演化：公共卫生、消防、交通骨架和污染治理需要集体协调，地方知识、街巷活力与日常服务则必须允许居民和商户持续修正。**可取的城市治理，是先守住安全、公平与基础设施底线，再把其余空间留给分散试验，并让错误可见、可改、可撤。**真正的分歧不在规划或生长二选一，而在谁有权定尺度、哪些事务必须整体决策、何种代价算可接受，以及蓝图背后的权力能否被质询。密度本身也无所谓善恶，关键是接触是否可选择、角色是否丰富、收益和负担如何分配。",
+      "insight": "一条还需补上的线索是“改善之后谁还能留下”。新地铁、公园和步行街可能提高生活质量，也会抬高地价与租金；自发长成的热门街区同样会把原先养成其活力的租户、小店和社群挤走。于是，成功本身可能摧毁成功的条件。**城市政策不能只评估建成后的空间效果，还要同时设计土地增值如何回收、原住者如何分享收益，以及租户与小商户如何避免被迫迁离。**这意味着试点也不能只看客流、速度或事故率，还应跟踪租金、店铺更替和弱势群体的通达性。对普通人而言，选择社区时要看居住稳定性，而不只是当下便利。",
+      "advice": "本周可做三件小事。第一，画一张步行十五分钟生活图，标出买菜、休息、运动、就医、见熟人的地点，再记下三处让你紧张或绕行的节点。第二，挑一个痛点做七天可逆试验：换一条通勤路、固定光顾一家邻店，或与邻居组织一次共享活动，用记录而非印象判断变化。第三，查一次所在社区的规划公示或议事会，针对一个具体项目只问四件事：谁受益、谁付钱、能否撤回、会不会推高租金。**先把抽象立场变成一张地图、一次小试和一个可追责的问题。**若推动街道改造，可要求临时设施、明确期限和复盘指标，而不是一步永久化。",
+      "summary_en": "A city cannot be governed by a master plan alone, but neither can every consequence be left to spontaneous growth. Sewers, fire safety, transit networks, and pollution control require collective coordination; local knowledge, street life, and everyday services need room for residents and businesses to keep adjusting them. **Good urban governance sets firm floors for safety, fairness, and essential infrastructure, then leaves the remaining space open to distributed experimentation, with failures made visible, correctable, and reversible.** The real dispute is not planning versus growth as a binary. It concerns who gets to set limits, which problems genuinely demand system-wide decisions, what costs are acceptable, and whether the power embedded in a plan can be challenged. Density is not inherently healthy or harmful either. What matters is whether contact can be chosen rather than forced, whether people have varied social roles and places of belonging, and how the gains and burdens of urban change are distributed. A durable city therefore needs both long-lived systems and short feedback loops.",
+      "insight_en": "One missing test is simple: who can still afford to remain after a place improves? A new metro stop, park, or pedestrian street can raise quality of life while also raising land values and rents. A lively district that grew organically can likewise displace the tenants, small shops, and communities that created its appeal. Success can therefore destroy its own preconditions. **Urban policy should evaluate not only the finished spatial outcome, but also how land-value gains are shared, how existing residents benefit, and how renters and small businesses are protected from involuntary displacement.** This changes how pilots should be judged. Footfall, travel time, and crash rates are not enough; rent trends, business turnover, and access for lower-income groups belong on the dashboard too. For an individual choosing where to live, present convenience is only half the picture. Lease security, likely rent increases, housing supply, and the durability of nearby social ties may matter more over five years than an attractive streetscape does today.",
+      "advice_en": "Try three things this week. First, draw a fifteen-minute walking map around home. Mark groceries, exercise, health care, rest, and places where someone recognizes you; then note three spots that make you tense, delay you, or force a detour. Second, run one seven-day reversible experiment around a real frustration: test another commute, become a regular at one nearby shop, or organize a small shared activity with neighbors. Keep a short log so that evidence, not mood, guides the conclusion. Third, find one local planning notice or public meeting and examine a single proposal through four questions: who benefits, who pays, can it be reversed, and could it raise rents or exclude current users? **Turn an abstract opinion into a map, a small trial, and one question that assigns accountability.** If you advocate a street change, ask for temporary materials, a clear end date, and published review metrics before anything becomes permanent."
+    },
+    {
+      "ai": "gemini",
+      "engine": "降级:Opus 扮演(API 不可达)",
+      "engine_en": "fallback: Opus role-play (API unreachable)",
+      "summary": "**最值得带走的共识：别问城市该不该规划，要问哪些事必须统一设计、哪些该交给日常生活。**排污、防火这类关乎所有人的骨架要有人通盘考虑；店铺、用途与街头生活更适合自下而上地长。分歧在于两种风险孰轻孰重：笛卡尔、柏拉图担心无序与无度，哈耶克、本雅明担心整齐背后的自负与驱逐；卡尔霍恩用鼠群提醒，自发并不自动等于健康。波普尔的『可撤回』标准，与世亲『人人都是规划者』的说法，给了两边一个共同落脚点。",
+      "insight": "大家都在谈空间，没人谈身体。**一座城对人最直接的塑造，是它让你每天走多少路、晒多少太阳、听多少噪音。**流行病学研究反复发现：步行友好的街区居民体力活动更多，绿地可及性与较低的压力水平相关，长期交通噪音与睡眠受扰、心血管风险上升有关。规划的好坏，最终会写进居民的血压和睡眠里。这让『城市像机器还是生物』多了一个答案：城市是人身体的延伸，规划图上的每条线最终都落在某个人身上。",
+      "advice": "① 用一周记录每天步行的步数与通勤时长，看看你的街区在替你做什么、拿走什么。② 卧室若临街，先试耳塞、厚窗帘或换朝向的房间，噪音对睡眠的伤害常被低估。③ 找一条到公园或河边的步行路线，每周固定走两三次，把『城市给你的身体』变成可以自己挑选的部分。选房时把这三样——步行距离、窗外噪音、到最近绿地的分钟数——和房价写在同一张表上比较，它们会在往后几年里天天影响你的精力与睡眠。",
+      "summary_en": "**The consensus most worth taking away: don't ask whether a city should be planned; ask which things must be designed as a whole and which should be left to everyday life.** Skeletons that affect everyone, like drainage and fire safety, need someone to think them through; shops, uses and street life grow better from the bottom up. The disagreement was over which risk weighs more: Descartes and Plato fear disorder and excess, Hayek and Benjamin fear the conceit and displacement hiding behind tidiness, and Calhoun's mice warn that spontaneous does not automatically mean healthy. Popper's test of reversibility and Vasubandhu's claim that everyone is a planner gave both sides common ground.",
+      "insight_en": "Everyone talked about space; no one talked about bodies. **The most direct way a city shapes people is how far it makes them walk, how much sun they get and how much noise they hear each day.** Epidemiological studies keep finding that residents of walkable neighborhoods are more physically active, that access to green space is associated with lower stress, and that long-term traffic noise is linked to disturbed sleep and higher cardiovascular risk. Whether planning is good or bad ends up written into residents' blood pressure and sleep. That adds an answer to 'machine or organism': a city is an extension of the human body, and every line on a planning map ends up landing on someone.",
+      "advice_en": "(1) For one week, log your daily steps and commute time, and see what your neighborhood is doing for you and taking from you. (2) If your bedroom faces the street, try earplugs, heavy curtains or a room on the other side first; the damage noise does to sleep is often underestimated. (3) Find a walking route to a park or riverside and take it two or three times a week, turning 'what the city gives your body' into something you choose. When house-hunting, put these three (walking distances, noise outside the window, minutes to the nearest green space) on the same sheet as the price; for years to come they will affect your energy and sleep every day."
+    }
+  ],
+  "hooks": [
+    {
+      "from": "claude",
+      "text": "**该画的是骨架**：街网、地块、管网一定就是百年，楼与店几十年、几年一换。最慢的层慎重设计、快的层放手，是不是比『规划还是生长』更好的问法？",
+      "text_en": "**Design the skeleton**: street grids, lots and pipes last a century once laid; buildings and shops turn over in decades or years. Is 'design the slow layers carefully, free the fast ones' a better question than 'planned or grown'?"
+    },
+    {
+      "from": "calhoun",
+      "text": "**密度不是罪魁**：同样拥挤，有的街区热闹宜居，有的成了沉沦区。差别在角色、动线，还是退路？什么设计让人在高密度里不崩？",
+      "text_en": "**Density isn't the culprit**: equally crowded neighborhoods can be lively and livable or a sink. Is the difference in roles, circulation or places to retreat? What design keeps people sane at high density?"
+    },
+    {
+      "from": "gpt",
+      "text": "**改善之后，谁还留得下**：新地铁、公园、步行街让街区变好，也推高房租，把养出街区活力的租户和小店挤走。城市改造该不该同时设计增值怎么分？",
+      "text_en": "**After a place improves, who can still stay?** A new metro stop, park or pedestrian street makes a neighborhood better and also pushes up rents, squeezing out the tenants and small shops that gave it life. Should urban renewal also design how the gains are shared?"
+    },
+    {
+      "from": "hayek",
+      "text": "**楼下为什么不能开店**：单一用途分区、车位下限、限高限密，本意是保护居住，却让街道冷清、房价上涨。哪些规则该留，哪些该删？",
+      "text_en": "**Why can't there be a shop downstairs?** Single-use zoning, parking minimums and height or density caps were meant to protect homes, yet they empty streets and raise prices. Which rules should stay and which should go?"
+    },
+    {
+      "from": "gemini",
+      "text": "**城市是身体的延伸**：步行距离、日照、噪音、绿地，写进了居民的血压与睡眠。规划该不该把健康指标当成硬约束？",
+      "text_en": "**The city as an extension of the body**: walking distances, sunlight, noise and green space get written into residents' blood pressure and sleep. Should planning treat health measures as hard constraints?"
+    },
+    {
+      "from": "claude",
+      "text": "**搬家前怎么看一个街区**：除了房价和面积，走一圈该看什么，才能知道这里住着舒不舒服？",
+      "text_en": "**How to size up a neighborhood before moving**: beyond price and floor space, what should you look for on a walk around to know whether it will be good to live in?",
+      "answer": {
+        "lead": "把**一个工作日傍晚和一个周末上午**各走一圈，照下表逐项看。",
+        "table": {
+          "head": [
+            "看什么",
+            "怎么看",
+            "为什么"
+          ],
+          "rows": [
+            [
+              "路口密度",
+              "十分钟步行内数路口、有没有能穿行的小路",
+              "路口密、街区小，步行近，街上人也多"
+            ],
+            [
+              "用途混合",
+              "楼下有没有早餐店、药店、修理铺这类日常店",
+              "日常事能步行办完，通勤外的时间才省得下"
+            ],
+            [
+              "街上的眼睛",
+              "傍晚有没有人在店门口、窗前、长椅上",
+              "有人看着的街更安全，也更容易认识人"
+            ],
+            [
+              "一个能常去的地方",
+              "有没有咖啡馆、球场、社区活动室",
+              "在城里有个角色，比多十平米要紧"
+            ],
+            [
+              "噪音与日照",
+              "站在卧室窗边听五分钟，看看几点有阳光",
+              "长期噪音伤睡眠，日照影响情绪与作息"
+            ],
+            [
+              "未来五年",
+              "查规划公示：要修什么路、拆什么楼",
+              "骨架一变，你的日子跟着变"
+            ]
+          ]
+        },
+        "tail": "**先短租再长住**；能试一两个月的决定，别一次押上全部。看街区先看**慢的那一层**（街网、规划），快的那一层（店铺、装修）总会变。"
+      },
+      "answer_en": {
+        "lead": "Walk the area **once on a weekday evening and once on a weekend morning**, and go through this table item by item.",
+        "table": {
+          "head": [
+            "What to check",
+            "How to check",
+            "Why it matters"
+          ],
+          "rows": [
+            [
+              "Intersection density",
+              "Count intersections within a ten-minute walk; look for cut-through lanes",
+              "Dense intersections and small blocks mean short walks and busier streets"
+            ],
+            [
+              "Mixed uses",
+              "Are there everyday shops downstairs: breakfast, pharmacy, repairs?",
+              "If errands can be done on foot, you get back the time outside your commute"
+            ],
+            [
+              "Eyes on the street",
+              "In the evening, are people at shop doors, windows, benches?",
+              "Watched streets are safer, and it's easier to get to know people"
+            ],
+            [
+              "A place to go regularly",
+              "Is there a café, a court, a community room?",
+              "Having a role in the city matters more than ten extra square meters"
+            ],
+            [
+              "Noise and sunlight",
+              "Stand at the bedroom window for five minutes; note when the sun comes in",
+              "Chronic noise damages sleep; sunlight affects mood and daily rhythm"
+            ],
+            [
+              "The next five years",
+              "Check planning notices: what roads will be built, what will be torn down",
+              "When the skeleton changes, your days change with it"
+            ]
+          ]
+        },
+        "tail": "**Rent short-term before committing**; if a decision can be tried for a month or two, don't stake everything at once. Judge a neighborhood by its **slow layer** (street grid, plans) first; the fast layer (shops, renovations) will change anyway."
+      }
+    }
+  ]
+}

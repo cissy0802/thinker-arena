@@ -2,15 +2,6 @@
   "_comment": "议题投票数据。candidates=未辩候选(供投票)，debated=已辩(链到辩论)。投票免 GitHub 登录，存于自建后端(Cloudflare Worker + D1，见 ~/Desktop/cissy0802.github.io/engage-backend/)：每候选一个 poll，key='topic:'+id，choice up/down，净票=👍−👎。votes 字段由 routine 每次跑 `python3 refresh_votes.py`(读后端 /votes-net) 回写；页面 ideas.js 也会实时拉取覆盖显示。观众自提议题在评论 page='thinker-open-questions'，各候选下讨论 page='topic:'+id——routine 读这些把好提案提炼成新 candidates。新候选加进 candidates 即可。",
   "candidates": [
     {
-      "id": "city-planned-or-grown",
-      "votes": 0,
-      "q": "城市该规划出来，还是让它自己长？",
-      "q_en": "Should a city be planned, or left to grow?",
-      "note": "柯布西耶要推平老街、建光辉城市，雅各布斯说街上的眼睛才是安全；斯科特则认为，让国家「看得清」的规划，恰恰抹掉了真实生活的秩序。城市更像机器，还是更像生物？",
-      "note_en": "Le Corbusier wanted to raze old streets for a Radiant City; Jane Jacobs said the eyes on the street are what keep it safe; James Scott argued that planning which makes a city legible to the state erases the order real life had built. Is a city more like a machine or an organism?",
-      "cat": "ethics"
-    },
-    {
       "id": "beyond-the-commons-tragedy",
       "votes": 0,
       "q": "公地悲剧，只能靠私有或国管吗？",
@@ -1334,6 +1325,13 @@
       "q_en": "After losing someone close, can we only wait for time to dull it?",
       "date": "2026-11-07",
       "cat": "life"
+    },
+    {
+      "id": "city-planned-or-grown",
+      "q": "城市该规划出来，还是让它自己长？",
+      "q_en": "Should a city be planned, or left to grow?",
+      "date": "2026-11-08",
+      "cat": "ethics"
     }
   ]
 }

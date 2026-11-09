@@ -1,0 +1,967 @@
+{
+ "id": "outsource-or-build",
+ "question": "能外包的，都该外包出去吗？",
+ "question_en": "Should everything that can be outsourced be outsourced?",
+ "sub": "外包一时省钱，会不会把手艺和底牌一起交了出去？",
+ "sub_en": "Outsourcing saves money now, but does it hand away the craft and your leverage with it?",
+ "date": "2026-11-09",
+ "participants": [
+  "williamson",
+  "adamsmith",
+  "marx",
+  "deming",
+  "jensen",
+  "zhuangzi",
+  "wegner",
+  "huineng"
+ ],
+ "casting": [
+  {
+   "id": "williamson",
+   "reason": "他把『买还是自己做』拆成资产专用性、不确定性与交易频率三笔账，认为越专用、越难写进合同的事越该自己握着，第一个开口，定下全场的算法。",
+   "reason_en": "He breaks 'buy or make' into three accounts: asset specificity, uncertainty and frequency. The more specialized and hard to contract a task, the more it belongs in-house. He speaks first and sets the terms for the whole room."
+  },
+  {
+   "id": "adamsmith",
+   "reason": "他以制针厂的分工为据替外包辩护：财富来自各做所长、彼此交换；到了总结，又亮出《国富论》第五卷的另一半——分工会让人变窄。",
+   "reason_en": "He defends outsourcing with his pin factory: wealth comes from each doing what he does best and trading. In closing he brings out the other half of The Wealth of Nations, Book Five's warning that specialization can make people narrow."
+  },
+  {
+   "id": "marx",
+   "reason": "他追问外包外出去的究竟是活还是责任，盯住转包链上工伤、社保与风险最后落在谁身上。",
+   "reason_en": "He asks whether outsourcing sends out the work or the responsibility, and follows the subcontracting chain to see who ends up carrying injuries, social insurance and risk."
+  },
+  {
+   "id": "deming",
+   "reason": "他不反对外包，反对凭价格换来换去，主张与少数供应商建立长期信任，用关系而不是合同管住质量。",
+   "reason_en": "He has nothing against outsourcing, only against switching suppliers on price. He argues for long-term trust with a few suppliers, governing quality through relationships rather than contracts."
+  },
+  {
+   "id": "jensen",
+   "reason": "他执掌一家不造芯片的芯片公司：制造交给代工厂，架构与 CUDA 软件死守在手，主张把最强的那一块留给自己。",
+   "reason_en": "He runs a chip company that doesn't make chips: manufacturing goes to a foundry, while the architecture and the CUDA software stay firmly in-house. Keep your strongest piece for yourself, he says."
+  },
+  {
+   "id": "zhuangzi",
+   "reason": "他讲汉阴丈人抱瓮灌畦、羞用桔槔的寓言，提醒省力的工具也会换掉人心，最后落到『物物而不物于物』。",
+   "reason_en": "He tells the fable of the old man of Hanyin, who carries water by hand and is ashamed to use a well sweep, warning that labor-saving tools can change the heart, and ends on 'treat things as things, and don't be made a thing by them'."
+  },
+  {
+   "id": "wegner",
+   "reason": "他研究过伴侣间的交互记忆与『谷歌效应』，指出人外包出去的往往是记忆的位置与判断力，并给出自测的办法。",
+   "reason_en": "Having studied transactive memory between partners and the 'Google effect', he argues that what we outsource is often the location of memory, and our judgment with it, and offers a way to test yourself."
+  },
+  {
+   "id": "huineng",
+   "reason": "他说身外事尽可托人，唯独觉悟连佛也代不了，把威廉姆森的『专用资产』翻成了『本心』。",
+   "reason_en": "Outside matters can all be entrusted to others, he says, but not awakening, which not even the Buddha can do for you. He translates Williamson's 'specialized asset' into the original mind."
+  }
+ ],
+ "posts": [
+  {
+   "id": "p01",
+   "round": 1,
+   "thinker": "williamson",
+   "reply_to": null,
+   "text": "一件事该买还是该自己做，我只看三样：**这件事用到的东西有多专用、将来有多难预料、多久发生一次。**通用的标准件，市场上有十家能做，买就是了，坏了换一家。可要是对方得为你专门开模具、学你的流程，你们就被绑在一起：他知道你离不开他，合同又写不全，涨价、拖延、偷工都找得到理由。这时候外包省下的钱，迟早会被人敲竹杠敲回去。",
+   "text_en": "Whether to buy something or make it yourself, I look at three things: **how specialized the assets involved are, how hard the future is to predict, and how often the transaction recurs.** If it's a standard part ten firms can make, buy it, and if one fails you, switch. But if the supplier has to build molds just for you and learn your processes, the two of you are tied together. He knows you can't leave, the contract can never cover everything, and he'll always find a reason to raise prices, slip deadlines or cut corners. Sooner or later, whatever outsourcing saved you gets clawed back when you're held up.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "敲竹杠": "hold-up（敲竹杠）：交易成本经济学术语，指一方投入只在这段关系里值钱的专用资产后，另一方利用其难以退出而重新压价或抬价。"
+   },
+   "glossary_en": {
+    "held up": "Transaction-cost term: once one party has sunk assets that are only valuable within the relationship, the other exploits its inability to walk away by renegotiating prices."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "jensen"
+    ],
+    "轻微赞同": [
+     "huineng",
+     "deming"
+    ],
+    "中立": [
+     "adamsmith"
+    ],
+    "轻微反对": [
+     "marx"
+    ],
+    "疑惑": [
+     "zhuangzi"
+    ]
+   }
+  },
+  {
+   "id": "p02",
+   "round": 1,
+   "thinker": "adamsmith",
+   "reply_to": null,
+   "text": "我看过一家小制针厂：一个生手独自做，一天也许做不出二十根针；十个人分工，抽丝、拉直、切断、磨尖各管一段，一天能做四万八千多根。**财富不来自每个人什么都会，而来自每个人只做最拿手的那一段，再彼此交换。**公司把清洁、物流、客服交给专做这行的人，跟我的制针工把磨尖交给磨尖师傅，是一回事。市场越大，分工越细，大家越富。",
+   "text_en": "I once watched a small pin factory. A novice working alone could scarcely make twenty pins a day. Ten men dividing the work, one drawing the wire, one straightening it, one cutting, one pointing, made upwards of forty-eight thousand. **Wealth doesn't come from everyone being able to do everything; it comes from each doing the one step he does best, and then trading.** A company handing cleaning, logistics and customer service to firms that specialize in them is no different from my pin-makers handing the pointing to the man who points. The bigger the market, the finer the division of labor, and the richer everyone gets.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "分工": "division of labor（分工）：把一项生产拆成多道工序、由不同的人专门承担，斯密视之为国民财富增长的首要原因。"
+   },
+   "glossary_en": {
+    "division of labor": "Splitting production into separate steps, each done by a specialist; Smith saw it as the chief cause of the growth of national wealth."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "jensen"
+    ],
+    "轻微赞同": [
+     "williamson"
+    ],
+    "中立": [
+     "wegner"
+    ],
+    "轻微反对": [
+     "zhuangzi"
+    ],
+    "强烈反对": [
+     "marx"
+    ]
+   }
+  },
+  {
+   "id": "p03",
+   "round": 1,
+   "thinker": "marx",
+   "reply_to": null,
+   "text": "斯密先生只算了针的数量，没算做针的人。今天的外包，很多时候外出去的不是活，是责任：工伤谁赔、社保谁交、夜班出了事谁管，一层层转包下去，落到最没有议价能力的人身上。同一栋楼里，正式工和外包工干一样的活，工牌颜色不同，食堂价钱都不同。**外包常常不是分工更细了，而是资本把风险推给了别人，把利润留给了自己。**",
+   "text_en": "Mr. Smith counted the pins but not the people making them. Much of today's outsourcing sends out not the work but the responsibility: who pays for an injury, who pays into social insurance, who answers when something goes wrong on the night shift. It gets subcontracted down, layer by layer, until it lands on whoever has the least bargaining power. In the same building, staff and contract workers do the same job with different-colored badges and even different prices in the cafeteria. **Outsourcing is often not a finer division of labor at all. It's capital pushing the risk onto others and keeping the profit for itself.**",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "huineng"
+    ],
+    "轻微赞同": [
+     "deming"
+    ],
+    "中立": [
+     "wegner",
+     "zhuangzi"
+    ],
+    "轻微反对": [
+     "jensen"
+    ],
+    "强烈反对": [
+     "adamsmith"
+    ]
+   }
+  },
+  {
+   "id": "p04",
+   "round": 1,
+   "thinker": "deming",
+   "reply_to": null,
+   "text": "外包本身没错，错在怎么外包。我给管理层的第四条建议是：**别再只凭价格决定跟谁买，要和少数供应商建立长期、信任的关系。**每年招标、谁便宜换谁，看着省钱，其实每换一家，零件的波动就换一套，生产线又得重新适应。绝大多数质量问题出在系统上，不在某个人身上。供应商就是你系统的一部分，把他当对手，他就只会照合同字面交差。",
+   "text_en": "Outsourcing itself isn't the mistake; how you do it is. The fourth of my points for management says: **stop awarding business on price tag alone, and build long-term relationships of trust with a few suppliers.** Rebidding every year and switching to whoever is cheapest looks like saving money. In fact every new supplier brings a new pattern of variation in the parts, and your line has to adapt all over again. Most quality problems come from the system, not from individuals. Your suppliers are part of your system. Treat one as an adversary and he'll deliver to the letter of the contract and no more.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "jensen"
+    ],
+    "轻微赞同": [
+     "huineng",
+     "marx"
+    ],
+    "中立": [
+     "adamsmith"
+    ],
+    "轻微反对": [
+     "williamson"
+    ],
+    "疑惑": [
+     "zhuangzi"
+    ]
+   }
+  },
+  {
+   "id": "p05",
+   "round": 1,
+   "thinker": "jensen",
+   "reply_to": null,
+   "text": "英伟达不造芯片，制造全交给台积电，我们是一家无晶圆厂公司。**可我们从不外包让我们成为我们的东西：芯片架构，还有花了十几年、起初没人看好也坚持投入的 CUDA 软件。**外包与否，关键不在省多少钱，而在你清不清楚自己真正的长处在哪。最强的那一块，宁可贵、宁可慢也要握在手里；其余的，交给世界上最会做的人。",
+   "text_en": "NVIDIA doesn't make chips. TSMC manufactures all of them; we're a fabless company. **But we have never outsourced the things that make us who we are: the chip architecture, and CUDA, the software we've poured more than a decade into, even back when nobody thought it was worth it.** Whether to outsource isn't really about how much you save. It's about whether you know where your real strength lies. Your strongest piece you keep in your own hands, even if it costs more and goes slower. Everything else, give to whoever in the world does it best.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "无晶圆厂": "fabless（无晶圆厂）：只设计芯片、把制造交给代工厂的半导体企业模式。",
+    "CUDA": "CUDA：英伟达 2006 年发布的并行计算平台与编程模型，让开发者能用 GPU 做通用计算。"
+   },
+   "glossary_en": {
+    "fabless": "A semiconductor business model in which a company designs chips and leaves manufacturing to a contract foundry.",
+    "CUDA": "NVIDIA's parallel computing platform and programming model, released in 2006, which lets developers use GPUs for general-purpose computing."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "williamson"
+    ],
+    "轻微赞同": [
+     "adamsmith",
+     "wegner"
+    ],
+    "中立": [
+     "deming"
+    ],
+    "轻微反对": [
+     "marx",
+     "zhuangzi"
+    ]
+   }
+  },
+  {
+   "id": "p06",
+   "round": 1,
+   "thinker": "zhuangzi",
+   "reply_to": null,
+   "text": "子贡过汉阴，见丈人抱瓮而灌，用力甚多而见功寡。子贡曰：有械于此，一日浸百畦，子不欲乎？丈人作色而笑曰：**有机械者必有机事，有机事者必有机心。**机心存于胸中，则纯白不备。吾非不知，羞而不为也。今之言外包者，但计其省力，不计其易心。",
+   "text_en": "Zigong, passing through Hanyin, saw an old man watering his garden by carrying a jar down into the well, spending great effort for little result. Zigong said, 'There's a machine that can water a hundred plots a day. Wouldn't you like one?' The old man flushed, then laughed: '**Whoever has machines will have machine business, and whoever has machine business will have a machine heart.** With a machine heart in your breast, your pure simplicity is gone. It's not that I don't know of it. I'd be ashamed to use it.' Those who talk of outsourcing today count the effort it saves, and never count how it changes the heart.",
+   "vernacular": "子贡路过汉阴，看见一位老人抱着瓦瓮下井打水浇菜园，费了好大力气，收效却很少。子贡说：『有一种器械，一天能浇一百畦地，您不想用吗？』老人沉下脸，又笑着说：『**有了机械，就会有机巧的事；有了机巧的事，就会生出机巧的心。**机巧之心藏在胸中，人就不再纯净素朴。我不是不知道那东西，是觉得羞耻才不用。』如今谈外包的人，只算省了多少力，不算心被换成了什么。",
+   "vernacular_en": "",
+   "glossary": {
+    "机心": "calculating mind（机心）：庄子用语，指算计、取巧之心，与纯朴自然之心相对。",
+    "纯白": "pure simplicity（纯白）：庄子用语，指心未被机巧污染的素朴状态。"
+   },
+   "glossary_en": {
+    "machine heart": "Zhuangzi's term for a scheming, contriving mind, as opposed to a natural, unspoiled one.",
+    "pure simplicity": "Zhuangzi's term for a mind not yet tainted by contrivance."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "huineng"
+    ],
+    "轻微赞同": [
+     "marx",
+     "wegner"
+    ],
+    "中立": [
+     "deming"
+    ],
+    "轻微反对": [
+     "adamsmith",
+     "williamson"
+    ],
+    "强烈反对": [
+     "jensen"
+    ]
+   }
+  },
+  {
+   "id": "p07",
+   "round": 1,
+   "thinker": "wegner",
+   "reply_to": null,
+   "text": "我研究过伴侣怎么分工记事：一个记亲戚生日，一个记密码和账单，谁也不用全记。我叫它交互记忆，这是人类最古老的外包，很高效。可它有两个代价。一是离婚或离职时，人会觉得像丢了半个脑子。二是我们 2011 年的实验发现：**人一旦知道资料存在电脑里查得到，记住的就是『去哪查』，而不是内容本身。**外包出去的，其实是记忆的位置。",
+   "text_en": "I've studied how couples divide up remembering: one keeps track of relatives' birthdays, the other the passwords and the bills, and neither has to hold it all. I call this transactive memory. It's humanity's oldest form of outsourcing, and it works well. But it has two costs. First, after a divorce or a job change, people feel they've lost half a brain. Second, our 2011 experiments found that **once people know information is saved on a computer and can be looked up, what they remember is where to find it, not the thing itself.** What gets outsourced is the location of memory.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "交互记忆": "transactive memory（交互记忆）：韦格纳提出，指群体成员彼此分担记忆、各自只需记住『谁知道什么』的共享记忆系统。"
+   },
+   "glossary_en": {
+    "transactive memory": "Wegner's term for a shared memory system in which group members divide up remembering, each needing only to know who knows what."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "zhuangzi"
+    ],
+    "轻微赞同": [
+     "huineng",
+     "deming",
+     "williamson"
+    ],
+    "中立": [
+     "adamsmith",
+     "marx"
+    ],
+    "疑惑": [
+     "jensen"
+    ]
+   }
+  },
+  {
+   "id": "p08",
+   "round": 1,
+   "thinker": "huineng",
+   "reply_to": null,
+   "text": "诸仁者争外包与否，譬如问饭可代吃否。洒扫可雇人，衣食可买得，此皆身外事，外之何妨。**唯有一事，佛亦代汝不得：迷时师度，悟了自度。**善知识只能指路，路须自行；经论只能说食，饱须自吃。世人连修心也外包与师父、与经卷、与香火钱，此是大错。",
+   "text_en": "Good people, arguing over whether to outsource is like asking whether someone else can eat your meal for you. Sweeping can be hired out; food and clothing can be bought. These are outside matters, so hand them off, what harm is there? **There is just one thing even the Buddha cannot do for you: when deluded, a teacher ferries you across; once awakened, you ferry yourself.** A good teacher can only point the way; you must walk it. Scripture can only describe the food; you must eat your own fill. People even outsource tending the mind, to a master, to the sutras, to money for incense. That is a great mistake.",
+   "vernacular": "各位争论该不该外包，就好比问吃饭能不能请人代吃。打扫可以雇人，衣服饭食可以买来，这些都是身外的事，交出去又何妨。**只有一件事，连佛也替你做不了：迷的时候靠师父引渡，悟了就得自己渡自己。**好老师只能指路，路要自己走；经书只能讲吃的，吃饱要自己吃。世人连修心都外包给师父、经书和香火钱，这是大错。",
+   "vernacular_en": "",
+   "glossary": {
+    "自度": "self-deliverance（自度）：禅宗用语，指觉悟必须靠自己完成，他人无法代替。",
+    "善知识": "kalyāṇa-mitra / good teacher（善知识）：佛教用语，指能引导人走向正道的良师益友。"
+   },
+   "glossary_en": {
+    "ferry yourself": "From the Chan teaching of self-deliverance: awakening must be accomplished by oneself and cannot be done by another.",
+    "good teacher": "Translates kalyāṇa-mitra, a Buddhist term for a spiritual friend or mentor who guides one onto the right path."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "zhuangzi"
+    ],
+    "轻微赞同": [
+     "wegner",
+     "deming"
+    ],
+    "中立": [
+     "williamson",
+     "jensen",
+     "adamsmith"
+    ],
+    "疑惑": [
+     "marx"
+    ]
+   }
+  },
+  {
+   "id": "p09",
+   "round": 2,
+   "thinker": "williamson",
+   "reply_to": "p02",
+   "text": "斯密先生的分工没错，可您漏了一项成本：交易本身。教科书常讲通用汽车和费雪车身：费雪为通用专门造车身，双方为价格和建厂地点争执不下，最后通用干脆把它整个买了下来。**分工越细，接口越多；接口越专用，市场就越像一对一的谈判，而不再是竞争。**这时把活收回自己手里，不是不懂分工，是在给分工买保险。",
+   "text_en": "Mr. Smith is right about the division of labor, but he leaves out one cost: the transaction itself. Textbooks love the case of General Motors and Fisher Body. Fisher built car bodies specifically for GM, the two fought over prices and over where to put the plants, and in the end GM simply bought Fisher outright. **The finer the division of labor, the more interfaces you have; and the more specialized an interface, the more the market turns into a one-on-one negotiation instead of competition.** Bringing the work back in-house then isn't a failure to understand specialization. It's buying insurance for it.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "jensen"
+    ],
+    "轻微赞同": [
+     "wegner"
+    ],
+    "中立": [
+     "marx",
+     "zhuangzi"
+    ],
+    "轻微反对": [
+     "adamsmith"
+    ],
+    "强烈反对": [
+     "deming"
+    ]
+   }
+  },
+  {
+   "id": "p10",
+   "round": 2,
+   "thinker": "adamsmith",
+   "reply_to": "p03",
+   "text": "马克思先生说外包把风险推给了弱者，这种事确实有，我在书里也骂过：同行商人一聚到一起，谈话多半以合谋抬价收场。可也请看看另一面：**几十年来，大量工作从富国外包到穷国，许多穷国家庭正是从那时起第一次拿到稳定的工资。**若富国都关起门来自己做，护住的是富国的工人，饿着的是穷国的工人。该管的是转包链上的欺诈与合谋，不是分工本身。",
+   "text_en": "Mr. Marx says outsourcing pushes risk onto the weak. That does happen, and I railed against it in my own book: people of the same trade seldom meet together but the conversation ends in some contrivance to raise prices. But look at the other side too. **Over the past few decades a great deal of work has moved from rich countries to poor ones, and that is when many families in poor countries first earned a steady wage.** If rich countries all shut their doors and did everything themselves, they'd be protecting their own workers while workers in poor countries went hungry. What needs policing is fraud and collusion along the subcontracting chain, not the division of labor itself.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "jensen"
+    ],
+    "轻微赞同": [
+     "williamson",
+     "deming"
+    ],
+    "中立": [
+     "wegner",
+     "huineng"
+    ],
+    "轻微反对": [
+     "zhuangzi"
+    ],
+    "强烈反对": [
+     "marx"
+    ]
+   }
+  },
+  {
+   "id": "p11",
+   "round": 2,
+   "thinker": "marx",
+   "reply_to": "p05",
+   "text": "黄先生说要把『最强的那一块』握在手里。我想问：握在谁手里？**所谓核心与非核心，本身就是一条阶级线：核心的人拿股票，非核心的人拿派遣合同。**设计芯片的工程师在加州领期权，守夜的保安、打扫的阿姨、流水线上的工人站在合同的另一边，同一家公司的繁荣，他们只分到最薄的一层。外包外出去的，常常就是他们那一份。",
+   "text_en": "Mr. Huang says to keep 'the strongest piece' in your own hands. I'd ask: whose hands? **The line between core and non-core is itself a class line: the core gets stock, the non-core gets a staffing-agency contract.** The engineers designing chips in California collect their options, while the night guards, the cleaners and the workers on the assembly line stand on the other side of the contract and get the thinnest slice of the same company's success. What gets outsourced is often precisely their share.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "huineng"
+    ],
+    "轻微赞同": [
+     "zhuangzi",
+     "deming"
+    ],
+    "中立": [
+     "wegner"
+    ],
+    "轻微反对": [
+     "williamson"
+    ],
+    "强烈反对": [
+     "jensen",
+     "adamsmith"
+    ]
+   }
+  },
+  {
+   "id": "p12",
+   "round": 2,
+   "thinker": "deming",
+   "reply_to": "p09",
+   "text": "威廉姆森教授把供应商当成随时会投机的人，所以要么写厚合同，要么干脆收购。**你防着他，他就防着你；合同越厚，信任越薄。**1997 年，丰田一家关键零件厂失火，刹车阀断供，丰田几乎全线停产。是两百多家企业在没签新合同的情况下，几天内各自改线赶制，帮丰田一周左右复了产。这不是合同管出来的，是几十年的关系养出来的。",
+   "text_en": "Professor Williamson treats suppliers as opportunists waiting to happen, so you either write a thick contract or buy them outright. **Guard against him and he'll guard against you; the thicker the contract, the thinner the trust.** In 1997 a fire at a key Toyota parts plant cut off the supply of brake valves, and nearly every Toyota line stopped. More than two hundred companies, with no new contracts signed, retooled within days to make the part, and Toyota was back running in about a week. No contract produced that. Decades of relationship did.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "huineng"
+    ],
+    "轻微赞同": [
+     "marx",
+     "jensen",
+     "wegner"
+    ],
+    "中立": [
+     "adamsmith"
+    ],
+    "轻微反对": [
+     "williamson"
+    ]
+   }
+  },
+  {
+   "id": "p13",
+   "round": 2,
+   "thinker": "jensen",
+   "reply_to": "p06",
+   "text": "庄子先生，那位老人抱瓮浇了一辈子园子，心是纯白了，可一天也就浇那几畦。**拒绝工具保住的不是纯粹，是一个很小的世界。**我们拿 GPU 去算蛋白质结构、模拟气候，那是人手一千年也算不完的事。工具会不会改变人？会。可真正的问题不是用不用桔槔，而是你拿省下来的力气，去做什么更难的事。",
+   "text_en": "Master Zhuangzi, that old man carried his jar for a lifetime. His heart stayed pure, but he watered the same few plots a day. **Refusing tools doesn't preserve purity; it preserves a very small world.** We use GPUs to work out protein structures and simulate the climate, work a thousand years of human hands couldn't finish. Do tools change people? Of course. But the real question isn't whether to use the well sweep. It's what harder thing you do with the strength it saves you.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "桔槔": "well sweep（桔槔）：古代利用杠杆原理汲水的工具，一端系水桶、另一端坠重物。"
+   },
+   "glossary_en": {
+    "well sweep": "An ancient lever device for drawing water, with a bucket on one end and a counterweight on the other."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "adamsmith"
+    ],
+    "轻微赞同": [
+     "williamson"
+    ],
+    "中立": [
+     "deming",
+     "marx"
+    ],
+    "轻微反对": [
+     "wegner",
+     "huineng"
+    ],
+    "强烈反对": [
+     "zhuangzi"
+    ]
+   }
+  },
+  {
+   "id": "p14",
+   "round": 2,
+   "thinker": "zhuangzi",
+   "reply_to": "p13",
+   "text": "黄子以浇百畦为大，吾以为未必。省一畦之力以求百畦，得百畦又求千畦，**役于物而不知止，是谓以人从物。**吾之所羞，非械也，乃心随械转。用械而心不随之者，庖丁之刀是也：十九年而刀刃若新发于硎，以其依乎天理，不以刀役己也。",
+   "text_en": "Master Huang takes watering a hundred plots for greatness. I'm not so sure. You save the strength of one plot to chase a hundred; with a hundred you chase a thousand. **Driven by things without knowing where to stop: that is bending the person to fit the thing.** What I'm ashamed of isn't the machine; it's a heart that turns as the machine turns. The one who uses a tool without his heart following it is Cook Ding with his knife: after nineteen years the blade was still as if fresh from the whetstone, because he followed the natural grain, and never let the knife drive him.",
+   "vernacular": "黄先生把浇一百畦当作大事，我看未必。省下一畦的力气去求一百畦，得了一百畦又想要一千畦，**被外物驱使而不知停下，这叫让人去迁就物。**我羞耻的不是器械，是心跟着器械转。用器械而心不被它带走的，就是庖丁的刀：用了十九年，刀刃还像刚磨过一样，因为他顺着牛的天然纹理，而不是让刀来驱使自己。",
+   "vernacular_en": "",
+   "glossary": {
+    "役于物": "enslaved by things（役于物）：被外物驱使、支配。",
+    "庖丁": "Cook Ding（庖丁）：《庄子·养生主》中的厨师，解牛顺应肌理，刀用十九年仍锋利如新。"
+   },
+   "glossary_en": {
+    "Driven by things": "Zhuangzi's idea of being enslaved by external things, ruled by what one uses.",
+    "Cook Ding": "The cook in the Zhuangzi who carved oxen by following their natural seams, so that his knife stayed sharp for nineteen years."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "huineng"
+    ],
+    "轻微赞同": [
+     "wegner",
+     "marx"
+    ],
+    "中立": [
+     "deming",
+     "williamson"
+    ],
+    "轻微反对": [
+     "adamsmith"
+    ],
+    "疑惑": [
+     "jensen"
+    ]
+   }
+  },
+  {
+   "id": "p15",
+   "round": 2,
+   "thinker": "wegner",
+   "reply_to": "p08",
+   "text": "六祖说觉悟不能外包，我同意，而且还有更日常的一件：判断力。有个实验让人先上网搜一些问题，再问他们对另一些没搜过、也毫不相干的问题懂多少，搜过的人普遍自评更高。**查得到，让我们误以为自己懂。**所以外包之后要常做个测试：把工具关掉，你还能不能把这件事讲清楚、判断对错？讲不出来，外包出去的就不只是活。",
+   "text_en": "The Sixth Patriarch says awakening can't be outsourced. I agree, and there's a more everyday thing that can't be either: judgment. In one experiment, people first searched the internet for answers to some questions, then rated how much they knew about other topics they hadn't searched and that had nothing to do with it. Those who had searched rated themselves higher across the board. **Being able to look it up fools us into thinking we know it.** So after you outsource something, test yourself now and then: switch off the tool. Can you still explain the thing clearly and tell right from wrong? If not, you've outsourced more than the work.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "huineng"
+    ],
+    "轻微赞同": [
+     "zhuangzi",
+     "deming",
+     "williamson"
+    ],
+    "中立": [
+     "marx",
+     "adamsmith"
+    ],
+    "轻微反对": [
+     "jensen"
+    ]
+   }
+  },
+  {
+   "id": "p16",
+   "round": 2,
+   "thinker": "huineng",
+   "reply_to": "p01",
+   "text": "威廉姆森居士算专用资产，算得甚细。老僧问一句：**天下最专用、最写不进契约者，莫过自家本心。**此心只在汝身中用得，换一人便全无用处。汝所立治理之法，护得工厂模具，护不得此心。既知专用者当自持，何以自心偏要交与他人？",
+   "text_en": "Layman Williamson reckons up specialized assets with great care. This old monk has one question. **The most specialized thing of all, the one least possible to write into any contract, is your own original mind.** It is of use only in your own body; in anyone else it is worth nothing. The governance structures you design can protect a factory's molds, but not this mind. If you know that what is specialized should be kept in your own hands, why insist on handing your own mind to someone else?",
+   "vernacular": "威廉姆森居士计算专用资产，算得很细。老僧问一句：**天下最专用、最写不进合同的东西，莫过于自己的本心。**这颗心只在你自己身上用得上，换一个人就完全没用。你设计的那些治理办法，护得住工厂里的模具，护不住这颗心。既然知道专用的东西应该自己握着，为什么偏要把自己的心交给别人？",
+   "vernacular_en": "",
+   "glossary": {
+    "本心": "original mind（本心）：禅宗用语，指人人本具、清净不染的心性。",
+    "居士": "lay Buddhist（居士）：在家修行的佛教信徒，此处作对俗家人的敬称。"
+   },
+   "glossary_en": {
+    "original mind": "Chan term for the pure, untainted nature of mind that everyone already possesses.",
+    "Layman": "Translates jushi, a lay Buddhist practitioner; used here as a courteous form of address for a non-monk."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "zhuangzi"
+    ],
+    "轻微赞同": [
+     "wegner",
+     "williamson"
+    ],
+    "中立": [
+     "deming",
+     "adamsmith",
+     "jensen"
+    ],
+    "疑惑": [
+     "marx"
+    ]
+   }
+  },
+  {
+   "id": "p17",
+   "round": 3,
+   "thinker": "williamson",
+   "reply_to": null,
+   "text": "听完各位，我把三问补成四问，普通人也能用。**一，换个人来做，你在不在乎？二，出了问题，能不能马上换一家？三，多久发生一次？四，做久了，它会不会长成你的本事？**保洁、报税、搬家，通用又少见，放心外包。孩子的陪伴、自己做饭的手艺、职业里的核心判断，专用又天天用，自己握着。戴明说得对，我补一句：专用的事真要外包，就用长期关系去担保，别只靠合同。",
+   "text_en": "Having heard everyone, I'll turn my three questions into four that anyone can use. **One: would you care if someone else did it? Two: if something goes wrong, can you switch providers right away? Three: how often does it come up? Four: if you kept doing it yourself, would it grow into a real skill?** Cleaning, taxes, moving house: generic and infrequent, so outsource them without worry. Time with your kids, your own cooking, the core judgment in your profession: specific and daily, so keep them. Deming is right, and I'll add this: if you must outsource something specialized, secure it with a long-term relationship, not just a contract.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "jensen",
+     "deming"
+    ],
+    "轻微赞同": [
+     "wegner",
+     "adamsmith",
+     "huineng"
+    ],
+    "中立": [
+     "zhuangzi"
+    ],
+    "轻微反对": [
+     "marx"
+    ]
+   }
+  },
+  {
+   "id": "p18",
+   "round": 3,
+   "thinker": "adamsmith",
+   "reply_to": null,
+   "text": "我得补上自己书里的另一半。《国富论》第五卷里我写过：**一个人一辈子只做几个简单操作，没机会运用理解力，往往会变得愚钝无知。**分工让国家富，也可能让人变窄，所以我主张由公众出钱办学校，把分工磨掉的再补回来。落到普通人身上：外包省下的时间，别全花在刷手机上，拿一部分去学一样跟本职不同的本事。",
+   "text_en": "I owe you the other half of my own book. In Book Five of The Wealth of Nations I wrote that **a man whose whole life is spent performing a few simple operations has no occasion to exert his understanding, and generally becomes as stupid and ignorant as it is possible for a human creature to become.** The division of labor makes nations rich, and it can also make people narrow. That's why I argued for public money to fund schools, to restore what specialization wears away. For ordinary people: don't spend all the time outsourcing saves you scrolling on your phone. Put some of it into learning something unlike your day job.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "marx",
+     "zhuangzi"
+    ],
+    "轻微赞同": [
+     "wegner",
+     "deming",
+     "huineng"
+    ],
+    "中立": [
+     "williamson"
+    ],
+    "轻微反对": [
+     "jensen"
+    ]
+   }
+  },
+  {
+   "id": "p19",
+   "round": 3,
+   "thinker": "marx",
+   "reply_to": null,
+   "text": "我不反对分工，我反对只算账、不算人。给普通人两条。**签合同前先问清：你的雇主到底是谁，出了工伤谁赔，社保谁交**；转包链越长，越要白纸黑字。若你是发包的一方，哪怕只是请家政、叫外卖，也留意对方有没有保障，别只比价。往长远看，别把自己做成随时可替换的零件，掌握一段完整的工序，你才有谈条件的底气。",
+   "text_en": "I'm not against the division of labor. I'm against counting the money and not the people. Two things for ordinary people. **Before you sign, find out exactly who your employer is, who pays if you're hurt on the job, and who pays into your social insurance.** The longer the subcontracting chain, the more you need it in writing. If you're the one hiring, even just a cleaner or a delivery, pay some attention to whether that person is protected, not only to the price. And in the long run, don't let yourself become a part that can be swapped out at any moment. Master a whole stretch of the process, and you'll have the standing to bargain.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "huineng"
+    ],
+    "轻微赞同": [
+     "deming",
+     "adamsmith",
+     "wegner"
+    ],
+    "中立": [
+     "zhuangzi",
+     "williamson"
+    ],
+    "轻微反对": [
+     "jensen"
+    ]
+   }
+  },
+  {
+   "id": "p20",
+   "round": 3,
+   "thinker": "deming",
+   "reply_to": null,
+   "text": "外包的成败不在合同，在关系。普通人也用得上：**生活里挑少数几个『长期供应商』，固定的家庭医生、修车师傅、理发师、家政阿姨。**跟他们讲清你要什么，出了问题一起找原因，别一次不满意就换人。他们熟悉你的情况，常能在你开口之前就发现问题。换来换去，你每次都在从头教一个陌生人。",
+   "text_en": "Outsourcing succeeds or fails not on the contract but on the relationship. This works for ordinary people too: **choose a few 'long-term suppliers' in your life, a regular family doctor, mechanic, barber, housekeeper.** Tell them clearly what you need, and when something goes wrong, look for the cause together instead of switching the first time you're unhappy. Because they know your situation, they'll often spot a problem before you mention it. Keep switching, and every time you're teaching a stranger from scratch.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "williamson",
+     "huineng"
+    ],
+    "轻微赞同": [
+     "jensen",
+     "wegner",
+     "adamsmith"
+    ],
+    "中立": [
+     "marx",
+     "zhuangzi"
+    ]
+   }
+  },
+  {
+   "id": "p21",
+   "round": 3,
+   "thinker": "jensen",
+   "reply_to": null,
+   "text": "威廉姆森的四问我认，庄子的提醒我也收下。我的建议很简单：**拿张纸写下你身上最强、最难被替代的那一件事，那是绝不能外包的；其余的大胆交出去，省下的时间全砸回那一件上。**还不知道自己最强在哪，就先别急着外包，多去试几样难的。最后一条：最重要的那件事，开头往往没人看好，你得能独自扛过那几年。",
+   "text_en": "I accept Williamson's four questions, and I'll take Zhuangzi's warning too. My advice is simple. **Take a sheet of paper and write down the one thing you do best, the thing hardest to replace. That you never outsource. Hand off the rest boldly, and pour every hour you save back into that one thing.** If you don't yet know what you're best at, hold off on outsourcing and try a few hard things first. One last point: the thing that matters most usually starts with nobody believing in it. You have to be able to carry it alone through those years.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "williamson"
+    ],
+    "轻微赞同": [
+     "adamsmith",
+     "deming",
+     "wegner"
+    ],
+    "中立": [
+     "huineng",
+     "zhuangzi"
+    ],
+    "轻微反对": [
+     "marx"
+    ]
+   }
+  },
+  {
+   "id": "p22",
+   "round": 3,
+   "thinker": "zhuangzi",
+   "reply_to": null,
+   "text": "诸君所争，在外与不外。吾以为不在外与不外，而在**物物而不物于物**。驭物者，械可用，人可托，事可外；为物所驭者，虽事事躬亲，心亦已外。吾为世人言一法：凡将托事于人于械者，先自问：此事外之，吾心得闲乎，抑更忙乎？闲则外之，忙则止。",
+   "text_en": "You all argue over outsourcing or not. I think the point isn't whether, but this: **treat things as things, and don't be made a thing by them.** Whoever masters things may use machines, rely on others, hand tasks away. Whoever is mastered by things has a heart that's already gone outside, even if he does everything himself. Here is one method for everyone: whenever you're about to hand a task to a person or a machine, first ask yourself, once it's off my hands, will my heart be more at ease, or busier? If more at ease, hand it off. If busier, stop.",
+   "vernacular": "各位争的是外包还是不外包。我认为关键不在这里，而在**驾驭外物，而不被外物驾驭**。能驾驭外物的人，器械可以用，别人可以托付，事情可以交出去；被外物驾驭的人，就算事事亲力亲为，心也早就跑到外面去了。我给世人一个办法：每当要把事交给别人或机器，先问自己：交出去以后，我的心是更闲了，还是更忙了？更闲就交，更忙就停。",
+   "vernacular_en": "",
+   "glossary": {
+    "物物而不物于物": "master things, not be mastered by them（物物而不物于物）：出自《庄子·山木》，意为驾驭外物而不被外物所役使。"
+   },
+   "glossary_en": {
+    "treat things as things, and don't be made a thing by them": "From the 'Mountain Tree' chapter of the Zhuangzi: master external things without being mastered by them."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "huineng"
+    ],
+    "轻微赞同": [
+     "wegner",
+     "adamsmith",
+     "marx"
+    ],
+    "中立": [
+     "deming",
+     "williamson"
+    ],
+    "轻微反对": [
+     "jensen"
+    ]
+   }
+  },
+  {
+   "id": "p23",
+   "round": 3,
+   "thinker": "wegner",
+   "reply_to": null,
+   "text": "交互记忆不可怕，可怕的是忘了自己在外包。三条做法。**一，信息尽可以外包，但要记住『谁知道、去哪查』，并时常确认这条线还通。**二，每周挑一件靠工具完成的事，关掉工具复述一遍，讲不出的那部分就自己学回来。三，家里或团队分工久了，偶尔互换一次，免得某个人一走，整个系统跟着失忆。",
+   "text_en": "Transactive memory isn't the danger. Forgetting that you're outsourcing is. Three practices. **First, outsource information all you like, but remember who knows it and where to look, and check now and then that the line still works.** Second, once a week pick one thing you did with a tool, switch the tool off and explain it again; whatever you can't explain, learn back yourself. Third, when a household or team has divided the work for a long time, swap roles once in a while, so that when one person leaves the whole system doesn't lose its memory.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "deming"
+    ],
+    "轻微赞同": [
+     "huineng",
+     "zhuangzi",
+     "williamson",
+     "jensen"
+    ],
+    "中立": [
+     "marx",
+     "adamsmith"
+    ]
+   }
+  },
+  {
+   "id": "p24",
+   "round": 3,
+   "thinker": "huineng",
+   "reply_to": null,
+   "text": "诸君说了许多，老僧只留一句。身外之事，尽可托人；**吃饭须自吃，路须自行，心须自明。**何以辨之？凡交出去后，汝仍能为此负责者，外之无妨；交出去后，汝便不知其所以然、亦不愿知者，此即汝不可外之事。每日留一炷香时，不问人，不看经，独自坐坐，看此心在否。",
+   "text_en": "You've all said a great deal; this old monk leaves just one line. Outside matters can all be entrusted to others, but **you must eat your own meal, walk your own road, and see your own mind clearly.** How to tell the difference? If, after you hand something off, you can still answer for it, then handing it off does no harm. If, once it's handed off, you no longer know how it works and no longer care to, that is exactly what you must not hand off. Each day keep the time it takes an incense stick to burn: ask no one, read no sutra, just sit alone and see whether this mind is still there.",
+   "vernacular": "各位说了很多，老僧只留下一句。身外的事，尽可以托付别人；**饭要自己吃，路要自己走，心要自己明白。**怎么分辨呢？交出去以后，你仍然能对它负责的，交出去无妨；交出去以后，你就不知道它是怎么回事、也不想知道的，那正是你不能交出去的事。每天留一炷香的时间，不问人，不看经，独自坐一坐，看看这颗心还在不在。",
+   "vernacular_en": "",
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "zhuangzi",
+     "wegner"
+    ],
+    "轻微赞同": [
+     "deming",
+     "marx",
+     "adamsmith"
+    ],
+    "中立": [
+     "williamson",
+     "jensen"
+    ]
+   }
+  }
+ ],
+ "summaries": [
+  {
+   "ai": "claude",
+   "engine": "Opus 5.5 · 订阅(原生)",
+   "engine_en": "Opus 5.5 · subscription (native)",
+   "summary": "最大的共识出奇一致：**外包与否，取决于这件事是不是你的『命门』**。威廉姆森叫它专用资产，黄仁勋叫它最强的那一块，韦格纳叫它判断力，慧能叫它本心。通用、可替换、少发生的事，放心交出去；专用、天天用、做久了会长成本事的，自己握着。分歧在两处：一是外包关系靠什么维系，威廉姆森靠合同与所有权，戴明靠长期信任；二是代价落在谁身上，斯密看到穷国家庭第一次有了稳定工资，马克思看到风险沿着转包链压到最弱的人。庄子则提醒，被换掉的可能是用工具的那颗心。",
+   "summary_en": "The strongest consensus was surprisingly unanimous: **whether to outsource depends on whether the task is your lifeline.** Williamson calls it a specialized asset, Jensen Huang your strongest piece, Wegner judgment, Huineng the original mind. Generic, replaceable, infrequent tasks can safely go; specialized, daily tasks that grow into real skill if you keep doing them should stay. The disagreements came in two places. One is what holds an outsourcing relationship together: Williamson relies on contracts and ownership, Deming on long-term trust. The other is who bears the cost: Smith sees families in poor countries earning a steady wage for the first time, Marx sees risk pushed down the subcontracting chain onto the weakest. Zhuangzi adds that what gets replaced may be the heart of whoever uses the tool.",
+   "insight": "全场默认『命门』是事先看得清的，现实里它会迁移。**今天被当成边角料外包出去的事，常常正是明天的核心所在**：客服、售后、数据整理被当作非核心交出去，可它们恰是听见用户抱怨、发现新需求的第一线，等这些信息变得要紧，已经没有自己人在听了。黄仁勋的 CUDA 起初也没人当它是核心。个人也一样，替你回邮件、筛消息的工具，也替你过滤了线索。所以外包前还该问一句：**这件事是否源源不断地产生信息？**若是，至少留一条直达自己的回路。",
+   "insight_en": "The whole room assumed you can see your lifeline in advance. In reality it moves. **What gets outsourced today as peripheral is often exactly where tomorrow's core lies.** Customer service, after-sales and data cleanup are handed off as non-core, yet they're the front line where you hear complaints and spot new needs; by the time that information matters, nobody of your own is listening. Nobody treated Jensen Huang's CUDA as core at first, either. The same goes for individuals: the tools that answer your email and screen your messages are also filtering your signals. So before outsourcing, ask one more question: **does this task keep producing information?** If it does, keep at least one line running straight back to you.",
+   "advice": "这周可以做两件事。第一，**把生活里外包出去的事列一张表**：家务、做饭、理财、孩子的作业辅导、交给 AI 的写作，每一项旁边按威廉姆森的四问打勾——换人在不在乎、能否马上换、多常发生、会不会长成本事。第二，挑一项已外包、又不断产生信息的事亲自看一回：读一遍孩子的作业和老师评语，或自己核一次账单，看看有什么是别人替你漏掉的。若你是接活的一方，照马克思说的，先问清谁赔工伤、谁交社保。",
+   "advice_en": "Two things to try this week. First, **list everything in your life you've outsourced**: housework, cooking, investing, homework help for your kids, writing you hand to AI. Next to each, run Williamson's four questions: would you mind someone else doing it, could you switch right away, how often does it come up, would it grow into a skill. Second, pick one outsourced task that keeps generating information and look at it yourself: read through your child's homework and the teacher's comments, or check a bill line by line, and see what others have been missing on your behalf. And if you're the one taking on the work, do as Marx says: find out first who pays for injuries and who pays into your social insurance."
+  },
+  {
+   "ai": "gpt",
+   "engine": "openai · gpt-5.6-sol · high(真实API)",
+   "engine_en": "openai · gpt-5.6-sol · high (live API)",
+   "summary": "把任务交给别人，并不等于把责任、判断和成长一并交出去；这是整场讨论共同守住的底线。**真正适合外包的是可标准化的执行，而不是决定方向、验收结果和承担后果的能力。**分歧主要在判断尺度：有人看效率与专业化，有人看资产专用性、交易成本和供应关系，也有人追问劳动风险、认知退化与内在自主。因而问题不是抽象地赞成或反对外包，而是外包后是否仍可监督、可替换、可恢复，以及收益能否公平覆盖新增风险。",
+   "insight": "外包最容易漏算的，不是当期价格，而是“回头路”的成本。服务商停业、平台封号、同事离职或 AI 出错时，若数据拿不回、流程没人懂、基本功已荒废，原本便宜的安排会突然变成昂贵的锁定。**因此，外包决策应增加一个核心指标：我能否在可接受的时间和代价内接管、迁移或更换？**这并不要求凡事亲做，而是要保留最低接管能力、资料所有权和替代入口。可逆性越差，越该小步试用、双重备份，并为退出预留时间与资金。",
+   "advice": "1. 今天列出常做的十件事，按“影响大小、替换难度、是否会长成本事”各打1—5分；高影响、高锁定或高学习价值的，暂不完全外包。2. 本周挑一项低风险事务试外包两周，事先写清交付物、验收标准、总成本和失败后的接管办法，不只比较报价。3. 对已外包的关键事项做一次“断供演练”：不用原来的人或工具，尝试完成最小版本，并导出联系人、账目、密码恢复方式和操作步骤。**可以交出工作量，但要把验收权、数据和退路留在自己手里。**",
+   "summary_en": "Delegating a task does not mean surrendering responsibility, judgment, or the chance to grow; that is the strongest common ground in the discussion. **What should be outsourced is standardized execution, not the capacity to set direction, judge the result, and own the consequences.** The real disagreements concern which test matters most. One view emphasizes specialization and productivity; another stresses transaction costs, supplier dependence, and long-term relationships. Others foreground labor protections, loss of know-how, or personal autonomy. Outsourcing is therefore neither inherently enlightened nor inherently exploitative. Its value depends on the particular task and arrangement: whether performance can be observed, providers can realistically be replaced, capabilities can be recovered, and the gains are large enough—and fairly distributed enough—to justify the new risks. A low bid may still be expensive if it destroys learning, weakens accountability, or leaves the buyer unable to function when the relationship ends.",
+   "insight_en": "The cost most often omitted is not today’s fee but the price of finding a way back. If a vendor closes, a platform locks an account, a colleague leaves, or an AI system fails, a seemingly efficient arrangement can become a trap: the data are inaccessible, nobody understands the workflow, and the underlying skill has decayed. **Every outsourcing decision therefore needs a reversibility test: can I take over, migrate, or switch providers within an acceptable time and cost?** This does not mean doing everything yourself. It means retaining a minimum viable ability to intervene, ownership or export rights over essential data, and at least one credible alternative. The less reversible an arrangement is, the more cautiously it should begin—with a pilot, explicit handover requirements, backups, and resources reserved for exit. Reversibility is a practical form of freedom: it allows people to benefit from specialization without turning convenience into permanent dependence.",
+   "advice_en": "1. Today, list ten recurring tasks and score each from one to five on impact, difficulty of switching, and learning value. Keep direct control of items that are high-impact, hard to replace, or central to your future competence. 2. This week, run a two-week outsourcing trial on one low-risk task. Before starting, write down the deliverable, acceptance criteria, full cost—including coordination time—and the fallback if it fails. Compare results, not just prices. 3. For one important task you already outsource, conduct an outage drill: work without that person or tool and complete the smallest viable version yourself. Export contacts, records, account-recovery methods, and a short operating checklist. **You can delegate the workload, but keep the right to inspect, the data needed to move, and a workable exit.** If the drill exposes a gap, schedule one hour this week to close the smallest critical one rather than trying to relearn everything."
+  },
+  {
+   "ai": "gemini",
+   "engine": "降级:Opus 扮演(API 不可达)",
+   "engine_en": "fallback: Opus role-play (API unreachable)",
+   "summary": "共识在于：**把通用的事交出去、把专用的本事留在手里**，是从企业到个人都适用的底线；而外包关系能否长久，取决于双方是否愿意为对方投入。分歧在于外包究竟让谁受益：斯密和黄仁勋看到效率与专业化把蛋糕做大，马克思看到风险被一层层推给最没有议价能力的人。戴明与威廉姆森在『信任还是合同』上针锋相对，庄子、慧能和韦格纳则从人心、觉悟与记忆的角度提醒：有些东西一旦交出去，人自己也跟着变了。",
+   "summary_en": "The consensus: **hand off what is generic and keep specialized skills in your own hands.** That holds as a baseline for companies and individuals alike, and whether an outsourcing relationship lasts depends on both sides being willing to invest in each other. The disagreement is over who actually benefits. Smith and Jensen Huang see efficiency and specialization growing the pie; Marx sees risk pushed, layer by layer, onto those with the least bargaining power. Deming and Williamson clash over trust versus contracts, while Zhuangzi, Huineng and Wegner warn, from the angles of the heart, awakening and memory, that some things change the person once they're handed away.",
+   "insight": "Claude 与多数发言者把外包看成『省下时间』，却低估了**外包本身就是一份工作**：找人、比较、交代、检查、出了问题去沟通。在家庭里，这份『管理外包的劳动』常常无声地落在一个人身上，多数时候是母亲。请了保姆、报了托管、订了生鲜，看似家务少了，记挂与协调一点没少。所以判断一项外包划不划算，不能只看付出的钱和省下的工时，还得把**谁来操心**算进去，并在家里把这份操心明确分下去。",
+   "insight_en": "Claude and most of the speakers treated outsourcing as 'saving time', but underestimated that **outsourcing is itself a job**: finding someone, comparing, briefing, checking, sorting things out when they go wrong. In a household, this labor of managing the outsourcing often falls silently on one person, most often the mother. With a nanny hired, after-school care booked and groceries on subscription, there seems to be less housework, yet the worrying and coordinating haven't shrunk at all. So when judging whether outsourcing something is worth it, count not only the money spent and the hours saved but also **who carries the mental load**, and divide that load explicitly at home.",
+   "advice": "**先把『谁来操心』摆上桌面。**和家人一起列出本周所有外包出去的事，每项后面写上谁负责对接，若操心都压在一个人身上，当场改派几项。对家政、接送这类反复发生的安排，照戴明说的，尽量固定少数几个长期合作的人，再写一份共享的固定说明，免得每次从头交代。每月花十分钟复盘：哪项外包真省了心，哪项只是把劳动换了个样子；后一种，考虑收回或换个做法。",
+   "advice_en": "**Start by putting 'who does the worrying' on the table.** Sit down with your family and list everything you outsourced this week, noting who handles each one; if all the worrying falls on one person, reassign some of it on the spot. For recurring arrangements like housekeeping or school pickups, do as Deming suggests: stick with a few long-term people where you can, and write one shared set of standing instructions so nobody has to explain from scratch each time. Spend ten minutes a month reviewing which outsourcing genuinely took a load off your mind and which just changed the shape of the work; for the latter, consider taking it back or doing it differently."
+  }
+ ],
+ "hooks": [
+  {
+   "from": "claude",
+   "text": "**生活里哪些该外包**：家务、做饭、报税、孩子的作业、交给 AI 的写作和理财，按威廉姆森的四问逐项过一遍，会得出什么？",
+   "text_en": "**What in daily life should you outsource?** Run housework, cooking, taxes, your kids' homework, writing you hand to AI, and investing through Williamson's four questions one by one. What comes out?",
+   "answer": {
+    "lead": "按四问（换人在不在乎？能马上换吗？多常发生？会长成本事吗？）过一遍，大致如下：",
+    "table": {
+     "head": [
+      "事情",
+      "建议",
+      "为什么"
+     ],
+     "rows": [
+      [
+       "保洁、搬家、修家电",
+       "放心外包",
+       "通用、随时能换人，自己做也长不出本事"
+      ],
+      [
+       "报税、记账",
+       "外包执行，自己看懂结果",
+       "不常发生，但关乎你的钱，你得能判断对错"
+      ],
+      [
+       "日常做饭",
+       "至少留一两道拿手菜",
+       "天天发生、关乎健康，手艺丢了很难捡回"
+      ],
+      [
+       "孩子的作业辅导",
+       "可外包讲题，别外包陪伴",
+       "讲题通用；孩子跟谁说心里话，换不了人"
+      ],
+      [
+       "写邮件、写报告交给 AI",
+       "可以起草，自己定稿",
+       "表达与判断是职业核心，长期不写就不会写了"
+      ],
+      [
+       "理财",
+       "可买通用产品，决定权留给自己",
+       "产品通用；你的目标和能扛多大风险，只有你知道"
+      ]
+     ]
+    },
+    "tail": "两条原则：**交出去的可以是手，不能是判断**；**收回来越贵的事，越要自己留一点手感。**"
+   },
+   "answer_en": {
+    "lead": "Running the four questions (would you mind someone else doing it? can you switch right away? how often does it come up? would it grow into a skill?) gives roughly this:",
+    "table": {
+     "head": [
+      "Task",
+      "Advice",
+      "Why"
+     ],
+     "rows": [
+      [
+       "Cleaning, moving, appliance repair",
+       "Outsource freely",
+       "Generic, easy to switch providers, and doing it yourself builds no real skill"
+      ],
+      [
+       "Taxes, bookkeeping",
+       "Outsource the doing, understand the result",
+       "Infrequent, but it's your money, so you must be able to tell right from wrong"
+      ],
+      [
+       "Everyday cooking",
+       "Keep at least one or two dishes you're good at",
+       "Daily and tied to your health; once the skill is gone it's hard to recover"
+      ],
+      [
+       "Kids' homework help",
+       "Outsource the tutoring, not the being there",
+       "Explaining problems is generic; who your child confides in can't be swapped"
+      ],
+      [
+       "Emails and reports handed to AI",
+       "Let it draft; you write the final version",
+       "Expression and judgment are core to your work; stop writing and you lose the ability"
+      ],
+      [
+       "Investing",
+       "Buy generic products, keep the decisions",
+       "Products are generic; only you know your goals and how much risk you can bear"
+      ]
+     ]
+    },
+    "tail": "Two principles: **you can hand off the hands, never the judgment**; and **the costlier something is to take back, the more you should keep a feel for it yourself.**"
+   }
+  },
+  {
+   "from": "claude",
+   "text": "**命门会迁移**：客服、售后、数据整理常被当非核心外包出去，却是听见用户的第一线。外包之后，怎么保住一条直达自己的信息回路？",
+   "text_en": "**The lifeline moves**: customer service, after-sales and data cleanup are routinely outsourced as non-core, yet they're where you hear your users first. Once they're outsourced, how do you keep an information line running straight back to you?"
+  },
+  {
+   "from": "gpt",
+   "text": "**断供演练**：服务商停业、账号被封、同事离职、AI 出错时，你能不能在可接受的代价内接手？数据、流程与退路该怎么提前留？",
+   "text_en": "**A cut-off drill**: if a vendor shuts down, an account gets locked, a colleague quits or the AI fails, could you take over at an acceptable cost? How should you keep your data, processes and exit route ready in advance?"
+  },
+  {
+   "from": "gemini",
+   "text": "**谁来操心**：请了保姆、报了托管，找人、交代、检查的『管理劳动』却常压在一个人身上。家里这份操心该怎么分？",
+   "text_en": "**Who carries the mental load?** The nanny is hired and after-school care booked, but finding, briefing and checking up often all fall on one person. How should a household divide that load?"
+  },
+  {
+   "from": "wegner",
+   "text": "**关掉工具还讲得清吗**：查得到让人误以为自己懂。哪些知识值得装进脑子，哪些可以放心交给手机和 AI？",
+   "text_en": "**Can you still explain it with the tools off?** Being able to look things up fools us into thinking we know them. What knowledge is worth keeping in your head, and what can safely live in your phone and AI?"
+  },
+  {
+   "from": "marx",
+   "text": "**一份活转了几手**：从发包方到真正干活的人，中间隔了几层、各抽走多少、出事谁兜底？普通人怎样看清一条转包链？",
+   "text_en": "**How many hands has the job passed through?** Between the client and the person actually doing the work, how many layers are there, how much does each take, and who's left holding the bag when something goes wrong? How can an ordinary person see a subcontracting chain clearly?"
+  }
+ ]
+}

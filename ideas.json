@@ -99,16 +99,6 @@
       "brief": "选角方向：罗尔斯（万民法不等于全球差异原则）、桑德尔（共同体）、阿马蒂亚·森、哈耶克、康德（世界公民权/友好权）、伊本·赫勒敦（群体凝聚力）、阿伦特（无国籍者）。"
     },
     {
-      "id": "why-science-stalled",
-      "votes": 0,
-      "q": "科学为什么在一些文明停下了？",
-      "q_en": "Why did science stall in some civilizations?",
-      "note": "九到十二世纪，巴格达与科尔多瓦的代数、光学和医学领先世界，科学革命却发生在欧洲。是安萨里压倒了阿威罗伊，是制度与印刷，还是偶然？",
-      "note_en": "From the ninth to the twelfth century, Baghdad and Córdoba led the world in algebra, optics and medicine, yet the Scientific Revolution happened in Europe. Did al-Ghazali defeat Averroes, was it institutions and printing, or chance?",
-      "cat": "meta",
-      "brief": "选角方向：阿维森纳、阿威罗伊、安萨里（三位冷板凳一起点亮）、伊本·赫勒敦、伽利略、牛顿、韦伯（新教伦理）、戴蒙德（地理）。也可延伸到中国的李约瑟之问。"
-    },
-    {
       "id": "trust-in-science",
       "votes": 0,
       "q": "相信科学，也是一种信仰吗？",
@@ -137,6 +127,16 @@
       "note_en": "Naval says desire is a contract you make with yourself to be unhappy until you get what you want. Yet the pursuit itself is often where happiness lives. Should desire be extinguished, or only the clause that says no happiness until you get it?",
       "cat": "self",
       "brief": "选角方向：纳瓦尔（契约说）、叔本华（痛苦与无聊的钟摆）、斯宾诺莎（欲望是人的本质、快乐是力量增长）、世亲（渴爱 tanhā vs 善欲 chanda，替代近期出场过多的佛陀）、契克森米哈伊（心流：有目标的投入）、爱比克泰德/塞涅卡（保留条款：全力追、结果交出去）、伊壁鸠鲁（自然而必要的欲望）。可选神经科学视角：『想要』与『喜欢』是两套系统。检验题：这个欲望让今天的事更有劲，还是让今天变成等待的日子？与已辩『极简/少欲』『越想要越得不到』区分：焦点是欲望与快乐的因果方向，不是该不该少要、怎么要到。"
+    },
+    {
+      "id": "hands-vs-heads",
+      "votes": 0,
+      "q": "动手的活，为什么不如动脑的体面？",
+      "q_en": "Why is working with your hands less respected than working with your head?",
+      "note": "修车、做饭、装修收入未必低，却常被看作『没读好书』的退路。脑力与体力的高下之分从何而来，它让社会失去了什么？",
+      "note_en": "Mechanics, cooks and builders don't necessarily earn less, yet their work is often seen as the fallback for people who didn't do well in school. Where does the ranking of mental over manual work come from, and what does a society lose because of it?",
+      "cat": "ethics",
+      "brief": "引子：齐尔塞尔命题（科学革命来自学者与工匠的会合）；马修·克劳福德《摩托车修理店的未来工作哲学》；孔子『樊迟请学稼』与『君子不器』；亚里士多德对 banausic 劳动的轻视；马克思论脑体分工。"
     }
   ],
   "debated": [
@@ -1336,6 +1336,13 @@
       "q_en": "Can we accept ourselves and change ourselves at once?",
       "date": "2026-11-10",
       "cat": "self"
+    },
+    {
+      "id": "why-science-stalled",
+      "q": "科学为什么在一些文明停下了？",
+      "q_en": "Why did science stall in some civilizations?",
+      "date": "2026-11-11",
+      "cat": "meta"
     }
   ]
 }

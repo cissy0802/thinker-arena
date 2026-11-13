@@ -2,15 +2,6 @@
   "_comment": "议题投票数据。candidates=未辩候选(供投票)，debated=已辩(链到辩论)。投票免 GitHub 登录，存于自建后端(Cloudflare Worker + D1，见 ~/Desktop/cissy0802.github.io/engage-backend/)：每候选一个 poll，key='topic:'+id，choice up/down，净票=👍−👎。votes 字段由 routine 每次跑 `python3 refresh_votes.py`(读后端 /votes-net) 回写；页面 ideas.js 也会实时拉取覆盖显示。观众自提议题在评论 page='thinker-open-questions'，各候选下讨论 page='topic:'+id——routine 读这些把好提案提炼成新 candidates。新候选加进 candidates 即可。",
   "candidates": [
     {
-      "id": "beyond-the-commons-tragedy",
-      "votes": 0,
-      "q": "公地悲剧，只能靠私有或国管吗？",
-      "q_en": "Is the tragedy of the commons solved only by private property or the state?",
-      "note": "哈丁说公共资源注定被耗尽，解法只有私有化或政府管。奥斯特罗姆在瑞士牧场、尼泊尔水渠、缅因龙虾渔场里找到了第三条路：没有中心的社区自治。它靠什么撑住，又在什么规模上失灵？",
-      "note_en": "Hardin said shared resources are doomed to exhaustion unless privatised or run by the state. In Swiss pastures, Nepali canals and Maine lobster grounds, Elinor Ostrom found a third way: self-governing communities with no centre. What holds them together, and at what scale do they fail?",
-      "cat": "ethics"
-    },
-    {
       "id": "plan-or-connect-the-dots",
       "votes": 0,
       "q": "人生该规划，还是走着瞧？",
@@ -1340,6 +1331,13 @@
       "q_en": "What do parents live for once the kids leave?",
       "date": "2026-11-12",
       "cat": "life"
+    },
+    {
+      "id": "beyond-the-commons-tragedy",
+      "q": "公地悲剧，只能靠私有或国管吗？",
+      "q_en": "Is the tragedy of the commons solved only by private property or the state?",
+      "date": "2026-11-13",
+      "cat": "ethics"
     }
   ]
 }

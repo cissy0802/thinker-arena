@@ -10438,6 +10438,68 @@
       "lineage_en": "With her husband Vincent Ostrom she founded the Bloomington School, drawing on Tocqueville's observations of township self-government and voluntary association in America and on the multi-level governance of the Federalist Papers, in dialogue with public choice scholars such as Buchanan and Tullock. Her work shaped community forestry, fisheries management, watershed governance and development policy, and has extended to newer fields such as knowledge commons, open-source software and internet governance.",
       "trivia": "她曾回忆，读研究生时有人劝她别读经济学博士，理由是她本科数学底子不够——几十年后，她成了首位获得诺贝尔经济学奖的女性。获奖后，她把奖金捐给了自己创办的研究所。她和文森特都喜欢动手做木工，多年在加拿大马尼图林岛度夏，那里的小屋凝结着两人的手艺。",
       "trivia_en": "She recalled being advised as a graduate student not to pursue a doctorate in economics because her undergraduate mathematics was too thin; decades later she became the first woman to win the Nobel Prize in Economics. She gave the prize money to the research workshop she had co-founded. She and Vincent both loved woodworking, and for many years spent their summers on Manitoulin Island in Canada, in a cabin that bore the marks of their own craftsmanship."
+    },
+    "hasson": {
+      "bio": "乌里·哈森(Uri Hasson)，以色列裔美国认知神经科学家，普林斯顿大学心理学系与普林斯顿神经科学研究所教授。他在以色列魏茨曼科学研究所获得博士学位，师从视觉神经科学家拉斐尔·马拉赫，随后在纽约大学做博士后研究。他最为人知的贡献，是把脑成像实验从闪烁的方块、按键反应这类高度简化的刺激，带进看电影、听故事、真实对话这样的自然情境，并发展出『被试间相关』等分析方法，用来测量不同的大脑对同一段经验反应得有多一致。他关于讲者与听者『脑际耦合』的研究，以及 2016 年的 TED 演讲，让『沟通在大脑里是什么样子』成了一个可以测量的问题。近年他还把深度语言模型与人脑并置比较，追问两者处理语言的计算原理有何异同。",
+      "bio_en": "Uri Hasson is an Israeli-American cognitive neuroscientist, a professor in the Department of Psychology and the Princeton Neuroscience Institute at Princeton University. He earned his doctorate at the Weizmann Institute of Science in Israel under the visual neuroscientist Rafael Malach, then did postdoctoral work at New York University. He is best known for taking brain-imaging experiments out of highly simplified stimuli, flashing checkerboards and button presses, and into natural situations such as watching films, listening to stories and holding real conversations, and for developing analysis methods such as inter-subject correlation to measure how similarly different brains respond to the same experience. His work on brain-to-brain coupling between speakers and listeners, together with a 2016 TED talk, made 'what communication looks like in the brain' a measurable question. More recently he has set deep language models alongside the human brain to ask how far their computational principles for processing language coincide.",
+      "ideas": "哈森的出发点是一个方法上的不满：传统的脑成像实验为了控制变量，给被试看的是闪烁的格子、孤立的单词，再按一下按钮。这样得到的结论干净，却离真实生活很远——人在生活里看的是连续的画面，听的是有情节的故事，说的是你来我往的话。问题在于，真实刺激太复杂，研究者没法事先写出一个模型去预测大脑每一刻该怎么反应。\n\n他的解法很巧妙，叫『被试间相关』：既然没法给刺激建模，就拿另一个人的大脑当模型。2004 年，他让一组人在扫描仪里看同一段电影（赛尔乔·莱昂内的西部片《黄金三镖客》），发现大片皮层在不同观众之间同步起伏：枪声响起、人脸出现、剧情转折时，许多人的同一脑区一起被点亮。这说明在自然情境里，大脑对共同经验的反应高度一致。这一方法后来成为自然情境神经影像的基础工具之一。\n\n第二条线索是『时间感受窗』。他和同事把一段故事打乱成不同粒度——打乱单词、打乱句子、打乱段落——再比较大脑的反应。结果像一座金字塔：靠近听觉入口的脑区只在乎眼前几十毫秒的声音，怎么打乱都照样反应；越往高处，脑区整合的时间越长，要连贯的句子、甚至连贯的段落才会有稳定反应。可以把它想成读书：有的部分在认字，有的在读句子，有的在追情节。这为『大脑如何把一刻刻的信息累积成意义』提供了一幅分层的图景。\n\n第三条、也是他最知名的发现，是『讲者—听者神经耦合』(2010)。他们先让一个人在扫描仪里即兴讲一段亲身经历，再把录音放给另一组人听。听者的脑活动会追随讲者，在时间上略有延迟地同步起伏；耦合得越强，听者事后的理解测验成绩越好；理解最好的人，某些脑区甚至会比讲者提前一步，像在预测接下来要说什么。如果把故事换成听者不懂的语言，耦合就消失了。由此他提出：沟通不是把信息从一个脑袋『发送』到另一个脑袋，而是两个大脑在一段时间里被耦合成一个系统。\n\n他进一步追问，对齐的究竟是什么。一项实验把同一个故事讲给两组人听，但事先给他们不同的背景信息，两组人对故事的解读分道扬镳，高级脑区的活动也随之分开；另一项实验让英语和俄语母语者各自听同一个故事的母语版本，尽管听到的声音完全不同，高级脑区却呈现相似的反应。合起来看：**大脑对齐的不是字句，而是意义与解读**。\n\n近年来，他把这条思路接到人工智能上：用颅内电极记录人听故事时的大脑信号，与深度语言模型对同一故事的内部表征相比，发现两者都在做『预测下一个词』、并用上下文来理解词义——这提示人脑与语言模型可能共享某些计算原则，同时也引发关于两者差异的新问题。他的研究的分量在于：把『共同理解』这种过去只能靠描述的东西，变成了可以在实验室里测量的量。",
+      "ideas_en": "Hasson's starting point is a methodological dissatisfaction. To control variables, traditional brain-imaging experiments show people flashing grids or isolated words and ask them to press a button. The conclusions are clean but far from real life, where people watch continuous scenes, listen to stories with plots and hold conversations that go back and forth. The trouble is that real stimuli are so complex that no researcher can write a model in advance predicting how the brain should respond at each moment.\n\nHis solution is ingenious and goes by the name inter-subject correlation: if you can't model the stimulus, use another person's brain as the model. In 2004 he had a group of people watch the same stretch of film in the scanner (Sergio Leone's western The Good, the Bad and the Ugly) and found that large areas of cortex rose and fell in sync across viewers: when a gunshot rang out, a face appeared or the plot turned, the same regions lit up in many people at once. In natural conditions, brains respond to shared experience in strikingly consistent ways. The method went on to become one of the basic tools of naturalistic neuroimaging.\n\nA second thread is temporal receptive windows. He and his colleagues scrambled a story at different grain sizes (words shuffled, sentences shuffled, paragraphs shuffled) and compared the brain's responses. The result looks like a pyramid. Regions near the auditory entry point care only about the last few tens of milliseconds of sound and respond the same however the story is scrambled; further up, regions integrate over longer stretches, responding reliably only to coherent sentences or even coherent paragraphs. Think of reading: one part is recognising letters, another reading sentences, another following the plot. It gives a layered picture of how the brain accumulates moment-by-moment input into meaning.\n\nThe third thread, and his best-known finding, is speaker–listener neural coupling (2010). A person in the scanner told an unrehearsed story from their own life, and the recording was then played to other people. The listeners' brain activity tracked the speaker's, rising and falling in step after a short delay; the stronger the coupling, the better the listeners did on a comprehension test afterwards; and in the best comprehenders some regions even ran slightly ahead of the speaker, as if anticipating what came next. Play a story in a language the listener doesn't know and the coupling vanishes. From this he argues that communication isn't the 'sending' of information from one head to another, but two brains becoming coupled into a single system for a stretch of time.\n\nHe went on to ask what exactly gets aligned. In one experiment, two groups heard the same story after being given different background information; their interpretations diverged, and so did activity in higher brain regions. In another, native English and Russian speakers each heard the same story in their own language; although the sounds were completely different, the higher regions responded similarly. Taken together: **brains align not on words but on meaning and interpretation.**\n\nMore recently he has carried this line of work into artificial intelligence. Comparing intracranial recordings of people listening to a story with a deep language model's internal representations of the same story, he and his colleagues found that both predict the next word and use context to make sense of words, suggesting that the human brain and language models may share certain computational principles, while raising new questions about how they differ. The weight of his work lies in turning shared understanding, something that once could only be described, into a quantity that can be measured in the lab.",
+      "assessments": [
+        {
+          "by": "神经科学界",
+          "text": "他 2004 年在《科学》发表的被试间同步研究，被普遍视为自然情境神经影像的奠基论文之一：它证明了不必事先为复杂刺激建模，也能从真实经验中读出可靠的大脑反应。"
+        },
+        {
+          "by": "认知科学与传播研究",
+          "text": "他与合作者 2012 年提出的『脑际耦合』框架，把沟通重新表述为两个大脑之间的耦合过程，被教育、心理治疗、群体互动等领域的多脑同步研究广泛引用和延伸。"
+        },
+        {
+          "by": "方法论上的审慎意见",
+          "text": "也有研究者提醒：大脑同步本身未必等于理解或沟通成功，共同的刺激、注意水平乃至生理节律都可能造成相关——如何区分这些来源，一直是该领域讨论的焦点，他本人的研究也通过多种对照条件处理这一问题。"
+        }
+      ],
+      "assessments_en": [
+        {
+          "by": "The neuroscience community",
+          "text": "His 2004 Science paper on inter-subject synchronisation is widely regarded as one of the founding papers of naturalistic neuroimaging: it showed that reliable brain responses can be read out of real experience without first modelling a complex stimulus."
+        },
+        {
+          "by": "Cognitive science and communication research",
+          "text": "The brain-to-brain coupling framework he set out with collaborators in 2012 recast communication as a coupling process between two brains, and has been widely cited and extended in multi-brain synchrony research on education, psychotherapy and group interaction."
+        },
+        {
+          "by": "Methodological caution",
+          "text": "Other researchers have cautioned that neural synchrony is not in itself proof of understanding or successful communication, since a shared stimulus, levels of attention and even physiological rhythms can all produce correlations. Telling these sources apart has remained a central question in the field, and his own studies address it through a range of control conditions."
+        }
+      ],
+      "quotes": [
+        "（大意）沟通时，听者的大脑会与讲者的大脑耦合起来；理解得越好，耦合得越强。",
+        "（大意）沟通不是一个大脑把信息发给另一个大脑，而是两个大脑共同完成的一件事。",
+        "（大意）要理解一个大脑，常常得看它如何与其他大脑互动。"
+      ],
+      "quotes_en": [
+        "(paraphrased) When we communicate, the listener's brain becomes coupled to the speaker's; the better the understanding, the stronger the coupling.",
+        "(paraphrased) Communication isn't one brain sending information to another; it is something two brains do together.",
+        "(paraphrased) To understand a brain, you often have to look at how it interacts with other brains."
+      ],
+      "works": [
+        "《自然视觉中皮层活动的被试间同步》（Intersubject Synchronization of Cortical Activity During Natural Vision，《科学》，2004，合著）",
+        "《人类皮层中的时间感受窗层级》（A Hierarchy of Temporal Receptive Windows in Human Cortex，《神经科学杂志》，2008，合著）",
+        "《讲者—听者神经耦合是成功沟通的基础》（Speaker–Listener Neural Coupling Underlies Successful Communication，《美国国家科学院院刊》，2010，合著）",
+        "《脑际耦合：创造与共享社会世界的机制》（Brain-to-Brain Coupling: A Mechanism for Creating and Sharing a Social World，《认知科学趋势》，2012，合著）",
+        "TED 演讲《这是你沟通时的大脑》（This Is Your Brain on Communication，2016）"
+      ],
+      "works_en": [
+        "'Intersubject Synchronization of Cortical Activity During Natural Vision' (Science, 2004, co-authored)",
+        "'A Hierarchy of Temporal Receptive Windows in Human Cortex' (Journal of Neuroscience, 2008, co-authored)",
+        "'Speaker–Listener Neural Coupling Underlies Successful Communication' (PNAS, 2010, co-authored)",
+        "'Brain-to-Brain Coupling: A Mechanism for Creating and Sharing a Social World' (Trends in Cognitive Sciences, 2012, co-authored)",
+        "TED talk 'This Is Your Brain on Communication' (2016)"
+      ],
+      "lineage": "他在魏茨曼科学研究所师从研究视觉皮层的拉斐尔·马拉赫，博士后时期在纽约大学与大卫·黑格尔等人合作，继承了视觉神经科学严格的成像方法，又把它用到电影、故事和对话上。他的『沟通是双方共同完成』的看法，与心理语言学中把对话视为双方协同建立『共同基础』的传统相互呼应。他的方法与框架影响了自然情境神经影像、多人同时扫描的多脑同步研究，以及用深度语言模型解读人脑语言处理的新方向。",
+      "lineage_en": "At the Weizmann Institute he trained under Rafael Malach, who studies the visual cortex, and as a postdoc at NYU he worked with David Heeger among others, inheriting the rigorous imaging methods of visual neuroscience and turning them on films, stories and conversation. His view of communication as something both parties accomplish together echoes the psycholinguistic tradition that treats dialogue as the joint building of 'common ground'. His methods and framework have shaped naturalistic neuroimaging, multi-brain synchrony research that scans several people at once, and the newer effort to interpret the brain's language processing through deep language models.",
+      "trivia": "他 2004 年那项研究让被试在扫描仪里看的是赛尔乔·莱昂内的西部片《黄金三镖客》。一部拍得好的电影能让不同观众的大脑『步调一致』，他和同事后来据此写了一篇论文，半开玩笑地把这种研究叫作『神经电影学』(neurocinematics)。",
+      "trivia_en": "In his 2004 study, the film participants watched in the scanner was Sergio Leone's western The Good, the Bad and the Ugly. A well-made film can bring different viewers' brains into step, and he and his colleagues later wrote a paper that half-jokingly named this line of research 'neurocinematics'."
     }
   }
 }

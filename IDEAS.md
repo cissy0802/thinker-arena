@@ -207,6 +207,7 @@
 - [x] 接纳自己和改变自己，能同时做到吗？ — 2026-11-10  <!--accept-and-change-->
 - [ ] 动手的活，为什么不如动脑的体面？  <!--hands-vs-heads-->
 - [ ] 身体会思考吗？  <!--does-the-body-think-->
+- [ ] 越懂行，越容易看不见吗？  <!--expertise-blindness-->
 
 ---
 

@@ -206,6 +206,7 @@
 - [ ] 欲望是快乐的敌人，还是燃料？  <!--desire-enemy-or-fuel-->
 - [x] 接纳自己和改变自己，能同时做到吗？ — 2026-11-10  <!--accept-and-change-->
 - [ ] 动手的活，为什么不如动脑的体面？  <!--hands-vs-heads-->
+- [ ] 身体会思考吗？  <!--does-the-body-think-->
 
 ---
 

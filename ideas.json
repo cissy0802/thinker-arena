@@ -2,15 +2,6 @@
   "_comment": "议题投票数据。candidates=未辩候选(供投票)，debated=已辩(链到辩论)。投票免 GitHub 登录，存于自建后端(Cloudflare Worker + D1，见 ~/Desktop/cissy0802.github.io/engage-backend/)：每候选一个 poll，key='topic:'+id，choice up/down，净票=👍−👎。votes 字段由 routine 每次跑 `python3 refresh_votes.py`(读后端 /votes-net) 回写；页面 ideas.js 也会实时拉取覆盖显示。观众自提议题在评论 page='thinker-open-questions'，各候选下讨论 page='topic:'+id——routine 读这些把好提案提炼成新 candidates。新候选加进 candidates 即可。",
   "candidates": [
     {
-      "id": "why-we-punish",
-      "votes": 0,
-      "q": "惩罚坏人，是为了公道还是为了解气？",
-      "q_en": "Do we punish wrongdoers for justice or for satisfaction?",
-      "note": "罚是为了让作恶者偿还、为了吓阻下一个，还是只为了让我们心里舒服？惩罚违规者时大脑奖赏回路会亮，正义感与报复心未必分得开。",
-      "note_en": "Do we punish to make wrongdoers pay, to deter the next one, or simply to make ourselves feel better? The brain's reward circuits light up when we punish rule-breakers, so a sense of justice and a taste for revenge may be hard to tell apart.",
-      "cat": "ethics"
-    },
-    {
       "id": "friends-with-coworkers",
       "votes": 0,
       "q": "同事之间，该交朋友吗？",
@@ -1347,6 +1338,13 @@
       "q_en": "Should a dying patient be told?",
       "date": "2026-11-17",
       "cat": "life"
+    },
+    {
+      "id": "why-we-punish",
+      "q": "惩罚坏人，是为了公道还是为了解气？",
+      "q_en": "Do we punish wrongdoers for justice or for satisfaction?",
+      "date": "2026-11-18",
+      "cat": "ethics"
     }
   ]
 }

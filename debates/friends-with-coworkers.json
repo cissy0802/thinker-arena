@@ -1,0 +1,732 @@
+{
+ "id": "friends-with-coworkers",
+ "question": "同事之间，该交朋友吗？",
+ "question_en": "Should coworkers be friends?",
+ "sub": "有朋友的人更不易倦怠，可升了职就得管昔日好友",
+ "sub_en": "Friends at work protect against burnout, until one of you becomes the other's boss",
+ "date": "2026-11-19",
+ "participants": [
+  "aristotle",
+  "kongzi",
+  "weber",
+  "maslach",
+  "dunbar",
+  "shunryusuzuki"
+ ],
+ "casting": [
+  {
+   "id": "weber",
+   "reason": "他替科层制的非人格化辩护：办公室的冷淡保护每个人不被别人的交情决定命运，友谊一旦越界进入职位，组织就退回任人唯亲。",
+   "reason_en": "He defends the impersonality of bureaucracy: the coolness of the office protects everyone from having their fate decided by other people's friendships, and once friendship crosses into the office, the organization slides back into favoritism."
+  },
+  {
+   "id": "maslach",
+   "reason": "她用倦怠研究证明，工作中的共同体能缓冲耗竭，但坚持同事情谊只是缓冲垫，替代不了修好工作量与公平本身。",
+   "reason_en": "Her burnout research shows that community at work buffers exhaustion, but she insists friendship among colleagues is only a cushion and cannot replace fixing workload and fairness."
+  },
+  {
+   "id": "aristotle",
+   "reason": "他把友爱分成有用、愉快、德性三种，认为办公室友谊大多是第一种，这本身正当，只是别把它错认成第三种。",
+   "reason_en": "He divides friendship into three kinds, for utility, pleasure and virtue, and holds that most office friendships are the first kind: legitimate in itself, as long as you do not mistake it for the third."
+  },
+  {
+   "id": "kongzi",
+   "reason": "他主张同僚之间和而不同、周而不比：与人人和睦，不结私党；朋友贵在敢直言规过，而不在天天相悦。",
+   "reason_en": "He holds that colleagues should be in harmony without sameness and open to all without factions; a friend's value lies in daring to correct you, not in pleasing you every day."
+  },
+  {
+   "id": "dunbar",
+   "reason": "他从关系的层级与时间成本出发，指出成年人的朋友大量来自同事是数学而非选择，也提醒这类友谊离开共处就迅速衰减。",
+   "reason_en": "Starting from the layers and time cost of relationships, he argues that adults make so many friends at work because of arithmetic, not choice, and warns that such friendships decay fast once shared time ends."
+  },
+  {
+   "id": "shunryusuzuki",
+   "reason": "他从禅堂共住的经验出发，认为把交友当任务会让它变成另一件工作；只要全心做事、全心听人，亲近自会长出来。",
+   "reason_en": "Drawing on life in a shared zendo, he holds that treating friendship as a task turns it into one more job; work wholeheartedly and listen wholeheartedly, and closeness grows by itself."
+  }
+ ],
+ "posts": [
+  {
+   "id": "p01",
+   "round": 1,
+   "thinker": "aristotle",
+   "reply_to": null,
+   "text": "朋友不止一种。友爱有三种：因有用而友，因愉快而友，因对方本身的善而友。办公室里绝大多数是第一种，这不丢人，合作本来就需要它。麻烦在于人常把有用之友错当成德性之友，等调岗、离职、利益一冲突，就觉得被背叛。**有用之友，用处没了就散，这是它的本性，不是谁的错。**第三种也能在同事间长出来，但它要时间，要一起吃够一斗盐。",
+   "text_en": "Friends come in more than one kind. There are three kinds of friendship: for utility, for pleasure, and for the sake of the other person's goodness. Most office friendships are the first kind, and that is nothing to be ashamed of; cooperation needs it. The trouble is that people mistake a friendship of utility for one of virtue, and when a transfer, a resignation or a clash of interests comes, they feel betrayed. **A friendship of utility ends when the usefulness ends. That is its nature, not anyone's fault.** The third kind can grow between colleagues too, but it takes time. You have to eat a bushel of salt together.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "德性之友": "friendship of virtue（德性之友）：亚里士多德《尼各马可伦理学》第八卷中最高的一种友爱，双方因对方的品格本身而相爱，稀少而持久。",
+    "一斗盐": "a bushel of salt（一斗盐）：亚里士多德引用的俗语，意思是两人要一起吃完那么多盐，也就是共处很久，才算真正相知。"
+   },
+   "glossary_en": {
+    "friendship of utility": "In Nicomachean Ethics Book VIII, a friendship held together by what each side gets from the other. It dissolves when the benefit stops.",
+    "a bushel of salt": "A proverb Aristotle quotes: people cannot know each other until they have eaten a large measure of salt together, that is, spent a long time together."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "dunbar"
+    ],
+    "轻微赞同": [
+     "kongzi",
+     "maslach"
+    ],
+    "中立": [
+     "weber"
+    ],
+    "疑惑": [
+     "shunryusuzuki"
+    ]
+   }
+  },
+  {
+   "id": "p02",
+   "round": 1,
+   "thinker": "kongzi",
+   "reply_to": null,
+   "text": "君子之交淡如水。同事共事，**和而不同，周而不比**：与众人皆和，而不结私党。益者三友：友直，友谅，友多闻。同僚之中得一直者，胜得十悦者。然朋友数，斯疏矣；忠告而善道之，不可则止，毋自辱焉。",
+   "text_en": "The friendship of gentlemen is plain as water. Among those who work together, **be in harmony without being the same, be open to all without forming a clique**: get on with everyone, but do not build a private faction. There are three kinds of friends who help you: the upright, the trustworthy, and the well-informed. One upright colleague is worth more than ten pleasant ones. But press a friend too often and he will drift away. Advise him faithfully and guide him well; if he will not listen, stop, and do not bring humiliation on yourself.",
+   "vernacular": "君子之间的交往淡得像水。同事一起做事，要**和睦但不苟同，对谁都亲和而不拉小圈子**：跟所有人处好，但别结成私人帮派。有益的朋友有三种：正直的、守信的、见多识广的。同事里有一个肯说真话的，胜过十个让你舒服的。但对朋友劝得太勤，关系反而会疏远；真心劝告、好好引导，他不听就停下，别自讨没趣。",
+   "vernacular_en": "",
+   "glossary": {
+    "君子之交淡如水": "the friendship of gentlemen is plain as water（君子之交淡如水）：语出《庄子·山木》，后世多与儒家交友之道并称；交情清淡而长久，不靠利益与热络维持。",
+    "周而不比": "inclusive, not cliquish（周而不比）：《论语·为政》“君子周而不比，小人比而不周”，周是普遍亲和，比是结党营私。",
+    "益者三友": "three beneficial friends（益者三友）：《论语·季氏》，正直、诚信、见闻广博的朋友对人有益。"
+   },
+   "glossary_en": {
+    "plain as water": "From the Zhuangzi, later paired with Confucian teaching on friendship: a bond that is mild and lasting because it is not sustained by gain or excitement.",
+    "open to all without forming a clique": "Analects 2.14: the gentleman is broadly friendly and does not form factions; the petty man forms factions and is not broadly friendly."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "weber"
+    ],
+    "轻微赞同": [
+     "aristotle",
+     "shunryusuzuki"
+    ],
+    "中立": [
+     "maslach"
+    ],
+    "疑惑": [
+     "dunbar"
+    ]
+   }
+  },
+  {
+   "id": "p03",
+   "round": 1,
+   "thinker": "weber",
+   "reply_to": null,
+   "text": "我要替『冷冰冰的办公室』辩护。现代官僚制之所以胜过旧式家族管理，正因为它非人格化：按规则办事，不问你是谁的朋友。**办公室的冷淡，是保护你不被别人的交情决定命运的那道墙。**同事交朋友当然会发生，人不是机器；但一旦交情开始影响谁升职、谁背锅、谁拿到好项目，组织就退回了任人唯亲的老路。",
+   "text_en": "I want to defend the 'cold office.' Modern bureaucracy beat the old household style of rule precisely because it is impersonal: it follows rules and does not ask whose friend you are. **The coolness of the office is the wall that keeps your fate from being decided by other people's friendships.** Of course colleagues become friends; people are not machines. But once friendship starts to decide who gets promoted, who takes the blame and who gets the good projects, the organization slides back into the old road of favoritism.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "非人格化": "impersonality（非人格化）：韦伯描述科层制的核心特征，‘不问其人，只问其事’（sine ira et studio，无怒亦无偏），按规则而非私人关系处理事务。"
+   },
+   "glossary_en": {
+    "impersonal": "Weber's core feature of bureaucracy: business is handled 'sine ira et studio' (without anger or partiality), by rules rather than personal ties."
+   },
+   "reactions": {
+    "轻微赞同": [
+     "kongzi"
+    ],
+    "中立": [
+     "aristotle"
+    ],
+    "轻微反对": [
+     "maslach",
+     "shunryusuzuki"
+    ],
+    "疑惑": [
+     "dunbar"
+    ]
+   }
+  },
+  {
+   "id": "p04",
+   "round": 1,
+   "thinker": "maslach",
+   "reply_to": null,
+   "text": "我研究倦怠五十年，『共同体』是工作与人匹配的六个领域之一。在工作中有人可以信任、可以吐苦水的人，**倦怠的风险明显更低**；被孤立的人，耗竭和冷漠来得更快。但请别把这当成公司的免责声明：同事情谊只是缓冲垫，压不住超负荷的工作量。**如果一个团队要靠彼此安慰才撑得下去，该修的是工作，不是友谊。**",
+   "text_en": "I have studied burnout for fifty years, and 'community' is one of six areas where people and their jobs must fit. People who have someone at work they trust and can vent to **carry a clearly lower risk of burnout**; isolated people slide into exhaustion and cynicism faster. But please do not read this as a corporate disclaimer. Friendship among colleagues is a cushion, and it cannot hold up an impossible workload. **If a team can only survive by comforting each other, it is the work that needs fixing, not the friendships.**",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "六个领域": "six areas of worklife（六个领域）：马斯拉奇与莱特提出的倦怠成因框架——工作量、控制感、回报、共同体、公平、价值观；任何一项长期错配都会推高倦怠。"
+   },
+   "glossary_en": {
+    "six areas": "Maslach and Leiter's model of burnout causes: workload, control, reward, community, fairness and values. A long mismatch in any one raises burnout."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "dunbar"
+    ],
+    "轻微赞同": [
+     "aristotle",
+     "shunryusuzuki"
+    ],
+    "中立": [
+     "weber"
+    ],
+    "疑惑": [
+     "kongzi"
+    ]
+   }
+  },
+  {
+   "id": "p05",
+   "round": 1,
+   "thinker": "dunbar",
+   "reply_to": null,
+   "text": "人能维持的关系是分层的：约5个亲密的，15个好友，50个朋友，150个熟人。时间是硬约束，有研究估算，从陌生人变成亲密朋友大约要两百小时相处。**办公室恰好是成年人唯一每周能白给你四十小时相处的地方**，所以成年后的朋友大量来自同事，这是数学，不是选择。代价也在数学里：不再见面的友谊衰减很快，换工作后多数同事关系一两年就降层。",
+   "text_en": "The relationships a person can maintain come in layers: about 5 intimates, 15 good friends, 50 friends, 150 acquaintances. Time is the hard constraint; one study estimates it takes about two hundred hours together to turn a stranger into a close friend. **The office is the only place that hands adults forty hours a week of shared time for free**, so a large share of adult friends come from work. That is arithmetic, not choice. The cost is in the arithmetic too: friendships without contact decay quickly, and after a job change most colleague relationships drop a layer within a year or two.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "两百小时": "200 hours（两百小时）：堪萨斯大学杰弗里·霍尔2018年的研究估算，泛泛之交约需50小时，朋友约90小时，亲密朋友约200小时以上。"
+   },
+   "glossary_en": {
+    "two hundred hours": "Jeffrey Hall's 2018 study (University of Kansas) estimated about 50 hours for a casual friend, about 90 for a friend, and over 200 for a close friend."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "maslach"
+    ],
+    "轻微赞同": [
+     "aristotle"
+    ],
+    "中立": [
+     "weber",
+     "kongzi"
+    ],
+    "疑惑": [
+     "shunryusuzuki"
+    ]
+   }
+  },
+  {
+   "id": "p06",
+   "round": 1,
+   "thinker": "shunryusuzuki",
+   "reply_to": null,
+   "text": "我们在禅堂里一起坐，一起吃饭，一起扫地。从来没人问：我该不该和旁边这位做朋友？只是一起把事做好。当你全心全意做一件事，旁边的人自然就近了。**如果你把『交朋友』当成要完成的任务，它就变成另一件工作。**问题不是该不该，而是此刻你和这个人一起做事时，心在不在这里。",
+   "text_en": "In the zendo we sit together, eat together, sweep together. No one ever asks: should I be friends with the person next to me? We just do the work well together. When you do something wholeheartedly, the people beside you become close by themselves. **If you treat 'making friends' as a task to complete, it becomes one more job.** The question is not whether you should, but whether, right now, as you work with this person, your mind is here.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "禅堂": "zendo（禅堂）：禅宗寺院中集体坐禅的厅堂，也是僧众一起起居、出坡劳作的修行场所。"
+   },
+   "glossary_en": {
+    "zendo": "The hall in a Zen temple where people sit in meditation together; the community also eats and works together there."
+   },
+   "reactions": {
+    "轻微赞同": [
+     "kongzi",
+     "aristotle"
+    ],
+    "中立": [
+     "maslach"
+    ],
+    "轻微反对": [
+     "dunbar"
+    ],
+    "疑惑": [
+     "weber"
+    ]
+   }
+  },
+  {
+   "id": "p07",
+   "round": 2,
+   "thinker": "aristotle",
+   "reply_to": "p03",
+   "text": "@韦伯 你的墙挡住了偏私，也挡住了城邦赖以存在的东西。立法者其实更看重友爱而非公正：**人们彼此为友时，就不需要公正；只有公正时，还需要友爱。**一个只靠规则维系的团队，每件小事都得写进流程，信任的成本高得吓人。我同意交情不该决定升迁，但这要靠有德性的人，而不是靠禁止人们相爱。",
+   "text_en": "@Weber Your wall keeps out partiality, but it also keeps out what a city lives on. Lawgivers care more about friendship than about justice: **when people are friends they have no need of justice, but when they are just they still need friendship.** A team held together only by rules has to write every small matter into procedure, and the cost of trust becomes staggering. I agree friendship should not decide promotions, but that takes people of virtue, not a ban on people caring for each other.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "maslach"
+    ],
+    "轻微赞同": [
+     "shunryusuzuki"
+    ],
+    "中立": [
+     "kongzi"
+    ],
+    "轻微反对": [
+     "weber"
+    ],
+    "疑惑": [
+     "dunbar"
+    ]
+   }
+  },
+  {
+   "id": "p08",
+   "round": 2,
+   "thinker": "kongzi",
+   "reply_to": "p05",
+   "text": "邓子以时计交，诚有之。然**处久者未必亲，相习者未必敬**。乡愿，德之贼也：同事数载，日日相悦，而不闻一句直言，此非友也，乃相安耳。故交不在久，在其能规过。",
+   "text_en": "Master Dunbar measures friendship in hours, and there is truth in it. But **long acquaintance does not guarantee closeness, and familiarity does not guarantee respect.** The village worthy who pleases everyone is the thief of virtue: to work together for years, pleasing each other every day, and never hear one honest word, is not friendship. It is merely getting along. So friendship lies not in how long, but in whether you can correct each other's faults.",
+   "vernacular": "邓巴先生用时间来衡量交情，确实有道理。但**相处得久不一定就亲近，彼此熟悉不一定就尊重**。八面玲珑的老好人是败坏德性的贼：同事好几年，天天和和气气，却从没听过一句真话，这不是朋友，只是相安无事罢了。所以交情不在于时间长，而在于能不能指出彼此的过错。",
+   "vernacular_en": "",
+   "glossary": {
+    "乡愿": "the village worthy（乡愿）：《论语·阳货》“乡愿，德之贼也”，指八面玲珑、谁都不得罪的老好人，看似有德，实则败坏德性。"
+   },
+   "glossary_en": {
+    "village worthy": "Analects 17.13: 'the village worthy is the thief of virtue', the smooth people-pleaser who offends no one and so only imitates goodness."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "aristotle"
+    ],
+    "轻微赞同": [
+     "weber",
+     "maslach"
+    ],
+    "中立": [
+     "shunryusuzuki"
+    ],
+    "轻微反对": [
+     "dunbar"
+    ]
+   }
+  },
+  {
+   "id": "p09",
+   "round": 2,
+   "thinker": "weber",
+   "reply_to": "p04",
+   "text": "@马斯拉奇 你的六个领域里还有一个『公平』，它和『共同体』在打架。**一个人在办公室里的好友圈，就是另一个人眼里的小圈子。**圈内的人倦怠少了，圈外的人看着资源和消息总在圈里流转，公平感坍塌，倦怠只是被转移了。你测量的是被测者的友谊，没测那个从来没被邀请去午饭的人。",
+   "text_en": "@Maslach Among your six areas is 'fairness,' and it is fighting with 'community.' **One person's circle of friends at the office is another person's clique.** Those inside burn out less; those outside watch resources and information circulate inside the circle, their sense of fairness collapses, and the burnout has merely been moved. You measured the friendships of the people surveyed, not the person who was never invited to lunch.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "kongzi"
+    ],
+    "轻微赞同": [
+     "aristotle"
+    ],
+    "中立": [
+     "dunbar"
+    ],
+    "疑惑": [
+     "shunryusuzuki"
+    ],
+    "轻微反对": [
+     "maslach"
+    ]
+   }
+  },
+  {
+   "id": "p10",
+   "round": 2,
+   "thinker": "maslach",
+   "reply_to": "p09",
+   "text": "@韦伯 这个批评我接受一半。不公平确实会把共同体撕开，所以我们评估共同体时问的是整个团队有没有归属感，不只是谁有密友。但你的药开错了：『非人格化』推到头，就是我量表里的第二个维度，去人格化，把同事当工单。**冷漠不是公平的保障，透明的规则才是。**让决定过程摊开，比让人不许亲近有效得多。",
+   "text_en": "@Weber I accept half of this critique. Unfairness does tear community apart, which is why, when we assess community, we ask whether the whole team feels it belongs, not just who has close friends. But your prescription is wrong. 'Impersonality' pushed to the end becomes the second dimension on my scale, depersonalization: treating colleagues as tickets. **Coldness does not guarantee fairness; transparent rules do.** Opening up how decisions are made works far better than forbidding people to get close.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "去人格化": "depersonalization（去人格化）：马斯拉奇倦怠量表的第二个维度，对工作对象和同事变得冷漠、疏离、把人当物处理。"
+   },
+   "glossary_en": {
+    "depersonalization": "The second dimension of the Maslach Burnout Inventory: becoming callous and detached, treating clients and coworkers as objects."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "aristotle"
+    ],
+    "轻微赞同": [
+     "dunbar",
+     "shunryusuzuki"
+    ],
+    "中立": [
+     "kongzi"
+    ],
+    "轻微反对": [
+     "weber"
+    ]
+   }
+  },
+  {
+   "id": "p11",
+   "round": 2,
+   "thinker": "dunbar",
+   "reply_to": "p06",
+   "text": "@铃木 『自然就近了』在禅堂成立，因为你们一起吃饭、一起劳作、天天见面。这些正是大脑建立联结的条件：共餐、一起笑、同步的动作，都会释放内啡肽。**现代办公室恰恰在砍掉这些：远程、分散午餐、只在会议里见面。**不刻意安排，『自然』就不会发生。所以我不劝人把交友当任务，但组织得把共处的条件当任务。",
+   "text_en": "@Suzuki 'Become close by themselves' works in a zendo because you eat together, work together and see each other daily. Those are exactly the conditions under which brains bond: shared meals, laughing together and synchronized movement all release endorphins. **The modern office is cutting precisely these: remote work, scattered lunches, meeting only in meetings.** Without deliberate arrangement, 'by themselves' does not happen. So I don't tell people to treat friendship as a task, but organizations must treat the conditions for being together as one.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "内啡肽": "endorphins（内啡肽）：大脑分泌的内源性阿片类物质，邓巴的研究认为它是灵长类梳毛及人类笑、唱、共餐维系关系的化学基础。"
+   },
+   "glossary_en": {
+    "endorphins": "The brain's own opioids. Dunbar's work treats them as the chemical basis of bonding through grooming in primates and through laughter, singing and shared meals in humans."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "maslach"
+    ],
+    "轻微赞同": [
+     "aristotle",
+     "weber"
+    ],
+    "中立": [
+     "kongzi"
+    ],
+    "疑惑": [
+     "shunryusuzuki"
+    ]
+   }
+  },
+  {
+   "id": "p12",
+   "round": 2,
+   "thinker": "shunryusuzuki",
+   "reply_to": "p07",
+   "text": "@亚里士多德 你把朋友分成三种，很清楚。可是当我们一边相处，一边在心里判断『这是有用的朋友还是德性的朋友』，心已经离开了这个人。**分类是事后的话，相处只在当下。**也许今天他只是帮我搬桌子的同事，十年后成了最懂我的人。不必急着给关系贴标签，贴了标签，就很难再看见他。",
+   "text_en": "@Aristotle Your three kinds of friends are very clear. But when we are with someone while judging in our heads 'is this a friend of utility or of virtue?', the mind has already left that person. **Classification is something you say afterward; being together only happens now.** Maybe today he is just the colleague who helps me move a desk, and in ten years he is the one who understands me best. No need to rush to label a relationship. Once it has a label, it is hard to see him anymore.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "轻微赞同": [
+     "kongzi",
+     "maslach"
+    ],
+    "中立": [
+     "dunbar"
+    ],
+    "轻微反对": [
+     "aristotle"
+    ],
+    "疑惑": [
+     "weber"
+    ]
+   }
+  },
+  {
+   "id": "p13",
+   "round": 3,
+   "thinker": "aristotle",
+   "reply_to": null,
+   "text": "我的结论：同事之间该交朋友，而且大多会是有用与愉快之友，**这本身就是好东西，只要别错认它的种类**。真正的德性之友，往往在离开同一个职位之后才被检验出来。三条建议：一，评价与晋升的场合，主动回避你的朋友，让程序替你保住这段友谊；二，离职或调岗后，约一次与工作无关的见面，看看还剩下什么；三，在朋友面前先做一个值得信任的人，德性之友是两个好人之间的事，不是你能单方面挑来的。",
+   "text_en": "My conclusion: colleagues should become friends, and most will be friends of utility and pleasure. **That is a good thing in itself, provided you do not mistake its kind.** True friendship of virtue is often only tested after you no longer share the same post. Three suggestions. First, in evaluations and promotions, step aside where your friend is concerned, and let procedure protect the friendship for you. Second, after a resignation or transfer, arrange one meeting that has nothing to do with work, and see what remains. Third, be someone worth trusting yourself. Friendship of virtue happens between two good people; you cannot pick it out unilaterally.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "maslach"
+    ],
+    "轻微赞同": [
+     "weber",
+     "dunbar",
+     "kongzi"
+    ],
+    "中立": [
+     "shunryusuzuki"
+    ]
+   }
+  },
+  {
+   "id": "p14",
+   "round": 3,
+   "thinker": "kongzi",
+   "reply_to": null,
+   "text": "吾闻诸位之论，乃知交之道有二：**公事以礼，私谊以诚**。礼者，事有常法，进退不以亲疏；诚者，能直言其过而不辱之。上下之交尤难：居上者，勿以旧好而私之，亦勿避嫌而薄之；居下者，勿恃旧好而慢其令。择一二直友，可也；聚党相庇，不可也。",
+   "text_en": "Having heard you all, I see that the way of friendship at work has two parts: **in public affairs, ritual propriety; in private friendship, sincerity.** Propriety means that matters follow constant rules, and advancement and dismissal do not depend on who is close to whom. Sincerity means being able to name a friend's fault without humiliating him. Friendship across ranks is hardest. The one above should neither favor an old friend nor, to avoid suspicion, treat him coldly; the one below should not lean on old friendship to slight an order. To choose one or two upright friends is fine; to gather a faction for mutual protection is not.",
+   "vernacular": "听了各位的话，我明白同事交往的道理有两面：**公事讲规矩，私交讲真诚**。规矩，是事情有固定的办法，升降去留不看关系亲疏；真诚，是能当面指出朋友的过错又不让他难堪。上下级之间的交情最难：在上的，别因为是老朋友就偏袒，也别为了避嫌故意冷落他；在下的，别仗着老交情就怠慢他的安排。选一两个肯说真话的朋友，可以；结成小团伙互相包庇，不行。",
+   "vernacular_en": "",
+   "glossary": {
+    "礼": "ritual propriety（礼）：儒家所说的规矩与分寸，涵盖制度、礼节与人际间恰当的界限。"
+   },
+   "glossary_en": {
+    "ritual propriety": "The Confucian sense of proper form and measure, covering institutions, etiquette and fitting boundaries between people."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "weber"
+    ],
+    "轻微赞同": [
+     "aristotle",
+     "maslach",
+     "shunryusuzuki"
+    ],
+    "中立": [
+     "dunbar"
+    ]
+   }
+  },
+  {
+   "id": "p15",
+   "round": 3,
+   "thinker": "weber",
+   "reply_to": null,
+   "text": "我修正自己：我反对的不是友谊，是友谊越界进入职位。现代人的处境本来就分裂，在铁笼里讲规则，在笼外才是人。普通人能做的：**凡是你能影响对方利益的决定，事先说明关系、能回避就回避**；别把重要消息只在饭桌上传，事后补一封写给全组的邮件；如果你成了昔日好友的上司，第一周就和他谈清楚，在办公室里我是你的经理，下了班还是朋友。把边界说出口，友谊才不用偷偷摸摸。",
+   "text_en": "Let me revise myself: what I oppose is not friendship, but friendship crossing into the office one holds. Modern life is already split: rules inside the iron cage, a human being outside it. What ordinary people can do: **for any decision where you can affect a friend's interests, disclose the relationship beforehand and step aside if you can.** Don't let important news travel only over lunch; send the whole team an email afterward. If you become your old friend's boss, talk it through in the first week: at work I'm your manager, after work I'm still your friend. Say the boundary out loud, and the friendship need not hide.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "铁笼": "iron cage（铁笼）：韦伯在《新教伦理与资本主义精神》结尾的比喻，理性化、科层化的现代秩序像一只把人罩住的坚硬外壳。"
+   },
+   "glossary_en": {
+    "iron cage": "Weber's image at the end of The Protestant Ethic: the rationalized, bureaucratic modern order as a hard shell enclosing people."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "kongzi"
+    ],
+    "轻微赞同": [
+     "aristotle",
+     "maslach"
+    ],
+    "中立": [
+     "dunbar",
+     "shunryusuzuki"
+    ]
+   }
+  },
+  {
+   "id": "p16",
+   "round": 3,
+   "thinker": "maslach",
+   "reply_to": null,
+   "text": "共识很清楚：同事情谊能缓冲倦怠，但不能替代修好工作本身。**判断一段同事友谊健不健康，就看它让你更愿意说真话，还是更不敢说。**建议：一，每周至少和同事吃一顿不谈工作的饭；二，当你发现大家在一起主要是吐槽，就把吐槽变成一条具体的诉求，交给能改的人；三，留意组里那个总是一个人的同事，邀他一次。最后，别只靠同事撑住你的社交，下班后也得有一个不属于这家公司的人。",
+   "text_en": "The consensus is clear: friendship among colleagues buffers burnout but cannot replace fixing the work itself. **To judge whether a work friendship is healthy, ask whether it makes you more willing to tell the truth, or less.** Suggestions. First, eat at least one meal a week with colleagues where you don't talk shop. Second, when you notice the group mostly gets together to complain, turn the complaint into one concrete request and take it to someone who can change things. Third, notice the colleague who is always alone, and invite them once. Finally, don't rely only on coworkers for your social life; after work you need at least one person who doesn't belong to this company.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "dunbar",
+     "aristotle"
+    ],
+    "轻微赞同": [
+     "weber",
+     "kongzi"
+    ],
+    "中立": [
+     "shunryusuzuki"
+    ]
+   }
+  },
+  {
+   "id": "p17",
+   "round": 3,
+   "thinker": "dunbar",
+   "reply_to": null,
+   "text": "我的数字给出一个提醒：**你的五个最亲密的人里，最好别超过两个是同事。**否则一次裁员或跳槽，你会同时失去收入和大半个社交网络。同事友谊值得投入，但要有意识地把它从『因工作而见面』转成『因彼此而见面』：一起跑步、一起吃饭、一起笑，这些比开会更能留住关系。换工作后，给你想留住的三个人每月发一次消息，不必长，只要不断。",
+   "text_en": "My numbers give one warning: **of your five closest people, ideally no more than two should be coworkers.** Otherwise a single layoff or job change costs you your income and most of your social network at once. Work friendships are worth investing in, but deliberately shift them from 'seeing each other because of work' to 'seeing each other because of each other': run together, eat together, laugh together. These hold a relationship better than meetings do. After you change jobs, send the three people you want to keep a message every month. It need not be long, just unbroken.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "maslach"
+    ],
+    "轻微赞同": [
+     "aristotle",
+     "weber"
+    ],
+    "中立": [
+     "kongzi"
+    ],
+    "疑惑": [
+     "shunryusuzuki"
+    ]
+   }
+  },
+  {
+   "id": "p18",
+   "round": 3,
+   "thinker": "shunryusuzuki",
+   "reply_to": null,
+   "text": "大家讲了很多好办法，我都同意。我只想补一点很小的事：明天和同事说话的时候，先放下『他对我有没有用』『我们算不算朋友』，就听他说完一句话。**很多关系不是交出来的，是在一次次认真听里慢慢长出来的。**离职时也不必难过，缘分到了就到了，没有到也很好。做事时全心做事，和人在一起时全心在一起，这就够了。",
+   "text_en": "Everyone has offered good methods, and I agree with them all. I'd only add one small thing. Tomorrow, when you talk with a colleague, first put down 'is he useful to me?' and 'are we really friends?', and just listen to the end of one sentence. **Many relationships are not made; they grow slowly out of listening carefully, again and again.** When you leave a job, there's no need for sadness. If the connection is there, it is there; if not, that's fine too. When you work, work wholeheartedly; when you are with people, be wholeheartedly with them. That is enough.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "轻微赞同": [
+     "kongzi",
+     "aristotle",
+     "maslach"
+    ],
+    "中立": [
+     "weber"
+    ],
+    "疑惑": [
+     "dunbar"
+    ]
+   }
+  }
+ ],
+ "summaries": [
+  {
+   "ai": "claude",
+   "engine": "Opus 5.5 · 订阅(原生)",
+   "engine_en": "Opus 5.5 · subscription (native)",
+   "summary": "六个人最终都同意：**同事之间可以交朋友，但交情不能进入决定别人利益的地方。**邓巴给了理由，成年人的朋友大量来自同事，因为只有办公室每周提供四十小时共处；马斯拉奇补上代价与收益，同事情谊能缓冲倦怠，却替代不了修好工作。分歧在于墙该砌在哪里：韦伯要靠非人格化的规则挡住偏私；亚里士多德和孔子要靠人的德性，前者提醒别错认友谊的种类，后者要求朋友敢于直言；铃木则认为分类与权衡本身就让人离开了眼前的人。韦伯最后修正立场，承认他反对的是越界，不是友谊本身。",
+   "summary_en": "In the end all six agree: **colleagues can be friends, but friendship must stay out of decisions that affect other people's interests.** Dunbar supplies the reason adults make so many friends at work: only the office provides forty hours a week of shared time. Maslach adds the costs and benefits: friendship among colleagues buffers burnout but cannot replace fixing the work. The disagreement is over where to build the wall. Weber wants impersonal rules to keep out partiality; Aristotle and Confucius rely on character, the first warning against mistaking a friendship's kind, the second demanding friends who speak plainly; Suzuki thinks the sorting and weighing themselves pull us away from the person in front of us. Weber finally revises his stance: what he opposes is friendship crossing the line, not friendship itself.",
+   "insight": "『该不该交』其实问错了，因为同事友谊多半不是选出来的。费斯廷格在麻省理工学生宿舍的研究发现，住得近的人最容易成为朋友，门口挨着楼梯的人朋友最多；办公室里的座位、排班和项目分组，早替你挑好了大半人选。**所以真正能选的不是交不交，而是当角色冲突那一刻怎么办：**升职、绩效评级、裁员名单、一方离职。这些时刻可以事先想好对策，而大家通常只在出事那天才第一次面对。",
+   "insight_en": "'Should we be friends?' is the wrong question, because most work friendships are not chosen. Festinger's study of MIT student housing found that people who lived closest became friends most easily, and those whose doors faced the stairs had the most friends. In the office, seating, shifts and project teams have already picked most of your candidates. **So the real choice is not whether to befriend, but what to do the moment roles collide:** a promotion, a performance rating, a layoff list, one of you leaving. Those moments can be planned for in advance, yet most people face them for the first time on the day they happen.",
+   "advice": "最该提前做的，是**把角色冲突的那一天先谈掉**。列出你和同事朋友之间可能出现的冲突，比如互评、竞争同一个职位、一方成了另一方的上司，趁关系还好，坦率聊一次：真到那天，我们怎么处理。其次，照韦伯的建议，凡是在饭桌上听到的重要消息，问一句它该不该让全组知道。再者，照邓巴的提醒，数一数你最亲近的五个人里有几个是同事，超过两个，就主动约一位公司以外的老朋友，这周见上一面。",
+   "advice_en": "The thing most worth doing in advance is **to talk through the day your roles collide before it arrives.** List the conflicts that could arise between you and a work friend, such as rating each other, competing for the same role, or one becoming the other's boss, and while things are good, talk it over frankly: if that day comes, how will we handle it? Next, following Weber, whenever you hear important news over lunch, ask whether the whole team should know it. And following Dunbar, count how many of your five closest people are coworkers. If it's more than two, reach out to an old friend from outside the company and see them this week."
+  },
+  {
+   "ai": "gpt",
+   "engine": "openai · gpt-5.6-sol · high(真实API)",
+   "engine_en": "openai · gpt-5.6-sol · high (live API)",
+   "summary": "同事情谊能带来信任、归属、直言与抵御倦怠的力量，规则则保证资源、评价和机会不被私交劫持；众人的共同落点不是亲近或冷淡二选一，而是**可以真心交朋友，但不能让朋友身份替代岗位规则。**真正的分歧在于关系应如何生成与维持：有人强调分类和预期管理，有人看重不加判断的当下相处；有人主张刻意创造共餐、交谈等条件，有人警惕把交友变成任务。更深的张力存在于共同体与公平之间：小圈子可能侵蚀公正，彻底非人格化也会制造冷漠。健康办公室需要两套机制同时成立：公事可审计，私交可自愿。",
+   "insight": "办公室友谊最容易被忽略的变量，不是亲密程度，而是退出权。普通朋友可以少见面、拒绝邀约，通常不影响生计；同事尤其是上下级之间，午餐、酒局、倾诉乃至站队却可能被包装成“自愿”。表面热络未必是友谊，也可能是对权力的顺从。**一段健康的同事关系，应允许任何一方拒绝亲近、表达异议或逐渐疏远，而不付出职业代价。**这也解释了为什么透明规则仍不够：组织还要约束报复、情感勒索和非正式的忠诚测试。对个人而言，别用私密分享换取信任，也别把下班后的参与度当作可靠、合群或值得晋升的证据。",
+   "advice": "本周可以做三件小事。第一，选一位相处舒服的同事，约一次二十分钟咖啡或散步，并明确说“没空也完全没关系”；只聊彼此近况，不急着定义关系。第二，检查最近一个涉及分工、机会或评价的决定：若朋友牵涉其中，主动披露关系，请第三人复核，并把关键信息同步到公开渠道。第三，为自己准备一句边界话术，例如“这件事我想留在工作时间讨论”或“我不方便分享，但愿意听你说”，需要时直接使用。**既主动靠近，也保留彼此无代价说不的空间。**这样既有机会让关系自然生长，也不会把亲密变成隐形的职场义务。",
+   "summary_en": "Workplace friendship can provide trust, belonging, candid feedback, and some protection against burnout; formal rules keep opportunities, evaluations, and blame from being allocated through private ties. The shared conclusion is not that people must choose warmth over professionalism, but that **you can form genuine friendships at work without letting friendship replace the rules of the role.** The real disagreement concerns how closeness should arise and how deliberately it should be cultivated. One view favors classifying relationships and managing expectations; another warns that constant labeling prevents people from meeting openly. Some would intentionally create shared meals and informal time, while others resist turning friendship into another performance target. The deeper institutional tension is between community and fairness: circles of trust can humanize work, yet they can also become channels for privileged information and sponsorship. A healthy workplace therefore needs both dimensions at once—public decisions that can be explained and reviewed, and private relationships that remain voluntary for everyone.",
+   "insight_en": "The overlooked variable in workplace friendship is not closeness but the right to exit. With an ordinary friend, you can decline an invitation, meet less often, or let the relationship fade without risking your livelihood. At work—especially across a reporting line—lunches, drinks, personal disclosures, and displays of loyalty may be described as optional while carrying an unspoken career cost. Visible warmth is therefore not always evidence of friendship; sometimes it is compliance with power. **A healthy workplace relationship lets either person decline intimacy, disagree openly, or step back without paying a professional penalty.** This is also why transparent procedures, though essential, are not sufficient. Organizations must discourage retaliation, emotional pressure, and informal loyalty tests. Individuals should avoid trading private disclosures for trust, and managers should never treat participation in after-hours social life as evidence that someone is committed, collaborative, or promotable. Friendship becomes more genuine when distance is genuinely permitted.",
+   "advice_en": "Try three small actions this week. First, invite one colleague you enjoy to a twenty-minute coffee or walk, and make refusal easy: say explicitly that it is completely fine if they are busy or uninterested. Talk about life beyond the immediate task, but do not rush to define the relationship. Second, review one recent decision involving assignments, opportunities, credit, or performance. If a friend was affected, disclose the relationship, ask a neutral person to review the decision, and move any important information from private conversation into a channel the whole team can access. Third, prepare one boundary sentence you can actually use, such as, “I would rather discuss this during work hours,” or, “I am not comfortable sharing that, but I am happy to listen.” **Move toward connection while preserving each person’s cost-free right to say no.** That combination gives friendship room to grow without turning sociability, disclosure, or after-hours availability into an unofficial job requirement."
+  },
+  {
+   "ai": "gemini",
+   "engine": "google · gemini-4-argon · high(真实API)",
+   "engine_en": "google · gemini-4-argon · high (live API)",
+   "summary": "在办公室里交朋友既不必禁欲，也不能越界——六位思想家都承认同事情谊对消解孤立、促进协作有天然价值，**但前提是必须将“私交”与“公权”剥离，且不把因工结缘的阶段性陪伴误作终身契约。**真正的分歧在于如何安放这段关系：亚里士多德、孔子与韦伯主张“向内设防”，靠关系分类、礼法边界与程序回避来保全纯粹；邓巴与马斯拉奇倾向“向外配置”，用共餐机制与社交分散来对冲风险；铃木俊隆则消解了所有算计，认为一旦在心里给同事贴标签、算利弊，真正的相遇就已经结束了。",
+   "insight": "跳出“冷漠同事”与“私下好友”的二元对立，组织行为学与社会网络理论其实提供了第三种形态：**比起私密朋友，现代职场更稀缺、更健康的往往是高心理安全感的“职业战友”与离职后的“高信任弱连接”。**哈佛学者艾米·埃德蒙森发现，优质团队抵御倦怠靠的不是下班交心，而是任务中“敢犯错、能托底”的战友情；而社会学家格兰诺维特的“弱连接优势”表明，同事离职后哪怕一年只联系一次，只要当初共事时靠谱，这种低维护成本的职业信用网，反而比强行塞进邓巴核心圈的“密友”更能托住流动的现代职业生涯。",
+   "advice": "本周即可落地的三件小事：第一，践行韦伯的“阳光法则”，今天若和要好的同事在饭桌上敲定了某项工作思路，**回工位后立刻在公开群或邮件里补发一条同步信息，不让私交变成他人的信息壁垒**；第二，用“战友式靠谱”代替刻意社交，借铃木俊隆的方法，明天同事找你对接时，把手机扣下、视线离开屏幕专心听完，在业务上帮对方兜住一个细节盲区；第三，做一次邓巴式的“社交对冲”，本周五下班约一位完全不属于本行业的朋友吃饭，并给一位已离职但欣赏的前同事发个简短问候或行业链接，把好聚好散沉淀为长久的弱连接。",
+   "summary_en": "Workplace friendships require neither monastic abstinence nor reckless intimacy—all six thinkers agree that collegial bonds naturally buffer loneliness and grease collaboration, **provided we strictly separate personal affection from organizational power and never mistake temporary proximity for a lifelong pact.** Where they diverge is on how to govern that boundary: Aristotle, Confucius, and Weber look inward to taxonomy, moral restraint, and procedural firewalls to keep relationships clean; Dunbar and Maslach look outward to environmental design and social portfolio management to hedge against burnout and turnover; while Suzuki drops the calculus altogether, warning that the moment we mentally grade or categorize a colleague, genuine human encounter is already lost.",
+   "insight_en": "Stepping outside the binary of \"impersonal coworker\" and \"personal friend,\" organizational psychology and network sociology point to a vital third category: **what modern workplaces need most isn't private intimacy, but high-trust \"professional camaraderie\" that matures into resilient \"weak ties.\"** As Amy Edmondson's research on psychological safety shows, great teams buffer burnout not by sharing personal secrets over lunch, but by having each other's backs during high-stakes tasks. Furthermore, Mark Granovetter's \"strength of weak ties\" reminds us that when colleagues part ways, they don't need to stay in Dunbar's inner circle of five; remaining a low-maintenance, high-credibility node in your wider industry network is often a far greater asset to a fluid modern career than forced closeness.",
+   "advice_en": "Three concrete moves you can make this week: First, practice Weber's transparency rule—if you and a work friend hash out a project idea over lunch today, **follow up immediately with a quick summary in the public team channel so personal rapport never becomes an information clique.** Second, build comrade-level trust instead of forcing small talk: channel Suzuki tomorrow by turning away from your monitor and listening undividedly when a colleague speaks, then quietly help them catch a blind spot in your shared work. Third, run Dunbar's diversification hedge: book dinner this Friday with a friend completely outside your company, and ping one respected former colleague with a brief check-in or relevant article to keep your dormant weak ties warm."
+  }
+ ],
+ "hooks": [
+  {
+   "from": "claude",
+   "text": "**同事友谊多半是座位排出来的**：住得近的人最容易成朋友（费斯廷格）。既然人选多半由座位和分组决定，真正能选的是角色冲突那一刻怎么办。",
+   "text_en": "**Work friendships are mostly seating charts**: people who live closest befriend each other most easily (Festinger). If seating and teams pick most of the candidates, the real choice is what to do when roles collide."
+  },
+  {
+   "from": "weber",
+   "text": "**升职后管昔日好友，怎么做**：你成了朋友的上司，或朋友成了你的上司，各种局面该怎么处理？",
+   "text_en": "**Managing a friend after a promotion**: you become your friend's boss, or your friend becomes yours. How do you handle each situation?",
+   "answer": {
+    "lead": "别等出事那天才第一次面对，**先认出你在哪种局面**，再决定怎么做。",
+    "table": {
+     "head": [
+      "局面",
+      "先做什么",
+      "为什么"
+     ],
+     "rows": [
+      [
+       "你刚升职，成了朋友的上司",
+       "第一周单独谈一次：上班时我是经理，下班还是朋友",
+       "把边界说出口，比让对方去猜好（韦伯）"
+      ],
+      [
+       "要给这位朋友打绩效",
+       "向上级说明关系，请第二个人一起评",
+       "让程序替你保住友谊（亚里士多德）"
+      ],
+      [
+       "朋友的工作确实出了问题",
+       "私下、尽早、就事论事地说",
+       "敢直言才是益友（孔子）"
+      ],
+      [
+       "朋友成了你的上司",
+       "公开场合照常服从安排，有意见私下提",
+       "别仗着旧交怠慢指令（孔子）"
+      ],
+      [
+       "组里有人觉得你们是小圈子",
+       "重要消息补一封全组邮件，午饭轮流约人",
+       "一人的好友圈是另一人的小圈子（韦伯）"
+      ],
+      [
+       "裁员或调岗名单上有他",
+       "不私下透露未公开的决定，事后尽力帮他找出路",
+       "泄密会同时毁掉信任和你的职位"
+      ]
+     ]
+    },
+    "tail": "两条底线：**影响对方利益的决定，事先说明、能回避就回避；友谊靠说真话维持，不靠互相包庇。**"
+   },
+   "answer_en": {
+    "lead": "Don't face it for the first time on the day it happens. **First recognize which situation you are in**, then decide what to do.",
+    "table": {
+     "head": [
+      "Situation",
+      "What to do first",
+      "Why"
+     ],
+     "rows": [
+      [
+       "You were just promoted and now manage your friend",
+       "Talk privately in the first week: at work I'm your manager, after work still your friend",
+       "Saying the boundary out loud beats making them guess (Weber)"
+      ],
+      [
+       "You must rate this friend's performance",
+       "Disclose the relationship to your boss and ask a second person to co-rate",
+       "Let procedure protect the friendship (Aristotle)"
+      ],
+      [
+       "Your friend's work really has a problem",
+       "Say so privately, early, and about the work itself",
+       "A friend who speaks plainly is a friend who helps (Confucius)"
+      ],
+      [
+       "Your friend became your boss",
+       "Follow their decisions in public; raise objections in private",
+       "Don't lean on old friendship to slight an order (Confucius)"
+      ],
+      [
+       "Others see the two of you as a clique",
+       "Follow up important news with a team-wide email; rotate lunch invitations",
+       "One person's circle of friends is another's clique (Weber)"
+      ],
+      [
+       "Their name is on a layoff or transfer list",
+       "Don't leak decisions that aren't public; help them find a way forward afterward",
+       "A leak destroys both trust and your position"
+      ]
+     ]
+    },
+    "tail": "Two bottom lines: **for decisions that affect a friend's interests, disclose in advance and step aside if you can; friendship is kept by telling the truth, not by covering for each other.**"
+   }
+  },
+  {
+   "from": "gpt",
+   "text": "**同事友谊里的退出权**：普通朋友可以疏远而不伤生计，同事尤其上下级之间，拒绝饭局或倾诉可能有职业代价。怎样让『不亲近』也安全？",
+   "text_en": "**The right to exit a work friendship**: ordinary friends can drift apart without risking a livelihood, but between colleagues, especially across a reporting line, declining a dinner or a confidence can carry a career cost. How do we make keeping one's distance safe?"
+  },
+  {
+   "from": "dunbar",
+   "text": "**失业等于失友**：最亲近的人里同事占比太高，一次裁员就同时丢掉收入与社交网。该怎么给自己的关系网做分散？",
+   "text_en": "**Losing a job means losing friends**: if coworkers fill too much of your inner circle, one layoff takes your income and your social network at once. How do you diversify your relationships?"
+  },
+  {
+   "from": "maslach",
+   "text": "**吐槽是粘合剂还是腐蚀剂**：一起抱怨公司让同事更亲近，却也可能把整组拉进冷漠。什么时候该把吐槽变成诉求？",
+   "text_en": "**Is venting glue or acid?**: complaining about the company together brings colleagues closer, but can also pull a whole team into cynicism. When should a complaint become a request?"
+  },
+  {
+   "from": "gemini",
+   "text": "**战友与弱连接**：比起私密朋友，也许职场更需要『敢犯错、能托底』的共事信任，离职后再沉淀为一年联系一次的弱连接。",
+   "text_en": "**Comrades and weak ties**: rather than intimate friends, perhaps work needs the trust of people who let you make mistakes and have your back, which after you part settles into weak ties you renew once a year."
+  }
+ ]
+}

@@ -2,16 +2,6 @@
   "_comment": "议题投票数据。candidates=未辩候选(供投票)，debated=已辩(链到辩论)。投票免 GitHub 登录，存于自建后端(Cloudflare Worker + D1，见 ~/Desktop/cissy0802.github.io/engage-backend/)：每候选一个 poll，key='topic:'+id，choice up/down，净票=👍−👎。votes 字段由 routine 每次跑 `python3 refresh_votes.py`(读后端 /votes-net) 回写；页面 ideas.js 也会实时拉取覆盖显示。观众自提议题在评论 page='thinker-open-questions'，各候选下讨论 page='topic:'+id——routine 读这些把好提案提炼成新 candidates。新候选加进 candidates 即可。",
   "candidates": [
     {
-      "id": "friends-with-coworkers",
-      "votes": 0,
-      "q": "同事之间，该交朋友吗？",
-      "q_en": "Should coworkers be friends?",
-      "note": "有朋友的人更投入、更不易倦怠；可朋友之间不好批评、不好竞争，升了职还得管昔日好友。亚里士多德的『德性之友』，办公室里长得出来吗？",
-      "note_en": "People with friends at work are more engaged and burn out less. But friends find it hard to criticize or compete, and a promotion can make you your friend's boss. Can Aristotle's friendship of virtue grow in an office?",
-      "cat": "work",
-      "brief": "选角方向：亚里士多德（三种友爱）、马斯拉赫（倦怠）、亚当·格兰特、韦伯（科层的非人格化）、孔子（君子之交）、蒙田式友谊可由塞涅卡代。"
-    },
-    {
       "id": "white-bear-thoughts",
       "votes": 0,
       "q": "越不想去想，为什么越忘不掉？",
@@ -1345,6 +1335,13 @@
       "q_en": "Do we punish wrongdoers for justice or for satisfaction?",
       "date": "2026-11-18",
       "cat": "ethics"
+    },
+    {
+      "id": "friends-with-coworkers",
+      "q": "同事之间，该交朋友吗？",
+      "q_en": "Should coworkers be friends?",
+      "date": "2026-11-19",
+      "cat": "work"
     }
   ]
 }

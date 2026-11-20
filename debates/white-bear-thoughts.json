@@ -1,0 +1,972 @@
+{
+ "id": "white-bear-thoughts",
+ "question": "越不想去想，为什么越忘不掉？",
+ "question_en": "Why can't we stop thinking what we try not to think?",
+ "sub": "别想白熊，白熊反而冒得更勤；压下去的念头为何反弹",
+ "sub_en": "Told not to think of a white bear, people think of little else. Why do suppressed thoughts bounce back?",
+ "date": "2026-11-20",
+ "participants": [
+  "wegner",
+  "dostoevsky",
+  "freud",
+  "huineng",
+  "epictetus",
+  "singer",
+  "ledoux",
+  "williamjames"
+ ],
+ "casting": [
+  {
+   "id": "wegner",
+   "reason": "他的白熊实验是这道题的起点：被压下的念头一遇到疲惫和压力就加倍反弹，他用“讽刺性加工”解释为什么越用力越失败。",
+   "reason_en": "His white bear experiments are where this question starts: a suppressed thought rebounds harder the moment the mind is tired or stressed, and his theory of ironic processes explains why trying harder makes it worse."
+  },
+  {
+   "id": "dostoevsky",
+   "reason": "白熊难题最早是他在游记里随手抛出的；他更在意想太多的人，地下室人把过剩的意识本身当成一种病。",
+   "reason_en": "He first tossed out the white bear puzzle in a travel sketch. What really interests him is the person who thinks too much: the Underground Man treats an excess of consciousness as a disease in itself."
+  },
+  {
+   "id": "freud",
+   "reason": "他区分有意的压制与无意的压抑，坚持赶不走的念头往往背着一个没被承认的愿望或恐惧，得先弄懂它说什么。",
+   "reason_en": "He separates deliberate suppression from unconscious repression and insists that a thought you can't banish usually carries an unadmitted wish or fear, which has to be understood first."
+  },
+  {
+   "id": "huineng",
+   "reason": "他反对“百物不思”的枯坐，主张“于念而无念”：念头照起，只是不住、不随。这是禅宗对付念头最直接的一招。",
+   "reason_en": "He rejects sitting in forced blankness and teaches being amid thoughts without being carried off: let them arise, just don't dwell or follow. It is Chan's most direct answer to the problem."
+  },
+  {
+   "id": "epictetus",
+   "reason": "在他看来念头只是“印象”，人可以先审它，再决定赞不赞同；扰乱人的不是念头，而是对它的判断。",
+   "reason_en": "To him a thought is only an impression, which we can examine before deciding whether to assent. What disturbs us is not the thought but our judgment about it."
+  },
+  {
+   "id": "singer",
+   "reason": "他把重心从念头挪到“听见念头的那个人”：你不是脑中那个声音，你是听见它的人，所以不必跟它打。",
+   "reason_en": "He shifts the focus from the thought to the one who hears it: you are not the voice in your head but its listener, so there is no need to fight it."
+  },
+  {
+   "id": "ledoux",
+   "reason": "他从神经回路讲为什么有些念头格外难缠：恐惧记忆不会被删掉，消退只是新的学习压在上面，越回避越难消。",
+   "reason_en": "He explains from the brain's circuitry why some thoughts are especially sticky: fear memories are never deleted, extinction is new learning laid on top, and avoidance keeps them alive."
+  },
+  {
+   "id": "williamjames",
+   "reason": "他把意志定义为“把一个念头稳稳留在心里”的努力：念头赶不走，但能选择注意另一个，再用习惯把这个选择固定下来。",
+   "reason_en": "He defines will as the effort of holding one idea steadily before the mind: you can't evict a thought, but you can choose to attend to another and fix that choice in place with habit."
+  }
+ ],
+ "posts": [
+  {
+   "id": "p01",
+   "round": 1,
+   "thinker": "dostoevsky",
+   "reply_to": null,
+   "text": "一八六三年我在游记里开过一个玩笑：给自己出个题，别去想北极熊，你会看到那该死的东西每分钟都冒出来。笑归笑，我真正想说的是意识本身。地下室人把一切看得太清楚，于是什么都做不成，一句羞辱能嚼上几十年。**念头越赶越回来，因为赶它的也是念头。**人最难逃开的不是熊，是那个不停盯着自己的自己。",
+   "text_en": "In 1863, in a travel sketch, I made a joke: set yourself the task of not thinking of a polar bear, and you will see the cursed thing come to mind every minute. Funny, but what I was really after was consciousness itself. The Underground Man sees everything too clearly, so he can do nothing, and he chews on a single insult for decades. **A thought you try to drive out keeps coming back, because the thing doing the driving is also a thought.** What's hardest to escape isn't the bear. It's the self that never stops watching itself.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "地下室人": "the Underground Man（地下室人）：陀思妥耶夫斯基《地下室手记》（1864）的叙述者，一个自称“意识过剩”的退职小公务员，靠反复咀嚼屈辱度日。"
+   },
+   "glossary_en": {
+    "Underground Man": "Narrator of Dostoevsky's Notes from Underground (1864), a retired minor official who says he suffers from an excess of consciousness and lives on brooding over humiliations."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "wegner"
+    ],
+    "轻微赞同": [
+     "freud",
+     "singer"
+    ],
+    "中立": [
+     "williamjames"
+    ],
+    "疑惑": [
+     "huineng",
+     "epictetus"
+    ]
+   }
+  },
+  {
+   "id": "p02",
+   "round": 1,
+   "thinker": "wegner",
+   "reply_to": null,
+   "text": "一九八七年我把这个玩笑搬进了实验室：让大学生五分钟内别想白熊，一想到就按铃。他们按个不停。更糟的是，之后允许他们随便想，白熊冒得比从没被禁过的人还多。我的解释叫讽刺性加工：**你一压念头，大脑就派个监工去查它还在不在，而监工每查一次，就提醒你一次。**平时有个“找别的事想”的过程压着它；人一累、一急、一分心，监工就占了上风。",
+   "text_en": "In 1987 I took that joke into the lab. I asked college students not to think of a white bear for five minutes and to ring a bell whenever they did. They kept ringing. Worse, when they were later allowed to think about anything, the bear showed up more often than for people who had never been told to avoid it. My explanation is ironic process: **the moment you suppress a thought, your brain posts a monitor to check whether it's still there, and every check is a reminder.** Normally a process that hunts for something else to think about keeps it down. Get tired, stressed or distracted, and the monitor wins.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "讽刺性加工": "ironic process（讽刺性加工）：韦格纳1994年提出的理论。压制念头时同时运行两个过程：有意识地找别的东西去想的“操作过程”，和自动检查禁忌念头是否出现的“监控过程”。心智负荷一高，监控过程反而让禁忌念头更容易冒出来。"
+   },
+   "glossary_en": {
+    "ironic process": "Wegner's 1994 theory that suppressing a thought runs two processes at once: a conscious operating process that looks for distractions and an automatic monitoring process that checks for the forbidden thought. Under mental load, the monitor makes the thought more likely to surface."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "ledoux"
+    ],
+    "轻微赞同": [
+     "dostoevsky",
+     "williamjames"
+    ],
+    "中立": [
+     "epictetus"
+    ],
+    "轻微反对": [
+     "freud"
+    ],
+    "疑惑": [
+     "singer"
+    ]
+   }
+  },
+  {
+   "id": "p03",
+   "round": 1,
+   "thinker": "freud",
+   "reply_to": null,
+   "text": "先分清两件事。咬着牙不去想，是压制；念头根本进不了意识、却换个样子回来，是压抑。韦格纳教授的白熊属于前者，我关心的是后者。**赶不走的念头从来不是随机的，它背着一个你不肯承认的愿望或恐惧。**被压下去的东西，会借口误、梦和症状回来。所以别急着赶它，先问一句：为什么偏偏是这个念头？",
+   "text_en": "First, separate two things. Gritting your teeth so as not to think of something is suppression. A thought that never reaches consciousness at all yet comes back in disguise is repression. Professor Wegner's bear belongs to the first; I care about the second. **A thought that won't leave is never random. It carries a wish or a fear you refuse to admit.** What is pushed down returns as slips of the tongue, dreams and symptoms. So don't rush to drive it out. Ask first: why this thought, of all thoughts?",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "压制": "suppression（压制）：有意识地把某个念头推开，自己知道自己在推。",
+    "压抑": "repression（压抑）：弗洛伊德的核心概念，令人无法承受的念头或冲动被无意识地挡在意识之外，本人并不知情，但它会以伪装的形式“复返”。"
+   },
+   "glossary_en": {
+    "suppression": "Consciously pushing a thought away, knowing that you are doing it.",
+    "repression": "Freud's central concept: an unbearable thought or impulse is kept out of consciousness without the person knowing it, yet it returns in disguised form."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "dostoevsky"
+    ],
+    "轻微赞同": [
+     "ledoux"
+    ],
+    "中立": [
+     "williamjames"
+    ],
+    "轻微反对": [
+     "epictetus"
+    ],
+    "强烈反对": [
+     "huineng"
+    ],
+    "疑惑": [
+     "wegner"
+    ]
+   }
+  },
+  {
+   "id": "p04",
+   "round": 1,
+   "thinker": "huineng",
+   "reply_to": null,
+   "text": "善知识，**若百物不思，当令念绝，即是法缚**。我此法门，先立无念为宗。无念者，于念而无念。前念今念后念，念念相续，无有断绝；但于诸境上心不染，是为无念。非是除念，是念来不住。譬如浮云过空，空不拒云，云亦不碍空。",
+   "text_en": "Friends, **if you try to think of nothing at all and force your thoughts to stop, that is bondage to method.** My teaching takes no-thought as its root. No-thought means being amid thoughts without being carried off by them. The thought before, this thought and the thought after follow one another without a break. Only let the mind stay unstained by whatever it meets; that is no-thought. It is not removing thoughts. It is not lingering where they arise. Like clouds crossing the sky: the sky does not refuse the clouds, and the clouds do not hinder the sky.",
+   "vernacular": "各位，**如果什么都不去想、硬要把念头断绝，这本身就是被方法捆住了**。我这个法门，以“无念”为宗旨。无念不是没有念头，而是身在念头之中却不被念头带走。前一个念头、这一个、下一个，接连不断，本来就断不了；只要面对种种境况时心不被沾染，这就是无念。不是去除念头，而是念头来了不停留。就像浮云飘过天空，天空不拒绝云，云也不妨碍天空。",
+   "vernacular_en": "",
+   "glossary": {
+    "无念": "no-thought（无念）：《坛经》的核心法门。不是没有念头，而是念头生起时心不黏着、不随之流转。",
+    "法缚": "bondage to method（法缚）：被修行方法本身捆住；慧能用它批评强行断念的枯坐。"
+   },
+   "glossary_en": {
+    "no-thought": "The core teaching of the Platform Sutra. Not an absence of thoughts, but a mind that does not stick to them or flow along with them as they arise.",
+    "bondage to method": "Being tied up by the practice itself. Huineng uses it against sitting in forced blankness, trying to cut off all thought."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "singer"
+    ],
+    "轻微赞同": [
+     "wegner",
+     "epictetus"
+    ],
+    "中立": [
+     "williamjames"
+    ],
+    "轻微反对": [
+     "freud"
+    ],
+    "疑惑": [
+     "dostoevsky",
+     "ledoux"
+    ]
+   }
+  },
+  {
+   "id": "p05",
+   "round": 1,
+   "thinker": "epictetus",
+   "reply_to": null,
+   "text": "一个念头冒出来，它只是一个印象，还不是你的判断。我教学生对每个刺人的印象说：**“你只是个印象，根本不是你看上去的那个东西。”**然后审它：这件事在我掌控之内吗？在，就去做；不在，就与我无关。扰乱人的从来不是事情本身，而是人对事情的看法。不必赶走念头，只是别轻易给它赞同。",
+   "text_en": "When a thought springs up, it is only an impression, not yet your judgment. I teach my students to say to every impression that stings: **\"You are an impression, and not at all the thing you appear to be.\"** Then test it: is this within my control? If so, act. If not, it is nothing to me. It is never things themselves that disturb us, but our judgments about things. You don't need to drive the thought away. Just don't hand it your assent so easily.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "印象": "impression（印象，phantasia）：斯多葛学派术语，指外物或念头呈现于心中的样子。它本身无所谓好坏，要经过人的“赞同”才变成判断与情绪。",
+    "赞同": "assent（赞同，synkatathesis）：斯多葛学派认为，情绪的产生需要人对印象点头认可，而这一步在人的掌控之内。"
+   },
+   "glossary_en": {
+    "impression": "Stoic term (phantasia) for the way a thing or thought presents itself to the mind. It is neither good nor bad until a person assents to it and turns it into a judgment and an emotion.",
+    "assent": "Stoic term (synkatathesis): emotion requires the mind to say yes to an impression, and that yes is within our control."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "singer"
+    ],
+    "轻微赞同": [
+     "huineng",
+     "williamjames"
+    ],
+    "中立": [
+     "wegner"
+    ],
+    "轻微反对": [
+     "ledoux"
+    ],
+    "强烈反对": [
+     "freud"
+    ]
+   }
+  },
+  {
+   "id": "p06",
+   "round": 1,
+   "thinker": "singer",
+   "reply_to": null,
+   "text": "你脑子里有个声音，从早说到晚：担心、评论、排练明天要说的话。关键是，**你不是那个声音，你是听见那个声音的人。**你一跟它打，就把自己降到了它那一层，它当然越吵越凶。我的做法很简单：注意到它，往后靠一点，放松，让它过去。不推，也不追。被它搅起来的那股劲儿，你不去抓，它自己会走。",
+   "text_en": "There's a voice in your head that talks from morning to night: worrying, commenting, rehearsing tomorrow's conversations. The key is, **you are not that voice. You are the one who hears it.** The moment you fight it, you drop down to its level, and of course it gets louder. What I do is simple: notice it, lean back a little, relax, and let it pass. Don't push, don't chase. If you don't grab the energy it stirs up, it leaves on its own.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "huineng"
+    ],
+    "轻微赞同": [
+     "epictetus",
+     "wegner"
+    ],
+    "中立": [
+     "williamjames"
+    ],
+    "轻微反对": [
+     "dostoevsky"
+    ],
+    "疑惑": [
+     "freud",
+     "ledoux"
+    ]
+   }
+  },
+  {
+   "id": "p07",
+   "round": 1,
+   "thinker": "ledoux",
+   "reply_to": null,
+   "text": "念头背后要是连着威胁，事情就不只是心理学了。大脑的防御性生存回路会牢牢记住危险线索，这类记忆不会被删掉。我们说的“忘掉”，在实验里叫消退，而**消退不是擦掉旧记忆，是学了一条新记忆压在上面。**新记忆很脆，换个环境、压力一大，旧的就卷土重来。回避则让你永远学不到那条新记忆：越躲，那个念头越有理由留下。",
+   "text_en": "If a thought is tied to a threat, this stops being only psychology. The brain's defensive survival circuits lock in danger cues, and those memories are not deleted. What we call forgetting is, in the lab, extinction, and **extinction doesn't erase the old memory; it lays a new one on top.** The new one is fragile. Change the setting or pile on stress and the old one comes roaring back. Avoidance means you never learn that new memory at all. The more you dodge, the more reason the thought has to stay.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "防御性生存回路": "defensive survival circuits（防御性生存回路）：勒杜的用语，指以杏仁核为中心、自动侦测并应对威胁的神经回路；他强调这不等于“恐惧”这种有意识的感受。",
+    "消退": "extinction（消退）：反复接触危险线索而不再发生坏事后，反应逐渐减弱。它是新的学习，原记忆仍在，可能“自发恢复”。"
+   },
+   "glossary_en": {
+    "defensive survival circuits": "LeDoux's term for the amygdala-centered circuits that detect and respond to threat automatically. He stresses that they are not the same as fear, the conscious feeling.",
+    "extinction": "The fading of a response after repeated exposure to a danger cue with nothing bad happening. It is new learning; the original memory remains and can spontaneously return."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "wegner"
+    ],
+    "轻微赞同": [
+     "freud",
+     "williamjames"
+    ],
+    "中立": [
+     "epictetus"
+    ],
+    "轻微反对": [
+     "singer"
+    ],
+    "疑惑": [
+     "huineng"
+    ]
+   }
+  },
+  {
+   "id": "p08",
+   "round": 1,
+   "thinker": "williamjames",
+   "reply_to": "p02",
+   "text": "@wegner 您说的监工，我很熟悉。一百多年前我写过：**意志最根本的成就，就是把一个念头稳稳留在心里。**念头推不走，但你能把注意力抓到另一个念头上，并且守住。我管它叫意识流：它是一条河，不是一间能清空的屋子，你能做的只是挑河道。再说，靠意志硬撑总有累的时候，所以要把好的转念练成习惯，让它不必每次都费力。",
+   "text_en": "@wegner I know your monitor well. Over a century ago I wrote that **the essential achievement of the will is to attend to an object and hold it fast before the mind.** A thought won't be pushed out, but you can seize your attention onto another and keep it there. I call it the stream of consciousness: a river, not a room you can empty out, and all you can do is choose the channel. And raw willpower always tires, so train the good turn of attention into a habit, so it doesn't cost effort every time.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "意识流": "stream of consciousness（意识流）：詹姆斯《心理学原理》（1890）的说法，意识不是一节节拼接起来的，而是连续流动的河。"
+   },
+   "glossary_en": {
+    "stream of consciousness": "William James's image in The Principles of Psychology (1890): consciousness is not chopped into bits but flows continuously, like a river."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "wegner"
+    ],
+    "轻微赞同": [
+     "epictetus",
+     "singer"
+    ],
+    "中立": [
+     "freud"
+    ],
+    "轻微反对": [
+     "huineng"
+    ],
+    "疑惑": [
+     "ledoux"
+    ]
+   }
+  },
+  {
+   "id": "p09",
+   "round": 2,
+   "thinker": "dostoevsky",
+   "reply_to": "p06",
+   "text": "@singer 您说往后靠一点，看着那个声音。地下室人干的正是这个：他看着自己受辱，又看着自己在看，一层套一层。**看着念头的那个人，也可能变成新的折磨。**我认识的人里，最痛苦的不是不会观察的，而是观察停不下来的。您说的“往后靠”，要靠到哪一层才算到底？",
+   "text_en": "@singer You say lean back and watch the voice. That is exactly what the Underground Man does: he watches himself being humiliated, then watches himself watching, layer upon layer. **The one who watches thoughts can become a new torment.** The most miserable people I have known were not those who couldn't observe, but those who couldn't stop. When you say lean back, how far back is the bottom?",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "freud"
+    ],
+    "轻微赞同": [
+     "wegner",
+     "ledoux"
+    ],
+    "中立": [
+     "williamjames"
+    ],
+    "轻微反对": [
+     "huineng"
+    ],
+    "强烈反对": [
+     "singer"
+    ]
+   }
+  },
+  {
+   "id": "p10",
+   "round": 2,
+   "thinker": "wegner",
+   "reply_to": "p04",
+   "text": "@huineng 实验其实站在您这边：让人接纳念头、随它去，反弹比压制小。但有个陷阱我见得太多。**如果你“接纳”是为了让它快点走，监工就还在岗，只是换了身袈裟。**一边观照一边偷看“它走了没”，仍是压制。还有，具体的替代物管用：白熊一来就专心去想一辆红色大众车，比笼统的“想点别的”强得多。",
+   "text_en": "@huineng The data are actually on your side: people told to accept a thought and let it be show less rebound than suppressors. But there's a trap I've seen too often. **If you \"accept\" a thought so that it will leave faster, the monitor is still on duty, just wearing a monk's robe.** Watching while sneaking peeks to see whether it's gone yet is still suppression. Also, a concrete substitute works: when the bear comes, think hard about a red Volkswagen. That beats a vague \"think about something else\" by a mile.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "dostoevsky"
+    ],
+    "轻微赞同": [
+     "huineng",
+     "williamjames"
+    ],
+    "中立": [
+     "ledoux"
+    ],
+    "疑惑": [
+     "singer",
+     "epictetus"
+    ]
+   }
+  },
+  {
+   "id": "p11",
+   "round": 2,
+   "thinker": "freud",
+   "reply_to": "p05",
+   "text": "@epictetus 对念头说“你只是个印象”，听着很潇洒。可情感不听论证。一个人每晚都想起母亲的病，你告诉他“这不在你掌控之内”，他点头，第二晚照想。**理性的判词盖不住一份没被理解的情感，只会把它逼进梦里。**韦格纳后来的研究也发现，白天压下某人的念头，夜里梦到他的反而更多。先弄懂它在说什么，再谈赞不赞同。",
+   "text_en": "@epictetus Telling a thought \"you are only an impression\" sounds very cool. But feelings don't listen to arguments. A man thinks of his mother's illness every night. You tell him \"that's outside your control\", he nods, and the next night he thinks of it again. **A rational verdict can't cover a feeling nobody has understood; it only drives it into dreams.** Wegner's later work found that people who suppress thoughts of someone by day dream of that person more at night. First understand what it's saying, then talk about assent.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "dostoevsky"
+    ],
+    "轻微赞同": [
+     "wegner",
+     "ledoux"
+    ],
+    "中立": [
+     "williamjames"
+    ],
+    "轻微反对": [
+     "epictetus"
+    ],
+    "疑惑": [
+     "huineng"
+    ]
+   }
+  },
+  {
+   "id": "p12",
+   "round": 2,
+   "thinker": "huineng",
+   "reply_to": "p03",
+   "text": "@freud 汝言念必有所藏，须掘到底。然掘得一层，又见一层，所掘者亦是念也；日日说梦，说得一梦，又生十梦。**向念中觅念，如水中捞月。**昔二僧争风动幡动，吾曰：不是风动，不是幡动，仁者心动。念之来处不必追，但看此心于念上住否。住即是缚，不住即解。",
+   "text_en": "@freud You say every thought hides something and must be dug down to the bottom. But dig one layer and another appears, and what you dig up is still thought; talk about dreams every day, and for each dream told, ten more are born. **Searching for the root of thought inside thought is fishing for the moon in the water.** Once two monks argued over whether the wind moved or the banner moved. I said: it is not the wind, not the banner; your mind moves. Don't chase where a thought comes from. Only see whether the mind settles on it. Settling is bondage; not settling is release.",
+   "vernacular": "@freud 你说念头背后一定藏着东西，得挖到底。可挖出一层，又露出一层，挖出来的还是念头；天天讲梦，讲完一个梦，又生出十个梦。**在念头里找念头的根，就像在水里捞月亮。**当年两个和尚争论是风在动还是幡在动，我说：不是风动，也不是幡动，是你们的心在动。念头从哪来不必追，只看这颗心有没有停在念头上。停住就是被捆住，不停就是解脱。",
+   "vernacular_en": "",
+   "glossary": {
+    "仁者心动": "it is your mind that moves（仁者心动）：《坛经》典故。二僧争论是风在动还是幡在动，慧能说是心在动，指一切扰动的关键在心，不在外境。"
+   },
+   "glossary_en": {
+    "your mind moves": "A story from the Platform Sutra: two monks argued whether the wind or the banner was moving, and Huineng said it was their minds. The source of disturbance lies in the mind, not in the outside world."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "singer"
+    ],
+    "轻微赞同": [
+     "epictetus",
+     "wegner"
+    ],
+    "中立": [
+     "ledoux"
+    ],
+    "强烈反对": [
+     "freud"
+    ],
+    "疑惑": [
+     "williamjames"
+    ]
+   }
+  },
+  {
+   "id": "p13",
+   "round": 2,
+   "thinker": "epictetus",
+   "reply_to": "p07",
+   "text": "@ledoux 你说的回路，我们早有名字：初动。一声巨响，连智者也会脸色发白、心头一紧，这由不得他。**发抖是身体的事，接下来认不认定“大祸临头”，才是我的事。**我也同意躲没用：我让学生把死亡、放逐、失去亲人这些事每天摆在眼前。不是自虐，而是让那个念头在白天被看透，到了夜里就没那么吓人。",
+   "text_en": "@ledoux We had a name for your circuits long ago: first movements. At a sudden crash even the wise man turns pale and his heart lurches; that is not up to him. **Trembling is the body's business. Whether to conclude that disaster has struck is mine.** I agree that hiding is useless. I tell my students to keep death, exile and the loss of those they love before their eyes every day. Not to torment themselves, but so the thought is seen through by daylight and loses its terror at night.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "初动": "first movements（初动，propatheia）：斯多葛学派认为，突发刺激引起的心惊、脸色发白是不由自主的身体反应，还不算情绪；要等人赞同“这是坏事”，情绪才成立。"
+   },
+   "glossary_en": {
+    "first movements": "Stoic term (propatheiai): the involuntary start, pallor or jolt caused by a sudden shock. It is not yet an emotion; emotion arises only when the mind assents that something bad has happened."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "ledoux"
+    ],
+    "轻微赞同": [
+     "williamjames",
+     "singer"
+    ],
+    "中立": [
+     "wegner"
+    ],
+    "轻微反对": [
+     "freud"
+    ],
+    "疑惑": [
+     "dostoevsky"
+    ]
+   }
+  },
+  {
+   "id": "p14",
+   "round": 2,
+   "thinker": "singer",
+   "reply_to": "p09",
+   "text": "@dostoevsky 您描述的不是观察，是评论。“我在受辱，我又在看自己受辱，我真可悲”——每一层都在说话，每一层都是那个声音。**真正的觉知不加评语，它像屋里的光，照着一切，自己不动。**所以不用一层层往后退，退到不说话的地方就到了。您会发现那里很安静。",
+   "text_en": "@dostoevsky What you describe isn't watching, it's commentary. \"I'm being humiliated, now I'm watching myself being humiliated, how pathetic I am.\" Every layer is talking; every layer is the voice. **Real awareness adds no remarks. It's like the light in a room: it shines on everything and doesn't move.** So you don't need to retreat layer after layer. Step back to where nothing is being said, and you're there. You'll find it's quiet.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "huineng"
+    ],
+    "轻微赞同": [
+     "epictetus"
+    ],
+    "中立": [
+     "wegner",
+     "williamjames"
+    ],
+    "轻微反对": [
+     "freud"
+    ],
+    "疑惑": [
+     "dostoevsky"
+    ]
+   }
+  },
+  {
+   "id": "p15",
+   "round": 2,
+   "thinker": "ledoux",
+   "reply_to": "p08",
+   "text": "@williamjames 把注意力换个河道，短期确实管用，我不反对。但**如果转移注意力是为了永远不碰那个可怕的东西，它就成了回避，消退永远不会发生。**焦虑门诊里最有效的不是让人别想，而是让人有准备地、反复地去面对它：写下来，说出来，回到那个场景，直到大脑学到“这次没出事”。分心是止痛片，不是疗法。",
+   "text_en": "@williamjames Switching attention to another channel does work in the short run, and I don't object. But **if the switch is a way of never touching the frightening thing, it becomes avoidance, and extinction never happens.** What works best in anxiety clinics isn't telling people not to think about it, but having them face it, prepared and repeatedly: write it down, say it out loud, go back to the place, until the brain learns that nothing bad happened this time. Distraction is a painkiller, not a cure.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "epictetus"
+    ],
+    "轻微赞同": [
+     "freud",
+     "wegner"
+    ],
+    "中立": [
+     "huineng"
+    ],
+    "轻微反对": [
+     "williamjames"
+    ],
+    "疑惑": [
+     "singer"
+    ]
+   }
+  },
+  {
+   "id": "p16",
+   "round": 2,
+   "thinker": "williamjames",
+   "reply_to": "p11",
+   "text": "@freud 我是实用主义者，判断一个办法灵不灵，只看它在什么情境下结出什么果子。**念头不是一种东西，所以不该只有一种对付法。**欠着房租的焦虑，答案是去打那个电话；一首洗脑神曲，不理它就好；连着创伤的闪回，需要医生和暴露练习；只有那种反复绕回、说不清来由的，才值得您的长沙发。各位别争谁对，先问这是哪一种念头。",
+   "text_en": "@freud I'm a pragmatist; I judge a method only by the fruit it bears in a given situation. **Thoughts are not one kind of thing, so there shouldn't be one way of handling them.** Anxiety about unpaid rent is answered by making the phone call. A catchy jingle stuck in your head goes away if you ignore it. Flashbacks tied to trauma need a doctor and exposure work. Only the kind that keeps circling back for reasons you can't name deserves your couch. Let's not argue over who's right; first ask what kind of thought this is.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "实用主义": "pragmatism（实用主义）：由皮尔士与詹姆斯开创的美国哲学，主张一个观念的意义和真假，要看它在实践中产生什么效果。"
+   },
+   "glossary_en": {
+    "pragmatist": "A follower of pragmatism, the American philosophy founded by Peirce and James, which holds that the meaning and truth of an idea lie in its practical consequences."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "wegner"
+    ],
+    "轻微赞同": [
+     "ledoux",
+     "freud",
+     "epictetus"
+    ],
+    "中立": [
+     "singer"
+    ],
+    "疑惑": [
+     "huineng",
+     "dostoevsky"
+    ]
+   }
+  },
+  {
+   "id": "p17",
+   "round": 3,
+   "thinker": "dostoevsky",
+   "reply_to": "p14",
+   "text": "我收回一半玩笑。白熊每分钟都回来，不全因为它可怕，而是我们拿它考验自己的意志，好像赢了它就证明了什么。辛格先生说得对，那一层层的评语才是声音。**人最难放下的，往往不是念头，而是“我必须管住自己”的骄傲。**给普通人一条建议：深夜反复回放白天那句难听的话时，把它写下来，放在桌上，明早再说。很多话到了早上，只剩纸上的一行字。",
+   "text_en": "I take back half my joke. The bear comes back every minute not only because it's frightening, but because we use it to test our will, as if beating it would prove something. Mr. Singer is right that the layers of commentary are the voice. **What's hardest to let go of is often not the thought but the pride that says I must keep myself under control.** One piece of advice for ordinary people: when you lie awake replaying something cruel someone said that day, write it down, leave it on the desk, and deal with it in the morning. By morning, much of it is just a line on a page.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "singer"
+    ],
+    "轻微赞同": [
+     "freud",
+     "huineng"
+    ],
+    "中立": [
+     "ledoux"
+    ],
+    "疑惑": [
+     "epictetus"
+    ]
+   }
+  },
+  {
+   "id": "p18",
+   "round": 3,
+   "thinker": "wegner",
+   "reply_to": "p10",
+   "text": "总结一下实验能担保的几件事。第一，别在最累的时候跟念头摔跤，负荷越高，压制越失败；考试前夜、加班之后，先去睡。第二，**真想转移，就提前选好一个具体的替代物，别临时“想点别的”。**第三，给担忧排个时段：每天固定十五分钟专门担心，其余时间冒出来就记一笔，推到那时。慧能说的“不住”我认为是对的，只要你别偷偷掐表。",
+   "text_en": "Here is what the experiments can vouch for. First, don't wrestle a thought when you're most exhausted; the higher the load, the more suppression fails. The night before an exam, after a late shift, sleep first. Second, **if you want to switch, pick one concrete substitute in advance, not a last-second \"something else.\"** Third, give worry a time slot: a fixed fifteen minutes a day just for worrying, and when it pops up at other times, jot it down and push it to then. I think Huineng's not-dwelling is right, as long as you don't secretly keep a stopwatch on it.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "williamjames"
+    ],
+    "轻微赞同": [
+     "huineng",
+     "ledoux",
+     "singer"
+    ],
+    "中立": [
+     "epictetus"
+    ],
+    "疑惑": [
+     "freud"
+    ]
+   }
+  },
+  {
+   "id": "p19",
+   "round": 3,
+   "thinker": "freud",
+   "reply_to": "p12",
+   "text": "我承认慧能大师说中一点：挖掘也能变成另一种执迷。但我仍坚持，**一个念头反复回来，至少值得你问一次它想说什么。**多数时候答案并不深：总想起前任，是你眼下寂寞；反复咀嚼某句批评，是你怕它是真的。说出来，就松了一半。建议：找一个不评判你的人，或者一张纸，不打草稿地写十分钟。若连续几周缠绕不去、影响睡眠和工作，就去看专业的人，这不丢人。",
+   "text_en": "I grant that Master Huineng has a point: digging can become another obsession. But I still hold that **a thought that keeps coming back deserves at least one question about what it's trying to say.** Usually the answer isn't deep. You keep thinking of your ex because you're lonely right now; you chew on a criticism because you're afraid it's true. Say it out loud and half the grip loosens. My advice: find someone who won't judge you, or a sheet of paper, and write for ten minutes without stopping to edit. If it keeps circling for weeks and is eating into your sleep and work, see a professional. There's no shame in that.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "dostoevsky"
+    ],
+    "轻微赞同": [
+     "williamjames",
+     "ledoux"
+    ],
+    "中立": [
+     "wegner",
+     "epictetus"
+    ],
+    "轻微反对": [
+     "huineng"
+    ]
+   }
+  },
+  {
+   "id": "p20",
+   "round": 3,
+   "thinker": "huineng",
+   "reply_to": "p16",
+   "text": "诸位所说，各是方便。监工是住，掘根亦是住；但能不住，诸法皆可为用。**念起无妨，住着为患。**凡夫日用：念来时，知其来，不迎不拒；吃饭时吃饭，扫地时扫地，心在当处，念自无所依。若一念缠缚不休，莫责己心，但还归当处，一日百回，亦只百回还来。",
+   "text_en": "Each of you offers a skillful means. The monitor is dwelling; digging for roots is dwelling too. Only do not dwell, and every method can serve. **A thought arising does no harm; clinging to it is the trouble.** For ordinary days: when a thought comes, know that it has come, neither welcome it nor push it away. When eating, eat; when sweeping, sweep. With the mind where you are, the thought has nothing to lean on. If one thought keeps binding you, don't blame your mind. Just return to where you are. A hundred times a day is only a hundred returns.",
+   "vernacular": "各位说的，都是因时因人的方便法门。监工是停在念头上，挖根也是停在念头上；只要不停住，哪种方法都能拿来用。**念头生起没关系，粘住不放才是麻烦。**普通人日常：念头来了，知道它来了，不迎也不拒；吃饭时就吃饭，扫地时就扫地，心在眼前这件事上，念头自然没处依附。如果某个念头缠着不放，别责怪自己的心，只管回到眼前；一天回来一百次，也不过是回来一百次。",
+   "vernacular_en": "",
+   "glossary": {
+    "方便": "skillful means（方便）：佛教用语，指因人因时设立的权宜教法，本身不是目的。"
+   },
+   "glossary_en": {
+    "skillful means": "Buddhist term (upāya) for teaching methods suited to a particular person or moment; useful, but never the goal in themselves."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "singer"
+    ],
+    "轻微赞同": [
+     "williamjames",
+     "wegner",
+     "epictetus"
+    ],
+    "中立": [
+     "ledoux"
+    ],
+    "疑惑": [
+     "freud"
+    ]
+   }
+  },
+  {
+   "id": "p21",
+   "round": 3,
+   "thinker": "epictetus",
+   "reply_to": "p11",
+   "text": "弗洛伊德的反驳我接受：判断不能当封条用。可审视仍是最好用的工具，只要做得慢一点。**念头不必赶走，但每个念头都要过一道门：这是事实，还是我加上去的判断？**建议：把最缠人的那个念头写成一句话，下面分两栏，“发生了什么”和“我认为这意味着什么”。多数痛苦都在第二栏，而第二栏可以改。第一栏里能做的事，今天就做一件。",
+   "text_en": "I accept Freud's objection: a judgment can't be used as a seal. But examination is still the most useful tool, as long as it's done slowly. **You don't have to drive a thought away, but every thought should pass through one gate: is this a fact, or a judgment I've added?** My advice: write the most persistent thought as a single sentence. Below it, make two columns: what happened, and what I think it means. Most of the suffering lives in the second column, and the second column can be changed. Of whatever can be done in the first, do one thing today.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "williamjames"
+    ],
+    "轻微赞同": [
+     "ledoux",
+     "freud",
+     "wegner"
+    ],
+    "中立": [
+     "singer"
+    ],
+    "疑惑": [
+     "huineng"
+    ]
+   }
+  },
+  {
+   "id": "p22",
+   "round": 3,
+   "thinker": "singer",
+   "reply_to": "p09",
+   "text": "陀思妥耶夫斯基提醒得好，观察也会被那个声音劫走。所以我最后只说最小的一步：**念头一来，先找身体哪里在收紧，然后有意地把那里放松。**肩膀、下巴、胸口。念头是一股能量，你一收紧，它就卡在里面打转。每天做几十次，不为让念头消失，只为不再跟它较劲。几周后你会发现，同一个念头再来，它已经拽不动你了。",
+   "text_en": "Dostoevsky's warning is a good one: watching can be hijacked by the voice too. So I'll end with the smallest possible step: **when a thought comes, first find where your body is tightening, then deliberately relax that spot.** Shoulders, jaw, chest. A thought is a surge of energy; when you tighten, it gets stuck inside and keeps spinning. Do this dozens of times a day, not to make the thought disappear, but to stop wrestling with it. In a few weeks you'll notice the same thought comes back and can no longer drag you along.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "huineng"
+    ],
+    "轻微赞同": [
+     "dostoevsky",
+     "ledoux"
+    ],
+    "中立": [
+     "wegner",
+     "williamjames",
+     "epictetus"
+    ]
+   }
+  },
+  {
+   "id": "p23",
+   "round": 3,
+   "thinker": "ledoux",
+   "reply_to": "p16",
+   "text": "我同意詹姆斯的分类，再补上大脑这一层。**对连着恐惧的念头，最没用的是一直躲，最有用的是在安全的条件下一点点去碰它。**两条实际路线：轻的，自己做小剂量暴露，把最怕的情景写成一段话，每天读一遍，直到读来平淡；重的，像闪回和强迫念头，去找做暴露疗法或认知行为治疗的专业人员。另外，缺觉会让杏仁核更敏感，先把觉睡够。",
+   "text_en": "I agree with James's sorting and want to add the brain's layer. **For thoughts tied to fear, the least useful thing is to keep dodging; the most useful is to approach them bit by bit under safe conditions.** Two practical routes. For milder cases, do small doses of exposure on your own: write your most feared scenario as a paragraph and read it once a day until it reads as flat. For serious ones, like flashbacks and obsessive thoughts, find a professional who does exposure therapy or CBT. And lack of sleep makes the amygdala more reactive, so get enough sleep first.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {
+    "暴露疗法": "exposure therapy（暴露疗法）：在安全、可控的条件下让人逐步、反复面对所恐惧的情境或念头，借消退学习降低恐惧，是治疗焦虑障碍和强迫症的一线方法。",
+    "杏仁核": "amygdala（杏仁核）：大脑颞叶深处一对杏仁状结构，参与侦测威胁、形成恐惧条件反射。"
+   },
+   "glossary_en": {
+    "exposure therapy": "Gradually and repeatedly facing a feared situation or thought under safe, controlled conditions so that extinction learning reduces the fear. A first-line treatment for anxiety disorders and OCD.",
+    "amygdala": "A pair of almond-shaped structures deep in the temporal lobes involved in detecting threat and forming conditioned fear."
+   },
+   "reactions": {
+    "强烈赞同": [
+     "epictetus"
+    ],
+    "轻微赞同": [
+     "wegner",
+     "williamjames",
+     "freud"
+    ],
+    "中立": [
+     "singer"
+    ],
+    "疑惑": [
+     "huineng"
+    ]
+   }
+  },
+  {
+   "id": "p24",
+   "round": 3,
+   "thinker": "williamjames",
+   "reply_to": "p15",
+   "text": "诸位其实凑出了一张地图：能办的事，去办；无害的杂念，不理；连着恐惧的，去面对；说不清的，去理解。而这一切，都别在疲惫时硬拼。勒杜说得对，分心若成了逃避就该停。**你不必赢过念头，只要比它多做一次选择。**最后一条来自习惯：给自己定一个“回来的动作”，念头一缠上来，就起身倒杯水、走到窗边深呼吸三次。练上一个月，这件事就不再需要你费力。",
+   "text_en": "Together you've drawn a map. Things you can act on, act on. Harmless mental clutter, ignore. Thoughts tied to fear, face. Ones you can't account for, try to understand. And never fight any of them when you're exhausted. LeDoux is right that distraction should stop once it turns into escape. **You don't have to beat a thought, only make one more choice than it does.** My last piece of advice comes from habit: give yourself a \"coming back\" action. When a thought latches on, get up and pour a glass of water, or go to the window and take three deep breaths. Practice it for a month and it will no longer cost you any effort.",
+   "vernacular": null,
+   "vernacular_en": null,
+   "glossary": {},
+   "glossary_en": {},
+   "reactions": {
+    "强烈赞同": [
+     "wegner"
+    ],
+    "轻微赞同": [
+     "ledoux",
+     "epictetus",
+     "singer",
+     "huineng"
+    ],
+    "中立": [
+     "freud",
+     "dostoevsky"
+    ]
+   }
+  }
+ ],
+ "summaries": [
+  {
+   "ai": "claude",
+   "engine": "Opus 5.5 · 订阅(原生)",
+   "engine_en": "Opus 5.5 · subscription (native)",
+   "summary": "全场最大的共识是：**念头赶不走，越用力推，它回来得越勤。**韦格纳的监工、慧能的“百物不思即是法缚”、辛格的“别跟那个声音打”、勒杜的“回避让消退无从发生”，说的都是同一件事：麻烦不在念头出现，而在我们跟它较劲。分歧在于接下来怎么办。慧能和辛格主张不追不住；弗洛伊德坚持反复回来的念头值得弄懂；爱比克泰德要先审视再决定赞不赞同；勒杜要在安全条件下主动去碰它。詹姆斯给出调和：先分清是哪种念头，再挑办法。",
+   "summary_en": "The strongest point of agreement: **you can't drive a thought out, and the harder you push, the more often it returns.** Wegner's monitor, Huineng's warning that forcing the mind blank is bondage to method, Singer's advice not to fight the voice, LeDoux's point that avoidance prevents extinction: all say the trouble isn't that the thought appears but that we wrestle with it. They split on what to do next. Huineng and Singer say don't chase it and don't dwell. Freud insists a recurring thought deserves to be understood. Epictetus wants it examined before any assent. LeDoux wants it approached deliberately under safe conditions. James reconciles them: first work out what kind of thought it is, then pick the tool.",
+   "insight": "场上把念头当成心理问题来对付，却少有人点明：**很多赶不走的念头，其实是一件还没安排的事。**蔡格尼克早就观察到，没做完的事比做完的记得牢。马西坎波与鲍迈斯特2011年的实验更进一步：被未完成目标困扰的人，只要写下何时、何地、先做哪一步，相关念头的干扰就明显下降，哪怕事情本身还没做。大脑要的不是答案，而是一个“已经交接”的信号。詹姆斯提到了打房租电话，这一招的适用面其实宽得多。",
+   "insight_en": "The debate treated recurring thoughts as a psychological problem, and few said it outright: **many thoughts that won't leave are simply a task that hasn't been scheduled.** Bluma Zeigarnik noticed long ago that unfinished tasks are remembered better than finished ones. Masicampo and Baumeister went further in 2011: people nagged by an unfinished goal were far less troubled by intruding thoughts once they wrote down when, where and what the first step would be, even though the task itself was still undone. The brain doesn't need the answer; it needs a signal that the job has been handed off. James mentioned calling about the rent, but the trick reaches much further than that.",
+   "advice": "本周就能做的三件事。一、给担忧定一个固定时段，比如每天傍晚十五分钟，其余时间冒出来就记在手机里，推到那时再想（韦格纳）。二、念头最缠人的那一刻，先找身体哪里收紧，把肩膀和下巴放松，再决定要不要处理它（辛格）。三、把这周反复冒出的念头过一遍，凡是对应一件没办完的事，写下“何时、何地、第一步做什么”，写完就算交接。**若同一念头连续几周缠绕、影响睡眠或工作，去找做认知行为治疗的专业人员。**",
+   "advice_en": "Three things to start this week. First, give worry a fixed slot, say fifteen minutes each evening; when it comes up at other times, note it on your phone and save it for then (Wegner). Second, at the moment a thought grips hardest, find where your body is tightening and relax your shoulders and jaw before deciding whether to deal with it (Singer). Third, go through the thoughts that kept coming back this week, and for each one tied to unfinished business, write down when, where and what the first step is. Once it's written, it's handed off. **If the same thought keeps circling for weeks and is affecting your sleep or work, see a professional who does cognitive behavioral therapy.**"
+  },
+  {
+   "ai": "gpt",
+   "engine": "openai · gpt-5.6-sol · high(真实API)",
+   "engine_en": "openai · gpt-5.6-sol · high (live API)",
+   "summary": "念头越赶越黏；更可行的目标不是把头脑清空，而是不迎不拒地看见它，再把注意和行动带回当下。**压制会让念头变得更显眼，接纳则不是暗中催它消失。**真正的分歧在于反复出现的内容该如何理解：它可能只是认知监控的副作用，也可能承载未处理的情感、威胁记忆或错误判断。相应地，无害杂念可放过，可解决的问题要行动，恐惧需在安全中逐步面对，含混而持久的困扰则值得理解。共同底线是避免疲惫时硬拼，也别把短期分心变成长期回避。",
+   "insight": "“今天想了几次”并不是好的恢复指标，因为每次数数都要先扫描念头是否出现，等于继续给它贴上“重要、危险”的标签。**更可靠的进步，是念头出现后能否更快回到正在做的事，并少做一次检查、求证、回避或自责。**这也解释了为何接纳有时看似无效：嘴上允许，心里仍把“它消失了吗”当考试结果。普通人不必等到彻底想通或完全平静才生活；先恢复睡眠、工作、社交和必要行动，念头即使仍来，也会因不再支配行为而逐渐失去地位。严重症状的目标相同，但需要专业支持。",
+   "advice": "今天做一张“念头应对卡”：①念头来时说“我注意到自己又在想X”，缓慢呼气，松开下巴和肩膀，一分钟内不争辩也不驱赶；②给它分类：能解决的，立刻写下一个十分钟内可做的动作；纯担忧的，记一行，留到固定的十五分钟担忧时段；与轻度恐惧相连的，列出由易到难的面对阶梯，本周只练最轻一级。③**记录“多久回到生活”，不要记录“今天出现几次”。**若连续两周明显失眠、无法工作，或伴随闪回、强迫行为、自伤念头，应尽快联系心理或精神科专业人员。",
+   "summary_en": "Trying to force a thought out usually makes it more salient. The shared practical aim is therefore not an empty mind, but the ability to notice what has appeared without feeding it, then return attention and behavior to the present. **Suppression marks the thought as important; acceptance is not a covert demand that it disappear.** The real disagreement concerns what recurring thoughts mean and therefore what response they require. Some are side effects of mental monitoring or harmless cognitive noise. Others point to unresolved emotion, a threat memory, a distorted judgment, or a concrete problem that still needs action. That distinction matters: a trivial mental loop can be left alone; a solvable concern calls for a next step; fear is often reduced through gradual, safe contact rather than avoidance; and persistent, emotionally loaded material may deserve reflection or therapy. Two cautions hold across these approaches: do not wrestle with the mind when exhausted, and do not confuse short-term distraction with a long-term cure.",
+   "insight_en": "Counting how many times a thought appeared is often a poor measure of recovery, because counting requires repeated scanning for it. That scan can keep tagging the thought as important or dangerous. **A better sign of progress is that you return to what matters sooner and perform one fewer check, reassurance-seeking act, avoidance maneuver, or round of self-criticism.** This reframes a common failure of acceptance: people may say they are allowing the thought while secretly grading the exercise by whether it vanished. The internal monitor is still running. In ordinary life, frequency matters less than behavioral control. A thought can recur and yet lose power if it no longer dictates sleep, work, conversation, or decisions. You do not have to feel completely calm or understand the thought perfectly before resuming life. Restore routines and valued action first; emotional settling may follow. Flashbacks, compulsive rituals, major functional decline, or thoughts of self-harm call for professional assessment rather than a solo experiment.",
+   "advice_en": "Make a one-page response card today. First, when the thought arrives, say: I notice that my mind is producing X. Exhale slowly, release your jaw and shoulders, and spend one minute neither arguing with it nor trying to make it leave. Second, classify it. If it is actionable, write one step that takes under ten minutes and do it. If it is repetitive worry, note it in one line and postpone engagement until a fixed fifteen-minute worry period. If it is mild fear maintained by avoidance, build a graded ladder and practice only the easiest safe step this week, without using reassurance or escape to cancel the learning. Third, **track how long it takes to rejoin life, not how many times the thought appears.** Prioritize sleep, since fatigue worsens suppression and threat reactivity. If symptoms persist for two weeks with marked insomnia or impaired functioning, or involve flashbacks, compulsions, panic, or self-harm thoughts, contact a licensed mental-health professional."
+  },
+  {
+   "ai": "gemini",
+   "engine": "google · gemini-4-argon · high(真实API)",
+   "engine_en": "google · gemini-4-argon · high (live API)",
+   "summary": "靠意志力把念头硬摁下去，恰恰是给它续命的燃料——无论称之为大脑的“核查监工”还是以念除念的“法缚”，各方都认同：**与念头正面拔河必败无疑，放弃强行驱赶是解套的前提。**\n分歧在于“不赶之后怎么办”：该把念头当作浮云，靠转移注意、放松身体或“不住”让它流走（慧能、辛格、韦格纳）；还是视作信使与警报，靠挖掘潜意识、理性审视或暴露练习去直面它（弗洛伊德、爱比克泰德、勒杜）？威廉·詹姆斯最终给出了最佳弥合：**念头并非同一种东西，区分无害杂念、现实待办与深层恐惧，才能按图索骥、对症下药。**",
+   "insight": "实验室里的“白熊”是教授布置的，但现实中是谁给你下了禁令？人脑的“默认模式网络”每天都在自动弹射上千条杂乱念头，绝大多数两秒就灭了。一个念头之所以被你立为“白熊”并招来监工，往往源于心理学上的“思维-现实混淆”——**你误把“脑海里闪过一个念头”当成了“我内心真这么想”或“坏事即将发生”的铁证。**比如闪过前任或某句恶评，本来只是普通的神经背景噪音，你却被“我怎么还在想这事”吓坏了，拼命想证明自己已经放下。看清大脑只是一台偶尔吐出乱码的预测机器，不再对弹窗本身大惊小怪，监工就彻底失业了。",
+   "advice": "今晚就能上手的三步“卸载法”：\n第一，加个“弹窗前缀”。恼人想法冒头时，别去辩论，在心里默念“大脑正弹出一则关于……的垃圾广告”，切断对它的过度解读。\n第二，借用韦格纳与陀氏的“纸面寄存”。睡前若反复反刍糟心事，在床头纸上写下关键词，约定“明天下午四点专门担心十五分钟”，用纸笔帮大脑关闭未完成的后台警报。\n第三，执行辛格与詹姆斯的“生理切屏”。发现自己又在死磕，立刻松开咬紧的后槽牙、沉下双肩，起身去倒杯水——**当思维在脑内打死结时，用具体的肌肉放松与动作切换把注意力物理拽出来。**",
+   "summary_en": "Using brute willpower to wrestle a thought into submission is the very fuel that keeps it alive. Whether framed as the brain's \"ironic monitoring process\" or Zen's \"bondage of fighting thought with thought,\" the panel shares a foundational premise: **playing tug-of-war with an intrusive thought is a rigged game, and dropping the urge to evict it is the prerequisite for relief.**\nThe real friction lies in what comes after you stop pushing. Should you treat the thought as drifting weather—letting it dissolve through physical relaxation, non-dwelling awareness, or a pre-chosen distraction (Huineng, Singer, Wegner)? Or should you treat it as an urgent telegram that must be opened—decoding its repressed wish, auditing its logic, or facing it through deliberate exposure (Freud, Epictetus, LeDoux)? William James bridges this divide with pragmatic elegance: **not all thoughts belong to the same species, and true mastery means triaging harmless earworms, actionable debts, and deep-seated fears rather than applying one cure to all.**",
+   "insight_en": "In Wegner's lab, a professor assigns you the \"white bear.\" In real life, who issues the ban? The brain's Default Mode Network automatically spits out thousands of fragmented, bizarre, or unpleasant thoughts every day, most of which vanish within seconds. A passing thought only turns into a haunting white bear because of a metacognitive trap known in clinical psychology as \"thought-action fusion\": **we mistake the mere appearance of a random mental fragment for proof of who we are, what we secretly want, or what is about to go wrong.** When a fleeting memory of an ex or an absurd worry flashes by, we panic at the fact that we thought it at all, immediately hiring the mental monitor to guard against it. Once you realize the brain is just a noisy prediction machine occasionally outputting static—and stop treating every mental pop-up as a personal confession—the ironic monitor loses its job before the struggle even begins.",
+   "advice_en": "Three concrete moves you can test tonight:\nFirst, slap on a \"pop-up prefix.\" When an unwanted thought strikes, don't argue with its content; mentally label it by saying, \"My brain is currently broadcasting a spam ad about [X].\" This instantly strips the thought of its authority.\nSecond, use Wegner and Dostoevsky's \"external parking.\" If a humiliating remark loops at bedtime, jot it down on a notepad and schedule a strict 15-minute \"worry appointment\" for 4:00 PM tomorrow. Putting ink on paper signals to your working memory that the file is saved, allowing the mental alarm to stand down.\nThird, trigger Singer and James's \"somatic circuit-breaker.\" The moment you catch yourself ruminating, unclench your jaw, drop your shoulders, and walk to the kitchen for a glass of water—**when the mind is locked in a loop, use deliberate muscle release and physical movement to yank your attention back into the room.**"
+  }
+ ],
+ "hooks": [
+  {
+   "from": "claude",
+   "text": "**没安排的事最吵**：反复冒出的念头，常是一件没办完的事。写下何时、何地、第一步，念头往往就肯松手。",
+   "text_en": "**Unscheduled tasks are the loudest**: a thought that keeps returning is often unfinished business. Write down when, where and the first step, and it usually lets go."
+  },
+  {
+   "from": "gpt",
+   "text": "**别数念头出现几次**：每次计数都要先扫描它在不在。更好的进步指标是：念头来了之后，多久能回到手上的事？",
+   "text_en": "**Don't count how often a thought shows up**: every count means scanning for it first. A better measure of progress: once it comes, how quickly do you get back to what you were doing?"
+  },
+  {
+   "from": "gemini",
+   "text": "**把念头当真才是燃料**：闪过可怕念头的人超过九成，强迫症患者的不同在于认定“想到就说明我坏、就会发生”。怎样学会不把弹窗当证据？",
+   "text_en": "**Taking a thought seriously is the fuel**: over nine in ten people get frightening intrusive thoughts. People with OCD differ in believing that having one means they are bad or that it will happen. How do you stop treating a pop-up as evidence?"
+  },
+  {
+   "from": "wegner",
+   "text": "**哪种念头，用哪种办法**：待办、担忧、杂念、悔恨、闯入念头、失眠、闪回，各该怎么应对？",
+   "text_en": "**Which kind of thought, which tool**: to-dos, worries, mental clutter, regrets, intrusive thoughts, sleepless replays, flashbacks. How should you handle each?",
+   "answer": {
+    "lead": "先别急着赶，**认出它是哪一种念头**，再挑办法。",
+    "table": {
+     "head": [
+      "念头类型",
+      "先做什么",
+      "为什么"
+     ],
+     "rows": [
+      [
+       "一件没办完的事（账单、该回的消息）",
+       "写下何时、何地、第一步做什么",
+       "有了具体计划，大脑才肯交接（马西坎波与鲍迈斯特）"
+      ],
+      [
+       "对未来的担忧",
+       "记一笔，留到每天固定的十五分钟担忧时段",
+       "推迟比压制反弹小（韦格纳）"
+      ],
+      [
+       "无害杂念、洗脑神曲",
+       "不理它，或去做一件需要专注的小事",
+       "越检查它在不在，越是在提醒自己（韦格纳）"
+      ],
+      [
+       "反复咀嚼过去的错",
+       "把“为什么”改成“下次具体怎么做”",
+       "抽象追问让人原地打转，具体问题导向行动"
+      ],
+      [
+       "吓人的闯入念头",
+       "默念“这只是一个念头”，不检查、不抵消",
+       "九成以上的人都有过，麻烦在于把它当真（爱比克泰德）"
+      ],
+      [
+       "睡前翻来覆去",
+       "写在纸上放床头，明早再看",
+       "人越累，压制越容易失败（韦格纳、陀思妥耶夫斯基）"
+      ],
+      [
+       "闪回或强迫念头，持续数周、影响生活",
+       "找做暴露疗法或认知行为治疗的专业人员",
+       "一直回避，消退就无从发生（勒杜）"
+      ]
+     ]
+    },
+    "tail": "两条底线：**别在最累的时候跟念头硬拼；分心只能救急，躲久了就成了回避。**"
+   },
+   "answer_en": {
+    "lead": "Don't rush to drive it out. **First recognize what kind of thought it is**, then choose the tool.",
+    "table": {
+     "head": [
+      "Kind of thought",
+      "What to do first",
+      "Why"
+     ],
+     "rows": [
+      [
+       "An unfinished task (a bill, a message you owe)",
+       "Write down when, where and the first step",
+       "With a concrete plan, the brain agrees to hand it off (Masicampo & Baumeister)"
+      ],
+      [
+       "Worry about the future",
+       "Note it and save it for a fixed fifteen-minute worry slot each day",
+       "Postponing rebounds less than suppressing (Wegner)"
+      ],
+      [
+       "Harmless clutter, an earworm",
+       "Ignore it, or do a small task that needs focus",
+       "Every check on whether it's gone is another reminder (Wegner)"
+      ],
+      [
+       "Chewing over a past mistake",
+       "Turn \"why\" into \"what exactly will I do next time\"",
+       "Abstract questions keep you circling; concrete ones lead to action"
+      ],
+      [
+       "A frightening intrusive thought",
+       "Tell yourself \"this is just a thought\"; don't check or cancel it",
+       "Over nine in ten people have them; the trouble is taking them seriously (Epictetus)"
+      ],
+      [
+       "Tossing and turning at bedtime",
+       "Write it on paper by the bed and look again in the morning",
+       "The more tired you are, the more suppression fails (Wegner, Dostoevsky)"
+      ],
+      [
+       "Flashbacks or obsessive thoughts lasting weeks and disrupting life",
+       "See a professional who does exposure therapy or CBT",
+       "Keep avoiding and extinction never gets a chance (LeDoux)"
+      ]
+     ]
+    },
+    "tail": "Two ground rules: **don't wrestle a thought when you're most exhausted, and distraction is for emergencies; keep it up too long and it becomes avoidance.**"
+   }
+  }
+ ]
+}

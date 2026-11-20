@@ -2,16 +2,6 @@
   "_comment": "议题投票数据。candidates=未辩候选(供投票)，debated=已辩(链到辩论)。投票免 GitHub 登录，存于自建后端(Cloudflare Worker + D1，见 ~/Desktop/cissy0802.github.io/engage-backend/)：每候选一个 poll，key='topic:'+id，choice up/down，净票=👍−👎。votes 字段由 routine 每次跑 `python3 refresh_votes.py`(读后端 /votes-net) 回写；页面 ideas.js 也会实时拉取覆盖显示。观众自提议题在评论 page='thinker-open-questions'，各候选下讨论 page='topic:'+id——routine 读这些把好提案提炼成新 candidates。新候选加进 candidates 即可。",
   "candidates": [
     {
-      "id": "white-bear-thoughts",
-      "votes": 0,
-      "q": "越不想去想，为什么越忘不掉？",
-      "q_en": "Why can't we stop thinking what we try not to think?",
-      "note": "韦格纳让人别想白熊，白熊反而冒得更勤。压抑念头会反弹，那佛家的『观而不随』、斯多葛的审视、弗洛伊德的压抑，谁更懂怎样与念头相处？",
-      "note_en": "Wegner told people not to think of a white bear, and the bear kept coming back. If suppressed thoughts rebound, who understands living with them best: Buddhist noting, Stoic scrutiny, or Freud's repression?",
-      "cat": "self",
-      "brief": "选角方向：韦格纳（冷板凳，白熊实验/讽刺过程）、迈克尔·辛格（看着念头的那个人）、弗洛伊德、世亲（种子与现行）、爱比克泰德、勒杜（恐惧记忆）。佛陀近期出场过多，佛学视角改用世亲/龙树/慧能之一。"
-    },
-    {
       "id": "trusting-first-impressions",
       "votes": 0,
       "q": "第一印象，该信吗？",
@@ -1342,6 +1332,13 @@
       "q_en": "Should coworkers be friends?",
       "date": "2026-11-19",
       "cat": "work"
+    },
+    {
+      "id": "white-bear-thoughts",
+      "q": "越不想去想，为什么越忘不掉？",
+      "q_en": "Why can't we stop thinking what we try not to think?",
+      "date": "2026-11-20",
+      "cat": "self"
     }
   ]
 }
